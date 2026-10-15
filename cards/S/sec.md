@@ -57,7 +57,9 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature source of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/265/secluded-courtyard) · oracle_id `79ba18fd-f184-43c1-86df-56ee18ce806c` · printing: MSC #265 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0d17d04-cf0b-4918-bfec-b34b0d98a602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If Secluded Courtyard is somehow on the battlefield without a chosen type, mana from its second mana ability can't be spent on anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/265/secluded-courtyard) · oracle_id `79ba18fd-f184-43c1-86df-56ee18ce806c` · printing: MSC #265 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Glen
 
@@ -69,6 +71,7 @@
 - **Flavor text** (LRW printing):
   > *Protected by glamers and guile, Glen Elendra harbors the elusive Oona, queen of the fae.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/271/secluded-glen) · oracle_id `09f52275-99e6-45e0-b2db-cafe26d5fb91` · printing: LRW #271 (2007-10-12) · [rulings](https://api.scryfall.com/cards/9e4afa65-7933-4a64-b50f-a9a9f832b112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Starforge
@@ -82,6 +85,7 @@
 - **Flavor text** (EOE printing):
   > *The heat of a sun condensed into a forge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/257/secluded-starforge) · oracle_id `69f55a7c-6ddf-412e-b63b-b395731a1ff2` · printing: EOE #257 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a997ff9f-045a-44a2-983d-f36414cef1ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secluded Steppe
@@ -94,6 +98,7 @@
   > Cycling {W} ({W}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/177/secluded-steppe) · oracle_id `8dec6fcf-1254-4b1b-ba23-7a3e492a7241` · printing: EOC #177 (2025-08-01) · [rulings](https://api.scryfall.com/cards/aaa5bee9-3f6a-45b0-a282-6b23222e948f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Breakfast
@@ -106,7 +111,12 @@
   > *The Hobbits of the Shire were fond of six meals a day—when they could get them.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/29/second-breakfast) · oracle_id `bf5f68b8-8ae2-4d08-b86c-4e6d3b653fec` · printing: LTR #29 (2023-06-23) · [rulings](https://api.scryfall.com/cards/002f647a-25f8-461b-8617-52674f5d577c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/29/second-breakfast) · oracle_id `bf5f68b8-8ae2-4d08-b86c-4e6d3b653fec` · printing: LTR #29 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Chance
 
@@ -117,7 +127,12 @@
 - **Flavor text** (ULG printing):
   > *The greatest gift is the opportunity to right one's wrongs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20753 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/41/second-chance) · oracle_id `aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b` · printing: ULG #41 (1999-02-15) · [rulings](https://api.scryfall.com/cards/62d1a0da-40b9-4e79-bace-b93f98ae4695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — It is not optional.
+  - *2004-10-04* — The ability will only trigger if you have 5 or less life at the beginning of upkeep. This is checked again at the start of resolution and nothing happens if you do not still have 5 or less life.
+  - *2010-06-15* — On resolution of the trigger you have to sacrifice this card if you have 5 life or less. If you can't (because it is not on the battlefield, for example), then you still take an extra turn after this one.
+  - *2022-12-08* — If multiple "extra turn" effects resolve in the same turn, take them in the reverse of the order that the effects resolved. In other words, the most recently created extra turn is taken first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/41/second-chance) · oracle_id `aa19bbf0-7de3-4ec3-a98b-2ac7533c6b0b` · printing: ULG #41 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second City
 
@@ -127,6 +142,7 @@
   > {T}: Add {C}.
   > {T}: Add one mana of any color. Spend this mana only to cast your second spell in a turn. When that mana is spent, create a Deep Dish Pizza token. (It's a Food artifact with "{3}, {T}, Sacrifice this token: You gain 3 life and draw a card.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf25/4/second-city) · oracle_id `ee164c25-aab0-4568-9be7-1c26fb401ccd` · printing: PF25 #4 (2025-02-03) · [rulings](https://api.scryfall.com/cards/04ab3fa9-13b2-42da-bdf7-1df93e4e3e08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Guess
@@ -139,7 +155,11 @@
   > *"I see where you're going with that. I don't like it."*
   > *—Dierk, geistmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26326 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/74/second-guess) · oracle_id `b036eac6-60db-48ca-b6e1-b42afac959bd` · printing: AVR #74 (2012-05-04) · [rulings](https://api.scryfall.com/cards/0d22d093-8e89-4d54-ac04-14c8759de3ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-05-01* — It doesn’t matter if the first spell cast that turn has resolved yet or not. It also doesn’t matter how many spells have been cast after the second one, as long as the second spell cast is still on the stack.
+  - *2012-05-01* — Most spells and abilities that copy a spell create that copy on the stack. These copies are not cast and won’t count toward the number of spells cast that turn. However, a few (like Isochron Scepter’s ability) instruct you to copy a spell and “cast the copy.” These spells are cast and will count toward the number of spells cast that turn.
+  - *2012-05-01* — Second Guess can’t be cast unless the spell it targets is the second spell cast this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/74/second-guess) · oracle_id `b036eac6-60db-48ca-b6e1-b42afac959bd` · printing: AVR #74 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Harvest
 
@@ -151,7 +171,10 @@
   > *"The cornfields promise a good yield this season."*
   > *—Radwick, farmer of Gatstaf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #560 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/213/second-harvest) · oracle_id `61a6341e-0d36-44b6-8026-9c87c8ef61cb` · printing: INR #213 (2025-01-24) · [rulings](https://api.scryfall.com/cards/aaecd005-b849-4e75-a8e0-24231bf2a0c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Second Harvest copies all tokens, not only creature tokens.
+  - *2025-01-24* — Second Harvest copies the original characteristics of each token as stated by the effect that created that token. It doesn’t copy whether that token is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/213/second-harvest) · oracle_id `61a6341e-0d36-44b6-8026-9c87c8ef61cb` · printing: INR #213 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Sight
 
@@ -164,6 +187,7 @@
   > Entwine {U} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/33/second-sight) · oracle_id `1a4e948a-5a5e-4811-a6af-7ea93a051746` · printing: DST #33 (2004-02-06) · [rulings](https://api.scryfall.com/cards/24a07cdc-8335-45da-9ae2-3052193663ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Stage of Magic Design
@@ -173,6 +197,7 @@
 - **Oracle text:**
   > Whenever you cast a spell with a keyword or ability word, if it doesn't share a keyword or ability word with a permanent you control or a card in your graveyard, draw a card. (Keywords and ability words include abilities like flying, flashback, and landfall.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03d/second-stage-of-magic-design) · oracle_id `951f6b64-81f6-438a-a28e-dfdab127d20c` · printing: UNK #RU03d (2024-10-25) · [rulings](https://api.scryfall.com/cards/98c90956-2564-4e53-9f13-85ae8094481d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Sunrise
@@ -184,6 +209,7 @@
 - **Flavor text** (MRD printing):
   > *The bright tunnel sometimes leads back to life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/20/second-sunrise) · oracle_id `15cef63b-903e-4f1b-a128-e59157e07c36` · printing: MRD #20 (2003-10-02) · [rulings](https://api.scryfall.com/cards/4e50ee7c-f2a2-4d49-a1cc-8233fd8dd0c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Thoughts
@@ -196,7 +222,9 @@
 - **Flavor text** (EMA printing):
   > *It suddenly dawned on Jorin that farming was quite a noble profession.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28106 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/27/second-thoughts) · oracle_id `41bfef9f-6eb7-49c7-9b90-ff9f385ba670` · printing: EMA #27 (2016-06-10) · [rulings](https://api.scryfall.com/cards/2d8b53ca-272f-44ba-a3aa-13ec0844ada9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — If the targeted creature is an illegal target when Second Thoughts tries to resolve, the entire spell doesn’t resolve. You won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/27/second-thoughts) · oracle_id `41bfef9f-6eb7-49c7-9b90-ff9f385ba670` · printing: EMA #27 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Second Wind
 
@@ -210,7 +238,9 @@
   > *Vindr stormchasers believe that the same ancient forces that move the winds can also move mortal minds and hearts.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/57/second-wind) · oracle_id `1d8569c1-0b10-40a7-9a87-38571a782dd9` · printing: FUT #57 (2007-05-04) · [rulings](https://api.scryfall.com/cards/061d2f8f-1166-4579-9609-d8ba5db79172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — These abilities are abilities of the Aura, not abilities granted to the creature. Only the Aura’s controller can activate them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/57/second-wind) · oracle_id `1d8569c1-0b10-40a7-9a87-38571a782dd9` · printing: FUT #57 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Arcade // Dusty Parlor
 
@@ -222,7 +252,26 @@
   > Whenever you cast an enchantment spell, put a number of +1/+1 counters equal to that spell's mana value on up to one target creature.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/10/secret-arcade-dusty-parlor) · oracle_id `c8abde48-a07a-42a0-a43b-c357e6d9cad4` · printing: DSC #10 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fe050c16-9be5-42ef-988f-0531a8bb2352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell has {X} in its mana cost, use the value chosen for X when determining that spell's mana value.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If no creatures have died in a turn by the time that turn's end step begins, Séance Board's first ability won't trigger at all. Causing a creature to die during the end step won't cause the ability to trigger.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/10/secret-arcade-dusty-parlor) · oracle_id `c8abde48-a07a-42a0-a43b-c357e6d9cad4` · printing: DSC #10 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Base
 
@@ -234,6 +283,7 @@
 - **Flavor text** (UST printing):
   > *The Order of the Widget doesn't believe in traveling light.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/165a/secret-base) · oracle_id `1017088c-08a3-45d9-a7f7-01fb2f309717` · printing: UST #165a (2017-12-08) · [rulings](https://api.scryfall.com/cards/9a4306c2-1b92-4ccc-8d92-9f27f1505113/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Door
@@ -248,7 +298,18 @@
   > *The way opened before him, and the dust of centuries stirred in the air.*
 - **Keywords:** Defender, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/71/secret-door) · oracle_id `a53baf90-8d0c-4900-9f24-893ad31628ec` · printing: AFR #71 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3191e400-aa4e-4955-aca0-ecbe63ea240f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/71/secret-door) · oracle_id `a53baf90-8d0c-4900-9f24-893ad31628ec` · printing: AFR #71 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Identity
 
@@ -260,6 +321,7 @@
   > • Reveal — Until end of turn, target creature you control becomes a Hero with base power and toughness 3/4 and gains flying and vigilance.
 - **Keywords:** Conceal
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10403 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/43/secret-identity) · oracle_id `e6637f9f-8293-43a5-a134-93799a016ecb` · printing: SPM #43 (2025-09-26) · [rulings](https://api.scryfall.com/cards/37a31d84-e87b-406e-9249-fae1b5e23e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Invasion
@@ -272,6 +334,7 @@
   > Enchanted creature has ward {2}.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/72/secret-invasion) · oracle_id `25443ea4-3177-4e29-a2b1-f3fee60b3205` · printing: MSH #72 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e361b2f4-cd2f-44e9-a56d-c1d6b5ae742d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secretkeeper
@@ -284,6 +347,7 @@
 - **Flavor text** (SOK printing):
   > *It is all the things that humanity was not meant to know.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/54/secretkeeper) · oracle_id `709a8bf0-bd0b-4ee0-9c06-98b7551447b5` · printing: SOK #54 (2005-06-03) · [rulings](https://api.scryfall.com/cards/03247e03-747a-462a-ad74-49ce02d20f13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret of Bloodbending
@@ -296,7 +360,26 @@
   > Exile Secret of Bloodbending.
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/69/secret-of-bloodbending) · oracle_id `743fa824-18cb-4225-ba7b-5b0bbc3c8d41` · printing: TLA #69 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9bb928ae-f636-4aee-9146-a7885e6a8976/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — If the targeted player skips their next combat phase or turn, you'll control the next combat phase or turn the affected player actually takes.
+  - *2025-10-02* — In a Two-Headed Giant game, gaining control of a player causes you to gain control of each player on that team.
+  - *2025-10-02* — Multiple player-controlling effects that affect the same player overwrite each other. The last one to be created is the one that works.
+  - *2025-10-02* — The player you're controlling is still the active player during that turn.
+  - *2025-10-02* — While controlling another player, you also continue to make your own choices and decisions.
+  - *2025-10-02* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
+  - *2025-10-02* — While controlling another player, you make all choices and decisions that player is allowed to make or is told to make. This includes choices about what spells to cast or what abilities to activate, as well as any decisions called for by triggered abilities or for any other reason.
+  - *2025-10-02* — You also can't make any choices or decisions for the player that would be called for by the tournament rules (such as whether to take an intentional draw or whether to call a judge).
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+  - *2025-10-02* — You can use only the affected player's resources (cards, mana, and so on) to pay costs for that player; you can't use your own. Similarly, you can use the affected player's resources only to pay that player's costs; you can't spend them on your costs.
+  - *2025-10-02* — You can't make any illegal decisions or illegal choices—you can't do anything that player couldn't do. You can't make choices or decisions for that player that aren't called for by the game rules or by any cards, permanents, spells, abilities, and so on. If an effect causes another player to make decisions that the affected player would normally make (such as Master Warcraft does), that effect takes precedence. In other words, if the affected player wouldn't make a decision, you wouldn't make that decision on that player's behalf.
+  - *2025-10-02* — You can't make the affected player concede. That player may choose to concede at any time, even while you're controlling that player.
+  - *2025-10-02* — You only control the player. You don't control any of that player's permanents, spells, or abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/69/secret-of-bloodbending) · oracle_id `743fa824-18cb-4225-ba7b-5b0bbc3c8d41` · printing: TLA #69 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Passage
 
@@ -308,7 +391,13 @@
   > {4}, {T}: Investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/20/secret-passage) · oracle_id `c6a46fc2-fc8f-4dcd-bca7-682abfbf303d` · printing: CLU #20 (2024-02-23) · [rulings](https://api.scryfall.com/cards/6b35ede8-e882-46fd-9eda-9d6f64c73ea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/20/secret-passage) · oracle_id `c6a46fc2-fc8f-4dcd-bca7-682abfbf303d` · printing: CLU #20 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Plans
 
@@ -320,7 +409,9 @@
 - **Flavor text** (C19 printing):
   > *Rakshasa trade in secrets, amassing wealth from their careful revelation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/201/secret-plans) · oracle_id `7d0d7480-fddf-4841-bc2a-239e03f97f60` · printing: C19 #201 (2019-08-23) · [rulings](https://api.scryfall.com/cards/b223d673-79da-4e2e-84a4-db917fbbd7dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — As soon as a creature turns face up, it loses the +0/+1 from Secret Plans. If damage marked on that creature is equal to or greater than its new toughness, the creature will be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/201/secret-plans) · oracle_id `7d0d7480-fddf-4841-bc2a-239e03f97f60` · printing: C19 #201 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Rendezvous
 
@@ -331,7 +422,9 @@
 - **Flavor text** (SOC printing):
   > *Strixhaven's five colleges encourage rivalries among the students, but some bonds transcend all barriers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/166/secret-rendezvous) · oracle_id `34b90d3e-f48c-41ff-b3e4-5cab7a9cd597` · printing: SOC #166 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9be712b3-14ed-4a73-b3d3-5b76b2c5db64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If the opponent is an illegal target as Secret Rendezvous tries to resolve, neither player will draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/166/secret-rendezvous) · oracle_id `34b90d3e-f48c-41ff-b3e4-5cab7a9cd597` · printing: SOC #166 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Salvage
 
@@ -342,6 +435,7 @@
 - **Flavor text** (AER printing):
   > *There is no shortage of illegal salvage in Ghirapur, nor of those who are willing to profit from it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10079 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/71/secret-salvage) · oracle_id `f42fa525-dd17-448a-b0c3-29b90db2e30e` · printing: AER #71 (2017-01-20) · [rulings](https://api.scryfall.com/cards/d9b9f3e2-b5e8-4234-aaf3-5f1938a20c78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of Paradise
@@ -353,7 +447,23 @@
   > Creatures you control with the chosen name have "{T}: Add one mana of any color."
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/10/secrets-of-paradise) · oracle_id `f309fe9f-0732-4b81-a342-a394225cbbb1` · printing: CNS #10 (2014-06-06) · [rulings](https://api.scryfall.com/cards/15ace01c-93de-49e6-b9f9-276a2303f42f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/10/secrets-of-paradise) · oracle_id `f309fe9f-0732-4b81-a342-a394225cbbb1` · printing: CNS #10 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Dead
 
@@ -365,7 +475,9 @@
   > *"The veil between the living and the dead is so very thin that the whispers of the ancients can finally be heard."*
   > *—Amalric of Midvast Hall*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3742 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/95/secrets-of-the-dead) · oracle_id `b9720c63-5aa7-4fb8-8d71-8f55d8b1337b` · printing: C19 #95 (2019-08-23) · [rulings](https://api.scryfall.com/cards/066311f5-51fc-4da9-a5fa-fa5059a88e5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Secrets of the Dead’s triggered ability resolves before the spell you cast from your graveyard does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/95/secrets-of-the-dead) · oracle_id `b9720c63-5aa7-4fb8-8d71-8f55d8b1337b` · printing: C19 #95 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Golden City
 
@@ -378,7 +490,13 @@
   > *Stolen knowledge can never be stolen back.*
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/52/secrets-of-the-golden-city) · oracle_id `c0dda0d0-1fae-4777-ba86-9fe7990bf3a8` · printing: RIX #52 (2018-01-19) · [rulings](https://api.scryfall.com/cards/899ecd7a-bfd6-42a4-8cb2-18bac40b4401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2018-01-19* — If you cast a spell with ascend, you don’t get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/52/secrets-of-the-golden-city) · oracle_id `c0dda0d0-1fae-4777-ba86-9fe7990bf3a8` · printing: RIX #52 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secrets of the Key
 
@@ -391,7 +509,14 @@
   > *As Sigarda and Sorin battled, Arlinn and Teferi recovered the key from the Markov catacombs.*
 - **Keywords:** Investigate, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/73/secrets-of-the-key) · oracle_id `55c7ce94-3cd3-42f3-9dd8-0c118fa626c8` · printing: MID #73 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9b022ba8-07b6-4993-99c8-89c6dcb19e60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/73/secrets-of-the-key) · oracle_id `55c7ce94-3cd3-42f3-9dd8-0c118fa626c8` · printing: MID #73 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Summoning
 
@@ -402,7 +527,23 @@
   > Whenever a creature you control with the chosen name enters, you may search your library for any number of cards with that name, reveal them, put them into your hand, then shuffle.
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/9/secret-summoning) · oracle_id `1342ee23-c3a0-4578-833a-e30a9fc9141c` · printing: CNS #9 (2014-06-06) · [rulings](https://api.scryfall.com/cards/7867db8a-5adc-4fe9-aabd-aa55935e3227/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/9/secret-summoning) · oracle_id `1342ee23-c3a0-4578-833a-e30a9fc9141c` · printing: CNS #9 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secret Tunnel
 
@@ -416,7 +557,10 @@
   > *"I forget the next couple of lines, but then it goes...'Secret tunnel! Secret tunnel!"*
   > *—Chong, nomad musician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/278/secret-tunnel) · oracle_id `632e2979-d88a-482e-9bb8-57b683c5310f` · printing: TLA #278 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2d39a0e1-6484-409c-ab05-5b276925a949/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If one of the two creatures leaves the battlefield before Secret Tunnel's ability resolves, the other still can't be blocked this turn as long as it has a creature type that the other card had as it left the battlefield. Love and music always find a way.
+  - *2025-10-02* — The creatures must share at least one creature type, such as Ally or Lemur. Card types such as artifact, and supertypes such as legendary or snow, aren't creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/278/secret-tunnel) · oracle_id `632e2979-d88a-482e-9bb8-57b683c5310f` · printing: TLA #278 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure Detention
 
@@ -430,6 +574,7 @@
   > *"Enjoy your stay, Zemo. The quiet should help you ponder the consequences of your actions."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/608/secure-detention) · oracle_id `ce95e51d-4ef3-44a8-ae47-cf1bf71ebd3f` · printing: MSC #608 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ae5233b5-08fe-4b63-a0fa-6e5e07df3fa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure the Scene
@@ -442,7 +587,9 @@
   > *"You know it's a great show when the Azorius arrest the props, too!"*
   > *—Judith, the Scourge Diva*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/35/secure-the-scene) · oracle_id `d6a9746c-eba5-4735-aec1-e70edba2c686` · printing: M21 #35 (2020-07-03) · [rulings](https://api.scryfall.com/cards/d6467d96-e43a-4b1e-b6ce-578d991077b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If the target nonland permanent is an illegal target by the time Secure the Scene tries to resolve, the spell won't resolve. No player will create a Soldier token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/35/secure-the-scene) · oracle_id `d6a9746c-eba5-4735-aec1-e70edba2c686` · printing: M21 #35 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Secure the Wastes
 
@@ -454,6 +601,7 @@
   > *"The Shifting Wastes provide our clan eternal protection. It is our duty to return the favor."*
   > *—Kadri, Dromoka warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/31/secure-the-wastes) · oracle_id `b2347910-d6c6-4681-8316-7ef27056485c` · printing: FRC #31 (2026-10-02) · [rulings](https://api.scryfall.com/cards/83a01121-e5cd-45ba-97c2-7bd7d50158e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Securitron Squadron
@@ -467,7 +615,15 @@
   > Whenever a creature token you control enters, put a +1/+1 counter on it.
 - **Keywords:** Vigilance, Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/23/securitron-squadron) · oracle_id `96312b75-3110-4506-9f95-0c6c17d9da11` · printing: PIP #23 (2024-03-08) · [rulings](https://api.scryfall.com/cards/b689a206-aec3-4a31-95cf-3d4b840db04c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-03-08* — For example, if you pay Securitron Squadron’s squad cost three times, then you’ll create three token copies of Securitron Squadron when its squad ability resolves. Each of those tokens will enter the battlefield simultaneously. When they enter, their last abilities will each trigger three times (once for each of the other two tokens, and once for itself.) If the original Securitron Squadron is still on the battlefield, its last ability will trigger three times as well. After all of the triggered abilities resolve, each of the three token copies of Securitron Squadron will have four +1/+1 counters on it.
+  - *2024-03-08* — If Securitron Squadron enters the battlefield at the same time as one or more creature tokens, its last ability will trigger for each of those creature tokens. If that Securitron Squadron is itself a creature token, its last ability will trigger when it enters the battlefield as well.
+  - *2024-03-08* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2024-03-08* — If the spell resolves but the creature with squad leaves the battlefield before its squad ability resolves, you’ll still create the token copies.
+  - *2024-03-08* — If, for some reason, the creature doesn’t have the squad ability when it’s on the battlefield, the ability won’t trigger, even if you’ve paid the squad cost one or more times.
+  - *2024-03-08* — The tokens created by the squad ability aren’t “cast,” so any abilities that trigger when a spell is cast won’t trigger for the copies.
+  - *2024-03-08* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/23/securitron-squadron) · oracle_id `96312b75-3110-4506-9f95-0c6c17d9da11` · printing: PIP #23 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Blockade
 
@@ -479,7 +635,9 @@
   > Enchanted land has "{T}: Prevent the next 1 damage that would be dealt to you this turn."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28784 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/20/security-blockade) · oracle_id `b4b397a9-85cb-4bdf-8c2e-a151a02a4208` · printing: RTR #20 (2012-10-05) · [rulings](https://api.scryfall.com/cards/e6250b31-8592-48b2-a877-3637c9ee7d49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — You must target a land to cast Security Blockade. If that land is an illegal target when Security Blockade tries to resolve, it won't resolve and won't enter. You won't get the Knight token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/20/security-blockade) · oracle_id `b4b397a9-85cb-4bdf-8c2e-a151a02a4208` · printing: RTR #20 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Bypass
 
@@ -491,7 +649,11 @@
   > Enchanted creature has "Whenever this creature deals combat damage to a player, it connives." (Its controller draws a card, then discards a card. If they discarded a nonland card, they put a +1/+1 counter on this creature.)
 - **Keywords:** Enchant, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/59/security-bypass) · oracle_id `cb660c6d-dc8b-4779-8613-6acf19418baa` · printing: SNC #59 (2022-04-29) · [rulings](https://api.scryfall.com/cards/5c155be9-8432-4e35-b586-96b6339d27ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/59/security-bypass) · oracle_id `cb660c6d-dc8b-4779-8613-6acf19418baa` · printing: SNC #59 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Detail
 
@@ -500,6 +662,7 @@
 - **Oracle text:**
   > {W}{W}: Create a 1/1 white Soldier creature token. Activate only if you control no creatures and only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/47/security-detail) · oracle_id `2a26dee4-b4b6-489d-99e5-6dbd8d19419d` · printing: MMQ #47 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5b89d34b-1a67-4f5c-a731-54b56c5233ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Security Rhox
@@ -512,4 +675,5 @@
 - **Flavor text** (SNC printing):
   > *Unlucky assassins find out why he's called "Brick Wall" Balzano.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26610 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/220/security-rhox) · oracle_id `dffc6785-31b0-487c-b9a0-980bca39753d` · printing: SNC #220 (2022-04-29) · [rulings](https://api.scryfall.com/cards/0050dd40-9a18-41e4-97e6-fce5bf220ccf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

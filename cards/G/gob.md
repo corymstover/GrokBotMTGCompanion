@@ -210,6 +210,7 @@
 - **Flavor text** (RTR printing):
   > *The furious citizens blamed the Simic for releasing it in their district. The Simic pointed out that rats were no longer a problem.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20005 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/126/gobbling-ooze) · oracle_id `765a12fc-9b66-4bb7-88f6-6e7bd2d2f8c7` · printing: RTR #126 (2012-10-05) · [rulings](https://api.scryfall.com/cards/465d8a63-0ced-4aec-be34-2098b72c8af6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gobhobbler Rats
@@ -223,6 +224,7 @@
   > *Lyzolda's pet rats eat better than the average citizen. In fact, they can usually be found eating the average citizen.*
 - **Keywords:** Heal, Regenerate, Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/185/gobhobbler-rats) · oracle_id `aa254e74-583d-4681-8169-5ac0dbdb10e5` · printing: RVR #185 (2024-01-12) · [rulings](https://api.scryfall.com/cards/649bd603-5686-42e8-bb31-8578d6a245fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gobland
@@ -234,7 +236,16 @@
   > (Gobland isn't a spell, it's affected by summoning sickness, and it has "{T}: Add {R}.")
   > Gobland can't block.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/563/gobland) · oracle_id `74900080-80a6-4fd8-9557-5f773c0e4bec` · printing: MB2 #563 (2024-08-02) · [rulings](https://api.scryfall.com/cards/081ec377-30f4-4eb3-8801-78426045d100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-11-08* — Due to its color indicator (appearing to the left of its type line), Gobland is red. Color indicators apply in all zones, not just the battlefield.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Gobland is played as a land. It doesn’t use the stack, it’s not a spell, it can’t be responded to, it has no mana cost, and it counts as your land play for the turn.
+  - *2024-11-08* — If Gobland gains flash, or you have the ability to play Gobland as though it had flash (due to Teferi, Druid of Argoth, for example), you can ignore the normal timing rules for when during your turn you can play a land, but not any other restrictions. You can’t play Gobland during another player’s turn, and you can’t play Gobland if you don’t have any land plays remaining.
+  - *2024-11-08* — If Gobland is changed into another basic land type, it continues to be a red Goblin creature.
+  - *2024-11-08* — Mountain is a land type and Goblin is a creature type.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/563/gobland) · oracle_id `74900080-80a6-4fd8-9557-5f773c0e4bec` · printing: MB2 #563 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go Blank
 
@@ -245,7 +256,9 @@
 - **Flavor text** (STX printing):
   > *The only feeling worse than not knowing the answer is the certainty that you once did.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/72/go-blank) · oracle_id `60186579-285b-4034-a782-431f79df5b07` · printing: STX #72 (2021-04-23) · [rulings](https://api.scryfall.com/cards/846e8657-7435-44c6-a997-b8b156d0cd2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If the target player has one card in hand as Go Blank resolves, they’ll discard it and the cards in their graveyard will be exiled. If their hand is empty, you’ll just exile the cards in their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/72/go-blank) · oracle_id `60186579-285b-4034-a782-431f79df5b07` · printing: STX #72 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### _____ Goblin
 
@@ -257,6 +270,7 @@
 - **Flavor text** (UNF printing):
   > *The Astrotorium has never been a place for self-restraint.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/107/_____-goblin) · oracle_id `88222fd2-8316-426c-8218-64f6be5ca0f8` · printing: UNF #107 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5819e3f3-da49-4003-88ce-f3b7bb495787/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Airbrusher
@@ -270,6 +284,7 @@
   > *Once he'd worked out which end of the thing the paint came from, he was promoted to shirt duty.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/108/goblin-airbrusher) · oracle_id `906881da-6bb3-4a0e-9bd1-d1a5bc484144` · printing: UNF #108 (2022-10-07) · [rulings](https://api.scryfall.com/cards/85a42d2c-8ef3-4789-a0c9-eacdc9005fc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Anarchomancer
@@ -282,7 +297,9 @@
 - **Flavor text** (MH2 printing):
   > *A good Gruul shaman can work a whole clan into a frenzy. A great one will wait until the enemy's nearby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/200/goblin-anarchomancer) · oracle_id `e9319f13-1f2b-429c-9d61-e58a3cbec86a` · printing: MH2 #200 (2021-06-18) · [rulings](https://api.scryfall.com/cards/633a3423-501d-4b22-95a6-743233be521e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — A spell that's both red and green costs {1} less to cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/200/goblin-anarchomancer) · oracle_id `e9319f13-1f2b-429c-9d61-e58a3cbec86a` · printing: MH2 #200 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Archaeologist
 
@@ -294,6 +311,7 @@
 - **Flavor text** (DST printing):
   > *Always easily impressed, Durg was about to be blown away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9998 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/63/goblin-archaeologist) · oracle_id `7d61dd63-7c39-4d43-ba8e-a4e1b98c2192` · printing: DST #63 (2004-02-06) · [rulings](https://api.scryfall.com/cards/a326a7d0-8e24-4ae4-9014-ca6eb6983644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Arsonist
@@ -306,6 +324,7 @@
 - **Flavor text** (M21 printing):
   > *With great power comes great risk of getting yourself killed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/147/goblin-arsonist) · oracle_id `c1177f22-a1cf-4da3-a68d-ff954e878403` · printing: M21 #147 (2020-07-03) · [rulings](https://api.scryfall.com/cards/fa4bf664-3b92-4598-b905-2bc090958c8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Artillery
@@ -318,7 +337,9 @@
 - **Flavor text** (M10 printing):
   > *Most goblins get their turn firing the catapult, but few achieve the coveted title of Ammunition Holder.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/138/goblin-artillery) · oracle_id `06db7444-0225-48c8-ab04-d69ff06e97b6` · printing: M10 #138 (2009-07-17) · [rulings](https://api.scryfall.com/cards/674bd59d-9d6d-434d-974f-3aa1cbd770b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If the targeted permanent or player is an illegal target by the time Goblin Artillery's ability would resolve, the entire ability doesn't resolve. You won't be dealt any damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/138/goblin-artillery) · oracle_id `06db7444-0225-48c8-ab04-d69ff06e97b6` · printing: M10 #138 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Artisans
 
@@ -328,6 +349,7 @@
 - **Oracle text:**
   > {T}: Flip a coin. If you win the flip, draw a card. If you lose the flip, counter target artifact spell you control that isn't the target of an ability from another creature named Goblin Artisans.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25142 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/48/goblin-artisans) · oracle_id `ec85a375-fe38-4b11-af0e-f2b466181dd7` · printing: CHR #48 (1995-07-01) · [rulings](https://api.scryfall.com/cards/b4e8d779-ef6f-4b09-870e-f1fdeac83e32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Assailant
@@ -340,6 +362,7 @@
 - **Flavor text** (M20 printing):
   > *What he lacks in patience, intelligence, empathy, lucidity, hygiene, ability to follow orders, self-regard, and discernible skills, he makes up for in sheer chaotic violence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21966 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/330/goblin-assailant) · oracle_id `bc654150-b051-40bd-81f8-621abbb17e91` · printing: M20 #330 (2019-07-12) · [rulings](https://api.scryfall.com/cards/8cfefb65-b6e4-44a1-baa9-d3c00ee8ba96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Assassin
@@ -352,7 +375,9 @@
 - **Flavor text** (LGN printing):
   > *The more victims he kills, the more likely he is to get the right one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/95/goblin-assassin) · oracle_id `faf9bb36-e537-42a8-b9ee-bf2c50b0e5bd` · printing: LGN #95 (2003-02-03) · [rulings](https://api.scryfall.com/cards/57ec836f-6dcf-45f9-8e95-487762742a1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This coin flip has no winner or loser.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/95/goblin-assassin) · oracle_id `faf9bb36-e537-42a8-b9ee-bf2c50b0e5bd` · printing: LGN #95 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Assault
 
@@ -364,7 +389,9 @@
 - **Flavor text** (MM3 printing):
   > *A goblin raid is a delicate gambit—a blend of stealth, precision, and screaming death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/95/goblin-assault) · oracle_id `d1255776-b88b-4f05-9b71-ff89a2eba453` · printing: MM3 #95 (2017-03-17) · [rulings](https://api.scryfall.com/cards/473fb06e-5c71-4370-a5d7-7753d84d0fd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — Goblin Assault’s second ability affects all Goblin creatures controlled by all players. It’s not limited to the tokens created with the first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/95/goblin-assault) · oracle_id `d1255776-b88b-4f05-9b71-ff89a2eba453` · printing: MM3 #95 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Assault Team
 
@@ -378,7 +405,9 @@
   > *Under the veneer of the various guilds, each goblin has the same basic need: to run screaming at the enemy and hit a bunch of stuff.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/129/goblin-assault-team) · oracle_id `d464b54c-3b02-4c4e-99ef-1ad75f336c65` · printing: WAR #129 (2019-05-03) · [rulings](https://api.scryfall.com/cards/880047fd-d258-40fb-bcd5-37cb26678dfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If Goblin Assault Team and another creature you control die simultaneously (perhaps because they were both dealt lethal damage in combat), the other creature won’t be on the battlefield when you choose a target for Goblin Assault Team’s ability. That creature can’t be saved by the +1/+1 counter that Goblin Assault Team gives.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/129/goblin-assault-team) · oracle_id `d464b54c-3b02-4c4e-99ef-1ad75f336c65` · printing: WAR #129 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Balloon Brigade
 
@@ -390,7 +419,10 @@
 - **Flavor text** (CN2 printing):
   > *"The enemy is getting too close! Quick! Inflate the toad!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/159/goblin-balloon-brigade) · oracle_id `10bc98b0-3fdc-46d1-8d3b-6d160e9dd62f` · printing: CN2 #159 (2016-08-26) · [rulings](https://api.scryfall.com/cards/485e9d38-1536-4af6-9b58-00c08c07e222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — You can activate the ability repeatedly during a turn. This generally has no additional effect, unless some other effect (like that from Adarkar Windform has caused it to lose flying since the last time the ability resolved.
+  - *2010-08-15* — For flying to work as an evasion ability, an attacking Goblin Balloon Brigade's ability must be activated before the declare blockers step begins. Once Goblin Balloon Brigade has become blocked, giving it flying won't change that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/159/goblin-balloon-brigade) · oracle_id `10bc98b0-3fdc-46d1-8d3b-6d160e9dd62f` · printing: CN2 #159 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bangchuckers
 
@@ -400,7 +432,10 @@
 - **Oracle text:**
   > {T}: Flip a coin. If you win the flip, this creature deals 2 damage to any target. If you lose the flip, this creature deals 2 damage to itself.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/137/goblin-bangchuckers) · oracle_id `f2561cc9-3840-4bd7-ad8b-a85d35e47f71` · printing: M12 #137 (2011-07-15) · [rulings](https://api.scryfall.com/cards/b56ddad0-23ea-4139-a200-c76c9c46e8c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — If the permanent or player is an illegal target when Goblin Bangchuckers’ ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t flip a coin and no damage will be dealt.
+  - *2011-09-22* — You choose the target when you activate the ability. You don’t flip the coin until the ability resolves. Players may respond to the ability, but they won’t know the results of the coin flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/137/goblin-bangchuckers) · oracle_id `f2561cc9-3840-4bd7-ad8b-a85d35e47f71` · printing: M12 #137 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Banneret
 
@@ -414,7 +449,11 @@
   > *The Boros banner stands tall even if its bearer doesn't.*
 - **Keywords:** Mentor
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18509 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/110/goblin-banneret) · oracle_id `a2d9554e-70c0-4213-ba5e-f0954ad32854` · printing: 2X2 #110 (2022-07-08) · [rulings](https://api.scryfall.com/cards/cf20cfd7-81f4-423c-a662-c4b6676edfdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
+  - *2018-10-05* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
+  - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/110/goblin-banneret) · oracle_id `a2d9554e-70c0-4213-ba5e-f0954ad32854` · printing: 2X2 #110 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Barrage
 
@@ -425,7 +464,15 @@
   > Goblin Barrage deals 4 damage to target creature. If this spell was kicked, it also deals 4 damage to target player or planeswalker.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/128/goblin-barrage) · oracle_id `0071723e-388d-4ae7-bc99-c143dd356c63` · printing: DOM #128 (2018-04-27) · [rulings](https://api.scryfall.com/cards/4849db5d-cd41-49f6-acd5-697cdc8263f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-04-27* — You can't cast Goblin Barrage unless you choose a creature as a target, even if it's kicked. However, you can target a Goblin or artifact creature you control and then sacrifice it to pay the kicker cost. The target player or planeswalker will be dealt 4 damage.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/128/goblin-barrage) · oracle_id `0071723e-388d-4ae7-bc99-c143dd356c63` · printing: DOM #128 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Battle Jester
 
@@ -437,6 +484,7 @@
 - **Flavor text** (M13 printing):
   > *Somehow goblins found a tactical advantage by sending a clown to war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/135/goblin-battle-jester) · oracle_id `eba01ee1-55c4-48db-843b-fd6d48c32eda` · printing: M13 #135 (2012-07-13) · [rulings](https://api.scryfall.com/cards/c13e56b0-becc-4bc2-9ba3-23b3ca8bfe58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Berserker
@@ -451,6 +499,7 @@
   > *—or the word "meaning," for that matter.*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29817 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/82/goblin-berserker) · oracle_id `5f71f205-9551-416a-bba6-55bc65d11c85` · printing: UDS #82 (1999-06-07) · [rulings](https://api.scryfall.com/cards/a3c7635d-98b2-4505-9153-d7e9e53ea16d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bird-Grabber
@@ -463,7 +512,9 @@
 - **Flavor text** (M20 printing):
   > *"I opens my mouth to catches the bugs!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/142/goblin-bird-grabber) · oracle_id `780f8be6-d477-43ca-92ba-0fe480bbd54d` · printing: M20 #142 (2019-07-12) · [rulings](https://api.scryfall.com/cards/54fbbf39-cd52-474a-908e-b7a78cb5eb5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — The only time that Goblin Bird-Grabber's ability checks whether you control a creature with flying is the moment you activate that ability. It's not checked again as the ability resolves or any time later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/142/goblin-bird-grabber) · oracle_id `780f8be6-d477-43ca-92ba-0fe480bbd54d` · printing: M20 #142 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Blastronauts
 
@@ -477,7 +528,12 @@
   > *The goblins really put themselves into the fireworks show, despite Myra's pleas to stop.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/109/goblin-blastronauts) · oracle_id `d6581fa6-d2a2-4a19-8a7a-1de7e236e3bf` · printing: UNF #109 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c2f4263e-4630-4e22-b3b5-d2abf829567d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — Activated and triggered abilities can be copied. Other abilities can’t. If the roll happened because of a replacement effect as part of a static ability (for example, the ability that sets Vedalken Squirrel-Whacker’s base power and toughness), that ability isn’t copied. Mana abilities also can’t be copied.
+  - *2022-10-07* — If you copy a spell or ability, the spell or ability will include instructions to roll more dice. You don’t automatically carry the 6 from the original roll over to the copy. On the plus side, this gives you the chance to roll more 6s!
+  - *2022-10-07* — If you copy an Attraction visit, roll another six-sided die and visit Attractions based on the result as you normally would. If you roll another 6, that will trigger Goblin Blastronauts’s last ability again, which can let you roll another 6. You can keep visiting Attractions this way until your luck runs out or you get sick of the rides.
+  - *2022-10-07* — If you roll multiple 6s, Goblin Blastronauts’s ability will trigger for each 6 you rolled, allowing you to copy the spell or ability that caused the die roll that many times. (Attraction visits always include only a single die roll.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/109/goblin-blastronauts) · oracle_id `d6581fa6-d2a2-4a19-8a7a-1de7e236e3bf` · printing: UNF #109 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Blast-Runner
 
@@ -489,7 +545,9 @@
 - **Flavor text** (BRO printing):
   > *Most goblins can light a fuse and run, but only the cleverest remember to drop the bomb.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/137/goblin-blast-runner) · oracle_id `8b69da01-3ba5-4a61-9e26-e879b6d8b63e` · printing: BRO #137 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bd77c575-93a4-44ec-8940-adcbfc6e7a84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — Goblin Blast-Runner doesn't need to have been on the battlefield at the time the permanent was sacrificed in order to get the bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/137/goblin-blast-runner) · oracle_id `8b69da01-3ba5-4a61-9e26-e879b6d8b63e` · printing: BRO #137 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Boarders
 
@@ -503,7 +561,10 @@
   > *—Breeches, munitions master*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/87/goblin-boarders) · oracle_id `4c64feae-95d7-426d-9e42-d3b0841d2054` · printing: FDN #87 (2024-11-15) · [rulings](https://api.scryfall.com/cards/4409a063-bf2a-4a49-803e-3ce6bd474353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/87/goblin-boarders) · oracle_id `4c64feae-95d7-426d-9e42-d3b0841d2054` · printing: FDN #87 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bomb
 
@@ -513,7 +574,9 @@
   > At the beginning of your upkeep, you may flip a coin. If you win the flip, put a fuse counter on this enchantment. If you lose the flip, remove a fuse counter from this enchantment.
   > Remove five fuse counters from this enchantment and sacrifice it: It deals 20 damage to target player or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12458 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/103/goblin-bomb) · oracle_id `061e2ef6-ce8d-4319-b525-96b9c2824001` · printing: WTH #103 (1997-06-09) · [rulings](https://api.scryfall.com/cards/97e8a436-9fd0-409f-a020-0f9f41602d50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Nothing happens if you are instructed to remove a fuse counter from an empty card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/103/goblin-bomb) · oracle_id `061e2ef6-ce8d-4319-b525-96b9c2824001` · printing: WTH #103 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bombardment
 
@@ -524,6 +587,7 @@
 - **Flavor text** (MH2 printing):
   > *With one motion, a pest is removed and a scourge inflicted.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/279/goblin-bombardment) · oracle_id `edad60c6-80de-4033-af1b-a703ac332983` · printing: MH2 #279 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e262f55e-9239-4a97-a19e-9b08fb34502e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bookie
@@ -537,6 +601,7 @@
   > *"Glok loved bets! He'd sit in the bar all night an' laugh an' laugh. Hey—he still owes me."*
   > *—Squee, goblin casino hand*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/43/goblin-bookie) · oracle_id `5160e929-48ea-4620-be54-20ea7b6fc964` · printing: UGL #43 (1998-08-11) · [rulings](https://api.scryfall.com/cards/dc880e76-1e92-4af1-b89f-b5a2b60b86f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Boom Keg
@@ -549,6 +614,7 @@
 - **Flavor text** (FRF printing):
   > *Dragonfire spawned many imitations. Some were more dramatic than others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26910 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/159/goblin-boom-keg) · oracle_id `8e819d68-3a6e-449a-8392-e072724b80f1` · printing: FRF #159 (2015-01-23) · [rulings](https://api.scryfall.com/cards/14343e23-83fb-4d2e-a272-20d7787ef2ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bowling Team
@@ -561,6 +627,7 @@
 - **Flavor text** (UGL printing):
   > *Flog was out of his league—this game wasn't up his alley, but the team couldn't spare him if he split.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/44/goblin-bowling-team) · oracle_id `29d6b745-97be-4f38-88f7-9408302aae74` · printing: UGL #44 (1998-08-11) · [rulings](https://api.scryfall.com/cards/00325992-ec1c-469a-8df0-ffb9a197d221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Brawler
@@ -575,7 +642,9 @@
   > *Perhaps he shuns technology. Perhaps he appreciates nature. Perhaps he doesn't know the difference.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/66/goblin-brawler) · oracle_id `4abb4fb0-f674-44b5-962c-c66219fb0deb` · printing: 5DN #66 (2004-06-04) · [rulings](https://api.scryfall.com/cards/f6586c04-f92d-4c3f-8b03-59e5ef158ed4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — You can activate an equip ability that targets Goblin Brawler, but the Equipment will fail to move onto it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/66/goblin-brawler) · oracle_id `4abb4fb0-f674-44b5-962c-c66219fb0deb` · printing: 5DN #66 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Brigand
 
@@ -587,6 +656,7 @@
 - **Flavor text** (9ED printing):
   > *Like a loaded cannon—point and shoot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29162 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/190/goblin-brigand) · oracle_id `22134489-efce-4903-9f14-37a2248e8546` · printing: 9ED #190 (2005-07-29) · [rulings](https://api.scryfall.com/cards/862a481a-f236-4e99-b4b9-086e6cb8f4de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bully
@@ -599,6 +669,7 @@
 - **Flavor text** (ME4 printing):
   > *It's easy to stand head and shoulders over those with no backbone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/117/goblin-bully) · oracle_id `56c5afdc-6777-45c7-8e2c-3cadecb95c5a` · printing: ME4 #117 (2011-01-10) · [rulings](https://api.scryfall.com/cards/6f22a45e-7352-4f5b-b298-eca4375ea28c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Burrows
@@ -609,6 +680,7 @@
   > {T}: Add {C}.
   > {1}{R}, {T}: Target Goblin creature gets +2/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9812 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/evg/58/goblin-burrows) · oracle_id `ad65bb8e-57de-49f3-ba7c-be62cf3fe3df` · printing: EVG #58 (2014-12-05) · [rulings](https://api.scryfall.com/cards/dc36acc6-db4b-45b7-b526-7966ff82a44f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Bushwhacker
@@ -621,7 +693,15 @@
   > When this creature enters, if it was kicked, creatures you control get +1/+0 and gain haste until end of turn.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/125/goblin-bushwhacker) · oracle_id `878b6808-48af-4047-ac35-bfc58bf92e7d` · printing: ZEN #125 (2009-10-02) · [rulings](https://api.scryfall.com/cards/4085a5bf-a71b-4c73-9b39-0dcc328fe11b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2009-10-01* — Only creatures you control as Goblin Bushwhacker's ability resolves are affected. This includes Goblin Bushwhacker itself, unless it already left the battlefield by then.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/125/goblin-bushwhacker) · oracle_id `878b6808-48af-4047-ac35-bfc58bf92e7d` · printing: ZEN #125 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cadets
 
@@ -633,6 +713,7 @@
 - **Flavor text** (CMD printing):
   > *"If you kids don't stop that racket, I'm turning this expedition around \*right now!\*"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12065 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/125/goblin-cadets) · oracle_id `32dc847a-d8e9-4bc5-aa73-dfe69ff330a2` · printing: CMD #125 (2011-06-17) · [rulings](https://api.scryfall.com/cards/78f93873-5053-40c6-b79a-3c54a8005b75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cannon
@@ -644,7 +725,9 @@
 - **Flavor text** (5DN printing):
   > *Goblin cannon crews are known not for their aim but for their ability to dive for cover.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/125/goblin-cannon) · oracle_id `c939e74d-4206-4ad1-bdaa-84103db0ac41` · printing: 5DN #125 (2004-06-04) · [rulings](https://api.scryfall.com/cards/b023c0cd-7046-418b-ad31-5c91c6930d45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — You can activate Goblin Cannon's ability multiple times in response to the first activation. Goblin Cannon will be sacrificed the first time the ability resolves, but each activation still deals damage when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/125/goblin-cannon) · oracle_id `c939e74d-4206-4ad1-bdaa-84103db0ac41` · printing: 5DN #125 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cavaliers
 
@@ -656,6 +739,7 @@
 - **Flavor text** (ME4 printing):
   > *They get along so well with their goats because they're practically goats themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30550 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/118/goblin-cavaliers) · oracle_id `be77e3f8-76a3-4d03-a8be-ad4b0b72f929` · printing: ME4 #118 (2011-01-10) · [rulings](https://api.scryfall.com/cards/ca126c9e-1372-486f-afd0-4fd9da56e593/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Caves
@@ -667,7 +751,10 @@
   > As long as enchanted land is a basic Mountain, Goblin creatures get +0/+2.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/119/goblin-caves) · oracle_id `3ab5c3a7-12e7-4394-a495-0bc7c310bf9c` · printing: ME4 #119 (2011-01-10) · [rulings](https://api.scryfall.com/cards/bcba2255-b0ae-43b9-b9fd-62da04d5e397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Works even if placed on one of your opponent's Mountains.
+  - *2004-10-04* — Works if enchanting a Snow-Covered Mountain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/119/goblin-caves) · oracle_id `3ab5c3a7-12e7-4394-a495-0bc7c310bf9c` · printing: ME4 #119 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Chainwhirler
 
@@ -681,7 +768,10 @@
   > *"The trick is, once you get moving, don't stop!"*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/129/goblin-chainwhirler) · oracle_id `0342b085-be20-475a-bc38-59b9cb6012e8` · printing: DOM #129 (2018-04-27) · [rulings](https://api.scryfall.com/cards/8bdb2883-3cfd-4fb0-9f99-6a57277f7fe4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — If the damage Goblin Chainwhirler would deal to a player is prevented, it still deals 1 damage to that player’s creatures and planeswalkers.
+  - *2018-04-27* — In a Two-Headed Giant game, the Goblin Chainwhirler’s last ability causes the opposing team to lose 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/129/goblin-chainwhirler) · oracle_id `0342b085-be20-475a-bc38-59b9cb6012e8` · printing: DOM #129 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Champion
 
@@ -695,7 +785,9 @@
   > *The stories of his heroics are inspiring, though none of them are remotely true.*
 - **Keywords:** Exalted, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/127/goblin-champion) · oracle_id `414446e7-44fa-455c-8cf4-8afa170b6586` · printing: MH1 #127 (2019-06-14) · [rulings](https://api.scryfall.com/cards/9543660a-6797-4719-bbe7-ff6e40709599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — A creature attacks alone if it’s the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, exalted won’t trigger if you attack with multiple creatures and all but one of them are removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/127/goblin-champion) · oracle_id `414446e7-44fa-455c-8cf4-8afa170b6586` · printing: MH1 #127 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Charbelcher
 
@@ -705,7 +797,10 @@
   > {3}, {T}: Reveal cards from the top of your library until you reveal a land card. This artifact deals damage equal to the number of nonland cards revealed this way to any target. If the revealed land card was a Mountain, this artifact deals double that damage instead. Put the revealed cards on the bottom of your library in any order.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/57/goblin-charbelcher) · oracle_id `c9b1557b-70b1-44f2-9fc2-7aa0b035b187` · printing: DDT #57 (2017-10-24) · [rulings](https://api.scryfall.com/cards/240344ff-404d-4894-a6e9-4401cd68cf50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If you reveal no land cards, Goblin Charbelcher deals damage equal to the number of cards revealed, and then you may order your library as you like.
+  - *2016-06-08* — You must choose a target for Goblin Charbelcher's ability as you activate it, before you reveal any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/57/goblin-charbelcher) · oracle_id `c9b1557b-70b1-44f2-9fc2-7aa0b035b187` · printing: DDT #57 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Chariot
 
@@ -718,6 +813,7 @@
   > *The hardest part of his training is learning not to eat the boar.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/191/goblin-chariot) · oracle_id `6ef0dd51-31df-4fd3-8153-49a427a7fdcf` · printing: 9ED #191 (2005-07-29) · [rulings](https://api.scryfall.com/cards/136a15cb-9591-4521-a142-af766dd7eeef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Chieftain
@@ -732,6 +828,7 @@
   > *"It's time for the 'Smash, Smash' song!"*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2580 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/324/goblin-chieftain) · oracle_id `368b4052-174e-4458-a6e6-eaf8093aa0fe` · printing: JMP #324 (2020-07-17) · [rulings](https://api.scryfall.com/cards/89fcc35b-76fa-4408-8620-a1e11b2caf1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Chirurgeon
@@ -746,7 +843,10 @@
   > *—General Khurzog*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/94/goblin-chirurgeon) · oracle_id `ea55db87-a5c3-49f7-b968-77510cdeb469` · printing: ME1 #94 (2007-09-10) · [rulings](https://api.scryfall.com/cards/6da90318-4db4-4f03-ae2f-b1faeca46f57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Can sacrifice itself.
+  - *2007-09-16* — Can also regenerate itself. If it sacrifices itself in an attempt to regenerate itself, the ability won’t resolve for having an illegal target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/94/goblin-chirurgeon) · oracle_id `ea55db87-a5c3-49f7-b968-77510cdeb469` · printing: ME1 #94 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Clearcutter
 
@@ -759,7 +859,9 @@
   > *"Did you know that wood burns even better than rocks?"*
   > *—Toggo, goblin weaponsmith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/96/goblin-clearcutter) · oracle_id `08a01139-1b1e-4a32-bb00-3a9660cce1ef` · printing: LGN #96 (2003-02-03) · [rulings](https://api.scryfall.com/cards/e07c0cae-852c-444c-8994-68a6d81b4cd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability can grant {G}{G}{G}, {R}{G}{G}, {R}{R}{G}, or {R}{R}{R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/96/goblin-clearcutter) · oracle_id `08a01139-1b1e-4a32-bb00-3a9660cce1ef` · printing: LGN #96 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cohort
 
@@ -771,6 +873,7 @@
 - **Flavor text** (EVG printing):
   > *Akki shells provided good protection when downhill charging became headlong tumbling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/evg/38/goblin-cohort) · oracle_id `88f9a7e3-0b35-43e4-b16a-19c54a1e4e2c` · printing: EVG #38 (2014-12-05) · [rulings](https://api.scryfall.com/cards/faa652d7-16d3-400f-9ba4-7ba8078d4a08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Commando
@@ -783,6 +886,7 @@
 - **Flavor text** (JMP printing):
   > *With a commando around, somebody's gonna get hurt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27171 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/325/goblin-commando) · oracle_id `76c02534-35e3-4950-b4b3-90c679cdf6a7` · printing: JMP #325 (2020-07-17) · [rulings](https://api.scryfall.com/cards/c742d940-1a8d-487a-a787-2ad96a96ef1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Coward Parade
@@ -796,6 +900,7 @@
   > {TK}{TK}{TK}{TK} — 8/4
 - **Keywords:** Mentor
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/17/goblin-coward-parade) · oracle_id `7cad08c1-4bd9-4d9f-85d2-fb3ab718fbb8` · printing: SUNF #17 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ca8a24e8-5305-46cf-8c5a-b5324c59bb97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cratermaker
@@ -811,7 +916,9 @@
   > *"But the Orcs have brought a devilry from Orthanc."*
   > *—Aragorn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/194/goblin-cratermaker) · oracle_id `1962d9b3-f057-4d2c-9c5b-386d9a66148a` · printing: HOC #194 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e37ae38f-ef93-4861-9a3a-49378a4d50b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-09-11* *(Scryfall note)* — This card preview was provided to Scryfall courtesy of Wizards of the Coast. Thank you!
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/194/goblin-cratermaker) · oracle_id `1962d9b3-f057-4d2c-9c5b-386d9a66148a` · printing: HOC #194 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Cruciverbalist
 
@@ -824,7 +931,14 @@
   > Whenever this creature attacks, using the first letters of the names of permanents you control, spell a word you haven't spelled this game. It gets +1/+0 until end of turn for each letter in that word.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/110/goblin-cruciverbalist) · oracle_id `02f21750-48a0-46c3-bbdc-01d8aa7bf48f` · printing: UNF #110 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b90bd23d-0f0f-41d7-ba12-776f012714f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Each time you spell a word, you can use the first letter of each permanent you control only once in that word. For example, if you control three permanents starting with A, B, and N, you can spell out the words “Ban” or “Nab,” but you can’t spell out “Banana” unless you gain control of two more A’s and another N.
+  - *2022-10-07* — The token doesn’t have any abilities and doesn’t usually do much except give you a vowel to work with when spelling words.
+  - *2022-10-07* — The token will have one of five names: A, E, I, O, or U. It won’t be named “your choice of A, E, I, O, or U.”
+  - *2022-10-07* — When determining the first letter of a name, ignore all spaces and punctuation, including blank lines.
+  - *2022-10-07* — You may consult a dictionary if not all players agree that you have chosen a cromulent word.
+  - *2022-10-07* — “Haven’t spelled this game” means for any game reason, including previous Goblin Cruciverbalists you controlled but not including words you just spelled for fun, like . . . um, people do. Keep track of the words you spell if you expect remembering them to be challenging.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/110/goblin-cruciverbalist) · oracle_id `02f21750-48a0-46c3-bbdc-01d8aa7bf48f` · printing: UNF #110 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Dark-Dwellers
 
@@ -836,7 +950,14 @@
   > When this creature enters, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/153/goblin-dark-dwellers) · oracle_id `bab0ab8d-74d2-49a3-b258-b93d19925d99` · printing: C20 #153 (2020-04-17) · [rulings](https://api.scryfall.com/cards/3bb7be0d-1937-4b30-909c-df2b31a921e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-01-22* — If an instant or sorcery card you cast this way goes to a zone other than exile or a graveyard, perhaps because one of its abilities says to put it into its owner's hand, it won't be exiled. This is true even if the card would be put into a graveyard later that turn.
+  - *2016-01-22* — If an instant or sorcery card you cast this way is countered, it will be exiled.
+  - *2016-01-22* — If the instant or sorcery card has {X} in its mana cost, you must choose 0 as its value.
+  - *2016-01-22* — If you can't cast the target instant or sorcery card, perhaps because there are no legal targets available, or if you choose not to cast it, it will remain in your graveyard.
+  - *2016-01-22* — If you cast a card "without paying its mana cost," you can't pay alternative costs such as surge costs. You can pay additional costs. If the card has mandatory additional costs, you must pay those.
+  - *2016-01-22* — You cast the card during the resolution of the enters-the-battlefield ability, not later in the turn. If it's a sorcery card, ignore the timing restrictions based on it being a sorcery card. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/153/goblin-dark-dwellers) · oracle_id `bab0ab8d-74d2-49a3-b258-b93d19925d99` · printing: C20 #153 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Deathraiders
 
@@ -849,6 +970,7 @@
   > *Every once in a while, when they aren't getting incinerated in lava, crushed under rock slides, or devoured by dragons, goblins experience moments of unmitigated glory in battle.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26658 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddn/6/goblin-deathraiders) · oracle_id `d5142292-446a-413b-85a0-be8a59cec1f8` · printing: DDN #6 (2014-09-05) · [rulings](https://api.scryfall.com/cards/0c0b85d3-ce46-4f12-8315-4cbf338eb8f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Digging Team
@@ -862,6 +984,7 @@
   > *"Dig. Dig. Dig. Dig. Dig. Dig. Die!"*
   > *—Goblin chant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/186/goblin-digging-team) · oracle_id `8408f2a1-e321-43f5-a7d1-1911eba9d706` · printing: 7ED #186 (2001-04-11) · [rulings](https://api.scryfall.com/cards/8000425a-4761-4370-95eb-6fe3df628482/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Diplomats
@@ -874,7 +997,11 @@
 - **Flavor text** (DDT printing):
   > *When you need to convey that special kind of message.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/42/goblin-diplomats) · oracle_id `84b55e6b-5ce3-49af-95fe-46c029e0260c` · printing: DDT #42 (2017-10-24) · [rulings](https://api.scryfall.com/cards/4ad346cb-c3e5-4aea-8de6-bb62827e25a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Creatures that enter the battlefield (or noncreature permanents that become creatures) after the ability resolves are affected by the ability and must attack if able.
+  - *2013-07-01* — If, during a player’s declare attackers step, a creature is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack, the player isn’t forced to pay that cost, so it doesn’t have to attack in that case either.
+  - *2013-07-01* — The controller of each creature still decides which player or planeswalker that creature attacks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/42/goblin-diplomats) · oracle_id `84b55e6b-5ce3-49af-95fe-46c029e0260c` · printing: DDT #42 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Dirigible
 
@@ -887,6 +1014,7 @@
   > At the beginning of your upkeep, you may pay {4}. If you do, untap this creature.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31466 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/177/goblin-dirigible) · oracle_id `8e69b322-4e66-4d5b-ab46-f002c40a913f` · printing: MRD #177 (2003-10-02) · [rulings](https://api.scryfall.com/cards/d2ed2990-e5bf-4567-9a41-1846108a8aeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Dynamo
@@ -898,6 +1026,7 @@
   > {T}: This creature deals 1 damage to any target.
   > {X}{R}, {T}, Sacrifice this creature: It deals X damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28230 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/97/goblin-dynamo) · oracle_id `381fdb36-2467-421c-8b89-419d14955175` · printing: LGN #97 (2003-02-03) · [rulings](https://api.scryfall.com/cards/9462cb4e-a38c-4a41-bad2-4ea3b22b0edb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Electromancer
@@ -910,7 +1039,11 @@
 - **Flavor text** (TDC printing):
   > *The Jeskai find potential recruits among all walks of life, including other clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/99/goblin-electromancer) · oracle_id `81f06f84-1580-43c0-89d5-08d34541a519` · printing: TDC #99 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bd9eca71-2430-4112-a23a-fba76ca2efb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-03-14* — Two Goblin Electromancers will make instant and sorcery spells you cast cost {2} less to cast, and so on.
+  - *2018-10-05* — Goblin Electromancer's effect reduces only generic mana in the spell's total cost.
+  - *2018-10-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/99/goblin-electromancer) · oracle_id `81f06f84-1580-43c0-89d5-08d34541a519` · printing: TDC #99 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Elite Infantry
 
@@ -922,6 +1055,7 @@
 - **Flavor text** (10E printing):
   > *They talk a good fight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30379 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/206/goblin-elite-infantry) · oracle_id `a6a8861c-b6fe-45a6-86e4-9160c36362ff` · printing: 10E #206 (2007-07-13) · [rulings](https://api.scryfall.com/cards/aa052041-14db-4a3f-86ad-683c1f162cd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Engineer
@@ -933,7 +1067,10 @@
   > When this creature enters, you may search your library for an artifact card, put it into your graveyard, then shuffle.
   > {R}, {T}, Sacrifice an artifact: Return target artifact card with mana value 3 or less from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1190 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/128/goblin-engineer) · oracle_id `c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a` · printing: MH1 #128 (2019-06-14) · [rulings](https://api.scryfall.com/cards/a55c4d47-5252-40af-961d-c08bc688028a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Because targets are chosen for activated abilities before costs (such as "Sacrifice an artifact") are paid, Goblin Engineer's second ability can't target the artifact that will be sacrificed to pay its cost.
+  - *2021-03-19* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/128/goblin-engineer) · oracle_id `c1d6cce8-085f-42cb-8b0c-b6fbbf88b16a` · printing: MH1 #128 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Festival
 
@@ -944,7 +1081,10 @@
 - **Flavor text** (UDS printing):
   > *"What are we celebratin' again?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/83/goblin-festival) · oracle_id `de21b90f-a268-46d6-b977-d5b0856176f3` · printing: UDS #83 (1999-06-07) · [rulings](https://api.scryfall.com/cards/ac067eb8-427f-4bfa-b392-0bb41ac8370e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you activate this multiple times in a row so the stack has more than one of this ability on it, the abilities will still resolve even if Goblin Festival leaves the battlefield or leaves your control before they resolve. For example, if activate the ability twice, and after the first flip you lose control of it because you lost the toss, or it leaves the battlefield, then you still flip for the second ability.
+  - *2004-10-04* — The controller of the ability chooses one of their opponents. If this card changes controllers before the ability resolves, you still pick an opponent of the player who controlled it when it was activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/83/goblin-festival) · oracle_id `de21b90f-a268-46d6-b977-d5b0856176f3` · printing: UDS #83 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Firebomb
 
@@ -958,6 +1098,7 @@
   > *—Tergel, goblin explosioneer*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18554 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/562/goblin-firebomb) · oracle_id `2625fa9c-638c-46d3-966b-1166f440186f` · printing: FDN #562 (2024-11-15) · [rulings](https://api.scryfall.com/cards/55ab3f99-9541-4100-818c-5d9e916791e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Firebug
@@ -970,6 +1111,7 @@
 - **Flavor text** (LGN printing):
   > *Most goblins leave behind a wake of destruction. A few goblins take one with them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28967 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/98/goblin-firebug) · oracle_id `ee337677-d898-40a5-9453-405d07ec12b1` · printing: LGN #98 (2003-02-03) · [rulings](https://api.scryfall.com/cards/2370d319-d1d2-4bca-9275-ff72fb400709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Fire Fiend
@@ -983,7 +1125,9 @@
   > {R}: This creature gets +1/+0 until end of turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/127/goblin-fire-fiend) · oracle_id `61f84dbb-e9bb-45b1-a30e-c631be6ad25c` · printing: RAV #127 (2005-10-07) · [rulings](https://api.scryfall.com/cards/64d3b2d2-4ec2-495d-833d-7476cbfc80f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — If Goblin Fire Fiend is attacking, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block Goblin Fire Fiend.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/127/goblin-fire-fiend) · oracle_id `61f84dbb-e9bb-45b1-a30e-c631be6ad25c` · printing: RAV #127 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Fireleaper
 
@@ -997,7 +1141,9 @@
   > *"Let us hope that fire now lies between us and pursuit. Come! There is no time to lose."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17052 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/195/goblin-fireleaper) · oracle_id `c5fa1631-8685-49e1-baad-86ef72a9499c` · printing: HOC #195 (2026-08-14) · [rulings](https://api.scryfall.com/cards/f238d6c0-80fb-44f8-855b-55720fcff07f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — To determine the amount of damage it deals, use Goblin Fireleaper's power as it last existed on the battlefield, not its power in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/195/goblin-fireleaper) · oracle_id `c5fa1631-8685-49e1-baad-86ef72a9499c` · printing: HOC #195 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Fireslinger
 
@@ -1009,6 +1155,7 @@
 - **Flavor text** (MM2 printing):
   > *A rock between your eyes hurts. A burning rock between your eyes ruins your whole day.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12814 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/114/goblin-fireslinger) · oracle_id `396564be-3747-49dd-98dc-afb81a375f18` · printing: MM2 #114 (2015-05-22) · [rulings](https://api.scryfall.com/cards/e6c043b7-1eec-4d11-986c-8fb3823fc3b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Firestarter
@@ -1019,7 +1166,9 @@
 - **Oracle text:**
   > Sacrifice this creature: It deals 1 damage to any target. Activate only during your turn, before attackers are declared.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/120/goblin-firestarter) · oracle_id `18279733-5568-427c-b0a2-044bca28f688` · printing: ME4 #120 (2011-01-10) · [rulings](https://api.scryfall.com/cards/1191d905-4d5e-40c6-aba2-42edcf9bd86e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/120/goblin-firestarter) · oracle_id `18279733-5568-427c-b0a2-044bca28f688` · printing: ME4 #120 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Flectomancer
 
@@ -1031,7 +1180,11 @@
 - **Flavor text** (GPT printing):
   > *Rerouting magic through a goblin's brain is the surest way to throw it wildly off course.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/116/goblin-flectomancer) · oracle_id `7c3171da-7a95-4f8e-ba30-c31af21c1828` · printing: GPT #116 (2006-02-03) · [rulings](https://api.scryfall.com/cards/8170c05b-826c-4879-b202-29eec6f955ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — If a spell has a variable number of targets (such as Electrolyze), the number of targets chosen can't be changed.
+  - *2006-02-01* — If the spell has multiple targets, you may either change all the targets or none of them. Each target is treated individually, and must be changed to a different legal target. For example, Seeds of Strength targeting Atog (target #1), the same Atog (target #2), and Scryb Sprites (target #3) can be changed so it targets the same Scryb Sprites (target #1), Eager Cadet (target #2), and Alpha Myr (target #3). If changing one of the targets would be impossible, then you can't change any of the others.
+  - *2006-02-01* — The ability can target any instant or sorcery spell, even if it has no targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/116/goblin-flectomancer) · oracle_id `7c3171da-7a95-4f8e-ba30-c31af21c1828` · printing: GPT #116 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Flotilla
 
@@ -1045,6 +1198,7 @@
   > *Exceptionally poor sailors, Goblins usually arrived at their destination retching and in no condition to fight.*
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30789 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/55/goblin-flotilla) · oracle_id `014ca38f-d4ac-4417-bfa8-785a7d6fce43` · printing: FEM #55 (1994-11-01) · [rulings](https://api.scryfall.com/cards/87024efe-4a74-49fe-a43a-480bed0a650a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Freerunner
@@ -1059,7 +1213,12 @@
   > *There are old goblins and ambitious goblins, but very few old, ambitious goblins.*
 - **Keywords:** Menace, Surge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/111/goblin-freerunner) · oracle_id `372094f8-86dc-4c78-a5d0-444ffbf02630` · printing: OGW #111 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5082e0a1-5c3e-4b8c-ba88-290151564133/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Casting a spell for its surge cost doesn't change its mana cost or its mana value.
+  - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
+  - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
+  - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/111/goblin-freerunner) · oracle_id `372094f8-86dc-4c78-a5d0-444ffbf02630` · printing: OGW #111 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Furrier
 
@@ -1071,7 +1230,9 @@
 - **Flavor text** (CSP printing):
   > *Clambering up and over the powdery slope, the goblin chanced upon a small furry thing. There they regarded each other: the goblin and his new pair of earmuffs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/82/goblin-furrier) · oracle_id `3f086b72-6e7c-40d4-b995-d5f94c494462` · printing: CSP #82 (2006-07-21) · [rulings](https://api.scryfall.com/cards/4f8ec9c1-da73-44fb-9e30-5279a7ed4e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — If a spell or ability is cast or activated that would have Goblin Furrier deal damage to a snow creature, and Goblin Furrier leaves the battlefield before it resolves, the damage won’t be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/82/goblin-furrier) · oracle_id `3f086b72-6e7c-40d4-b995-d5f94c494462` · printing: CSP #82 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Game
 
@@ -1080,7 +1241,10 @@
 - **Oracle text:**
   > Each player hides at least one item, then all players reveal them simultaneously. Each player loses life equal to the number of items they revealed. The player who revealed the fewest items then loses half their life, rounded up. If two or more players are tied for fewest, each loses half their life, rounded up.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/61/goblin-game) · oracle_id `4a10c945-ad8b-47b6-8cbd-7b4e2612a9b0` · printing: PLS #61 (2001-02-05) · [rulings](https://api.scryfall.com/cards/cbe6e7e5-ffea-4c6c-8a42-28e695029f24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — When it comes to choice of items, use common sense. Items should be small enough to hide but large enough to count. Make it clear what kind of object you are hiding beforehand. For example, one player may choose coins and the other may choose dice. If you can’t find something convenient to hide, write numbers on a piece of paper and reveal the numbers. Make sure the numbers are unambiguous (for example, underline a 6 or 9 so it can’t be misread).
+  - *2007-02-01* — If you attempt to halve a negative life total, you halve 0. This means that the life total stays the same. A life total of -10 would remain -10.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/61/goblin-game) · oracle_id `4a10c945-ad8b-47b6-8cbd-7b4e2612a9b0` · printing: PLS #61 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Gang Leader
 
@@ -1092,6 +1256,7 @@
 - **Flavor text** (MB2 printing):
   > *They're even more dangerous outside the arena.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/144/goblin-gang-leader) · oracle_id `79d99305-b3dd-4687-af69-bf4b28704aae` · printing: MB2 #144 (2024-08-02) · [rulings](https://api.scryfall.com/cards/98be3783-23e8-4143-8685-6d887f164294/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Gardener
@@ -1104,7 +1269,9 @@
 - **Flavor text** (7ED printing):
   > *Years of attempts have brought the goblins no closer to growing a sausage tree.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/188/goblin-gardener) · oracle_id `29781b19-0917-4d8f-abe3-df0b7e96d8a6` · printing: 7ED #188 (2001-04-11) · [rulings](https://api.scryfall.com/cards/9f5b02af-140e-404d-bf8a-6a706b323a13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability is not optional. You have to choose one of your own lands if your opponent has none.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/188/goblin-gardener) · oracle_id `29781b19-0917-4d8f-abe3-df0b7e96d8a6` · printing: 7ED #188 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Gathering
 
@@ -1115,7 +1282,9 @@
 - **Flavor text** (RNA printing):
   > *Two's a party. Three's a felony.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/104/goblin-gathering) · oracle_id `01f06642-015f-40b4-a940-af576ad9e82c` · printing: RNA #104 (2019-01-25) · [rulings](https://api.scryfall.com/cards/147bef05-4497-44d5-9dd6-fb5dc08e78f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Goblin Gathering is still on the stack while you count the cards named Goblin Gathering in your graveyard. It doesn’t count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/104/goblin-gathering) · oracle_id `01f06642-015f-40b4-a940-af576ad9e82c` · printing: RNA #104 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Gaveleer
 
@@ -1130,7 +1299,9 @@
   > *—Krol, goblin furnace-priest*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/126/goblin-gaveleer) · oracle_id `739621e6-e138-4ef9-87e8-c730b5a7f495` · printing: 2XM #126 (2020-08-07) · [rulings](https://api.scryfall.com/cards/3f44f3ea-504e-4745-9716-cbe28ed7873d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Goblin Gaveleer's bonus is in addition to whatever bonus the Equipment gives it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/126/goblin-gaveleer) · oracle_id `739621e6-e138-4ef9-87e8-c730b5a7f495` · printing: 2XM #126 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin General
 
@@ -1142,6 +1313,7 @@
 - **Flavor text** (VMA printing):
   > *Lead, follow, or run around like crazy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21988 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/165/goblin-general) · oracle_id `5fab0d9c-ccf7-4c6a-94b4-959be139dad8` · printing: VMA #165 (2014-06-16) · [rulings](https://api.scryfall.com/cards/23c9eef2-849f-4799-9829-bd845f8eaf6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Girder Gang
@@ -1155,7 +1327,20 @@
   > This creature gets +1/+0 for each result stored on it.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/111/goblin-girder-gang) · oracle_id `cd2a61de-2de5-406e-bce4-2f21494c3e1e` · printing: UNF #111 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1cff141a-6202-436c-ac91-bc3a357aa25e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-10-07* — A creature "has a hat" if the creature depicted in the art is in possession of a hat. That creature doesn't need to be wearing the hat. A background character such as a scale bird having a hat won't count.
+  - *2022-10-07* — A hat is a garment worn on the head that's not part of another garment. Hoodies, for example, are not hats. Items that cover only the face and not the top of the head, such as a face mask, are also not hats. Hats are purposely decorative. Simply balancing a thing on your head doesn't make that thing a hat.
+  - *2022-10-07* — A target is "without a hat" if they don't meet the criteria for "having a hat." (You probably don't need to look that up. It means what you think it means.)
+  - *2022-10-07* — Goblin Girder Gang has received a minor update to its triggered ability. Specifically, the ability will check both as it triggers and as it tries to resolve to see if the result is stored on Goblin Girder Gang. For example, if 3 is not stored on Goblin Girder Gang and you roll two 3s, the ability will trigger twice. If you store the first 3 on it, the second ability won't resolve as it will see that 3 is now stored on Goblin Girder Gang.
+  - *2022-10-07* — Key in this set—space helmets are not hats, although some creatures with space helmets also are wearing hats underneath those helmets.
+  - *2022-10-07* — No player can remove another player's hat. That's unsporting conduct.
+  - *2022-10-07* — The above information pertaining to hats for creatures also pertains to actual hats for players.
+  - *2022-10-07* — To store a result means to lock the result and save it on Goblin Girder Gang. Once a certain result is stored on Goblin Girder Gang, it remains stored until Goblin Girder Gang leaves the battlefield.
+  - *2022-10-07* — Wigs and headbands count as hats. There are wig and headband stickers.
+  - *2022-10-07* — You "have a hat" if you have a hat with you, not if you own one somewhere. You don't have to be wearing the hat. But if you have a hat with you, why wouldn't you be wearing it? Does it not fit? Is it for a sports team that's bad? Did you just get your hair done? We're just curious. You don't have to explain.
+  - *2022-10-07* — You can store any result of a die roll on Triple G, including numbers lower than 1, numbers higher than 6, and even numbers higher than 20. You can even store non-numbers such as blank faces or CHAOS by rolling the planar die.
+  - *2022-10-07* — You're "wearing a hat" if you're wearing a hat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/111/goblin-girder-gang) · oracle_id `cd2a61de-2de5-406e-bce4-2f21494c3e1e` · printing: UNF #111 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Glasswright // Craft with Pride
 
@@ -1167,7 +1352,23 @@
   > Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/117/goblin-glasswright-craft-with-pride) · oracle_id `23c3de07-8aa2-48e9-848c-50b5a40bd133` · printing: SOS #117 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c85c5f06-dd31-4e2c-97be-2f64d65069ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/117/goblin-glasswright-craft-with-pride) · oracle_id `23c3de07-8aa2-48e9-848c-50b5a40bd133` · printing: SOS #117 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Glider
 
@@ -1182,6 +1383,7 @@
   > *—Ghitu riddle*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25499 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/189/goblin-glider) · oracle_id `72bce821-46f0-40eb-abdb-575d4305b8fd` · printing: 8ED #189 (2003-07-28) · [rulings](https://api.scryfall.com/cards/82db30ff-5f50-41b1-acdf-0a0e1a364410/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Glory Chaser
@@ -1194,7 +1396,12 @@
   > As long as this creature is renowned, it has menace. (It can't be blocked except by two or more creatures.)
 - **Keywords:** Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/43/goblin-glory-chaser) · oracle_id `cad1cd10-4810-495e-9305-0ae812596f6a` · printing: DDT #43 (2017-10-24) · [rulings](https://api.scryfall.com/cards/07679f88-4bbe-46e1-9b24-3b9f5670860f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Once an attacking creature with menace is legally blocked by two or more creatures, removing one or more of those blockers from combat won’t change or undo that block.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/43/goblin-glory-chaser) · oracle_id `cad1cd10-4810-495e-9305-0ae812596f6a` · printing: DDT #43 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Goliath
 
@@ -1206,6 +1413,7 @@
   > {3}{R}, {T}: If a source you control would deal damage to an opponent this turn, it deals double that damage to that player instead.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14067 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/4/goblin-goliath) · oracle_id `131069a6-8f30-4caf-8934-3588837b5f7f` · printing: GNT #4 (2018-11-16) · [rulings](https://api.scryfall.com/cards/5973744a-72c3-48e6-b99a-8f6d634c06bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Goon
@@ -1217,6 +1425,7 @@
   > This creature can't attack unless you control more creatures than defending player.
   > This creature can't block unless you control more creatures than attacking player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21094 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/326/goblin-goon) · oracle_id `e91bcf01-113b-4532-9f78-2a155b17be4f` · printing: JMP #326 (2020-07-17) · [rulings](https://api.scryfall.com/cards/5b629eb0-0e84-4eaf-bbc3-ec85ae17a8a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Grappler
@@ -1230,6 +1439,7 @@
   > *Daru soldiers learned it's better to have a clean death from a sharp blade than to tangle with a goblin's rusted chains.*
 - **Keywords:** Provoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20901 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/100/goblin-grappler) · oracle_id `48c1c84c-f690-42ce-9c5a-dd09b1e4197c` · printing: LGN #100 (2003-02-03) · [rulings](https://api.scryfall.com/cards/5c948872-295c-41b9-8094-db7db7578b0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Grenade
@@ -1242,7 +1452,11 @@
 - **Flavor text** (DDT printing):
   > *Don't underestimate the aerodynamic qualities of the common goblin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/45/goblin-grenade) · oracle_id `20aecb7b-7e37-4efe-ac27-f9f9042203f4` · printing: DDT #45 (2017-10-24) · [rulings](https://api.scryfall.com/cards/b0e0ef27-3db2-4976-b9db-13e3d7cd795d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — You can't sacrifice more than one Goblin to get a greater effect.
+  - *2011-09-22* — Players can only respond once Goblin Grenade has been cast and all its costs have been paid. No one can try and destroy the Goblin to prevent you from casting Goblin Grenade.
+  - *2011-09-22* — The Goblin you sacrifice to cast Goblin Grenade doesn't have to be a creature. For example, you could sacrifice Boggart Shenanigans (a kindred enchantment with the subtype Goblin).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/45/goblin-grenade) · oracle_id `20aecb7b-7e37-4efe-ac27-f9f9042203f4` · printing: DDT #45 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Grenadiers
 
@@ -1254,7 +1468,11 @@
 - **Flavor text** (WTH printing):
   > *For once, Squee realized, \*he\* wasn't the dumb one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/104/goblin-grenadiers) · oracle_id `be83a518-cfab-46b1-9fe9-7e3d54311c37` · printing: WTH #104 (1997-06-09) · [rulings](https://api.scryfall.com/cards/5a73db23-727f-4d63-97d7-2ca542276722/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-04-01* — A permanent that’s both a land and a creature may be chosen as both of this ability’s targets.
+  - *2008-04-01* — Both a creature and a land must be targeted when the ability triggers. If there aren’t enough legal targets, the ability doesn’t go on the stack and Goblin Grenadiers can’t be sacrificed this way.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/104/goblin-grenadiers) · oracle_id `be83a518-cfab-46b1-9fe9-7e3d54311c37` · printing: WTH #104 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Guide
 
@@ -1268,7 +1486,10 @@
   > *"I've been all over this world. I even remember some of those places."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/127/goblin-guide) · oracle_id `51d9564b-44fc-4de1-9119-09d7b4089378` · printing: 2XM #127 (2020-08-07) · [rulings](https://api.scryfall.com/cards/3c0f5411-1940-410f-96ce-6f92513f753a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If Goblin Guide is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-08-07* — If the defending player reveals a nonland card, it remains on top of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/127/goblin-guide) · oracle_id `51d9564b-44fc-4de1-9119-09d7b4089378` · printing: 2XM #127 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Haberdasher
 
@@ -1282,7 +1503,12 @@
   > *An accessory in every sense of the word.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/51/goblin-haberdasher) · oracle_id `6b390e06-e393-4ba5-aee6-6eb38bc0ee1c` · printing: UND #51 (2020-02-29) · [rulings](https://api.scryfall.com/cards/0c0520e8-794e-403e-855c-2cb4ba79189d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — A hat is a garment worn on the head that’s not part of another garment. Hoodies, for example, are not hats. Items that only cover the face and not the top of the head, such as a face mask, are also not hats.
+  - *2020-02-29* — If the card represents multiple creatures and at least one of them is wearing a hat, the creature will have menace.
+  - *2020-02-29* — If the creature is a hat, it won’t have menace, unless it itself is wearing a hat.
+  - *2020-02-29* — The creature that the card represents must be wearing a hat to have menace. A background character or a scale bird wearing a hat wouldn’t count. (But scale birds in hats! Adorable!)
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/51/goblin-haberdasher) · oracle_id `6b390e06-e393-4ba5-aee6-6eb38bc0ee1c` · printing: UND #51 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Heelcutter
 
@@ -1294,7 +1520,12 @@
   > Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/102/goblin-heelcutter) · oracle_id `ab52988f-ffd0-4154-9052-593a9d450d98` · printing: FRF #102 (2015-01-23) · [rulings](https://api.scryfall.com/cards/5b3bfeb6-95d6-4f00-8981-c6d3c9c93f67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won’t have haste and won’t be returned to its owner’s hand.
+  - *2014-11-24* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2014-11-24* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2014-11-24* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/102/goblin-heelcutter) · oracle_id `ab52988f-ffd0-4154-9052-593a9d450d98` · printing: FRF #102 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Hero
 
@@ -1306,6 +1537,7 @@
 - **Flavor text** (S99 printing):
   > *When you're a goblin, you don't have to step forward to be a hero—everyone else just has to step back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/103/goblin-hero) · oracle_id `ee969637-a20e-4163-97c0-9fd5cb17b741` · printing: S99 #103 (1999-07-01) · [rulings](https://api.scryfall.com/cards/c3ed9cd3-5e6a-4e86-b120-ff27b744311d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Instigator
@@ -1318,6 +1550,7 @@
 - **Flavor text** (MOC printing):
   > *"We can take 'em. You go first!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/282/goblin-instigator) · oracle_id `8b022754-6d16-470e-b754-4df6e4f4709e` · printing: MOC #282 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b36a1bc7-a080-4fb6-b975-c59bb33a090a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Javelineer
@@ -1332,6 +1565,7 @@
   > *Hate gets you only so far. A pointy stick can close the rest of the distance.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14745 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/144/goblin-javelineer) · oracle_id `e35c8206-98d0-44ab-8770-823a5ff7ab72` · printing: AFR #144 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d32b3f1b-40cb-413d-adb9-0809e4a2abdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Kaboomist
@@ -1344,7 +1578,10 @@
 - **Flavor text** (M15 printing):
   > *Designed by Stone Librande*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/144/goblin-kaboomist) · oracle_id `5209e1da-aeed-45b3-9640-c2db121d6612` · printing: M15 #144 (2014-07-18) · [rulings](https://api.scryfall.com/cards/80e1d85a-18e5-4c6a-85fd-a009bd8fda38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — The Land Mine tokens have the ability even if Goblin Kaboomist blows himself up or otherwise leaves the battlefield.
+  - *2014-07-18* — You flip the coin after the Land Mine token is created, not after you sacrifice a Land Mine. The token is created even if you lose the flip.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/144/goblin-kaboomist) · oracle_id `5209e1da-aeed-45b3-9640-c2db121d6612` · printing: M15 #144 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin King
 
@@ -1356,7 +1593,9 @@
 - **Flavor text** (10E printing):
   > *To be king, Numsgil did in Blog, who did in Unkful, who did in Viddle, who did in Loll, who did in Alrok. . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/207/goblin-king) · oracle_id `d236b3fc-0d3f-4d99-875d-e32a33fe5767` · printing: 10E #207 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4b266935-25ea-49c5-a1da-57c22a4362fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — Goblin King now has the Goblin creature type and its ability has been reworded to affect *other* Goblins. This means that if two Goblin Kings are on the battlefield, each gives the other a bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/207/goblin-king) · oracle_id `d236b3fc-0d3f-4d99-875d-e32a33fe5767` · printing: 10E #207 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Kites
 
@@ -1365,6 +1604,7 @@
 - **Oracle text:**
   > {R}: Target creature you control with toughness 2 or less gains flying until end of turn. Flip a coin at the beginning of the next end step. If you lose the flip, sacrifice that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/57/goblin-kites) · oracle_id `6efd11c8-be8a-4d44-a776-66d058638ad1` · printing: FEM #57 (1994-11-01) · [rulings](https://api.scryfall.com/cards/a0a27ac3-2273-469a-92ba-3f4a3d55de6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Lackey
@@ -1377,7 +1617,9 @@
 - **Flavor text** (VMA printing):
   > *At the first sign of enemy scouts, Jula grinned and strapped on his diplomacy helmet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/167/goblin-lackey) · oracle_id `213fbbdd-f1bc-4bba-9124-7b26e9a706c8` · printing: VMA #167 (2014-06-16) · [rulings](https://api.scryfall.com/cards/30104836-1e9d-4533-98f8-d5c4e6484b52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A Goblin permanent card is an artifact, creature, land, and/or enchantment card with the creature type "Goblin". Usually such cards will be creatures in addition to any other types, but they may be kindred instead. For example, you could put Boggart Shenanigans onto the battlefield with this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/167/goblin-lackey) · oracle_id `213fbbdd-f1bc-4bba-9124-7b26e9a706c8` · printing: VMA #167 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Legionnaire
 
@@ -1388,6 +1630,7 @@
   > {R}, Sacrifice this creature: It deals 2 damage to any target.
   > {W}, Sacrifice this creature: Prevent the next 2 damage that would be dealt to any target this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29001 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/103/goblin-legionnaire) · oracle_id `582fdfbe-c5fe-45d0-b3ff-e66db5183725` · printing: APC #103 (2001-06-04) · [rulings](https://api.scryfall.com/cards/c684407e-277a-4e32-a978-cdac9548acce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Locksmith
@@ -1401,6 +1644,7 @@
   > *"He's got more finesse than most goblins. He smashes windows with his fist rather than his forehead."*
   > *—Arrester Polgar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24335 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/104/goblin-locksmith) · oracle_id `d692adcf-8ab5-4208-85d1-c75285a85c59` · printing: GRN #104 (2018-10-05) · [rulings](https://api.scryfall.com/cards/cf2bed0a-990a-499a-af0a-52b77557d7cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Lookout
@@ -1413,6 +1657,7 @@
 - **Flavor text** (LGN printing):
   > *"Throw rocks at 'em! Throw spears at 'em! Throw Furt at 'em!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10251 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/101/goblin-lookout) · oracle_id `e4ac0c25-cdfa-49a4-9b2c-b848f50c604d` · printing: LGN #101 (2003-02-03) · [rulings](https://api.scryfall.com/cards/23bbe84a-8857-467a-a4a1-e57086cc9501/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Lore
@@ -1424,6 +1669,7 @@
 - **Flavor text** (JMP printing):
   > *"The coronation of King Numsgil, no . . . adventures of Tuktuk, no . . . the saga of Morpo the Bard, no! Where's \*my\* story?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/328/goblin-lore) · oracle_id `d6fe945c-b561-4e35-8c8e-7dcaa2ec45ab` · printing: JMP #328 (2020-07-17) · [rulings](https://api.scryfall.com/cards/660e7067-9f1d-4e2c-bd12-0ad752a3cec8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Lyre
@@ -1433,6 +1679,7 @@
 - **Oracle text:**
   > Sacrifice this artifact: Flip a coin. If you win the flip, this artifact deals damage to target opponent or planeswalker equal to the number of creatures you control. If you lose the flip, this artifact deals damage to you equal to the number of creatures that opponent or that planeswalker's controller controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24045 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/319/goblin-lyre) · oracle_id `0709e9c8-dbe7-4806-ae75-d2e2d745d6a4` · printing: ICE #319 (1995-06-03) · [rulings](https://api.scryfall.com/cards/951114fb-5ae5-4eb0-8e03-6e39b0b634b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Machinist
@@ -1443,7 +1690,9 @@
 - **Oracle text:**
   > {2}{R}: Reveal cards from the top of your library until you reveal a nonland card. This creature gets +X/+0 until end of turn, where X is that card's mana value. Put the revealed cards on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/204/goblin-machinist) · oracle_id `c6c4cc65-6ccb-437b-ae97-3201be95b6df` · printing: ONS #204 (2002-10-07) · [rulings](https://api.scryfall.com/cards/5874e312-1010-43f2-b330-82bc9fcc9f53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If all the cards in your library are lands, X is zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/204/goblin-machinist) · oracle_id `c6c4cc65-6ccb-437b-ae97-3201be95b6df` · printing: ONS #204 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Marshal
 
@@ -1455,6 +1704,7 @@
   > When this creature enters or dies, create two 1/1 red Goblin creature tokens.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20428 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/85/goblin-marshal) · oracle_id `4bc91d7d-37aa-475c-8fe9-763975d51add` · printing: UDS #85 (1999-06-07) · [rulings](https://api.scryfall.com/cards/6a85b2f9-c12c-46dd-ae04-470ebf5ec6d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Maskmaker
@@ -1467,6 +1717,7 @@
 - **Flavor text** (MKM printing):
   > *"When you can't show your own face, try one of mine!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21881 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/130/goblin-maskmaker) · oracle_id `ff4b9723-d5f1-40d2-aa35-fa3d2a6f4b5c` · printing: MKM #130 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6154a991-c602-4fca-91a3-3830060da60e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Masons
@@ -1479,7 +1730,9 @@
 - **Flavor text** (UDS printing):
   > *"Goblins build with true zeal—and anything else within arm's reach."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31310 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/86/goblin-masons) · oracle_id `cfec9d17-2d11-4b89-8b30-84bd25a38466` · printing: UDS #86 (1999-06-07) · [rulings](https://api.scryfall.com/cards/124070d9-c362-4053-a405-9438b1cfac02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — If there is no Wall to target, then the ability just gets removed from the stack before any player gets priority.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/86/goblin-masons) · oracle_id `cfec9d17-2d11-4b89-8b30-84bd25a38466` · printing: UDS #86 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Matron
 
@@ -1491,7 +1744,10 @@
 - **Flavor text** (PLST printing):
   > *A mother only a child could love.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-123/goblin-matron) · oracle_id `145737a7-c597-4dec-b752-207c2d0501e3` · printing: PLST #DMR-123 (2026-05-18) · [rulings](https://api.scryfall.com/cards/8ee0fdd4-1fb5-4160-b408-2c51ef4f85d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+  - *2019-06-14* — If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, Goblin War Party is a card that references and creates Goblins, but it isn't a Goblin card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-123/goblin-matron) · oracle_id `145737a7-c597-4dec-b752-207c2d0501e3` · printing: PLST #DMR-123 (2026-05-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Medics
 
@@ -1503,7 +1759,9 @@
 - **Flavor text** (MOC printing):
   > *Dorik was unshakably confident, having learned medicine from the finest butcher shops in Yotia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/283/goblin-medics) · oracle_id `457bee4c-2332-440c-9336-36f6a69614f9` · printing: MOC #283 (2023-04-21) · [rulings](https://api.scryfall.com/cards/deda9adf-43db-481b-840d-518a12873782/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability does trigger when it taps to attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/283/goblin-medics) · oracle_id `457bee4c-2332-440c-9336-36f6a69614f9` · printing: MOC #283 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Mime
 
@@ -1515,6 +1773,7 @@
 - **Flavor text** (UNH printing):
   > *Pretending to be inside an invisible box was easy enough for Brug. It was finding the invisible door that caused him problems.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/78/goblin-mime) · oracle_id `ed7dca6c-35b4-4793-84d5-e041b3ae2a68` · printing: UNH #78 (2004-11-19) · [rulings](https://api.scryfall.com/cards/52b3f29a-b3a3-4dad-94ea-28999286bccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Morningstar
@@ -1529,7 +1788,18 @@
   > 10—20 | Create a 1/1 red Goblin creature token, then attach this Equipment to it.
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/145/goblin-morningstar) · oracle_id `61ff247e-a119-4f35-af62-2645d6762bba` · printing: AFR #145 (2021-07-23) · [rulings](https://api.scryfall.com/cards/998f3785-c806-4848-adcb-d89ea51159c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a "results table" in the card text.
+  - *2021-07-23* — An effect that says "choose a target, then roll a d20" or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications. Anything that is looking for the "natural result" is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/145/goblin-morningstar) · oracle_id `61ff247e-a119-4f35-af62-2645d6762bba` · printing: AFR #145 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Motivator
 
@@ -1541,6 +1811,7 @@
 - **Flavor text** (M19 printing):
   > *Small words stoke large flames.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7439 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/143/goblin-motivator) · oracle_id `df67597f-42a8-4fa7-b426-d7db8b384445` · printing: M19 #143 (2018-07-13) · [rulings](https://api.scryfall.com/cards/94b3a4fb-9024-45ef-a54b-cf3a9fa5b9c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Mountaineer
@@ -1554,6 +1825,7 @@
   > *Goblin lairs sit high in Jund's mountains. This gives the goblins easy access to the sacrificial peaks above and lets them build up a head of steam before attacking prey down below.*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/102/goblin-mountaineer) · oracle_id `356e2df2-2b41-4d9d-8723-3e6a17a090e8` · printing: ALA #102 (2008-10-03) · [rulings](https://api.scryfall.com/cards/1afa1475-797d-4cdc-93d6-e186c25e0bf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Mutant
@@ -1569,6 +1841,7 @@
   > *If only it had three brains, too.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31382 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/96/goblin-mutant) · oracle_id `540e1371-baa9-412f-a17a-22ea833ea3e8` · printing: ME1 #96 (2007-09-10) · [rulings](https://api.scryfall.com/cards/4540dbe7-5a4b-4603-93c7-5bb294d67686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Negotiation
@@ -1580,7 +1853,10 @@
 - **Flavor text** (FDN printing):
   > *Either you pay for Krenko's "protection" or you pay to replace your stall. Either way, you pay.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/88/goblin-negotiation) · oracle_id `79824266-bffa-476c-bdd3-976e9d789a42` · printing: FDN #88 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f2016585-e26c-4d13-b09f-af6383c192f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+  - *2024-11-08* — In some unusual cases, Goblin Negotiation may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn't greater than the creature's toughness
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/88/goblin-negotiation) · oracle_id `79824266-bffa-476c-bdd3-976e9d789a42` · printing: FDN #88 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Offensive
 
@@ -1591,7 +1867,9 @@
 - **Flavor text** (HOP printing):
   > *They certainly are.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11157 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/56/goblin-offensive) · oracle_id `25cb5c86-83cd-4a06-b0d1-a0f6fc9158a6` · printing: HOP #56 (2009-09-04) · [rulings](https://api.scryfall.com/cards/b4c4d642-c3fb-47d1-b57a-266eb269d5ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — The tokens are named "Goblin Token" and have the creature type "Goblin."
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/56/goblin-offensive) · oracle_id `25cb5c86-83cd-4a06-b0d1-a0f6fc9158a6` · printing: HOP #56 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Oriflamme
 
@@ -1603,6 +1881,7 @@
   > *"It was difficult to tell whether the piles of gore within their warrens were mere trash heaps, sacred altars, or warnings."*
   > *—\*Sarpadian Empires, vol. IV\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/539/goblin-oriflamme) · oracle_id `836bd011-2da5-443a-a814-19a664b98a1a` · printing: FDN #539 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0259e4d8-849b-468e-a902-aa1d7f2d5b6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Outlander
@@ -1616,6 +1895,7 @@
   > *Egbol stared in wonder at Naya's landscape. So much to eat. So much to steal.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29017 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/109/goblin-outlander) · oracle_id `3cc99034-6eaf-4e45-9bff-57b74847343e` · printing: CON #109 (2009-02-06) · [rulings](https://api.scryfall.com/cards/5e33683b-8bda-4bb9-beb4-fc0cd5ed79ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Patrol
@@ -1630,6 +1910,7 @@
   > *—Jula, goblin raider*
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30441 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/169/goblin-patrol) · oracle_id `edf25cbe-fa28-44ca-b4be-1d2312e4f6ac` · printing: VMA #169 (2014-06-16) · [rulings](https://api.scryfall.com/cards/9b9d0b79-a55b-4bec-b7c4-4374048ba3ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Picker
@@ -1642,6 +1923,7 @@
 - **Flavor text** (DMU printing):
   > *Countless generations of Shivan goblins have worked on the Mana Rig, giving them an unparalleled eye for useful relics.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/128/goblin-picker) · oracle_id `efc0aa25-9ac2-4a25-956c-fff39ef536be` · printing: DMU #128 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6d8f1f06-dde5-41f2-923c-67d1d4d13fab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Piker
@@ -1654,6 +1936,7 @@
 - **Flavor text** (M12 printing):
   > *Once he'd worked out which end of the thing was sharp, he was promoted to guard duty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/141/goblin-piker) · oracle_id `50608184-90d3-43d2-a221-deb186c78323` · printing: M12 #141 (2011-07-15) · [rulings](https://api.scryfall.com/cards/083ec3e7-950c-4e9d-aba5-02ed13d723f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Piledriver
@@ -1666,7 +1949,9 @@
   > Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Goblin.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/151/goblin-piledriver) · oracle_id `4d74d12b-1ffb-482f-8bac-635a8d4d32e9` · printing: ORI #151 (2015-07-17) · [rulings](https://api.scryfall.com/cards/4b332e3d-dcf4-4f62-8130-124ec5d23b90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The number of Goblins is counted when this ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/151/goblin-piledriver) · oracle_id `4d74d12b-1ffb-482f-8bac-635a8d4d32e9` · printing: ORI #151 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Plate Mail
 
@@ -1678,7 +1963,14 @@
   > Equip {4}
 - **Keywords:** Amass, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/157/goblin-plate-mail) · oracle_id `eda99a16-6a7c-4f39-8a6b-a284e6afd3fc` · printing: HOB #157 (2026-08-14) · [rulings](https://api.scryfall.com/cards/cb982607-da37-4894-91a5-cf6307d4d703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/157/goblin-plate-mail) · oracle_id `eda99a16-6a7c-4f39-8a6b-a284e6afd3fc` · printing: HOB #157 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Psychopath
 
@@ -1690,7 +1982,9 @@
 - **Flavor text** (SCG printing):
   > *The destruction he causes is nothing next to the chaos in his mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/95/goblin-psychopath) · oracle_id `9369f131-3356-4926-9a9f-88a636305bd0` · printing: SCG #95 (2003-05-26) · [rulings](https://api.scryfall.com/cards/52287036-00f1-4b6d-8cd8-b8cbc70c5135/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability triggers when it attacks or block and resolves before combat damage is assigned. This gives you a chance to possibly get rid of it before it hurts you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/95/goblin-psychopath) · oracle_id `9369f131-3356-4926-9a9f-88a636305bd0` · printing: SCG #95 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Pyromancer
 
@@ -1703,7 +1997,9 @@
 - **Flavor text** (ONS printing):
   > *"The good news is, we figured out how the wand works. The bad news is, we figured out how the wand works."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/206/goblin-pyromancer) · oracle_id `696ee797-0c32-4bff-8c3d-02d05835b138` · printing: ONS #206 (2002-10-07) · [rulings](https://api.scryfall.com/cards/bb4815b7-fc20-44a4-ad1c-66d92993557f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It only destroys goblins if it is on the battlefield at the end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/206/goblin-pyromancer) · oracle_id `696ee797-0c32-4bff-8c3d-02d05835b138` · printing: ONS #206 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Rabblemaster
 
@@ -1715,7 +2011,11 @@
   > At the beginning of combat on your turn, create a 1/1 red Goblin creature token with haste.
   > Whenever this creature attacks, it gets +1/+0 until end of turn for each other attacking Goblin.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/46/goblin-rabblemaster) · oracle_id `24661b81-6bee-4ad8-b3ab-53cb65005c51` · printing: DDT #46 (2017-10-24) · [rulings](https://api.scryfall.com/cards/bce84a87-093a-42de-9696-8c3250e0f33b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-07-18* — Although Goblin Rabblemaster doesn't force itself to attack, if you control two of them, they'll force each other to attack if able.
+  - *2014-07-18* — If, during your declare attackers step, a creature that must attack if able is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under your control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2014-07-18* — The number of attacking Goblins is counted as the last ability resolves, and the bonus is locked in at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/46/goblin-rabblemaster) · oracle_id `24661b81-6bee-4ad8-b3ab-53cb65005c51` · printing: DDT #46 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Racketeer
 
@@ -1728,7 +2028,13 @@
   > *"It, uh, fell off a cart?"*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20646 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/53/goblin-racketeer) · oracle_id `9336a62c-f2f9-45a8-bf69-86060aa0ce59` · printing: CN2 #53 (2016-08-26) · [rulings](https://api.scryfall.com/cards/eac5c565-1553-4be1-a289-6189e07460a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/53/goblin-racketeer) · oracle_id `9336a62c-f2f9-45a8-bf69-86060aa0ce59` · printing: CN2 #53 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Raider
 
@@ -1740,6 +2046,7 @@
 - **Flavor text** (9ED printing):
   > *He's smart for a goblin. He can do two things: hit \*and\* run.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/S8/goblin-raider) · oracle_id `7f11c830-fced-40db-8c02-b3c54f3e4372` · printing: 9ED #S8 (2005-07-29) · [rulings](https://api.scryfall.com/cards/f026d65f-c365-475b-9454-e9935af00ec4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Rally
@@ -1751,6 +2058,7 @@
 - **Flavor text** (JMP printing):
   > *You don't so much hire goblins as put ideas in their heads.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/329/goblin-rally) · oracle_id `9ccb6ce8-ccb6-4809-a1cc-cebd38744815` · printing: JMP #329 (2020-07-17) · [rulings](https://api.scryfall.com/cards/34d6a2d0-d855-4b87-9f4c-58dda0b81c82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Razerunners
@@ -1764,7 +2072,10 @@
 - **Flavor text** (NEC printing):
   > *Finding an unexplored world, they immediately set it on fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/106/goblin-razerunners) · oracle_id `7b3e05e1-31b4-46af-b3d0-f2467f8551e9` · printing: NEC #106 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5c06fb09-1e64-49c7-9938-541c0433bf5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — If Goblin Razerunners leaves the battlefield after its ability triggers but before it resolves, the amount of damage it deals is equal to the number of +1/+1 counters that were on it as it last existed on the battlefield.
+  - *2009-02-01* — You don't count how many +1/+1 counters are on Goblin Razerunners until its triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/106/goblin-razerunners) · oracle_id `7b3e05e1-31b4-46af-b3d0-f2467f8551e9` · printing: NEC #106 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Recruiter
 
@@ -1776,7 +2087,9 @@
 - **Flavor text** (6ED printing):
   > *"Next!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/186/goblin-recruiter) · oracle_id `792e1072-00bf-4f63-b956-5f20cdf09f11` · printing: 6ED #186 (1999-04-21) · [rulings](https://api.scryfall.com/cards/61bd1548-2ffa-4705-ba88-913f37d4ce92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — You can search for any card with the creature type Goblin, including creature or kindred cards. Older cards of type "Summon Goblin" and "Summon Goblins" also count. You can't search for cards that have Goblin in the name but don't have the creature type Goblin.
+- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/186/goblin-recruiter) · oracle_id `792e1072-00bf-4f63-b956-5f20cdf09f11` · printing: 6ED #186 (1999-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Replica
 
@@ -1788,6 +2101,7 @@
 - **Flavor text** (MRD printing):
   > *It destroys with unthinking glee.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/178/goblin-replica) · oracle_id `0c5a7772-8358-4549-a583-f54246869e20` · printing: MRD #178 (2003-10-02) · [rulings](https://api.scryfall.com/cards/63282976-e08d-4b8c-bbfc-f6739fdaeaf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Researcher
@@ -1800,7 +2114,14 @@
 - **Flavor text** (J25 printing):
   > *Slonk was struck by lightning twenty-seven times before he got the idea. Another forty-three hits and he'd perfected it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/559/goblin-researcher) · oracle_id `c8762dfa-a027-4e1c-a2fa-bfdab1de102a` · printing: J25 #559 (2024-11-15) · [rulings](https://api.scryfall.com/cards/aa975f07-7f9b-43ac-b005-79e194397b4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-12-02* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2022-12-02* — Goblin Researcher's effect doesn't change when you can play the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2022-12-02* — If you control more than one card named Goblin Researcher, each one's effect is independent from the other. Specifically, attacking with one will not allow you to play the card exiled by the other.
+  - *2022-12-02* — If you exile a land card with Goblin Researcher's enters-the-battlefield ability, you may play that land only if you have any available land plays. Normally, this means you can play the land only if you haven't played a land yet that turn.
+  - *2022-12-02* — The card Goblin Researcher exiles is exiled face up.
+  - *2022-12-02* — You can play the exiled card if Goblin Researcher attacked and is still in combat, has left combat, has left the battlefield, or even if combat is over.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/559/goblin-researcher) · oracle_id `c8762dfa-a027-4e1c-a2fa-bfdab1de102a` · printing: J25 #559 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Rimerunner
 
@@ -1813,6 +2134,7 @@
 - **Flavor text** (CSP printing):
   > *Rimerunners set off avalanches to immobilize foes as well as to create more challenging slopes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/83/goblin-rimerunner) · oracle_id `8505f9a6-a510-43f9-a96d-b840b353e144` · printing: CSP #83 (2006-07-21) · [rulings](https://api.scryfall.com/cards/0254a437-5240-40ca-bf7b-d30b95942bf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Ringleader
@@ -1825,7 +2147,9 @@
   > When this creature enters, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/143/goblin-ringleader) · oracle_id `4100e486-0d27-436c-8429-76bc2c1a26ab` · printing: M20 #143 (2019-07-12) · [rulings](https://api.scryfall.com/cards/6911af4e-4abd-4cf9-8a86-ae5d680c6f12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, Goblin Gathering is a card that creates Goblins and features Goblins in its illustration, but it isn’t a Goblin card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/143/goblin-ringleader) · oracle_id `4100e486-0d27-436c-8429-76bc2c1a26ab` · printing: M20 #143 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Rock Sled
 
@@ -1838,6 +2162,7 @@
   > This creature can't attack unless defending player controls a Mountain.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/199/goblin-rock-sled) · oracle_id `ada3247e-ec5e-499d-bc15-1d9dd80a59ae` · printing: 4ED #199 (1995-04-01) · [rulings](https://api.scryfall.com/cards/25f4f0c1-a43e-4282-b20e-91c711c57521/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Roughrider
@@ -1850,6 +2175,7 @@
 - **Flavor text** (M15 printing):
   > *Astride the bucking creature, Gribble hurtled down the mountainside while his Grotag brethren cheered. It was at that moment that the legend of the Skrill Tamer was born.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25701 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/146/goblin-roughrider) · oracle_id `a920d37e-e172-41f7-bfbf-c18821dcbed7` · printing: M15 #146 (2014-07-18) · [rulings](https://api.scryfall.com/cards/9097ec4a-6c0e-4c27-8910-29ac47612031/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Ruinblaster
@@ -1863,7 +2189,14 @@
   > When this creature enters, if it was kicked, destroy target nonbasic land.
 - **Keywords:** Haste, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/127/goblin-ruinblaster) · oracle_id `d99fa026-6347-450a-9011-1fd79070a55c` · printing: ZEN #127 (2009-10-02) · [rulings](https://api.scryfall.com/cards/0d95d1f3-7ec1-4279-ade7-3f339f2f33da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/127/goblin-ruinblaster) · oracle_id `d99fa026-6347-450a-9011-1fd79070a55c` · printing: ZEN #127 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Sappers
 
@@ -1874,7 +2207,9 @@
   > {R}{R}, {T}: Target creature you control can't be blocked this turn. Destroy it and this creature at end of combat.
   > {R}{R}{R}{R}, {T}: Target creature you control can't be blocked this turn. Destroy it at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/189/goblin-sappers) · oracle_id `9e095761-cdae-4ab2-b2d3-099b0b39600a` · printing: ICE #189 (1995-06-03) · [rulings](https://api.scryfall.com/cards/de839540-a7b9-4f91-91df-3fd4f5c0bc4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you activate the ability during the end of combat step, the creature will be destroyed at the beginning of the next end of combat step, even if that step occurs during a different turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/189/goblin-sappers) · oracle_id `9e095761-cdae-4ab2-b2d3-099b0b39600a` · printing: ICE #189 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Savant
 
@@ -1884,6 +2219,7 @@
 - **Oracle text:**
   > {T}: Exile the top card of your library. If that card is a Goblin or an artifact card, you may play it this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA02a/goblin-savant) · oracle_id `36699e88-1d54-416c-a478-28c80b938bc1` · printing: UNK #RA02a (2023-02-17) · [rulings](https://api.scryfall.com/cards/d8fd91a5-6fc6-4847-b053-ef3f7cb2fec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Scouts
@@ -1896,7 +2232,10 @@
   > *"Pathetic—like I wouldn't know a goblin painted up to look like a dwarf!"*
   > *—Pashad ibn Asim, Suq'Ata trader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25313 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/178/goblin-scouts) · oracle_id `87b55d99-badc-45e3-8364-173a400c4d7e` · printing: MIR #178 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a4b87068-aaa6-41de-9b9a-76ca4210a485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The tokens are of creature type Goblin and Scout. They are affected by things that affect Goblins.
+  - *2008-08-01* — The tokens have ‘Mountainwalk’ in their text, and will be affected by text-changing effects accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/178/goblin-scouts) · oracle_id `87b55d99-badc-45e3-8364-173a400c4d7e` · printing: MIR #178 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Secret Agent
 
@@ -1912,6 +2251,7 @@
   > *LICENSE TO BE KILLED*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/79/goblin-secret-agent) · oracle_id `29dd5665-ebd9-4034-a8ad-962f12a63e6a` · printing: UNH #79 (2004-11-19) · [rulings](https://api.scryfall.com/cards/219d9bf5-2145-4805-8128-eda990c97739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Settler
@@ -1924,6 +2264,7 @@
 - **Flavor text** (VMA printing):
   > *Be it ever so crumbled, there's no place like home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20356 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/172/goblin-settler) · oracle_id `04dd449f-ff3a-4ed7-8241-244d58b371dc` · printing: VMA #172 (2014-06-16) · [rulings](https://api.scryfall.com/cards/503ef4d7-2028-4363-b3af-f9fe690510f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Sharpshooter
@@ -1936,6 +2277,7 @@
   > Whenever a creature dies, untap this creature.
   > {T}: This creature deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3861 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/111/goblin-sharpshooter) · oracle_id `d81285b7-a718-411a-8be3-ecc0cfe0bcb0` · printing: C13 #111 (2013-11-01) · [rulings](https://api.scryfall.com/cards/4f72e9e2-ed47-40ff-bc2e-8446ef545022/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Shortcutter
@@ -1948,6 +2290,7 @@
 - **Flavor text** (JMP printing):
   > *"I'm not running away! I'm figuring out the best routes."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19542 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/330/goblin-shortcutter) · oracle_id `29863706-fa4e-49ed-9f40-69ae503abba3` · printing: JMP #330 (2020-07-17) · [rulings](https://api.scryfall.com/cards/f70a98be-e7d9-4cb7-a7ed-de2bf593170d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Shrine
@@ -1960,7 +2303,9 @@
   > When this Aura leaves the battlefield, it deals 1 damage to each Goblin creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/122/goblin-shrine) · oracle_id `5e35df8a-2404-4b3b-888a-25d663bd4383` · printing: ME4 #122 (2011-01-10) · [rulings](https://api.scryfall.com/cards/07cc3153-ca6a-4a64-9e0b-955417e2c328/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Works even if placed on one of your opponent's Mountains.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/122/goblin-shrine) · oracle_id `5e35df8a-2404-4b3b-888a-25d663bd4383` · printing: ME4 #122 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Ski Patrol
 
@@ -1973,7 +2318,9 @@
   > *"AIIIEEEE!"*
   > *—Ib Halfheart, goblin tactician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/128/goblin-ski-patrol) · oracle_id `e98396d0-6952-4755-992f-813f565b9189` · printing: ME2 #128 (2008-09-22) · [rulings](https://api.scryfall.com/cards/6827594e-3912-44f2-bd84-bf7ef69276de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Goblin Ski Patrol's ability may be activated only once in the entire game. If its ability is activated and then it changes controllers, its ability may not be activated again, and its new controller will still have to sacrifice it at the beginning of the End step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/128/goblin-ski-patrol) · oracle_id `e98396d0-6952-4755-992f-813f565b9189` · printing: ME2 #128 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Skycutter
 
@@ -1985,6 +2332,7 @@
 - **Flavor text** (TSP printing):
   > *He takes out his fear of heights on anything above his head.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/159/goblin-skycutter) · oracle_id `34ee9883-ed7f-4c63-987f-96a5474c195d` · printing: TSP #159 (2006-10-06) · [rulings](https://api.scryfall.com/cards/c45406cd-a036-45d5-a0fb-3c195d40d746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Sky Raider
@@ -1998,6 +2346,7 @@
   > *The goblin word for "flying" is more accurately translated as "falling slowly."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/210/goblin-sky-raider) · oracle_id `9e0ebf3b-9295-43a9-9b5c-4ffac6a6b630` · printing: 10E #210 (2007-07-13) · [rulings](https://api.scryfall.com/cards/ebbd596b-56c2-475c-93e4-c72f9f29281b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Sledder
@@ -2010,6 +2359,7 @@
 - **Flavor text** (EVG printing):
   > *"Let's play 'sled.' Here's how it works: you're the sled."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/evg/41/goblin-sledder) · oracle_id `ae93292a-458a-441b-a7de-4b10f0d20cc0` · printing: EVG #41 (2014-12-05) · [rulings](https://api.scryfall.com/cards/12af10e9-19b7-4177-b556-a446f2788da7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Sleigh Ride
@@ -2021,6 +2371,7 @@
 - **Flavor text** (HHO printing):
   > *"What fun it is to ride and sing a slaying song tonight!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/15/goblin-sleigh-ride) · oracle_id `22eee71d-135b-4e18-b00f-f3be4fa42f4d` · printing: HHO #15 (2015-12-01) · [rulings](https://api.scryfall.com/cards/464ff1cb-3731-4e72-8a70-fbe7043e12ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblinslide
@@ -2032,7 +2383,9 @@
 - **Flavor text** (KTK printing):
   > *Goblins, like snowflakes, are only dangerous in numbers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/109/goblinslide) · oracle_id `4885354f-0b77-47b6-b8f7-00753804436f` · printing: KTK #109 (2014-09-26) · [rulings](https://api.scryfall.com/cards/a9d80e96-3956-4408-84fb-5f94a364eb41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — You make the decision whether to pay {1} as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/109/goblinslide) · oracle_id `4885354f-0b77-47b6-b8f7-00753804436f` · printing: KTK #109 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Slingshot
 
@@ -2041,7 +2394,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, creatures you control get +2/+0 and gain trample until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/185/goblin-slingshot) · oracle_id `506e4511-2982-40d7-948d-4b3a7fb68640` · printing: UST #185 (2017-12-08) · [rulings](https://api.scryfall.com/cards/7368a5ae-5642-4e90-9e73-9f0283067c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/185/goblin-slingshot) · oracle_id `506e4511-2982-40d7-948d-4b3a7fb68640` · printing: UST #185 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Smuggler
 
@@ -2055,7 +2421,9 @@
   > *"No one here but us empty barrels!"*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/540/goblin-smuggler) · oracle_id `eae15f7d-1f6e-4dfc-afea-7698b93cd145` · printing: FDN #540 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5837ccf1-9bac-4afb-bcc9-82c5f3c0e8e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If the target creature's power is greater than 2 as the activated ability tries to resolve, the ability doesn't resolve. However, if instead the creature's power is raised above 2 after the ability resolves, it still can't be blocked that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/540/goblin-smuggler) · oracle_id `eae15f7d-1f6e-4dfc-afea-7698b93cd145` · printing: FDN #540 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Snowman
 
@@ -2069,6 +2437,7 @@
   > *"Strength in numbers? Right."*
   > *—Ib Halfheart, goblin tactician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/64/goblin-snowman) · oracle_id `38e9ad30-4bbf-4b58-8bb2-47520ce351a3` · printing: TSB #64 (2006-10-06) · [rulings](https://api.scryfall.com/cards/24dc6db4-671e-4d7d-ba11-89194ce0b2ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblins of the Flarg
@@ -2081,6 +2450,7 @@
   > When you control a Dwarf, sacrifice this creature.
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/98/goblins-of-the-flarg) · oracle_id `3a620d92-ec92-4733-8c05-7fa1b956bab6` · printing: ME1 #98 (2007-09-10) · [rulings](https://api.scryfall.com/cards/cb91b7c0-c453-481b-9d3d-0223057291ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Soothsayer
@@ -2094,6 +2464,7 @@
   > *"I see a great victory and rivers of blood. And . . . hmm, looks like a spleen."*
   > *—Grishnak, goblin soothsayer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20185 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/179/goblin-soothsayer) · oracle_id `a9277df9-1417-45bc-bebf-d9a7595f54c9` · printing: MIR #179 (1996-10-08) · [rulings](https://api.scryfall.com/cards/686b847c-242c-4b91-9fa9-69c9c9f187a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Spelunkers
@@ -2107,6 +2478,7 @@
   > *Chimney sweeps, explorers of abandoned buildings, spire climbers . . . goblin spelunkers have found countless niches within Ravnica's metropolis.*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25904 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/128/goblin-spelunkers) · oracle_id `0534a514-2847-4dbc-8178-6a2886c75bf6` · printing: RAV #128 (2005-10-07) · [rulings](https://api.scryfall.com/cards/6c3889c5-3321-486c-b03c-8607f2393a75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Spy
@@ -2122,7 +2494,11 @@
   > *"Why's he spyin' on us?"*
   > *"Don't ask."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25254 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/145/goblin-spy) · oracle_id `5f1e8aa2-6b85-4e2e-92e4-876470447d6f` · printing: INV #145 (2000-10-02) · [rulings](https://api.scryfall.com/cards/2a89a099-8805-4b26-babd-5d9f48ee406a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, the new top card won't be revealed until you finish doing so.
+  - *2013-04-15* — The top card of your library isn't in your hand, so you can't suspend it, cycle it, discard it, or activate any of its activated abilities.
+  - *2013-04-15* — When playing with the top card of your library revealed, if an effect tells you to draw several cards, reveal each one before you draw it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/145/goblin-spy) · oracle_id `5f1e8aa2-6b85-4e2e-92e4-876470447d6f` · printing: INV #145 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Spymaster
 
@@ -2137,7 +2513,9 @@
   > *—Goblin Espionage League motto*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/795/goblin-spymaster) · oracle_id `ec08df88-3c13-4940-a090-0c502b9b12f1` · printing: CLB #795 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1687ea64-fcc0-4bd8-aa7e-3c893d4ef2a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-11-08* — If, during your declare attackers step, a creature you control is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack, even if you control one of Goblin Spymaster's tokens. If there's a cost associated with having a creature attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/795/goblin-spymaster) · oracle_id `ec08df88-3c13-4940-a090-0c502b9b12f1` · printing: CLB #795 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Striker
 
@@ -2150,6 +2528,7 @@
   > *There's no word in the goblin language for "strategy." Then again, there's no word in the goblin language for "word."*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24571 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/94/goblin-striker) · oracle_id `c991d1b8-3adb-4854-9fd3-83f06aeb3941` · printing: MRD #94 (2003-10-02) · [rulings](https://api.scryfall.com/cards/f7654d8a-7013-4311-b29e-b55aaa1bf502/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Surprise
@@ -2163,6 +2542,7 @@
 - **Flavor text** (FDN printing):
   > *"Hey, your door's broken!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5412 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/200/goblin-surprise) · oracle_id `79cd09e8-d738-47c0-9473-b6281bec6935` · printing: FDN #200 (2024-11-15) · [rulings](https://api.scryfall.com/cards/527dd5d4-5f72-40bb-8a9d-1f5ac3f81e2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Surveyor
@@ -2176,7 +2556,14 @@
   > Max speed — {3}, Exile this card from your graveyard: Draw a card.
 - **Keywords:** Max speed, Trample, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/131/goblin-surveyor) · oracle_id `237758f3-84b2-4e5b-a2c7-b28c893e2790` · printing: DFT #131 (2025-02-14) · [rulings](https://api.scryfall.com/cards/e1efffe9-00f8-4177-a9e6-4ad62887d32f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/131/goblin-surveyor) · oracle_id `237758f3-84b2-4e5b-a2c7-b28c893e2790` · printing: DFT #131 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin S.W.A.T. Team
 
@@ -2188,6 +2575,7 @@
 - **Flavor text** (UND printing):
   > *They refer to their methods as "special S.W.A.T. tactics," and no one has lived to correct them.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/52/goblin-swat-team) · oracle_id `5eb27694-c4bd-4843-9eb6-68cefb9ceab9` · printing: UND #52 (2020-02-29) · [rulings](https://api.scryfall.com/cards/103d84da-2a1b-48b1-973f-5a995218d0e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Swine-Rider
@@ -2201,6 +2589,7 @@
   > *"May you get the mount you deserve."*
   > *—Suq'Ata curse*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29082 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/81/goblin-swine-rider) · oracle_id `9ebe32fc-3b6e-4cb9-9af0-1a6c3c6ad885` · printing: VIS #81 (1997-02-03) · [rulings](https://api.scryfall.com/cards/49980982-d534-4204-bc15-3e6c4ffa1a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Taskmaster
@@ -2215,6 +2604,7 @@
   > *For some reason, goblin fighting school isn't as crowded on day two.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/210/goblin-taskmaster) · oracle_id `64fddd5e-06e4-4d54-9ea6-0c9b82f3b153` · printing: ONS #210 (2002-10-07) · [rulings](https://api.scryfall.com/cards/feff65ca-aedf-4434-b701-590d600d1a0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Test Pilot
@@ -2230,7 +2620,11 @@
   > *—\*Manual of Melek\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/74/goblin-test-pilot) · oracle_id `4760bb87-56e9-47eb-b5ec-6fa4dd19156e` · printing: DGM #74 (2013-05-03) · [rulings](https://api.scryfall.com/cards/a8dbb9aa-1bf8-447d-a96c-33e2248bfb01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — Goblin Test Pilot is a legal target of its own ability.
+  - *2013-04-15* — The target is chosen at random as part of activating the ability. Players can respond to the ability knowing what the target of the ability is.
+  - *2013-04-15* — To choose a target at random, all possible legal targets (including creatures and players) must have an equal chance of being chosen. There are many ways to do this, including assigning each possible legal target a number and rolling a die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/74/goblin-test-pilot) · oracle_id `4760bb87-56e9-47eb-b5ec-6fa4dd19156e` · printing: DGM #74 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Tinkerer
 
@@ -2243,6 +2637,7 @@
   > *"Can they \*do\* that?"*
   > *—Imwita, Zhalfirin artificer, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/180/goblin-tinkerer) · oracle_id `0afc2d2f-4fdb-440f-9c35-45bf103c0437` · printing: MIR #180 (1996-10-08) · [rulings](https://api.scryfall.com/cards/e6529852-8b3e-4a70-a4a1-029e012231c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Tomb Raider
@@ -2255,7 +2650,9 @@
 - **Flavor text** (LCI printing):
   > *Enterprising goblins can extract their body weight in loot. Ambitious ones have a big meal first.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/151/goblin-tomb-raider) · oracle_id `37ce95bb-8ff5-47b9-85e4-21be7a794940` · printing: LCI #151 (2023-11-17) · [rulings](https://api.scryfall.com/cards/018160fe-f602-43f5-8495-241a08eaa69c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Once Goblin Tomb Raider has been declared as an attacker, causing it to lose haste by removing all of your artifacts won't cause it to stop attacking, even if it entered the battlefield or came under your control that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/151/goblin-tomb-raider) · oracle_id `37ce95bb-8ff5-47b9-85e4-21be7a794940` · printing: LCI #151 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin-town
 
@@ -2268,6 +2665,7 @@
 - **Flavor text** (HOB printing):
   > *The passages were crossed and tangled in all directions, and it was most horribly stuffy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/183/goblin-town) · oracle_id `98d20908-6d68-4d31-b719-207f93c9b402` · printing: HOB #183 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d76df9d0-56cf-4351-a5e8-e6ae6fc791d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin-town Flunkies
@@ -2282,7 +2680,14 @@
   > *Goblins made no beautiful things, but they made many clever ones.*
 - **Keywords:** Amass, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14318 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/100/goblin-town-flunkies) · oracle_id `85ceb4ac-7a1c-4c7e-95a3-515a5b5d6116` · printing: HOB #100 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ccff7382-8609-494c-aeee-cd1436456dd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/100/goblin-town-flunkies) · oracle_id `85ceb4ac-7a1c-4c7e-95a3-515a5b5d6116` · printing: HOB #100 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Trailblazer
 
@@ -2296,6 +2701,7 @@
   > *—Daphne Vail, \*Diremore\* first mate*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16714 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/182/goblin-trailblazer) · oracle_id `38f66ef9-6afc-478b-a1d4-a9d42c31dfc9` · printing: CMR #182 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ca382425-2454-4300-b903-fdefd31582d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Traprunner
@@ -2308,6 +2714,7 @@
 - **Flavor text** (MH2 printing):
   > *The best traprunners know exactly where to step. The others . . . do their best.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/130/goblin-traprunner) · oracle_id `fbdffef0-9119-4650-9f92-58e8a664db6f` · printing: MH2 #130 (2021-06-18) · [rulings](https://api.scryfall.com/cards/36f0fd37-eb34-418d-b136-03d816c93034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Trashmaster
@@ -2321,7 +2728,10 @@
 - **Flavor text** (M19 printing):
   > *"Folks 'round here are too in love with their contraptions. Does them some good if we smash one every so often."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/144/goblin-trashmaster) · oracle_id `0283bf5e-ddf2-4a4a-a7cf-d3e27eed7e7d` · printing: M19 #144 (2018-07-13) · [rulings](https://api.scryfall.com/cards/2bc69988-3c2d-4b76-a8c0-05926b9bbd08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — Because damage remains marked on a creature until it’s removed as the turn ends, nonlethal damage dealt to a Goblin you control may become lethal if Goblin Trashmaster leaves the battlefield during that turn.
+  - *2018-07-13* — You can sacrifice Goblin Trashmaster to pay the cost for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/144/goblin-trashmaster) · oracle_id `0283bf5e-ddf2-4a4a-a7cf-d3e27eed7e7d` · printing: M19 #144 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Trenches
 
@@ -2333,7 +2743,9 @@
   > *"Even if we dislodge them, I fear these lands will never again yield crops."*
   > *—Kimmick, vanguard knight*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19726 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/203/goblin-trenches) · oracle_id `b43f40e6-c0ad-4a12-b75d-f2ba12629bfe` · printing: EMA #203 (2016-06-10) · [rulings](https://api.scryfall.com/cards/06625dee-d2e6-4efa-a385-5113d0fe78ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — The tokens are named "Goblin Soldier Token" and have the creature types "Goblin" and "Soldier."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/203/goblin-trenches) · oracle_id `b43f40e6-c0ad-4a12-b75d-f2ba12629bfe` · printing: EMA #203 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Tunneler
 
@@ -2345,7 +2757,10 @@
 - **Flavor text** (DDT printing):
   > *"The best way over the mountain is through."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/49/goblin-tunneler) · oracle_id `1005bc16-8a6a-476a-a647-4ed40d2e96de` · printing: DDT #49 (2017-10-24) · [rulings](https://api.scryfall.com/cards/7d1ebba6-25ed-448f-b230-7c4a0ca675fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — The ability doesn’t grant an ability to the targeted creature. Rather, it affects the game rules and states something that’s now true about that creature. After the ability resolves, the creature can’t be blocked that turn even if it loses all abilities.
+  - *2010-06-15* — The power of the targeted creature is checked both as you target it and as the ability resolves. After the ability resolves, the creature can’t be blocked that turn even if its power becomes greater than 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/49/goblin-tunneler) · oracle_id `1005bc16-8a6a-476a-a647-4ed40d2e96de` · printing: DDT #49 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Turncoat
 
@@ -2358,7 +2773,11 @@
   > *Modo was great at making friends . . . into shields.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/87/goblin-turncoat) · oracle_id `297c2ddf-6d2d-4ed4-ab37-716514d5e3b6` · printing: DMR #87 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5b9e49ee-9103-4340-bf92-f888c722af47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — Activating the ability creates a replacement effect that acts like a shield, replacing the next time Goblin Turncoat would be destroyed that turn. This shield works against effects that try to destroy Goblin Turncoat or lethal damage that would be dealt to Goblin Turncoat.
+  - *2022-12-08* — Goblin Turncoat can regenerate even if it isn’t in combat, it’s already tapped, or it’s undamaged.
+  - *2022-12-08* — You can activate the regeneration ability even if Goblin Turncoat isn’t at risk of being destroyed. Sometimes you need to sacrifice Goblins. We understand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/87/goblin-turncoat) · oracle_id `297c2ddf-6d2d-4ed4-ab37-716514d5e3b6` · printing: DMR #87 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Tutor
 
@@ -2372,6 +2791,7 @@
   > 5 — A creature
   > 6 — An instant or sorcery
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/53/goblin-tutor) · oracle_id `b026a2da-59e9-4b26-9094-a1cc2a5b95ff` · printing: UND #53 (2020-02-29) · [rulings](https://api.scryfall.com/cards/aba2055e-c668-4fe5-9c2b-0ef17557548c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Vandal
@@ -2382,7 +2802,10 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, you may pay {R}. If you do, destroy target artifact defending player controls and this creature assigns no combat damage this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/105/goblin-vandal) · oracle_id `50bebbb9-01b7-4eb6-8efd-307c9bcd2517` · printing: WTH #105 (1997-06-09) · [rulings](https://api.scryfall.com/cards/b7ad3b81-f706-4b33-b1ec-7600182a5232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If the defending player controls no artifacts that you can target, the ability doesn’t go on the stack and you can’t pay {R}.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/105/goblin-vandal) · oracle_id `50bebbb9-01b7-4eb6-8efd-307c9bcd2517` · printing: WTH #105 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Buggy
 
@@ -2394,6 +2817,7 @@
   > Echo {1}{R} (At the beginning of your upkeep, if this came under your control since the beginning of your last upkeep, sacrifice it unless you pay its echo cost.)
 - **Keywords:** Haste, Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29444 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/196/goblin-war-buggy) · oracle_id `59fb1640-d8ed-476a-a78d-91d60b6faac5` · printing: USG #196 (1998-10-12) · [rulings](https://api.scryfall.com/cards/d2d0fc9e-fb6b-4a00-b422-32565f7ce454/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Warchief
@@ -2407,7 +2831,9 @@
 - **Flavor text** (DOM printing):
   > *Not since the days of Pashalik Mons have the Rundvelt goblins been so united or effective.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/130/goblin-warchief) · oracle_id `39882df0-c20f-469d-94ba-1617224e71a1` · printing: DOM #130 (2018-04-27) · [rulings](https://api.scryfall.com/cards/5bac033c-dc4e-40a0-b103-4892e4b50249/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Goblin Warchief’s effect reduces only generic mana in the cost of Goblin spells you cast. For example, it doesn’t reduce the cost of Skirk Prospector below {R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/130/goblin-warchief) · oracle_id `39882df0-c20f-469d-94ba-1617224e71a1` · printing: DOM #130 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Cry
 
@@ -2419,6 +2845,7 @@
   > *"Goblins cry, soldiers fly.*
   > *Stones fly, soldiers die!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/104/goblin-war-cry) · oracle_id `a6c8c660-2b06-4395-8c86-dd540760d9ae` · printing: P02 #104 (1998-06-24) · [rulings](https://api.scryfall.com/cards/3822880c-a559-409c-8390-6d57eacc3a7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Wardriver
@@ -2433,6 +2860,7 @@
   > *—Qerk of the Secret Warren*
 - **Keywords:** Battle Cry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddt/50/goblin-wardriver) · oracle_id `10849bbb-50ca-4194-a7cb-fa872272b29b` · printing: DDT #50 (2017-10-24) · [rulings](https://api.scryfall.com/cards/6fb10750-4037-4630-82d3-bb068c335e48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Drums
@@ -2444,7 +2872,10 @@
 - **Flavor text** (A25 printing):
   > *Their eardrums may have given out, but the rest of them never will.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/133/goblin-war-drums) · oracle_id `29c21edd-781b-448e-824a-17bc8b8f4077` · printing: A25 #133 (2018-03-16) · [rulings](https://api.scryfall.com/cards/6d18b250-cbfb-4248-96c6-c1b36f8299b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Multiple War Drums are not cumulative. They are redundant.
+  - *2004-10-04* — When combined with an effect that reads "Each creature you control can't be blocked by more than one creature," none of your creatures can be blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/133/goblin-war-drums) · oracle_id `29c21edd-781b-448e-824a-17bc8b8f4077` · printing: A25 #133 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Paint
 
@@ -2458,6 +2889,7 @@
   > *—Jalun, Affa sentry*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18179 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/146/goblin-war-paint) · oracle_id `67ca79d7-9064-4605-8625-b1cfe5cb1b45` · printing: BFZ #146 (2015-10-02) · [rulings](https://api.scryfall.com/cards/b6ff3183-c273-4a61-ad25-526db29111c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Party
@@ -2471,7 +2903,10 @@
   > Entwine {2}{R} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/131/goblin-war-party) · oracle_id `fa4417e5-229a-4465-9bc5-0b3d6209b4a4` · printing: MH1 #131 (2019-06-14) · [rulings](https://api.scryfall.com/cards/2b4155d1-0a87-4d2c-a1a0-06b2553eaae4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Goblin War Party’s second mode affects only creatures you control at the time the spell resolves. Creatures you begin to control later in the turn won’t get +1/+1 or gain haste.
+  - *2019-06-14* — If Goblin War Party is entwined, its modes are performed in order. The Goblin tokens you create get +1/+1 and gain haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/131/goblin-war-party) · oracle_id `fa4417e5-229a-4465-9bc5-0b3d6209b4a4` · printing: MH1 #131 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Warrens
 
@@ -2483,7 +2918,9 @@
   > *"Goblins bred underground, their numbers hidden from the enemy until it was too late."*
   > *—\*Sarpadian Empires, vol. IV\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/123/goblin-warrens) · oracle_id `c1161505-1623-4475-a88e-2e48072cc2f1` · printing: ME4 #123 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2d8ce8ad-2bb9-4c53-8e36-9690e8a118f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The token Goblins can be sacrificed to the Warrens to generate new Goblins.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/123/goblin-warrens) · oracle_id `c1161505-1623-4475-a88e-2e48072cc2f1` · printing: ME4 #123 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Strike
 
@@ -2494,6 +2931,7 @@
 - **Flavor text** (SCG printing):
   > *"Fire, aim, ready!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4686 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/96/goblin-war-strike) · oracle_id `5944d5c7-65ab-425f-a453-ed5871ca3d73` · printing: SCG #96 (2003-05-26) · [rulings](https://api.scryfall.com/cards/dce59945-37a2-4f09-8831-9d44b4a59ea7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin War Wagon
@@ -2505,6 +2943,7 @@
   > This creature doesn't untap during your untap step.
   > At the beginning of your upkeep, you may pay {2}. If you do, untap this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30730 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/179/goblin-war-wagon) · oracle_id `81a38340-9558-49d3-8de6-d7d01babfd97` · printing: MRD #179 (2003-10-02) · [rulings](https://api.scryfall.com/cards/229e8124-54ed-4c29-8c44-4962bd60f145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Welder
@@ -2517,7 +2956,9 @@
 - **Flavor text** (CM2 printing):
   > *"I wrecked your metal guy, boss. But look! I made you an ashtray."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/101/goblin-welder) · oracle_id `9fc28e1f-f4ea-4bf8-9442-a36dba3b3b29` · printing: CM2 #101 (2018-06-08) · [rulings](https://api.scryfall.com/cards/17cd920a-de09-454a-a9da-c84512e3aff1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — As the new wording makes clear, both targets must still be legal as the ability resolves in order for it to do anything. If either one or both has become illegal, nothing gets sacrificed and nothing gets returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/101/goblin-welder) · oracle_id `9fc28e1f-f4ea-4bf8-9442-a36dba3b3b29` · printing: CM2 #101 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Wizard
 
@@ -2528,7 +2969,9 @@
   > {T}: You may put a Goblin permanent card from your hand onto the battlefield.
   > {R}: Target Goblin gains protection from white until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17204 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/97/goblin-wizard) · oracle_id `912c99a0-ee97-4bb9-8ab7-2e469d74fa03` · printing: ME1 #97 (2007-09-10) · [rulings](https://api.scryfall.com/cards/09167603-93ab-488b-88eb-37f7cf9e3e19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/97/goblin-wizard) · oracle_id `912c99a0-ee97-4bb9-8ab7-2e469d74fa03` · printing: ME1 #97 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goblin Wizardry
 
@@ -2539,7 +2982,9 @@
 - **Flavor text** (CLU printing):
   > *"Quiet in the library" soon gave way to larger concerns.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13928 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/136/goblin-wizardry) · oracle_id `f621dcaa-c500-4a17-a65a-60d9b5516a3b` · printing: CLU #136 (2024-02-23) · [rulings](https://api.scryfall.com/cards/04d250d6-7ab1-4b30-85a4-acb0b620629c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — The tokens are named "Goblin Wizard Token" and have the creature types "Goblin" and "Wizard."
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/136/goblin-wizardry) · oracle_id `f621dcaa-c500-4a17-a65a-60d9b5516a3b` · printing: CLU #136 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gobsmacked
 
@@ -2553,4 +2998,8 @@
   > *You haven't seen it until you see it in 6-D.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32220 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/11/gobsmacked) · oracle_id `b394f2a8-2b45-447b-bfbf-f3d82be414c6` · printing: UNF #11 (2022-10-07) · [rulings](https://api.scryfall.com/cards/937d151e-8912-4377-8afc-dc5c742c8a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — If the person leaves the room, or otherwise obscures themselves from your view, the last ability will stop having any effect. If they return to your view, the last ability will function once again. They don't even need to know that they've been chosen; you can tell them if you'd like, but they may take that as a sign to get up and go for a walk.
+  - *2022-10-07* — If the person leaves the room, you can't pick up your seat and follow them. Your seat stays with the game with you in it.
+  - *2022-10-07* — You don't have to be always looking at the person in order for the last ability to function. It just needs to be possible for you to see them from your seat. This isn't a gotcha game where your opponent waits for you to blink and then quickly activates abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/11/gobsmacked) · oracle_id `b394f2a8-2b45-447b-bfbf-f3d82be414c6` · printing: UNF #11 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -40,6 +40,7 @@
 - **Flavor text** (MSC printing):
   > *"Each of us is strong. Together, we are unbreakable."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17569 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/71/wakanda-forever!) · oracle_id `b8add484-8ed1-4a1c-aff9-dec65d60e4b1` · printing: MSC #71 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8b893d46-25f0-4c6a-b9a3-ff25277be918/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakandan Drone Flock
@@ -54,6 +55,7 @@
   > *Wakandan engineers look to nature for inspiration as they develop new technologies.*
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/40/wakandan-drone-flock) · oracle_id `282d6e61-3240-4f1e-9c2d-8ddb59b03af4` · printing: MSH #40 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4b12dc1f-2218-4c71-aafa-ea6a26eeb0aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakandan Royal Guard
@@ -68,6 +70,7 @@
   > *The shields and spears of Wakanda are forever united in defense of their king.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/195/wakandan-royal-guard) · oracle_id `4ae15bd1-e0ea-4c1a-a311-dae421381ebc` · printing: MSH #195 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9bf0b1e9-32b5-4591-8dd2-6b5f9768c72d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakandan Shield Guard
@@ -80,6 +83,7 @@
 - **Flavor text** (MSC printing):
   > *"Hail Wakanda! Hail Damisa-Sarki!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27758 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/613/wakandan-shield-guard) · oracle_id `a9268e61-2697-46ff-b219-4f2be646cbe4` · printing: MSC #613 (2026-06-26) · [rulings](https://api.scryfall.com/cards/47eba4f9-8276-4367-8ff5-53a066e8c729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakandan Tusker
@@ -94,6 +98,7 @@
   > *—Zuri, warrior of Wakanda*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26362 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/748/wakandan-tusker) · oracle_id `9e8ffb63-1a7b-4ebe-839d-d5192522db65` · printing: MSC #748 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5c390e05-2f69-45af-9646-eded19d45dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakedancer
@@ -107,6 +112,7 @@
   > *Hers is an ancient form of necromancy, steeped in shamanic trance and ritual that few skaberen or ghoulcallers comprehend.*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24771 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/116/wakedancer) · oracle_id `e850743e-e4c4-4a09-b797-d5f688b51451` · printing: EMA #116 (2016-06-10) · [rulings](https://api.scryfall.com/cards/e85a5833-042b-4b13-8151-f9e4bcf8e810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakening Sun's Avatar
@@ -120,7 +126,10 @@
   > *"Kinjalli's encompassing rays herald new life in the moment of the sun's dawning."*
   > *—Chitlati, Lightning Rider*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3272 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/139/wakening-suns-avatar) · oracle_id `3c2aec69-ffd9-4a34-888c-58adbbb99bb5` · printing: LCC #139 (2023-11-17) · [rulings](https://api.scryfall.com/cards/820b6327-2cbf-4054-bc33-4baf9c26dd70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If you cast a creature spell that enters the battlefield as a copy of Wakening Sun's Avatar, such as Clone, the enters-the-battlefield ability will trigger.
+  - *2017-09-29* — If you put Wakening Sun's Avatar onto the battlefield from your hand without casting it, its ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/139/wakening-suns-avatar) · oracle_id `3c2aec69-ffd9-4a34-888c-58adbbb99bb5` · printing: LCC #139 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake of Destruction
 
@@ -133,7 +142,9 @@
   > *Crops and wells alike despoiled, Mountains leveled, forests felled—*
   > *Footprints of the beasts of Keld.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/99/wake-of-destruction) · oracle_id `562f7f99-ee67-4a14-b5e2-1a4ae710726d` · printing: UDS #99 (1999-06-07) · [rulings](https://api.scryfall.com/cards/0c070f12-0342-48d5-ab0e-4fc4701c3669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only looks at the card name, so it will not destroy lands that just share the destroyed land’s type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/99/wake-of-destruction) · oracle_id `562f7f99-ee67-4a14-b5e2-1a4ae710726d` · printing: UDS #99 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake of Vultures
 
@@ -148,7 +159,9 @@
   > *—Azeworai, "The Ugly Bird"*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31161 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/115/wake-of-vultures) · oracle_id `2948b1d5-c12c-45c4-a3e8-aa470fcee1af` · printing: EMA #115 (2016-06-10) · [rulings](https://api.scryfall.com/cards/0c23716e-453e-4686-a8dd-ca1d67ad577d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — You can sacrifice Wake of Vultures to activate its own ability. The ability will have no effect as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/115/wake-of-vultures) · oracle_id `2948b1d5-c12c-45c4-a3e8-aa470fcee1af` · printing: EMA #115 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waker of the Wilds
 
@@ -160,7 +173,10 @@
 - **Flavor text** (ZNC printing):
   > *"Our foes are many and mighty, but not as many as the trees or as mighty as the sea."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/86/waker-of-the-wilds) · oracle_id `ebf6ef9f-97b2-48cf-855e-d68dc7b11de4` · printing: ZNC #86 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4124807b-15f9-46d7-8b0b-d4f1b3587d99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — If the ability targets a land that’s already a creature, that land creature’s base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including any +1/+1 counters that were on it) will continue to apply.
+  - *2017-09-29* — The land-animation effect lasts indefinitely. It doesn’t wear off during the cleanup step or when you lose control of Waker of the Wilds.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/86/waker-of-the-wilds) · oracle_id `ebf6ef9f-97b2-48cf-855e-d68dc7b11de4` · printing: ZNC #86 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waker of Waves
 
@@ -173,7 +189,9 @@
 - **Flavor text** (M21 printing):
   > *On the open sea, there is nowhere to hide.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/84/waker-of-waves) · oracle_id `3a19a959-ea83-404b-89f7-e5dbf4cb7995` · printing: M21 #84 (2020-07-03) · [rulings](https://api.scryfall.com/cards/abb47990-a5a9-4a22-a8bb-d229b17132c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — You can activate the last ability of Waker of Waves only if it's in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/84/waker-of-waves) · oracle_id `3a19a959-ea83-404b-89f7-e5dbf4cb7995` · printing: M21 #84 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakeroot Elemental
 
@@ -186,7 +204,9 @@
   > *"When the forest walks, it's too late to run."*
   > *—Horent, Khalni druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19959 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/202/wakeroot-elemental) · oracle_id `edc6db57-3519-4649-9c4a-5cf264cce26f` · printing: M20 #202 (2019-07-12) · [rulings](https://api.scryfall.com/cards/02c9396d-28f2-40b7-908e-51db51da57a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Wakeroot Elemental’s ability can target a land that’s already a creature or a land that’s already untapped. The ability will untap it if possible and set its base power and toughness to 5/5. Any counters or effects modifying that creature’s power and toughness will continue to apply, and any effects that set the creature’s power and toughness will be overwritten.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/202/wakeroot-elemental) · oracle_id `edc6db57-3519-4649-9c4a-5cf264cce26f` · printing: M20 #202 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakestone Gargoyle
 
@@ -200,7 +220,10 @@
   > *Its pulsating cry shatters bonds of iron, granite, and servitude.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/137/wakestone-gargoyle) · oracle_id `11284767-7095-4e0e-bc60-c69d58098348` · printing: TDC #137 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4d5f0939-6b99-401d-99c9-e4339a9c5822/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — Wakestone Gargoyle’s ability allows itself to attack.
+  - *2006-05-01* — Wakestone Gargoyle’s ability will affect creatures with defender that come under your control after the ability resolves but before you declare attackers (though those creatures still can’t attack unless they have haste).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/137/wakestone-gargoyle) · oracle_id `11284767-7095-4e0e-bc60-c69d58098348` · printing: TDC #137 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Dead
 
@@ -210,7 +233,9 @@
   > Cast this spell only during combat on an opponent's turn.
   > Return X target creature cards from your graveyard to the battlefield. Sacrifice those creatures at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8431 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/197/wake-the-dead) · oracle_id `69bf79c3-87d1-4244-8d58-989307c91a12` · printing: CMM #197 (2023-08-04) · [rulings](https://api.scryfall.com/cards/e1780be8-26f6-4f33-9bc6-ecafc3751c8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — The delayed triggered ability that makes you sacrifice the creatures will trigger only once. If you don’t sacrifice one or more of those creatures at that time (perhaps because another player gained control of them), the ability won’t try to make you sacrifice them on future turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/197/wake-the-dead) · oracle_id `69bf79c3-87d1-4244-8d58-989307c91a12` · printing: CMM #197 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Dragon
 
@@ -221,7 +246,14 @@
   > Flashback {6}{B}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/74/wake-the-dragon) · oracle_id `cfa5b168-d112-4b92-ac42-8bba30f15d77` · printing: LTC #74 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f9cf5f78-0316-4c35-a40e-9bfba2e46ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-06-16* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-06-16* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2023-06-16* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-06-16* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2023-06-16* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/74/wake-the-dragon) · oracle_id `cfa5b168-d112-4b92-ac42-8bba30f15d77` · printing: LTC #74 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Past
 
@@ -233,6 +265,7 @@
   > *"Belong in a museum? I think we should let relics belong wherever they please!"*
   > *—Quintorius, Lorehold mage-student*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/128/wake-the-past) · oracle_id `34143cfa-aa48-481c-af42-1240af174b80` · printing: EOC #128 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1a58dad4-0189-4e28-a9e1-0b15aa5d84eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Reflections
@@ -246,7 +279,14 @@
   > *—Lalia, Selesnya dryad*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12589 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/28/wake-the-reflections) · oracle_id `211868ca-662b-4054-bf50-c9e16bb58c49` · printing: MM3 #28 (2017-03-17) · [rulings](https://api.scryfall.com/cards/e5fad4c2-7db2-4ed2-8b86-e386311512e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/28/wake-the-reflections) · oracle_id `211868ca-662b-4054-bf50-c9e16bb58c49` · printing: MM3 #28 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake Thrasher
 
@@ -258,7 +298,9 @@
 - **Flavor text** (DDT printing):
   > *Anyone who thinks merrows have more brains than brawn has never been run over by one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/24/wake-thrasher) · oracle_id `f2d1e991-e13a-43c7-85aa-d53dd14822e6` · printing: DDT #24 (2017-10-24) · [rulings](https://api.scryfall.com/cards/7340b21f-726d-47e8-a2bf-1cde21be70f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — If permanents you control become untapped during your untap step, Wake Thresher’s ability will trigger that many times. However, since no player gets priority during the untap step, those abilities wait to be put on the stack until your upkeep starts. At that time, all your “beginning of upkeep” triggers will also trigger. You can put them and Wake Thresher’s abilities on the stack in any order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/24/wake-thrasher) · oracle_id `f2d1e991-e13a-43c7-85aa-d53dd14822e6` · printing: DDT #24 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake to Slaughter
 
@@ -269,7 +311,15 @@
   > Flashback {4}{B}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/250/wake-to-slaughter) · oracle_id `78eb5399-8c8b-4310-b585-e4ccd9d7c9cc` · printing: MID #250 (2021-09-24) · [rulings](https://api.scryfall.com/cards/7f02a544-716c-4f09-8ae9-dbfe7ef136d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — If only one target is still legal as Wake to Slaughter resolves (or if you only chose one target), that's the card your opponent will have to choose to put into your hand. They can't choose to have you return it to the battlefield.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/250/wake-to-slaughter) · oracle_id `78eb5399-8c8b-4310-b585-e4ccd9d7c9cc` · printing: MID #250 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waking Nightmare
 
@@ -281,6 +331,7 @@
   > *"Once each year, the oni and other evil spirits paraded through villages to disturb mortals' sleep. During the war, this parade became a nightly event."*
   > *—\*Observations of the Kami War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25430 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/103/waking-nightmare) · oracle_id `f3f34ef2-1255-4da2-9f29-8c79fee7a2c5` · printing: MM2 #103 (2015-05-22) · [rulings](https://api.scryfall.com/cards/3cc87c53-0612-42a7-9c32-f7d1adf246af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waking the Trolls
@@ -293,7 +344,15 @@
   > II — Put target land card from a graveyard onto the battlefield under your control.
   > III — Choose target opponent. If they control fewer lands than you, create a number of 4/4 green Troll Warrior creature tokens with trample equal to the difference.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14915 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/234/waking-the-trolls) · oracle_id `c8cdabc4-e147-491b-9c44-96e57f6ec3b4` · printing: KHM #234 (2021-02-05) · [rulings](https://api.scryfall.com/cards/36016324-384c-4c68-8f73-8f39a244c879/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/234/waking-the-trolls) · oracle_id `c8cdabc4-e147-491b-9c44-96e57f6ec3b4` · printing: KHM #234 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakka, Devoted Guardian
 
@@ -306,4 +365,7 @@
   > Blitzball Captain — At the beginning of your end step, if a counter was put on Wakka this turn, put a +1/+1 counter on each other creature you control.
 - **Keywords:** Reach, Trample, Blitzball Captain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5002 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/97/wakka-devoted-guardian) · oracle_id `fbd37284-35ff-4409-b6d5-f813c06c4931` · printing: FIC #97 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9f7fcef4-99fc-4df2-b0f5-4398f71b2fcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Wakka's last ability checks at the moment it would trigger to see if a counter was put on Wakka this turn. If none were, the ability won't trigger at all. Once your end step begins, it's too late to put a counter on Wakka in order to cause this ability to trigger.
+  - *2025-06-06* — You don't have to choose a target for Wakka's second ability. However, if you do and the target is illegal as the ability tries to resolve, it won't resolve and none of its effects will happen. You won't put a counter on Wakka.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/97/wakka-devoted-guardian) · oracle_id `fbd37284-35ff-4409-b6d5-f813c06c4931` · printing: FIC #97 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

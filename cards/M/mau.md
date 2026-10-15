@@ -33,7 +33,9 @@
   > *"We are the servants of Saruman the Wise, the White Hand: the Hand that gives us Man's-flesh to eat."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4466 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · [rulings](https://api.scryfall.com/cards/65e9a757-7ed4-4cc0-bb6f-a59fa69b32a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Mauhúr's last ability applies to counters placed on Army tokens when you amass Orcs (or Zombies, or anything else.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/214/mauh%C3%BAr-uruk-hai-captain) · oracle_id `9966cac0-331f-4627-be5a-5060a6ac5a32` · printing: LTR #214 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maular, the Next Evolution
 
@@ -47,6 +49,7 @@
   > *An unnatural ruler for the natural world.*
 - **Keywords:** Rulebreaker, Double
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #19931 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/31/maular-the-next-evolution) · oracle_id `214f4e0a-eba7-4a08-86b2-d490d6ae1048` · printing: MBC #31 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ac8d307f-5340-4419-95b4-b0ca09f9fd89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maulfist Doorbuster
@@ -60,7 +63,18 @@
 - **Flavor text** (KLD printing):
   > *"Knock, knock . . . too late."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/123/maulfist-doorbuster) · oracle_id `70a04e3f-e123-4925-9a02-9825488f1bc8` · printing: KLD #123 (2016-09-30) · [rulings](https://api.scryfall.com/cards/53681384-b72d-42a6-b134-aa420115ea12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2016-09-20* — The target creature can't block any creatures this turn. The effect isn't restricted to just whether the creature can block Maulfist Doorbuster.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/123/maulfist-doorbuster) · oracle_id `70a04e3f-e123-4925-9a02-9825488f1bc8` · printing: KLD #123 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maulfist Revolutionary
 
@@ -72,7 +86,11 @@
   > When this creature enters or dies, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/115/maulfist-revolutionary) · oracle_id `65d41af0-978e-4071-9f64-0e3b5826763a` · printing: AER #115 (2017-01-20) · [rulings](https://api.scryfall.com/cards/a83dcdba-419b-41e1-8c9d-8bca6fe2752b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-02-09* — Maulfist Revolutionary’s triggered ability gives only one counter of each kind. It doesn’t double the number of each kind of counter. For example, if a creature has two +1/+1 counters and a charge counter on it, it gets one +1/+1 counter and one charge counter.
+  - *2017-02-09* — The triggered ability triggers both when Maulfist Revolutionary enters the battlefield and when it dies. You don’t have to choose only one.
+  - *2017-02-09* — To give a counter is to put a counter on a permanent or to have a player get a counter. Effects that interact with a player getting counters or counters being placed on permanents interact with Maulfist Revolutionary’s triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/115/maulfist-revolutionary) · oracle_id `65d41af0-978e-4071-9f64-0e3b5826763a` · printing: AER #115 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maulfist Squad
 
@@ -86,7 +104,11 @@
   > *"Nice invention there. Looks real fragile."*
 - **Keywords:** Menace, Fabricate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/91/maulfist-squad) · oracle_id `2a8ec988-b513-4e66-b7f5-b2196b4bbff2` · printing: KLD #91 (2016-09-30) · [rulings](https://api.scryfall.com/cards/5e4cd13a-66b6-4c65-a5a0-82f93145d16a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
+  - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
+  - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/91/maulfist-squad) · oracle_id `2a8ec988-b513-4e66-b7f5-b2196b4bbff2` · printing: KLD #91 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maul of the Skyclaves
 
@@ -98,7 +120,10 @@
   > Equip {2}{W}{W}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4167 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/195/maul-of-the-skyclaves) · oracle_id `088a1f56-198c-41a1-b244-ec1c7a771041` · printing: MOC #195 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3213c1f9-bff5-4629-a0b6-0c81ccf6c80d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and if the Equipment enters at a time you couldn't cast a sorcery, you can still attach it to a creature you control.
+  - *2020-09-25* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/195/maul-of-the-skyclaves) · oracle_id `088a1f56-198c-41a1-b244-ec1c7a771041` · printing: MOC #195 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maul Splicer
 
@@ -109,6 +134,7 @@
   > When this creature enters, create two 3/3 colorless Phyrexian Golem artifact creature tokens.
   > Golem creatures you control have trample.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/114/maul-splicer) · oracle_id `b0d0c534-8bd2-4801-aadd-dcc9c92d6ec3` · printing: NPH #114 (2011-05-13) · [rulings](https://api.scryfall.com/cards/2d2c6a6d-5b59-47d7-b290-df3640d9555f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Guard
@@ -121,6 +147,7 @@
 - **Flavor text** (INR printing):
   > *"Ghoulcallers trying to get in, geists trying to get out . . . . This duty is never dull."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/33/mausoleum-guard) · oracle_id `64f3af46-f8ab-4ba4-9dff-7412cefb4eea` · printing: INR #33 (2025-01-24) · [rulings](https://api.scryfall.com/cards/849bea7e-74e5-4310-be5a-d517d7b19be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Harpy
@@ -134,7 +161,16 @@
   > Whenever another creature you control dies, if you have the city's blessing, put a +1/+1 counter on this creature.
 - **Keywords:** Flying, Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/78/mausoleum-harpy) · oracle_id `ba682da8-50f5-478f-99cc-60a57d229a04` · printing: RIX #78 (2018-01-19) · [rulings](https://api.scryfall.com/cards/54b40f3c-d75e-483f-b978-8b3bf30cc7ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2018-01-19* — Ascend on a permanent isn’t a triggered ability and doesn’t use the stack. Players can respond to a spell that will give you your tenth permanent, but they can’t respond to getting the city’s blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can’t respond before you get the city’s blessing.
+  - *2018-01-19* — If another creature you control is dealt lethal damage at the same time that Mausoleum Harpy is dealt lethal damage, Mausoleum Harpy won’t be saved by the +1/+1 counter that would have been put on it.
+  - *2018-01-19* — If you cast a spell with ascend, you don’t get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+  - *2018-01-19* — Some cards have triggered abilities with an intervening “if” clause that checks whether you have the city’s blessing. These are worded “[Trigger condition], if you have the city’s blessing, [effect].” You must already have the city’s blessing in order for these abilities to trigger; otherwise they do nothing. In other words, there’s no way to have the ability trigger if you don’t have the city’s blessing, even if you intend to get it in response to the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/78/mausoleum-harpy) · oracle_id `ba682da8-50f5-478f-99cc-60a57d229a04` · printing: RIX #78 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Secrets
 
@@ -144,7 +180,12 @@
   > Undergrowth — Search your library for a black card with mana value less than or equal to the number of creature cards in your graveyard, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/75/mausoleum-secrets) · oracle_id `30c4914e-4d9f-453d-bf5b-48ab8e0f2ba3` · printing: GRN #75 (2018-10-05) · [rulings](https://api.scryfall.com/cards/26f7cf38-78cc-4139-9f2a-4dd0be7d9da8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — A land card that produces black mana, even a Swamp, normally has no color.
+  - *2018-10-05* — Because tokens aren’t cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — If a card in your library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/75/mausoleum-secrets) · oracle_id `30c4914e-4d9f-453d-bf5b-48ab8e0f2ba3` · printing: GRN #75 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Turnkey
 
@@ -156,6 +197,7 @@
 - **Flavor text** (CLU printing):
   > *When he reaches for his key ring, you should be running for the exit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28142 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/116/mausoleum-turnkey) · oracle_id `d4a61685-7149-4d14-bc17-85b060945687` · printing: CLU #116 (2024-02-23) · [rulings](https://api.scryfall.com/cards/bb0f0260-b737-43aa-a6fc-9e0b55b24369/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mausoleum Wanderer
@@ -169,4 +211,5 @@
   > Sacrifice this creature: Counter target instant or sorcery spell unless its controller pays {X}, where X is this creature's power.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6804 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/74/mausoleum-wanderer) · oracle_id `1803850e-9499-4bf7-a4d9-6bf655cbe87d` · printing: INR #74 (2025-01-24) · [rulings](https://api.scryfall.com/cards/f47bda42-8eb7-49c5-8f3b-e988e377a7f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

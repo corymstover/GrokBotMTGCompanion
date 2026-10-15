@@ -30,7 +30,13 @@
   > Whenever a modified creature you control attacks, double the number of each kind of counter on it. Then for each nontoken permanent attached to it, create a token that's a copy of that permanent attached to that creature.
 - **Keywords:** Flying, Lifelink, Ward, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7552 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/178/arna-kenner%C3%BCd-skycaptain) · oracle_id `436e7548-f8d5-43af-947d-b382da0d19b3` · printing: MH3 #178 (2024-06-14) · [rulings](https://api.scryfall.com/cards/19266b5a-ff78-436c-b0f1-457e80bb647e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2024-06-07* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2024-06-07* — An Aura controlled by another player does not cause a creature you control to be modified.
+  - *2024-06-07* — If, for any reason, an Aura token that would be created with Arna Kennerüd's last ability can't be attached to the appropriate creature, that token isn't created. If an Equipment token that can't be attached to the appropriate creature would be created, that token enters the battlefield unattached.
+  - *2024-06-07* — To double the number of each kind of counter on a permanent, put another counter on it for each counter it already has. Effects that interact with counters being put onto permanents, such as the effect of Branching Evolution, apply as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/178/arna-kenner%C3%BCd-skycaptain) · oracle_id `436e7548-f8d5-43af-947d-b382da0d19b3` · printing: MH3 #178 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Brokenbrow
 
@@ -44,7 +50,16 @@
   > *"I headbutted a troll. And won."*
 - **Keywords:** Boast, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16839 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/120/arni-brokenbrow) · oracle_id `3dce6c6c-599f-4e35-ae15-728c5e78dee1` · printing: KHM #120 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ff334bba-0805-4d5d-86c4-99185fe9a77a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — Any effects that modify Arni Brokenbrow's power without setting it to a specific value will apply after Arni's base power is set, regardless of the order in which those effects were created. The same is true of counters that modify Arni's power.
+  - *2021-02-05* — Arni Brokenbrow's new base power is set to the 1 plus the actual power of the other creature you control with the highest power, not that creature's base power. If that creature's power changes after the boast ability has resolved, Arni's power is unaffected.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+  - *2021-02-05* — In some unfortunate cases, the greatest power among other creatures you control may be negative. For example, if that greatest power is -3, you could change Arni's base power to -2 until end of turn. Arni strenuously objects to this course of action.
+  - *2021-02-05* — The greatest power among other creatures you control is determined as the boast ability resolves. You choose at that time whether you'd like to change Arni Brokenbrow's base power. If you control no other creatures at that time, you can change Arni's base power to 1 until end of turn. Arni objects to this course of action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/120/arni-brokenbrow) · oracle_id `3dce6c6c-599f-4e35-ae15-728c5e78dee1` · printing: KHM #120 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Humble Scribe
 
@@ -57,6 +72,7 @@
 - **Flavor text** (FRA printing):
   > *"If you have a tale worthy of telling, I would hear it, friend."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23199 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/211/arni-humble-scribe) · oracle_id `a680d1ab-99f2-43d0-b289-5fdba4083d03` · printing: FRA #211 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8e3a2239-9348-4639-9318-e9e35b2cf86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Metalbrow
@@ -67,7 +83,11 @@
 - **Oracle text:**
   > Whenever a creature you control attacks or enters attacking, you may pay {1}{R}. If you do, you may put a creature card with mana value less than that creature's mana value from your hand onto the battlefield tapped and attacking.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11084 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/16/arni-metalbrow) · oracle_id `d799e58a-0032-4df8-a77f-0d824ec15214` · printing: MAT #16 (2023-05-12) · [rulings](https://api.scryfall.com/cards/aeb3069f-5f5a-4e11-8a63-46399eb85a95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — If the attacking creature or creature that entered the battlefield attacking isn't on the battlefield as the triggered ability resolves, use its mana value from when it was last on the battlefield. (If it's on the battlefield but is no longer attacking, use its current mana value.)
+  - *2023-05-12* — Putting a creature onto the battlefield attacking as the ability resolves will cause the ability to trigger again. This instance of the ability will consider the mana value of the new creature that entered the battlefield attacking.
+  - *2023-05-12* — You decide whether to pay {1}{R} as the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/16/arni-metalbrow) · oracle_id `d799e58a-0032-4df8-a77f-0d824ec15214` · printing: MAT #16 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnim Zola, Bio-Fanatic
 
@@ -79,6 +99,7 @@
 - **Flavor text** (MSH printing):
   > *"You are not the only one who found a way to live across the ages, Captain America."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19881 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/86/arnim-zola-bio-fanatic) · oracle_id `95161e23-e4c4-411f-bce5-58a02abc0958` · printing: MSH #86 (2026-06-26) · [rulings](https://api.scryfall.com/cards/07c70df6-b064-424a-852e-201b312a5b54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni, Renowned Champion
@@ -93,6 +114,7 @@
   > *There is no man with more bravado in all Bretagard, yet he has never exaggerated a single detail.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27499 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/243/arni-renowned-champion) · oracle_id `1a929c4f-ae1f-44d9-a0a7-2ca2dc928dee` · printing: FRA #243 (2026-10-02) · [rulings](https://api.scryfall.com/cards/bd8db649-1dba-457d-8327-e1f1da1aab36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arni Slays the Troll
@@ -106,7 +128,19 @@
   > III — You gain life equal to the greatest power among creatures you control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/201/arni-slays-the-troll) · oracle_id `7cb47a7e-fe60-45a2-9c07-bd5c6ddca82d` · printing: KHM #201 (2021-02-05) · [rulings](https://api.scryfall.com/cards/d18396f9-ae20-4471-84ab-a2148319bc39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — For the chapter I ability, if either target is an illegal target as that ability resolves, neither creature will deal or be dealt damage.
+  - *2021-02-05* — For the chapter III ability, use the greatest power among creatures you control as the ability resolves to determine how much life you will gain. If you control no creatures at that time, or if all creatures you control have power 0 or less, you won’t gain any life.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — If you choose no targets for the chapter II ability, you’ll simply add {R} as the ability resolves. However, if you do choose a target creature you control, and that creature is an illegal target as the ability resolves, the ability won’t resolve. You won’t add {R} in that case.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The chapter II ability isn’t a mana ability. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/201/arni-slays-the-troll) · oracle_id `7cb47a7e-fe60-45a2-9c07-bd5c6ddca82d` · printing: KHM #201 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnjlot's Ascent
 
@@ -122,6 +156,7 @@
   > *—Arnjlot Olasson, Sky Mage*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30214 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/57/arnjlots-ascent) · oracle_id `f2cedb38-12b0-4489-a62b-9b6a3776d695` · printing: ICE #57 (1995-06-03) · [rulings](https://api.scryfall.com/cards/2307fb16-8b77-45b5-8a02-51a13214791d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arno Dorian
@@ -137,7 +172,21 @@
   > *"The Creed is a warning. Ideals too easily give way to dogma. Dogma becomes fanaticism."*
 - **Keywords:** Disguise, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6755 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/47/arno-dorian) · oracle_id `ae90daea-6644-4235-bca6-b94ee9925f63` · printing: ACR #47 (2024-07-05) · [rulings](https://api.scryfall.com/cards/41142b10-a493-499a-9fc5-043eeca5d1ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-07-05* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent you control face up by paying its disguise cost.
+  - *2024-07-05* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren’t affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-07-05* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn’t use the stack and can’t be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-07-05* — At any time, you can look at a face-down spell or permanent you control. You can’t look at face-down permanents or spells you don’t control unless an effect instructs or allows you to do so.
+  - *2024-07-05* — Because face-down creatures don’t have a name, they can’t have the same name as any other creature, even another face-down creature.
+  - *2024-07-05* — Because the permanent is on the battlefield both before and after it’s turned face up, turning a permanent face up doesn’t cause any enters-the-battlefield abilities to trigger.
+  - *2024-07-05* — If a face-down creature loses its abilities, it can’t be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-07-05* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-07-05* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2024-07-05* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn’t have or change the characteristics it does have.
+  - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
+  - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/47/arno-dorian) · oracle_id `ae90daea-6644-4235-bca6-b94ee9925f63` · printing: ACR #47 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arnyn, Deathbloom Botanist
 
@@ -151,4 +200,6 @@
   > *"My lovelies need meat, just like any other carnivore."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7666 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/74/arnyn-deathbloom-botanist) · oracle_id `3debd5c7-da3c-4130-8ed9-e156e10034b6` · printing: SOS #74 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6168b472-0930-4db5-9920-407340b99050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Arnyn's last ability cares about the power or toughness of a creature that died as it last existed on the battlefield. It doesn't matter what its power or toughness is in any other zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/74/arnyn-deathbloom-botanist) · oracle_id `3debd5c7-da3c-4130-8ed9-e156e10034b6` · printing: SOS #74 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

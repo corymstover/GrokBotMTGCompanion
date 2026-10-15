@@ -50,7 +50,9 @@
 - **Flavor text** (TSB printing):
   > *Invented in Mishra's earlier days, the rack was once his most feared creation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/113/the-rack) · oracle_id `3d873e1d-4fac-42c4-bb31-77e76099e1ef` · printing: TSB #113 (2006-10-06) · [rulings](https://api.scryfall.com/cards/696d1e25-5c25-4522-b085-90d49fe23a18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose one opposing player as this card enters, and it only affects that one player. This choice is not changed even if this card changes controllers. It becomes useless but stays on the battlefield if the chosen player leaves the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/113/the-rack) · oracle_id `3d873e1d-4fac-42c4-bb31-77e76099e1ef` · printing: TSB #113 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rani
 
@@ -62,7 +64,11 @@
   > Whenever a goaded creature deals combat damage to one of your opponents, investigate.
 - **Keywords:** Investigate, Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13498 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/149/the-rani) · oracle_id `ac9b0bdf-caf8-4dba-a900-e59de35e77d7` · printing: WHO #149 (2023-10-13) · [rulings](https://api.scryfall.com/cards/01b44c52-b3a3-4954-adcc-53b79921ea24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/149/the-rani) · oracle_id `ac9b0bdf-caf8-4dba-a900-e59de35e77d7` · printing: WHO #149 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Raven Man
 
@@ -73,7 +79,9 @@
   > At the beginning of each end step, if a player discarded a card this turn, create a 1/1 black Bird creature token with flying and "This token can't block."
   > {3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4728 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/103/the-raven-man) · oracle_id `19918740-f6e3-40cd-9848-3c7a852a6c2a` · printing: DMU #103 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6e761fb2-ae4f-4d72-a142-f7e9bd681303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — The Raven Man's first ability triggers at the beginning of each player's end step as long as at least one player has discarded a card this turn. It only triggers once, not once for each card discarded or once for each player that discarded a card. It will trigger even if its controller is the one that discarded a card this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/103/the-raven-man) · oracle_id `19918740-f6e3-40cd-9848-3c7a852a6c2a` · printing: DMU #103 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Raven's Warning
 
@@ -85,7 +93,17 @@
   > II — Whenever one or more creatures you control with flying deal combat damage to a player this turn, look at that player's hand and draw a card.
   > III — You may put a card you own from outside the game on top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/227/the-ravens-warning) · oracle_id `74206de7-470b-4256-9207-9fb46d3c4356` · printing: KHM #227 (2021-02-05) · [rulings](https://api.scryfall.com/cards/d00bd457-e1cc-45e1-8b2e-58f886bd6df8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-02-05* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — In a casual game, a card from outside the game comes from your personal collection. In a game played under tournament rules, a card from outside the game comes from your sideboard. You may look at your sideboard at any time.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — You don't have to reveal the card you bring into the game via the chapter III ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/227/the-ravens-warning) · oracle_id `74206de7-470b-4256-9207-9fb46d3c4356` · printing: KHM #227 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Reality Chip
 
@@ -98,7 +116,21 @@
   > Reconfigure {2}{U} ({2}{U}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Reconfigure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1081 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/74/the-reality-chip) · oracle_id `751f22bc-bcea-4213-a37b-b5f72448a4c4` · printing: NEO #74 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d859de3a-0be1-4e66-b438-1c3d4ee756cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2022-02-18* — Although it causes an Equipment to become attached to a creature, reconfigure is not an “equip ability” for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2022-02-18* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2022-02-18* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2022-02-18* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Acquisition Octopus, then use reconfigure to unattach Acquisition Octopus after combat, the Octopus will be untapped and could be used to block during your opponent's turn.
+  - *2022-02-18* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2022-02-18* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2022-02-18* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2022-02-18* — Once you cast a spell from the top of your library, causing The Reality Chip to no longer be attached to a creature will have no effect on that spell.
+  - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
+  - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+  - *2022-02-18* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library (for example, to activate their channel abilities).
+  - *2022-02-18* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/74/the-reality-chip) · oracle_id `751f22bc-bcea-4213-a37b-b5f72448a4c4` · printing: NEO #74 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There and Back Again
 
@@ -111,7 +143,15 @@
   > III — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and "When Smaug dies, create fourteen Treasure tokens."
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/151/there-and-back-again) · oracle_id `de4e5120-b958-4dcb-ad78-d0f726b7a881` · printing: LTR #151 (2023-06-23) · [rulings](https://api.scryfall.com/cards/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/151/there-and-back-again) · oracle_id `de4e5120-b958-4dcb-ad78-d0f726b7a881` · printing: LTR #151 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Reaper, King No More
 
@@ -124,6 +164,7 @@
 - **Flavor text** (ECC printing):
   > *Harrowed but still harrowing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5791 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/4/the-reaper-king-no-more) · oracle_id `39b67a4d-6a87-41f0-a86f-b66671ccc20d` · printing: ECC #4 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d2119f3f-27d2-4d43-a5ef-35c1b73d182a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Reaver Cleaver
@@ -135,6 +176,7 @@
   > Equip {3}
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #530 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/8/the-reaver-cleaver) · oracle_id `37a2a31d-51e6-4c07-b4c2-b206ad40eb42` · printing: DMC #8 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5bcd1591-b5b9-49fc-9f2a-45f31ed1871e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rebellious Intelligence
@@ -148,6 +190,7 @@
 - **Flavor text** (UNK printing):
   > *FEWER*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA31/the-rebellious-intelligence) · oracle_id `2c582cc7-95c3-492d-9832-075e1e64bccb` · printing: UNK #RA31 (2024-02-24) · [rulings](https://api.scryfall.com/cards/8b443705-b482-4e28-94ff-df2cd844a369/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Red Terror
@@ -159,6 +202,7 @@
   > Advanced Species — Whenever a red source you control deals damage to one or more permanents and/or players, put a +1/+1 counter on The Red Terror.
 - **Keywords:** Advanced Species
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7757 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/83/the-red-terror) · oracle_id `557bd3c9-1c60-480d-9650-30c317506097` · printing: 40K #83 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1d16f75d-988d-4417-9a5e-549b785f9dc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Regalia
@@ -172,6 +216,7 @@
   > Crew 1
 - **Keywords:** Haste, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2438 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/267/the-regalia) · oracle_id `27a7610e-acbe-4a2b-9f61-81b383eb20a5` · printing: FIN #267 (2025-06-13) · [rulings](https://api.scryfall.com/cards/dc420e79-c483-474f-97cd-e9c6a636c306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Restoration of Eiganjo // Architect of Restoration
@@ -191,7 +236,15 @@
   > *—Onyx-Eye, architect of Eiganjo*
 - **Keywords:** Vigilance, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/34/the-restoration-of-eiganjo-architect-of-restoration) · oracle_id `9d9b52b2-2edc-4f7f-a8d9-e024b1398847` · printing: NEO #34 (2022-02-18) · [rulings](https://api.scryfall.com/cards/a11a33ae-e7fa-4bd4-8cd8-3a3239a29bcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — If you choose to discard a card as The Restoration of Eiganjo's second chapter ability resolves, a second triggered ability goes on the stack and you choose a target for it. Notably, this means you may target the card you discarded if it is a permanent card with mana value 2 or less.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/34/the-restoration-of-eiganjo-architect-of-restoration) · oracle_id `9d9b52b2-2edc-4f7f-a8d9-e024b1398847` · printing: NEO #34 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There // They're // Their
 
@@ -203,7 +256,16 @@
 - **Face 3: Their** — {2}{U} — Instant — Lesson
   > Target opponent gains control of target creature you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/537/there-theyre-their) · oracle_id `a865ed92-d1aa-416a-b8cd-d4cef11b0fef` · printing: MB2 #537 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f04cceef-c65e-44e0-b0b6-8616b2bc0234/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-11-08* — Each split card is a single card. For example, if you discard a split card, you’ve discarded one card. If an effect counts the number of instant and sorcery cards in your graveyard, There // They’re // Their counts once, not three times.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the spell you’re casting. For example, if an effect allows you to cast an instant or sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast There or They’re this way, but There is right out.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — This split card has three names. If an effect instructs you to choose a card name, you may choose one of those names, but not all of them (though you might want to write it down and not just say it out loud).
+  - *2024-11-08* — This split card’s characteristics are a combination of its three thirds while it’s not on the stack. For example, There // They’re // Their has a mana value of 6 while it’s in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can’t find There // They’re // Their.
+  - *2024-11-08* — To cast this split card, choose one of its thirds to cast. The characteristics of the thirds you didn’t cast are ignored while the spell is on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/537/there-theyre-their) · oracle_id `a865ed92-d1aa-416a-b8cd-d4cef11b0fef` · printing: MB2 #537 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Revelations of Ezio
 
@@ -215,6 +277,7 @@
   > II — Whenever an Assassin you control attacks this turn, put a +1/+1 counter on it.
   > III — Return target Assassin creature card from your graveyard to the battlefield with an additional +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9116 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/31/the-revelations-of-ezio) · oracle_id `c7fe1f05-f412-4991-98bd-f6a4b8b62501` · printing: ACR #31 (2024-07-05) · [rulings](https://api.scryfall.com/cards/ed77def5-ac92-4907-805d-261cae0db357/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rhystic Storyteller
@@ -228,6 +291,7 @@
 - **Flavor text** (UNK printing):
   > *DISCARDED*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU72/the-rhystic-storyteller) · oracle_id `c5374ea8-169f-427c-b94d-94d0e98431c6` · printing: UNK #RU72 (2024-02-24) · [rulings](https://api.scryfall.com/cards/7e6fb31b-a0ce-4840-926f-85c04b666efa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ring Goes South
@@ -237,7 +301,15 @@
 - **Oracle text:**
   > The Ring tempts you. Then reveal cards from the top of your library until you reveal X land cards, where X is the number of legendary creatures you control. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6598 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/186/the-ring-goes-south) · oracle_id `3d36f0ab-d333-4a08-ad1b-5b7e1ddb647c` · printing: LTR #186 (2023-06-23) · [rulings](https://api.scryfall.com/cards/3c8a4c7d-527c-49ea-a115-a9e747c0fd03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/186/the-ring-goes-south) · oracle_id `3d36f0ab-d333-4a08-ad1b-5b7e1ddb647c` · printing: LTR #186 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rise of Sozin // Fire Lord Sozin
 
@@ -253,7 +325,13 @@
   > Whenever Fire Lord Sozin deals combat damage to a player, you may pay {X}. When you do, put any number of target creature cards with total mana value X or less from that player's graveyard onto the battlefield under your control.
 - **Keywords:** Transform, Firebending, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/117/the-rise-of-sozin-fire-lord-sozin) · oracle_id `9b0b217d-cc9d-4187-89cb-f13160ed2983` · printing: TLA #117 (2025-11-21) · [rulings](https://api.scryfall.com/cards/14eadf46-90c2-4376-8183-6a922a60174d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Even if you choose a card name (for example, a basic land) that appears more than four times in your opponent's deck, you may only choose up to four copies of the card. You can also always choose fewer than four copies of the card to exile, even if there are more in the deck.
+  - *2025-10-02* — Fire Lord Sozin's triggered ability can target any combination of creature cards whose mana values total X or less. Regardless of what other creature cards you choose as targets, you can also choose any number of creature cards with mana value 0 as targets.
+  - *2025-10-02* — This ability has no effect on permanents with the chosen name that are on the battlefield.
+  - *2025-10-02* — You don't have to choose the name of a card that you've already seen this game; you may guess at a card you think your opponent might have in their hand or library if you'd like.
+  - *2025-10-02* — You target an opponent when The Rise of Sozin's second chapter ability is put on the stack, but you don't name a card until it resolves. Notably, this means that players don't get to respond to the ability knowing what card you will name.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/117/the-rise-of-sozin-fire-lord-sozin) · oracle_id `9b0b217d-cc9d-4187-89cb-f13160ed2983` · printing: TLA #117 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The River Warlock
 
@@ -264,6 +342,7 @@
   > During your turn, The River Warlock has flying, lifelink, and indestructible.
   > Whenever The River Warlock attacks, you and defending player each draw a card, then discard a card. If you discarded a card with equal or greater mana value than the card that player discarded, look at their hand. Exile a nonland card from it until The River Warlock leaves the battlefield.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04/the-river-warlock) · oracle_id `5c15e4dd-6529-43aa-a58c-31ea8dd83ae9` · printing: UNK #RZ04 (2025-06-20) · [rulings](https://api.scryfall.com/cards/bc993271-189c-4ebb-92c3-f9c8593acd00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermal Blast
@@ -275,6 +354,7 @@
   > Threshold — Thermal Blast deals 5 damage instead if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/224/thermal-blast) · oracle_id `52ad1a31-3ad8-4ead-ba77-675cad7e4a14` · printing: ODY #224 (2001-10-01) · [rulings](https://api.scryfall.com/cards/623cc141-0f75-4e67-b852-6c144d98e619/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermal Flux
@@ -287,7 +367,9 @@
   > • Target snow permanent isn't snow until end of turn.
   > Draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/49/thermal-flux) · oracle_id `90fe98df-4f87-49ff-b562-0ed51d1d3a1c` · printing: CSP #49 (2006-07-21) · [rulings](https://api.scryfall.com/cards/523ab8a0-906a-43b3-a554-db0d3dcd62d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — Thermal Flux adds or removes the supertype snow from a permanent. Adding or removing a supertype doesn’t affect any other types, supertypes, or subtypes that permanent has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/49/thermal-flux) · oracle_id `90fe98df-4f87-49ff-b562-0ed51d1d3a1c` · printing: CSP #49 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermal Glider
 
@@ -301,6 +383,7 @@
   > *—Cho-Arrim rebel*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27164 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/53/thermal-glider) · oracle_id `cbe5c74b-1006-4c63-8b46-e06b61e6fe02` · printing: MMQ #53 (1999-10-04) · [rulings](https://api.scryfall.com/cards/fd909c26-930d-4af0-b19a-c899847338b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermal Navigator
@@ -313,6 +396,7 @@
 - **Flavor text** (5DN printing):
   > *It takes off with a roar of superheated wind, startling wild pterons as they survey the ground below.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21609 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/162/thermal-navigator) · oracle_id `355c2840-2cb8-431a-bcdc-f4b8824a1f5d` · printing: 5DN #162 (2004-06-04) · [rulings](https://api.scryfall.com/cards/eb86854f-c933-4b6c-bd0a-67c3615e908f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermo-Alchemist
@@ -328,7 +412,10 @@
   > *"Madness can't touch a mind ignited by genius."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1751 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/174/thermo-alchemist) · oracle_id `228fbae1-423e-461d-b8c3-55786938a3cb` · printing: INR #174 (2025-01-24) · [rulings](https://api.scryfall.com/cards/78b194b3-108a-4152-bd37-52c302e25ad6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — In a Two-Headed Giant game, Thermo-Alchemist's activated ability deals 1 damage to each of your opponents, resulting in the opposing team losing 2 life.
+  - *2025-01-24* — Thermo-Alchemist's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. Players can cast spells and activate abilities (such as Thermo-Alchemist's own activated ability) after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/174/thermo-alchemist) · oracle_id `228fbae1-423e-461d-b8c3-55786938a3cb` · printing: INR #174 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermokarst
 
@@ -340,6 +427,7 @@
   > *"Finally we understand the lesson of our home: loss begets renewal."*
   > *—Kolbjörn, elder druid of the Juniper Order*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/183/thermokarst) · oracle_id `f3b071a1-7501-4424-979a-780fa90eecb8` · printing: ME2 #183 (2008-09-22) · [rulings](https://api.scryfall.com/cards/74e907ed-76f7-476c-b128-bb6bfd892e06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermopod
@@ -353,6 +441,7 @@
 - **Flavor text** (CSP printing):
   > *Slicking the ice with its heated underside, the thermopod skates at great speed to overtake its prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10253 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/100/thermopod) · oracle_id `c886fa01-bcee-4c73-9c46-2328711fc4f0` · printing: CSP #100 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c09475e9-d6c1-4d4b-905e-40bc30405725/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Roaring Toeclaws
@@ -365,6 +454,7 @@
 - **Flavor text** (UNK printing):
   > *SIGNED*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG63/the-roaring-toeclaws) · oracle_id `4adff50b-4e7f-430d-a0b3-068e1387ae27` · printing: UNK #RG63 (2024-02-24) · [rulings](https://api.scryfall.com/cards/beb22fdf-9cf3-42e3-8f49-65f62adccee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rollercrusher Ride
@@ -376,7 +466,11 @@
   > When The Rollercrusher Ride enters, it deals X damage to each of up to X target creatures.
 - **Keywords:** Delirium, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5616 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/155/the-rollercrusher-ride) · oracle_id `aed1f0cd-8df8-415f-afd6-ccfd12234334` · printing: DSK #155 (2024-09-27) · [rulings](https://api.scryfall.com/cards/70019956-fca1-4090-b3b6-6a963528e05b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — If another effect (or effects) modifies how much damage a source you control would deal while you have delirium—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects apply. If all of the damage is prevented, the effect of The Rollercrusher Ride's first ability no longer applies.
+  - *2024-09-20* — If damage dealt by a source you control is being divided among multiple permanents and/or players while you have delirium, that damage is divided before doubling.
+  - *2024-09-20* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by The Rollercrusher Ride unless it was the original source of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/155/the-rollercrusher-ride) · oracle_id `aed1f0cd-8df8-415f-afd6-ccfd12234334` · printing: DSK #155 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theros Charm
 
@@ -388,6 +482,7 @@
   > • Revoke Existence (Exile an artifact or enchantment.)
   > • Reprisal (Destroy a creature with power 4 or greater. It can't be regenerated.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW15/theros-charm) · oracle_id `eb479236-e08f-4b9d-be21-dea3e2be4e15` · printing: UNK #UW15 (2023-05-06) · [rulings](https://api.scryfall.com/cards/a8a5602f-3f0a-49d4-b181-a57968ff90b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Royal Scions
@@ -400,7 +495,12 @@
   > +1: Target creature gets +2/+0 and gains first strike and trample until end of turn.
   > −8: Draw four cards. When you do, The Royal Scions deals damage to any target equal to the number of cards in your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/199/the-royal-scions) · oracle_id `4ecde8d1-e4ec-4bd9-8a80-49885b032557` · printing: ELD #199 (2019-10-04) · [rulings](https://api.scryfall.com/cards/6a7111f3-01a6-4311-bc08-036a1fba60f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If replacement effects cause you to draw five or more cards while resolving the last ability of The Royal Scions, its reflexive triggered ability still triggers only once, even if you draw eight cards.
+  - *2019-10-04* — If you draw fewer than four cards while resolving the last ability of The Royal Scions, its reflexive triggered ability doesn't trigger.
+  - *2019-10-04* — The Royal Scions's last ability goes on the stack without a target. While that ability is resolving, you draw four cards. When you do, the reflexive triggered ability triggers and you pick a target to be dealt damage. This is different from effects that say “If you do . . .” in that you choose a target after looking at the cards you draw.
+  - *2019-10-04* — You draw a card and discard a card all while The Royal Scions's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/199/the-royal-scions) · oracle_id `4ecde8d1-e4ec-4bd9-8a80-49885b032557` · printing: ELD #199 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ruinous Powers
 
@@ -409,7 +509,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, choose an opponent at random. Exile the top card of that player's library. Until end of turn, you may play that card and you may spend mana as though it were mana of any color to cast it. When you cast a spell this way, its owner loses life equal to its mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/139/the-ruinous-powers) · oracle_id `283054ed-5fbd-4202-bc02-294079aaff03` · printing: 40K #139 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b8656aab-e22d-4f97-a8e6-a69f1dbffd09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Use the mana value of the spell as it exists on the stack (or last existed on the stack, if it's been removed) to determine how much life is lost. If there is an {X} in that spell's cost, include the value chosen for X to determine its mana value.
+  - *2022-10-07* — You must follow all normal timing rules when casting a spell or playing a land using the permission granted by Ruinous Powers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/139/the-ruinous-powers) · oracle_id `283054ed-5fbd-4202-bc02-294079aaff03` · printing: 40K #139 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ruinous Wrecking Crew
 
@@ -424,4 +527,5 @@
   > • Destroy target token.
   > • Each player sacrifices a creature of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20225 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/224/the-ruinous-wrecking-crew) · oracle_id `0ff9c0cc-4fb3-4117-9a8e-5b51f62306c4` · printing: MSH #224 (2026-06-26) · [rulings](https://api.scryfall.com/cards/4d8c8ceb-84cd-46d2-9230-ab6ca4569334/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

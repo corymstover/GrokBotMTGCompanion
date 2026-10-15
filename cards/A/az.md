@@ -59,6 +59,7 @@
   > *"Choices belong to those with the luxuries of time and distance. We have neither. I recommend we proceed with the plan to destroy all shrines of the kami."*
   > *—Lady Azami, letter to Sensei Hisoka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4172 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/74/azami-lady-of-scrolls) · oracle_id `0f8b97fe-3e5e-47c2-9a9d-7f77482aa159` · printing: CMM #74 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fa727656-fb33-485b-9378-18b80cad42b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azimaet Drake
@@ -74,6 +75,7 @@
   > *—Suq'Ata royal recipe*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31834 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/53/azimaet-drake) · oracle_id `a82d9c9b-ec17-4f51-a6bf-5984ca4433e5` · printing: MIR #53 (1996-10-08) · [rulings](https://api.scryfall.com/cards/854ba4e0-f6f3-4b6c-b6cb-ab2b93d64601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aziza, Mage Tower Captain
@@ -86,7 +88,17 @@
 - **Flavor text** (SOS printing):
   > *"Good play, team! Now let's run it again until it's perfect!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12033 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/174/aziza-mage-tower-captain) · oracle_id `70e10cb9-ae27-4dba-9a0d-34a78f924774` · printing: SOS #174 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6261e89a-dbf1-481a-823e-6bb00be57195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2026-03-20* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2026-03-20* — Aziza's ability and the copy it creates both resolve before the spell that caused the ability to trigger. They resolve even if the spell is countered before the copy is created.
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2026-03-20* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2026-03-20* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2026-03-20* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2026-03-20* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2026-03-20* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/174/aziza-mage-tower-captain) · oracle_id `70e10cb9-ae27-4dba-9a0d-34a78f924774` · printing: SOS #174 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azlask, the Swelling Scourge
 
@@ -97,7 +109,12 @@
   > Whenever Azlask or another colorless creature you control dies, you get an experience counter.
   > {W}{U}{B}{R}{G}: Creatures you control get +X/+X until end of turn, where X is the number of experience counters you have. Scions and Spawns you control gain indestructible and annihilator 1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6622 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/5/azlask-the-swelling-scourge) · oracle_id `55bc7f55-f73b-40b5-8912-9bf76c129ccc` · printing: M3C #5 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ced9db11-ba95-4b09-89b6-0b49ffb1fa82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
+  - *2024-06-07* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player sacrifices the required number of permanents of their choice before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2024-06-07* — The value of X is determined only once, as Azlask's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/5/azlask-the-swelling-scourge) · oracle_id `55bc7f55-f73b-40b5-8912-9bf76c129ccc` · printing: M3C #5 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azog, Moria's Ruin
 
@@ -108,7 +125,16 @@
   > When Azog enters, destroy up to one other target creature. Its controller amasses Goblins X, where X is that creature's power. If you controlled that creature, draw a card. (To amass Goblins X, that player puts X +1/+1 counters on an Army they control. It's also a Goblin. If they don't control an Army, they create a 0/0 black Goblin Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10792 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/61/azog-morias-ruin) · oracle_id `a8b018a7-0350-4ee0-9582-8d391018bdee` · printing: HOB #61 (2026-08-14) · [rulings](https://api.scryfall.com/cards/135da718-affc-46ba-be57-c12c23b54dad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2026-06-29* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. And if the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Goblins, you can end up with a Goblin Orc Army.
+  - *2026-06-29* — If no target is chosen for Azog's ability, "its controller" is undefined and no player amasses Goblins.
+  - *2026-06-29* — If you don't control an Army, the Goblin Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2026-06-29* — In the rare case that you control multiple Army creatures (perhaps because you control a creature with changeling) while you amass Goblins, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
+  - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+  - *2026-06-29* — Use the power of the creature as it last existed on the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/61/azog-morias-ruin) · oracle_id `a8b018a7-0350-4ee0-9582-8d391018bdee` · printing: HOB #61 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Aethermage
 
@@ -120,7 +146,9 @@
 - **Flavor text** (DIS printing):
   > *In her single metasphere are bound the records of every Ætheric transaction since the time of Azor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24541 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/104/azorius-aethermage) · oracle_id `12971527-aa8e-4517-9b00-71474caebfd0` · printing: DIS #104 (2006-05-05) · [rulings](https://api.scryfall.com/cards/6b640ff8-8baa-4069-b5a9-8a4fb22a056e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — This ability will trigger whenever any permanent, including a token creature or Azorius Aethermage itself, is returned to your hand. It doesn’t matter who controlled the permanent or if it had ever actually been in your hand before.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/104/azorius-aethermage) · oracle_id `12971527-aa8e-4517-9b00-71474caebfd0` · printing: DIS #104 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Arrester
 
@@ -133,7 +161,14 @@
   > *"You have the right to remain silent. Mostly because I tire of your excuses."*
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/54/azorius-arrester) · oracle_id `3f2a27a1-f9cf-4dac-a248-5c6af4de3722` · printing: CLU #54 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c737cd7a-e1ef-4a74-9e85-b56ea06b05d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/54/azorius-arrester) · oracle_id `3f2a27a1-f9cf-4dac-a248-5c6af4de3722` · printing: CLU #54 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Chancery
 
@@ -144,7 +179,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {W}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/261/azorius-chancery) · oracle_id `189fc8f4-17ac-4f1d-82c8-8401445bdaf4` · printing: DSC #261 (2024-09-27) · [rulings](https://api.scryfall.com/cards/50ef0ac3-e911-4d67-a751-8d86160ae843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/261/azorius-chancery) · oracle_id `189fc8f4-17ac-4f1d-82c8-8401445bdaf4` · printing: DSC #261 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Charm
 
@@ -156,7 +193,9 @@
   > • Draw a card.
   > • Put target attacking or blocking creature on top of its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6371 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/192/azorius-charm) · oracle_id `e7592863-4aee-47b3-9abf-4b863ab0b6ec` · printing: IMA #192 (2017-11-17) · [rulings](https://api.scryfall.com/cards/9740ceaf-4ef9-48dd-ab7d-cd5eb3be8cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/192/azorius-charm) · oracle_id `e7592863-4aee-47b3-9abf-4b863ab0b6ec` · printing: IMA #192 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Cluestone
 
@@ -168,6 +207,7 @@
 - **Flavor text** (DGM printing):
   > *Its three sides represent the Sova, judges and arbitrators; the Jelenn, scribes and elocutors; and the Lyev, lawmages and enforcers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11461 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/136/azorius-cluestone) · oracle_id `27e04c41-f42c-4d60-8a71-ec2d7c326f64` · printing: DGM #136 (2013-05-03) · [rulings](https://api.scryfall.com/cards/09eeb301-bc28-4515-ad69-0b1b5164a5bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius First-Wing
@@ -181,7 +221,11 @@
   > *With a steady diet of lawbreakers, Azorius griffins inevitably develop a resistance to the contraband magic that taints much of their prey.*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/105/azorius-first-wing) · oracle_id `08d02fdb-4b3f-4f55-b5fc-6bb4d2a14b1f` · printing: DIS #105 (2006-05-05) · [rulings](https://api.scryfall.com/cards/b675c1e6-add5-4959-a5be-f2571ccebcb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — Azorius First-Wing doesn’t have protection from creatures that are enchanted.
+  - *2006-05-01* — If an effect tries to move an Aura onto this creature, the effect will fail and the Aura will stay where it was.
+  - *2006-05-01* — “Protection from enchantments” means that Azorius First-Wing can’t be enchanted, it can’t be targeted by Aura spells or by abilities of enchantments, all damage that would be dealt to it by enchantments is prevented, and it can’t be blocked by creatures that are also enchantments.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/105/azorius-first-wing) · oracle_id `08d02fdb-4b3f-4f55-b5fc-6bb4d2a14b1f` · printing: DIS #105 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Guildgate
 
@@ -193,7 +237,10 @@
 - **Flavor text** (FDN printing):
   > *Enter the Senate, the seat of justice and the foundation of Ravnican society.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2105 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/683/azorius-guildgate) · oracle_id `ad1712d8-809f-410c-8b91-ffe6fb8a69a1` · printing: FDN #683 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f98a7264-0a83-42c8-a94d-05ad4c234242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/683/azorius-guildgate) · oracle_id `ad1712d8-809f-410c-8b91-ffe6fb8a69a1` · printing: FDN #683 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Guildmage
 
@@ -204,7 +251,9 @@
   > {2}{W}: Tap target creature.
   > {2}{U}: Counter target activated ability. (Mana abilities can't be targeted.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/165/azorius-guildmage) · oracle_id `16f61f69-cdde-4b6c-b855-c74db9038ceb` · printing: RVR #165 (2024-01-12) · [rulings](https://api.scryfall.com/cards/288c751e-a042-45a9-adce-7001bb0ce512/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/165/azorius-guildmage) · oracle_id `16f61f69-cdde-4b6c-b855-c74db9038ceb` · printing: RVR #165 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Herald
 
@@ -219,7 +268,9 @@
   > *"As peace should be—gentle yet unstoppable."*
   > *—Augustin IV*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/6/azorius-herald) · oracle_id `a0476da9-51b1-4cd3-90c4-ad01d0e4c3d6` · printing: C13 #6 (2013-11-01) · [rulings](https://api.scryfall.com/cards/813cea4e-1e87-4d2f-a580-16805ff53ff0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — If this enters in a way other than announcing it as a spell, then the appropriate mana can't have been paid, and you'll have to sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/6/azorius-herald) · oracle_id `a0476da9-51b1-4cd3-90c4-ad01d0e4c3d6` · printing: C13 #6 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Justiciar
 
@@ -232,7 +283,15 @@
   > *"Your potential to commit a crime warrants further investigation."*
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/55/azorius-justiciar) · oracle_id `cba0eae3-73ea-4ea9-87bf-1015e490da90` · printing: CLU #55 (2024-02-23) · [rulings](https://api.scryfall.com/cards/1628e808-f0d7-4225-8020-d9cbd14c510e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2012-10-01* — The two creatures can be controlled by the same opponent or by different opponents.
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/55/azorius-justiciar) · oracle_id `cba0eae3-73ea-4ea9-87bf-1015e490da90` · printing: CLU #55 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Keyrune
 
@@ -245,7 +304,10 @@
   > *"The higher the mind soars, the greater its understanding of the law."*
   > *—Isperia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/209/azorius-keyrune) · oracle_id `7266b491-54e6-4393-a448-d5ae99d965c6` · printing: CMA #209 (2017-06-09) · [rulings](https://api.scryfall.com/cards/a8755662-b329-4c5b-8bf7-c9e1702e5979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
+  - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/209/azorius-keyrune) · oracle_id `7266b491-54e6-4393-a448-d5ae99d965c6` · printing: CMA #209 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Knight-Arbiter
 
@@ -259,6 +321,7 @@
   > *Thanks to the magic in his Writ of Passage, alms beasts lumbered aside, anarchs bowed their heads, and even Rakdos acrobats rolled their spikewheels out of his way.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21980 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/154/azorius-knight-arbiter) · oracle_id `9adc1435-3094-427d-88f8-91d55c5a924d` · printing: RNA #154 (2019-01-25) · [rulings](https://api.scryfall.com/cards/60befc28-2ab8-4b59-a33f-0328c5d2f995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Locket
@@ -272,6 +335,7 @@
   > *"Mandatory lockets enable the tracking of all Senate personnel for improved security and efficiency."*
   > *—Dovin Baan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/160/azorius-locket) · oracle_id `ca13dda2-fbb0-4b6b-9126-3c8df04dee2b` · printing: VOC #160 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f893f1e9-1d19-4220-9e0d-3f9c85d33837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Ploy
@@ -284,7 +348,9 @@
 - **Flavor text** (DIS printing):
   > *Azorius military tactics, like their legal tactics, capitalize on delay and nullification.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27046 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/106/azorius-ploy) · oracle_id `b9b58c3a-5a76-4b6a-884b-74f54f0ca53c` · printing: DIS #106 (2006-05-05) · [rulings](https://api.scryfall.com/cards/763f2c68-77a9-43e9-8f9b-2f318afcd686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — The two targets may be the same creature or they may be different creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/106/azorius-ploy) · oracle_id `b9b58c3a-5a76-4b6a-884b-74f54f0ca53c` · printing: DIS #106 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Signet
 
@@ -295,6 +361,7 @@
 - **Flavor text** (FRC printing):
   > *The maze-like design embodies the core of Azorius law—strict structure designed to test wills and stall change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/53/azorius-signet) · oracle_id `e018773f-95b3-49a3-9674-6f04ddef2092` · printing: FRC #53 (2026-10-02) · [rulings](https://api.scryfall.com/cards/af690536-b0bc-4d85-8bb8-f6856b9f927b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Skyguard
@@ -309,6 +376,7 @@
   > *"These new thopters are all well and good, but four eyes are better than none."*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/155/azorius-skyguard) · oracle_id `bbfdb5eb-2140-4d50-a667-1b4ac75d03a5` · printing: RNA #155 (2019-01-25) · [rulings](https://api.scryfall.com/cards/c2fddecd-e660-43de-bccc-52f60a089052/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azorius Traffic Enforcement
@@ -321,6 +389,7 @@
   > At the beginning of your combat step, detain target creature with backup or vehicle an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03a/azorius-traffic-enforcement) · oracle_id `ac069d94-75df-47b1-85aa-1e9081d40b84` · printing: UNK #RW03a (2023-05-06) · [rulings](https://api.scryfall.com/cards/2067d653-57bf-45f0-9e91-9e2f4d4c9d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azor's Elocutors
@@ -332,7 +401,10 @@
   > At the beginning of your upkeep, put a filibuster counter on this creature. Then if this creature has five or more filibuster counters on it, you win the game.
   > Whenever a source deals damage to you, remove a filibuster counter from this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/210/azors-elocutors) · oracle_id `45aeac84-4705-4179-be3f-b31bde844ea0` · printing: RTR #210 (2012-10-05) · [rulings](https://api.scryfall.com/cards/61e82934-546b-4734-a715-b22ace4c5a9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — The second ability of Azor’s Elocutors removes one filibuster counter per source, no matter how much damage that source dealt. For example, if two attacking creatures deal damage to you at the same time, two filibuster counters will be removed.
+  - *2012-10-01* — You’ll only win the game if Azor’s Elocutors has five or more filibuster counters on it when the first ability resolves. For example, if Azor’s Elocutors has four filibuster counters on it and you somehow add another during your main phase, you won’t win the game immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/210/azors-elocutors) · oracle_id `45aeac84-4705-4179-be3f-b31bde844ea0` · printing: RTR #210 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azor's Gateway // Sanctum of the Sun
 
@@ -346,7 +418,13 @@
   > *As soon as Jace laid eyes on the great sphinx's chamber, the shards of memory began sliding into place.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/176/azors-gateway-sanctum-of-the-sun) · oracle_id `c0cbb347-b060-43ce-a9c5-8c835be3cf1b` · printing: RIX #176 (2018-01-19) · [rulings](https://api.scryfall.com/cards/303d51ab-b9c4-4647-950f-291daabe7b81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — If a card in exile has {X} in its mana cost, X is considered to be 0.
+  - *2018-01-19* — If an object has no mana cost, its mana value is 0. A mana value of 0 can still help unlock Azor's Gateway.
+  - *2018-01-19* — The ability of Sanctum of the Sun is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2018-01-19* — The cards you exile from your hand are exiled face up.
+  - *2018-01-19* — The mana value of a split card, such as a card with aftermath from the Amonkhet block, is based on the combined mana cost of its two halves. A split card doesn't have two mana values.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/176/azors-gateway-sanctum-of-the-sun) · oracle_id `c0cbb347-b060-43ce-a9c5-8c835be3cf1b` · printing: RIX #176 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azor, the Lawbringer
 
@@ -359,7 +437,9 @@
   > Whenever Azor attacks, you may pay {X}{W}{U}{U}. If you do, you gain X life and draw X cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11701 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/154/azor-the-lawbringer) · oracle_id `89812139-9fc1-4fc9-b1d0-d07067d62083` · printing: RIX #154 (2018-01-19) · [rulings](https://api.scryfall.com/cards/30dc237e-b28a-4b65-9790-6b434828bf2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If multiple effects say that an opponent can't cast instant or sorcery spells during that player's next turn, they all apply to the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/154/azor-the-lawbringer) · oracle_id `89812139-9fc1-4fc9-b1d0-d07067d62083` · printing: RIX #154 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azra Bladeseeker
 
@@ -371,7 +451,9 @@
 - **Flavor text** (BBD printing):
   > *"Never get too attached to a weapon. You must allow a better one to find its way to you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/55/azra-bladeseeker) · oracle_id `ac4d065e-7eb6-4224-8a7c-e57f2c1a2733` · printing: BBD #55 (2018-06-08) · [rulings](https://api.scryfall.com/cards/dc5ade73-12bc-46da-8dd4-3d4468858934/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — The choice of whether to discard a card is made by each player on your team individually. You don’t need to all make the same choice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/55/azra-bladeseeker) · oracle_id `ac4d065e-7eb6-4224-8a7c-e57f2c1a2733` · printing: BBD #55 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azra Matchthrower
 
@@ -382,6 +464,7 @@
   > Battlebond (You may pair this creature with an unpaired battle you control when either enters the battlefield. They remain paired for as long as you control both of them.)
   > As long as Azra Matchthrower is paired with a battle, each of those permanents has "Whenever this permanent is dealt combat damage, this permanent deals 1 damage to any target."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CR04a/azra-matchthrower) · oracle_id `ccdbb801-adbd-4248-8b1f-d509fdf52404` · printing: UNK #CR04a (2023-05-06) · [rulings](https://api.scryfall.com/cards/3dd11685-bc5b-4619-86a3-2993c23135ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azra Oddsmaker
@@ -394,6 +477,7 @@
 - **Flavor text** (BBD printing):
   > *"I never give odds on my own fights. Unless, of course, you want to bet \*against\* me . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8605 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/75/azra-oddsmaker) · oracle_id `457470db-e664-4ca3-84ec-6cec2d4ae906` · printing: BBD #75 (2018-06-08) · [rulings](https://api.scryfall.com/cards/7f5e6a5a-18ee-438f-ab16-694e19a2410e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azra Smokeshaper
@@ -406,7 +490,14 @@
   > When this creature enters, target creature you control gains indestructible until end of turn.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/79/azra-smokeshaper) · oracle_id `6f6e0abb-18d0-4a15-9b21-0a72542998ac` · printing: MH1 #79 (2019-06-14) · [rulings](https://api.scryfall.com/cards/f627e521-2b8f-4d0f-a9d3-cc4e331ce57d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2019-06-14* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja isn’t put onto the battlefield until the ability resolves. If it leaves your hand before then, it won’t enter the battlefield at all.
+  - *2019-06-14* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature’s controller chooses which player or planeswalker it’s attacking.
+  - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won’t normally deal combat damage.
+  - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/79/azra-smokeshaper) · oracle_id `6f6e0abb-18d0-4a15-9b21-0a72542998ac` · printing: MH1 #79 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula Always Lies
 
@@ -419,6 +510,7 @@
 - **Flavor text** (TLA printing):
   > *Azula is a skilled and deadly warrior, but her true passion is emotional torment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10722 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/84/azula-always-lies) · oracle_id `f56c6c35-d09b-4bee-a685-98e9afed13d1` · printing: TLA #84 (2025-11-21) · [rulings](https://api.scryfall.com/cards/416b9207-a2af-44d1-9b87-4943f6e46d42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, Cunning Usurper
@@ -432,7 +524,16 @@
   > During your turn, you may cast cards exiled with Azula and you may cast them as though they had flash. Mana of any type can be spent to cast those spells.
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7310 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/208/azula-cunning-usurper) · oracle_id `7c9e351d-2e6c-4050-9c3d-b15bb9255a4d` · printing: TLA #208 (2025-11-21) · [rulings](https://api.scryfall.com/cards/daf30e1c-436d-4f23-b1d2-570619a4b7f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — The six types of mana are white, blue, black, red, green, and colorless.
+  - *2025-10-02* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/208/azula-cunning-usurper) · oracle_id `7c9e351d-2e6c-4050-9c3d-b15bb9255a4d` · printing: TLA #208 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, On the Hunt
 
@@ -446,7 +547,15 @@
   > *"You can run, but I'll catch you."*
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8828 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/85/azula-on-the-hunt) · oracle_id `89f96032-5cba-404d-82b0-38d2be963e4b` · printing: TLA #85 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1335a145-248a-4f1e-8760-9a5d531e14e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/85/azula-on-the-hunt) · oracle_id `89f96032-5cba-404d-82b0-38d2be963e4b` · printing: TLA #85 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azula, Ruthless Firebender
 
@@ -459,7 +568,15 @@
   > {2}{B}: Until end of turn, Azula gets +1/+1 for each experience counter you have and gains menace.
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/101/azula-ruthless-firebender) · oracle_id `7139ead5-86f0-46ae-8a6d-ad66d0408f73` · printing: TLE #101 (2025-11-21) · [rulings](https://api.scryfall.com/cards/c1aab711-c113-458c-848e-9369c0149d61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the second ability, from another ability, from another copy of Azula, Ruthless Firebender, and so on.
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — The experience counter goes on you, the player, not on Azula. You will keep that counter even if Azula, Ruthless Firebender dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/101/azula-ruthless-firebender) · oracle_id `7139ead5-86f0-46ae-8a6d-ad66d0408f73` · printing: TLE #101 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azure Beastbinder
 
@@ -472,7 +589,12 @@
   > Whenever this creature attacks, up to one target artifact, creature, or planeswalker an opponent controls loses all abilities until your next turn. If it's a creature, it also has base power and toughness 2/2 until your next turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/41/azure-beastbinder) · oracle_id `7bb51602-60e8-4730-b11c-2870d6b42e20` · printing: BLB #41 (2024-08-02) · [rulings](https://api.scryfall.com/cards/211af1bf-910b-41a5-b928-f378188d1871/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — A permanent that loses all abilities because of Azure Beastbinder's last ability may later gain abilities.
+  - *2024-07-26* — Azure Beastbinder's last ability overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2024-07-26* — Effects that modify the creature's power and/or toughness, such as the effect of Overprotect, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2024-07-26* — Once Azure Beastbinder has been blocked, increasing the blocking creature's power to 2 or greater won't cause Azure Beastbinder to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/41/azure-beastbinder) · oracle_id `7bb51602-60e8-4730-b11c-2870d6b42e20` · printing: BLB #41 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azure Drake
 
@@ -485,6 +607,7 @@
   > *More so than "storm" or "pirate," "drake" is the word a sailor least wants to hear.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/46/azure-drake) · oracle_id `15cc068c-f424-433e-b165-8457c62a4b35` · printing: M11 #46 (2010-07-16) · [rulings](https://api.scryfall.com/cards/6653bce7-b0fc-49e3-8f45-f0bfcade8870/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azure Fleet Admiral
@@ -499,7 +622,14 @@
   > *"Your concern for my safety is touching, but as long as your gunners remain reliably erratic, I see no reason to change course."*
   > *—Admiral Yelise, to Commodore Axurik*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/144/azure-fleet-admiral) · oracle_id `b39f228f-d146-49c6-bab4-5304e0f742d8` · printing: LCC #144 (2023-11-17) · [rulings](https://api.scryfall.com/cards/adb04bab-a10a-40da-813e-6afa68956efc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — Azure Fleet Admiral's last ability normally means that it can't be blocked while attacking the monarch or a planeswalker the monarch controls. In some variants with shared team turns, such as Two-Headed Giant, creatures controlled by the monarch's teammate can block Azure Fleet Admiral, even if it's attacking the monarch.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/144/azure-fleet-admiral) · oracle_id `b39f228f-d146-49c6-bab4-5304e0f742d8` · printing: LCC #144 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azure Mage
 
@@ -512,6 +642,7 @@
   > *"We draw our power from the infinite ocean of the mind, where all manner of things can be conceived."*
   > *—Azure creed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21274 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/31/azure-mage) · oracle_id `bbf9fd47-10e1-4749-b06f-4fe72200afc7` · printing: MM3 #31 (2017-03-17) · [rulings](https://api.scryfall.com/cards/e5a7ed36-a552-4d46-929a-48f34ae9279a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azusa, Lost but Seeking
@@ -524,7 +655,9 @@
 - **Flavor text** (CMM printing):
   > *"I do not miss Jukai Forest. It is not my home. My home is Kamigawa, its people my family. Wherever I set my pack and rest my head, I am home."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #330 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/274/azusa-lost-but-seeking) · oracle_id `6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51` · printing: CMM #274 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2fe97fbe-a6d6-4e96-8c26-f81bcdf579a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Azusa's ability is cumulative with other effects that allow you to play additional lands, such as that of Song of Creation (from the Ikoria: Lair of Behemoths set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/274/azusa-lost-but-seeking) · oracle_id `6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51` · printing: CMM #274 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Azusa's Many Journeys // Likeness of the Seeker
 
@@ -542,4 +675,11 @@
   > *—Azusa*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/172/azusas-many-journeys-likeness-of-the-seeker) · oracle_id `02c60b8b-f665-4279-a00f-ae03991df4a6` · printing: NEO #172 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e8a51d2a-1582-4bad-995c-e7fe9f810149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/172/azusas-many-journeys-likeness-of-the-seeker) · oracle_id `02c60b8b-f665-4279-a00f-ae03991df4a6` · printing: NEO #172 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

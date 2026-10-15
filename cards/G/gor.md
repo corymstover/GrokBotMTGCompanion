@@ -54,7 +54,9 @@
   > • Create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9013 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/86/gorbag-of-minas-morgul) · oracle_id `e77e97d7-58ff-4454-ba49-66182e550f12` · printing: LTR #86 (2023-06-23) · [rulings](https://api.scryfall.com/cards/58aafdb6-1c8c-4fc4-a52e-3e601be7fb0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You don't choose a mode for Gorbag of Minas Morgul's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice a Goblin or Orc this way. You choose a mode for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/86/gorbag-of-minas-morgul) · oracle_id `e77e97d7-58ff-4454-ba49-66182e550f12` · printing: LTR #86 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goreclaw, Terror of Qal Sisma
 
@@ -67,7 +69,11 @@
 - **Flavor text** (CMM printing):
   > *You don't want to know how she got that name.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #637 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/293/goreclaw-terror-of-qal-sisma) · oracle_id `befb211f-37ca-4083-98d4-9ff1f28be3f2` · printing: CMM #293 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ee47f23a-3ba9-4615-b170-c89d8ab99d78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Goreclaw's last ability affects only creatures you control with the appropriate power at the time it resolves. Creatures you begin to control later in the turn won't get either bonus, and a creature you control whose power decreases later in the turn won't lose either bonus.
+  - *2018-07-13* — If another creature has an ability that changes its power when it attacks, such as Brawl-Bash Ogre, you may have that ability resolve before Goreclaw's last ability.
+  - *2018-07-13* — If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren't considered when determining whether Goreclaw reduces that spell's cost. Similarly, effects that will raise the creature's power once it has entered the battlefield won't apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/293/goreclaw-terror-of-qal-sisma) · oracle_id `befb211f-37ca-4083-98d4-9ff1f28be3f2` · printing: CMM #293 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorehorn Minotaurs
 
@@ -80,6 +86,7 @@
   > *Some of the eleven minotaur clans of Mirtiin are expert crafters and learned philosophers. Others just like to hit stuff.*
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/e01/49/gorehorn-minotaurs) · oracle_id `be8ad29c-2232-426d-bda9-a289dcc6c265` · printing: E01 #49 (2017-06-16) · [rulings](https://api.scryfall.com/cards/87573fa7-5593-4810-bc4a-0caa55577be5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorehorn Raider
@@ -93,7 +100,10 @@
   > *Anyone fast enough to dodge her horns and parry her cutlass just gets kicked overboard.*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/89/gorehorn-raider) · oracle_id `41699d92-c209-4fcb-bbd6-685b3437d0c2` · printing: FDN #89 (2024-11-15) · [rulings](https://api.scryfall.com/cards/78ce6c40-3452-4aa0-a45b-dbfd70f8d220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/89/gorehorn-raider) · oracle_id `41699d92-c209-4fcb-bbd6-685b3437d0c2` · printing: FDN #89 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gore-House Chainwalker
 
@@ -106,7 +116,12 @@
   > *If the pig's blood drips on you, you're next on the chain.*
 - **Keywords:** Unleash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/96/gore-house-chainwalker) · oracle_id `dbe3e317-3c39-4b38-ae06-eae02a910c37` · printing: RTR #96 (2012-10-05) · [rulings](https://api.scryfall.com/cards/56ba132f-95fc-4b99-a1dc-ebe6f622bb41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability.
+  - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
+  - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
+  - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/96/gore-house-chainwalker) · oracle_id `dbe3e317-3c39-4b38-ae06-eae02a910c37` · printing: RTR #96 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goremand
 
@@ -120,7 +135,9 @@
   > When this creature enters, each opponent sacrifices a creature.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/163/goremand) · oracle_id `0f80f061-6304-4c7b-ab53-f406385e39df` · printing: CMM #163 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b0ad6c2f-9c26-496d-9079-adf1fec08a59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — As Goremand's triggered ability resolves, first the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses a creature they control, then each other opponent in turn order does the same knowing the choices made before them. Then all the chosen creatures are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/163/goremand) · oracle_id `0f80f061-6304-4c7b-ab53-f406385e39df` · printing: CMM #163 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gore Swine
 
@@ -133,6 +150,7 @@
   > *"The Mardu are like the gore swine. We are wild, hunt in packs, and rarely clean the blood from our blades."*
   > *—Vallash, Mardu warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28942 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/103/gore-swine) · oracle_id `af4b5853-ae60-48c9-9be1-bf121fa2e03d` · printing: FRF #103 (2015-01-23) · [rulings](https://api.scryfall.com/cards/31c36d53-1173-4a55-8fb8-63a624fde7de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goretusk Firebeast
@@ -145,6 +163,7 @@
 - **Flavor text** (JUD printing):
   > *As a youth, Kamahl took one for a pet. His hair has yet to grow back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29955 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/91/goretusk-firebeast) · oracle_id `853ce64f-50b4-49a6-9aa3-f07b11cd8b69` · printing: JUD #91 (2002-05-27) · [rulings](https://api.scryfall.com/cards/9919d2dd-d6a1-4d45-b6aa-227ed05d7051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gore Vassal
@@ -159,7 +178,11 @@
   > *—\*Tome of Machines\*, verse 1703*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/7/gore-vassal) · oracle_id `e4f44a37-1e66-4f60-9af2-1e67ba58445b` · printing: MBS #7 (2011-02-04) · [rulings](https://api.scryfall.com/cards/c2889bba-58a8-46e1-959c-0fd38c1732f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — Let’s say you activate Gore Vassal’s ability targeting a creature with 3 toughness and 2 damage marked on it. The regeneration shield will be created just before the creature is destroyed for having damage marked on it equal to or greater than its toughness. The creature will then regenerate. That is, all damage will be removed from it and it will become tapped; any counters on the creature, including the -1/-1 counter put on by this ability, remain.
+  - *2011-06-01* — The regeneration shield will last until the turn ends or until it’s used.
+  - *2011-06-01* — You can activate Gore Vassal’s ability targeting itself, but it won’t get a -1/-1 counter or regenerate because it’ll be an illegal target when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/7/gore-vassal) · oracle_id `e4f44a37-1e66-4f60-9af2-1e67ba58445b` · printing: MBS #7 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorex, the Tombshell
 
@@ -172,7 +195,10 @@
   > Whenever Gorex attacks or dies, choose a card at random exiled with Gorex and put that card into its owner's hand.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11843 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/164/gorex-the-tombshell) · oracle_id `04238d49-941e-4298-8ef6-8e8e723f4034` · printing: CMM #164 (2023-08-04) · [rulings](https://api.scryfall.com/cards/12615d0d-e38c-4e7b-918e-33e88299d1f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — Gorex's first ability can't reduce its cost below {B}{B}. You can exile any number of creature cards from your graveyard, even if they won't reduce Gorex's cost any further.
+  - *2021-09-24* — Include any additional costs to cast Gorex before applying its own cost reduction. For example, if Gorex is your commander and an additional cost of {6} applies from the "commander tax," you may cast Gorex by exiling four creature cards from your graveyard and paying {4}{B}{B}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/164/gorex-the-tombshell) · oracle_id `04238d49-941e-4298-8ef6-8e8e723f4034` · printing: CMM #164 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorger Wurm
 
@@ -185,6 +211,7 @@
   > *In war-torn Alara, sometimes a wurm's gullet is the safest place to be.*
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/56/gorger-wurm) · oracle_id `f2126eb9-892c-4788-95cc-6f3e59f0375d` · printing: ARB #56 (2009-04-30) · [rulings](https://api.scryfall.com/cards/00e5a9be-bfb2-466b-b0fe-3b24694e9f84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorging Vulture
@@ -197,6 +224,7 @@
   > When this creature enters, mill four cards. You gain 1 life for each creature card milled this way. (To mill four cards, put the top four cards of your library into your graveyard.)
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/112/gorging-vulture) · oracle_id `67330f45-d08c-4fe2-8ae3-8d18939c512a` · printing: CLU #112 (2024-02-23) · [rulings](https://api.scryfall.com/cards/4e481d5a-6d60-48b3-92fd-96365ae67cf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorgon Flail
@@ -208,6 +236,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/211/gorgon-flail) · oracle_id `91dab3e2-039e-4db9-94e3-1146bced18ed` · printing: M10 #211 (2009-07-17) · [rulings](https://api.scryfall.com/cards/eefc48cb-79aa-4e28-a736-ae9e4e2bc97b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorgon Recluse
@@ -220,7 +249,18 @@
   > Madness {B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/117/gorgon-recluse) · oracle_id `e6c9a699-0468-42f8-aad5-b9d45a3c1d37` · printing: TSR #117 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b0bf2a33-0eb6-4898-a0fb-f5afb47ea1aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-03-19* — Gorgon Recluse's ability triggers when it blocks or becomes blocked by a nonblack creature and creates a delayed triggered ability that will destroy that creature at the end of combat step. It destroys that creature then even if Gorgon Recluse doesn't survive that long or the creature somehow becomes black.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/117/gorgon-recluse) · oracle_id `e6c9a699-0468-42f8-aad5-b9d45a3c1d37` · printing: TSR #117 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorgon's Head
 
@@ -234,6 +274,7 @@
   > *—King Igalus, last words*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/158/gorgons-head) · oracle_id `190cdc23-fa05-475f-b853-471ca0f21b71` · printing: BNG #158 (2014-02-07) · [rulings](https://api.scryfall.com/cards/d745dd92-9f7a-44a4-a27f-2ff17753db1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Berserkers
@@ -249,6 +290,7 @@
   > *—Taaveti of Kelsinko, Elvish Hunter*
 - **Keywords:** Trample, Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15100 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/93a/gorilla-berserkers) · oracle_id `6373c66d-edfc-44cb-af2a-2273e0ba53e0` · printing: ALL #93a (1996-06-10) · [rulings](https://api.scryfall.com/cards/344b4613-17f8-4c8b-b5bc-f773a8f8007a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Chieftain
@@ -262,6 +304,7 @@
   > *A gorilla chief must always be prepared to defend his crown. This leads to some pretty tough apes.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/250/gorilla-chieftain) · oracle_id `4137ee86-bbf0-49dc-87c5-b48a384baac4` · printing: 7ED #250 (2001-04-11) · [rulings](https://api.scryfall.com/cards/9e76185a-519f-4bec-b399-989ebddbab71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Pack
@@ -276,6 +319,7 @@
   > *"We learned this at a dear price: once you cross the great river, get through the Yavimaya forest at top speed."*
   > *—Disa the Restless, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/247/gorilla-pack) · oracle_id `f2c8814b-581b-483b-a7ae-d3d7b962aec1` · printing: ICE #247 (1995-06-03) · [rulings](https://api.scryfall.com/cards/046f6b76-5f17-4728-aa34-72b7eff1d4c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Shaman
@@ -289,7 +333,9 @@
   > *"Frankly, destruction is best left to professionals."*
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8223 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/280/gorilla-shaman) · oracle_id `9f53b691-da24-4264-a2a0-d0b95a385963` · printing: MH2 #280 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c8f8ee19-3a88-40fa-85d8-386ffe06efd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — A tip on how this math works: The cost to destroy a noncreature artifact with mana value 0 is {0} + {0} + {1} = {1}. The cost to destroy a noncreature artifact with mana value 1 is {1} + {1} + {1} = {3}. The cost to destroy a noncreature artifact with mana value 2 is {2} + {2} + {1} = {5}. And so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/280/gorilla-shaman) · oracle_id `9f53b691-da24-4264-a2a0-d0b95a385963` · printing: MH2 #280 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Tactics
 
@@ -299,7 +345,11 @@
   > Create a 2/2 green Gorilla creature token.
   > When a spell or ability an opponent controls causes you to discard Gorilla Tactics, create two 2/2 green Gorilla creature tokens.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/76/gorilla-tactics) · oracle_id `f0616b31-6f05-4056-b96c-559ca4ca085a` · printing: CMB2 #76 (2021-08-20) · [rulings](https://api.scryfall.com/cards/2b3fdb5f-57a6-45e6-877d-0f32072bf24d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-11-12* — If a spell or ability an opponent controls causes you to make a choice and you choose to discard Gorilla Tactics, its last ability will trigger.
+  - *2019-11-12* — In a Magic game, cards are discarded only from a player’s hand. Effects that put cards from a player’s library into that player’s graveyard do not cause those cards to be discarded.
+  - *2019-11-12* — This card’s name is far too similar to the existing card Guerrilla Tactics. It’ll be changed during creative review.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/76/gorilla-tactics) · oracle_id `f0616b31-6f05-4056-b96c-559ca4ca085a` · printing: CMB2 #76 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Titan
 
@@ -313,6 +363,7 @@
   > *"I want a banana \*this\* big!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21974 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/241/gorilla-titan) · oracle_id `9ce80c55-a995-4226-8506-901f6cf06efc` · printing: ODY #241 (2001-10-01) · [rulings](https://api.scryfall.com/cards/435d9562-8f2b-43fe-ba21-8f5896378280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla War Cry
@@ -324,7 +375,9 @@
   > All creatures gain menace until end of turn. (They can't be blocked except by two or more creatures.)
   > Draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/124/gorilla-war-cry) · oracle_id `60a7f61c-41ad-4dce-b556-a99bf38c3d73` · printing: ME4 #124 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7f738b12-8664-4f27-a006-c4574a71885a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, this spell can be cast during any of them as long as it's before the beginning of that phase's Declare Blockers Step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/124/gorilla-war-cry) · oracle_id `60a7f61c-41ad-4dce-b556-a99bf38c3d73` · printing: ME4 #124 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorilla Warrior
 
@@ -336,6 +389,7 @@
 - **Flavor text** (S99 printing):
   > *They were formidable even before they learned the use of weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/128/gorilla-warrior) · oracle_id `c0e6ae0f-6cf7-48ca-acb8-73d4c38b9005` · printing: S99 #128 (1999-07-01) · [rulings](https://api.scryfall.com/cards/d6997a75-42c9-4706-ac34-69fa34011eca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goring Ceratops
@@ -351,6 +405,7 @@
   > *—Itzama the Crested*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/13/goring-ceratops) · oracle_id `34f5383b-21fe-45f5-9598-7382ee4c5b12` · printing: XLN #13 (2017-09-29) · [rulings](https://api.scryfall.com/cards/8309f684-5912-4191-9f64-d573f1cc84c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goring Warplow
@@ -365,7 +420,15 @@
   > *Built to crush walls and wills in equal measure.*
 - **Keywords:** Prototype, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/120/goring-warplow) · oracle_id `02457c7f-eced-4bf3-9b61-309b4ceab2d5` · printing: BRO #120 (2022-11-18) · [rulings](https://api.scryfall.com/cards/9d927dfd-ae66-4235-a61b-39c85d0c1222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/120/goring-warplow) · oracle_id `02457c7f-eced-4bf3-9b61-309b4ceab2d5` · printing: BRO #120 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorion, Wise Mentor
 
@@ -379,7 +442,9 @@
   > *"You are safest in Candlekeep, Abdel, but I cannot keep you from the world forever."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17504 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/276/gorion-wise-mentor) · oracle_id `195bd8fe-581c-44ed-b7f8-e800df3502ff` · printing: CLB #276 (2022-06-10) · [rulings](https://api.scryfall.com/cards/001c648a-db66-47f3-8fee-3658b9e76ac2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — An Adventure spell means an instant or sorcery with the Adventure spell type. Permanent spells that you cast which have an Adventure you aren't casting will not cause this ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/276/gorion-wise-mentor) · oracle_id `195bd8fe-581c-44ed-b7f8-e800df3502ff` · printing: CLB #276 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorma, the Gullet
 
@@ -392,7 +457,9 @@
   > Nontoken creatures you control enter with an additional +1/+1 counter on them for each creature that died under your control this turn.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7351 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/3/gorma-the-gullet) · oracle_id `ae5f30cc-a22e-4fbb-9510-e9429de3623c` · printing: SOC #3 (2026-04-24) · [rulings](https://api.scryfall.com/cards/86f97dd8-8647-4938-aee0-690bb715f88b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — In the case where Gorma and one or more other creatures enter at the same time, those creatures won't enter with additional +1/+1 counters, even if one or more creatures died under your control this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/3/gorma-the-gullet) · oracle_id `ae5f30cc-a22e-4fbb-9510-e9429de3623c` · printing: SOC #3 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorm the Great
 
@@ -405,7 +472,19 @@
   > Gorm must be blocked if able, and Gorm must be blocked by two or more creatures if able.
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15345 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/8/gorm-the-great) · oracle_id `a7195e9f-53fa-4fb5-b1f1-099c0a772090` · printing: BBD #8 (2018-06-08) · [rulings](https://api.scryfall.com/cards/41603938-9527-42fc-a870-b662c3871ae3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-06-08* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2018-06-08* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2018-06-08* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2018-06-08* — If a creature can't block Gorm for any reason (such as being tapped), then it doesn't block. If there's a cost associated with having it block Gorm, the player isn't forced to pay that cost, so it doesn't have to block in that case either. If this means that no creatures block Gorm, Gorm isn't blocked.
+  - *2018-06-08* — If only one creature can block Gorm the Great, that creature does so.
+  - *2018-06-08* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Khorvath and Sylvia are your commanders, your deck may contain cards with red and/or white in their color identity, but not blue, black, or green.
+  - *2018-06-08* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2018-06-08* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/8/gorm-the-great) · oracle_id `a7195e9f-53fa-4fb5-b1f1-099c0a772090` · printing: BBD #8 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gor Muldrak, Amphinologist
 
@@ -418,7 +497,10 @@
 - **Flavor text** (CMR printing):
   > *"The day of reckoning is coming. Knowledge of the amphin may be our only refuge."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14024 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/277/gor-muldrak-amphinologist) · oracle_id `9abdd53a-aa62-447b-9525-02a2227cc44b` · printing: CMR #277 (2020-11-20) · [rulings](https://api.scryfall.com/cards/40b006f9-a287-4e64-915f-ca71712b8d27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Gor Muldrak's first ability affects itself.
+  - *2020-11-10* — Gor Muldrak's last ability checks how many creatures each player controls as it resolves. If other abilities trigger at the beginning of your end step (such as the delayed triggered ability of an encore ability) you choose the order in which they resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/277/gor-muldrak-amphinologist) · oracle_id `9abdd53a-aa62-447b-9525-02a2227cc44b` · printing: CMR #277 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gorn Captain
 
@@ -431,6 +513,7 @@
   > *"I weary of the chase. Wait for me. I shall be merciful and quick."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32344 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/172/gorn-captain) · oracle_id `60ff591d-170d-410a-9710-510e811f9827` · printing: TRC #172 (2026-11-13) · [rulings](https://api.scryfall.com/cards/061dc7da-c803-49eb-b50a-a0801f09b5c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gornog, the Red Reaper
@@ -445,7 +528,12 @@
   > Attacking Warriors you control get +X/+0, where X is the number of Cowards your opponents control.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5748 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-49/gornog-the-red-reaper) · oracle_id `adfd6c2d-a7f8-4f5c-bc31-d65c8150ed49` · printing: PLST #J25-49 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2f8f2cde-6894-4d8d-ade1-dcc36ed51c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Gornog's third ability doesn't have a duration. It will remain in effect until the game ends, the target creature leaves the battlefield, or some subsequent effect changes the creature's characteristics, whichever comes first.
+  - *2024-11-08* — Gornog's third ability overwrites the target's existing creature types. Once the ability resolves, that creature will be a Coward and won't have its previous creature types. It retains any other types and supertypes it has as well as any subtypes that aren't creature types.
+  - *2024-11-08* — Once a creature has blocked a Warrior, turning that creature into a Coward won't remove it from combat or cause the Warrior to become unblocked. (The Coward might suddenly have some regrets, though.)
+  - *2024-11-08* — The bonus granted by Gornog's last ability changes as the number of Cowards your opponents control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-49/gornog-the-red-reaper) · oracle_id `adfd6c2d-a7f8-4f5c-bc31-d65c8150ed49` · printing: PLST #J25-49 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goro-Goro and Satoru
 
@@ -456,7 +544,9 @@
   > Whenever one or more creatures you control that entered this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.
   > {1}{R}: Creatures you control gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10924 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/445/goro-goro-and-satoru) · oracle_id `854bdd4a-d549-41d5-af43-0e2154ed017e` · printing: MOC #445 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5b661b53-2e58-4dcc-9100-fc00e0fdb606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The set of creatures affected by the last ability is determined as that ability resolves. Creatures you begin to control later in the turn and permanents that become creatures later in the turn won’t gain haste. As long as Goro-Goro and Satoru is still on the battlefield under your control, it will gain haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/445/goro-goro-and-satoru) · oracle_id `854bdd4a-d549-41d5-af43-0e2154ed017e` · printing: MOC #445 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goro-Goro, Disciple of Ryusei
 
@@ -467,7 +557,11 @@
   > {R}: Creatures you control gain haste until end of turn.
   > {3}{R}{R}: Create a 5/5 red Dragon Spirit creature token with flying. Activate only if you control an attacking modified creature. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3243 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/145/goro-goro-disciple-of-ryusei) · oracle_id `b80df711-af51-4f9a-9a3f-f7a4cddc9c2c` · printing: NEO #145 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1ca736c7-35a9-48c7-b5a9-69b2a6e33ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/145/goro-goro-disciple-of-ryusei) · oracle_id `b80df711-af51-4f9a-9a3f-f7a4cddc9c2c` · printing: NEO #145 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Goryo's Vengeance
 
@@ -478,4 +572,10 @@
   > Splice onto Arcane {2}{B} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11502 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/99/goryos-vengeance) · oracle_id `3ea3c681-f0ad-45a2-bc25-2813efd8d560` · printing: UMA #99 (2018-12-07) · [rulings](https://api.scryfall.com/cards/6261205d-3506-4f0a-98ce-690f40df7a5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-06-07* — A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+  - *2018-12-07* — If the returned creature leaves the battlefield before the end step, it will remain in its current zone. It won't be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/99/goryos-vengeance) · oracle_id `3ea3c681-f0ad-45a2-bc25-2813efd8d560` · printing: UMA #99 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

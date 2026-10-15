@@ -21,4 +21,7 @@
   > Rex has all activated abilities of all cards in exile with brain counters on them.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9942 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/117/rex-cyber-hound) · oracle_id `7ad52f9c-48d8-486f-90b7-73ce5cb3b9db` · printing: PIP #117 (2024-03-08) · [rulings](https://api.scryfall.com/cards/dae95822-d4a9-4698-bd11-c504414fc160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — If an activated ability of a card in exile with a brain counter on it references the card it's printed on by name, treat Rex's version of that ability as though it referenced Rex, Cyber-Hound instead. For example, say Arcade Gannon (which has the ability "{T}: Draw a card, then discard a card. Put a quest counter on Arcade Gannon.") is in exile with a brain counter on it. You would treat Rex's version of the ability as though it said "{T}: Draw a card, then discard a card. Put a quest counter on Rex, Cyber-Hound."
+  - *2024-03-08* — Rex gains only activated abilities. It doesn't gain triggered abilities or static abilities. Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and may have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/117/rex-cyber-hound) · oracle_id `7ad52f9c-48d8-486f-90b7-73ce5cb3b9db` · printing: PIP #117 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

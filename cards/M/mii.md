@@ -20,4 +20,7 @@
   > Whenever another nontoken Dragon you control enters, create a token that's a copy of it, except the token isn't legendary.
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1464 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/284/miirym-sentinel-wyrm) · oracle_id `880fcf86-e6a9-482c-b91d-750f293127b2` · printing: CLB #284 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a934590b-5c70-4f07-af67-fbe817a99531/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If the Dragon that entered the battlefield is copying something else as the triggered ability resolves, the token will be a copy of whatever that creature is a copy of.
+  - *2022-06-10* — Miirym, Sentinel Wyrm's triggered ability copies the printed values of the Dragon that entered the battlefield. It won't copy any counters on that creature or any effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/284/miirym-sentinel-wyrm) · oracle_id `880fcf86-e6a9-482c-b91d-750f293127b2` · printing: CLB #284 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -19,4 +19,5 @@
   > Dr. Julius Jumblemorph is every creature type (even if this card isn't on the battlefield).
   > Whenever a host you control enters, you may search your library and/or graveyard for a card with augment and combine it with that host. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/130/dr-julius-jumblemorph) · oracle_id `38f43685-7aab-4a0e-8a46-717632b50694` · printing: UST #130 (2017-12-08) · [rulings](https://api.scryfall.com/cards/564a8222-7760-41bb-b524-9036a036bc8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

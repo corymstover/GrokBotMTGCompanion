@@ -29,7 +29,10 @@
   > *"Come, then! Who will be next to die on my steel!?"*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6962 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/151/raubahn-bull-of-ala-mhigo) · oracle_id `d81d5749-ab4d-42c5-8903-0b400f10fe33` · printing: FIN #151 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7035d11b-525f-4120-8dcb-610095196681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If the target Equipment can't legally be attached to the target attacking creature when Raubahn's last ability resolves, the Equipment won't move.
+  - *2025-06-06* — Use Raubahn's power at the time the ward ability resolves to determine how much life must be paid. If Raubahn is no longer on the battlefield at that time, use Raubahn's power as it last existed on the battlefield. (If this matters, you must have a very good reason for wanting to pay life.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/151/raubahn-bull-of-ala-mhigo) · oracle_id `d81d5749-ab4d-42c5-8903-0b400f10fe33` · printing: FIN #151 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raucous Audience
 
@@ -41,6 +44,7 @@
 - **Flavor text** (TLA printing):
   > *"I think The Boulder is going to win back the belt at Earth Rumble Six!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/190/raucous-audience) · oracle_id `5be6f245-31cf-4294-ace0-ca6ce3463fed` · printing: TLA #190 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ccd03ec3-0fae-48b2-9f04-9c57d2f94267/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raucous Carnival
@@ -53,6 +57,7 @@
 - **Flavor text** (DSK printing):
   > *They say that those who enter the amusement park never come back, and their disembodied laughter joins the others on the wind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/266/raucous-carnival) · oracle_id `24a97436-ba61-4ebc-a560-a6c027ccfdf3` · printing: DSK #266 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3604a211-9bf7-474e-bd78-32a862f4259c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raucous Entertainer
@@ -65,6 +70,7 @@
 - **Flavor text** (OTJ printing):
   > *It's not hard to know the right song for the occasion when most occasions are saloon brawls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/177/raucous-entertainer) · oracle_id `534e74f6-52f4-4824-9178-cce5e4bcbcc2` · printing: OTJ #177 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8dc3cbfe-410f-40e3-8021-647a2efb50bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raucous Theater
@@ -77,6 +83,7 @@
   > When this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/266/raucous-theater) · oracle_id `04e5e84f-8fd4-43ab-8f9d-5b24646f7ae5` · printing: MKM #266 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b598c93e-dae1-4d71-a9e4-917abf76d2d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raugrin Crystal
@@ -90,6 +97,7 @@
   > *The vegetation in Raugrin is dull, but that only makes the towering crystal structures gleam brighter.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/238/raugrin-crystal) · oracle_id `ae4a8470-4517-42c7-a7f6-ef7635e10fe5` · printing: IKO #238 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c5bce0fb-53d6-47ee-8c5a-a99e50f67fc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raugrin Triome
@@ -104,6 +112,7 @@
   > *Raugrin meets the sea with jaws wide, its coast spiked with teeth of crystal and granite.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/251/raugrin-triome) · oracle_id `c7fa1dda-9312-4ec8-82cd-a1ba7bc33497` · printing: IKO #251 (2020-04-24) · [rulings](https://api.scryfall.com/cards/02138fbb-3962-4348-8d31-faaefba0b8b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raul, Trouble Shooter
@@ -118,4 +127,11 @@
   > *"Raul Alfonso Tejada, former gunslinger and sole survivor of Hidalgo Ranch, at your service."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5630 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/115/raul-trouble-shooter) · oracle_id `d247a86d-917d-4833-82c4-876943d54e2c` · printing: PIP #115 (2024-03-08) · [rulings](https://api.scryfall.com/cards/3b73a314-b197-4954-a242-7d9096a406c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-03-08* — If you are instructed to put a card into your graveyard from your library without using the word “mill,” (by the effect of Rowan’s Grim Search from Wilds of Eldraine, for example), Raul’s first ability won’t allow you to cast it.
+  - *2024-03-08* — If you cast a spell from among cards in your graveyard that were milled this turn using another permission, Raul’s effect doesn’t apply. You can cast another spell among cards in your graveyard that were milled this turn using the permission granted by Raul’s first ability.
+  - *2024-03-08* — If you cast a spell from among cards in your graveyard that were milled this turn using the permission granted by Raul’s first ability and then have a new Raul, Trouble Shooter come under your control in the same turn, you may cast another spell from among cards in your graveyard that were milled this turn.
+  - *2024-03-08* — Once you begin to cast the spell, losing control of Raul won’t affect the spell.
+  - *2024-03-08* — You must follow the normal timing permissions and restrictions of the spell you cast from your graveyard.
+  - *2024-03-08* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/115/raul-trouble-shooter) · oracle_id `d247a86d-917d-4833-82c4-876943d54e2c` · printing: PIP #115 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

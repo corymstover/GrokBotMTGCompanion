@@ -79,6 +79,7 @@
   > *No one in the Conclave acts alone.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13889 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/143/armada-wurm) · oracle_id `33598888-0367-4085-9415-f4e21da08354` · printing: RTR #143 (2012-10-05) · [rulings](https://api.scryfall.com/cards/50cb4bf3-70d1-4acc-a1fb-49f4ea74ca16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armadillo Cloak
@@ -93,7 +94,10 @@
   > *"Don't laugh. It works."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/195/armadillo-cloak) · oracle_id `15397a59-70a8-441f-abf7-230405a1602b` · printing: EMA #195 (2016-06-10) · [rulings](https://api.scryfall.com/cards/fa232c65-dbb4-4414-bd95-b3bbd321c653/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If Armadillo Cloak enchants a creature you don’t control, you’ll gain life when it deals damage, as long as that damage hasn’t already caused you to lose the game.
+  - *2016-06-08* — While Armadillo Cloak’s last ability is similar to lifelink, it isn’t lifelink—it’s a normal triggered ability. If a creature you control with lifelink wears an Armadillo Cloak and deals damage, first you’ll gain that much life for lifelink, and then Armadillo Cloak’s triggered ability is put onto the stack. This also means that multiple instances of Armadillo Cloak’s triggered ability do trigger separately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/195/armadillo-cloak) · oracle_id `15397a59-70a8-441f-abf7-230405a1602b` · printing: EMA #195 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armageddon
 
@@ -102,6 +106,7 @@
 - **Oracle text:**
   > Destroy all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/5/armageddon) · oracle_id `c9ed8b01-959a-47d6-891e-0abbdccf6e4f` · printing: A25 #5 (2018-03-16) · [rulings](https://api.scryfall.com/cards/77f1f6ac-983f-4f3e-8906-47f774e8367b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armageddon Clock
@@ -113,7 +118,9 @@
   > At the beginning of your draw step, this artifact deals damage equal to the number of doom counters on it to each player.
   > {4}: Remove a doom counter from this artifact. Any player may activate this ability but only during any upkeep step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/180/armageddon-clock) · oracle_id `70d90ef4-0cda-405f-abf1-734fa909efa6` · printing: ME4 #180 (2011-01-10) · [rulings](https://api.scryfall.com/cards/ab55bb84-03c2-4989-8db4-0d5578ea0431/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Players can remove as many counters as they can pay for each turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/180/armageddon-clock) · oracle_id `70d90ef4-0cda-405f-abf1-734fa909efa6` · printing: ME4 #180 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armaggon, Future Shark
 
@@ -127,6 +134,7 @@
   > *"I am ancient efficiency. I am evolution's future. I am mutation come full, vicious circle!"*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9599 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/58/armaggon-future-shark) · oracle_id `e2a35850-92c5-40ab-8697-2e995819d7ac` · printing: TMT #58 (2026-03-06) · [rulings](https://api.scryfall.com/cards/5989378b-0eac-43cf-bc83-8f7765536789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament Corps
@@ -139,7 +147,10 @@
 - **Flavor text** (KTK printing):
   > *The Abzan avoid extended supply lines by incorporating weapons stores into their battle formations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29256 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/165/armament-corps) · oracle_id `3b93427c-5b40-4119-96ae-7dce3ca2bbb9` · printing: KTK #165 (2014-09-26) · [rulings](https://api.scryfall.com/cards/a5c69876-809d-4af3-9fd6-3bac41541dad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — The enters-the-battlefield ability can target Armament Corps itself.
+  - *2014-09-20* — You choose how the counters will be distributed as you put the ability on the stack. Notably, if you choose to put one +1/+1 counter on each of two target creatures, and one of those creatures becomes an illegal target in response, the +1/+1 counter that would’ve gone on that creature is lost. It can’t be put on the remaining legal target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/165/armament-corps) · oracle_id `3b93427c-5b40-4119-96ae-7dce3ca2bbb9` · printing: KTK #165 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament Dragon
 
@@ -154,7 +165,10 @@
   > *—Anafenza*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/168/armament-dragon) · oracle_id `23c75386-8011-4ee4-97e2-eaafeb20b788` · printing: TDM #168 (2025-04-11) · [rulings](https://api.scryfall.com/cards/17f61c01-0a41-4fa1-ac34-ffa83baad989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If some of the creatures are illegal targets as Armament Dragon’s triggered ability resolves, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost.
+  - *2025-04-04* — You choose how many targets Armament Dragon’s triggered ability has and how the counters are distributed as you put the ability onto the stack. Each target must receive at least one counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/168/armament-dragon) · oracle_id `23c75386-8011-4ee4-97e2-eaafeb20b788` · printing: TDM #168 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament Master
 
@@ -166,6 +180,7 @@
 - **Flavor text** (ZEN printing):
   > *"We prepare for the known with daggers, rations, rope, and pitons. But we also prepare for the unknown with billycat tails, pikku roots, hedron chips . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26766 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/1/armament-master) · oracle_id `f1dca9ac-8886-4688-9245-763ef486701c` · printing: ZEN #1 (2009-10-02) · [rulings](https://api.scryfall.com/cards/975f7752-e981-4046-ae9b-90b20db6b23a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armament of Nyx
@@ -177,7 +192,9 @@
   > Enchanted creature has double strike as long as it's an enchantment. Otherwise, prevent all damage that would be dealt by enchanted creature. (A creature with double strike deals both first-strike and regular combat damage.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/4/armament-of-nyx) · oracle_id `1a4d16eb-343e-41ca-9363-90dc79da4769` · printing: JOU #4 (2014-05-02) · [rulings](https://api.scryfall.com/cards/4203df15-dd44-496b-889a-d7a8fe320330/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-04-26* — Armament of Nyx continuously checks to see whether the creature it's enchanting is an enchantment or not. If the creature isn't an enchantment and becomes one, or it is an enchantment and stops being one, the effect will change.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/4/armament-of-nyx) · oracle_id `1a4d16eb-343e-41ca-9363-90dc79da4769` · printing: JOU #4 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armasaur Guide
 
@@ -191,7 +208,9 @@
   > *The armasaur was skittish about the lanterns, until it noticed the captivating dance of its shadow along the walls.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17861 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/3/armasaur-guide) · oracle_id `1d4e7422-2e26-49ce-beef-08f61583089a` · printing: FDN #3 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c80fc380-0499-4499-8a60-c43844c02c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — It doesn't matter what happens to the creatures you attacked with once Armasaur Guide's last ability has triggered. When that ability resolves, you'll put a +1/+1 counter on the target creature regardless of whether the creatures you attacked with (or Armasaur Guide) are still on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/3/armasaur-guide) · oracle_id `1d4e7422-2e26-49ce-beef-08f61583089a` · printing: FDN #3 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed and Armored
 
@@ -202,7 +221,10 @@
 - **Flavor text** (NEC printing):
   > *The dwarves of Axgard seldom have reason to leave their impregnable underground kingdom—but when they do, they go in force.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/80/armed-and-armored) · oracle_id `3d5b6151-d985-423b-8ade-f00958bbd3f6` · printing: NEC #80 (2022-02-18) · [rulings](https://api.scryfall.com/cards/133424c1-4d10-4da2-9d7c-c6ea00c0c98a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The set of Vehicles affected by Armed and Armored is determined as the spell resolves. Vehicles you begin to control later in the turn won't automatically become creatures.
+  - *2021-02-05* — You can cast Armed and Armored even if you don't control any Vehicles or Dwarves. Whatever part of the effect that can happen does, and the rest is ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/80/armed-and-armored) · oracle_id `3d5b6151-d985-423b-8ade-f00958bbd3f6` · printing: NEC #80 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed Assailant
 
@@ -217,6 +239,7 @@
   > *—Melter, Bruno Horgan*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30727 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/647/armed-assailant) · oracle_id `53d7722a-b60b-4520-abce-f31b1e6bba00` · printing: MSC #647 (2026-06-26) · [rulings](https://api.scryfall.com/cards/58d18eaa-493d-4e3f-920f-276e393ae74d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed // Dangerous
@@ -230,7 +253,20 @@
   > Fuse (You may cast one or both halves of this card from your hand.)
 - **Keywords:** Fuse
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14804 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/122/armed-dangerous) · oracle_id `a0593a5b-6f76-4eb3-a1b1-9794d2d36c92` · printing: DGM #122 (2013-05-03) · [rulings](https://api.scryfall.com/cards/ff7f4fc2-6f76-44e7-a30b-7166a0d10d2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2013-04-15* — As blockers are declared, any creature that’s tapped or affected by a spell or ability that says it can’t block doesn’t block. If there’s a cost associated with having the creature block, no player is forced to pay that cost, so it doesn’t block if that cost isn’t paid.
+  - *2013-04-15* — Dangerous doesn’t give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+  - *2013-04-15* — If a player names a card, the player may name either half of a split card, but not both. A split card has the chosen name if one of its two names matches the chosen name.
+  - *2013-04-15* — If you cast a split card with fuse from your hand without paying its mana cost, you can choose to use its fuse ability and cast both halves without paying their mana costs.
+  - *2013-04-15* — If you’re casting a split card with fuse from any zone other than your hand, you can’t cast both halves. You’ll only be able to cast one half or the other.
+  - *2013-04-15* — On the stack, a split spell that hasn’t been fused has only that half’s characteristics and mana value. The other half is treated as though it didn’t exist.
+  - *2013-04-15* — Some split cards with fuse have two halves that are both multicolored. That card is multicolored no matter which half is cast, or if both halves are cast. It’s also multicolored while not on the stack.
+  - *2013-04-15* — Some split cards with fuse have two monocolor halves of different colors. If such a card is cast as a fused split spell, the resulting spell is multicolored. If only one half is cast, the spell is the color of that half. While not on the stack, such a card is multicolored.
+  - *2013-04-15* — To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its mana value is the total amount of mana in both costs.
+  - *2013-04-15* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
+  - *2013-04-15* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn’t resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can’t perform any actions or have any actions performed on it.
+  - *2013-04-15* — You can choose the same object as the target of each half of a fused split spell, if appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/122/armed-dangerous) · oracle_id `a0593a5b-6f76-4eb3-a1b1-9794d2d36c92` · printing: DGM #122 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed Response
 
@@ -241,6 +277,7 @@
 - **Flavor text** (5DN printing):
   > *Raksha watched as the goblins continued to pour onto the Razor Fields. "They just don't know when to stop, do they?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/2/armed-response) · oracle_id `0258a606-1625-402e-b0c4-ffca06779b5e` · printing: 5DN #2 (2004-06-04) · [rulings](https://api.scryfall.com/cards/7029fac9-ef8a-499f-aa42-c145b6b528ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armed with Proof
@@ -252,7 +289,16 @@
   > Clues you control are Equipment in addition to their other types and have "Equipped creature gets +2/+0" and equip {2}.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12165 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/9/armed-with-proof) · oracle_id `b401a490-d25f-4029-bb91-8999e140c6a1` · printing: MKC #9 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6e75470f-fe57-4b6e-a76b-5daf9d9caf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-02-02* — An Equipment without reconfigure that's also a creature can't be attached to anything. You can activate its equip ability, but it won't become attached. For example, if you control both Red Herring and Armed with Proof, Red Herring will be an Artifact Creature – Clue Equipment Fish with "Equipped creature gets +2/+0" and equip {2}, but activating its equip ability won't result in it becoming attached to the target creature.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — Clues stop being Equipment if Armed with Proof leaves the battlefield. If any of them are attached to creatures at that time, they become unattached.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — If you control more than one Armed with Proof, creatures equipped with Clue Equipment will get +2/+0 for each Armed with Proof you control. The equip cost is still {2}.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/9/armed-with-proof) · oracle_id `b401a490-d25f-4029-bb91-8999e140c6a1` · printing: MKC #9 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armguard Familiar
 
@@ -265,7 +311,19 @@
   > Reconfigure {4} ({4}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Ward, Reconfigure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16350 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/46/armguard-familiar) · oracle_id `a7955f10-f502-4893-88ad-f36e7ff0af4f` · printing: NEO #46 (2022-02-18) · [rulings](https://api.scryfall.com/cards/7497f147-146d-4a76-b670-bd84e07352b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-02-18* — Although it causes an Equipment to become attached to a creature, reconfigure is not an “equip ability” for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2022-02-18* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2022-02-18* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2022-02-18* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Acquisition Octopus, then use reconfigure to unattach Acquisition Octopus after combat, the Octopus will be untapped and could be used to block during your opponent's turn.
+  - *2022-02-18* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2022-02-18* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2022-02-18* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2022-02-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
+  - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/46/armguard-familiar) · oracle_id `a7955f10-f502-4893-88ad-f36e7ff0af4f` · printing: NEO #46 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armillary Sphere
 
@@ -276,6 +334,7 @@
 - **Flavor text** (CMR printing):
   > *The mysterious purpose of two of the rings had eluded Esper mages—until now.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6198 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/298/armillary-sphere) · oracle_id `3963140c-da67-43e6-9514-fe9dc0a43c4d` · printing: CMR #298 (2020-11-20) · [rulings](https://api.scryfall.com/cards/af3ae93e-6094-483d-b2c0-ae117ad01293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armistice
@@ -288,6 +347,7 @@
   > *We all must profit for peace to last.*
   > *—Mercadian saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25054 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/65/armistice) · oracle_id `da103316-2a85-4de9-8531-ac2cd2859d6f` · printing: C14 #65 (2014-11-07) · [rulings](https://api.scryfall.com/cards/b09148ec-cb92-4240-b446-135036174abc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armix, Filigree Thrasher
@@ -300,7 +360,20 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6209 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/108/armix-filigree-thrasher) · oracle_id `a1464164-fbda-43b5-988e-6e1da9bd9eef` · printing: CMR #108 (2020-11-20) · [rulings](https://api.scryfall.com/cards/d5f69e24-6b5c-4a9a-af5b-1ce88efdc0aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Armix's ability goes on the stack without a target. While that ability is resolving, you may discard a card. If you do, a second ability triggers and you pick one target to get -X/-X. This is different from abilities that say "If you do . . ." in that players may cast spells and activate abilities after you've discarded a card but before the creature gets -X/-X.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If the discarded card is an artifact card, it will be counted as you determine the value of X, provided it's still in the graveyard or, optimistically, on the battlefield under your control at that time.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — The value of X is determined only as Armix's ability resolves. Once that happens, the value of X won't change later in the turn, even if the number of artifacts in your graveyard and under your control changes.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — While resolving Armix's ability, you can't discard more than one card to give more than one creature -X/-X.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/108/armix-filigree-thrasher) · oracle_id `a1464164-fbda-43b5-988e-6e1da9bd9eef` · printing: CMR #108 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arm-Mounted Anchor
 
@@ -312,7 +385,9 @@
   > Equip {2}. This ability costs {2} less to activate if you have one or fewer cards in hand.
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/99/arm-mounted-anchor) · oracle_id `70f3bc78-201f-4c56-b87b-9e8f2db9f7f7` · printing: LCC #99 (2023-11-17) · [rulings](https://api.scryfall.com/cards/15bcbfae-89cd-4fa4-978c-ad1332e81e18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — You can discard either one Pirate card or two cards which may or may not be Pirates. If you really want to, you can discard two Pirate cards. (Admiral Brass will remember this.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/99/arm-mounted-anchor) · oracle_id `70f3bc78-201f-4c56-b87b-9e8f2db9f7f7` · printing: LCC #99 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armorcraft Judge
 
@@ -324,7 +399,10 @@
 - **Flavor text** (CMM printing):
   > *Were she not a judge, she'd win the division herself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/273/armorcraft-judge) · oracle_id `d7f49243-a96e-499f-b2d7-8e9842432420` · printing: CMM #273 (2023-08-04) · [rulings](https://api.scryfall.com/cards/5b76074c-65ca-40e9-b125-4668d3431820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Armorcraft Judge's ability counts the number of creatures, not the number of counters. A creature with more than one +1/+1 counter won't cause you to draw more than one card.
+  - *2020-11-10* — The number of creatures you control with +1/+1 counters on them is counted only as Armorcraft Judge's triggered ability resolves. Players may respond to the triggered ability by trying to change that number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/273/armorcraft-judge) · oracle_id `d7f49243-a96e-499f-b2d7-8e9842432420` · printing: CMM #273 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Armadillo
 
@@ -339,7 +417,9 @@
   > *—Kellan*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/3/armored-armadillo) · oracle_id `dca25245-523a-4587-a059-a14ee2ef908d` · printing: OTJ #3 (2024-04-19) · [rulings](https://api.scryfall.com/cards/263232df-69b8-4205-93ad-c724fe57ec11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — The value of X is determined as Armored Armadillo's activated ability resolves. It won't change later in the turn if other effects modify Armored Armadillo's toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/3/armored-armadillo) · oracle_id `dca25245-523a-4587-a059-a14ee2ef908d` · printing: OTJ #3 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Ascension
 
@@ -352,7 +432,11 @@
   > *With skill and strength honed upon the prairie, Naxtil won his battles high above it.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/5/armored-ascension) · oracle_id `916db499-7f0a-45f7-8abe-94818a53e494` · printing: M11 #5 (2010-07-16) · [rulings](https://api.scryfall.com/cards/5647c21e-5926-462c-8b01-862f8cedf777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — This ability counts the number of Plains controlled by Armored Ascension’s controller, not the enchanted creature’s controller (in case they’re different players).
+  - *2009-10-01* — This bonus is not fixed; it changes as the number of Plains you control changes.
+  - *2010-08-15* — The ability cares about lands with the land type Plains, not necessarily lands named Plains.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/5/armored-ascension) · oracle_id `916db499-7f0a-45f7-8abe-94818a53e494` · printing: M11 #5 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Cancrix
 
@@ -364,6 +448,7 @@
 - **Flavor text** (M14 printing):
   > *Creatures displaced from time still turn up every year, stranded by the temporal disaster that once swept across Dominaria.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23508 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/44/armored-cancrix) · oracle_id `445bb343-9758-459b-970f-47f1705f1e55` · printing: M14 #44 (2013-07-19) · [rulings](https://api.scryfall.com/cards/3b455b0f-a69c-43b4-bbf5-605ed41f10e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Galleon
@@ -377,6 +462,7 @@
   > *"Information equals profits. Our merchants sell it, or our pirates use it."*
   > *—Jefan, Talas ship captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/33/armored-galleon) · oracle_id `637a10e8-4384-49a0-ad78-03da8930811e` · printing: P02 #33 (1998-06-24) · [rulings](https://api.scryfall.com/cards/484b2978-2da5-41cf-85d4-128e9dae75c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Griffin
@@ -390,6 +476,7 @@
   > *When an order for griffin barding comes in, blacksmiths prepare their forges for months of exacting work. They know griffins always detect imperfections and never haggle.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23389 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/1/armored-griffin) · oracle_id `ad3d6003-66d3-486d-aa54-ddce1adb5ff1` · printing: PCA #1 (2016-11-25) · [rulings](https://api.scryfall.com/cards/1af85ada-7d0c-4b0c-bbff-d294318d3d9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Guardian
@@ -401,7 +488,9 @@
   > {1}{W}{W}: Target creature you control gains protection from the color of your choice until end of turn.
   > {1}{U}{U}: This creature gains shroud until end of turn. (It can't be the target of spells or abilities.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28891 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/230/armored-guardian) · oracle_id `46752289-01e8-4839-8889-49db1efd2e1a` · printing: INV #230 (2000-10-02) · [rulings](https://api.scryfall.com/cards/6de5e1bd-1d31-4f9f-b18d-d6f49bc7ef10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can activate the ability that grants shroud in response to this card being targeted by a spell or ability. If you do so, then (if this is the spell or abilities only target) the spell or ability won't resolve since this card will now be an illegal target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/230/armored-guardian) · oracle_id `46752289-01e8-4839-8889-49db1efd2e1a` · printing: INV #230 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Kincaller
 
@@ -414,7 +503,9 @@
   > *"She's devoted to protecting her herd. We're just lucky she considers us part of it."*
   > *—Huatli*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/174/armored-kincaller) · oracle_id `6aad6906-96ec-4994-bfc3-9a76f893bc8c` · printing: LCI #174 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b76a46a1-a63e-460a-98c5-699dd1c827aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Whether or not you control another Dinosaur is checked only as Armored Kincaller's ability is resolving. It doesn't matter if you still control Armored Kincaller at the time, or if it's still a Dinosaur.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/174/armored-kincaller) · oracle_id `6aad6906-96ec-4994-bfc3-9a76f893bc8c` · printing: LCI #174 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Pegasus
 
@@ -428,6 +519,7 @@
   > *—Tahli \*en\*-Dal, bounty hunter*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25295 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/5/armored-pegasus) · oracle_id `f097a059-5505-4c3c-b879-7853ab6972ed` · printing: TPR #5 (2015-05-06) · [rulings](https://api.scryfall.com/cards/44bafa45-f26e-4c1a-be23-e0469bfa3bb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Scrapgorger
@@ -442,7 +534,10 @@
 - **Flavor text** (ONE printing):
   > *"Eat. Sort. Eat. Sort. Eat."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/158/armored-scrapgorger) · oracle_id `0d3a4db2-df79-4946-8f87-b174cf9c293c` · printing: ONE #158 (2023-02-10) · [rulings](https://api.scryfall.com/cards/61e220d0-38c9-4584-940b-8a9e983ecfe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — Armored Scrapgorger's last ability triggers whenever it becomes tapped for any reason, not just due to its mana ability.
+  - *2023-02-04* — If the card chosen as the target of the last ability is an illegal target as the ability tries to resolve, most likely because it left the graveyard some other way, the ability will fail to resolve and none of its effects will happen. Armored Scrapgorger won't get an oil counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/158/armored-scrapgorger) · oracle_id `0d3a4db2-df79-4946-8f87-b174cf9c293c` · printing: ONE #158 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Skaab
 
@@ -455,7 +550,9 @@
   > *Literally made for battle.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22091 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/43/armored-skaab) · oracle_id `74d85903-6404-41d9-bc00-81c6b2f61bb0` · printing: ISD #43 (2011-09-30) · [rulings](https://api.scryfall.com/cards/ce4d00f2-30e6-41d5-b997-c66350fe783c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If you have fewer than four cards in your library when Armored Skaab enters, you'll put all of them into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/43/armored-skaab) · oracle_id `74d85903-6404-41d9-bc00-81c6b2f61bb0` · printing: ISD #43 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Skyhunter
 
@@ -467,7 +564,9 @@
   > Whenever this creature attacks, look at the top six cards of your library. You may put an Aura or Equipment card from among them onto the battlefield. If an Equipment is put onto the battlefield this way, you may attach it to a creature you control. Put the rest of those cards on the bottom of your library in a random order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/138/armored-skyhunter) · oracle_id `b4dbbf56-d7df-4183-bb48-cfc6b4d0468f` · printing: SOC #138 (2026-04-24) · [rulings](https://api.scryfall.com/cards/707e9d2e-3934-4b90-878d-4699ac1cbe89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, you can't choose to put it onto the battlefield at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/138/armored-skyhunter) · oracle_id `b4dbbf56-d7df-4183-bb48-cfc6b4d0468f` · printing: SOC #138 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Transport
 
@@ -480,6 +579,7 @@
   > *"If only our jails were as secure."*
   > *—Arrester Lavinia, Tenth Precinct*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22458 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/226/armored-transport) · oracle_id `0caae56e-5995-4f1b-b735-80580a372707` · printing: GTC #226 (2013-02-01) · [rulings](https://api.scryfall.com/cards/f8cf8f6c-217e-4d51-aa63-859c2d38d438/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Warhorse
@@ -493,6 +593,7 @@
   > *"When we of the Northern Verge claim a mount, no peasant's nag will do. It must be as strong as our virtue, and must join us of its own will."*
   > *—Sarlena, paladin of the Northern Verge*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/7/armored-warhorse) · oracle_id `29233aa4-3fa0-4074-ad0f-c8e7101052f3` · printing: M12 #7 (2011-07-15) · [rulings](https://api.scryfall.com/cards/52daf505-d436-4ea6-a157-4268af2ff7a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Whirl Turtle
@@ -505,6 +606,7 @@
 - **Flavor text** (GS1 printing):
   > *Not all enormous beasts are quick to anger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24185 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/7/armored-whirl-turtle) · oracle_id `51a886f2-9b0a-4964-9d59-99dc1a68a97c` · printing: GS1 #7 (2018-06-22) · [rulings](https://api.scryfall.com/cards/fcc87fdf-6473-4b91-a8b9-2986e57dc071/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armored Wolf-Rider
@@ -517,6 +619,7 @@
 - **Flavor text** (DGM printing):
   > *Wolf-riders of Selesnya apprentice from a young age. Each rider raises a wolf pup from birth to serve as a mount, hoping that one day the two will share the honor of guarding the Great Concourse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21712 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/52/armored-wolf-rider) · oracle_id `e0965cd1-18fa-4ccc-8c5f-1414c6567d67` · printing: DGM #52 (2013-05-03) · [rulings](https://api.scryfall.com/cards/e43d959f-6055-4578-a69a-0ec93e993e21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armorer Guildmage
@@ -531,6 +634,7 @@
   > *Zhalfir's destiny rings in tempered steel.*
   > *—Armorer Guild maxim*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/156/armorer-guildmage) · oracle_id `7b75b74c-6003-4b34-bae3-2c9e2f880042` · printing: MIR #156 (1996-10-08) · [rulings](https://api.scryfall.com/cards/e999fdc3-9269-44d7-9015-e16f5e5b73eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor of Faith
@@ -546,6 +650,7 @@
   > *—Halvor Arenson, Kjeldoran priest*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25466 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/4/armor-of-faith) · oracle_id `1c482b20-b423-48ef-b162-53960d43b4f7` · printing: ME2 #4 (2008-09-22) · [rulings](https://api.scryfall.com/cards/4b2a5df9-cec9-4f93-b0e3-d6181eb893b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor of Shadows
@@ -558,6 +663,7 @@
   > *"What's softer than silk, stronger than steel, and quieter than thought?"*
   > *—Warlock riddle*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6406 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/112/armor-of-shadows) · oracle_id `64de050c-7167-4ebd-8584-f064d8be3302` · printing: CLB #112 (2022-06-10) · [rulings](https://api.scryfall.com/cards/32f5d5be-777f-4e7b-b18c-ce4a9cedb7d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor of Thorns
@@ -570,7 +676,9 @@
   > Enchanted creature gets +2/+2.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/194/armor-of-thorns) · oracle_id `31ead5a5-aa01-4601-8d3e-267b65fce3bb` · printing: VMA #194 (2014-06-16) · [rulings](https://api.scryfall.com/cards/c32d3e47-8c7c-4bfd-8b3a-b0751d68dc42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/194/armor-of-thorns) · oracle_id `31ead5a5-aa01-4601-8d3e-267b65fce3bb` · printing: VMA #194 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor Sliver
 
@@ -583,7 +691,10 @@
   > *Hanna: "We must learn how they protect each other."*
   > *Mirri: "After they're done trying to kill us, all right?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/4/armor-sliver) · oracle_id `c284b1fd-f238-478a-bcf1-c4b8f32f11f3` · printing: TPR #4 (2015-05-06) · [rulings](https://api.scryfall.com/cards/0fc72398-e594-4849-9dea-fc0eed82f26a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/4/armor-sliver) · oracle_id `c284b1fd-f238-478a-bcf1-c4b8f32f11f3` · printing: TPR #4 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor Thrull
 
@@ -596,6 +707,7 @@
   > *"The worst thing about being a mercenary for the Ebon Hand is having to wear a dead thrull."*
   > *—Ivra Jursdotter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27186 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/77/armor-thrull) · oracle_id `35453c9e-e1ae-4fe9-926d-75724deb0555` · printing: ME2 #77 (2008-09-22) · [rulings](https://api.scryfall.com/cards/fcd8c672-85f7-4bec-9297-7d253419eaa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armor Wars
@@ -608,6 +720,7 @@
   > II — Artifact spells you cast this turn cost {1} less to cast.
   > III — This Saga deals X damage to target opponent, where X is the greatest mana value among artifacts you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13060 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/203/armor-wars) · oracle_id `1ad83cac-2c85-477b-ab00-1369f9683db5` · printing: MSH #203 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11a13397-1d31-4257-87c2-a757a751c601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Automaton
@@ -620,7 +733,14 @@
 - **Flavor text** (C16 printing):
   > *With no flesh to tire or resolve to falter, the machines soon became the Academy's preferred trainers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7030 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/51/armory-automaton) · oracle_id `fa3335be-80b1-49d7-9809-5bef13be79f4` · printing: C16 #51 (2016-11-11) · [rulings](https://api.scryfall.com/cards/cc0be4ff-c346-4c22-8357-9a2383a53469/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-11-08* — An ability of an Equipment that triggers "whenever equipped creature attacks" triggers only if the Equipment was attached to a creature at the moment that creature was declared as an attacker, and any references to "that creature" in the effect refer to the creature the Equipment was attached to when the ability triggered.
+  - *2016-11-08* — Armory Automaton's ability can cause an Equipment one player controls to become attached to a creature another player controls. The controller of the Equipment can pay the equip cost to attach that Equipment to a creature they control, but only any time that player could cast a sorcery. The controller of Armory Automaton can't activate equip abilities of Equipment they don't control.
+  - *2016-11-08* — If Armory Automaton leaves the battlefield before its ability resolves, nothing happens to any of the Equipment it targeted. If they were already attached to other creatures, they remain attached to those creatures.
+  - *2016-11-08* — If an Equipment an opponent controls is attached to a creature you control, any ability of that Equipment that says "you" refers to that opponent. However, if the Equipment says that the equipped creature has an ability, the word "you" in that ability refers to you, the controller of the creature.
+  - *2016-11-08* — The triggered ability triggers both when Armory Automaton enters the battlefield and whenever it attacks. You don't have to choose only one.
+  - *2016-11-08* — You can choose to target no Equipment if you don't want to attach any to Armory Automaton. Because the ability is optional, you also don't have to attach the Equipment it targets as you resolve the ability. However, you must either attach all of the target Equipment or attach none of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/51/armory-automaton) · oracle_id `fa3335be-80b1-49d7-9809-5bef13be79f4` · printing: C16 #51 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Guard
 
@@ -632,7 +752,9 @@
 - **Flavor text** (RVR printing):
   > *The Dimir agents watched from the shadows. "Eight hours, and I've yet to see him blink," Nefara hissed. "I suggest we find another way in."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/3/armory-guard) · oracle_id `96c67950-df59-430c-94fd-234086c6c8f2` · printing: RVR #3 (2024-01-12) · [rulings](https://api.scryfall.com/cards/322fdd11-7874-46f6-adc5-051119a6c978/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Vigilance only matters when Armory Guard is being declared as an attacking creature. If Armory Guard is already attacking, losing control of your only Gate won’t cause Armory Guard to become tapped or to leave combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/3/armory-guard) · oracle_id `96c67950-df59-430c-94fd-234086c6c8f2` · printing: RVR #3 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Mice
 
@@ -645,7 +767,13 @@
   > *They help ensure that the forges of the dwarves are always squeaky clean.*
 - **Keywords:** Celebration
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/3/armory-mice) · oracle_id `68f7d1bf-48c7-483e-b17f-a60008854b46` · printing: WOE #3 (2023-09-08) · [rulings](https://api.scryfall.com/cards/4b041949-6fb6-40a6-9329-f209be537219/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Celebration abilities only care if two or more nonland permanents entered the battlefield under your control in a turn. They won't get more powerful if more than two permanents entered the battlefield under your control in a turn.
+  - *2023-09-01* — Each celebration ability has a different effect.
+  - *2023-09-01* — Others are static abilities that give creatures abilities or power and toughness increases as long as two or more nonland permanents entered the battlefield under your control that turn.
+  - *2023-09-01* — Some celebration abilities trigger at specific parts of the turn and check whether two or more nonland permanents entered the battlefield under your control already in that turn.
+  - *2023-09-01* — The permanents that entered the battlefield don't need to remain on the battlefield or under your control. Celebration abilities are checking for past events, not the current game state.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/3/armory-mice) · oracle_id `68f7d1bf-48c7-483e-b17f-a60008854b46` · printing: WOE #3 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory of Iroas
 
@@ -658,7 +786,10 @@
   > *Each weapon is as unique as the champion who carried it to battle.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8017 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/299/armory-of-iroas) · oracle_id `7ac1aab0-9d2d-4fb7-b0bb-0af3e6d665db` · printing: CMR #299 (2020-11-20) · [rulings](https://api.scryfall.com/cards/703a03ac-5bb5-4e36-ab9b-a5c007ffc03d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — If you move Armory of Iroas from one creature to another, any +1/+1 counters on the first creature remain where they are.
+  - *2020-11-10* — The +1/+1 counter is put on the equipped creature before combat damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/299/armory-of-iroas) · oracle_id `7ac1aab0-9d2d-4fb7-b0bb-0af3e6d665db` · printing: CMR #299 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Paladin
 
@@ -672,7 +803,11 @@
   > *"Ad victoriam!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/93/armory-paladin) · oracle_id `360f7bfd-3b4c-4e87-a251-fd55c8a62320` · printing: PIP #93 (2024-03-08) · [rulings](https://api.scryfall.com/cards/4e5ffa95-5c5f-449b-820a-7d5bc1688d29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-03-08* — If the card exiled with Armory Paladin’s last ability is an Aura or Equipment card, casting it will cause Armory Paladin’s last ability to trigger again.
+  - *2024-03-08* — Once Armory Paladin’s last ability resolves, it doesn’t matter what happens to Armory Paladin after that. You’ll still be able to play the exiled card until the end of your next turn.
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for a card played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/93/armory-paladin) · oracle_id `360f7bfd-3b4c-4e87-a251-fd55c8a62320` · printing: PIP #93 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Armory Veteran
 
@@ -684,6 +819,7 @@
 - **Flavor text** (AFR printing):
   > *"This one is for goblins, this one is for owlbears, this one is for toast, this one is for . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24627 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/130/armory-veteran) · oracle_id `2b51bbb3-1514-4a79-861f-b9cec9f0ec1b` · printing: AFR #130 (2021-07-23) · [rulings](https://api.scryfall.com/cards/4177f57e-c239-47e8-ae50-5f593f6d54ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arms Dealer
@@ -697,7 +833,9 @@
   > *"Guaranteed to leave your enemies sufficiently stabbed, bitten, cleaved, or exploded."*
   > *—Grezkrick's Emporium motto*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/120/arms-dealer) · oracle_id `8ebc4198-7317-4ffb-b8b8-14733c2077ff` · printing: M13 #120 (2012-07-13) · [rulings](https://api.scryfall.com/cards/910d3c33-8cda-487b-8b44-87a9d06d6749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — You can sacrifice Arms Dealer to activate its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/120/arms-dealer) · oracle_id `8ebc4198-7317-4ffb-b8b8-14733c2077ff` · printing: M13 #120 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arms Depot
 
@@ -706,7 +844,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, put two +1/+1 counters on target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/169/arms-depot) · oracle_id `c084930c-ce06-4c6c-93bd-59e92372e3ae` · printing: UST #169 (2017-12-08) · [rulings](https://api.scryfall.com/cards/8277ff56-067f-49dc-8f83-b9fe7b37990f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/169/arms-depot) · oracle_id `c084930c-ce06-4c6c-93bd-59e92372e3ae` · printing: UST #169 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arms of Hadar
 
@@ -717,6 +868,7 @@
 - **Flavor text** (CLB printing):
   > *Burning slowly into annihilation, the elder evil Hadar grants fearsome powers to warlocks willing to help satiate its dark hunger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20610 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/113/arms-of-hadar) · oracle_id `c15e5cb8-b94c-4157-9327-410e66606b82` · printing: CLB #113 (2022-06-10) · [rulings](https://api.scryfall.com/cards/db1fd431-8f6d-4ca5-bc0c-53881c500da1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arms Race
@@ -728,7 +880,9 @@
 - **Flavor text** (BRO printing):
   > *"You want it good, fast, or cheap? You can't have all three."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/126/arms-race) · oracle_id `e801c5bd-68e6-4a74-bed3-addd18db3b2b` · printing: BRO #126 (2022-11-18) · [rulings](https://api.scryfall.com/cards/cd83b2c3-bb06-42db-83bf-8903a126512c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You sacrifice the artifact only if you still control it at the beginning of the next end step. If that artifact has left the battlefield, even if it later came back, you don't sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/126/arms-race) · oracle_id `e801c5bd-68e6-4a74-bed3-addd18db3b2b` · printing: BRO #126 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arm the Cathars
 
@@ -739,7 +893,9 @@
 - **Flavor text** (VOW printing):
   > *Faith is a cathar's greatest weapon, but a sword of blessed silver is a close second.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/3/arm-the-cathars) · oracle_id `c6a1a91f-46b9-4e41-a3d3-3423b02c42a5` · printing: VOW #3 (2021-11-19) · [rulings](https://api.scryfall.com/cards/2004a20c-e434-4691-8ef2-740846ce6a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If you choose three targets as you cast Arm the Cathars, all three targets must be different creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/3/arm-the-cathars) · oracle_id `c6a1a91f-46b9-4e41-a3d3-3423b02c42a5` · printing: VOW #3 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arm with Aether
 
@@ -750,7 +906,12 @@
 - **Flavor text** (NPH printing):
   > *"Anything we can do to hurt the Phyrexian invaders is worth dying for."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/28/arm-with-aether) · oracle_id `e6479195-cbdf-4d2b-9f45-5fd0a6ab4a77` · printing: NPH #28 (2011-05-13) · [rulings](https://api.scryfall.com/cards/a0878b20-315d-49fa-a4d7-232ba1ed6b0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-06-01* — In a multiplayer game, if an affected creature deals damage to two of your opponents simultaneously, the ability will trigger twice.
+  - *2011-06-01* — Only creatures you control on the battlefield when Arm with Aether resolves gain the ability. Creatures you gain control of later in the turn won’t be affected.
+  - *2011-06-01* — The affected creatures keep the ability even if another player gains control of them that turn. If such a creature deals damage to you, the ability will trigger, targeting a creature you control.
+  - *2011-06-01* — The granted ability triggers on all damage dealt by the creature to one of your opponents, not just combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/28/arm-with-aether) · oracle_id `e6479195-cbdf-4d2b-9f45-5fd0a6ab4a77` · printing: NPH #28 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Army Ants
 
@@ -763,6 +924,7 @@
   > *"Do not underestimate the power of many against one."*
   > *—Sidar Jabari*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21221 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/126/army-ants) · oracle_id `c39112ab-ee1f-4f00-b18b-692b5fe32b80` · printing: VIS #126 (1997-02-03) · [rulings](https://api.scryfall.com/cards/7e129be5-e2c5-4f69-b8e8-539ac2085c7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Army of Allah
@@ -774,6 +936,7 @@
 - **Flavor text** (ARN printing):
   > *On the day of victory no one is tired. —Arab proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/2/army-of-allah) · oracle_id `3483946d-8645-4c22-b0ba-a65a44456324` · printing: ARN #2 (1993-12-17) · [rulings](https://api.scryfall.com/cards/3d170015-b125-49a6-a15e-8fd116bbcb14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Army of the Damned
@@ -787,4 +950,11 @@
   > *Sometimes death comes knocking. Sometimes it tears down the walls.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/242/army-of-the-damned) · oracle_id `75d667ec-86f4-4850-a3b6-e7a9fc7053b0` · printing: NCC #242 (2022-04-29) · [rulings](https://api.scryfall.com/cards/bf818314-1eb4-48da-8e6f-ff7b89873b63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/242/army-of-the-damned) · oracle_id `75d667ec-86f4-4850-a3b6-e7a9fc7053b0` · printing: NCC #242 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

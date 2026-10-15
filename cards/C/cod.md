@@ -28,7 +28,9 @@
   > *Even across the Edge, a dog is still a dog.*
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/50/codecracker-hound) · oracle_id `ae791b61-5825-4987-a8c2-80813758d3f7` · printing: EOE #50 (2025-08-01) · [rulings](https://api.scryfall.com/cards/6723b891-6013-4ec6-b439-2233d270dc48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If there’s only one card in your library as Codecracker Hound’s first ability resolves, you’ll put that card into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/50/codecracker-hound) · oracle_id `ae791b61-5825-4987-a8c2-80813758d3f7` · printing: EOE #50 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Code of Constraint
 
@@ -40,7 +42,12 @@
   > Addendum — If you cast this spell during your main phase, tap that creature and it doesn't untap during its controller's next untap step.
 - **Keywords:** Addendum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/83/code-of-constraint) · oracle_id `b2f83483-24a4-45db-a04e-42ff732ca98a` · printing: CLU #83 (2024-02-23) · [rulings](https://api.scryfall.com/cards/14648a6c-49ee-48d3-a83e-a68225d843bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-01-25* — Code of Constraint can target a creature that's already tapped. If you cast it during your main phase, that creature won't untap during its controller's next untap step.
+  - *2019-01-25* — If the target creature is an illegal target by the time Code of Constraint tries to resolve, the spell doesn't resolve. You don't draw a card.
+  - *2024-01-12* — Addendum abilities of instant spells apply while the spell is resolving, not immediately after casting it. If the spell is countered, you don't get the addendum bonus.
+  - *2024-01-12* — If an effect copies a spell with an addendum ability while it's on the stack, the copy wasn't cast at all, so you won't get the addendum bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/83/code-of-constraint) · oracle_id `b2f83483-24a4-45db-a04e-42ff732ca98a` · printing: CLU #83 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codespell Cleric
 
@@ -54,6 +61,7 @@
   > *"Today we are not Beskir or Tuskeri. We must fight as one clan, shoulder to shoulder, to defend our rightful home!"*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24157 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/7/codespell-cleric) · oracle_id `4388af80-118f-4bf4-8fd7-e68c58398ee8` · printing: KHM #7 (2021-02-05) · [rulings](https://api.scryfall.com/cards/1316a74e-da55-4668-87f2-98389a90a2a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codex Shredder
@@ -65,7 +73,9 @@
   > {5}, {T}, Sacrifice this artifact: Return target card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/304/codex-shredder) · oracle_id `ef7b11ab-24e7-4e7c-91a7-920bade6e60b` · printing: CMR #304 (2020-11-20) · [rulings](https://api.scryfall.com/cards/4f5a3293-f3e7-4f68-af6a-b478959226c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — You choose the target of Codex Shredder's last ability before paying its costs, so you can't return Codex Shredder to your hand this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/304/codex-shredder) · oracle_id `ef7b11ab-24e7-4e7c-91a7-920bade6e60b` · printing: CMR #304 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codie, Ravenous Codex
 
@@ -79,7 +89,23 @@
   > *A font of knowledge for those able to read more than a page of hexed words.*
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17663 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/168/codie-ravenous-codex) · oracle_id `a17e414c-8de0-47fd-bcbc-540c7fec7642` · printing: FRA #168 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c3192390-1518-49fc-8716-f2c7a0384f39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/168/codie-ravenous-codex) · oracle_id `a17e414c-8de0-47fd-bcbc-540c7fec7642` · printing: FRA #168 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codie, Vociferous Codex
 
@@ -90,7 +116,19 @@
   > You can't cast permanent spells.
   > {4}, {T}: Add {W}{U}{B}{R}{G}. When you next cast a spell this turn, exile cards from the top of your library until you exile an instant or sorcery card with lesser mana value. Until end of turn, you may cast that card without paying its mana cost. Put each other card exiled this way on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11822 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/253/codie-vociferous-codex) · oracle_id `67a9357c-4713-4e01-a60d-532bf0dd80b6` · printing: STX #253 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ea476ee1-67d9-4dd8-a5ac-f68a155eb18b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-04-16* — A permanent spell is an artifact, creature, enchantment, or planeswalker spell. You may still play lands and cast instant and sorcery spells. Other effects can still put permanents onto the battlefield.
+  - *2021-04-16* — Codie’s activated ability is a mana ability. It can’t be countered or responded to, and you can activate it while casting a spell. If you do, that spell is “the next spell” you cast this turn.
+  - *2021-04-16* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-04-16* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2021-04-16* — If you exile your entire library without exiling an instant or sorcery card with a lesser mana value, you will randomize the exiled cards and they again become your library, ending the effect. You will not continue to exile and shuffle your library forever.
+  - *2021-04-16* — The delayed triggered ability created by Codie’s second ability will resolve before the spell that caused it to trigger. That ability will resolve even if the spell is countered or otherwise doesn’t resolve.
+  - *2021-04-16* — The last card exiled is not cast immediately. You may cast it until the end of the current turn. If you do not cast it, that card will remain in exile.
+  - *2021-04-16* — The mana value of the spell that caused the ability to trigger is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-04-16* — The types and mana value of a double-faced card in exile are determined by the characteristics of its front face. The mana value of a split card is the total mana value of both halves of the split card added together.
+  - *2021-04-16* — While you control Codie (as much as anyone can really “control” Codie), you may cast any face of a modal double-faced card that’s an instant or sorcery face, even if the other face is a permanent face.
+  - *2021-04-16* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/253/codie-vociferous-codex) · oracle_id `67a9357c-4713-4e01-a60d-532bf0dd80b6` · printing: STX #253 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codsworth, Handy Helper
 
@@ -104,4 +142,10 @@
 - **Flavor text** (PIP printing):
   > *"Proud to serve!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1550 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/14/codsworth-handy-helper) · oracle_id `f496ff42-3644-494a-9f21-27f781ee880b` · printing: PIP #14 (2024-03-08) · [rulings](https://api.scryfall.com/cards/bbdfbd21-61b1-4ebd-8d37-bce2a391a7e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — As Codsworth’s last ability resolves, if the target Aura or Equipment can’t legally be attached to the target creature (for example, because the creature has protection from enchantments or protection from artifacts), the target Aura or Equipment won’t move.
+  - *2024-03-08* — If either target of Codsworth’s last ability is an illegal target as the ability resolves, the ability won’t do anything. If both targets are illegal, the ability won’t resolve. If the target Aura or Equipment is already attached to the target creature, nothing happens.
+  - *2024-03-08* — Once a commander’s ward ability has triggered, causing that commander to lose ward by removing Codsworth won’t affect the ability. The appropriate player will still have to pay {2} or see their spell or ability countered.
+  - *2024-03-08* — The Aura or Equipment you target with Codsworth’s last ability doesn’t have to be attached to a creature you control when you target it. You just have to control the Aura or Equipment you’re targeting as well as the creature you’re targeting.
+  - *2024-03-08* — You can’t spend mana generated by Codsworth’s second ability to activate abilities of Auras or Equipment. This includes paying equip costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/14/codsworth-handy-helper) · oracle_id `f496ff42-3644-494a-9f21-27f781ee880b` · printing: PIP #14 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

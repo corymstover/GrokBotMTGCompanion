@@ -22,7 +22,16 @@
   > When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying.
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/185/maverick-thopterist) · oracle_id `71ba6f1b-2fa6-4d4c-8778-f0765b1a5d8e` · printing: C18 #185 (2018-08-10) · [rulings](https://api.scryfall.com/cards/28eb8ef1-5feb-4af1-bc39-dda5ba69546d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
+  - *2018-07-13* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2018-07-13* — Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
+  - *2018-07-13* — Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
+  - *2018-07-13* — Improvise doesn't change a spell's mana cost or mana value.
+  - *2018-07-13* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+  - *2018-07-13* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+  - *2018-07-13* — When using improvise to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you cast Saheeli's Directive and choose X to be 3, the total cost is {3}{R}{R}{R}. If you tap two artifacts, you'll have to pay {1}{R}{R}{R}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/185/maverick-thopterist) · oracle_id `71ba6f1b-2fa6-4d4c-8778-f0765b1a5d8e` · printing: C18 #185 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mavinda, Students' Advocate
 
@@ -34,6 +43,7 @@
   > {0}: You may cast target instant or sorcery card from your graveyard this turn. If that spell doesn't target a creature you control, it costs {8} more to cast this way. If that spell would be put into your graveyard, exile it instead. Activate only once each turn. (You still pay the spell's costs. Timing rules for the spell still apply.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10501 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/21/mavinda-students-advocate) · oracle_id `1c248187-0be3-4a03-a817-14f68f638ae7` · printing: STX #21 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8b3d521f-31cd-4bd2-b6b6-771c79252789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mavren Fein, Dusk Apostle
@@ -46,4 +56,6 @@
 - **Flavor text** (LCC printing):
   > *In the rapture of his Blood Fast, he destroyed the navigator's tools and steered the ship to shore by faith alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3857 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle) · oracle_id `1b94a11b-21b0-4465-a520-69608f022fb4` · printing: LCC #133 (2023-11-17) · [rulings](https://api.scryfall.com/cards/fdc3e998-760b-41ca-9f92-270aaa82f3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Once you attack with one or more nontoken Vampires, Mavren Fein's ability will create a Vampire token even if some or all of those Vampires leave the battlefield or are removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/133/mavren-fein-dusk-apostle) · oracle_id `1b94a11b-21b0-4465-a520-69608f022fb4` · printing: LCC #133 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

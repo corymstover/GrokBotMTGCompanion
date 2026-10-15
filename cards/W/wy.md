@@ -29,6 +29,7 @@
   > *In a world of bright, cloudless skies, she is the dark storm on the horizon.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18027 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/235/wydwen-the-biting-gale) · oracle_id `7891ec87-8d1c-42fc-b00a-4c64ee5edbff` · printing: C20 #235 (2020-04-17) · [rulings](https://api.scryfall.com/cards/62b8f8e9-a2b0-41c5-9fae-340f7caaeff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyleth, Soul of Steel
@@ -43,7 +44,9 @@
   > *"Two things a warrior needs: a strong sword and a strong will."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6998 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/362/wyleth-soul-of-steel) · oracle_id `35bef4d3-4473-4265-86b0-f1393c82fd1d` · printing: CMR #362 (2020-11-20) · [rulings](https://api.scryfall.com/cards/7c5ada8c-98f2-4f9c-bcb5-dfa4f804fbe6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — The number of Auras and Equipment attached to Wyleth is determined as its triggered ability resolves. If Wyleth is no longer on the battlefield at that time, its last existence on the battlefield is checked to determine the number of Auras and Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/362/wyleth-soul-of-steel) · oracle_id `35bef4d3-4473-4265-86b0-f1393c82fd1d` · printing: CMR #362 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wylie Duke, Atiin Hero
 
@@ -57,6 +60,7 @@
   > *"I've seen a fair few worlds in my travels, and there's always some lowlife looking to prey on the innocent. That's where I come in."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7984 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/239/wylie-duke-atiin-hero) · oracle_id `b3ac27d6-7e18-404d-9af2-b03897a5f1d9` · printing: OTJ #239 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bc97ffcf-4f51-44cd-8daa-a7dae4592ee5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyll, Blade of Frontiers
@@ -70,7 +74,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4264 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/208/wyll-blade-of-frontiers) · oracle_id `4fb254cf-b60c-4a3e-b753-4213cb572837` · printing: CLB #208 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5e9d4562-964d-48ce-b03f-7cb491fa040d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/208/wyll-blade-of-frontiers) · oracle_id `4fb254cf-b60c-4a3e-b753-4213cb572837` · printing: CLB #208 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyll's Reversal
 
@@ -81,7 +96,14 @@
   > 1—14 | You may choose new targets for that spell or ability.
   > 15+ | You may choose new targets for that spell or ability. Then copy it. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/209/wylls-reversal) · oracle_id `8d35cef8-a52d-45fb-8f5f-cccea26826d0` · printing: CLB #209 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3d8df219-1da0-4311-b9bb-c74b5fa55293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-06-10* — Even though you do not gain control of the original spell or ability, you control the copy. That copy is created on the stack, so it isn't "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell or ability, after players get a chance to cast spells and activate abilities. The copy will resolve before the original spell or ability.
+  - *2022-06-10* — If the spell is a permanent spell with a target (such as an Aura spell), and you create a copy of it, the copy will become a token that you control. Because the spell becomes a token, the token isn't "created." Effects that care about a token being created won't interact with a token that enters the battlefield because Wyll's Reversal copied a permanent spell.
+  - *2022-06-10* — If the target spell or ability has an X whose value was determined as it was cast, activated, or put on the stack (like Fireball does), the copy has the same value of X.
+  - *2022-06-10* — If the target spell or ability is modal (that is, it has a bulleted list of choices), the copy will have the same mode(s). You can't choose different ones.
+  - *2022-06-10* — The copy will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2022-06-10* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell or ability are copied as though those same costs were paid for the copy. For example, if you sacrifice a 3/3 creature to cast Fling and then copy it with Wyll's Reversal, the copy of Fling will also deal 3 damage to its target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/209/wylls-reversal) · oracle_id `8d35cef8-a52d-45fb-8f5f-cccea26826d0` · printing: CLB #209 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyluli Wolf
 
@@ -94,6 +116,7 @@
   > *"When one wolf calls, others follow. Who wants to fight creatures that eat scorpions?"*
   > *—Maimun al-Wyluli, diary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/139/wyluli-wolf) · oracle_id `00185f3b-2777-4417-a8e0-4691f41c0ec1` · printing: ME1 #139 (2007-09-10) · [rulings](https://api.scryfall.com/cards/3c97d419-6fee-4a32-9e64-8a827da59934/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wyrm's Crossing Patrol
@@ -105,4 +128,13 @@
   > Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Keywords:** Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/51/wyrms-crossing-patrol) · oracle_id `fad2d14f-8825-4b08-8804-010d9659f6dc` · printing: CLB #51 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f00a57fc-b4a6-48fa-a20c-864c10099e4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-06-10* —  You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it's attacking a planeswalker, you choose which one.
+  - *2022-06-10* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2022-06-10* — Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.
+  - *2022-06-10* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2022-06-10* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking or the controller of the planeswalker it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the player it was last attacking or the controller of the planeswalker it was last attacking.
+  - *2022-06-10* — The tokens all enter the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/51/wyrms-crossing-patrol) · oracle_id `fad2d14f-8825-4b08-8804-010d9659f6dc` · printing: CLB #51 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -42,6 +42,7 @@
   > *Not all humans fear the unknown. The Earth Protection Force specializes in teaching the unknown to fear them instead.*
 - **Keywords:** Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/145/epf-point-squad) · oracle_id `2dea1935-c227-46d5-9d98-e7d2cd612f98` · printing: TMT #145 (2026-03-06) · [rulings](https://api.scryfall.com/cards/faab52c0-ce79-40af-a156-b193a62d439e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara, God of the Polis
@@ -55,7 +56,24 @@
   > At the beginning of each upkeep, if you had another creature enter the battlefield under your control last turn, draw a card.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5845 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/145/ephara-god-of-the-polis) · oracle_id `5968ecb5-5728-429f-9324-0c108820ebe8` · printing: BNG #145 (2014-02-07) · [rulings](https://api.scryfall.com/cards/6832e495-7ee9-43e0-94ea-03c88344080e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — Ephara's last ability checks at the beginning of each upkeep whether another creature entered the battlefield under your control last turn. If one did, it will trigger; otherwise, it won't. The ability will trigger only once no matter how many creatures entered the battlefield under your control that turn, as long as at least one did.
+  - *2014-02-01* — If a noncreature permanent you control (such as an Aura with bestow) becomes a creature, it will not cause Ephara's last ability to trigger the following turn. This is true even if that noncreature permanent became a creature the same turn it entered the battlefield.
+  - *2014-02-01* — The last ability will trigger regardless of what has happened to the creature that entered the battlefield on the previous turn. It doesn't matter whether it's still under your control or whether it's still on the battlefield.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/145/ephara-god-of-the-polis) · oracle_id `5968ecb5-5728-429f-9324-0c108820ebe8` · printing: BNG #145 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Dispersal
 
@@ -66,7 +84,11 @@
   > Return target creature to its owner's hand. Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/103/epharas-dispersal) · oracle_id `1e0bb57a-f5c7-45e9-b5b9-5bb3ec930108` · printing: MKC #103 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b622aad1-4f57-472e-9bd8-9404da88d6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — The cost reduction ability of Ephara's Dispersal doesn't affect its mana cost or mana value. It affects only the total cost you pay. Specifically, its mana value is always 3.
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/103/epharas-dispersal) · oracle_id `1e0bb57a-f5c7-45e9-b5b9-5bb3ec930108` · printing: MKC #103 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Enlightenment
 
@@ -79,7 +101,10 @@
   > Whenever a creature you control enters, you may return this Aura to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/146/epharas-enlightenment) · oracle_id `da848568-1c66-4ce1-87f0-a35c317f2c61` · printing: BNG #146 (2014-02-07) · [rulings](https://api.scryfall.com/cards/6e480d04-9a35-463e-928e-8da3556629e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-02-01* — If Ephara's Enlightenment isn't on the battlefield when its enters-the-battlefield ability resolves, put a +1/+1 counter on the creature it was enchanting when it left the battlefield.
+  - *2014-02-01* — The last ability of Ephara's Enlightenment will trigger only if it's on the battlefield when the creature enters the battlefield under your control. You may return it to its owner's hand only if it's still on the battlefield when that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/146/epharas-enlightenment) · oracle_id `da848568-1c66-4ce1-87f0-a35c317f2c61` · printing: BNG #146 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Radiance
 
@@ -93,6 +118,7 @@
   > *—Olexa of the Twelve*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23204 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/9/epharas-radiance) · oracle_id `0870e9f8-9e02-4997-9554-41a4e8eec4cb` · printing: BNG #9 (2014-02-07) · [rulings](https://api.scryfall.com/cards/e0741582-0c7b-4d5b-83a9-dd8862de1f24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephara's Warden
@@ -105,6 +131,7 @@
 - **Flavor text** (THS printing):
   > *"When you threaten the sanctity of the polis, you insult Ephara herself. If she doesn't smite you, I will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29859 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/10/epharas-warden) · oracle_id `805d1f48-dd91-4034-b42c-3f1f1cb75cc9` · printing: THS #10 (2013-09-27) · [rulings](https://api.scryfall.com/cards/71f7f788-2795-46a7-82ae-270f1e9415ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephemeral Shields
@@ -116,7 +143,14 @@
   > Target creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/184/ephemeral-shields) · oracle_id `e1a89535-7126-48e0-b335-b732a677b157` · printing: MOC #184 (2023-04-21) · [rulings](https://api.scryfall.com/cards/60fcd11e-9bc3-4a27-966c-42767bac3223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/184/ephemeral-shields) · oracle_id `e1a89535-7126-48e0-b335-b732a677b157` · printing: MOC #184 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephemerate
 
@@ -127,7 +161,12 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/7/ephemerate) · oracle_id `0fd57894-b917-41c8-a394-360d1d31b236` · printing: MH1 #7 (2019-06-14) · [rulings](https://api.scryfall.com/cards/2da5f3f8-5eef-498f-ba2c-2f3fbc3745aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — Casting the card again due to rebound's delayed triggered ability is optional. If you choose not to cast the card, or if you can't (perhaps because there are no legal targets available), the card will stay exiled. You won't get another chance to cast it on a future turn. If you do cast the card, it's put into its owner's graveyard as normal once it resolves.
+  - *2019-06-14* — If a spell with rebound that you cast from your hand is countered or doesn't resolve (most likely because its targets have become illegal), none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
+  - *2019-06-14* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2019-06-14* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/7/ephemerate) · oracle_id `0fd57894-b917-41c8-a394-360d1d31b236` · printing: MH1 #7 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephemeron
 
@@ -141,6 +180,7 @@
   > *From nothing came teeth.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31624 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/48/ephemeron) · oracle_id `e4f28144-71c8-4393-b383-047529fe8878` · printing: TPR #48 (2015-05-06) · [rulings](https://api.scryfall.com/cards/82ebfe9c-a584-41d2-a33e-7aefbe55de0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Confrontation
@@ -154,7 +194,12 @@
   > *—Mishra, to Urza*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/176/epic-confrontation) · oracle_id `31123cb5-2dd5-4f2b-a2fd-8f87095972c6` · printing: BRO #176 (2022-11-18) · [rulings](https://api.scryfall.com/cards/35ba6c05-a4c2-422b-a4cb-852b3aef77a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-03-16* — If the creature you control is an illegal target as Epic Confrontation tries to resolve, the creature you control won't get +1/+2. If that creature is a legal target but the creature you don't control isn't, your creature will still get +1/+2. In both cases, neither creature will deal or be dealt damage.
+  - *2018-03-16* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
+  - *2022-10-14* — If the creature you control is an illegal target as Epic Confrontation tries to resolve, the creature you control won't get +1/+2. If that creature is a legal target but the creature you don't control isn't, your creature will still get +1/+2. In both cases, neither creature will deal or be dealt damage.
+  - *2022-10-14* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/176/epic-confrontation) · oracle_id `31123cb5-2dd5-4f2b-a2fd-8f87095972c6` · printing: BRO #176 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Downfall
 
@@ -165,7 +210,10 @@
 - **Flavor text** (TLA printing):
   > *With Azula's defeat, all of her nobility, grace, and confidence shattered into harrowing screams from the would-be Fire Lord.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/96/epic-downfall) · oracle_id `ed5d6aba-0b8d-48b3-a84c-618f45fb67b1` · printing: TLA #96 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3b4a6804-04f5-4467-bb1c-9466a47bc55f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2025-10-02* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/96/epic-downfall) · oracle_id `ed5d6aba-0b8d-48b3-a84c-618f45fb67b1` · printing: TLA #96 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epicenter
 
@@ -178,6 +226,7 @@
   > *Sometimes destruction is Dominaria's way of rebuilding. Sometimes it's not.*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16718 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/192/epicenter) · oracle_id `264cb7f6-6d36-4e58-87f4-83ccaa998a32` · printing: ODY #192 (2001-10-01) · [rulings](https://api.scryfall.com/cards/1a9232ae-9f32-4bbc-a020-554b3f9cbbd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Experiment
@@ -187,7 +236,13 @@
 - **Oracle text:**
   > Exile the top X cards of your library. You may cast instant and sorcery spells with mana value X or less from among them without paying their mana costs. Then put all cards exiled this way that weren't cast into your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/222/epic-experiment) · oracle_id `08bc10fd-8901-4836-ad4d-a867e1bcba77` · printing: OTC #222 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d3ad9626-3124-4ad6-9cac-49aa9c3ce88c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-03-19* — If you can't cast a card, perhaps because there are no legal targets available, or if you choose not to cast it, it will be put into your graveyard.
+  - *2021-03-19* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-03-19* — When casting an instant or sorcery card this way, ignore timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this card] only during combat," must be followed.
+  - *2021-03-19* — You cast the cards one at a time, choosing modes, targets, and so on. The last card you cast will be the first one to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/222/epic-experiment) · oracle_id `08bc10fd-8901-4836-ad4d-a867e1bcba77` · printing: OTC #222 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Fight
 
@@ -202,6 +257,7 @@
   > *—Wolverine*
 - **Keywords:** Fight, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/166/epic-fight) · oracle_id `4bdfc580-de51-445b-b170-8c6832e44704` · printing: MSH #166 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d521b80b-4b0b-4d69-bd95-4c83feaf2145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Proportions
@@ -216,6 +272,7 @@
   > *From mite to mighty.*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/142/epic-proportions) · oracle_id `ad8edfdf-6915-4fc2-9226-3aae95951935` · printing: C18 #142 (2018-08-10) · [rulings](https://api.scryfall.com/cards/7412373a-da0f-4bec-866c-5e1087f49914/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Struggle
@@ -228,7 +285,9 @@
   > *"If our foes will not listen to words, perhaps hooves and claws will make them take notice."*
   > *—Seton, centaur druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/112/epic-struggle) · oracle_id `6f34ee2c-6e0b-4c71-9bdd-6ac55a323849` · printing: JUD #112 (2002-05-27) · [rulings](https://api.scryfall.com/cards/0dc71f6f-f831-409e-aafd-3fa82a318e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — To win, you must control 20 or more creatures both at the beginning of upkeep and when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/112/epic-struggle) · oracle_id `6f34ee2c-6e0b-4c71-9bdd-6ac55a323849` · printing: JUD #112 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epicure of Blood
 
@@ -240,7 +299,12 @@
 - **Flavor text** (C21 printing):
   > *"Fleshy, with just a hint of leather. A fine vintage."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7004 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/143/epicure-of-blood) · oracle_id `bdb319a6-a1cd-44f5-999d-af1bb55b2fc4` · printing: C21 #143 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ac79386b-91eb-4813-8f3c-3b74b45be188/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Epicure of Blood's ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2019-07-12* — In a Two-Headed Giant game, Epicure of Blood's ability causes the opposing team to lose 1 life twice.
+  - *2019-07-12* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
+  - *2019-07-12* — The ability of Epicure of Blood triggers just once for each life-gaining event, whether it's 1 life from Impassioned Orator or 4 life from Dawning Angel. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the ability of Epicure of Blood triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/143/epicure-of-blood) · oracle_id `bdb319a6-a1cd-44f5-999d-af1bb55b2fc4` · printing: C21 #143 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epiphany at the Drownyard
 
@@ -252,7 +316,9 @@
   > *"Is this what you found, Tamiyo?"*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/59/epiphany-at-the-drownyard) · oracle_id `33befbd6-56ac-45a7-a4d0-448167162707` · printing: SOI #59 (2016-04-08) · [rulings](https://api.scryfall.com/cards/64b44364-8f83-4dcf-8458-0fd54a698524/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — X can be 0, and piles can be empty. If X is 0, you’ll reveal one card and one pile will be empty. Your opponent may choose the empty pile to put into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/59/epiphany-at-the-drownyard) · oracle_id `33befbd6-56ac-45a7-a4d0-448167162707` · printing: SOI #59 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epiphany Storm
 
@@ -265,6 +331,7 @@
   > *In Meletis, certain oracles are trained to be divine lightning rods, receiving countless visions in an instant.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21252 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/91/epiphany-storm) · oracle_id `833fe5f4-cfab-46ce-a4fe-250673896350` · printing: BNG #91 (2014-02-07) · [rulings](https://api.scryfall.com/cards/dd3a0128-4499-498d-9721-b1fd70ea84b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epistolary Librarian
@@ -278,7 +345,9 @@
   > *"Bolters? Chainswords? All fine weapons, however I wield a far more dangerous power."*
 - **Keywords:** Veil of Time
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/118/epistolary-librarian) · oracle_id `cb4f65b0-2841-42bf-8e18-d04a3b9f1a76` · printing: 40K #118 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c109ab72-2293-4c7e-bc68-62da268d2562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — In Two-Headed giant and other formats where multiple players can attack at the same time, Epistolary Librarian's triggered ability counts all attacking creatures, even those controlled by other players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/118/epistolary-librarian) · oracle_id `cb4f65b0-2841-42bf-8e18-d04a3b9f1a76` · printing: 40K #118 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epitaph Golem
 
@@ -290,6 +359,7 @@
 - **Flavor text** (INR printing):
   > *Many names and many memories bound together in grim purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16558 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/262/epitaph-golem) · oracle_id `e3483dd4-0118-4143-9b55-51078a6f274a` · printing: INR #262 (2025-01-24) · [rulings](https://api.scryfall.com/cards/202125f5-9182-436f-86df-701cdc7e60ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epochrasite
@@ -301,4 +371,20 @@
   > This creature enters with three +1/+1 counters on it if you didn't cast it from your hand.
   > When this creature dies, exile it with three time counters on it and it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may cast this card without paying its mana cost. It has haste.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/187/epochrasite) · oracle_id `54e2d2ff-51d2-48a5-ab2e-7d9de8c78b7e` · printing: CM2 #187 (2018-06-08) · [rulings](https://api.scryfall.com/cards/6d4fafc8-3466-42f7-9d8d-8c6250da7bd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2007-05-01* — Epochrasite will enter with three +1/+1 counters on it if you cast it from a zone other than your hand, or if an effect let you put it directly onto the battlefield.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/187/epochrasite) · oracle_id `54e2d2ff-51d2-48a5-ab2e-7d9de8c78b7e` · printing: CM2 #187 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

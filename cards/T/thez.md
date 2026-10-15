@@ -20,6 +20,7 @@
 - **Oracle text:**
   > As The Zabulous Cosplayer enters and at the beginning of your upkeep, choose a tournament-legal non-Aura permanent card at random. The Zabulous Cosplayer becomes a copy of that card, except it has this ability. (Use the "random card" feature on a Magic card search engine until you hit a permanent card.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04p/the-zabulous-cosplayer) · oracle_id `87b644f5-904b-4917-bb8c-c2c19aa576aa` · printing: UNK #RZ04p (2025-02-21) · [rulings](https://api.scryfall.com/cards/0bfce3f7-3291-4ae7-9205-598a32caecec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Zassacre Zirl
@@ -31,6 +32,7 @@
   > When The Zassacre Zirl enters the battlefield, if you cast them, destroy target commander an opponent controls. If its owner has two or more commanders, that card stops being a commander.
   > Whenever another Commander dies, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB06/the-zassacre-zirl) · oracle_id `089390fe-d521-4d96-8aec-4008a15901f7` · printing: UNK #RB06 (2024-06-29) · [rulings](https://api.scryfall.com/cards/2f7aed04-5bf4-4cd6-a8cb-d31afd8d4753/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Zonian Brawler
@@ -43,4 +45,5 @@
   > Whenever a fighting or biting creature you control deals lethal damage to a creature, create a Food token and draw a card. (Biting is when a creature deals damage equal to its power to another creature.)
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05g/the-zonian-brawler) · oracle_id `6312866b-df78-4a07-8279-0b9a24c051b3` · printing: UNK #RZ05g (2024-10-25) · [rulings](https://api.scryfall.com/cards/988aa1a1-05ea-4952-8234-aa612f38b1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

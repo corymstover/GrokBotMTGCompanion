@@ -46,6 +46,7 @@
 - **Flavor text** (J22 printing):
   > *The blacksmith forgot to feed the forge, so the forge fed itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30125 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/32/coalborn-entity) · oracle_id `49f1dd11-aa10-442d-aaca-dd94d1ca108a` · printing: J22 #32 (2022-12-02) · [rulings](https://api.scryfall.com/cards/4d581e4f-77a7-4ad1-a263-882babffded8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coal Golem
@@ -59,6 +60,7 @@
   > *"Three such creatures stood burning at the crest of the hill. Only seconds later, the fireball struck our front line."*
   > *—Lydia, Countess Brellis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/193/coal-golem) · oracle_id `64b63847-27dd-469b-aad3-58e061f92817` · printing: ME3 #193 (2009-09-07) · [rulings](https://api.scryfall.com/cards/bdc28e20-0e48-4803-a8e2-1c1e8f518d89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalhauler Swine
@@ -71,6 +73,7 @@
 - **Flavor text** (RAV printing):
   > *Nothing stops industry in Ravnica—certainly not the safety of its workers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/119/coalhauler-swine) · oracle_id `c00f082b-787f-4f96-8356-c10d35713bc4` · printing: RAV #119 (2005-10-07) · [rulings](https://api.scryfall.com/cards/bc001cef-3afd-4128-989f-ac99dc76b243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Flag
@@ -83,7 +86,9 @@
   > While an opponent is choosing targets as part of casting a spell they control or activating an ability they control, that player must choose at least one Flagbearer on the battlefield if able.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/2/coalition-flag) · oracle_id `b45a0a2f-39fd-47b9-bc9d-3d4321b377d3` · printing: APC #2 (2001-06-04) · [rulings](https://api.scryfall.com/cards/0e417461-a230-4548-bcc1-71377487f21b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If this card is ever on a creature you don’t control, it is put into the graveyard as a State-Based Action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/2/coalition-flag) · oracle_id `b45a0a2f-39fd-47b9-bc9d-3d4321b377d3` · printing: APC #2 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Honor Guard
 
@@ -95,7 +100,11 @@
 - **Flavor text** (EMA printing):
   > *Giving little thought to their own defense, they carried the flag that united their army.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/6/coalition-honor-guard) · oracle_id `c95cebf7-c28c-4453-b5e4-e895d621f290` · printing: EMA #6 (2016-06-10) · [rulings](https://api.scryfall.com/cards/2c7c2b5c-634a-4d83-81bc-c6128e3ac339/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text. Triggered abilities (written with “when,” “whenever,” or “at”) don’t have to target a Flagbearer.
+  - *2016-06-08* — Any player’s Flagbearer may be targeted. For example, if each player controls a Coalition Honor Guard, Seal of Strength’s ability may target any of them.
+  - *2016-06-08* — If a spell or ability’s targets are changed, or if a copy of a spell or ability is put onto the stack and has new targets chosen, it doesn’t have to target a Flagbearer.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/6/coalition-honor-guard) · oracle_id `c95cebf7-c28c-4453-b5e4-e895d621f290` · printing: EMA #6 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Relic
 
@@ -106,7 +115,10 @@
   > {T}: Put a charge counter on this artifact.
   > At the beginning of your first main phase, remove all charge counters from this artifact. Add one mana of any color for each charge counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/180/coalition-relic) · oracle_id `008cb342-79f5-4df6-a6b7-0e9e22ed693f` · printing: DMC #180 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ef44324a-32bd-47e9-8fd9-258ba668de53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If you remove multiple charge counters from Coalition Relic at once, you may add a different color of mana for each one.
+  - *2021-03-19* — Only the first main phase each turn is considered a precombat main phase, even if additional main phases or combat phases are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/180/coalition-relic) · oracle_id `008cb342-79f5-4df6-a6b7-0e9e22ed693f` · printing: DMC #180 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Skyknight
 
@@ -118,7 +130,12 @@
   > Enlist (As this creature attacks, you may tap a nonattacking creature you control without summoning sickness. When you do, add its power to this creature's until end of turn.)
 - **Keywords:** Enlist, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/14/coalition-skyknight) · oracle_id `dc763f20-73e7-4db7-9e98-6f419b8fba84` · printing: DMU #14 (2022-09-09) · [rulings](https://api.scryfall.com/cards/8b12da45-aff4-406d-83a3-39ecaff6ff56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can’t choose to enlist a creature later.
+  - *2022-09-09* — To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player’s control since the beginning of their current turn.
+  - *2022-09-09* — When a player taps a creature for an attacking creature’s enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature’s power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
+  - *2022-09-09* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can’t be tapped for more than one enlist ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/14/coalition-skyknight) · oracle_id `dc763f20-73e7-4db7-9e98-6f419b8fba84` · printing: DMU #14 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Victory
 
@@ -130,7 +147,9 @@
   > *"You can build a perfect machine out of imperfect parts."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9587 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/91/coalition-victory) · oracle_id `e9e25800-9ee7-40c9-b22d-611c7281c125` · printing: TSB #91 (2006-10-06) · [rulings](https://api.scryfall.com/cards/446824f7-dc42-42da-8bd5-6c37f3358d65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — When Coalition Victory resolves, it checks for the five basic land types (Plains, Island, Swamp, Mountain, Forest) and the five colors (white, blue, black, red, green). If a single land has multiple types and/or a single creature is multiple colors, it will count all those types and/or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/91/coalition-victory) · oracle_id `e9e25800-9ee7-40c9-b22d-611c7281c125` · printing: TSB #91 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Warbrute
 
@@ -144,7 +163,12 @@
   > *Anger is his greatest weapon, and he sharpens it daily.*
 - **Keywords:** Trample, Enlist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/118/coalition-warbrute) · oracle_id `84d67d87-2696-4c2f-9f10-29d5832bfbb6` · printing: DMU #118 (2022-09-09) · [rulings](https://api.scryfall.com/cards/554c422f-2a1b-47c0-9358-42b85cdbb84e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can’t choose to enlist a creature later.
+  - *2022-09-09* — To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player’s control since the beginning of their current turn.
+  - *2022-09-09* — When a player taps a creature for an attacking creature’s enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature’s power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
+  - *2022-09-09* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can’t be tapped for more than one enlist ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/118/coalition-warbrute) · oracle_id `84d67d87-2696-4c2f-9f10-29d5832bfbb6` · printing: DMU #118 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalstoke Gearhulk
 
@@ -156,7 +180,12 @@
   > When this creature enters, put target creature card with mana value 4 or less from a graveyard onto the battlefield under your control with a finality counter on it. That creature gains menace, deathtouch, and haste. At the beginning of your next end step, exile that creature.
 - **Keywords:** Menace, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/198/coalstoke-gearhulk) · oracle_id `2cdbaa4e-8907-49dc-9fa9-0df70db3bf23` · printing: DFT #198 (2025-02-14) · [rulings](https://api.scryfall.com/cards/73431628-b9b0-41e6-8e9b-8a090939b0c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-02-07* — Finality counters aren’t keyword counters, and a finality counter doesn’t give any abilities to the permanent it’s on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-02-07* — Finality counters don’t stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner’s hand from the battlefield, it does so normally.
+  - *2025-02-07* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-02-07* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/198/coalstoke-gearhulk) · oracle_id `2cdbaa4e-8907-49dc-9fa9-0df70db3bf23` · printing: DFT #198 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coal Stoker
 
@@ -169,7 +198,11 @@
   > *"The day is mine! I sent three such creatures against my foe, then watched as my magefire popped her soldiers like overripe spleenfruits."*
   > *—Dobruk the Unstable, pyromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/114/coal-stoker) · oracle_id `7f3f7fb0-da18-467b-bf57-2ded458fda4d` · printing: DMR #114 (2023-01-13) · [rulings](https://api.scryfall.com/cards/67c8578e-052f-4182-9bb1-fb35450d22c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — Coal Stoker's ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2022-12-08* — If a nontoken creature enters the battlefield as a copy of this creature, the copy's enters-the-battlefield ability will still trigger as long as you cast the spell that became that nontoken creature from your hand.
+  - *2022-12-08* — If a token is created that's a copy of Coal Stoker, the token wasn't cast, and Coal Stoker's ability won't trigger. Similarly, if an effect copies Coal Stoker while it's on the stack, the copy becomes a token, but the copy was created on the stack and not cast from your hand, so the ability won't trigger in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/114/coal-stoker) · oracle_id `7f3f7fb0-da18-467b-bf57-2ded458fda4d` · printing: DMR #114 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Breach
 
@@ -182,7 +215,10 @@
   > *The sea filled the villagers' nets until the day it cast its own.*
 - **Keywords:** Undaunted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12839 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/6/coastal-breach) · oracle_id `e42b6bd7-8fdf-4452-85cc-9aed790ff682` · printing: C16 #6 (2016-11-11) · [rulings](https://api.scryfall.com/cards/bf8b550a-c86f-4684-a4f6-14e75172324f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — Causing an opponent to lose the game after you’ve announced that you’re casting a spell with undaunted and determined its total cost won’t cause you to have to pay more mana.
+  - *2016-11-08* — Effects that reduce what you pay to cast a spell don’t affect its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/6/coastal-breach) · oracle_id `e42b6bd7-8fdf-4452-85cc-9aed790ff682` · printing: C16 #6 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Bulwark
 
@@ -195,6 +231,7 @@
   > {2}, {T}: Surveil 1. (Look at the top card of your library. You may put that card into your graveyard.)
 - **Keywords:** Surveil, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/76/coastal-bulwark) · oracle_id `449ed4b4-9e1e-4181-9090-af91802eba49` · printing: BRO #76 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e24567f8-d195-4547-bba4-7a8131dc7889/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Discovery
@@ -206,7 +243,14 @@
   > Awaken 4—{5}{U} (If you cast this spell for {5}{U}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
 - **Keywords:** Awaken
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/73/coastal-discovery) · oracle_id `f7c84690-8c7c-41a6-b430-a9771030f903` · printing: BFZ #73 (2015-10-02) · [rulings](https://api.scryfall.com/cards/c1df2411-0b0d-4b93-bf30-a22487b3c6ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-08-25* — Awaken doesn’t give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2015-08-25* — If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won’t affect the illegal targets in any way.
+  - *2015-08-25* — If the non-awaken part of the spell doesn’t require a target and you cast the spell for its awaken cost, then the spell won’t resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+  - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
+  - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
+  - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/73/coastal-discovery) · oracle_id `f7c84690-8c7c-41a6-b430-a9771030f903` · printing: BFZ #73 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Drake
 
@@ -220,6 +264,7 @@
   > *When the kavu emerged from their ancient nests, food chains long dormant became vibrant again.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31160 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/22/coastal-drake) · oracle_id `d4220231-e9ac-4390-8c7b-979549b26d33` · printing: APC #22 (2001-06-04) · [rulings](https://api.scryfall.com/cards/f87aaa74-26c6-4057-84b9-a007383684a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Hornclaw
@@ -232,6 +277,7 @@
 - **Flavor text** (8ED printing):
   > *Jamuraan farmers fear three things above all else: droughts, floods, and hornclaws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/66/coastal-hornclaw) · oracle_id `27d672a7-f73b-483d-80a3-a4cd2a9855f2` · printing: 8ED #66 (2003-07-28) · [rulings](https://api.scryfall.com/cards/9b152c0d-ba43-49c6-9bb5-1d20a9f411f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Peak
@@ -247,7 +293,9 @@
   > *—Pepper Potts*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4930 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/232/coastal-peak) · oracle_id `0e25faa2-efb0-4ca5-b280-18c38faa860c` · printing: MSC #232 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d2a70a9d-2d9f-4afd-9393-8d6518936ee2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Unlike some other dual lands, Coastal Peak has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Frostboil Snarl.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/232/coastal-peak) · oracle_id `0e25faa2-efb0-4ca5-b280-18c38faa860c` · printing: MSC #232 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Piracy
 
@@ -259,7 +307,9 @@
   > *"Earth Nation! Fire Nation! Water Nation! So long as bargains are your inclination, you're welcome here!"*
   > *—Pirate peddler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/156/coastal-piracy) · oracle_id `8a05ec32-7b0c-4f23-a4f7-413301c2a70a` · printing: TLE #156 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3c3d9916-76c4-425a-a215-6226d0921f0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You draw one card per creature, not one per point of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/156/coastal-piracy) · oracle_id `8a05ec32-7b0c-4f23-a4f7-413301c2a70a` · printing: TLE #156 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Tower
 
@@ -271,6 +321,7 @@
 - **Flavor text** (TD2 printing):
   > *A beacon in the night, a dream in the fog.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/38/coastal-tower) · oracle_id `f0367926-4380-4d22-8cb8-46c2076f102a` · printing: TD2 #38 (2011-05-14) · [rulings](https://api.scryfall.com/cards/4febfcf0-6537-4e30-a963-9859314d0657/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Wizard
@@ -281,7 +332,9 @@
 - **Oracle text:**
   > {T}: Return this creature and another target creature to their owners' hands. Activate only during your turn, before attackers are declared.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31127 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/p02/34/coastal-wizard) · oracle_id `d2a29bbf-bfcd-4e4e-8c0b-95a15b58a612` · printing: P02 #34 (1998-06-24) · [rulings](https://api.scryfall.com/cards/0b8c7377-1404-44a4-9689-1fc6cdc286c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/p02/34/coastal-wizard) · oracle_id `d2a29bbf-bfcd-4e4e-8c0b-95a15b58a612` · printing: P02 #34 (1998-06-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastline Chimera
 
@@ -295,7 +348,9 @@
   > *Seeing a chimera overhead foretells good fortune, but only because seeing one any closer foretells dismemberment.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/44/coastline-chimera) · oracle_id `da95382c-0536-49aa-a0db-3b52926bf559` · printing: THS #44 (2013-09-27) · [rulings](https://api.scryfall.com/cards/01320a31-25fa-4324-8225-d150c6aa58a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Coastline Chimera's activated ability is cumulative. Activating it a second time will allow it to block three creatures, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/44/coastline-chimera) · oracle_id `da95382c-0536-49aa-a0db-3b52926bf559` · printing: THS #44 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastline Marauders
 
@@ -308,7 +363,17 @@
   > Encore {4}{R}{R} ({4}{R}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10871 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/168/coastline-marauders) · oracle_id `c93bef6e-b676-43df-9f0f-026aaff25604` · printing: CMR #168 (2020-11-20) · [rulings](https://api.scryfall.com/cards/7a47e6bc-422a-4627-b21e-5a042193bed0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — Each token must attack the appropriate player if able.
+  - *2020-11-10* — Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2020-11-10* — If Coastline Marauders is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-11-10* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2020-11-10* — The bonus Coastline Marauders receives is determined by the player it's attacking. Lands controlled by other defending players won't be counted.
+  - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+  - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/168/coastline-marauders) · oracle_id `c93bef6e-b676-43df-9f0f-026aaff25604` · printing: CMR #168 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coast Watcher
 
@@ -321,6 +386,7 @@
   > *The aven came to fear the forest's clawing branches, but the watchers quickly renewed their courage.*
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/30/coast-watcher) · oracle_id `02eef375-5166-4b6b-bb17-b38074a6ba53` · printing: SCG #30 (2003-05-26) · [rulings](https://api.scryfall.com/cards/6bbbc67d-99d0-4277-a8f2-64509e59ec00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coati Scavenger
@@ -334,7 +400,10 @@
   > *The difference between trash and treasure is a matter of perspective.*
 - **Keywords:** Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/179/coati-scavenger) · oracle_id `535f9bc6-9a07-4850-91eb-c00d06633e7e` · printing: LCI #179 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d2c70d86-1764-487d-a415-15ae79ba570c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/179/coati-scavenger) · oracle_id `535f9bc6-9a07-4850-91eb-c00d06633e7e` · printing: LCI #179 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coat of Arms
 
@@ -345,7 +414,11 @@
 - **Flavor text** (DDS printing):
   > *A banner for bonds of blood or belief.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/58/coat-of-arms) · oracle_id `5f7f133e-58ea-41ab-b1be-be4b400fac4c` · printing: DDS #58 (2017-03-31) · [rulings](https://api.scryfall.com/cards/513d4c36-6ad4-4ee9-b161-3136eb59504f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a creature has more than one creature type, and one of those types matches the creature you are calculating for, then count that creature. Only one type needs to match in order to get counted.
+  - *2004-10-04* — If you have a creature with more than one creature type, count all creatures which have either creature type.
+  - *2009-10-01* — Sharing multiple creature types doesn't give an additional bonus. Coat of Arms counts creatures, not creature types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/58/coat-of-arms) · oracle_id `5f7f133e-58ea-41ab-b1be-be4b400fac4c` · printing: DDS #58 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coat with Venom
 
@@ -357,6 +430,7 @@
   > *"Every Silumgar blade carries the blessing of our dragonlord."*
   > *—Xathi the Infallible*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20052 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/91/coat-with-venom) · oracle_id `cbc808dd-8d50-4f42-b0f1-d4e45d0462a2` · printing: DTK #91 (2015-03-27) · [rulings](https://api.scryfall.com/cards/8cc8e012-7043-405c-b6cd-b3b38f8a8d54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coax from the Blind Eternities
@@ -368,4 +442,8 @@
 - **Flavor text** (EMN printing):
   > *At Nahiri's call, Emrakul traversed the vast emptiness between the planes and arrived on Innistrad.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/51/coax-from-the-blind-eternities) · oracle_id `63488c95-c249-40d8-a579-3ca311ed57ca` · printing: EMN #51 (2016-07-22) · [rulings](https://api.scryfall.com/cards/740ad768-2be0-4e5a-9d60-6c7ec4bdc107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — A card that is exiled face down has no characteristics. You can’t choose it, even if you’re allowed to look at it.
+  - *2016-07-13* — An Eldrazi card is one with the subtype Eldrazi. Noncreature cards with devoid from the Battle for Zendikar block are Eldrazi-themed, but they are not Eldrazi cards.
+  - *2016-07-13* — In a casual game, a card you choose from outside the game comes from your personal collection. In a tournament event, a card you choose from outside the game must come from your sideboard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/51/coax-from-the-blind-eternities) · oracle_id `63488c95-c249-40d8-a579-3ca311ed57ca` · printing: EMN #51 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

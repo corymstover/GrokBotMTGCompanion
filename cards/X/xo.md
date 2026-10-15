@@ -20,7 +20,10 @@
   > Whenever Xolatoyac enters or attacks, put a flood counter on target land. That land is an Island in addition to its other types for as long as it has a flood counter on it.
   > At the beginning of your end step, untap each permanent you control with a counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5110 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/8/xolatoyac-the-smiling-flood) · oracle_id `2c0fc559-857f-4239-97fa-379ced3dfc1f` · printing: LCC #8 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1444a798-4e94-4bcc-b16a-0f20334f2550/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U}."
+  - *2023-11-10* — The land stays an Island until the flood counter is removed, even if Xolatoyac, the Smiling Flood leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/8/xolatoyac-the-smiling-flood) · oracle_id `2c0fc559-857f-4239-97fa-379ced3dfc1f` · printing: LCC #8 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xorn
 
@@ -33,4 +36,6 @@
   > *Xorns are native to the Elemental Plane of Earth, where gems and rare stones are plentiful. When summoned elsewhere they can be quite destructive in search of food.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/167/xorn) · oracle_id `11d8fab8-93af-4291-80bd-cf9436e99f4b` · printing: AFR #167 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f73fdf76-e3a6-49d0-bfb0-4b7cdbd4271e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — If you control multiple copies of Xorn, you'll create that many additional Treasure tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/167/xorn) · oracle_id `11d8fab8-93af-4291-80bd-cf9436e99f4b` · printing: AFR #167 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

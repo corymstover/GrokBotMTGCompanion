@@ -23,4 +23,14 @@
   > *"Racers! Start! Your! Engiiiiiines!"*
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3296 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/73/vnwxt-verbose-host) · oracle_id `6454c457-a278-431a-9e8d-bfd1a966bdde` · printing: DFT #73 (2025-02-14) · [rulings](https://api.scryfall.com/cards/893254c7-64cc-4cb9-b79f-2c41a8935ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If a spell or ability causes you to draw multiple cards, this creature’s last ability doubles each card draw. For example, if you cast Harmonize (“Draw three cards”), you’ll draw six cards.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — The effects of multiple such effects are cumulative. For example, if you have max speed and control both Vnwxt and Thought Reflection (an enchantment with the same ability), you’ll draw four times the original number of cards.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/73/vnwxt-verbose-host) · oracle_id `6454c457-a278-431a-9e8d-bfd1a966bdde` · printing: DFT #73 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

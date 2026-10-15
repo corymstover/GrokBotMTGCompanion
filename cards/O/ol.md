@@ -58,6 +58,7 @@
   > Whenever another Cat you control enters, put a +1/+1 counter on target Zombie you control.
   > At the beginning of your end step, each opponent loses life equal to the number of tapped Cats and/or Zombies you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22619 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/48/olag-and-miau-new-friends) · oracle_id `d117825e-fb7d-44dc-a17d-71bd610a6078` · printing: MBC #48 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d77ee4fa-1e10-4668-8666-86d37471a1b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ol' Buzzbark
@@ -68,7 +69,14 @@
 - **Oracle text:**
   > When Ol' Buzzbark enters, roll X six-sided dice onto the battlefield from a height of at least X inches. For each die, put a number of +1/+1 counters equal to the result on each creature you control that die is touching. For each die, Ol' Buzzbark deals damage equal to the result to each creature an opponent controls that die is touching.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/134/ol-buzzbark) · oracle_id `0a028cee-0f23-43d5-991f-2d10de044d59` · printing: UST #134 (2017-12-08) · [rulings](https://api.scryfall.com/cards/5135b251-002b-453d-a4f8-0455617ebb81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-01-19* — A card sleeve is considered part of the card inside it.
+  - *2018-01-19* — A single die can touch multiple creatures, including ones with different controllers. It will boost any creature you control and cause Ol’ Buzzbark to deal damage to any creature an opponent controls.
+  - *2018-01-19* — All dice are rolled at the same time.
+  - *2018-01-19* — Dice rolled for Ol’ Buzzbark can’t be greater than one inch in width. Yes, we’ve seen how rolling millions of dice from orbit will destroy Earth. Please don’t do this. We just bought a house.
+  - *2018-01-19* — Once rolled, no player can interfere with the dice. Players also can’t move any permanents on the battlefield until the dice have come to rest.
+  - *2018-01-19* — To count for either effect, the die must come to rest touching a creature. Touching it mid-roll doesn’t count if it isn’t touching when the die stops rolling.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/134/ol-buzzbark) · oracle_id `0a028cee-0f23-43d5-991f-2d10de044d59` · printing: UST #134 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Fashioned Vampire
 
@@ -82,6 +90,7 @@
   > *"Stalking hard or hardly stalking, am I right?"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/62/old-fashioned-vampire) · oracle_id `1f187c40-9262-4fca-a696-7c09441b2594` · printing: UST #62 (2017-12-08) · [rulings](https://api.scryfall.com/cards/a2c576ec-bb05-446b-8b0b-20d4246831ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Fat Spider
@@ -98,7 +107,10 @@
   > *—Bilbo*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/132/old-fat-spider) · oracle_id `8790f842-e842-4bed-adf4-5b3cc5fd68a9` · printing: HOB #132 (2026-08-14) · [rulings](https://api.scryfall.com/cards/e0c0f842-40fe-4776-a988-a35216bcfd47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-06-29* — If a spell or ability targets Old Fat Spider more than once, its last ability still triggers only once.
+  - *2026-06-29* — Old Fat Spider's last ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/132/old-fat-spider) · oracle_id `8790f842-e842-4bed-adf4-5b3cc5fd68a9` · printing: HOB #132 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Fat Spider Can't See Me
 
@@ -110,6 +122,7 @@
   > II — Prevent all damage that would be dealt by up to one target creature for as long as this Saga remains on the battlefield.
   > III, IV — Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17317 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/50/old-fat-spider-cant-see-me) · oracle_id `e4402d21-bb7f-4777-bc8d-b24bf2faccb0` · printing: HOB #50 (2026-08-14) · [rulings](https://api.scryfall.com/cards/4a865cea-f947-4736-8ace-ba478fceeb22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Flitterfang
@@ -123,7 +136,12 @@
   > {2}{B}, Sacrifice another creature or artifact: Old Flitterfang gets +2/+2 until end of turn.
 - **Keywords:** Flying, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9084 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/316/old-flitterfang) · oracle_id `f95bdf0d-5bd1-4215-b143-0930973807ce` · printing: WOE #316 (2023-09-08) · [rulings](https://api.scryfall.com/cards/67c77d6f-de14-423c-bf55-0fb289171004/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-09-01* — Old Flitterfang's triggered ability will check as the end step starts to see if a creature died this turn. If none did, the ability won't trigger at all.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/316/old-flitterfang) · oracle_id `f95bdf0d-5bd1-4215-b143-0930973807ce` · printing: WOE #316 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Fogey
 
@@ -136,7 +154,9 @@
   > *"These kids today with their collector numbers and their newfangled tap symbol. Twenty Black Lotuses and twenty Plague Rats. Now that's \*real\* Magic."*
 - **Keywords:** Landwalk, Flanking, Fading, Protection, Banding, Plainswalk, Rampage, Phasing, Echo, Cumulative upkeep
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/67/old-fogey) · oracle_id `9fc8eeea-a146-44de-ab79-0f41c59003a5` · printing: UND #67 (2020-02-29) · [rulings](https://api.scryfall.com/cards/ccae52dd-3ffd-4974-8915-61f816d29a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-02-29* — Due to changes in how echo and phasing work since Old Fogey was originally printed, echo mostly does nothing in this case. This is, as they say, a bit weird. Old Fogey is phased out when its echo ability would trigger, so that ability doesn’t trigger at the beginning of the upkeep after Old Fogey enters the battlefield. Phasing in doesn’t cause Old Fogey to enter the battlefield, so echo ends up not really doing much at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/67/old-fogey) · oracle_id `9fc8eeea-a146-44de-ab79-0f41c59003a5` · printing: UND #67 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Ghastbark
 
@@ -149,6 +169,7 @@
   > *"Beware of trees that talk. Their words are threats. And mind the ones that sway and creak. They too threaten us, but in a foreign tongue."*
   > *—\*The Book of Other Folk\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27415 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/232/old-ghastbark) · oracle_id `a5207cb5-7519-4802-85c5-ac8c4313693e` · printing: SHM #232 (2008-05-02) · [rulings](https://api.scryfall.com/cards/5b5ab941-89cc-4fdd-a916-3a54651f6478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Gnawbone
@@ -163,6 +184,7 @@
   > *The ancient green dragon Claugiyliamatar is often seen with a mangled corpse dangling from her mouth.*
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #932 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/197/old-gnawbone) · oracle_id `dff3f4c7-f792-4ca3-9b0a-0738e70664d9` · printing: AFR #197 (2021-07-23) · [rulings](https://api.scryfall.com/cards/77ceba8b-de19-4db8-b5a7-f5df49bf241f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Growth Dryads
@@ -175,6 +197,7 @@
 - **Flavor text** (XLN printing):
   > *"The jungle was here before any city. It will be here after the last city falls."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/199/old-growth-dryads) · oracle_id `aa125d1c-ab8f-48ff-a6eb-d8fc2154322c` · printing: XLN #199 (2017-09-29) · [rulings](https://api.scryfall.com/cards/06458882-94c8-4d92-a21c-955e9d70f0d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Growth Educator
@@ -190,7 +213,9 @@
   > *—Professor Longbranch*
 - **Keywords:** Infusion, Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/207/old-growth-educator) · oracle_id `2b7362a9-3518-4071-ab1b-40689a50e12a` · printing: SOS #207 (2026-04-24) · [rulings](https://api.scryfall.com/cards/eb7e858a-9b85-49b2-a379-ee656b64935a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — The infusion ability will trigger when Old-Growth Educator enters regardless of whether you've gained life this turn. As that ability resolves, it will check to see if you've gained life this turn. If you have, you'll put two +1/+1 counters on Old-Growth Educator.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/207/old-growth-educator) · oracle_id `2b7362a9-3518-4071-ab1b-40689a50e12a` · printing: SOS #207 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Growth Troll
 
@@ -202,7 +227,12 @@
   > When Old-Growth Troll dies, if it was a creature, return it to the battlefield. It's an Aura enchantment with enchant Forest you control and "Enchanted Forest has '{T}: Add {G}{G}' and '{1}, {T}, Sacrifice this land: Create a tapped 4/4 green Troll Warrior creature token with trample.'"
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15452 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/185/old-growth-troll) · oracle_id `11e3f1d3-9d78-4c00-b965-e14407fd5210` · printing: KHM #185 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b759b0f6-342c-4bba-89f1-8451835d8c45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — If a nontoken permanent that's a copy of Old-Growth Troll dies while it is a creature, it will return to the battlefield as an Aura with both its own normal abilities and the two new abilities granted by old-Growth Troll. The resulting permanent will also retain its name, colors, and supertypes, but it will be an Aura enchantment with no other types or subtypes.
+  - *2021-02-05* — If a token is a copy of Old-Growth Troll, it won’t return from its owner’s graveyard.
+  - *2021-02-05* — If there’s nothing for Old-Growth Troll to legally enchant, it remains in its owner’s graveyard.
+  - *2021-02-05* — If you control but don’t own Old-Growth Troll, you (not its owner) will return it to the battlefield when it dies. You’ll choose which Forest you control it will enchant as it returns to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/185/old-growth-troll) · oracle_id `11e3f1d3-9d78-4c00-b965-e14407fd5210` · printing: KHM #185 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Guard
 
@@ -214,6 +244,7 @@
 - **Flavor text** (UND printing):
   > *"You say you're capable of flying. You got any proof of that?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/11/old-guard) · oracle_id `e1819c5a-97ce-490b-81ab-1e3e23d942b3` · printing: UND #11 (2020-02-29) · [rulings](https://api.scryfall.com/cards/d8b0cbc6-fe14-484a-a5ab-ea04d7b9e487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Hob, Alleycat Blues
@@ -227,7 +258,9 @@
 - **Flavor text** (TMT printing):
   > *"This is us against them, plain and simple. Either you're with us, or . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23882 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/99/old-hob-alleycat-blues) · oracle_id `e88b1520-aa9a-41ee-9036-4d4bebd1a0c0` · printing: TMT #99 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1515eed9-3b21-42f0-ab57-de5df19317af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — In the case where the Mutant creature token isn't destroyed by the delayed triggered ability (probably because it gained indestructible due to Old Hob's last ability), that delayed triggered ability won't trigger again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/99/old-hob-alleycat-blues) · oracle_id `e88b1520-aa9a-41ee-9036-4d4bebd1a0c0` · printing: TMT #99 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Man of the Sea
 
@@ -238,7 +271,12 @@
   > You may choose not to untap this creature during your untap step.
   > {T}: Gain control of target creature with power less than or equal to this creature's power for as long as this creature remains tapped and that creature's power remains less than or equal to this creature's power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26101 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/45/old-man-of-the-sea) · oracle_id `cce84cf1-5574-43b0-9d75-72e6451403a7` · printing: ME3 #45 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9029ff19-753d-4031-a192-d36b165ebfe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — You lose control of the creature if the Old Man leaves the battlefield. This is because it is no longer tapped.
+  - *2009-10-01* — If Old Man of the Sea stops being tapped before its ability resolves — even if it becomes tapped again right away — you won’t gain control of the targeted creature at all. The same is true if the targeted creature’s power becomes greater than Old Man of the Sea’s power before the ability resolves.
+  - *2009-10-01* — Once the ability resolves, it doesn’t care whether the targeted permanent remains a legal target for the ability, only that it’s on the battlefield and its power remains small enough. The effect will continue to apply to it even if it gains shroud, stops being a creature, or would no longer be a legal target for any other reason. If it stops being a creature, its power is considered to be 0.
+  - *2009-10-01* — The ability doesn’t care whether Old Man of the Sea remains under your control, only that Old Man of the Sea remains tapped and its power remains large enough. If an opponent gains control of Old Man of the Sea, you’ll keep control of the affected creature (until Old Man of the Sea stops being tapped or it no longer has enough power).
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/45/old-man-of-the-sea) · oracle_id `cce84cf1-5574-43b0-9d75-72e6451403a7` · printing: ME3 #45 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Man Willow
 
@@ -249,7 +287,9 @@
   > Old Man Willow's power and toughness are each equal to the number of lands you control.
   > Whenever Old Man Willow attacks, you may sacrifice another creature or a token. When you do, target creature an opponent controls gets -2/-2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11993 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/217/old-man-willow) · oracle_id `96c96842-42c2-4aa3-95e2-6186d4ab5693` · printing: LTR #217 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0362b7c4-fff5-4bc2-b32d-913f85c23cc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — You don't choose a target for Old Man Willow's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice a creature or token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/217/old-man-willow) · oracle_id `96c96842-42c2-4aa3-95e2-6186d4ab5693` · printing: LTR #217 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old One Eye
 
@@ -263,7 +303,10 @@
   > Fast Healing — At the beginning of your first main phase, you may discard two cards. If you do, return this card from your graveyard to your hand.
 - **Keywords:** Fast Healing, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6982 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/96/old-one-eye) · oracle_id `86ef2ceb-b7e6-4451-92ec-8528ea191d3a` · printing: 40K #96 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b5aaaee0-9a61-45df-821e-cce516f8de6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Old One-Eye's Fast Healing ability only triggers if it is in your graveyard at the beginning of your precombat main phase.
+  - *2022-10-07* — Opponents may respond to the Fast Healing ability after it goes on the stack, but they don't get the chance to cast spells or activate abilities between the time you have chosen to discard two cards and the time Old One-Eye is returned to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/96/old-one-eye) · oracle_id `86ef2ceb-b7e6-4451-92ec-8528ea191d3a` · printing: 40K #96 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Rutstein
 
@@ -274,7 +317,12 @@
   > When Old Rutstein enters and at the beginning of your upkeep, mill a card. If a land card is milled this way, create a Treasure token. If a creature card is milled this way, create a 1/1 green Insect creature token. If a noncreature, nonland card is milled this way, create a Blood token.
 - **Keywords:** Treasure, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5020 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/244/old-rutstein) · oracle_id `8f5ffb0b-0585-4a37-8048-eda53990d1dd` · printing: VOW #244 (2021-11-19) · [rulings](https://api.scryfall.com/cards/625b8023-2ef1-4b7b-9e48-4f774fee14e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-11-19* — If you mill Dryad Arbor, a card that's both a creature and a land, you get both a Treasure token and a 1/1 green Insect token.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/244/old-rutstein) · oracle_id `8f5ffb0b-0585-4a37-8048-eda53990d1dd` · printing: VOW #244 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Stickfingers
 
@@ -285,7 +333,10 @@
   > When you cast this spell, reveal cards from the top of your library until you reveal X creature cards. Put all creature cards revealed this way into your graveyard, then put the rest on the bottom of your library in a random order.
   > Old Stickfingers's power and toughness are each equal to the number of creature cards in your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4134 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/227/old-stickfingers) · oracle_id `1d85eec2-80db-466c-bd48-d2a12866e8bd` · printing: DSC #227 (2024-09-27) · [rulings](https://api.scryfall.com/cards/329888c6-25d9-4eb9-9308-f979c3859669/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — The ability that defines the power and toughness of Old Stickfingers functions in all zones, not only while Old Stickfingers is on the battlefield. While Old Stickfingers is in a graveyard, the ability will count Old Stickfingers itself, presumably using a single, withered stickfinger.
+  - *2021-09-24* — The triggered ability will resolve before Old Stickfingers does. If Old Stickfingers is countered in response to its own triggered ability, you will still follow all the instructions of the triggered ability, using the chosen value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/227/old-stickfingers) · oracle_id `1d85eec2-80db-466c-bd48-d2a12866e8bd` · printing: DSC #227 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Thrush
 
@@ -300,6 +351,7 @@
   > *—Balin*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/2/old-thrush) · oracle_id `c8259b0e-131f-44f0-86d4-7c4d711b328d` · printing: HOB #2 (2026-08-14) · [rulings](https://api.scryfall.com/cards/3ad02b56-13ec-46ef-92bd-ae078b8bb517/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Way Phyrexian
@@ -312,6 +364,7 @@
   > Creatures you control with toxic lose toxic and gain infect.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03d/old-way-phyrexian) · oracle_id `0190a71b-93cc-4052-9cc6-b0019ea14d26` · printing: UNK #RB03d (2023-02-17) · [rulings](https://api.scryfall.com/cards/0e7fbd54-e582-4730-bb0a-5e521fe2f232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olinda the Oblivious
@@ -322,6 +375,7 @@
 - **Oracle text:**
   > Whenever Olinda enters or attacks, for each opponent, put an odor counter on up to one target creature that player controls without an odor counter on it. Each of those creatures has "At the beginning of your upkeep, you lose 2 life" for as long as it has an odor counter on it. (They continue to smell after Olinda has left the battlefield.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21554 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/17/olinda-the-oblivious) · oracle_id `6ec8a9b8-233f-4de5-8f4c-3d677fbf2f30` · printing: MBC #17 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ed522096-8db5-4205-b49f-d41230cce4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oliphaunt
@@ -335,7 +389,10 @@
   > Mountaincycling {1} ({1}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Mountaincycling, Landcycling, Trample, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/199/oliphaunt) · oracle_id `186b2256-4af3-48cb-96b0-b0e80a7ee6dc` · printing: HOC #199 (2026-08-14) · [rulings](https://api.scryfall.com/cards/28b60f0b-6dd5-4e57-98ff-28effe8fcd55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/199/oliphaunt) · oracle_id `186b2256-4af3-48cb-96b0-b0e80a7ee6dc` · printing: HOC #199 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia, Crimson Bride
 
@@ -349,6 +406,7 @@
   > *Her grand wedding had one goal: to unite the vampire bloodlines under her rule.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5070 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/245/olivia-crimson-bride) · oracle_id `8922a91e-3d15-4351-8d77-e0d6bc4de82e` · printing: VOW #245 (2021-11-19) · [rulings](https://api.scryfall.com/cards/301dacc9-ef92-4515-b907-a70d6c3fd73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia, Mobilized for War
@@ -361,7 +419,11 @@
   > Whenever another creature you control enters, you may discard a card. If you do, put a +1/+1 counter on that creature, it gains haste until end of turn, and it becomes a Vampire in addition to its other types.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10969 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/248/olivia-mobilized-for-war) · oracle_id `1f8d387e-e4bb-4e76-a173-f46f7b107b95` · printing: SOI #248 (2016-04-08) · [rulings](https://api.scryfall.com/cards/7297dd81-8367-42e9-abf9-9227e202e7ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — If the entering creature leaves the battlefield before the triggered ability of Olivia, Mobilized for War resolves, you may still discard a card. The rest of the ability has no effect.
+  - *2016-04-08* — If you discard a card, the creature only gains haste until end of turn, but the +1/+1 counter and Vampire subtype remain indefinitely.
+  - *2016-04-08* — You decide whether to discard a card as the triggered ability of Olivia, Mobilized for War resolves. If you do, the rest of the ability’s effects happen before any player may take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/248/olivia-mobilized-for-war) · oracle_id `1f8d387e-e4bb-4e76-a173-f46f7b107b95` · printing: SOI #248 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia, Opulent Outlaw
 
@@ -374,7 +436,11 @@
   > {3}, Sacrifice two Treasures: Put two +1/+1 counters on each creature you control. Activate only as a sorcery.
 - **Keywords:** Flying, Lifelink, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5149 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/2/olivia-opulent-outlaw) · oracle_id `4e5e0b22-ee5a-4c19-be95-2f9bd50641bc` · printing: OTC #2 (2024-04-19) · [rulings](https://api.scryfall.com/cards/55e6c31b-f9e9-4e42-a875-985d99300d9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/2/olivia-opulent-outlaw) · oracle_id `4e5e0b22-ee5a-4c19-be95-2f9bd50641bc` · printing: OTC #2 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Attendants
 
@@ -387,7 +453,11 @@
   > {2}{R}: This creature deals 1 damage to any target.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/172/olivias-attendants) · oracle_id `6b384c3c-0d6b-4bba-b4c7-5af8b32bdf1c` · printing: VOW #172 (2021-11-19) · [rulings](https://api.scryfall.com/cards/d9702fa3-9323-4e2f-92c9-6c31df198af2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/172/olivias-attendants) · oracle_id `6b384c3c-0d6b-4bba-b4c7-5af8b32bdf1c` · printing: VOW #172 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Bloodsworn
 
@@ -402,6 +472,7 @@
   > *"As we muster for war, I have little patience for lethargy or recalcitrance."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19511 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/127/olivias-bloodsworn) · oracle_id `e2cfbaf5-903c-49fa-b7bf-2c55087f1ffa` · printing: SOI #127 (2016-04-08) · [rulings](https://api.scryfall.com/cards/fdda34e9-f28b-4606-8298-b2d0c15033e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Dragoon
@@ -414,7 +485,9 @@
 - **Flavor text** (INR printing):
   > *Displays of Voldaren bloodlust are not restricted to glamorous banquets and lavish parties.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/127/olivias-dragoon) · oracle_id `a5019399-91a8-4233-b16f-399718c4be9c` · printing: INR #127 (2025-01-24) · [rulings](https://api.scryfall.com/cards/571a9e92-6f34-4bf4-b7f4-15d12560efb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You can activate the ability of Olivia’s Dragoon more than once in a turn, even if it already has flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/127/olivias-dragoon) · oracle_id `a5019399-91a8-4233-b16f-399718c4be9c` · printing: INR #127 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Midnight Ambush
 
@@ -425,7 +498,9 @@
 - **Flavor text** (MID printing):
   > *"And you were almost finished with that ritual, weren't you, darling? How very rude of me. To make it up to you, I'll send you an invitation to my wedding."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/118/olivias-midnight-ambush) · oracle_id `a3b8a08b-5409-4d5f-9bab-8a7a6376a5b9` · printing: MID #118 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9c1adede-22ad-4c1c-9501-ad731fbe1742/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — The phrase "if it's night" refers to the day or night designation the game can have. It does not refer to whether or not it's dark outside as you play the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/118/olivias-midnight-ambush) · oracle_id `a3b8a08b-5409-4d5f-9bab-8a7a6376a5b9` · printing: MID #118 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Wrath
 
@@ -437,6 +512,7 @@
   > *"These worthless cattle think they can sneak unnoticed into my wedding? Dispose of them."*
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2870 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/205/olivias-wrath) · oracle_id `9aebd891-c8c5-4309-a07b-6cab1b204172` · printing: LCC #205 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3eb5cc8d-a198-43cd-a2bd-9c9414d815b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia Voldaren
@@ -450,7 +526,10 @@
   > {3}{B}{B}: Gain control of target Vampire for as long as you control Olivia Voldaren.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6491 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/246/olivia-voldaren) · oracle_id `dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8` · printing: INR #246 (2025-01-24) · [rulings](https://api.scryfall.com/cards/561d616c-df11-4144-acec-f9fe47efa5c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-03-14* — If Olivia Voldaren deals lethal damage to a creature with its first activated ability, that creature will become a Vampire before dying.
+  - *2017-03-14* — If you activate Olivia Voldaren’s last ability, and before that ability resolves you lose control of Olivia Voldaren, the ability will resolve with no effect. You won’t gain control of the targeted Vampire.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/246/olivia-voldaren) · oracle_id `dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8` · printing: INR #246 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ollenbock Escort
 
@@ -464,7 +543,9 @@
   > *"Stay in the light. I don't know what lurks in those shadows, and I'd like to keep it that way."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/27/ollenbock-escort) · oracle_id `7a8fa68b-8c87-4ecd-ac29-50fd90c62159` · printing: VOW #27 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f7a659bf-9d85-4011-980e-c3a8dc4513e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — The creature having a +1/+1 counter on it is part of the targeting requirement of Ollenbock Escort's ability. After the ability has resolved, the creature won't lose lifelink or indestructible if the counter goes away.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/27/ollenbock-escort) · oracle_id `7a8fa68b-8c87-4ecd-ac29-50fd90c62159` · printing: VOW #27 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olog-hai Crusher
 
@@ -478,7 +559,10 @@
   > *Trolls were abroad, no longer dull-witted, but cunning and armed with dreadful weapons.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/200/olog-hai-crusher) · oracle_id `fb6f04bc-3514-49b2-9d17-f80980d996a8` · printing: HOC #200 (2026-08-14) · [rulings](https://api.scryfall.com/cards/3cebc85a-a75f-47a4-b286-f66fe18303a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — The Goblin or Orc you control doesn't have to block.
+  - *2023-06-16* — Whether you control a Goblin or Orc matters only at the time you declare blockers. Once Olog-Hai Crusher blocks a creature, that won't change even if all the Goblins and Orcs you control leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/200/olog-hai-crusher) · oracle_id `fb6f04bc-3514-49b2-9d17-f80980d996a8` · printing: HOC #200 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olórin's Searing Light
 
@@ -489,7 +573,12 @@
   > Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Olórin's Searing Light deals damage to each opponent equal to the power of the creature they exiled.
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4720 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/503/ol%C3%B3rins-searing-light) · oracle_id `e6f2ba06-2c92-48b7-a95f-ea6bf35aa0fe` · printing: LTC #503 (2023-11-03) · [rulings](https://api.scryfall.com/cards/7496ad0f-fc6d-4154-ac42-c2471e72ed88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-03* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
+  - *2023-11-03* — First, the active player (or, if it's not an opponent's turn, the next opponent in turn order) chooses which creature they'll exile, then each other opponent in turn order does the same, knowing choices made before their choice. Then all those creatures are exiled simultaneously.
+  - *2023-11-03* — If a player controls two or more creatures tied for the greatest power among creatures they control, that player chooses one of them to exile.
+  - *2023-11-03* — Use the power of each exiled creature as it last existed on the battlefield to determine how much damage is dealt to each opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/503/ol%C3%B3rins-searing-light) · oracle_id `e6f2ba06-2c92-48b7-a95f-ea6bf35aa0fe` · printing: LTC #503 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oloro, Ageless Ascetic
 
@@ -501,7 +590,16 @@
   > Whenever you gain life, you may pay {1}. If you do, draw a card and each opponent loses 1 life.
   > At the beginning of your upkeep, if Oloro is in the command zone, you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6413 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/203/oloro-ageless-ascetic) · oracle_id `620ff5f2-7d3f-467f-943d-3b62c2135023` · printing: C13 #203 (2013-11-01) · [rulings](https://api.scryfall.com/cards/abf8df47-405c-42d8-be9e-0f0d0a49589b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2013-10-17* — If Oloro is your commander, its last ability will trigger at the beginning of the upkeep step on your first turn.
+  - *2013-10-17* — If two creatures you control with lifelink deal combat damage at the same time, Oloro's ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2013-10-17* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it causes your team's life total to increase.
+  - *2013-10-17* — In some unusual cases, you can gain life even though your life total actually decreases. For example, if you are being attacked by two 3/3 creatures and you block one with a 2/2 creature with lifelink, your life total will decrease by 1 even though you've gained 2 life. Oloro's second ability would trigger.
+  - *2013-10-17* — Oloro's first ability works only if Oloro is on the battlefield.
+  - *2013-10-17* — Oloro's second ability triggers just once for each life-gaining event, no matter how much life is gained.
+  - *2013-10-17* — You decide whether to pay {1} as the second ability resolves. If you do, you'll draw a card and each opponent will lose 1 life.
+  - *2015-01-19* *(Scryfall note)* — Oloro, Ageless Ascetic is banned as a commander in Duel Commander format, but it may be part of your deck.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/203/oloro-ageless-ascetic) · oracle_id `620ff5f2-7d3f-467f-943d-3b62c2135023` · printing: C13 #203 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oltec Archaeologists
 
@@ -514,6 +612,7 @@
   > • Scry 3. (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/27/oltec-archaeologists) · oracle_id `b19c4bbf-258f-4436-8ef9-fc905c283776` · printing: LCI #27 (2023-11-17) · [rulings](https://api.scryfall.com/cards/57c21561-2213-4524-89a6-30a305843e5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oltec Cloud Guard
@@ -528,6 +627,7 @@
   > *Many Oltec youth dream of one day joining the elite bat-riding cavalry of the Thousand Moons military force.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24164 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/28/oltec-cloud-guard) · oracle_id `922a8e27-a367-40c6-84df-86ed32f71c7c` · printing: LCI #28 (2023-11-17) · [rulings](https://api.scryfall.com/cards/02d68a38-2e0b-401b-b67d-a55e2af5b18d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oltec Matterweaver
@@ -540,4 +640,10 @@
   > • Create a 1/1 colorless Gnome artifact creature token.
   > • Create a token that's a copy of target artifact token you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3732 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/3/oltec-matterweaver) · oracle_id `3cb91696-242f-4e91-806b-61b1bb45a20c` · printing: BIG #3 (2024-04-19) · [rulings](https://api.scryfall.com/cards/f4f2a818-9fd1-41db-967e-7d2c9b4e4c2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied token will also work.
+  - *2024-04-12* — If the copied token has {X} in its mana cost, X is 0. (Most tokens don’t have a mana cost unless they’re copying something else.)
+  - *2024-04-12* — If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied.
+  - *2024-04-12* — Oltec Matterweaver’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-04-12* — The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/3/oltec-matterweaver) · oracle_id `3cb91696-242f-4e91-806b-61b1bb45a20c` · printing: BIG #3 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

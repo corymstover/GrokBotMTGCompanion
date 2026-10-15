@@ -23,6 +23,7 @@
 - **Flavor text** (HHO printing):
   > *Blend dingus egg yolks, milk, Eldraine spice blend, Muragandan vanilla, and absolutely nothing else.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/24/eggnoggers-stache) · oracle_id `2384e20c-370d-4a41-ba15-02f46dc9dcc4` · printing: HHO #24 (2024-11-25) · [rulings](https://api.scryfall.com/cards/69d12634-311a-4088-bee5-d9687b3b8788/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ego Drain
@@ -34,6 +35,7 @@
 - **Flavor text** (WOE printing):
   > *"You've wasted your life. Let's see if I can do any better with it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18598 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/86/ego-drain) · oracle_id `b4fc198f-3595-4880-ad12-96c18fbf9c33` · printing: WOE #86 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8faf36da-bbad-4d6e-a530-502d47a2dd23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ego Erasure
@@ -47,7 +49,12 @@
   > *When all is taken away, all are equal.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/59/ego-erasure) · oracle_id `a7a47969-b29a-4f99-9500-29c59af43c48` · printing: LRW #59 (2007-10-12) · [rulings](https://api.scryfall.com/cards/f577831b-2aa2-44a1-bd6b-ef111bc2e211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2007-10-01* — If a creature loses all creature types but then gains a new creature type later in the turn, it will be that new creature type.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/59/ego-erasure) · oracle_id `a7a47969-b29a-4f99-9500-29c59af43c48` · printing: LRW #59 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Egon, God of Death // Throne of Death
 
@@ -65,4 +72,18 @@
   > *It offers all the warmth and comfort of the grave.*
 - **Keywords:** Mill, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11398 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/92/egon-god-of-death-throne-of-death) · oracle_id `8fa7bd8f-f712-4dd1-9ffb-e30dfe744389` · printing: KHM #92 (2021-02-05) · [rulings](https://api.scryfall.com/cards/9dfdb73d-b001-4a59-b79e-8c8c1baea116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2021-02-05* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — Although players may respond to Throne of Death's activated ability, they can't respond to the paying of its activation cost. The creature card will already be exiled by the time anyone can respond.
+  - *2021-02-05* — If Egon leaves the battlefield before its triggered ability resolves, you'll still exile two cards from your graveyard if you can and draw a card if you can't.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2021-02-05* — If there's only one card in your graveyard, you won't exile it. Because you can't exile two cards from your graveyard, you'll sacrifice Egon and draw a card.
+  - *2021-02-05* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2021-02-05* — You choose which cards you're exiling as Egon's triggered ability is resolving. If there are two or more cards in your graveyard at that time, you must exile two of them. You can't choose not to exile cards and sacrifice Egon instead to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/92/egon-god-of-death-throne-of-death) · oracle_id `8fa7bd8f-f712-4dd1-9ffb-e30dfe744389` · printing: KHM #92 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -69,7 +69,16 @@
 - **Flavor text** (AER printing):
   > *"The Consulate pushed me to my limit, darling, and this is the result."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8739 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/75/yahennis-expertise) · oracle_id `692babfa-9b74-415e-a560-abae4ccb006b` · printing: AER #75 (2017-01-20) · [rulings](https://api.scryfall.com/cards/f2f28735-122c-45ba-bde5-decfd9b11b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-02-09* — A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+  - *2017-02-09* — Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+  - *2017-02-09* — Effects that allow you to "cast" a card don't allow you to play a land card.
+  - *2017-02-09* — If a creature's toughness is reduced to 0 or less by Yahenni's Expertise, that creature is still on the battlefield as you cast your free spell. It can be the target of that spell, although it will become an illegal target before that spell resolves. If it has any abilities that trigger on the spell being cast, those abilities will trigger.
+  - *2017-02-09* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-02-09* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+  - *2017-02-09* — While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+  - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/75/yahennis-expertise) · oracle_id `692babfa-9b74-415e-a560-abae4ccb006b` · printing: AER #75 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yahenni, Undying Partisan
 
@@ -84,7 +93,9 @@
   > *"The time for subtlety is over, darling."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1034 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/232/yahenni-undying-partisan) · oracle_id `fdba89eb-1cf5-46e6-9d09-1adb9bc40fcd` · printing: SOC #232 (2026-04-24) · [rulings](https://api.scryfall.com/cards/518b155a-cb84-48d3-9aba-07577f60f091/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — If Yahenni and a creature an opponent controls die simultaneously (perhaps because they fought or were in combat together), Yahenni won't be on the battlefield as its triggered ability resolves. It can't be saved by the +1/+1 counter that would have been put on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/232/yahenni-undying-partisan) · oracle_id `fdba89eb-1cf5-46e6-9d09-1adb9bc40fcd` · printing: SOC #232 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yamabushi's Flame
 
@@ -93,6 +104,7 @@
 - **Oracle text:**
   > Yamabushi's Flame deals 3 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30169 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/198/yamabushis-flame) · oracle_id `0462e985-c99e-4404-b212-e9d8baecce72` · printing: CHK #198 (2004-10-01) · [rulings](https://api.scryfall.com/cards/1a9bacba-55c4-4b92-bdd9-01b6035ed1b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yamabushi's Storm
@@ -102,6 +114,7 @@
 - **Oracle text:**
   > Yamabushi's Storm deals 1 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26792 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/199/yamabushis-storm) · oracle_id `3dfeb0c5-85d6-48fb-b924-d7b77f4b89d6` · printing: CHK #199 (2004-10-01) · [rulings](https://api.scryfall.com/cards/0a5a930d-ae59-47e2-9b98-f703e308b5c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yanling's Harbinger
@@ -114,6 +127,7 @@
   > When this creature enters, you may search your library and/or graveyard for a card named Mu Yanling, Celestial Wind, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29933 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/289/yanlings-harbinger) · oracle_id `c4bf4397-22e5-458d-b9d1-3f3a0a27e9e5` · printing: M20 #289 (2019-07-12) · [rulings](https://api.scryfall.com/cards/93aca389-6830-4297-97bc-e3a2a1a1d41a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yannik, Scavenging Sentinel
@@ -127,7 +141,17 @@
   > When Yannik enters, exile another creature you control until Yannik leaves the battlefield. When you do, distribute X +1/+1 counters among any number of target creatures, where X is the exiled creature's power.
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20295 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/19/yannik-scavenging-sentinel) · oracle_id `81ab8947-8046-4944-ae58-006a6eefa08a` · printing: C20 #19 (2020-04-17) · [rulings](https://api.scryfall.com/cards/11c0e89b-ab29-4739-a88e-1e7966d87d25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-04-17* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2020-04-17* — If Yannik leaves the battlefield before its triggered ability resolves, you won't exile any creature you control. Yannik's reflexive triggered ability won't trigger.
+  - *2020-04-17* — If a token is exiled this way, it will cease to exist and won't return to the battlefield. It will still let the ability distribute counters.
+  - *2020-04-17* — If one of the target creatures becomes an illegal target in response to the reflexive triggered ability, the +1/+1 counters that would have been put on that creature are lost. They can't be put on another legal target.
+  - *2020-04-17* — Use the power of the creature as it last existed on the battlefield to determine how many +1/+1 counters to distribute.
+  - *2020-04-17* — Yannik can be the target of its own reflexive triggered ability.
+  - *2020-04-17* — Yannik's triggered ability doesn't target the creature you control. That creature is chosen as the triggered ability resolves. After it's exiled, the reflexive triggered ability triggers and targets are chosen to receive the counters.
+  - *2020-04-17* — You choose how the counters will be distributed as you put the reflexive triggered ability onto the stack. Each target creature must be assigned at least one counter.
+  - *2020-04-17* — You may choose zero target creatures for Yannik's reflexive triggered ability. If you do, no creature receives +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/19/yannik-scavenging-sentinel) · oracle_id `81ab8947-8046-4944-ae58-006a6eefa08a` · printing: C20 #19 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yare
 
@@ -136,6 +160,7 @@
 - **Oracle text:**
   > Target creature defending player controls gets +3/+0 until end of turn. That creature can block up to two additional creatures this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31431 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/48/yare) · oracle_id `f0f24c6d-80fb-4e99-a74d-6ed9d349ed3d` · printing: MIR #48 (1996-10-08) · [rulings](https://api.scryfall.com/cards/9a14343d-c2cd-4a67-ae54-6b6a4677ca85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yargle and Multani
@@ -149,7 +174,9 @@
   > *"I've heard much about you from my daughter," Multani rumbled. "There was a time when I'd balk at your aid, phantom, but she has shown me the merit in Urborg's strange ways."*
   > *"Gnshhagghkkapphribbit," replied Yargle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3186 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/256/yargle-and-multani) · oracle_id `980e1721-3717-4425-95a4-938dbf2ac661` · printing: MOM #256 (2023-04-21) · [rulings](https://api.scryfall.com/cards/9c15e244-14cc-46a5-abd4-66a58d1c0dd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — Ribbit.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/256/yargle-and-multani) · oracle_id `980e1721-3717-4425-95a4-938dbf2ac661` · printing: MOM #256 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yargle, Glutton of Urborg
 
@@ -162,6 +189,7 @@
   > *"I look forward to the day when my biggest concern is the ravenous, spectral, overgrown, croaking, hulking, foulmouthed abomination that turns up every now and again just to vex us."*
   > *—Field notes of Aryel, knight of Windgrace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6623 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/241/yargle-glutton-of-urborg) · oracle_id `ed66cd31-958f-4b28-82a3-e04acc819afc` · printing: FRA #241 (2026-10-02) · [rulings](https://api.scryfall.com/cards/04c816fb-5951-4db1-8834-ed3f0b36bfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yargle, Goliath of Otaria
@@ -175,6 +203,7 @@
   > *"Why sure I remember Yar-Kul! Man had the most refined palate in all Otaria. I still have some of his cookbooks. Shame he went and trespassed in Krosan forest . . . There ain't a single soul who comes outta those woods unchanged."*
   > *—Mister Foundforks, culinarian*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28671 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/225/yargle-goliath-of-otaria) · oracle_id `014d0bcd-b80f-4c43-8f00-f4c31e8f3370` · printing: FRA #225 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f45ba926-6496-4bd4-96eb-663946d56bbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yarok's Fenlurker
@@ -190,6 +219,7 @@
   > *Where dark despair is near at hand."*
   > *—\*Lament for Bala Ged\*, stanza 3*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/123/yaroks-fenlurker) · oracle_id `6bb60f1f-9295-41ce-bdcd-3fe67f8e175c` · printing: M20 #123 (2019-07-12) · [rulings](https://api.scryfall.com/cards/16b122f8-fcd9-4b2a-92f6-f0ed7307ff58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yarok's Wavecrasher
@@ -204,7 +234,9 @@
   > *Where armies bled into the sand."*
   > *—\*Lament for Bala Ged\*, stanza 2*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/81/yaroks-wavecrasher) · oracle_id `30868d69-2ba3-4373-9d47-4bc8978f35d1` · printing: M20 #81 (2019-07-12) · [rulings](https://api.scryfall.com/cards/c86a8974-df86-43ee-b07f-fd2837c08a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If you control no other creatures when the triggered ability resolves, you simply don't return anything. There's no penalty for being unable to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/81/yaroks-wavecrasher) · oracle_id `30868d69-2ba3-4373-9d47-4bc8978f35d1` · printing: M20 #81 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yarok, the Desecrated
 
@@ -220,7 +252,17 @@
   > *—\*Lament for Bala Ged\*, stanza 1*
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2459 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/136/yarok-the-desecrated) · oracle_id `95b53836-18aa-451a-992d-2a111deeeab2` · printing: ECC #136 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c08a2da8-3ce7-4e0d-bdb0-81b6cdf3126a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-07-12* — Abilities that apply "as [this creature] enters the battlefield," such as choosing a color with Diamond Knight, are also unaffected.
+  - *2019-07-12* — If a permanent entering the battlefield at the same time as Yarok (including Yarok itself) causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+  - *2019-07-12* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2019-07-12* — If you somehow control two Yaroks, a permanent entering the battlefield causes abilities to trigger three times, not four. A third Yarok causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on.
+  - *2019-07-12* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2019-07-12* — Replacement effects are unaffected by Yarok's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
+  - *2019-07-12* — Yarok affects a permanent's own enters-the-battlefield triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with "when" or "whenever."
+  - *2019-07-12* — Yarok's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2019-07-12* — You don't need to control the permanent entering the battlefield, only the permanent that has the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/136/yarok-the-desecrated) · oracle_id `95b53836-18aa-451a-992d-2a111deeeab2` · printing: ECC #136 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yarus, Roar of the Old Gods
 
@@ -232,7 +274,12 @@
   > Whenever one or more face-down creatures you control deal combat damage to a player, draw a card.
   > Whenever a face-down creature you control dies, return it to the battlefield face down under its owner's control if it's a permanent card, then turn it face up.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12211 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/245/yarus-roar-of-the-old-gods) · oracle_id `30fd6171-3e57-4c05-a86b-e1c0479ba236` · printing: MKM #245 (2024-02-09) · [rulings](https://api.scryfall.com/cards/326845a7-7502-4dc3-8f3e-867d6c84e931/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — If Yarus, Roar of the Old Gods dies at the same time as one or more face-down creatures you control, its last ability triggers for each of those creatures.
+  - *2024-02-02* — If a face-down creature dies but the permanent card it becomes in the graveyard leaves the graveyard before Yarus, Roar of the Old Gods's last ability resolves, it will not return to the battlefield.
+  - *2024-02-02* — If a permanent card that would be returned to the battlefield face down by Yarus, Roar of the Old Gods's last ability can't be turned face up for some reason, it'll still be returned to the battlefield, but it will stay face down. In that case, it will be a 2/2 creature with no name, mana cost, or creature types. Since it isn't disguised or cloaked, it won't have ward {2}.
+  - *2024-02-02* — Normally, combat damage is dealt all at the same time. In that case, Yarus, Roar of the Old Gods's last ability triggers once for each player that face-down creatures you control dealt combat damage to, regardless of how many creatures were dealing that damage. If any of those face-down creatures have double strike or first strike, the ability will trigger once for each player dealt damage in each combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/245/yarus-roar-of-the-old-gods) · oracle_id `30fd6171-3e57-4c05-a86b-e1c0479ba236` · printing: MKM #245 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yasharn, Implacable Earth
 
@@ -245,7 +292,11 @@
 - **Flavor text** (ZNR printing):
   > *In its hoofprints, barren dust becomes fertile ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5482 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/240/yasharn-implacable-earth) · oracle_id `6dc23410-4d8f-4c8a-92b4-a8b3fae1af4e` · printing: ZNR #240 (2020-09-25) · [rulings](https://api.scryfall.com/cards/12878fbd-dbe5-44bc-9f34-38fd374ec10a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-09-25* — If a spell or activated ability has a cost that requires a player to pay life (such as the activated ability granted by Lithoform Blight) or sacrifice a permanent (such as Kazuul’s Fury or Spare Supplies), that spell or ability can’t be cast or activated.
+  - *2020-09-25* — Other things may still cause players to pay life or sacrifice creatures, such as a resolving spell or ability.
+  - *2020-09-25* — Yasharn’s first ability can find just one basic Forest or one basic Plains card if you don’t have both in your library or if you don’t wish to find both.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/240/yasharn-implacable-earth) · oracle_id `6dc23410-4d8f-4c8a-92b4-a8b3fae1af4e` · printing: ZNR #240 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yasmin Khan
 
@@ -259,7 +310,16 @@
   > *"We're going to find her and we're going to rescue her. She's done it for us enough times—now it's our turn."*
 - **Keywords:** Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15906 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/7/yasmin-khan) · oracle_id `93637599-d9b4-4f7e-a5c0-5a92656e941e` · printing: WHO #7 (2023-10-13) · [rulings](https://api.scryfall.com/cards/12b09a4f-bb62-4766-8115-cae4d5cc4c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+  - *2023-10-13* — You must pay all costs and follow all normal timing rules when playing a card using Yasmin Khan's first ability. For example, you may play a land only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/7/yasmin-khan) · oracle_id `93637599-d9b4-4f7e-a5c0-5a92656e941e` · printing: WHO #7 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yasova Dragonclaw
 
@@ -271,7 +331,10 @@
   > At the beginning of combat on your turn, you may pay {1}{U/R}{U/R}. If you do, gain control of target creature an opponent controls with power less than Yasova Dragonclaw's power until end of turn, untap that creature, and it gains haste until end of turn.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18137 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/148/yasova-dragonclaw) · oracle_id `75dc0995-f89e-4a2c-b30b-9b5a07c21183` · printing: FRF #148 (2015-01-23) · [rulings](https://api.scryfall.com/cards/490994c6-9fef-482b-835d-a64350bfaa8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
+  - *2014-11-24* — The powers of the target creature and Yasova Dragonclaw are checked as you put the ability on the stack and again as the ability resolves. Once the ability resolves, it doesn’t matter what happens to either creature’s power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/148/yasova-dragonclaw) · oracle_id `75dc0995-f89e-4a2c-b30b-9b5a07c21183` · printing: FRF #148 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yathan Roadwatcher
 
@@ -284,7 +347,9 @@
   > *She keeps watch for dragonstorms and rival clans alike. For dragons, she raises an alarm. For thieves, her blade.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/236/yathan-roadwatcher) · oracle_id `0c3d86b6-5dcd-4016-9b4a-d4f66b1e963f` · printing: TDM #236 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8e77339b-dd82-481c-9ee2-4156ca69ad35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You don’t choose a target for Yathan Roadwatcher’s ability at the time it triggers. Rather, a second “reflexive” ability triggers when you mill four cards this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/236/yathan-roadwatcher) · oracle_id `0c3d86b6-5dcd-4016-9b4a-d4f66b1e963f` · printing: TDM #236 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yathan Tombguard
 
@@ -298,6 +363,7 @@
   > *"Our khan would grant you clemency. She is naive. And unfortunately for you, she is also not here."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10141 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/100/yathan-tombguard) · oracle_id `2321b4fc-6b73-4d1a-84cc-13524adb0899` · printing: TDM #100 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9e65d487-705a-4c3b-9bb6-69351e5dae81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Ancients
@@ -311,6 +377,7 @@
   > *"We orphans of Fyndhorn have found no welcome in this alien place."*
   > *—Taaveti of Kelsinko, elvish hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28469 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/190/yavimaya-ancients) · oracle_id `0e91a873-a680-4ca2-b073-26aa39376d77` · printing: ME2 #190 (2008-09-22) · [rulings](https://api.scryfall.com/cards/4f6ea327-524b-4790-abec-05c67d7f3bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Ants
@@ -326,7 +393,9 @@
   > *—Kaysa, elder druid of the Juniper Order*
 - **Keywords:** Haste, Trample, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/140/yavimaya-ants) · oracle_id `3f5bbfaa-cbd7-47af-9aa2-abb49d672734` · printing: ME1 #140 (2007-09-10) · [rulings](https://api.scryfall.com/cards/41fba6db-fc52-43f2-a5d6-72001be126af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/140/yavimaya-ants) · oracle_id `3f5bbfaa-cbd7-47af-9aa2-abb49d672734` · printing: ME1 #140 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Barbarian
 
@@ -339,6 +408,7 @@
   > *Not all elves embrace the pastoral life. Some still roam the forest's edge, forever making war against their hated enemies.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29942 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/290/yavimaya-barbarian) · oracle_id `04576b4d-2977-4cdf-b4a5-b0b47995e962` · printing: INV #290 (2000-10-02) · [rulings](https://api.scryfall.com/cards/8e17377d-4dad-4144-b0ce-c849636096a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Bloomsage // Channel
@@ -351,7 +421,24 @@
   > Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11070 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/44/yavimaya-bloomsage-channel) · oracle_id `d9068051-b51c-4700-b492-30b148e3a72c` · printing: SOC #44 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc962e45-ab71-47e2-b736-644901ffe7d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Once your life total is 0, you can't pay any more life, even if you've somehow not lost the game yet.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/44/yavimaya-bloomsage-channel) · oracle_id `d9068051-b51c-4700-b492-30b148e3a72c` · printing: SOC #44 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Coast
 
@@ -363,7 +450,10 @@
 - **Flavor text** (SOC printing):
   > *As magnigoth trees expanded across the sea into Almaaz and New Argive, it became clear Yavimaya's borders were never confined by its coastline.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/425/yavimaya-coast) · oracle_id `40b36bc6-c185-4bda-99e7-0118953c2c97` · printing: SOC #425 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f4c1500b-1f4c-4d33-810c-25e3bb0a4666/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
+  - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/425/yavimaya-coast) · oracle_id `40b36bc6-c185-4bda-99e7-0118953c2c97` · printing: SOC #425 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya, Cradle of Growth
 
@@ -375,7 +465,11 @@
   > *"Multani's heart is a seed, and all of Yavimaya is its flower. There is as much life here as in the rest of Dominaria together."*
   > *—Karn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #79 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/261/yavimaya-cradle-of-growth) · oracle_id `8dd5f5af-d2d8-4356-8617-8381081b930c` · printing: MH2 #261 (2021-06-18) · [rulings](https://api.scryfall.com/cards/4e4b6e22-93b2-4896-bba5-0ceaa5d8ea3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — Land cards not on the battlefield aren't Forests while Yavimaya is on the battlefield.
+  - *2021-06-18* — Yavimaya's ability causes each land on the battlefield to have the land type Forest. Any land that's a Forest has the ability "{T}: Add {G}." Nothing else changes about those lands, including their names, other subtypes, and whether they're legendary, basic, or snow.
+  - *2021-06-18* — Yavimaya, Cradle of Growth isn't a Forest while it's not on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/261/yavimaya-cradle-of-growth) · oracle_id `8dd5f5af-d2d8-4356-8617-8381081b930c` · printing: MH2 #261 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Dryad
 
@@ -389,7 +483,10 @@
   > *The parched earth still shielded those few souls with the heart to call it home.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/247/yavimaya-dryad) · oracle_id `6d1a1ea3-6d83-4bee-a7fe-0ddd0f3019cf` · printing: TSR #247 (2021-03-19) · [rulings](https://api.scryfall.com/cards/9807f9a8-a994-4fb2-ad33-3d80d9702bfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — In a multiplayer game, if you leave the game, the Forest you own leaves as well. If instead another player who received your Forest from Yavimaya Dryad leaves the game, that land is exiled.
+  - *2021-03-19* — You can be the target of Yavimaya Dryad's triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/247/yavimaya-dryad) · oracle_id `6d1a1ea3-6d83-4bee-a7fe-0ddd0f3019cf` · printing: TSR #247 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Elder
 
@@ -400,7 +497,9 @@
   > When this creature dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle.
   > {2}, Sacrifice this creature: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/208/yavimaya-elder) · oracle_id `7fd4c452-07f2-492c-9c78-d1c6362d9eec` · printing: DSC #208 (2024-09-27) · [rulings](https://api.scryfall.com/cards/27dacbde-a646-418c-b569-4a4f11c9faae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — If you activate Yavimaya Elder's last ability, its triggered ability will trigger and go on the stack. It will resolve first, meaning you'll do the search and shuffle before drawing a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/208/yavimaya-elder) · oracle_id `7fd4c452-07f2-492c-9c78-d1c6362d9eec` · printing: DSC #208 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Enchantress
 
@@ -412,6 +511,7 @@
 - **Flavor text** (C18 printing):
   > *Her roots connect her to the forest's wishes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/167/yavimaya-enchantress) · oracle_id `495fc654-7986-4d76-9d5c-bc1484e98de2` · printing: C18 #167 (2018-08-10) · [rulings](https://api.scryfall.com/cards/e7255a92-12eb-4506-a3fa-996cd38ca836/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Gnats
@@ -427,6 +527,7 @@
   > *—Disa the Restless, journal entry*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30207 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/280/yavimaya-gnats) · oracle_id `828c1a94-36e1-484b-afc8-87f85956d60d` · printing: ICE #280 (1995-06-03) · [rulings](https://api.scryfall.com/cards/9d8b7020-ca8f-4867-bc51-13d824daf154/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Granger
@@ -439,7 +540,9 @@
   > When this creature enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/118/yavimaya-granger) · oracle_id `fac9ff8d-8342-4099-b224-d48a044bcc9a` · printing: ULG #118 (1999-02-15) · [rulings](https://api.scryfall.com/cards/05414a41-b50c-49b6-9c27-f3170017d9b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/118/yavimaya-granger) · oracle_id `fac9ff8d-8342-4099-b224-d48a044bcc9a` · printing: ULG #118 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Hollow
 
@@ -452,6 +555,7 @@
   > *For all its traps and defenses, Yavimaya has its havens, too.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3731 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/325/yavimaya-hollow) · oracle_id `53d6113d-acdb-4754-9641-f7991a96c7b9` · printing: VMA #325 (2014-06-16) · [rulings](https://api.scryfall.com/cards/d9fdbc02-7ab7-4f77-8a89-5a9e01eb32f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Iconoclast
@@ -467,7 +571,14 @@
   > *Steel weapons hold a forbidden allure to some of the younger Yavimayans.*
 - **Keywords:** Trample, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/190/yavimaya-iconoclast) · oracle_id `9900c771-ab81-415e-90a7-123c1bacfa83` · printing: DMU #190 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1b1af9be-7f5e-48e9-a6e7-9261e199812e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/190/yavimaya-iconoclast) · oracle_id `9900c771-ab81-415e-90a7-123c1bacfa83` · printing: DMU #190 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Kavu
 
@@ -480,6 +591,7 @@
 - **Flavor text** (INV printing):
   > *Kavu hunt prey in packs—one kavu hunts a pack of prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/291/yavimaya-kavu) · oracle_id `285c9f49-4aeb-468c-bb41-f5ccb5257e2b` · printing: INV #291 (2000-10-02) · [rulings](https://api.scryfall.com/cards/1872f104-7cf1-41e3-b1b4-ca75c678e08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Sapherd
@@ -493,6 +605,7 @@
   > *"When their community grows cluttered, thallids begin a traditional bobbing dance, then trek out in all directions."*
   > *—\*Sarpadian Empires, vol. III\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/189/yavimaya-sapherd) · oracle_id `42a1954f-774e-4d80-98b3-a736f23e2060` · printing: DOM #189 (2018-04-27) · [rulings](https://api.scryfall.com/cards/5ef6b657-7273-4abe-92f4-e1e4cda78f96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Scion
@@ -506,6 +619,7 @@
   > *Each time the saw blade bit, the tree spat it out.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/119/yavimaya-scion) · oracle_id `6e06b5cc-444c-49c9-b08a-81ef8d97c9ab` · printing: ULG #119 (1999-02-15) · [rulings](https://api.scryfall.com/cards/a2f80036-1058-4513-8549-0557df9b5d61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya's Embrace
@@ -518,6 +632,7 @@
   > Enchanted creature gets +2/+2 and has trample.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/229/yavimayas-embrace) · oracle_id `d5cb0370-a6f0-40c0-8b8f-553fca23778d` · printing: 2XM #229 (2020-08-07) · [rulings](https://api.scryfall.com/cards/1ac29eb6-2770-4723-942b-b393c2abc02b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Sojourner
@@ -531,7 +646,12 @@
   > *To the long-lived treefolk, the Phyrexians invading again after only three centuries was as though they never left.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25357 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/191/yavimaya-sojourner) · oracle_id `b3e9917e-1bcf-4e8e-9550-7f5897dcb433` · printing: DMU #191 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c7fdb424-4d2c-437e-b2a2-8bc56c028338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+  - *2022-09-09* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Yavimaya Sojourner). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2022-09-09* — Yavimaya Sojourner’s first ability can’t reduce the {G} in its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/191/yavimaya-sojourner) · oracle_id `b3e9917e-1bcf-4e8e-9550-7f5897dcb433` · printing: DMU #191 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Steelcrusher
 
@@ -543,7 +663,12 @@
   > {1}, Sacrifice this creature: Destroy target artifact.
 - **Keywords:** Enlist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/152/yavimaya-steelcrusher) · oracle_id `ad181ee7-756f-4002-9009-023ea6172991` · printing: DMU #152 (2022-09-09) · [rulings](https://api.scryfall.com/cards/25175622-7b68-4916-adf2-3bf2d82e8356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — The attacking player chooses whether to tap a creature for an enlist ability immediately after they tap the creatures that they have chosen to attack with. You can’t choose to enlist a creature later.
+  - *2022-09-09* — To enlist a creature, that creature must be untapped, it must not be attacking (even if it has vigilance), and it must have haste or have been under that attacking player’s control since the beginning of their current turn.
+  - *2022-09-09* — When a player taps a creature for an attacking creature’s enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature’s power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
+  - *2022-09-09* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can’t be tapped for more than one enlist ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/152/yavimaya-steelcrusher) · oracle_id `ad181ee7-756f-4002-9009-023ea6172991` · printing: DMU #152 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yavimaya Wurm
 
@@ -556,6 +681,7 @@
   > *Anywhere else, colossal. In the forests of Yavimaya, commonplace.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26295 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/200/yavimaya-wurm) · oracle_id `93514874-41e8-49e7-8935-d06e852dd1e3` · printing: M11 #200 (2010-07-16) · [rulings](https://api.scryfall.com/cards/4516b135-3691-4be5-ab73-91fbdc6b24b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth Demon
@@ -569,7 +695,9 @@
   > At the beginning of your upkeep, you may sacrifice an artifact. If you don't, tap this creature and it deals 2 damage to you.
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28960 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/170/yawgmoth-demon) · oracle_id `6c54fc14-2af8-46e8-a4dc-b2a0a88ef2e1` · printing: 9ED #170 (2005-07-29) · [rulings](https://api.scryfall.com/cards/696a9fe1-ce63-4638-8793-5187fc726731/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The sacrificing of an artifact is not mandatory. You can choose not to sacrifice an artifact but will pay the consequences.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/170/yawgmoth-demon) · oracle_id `6c54fc14-2af8-46e8-a4dc-b2a0a88ef2e1` · printing: 9ED #170 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth Merfolk Soul
 
@@ -581,6 +709,7 @@
   > {TK}{TK} — 3/3
   > {TK}{TK}{TK}{TK} — 6/5
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/35/yawgmoth-merfolk-soul) · oracle_id `4c02ee30-8681-45ed-adb5-edf06409eee4` · printing: SUNF #35 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3af82a50-8f49-4bab-b8f3-da2214d3601d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Agenda
@@ -592,7 +721,11 @@
   > You may play lands and cast spells from your graveyard.
   > If a card would be put into your graveyard from anywhere, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/135/yawgmoths-agenda) · oracle_id `72177c93-ed1f-47bd-99a6-ad229a292d46` · printing: INV #135 (2000-10-02) · [rulings](https://api.scryfall.com/cards/50f7ea7f-4f17-4f78-b68e-693e265ca829/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — It will exile itself if it is going to the graveyard from the battlefield.
+  - *2004-10-04* — The cards in your graveyard are not considered to be in your hand for any reason. For example, you can't discard them.
+  - *2004-10-04* — You count spells that were cast this turn before this card enters. (The Invasion FAQ is not correct on this point.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/135/yawgmoths-agenda) · oracle_id `72177c93-ed1f-47bd-99a6-ad229a292d46` · printing: INV #135 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Bargain
 
@@ -604,6 +737,7 @@
 - **Flavor text** (VMA printing):
   > *He craves only one commodity.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/147/yawgmoths-bargain) · oracle_id `f7f76f39-a0de-4bda-86b6-0f291892fcec` · printing: VMA #147 (2014-06-16) · [rulings](https://api.scryfall.com/cards/eef31b59-45bb-4208-8957-1564902c8507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Day Planner
@@ -615,6 +749,7 @@
   > You may cast spells from your graveyard. Only mana produced by abilities that caused you to lose life may be spent to cast spells this way. (Damage causes loss of life.)
   > If a card would be put into your graveyard from anywhere, exile it instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/555/yawgmoths-day-planner) · oracle_id `22f5e27d-dc22-4acc-9189-c00d912c49e8` · printing: MB2 #555 (2024-08-02) · [rulings](https://api.scryfall.com/cards/30f04aaa-014e-422a-b357-a6e98deebd1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Edict
@@ -626,6 +761,7 @@
 - **Flavor text** (7ED printing):
   > *The warping of bodies and souls has become the heart of Yawgmoth's existence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26144 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/171/yawgmoths-edict) · oracle_id `544eca0d-63cd-4cc5-9318-c2006cdec170` · printing: 7ED #171 (2001-04-11) · [rulings](https://api.scryfall.com/cards/f72ed0e5-37a0-4909-a37e-ba4745bfae3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Testament
@@ -636,6 +772,7 @@
   > Until end of turn, you may play face-up cards you own from exile.
   > If a card would be put into your graveyard or exile from anywhere this turn, put it on the bottom of your library instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/52/yawgmoths-testament) · oracle_id `74b1db17-636d-40ba-8752-276e80b603a6` · printing: CMB2 #52 (2021-08-20) · [rulings](https://api.scryfall.com/cards/9528519a-a26c-4c55-87c3-6b3fb7d23f52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Vile Offering
@@ -648,7 +785,10 @@
 - **Flavor text** (MOC printing):
   > *Centuries ago, a mad god offered a simple trade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6241 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/271/yawgmoths-vile-offering) · oracle_id `740f9ab2-fc94-4abc-82b4-6b53116bf1a4` · printing: MOC #271 (2023-04-21) · [rulings](https://api.scryfall.com/cards/31825ceb-d795-4ad7-81d8-77ab34c272f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Other than the casting restriction, the legendary supertype on a sorcery carries no additional rules. You may cast any number of legendary sorceries in a turn, and your deck may contain any number of legendary cards (but no more than four of any with the same name).
+  - *2018-04-27* — You can't cast a legendary sorcery unless you control a legendary creature or a legendary planeswalker. Once you begin to cast a legendary sorcery, losing control of your legendary creatures and planeswalkers won't affect that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/271/yawgmoths-vile-offering) · oracle_id `740f9ab2-fc94-4abc-82b4-6b53116bf1a4` · printing: MOC #271 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth's Will
 
@@ -658,7 +798,15 @@
   > Until end of turn, you may play lands and cast spells from your graveyard.
   > If a card would be put into your graveyard from anywhere this turn, exile that card instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2625 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/148/yawgmoths-will) · oracle_id `322f0459-f394-44f0-977b-55fd0cbe0712` · printing: VMA #148 (2014-06-16) · [rulings](https://api.scryfall.com/cards/337239c7-73c4-4e2d-9160-ed26927dea1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — If an effect asks you to discard a card, you can’t “discard” something that is in your graveyard. Those cards are not in your hand. Thus, Cycling abilities of cards in the graveyard can’t be activated.
+  - *2004-10-04* — If you cast a Buyback spell, then there will be two effects trying to replace where the card goes. You get to choose if the Buyback returns the card to your hand or the card gets exiled.
+  - *2004-10-04* — If you play a card using Yawgmoth’s Will and something triggers only when “cast from your hand”, that something will not trigger. Such things trigger based on where the card came from.
+  - *2004-10-04* — It will exile itself since it goes to the graveyard after its effect starts.
+  - *2004-10-04* — The second ability creates a replacement effect. It applies to both costs and effects.
+  - *2004-10-04* — To “play a card” is to either cast a spell or to put a land onto the battlefield using the main phase special action.
+  - *2006-10-15* — You cannot Suspend a card from your graveyard, only your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/148/yawgmoths-will) · oracle_id `322f0459-f394-44f0-977b-55fd0cbe0712` · printing: VMA #148 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawgmoth, Thran Physician
 
@@ -671,7 +819,20 @@
   > {B}{B}, Discard a card: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Protection, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #834 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician) · oracle_id `a1e232c0-dc38-47be-a5a0-f68bc1d86a29` · printing: DMR #110 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b5a79f5d-d0df-4799-ac3a-84305e3af0c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-03-19* — Protection from Humans refers only to the creature type Human. As far as Yawgmoth is concerned, you, your opponents, and planeswalkers aren't Humans.
+  - *2021-03-19* — You may activate Yawgmoth's first activated ability without choosing a target creature. You'll just draw a card. However, if you choose a target and it becomes illegal before the ability tries to resolve, the ability won't resolve and you won't draw a card.
+  - *2022-12-08* — If a permanent has +1/+1 counters and -1/-1 counters on it, they're removed in pairs as a state-based action until that permanent has only one of those kinds of counters on it.
+  - *2022-12-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2022-12-08* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2022-12-08* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/110/yawgmoth-thran-physician) · oracle_id `a1e232c0-dc38-47be-a5a0-f68bc1d86a29` · printing: DMR #110 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yawning Fissure
 
@@ -682,4 +843,6 @@
 - **Flavor text** (M10 printing):
   > *The mapmaker scowled. He sighed, unrolled his parchment, and painted a large black blob where the Eternal Meadow was once marked.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29305 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/164/yawning-fissure) · oracle_id `634ec9d3-24c9-4090-a087-2624b6d5bf5b` · printing: M10 #164 (2009-07-17) · [rulings](https://api.scryfall.com/cards/fa364a1c-14e4-4dda-aa1f-edb879a64a2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — First the opponent whose turn it is — or, more likely, the first opponent to left of the player whose turn it is — chooses and announces which land they will sacrifice, then each other opponent in turn order does the same, then all lands are sacrificed at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/164/yawning-fissure) · oracle_id `634ec9d3-24c9-4090-a087-2624b6d5bf5b` · printing: M10 #164 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

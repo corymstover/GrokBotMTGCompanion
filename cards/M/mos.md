@@ -40,7 +40,10 @@
   > Infusion — At the beginning of your end step, if you gained life this turn, return up to one target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of life you gained this turn.
 - **Keywords:** Infusion, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4113 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/91/moseo-veins-new-dean) · oracle_id `c2e2f21a-0338-44d7-96a5-5a277f0ec419` · printing: SOS #91 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6877180c-22a1-4c4d-9178-316f4c34661b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2026-03-20* — Moseo's last ability will check as your end step starts to see if you gained life this turn. If you didn't, the ability won't trigger at all. It's not possible to gain life during your end step in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/91/moseo-veins-new-dean) · oracle_id `c2e2f21a-0338-44d7-96a5-5a277f0ec419` · printing: SOS #91 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosquito Guard
 
@@ -54,6 +57,7 @@
   > *His aim is as sure as a mosquito's sting, but with none of the warning.*
 - **Keywords:** First strike, Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27126 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/6/mosquito-guard) · oracle_id `6beaeec2-b4e9-4904-b817-c0118549d4a9` · printing: DDF #6 (2010-09-03) · [rulings](https://api.scryfall.com/cards/626040ca-adb0-49c8-82cd-d1e27926cb79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossbeard Ancient
@@ -68,6 +72,7 @@
   > *Older than the mountains, the dragons, and the wars of humans and machines.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/173/mossbeard-ancient) · oracle_id `26afc8c1-c23f-4212-a2aa-386c71c4a7f9` · printing: DMU #173 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7e528d36-cea6-4013-83d5-ba837d570713/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossborn Hydra
@@ -81,7 +86,13 @@
   > Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature.
 - **Keywords:** Trample, Double, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/107/mossborn-hydra) · oracle_id `84122d81-9634-4d3f-85a5-f6cf4303691a` · printing: FDN #107 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7054a0d7-396f-40b4-ab24-db591c3b08f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — If Mossborn Hydra somehow enters at the same time as one or more other lands you control, its last ability triggers for each of those lands.
+  - *2024-11-08* — To double the number of +1/+1 counters on Mossborn Hydra, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/107/mossborn-hydra) · oracle_id `84122d81-9634-4d3f-85a5-f6cf4303691a` · printing: FDN #107 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossbridge Troll
 
@@ -93,7 +104,10 @@
   > Tap any number of untapped creatures you control other than this creature with total power 10 or greater: This creature gets +20/+20 until end of turn.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/123/mossbridge-troll) · oracle_id `87aa466e-7985-40ff-bef6-dcae35fe0106` · printing: SHM #123 (2008-05-02) · [rulings](https://api.scryfall.com/cards/537c39cc-44d3-4869-9e76-dd9c2c68ee90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — The first ability essentially means that Mossbridge Troll always has a regeneration shield. It retains that shield even if it's used.
+  - *2008-05-01* — The total power of the creatures you tap is checked only when you pay the cost. It doesn't matter if their power decreases, or if any of them have left the battlefield, by the time the ability resolves. Note that you may tap a Mossbridge Troll to help pay the cost of a different Mossbridge Troll's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/123/mossbridge-troll) · oracle_id `87aa466e-7985-40ff-bef6-dcae35fe0106` · printing: SHM #123 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosscoat Goriak
 
@@ -107,6 +121,7 @@
   > *—Vivien Reid*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29748 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/167/mosscoat-goriak) · oracle_id `28cc015f-1f3e-417a-9762-de25109fee5c` · printing: IKO #167 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c23139d4-0db5-4683-8d49-f4600fbe29e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Diamond
@@ -119,6 +134,7 @@
 - **Flavor text** (CLB printing):
   > *Every facet a promise of Chauntea's bounty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4415 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/327/moss-diamond) · oracle_id `02500f21-6e15-423e-93ff-891e09fe9904` · printing: CLB #327 (2022-06-10) · [rulings](https://api.scryfall.com/cards/96fcae3a-d58c-4832-8280-3f65b5dfd853/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossdog
@@ -131,6 +147,7 @@
 - **Flavor text** (NEM printing):
   > *The more you look at it, the more dangerous it becomes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28336 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/106/mossdog) · oracle_id `95cc3652-b78b-473b-84cf-0dd3a7006219` · printing: NEM #106 (2000-02-14) · [rulings](https://api.scryfall.com/cards/2bbe0201-3df3-4d0c-8aa4-8f35f12c322c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossfire Egg
@@ -143,7 +160,9 @@
   > *"Can you feel your instincts overwhelm your reason?"*
   > *—Watnik, master glassblower*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22577 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/304/mossfire-egg) · oracle_id `364b3231-c0e7-45a8-90b9-a1cdb584dd7c` · printing: ODY #304 (2001-10-01) · [rulings](https://api.scryfall.com/cards/1fd66433-b0e9-453d-9a27-ea0efb158dac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — This is a mana ability, which means it can be activated as part of the process of casting a spell or activating another ability. If that happens you get the mana right away, but you don’t get to look at the drawn card until you have finished casting that spell or activating that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/304/mossfire-egg) · oracle_id `364b3231-c0e7-45a8-90b9-a1cdb584dd7c` · printing: ODY #304 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossfire Valley
 
@@ -154,6 +173,7 @@
 - **Flavor text** (TDC printing):
   > *Lush growth spreads like a ferocious blaze across the Otarian hillsides.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #552 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/378/mossfire-valley) · oracle_id `23bbd091-f6ff-4514-97aa-42c08164b4eb` · printing: TDC #378 (2025-04-11) · [rulings](https://api.scryfall.com/cards/29208018-8079-44bc-b33b-21cda4709bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Kami
@@ -167,6 +187,7 @@
   > *Kami manifest in the form of whatever they embody in the physical plane. Some tower in the shape of moss or bark, while others take forms beyond mortal imagining.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30960 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/228/moss-kami) · oracle_id `3ddd58a3-85f6-40ba-812f-057c0c4417a7` · printing: CHK #228 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a437cde4-c40b-40a3-bc19-e461c98186dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Monster
@@ -179,6 +200,7 @@
 - **Flavor text** (8ED printing):
   > *After the battle, an eerie silence gripped the forest. The losers' remains were lightly dusted with green.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/267/moss-monster) · oracle_id `60efa8a2-6903-4756-92fd-29f6ba6ef67a` · printing: 8ED #267 (2003-07-28) · [rulings](https://api.scryfall.com/cards/15511fda-92ae-4d27-8a83-37e821ec3adf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss-Pit Skeleton
@@ -192,7 +214,16 @@
   > Whenever one or more +1/+1 counters are put on a creature you control, if this card is in your graveyard, you may put this card on top of your library.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/228/moss-pit-skeleton) · oracle_id `edf0e7c0-d9a1-4d29-9cee-5267d3a3978f` · printing: ZNR #228 (2020-09-25) · [rulings](https://api.scryfall.com/cards/95a445dc-3aea-4281-a145-0ab3a28ec6c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-09-25* — Moss-Pit Skeleton's last ability triggers if a creature enters the battlefield under your control with +1/+1 counters on it, as well as when +1/+1 counters are put on a creature you already control.
+  - *2020-09-25* — Moss-Pit Skeleton's last ability triggers only if it's already in your graveyard as +1/+1 counters are put onto a creature you control.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/228/moss-pit-skeleton) · oracle_id `edf0e7c0-d9a1-4d29-9cee-5267d3a3978f` · printing: ZNR #228 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosstodon
 
@@ -204,7 +235,9 @@
 - **Flavor text** (ALA printing):
   > *Whether gargantuans are the manifested will of Progenitus or simply the result of overabundant resources is moot when a herd of them is thundering at you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/139/mosstodon) · oracle_id `a41b610e-125d-4921-81f9-6391f9214d12` · printing: ALA #139 (2008-10-03) · [rulings](https://api.scryfall.com/cards/05afd921-ef3b-40fe-a1a8-582ee94ed3f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The ability checks the targeted creature’s power twice: when the creature becomes the target, and when the ability resolves. Once the ability resolves, it will continue to apply to the affected creature no matter what its power may become later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/139/mosstodon) · oracle_id `a41b610e-125d-4921-81f9-6391f9214d12` · printing: ALA #139 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Viper
 
@@ -217,6 +250,7 @@
   > *Nylea watches over all the creatures of the forest except for the snakes. Blessed by Pharika, they can take care of themselves.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/179/moss-viper) · oracle_id `7d6f6ee4-77c2-4986-91c7-7dee962fc1a7` · printing: THB #179 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a4d35ec4-0e0d-4611-8ad9-39d2c8a2ad6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosswood Dreadknight // Dread Whispers
@@ -230,7 +264,21 @@
   > You draw a card and you lose 1 life. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers) · oracle_id `5783facf-d26e-4aae-a753-b9dc553361c1` · printing: WOE #231 (2023-09-08) · [rulings](https://api.scryfall.com/cards/9869ac70-5907-45fa-952c-31aef70c5066/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must follow the normal timing permissions and restrictions for Dread Whispers when casting it with the permission of Mosswood Dreadknight's triggered ability. You must pay its mana cost (or, if another effect allows, an alternative cost).
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers) · oracle_id `5783facf-d26e-4aae-a753-b9dc553361c1` · printing: WOE #231 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosswort Bridge
 
@@ -243,7 +291,12 @@
   > {G}, {T}: You may play the exiled card without paying its mana cost if creatures you control have total power 10 or greater.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/379/mosswort-bridge) · oracle_id `7cb9e29f-835f-4155-a2a5-4b778866c773` · printing: TDC #379 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1490c0dc-06d6-45ee-af3c-2935b0ab1233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/379/mosswort-bridge) · oracle_id `7cb9e29f-835f-4155-a2a5-4b778866c773` · printing: TDC #379 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Decrepit Old Bird // Speak Secrets
 
@@ -256,7 +309,20 @@
   > Mill four cards, then put an instant or sorcery card from among them into your hand.
 - **Keywords:** Flying, Threshold, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/49/most-decrepit-old-bird-speak-secrets) · oracle_id `34d34f2c-06ff-4acf-8f2f-ff867774b777` · printing: HOB #49 (2026-08-14) · [rulings](https://api.scryfall.com/cards/2d838feb-89f2-4cdb-a5ab-ec880f28d873/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-06-29* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.").
+  - *2026-06-29* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2026-06-29* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2026-06-29* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2026-06-29* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2026-06-29* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2026-06-29* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-06-29* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2026-06-29* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
+  - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/49/most-decrepit-old-bird-speak-secrets) · oracle_id `34d34f2c-06ff-4acf-8f2f-ff867774b777` · printing: HOB #49 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Valuable Slayer
 
@@ -268,6 +334,7 @@
 - **Flavor text** (DSK printing):
   > *Torain had never lost a match in his life, and he didn't plan to start now.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20886 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/144/most-valuable-slayer) · oracle_id `f5bece93-afb3-4fa4-83a8-d7eaac032522` · printing: DSK #144 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c2b7b635-4c72-4129-bf95-1eef05cce3d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Wanted
@@ -283,4 +350,5 @@
   > *Overnight, Elspeth was branded the most dangerous criminal in New Capenna.*
 - **Keywords:** Treasure, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17844 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/153/most-wanted) · oracle_id `140d38cc-0ae6-4e9b-a60f-a51d2947e07b` · printing: SNC #153 (2022-04-29) · [rulings](https://api.scryfall.com/cards/573c0f68-9ed8-4657-b709-b7f3804aaa68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

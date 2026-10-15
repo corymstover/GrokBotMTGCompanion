@@ -42,7 +42,11 @@
 - **Flavor text** (UST printing):
   > *Martha was in and out in exactly two minutes—thirty seconds to administer the poison plus a minute and a half to properly refold the napkins.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/73/subcontract) · oracle_id `ce9a7e3f-ec9b-4258-ba32-9603f9a9c18c` · printing: UST #73 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c349f19b-1f9e-4541-943a-a6933d01ad73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
+  - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/73/subcontract) · oracle_id `ce9a7e3f-ec9b-4258-ba32-9603f9a9c18c` · printing: UST #73 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subdue
 
@@ -51,6 +55,7 @@
 - **Oracle text:**
   > Prevent all combat damage that would be dealt by target creature this turn. That creature gets +0/+X until end of turn, where X is its mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/206/subdue) · oracle_id `81bac4b8-277b-415a-9064-a80a68fd7051` · printing: LEG #206 (1994-06-01) · [rulings](https://api.scryfall.com/cards/123d6097-8021-46cd-a8c3-01013245e347/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subgoyf
@@ -61,7 +66,13 @@
 - **Oracle text:**
   > Subgoyf's power and toughness are each equal to the number of different subtypes other than creature types among cards in all graveyards and its toughness is equal to that number plus 1. (Subtypes include but are absolutely not limited to: Plains, Equipment, Aura, Arcane, Jace, Curse, Urza's, Ulamog's, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/536/subgoyf) · oracle_id `9e57331c-b5b0-40b7-ba2d-6effa9d0abea` · printing: MB2 #536 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3144ee6e-5dca-4fda-9f78-852541b3f4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — Subtypes appear on cards’ type lines after a long dash.
+  - *2024-11-08* — The ability that defines Subgoyf’s power and toughness applies in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/536/subgoyf) · oracle_id `9e57331c-b5b0-40b7-ba2d-6effa9d0abea` · printing: MB2 #536 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subira, Tulzidi Caravanner
 
@@ -74,7 +85,12 @@
   > {1}{R}, {T}, Discard your hand: Until end of turn, whenever a creature you control with power 2 or less deals combat damage to a player, draw a card.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8284 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/261/subira-tulzidi-caravanner) · oracle_id `9e2e3272-d4e1-4329-b1d2-f393b3511b82` · printing: CMM #261 (2023-08-04) · [rulings](https://api.scryfall.com/cards/da62b97e-e4cd-462d-9ab9-2230ca360c32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-06-23* — If the target creature's power is greater than 2 as the first activated ability tries to resolve, the ability doesn't resolve. However, if instead the creature's power is raised above 2 after the ability resolves, it still can't be blocked that turn.
+  - *2020-06-23* — Once Subira's last ability resolves, check to see if the delayed triggered ability should trigger based on the power of the creatures immediately after damage is dealt, not based on their power as the ability resolves.
+  - *2020-06-23* — Once a creature with power 2 or less has been blocked, Subira's middle ability won't cause it to become unblocked.
+  - *2020-06-23* — You can activate Subira's last ability if your hand is empty. You simply discard zero cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/261/subira-tulzidi-caravanner) · oracle_id `9e2e3272-d4e1-4329-b1d2-f393b3511b82` · printing: CMM #261 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subjugate the Hobbits
 
@@ -86,6 +102,7 @@
   > *"This is worse than Mordor! Much worse, in a way. It comes home to you, as they say, because it is a home, and you remember it before it was all ruined."*
   > *—Sam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/24/subjugate-the-hobbits) · oracle_id `eb56141a-eb43-40e9-8ff1-e0ef5424f6a4` · printing: LTC #24 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6206d9f1-6a57-46a2-942f-6f20e33e5d6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subjugator Angel
@@ -100,6 +117,7 @@
   > *The remnants of Innistrad's corrupted angelic hosts collapsed to form the Flight of Nightmares.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9430 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/43/subjugator-angel) · oracle_id `88b1e06c-5899-4e83-8204-e2c32c0c6aff` · printing: INR #43 (2025-01-24) · [rulings](https://api.scryfall.com/cards/bb89585f-0c68-42e6-8115-07d5752f6c1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sublime Archangel
@@ -113,7 +131,9 @@
   > Other creatures you control have exalted. (If a creature has multiple instances of exalted, each triggers separately.)
 - **Keywords:** Flying, Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/38/sublime-archangel) · oracle_id `b5479c97-df19-49c7-b305-7a0336fd1cb3` · printing: UMA #38 (2018-12-07) · [rulings](https://api.scryfall.com/cards/95e53129-c49b-4bb8-a816-629fc87e58bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Whenever a creature you control attacks alone, count the number of instances of exalted among permanents you control. After those abilities resolve, that’s how many times the creature will get +1/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/38/sublime-archangel) · oracle_id `b5479c97-df19-49c7-b305-7a0336fd1cb3` · printing: UMA #38 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sublime Epiphany
 
@@ -127,7 +147,23 @@
   > • Create a token that's a copy of target creature you control.
   > • Target player draws a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/167/sublime-epiphany) · oracle_id `56148ae7-a9df-4771-8d53-d9ffb815c884` · printing: TDC #167 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0f7d3839-0bc3-402b-b9ea-c903f82d39da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2020-06-23* — Abilities that create replacement effects, such as a permanent entering the battlefield tapped or with counters on it, can't be countered. Abilities that apply "as [this creature] enters the battlefield" are also replacement effects and can't be countered.
+  - *2020-06-23* — Activated abilities are written in the form "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder texts.
+  - *2020-06-23* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
+  - *2020-06-23* — If any of the targets become illegal, the remaining targets are affected as appropriate.
+  - *2020-06-23* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2020-06-23* — If the copied creature is copying something else, the token enters the battlefield as whatever that creature is copying.
+  - *2020-06-23* — If the copied creature is itself a token, the token created by Sublime Epiphany copies the original characteristics of that token as stated by the effect that created it.
+  - *2020-06-23* — If you choose more than one mode, you perform the modes in the order specified. For example, if you choose to counter target spell, return target nonland permanent to its owner's hand, and have target player draw a card, that permanent will be on the battlefield while that spell is countered (and may modify, affect, or trigger on that event) but will not be on the battlefield while that player draws a card.
+  - *2020-06-23* — If you choose the third and fourth modes and target the same creature you control both times, you'll return it and then create a token that's a copy of it, using its copiable values as it last appeared on the battlefield. This is because the legality of targets is checked only as the spell begins to resolve, before any actions are performed.
+  - *2020-06-23* — If you counter a delayed triggered ability that triggered at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that phase or step occurs.
+  - *2020-06-23* — Sublime Epiphany's second mode can't counter an activated or triggered mana ability. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers on an activated mana ability.
+  - *2020-06-23* — Sublime Epiphany's second mode counters only activated and triggered abilities already on the stack. It doesn't prevent abilities from being activated or from triggering later in the turn, and it has no effect on static abilities.
+  - *2020-06-23* — The token copies exactly what is printed on the creature and nothing else (unless that creature is a token or is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2020-06-23* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities (such as prowess) are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+  - *2020-06-23* — You can't choose any one mode more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/167/sublime-epiphany) · oracle_id `56148ae7-a9df-4771-8d53-d9ffb815c884` · printing: TDC #167 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sublime Exhalation
 
@@ -140,7 +176,10 @@
   > *Exhale, and let the winds carry your soul for all eternity.*
 - **Keywords:** Undaunted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/60/sublime-exhalation) · oracle_id `9e0c66e9-7d2b-46bd-890e-886d0c029d1d` · printing: CMM #60 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4a8f810f-844b-4ebd-b28c-46432cf0203d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana.
+  - *2016-11-08* — Effects that reduce what you pay to cast a spell don't affect its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/60/sublime-exhalation) · oracle_id `9e0c66e9-7d2b-46bd-890e-886d0c029d1d` · printing: CMM #60 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Submerge
 
@@ -150,6 +189,7 @@
   > If an opponent controls a Forest and you control an Island, you may cast this spell without paying its mana cost.
   > Put target creature on top of its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4304 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/48/submerge) · oracle_id `99427ebe-c00d-4206-84ca-9764f6e952c6` · printing: NEM #48 (2000-02-14) · [rulings](https://api.scryfall.com/cards/d2741fe4-37fe-427f-ae85-5107991d4eee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Submerged Boneyard
@@ -163,6 +203,7 @@
   > *"Long after the land has given up the last of its secrets, there will still be mysteries in the depths of the sea."*
   > *—Kiora*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/141/submerged-boneyard) · oracle_id `f27d52e6-aab9-4f95-ae46-33d1173bf4fe` · printing: ZNC #141 (2020-09-25) · [rulings](https://api.scryfall.com/cards/8b949b06-210d-4658-97a6-43f54eb18b87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterfuge
@@ -175,7 +216,16 @@
   > Encore {7}{U}{U} ({7}{U}{U}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/6/subterfuge) · oracle_id `687cfdf7-8f35-464a-8d6e-9f2d769ed6b4` · printing: ECC #6 (2026-01-23) · [rulings](https://api.scryfall.com/cards/fdbf0034-c28a-44ed-b817-519b2a3df3c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-11-17* — Each token must attack the appropriate player if able.
+  - *2025-11-17* — Encore is an activated ability that functions from the graveyard. "Encore [cost]" means "[Cost], Exile this card from your graveyard: For each opponent, create a token that's a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery."
+  - *2025-11-17* — Exiling the card with encore is a cost to activate the encore ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2025-11-17* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+  - *2025-11-17* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2025-11-17* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2025-11-17* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2025-11-17* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/6/subterfuge) · oracle_id `687cfdf7-8f35-464a-8d6e-9f2d769ed6b4` · printing: ECC #6 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Cavern
 
@@ -189,6 +239,7 @@
   > *"Down here, I am no longer alone. I needed a kingdom, and they needed a king."*
   > *—Mole Man, Harvey Elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/273/subterranean-cavern) · oracle_id `d49a7525-eca5-48e1-b94b-d618a706fd02` · printing: MSH #273 (2026-06-26) · [rulings](https://api.scryfall.com/cards/038bf500-e23a-4d38-9312-db1909e20353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Hangar
@@ -200,6 +251,7 @@
   > {T}: Put a storage counter on this land.
   > {T}, Remove any number of storage counters from this land: Add {B} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/329/subterranean-hangar) · oracle_id `0bbd5a04-c281-4afb-98a1-657b4eca102c` · printing: MMQ #329 (1999-10-04) · [rulings](https://api.scryfall.com/cards/edc199d1-970b-489f-b713-8285151f16ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Schooner
@@ -212,7 +264,14 @@
   > Crew 1
 - **Keywords:** Crew, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/80/subterranean-schooner) · oracle_id `7f82bae3-feaa-4967-a843-32a4f72806d5` · printing: LCI #80 (2023-11-17) · [rulings](https://api.scryfall.com/cards/94b6881a-b00e-4e90-92e6-602ed8e0e090/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/80/subterranean-schooner) · oracle_id `7f82bae3-feaa-4967-a843-32a4f72806d5` · printing: LCI #80 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Scout
 
@@ -224,6 +283,7 @@
 - **Flavor text** (DMR printing):
   > *When things get ugly above ground, goblins resort to alternate routes of passage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20896 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/143/subterranean-scout) · oracle_id `19f66bfa-bdfc-430a-ae39-4535f0b28324` · printing: DMR #143 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b9e6c26c-84f8-46dd-bb32-b3fc57e172c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Shambler
@@ -236,6 +296,7 @@
   > When this creature enters or leaves the battlefield, it deals 1 damage to each creature without flying.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/178/subterranean-shambler) · oracle_id `d06be0a6-0d45-4e95-b132-88ce80dd7cb6` · printing: TSP #178 (2006-10-06) · [rulings](https://api.scryfall.com/cards/f9429ec0-ff23-494d-ab1c-b88f3a0dee1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Spirit
@@ -251,6 +312,7 @@
   > *—Dwarven mining song*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28454 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/195/subterranean-spirit) · oracle_id `58917163-584d-4c74-8243-f56c5d4b49e7` · printing: MIR #195 (1996-10-08) · [rulings](https://api.scryfall.com/cards/132e8aac-9698-45fa-8d64-b460fd5deffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subterranean Tremors
@@ -262,6 +324,7 @@
 - **Flavor text** (CN2 printing):
   > *The market is now closed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14716 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/58/subterranean-tremors) · oracle_id `f0881756-de74-43b1-a9fe-c2fde93faf5a` · printing: CN2 #58 (2016-08-26) · [rulings](https://api.scryfall.com/cards/1b9510b8-6601-4116-8713-ff7649c000eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subtle Strike
@@ -275,7 +338,9 @@
 - **Flavor text** (ZNR printing):
   > *Silence is an underrated hunting strategy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/128/subtle-strike) · oracle_id `08122109-6287-4d78-9242-2da8a25022b0` · printing: ZNR #128 (2020-09-25) · [rulings](https://api.scryfall.com/cards/0d3f531a-ce45-4cba-be24-6db749e38abd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If you choose both modes and one target becomes illegal before Subtle Strike resolves, the other target is affected as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/128/subtle-strike) · oracle_id `08122109-6287-4d78-9242-2da8a25022b0` · printing: ZNR #128 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subtlety
 
@@ -289,7 +354,13 @@
   > Evoke—Exile a blue card from your hand.
 - **Keywords:** Flying, Evoke, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4242 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/67/subtlety) · oracle_id `377179d5-ac83-4d34-b5b1-f3d8caa60f79` · printing: MH2 #67 (2021-06-18) · [rulings](https://api.scryfall.com/cards/701256d5-1389-48b7-9581-d6037209bd06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — A spell that's put into its owner's library doesn't resolve, but it isn't countered. This will work on spells that say they can't be countered.
+  - *2021-06-18* — If you pay the evoke cost, you can have the creature's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2021-06-18* — Subtlety's triggered ability targets a spell on the stack. It can't target creatures or planeswalkers on the battlefield.
+  - *2021-06-18* — The owner of the spell is the one who chooses whether it goes on the top or bottom of their library. All players will know this information.
+  - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/67/subtlety) · oracle_id `377179d5-ac83-4d34-b5b1-f3d8caa60f79` · printing: MH2 #67 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suburban Sanctuary
 
@@ -304,6 +375,7 @@
   > *—Aunt May*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9107 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/185/suburban-sanctuary) · oracle_id `6ef30340-a26d-49aa-bc86-0b8aa5252f87` · printing: SPM #185 (2025-09-26) · [rulings](https://api.scryfall.com/cards/467df77a-a99c-4cfd-9af4-502eaa2eb2e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subversion
@@ -315,7 +387,9 @@
 - **Flavor text** (ULG printing):
   > *Kerrick's corrupt domain swelled like a blister on Tolaria's skin.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/68/subversion) · oracle_id `0772c5d2-9189-47e2-b0ee-13babd94ea93` · printing: ULG #68 (1999-02-15) · [rulings](https://api.scryfall.com/cards/50f1bca9-5831-4e8b-8920-f28ebb3ffb27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is loss of life, not damage. It can’t be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/68/subversion) · oracle_id `0772c5d2-9189-47e2-b0ee-13babd94ea93` · printing: ULG #68 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Subway Train
 
@@ -327,4 +401,5 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17555 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/178/subway-train) · oracle_id `6d4472ad-3fbf-4a5d-94de-dfee04fda9c3` · printing: SPM #178 (2025-09-26) · [rulings](https://api.scryfall.com/cards/96f869f7-db88-4580-82b7-8749a55e525c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

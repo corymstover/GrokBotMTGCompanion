@@ -88,7 +88,9 @@
 - **Oracle text:**
   > When this creature enters, you may untap target permanent.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/107/eager-beaver) · oracle_id `551023a7-9db3-4204-ac64-5847adbafe79` · printing: UST #107 (2017-12-08) · [rulings](https://api.scryfall.com/cards/b07ec8f9-ffa9-43e9-bd75-babf3f8ed322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/107/eager-beaver) · oracle_id `551023a7-9db3-4204-ac64-5847adbafe79` · printing: UST #107 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager Cadet
 
@@ -100,6 +102,7 @@
 - **Flavor text** (9ED printing):
   > *"Training? Seeing my crops burnt to cinders was all the 'training' I needed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/S1/eager-cadet) · oracle_id `39780477-01ba-40c6-8fe6-2178efb10b92` · printing: 9ED #S1 (2005-07-29) · [rulings](https://api.scryfall.com/cards/0732d372-1000-435e-905b-4a6c852ba427/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager Construct
@@ -113,7 +116,9 @@
   > *Loyal to a fault, it anticipates its master's every need.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18899 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/250/eager-construct) · oracle_id `39363190-7f79-4fae-bcfc-b17ec4e07bfe` · printing: 2XM #250 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5b23ca61-157b-4616-bbf4-0c1298ddbbb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If multiple players are instructed to scry at once, such as while resolving Eager Construct's triggered ability, those players each look at the top card of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/250/eager-construct) · oracle_id `39363190-7f79-4fae-bcfc-b17ec4e07bfe` · printing: 2XM #250 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager First-Year
 
@@ -126,7 +131,13 @@
   > *Today, she learns the basics. She'll knock out advanced theory later this week.*
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/16/eager-first-year) · oracle_id `74788d52-dad7-4c10-8567-a2c86ed90a67` · printing: STX #16 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7a83543b-3b6f-4e28-96f9-007b814bcfd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus’s magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/16/eager-first-year) · oracle_id `74788d52-dad7-4c10-8567-a2c86ed90a67` · printing: STX #16 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager Glyphmage
 
@@ -138,6 +149,7 @@
 - **Flavor text** (SOS printing):
   > *Sharrel poured his heart into his words and watched them take flight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23409 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/11/eager-glyphmage) · oracle_id `070aa6c7-4741-47de-b68a-629aa4201ac0` · printing: SOS #11 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bf736de9-9bc4-49df-ae60-672ed4f83f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eager Trufflesnout
@@ -150,6 +162,7 @@
   > Whenever this creature deals combat damage to a player, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14013 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/102/eager-trufflesnout) · oracle_id `7f2ba562-8d5e-4915-967e-54916c3c5876` · printing: FDN #102 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a6e8433d-eb2a-43d1-b59b-7d70ff97c8e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagle of Deliverance
@@ -164,6 +177,7 @@
   > *Even as he came swooping down, Gwaihir saw the two figures fall, worn out, hiding their eyes from death.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12354 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/824/eagle-of-deliverance) · oracle_id `4446e59c-29f7-4722-92be-2625c1d3dab9` · printing: LTR #824 (2023-11-03) · [rulings](https://api.scryfall.com/cards/a4631187-9a5b-43d5-92d8-de6e609d2a03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagle of the Great Shelf
@@ -178,6 +192,7 @@
   > *The Goblins hated the Eagles and feared them, but could not reach their lofty seats or drive them from the mountains.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20601 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/11/eagle-of-the-great-shelf) · oracle_id `cb4b4b63-682b-4439-9757-84cca7a27db2` · printing: HOB #11 (2026-08-14) · [rulings](https://api.scryfall.com/cards/3feca644-5f65-4477-bbc8-d505cec6f3a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagle of the Watch
@@ -192,6 +207,7 @@
   > *—Kanlos, Akroan captain*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26752 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/275/eagle-of-the-watch) · oracle_id `954836f8-c225-450a-bb51-f2adb6923ef5` · printing: ORI #275 (2015-07-17) · [rulings](https://api.scryfall.com/cards/8af7956d-f811-49d3-bef7-07f294dcea3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagles of the North
@@ -205,7 +221,11 @@
   > Plainscycling {1} ({1}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Flying, Plainscycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/164/eagles-of-the-north) · oracle_id `e519cebf-0f09-4da9-abef-82928738514d` · printing: HOC #164 (2026-08-14) · [rulings](https://api.scryfall.com/cards/068a5bf7-6faf-41d5-924d-cdf387c1a193/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — Eagles of the North's triggered ability affects only creatures you control at the time it resolves. Any creatures that come under your control later in the turn won't be affected.
+  - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/164/eagles-of-the-north) · oracle_id `e519cebf-0f09-4da9-abef-82928738514d` · printing: HOC #164 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagle's Rescue
 
@@ -219,7 +239,9 @@
   > *"Don't pinch! You need not be frightened like a rabbit. What is finer than flying?"*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/155/eagles-rescue) · oracle_id `95e1c368-b58a-4e69-9583-587560ad558d` · printing: HOB #155 (2026-08-14) · [rulings](https://api.scryfall.com/cards/12c8f2cc-ac9d-4cf6-9025-efe366b4e07f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — If you activate the last ability of Eagle's Rescue and the target creature becomes an illegal target in response, the ability doesn't resolve and Eagle's Rescue remains in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/155/eagles-rescue) · oracle_id `95e1c368-b58a-4e69-9583-587560ad558d` · printing: HOB #155 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eagle Vision
 
@@ -232,7 +254,9 @@
   > *No mark remains hidden and no secret can be kept from an Assassin possessed of this unique gift.*
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/17/eagle-vision) · oracle_id `f96f1b4c-f06a-4374-8d8f-aaa06c6108c3` · printing: ACR #17 (2024-07-05) · [rulings](https://api.scryfall.com/cards/5197e8d6-cbfe-4469-95e1-f17eeb4715f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/17/eagle-vision) · oracle_id `f96f1b4c-f06a-4374-8d8f-aaa06c6108c3` · printing: ACR #17 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eardrum Rattler
 
@@ -244,7 +268,9 @@
 - **Flavor text** (FRA printing):
   > *She puts the harm in harmony.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/81/eardrum-rattler) · oracle_id `25151d18-8e73-4b0d-a8d2-e5fa291e5729` · printing: FRA #81 (2026-10-02) · [rulings](https://api.scryfall.com/cards/5f8771f9-8128-4818-a11d-41ea368cf697/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If the target creature's power changes to be greater than 2 before Eardrum Rattler's ability resolves, the ability does nothing because the target is no longer legal. However, once the ability has resolved, that creature won't be able to be blocked even if its power increases above 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/81/eardrum-rattler) · oracle_id `25151d18-8e73-4b0d-a8d2-e5fa291e5729` · printing: FRA #81 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earl of Squirrel
 
@@ -256,7 +282,10 @@
   > Creature tokens you control are Squirrels in addition to their other creature types.
   > Other Squirrels you control get +1/+1.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/108/earl-of-squirrel) · oracle_id `edc4d1fb-f482-4f2b-985e-1e4d5941e574` · printing: UST #108 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c3bbf567-bdb4-4f88-906c-eb1503c02d9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If Earl of Squirrel deals damage, you’ll create 1/1 green Squirrel creature tokens at the same time the damage is dealt.
+  - *2018-01-19* — If you control two Earls of Squirrel (Earl of Squirrels? Earl ofs Squirrel?), each will get +1/+1 from the other. Other Squirrels you control will get +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/108/earl-of-squirrel) · oracle_id `edc4d1fb-f482-4f2b-985e-1e4d5941e574` · printing: UST #108 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Early Frost
 
@@ -267,6 +296,7 @@
 - **Flavor text** (5DN printing):
   > *Under its mists, the earth sleeps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/29/early-frost) · oracle_id `9f9cdbc2-d2f2-4390-8506-350fabf3f89a` · printing: 5DN #29 (2004-06-04) · [rulings](https://api.scryfall.com/cards/5989d4c4-bfa4-4b07-ab64-65a3aee6144e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Early Harvest
@@ -282,6 +312,7 @@
   > *Plants with goodly burden bowing."*
   > *—William Shakespeare, \*The Tempest\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11265 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/235/early-harvest) · oracle_id `32001382-3079-4bbe-8d86-05da654c0d1a` · printing: 9ED #235 (2005-07-29) · [rulings](https://api.scryfall.com/cards/22113d08-ecc9-4efd-90f1-00d699582ec3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Early Winter
@@ -295,6 +326,7 @@
 - **Flavor text** (BLB printing):
   > *The climate changed and the world suffered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15754 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/93/early-winter) · oracle_id `fbf2653e-9cc4-442f-bc73-6e2ba6e067cb` · printing: BLB #93 (2024-08-02) · [rulings](https://api.scryfall.com/cards/5030e6ac-211d-4145-8c87-998a8351a467/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earnest Fellowship
@@ -307,7 +339,9 @@
   > *"The world has enough strife as it is. Where would we be if we turned against each other?"*
   > *—Pianna, nomad captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/21/earnest-fellowship) · oracle_id `26f87a39-29ed-4649-b5d8-204f6a40a41d` · printing: ODY #21 (2001-10-01) · [rulings](https://api.scryfall.com/cards/66392169-5c6f-46bf-b0df-5670e40aecd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — A creature with no color does not gain any Protection ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/21/earnest-fellowship) · oracle_id `26f87a39-29ed-4649-b5d8-204f6a40a41d` · printing: ODY #21 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earsplitting Rats
 
@@ -321,6 +355,7 @@
   > *Rats come in one amount: too many.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22036 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/65/earsplitting-rats) · oracle_id `6c14ecbf-0097-4fd8-97a3-a32b532c21e0` · printing: JUD #65 (2002-05-27) · [rulings](https://api.scryfall.com/cards/5dad63b5-ced3-4150-ad84-1ca05a892840/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbender Ascension
@@ -332,7 +367,15 @@
   > Landfall — Whenever a land you control enters, put a quest counter on this enchantment. When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn.
 - **Keywords:** Earthbend, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/175/earthbender-ascension) · oracle_id `f8966fd5-2926-4ba0-b7d6-cfea40cd4e05` · printing: TLA #175 (2025-11-21) · [rulings](https://api.scryfall.com/cards/590a58ab-5e98-4031-8aa6-ce396dc1429f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land that the first ability searches for is not on the battlefield when you select targets for earthbend, so it cannot be the land that you earthbend.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/175/earthbender-ascension) · oracle_id `f8966fd5-2926-4ba0-b7d6-cfea40cd4e05` · printing: TLA #175 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbending Lesson
 
@@ -345,7 +388,14 @@
   > *—Toph*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/176/earthbending-lesson) · oracle_id `5e113f0f-4469-4276-82e1-0a804f3de444` · printing: TLA #176 (2025-11-21) · [rulings](https://api.scryfall.com/cards/eccd63b3-3a3a-4661-9d6e-fb8152429bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/176/earthbending-lesson) · oracle_id `5e113f0f-4469-4276-82e1-0a804f3de444` · printing: TLA #176 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbending Student
 
@@ -357,7 +407,14 @@
   > Land creatures you control have vigilance. (Attacking doesn't cause them to tap.)
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/249/earthbending-student) · oracle_id `8f8fd2ba-df0e-49bd-a916-cc4f50b9fa24` · printing: TLE #249 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1f068ce9-f4c2-4d40-bfa3-7f21f6d3b0b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/249/earthbending-student) · oracle_id `8f8fd2ba-df0e-49bd-a916-cc4f50b9fa24` · printing: TLE #249 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbind
 
@@ -368,7 +425,9 @@
   > When this Aura enters, if enchanted creature has flying, this Aura deals 2 damage to that creature and this Aura gains "Enchanted creature loses flying."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22811 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sum/147/earthbind) · oracle_id `e8e35b49-8cfb-4fb5-89aa-8050f15b11bf` · printing: SUM #147 (1994-06-21) · [rulings](https://api.scryfall.com/cards/784cc686-e5a2-4835-8ff2-820461868ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the enchanted creature gains flying after Earthbind is put onto it, it will have flying. The two effects are simply applied in timestamp order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sum/147/earthbind) · oracle_id `e8e35b49-8cfb-4fb5-89aa-8050f15b11bf` · printing: SUM #147 (1994-06-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthblighter
 
@@ -380,6 +439,7 @@
 - **Flavor text** (LGN printing):
   > *"A single dedicated mind can bring about the greatest destruction. That, or goblins—goblins work too."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/68/earthblighter) · oracle_id `86b8fdad-0025-4b6f-8527-23686820a5cd` · printing: LGN #68 (2003-02-03) · [rulings](https://api.scryfall.com/cards/830a4048-48ac-4856-9af9-5052ec146518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbrawn
@@ -393,6 +453,7 @@
   > *Gremil finally felt in touch with nature—and felt a need to share the experience with others.*
 - **Keywords:** Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/119/earthbrawn) · oracle_id `91edf44a-0f46-4936-909a-934e2c4fe176` · printing: MOR #119 (2008-02-01) · [rulings](https://api.scryfall.com/cards/478208df-9776-4354-b8a9-8da16ae1f50a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthcraft
@@ -405,6 +466,7 @@
   > *"The land gives up little, but we are masters of persuasion."*
   > *—Eladamri, Lord of Leaves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4112 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/222/earthcraft) · oracle_id `50aa7aff-1f01-4224-9a83-01f74d703ec2` · printing: TMP #222 (1997-10-14) · [rulings](https://api.scryfall.com/cards/9dda7531-82a1-4f49-8858-601ddbc6e2bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth-Cult Elemental
@@ -418,7 +480,19 @@
   > 10—19 | Each opponent sacrifices a permanent of their choice.
   > 20 | Each opponent sacrifices two permanents of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7895 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/141/earth-cult-elemental) · oracle_id `043d8dee-379f-4706-ad47-0bb562717007` · printing: AFR #141 (2021-07-23) · [rulings](https://api.scryfall.com/cards/fa05f317-b2f8-4eea-951b-0c374774764b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Players decide in turn order, starting with the active player (or the next opponent in turn order if the active player isn't sacrificing anything), which permanent(s) they will sacrifice. Players later in turn order will know which permanents were picked by earlier players while they make this choice. Once all choices have been made, all permanents are sacrificed simultaneously.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/141/earth-cult-elemental) · oracle_id `043d8dee-379f-4706-ad47-0bb562717007` · printing: AFR #141 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Elemental
 
@@ -430,6 +504,7 @@
 - **Flavor text** (BBD printing):
   > *Earth elementals have the eternal strength of stone and the endurance of mountains. Primordially connected to the land they inhabit, they take a long-term view of things, scorning the impetuous haste of short-lived mortal creatures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/174/earth-elemental) · oracle_id `3c97c311-7ad5-47ec-b421-f6c3bfbda9fb` · printing: BBD #174 (2018-06-08) · [rulings](https://api.scryfall.com/cards/659eeb25-b79b-4229-9d84-e28f6a636958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthen Ally
@@ -444,7 +519,15 @@
   > *"Together, we are unshakable."*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16703 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/177/earthen-ally) · oracle_id `913bca28-faf9-42e6-a8c0-469cd9bc0208` · printing: TLA #177 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d7a0f2d9-efa4-4a53-a24b-36694457bd1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — Earthen Ally's first ability can give it at most +5/+0, that is, +1/+0 each for white, blue, black, red, and green. "Gold," "multicolor," and "colorless" aren't colors.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/177/earthen-ally) · oracle_id `913bca28-faf9-42e6-a8c0-469cd9bc0208` · printing: TLA #177 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthen Arms
 
@@ -455,7 +538,16 @@
   > Awaken 4—{6}{G} (If you cast this spell for {6}{G}, also put four +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
 - **Keywords:** Awaken
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/172/earthen-arms) · oracle_id `2146fa14-dc6a-4e13-bed0-dda235784ee6` · printing: BFZ #172 (2015-10-02) · [rulings](https://api.scryfall.com/cards/dadc77d8-ef1c-431d-8716-9583f4fad33f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-08-25* — Any permanent can have a +1/+1 counter put on it. Those counters won’t have any effect unless that permanent is or becomes a creature.
+  - *2015-08-25* — Awaken doesn’t give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2015-08-25* — If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won’t affect the illegal targets in any way.
+  - *2015-08-25* — If the non-awaken part of the spell doesn’t require a target and you cast the spell for its awaken cost, then the spell won’t resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+  - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
+  - *2015-08-25* — If you cast Earthen Arms for its awaken cost, a land you control can be both targets.
+  - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
+  - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/172/earthen-arms) · oracle_id `2146fa14-dc6a-4e13-bed0-dda235784ee6` · printing: BFZ #172 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthen Goo
 
@@ -468,7 +560,9 @@
   > This creature gets +1/+1 for each age counter on it.
 - **Keywords:** Trample, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/80/earthen-goo) · oracle_id `f52c0ef9-ca35-47bd-9359-01e7b97ee770` · printing: CSP #80 (2006-07-21) · [rulings](https://api.scryfall.com/cards/b347f1bf-6167-4c59-bfa6-3e921874ab9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/80/earthen-goo) · oracle_id `f52c0ef9-ca35-47bd-9359-01e7b97ee770` · printing: CSP #80 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Kingdom General
 
@@ -480,7 +574,15 @@
   > Whenever you put one or more +1/+1 counters on a creature, you may gain that much life. Do this only once each turn.
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/173/earth-kingdom-general) · oracle_id `e43c31ee-1bac-4f96-8b74-334b3238ab73` · printing: TLA #173 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8688fce5-74b1-41e1-a59a-05a3878a75cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — Once you choose to gain life using Earth Kingdom General's second ability, that ability won't trigger again that turn.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/173/earth-kingdom-general) · oracle_id `e43c31ee-1bac-4f96-8b74-334b3238ab73` · printing: TLA #173 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Kingdom Jailer
 
@@ -492,7 +594,11 @@
 - **Flavor text** (TLA printing):
   > *"Go ahead and run. My ostrich-horse loves a good chase."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/16/earth-kingdom-jailer) · oracle_id `1b799c30-4a43-403d-b822-0555bd513913` · printing: TLA #16 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9207362c-3605-4794-803f-ad1d0175fcca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2025-10-02* — If Earth Kingdom Jailer leaves the battlefield before its triggered ability resolves, the target artifact, creature, or enchantment won't be exiled.
+  - *2025-10-02* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to a permanent with shroud, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in exile for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/16/earth-kingdom-jailer) · oracle_id `1b799c30-4a43-403d-b822-0555bd513913` · printing: TLA #16 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Kingdom Protectors
 
@@ -506,6 +612,7 @@
   > *"Stand your ground! The Earth King must be protected!"*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9484 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/17/earth-kingdom-protectors) · oracle_id `3bfb3913-808d-444b-97c3-a90af3bc585b` · printing: TLA #17 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d263472e-1d75-4cb9-8f7b-986fa22bc841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Kingdom Soldier
@@ -520,6 +627,7 @@
   > *Trained to be steady as the earth beneath their feet.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/216/earth-kingdom-soldier) · oracle_id `4289f2d4-3db2-4dd1-9c18-af3f78309844` · printing: TLA #216 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2d543d35-945a-4ffa-beb7-7c5d4f894f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth King's Lieutenant
@@ -535,7 +643,9 @@
   > *"You know well the cost of war."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/217/earth-kings-lieutenant) · oracle_id `9da9248d-1201-447f-b6c2-2b64af4f71c4` · printing: TLA #217 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4533d155-5c56-41a5-9d76-2d1414ac47c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — If Earth King's Lieutenant enters at the same time as another Ally, each of Earth King's Lieutenant's abilities will trigger. You'll put a +1/+1 counter on both creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/217/earth-kings-lieutenant) · oracle_id `9da9248d-1201-447f-b6c2-2b64af4f71c4` · printing: TLA #217 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthlink
 
@@ -545,6 +655,7 @@
   > At the beginning of your upkeep, sacrifice this enchantment unless you pay {2}.
   > Whenever a creature dies, that creature's controller sacrifices a land of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29904 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/192/earthlink) · oracle_id `c6e4a5c6-3c9b-49d5-8288-1be46be657dc` · printing: ME2 #192 (2008-09-22) · [rulings](https://api.scryfall.com/cards/7d33739b-c47a-431c-b0df-e09f27b38a9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthlore
@@ -559,6 +670,7 @@
   > *—Kolbjörn, Elder Druid of the Juniper Order*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30706 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/231/earthlore) · oracle_id `91fbffd1-0886-45fa-bf3e-4c9864458431` · printing: ICE #231 (1995-06-03) · [rulings](https://api.scryfall.com/cards/319d252e-7c43-47d6-8873-f69b0e063256/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth-Origin Yak
@@ -571,6 +683,7 @@
 - **Flavor text** (GS1 printing):
   > *Deep in the Northern Mountains, the yaks linger silently, channeling the powers of the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/9/earth-origin-yak) · oracle_id `c2b659ef-68f6-452c-94b5-2872f4e7b069` · printing: GS1 #9 (2018-06-22) · [rulings](https://api.scryfall.com/cards/abcde784-d0cd-4bac-b1bf-bd686ac2f73d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthquake
@@ -582,7 +695,9 @@
 - **Flavor text** (CM2 printing):
   > *They fell screaming into the depths of the chasm like so many pebbles tossed down a well.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/95/earthquake) · oracle_id `9a40614b-50a3-422c-849e-53c8b7d3d204` · printing: CM2 #95 (2018-06-08) · [rulings](https://api.scryfall.com/cards/7cf2f3c7-66b2-48f6-97ef-09150903df7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Whether or not a creature is without flying is only checked on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/95/earthquake) · oracle_id `9a40614b-50a3-422c-849e-53c8b7d3d204` · printing: CM2 #95 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthquake Dragon
 
@@ -595,7 +710,13 @@
   > {2}{G}, Sacrifice a land: Return this card from your graveyard to your hand.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/228/earthquake-dragon) · oracle_id `1903200d-0350-48a9-ac7c-b851f7df647f` · printing: CLB #228 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bfedfd30-8075-429e-a0fa-4919920c8632/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-06-10* — Earthquake Dragon's last ability can be activated only if it is in your graveyard.
+  - *2022-06-10* — If a permanent has {X} in its mana cost, X is 0 when calculating its mana value.
+  - *2022-06-10* — If the total mana value of Dragons you control is 14 or greater, Earthquake Dragon costs {G} to cast.
+  - *2022-06-10* — Once a player has announced that they are casting Earthquake Dragon, no player may take actions to try and change the number of Dragons its controller controls before that spell's cost is locked in.
+  - *2022-06-10* — The total cost to cast Earthquake Dragon is locked in before you pay that cost. For example, if you control three Dragons, each with mana value 4, including one you can sacrifice to add {C}, the total cost of Earthquake Dragon is {2}{G}. Then you can sacrifice the Dragon as you activate mana abilities just before paying the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/228/earthquake-dragon) · oracle_id `1903200d-0350-48a9-ac7c-b851f7df647f` · printing: CLB #228 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Rift
 
@@ -606,7 +727,14 @@
   > Flashback {5}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/189/earth-rift) · oracle_id `888a5071-24b1-48ce-a97b-39f108976c6d` · printing: ODY #189 (2001-10-01) · [rulings](https://api.scryfall.com/cards/e2e10742-77c9-4f91-81b2-37b2ac910f09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/189/earth-rift) · oracle_id `888a5071-24b1-48ce-a97b-39f108976c6d` · printing: ODY #189 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Rumble
 
@@ -616,7 +744,15 @@
   > Earthbend 2. When you do, up to one target creature you control fights target creature an opponent controls. (To earthbend 2, target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped. Creatures that fight each deal damage equal to their power to the other.)
 - **Keywords:** Fight, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/174/earth-rumble) · oracle_id `f04a7763-5fba-42e5-a45a-b3dc2daba902` · printing: TLA #174 (2025-11-21) · [rulings](https://api.scryfall.com/cards/62730505-56f1-4043-a8b9-4fb7bc508b47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If either target is an illegal target as the fight ability tries to resolve, neither creature will deal or be dealt damage.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/174/earth-rumble) · oracle_id `f04a7763-5fba-42e5-a45a-b3dc2daba902` · printing: TLA #174 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthrumbler
 
@@ -631,6 +767,7 @@
   > *The Brood aspires to become speed itself.*
 - **Keywords:** Vigilance, Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14809 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/160/earthrumbler) · oracle_id `ba5982a9-e8c1-4e7c-9a73-c4caad0f7336` · printing: DFT #160 (2025-02-14) · [rulings](https://api.scryfall.com/cards/ee386cd0-934a-4b33-9db3-0a9033ab577e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Rumble Wrestlers
@@ -643,6 +780,7 @@
   > This creature gets +1/+0 and has trample as long as you control a land creature or a land entered the battlefield under your control this turn.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19888 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/218/earth-rumble-wrestlers) · oracle_id `1de17747-27e8-40bb-b6f7-6d5402d4705c` · printing: TLA #218 (2025-11-21) · [rulings](https://api.scryfall.com/cards/74fca0b8-12e1-405f-b999-160d65fe0ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Servant
@@ -656,7 +794,9 @@
   > *"Fire. Air. Water. These elements spread, filling in the spaces they are not. But earth is implacable like a sullen child."*
   > *—Jestus Dreya, \*Of Elements and Eternity\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26604 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/60/earth-servant) · oracle_id `7ce30379-3f07-4b94-b2d6-a89b4763971b` · printing: DDI #60 (2012-03-30) · [rulings](https://api.scryfall.com/cards/85f04ca1-0199-41d7-a150-93b32a9795f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — The ability cares about lands with the land type Mountain, not necessarily lands named Mountain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/60/earth-servant) · oracle_id `7ce30379-3f07-4b94-b2d6-a89b4763971b` · printing: DDI #60 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaker
 
@@ -668,6 +808,7 @@
 - **Flavor text** (CHK printing):
   > *It scaled the Sokenzan Mountains in search of Kumano's secret. The mountain shook for two days, and the kami never returned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/165/earthshaker) · oracle_id `944904a4-aab6-4ad9-96d7-6a3e47c118ca` · printing: CHK #165 (2004-10-01) · [rulings](https://api.scryfall.com/cards/283b47a9-c21e-4c0a-9c70-38b8ebbffab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaker Dreadmaw
@@ -683,6 +824,7 @@
   > *—Amalia, master cartographer*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/183/earthshaker-dreadmaw) · oracle_id `454cbc6a-b7f0-445e-842c-5db267917a18` · printing: LCI #183 (2023-11-17) · [rulings](https://api.scryfall.com/cards/cdcbba6f-aa54-44be-a3b0-f712fa8bd5ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaker Giant
@@ -697,6 +839,7 @@
   > *"Come, my wild children. Let's give the interlopers a woodland welcome."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13921 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/5/earthshaker-giant) · oracle_id `cd6250ae-9079-4a62-8a70-0d94fbac21bc` · printing: GN2 #5 (2019-11-15) · [rulings](https://api.scryfall.com/cards/dbcdbf7a-9294-47ad-9f93-c16b78c7463a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaker Khenra
@@ -710,7 +853,16 @@
   > Eternalize {4}{R}{R} ({4}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Jackal Warrior with no mana cost. Eternalize only as a sorcery.)
 - **Keywords:** Haste, Eternalize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/90/earthshaker-khenra) · oracle_id `df660a8e-39c2-455d-8860-522e2998a95e` · printing: HOU #90 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0d60eabe-b281-4eba-9c26-287364ed2067/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-07-14* — For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token.
+  - *2017-07-14* — If a creature card with eternalize is put into your graveyard during your main phase, you'll have priority immediately afterward. You can activate its eternalize ability before any player can try to exile it, such as with Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — If the card copied by the token had any "when [this permanent] enters the battlefield" abilities, then the token also has those abilities and will trigger them when it's created. Similarly, any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities that the token has copied will also work.
+  - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+  - *2017-07-14* — Spells, activated abilities, and triggered abilities can't raise Earthshaker Khenra's power before you have to choose a target for its ability. Static abilities, such as that of Lord of the Accursed, will raise its power in time to let you target a larger creature.
+  - *2017-07-14* — The target creature's power is checked when you target it with Earthshaker Khenra's ability and when that ability resolves. Once the ability resolves, if the creature's power increases or Earthshaker Khenra's power decreases, the target creature will still be unable to block.
+  - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/90/earthshaker-khenra) · oracle_id `df660a8e-39c2-455d-8860-522e2998a95e` · printing: HOU #90 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaking Si
 
@@ -724,6 +876,7 @@
   > *—Jiang Yanggu's travelogue*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31799 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/31/earthshaking-si) · oracle_id `62c4d349-a18e-40a2-8cc3-244c219dec7f` · printing: GS1 #31 (2018-06-22) · [rulings](https://api.scryfall.com/cards/418df457-4aab-486c-b691-41f03ec8a6df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshape
@@ -734,7 +887,14 @@
   > Earthbend 3. Then each creature you control with power less than or equal to that land's power gains hexproof and indestructible until end of turn. You gain hexproof until end of turn.
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/67/earthshape) · oracle_id `300f17a2-1594-40cb-9187-952898a83622` · printing: TLE #67 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d873c678-c8f2-40f0-ab03-a2fdf5187aea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/67/earthshape) · oracle_id `300f17a2-1594-40cb-9187-952898a83622` · printing: TLE #67 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth's Mightiest Heroes
 
@@ -745,6 +905,7 @@
   > Reveal the top eight cards of your library. You may put a creature card from among them onto the battlefield. If this spell was cast using teamwork, put any number of creature cards from among them onto the battlefield instead. Put the rest into your graveyard.
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13748 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/165/earths-mightiest-heroes) · oracle_id `2b87bcac-ec64-4012-9e75-f459d3640eb3` · printing: MSH #165 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b38b9bd6-1dd7-4bbc-8a82-ce391c1172e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Surge
@@ -757,7 +918,9 @@
   > *"Some gardeners sing to plants. I tell them stories—stories of how they once ruled the world, of the mortals who destroyed their kind, and of revenge."*
   > *—Bougrat, druid of the Cult of Yore*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15752 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/84/earth-surge) · oracle_id `fb8fae53-3b06-41d8-baa0-638820a4b550` · printing: GPT #84 (2006-02-03) · [rulings](https://api.scryfall.com/cards/325503ee-ea62-459b-a58a-53fb3c1ef027/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — Earth Surge gives the bonus to each permanent that has both the "land" and "creature" types. It doesn't turn lands into creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/84/earth-surge) · oracle_id `fb8fae53-3b06-41d8-baa0-638820a4b550` · printing: GPT #84 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Tremor
 
@@ -769,6 +932,7 @@
   > *"Every cave-in is Moradin telling you to leave the earth where it is."*
   > *—Halgar, dwarven recluse*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20093 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/171/earth-tremor) · oracle_id `1dd7d11b-e3f3-4886-b412-0c085187869c` · printing: CLB #171 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b5f700c6-7591-481d-b223-21f5b820e831/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Village Ruffians
@@ -782,7 +946,14 @@
   > *"The army 'appreciates' your support."*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/219/earth-village-ruffians) · oracle_id `0380e99c-18f9-4472-8223-bb208e5f0963` · printing: TLA #219 (2025-11-21) · [rulings](https://api.scryfall.com/cards/56d4e0b7-232f-4953-84a3-e6f17781aa45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/219/earth-village-ruffians) · oracle_id `0380e99c-18f9-4472-8223-bb208e5f0963` · printing: TLA #219 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earwig Squad
 
@@ -794,7 +965,9 @@
   > When this creature enters, if its prowl cost was paid, search target opponent's library for three cards and exile them. Then that player shuffles.
 - **Keywords:** Prowl
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20221 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/82/earwig-squad) · oracle_id `f8526509-2e14-4ac0-b1de-cf4ee7d4f875` · printing: MMA #82 (2013-06-07) · [rulings](https://api.scryfall.com/cards/c12759ab-97c7-406a-bf57-eec74839f8f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — The cards are exiled face up. All players will know what they are.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/82/earwig-squad) · oracle_id `f8526509-2e14-4ac0-b1de-cf4ee7d4f875` · printing: MMA #82 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Easterling Vanguard
 
@@ -807,7 +980,15 @@
   > *An army of Easterlings charged forth, while from the hills poured Orcs innumerable.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/83/easterling-vanguard) · oracle_id `149887fa-6b2d-495e-b3e0-b2ac7d3dc838` · printing: LTR #83 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e860dd40-07c5-47c3-92a8-1ee95a953c2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/83/easterling-vanguard) · oracle_id `149887fa-6b2d-495e-b3e0-b2ac7d3dc838` · printing: LTR #83 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eastern Paladin
 
@@ -820,6 +1001,7 @@
   > *"There is no worse enemy. His passion for death doesn't just border on insanity, it wallows in it."*
   > *—Southern paladin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24247 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/131/eastern-paladin) · oracle_id `b445482a-9422-41c7-bedb-3b9f500d2f27` · printing: 8ED #131 (2003-07-28) · [rulings](https://api.scryfall.com/cards/d75f7d29-9c73-4b5e-a6fd-5608bb737278/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eastfarthing Farmer
@@ -831,7 +1013,12 @@
   > When this creature enters, create a Food token. When you do, target creature you control gets +1/+1 until end of turn for each Food you control. (A Food token is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/8/eastfarthing-farmer) · oracle_id `4b1603f3-a246-449b-a109-99adb49e5ea4` · printing: LTR #8 (2023-06-23) · [rulings](https://api.scryfall.com/cards/26bb65ba-d605-4b79-a700-4a08ec5a90b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — You don't choose a target for Eastfarthing Farmer's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you create a Food token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/8/eastfarthing-farmer) · oracle_id `4b1603f3-a246-449b-a109-99adb49e5ea4` · printing: LTR #8 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### East-Mark Cavalier
 
@@ -846,6 +1033,7 @@
   > *—Aragorn*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24891 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/9/east-mark-cavalier) · oracle_id `884d08bf-7e97-40cc-864e-445ae0bd1646` · printing: LTR #9 (2023-06-23) · [rulings](https://api.scryfall.com/cards/9be412c0-45d4-4856-a8cf-63a5a822dc5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### East Wind Avatar
@@ -860,6 +1048,7 @@
   > *Azrael was born on the wind to guide others to new beginnings.*
 - **Keywords:** Flying, Vigilance, Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24660 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/5/east-wind-avatar) · oracle_id `e2ef355a-2472-47e0-9b2e-987994291921` · printing: TMT #5 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c9d5b56c-ad2a-4958-8783-4eceb8733610/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Easy Prey
@@ -873,6 +1062,7 @@
   > *The definition of "bite-sized treat" depends on who you ask.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22520 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/87/easy-prey) · oracle_id `b783246a-e00b-4cdf-9111-fe0afb896a8e` · printing: IKO #87 (2020-04-24) · [rulings](https://api.scryfall.com/cards/312fb6e4-1eb1-4fbb-b7a4-125829a6e96a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eaten Alive
@@ -886,6 +1076,7 @@
   > *"If you hear a groaning noise in the cellar, don't investigate. Don't split up. Just lock the door and barricade it."*
   > *—Emili, guard captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/106/eaten-alive) · oracle_id `d437ecc2-2fd3-4ad3-b23e-217f55e58dae` · printing: INR #106 (2025-01-24) · [rulings](https://api.scryfall.com/cards/143d278d-d99b-42da-9fbd-9ab70526d53a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eaten by Piranhas
@@ -898,7 +1089,11 @@
   > Enchanted creature loses all abilities and is a black Skeleton creature with base power and toughness 1/1. (It loses all other colors, card types, and creature types.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/507/eaten-by-piranhas) · oracle_id `c37eae65-1afe-4242-b677-24dd40e6f401` · printing: FDN #507 (2024-11-15) · [rulings](https://api.scryfall.com/cards/475e28bb-1333-45e1-b6fd-83121c2f1ab9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Eaten by Piranhas overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2024-11-08* — Effects that modify the creature's power and/or toughness, such as the effect of Giant Growth, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2024-11-08* — If the enchanted creature had any subtypes other than creature types, such as Equipment, Vehicle, or Cave, it loses those as well.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/507/eaten-by-piranhas) · oracle_id `c37eae65-1afe-4242-b677-24dd40e6f401` · printing: FDN #507 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eaten by Spiders
 
@@ -909,6 +1104,7 @@
 - **Flavor text** (AVR printing):
   > *After sampling many victims, the spider developed a preference for the undead and their accoutrements.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/177/eaten-by-spiders) · oracle_id `d4c04cec-3a0d-4e86-95ed-8d367fe7220d` · printing: AVR #177 (2012-05-04) · [rulings](https://api.scryfall.com/cards/0efea1b1-f212-4b97-98dd-922f85ab191f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eater of Days
@@ -923,6 +1119,7 @@
   > *When Mirrodin's varied civilizations developed ways to fight the levelers, Memnarch upped the stakes.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11925 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/120/eater-of-days) · oracle_id `205f6384-7203-42ed-bc0f-8803cf1f4514` · printing: DST #120 (2004-02-06) · [rulings](https://api.scryfall.com/cards/ef6870db-8aca-4aee-8e4d-c56a7d8dc242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eater of Hope
@@ -938,6 +1135,7 @@
   > *Gods can be appeased. Demons, however . . .*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17598 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/115/eater-of-hope) · oracle_id `3055381a-fb6b-47a3-8e77-a44768808e27` · printing: MIC #115 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a7c62113-48c1-47ae-8ede-c05c1c914c3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eater of the Dead
@@ -950,7 +1148,10 @@
 - **Flavor text** (ME1 printing):
   > *Even the putrid muscles of the dead can provide strength to those loathsome enough to consume them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13273 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/67/eater-of-the-dead) · oracle_id `3c414ace-fd04-4fac-9379-24f5910f20e4` · printing: ME1 #67 (2007-09-10) · [rulings](https://api.scryfall.com/cards/23327a70-5e95-4aa4-824c-cdf3472f5422/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It untaps during the resolution of its ability.
+  - *2007-09-16* — You can activate the ability whether or not Eater of the Dead is tapped. However, if Eater of the Dead is untapped when the ability resolves, the ability won't do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/67/eater-of-the-dead) · oracle_id `3c414ace-fd04-4fac-9379-24f5910f20e4` · printing: ME1 #67 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eater of Virtue
 
@@ -963,7 +1164,10 @@
   > Equip {1}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/245/eater-of-virtue) · oracle_id `b6f8cc3b-b8f1-4b1a-8768-eddcb0631d80` · printing: NEO #245 (2022-02-18) · [rulings](https://api.scryfall.com/cards/34d92077-d7b2-4996-848f-fd4917e2fb42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — If Eater of Virtue leaves the battlefield and returns to the battlefield, it will be a new object with no association to any cards it exiled from any previous times it was on the battlefield. It will have to exile new cards to grant abilities to creatures it equips from that point forward.
+  - *2022-02-18* — The Equipped creature gains any hexproof and protection abilities of cards exiled with Eater of Virtue.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/245/eater-of-virtue) · oracle_id `b6f8cc3b-b8f1-4b1a-8768-eddcb0631d80` · printing: NEO #245 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eat to Extinction
 
@@ -976,4 +1180,8 @@
   > *—Klothys, god of destiny*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/90/eat-to-extinction) · oracle_id `bf5f348e-d748-48e2-b483-740109e71176` · printing: THB #90 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a0fae55a-6edd-42ea-b909-ccc39a64a0ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — If the target creature or planeswalker is an illegal target by the time Eat to Extinction tries to resolve, the spell won't resolve. You won't look at or move the top card of your library.
+  - *2020-01-24* — If you don't put the top card of your library into your graveyard, it remains on top of your library.
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/90/eat-to-extinction) · oracle_id `bf5f348e-d748-48e2-b483-740109e71176` · printing: THB #90 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

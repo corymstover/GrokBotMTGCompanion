@@ -24,7 +24,9 @@
   > Whenever Mr. Foxglove attacks, draw cards equal to the number of cards in defending player's hand minus the number of cards in your hand. If you didn't draw cards this way, you may put a creature card from your hand onto the battlefield.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7275 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-6/mr-foxglove) · oracle_id `c2008ba9-00df-4607-ba0c-189af52033eb` · printing: PLST #BLC-6 (2026-10-19) · [rulings](https://api.scryfall.com/cards/89459624-9c34-4456-82ec-f425ce7b402a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If the number of cards in defending player's hand minus the number of cards in your hand is 0 or less, you won't draw any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-6/mr-foxglove) · oracle_id `c2008ba9-00df-4607-ba0c-189af52033eb` · printing: PLST #BLC-6 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. House, President and CEO
 
@@ -36,7 +38,10 @@
   > {4}, {T}: Roll a six-sided die plus an additional six-sided die for each mana from Treasures spent to activate this ability.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6094 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/7/mr-house-president-and-ceo) · oracle_id `d4e54b48-956f-4467-8485-a5fdb44779fd` · printing: PIP #7 (2024-03-08) · [rulings](https://api.scryfall.com/cards/23eb3cf7-c90d-4bfa-b125-4fbcb5614468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Some cards from other releases may instruct you to roll dice other than six-sided dice. Results of 4 or higher on those dice cause Mr. House's first ability to trigger.
+  - *2024-03-08* — The die rolls caused by Mr. House's last ability have no inherent effect. Abilities that trigger whenever you roll dice or whenever you roll a certain result, such as Mr. House's first ability, will trigger as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/7/mr-house-president-and-ceo) · oracle_id `d4e54b48-956f-4467-8485-a5fdb44779fd` · printing: PIP #7 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Monopoly, On the Go
 
@@ -50,6 +55,7 @@
   > −40: Pass Go — Create 200 Treasure tokens.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph23/1/mr-monopoly-on-the-go) · oracle_id `9537cca4-7c58-4f89-95f0-f5186d04c025` · printing: PH23 #1 (2025-08-24) · [rulings](https://api.scryfall.com/cards/ac583256-9a7e-4e22-93c8-78a0f42b8125/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Orfeo, the Boulder
@@ -63,7 +69,9 @@
   > *Once he was jumped by a dozen Maestros agents. You can still see their imprints in the pavement if you know where to look.*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7926 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/204/mr-orfeo-the-boulder) · oracle_id `58447f16-1df9-4e9a-bb22-b9aad042055a` · printing: SNC #204 (2022-04-29) · [rulings](https://api.scryfall.com/cards/97caaa92-2a7d-4f79-8d42-86733c902072/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — To double a creature's power, that creature gets +X/+0, where X is that creature's power as Mr. Orfeo's triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/204/mr-orfeo-the-boulder) · oracle_id `58447f16-1df9-4e9a-bb22-b9aad042055a` · printing: SNC #204 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mr. Wiggles, Helpful Butterfly
 
@@ -76,4 +84,5 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03b/mr-wiggles-helpful-butterfly) · oracle_id `551121ed-38bd-428d-b813-b395a67e111c` · printing: UNK #RG03b (2023-07-29) · [rulings](https://api.scryfall.com/cards/8cdb7e98-727d-4c64-ab1d-178209dede57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

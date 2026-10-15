@@ -30,7 +30,19 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Treasure, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10993 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/143/safana-calimport-cutthroat) · oracle_id `afc1c443-93e3-4ef4-a404-1d9fc13e0b02` · printing: CLB #143 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e9367f66-6556-459c-a43d-5ba7a84b568d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — Safana's second ability triggers only if you have the initiative as your end step begins. If the ability does trigger, it will check if you have the initiative again as it tries to resolve. If you don't still have the initiative at that time, the ability won't resolve and none of its effects will happen. Notably, if you don't have the initiative as your end step begins but you have completed a dungeon, the ability won't trigger and you won't create any Treasures.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/143/safana-calimport-cutthroat) · oracle_id `afc1c443-93e3-4ef4-a404-1d9fc13e0b02` · printing: CLB #143 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safeguard
 
@@ -42,6 +54,7 @@
   > *"I'm amused by wasted effort when it's not my own."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31283 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/39/safeguard) · oracle_id `e310c3ab-a729-404d-944f-9b477258495c` · printing: TMP #39 (1997-10-14) · [rulings](https://api.scryfall.com/cards/2c8e174c-7abb-4a93-aa1d-8c2a2e815ba6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safe Haven
@@ -52,7 +65,16 @@
   > {2}, {T}: Exile target creature you control.
   > At the beginning of your upkeep, you may sacrifice this land. If you do, return each card exiled with this land to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/121/safe-haven) · oracle_id `8f7f4061-8998-40e9-b980-c63f27e7a5cd` · printing: TSB #121 (2006-10-06) · [rulings](https://api.scryfall.com/cards/d130205f-53e3-4c04-967c-4808d7945880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2004-10-04* — All cards in the Haven stay there even if they cease to be creatures. When the Haven is sacrificed, the cards come back onto the battlefield whether or not they are creatures.
+  - *2004-10-04* — Auras on creatures are put into the graveyard and counters on creatures are removed when the creatures are sent to the Haven.
+  - *2004-10-04* — Creatures return to the battlefield simultaneously.
+  - *2004-10-04* — Creatures return to the control of their owners, regardless of who controls the Haven when it is sacrificed.
+  - *2004-10-04* — If changed to another land type, the creature cards are not lost but can’t be released until the land reverts to normal.
+  - *2004-10-04* — Token creatures cease to exist when they leave the battlefield, so this effect just exiles them with no chance to bring them back like you can with cards.
+  - *2004-10-04* — When creatures return to the battlefield, they are put onto the battlefield as if just cast. Creatures with X in the mana cost are treated as X is zero. Creatures which can pay costs when put onto the battlefield to determine abilities must have those costs paid at this time.
+  - *2004-10-04* — When the creature leaves the battlefield any damage or “will be destroyed at some future time” effects are removed from the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/121/safe-haven) · oracle_id `8f7f4061-8998-40e9-b980-c63f27e7a5cd` · printing: TSB #121 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safehold Duo
 
@@ -63,7 +85,9 @@
   > Whenever you cast a green spell, this creature gets +1/+1 until end of turn.
   > Whenever you cast a white spell, this creature gains vigilance until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/238/safehold-duo) · oracle_id `76168d1b-266d-4d27-9e97-248b0c2c7e8f` · printing: SHM #238 (2008-05-02) · [rulings](https://api.scryfall.com/cards/32b70339-9918-4f7e-9cd0-d4ce36b65997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — An object that’s both of the listed colors will cause both abilities to trigger. You can put them on the stack in either order.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/238/safehold-duo) · oracle_id `76168d1b-266d-4d27-9e97-248b0c2c7e8f` · printing: SHM #238 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safehold Elite
 
@@ -76,7 +100,15 @@
   > *Not even death will keep her from her mission.*
 - **Keywords:** Persist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19217 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/220/safehold-elite) · oracle_id `68ca91ba-31fb-47e0-9b32-e4f3504cbbca` · printing: UMA #220 (2018-12-07) · [rulings](https://api.scryfall.com/cards/d049f233-7fcb-49cb-897b-a12d57692fe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-06-07* — If a creature with persist stops being a creature, persist will still work.
+  - *2013-06-07* — If a creature with persist that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, persist won’t trigger and the card won’t return to the battlefield. That’s because persist checks the creature’s existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2013-06-07* — If a permanent has multiple instances of persist, they’ll each trigger separately, but the redundant instances will have no effect. If one instance returns the card to the battlefield, the next to resolve will do nothing.
+  - *2013-06-07* — If a token with no -1/-1 counters on it has persist, the ability will trigger when the token is put into the graveyard. However, the token will cease to exist and can’t return to the battlefield.
+  - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
+  - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
+  - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/220/safehold-elite) · oracle_id `68ca91ba-31fb-47e0-9b32-e4f3504cbbca` · printing: UMA #220 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safehold Sentry
 
@@ -88,7 +120,11 @@
 - **Flavor text** (SHM printing):
   > *"These bracers were worn by my father and by his mother before him. Boggart fangs have shattered on them. Cinder flames have withered at their touch. While I wear them, the safehold will not fall."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/22/safehold-sentry) · oracle_id `22534fab-2c62-4113-bcea-f305ae9f664f` · printing: SHM #22 (2008-05-02) · [rulings](https://api.scryfall.com/cards/caa8bd74-9897-4515-b1a0-50d5f1bda673/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If a creature with an {Q} ability hasn't been under your control since your most recent turn began, you can't activate that ability, unless the creature has haste.
+  - *2008-05-01* — If the permanent is already untapped, you can't activate its {Q} ability. That's because you can't pay the "Untap this permanent" cost.
+  - *2008-05-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can't be responded to. (The actual ability can be responded to, of course.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/22/safehold-sentry) · oracle_id `22534fab-2c62-4113-bcea-f305ae9f664f` · printing: SHM #22 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safe Passage
 
@@ -99,7 +135,12 @@
 - **Flavor text** (M13 printing):
   > *As she shepherds the faithful, the angel's radiance is a shield of salvation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10933 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/30/safe-passage) · oracle_id `dfa459a1-b065-4488-88d3-4da388261b52` · printing: M13 #30 (2012-07-13) · [rulings](https://api.scryfall.com/cards/9fc65c3f-ad29-4368-bf45-8345a7ec6f31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — Safe Passage doesn’t prevent damage that would be dealt to planeswalkers you control.
+  - *2009-10-01* — Safe Passage has no effect on damage that’s already been dealt.
+  - *2009-10-01* — Safe Passage prevents all damage, not just combat damage, that would be dealt to you and creatures you control this turn.
+  - *2009-10-01* — Safe Passage will prevent damage dealt to creatures that weren’t on the battlefield at the time it resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/30/safe-passage) · oracle_id `dfa459a1-b065-4488-88d3-4da388261b52` · printing: M13 #30 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safewright Cavalry
 
@@ -112,7 +153,9 @@
 - **Flavor text** (ECL printing):
   > *They had survived battles and foes together. For the elf, there was no greater beauty than her cervin steed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17297 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/191/safewright-cavalry) · oracle_id `6e04a375-303e-43ba-bca1-4e959711a7f6` · printing: ECL #191 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f7de412a-9731-4bfc-8fbc-c95988a3dd70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If Safewright Cavalry gains menace and still has its first ability, it can't be blocked at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/191/safewright-cavalry) · oracle_id `6e04a375-303e-43ba-bca1-4e959711a7f6` · printing: ECL #191 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safewright Quest
 
@@ -123,6 +166,7 @@
 - **Flavor text** (SHM printing):
   > *Elves search for sources of beauty in a nighted world. Meanwhile, the nighted world searches for the blood of elves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17471 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/240/safewright-quest) · oracle_id `003c48d4-0303-4970-8637-47ae060385aa` · printing: SHM #240 (2008-05-02) · [rulings](https://api.scryfall.com/cards/61edb39b-ff82-4568-971f-baf22e209c88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saffi Eriksdotter
@@ -135,4 +179,7 @@
 - **Flavor text** (TSR printing):
   > *In the blink of an eye, she strode from deep snow to dusty waste. From the crease of light behind her, a voice rang hollow: "Saffi, wait for me . . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7606 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/260/saffi-eriksdotter) · oracle_id `84ba3e2c-ea96-470b-92c6-b937dc87549b` · printing: TSR #260 (2021-03-19) · [rulings](https://api.scryfall.com/cards/4176dda4-ec5c-4734-bb48-0876304aa219/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Saffi can be the target of its own ability. In this case, the ability won't resolve because its target is illegal, so Saffi won't be returned to the battlefield, but any abilities that check when or if a creature dies will see that it died.
+  - *2021-03-19* — Saffi's effect works only once. If the target creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/260/saffi-eriksdotter) · oracle_id `84ba3e2c-ea96-470b-92c6-b937dc87549b` · printing: TSR #260 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

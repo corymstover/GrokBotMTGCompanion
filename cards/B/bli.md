@@ -101,6 +101,7 @@
   > When enchanted land becomes tapped, destroy it.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24331 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/61/blight) · oracle_id `19066c43-eccd-461b-9695-c3fad95dc1da` · printing: ME1 #61 (2007-09-10) · [rulings](https://api.scryfall.com/cards/d857076b-d130-482b-b015-37c22f0bdd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightbeetle
@@ -115,7 +116,12 @@
   > *Leaf and soul alike wither at its touch.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7278 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/87/blightbeetle) · oracle_id `b4cd7e4e-4b63-41a1-bfad-2840a96f84bb` · printing: M20 #87 (2019-07-12) · [rulings](https://api.scryfall.com/cards/bd43d44b-de27-4139-9cb8-b1f4c04fb87e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — Blightbeetle doesn’t remove any +1/+1 counters already on creatures your opponents control.
+  - *2019-07-12* — Creatures your opponents control won’t receive +1/+1 counters as they enter the battlefield.
+  - *2019-07-12* — If a replacement effect allows a player to modify or replace an event by putting +1/+1 counters on a creature affected by Blightbeetle, that player may apply that replacement effect, but they won’t get counters. If the original event is entirely replaced (such as by applying Vigor’s replacement effect), the entire original event simply doesn’t happen.
+  - *2019-07-12* — If the cost of an ability or an additional cost of a spell requires putting +1/+1 counters on a creature affected by Blightbeetle, that cost can’t be paid. If a resolving spell or ability says that a player may put +1/+1 counters on that creature, that player can’t choose to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/87/blightbeetle) · oracle_id `b4cd7e4e-4b63-41a1-bfad-2840a96f84bb` · printing: M20 #87 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightbelly Rat
 
@@ -127,7 +133,21 @@
   > When this creature dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Toxic, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2793 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/85/blightbelly-rat) · oracle_id `b0102259-7a2c-470e-b04b-4a1f615d057c` · printing: ONE #85 (2023-02-10) · [rulings](https://api.scryfall.com/cards/9255cd01-a611-4fec-b9ec-b271687740ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/85/blightbelly-rat) · oracle_id `b0102259-7a2c-470e-b04b-4a1f615d057c` · printing: ONE #85 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight-Breath Catoblepas
 
@@ -139,7 +159,14 @@
 - **Flavor text** (THB printing):
   > *Wherever it walks, famine follows behind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/86/blight-breath-catoblepas) · oracle_id `4098ab29-bf90-4ec9-b547-05d304fc7798` · printing: THB #86 (2020-01-24) · [rulings](https://api.scryfall.com/cards/7865c079-1d91-48d4-852d-d104b6e0c157/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-01-24* — Colorless and generic mana symbols ({C}, {0}, {1}, {2}, {X}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2020-01-24* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time.
+  - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
+  - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
+  - *2020-01-24* — The value of X is determined only as the triggered ability resolves. Once that happens, the value of X won’t change later in the turn even if your devotion to black changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/86/blight-breath-catoblepas) · oracle_id `4098ab29-bf90-4ec9-b547-05d304fc7798` · printing: THB #86 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightcaster
 
@@ -151,7 +178,12 @@
 - **Flavor text** (ORI printing):
   > *"Your flesh is unprepared for my gifts."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/85/blightcaster) · oracle_id `b40e2aae-3a1d-4bc2-bf67-e821ec800434` · printing: ORI #85 (2015-07-17) · [rulings](https://api.scryfall.com/cards/b8986163-6362-4c70-8ece-22ae22da5031/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — Blightcaster's ability will resolve before the enchantment spell that caused it to trigger.
+  - *2013-07-01* — If you are the only player who controls a creature when Blightcaster's ability triggers, you must choose one as the target, although you can choose not to give it -2/-2.
+  - *2015-06-22* — Blightcaster's ability will resolve before the enchantment spell that caused it to trigger.
+  - *2015-06-22* — If you are the only player who controls a creature when Blightcaster's ability triggers, you must choose one of those creatures as the target, although you can choose to not give it -2/-2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/85/blightcaster) · oracle_id `b40e2aae-3a1d-4bc2-bf67-e821ec800434` · printing: ORI #85 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Agent
 
@@ -166,6 +198,7 @@
   > *—Avaricta, Gitaxian sective*
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3116 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/29/blighted-agent) · oracle_id `e48ea9ea-64bc-4f1c-a424-592d48569244` · printing: NPH #29 (2011-05-13) · [rulings](https://api.scryfall.com/cards/cddaebde-a060-4510-8c97-68432d931987/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Bat
@@ -180,6 +213,7 @@
   > *Amonkhet's dual suns don't allow for the darkness of night, so bats are most active under the gloom of the frequent sandstorms.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/205/blighted-bat) · oracle_id `542887e9-1032-4396-9cbb-aa3c11ee43a0` · printing: JMP #205 (2020-07-17) · [rulings](https://api.scryfall.com/cards/6c0cc3d9-85f1-49ed-bf8a-81fc6c60bd2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Blackthorn
@@ -193,7 +227,14 @@
   > *It bears a forbidden fruit.*
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/90/blighted-blackthorn) · oracle_id `a294968e-9a7f-4d66-bde0-e775ae5f8197` · printing: ECL #90 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3515531a-45d6-4fe0-96a3-7ca1ce545068/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/90/blighted-blackthorn) · oracle_id `a294968e-9a7f-4d66-bde0-e775ae5f8197` · printing: ECL #90 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Burgeoning
 
@@ -205,6 +246,7 @@
   > Whenever enchanted land is tapped for mana, its controller adds an additional one mana of any color.
 - **Keywords:** Incubate, Transform, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13035 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/177/blighted-burgeoning) · oracle_id `5e10fd35-9768-48e4-8cdb-95224ad33b9b` · printing: MOM #177 (2023-04-21) · [rulings](https://api.scryfall.com/cards/007324b3-b8a9-4a32-a5a1-ad78f3a07bc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Cataract
@@ -217,6 +259,7 @@
 - **Flavor text** (C21 printing):
   > *Once, water ran here. Now only dust and ash fall from the clifftops.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/279/blighted-cataract) · oracle_id `4d722521-0396-48f9-88b2-08b6249f970d` · printing: C21 #279 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a6d03a79-4219-492f-bf9a-0b810e97e5f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Fen
@@ -230,6 +273,7 @@
   > *"We came to a place where the skin of Zendikar was peeled back and its bones lay bare to the sky."*
   > *—Greenweaver Mina*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12573 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/230/blighted-fen) · oracle_id `b8f3da11-7c8f-4846-98a6-204bfd8d572b` · printing: BFZ #230 (2015-10-02) · [rulings](https://api.scryfall.com/cards/29d02950-cd50-4662-97af-3106598dc3c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Gorge
@@ -242,6 +286,7 @@
 - **Flavor text** (DDT printing):
   > *The land is dying, but it will not go peacefully.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddt/58/blighted-gorge) · oracle_id `c2cb0afd-781f-4cfa-b680-ed1edfa81868` · printing: DDT #58 (2017-10-24) · [rulings](https://api.scryfall.com/cards/f133ba0a-e141-4f57-9819-bc17bbacd7b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Shaman
@@ -253,6 +298,7 @@
   > {T}, Sacrifice a Swamp: Target creature gets +1/+1 until end of turn.
   > {T}, Sacrifice a creature: Target creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28650 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/114/blighted-shaman) · oracle_id `2f14e92d-307f-4854-b7ec-a2f6ce03dced` · printing: 6ED #114 (1999-04-21) · [rulings](https://api.scryfall.com/cards/1d46c90a-215a-4897-94f8-52a02abf25c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Steppe
@@ -266,7 +312,9 @@
   > *"When a limb is gangrenous, you cut it off. This is no different."*
   > *—Greenweaver Mina*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/232/blighted-steppe) · oracle_id `db16a2fb-dc42-4086-9928-52076043097f` · printing: BFZ #232 (2015-10-02) · [rulings](https://api.scryfall.com/cards/f43df8ee-d3e4-419e-aed0-1059d95f9cab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-08-25* — Count the number of creatures you control as the last ability resolves to determine how much life to gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/232/blighted-steppe) · oracle_id `db16a2fb-dc42-4086-9928-52076043097f` · printing: BFZ #232 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Woodland
 
@@ -276,6 +324,7 @@
   > {T}: Add {C}.
   > {3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #945 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/881/blighted-woodland) · oracle_id `02679a2e-303d-412f-87d8-0a37a8ca259c` · printing: CLB #881 (2022-06-10) · [rulings](https://api.scryfall.com/cards/94e0ad38-31b3-46ba-9999-9b6ff57906ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Grenade
@@ -288,7 +337,9 @@
 - **Flavor text** (40K printing):
   > *Blight grenades—which induce horrendous effects on their victims—have no impact on the Death Guard, who gladly use the devices in extreme close quarters with the enemy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/31/blight-grenade) · oracle_id `ae24b863-974c-4efa-ab41-23cfa1906c54` · printing: 40K #31 (2022-10-07) · [rulings](https://api.scryfall.com/cards/88cdcf69-e04d-46ab-9cce-76f1fac5bc40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If Blight Grenade's target is no longer legal as it tries to resolve, it will be removed from the stack and no creatures will get -3/-3.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/31/blight-grenade) · oracle_id `ae24b863-974c-4efa-ab41-23cfa1906c54` · printing: 40K #31 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Herder
 
@@ -298,7 +349,16 @@
 - **Oracle text:**
   > When you cast this spell, you may put two cards your opponents own from exile into their owners' graveyards. If you do, create three 1/1 colorless Eldrazi Scion creature tokens. They have "Sacrifice this token: Add {C}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/2/blight-herder) · oracle_id `3159d289-b822-4657-919a-d712623e622e` · printing: BFZ #2 (2015-10-02) · [rulings](https://api.scryfall.com/cards/478c3a74-ff78-4041-8137-93356d370ece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — Face-down cards in exile are grouped using two criteria: what caused them to be exiled face down and when they were exiled face down. If you want to put a face-down card in exile into its owner's graveyard, you must first choose one of these groups and then choose a card from within that group at random. For example, say an artifact causes your opponent to exile their hand of three cards face down. Then on a later turn, that artifact causes your opponent to exile another two cards face down. If you use Wasteland Strangler to put one of those cards into their graveyard, you would pick the first or second pile and put a card chosen at random from that pile into the graveyard.
+  - *2015-08-25* — If a replacement effect will cause cards that would be put into a graveyard from anywhere to be exiled instead (such as the one created by Anafenza, the Foremost), you can still put an exiled card into its opponent's graveyard. The card becomes a new object and remains in exile. In this situation, you can't use a single exiled card if required to put more than one exiled card into the graveyard. Conversely, you could use the same card in this situation if two separate spells or abilities each required you to put a single exiled card into its owner's graveyard.
+  - *2015-08-25* — If a spell or ability requires that you put more than one exiled card into the graveyard, you may choose cards owned by different opponents. Each card chosen will be put into its owner's graveyard.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+  - *2015-08-25* — You can't look at face-down cards in exile unless an effect allows you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/2/blight-herder) · oracle_id `3159d289-b822-4657-919a-d712623e622e` · printing: BFZ #2 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Keeper
 
@@ -312,6 +372,7 @@
   > *It withers fruit and flesh alike.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17050 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/92/blight-keeper) · oracle_id `1dc73412-c91c-48c9-bde6-b169add79b37` · printing: XLN #92 (2017-09-29) · [rulings](https://api.scryfall.com/cards/3bcabe2d-82d2-4c1b-8f28-21dc29c9dbf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Mamba
@@ -326,7 +387,14 @@
   > *Its venom drips with Phyrexia's hate.*
 - **Keywords:** Regenerate, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/112/blight-mamba) · oracle_id `e11a856c-31d3-4f4b-a517-8a5134b88517` · printing: SOM #112 (2010-10-01) · [rulings](https://api.scryfall.com/cards/cf9b3335-565c-406d-bd94-f36974602552/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
+  - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/112/blight-mamba) · oracle_id `e11a856c-31d3-4f4b-a517-8a5134b88517` · printing: SOM #112 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Mound
 
@@ -338,6 +406,7 @@
 - **Flavor text** (SOC printing):
   > *Pests feed on carrion, mud, and one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/208/blight-mound) · oracle_id `c4fe854e-8783-492e-bb2e-9f242ada8a5b` · printing: SOC #208 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dc060028-e01c-4bc7-8b52-7d0e2a350061/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightning
@@ -349,7 +418,9 @@
 - **Flavor text** (A25 printing):
   > *While the smell of burning flesh is common in Grixis, the odor of smoldering brain matter is a rare treat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/198/blightning) · oracle_id `a6496440-dc0c-4d9b-bf37-f537b6f0187b` · printing: A25 #198 (2018-03-16) · [rulings](https://api.scryfall.com/cards/ccf0f075-4401-41da-a17f-a209d6a03782/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The targeted player will discard two cards even if some or all of Blightning's damage is prevented or redirected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/198/blightning) · oracle_id `a6496440-dc0c-4d9b-bf37-f537b6f0187b` · printing: A25 #198 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Pile
 
@@ -364,7 +435,9 @@
   > *—Stenn*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/174/blight-pile) · oracle_id `1c0fc9b4-177e-4529-827f-a1e17ff7a752` · printing: TDC #174 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9dd5bcec-b766-41cd-8809-eeec7e31b39c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — In a Two-Headed Giant game, Blight Pile causes the opposing team to lose X life twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/174/blight-pile) · oracle_id `1c0fc9b4-177e-4529-827f-a1e17ff7a752` · printing: TDC #174 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightreaper Thallid // Blightsower Thallid
 
@@ -381,6 +454,7 @@
   > *Then one day, Mudcreep started to feel funny itself.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21780 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/92/blightreaper-thallid-blightsower-thallid) · oracle_id `ea405cb4-a21b-4a26-98f3-251e65ea2aef` · printing: MOM #92 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f1150ea9-02b5-4767-a529-6149d758830e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Rot
@@ -392,6 +466,7 @@
 - **Flavor text** (ECL printing):
   > *The scratch became a sore, the sore became a wound, the wound became an infection, and the infection became a funeral.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8955 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/89/blight-rot) · oracle_id `cf5b1cf9-dcd3-44d1-b8b2-338651ebb2a1` · printing: ECL #89 (2026-01-23) · [rulings](https://api.scryfall.com/cards/5201bdeb-ba47-459b-ac0d-603367914578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Sickle
@@ -405,6 +480,7 @@
   > *Its scars cut deeper than its blade.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17509 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/247/blight-sickle) · oracle_id `5b95a5ed-a6b2-4044-9273-2021d27794e9` · printing: SHM #247 (2008-05-02) · [rulings](https://api.scryfall.com/cards/c0f828c7-aedc-462b-8455-46e8a90feb85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightsoil Druid
@@ -417,6 +493,7 @@
 - **Flavor text** (EMA printing):
   > *"See the beauty in death: the clean white bones lying in the fertile soil and the brightly colored moonglove sprouting from the fell earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20321 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/80/blightsoil-druid) · oracle_id `351091cb-1263-4202-9447-021c6019cff1` · printing: EMA #80 (2016-06-10) · [rulings](https://api.scryfall.com/cards/d1fd17d4-96e1-4b53-8375-57f800dc661a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightspeaker
@@ -430,6 +507,7 @@
 - **Flavor text** (TSR printing):
   > *One croaked sermon spreads propaganda and plague.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/103/blightspeaker) · oracle_id `0d16e52a-a7d0-4850-b49d-99f7978133e4` · printing: TSR #103 (2021-03-19) · [rulings](https://api.scryfall.com/cards/17ab3455-f464-41b0-ac63-d40d27abbfb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightsteel Colossus
@@ -442,7 +520,12 @@
   > If Blightsteel Colossus would be put into a graveyard from anywhere, reveal Blightsteel Colossus and shuffle it into its owner's library instead.
 - **Keywords:** Indestructible, Trample, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #962 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/235/blightsteel-colossus) · oracle_id `e80772e2-8623-4094-81a2-70828b2b151c` · printing: 2XM #235 (2020-08-07) · [rulings](https://api.scryfall.com/cards/18adbda4-8d36-47cd-afbc-c785aaa8ed80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2020-08-07* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2020-08-07* — Damage that a creature with infect deals doesn't result in damage being marked on a creature or a player losing life. Instead, it results in that many -1/-1 counters being put on that creature or that many poison counters being given to that player. Damage dealt to planeswalkers still results in that planeswalker losing that many loyalty counters.
+  - *2020-08-07* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/235/blightsteel-colossus) · oracle_id `e80772e2-8623-4094-81a2-70828b2b151c` · printing: 2XM #235 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightstep Pathway // Searstep Pathway
 
@@ -458,7 +541,17 @@
   > *"Our brave Tuskeri brethren blaze new trails, and we follow, mapping the routes of those who survive."*
   > *—Solrun, Beskir warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway) · oracle_id `e580a229-e800-4746-9d37-c32fcef8de28` · printing: KHM #252 (2021-02-05) · [rulings](https://api.scryfall.com/cards/0ce39a19-f51d-4a35-ae80-5b82eb15fcff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-02-05* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway) · oracle_id `e580a229-e800-4746-9d37-c32fcef8de28` · printing: KHM #252 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Titan
 
@@ -470,6 +563,7 @@
   > Whenever this creature enters or attacks, mill two cards, then incubate X, where X is the number of creature cards in your graveyard. (Create an Incubator token with X +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
 - **Keywords:** Incubate, Transform, Mill, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11268 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/25/blight-titan) · oracle_id `f2c75577-c9be-48f3-8398-3020c79bd34e` · printing: MOC #25 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e00c55f4-676f-40dc-a7f7-a53f07dd3107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightwidow
@@ -482,6 +576,7 @@
   > Infect (This creature deals damage to creatures in the form of -1/-1 counters and to players in the form of poison counters.)
 - **Keywords:** Reach, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/77/blightwidow) · oracle_id `282003f4-862a-4f80-8f45-e470fc0fe2fe` · printing: MBS #77 (2011-02-04) · [rulings](https://api.scryfall.com/cards/26da4278-ba44-4555-8837-e24627b46533/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightwing Bandit
@@ -494,7 +589,14 @@
   > Whenever you cast your first spell during each opponent's turn, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled, and mana of any type can be spent to cast it.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/13/blightwing-bandit) · oracle_id `770894c0-01e7-4c1e-bcfb-989eee221dd2` · printing: WOC #13 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b91c8318-85a0-4c2e-9cef-cc00429218b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-09-01* — Blightwing Bandit doesn't change when you can cast a spell. For example, if you exile a creature card without flash, you can cast it only during your main phase when the stack is empty.
+  - *2023-09-01* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2023-09-01* — If you leave the game, the cards remain exiled face down indefinitely. No player may look at them.
+  - *2023-09-01* — The six types of mana are white, blue, black, red, green, and colorless. Snow mana is not a type of mana. Blightwing Bandit won't let you pay a snow cost using mana produced by a nonsnow source.
+  - *2023-09-01* — You may look at and cast the exiled cards (and spend mana of any type to do so) even if Blightwing Bandit leaves the battlefield. If another player gains control of Blightwing Bandit, that player can't look at or cast the cards, and you still can.
+  - *2023-09-01* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/13/blightwing-bandit) · oracle_id `770894c0-01e7-4c1e-bcfb-989eee221dd2` · printing: WOC #13 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blim, Comedic Genius
 
@@ -506,7 +608,13 @@
   > Whenever Blim deals combat damage to a player, that player gains control of target permanent you control. Then each player loses life and discards cards equal to the number of permanents they control but don't own.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11425 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/272/blim-comedic-genius) · oracle_id `c7cf9574-e2cf-4137-a224-73f76c5d11d7` · printing: CMR #272 (2020-11-20) · [rulings](https://api.scryfall.com/cards/3d8cd7dc-028a-4da2-b2a1-435d40cf48ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — If the target permanent you control is an illegal target by the time Blim's ability tries to resolve, the ability doesn't resolve. The other player doesn't gain control of your permanent, and no one loses life or discards cards.
+  - *2020-11-10* — Players lose life and discard cards for all permanents they control but don't own, not just the ones they received from you.
+  - *2020-11-10* — The control-change effect of Blim's ability lasts indefinitely. It doesn't wear off during the cleanup step, and it doesn't expire if Blim leaves the battlefield. In a multiplayer game, it does expire if the current controller leaves the game.
+  - *2020-11-10* — The player who was dealt damage can't refuse your generous gift. That would be rude.
+  - *2020-11-10* — You choose which permanent the player gains control of, not the player who was dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/272/blim-comedic-genius) · oracle_id `c7cf9574-e2cf-4137-a224-73f76c5d11d7` · printing: CMR #272 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blindblast
 
@@ -519,7 +627,10 @@
   > *"Peril is in the eye of the beholder. At least, if your aim is good."*
   > *—Jaya Ballard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/295/blindblast) · oracle_id `9abeb38c-2243-424c-bfbc-87aa45b6ea4f` · printing: JMP #295 (2020-07-17) · [rulings](https://api.scryfall.com/cards/9feaa623-3422-4997-af7b-f75074af5fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Casting Blindblast after a creature has blocked won’t remove the blocking creature from combat unless the damage Blindblast deals causes that creature to die. It won’t cause the creature it blocked to become unblocked even if the blocking creature does die.
+  - *2019-05-03* — If the target creature is an illegal target by the time Blindblast tries to resolve, the spell doesn’t resolve. You won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/295/blindblast) · oracle_id `9abeb38c-2243-424c-bfbc-87aa45b6ea4f` · printing: JMP #295 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Creeper
 
@@ -531,7 +642,9 @@
 - **Flavor text** (5DN printing):
   > *It shuns everything except its next meal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/42/blind-creeper) · oracle_id `02d4c3a8-c733-45c1-bca5-51eed47c9230` · printing: 5DN #42 (2004-06-04) · [rulings](https://api.scryfall.com/cards/86d5440a-7460-4b4f-a167-a6c4fb2d855e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — This ability triggers off anyone casting a spell, including you, not just Blind Creeper’s controller or an opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/42/blind-creeper) · oracle_id `02d4c3a8-c733-45c1-bca5-51eed47c9230` · printing: 5DN #42 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Fury
 
@@ -544,6 +657,7 @@
   > *—Purraj of Urborg*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25399 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/158/blind-fury) · oracle_id `5dbfd316-a0a9-4caa-99b1-069931d2aaa4` · printing: MIR #158 (1996-10-08) · [rulings](https://api.scryfall.com/cards/0ff91a17-0a5f-456f-a431-8505ba29e679/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Hunter
@@ -557,6 +671,7 @@
   > When this creature enters or the creature it haunts dies, target player loses 2 life and you gain 2 life.
 - **Keywords:** Flying, Haunt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18503 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/166/blind-hunter) · oracle_id `a731f5bc-892c-4857-9590-4fa31c1caf00` · printing: RVR #166 (2024-01-12) · [rulings](https://api.scryfall.com/cards/814a5348-988d-480f-806d-9c958f1a10b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Angel
@@ -571,7 +686,9 @@
   > *"Their eyes will shrivel and blacken before faith's true light."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/7/blinding-angel) · oracle_id `cb479ce1-59e8-4531-9a21-f7c97d334817` · printing: 9ED #7 (2005-07-29) · [rulings](https://api.scryfall.com/cards/e04256f8-c275-4a24-8a95-371d424f7a01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you are damaged by more than one, the effects are cumulative and you skip multiple combat phases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/7/blinding-angel) · oracle_id `cb479ce1-59e8-4531-9a21-f7c97d334817` · printing: 9ED #7 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Beam
 
@@ -584,7 +701,9 @@
   > Entwine {1} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26958 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/7/blinding-beam) · oracle_id `0766cf02-ea55-4271-8c73-213c93b0baac` · printing: MMA #7 (2013-06-07) · [rulings](https://api.scryfall.com/cards/d0b15737-1026-407f-b2a8-4f7932b2bb18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — The second mode affects all creatures during the player’s next untap step, including creatures controlled by other players (who may have untapped because of Seedborn Muse, for example) and creatures that weren’t on the battlefield when Blinding Beam resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/7/blinding-beam) · oracle_id `0766cf02-ea55-4271-8c73-213c93b0baac` · printing: MMA #7 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Drone
 
@@ -599,6 +718,7 @@
   > *—Ayli, high priest of the Eternal Pilgrims*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/41/blinding-drone) · oracle_id `c924e240-02a0-46b5-b004-d5c42db277ec` · printing: OGW #41 (2016-01-22) · [rulings](https://api.scryfall.com/cards/4eb60957-0811-40c3-a92b-cce3e6a94745/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Flare
@@ -610,7 +730,14 @@
   > Any number of target creatures can't block this turn.
 - **Keywords:** Strive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/91/blinding-flare) · oracle_id `3c8b0a8a-8f80-4c3e-8f27-fb1df94aa0d4` · printing: JOU #91 (2014-05-02) · [rulings](https://api.scryfall.com/cards/e07f43b6-e07f-4d0c-90d2-e5b0d23ba0f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-04-26* — Blinding Flare can target any creature, including those you control.
+  - *2014-04-26* — If a spell or ability allows you to cast a strive spell without paying its mana cost, you must pay the additional costs for any targets beyond the first.
+  - *2014-04-26* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen. If one or more of its targets are legal when it tries to resolve, the spell will resolve and affect only those legal targets. It will have no effect on any illegal targets.
+  - *2014-04-26* — If such a spell is copied, and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2014-04-26* — The mana cost and mana value of strive spells don't change no matter how many targets they have. Strive abilities affect only what you pay.
+  - *2014-04-26* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/91/blinding-flare) · oracle_id `3c8b0a8a-8f80-4c3e-8f27-fb1df94aa0d4` · printing: JOU #91 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Fog
 
@@ -621,7 +748,10 @@
 - **Flavor text** (XLN printing):
   > *"I see you, shiny soldiers, but you won't see me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/177/blinding-fog) · oracle_id `50555471-a03c-4735-a6ce-6ae96e27d7c0` · printing: XLN #177 (2017-09-29) · [rulings](https://api.scryfall.com/cards/bae7d501-72a1-43c2-9f72-d768ac5e9320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — Blinding Fog prevents all damage that would be dealt to creatures, not just combat damage.
+  - *2017-09-29* — Damage that would be dealt to creatures that enter the battlefield later in the turn will also be prevented. However, creatures that come under your control later in the turn won’t gain hexproof.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/177/blinding-fog) · oracle_id `50555471-a03c-4735-a6ce-6ae96e27d7c0` · printing: XLN #177 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Light
 
@@ -632,7 +762,9 @@
 - **Flavor text** (INV printing):
   > *An angel's sword impales only the body; her righteousness penetrates the soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/9/blinding-light) · oracle_id `6b315dc3-c330-4b30-b6ad-4da12ccf6ca3` · printing: INV #9 (2000-10-02) · [rulings](https://api.scryfall.com/cards/882c1e15-b508-4885-9626-4c8d2598a006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Will not tap a creature that is both white and another color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/9/blinding-light) · oracle_id `6b315dc3-c330-4b30-b6ad-4da12ccf6ca3` · printing: INV #9 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Mage
 
@@ -644,6 +776,7 @@
 - **Flavor text** (IMA printing):
   > *"I carry the light of truth. Do not pity those it blinds, for they never had eyes to see."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/13/blinding-mage) · oracle_id `53a1faa1-ca67-4027-bee8-0f7c4584d62b` · printing: IMA #13 (2017-11-17) · [rulings](https://api.scryfall.com/cards/173675c1-685c-4f4c-a6dc-b42a3ae69137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Powder
@@ -655,6 +788,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18048 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/153/blinding-powder) · oracle_id `75e13f7f-aded-405c-97ce-124fa0cb1929` · printing: BOK #153 (2005-02-04) · [rulings](https://api.scryfall.com/cards/f097fbb8-0db5-4ceb-8972-dcd21b3fb4d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Souleater
@@ -668,6 +802,7 @@
   > *"We thank the souleaters for inscribing our souls with subservience, to reinforce the sacred order."*
   > *—Drones' hymn of gratitude*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22955 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/202/blinding-souleater) · oracle_id `f5f330a5-14a0-4bfe-ba46-4616692b7bd3` · printing: MM2 #202 (2015-05-22) · [rulings](https://api.scryfall.com/cards/7a0dfbd3-4b19-4f56-b6c2-7107a3cba4ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinding Spray
@@ -681,7 +816,10 @@
   > *"The stronger our enemies seem, the more vulnerable they are."*
   > *—Sultai secret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/32/blinding-spray) · oracle_id `88ce2017-83a6-4b55-afba-371875bf2172` · printing: KTK #32 (2014-09-26) · [rulings](https://api.scryfall.com/cards/9b588355-c349-458d-aeb7-0e2780caa3f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Blinding Spray doesn’t affect creatures that enter the battlefield or come under the control of one of your opponents after it resolves.
+  - *2014-09-20* — You can cast Blinding Spray even if your opponents control no creatures just to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/32/blinding-spray) · oracle_id `88ce2017-83a6-4b55-afba-371875bf2172` · printing: KTK #32 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Obedience
 
@@ -694,7 +832,12 @@
   > *"By the time your knees have worn through your robe, you may have begun to learn your place."*
 - **Keywords:** Extort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/9/blind-obedience) · oracle_id `5d998c09-7d89-4265-ada4-6d80cbf56dae` · printing: RVR #9 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d859e1f9-feb3-497a-af0b-f74fee46861f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/9/blind-obedience) · oracle_id `5d998c09-7d89-4265-ada4-6d80cbf56dae` · printing: RVR #9 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Phantasm
 
@@ -704,6 +847,7 @@
 - **Oracle text:**
   > *(no rules text)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29678 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/49/blind-phantasm) · oracle_id `3b91be0e-0683-48df-91b0-25e90b492796` · printing: FUT #49 (2007-05-04) · [rulings](https://api.scryfall.com/cards/6b26ee7b-de1a-4a39-9580-89941c3d0f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Seer
@@ -717,7 +861,9 @@
   > *"I think he sees more than he lets on."*
   > *—Gerrard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19128 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/47/blind-seer) · oracle_id `f905b72d-734a-44e8-b118-c8de889994a9` · printing: INV #47 (2000-10-02) · [rulings](https://api.scryfall.com/cards/5c54ec26-c7f1-4258-9cc9-1709987f293c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you change the color of a spell which is to become a permanent, the permanent will retain the color change until the end of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/47/blind-seer) · oracle_id `f905b72d-734a-44e8-b118-c8de889994a9` · printing: INV #47 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind-Spot Giant
 
@@ -729,7 +875,9 @@
 - **Flavor text** (MMA printing):
   > *Among the solitude-loving giantkind, teamwork is unusual. But he appreciates hearing the occasional "Swing down and to your left."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27726 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/105/blind-spot-giant) · oracle_id `37165859-87bc-4d44-95a2-39051ab20a14` · printing: MMA #105 (2013-06-07) · [rulings](https://api.scryfall.com/cards/87d76ed9-7a2c-466f-be39-1f7880744c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-06-07* — Blind-Spot Giant checks if you control another Giant only as you declare it as an attacking or blocking creature. Once you do, if you lose control of your other Giants, Blind-Spot Giant won’t stop attacking or blocking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/105/blind-spot-giant) · oracle_id `37165859-87bc-4d44-95a2-39051ab20a14` · printing: MMA #105 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind with Anger
 
@@ -741,6 +889,7 @@
   > *"I can post only the most honorable and strong-willed samurai to defend your stronghold. I have seen what can happen to lesser men."*
   > *—General Takeno, letter to Lord Konda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/158/blind-with-anger) · oracle_id `97913c3c-eec0-4510-921a-d70c022f7961` · printing: CHK #158 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a50a0fe0-249d-4a88-a538-cdf622388ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Zealot
@@ -753,7 +902,9 @@
   > Whenever this creature deals combat damage to a player, you may sacrifice it. If you do, destroy target creature that player controls.
 - **Keywords:** Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/52/blind-zealot) · oracle_id `30c7e304-ecfe-44c1-88d1-f507df63c080` · printing: NPH #52 (2011-05-13) · [rulings](https://api.scryfall.com/cards/9bd04df1-5131-455d-b497-fcce4f9af552/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — You’ll choose the target creature when the ability goes on the stack. You’ll choose whether or not to sacrifice Blind Zealot when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/52/blind-zealot) · oracle_id `30c7e304-ecfe-44c1-88d1-f507df63c080` · printing: NPH #52 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blink
 
@@ -765,7 +916,11 @@
   > II, IV — Create a 2/2 black Alien Angel artifact creature token with first strike, vigilance, and "Whenever an opponent casts a creature spell, this token isn't a creature until end of turn."
 - **Keywords:** Investigate, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/116/blink) · oracle_id `f5fba11b-7669-40a0-97c7-6cb7c13acedd` · printing: WHO #116 (2023-10-13) · [rulings](https://api.scryfall.com/cards/032adfbd-3898-410c-acf0-79b88f924520/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — As the triggered ability of the Alien Angel token resolves, it continues to be an artifact but will stop being both an Alien and an Angel until it becomes a creature again.
+  - *2023-10-13* — If an opponent casts a creature spell with flash while the token is attacking or blocking, the token is removed from combat because it stops being a creature. However, any creatures that it was blocking are still considered blocked.
+  - *2023-10-13* — People often assume that Sagas are a strict progression from top to bottom, but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly wobbly, timey-wimey . . . stuff. That is, the rules support chapter abilities that appear to be out of order, like those on Blink. The first ability triggers when the first and third lore counters are added. The last ability triggers when the second and fourth lore counters are placed on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/116/blink) · oracle_id `f5fba11b-7669-40a0-97c7-6cb7c13acedd` · printing: WHO #116 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blink Dog
 
@@ -779,7 +934,16 @@
   > *Blink dogs protect the wild places of the world, driving away evil influences.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/3/blink-dog) · oracle_id `02a7d95a-0a45-4aa3-b5b8-01c0b36462d8` · printing: AFR #3 (2021-07-23) · [rulings](https://api.scryfall.com/cards/cc040492-7fb7-4fdb-aafe-8179e5f2b28c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-07-23* — An attacking or blocking creature that phases out is removed from combat.
+  - *2021-07-23* — Any continuous effects with a "for as long as" duration, such as that of Mind Flayer, ignore phased-out objects. If ignoring those objects causes the effect's conditions to no longer be met, the duration will expire.
+  - *2021-07-23* — As Blink Dog phases out, Auras and Equipment attached to it also phase out at the same time. Those Auras and Equipment will phase in at the same time Blink Dog does, and they'll phase in still attached to Blink Dog.
+  - *2021-07-23* — Choices made for permanents as they entered the battlefield are remembered when they phase in.
+  - *2021-07-23* — If an opponent gains control of your Blink Dog, activates its Teleport ability, and the duration of the control-change effect expires before it phases in, Blink Dog phases in under your control as that opponent's next untap step begins. If they leave the game before their next untap step, Blink Dog phases in as the next untap step begins after their turn would have begun.
+  - *2021-07-23* — Permanents phase back in during their controller's untap step, immediately before that player untaps their permanents. Creatures that phase in this way are able to attack and pay a cost of {T} during that turn. If a permanent had counters on it when it phased out, it will have those counters when it phases back in.
+  - *2021-07-23* — Phased out permanents are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
+  - *2021-07-23* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/3/blink-dog) · oracle_id `02a7d95a-0a45-4aa3-b5b8-01c0b36462d8` · printing: AFR #3 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinking Spirit
 
@@ -792,6 +956,7 @@
   > *"Don't look at it! Maybe it'll go away!"*
   > *—Ib Halfheart, goblin tactician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/8/blinking-spirit) · oracle_id `a26f6958-9bc8-46f8-8ca7-7f55098e1291` · printing: 9ED #8 (2005-07-29) · [rulings](https://api.scryfall.com/cards/692ac387-be1f-48e0-945e-cbb1254d395c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinkmoth Infusion
@@ -805,7 +970,10 @@
   > *Power begets power.*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/25/blinkmoth-infusion) · oracle_id `8788f555-8c18-4842-9716-385afae2b9a4` · printing: 5DN #25 (2004-06-04) · [rulings](https://api.scryfall.com/cards/ccb4d9a3-e7f6-41e2-9545-4682efd71f46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Blinkmoth Infusion untaps all artifacts on the battlefield, not just artifacts you control.
+  - *2004-12-01* — If you control no artifacts, Blinkmoth Infusion costs twelve generic mana and two blue mana to cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/25/blinkmoth-infusion) · oracle_id `8788f555-8c18-4842-9716-385afae2b9a4` · printing: 5DN #25 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinkmoth Nexus
 
@@ -816,7 +984,10 @@
   > {1}: This land becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land.
   > {1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/311/blinkmoth-nexus) · oracle_id `40d45c02-6416-4e19-8fe3-0ddadf5ba627` · printing: 2XM #311 (2020-08-07) · [rulings](https://api.scryfall.com/cards/3ac535c1-9ef3-45b5-8959-7e79589d47ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2020-08-07* — Blinkmoth Nexus can be the target of its last ability after activating its middle ability. Activating it after it has blocked a creature won't remove it from combat or stop it from dealing and being dealt combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/311/blinkmoth-nexus) · oracle_id `40d45c02-6416-4e19-8fe3-0ddadf5ba627` · printing: 2XM #311 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinkmoth Urn
 
@@ -827,7 +998,10 @@
 - **Flavor text** (C18 printing):
   > *The vedalken embed such urns in their living artifact creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/197/blinkmoth-urn) · oracle_id `08497e8f-3521-48e4-a1e7-c192b485d891` · printing: C18 #197 (2018-08-10) · [rulings](https://api.scryfall.com/cards/3879faf0-6e39-4275-82f6-7fb5c70fc6ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The precombat main phase is the first main phase of the turn. All others are postcombat main phases, even if they technically occur before combat.
+  - *2004-12-01* — The "precombat main phase" is the first main phase of the turn. All other main phases are "postcombat main phases."
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/197/blinkmoth-urn) · oracle_id `08497e8f-3521-48e4-a1e7-c192b485d891` · printing: C18 #197 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinkmoth Well
 
@@ -839,6 +1013,7 @@
 - **Flavor text** (MRD printing):
   > *When dictated by blinkmoth migratory patterns, clouds of tiny lights well up from Mirrodin's core.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/279/blinkmoth-well) · oracle_id `dd3fd7cd-d8a1-48e2-861d-c7c40086dc75` · printing: MRD #279 (2003-10-02) · [rulings](https://api.scryfall.com/cards/e4c79155-b6d8-46df-891f-487b24c4e0d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blink of an Eye
@@ -850,7 +1025,15 @@
   > Return target nonland permanent to its owner's hand. If this spell was kicked, draw a card.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8659 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/46/blink-of-an-eye) · oracle_id `51acd176-e84d-42c2-acb2-cceeb28a9fec` · printing: DOM #46 (2018-04-27) · [rulings](https://api.scryfall.com/cards/ab830392-4d7e-4b45-93cf-35ed1e935228/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-04-27* — If the target nonland permanent is an illegal target by the time Blink of an Eye tries to resolve, the spell doesn't resolve. You won't draw a card if it was kicked.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/46/blink-of-an-eye) · oracle_id `51acd176-e84d-42c2-acb2-cceeb28a9fec` · printing: DOM #46 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blister Beetle
 
@@ -862,7 +1045,9 @@
 - **Flavor text** (ALA printing):
   > *Warriors of the Rip Clan wear their beetle-acid scars proudly, even modifying clothing and armor to better display the trophy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24993 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/66/blister-beetle) · oracle_id `8ec6b0f1-8928-457c-adf0-c74a28edc86f` · printing: ALA #66 (2008-10-03) · [rulings](https://api.scryfall.com/cards/7f42bdeb-5a51-4303-96d8-9722f95d2905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — If there are no other creatures on the battlefield when Blister Beetle enters, it must target itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/66/blister-beetle) · oracle_id `8ec6b0f1-8928-457c-adf0-c74a28edc86f` · printing: ALA #66 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistercoil Weird
 
@@ -874,7 +1059,11 @@
 - **Flavor text** (RTR printing):
   > *Azorius lawmages would like to outlaw the creation of weirds, but first they'd have to settle their long-standing debate on how to classify them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/211/blistercoil-weird) · oracle_id `bf9b24e1-60d4-4739-808a-535336e191c2` · printing: RTR #211 (2012-10-05) · [rulings](https://api.scryfall.com/cards/d2a8e716-ea33-4ae2-9ff8-5e78b0e50459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-10-01* — Blistercoil Weird will get +1/+1 and untap before that instant or sorcery spell resolves.
+  - *2012-10-01* — Blistercoil Weird will get +1/+1 even if the instant or sorcery spell is countered or if Blistercoil Weird is untapped when its ability resolves.
+  - *2012-10-01* — If you copy an instant or sorcery spell on the stack (using Nivix Guildmage’s second ability, for example), the copy isn’t cast. Blistercoil Weird’s ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/211/blistercoil-weird) · oracle_id `bf9b24e1-60d4-4739-808a-535336e191c2` · printing: RTR #211 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistergrub
 
@@ -889,6 +1078,7 @@
   > *—Opar, veteran guide*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21215 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/40/blistergrub) · oracle_id `f5580a77-a69b-4ee8-9809-4523097cd7ac` · printing: DDR #40 (2016-09-02) · [rulings](https://api.scryfall.com/cards/517ec1ba-00cd-4883-b298-521dc2d03f81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistering Barrier
@@ -903,6 +1093,7 @@
   > *—Femeref riddle*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/159/blistering-barrier) · oracle_id `8783533d-dd98-4b80-b348-29051e1b5c28` · printing: MIR #159 (1996-10-08) · [rulings](https://api.scryfall.com/cards/56d000d8-24e1-4cf3-bed9-e68a89c8f569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistering Dieflyn
@@ -917,6 +1108,7 @@
   > *Any kithkin smith would love to catch a dieflyn for her kiln, relieving her of ever having to gather fuel again.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31913 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/82/blistering-dieflyn) · oracle_id `4cd6ad78-7441-4dd7-b486-d9575e8e0947` · printing: SHM #82 (2008-05-02) · [rulings](https://api.scryfall.com/cards/5720a5b2-60ca-49f9-83e8-b801471c92ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistering Firecat
@@ -930,6 +1122,7 @@
   > Morph {R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17895 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/189/blistering-firecat) · oracle_id `b3595359-0d40-495e-85da-6a56fbce7357` · printing: ONS #189 (2002-10-07) · [rulings](https://api.scryfall.com/cards/e0ddcf4a-1943-49dd-a02c-75804ce4bc3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blisterpod
@@ -944,7 +1137,17 @@
   > *A blisterpod's corpse is a scion's cradle.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/163/blisterpod) · oracle_id `2a62b226-d317-4212-9781-9c1d72056f11` · printing: BFZ #163 (2015-10-02) · [rulings](https://api.scryfall.com/cards/e16f1803-634a-41b0-ae21-484d6f914a0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/163/blisterpod) · oracle_id `2a62b226-d317-4212-9781-9c1d72056f11` · printing: BFZ #163 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blisterspit Gremlin
 
@@ -958,7 +1161,11 @@
   > *"Ah, we have a critic."*
   > *—Orthion, Lavabrink captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/108/blisterspit-gremlin) · oracle_id `cd8a90a7-5502-405f-a49e-ad4252872595` · printing: IKO #108 (2020-04-24) · [rulings](https://api.scryfall.com/cards/4ec65b97-d5c0-4609-8a60-3c4daa3e59c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-04-17* — In a Two-Headed Giant game, Blisterspit Gremlin's first ability causes the opposing team to lose 2 life.
+  - *2020-04-17* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/108/blisterspit-gremlin) · oracle_id `cd8a90a7-5502-405f-a49e-ad4252872595` · printing: IKO #108 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blisterstick Shaman
 
@@ -970,6 +1177,7 @@
 - **Flavor text** (MBS printing):
   > *A productive warren requires a good deal of prodding.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/58/blisterstick-shaman) · oracle_id `6f76fec2-6fd0-4d33-b39a-f1684922d478` · printing: MBS #58 (2011-02-04) · [rulings](https://api.scryfall.com/cards/f8187e90-6a60-4ed0-9b3a-3a679743b7d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitz Automaton
@@ -984,7 +1192,15 @@
   > *While Urza's machines favored defense, Mishra built his to end the war quickly.*
 - **Keywords:** Haste, Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/158/blitz-automaton) · oracle_id `19f344ee-031d-4346-9553-c5d32b02df43` · printing: BRO #158 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e4e5529a-848b-486c-97fb-1def35df7837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/158/blitz-automaton) · oracle_id `19f344ee-031d-4346-9553-c5d32b02df43` · printing: BRO #158 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzball
 
@@ -995,7 +1211,9 @@
   > GOOOOAAAALLL! — {T}, Sacrifice this artifact: Draw two cards. Activate only if an opponent was dealt combat damage by a legendary creature this turn.
 - **Keywords:** GOOOOAAAALLL!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/254/blitzball) · oracle_id `75719f87-ce1a-40d6-ac5a-5ebf0c936c84` · printing: FIN #254 (2025-06-13) · [rulings](https://api.scryfall.com/cards/92f4ad73-42bf-45c0-8bb6-0b44043c81ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Blitzball's last ability doesn't care who controls the legendary creature that dealt combat damage to an opponent this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/254/blitzball) · oracle_id `75719f87-ce1a-40d6-ac5a-5ebf0c936c84` · printing: FIN #254 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzball Shot
 
@@ -1007,6 +1225,7 @@
   > *"Everyone seems to be calling for Wakka, folks!"*
   > *—Blitzball announcer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12262 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/176/blitzball-shot) · oracle_id `c99779b7-a271-416e-bdc2-0f9ba6ceb144` · printing: FIN #176 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ec8ab637-3d7d-4712-9f83-8920f808f715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzball Stadium
@@ -1018,6 +1237,7 @@
   > Go for the Goal! — {3}, {T}: Until end of turn, target creature gains "Whenever this creature deals combat damage to a player, draw a card for each kind of counter on it" and it can't be blocked this turn.
 - **Keywords:** Support, Go for the Goal!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6633 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/34/blitzball-stadium) · oracle_id `a4b66fb3-16ea-4bf1-bce3-6df872e8883b` · printing: FIC #34 (2025-06-13) · [rulings](https://api.scryfall.com/cards/771808d9-d0c8-418b-ab6c-1ae6fc07ca20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitz Hellion
@@ -1032,7 +1252,10 @@
   > *Alarans commemorated its appearances with new holidays bearing names like the Great Cataclysm and the Fall of Ilson Gate.*
 - **Keywords:** Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/49/blitz-hellion) · oracle_id `7ef3f240-05a5-4fc9-a977-a729010a53c2` · printing: ARB #49 (2009-04-30) · [rulings](https://api.scryfall.com/cards/0b4a16be-ab3b-4020-9f26-631c0ee6730a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — A token that’s copying Blitz Hellion will be shuffled into its owner’s library when this ability resolves, then will cease to exist. For practical purposes, the token should not actually be put into the library, though the library is still shuffled.
+  - *2009-05-01* — Blitz Hellion’s last ability triggers at the end of each turn in which it’s on the battlefield. If it’s not on the battlefield by the time this ability resolves, nothing happens. Blitz Hellion stays wherever it is, and its owner doesn’t shuffle their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/49/blitz-hellion) · oracle_id `7ef3f240-05a5-4fc9-a977-a729010a53c2` · printing: ARB #49 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitz Leech
 
@@ -1047,7 +1270,9 @@
   > *—Gavi, nest warden*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25733 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/74/blitz-leech) · oracle_id `7679942f-fcbc-4750-8e8c-fe0ad8103c11` · printing: IKO #74 (2020-04-24) · [rulings](https://api.scryfall.com/cards/7d9b5bde-a851-480b-b45e-d384fd1c11bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Blitz Leech’s ability removes all counters from the target creature before state-based actions are checked to see if that creature should die. For example, a 2/2 creature with a flying counter on it will lose that counter while it’s a 0/0 creature before it dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/74/blitz-leech) · oracle_id `7679942f-fcbc-4750-8e8c-fe0ad8103c11` · printing: IKO #74 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitz of the Thunder-Raptor
 
@@ -1058,7 +1283,10 @@
 - **Flavor text** (IKO printing):
   > *The sound of Vadrok's gigantic wings is ominous. But the true terror is when they fall silent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/109/blitz-of-the-thunder-raptor) · oracle_id `d2db3f9c-26fe-487b-bbb7-8bc6f33456f1` · printing: IKO #109 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a0174556-9f9b-4756-84ca-d14a5a60720c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Blitz of the Thunder-Raptor is still on the stack while you determine how much damage is dealt. It isn’t in your graveyard to contribute to that amount of damage.
+  - *2020-04-17* — Blitz of the Thunder-Raptor’s replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature or planeswalker even if Blitz of the Thunder-Raptor deals no damage to it (most likely because you have no instant or sorcery cards in your graveyard).
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/109/blitz-of-the-thunder-raptor) · oracle_id `d2db3f9c-26fe-487b-bbb7-8bc6f33456f1` · printing: IKO #109 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant
 
@@ -1074,7 +1302,23 @@
   > Whenever Blitzwing deals combat damage to a player, convert it.
 - **Keywords:** Living metal, Convert, More Than Meets the Eye
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8454 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/4/blitzwing-cruel-tormentor-blitzwing-adaptive-assailant) · oracle_id `9a10668a-df42-40c2-88d1-ad3b2aba5b03` · printing: BOT #4 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d20738d2-a159-4e3e-be7a-561a121bd447/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — After Blitzwing, Adaptive Assailant converts into Blitzwing, Cruel Tormentor, it's still an attacking creature in combat. It will still have any gained abilities, including the ability it gained at the beginning of combat. Notably, if it has somehow gained double strike, it will convert before dealing combat damage in the regular combat damage step.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/4/blitzwing-cruel-tormentor-blitzwing-adaptive-assailant) · oracle_id `9a10668a-df42-40c2-88d1-ad3b2aba5b03` · printing: BOT #4 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard
 
@@ -1086,6 +1330,7 @@
   > Creatures with flying don't untap during their controllers' untap steps.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28591 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/227/blizzard) · oracle_id `698feaaa-2fff-4809-81d1-4caad44c6c0a` · printing: ICE #227 (1995-06-03) · [rulings](https://api.scryfall.com/cards/c369e4f9-0f2b-446c-9e2d-d3eefab0586d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard Brawl
@@ -1096,7 +1341,17 @@
   > Choose target creature you control and target creature you don't control. If you control three or more snow permanents, the creature you control gets +1/+0 and gains indestructible until end of turn. Then those creatures fight each other. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/162/blizzard-brawl) · oracle_id `25a0fe3b-59c8-496a-a8d6-fca966ca6602` · printing: KHM #162 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6318918f-34e4-4bbf-9816-8e88f21ae324/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-02-05* — Check whether you control three or more snow permanents as Blizzard Brawl is resolving to see if the target creature you control gets +1/+0 and gains indestructible. That creature will still fight even if it doesn’t get those bonuses.
+  - *2021-02-05* — If either target is an illegal target as Blizzard Brawl tries to resolve, neither creature will fight and no damage will be dealt.
+  - *2021-02-05* — If the creature you control is still a legal target as Blizzard Brawl tries to resolve but the target creature you don’t control isn’t, the creature you control will still get the bonuses until end of turn.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — You can’t cast Blizzard Brawl unless you choose both a creature you control and one you don’t control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/162/blizzard-brawl) · oracle_id `25a0fe3b-59c8-496a-a8d6-fca966ca6602` · printing: KHM #162 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard Elemental
 
@@ -1110,6 +1365,7 @@
   > *Students who had seen Rayne argue with Urza were certain she had summoned it to make him seem warmer by comparison.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31508 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/27/blizzard-elemental) · oracle_id `dd489f30-d1cf-4236-8390-9c21cd8659e0` · printing: UDS #27 (1999-06-07) · [rulings](https://api.scryfall.com/cards/5949c5a7-9656-466a-add8-1800973fefee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard Specter
@@ -1124,7 +1380,10 @@
   > • That player discards a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/194/blizzard-specter) · oracle_id `b6f4148d-8511-46b3-93ec-2f5eb1e4ffad` · printing: IMA #194 (2017-11-17) · [rulings](https://api.scryfall.com/cards/0167df83-3bf4-4442-897d-c4ed06fa05a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If Blizzard Specter’s first mode is chosen, the player who was dealt damage chooses the permanent to return to hand when the ability resolves. A permanent with hexproof or protection from black may be chosen this way.
+  - *2017-11-17* — You choose the mode when you put Blizzard Specter’s triggered ability on the stack. Blizzard Specter’s second mode may be chosen even if the player’s hand is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/194/blizzard-specter) · oracle_id `b6f4148d-8511-46b3-93ec-2f5eb1e4ffad` · printing: IMA #194 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard Strix
 
@@ -1137,4 +1396,8 @@
   > When this creature enters, if you control another snow permanent, exile target permanent other than this creature. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/42/blizzard-strix) · oracle_id `c687af9b-2159-4965-a068-ce4db1ce801c` · printing: MH1 #42 (2019-06-14) · [rulings](https://api.scryfall.com/cards/217dfa26-d3ad-4fe8-9db4-ddd753a4b679/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. Once the exiled permanent returns, it’s considered a new object with no relation to the object that it was.
+  - *2019-06-14* — If Blizzard Strix enters the battlefield during a player’s end step, the exiled permanent will remain exiled until the next turn’s end step.
+  - *2019-06-14* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/42/blizzard-strix) · oracle_id `c687af9b-2159-4965-a068-ce4db1ce801c` · printing: MH1 #42 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -24,6 +24,7 @@
   > *"Any questions?"*
   > *—Tony Stark*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/58/i-am-iron-man) · oracle_id `deb16a9a-2fa9-4ad3-bb20-7c16066e3d14` · printing: MSH #58 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9c401abb-5978-41c0-962b-0432f9433929/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ian Chesterton
@@ -36,7 +37,15 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Science Teacher, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13333 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/22/ian-chesterton) · oracle_id `32c9ce8c-a19d-49e4-bc6d-c7182fa00b51` · printing: WHO #22 (2023-10-13) · [rulings](https://api.scryfall.com/cards/8bce4bde-33af-4c91-903f-c46218664353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/22/ian-chesterton) · oracle_id `32c9ce8c-a19d-49e4-bc6d-c7182fa00b51` · printing: WHO #22 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ian Malcolm, Chaotician
 
@@ -49,7 +58,11 @@
 - **Flavor text** (REX printing):
   > *"You've heard of chaos theory?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11297 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/13/ian-malcolm-chaotician) · oracle_id `57ff1665-0a7b-4d98-bd8f-cc07cf04f701` · printing: REX #13 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b4a0402e-e39b-4008-b654-189b4a5e03a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Ian Malcolm, Chaotician's first ability can trigger only once each turn for each player. It doesn't matter if Ian was on the battlefield when the first card was drawn. If you control it when a player draws their second card in a turn, that ability will trigger.
+  - *2023-11-10* — Players must follow all applicable timing rules for casting spells with the permission granted by Ian Malcolm, Chaotician's last ability. For example, if the spell is a sorcery, it can only be cast during that player's main phase while the stack is empty.
+  - *2023-11-10* — The six types of mana are white, blue, black, red, green, and colorless. Snow mana is not a type of mana. Ian Malcolm, Chaotician won't let you pay a snow cost using mana produced by a nonsnow source.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/13/ian-malcolm-chaotician) · oracle_id `57ff1665-0a7b-4d98-bd8f-cc07cf04f701` · printing: REX #13 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ian the Reckless
 
@@ -61,4 +74,7 @@
 - **Flavor text** (PIP printing):
   > *"I may not be a very good fighter any more, but I'm good enough to best the likes of you!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16532 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/59/ian-the-reckless) · oracle_id `0727ce6a-aae2-4ddc-9e6c-b18011c5bd37` · printing: PIP #59 (2024-03-08) · [rulings](https://api.scryfall.com/cards/4cd46b6a-eb20-4ffa-94e0-47d1d2d46087/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — If Ian the Reckless isn’t modified when it attacks, its ability won’t trigger at all. When its ability tries to resolve, if it isn’t modified at that time, the ability won’t resolve.
+  - *2024-03-08* — If Ian the Reckless leaves the battlefield before its last ability resolves, as long as it was modified when it was last on the battlefield, use its power as it last existed on the battlefield to determine how much damage that ability deals.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/59/ian-the-reckless) · oracle_id `0727ce6a-aae2-4ddc-9e6c-b18011c5bd37` · printing: PIP #59 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

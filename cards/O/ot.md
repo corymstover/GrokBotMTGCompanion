@@ -33,6 +33,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +3/+0 and attacks each combat if able.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29680 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/305/otarian-juggernaut) · oracle_id `c19f79bb-a608-4455-98ef-aac129cea8c5` · printing: ODY #305 (2001-10-01) · [rulings](https://api.scryfall.com/cards/752420dc-d69a-4c9d-b563-f8928a4a0920/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otawara, Soaring City
@@ -44,7 +45,10 @@
   > Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #89 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · [rulings](https://api.scryfall.com/cards/486d7edc-d983-41f0-8b78-c99aecd72996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oteclan Landmark // Oteclan Levitator
 
@@ -60,7 +64,12 @@
   > *Dusk Legion invaders sought lone Oltec travelers to prey upon. The Core's guidestones did not approve.*
 - **Keywords:** Scry, Flying, Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/29/oteclan-landmark-oteclan-levitator) · oracle_id `2420828e-b886-42d3-81ba-8ee81b6e1eb8` · printing: LCI #29 (2023-11-17) · [rulings](https://api.scryfall.com/cards/099a1d1c-72ba-468e-9385-8f93e1fce001/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/29/oteclan-landmark-oteclan-levitator) · oracle_id `2420828e-b886-42d3-81ba-8ee81b6e1eb8` · printing: LCI #29 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otepec Huntmaster
 
@@ -73,7 +82,10 @@
 - **Flavor text** (LCC printing):
   > *"Forward! Let the Burning Sun's light guide you to deserving prey!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/229/otepec-huntmaster) · oracle_id `41623eab-38b5-4058-8de2-e6b8706de7a2` · printing: LCC #229 (2023-11-17) · [rulings](https://api.scryfall.com/cards/00a87f71-8dbe-44e1-b69b-a03f6ab62055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — To determine the total cost of a Dinosaur spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/229/otepec-huntmaster) · oracle_id `41623eab-38b5-4058-8de2-e6b8706de7a2` · printing: LCC #229 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otharri, Suns' Glory
 
@@ -86,7 +98,9 @@
   > {2}{R}{W}, Tap an untapped Rebel you control: Return this card from your graveyard to the battlefield tapped.
 - **Keywords:** Flying, Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2970 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-3/otharri-suns-glory) · oracle_id `b081352b-d17b-4031-bbcc-c5c02cbfa6b6` · printing: PLST #ONC-3 (2026-10-19) · [rulings](https://api.scryfall.com/cards/89b4491d-154d-46e2-84c2-afa4596e2b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Tapping a Rebel you control is part of the cost to activate the last ability of Otharri, Suns' Glory while it is in the graveyard. Once a player has begun to activate the ability, other players may not respond by removing that Rebel from the battlefield to prevent it from being tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-3/otharri-suns-glory) · oracle_id `b081352b-d17b-4031-bbcc-c5c02cbfa6b6` · printing: PLST #ONC-3 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Othelm, Sigardian Outcast
 
@@ -98,6 +112,7 @@
   > Partner—Friends forever (You can have two commanders if both have this ability.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16806 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/6/othelm-sigardian-outcast) · oracle_id `4ee401bf-dc86-41a9-84f9-57aa0a314d08` · printing: SLX #6 (2022-03-03) · [rulings](https://api.scryfall.com/cards/b867fb22-4f2a-47aa-9432-1bcc5e731947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworld Atlas
@@ -111,6 +126,7 @@
   > *"Any fool can open it. But it takes a genius to decipher the blank pages."*
   > *—Kordel the Cryptic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/219/otherworld-atlas) · oracle_id `8d907a1b-f301-46a3-aa1c-25fb7f29c949` · printing: AVR #219 (2012-05-04) · [rulings](https://api.scryfall.com/cards/46e4aa67-4643-42ff-8172-200498686494/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Escort
@@ -124,6 +140,7 @@
   > {1}{W}, {T}, Remove a charge counter from this creature: Destroy target creature that dealt damage to you this turn.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20319 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/12/otherworldly-escort) · oracle_id `c0ebc1df-51ea-413b-bb88-7666a53ad783` · printing: MKC #12 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b50bfde2-6c2d-403e-ab47-c932bcb2116d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Gaze
@@ -135,7 +152,15 @@
   > Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Surveil, Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/122/otherworldly-gaze) · oracle_id `be668c2d-71ea-4346-8980-1fbf5e4cbed3` · printing: DSC #122 (2024-09-27) · [rulings](https://api.scryfall.com/cards/40bafd2b-acd4-46f0-abb2-139e2918ae99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/122/otherworldly-gaze) · oracle_id `be668c2d-71ea-4346-8980-1fbf5e4cbed3` · printing: DSC #122 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Journey
 
@@ -147,7 +172,11 @@
   > *"The landscape shimmered and I felt a chill breeze. When my vision cleared, I found myself alone among the corpses of my fallen friends."*
   > *—Journal found in Numai*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/30/otherworldly-journey) · oracle_id `4a080242-412d-4968-ad57-2667dab977f5` · printing: MM2 #30 (2015-05-22) · [rulings](https://api.scryfall.com/cards/5cd220e4-2e2a-437e-aa4e-1007247c8e4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — The creature comes back onto the battlefield as a new creature, with one +1/+1 counter on it (plus any other counters that it would normally enter with).
+  - *2005-08-01* — Any Aura attached to the creature is put into its owner's graveyard as a state-based action. Equipment attached to the creature become unattached but remain on the battlefield.
+  - *2005-08-01* — If Otherworldly Journey is cast during an end step, the creature won't return until the beginning of the next end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/30/otherworldly-journey) · oracle_id `4a080242-412d-4968-ad57-2667dab977f5` · printing: MM2 #30 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworldly Outburst
 
@@ -158,7 +187,10 @@
 - **Flavor text** (EMN printing):
   > *A tiny crack is enough to open the mind to Emrakul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/138/otherworldly-outburst) · oracle_id `43feb61f-5de0-41b6-b678-9785c476dc08` · printing: EMN #138 (2016-07-22) · [rulings](https://api.scryfall.com/cards/34409e34-04e9-4279-8d21-6ef362b20b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-07-13* — If the targeted creature dies before Otherworldly Outburst resolves, the spell doesn’t resolve. You won’t get an Eldrazi Horror token.
+  - *2016-07-13* — If the targeted creature doesn’t die this turn, the delayed triggered ability simply won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/138/otherworldly-outburst) · oracle_id `43feb61f-5de0-41b6-b678-9785c476dc08` · printing: EMN #138 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otrimi, the Ever-Playful
 
@@ -171,7 +203,9 @@
   > Whenever this creature deals combat damage to a player, return target creature card with mutate from your graveyard to your hand.
 - **Keywords:** Mutate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10149 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · [rulings](https://api.scryfall.com/cards/639df7bc-b87d-4bf5-8005-8eabc54e955b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If Otrimi deals combat damage to a player at the same time that it’s dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otterball Antics
 
@@ -182,6 +216,7 @@
   > Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9416 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/63/otterball-antics) · oracle_id `43a6de3e-152e-4af1-acec-53405742425c` · printing: BLB #63 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3ff83ff7-e428-4ccc-8341-f223dab76bd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otter-Penguin
@@ -195,4 +230,7 @@
   > *"Will you go penguin sledding with me?"*
   > *—Aang*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/67/otter-penguin) · oracle_id `e2171c48-a816-41b2-aa55-e0ba2503fd6a` · printing: TLA #67 (2025-11-21) · [rulings](https://api.scryfall.com/cards/480b6279-bb34-4b3f-a639-868b52af92b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2025-10-02* — Once Otter-Penguin has been blocked, its triggered ability will not cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/67/otter-penguin) · oracle_id `e2171c48-a816-41b2-aa55-e0ba2503fd6a` · printing: TLA #67 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -7,7 +7,7 @@
   "ingested_total": 33894,
   "batches_run": 6,
   "next_batch_size": 2000,
-  "last_run": "2026-10-15T10:55:05+00:00",
+  "last_run": "2026-10-15T11:04:12+00:00",
   "last_added": 0,
   "ingested_edhrec_rank_contiguous_through": 32351,
   "max_ingested_edhrec_rank": 32353,
@@ -60,5 +60,34 @@
       "total": 33894,
       "note": "Jumpstart front_card layout excluded from universe"
     }
-  ]
+  ],
+  "rulings": {
+    "source": "scryfall rulings bulk",
+    "bulk_updated_at": "2026-10-15T09:00:33.309+00:00",
+    "next_batch_size": 5000,
+    "cards_processed": 33894,
+    "cards_with_rulings_rendered": 19889,
+    "rulings_rendered": 78943,
+    "cards_with_rulings_available": 19889,
+    "rulings_available_for_ingested": 78943,
+    "last_added": 23894,
+    "next_target": null,
+    "history": [
+      {
+        "date": "2026-10-15",
+        "cards_processed": 1000,
+        "done_total": 1000
+      },
+      {
+        "date": "2026-10-15",
+        "cards_processed": 9000,
+        "done_total": 10000
+      },
+      {
+        "date": "2026-10-15",
+        "cards_processed": 23894,
+        "done_total": 33894
+      }
+    ]
+  }
 }

@@ -29,6 +29,7 @@
 - **Flavor text** (EOC printing):
   > *Eumidians do their work knowing that only future generations will see it finished.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4037 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/20/eumidian-hatchery) · oracle_id `5b6d933e-2830-4f5a-b244-a421aa9615dc` · printing: EOC #20 (2025-08-01) · [rulings](https://api.scryfall.com/cards/25b57aaf-04fa-463d-8516-40fccd24d6ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eumidian Terrabotanist
@@ -43,7 +44,11 @@
   > *—Eumidian aphorism*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/180/eumidian-terrabotanist) · oracle_id `92226fd2-ad93-4722-89a0-ca88ea03e1b4` · printing: EOE #180 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64fb2981-86ed-478a-89cd-c6bb078a5bc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/180/eumidian-terrabotanist) · oracle_id `92226fd2-ad93-4722-89a0-ca88ea03e1b4` · printing: EOE #180 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eumidian Wastewaker
 
@@ -55,7 +60,18 @@
   > Encore {6}{B}{B} ({6}{B}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7957 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/8/eumidian-wastewaker) · oracle_id `72a570a2-0a22-4680-ac88-a1724faf17de` · printing: EOC #8 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3ee18d18-0167-4caa-adad-9d4435689c80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-07-25* — Each token must attack the appropriate player if able.
+  - *2025-07-25* — Encore is an activated ability that functions from the graveyard. “Encore [cost]” means “[Cost], Exile this card from your graveyard: For each opponent, create a token that’s a copy of this card that attacks that opponent this turn if able. The tokens gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.”
+  - *2025-07-25* — Exiling the card with encore is a cost to activate the encore ability. Once you announce that you’re activating it, no player may take actions until you’ve finished. They can’t try to remove the card from your graveyard to stop you from paying the cost.
+  - *2025-07-25* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don’t have to pay that cost unless you want to attack that player.
+  - *2025-07-25* — If one of the tokens can’t attack for any reason (such as being tapped), then it doesn’t attack. If there’s a cost associated with having it attack, you aren’t forced to pay that cost, so it doesn’t have to attack in that case either.
+  - *2025-07-25* — If one of the tokens somehow is under another player’s control as the delayed triggered ability resolves, you can’t sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2025-07-25* — Opponents who have left the game aren’t counted when determining how many tokens to create.
+  - *2025-07-25* — The tokens copy only what’s on the original card. Effects that modified that creature when it was previously on the battlefield won’t be copied.
+  - *2025-07-25* — When Eumidian Wastewaker’s first ability resolves, you choose to discard a card or sacrifice a permanent, and then defending player chooses to discard a card or sacrifice a permanent. If one of those players can’t discard a card (such as by having no cards in hand), that player must sacrifice a permanent.
+  - *2025-07-25* — You’ll draw cards equal to the number of land cards put into graveyards from the discards and sacrifices. Only count the cards that are land cards in the graveyard. If a player sacrifices a land token, you won’t draw a card for it. Similarly, if a player sacrifices Ashaya, Soul of the Wild (which has an ability that makes it a land on the battlefield), it is a creature card in the graveyard, not a land card, so you won’t draw a card for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/8/eumidian-wastewaker) · oracle_id `72a570a2-0a22-4680-ac88-a1724faf17de` · printing: EOC #8 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eunuchs' Intrigues
 
@@ -66,6 +82,7 @@
 - **Flavor text** (PTK printing):
   > *Taking control of powerful court positions one by one, eunuchs eventually brought on the fall of the Han dynasty, leading to the chaos of the Three Kingdoms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/110/eunuchs-intrigues) · oracle_id `e34f8aae-bf55-4bba-9524-c841591bb14b` · printing: PTK #110 (1999-05-01) · [rulings](https://api.scryfall.com/cards/5e7ca92f-770d-4147-8eaf-f1fa69340dc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eureka
@@ -75,7 +92,13 @@
 - **Oracle text:**
   > Starting with you, each player may put a permanent card from their hand onto the battlefield. Repeat this process until no one puts a card onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18162 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/208/eureka) · oracle_id `917f2b4b-79ec-4ded-b4c8-cbcf363cb23b` · printing: VMA #208 (2014-06-16) · [rulings](https://api.scryfall.com/cards/71725234-14fa-4a29-9efc-6dd2366d9798/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — If the card has an X in its mana cost, treat X as zero.
+  - *2004-10-04* — In a game of N players, the process ends when all N players in sequence (starting with you) choose not to put a card onto the battlefield. It doesn’t end the first time a player chooses not to put a card onto the battlefield. If a player chooses not to put a card onto the battlefield but the process continues, that player may put a card onto the battlefield the next time the process gets around to them.
+  - *2004-10-04* — The cards are put onto the battlefield and will not trigger effects which trigger on such cards being “cast” or “played”.
+  - *2006-10-15* — Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+  - *2007-09-16* — A “permanent card” is a card that would be a permanent once it’s on the battlefield. Specifically, it’s an artifact, creature, enchantment, land, or planeswalker card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/208/eureka) · oracle_id `917f2b4b-79ec-4ded-b4c8-cbcf363cb23b` · printing: VMA #208 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eureka Moment
 
@@ -86,7 +109,9 @@
 - **Flavor text** (SOC printing):
   > *"At first, the equations were simply numbers. But in those numbers I saw a story, and in that story I saw a pattern, and suddenly it all fit together!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/308/eureka-moment) · oracle_id `0e2c11b2-d95f-4402-9a4a-afd3f7ffb8be` · printing: SOC #308 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4d267ed8-e760-4f92-962b-f83dea822c45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Putting a land card from your hand onto the battlefield is not the same as playing a land. You may do it even if you have already played a land on your turn, or if you're casting Eureka Moment on your opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/308/eureka-moment) · oracle_id `0e2c11b2-d95f-4402-9a4a-afd3f7ffb8be` · printing: SOC #308 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Euroakus
 
@@ -97,7 +122,9 @@
   > When Euroakus enters, create a number of 1/1 blue Human Wizard creature tokens equal to the number of differently named lands you control.
   > {4}{G}{U}: Draw a card for each Wizard you control. They each get +1/+1 until end of turn for each card in your hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · [rulings](https://api.scryfall.com/cards/4a4039bd-ed03-4eef-8a3d-97f134475974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Euru, Acorn Scrounger
 
@@ -109,6 +136,7 @@
   > Whenever one or more Squirrels you control deal combat damage to a player, you may sacrifice a token. If you do, put an acorn counter on each permanent you control named Chitterspitter.
 - **Keywords:** Forage, Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29767 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/70/euru-acorn-scrounger) · oracle_id `b01657ad-120f-4d00-a367-fd112d403700` · printing: MBC #70 (2026-10-19) · [rulings](https://api.scryfall.com/cards/dc63c971-458a-4be9-aaa0-18df47547d59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eusocial Engineering
@@ -122,6 +150,7 @@
   > *A harmonious production for a better world.*
 - **Keywords:** Warp, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/181/eusocial-engineering) · oracle_id `2f3f5a1c-8b88-4080-bd80-14db4d6c8c50` · printing: EOE #181 (2025-08-01) · [rulings](https://api.scryfall.com/cards/011bd7d8-6d60-482a-91b7-d3f0aad13b71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eutropia the Twice-Favored
@@ -135,4 +164,10 @@
   > *Nylea speaks to her in the windblown leaves; Thassa in the rushing tides.*
 - **Keywords:** Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13673 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/216/eutropia-the-twice-favored) · oracle_id `4de1319f-b3c7-42d4-9342-3e9c4f526ee0` · printing: THB #216 (2020-01-24) · [rulings](https://api.scryfall.com/cards/c2159949-3d21-448d-bc34-a3dbaf219476/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn’t resolve and is instead put into its owner’s graveyard. It doesn’t enter the battlefield, so constellation abilities don’t trigger.
+  - *2020-01-24* — Eutropia can be the target of its own triggered ability.
+  - *2020-01-24* — Eutropia’s ability can target a creature that already has flying. It still gets a +1/+1 counter. Multiple instances of flying on the same creature are redundant.
+  - *2020-01-24* — If an enchantment creature enters the battlefield under your control, Eutropia’s ability can target that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/216/eutropia-the-twice-favored) · oracle_id `4de1319f-b3c7-42d4-9342-3e9c4f526ee0` · printing: THB #216 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -35,7 +35,13 @@
   > Familiar spells you cast have flash. (Bats, Birds, Cats, Dragons, Faeries, Foxes, Frogs, Imps, Lizards, and Spiders are familiars, as well as any creature with "Familiar" in its name.)
   > {T}: Add X {G} and each opponent loses X life, where X is the number of familiars you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/591/chea-friend-to-maybe-too-many) · oracle_id `c3020f78-15d5-4166-a610-75522a454e0a` · printing: MB2 #591 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4fab6c4b-bb56-4705-89f6-598a0de519fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — Chea’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — I’m not sure what wizard would want Lazav, Familiar Stranger as their familiar, but to each their own. (I would pick Owl Familiar, personally.)
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/591/chea-friend-to-maybe-too-many) · oracle_id `c3020f78-15d5-4166-a610-75522a454e0a` · printing: MB2 #591 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheap Ass
 
@@ -47,6 +53,7 @@
 - **Flavor text** (UNH printing):
   > *And you thought Yawgmoth drove a hard bargain.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/5/cheap-ass) · oracle_id `b559f26b-35a8-4cfe-a303-7f358905d301` · printing: UNH #5 (2004-11-19) · [rulings](https://api.scryfall.com/cards/44c3f0ea-d4b5-428c-abd2-93e09998d63c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheatyface
@@ -59,7 +66,10 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/20/cheatyface) · oracle_id `d6202ce1-8dbc-4aa5-8d62-5fe4005fa3d9` · printing: UND #20 (2020-02-29) · [rulings](https://api.scryfall.com/cards/ebafd1c7-c248-494c-b9b7-3521c6c4352c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-02-29* — Cheatyface’s mana cost is {U}{U}{U}.
+  - *2020-02-29* — You must legally get Cheatyface into your hand before you can attempt to sneak it onto the battlefield. For example, you can’t sneak it in from your sideboard or collection during a game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/20/cheatyface) · oracle_id `d6202ce1-8dbc-4aa5-8d62-5fe4005fa3d9` · printing: UND #20 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Check for Traps
 
@@ -70,6 +80,7 @@
 - **Flavor text** (AFR printing):
   > *"Relax. I'm a professional."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/92/check-for-traps) · oracle_id `41b2ea88-b3b9-44f0-8886-7b2f37b22ebf` · printing: AFR #92 (2021-07-23) · [rulings](https://api.scryfall.com/cards/6f58ea8a-30ac-45b0-a701-8b8d8262cfcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Checkpoint Officer
@@ -82,6 +93,7 @@
 - **Flavor text** (IKO printing):
   > *After what he viewed as Lukka's shocking betrayal, General Kudro enacted stringent security measures at every entry point into Drannith.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26197 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/5/checkpoint-officer) · oracle_id `03e25120-b4e4-409e-8dbc-7574ea4c78d6` · printing: IKO #5 (2020-04-24) · [rulings](https://api.scryfall.com/cards/4a0e12f5-7b15-4a8c-b045-35bcbf1fbb90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Checks and Balances
@@ -92,6 +104,7 @@
   > Cast this spell only if there are three or more players in the game.
   > Whenever a player casts a spell, each of that player's opponents may discard a card. If they do, counter that spell.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/16/checks-and-balances) · oracle_id `7b1aadc2-58fc-4a21-a294-b7a64236d75b` · printing: UGL #16 (1998-08-11) · [rulings](https://api.scryfall.com/cards/cc70457a-34dc-48a1-8643-4a78c1e6f2d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheeky House-Mouse // Squeak By
@@ -107,7 +120,21 @@
 - **Flavor text** (WOE printing):
   > *"Get back here, vile rodent! I was almost done cursing that ring!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/7/cheeky-house-mouse-squeak-by) · oracle_id `db70ddae-0ac1-47f2-9158-8448e337a08f` · printing: WOE #7 (2023-09-08) · [rulings](https://api.scryfall.com/cards/1f3013bf-9647-4bdb-a638-d299ae00f88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — Increasing a creature's power after it has blocked a creature affected by Squeak By will not remove that blocking creature from combat or make the affected creature unblocked.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/7/cheeky-house-mouse-squeak-by) · oracle_id `db70ddae-0ac1-47f2-9158-8448e337a08f` · printing: WOE #7 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheer
 
@@ -120,6 +147,7 @@
   > Evoke—Celebrate an opponent. (To celebrate an opponent, give them a gift, toast to them, or even just tell them you're grateful to be playing Magic together.)
 - **Keywords:** Lifelink, Evoke, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/25/cheer) · oracle_id `81c28274-438e-4e62-b6d4-9b4d90f309d7` · printing: HHO #25 (2025-11-15) · [rulings](https://api.scryfall.com/cards/e5f33832-b196-49a1-8dd9-bea2c27fc2c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheerful Osteomancer // Raise Dead
@@ -132,7 +160,23 @@
   > Return target creature card from your graveyard to your hand.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14287 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/76/cheerful-osteomancer-raise-dead) · oracle_id `fd01229f-1c4c-4ad1-bc6f-4023f24d8c71` · printing: SOS #76 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3c34660c-25e3-4ff5-9b2b-5554ded2bcc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/76/cheerful-osteomancer-raise-dead) · oracle_id `fd01229f-1c4c-4ad1-bc6f-4023f24d8c71` · printing: SOS #76 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheering Crowd
 
@@ -144,6 +188,7 @@
 - **Flavor text** (SPM printing):
   > *"We love you, Spider-Man!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12885 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/126/cheering-crowd) · oracle_id `e11839d5-99fe-4cc8-802e-be669ad274ee` · printing: SPM #126 (2025-09-26) · [rulings](https://api.scryfall.com/cards/5fbce72f-e9a1-4d9f-b9b3-24dbafeef841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cheering Fanatic
@@ -156,7 +201,10 @@
 - **Flavor text** (BBD printing):
   > *"Punch 'em, kick 'em, bite 'em, beat 'em! Burn 'em all and we'll defeat 'em!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20194 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/58/cheering-fanatic) · oracle_id `18543bb3-14f9-45a0-8ed3-5f11832527d9` · printing: BBD #58 (2018-06-08) · [rulings](https://api.scryfall.com/cards/88cf8e2b-482e-4d40-a8d7-1a74cec3d983/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-06-08* — Effects that reduce the generic mana cost of a spell can’t reduce that spell’s colored mana requirements.
+  - *2018-06-08* — You don’t need to choose the name of a card anyone intends to cast this turn. You also don’t need to choose the name of a card that can have its cost reduced. For example, some Cheering Fanatics are enthusiastic about Shock or Mountain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/58/cheering-fanatic) · oracle_id `18543bb3-14f9-45a0-8ed3-5f11832527d9` · printing: BBD #58 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chef's Kiss
 
@@ -167,7 +215,14 @@
 - **Flavor text** (MH2 printing):
   > *"Cooked to perfection, of course."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/120/chefs-kiss) · oracle_id `3d177c04-9aa3-44b8-bbe4-df5de23a4ce6` · printing: MH2 #120 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c936ebbd-512a-49a6-ab23-16ac34b4a3a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — Chef's Kiss can target any spell that targets a single permanent or player, including a spell you control.
+  - *2021-06-18* — If a spell has multiple instances of the word “target,” but all of them target the same permanent or player, it is a legal target for Chef's Kiss. In that case, a new target will be reselected at random for each instance of the word target in its rules text. The same is true for the copy.
+  - *2021-06-18* — If there are any legal targets that are not you or permanents you control, you must reselect the targets at random.
+  - *2021-06-18* — If there are no legal targets that could be selected, the targets remain unchanged. Note that this may not mean that those targets are illegal as the spell resolves. For example, if an opponent in a two-player game has hexproof and casts Lava Spike targeting you, Chef's Kiss will not be able to change the target. However, this doesn't make you an illegal target, and both the original spell and the copy will still target you and deal 3 damage to you.
+  - *2021-06-18* — Neither copying a spell nor reselecting its targets counts as casting a spell.
+  - *2021-06-18* — Note that Chef's Kiss may make some or all of the targets of a spell illegal. For example, any spell an opponent cast that targets a “creature you control” will be unable to find a new legal target, and its target will remain unchanged. In that case, that part of the spell will do nothing. If that was the spell's only target, that spell will be removed from the stack when it tries to resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/120/chefs-kiss) · oracle_id `3d177c04-9aa3-44b8-bbe4-df5de23a4ce6` · printing: MH2 #120 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chelonian Tackle
 
@@ -180,6 +235,7 @@
   > *—Quandrix Mage Tower tactics*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/142/chelonian-tackle) · oracle_id `8c1c519a-6edd-4204-b825-b0feca5afa42` · printing: SOS #142 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a82a4d8c-4105-4923-85a2-ef58241f725c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chemister's Insight
@@ -193,7 +249,12 @@
   > *"My specialty is theoretical universal limits and ways to circumvent them."*
 - **Keywords:** Jump, Jump-start
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/81/chemisters-insight) · oracle_id `a2cb30d7-c0a9-4f79-bc19-fc88c4986725` · printing: CLU #81 (2024-02-23) · [rulings](https://api.scryfall.com/cards/53a7272d-c809-487e-8e1f-cc77c6875493/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
+  - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/81/chemisters-insight) · oracle_id `a2cb30d7-c0a9-4f79-bc19-fc88c4986725` · printing: CLU #81 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chemister's Trick
 
@@ -204,7 +265,15 @@
   > Overload {3}{U}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/149/chemisters-trick) · oracle_id `daf22b20-3d87-429c-99fe-2f3d4c6fee24` · printing: RTR #149 (2012-10-05) · [rulings](https://api.scryfall.com/cards/dbfc2748-351f-4b5d-8a7e-bc51851578bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2012-10-01* — If you cast Chemister's Trick with overload, only creatures you don't control that are on the battlefield when Chemister's Trick resolves are affected. Creatures that come under another player's control later in the turn are not.
+  - *2012-10-01* — If, during a player's declare attacker's step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2012-10-01* — The controller of a creature that attacks if able still chooses which player or planeswalker it attacks.
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/149/chemisters-trick) · oracle_id `daf22b20-3d87-429c-99fe-2f3d4c6fee24` · printing: RTR #149 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cherished Hatchling
 
@@ -217,7 +286,13 @@
   > *Despite its appearance, it's anything but defenseless.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/124/cherished-hatchling) · oracle_id `bd7111bc-9b8f-4c4b-b61c-7841a857ce6b` · printing: RIX #124 (2018-01-19) · [rulings](https://api.scryfall.com/cards/0a14fe6c-b272-415b-974d-c60d016ab786/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — During the turn Cherished Hatchling dies, you may cast any number of Dinosaurs as though they had flash.
+  - *2018-01-19* — For the triggered ability that the entering Dinosaur gains, if the target is illegal when it tries to resolve or if the Dinosaur that entered the battlefield has left the battlefield, no creature will deal or be dealt damage.
+  - *2018-01-19* — For the triggered ability that the entering Dinosaur gains, you choose a target when the ability goes on the stack, but you don't choose until that ability resolves whether those creatures fight.
+  - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+  - *2018-01-19* — You must pay the costs for spells you cast this way. If there's an alternative cost you can pay instead of the mana cost for a Dinosaur spell, you may pay that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/124/cherished-hatchling) · oracle_id `bd7111bc-9b8f-4c4b-b61c-7841a857ce6b` · printing: RIX #124 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chevill, Bane of Monsters
 
@@ -230,4 +305,9 @@
   > Whenever a permanent an opponent controls with a bounty counter on it dies, you gain 3 life and draw a card.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8354 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/181/chevill-bane-of-monsters) · oracle_id `50863075-a30b-4238-8e31-5af32a39d886` · printing: IKO #181 (2020-04-24) · [rulings](https://api.scryfall.com/cards/fecbf0a3-ebe1-43b6-a720-462ba19002eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-04-17* — Chevill’s middle ability and last ability look for any bounty counter on your opponents’ permanents, not just one from that Chevill. For example, if players A and B each control a Chevill and player A has put a bounty counter on player C’s creature, player B’s Chevill won’t put a counter on anything and both players will gain 3 life and draw a card when that creature dies.
+  - *2020-04-17* — If Chevill leaves the battlefield at the same time that an opponent’s permanent with a bounty counter on it dies, you gain 3 life and draw a card. If Chevill leaves the battlefield before that permanent dies, Chevill’s last ability won’t be around to trigger.
+  - *2020-04-17* — If the creature or planeswalker with a bounty counter on it ceases to be a creature or planeswalker, Chevill’s last ability will still trigger if that permanent is put into a graveyard from the battlefield.
+  - *2020-04-17* — If your life total is brought to 0 or less at the same time that a creature with a bounty counter on it is dealt lethal damage, you lose the game before the last ability goes on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/181/chevill-bane-of-monsters) · oracle_id `50863075-a30b-4238-8e31-5af32a39d886` · printing: IKO #181 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

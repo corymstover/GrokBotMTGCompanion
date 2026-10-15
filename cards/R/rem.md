@@ -34,7 +34,10 @@
 - **Flavor text** (RVR printing):
   > *"Well, at least all of that arm-waving and arcane babbling you did was impressive."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/59/remand) · oracle_id `d71cd08e-3e84-41ff-b9db-9e343c0af6b4` · printing: RVR #59 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a5048047-abff-4a1f-8d72-6b758a03542c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If you target a card that was cast with flashback with Remand, the card will still be exiled.
+  - *2021-03-19* — Remand can target a spell that can't be countered. That spell won't be countered or returned to its owner's hand, but you'll draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/59/remand) · oracle_id `d71cd08e-3e84-41ff-b9db-9e343c0af6b4` · printing: RVR #59 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remedy
 
@@ -45,7 +48,12 @@
 - **Flavor text** (DMR printing):
   > *"Take this. I know it's bitter, but it will ease the fever and get you back on your feet."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/22/remedy) · oracle_id `c644f190-63e5-4496-8612-bbe7be91afc9` · printing: DMR #22 (2023-01-13) · [rulings](https://api.scryfall.com/cards/9700fe0e-bf71-463b-ad7b-34831c7f9e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — If multiple replacement effects apply to a player or permanent being dealt damage, that player or the controller of that permanent chooses the order to apply them, not the controller of the source of damage.
+  - *2022-12-08* — If multiple sources would deal damage to an affected target at once, that target or that target’s controller chooses which source’s damage to prevent for each “shield.”
+  - *2022-12-08* — If some of the targets become illegal, the original division of prevention effects still applies, but the effects that would have been created for illegal targets aren’t created at all.
+  - *2022-12-08* — You divide the prevention effects as you cast Remedy, not as it resolves. Each target must be assigned at least 1 prevention “shield.” You can’t choose more than five targets and assign none to a target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/22/remedy) · oracle_id `c644f190-63e5-4496-8612-bbe7be91afc9` · printing: DMR #22 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remember the Fallen
 
@@ -58,7 +66,10 @@
 - **Flavor text** (2XM printing):
   > *When the Mirrans had fallen, Planeswalkers carried the burden of remembrance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/27/remember-the-fallen) · oracle_id `7ed3918d-509a-4fe6-a32d-5899df8f9046` · printing: 2XM #27 (2020-08-07) · [rulings](https://api.scryfall.com/cards/287ca034-9cea-4b84-98ba-76c24f038edb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If you choose both modes, and only one of the targeted cards is still a legal target when Remember the Fallen tries to resolve, only that card is returned to your hand.
+  - *2011-06-01* — You choose which mode you're using — or whether to use both modes — as you're casting the spell. Once this choice is made, it can't be changed later while the spell is on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/27/remember-the-fallen) · oracle_id `7ed3918d-509a-4fe6-a32d-5899df8f9046` · printing: 2XM #27 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remembrance
 
@@ -67,7 +78,11 @@
 - **Oracle text:**
   > Whenever a nontoken creature you control dies, you may search your library for a card with the same name as that creature, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/34/remembrance) · oracle_id `02d0b0fd-ff73-4e26-be44-d85c743d51e4` · printing: USG #34 (1998-10-12) · [rulings](https://api.scryfall.com/cards/556d334e-3ac9-45b0-98d2-aff49ada0f75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+  - *2004-10-04* — If a copy card goes to the graveyard under this effect, you get to look for another copy of the card it was copying. This is because a copy card actually takes on the name and initial characteristics of what it copies.
+  - *2010-03-01* — If a card which is a creature only due to an effect goes to the graveyard, you can search for another copy of that card even though the card in your library won’t be a creature card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/34/remembrance) · oracle_id `02d0b0fd-ff73-4e26-be44-d85c743d51e4` · printing: USG #34 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reminisce
 
@@ -78,7 +93,9 @@
 - **Flavor text** (DDJ printing):
   > *Leave the door to the past even slightly ajar and it could be blown off its hinges.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18756 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/22/reminisce) · oracle_id `296c4d2b-e41c-416b-807e-5b4db638ec57` · printing: DDJ #22 (2012-09-07) · [rulings](https://api.scryfall.com/cards/63bd18e9-7c55-4456-8f3d-9bea6606cbb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — This card won't be put into your graveyard until after it's finished resolving, which means it won't be shuffled into your library as part of its own effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/22/reminisce) · oracle_id `296c4d2b-e41c-416b-807e-5b4db638ec57` · printing: DDJ #22 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rem Karolus, Stalwart Slayer
 
@@ -91,7 +108,13 @@
   > If a spell would deal damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8035 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/235/rem-karolus-stalwart-slayer) · oracle_id `21971c8b-ff9b-40f8-8c9a-93d26c2615b7` · printing: MID #235 (2021-09-24) · [rulings](https://api.scryfall.com/cards/b31e307a-9689-4e11-8c5f-96b7a4b50bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — If another effect modifies how much damage a spell would deal to an opponent or a permanent they control, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Rem's effect no longer applies.
+  - *2021-09-24* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control, divide the original amount before adding 1. For example, if you cast a spell that deals 4 damage divided among any number of targets and you choose to have it deal 2 damage to a creature and 2 damage to that creature's controller, that spell will deal 3 damage to each of them instead.
+  - *2021-09-24* — Rem Karolus, Stalwart Slayer's last two abilities apply only to damage dealt by spells on the stack. A spell that becomes a permanent and then deals damage won't be affected.
+  - *2021-09-24* — Some spells cause other objects to deal damage, such as spells that cause two creatures to fight. Rem Karolus, Stalwart Slayer's last two abilities don't apply to damage from such effects.
+  - *2021-09-24* — The additional 1 damage is dealt by the original source of damage. The additional damage isn't dealt by Rem Karolus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/235/rem-karolus-stalwart-slayer) · oracle_id `21971c8b-ff9b-40f8-8c9a-93d26c2615b7` · printing: MID #235 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remnant Elemental
 
@@ -105,6 +128,7 @@
   > *Even until Exodus Day, those in power on Kavaron refused to acknowledge that the planet was trying to tell them something.*
 - **Keywords:** Reach, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22585 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/155/remnant-elemental) · oracle_id `69e8333a-bddf-49e2-9c39-3dc46fec81e0` · printing: EOE #155 (2025-08-01) · [rulings](https://api.scryfall.com/cards/830d5532-3b24-470e-912f-f0f5df1cb530/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remodel
@@ -118,6 +142,7 @@
   > *6 PM (23) This Old Grove 98055*
   > *A rusted masticore makes a beautiful addition to any garden.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/108/remodel) · oracle_id `458288d2-c3b5-48de-9845-dfc1894ee82e` · printing: UNH #108 (2004-11-19) · [rulings](https://api.scryfall.com/cards/98fa7c0b-8104-47c9-9fb2-6cb50259fae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remorseful Cleric
@@ -132,6 +157,7 @@
   > *A lifetime of keeping up appearances is not enough to earn an eternity of rest.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5208 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/164/remorseful-cleric) · oracle_id `c40bc9f6-2b72-4ae1-b912-50075af59628` · printing: SOC #164 (2026-04-24) · [rulings](https://api.scryfall.com/cards/665a1bd1-db82-4db9-af7d-af161d31a696/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remorseless Punishment
@@ -144,7 +170,12 @@
   > *"I have suffered a thousand lifetimes of agony on this wretched world. I've far less time to share with you, but I assure you, no less pain."*
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/89/remorseless-punishment) · oracle_id `42e07167-b490-46ad-9b5c-b483a4bb64e3` · printing: OGW #89 (2016-01-22) · [rulings](https://api.scryfall.com/cards/1dde9379-b335-400f-9748-a7ca3e293ee0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Any abilities that trigger while Remorseless Punishment is resolving will be put on the stack after it has completely resolved.
+  - *2016-01-22* — No player may take any actions between the two times the player goes through the process.
+  - *2016-01-22* — The player can’t choose to discard two cards unless they have at least two cards in hand. Similarly, that player can’t choose to sacrifice a creature or planeswalker unless they control one. This means that if the target opponent doesn’t have two cards in hand and doesn’t control a creature or planeswalker, that player will lose 5 life and then lose 5 life again.
+  - *2016-04-08* — The same player chooses both times. In a multiplayer game, you can’t choose a different opponent to repeat the process.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/89/remorseless-punishment) · oracle_id `42e07167-b490-46ad-9b5c-b483a4bb64e3` · printing: OGW #89 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remote Farm
 
@@ -154,6 +185,7 @@
   > This land enters tapped with two depletion counters on it.
   > {T}, Remove a depletion counter from this land: Add {W}{W}. If there are no depletion counters on this land, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9258 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/323/remote-farm) · oracle_id `2c38f4c7-1b3f-42b4-a175-edab7acd6cc6` · printing: MMQ #323 (1999-10-04) · [rulings](https://api.scryfall.com/cards/115cab84-60d7-4bf2-9beb-b4ed7b5ceaf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remote Isle
@@ -166,6 +198,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/254/remote-isle) · oracle_id `24aebda0-315f-4d2f-8bd9-00bbaf5bd76a` · printing: DMR #254 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a340af37-c0a7-4f26-974b-95397b5c32f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remove
@@ -176,6 +209,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Return target attacking creature to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30936 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/43/remove) · oracle_id `a1ed0f7e-56c3-4866-89c4-77b81a952955` · printing: P02 #43 (1998-06-24) · [rulings](https://api.scryfall.com/cards/adb08549-8ff8-410f-b817-0255abaf8b1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remove Enchantments
@@ -185,6 +219,7 @@
 - **Oracle text:**
   > Return to your hand all enchantments you both own and control, all Auras you own attached to permanents you control, and all Auras you own attached to attacking creatures your opponents control. Then destroy all other enchantments you control, all other Auras attached to permanents you control, and all other Auras attached to attacking creatures your opponents control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25851 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/33/remove-enchantments) · oracle_id `fa879d99-3d2b-4a9a-a17f-d5ac109f8f44` · printing: LEG #33 (1994-06-01) · [rulings](https://api.scryfall.com/cards/bf2e3a8a-b386-474d-b8e9-4c2d56a2b742/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remove Soul
@@ -196,4 +231,6 @@
 - **Flavor text** (ME3 printing):
   > *Nethya stiffened suddenly, head cocked as if straining to hear some distant sound, then felt lifeless to the ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/47/remove-soul) · oracle_id `b13c0f76-fbda-4911-9442-c3d7e97f1aac` · printing: ME3 #47 (2009-09-07) · [rulings](https://api.scryfall.com/cards/75c4b4d6-2230-4fb0-b127-b9e820d56048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — A “creature spell” is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/47/remove-soul) · oracle_id `b13c0f76-fbda-4911-9442-c3d7e97f1aac` · printing: ME3 #47 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

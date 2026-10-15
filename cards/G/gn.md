@@ -50,7 +50,10 @@
   > *—Sergeant Ginnick*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/638/gnarlback-rhino) · oracle_id `1ae339fd-8e64-4e3a-8e27-e4993932ba62` · printing: FDN #638 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6b638f3d-7eb6-4675-9538-4a87a7f75c43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-07-12* — Gnarlback Rhino's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-07-12* — Gnarlback Rhino's last ability triggers when you cast a spell that has multiple targets as long as at least one of those targets is Gnarlback Rhino. It doesn't trigger multiple times if you cast a spell that targets Gnarlback Rhino multiple times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/638/gnarlback-rhino) · oracle_id `1ae339fd-8e64-4e3a-8e27-e4993932ba62` · printing: FDN #638 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlbark Elm
 
@@ -63,6 +66,7 @@
 - **Flavor text** (ECL printing):
   > *It greedily drinks boggart curses and returns their pain in kind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/103/gnarlbark-elm) · oracle_id `a848ea46-347d-49c7-85c8-023cf836d0b3` · printing: ECL #103 (2026-01-23) · [rulings](https://api.scryfall.com/cards/1e9d65b6-22ff-49f2-8b2a-aeaef91088d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarled Effigy
@@ -75,6 +79,7 @@
   > *"Bits of fallen scarecrow, laces of elfskin leather, teeth of an axeshark merrow . . . An industrious soul can find new uses for the most mundane items."*
   > *—Mowagh the Gwyllion*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27804 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/251/gnarled-effigy) · oracle_id `5fa3cc1a-09ee-4152-8c50-ea719510fc20` · printing: SHM #251 (2008-05-02) · [rulings](https://api.scryfall.com/cards/e6aee954-2a04-425d-8d05-09dad58af656/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarled Mass
@@ -88,6 +93,7 @@
   > *"On the fifty-seventh day of the Battle of Silk, the bell again tolled in hopes of summoning mortal aid. This time, a new breed of kami rose to answer its call."*
   > *—\*Great Battles of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24949 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/127/gnarled-mass) · oracle_id `18202185-f9d4-446a-b34e-fae9800240f9` · printing: BOK #127 (2005-02-04) · [rulings](https://api.scryfall.com/cards/5c28728d-4839-4cdf-91d4-b9fb4b5d0449/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarled Professor
@@ -102,7 +108,12 @@
   > *"Class is in season."*
 - **Keywords:** Trample, Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/133/gnarled-professor) · oracle_id `e66083f0-62a9-4ff7-8bb0-3eafc6d2e95d` · printing: STX #133 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a32338e8-1f6a-49b9-bd93-26578adab6b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/133/gnarled-professor) · oracle_id `e66083f0-62a9-4ff7-8bb0-3eafc6d2e95d` · printing: STX #133 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarled Sage
 
@@ -114,7 +125,11 @@
   > As long as you've drawn two or more cards this turn, this creature gets +0/+2 and has vigilance. (Attacking doesn't cause it to tap.)
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/187/gnarled-sage) · oracle_id `c36d7c2b-204f-432e-b8e2-ffb3ffb49231` · printing: M21 #187 (2020-07-03) · [rulings](https://api.scryfall.com/cards/5f22116a-8b6a-4bbe-999f-7329e1e2b2d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — Gnarled Sage gets +0/+2 just once, no matter how many cards you've drawn past the second.
+  - *2020-06-23* — If Gnarled Sage gains vigilance after it has attacked, it won't become untapped.
+  - *2020-06-23* — If a spell or ability causes you to put a card into your hand without specifically using the word “draw,” it's not a card drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/187/gnarled-sage) · oracle_id `c36d7c2b-204f-432e-b8e2-ffb3ffb49231` · printing: M21 #187 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarled Scarhide
 
@@ -127,7 +142,16 @@
   > Enchanted creature gets +2/+1 and can't block.
 - **Keywords:** Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/72/gnarled-scarhide) · oracle_id `1ef73cc0-fe72-4040-a932-bcd4b1a704a3` · printing: JOU #72 (2014-05-02) · [rulings](https://api.scryfall.com/cards/040af9b9-1e94-4dd1-b347-b54b6b9e0275/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2014-04-26* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2014-04-26* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2014-04-26* — If the enchanted creature leaves the battlefield, the Aura stops being an Aura and remains on the battlefield. Control of that permanent doesn't change; you'll control the resulting enchantment creature.
+  - *2014-04-26* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2014-04-26* — Similarly, if you cast an Aura spell with bestow targeting a creature controlled by another player, and that creature is an illegal target when the spell tries to resolve, it will finish resolving as an enchantment creature spell. It will enter the battlefield under your control.
+  - *2014-04-26* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2014-04-26* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+  - *2014-04-26* — You still control the Aura, even if it's enchanting a creature controlled by another player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/72/gnarled-scarhide) · oracle_id `1ef73cc0-fe72-4040-a932-bcd4b1a704a3` · printing: JOU #72 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlid Colony
 
@@ -140,7 +164,14 @@
   > Each creature you control with a +1/+1 counter on it has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6355 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/224/gnarlid-colony) · oracle_id `e5481431-c952-4ad9-94fe-355076ef632b` · printing: FDN #224 (2024-11-15) · [rulings](https://api.scryfall.com/cards/47565d10-96bf-4fb0-820f-f20a44a76b6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/224/gnarlid-colony) · oracle_id `e5481431-c952-4ad9-94fe-355076ef632b` · printing: FDN #224 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlid Pack
 
@@ -152,7 +183,14 @@
   > This creature enters with a +1/+1 counter on it for each time it was kicked.
 - **Keywords:** Multikicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/144/gnarlid-pack) · oracle_id `be6e835c-822e-45ff-a992-249d4d9781dc` · printing: MM2 #144 (2015-05-22) · [rulings](https://api.scryfall.com/cards/c2716f3a-97ce-419c-9a0f-930cbb660308/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/144/gnarlid-pack) · oracle_id `be6e835c-822e-45ff-a992-249d4d9781dc` · printing: MM2 #144 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlroot Pallbearer
 
@@ -166,6 +204,7 @@
   > *The flames of war consumed most of Argoth's treefolk. Vengeance consumed the rest.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23877 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/184/gnarlroot-pallbearer) · oracle_id `18da85d4-2a51-45c0-a18c-bce9bc39fa64` · printing: BRO #184 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b7382154-ac8f-40ca-94e4-2f0533c0cf20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlroot Trapper
@@ -177,6 +216,7 @@
   > {T}, Pay 1 life: Add {G}. Spend this mana only to cast an Elf creature spell.
   > {T}: Target attacking Elf you control gains deathtouch until end of turn. (Any amount of damage it deals to a creature is enough to destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/100/gnarlroot-trapper) · oracle_id `d3cc22ea-2ccf-409b-b471-51adb63c7fda` · printing: ORI #100 (2015-07-17) · [rulings](https://api.scryfall.com/cards/e05572ba-3a26-41f5-96c1-960ec9367178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnarlwood Dryad
@@ -191,6 +231,7 @@
   > *As Emrakul's influence radiated across Innistrad, evacuation from Kessig's remote villages became increasingly difficult.*
 - **Keywords:** Deathtouch, Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8817 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/180/gnarlwood-dryad) · oracle_id `e823639f-1308-47f6-9b51-8fd9a682489a` · printing: DSC #180 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8eae5e38-49ee-49ef-87ca-7b570d9ca2b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnashing of Teeth
@@ -204,6 +245,7 @@
 - **Flavor text** (HOB printing):
   > *The rage of the wolves was terrible to see, and the commotion they made filled all the forest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19051 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/69/gnashing-of-teeth) · oracle_id `188a3f61-3f7c-450d-8ee7-e12ad13b86c6` · printing: HOB #69 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5d485d70-c7b9-40a4-9089-5e7f1c2b9213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnat Alley Creeper
@@ -216,7 +258,9 @@
 - **Flavor text** (DIS printing):
   > *Despite its diminutive name, Gnat Alley is the longest street in Ravnica. Mile after twisting mile, it threads its way among the broader, safer thoroughfares like a parasite.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/63/gnat-alley-creeper) · oracle_id `17f930a9-64ee-46f9-8a7c-8877e532c94f` · printing: DIS #63 (2006-05-05) · [rulings](https://api.scryfall.com/cards/0ccf9c8b-8a03-4ef8-8267-af57ac35fe02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Creatures with the Reach ability (such as Giant Spider) can block this because they don’t actually have Flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/63/gnat-alley-creeper) · oracle_id `17f930a9-64ee-46f9-8a7c-8877e532c94f` · printing: DIS #63 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnathosaur
 
@@ -228,6 +272,7 @@
 - **Flavor text** (MBS printing):
   > *Mirran creatures that could withstand the Phyrexian oil found an abundance of crunchy snacks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/63/gnathosaur) · oracle_id `7f52993c-a20a-48fe-b463-2a33873b489a` · printing: MBS #63 (2011-02-04) · [rulings](https://api.scryfall.com/cards/27dcb0c8-e6d5-4f6b-a74f-e495b5e42606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnat Miser
@@ -240,7 +285,9 @@
 - **Flavor text** (SOK printing):
   > *Nezumi insect-shamans enjoyed solitary lives, which was fortunate since no other nezumi could stand to live within half a mile of their foul stench.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/70/gnat-miser) · oracle_id `cfb5da72-9f00-4ae2-8d59-f997faab451b` · printing: SOK #70 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f1c51ee1-d6f6-42d7-9be6-fe3f982984ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If multiple effects modify a player's hand size, apply them in timestamp order. For example, if you put Cursed Rack (an artifact that sets a chosen player's maximum hand size to four) onto the battlefield choosing your opponent and then put Gnat Miser onto the battlefield, your opponent will have a maximum hand size of three. However, if those permanents entered in the opposite order, your opponent's maximum hand size would be four.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/70/gnat-miser) · oracle_id `cfb5da72-9f00-4ae2-8d59-f997faab451b` · printing: SOK #70 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnawing Crescendo
 
@@ -251,7 +298,9 @@
 - **Flavor text** (WOE printing):
   > *Totentanz's song had no lyrics, but the rats understood it nonetheless. "You own this land," it said. "You deserve to feast."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13202 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/131/gnawing-crescendo) · oracle_id `0332f7b5-dad3-4fd0-b86c-78bd8301f59d` · printing: WOE #131 (2023-09-08) · [rulings](https://api.scryfall.com/cards/254fc64a-9734-44a6-8869-ab03512f1a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Only creatures you control when Gnawing Crescendo resolves will get +2/+0. However, if a nontoken creature enters the battlefield after Gnawing Crescendo resolves and then dies while under your control later that turn, you'll create a Rat token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/131/gnawing-crescendo) · oracle_id `0332f7b5-dad3-4fd0-b86c-78bd8301f59d` · printing: WOE #131 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnawing Vermin
 
@@ -266,6 +315,7 @@
   > *—Sanwell, letter to his family*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10184 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/101/gnawing-vermin) · oracle_id `33ef3d51-845d-460b-97a0-95e7591cf466` · printing: BRO #101 (2022-11-18) · [rulings](https://api.scryfall.com/cards/2fa2fa48-ddb7-45f0-b183-4186df98f7cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnawing Zombie
@@ -278,6 +328,7 @@
 - **Flavor text** (MM3 printing):
   > *On still nights you can hear its rotted teeth grinding tirelessly on scavenged bones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20572 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/71/gnawing-zombie) · oracle_id `7979c1e6-6bc5-4b8c-82b0-2770e67ba898` · printing: MM3 #71 (2017-03-17) · [rulings](https://api.scryfall.com/cards/f4bdd28d-7467-494b-a52f-a84932da25f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnaw to the Bone
@@ -289,7 +340,14 @@
   > Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/183/gnaw-to-the-bone) · oracle_id `7b92ac54-3883-48cf-b01e-be9797dc1649` · printing: ISD #183 (2011-09-30) · [rulings](https://api.scryfall.com/cards/416148c8-13d3-46d3-ac93-6eb7cbab2881/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/183/gnaw-to-the-bone) · oracle_id `7b92ac54-3883-48cf-b01e-be9797dc1649` · printing: ISD #183 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnoll Hunter
 
@@ -302,6 +360,7 @@
   > *Yipping and cackling, the hunters tore through the village, leaving nothing but snapped bones and burning homes in their wake.*
 - **Keywords:** Pack tactics
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23577 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/185/gnoll-hunter) · oracle_id `9e445336-8b1e-4642-b8bc-aa460ad79a3f` · printing: AFR #185 (2021-07-23) · [rulings](https://api.scryfall.com/cards/1d0634cb-e973-4f05-965e-d39b09fe57a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnoll War Band
@@ -315,7 +374,17 @@
   > Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Keywords:** Menace, Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13064 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/178/gnoll-war-band) · oracle_id `ff8fc718-6218-48f3-981d-c4d2bc468493` · printing: CLB #178 (2022-06-10) · [rulings](https://api.scryfall.com/cards/acfecffd-33af-43a9-b26c-f1ff193c6323/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-06-10* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2022-06-10* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2022-06-10* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2022-06-10* — Opponents who have left the game will not be counted when determining how many opponents have been dealt damage this turn.
+  - *2022-06-10* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking or the controller of the planeswalker it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the player it was last attacking or the controller of the planeswalker it was last attacking.
+  - *2022-06-10* — The tokens all enter the battlefield at the same time.
+  - *2022-06-10* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it’s attacking a planeswalker, you choose which one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/178/gnoll-war-band) · oracle_id `ff8fc718-6218-48f3-981d-c4d2bc468493` · printing: CLB #178 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnomeball Machine
 
@@ -324,7 +393,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, create two 1/1 colorless Gnome artifact creature tokens.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/184/gnomeball-machine) · oracle_id `c97efd47-9f34-4e0b-b6e2-8fd5ccfb0108` · printing: UST #184 (2017-12-08) · [rulings](https://api.scryfall.com/cards/291989b2-d87f-4e5a-a159-4d564d1c2c6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/184/gnomeball-machine) · oracle_id `c97efd47-9f34-4e0b-b6e2-8fd5ccfb0108` · printing: UST #184 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnome-Made Engine
 
@@ -334,7 +416,9 @@
 - **Oracle text:**
   > When this creature enters, create a 1/1 colorless Gnome artifact creature token.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/148/gnome-made-engine) · oracle_id `50e6558d-5a70-4c12-9c3e-a9657ef26222` · printing: UST #148 (2017-12-08) · [rulings](https://api.scryfall.com/cards/2c110c56-cf58-4c04-a567-c55928f5d640/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/148/gnome-made-engine) · oracle_id `50e6558d-5a70-4c12-9c3e-a9657ef26222` · printing: UST #148 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnostro, Voice of the Crags
 
@@ -348,7 +432,9 @@
   > • You gain X life.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23357 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/276/gnostro-voice-of-the-crags) · oracle_id `bff55e1a-730c-4349-9ccb-18c97f46496d` · printing: CMR #276 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c171f179-9ccf-4819-915c-7f2cd3a91ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — The value of X is determined as Gnostro's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/276/gnostro-voice-of-the-crags) · oracle_id `bff55e1a-730c-4349-9ccb-18c97f46496d` · printing: CMR #276 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnottvold Hermit // Chrome Host Hulk
 
@@ -365,7 +451,10 @@
   > *Now they saw the truth. Divisions between Hagi and Torga were meaningless. There was only Phyrexia.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/188/gnottvold-hermit-chrome-host-hulk) · oracle_id `3bafc004-1c90-4939-9dcb-72667c170e39` · printing: MOM #188 (2023-04-21) · [rulings](https://api.scryfall.com/cards/70b2cdc5-35b9-443d-b499-c8b75c0d0a64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — Chrome Host Hulk’s ability overwrites all previous effects that set the affected creatures’ power and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after the ability resolves will overwrite that part of the effect.
+  - *2023-04-14* — Effects that modify the affected creature’s power or toughness without setting it will apply no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/188/gnottvold-hermit-chrome-host-hulk) · oracle_id `3bafc004-1c90-4939-9dcb-72667c170e39` · printing: MOM #188 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnottvold Recluse
 
@@ -378,6 +467,7 @@
   > *Fed up with webs impeding travelers in other realms, Kolvori banished the giant spiders to Gnottvold, where their webs snare only the occasional rampaging troll.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22789 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/172/gnottvold-recluse) · oracle_id `e7e65cc5-9ceb-43b6-acde-ae492b71daf6` · printing: KHM #172 (2021-02-05) · [rulings](https://api.scryfall.com/cards/af46c8c8-5dfa-4ebb-b0b9-cd25d01dd432/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gnottvold Slumbermound
@@ -389,4 +479,6 @@
   > {T}: Add {R}.
   > {3}{R}{G}{G}, {T}, Sacrifice this land: Destroy target land. Create a 4/4 green Troll Warrior creature token with trample.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18176 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/258/gnottvold-slumbermound) · oracle_id `2e413d18-2c55-49be-9e49-54d170c978a2` · printing: KHM #258 (2021-02-05) · [rulings](https://api.scryfall.com/cards/735470df-65d8-43e9-837e-4869c8e4f052/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — If the target land is an illegal target by the time the last activated ability tries to resolve, the ability won’t resolve and none of its effects will happen. You won’t create a Troll Warrior creature token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/258/gnottvold-slumbermound) · oracle_id `2e413d18-2c55-49be-9e49-54d170c978a2` · printing: KHM #258 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

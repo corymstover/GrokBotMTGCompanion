@@ -21,7 +21,9 @@
   > Whenever this creature blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/75/cockatrice) · oracle_id `af354337-424c-4c7e-8ca5-6149261368d2` · printing: TSB #75 (2006-10-06) · [rulings](https://api.scryfall.com/cards/4efcc6db-66bd-42c1-9a74-fd474f784232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability destroys the creature at the end of the combat, which is after all first strike and normal damage dealing is done. This means that a creature may have to regenerate twice to survive the combat, once from damage and once again at end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/75/cockatrice) · oracle_id `af354337-424c-4c7e-8ca5-6149261368d2` · printing: TSB #75 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cocoon
 
@@ -34,4 +36,8 @@
   > At the beginning of your upkeep, remove a pupa counter from this Aura. If you can't, sacrifice it, put a +1/+1 counter on enchanted creature, and that creature gains flying.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30300 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/59/cocoon) · oracle_id `9e35d450-00af-4f40-a4ee-bc7844ff5628` · printing: CHR #59 (1995-07-01) · [rulings](https://api.scryfall.com/cards/897de61e-440f-4eaf-aef8-0dd1c6117288/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Cocoon can be used on a tapped creature.
+  - *2004-10-04* — The creature can still be untapped using spells and abilities.
+  - *2005-08-01* — If the Aura is moved to a different creature, the number of counters is unchanged.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/59/cocoon) · oracle_id `9e35d450-00af-4f40-a4ee-bc7844ff5628` · printing: CHR #59 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

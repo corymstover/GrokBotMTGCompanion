@@ -26,6 +26,7 @@
 - **Flavor text** (UNF printing):
   > *"As long as there's no outside food, you're good to go."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31182 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/36/bag-check) · oracle_id `8af37e04-2abe-4021-9bad-4e89b10711c5` · printing: UNF #36 (2022-10-07) · [rulings](https://api.scryfall.com/cards/051c3fae-9d73-42bd-88cb-0f7571059c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bagel and Schmear
@@ -39,7 +40,10 @@
   > *No fight in New York City was more vicious than the battle over who made the best bagels.*
 - **Keywords:** Nosh, Share
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11626 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/161/bagel-and-schmear) · oracle_id `1389c9fa-fec2-4212-a7aa-6dfb318dc202` · printing: SPM #161 (2025-09-26) · [rulings](https://api.scryfall.com/cards/7f927f72-fc9b-444f-9e0e-78a5e8e7bcaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — If you choose a target for the first ability and that target is illegal as the ability resolves, the ability will be removed from the stack and you will not draw a card.
+  - *2025-09-19* — You can activate Bagel and Schmear's first ability with no target. In that case, you will only draw a card when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/161/bagel-and-schmear) · oracle_id `1389c9fa-fec2-4212-a7aa-6dfb318dc202` · printing: SPM #161 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag End Banquet
 
@@ -50,7 +54,9 @@
   > {T}: Add {C} for each Food you control.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/5/bag-end-banquet) · oracle_id `2522a9dd-bcf3-4b84-abff-52b9e6dbde34` · printing: HOC #5 (2026-08-14) · [rulings](https://api.scryfall.com/cards/028f284b-4b4c-44e2-8ded-bc59ec71250f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — Bag End Banquet's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/5/bag-end-banquet) · oracle_id `2522a9dd-bcf3-4b84-abff-52b9e6dbde34` · printing: HOC #5 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag End Porter
 
@@ -63,7 +69,9 @@
   > *"Dwarves' tongues run on when speaking of their handiwork, they say."*
   > *—Glóin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22538 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/153/bag-end-porter) · oracle_id `b80473f7-f1d4-4aa3-988e-1a8610ffbeee` · printing: LTR #153 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b7557170-39a2-49df-823e-958c3eb34801/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — The value of X is determined only as Bag End Porter's triggered ability resolves. It won't change later in the turn if the number of legendary creatures you control changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/153/bag-end-porter) · oracle_id `b80473f7-f1d4-4aa3-988e-1a8610ffbeee` · printing: LTR #153 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag of Devouring
 
@@ -74,7 +82,10 @@
   > {2}, {T}, Sacrifice another artifact or creature: Draw a card.
   > {3}, {T}, Sacrifice this artifact: Roll a d10. Return up to X cards from among cards exiled with this artifact to their owners' hands, where X is the result.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/21/bag-of-devouring) · oracle_id `4443345d-a292-4394-97dd-0e6f4d9aedf7` · printing: AFC #21 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d183e52b-432d-4b4d-803c-33f7a5f178f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Bag of Devouring's first ability is a triggered ability that happens when you sacrifice permanents, but you can't just sacrifice permanents whenever you want. You need to have some other means to do so, such as activating Bag of Devouring's second ability.
+  - *2021-07-23* — If the card you sacrifice isn't still in the graveyard as the first ability resolves, it won't be exiled. It won't be a card exiled with Bag of Devouring for the third ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/21/bag-of-devouring) · oracle_id `4443345d-a292-4394-97dd-0e6f4d9aedf7` · printing: AFC #21 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag of Holding
 
@@ -87,7 +98,13 @@
 - **Flavor text** (CLB printing):
   > *Leave no treasure behind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/299/bag-of-holding) · oracle_id `63c04040-e109-494e-baa6-c639a6c9a996` · printing: CLB #299 (2022-06-10) · [rulings](https://api.scryfall.com/cards/290f4b4f-4f48-4031-b62a-91a0d6716ddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-07-12* — If Bag of Holding is moved to exile when you sacrifice it (most likely due to Leyline of the Void's effect), it remains in exile. It won't be returned to your hand.
+  - *2019-07-12* — If Bag of Holding leaves the battlefield, the items it contained are exiled forever (and, perhaps, scattered throughout the Astral Plane). If the same Bag of Holding card returns to the battlefield, it's considered a new object without access to the cards stored by the old object.
+  - *2019-07-12* — If you control more than one Bag of Holding, you choose which one will hold the discarded card. Other Bags of Holding can't return that card.
+  - *2019-07-12* — If you discard a card but that card is not in your graveyard as Bag of Holding's first ability resolves, that card remains wherever it has moved.
+  - *2019-07-12* — You both draw and discard while Bag of Holding's second ability is resolving. No player may take any action—nor can anything else happen—until you've both drawn and discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/299/bag-of-holding) · oracle_id `63c04040-e109-494e-baa6-c639a6c9a996` · printing: CLB #299 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag of Stroopwafels
 
@@ -97,6 +114,7 @@
   > Bag of Stroopwafels enters the battlefield with eight stroopwafel counters on it.
   > {3}, {T}, Remove a stroopwafel counter from Bag of Stroopwafels: You gain 3 life and draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA03a/bag-of-stroopwafels) · oracle_id `f63e9a54-990f-4f7a-8f00-2e4301f99e35` · printing: UNK #UA03a (2024-06-29) · [rulings](https://api.scryfall.com/cards/48ab77ab-87af-4620-bb2a-8b2aa1742a4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bag of Tricks
@@ -108,4 +126,17 @@
 - **Flavor text** (AFC printing):
   > *From fuzzy to ferocious in an instant.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/37/bag-of-tricks) · oracle_id `f14ce7d7-6cfa-4f88-a381-d6e912c18b5d` · printing: AFC #37 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f0b22a3e-90b0-4dde-8a63-789bab92ba01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Even if you reveal the entire library this way, putting it on the bottom in a random order doesn't count as “shuffling” the library.
+  - *2021-07-23* — If you do not have a creature card in your library with mana value equal to the result, you will reveal your entire library and then put the entire library back in a random order.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/37/bag-of-tricks) · oracle_id `f14ce7d7-6cfa-4f88-a381-d6e912c18b5d` · printing: AFC #37 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

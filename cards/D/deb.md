@@ -31,6 +31,7 @@
   > *—Sidisi, khan of the Sultai*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26916 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/68/debilitating-injury) · oracle_id `52eab77d-9a07-4e14-8872-72681d3b3d0e` · printing: KTK #68 (2014-09-26) · [rulings](https://api.scryfall.com/cards/09b2b263-34db-4961-bf41-1eaaba3701da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debris Beetle
@@ -46,6 +47,7 @@
   > *Many brought weapons to the race. This crew built theirs as they went.*
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/199/debris-beetle) · oracle_id `2b15d571-2f90-44f7-9153-20ed51253045` · printing: DFT #199 (2025-02-14) · [rulings](https://api.scryfall.com/cards/405e7900-f6df-4033-b70b-b1d2a8b6d7c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debris Field Crusher
@@ -60,6 +62,7 @@
   > {1}{R}: This Spacecraft gets +2/+0 until end of turn.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17505 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/131/debris-field-crusher) · oracle_id `db0894e1-2644-48d4-8de4-8cc43e940bc1` · printing: EOE #131 (2025-08-01) · [rulings](https://api.scryfall.com/cards/ea713f35-6442-4388-8839-2714374fb4b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deb Thomas
@@ -72,6 +75,7 @@
   > +1: Create a 1/1 red Employee creature token.
   > −X: Employees and Dogs you control get +X/+0 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcel/9/deb-thomas) · oracle_id `a01c3894-92de-4318-9ceb-34361d56f7de` · printing: PCEL #9 (2024-05-10) · [rulings](https://api.scryfall.com/cards/29f9fa2f-71eb-4579-93a2-31423bd48596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debt of Loyalty
@@ -84,7 +88,13 @@
   > *"I killed him because I had to," Starke lied to Gerrard. "But now I pledge my loyalty to you."*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16900 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/11/debt-of-loyalty) · oracle_id `7a5cfc97-89cf-43bc-8e48-f8bf7a0c5fcd` · printing: WTH #11 (1997-06-09) · [rulings](https://api.scryfall.com/cards/d19ed33b-42d4-4a5d-a763-cfb43348769c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-04-01* — Casting Debt of Loyalty puts a regeneration shield on a creature. If, later in the turn, that creature would be destroyed, instead it regenerates and you gain control of it. Note that it will be tapped when you gain control of it. The control change has no duration; you’ll retain control of that creature until the game ends or until some other effect causes it to change control.
+  - *2008-04-01* — If a creature has two regeneration shields on it — one from a Debt of Loyalty you cast and one from another effect — and it would be destroyed, its controller chooses which regeneration shield to use. If that player chooses to use the Debt of Loyalty shield, you’ll gain control of the creature. If the player chooses to use the other shield, you won’t gain control of the creature, but the Debt of Loyalty shield will remain on that creature for the rest of the turn (in case it would be destroyed again).
+  - *2008-04-01* — If you cast Debt of Loyalty but nothing happens to the targeted creature for the rest of the turn that would cause it to be destroyed, Debt of Loyalty has no visible effect. The regeneration shield wears off at the end of the turn. If the creature regenerates during a later turn, you won’t gain control of it.
+  - *2008-04-01* — You may cast Debt of Loyalty targeting a creature you already control. If you do, and that creature would be destroyed later in the turn, it will regenerate and you’ll gain control of it (though gaining control of a creature you already control usually has no visible effect).
+  - *2013-07-01* — A creature with indestructible never needs to regenerate, so Debt of Loyalty will have no effect on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/11/debt-of-loyalty) · oracle_id `7a5cfc97-89cf-43bc-8e48-f8bf7a0c5fcd` · printing: WTH #11 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debtors' Knell
 
@@ -96,6 +106,7 @@
 - **Flavor text** (C21 printing):
   > *One moment, conscious only of a sense of repose. The next moment, hearing the trudge of his own footsteps. He sighed and squinted into the glare ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/215/debtors-knell) · oracle_id `a9ff368b-5208-4ada-bb99-eccbf8eaea28` · printing: C21 #215 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c9618200-f4ea-4572-9f17-9db8b785982e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debtor's Pulpit
@@ -110,6 +121,7 @@
   > *—Milana, Orzhov prelate*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26927 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/10/debtors-pulpit) · oracle_id `541c6564-ec39-4b14-8c02-dd6a5d122ed3` · printing: GTC #10 (2013-02-01) · [rulings](https://api.scryfall.com/cards/fafb0372-6860-4b0b-b92e-873735489006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debtors' Transport
@@ -123,7 +135,9 @@
   > *By design, the sarcophagus muffles the debtors' moans but does not silence them.*
 - **Keywords:** Afterlife
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/72/debtors-transport) · oracle_id `72f89173-2998-45e6-94da-5b5bb9738a6b` · printing: RVR #72 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d001eb1f-491b-4b1d-9f1d-e1cf158fd55a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Because blockers are chosen all at once, you can’t block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/72/debtors-transport) · oracle_id `72f89173-2998-45e6-94da-5b5bb9738a6b` · printing: RVR #72 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debt to the Deathless
 
@@ -134,6 +148,7 @@
 - **Flavor text** (PLST printing):
   > *Some of Orzhov's cruelest collectors remember their debtors by taste alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2531 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-176/debt-to-the-deathless) · oracle_id `6130f22d-7901-4f9f-b777-27bb0dacc063` · printing: PLST #RVR-176 (2026-10-19) · [rulings](https://api.scryfall.com/cards/f0d2831e-36b6-448b-9613-37eaf3ad1878/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Debt to the Kami
@@ -147,4 +162,5 @@
 - **Flavor text** (NEO printing):
   > *The masters weren't speaking figuratively when they said guilt could be all-consuming.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15740 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/92/debt-to-the-kami) · oracle_id `c6c1e576-7197-4067-8cd1-aa535188e1b8` · printing: NEO #92 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c1a7e728-ba01-4e3d-b269-9e2dd85a1d1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

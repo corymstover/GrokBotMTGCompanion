@@ -36,6 +36,7 @@
   > *"Sea Gate is gone, the Halimar basin empty. But rebuild the seawall and give these waters time, and they will fill the basin anew."*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/65/umara-entangler) · oracle_id `d32cf19d-a974-4161-851d-dcbf37069e26` · printing: OGW #65 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0d4ddc45-cd67-4b2c-84d0-4604783fd8e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umara Mystic
@@ -50,7 +51,10 @@
   > *"We tolerate the North Hada thieves' den, but cutthroats who wander downriver earn a skymanta ride out to sea."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/238/umara-mystic) · oracle_id `e1c33cfe-1d48-463d-83bb-111374505194` · printing: ZNR #238 (2020-09-25) · [rulings](https://api.scryfall.com/cards/fb979cfc-3e5b-42c9-b78d-584c274ed912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — A Wizard spell is one with the creature type Wizard. Spells that are Wizard-themed (such as Relic Amulet) aren’t Wizard spells.
+  - *2020-09-25* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell (if it has any targets). The ability resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/238/umara-mystic) · oracle_id `e1c33cfe-1d48-463d-83bb-111374505194` · printing: ZNR #238 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umara Raptor
 
@@ -64,7 +68,9 @@
   > *Messenger, weapon, friend.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/75/umara-raptor) · oracle_id `a58ee84f-1d9c-4924-b7b1-14a9b2ba3b98` · printing: ZEN #75 (2009-10-02) · [rulings](https://api.scryfall.com/cards/6049cc80-1faa-48bf-897e-fefe5a8e7ab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — This ability triggers on this creature entering, so it will enter with its unmodified power and toughness, and then receive a +1/+1 counter a short time later. It does not enter with the +1/+1 counter already on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/75/umara-raptor) · oracle_id `a58ee84f-1d9c-4924-b7b1-14a9b2ba3b98` · printing: ZEN #75 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umara Wizard // Umara Skyfalls
 
@@ -82,7 +88,19 @@
   > *"The source of the Umara River sits high above Oran-Rief, ever weeping on the jungle below."*
   > *—Ko Dari, expedition wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14601 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/86/umara-wizard-umara-skyfalls) · oracle_id `6bc668f4-8fc7-4aaf-891b-277d8328b376` · printing: ZNR #86 (2020-09-25) · [rulings](https://api.scryfall.com/cards/890eee8d-a339-4143-adfa-1b17ec10c099/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-09-25* — A Wizard spell is one with the creature type Wizard. Spells that are Wizard-themed (such as Relic Amulet) aren't Wizard spells.
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell (if it has any targets). The ability resolves even if that spell is countered.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/86/umara-wizard-umara-skyfalls) · oracle_id `6bc668f4-8fc7-4aaf-891b-277d8328b376` · printing: ZNR #86 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umaro, Raging Yeti
 
@@ -97,7 +115,10 @@
   > • Umaro deals 5 damage to any target.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12483 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/63/umaro-raging-yeti) · oracle_id `0f4350ad-dc44-4942-b097-e4033e29d659` · printing: FIC #63 (2025-06-13) · [rulings](https://api.scryfall.com/cards/31aed8e9-44be-4e7c-85ac-a084eaecaea7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — As you put Umaro's triggered ability on the stack, you choose a mode at random. Players can respond to the ability knowing which mode was chosen.
+  - *2025-06-06* — In the incredibly rare case where there is no legal target for the last mode, that mode can't be chosen. The first two modes are always eligible to be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/63/umaro-raging-yeti) · oracle_id `0f4350ad-dc44-4942-b097-e4033e29d659` · printing: FIC #63 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbilicus
 
@@ -108,7 +129,9 @@
 - **Flavor text** (DMR printing):
   > *It was the explorers' only tether to reality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/237/umbilicus) · oracle_id `c9132e72-d016-4cb7-8662-a16b7d932bef` · printing: DMR #237 (2023-01-13) · [rulings](https://api.scryfall.com/cards/6556ed8e-2ad9-4135-902a-24f8e327584b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — The player makes all choices as the triggered ability resolves. They permanent they choose to return to its owner’s hand, if any, isn’t targeted by the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/237/umbilicus) · oracle_id `c9132e72-d016-4cb7-8662-a16b7d932bef` · printing: DMR #237 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Collar Zealot
 
@@ -121,6 +144,7 @@
   > *"All things will fall to the Zero Point. By accepting this truth, my path is known and my fate is certain."*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/227/umbral-collar-zealot) · oracle_id `12db6263-75c2-442f-a1a5-7af7915f8f9f` · printing: SOC #227 (2026-04-24) · [rulings](https://api.scryfall.com/cards/98648b8a-2cf0-4c10-ab13-c88b2e03fc15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Expanse
@@ -135,7 +159,9 @@
   > *A neglected corner of the Adumbral Gardens, used by pages and diplomats seeking solitude for reflection and intrigue.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/60/umbral-expanse) · oracle_id `5a1dfc60-645d-4bc0-8883-e06ed9c80706` · printing: SOC #60 (2026-04-24) · [rulings](https://api.scryfall.com/cards/15848965-01a8-48bf-aa61-8a753339c761/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Unlike some other dual lands, Umbral Expanse has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Shineshadow Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/60/umbral-expanse) · oracle_id `5a1dfc60-645d-4bc0-8883-e06ed9c80706` · printing: SOC #60 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Juke
 
@@ -148,6 +174,7 @@
 - **Flavor text** (STX printing):
   > *The sport of Mage Tower was conceived as a playful testing ground for young spellcasters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23717 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/89/umbral-juke) · oracle_id `d56afdf6-51e0-4151-a86c-4c4827a50a0e` · printing: STX #89 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3fbd0921-e953-492b-ad73-c8a8bfaa750b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbral Mantle
@@ -161,7 +188,11 @@
   > *It harnesses the power of night in a land where daylight fears to show itself.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/267/umbral-mantle) · oracle_id `44f3241f-af82-4f2e-b15d-7f279bf6e816` · printing: SHM #267 (2008-05-02) · [rulings](https://api.scryfall.com/cards/10e35711-aec9-4024-a2a6-9efff8c71df2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — If a creature with an {Q} ability hasn't been under your control since your most recent turn began, you can't activate that ability, unless the creature has haste.
+  - *2008-05-01* — If the permanent is already untapped, you can't activate its {Q} ability. That's because you can't pay the "Untap this permanent" cost.
+  - *2008-05-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can't be responded to. (The actual ability can be responded to, of course.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/267/umbral-mantle) · oracle_id `44f3241f-af82-4f2e-b15d-7f279bf6e816` · printing: SHM #267 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbra Mystic
 
@@ -173,7 +204,23 @@
 - **Flavor text** (ROE printing):
   > *"I have found the courage to face death—twice, if I must."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/52/umbra-mystic) · oracle_id `c0a4f47c-c7f9-4b95-aa1b-30580e4cf030` · printing: ROE #52 (2010-04-23) · [rulings](https://api.scryfall.com/cards/a55705d3-8640-478e-ace4-f4f900d617c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2010-06-15* — All _Rise of the Eldrazi_ cards printed with umbra armor are Auras with "enchant creature." But Umbra Mystic grants umbra armor to Auras attached to any permanent you control, not just creatures. The ability works the same way even if the Aura is enchanting a land, an artifact, or any other permanent.
+  - *2010-06-15* — If a permanent you control would be destroyed, and it's enchanted by an Aura with umbra armor, it doesn't matter who controls that Aura. The umbra armor effect is mandatory. If that permanent is enchanted by multiple Auras, you choose which one is destroyed, regardless of who controls them.
+  - *2010-06-15* — Multiple instances of umbra armor on the same Aura are redundant.
+  - *2010-06-15* — Say you control a permanent that's enchanted by an Aura you control, and that Aura is itself enchanted by an Aura. If the permanent would be destroyed, instead the first Aura is destroyed... but since that Aura would be destroyed, instead the second Aura is destroyed.
+  - *2010-06-15* — Umbra Mystic grants umbra armor to Auras attached to permanents you control, regardless of who controls those Auras. Conversely, it doesn't grant umbra armor to Auras you control that are attached to permanents controlled by other players.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/52/umbra-mystic) · oracle_id `c0a4f47c-c7f9-4b95-aa1b-30580e4cf030` · printing: ROE #52 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbra Stalker
 
@@ -186,7 +233,11 @@
   > *Don't venture into the darkness, lest it decide not to let you leave.*
 - **Keywords:** Chroma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/48/umbra-stalker) · oracle_id `51afd09d-7eee-41c9-bc42-f3f61a176479` · printing: EVE #48 (2008-07-25) · [rulings](https://api.scryfall.com/cards/1efdd70a-5a84-48a5-82bf-ba29fda097c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
+  - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
+  - *2008-08-01* — This is a characteristic-defining ability, which means it functions in all zones. You include the symbols in the Stalker’s own mana cost if you need to determine its power and/or toughness while it’s in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/48/umbra-stalker) · oracle_id `51afd09d-7eee-41c9-bc42-f3f61a176479` · printing: EVE #48 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umbris, Fear Manifest
 
@@ -197,7 +248,9 @@
   > Umbris gets +1/+1 for each card your opponents own in exile.
   > Whenever Umbris or another Nightmare or Horror you control enters, target opponent exiles cards from the top of their library until they exile a land card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7527 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/38/umbris-fear-manifest) · oracle_id `af31febb-af53-4b48-b930-9e1f9e5d8f26` · printing: VOC #38 (2021-11-19) · [rulings](https://api.scryfall.com/cards/7aead6a8-bada-42cf-b7cc-0b730f564582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Umbris, Fear Manifest's first ability counts all cards your opponents own in exile, not just cards exiled by the second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/38/umbris-fear-manifest) · oracle_id `af31febb-af53-4b48-b930-9e1f9e5d8f26` · printing: VOC #38 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umezawa's Charm
 
@@ -211,6 +264,7 @@
 - **Flavor text** (MH1 printing):
   > *"Be ever loyal to your own best interests."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26782 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/111/umezawas-charm) · oracle_id `7cfd7606-1dab-4627-ba42-37d6e375f9f1` · printing: MH1 #111 (2019-06-14) · [rulings](https://api.scryfall.com/cards/afbbb742-0317-4266-bcf5-cfea8d21f108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umezawa's Jitte
@@ -226,7 +280,13 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · [rulings](https://api.scryfall.com/cards/3b6e5956-f795-451b-bb24-56462d1ced27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2005-02-01* — If the "target creature gets -1/-1 until end of turn" mode is chosen, the target creature must also be announced.
+  - *2005-02-01* — If the Jitte is moved after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that is equipped when the ability resolves.
+  - *2005-02-01* — If the Jitte leaves the battlefield after the "+2/+2" mode is announced but before it resolves, the bonus is given to the creature that was most recently equipped once the ability resolves.
+  - *2005-02-01* — The ability can be used any time Umezawa's Jitte's controller has priority — only the "target creature" choice has additional requirements. Choosing the "Equipped creature gets +2/+2 until end of turn" mode does nothing if the Jitte isn't equipped to a creature when the ability resolves.
+  - *2005-02-01* — Umezawa's Jitte's activated ability generates a modal choice. The choice is made when the ability is activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/163/umezawas-jitte) · oracle_id `1da10d5c-36a8-473f-a5d4-782ad61d8057` · printing: BOK #163 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Umori, the Collector
 
@@ -239,4 +299,22 @@
   > Spells you cast of the chosen type cost {1} less to cast.
 - **Keywords:** Companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10822 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/231/umori-the-collector) · oracle_id `913383a1-9c0d-40a1-8c5a-b0a8a95c09a6` · printing: IKO #231 (2020-04-24) · [rulings](https://api.scryfall.com/cards/75ac31e0-ac70-4ee6-b2b1-cc445ffa1da9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2020-04-17* — Artifact, creature, enchantment, instant, planeswalker, and sorcery are card types. Supertypes (such as legendary) and subtypes (such as Ooze) are not. 
+  - *2020-04-17* — Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+  - *2020-04-17* — Effects that reduce the generic mana cost of a spell (such as that of Umori) can't reduce that spell's colored mana requirements.
+  - *2020-04-17* — If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+  - *2020-04-17* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-04-17* — Land cards in your deck may have any number of additional types that may be shared with other cards or not.
+  - *2020-04-17* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-04-17* — The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+  - *2020-04-17* — The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+  - *2020-04-17* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+  - *2020-04-17* — To satisfy Umori's companion requirement, there must be one card type that each nonland card in your starting deck has. For example, if every nonland card is an artifact creature, enchantment creature, or creature, it is satisfied; but if you have an artifact creature, an artifact, and a creature, it is not satisfied.
+  - *2020-04-17* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+  - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+  - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/231/umori-the-collector) · oracle_id `913383a1-9c0d-40a1-8c5a-b0a8a95c09a6` · printing: IKO #231 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

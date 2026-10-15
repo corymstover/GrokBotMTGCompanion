@@ -37,7 +37,14 @@
   > *Chimil gave the Oltec passion. Ojer Axonil challenged them to harness it.*
 - **Keywords:** Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1539 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/158/ojer-axonil-deepest-might-temple-of-power) · oracle_id `d3b7b541-6f05-46c1-8031-c848c4bd4635` · printing: LCI #158 (2023-11-17) · [rulings](https://api.scryfall.com/cards/50f8e2b6-98c7-4f28-bb39-e1fbe841f1ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — For the purpose of Temple of Power's last ability, you need to have controlled the red source that dealt noncombat damage only at the time that the damage was dealt. If it dies or changes control after that point, that damage will still count toward Temple of Power's activation restriction.
+  - *2023-11-10* — If Ojer Axonil's second ability and additional replacement effects would modify how damage would be dealt, the player being dealt damage chooses the order in which to apply those effects.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Axonil, Deepest Might, it won't return to the battlefield when it dies.
+  - *2023-11-10* — The 4 or more noncombat damage may be dealt by multiple red sources you controlled. For example, if you cast a red spell that dealt 3 damage to a creature and then a red artifact you controlled dealt 1 noncombat damage to a creature, you could activate Temple of Power's last ability.
+  - *2023-11-10* — The comparison between the amount of noncombat damage being dealt and Ojer Axonil's power occurs only once, when the damage would be dealt. Reducing Ojer Axonil's power before noncombat damage is dealt may cause its replacement effect not to apply to that damage.
+  - *2023-11-10* — While you control Ojer Axonil, Deepest Might, if an effect such as that of Chandra's Pyrohelix asks you to divide damage among targets, you must divide the unmodified damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/158/ojer-axonil-deepest-might-temple-of-power) · oracle_id `d3b7b541-6f05-46c1-8031-c848c4bd4635` · printing: LCI #158 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojer Kaslem, Deepest Growth // Temple of Cultivation
 
@@ -55,7 +62,10 @@
   > *Chimil gave the Oltec sacred lands. Ojer Kaslem brought them to life.*
 - **Keywords:** Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2048 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/204/ojer-kaslem-deepest-growth-temple-of-cultivation) · oracle_id `eda11077-b2ce-408b-b982-def2da8fe599` · printing: LCI #204 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0cbc43a3-8cba-4988-9de1-c89aedd79ada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Kaslem, Deepest Growth, it won't return to the battlefield when it dies.
+  - *2023-11-10* — While resolving Ojer Kaslem, Deepest Growth's middle ability, you could put no cards, a creature card, a land card, or a creature card and a land card onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/204/ojer-kaslem-deepest-growth-temple-of-cultivation) · oracle_id `eda11077-b2ce-408b-b982-def2da8fe599` · printing: LCI #204 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojer Pakpatiq, Deepest Epoch // Temple of Cyclical Time
 
@@ -73,7 +83,11 @@
   > *Chimil gave the Oltec time. Ojer Pakpatiq gave them the tools to learn its lessons.*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3344 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/67/ojer-pakpatiq-deepest-epoch-temple-of-cyclical-time) · oracle_id `34ef174e-1b3d-43d5-9f72-3d35befbdd7f` · printing: LCI #67 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a9d71007-bc04-4dff-ad3f-e2c0b5b4400e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — Casting the card again due to rebound's delayed triggered ability is optional. If you choose not to cast the card, or if you can't because an effect prohibits it, the card will stay exiled. You won't get another chance to cast it on a future turn. If you do cast the card, it's put into its owner's graveyard as normal once it resolves.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Pakpatiq, Deepest Epoch, it won't return to the battlefield when it dies.
+  - *2023-11-10* — If a spell with rebound that you cast from your hand doesn't resolve for any reason, including being countered, that spell won't resolve and none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/67/ojer-pakpatiq-deepest-epoch-temple-of-cyclical-time) · oracle_id `34ef174e-1b3d-43d5-9f72-3d35befbdd7f` · printing: LCI #67 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojer Taq, Deepest Foundation // Temple of Civilization
 
@@ -91,7 +105,10 @@
   > *Chimil gave the Oltec life. Ojer Taq taught them how to live together.*
 - **Keywords:** Vigilance, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #921 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/26/ojer-taq-deepest-foundation-temple-of-civilization) · oracle_id `486bb9a5-73f1-4cec-b097-fb07ac80b72e` · printing: LCI #26 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1ca79dd4-67fc-496c-96fc-489b039c4932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional tokens created by Ojer Taq, Deepest Foundation's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it, the additional tokens will also get those counters.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card is a copy of Ojer Taq, Deepest Foundation, it won't return to the battlefield when it dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/26/ojer-taq-deepest-foundation-temple-of-civilization) · oracle_id `486bb9a5-73f1-4cec-b097-fb07ac80b72e` · printing: LCI #26 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oji, the Exquisite Blade
 
@@ -105,7 +122,10 @@
   > *They walk the Path of Kensei with perfect balance.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7646 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/290/oji-the-exquisite-blade) · oracle_id `7c4c556c-b5e3-493a-a7b0-38c55b7809ac` · printing: CLB #290 (2022-06-10) · [rulings](https://api.scryfall.com/cards/13129e63-558d-415d-87eb-616868205341/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/290/oji-the-exquisite-blade) · oracle_id `7c4c556c-b5e3-493a-a7b0-38c55b7809ac` · printing: CLB #290 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai Exemplars
 
@@ -118,7 +138,10 @@
   > • This creature gains first strike and lifelink until end of turn.
   > • Exile this creature, then return it to the battlefield tapped under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/27/ojutai-exemplars) · oracle_id `4405db13-7b36-4dc2-9a5d-1d31d568abf5` · printing: DTK #27 (2015-03-27) · [rulings](https://api.scryfall.com/cards/d1205482-2f9d-463e-893f-18998aaf09c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — After the ability returns Ojutai Exemplars to the battlefield, it will be a new object with no connection to the Ojutai Exemplars that left the battlefield. It won't be in combat or have any additional abilities it may have had when it left the battlefield. Any +1/+1 counters on it or Auras attached to it are removed.
+  - *2015-02-25* — If Ojutai Exemplars leaves the battlefield in response to its ability with the third mode chosen, that ability won't return Ojutai Exemplars to the battlefield. It will stay wherever it is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/27/ojutai-exemplars) · oracle_id `4405db13-7b36-4dc2-9a5d-1d31d568abf5` · printing: DTK #27 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai Interceptor
 
@@ -132,7 +155,11 @@
   > *"Though I may soar, I could never fly as high as the dragons."*
 - **Keywords:** Flying, Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/66/ojutai-interceptor) · oracle_id `ecc42076-5cce-4e00-a21b-34846ea41df2` · printing: DTK #66 (2015-03-27) · [rulings](https://api.scryfall.com/cards/59a84666-ad2b-494c-b52b-ecee14788ef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/66/ojutai-interceptor) · oracle_id `ecc42076-5cce-4e00-a21b-34846ea41df2` · printing: DTK #66 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai Monument
 
@@ -144,7 +171,12 @@
 - **Flavor text** (DTK printing):
   > *Ojutai spends time at all his strongholds, but he most favors Cori Stronghold for his meditation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/242/ojutai-monument) · oracle_id `d6b4810f-2bee-4c83-b13d-c46fb7dd8e08` · printing: DTK #242 (2015-03-27) · [rulings](https://api.scryfall.com/cards/8ef29942-a7e3-4e47-9f95-527a5d7e4f1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — A Monument can't attack on the turn it enters the battlefield.
+  - *2015-02-25* — Activating the last ability of a Monument while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
+  - *2015-02-25* — Each Monument is colorless, although the last ability will make each of them two colors until end of turn.
+  - *2015-02-25* — If a Monument has any +1/+1 counters on it, those counters will remain on the permanent after it stops being a creature. Those counters will have no effect as long as the Monument isn't a creature, but they will apply again if the Monument later becomes a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/242/ojutai-monument) · oracle_id `d6b4810f-2bee-4c83-b13d-c46fb7dd8e08` · printing: DTK #242 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai's Breath
 
@@ -155,7 +187,17 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22378 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/68/ojutais-breath) · oracle_id `2c09d296-5d15-449a-9b98-cf5056a17b91` · printing: IMA #68 (2017-11-17) · [rulings](https://api.scryfall.com/cards/428c4985-95de-4703-9cda-7762d7fee04f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-02-25* — As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
+  - *2015-02-25* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed.
+  - *2015-02-25* — Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn.
+  - *2015-02-25* — If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2015-02-25* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+  - *2015-02-25* — If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2015-02-25* — If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect.
+  - *2015-02-25* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+  - *2017-11-17* — Ojutai’s Breath can target a creature that’s already tapped. It still won’t untap during its controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/68/ojutais-breath) · oracle_id `2c09d296-5d15-449a-9b98-cf5056a17b91` · printing: IMA #68 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai's Command
 
@@ -168,7 +210,13 @@
   > • Counter target creature spell.
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/227/ojutais-command) · oracle_id `c1fafe93-8fd2-44c1-a4a0-5c9ecee550cc` · printing: DTK #227 (2015-03-27) · [rulings](https://api.scryfall.com/cards/c7a7f500-594d-4c7b-80e8-54ae1ada2444/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — As the spell resolves, follow the instructions of the modes you chose in the order they are printed on the card. For example, if you chose the second and fourth modes of Ojutai’s Command, you would gain 4 life and then draw a card. (The order won’t matter in most cases.)
+  - *2015-02-25* — If a Command is copied, the effect that creates the copy will usually allow you to choose new targets for the copy, but you can’t choose new modes.
+  - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won’t resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren’t chosen. For example, you can cast Ojutai’s Command without targeting a creature spell provided you don’t choose the third mode.
+  - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can’t be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/227/ojutais-command) · oracle_id `c1fafe93-8fd2-44c1-a4a0-5c9ecee550cc` · printing: DTK #227 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai, Soul of Winter
 
@@ -183,7 +231,11 @@
   > *—Shu Yun, the Silent Tempest*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9601 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/187/ojutai-soul-of-winter) · oracle_id `27d7f737-59a4-4948-9b2e-599ae848e054` · printing: C17 #187 (2017-08-25) · [rulings](https://api.scryfall.com/cards/7eb90a6b-da46-44ab-88b8-31aaffdee75b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-24* — The ability only applies during the controller’s next untap step, even if the permanent has been the target of Ojutai’s triggered ability more than once. The permanent won’t stay tapped through multiple untap steps.
+  - *2014-11-24* — The ability tracks the permanent, but not its controller. If the permanent changes controllers before its first controller’s next untap step, then it won’t untap during its new controller’s next untap step.
+  - *2014-11-24* — The triggered ability can target a nonland permanent that’s already tapped. That permanent won’t untap during its controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/187/ojutai-soul-of-winter) · oracle_id `27d7f737-59a4-4948-9b2e-599ae848e054` · printing: C17 #187 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ojutai's Summons
 
@@ -194,4 +246,13 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/68/ojutais-summons) · oracle_id `def45f3a-dba0-4d08-b086-5236d6e0edb1` · printing: DTK #68 (2015-03-27) · [rulings](https://api.scryfall.com/cards/6769341a-1331-456d-a2bb-cd7fffe7b51d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-02-25* — As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
+  - *2015-02-25* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed.
+  - *2015-02-25* — Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn.
+  - *2015-02-25* — If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2015-02-25* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+  - *2015-02-25* — If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2015-02-25* — If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect.
+  - *2015-02-25* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/68/ojutais-summons) · oracle_id `def45f3a-dba0-4d08-b086-5236d6e0edb1` · printing: DTK #68 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

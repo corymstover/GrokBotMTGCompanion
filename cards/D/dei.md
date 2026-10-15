@@ -22,7 +22,10 @@
   > *"It is done."*
   > *—Elspeth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26929 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/7/deicide) · oracle_id `e421d2bd-740a-40dd-8a10-205edd4991ee` · printing: JOU #7 (2014-05-02) · [rulings](https://api.scryfall.com/cards/6012964c-eb76-4581-82ae-aec2d36f0d56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — Deicide looks at the card in exile, not the permanent that was exiled, to determine if it is a God. For each of the Gods in the Theros block, it won't matter what your devotion to its color(s) was. The card is a God card when not on the battlefield.
+  - *2014-04-26* — When you search the target's controller's graveyard, hand, and library, you may leave any cards with that name in the zones they're in. You don't have to exile them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/7/deicide) · oracle_id `e421d2bd-740a-40dd-8a10-205edd4991ee` · printing: JOU #7 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deification
 
@@ -33,7 +36,11 @@
   > Planeswalkers you control of the chosen type have hexproof.
   > As long as you control a creature, if damage dealt to a planeswalker you control of the chosen type would result in all loyalty counters on it being removed, instead all but one of those counters are removed.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/2/deification) · oracle_id `8c8f93d7-d89a-401b-8764-76be71ad16e3` · printing: MAT #2 (2023-05-12) · [rulings](https://api.scryfall.com/cards/52ce799e-cb9e-4d74-8b13-a5f4559e13a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — A planeswalker with hexproof may still be attacked.
+  - *2023-05-12* — Deification's last ability doesn't prevent damage. All damage is still dealt to the affected planeswalkers, and any additional effects of that damage will still happen. For example, if a 3/3 creature with lifelink attacks an affected planeswalker with two loyalty counters on it, 3 damage will be dealt, causing the controller of the creature to gain 3 life and one loyalty counter to be removed from the planeswalker.
+  - *2023-05-12* — Deification's last ability will apply to a planeswalker dealt combat damage in the same combat damage step that its controller's last creature is destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/2/deification) · oracle_id `8c8f93d7-d89a-401b-8764-76be71ad16e3` · printing: MAT #2 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deity of Scars
 
@@ -49,4 +56,8 @@
   > *—\*The Seer's Parables\**
 - **Keywords:** Regenerate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23806 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/118/deity-of-scars) · oracle_id `bf7c1fa8-0460-4be5-b00d-72c0960c4149` · printing: EVE #118 (2008-07-25) · [rulings](https://api.scryfall.com/cards/7efc2cc8-2445-4d64-b1c5-26483efbcc30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — Deity of Scars's ability causes it to have more toughness when you activate the ability (as a result of losing a -1/-1 counter) and then puts a regeneration shield on it when the ability resolves. If you activate the ability in advance of Deity of Scars being dealt 5 damage, for example, Deity of Scars will be 6/6 before the damage is dealt to it. It won't use the regeneration shield unless it's dealt more damage that turn.
+  - *2008-08-01* — Removing a -1/-1 counter from Deity of Scars is a cost of activating its activated ability. You can't activate the ability if there are no -1/-1 counters on Deity of Scars.
+  - *2008-08-01* — You can pay {B/G} and remove a -1/-1 counter to activate the ability any time you want. Deity of Scars doesn't need to be in danger of being destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/118/deity-of-scars) · oracle_id `bf7c1fa8-0460-4be5-b00d-72c0960c4149` · printing: EVE #118 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

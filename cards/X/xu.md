@@ -21,7 +21,10 @@
 - **Flavor text** (EOE printing):
   > *"They will call you a monster, but I call you worthy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4924 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/127/xu-ifit-osteoharmonist) · oracle_id `39e32fdf-93bf-4390-8275-0d7d10ad7360` · printing: EOE #127 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c0838f25-2193-4305-b73a-bf0c0bb4981a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — If a permanent returned to the battlefield by Xu-Ifit’s ability has an ability that triggers “when” it enters, it will lose that ability before it can trigger. If it has an ability that causes it to enter tapped, it will lose that ability before it can apply. The same is also true of any other abilities that modify how it enters the battlefield, such as abilities that would cause it to enter with some number of counters, or apply “as” it enters, such as Famished Worldsire’s devour land ability.
+  - *2025-07-25* — If a permanent returned to the battlefield with Xu-Ifit’s ability gains an ability after being returned to the battlefield this way, it will keep that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/127/xu-ifit-osteoharmonist) · oracle_id `39e32fdf-93bf-4390-8275-0d7d10ad7360` · printing: EOE #127 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xun Yu, Wei Advisor
 
@@ -33,4 +36,6 @@
 - **Flavor text** (PTK printing):
   > *"A splendid talent, admired of all men! His folly lay in serving Cao Cao's power."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30355 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/93/xun-yu-wei-advisor) · oracle_id `fb5fea4a-1b04-45c6-a207-e2e8493ea968` · printing: PTK #93 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8f0a25ea-b414-423c-94a6-8a4795d60b46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/93/xun-yu-wei-advisor) · oracle_id `fb5fea4a-1b04-45c6-a207-e2e8493ea968` · printing: PTK #93 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

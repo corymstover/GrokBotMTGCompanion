@@ -19,4 +19,5 @@
   > Whenever you attack, target attacking creature you control fights target creature defending player controls.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UR11/cgi-fight-sequence) · oracle_id `14ddc8a6-479e-46db-804b-9849b309eb65` · printing: UNK #UR11 (2026-07-17) · [rulings](https://api.scryfall.com/cards/84c48d74-6ae4-4955-bd26-3db4884965a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -28,7 +28,11 @@
 - **Flavor text** (UNF printing):
   > *The midway's games aren't so much rigged as they are insulated and grounded.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/106/eelectrocute) · oracle_id `8c56530b-098a-4afd-9022-76bfaa1f6a7c` · printing: UNF #106 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b19d1e98-f667-4a3b-9e78-a416118aec52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — For the last ability, it doesn't matter how many pips the die you rolled a 6 on had, whether that was a six-sided die or a d20. As long as you rolled a 6 on any die that turn, you may cast Eelectrocute from your graveyard.
+  - *2022-10-07* — If you cast Eelectrocute from your graveyard using another permission, you won't exile it instead (unless that permission also states that you exile it).
+  - *2022-10-07* — If you cast Eelectrocute from your graveyard, you still pay its costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/106/eelectrocute) · oracle_id `8c56530b-098a-4afd-9022-76bfaa1f6a7c` · printing: UNF #106 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eel-Hounds
 
@@ -43,6 +47,7 @@
   > *—Master Piandao*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20724 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/250/eel-hounds) · oracle_id `25432a3a-bcfd-4c43-b662-07676e9b3fdd` · printing: TLE #250 (2025-11-21) · [rulings](https://api.scryfall.com/cards/05a50445-6d0f-423d-b27b-b2b0611f85d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eel Umbra
@@ -56,7 +61,18 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/48/eel-umbra) · oracle_id `4be1ecd0-ee41-4ac0-9155-0fcae7a4d337` · printing: 2X2 #48 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b4ab47ce-a6dd-4839-ab41-053c5c5de768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/48/eel-umbra) · oracle_id `4be1ecd0-ee41-4ac0-9155-0fcae7a4d337` · printing: 2X2 #48 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Gravestone
 
@@ -70,6 +86,7 @@
   > *—Peter Parker*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12675 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/824/eerie-gravestone) · oracle_id `cbf5bd0a-20ef-4dce-9f70-13339d438ff7` · printing: MSC #824 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0d7705e8-b233-4cd0-ad8c-90d900b3cf79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Interference
@@ -81,6 +98,7 @@
 - **Flavor text** (WOE printing):
   > *Ranks of sleeping Ardenvale knights filled Eriette's throne room, ready to defend their witch-queen with unthinking devotion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9453 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/12/eerie-interference) · oracle_id `35ba0e70-da7c-4ed9-b8ec-7dd5c5ce110e` · printing: WOE #12 (2023-09-08) · [rulings](https://api.scryfall.com/cards/42a74545-75c8-4a6b-bee1-ac5665d9bcf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Interlude
@@ -92,7 +110,11 @@
 - **Flavor text** (KHC printing):
   > *The barrier between existence and oblivion is thinner than you know.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/22/eerie-interlude) · oracle_id `0634091a-a74c-4cea-b6d1-7324a725554a` · printing: KHC #22 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4ba9f15f-00d2-4797-9228-91b320e85705/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Auras attached to the exiled creatures will be put into their owners’ graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+  - *2016-04-08* — If a creature token is exiled, it ceases to exist. It won’t be returned to the battlefield.
+  - *2016-04-08* — If a double-faced card is exiled, it will return with its front face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/22/eerie-interlude) · oracle_id `0634091a-a74c-4cea-b6d1-7324a725554a` · printing: KHC #22 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Procession
 
@@ -104,6 +126,7 @@
   > *"Though in years past speculation was not encouraged about the strange ways of kami, now we must understand their motivations, if such is even possible to the mortal mind."*
   > *—Lady Azami*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20317 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/58/eerie-procession) · oracle_id `58dde1b0-bb01-4f72-9408-21c0404c1cfd` · printing: CHK #58 (2004-10-01) · [rulings](https://api.scryfall.com/cards/3af326c1-fcc8-45c3-b75e-ae4dbbd59ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Soultender
@@ -116,6 +139,7 @@
   > {4}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17756 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/92/eerie-soultender) · oracle_id `a3e4d14b-818a-4a4b-8462-1de9ad844941` · printing: DMU #92 (2022-09-09) · [rulings](https://api.scryfall.com/cards/335f3146-743c-4a25-86b5-c45e9c66eb15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eerie Ultimatum
@@ -128,4 +152,9 @@
   > *"The ground under our feet is a record of every slight against the world, to be avenged at a time of its choosing."*
   > *—Gavi, nest warden*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/184/eerie-ultimatum) · oracle_id `5674f6ae-ed5d-441e-a534-b5dd415165fd` · printing: IKO #184 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3a9fb2db-228f-4d48-acdf-6330baf356c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — An Aura being put onto the battlefield this way can’t enchant anything else that is being put onto the battlefield at the same time.
+  - *2025-04-04* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
+  - *2025-04-04* — You choose which permanent cards to return while Eerie Ultimatum is resolving. No player may take actions between the time you choose and the time those cards return to the battlefield.
+  - *2025-04-04* — You may choose to return just one permanent card, regardless of its name.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/184/eerie-ultimatum) · oracle_id `5674f6ae-ed5d-441e-a534-b5dd415165fd` · printing: IKO #184 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

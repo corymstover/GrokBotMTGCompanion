@@ -23,7 +23,9 @@
   > *"Our mobile greenhouse will never be deprived of energy again. It will always align itself to the sun's path."*
   > *—Vigorbloom and Konstrari joint project*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/175/dedicated-commons) · oracle_id `d4e0749a-e179-4c19-8536-bf8f1a198549` · printing: FRA #175 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3223e5db-5cc4-42f9-ae9e-ff58abc7c390/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/175/dedicated-commons) · oracle_id `d4e0749a-e179-4c19-8536-bf8f1a198549` · printing: FRA #175 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dedicated Martyr
 
@@ -36,6 +38,7 @@
   > *"If he's so willing to suffer for his cause, then by all means, let us oblige him."*
   > *—Cabal Patriarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/16/dedicated-martyr) · oracle_id `ca39af65-985d-4ab1-874b-9e8d3455c349` · printing: ODY #16 (2001-10-01) · [rulings](https://api.scryfall.com/cards/d1f95b64-858b-4344-84a2-3afa5c7b9ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deduce
@@ -48,4 +51,10 @@
   > *Proft lit up like a man who had just been handed a glorious and unexpected gift. "I know who's responsible for this," he said. "And I can prove it."*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4869 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/52/deduce) · oracle_id `eeae4161-9f35-45df-8b3c-c55e37f49cd1` · printing: MKM #52 (2024-02-09) · [rulings](https://api.scryfall.com/cards/7cbb17af-e17e-438a-ad72-0c942e6706b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/52/deduce) · oracle_id `eeae4161-9f35-45df-8b3c-c55e37f49cd1` · printing: MKM #52 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -28,7 +28,14 @@
   > *"Quick, let's hide in the sewer!"*
   > *—Ginsi the Thief, now deceased*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/60/sewer-crocodile) · oracle_id `b01e9ff2-865a-401e-a839-568cd4a0451d` · printing: SNC #60 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a06ac58b-6d72-4eb4-a1c9-61b5314c7769/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — "Five or more mana values among cards in your graveyard" means there are at least five different mana values among those cards.
+  - *2022-04-29* — Costs to activate an ability are determined only once, before mana abilities are activated. If cards are removed from your graveyard after that point, such as by exiling Jack-o'-Lantern from your graveyard to pay for its mana ability, this won't affect the cost of activating Sewer Crocodile, even if that reduces the number of mana values in your graveyard to below five.
+  - *2022-04-29* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2022-04-29* — The mana value of a land card is 0.
+  - *2022-04-29* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+  - *2022-04-29* — X is 0 when determining the mana value of a card in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/60/sewer-crocodile) · oracle_id `b01e9ff2-865a-401e-a839-568cd4a0451d` · printing: SNC #60 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewerdreg
 
@@ -42,6 +49,7 @@
   > *They hardly have form, dripping through pipe and grate with the slip and stench of flowing sewage.*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31125 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/104/sewerdreg) · oracle_id `f05e3fb4-a7e0-4dfa-9f3e-5109be79ef16` · printing: RAV #104 (2005-10-07) · [rulings](https://api.scryfall.com/cards/b216ad4e-29b4-4e03-8c16-5796277bd05f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer Nemesis
@@ -55,7 +63,9 @@
   > Whenever the chosen player casts a spell, that player mills a card.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/771/sewer-nemesis) · oracle_id `c7f1a49a-cc22-432f-bf3e-50ba61982b87` · printing: CLB #771 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cdb8d320-fecc-42c2-b9d8-a9f6dd44b36d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If the chosen player leaves the game, Sewer Nemesis's power and toughness each become 0. Unless another effect is raising its toughness above 0, it will be put into its owner's graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/771/sewer-nemesis) · oracle_id `c7f1a49a-cc22-432f-bf3e-50ba61982b87` · printing: CLB #771 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer Rats
 
@@ -68,6 +78,7 @@
   > *You lie down with rats, and the rats run away.*
   > *—Suq'Ata insult*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/139/sewer-rats) · oracle_id `bf526a0d-65cc-445f-b2b8-19a2cfdd836b` · printing: MIR #139 (1996-10-08) · [rulings](https://api.scryfall.com/cards/42fe08c3-5024-486c-ba03-19d371ceccb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer Shambler
@@ -80,7 +91,9 @@
   > Scavenge {2}{B} ({2}{B}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
 - **Keywords:** Scavenge, Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24007 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/91/sewer-shambler) · oracle_id `5d111adc-a91a-437d-8aac-3b246e980bd8` · printing: RVR #91 (2024-01-12) · [rulings](https://api.scryfall.com/cards/450f741d-837e-4993-ad28-7ef23b1ac8a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it’s too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/91/sewer-shambler) · oracle_id `5d111adc-a91a-437d-8aac-3b246e980bd8` · printing: RVR #91 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewers of Estark
 
@@ -89,7 +102,10 @@
 - **Oracle text:**
   > Choose target creature. If it's attacking, it can't be blocked this turn. If it's blocking, prevent all combat damage that would be dealt this combat by it and each creature it's blocking.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29808 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/phpr/2/sewers-of-estark) · oracle_id `2482f98a-eadf-450d-9e73-fc441b572862` · printing: PHPR #2 (1994-11-01) · [rulings](https://api.scryfall.com/cards/b0da11d4-3603-4f59-8f61-7204bf04e165/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If the creature is neither an attacking creature nor a blocking creature at the time the spell resolves, it will have no effect.
+  - *2008-08-01* — This spell can target any creature. The check for whether that creature is attacking or blocking made on resolution, and it will have the appropriate effect at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/phpr/2/sewers-of-estark) · oracle_id `2482f98a-eadf-450d-9e73-fc441b572862` · printing: PHPR #2 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer-veillance Cam
 
@@ -103,6 +119,7 @@
   > *No one in New York was going to notice one more cockroach.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9008 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/53/sewer-veillance-cam) · oracle_id `25c83d45-581f-48ba-b6bb-feb66e8a65c7` · printing: TMT #53 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewn-Eye Drake
@@ -117,4 +134,5 @@
   > *—Sedris, the Traitor King*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/135/sewn-eye-drake) · oracle_id `994cf8bb-c900-448f-b055-ecc2ee6cf9e2` · printing: ARB #135 (2009-04-30) · [rulings](https://api.scryfall.com/cards/dbf97c08-e074-4353-b9fa-c79793622585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

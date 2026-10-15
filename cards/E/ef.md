@@ -24,7 +24,9 @@
 - **Flavor text** (CMM printing):
   > *For some of Ghirapur's aerowrights, building thopters is a byproduct of larger construction efforts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/88/efficient-construction) · oracle_id `5af48f87-7b94-44de-90e3-91f10ced00d3` · printing: CMM #88 (2023-08-04) · [rulings](https://api.scryfall.com/cards/af4d2f70-816c-4410-b3a3-9b9a4b69df52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Efficient Construction’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/88/efficient-construction) · oracle_id `5af48f87-7b94-44de-90e3-91f10ced00d3` · printing: CMM #88 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efflorescence
 
@@ -38,6 +40,7 @@
   > *—Lisette, dean of the root*
 - **Keywords:** Infusion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/144/efflorescence) · oracle_id `181da74b-53fb-4e46-afc0-e7c990fda128` · printing: SOS #144 (2026-04-24) · [rulings](https://api.scryfall.com/cards/79b9ace7-eceb-4f97-9ee7-d5ee3e0b3515/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Effortless Master
@@ -51,7 +54,9 @@
   > This creature enters with two +1/+1 counters on it if you've cast two or more spells this turn.
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22468 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/181/effortless-master) · oracle_id `185e0892-194f-43ac-853f-1e142bf8476e` · printing: TDM #181 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0ae03ca5-cd4b-42b7-8cd5-3f7e753b4147/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Effortless Master’s last ability will count any spells you’ve cast this turn, which includes Effortless Master itself if you cast it. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/181/effortless-master) · oracle_id `185e0892-194f-43ac-853f-1e142bf8476e` · printing: TDM #181 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efreet Flamepainter
 
@@ -63,7 +68,11 @@
   > Whenever this creature deals combat damage to a player, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/98/efreet-flamepainter) · oracle_id `fb5e8b8c-bad2-45bb-abb4-2ed454525749` · printing: STX #98 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d9f0731c-2a3d-4613-bffa-8b967e4f142e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — Efreet Flamepainter’s triggered ability lets you cast the spell immediately, ignoring timing restrictions. It doesn’t let you choose to cast it at a later time.
+  - *2021-04-16* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-04-16* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/98/efreet-flamepainter) · oracle_id `fb5e8b8c-bad2-45bb-abb4-2ed454525749` · printing: STX #98 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efreet Weaponmaster
 
@@ -76,7 +85,17 @@
   > Morph {2}{U}{R}{W} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/175/efreet-weaponmaster) · oracle_id `882a9dc9-b1bb-4be8-850f-e28bad8f5840` · printing: KTK #175 (2014-09-26) · [rulings](https://api.scryfall.com/cards/8986cb2e-76e0-41f3-8810-3d11c39a527a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/175/efreet-weaponmaster) · oracle_id `882a9dc9-b1bb-4be8-850f-e28bad8f5840` · printing: KTK #175 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efteekay, Flame of the Kav
 
@@ -88,4 +107,5 @@
   > Whenever Efteekay or another Kavu you control enters, it deals damage equal to its power to target creature.
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03l/efteekay-flame-of-the-kav) · oracle_id `04e26fd7-e236-40c3-af05-7749c664ab56` · printing: UNK #RZ03l (2025-08-02) · [rulings](https://api.scryfall.com/cards/0c93f458-ed86-4b48-99dd-32801566e2e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

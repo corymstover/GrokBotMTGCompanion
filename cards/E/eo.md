@@ -28,7 +28,13 @@
   > When Éomer enters, target player becomes the monarch. Éomer deals damage equal to its power to any target.
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4831 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/52/%C3%A9omer-king-of-rohan) · oracle_id `4f8191e6-a6aa-4426-9014-eff4e0efee9e` · printing: LTC #52 (2023-06-23) · [rulings](https://api.scryfall.com/cards/5f48930a-d7bd-410b-995a-4e2837aabb25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/52/%C3%A9omer-king-of-rohan) · oracle_id `4f8191e6-a6aa-4426-9014-eff4e0efee9e` · printing: LTC #52 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éomer, Marshal of Rohan
 
@@ -42,7 +48,10 @@
   > *"Need brooks no delay, yet late is better than never."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5632 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/120/%C3%A9omer-marshal-of-rohan) · oracle_id `b2d95950-18b3-463f-94f4-299e420751dc` · printing: LTR #120 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0bd31ce9-9551-4efe-8bd2-b97d8efbf75e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If Éomer, Marshal of Rohan and one or more other attacking legendary creatures you control die at the same time (probably due to combat damage), Éomer, Marshal of Rohan's last ability will trigger.
+  - *2023-06-16* — Notably, Éomer, Marshal of Rohan's triggered ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/120/%C3%A9omer-marshal-of-rohan) · oracle_id `b2d95950-18b3-463f-94f4-299e420751dc` · printing: LTR #120 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éomer of the Riddermark
 
@@ -56,6 +65,7 @@
   > *But northward the white crest of Éomer led the great front of the Rohirrim which he had again gathered and marshaled.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16735 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/121/%C3%A9omer-of-the-riddermark) · oracle_id `c07340bb-04b6-4a80-9999-727b8ab3534d` · printing: LTR #121 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d920fcaf-4988-4186-962d-cdda25d79e7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eon Frolicker
@@ -68,7 +78,10 @@
   > When this creature enters, if you cast it, target opponent takes an extra turn after this one. Until your next turn, you and planeswalkers you control gain protection from that player. (You and planeswalkers you control can't be targeted, dealt damage, or enchanted by anything controlled by that player.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/33/eon-frolicker) · oracle_id `c0a18a53-d520-4795-9b3b-0f93bcf35848` · printing: C20 #33 (2020-04-17) · [rulings](https://api.scryfall.com/cards/acaec4bf-69c8-43c1-960f-cb5b5bff660a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-04-17* — Creatures that player controls can still attack you or planeswalkers you control, but the damage they would deal will be prevented.
+  - *2020-04-17* — Protection from a player means that you and each planeswalker you control have protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/33/eon-frolicker) · oracle_id `c0a18a53-d520-4795-9b3b-0f93bcf35848` · printing: C20 #33 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eon Hub
 
@@ -79,7 +92,11 @@
 - **Flavor text** (5DN printing):
   > *Its power source is time itself. It absorbs unused minutes and hours, bringing the end of existence always closer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/120/eon-hub) · oracle_id `84342991-b925-4064-a88f-b6d60fd931e7` · printing: 5DN #120 (2004-06-04) · [rulings](https://api.scryfall.com/cards/d5d6b270-b4c9-489d-9322-7c8ddc0ca0ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — Any triggered abilities that triggered during the untap step will go onto the stack at the start of the draw step.
+  - *2004-12-01* — The upkeep step is skipped entirely. The turn proceeds from untap step to draw step.
+  - *2004-12-01* — Upkeep-triggered abilities don't trigger, and "activate only during your upkeep" abilities can't be activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/120/eon-hub) · oracle_id `84342991-b925-4064-a88f-b6d60fd931e7` · printing: 5DN #120 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Fearless Knight
 
@@ -93,7 +110,9 @@
   > *"Am I not of the House of Eorl? I have waited on faltering feet long enough."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3262 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/201/%C3%A9owyn-fearless-knight) · oracle_id `dcc349e9-399d-4f33-8131-d1801272466a` · printing: LTR #201 (2023-06-23) · [rulings](https://api.scryfall.com/cards/adffb389-c9a3-41c4-b078-292a2bcf870d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — Éowyn, Fearless Knight cares about the creature's colors just before it left the battlefield. These could be different from the creature card's colors in exile (for example, if it had a copy effect applied to it on the battlefield.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/201/%C3%A9owyn-fearless-knight) · oracle_id `dcc349e9-399d-4f33-8131-d1801272466a` · printing: LTR #201 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Lady of Rohan
 
@@ -104,7 +123,10 @@
   > At the beginning of combat on your turn, target creature gains your choice of first strike or vigilance until end of turn. If that creature is equipped, it gains first strike and vigilance until end of turn instead.
   > Equip abilities you activate cost {1} less to activate.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7443 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/10/%C3%A9owyn-lady-of-rohan) · oracle_id `1ee3753c-3b6e-4182-9305-2ab757f485f0` · printing: LTR #10 (2023-06-23) · [rulings](https://api.scryfall.com/cards/e59710c4-24de-419e-a8a0-e8392d450c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Some Equipment creature cards in other sets have reconfigure, a different ability that attaches them to a creature. Reconfigure is not an equip ability, and reconfigure costs are not reduced by Éowyn, Lady of Rohan's last ability. Equip variants or equip abilities with restrictions, like the "equip Human" ability of Dúnedain Blade, are still equip abilities, and their costs will be reduced by Éowyn, Lady of Rohan's last ability.
+  - *2023-06-16* — Éowyn, Lady of Rohan's last ability reduces only the amount of generic mana in equip abilities. For example, it will reduce an equip cost of {1} to {0}, but it will have no effect on an equip cost of {G}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/10/%C3%A9owyn-lady-of-rohan) · oracle_id `1ee3753c-3b6e-4182-9305-2ab757f485f0` · printing: LTR #10 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Éowyn, Shieldmaiden
 
@@ -116,4 +138,6 @@
   > At the beginning of combat on your turn, if another Human entered the battlefield under your control this turn, create two 2/2 red Human Knight creature tokens with trample and haste. Then if you control six or more Humans, draw a card.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4530 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden) · oracle_id `98a2a642-a30a-43e7-b47f-4776c22d1cb0` · printing: LTC #1 (2023-06-23) · [rulings](https://api.scryfall.com/cards/dd4a00ff-2206-4e12-a0ab-61ed82c9e6c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If another Human didn't enter the battlefield before your beginning of combat step, Éowyn, Shieldmaiden's ability won't trigger. You won't draw a card even if you control six or more Humans.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden) · oracle_id `98a2a642-a30a-43e7-b47f-4776c22d1cb0` · printing: LTC #1 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

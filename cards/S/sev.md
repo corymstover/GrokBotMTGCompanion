@@ -32,7 +32,11 @@
   > *"The gleam of rubies and my brothers and sisters by my side . . . what more could I want?"*
   > *—Brognold the Third*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11716 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/141/seven-dwarves) · oracle_id `526ca4a9-3f50-4f7a-8169-2bda95792401` · printing: ELD #141 (2019-10-04) · [rulings](https://api.scryfall.com/cards/464adbae-70ea-48e1-b8ae-b404766f7a5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to one Seven Dwarves may become lethal if another Seven Dwarves you control leaves the battlefield during that turn.
+  - *2019-10-04* — If you're fortunate enough to open or draft eight or more Seven Dwarves during a Limited event, you can include only seven of them in your deck. The rest remain in your sideboard.
+  - *2019-10-04* — The last ability of Seven Dwarves lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Throne of Eldraine Limited event, you can't add Seven Dwarves from your personal collection, no matter how happy they would be.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/141/seven-dwarves) · oracle_id `526ca4a9-3f50-4f7a-8169-2bda95792401` · printing: ELD #141 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seven of Nine
 
@@ -45,6 +49,7 @@
   > *"I am no longer Borg, but the prospect of becoming human is . . . unsettling. I don't know where I belong."*
 - **Keywords:** Face a dilemma
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29418 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/252/seven-of-nine) · oracle_id `3c037865-d38c-48da-aee9-308975e12638` · printing: TRK #252 (2026-11-13) · [rulings](https://api.scryfall.com/cards/6204cfdb-6fb4-4030-96b6-9306c8266bcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seven-Tail Mentor
@@ -57,6 +62,7 @@
 - **Flavor text** (NEO printing):
   > *"I have taught you all I can. Take this blade and rise as my equal."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/36/seven-tail-mentor) · oracle_id `301b8265-9e17-48c3-942d-b7243112b394` · printing: NEO #36 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9d77d1e6-c804-46f7-ba00-6df6bca2ae08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seventh Stage of Magic Design
@@ -67,6 +73,7 @@
   > Double all your spells and abilities. (All spells and abilities cast, activated, or triggered by you are copied. Mana abilities produce twice as much mana.)
 - **Keywords:** Double
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06d/seventh-stage-of-magic-design) · oracle_id `22fef646-acc1-4dda-81b0-0ef6dc04a83f` · printing: UNK #RZ06d (2024-10-25) · [rulings](https://api.scryfall.com/cards/16bb3915-1715-45f0-b134-899ba291daa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Severance Priest
@@ -80,7 +87,9 @@
   > When this creature leaves the battlefield, the exiled card's owner creates an X/X white Spirit creature token, where X is the mana value of the exiled card.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/222/severance-priest) · oracle_id `3a38bf69-511f-4851-870f-8a65641d832e` · printing: TDM #222 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bc779a1b-128c-4c74-bebd-bdb687867f68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If you chose not to exile a card, the effect of the last ability won’t do anything. No one creates a token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/222/severance-priest) · oracle_id `3a38bf69-511f-4851-870f-8a65641d832e` · printing: TDM #222 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Severed Legion
 
@@ -93,6 +102,7 @@
   > *No one in Aphetto answers a knock at the door after sundown.*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26860 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/177/severed-legion) · oracle_id `34a8a658-a5f6-406f-99d8-c32ea2e26202` · printing: 10E #177 (2007-07-13) · [rulings](https://api.scryfall.com/cards/82633f38-5af1-429e-8c9d-db536af85309/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Severed Strands
@@ -105,7 +115,12 @@
 - **Flavor text** (2X2 printing):
   > *"I've seen Ravnica's fate. Believe me, I'm doing you a favor."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/88/severed-strands) · oracle_id `25f0527c-1340-4218-970f-9e4f84ef96e8` · printing: 2X2 #88 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a7496304-2ab2-497b-bb3a-b3c91ee1ff60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — If the target creature is a legal target but can't be destroyed, most likely because it has indestructible, you still gain life.
+  - *2018-10-05* — If the target creature is an illegal target by the time Severed Strands tries to resolve, the spell doesn't resolve. You don't gain life.
+  - *2018-10-05* — The amount of life gained is equal to the sacrificed creature's toughness as it last existed on the battlefield.
+  - *2018-10-05* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/88/severed-strands) · oracle_id `25f0527c-1340-4218-970f-9e4f84ef96e8` · printing: 2X2 #88 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sever Soul
 
@@ -117,6 +132,7 @@
   > *"The mortal world is a grove of sweet fruit, and I am ready to harvest it."*
   > *—Fallen angel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/162/sever-soul) · oracle_id `577d027a-96c3-46fe-880b-f8b5dd3f3a3d` · printing: 8ED #162 (2003-07-28) · [rulings](https://api.scryfall.com/cards/df1cb775-3a45-4f2c-9c45-febda6434c59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sever the Bloodline
@@ -128,7 +144,21 @@
   > Flashback {5}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17967 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/130/sever-the-bloodline) · oracle_id `b9019332-2f02-48d9-be0a-a2b41b79e136` · printing: INR #130 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a2d4152d-c128-453c-86f5-f2ebcfd48b98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2017-03-14* — A double-faced creature only has the name of the face that's up. For example, if Village Ironsmith is targeted by Sever the Bloodline, Ironfang wouldn't be exiled.
+  - *2017-03-14* — If the targeted creature is an illegal target by the time Sever the Bloodline resolves, it won't resolve and none of its effects will happen. No creatures will be exiled.
+  - *2017-03-14* — Only creatures on the battlefield will be exiled. In other zones, they're "creature cards," not "creatures."
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+  - *2025-01-24* — If the target creature is an illegal target by the time Sever the Bloodline tries to resolve, the spell won’t resolve. You won’t exile any creatures at all.
+  - *2025-01-24* — Sever the Bloodline has only one target. Other creatures with the same name will be exiled even if they have hexproof or protection.
+  - *2025-01-24* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word “Token.” For example, if an effect creates a 1/1 Soldier creature token, that token is named “Soldier Token.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/130/sever-the-bloodline) · oracle_id `b9019332-2f02-48d9-be0a-a2b41b79e136` · printing: INR #130 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sevinne's Reclamation
 
@@ -139,7 +169,19 @@
   > Flashback {4}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/170/sevinnes-reclamation) · oracle_id `1b9f9f5b-8712-4f00-90cb-1b7b9970eccc` · printing: SOC #170 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8deab1ef-4219-4767-a3c4-b61250d0ebe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-08-23* — If a card in a graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2019-08-23* — If the target card is an illegal target by the time Sevinne's Reclamation tries to resolve, the spell doesn't resolve. You won't copy it if you cast it from a graveyard.
+  - *2019-08-23* — If you cast Sevinne's Reclamation from your graveyard, any abilities that trigger as the permanent card returns to the battlefield will resolve before the copy of Sevinne's Reclamation resolves but after new targets for the copy have been chosen.
+  - *2019-08-23* — The copy that Sevinne's Reclamation creates is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy wasn't cast from a graveyard, so it won't make another copy of itself.
+  - *2024-06-07* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/170/sevinnes-reclamation) · oracle_id `1b9f9f5b-8712-4f00-90cb-1b7b9970eccc` · printing: SOC #170 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sevinne, the Chronoclasm
 
@@ -152,4 +194,13 @@
 - **Flavor text** (C19 printing):
   > *"The best moments are worth reliving."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20571 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/49/sevinne-the-chronoclasm) · oracle_id `869c9bc4-2b21-40c3-8b1c-c83269c856d0` · printing: C19 #49 (2019-08-23) · [rulings](https://api.scryfall.com/cards/2c209efe-b4dc-44a3-bd45-d647f5680cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-08-23* — A copy is created even if the spell that caused Sevinne's ability to trigger has been countered by the time that ability resolves. The copy resolves before the original spell.
+  - *2019-08-23* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2019-08-23* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2019-08-23* — If you cast an instant or sorcery spell from your graveyard before Sevinne enters the battlefield during the same turn, its last ability can't trigger that turn.
+  - *2019-08-23* — Sevinne's ability will copy any instant or sorcery spell, not just one with targets.
+  - *2019-08-23* — The copy that Sevinne's ability creates is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. Any of that spell's effects that apply only if it was cast from a graveyard won't apply.
+  - *2019-08-23* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2019-08-23* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/49/sevinne-the-chronoclasm) · oracle_id `869c9bc4-2b21-40c3-8b1c-c83269c856d0` · printing: C19 #49 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

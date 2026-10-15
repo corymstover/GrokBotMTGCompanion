@@ -21,7 +21,9 @@
   > *"A single grain of sand is insignificant, but a sandstorm can reduce pyramids to dust. Stand with your crop. Become the storm."*
   > *—Oketra, god of solidarity*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/19/in-oketras-name) · oracle_id `f4a8756d-94df-40bc-a363-2938ada0a808` · printing: AKH #19 (2017-04-28) · [rulings](https://api.scryfall.com/cards/ccf535ef-79ee-4a31-a614-f6c77fea72b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — The set of creatures affected by In Oketra’s Name and how those creatures are affected is locked in as In Oketra’s Name resolves. Creatures you begin to control later in the turn won’t get any bonus, and creatures that start or stop being Zombies later in the turn won’t have their bonus changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/19/in-oketras-name) · oracle_id `f4a8756d-94df-40bc-a363-2938ada0a808` · printing: AKH #19 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inordinate Rage
 
@@ -34,4 +36,6 @@
   > *—Ko, expedition wizard*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17638 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/144/inordinate-rage) · oracle_id `50402103-14ea-49b0-8e66-d2b7f7a69a41` · printing: ZNR #144 (2020-09-25) · [rulings](https://api.scryfall.com/cards/d0f62bdc-50a0-41a0-ac37-9b0eeb21b6aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If the target creature is an illegal target by the time Inordinate Rage tries to resolve, the spell doesn’t resolve. You don’t scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/144/inordinate-rage) · oracle_id `50402103-14ea-49b0-8e66-d2b7f7a69a41` · printing: ZNR #144 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

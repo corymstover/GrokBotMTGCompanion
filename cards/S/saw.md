@@ -32,6 +32,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14850 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/254/saw) · oracle_id `d88bfa98-6869-4d64-a9d2-07a308a67fe2` · printing: DSK #254 (2024-09-27) · [rulings](https://api.scryfall.com/cards/603c3ef4-4ef1-4db8-9ed2-e2b0926269d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawback Manticore
@@ -43,6 +44,7 @@
   > {4}: This creature gains flying until end of turn.
   > {1}: This creature deals 2 damage to target attacking or blocking creature. Activate only if this creature is attacking or blocking and only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32251 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/281/sawback-manticore) · oracle_id `9360d30c-4556-4b41-bd50-08b4367e5efb` · printing: MIR #281 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c24e74e9-ce88-48af-a113-b4fe76f963d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawblade Scamp
@@ -58,6 +60,7 @@
   > *Sometimes the Great Work requires destruction to allow for more efficient reconstruction.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10784 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/147/sawblade-scamp) · oracle_id `8cac286c-1a17-4ee1-9858-d7a2f8c09037` · printing: ONE #147 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7f04c2e5-9100-439a-9aa4-28d388518e4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawblade Skinripper
@@ -71,7 +74,9 @@
   > At the beginning of your end step, if you sacrificed one or more permanents this turn, this creature deals that much damage to any target.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/231/sawblade-skinripper) · oracle_id `96fd3ee0-84fb-439b-9e2d-b55afe6850a7` · printing: DSK #231 (2024-09-27) · [rulings](https://api.scryfall.com/cards/cbe51964-50d2-49b0-9c3c-81751dcbeade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If you haven't sacrificed any permanents during your turn by the time your end step begins, Sawblade Skinripper's last ability won't trigger at all. You won't be able to sacrifice anything during your end step in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/231/sawblade-skinripper) · oracle_id `96fd3ee0-84fb-439b-9e2d-b55afe6850a7` · printing: DSK #231 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawblade Slinger
 
@@ -84,6 +89,7 @@
   > • This creature fights target Zombie an opponent controls.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23088 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/217/sawblade-slinger) · oracle_id `df7397b6-9a37-4012-8677-ae8e3b7c4bc3` · printing: VOW #217 (2021-11-19) · [rulings](https://api.scryfall.com/cards/225773f9-1843-4ee0-8564-8e4a5dfef775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawhorn Nemesis
@@ -96,7 +102,12 @@
   > If a source would deal damage to the chosen player or a permanent they control, it deals double that damage instead.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/60/sawhorn-nemesis) · oracle_id `2f9107c5-991a-4c20-9b77-2e2fb4b9dc53` · printing: M3C #60 (2024-06-14) · [rulings](https://api.scryfall.com/cards/29b33e43-ffd5-4697-8261-9b4f5de36a19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If another effect (or effects) modifies how much damage a source would deal to the chosen player or a permanent they control (for example, by preventing some of that damage), the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects, including the effect of Sawhorn Nemesis, apply. If all of the damage is prevented before Sawhorn Nemesis's effect would apply, its effect no longer applies.
+  - *2024-06-07* — If damage dealt is being divided or assigned among multiple permanents or players, that damage is divided or assigned before any effects that modify how much damage will be dealt. For example, if you attack the chosen player with a 5/5 creature with trample and it's blocked by a 2/2 creature they control, you can assign 2 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 4 and 6, respectively.
+  - *2024-06-07* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Sawhorn Nemesis unless it was the original source of damage.
+  - *2024-06-07* — The protector of a battle with the Siege subtype is not that battle's controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/60/sawhorn-nemesis) · oracle_id `2f9107c5-991a-4c20-9b77-2e2fb4b9dc53` · printing: M3C #60 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saw in Half
 
@@ -107,7 +118,16 @@
 - **Flavor text** (UNF printing):
   > *The audience always loves it, but volunteers are divided.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/88/saw-in-half) · oracle_id `eea18c55-8695-4ba1-9b38-3e7638692f5f` · printing: UNF #88 (2022-10-07) · [rulings](https://api.scryfall.com/cards/05e6a7bc-a35a-4e68-99a0-be264553b5de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-09-19* — Any enters-the-battlefield abilities of the copied creature will trigger when the tokens enter the battlefield. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2025-09-19* — Except for power and toughness, the tokens copy exactly what was printed on the original creature and nothing else (unless that creature was copying something else or it's a token; see below). They don't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and Equipment attached to it, and so on.
+  - *2025-09-19* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2025-09-19* — If the copied creature was a token, the new tokens copy the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2025-09-19* — If the copied creature was copying something else, then the tokens enter the battlefield as whatever that creature copied, with the listed exceptions.
+  - *2025-09-19* — If the creature isn't destroyed (perhaps because it has indestructible), its controller doesn't create any tokens. The same is true if the creature is destroyed but instead of going to its owner's graveyard, a replacement effect moves it elsewhere, such as exile.
+  - *2025-09-19* — If the original creature had a characteristic-defining ability that determined its power and/or toughness, that ability is not copied.
+  - *2025-09-19* — Use the power and toughness of the creature from when it was last on the battlefield to determine the power and toughness of the tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/88/saw-in-half) · oracle_id `eea18c55-8695-4ba1-9b38-3e7638692f5f` · printing: UNF #88 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saw It Coming
 
@@ -120,7 +140,11 @@
   > *"How predictable."*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/76/saw-it-coming) · oracle_id `90edaf33-d0ab-47e0-8f6a-6fba38286e6e` · printing: KHM #76 (2021-02-05) · [rulings](https://api.scryfall.com/cards/877a1bb9-5eae-453a-bec0-a9de20ea6815/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/76/saw-it-coming) · oracle_id `90edaf33-d0ab-47e0-8f6a-6fba38286e6e` · printing: KHM #76 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtooth Avenger
 
@@ -131,6 +155,7 @@
   > Megasunburst (This enters the battlefield with two +1/+1 counters on it for each color of mana spent to cast it)
   > Remove three +1/+1 counters from Sawtooth Avenger: Sawtooth Avenger gains your choice of deathtouch, lifelink, or menace until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UA06b/sawtooth-avenger) · oracle_id `2a8b56cb-b972-4d88-b417-3984891b6253` · printing: UNK #UA06b (2023-02-17) · [rulings](https://api.scryfall.com/cards/a78d3db2-60e1-4aa5-b403-086c695be57f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtooth Loon
@@ -144,7 +169,9 @@
   > When this creature enters, draw two cards, then put two cards from your hand on the bottom of your library.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/199/sawtooth-loon) · oracle_id `b917e472-2550-4381-b756-45487c2c187a` · printing: DMR #199 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3f5882a5-ea4c-4b2b-bcf9-7d15087d8bd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You choose which white or blue creature you control to return to its owner’s hand as the first triggered ability resolves. That creature isn’t targeted by the ability. You may choose Sawtooth Loon itself. If Sawtooth Loon is the only white or blue creature you control at that time, you must return it to its owner’s hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/199/sawtooth-loon) · oracle_id `b917e472-2550-4381-b756-45487c2c187a` · printing: DMR #199 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtooth Ogre
 
@@ -156,7 +183,9 @@
 - **Flavor text** (WTH printing):
   > *"You will sharpen your teeth on my enemies' bones," Maraxus promised them, and his ogres cheered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/114/sawtooth-ogre) · oracle_id `473c9f27-2091-4d87-b279-64b3662c9af8` · printing: WTH #114 (1997-06-09) · [rulings](https://api.scryfall.com/cards/4a237580-f7f6-4d6b-a342-0d11fc0b5a59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The damage happens even if this card is not on the battlefield at the end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/114/sawtooth-ogre) · oracle_id `473c9f27-2091-4d87-b279-64b3662c9af8` · printing: WTH #114 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtooth Thresher
 
@@ -168,6 +197,7 @@
   > Remove two +1/+1 counters from this creature: It gets +4/+4 until end of turn.
 - **Keywords:** Sunburst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/149/sawtooth-thresher) · oracle_id `3a8f382e-0bc6-4e79-87e2-9f99d907d234` · printing: 5DN #149 (2004-06-04) · [rulings](https://api.scryfall.com/cards/3c36de4a-807d-471d-ba59-0462d7bb028a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sawtusk Demolisher
@@ -181,4 +211,6 @@
   > Whenever this creature mutates, destroy target noncreature permanent. Its controller creates a 3/3 green Beast creature token.
 - **Keywords:** Mutate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/64/sawtusk-demolisher) · oracle_id `7f93a368-9568-456c-9bd6-20d5fe5ad2f1` · printing: C20 #64 (2020-04-17) · [rulings](https://api.scryfall.com/cards/574d1a02-a403-4b6e-8ce0-a472325c9c2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If the target noncreature permanent is an illegal target by the time Sawtusk Demolisher’s last ability tries to resolve, the ability won’t resolve. No player will create a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/64/sawtusk-demolisher) · oracle_id `7f93a368-9568-456c-9bd6-20d5fe5ad2f1` · printing: C20 #64 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

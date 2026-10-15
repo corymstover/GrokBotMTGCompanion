@@ -34,7 +34,10 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this assemblage of various stuff!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113a/ineffable-blessing) · oracle_id `c74f2cd8-e06d-4ceb-babd-f16864de57c8` · printing: UST #113a (2017-12-08) · [rulings](https://api.scryfall.com/cards/be3e867a-208d-4a23-b8a8-a48866889a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If you choose Flavorful, you'll draw a card even if the flavor text doesn't appear in the text box. Lexivore, for example, is eating its own flavor text.
+  - *2018-01-19* — You can choose differently for each Ineffable Blessing you control. Each will have the ability associated with the choice you made for that Ineffable Blessing. It won't have the other ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113a/ineffable-blessing) · oracle_id `c74f2cd8-e06d-4ceb-babd-f16864de57c8` · printing: UST #113a (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113b)
 
@@ -46,7 +49,10 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this assortment of diverse things!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113b/ineffable-blessing) · oracle_id `203ba042-f65b-4052-96b4-f11167693828` · printing: UST #113b (2017-12-08) · [rulings](https://api.scryfall.com/cards/80545e3d-aff4-4501-a173-b7fa02ef816c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — You can choose any artist who has ever been credited on a Magic card or printed token. Even Mark Rosewater.
+  - *2018-01-19* — You can ignore all nicknames printed on previous silver-bordered cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113b/ineffable-blessing) · oracle_id `203ba042-f65b-4052-96b4-f11167693828` · printing: UST #113b (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113c)
 
@@ -58,6 +64,7 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this compilation of mixed objects!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/113c/ineffable-blessing) · oracle_id `b918fee5-8602-4c1a-a802-19c5f1a0aa81` · printing: UST #113c (2017-12-08) · [rulings](https://api.scryfall.com/cards/91144259-d0a1-4e49-9f9b-9be7e36361d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113d)
@@ -70,7 +77,9 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this collection of miscellaneous items!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113d/ineffable-blessing) · oracle_id `32ee8291-d3f8-4e5f-95f0-ad139fb0200f` · printing: UST #113d (2017-12-08) · [rulings](https://api.scryfall.com/cards/bd0d8fc5-5841-403f-96db-2259048ff424/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — For most recent cards, looking at the expansion symbol will tell you what you need to know. Any card with a black expansion symbol is treated as a common, including basic lands. Any card with a silver expansion symbol is treated as an uncommon. Any card with a gold expansion symbol is treated as a rare. Any card with a mythic orange expansion symbol is treated as a mythic rare. Any card with a different colored expansion symbol (such as the purple expansion symbols from the Time Spiral timeshifted sheet) is treated as a special rarity. Cards from before Exodus don’t have expansion symbols. The rarities of those cards can be found on their Gatherer entries.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113d/ineffable-blessing) · oracle_id `32ee8291-d3f8-4e5f-95f0-ad139fb0200f` · printing: UST #113d (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113e)
 
@@ -82,6 +91,7 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this gathering of eclectic products!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/113e/ineffable-blessing) · oracle_id `ab5e118c-c385-48d0-8dc4-ac58662c11ca` · printing: UST #113e (2017-12-08) · [rulings](https://api.scryfall.com/cards/962272f8-7cea-4766-9980-da99a503ca6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ineffable Blessing (UST #113f)
@@ -94,7 +104,9 @@
 - **Flavor text** (UST printing):
   > *"Hallowed be this potpourri of sundry goods!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113f/ineffable-blessing) · oracle_id `f876a190-8c4f-4dce-a603-f5b825e6be9d` · printing: UST #113f (2017-12-08) · [rulings](https://api.scryfall.com/cards/65b25c91-892d-48d6-b42e-045d16d35316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/113f/ineffable-blessing) · oracle_id `f876a190-8c4f-4dce-a603-f5b825e6be9d` · printing: UST #113f (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inertia Bubble
 
@@ -108,6 +120,7 @@
   > *—Bruenna, Neurok leader*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/37/inertia-bubble) · oracle_id `864c7575-4589-416c-b143-310d5ef238c5` · printing: MRD #37 (2003-10-02) · [rulings](https://api.scryfall.com/cards/72b2d227-68b3-40e8-bef7-45ea43e17318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inescapable Blaze
@@ -121,6 +134,7 @@
   > *"The Izzet are blamed for every little disaster, which is unfair because we only cause most of them."*
   > *—Mizzix of the Izmagnus*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/107/inescapable-blaze) · oracle_id `5fcc057e-e6c2-4e37-a786-9a5ef94926e1` · printing: GRN #107 (2018-10-05) · [rulings](https://api.scryfall.com/cards/46651efd-0906-4350-a1b8-52e3f8aff45d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inescapable Brute
@@ -135,7 +149,9 @@
   > *If you think you made it past him alive, he's just teasing you.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/95/inescapable-brute) · oracle_id `cb69e07c-c831-4992-8089-3a3a1278c45b` · printing: SHM #95 (2008-05-02) · [rulings](https://api.scryfall.com/cards/ab4a1d42-eaf8-424a-9649-5f3b4602bf0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — If Inescapable Brute is attacking, the defending player must assign at least one blocker to it during the declare blockers step if that player controls any creatures that could block Inescapable Brute.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/95/inescapable-brute) · oracle_id `cb69e07c-c831-4992-8089-3a3a1278c45b` · printing: SHM #95 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inevitable Betrayal
 
@@ -146,7 +162,24 @@
   > Search target opponent's library for a creature card and put that card onto the battlefield under your control. Then that player shuffles.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/47/inevitable-betrayal) · oracle_id `aa5e9269-b1db-4bf0-a548-24f999f60e44` · printing: MH2 #47 (2021-06-18) · [rulings](https://api.scryfall.com/cards/71725895-38cd-4017-bbf0-0b7dc9b5db60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2021-06-18* — You may fail to find a creature card in your opponent's library. This may be because they don't have any creature cards, or it may be because you simply don't like any of the creature cards they do have.
+  - *2024-02-02* — A card with no mana cost can't be cast normally; you'll need a way to cast it for an alternative cost or without paying its mana cost, such as by suspending it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If a card with no mana cost is given an alternative cost equal to its mana cost (by Snapcaster Mage, for example), that cost cannot be paid and the card cannot be cast this way.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/47/inevitable-betrayal) · oracle_id `aa5e9269-b1db-4bf0-a548-24f999f60e44` · printing: MH2 #47 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inevitable Defeat
 
@@ -159,7 +192,9 @@
   > *"We came seeking a challenge. It seems we must continue searching."*
   > *—Zurgo, khan of the Mardu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/194/inevitable-defeat) · oracle_id `d68439b5-7011-4b1d-a7da-14ef0f4d9994` · printing: TDM #194 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9d677980-b608-407e-9f17-790a81263f15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If the target permanent is an illegal target as Inevitable Defeat tries to resolve, it won’t resolve and none of its effects will happen. No player will gain or lose life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/194/inevitable-defeat) · oracle_id `d68439b5-7011-4b1d-a7da-14ef0f4d9994` · printing: TDM #194 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inevitable End
 
@@ -173,7 +208,10 @@
   > *—Erebos, god of the dead*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/102/inevitable-end) · oracle_id `e1a5c389-6a56-4da7-b7c4-e26fdec224e5` · printing: THB #102 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a6522f01-ae7a-467e-9a05-530a5ccd304d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Because Inevitable End grants the ability to the enchanted creature, the triggered ability triggers at the beginning of the upkeep of the controller of the enchanted creature, and that player chooses a creature to sacrifice. They might not sacrifice the enchanted creature right away, but it’s certain that they’ll have to do so eventually.
+  - *2020-01-24* — Players may take actions before the triggered ability granted by Inevitable End resolves, but they can’t take any actions during a turn before that turn’s upkeep begins to try to stop the ability from triggering.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/102/inevitable-end) · oracle_id `e1a5c389-6a56-4da7-b7c4-e26fdec224e5` · printing: THB #102 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inexorable Blob
 
@@ -184,7 +222,16 @@
   > Delirium — Whenever this creature attacks, if there are four or more card types among cards in your graveyard, create a 3/3 green Ooze creature token that's tapped and attacking.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/212/inexorable-blob) · oracle_id `bddf0772-503c-42f1-bb86-1dfeeedf4a7e` · printing: SOI #212 (2016-04-08) · [rulings](https://api.scryfall.com/cards/0210ff44-19d9-4d24-9d32-f1f9f219d9e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2016-04-08* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2016-04-08* — Because you consider only the characteristics of a double-faced card's front face while it's not on the battlefield, the types of its back face won't be counted for delirium.
+  - *2016-04-08* — If an effect gives the token vigilance, the token will still enter the battlefield tapped.
+  - *2016-04-08* — In some rare cases, you can have a token or a copy of a spell in your graveyard at the moment that an object's delirium ability counts the card types among cards in your graveyard, before that token or copy ceases to exist. Because tokens and copies of spells are not cards, even if they are copies of cards, their types will never be counted.
+  - *2016-04-08* — Most triggered delirium abilities use an intervening "if" clause. There must be four or more card types among cards in your graveyard in order for these abilities to trigger, otherwise they never trigger at all. There's no way to have the ability trigger if there aren't enough card types, even if you intend to raise that number in response to the triggered ability. The number of card types is checked again as the trigger resolves, and if it has become too low somehow, the ability does nothing. If which card types are in your graveyard changes but the quantity of card types stays the same (or increases), then the delirium triggered ability will still resolve.
+  - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
+  - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
+  - *2016-04-08* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Inexorable Blob is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/212/inexorable-blob) · oracle_id `bddf0772-503c-42f1-bb86-1dfeeedf4a7e` · printing: SOI #212 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inexorable Tide
 
@@ -197,4 +244,12 @@
   > *—Jin-Gitaxias, Core Augur*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/49/inexorable-tide) · oracle_id `40ec0a47-badf-4074-b0a8-749bb7c17b95` · printing: MM2 #49 (2015-05-22) · [rulings](https://api.scryfall.com/cards/40441345-23ca-47e4-b349-bd13d986e41e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-01* — Whenever you cast a spell, Inexorable Tide's ability triggers and goes on the stack on top of it. It will resolve (and you'll proliferate) before the spell resolves.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/49/inexorable-tide) · oracle_id `40ec0a47-badf-4074-b0a8-749bb7c17b95` · printing: MM2 #49 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -30,7 +30,22 @@
   > At the beginning of combat on your turn, another target creature you control gains haste and gets +X/+X until end of turn, where X is that creature's power.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1216 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/295/xenagos-god-of-revels) · oracle_id `cb15a8dd-57fe-466f-847e-66476b690a1f` · printing: LCC #295 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6f1bc3bb-46da-492a-850c-f1f588ad8d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — The value of X is calculated only once, as the ability resolves.
+  - *2020-11-10* — As Xenagos enters the battlefield, your devotion to red and green will determine whether any replacement effects that affect creatures entering the battlefield apply. Because replacement effects are considered before Xenagos is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-11-10* — Counters put on Xenagos remain on it while it's not a creature, even if they have no effect.
+  - *2020-11-10* — If Xenagos is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-11-10* — If Xenagos stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-11-10* — If an effect causes Xenagos to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-11-10* — The type-changing ability that can make Xenagos not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to red and green. It's always a creature spell while it's on the stack.
+  - *2020-11-10* — When Xenagos enters the battlefield, your devotion to red and green will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield. The mana symbols in Xenagos's own mana cost are counted when determining this.
+  - *2020-11-10* — Xenagos's abilities function as long as it's on the battlefield, regardless of whether it's a creature.
+  - *2020-11-10* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/295/xenagos-god-of-revels) · oracle_id `cb15a8dd-57fe-466f-847e-66476b690a1f` · printing: LCC #295 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenagos's Scorn
 
@@ -39,6 +54,7 @@
 - **Oracle text:**
   > Xenagos Ascended gains trample until end of turn and attacks this turn if able.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdag/12/xenagoss-scorn) · oracle_id `8584f219-8f9e-42b3-9b81-58dd117b5910` · printing: TDAG #12 (2014-05-25) · [rulings](https://api.scryfall.com/cards/d1b30dc4-9d7c-4098-87a6-f7434030a427/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenagos's Strike
@@ -48,6 +64,7 @@
 - **Oracle text:**
   > Xenagos's Strike deals 4 damage to each player.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdag/13/xenagoss-strike) · oracle_id `7dba798b-170c-4176-8c35-fb01778e1ff5` · printing: TDAG #13 (2014-05-25) · [rulings](https://api.scryfall.com/cards/6b5fef7d-b8bb-43e2-a36b-d4cc98c3ef13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenagos, the Reveler
@@ -60,7 +77,10 @@
   > 0: Create a 2/2 red and green Satyr creature token with haste.
   > −6: Exile the top seven cards of your library. You may put any number of creature and/or land cards from among them onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/853/xenagos-the-reveler) · oracle_id `942a318e-90eb-4f10-bb30-2e10f5cc922a` · printing: CLB #853 (2022-06-10) · [rulings](https://api.scryfall.com/cards/edfd90ee-a142-4a80-b383-802bbee2cef1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — Creature cards with bestow put onto the battlefield with the third ability will be creatures on the battlefield, not Auras.
+  - *2013-09-15* — Xenagos's first ability isn't a mana ability. It uses the stack and can be responded to. Count the number of creatures you control as the ability resolves to determine how much mana to add. You choose how much of that mana is red and how much is green at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/853/xenagos-the-reveler) · oracle_id `942a318e-90eb-4f10-bb30-2e10f5cc922a` · printing: CLB #853 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenic Poltergeist
 
@@ -70,7 +90,10 @@
 - **Oracle text:**
   > {T}: Until your next upkeep, target noncreature artifact becomes an artifact creature with power and toughness each equal to its mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/104/xenic-poltergeist) · oracle_id `fb8f80cc-6214-4ab9-a9a9-1873ab9feb0c` · printing: ME4 #104 (2011-01-10) · [rulings](https://api.scryfall.com/cards/37055986-85e0-4568-a301-b8726da23b75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Wears off at the beginning of the upkeep, not during upkeep.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/104/xenic-poltergeist) · oracle_id `fb8f80cc-6214-4ab9-a9a9-1873ab9feb0c` · printing: ME4 #104 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenobotanist
 
@@ -82,6 +105,7 @@
 - **Flavor text** (TRK printing):
   > *"Electromagnetic stimulation triggers bioluminescence and causes a 22% increase in aesthetic appeal. But to what end?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32045 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/224/xenobotanist) · oracle_id `a9df60bf-f327-4d50-ab4d-99324fc2dcfe` · printing: TRK #224 (2026-11-13) · [rulings](https://api.scryfall.com/cards/20a97cda-42b2-44f1-8e77-f64dd1c98f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenograft
@@ -95,7 +119,11 @@
   > *"I despise Vorinclex and his slobberings about 'evolution.' Only I know true progress."*
   > *—Jin-Gitaxias, Core Augur*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/51/xenograft) · oracle_id `76642e7a-3c8f-45b8-9cd7-dac8086bea87` · printing: NPH #51 (2011-05-13) · [rulings](https://api.scryfall.com/cards/f52f08e1-b234-42e4-8f1f-485a4f6edb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — Creature cards not on the battlefield and creature spells are not affected.
+  - *2011-06-01* — You must choose an existing _Magic_ creature type.
+  - *2017-09-29* — Replacement effects that modify creatures of a certain type as they enter the battlefield will apply (or not apply) after you apply this effect. For example, if Warrior is the chosen creature type and you control Bramblewood Paragon, a Runeclaw Bear would enter the battlefield with an additional +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/51/xenograft) · oracle_id `76642e7a-3c8f-45b8-9cd7-dac8086bea87` · printing: NPH #51 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xenosquirrels
 
@@ -109,7 +137,10 @@
   > *"Hey Glaxxar, did you remember to seal the vents on the seat belt control module?"*
   > *—Truss, chief engineer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/96/xenosquirrels) · oracle_id `d5c54df9-437e-46e1-94cf-91d9f1d343b6` · printing: UNF #96 (2022-10-07) · [rulings](https://api.scryfall.com/cards/17fc45cb-0bf5-423d-adeb-112b24c4d57f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If you roll the planar die in a Planechase game, you can remove a +1/+1 counter from Xenosquirrels, but you can’t alter the result of the roll.
+  - *2022-10-07* — You can change a result to something normally not possible on the die in question, such as a 0 or a 7 on a six-sided die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/96/xenosquirrels) · oracle_id `d5c54df9-437e-46e1-94cf-91d9f1d343b6` · printing: UNF #96 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xerex Squire
 
@@ -119,6 +150,7 @@
 - **Oracle text:**
   > Whenever Xerex Squire attacks, calculate the hypotenuse of another creature you control. Xerex Squire's power and toughness become equal to that number, rounded up, until end of turn. (To calculate a hypotenuse, let A be that creature's power and B be that creature's toughness. Then C = √(a² + b²). C is the hypotenuse. Or just look up a calculator online.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UU03c/xerex-squire) · oracle_id `d2e667e1-ee7b-4e2e-853c-87f0d5151626` · printing: UNK #UU03c (2023-05-06) · [rulings](https://api.scryfall.com/cards/f427528f-2c2f-4061-b101-29de24825989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xerex Strobe-Knight
@@ -133,4 +165,6 @@
   > *Phyrexia broke the laws of reality to invade the planes. On Xerex, reality merely bent around the invaders.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15332 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/85/xerex-strobe-knight) · oracle_id `2e150f97-5688-4559-94b8-86c33fda28a0` · printing: MOM #85 (2023-04-21) · [rulings](https://api.scryfall.com/cards/e38a32bc-133d-43d1-a6e3-80d39fe53d32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — Xerex Strobe-Knight will count any spells you’ve cast this turn. It doesn’t matter if those spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/85/xerex-strobe-knight) · oracle_id `2e150f97-5688-4559-94b8-86c33fda28a0` · printing: MOM #85 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

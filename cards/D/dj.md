@@ -29,7 +29,11 @@
   > As long as you have one or fewer cards in hand, Djeru and Hazoret has vigilance and haste.
   > Whenever Djeru and Hazoret attacks, look at the top six cards of your library. You may exile a legendary creature card from among them. Put the rest on the bottom of your library in a random order. Until end of turn, you may cast the exiled card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5453 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/221/djeru-and-hazoret) · oracle_id `2c0061ab-4123-4b0c-8286-3207e8f9497d` · printing: MOM #221 (2023-04-21) · [rulings](https://api.scryfall.com/cards/1db1ae7b-ed48-409f-8d50-07c7e8c6c128/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a spell without paying its mana cost, you can’t choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
+  - *2023-04-14* — Once Djeru and Hazoret has legally attacked during the turn it came under your control, causing it to lose haste by adding cards to your hand won’t cause it to stop attacking. Similarly, causing it to lose vigilance after it has attacked won’t cause it to become tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/221/djeru-and-hazoret) · oracle_id `2c0061ab-4123-4b0c-8286-3207e8f9497d` · printing: MOM #221 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djeru's Renunciation
 
@@ -43,6 +47,7 @@
   > *—Djeru, former Tah-crop initiate*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23494 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/11/djerus-renunciation) · oracle_id `11b21086-0779-4d16-8a56-252c6bee9bed` · printing: HOU #11 (2017-07-14) · [rulings](https://api.scryfall.com/cards/03f005de-7971-4f22-ad1f-5d0667f68113/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djeru's Resolve
@@ -56,7 +61,10 @@
   > *"When I wish to be strong, I train. When I wish to be wise, I study. When I wish to rest, I start again."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/11/djerus-resolve) · oracle_id `c48ce123-bb07-4221-b3b3-0a458e101ca1` · printing: AKH #11 (2017-04-28) · [rulings](https://api.scryfall.com/cards/ad60ebb9-4acc-41a8-90d9-04d55e414ed1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Djeru’s Resolve can target an untapped creature. Its prevention effect will still be applied.
+  - *2017-04-18* — Untapping an attacking creature doesn’t remove it from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/11/djerus-resolve) · oracle_id `c48ce123-bb07-4221-b3b3-0a458e101ca1` · printing: AKH #11 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djeru, With Eyes Open
 
@@ -69,7 +77,9 @@
   > If a source would deal damage to a planeswalker you control, prevent 1 of that damage.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12132 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/10/djeru-with-eyes-open) · oracle_id `5d520dd4-7986-41fa-ab94-9226da751668` · printing: HOU #10 (2017-07-14) · [rulings](https://api.scryfall.com/cards/2234df89-0835-4a17-b5d8-2334ee8f692d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — If multiple sources would deal damage to one or more planeswalkers you control at once (for example, several attacking creatures), 1 damage from each of those sources to each of those planeswalkers is prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/10/djeru-with-eyes-open) · oracle_id `5d520dd4-7986-41fa-ab94-9226da751668` · printing: HOU #10 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn Illuminatus
 
@@ -82,7 +92,10 @@
   > Each instant and sorcery spell you cast has replicate. The replicate cost is equal to its mana cost. (When you cast it, copy it for each time you paid its replicate cost. You may choose new targets for the copies.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/210/djinn-illuminatus) · oracle_id `d7dcf1be-2779-419d-8c90-03800f9e7ea2` · printing: C20 #210 (2020-04-17) · [rulings](https://api.scryfall.com/cards/7c784b00-dcef-4640-a305-5ff1baf2e6fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — If you cast a spell that already has replicate while you have this creature on the battlefield, the spell will have two replicate abilities: one with a replicate cost as printed on it, and one with a replicate cost equal to its mana cost. (In this set, both costs are always the same.) You may use either ability, or both abilities, to replicate the spell.
+  - *2006-02-01* — If you cast an instant or sorcery spell that has {X} in its mana cost, the value of X in the spell's replicate cost will be the same as the value of X you chose for its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/210/djinn-illuminatus) · oracle_id `d7dcf1be-2779-419d-8c90-03800f9e7ea2` · printing: C20 #210 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinni Windseer
 
@@ -97,7 +110,18 @@
   > 20 | Scry 3.
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/55/djinni-windseer) · oracle_id `f06cecd4-8447-4351-9dfa-861afb84f1e6` · printing: AFR #55 (2021-07-23) · [rulings](https://api.scryfall.com/cards/67a42698-bf3b-4352-8178-9c98abfc5b09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/55/djinni-windseer) · oracle_id `f06cecd4-8447-4351-9dfa-861afb84f1e6` · printing: AFR #55 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn of Fool's Fall
 
@@ -111,7 +135,13 @@
   > *No one knew if the waterfall was a natural wonder the djinn guarded or if he'd conjured it to hide something even greater.*
 - **Keywords:** Flying, Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24488 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/43/djinn-of-fools-fall) · oracle_id `7dbb540f-ee96-4115-b6ef-28ffc73da8b7` · printing: OTJ #43 (2024-04-19) · [rulings](https://api.scryfall.com/cards/48bfc6af-c651-485e-a1cc-f9d00aeaf812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/43/djinn-of-fools-fall) · oracle_id `7dbb540f-ee96-4115-b6ef-28ffc73da8b7` · printing: OTJ #43 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn of Infinite Deceits
 
@@ -125,7 +155,11 @@
   > *The winds of change have a mind of their own.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/38/djinn-of-infinite-deceits) · oracle_id `f9de4cea-27c4-4343-8a7a-09b8f346c3b5` · printing: CMA #38 (2017-06-09) · [rulings](https://api.scryfall.com/cards/8f0f3643-a355-4132-bce8-c306df3cf830/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-10-17* — If one of the creatures is an illegal target when the ability resolves, the exchange won’t happen. If both creatures are illegal targets, the ability won’t resolve.
+  - *2013-10-17* — If the same player controls both creatures when the ability resolves, nothing happens.
+  - *2013-10-17* — You don’t have to control either target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/38/djinn-of-infinite-deceits) · oracle_id `f9de4cea-27c4-4343-8a7a-09b8f346c3b5` · printing: CMA #38 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn of the Fountain
 
@@ -140,7 +174,9 @@
   > • Scry 1.
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25030 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/47/djinn-of-the-fountain) · oracle_id `dcf28f91-1bf4-48be-a3d0-e061f443fd9e` · printing: DMU #47 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f55606da-de3e-4375-925b-cc16b03b6365/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Djinn of the Fountain's triggered ability will resolve before the instant or sorcery spell that caused it to trigger resolves. It will resolve even if the spell that caused it to trigger is countered or has otherwise left the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/47/djinn-of-the-fountain) · oracle_id `dcf28f91-1bf4-48be-a3d0-e061f443fd9e` · printing: DMU #47 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn of the Lamp
 
@@ -153,6 +189,7 @@
   > *Once they learn the trick of carrying their own lamps, they never touch the ground again.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/52/djinn-of-the-lamp) · oracle_id `72b42c63-fe4d-4823-9692-30fb5bab384a` · printing: POR #52 (1997-05-01) · [rulings](https://api.scryfall.com/cards/3a5e7b52-2663-4140-9758-f24b8b947876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djinn of Wishes
@@ -166,4 +203,9 @@
   > {2}{U}{U}, Remove a wish counter from this creature: Reveal the top card of your library. You may play that card without paying its mana cost. If you don't, exile it.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/87/djinn-of-wishes) · oracle_id `a34c3012-f787-4998-93c7-89c4decaa1ba` · printing: C18 #87 (2018-08-10) · [rulings](https://api.scryfall.com/cards/a5491962-ad47-4919-b59c-510408bed29e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-07-13* — If the revealed card is a land, you can play it only if it's your turn and you haven't yet played a land this turn.
+  - *2018-07-13* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+  - *2018-07-13* — If you wish to play the exiled card, you must play it while the last ability of Djinn of Wishes is resolving. You can't play it later in the turn. A spell cast this way may be cast at a time you normally wouldn't be able to cast a spell of that type, but other restrictions (such as "Cast this spell only during combat") are enforced.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/87/djinn-of-wishes) · oracle_id `a34c3012-f787-4998-93c7-89c4decaa1ba` · printing: C18 #87 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

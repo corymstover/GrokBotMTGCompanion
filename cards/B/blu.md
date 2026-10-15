@@ -41,7 +41,12 @@
 - **Oracle text:**
   > Each noncreature, non-Equipment artifact is an Equipment with equip {X} and "Equipped creature gets +X/+0," where X is that artifact's mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/80/bludgeon-brawl) · oracle_id `a9aa3bc7-db5a-4792-a53a-40acb6ca4b20` · printing: NPH #80 (2011-05-13) · [rulings](https://api.scryfall.com/cards/a30fa96d-64d1-423e-a62e-d43453ea838d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-06-01* — An Equipment that’s also a creature can’t be equipped to anything.
+  - *2011-06-01* — If an artifact affected by Bludgeon Brawl later becomes a creature, Bludgeon Brawl’s effect no longer applies to it. That artifact will stop being an Equipment and become unattached from any creature it was attached to; it will remain on the battlefield. The same thing if Bludgeon Brawl leaves the battlefield.
+  - *2011-06-01* — The affected artifacts retain their other types and abilities.
+  - *2011-06-01* — While Bludgeon Brawl is on the battlefield, an Aura enchantment that somehow becomes an artifact in addition to its other types will also become an Equipment. Any of its abilities that refer to either “enchanted creature” or “equipped creature” refer to the creature it’s currently attached to. It can be attached to other creatures using its equip ability. If you try to attach the Aura Equipment to a creature it can’t legally be attached to, it remains where it is. If the creature it’s attached to becomes an illegal permanent for it to enchant, the Aura Equipment will be put into its owner’s graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/80/bludgeon-brawl) · oracle_id `a9aa3bc7-db5a-4792-a53a-40acb6ca4b20` · printing: NPH #80 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Dragon
 
@@ -53,7 +58,10 @@
   > Lightning Breath — When this creature enters, until your next turn, target creature an opponent controls gets -3/-0, up to one other target creature gets -2/-0, and up to one other target creature gets -1/-0.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/49/blue-dragon) · oracle_id `1d00e54a-5897-43dc-9c38-a0e2ce6a7433` · printing: AFR #49 (2021-07-23) · [rulings](https://api.scryfall.com/cards/98dea71b-2778-4374-8ea2-7fa82f0f6110/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — Blue Dragon's Lightning Breath ability cannot target the same creature multiple times.
+  - *2021-07-23* — The last two targets are optional, but the first target is not. If an opponent has at least one creature the ability could target, you must choose a target to get -3/-0. (Note that the last two targets can be any creature, not just one an opponent controls.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/49/blue-dragon) · oracle_id `1d00e54a-5897-43dc-9c38-a0e2ce6a7433` · printing: AFR #49 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Elemental Blast
 
@@ -66,7 +74,9 @@
 - **Flavor text** (A25 printing):
   > *Nothing escapes a sharp mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/43/blue-elemental-blast) · oracle_id `65e1558c-6b09-4ddc-b520-f19f4fb972af` · printing: A25 #43 (2018-03-16) · [rulings](https://api.scryfall.com/cards/2f51f88f-f662-4572-a371-9a77718ed079/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/43/blue-elemental-blast) · oracle_id `65e1558c-6b09-4ddc-b520-f19f4fb972af` · printing: A25 #43 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue, Loyal Raptor
 
@@ -78,7 +88,18 @@
   > For each kind of counter on Blue, Loyal Raptor, each other Dinosaur you control enters with a counter of that kind on it.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21985 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/8/blue-loyal-raptor) · oracle_id `4f13ed2e-7790-499f-87bf-07480b567811` · printing: REX #8 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0a764ec9-6a30-4df3-91b4-c64fd8e32fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2023-11-10* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2023-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-11-10* — If Blue, Loyal Raptor enters the battlefield with one or more kinds of counters on it at the same time as other Dinosaurs you control, those other Dinosaurs won't get additional counters from Blue, Loyal Raptor's last ability.
+  - *2023-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Blue, Loyal Raptor and Owen Grady, Raptor Trainer are your commanders, your deck may contain cards with green, blue, and/or red in their color identity, but not white or black.
+  - *2023-11-10* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2023-11-10* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+  - *2023-11-10* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2023-11-10* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/8/blue-loyal-raptor) · oracle_id `4f13ed2e-7790-499f-87bf-07480b567811` · printing: REX #8 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Mage's Cane
 
@@ -90,7 +111,16 @@
   > Spirit of the Whalaqee — Equip {2}
 - **Keywords:** Job select, Spirit of the Whalaqee, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/35/blue-mages-cane) · oracle_id `6290233b-b015-4909-8aba-bf8d65cc37b5` · printing: FIC #35 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9b3cfc13-db4e-4ec3-8444-f715bcd43be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it by paying {3} rather than paying its mana cost.
+  - *2025-06-06* — If you cast a spell by paying {3} rather than paying its mana cost, you can't choose to cast it for any other alternative cost. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the card.
+  - *2025-06-06* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are performed.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/35/blue-mages-cane) · oracle_id `6290233b-b015-4909-8aba-bf8d65cc37b5` · printing: FIC #35 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Mana Battery
 
@@ -100,7 +130,9 @@
   > {2}, {T}: Put a charge counter on this artifact.
   > {T}, Remove any number of charge counters from this artifact: Add {U}, then add an additional {U} for each charge counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/300/blue-mana-battery) · oracle_id `79e91e8a-cee7-411b-b0a3-d3383c0d4a43` · printing: 4ED #300 (1995-04-01) · [rulings](https://api.scryfall.com/cards/cd2cb84e-c079-486e-87ad-d188fe38bc76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can be tapped even if it has no counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/300/blue-mana-battery) · oracle_id `79e91e8a-cee7-411b-b0a3-d3383c0d4a43` · printing: 4ED #300 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Marvel, Adam Brashear
 
@@ -113,6 +145,7 @@
   > Whenever you draw your second card each turn, put a +1/+1 counter on Blue Marvel.
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24379 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/530/blue-marvel-adam-brashear) · oracle_id `16f9368a-5da5-4397-a127-c96cdd115b7b` · printing: MSC #530 (2026-06-26) · [rulings](https://api.scryfall.com/cards/de5c8482-462a-49ee-ae4d-1e0e8e0a4b97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Ribbon
@@ -125,7 +158,10 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/184/blue-ribbon) · oracle_id `95e4b2e9-2205-4ebf-a1db-b30f027c73c0` · printing: UNF #184 (2022-10-07) · [rulings](https://api.scryfall.com/cards/da67aec2-18ff-426a-a074-25cd34b01f9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If you control more than one creature with best in show, one of them becoming a target of a spell or ability you control (or a creature you control without best in show becoming such a target) will start a chain reaction. Say you control two creatures with best in show. The first becomes the target of a spell you control. That causes the best in show ability of the second creature to trigger. If you copy the spell, the second creature becomes the target of the copy, causing the best in show ability of the first creature to trigger. If you copy the spell, the first creature becomes the target of the copy causing the best in show ability of the second creature to trigger. And so on. Copying the spell or ability is optional, so the player may stop the award ceremony at their discretion.
+  - *2022-10-07* — If you control no creatures when Blue Ribbon's enters-the-battlefield ability resolves, the outside person won't be able to choose the most deserving one. Blue Ribbon will just stay unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/184/blue-ribbon) · oracle_id `95e4b2e9-2205-4ebf-a1db-b30f027c73c0` · printing: UNF #184 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Scarab
 
@@ -137,6 +173,7 @@
   > Enchanted creature gets +2/+2 as long as an opponent controls a blue permanent.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/9/blue-scarab) · oracle_id `47c12d2f-b458-4848-9a01-0fc37ef3d942` · printing: ICE #9 (1995-06-03) · [rulings](https://api.scryfall.com/cards/b423bb5a-eaac-4c1d-981a-1c635001fc5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Screen of Death
@@ -149,6 +186,7 @@
   > {1}: Remove a curse counter from Blue Screen of Death.
   > Whenever a player spends more seconds with priority during their turn than the number of curse counters on Blue Screen of Death, sacrifice it and they lose 6 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06f/blue-screen-of-death) · oracle_id `b6cb75ba-4c50-4f7b-a590-b1fb49655e39` · printing: UNK #RZ06f (2025-06-20) · [rulings](https://api.scryfall.com/cards/1159a05d-04ab-4a27-9e8b-374534725a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Sun's Twilight
@@ -161,7 +199,9 @@
   > *"Where once there was ignorance, Jin-Gitaxias brought knowledge, and an age of progress dawned."*
   > *—Monument inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4324 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/43/blue-suns-twilight) · oracle_id `11e637b4-6ce0-4514-98d6-02a2d073f73b` · printing: ONE #43 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3a836e6b-6854-4f6f-bc78-2da1fd4dd224/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target creature is an illegal target by the time the spell tries to resolve, the spell will not resolve. No token is created, even if X is 5 or more.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/43/blue-suns-twilight) · oracle_id `11e637b4-6ce0-4514-98d6-02a2d073f73b` · printing: ONE #43 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Sun's Zenith
 
@@ -173,7 +213,10 @@
   > *"The Origin Query will wait. We must ensure we survive to return to it."*
   > *—Pelyus, vedalken ordinar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/44/blue-suns-zenith) · oracle_id `613a41b8-0b4f-4995-bf1e-ca41f96e6438` · printing: A25 #44 (2018-03-16) · [rulings](https://api.scryfall.com/cards/500a2aa4-712f-41be-920e-f2f448ff83d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
+  - *2018-03-16* — Because you follow the spell's instructions in order, you won't be able to draw the same Blue Sun's Zenith that you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/44/blue-suns-zenith) · oracle_id `613a41b8-0b4f-4995-bf1e-ca41f96e6438` · printing: A25 #44 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Ward
 
@@ -184,6 +227,7 @@
   > Enchanted creature has protection from blue. This effect doesn't remove this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23712 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/10/blue-ward) · oracle_id `fc0bf1d0-46a2-4305-ab2e-466d79d60ab2` · printing: 4ED #10 (1995-04-01) · [rulings](https://api.scryfall.com/cards/de62c833-c66b-442e-99ed-99ccd8eca024/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blufferfish
@@ -196,7 +240,10 @@
 - **Flavor text** (UNF printing):
   > *Lying to a fish is such an unthinkable act, most planets don't even have a law against it.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31576 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/39/blufferfish) · oracle_id `6ca06048-7c84-49a0-95db-dca4ce4cb95c` · printing: UNF #39 (2022-10-07) · [rulings](https://api.scryfall.com/cards/40f0d1cc-222c-4203-8bf7-a6941d2970ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — The opponent is the authority on whether the statement they make is true or false. That said, lying isn’t allowed, and they should be sporting about it.
+  - *2022-10-07* — The statement the opponent makes doesn’t need to be very personal, but it does need to be about themself. Something like “I had eggs for breakfast” is fine.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/39/blufferfish) · oracle_id `6ca06048-7c84-49a0-95db-dca4ce4cb95c` · printing: UNF #39 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blu, Mansion Prince
 
@@ -208,6 +255,7 @@
   > Whenever you sacrifice a Clue, choose a Room card at random. Create a token that's a copy of one of its halves, then unlock it. (There are currently 30 Room cards.)
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04d/blu-mansion-prince) · oracle_id `5d179680-96b8-42f7-97bb-ba9121f2c19d` · printing: UNK #RU04d (2025-06-20) · [rulings](https://api.scryfall.com/cards/f3f04a9f-959c-4a37-bf01-34b3ac242eb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blunt the Assault
@@ -220,7 +268,9 @@
   > *"Much can be gained from the appearance of vulnerability."*
   > *—Ezuri, renegade leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/113/blunt-the-assault) · oracle_id `dccd0533-fda0-41ff-b540-c4f1bb32fc95` · printing: SOM #113 (2010-10-01) · [rulings](https://api.scryfall.com/cards/6ecff12a-37d5-4a7b-b615-4c5e3bd950bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — You gain 1 life for each creature on the battlefield, not just for each attacking and blocking creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/113/blunt-the-assault) · oracle_id `dccd0533-fda0-41ff-b540-c4f1bb32fc95` · printing: SOM #113 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur
 
@@ -232,7 +282,10 @@
 - **Flavor text** (CLB printing):
   > *"It's as much a trick of the mind as it is a trick of the eye."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/58/blur) · oracle_id `00b36996-43c6-42a5-892c-c7c8864cf973` · printing: CLB #58 (2022-06-10) · [rulings](https://api.scryfall.com/cards/77a43413-3ab0-4ef6-83de-192a11d48f00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/58/blur) · oracle_id `00b36996-43c6-42a5-892c-c7c8864cf973` · printing: CLB #58 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur of Blades
 
@@ -243,7 +296,9 @@
 - **Flavor text** (HOU printing):
   > *Samut battled her way through the hordes, shouting the names of those who'd died in her crop and those she hoped yet to save.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/84/blur-of-blades) · oracle_id `65410f7a-c749-4b23-ad61-8a7136efcad2` · printing: HOU #84 (2017-07-14) · [rulings](https://api.scryfall.com/cards/b53f5b9b-d24b-4e9a-bc90-7ed198cd1132/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — If the targeted creature is an illegal target by the time Blur of Blades resolves, it won’t resolve and none of its effects will happen. Blur of Blades won’t deal damage to any player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/84/blur-of-blades) · oracle_id `65410f7a-c749-4b23-ad61-8a7136efcad2` · printing: HOU #84 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur of Heroism
 
@@ -256,6 +311,7 @@
   > *"I haven't always been the best hero. But I've always been the fastest!"*
   > *—Blur, Stanley Stewart*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/585/blur-of-heroism) · oracle_id `b4a9b328-f976-4390-be9a-711ef357a50d` · printing: MSC #585 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ca94680f-d46c-4b0f-a40f-635a0fcb16f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blurred Mongoose
@@ -271,7 +327,10 @@
   > *—Llanowar fable*
 - **Keywords:** Shroud
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/183/blurred-mongoose) · oracle_id `588a5bac-dcad-410e-8878-0230500c2e3a` · printing: INV #183 (2000-10-02) · [rulings](https://api.scryfall.com/cards/4b073e3f-6a6f-495a-ab16-39d906b660f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Counterspells can be cast that target it, but when they resolve they simply don’t counter it since it can’t be countered.
+  - *2004-10-04* — It can be targeted while on the stack. Shroud only works while it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/183/blurred-mongoose) · oracle_id `588a5bac-dcad-410e-8878-0230500c2e3a` · printing: INV #183 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blurry Beeble
 
@@ -282,7 +341,13 @@
   > Blurry (This creature can be blocked only if defending player was wearing glasses as it was cast.)
   > Whenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/27/blurry-beeble) · oracle_id `c5dd0d07-d4c2-45ac-9009-27be40262ac3` · printing: UST #27 (2017-12-08) · [rulings](https://api.scryfall.com/cards/1a1a368e-51da-454d-a474-ff14fd2e7b76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-01-19* — Any glasses with lenses will count, prescription or not. This includes sunglasses, but doesn’t include monocles or contacts.
+  - *2018-01-19* — If Blurry Beeble was put onto the battlefield without being cast, it can’t be blocked.
+  - *2018-01-19* — Players generally won’t have time to put on glasses between the announcement of Blurry Beeble and you paying its costs. They must have had glasses on already in order to later block it.
+  - *2018-01-19* — The glasses don’t necessarily have to be on a player’s face for that player to be wearing them. Hanging around your neck, up on your head, or sitting on your leg to make some adorable little denim monster all count.
+  - *2018-01-19* — You can’t remove your opponent’s glasses before casting Blurry Beeble, although you may ask them to remove their glasses. They may fall for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/27/blurry-beeble) · oracle_id `c5dd0d07-d4c2-45ac-9009-27be40262ac3` · printing: UST #27 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blurry Visionary
 
@@ -292,7 +357,21 @@
 - **Oracle text:**
   > When Blurry Visionary enters the battlefield, look at the top two cards of your library and put them back-to-back in the same sleeve with either card in front. They become a modal double-faced card for the rest of the game. Then put that card into your hand. (You can play either face of that double-faced card. Make sure to reset it when the game ends.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/526/blurry-visionary) · oracle_id `37c09de4-7cc3-457e-9471-e9a9fc73339d` · printing: MB2 #526 (2024-08-02) · [rulings](https://api.scryfall.com/cards/44940856-84dd-413f-ab3c-5bf9ebafdddb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-11-08* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed (even if one of its faces was formerly part of a transforming double-faced card). Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-11-08* — And if that’s not complicated enough, similarly, if one of the top two cards of your library is a transforming double-faced card, you put it into the new sleeve with either face of the card facing outward, and it still becomes a modal double-faced card at the end. So, for example, if your top two cards are Brainstorm and the transforming double-faced card Delver of Secrets // Insectile Aberration, you will end up with a modal double-faced card in one of the following permutations: Brainstorm // Delver of Secrets, Brainstorm // Insectile Aberration, Delver of Secrets // Brainstorm, Insectile Aberration // Brainstorm. Note, however, that Insectile Aberration, like most back faces of transforming double-faced cards, has no mana cost, so it is normally not possible to play that card from your hand.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2024-11-08* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, consider only the characteristics of a modal double-faced card’s front face to see if that card qualifies. If it does, it enters the battlefield with its front face up.
+  - *2024-11-08* — If one of the top two cards of your library is already a double-faced card, put it into the new sleeve with either of its two faces facing outward. Only the outward face will be part of the new modal double-faced card, while the inward one ceases to exist for the rest of the game. For example, if the top two cards of your library are Brainstorm and the modal double-faced card Valki, God of Lies // Tibalt, Cosmic Imposter, you will end up with a modal double-faced card that has Brainstorm as one of its faces, and either Valki, God of Lies or Tibalt, Cosmic Imposter as the other face, with either face as the front (your choice).
+  - *2024-11-08* — If your library has only one card in it when Blurry Visionary’s ability resolves, it won’t make that card a modal double-faced card, but you will put it into your hand.
+  - *2024-11-08* — More complicated scenarios involving two different double-faced cards or multiple Blurry Visionary triggers affecting the same card over and over will be left as an exercise for the reader.
+  - *2024-11-08* — Once Blurry Visionary’s ability finishes resolving, you can’t change which face of the new modal double-faced card is the front face. It stays that way for the rest of the game.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different from how the mana value of a transforming double-faced card is determined.
+  - *2024-11-08* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/526/blurry-visionary) · oracle_id `37c09de4-7cc3-457e-9471-e9a9fc73339d` · printing: MB2 #526 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur Sliver
 
@@ -304,7 +383,11 @@
 - **Flavor text** (CMM printing):
   > *Traveling across the desert alone, you might assume you'd see them coming, but that would be your third mistake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/873/blur-sliver) · oracle_id `e0f05979-daba-43eb-b356-24284e7ca99c` · printing: CMM #873 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d44db4fa-8b13-4eb2-a66e-a55b2e0c0fb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If Blur Sliver leaves the battlefield during combat, any attacking Sliver creatures that came under your control this turn will continue to attack, even though they will no longer have haste.
+  - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/873/blur-sliver) · oracle_id `e0f05979-daba-43eb-b356-24284e7ca99c` · printing: CMM #873 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blustering Barnyard
 
@@ -321,6 +404,7 @@
   > *Designed by players at MagicCon Las Vegas 2025.*
 - **Keywords:** Storm
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RL01d/blustering-barnyard) · oracle_id `4f656ccd-a13e-471d-9c4a-18952a3aa1e7` · printing: UNK #RL01d (2025-08-02) · [rulings](https://api.scryfall.com/cards/0481dd06-5d7f-4df6-b3c5-2a5b2d2ee553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blustersquall
@@ -334,4 +418,9 @@
   > *Weather is more predictable than the Izzet.*
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/89/blustersquall) · oracle_id `2dfad8c3-1973-4fc8-971d-f66cacd88070` · printing: C15 #89 (2015-11-13) · [rulings](https://api.scryfall.com/cards/1736aaf7-b61d-426e-af5e-f70272e7b07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/89/blustersquall) · oracle_id `2dfad8c3-1973-4fc8-971d-f66cacd88070` · printing: C15 #89 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

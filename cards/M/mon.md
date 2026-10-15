@@ -75,7 +75,11 @@
 - **Flavor text** (TMC printing):
   > *"Being surrounded by a little chaos is normally my little happy place, but . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13437 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/126/mona-lisa-ever-adaptable) · oracle_id `9fa38462-57b6-4f2f-a73c-f14a66f56946` · printing: TMC #126 (2026-03-06) · [rulings](https://api.scryfall.com/cards/41f1503b-b056-4f7c-94a1-1e6d78eb209b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Mona Lisa's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/126/mona-lisa-ever-adaptable) · oracle_id `9fa38462-57b6-4f2f-a73c-f14a66f56946` · printing: TMC #126 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mona Lisa, Science Geek
 
@@ -89,7 +93,9 @@
   > *"I felt kind of excited about being mutated, you know? I was getting to have this once in a lifetime experience! Maybe I could even base my thesis on it . . ."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5862 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/123/mona-lisa-science-geek) · oracle_id `e6490e98-37a9-4a8b-a04c-cceeb22b0c35` · printing: TMT #123 (2026-03-06) · [rulings](https://api.scryfall.com/cards/c2164204-120c-4dff-86ac-46ca9012ccd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Mona Lisa's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/123/mona-lisa-science-geek) · oracle_id `e6490e98-37a9-4a8b-a04c-cceeb22b0c35` · printing: TMT #123 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Flock
 
@@ -104,7 +110,18 @@
   > *—Jeskai teaching*
 - **Keywords:** Flying, Morph, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/47/monastery-flock) · oracle_id `fd05f23e-8974-445d-9059-d706a3740d89` · printing: KTK #47 (2014-09-26) · [rulings](https://api.scryfall.com/cards/e53c0e50-4b0b-43d8-80c0-2c216722c87a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — If an attacking face-down Monastery Flock is turned face up, it will continue to be attacking even though it will have defender. If it's turned face up before blockers are declared, then creatures without flying or reach won't be able to block it.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/47/monastery-flock) · oracle_id `fd05f23e-8974-445d-9059-d706a3740d89` · printing: KTK #47 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Loremaster
 
@@ -116,7 +133,11 @@
   > When this creature is turned face up, return target noncreature, nonland card from your graveyard to your hand.
 - **Keywords:** Megamorph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/63/monastery-loremaster) · oracle_id `1c8ef715-3c3c-4d04-9f30-941b870b11d3` · printing: DTK #63 (2015-03-27) · [rulings](https://api.scryfall.com/cards/19b9d8de-5746-4af0-9353-a19fa977df41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/63/monastery-loremaster) · oracle_id `1c8ef715-3c3c-4d04-9f30-941b870b11d3` · printing: DTK #63 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Mentor
 
@@ -130,7 +151,14 @@
   > *"Speak little. Do much."*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/125/monastery-mentor) · oracle_id `3979067a-9c68-443d-a85f-d9f07be880b9` · printing: TDC #125 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2343e69d-f30e-4826-953c-fbf31c6079e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-11-24* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2014-11-24* — Casting a noncreature spell will cause both prowess and Monastery Mentor's other ability to trigger. You can put these abilities on the stack in either order. Whichever ability is put on the stack last will resolve first.
+  - *2014-11-24* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-11-24* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2014-11-24* — Prowess triggers only once for any spell, even if that spell has multiple types.
+  - *2014-11-24* — The spell that causes Monastery Mentor's second ability to trigger will not cause the prowess ability of the Monk token that's created to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/125/monastery-mentor) · oracle_id `3979067a-9c68-443d-a85f-d9f07be880b9` · printing: TDC #125 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Messenger
 
@@ -144,6 +172,7 @@
   > *Lanniao soared from Highspire Monastery all throughout Tarkir, carrying messages for monks and villagers alike.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21008 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/208/monastery-messenger) · oracle_id `325b88e1-ec7f-4d22-887c-a7f18a868bb0` · printing: TDM #208 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0c9eeced-6464-41f0-bbea-05b3af4cc005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Raid
@@ -155,7 +184,10 @@
   > Exile the top two cards of your library. If this spell's freerunning cost was paid, exile the top X cards of your library instead. You may play the exiled cards until the end of your next turn.
 - **Keywords:** Freerunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/35/monastery-raid) · oracle_id `62f4a2db-6d7c-487b-be37-22f06c1e779e` · printing: ACR #35 (2024-07-05) · [rulings](https://api.scryfall.com/cards/3e2e91f0-3a4e-4388-9460-6756f758316b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+  - *2024-07-05* — You pay all costs and follow all normal timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/35/monastery-raid) · oracle_id `62f4a2db-6d7c-487b-be37-22f06c1e779e` · printing: ACR #35 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Siege
 
@@ -166,7 +198,13 @@
   > • Khans — At the beginning of your draw step, draw an additional card, then discard a card.
   > • Dragons — Spells your opponents cast that target you or a permanent you control cost {2} more to cast.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/88/monastery-siege) · oracle_id `240a33a8-23a0-4cb2-a9fd-1a2a21966bb8` · printing: C17 #88 (2017-08-25) · [rulings](https://api.scryfall.com/cards/32d2a1ad-210c-444d-9cb7-b78b493db7ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-11-24* — Each Siege will have one of the two listed abilities, depending on your choice as it enters the battlefield.
+  - *2014-11-24* — Each of the last two abilities is linked to the first ability. They each refer only to the choice made as a result of the first ability. If a permanent enters the battlefield as a copy of one of the Sieges, its controller will make a new choice for that Siege. Which ability the copy has won’t depend on the choice made for the original permanent.
+  - *2014-11-24* — The words “Khans” and “Dragons” are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. “[Anchor word] — [Ability]” means “As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability].” Notably, the anchor word “Dragons” has no connection to the creature type Dragon.
+  - *2014-11-24* — The “Dragons” ability adds {2} per spell, not per target. It won’t cause a spell to cost more than {2} more to cast, even if that spell targets you and a permanent you control or more than one permanent you control.
+  - *2014-11-24* — The “Khans” ability happens after you draw the card you normally draw during your draw step. That card and the additional card will be in your hand when you have to discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/88/monastery-siege) · oracle_id `240a33a8-23a0-4cb2-a9fd-1a2a21966bb8` · printing: C17 #88 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Swiftspear
 
@@ -180,7 +218,12 @@
   > *She focused her mind on the volcano's fury, and hers erupted in kind.*
 - **Keywords:** Prowess, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/144/monastery-swiftspear) · oracle_id `dafd2713-d1bc-474b-b390-d2ff20b5375e` · printing: BRO #144 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d6bfa227-4309-40ed-952c-279595eab17e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-09-20* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2014-09-20* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/144/monastery-swiftspear) · oracle_id `dafd2713-d1bc-474b-b390-d2ff20b5375e` · printing: BRO #144 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondo Gecko
 
@@ -193,7 +236,10 @@
 - **Flavor text** (TMT printing):
   > *"Stealth-o-rama, huh? Righteous."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19311 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/46/mondo-gecko) · oracle_id `fa3ae120-756d-4c52-91f9-235767539d67` · printing: TMT #46 (2026-03-06) · [rulings](https://api.scryfall.com/cards/665e44f9-bc0d-40aa-83a4-f7fe64f2506d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-01-27* — Mondo Gecko's first ability causes it to become only the chosen color. It will no longer be the color or colors it was previously. (It will still have hexproof from any other colors chosen that turn.)
+  - *2026-01-27* — The five colors are white, blue, black, red, and green. Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/46/mondo-gecko) · oracle_id `fa3ae120-756d-4c52-91f9-235767539d67` · printing: TMT #46 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondrak, Glory Dominus
 
@@ -204,7 +250,9 @@
   > If one or more tokens would be created under your control, twice that many of those tokens are created instead.
   > {1}{W/P}{W/P}, Sacrifice two other artifacts and/or creatures: Put an indestructible counter on Mondrak. ({W/P} can be paid with either {W} or 2 life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #431 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/23/mondrak-glory-dominus) · oracle_id `fe83087d-c6c1-40be-9295-baaa1c6b2db1` · printing: ONE #23 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8296a455-21d5-498e-9029-2bdf0da855a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Mondrak's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it (such as a Fractal token) the additional token will also get those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/23/mondrak-glory-dominus) · oracle_id `fe83087d-c6c1-40be-9295-baaa1c6b2db1` · printing: ONE #23 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondronen Shaman // Tovolar's Magehunter
 
@@ -220,7 +268,9 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/98/mondronen-shaman-tovolars-magehunter) · oracle_id `f94cb722-7e46-4569-b474-9654ecf7ec14` · printing: DKA #98 (2012-02-03) · [rulings](https://api.scryfall.com/cards/b150d71f-11c9-40d6-a461-4967ef437315/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Tovolar's Magehunter's first triggered ability will resolve before the spell that caused it to trigger. If this causes the player who cast that spell to lose the game, that spell won't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/98/mondronen-shaman-tovolars-magehunter) · oracle_id `f94cb722-7e46-4569-b474-9654ecf7ec14` · printing: DKA #98 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monet, Sensei of the Sewers
 
@@ -231,6 +281,7 @@
   > Fixed commander ninjutsu {3}{B}{G} (It's commander ninjutsu, except the command tax applies, like it should have originally.)
   > When Monet enters, create four 1/1 green Turtle creature tokens with training. If Monet was ninjutsu'd, those tokens enter tapped and attacking. (Whenever a creature with training attacks with another creature with greater power, put a +1/+1 counter on it. This doesn't work if it enteres tapped and attacking.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06g/monet-sensei-of-the-sewers) · oracle_id `29690252-2136-4990-af75-8393eaff72cb` · printing: UNK #RZ06g (2025-08-02) · [rulings](https://api.scryfall.com/cards/75a0e0c4-1adf-429c-94cc-7794a8a2b247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mongoose Lizard
@@ -244,6 +295,7 @@
   > Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Mountaincycling, Landcycling, Menace, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18287 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/148/mongoose-lizard) · oracle_id `a9bae56c-9666-42e8-94ec-03b0a964b142` · printing: TLA #148 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7d40b9cb-82ef-44c5-8d3c-c8bb4ce9891c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mongrel Pack
@@ -254,7 +306,9 @@
 - **Oracle text:**
   > When this creature dies during combat, create four 1/1 green Dog creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/237/mongrel-pack) · oracle_id `e1208d39-86e7-4eae-8dd6-b5bfb29def84` · printing: TMP #237 (1997-10-14) · [rulings](https://api.scryfall.com/cards/56b84315-5287-4401-a4c8-34c192423270/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The Hound tokens are put onto the battlefield if it dies during the combat phase, even if it was not an attacker or blocker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/237/mongrel-pack) · oracle_id `e1208d39-86e7-4eae-8dd6-b5bfb29def84` · printing: TMP #237 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monica Rambeau // Photon, Living Light
 
@@ -273,6 +327,7 @@
   > *. . . her power beyond anyone's wildest dreams.*
 - **Keywords:** Flying, Prowess, Transform, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12931 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/23/monica-rambeau-photon-living-light) · oracle_id `8dd929cb-0fe1-4cb3-bc8d-96ca37f194f3` · printing: MSH #23 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f995518-b12a-4623-9ab3-b79a5cef3cba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moniker Mage
@@ -284,6 +339,7 @@
   > {U}, Say your middle name: This creature gains shroud until end of turn.
   > {U}, Say an opponent's middle name: This creature gains flying until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/39/moniker-mage) · oracle_id `6d28f786-e783-449f-b374-32e3de1b2f12` · printing: UNH #39 (2004-11-19) · [rulings](https://api.scryfall.com/cards/0697ef17-6aa5-4fe0-96ae-9aa0f4c92f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monitor Monitor
@@ -298,7 +354,12 @@
   > *Nine fires, a hull breach, and a Quafloovian meganibbler escaped from the petting zoo. Things were suspiciously quiet.*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/52/monitor-monitor) · oracle_id `f59fe075-f507-4a2c-a65c-725ff3084bd0` · printing: UNF #52 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d2e042a9-0321-4092-8512-ee1d93f3a5f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — If you control multiple Monitor Monitors, you may use each of them once each turn. You may use multiple Monitor Monitors on the same die roll if you wish.
+  - *2022-10-07* — If you roll multiple dice at the same time, paying {1} will let you reroll any number of those dice. You don’t have to pay {1} per die.
+  - *2022-10-07* — You can use Monitor Monitor’s reroll ability on any die roll, including a roll of the planar die in a Planechase game.
+  - *2022-10-07* — You decide whether to use Monitor Monitor’s ability right after you monitor the result of the die roll. You can’t wait and use it to reroll that die later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/52/monitor-monitor) · oracle_id `f59fe075-f507-4a2c-a65c-725ff3084bd0` · printing: UNF #52 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Class
 
@@ -312,7 +373,17 @@
   > {1}{W}{U}: Level 3
   > At the beginning of your upkeep, exile the top card of your library. For as long as it remains exiled, it has "You may cast this card from exile as long as you've cast another spell this turn."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9898 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/228/monk-class) · oracle_id `65b28ec7-1099-4f9d-8d57-2ffd8a5b0e91` · printing: AFR #228 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b2edd708-46ee-4963-b7e6-b631616d78fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — If Monk Class is the first spell you cast, the next spell is the second spell and costs {1} less. If Monk Class is the second (or later) spell you cast, its bonus won't apply until the next turn.
+  - *2021-07-23* — If you have more than one Monk Class on the battlefield, their abilities are cumulative. For example, if you control two Monk Classes, the second spell you cast each turn costs {2} less to cast.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/228/monk-class) · oracle_id `65b28ec7-1099-4f9d-8d57-2ffd8a5b0e91` · printing: AFR #228 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monkey-
 
@@ -324,7 +395,15 @@
   > Augment {2}{G} ({2}{G}, Reveal this card from your hand: Combine it with target host. Augment only as a sorcery.)
 - **Keywords:** Augment
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/115/monkey-) · oracle_id `8937f17f-f052-416a-b5d4-b91b9f0793c9` · printing: UST #115 (2017-12-08) · [rulings](https://api.scryfall.com/cards/569f48f9-db8c-458d-b1c8-fed5fd844bfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — Augment can (and usually does) change the name, card types, subtypes, rules text, and power/toughness. The combined creature will have (at least) two artists and may now have multiple colors. Anything covered up in the augment process doesn’t count, so ignore things to the left of the “metal bar” in the art of host creatures.
+  - *2018-01-19* — Augment can’t target creatures that aren’t host creatures.
+  - *2018-01-19* — Augment is an activated ability that you activate from your hand. To do so, reveal the card, choose a target host creature, and pay the augment cost. As this ability resolves, if the card with augment is still in your hand, put it onto the battlefield combined with the host creature.
+  - *2018-01-19* — Creatures with augment don’t have a mana cost and can’t be cast.
+  - *2018-01-19* — The creature card with augment isn’t put onto the battlefield until the ability resolves. This means if the host is destroyed, the creature with augment stays in your hand. You can’t choose a different host, but you can activate augment again if there’s another host available.
+  - *2018-01-19* — You can’t activate augment unless there is a host creature on the battlefield. It doesn’t need to be yours. Note though that if you augment another player’s host creature, they control the combined creature.
+  - *2018-01-19* — You can’t put more than one augment card on a single host creature. Once a host creature is augmented, the host part gets covered up and it’s no longer a host creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/115/monkey-) · oracle_id `8937f17f-f052-416a-b5d4-b91b9f0793c9` · printing: UST #115 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monkey Cage
 
@@ -333,6 +412,7 @@
 - **Oracle text:**
   > When a creature enters, sacrifice this artifact and create X 2/2 green Monkey creature tokens, where X is that creature's mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/307/monkey-cage) · oracle_id `33a11c01-89a6-446b-84da-e48fd1f27446` · printing: MMQ #307 (1999-10-04) · [rulings](https://api.scryfall.com/cards/07f6be53-7a20-4e6b-a6ce-11cba06af8cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monkey Monkey Monkey
@@ -346,6 +426,7 @@
 - **Flavor text** (UNH printing):
   > *Many matches make more madcap monkey mayhem.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/104/monkey-monkey-monkey) · oracle_id `74fd970e-ccfe-43f0-9a47-6a037b0ecd21` · printing: UNH #104 (2004-11-19) · [rulings](https://api.scryfall.com/cards/39a7c17f-b5fc-4c58-945b-4972bce4614e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Gyatso
@@ -359,7 +440,13 @@
   > *"My ancient cake-making technique isn't the only thing on your mind, is it, Aang?"*
 - **Keywords:** Airbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5307 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/81/monk-gyatso) · oracle_id `ff92fa60-f0fe-496e-8155-d9d6f5af651b` · printing: TLE #81 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e27ed185-eb2b-42dd-b48e-3c8d4456268b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2025-10-02* — Lands exiled this way cannot be played from exile. (Lands that were animated by earthbend will be returned to the battlefield tapped when they're exiled.)
+  - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
+  - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/81/monk-gyatso) · oracle_id `ff92fa60-f0fe-496e-8155-d9d6f5af651b` · printing: TLE #81 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Idealist
 
@@ -371,6 +458,7 @@
 - **Flavor text** (EMA printing):
   > *"Belief is the strongest mortar."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17732 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/21/monk-idealist) · oracle_id `1f47ff5a-dd93-46de-a1ca-b412631218bf` · printing: EMA #21 (2016-06-10) · [rulings](https://api.scryfall.com/cards/31c729e2-4e55-4a14-a288-9c3473e58b88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk of the Open Hand
@@ -383,7 +471,10 @@
 - **Flavor text** (AFR printing):
   > *His mind is a tranquil meadow, his fists a raging storm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/25/monk-of-the-open-hand) · oracle_id `2d3998fc-a68a-4923-a456-b3e43ab6decb` · printing: AFR #25 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d934765f-f490-4e8d-843d-b2b559ee0418/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If Monk of the Open Hand is the second spell you cast in a turn, spells you cast after that point in the same turn will not cause the Flurry of Blows ability to trigger.
+  - *2021-07-23* — Monk of the Open Hand doesn't need to have been on the battlefield as the first spell was cast. For example, if Monk of the Open Hand is the first spell you cast, and then you cast another spell after the Monk resolved, that spell would cause the Flurry of Blows ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/25/monk-of-the-open-hand) · oracle_id `2d3998fc-a68a-4923-a456-b3e43ab6decb` · printing: AFR #25 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Realist
 
@@ -395,6 +486,7 @@
 - **Flavor text** (CMD printing):
   > *"We plant the seeds of doubt to harvest the crop of wisdom."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/20/monk-realist) · oracle_id `8df64d89-64ee-4388-826d-dd091db4510a` · printing: CMD #20 (2011-06-17) · [rulings](https://api.scryfall.com/cards/589d4058-a304-40a4-aa7d-0ebda2877d42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk's Fist
@@ -407,7 +499,12 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/265/monks-fist) · oracle_id `1b524149-340e-4f94-9520-6a5258fabb00` · printing: FIN #265 (2025-06-13) · [rulings](https://api.scryfall.com/cards/995033f0-873d-4e46-b0c9-98ec8ef270ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/265/monks-fist) · oracle_id `1b524149-340e-4f94-9520-6a5258fabb00` · printing: FIN #265 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monoist Circuit-Feeder
 
@@ -421,7 +518,11 @@
   > *It does to ships what the Monoist faith does to stars.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/110/monoist-circuit-feeder) · oracle_id `de70a6bb-32ed-4a89-a522-c2a71f08fb02` · printing: EOE #110 (2025-08-01) · [rulings](https://api.scryfall.com/cards/957ae7aa-98d6-402a-9b20-e3e5b7e8dfe3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — If one target becomes illegal before Monoist Circuit-Feeder’s last ability resolves, the remaining legal target will still get +X/+0 or -0/-X, as appropriate.
+  - *2025-07-25* — If you can’t choose both a creature you control and a creature an opponent controls as targets at the time Monoist Circuit-Feeder’s last ability is put onto the stack, the ability will be removed from the stack and none of its effects will occur.
+  - *2025-07-25* — The value of X is calculated only once, as Monoist Circuit-Feeder’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/110/monoist-circuit-feeder) · oracle_id `de70a6bb-32ed-4a89-a522-c2a71f08fb02` · printing: EOE #110 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monoist Sentry
 
@@ -434,6 +535,7 @@
   > *Monoists fight a war of attrition, knowing their victory is inevitable so long as they stay true to their faith.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/111/monoist-sentry) · oracle_id `0b4cb111-ecf7-4ff7-a9e3-c944054f3370` · printing: EOE #111 (2025-08-01) · [rulings](https://api.scryfall.com/cards/acc503e2-5c3a-4200-beb0-7d193d6c869e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monologue Tax
@@ -446,7 +548,11 @@
   > *Never interrupt a villain when they are making a long-winded mistake.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1047 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/139/monologue-tax) · oracle_id `ace8e88e-ca6a-4bdf-8c6d-1b914fc00259` · printing: MSC #139 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ee68d390-11cb-4617-a9ee-6e8cf7ff0e55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — It doesn't matter if Monologue Tax was on the battlefield for the first spell. It also doesn't matter if that first spell resolved or not.
+  - *2021-04-16* — Nothing special happens on the third spell, fourth spell, and so on.
+  - *2021-04-16* — The ability can trigger once each turn for each opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/139/monologue-tax) · oracle_id `ace8e88e-ca6a-4bdf-8c6d-1b914fc00259` · printing: MSC #139 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monomania
 
@@ -458,7 +564,9 @@
   > *"What do vermin cling to when all hope is lost?"*
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23406 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/102/monomania) · oracle_id `29c6935e-ef64-4298-af74-9b18eed93136` · printing: M12 #102 (2011-07-15) · [rulings](https://api.scryfall.com/cards/6af53d7f-7f02-4c35-b6f4-7365d121ba54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If there are one or zero cards in the player’s hand, they will discard no cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/102/monomania) · oracle_id `29c6935e-ef64-4298-af74-9b18eed93136` · printing: M12 #102 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monoskelion
 
@@ -471,6 +579,7 @@
 - **Flavor text** (MH2 printing):
   > *An unfinished body with unfinished business.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18879 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/229/monoskelion) · oracle_id `c16d79d9-c159-421f-90a2-13313a1de5f6` · printing: MH2 #229 (2021-06-18) · [rulings](https://api.scryfall.com/cards/4736aae2-5136-4f8f-9283-baf6b542a6a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monoxa, Midway Manager
@@ -484,7 +593,15 @@
 - **Flavor text** (UNF printing):
   > *"Can we get this ghost 11% spookier?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14439 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/173/monoxa-midway-manager) · oracle_id `d8e6cdab-234a-46b9-8b6c-164034cf2bc7` · printing: UNF #173 (2022-10-07) · [rulings](https://api.scryfall.com/cards/90b43168-44fb-439f-80e7-cb2539ca511f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+  - *2022-10-07* — The die roll caused by the activated ability has no inherent effect: you just roll a six-sided die, but any ability that triggers whenever you roll a die will trigger. Abilities that trigger whenever you roll a specific result, such as Monoxa's first ability, may also trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/173/monoxa-midway-manager) · oracle_id `d8e6cdab-234a-46b9-8b6c-164034cf2bc7` · printing: UNF #173 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monsoon
 
@@ -496,6 +613,7 @@
   > *"No one in her right mind would venture off the coast of Kjeldor during this season."*
   > *—Disa the Restless, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27428 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/298/monsoon) · oracle_id `a86e7de8-8448-406c-b162-22c62bdc3813` · printing: ICE #298 (1995-06-03) · [rulings](https://api.scryfall.com/cards/254fcc50-79a5-40cd-b028-e78dde3f8480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mons's Goblin Raiders
@@ -508,6 +626,7 @@
 - **Flavor text** (S00 printing):
   > *Just because they have a club doesn't mean they're organized.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24760 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s00/32/monss-goblin-raiders) · oracle_id `a37159df-f6d7-4db6-85de-0ea77f425993` · printing: S00 #32 (2000-04-01) · [rulings](https://api.scryfall.com/cards/58b7a22b-f354-4f42-9354-d149bb9b3645/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mons's Goblin Waiters
@@ -524,6 +643,7 @@
   > *Unicorn-on-the-Cob*
   > *Wormfang Turtle Soup*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/82/monss-goblin-waiters) · oracle_id `20578bbb-7dc9-4ea1-a974-fa149b0e6438` · printing: UNH #82 (2004-11-19) · [rulings](https://api.scryfall.com/cards/729238ee-b3ea-4c1d-852c-2dc9a2c58356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster Manual // Zoological Study
@@ -539,7 +659,19 @@
   > *The detail really makes the monsters jump off the page.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1913 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/242/monster-manual-zoological-study) · oracle_id `6d4e7943-1fdf-4085-8af0-658badbd0cb8` · printing: CLB #242 (2022-06-10) · [rulings](https://api.scryfall.com/cards/27223ee4-970a-438a-beff-a1b13b14aff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/242/monster-manual-zoological-study) · oracle_id `6d4e7943-1fdf-4085-8af0-658badbd0cb8` · printing: CLB #242 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster Mash-Up
 
@@ -548,6 +680,7 @@
 - **Oracle text:**
   > Put two target creature cards from graveyards onto the battlefield combined into one creature under your control. (The creature has the combined power and toughness of its cards. It has their names, types, text boxes, etc. They separate again if the creature leaves the battlefield.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB15/monster-mash-up) · oracle_id `817f08a9-dbbf-4c68-9acb-1e6a8ba56b1e` · printing: UNK #RB15 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b75d0563-339e-40d5-821c-56b062cc04b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster Mashup
@@ -563,6 +696,7 @@
   > *—Krang*
 - **Keywords:** Reach, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30366 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/117/monster-mashup) · oracle_id `485e1d84-2867-4c66-a399-cdc2a22f6fc9` · printing: TMC #117 (2026-03-06) · [rulings](https://api.scryfall.com/cards/e27bc544-ff5f-405c-914e-b727341b776e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster // Sorcerer
@@ -576,6 +710,7 @@
   > Enchanted creature gets +1/+1 and has "Whenever this creature attacks, scry 1."
 - **Keywords:** Enchant, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/twoe/15/monster-sorcerer) · oracle_id `ed95e696-3e4d-4b2b-9327-46fc2604652c` · printing: TWOE #15 (2023-09-08) · [rulings](https://api.scryfall.com/cards/6b8a810b-8538-41c3-a792-dbd1a1845faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster // Virtuous
@@ -589,6 +724,7 @@
   > Enchanted creature gets +1/+1 for each enchantment you control.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/twoc/1/monster-virtuous) · oracle_id `0873438f-14c4-4427-b42e-9f531ce86e7d` · printing: TWOC #1 (2023-09-08) · [rulings](https://api.scryfall.com/cards/27927100-2587-4e05-9957-eb183d46c1f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrify
@@ -602,7 +738,12 @@
   > *Gackt came to regret keeping his pet toads on his head.*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/70/monstrify) · oracle_id `0f58f791-469a-4a22-996e-4906c0914858` · printing: EVE #70 (2008-07-25) · [rulings](https://api.scryfall.com/cards/585b52bc-aff5-4406-b55b-1b7decfd80f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You’re casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it’s still in the graveyard.
+  - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it’s put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/70/monstrify) · oracle_id `0f58f791-469a-4a22-996e-4906c0914858` · printing: EVE #70 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrosity of the Lake
 
@@ -614,7 +755,10 @@
   > Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Islandcycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5745 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/22/monstrosity-of-the-lake) · oracle_id `c5f52c7f-5dba-4d4c-8acc-068732964031` · printing: LTC #22 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d72aa8fc-6808-4865-879e-417a300c40de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/22/monstrosity-of-the-lake) · oracle_id `c5f52c7f-5dba-4d4c-8acc-068732964031` · printing: LTC #22 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Carabid
 
@@ -628,7 +772,9 @@
   > *What happens when a plane of predators collides with four planes of prey?*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24032 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/43/monstrous-carabid) · oracle_id `2e29025e-6954-4fbd-933f-81c2309c704e` · printing: ARB #43 (2009-04-30) · [rulings](https://api.scryfall.com/cards/b09e668d-02ca-4164-88ee-c7ea6c665975/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/43/monstrous-carabid) · oracle_id `2e29025e-6954-4fbd-933f-81c2309c704e` · printing: ARB #43 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Emergence
 
@@ -638,7 +784,9 @@
   > As an additional cost to cast this spell, choose a creature you control or reveal a creature card from your hand.
   > Monstrous Emergence deals damage equal to the power of the creature you chose or the card you revealed to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11369 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/191/monstrous-emergence) · oracle_id `5542ea4d-34ab-4f89-8894-793a7038f501` · printing: DSK #191 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b999eb47-b842-47f1-be91-c79fc46e1896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If you chose a creature on the battlefield, use that creature's power when Monstrous Emergence resolves to determine how much damage is dealt. If that creature is no longer on the battlefield when Monstrous Emergence resolves, use that creature's power as it last existed on the battlefield to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/191/monstrous-emergence) · oracle_id `5542ea4d-34ab-4f89-8894-793a7038f501` · printing: DSK #191 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Growth
 
@@ -649,6 +797,7 @@
 - **Flavor text** (8ED printing):
   > *Get in touch with your inner monster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20914 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/266/monstrous-growth) · oracle_id `35a05836-38d7-45c7-ac9a-996a682c2129` · printing: 8ED #266 (2003-07-28) · [rulings](https://api.scryfall.com/cards/7e5a2687-af7a-42ad-8938-f3534c7da222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Hound
@@ -662,6 +811,7 @@
 - **Flavor text** (EXO printing):
   > *"Stay."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31846 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/89/monstrous-hound) · oracle_id `97589fbb-3bd9-49c9-b8d8-bdc895a7f1e6` · printing: EXO #89 (1998-06-15) · [rulings](https://api.scryfall.com/cards/d5066b1b-3910-4434-83d6-030851f20bcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Onslaught
@@ -674,7 +824,12 @@
   > *"Regards from Peema."*
   > *—Rishkar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/244/monstrous-onslaught) · oracle_id `52be3da7-1e55-44c4-88bc-fb578a635ec0` · printing: CMR #244 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ffc27f7f-5dd4-4f1d-ba3f-a4b0400cdc72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — If some of the targets become illegal, the original division of damage still applies. The damage that was divided among the illegal targets simply isn't dealt; it isn't re-assigned to remaining legal targets.
+  - *2020-11-10* — The damage is dealt by Monstrous Onslaught, not by the creature with the greatest power among creatures you control.
+  - *2020-11-10* — The value of X is determined at the time you divide damage. It won't change later, even if the greatest power among creatures you control changes.
+  - *2020-11-10* — You divide the damage among the target creatures as you cast Monstrous Onslaught. Each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/244/monstrous-onslaught) · oracle_id `52be3da7-1e55-44c4-88bc-fb578a635ec0` · printing: CMR #244 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Rage
 
@@ -687,7 +842,16 @@
   > *—Thomas the woodsman, last words*
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/142/monstrous-rage) · oracle_id `646a2371-54c0-4492-ac2f-20f109d6108c` · printing: WOE #142 (2023-09-08) · [rulings](https://api.scryfall.com/cards/eef5a0ae-5907-42c9-a097-3f973737e392/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/142/monstrous-rage) · oracle_id `646a2371-54c0-4492-ac2f-20f109d6108c` · printing: WOE #142 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Step
 
@@ -700,7 +864,11 @@
   > *Life is best taken one step at a time.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24160 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/166/monstrous-step) · oracle_id `af045109-ed00-469f-814b-c759c0c5357c` · printing: IKO #166 (2020-04-24) · [rulings](https://api.scryfall.com/cards/893f300b-a823-4156-90f2-0636e9f499b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Creatures other than the second target creature may still block the first target creature if able.
+  - *2020-04-17* — If a creature is required to block a creature with menace, another creature must also block that creature if able. If none can, the creature that’s required to block can block another creature or not block at all.
+  - *2020-04-17* — If the second target creature can’t block the first target creature for any reason (such as being tapped), then it doesn’t block. If there’s a cost associated with having it block the creature, the player isn’t forced to pay that cost, so it doesn’t have to block in that case either. That creature is free to block another creature or to not block at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/166/monstrous-step) · oracle_id `af045109-ed00-469f-814b-c759c0c5357c` · printing: IKO #166 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Vortex
 
@@ -710,7 +878,17 @@
   > Whenever you cast a creature spell with power 5 or greater, discover X, where X is that spell's mana value. (Exile cards from the top of your library until you exile a nonland card with that mana value or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/162/monstrous-vortex) · oracle_id `6e27956e-ba2f-41a9-8e39-ec54424591b6` · printing: MH3 #162 (2024-06-14) · [rulings](https://api.scryfall.com/cards/162fcdec-bf3c-43ba-9ada-212f7dec5fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2024-06-07* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-06-07* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2024-06-07* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2024-06-07* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine™ with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2024-06-07* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2024-06-07* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2024-06-07* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2024-06-07* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/162/monstrous-vortex) · oracle_id `6e27956e-ba2f-41a9-8e39-ec54424591b6` · printing: MH3 #162 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous War-Leech
 
@@ -723,7 +901,17 @@
   > Monstrous War-Leech's power and toughness are each equal to the greatest mana value among cards in your graveyard.
 - **Keywords:** Mill, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26257 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/98/monstrous-war-leech) · oracle_id `b92f2a4c-36dc-40a6-a874-7405fc97fb7a` · printing: DMU #98 (2022-09-09) · [rulings](https://api.scryfall.com/cards/660d7983-b335-48b4-898d-f182effcf2de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-09-09* — If Monstrous War-Leech was kicked, it enters the battlefield with power and toughness each equal to the highest mana value among cards in your graveyard, including cards that were milled due to its replacement effect. For example, if you have no cards in your graveyard as it enters and you mill three land cards and a card with mana value 4, Monstrous War-Leech is a 4/4 creature entering the battlefield.
+  - *2022-09-09* — If a card in a graveyard has an {X} in its mana cost, X is 0.
+  - *2022-09-09* — Monstrous War-Leech's second ability is a replacement effect, not a triggered ability. It happens at the same time that Monstrous War-Leech enters the battlefield, it doesn't use the stack, and it can't be responded to.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/98/monstrous-war-leech) · oracle_id `b92f2a4c-36dc-40a6-a874-7405fc97fb7a` · printing: DMU #98 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monumental Corruption
 
@@ -735,6 +923,7 @@
   > *"Funny, I always thought the Phyrexians were a heartless lot."*
   > *—Kaya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9012 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/24/monumental-corruption) · oracle_id `0b49924b-cf83-46d9-b665-9c718a40e16c` · printing: ONC #24 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2da97319-de80-4d71-82fc-715109cf8e2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monumental Henge
@@ -746,7 +935,9 @@
   > {T}: Add {W}.
   > {2}{W}{W}, {T}: Look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1482 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/222/monumental-henge) · oracle_id `c48df45c-3513-4d56-aed6-30c2f3a759cd` · printing: MH3 #222 (2024-06-14) · [rulings](https://api.scryfall.com/cards/62907e7b-e531-4f51-9a69-7e60ae525775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — You must already control a Plains as Monumental Henge enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Plains when you control no other Plains, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/222/monumental-henge) · oracle_id `c48df45c-3513-4d56-aed6-30c2f3a759cd` · printing: MH3 #222 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monument to Endurance
 
@@ -761,7 +952,9 @@
   > *Loss is not the end of the journey.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #930 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/237/monument-to-endurance) · oracle_id `e69e8de4-b521-4888-8074-17f1efe2f345` · printing: DFT #237 (2025-02-14) · [rulings](https://api.scryfall.com/cards/d21433ba-0a14-42bc-ad0b-a4ef823a3295/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — If you discard a card after all three have been chosen in a turn, that instance of the ability is removed from the stack with no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/237/monument-to-endurance) · oracle_id `e69e8de4-b521-4888-8074-17f1efe2f345` · printing: DFT #237 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monument to Perfection
 
@@ -771,4 +964,14 @@
   > {3}, {T}: Search your library for a basic, Sphere, or Locus land card, reveal it, put it into your hand, then shuffle.
   > {3}: This artifact becomes a 9/9 Phyrexian Construct artifact creature, loses all abilities, and gains indestructible and toxic 9. Activate only if there are nine or more lands with different names among the basic, Sphere, and Locus lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/233/monument-to-perfection) · oracle_id `df4bb104-d939-434f-8a1c-e89beda27c90` · printing: ONE #233 (2023-02-10) · [rulings](https://api.scryfall.com/cards/ab892e7b-6797-4ede-ab5d-d9d0fa488c80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Because the last ability causes Monument to Perfection to lose all the abilities, activating it multiple times before the first activation resolves does not result in it having multiple instances of toxic 9.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Monument to Perfection's last ability lasts indefinitely.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/233/monument-to-perfection) · oracle_id `df4bb104-d939-434f-8a1c-e89beda27c90` · printing: ONE #233 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

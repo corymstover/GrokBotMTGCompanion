@@ -22,4 +22,7 @@
   > *"Never shall our grief be assuaged nor our loss forgotten."*
 - **Keywords:** Flying, Shiva's Aid, Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7735 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/37/hraesvelgr-of-the-first-brood) · oracle_id `44cbf70c-61cf-473e-901d-039956ced642` · printing: FIC #37 (2025-06-13) · [rulings](https://api.scryfall.com/cards/abcfefe3-c66d-4512-bcc3-c9a39cfbb983/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — Hraesvelgr's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — Once a creature has been blocked, Hraesvelgr's last ability won't cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/37/hraesvelgr-of-the-first-brood) · oracle_id `44cbf70c-61cf-473e-901d-039956ced642` · printing: FIC #37 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

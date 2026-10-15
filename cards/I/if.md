@@ -21,6 +21,7 @@
   > {G}: This creature deals 1 damage to each creature with flying and each player. Any player may activate this ability.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28804 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/123/ifh-b%C3%ADff-efreet) · oracle_id `e503a4f2-a785-4e7a-89a7-a9b24fb98831` · printing: ME1 #123 (2007-09-10) · [rulings](https://api.scryfall.com/cards/f4c21c0d-91ee-4c2c-bfa4-81bb07106842/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ifnir Deadlands
@@ -32,4 +33,7 @@
   > {T}, Pay 1 life: Add {B}.
   > {2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/153/ifnir-deadlands) · oracle_id `af698bd5-5f56-4d2a-9f02-8c3e781210cd` · printing: ECC #153 (2026-01-23) · [rulings](https://api.scryfall.com/cards/902e260d-71ba-4342-9794-fefe2b531c00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — If a Desert has an ability with a cost of “Sacrifice a Desert,” you can sacrifice that Desert to pay the cost for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/153/ifnir-deadlands) · oracle_id `af698bd5-5f56-4d2a-9f02-8c3e781210cd` · printing: ECC #153 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

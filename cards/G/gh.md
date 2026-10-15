@@ -115,6 +115,7 @@
   > *A special unit guards the loxodon artificer known as Ghalma the Shaper. They are armed and armored in her finest works of silver and steel.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/8/ghalmas-warden) · oracle_id `3b17dc39-a564-4c61-b483-98ed3da4361b` · printing: SOM #8 (2010-10-01) · [rulings](https://api.scryfall.com/cards/efbf5ff1-6539-4116-ad4f-ce412ae20640/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta and Mavren
@@ -129,7 +130,13 @@
   > • Create X 1/1 white Vampire creature tokens with lifelink, where X is the number of other attacking creatures.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1777 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/225/ghalta-and-mavren) · oracle_id `756042c5-e444-45d7-8dc6-ae7c83c98438` · printing: MOM #225 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a9ec900f-1e31-4440-a75a-20b256734d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — Although the Dinosaur token enters the battlefield attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2023-04-14* — For both modes, the value of X is determined as the ability resolves.
+  - *2023-04-14* — If you choose the first mode and there are no other attacking creatures, you’ll create a 0/0 Dinosaur token. Unless something else is immediately raising its toughness, the token will die. You won’t have time to respond with a spell or ability to try and save it. A similar situation occurs if the greatest power among other attacking creatures is 0 or less.
+  - *2023-04-14* — If you choose the second mode and there are no other attacking creatures, you won’t create any Vampire tokens.
+  - *2023-04-14* — You choose which player, planeswalker, or battle the Dinosaur token is attacking. It doesn’t have to be the same player, planeswalker, or battle that Ghalta and Mavren is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/225/ghalta-and-mavren) · oracle_id `756042c5-e444-45d7-8dc6-ae7c83c98438` · printing: MOM #225 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta, Primal Hunger
 
@@ -143,7 +150,12 @@
   > *The earth walks, strongest of all.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/222/ghalta-primal-hunger) · oracle_id `b0b6be0c-41cf-4757-9f0e-87227b6ba6b3` · printing: FDN #222 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6a9c39e4-a8cf-42dd-8d0e-45634b335546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — Ghalta's first ability can't reduce its cost below {G}{G}.
+  - *2018-01-19* — If a creature's power is somehow less than 0, it subtracts from the total power of your other creatures. If the total power of your creatures is 0 or less, Ghalta's cost remains {10}{G}{G}.
+  - *2018-01-19* — The total cost to cast Ghalta is locked in before you pay that cost. For example, if you control three 2/2 creatures, including one you can sacrifice to add {C}, the total cost of Ghalta is {4}{G}{G}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
+  - *2018-01-19* — To determine Ghalta's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases, then apply any cost reductions. Ghalta's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/222/ghalta-primal-hunger) · oracle_id `b0b6be0c-41cf-4757-9f0e-87227b6ba6b3` · printing: FDN #222 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta, Stampede Tyrant
 
@@ -157,6 +169,7 @@
   > *A thundering roar calls forth a primeval army.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1082 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/185/ghalta-stampede-tyrant) · oracle_id `b8f16311-be5a-4648-b024-849a61dff0bc` · printing: LCI #185 (2023-11-17) · [rulings](https://api.scryfall.com/cards/72e805e9-69be-45c1-aa04-f460641a0c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta the Immovable
@@ -169,7 +182,14 @@
   > Creatures you control can attack as though they didn't have defender.
   > Each creature you control with toughness greater than its power assigns combat damage equal to its toughness rather than its power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15075 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/197/ghalta-the-immovable) · oracle_id `0d496c6e-8f7b-420f-9197-dacd2feb528f` · printing: FRA #197 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a9f3aa55-908f-42db-8135-4201433df850/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — Ghalta the Immovable's cost reduction ability can't reduce the total cost to cast the spell below {W}.
+  - *2026-08-21* — Ghalta the Immovable's last ability doesn't actually change any creature's power. It changes only the amount of combat damage the creature assigns. All other rules and effects that check power or toughness use the real values, even if they cause damage "equal to a creature's power" to be dealt.
+  - *2026-08-21* — Ghalta the Immovable's mana value doesn't change no matter what the greatest toughness of creatures you control is.
+  - *2026-08-21* — Once you announce you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to reduce the toughness of creatures you control.
+  - *2026-08-21* — Once you determine the cost to cast Ghalta the Immovable, you may activate mana abilities to pay that cost. If the greatest toughness of creatures you control changes while activating mana abilities, the cost to cast Ghalta remains what you previously determined.
+  - *2026-08-21* — The first step of casting a spell is to move it to the stack. If this causes the greatest toughness of creatures you control to change (perhaps because you control a creature whose toughness is determined by the number of cards in your hand), that new toughness will be used to determine the cost reduction.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/197/ghalta-the-immovable) · oracle_id `0d496c6e-8f7b-420f-9197-dacd2feb528f` · printing: FRA #197 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta the Unstoppable
 
@@ -184,7 +204,13 @@
   > *The apex of nature's ferocity.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11508 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/260/ghalta-the-unstoppable) · oracle_id `8e5ea773-a60b-4502-9db5-ce93fa61cc89` · printing: FRA #260 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1d535b5f-c916-4f16-89a7-9477578826d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Ghalta the Unstoppable's cost reduction ability can't reduce the total cost to cast the spell below {G}.
+  - *2026-08-21* — Ghalta the Unstoppable's mana value doesn't change no matter what the greatest power of creatures you control is.
+  - *2026-08-21* — Once you announce you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to reduce the power of creatures you control.
+  - *2026-08-21* — Once you determine the cost to cast Ghalta the Unstoppable, you may activate mana abilities to pay that cost. If the greatest power of creatures you control changes while activating mana abilities, the cost to cast Ghalta remains what you previously determined.
+  - *2026-08-21* — The first step of casting a spell is to move it to the stack. If this causes the greatest power of creatures you control to change (perhaps because you control a creature whose power is determined by the number of cards in your hand), that new power will be used to determine the cost reduction.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/260/ghalta-the-unstoppable) · oracle_id `8e5ea773-a60b-4502-9db5-ce93fa61cc89` · printing: FRA #260 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastbark Twins
 
@@ -198,6 +224,7 @@
   > *They grow closer with every passing season.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18758 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/181/ghastbark-twins) · oracle_id `bdd0d01d-b9f2-4c3f-9b3b-04e122013de5` · printing: M19 #181 (2018-07-13) · [rulings](https://api.scryfall.com/cards/d470e441-3520-4669-aaa5-f0c57829352a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastlord of Fugue
@@ -212,6 +239,7 @@
   > *"He is a ghost that has never known life."*
   > *—\*The Seer's Parables\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/162/ghastlord-of-fugue) · oracle_id `fce163aa-c5d0-4147-8566-512321c0be8e` · printing: SHM #162 (2008-05-02) · [rulings](https://api.scryfall.com/cards/8b118200-55e0-4d06-9e7e-ecde2814d24e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Conscription
@@ -222,7 +250,23 @@
   > Exile all creature cards from target player's graveyard in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/115/ghastly-conscription) · oracle_id `3bf20e68-0e19-4242-bfba-a8a1bb244685` · printing: C19 #115 (2019-08-23) · [rulings](https://api.scryfall.com/cards/8495d903-ef30-4aaa-9fe6-239dc0e34977/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — If you manifest a card owned by an opponent and you leave the game, that card is exiled.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — The pile is shuffled to disguise from your opponents which manifested creature is which. After you manifest the cards, you can look at them.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/115/ghastly-conscription) · oracle_id `3bf20e68-0e19-4242-bfba-a8a1bb244685` · printing: C19 #115 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Death Tyrant
 
@@ -235,6 +279,7 @@
   > • Death Ray — Creatures you control gain deathtouch until end of turn.
 - **Keywords:** Death Ray, Disintegration Ray
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/127/ghastly-death-tyrant) · oracle_id `ccd248ec-1029-47cd-b6b4-876505efd9dd` · printing: CLB #127 (2022-06-10) · [rulings](https://api.scryfall.com/cards/564728ed-dbf0-471c-a34a-5bd3b486b7e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Demise
@@ -247,7 +292,10 @@
   > *"Anyone can snap her fingers and yank a soul. I prefer to kill creatively."*
   > *—Braids, dementia summoner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/129/ghastly-demise) · oracle_id `e02e7239-304b-4755-b913-bb65bc693e86` · printing: CMR #129 (2020-11-20) · [rulings](https://api.scryfall.com/cards/7fcfe11a-fcc9-41e1-91ef-755bb4e22389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Because Ghastly Demise isn't put into your graveyard until it's finished resolving, it won't be counted when determining whether the creature is destroyed.
+  - *2020-11-10* — Ghastly Demise can target any nonblack creature. Compare the creature's toughness to the number of cards in your graveyard as Ghastly Demise resolves to see if that creature is destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/129/ghastly-demise) · oracle_id `e02e7239-304b-4755-b913-bb65bc693e86` · printing: CMR #129 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Discovery
 
@@ -260,6 +308,7 @@
   > *Korrigans, spirits bound to sources of water, shriek when they come upon their own drowned corpses.*
 - **Keywords:** Conspire
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/39/ghastly-discovery) · oracle_id `1ca875f0-50a7-4332-8643-c2b4bbda18b1` · printing: SHM #39 (2008-05-02) · [rulings](https://api.scryfall.com/cards/9dbd510a-d71f-4b0c-bc6c-e403f632cbdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Gloomhunter
@@ -275,7 +324,14 @@
   > *Stinking, silent death.*
 - **Keywords:** Kicker, Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14371 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/103/ghastly-gloomhunter) · oracle_id `70ab65ff-724f-4126-b472-97fa03ca3a34` · printing: ZNR #103 (2020-09-25) · [rulings](https://api.scryfall.com/cards/f272ac54-fea8-4044-83e2-f8fdc10f467d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/103/ghastly-gloomhunter) · oracle_id `70ab65ff-724f-4126-b472-97fa03ca3a34` · printing: ZNR #103 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghastly Remains
 
@@ -287,6 +343,7 @@
   > At the beginning of your upkeep, if this card is in your graveyard, you may pay {B}{B}{B}. If you do, return it to your hand.
 - **Keywords:** Amplify
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29340 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/71/ghastly-remains) · oracle_id `0eafe734-19f2-492d-bfc2-d0c75ece45b2` · printing: LGN #71 (2003-02-03) · [rulings](https://api.scryfall.com/cards/63e67323-df54-4043-a6b6-18bb89ef1f62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghave, Guru of Spores
@@ -299,6 +356,7 @@
   > {1}, Remove a +1/+1 counter from a creature you control: Create a 1/1 green Saproling creature token.
   > {1}, Sacrifice a creature: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9823 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/216/ghave-guru-of-spores) · oracle_id `e579a72f-4933-40fe-9e57-96f8d65370bc` · printing: 2X2 #216 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c2be0e99-cf43-423f-974f-02e3313b3aa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghazbán Ogre
@@ -309,6 +367,7 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if a player has more life than each other player, the player with the most life gains control of this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/120/ghazb%C3%A1n-ogre) · oracle_id `d361bdd4-afb8-493d-9091-ebe22f215834` · printing: ME1 #120 (2007-09-10) · [rulings](https://api.scryfall.com/cards/1e14cf3a-3c5a-4c22-88d1-1b19660b2e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghazbán Ogress
@@ -319,6 +378,7 @@
 - **Oracle text:**
   > When this creature enters, if one player has won more Magic games that day than any other player, that player gains control of this creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/60/ghazb%C3%A1n-ogress) · oracle_id `6eb03f6c-9293-4403-8bd1-5e32629fc791` · printing: UGL #60 (1998-08-11) · [rulings](https://api.scryfall.com/cards/17c18690-cf8c-4006-a981-6258d18ba538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghen, Arcanum Weaver
@@ -331,7 +391,10 @@
 - **Flavor text** (CMR printing):
   > *"Any apprentice with a spellbook and two sticks can churn out a fireball. This is different. This is art."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9563 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/275/ghen-arcanum-weaver) · oracle_id `6ac59552-9562-492c-aea4-4d64bad58e3e` · printing: CMR #275 (2020-11-20) · [rulings](https://api.scryfall.com/cards/4b335496-05d2-40f5-a52c-10029f7fa008/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in your graveyard.
+  - *2020-11-10* — Because targets are chosen before costs are paid (such as the cost of sacrificing an enchantment), Ghen's ability can't target the enchantment you intend to sacrifice to activate its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/275/ghen-arcanum-weaver) · oracle_id `6ac59552-9562-492c-aea4-4d64bad58e3e` · printing: CMR #275 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Aether Grid
 
@@ -342,7 +405,9 @@
 - **Flavor text** (MOC printing):
   > *The city of Ghirapur is a living thing, and living things defend themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6684 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/281/ghirapur-aether-grid) · oracle_id `05d75b10-4f20-4083-af27-f85c6e207fd0` · printing: MOC #281 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4ec852e9-bff8-4a07-8bc9-165484494c62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — You may tap any two untapped artifacts you control, including artifact creatures that haven't been under your control continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/281/ghirapur-aether-grid) · oracle_id `05d75b10-4f20-4083-af27-f85c6e207fd0` · printing: MOC #281 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Gearcrafter
 
@@ -354,6 +419,7 @@
 - **Flavor text** (DDU printing):
   > *The metal must be pure. The hand must be steady. The product must be perfect.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22497 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/46/ghirapur-gearcrafter) · oracle_id `710dc9b1-7d32-4330-95a8-3e91a668202a` · printing: DDU #46 (2018-04-06) · [rulings](https://api.scryfall.com/cards/e6087550-9f15-4a06-b030-18b0be652065/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Guide
@@ -366,7 +432,10 @@
 - **Flavor text** (JMP printing):
   > *Fairgoers were delighted to find that even outside the fairgrounds, Ghirapur was a city of wonders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24965 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/400/ghirapur-guide) · oracle_id `92d5bb7e-08ba-448e-8763-f47c89505e80` · printing: JMP #400 (2020-07-17) · [rulings](https://api.scryfall.com/cards/23680a1a-7c8d-4ea0-a62c-a302f07b6ed5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — Once a creature with power 2 or less has blocked a creature, activating Ghirapur Guide's ability won't change or undo that block.
+  - *2018-07-13* — Once a creature with power 3 or greater has blocked the target creature, changing the power of the blocking creature won't change or undo that block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/400/ghirapur-guide) · oracle_id `92d5bb7e-08ba-448e-8763-f47c89505e80` · printing: JMP #400 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Orrery
 
@@ -378,7 +447,14 @@
 - **Flavor text** (KLD printing):
   > *This detailed model allows the edificers to examine the city from every angle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/216/ghirapur-orrery) · oracle_id `c6bb3a58-131a-4d7b-8c07-173a7de23b06` · printing: KLD #216 (2016-09-30) · [rulings](https://api.scryfall.com/cards/c9bff744-873b-4fa1-8088-5f28bbcdc7b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2016-09-20* — Ghirapur Orrery's first ability allows a player to play an additional land during their main phase. Doing so follows the normal timing rules for playing lands.
+  - *2016-09-20* — Ghirapur Orrery's first ability is cumulative if more than one is on the battlefield.
+  - *2016-09-20* — If the player has any cards in hand as Ghirapur Orrery's second ability resolves, the ability does nothing. Notably, a second Ghirapur Orrery won't have a player draw another three cards unless the player empties their hand after resolving the first one's trigger.
+  - *2016-09-20* — In a Two-Headed Giant game, Ghirapur Orrery's second ability triggers for each player on a team separately. If one player has cards in hand, it can still trigger for the other player.
+  - *2016-09-20* — No player may take actions in a turn before Ghirapur Orrery's second ability checks to see if it should trigger. If the player whose turn it is has any cards in hand, it won't trigger.
+  - *2016-09-20* — The draw step is after the upkeep step, so drawing a card as a turn-based action won't affect whether Ghirapur Orrery's second ability triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/216/ghirapur-orrery) · oracle_id `c6bb3a58-131a-4d7b-8c07-173a7de23b06` · printing: KLD #216 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Osprey
 
@@ -391,6 +467,7 @@
   > *Many airship captains keep pets that share their love of the sky.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/20/ghirapur-osprey) · oracle_id `b4de9edd-4a5b-4858-8454-38381df8b9a2` · printing: AER #20 (2017-01-20) · [rulings](https://api.scryfall.com/cards/2186f382-2d68-4191-b490-a072f49eaabf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghired, Conclave Exile
@@ -403,7 +480,18 @@
   > Whenever Ghired attacks, populate. The token enters tapped and attacking. (To populate, create a token that's a copy of a creature token you control.)
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12467 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/42/ghired-conclave-exile) · oracle_id `ce08fbfb-5d51-4dfc-80ae-87d5d9c7726f` · printing: C19 #42 (2019-08-23) · [rulings](https://api.scryfall.com/cards/d0825bcd-8cf8-498a-a61e-406f136e1f3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-08-23* — Although the token is an attacking creature, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when it enters the battlefield attacking.
+  - *2019-08-23* — Any effects that say that the token can't attack (such as that of Doomed Artisan, or if you copy a token with defender) affect only the declaration of attackers. They won't stop the token you populate from entering the battlefield attacking.
+  - *2019-08-23* — In some rare cases, you might copy a creature token that isn't normally a creature. This token enters the battlefield as a noncreature permanent. It will be tapped but it won't be attacking.
+  - *2019-08-23* — You choose which player or planeswalker the created token is attacking. It doesn't have to be attacking the same player or planeswalker that Ghired is attacking.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/42/ghired-conclave-exile) · oracle_id `ce08fbfb-5d51-4dfc-80ae-87d5d9c7726f` · printing: C19 #42 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghired, Mirror of the Wilds
 
@@ -417,7 +505,12 @@
   > *"The Conclave was soft. The Clans were trapped beasts. Here in this untamed wilderness, nature can truly roam free."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9682 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/205/ghired-mirror-of-the-wilds) · oracle_id `34b36022-0d93-48cc-a2cc-90ca4d65dc31` · printing: OTJ #205 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e43e3d71-4fb8-4ab1-8c8f-b65ae3ad4cc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied token will also work.
+  - *2024-04-12* — If the copied token has {X} in its mana cost, X is 0. (Most tokens don’t have a mana cost unless they’re copying something else.)
+  - *2024-04-12* — If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied.
+  - *2024-04-12* — The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/205/ghired-mirror-of-the-wilds) · oracle_id `34b36022-0d93-48cc-a2cc-90ca4d65dc31` · printing: OTJ #205 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghired's Belligerence
 
@@ -430,7 +523,17 @@
   > *—Ghired, Conclave exile*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9450 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/25/ghireds-belligerence) · oracle_id `d543cc69-4b8a-4c45-99e1-84143d663f25` · printing: C19 #25 (2019-08-23) · [rulings](https://api.scryfall.com/cards/b8348ef6-f2ae-4277-ae04-7849c508f0e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2019-08-23* — If a target creature becomes an illegal target in response to Ghired's Belligerence, the damage that would have been dealt to that creature is lost. It can't be dealt instead to another legal target.
+  - *2019-08-23* — The delayed triggered ability will trigger if a creature dealt damage by Ghired's Belligerence dies for any reason this turn, not just due to lethal damage.
+  - *2019-08-23* — You choose how the damage will be divided as you cast Ghired's Belligerence. Each target creature must be assigned at least 1 damage.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/25/ghireds-belligerence) · oracle_id `d543cc69-4b8a-4c45-99e1-84143d663f25` · printing: C19 #25 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Amplifier
 
@@ -443,7 +546,15 @@
   > Whenever you cast an instant or sorcery spell, this creature gets +2/+0 until end of turn.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/127/ghitu-amplifier) · oracle_id `a965898b-9c68-46cb-82a5-a1e11397f68f` · printing: DMU #127 (2022-09-09) · [rulings](https://api.scryfall.com/cards/b1845806-7585-40d5-9d3a-f13667e6a9d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-09-09* — Ghitu Amplifier's last triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/127/ghitu-amplifier) · oracle_id `a965898b-9c68-46cb-82a5-a1e11397f68f` · printing: DMU #127 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Chronicler
 
@@ -457,7 +568,14 @@
   > *"What fire forged, fire remembers."*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21331 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/125/ghitu-chronicler) · oracle_id `ab8a00c2-dbb0-48c3-9d13-ad6f1e2f3a18` · printing: DOM #125 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d3ca6dd9-040a-4122-9308-8dcd0d506ada/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/125/ghitu-chronicler) · oracle_id `ab8a00c2-dbb0-48c3-9d13-ad6f1e2f3a18` · printing: DOM #125 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Encampment
 
@@ -468,7 +586,10 @@
   > {T}: Add {R}.
   > {1}{R}: This land becomes a 2/1 red Warrior creature with first strike until end of turn. It's still a land. (It deals combat damage before creatures without first strike.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12246 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/33/ghitu-encampment) · oracle_id `9cc02c16-8cf9-4ac7-9475-231c27121968` · printing: DDN #33 (2014-09-05) · [rulings](https://api.scryfall.com/cards/b6af3085-a24c-4a76-b4c0-a27a50993f1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2009-10-01* — Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/33/ghitu-encampment) · oracle_id `9cc02c16-8cf9-4ac7-9475-231c27121968` · printing: DDN #33 (2014-09-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Fire
 
@@ -478,7 +599,9 @@
   > You may cast this spell as though it had flash if you pay {2} more to cast it. (You may cast it any time you could cast an instant.)
   > Ghitu Fire deals X damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/144/ghitu-fire) · oracle_id `c15ae9d8-b423-4628-ad88-3f44515e0c77` · printing: INV #144 (2000-10-02) · [rulings](https://api.scryfall.com/cards/78827acd-a526-411b-bd22-ab9b538c75dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The extra 2 mana to cast it as an instant does not count as part of the mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/144/ghitu-fire) · oracle_id `c15ae9d8-b423-4628-ad88-3f44515e0c77` · printing: INV #144 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Firebreathing
 
@@ -491,7 +614,9 @@
   > {R}: Return this Aura to its owner's hand.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18918 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/158/ghitu-firebreathing) · oracle_id `893cdd4f-0b22-4ddc-98a3-5d202564ffa5` · printing: TSP #158 (2006-10-06) · [rulings](https://api.scryfall.com/cards/9098b989-072a-4e5b-8972-22c61645c5bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If you return Ghitu Firebreathing to its owner's hand while the +1/+0 ability is on the stack, that ability will still give the creature that was last enchanted by Ghitu Firebreathing +1/+0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/158/ghitu-firebreathing) · oracle_id `893cdd4f-0b22-4ddc-98a3-5d202564ffa5` · printing: TSP #158 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Fire-Eater
 
@@ -503,6 +628,7 @@
 - **Flavor text** (7ED printing):
   > *The Ghitu believe their race was born of fire, and it's an honor to return to it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30802 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/184/ghitu-fire-eater) · oracle_id `3e792338-4a21-4a06-ad94-39931118e06c` · printing: 7ED #184 (2001-04-11) · [rulings](https://api.scryfall.com/cards/0770cc34-0f38-4773-8633-6907f44436c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Journeymage
@@ -515,7 +641,11 @@
 - **Flavor text** (DOM printing):
   > *The Ghitu of Shiv are as fierce and uncompromising as their volcanic home.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21389 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/126/ghitu-journeymage) · oracle_id `5202c00a-5e47-43fe-9ed7-52c276120df3` · printing: DOM #126 (2018-04-27) · [rulings](https://api.scryfall.com/cards/e4360bc9-76f0-4e82-8968-4c6c62a35ed1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — Ghitu Journeymage’s ability doesn’t trigger if you don’t control another Wizard immediately after it enters the battlefield. If it does trigger but you don’t control another Wizard as it resolves, it does nothing.
+  - *2018-04-27* — Ghitu Journeymage’s triggered ability doesn’t deal more damage if you control more than one other Wizard.
+  - *2018-04-27* — In a Two-Headed Giant game, Ghitu Journeymage’s ability causes the opposing team to lose 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/126/ghitu-journeymage) · oracle_id `5202c00a-5e47-43fe-9ed7-52c276120df3` · printing: DOM #126 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Lavarunner
 
@@ -527,7 +657,9 @@
 - **Flavor text** (FDN printing):
   > *Tolarians teach the theory of pyromancy. The Ghitu prefer applied research.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/623/ghitu-lavarunner) · oracle_id `8e3f4987-6f31-4bc5-8bcd-6adb0440ee7c` · printing: FDN #623 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8940d76d-c09f-4d72-a037-439c70ee8d9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — If Ghitu Lavarunner loses haste after being declared as an attacker on the turn it comes under your control, it will continue to attack. It won't be removed from combat. On the other hand, if it loses haste before your declare attackers step, it won't be able to attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/623/ghitu-lavarunner) · oracle_id `8e3f4987-6f31-4bc5-8bcd-6adb0440ee7c` · printing: FDN #623 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu Slinger
 
@@ -539,6 +671,7 @@
   > When this creature enters, it deals 2 damage to any target.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/133/ghitu-slinger) · oracle_id `8e2b5f90-e405-4b24-a71a-0988c37cf67a` · printing: EMA #133 (2016-06-10) · [rulings](https://api.scryfall.com/cards/923de31f-0941-4df1-8939-3eed75b7eb39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghitu War Cry
@@ -550,6 +683,7 @@
 - **Flavor text** (ULG printing):
   > *The war cry is not simply a shout but a sacrament.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26261 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/78/ghitu-war-cry) · oracle_id `0439df39-0324-4110-b3f4-4a32393021de` · printing: ULG #78 (1999-02-15) · [rulings](https://api.scryfall.com/cards/c9786c4f-f09b-46ce-966c-10efb1e5e609/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghor-Clan Bloodscale
@@ -564,7 +698,9 @@
   > *At mealtimes, the Gruul customarily omit such niceties as using forks or killing the entrée.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/66/ghor-clan-bloodscale) · oracle_id `e3367ed8-16a3-4b04-bc6a-e0a3c794e6d3` · printing: GPT #66 (2006-02-03) · [rulings](https://api.scryfall.com/cards/00cab68b-ee26-46eb-a18b-9b42bf2d10e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — If this card's ability is activated by one player, then another player takes control of it on the same turn, the second player can't activate its ability that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/66/ghor-clan-bloodscale) · oracle_id `e3367ed8-16a3-4b04-bc6a-e0a3c794e6d3` · printing: GPT #66 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghor-Clan Rampager
 
@@ -579,6 +715,7 @@
   > *—Kroshkar, Gruul shaman*
 - **Keywords:** Bloodrush, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18762 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/198/ghor-clan-rampager) · oracle_id `ec7a9e7f-742b-4344-983e-73372c6a1760` · printing: 2XM #198 (2020-08-07) · [rulings](https://api.scryfall.com/cards/4aae3f29-dde8-4880-b675-75468d53b3f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghor-Clan Savage
@@ -592,6 +729,7 @@
   > *The snap of sinew. The crunch of bone. A cry for mercy. These are the music of the Gruul.*
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30199 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddl/53/ghor-clan-savage) · oracle_id `28f35fa1-befa-40b4-95ab-30bb53d339ab` · printing: DDL #53 (2013-09-06) · [rulings](https://api.scryfall.com/cards/4ba15588-01ae-431b-a846-f44df88ca134/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghor-Clan Wrecker
@@ -606,7 +744,11 @@
   > *"Today the Rubblebelt is a bit larger. That's a good day's work."*
 - **Keywords:** Riot, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28728 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/103/ghor-clan-wrecker) · oracle_id `b113285c-80b2-46dd-874e-201d26979518` · printing: RNA #103 (2019-01-25) · [rulings](https://api.scryfall.com/cards/4da3969c-1979-4eee-828a-4a7189121eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — If a creature entering the battlefield has riot but can’t have a +1/+1 counter put onto it, it gains haste.
+  - *2019-01-25* — If you choose for the creature to gain haste, it gains haste indefinitely. It won’t lose it as the turn ends or as another player gains control of it.
+  - *2019-01-25* — Riot is a replacement effect. Players can’t respond to your choice of +1/+1 counter or haste, and they can’t take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/103/ghor-clan-wrecker) · oracle_id `b113285c-80b2-46dd-874e-201d26979518` · printing: RNA #103 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Ark
 
@@ -619,7 +761,15 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Repair Barge, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/156/ghost-ark) · oracle_id `bb1b4786-3804-486b-9fd9-85848d24d362` · printing: 40K #156 (2022-10-07) · [rulings](https://api.scryfall.com/cards/2c6865c1-8144-4b06-a599-a62382fe1124/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — Ghost Ark's triggered ability gives unearth {3} to each artifact that is in your graveyard as it resolves. Artifact cards that enter your graveyard after it resolves won't have unearth unless the ability triggers again later.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — See also "Returning Keyword Ability: Unearth" in the General Notes section.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/156/ghost-ark) · oracle_id `bb1b4786-3804-486b-9fd9-85848d24d362` · printing: 40K #156 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostblade Eidolon
 
@@ -632,7 +782,13 @@
   > Enchanted creature gets +1/+1 and has double strike.
 - **Keywords:** Bestow, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/70/ghostblade-eidolon) · oracle_id `78a1f291-22ed-41f1-87fd-0bdc97f9c065` · printing: C15 #70 (2015-11-13) · [rulings](https://api.scryfall.com/cards/0795101e-07d9-419a-adca-3eb57536fd5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2013-09-15* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2013-09-15* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2013-09-15* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/70/ghostblade-eidolon) · oracle_id `78a1f291-22ed-41f1-87fd-0bdc97f9c065` · printing: C15 #70 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Council of Orzhova
 
@@ -643,7 +799,11 @@
   > When Ghost Council of Orzhova enters, target opponent loses 1 life and you gain 1 life.
   > {1}, Sacrifice a creature: Exile Ghost Council of Orzhova. Return it to the battlefield under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19176 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/176/ghost-council-of-orzhova) · oracle_id `2ba16e4d-2de7-4906-801a-4ba2b90b5050` · printing: MM2 #176 (2015-05-22) · [rulings](https://api.scryfall.com/cards/5b551074-a9b4-45f0-a007-f07d7b2e12a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — Normally, Ghost Council of Orzhova will return to the battlefield at the end of the same turn it's exiled. But if it's exiled during the End step, it's too late to return it this turn. It has to wait to return to the battlefield until the next End step.
+  - *2006-02-01* — Sacrificing Ghost Council of Orzhova to its own ability means it will wind up in the graveyard, not exiled.
+  - *2006-02-01* — When Ghost Council of Orzhova is exiled, any Auras or Equipment on it fall off and any counters on it are removed. When it returns to the battlefield, it comes back untapped and is treated as a new version of the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/176/ghost-council-of-orzhova) · oracle_id `2ba16e4d-2de7-4906-801a-4ba2b90b5050` · printing: MM2 #176 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostfire
 
@@ -655,7 +815,9 @@
 - **Flavor text** (DDT printing):
   > *Only those gifted with the eye of Ugin, the spirit dragon, can see his fiery breath.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/40/ghostfire) · oracle_id `3479a4e6-c67d-4958-8a47-43d3a2f69bb1` · printing: DDT #40 (2017-10-24) · [rulings](https://api.scryfall.com/cards/29739dd4-5775-4491-8245-ca2dc38a686e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Ghostfire is colorless in all zones. Its damage comes from a colorless source.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/40/ghostfire) · oracle_id `3479a4e6-c67d-4958-8a47-43d3a2f69bb1` · printing: DDT #40 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostfire Blade
 
@@ -669,7 +831,9 @@
   > *If you fear the dragon's fire, you are unworthy to wield it.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/220/ghostfire-blade) · oracle_id `093b1d8d-c836-4e9b-855b-4020361aa6ac` · printing: KTK #220 (2014-09-26) · [rulings](https://api.scryfall.com/cards/711145d8-5178-4fdc-8494-4ab680f55b1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-09-20* — Face-down creatures and most artifact creatures are colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/220/ghostfire-blade) · oracle_id `093b1d8d-c836-4e9b-855b-4020361aa6ac` · printing: KTK #220 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostfire Slice
 
@@ -683,7 +847,13 @@
   > *Just because you can't see it doesn't mean it won't hurt.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/123/ghostfire-slice) · oracle_id `986a7ad0-527a-4079-aa1b-c8acdf087020` · printing: MH3 #123 (2024-06-14) · [rulings](https://api.scryfall.com/cards/2adea3ee-138f-455b-a001-586883c44758/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/123/ghostfire-slice) · oracle_id `986a7ad0-527a-4079-aa1b-c8acdf087020` · printing: MH3 #123 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostflame Sliver
 
@@ -696,7 +866,10 @@
   > *"This breed is on the cusp of evolution. It burns away the markings that connect it to a queen that no longer heeds its call. It seeks a new master. Perhaps I can give it one."*
   > *—Freyalise*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/239/ghostflame-sliver) · oracle_id `cb7d65f7-003f-46db-af71-7b575c713c6b` · printing: TSP #239 (2006-10-06) · [rulings](https://api.scryfall.com/cards/64eb10d1-22c6-4848-a7f4-c6ccd2c66dae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/239/ghostflame-sliver) · oracle_id `cb7d65f7-003f-46db-af71-7b575c713c6b` · printing: TSP #239 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostform
 
@@ -707,6 +880,7 @@
 - **Flavor text** (M19 printing):
   > *"Picking locks is for beginners."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/58/ghostform) · oracle_id `8d813b72-8ead-4a61-88ff-e93c8d843196` · printing: M19 #58 (2018-07-13) · [rulings](https://api.scryfall.com/cards/347760a1-03f5-4cc9-87ad-e08986b1ea21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghosthelm Courier
@@ -718,7 +892,9 @@
   > You may choose not to untap this creature during your untap step.
   > {2}{U}, {T}: Target Wizard creature gets +2/+2 and has shroud for as long as this creature remains tapped. (It can't be the target of spells or abilities.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/85/ghosthelm-courier) · oracle_id `e447f7cc-4cdc-4a79-8058-8c1f1224d357` · printing: ONS #85 (2002-10-07) · [rulings](https://api.scryfall.com/cards/cd6cc30a-9ed4-4f36-95cb-6f0a2b8dce02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It checks the creature type when the ability is announced and resolved, but once the effect is placed on the creature, if its creature type changes the effect still continues.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/85/ghosthelm-courier) · oracle_id `e447f7cc-4cdc-4a79-8058-8c1f1224d357` · printing: ONS #85 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Hounds
 
@@ -730,6 +906,7 @@
   > Whenever this creature blocks or becomes blocked by a white creature, this creature gains first strike until end of turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/49/ghost-hounds) · oracle_id `26957a44-6155-4688-a850-a3b49b011a9f` · printing: HML #49 (1995-10-01) · [rulings](https://api.scryfall.com/cards/d1298b43-0b10-4b7c-9d33-786d4d7bd80e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Lantern // Bind Spirit
@@ -742,7 +919,19 @@
   > Return target creature card from your graveyard to your hand. (Then exile this card. You may cast the artifact later from exile.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8272 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/128/ghost-lantern-bind-spirit) · oracle_id `4af03564-1d1c-4582-9248-cfe9551bad30` · printing: CLB #128 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f2bde2d6-7c2a-4566-a45a-ccdbbed039b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/128/ghost-lantern-bind-spirit) · oracle_id `4af03564-1d1c-4582-9248-cfe9551bad30` · printing: CLB #128 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Drifter
 
@@ -755,6 +944,7 @@
   > Channel — {X}{U}, Discard this card: X target creatures gain flying until end of turn.
 - **Keywords:** Flying, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/45/ghost-lit-drifter) · oracle_id `c8618fec-e124-4f42-b440-0f41a7de3d1f` · printing: MH2 #45 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5a8cd89e-d849-4107-a629-98eae4c91489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Nourisher
@@ -767,6 +957,7 @@
   > Channel — {3}{G}, Discard this card: Target creature gets +4/+4 until end of turn.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30425 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/131/ghost-lit-nourisher) · oracle_id `acaed013-2e74-47e3-a687-084388b37a7b` · printing: SOK #131 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f4becdbb-9089-4c54-a681-6510d90cc99e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Raider
@@ -779,6 +970,7 @@
   > Channel — {3}{R}, Discard this card: It deals 4 damage to target creature.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/99/ghost-lit-raider) · oracle_id `3d772c44-a756-406d-a83f-f671a81513b0` · printing: SOK #99 (2005-06-03) · [rulings](https://api.scryfall.com/cards/4280a08a-90fe-445e-b49d-1a3b13d3c6e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Redeemer
@@ -791,6 +983,7 @@
   > Channel — {1}{W}, Discard this card: You gain 4 life.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/10/ghost-lit-redeemer) · oracle_id `b6c22cbe-61e0-4d66-a78d-7016e84c303d` · printing: SOK #10 (2005-06-03) · [rulings](https://api.scryfall.com/cards/aa90c02d-3090-402e-b74b-fc0358953263/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Stalker
@@ -803,6 +996,7 @@
   > Channel — {5}{B}{B}, Discard this card: Target player discards four cards. Activate only as a sorcery.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/34/ghost-lit-stalker) · oracle_id `90a4c5ed-d268-4216-9b55-0a38406efd74` · printing: GVL #34 (2014-12-05) · [rulings](https://api.scryfall.com/cards/dd6e17a2-17f0-4d6b-b41a-3bd081b3ef63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Warder
@@ -815,6 +1009,7 @@
   > Channel — {3}{U}, Discard this card: Counter target spell unless its controller pays {4}.
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/39/ghost-lit-warder) · oracle_id `cf1a4b18-62fa-46f3-baeb-c0f699c9cdde` · printing: SOK #39 (2005-06-03) · [rulings](https://api.scryfall.com/cards/042b7666-8c58-48e5-8ec3-754611700e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Changeling
@@ -829,6 +1024,7 @@
   > *In desolate places, changelings may take the shape of fancies, or memories, or fears.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/83/ghostly-changeling) · oracle_id `4e779540-e667-457e-9071-4cbbd777d9a9` · printing: MM2 #83 (2015-05-22) · [rulings](https://api.scryfall.com/cards/7d9f1fda-8a94-48fe-9682-5b2fdbc31bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Dancers
@@ -842,7 +1038,10 @@
   > Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, create a 3/1 white Spirit creature token with flying.
 - **Keywords:** Flying, Eerie
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/13/ghostly-dancers) · oracle_id `c53d958a-f660-4d2e-87cd-87702f973b3a` · printing: DSK #13 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ab38adb5-8f16-4a4a-8dbc-f6ec14ca6c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/13/ghostly-dancers) · oracle_id `c53d958a-f660-4d2e-87cd-87702f973b3a` · printing: DSK #13 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Flame
 
@@ -854,7 +1053,12 @@
   > *"Walk slowly when in the nether world, and seek that which calls."*
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31593 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/292/ghostly-flame) · oracle_id `6a461ca3-7923-4df4-9f15-4072545da117` · printing: ICE #292 (1995-06-03) · [rulings](https://api.scryfall.com/cards/6314344b-6493-4142-9c76-da9b90b8d3e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Does not make red and black spells and permanents colorless. They still have color. A red spell can’t target a creature with Protection from Red due to this. The spells just act like colorless sources when dealing damage.
+  - *2004-10-04* — If the source has more than one color but at least one is red or black, then the damage is colorless and all the other colors are forgotten.
+  - *2004-10-04* — It does not change the color of the source, so that things that trigger on a red spell doing damage will still trigger. The damage itself thinks it came from a colorless source, however.
+  - *2004-10-04* — The effect is continuous and applies whenever something looks at the damage. If this card leaves the battlefield, damage from red and black spells will appear as its normal color. In other words, the color was not removed from the damage, the color just could not be determined while this card is in effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/292/ghostly-flame) · oracle_id `6a461ca3-7923-4df4-9f15-4072545da117` · printing: ICE #292 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Flicker
 
@@ -865,7 +1069,9 @@
 - **Flavor text** (CMM printing):
   > *Sometimes it's useful to take a break from existence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/98/ghostly-flicker) · oracle_id `ad0070db-6454-41cb-861f-8f5b8fc2a3b8` · printing: CMM #98 (2023-08-04) · [rulings](https://api.scryfall.com/cards/dc143ba3-2a58-4980-9fa0-a05a9e9ed082/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — The two targets can have different card types. For example, you can target one artifact and one creature with Ghostly Flicker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/98/ghostly-flicker) · oracle_id `ad0070db-6454-41cb-861f-8f5b8fc2a3b8` · printing: CMM #98 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Keybearer
 
@@ -879,6 +1085,7 @@
   > *Once charged with watching over every room in the original Vendrell house, it doggedly surveys the endless, ever-expanding labyrinth.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/61/ghostly-keybearer) · oracle_id `ec86a45f-046c-4aab-9b82-422c6f39142e` · printing: DSK #61 (2024-09-27) · [rulings](https://api.scryfall.com/cards/11d04a98-6997-4653-9719-e6b215567599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Pilferer
@@ -891,7 +1098,13 @@
   > Whenever an opponent casts a spell from anywhere other than their hand, draw a card.
   > Discard a card: This creature can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/98/ghostly-pilferer) · oracle_id `fe168bf1-f626-460c-890b-1ce758af01fc` · printing: OTC #98 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2f6a3605-950d-488b-8e4f-e2c339ef48dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-06-23* — Ghostly Pilferer's first ability triggers during your untap step, but it's put onto the stack at the same time as abilities that trigger at the beginning of your upkeep step. Even though the ability triggered first, you may order it before or after other abilities you control that are put onto the stack at this time.
+  - *2020-06-23* — Once Ghostly Pilferer has been blocked, activating its last ability doesn't cause it to become unblocked.
+  - *2020-06-23* — Players can cast spells and activate abilities after the second triggered ability resolves but before the spell that caused it to trigger does.
+  - *2020-06-23* — While resolving Ghostly Pilferer's first ability, you can't pay more than {2} to draw more than one card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/98/ghostly-pilferer) · oracle_id `fe168bf1-f626-460c-890b-1ce758af01fc` · printing: OTC #98 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Possession
 
@@ -903,6 +1116,7 @@
   > Prevent all combat damage that would be dealt to and dealt by enchanted creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22599 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/85/ghostly-possession) · oracle_id `8104a51d-f07b-45d6-aaa7-c6386d6de8bf` · printing: CN2 #85 (2016-08-26) · [rulings](https://api.scryfall.com/cards/c11eb854-4c03-4abd-aaf1-9718608a34b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Prison
@@ -915,7 +1129,10 @@
   > *"May the memory of our fallen heroes ensnare the violent hearts of lesser men."*
   > *—Great Threshold of Monserkat inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #160 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/146/ghostly-prison) · oracle_id `e828b189-0e8f-43b8-b909-4c23e742e028` · printing: SOC #146 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e1f723a8-0be9-4270-b451-a52d6b2fda4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+  - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/146/ghostly-prison) · oracle_id `e828b189-0e8f-43b8-b909-4c23e742e028` · printing: SOC #146 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Sentinel
 
@@ -928,6 +1145,7 @@
   > *Mystics of the Stone Havens call upon the spirits of fallen heroes to defend the refuges.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30259 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/28/ghostly-sentinel) · oracle_id `a16f4b53-c8cf-45b0-89e7-507acd094a64` · printing: BFZ #28 (2015-10-02) · [rulings](https://api.scryfall.com/cards/de867066-df5c-4412-9d51-56626b6d0220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Touch
@@ -941,6 +1159,7 @@
   > *"Geists wish to make themselves known. I'm merely the vessel for their efforts."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19663 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/58/ghostly-touch) · oracle_id `02d25219-888d-4032-9e9e-8c6f879a9084` · printing: AVR #58 (2012-05-04) · [rulings](https://api.scryfall.com/cards/3ebae54a-47e0-4e82-8a29-b5d9354a748b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Visit
@@ -952,6 +1171,7 @@
 - **Flavor text** (ME3 printing):
   > *Cao Cao was haunted to death by the ghosts of the empresses and other high courtiers he had murdered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/67/ghostly-visit) · oracle_id `73b6694a-47d4-417a-af9b-470da14b5b0e` · printing: ME3 #67 (2009-09-07) · [rulings](https://api.scryfall.com/cards/ab5ff1e3-f3d3-4811-841e-87a43f0ce58e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Wings
@@ -964,7 +1184,12 @@
   > Discard a card: Return enchanted creature to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/66/ghostly-wings) · oracle_id `b07d8095-c5e2-4bf8-b055-af97ce5df4a4` · printing: SOI #66 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f1b1848c-3160-45f5-91a0-74ab6d91c01b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — After the last ability of Ghostly Wings resolves, it will be an Aura on the battlefield that isn’t attached to a creature and will immediately be put into its owner’s graveyard.
+  - *2016-04-08* — If Ghostly Wings leaves the battlefield before its activated ability resolves, the creature that was enchanted immediately before Ghostly Wings left is the one that will be returned to its owner’s hand, if it’s still on the battlefield.
+  - *2016-04-08* — You can activate the last ability multiple times to discard multiple cards. Only the first ability to resolve will have any effect.
+  - *2016-04-08* — You control Ghostly Wings even while it enchants an opponent’s creature. Only you can activate the last ability of Ghostly Wings.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/66/ghostly-wings) · oracle_id `b07d8095-c5e2-4bf8-b055-af97ce5df4a4` · printing: SOI #66 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost of Ramirez DePietro
 
@@ -977,7 +1202,17 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9979 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/157/ghost-of-ramirez-depietro) · oracle_id `07fe0fb5-cf34-4ba4-a3f3-ac0cc919bf91` · printing: LCC #157 (2023-11-17) · [rulings](https://api.scryfall.com/cards/15e649e1-dcb3-41d9-8055-cf3c98e25b1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once a creature with toughness 2 or less has blocked this creature, changing the toughness of the blocking creature won't cause this creature to become unblocked.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — The middle ability can't target cards that were discarded on previous turns or put into the graveyard from a library on previous turns.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/157/ghost-of-ramirez-depietro) · oracle_id `07fe0fb5-cf34-4ba4-a3f3-ac0cc919bf91` · printing: LCC #157 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Quarter
 
@@ -989,7 +1224,11 @@
 - **Flavor text** (CM2 printing):
   > *Deserted, but not uninhabited.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · [rulings](https://api.scryfall.com/cards/12f8071c-8955-4aa2-889c-6043df047223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-05-01* — If you target Ghost Quarter with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
+  - *2011-09-22* — If the targeted land is an illegal target by the time Ghost Quarter's ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
+  - *2013-07-01* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Ghost Quarter's ability. This may happen because the land has indestructible or because it was regenerated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Ship
 
@@ -1003,6 +1242,7 @@
   > *Going down with the ship is just the beginning.*
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26259 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/60/ghost-ship) · oracle_id `09de1136-8a8f-4539-92a2-611dcdd0790b` · printing: A25 #60 (2018-03-16) · [rulings](https://api.scryfall.com/cards/e76d9d80-b7fb-43ed-bc9c-767dd1613d37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghosts of the Damned
@@ -1015,6 +1255,7 @@
 - **Flavor text** (ME3 printing):
   > *The voices of the dead ring in the heart long after they have faded from the ears.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/68/ghosts-of-the-damned) · oracle_id `1b3bbd3c-f5ef-4940-82a2-d36f4d148b9a` · printing: ME3 #68 (2009-09-07) · [rulings](https://api.scryfall.com/cards/d15e5505-74ad-4540-8b23-ab5e5add9227/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghosts of the Innocent
@@ -1028,7 +1269,14 @@
   > *"Ma said we should offer up blini-cakes and salt to the good ones, but I get that chill up my spine and just shut the door."*
   > *—Otak, Tin Street shopkeep*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29100 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/20/ghosts-of-the-innocent) · oracle_id `9243bd95-5467-490d-9bd2-4d5ce1ebc589` · printing: RAV #20 (2005-10-07) · [rulings](https://api.scryfall.com/cards/c5b10c5f-261f-4301-b675-d1f52b859360/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2005-10-01* — Half of 1 rounded down is 0. A source that would deal 1 damage won’t deal damage at all.
+  - *2005-10-01* — If a damage prevention effect and Ghosts of the Innocent’s effect would apply to the same damage, the player or the controller of the creature being dealt damage may apply the effects in either order (most likely applying the halving effect first).
+  - *2005-10-01* — If both Ghosts of the Innocent and Furnace of Rath (which doubles damage) are on the battlefield, the controller of the permanent being dealt damage or the player being dealt damage can apply the effects in either order. This can matter if the original amount of damage is odd. For example, if a source would deal 3 damage, Ghosts of the Innocent would make it 1 damage, then Furnace of Rath would make it 2 damage, if the player chose to apply the effects in that order.
+  - *2005-10-01* — If damage is redirected, it’s only halved once.
+  - *2005-10-01* — Multiple Ghosts of the Innocent effects are cumulative, and each will halve the damage, rounded down. For example, with three on the battlefield, 14 damage becomes 7, then 3, then finally 1, and only 1 damage would actually be dealt.
+  - *2005-10-01* — This isn’t a damage prevention effect. If Excruciator (“Damage that would be dealt by Excruciator can’t be prevented”) would deal 7 damage to a permanent or player, it deals 3 damage instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/20/ghosts-of-the-innocent) · oracle_id `9243bd95-5467-490d-9bd2-4d5ce1ebc589` · printing: RAV #20 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost, Spectral Saboteur
 
@@ -1042,6 +1290,7 @@
   > *"Do not speak foolishly of ghosts . . . or you may soon become one."*
 - **Keywords:** Intangibility, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20820 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/214/ghost-spectral-saboteur) · oracle_id `88f34d15-c338-40a7-b56c-c5b650847430` · printing: MSH #214 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c22bb4d5-6b6f-4c43-b005-48ae4042739d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Spider, Gwen Stacy
@@ -1056,7 +1305,9 @@
   > *"No, it's fine. I'm late for practice again, but sure, I have time for a runaway bus."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11087 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spe/14/ghost-spider-gwen-stacy) · oracle_id `1d95b5c0-d193-4a03-9954-23861ac1c762` · printing: SPE #14 (2025-09-26) · [rulings](https://api.scryfall.com/cards/fa0ccd32-63c8-47a2-8de1-5845dad8e682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — Count the number of attacking creatures as Ghost-Spider's ability resolves. If a player responded to the ability by removing creatures from combat, this may be different than the number of creatures that were attacking as the ability triggered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spe/14/ghost-spider-gwen-stacy) · oracle_id `1d95b5c0-d193-4a03-9954-23861ac1c762` · printing: SPE #14 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Tactician
 
@@ -1068,6 +1319,7 @@
 - **Flavor text** (PLC printing):
   > *Its ethereal hand confers a lifetime of experience with combat and steel.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31700 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/6/ghost-tactician) · oracle_id `8d89aba8-20ce-44cd-9d82-3d16fdf6aac8` · printing: PLC #6 (2007-02-02) · [rulings](https://api.scryfall.com/cards/56ab366c-085b-4b13-b5ad-918965c34d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Town
@@ -1081,6 +1333,7 @@
   > *"The air here smells like a grave."*
   > *—Crovax*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/318/ghost-town) · oracle_id `f2c861d3-b302-4e84-b647-099551007269` · printing: TMP #318 (1997-10-14) · [rulings](https://api.scryfall.com/cards/4218cdda-3a62-43fb-aaf7-7ac836392796/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Vacuum
@@ -1091,6 +1344,7 @@
   > {T}: Exile target card from a graveyard.
   > {6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/248/ghost-vacuum) · oracle_id `4ef583ab-e0a0-4e4b-bd65-af766038b1fd` · printing: DSK #248 (2024-09-27) · [rulings](https://api.scryfall.com/cards/8ac39c01-127f-4471-bc74-11a90c48e306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Warden
@@ -1104,6 +1358,7 @@
   > *"I thought of fate as an iron lattice, intricate but rigidly unchangeable. That was until some force bent fate's bars to spare my life."*
   > *—Ilromov, traveling storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29949 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/16/ghost-warden) · oracle_id `66bd5999-742a-43e0-827c-ecb8ec7db242` · printing: 10E #16 (2007-07-13) · [rulings](https://api.scryfall.com/cards/2cd81534-79cb-4fde-bfa5-11c510ac6e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostway
@@ -1116,7 +1371,10 @@
   > *"I watched its blade swing through me, but I was hollow, empty. I saw its face contort in rage but could not hear it snarl."*
   > *—Klattic, Boros legionnaire*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/19/ghostway) · oracle_id `c8981af1-b0aa-4c19-8520-a7fb59018bc8` · printing: RVR #19 (2024-01-12) · [rulings](https://api.scryfall.com/cards/02842e77-7475-4fe5-9d2e-f3c8ba56bc88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-01-12* — Auras attached to the exiled creatures will be put into their owners' graveyards. Equipment attached to the exiled creatures will become unattached and remain on the battlefield. Any counters on the exiled creatures will cease to exist.
+  - *2024-01-12* — If a creature token is exiled, it ceases to exist. It won't be returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/19/ghostway) · oracle_id `c8981af1-b0aa-4c19-8520-a7fb59018bc8` · printing: RVR #19 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller Gisa
 
@@ -1128,6 +1386,7 @@
 - **Flavor text** (CMM printing):
   > *"Geralf, must you always whine? I agreed to nothing. I'll raise ghouls anytime I wish."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2425 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/161/ghoulcaller-gisa) · oracle_id `0dd894cb-1968-471c-af08-ea7ec5ce8428` · printing: CMM #161 (2023-08-04) · [rulings](https://api.scryfall.com/cards/44d7906e-8a89-4644-acb5-46fbe97ab39f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Accomplice
@@ -1140,6 +1399,7 @@
 - **Flavor text** (JMP printing):
   > *"Once in the box, we're all the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/237/ghoulcallers-accomplice) · oracle_id `16616aa2-5490-4fab-9de4-f37ca8c8be08` · printing: JMP #237 (2020-07-17) · [rulings](https://api.scryfall.com/cards/63b62aaf-cc36-4235-b802-828b2c4d6341/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Bell
@@ -1152,6 +1412,7 @@
   > *The bell's chime heralds the rise of the unhallowed from the grave and the fall of their victims into the earth.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6579 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/224/ghoulcallers-bell) · oracle_id `36e1485d-3b8c-4c23-9d12-6937fd216b25` · printing: ISD #224 (2011-09-30) · [rulings](https://api.scryfall.com/cards/863e7c2a-698c-4dce-a10b-ca58e4affa57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Chant
@@ -1166,6 +1427,7 @@
   > *"The living are born small and weak. The dead rise ready to serve. The choice is obvious."*
   > *—Gisa, ghoulcaller of Gavony*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13614 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/101/ghoulcallers-chant) · oracle_id `b685fff3-f1b4-42d5-9b7b-e0885bcc92d2` · printing: ISD #101 (2011-09-30) · [rulings](https://api.scryfall.com/cards/2b8c1b10-2155-404a-8f20-eb8f643849d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Harvest
@@ -1177,7 +1439,18 @@
   > Flashback {3}{B}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/225/ghoulcallers-harvest) · oracle_id `bbef4d8e-5861-4d50-9589-14b46c71e9af` · printing: MID #225 (2021-09-24) · [rulings](https://api.scryfall.com/cards/6a507ea6-d818-4443-b468-cf65c3e7031c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-09-24* — Decayed does not create any attacking requirements. You may choose not to attack with a creature that has decayed.
+  - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
+  - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
+  - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/225/ghoulcallers-harvest) · oracle_id `bbef4d8e-5861-4d50-9589-14b46c71e9af` · printing: MID #225 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulflesh
 
@@ -1190,7 +1463,9 @@
   > *The body dies in stages. First the skin, then the muscle. The brain is last, much to the victim's dismay.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/103/ghoulflesh) · oracle_id `640c0424-b862-438f-a527-ff606151040a` · printing: AVR #103 (2012-05-04) · [rulings](https://api.scryfall.com/cards/2eed3d1b-3142-437c-99e9-85ba76e23e6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — If Ghoulflesh causes a creature to have 0 toughness or have damage marked on it equal to or greater than its toughness, it will be a black Zombie (in addition to its other colors and types) when it dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/103/ghoulflesh) · oracle_id `640c0424-b862-438f-a527-ff606151040a` · printing: AVR #103 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulish Impetus
 
@@ -1202,7 +1477,12 @@
   > When enchanted creature dies, return this card to the battlefield at the beginning of the next end step.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/214/ghoulish-impetus) · oracle_id `276eccd6-4a76-46e8-b604-94472e618115` · printing: SOC #214 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f6fab24d-0174-4248-8481-52194e05d6f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-07-28* — Attacking with a goaded creature doesn't cause it to stop being goaded. If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-07-28* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-07-28* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or a player who goaded it.
+  - *2023-07-28* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/214/ghoulish-impetus) · oracle_id `276eccd6-4a76-46e8-b604-94472e618115` · printing: SOC #214 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulish Procession
 
@@ -1213,7 +1493,12 @@
 - **Flavor text** (INR printing):
   > *It was a family reunion to die for.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/110/ghoulish-procession) · oracle_id `39e20898-cf01-48dc-8972-7ac500c3fa79` · printing: INR #110 (2025-01-24) · [rulings](https://api.scryfall.com/cards/c178227f-3b66-45f7-9838-dff70f1f2003/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-09-24* — Decayed does not create any attacking requirements. You may choose not to attack with a creature that has decayed.
+  - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
+  - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
+  - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/110/ghoulish-procession) · oracle_id `39e20898-cf01-48dc-8972-7ac500c3fa79` · printing: INR #110 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulraiser
 
@@ -1226,6 +1511,7 @@
   > *"Come. Bring your brothers. Tonight, you feast on living flesh."*
   > *—Jadar, ghoulcaller of Nephalia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18849 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/238/ghoulraiser) · oracle_id `614f748b-5d31-440d-a7c0-3ba12dc63c24` · printing: JMP #238 (2020-07-17) · [rulings](https://api.scryfall.com/cards/850ccdcb-2cd7-4f27-aa9b-917a62a5e94d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoul's Feast
@@ -1237,6 +1523,7 @@
 - **Flavor text** (DDJ printing):
   > *Mercadians not wealthy enough to buy a tomb are thrown into a bog called "the Ghoul's Larder."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24880 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/67/ghouls-feast) · oracle_id `042e0533-faf4-475e-be7b-438d23c6e605` · printing: DDJ #67 (2012-09-07) · [rulings](https://api.scryfall.com/cards/a2909e6e-d196-4654-9193-2c9e0cfd90ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghouls' Night Out
@@ -1246,7 +1533,14 @@
 - **Oracle text:**
   > For each player, choose a creature card in that player's graveyard. Put those cards onto the battlefield under your control. They're black Zombies in addition to their other colors and types and they gain decayed. (A creature with decayed can't block. When it attacks, sacrifice it at end of combat.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/19/ghouls-night-out) · oracle_id `cc9f9f14-a11c-4e33-9e11-8bf6ef13cf2b` · printing: MIC #19 (2021-09-24) · [rulings](https://api.scryfall.com/cards/f532dce5-66b7-4f42-87c3-c7cb8d47d10e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-09-24* —  Decayed does not create any attacking requirements. You may choose not to attack with a creature that has decayed.
+  - *2021-09-24* —  Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
+  - *2021-09-24* —  Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
+  - *2021-09-24* —  Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+  - *2021-09-24* — If any creature cards put onto the battlefield this way become permanents that aren't creatures because of another effect, those permanents won't be Zombies, but they will gain decayed.
+  - *2021-09-24* — The creatures will enter the battlefield simultaneously. They will see each other enter for the purposes of triggered abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/19/ghouls-night-out) · oracle_id `cc9f9f14-a11c-4e33-9e11-8bf6ef13cf2b` · printing: MIC #19 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulsteed
 
@@ -1258,7 +1552,9 @@
 - **Flavor text** (UMA printing):
   > *It once served a cathar roadwatcher, patrolling the crossways between villages. Its hooves still carry it along the same path.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/97/ghoulsteed) · oracle_id `dbc34afa-16bc-41f2-b74d-29bf2bfe24a9` · printing: UMA #97 (2018-12-07) · [rulings](https://api.scryfall.com/cards/6b8f7cfd-88db-4cc1-b65f-3462332a2873/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — Ghoulsteed's ability can only be activated while it's in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/97/ghoulsteed) · oracle_id `dbc34afa-16bc-41f2-b74d-29bf2bfe24a9` · printing: UMA #97 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoultree
 
@@ -1270,7 +1566,10 @@
 - **Flavor text** (INR printing):
   > *It uproots entire fengrafs to add to its twisted frame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11012 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/198/ghoultree) · oracle_id `5f2628e3-e29a-4d77-bc27-6e1ce240d192` · printing: INR #198 (2025-01-24) · [rulings](https://api.scryfall.com/cards/9c99fe73-5fe1-4fcb-8099-73c4a6fd0d35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-01-24* — Ghoultree’s ability can’t reduce the total cost to cast the spell below {G}.
+  - *2025-01-24* — Once you begin to cast Ghoultree, no player may take actions until you’re done. Notably, opponents can’t try to remove creature cards from your graveyard to change Ghoultree’s cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/198/ghoultree) · oracle_id `5f2628e3-e29a-4d77-bc27-6e1ce240d192` · printing: INR #198 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghyrson Starn, Kelermorph
 
@@ -1282,4 +1581,6 @@
   > Three Autostubs — Whenever another source you control deals exactly 1 damage to a permanent or player, Ghyrson Starn deals 2 damage to that permanent or player.
 - **Keywords:** Three Autostubs, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3682 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph) · oracle_id `b110b8e6-859b-4370-aceb-b21c6cf61532` · printing: 40K #124 (2022-10-07) · [rulings](https://api.scryfall.com/cards/fa7349d9-c82f-4cf8-a852-92168d1f4966/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If another source deals exactly 1 damage to a permanent or player multiple times or deals exactly 1 damage to multiple permanents and/or players simultaneously, Ghryson Starn, Kellermorph's last ability triggers that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph) · oracle_id `b110b8e6-859b-4370-aceb-b21c6cf61532` · printing: 40K #124 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -32,7 +32,11 @@
   > *—Raff Slugeater, goblin shortcutter*
 - **Keywords:** Support
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/211/saddleback-lagac) · oracle_id `3d720d55-3df8-40fd-bc93-ad99c1105249` · printing: BBD #211 (2018-06-08) · [rulings](https://api.scryfall.com/cards/634f9544-5ac3-4566-aa73-65a3930b559b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
+  - *2016-01-22* — Support can target a creature you don’t control.
+  - *2016-01-22* — You can’t put more than one +1/+1 counter on any one target using the support action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/211/saddleback-lagac) · oracle_id `3d720d55-3df8-40fd-bc93-ad99c1105249` · printing: BBD #211 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saddled Rimestag
 
@@ -44,7 +48,11 @@
 - **Flavor text** (MH1 printing):
   > *Horns of hoarfrost grow every night, gleam at dawn, and melt by dusk.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/177/saddled-rimestag) · oracle_id `731898d3-465b-4ecb-a346-b91881714ebc` · printing: MH1 #177 (2019-06-14) · [rulings](https://api.scryfall.com/cards/a0e8491f-9c51-41c0-994e-d3f0f5f6a411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-06-14* — Saddled Rimestag doesn’t get more than +2/+2 if you had more than one other creature enter the battlefield under your control during a turn.
+  - *2019-06-14* — Saddled Rimestag’s effect applies even if the other creature entered the battlefield under your control before Saddled Rimestag entered the battlefield, and it continues to apply even if that creature leaves the battlefield.
+  - *2019-06-14* — Saddled Rimestag’s effect checks each turn whether it applies during that turn. It doesn’t check only during the turn it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/177/saddled-rimestag) · oracle_id `731898d3-465b-4ecb-a346-b91881714ebc` · printing: MH1 #177 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saddle of the Cavalier
 
@@ -58,7 +66,9 @@
   > *—Minsc, beloved ranger*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/251/saddle-of-the-cavalier) · oracle_id `f6cd939e-6b45-4d47-b251-7a09a149dedd` · printing: CLB #251 (2022-06-10) · [rulings](https://api.scryfall.com/cards/7fc8d802-33bd-48c1-bb4f-31fefac85a5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — Reducing a creature's power after it has blocked a creature equipped with Saddle of the Cavalier will not remove that blocking creature from combat or make the equipped creature unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/251/saddle-of-the-cavalier) · oracle_id `f6cd939e-6b45-4d47-b251-7a09a149dedd` · printing: CLB #251 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Augermage
 
@@ -70,6 +80,7 @@
 - **Flavor text** (DDM printing):
   > *"Don't worry. I know the drill."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30408 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddm/52/sadistic-augermage) · oracle_id `7f08c592-8ddd-4f52-95c3-5649cbb24d3a` · printing: DDM #52 (2014-03-14) · [rulings](https://api.scryfall.com/cards/db9ee363-40c4-495f-910a-4f4cd6377e84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Glee
@@ -84,6 +95,7 @@
   > *—Gerrard of the \*Weatherlight\**
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12693 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/153/sadistic-glee) · oracle_id `2af22962-8f66-4868-a175-ad5d7f4c9d58` · printing: TMP #153 (1997-10-14) · [rulings](https://api.scryfall.com/cards/d9e1959c-b87b-4e17-a0d2-0489ea79220b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Hypnotist
@@ -96,7 +108,9 @@
 - **Flavor text** (DDJ printing):
   > *"Victory in the pits is almost as rewarding as the methods I use to achieve it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/62/sadistic-hypnotist) · oracle_id `937de7f3-7f7f-4fd4-8531-0b90a11815c8` · printing: DDJ #62 (2012-09-07) · [rulings](https://api.scryfall.com/cards/e14e994d-ed2e-451b-a165-93da7e9c3579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/62/sadistic-hypnotist) · oracle_id `937de7f3-7f7f-4fd4-8531-0b90a11815c8` · printing: DDJ #62 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Obsession
 
@@ -109,6 +123,7 @@
   > *Not everyone should take joy in their work.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21433 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/105/sadistic-obsession) · oracle_id `1c55af05-7fbe-4078-9463-689b21c0d3e4` · printing: MH1 #105 (2019-06-14) · [rulings](https://api.scryfall.com/cards/64080d0d-163b-450d-8919-79a0465f3645/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Sacrament
@@ -120,7 +135,14 @@
   > Search target player's library for up to three cards, exile them, then that player shuffles. If this spell was kicked, instead search that player's library for up to fifteen cards, exile them, then that player shuffles.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16665 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/110/sadistic-sacrament) · oracle_id `e3d08582-85ba-48c4-a453-4a5a385a0c3e` · printing: ZEN #110 (2009-10-02) · [rulings](https://api.scryfall.com/cards/f3d82fd7-6af1-4a97-9d51-486a41224b35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/110/sadistic-sacrament) · oracle_id `e3d08582-85ba-48c4-a453-4a5a385a0c3e` · printing: ZEN #110 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Shell Game
 
@@ -131,7 +153,9 @@
 - **Flavor text** (DSC printing):
   > *"Shame about your friends. Wanna see what's inside yours?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/24/sadistic-shell-game) · oracle_id `88c3fc46-f2f5-440c-80a6-fed5b42cd340` · printing: DSC #24 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4c5c8eb3-c866-4974-90eb-be99c07af1a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Each player will know what choices players earlier in the turn order made.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/24/sadistic-shell-game) · oracle_id `88c3fc46-f2f5-440c-80a6-fed5b42cd340` · printing: DSC #24 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Skymarcher
 
@@ -145,7 +169,9 @@
   > *"I will catch you, child of the sun. I will drink your life and leave you a husk, discarded in the shadows."*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/85/sadistic-skymarcher) · oracle_id `9e1fe5ec-1669-4587-8e42-b189fd6d39e0` · printing: RIX #85 (2018-01-19) · [rulings](https://api.scryfall.com/cards/1334ee90-c798-42ec-b2be-68dac766a7eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn’t a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/85/sadistic-skymarcher) · oracle_id `9e1fe5ec-1669-4587-8e42-b189fd6d39e0` · printing: RIX #85 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sadistic Slash
 
@@ -158,4 +184,5 @@
   > *"Let's see some of that famously radioactive blood, Spider-Man!"*
 - **Keywords:** Mayhem
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24361 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/666/sadistic-slash) · oracle_id `0e471b6d-4ba4-46aa-a802-81e401cbfa56` · printing: MSC #666 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c4bb1185-2ba1-42e8-908d-a249b70dcef9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

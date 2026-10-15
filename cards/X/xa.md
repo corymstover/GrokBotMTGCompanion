@@ -29,7 +29,13 @@
 - **Oracle text:**
   > At the beginning of your upkeep, choose target opponent. Until end of turn, that player can't cast spells, you may look at the top card of their library any time, you may play the top card of their library, and you may spend mana as though it were mana of any color to cast spells this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6880 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/239/xanathar-guild-kingpin) · oracle_id `1a168ba5-8e11-41dd-8f8a-8cb23bbde056` · printing: AFR #239 (2021-07-23) · [rulings](https://api.scryfall.com/cards/5bc58050-a615-4090-9cf5-cd49ccb4e2c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-07-23* — During your turn, you can look at the top card of the chosen opponent's library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2021-07-23* — If the top card of that library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of that library, you can't look at the next card until you're done paying for that spell.
+  - *2021-07-23* — The target opponent may still cast spells in response to Xanathar, Guild Kingpin's ability in your upkeep. If that player has somehow become an illegal target for the ability as it tries to resolve, the ability does nothing. They may cast spells and you cannot look at or play the top card of their library.
+  - *2021-07-23* — Xanathar doesn't change when you can cast spells or play lands. You must still follow all normal timing rules and land play limits.
+  - *2021-07-23* — You'll still pay all costs for spells cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/239/xanathar-guild-kingpin) · oracle_id `1a168ba5-8e11-41dd-8f8a-8cb23bbde056` · printing: AFR #239 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xande, Dark Mage
 
@@ -43,6 +49,7 @@
   > *"But your struggle was all for naught. Don't you see how close the darkness has drawn?"*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15361 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/561/xande-dark-mage) · oracle_id `36b5c793-30f6-4f21-8bf6-c18d1c46d732` · printing: FIN #561 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1caed9a8-b73b-470e-b9d8-8c3b7cac3eee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xander's Lounge
@@ -57,6 +64,7 @@
   > *Maestros agents can lie low in high style at the opulent Shadow Hostel.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #472 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/260/xanders-lounge) · oracle_id `8291543f-d086-48aa-b2b7-5481ca8c9198` · printing: SNC #260 (2022-04-29) · [rulings](https://api.scryfall.com/cards/54f449ff-4025-465e-9ec5-a5cf42c4c9d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xander's Pact
@@ -68,7 +76,14 @@
   > Each opponent exiles the top card of their library. You may cast spells from among those cards this turn. If you cast a spell this way, pay life equal to that spell's mana value rather than pay its mana cost.
 - **Keywords:** Casualty
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/43/xanders-pact) · oracle_id `3df11e5c-19aa-441c-a889-6b40eb3fdabf` · printing: NCC #43 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2154df0d-9d35-4a67-aeff-c9f224b969a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — Casualty N means “As an additional cost to cast this spell, you may sacrifice a creature with power N or greater.” and “When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy.”
+  - *2022-04-29* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-04-29* — If you cast a spell for another cost “rather than pay its mana cost,” you can't choose to cast it for any alternative costs such as a blitz cost. You can, however, pay additional costs, such as a casualty cost. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
+  - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/43/xanders-pact) · oracle_id `3df11e5c-19aa-441c-a889-6b40eb3fdabf` · printing: NCC #43 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xantcha, Sleeper Agent
 
@@ -80,7 +95,14 @@
   > Xantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.
   > {3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3036 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/362/xantcha-sleeper-agent) · oracle_id `0f0f3712-8d13-41a5-b332-2ab34e48d79d` · printing: CMM #362 (2023-08-04) · [rulings](https://api.scryfall.com/cards/91316746-ec2b-4c1a-b9c4-a870d6318c33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — If Xantcha can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2018-07-13* — If a player creates a token that's a copy of Xantcha, the player who creates the token is its owner, not the player under whose control it enters the battlefield. This is a change from previous rules.
+  - *2018-07-13* — The player who draws a card when Xantcha's last ability resolves is the player who activated the ability.
+  - *2018-07-13* — Xantcha's controller may activate its last ability. In this case, the same player loses 2 life and draws a card.
+  - *2018-07-13* — Xantcha's first ability is a replacement effect that modifies how it enters the battlefield, not a triggered ability. Players can't take actions (such as activating its last ability) while Xantcha's on the battlefield before it's controlled by another player.
+  - *2019-08-23* — In a multiplayer game, if Xantcha's owner leaves the game, Xantcha leaves the game with them. If Xantcha's controller leaves the game, Xantcha is exiled. This is a change from previous rulings due to Xantcha's updated wording.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/362/xantcha-sleeper-agent) · oracle_id `0f0f3712-8d13-41a5-b332-2ab34e48d79d` · printing: CMM #362 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xanthic Statue
 
@@ -92,7 +114,9 @@
   > *"Until you have lived as a statue, do not talk to me of pigeons."*
   > *—Karn, silver golem*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29864 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/163/xanthic-statue) · oracle_id `a8de92c4-84cb-40e7-8e34-428380726ed4` · printing: WTH #163 (1997-06-09) · [rulings](https://api.scryfall.com/cards/8becb285-cd91-4de0-af59-ddaa7d8c5366/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/163/xanthic-statue) · oracle_id `a8de92c4-84cb-40e7-8e34-428380726ed4` · printing: WTH #163 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xantid Swarm
 
@@ -106,7 +130,10 @@
   > *When they land on you, all you can think about is tearing them off.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/193/xantid-swarm) · oracle_id `13ba9ef8-2010-4d3f-8c62-85b7c5620031` · printing: EMA #193 (2016-06-10) · [rulings](https://api.scryfall.com/cards/022ab408-3292-40b6-b35e-ac1b7f06dffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — In a multiplayer game, only the player Xantid Swarm attacked is affected. Other defending players may cast spells.
+  - *2016-06-08* — The defending player may cast spells before Xantid Swarm’s triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/193/xantid-swarm) · oracle_id `13ba9ef8-2010-4d3f-8c62-85b7c5620031` · printing: EMA #193 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xathrid Demon
 
@@ -118,7 +145,10 @@
   > At the beginning of your upkeep, sacrifice a creature other than this creature, then each opponent loses life equal to the sacrificed creature's power. If you can't sacrifice a creature, tap this creature and you lose 7 life.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/170/xathrid-demon) · oracle_id `dd2bbc90-0474-42b7-afe4-3655a120ab02` · printing: C14 #170 (2014-11-07) · [rulings](https://api.scryfall.com/cards/0e33fd08-7c23-4ea6-be98-f907defcbd30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If you have two Xathrid Demons, both abilities will trigger at the beginning of your upkeep. When the first Demon’s ability resolves, you can sacrifice the second Demon to satisfy the requirement (“Sacrifice a creature other than Xathrid Demon” really means “Sacrifice a creature other than this creature”). When the second Demon’s ability resolves, you must sacrifice another creature. If you can’t (because the first Demon has somehow left the battlefield and you control no other creatures), you lose 7 life, regardless of whether the second Demon is still on the battlefield at this time.
+  - *2009-10-01* — When the ability resolves, if you control any other creatures, you must sacrifice one of them. You lose life only if no creature can be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/170/xathrid-demon) · oracle_id `dd2bbc90-0474-42b7-afe4-3655a120ab02` · printing: C14 #170 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xathrid Gorgon
 
@@ -130,7 +160,10 @@
   > {2}{B}, {T}: Put a petrification counter on target creature. It gains defender and becomes a colorless artifact in addition to its other types. Its activated abilities can't be activated. (A creature with defender can't attack.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/118/xathrid-gorgon) · oracle_id `1e65fac0-23fc-4a32-bd36-4e3f7ebfe33d` · printing: M13 #118 (2012-07-13) · [rulings](https://api.scryfall.com/cards/e07524e0-303d-465d-b112-ca605b9b27fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — The effects of Xathrid Gorgon’s ability don’t depend on the petrification counter. If that counter is removed, the creature remains a colorless artifact with defender, and so on.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/118/xathrid-gorgon) · oracle_id `1e65fac0-23fc-4a32-bd36-4e3f7ebfe33d` · printing: M13 #118 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xathrid Necromancer
 
@@ -142,7 +175,9 @@
 - **Flavor text** (C20 printing):
   > *"My commands shall echo forever in their dusty skulls."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/141/xathrid-necromancer) · oracle_id `a6b38874-c8be-47f7-a656-ba49ec9e967f` · printing: C20 #141 (2020-04-17) · [rulings](https://api.scryfall.com/cards/7b76e49c-1b02-4ef0-a707-9d85099435bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If Xathrid Necromancer dies at the same time as another Human creature you control, its ability will trigger twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/141/xathrid-necromancer) · oracle_id `a6b38874-c8be-47f7-a656-ba49ec9e967f` · printing: C20 #141 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xathrid Slyblade
 
@@ -156,6 +191,7 @@
   > *Designed by Rob Pardo*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/124/xathrid-slyblade) · oracle_id `931c0cd3-06fb-42da-86f2-476d08a238f9` · printing: M15 #124 (2014-07-18) · [rulings](https://api.scryfall.com/cards/909a9252-1e97-4e85-9648-66050f301f8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xavier Sal, Infested Captain
@@ -168,4 +204,16 @@
   > {T}, Sacrifice another creature: Proliferate. Activate only as a sorcery. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate, Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8983 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/14/xavier-sal-infested-captain) · oracle_id `50a9c647-47ba-4732-852a-f0ab2b4549c9` · printing: LCC #14 (2023-11-17) · [rulings](https://api.scryfall.com/cards/94a420c2-b1a8-4a98-a2a5-7f949d3081bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-11-10* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-11-10* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-11-10* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-11-10* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-11-10* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/14/xavier-sal-infested-captain) · oracle_id `50a9c647-47ba-4732-852a-f0ab2b4549c9` · printing: LCC #14 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

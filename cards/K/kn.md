@@ -100,7 +100,13 @@
   > *Most of the Knacksaw clique's skills were hewn from the minds of others.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16950 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/42/knacksaw-clique) · oracle_id `06af8e20-6f60-400d-9120-c99311232dde` · printing: SHM #42 (2008-05-02) · [rulings](https://api.scryfall.com/cards/22353590-f248-460e-a1a5-0b7431a4c82d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability, unless the creature has haste.
+  - *2008-05-01* — If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost.
+  - *2008-05-01* — If you don’t play the exiled card that turn, it remains exiled but you can’t play it.
+  - *2008-05-01* — The exiled card is played using the normal timing rules for its card type, as well as any other applicable restrictions such as “Cast [this card] only during combat.” For example, you can’t play the card during an opponent’s turn unless it’s an instant or has flash. Similarly, if the exiled card is a land, you can’t play it if you’ve already played a land that turn. If it’s a nonland card, you’ll have to pay its mana cost. The only thing that’s different is you’re playing it from the Exile zone.
+  - *2008-05-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/42/knacksaw-clique) · oracle_id `06af8e20-6f60-400d-9120-c99311232dde` · printing: SHM #42 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knickknack Ouphe
 
@@ -111,7 +117,9 @@
   > This creature enters with X +1/+1 counters on it.
   > When this creature enters, reveal the top X cards of your library. You may put any number of Aura cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/18/knickknack-ouphe) · oracle_id `55adf2f0-f023-4f41-ae9d-3c002e9e6e8d` · printing: WOC #18 (2023-09-08) · [rulings](https://api.scryfall.com/cards/08fe7e9c-7c3b-435f-bc0d-e380e6b852c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, you can't choose to put it onto the battlefield at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/18/knickknack-ouphe) · oracle_id `55adf2f0-f023-4f41-ae9d-3c002e9e6e8d` · printing: WOC #18 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knife
 
@@ -123,6 +131,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/134/knife) · oracle_id `7627163a-1689-446f-b5aa-a6c56aefb532` · printing: MKM #134 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b6883788-e1ee-4ddd-add2-24d6bc367717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knife and Death
@@ -133,7 +142,16 @@
   > Just a second (As long as this spell is on the stack, players can't move permanents.)
   > One at a time, throw ten cards you own from outside the game onto the playing area from a distance of at least three feet (about one meter). For each of those cards, Knife and Death deals 1 damage to each creature or planeswalker you don't control that card is touching. You gain life equal to the damage dealt this way.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/77/knife-and-death) · oracle_id `d77739a6-31f9-4d95-a145-9ee764a1c3e2` · printing: UNF #77 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7b4b0c89-e811-426c-b185-6d51946c4235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-10-07* — Card sleeves are considered part of the card. If a thrown card (or its own card sleeve) is touching another card’s sleeve, it is considered touching that card.
+  - *2022-10-07* — If a thrown card ends up touching more than one creature or planeswalker you don’t control, Knife and Death will deal 1 damage to each of them. You’ll gain 1 life for each of them. Knife and Death won’t deal damage to creatures or planeswalkers you control that get hit, and you won’t gain life for them either.
+  - *2022-10-07* — If one of the cards ends up touching the object used to represent a creature or planeswalker token an opponent controls, Knife and Death will deal damage to it.
+  - *2022-10-07* — Just a second is a variant of split second. Announcing Knife and Death instantly locks all permanents in place on the battlefield. As long as Knife and Death is on the stack, players can’t cast spells, activate abilities, or move their permanents.
+  - *2022-10-07* — Knife and Death considers only the creatures and planeswalkers any of the ten cards are touching after you have thrown the tenth card and all cards stop moving. It’s possible that a card will land touching a creature but then will be knocked off that creature by a later throw. That is, assess damage only after all knives . . . er, cards have been thrown.
+  - *2022-10-07* — No player may interfere with the throwing of the ten cards, including while they’re in flight.
+  - *2022-10-07* — The ten cards must be traditionally sized Magic cards. They can be in card sleeves if you’d like, but not otherwise modified. They must be thrown onto the battlefield from at least three feet (about one meter) away horizontally.
+  - *2022-10-07* — The thrown cards never actually enter the game. After Knife and Death finishes resolving, they return from whence they came, to thine sideboard or collection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/77/knife-and-death) · oracle_id `d77739a6-31f9-4d95-a145-9ee764a1c3e2` · printing: UNF #77 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight-Captain of Eos
 
@@ -146,7 +164,9 @@
 - **Flavor text** (ALA printing):
   > *The strength of Bant's caste system is the unfailing loyalty of its meekest members.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9732 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/17/knight-captain-of-eos) · oracle_id `611f1714-a8bb-4ce4-a810-4d26fe64e358` · printing: ALA #17 (2008-10-03) · [rulings](https://api.scryfall.com/cards/02ef25ce-4d6a-45ff-8b6b-fd5c29307099/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — You can sacrifice any Soldier to activate the second ability. You’re not limited to just the Soldier tokens put onto the battlefield by the first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/17/knight-captain-of-eos) · oracle_id `611f1714-a8bb-4ce4-a810-4d26fe64e358` · printing: ALA #17 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knighted Myr
 
@@ -161,7 +181,10 @@
   > *—Jor Kadeen*
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11587 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/36/knighted-myr) · oracle_id `dfee20a6-7737-49a8-b1cb-0a4914ac0ad3` · printing: CMM #36 (2023-08-04) · [rulings](https://api.scryfall.com/cards/db0489ee-96b6-4437-a716-ee07ecbd4cb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2021-06-18* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/36/knighted-myr) · oracle_id `dfee20a6-7737-49a8-b1cb-0a4914ac0ad3` · printing: CMM #36 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Errant
 
@@ -173,6 +196,7 @@
 - **Flavor text** (7ED printing):
   > *Knights are quick to pledge their loyalty and even quicker to charge into battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/24/knight-errant) · oracle_id `920cc1a7-ac6b-44c0-ade7-347f05bba0f2` · printing: 7ED #24 (2001-04-11) · [rulings](https://api.scryfall.com/cards/d8d1d55b-6be0-4bb5-b452-ba4994b21774/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight-Errant of Eos
@@ -185,7 +209,16 @@
   > When this creature enters, look at the top six cards of your library. You may reveal up to two creature cards with mana value X or less from among them, where X is the number of creatures that convoked this creature. Put the revealed cards into your hand, then shuffle.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/26/knight-errant-of-eos) · oracle_id `4bd20d79-0861-494a-a8f2-f6ddb5088004` · printing: MOM #26 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ab2ad652-2406-491a-9f22-23e974f943d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-04-14* — It doesn't matter if the creatures that convoked Knight-Errant of Eos are still on the battlefield or not as the enters-the-battlefield ability is resolving. You'll get credit for them when determining the value of X.
+  - *2023-04-14* — You can't tap more creatures to convoke Knight-Errant of Eos than is necessary to pay for the spell. In most cases, this means five creatures. However, if there are any additional costs to cast Knight-Errant of Eos, you may use convoke to pay those additional costs as well.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/26/knight-errant-of-eos) · oracle_id `4bd20d79-0861-494a-a8f2-f6ddb5088004` · printing: MOM #26 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Exemplar
 
@@ -199,7 +232,12 @@
   > *"If you think you are brave enough to walk the path of honor, follow me into the dragon's den."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/192/knight-exemplar) · oracle_id `ecb198fc-5663-4380-b2da-ad54421e966d` · printing: MOC #192 (2023-04-21) · [rulings](https://api.scryfall.com/cards/8400f1a7-ebf0-49b2-a51d-3b2056c05b61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-08-15* — If an effect would simultaneously destroy Knight Exemplar and another Knight creature you control, only Knight Exemplar is destroyed.
+  - *2013-07-01* — If another Knight creature you control is dealt lethal damage, the creature isn't destroyed, but the damage remains marked on it. If, at some point later in that turn, you no longer control Knight Exemplar or it loses its abilities, the other Knight creature will lose indestructible and will be destroyed.
+  - *2013-07-01* — If you control two Knight Exemplars, each one causes the other to get +1/+1 and have indestructible.
+  - *2013-07-01* — Lethal damage, damage from a source with deathtouch, and effects that say “destroy” won't cause a creature with indestructible to be put into the graveyard. However, a creature with indestructible can be put into the graveyard for a number of reasons. The most likely reasons are if it's sacrificed, if it's legendary and another legendary creature with the same name is controlled by the same player, or if its toughness is 0 or less.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/192/knight-exemplar) · oracle_id `ecb198fc-5663-4380-b2da-ad54421e966d` · printing: MOC #192 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knightfisher
 
@@ -213,6 +251,7 @@
   > *His keen eyes can see the glint of scales far below the river's surface.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/55/knightfisher) · oracle_id `cb2d222c-df42-41a7-a517-0a41e47a4280` · printing: BLB #55 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c7fb7f4f-2153-4527-8f11-adbf508d3533/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knighthood
@@ -224,6 +263,7 @@
 - **Flavor text** (7ED printing):
   > *Kings don't make knights. Actions do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/25/knighthood) · oracle_id `22f008b3-c263-4dcc-855f-403da9ca4cd9` · printing: 7ED #25 (2001-04-11) · [rulings](https://api.scryfall.com/cards/1da88c0a-255d-4484-b464-bd742d66e3fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight in _____ Armor
@@ -239,7 +279,9 @@
   > *The lucky armor stopped lightning and lasers, but sadly, also love.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/17/knight-in-_____-armor) · oracle_id `3fb59fc3-080b-4511-8a47-f7b21dc1532e` · printing: UNF #17 (2022-10-07) · [rulings](https://api.scryfall.com/cards/3caddc44-35c1-4171-a4a1-060df29d4da9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — When determining what a name starts with, ignore all spaces and punctuation, including blank lines.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/17/knight-in-_____-armor) · oracle_id `3fb59fc3-080b-4511-8a47-f7b21dc1532e` · printing: UNF #17 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Luminary
 
@@ -253,6 +295,7 @@
   > *"I thank you that I do not shine alone."*
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/23/knight-luminary) · oracle_id `11809d9b-30f3-49d5-9119-e45b4de044c8` · printing: EOE #23 (2025-08-01) · [rulings](https://api.scryfall.com/cards/34334971-c1b7-4506-a6dd-77f66b3ae4e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knightly Valor
@@ -265,7 +308,10 @@
   > Enchanted creature gets +2/+2 and has vigilance.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15243 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/14/knightly-valor) · oracle_id `9ba6cec6-97bf-4a83-9ffa-77e187d0945b` · printing: 2X2 #14 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c0f20ca6-1a92-4be5-a84a-e7f8f0b7f648/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If the creature this Aura would enchant is an illegal target by the time Knightly Valor tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its ability won't trigger.
+  - *2018-07-13* — You need a creature for Knightly Valor to target as you cast it. There's no way to have it enter the battlefield attached to the Knight token it'll create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/14/knightly-valor) · oracle_id `9ba6cec6-97bf-4a83-9ffa-77e187d0945b` · printing: 2X2 #14 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Autumn
 
@@ -278,6 +324,7 @@
   > • Destroy target artifact or enchantment.
   > • You gain 4 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/187/knight-of-autumn) · oracle_id `c4212ba4-8c43-40ca-aa36-b3b535659fa8` · printing: AFC #187 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c9cd7448-6f8b-4ce4-bde5-2c17271dcef7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Cliffhaven
@@ -295,7 +342,13 @@
   > Flying, vigilance
 - **Keywords:** Flying, Vigilance, Level Up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/5/knight-of-cliffhaven) · oracle_id `5045cfc3-ea63-4e0d-bf6a-bdeaf841ae3c` · printing: DDP #5 (2015-08-28) · [rulings](https://api.scryfall.com/cards/9a1c3f32-9add-455d-bb7f-b31c430c6590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-06-15* — A creature’s level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+  - *2010-06-15* — Effects that modify a leveler’s power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-06-15* — Effects that set a leveler’s power or toughness to a specific value, including the effects from a level symbol’s ability, apply in timestamp order. The timestamp of each level symbol’s ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+  - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+  - *2010-06-15* — The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddp/5/knight-of-cliffhaven) · oracle_id `5045cfc3-ea63-4e0d-bf6a-bdeaf841ae3c` · printing: DDP #5 (2015-08-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Dawn
 
@@ -310,6 +363,7 @@
   > *—Motto of the Knights of Dawn*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25796 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/26/knight-of-dawn) · oracle_id `51262155-f1be-45a8-a21f-94e920a93e55` · printing: TMP #26 (1997-10-14) · [rulings](https://api.scryfall.com/cards/bf0e5034-a134-4eb6-af8e-b2419b92b3a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Dawn's Light
@@ -325,7 +379,12 @@
   > *"Phyrexians destroyed my village, but they cannot break my hope."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/23/knight-of-dawns-light) · oracle_id `801e55c7-f8a1-4a90-81cb-3ad7022290ba` · printing: DMU #23 (2022-09-09) · [rulings](https://api.scryfall.com/cards/b7c7a54e-4df6-4745-8bae-aeefda934d82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Knight of Dawn's Light's second ability will apply to those two events separately. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will apply only once.
+  - *2022-09-09* — If you control two Knight of Dawn's Lights and you would gain life, you gain that much life plus 2. A third Knight of Dawn's Light has you gain that much life plus 3, and so on.
+  - *2022-09-09* — In a Two-Headed Giant game, life gained by your teammate won't cause Knight of Dawn's Light's second ability to apply, even though it will cause your team's life total to increase.
+  - *2022-09-09* — The middle ability of Knight of Dawn's Light applies just once to each life-gaining event, no matter how much life is gained. If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the ability of Knight of Dawn's Light applies only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/23/knight-of-dawns-light) · oracle_id `801e55c7-f8a1-4a90-81cb-3ad7022290ba` · printing: DMU #23 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Doves
 
@@ -337,7 +396,10 @@
 - **Flavor text** (WOE printing):
   > *So many birds, yet the air was still and empty of song. Part of Syr Damon knew something wasn't right, but it was a far-off worry, unimportant and soon forgotten.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/19/knight-of-doves) · oracle_id `d2e6fbcb-ebbd-40e8-8a01-b675fcacaf8e` · printing: WOE #19 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b4f33617-ad19-4d42-ab94-6f21a7fb3dd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Knight of Doves's ability will trigger.
+  - *2023-09-01* — If Knight of Doves leaves the battlefield while it has an Aura you control attached to it or at the same time as another creature with an Aura you control attached to it, its ability won't trigger for those enchantments unless they were destroyed by the same effect that caused Knight of Doves to leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/19/knight-of-doves) · oracle_id `d2e6fbcb-ebbd-40e8-8a01-b675fcacaf8e` · printing: WOE #19 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Dusk
 
@@ -349,6 +411,7 @@
 - **Flavor text** (10E printing):
   > *"Challenge me with your strongest. I will paint my sword with their blood."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24631 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/152/knight-of-dusk) · oracle_id `cd1ca3c8-1f03-4c03-a93a-0419ac205c18` · printing: 10E #152 (2007-07-13) · [rulings](https://api.scryfall.com/cards/d665187f-a8d3-40b6-bfaf-cf25d84484b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Dusk's Shadow
@@ -362,6 +425,7 @@
   > {1}{B}: This creature gets +1/+1 until end of turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/96/knight-of-dusks-shadow) · oracle_id `815ae30f-f455-4795-96eb-4bcc41d415e8` · printing: DMU #96 (2022-09-09) · [rulings](https://api.scryfall.com/cards/33dfd2fe-e0e0-465c-b730-a30e6f5c271c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Glory
@@ -376,6 +440,7 @@
   > *"I will uphold the law, and no manner of foe will stop me."*
 - **Keywords:** Exalted, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/21/knight-of-glory) · oracle_id `10b8fd4d-1696-4b0d-b791-7bd3de504457` · printing: M13 #21 (2012-07-13) · [rulings](https://api.scryfall.com/cards/1646cb67-e0ac-4f2d-af21-618ff3613d69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Grace
@@ -391,7 +456,11 @@
   > *A light to pierce the shadows.*
 - **Keywords:** Hexproof from, Hexproof, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/576/knight-of-grace) · oracle_id `7b51a979-47e0-4b98-8ec5-8064c83422e1` · printing: FDN #576 (2024-11-15) · [rulings](https://api.scryfall.com/cards/4efb8633-0a70-4ddc-80af-42508ec75cff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — "Hexproof from [quality]" is a variant of the hexproof ability. "Hexproof from black" means "This permanent can't be the target of black spells your opponents control or abilities of black sources your opponents control."
+  - *2018-04-27* — If an effect says that a creature loses hexproof or can be targeted as though it didn't have hexproof, this applies to hexproof from black as well.
+  - *2018-04-27* — Knight of Grace only gets +1/+0 if any player controls a black permanent, no matter how many black permanents players control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/576/knight-of-grace) · oracle_id `7b51a979-47e0-4b98-8ec5-8064c83422e1` · printing: FDN #576 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Infamy
 
@@ -405,6 +474,7 @@
   > *"Your laws, like your bones, were made to be broken."*
 - **Keywords:** Exalted, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18492 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/96/knight-of-infamy) · oracle_id `e4b036ef-5319-4ccc-8777-7b1298119f90` · printing: M13 #96 (2012-07-13) · [rulings](https://api.scryfall.com/cards/9e339853-5b6b-47b7-8d88-e9d3befb803f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Lost Causes
@@ -417,7 +487,12 @@
   > As long as you are way behind, Knight of Lost Causes gets +3/+3 and has indestructible. (You are way behind if, at any point during this turn, an opponent had 10 or more life than you, controlled at least three more creatures than you, or had at least three more cards in hand than you.)
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/518/knight-of-lost-causes) · oracle_id `9416bfc9-53bf-4213-b6f2-bcdbb5762ad4` · printing: MB2 #518 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ab606e8f-8a08-4de5-97f9-6dc312bd41ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — To determine if you are way behind, check the game state as it was at any point during the current turn, regardless of whether Knight of Lost Causes was on the battlefield at that time. For example, if you control one creature and an opponent controls four, then you play Knight of Lost Causes going up to two creatures, you are way behind this turn because, at some point in the past the turn, that opponent controlled three creatures more than you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/518/knight-of-lost-causes) · oracle_id `9416bfc9-53bf-4213-b6f2-bcdbb5762ad4` · printing: MB2 #518 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Malice
 
@@ -432,7 +507,11 @@
   > *A shadow to swallow the light.*
 - **Keywords:** Hexproof from, Hexproof, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/608/knight-of-malice) · oracle_id `b89d912a-65a0-4bc9-9e1d-ff8317458a72` · printing: FDN #608 (2024-11-15) · [rulings](https://api.scryfall.com/cards/bb678e10-e5a4-4143-8e49-7b523118674e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — "Hexproof from [quality]" is a variant of the hexproof ability. "Hexproof from white" means "This permanent can't be the target of white spells your opponents control or abilities of white sources your opponents control."
+  - *2018-04-27* — If an effect says that a creature loses hexproof or can be targeted as though it didn't have hexproof, this applies to hexproof from white as well.
+  - *2018-04-27* — Knight of Malice only gets +1/+0 if any player controls a white permanent, no matter how many white permanents players control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/608/knight-of-malice) · oracle_id `b89d912a-65a0-4bc9-9e1d-ff8317458a72` · printing: FDN #608 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Meadowgrain
 
@@ -446,6 +525,7 @@
   > *"By tradition, we don't speak for two days after battle. If our deeds won't speak for themselves, what else could be said?"*
 - **Keywords:** Lifelink, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddg/5/knight-of-meadowgrain) · oracle_id `4e6c71e8-aeaf-404e-84c2-c79f2a1cbe4b` · printing: DDG #5 (2011-04-01) · [rulings](https://api.scryfall.com/cards/6156d61c-640e-4e8c-bd2f-838dfef0c885/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of New Alara
@@ -458,7 +538,9 @@
 - **Flavor text** (DMC printing):
   > *"I embrace all of Alara, Grixis as much as Bant. Let my former home call me traitor. I do this not for accolades, but because it is right."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/156/knight-of-new-alara) · oracle_id `170856f4-7c9d-494b-9bae-20e4d9eba0da` · printing: DMC #156 (2022-09-09) · [rulings](https://api.scryfall.com/cards/10076adb-8bd2-4a65-9ee6-192ecd79cc2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — For example, a white creature gets no bonus. A white and blue creature gets +2/+2. A white, blue, and black creature gets +3/+3, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/156/knight-of-new-alara) · oracle_id `170856f4-7c9d-494b-9bae-20e4d9eba0da` · printing: DMC #156 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of New Benalia
 
@@ -470,6 +552,7 @@
 - **Flavor text** (DOM printing):
   > *The mage-smiths of New Benalia have perfected the art of blending fine steel and enchanted glass into weapons that are both beautiful and deadly. Only elite knights are entrusted with these martial works of art.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21009 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/24/knight-of-new-benalia) · oracle_id `75f28e54-17ce-49f9-85b2-9f9a04e1d86f` · printing: DOM #24 (2018-04-27) · [rulings](https://api.scryfall.com/cards/88c50c4b-a2c8-4cdc-a171-aa3ff9ef107f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Obligation
@@ -484,7 +567,12 @@
   > *He can calculate interest to six decimal places even in the midst of a deadly duel.*
 - **Keywords:** Extort, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21071 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/18/knight-of-obligation) · oracle_id `9051f778-7718-4e8d-88ff-ca2aee1b14e5` · printing: GTC #18 (2013-02-01) · [rulings](https://api.scryfall.com/cards/0c2a1100-a2e6-4ef5-a8e3-2aca552d6b66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — The amount of life you gain from extort is based on the total amount of life lost, not necessarily the number of opponents you have. For example, if your opponent's life total can't change (perhaps because that player controls Platinum Emperion), you won't gain any life.
+  - *2024-01-12* — The extort ability doesn't target any player.
+  - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
+  - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/18/knight-of-obligation) · oracle_id `9051f778-7718-4e8d-88ff-ca2aee1b14e5` · printing: GTC #18 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Old Benalia
 
@@ -496,7 +584,23 @@
   > When this creature enters, other creatures you control get +1/+1 until end of turn.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/17/knight-of-old-benalia) · oracle_id `673ddb72-d800-49c3-9ea9-ff74a0e20a97` · printing: MH1 #17 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6d919fc0-0117-4dad-a368-e76b216cdd2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2019-06-14* — The last ability of Knight of Old Benalia affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/17/knight-of-old-benalia) · oracle_id `673ddb72-d800-49c3-9ea9-ff74a0e20a97` · printing: MH1 #17 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Sorrows
 
@@ -510,7 +614,9 @@
   > *The helmet reveals no eyes to witness your penance, no mouth to offer absolution.*
 - **Keywords:** Afterlife
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/14/knight-of-sorrows) · oracle_id `50f644d6-2597-4ad6-8ea8-6b09056f90c0` · printing: RNA #14 (2019-01-25) · [rulings](https://api.scryfall.com/cards/6ce239e9-9b35-4dde-8a44-6c7ce4eb2d1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Because blockers are chosen all at once, you can’t block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/14/knight-of-sorrows) · oracle_id `50f644d6-2597-4ad6-8ea8-6b09056f90c0` · printing: RNA #14 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Stromgald
 
@@ -526,6 +632,7 @@
   > *—Avram Garrisson, leader of the Knights of Stromgald*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/99/knight-of-stromgald) · oracle_id `8cf57287-21b0-4194-8da3-62d00160234f` · printing: ME2 #99 (2008-09-22) · [rulings](https://api.scryfall.com/cards/304f4541-1ef9-405d-b298-894e0ebec19c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Sursi
@@ -538,7 +645,22 @@
   > Suspend 3—{W} (Rather than cast this card from your hand, you may pay {W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Flying, Flanking, Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/22/knight-of-sursi) · oracle_id `8dfe5fb5-89f1-42be-9038-40d3c71ce59a` · printing: TSR #22 (2021-03-19) · [rulings](https://api.scryfall.com/cards/8693bec1-9bd9-4840-9d7f-954f92d968c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/22/knight-of-sursi) · oracle_id `8dfe5fb5-89f1-42be-9038-40d3c71ce59a` · printing: TSR #22 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Ebon Legion
 
@@ -549,7 +671,12 @@
   > {2}{B}: This creature gets +3/+3 and gains deathtouch until end of turn.
   > At the beginning of your end step, if a player lost 4 or more life this turn, put a +1/+1 counter on this creature. (Damage causes loss of life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m20/105/knight-of-the-ebon-legion) · oracle_id `3b4eaa50-dff6-4825-97da-42b2f5554218` · printing: M20 #105 (2019-07-12) · [rulings](https://api.scryfall.com/cards/29425426-7bf2-4872-aa35-c12c22801edd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-07-12* — A player doesn't need to have lost 4 life all at once. If a player loses 2 life twice during a turn, that player lost 4 life during that turn, and Knight of the Ebon Legion receives a +1/+1 counter.
+  - *2019-07-12* — A player loses life if they pay life.
+  - *2019-07-12* — It doesn't matter whether a player has 4 or less life than they started the turn with. If a player lost 4 life but also gained 6 life, that player still lost 4 life.
+  - *2019-07-12* — Knight of the Ebon Legion looks at your entire turn to determine whether a player lost 4 or more life. It doesn't matter how many players lost 4 or more life, only whether anyone did. It also doesn't matter whether Knight of the Ebon Legion was on the battlefield when they lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m20/105/knight-of-the-ebon-legion) · oracle_id `3b4eaa50-dff6-4825-97da-42b2f5554218` · printing: M20 #105 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Hokey Pokey
 
@@ -563,6 +690,7 @@
   > *That's what it's all about.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/8/knight-of-the-hokey-pokey) · oracle_id `93a1513d-f9d1-41cf-9b44-0c103fd9c22c` · printing: UND #8 (2020-02-29) · [rulings](https://api.scryfall.com/cards/89d81b09-aa21-4206-bdc5-21819e36d9b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Holy Nimbus
@@ -576,7 +704,9 @@
   > {2}: This creature can't be regenerated this turn. Only your opponents may activate this ability.
 - **Keywords:** Flanking, Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20303 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/23/knight-of-the-holy-nimbus) · oracle_id `4e92c705-19c2-42df-ad12-808d272c505e` · printing: TSR #23 (2021-03-19) · [rulings](https://api.scryfall.com/cards/d4ac76c0-54ce-41b2-9000-e21eecaf7e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — After the last ability resolves, regeneration shields don't apply if Knight of the Holy Nimbus would be destroyed for the remainder of the turn. This includes its own effect as well as regeneration shields from other sources.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/23/knight-of-the-holy-nimbus) · oracle_id `4e92c705-19c2-42df-ad12-808d272c505e` · printing: TSR #23 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Keep
 
@@ -588,6 +718,7 @@
 - **Flavor text** (ELD printing):
   > *"What good is loyalty to the crown if we are not also in service to those less fortunate? I fight for all of us."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/19/knight-of-the-keep) · oracle_id `ab1d04ef-5f39-4a95-969e-b0872e6db0d6` · printing: ELD #19 (2019-10-04) · [rulings](https://api.scryfall.com/cards/0d49653d-cd4e-40a7-99de-fc531b5d8594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12a)
@@ -601,6 +732,7 @@
   > *"Whew. For a minute, I thought I'd forgotten the garlic press."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/12a/knight-of-the-kitchen-sink) · oracle_id `849dd2f2-c89a-46fb-bb89-7c506e9f7e82` · printing: UST #12a (2017-12-08) · [rulings](https://api.scryfall.com/cards/39c98931-cad7-4cea-97eb-f5e233ab2b36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12b)
@@ -614,6 +746,7 @@
   > *"Whew. For a minute, I thought I'd forgotten the gravy boat."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/12b/knight-of-the-kitchen-sink) · oracle_id `ea7aaf0f-0bb3-453f-9a7a-803bad0e77cd` · printing: UST #12b (2017-12-08) · [rulings](https://api.scryfall.com/cards/fa78eb3f-cf10-4827-ab37-53383596c7f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12c)
@@ -627,7 +760,9 @@
   > *"Whew. For a minute, I thought I'd forgotten the juicer."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/12c/knight-of-the-kitchen-sink) · oracle_id `2e4009bf-6afc-43b6-8812-1f1d3b20d8e2` · printing: UST #12c (2017-12-08) · [rulings](https://api.scryfall.com/cards/48b50cba-faa4-4847-90af-6fc20f62843e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — There just needs to be an open mouth in the art. It can be in the background. It doesn’t have to be on the depicted creature. It also doesn’t need lips. An open skeleton mouth will do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/12c/knight-of-the-kitchen-sink) · oracle_id `2e4009bf-6afc-43b6-8812-1f1d3b20d8e2` · printing: UST #12c (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12d)
 
@@ -640,6 +775,7 @@
   > *"Whew. For a minute, I thought I'd forgotten the melon baller."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/12d/knight-of-the-kitchen-sink) · oracle_id `f3819ef2-8ed5-431e-8eff-2477bc496dac` · printing: UST #12d (2017-12-08) · [rulings](https://api.scryfall.com/cards/82e3bd17-9928-4e7e-8f68-051aae75725e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12e)
@@ -653,6 +789,7 @@
   > *"Whew. For a minute, I thought I'd forgotten the olive forks."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/12e/knight-of-the-kitchen-sink) · oracle_id `335e72d0-bcc1-4774-8d3d-649675cb9479` · printing: UST #12e (2017-12-08) · [rulings](https://api.scryfall.com/cards/e06b6fb8-27fc-4d5b-92b2-1a6a5005a262/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Kitchen Sink (UST #12f)
@@ -666,6 +803,7 @@
   > *"Whew. For a minute, I thought I'd forgotten the tea cozy."*
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/12f/knight-of-the-kitchen-sink) · oracle_id `d6f8aac5-2c38-4a3b-af84-0d3d26704a98` · printing: UST #12f (2017-12-08) · [rulings](https://api.scryfall.com/cards/3d81180a-71c8-403f-90c0-48daf81e43a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Last Breath
@@ -678,7 +816,9 @@
   > Afterlife 3 (When this creature dies, create three 1/1 white and black Spirit creature tokens with flying.)
 - **Keywords:** Afterlife
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/331/knight-of-the-last-breath) · oracle_id `67791323-bf21-4c72-bf57-32197d3d5775` · printing: MOC #331 (2023-04-21) · [rulings](https://api.scryfall.com/cards/1438d850-1e08-4d75-a79c-d6a4738d5a67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/331/knight-of-the-last-breath) · oracle_id `67791323-bf21-4c72-bf57-32197d3d5775` · printing: MOC #331 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Mists
 
@@ -692,7 +832,10 @@
   > *Fear the mists, for they are armed.*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/36/knight-of-the-mists) · oracle_id `e9893534-3d05-42c2-93ff-f28ffae89aa3` · printing: VIS #36 (1997-02-03) · [rulings](https://api.scryfall.com/cards/37924cbc-fb9d-4906-9ad2-9b6d4ccfff0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Can destroy an opponent’s knight.
+  - *2004-10-04* — If no other Knights are on the battlefield, pay the mana or destroy this card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/36/knight-of-the-mists) · oracle_id `e9893534-3d05-42c2-93ff-f28ffae89aa3` · printing: VIS #36 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the New Coalition
 
@@ -706,6 +849,7 @@
   > *Raised in a long tradition of heroes, every Benalish knight knows the day might come when they will be called to face Phyrexia.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19877 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/25/knight-of-the-new-coalition) · oracle_id `30ab812f-a055-4c68-ad81-9dd23e38827f` · printing: MOM #25 (2023-04-21) · [rulings](https://api.scryfall.com/cards/56a3108b-c33d-47c5-984b-01fa257fbd79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Pilgrim's Road
@@ -719,7 +863,11 @@
   > *"To be a knight, Gideon, is to be the shield for the meek against the cruel."*
 - **Keywords:** Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/20/knight-of-the-pilgrims-road) · oracle_id `40999aa6-6424-42e4-9d47-33bee6bbb886` · printing: ORI #20 (2015-07-17) · [rulings](https://api.scryfall.com/cards/b9de5f39-b07a-4272-8992-ed971132c9c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/20/knight-of-the-pilgrims-road) · oracle_id `40999aa6-6424-42e4-9d47-33bee6bbb886` · printing: ORI #20 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Reliquary
 
@@ -733,7 +881,9 @@
   > *"Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend."*
   > *—Elspeth Tirel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/203/knight-of-the-reliquary) · oracle_id `393e5331-4456-4ba3-b410-bb630bb053db` · printing: IMA #203 (2017-11-17) · [rulings](https://api.scryfall.com/cards/205df311-a72d-40f1-b2ea-9b30274bc9bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Knight of the Reliquary's first ability applies only while it's on the battlefield. In all other zones, it's a 2/2 creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/203/knight-of-the-reliquary) · oracle_id `393e5331-4456-4ba3-b410-bb630bb053db` · printing: IMA #203 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Skyward Eye
 
@@ -745,6 +895,7 @@
 - **Flavor text** (A25 printing):
   > *The Order of the Skyward Eye does the bidding of an evil force, unwittingly stirring fear and mistrust across Bant in accordance with his plans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31939 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/19/knight-of-the-skyward-eye) · oracle_id `633e91ea-84d4-42ca-a8eb-603db340ebe7` · printing: A25 #19 (2018-03-16) · [rulings](https://api.scryfall.com/cards/c908f812-a7ee-411e-89f1-1f84793d095d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Stampede
@@ -757,7 +908,9 @@
 - **Flavor text** (RIX printing):
   > *"My whisper becomes a thousand roars."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7157 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/138/knight-of-the-stampede) · oracle_id `801d60c1-40b1-48b6-8800-afe1a21386f3` · printing: RIX #138 (2018-01-19) · [rulings](https://api.scryfall.com/cards/e81565a4-cbbe-4820-8473-15ceda42d553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — If an effect refers to a “[subtype] spell” or “[subtype] card,” it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn’t a Pirate card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/138/knight-of-the-stampede) · oracle_id `801d60c1-40b1-48b6-8800-afe1a21386f3` · printing: RIX #138 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Tusk
 
@@ -770,6 +923,7 @@
   > *"Horse? Who needs a horse?"*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28542 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/114/knight-of-the-tusk) · oracle_id `524d81fb-33f5-4e77-ae41-477b91e67be4` · printing: JMP #114 (2020-07-17) · [rulings](https://api.scryfall.com/cards/2f81d2a0-5301-4cae-ac83-ad51647146e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the White Orchid
@@ -784,7 +938,10 @@
   > *Both guide and guard on open plain.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/193/knight-of-the-white-orchid) · oracle_id `7d0efc64-151f-45b4-8c0b-c32609f9d862` · printing: MOC #193 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f332cd21-46ed-4fff-9fd9-d5975bf0004d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Knight of the White Orchid's triggered ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless any one of your opponents controls more lands than you, and (2) the ability will do nothing if you control at least as many lands as each of your opponents by the time it resolves.
+  - *2015-06-22* — The Plains you search for doesn't have to be basic. For example, you could put a Sacred Foundry onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/193/knight-of-the-white-orchid) · oracle_id `7d0efc64-151f-45b4-8c0b-c32609f9d862` · printing: MOC #193 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of the Widget
 
@@ -798,6 +955,7 @@
   > *His armor is lightweight titanium alloy, but his will is iron.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/13/knight-of-the-widget) · oracle_id `2bd08110-ece1-4d64-a8bf-ce0d3332290e` · printing: UST #13 (2017-12-08) · [rulings](https://api.scryfall.com/cards/012cae92-bb03-48bc-9e34-01be54405f74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Valor
@@ -810,7 +968,9 @@
   > {1}{W}: Each creature without flanking blocking this creature gets -1/-1 until end of turn. Activate only once each turn.
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/11/knight-of-valor) · oracle_id `f2edb543-de33-4eed-892c-98038eec96e2` · printing: VIS #11 (1997-02-03) · [rulings](https://api.scryfall.com/cards/25aa80ae-bb17-4e52-a269-efe75cf4c041/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The second ability is not Flanking and is not removed by an effect that removes Flanking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/11/knight-of-valor) · oracle_id `f2edb543-de33-4eed-892c-98038eec96e2` · printing: VIS #11 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight of Wundagore
 
@@ -825,6 +985,7 @@
   > *—Lord Tyger*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/175/knight-of-wundagore) · oracle_id `39145960-a212-46b4-addb-4b187f6bf6fd` · printing: MSH #175 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f3003766-9383-44e0-8b51-35ccbed137ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Paladin
@@ -838,6 +999,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Trample, Rapid-fire Battle Cannon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/160/knight-paladin) · oracle_id `e2ab0f84-8402-472d-be66-9661b85e08fc` · printing: 40K #160 (2022-10-07) · [rulings](https://api.scryfall.com/cards/951cff7b-2b17-4903-be92-b9c066adfc83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Rampager
@@ -851,7 +1013,10 @@
   > When this creature dies, it deals 4 damage to target opponent chosen at random.
 - **Keywords:** Trample, Frenzied Rampage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17410 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/80/knight-rampager) · oracle_id `2fa681b2-ca94-4f0c-83a4-98f00b8e1af8` · printing: 40K #80 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6105271d-76ae-4df0-bc95-fcccc229fc21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If Knight Rampager has multiple attack requirements applied to it, usually because it was also goaded, you must obey as many of the requirements as possible without violating any restrictions (such as effects that say it "can't attack") that might apply. For example, if the player chosen randomly also goaded Knight Rampager, then Knight Rampager must attack, but would be allowed to attack any player.
+  - *2022-10-07* — If the spell you cast with the cascade ability is a creature, it will have entered the battlefield this turn when Let the Galaxy Burn resolves and will not take damage from Let the Galaxy Burn's effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/80/knight-rampager) · oracle_id `2fa681b2-ca94-4f0c-83a4-98f00b8e1af8` · printing: 40K #80 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knights' Charge
 
@@ -864,7 +1029,9 @@
   > *"By hoof, wing, or paw. For the realm!"*
   > *—Syr Gwyn, Hero of Ashvale*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/333/knights-charge) · oracle_id `b4014b7c-aa1d-4feb-ab7a-4921ad150f9a` · printing: MOC #333 (2023-04-21) · [rulings](https://api.scryfall.com/cards/53d74710-7396-4984-afd8-fe47059e3d12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — In a Two-Headed Giant game, Knights' Charge's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/333/knights-charge) · oracle_id `b4014b7c-aa1d-4feb-ab7a-4921ad150f9a` · printing: MOC #333 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knights of Dol Amroth
 
@@ -876,6 +1043,7 @@
 - **Flavor text** (HOC printing):
   > *And so the companies came and were hailed and cheered and passed through the Gate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13466 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/178/knights-of-dol-amroth) · oracle_id `3f8b189e-775c-41ad-839a-153a3200c708` · printing: HOC #178 (2026-08-14) · [rulings](https://api.scryfall.com/cards/a954c983-296a-448c-b8d8-ce04d82caaeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knights of the Black Rose
@@ -889,7 +1057,13 @@
 - **Flavor text** (MOC printing):
   > *"Hail to the true queen! Long may she reign!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/332/knights-of-the-black-rose) · oracle_id `9dbfa01b-ce7e-4dd1-9257-0c89b831f477` · printing: MOC #332 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ffd1bf4b-3ab0-4ab3-b351-01cc2e857bb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-08-23* — Abilities that trigger whenever you “become the monarch” trigger only if you aren't already the monarch. For example, if you are already the monarch as Custodi Lich enters the battlefield, its last ability won't trigger.
+  - *2016-08-23* — Being the monarch carries two inherent triggered abilities. “At the beginning of the monarch's end step, that player draws a card” and “Whenever a creature deals combat damage to the monarch, its controller becomes the monarch.”
+  - *2016-08-23* — If the triggered ability that causes the monarch to draw a card goes on the stack, and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2016-08-23* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
+  - *2016-08-23* — The last ability of Knights of the Black Rose will trigger even if the most recent monarch was another player, as long as you were monarch as the turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/332/knights-of-the-black-rose) · oracle_id `9dbfa01b-ce7e-4dd1-9257-0c89b831f477` · printing: MOC #332 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knights of Thorn
 
@@ -903,7 +1077,12 @@
   > *—Tivadar of Thorn, History of the Goblin Wars*
 - **Keywords:** Protection, Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25585 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/19/knights-of-thorn) · oracle_id `6d8e1a97-67bf-4260-888c-c10c498b98d8` · printing: ME1 #19 (2007-09-10) · [rulings](https://api.scryfall.com/cards/98b76698-e27b-40fa-97fd-9f214f346e31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/19/knights-of-thorn) · oracle_id `6d8e1a97-67bf-4260-888c-c10c498b98d8` · printing: ME1 #19 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight's Pledge
 
@@ -914,6 +1093,7 @@
   > Enchanted creature gets +2/+2.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21167 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/oana/5/knights-pledge) · oracle_id `63604320-68de-415e-b1f9-dd0f85c5d8a3` · printing: OANA #5 (2018-07-14) · [rulings](https://api.scryfall.com/cards/4e786d0e-d6bf-4c6b-b989-28ca1ed53e2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knight Watch
@@ -926,6 +1106,7 @@
   > *"We lost respect after the battle for Barbu Rooftop. Send the troops to mingle respectfully with the citizens."*
   > *—Commander Yaszen of Boros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25595 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/19/knight-watch) · oracle_id `4965f5fe-a5fe-4976-822c-5cf40fea8c34` · printing: GTC #19 (2013-02-01) · [rulings](https://api.scryfall.com/cards/cd492072-9a8c-4d55-ac71-3c8efaa3fc87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knockout Blow
@@ -938,6 +1119,7 @@
 - **Flavor text** (SNC printing):
   > *"Subsequent efforts to deconstruct this facility will be punished with increasing severity."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27555 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/20/knockout-blow) · oracle_id `7068637c-b025-41a5-be31-df1850f33b68` · printing: SNC #20 (2022-04-29) · [rulings](https://api.scryfall.com/cards/9b00bbec-61d0-464c-bf82-4ecf5ddb3451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knockout Maneuver
@@ -949,7 +1131,10 @@
 - **Flavor text** (TDM printing):
   > *An exceptional bout during the Zenith celebration will be noted by Temur elders and result in recruitment for higher ranks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11154 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/147/knockout-maneuver) · oracle_id `7e4931f4-f518-4200-aad4-4ac8acf202e5` · printing: TDM #147 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9d218831-2a41-46a3-8e9d-93462cae5cab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If either creature is an illegal target as Knockout Maneuver resolves, the creature you control won't deal damage. If the creature you control is an illegal target, you won't put a +1/+1 counter on it even if it's still on the battlefield.
+  - *2025-04-04* — You can't cast Knockout Maneuver unless you choose a creature you control and a creature an opponent controls as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/147/knockout-maneuver) · oracle_id `7e4931f4-f518-4200-aad4-4ac8acf202e5` · printing: TDM #147 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knollspine Dragon
 
@@ -963,7 +1148,11 @@
   > *It woke to find a vast world in need of a master.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/98/knollspine-dragon) · oracle_id `9d834f1b-a4b5-4676-bb6d-2ffc6b3bccd2` · printing: SHM #98 (2008-05-02) · [rulings](https://api.scryfall.com/cards/bfcfec58-bfe4-4b04-80e3-ee11c44e91a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-05-01* — Knollspine Dragon's ability checks only whether damage was dealt. It doesn't care whether the player's life total also changed for other reasons (such as if the player paid life or gained life). For example, if an opponent was dealt 4 damage and gained 6 life during the turn, that player will have a higher life total than they started the turn with — but Knollspine Dragon's ability will let you discard your hand and draw four cards.
+  - *2008-05-01* — This ability counts the total amount of damage (both combat and noncombat) dealt to the targeted opponent by all sources (including ones you controlled and ones you didn't) over the course of the turn. Damage that was prevented or replaced doesn't count. Damage that resolved but didn't cause loss of life (due to Worship, for example) will count.
+  - *2008-05-01* — You target an opponent when the ability triggers. You don't decide whether you want to discard and draw until the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/98/knollspine-dragon) · oracle_id `9d834f1b-a4b5-4676-bb6d-2ffc6b3bccd2` · printing: SHM #98 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knollspine Invocation
 
@@ -974,6 +1163,7 @@
 - **Flavor text** (SHM printing):
   > *Witches tempted by the power of flame gathered to study in the ruins of Spinerock Knoll.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30288 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/99/knollspine-invocation) · oracle_id `a45fd5cc-0085-4d4f-872b-b9251e8706cf` · printing: SHM #99 (2008-05-02) · [rulings](https://api.scryfall.com/cards/8157aade-9dfc-402d-8e1f-468bf2bccb9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knotvine Mystic
@@ -986,6 +1176,7 @@
 - **Flavor text** (CON printing):
   > *The elves of Naya were the last to acknowledge the massive shift of mana in their world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14715 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/114/knotvine-mystic) · oracle_id `5d045695-e4b3-4daa-bfab-d77640fedfd6` · printing: CON #114 (2009-02-06) · [rulings](https://api.scryfall.com/cards/f6372fa0-e9c8-45d0-a3b8-72eb191c6b26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knotvine Paladin
@@ -999,7 +1190,9 @@
   > *"He is part of a new breed of guardian, one who embraces the best of both his world and ours."*
   > *—Mayael the Anima*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddg/10/knotvine-paladin) · oracle_id `75efff64-ea9b-4e3e-a729-fc003ee3db1e` · printing: DDG #10 (2011-04-01) · [rulings](https://api.scryfall.com/cards/4ed9e062-f9aa-4f89-bfb4-cfecae426b27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — The number of untapped creatures you control is counted as the ability resolves, and the bonus is locked in at that time. By this point, other attacking creatures will already be tapped (unless they have vigilance).
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddg/10/knotvine-paladin) · oracle_id `75efff64-ea9b-4e3e-a729-fc003ee3db1e` · printing: DDG #10 (2011-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowing // Half the Battle
 
@@ -1009,6 +1202,7 @@
 - **Face 2: Half the Battle** — {2}{R} — Sorcery
   > Search your library for a Battle card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ15/knowing-half-the-battle) · oracle_id `34f3b09e-b536-444d-a9f8-c0565ee84cba` · printing: UNK #RZ15 (2023-05-06) · [rulings](https://api.scryfall.com/cards/14a8a7da-1702-4547-bdc1-c45e38b44142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge and Power
@@ -1021,7 +1215,10 @@
   > *"Information is a powerful weapon."*
   > *—Cymede, queen of Akros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29960 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/101/knowledge-and-power) · oracle_id `ed68b5ca-c52a-40e0-89ac-6276a3c4fdeb` · printing: JOU #101 (2014-05-02) · [rulings](https://api.scryfall.com/cards/7cd48a18-df3d-4381-a7e7-a3e9ae18d4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-04-26* — Knowledge and Power's ability triggers only once each time you scry, no matter how many cards you look at.
+  - *2014-04-26* — You choose the target of the ability as it's put on the stack. You choose whether to pay {2} as it resolves. You can pay {2} only once each time you scry.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/101/knowledge-and-power) · oracle_id `ed68b5ca-c52a-40e0-89ac-6276a3c4fdeb` · printing: JOU #101 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Exploitation
 
@@ -1032,7 +1229,13 @@
   > Search target opponent's library for an instant or sorcery card. You may cast that card without paying its mana cost. Then that player shuffles.
 - **Keywords:** Prowl
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/38/knowledge-exploitation) · oracle_id `61ad3299-474a-400f-a1c1-b86024aca3e8` · printing: MOR #38 (2008-02-01) · [rulings](https://api.scryfall.com/cards/3d283c49-2e81-4b2e-956a-69152cc4704e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-04-01* — If you can't find an instant or sorcery card that can be legally cast, or choose not to find one, skip that part of the effect. Then the opponent shuffles their library.
+  - *2008-04-01* — You cast the instant or sorcery card as part of the resolution of this spell. It's cast from your opponent's library, not your hand. You choose modes, pay additional costs, choose targets, etc. for the spell as normal when casting it. Any X in the mana cost will be 0. Alternative costs can't be paid.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/38/knowledge-exploitation) · oracle_id `61ad3299-474a-400f-a1c1-b86024aca3e8` · printing: MOR #38 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Is Power
 
@@ -1043,6 +1246,7 @@
 - **Flavor text** (MKC printing):
   > *"Tremble, criminal, before the overwhelming might of meticulously organized evidence!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8061 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/42/knowledge-is-power) · oracle_id `8806ee05-10d5-4492-b672-2f6bcab94be0` · printing: MKC #42 (2024-02-09) · [rulings](https://api.scryfall.com/cards/1afe55c3-53c3-4257-afb6-32a553639f50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Pool
@@ -1054,7 +1258,18 @@
   > Whenever a player casts a spell from their hand, that player exiles it. If the player does, they may cast a spell from among other cards exiled with this artifact without paying its mana cost.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/111/knowledge-pool) · oracle_id `cb53bd72-dee8-46fa-b0f9-1eee3a99379a` · printing: MBS #111 (2011-02-04) · [rulings](https://api.scryfall.com/cards/393454c2-b256-4a6e-9bc2-56a47cab5073/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2011-06-01* — Any other abilities that trigger when you cast the original spell (for example, if you cast Emrakul, the Aeons Torn) will still trigger and go on the stack.
+  - *2011-06-01* — If multiple Knowledge Pools are on the battlefield, keep track of which cards are exiled by each of them. Whenever a player casts a spell from their hand: -- If all Knowledge Pools are controlled by the same player, that player chooses the order in which the triggered abilities are put onto the stack. The last one put onto the stack will be the first to resolve. -- If multiple players each control one or more Knowledge Pools, the active player put their triggered abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way will be the first to resolve. -- The first triggered ability to resolve will exile the original spell, then the player who cast that spell may cast one of the nonland cards exiled by the Knowledge Pool that generated that triggered ability. The abilities of other Knowledge Pools will do nothing when they resolve, as the original spell will already have been exiled.
+  - *2011-06-01* — If the card has any mandatory additional costs, as Kuldotha Rebirth does, you must pay them in order to cast the spell.
+  - *2011-06-01* — If the card you cast without paying its mana cost has an X in its mana cost, you must choose 0 as its value.
+  - *2011-06-01* — If the original spell isn't exiled (perhaps because it's countered by another spell or ability before Knowledge Pool's second triggered ability resolves), the rest of the ability does nothing. The player doesn't get to cast an exiled card.
+  - *2011-06-01* — If there are no nonland cards exiled by Knowledge Pool, the original spell is still exiled.
+  - *2011-06-01* — The spell a player casts from their hand won't resolve if it's exiled, even if that spell can't be countered by spells or abilities.
+  - *2011-06-01* — Timing restrictions based on the card's type are ignored. For example, you can cast an exiled creature card this way. Other restrictions, such as Spinal Embrace's "Cast Spinal Embrace only during combat" are not ignored.
+  - *2011-06-01* — You may cast any other card exiled by Knowledge Pool, including one owned by an opponent. Any card exiled by Knowledge Pool's "enters" ability or its other triggered ability may be cast.
+  - *2011-06-01* — You may pay additional costs, such as kicker costs, of the exiled card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/111/knowledge-pool) · oracle_id `cb53bd72-dee8-46fa-b0f9-1eee3a99379a` · printing: MBS #111 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Seeker
 
@@ -1067,7 +1282,13 @@
   > When this creature dies, create a Clue token. (It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15846 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/60/knowledge-seeker) · oracle_id `bdc2d980-ca14-4040-a9a1-786d724dc65c` · printing: TLA #60 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8554e862-f78a-42f5-b876-076aac6c9504/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+  - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2025-10-02* — If an effect instructs you to draw multiple cards, the ability triggers after you draw whichever is the second one for the turn. It goes on the stack after you've drawn and looked at all the cards and finished resolving the spell or ability that caused you to draw them.
+  - *2025-10-02* — The first triggered ability can trigger only once each turn. It doesn't matter whether Knowledge Seeker was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/60/knowledge-seeker) · oracle_id `bdc2d980-ca14-4040-a9a1-786d724dc65c` · printing: TLA #60 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knowledge Vault
 
@@ -1078,7 +1299,11 @@
   > {0}: Sacrifice this artifact. If you do, discard your hand, then put all cards exiled with this artifact into their owner's hand.
   > When this artifact leaves the battlefield, put all cards exiled with it into their owner's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30238 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/198/knowledge-vault) · oracle_id `77d3cc31-837a-408a-b7f8-5aa9de78e1b7` · printing: ME3 #198 (2009-09-07) · [rulings](https://api.scryfall.com/cards/c416fca6-e201-4dbc-b9c7-248d70967746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — You can activate the second ability any time you have priority, including in response to itself. However, you will only be able to sacrifice the Vault as the first such ability resolves.
+  - *2009-10-01* — If you activate Knowledge Vault's second ability, all that happens at that time is that you pay a cost of {0}. As the ability resolves, you must sacrifice Knowledge Vault. This is mandatory. If you are able to do so, you discard your hand and put all cards exiled with Knowledge Vault into their owners' hands. If you aren't able to do so because Knowledge Vault left the battlefield or changed controllers before the ability resolves, nothing happens.
+  - *2009-10-01* — You don't get to look at the cards exiled with Knowledge Vault.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/198/knowledge-vault) · oracle_id `77d3cc31-837a-408a-b7f8-5aa9de78e1b7` · printing: ME3 #198 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knucklebone Witch
 
@@ -1090,6 +1315,7 @@
 - **Flavor text** (LRW printing):
   > *Each bone honors its owner's best pranks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15183 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/120/knucklebone-witch) · oracle_id `4d165c0f-3e40-45ad-92a1-53b13c07b34d` · printing: LRW #120 (2007-10-12) · [rulings](https://api.scryfall.com/cards/7d66b355-9aff-4cce-ae4a-42b233475dcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Knuckles the Echidna
@@ -1103,4 +1329,5 @@
   > Treasure Hunter — At the beginning of your upkeep, if you control thirty or more artifacts, you win the game.
 - **Keywords:** Treasure Hunter, Treasure, Haste, Trample, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1819 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2082/knuckles-the-echidna) · oracle_id `71ae0fab-eb3e-4226-9fcc-29186f98a569` · printing: SLD #2082 (2025-07-14) · [rulings](https://api.scryfall.com/cards/54b65cca-7844-4d3e-9d7f-ed1f49f94425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

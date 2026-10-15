@@ -24,7 +24,10 @@
   > Whenever an Archer you control deals damage to a creature, you may pay {2}. If you do, draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18413 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/36/ohabi-caleria) · oracle_id `e403fadb-537c-41ac-924a-450f0eabe2c4` · printing: DMC #36 (2022-09-09) · [rulings](https://api.scryfall.com/cards/82003d72-5138-4341-a53a-62b794f2bce1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — All your Archers untap during each other player’s untap step. You have no choice about what untaps.
+  - *2022-09-09* — Effects that say an Archer you control “doesn’t untap during your untap step” or “doesn’t untap during its controller’s untap step” won’t prevent Ohabi Caleria from causing you to untap it during other players’ untap steps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/36/ohabi-caleria) · oracle_id `e403fadb-537c-41ac-924a-450f0eabe2c4` · printing: DMC #36 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Frostfang
 
@@ -37,7 +40,10 @@
 - **Flavor text** (SOC printing):
   > *Silent as a snowdrift. Inexorable as an avalanche.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/279/ohran-frostfang) · oracle_id `b99ada26-9a61-4175-9fb8-15a106960220` · printing: SOC #279 (2026-04-24) · [rulings](https://api.scryfall.com/cards/55fb93e6-d057-4b70-ad12-e98291fd4a2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — If one or more creatures you control deal combat damage to players at the same time that lethal damage is dealt to Ohran Frostfang, its ability triggers for each of those creatures.
+  - *2019-08-23* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but other cards and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/279/ohran-frostfang) · oracle_id `b99ada26-9a61-4175-9fb8-15a106960220` · printing: SOC #279 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Viper
 
@@ -50,6 +56,7 @@
 - **Flavor text** (C15 printing):
   > *The ohran viper is not cold-blooded. Its veins course with the same antigelid venom used to kill its prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7827 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/194/ohran-viper) · oracle_id `879fdcd8-62ea-4d39-abd4-44e6d82adf4d` · printing: C15 #194 (2015-11-13) · [rulings](https://api.scryfall.com/cards/2dd1d028-0c7c-450b-a1ae-812b1212fef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ohran Yeti
@@ -62,4 +69,5 @@
 - **Flavor text** (CSP printing):
   > *When a snowdrift shows you its eyes, it's already too late.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/93/ohran-yeti) · oracle_id `e606cba7-7e3c-4834-b2cd-56e51cedccb7` · printing: CSP #93 (2006-07-21) · [rulings](https://api.scryfall.com/cards/8d6cfa21-75b1-4380-b0fc-a7450699660f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

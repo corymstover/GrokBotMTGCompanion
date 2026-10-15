@@ -22,6 +22,7 @@
 - **Flavor text** (TLA printing):
   > *"You will learn respect, and suffering will be your teacher."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13544 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/113/ozais-cruelty) · oracle_id `aba5c046-2f8c-4749-b347-9a7d8cb1c865` · printing: TLA #113 (2025-11-21) · [rulings](https://api.scryfall.com/cards/22cad680-d46a-4589-a633-b6ee9a78d61e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozai, the Phoenix King
@@ -37,7 +38,15 @@
   > *"Out of the ashes, a new world will be born."*
 - **Keywords:** Haste, Trample, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3811 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/235/ozai-the-phoenix-king) · oracle_id `7472af8e-2e93-43b2-bc32-a3741f6d7502` · printing: TLA #235 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a98b1550-4609-4a2f-9371-4afe1cdc613e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — As long as Ozai, the Phoenix King is on the battlefield, you'll keep unspent mana as steps and phases end (although it will become red). This means you can add mana and spend it during a future step, phase, or turn. Once Ozai leaves the battlefield, you have until the end of the current step or phase to use the mana before it disappears.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — If unspent mana has any restrictions or riders associated with it (for example, if it was produced by White Lotus Hideout), those restrictions or riders will remain associated with that mana when it becomes red.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/235/ozai-the-phoenix-king) · oracle_id `7472af8e-2e93-43b2-bc32-a3741f6d7502` · printing: TLA #235 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozolith, the Shattered Spire
 
@@ -49,7 +58,12 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/281/ozolith-the-shattered-spire) · oracle_id `41fed659-237c-4d8e-ad31-d17fa0d3f764` · printing: SOC #281 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1d5bab94-362e-45e6-8988-69e2b2c681b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — However, if Ozolith, the Shattered Spire somehow enters the battlefield with +1/+1 counters it, its first ability won't apply to itself.
+  - *2023-04-14* — If another artifact or creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2023-04-14* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2023-04-14* — If you somehow control two copies of Ozolith, the Shattered Spire, the number of +1/+1 counters put on an artifact or creature you control is two plus the original number. Three Ozoliths add three, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/281/ozolith-the-shattered-spire) · oracle_id `41fed659-237c-4d8e-ad31-d17fa0d3f764` · printing: SOC #281 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozox, the Clattering King
 
@@ -60,4 +74,5 @@
   > Ozox can't block.
   > When Ozox dies, create Jumblebones, a legendary 2/1 black Skeleton creature token with "Jumblebones can't block" and "When Jumblebones leaves the battlefield, return target card named Ozox, the Clattering King from your graveyard to your hand."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10422 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/44/ozox-the-clattering-king) · oracle_id `04e575d1-f843-4330-972f-e77b264073e0` · printing: J25 #44 (2024-11-15) · [rulings](https://api.scryfall.com/cards/02cf5079-9da8-470d-8eea-00d6aac68d04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

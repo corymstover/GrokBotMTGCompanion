@@ -43,6 +43,7 @@
 - **Flavor text** (NEM printing):
   > *They make mountains into mogg holes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/93/mogg-alarm) · oracle_id `1c2117d5-4600-489c-be5b-dc0ed69b30ca` · printing: NEM #93 (2000-02-14) · [rulings](https://api.scryfall.com/cards/f246e128-0a43-478a-a232-51020fab76d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Assassin
@@ -53,7 +54,9 @@
 - **Oracle text:**
   > {T}: You choose target creature an opponent controls, and that opponent chooses target creature. Flip a coin. If you win the flip, destroy the creature you chose. If you lose the flip, destroy the creature your opponent chose.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/88/mogg-assassin) · oracle_id `36a6925a-621e-47d6-8cb3-1b2886e1986e` · printing: EXO #88 (1998-06-15) · [rulings](https://api.scryfall.com/cards/1124725d-e643-43a1-873e-255636c7f334/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You and your opponent both pick the target creatures on announcing, which is before the coin is flipped. You pick first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/88/mogg-assassin) · oracle_id `36a6925a-621e-47d6-8cb3-1b2886e1986e` · printing: EXO #88 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Bombers
 
@@ -65,7 +68,11 @@
 - **Flavor text** (STH printing):
   > *Behind every great mogg bomber is another mogg with a shovel and a basket.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28908 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/91/mogg-bombers) · oracle_id `69812cd2-9885-45ed-9d79-658597bfeb8b` · printing: STH #91 (1998-03-02) · [rulings](https://api.scryfall.com/cards/16064ad4-eec2-4c32-b66d-a2bdb1a6191f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The Mogg Bombers do trigger on any creatures that enter at the same time they do.
+  - *2011-01-25* — If multiple creatures enter at the same time, the ability triggers once for each of them. You may choose a different target player or planeswalker for each time it triggers.
+  - *2011-01-25* — The damage is dealt whether or not you sacrifice the Mogg Bombers. For instance, if Mogg Bombers is destroyed or sacrificed in between the time when the ability triggers and when it resolves, then the targeted player will still be dealt 3 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/91/mogg-bombers) · oracle_id `69812cd2-9885-45ed-9d79-658597bfeb8b` · printing: STH #91 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Cannon
 
@@ -76,6 +83,7 @@
 - **Flavor text** (TMP printing):
   > *Moggs never volunteer for anything twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25863 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/298/mogg-cannon) · oracle_id `710a51e1-a305-49b5-a429-0ff1a10244fa` · printing: TMP #298 (1997-10-14) · [rulings](https://api.scryfall.com/cards/5ee64a77-5308-45c7-b865-400820968c74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moggcatcher
@@ -88,7 +96,9 @@
 - **Flavor text** (NEM printing):
   > *"They're not worth much, but they're easy to catch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/96/moggcatcher) · oracle_id `4845dc21-7534-4896-b298-4d44cd7a3b27` · printing: NEM #96 (2000-02-14) · [rulings](https://api.scryfall.com/cards/9ba582d7-1dce-4664-8bd9-6b419596788c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/96/moggcatcher) · oracle_id `4845dc21-7534-4896-b298-4d44cd7a3b27` · printing: NEM #96 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Conscripts
 
@@ -101,7 +111,9 @@
   > *"Torahn's horns! They've seen us. Now, statue, you must fight to save yourself!"*
   > *—Tahngarth, aboard the Predator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/143/mogg-conscripts) · oracle_id `b015686d-07e1-46c7-8e51-2bec646860d6` · printing: TPR #143 (2015-05-06) · [rulings](https://api.scryfall.com/cards/c67c26d7-f752-40a5-b79e-1f4c531cbef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — A “creature spell” is any spell with the type Creature, even if it has other types such as Artifact or Enchantment. Older cards of type Summon are also Creature spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/143/mogg-conscripts) · oracle_id `b015686d-07e1-46c7-8e51-2bec646860d6` · printing: TPR #143 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Fanatic
 
@@ -113,7 +125,9 @@
 - **Flavor text** (EMA printing):
   > *"I got it! I got it! I—"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12225 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/138/mogg-fanatic) · oracle_id `7efd5d62-6da2-428a-98e3-5b842f668656` · printing: EMA #138 (2016-06-10) · [rulings](https://api.scryfall.com/cards/d479ca28-bdc2-4b87-abf7-5aeb229a3f1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Once Mogg Fanatic has dealt and been dealt combat damage, it’s too late to activate its ability before it’s destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/138/mogg-fanatic) · oracle_id `7efd5d62-6da2-428a-98e3-5b842f668656` · printing: EMA #138 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Flunkies
 
@@ -125,7 +139,13 @@
 - **Flavor text** (A25 printing):
   > *They'll attack whatever's in front of them—as long as you tell them where that is.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/143/mogg-flunkies) · oracle_id `b92fc9c1-7264-4894-90b8-a193039489c5` · printing: A25 #143 (2018-03-16) · [rulings](https://api.scryfall.com/cards/5507a123-cf1a-42e1-a8fa-221960c48c16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-03-16* — Although Mogg Flunkies can't attack alone, other attacking creatures don't have to attack the same player, planeswalker, or battle. For example, Mogg Flunkies could attack an opponent and another creature could attack a planeswalker that opponent controls. Similarly, other blocking creatures don't have to block the same creature that Mogg Flunkies blocks.
+  - *2018-03-16* — If an effect says that Mogg Flunkies attacks or blocks if able and you control another creature able to attack or block, you must attack or block with Mogg Flunkies and that creature.
+  - *2018-03-16* — If you control more than one Mogg Flunkies, they can attack or block together, even if no other creatures attack or block.
+  - *2018-03-16* — In a Two-Headed Giant game, Mogg Flunkies can attack or block with a creature controlled by your teammate, even if no other creatures you control are attacking or blocking.
+  - *2018-03-16* — Once Mogg Flunkies has attacked or blocked, it will remain in combat even if you no longer control another attacking or blocking creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/143/mogg-flunkies) · oracle_id `b92fc9c1-7264-4894-90b8-a193039489c5` · printing: A25 #143 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Hollows
 
@@ -135,6 +155,7 @@
   > {T}: Add {C}.
   > {T}: Add {R} or {G}. This land doesn't untap during your next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/239/mogg-hollows) · oracle_id `1745fd57-467c-45f9-a46e-b9a2af87ec87` · printing: TPR #239 (2015-05-06) · [rulings](https://api.scryfall.com/cards/ee7f2031-1a91-4f9d-aae9-e4b1b3206211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Infestation
@@ -144,6 +165,7 @@
 - **Oracle text:**
   > Destroy all creatures target player controls. For each creature that died this way, that player creates two 1/1 red Goblin creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/146/mogg-infestation) · oracle_id `cfd61b53-83c6-4886-8503-ddcb92dc7f85` · printing: TPR #146 (2015-05-06) · [rulings](https://api.scryfall.com/cards/bfeb1145-3729-481e-a314-c325ed2f2a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Jailer
@@ -157,6 +179,7 @@
   > *Hey, wake up!*
   > *—Mogg secret password*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31858 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/68/mogg-jailer) · oracle_id `423659f1-1b48-4a2b-a1dc-f39fd62c6b6a` · printing: PLS #68 (2001-02-05) · [rulings](https://api.scryfall.com/cards/52513235-0e6c-40ea-8ead-a050e6da676e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Maniac
@@ -169,7 +192,9 @@
 - **Flavor text** (TPR printing):
   > *Stand clear if he gets an itch.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11814 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/147/mogg-maniac) · oracle_id `53b86704-4f16-498e-8c2c-e661cb85eb9c` · printing: TPR #147 (2015-05-06) · [rulings](https://api.scryfall.com/cards/df726d89-5246-4ece-89ff-f059e06e4460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If it blocks a trample creature, it only gets dealt damage equal to what is assigned to it. This means it will likely only get to deal 1 damage to the opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/147/mogg-maniac) · oracle_id `53b86704-4f16-498e-8c2c-e661cb85eb9c` · printing: TPR #147 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Mob
 
@@ -181,7 +206,10 @@
 - **Flavor text** (MH3 printing):
   > *There was absolutely nothing suspicious about three moggs carrying barrels of explosives—or so they told everyone who would listen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/127/mogg-mob) · oracle_id `fb7171f8-60a0-4309-93ff-113e1f62113c` · printing: MH3 #127 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f1457aa8-9f70-4586-b595-6a722879f6ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If some of the targets are illegal as Mogg Mob's activated ability tries to resolve, the original division of damage still applies and the damage that would have been dealt to the illegal targets is lost. It won't be dealt instead to a legal target.
+  - *2024-06-07* — You choose how many targets Mogg Mob's ability has and how the damage is divided as you activate the ability. Each target must receive at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/127/mogg-mob) · oracle_id `fb7171f8-60a0-4309-93ff-113e1f62113c` · printing: MH3 #127 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Raider
 
@@ -193,6 +221,7 @@
 - **Flavor text** (TMP printing):
   > *The evisceration of one mogg always cheers up the rest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/191/mogg-raider) · oracle_id `240746f5-caab-46b9-914f-c2c7ecce6ca9` · printing: TMP #191 (1997-10-14) · [rulings](https://api.scryfall.com/cards/94e9cc0a-c210-4525-8c7f-9c6306cc21b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Salvage
@@ -205,7 +234,12 @@
 - **Flavor text** (MH2 printing):
   > *Three moggs, one treasure, too bad.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/282/mogg-salvage) · oracle_id `0923ad85-2ea4-4463-8f71-b7d0a162b486` · printing: MH2 #282 (2021-06-18) · [rulings](https://api.scryfall.com/cards/2b93e65e-8a10-444f-8b0a-9327dd30cce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Casting a spell without paying its mana cost has no effect on its mana value. Mogg Salvage's mana value is always 3.
+  - *2021-06-18* — To cast Mogg Salvage without paying its mana cost, any opponent may control an Island, not just the one who controls the target artifact.
+  - *2021-06-18* — Who controls what lands is important only as you cast Mogg Salvage. Once it has been cast, you no longer controlling a Mountain or each opponent no longer controlling any Islands won't affect Mogg Salvage.
+  - *2021-06-18* — You don't sacrifice Nevinyrral's Disk to activate its ability. It's destroyed as part of the ability's resolution if it's still on the battlefield. If an effect gives Nevinyrral's Disk indestructible or regenerates it, it stays on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/282/mogg-salvage) · oracle_id `0923ad85-2ea4-4463-8f71-b7d0a162b486` · printing: MH2 #282 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Sentry
 
@@ -217,6 +251,7 @@
 - **Flavor text** (9ED printing):
   > *Nothing makes a mogg madder than having to wake up.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/204/mogg-sentry) · oracle_id `ac6f490b-6cf7-4afc-910e-4c8b51fcb2de` · printing: 9ED #204 (2005-07-29) · [rulings](https://api.scryfall.com/cards/56100dd7-250d-4a3a-b719-b25fc73873dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Squad
@@ -229,6 +264,7 @@
 - **Flavor text** (TMP printing):
   > *As they crept into the \*Weatherlight\*'s hold, the squad leader held up his hand and whispered, "Stop, goblins—what's that sound?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/192/mogg-squad) · oracle_id `4dac142a-c8f8-45c8-85d3-40e170dee112` · printing: TMP #192 (1997-10-14) · [rulings](https://api.scryfall.com/cards/4b267071-42a6-4e25-9c92-5bca32f8d9af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg Toady
@@ -240,6 +276,7 @@
   > This creature can't attack unless you control more creatures than defending player.
   > This creature can't block unless you control more creatures than attacking player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31184 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/95/mogg-toady) · oracle_id `77c7ba06-d247-421d-9e0c-54c3000c1b78` · printing: NEM #95 (2000-02-14) · [rulings](https://api.scryfall.com/cards/ee8edaf6-d46e-4efb-8bc0-ec11e06eb499/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogg War Marshal
@@ -252,6 +289,7 @@
   > When this creature enters or dies, create a 1/1 red Goblin creature token.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3025 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/DMR-131/mogg-war-marshal) · oracle_id `7b8f4879-578e-40e4-863a-41d0c32c6bdd` · printing: PLST #DMR-131 (2026-05-18) · [rulings](https://api.scryfall.com/cards/4ebce261-3a53-48f2-a173-0d98c68aff2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis, God of Slaughter
@@ -265,7 +303,22 @@
   > At the beginning of each opponent's upkeep, Mogis deals 2 damage to that player unless they sacrifice a creature of their choice.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2518 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/89/mogis-god-of-slaughter) · oracle_id `e5912d21-e188-4b9e-8e92-a6e8196353c6` · printing: DSC #89 (2024-09-27) · [rulings](https://api.scryfall.com/cards/521911e5-9ce5-4d55-bfc4-fbfeba4047fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it's still on the battlefield at that time.
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2014-02-01* — If the player can't sacrifice a creature (usually because they don't control one), Mogis will deal 2 damage to them.
+  - *2020-01-24* — As a God enters the battlefield, your devotion to its color will determine whether any replacement effects that affect creatures entering the battlefield apply to that God. Because replacement effects are considered before the God is on the battlefield, the mana symbols in its mana cost won't be counted when determining this.
+  - *2020-01-24* — Counters put on a God remain on it while it's not a creature, even if they have no effect.
+  - *2020-01-24* — If a God is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2020-01-24* — If a God stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary enchantment.
+  - *2020-01-24* — If an effect causes a God to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
+  - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
+  - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+  - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/89/mogis-god-of-slaughter) · oracle_id `e5912d21-e188-4b9e-8e92-a6e8196353c6` · printing: DSC #89 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis's Favor
 
@@ -279,7 +332,15 @@
   > *Rage-crowned Mogis swiftly rewards the virtue of brutality.*
 - **Keywords:** Enchant, Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/107/mogiss-favor) · oracle_id `312dbc3a-3ffb-4ed2-a278-8950d8ce8c86` · printing: THB #107 (2020-01-24) · [rulings](https://api.scryfall.com/cards/de6bf7fb-11ca-4878-8072-cebaa763a549/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/107/mogiss-favor) · oracle_id `312dbc3a-3ffb-4ed2-a278-8950d8ce8c86` · printing: THB #107 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis's Marauder
 
@@ -289,7 +350,12 @@
 - **Oracle text:**
   > When this creature enters, up to X target creatures each gain intimidate and haste until end of turn, where X is your devotion to black. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it. Each {B} in the mana costs of permanents you control counts toward your devotion to black.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/97/mogiss-marauder) · oracle_id `7a8bfc6b-0a24-42ad-a2c5-ac8d29d4c1b9` · printing: THS #97 (2013-09-27) · [rulings](https://api.scryfall.com/cards/9dfd36c5-a484-4973-873c-b6a433da8e7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s).
+  - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
+  - *2013-09-15* — Unlike most abilities that use devotion to determine the magnitude of an effect, Mogis's Marauder uses devotion to determine the number of targets its ability has. Use your devotion to black as you put the ability on the stack. Mogis's Marauder's mana cost will always count toward your devotion to black. Once targets are chosen, it doesn't matter if your devotion to black changes while the ability is on the stack. The number of targets is locked in.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/97/mogiss-marauder) · oracle_id `7a8bfc6b-0a24-42ad-a2c5-ac8d29d4c1b9` · printing: THS #97 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mogis's Warhound
 
@@ -302,7 +368,18 @@
   > Enchanted creature gets +2/+2 and attacks each combat if able.
 - **Keywords:** Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/104/mogiss-warhound) · oracle_id `bb87917f-33fb-4024-9317-0992c2f8f55e` · printing: JOU #104 (2014-05-02) · [rulings](https://api.scryfall.com/cards/f2e73e06-d708-41dc-b20c-1f71651230e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-04-26* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2014-04-26* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2014-04-26* — If the enchanted creature leaves the battlefield, the Aura stops being an Aura and remains on the battlefield. Control of that permanent doesn't change; you'll control the resulting enchantment creature.
+  - *2014-04-26* — If, during your declare attackers step, Mogis's Warhound (or the creature it enchants) is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under its controller's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2014-04-26* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2014-04-26* — Similarly, if you cast an Aura spell with bestow targeting a creature controlled by another player, and that creature is an illegal target when the spell tries to resolve, it will finish resolving as an enchantment creature spell. It will enter the battlefield under your control.
+  - *2014-04-26* — The controller of Mogis's Warhound or the creature it's enchanting chooses which player or planeswalker to attack.
+  - *2014-04-26* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2014-04-26* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+  - *2014-04-26* — You still control the Aura, even if it's enchanting a creature controlled by another player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/104/mogiss-warhound) · oracle_id `bb87917f-33fb-4024-9317-0992c2f8f55e` · printing: JOU #104 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mog, Moogle Warrior
 
@@ -314,4 +391,6 @@
   > Dance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control.
 - **Keywords:** Lifelink, Dance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7288 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/89/mog-moogle-warrior) · oracle_id `f18cce8c-8fb6-49a7-8f79-2529c0ee3ecc` · printing: FIC #89 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e9cb8ac9-64a0-455d-a8dd-1579ee321bbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — As long as at least one creature card was discarded this way, you'll create a Moogle token, and as long as at least one noncreature card was discarded this way, you'll put a +1/+1 counter on each Moogle you control. Additional creature cards discarded beyond the first won't result in additional Moogle tokens, and additional noncreature cards discarded beyond the first won't result in additional counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/89/mog-moogle-warrior) · oracle_id `f18cce8c-8fb6-49a7-8f79-2529c0ee3ecc` · printing: FIC #89 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -23,4 +23,5 @@
   > *—Danitha*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7588 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/280/aron-benalias-ruin) · oracle_id `d8b06606-9b1f-4e72-a280-12a6e912bb50` · printing: TDC #280 (2025-04-11) · [rulings](https://api.scryfall.com/cards/721cd840-5f2e-40b7-8b33-ea2d6343d390/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

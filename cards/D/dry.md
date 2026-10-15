@@ -29,7 +29,15 @@
   > *"Touch no tree, break no branch, and speak only the question you wish answered."*
   > *—Von Yomm, elder druid, to her initiates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/273/dryad-arbor) · oracle_id `e996cd67-739c-40f4-b276-0042acf26c71` · printing: DSC #273 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e3ddbebf-72cd-4d1b-ba0d-d94934654ab7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-09-22* — If Dryad Arbor is changed into another basic land type (such as by Sea's Claim), it continues to be a creature and a Dryad.
+  - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
+  - *2021-03-19* — Dryad Arbor is played as a land. It doesn't use the stack, it's not a spell, it can't be responded to, it has no mana cost, and it counts as your land play for the turn.
+  - *2021-03-19* — Due to its color indicator (appearing to the left of its type line), Dryad Arbor is green. Color indicators apply in all zones, not just the battlefield.
+  - *2021-03-19* — Forest is a land type and Dryad is a creature type.
+  - *2021-03-19* — If Dryad Arbor is changed into another basic land type, it continues to be a green Dryad creature.
+  - *2021-03-19* — If a Dryad Arbor gains flash, or you have the ability to play Dryad Arbor as though it had flash (due to Teferi, Mage of Zhalfir or Scout's Warning, for example), you can ignore the normal timing rules for when during your turn you can play a land, but not any other restrictions. You can't play Dryad Arbor during another player's turn, and you can't play Dryad Arbor if you don't have any land plays remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/273/dryad-arbor) · oracle_id `e996cd67-739c-40f4-b276-0042acf26c71` · printing: DSC #273 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Greenseeker
 
@@ -41,7 +49,9 @@
 - **Flavor text** (M19 printing):
   > *"The land already knows its destiny. I simply ask it to share the tale with me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/178/dryad-greenseeker) · oracle_id `5c43c1d7-1899-45c1-992b-443873890d78` · printing: M19 #178 (2018-07-13) · [rulings](https://api.scryfall.com/cards/30171803-1e7b-430b-a0de-2dfd2f1115ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If the top card of your library isn’t a land card, or if you choose not to reveal it, it remains on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/178/dryad-greenseeker) · oracle_id `5c43c1d7-1899-45c1-992b-443873890d78` · printing: M19 #178 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Militant
 
@@ -54,7 +64,10 @@
 - **Flavor text** (FDN printing):
   > *"Once, my guild welcomed outsiders. Too many preyed on our generosity, mistaking it for weakness. No more."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/656/dryad-militant) · oracle_id `b8ca5877-ac9e-4b15-8c23-c70f61b01895` · printing: FDN #656 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8fb36712-26e9-4ec7-8946-626bb7094c15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — If an instant or sorcery card is discarded while Dryad Militant is on the battlefield, abilities that function when a card is discarded (such as madness) still work, even though that card never reaches a graveyard. In addition, spells or abilities that check the characteristics of a discarded card (such as Chandra Ablaze's first ability) can find that card in exile.
+  - *2012-10-01* — If an instant or sorcery spell destroys Dryad Militant directly (like Murder does), that instant or sorcery card will be put into its owner's graveyard. However, if an instant or sorcery card deals lethal damage to Dryad Militant, Dryad Militant will remain on the battlefield until the next time state-based actions are checked, which is after the instant or sorcery finishes resolving. The instant or sorcery will be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/656/dryad-militant) · oracle_id `b8ca5877-ac9e-4b15-8c23-c70f61b01895` · printing: FDN #656 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad of the Ilysian Grove
 
@@ -68,7 +81,11 @@
   > *"Vine-wreathed, he nurtures life among the dead."*
   > *—Psemilla, Meletian poet*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove) · oracle_id `bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9` · printing: CMM #891 (2023-08-04) · [rulings](https://api.scryfall.com/cards/43be1363-7e73-4862-b45f-07f490ab46be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — Dryad of the Ilysian Grove’s first ability is cumulative if you control more than one. It’s also cumulative with other effects that let you play additional lands, such as the one from Escape to the Wilds.
+  - *2020-01-24* — Each land you control will have the land types Plains, Island, Swamp, Mountain, and Forest. They’ll also have the mana ability of each basic land type (for example, Forests have “{T}: Add {G}.”). They’ll still have their other subtypes and abilities.
+  - *2020-01-24* — Giving a land additional basic land types doesn’t change its name or whether it’s legendary or basic.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/891/dryad-of-the-ilysian-grove) · oracle_id `bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9` · printing: CMM #891 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Caress
 
@@ -80,7 +97,10 @@
   > *"I awoke to the face of beauty, my body fully healed. In that moment I knew my destiny was the Conclave's to shape."*
   > *—Rogad, Selesnya initiate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26760 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/160/dryads-caress) · oracle_id `7df07d16-e5cf-4c58-980a-632909aa1357` · printing: RAV #160 (2005-10-07) · [rulings](https://api.scryfall.com/cards/8cf707f2-1a62-458e-bcc8-8b1cd081f225/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-10-01* — If the spell is copied (such as with Twincast), the copy will never have had mana of the stated color paid for it, no matter what colors were spent on the original spell.
+  - *2005-10-01* — The spell checks on resolution to see if any mana of the stated color was spent to pay its cost. It doesn’t matter how much mana of that color was spent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/160/dryads-caress) · oracle_id `7df07d16-e5cf-4c58-980a-632909aa1357` · printing: RAV #160 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Favor
 
@@ -93,7 +113,9 @@
   > *She grants knowledge of the ways to traverse the forest's invisible connections.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/169/dryads-favor) · oracle_id `af740170-af87-487c-abab-a6ccdea82d97` · printing: M11 #169 (2010-07-16) · [rulings](https://api.scryfall.com/cards/c259509e-9f95-4566-b78a-ba34107539f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — Forestwalk cares about lands with the land type Forest, not necessarily lands named Forest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/169/dryads-favor) · oracle_id `af740170-af87-487c-abab-a6ccdea82d97` · printing: M11 #169 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad Sophisticate
 
@@ -106,7 +128,9 @@
   > *From Tin Street to the Outcast Mansions, she walks unbidden and unbound, her graceful silence never shaken by the riot of city life around her.*
 - **Keywords:** Landwalk, Nonbasic landwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/83/dryad-sophisticate) · oracle_id `7cf59255-0ad7-4ca8-bc95-f3a8cc2643d5` · printing: GPT #83 (2006-02-03) · [rulings](https://api.scryfall.com/cards/0b5bf5ce-f7f8-47cb-abb8-f14ce5f1af67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — "Nonbasic landwalk" means "This creature can't be blocked as long as defending player controls a nonbasic land." A nonbasic land is any land that lacks the basic supertype, whether or not it has a basic land type (such as Island).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/83/dryad-sophisticate) · oracle_id `7cf59255-0ad7-4ca8-bc95-f3a8cc2643d5` · printing: GPT #83 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dryad's Revival
 
@@ -119,7 +143,14 @@
   > *"Pleased to meet you, Seven."*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7179 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/183/dryads-revival) · oracle_id `8a69a0f0-5f0f-4098-ab6d-be3233af5cd3` · printing: MID #183 (2021-09-24) · [rulings](https://api.scryfall.com/cards/5c0aa3eb-0aa8-42da-b437-a3f336df585d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/183/dryads-revival) · oracle_id `8a69a0f0-5f0f-4098-ab6d-be3233af5cd3` · printing: MID #183 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dry Spell
 
@@ -131,4 +162,5 @@
   > *"Wherever water is lacking, all things suffer."*
   > *—Autumn Willow*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22195 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/87/dry-spell) · oracle_id `980a9957-6b52-45c6-b847-f84974d5a653` · printing: ME2 #87 (2008-09-22) · [rulings](https://api.scryfall.com/cards/54558c35-89fd-4733-8419-81fd7a619319/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

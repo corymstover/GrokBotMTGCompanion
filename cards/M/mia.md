@@ -24,7 +24,17 @@
   > *"Approach from downwind. Tread with care. Aim for the heart."*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7919 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/51/miara-thorn-of-the-glade) · oracle_id `6895d7a2-264b-4731-9294-c02e1e220384` · printing: KHC #51 (2021-02-05) · [rulings](https://api.scryfall.com/cards/7bdb9bfe-5e56-429d-af23-7548532e2406/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — Each time Miara's triggered ability resolves, you may pay {1} and 1 life only once to draw only one card.
+  - *2020-11-10* — If multiple Elves you control (possibly including Miara, Thorn of the Glade) die at the same time, Miara's ability triggers that many times.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/51/miara-thorn-of-the-glade) · oracle_id `6895d7a2-264b-4731-9294-c02e1e220384` · printing: KHC #51 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miasma Demon
 
@@ -38,7 +48,9 @@
   > *"Hush, little ants. I can rid you of your troubles with a breath. All I ask in return is a drop of blood... and a promise."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/109/miasma-demon) · oracle_id `b1df6475-e1e8-4ef3-a7b2-919d5f121c57` · printing: DSK #109 (2024-09-27) · [rulings](https://api.scryfall.com/cards/6d167c00-75ff-4301-855a-8319b89e3689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You don't choose targets for Miasma Demon's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard cards this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/109/miasma-demon) · oracle_id `b1df6475-e1e8-4ef3-a7b2-919d5f121c57` · printing: DSK #109 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miasmic Mummy
 
@@ -50,4 +62,6 @@
 - **Flavor text** (JMP printing):
   > *Its breath doesn't assault the senses. It pollutes the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12661 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/256/miasmic-mummy) · oracle_id `b5b049d4-242a-48ec-85d1-1ef66c8cfa4c` · printing: JMP #256 (2020-07-17) · [rulings](https://api.scryfall.com/cards/405c096c-a94b-4817-8c7f-f0551f6513e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — When Miasmic Mummy’s triggered ability resolves, first the player whose turn it is chooses a card to discard, then each other player in turn order chooses a card to discard, then all of those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which card to discard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/256/miasmic-mummy) · oracle_id `b5b049d4-242a-48ec-85d1-1ef66c8cfa4c` · printing: JMP #256 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

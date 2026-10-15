@@ -30,7 +30,14 @@
   > {1}{R}: Level 3
   > When this Class becomes level 3, search your library for a card, put it into your hand, shuffle, then discard a card at random.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/89/cool-but-rude) · oracle_id `1f076303-d160-4e02-aa1e-9ed6040c3735` · printing: TMT #89 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a566ab2d-6ec8-4833-8ad6-210378b1a20e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-01-27* — An ability that advances a Class to a higher level is a normal activated ability. It uses the stack and can be responded to.
+  - *2026-01-27* — Class cards have multiple text box sections. Other than the top section, each section contains a class level bar that includes a cost and a level number. Each represents an activated ability with the listed cost that advances the Class to the level listed in that bar.
+  - *2026-01-27* — Each Class starts at level 1 and has the abilities in the top section of its text box. Once a Class advances to level 2 or level 3, it has all of the abilities listed in the associated section of its text box as well.
+  - *2026-01-27* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2026-01-27* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2026-01-27* — You can't activate an ability that advances a Class to a particular level if that Class is already that level or higher. For example, if a Class is already level 2, you can't activate the ability that advances it to level 2 again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/89/cool-but-rude) · oracle_id `1f076303-d160-4e02-aa1e-9ed6040c3735` · printing: TMT #89 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cool Fluffy Loxodon
 
@@ -42,6 +49,7 @@
   > {TK}{TK} — 4/2
   > {TK}{TK}{TK}{TK} — 5/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/28/cool-fluffy-loxodon) · oracle_id `ba2bb276-b7ef-46ec-9618-2cf4d60c70a6` · printing: SUNF #28 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b1710520-d69f-415f-aef8-03eaa514b63a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cooped Up
@@ -57,7 +65,9 @@
   > *—Eulyn, Edgewall peddler*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/8/cooped-up) · oracle_id `3e8bcb44-b875-4fe4-b96f-97a20cbfec93` · printing: WOE #8 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8acb8758-09c5-4e19-ada1-904e36ece1fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Only the controller of Cooped Up may activate its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/8/cooped-up) · oracle_id `3e8bcb44-b875-4fe4-b96f-97a20cbfec93` · printing: WOE #8 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cooperation
 
@@ -71,7 +81,12 @@
   > *—General Jarkeld, the Arctic Fox*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23755 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/18/cooperation) · oracle_id `19f7a0f2-aa3f-4253-be44-b08056918a26` · printing: ICE #18 (1995-06-03) · [rulings](https://api.scryfall.com/cards/21a815ed-c8b4-4414-8b27-ea612e2977e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/18/cooperation) · oracle_id `19f7a0f2-aa3f-4253-be44-b08056918a26` · printing: ICE #18 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Assault
 
@@ -82,6 +97,7 @@
 - **Flavor text** (CLU printing):
   > *It's hard to shout "Shields up!" with a javelin in your chest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/128/coordinated-assault) · oracle_id `ba14843d-6b7f-4e3d-b5ba-fc573fa8bf50` · printing: CLU #128 (2024-02-23) · [rulings](https://api.scryfall.com/cards/e1741b97-b75f-49a3-a930-e0eefda9d5be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Barrage
@@ -91,7 +107,11 @@
 - **Oracle text:**
   > Choose a creature type. Coordinated Barrage deals damage to target attacking or blocking creature equal to the number of permanents you control of the chosen type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/7/coordinated-barrage) · oracle_id `690acf56-8af4-4e96-a3a7-c8bbfe524d24` · printing: MOR #7 (2008-02-01) · [rulings](https://api.scryfall.com/cards/8d0b26b0-cc31-458b-8a92-aa3392d0ca0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-04-01* — Note that this spell counts the number of permanents you control of the chosen type, not just the number of creatures you control. It will also take your kindred permanents of the chosen type into account.
+  - *2008-04-01* — Spells and abilities that prevent damage or regenerate the targeted creature must be cast or activated before the creature type is chosen.
+  - *2008-04-01* — You choose a target for this spell as you cast it, but you don't choose a creature type until the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/7/coordinated-barrage) · oracle_id `690acf56-8af4-4e96-a3a7-c8bbfe524d24` · printing: MOR #7 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Charge
 
@@ -105,6 +125,7 @@
   > *—Ethuk, Coppercoat mage*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24799 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/6/coordinated-charge) · oracle_id `688a0b7d-bf00-45ab-ab3f-9d19f52f019a` · printing: IKO #6 (2020-04-24) · [rulings](https://api.scryfall.com/cards/129c404b-2c1e-4f0b-bb4e-7e8e627a69a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Clobbering
@@ -116,7 +137,9 @@
 - **Flavor text** (DSK printing):
   > *Zimone's theory was that the fractalization of atmospheric aether would increase kinetic energy. Tyvar's theory was that if you hit cultists in the face really hard, they would fall down. They were both right.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/173/coordinated-clobbering) · oracle_id `b2b65b17-1fb4-42d6-9c6a-376d3f18851b` · printing: DSK #173 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d498cd5d-5807-4297-bc8a-c0941f2f5ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of the target creatures you control is an illegal target when Coordinated Clobbering begins to resolve (perhaps because it's no longer on the battlefield or because it's tapped), that creature won't deal any damage. If the target creature an opponent controls is an illegal target, no damage will be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/173/coordinated-clobbering) · oracle_id `b2b65b17-1fb4-42d6-9c6a-376d3f18851b` · printing: DSK #173 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Maneuver
 
@@ -130,4 +153,5 @@
   > *"We follow the dragonstorms, and we take down any threats that emerge from them!"*
   > *—Zurgo, khan of the Mardu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11338 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/6/coordinated-maneuver) · oracle_id `6ff39311-565e-4414-b32b-eb24c70b3090` · printing: TDM #6 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c6569487-53c5-4b91-877d-e4e31bfa90c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

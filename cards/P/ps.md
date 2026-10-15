@@ -63,7 +63,10 @@
   > Whenever you cast your first enchantment spell each turn, create a 2/2 white Nymph enchantment creature token.
   > At the beginning of each combat, if you control five or more enchantments, Psemilla gets +4/+4 and gains lifelink until end of turn. (Damage dealt by this creature also causes you to gain that much life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12911 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/31/psemilla-meletian-poet) · oracle_id `12712419-a2a9-483d-a65a-2b727ae404ae` · printing: J25 #31 (2024-11-15) · [rulings](https://api.scryfall.com/cards/431258f5-705e-411d-b396-6992bc84d816/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If you cast an enchantment spell during a turn before Psemilla is on the battlefield, its first ability won't trigger that turn even if you cast another enchantment spell later in the turn.
+  - *2024-11-08* — Psemilla's last ability checks at the moment it would trigger to see if you control five or more enchantments. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control five or more enchantments at that time, the ability won't resolve and none of its effects will happen. If you do, it doesn't matter what happens to those enchantments later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/31/psemilla-meletian-poet) · oracle_id `12712419-a2a9-483d-a65a-2b727ae404ae` · printing: J25 #31 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pseudodragon Familiar
 
@@ -77,6 +80,7 @@
   > *Pseudodragons are favored companions of wizards, prized for their cunning and curiosity.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21655 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/88/pseudodragon-familiar) · oracle_id `de9cee6e-d95b-4e8b-99e4-3b43a0a542aa` · printing: CLB #88 (2022-06-10) · [rulings](https://api.scryfall.com/cards/50d69ee8-a616-4191-b111-1330dfb24f72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Blast
@@ -86,6 +90,7 @@
 - **Oracle text:**
   > Psionic Blast deals 4 damage to any target and 2 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/30/psionic-blast) · oracle_id `7f221ad6-7ec4-483d-a6b5-1456c95c1cad` · printing: TSB #30 (2006-10-06) · [rulings](https://api.scryfall.com/cards/befb1728-4af3-420a-a51e-7fa95d2e7a00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Entity
@@ -98,7 +103,9 @@
 - **Flavor text** (4ED printing):
   > *Creatures of the Æther are notorious for neglecting their own well-being.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/95/psionic-entity) · oracle_id `37aae6d1-1de0-47d1-85dd-d4a6d9635c05` · printing: 4ED #95 (1995-04-01) · [rulings](https://api.scryfall.com/cards/6641a587-c066-4f0a-a951-b91d3f749eb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The artist is actually Justin Hampton.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/95/psionic-entity) · oracle_id `37aae6d1-1de0-47d1-85dd-d4a6d9635c05` · printing: 4ED #95 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Gift
 
@@ -111,6 +118,7 @@
   > *For sale: Complete wizard's library. Rare scrolls, grimoires, and works of ancient spellcrafting! Slightly abridged.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18926 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/95/psionic-gift) · oracle_id `842bb10a-f056-4db8-a341-2d20796b99ba` · printing: ODY #95 (2001-10-01) · [rulings](https://api.scryfall.com/cards/862fc18f-90d2-430d-aff2-47c1483dee9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Ritual
@@ -123,6 +131,7 @@
   > Exile Psionic Ritual.
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/668/psionic-ritual) · oracle_id `1c3e6980-97fe-4e15-93a0-368280da8608` · printing: CLB #668 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9eb36d21-0136-4fee-a348-92a99b7c5305/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Sliver
@@ -135,7 +144,10 @@
 - **Flavor text** (TSP printing):
   > *They evolved the ability to concentrate their neural activity into a single pulse, causing a disruptive but usually suicidal blast of psionic energy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/72/psionic-sliver) · oracle_id `ea79d4ee-c7b5-4687-9e33-22f98e46e8ec` · printing: TSP #72 (2006-10-06) · [rulings](https://api.scryfall.com/cards/2559ca03-4442-47c5-bd6e-84e71cfa6ca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/72/psionic-sliver) · oracle_id `ea79d4ee-c7b5-4687-9e33-22f98e46e8ec` · printing: TSP #72 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psionic Snoop
 
@@ -149,7 +161,11 @@
   > *She knows your next move before you do.*
 - **Keywords:** Flash, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/53/psionic-snoop) · oracle_id `a4e8d2ad-cce2-45de-b9a2-7ba3b1546efb` · printing: SNC #53 (2022-04-29) · [rulings](https://api.scryfall.com/cards/b1e04834-7335-4b25-bedf-b7739c5c3aad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/53/psionic-snoop) · oracle_id `a4e8d2ad-cce2-45de-b9a2-7ba3b1546efb` · printing: SNC #53 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychatog
 
@@ -160,6 +176,7 @@
   > Discard a card: This creature gets +1/+1 until end of turn.
   > Exile two cards from your graveyard: This creature gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18993 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/258/psychatog) · oracle_id `d7c4da85-d1a5-4a27-812d-65d8ee1494dd` · printing: VMA #258 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f60911a4-2eb6-4f20-a1c1-2fc5a29c35b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Allergy
@@ -171,6 +188,7 @@
   > At the beginning of each opponent's upkeep, this enchantment deals X damage to that player, where X is the number of nontoken permanents of the chosen color they control.
   > At the beginning of your upkeep, destroy this enchantment unless you sacrifice two Islands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28418 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drk/34/psychic-allergy) · oracle_id `58e0cc31-7f7c-4cea-9453-d377a039da36` · printing: DRK #34 (1994-08-01) · [rulings](https://api.scryfall.com/cards/fec3275e-4491-43a8-9f23-d7b48177c103/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Barrier
@@ -183,6 +201,7 @@
   > *"I tolerate Phyrexians because the dragon requires it. But I have no patience for uninvited guests."*
   > *—Tezzeret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20904 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/43/psychic-barrier) · oracle_id `2e712090-2284-4325-8ee8-38cd0e2bedd8` · printing: NPH #43 (2011-05-13) · [rulings](https://api.scryfall.com/cards/1cba7d67-5c6c-4738-8907-7cce503e3180/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Battle
@@ -192,7 +211,12 @@
 - **Oracle text:**
   > Whenever a player chooses one or more targets, each player reveals the top card of their library. The player who reveals the card with the greatest mana value may change the target or targets. If two or more cards are tied for greatest, the target or targets remain unchanged. Changing targets this way doesn't trigger abilities of permanents named Psychic Battle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/68/psychic-battle) · oracle_id `79f0d763-5a71-470a-867f-86fc72e9db6d` · printing: INV #68 (2000-10-02) · [rulings](https://api.scryfall.com/cards/8758ca24-e613-43bf-be58-4cf557f82d0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — An empty library will have no card to reveal, so a player with an empty library has no card to compare. The effect looks for the highest cost card of the cards that actually are revealed.
+  - *2004-10-04* — You can change all, some, or none of the targets.
+  - *2004-10-04* — You can't change the number of targets, choose an illegal target, or make something get targeted more than once.
+  - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/68/psychic-battle) · oracle_id `79f0d763-5a71-470a-867f-86fc72e9db6d` · printing: INV #68 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Corrosion
 
@@ -205,7 +229,9 @@
   > *—Jace Beleren*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/68/psychic-corrosion) · oracle_id `328b42f1-d679-4f9c-80e3-38fe3b965d10` · printing: M19 #68 (2018-07-13) · [rulings](https://api.scryfall.com/cards/285d22fa-1623-463a-83c0-a9aa7c969ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” Psychic Corrosion’s ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/68/psychic-corrosion) · oracle_id `328b42f1-d679-4f9c-80e3-38fe3b965d10` · printing: M19 #68 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Drain
 
@@ -218,6 +244,7 @@
   > *—Berta Suszat, civic healer*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19960 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/220/psychic-drain) · oracle_id `ac5427d7-9af9-4f94-a8c3-da019ec0b5c5` · printing: RAV #220 (2005-10-07) · [rulings](https://api.scryfall.com/cards/d00fd2d8-76ce-4334-b772-a5dc64fc2989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Frog
@@ -232,6 +259,7 @@
 - **Flavor text** (MH3 printing):
   > *Some frogs poison the body. Some frogs poison the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/199/psychic-frog) · oracle_id `e157ad1e-be35-47f3-92db-01799f8fb6a5` · printing: MH3 #199 (2024-06-14) · [rulings](https://api.scryfall.com/cards/68924203-c3d9-41ce-8ca8-c6dd491eb3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Impetus
@@ -244,7 +272,14 @@
   > Whenever enchanted creature attacks, you scry 2.
 - **Keywords:** Goad, Enchant, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/92/psychic-impetus) · oracle_id `47214acc-08c4-4dcb-9a8b-09196ce41045` · printing: CLU #92 (2024-02-23) · [rulings](https://api.scryfall.com/cards/ef419666-2bb5-40bc-90bf-c1c4d7793141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — Psychic Impetus causes you to scry 2, not the attacking creature's controller.
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/92/psychic-impetus) · oracle_id `47214acc-08c4-4dcb-9a8b-09196ce41045` · printing: CLU #92 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Intrusion
 
@@ -253,6 +288,7 @@
 - **Oracle text:**
   > Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/200/psychic-intrusion) · oracle_id `fdb10291-b5e0-4da8-a103-8e7ac7f8177b` · printing: THS #200 (2013-09-27) · [rulings](https://api.scryfall.com/cards/2b6e1d03-ad24-4bde-ab3c-28f94e776a4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Membrane
@@ -267,6 +303,7 @@
   > *The vedalken always put their best thought forward.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/46/psychic-membrane) · oracle_id `5a2deb96-01f4-48d5-bec8-44e4f141f551` · printing: MRD #46 (2003-10-02) · [rulings](https://api.scryfall.com/cards/4ffd5a69-05b6-4fc4-8186-503a2e204330/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Miasma
@@ -279,7 +316,9 @@
   > *"A mind may be steeled against madness, but all battlements fall in time."*
   > *—Jin-Gitaxias, Core Augur*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26953 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/76/psychic-miasma) · oracle_id `43d69e13-27df-43a9-b610-6628dc02e3b4` · printing: SOM #76 (2010-10-01) · [rulings](https://api.scryfall.com/cards/fd9c3267-7988-416c-85a4-0e314e42ddb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If a land card is discarded this way, Psychic Miasma is returned to its owner’s hand from the stack. It finishes resolving, but it isn’t put into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/76/psychic-miasma) · oracle_id `43d69e13-27df-43a9-b610-6628dc02e3b4` · printing: SOM #76 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Network
 
@@ -288,6 +327,7 @@
 - **Oracle text:**
   > Each player plays with the top card of their library held against their forehead, revealed to each other player.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/26/psychic-network) · oracle_id `c07da3e3-8a24-442a-bae0-f128531ff305` · printing: UGL #26 (1998-08-11) · [rulings](https://api.scryfall.com/cards/60dfba09-9e75-4fb9-a163-40e3149f7785/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Overload
@@ -301,6 +341,7 @@
   > Enchanted permanent has "Discard two artifact cards: Untap this permanent."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30740 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/28/psychic-overload) · oracle_id `c50354fc-7dfe-4ea7-87dd-488ca6213344` · printing: DST #28 (2004-02-06) · [rulings](https://api.scryfall.com/cards/b32d0779-ef2a-42be-ad67-cee9b06122de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Paper
@@ -313,7 +354,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6464 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/181/psychic-paper) · oracle_id `110b601c-bf38-4985-8de6-fcb477f543a8` · printing: WHO #181 (2023-10-13) · [rulings](https://api.scryfall.com/cards/eae12c61-0125-4810-b0e4-139c27b1b08b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — You must choose an existing creature type, such as Time Lord, Vampire, or Warrior. Card types (such as artifact) and supertypes (such as legendary) can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/181/psychic-paper) · oracle_id `110b601c-bf38-4985-8de6-fcb477f543a8` · printing: WHO #181 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Pickpocket
 
@@ -324,7 +367,13 @@
   > When this creature enters, it connives. When it connives this way, return up to one target nonland permanent to its owner's hand. (To have a creature connive, draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22929 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/54/psychic-pickpocket) · oracle_id `60ead8a5-11fb-4eeb-99bf-0caaf1de1731` · printing: SNC #54 (2022-04-29) · [rulings](https://api.scryfall.com/cards/956b90ca-1012-4132-bf2f-bc3825ed16ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. Abilities that trigger “when [that creature] connives, such as that of Psychic Pickpocket, will trigger.
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2022-04-29* — The target permanent to return is chosen after Psychic Pickpocket connives.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/54/psychic-pickpocket) · oracle_id `60ead8a5-11fb-4eeb-99bf-0caaf1de1731` · printing: SNC #54 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Possession
 
@@ -338,7 +387,13 @@
   > *"You will do the thinking for the both of us!"*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11413 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/30/psychic-possession) · oracle_id `d2458d63-c627-4e75-8bda-23bca38cae93` · printing: DIS #30 (2006-05-05) · [rulings](https://api.scryfall.com/cards/e8364ce0-4c11-4af0-9f4b-e4c20d640dfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2006-05-01* — An Aura with enchant opponent can't be attached to a permanent.
+  - *2006-05-01* — Enchanting an opponent works very much like enchanting a permanent. The Aura spell targets the opponent. When it resolves, it enters "attached" to that player. Once it's on the battlefield, it no longer targets that player.
+  - *2006-05-01* — If Psychic Possession's controller ever happens to be the player it's enchanting, Psychic Possession will be put into its owner's graveyard as a state-based action.
+  - *2006-05-01* — In a multiplayer game, if the enchanted opponent leaves the game, Psychic Possession will be put into its owner's graveyard as a state-based action. If Psychic Possession's owner leaves the game, Psychic Possession immediately leaves the game; this is not a state-based action.
+  - *2006-05-01* — Psychic Possession's controller, not the enchanted player, skips their draw step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/30/psychic-possession) · oracle_id `d2458d63-c627-4e75-8bda-23bca38cae93` · printing: DIS #30 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Puppetry
 
@@ -349,7 +404,12 @@
   > Splice onto Arcane {U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/80/psychic-puppetry) · oracle_id `8d3c4e50-6709-42f9-97e7-3165ee501684` · printing: CHK #80 (2004-10-01) · [rulings](https://api.scryfall.com/cards/9e341d6b-f4b0-4347-8055-f5fab756334c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-06-07* — A card with a splice ability can’t be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/80/psychic-puppetry) · oracle_id `8d3c4e50-6709-42f9-97e7-3165ee501684` · printing: CHK #80 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Purge
 
@@ -359,7 +419,10 @@
   > Psychic Purge deals 1 damage to any target.
   > When a spell or ability an opponent controls causes you to discard this card, that player loses 5 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28675 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/45/psychic-purge) · oracle_id `6af596d2-f075-4f55-b088-a5237fcdaa51` · printing: ME1 #45 (2007-09-10) · [rulings](https://api.scryfall.com/cards/1f6e73a4-ad95-4c76-9aa5-94a439977204/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Discarding as a cost to cast a spell will not trigger the ability. Only discarding as an effect will trigger the ability.
+  - *2004-10-04* — The loss of life can't be prevented by any means. It is not damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/45/psychic-purge) · oracle_id `6af596d2-f075-4f55-b088-a5237fcdaa51` · printing: ME1 #45 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Rebuttal
 
@@ -372,7 +435,17 @@
   > *"I know what you're thinking," Jace whispered in the mage's mind. "It's not going to work."*
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/67/psychic-rebuttal) · oracle_id `08dd393f-12d8-4801-882c-6d76009b4f12` · printing: ORI #67 (2015-07-17) · [rulings](https://api.scryfall.com/cards/67a105f8-0c01-4c09-a3bf-8c912b6dc741/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won’t count because it’s still on the stack as you make this check.
+  - *2015-06-22* — If Psychic Rebuttal creates a copy of the spell, you control the copy. That copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2015-06-22* — If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2015-06-22* — If the copied spell is modal (that is, it says “Choose one –” or the like), the copy will have the same mode. You can’t choose a different one.
+  - *2015-06-22* — If the copy says that it affects “you,” it affects the controller of the copy, not the controller of the original spell. Similarly, if the copy says that it affects an “opponent,” it affects an opponent of the copy’s controller, not an opponent of the original spell’s controller.
+  - *2015-06-22* — If the spell mastery ability applies, you’ll create a copy of the instant or sorcery spell only if Psychic Rebuttal counters that spell. If that spell can’t be countered by spells or abilities, you won’t get a copy.
+  - *2015-06-22* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2015-06-22* — The target instant or sorcery spell can have other targets as long as one of them is you.
+  - *2015-06-22* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/67/psychic-rebuttal) · oracle_id `08dd393f-12d8-4801-882c-6d76009b4f12` · printing: ORI #67 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Spear
 
@@ -384,7 +457,9 @@
   > *"The wizards of Takenuma Swamp faced the horrors of humanity every day. It's no wonder they fared so well against the kami."*
   > *—\*Observations of the Kami War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/78/psychic-spear) · oracle_id `284b0605-4b33-499e-aff3-e8b9edcce39b` · printing: BOK #78 (2005-02-04) · [rulings](https://api.scryfall.com/cards/1c2f024b-e77e-426b-930e-85b87e046f9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/78/psychic-spear) · oracle_id `284b0605-4b33-499e-aff3-e8b9edcce39b` · printing: BOK #78 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Spiral
 
@@ -396,7 +471,10 @@
   > *An elocutor forces criminals to confess to the laws they merely intended to break.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10980 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/47/psychic-spiral) · oracle_id `5f928e54-3027-4f2f-9fef-d63b9ca416aa` · printing: RTR #47 (2012-10-05) · [rulings](https://api.scryfall.com/cards/59b09c16-f611-4c90-a990-e22bf46bd0e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — If you cast Psychic Spiral when there are no cards in your graveyard, you’ll still shuffle your library.
+  - *2012-10-01* — Psychic Spiral won’t be shuffled into your library, and it won’t be counted when determining how many cards the target player puts into their graveyard. It will be put into your graveyard after you follow its instructions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/47/psychic-spiral) · oracle_id `5f928e54-3027-4f2f-9fef-d63b9ca416aa` · printing: RTR #47 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Strike
 
@@ -408,7 +486,10 @@
   > *Until more information could be gleaned about Niv-Mizzet's intentions, Lazav took every opportunity to stall his experiments.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/189/psychic-strike) · oracle_id `17694111-5623-48b3-8c54-c383418e8d2b` · printing: GTC #189 (2013-02-01) · [rulings](https://api.scryfall.com/cards/0d87927c-80a6-4146-92a5-58c510ce7958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — If the target spell is an illegal target when Psychic Strike tries to resolve, Psychic Strike won’t resolve and none of its effects will happen. The target’s controller won’t put any cards from the top of their library into their graveyard.
+  - *2013-01-24* — You may target a spell that can’t be countered. When Psychic Strike resolves, the target spell will be unaffected, but its controller will still put the top two cards of their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/189/psychic-strike) · oracle_id `17694111-5623-48b3-8c54-c383418e8d2b` · printing: GTC #189 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Surgery
 
@@ -417,7 +498,11 @@
 - **Oracle text:**
   > Whenever an opponent shuffles their library, you may look at the top two cards of that library. You may exile one of those cards. Then put the rest on top of that library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/44/psychic-surgery) · oracle_id `e5128230-3535-4f77-8b97-20d0791e7b1d` · printing: NPH #44 (2011-05-13) · [rulings](https://api.scryfall.com/cards/51ea9a6d-d6ca-48cb-adac-958ad0e7440c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — If your opponent’s library has one card in it and they are instructed to shuffle that library, Psychic Surgery will trigger. You may’ exile the one card in that library.
+  - *2011-06-01* — In most cases, Green Sun’s Zenith instructs you to shuffle your library twice. Although shuffling that library only once is an acceptable shortcut, Psychic Surgery’s ability will still trigger twice.
+  - *2011-06-01* — You look at the top two cards of that library as the triggered ability resolves. That happens after your opponent is done shuffling.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/44/psychic-surgery) · oracle_id `e5128230-3535-4f77-8b97-20d0791e7b1d` · printing: NPH #44 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Symbiont
 
@@ -431,7 +516,9 @@
   > *"I turn around and see nothing, yet I know it is behind me. Its fingers rummage in my mind, crafting new ideas."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24647 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/266/psychic-symbiont) · oracle_id `34439fb2-0272-4624-aa4c-9ea439b60489` · printing: 2X2 #266 (2022-07-08) · [rulings](https://api.scryfall.com/cards/1145d817-9c84-4acd-977c-fe00325568fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Psychic Symbiont's last ability can target an opponent with no cards in hand. You'll draw a card even if no opponent discards a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/266/psychic-symbiont) · oracle_id `34439fb2-0272-4624-aa4c-9ea439b60489` · printing: 2X2 #266 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Theft
 
@@ -440,7 +527,12 @@
 - **Oracle text:**
   > Target player reveals their hand. You choose an instant or sorcery card from it and exile that card. You may cast that card for as long as it remains exiled. At the beginning of the next end step, if you haven't cast the card, return it to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/40/psychic-theft) · oracle_id `66953dfd-d908-41d3-abb4-309c6a165dc3` · printing: PCY #40 (2000-06-05) · [rulings](https://api.scryfall.com/cards/f6f86c92-c19e-4f2c-96d3-d3b05623cb00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — The card is revealed to all players while it is exiled.
+  - *2004-10-04* — The card may only be cast once. Once it is announced and put on the stack, the card is no longer exiled and the effect of Psychic Theft ends.
+  - *2004-10-04* — You can cast the instant or sorcery during the End step after you put the “at the beginning of the end step” trigger on the stack, as long as you do so before that trigger resolves.
+  - *2014-02-01* — If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/40/psychic-theft) · oracle_id `66953dfd-d908-41d3-abb4-309c6a165dc3` · printing: PCY #40 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Trance
 
@@ -451,6 +543,7 @@
 - **Flavor text** (ONS printing):
   > *The Riptide Project was perhaps the only school devoted to preventing the spread of knowledge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/102/psychic-trance) · oracle_id `5870175d-83df-43af-b199-fcd1e60b824e` · printing: ONS #102 (2002-10-07) · [rulings](https://api.scryfall.com/cards/d5e55695-16cc-4373-8078-959f1ded4c6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Transfer
@@ -460,7 +553,10 @@
 - **Oracle text:**
   > If the difference between your life total and target player's life total is 5 or less, exchange life totals with that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/s99/46/psychic-transfer) · oracle_id `5554d422-6513-4c7e-866d-9d5f0403fc80` · printing: S99 #46 (1999-07-01) · [rulings](https://api.scryfall.com/cards/ac6d7d5a-697b-4251-bc18-4dcfe0aa5cc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If one of the players has a negative life total, you use their actual life total for determining the difference. If that difference is five or less, then the other player receives the negative life total.
+  - *2011-01-01* — If an effect says that a player can’t lose life, that player can’t exchange life totals with a player who has a lower life total; in that case, the exchange won’t happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/s99/46/psychic-transfer) · oracle_id `5554d422-6513-4c7e-866d-9d5f0403fc80` · printing: S99 #46 (1999-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Venom
 
@@ -471,7 +567,9 @@
   > Whenever enchanted land becomes tapped, this Aura deals 2 damage to that land's controller.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/46/psychic-venom) · oracle_id `a60422e8-f2f4-4c37-a0f4-eedad27eb08c` · printing: ME1 #46 (2007-09-10) · [rulings](https://api.scryfall.com/cards/984ae881-9b43-42ce-885e-2eb5e683eed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Whenever the land is tapped for any reason, the ability triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/46/psychic-venom) · oracle_id `a60422e8-f2f4-4c37-a0f4-eedad27eb08c` · printing: ME1 #46 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Vortex
 
@@ -485,7 +583,10 @@
   > *—Ertai, wizard adept*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15324 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/50/psychic-vortex) · oracle_id `451e35dd-e0b5-4157-8511-bacb315e19bd` · printing: WTH #50 (1997-06-09) · [rulings](https://api.scryfall.com/cards/3bc2a419-7122-4eeb-bb64-738a647cfd82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — Psychic Vortex’s cumulative upkeep ability has you draw cards as a cost. If you choose to do so, and some or all of those draws are replaced by replacement effects, you are still considered to have paid the cumulative upkeep cost.
+  - *2008-04-01* — You may choose to draw cards to pay the cumulative upkeep cost even if the number of cards you’d have to draw exceeds the number of cards in your library. If enough of those draws are replaced by replacement effects so you don’t actually attempt to draw a card with an empty library, everything’s fine. However, if you do attempt to draw a card with an empty library this way, Psychic Vortex will remain on the battlefield but you’ll lose the game as a state-based action as soon as the cumulative upkeep ability finishes resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/50/psychic-vortex) · oracle_id `451e35dd-e0b5-4157-8511-bacb315e19bd` · printing: WTH #50 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Whorl
 
@@ -495,6 +596,7 @@
   > Target opponent discards two cards. Then if you control a Rat, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/105/psychic-whorl) · oracle_id `3df4eb80-e8dd-4a9e-bd8a-b4b23fb9de6c` · printing: BLB #105 (2024-08-02) · [rulings](https://api.scryfall.com/cards/df900308-8432-4a0a-be21-17482026012b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychogenic Probe
@@ -506,7 +608,9 @@
 - **Flavor text** (MRD printing):
   > *The same devices sold as surgeons' tools in Lumengrid are sold as implements of torture in Mephidross.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20555 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/231/psychogenic-probe) · oracle_id `1beb81a8-b4aa-4964-93d2-2b5414fc6ce3` · printing: MRD #231 (2003-10-02) · [rulings](https://api.scryfall.com/cards/e83d1ed5-3a49-4cfa-bad2-e342ef28649e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-02-01* — This ability will trigger even if the player’s library is empty at the time they are supposed to shuffle it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/231/psychogenic-probe) · oracle_id `1beb81a8-b4aa-4964-93d2-2b5414fc6ce3` · printing: MRD #231 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychomancer
 
@@ -518,6 +622,7 @@
   > Harbinger of Despair — Whenever this creature or another nontoken artifact you control is put into a graveyard from the battlefield or is put into exile from the battlefield, target opponent loses 1 life and you gain 1 life.
 - **Keywords:** Flying, Harbinger of Despair
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/51/psychomancer) · oracle_id `589b742c-fee5-413a-a56c-4d4ffaf0f73d` · printing: 40K #51 (2022-10-07) · [rulings](https://api.scryfall.com/cards/780743bf-e1a0-4114-9474-319632e0c775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychosis Crawler
@@ -532,7 +637,9 @@
   > *"If that brain can't figure out the secret of the serum, then add more brains."*
   > *—Rhmir, Hand of the Augur*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/234/psychosis-crawler) · oracle_id `2876e74f-a242-4995-9702-0b737a1ab67a` · printing: MKC #234 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d0f42a19-c180-45b1-9f4c-787cf3a4a649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If an effect causes you to draw multiple cards, Psychosis Crawler will trigger that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/234/psychosis-crawler) · oracle_id `2876e74f-a242-4995-9702-0b737a1ab67a` · printing: MKC #234 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Episode
 
@@ -543,7 +650,18 @@
   > Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/132/psychotic-episode) · oracle_id `0ac7bacd-944d-44f4-927b-28e8c0a4371d` · printing: TSR #132 (2021-03-19) · [rulings](https://api.scryfall.com/cards/fa6d8c51-bff9-4eba-8c1b-2d45b7635c52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-03-19* — You can choose any card that Psychotic Episode instructs the player to reveal, even if that card was already revealed for another effect.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/132/psychotic-episode) · oracle_id `0ac7bacd-944d-44f4-927b-28e8c0a4371d` · printing: TSR #132 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Fury
 
@@ -556,6 +674,7 @@
   > *"Rage, my servants. Our ancient power is renewed in blood."*
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/68/psychotic-fury) · oracle_id `1bf982e9-5868-46bf-81e3-f29ada33d169` · printing: DIS #68 (2006-05-05) · [rulings](https://api.scryfall.com/cards/4f626c70-1ede-4b00-bd95-d6ee26371131/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Haze
@@ -567,7 +686,17 @@
   > Madness {1}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18371 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tor/76/psychotic-haze) · oracle_id `4b6aa5e2-b539-46cd-804b-cd9e996a9456` · printing: TOR #76 (2002-02-04) · [rulings](https://api.scryfall.com/cards/8d3f6cd2-0138-40e7-a975-3f7c68db0d93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tor/76/psychotic-haze) · oracle_id `4b6aa5e2-b539-46cd-804b-cd9e996a9456` · printing: TOR #76 (2002-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotrope Thallid
 
@@ -579,4 +708,5 @@
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
   > {1}, Sacrifice a Saproling: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/137/psychotrope-thallid) · oracle_id `384c61f2-17ed-4c7a-8722-e0a05e9dcaf9` · printing: PLC #137 (2007-02-02) · [rulings](https://api.scryfall.com/cards/e2803fdc-2ae1-438c-b5b1-559817e85fdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

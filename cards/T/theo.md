@@ -34,6 +34,7 @@
   > At the beginning of your upkeep, randomly put a card from each pile into your hand. The other cards advance to the next round. If only one card remains, you may cast it without paying its mana cost four times.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ08/the-octopus-official) · oracle_id `3b110c44-aa85-48d6-b5cd-10b07ada43ac` · printing: UNK #RZ08 (2025-09-26) · [rulings](https://api.scryfall.com/cards/de521917-2e17-41e6-b06c-e73ce8d80d12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Odd Acorn Gang
@@ -47,6 +48,7 @@
   > Whenever one or more Squirrels you control deal combat damage to a player, draw a card.
 - **Keywords:** Reach, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4691 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/7/the-odd-acorn-gang) · oracle_id `1d9d8028-d946-4245-ae0c-7508023f619a` · printing: BLC #7 (2024-08-02) · [rulings](https://api.scryfall.com/cards/791d9ea0-c70a-47a6-b8a3-0f5d36a5c44d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Théoden, King of Rohan
@@ -59,6 +61,7 @@
 - **Flavor text** (LTR printing):
   > *"Dark have been my dreams of late, but I feel new-awakened. I only fear that already you have come too late, Gandalf."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4631 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/233/th%C3%A9oden-king-of-rohan) · oracle_id `e739e3ce-4c5e-4172-a9de-adf66ca6588c` · printing: LTR #233 (2023-06-23) · [rulings](https://api.scryfall.com/cards/f6dcd1ca-4943-46e4-bb5d-c14949e21e23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The One Ring
@@ -72,7 +75,12 @@
   > {T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #96 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/246/the-one-ring) · oracle_id `3aa83ed2-f48b-4ce6-a614-2c54ddf50538` · printing: LTR #246 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d5806e68-1054-458e-866d-1f2470f682b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — Gaining protection from everything causes a spell or ability on the stack to have an illegal target if it targets you. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2023-06-16* — If a player has protection from everything, it means three things: 1) All damage that would be dealt to that player is prevented. 2) Auras can't be attached to that player. 3) That player can't be the target of spells or abilities.
+  - *2023-06-16* — Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented.
+  - *2023-06-16* — Protection from everything will usually prevent damage if it would be dealt to you, but some damage can't be prevented. In this case, that damage reduces your life total as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/246/the-one-ring) · oracle_id `3aa83ed2-f48b-4ce6-a614-2c54ddf50538` · printing: LTR #246 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ooze
 
@@ -82,7 +90,11 @@
   > Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it. (A Mutagen token is an artifact with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
   > {T}: Exile target card from a graveyard. Create a Mutagen token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4149 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/177/the-ooze) · oracle_id `82a6fa6f-13c2-4ea3-bec2-c51b56b2783b` · printing: TMT #177 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1f9bd4da-4626-40ba-95f4-14e3de36f989/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — If enough -1/-1 counters are put on a creature you control at the same time to make its toughness 0 or less (or the damage marked on it to be lethal), the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Mutagen tokens you get. For example, if there are three +1/+1 counters on a creature and it gets four -1/-1 counters, you'll get three Mutagen tokens. That's because The Ooze's triggered ability checks the creature's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/177/the-ooze) · oracle_id `82a6fa6f-13c2-4ea3-bec2-c51b56b2783b` · printing: TMT #177 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theopholos, Order Acolyte
 
@@ -95,6 +107,7 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Mono Eminence, Partner
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04e/theopholos-order-acolyte) · oracle_id `aecb67cf-59e9-4afc-b2ad-5827ae31c5cc` · printing: UNK #RW04e (2023-07-29) · [rulings](https://api.scryfall.com/cards/3c05f4ae-13d3-4495-8a4a-b4d65941537d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theoretical Duplication
@@ -107,6 +120,7 @@
   > *"You made it asymmetrical just to annoy me, didn't you?"*
   > *—Imbraham, Quandrix dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6507 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/34/theoretical-duplication) · oracle_id `efe7e212-5c91-42f0-9dff-591131b4f6d8` · printing: C21 #34 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1575a14e-fa70-44f0-8384-95cb90031337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theoretical Necromancer
@@ -119,6 +133,7 @@
 - **Flavor text** (FRA printing):
   > *"Mortality is just one more parameter to define and defy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/69/theoretical-necromancer) · oracle_id `6c5ed756-b999-49f7-9a52-fb8196202f0f` · printing: FRA #69 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e36a7908-1e22-494b-adb4-e72ac0974d62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorist's Proxy
@@ -132,7 +147,12 @@
   > {U}, Sacrifice this creature: The next spell you cast this turn can't be countered.
 - **Keywords:** Surveil, Empower Jace, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/44/theorists-proxy) · oracle_id `0089acfe-da66-4dd7-b1e5-4d7407f58257` · printing: FRA #44 (2026-10-02) · [rulings](https://api.scryfall.com/cards/710302ca-c4be-4069-8ce1-f531414c74e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/44/theorists-proxy) · oracle_id `0089acfe-da66-4dd7-b1e5-4d7407f58257` · printing: FRA #44 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorist's Sanctum
 
@@ -144,7 +164,12 @@
   > {2}{U}, {T}: Empower Jace 2.
 - **Keywords:** Empower Jace, Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/191/theorists-sanctum) · oracle_id `37513bd8-7303-4ac6-a7a7-224184faf758` · printing: FRA #191 (2026-10-02) · [rulings](https://api.scryfall.com/cards/22db5bba-46c9-4a26-821d-303ddb386ea4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/191/theorists-sanctum) · oracle_id `37513bd8-7303-4ac6-a7a7-224184faf758` · printing: FRA #191 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Annex
 
@@ -156,7 +181,9 @@
 - **Flavor text** (FRA printing):
   > *Battlemages of Theorix, the school of esoteric mathematics, reshape reality itself to their whim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/192/theorix-annex) · oracle_id `00ad5200-5179-4d1b-8bb3-a09e1b31be58` · printing: FRA #192 (2026-10-02) · [rulings](https://api.scryfall.com/cards/97bbbd23-ecb1-4407-ac14-dede08532a1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/192/theorix-annex) · oracle_id `00ad5200-5179-4d1b-8bb3-a09e1b31be58` · printing: FRA #192 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Charm
 
@@ -169,6 +196,7 @@
   > • Mill three cards, then draw a card. (To mill three cards, put the top three cards of your library into your graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20974 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/155/theorix-charm) · oracle_id `cf527bbd-e898-4aa9-909d-daec2f4b62ad` · printing: FRA #155 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2835c9aa-0904-44db-8da2-e8c4e04201aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theorix Metamage // Omit Variables
@@ -182,7 +210,23 @@
   > Mill three cards. (Put the top three cards of your library into your graveyard.)
 - **Keywords:** Threshold, Prepared, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/156/theorix-metamage-omit-variables) · oracle_id `92a0aa44-0ef7-4e6f-8288-7c33067c5fd1` · printing: FRA #156 (2026-10-02) · [rulings](https://api.scryfall.com/cards/fb6bad96-841d-4738-8e62-92f346f914fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/156/theorix-metamage-omit-variables) · oracle_id `92a0aa44-0ef7-4e6f-8288-7c33067c5fd1` · printing: FRA #156 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ozolith
 
@@ -194,4 +238,11 @@
 - **Flavor text** (IKO printing):
   > *As it twists, so does all life around it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/237/the-ozolith) · oracle_id `1946ded1-5f53-409f-b0a6-5433bb0357d2` · printing: IKO #237 (2020-04-24) · [rulings](https://api.scryfall.com/cards/9341ed06-53db-4604-b60a-3ea9129afbc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — +1/+1 counters on The Ozolith have no effect unless it becomes a creature. Keyword counters on The Ozolith will grant it keywords that may have no practical effect. For example, flying on a noncreature artifact is just strange, but hexproof on a noncreature artifact is entirely useful.
+  - *2020-04-17* — As The Ozolith's last ability resolves, you choose whether to move the counters.
+  - *2020-04-17* — If The Ozolith leaves the battlefield after the last ability triggers but before it resolves, you can't move any counters from it onto the target creature.
+  - *2020-04-17* — If the target creature is an illegal target by the time The Ozolith's last ability tries to resolve, the ability won't resolve. You won't remove any counters from The Ozolith.
+  - *2020-04-17* — The Ozolith's first ability doesn't move counters off the creature that's left the battlefield. Rather, you put the same number of each kind of counter the creature had onto The Ozoloith. Notably, if you somehow control a second The Ozolith, each one will receive the same number and kinds of counters that were on the creature that left the battlefield. Similarly, if the creature has an ability that triggers when it leaves the battlefield that refers to the number of counters it had, that ability will use the number of counters that were on the permanent, even if The Ozolith's first ability resolves first.
+  - *2020-04-17* — You can't move only some of the counters from The Ozolith onto the target creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/237/the-ozolith) · oracle_id `1946ded1-5f53-409f-b0a6-5433bb0357d2` · printing: IKO #237 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

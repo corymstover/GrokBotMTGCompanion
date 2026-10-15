@@ -68,6 +68,7 @@
 - **Flavor text** (APC printing):
   > *"The strong can also be subtle."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31947 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/66/raka-disciple) · oracle_id `88c5a681-4095-4e37-9149-002bcbaf4c0b` · printing: APC #66 (2001-06-04) · [rulings](https://api.scryfall.com/cards/41462d43-4f9f-46ba-b79d-434597e74b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakalite
@@ -79,7 +80,10 @@
 - **Flavor text** (ME4 printing):
   > *Urza was the first to understand that the war would not be lost for lack of power, but for lack of troops.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30983 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/223/rakalite) · oracle_id `193c1671-328e-4f9c-836e-055f46c3aab0` · printing: ME4 #223 (2011-01-10) · [rulings](https://api.scryfall.com/cards/90633271-f4dc-45a5-ab5f-84321145b0fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Can be used any number of times during the turn before it leaves the battlefield.
+  - *2004-10-04* — Only returns to your hand if it is still on the battlefield at the end of the turn. If it leaves the battlefield, it does not return.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/223/rakalite) · oracle_id `193c1671-328e-4f9c-836e-055f46c3aab0` · printing: ME4 #223 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raka Sanctuary
 
@@ -88,7 +92,9 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if you control a white or blue permanent, this enchantment deals 1 damage to target creature. If you control a white permanent and a blue permanent, this enchantment deals 3 damage instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/67/raka-sanctuary) · oracle_id `0b085c90-95df-4823-ba67-9eb398b1ec94` · printing: APC #67 (2001-06-04) · [rulings](https://api.scryfall.com/cards/62cab0be-589c-42a0-a297-1faaec46c73f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can deal 1 or 3 damage, but never 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/67/raka-sanctuary) · oracle_id `0b085c90-95df-4823-ba67-9eb398b1ec94` · printing: APC #67 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakavolver
 
@@ -101,7 +107,14 @@
   > If this creature was kicked with its {U} kicker, it enters with a +1/+1 counter on it and with flying.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/68/rakavolver) · oracle_id `c00adb98-81dc-490f-9e0f-7f8546ef22ce` · printing: APC #68 (2001-06-04) · [rulings](https://api.scryfall.com/cards/43787e24-0b7d-4005-8db4-68544476bd34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/68/rakavolver) · oracle_id `c00adb98-81dc-490f-9e0f-7f8546ef22ce` · printing: APC #68 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Augermage
 
@@ -115,6 +128,7 @@
   > *"Great minds bleed alike."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/127/rakdos-augermage) · oracle_id `1e267dbd-b009-4e98-bfef-19f8558cde29` · printing: DIS #127 (2006-05-05) · [rulings](https://api.scryfall.com/cards/b5507ec6-430e-41bf-8ac8-42a79f11012d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Cackler
@@ -128,7 +142,12 @@
   > *Devil-blades and dripping blood make music Rakdos never tires of hearing.*
 - **Keywords:** Unleash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/220/rakdos-cackler) · oracle_id `763a2d27-52a8-43d9-b649-0f6c0cf87a07` · printing: RTR #220 (2012-10-05) · [rulings](https://api.scryfall.com/cards/5f873c0b-e779-4f09-8e9c-94a1765eb5da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability.
+  - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
+  - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
+  - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/220/rakdos-cackler) · oracle_id `763a2d27-52a8-43d9-b649-0f6c0cf87a07` · printing: RTR #220 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Carnarium
 
@@ -139,7 +158,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {B}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/161/rakdos-carnarium) · oracle_id `0a023964-2905-4928-9c3e-dc63e6ebd218` · printing: ECC #161 (2026-01-23) · [rulings](https://api.scryfall.com/cards/20c799a9-ab94-46e6-9111-00505e071c41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/161/rakdos-carnarium) · oracle_id `0a023964-2905-4928-9c3e-dc63e6ebd218` · printing: ECC #161 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Charm
 
@@ -154,6 +175,7 @@
   > *"Let all feel joy in pain."*
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/125/rakdos-charm) · oracle_id `5e62b51d-faec-4aa0-9504-cf2c282d08ea` · printing: EOC #125 (2025-08-01) · [rulings](https://api.scryfall.com/cards/64b67170-1602-4050-80c0-ade2a6cac211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Cluestone
@@ -167,6 +189,7 @@
   > *"Burn. Bleed. Enjoy."*
   > *—Cluestone inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10761 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/143/rakdos-cluestone) · oracle_id `b4f0bda0-1051-4ab8-b254-891f427b33ad` · printing: DGM #143 (2013-05-03) · [rulings](https://api.scryfall.com/cards/9ef43817-1813-4608-8e3d-3c14321ab736/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Drake
@@ -181,7 +204,12 @@
   > *Rakdos rioters paint their faces to resemble the drakes' bloodied muzzles.*
 - **Keywords:** Flying, Unleash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/103/rakdos-drake) · oracle_id `0715167b-00b1-45a4-94a0-60d4097a1428` · printing: IMA #103 (2017-11-17) · [rulings](https://api.scryfall.com/cards/75f619f3-37aa-4f37-9df6-f455c0800f87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — A creature with unleash can’t block if it has any +1/+1 counter on it, not just one put on it by the unleash ability.
+  - *2013-04-15* — Putting a +1/+1 counter on a creature with unleash that’s already blocking won’t remove it from combat. It will continue to block.
+  - *2013-04-15* — The unleash ability applies no matter where the creature is entering the battlefield from.
+  - *2013-04-15* — You make the choice to have the creature with unleash enter the battlefield with a +1/+1 counter or not as it’s entering the battlefield. At that point, it’s too late for a player to respond to the creature spell by trying to counter it, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/103/rakdos-drake) · oracle_id `0715167b-00b1-45a4-94a0-60d4097a1428` · printing: IMA #103 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Firewheeler
 
@@ -193,7 +221,9 @@
 - **Flavor text** (RVR printing):
   > *Ever wonder why you never see an old Rakdos cultist?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22587 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/213/rakdos-firewheeler) · oracle_id `f81327c2-a0e4-475d-bb89-8a42b1ddc93c` · printing: RVR #213 (2024-01-12) · [rulings](https://api.scryfall.com/cards/c413daa1-5996-488a-ad97-0964336618e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — If you can't target any opponent with Rakdos Firewheeler's ability, the ability doesn't go on the stack. You can't have it deal 2 damage to any creature or planeswalker. On the other hand, if you do choose two legal targets but either target is illegal when the ability tries to resolve, the other is still affected as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/213/rakdos-firewheeler) · oracle_id `f81327c2-a0e4-475d-bb89-8a42b1ddc93c` · printing: RVR #213 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Guildgate
 
@@ -205,7 +235,10 @@
 - **Flavor text** (FDN printing):
   > *Enter and indulge your darkest fantasies, for you may never pass this way again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/693/rakdos-guildgate) · oracle_id `361f534b-39d1-4421-b5a8-d3813c62f86d` · printing: FDN #693 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e1f01964-c610-4d0f-a2b4-f52e46dc50d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/693/rakdos-guildgate) · oracle_id `361f534b-39d1-4421-b5a8-d3813c62f86d` · printing: FDN #693 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Guildmage
 
@@ -217,7 +250,9 @@
   > {3}{B}, Discard a card: Target creature gets -2/-2 until end of turn.
   > {3}{R}: Create a 2/1 red Goblin creature token with haste. Exile it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/214/rakdos-guildmage) · oracle_id `650949ca-609b-46c5-bc6b-6f782cdcb6d2` · printing: RVR #214 (2024-01-12) · [rulings](https://api.scryfall.com/cards/fb3271d0-4788-4ecc-abf7-95a1e8106d0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — If the second ability is activated during the end step, the token won't be exiled until the following turn's end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/214/rakdos-guildmage) · oracle_id `650949ca-609b-46c5-bc6b-6f782cdcb6d2` · printing: RVR #214 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Headliner
 
@@ -231,7 +266,10 @@
   > *Caution: Audience in front row may have throats ripped out.*
 - **Keywords:** Haste, Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/210/rakdos-headliner) · oracle_id `a8828c17-190b-4e64-a0f2-8d14c013d692` · printing: MH2 #210 (2021-06-18) · [rulings](https://api.scryfall.com/cards/aad6576b-605c-4007-a2a7-0d7550520d6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Paying for echo is always optional. When the echo triggered ability resolves, if you can't pay the echo cost or choose not to, you sacrifice that permanent.
+  - *2021-06-18* — Your permanent's echo ability will trigger at the beginning of your upkeep if it entered the battlefield since the beginning of your last upkeep, or if you gained control of it since the beginning of your last upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/210/rakdos-headliner) · oracle_id `a8828c17-190b-4e64-a0f2-8d14c013d692` · printing: MH2 #210 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Ickspitter
 
@@ -244,6 +282,7 @@
   > *"Our thrulls dissolve from the inside out in a matter of days. Shoddy work, but they're a scream while they last."*
   > *—Uzric, Rakdos guildmage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21422 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/128/rakdos-ickspitter) · oracle_id `329f6e2e-6c37-4e98-bd45-bd252f1a2bd9` · printing: DIS #128 (2006-05-05) · [rulings](https://api.scryfall.com/cards/c007b10b-2701-4bac-8b95-8fc7dcfb9e21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Joins Up
@@ -254,7 +293,9 @@
   > When Rakdos Joins Up enters, return target creature card from your graveyard to the battlefield with two additional +1/+1 counters on it.
   > Whenever a legendary creature you control dies, Rakdos Joins Up deals damage equal to that creature's power to target opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/225/rakdos-joins-up) · oracle_id `6a47865c-8fa2-4cb2-aebf-8009c065395f` · printing: OTJ #225 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c7154dca-7e10-4c34-aa56-9f200c6277d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Use the power of the legendary creature as it last existed on the battlefield to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/225/rakdos-joins-up) · oracle_id `6a47865c-8fa2-4cb2-aebf-8009c065395f` · printing: OTJ #225 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Keyrune
 
@@ -266,7 +307,10 @@
 - **Flavor text** (RTR printing):
   > *The Rakdos use it for everything you can think of and plenty more than that.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/232/rakdos-keyrune) · oracle_id `3986b284-f943-4570-ba26-3419910feeef` · printing: RTR #232 (2012-10-05) · [rulings](https://api.scryfall.com/cards/f6124b4c-49a1-42e3-a6ff-62de231c7823/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
+  - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/232/rakdos-keyrune) · oracle_id `3986b284-f943-4570-ba26-3419910feeef` · printing: RTR #232 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Locket
 
@@ -279,6 +323,7 @@
   > *"This trinket will gain you admittance to some painfully exclusive gatherings."*
   > *—Exava, blood witch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8541 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/220/rakdos-locket) · oracle_id `ab784412-0722-4501-9aa0-fd68d307f6fd` · printing: C19 #220 (2019-08-23) · [rulings](https://api.scryfall.com/cards/ae74a4a0-b95b-4ddd-80df-cbec1c469025/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, Lord of Riots
@@ -292,7 +337,15 @@
   > Creature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2649 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/230/rakdos-lord-of-riots) · oracle_id `143a269a-b9ee-48ba-bd7b-4aa46eb36778` · printing: DSC #230 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3d0d5a41-8251-437c-a4a0-3b712281ebb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — Damage dealt to a player causes that player to lose that much life.
+  - *2020-11-10* — If an opponent lost life and subsequently lost the game, Rakdos's first ability is satisfied, and its last ability counts that loss of life.
+  - *2020-11-10* — If there are additional costs to cast a creature spell, such as a kicker cost or the commander tax, apply those increases before applying cost reductions.
+  - *2020-11-10* — Rakdos can be put onto the battlefield by another spell or ability even if no opponent has lost life that turn.
+  - *2020-11-10* — Rakdos's last ability can't reduce the colored mana requirement of a creature spell you cast.
+  - *2020-11-10* — Rakdos's last ability cares about the total life lost, not necessarily what an opponent's life total is compared to what it was at the beginning of the turn. For example, if an opponent loses 5 life and then gains 10 life in a turn, creature spells you cast will cost {5} less to cast.
+  - *2020-11-10* — Rakdos's last ability won't reduce the cost to cast Rakdos itself. It applies only to creature spells you cast once Rakdos is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/230/rakdos-lord-of-riots) · oracle_id `143a269a-b9ee-48ba-bd7b-4aa46eb36778` · printing: DSC #230 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, Patron of Chaos
 
@@ -306,6 +359,7 @@
   > *"Finally, a performance worthy of my applause!"*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2755 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/224/rakdos-patron-of-chaos) · oracle_id `d08ce18a-0fd9-47ac-ad2f-6934b60070f1` · printing: MKM #224 (2024-02-09) · [rulings](https://api.scryfall.com/cards/cc6fd2d5-8eb2-4265-a1bf-d4ae635285af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Pit Dragon
@@ -319,7 +373,9 @@
   > Hellbent — This creature has double strike as long as you have no cards in hand.
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24449 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/120/rakdos-pit-dragon) · oracle_id `63dd611e-1c36-4e5d-ba45-87c7f629cd54` · printing: RVR #120 (2024-01-12) · [rulings](https://api.scryfall.com/cards/6afb2e91-a864-4f77-9da5-2bae3f66a8a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — If Rakdos Pit Dragon loses double strike after first strike combat damage has been dealt, it won't deal damage during the normal combat damage step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/120/rakdos-pit-dragon) · oracle_id `63dd611e-1c36-4e5d-ba45-87c7f629cd54` · printing: RVR #120 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Ragemutt
 
@@ -332,6 +388,7 @@
   > *Ragemutts pull the chariots of the Butcher Clowns, a trio of wingless, zombified faeries formerly of the Izzet.*
 - **Keywords:** Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27083 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/185/rakdos-ragemutt) · oracle_id `8f4c7419-bbbe-4ddc-83ae-fd9ea3e86c3d` · printing: RTR #185 (2012-10-05) · [rulings](https://api.scryfall.com/cards/bb36840a-3f85-4fca-87ab-379dfce8e542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Ringleader
@@ -345,6 +402,7 @@
   > {B}: Regenerate this creature.
 - **Keywords:** First strike, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/186/rakdos-ringleader) · oracle_id `f8ce8573-7c87-4f47-a0d4-14bd335f2c1d` · printing: RTR #186 (2012-10-05) · [rulings](https://api.scryfall.com/cards/6b54fbe8-324a-4066-bed1-dda1dca319fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Riteknife
@@ -357,6 +415,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25106 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/164/rakdos-riteknife) · oracle_id `43a2bd01-3fce-4191-a08a-1e379c7770b0` · printing: DIS #164 (2006-05-05) · [rulings](https://api.scryfall.com/cards/7fb6e10a-3df1-4c6f-bf4c-d4a2a0467c60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Roustabout
@@ -370,7 +429,9 @@
   > *"That one has a bright future—perfect instincts for the rhythm of mayhem."*
   > *—Judith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/198/rakdos-roustabout) · oracle_id `c696d82e-6dee-4766-bc08-33af00f61717` · printing: RNA #198 (2019-01-25) · [rulings](https://api.scryfall.com/cards/5ed534af-e16a-4d1d-8884-938fc7e13ca8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — An ability that triggers when a creature becomes blocked triggers only once if two or more creatures block it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/198/rakdos-roustabout) · oracle_id `c696d82e-6dee-4766-bc08-33af00f61717` · printing: RNA #198 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Shred-Freak
 
@@ -383,6 +444,7 @@
   > *"If there were such a thing as a soul, I think it would be behind the gallbladder but above the kidneys."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/204/rakdos-shred-freak) · oracle_id `e900b2b5-4bb2-482d-89ee-b5bbaf246698` · printing: CLU #204 (2024-02-23) · [rulings](https://api.scryfall.com/cards/a620ff81-61e8-4d76-a26f-d6271f8aac7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Signet
@@ -394,6 +456,7 @@
 - **Flavor text** (FRC printing):
   > *Made of bone and boiled in blood, a Rakdos signet is not considered finished until it has been used as a murder weapon.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #168 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/60/rakdos-signet) · oracle_id `3adb7681-977f-4a32-9ec8-51481b958268` · printing: FRC #60 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a263e71d-953f-4648-b326-33133cfa7e00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos's Return
@@ -405,7 +468,9 @@
 - **Flavor text** (RTR printing):
   > *When Lord Rakdos stirred from his slumber, everyone else's nightmare began.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/188/rakdoss-return) · oracle_id `52d1d575-3e7f-4df1-8c89-aee0cac03aca` · printing: RTR #188 (2012-10-05) · [rulings](https://api.scryfall.com/cards/d72981c0-1632-4d64-9341-2a76047d9b36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — The target opponent will discard X cards even if some or all of the damage dealt by Rakdos’s Return is prevented or redirected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/188/rakdoss-return) · oracle_id `52d1d575-3e7f-4df1-8c89-aee0cac03aca` · printing: RTR #188 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos the Defiler
 
@@ -418,7 +483,10 @@
   > Whenever Rakdos deals combat damage to a player, that player sacrifices half the non-Demon permanents they control of their choice, rounded up.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16908 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/129/rakdos-the-defiler) · oracle_id `789bf406-38f0-4888-b2ff-c4a95ac79283` · printing: DIS #129 (2006-05-05) · [rulings](https://api.scryfall.com/cards/5a4c4be4-06ae-4737-a3b0-818edadaf2e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — A permanent with the subtype Demon, including Rakdos the Defiler itself, can't be sacrificed this way.
+  - *2006-05-01* — To calculate the number of permanents that must be sacrificed, count the number of permanents the affected player controls that don't have the subtype Demon, then divide that number in half and round up. For example, a player who controls eleven non-Demon permanents will need to sacrifice six of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/129/rakdos-the-defiler) · oracle_id `789bf406-38f0-4888-b2ff-c4a95ac79283` · printing: DIS #129 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, the Muscle
 
@@ -431,7 +499,11 @@
   > Sacrifice another creature: Rakdos gains indestructible until end of turn. Tap it. Activate only once each turn.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5035 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/226/rakdos-the-muscle) · oracle_id `e2c141af-925e-42bd-8d83-e1a71f4c9794` · printing: OTJ #226 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bb34babd-1b85-4a7d-a066-a8337805056e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — If the sacrificed creature had {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2024-04-12* — Use the mana value of the sacrificed creature as it last existed on the battlefield to determine how many cards to exile.
+  - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Rakdos's triggered ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/226/rakdos-the-muscle) · oracle_id `e2c141af-925e-42bd-8d83-e1a71f4c9794` · printing: OTJ #226 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos, the Showstopper
 
@@ -445,7 +517,10 @@
   > *"Entertain me."*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6354 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/205/rakdos-the-showstopper) · oracle_id `03a4b997-4738-41a9-933f-e1f765e3a75a` · printing: CLU #205 (2024-02-23) · [rulings](https://api.scryfall.com/cards/210d07ab-7608-4fda-adb6-562cf194192f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — All of the creatures whose coins come up tails are destroyed at the same time.
+  - *2019-01-25* — Players can't take any action between the time that coins are flipped and the time creatures are destroyed. For example, if they wish to cast a spell to have a creature gain indestructible, they must do so before Rakdos's triggered ability resolves, without knowing whether that creature's coin will come up heads or tails.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/205/rakdos-the-showstopper) · oracle_id `03a4b997-4738-41a9-933f-e1f765e3a75a` · printing: CLU #205 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakdos Trumpeter
 
@@ -460,6 +535,7 @@
   > *—Lazav*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/119/rakdos-trumpeter) · oracle_id `2047a613-809d-4a47-9c78-f58a380ba18d` · printing: CLU #119 (2024-02-23) · [rulings](https://api.scryfall.com/cards/a4ee43e8-06ab-45da-8e56-2ed88c0141fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakeclaw Gargantuan
@@ -472,7 +548,9 @@
 - **Flavor text** (C13 printing):
   > *Naya teems with gargantuans, titanic monsters to whom both nature and civilization defer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26325 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/205/rakeclaw-gargantuan) · oracle_id `8dbb4a8f-78e9-4ceb-824d-bb67bdf939db` · printing: C13 #205 (2013-11-01) · [rulings](https://api.scryfall.com/cards/a158bb17-d2e0-416d-840a-5e25fb5ac5c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The ability checks the targeted creature’s power twice: when the creature becomes the target, and when the ability resolves. Once the ability resolves, it will continue to apply to the affected creature no matter what its power may become later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/205/rakeclaw-gargantuan) · oracle_id `8dbb4a8f-78e9-4ceb-824d-bb67bdf939db` · printing: C13 #205 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raking Canopy
 
@@ -484,6 +562,7 @@
   > *"Raven's Run has awoken, and ravens will no longer cry in its branches."*
   > *—Roon Ghastbark*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16940 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/127/raking-canopy) · oracle_id `75f381a6-49f9-4caf-a96a-91c75640b9b0` · printing: SHM #127 (2008-05-02) · [rulings](https://api.scryfall.com/cards/df529b30-9ac6-4944-9d21-ecf6d64a8845/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raking Claws
@@ -498,6 +577,7 @@
   > *—Alux, Skysail defender*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9374 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/131/raking-claws) · oracle_id `c2248d3d-3157-4610-868d-2b3fae2b1ec8` · printing: IKO #131 (2020-04-24) · [rulings](https://api.scryfall.com/cards/6eb0d9a2-f9bb-4d8e-a1ca-896c42f8ad56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakish Crew
@@ -508,7 +588,12 @@
   > When this enchantment enters, create a 1/1 red Mercenary creature token with "{T}: Target creature you control gets +1/+0 until end of turn. Activate only as a sorcery."
   > Whenever an outlaw you control dies, each opponent loses 1 life and you gain 1 life. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11810 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/99/rakish-crew) · oracle_id `ddf34404-39dd-4dcf-a706-ec78d47167e9` · printing: OTJ #99 (2024-04-19) · [rulings](https://api.scryfall.com/cards/70f64358-58db-40ab-90e8-6137c3bd0a29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — A card, spell, or permanent is an outlaw if it has the Assassin, Mercenary, Pirate, Rogue, or Warlock creature type. It doesn’t matter if it has more than one of those creature types; as long as it has at least one, it’s an outlaw.
+  - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
+  - *2024-04-12* — If one or more outlaws you control die at the same time that Rakish Crew leaves the battlefield, its last ability triggers for each of those outlaws.
+  - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/99/rakish-crew) · oracle_id `ddf34404-39dd-4dcf-a706-ec78d47167e9` · printing: OTJ #99 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakish Heir
 
@@ -520,6 +605,7 @@
 - **Flavor text** (VOC printing):
   > *"If you're not having fun, what's the point of living forever?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/149/rakish-heir) · oracle_id `3318c391-7aa1-4550-88a0-b29d8dca28b7` · printing: VOC #149 (2021-11-19) · [rulings](https://api.scryfall.com/cards/0da15652-8207-4be1-b821-3fb3dad66e37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakish Revelers
@@ -531,7 +617,10 @@
   > When this creature enters, create a 1/1 green and white Citizen creature token.
   > {2}, Exile this card from your hand: Target land gains "{T}: Add {R}, {G}, or {W}" until this card is cast from exile. You may cast this card for as long as it remains exiled.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/214/rakish-revelers) · oracle_id `7db1402e-a434-45d2-9d21-9e0faeeaff10` · printing: SNC #214 (2022-04-29) · [rulings](https://api.scryfall.com/cards/9c74197a-367c-40a4-9eb5-6943490bba09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — If Rakish Revelers is removed from exile without being cast, the land will continue to have this ability.
+  - *2022-04-29* — You may use the mana ability Rakish Revelers grants to the land while casting Rakish Revelers from exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/214/rakish-revelers) · oracle_id `7db1402e-a434-45d2-9d21-9e0faeeaff10` · printing: SNC #214 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakish Scoundrel
 
@@ -544,7 +633,20 @@
   > Disguise {4}{B/G}{B/G} (You may cast this card face down for {3} as a 2/2 creature with ward {2}. Turn it face up any time for its disguise cost.)
 - **Keywords:** Disguise, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/225/rakish-scoundrel) · oracle_id `d69cb63f-98cc-4699-a03d-4f1beeeb7065` · printing: MKM #225 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6aaa8c6b-7ef7-45db-99c9-4a6e7f177b94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/225/rakish-scoundrel) · oracle_id `d69cb63f-98cc-4699-a03d-4f1beeeb7065` · printing: MKM #225 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakka Mar
 
@@ -559,6 +661,7 @@
   > *—Nicol Bolas*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18406 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/247/rakka-mar) · oracle_id `6d92f14b-470b-40bc-b294-f725d46f307e` · printing: CMM #247 (2023-08-04) · [rulings](https://api.scryfall.com/cards/cd36b274-5b76-44ec-8d62-069b08debe89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raksha Golden Cub
@@ -573,7 +676,9 @@
   > *Some believe that Raksha, youngest of the kha, is the reincarnation of Dakan, the first and mightiest of leonin leaders.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15770 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/69/raksha-golden-cub) · oracle_id `a3c672b8-9c7d-47cc-877b-580904c6d72b` · printing: C17 #69 (2017-08-25) · [rulings](https://api.scryfall.com/cards/8736fd50-312e-47e2-8337-997c2acf48d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Raksha Golden Cub is a Cat, so it also gets +2/+2 and double strike if it’s equipped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/69/raksha-golden-cub) · oracle_id `a3c672b8-9c7d-47cc-877b-580904c6d72b` · printing: C17 #69 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa Deathdealer
 
@@ -587,6 +692,7 @@
   > *"Death fills me and makes me strong. You, it will reduce to nothing."*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/192/rakshasa-deathdealer) · oracle_id `acdc17cf-8f8c-42ee-bede-481ce00cf4bf` · printing: KTK #192 (2014-09-26) · [rulings](https://api.scryfall.com/cards/ab4e0b33-dad1-4443-a7c7-a7bab067d04a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa Debaser
@@ -599,7 +705,18 @@
   > Encore {6}{B}{B} ({6}{B}{B}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/146/rakshasa-debaser) · oracle_id `db286eef-f0df-4f7c-8e06-957447166950` · printing: CMR #146 (2020-11-20) · [rulings](https://api.scryfall.com/cards/e31fd23d-e6b2-412b-b2ff-c99812365001/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — Each token must attack the appropriate player if able.
+  - *2020-11-10* — Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2020-11-10* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-11-10* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2020-11-10* — If you leave the game, all creatures owned by other players that were put onto the battlefield under your control are exiled.
+  - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2020-11-10* — The creatures put onto the battlefield by the triggered ability can't attack that combat, even if they have haste.
+  - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+  - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/146/rakshasa-debaser) · oracle_id `db286eef-f0df-4f7c-8e06-957447166950` · printing: CMR #146 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa Gravecaller
 
@@ -613,7 +730,13 @@
   > *Debts to rakshasa linger beyond death.*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/114/rakshasa-gravecaller) · oracle_id `1b57e9f8-68af-4f83-9062-6d715857dcef` · printing: DTK #114 (2015-03-27) · [rulings](https://api.scryfall.com/cards/0bf584fd-b13b-4f86-9c9a-fa6514255aba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — A creature with exploit “exploits a creature” when the controller of the exploit ability sacrifices a creature as that ability resolves.
+  - *2015-02-25* — If the creature with exploit isn’t on the battlefield as the exploit ability resolves, you won’t get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn’t on the battlefield, its other triggered ability won’t trigger.
+  - *2015-02-25* — You can sacrifice the creature with exploit if it’s still on the battlefield. This will cause its other ability to trigger.
+  - *2015-02-25* — You can’t sacrifice more than one creature to any one exploit ability.
+  - *2015-02-25* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/114/rakshasa-gravecaller) · oracle_id `1b57e9f8-68af-4f83-9062-6d715857dcef` · printing: DTK #114 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa's Bargain
 
@@ -624,6 +747,7 @@
 - **Flavor text** (TDM printing):
   > *"You know you shouldn't and the Sultai forbid you. But you can't resist the temptation, can you?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/214/rakshasas-bargain) · oracle_id `d87be8c6-7a1f-4db8-ada1-b1a030f03877` · printing: TDM #214 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5c409f4f-3b2c-4c33-b850-55b2a46f51ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa's Disdain
@@ -635,7 +759,9 @@
 - **Flavor text** (FRF printing):
   > *"Every failure, every death only makes my strength greater."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18806 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/45/rakshasas-disdain) · oracle_id `a8fe6204-9f55-45e5-99b3-43f2761ce8a3` · printing: FRF #45 (2015-01-23) · [rulings](https://api.scryfall.com/cards/bd9e8a25-2e71-431b-897f-8b62520a3ce9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — Count the number of cards in your graveyard as Rakshasa’s Disdain resolves to determine how much mana the controller of the target spell must pay to avoid the spell being countered. Rakshasa’s Disdain is still on the stack at this time and won’t count toward this number.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/45/rakshasas-disdain) · oracle_id `a8fe6204-9f55-45e5-99b3-43f2761ce8a3` · printing: FRF #45 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa's Secret
 
@@ -647,6 +773,7 @@
   > *The voice of a rakshasa is soft, its breath sweet. But every word is the murmur of madness.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25892 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/84/rakshasas-secret) · oracle_id `e753f50d-64ed-4822-a301-57659ee378b6` · printing: KTK #84 (2014-09-26) · [rulings](https://api.scryfall.com/cards/ae62a43e-36ce-471e-93f1-21fe674858b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rakshasa Vizier
@@ -659,4 +786,7 @@
 - **Flavor text** (KTK printing):
   > *Rakshasa offer deals that sound advantageous to those who forget who they are dealing with.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/193/rakshasa-vizier) · oracle_id `9bdef081-1408-4125-82c3-04296dee05d5` · printing: KTK #193 (2014-09-26) · [rulings](https://api.scryfall.com/cards/cb39e674-919d-4db6-9ac1-cfa1cca02207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Exiling cards from your graveyard to pay the cost of a spell with delve is a single action. It will cause Rakshasa Vizier’s ability to trigger once, putting a number of +1/+1 counters on it equal to the number of cards you exiled.
+  - *2014-09-20* — If a card is exiled “instead” of being put into a graveyard, Rakshasa Vizier’s ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/193/rakshasa-vizier) · oracle_id `9bdef081-1408-4125-82c3-04296dee05d5` · printing: KTK #193 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

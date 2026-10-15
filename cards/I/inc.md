@@ -56,6 +56,7 @@
 - **Flavor text** (SNC printing):
   > *As the assassins converged on Kitt Kanto, she struck a high note and held it, unbroken, for nearly a minute. When the room fell silent, she was surrounded only by rose petals falling gently to the floor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/192/incandescent-aria) · oracle_id `d031b482-b33d-4eb4-a5bc-ea96e66a1d99` · printing: SNC #192 (2022-04-29) · [rulings](https://api.scryfall.com/cards/77e2ed9e-ee1d-440a-94b4-d4b17d30b800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incandescent Soulstoke
@@ -67,6 +68,7 @@
   > Other Elemental creatures you control get +1/+1.
   > {1}{R}, {T}: You may put an Elemental creature card from your hand onto the battlefield. That creature gains haste until end of turn. Sacrifice it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6043 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/94/incandescent-soulstoke) · oracle_id `934bd9f9-937b-4c6b-a849-012ae6bd3321` · printing: ECC #94 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c1597a95-3175-42f7-abce-2f6f969c5faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incarnation Technique
@@ -80,7 +82,15 @@
   > *"Draw out your fear, but don't let it control you. You're in charge now."*
 - **Keywords:** Mill, Demonstrate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3605 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/41/incarnation-technique) · oracle_id `0ab9539d-3461-4936-95cd-4c229308c4a4` · printing: C21 #41 (2021-04-23) · [rulings](https://api.scryfall.com/cards/9655deda-f02b-47a0-89a3-2904b11b84aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-04-16* — If the spell requires targets, you choose the target of the original spell as you cast it. If you create a copy of the spell, you may choose new targets for the copy as you create that copy. Similarly, the opponent you chose to create a copy may choose new targets for that copy as it’s created. In other words, your opponent will know the targets of your original spell and your copy when choosing the new targets, if any, for their copy.
+  - *2021-04-16* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
+  - *2021-04-16* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
+  - *2021-04-16* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent’s copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
+  - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+  - *2021-04-16* — You choose which creature to bring back after you mill five cards.
+  - *2021-04-16* — You may choose any creature card in your graveyard, not just one that you milled this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/41/incarnation-technique) · oracle_id `0ab9539d-3461-4936-95cd-4c229308c4a4` · printing: C21 #41 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary
 
@@ -92,7 +102,9 @@
   > When enchanted creature dies, this Aura deals X damage to any target, where X is the number of fuse counters on this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24924 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/89/incendiary) · oracle_id `a893bee3-ea5c-4619-a875-e4af6d4396fe` · printing: UDS #89 (1999-06-07) · [rulings](https://api.scryfall.com/cards/854f4775-29b1-4ed1-94d9-db5930a35157/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Putting on a counter is optional. If you forget, you can't go back later even if it is something you usually do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/89/incendiary) · oracle_id `a893bee3-ea5c-4619-a875-e4af6d4396fe` · printing: UDS #89 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Command
 
@@ -105,6 +117,7 @@
   > • Destroy target nonbasic land.
   > • Each player discards all the cards in their hand, then draws that many cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/113/incendiary-command) · oracle_id `d45a4924-daa0-4ac3-afd7-b66f636ce870` · printing: C13 #113 (2013-11-01) · [rulings](https://api.scryfall.com/cards/925d6ae9-deb8-41a4-99de-fd6fc6924d3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Dissent
@@ -116,7 +129,23 @@
   > Creatures you control with the chosen name have "{R}: This creature gets +1/+0 until end of turn."
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/8/incendiary-dissent) · oracle_id `70caaa64-9623-4d05-9843-18460fea963b` · printing: CN2 #8 (2016-08-26) · [rulings](https://api.scryfall.com/cards/cfbe340b-ca40-4604-bdc6-4b00e7444df4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/8/incendiary-dissent) · oracle_id `70caaa64-9623-4d05-9843-18460fea963b` · printing: CN2 #8 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Flow
 
@@ -128,7 +157,9 @@
   > *"What's your plan?" Gideon asked.*
   > *"Are you serious?" Chandra replied.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/133/incendiary-flow) · oracle_id `91b2ffe8-155d-4b9f-82dd-868cc895856b` · printing: EMN #133 (2016-07-22) · [rulings](https://api.scryfall.com/cards/cf464f61-8a7f-493b-a80f-2f2b0ebd8bf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — The damaged creature will be exiled if it would die for any reason that turn, not just if it dies due to damage from Incendiary Flow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/133/incendiary-flow) · oracle_id `91b2ffe8-155d-4b9f-82dd-868cc895856b` · printing: EMN #133 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Oracle
 
@@ -141,7 +172,10 @@
 - **Flavor text** (THB printing):
   > *The flamespeakers of Akros live passionately, devoted to Purphoros and the cycle of destructive creation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/140/incendiary-oracle) · oracle_id `2c3ed6b9-1a2b-42ad-baa9-ee2a0ad505a7` · printing: THB #140 (2020-01-24) · [rulings](https://api.scryfall.com/cards/eb6b9b5c-35ff-47ac-9b04-71257314b686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — If a creature dealt damage by Incendiary Oracle would die after Incendiary Oracle has left the battlefield, that creature dies and isn't exiled instead.
+  - *2020-01-24* — If a creature dealt damage by Incendiary Oracle would die at the same time as Incendiary Oracle, that creature is exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/140/incendiary-oracle) · oracle_id `2c3ed6b9-1a2b-42ad-baa9-ee2a0ad505a7` · printing: THB #140 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Sabotage
 
@@ -153,6 +187,7 @@
 - **Flavor text** (KLD printing):
   > *"All of those Consulate safety measures undone with one simple tweak."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/119/incendiary-sabotage) · oracle_id `28da6443-4acc-4f1c-a54f-9153286f18c4` · printing: KLD #119 (2016-09-30) · [rulings](https://api.scryfall.com/cards/0ee44ca0-1989-42fa-8024-b6b3e5c3883c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incinerate
@@ -164,7 +199,9 @@
 - **Flavor text** (JVC printing):
   > *"Who said there are no assurances in life? I assure you this is going to hurt."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/51/incinerate) · oracle_id `d8fd7a34-8418-4e98-b79b-119c4348c667` · printing: JVC #51 (2014-12-05) · [rulings](https://api.scryfall.com/cards/f23dff46-e040-4cba-890a-97c2899701f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-07-15* — Regeneration abilities that would affect that creature can still be activated; they just won’t do anything. The creature can’t be regenerated for any reason, even if an effect other than Incinerate would deal lethal damage to it or otherwise destroy it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/51/incinerate) · oracle_id `d8fd7a34-8418-4e98-b79b-119c4348c667` · printing: JVC #51 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incinerating Blast
 
@@ -176,7 +213,9 @@
 - **Flavor text** (FDN printing):
   > *Most pyromancers could never summon the sheer heat necessary to melt solid rock, but most pyromancers aren't Chandra Nalaar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/90/incinerating-blast) · oracle_id `49f0da4a-e046-4220-b90e-e105a5f2ef00` · printing: FDN #90 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d58e20ab-c5ca-4295-884d-78efdaa83243/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If the target creature is an illegal target when Incinerating Blast tries to resolve, it won't resolve and none of its effects will happen. You won't discard or draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/90/incinerating-blast) · oracle_id `49f0da4a-e046-4220-b90e-e105a5f2ef00` · printing: FDN #90 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incinerator of the Guilty
 
@@ -188,7 +227,11 @@
   > Whenever this creature deals combat damage to a player, you may collect evidence X. When you do, this creature deals X damage to each creature and planeswalker that player controls. (To collect evidence X, exile cards with total mana value X or greater from your graveyard.)
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/132/incinerator-of-the-guilty) · oracle_id `9b7d037f-3269-4e3b-9744-a977acb69c67` · printing: MKM #132 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0c6aca64-a554-45c1-9f23-4f7878abeda5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — You may collect evidence 0, but you would be a lazy detective with no crispy culprits. Nevertheless, if you choose to do so, abilities that trigger "whenever you collect evidence", such as those of Surveillance Monitor and Evidence Examiner, will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/132/incinerator-of-the-guilty) · oracle_id `9b7d037f-3269-4e3b-9744-a977acb69c67` · printing: MKM #132 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incisor Glider
 
@@ -203,6 +246,7 @@
   > *—Melira*
 - **Keywords:** Flying, Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/15/incisor-glider) · oracle_id `e51f89c8-3d7f-4f1a-bc35-67b92db20e10` · printing: ONE #15 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b3cf4c4f-bda6-454c-991d-429c0dca0e85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incisor Steed
@@ -215,6 +259,7 @@
   > Corrupted Metalcraft — As long as you control three or more artifacts and an opponent has three or more poison counters, Incisor Steed gets +3/+0.
 - **Keywords:** Vigilance, Corrupted Metalcraft
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CW03/incisor-steed) · oracle_id `dc25033c-4863-4619-886f-7b9976ae1c7c` · printing: UNK #CW03 (2023-02-17) · [rulings](https://api.scryfall.com/cards/23c7a16c-bc18-4946-a13f-46f0915266e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incite
@@ -226,7 +271,11 @@
 - **Flavor text** (M11 printing):
   > *The veneer of rationality peeled from the mage, revealing the spite and rage beneath.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/145/incite) · oracle_id `304da0e0-9852-4ba5-a896-3c6bd703a64c` · printing: M11 #145 (2010-07-16) · [rulings](https://api.scryfall.com/cards/6ba4dcc6-05a5-43e9-b445-bae83180aa79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-08-15* — If, during its controller’s declare attackers step, a creature affected by Incite is tapped, is affected by a spell or ability that says it can’t attack, or is affected by “summoning sickness,” then that creature doesn’t attack. If there’s a cost associated with having that creature attack, its controller isn’t forced to pay that cost, so the creature doesn’t have to attack in that case either.
+  - *2010-08-15* — Incite overwrites all of the targeted creature’s old colors, leaving it just red. It doesn’t matter what colors it used to be (even if, for example, it used to be red and green).
+  - *2010-08-15* — You may target any creature with Incite. It’s okay if that creature is already red. It’s also okay if it would be unable to attack that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/145/incite) · oracle_id `304da0e0-9852-4ba5-a896-3c6bd703a64c` · printing: M11 #145 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incite Hysteria
 
@@ -239,7 +288,14 @@
   > *—Trigori, Azorius senator*
 - **Keywords:** Radiance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/132/incite-hysteria) · oracle_id `0a992ad5-136f-482d-8390-fdfe745fe764` · printing: RAV #132 (2005-10-07) · [rulings](https://api.scryfall.com/cards/a31f5060-df9e-4665-bf60-a8e33da55c84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2005-10-01* — A creature “shares a color” with any creature that is at least one of its colors. For example, a green-white creature shares a color with creatures that are green, white, green-white, red-white, black-green, and so on.
+  - *2005-10-01* — All creatures that share a color are affected, even your own.
+  - *2005-10-01* — If it targets a colorless creature, it doesn’t affect any other creatures. A colorless creature shares a color with nothing, not even other colorless creatures.
+  - *2005-10-01* — Only one creature is targeted. If that creature leaves the battlefield or otherwise becomes an illegal target, the entire spell doesn’t resolve. No other creatures are affected.
+  - *2005-10-01* — You check which creatures share a color with the target when the spell resolves.
+  - *2005-11-01* — The targeted creature and the creatures that share a color with it at the time Incite Hysteria resolves gain an ability that says they can’t block this turn. It doesn’t matter if those creatures change colors before blockers are declared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/132/incite-hysteria) · oracle_id `0a992ad5-136f-482d-8390-fdfe745fe764` · printing: RAV #132 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incite Insight
 
@@ -251,6 +307,7 @@
   > *After a hundred failed patent applications, Cornelian was stunned to find that no one had ever created a steam-powered autonomous ice cream delivery system. He immediately designed a gnome with scoops for hands.*
 - **Keywords:** Assemble
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/36/incite-insight) · oracle_id `3eb5dabf-1c38-4c79-b5df-aa52c97d2c3b` · printing: UST #36 (2017-12-08) · [rulings](https://api.scryfall.com/cards/ba905b6e-9568-4aa6-a281-248c79af87ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incite Rebellion
@@ -262,7 +319,9 @@
 - **Flavor text** (CM2 printing):
   > *Nothing breaks the monotony like a good old-fashioned riot.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16952 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/108/incite-rebellion) · oracle_id `26bbc473-cf99-4a82-b432-604757a832c4` · printing: CM2 #108 (2018-06-08) · [rulings](https://api.scryfall.com/cards/3633c759-f86a-436d-b54d-0d6c9ef14b63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — The damage is dealt simultaneously. If this causes all players to have 0 or less life, the game is a draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/108/incite-rebellion) · oracle_id `26bbc473-cf99-4a82-b432-604757a832c4` · printing: CM2 #108 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incite War
 
@@ -275,6 +334,7 @@
   > Entwine {2} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/96/incite-war) · oracle_id `8a640369-59ab-4506-b473-1f804721414c` · printing: MRD #96 (2003-10-02) · [rulings](https://api.scryfall.com/cards/ee30527c-0eb1-4b66-9028-1607a960019a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incoming!
@@ -284,6 +344,7 @@
 - **Oracle text:**
   > Each player searches their library for any number of artifact, creature, enchantment, and/or land cards, puts them onto the battlefield, then shuffles.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/64/incoming!) · oracle_id `35caa378-440d-41a1-8ce4-174bfb7c16ac` · printing: UGL #64 (1998-08-11) · [rulings](https://api.scryfall.com/cards/573cf5e6-35ee-4eb6-990a-524ba7335797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incorrigible Youths
@@ -299,7 +360,17 @@
   > *—Olivia Voldaren*
 - **Keywords:** Madness, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/166/incorrigible-youths) · oracle_id `9c239027-c5cb-43c6-b4f3-93c269a1d853` · printing: SOI #166 (2016-04-08) · [rulings](https://api.scryfall.com/cards/4e826571-6f00-4b40-975b-d51b2b17b4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/166/incorrigible-youths) · oracle_id `9c239027-c5cb-43c6-b4f3-93c269a1d853` · printing: SOI #166 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Ambition
 
@@ -310,7 +381,14 @@
   > Flashback {7}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/69/increasing-ambition) · oracle_id `09027657-bc9a-4702-88c1-e5b3534ad188` · printing: DKA #69 (2012-02-03) · [rulings](https://api.scryfall.com/cards/c8f508dc-7c7d-47e8-a4ef-0e8fd99cbd74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/69/increasing-ambition) · oracle_id `09027657-bc9a-4702-88c1-e5b3534ad188` · printing: DKA #69 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Confusion
 
@@ -321,7 +399,15 @@
   > Flashback {X}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/41/increasing-confusion) · oracle_id `11293f96-3263-45e5-89fc-850df6b25a63` · printing: DKA #41 (2012-02-03) · [rulings](https://api.scryfall.com/cards/13f5bcdc-70bb-4d67-99e1-282f166ee4bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-22* — Regardless of which zone Increasing Confusion is cast from, it puts cards from the top of target player's library into that player's graveyard.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/41/increasing-confusion) · oracle_id `11293f96-3263-45e5-89fc-850df6b25a63` · printing: DKA #41 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Devotion
 
@@ -332,7 +418,14 @@
   > Flashback {7}{W}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · [rulings](https://api.scryfall.com/cards/0c786c28-1085-4b3e-9164-5fa3adfa5010/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Savagery
 
@@ -343,7 +436,14 @@
   > Flashback {5}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dds/47/increasing-savagery) · oracle_id `616c7f45-5295-4b8c-a828-ff3a5ba4d917` · printing: DDS #47 (2017-03-31) · [rulings](https://api.scryfall.com/cards/c59b2ab3-c5e3-4599-9af0-3fa7a9544b97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dds/47/increasing-savagery) · oracle_id `616c7f45-5295-4b8c-a828-ff3a5ba4d917` · printing: DDS #47 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Vengeance
 
@@ -354,7 +454,20 @@
   > Flashback {3}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3076 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · [rulings](https://api.scryfall.com/cards/2a362d78-76a1-4dbc-80cc-0360e98ba280/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2011-01-22* — Each of the copies will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal). If there are two copies, you may change the targets of each of them to different legal targets.
+  - *2011-01-22* — If the spell Increasing Vengeance copies has an X whose value was determined as it was cast (like Earthquake does), the copy has the same value of X.
+  - *2011-01-22* — If the spell Increasing Vengeance copies is modal (that is, it says “Choose one —” or the like), the copies will have the same mode(s). You can't choose different ones.
+  - *2011-01-22* — Increasing Vengeance can target (and copy) any instant or sorcery spell you control, not just one with targets.
+  - *2011-01-22* — When Increasing Vengeance resolves, it creates one or two copies of a spell. You control each of the copies. Those copies are created on the stack, so they're not “cast.” Abilities that trigger when a player casts a spell won't trigger. The copies will then resolve like normal spells, after players get a chance to cast spells and activate abilities.
+  - *2011-01-22* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too. For example, if you sacrifice a 3/3 creature to cast Fling and then copy it with Increasing Vengeance, the copies of Fling will also deal 3 damage to its target.
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Blight
 
@@ -365,7 +478,9 @@
 - **Flavor text** (ECC printing):
   > *Shadowmoor's main crops are rot, slime, and despair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/76/incremental-blight) · oracle_id `159cd205-6afc-4d8c-a4b9-501911a9c345` · printing: ECC #76 (2026-01-23) · [rulings](https://api.scryfall.com/cards/67028351-3023-4433-96fe-f5c32710bdf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — You must target three different creatures. If you can't, you can't cast Incremental Blight.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/76/incremental-blight) · oracle_id `159cd205-6afc-4d8c-a4b9-501911a9c345` · printing: ECC #76 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Growth
 
@@ -377,7 +492,10 @@
   > *"Tie a mouse under a bridge, and your cabbages will triple in size."*
   > *—Kithkin superstition*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/w16/14/incremental-growth) · oracle_id `802ff367-e52e-4f79-aa0f-96c45fe477a0` · printing: W16 #14 (2016-04-08) · [rulings](https://api.scryfall.com/cards/e90aaa61-3281-4e8f-9eb3-548896d0c14d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — If some of the creatures are illegal targets as Incremental Growth tries to resolve, the remaining legal targets still get the appropriate number of +1/+1 counters. If all targets are illegal, Incremental Growth doesn’t resolve.
+  - *2014-09-20* — You must choose three different targets in order to cast Incremental Growth. You decide how many +1/+1 counters each creature will get as part of casting the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/w16/14/incremental-growth) · oracle_id `802ff367-e52e-4f79-aa0f-96c45fe477a0` · printing: W16 #14 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incriminate
 
@@ -389,6 +507,7 @@
   > *"If I were you, I'd check that elf's coat. I saw him slipping something into his pocket just before you arrived."*
   > *—Krandal, freelance instigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17208 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/84/incriminate) · oracle_id `d8b59cc3-766f-4350-971f-edf721fcc5be` · printing: SNC #84 (2022-04-29) · [rulings](https://api.scryfall.com/cards/198ec497-4e95-4386-9ca4-35d2d3f59733/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incriminating Impetus
@@ -401,7 +520,13 @@
   > Enchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)
 - **Keywords:** Goad, Suspect, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/35/incriminating-impetus) · oracle_id `75a7cad2-782c-4a5b-9193-5ba789bf5326` · printing: CLU #35 (2024-02-23) · [rulings](https://api.scryfall.com/cards/e8e09dfa-ae8b-4fd5-9499-6ad145bf928d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Being suspected isn't a copiable value. If a permanent becomes a copy of a suspected creature, it won't be suspected.
+  - *2024-02-02* — If a creature is already suspected, suspecting it again won't have any effect.
+  - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
+  - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
+  - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/35/incriminating-impetus) · oracle_id `75a7cad2-782c-4a5b-9193-5ba789bf5326` · printing: CLU #35 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation Druid
 
@@ -413,7 +538,14 @@
   > {3}{G}{G}: Adapt 3. (If this creature has no +1/+1 counters on it, put three +1/+1 counters on it.)
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/302/incubation-druid) · oracle_id `34428f42-03ac-4795-8286-6cbea796df2b` · printing: MOC #302 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b3d8c95e-09b9-46d6-80e9-95adb2c2ea9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-01-25* — Any change to a land's type or abilities gained by a land can affect the types of mana a land can produce.
+  - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2019-01-25* — Incubation Druid checks the effects of all mana-producing abilities of lands you control, but it doesn't check their costs or legality. For example, Spire of Industry says "{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact." If you control Spire of Industry and Incubation Druid, you can tap Incubation Druid for any color of mana. It doesn't matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
+  - *2019-01-25* — Incubation Druid doesn't care about any restrictions or riders your lands put on the mana they produce, such as those of Unclaimed Territory and Guildmages' Forum. It just produces one mana of the appropriate type, with no restrictions or riders.
+  - *2019-01-25* — The types of mana are white, blue, black, red, green, and colorless.
+  - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/302/incubation-druid) · oracle_id `34428f42-03ac-4795-8286-6cbea796df2b` · printing: MOC #302 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation // Incongruity
 
@@ -423,7 +555,16 @@
 - **Face 2: Incongruity** — {1}{G}{U} — Instant
   > Exile target creature. That creature's controller creates a 3/3 green Frog Lizard creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/197/incubation-incongruity) · oracle_id `363edb16-009f-4cc2-99e3-2b15db84e7af` · printing: CLU #197 (2024-02-23) · [rulings](https://api.scryfall.com/cards/2c1ace2e-b3eb-4e60-adfd-9f40b8cd4416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-01-25* — If the target creature is an illegal target by the time Incongruity tries to resolve, the spell doesn't resolve. No player creates a Frog Lizard token.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/197/incubation-incongruity) · oracle_id `363edb16-009f-4cc2-99e3-2b15db84e7af` · printing: CLU #197 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation Sac
 
@@ -436,6 +577,7 @@
   > *"This one needs a bit longer to ripen."*
   > *—Glissa Sunslayer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/171/incubation-sac) · oracle_id `478cc55b-dd71-4adc-909d-c39d435587ee` · printing: ONE #171 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a6b36e23-a414-400c-a3a5-e23883e866d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation Triformer
@@ -448,6 +590,7 @@
   > {3}: Choose target transformed Phyrexian token you control. Transform it into a third side that's a 3/3 Phyrexian Horror artifact creature.
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03c/incubation-triformer) · oracle_id `202134e8-ecaa-41cc-b36b-b7489822d95c` · printing: UNK #RB03c (2023-05-06) · [rulings](https://api.scryfall.com/cards/4a514c27-865f-48f2-baea-f8f159e2addc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubator Drone
@@ -462,7 +605,17 @@
   > *The touch of an Eldrazi brings life and death in turn.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/60/incubator-drone) · oracle_id `088d63ec-bd5e-4e80-acf9-2af270a9b395` · printing: BFZ #60 (2015-10-02) · [rulings](https://api.scryfall.com/cards/e0855762-7068-4111-a6bf-fe6d5b092c74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/60/incubator-drone) · oracle_id `088d63ec-bd5e-4e80-acf9-2af270a9b395` · printing: BFZ #60 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubob
 
@@ -473,6 +626,7 @@
   > Flashback {3}{B}, Pay 3 life.
 - **Keywords:** Transform, Flashback
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB02b/incubob) · oracle_id `eacb0f82-87ea-4f7c-9c06-6d7a96f7435b` · printing: UNK #UB02b (2023-05-06) · [rulings](https://api.scryfall.com/cards/ffe217cd-6773-48b8-851e-46bdb6c48346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incurable Ogre
@@ -485,6 +639,7 @@
 - **Flavor text** (ALA printing):
   > *Each mutation causes the incurables to look vastly different from one another. They are left with only one thing in common: their insatiable lust for the slaughter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30806 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/105/incurable-ogre) · oracle_id `94190aaf-db91-4a3c-a2a7-e90868e856ff` · printing: ALA #105 (2008-10-03) · [rulings](https://api.scryfall.com/cards/5ad3381e-ae2f-40cf-8a7b-62375e9f453e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incursion Specialist
@@ -497,4 +652,6 @@
 - **Flavor text** (GTC printing):
   > *"Work for the Dimir again? That depends. Tell me more about this maze."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/38/incursion-specialist) · oracle_id `3c334eb3-e3fd-45b0-a36d-4681c9e72ac5` · printing: GTC #38 (2013-02-01) · [rulings](https://api.scryfall.com/cards/290e56e0-e699-413a-9d6a-e740bf460b35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — Incursion Specialist’s ability can trigger only once each turn. The ability will resolve before the second spell resolves. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/38/incursion-specialist) · oracle_id `3c334eb3-e3fd-45b0-a36d-4681c9e72ac5` · printing: GTC #38 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

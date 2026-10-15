@@ -24,7 +24,16 @@
   > {3}{W/P}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and "This token can't block." (Players dealt combat damage by it also get a poison counter. {W/P} can be paid with either {W} or 2 life.)
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/404/mite-overseer) · oracle_id `d92411b3-cb25-4123-a78e-4f785dfdae0c` · printing: ONE #404 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a55a5edb-edf3-4f6c-90b8-1780b1e73997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature loses first strike after dealing combat damage in the first combat damage step, it won't deal damage in the second combat damage step unless it has double strike.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/404/mite-overseer) · oracle_id `d92411b3-cb25-4123-a78e-4f785dfdae0c` · printing: ONE #404 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mithril Coat
 
@@ -38,7 +47,11 @@
   > Equip {3}
 - **Keywords:** Indestructible, Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/245/mithril-coat) · oracle_id `3dc364f3-3094-4660-80ca-9418588c7fde` · printing: LTR #245 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0fd1fc09-a09d-45e6-8a07-3a8a83b4e6ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — Attaching an Equipment with its enters-the-battlefield triggered ability isn't the same as using its equip ability. You don't pay mana for the attachment, and the timing restrictions for equip abilities don't apply.
+  - *2023-06-16* — If the target creature becomes an illegal target, the Equipment remains on the battlefield unattached.
+  - *2023-06-16* — Mithril Coat doesn't enter the battlefield attached to a creature. Instead, the Equipment enters the battlefield and then a triggered ability attaches it to a creature. You may cast Mithril Coat even if you don't control any creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/245/mithril-coat) · oracle_id `3dc364f3-3094-4660-80ca-9418588c7fde` · printing: LTR #245 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mitotic Manipulation
 
@@ -50,7 +63,11 @@
   > *"They can't even comprehend nature. How could they improve it?"*
   > *—Venser*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15356 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/27/mitotic-manipulation) · oracle_id `69cc006d-172f-4e4c-bb75-10d772b061b1` · printing: MBS #27 (2011-02-04) · [rulings](https://api.scryfall.com/cards/2abd4521-62c8-4b2f-a406-a8ddfa8f475a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — No matter how many of the seven cards have the same name as a permanent, you can put only one of them onto the battlefield.
+  - *2011-06-01* — You don’t reveal any of the other cards or the order in which they go to the bottom of your library.
+  - *2011-06-01* — “The same name as a permanent” means the same name as a permanent currently on the battlefield as Mitotic Manipulation resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/27/mitotic-manipulation) · oracle_id `69cc006d-172f-4e4c-bb75-10d772b061b1` · printing: MBS #27 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mitotic Slime
 
@@ -60,4 +77,5 @@
 - **Oracle text:**
   > When this creature dies, create two 2/2 green Ooze creature tokens. They have "When this token dies, create two 1/1 green Ooze creature tokens."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/302/mitotic-slime) · oracle_id `1162c7ff-c0cb-469a-ad3c-322b0981ae1d` · printing: NCC #302 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8aacf055-e36f-4428-8a3c-f73fa4b4307c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

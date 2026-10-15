@@ -33,7 +33,9 @@
 - **Flavor text** (SOK printing):
   > *The apprentice stared in puzzlement. "But Master, you finished writing those spells just yesterday. Don't you remember?" The jushi's heart froze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/40/ideas-unbound) · oracle_id `6b4d34bc-fa64-4c42-90e0-190671a5b988` · printing: SOK #40 (2005-06-03) · [rulings](https://api.scryfall.com/cards/1b0fe46d-08d6-48c3-be0d-650d8d3d66af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-06-01* — If you don’t have three or more cards in hand at the end of turn, you discard what cards you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/40/ideas-unbound) · oracle_id `6b4d34bc-fa64-4c42-90e0-190671a5b988` · printing: SOK #40 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identify the Culprit
 
@@ -42,6 +44,7 @@
 - **Oracle text:**
   > Secretly choose a creature target opponent controls. Then, that player guesses which creature it is. Reveal the chosen creature. If they guessed incorrectly, exile the creature you chose. Otherwise, return Identify the Culprit to its owner's hand and you can't cast it again this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW02c/identify-the-culprit) · oracle_id `9b7d76c6-82a1-4c4a-96ed-ee47f0859c10` · printing: UNK #UW02c (2024-02-24) · [rulings](https://api.scryfall.com/cards/71fa3b6d-5aa5-4d6e-9257-1a449ce1f3f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identity Crisis
@@ -54,6 +57,7 @@
   > *"To join our ranks, one must be pure. To be pure, one must be blessed by etherium. To be blessed, one must forget oneself."*
   > *—Ethersworn prayer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/81/identity-crisis) · oracle_id `0abe0584-d876-4827-972b-589da53dbe96` · printing: ARB #81 (2009-04-30) · [rulings](https://api.scryfall.com/cards/930d0de1-39af-4b08-81a3-2cca8aae5d40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identity Echo
@@ -63,6 +67,7 @@
 - **Oracle text:**
   > {3}{R}: Exile target creature or planeswalker you control. Reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16147 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/87/identity-echo) · oracle_id `4dbf8c43-d7c5-4037-875e-6accd87aaf6f` · printing: FRA #87 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e600b33b-8916-43dd-95d3-d7cbf874933d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identity Thief
@@ -73,7 +78,17 @@
 - **Oracle text:**
   > Whenever this creature attacks, you may exile another target nontoken creature. If you do, this creature becomes a copy of that creature until end of turn. Return the exiled card to the battlefield under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/224/identity-thief) · oracle_id `a200daec-983c-4ea6-ae98-1c963b50fbb1` · printing: NCC #224 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a32e1511-2495-454a-9a04-4f3c0d9a75d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-07-13* — Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2016-07-13* — Identity Thief copies the printed values of the targeted creature, plus any copy effects that have been applied to that creature. It won't copy other effects that have changed the targeted creature's power, toughness, types, color, or so on. It also won't copy counters on the targeted creature.
+  - *2016-07-13* — Identity Thief will still be a copy of the creature during the next end step when the exiled card returns. If it has an ability that triggers at the beginning of the end step, that ability will trigger for Identity Thief and not for the returned creature.
+  - *2016-07-13* — If the targeted creature has an ability that triggers when it attacks, it'll be too late for it to trigger once Identity Thief has that ability. The same is true if another object has an ability that triggers when a creature with certain characteristics attacks and Identity Thief doesn't have those characteristics until after it becomes a copy.
+  - *2016-07-13* — If the targeted creature is a double-faced or melded permanent, Identity Thief copies the face shown. Because Identity Thief is not a double-faced card or meld card, it won't be able to transform or meld. If it copies a melded permanent or the back face of a double-faced card, its mana value will be 0. Exiled double-faced cards and exiled meld cards will return with their front faces up.
+  - *2016-07-13* — If the targeted creature is itself copying a permanent, Identity Thief will become whatever it's copying, as modified by that copy effect. For example, if you target a Hamlet Captain that has become a copy of Permeating Mass, Identity Thief will become a Permeating Mass.
+  - *2016-07-13* — Noncopy effects that have already applied to Identity Thief will continue to apply to it. For example, if Woodcutter's Grit gave Identity Thief +3/+3 and hexproof earlier in the turn, Identity Thief will still have those bonuses after copying a creature.
+  - *2016-07-13* — This effect can cause Identity Thief to become a copy of a creature that can't normally attack, such as Lupine Prototype or a creature with defender. In these cases, it remains attacking.
+  - *2016-07-13* — This effect can cause Identity Thief to stop being a creature. For example, if you target an animated Gideon Jura (a planeswalker with a loyalty ability that turns him into a creature), only the printed wording will be copied; the “becomes a creature” effect won't. Identity Thief will become a noncreature Gideon with no loyalty, be removed from combat, and then be put into its owner's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/224/identity-thief) · oracle_id `a200daec-983c-4ea6-ae98-1c963b50fbb1` · printing: NCC #224 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idle Thoughts
 
@@ -84,7 +99,9 @@
 - **Flavor text** (EVE printing):
   > *Inspiration strikes the uncluttered mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28918 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/23/idle-thoughts) · oracle_id `a2a40a19-8704-42fe-b9a6-5ae37c110303` · printing: EVE #23 (2008-07-25) · [rulings](https://api.scryfall.com/cards/797f80be-019d-4e44-a48d-43c6e52d2ab5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — You can activate the ability whether or not you have any cards in your hand. However, you’ll draw a card only if your hand is empty when the ability resolves. (This card works differently than the _Tempest_(TM) card Fool’s Tome.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/23/idle-thoughts) · oracle_id `a2a40a19-8704-42fe-b9a6-5ae37c110303` · printing: EVE #23 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idolized
 
@@ -97,7 +114,9 @@
   > *Renowned for your extensive support and goodwill, you are idolized by the community.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/17/idolized) · oracle_id `8cbf0173-2349-4205-b720-378643c347a4` · printing: PIP #17 (2024-03-08) · [rulings](https://api.scryfall.com/cards/687133cb-3754-475c-9e21-b6a33aa58bb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-03-08* — A creature attacks alone if it’s the only creature declared as an attacker during the declare attackers step (including creatures controlled by your teammates, if applicable). For example, the ability granted by Idolized won’t trigger if you attack with multiple creatures and all but one of them are removed from combat. Similarly, creatures that enter the battlefield attacking later in combat won’t be considered when determining whether or not a creature attacked alone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/17/idolized) · oracle_id `8cbf0173-2349-4205-b720-378643c347a4` · printing: PIP #17 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of Endurance
 
@@ -107,7 +126,14 @@
   > When this artifact enters, exile all creature cards with mana value 3 or less from your graveyard until this artifact leaves the battlefield.
   > {1}{W}, {T}: Until end of turn, you may cast a creature spell from among cards exiled with this artifact without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/23/idol-of-endurance) · oracle_id `6b946317-8a66-41b7-b902-308784d69b90` · printing: M21 #23 (2020-07-03) · [rulings](https://api.scryfall.com/cards/4d60e84e-be05-49da-9720-4225abe9d003/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-06-23* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2020-06-23* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-06-23* — If you cast a spell with Idol of Endurance's last ability, it becomes a new object. If it returns to exile, it's no longer exiled with Idol of Endurance, and won't be returned to your graveyard once Idol of Endurance leaves the battlefield.
+  - *2020-06-23* — If you cast a spell “without paying its mana cost,” you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2020-06-23* — The exiled cards return to your graveyard immediately after Idol of Endurance leaves the battlefield. Any cards that had left exile before then (most likely because they were cast with Idol of Endurance's second ability) remain in their current zone.
+  - *2020-06-23* — The last ability of Idol of Endurance doesn't change when you may cast those creature spells. Normally this means during your main phase while the stack is empty, but you can cast a creature spell with flash at other times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/23/idol-of-endurance) · oracle_id `6b946317-8a66-41b7-b902-308784d69b90` · printing: M21 #23 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of False Gods
 
@@ -118,7 +144,15 @@
   > Whenever another Eldrazi you control dies, put a +1/+1 counter on this artifact.
   > As long as this artifact has eight or more +1/+1 counters on it, it's a 0/0 creature in addition to its other types and it has annihilator 2.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/210/idol-of-false-gods) · oracle_id `b30d583b-e770-47e8-9f26-fca7ef43285c` · printing: MH3 #210 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d5e1ff6d-190a-497f-89c3-35e0979c93b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player sacrifices the required number of permanents of their choice before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2024-06-07* — Idol of False Gods's second ability will trigger whenever another Eldrazi you control is put into a graveyard from the battlefield, even if that Eldrazi isn't a creature.
+  - *2024-06-07* — If Idol of False Gods loses its abilities, the type-changing effect of its last ability will continue to apply to it. This is because effects that change an object's types are always applied before effects that remove abilities. In that case, if it has eight or more +1/+1 counters on it, it will be an Eldrazi kindred artifact creature. This is true even if it somehow gained its eighth +1/+1 counter after losing its abilities. If Idol of False Gods loses its abilities before gaining its eighth +1/+1 counter, it will have annihilator 2; otherwise, it won't.
+  - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+  - *2024-06-07* — In the rare case where enough -1/-1 counters are placed on Idol of False Gods to reduce its toughness to 0 or less while it's a creature because of the effect of its last ability, Idol of False Gods will be put into its owner's graveyard when state-based actions are performed. Effects that care about the number and types of counters that were on Idol of False Gods when it died will see both the +1/+1 and -1/-1 counters, and any effects that trigger "whenever a modified creature dies" will still trigger.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/210/idol-of-false-gods) · oracle_id `b30d583b-e770-47e8-9f26-fca7ef43285c` · printing: MH3 #210 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of Oblivion
 
@@ -130,7 +164,9 @@
 - **Flavor text** (TDC printing):
   > *"Arise, great one, and cleanse the world of our enemies!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/319/idol-of-oblivion) · oracle_id `c232d974-9c65-4bce-b045-e5a7cc0c62e0` · printing: TDC #319 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cbc25725-1485-4d98-abe1-906520f868d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-08-23* — You can activate Idol of Oblivion's first ability even if the token you've created was created before Idol of Oblivion entered the battlefield or if the token has left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/319/idol-of-oblivion) · oracle_id `c232d974-9c65-4bce-b045-e5a7cc0c62e0` · printing: TDC #319 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of the Deep King // Sovereign's Macuahuitl
 
@@ -145,7 +181,12 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Craft, Transform, Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20659 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/155/idol-of-the-deep-king-sovereigns-macuahuitl) · oracle_id `e7ba349e-b9c1-4373-b79f-755688138b7c` · printing: LCI #155 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d1d8d8ef-c8b2-4e7c-89e4-b381dff20584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/155/idol-of-the-deep-king-sovereigns-macuahuitl) · oracle_id `e7ba349e-b9c1-4373-b79f-755688138b7c` · printing: LCI #155 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idris, Soul of the TARDIS
 
@@ -158,7 +199,11 @@
   > Idris has all activated and triggered abilities of the exiled card and gets +X/+X, where X is the exiled card's mana value.
 - **Keywords:** Vanishing, Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20749 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/135/idris-soul-of-the-tardis) · oracle_id `abb5210f-597c-450d-9239-6253a9136680` · printing: WHO #135 (2023-10-13) · [rulings](https://api.scryfall.com/cards/d0018c07-73dc-4762-ad55-78b18f885877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities, like equip, are activated abilities and they have colons in their reminder text.
+  - *2023-10-13* — If the exiled card has an {X} in its mana cost, the value of X is 0 when determining that card's mana value.
+  - *2023-10-13* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities, such as prowess, are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/135/idris-soul-of-the-tardis) · oracle_id `abb5210f-597c-450d-9239-6253a9136680` · printing: WHO #135 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Beachfront
 
@@ -170,6 +215,7 @@
 - **Flavor text** (DMU printing):
   > *In the tradition of the original Tolarian Academy, every Tolarian campus is built near a body of water.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2237 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/249/idyllic-beachfront) · oracle_id `0aea7e5d-40d7-46c7-a8a6-479cb8061e49` · printing: DMU #249 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c50ec22c-decb-419f-ae52-78ea1706eb11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Grange
@@ -183,7 +229,10 @@
 - **Flavor text** (ELD printing):
   > *Every hero's journey starts somewhere.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4289 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/246/idyllic-grange) · oracle_id `23d349a0-e441-40b8-b634-13e61440a7c8` · printing: ELD #246 (2019-10-04) · [rulings](https://api.scryfall.com/cards/ca2c611c-3a6f-44b0-9daa-837a465845e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/246/idyllic-grange) · oracle_id `23d349a0-e441-40b8-b634-13e61440a7c8` · printing: ELD #246 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idyllic Tutor
 
@@ -194,4 +243,5 @@
 - **Flavor text** (THB printing):
   > *"You are loved, child."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #754 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/24/idyllic-tutor) · oracle_id `57c9ff89-dd30-467b-bb3e-499eeea8cb94` · printing: THB #24 (2020-01-24) · [rulings](https://api.scryfall.com/cards/f06edd53-f3ac-44b0-a087-5670ba8f0fa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

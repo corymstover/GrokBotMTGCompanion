@@ -91,7 +91,9 @@
   > When this land enters, sacrifice it unless you return an untapped Island you control to its owner's hand.
   > {T}: Add {C}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/480/coral-atoll) · oracle_id `3f347ebf-e0d2-4ae0-ad84-df7a460404e0` · printing: CMR #480 (2020-11-20) · [rulings](https://api.scryfall.com/cards/77e3ea71-ea9f-4bbf-93cb-0f6339f8a3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — This has a triggered ability when it enters, not a replacement effect, as previously worded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/480/coral-atoll) · oracle_id `3f347ebf-e0d2-4ae0-ad84-df7a460404e0` · printing: CMR #480 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Barrier
 
@@ -103,6 +105,7 @@
   > When this creature enters, create a 1/1 blue Squid creature token with islandwalk. (It can't be blocked as long as defending player controls an Island.)
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/49/coral-barrier) · oracle_id `f03474ce-b687-489f-add3-a82d77e18355` · printing: M15 #49 (2014-07-18) · [rulings](https://api.scryfall.com/cards/f34cd305-d823-4996-9f8f-806386491f5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Colony
@@ -117,7 +120,9 @@
   > *The seafloor is strewn with the wreckage of Vodalia's would-be conquerors.*
 - **Keywords:** Mill, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/45/coral-colony) · oracle_id `5e186931-992b-491c-bffc-6877a613d5c3` · printing: DMU #45 (2022-09-09) · [rulings](https://api.scryfall.com/cards/9c0e3882-1f97-48eb-b9e3-2f9683ff5897/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — The number of creatures with defender you control is counted when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/45/coral-colony) · oracle_id `5e186931-992b-491c-bffc-6877a613d5c3` · printing: DMU #45 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Commando
 
@@ -129,6 +134,7 @@
 - **Flavor text** (RNA printing):
   > *Few Ravnicans are aware of the vast reefs in their world's hidden ocean. Far beneath the great sinkholes, where the light is blue and dim, merfolk tend the coral labyrinths that feed the benthic ecosystem.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/36/coral-commando) · oracle_id `03ce2235-50d9-4f67-b588-166b9b37c664` · printing: RNA #36 (2019-01-25) · [rulings](https://api.scryfall.com/cards/889cc2a0-d9a6-4368-92e0-055a7d7bf9d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Eel
@@ -141,6 +147,7 @@
 - **Flavor text** (9ED printing):
   > *Some fishers like to eat eels, and some eels like to eat fishers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/S3/coral-eel) · oracle_id `10706fd1-7847-4316-be8d-59b56143ce45` · printing: 9ED #S3 (2005-07-29) · [rulings](https://api.scryfall.com/cards/00223901-d462-41b0-9749-b093058f682f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Fighters
@@ -151,7 +158,9 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, look at the top card of defending player's library. You may put that card on the bottom of that player's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27902 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/4/coral-fighters) · oracle_id `8a397a64-542f-43fb-bf54-27ac651e1819` · printing: DDI #4 (2012-03-30) · [rulings](https://api.scryfall.com/cards/4f6e1cf2-1c0e-4b9b-9687-dd02ac019fbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/4/coral-fighters) · oracle_id `8a397a64-542f-43fb-bf54-27ac651e1819` · printing: DDI #4 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Helm
 
@@ -160,6 +169,7 @@
 - **Oracle text:**
   > {3}, Discard a card at random: Target creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31655 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/194/coral-helm) · oracle_id `aa2970c8-f2ea-4e06-8b8f-ec89af0012a0` · printing: ME4 #194 (2011-01-10) · [rulings](https://api.scryfall.com/cards/4ac5a963-d3f3-4700-8c10-6c6974b20c24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coralhelm Chronicler
@@ -171,7 +181,16 @@
   > Whenever you cast a kicked spell, draw a card, then discard a card.
   > When this creature enters, look at the top five cards of your library. You may reveal a card with a kicker ability from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/54/coralhelm-chronicler) · oracle_id `621fc513-b16a-4c09-93f8-424e688471e2` · printing: ZNR #54 (2020-09-25) · [rulings](https://api.scryfall.com/cards/50b54524-8345-4b47-913f-d883a1cbe3a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-09-25* — "A kicker ability" includes the multikicker variant, which doesn't appear in Zendikar Rising. If you cast a spell with multikicker, the first ability will trigger only once, no matter how many times you kicked the spell.
+  - *2020-09-25* — You draw a card and discard a card while Coralhelm Chronicler's first ability is resolving. No player may take actions between those events, and nothing can happen.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/54/coralhelm-chronicler) · oracle_id `621fc513-b16a-4c09-93f8-424e688471e2` · printing: ZNR #54 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coralhelm Commander
 
@@ -189,7 +208,13 @@
   > Other Merfolk creatures you control get +1/+1.
 - **Keywords:** Flying, Level Up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11223 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/148/coralhelm-commander) · oracle_id `0ca0a186-026d-4cec-9c23-15d94e6acca9` · printing: LCC #148 (2023-11-17) · [rulings](https://api.scryfall.com/cards/46246d37-dfce-4977-854e-ee79d47cea05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-06-15* — A creature's level is based on how many level counters it has on it, not how many times its level up ability has been activated or has resolved. If a leveler gets level counters due to some other effect (such as Clockspinning) or loses level counters for some reason (such as Vampire Hexmage), its level is changed accordingly.
+  - *2010-06-15* — Effects that modify a leveler's power or toughness, such as the effects of Giant Growth or Glorious Anthem, will apply to it no matter when they started to take effect. The same is true for counters that change the creature's power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-06-15* — Effects that set a leveler's power or toughness to a specific value, including the effects from a level symbol's ability, apply in timestamp order. The timestamp of each level symbol's ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
+  - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler's printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
+  - *2010-06-15* — The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/148/coralhelm-commander) · oracle_id `0ca0a186-026d-4cec-9c23-15d94e6acca9` · printing: LCC #148 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coralhelm Guide
 
@@ -202,7 +227,9 @@
   > *"She knows every step of this coastline, both above and below the surface, and she has hideouts all along the way. She will get you there."*
   > *—Jori En, expedition leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/116/coralhelm-guide) · oracle_id `979e670e-bbd8-4595-8d9d-ad1c0bc422e3` · printing: BBD #116 (2018-06-08) · [rulings](https://api.scryfall.com/cards/0389a652-4ca8-45ab-ab3f-624c8f2626f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — Activating Coralhelm Guide's ability after a creature has become blocked won't cause that creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/116/coralhelm-guide) · oracle_id `979e670e-bbd8-4595-8d9d-ad1c0bc422e3` · printing: BBD #116 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Merfolk
 
@@ -214,6 +241,7 @@
 - **Flavor text** (M20 printing):
   > *The merfolk know every contour of their coral homes; each reef is a garden in times of peace, and a refuge and fortress in times of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27978 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/315/coral-merfolk) · oracle_id `4ed27607-21a8-4bc3-997e-6d2242313f6d` · printing: M20 #315 (2019-07-12) · [rulings](https://api.scryfall.com/cards/97a74ccf-8165-4db1-a87c-52c2d8ea0058/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Net
@@ -225,6 +253,7 @@
   > Enchanted creature has "At the beginning of your upkeep, sacrifice this creature unless you discard a card."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29565 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/35/coral-net) · oracle_id `20b8911e-6701-485c-ac62-2b3cc79ec288` · printing: TOR #35 (2002-02-04) · [rulings](https://api.scryfall.com/cards/abe9cf1e-d398-41e0-8b11-afe1015e4fd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Reef
@@ -236,6 +265,7 @@
   > Sacrifice an Island: Put two polyp counters on this enchantment.
   > {U}, Tap an untapped blue creature you control, Remove a polyp counter from this enchantment: Put a +0/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27956 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/24/coral-reef) · oracle_id `37a40a53-2668-4521-a786-c5747eedeeb2` · printing: HML #24 (1995-10-01) · [rulings](https://api.scryfall.com/cards/42fe2280-a996-4072-b5bf-f4fd56607a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Sword
@@ -249,6 +279,7 @@
   > Equip {1}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14262 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/134/coral-sword) · oracle_id `d4f0dd14-bc2a-4c6d-bfd5-bc5838ab18a5` · printing: FIN #134 (2025-06-13) · [rulings](https://api.scryfall.com/cards/13e81e32-7246-46b9-872e-cde77cedd197/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coral Trickster
@@ -263,6 +294,7 @@
   > *They wait in darkened depths, laughing eagerly.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22830 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/58/coral-trickster) · oracle_id `11a163cc-ade3-4b55-b50e-3b3bf7e1962c` · printing: TSR #58 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b8eacbc6-362e-4257-b29f-78682f4130c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coram, the Undertaker
@@ -276,7 +308,15 @@
   > During each of your turns, you may play a land and cast a spell from among cards in graveyards that were put there from libraries this turn.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7470 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/7/coram-the-undertaker) · oracle_id `51c511c0-783a-456d-a7e2-959f6e8ddfc8` · printing: M3C #7 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ab5cfb0c-8e95-4d2d-9e23-cf58c1c7e51c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Coram's first ability applies only while it is on the battlefield. In all other zones, its power is 0.
+  - *2024-06-07* — If it's your turn, you control Coram, and another player has permission to play a card in a graveyard that was put there from a library this turn (perhaps because it's an instant card they own that has flashback), whoever gets priority sooner will have the first chance to play that card. In most cases, this will be you, since the active player receives priority after a spell or ability resolves.
+  - *2024-06-07* — If you play a land or cast a spell from a graveyard using another permission, it won't stop you from using Coram's permission to do the same thing later in the turn, provided you haven't already done so.
+  - *2024-06-07* — If you play a land, cast a spell, or both using the permission granted by Coram's last ability and then have a new Coram come under your control in the same turn, you can still play a land, cast a spell, or both using the new Coram's permission.
+  - *2024-06-07* — Once you begin to cast a spell this way, losing control of Coram won't affect it. You can finish casting it as normal.
+  - *2024-06-07* — The value of X will change as the greatest power among creature cards in all graveyards changes.
+  - *2024-06-07* — You pay all costs and follow all timing rules for lands played and spells cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/7/coram-the-undertaker) · oracle_id `51c511c0-783a-456d-a7e2-959f6e8ddfc8` · printing: M3C #7 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cordial Vampire
 
@@ -288,7 +328,10 @@
 - **Flavor text** (LCC printing):
   > *"Please, come in! Hors d'oeuvres are on the table."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/189/cordial-vampire) · oracle_id `d61fb9e8-d05a-481a-a90f-5def300c9abb` · printing: LCC #189 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0d91e61d-e3bf-4ddc-9f01-18b1abe35a61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If Cordial Vampire dies at the same time as one or more other creatures, its ability triggers for each of them.
+  - *2019-06-14* — If a Vampire you control is dealt lethal damage at the same time as another creature, they die at the same time. That Vampire can't receive a counter from Cordial Vampire's ability in time to save it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/189/cordial-vampire) · oracle_id `d61fb9e8-d05a-481a-a90f-5def300c9abb` · printing: LCC #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Core Prowler
 
@@ -300,7 +343,14 @@
   > When this creature dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate, Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/103/core-prowler) · oracle_id `0ad44727-41c3-471c-b038-1bf43c5f296a` · printing: MBS #103 (2011-02-04) · [rulings](https://api.scryfall.com/cards/05414ba7-0f59-4c73-931c-e599d149d3ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/103/core-prowler) · oracle_id `0ad44727-41c3-471c-b038-1bf43c5f296a` · printing: MBS #103 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coretapper
 
@@ -313,6 +363,7 @@
 - **Flavor text** (EOC printing):
   > *It converts the faintest surges of power from Mirrodin's core into usable energy, providing endless power for Memnarch's creations on the surface.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5593 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/132/coretapper) · oracle_id `66e37011-f3d2-41ed-8e09-7bba9464e8c3` · printing: EOC #132 (2025-08-01) · [rulings](https://api.scryfall.com/cards/00d9dd37-aad3-46bd-ac9b-140974c8dcaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cori Mountain Monastery
@@ -326,7 +377,10 @@
 - **Flavor text** (TDM printing):
   > *Every spire is a physical dedication to the Way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/252/cori-mountain-monastery) · oracle_id `35c60b66-8c85-432e-90fe-99c19d21ed15` · printing: TDM #252 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9312821a-2059-4f44-9b20-c9522b827e38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — You must already control a Plains or Island as Cori Mountain Monastery enters for it to enter untapped. If it enters at the same time as a Plains or Island when you control no other Plains or Islands, it will enter tapped.
+  - *2025-04-04* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/252/cori-mountain-monastery) · oracle_id `35c60b66-8c85-432e-90fe-99c19d21ed15` · printing: TDM #252 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cori Mountain Stalwart
 
@@ -339,7 +393,9 @@
   > *Zhao had resolved to hold the bridge, defending the village behind him. But the villagers decided Zhao would not stand alone.*
 - **Keywords:** Flurry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/175/cori-mountain-stalwart) · oracle_id `322a2d97-cf71-4bfc-b52d-f642f2d0dcbd` · printing: TDM #175 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b6cbf54e-f30e-4e7b-b17c-217fa424971c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/175/cori-mountain-stalwart) · oracle_id `322a2d97-cf71-4bfc-b52d-f642f2d0dcbd` · printing: TDM #175 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cori-Steel Cutter
 
@@ -351,7 +407,12 @@
   > Equip {1}{R}
 - **Keywords:** Flurry, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4180 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/103/cori-steel-cutter) · oracle_id `46b1a169-bc32-47bf-b379-fa0c3d13878f` · printing: TDM #103 (2025-04-11) · [rulings](https://api.scryfall.com/cards/490eb213-9ae2-4b45-abec-6f1dfc83792a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — If the triggered ability causes two or more Monks to be created (due to an effect such as that of Doubling Season), you may choose to attach Cori-Steel Cutter to one of them.
+  - *2025-04-04* — No player may take any actions between the time you create the Monk token and the time you choose whether to attach Cori-Steel Cutter to it.
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+  - *2025-04-04* — The Monk token that you create enters the battlefield as a 1/1 creature. Any abilities that trigger when a creature with a certain power enters the battlefield will see the token enter as a 1/1 creature. Static abilities that affect the Monk’s power and toughness may change this.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/103/cori-steel-cutter) · oracle_id `46b1a169-bc32-47bf-b379-fa0c3d13878f` · printing: TDM #103 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cormela, Glamour Thief
 
@@ -366,6 +427,7 @@
   > *She sees the world as a gift meant for her.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6389 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/177/cormela-glamour-thief) · oracle_id `3cd9bac9-0abc-43d8-9f84-94f965f7a2e0` · printing: SNC #177 (2022-04-29) · [rulings](https://api.scryfall.com/cards/221ac34a-94ed-4c49-afad-b19cac541731/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cornered by Black Mages
@@ -379,7 +441,9 @@
   > *"Kuja called them black mages, dark spawn of the mist."*
   > *—The Soulcage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3005 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/93/cornered-by-black-mages) · oracle_id `68a58e0b-1506-492e-8ca3-016e520c10ba` · printing: FIN #93 (2025-06-13) · [rulings](https://api.scryfall.com/cards/688fcf8a-0a44-416a-8086-83acf9a6fe69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/93/cornered-by-black-mages) · oracle_id `68a58e0b-1506-492e-8ca3-016e520c10ba` · printing: FIN #93 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cornered Crook
 
@@ -391,7 +455,9 @@
 - **Flavor text** (MKM printing):
   > *Monax knew attacking the detective was a reckless move, but he was at the end of his rope.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/120/cornered-crook) · oracle_id `4477eeab-a51a-4dc2-9c97-83f2551d8b54` · printing: MKM #120 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a3aff1ea-1d25-49c3-a2d9-f435124a5969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — You don't choose a target for Cornered Crook's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice an artifact this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/120/cornered-crook) · oracle_id `4477eeab-a51a-4dc2-9c97-83f2551d8b54` · printing: MKM #120 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cornered Market
 
@@ -404,7 +470,10 @@
   > *Don't step on the livelihood of other vendors, or they may step on you.*
   > *—Mercadian saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27247 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/14/cornered-market) · oracle_id `1784bbaa-67b1-4bd1-bf77-53da2bfbf7fc` · printing: MMQ #14 (1999-10-04) · [rulings](https://api.scryfall.com/cards/0d4f3c1d-d25e-4263-ab2b-19534c852678/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Cornered Market does not prevent effects which put a card onto the battlefield. It only stops people from casting.
+  - *2004-10-04* — This card only looks at permanents, not spells on the stack. So it is possible to cast two instances of a spell onto the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/14/cornered-market) · oracle_id `1784bbaa-67b1-4bd1-bf77-53da2bfbf7fc` · printing: MMQ #14 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coronation of Chaos
 
@@ -416,6 +485,7 @@
   > *When Sarevok's deception was unmasked, the cheering crowd erupted into an outraged mob.*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/168/coronation-of-chaos) · oracle_id `46f1618d-9c95-4a4b-9a20-7c378b811849` · printing: CLB #168 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8647092a-9d09-42cb-bcda-4e5e7a6c8a1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corporeal Projection
@@ -427,7 +497,23 @@
   > Overload {3}{U}{U}{R}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/28/corporeal-projection) · oracle_id `09038989-3c1f-4426-a150-e0a9374f34c3` · printing: CLU #28 (2024-02-23) · [rulings](https://api.scryfall.com/cards/79611fce-ff17-4de6-8f54-8f3faced9322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-02-02* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger, including the myriad ability of the tokens. If there are any costs to have a creature attack, those costs won't apply to the tokens.
+  - *2024-02-02* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the copied creature will also work.
+  - *2024-02-02* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-02-02* — Casting a spell with overload doesn't change that spell's mana cost. You just pay the overload cost instead.
+  - *2024-02-02* — Each token copies exactly what was printed on the original creature and nothing else. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-02-02* — Effects that cause you to pay more or less for a spell will cause you to pay that much more or less while casting it for its overload cost, too.
+  - *2024-02-02* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it's attacking the player or a planeswalker they control.
+  - *2024-02-02* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2024-02-02* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-02-02* — If you don't pay the overload cost of a spell, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-02-02* — Overload doesn't change when you can cast the spell.
+  - *2024-02-02* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat, or the protector of the battle this creature was attacking at the time it became an attacking creature this combat.
+  - *2024-02-02* — The token creatures all enter the battlefield at the same time.
+  - *2024-02-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2024-02-02* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/28/corporeal-projection) · oracle_id `09038989-3c1f-4426-a150-e0a9374f34c3` · printing: CLU #28 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Appraiser
 
@@ -439,6 +525,7 @@
 - **Flavor text** (SNC printing):
   > *"Scarcely a mark. A true work of art!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/178/corpse-appraiser) · oracle_id `bd3cdd9b-aa67-4bf5-80c8-53574d2c221e` · printing: SNC #178 (2022-04-29) · [rulings](https://api.scryfall.com/cards/e0f254bb-ec77-4147-ab9c-559bc7fba8cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Augur
@@ -451,7 +538,9 @@
 - **Flavor text** (CMM printing):
   > *Even when the flesh grows cold, knowledge waits in the bones for a master to release it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/145/corpse-augur) · oracle_id `06eb43af-637a-4f73-8071-a7036d4c8c3d` · printing: CMM #145 (2023-08-04) · [rulings](https://api.scryfall.com/cards/14fc0dfb-663a-4713-902e-96dbecc404b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-11-04* — You choose the target player as the ability goes on the stack, but you determine the value of X as that ability resolves. If you target yourself and Corpse Augur is still in the graveyard, its ability will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/145/corpse-augur) · oracle_id `06eb43af-637a-4f73-8071-a7036d4c8c3d` · printing: CMM #145 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpseberry Cultivator
 
@@ -465,7 +554,11 @@
   > *A rare fruit grows from the corpses of Calamity Beasts, with nectar the flavor of strength and skin as fragile as life.*
 - **Keywords:** Forage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12450 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/210/corpseberry-cultivator) · oracle_id `5ded56df-c7d5-4043-85df-410f47219faa` · printing: BLB #210 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c911a759-ed7b-452b-88a3-663478357610/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/210/corpseberry-cultivator) · oracle_id `5ded56df-c7d5-4043-85df-410f47219faa` · printing: BLB #210 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Blockade
 
@@ -479,6 +572,7 @@
   > *There are laws against it, but the dead have no one to complain to and the living are too frightened to investigate.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20036 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/60/corpse-blockade) · oracle_id `5cb2e859-7737-4b25-a6be-b72e7b5bfada` · printing: GTC #60 (2013-02-01) · [rulings](https://api.scryfall.com/cards/84234e51-e5d6-43d9-89d0-f0398fc6b7fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Churn
@@ -491,7 +585,9 @@
   > *"How did we find each other? So there I was, exploring a mound of monster corpses..."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7345 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/107/corpse-churn) · oracle_id `e2aeac0b-af74-4c47-9ac1-51fbf869c95f` · printing: CLU #107 (2024-02-23) · [rulings](https://api.scryfall.com/cards/c151c2e9-a7d1-42ee-a68c-885df78db53e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Because Corpse Churn doesn't target the creature card in your graveyard, you may choose one of the three cards you put there from your library if applicable.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/107/corpse-churn) · oracle_id `e2aeac0b-af74-4c47-9ac1-51fbf869c95f` · printing: CLU #107 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Cobble
 
@@ -503,7 +599,16 @@
   > Flashback {3}{U}{B} (You may cast this card from your graveyard for its flashback cost and any additional costs. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/214/corpse-cobble) · oracle_id `5b0b6c8f-472a-4ee2-8368-3b17a2df498d` · printing: MID #214 (2021-09-24) · [rulings](https://api.scryfall.com/cards/dfe4f48d-179a-47d7-aed6-9751dd2f7d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-09-24* — If you cast Corpse Cobble using flashback, you still pay its additional cost of sacrificing any number of creatures.
+  - *2021-09-24* — You may choose to sacrifice no creatures to pay the additional cost. If you do, you'll create a 0/0 Zombie token. Unless something else is raising its toughness, the token will subsequently die, but any "enters the battlefield" or "dies" triggered abilities will still trigger.
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/214/corpse-cobble) · oracle_id `5b0b6c8f-472a-4ee2-8368-3b17a2df498d` · printing: MID #214 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Connoisseur
 
@@ -515,7 +620,13 @@
   > Unearth {3}{B} ({3}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/61/corpse-connoisseur) · oracle_id `f39e2611-c837-4ad7-b3a8-1ee48b74777c` · printing: MM3 #61 (2017-03-17) · [rulings](https://api.scryfall.com/cards/3f4ef04b-5434-480e-82a1-118ed1ff551f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Activating a creature card’s unearth ability isn’t the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Remove Soul) will not.
+  - *2008-10-01* — At the beginning of the end step, a creature returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Stifle or Voidslime that counter triggered abilities. If the ability is countered, the creature will stay on the battlefield and the delayed trigger won’t trigger again. However, the replacement effect will still exile the creature when it eventually leaves the battlefield.
+  - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it’s exiled instead — unless the spell or ability that’s causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2008-10-01* — If you activate a card’s unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2008-10-01* — Unearth grants haste to the creature that’s returned to the battlefield. However, neither of the “exile” abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/61/corpse-connoisseur) · oracle_id `f39e2611-c837-4ad7-b3a8-1ee48b74777c` · printing: MM3 #61 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Cur
 
@@ -527,7 +638,14 @@
   > When this creature enters, you may return target creature card with infect from your graveyard to your hand.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/147/corpse-cur) · oracle_id `8f59e4d9-67ba-4dc6-ae3e-183e63673318` · printing: SOM #147 (2010-10-01) · [rulings](https://api.scryfall.com/cards/9c6e19a1-b9ea-4724-96d6-63c4b4967257/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
+  - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/147/corpse-cur) · oracle_id `8f59e4d9-67ba-4dc6-ae3e-183e63673318` · printing: SOM #147 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Dance
 
@@ -538,7 +656,10 @@
   > Return the top creature card of your graveyard to the battlefield. That creature gains haste until end of turn. Exile it at the beginning of the next end step.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11441 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/89/corpse-dance) · oracle_id `59b02ca7-e7bd-4820-ac32-87ea1a8c64c0` · printing: TPR #89 (2015-05-06) · [rulings](https://api.scryfall.com/cards/aaed9b00-f6a1-4023-b9b9-22d904fe5271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Corpse Dance only exiles the card if the card is still on the battlefield at the beginning of the end step.
+  - *2008-04-01* — The effect only grants Haste until the end of the current turn. If the creature somehow manages to stick around until a later turn, it will no longer have Haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/89/corpse-dance) · oracle_id `59b02ca7-e7bd-4820-ac32-87ea1a8c64c0` · printing: TPR #89 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Explosion
 
@@ -551,7 +672,10 @@
   > *"Well, that's one way to scatter her ashes."*
   > *—Calvey, funeral director*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/179/corpse-explosion) · oracle_id `ab715312-0103-4681-b559-520026abd350` · printing: SNC #179 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c700eff3-138b-4d4c-ba36-58b98986168c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — Once you have begun to cast Corpse Explosion, there is no point at which players can respond by removing cards from your graveyard to prevent you from being able to pay for it with a specific creature card.
+  - *2022-04-29* — Use the card's power as it last existed in the graveyard to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/179/corpse-explosion) · oracle_id `ab715312-0103-4681-b559-520026abd350` · printing: SNC #179 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Harvester
 
@@ -561,7 +685,9 @@
 - **Oracle text:**
   > {1}{B}, {T}, Sacrifice a creature: Search your library for a Zombie card and a Swamp card, reveal them, put them into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/22/corpse-harvester) · oracle_id `f02ad6fa-7a82-471a-979e-0bb9ba866ef6` · printing: HOP #22 (2009-09-04) · [rulings](https://api.scryfall.com/cards/39cc7fbb-010f-4e7c-b3bf-8853e54bc1b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not have to find a Zombie card or swamp card if you do not want to, even if you have them in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/22/corpse-harvester) · oracle_id `f02ad6fa-7a82-471a-979e-0bb9ba866ef6` · printing: HOP #22 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpsehatch
 
@@ -570,6 +696,7 @@
 - **Oracle text:**
   > Destroy target nonblack creature. Create two 0/1 colorless Eldrazi Spawn creature tokens. They have "Sacrifice this token: Add {C}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddp/50/corpsehatch) · oracle_id `5a6c9376-313b-4420-890e-5aa78fa6382f` · printing: DDP #50 (2015-08-28) · [rulings](https://api.scryfall.com/cards/0f8f9dc0-67c3-4ded-bf95-02452d4ee635/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Hauler
@@ -583,6 +710,7 @@
   > *"He expects a reward, but the only piece of silver he'll get from me is my blade in his gut."*
   > *—Shelac, necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23151 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/219/corpse-hauler) · oracle_id `c2ba1c3b-08c7-4835-81f4-2f98843fb7b8` · printing: JMP #219 (2020-07-17) · [rulings](https://api.scryfall.com/cards/11f7bdf8-505e-4ed2-8a3b-aba263afd196/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpsejack Menace
@@ -595,7 +723,10 @@
 - **Flavor text** (CM2 printing):
   > *Weakness is not in the nature of the Swarm.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1569 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/152/corpsejack-menace) · oracle_id `ca0cc02b-b106-4eca-9388-d4b48dd3be49` · printing: CM2 #152 (2018-06-08) · [rulings](https://api.scryfall.com/cards/29538ff4-e28f-44d9-af23-6796edd56268/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with twice that many instead.
+  - *2017-11-17* — If you control two Corpsejack Menaces, the number of +1/+1 counters put on a creature is four times the original number. Three Corpsejack Menaces multiplies the original number by eight, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/152/corpsejack-menace) · oracle_id `ca0cc02b-b106-4eca-9388-d4b48dd3be49` · printing: CM2 #152 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Knight
 
@@ -608,7 +739,9 @@
   > *"With each knight that rode out from the bone-white keep, the queen's soldiers felt their courage failing."*
   > *—Krinnea, \*Siege of the Bone Spire\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/321/corpse-knight) · oracle_id `0c77b805-728d-4ae4-88a9-223f4b7b52e0` · printing: MOC #321 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7aa3f166-c5d1-40f0-9b23-352424b8e13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — In a Two-Headed Giant game, Corpse Knight's ability causes the opposing team to lose 1 life twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/321/corpse-knight) · oracle_id `0c77b805-728d-4ae4-88a9-223f4b7b52e0` · printing: MOC #321 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Lunge
 
@@ -618,7 +751,10 @@
   > As an additional cost to cast this spell, exile a creature card from your graveyard.
   > Corpse Lunge deals damage equal to the exiled card's power to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/93/corpse-lunge) · oracle_id `1392cfbc-ea8a-4eb3-8680-ddd12a3bbb6d` · printing: ISD #93 (2011-09-30) · [rulings](https://api.scryfall.com/cards/2a74b987-527a-4560-a018-19d6bdf7e8b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to otherwise remove the creature card you exiled in order to prevent you from casting this spell.
+  - *2013-04-15* — You must exile exactly one creature card from your graveyard to cast this spell; you cannot cast it without exiling a creature card, and you cannot exile additional creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/93/corpse-lunge) · oracle_id `1392cfbc-ea8a-4eb3-8680-ddd12a3bbb6d` · printing: ISD #93 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpses of the Lost
 
@@ -629,7 +765,15 @@
   > When this enchantment enters, create a 2/2 black Skeleton Pirate creature token.
   > At the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return this enchantment to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/98/corpses-of-the-lost) · oracle_id `78bac92f-333f-4c43-bccf-03c3772ee99b` · printing: LCI #98 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5f661095-3645-4e44-ac39-752e417c2174/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — A permanent card is an artifact, battle, creature, enchantment, land, or planeswalker card. Tokens are not cards, and while tokens are put into the graveyard before ceasing to exist, that action doesn't count as a player having descended.
+  - *2023-11-10* — Abilities that begin with "At the beginning of your end step, if you descended this turn" will trigger only once during your end step, no matter how many times you descended this turn. However, if you haven't descended this turn as your end step begins, the ability won't trigger at all. It's not possible to put a permanent card into your graveyard during the end step in time to have the ability trigger.
+  - *2023-11-10* — In either case, it doesn't matter if those cards are still in that player's graveyard.
+  - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
+  - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+  - *2023-11-10* — You decide to pay 1 life as the last ability is resolving. If you decide to pay 1 life and Corpses of the Lost is still on the battlefield, it will immediately return to its owner's hand. No player may take any actions in between you deciding to pay life and it returning this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/98/corpses-of-the-lost) · oracle_id `78bac92f-333f-4c43-bccf-03c3772ee99b` · printing: LCI #98 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpse Traders
 
@@ -641,7 +785,10 @@
 - **Flavor text** (JMP printing):
   > *Those without breath can't complain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/220/corpse-traders) · oracle_id `e94297af-1236-4c9a-860f-2ee6a0d12e5e` · printing: JMP #220 (2020-07-17) · [rulings](https://api.scryfall.com/cards/4cd6d782-ce5a-4994-8310-34faf9c41de2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — You can sacrifice Corpse Traders to pay the cost of its ability.
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/220/corpse-traders) · oracle_id `e94297af-1236-4c9a-860f-2ee6a0d12e5e` · printing: JMP #220 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpseweft
 
@@ -652,7 +799,10 @@
 - **Flavor text** (DTK printing):
   > *Sidisi hated to limit her options.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/92/corpseweft) · oracle_id `9ffb5615-124e-4848-9e0d-120851bd50e5` · printing: DTK #92 (2015-03-27) · [rulings](https://api.scryfall.com/cards/25cf24e7-2e6e-46e0-aedd-89e17953811c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Because exiling the creature cards from your graveyard is part of the activation cost, no player can respond to stop you from activating the ability by moving creature cards out of your graveyard.
+  - *2015-02-25* — “Exiled this way” refers to that activation of the ability, not any creature cards that have been previously exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/92/corpseweft) · oracle_id `9ffb5615-124e-4848-9e0d-120851bd50e5` · printing: DTK #92 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corpulent Corpse
 
@@ -664,7 +814,22 @@
   > Suspend 5—{B} (Rather than cast this card from your hand, you may pay {B} and exile it with five time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Suspend, Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/104/corpulent-corpse) · oracle_id `b3a84b75-a6a2-4521-a9f1-92596796c703` · printing: TSR #104 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c8680e7c-f180-45b9-9af6-a8e93037b851/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/104/corpulent-corpse) · oracle_id `b3a84b75-a6a2-4521-a9f1-92596796c703` · printing: TSR #104 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corridor Monitor
 
@@ -676,6 +841,7 @@
 - **Flavor text** (2XM printing):
   > *Castle Vantress has no locks on its doors, but interlopers rarely make it past the foyer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9072 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/46/corridor-monitor) · oracle_id `07b6ee55-a77e-4ba7-9ab7-8a8375c7acc9` · printing: 2XM #46 (2020-08-07) · [rulings](https://api.scryfall.com/cards/df3f6598-18a7-472d-8d05-715203379089/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corroding Dragonstorm
@@ -687,6 +853,7 @@
   > When a Dragon you control enters, return this enchantment to its owner's hand.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10682 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/75/corroding-dragonstorm) · oracle_id `4c55ca3b-1254-4d44-96ac-1e1cadaf49f5` · printing: TDM #75 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e2a2d395-26d6-4eb2-9e8c-ed7dbbd3a8f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrosion
@@ -699,7 +866,11 @@
   > When this enchantment leaves the battlefield, remove all rust counters from all permanents.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27257 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/128/corrosion) · oracle_id `3d3fd8a2-78d4-4f52-8fcd-0c6fa93f0043` · printing: VIS #128 (1997-02-03) · [rulings](https://api.scryfall.com/cards/176122b2-f60f-4150-8c0c-757c8f8914d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — In multiplayer games, you can choose a new target player each upkeep.
+  - *2004-10-04* — It does count rust counters put on artifacts by other Corrosion cards. This means that having more than one of these can result in fast destruction of artifacts.
+  - *2006-02-01* — Only puts rust counters on artifacts your opponents control, but destroys all artifacts with rust counters on them, even your own. When it leaves the battlefield, it removes all rust counters, not just those that happen to be on artifacts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/128/corrosion) · oracle_id `3d3fd8a2-78d4-4f52-8fcd-0c6fa93f0043` · printing: VIS #128 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrosive Gale
 
@@ -712,7 +883,13 @@
   > *"Wipe Sheoldred's spies from the sky. She'll see the result of our vision soon enough."*
   > *—Glissa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24156 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/107/corrosive-gale) · oracle_id `6143073f-4110-4a37-bc0c-89fbda2fc839` · printing: NPH #107 (2011-05-13) · [rulings](https://api.scryfall.com/cards/04a13825-ab9b-4ffd-9b59-6198181891b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-06-01* — A card with Phyrexian mana symbols in its mana cost is each color that appears in that mana cost, regardless of how that cost may have been paid.
+  - *2011-06-01* — As you cast a spell or activate an activated ability with one or more Phyrexian mana symbols in its cost, you choose how to pay for each Phyrexian mana symbol at the same time you would choose modes or choose a value for X.
+  - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
+  - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
+  - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/107/corrosive-gale) · oracle_id `6143073f-4110-4a37-bc0c-89fbda2fc839` · printing: NPH #107 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrosive Mentor
 
@@ -724,6 +901,7 @@
 - **Flavor text** (SHM printing):
   > *Guttering cinders stoke their dying flames by snuffing out the lights of others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10324 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/61/corrosive-mentor) · oracle_id `380a1fbf-68bc-4456-9a67-f01c0174944c` · printing: SHM #61 (2008-05-02) · [rulings](https://api.scryfall.com/cards/140457ff-ee7d-48ec-8b91-ef5c2cc1ed74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrosive Ooze
@@ -736,7 +914,10 @@
 - **Flavor text** (DOM printing):
   > *Nothing tastes finer to an ooze than a priceless family heirloom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15513 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/158/corrosive-ooze) · oracle_id `416cca4a-b1b2-49d5-9cac-ec347056bdb0` · printing: DOM #158 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d13deb9c-5985-4355-8716-ee1c7b54b8e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — If the creature Corrosive Ooze blocks or is blocking leaves the battlefield, the Equipment that was attached to that creature immediately before it left the battlefield will be destroyed as Corrosive Ooze’s delayed triggered ability resolves at the end of combat.
+  - *2018-04-27* — The set of Equipment to be destroyed is determined only as Corrosive Ooze’s delayed triggered ability resolves at the end of combat. The Equipment will be destroyed even if Corrosive Ooze leaves the battlefield before that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/158/corrosive-ooze) · oracle_id `416cca4a-b1b2-49d5-9cac-ec347056bdb0` · printing: DOM #158 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupt
 
@@ -747,7 +928,13 @@
 - **Flavor text** (BRO printing):
   > *"Most wise, most thoughtful, most powerful qadir," said the Gixian, "we offer whatever help we may give in your illustrious name."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/88/corrupt) · oracle_id `a88a1c53-7de3-423a-a95a-24ed5666ab96` · printing: BRO #88 (2022-11-18) · [rulings](https://api.scryfall.com/cards/c92ea561-80da-4fe1-ad87-ce47d9eb80bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — The swamps are counted on resolution.
+  - *2010-08-15* — The amount of damage dealt to a creature is not bounded by its toughness, and the amount of damage dealt to a player is not bounded by that player's life total. For example, if Corrupt deals 6 damage to a 2/2 creature, you'll gain 6 life.
+  - *2010-08-15* — The life you gain is equal to the damage dealt by Corrupt, not necessarily to the number of Swamps you control (if some or all of the damage is prevented, for example).
+  - *2013-07-01* — Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp.
+  - *2022-10-14* — Corrupt counts any land you control with the subtype Swamp, not just ones named Swamp.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/88/corrupt) · oracle_id `a88a1c53-7de3-423a-a95a-24ed5666ab96` · printing: BRO #88 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupt Court Official
 
@@ -759,6 +946,7 @@
 - **Flavor text** (TLA printing):
   > *"Bring out the Wheel of Punishment!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15950 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/92/corrupt-court-official) · oracle_id `ec84201d-757f-4a7a-b3a2-85ccd5ee81ae` · printing: TLA #92 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4692610e-d64c-438e-b5ad-0cf67fd57f1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Conscience
@@ -773,7 +961,9 @@
   > *Karn's creation is now his master.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/22/corrupted-conscience) · oracle_id `c645fab4-51ac-440c-b112-57777c8f4676` · printing: MBS #22 (2011-02-04) · [rulings](https://api.scryfall.com/cards/7276c584-76ed-4c20-a5ea-627c8f7751e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Multiple instances of infect on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/22/corrupted-conscience) · oracle_id `c645fab4-51ac-440c-b112-57777c8f4676` · printing: MBS #22 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Conviction
 
@@ -785,7 +975,10 @@
 - **Flavor text** (OTJ printing):
   > *Every moving carriage is an accident waiting to happen, and the Hellspurs hate waiting.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #601 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/84/corrupted-conviction) · oracle_id `b45e35df-9032-4482-89a6-c7c50c6d0a79` · printing: OTJ #84 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8046f892-3317-4ef7-9cf7-97b9060540c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — Players can't respond to this spell until it's been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.
+  - *2023-04-14* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/84/corrupted-conviction) · oracle_id `b45e35df-9032-4482-89a6-c7c50c6d0a79` · printing: OTJ #84 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Crossroads
 
@@ -798,7 +991,9 @@
   > *"Look, and see the future."*
   > *—Ayli, high priest of the Eternal Pilgrims*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/169/corrupted-crossroads) · oracle_id `6276a985-7630-476d-a94f-6c6adc88f6c4` · printing: OGW #169 (2016-01-22) · [rulings](https://api.scryfall.com/cards/7043e193-8051-4f1b-9633-9c1f250d3607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — The mana produced by the last ability can’t be spent on a colorless spell unless that spell specifically has the devoid ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/169/corrupted-crossroads) · oracle_id `6276a985-7630-476d-a94f-6c6adc88f6c4` · printing: OGW #169 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Grafstone
 
@@ -810,7 +1005,10 @@
 - **Flavor text** (SOI printing):
   > *It is all too easy to disturb the Blessed Sleep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/253/corrupted-grafstone) · oracle_id `4c702b96-3288-435d-9154-5b7454419896` · printing: SOI #253 (2016-04-08) · [rulings](https://api.scryfall.com/cards/1ffa34cc-4042-4d2b-a7a0-eca0b593eeb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — Colorless cards have no color, so you can't add {C} this way.
+  - *2016-04-08* — Players can't respond to mana abilities, so no player can take any action to stop you from getting the color of mana you expect to produce once you announce the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/253/corrupted-grafstone) · oracle_id `4c702b96-3288-435d-9154-5b7454419896` · printing: SOI #253 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Harvester
 
@@ -824,7 +1022,9 @@
   > *—Sheoldred, Whispering One*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30022 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/59/corrupted-harvester) · oracle_id `f105ccdd-65bc-4880-bbfe-f57fc0e060ea` · printing: SOM #59 (2010-10-01) · [rulings](https://api.scryfall.com/cards/b54625ac-484f-4522-8048-38e01c545ac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — You may sacrifice Corrupted Harvester to pay for its own regeneration ability. If you do, however, it won’t regenerate. It’ll just end up in its owner’s graveyard as a result of the sacrifice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/59/corrupted-harvester) · oracle_id `f105ccdd-65bc-4880-bbfe-f57fc0e060ea` · printing: SOM #59 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Key
 
@@ -833,7 +1033,10 @@
 - **Oracle text:**
   > As long as Corrupted Key is tapped, creatures you control have menace and deathtouch.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/39/corrupted-key) · oracle_id `9f5b9547-a1e7-4348-a3e8-860c2db264cc` · printing: CMB2 #39 (2021-08-20) · [rulings](https://api.scryfall.com/cards/2ef92453-8a3e-456b-b2e7-f05d3807cd9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-11-12* — Corrupted Key’s ability doesn’t allow you to tap it whenever you wish. You’ll need another card to turn the key.
+  - *2019-11-12* — Key is an artifact subtype. It has no rules meaning or function by itself, but other cards and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/39/corrupted-key) · oracle_id `9f5b9547-a1e7-4348-a3e8-860c2db264cc` · printing: CMB2 #39 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Resolve
 
@@ -845,7 +1048,9 @@
   > *"Flesh is a sickness that infects Phyrexia."*
   > *—Avaricta, Gitaxian sective*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13918 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/32/corrupted-resolve) · oracle_id `87837a94-05db-48fe-b810-26d8f92cfc58` · printing: NPH #32 (2011-05-13) · [rulings](https://api.scryfall.com/cards/28432161-023b-4a98-b92a-55dc6d936cd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — A player is poisoned if that player has one or more poison counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/32/corrupted-resolve) · oracle_id `87837a94-05db-48fe-b810-26d8f92cfc58` · printing: NPH #32 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Roots
 
@@ -858,7 +1063,10 @@
   > *The bones of Jund's dead resurfaced in Naya, poisoning the jungle and killing the sunseeders' crops.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/41/corrupted-roots) · oracle_id `0c6f343a-0088-477a-a6b5-256783ad0c27` · printing: CON #41 (2009-02-06) · [rulings](https://api.scryfall.com/cards/c8a7fe66-db40-4eca-8953-0eb2cf98e4e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — Corrupted Roots can enchant only a Forest or a Plains. It checks the enchanted land’s subtypes, not its name. If at any time the enchanted land is neither a Forest nor a Plains (due to Unstable Frontier’s ability, perhaps), Corrupted Roots is put into its owner’s graveyard as a state-based action.
+  - *2009-02-01* — Corrupted Roots doesn’t care why the enchanted land becomes tapped. If that land changes from being untapped to being tapped for any reason, the ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/41/corrupted-roots) · oracle_id `0c6f343a-0088-477a-a6b5-256783ad0c27` · printing: CON #41 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Shapeshifter
 
@@ -872,7 +1080,16 @@
   > *Within its body, three lineages warred for supremacy.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/56/corrupted-shapeshifter) · oracle_id `5c4cbf1c-95ee-4555-8351-ea962e17ae1f` · printing: MH3 #56 (2024-06-14) · [rulings](https://api.scryfall.com/cards/27534c8a-cb71-43bc-b706-80a525396222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If a permanent enters the battlefield as a copy of Corrupted Shapeshifter, there will be two copy effects to apply to it. One will copy the values chosen for the Corrupted Shapeshifter being copied. And you'll choose the values for the copy's own enters-the-battlefield replacement effect. The resulting permanent will have the abilities from both effects, and its power and toughness will be determined by the last effect to apply. For example, if a creature entering the battlefield is copying an 0/12 Corrupted Shapeshifter with defender, you could make it a 3/3 or an 0/12, either way with flying and defender.
+  - *2024-06-07* — If an object on the battlefield becomes a copy of Corrupted Shapeshifter, it copies the values determined by its enters-the-battlefield replacement effect.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — While not on the battlefield, Corrupted Shapeshifter is a 0/0 creature card. It doesn't have flying, vigilance, or defender.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/56/corrupted-shapeshifter) · oracle_id `5c4cbf1c-95ee-4555-8351-ea962e17ae1f` · printing: MH3 #56 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupted Zendikon
 
@@ -884,7 +1101,14 @@
   > When enchanted land dies, return that card to its owner's hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20627 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/55/corrupted-zendikon) · oracle_id `3902048e-b7bf-4676-be92-e590bc76c729` · printing: WWK #55 (2010-02-05) · [rulings](https://api.scryfall.com/cards/0ce7d93d-3998-4486-b277-e4f91f6e3feb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2010-03-01* — An ability that turns a land into a creature also sets that creature's power and toughness. If the land was already a creature, this will overwrite the previous effect that set its power and toughness. Effects that modify its power or toughness, such as the effects of Disfigure or Glorious Anthem, will continue to apply, no matter when they started to take effect. The same is true for counters that change its power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2010-03-01* — An attacking or blocking creature that stops being a creature is removed from combat. This can happen if a Zendikon enchanting an attacking or blocking creature leaves the battlefield, for example. The permanent that was removed from combat neither deals nor is dealt combat damage. Any attacking creature that the land creature was blocking remains blocked, however.
+  - *2010-03-01* — If a Zendikon and the land it's enchanting are destroyed at the same time (due to Akroma's Vengeance, for example), the Zendikon's last ability will still trigger.
+  - *2010-03-01* — If a Zendikon's last ability triggers, but the land card it refers to leaves the graveyard before it resolves, it will resolve but do nothing.
+  - *2010-03-01* — The enchanted permanent will be both a land and a creature and can be affected by anything that affects either a land or a creature.
+  - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/55/corrupted-zendikon) · oracle_id `3902048e-b7bf-4676-be92-e590bc76c729` · printing: WWK #55 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupt Eunuchs
 
@@ -894,7 +1118,9 @@
 - **Oracle text:**
   > When this creature enters, it deals 2 damage to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31604 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/92/corrupt-eunuchs) · oracle_id `77e604fe-d6ca-495f-ba22-a7d8ba88c8b5` · printing: ME3 #92 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9875f1c7-f818-40d6-a559-1b8835bc340f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If there are no other creatures on the battlefield when Corrupt Eunuchs enters, it will have to target itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/92/corrupt-eunuchs) · oracle_id `77e604fe-d6ca-495f-ba22-a7d8ba88c8b5` · printing: ME3 #92 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupting Licid
 
@@ -905,7 +1131,10 @@
   > {B}, {T}: This creature loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {B} to end this effect.
   > Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28705 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/54/corrupting-licid) · oracle_id `503ddd47-4b0c-4a2a-b77a-fb321044b438` · printing: STH #54 (1998-03-02) · [rulings](https://api.scryfall.com/cards/c12c6548-20e6-4697-ba26-e711590f9e28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.
+  - *2013-04-15* — Paying the cost to end the effect is a special action and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/54/corrupting-licid) · oracle_id `503ddd47-4b0c-4a2a-b77a-fb321044b438` · printing: STH #54 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corruption of Towashi
 
@@ -916,7 +1145,12 @@
   > Whenever a permanent you control transforms or a permanent you control enters transformed, you may draw a card. Do this only once each turn.
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/53/corruption-of-towashi) · oracle_id `242c39b4-5ef0-469a-a852-738f79d93bd6` · printing: MOM #53 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0e896a87-2a93-488c-a0c9-0bed8404da44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — Once you've chosen to draw a card because of the last ability (which is likely as soon as possible, but there may be situations in which you don't want to draw immediately), that ability will stop triggering for the duration of that turn.
+  - *2023-04-14* — Only a transforming double-faced permanent can enter the battlefield "transformed," and only if it enters with its back face up. Notably, melded permanents can't enter transformed, and modal double-faced permanents can't enter transformed, even if they enter with their back faces up.
+  - *2023-04-14* — Similarly, only transforming double-faced permanents (including transforming double-faced cards and Incubator tokens) can transform. A face-up permanent turning face down doesn't count as transforming, nor does a face-down permanent turning face up.
+  - *2023-04-14* — The last ability of Corruption of Towashi will trigger if a permanent you control transforms in either direction, going from front face up to back face up or vice versa.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/53/corruption-of-towashi) · oracle_id `242c39b4-5ef0-469a-a852-738f79d93bd6` · printing: MOM #53 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corrupt Official
 
@@ -930,7 +1164,9 @@
   > *His favor comes at a high price.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/128/corrupt-official) · oracle_id `c152b677-5e75-43da-be1d-876b7b83e2f4` · printing: MMQ #128 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5cb652fc-5a21-4e02-a776-a38fb41ad18c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It triggers only once even if blocked by more than one creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/128/corrupt-official) · oracle_id `c152b677-5e75-43da-be1d-876b7b83e2f4` · printing: MMQ #128 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corsair Captain
 
@@ -944,7 +1180,9 @@
   > *"Lungs full of sea air and a hold full of loot. Ah, what a life!"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/506/corsair-captain) · oracle_id `a7ec13c6-7ade-433a-b5a2-047854eef486` · printing: FDN #506 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d5017dbc-07fd-45ea-9629-7c584144e8be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Pirates you control may become lethal if Corsair Captain leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/506/corsair-captain) · oracle_id `a7ec13c6-7ade-433a-b5a2-047854eef486` · printing: FDN #506 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Corsairs of Umbar
 
@@ -956,7 +1194,16 @@
   > Whenever this creature deals combat damage to a player, amass Orcs 3. (Put three +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6033 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/19/corsairs-of-umbar) · oracle_id `edc74fb9-a368-4f73-8147-f318a32a3d06` · printing: LTC #19 (2023-06-23) · [rulings](https://api.scryfall.com/cards/159727a9-0bc4-497d-8fb2-4a66923726d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Activating Corsairs of Umbar's first ability after a Goblin, Orc, or Pirate has become blocked won't cause that creature to become unblocked.
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/19/corsairs-of-umbar) · oracle_id `edc74fb9-a368-4f73-8147-f318a32a3d06` · printing: LTC #19 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coruscation Mage
 
@@ -968,4 +1215,15 @@
   > Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.
 - **Keywords:** Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #805 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/131/coruscation-mage) · oracle_id `88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf` · printing: BLB #131 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dc2c1de0-6233-469a-be72-a050b97d2c8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — Coruscation Mage’s last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you’ll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn’t have the offspring ability when it enters, the ability won’t trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it’s a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as “this creature” rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/131/coruscation-mage) · oracle_id `88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf` · printing: BLB #131 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

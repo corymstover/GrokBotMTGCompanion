@@ -25,6 +25,7 @@
 - **Flavor text** (BLB printing):
   > *"I used to play for family only until I realized I could inspire an entire party with a single note."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11599 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/148/raccoon-rallier) · oracle_id `50c038a4-6546-4a15-a117-176849edaa3d` · printing: BLB #148 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b5b5180f-5a1c-4df8-9019-195e65a50ce3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Racecourse Fury
@@ -38,6 +39,7 @@
   > *Close finishes are settled by who can dismount and get to weapons first.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24108 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/104/racecourse-fury) · oracle_id `b7093835-0f84-4ea4-b228-2e39bd2642ab` · printing: RTR #104 (2012-10-05) · [rulings](https://api.scryfall.com/cards/15d13d35-b5f7-4d3d-a1fa-84178b28acae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Racers' Ring
@@ -51,6 +53,7 @@
 - **Flavor text** (SNC printing):
   > *Purchasing chrome racehorses with cash is a common means of dispersing mysterious income.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/253/racers-ring) · oracle_id `7e2eb4d5-22a3-43c1-8cf3-e85723da1b61` · printing: SNC #253 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2a11bdb2-a269-4038-85f3-69fbd02982e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Racers' Scoreboard
@@ -63,6 +66,7 @@
   > Max speed — Spells you cast cost {1} less to cast.
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6404 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/239/racers-scoreboard) · oracle_id `54c2b3b3-e247-4146-8045-d49480b795f2` · printing: DFT #239 (2025-02-14) · [rulings](https://api.scryfall.com/cards/50bae2ba-a6a0-4a6a-96e9-0e0372e55108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rack and Ruin
@@ -75,7 +79,9 @@
   > *"My people are bound by masters centuries dead. Each artifact we destroy is another link broken in that chain."*
   > *—Barb Tail, viashino heretic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/89/rack-and-ruin) · oracle_id `e04552f4-41c1-40f3-996e-de796c9967e4` · printing: ULG #89 (1999-02-15) · [rulings](https://api.scryfall.com/cards/a46e8f6a-3a1a-4c30-9348-4b31882267eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Must target two different artifacts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/89/rack-and-ruin) · oracle_id `e04552f4-41c1-40f3-996e-de796c9967e4` · printing: ULG #89 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rackling
 
@@ -87,4 +93,5 @@
 - **Flavor text** (NEM printing):
   > *"This may hurt a little."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23681 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/136/rackling) · oracle_id `41d116d7-3b1e-4777-b3c0-54f8ca6b2785` · printing: NEM #136 (2000-02-14) · [rulings](https://api.scryfall.com/cards/10f82f2e-a6db-491b-b253-82c34cd6c940/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

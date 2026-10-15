@@ -34,7 +34,10 @@
   > Sacrifice four tokens: Surveil 2, then draw two cards. You gain 2 life.
 - **Keywords:** Collect evidence, Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12403 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/209/izoni-center-of-the-web) · oracle_id `8074afbf-190b-4a24-b939-cc559bdffe38` · printing: MKM #209 (2024-02-09) · [rulings](https://api.scryfall.com/cards/70ea66cd-587a-4ca9-9ca8-d7d2046bfbed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/209/izoni-center-of-the-web) · oracle_id `8074afbf-190b-4a24-b939-cc559bdffe38` · printing: MKM #209 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izoni, Thousand-Eyed
 
@@ -46,7 +49,11 @@
   > {B}{G}, Sacrifice another creature: You gain 1 life and draw a card.
 - **Keywords:** Undergrowth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5193 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · [rulings](https://api.scryfall.com/cards/75955b0e-12d6-40ba-aab5-b7b7e2bde121/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Because tokens aren't cards, they never count for undergrowth abilities.
+  - *2018-10-05* — Creature cards with other types, such as artifact creature cards, count for undergrowth abilities.
+  - *2018-10-05* — You can activate Izoni's last ability while its undergrowth ability is on the stack. This will increase the number of Insect tokens you'll create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/180/izoni-thousand-eyed) · oracle_id `5a210b32-6e1f-4578-bd8b-4e481b761159` · printing: GRN #180 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Boilerworks
 
@@ -57,7 +64,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {U}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/302/izzet-boilerworks) · oracle_id `1cb9d94a-3039-4f2e-8fcc-6996f9a45f74` · printing: OTC #302 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bfac9395-7ca5-48dd-ab83-7c26ada12f61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/302/izzet-boilerworks) · oracle_id `1cb9d94a-3039-4f2e-8fcc-6996f9a45f74` · printing: OTC #302 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Charm
 
@@ -69,7 +78,9 @@
   > • Izzet Charm deals 2 damage to target creature.
   > • Draw two cards, then discard two cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1538 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · [rulings](https://api.scryfall.com/cards/15af0592-a1cb-4b1e-b051-dde978939706/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If you choose the last mode, you draw two cards and discard two cards all while Izzet Charm is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/190/izzet-charm) · oracle_id `a07698f6-5ad5-49a3-9da2-f82d407f5cd7` · printing: RVR #190 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Chemister
 
@@ -82,7 +93,14 @@
   > {1}{R}, {T}, Sacrifice this creature: Cast any number of cards exiled with this creature without paying their mana costs.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13548 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/798/izzet-chemister) · oracle_id `e4a3d6f3-36ba-4e6d-a254-351bc8886f20` · printing: CLB #798 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2970c679-562b-48ee-b631-2e3016f4f37c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-03-16* — Any of the cards you don't cast will remain exiled.
+  - *2018-03-16* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2018-03-16* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+  - *2018-03-16* — The last ability of Izzet Chemister only lets you cast cards exiled by that card. If Izzet Chemister leaves the battlefield before you activate that ability, the exiled cards are lost forever.
+  - *2018-03-16* — You cast the exiled cards one at a time in any order. Later spells can target ones you cast earlier. None of the spells resolve until after you're done casting them all.
+  - *2018-03-16* — You must cast any of the exiled cards you wish to cast while Izzet Chemister's last ability is resolving. You can't cast them later in the turn. A sorcery cast this way will be cast at a time you normally wouldn't be able to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/798/izzet-chemister) · oracle_id `e4a3d6f3-36ba-4e6d-a254-351bc8886f20` · printing: CLB #798 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Chronarch
 
@@ -94,6 +112,7 @@
 - **Flavor text** (C17 printing):
   > *He ensures not only whether but also when and where the lightning strikes twice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18163 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/175/izzet-chronarch) · oracle_id `1da438f3-db1c-4713-a60c-e078f31d809c` · printing: C17 #175 (2017-08-25) · [rulings](https://api.scryfall.com/cards/d2f8fe93-8d20-41d4-8205-597a9c9b8bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Cluestone
@@ -106,6 +125,7 @@
 - **Flavor text** (DGM printing):
   > *It holds within it an unsolvable riddle. A creative answer yields an invitation to the guild.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/141/izzet-cluestone) · oracle_id `3c76bb90-92fb-428b-8e94-def4cf4b6f2d` · printing: DGM #141 (2013-05-03) · [rulings](https://api.scryfall.com/cards/8cf63def-e2cc-48c7-8409-c08a36eddf93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Generatorium
@@ -118,7 +138,18 @@
 - **Flavor text** (MH3 printing):
   > *Hard hats are required. Shock-resistant coveralls aren't, but are highly recommended.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/191/izzet-generatorium) · oracle_id `6a618c4a-e604-4dce-a078-755fd35ac5d9` · printing: MH3 #191 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c6d9537d-c6b9-46ef-834b-87750d79f1ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If you control two Izzet Generatoriums (Generatoria?), the number of {E} you get is the original number plus two. Three Izzet Generatoriums adds three to the original number, and so on.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/191/izzet-generatorium) · oracle_id `6a618c4a-e604-4dce-a078-755fd35ac5d9` · printing: MH3 #191 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Guildgate
 
@@ -130,7 +161,10 @@
 - **Flavor text** (FDN printing):
   > *Enter those with the vision to create and the daring to release their creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1812 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/691/izzet-guildgate) · oracle_id `bf75a3d1-f184-4b48-a913-21caee1db084` · printing: FDN #691 (2024-11-15) · [rulings](https://api.scryfall.com/cards/db9e6fc9-813d-4a71-8a68-8e0f83fa945d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/691/izzet-guildgate) · oracle_id `bf75a3d1-f184-4b48-a913-21caee1db084` · printing: FDN #691 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Guildmage
 
@@ -142,7 +176,17 @@
   > {2}{U}: Copy target instant spell you control with mana value 2 or less. You may choose new targets for the copy.
   > {2}{R}: Copy target sorcery spell you control with mana value 2 or less. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/191/izzet-guildmage) · oracle_id `34778e85-cd02-40c8-855c-4f4529aa458b` · printing: RVR #191 (2024-01-12) · [rulings](https://api.scryfall.com/cards/5058ac2d-7b16-4b1c-acdd-e328bc5adc1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-01-12* — Any choices made as a spell resolves won't have been made yet once it's copied. Any such choices will be made separately as the copy resolves.
+  - *2024-01-12* — If a spell has {X} in its mana cost, include the value chosen for that X when determining the mana value of that spell.
+  - *2024-01-12* — If the spell has damage divided as it was cast, the division can't be changed (although the targets receiving that damage still can). The same is true of spells that distribute counters.
+  - *2024-01-12* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2024-01-12* — If you copy a spell, you control the copy. It will resolve before the original spell does.
+  - *2024-01-12* — Izzet Guildmage's abilities can copy any instant or sorcery spell with an appropriate mana value, not just one with targets.
+  - *2024-01-12* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2024-01-12* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2024-01-12* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/191/izzet-guildmage) · oracle_id `34778e85-cd02-40c8-855c-4f4529aa458b` · printing: RVR #191 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Keyrune
 
@@ -153,7 +197,11 @@
   > {U}{R}: Until end of turn, this artifact becomes a 2/1 blue and red Elemental artifact creature.
   > Whenever this artifact deals combat damage to a player, you may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15635 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/230/izzet-keyrune) · oracle_id `8b8c0285-424f-4a82-bfb6-17752cfa71dd` · printing: RTR #230 (2012-10-05) · [rulings](https://api.scryfall.com/cards/83e4e83b-cbb8-4efd-b6c4-4459a29177ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-10-01* — If Izzet Keyrune becomes a creature in a way other than its own activated ability, its last ability will still work.
+  - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it’s already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
+  - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/230/izzet-keyrune) · oracle_id `8b8c0285-424f-4a82-bfb6-17752cfa71dd` · printing: RTR #230 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Locket
 
@@ -166,6 +214,7 @@
   > *"Remember to discharge your locket every seven hours. Unless you prefer the spontaneous aether overload, of course."*
   > *—Daxiver, Izzet electromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/215/izzet-locket) · oracle_id `7ee07546-2c2e-4679-b671-7ea509b1d3ea` · printing: C19 #215 (2019-08-23) · [rulings](https://api.scryfall.com/cards/a32ecc71-b924-4414-94ee-c6cb0ba752e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Signet
@@ -177,6 +226,7 @@
 - **Flavor text** (FRC printing):
   > *The Izzet signet is redesigned often, each time becoming closer to a vanity portrait of Niv-Mizzet.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/58/izzet-signet) · oracle_id `2fda4fe7-8b0c-489c-a000-6d358e614e34` · printing: FRC #58 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d5e141ad-5cb8-416b-9acf-bce1baeb6b6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Izzet Staticaster
@@ -190,4 +240,7 @@
   > {T}: This creature deals 1 damage to target creature and each other creature with the same name as that creature.
 - **Keywords:** Haste, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/173/izzet-staticaster) · oracle_id `d63adbed-07d3-44e4-83f8-1cbdfc186df4` · printing: RTR #173 (2012-10-05) · [rulings](https://api.scryfall.com/cards/190ac2fe-532d-4d7e-9d74-07ae6850aac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Izzet Staticaster's activated ability has only one target. Other creatures with that name are not targeted. For example, a creature with hexproof will be dealt damage if it has the same name as the target creature.
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/173/izzet-staticaster) · oracle_id `d63adbed-07d3-44e4-83f8-1cbdfc186df4` · printing: RTR #173 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

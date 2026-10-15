@@ -24,6 +24,7 @@
 - **Flavor text** (TMT printing):
   > *When you're open to new things, a weird world of wonder unfolds before you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/113/cowabunga!) · oracle_id `a1ddf985-1646-468c-b1a4-ab6bb8e9dd7c` · printing: TMT #113 (2026-03-06) · [rulings](https://api.scryfall.com/cards/0ffce972-bed9-445a-a9a0-4816f156d88d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cowardice
@@ -37,6 +38,7 @@
   > *The valiant never taste of death but once."*
   > *—William Shakespeare, \*Julius Caesar\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/70/cowardice) · oracle_id `2692dd66-c200-4d0b-9427-30deaa2342ab` · printing: 9ED #70 (2005-07-29) · [rulings](https://api.scryfall.com/cards/67c3cf8f-c2f6-4ad0-83f9-960e5d74fc3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coward // Killer
@@ -49,7 +51,11 @@
   > Killer deals 3 damage to target creature and each other creature that shares a creature type with it.
 - **Keywords:** Time Travel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/77/coward-killer) · oracle_id `21591447-c045-4317-8d0e-705627aa157b` · printing: WHO #77 (2023-10-13) · [rulings](https://api.scryfall.com/cards/9e389269-deef-4c48-b6d1-c505bf7cc6b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If the target of Killer is illegal as the spell tries to resolve, it won't deal damage to any creatures.
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/77/coward-killer) · oracle_id `21591447-c045-4317-8d0e-705627aa157b` · printing: WHO #77 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cowed by Wisdom
 
@@ -60,6 +66,7 @@
   > Enchanted creature can't attack or block unless its controller pays {1} for each card in your hand.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/5/cowed-by-wisdom) · oracle_id `10495c22-2456-4b93-afa9-0c3c53075efe` · printing: SOK #5 (2005-06-03) · [rulings](https://api.scryfall.com/cards/0b81b329-4ef5-4b55-9fe7-9ed69477e96b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cower in Fear
@@ -72,7 +79,9 @@
   > *"You will fully understand fear when you discover it is the final thing you put your faith in."*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16009 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/62/cower-in-fear) · oracle_id `f1519fe3-af13-4491-9020-4a8d8f474713` · printing: MM3 #62 (2017-03-17) · [rulings](https://api.scryfall.com/cards/08e3cc81-2c08-4281-aa16-4c22f141f31d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — Cower in Fear affects only creatures your opponents control at the time it resolves. It won’t affect creatures that come under their control later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/62/cower-in-fear) · oracle_id `f1519fe3-af13-4491-9020-4a8d8f474713` · printing: MM3 #62 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cowl Prowler
 
@@ -84,4 +93,5 @@
 - **Flavor text** (BBD printing):
   > *Consulate guards who pursue fleeing renegades into the Cowl often become lost—occasionally permanently—in the city's wildest greenbelt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/193/cowl-prowler) · oracle_id `67419470-3418-466f-b3c1-4ded1d0ee34b` · printing: BBD #193 (2018-06-08) · [rulings](https://api.scryfall.com/cards/f372f545-b70c-470b-9aab-4a2ea900f777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -19,6 +19,7 @@
 | EDHREC-rank coverage (all Commander-legal cards ranked ≤ N ingested) | N = 32,351 |
 | Commander legality of ingested | banned: 83, legal: 32,116, not_legal: 1,695 |
 | Game Changers ingested | 53 |
+| Rulings ingested (Scryfall `rulings` bulk) | 78,943 rulings on 19,889 cards · 33,894/33,894 cards processed · 19,889 ingested cards have rulings on Scryfall |
 | Shard files | 684 |
 | Scryfall bulk data timestamp | 2026-10-15T09:02:01.217+00:00 |
 
@@ -248,4 +249,4 @@ Cards Scryfall flags as `game_changer` (used by the official Commander Brackets 
 ## How to find a card
 
 1. Strip accents and punctuation from the name and lower-case it → take the first two letters → `cards/<FIRST>/<first two>.md`; very common prefixes are split one letter deeper (e.g. `cards/T/the.md`, `cards/M/mag.md`) — see the shard table above. Names starting with a digit live in `cards/0-9/0-9.md`.
-2. Or search [`data/card_index.csv`](data/card_index.csv) (columns: name, oracle_id, shard, anchor, edhrec_rank, color_identity, type_line, commander_legality, game_changer, batch).
+2. Or search [`data/card_index.csv`](data/card_index.csv) (columns: name, oracle_id, shard, anchor, edhrec_rank, color_identity, type_line, commander_legality, game_changer, batch, rulings).

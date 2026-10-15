@@ -21,6 +21,7 @@
 - **Flavor text** (OTJ printing):
   > *Pioneers with a distaste for crowds and cities are welcomed by the Outcasters, who celebrate solitude and find endless wonder in the natural world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/170/map-the-frontier) · oracle_id `11a46cb6-ab01-4630-9541-782db2ef3b91` · printing: OTJ #170 (2024-04-19) · [rulings](https://api.scryfall.com/cards/165f4428-e1a1-477d-bd90-138189e88163/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Map the Wastes
@@ -31,7 +32,10 @@
   > Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Bolster 1. (Choose a creature with the least toughness among creatures you control and put a +1/+1 counter on it.)
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/134/map-the-wastes) · oracle_id `b845e69b-5d49-40ff-9cf7-d5cf2ccec7be` · printing: FRF #134 (2015-01-23) · [rulings](https://api.scryfall.com/cards/039b61b1-79d5-44b6-8c0f-b8e8e508e5a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/134/map-the-wastes) · oracle_id `b845e69b-5d49-40ff-9cf7-d5cf2ccec7be` · printing: FRF #134 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Map to Lorthos's Temple
 
@@ -43,4 +47,5 @@
   > ☐ Merfolk — A Merfolk enters the battlefield under your control.
   > ☐ Ritual — You cast an instant or sorcery spell.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/531/map-to-lorthoss-temple) · oracle_id `8ef14bd8-f40a-46cb-adc3-137951ad4e25` · printing: MB2 #531 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ec6d971b-b981-4a7e-8308-f1c6cc679d89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

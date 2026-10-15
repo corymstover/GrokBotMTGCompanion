@@ -32,6 +32,7 @@
   > Multicolored creatures you control have deathtouch.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24356 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/26/maze-abomination) · oracle_id `eaa72823-413e-474e-a926-aebb0a78ff31` · printing: DGM #26 (2013-05-03) · [rulings](https://api.scryfall.com/cards/dd84659f-4209-42a2-800a-61706470ce54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Behemoth
@@ -46,6 +47,7 @@
   > *It returned to the leylines as quickly as it had appeared, leaving only broken bodies to mark its passage.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24803 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/43/maze-behemoth) · oracle_id `d54c258f-1914-449a-857d-11f9478bff63` · printing: DGM #43 (2013-05-03) · [rulings](https://api.scryfall.com/cards/0a7c9678-dea7-4219-bac0-9e1cef531f54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Glider
@@ -60,6 +62,7 @@
   > *The pattern of the Implicit Maze extends in more than two dimensions.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25073 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/13/maze-glider) · oracle_id `2388a064-ae84-4eac-b1d9-819a40052d12` · printing: DGM #13 (2013-05-03) · [rulings](https://api.scryfall.com/cards/d1d20281-49c0-4fd0-91f2-390506ac33f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mazemind Tome
@@ -72,7 +75,9 @@
   > When there are four or more page counters on this artifact, exile it. If you do, you gain 4 life.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/676/mazemind-tome) · oracle_id `800fb917-8898-4eba-9f94-aec6e9d75236` · printing: FDN #676 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f45072cd-e3f2-4090-b984-50ec8d360bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If Mazemind Tome leaves the battlefield while its triggered ability is on the stack, you can't exile it from the zone it's put into.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/676/mazemind-tome) · oracle_id `800fb917-8898-4eba-9f94-aec6e9d75236` · printing: FDN #676 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Ith
 
@@ -81,7 +86,12 @@
 - **Oracle text:**
   > {T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5889fde1-730d-43d0-aaa4-499784a80530/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-12-08* — Maze of Ith can target an untapped attacking creature. It will still prevent the combat damage it would deal and be dealt.
+  - *2022-12-08* — Maze of Ith doesn't have a mana ability. It doesn't tap for colorless mana.
+  - *2022-12-08* — The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete.
+  - *2022-12-08* — You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step, even though it will already have dealt combat damage. This will untap the creature. The damage it dealt will be unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/250/maze-of-ith) · oracle_id `38a12bd7-4394-44a8-91a0-6a4ff7fa4f71` · printing: DMR #250 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze of Shadows
 
@@ -91,6 +101,7 @@
   > {T}: Add {C}.
   > {T}: Untap target attacking creature with shadow. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23280 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/238/maze-of-shadows) · oracle_id `b7b51ab1-403e-4640-8827-b04965aa6760` · printing: TPR #238 (2015-05-06) · [rulings](https://api.scryfall.com/cards/db3ea047-d18c-4f2a-913e-17469d3bd14c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Rusher
@@ -106,6 +117,7 @@
   > *—Niv-Mizzet*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25543 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/33/maze-rusher) · oracle_id `f6ef6ac6-bf1f-41ed-bd3f-a3806a76a336` · printing: DGM #33 (2013-05-03) · [rulings](https://api.scryfall.com/cards/864d2eb8-e27f-4f84-9725-d2ae6446e217/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze's End
@@ -117,7 +129,12 @@
   > {T}: Add {C}.
   > {3}, {T}, Return this land to its owner's hand: Search your library for a Gate card, put it onto the battlefield, then shuffle. If you control ten or more Gates with different names, you win the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/727/mazes-end) · oracle_id `49479778-c4c0-43ba-a7b7-45f00d067462` · printing: FDN #727 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ea9a4d1a-79dd-4b15-8e3b-f111f16d6bfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-04-15* — Controlling multiple Gates with the same name has no effect on your ability to win the game with Maze's End. The excess Gates are simply ignored.
+  - *2013-04-15* — Putting a Gate onto the battlefield with Maze's End doesn't count as the one land you can play during your turn. If it's your turn, you can play Maze's End or a different land card from your hand after its ability has resolved.
+  - *2013-04-15* — Returning Maze's End to its owner's hand is part of the cost to activate its last ability. Once that ability is announced, players can't respond to it until after you've paid its activation cost and returned Maze's End to hand.
+  - *2013-04-15* — When the last ability of Maze's End resolves, you'll search for a Gate and put it onto the battlefield before checking to see if you win the game. This check will happen even if you don't put a Gate onto the battlefield this way. This check will happen only as the ability resolves, not at other times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/727/mazes-end) · oracle_id `49479778-c4c0-43ba-a7b7-45f00d067462` · printing: FDN #727 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Sentinel
 
@@ -131,6 +148,7 @@
   > *The route has been known for millennia, but only by those with no means to tell it.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25756 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/4/maze-sentinel) · oracle_id `635360cd-0114-47d1-8a98-e6a3678652a8` · printing: DGM #4 (2013-05-03) · [rulings](https://api.scryfall.com/cards/7a977e2d-a2bc-42d1-be7d-36a822c6a66e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze Skullbomb
@@ -143,7 +161,9 @@
 - **Flavor text** (ONE printing):
   > *It pulses with the might of an apex predator.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17411 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/231/maze-skullbomb) · oracle_id `3cb91e96-285d-4191-97cd-ee7ce5d86eb2` · printing: ONE #231 (2023-02-10) · [rulings](https://api.scryfall.com/cards/1073aee2-aea6-473d-97c6-248778d79d80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target of Maze Skullbomb's last ability isn't a legal target as the ability tries to resolve (probably because it has left the battlefield), you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/231/maze-skullbomb) · oracle_id `3cb91e96-285d-4191-97cd-ee7ce5d86eb2` · printing: ONE #231 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maze's Mantle
 
@@ -156,6 +176,7 @@
   > Enchanted creature gets +2/+2.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21363 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/174/mazes-mantle) · oracle_id `b4e85b7c-3047-46d1-a6e6-2ec5eac0268a` · printing: ONE #174 (2023-02-10) · [rulings](https://api.scryfall.com/cards/bc79106b-9aa2-4add-b9ca-e3c7aafd9821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mazirek, Kraul Death Priest
@@ -170,7 +191,12 @@
   > *The clicks and buzz of the undercity proclaim him the incarnation of decay.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1570 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/319/mazirek-kraul-death-priest) · oracle_id `e0420f2c-d578-421e-ae75-e7dc5f70661a` · printing: SOC #319 (2026-04-24) · [rulings](https://api.scryfall.com/cards/940ae3c2-7ac2-412b-afd0-c8b0099bc3aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — A legendary permanent that is put into a graveyard because of the "legend rule" isn't sacrificed.
+  - *2020-08-07* — If you sacrifice Mazirek and other permanents at the same time, Mazirek's last ability triggers for the other permanents.
+  - *2020-08-07* — If you sacrifice a permanent as part of casting a spell or activating an ability, Mazirek's last ability will resolve before that spell or ability.
+  - *2020-08-07* — Mazirek's last ability is a triggered ability, not an activated ability. It doesn't allow you to sacrifice a permanent whenever you want; rather, you need some other way of sacrificing permanents.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/319/mazirek-kraul-death-priest) · oracle_id `e0420f2c-d578-421e-ae75-e7dc5f70661a` · printing: SOC #319 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mazzy, Truesword Paladin
 
@@ -181,4 +207,7 @@
   > Whenever an enchanted creature attacks one of your opponents, it gets +2/+0 and gains trample until end of turn.
   > Whenever an Aura you control is put into your graveyard from the battlefield, exile it. Until the end of your next turn, you may cast that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15198 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/283/mazzy-truesword-paladin) · oracle_id `9fa75b3c-a512-4318-9c03-e2d958acb6ef` · printing: CLB #283 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4d79c221-e07a-41e1-b92f-dc057802449c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — In some unusual cases, the Aura put into your graveyard isn't an Aura card. This may happen due to copy effects, for example. In these cases, you'll still exile the card and you may cast it.
+  - *2022-06-10* — You must still pay all costs and follow all timing rules when casting the card from exile.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/283/mazzy-truesword-paladin) · oracle_id `9fa75b3c-a512-4318-9c03-e2d958acb6ef` · printing: CLB #283 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

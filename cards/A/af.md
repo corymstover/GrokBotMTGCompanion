@@ -34,6 +34,7 @@
   > *Once a welcoming hub for explorers, Affa became a place of guarded tongues and quick defenses.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22979 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/81/affa-guard-hound) · oracle_id `3819daab-fe35-4f99-9282-47bd05c7fcd6` · printing: JMP #81 (2020-07-17) · [rulings](https://api.scryfall.com/cards/f762546c-f5eb-420d-a8f7-c3566cd8f506/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Affa Protector
@@ -47,6 +48,7 @@
   > *"Through all the terrors we face, I hold on to the memory of the world before the Eldrazi came. I'd like to see that world again."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26439 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/14/affa-protector) · oracle_id `5b38a1e4-a6af-4094-9392-70a87759e20d` · printing: OGW #14 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0e54ac79-fbaa-4385-869b-aaf31e33a11f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Affectionate Indrik
@@ -60,7 +62,10 @@
   > *The problem isn't the indrik's enthusiasm, it's Ravnica's lack of guardrails.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/211/affectionate-indrik) · oracle_id `88aa032d-dc11-4cae-81f3-ce66353963e0` · printing: FDN #211 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2da8347d-06a4-46e0-a55e-cc2da4660263/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If the target creature is an illegal target when Affectionate Indrik's ability tries to resolve, the ability doesn't resolve. If Affectionate Indrik is no longer on the battlefield, the target creature won't deal or be dealt damage.
+  - *2018-10-05* — You choose the target of the triggered ability as it goes on the stack, but you choose whether the creatures fight as that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/211/affectionate-indrik) · oracle_id `88aa032d-dc11-4cae-81f3-ce66353963e0` · printing: FDN #211 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afflict
 
@@ -72,6 +77,7 @@
 - **Flavor text** (10E printing):
   > *One rarely notices a heartbeat, save when it is stolen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19731 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/125/afflict) · oracle_id `471f6ad3-cf01-42dd-a519-ea8e13039fea` · printing: 10E #125 (2007-07-13) · [rulings](https://api.scryfall.com/cards/20f18447-2853-469b-b3b3-20d6bcafa6e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afflicted Deserter // Werewolf Ransacker
@@ -88,7 +94,12 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/81/afflicted-deserter-werewolf-ransacker) · oracle_id `52adc761-1a0a-43d1-a706-41a92bb7880c` · printing: DKA #81 (2012-02-03) · [rulings](https://api.scryfall.com/cards/a2c044c0-3625-4bdf-9445-b462394cecae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-01-22* — An artifact token that's destroyed is put into its owner's graveyard before it ceases to exist. If a token is destroyed by Werewolf Ransacker ability, Werewolf Ransacker deals damage to that token's controller.
+  - *2011-01-22* — If something becomes a copy of Werewolf Ransacker, that doesn't count as "transforming into Werewolf Ransacker." The first triggered ability of the new Werewolf Ransacker doesn't trigger.
+  - *2011-01-22* — You choose the target artifact when Werewolf Ransacker's first triggered ability goes on the stack. You choose whether or not to destroy the artifact when that ability resolves.
+  - *2013-07-01* — If the targeted artifact has indestructible or regenerates (or you choose not to destroy it), Werewolf Ransacker doesn't deal damage to that artifact's controller. Similarly, if the targeted artifact is destroyed but a replacement effect moves it to a different zone instead of its owner's graveyard, Werewolf Ransacker doesn't deal damage to that artifact's controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/81/afflicted-deserter-werewolf-ransacker) · oracle_id `52adc761-1a0a-43d1-a706-41a92bb7880c` · printing: DKA #81 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afiya Grove
 
@@ -99,7 +110,9 @@
   > At the beginning of your upkeep, move a +1/+1 counter from this enchantment onto target creature.
   > When this enchantment has no +1/+1 counters on it, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24827 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/205/afiya-grove) · oracle_id `056a98aa-f3f7-4ac9-9755-3e8a60a59abb` · printing: MIR #205 (1996-10-08) · [rulings](https://api.scryfall.com/cards/c495e1f3-0845-4556-83e6-de8b9d518d1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If there are any creatures on the battlefield, even if they are just your opponent’s, you must put a +1/+1 on one of them. If there are no creatures on the battlefield, then no counter is removed from this card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/205/afiya-grove) · oracle_id `056a98aa-f3f7-4ac9-9755-3e8a60a59abb` · printing: MIR #205 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterburner Expert
 
@@ -113,7 +126,11 @@
   > *Speedbump has miraculously survived ninety-nine rocket crashes, and he's aiming for an even hundred.*
 - **Keywords:** Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21383 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/150/afterburner-expert) · oracle_id `b4d19e3a-c2f8-4503-bcfa-1b46bde972e5` · printing: DFT #150 (2025-02-14) · [rulings](https://api.scryfall.com/cards/555e1bfc-6d07-4979-a914-b2bd1fb031f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/150/afterburner-expert) · oracle_id `b4d19e3a-c2f8-4503-bcfa-1b46bde972e5` · printing: DFT #150 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterlife
 
@@ -122,6 +139,7 @@
 - **Oracle text:**
   > Destroy target creature. It can't be regenerated. Its controller creates a 1/1 white Spirit creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17808 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/64/afterlife) · oracle_id `4c13e2b5-961a-4031-84b1-15bd19b94286` · printing: C14 #64 (2014-11-07) · [rulings](https://api.scryfall.com/cards/258946f2-294a-4ddf-be91-9ff4c94e4bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterlife from the Loam
@@ -133,6 +151,7 @@
   > For each player, choose up to one target creature card in that player's graveyard. Put those cards onto the battlefield under your control. They're Zombies in addition to their other types.
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/25/afterlife-from-the-loam) · oracle_id `151c867f-cc77-42de-9ae5-5fd2233ccdab` · printing: TDC #25 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9361b548-a8d9-4e57-98cf-0c464742e1c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterlife Insurance
@@ -144,7 +163,9 @@
 - **Flavor text** (CLU printing):
   > *As far as the Orzhov Syndicate is concerned, it is the height of irresponsibility not to have a plan for your own ghost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7143 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/23/afterlife-insurance) · oracle_id `05501e88-d4c3-4474-92a9-c02ab15b107b` · printing: CLU #23 (2024-02-23) · [rulings](https://api.scryfall.com/cards/2fa47810-ba83-4a6e-9940-7315ee7e44a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Because blockers are chosen all at once, you can't block with a creature with afterlife, wait for it to die, then block with the resulting Spirit tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/23/afterlife-insurance) · oracle_id `05501e88-d4c3-4474-92a9-c02ab15b107b` · printing: CLU #23 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftermath Analyst
 
@@ -158,6 +179,7 @@
   > *"Could someone bring me more evidence markers? Like...a lot more?"*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/91/aftermath-analyst) · oracle_id `374e54d8-8e73-4268-9dde-c28c77bbbf32` · printing: EOC #91 (2025-08-01) · [rulings](https://api.scryfall.com/cards/66f135b4-8cb3-4a4e-86ae-81a3cf4b7259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aftershock
@@ -170,6 +192,7 @@
   > *"Every act of destruction has a repercussion."*
   > *—Karn, silver golem*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/124/aftershock) · oracle_id `e6bef0c4-3dfc-49a8-8fec-22b2570b704b` · printing: TPR #124 (2015-05-06) · [rulings](https://api.scryfall.com/cards/41cd7b16-a920-4a92-9f3d-5047df9a5c3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Afterthought Sentry
@@ -183,4 +206,5 @@
 - **Flavor text** (FRA printing):
   > *An eyeless guard of stone watches a forgotten annex of memory, granite feathers rustling in breezes no one thinks to remember.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29128 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/166/afterthought-sentry) · oracle_id `f0c533a2-751a-4c5a-8cec-b83da3c8c62f` · printing: FRA #166 (2026-10-02) · [rulings](https://api.scryfall.com/cards/4d4b3bf7-a149-4099-b97d-4e36a87dfa60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

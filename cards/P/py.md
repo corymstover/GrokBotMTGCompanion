@@ -80,6 +80,7 @@
   > *—General Jarkeld, the Arctic Fox*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29181 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/257/pygmy-allosaurus) · oracle_id `8c4b1ab2-01d9-486a-a9db-ac7c72500d30` · printing: ICE #257 (1995-06-03) · [rulings](https://api.scryfall.com/cards/88a68767-9822-4f15-895e-32164e2159be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Giant
@@ -93,6 +94,7 @@
   > *"487. You're welcome."*
   > *—Bucky, flavor text writer*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/85/pygmy-giant) · oracle_id `e00ef3d4-bee7-4bdb-9e25-f0068bbe142d` · printing: UNH #85 (2004-11-19) · [rulings](https://api.scryfall.com/cards/af443b8c-203f-46f0-9233-60f962e5baa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Hippo
@@ -103,7 +105,10 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, you may have defending player activate a mana ability of each land they control and lose all unspent mana. If you do, this creature assigns no combat damage this turn and at the beginning of your next main phase this turn, you add an amount of {C} equal to the amount of mana that player lost this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26034 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/133/pygmy-hippo) · oracle_id `0d39513a-1f05-4d9a-a772-745f4f1a3471` · printing: VIS #133 (1997-02-03) · [rulings](https://api.scryfall.com/cards/2e3f6220-6ead-46b4-8663-57609ef5a12e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+  - *2013-04-15* — An ability that triggers when something "attacks and isn't blocked" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/133/pygmy-hippo) · oracle_id `0d39513a-1f05-4d9a-a772-745f4f1a3471` · printing: VIS #133 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Kavu
 
@@ -115,6 +120,7 @@
 - **Flavor text** (PLS printing):
   > *"We could learn a lot by watching the little ones," said Agnate. "Define 'little,'" replied Grizzlegom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/88/pygmy-kavu) · oracle_id `17407b73-0dbe-4a71-84ec-3aaca9651f5b` · printing: PLS #88 (2001-02-05) · [rulings](https://api.scryfall.com/cards/b31c69ec-feb5-430a-a3e9-3a6f3fb8ee1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Pyrosaur
@@ -129,6 +135,7 @@
   > *Do not judge a lizard by its size.*
   > *—Ghitu proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30404 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/46/pygmy-pyrosaur) · oracle_id `667c39bc-92d6-4fee-bced-95f0e1f21455` · printing: DDI #46 (2012-03-30) · [rulings](https://api.scryfall.com/cards/750d62f6-8fc4-4e61-b9d2-b85a4eb7cc61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Razorback
@@ -142,6 +149,7 @@
   > *As a rite of passage, Kipamu youths taunt razorbacks with long sticks . . . then flee.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/120/pygmy-razorback) · oracle_id `2bdd82e7-cbbf-4f12-bcb7-b276df021351` · printing: PCY #120 (2000-06-05) · [rulings](https://api.scryfall.com/cards/0ad9744f-797a-4dd3-8617-192773be995c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Troll
@@ -156,6 +164,7 @@
   > *"Who you callin' 'shorty'?"*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29504 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/118/pygmy-troll) · oracle_id `6f18f41e-df8d-4b59-87cc-ea167823fbda` · printing: EXO #118 (1998-06-15) · [rulings](https://api.scryfall.com/cards/7be9714d-125f-4700-879d-b920fe9f1b68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyknite
@@ -169,6 +178,7 @@
   > *"Never cross a Pyknite, if you value your scalp."*
   > *—Lovisa Coldeyes, Balduvian Chieftain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/258/pyknite) · oracle_id `857f9a8d-ba77-4afd-922d-994f66e478ef` · printing: ICE #258 (1995-06-03) · [rulings](https://api.scryfall.com/cards/6ffc64e4-ae3c-49f9-8ed6-518dd497bfe6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pym Particles
@@ -182,6 +192,7 @@
   > *"There's a whole different perspective from down here. I like it."*
   > *—The Wasp, Janet Van Dyne*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8316 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/70/pym-particles) · oracle_id `636b44dc-f7e4-42d2-abf6-ae49432b6052` · printing: MSH #70 (2026-06-26) · [rulings](https://api.scryfall.com/cards/928dfa54-1ead-4eff-a538-36cb94f05b78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pym Technologies
@@ -196,6 +207,7 @@
   > *"These ants are the best lab assistants I've ever had. No offense, Bill."*
   > *—Hank Pym*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/271/pym-technologies) · oracle_id `5a8977fc-0732-4807-b876-01819aedd70b` · printing: MSH #271 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1de583ce-e805-45f1-907f-198bc82fd3b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyramid of the Pantheon
@@ -208,6 +220,7 @@
 - **Flavor text** (AKH printing):
   > *Five gods, one purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13745 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/235/pyramid-of-the-pantheon) · oracle_id `efc66685-94cf-4d3f-82e0-9967c6ab2e5c` · printing: AKH #235 (2017-04-28) · [rulings](https://api.scryfall.com/cards/cef335b2-8086-4b29-b8e3-47de6faa1334/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyramids
@@ -219,6 +232,7 @@
   > • Destroy target Aura attached to a land.
   > • The next time target land would be destroyed this turn, remove all damage marked on it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30320 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/67/pyramids) · oracle_id `da2f0d16-3cb4-492d-8535-52a31dbae95e` · printing: ARN #67 (1993-12-17) · [rulings](https://api.scryfall.com/cards/d2e9decf-47b7-44e0-b380-8055b6011021/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre Charger
@@ -233,6 +247,7 @@
   > *His blade was forged over coals of moaning treefolk, curved at the optimum angle for severing heads, and heated to volcanic temperatures by his touch.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29666 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/38/pyre-charger) · oracle_id `50bc464e-1c8d-455c-a870-ddbbc4618343` · printing: JVC #38 (2014-12-05) · [rulings](https://api.scryfall.com/cards/4998ac4f-b461-4ab8-9680-81c396df371a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyreheart Wolf
@@ -245,6 +260,7 @@
   > Undying (When this creature dies, if it had no +1/+1 counters on it, return it to the battlefield under its owner's control with a +1/+1 counter on it.)
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11795 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/101/pyreheart-wolf) · oracle_id `b97ccb69-e76c-4962-91ca-c7fd857140e8` · printing: DKA #101 (2012-02-03) · [rulings](https://api.scryfall.com/cards/9722f20c-e0d9-4165-8cd5-4abadc5378eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre Hound
@@ -259,7 +275,9 @@
   > *Its growl is the crackling and popping of a wildfire untamed.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19313 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/145/pyre-hound) · oracle_id `0a6f45e9-5c7a-4e2c-bf8a-fc5fe0ae0793` · printing: A25 #145 (2018-03-16) · [rulings](https://api.scryfall.com/cards/cd970484-49b3-442a-806a-cabc56526ee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — Pyre Hound's triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/145/pyre-hound) · oracle_id `0a6f45e9-5c7a-4e2c-bf8a-fc5fe0ae0793` · printing: A25 #145 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre of Heroes
 
@@ -268,7 +286,11 @@
 - **Oracle text:**
   > {2}, {T}, Sacrifice a creature: Search your library for a creature card that shares a creature type with the sacrificed creature and has mana value equal to 1 plus that creature's mana value. Put that card onto the battlefield, then shuffle. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4654 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/241/pyre-of-heroes) · oracle_id `691ba449-40e1-4976-8dab-9b1741ea37b8` · printing: KHM #241 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ae9a8e44-f5de-497d-be48-adf1bcbaec97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — If a permanent or a card in a library has {X} in its mana cost, X is considered to be 0.
+  - *2021-02-05* — Once you announce that you're activating the activated ability, no player may take actions until the ability has been paid for. Notably, opponents can't try to remove one of your creatures to stop you from sacrificing it.
+  - *2021-02-05* — Use the creature types and mana value of the creature you sacrificed as it existed on the battlefield to determine what creature card you can find. Notably, if you sacrifice a creature that's a double-faced permanent with its back face up, you'll use the characteristics of the back face, not the front face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/241/pyre-of-heroes) · oracle_id `691ba449-40e1-4976-8dab-9b1741ea37b8` · printing: KHM #241 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre Rhymer // Molten Tide
 
@@ -281,7 +303,23 @@
   > Until end of turn, whenever you tap a Mountain for mana, add an additional {R}.
 - **Keywords:** Prowess, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/91/pyre-rhymer-molten-tide) · oracle_id `8940f503-fc6d-4fae-be74-22c660cae1a7` · printing: FRA #91 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b0ebea0-86de-4da4-9fe8-dacc1e75c161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/91/pyre-rhymer-molten-tide) · oracle_id `8940f503-fc6d-4fae-be74-22c660cae1a7` · printing: FRA #91 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre-Sledge Arsonist
 
@@ -293,6 +331,7 @@
 - **Flavor text** (SNC printing):
   > *Everything from damaged furniture to inconvenient corpses becomes fuel for Ziatora's ever-burning foundry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/118/pyre-sledge-arsonist) · oracle_id `7f42a05c-9e6d-4cbc-92f1-4433cd22f149` · printing: SNC #118 (2022-04-29) · [rulings](https://api.scryfall.com/cards/33c5fd3e-3799-4535-8c33-9c567f4f5709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre Spawn
@@ -305,6 +344,7 @@
 - **Flavor text** (VOW printing):
   > *Memories of the Harvesttide tragedy festered until they grew into an incarnate rage that set the world ablaze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24492 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/173/pyre-spawn) · oracle_id `13b0a3f3-04a5-465f-898b-13a28f795a16` · printing: VOW #173 (2021-11-19) · [rulings](https://api.scryfall.com/cards/80255777-de00-4ffa-a8a0-f522bf4198fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyreswipe Hawk
@@ -318,7 +358,13 @@
   > Whenever you expend 6, gain control of up to one target artifact for as long as you control this creature. (You expend 6 as you spend your sixth total mana to cast spells during a turn.)
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/26/pyreswipe-hawk) · oracle_id `35a03b0f-9dac-476a-97e9-67767c1e453e` · printing: BLC #26 (2024-08-02) · [rulings](https://api.scryfall.com/cards/0cf88f89-9490-4477-b632-85c513e8c749/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — A permanent with an ability that triggers whenever you "expend N" will see mana you spent to cast spells the turn it enters, including mana you spent before it entered. For example, if you cast Junkblade Bruiser (a creature with a mana value of 5 and an ability that triggers whenever you expend 4) by paying its full cost of five mana, you'll already have spent four mana on spells before Junkblade Bruiser enters, and therefore its ability that triggers whenever you expend 4 won't be able to trigger at all that turn.
+  - *2024-07-26* — Abilities that trigger whenever you "expend N" only trigger when you reach that specific amount of mana spent on casting spells that turn. This can only happen once per turn. For example, if you've spent three mana on spells so far this turn and you control a permanent with an ability that triggers "whenever you expend 4," that ability will trigger the next time you spend at least one mana to cast a spell this turn. It won't trigger again if you spend another four mana to cast spells later in the turn.
+  - *2024-07-26* — If Pyreswipe Hawk leaves the battlefield before its last ability resolves, control of the target artifact won't change at all.
+  - *2024-07-26* — If the cost to cast a spell is increased, decreased, or changed because of additional or alternative costs, expend counts only the mana you actually spent.
+  - *2024-07-26* — The value of X is calculated only once, as Pyreswipe Hawk's third ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/26/pyreswipe-hawk) · oracle_id `35a03b0f-9dac-476a-97e9-67767c1e453e` · printing: BLC #26 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyretic Charge
 
@@ -329,7 +375,14 @@
   > Plot {3}{R} (You may pay {3}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Plot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10190 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/29/pyretic-charge) · oracle_id `01766d9b-b2af-4a27-9e65-08c82e7d7637` · printing: OTC #29 (2024-04-19) · [rulings](https://api.scryfall.com/cards/dc7a4733-63d9-4b47-8a2e-85d30fe82569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you’re taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you’re casting a plotted card from exile without paying its mana cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
+  - *2024-04-12* — Pyretic Charge affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn and noncreature permanents that become creatures later in the turn won’t get +1/+0 for each card discarded this way.
+  - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/29/pyretic-charge) · oracle_id `01766d9b-b2af-4a27-9e65-08c82e7d7637` · printing: OTC #29 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyretic Hunter
 
@@ -342,7 +395,10 @@
   > This creature enters with X +1/+1 counters on it, where X is the highest number you noted for cards named Pyretic Hunter.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32239 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/56/pyretic-hunter) · oracle_id `6ea507d3-2b8d-4f08-824c-0de0ae214da5` · printing: CN2 #56 (2016-08-26) · [rulings](https://api.scryfall.com/cards/0f17be2c-f8c7-41b3-b8fa-30b9e4e826c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-08-23* — For example, if you draft Pyretic Hunter as the third card in a draft round and then another one as the fourth card in a draft round, each will enter the battlefield with four +1/+1 counters.
+  - *2016-08-23* — If Pyretic Hunter enters the battlefield under your control, but you didn't draft one, the highest noted number is considered to be 0. It will enter with zero +1/+1 counters and will be put into its owner's graveyard (unless something else is raising its toughness).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/56/pyretic-hunter) · oracle_id `6ea507d3-2b8d-4f08-824c-0de0ae214da5` · printing: CN2 #56 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyretic Prankster // Glistening Goremonger
 
@@ -359,7 +415,9 @@
   > *When it realized the symbol's true, glorious meaning, it began marking every surface on Innistrad with oil-soaked claws.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/157/pyretic-prankster-glistening-goremonger) · oracle_id `f810e185-4498-483b-ab37-0c583dae0eaf` · printing: MOM #157 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0ee40c4b-2ca3-4cda-bc9e-451455c17adc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If an opponent controls only artifacts and no creatures, or vice versa, they must sacrifice one. They can’t choose to sacrifice an artifact and then fail to do so while they control a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/157/pyretic-prankster-glistening-goremonger) · oracle_id `f810e185-4498-483b-ab37-0c583dae0eaf` · printing: MOM #157 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyretic Rebirth
 
@@ -370,7 +428,10 @@
 - **Flavor text** (MH3 printing):
   > *Death has never kept Darigaaz down for long.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13413 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/200/pyretic-rebirth) · oracle_id `a38ace5b-34f5-4105-b6ee-dedb86037729` · printing: MH3 #200 (2024-06-14) · [rulings](https://api.scryfall.com/cards/5968f641-48b5-4b97-8072-ddd8073cd4d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If the target card in your graveyard is an illegal target when Pyretic Rebirth tries to resolve, no damage will be dealt.
+  - *2024-06-07* — If the target creature or planeswalker is an illegal target when Pyretic Rebirth tries to resolve, you'll still return the target artifact or creature card from your graveyard to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/200/pyretic-rebirth) · oracle_id `a38ace5b-34f5-4105-b6ee-dedb86037729` · printing: MH3 #200 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyretic Ritual
 
@@ -381,7 +442,10 @@
 - **Flavor text** (M11 printing):
   > *The Multiverse is filled with limitless power just waiting for someone to reach out and seize it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m11/153/pyretic-ritual) · oracle_id `86ef6474-613f-41fb-931c-d4279b03ed99` · printing: M11 #153 (2010-07-16) · [rulings](https://api.scryfall.com/cards/1e577638-a7ed-4bcc-90fb-0cffe87d5a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-08-15* — In the same vein, you can cast Pyretic Ritual only at a time when you could cast any other instant, not at a time when you could activate a mana ability. For example, you can’t cast Pyretic Ritual in the midst of casting another spell; you’d need to cast Pyretic Ritual first.
+  - *2010-08-15* — Pyretic Ritual is not a mana ability and doesn’t behave like one. You cast it as a spell. It uses the stack. It can be responded to, and it can be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m11/153/pyretic-ritual) · oracle_id `86ef6474-613f-41fb-931c-d4279b03ed99` · printing: M11 #153 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrewild Shaman
 
@@ -393,7 +457,10 @@
   > Whenever one or more creatures you control deal combat damage to a player, if this card is in your graveyard, you may pay {3}. If you do, return this card to your hand.
 - **Keywords:** Bloodrush
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/144/pyrewild-shaman) · oracle_id `a1e71473-3eba-4d29-87e2-7f14acab2ccd` · printing: CLU #144 (2024-02-23) · [rulings](https://api.scryfall.com/cards/6037ba46-74ef-4928-9145-180b400d075c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If creatures you control deal combat damage to more than one player at the same time (most likely because it's a multiplayer game), Pyrewild Shaman's ability will trigger once for each of those players. However, only the first such ability that you pay for will return Pyrewild Shaman to your hand. Even if it's put back into your graveyard before the other abilities resolve, it's considered a different Pyrewild Shaman than the one whose ability triggered.
+  - *2020-08-07* — Pyrewild Shaman's last ability triggers only if it's in your graveyard when the creatures deal combat damage to a player. Notably, if Pyrewild Shaman is dealt lethal damage at the same time that a creature you control deals combat damage to a player, Pyrewild Shaman's ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/144/pyrewild-shaman) · oracle_id `a1e71473-3eba-4d29-87e2-7f14acab2ccd` · printing: CLU #144 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrewood Gearhulk
 
@@ -407,6 +474,7 @@
   > *A mighty memorial to a fallen savior.*
 - **Keywords:** Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8361 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/216/pyrewood-gearhulk) · oracle_id `c4c6083a-b0b5-4c6b-9f11-9f4fe38417c2` · printing: DFT #216 (2025-02-14) · [rulings](https://api.scryfall.com/cards/3d8493ee-bd06-4583-9908-a0dbcc5be6d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyre Zombie
@@ -418,6 +486,7 @@
   > At the beginning of your upkeep, if this card is in your graveyard, you may pay {1}{B}{B}. If you do, return it to your hand.
   > {1}{R}{R}, Sacrifice this creature: It deals 2 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28789 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/194/pyre-zombie) · oracle_id `accb82be-4f90-4d9a-bafd-f8de3622b3a3` · printing: DMR #194 (2023-01-13) · [rulings](https://api.scryfall.com/cards/49c2db45-0ef7-45c8-ac65-eb785c173bd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyric Salamander
@@ -431,6 +500,7 @@
   > *When you've been chased by a dragon, you run from every lizard.*
   > *—Suq'Ata saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32273 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/187/pyric-salamander) · oracle_id `745a2815-8487-4b78-93b7-d1d4ef6adc8f` · printing: MIR #187 (1996-10-08) · [rulings](https://api.scryfall.com/cards/7f2dc1a7-4b70-4643-90a8-fdc7877c01ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrite Spellbomb
@@ -444,6 +514,7 @@
   > *"Melt that which was never frozen."*
   > *—Spellbomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8378 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/283/pyrite-spellbomb) · oracle_id `2c10cae2-951a-4f4f-94e4-8713b58d07dd` · printing: 2XM #283 (2020-08-07) · [rulings](https://api.scryfall.com/cards/088c801d-381f-403b-aeb7-fbbfafee99bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroblast
@@ -457,7 +528,10 @@
 - **Flavor text** (EMA printing):
   > *Water can be crushing, but it is predictable. Fire is always dynamic, its rage absolute and all-consuming.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #479 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · [rulings](https://api.scryfall.com/cards/b029eb9a-dd7a-40c2-96c4-0063d9cc002c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
+  - *2016-06-08* — Pyroblast can target any spell or permanent, not just a blue one. It checks the color of the target only on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroceratops
 
@@ -471,7 +545,9 @@
   > *"I always thought wizards were supposed to have owls or one-eyed cats for familiars, but flaming dinosaurs work, too."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/130/pyroceratops) · oracle_id `b5306bf4-0cba-48dd-8af8-7c7821db7e02` · printing: IKO #130 (2020-04-24) · [rulings](https://api.scryfall.com/cards/f6599645-dbb5-4174-bd26-8556af6d89c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/130/pyroceratops) · oracle_id `b5306bf4-0cba-48dd-8af8-7c7821db7e02` · printing: IKO #130 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroclasm
 
@@ -483,6 +559,7 @@
   > *"In my younger days, I would meticulously catalog all the terrors I encountered. These days, I mostly just kill them with fire."*
   > *—Rip, spawn hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/149/pyroclasm) · oracle_id `e4bcd4ea-e7cd-4471-8f3b-18bb51d3d70c` · printing: DSK #149 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4391b0af-2f26-4a45-9e2a-5bd8e9838107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroclast Consul
@@ -494,7 +571,14 @@
   > Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, this creature deals 2 damage to each creature.
 - **Keywords:** Kinship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/96/pyroclast-consul) · oracle_id `095ec64c-390a-4d21-a29c-590e0147938e` · printing: MOR #96 (2008-02-01) · [rulings](https://api.scryfall.com/cards/17a1c7c8-1acd-4219-a272-69e855517a74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/96/pyroclast-consul) · oracle_id `095ec64c-390a-4d21-a29c-590e0147938e` · printing: MOR #96 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroclastic Elemental
 
@@ -507,6 +591,7 @@
   > *"Whoever thought of making mobile volcanoes was a genius."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30254 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/356/pyroclastic-elemental) · oracle_id `1f37e3a6-ce3a-472f-ac45-0d9b23a31a11` · printing: JMP #356 (2020-07-17) · [rulings](https://api.scryfall.com/cards/15148b4e-19e2-4e39-8e6f-1dc94ea03463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroclastic Hellion
@@ -520,7 +605,10 @@
   > *"The difference between a hellion and a volcano is that volcanoes don't get hungry."*
   > *—Sachir, Akoum Expeditionary House*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27039 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/152/pyroclastic-hellion) · oracle_id `b2151d51-39f6-49cc-a5cc-8202dd028336` · printing: ZNR #152 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5929c89b-8c61-47f5-a8ec-b64bf41e9d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — In a Two-Headed Giant game, Pyroclastic Hellion’s ability causes the opposing team to lose 4 life.
+  - *2020-09-25* — While resolving Pyroclastic Hellion’s ability, you can’t return more than one land to have it deal more damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/152/pyroclastic-hellion) · oracle_id `b2151d51-39f6-49cc-a5cc-8202dd028336` · printing: ZNR #152 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroconvergence
 
@@ -532,7 +620,10 @@
   > *"The Izzet are an equation that turns lunacy into explosions."*
   > *—Leonos, Azorius arbiter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/103/pyroconvergence) · oracle_id `8da5c156-3688-4d6e-b5c4-95c082d1b426` · printing: RTR #103 (2012-10-05) · [rulings](https://api.scryfall.com/cards/6cff95b7-79eb-4796-9a01-31ff355681ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — The hybrid spells in the Return to Ravnica set are multicolored, even if you cast them with one color of mana.
+  - *2012-10-01* — The triggered ability will resolve and Pyroconvergence will deal damage before that spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/103/pyroconvergence) · oracle_id `8da5c156-3688-4d6e-b5c4-95c082d1b426` · printing: RTR #103 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrogoyf
 
@@ -543,7 +634,12 @@
   > Pyrogoyf's power is equal to the number of card types among cards in all graveyards and its toughness is equal to that number plus 1.
   > Whenever this creature or another Lhurgoyf creature you control enters, that creature deals damage equal to its power to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aa2/12/pyrogoyf) · oracle_id `7fd7457a-388d-4cca-a7cf-86b4ea922037` · printing: AA2 #12 (2025-08-19) · [rulings](https://api.scryfall.com/cards/7802a658-1d55-4cb7-baa9-eb53e534f723/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — Card types that can appear on cards in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Lhurgoyf, Forest, and Siege are subtypes, not card types.
+  - *2024-06-07* — If Pyrogoyf or the relevant Lhurgoyf creature leaves the battlefield while Pyrogoyf's last ability is on the stack, use its power as it last existed on the battlefield to determine how much damage is dealt.
+  - *2024-06-07* — The ability that defines Pyrogoyf's power and toughness counts card types, not cards. If the only card in all graveyards is a single artifact creature card, Pyrogoyf will be a 2/3. If the cards in all graveyards are ten artifact cards and ten creature cards, Pyrogoyf will still be a 2/3.
+  - *2024-06-07* — The ability that defines Pyrogoyf's power and toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aa2/12/pyrogoyf) · oracle_id `7fd7457a-388d-4cca-a7cf-86b4ea922037` · printing: AA2 #12 (2025-08-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrohemia
 
@@ -553,7 +649,11 @@
   > At the beginning of the end step, if no creatures are on the battlefield, sacrifice this enchantment.
   > {R}: This enchantment deals 1 damage to each creature and each player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/86/pyrohemia) · oracle_id `9ac57a10-3402-4656-9079-f713884cde35` · printing: CMA #86 (2017-06-09) · [rulings](https://api.scryfall.com/cards/ad840567-c3ac-4e14-b398-0d11c88931bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Each activation is considered a new damage effect. An activation can only be 1 point of damage.
+  - *2011-06-01* — It will stay on the battlefield if there is a creature that is put into the graveyard during the end step. This is because this ability will not trigger at all if there is at least one creature on the battlefield as the end step begins.
+  - *2011-06-01* — Note that "until end of turn" effects wear off after "at the beginning of the end step" triggered abilities, so an artifact that animates until end of turn can keep this on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/86/pyrohemia) · oracle_id `9ac57a10-3402-4656-9079-f713884cde35` · printing: CMA #86 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrokinesis
 
@@ -563,7 +663,11 @@
   > You may exile a red card from your hand rather than pay this spell's mana cost.
   > Pyrokinesis deals 4 damage divided as you choose among any number of target creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/143/pyrokinesis) · oracle_id `d001febc-d511-4e65-a631-91dc9415056b` · printing: EMA #143 (2016-06-10) · [rulings](https://api.scryfall.com/cards/25f98f02-9ada-4561-93fd-9cfcb0f48b5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-06-08* — Each target must be assigned at least 1 damage.
+  - *2016-06-08* — If another effect causes Pyrokinesis to cost more, you must pay that additional cost even if you pay its alternative cost.
+  - *2016-06-08* — You divide the damage as you cast Pyrokinesis, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, Pyrokinesis doesn’t resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/143/pyrokinesis) · oracle_id `d001febc-d511-4e65-a631-91dc9415056b` · printing: EMA #143 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer Ascension
 
@@ -573,7 +677,19 @@
   > Whenever you cast an instant or sorcery spell that has the same name as a card in your graveyard, you may put a quest counter on this enchantment.
   > Whenever you cast an instant or sorcery spell while this enchantment has two or more quest counters on it, you may copy that spell. You may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/108/pyromancer-ascension) · oracle_id `85845b6c-abb5-4591-b987-a375972cf25b` · printing: MM3 #108 (2017-03-17) · [rulings](https://api.scryfall.com/cards/0f9cea68-4390-4d73-a374-d6299cbc9271/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-03-14* — If Pyromancer Ascension’s first ability triggers, you’ll put a quest counter on it even if the card in your graveyard leaves your graveyard by the time the ability resolves or if the spell you cast is countered.
+  - *2017-03-14* — If either of Pyromancer Ascension’s abilities triggers, it will go on the stack on top of the spell that caused it to trigger. The ability will resolve first. If it’s Pyromancer Ascension’s second ability that triggered, the copy it creates will also resolve before the original spell. The copy is created even if the original spell has been countered.
+  - *2017-03-14* — If the spell has damage divided as it was cast (like Fiery Justice does), the division can’t be changed (although the targets receiving that damage still can).
+  - *2017-03-14* — If the spell that’s copied has an X whose value was determined as it was cast (like Bonfire of the Damned does), the copy will have the same value of X.
+  - *2017-03-14* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A different mode cannot be chosen.
+  - *2017-03-14* — If you cast an instant or sorcery spell from your graveyard (due to an ability such as flashback, for example), Pyromancer Ascension’s first ability won’t trigger unless another card with the same name is in your graveyard.
+  - *2017-03-14* — Pyromancer Ascension’s second ability can copy any instant or sorcery spell, not just one with targets.
+  - *2017-03-14* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
+  - *2017-03-14* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2017-03-14* — The second ability triggers only if Pyromancer Ascension already has two quest counters on it at the time you cast an instant or sorcery spell. This means a spell can’t cause the second counter to be put on Pyromancer Ascension and then become copied. It also means a player can’t remove Pyromancer Ascension in response to you casting an instant or sorcery spell in order to prevent the ability from triggering.
+  - *2017-03-14* — You can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/108/pyromancer-ascension) · oracle_id `85845b6c-abb5-4591-b987-a375972cf25b` · printing: MM3 #108 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer's Assault
 
@@ -584,7 +700,9 @@
 - **Flavor text** (OGW printing):
   > *Never ask a pyromancer if that's the best she's got.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/115/pyromancers-assault) · oracle_id `87038d1b-0fa9-4604-b119-1de56db30144` · printing: OGW #115 (2016-01-22) · [rulings](https://api.scryfall.com/cards/b2c8dad1-278c-4ced-8124-5593b140d361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — The ability can trigger only once each turn. The ability will resolve before the second spell resolves. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/115/pyromancers-assault) · oracle_id `87038d1b-0fa9-4604-b119-1de56db30144` · printing: OGW #115 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer's Gauntlet
 
@@ -595,7 +713,11 @@
 - **Flavor text** (M14 printing):
   > *An inferno is just a gesture away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15941 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/214/pyromancers-gauntlet) · oracle_id `5cbb70e7-a52c-4b35-bc31-d9a0a7df893c` · printing: M14 #214 (2013-07-19) · [rulings](https://api.scryfall.com/cards/9bde6763-2102-4adb-8048-fc9fe921205b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — If all damage from a source is prevented (because of Pay No Heed, for example) or if a source would deal 0 damage, the effect of Pyromancer’s Gauntlet will not apply as that source is no longer dealing damage.
+  - *2013-07-01* — If damage is being dealt to multiple players and/or permanents at the same time, the damage being dealt to each one is increased by 2.
+  - *2013-07-01* — Pyromancer’s Gauntlet doesn’t change the source or recipient of the damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/214/pyromancers-gauntlet) · oracle_id `5cbb70e7-a52c-4b35-bc31-d9a0a7df893c` · printing: M14 #214 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer's Goggles
 
@@ -606,7 +728,18 @@
 - **Flavor text** (FDN printing):
   > *Chandra treasures her mentor's goggles, not for their magical properties, but for the memory of the woman who taught her to truly harness the power of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/677/pyromancers-goggles) · oracle_id `f76bcbfe-483f-4e63-8425-76feca1abf3e` · printing: FDN #677 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f340d8a4-196a-4433-807c-b7124e96e44f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-11-08* — A copy is created even if the spell cast with the red mana produced by Pyromancer's Goggles has been countered or otherwise left the stack without resolving by the time that ability resolves. The copy resolves before the original spell.
+  - *2024-11-08* — Any red instant or sorcery spell you spend the mana on will be copied, not just one that requires targets.
+  - *2024-11-08* — If more than one red mana produced by a Pyromancer's Goggles is spent to cast a single red instant or sorcery spell, the delayed triggered ability associated with each mana spent will trigger. That many copies will be created. It doesn't matter if this red mana was produced by one Pyromancer's Goggles or by multiple Pyromancer's Goggles.
+  - *2024-11-08* — If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2024-11-08* — If the copied spell is modal (that is, it says "Choose one –" or the like), the copy will have the same mode or modes. You can't choose a different one.
+  - *2024-11-08* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2024-11-08* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2024-11-08* — The delayed triggered ability will trigger whether Pyromancer's Goggles is still on the battlefield or not.
+  - *2024-11-08* — The mana produced by Pyromancer's Goggles can be spent on anything, not just a red instant or sorcery spell.
+  - *2024-11-08* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/677/pyromancers-goggles) · oracle_id `f76bcbfe-483f-4e63-8425-76feca1abf3e` · printing: FDN #677 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer's Swath
 
@@ -616,7 +749,11 @@
   > If an instant or sorcery source you control would deal damage to a permanent or player, it deals that much damage plus 2 to that permanent or player instead.
   > At the beginning of each end step, discard your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13872 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/125/pyromancers-swath) · oracle_id `9931a999-ee1b-465b-a912-9f4697a01014` · printing: MMA #125 (2013-06-07) · [rulings](https://api.scryfall.com/cards/b2ee7137-dbc4-4fe5-802a-42dada4445db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2007-05-01* — If all damage from a source is prevented (because of Pay No Heed, for example) or if a source would deal 0 damage, the effect of Pyromancer’s Swath will not apply as that source is no longer dealing damage.
+  - *2007-05-01* — If damage is being dealt to multiple creatures and/or players at the same time, the damage being dealt to each one is increased by 2.
+  - *2007-05-01* — Pyromancer’s Swath doesn’t change the source or recipient of the damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/125/pyromancers-swath) · oracle_id `9931a999-ee1b-465b-a912-9f4697a01014` · printing: MMA #125 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancy
 
@@ -628,7 +765,10 @@
   > *Who harnesses fire controls the world.*
   > *—Ghitu proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/88/pyromancy) · oracle_id `71a176ce-cbe7-4cec-a2ca-58abf59ad964` · printing: ULG #88 (1999-02-15) · [rulings](https://api.scryfall.com/cards/35a91a58-cc8b-47a3-8c53-43c32753a00d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A card with X in the cost is treated as X=0.
+  - *2004-10-04* — You pick the target before you know which card is going to be discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/88/pyromancy) · oracle_id `71a176ce-cbe7-4cec-a2ca-58abf59ad964` · printing: ULG #88 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancy 101
 
@@ -638,7 +778,19 @@
   > Pyromancy 101 deals 1 damage to any target.
   > Teach {1}{R} (Then exile this spell taught to a creature you control. For as long as this card remains exiled, that creature has "{T}: Copy the exiled card. You may cast the copy for its teach cost.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/566/pyromancy-101) · oracle_id `05cae189-f0c5-403b-9216-262ff186c92d` · printing: MB2 #566 (2024-08-02) · [rulings](https://api.scryfall.com/cards/70d1834c-c01a-44db-9368-fd285dbf08a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If Pyromancy 101 is countered or otherwise fails to resolve (probably because the target became illegal), none of its effects will happen, including teach. The card will go to its owner’s graveyard and won’t be exiled.
+  - *2024-11-08* — If the taught creature leaves the battlefield, Pyromancy 101 will stay exiled but won’t be taught to any other creature.
+  - *2024-11-08* — If you choose not to cast the copy or you can’t cast it (perhaps because there are no legal targets available), it will cease to exist the next time state-based actions are performed.
+  - *2024-11-08* — If you control any creatures as Pyromancy 101 resolves, you must exile it taught to one of those creatures. You can’t choose not to teach it. If you don’t control any creatures as the spell resolves, instead Pyromancy 101 is exiled but taught to nobody.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — Pyromancy 101 is exiled taught to the chosen creature as part of that spell’s resolution, just after its other effects. It goes directly from the stack to exile. It never goes to the graveyard.
+  - *2024-11-08* — The copy of Pyromancy 101 created by the granted activated ability can’t be taught after it resolves.
+  - *2024-11-08* — The copy of Pyromancy 101 created by the granted activated ability is created and cast from exile. You cast that copy during the resolution of the activated ability. Ignore timing restrictions based on its type.
+  - *2024-11-08* — You choose the creature to teach as Pyromancy 101 resolves. The teach ability doesn’t target that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/566/pyromancy-101) · oracle_id `05cae189-f0c5-403b-9216-262ff186c92d` · printing: MB2 #566 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromania
 
@@ -648,6 +800,7 @@
   > {1}{R}, Discard a card at random: This enchantment deals 1 damage to any target.
   > {1}{R}, Sacrifice this enchantment: It deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/112/pyromania) · oracle_id `2c89cf19-8dc6-422e-bbf8-4dd5a399c630` · printing: TOR #112 (2002-02-04) · [rulings](https://api.scryfall.com/cards/6a5af4e9-a2b6-43c7-8ff4-e761fbf693a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromantic Pilgrim
@@ -661,6 +814,7 @@
   > *"From the volcanoes of Shiv to the Balduvian steppes, I have sought a worthy teacher. At last, I have found one."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/278/pyromantic-pilgrim) · oracle_id `24d52cf1-d4f1-4b4c-a50b-87d3ba0aeebb` · printing: DOM #278 (2018-04-27) · [rulings](https://api.scryfall.com/cards/f670d02b-9bfc-4671-97ed-59bfbe633d82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromatics
@@ -672,6 +826,7 @@
   > Pyromatics deals 1 damage to any target.
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/20/pyromatics) · oracle_id `9c01e2a6-61e7-455c-b09f-8c0de2266782` · printing: DDJ #20 (2012-09-07) · [rulings](https://api.scryfall.com/cards/795a7929-2c32-4006-bdf1-def0a4400f59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrophobia
@@ -684,7 +839,10 @@
   > *"I hate this! I hate fire! I hate you for taking me on this route!"*
   > *—Norin the Wary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23011 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/141/pyrophobia) · oracle_id `fa70903d-3c8b-49f7-8817-f708b5ba250f` · printing: MH1 #141 (2019-06-14) · [rulings](https://api.scryfall.com/cards/ff02b3f1-d70f-4e44-bc1c-7fc90ec611dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Because it doesn't modify the characteristics of creatures, Pyrophobia can affect Cowards that enter the battlefield or creatures that become Cowards after the spell resolves.
+  - *2019-06-14* — If the target creature is an illegal target by the time Pyrophobia tries to resolve, the spell doesn't resolve. Cowards can block if they're otherwise allowed to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/141/pyrophobia) · oracle_id `fa70903d-3c8b-49f7-8817-f708b5ba250f` · printing: MH1 #141 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrostatic Pillar
 
@@ -693,6 +851,7 @@
 - **Oracle text:**
   > Whenever a player casts a spell with mana value 3 or less, this enchantment deals 2 damage to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12437 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/100/pyrostatic-pillar) · oracle_id `3b5b87da-5a00-449a-97ef-fa1e2c1c4b4b` · printing: SCG #100 (2003-05-26) · [rulings](https://api.scryfall.com/cards/5973cd53-f6cd-4edc-b952-f6d3eef97988/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrotechnic Performer
@@ -707,7 +866,21 @@
   > *"Let's get this party started."*
 - **Keywords:** Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/140/pyrotechnic-performer) · oracle_id `78f9ec0f-6015-4024-aca6-9a14cba373fa` · printing: MKM #140 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0fa5671b-2651-4944-a50a-c768ec70229e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a creature that is turned face up leaves the battlefield before Pyrotechnic Performer's triggered ability resolves, use that creature's power as it last existed on the battlefield to determine how much damage it deals.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/140/pyrotechnic-performer) · oracle_id `78f9ec0f-6015-4024-aca6-9a14cba373fa` · printing: MKM #140 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrotechnics
 
@@ -719,7 +892,11 @@
   > *"Take inspiration from your enemies, and make their strengths your own."*
   > *—Alesha, Who Smiles at Death*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/111/pyrotechnics) · oracle_id `794b9ddf-1660-441f-9cc2-a0f5d4d0cf22` · printing: FRF #111 (2015-01-23) · [rulings](https://api.scryfall.com/cards/51893dd5-e70f-44bb-85d4-e31480ba84d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-24* — If an effect creates a copy of Pyrotechnics, the number of targets and division of damage can’t be changed. The effect that creates the copy may allow you to change the targets, however.
+  - *2014-11-24* — If some but not all of Pyrotechnics’s targets become illegal, you can’t change the division of damage. Damage that would have been dealt to illegal targets simply isn’t dealt.
+  - *2014-11-24* — You choose how the damage is divided as you cast the spell, not as it resolves. Each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/111/pyrotechnics) · oracle_id `794b9ddf-1660-441f-9cc2-a0f5d4d0cf22` · printing: FRF #111 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrrhic Blast
 
@@ -731,7 +908,11 @@
 - **Flavor text** (BRO printing):
   > *Only the quartermaster wept for their loss.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/148/pyrrhic-blast) · oracle_id `98ec58aa-8776-4a19-bff8-e288a9bd6bac` · printing: BRO #148 (2022-11-18) · [rulings](https://api.scryfall.com/cards/a523d5a7-58b1-45a3-81a7-078da02fda16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.
+  - *2022-10-14* — The sacrificed creature's last known existence on the battlefield is checked to determine its power.
+  - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/148/pyrrhic-blast) · oracle_id `98ec58aa-8776-4a19-bff8-e288a9bd6bac` · printing: BRO #148 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrrhic Revival
 
@@ -742,7 +923,9 @@
 - **Flavor text** (EVE printing):
   > *They found themselves alive again, still bearing their mortal wounds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26353 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/93/pyrrhic-revival) · oracle_id `e8daf155-1fc9-4a0e-a7b5-69a50bc23576` · printing: EVE #93 (2008-07-25) · [rulings](https://api.scryfall.com/cards/fae92d23-2028-450c-9598-6932a71f8c32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — Pyrrhic Revival can cause creatures to be put onto the battlefield that have 0 toughness due to the -1/-1 counter from this effect. Those creatures are put right back into their owners' graveyards as a state-based action. No spells or abilities that would remove counters or otherwise affect those creatures can be cast or activated before that happens. Still, the creatures did momentarily pop onto the battlefield, so any relevant triggered abilities (including their own "enters" or leaves-the-battlefield abilities) will trigger. They'll be put on the stack after state-based actions are checked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/93/pyrrhic-revival) · oracle_id `e8daf155-1fc9-4a0e-a7b5-69a50bc23576` · printing: EVE #93 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrrhic Strike
 
@@ -755,7 +938,14 @@
   > • Destroy target creature with mana value 3 or greater.
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/30/pyrrhic-strike) · oracle_id `5ea1d89c-8650-4373-9835-e369587020ef` · printing: ECL #30 (2026-01-23) · [rulings](https://api.scryfall.com/cards/cce5b16d-07fb-4e64-8ec9-b8b29ba86cff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/30/pyrrhic-strike) · oracle_id `5ea1d89c-8650-4373-9835-e369587020ef` · printing: ECL #30 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Python
 
@@ -768,6 +958,7 @@
   > *"How can you claim the gods are merciless when they robbed the snake of its limbs to give the other creatures a sporting chance?"*
   > *—Hakim, Loreweaver*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/150/python) · oracle_id `d8a0c3ff-7042-4b52-a216-15e170c8094f` · printing: 6ED #150 (1999-04-21) · [rulings](https://api.scryfall.com/cards/84fbe194-1d9b-4d3f-b7a0-aa058945aca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyxis of Pandemonium
@@ -778,4 +969,7 @@
   > {T}: Each player exiles the top card of their library face down.
   > {7}, {T}, Sacrifice this artifact: Each player turns face up all cards they own exiled with this artifact, then puts all permanent cards among them onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/220/pyxis-of-pandemonium) · oracle_id `4b746fe1-4c11-4dfd-bdc9-edd394478861` · printing: THS #220 (2013-09-27) · [rulings](https://api.scryfall.com/cards/dbc6a246-f32a-4dc0-9785-4038804f372f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — If Pyxis of Pandemonium leaves the battlefield, and later another Pyxis of Pandemonium enters the battlefield, it is a new object (even if the two were represented the same card). Cards exiled by the original one can't be turned face up or put onto the battlefield by the second one.
+  - *2013-09-15* — Neither player can look at cards exiled with Pyxis of Pandemonium until those cards are turned face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/220/pyxis-of-pandemonium) · oracle_id `4b746fe1-4c11-4dfd-bdc9-edd394478861` · printing: THS #220 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

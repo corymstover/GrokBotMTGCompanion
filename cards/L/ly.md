@@ -40,6 +40,7 @@
   > *—Vargard Obyron of the Sautekh Dynasty*
 - **Keywords:** Guardian Protocols
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/39/lychguard) · oracle_id `e82daa7b-d9fd-48c4-b5b2-f3b1f6ef1a24` · printing: 40K #39 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6737a276-b5e9-4c55-b995-ada96eca4e6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lydia Frye
@@ -52,7 +53,10 @@
   > At the beginning of your end step, surveil X, where X is the number of tapped Assassins you control. (Look at the top X cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7490 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/60/lydia-frye) · oracle_id `0315f5e7-2867-428e-8e43-66dda0db57a0` · printing: ACR #60 (2024-07-05) · [rulings](https://api.scryfall.com/cards/9dd6c700-f961-484a-8fe2-57107f5b7717/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Once Lydia Frye has been blocked, increasing the blocking creature’s power to 3 or greater won’t cause Lydia Frye to become unblocked.
+  - *2024-07-05* — The value of X is calculated only once, as Lydia Frye’s last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/60/lydia-frye) · oracle_id `0315f5e7-2867-428e-8e43-66dda0db57a0` · printing: ACR #60 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyev Decree
 
@@ -64,7 +68,14 @@
   > *The Azorius have so many codes and statutes that you're always in violation of one of them.*
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25618 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/3/lyev-decree) · oracle_id `ace64875-ca4b-45c7-8b46-29ef2f2629dd` · printing: DGM #3 (2013-05-03) · [rulings](https://api.scryfall.com/cards/773cf2aa-4337-4d14-8a8e-ff8b1fdec1b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/3/lyev-decree) · oracle_id `ace64875-ca4b-45c7-8b46-29ef2f2629dd` · printing: DGM #3 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyev Skyknight
 
@@ -76,7 +87,14 @@
   > When this creature enters, detain target nonland permanent an opponent controls. (Until your next turn, that permanent can't attack or block and its activated abilities can't be activated.)
 - **Keywords:** Flying, Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20324 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/246/lyev-skyknight) · oracle_id `191ec087-7817-4c56-b2d5-66de5c663536` · printing: 2X2 #246 (2022-07-08) · [rulings](https://api.scryfall.com/cards/2f3e1033-428a-4263-8813-fdb8bb4b6425/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form "[cost]: [effect]." No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it's detained, it won't be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won't be able to attack or block.
+  - *2013-04-15* — If a permanent's activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player's next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/246/lyev-skyknight) · oracle_id `191ec087-7817-4c56-b2d5-66de5c663536` · printing: 2X2 #246 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyla, Holographic Assistant
 
@@ -88,6 +106,7 @@
 - **Flavor text** (SPE printing):
   > *"I'm a 22nd century Lyrate Life-form Approximation. I already know what you need before you do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6047 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spe/7/lyla-holographic-assistant) · oracle_id `b7fb0141-4fbd-4269-a2e9-92f75ec95271` · printing: SPE #7 (2025-09-26) · [rulings](https://api.scryfall.com/cards/26ea86d7-34f8-4358-8fdf-a18e53397755/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lymph Sliver
@@ -100,7 +119,12 @@
 - **Flavor text** (TSR printing):
   > *Its skin remains in a flowing, liquid state that keeps its body coated with potent restorative lymph.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/25/lymph-sliver) · oracle_id `c3469de8-4bdb-42d4-9fc0-75fe31c3f6e5` · printing: TSR #25 (2021-03-19) · [rulings](https://api.scryfall.com/cards/48b8b4d4-4400-46cc-bd3c-e8a781cfc6f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — If multiple replacement effects apply to a creature being dealt damage, the controller of the creature chooses the order to apply them, not the controller of the source of damage.
+  - *2021-03-19* — If multiple sources would deal damage to a Sliver at once, prevent 1 damage from each of those sources.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/25/lymph-sliver) · oracle_id `c3469de8-4bdb-42d4-9fc0-75fe31c3f6e5` · printing: TSR #25 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyna, Veil of Vengeance
 
@@ -115,6 +139,7 @@
   > *"Phyrexia has much to answer for."*
 - **Keywords:** Shadow
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #23880 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/43/lyna-veil-of-vengeance) · oracle_id `82321fa9-7a95-4c9d-988e-2140eaf1a083` · printing: MBC #43 (2026-10-19) · [rulings](https://api.scryfall.com/cards/b2b98671-737d-4d83-9287-60c51d145821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lynde, Cheerful Tormentor
@@ -128,7 +153,10 @@
   > At the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12367 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/38/lynde-cheerful-tormentor) · oracle_id `dc386f6c-bd4a-462a-8d42-0e7a552a4f17` · printing: MIC #38 (2021-09-24) · [rulings](https://api.scryfall.com/cards/4df484de-4d9b-4a4b-9d10-df993e36f1a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — In a multiplayer game, if a player enchanted by one of your Curses leaves the game, perhaps because they have been tormented too much by Lynde, that Curse will be put into your graveyard and cause Lynde's first triggered ability to trigger.
+  - *2021-09-24* — Lynde's last ability doesn't target, so you can use it to attach a Curse to a player who has hexproof.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/38/lynde-cheerful-tormentor) · oracle_id `dc386f6c-bd4a-462a-8d42-0e7a552a4f17` · printing: MIC #38 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lynx
 
@@ -141,6 +169,7 @@
   > *Rarely seen, hardly heard, never caught.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24726 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/131/lynx) · oracle_id `61652a2d-dfe6-4d4f-8fad-9de1960208cb` · printing: S99 #131 (1999-07-01) · [rulings](https://api.scryfall.com/cards/1c962a7a-8c3b-4343-a6ef-6be1d40ac940/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra, Archangel of Dawn
@@ -155,7 +184,10 @@
   > *She is the radiant sun that shatters darkness.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14823 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/201/lyra-archangel-of-dawn) · oracle_id `0fca3328-484f-4050-925e-91840710b5d6` · printing: FRA #201 (2026-10-02) · [rulings](https://api.scryfall.com/cards/86a3866e-68a8-402c-baf0-1908e98e3995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-08-21* — If an Angel you control is dealt lethal damage at the same time that you gain life, it won't receive a counter from Lyra's ability in time to save it.
+  - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, Lyra's last ability will trigger once for each of those creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/201/lyra-archangel-of-dawn) · oracle_id `0fca3328-484f-4050-925e-91840710b5d6` · printing: FRA #201 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra Dawnbringer
 
@@ -169,7 +201,10 @@
   > Other Angels you control get +1/+1 and have lifelink.
 - **Keywords:** Flying, Lifelink, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1758 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f9fa30b6-3a33-46fd-8b32-ac1cfa41500d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to an Angel you control may become lethal if Lyra leaves the battlefield during that turn.
+  - *2022-12-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra, Tolarian Archangel
 
@@ -184,6 +219,7 @@
   > *Knowledge is radiance.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17973 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/217/lyra-tolarian-archangel) · oracle_id `d9060fff-0b65-4b3d-930d-6e36315b802c` · printing: FRA #217 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a5183681-447b-4023-91f7-00e9338f4417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Bowmaster
@@ -196,7 +232,9 @@
   > Whenever you cast an Elf spell, you may have this creature deal 2 damage to target creature with flying.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/241/lys-alana-bowmaster) · oracle_id `135e6545-4ec5-4136-9019-3fda92052b7a` · printing: CMR #241 (2020-11-20) · [rulings](https://api.scryfall.com/cards/3888e2f0-223b-4509-8071-fe1b87a65b72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/241/lys-alana-bowmaster) · oracle_id `135e6545-4ec5-4136-9019-3fda92052b7a` · printing: CMR #241 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Dignitary
 
@@ -208,7 +246,11 @@
   > {T}: Add {G}{G}. Activate only if there is an Elf card in your graveyard.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/180/lys-alana-dignitary) · oracle_id `ce7582a2-e014-41fb-8753-00d29cffc81a` · printing: ECL #180 (2026-01-23) · [rulings](https://api.scryfall.com/cards/94e8d6a9-7aa3-4e93-8e4d-e50da7ff09d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-11-17* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that's still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-11-17* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/180/lys-alana-dignitary) · oracle_id `ce7582a2-e014-41fb-8753-00d29cffc81a` · printing: ECL #180 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Huntmaster
 
@@ -220,7 +262,9 @@
 - **Flavor text** (KHC printing):
   > *From the highest tiers of Dawn's Light Palace to the deepest shade of Wren's Run, the silver notes of the horn shimmer through the air, and all who hear it feel its pull.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/67/lys-alana-huntmaster) · oracle_id `3f3439e1-75ce-482d-881f-836492dca6e9` · printing: KHC #67 (2021-02-05) · [rulings](https://api.scryfall.com/cards/0849f67b-da5d-49f7-840f-f87f48518156/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — Lys Alana Huntmaster’s ability will resolve before the Elf spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/67/lys-alana-huntmaster) · oracle_id `3f3439e1-75ce-482d-881f-836492dca6e9` · printing: KHC #67 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Informant
 
@@ -233,6 +277,7 @@
   > *While they are no longer the dominant power on Lorwyn, elves still revel in looking down on others.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/181/lys-alana-informant) · oracle_id `b5058b5c-0359-42ec-ba9e-ae1371bb9c22` · printing: ECL #181 (2026-01-23) · [rulings](https://api.scryfall.com/cards/a79649c4-559e-4306-a102-5fd8750629c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Scarblade
@@ -245,7 +290,9 @@
 - **Flavor text** (KHC printing):
   > *In beauty-obsessed Lys Alana, one cut of her blade means the difference between a high society feast and raking through the dungheap for scraps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13674 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/50/lys-alana-scarblade) · oracle_id `b7ebd207-43e3-49eb-86ca-b5987ef9e22f` · printing: KHC #50 (2021-02-05) · [rulings](https://api.scryfall.com/cards/58b3b63d-fabb-46ad-aabe-1e9fb34b4f8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — The number of Elves you control is counted only as Lys Alana Scarblade’s ability resolves. If Lys Alana Scarblade is still on the battlefield, it’ll count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/50/lys-alana-scarblade) · oracle_id `b7ebd207-43e3-49eb-86ca-b5987ef9e22f` · printing: KHC #50 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyse Hext
 
@@ -258,7 +305,11 @@
   > As long as you've cast two or more noncreature spells this turn, Lyse Hext has double strike.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3395 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/88/lyse-hext) · oracle_id `47bce63e-8edb-43c1-b273-4b86da5c616b` · printing: FIC #88 (2025-06-13) · [rulings](https://api.scryfall.com/cards/97845ece-ceef-468c-a4e3-6fde1413c9f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — Noncreature spells that were cast before Lyse Hext entered count. For example, if Lyse Hext enters on a turn where you've already cast two noncreature spells, she'll have double strike immediately.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of noncreature spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Lyse Hext's second ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/88/lyse-hext) · oracle_id `47bce63e-8edb-43c1-b273-4b86da5c616b` · printing: FIC #88 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyzolda, the Blood Witch
 
@@ -270,4 +321,7 @@
 - **Flavor text** (DIS printing):
   > *Sacrificial rites take place before an audience of cheering cultists, each begging to be the next on stage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19068 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/117/lyzolda-the-blood-witch) · oracle_id `0d80caeb-d2c2-4d0a-b903-dea170fee2cf` · printing: DIS #117 (2006-05-05) · [rulings](https://api.scryfall.com/cards/18df285f-4cb9-4998-bd26-eefbe28f80c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — You can sacrifice any creature you control to pay for this ability. If the creature was neither red nor black, the ability has no effect.
+  - *2006-05-01* — You must choose a target for the ability, even if the creature you sacrifice isn't red. If the target becomes illegal before the ability resolves, the ability won't resolve; you won't draw a card, even if the creature you sacrificed was black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/117/lyzolda-the-blood-witch) · oracle_id `0d80caeb-d2c2-4d0a-b903-dea170fee2cf` · printing: DIS #117 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

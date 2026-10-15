@@ -22,4 +22,6 @@
   > *Tzeentch's beastmen twist reality as they themselves are twisted.*
 - **Keywords:** Flying, Sorcerous Elixir
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/146/tzaangor-shaman) · oracle_id `1d55a1c5-fd0b-44d2-9e7c-550052fef262` · printing: 40K #146 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b7b8c9d1-34a2-4754-904a-c7d061a6ce0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If Tzaangor Shaman deals combat damage to a player more than one time in a turn, perhaps because it has gained double strike, its delayed triggered ability will trigger that many times when you cast your next instant or sorcery spell this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/146/tzaangor-shaman) · oracle_id `1d55a1c5-fd0b-44d2-9e7c-550052fef262` · printing: 40K #146 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

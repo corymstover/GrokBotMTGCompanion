@@ -21,4 +21,5 @@
   > −7: Each player shuffles their hand and graveyard into their library, then draws seven cards.
   > Arzakon can be your commander.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20978 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/33/arzakon) · oracle_id `a95d29b9-c30b-4e63-afcb-dec7ed522c5a` · printing: MBC #33 (2026-10-19) · [rulings](https://api.scryfall.com/cards/85f81500-1b1b-47e7-93a1-db5f6de95e87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

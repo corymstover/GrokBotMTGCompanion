@@ -22,7 +22,11 @@
   > Whenever Xyris deals combat damage to a player, you and that player each draw that many cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4639 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/175/xyris-the-writhing-storm) · oracle_id `8687948c-456b-495b-9b31-f818c65624b6` · printing: DMC #175 (2022-09-09) · [rulings](https://api.scryfall.com/cards/af0db1d6-5cb1-4917-8e8f-69d5dc184404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library and the number of cards in that player's library, you both lose the game at the same time. It doesn't matter if one of you had more cards in library than the other. If there are no other players left in the game, the game is a draw.
+  - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library but causes the defending player's life total to become 0 or less, that player loses the game before Xyris's ability causes you to draw cards. If there are no other players left in the game, you win the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/175/xyris-the-writhing-storm) · oracle_id `8687948c-456b-495b-9b31-f818c65624b6` · printing: DMC #175 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xyru Specter
 
@@ -34,4 +38,7 @@
   > Whenever Xyru Specter deals damage to an opponent, that player discards a card unless they challenge you. If challenged, and you show them two black cards in your hand, they must discard two cards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/51/xyru-specter) · oracle_id `3b544e2b-a79b-4725-9f85-ccaa3702f371` · printing: CMB2 #51 (2021-08-20) · [rulings](https://api.scryfall.com/cards/35db376d-187c-4f88-a784-4cfde5292499/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-11-12* — If you’re challenged, you may reveal any number of cards from your hand. The effect that allowed a player to challenge you will specify what you must reveal to win the challenge.
+  - *2019-11-12* — “Summon” isn’t a card type. Xyru Specter is a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/51/xyru-specter) · oracle_id `3b544e2b-a79b-4725-9f85-ccaa3702f371` · printing: CMB2 #51 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

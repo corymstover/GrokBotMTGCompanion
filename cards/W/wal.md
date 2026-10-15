@@ -107,6 +107,7 @@
   > {1}{U}: Return target Ninja you control to its owner's hand. Activate only during your turn.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11216 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/27/walker-of-secret-ways) · oracle_id `451a3f52-9810-4137-93b1-9594e7727c29` · printing: PCA #27 (2016-11-25) · [rulings](https://api.scryfall.com/cards/7c193b1b-2819-43c4-bda0-8c27ec6e5efa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walker of the Grove
@@ -119,7 +120,14 @@
   > Evoke {4}{G} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/191/walker-of-the-grove) · oracle_id `02d69413-e040-46b1-8f58-69bde666329d` · printing: UMA #191 (2018-12-07) · [rulings](https://api.scryfall.com/cards/ab879034-2400-4451-9ba2-0325f61db537/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That's because they affect the total cost of the spell, not its mana cost.
+  - *2008-04-01* — Evoke doesn't change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke.
+  - *2008-04-01* — If a creature spell cast with evoke changes controllers before it enters, it will still be sacrificed when it enters. Similarly, if a creature cast with evoke changes controllers after it enters but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability.
+  - *2008-04-01* — If you're casting a spell "without paying its mana cost," you can't use its evoke ability.
+  - *2008-04-01* — When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
+  - *2008-04-01* — Whether evoke's sacrifice ability triggers when the creature enters depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/191/walker-of-the-grove) · oracle_id `02d69413-e040-46b1-8f58-69bde666329d` · printing: UMA #191 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walker of the Wastes
 
@@ -134,7 +142,9 @@
   > *In the absence of life, something yet grows.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/10/walker-of-the-wastes) · oracle_id `fb818376-6e87-4aa3-a050-4b5f82942593` · printing: OGW #10 (2016-01-22) · [rulings](https://api.scryfall.com/cards/34f635ac-ad6d-4a13-a08e-64c8e2b9779c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — The last ability applies only if Walker of the Wastes is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/10/walker-of-the-wastes) · oracle_id `fb818376-6e87-4aa3-a050-4b5f82942593` · printing: OGW #10 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walk-In Closet // Forgotten Cellar
 
@@ -146,7 +156,29 @@
   > When you unlock this door, you may cast spells from your graveyard this turn, and if a card would be put into your graveyard from anywhere this turn, exile it instead.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/205/walk-in-closet-forgotten-cellar) · oracle_id `52e77cc3-f8e9-4a20-811b-fe1e46a96ad7` · printing: DSK #205 (2024-09-27) · [rulings](https://api.scryfall.com/cards/0adcd4e5-d542-4293-8774-ace2305ef820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Cards that would be put into your graveyard on the turn Forgotten Cellar's ability resolves are exiled even if you didn't play them this turn.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — Forgotten Cellar's ability won't stop tokens from going to your graveyard as normal (and ceasing to exist shortly thereafter, also as normal).
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — Walk-In Closet's ability doesn't allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2024-09-20* — Walk-In Closet's ability doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+  - *2024-09-20* — You pay all costs and follow all timing rules for spells cast from your graveyard with the permission granted by Forgotten Cellar's ability. You may pay alternative costs, such as impending costs, rather than the spell's mana cost. You may pay optional additional costs, such as kicker, and if there are any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/205/walk-in-closet-forgotten-cellar) · oracle_id `52e77cc3-f8e9-4a20-811b-fe1e46a96ad7` · printing: DSK #205 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Archive
 
@@ -160,6 +192,7 @@
   > {2}{W}{U}: Put a +1/+1 counter on this creature.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12502 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/169/walking-archive) · oracle_id `e2998b41-0822-4e9c-b8b1-f47c400176e9` · printing: DIS #169 (2006-05-05) · [rulings](https://api.scryfall.com/cards/c390e074-bd30-4564-a39a-176af7df79f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Atlas
@@ -172,7 +205,10 @@
 - **Flavor text** (WWK printing):
   > *Crafted by lullmages and bound to the land, it alters itself to match the tumultuous terrain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2939 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/131/walking-atlas) · oracle_id `855a4837-7fc8-4b97-afbd-daa88e322c89` · printing: WWK #131 (2010-02-05) · [rulings](https://api.scryfall.com/cards/53515042-e729-4a7c-ac3b-36ef70dbbe8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — Putting a land onto the battlefield as a result of Walking Atlas’s ability isn’t the same as playing a land. You may do put a land onto the battlefield even if it’s an opponent’s turn or you’ve played a land this turn. Similarly, putting a land onto the battlefield during your turn doesn’t preclude you from playing a land later in that turn.
+  - *2010-03-01* — The word “artifact” was inadvertently omitted from Walking Atlas’s type line. The card has received errata to correct this omission; it is an artifact creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/131/walking-atlas) · oracle_id `855a4837-7fc8-4b97-afbd-daa88e322c89` · printing: WWK #131 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Ballista
 
@@ -184,7 +220,10 @@
   > {4}: Put a +1/+1 counter on this creature.
   > Remove a +1/+1 counter from this creature: It deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/306/walking-ballista) · oracle_id `4b515bb0-f275-4400-8032-3173b799ab40` · printing: 2XM #306 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5272436e-74f0-44c4-a291-ea8ebc3f1525/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — A casting cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {6} to cast Walking Ballista.
+  - *2020-08-07* — If Walking Ballista has been dealt damage or had its toughness reduced by an effect, this limits how many times you'll be able to remove +1/+1 counters from it in a single turn. For example, if it has three +1/+1 counters on it and has been dealt 1 damage this turn, it will be destroyed immediately after you activate the ability a second time and you won't be able to activate it a third time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/306/walking-ballista) · oracle_id `4b515bb0-f275-4400-8032-3173b799ab40` · printing: 2XM #306 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Bulwark
 
@@ -196,7 +235,9 @@
   > {2}: Until end of turn, target creature with defender gains haste, can attack as though it didn't have defender, and assigns combat damage equal to its toughness rather than its power. Activate only as a sorcery.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4436 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/334/walking-bulwark) · oracle_id `8ad0d89b-beef-40f7-8ce8-65589e3970be` · printing: TDC #334 (2025-04-11) · [rulings](https://api.scryfall.com/cards/33e94caa-30cb-4f38-b240-7893dd2dc94d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Walking Bulwark’s last ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, since having two creatures fight doesn’t result in combat damage, an effect that causes the affected creature to fight another creature will still use its power to determine how much damage is dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/334/walking-bulwark) · oracle_id `8ad0d89b-beef-40f7-8ce8-65589e3970be` · printing: TDC #334 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Corpse
 
@@ -209,6 +250,7 @@
   > *"Feeding a normal army is a problem of logistics. With zombies, it is an asset. Feeding is why they fight. Feeding is why they are feared."*
   > *—Jadar, ghoulcaller of Nephalia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24098 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/128/walking-corpse) · oracle_id `fea95888-e16a-4209-9cd4-623f7f4d2f67` · printing: M21 #128 (2020-07-03) · [rulings](https://api.scryfall.com/cards/053b59b4-a22c-4228-aadc-ae9da6bb465e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Dead
@@ -222,6 +264,7 @@
   > *The Walking Dead are the remains of freakish experiments by the Necromantic Lords.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29932 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/126/walking-dead) · oracle_id `5791456c-7b3c-4e93-a6d1-94ab01858816` · printing: LEG #126 (1994-06-01) · [rulings](https://api.scryfall.com/cards/d7533a72-77d1-40cd-b3a1-7597d566c428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Desecration
@@ -234,6 +277,7 @@
 - **Flavor text** (ONS printing):
   > *Such sacrilege turns blinding grief into blinding rage.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27332 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/180/walking-desecration) · oracle_id `dab6de91-29c1-4bbc-987f-b0e613999d7f` · printing: ONS #180 (2002-10-07) · [rulings](https://api.scryfall.com/cards/c39f3e91-571a-4990-b1e8-db2a5bac34af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Dream
@@ -247,6 +291,7 @@
 - **Flavor text** (STH printing):
   > *Dreams, by definition, live shorter lives than those who dream them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31873 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/49/walking-dream) · oracle_id `286e7ef1-d763-4b48-8603-a161dcf7efbc` · printing: STH #49 (1998-03-02) · [rulings](https://api.scryfall.com/cards/bd2f906d-b127-400a-809b-449f1e7f647b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Sarcophagus
@@ -261,7 +306,14 @@
   > *The warrior rose in a very different world from the one he'd left behind.*
 - **Keywords:** Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/246/walking-sarcophagus) · oracle_id `791b8ac8-8db8-44b4-8c85-fcc9017c17ef` · printing: DFT #246 (2025-02-14) · [rulings](https://api.scryfall.com/cards/89ccbd73-9414-48a3-bdcf-e838fcffc08f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/246/walking-sarcophagus) · oracle_id `791b8ac8-8db8-44b4-8c85-fcc9017c17ef` · printing: DFT #246 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Skyscraper
 
@@ -274,7 +326,11 @@
   > This creature has hexproof as long as it's untapped. (It can't be the target of spells or abilities your opponents control.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/263/walking-skyscraper) · oracle_id `90c763b9-6173-46ff-b31c-7dcafc774170` · printing: NEO #263 (2022-02-18) · [rulings](https://api.scryfall.com/cards/958af4ba-f29e-47ef-995e-3985982c75ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/263/walking-skyscraper) · oracle_id `90c763b9-6173-46ff-b31c-7dcafc774170` · printing: NEO #263 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Sponge
 
@@ -286,7 +342,9 @@
 - **Flavor text** (ULG printing):
   > *Not only does it catch fish, it cleans them too.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/47/walking-sponge) · oracle_id `000e5d65-96c3-498b-bd01-72b1a1991850` · printing: ULG #47 (1999-02-15) · [rulings](https://api.scryfall.com/cards/b125d1e7-5d9b-4997-88b0-71bdfc19c6f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The target loses just one of the listed abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/47/walking-sponge) · oracle_id `000e5d65-96c3-498b-bd01-72b1a1991850` · printing: ULG #47 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walking Wall
 
@@ -301,6 +359,7 @@
   > *—Arcum Dagsson, Soldevi machinist*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/172/walking-wall) · oracle_id `909201e5-5599-442a-9e4f-ff61f187e957` · printing: ME1 #172 (2007-09-10) · [rulings](https://api.scryfall.com/cards/4a837483-ae0f-4060-910d-1aa272e679ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walk the Aeons
@@ -312,6 +371,7 @@
   > Target player takes an extra turn after this one.
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/98/walk-the-aeons) · oracle_id `0ec36301-6282-49d4-85ea-6a46708e2f60` · printing: TSR #98 (2021-03-19) · [rulings](https://api.scryfall.com/cards/794d09ae-a995-482f-848e-7f99477bd6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walk the Plank
@@ -323,6 +383,7 @@
 - **Flavor text** (XLN printing):
   > *When Captain Thorn adds a new ship to his fleet, he gives the crew a simple choice: follow me, or fall in the sea.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11912 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/130/walk-the-plank) · oracle_id `9093e6f1-12bc-4dfb-bc78-6ead0752ad61` · printing: XLN #130 (2017-09-29) · [rulings](https://api.scryfall.com/cards/0038ac6a-318f-44fb-bb64-7ae172c4aca3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walk with the Ancestors
@@ -333,7 +394,17 @@
   > Return up to one target permanent card from your graveyard to your hand. Discover 4. (Exile cards from the top of your library until you exile a nonland card with mana value 4 or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)
 - **Keywords:** Discover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/218/walk-with-the-ancestors) · oracle_id `ce657a2e-461b-45fd-ab98-35b5c8512777` · printing: LCI #218 (2023-11-17) · [rulings](https://api.scryfall.com/cards/71a6f85b-5ef8-4526-9c86-7cb71508b4c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/218/walk-with-the-ancestors) · oracle_id `ce657a2e-461b-45fd-ab98-35b5c8512777` · printing: LCI #218 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall Crawl
 
@@ -345,6 +416,7 @@
 - **Flavor text** (SPM printing):
   > *With the proportionate strength and stickiness of a spider, Spider-Man can scale skyscrapers with ease.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10786 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/121/wall-crawl) · oracle_id `4a09536e-dfc1-4b15-adc1-07ef866ebda0` · printing: SPM #121 (2025-09-26) · [rulings](https://api.scryfall.com/cards/97a2a1ab-57ec-4210-9412-765ae4f02db0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Air
@@ -359,6 +431,7 @@
   > *—Femeref aphorism*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18107 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/124/wall-of-air) · oracle_id `b2d3da40-e2f7-4480-9da9-33019d6f4071` · printing: 10E #124 (2007-07-13) · [rulings](https://api.scryfall.com/cards/40595366-8601-40e0-a070-fc218723270d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Blood
@@ -373,6 +446,7 @@
   > *Blood is thicker than mortar.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/82/wall-of-blood) · oracle_id `b26c3563-d289-4ca3-8736-9d89e191a840` · printing: MRD #82 (2003-10-02) · [rulings](https://api.scryfall.com/cards/17320043-f81c-4e14-b9ba-c1309972c22b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Blossoms
@@ -387,6 +461,7 @@
   > *Each flower identical, every leaf and petal disturbingly exact.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/277/wall-of-blossoms) · oracle_id `ef4d5fb3-70a3-433d-a9d3-18b2beb8d79f` · printing: TDC #277 (2025-04-11) · [rulings](https://api.scryfall.com/cards/df901113-e273-4fe0-a264-8e9e26e70905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Bone
@@ -402,6 +477,7 @@
   > *—Keren-Dur, necromancer lord*
 - **Keywords:** Heal, Regenerate, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20162 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/41/wall-of-bone) · oracle_id `8ffe4986-9e09-4421-ad26-296a4c0df9e4` · printing: GVL #41 (2014-12-05) · [rulings](https://api.scryfall.com/cards/45025791-a94a-4046-8297-3b7a2019e4a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Brambles
@@ -417,6 +493,7 @@
   > *—Elven phrase meaning "plagued by guilt"*
 - **Keywords:** Regenerate, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26029 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/338/wall-of-brambles) · oracle_id `f8d82a00-c10e-4b9e-9642-d05706900a97` · printing: 5ED #338 (1997-03-24) · [rulings](https://api.scryfall.com/cards/e8780a20-8504-406e-aea1-722f146be5f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Caltrops
@@ -431,7 +508,9 @@
   > *"Ow! Ow ow ow! Oooh, ow, OW!"*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/42/wall-of-caltrops) · oracle_id `20fa17d4-9c3e-470b-9993-a4a2799e33d1` · printing: LEG #42 (1994-06-01) · [rulings](https://api.scryfall.com/cards/664ad588-3002-4f63-93bd-38663171018f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Banding is gained when the trigger resolves in the declare blockers step of the combat phase if the criterion is met.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/42/wall-of-caltrops) · oracle_id `20fa17d4-9c3e-470b-9993-a4a2799e33d1` · printing: LEG #42 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Corpses
 
@@ -446,6 +525,7 @@
   > *—Kaervek*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/151/wall-of-corpses) · oracle_id `16a7895a-ca23-4112-a91f-4b1528e75cea` · printing: MIR #151 (1996-10-08) · [rulings](https://api.scryfall.com/cards/dde6d3d1-75db-445f-9f17-632ee0292211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Deceit
@@ -459,6 +539,7 @@
   > Morph {U} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22967 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/5/wall-of-deceit) · oracle_id `73714a40-5e8d-4aea-87fe-5aa0db53d6ff` · printing: JVC #5 (2014-12-05) · [rulings](https://api.scryfall.com/cards/6eab8bfb-6e46-44b7-8fb1-72bb1c1d04cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Denial
@@ -473,6 +554,7 @@
   > *It provides what every discerning mage requires—time to think.*
 - **Keywords:** Flying, Shroud, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4343 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/939/wall-of-denial) · oracle_id `9cc092f9-e8f0-40ea-847d-813b70f889db` · printing: CMM #939 (2023-08-04) · [rulings](https://api.scryfall.com/cards/049ce45b-ab07-4bce-bb4a-83f5720b6ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Diffusion
@@ -488,6 +570,7 @@
   > *—Lyna, soltari emissary*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28600 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/164/wall-of-diffusion) · oracle_id `ae42f803-f4ac-45f3-9ce7-227a59096f19` · printing: TPR #164 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4c8cb08b-e820-4054-b5c3-7b737c97c9a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Distortion
@@ -502,6 +585,7 @@
   > *It reflects only nightmares.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/171/wall-of-distortion) · oracle_id `cc9cbbbc-8b02-42ef-a4d8-e2837e742c88` · printing: MMQ #171 (1999-10-04) · [rulings](https://api.scryfall.com/cards/d2b2d07a-9ea1-430d-b432-ae507f4fe73b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Dust
@@ -516,6 +600,7 @@
   > *An ever-moving swarm of dust engulfs and disorients anything that comes near.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/229/wall-of-dust) · oracle_id `14895574-9c87-4e80-9bc9-cc3dd22a42b8` · printing: 4ED #229 (1995-04-01) · [rulings](https://api.scryfall.com/cards/b25b81fb-1d0f-4c0c-8d54-fbf9c1d54578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Earth
@@ -529,6 +614,7 @@
   > *The ground shuddered violently and the earth seemed to come to life. The elemental force contained in the vast wall of earth was trapped, bent to its controller's will.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/169/wall-of-earth) · oracle_id `1e3e1916-bb82-481e-9b10-225504ef06b3` · printing: LEG #169 (1994-06-01) · [rulings](https://api.scryfall.com/cards/c12e97c1-ca28-432a-8140-3f08bb4485a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Essence
@@ -544,7 +630,9 @@
   > *—Dal saying*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/38/wall-of-essence) · oracle_id `1374ac18-01bd-452f-af72-a5f96285ed69` · printing: TPR #38 (2015-05-06) · [rulings](https://api.scryfall.com/cards/94b05805-e2af-4048-b7c7-1dbd188ba0f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — Wall of Essence’s triggered ability will trigger even if it’s dealt lethal damage. For example, if it’s dealt 7 combat damage, its ability will trigger and you’ll gain 7 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/38/wall-of-essence) · oracle_id `1374ac18-01bd-452f-af72-a5f96285ed69` · printing: TPR #38 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall Off
 
@@ -556,6 +644,7 @@
 - **Flavor text** (MSC printing):
   > *"It's the first ship back to Skrullos, gentlemen. There will be no invasion today."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23277 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/614/wall-off) · oracle_id `fbde72f6-a8b2-4864-ad6d-b91aa03d290e` · printing: MSC #614 (2026-06-26) · [rulings](https://api.scryfall.com/cards/858182cb-060c-429f-86e9-3d88d2a3b205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Faith
@@ -571,6 +660,7 @@
   > *—Lord Hilneth*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23550 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/40/wall-of-faith) · oracle_id `918d6cd4-76d5-4e21-b92b-1ecf35eb6cff` · printing: M10 #40 (2009-07-17) · [rulings](https://api.scryfall.com/cards/05f30f77-75ea-4145-a4a1-106cc547f482/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Fire
@@ -585,6 +675,7 @@
   > *Mercy is for those who keep their distance.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23739 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/167/wall-of-fire) · oracle_id `f38c8b47-e8e0-4d2f-b1da-d8d986805a48` · printing: M15 #167 (2014-07-18) · [rulings](https://api.scryfall.com/cards/6f8ac968-3d00-40d8-80b5-e6fe08025de2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Forgotten Pharaohs
@@ -597,7 +688,9 @@
   > {T}: This creature deals 1 damage to target player or planeswalker. Activate only if you control a Desert or there is a Desert card in your graveyard.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24638 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/168/wall-of-forgotten-pharaohs) · oracle_id `7ab15fcd-8371-4b3c-b534-e9ef44249213` · printing: HOU #168 (2017-07-14) · [rulings](https://api.scryfall.com/cards/d3f8f211-79f9-4d34-8e23-c0835703cd91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — If an ability checks whether you control a Desert or there is a Desert card in your graveyard, having more than one doesn't matter. Controlling one is the same as controlling five. There is also no extra bonus for both controlling one and having one in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/168/wall-of-forgotten-pharaohs) · oracle_id `7ab15fcd-8371-4b3c-b534-e9ef44249213` · printing: HOU #168 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Fortune
 
@@ -611,7 +704,12 @@
   > *"You need a six? All right everyone, she needs a six!"*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/30/wall-of-fortune) · oracle_id `00378902-90f3-465a-b917-23c0e81a7400` · printing: UND #30 (2020-02-29) · [rulings](https://api.scryfall.com/cards/7d09f247-99c6-4038-9cd1-7c4ccc3d7005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — If a player rolls a die, you can tap an untapped Wall you control to have that player reroll that die. Then, if you didn’t like that result, you can tap another untapped Wall you control in order to have them reroll again.
+  - *2020-02-29* — The Wall you tap to use Wall of Fortune’s ability can be one that came under your control this turn. This includes Wall of Fortune itself.
+  - *2020-02-29* — You can use Wall of Fortune to have a player reroll any die, including the planar die or the d20 from Sword of Dungeons & Dragons.
+  - *2020-02-29* — You decide whether to use Wall of Fortune’s ability right after you see the result of the die roll.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/30/wall-of-fortune) · oracle_id `00378902-90f3-465a-b917-23c0e81a7400` · printing: UND #30 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Frost
 
@@ -626,7 +724,10 @@
   > *—Lumi, goatherd*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/56/wall-of-frost) · oracle_id `741e4f32-0587-40fa-a73d-5bcf66b52348` · printing: MM3 #56 (2017-03-17) · [rulings](https://api.scryfall.com/cards/b5ab28ee-f70d-441b-bb4e-8e781f26e2bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — If the creature isn’t tapped during its controller’s next untap step (perhaps because it was untapped by a spell), Wall of Frost’s ability has no effect at that time. It won’t try to keep the creature tapped on subsequent turns.
+  - *2014-07-18* — Wall of Frost’s ability tracks the creature, not the creature’s controller. That is, if the creature changes controllers before its first controller’s next untap step, then it won’t untap during its new controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/56/wall-of-frost) · oracle_id `741e4f32-0587-40fa-a73d-5bcf66b52348` · printing: MM3 #56 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Glare
 
@@ -640,6 +741,7 @@
   > *The blinding barrier served Benalia better than a hundred shields.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/25/wall-of-glare) · oracle_id `a59897cb-7ead-494a-a1d0-c9baf79bf18b` · printing: UDS #25 (1999-06-07) · [rulings](https://api.scryfall.com/cards/5f159193-fcf8-437c-b14a-06718a446a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Granite
@@ -653,6 +755,7 @@
   > *The wisest man builds his house \*behind\* the rock.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26966 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/155/wall-of-granite) · oracle_id `8445094f-008b-491a-977c-e8582d5ab72c` · printing: POR #155 (1997-05-01) · [rulings](https://api.scryfall.com/cards/70c5ac71-bf45-4b99-8184-36ce88dd728a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Heat
@@ -666,6 +769,7 @@
   > *At a distance, we mistook the sound for a waterfall . . . .*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27811 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/55/wall-of-heat) · oracle_id `c7bbfd32-2a6f-44e9-b51e-9b272f48d458` · printing: CHR #55 (1995-07-01) · [rulings](https://api.scryfall.com/cards/ff6b2307-2c56-4f63-900e-88a3ac6f0b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Hope
@@ -681,6 +785,7 @@
   > *—Daru riddle*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13518 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/24/wall-of-hope) · oracle_id `e43055c7-2245-4544-b0b4-ee30dc1ebf14` · printing: LGN #24 (2003-02-03) · [rulings](https://api.scryfall.com/cards/b463b3e1-e314-4a65-a89e-0712f630b016/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Ice
@@ -698,6 +803,7 @@
   > *—Samuel Coleridge, "The Rime of the Ancient Mariner"*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17274 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/283/wall-of-ice) · oracle_id `1945e165-7636-4727-89ba-3811251ef175` · printing: 4ED #283 (1995-04-01) · [rulings](https://api.scryfall.com/cards/d702bd22-6079-4f4c-9540-42cf2a29f4a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Junk
@@ -712,7 +818,9 @@
   > *Urza saw the wall and realized that even if he tore every Phyrexian to pieces, they would still resist him.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/240/wall-of-junk) · oracle_id `22b0de2d-47a8-4269-ba21-4bc2b4b10b40` · printing: DMR #240 (2023-01-13) · [rulings](https://api.scryfall.com/cards/17f19832-0c66-4f06-8110-ce4b2a3d8346/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It only returns to owner's hand if it is still on the battlefield at end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/240/wall-of-junk) · oracle_id `22b0de2d-47a8-4269-ba21-4bc2b4b10b40` · printing: DMR #240 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Kelp
 
@@ -727,6 +835,7 @@
   > *—Zeki, reef pirate*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18784 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/74/wall-of-kelp) · oracle_id `64722c32-975b-43b9-9b4a-9511c75740d9` · printing: ME2 #74 (2008-09-22) · [rulings](https://api.scryfall.com/cards/8c13f0b9-191b-4509-9dd8-a9aa494511ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Lava
@@ -742,6 +851,7 @@
   > *—Jaya Ballard, Task Mage*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29765 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/223/wall-of-lava) · oracle_id `bf7734fb-011d-4f12-a174-1ae879dab95b` · printing: ICE #223 (1995-06-03) · [rulings](https://api.scryfall.com/cards/b99d6d11-b3f7-4d73-967c-3049af82a9d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Light
@@ -756,6 +866,7 @@
   > *As many attackers were dazzled by the wall's beauty as were halted by its force.*
 - **Keywords:** Protection, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/27/wall-of-light) · oracle_id `d0c05cad-6e14-4726-b7fc-8f2fc7df7267` · printing: ME3 #27 (2009-09-07) · [rulings](https://api.scryfall.com/cards/347db0be-8a88-4110-942a-d3c77cfbca52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Limbs
@@ -769,7 +880,11 @@
   > {5}{B}{B}, Sacrifice this creature: Target player loses X life, where X is this creature's power.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/200/wall-of-limbs) · oracle_id `1aabb6bd-8061-42a5-9a71-f9eac718bd22` · printing: TDC #200 (2025-04-11) · [rulings](https://api.scryfall.com/cards/9b87e9a8-17d5-49dd-9c69-7c080c089320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-07-18* — If you gain life at the same time Wall of Limbs is dealt lethal damage (probably because you control a blocking creature with lifelink), Wall of Limbs’s triggered ability will trigger, but Wall of Limbs will be destroyed before the ability resolves.
+  - *2014-07-18* — The ability triggers just once for each life-gaining event, whether it’s 1 life from Soulmender or 8 life from Meditation Puzzle.
+  - *2014-07-18* — Use Wall of Limbs’s power as it last existed on the battlefield, including any +1/+1 counters it had, to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/200/wall-of-limbs) · oracle_id `1aabb6bd-8061-42a5-9a71-f9eac718bd22` · printing: TDC #200 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Lost Thoughts
 
@@ -783,6 +898,7 @@
   > *Those who intrude upon the Dimir seldom remember that they have done so.*
 - **Keywords:** Mill, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14189 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/190/wall-of-lost-thoughts) · oracle_id `49b80368-d38a-4877-b1de-f3b5f3d40d4d` · printing: JMP #190 (2020-07-17) · [rulings](https://api.scryfall.com/cards/a5e3084c-c690-4cc7-9d79-42b1cde073ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Mist
@@ -796,6 +912,7 @@
   > *Fog haunts the streets, rendering the familiar as otherworldly, changing neighbors into shadows, and muffling cries for help.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15826 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/58/wall-of-mist) · oracle_id `b2ca8824-6bd8-4aa3-b156-618118eb98a4` · printing: GRN #58 (2018-10-05) · [rulings](https://api.scryfall.com/cards/62a37646-8f7c-40fc-851d-e3fdd205b012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Mourning
@@ -809,7 +926,9 @@
   > Coven — At the beginning of your end step, if you control three or more creatures with different powers, put a card exiled with this creature into its owner's hand.
 - **Keywords:** Coven, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/10/wall-of-mourning) · oracle_id `585c9671-7451-4506-8b21-0d64106c4cd7` · printing: MIC #10 (2021-09-24) · [rulings](https://api.scryfall.com/cards/98692a19-c9d4-48bf-9315-d88c44136f8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — You don't get to look at the cards exiled with Wall of Mourning. If there are more than one, you choose which one to put back into your hand at random without looking at them. This is true even if you knew what one or more cards from the top of your library were before exiling them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/10/wall-of-mourning) · oracle_id `585c9671-7451-4506-8b21-0d64106c4cd7` · printing: MIC #10 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Mulch
 
@@ -823,7 +942,9 @@
   > *Mulch is the fabric of life in the forest. Plants live in it, they die in it, and then they become part of it, feeding countless generations to come.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12144 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/208/wall-of-mulch) · oracle_id `afd2141f-1b0f-46b5-b1ac-aa28982d16c0` · printing: M15 #208 (2014-07-18) · [rulings](https://api.scryfall.com/cards/a76ec859-59a6-45b2-bbd8-6f89453fe3ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can be sacrificed for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/208/wall-of-mulch) · oracle_id `afd2141f-1b0f-46b5-b1ac-aa28982d16c0` · printing: M15 #208 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Nets
 
@@ -836,7 +957,9 @@
   > When this creature leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/24/wall-of-nets) · oracle_id `cd112962-b297-403c-bede-c8b587f379b3` · printing: EXO #24 (1998-06-15) · [rulings](https://api.scryfall.com/cards/c1da8e79-365d-4a36-87c5-648085828f9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It only exiles creatures if this card is still on the battlefield at the end of combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/24/wall-of-nets) · oracle_id `cd112962-b297-403c-bede-c8b587f379b3` · printing: EXO #24 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Omens
 
@@ -851,6 +974,7 @@
   > *—Expedition journal entry*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1108 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/138/wall-of-omens) · oracle_id `5f601f48-d24b-4883-9fde-b3f620e7c9ea` · printing: TDC #138 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3d134bb2-17ec-4e65-976e-f06fa983f3fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of One Thousand Cuts
@@ -865,6 +989,7 @@
   > *Families of the fallen donate the swords of their loved ones to bolster the city's defenses.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22543 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/36/wall-of-one-thousand-cuts) · oracle_id `b97341a7-fc96-4281-b875-fb81065e0157` · printing: MH1 #36 (2019-06-14) · [rulings](https://api.scryfall.com/cards/f4e5388a-1c1e-4809-99d0-bbdd93436c5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Opposition
@@ -879,6 +1004,7 @@
   > *Like so many obstacles in life, the Wall of Opposition is but an illusion, held fast by the focus and belief of the one who creates it.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/56/wall-of-opposition) · oracle_id `30254aa2-2307-4f42-926a-54a416f55f87` · printing: CHR #56 (1995-07-01) · [rulings](https://api.scryfall.com/cards/23243752-25c5-407e-9ce4-4bc1f02d01c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Pine Needles
@@ -893,6 +1019,7 @@
   > *The power of the forest takes a hundred forms. Some are more surprising than others.*
 - **Keywords:** Regenerate, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29354 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/274/wall-of-pine-needles) · oracle_id `1d5bc31c-f4a1-4a59-b466-0347ddbbc7fb` · printing: ICE #274 (1995-06-03) · [rulings](https://api.scryfall.com/cards/5d879923-55fc-46ab-9306-5e1f10441c89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Putrid Flesh
@@ -906,7 +1033,9 @@
   > Prevent all damage that would be dealt to this creature by enchanted creatures.
 - **Keywords:** Protection, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/127/wall-of-putrid-flesh) · oracle_id `e31d4be7-cd24-4287-b8ca-66f8612731a6` · printing: LEG #127 (1994-06-01) · [rulings](https://api.scryfall.com/cards/07a17b74-a9c9-419a-8369-9ab4fec213f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — The term “enchanted creatures” means “creatures with an Aura on them”.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/127/wall-of-putrid-flesh) · oracle_id `e31d4be7-cd24-4287-b8ca-66f8612731a6` · printing: LEG #127 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Razors
 
@@ -921,6 +1050,7 @@
   > *—Stronghold architect, journal*
 - **Keywords:** First strike, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21800 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/100/wall-of-razors) · oracle_id `19ed5429-5631-4a36-a69c-ab35860160b6` · printing: STH #100 (1998-03-02) · [rulings](https://api.scryfall.com/cards/0bb37bcd-0bbd-4f3f-9623-803885750344/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Resistance
@@ -936,7 +1066,9 @@
   > *Telim'Tor could no longer recall the exact number of assaults—but his troops could.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/46/wall-of-resistance) · oracle_id `e6f5f80c-2620-4558-8a5f-8fc36cea4793` · printing: MIR #46 (1996-10-08) · [rulings](https://api.scryfall.com/cards/fd25787d-b90c-4b25-8259-1ac41d4dcd15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It gets only one counter a turn, not one per point of damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/46/wall-of-resistance) · oracle_id `e6f5f80c-2620-4558-8a5f-8fc36cea4793` · printing: MIR #46 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Resurgence
 
@@ -948,7 +1080,9 @@
   > When this creature enters, you may put three +1/+1 counters on target land you control. If you do, that land becomes a 0/0 Elemental creature with haste that's still a land.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/39/wall-of-resurgence) · oracle_id `8771e241-e69b-4e21-9108-223a9488e9c7` · printing: OGW #39 (2016-01-22) · [rulings](https://api.scryfall.com/cards/c99f0dc1-c8cf-4733-a874-5ae57b38258e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — If you target a land that’s already a creature with Wall of Resurgence’s triggered ability, that land creature’s base power and toughness will become 0/0, overwriting its previous base power and toughness. Other effects that modify its power and/or toughness (including the new and any previously-existing +1/+1 counters) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/39/wall-of-resurgence) · oracle_id `8771e241-e69b-4e21-9108-223a9488e9c7` · printing: OGW #39 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Reverence
 
@@ -962,7 +1096,9 @@
   > *The lives of elves are long, but their memories are longer. Even after death, they do not desert their homes.*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/139/wall-of-reverence) · oracle_id `0810983f-818a-43e6-a7b5-ebe0bc8b9f6a` · printing: TDC #139 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f23e6f3f-4776-4015-8ee8-8e679ec7ce02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If an effect changes a creature’s power “until end of turn,” it will still have the modified power during your end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/139/wall-of-reverence) · oracle_id `0810983f-818a-43e6-a7b5-ebe0bc8b9f6a` · printing: TDC #139 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Roots
 
@@ -977,7 +1113,9 @@
   > *—Nissa Revane*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/278/wall-of-roots) · oracle_id `3a21a6ae-b2f2-4f0c-acfd-5f3e8d63fd2f` · printing: TDC #278 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e4e7d3b7-9b0c-463d-975c-ef81d7fd8dad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-11-17* — If you must sacrifice a creature to pay a casting or activation cost that also includes mana, such as that of Bubbling Cauldron's abilities, you may put a -0/-1 counter on Wall of Roots to make its toughness 0 and then sacrifice it to pay that cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/278/wall-of-roots) · oracle_id `3a21a6ae-b2f2-4f0c-acfd-5f3e8d63fd2f` · printing: TDC #278 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Runes
 
@@ -989,6 +1127,7 @@
   > When this creature enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Defender, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/85/wall-of-runes) · oracle_id `35dfe1c7-48ab-436f-9a6e-44835ea01cf9` · printing: M21 #85 (2020-07-03) · [rulings](https://api.scryfall.com/cards/6ac0f66a-213f-463e-8ebb-35ff5940ea06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Shadows
@@ -1002,7 +1141,9 @@
   > This creature can't be the target of spells that can target only Walls or of abilities that can target only Walls.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/41/wall-of-shadows) · oracle_id `0e6ff89e-9ae7-4dc3-98b7-05401c5df266` · printing: CHR #41 (1995-07-01) · [rulings](https://api.scryfall.com/cards/69c6e076-d7bf-435b-ba79-84aa9f073130/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can be targeted by a modal spell that can target a non-Wall in one of its modes, even if it has a mode that targets only Walls. That spell can, in theory, target a non-Wall, so it is not a “spell that can target only Walls”.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/41/wall-of-shadows) · oracle_id `0e6ff89e-9ae7-4dc3-98b7-05401c5df266` · printing: CHR #41 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Shards
 
@@ -1014,7 +1155,10 @@
   > Cumulative upkeep—An opponent gains 1 life. (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)
 - **Keywords:** Cumulative upkeep, Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/23/wall-of-shards) · oracle_id `8fab68ad-169d-46d3-93c4-5bdee4eea2ce` · printing: CSP #23 (2006-07-21) · [rulings](https://api.scryfall.com/cards/884ee8d8-4c0d-4e44-8321-bccd18195693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-07-15* — When paying Wall of Shards’ cumulative upkeep, you may choose a different opponent for each age counter, or you can choose the same opponent multiple times.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/23/wall-of-shards) · oracle_id `8fab68ad-169d-46d3-93c4-5bdee4eea2ce` · printing: CSP #23 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Shields
 
@@ -1029,6 +1173,7 @@
   > *—Ib Halfheart, Goblin Tactician*
 - **Keywords:** Banding, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23832 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/347/wall-of-shields) · oracle_id `530514d9-7274-4835-a4b5-6dccef4da758` · printing: ICE #347 (1995-06-03) · [rulings](https://api.scryfall.com/cards/6376c7c4-aaca-4625-83d4-a49f01aec535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Souls
@@ -1044,7 +1189,9 @@
   > *—Starke*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/123/wall-of-souls) · oracle_id `2c85c9ea-c3fd-4981-a65c-4405bd87764e` · printing: TPR #123 (2015-05-06) · [rulings](https://api.scryfall.com/cards/a5b8d9a2-91d7-4172-b778-b5dc3ac28abe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Redirected damage is still combat damage, so it will trigger on combat damage that is redirected to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/123/wall-of-souls) · oracle_id `2c85c9ea-c3fd-4981-a65c-4405bd87764e` · printing: TPR #123 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Spears
 
@@ -1059,6 +1206,7 @@
   > *—Onean sergeant*
 - **Keywords:** First strike, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23582 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/320/wall-of-spears) · oracle_id `ed836d84-ff1e-4af8-b4b8-314569b3faec` · printing: 8ED #320 (2003-07-28) · [rulings](https://api.scryfall.com/cards/b4f34f06-7f89-4f2b-8979-8219ac1c4560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Stolen Identity
@@ -1069,7 +1217,19 @@
 - **Oracle text:**
   > You may have this creature enter as a copy of any creature on the battlefield, except it's a Wall in addition to its other types and has defender. When you do, tap the copied creature and it doesn't untap during its controller's untap step for as long as you control this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/13/wall-of-stolen-identity) · oracle_id `92c58354-e106-402f-8348-6c7cdb67c6df` · printing: C19 #13 (2019-08-23) · [rulings](https://api.scryfall.com/cards/359cc32c-ba90-43e0-b584-09efd321a672/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-08-23* — Any enters-the-battlefield abilities of the copied creature will trigger when Wall of Stolen Identity enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2019-08-23* — If Wall of Stolen Identity copies a creature that’s normally not a creature (such as Mutavault), the copied permanent will be tapped and will remain tapped even when it’s no longer a creature for as long as you control Wall of Stolen Identity.
+  - *2019-08-23* — If Wall of Stolen Identity leaves the battlefield before its triggered ability has resolved, the copied creature will be tapped, but it will untap as normal.
+  - *2019-08-23* — If Wall of Stolen Identity somehow enters the battlefield at the same time as another creature, it can’t become a copy of that creature. You may choose only a creature that’s already on the battlefield.
+  - *2019-08-23* — If another player gains control of Wall of Stolen Identity, its effect keeping the creature tapped expires. It won’t keep the creature from untapping anymore, even if you later regain control of Wall of Stolen Identity.
+  - *2019-08-23* — If the chosen creature is a token, Wall of Stolen Identity copies the original characteristics of that token as stated by the effect that created the token. Wall of Stolen Identity doesn’t become a token in this case.
+  - *2019-08-23* — If the chosen creature is copying something else (for example, if the chosen creature is another Wall of Stolen Identity), then Wall of Stolen Identity enters the battlefield as whatever the chosen creature copied.
+  - *2019-08-23* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2019-08-23* — Once Wall of Stolen Identity has entered the battlefield and stolen a creature’s identity, players can take actions before the creature is tapped.
+  - *2019-08-23* — Wall of Stolen Identity can copy a tapped creature. That creature just remains tapped and doesn’t untap during its controller’s next untap step for as long as you control Wall of Stolen Identity.
+  - *2019-08-23* — Wall of Stolen Identity copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/13/wall-of-stolen-identity) · oracle_id `92c58354-e106-402f-8348-6c7cdb67c6df` · printing: C19 #13 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Stone
 
@@ -1082,6 +1242,7 @@
   > *The ground itself lends its strength to these walls of living stone, which possess the stability of ancient mountains. These mighty bulwarks thwart ground-based troops, providing welcome relief for weary warriors who defend the land.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/232/wall-of-stone) · oracle_id `cd4cadb4-3156-49bd-b36e-12ba5c85938b` · printing: 8ED #232 (2003-07-28) · [rulings](https://api.scryfall.com/cards/718da336-ad97-41a6-86bd-4f124e2cc716/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Swords
@@ -1097,6 +1258,7 @@
   > *—Olander, tactician of the Northern Verge*
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/41/wall-of-swords) · oracle_id `eb098958-50d3-4476-ba74-382033703ff9` · printing: M14 #41 (2013-07-19) · [rulings](https://api.scryfall.com/cards/7c733fef-8372-4a40-b340-7aa32922799e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Tanglecord
@@ -1111,6 +1273,7 @@
   > *Rootlike fibers travel far from Mirrodin's metallic forests, emerging from the crust to drink in the mana-infused sunlight.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/222/wall-of-tanglecord) · oracle_id `423bebcc-8fa0-49c4-aa22-728bf51a535b` · printing: SOM #222 (2010-10-01) · [rulings](https://api.scryfall.com/cards/792e2aed-ce6e-4fa1-a31c-a4574e5cf1f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Tears
@@ -1126,6 +1289,7 @@
   > *—Karn, silver golem*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/50/wall-of-tears) · oracle_id `5825d718-6a32-4f4c-9b56-1a50051cfe28` · printing: STH #50 (1998-03-02) · [rulings](https://api.scryfall.com/cards/4638d815-fb86-490c-84d6-777a1c6131d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Tombstones
@@ -1138,7 +1302,9 @@
   > At the beginning of your upkeep, this creature's base toughness becomes equal to 1 plus the number of creature cards in your graveyard. (This effect lasts indefinitely.)
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/129/wall-of-tombstones) · oracle_id `2412a8a2-d028-44f1-8979-add9ec953759` · printing: LEG #129 (1994-06-01) · [rulings](https://api.scryfall.com/cards/55da1e86-fe18-486a-b510-f941e6f6e378/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The effect from the ability overwrites other effects that set power and/or toughness if and only if those effects existed before the ability resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after the ability resolves. Effects that switch the creature’s power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/129/wall-of-tombstones) · oracle_id `2412a8a2-d028-44f1-8979-add9ec953759` · printing: LEG #129 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Torches
 
@@ -1151,6 +1317,7 @@
   > *The foolish try to leap through the unlit spaces. The arrogant believe the fires harmless. The wise find a different door.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25526 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/159/wall-of-torches) · oracle_id `674a269c-61ed-4fb5-ad74-422e581a5a91` · printing: M12 #159 (2011-07-15) · [rulings](https://api.scryfall.com/cards/76f69b92-7435-4aa8-9d90-89ea078befb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Vapor
@@ -1166,6 +1333,7 @@
   > *—Chrysoberyl Earthsdaughter, \*Incantations\**
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22414 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/27/wall-of-vapor) · oracle_id `7d08d128-863c-4cca-837f-847ff44acef5` · printing: CHR #27 (1995-07-01) · [rulings](https://api.scryfall.com/cards/309c1b2a-0230-4b66-84a0-32b8cd6d31eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Vines
@@ -1180,6 +1348,7 @@
   > *Like all jungle plants, the vines must fight and claw for sunlight. Once their place is secured, they grow strong, sharp, and impenetrable.*
 - **Keywords:** Reach, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/443/wall-of-vines) · oracle_id `51ce0158-c9a5-4fa5-9704-46ab02f01b86` · printing: JMP #443 (2020-07-17) · [rulings](https://api.scryfall.com/cards/9f7b7563-752b-4391-95d1-f5e3960d35c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Vipers
@@ -1195,6 +1364,7 @@
   > *—Nakaya riddle*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/80/wall-of-vipers) · oracle_id `4fcfe370-ba33-438f-bd96-2ae560f59df9` · printing: PCY #80 (2000-06-05) · [rulings](https://api.scryfall.com/cards/00042443-4d4e-4087-b4e5-5e781e7cc5fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Water
@@ -1209,6 +1379,7 @@
   > *A deafening roar arose as the fury of an enormous vertical river supplanted our serenity. Eddies turned into whirling geysers, leveling everything in their path.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27612 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/114/wall-of-water) · oracle_id `608cc65c-f99a-4ca3-be24-190d2556b411` · printing: 4ED #114 (1995-04-01) · [rulings](https://api.scryfall.com/cards/78028eda-61b0-408c-b3fc-adc968d39b47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Wonder
@@ -1223,7 +1394,9 @@
   > *They wondered at the size of it. It wondered which to eat first.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/112/wall-of-wonder) · oracle_id `10889b44-d031-413c-a8c4-d6c13c400e01` · printing: 7ED #112 (2001-04-11) · [rulings](https://api.scryfall.com/cards/e8c73e58-e906-4c67-9f84-b20456629cb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Paying to make the Wall capable of attacking does not override the normal rule that a creature may not attack unless it began your turn on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/112/wall-of-wonder) · oracle_id `10889b44-d031-413c-a8c4-d6c13c400e01` · printing: 7ED #112 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wall of Wood
 
@@ -1236,6 +1409,7 @@
   > *Orcish lumberjacks spent the night sharpening their blades and resting for a day of labor. They awoke to find that the forest had been making its own preparations.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24493 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/309/wall-of-wood) · oracle_id `aa5e6894-8c97-46f8-a0fd-07c6db51e9a7` · printing: 10E #309 (2007-07-13) · [rulings](https://api.scryfall.com/cards/1864e25e-f940-47e5-9439-ab721049c690/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wallop
@@ -1247,6 +1421,7 @@
 - **Flavor text** (INV printing):
   > *In Yavimaya, flying low to join a battle can be a costly mistake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31905 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/223/wallop) · oracle_id `e939ef5e-ebe1-48cd-9e9f-eb3fd516165c` · printing: INV #223 (2000-10-02) · [rulings](https://api.scryfall.com/cards/45ce5126-e7b1-41ab-9e56-1e12927c4d27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Walltop Sentries
@@ -1261,7 +1436,9 @@
   > *"That drill shall not reach Ba Sing Se! This is what we trained for!"*
 - **Keywords:** Reach, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/202/walltop-sentries) · oracle_id `fb3a0910-a582-41ef-b5b9-3cda1f1cd5ce` · printing: TLA #202 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e55f1c63-58f6-4e2b-aaeb-f2d5faca47a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Walltop Sentries's triggered ability checks if there is a Lesson card in your graveyard when it is put on the stack and again when it goes to resolve. If there is no Lesson card in your graveyard when Walltop Sentries dies, the ability will not be put on the stack at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/202/walltop-sentries) · oracle_id `fb3a0910-a582-41ef-b5b9-3cda1f1cd5ce` · printing: TLA #202 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waltz of Rage
 
@@ -1272,4 +1449,9 @@
 - **Flavor text** (DSK printing):
   > *The melody was all in her head, but she'd always preferred to dance alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/165/waltz-of-rage) · oracle_id `78df47c3-b771-4377-8963-ae3065fdcf8a` · printing: DSK #165 (2024-09-27) · [rulings](https://api.scryfall.com/cards/abf17d8b-12bc-4122-865d-50cf91f04f67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If the target creature is an illegal target when Waltz of Rage tries to resolve, it won't resolve and none of its effects will happen. No damage will be dealt, and the delayed triggered ability won't trigger whenever a creature you control dies this turn.
+  - *2024-09-20* — The creature is the source of the damage, not Waltz of Rage.
+  - *2024-09-20* — Use the power of the target creature as Waltz of Rage resolves to determine how much damage that creature deals to each other creature.
+  - *2024-09-20* — You pay all costs and follow all timing rules for cards played with the permission granted by Waltz of Rage's delayed triggered ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/165/waltz-of-rage) · oracle_id `78df47c3-b771-4377-8963-ae3065fdcf8a` · printing: DSK #165 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -19,4 +19,5 @@
 - **Flavor text** (P02 printing):
   > *History is the study of repetition.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24866 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/36/d%C3%A9j%C3%A0-vu) · oracle_id `7408b9c5-7266-4627-be4e-b691cf5c622c` · printing: P02 #36 (1998-06-24) · [rulings](https://api.scryfall.com/cards/ade6a71a-e8ec-4d41-8a39-3eacf0097c8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

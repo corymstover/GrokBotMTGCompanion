@@ -29,7 +29,17 @@
   > *"The Ondu Skyclave was a center for rebellion against the capital in Makindi. Of course they built in deadly traps."*
   > *—Nys Dal, Sea Gate trapfinder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/64/jwari-disruption-jwari-ruins) · oracle_id `941a4b14-ea2a-4bd0-8cc2-d609f80df32c` · printing: ZNR #64 (2020-09-25) · [rulings](https://api.scryfall.com/cards/301750a7-d1fd-435e-bfa8-9d2fb22ad627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/64/jwari-disruption-jwari-ruins) · oracle_id `941a4b14-ea2a-4bd0-8cc2-d609f80df32c` · printing: ZNR #64 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwari Scuttler
 
@@ -42,6 +52,7 @@
   > *"Yeah, they've got a lot of meat. The only downside to eating 'em is that you often find human bones and body parts inside."*
   > *—Jaby, Silundi Sea nomad*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/73/jwari-scuttler) · oracle_id `7d1f5f6f-af3d-4b9b-acaf-debf885f660a` · printing: ROE #73 (2010-04-23) · [rulings](https://api.scryfall.com/cards/04129038-3b02-418a-862a-229e9dde339b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwari Shapeshifter
@@ -54,7 +65,13 @@
 - **Flavor text** (WWK printing):
   > *"The best expedition would be an entire team of me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10861 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/32/jwari-shapeshifter) · oracle_id `0b0c02eb-4d9e-4fea-bad6-9ef5d7bb5295` · printing: WWK #32 (2010-02-05) · [rulings](https://api.scryfall.com/cards/587f91f6-b46e-4dd5-a86d-1048054dd3c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-03-01* — Any "enters" abilities of the copied creature will trigger when Jwari Shapeshifter enters.
+  - *2010-03-01* — If the chosen creature is a token, your Jwari Shapeshifter copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Your Jwari Shapeshifter is not a token.
+  - *2010-03-01* — If the chosen creature is copying something else (for example, if the chosen creature is another Jwari Shapeshifter), then your Jwari Shapeshifter enters as whatever the chosen creature copied.
+  - *2010-03-01* — Jwari Shapeshifter copies exactly what was printed on the original creature and nothing more (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2010-03-01* — You can choose not to copy anything. In that case, Jwari Shapeshifter enters as a 0/0 creature, and is probably put into the graveyard immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/32/jwari-shapeshifter) · oracle_id `0b0c02eb-4d9e-4fea-bad6-9ef5d7bb5295` · printing: WWK #32 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwar Isle Avenger
 
@@ -68,7 +85,12 @@
   > *Though solitary by nature, the sphinxes did not hesitate to join in the fight against the Eldrazi.*
 - **Keywords:** Flying, Surge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25766 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/58/jwar-isle-avenger) · oracle_id `2db8fc61-13af-4227-83f9-9f426ab978d3` · printing: OGW #58 (2016-01-22) · [rulings](https://api.scryfall.com/cards/0a5b059f-2fa3-474f-9c74-6d4021703add/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Casting a spell for its surge cost doesn't change its mana cost or its mana value.
+  - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
+  - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
+  - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/58/jwar-isle-avenger) · oracle_id `2db8fc61-13af-4227-83f9-9f426ab978d3` · printing: OGW #58 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jwar Isle Refuge
 
@@ -79,4 +101,5 @@
   > When this land enters, you gain 1 life.
   > {T}: Add {U} or {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/133/jwar-isle-refuge) · oracle_id `8b96f837-7c32-473a-b5ae-1d66527eaf7b` · printing: ZNC #133 (2020-09-25) · [rulings](https://api.scryfall.com/cards/6d103181-25a1-4928-ac37-adf11038d5b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

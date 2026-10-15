@@ -61,6 +61,7 @@
   > *"Shove off, Spider-Man! Step aside, Torch! There's a new Super Hero in town! I'm gonna make Dad so proud."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29452 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/559/the-fabulous-frog-man) · oracle_id `b0c2938d-8370-4786-8ddd-126c61538bdd` · printing: MSC #559 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9307100e-2d7e-42a9-9951-24af01ab9ded/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Face of Boe
@@ -73,7 +74,9 @@
 - **Flavor text** (WHO printing):
   > *"You are not alone."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16912 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/126/the-face-of-boe) · oracle_id `acef7666-53b1-43c5-8107-236bea22a8b3` · printing: WHO #126 (2023-10-13) · [rulings](https://api.scryfall.com/cards/5b207088-b63c-4d9f-9a42-377736855101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — You cast the spell immediately as The Face of Boe's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/126/the-face-of-boe) · oracle_id `acef7666-53b1-43c5-8107-236bea22a8b3` · printing: WHO #126 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fact Checker
 
@@ -84,6 +87,7 @@
   > If you would guess a card, instead just choose the outcome you want.
   > At the beginning of each opponent's upkeep, look at the top card of their library. Tell them the name of that card. They tell you its mana cost, type line, power, and toughness. Then reveal that card. If they got anything wrong, draw a card.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03j/the-fact-checker) · oracle_id `2a5d55a4-94fa-4e50-be86-b44b7e4e1d53` · printing: UNK #RZ03j (2025-02-21) · [rulings](https://api.scryfall.com/cards/578086e4-a4bf-4d61-aaea-b9969785f0a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Faction Dragon
@@ -100,6 +104,7 @@
   > *Prize Card for the Unknown events at MagicCon: Las Vegas, June 20-22.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ03a/the-faction-dragon) · oracle_id `68a71222-aa93-465f-8f8c-73a241c88ba5` · printing: UNK #MZ03a (2025-06-20) · [rulings](https://api.scryfall.com/cards/dff4f5f8-dfa1-4674-9469-7f3c035cf9cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fair Basilica
@@ -113,6 +118,7 @@
 - **Flavor text** (ONE printing):
   > *In Elesh Norn's domain, the gospel of unity is the highest law.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/252/the-fair-basilica) · oracle_id `8618f8e8-fd86-47e3-905d-e6624b599b9b` · printing: ONE #252 (2023-02-10) · [rulings](https://api.scryfall.com/cards/01d6ba55-7bc0-41c6-84be-8cd528e46a05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Falcon, Airship Restored
@@ -127,7 +133,9 @@
   > Crew 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8756 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/45/the-falcon-airship-restored) · oracle_id `9f4093a6-83f1-4c1d-8b03-8fe15647fb11` · printing: FIC #45 (2025-06-13) · [rulings](https://api.scryfall.com/cards/080fc2be-d463-4e8e-ba42-8f3cb0c95ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — You don't choose a target for The Falcon's second ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice The Falcon this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/45/the-falcon-airship-restored) · oracle_id `9f4093a6-83f1-4c1d-8b03-8fe15647fb11` · printing: FIC #45 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Falcon, Sam Wilson
 
@@ -141,6 +149,7 @@
   > *"You've never seen a falcon with moves like these!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25253 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/837/the-falcon-sam-wilson) · oracle_id `359332d6-c42a-4dfa-b148-3296d7e74661` · printing: MSC #837 (2026-06-26) · [rulings](https://api.scryfall.com/cards/781828a9-dfec-4cf0-9c30-ff519af8fd59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fallen
@@ -153,7 +162,12 @@
 - **Flavor text** (ME1 printing):
   > *Magic often masters those who cannot master it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29070 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/69/the-fallen) · oracle_id `19348c1e-b683-4d2c-b4eb-82e538b314b0` · printing: ME1 #69 (2007-09-10) · [rulings](https://api.scryfall.com/cards/49058733-6fd7-456f-a47b-10ebf7fb5232/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — It stops damaging players and forgets which players it damaged when it leaves the battlefield.
+  - *2007-09-16* — If The Fallen phases out and back in, it remembers which players it has dealt damage to this game.
+  - *2007-09-16* — The Fallen’s ability causes it to deal damage only to opponents of its current controller. If The Fallen has dealt damage to you, and then you gain control of it, you won’t be damaged during your upkeep.
+  - *2007-09-16* — The effect isn’t cumulative. When it resolves, The Fallen deals 1 damage to each opponent previously dealt damage by it, regardless of how many times The Fallen dealt damage to that opponent before.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/69/the-fallen) · oracle_id `19348c1e-b683-4d2c-b4eb-82e538b314b0` · printing: ME1 #69 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fallen Apart
 
@@ -165,6 +179,7 @@
   > Whenever damage is dealt to this creature, remove an arm or a leg from it.
   > This creature can't attack if it has no legs and can't block if it has no arms.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/55/the-fallen-apart) · oracle_id `bf622291-d6c5-4a8c-b3c3-81d73b6306f7` · printing: UNH #55 (2004-11-19) · [rulings](https://api.scryfall.com/cards/b458a3a2-b047-4edb-a621-87aee8be3a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fall of Kroog
@@ -176,6 +191,7 @@
 - **Flavor text** (BRO printing):
   > *As retaliation for the Warlord's ambush at the peace summit, Mishra leveled Yotia's capital city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/133/the-fall-of-kroog) · oracle_id `bfd8d447-7253-40d0-a153-78e9700045d7` · printing: BRO #133 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f454583d-d227-4fc8-842e-128e025880e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fall of Lord Konda // Fragment of Konda
@@ -194,7 +210,14 @@
   > *For his transgressions against the kami, Lord Konda's immortal body was turned to stone, then shattered into a thousand still-living pieces.*
 - **Keywords:** Transform, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12042 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/12/the-fall-of-lord-konda-fragment-of-konda) · oracle_id `6ba8e099-5871-4ee3-8a65-06fd8ccec340` · printing: NEO #12 (2022-02-18) · [rulings](https://api.scryfall.com/cards/4d784409-df6d-45d4-8f8b-6e3fd57a8fde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/12/the-fall-of-lord-konda-fragment-of-konda) · oracle_id `6ba8e099-5871-4ee3-8a65-06fd8ccec340` · printing: NEO #12 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fantasticar
 
@@ -207,6 +230,7 @@
   > Whenever you cast your fourth noncreature spell each turn, you may sacrifice The Fantasticar. If you do, create four 4/4 colorless Construct artifact creature tokens with flying and haste.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17571 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/104/the-fantasticar) · oracle_id `9b0abb58-4e2c-45dc-99b1-61a4cb79354b` · printing: MSC #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ed0beb69-8441-4104-9990-81bd82f81f9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fantastic Four
@@ -221,6 +245,7 @@
   > • Put two +1/+1 counters on target creature.
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18629 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/741/the-fantastic-four) · oracle_id `a2281c99-3f45-441b-8e78-7f1f29bf1dcd` · printing: MSC #741 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d78cb67a-ed8a-4e76-8506-04c274318b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fearsome Flock
@@ -242,6 +267,7 @@
   > *Designed by players at MagicCon Amsterdam 2024*
 - **Keywords:** Flying, Split second
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04c/the-fearsome-flock) · oracle_id `de5b1984-205f-481b-9c42-d72d69e65308` · printing: UNK #RU04c (2024-10-25) · [rulings](https://api.scryfall.com/cards/12fadadf-f8a1-40c0-a99d-87b76cec63f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifteenth Doctor
@@ -254,6 +280,7 @@
   > The first nonartifact spell you cast each turn has improvise. (Your artifacts can help cast that spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16115 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1584/the-fifteenth-doctor) · oracle_id `90aa8344-ffc7-4a1a-a02a-80eceb1babe5` · printing: SLD #1584 (2023-12-11) · [rulings](https://api.scryfall.com/cards/530a26f1-cf7a-4e56-886b-6799b057c739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifth Alias
@@ -265,6 +292,7 @@
   > Before the game begins, if The Fifth Alias is your commander or in your deck, secretly make a list of five nonland cards in your deck. (Don't forget to do this!)
   > As you draw a card on your list, you may reveal it, show it was on the list, and exclaim its name. If you do, cast it without paying its mana cost.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03g/the-fifth-alias) · oracle_id `af0396fe-ef88-4976-b77a-8684a89d5e68` · printing: UNK #RZ03g (2024-10-25) · [rulings](https://api.scryfall.com/cards/8065cac3-0e0a-4172-8221-1c4441e052d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fifth Doctor
@@ -278,7 +306,11 @@
   > *"When did you last have the pleasure of smelling a flower, watching a sunset, eating a well-prepared meal?"*
 - **Keywords:** Peaceful Coexistence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11010 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/127/the-fifth-doctor) · oracle_id `992ddd9f-e0db-4383-909c-6dacca41d188` · printing: WHO #127 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2f548f4b-77b9-47bb-b262-a851fdf0124f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/127/the-fifth-doctor) · oracle_id `992ddd9f-e0db-4383-909c-6dacca41d188` · printing: WHO #127 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Filigree Sylex
 
@@ -289,7 +321,9 @@
   > {T}, Sacrifice The Filigree Sylex: Destroy each nonland permanent with mana value equal to the number of oil counters on The Filigree Sylex.
   > {T}, Remove ten oil counters from among permanents you control and sacrifice The Filigree Sylex: It deals 10 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/227/the-filigree-sylex) · oracle_id `38347ab3-ae43-4d10-b665-8520ace0eb76` · printing: ONE #227 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6e0958a1-1bac-48be-888d-f7573f409a9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If a permanent has {X} in its mana cost, X is 0 when determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/227/the-filigree-sylex) · oracle_id `38347ab3-ae43-4d10-b665-8520ace0eb76` · printing: ONE #227 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Final Days
 
@@ -300,7 +334,15 @@
   > Flashback {4}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/101/the-final-days) · oracle_id `f2b88031-bfb7-46c4-abdd-3b6b5f5acfa4` · printing: FIN #101 (2025-06-13) · [rulings](https://api.scryfall.com/cards/bbf01770-6d0f-4015-b4b4-a74a53cb767a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — The value of X is calculated only once, as The Final Days resolves.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/101/the-final-days) · oracle_id `f2b88031-bfb7-46c4-abdd-3b6b5f5acfa4` · printing: FIN #101 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fire Crystal
 
@@ -313,7 +355,15 @@
 - **Flavor text** (FIN printing):
   > *"Warriors of Light...Only you can restore hope to the world, for yours is the light that can balance out the darkness..."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #843 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/135/the-fire-crystal) · oracle_id `57276db8-9d8d-4587-ae88-dfdc44343f17` · printing: FIN #135 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ea430b17-2014-4b8e-b53f-43bcfc06f7cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-06-06* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-06-06* — If the copied creature is copying something else, then the token enters as whatever that creature copied.
+  - *2025-06-06* — If the creature copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of red spells you cast.
+  - *2025-06-06* — The token copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Fire Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/135/the-fire-crystal) · oracle_id `57276db8-9d8d-4587-ae88-dfdc44343f17` · printing: FIN #135 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fire Nation Drill
 
@@ -327,7 +377,10 @@
   > Crew 2
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7942 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · [rulings](https://api.scryfall.com/cards/54d762f6-e131-480f-b294-10f5a63d9c98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if The Fire Nation Drill's first activated ability resolves during that turn.
+  - *2025-10-02* — If a permanent enters under an opponent's control with hexproof or indestructible after The Fire Nation Drill's first activated ability resolves, it won't lose that ability unless you activate The Fire Nation Drill's ability again. The same is true if an opponent's permanent gains indestructible or hexproof after The Fire Nation Drill's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Doctor
 
@@ -338,7 +391,12 @@
   > When The First Doctor enters, search your library and/or graveyard for a card named TARDIS, reveal it, and put it into your hand. If you search your library this way, shuffle.
   > Whenever you cast a spell with cascade, put a +1/+1 counter on target artifact or creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12930 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/128/the-first-doctor) · oracle_id `5611b70d-f8d1-4a8f-b9a2-a356264a7c46` · printing: WHO #128 (2023-10-13) · [rulings](https://api.scryfall.com/cards/b0b4d7db-56b1-4110-b4e4-11748201caf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You choose the target for The First Doctor's last ability before revealing any cards for cascade.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/128/the-first-doctor) · oracle_id `5611b70d-f8d1-4a8f-b9a2-a356264a7c46` · printing: WHO #128 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Eruption
 
@@ -350,7 +408,16 @@
   > II — Add {R}{R}.
   > III — Sacrifice a Mountain. If you do, this Saga deals 3 damage to each creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23164 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/122/the-first-eruption) · oracle_id `df7a3868-4f03-452c-8307-1493977d42ef` · printing: DOM #122 (2018-04-27) · [rulings](https://api.scryfall.com/cards/0efc241f-64b5-4e28-b14a-b3f19ca6e7b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-04-27* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won't cause a previous chapter ability to trigger.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2018-04-27* — While resolving The First Eruption's final chapter ability, you must sacrifice one Mountain if able. You can't sacrifice multiple Mountains to deal more damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/122/the-first-eruption) · oracle_id `df7a3868-4f03-452c-8307-1493977d42ef` · printing: DOM #122 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Iroan Games
 
@@ -363,7 +430,16 @@
   > III — If you control a creature with power 4 or greater, draw two cards.
   > IV — Create a Gold token. (It's an artifact with "Sacrifice this token: Add one mana of any color.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6146 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/170/the-first-iroan-games) · oracle_id `58934f6d-1aa2-414c-85c6-955a1e26d675` · printing: THB #170 (2020-01-24) · [rulings](https://api.scryfall.com/cards/4b05ada5-8e5f-4158-bd28-e6c24e4a2299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — A Gold token is a colorless Gold artifact token with "Sacrifice this artifact: Add one mana of any color."
+  - *2020-01-24* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2020-01-24* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. 
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/170/the-first-iroan-games) · oracle_id `58934f6d-1aa2-414c-85c6-955a1e26d675` · printing: THB #170 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Sliver
 
@@ -375,7 +451,19 @@
   > Sliver spells you cast have cascade.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4266 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/200/the-first-sliver) · oracle_id `55e4d4b2-1bd8-4c29-a21a-c014a974b715` · printing: MH1 #200 (2019-06-14) · [rulings](https://api.scryfall.com/cards/06d4fbe1-8a2f-4958-bb85-1a1e5f1e8d87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2019-06-14* — If a spell has multiple instances of cascade (for example, if you cast a second The First Sliver), each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
+  - *2019-06-14* — The First Sliver's last ability only applies while it's on the battlefield. If The First Sliver's own cascade ability lets you cast another Sliver card, that Sliver won't have cascade.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/200/the-first-sliver) · oracle_id `55e4d4b2-1bd8-4c29-a21a-c014a974b715` · printing: MH1 #200 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Tyrannic War
 
@@ -387,7 +475,9 @@
   > II, III — Double the number of each kind of counter on target creature you control.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11491 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/121/the-first-tyrannic-war) · oracle_id `85fd2f65-957e-446b-990a-8711a1e1c4f6` · printing: 40K #121 (2022-10-07) · [rulings](https://api.scryfall.com/cards/64c814f3-8d4e-4c64-ad00-fd8b836b48b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If the card you are putting onto the battlefield with the first chapter ability would enter the battlefield as a copy of another permanent, it will get +1/+1 counters this way only if the permanent that it is copying has a mana cost that contains {X}, regardless of the original card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/121/the-first-tyrannic-war) · oracle_id `85fd2f65-957e-446b-990a-8711a1e1c4f6` · printing: 40K #121 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fish Brewer
 
@@ -400,6 +490,7 @@
 - **Flavor text** (UNK printing):
   > *FROM*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU42/the-fish-brewer) · oracle_id `5e5264df-4dd5-4068-b828-0b33ec4d4636` · printing: UNK #RU42 (2024-02-24) · [rulings](https://api.scryfall.com/cards/9cc29297-ff1e-45c9-bc1e-df64b6f93116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Five Doctors
@@ -411,7 +502,15 @@
   > Search your library and/or graveyard for up to five Doctor cards, reveal them, and put them into your hand. If you search your library this way, shuffle. If this spell was kicked, put those cards onto the battlefield instead of putting them into your hand.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/101/the-five-doctors) · oracle_id `dbdd93d2-f2c6-43f9-93e6-2185c7df83bc` · printing: WHO #101 (2023-10-13) · [rulings](https://api.scryfall.com/cards/ada5e97f-c079-445c-8071-1c2a6dd00001/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — The Five Doctors can find any card with the Doctor creature type, not cards with the word "Doctor" in the name.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/101/the-five-doctors) · oracle_id `dbdd93d2-f2c6-43f9-93e6-2185c7df83bc` · printing: WHO #101 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Five Stages of Grief
 
@@ -428,6 +527,7 @@
   > *Designed by players at MagicCon Atlanta 2025*
 - **Keywords:** Goad, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05/the-five-stages-of-grief) · oracle_id `a8ed25e1-b95c-469e-865f-738b09a7f56f` · printing: UNK #RC05 (2026-05-01) · [rulings](https://api.scryfall.com/cards/b6ebd6a6-7707-480b-ac62-48907623017b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flame of Keld
@@ -440,7 +540,17 @@
   > II — Draw two cards.
   > III — If a red source you control would deal damage to a permanent or player this turn, it deals that much damage plus 2 to that permanent or player instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/123/the-flame-of-keld) · oracle_id `26b41c78-c5ee-4c50-93be-e3acc35ab355` · printing: DOM #123 (2018-04-27) · [rulings](https://api.scryfall.com/cards/324399ed-3d6e-4b4c-8f3d-b7802e2ecadf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-04-27* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won’t cause a previous chapter ability to trigger.
+  - *2018-04-27* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control simultaneously, divide the original amount before adding 2. For example, if you attack with a 5/5 red creature with trample and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then modified to 4 and 5, respectively.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — If multiple replacement effects would modify how damage would be dealt, the player being dealt damage (or the controller of the permanent being dealt damage) chooses the order in which to apply those effects.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/123/the-flame-of-keld) · oracle_id `26b41c78-c5ee-4c50-93be-e3acc35ab355` · printing: DOM #123 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flavormancer
 
@@ -453,6 +563,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at MagicCon Amsterdam, July 17-19, 2026.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ01a/the-flavormancer) · oracle_id `37d842ff-e0ec-400c-a8c8-3f238d9c02f1` · printing: UNK #MZ01a (2026-07-17) · [rulings](https://api.scryfall.com/cards/b18c0fd0-5aa3-4e9d-a363-54602423d59d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flesh Is Weak
@@ -464,7 +575,10 @@
   > Creatures you control with +1/+1 counters on them are artifacts in addition to their other types.
   > Nonartifact creatures get -1/-1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/122/the-flesh-is-weak) · oracle_id `dafbb927-3d9d-4be7-b427-f6564b295161` · printing: 40K #122 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c382d8ee-6640-4db2-b618-73d315e43526/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If The Flesh is Weak enters the battlefield while you control a nonartifact creature with 1 toughness and no +1/+1 counters on it, the last ability will cause its toughness to become 0 and it will die before the first ability can put a counter on it.
+  - *2022-10-07* — The same happens if a nonartifact creature you control with no +1/+1 counters on it has damage marked on it equal to its toughness minus 1. For example, if a 5/5 creature was dealt 4 damage earlier in the turn and its controller resolves The Flesh Is Weak, that creature will die before the +1/+1 counter is placed on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/122/the-flesh-is-weak) · oracle_id `dafbb927-3d9d-4be7-b427-f6564b295161` · printing: 40K #122 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flood of Mars
 
@@ -476,7 +590,9 @@
   > Water Always Wins — Whenever this creature attacks, put a flood counter on another target creature or land. If it's a creature, it becomes a copy of this creature. If it's a land, it becomes an Island in addition to its other types.
 - **Keywords:** Landwalk, Water Always Wins, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8834 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/45/the-flood-of-mars) · oracle_id `677bd655-b240-4862-912c-29209fb295e1` · printing: WHO #45 (2023-10-13) · [rulings](https://api.scryfall.com/cards/8c3474c4-9466-46fc-8327-50950d75e79f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — If the target is both a creature and a land as the triggered ability resolves, it will become a copy of The Flood of Mars. Excepting some very unusual cases, that copy won't be a land, so it won't also become an Island.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/45/the-flood-of-mars) · oracle_id `677bd655-b240-4862-912c-29209fb295e1` · printing: WHO #45 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Flux
 
@@ -488,7 +604,9 @@
   > II, III, IV, V — Exile the top card of your library. You may play that card this turn.
   > VI — Add six {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/86/the-flux) · oracle_id `8beaaf55-e05d-49c3-9320-c222c4d8ad12` · printing: WHO #86 (2023-10-13) · [rulings](https://api.scryfall.com/cards/026611f8-ae07-464f-afe5-6e94bcfac05e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — You must pay all costs and follow all normal timing rules to play a card with The Flux's middle chapter abilities. For example, you can play a land exiled this way only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/86/the-flux) · oracle_id `8beaaf55-e05d-49c3-9320-c222c4d8ad12` · printing: WHO #86 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Foretold Soldier
 
@@ -502,7 +620,12 @@
   > Foretell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/102/the-foretold-soldier) · oracle_id `02a45719-ee4a-49c4-96ec-a140cd6e1547` · printing: WHO #102 (2023-10-13) · [rulings](https://api.scryfall.com/cards/93391c14-a22c-4223-a980-5f98350c6a99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you're taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2023-10-13* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (like The Foretold Soldier), you'll have to wait until your next turn to cast it.
+  - *2023-10-13* — If a card is a copy of The Foretold Soldier on the battlefield, it can be exiled by the triggered ability and will become foretold. However, it may only be cast this way if it has a foretell cost in exile.
+  - *2023-10-13* — Regardless of who controlled The Foretold Soldier and exiled it with its triggered ability, only its owner may cast it from exile this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/102/the-foretold-soldier) · oracle_id `02a45719-ee4a-49c4-96ec-a140cd6e1547` · printing: WHO #102 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Forgotten Place
 
@@ -513,6 +636,7 @@
   > {T}: Add {C}.
   > {2}, {T}, Sacrifice The Forgotten Place: Draw a card for each Locus and/or Sphere in your graveyard.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CL01a/the-forgotten-place) · oracle_id `95f1d111-3798-488a-9589-134cf76783cf` · printing: UNK #CL01a (2023-02-17) · [rulings](https://api.scryfall.com/cards/eca23062-6014-4a0e-8210-2e86a6308aab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fourteenth Doctor
@@ -524,6 +648,7 @@
   > When you cast this spell, reveal the top fourteen cards of your library. Put all Doctor cards revealed this way into your graveyard and the rest on the bottom of your library in a random order.
   > You may have The Fourteenth Doctor enter as a copy of a Doctor card in your graveyard that was put there from your library this turn. If you do, it gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15299 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1583/the-fourteenth-doctor) · oracle_id `0afcf1eb-ac2c-4bb0-8823-9fe45968c2d9` · printing: SLD #1583 (2023-12-11) · [rulings](https://api.scryfall.com/cards/8b8a78cf-ee6c-4852-9651-eeaa634daaa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fourth Doctor
@@ -536,7 +661,16 @@
   > Would You Like A...? — Once each turn, you may play a historic land or cast a historic spell from the top of your library. When you do, create a Food token. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10340 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/2/the-fourth-doctor) · oracle_id `c19fdee3-5fbc-4e2d-ac23-85b46eacafdc` · printing: WHO #2 (2023-10-13) · [rulings](https://api.scryfall.com/cards/c84ea0fd-efc7-4614-9f8f-41a3c71fceaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-10-13* — Essentially, The Fourth Doctor lets you play with the top card of your library revealed only to you. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand. You may look at the top card of your library whenever you want, even if you don't have priority. This action doesn't use the stack.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If the top card of your library changes during the process of casting a spell or activating an ability, you can't look at the new top card until the process of casting the spell or activating the ability ends (all targets are chosen, all costs are paid, and so on).
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/2/the-fourth-doctor) · oracle_id `c19fdee3-5fbc-4e2d-ac23-85b46eacafdc` · printing: WHO #2 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Frightful Four
 
@@ -551,6 +685,7 @@
   > *—Wizard*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13102 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/44/the-frightful-four) · oracle_id `6d3469dd-d39e-463b-9b41-2f6215a41feb` · printing: MSC #44 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3e792132-de96-47aa-bcd5-58f1e9be5932/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theft of Dreams
@@ -562,6 +697,7 @@
 - **Flavor text** (ME4 printing):
   > *Energy is never lost, only transformed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11629 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/67/theft-of-dreams) · oracle_id `008011e2-7b82-4962-af6e-be627112f37f` · printing: ME4 #67 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5aa9adcd-af58-4055-902c-806a2787c3bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fugitive Doctor
@@ -574,4 +710,16 @@
   > Whenever The Fugitive Doctor attacks, you may sacrifice a Clue. When you do, target instant or sorcery card in your graveyard gains flashback {2}{R}{G} until end of turn. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15132 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/130/the-fugitive-doctor) · oracle_id `b3a03768-7676-4b33-a813-cc69dea77c4d` · printing: WHO #130 (2023-10-13) · [rulings](https://api.scryfall.com/cards/fea8bd29-80a4-463f-b3bd-e15f4bd5f5ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-10-13* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2023-10-13* — "Investigate" means "Create a Clue token." A Clue token is a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card."
+  - *2023-10-13* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2023-10-13* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2023-10-13* — If a split card gains flashback, you pay only the cost of the half you're casting.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If you cast an instant or sorcery with {X} in its mana cost this way, you must choose 0 as the value of X. (You still have to pay {2}{R}{G}.)
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/130/the-fugitive-doctor) · oracle_id `b3a03768-7676-4b33-a813-cc69dea77c4d` · printing: WHO #130 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

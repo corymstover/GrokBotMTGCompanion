@@ -54,7 +54,15 @@
   > *"Perhaps you have heard of my good cousin Radagast who lives near the southern borders of Mirkwood?" Gandalf asked.*
   > *"Yes," said Beorn, "not a bad fellow as Wizards go, I believe."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4359 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/136/radagast-of-rhosgobel) · oracle_id `84d648c7-655e-4590-a3e0-366a8a4a4cb3` · printing: HOB #136 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5741bbad-a6e4-45e0-b827-73f48c9975bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-06-29* — If the first creature spell you cast in a turn has {X} in its mana cost, you choose the value of X before calculating the spell's total cost. For example, if the first creature spell you cast in a turn has a mana cost of {X}{G}, you could choose 2 as the value of X and pay {G} to cast the spell.
+  - *2026-06-29* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect, apply those increases before applying cost reductions.
+  - *2026-06-29* — Radagast of Rhosgobel's ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you actually pay.
+  - *2026-06-29* — Radagast of Rhosgobel's ability will look at the entire turn, even if Radagast wasn't on the battlefield for some of it. Notably, if you cast Radagast of Rhosgobel in a turn, then no other creature spell you cast that turn can be your first.
+  - *2026-06-29* — Radagast's ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic component of that cost.
+  - *2026-06-29* — The cost reduction can apply to alternative costs.
+  - *2026-06-29* — The first creature spell you cast each turn doesn't necessarily have to be the first spell you cast. You could cast a sorcery spell and then cast a creature spell that would get the discount.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/136/radagast-of-rhosgobel) · oracle_id `84d648c7-655e-4590-a3e0-366a8a4a4cb3` · printing: HOB #136 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radagast the Brown
 
@@ -64,7 +72,10 @@
 - **Oracle text:**
   > Whenever Radagast or another nontoken creature you control enters, look at the top X cards of your library, where X is that creature's mana value. You may reveal a creature card that doesn't share a creature type with a creature you control from among those cards and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7771 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/184/radagast-the-brown) · oracle_id `dfa47d0d-17f0-4a12-89d3-0d3c7f3db8c6` · printing: LTR #184 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b3988120-ebbe-4d24-9bb4-8c5331a14034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — If a token copy of Radagast the Brown enters the battlefield, its own ability will trigger.
+  - *2023-06-16* — If the top X cards of your library don't contain a creature card that doesn't share a creature type with a creature you control, you won't get to put a card into your hand. Apologies to Mistform Ultimus fans everywhere.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/184/radagast-the-brown) · oracle_id `dfa47d0d-17f0-4a12-89d3-0d3c7f3db8c6` · printing: LTR #184 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radagast, Wizard of Wilds
 
@@ -79,7 +90,11 @@
   > • Create a 2/2 blue Bird creature token with flying.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13667 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/66/radagast-wizard-of-wilds) · oracle_id `50f144f8-29eb-4af7-9a50-eded3b9c83c2` · printing: LTC #66 (2023-06-23) · [rulings](https://api.scryfall.com/cards/9573ee62-4fdf-4fca-90e2-10a7d8161764/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — A creature that is both a Beast and a Bird still only gets one instance of ward {1} from Radagast, Wizard of Wilds's first ability.
+  - *2023-06-16* — If Radagast, Wizard of Wilds is a Beast or a Bird, it will have two instances of ward {1}.
+  - *2023-06-16* — Radagast, Wizard of the Wilds's last triggered ability will resolve before the spell that caused it to trigger resolves. It will resolve even if the spell that caused it to trigger is countered or has otherwise left the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/66/radagast-wizard-of-wilds) · oracle_id `50f144f8-29eb-4af7-9a50-eded3b9c83c2` · printing: LTC #66 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha, Coalition Warlord
 
@@ -92,7 +107,10 @@
   > *"Enough warm-up. I'm coming for you, Sheoldred!"*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19038 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/211/radha-coalition-warlord) · oracle_id `fbf0bde7-cb13-402b-b3ab-81c787ce4827` · printing: DMU #211 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2cec235e-7ce0-4947-b221-a555b2c865bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/211/radha-coalition-warlord) · oracle_id `fbf0bde7-cb13-402b-b3ab-81c787ce4827` · printing: DMU #211 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha, Heart of Keld
 
@@ -104,6 +122,7 @@
   > You may look at the top card of your library any time, and you may play lands from the top of your library.
   > {4}{R}{G}: Radha gets +X/+X until end of turn, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8348 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/224/radha-heart-of-keld) · oracle_id `927fb139-0493-48be-8cc4-2c7d854d6a55` · printing: M21 #224 (2020-07-03) · [rulings](https://api.scryfall.com/cards/2bbd37b1-49cb-4295-9a1f-fb85368a8f12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha, Heir to Keld
@@ -117,7 +136,10 @@
 - **Flavor text** (DMR printing):
   > *"Step aside, weakling, or I'll swat you like the bug you are."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6461 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/196/radha-heir-to-keld) · oracle_id `61d94fe7-b559-4bd4-94a7-f4ed4c853b4b` · printing: DMR #196 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ecb7c19a-b4af-405d-b016-a546ed12a99d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Radha's triggered ability is not a mana ability because it doesn't trigger from another mana ability. It goes on the stack and it can be responded to.
+  - *2022-12-08* — You lose the mana produced by Radha's ability before blockers are declared if you don't spend it first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/196/radha-heir-to-keld) · oracle_id `61d94fe7-b559-4bd4-94a7-f4ed4c853b4b` · printing: DMR #196 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radha's Firebrand
 
@@ -129,7 +151,11 @@
   > Domain — {5}{R}: This creature gets +2/+2 until end of turn. This ability costs {1} less to activate for each basic land type among lands you control. Activate only once each turn.
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/141/radhas-firebrand) · oracle_id `0d6d5509-41e5-4099-98a0-18ae7531df7d` · printing: DMU #141 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ae8a90c4-4a79-49e7-9fab-076b35d28adb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — Increasing the target creature's power in response to Radha's Firebrand's first ability can cause it to be an illegal target for the ability. However, once the ability has resolved, it won't be able to block even if its power becomes greater than Radha's Firebrand's power.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/141/radhas-firebrand) · oracle_id `0d6d5509-41e5-4099-98a0-18ae7531df7d` · printing: DMU #141 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant, Archangel
 
@@ -141,6 +167,7 @@
   > Radiant gets +1/+1 for each other creature on the battlefield with flying.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19135 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/40/radiant-archangel) · oracle_id `859cbe11-e1e6-4309-94da-8725db1b3fc2` · printing: VMA #40 (2014-06-16) · [rulings](https://api.scryfall.com/cards/4d976c91-2377-470a-8129-eeb716451252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Destiny
@@ -153,7 +180,17 @@
   > Creatures you control of the chosen type get +1/+1. As long as you have the city's blessing, they also have vigilance.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5641 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/135/radiant-destiny) · oracle_id `068cbbe3-43c3-425e-80ec-d1ce5c02ea9b` · printing: LCC #135 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d1d03bfb-c3bf-4837-b4df-e6339997dedb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2018-01-19* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2018-01-19* — Gaining vigilance any time after the moment you choose to attack with a creature won't cause that creature to become untapped, and losing vigilance after that time won't cause it to become tapped.
+  - *2018-01-19* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2018-01-19* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+  - *2018-01-19* — Some cards get power, toughness, and/or abilities once you have the city's blessing. If another card has an ability that triggers when creatures with certain characteristics enter the battlefield (such as Mentor of the Meek or Elemental Bond do), use the entering permanent's characteristics after you have the city's blessing to determine whether those abilities trigger. This is true even if the entering permanent is your tenth permanent.
+  - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can't choose multiple creature types, such as "Vampire Knight." Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/135/radiant-destiny) · oracle_id `068cbbe3-43c3-425e-80ec-d1ce5c02ea9b` · printing: LCC #135 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Epicure
 
@@ -166,7 +203,13 @@
   > *Taste is not a sensation for the tongue alone.*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27378 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/98/radiant-epicure) · oracle_id `cdea4344-24b6-4659-a830-c51d4b348af5` · printing: MH2 #98 (2021-06-18) · [rulings](https://api.scryfall.com/cards/48c99e55-c605-4519-a52a-39dfdbabb44a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2021-06-18* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2021-06-18* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2021-06-18* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2021-06-18* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/98/radiant-epicure) · oracle_id `cdea4344-24b6-4659-a830-c51d4b348af5` · printing: MH2 #98 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Essence
 
@@ -179,7 +222,9 @@
   > *"Her beauty was the beauty of the Sun at midday, deadly to those who underestimated her strength."*
   > *—Azeworai, "Kenechi's Dream"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/276/radiant-essence) · oracle_id `48e2f2c3-9d99-4535-915f-551fbb59ade5` · printing: MIR #276 (1996-10-08) · [rulings](https://api.scryfall.com/cards/d9b1853c-d5b9-4361-8a2f-36946a62847b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — In a multiplayer game, it gets the bonus if at least one opponent controls a black permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/276/radiant-essence) · oracle_id `48e2f2c3-9d99-4535-915f-551fbb59ade5` · printing: MIR #276 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Flames
 
@@ -191,7 +236,13 @@
   > *The fires of Zendikar are always hungry, and there is much on which they can feed.*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/126/radiant-flames) · oracle_id `cfc8372f-13b6-4628-84c7-066881b287f5` · printing: DMC #126 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e80455ca-f23c-44da-b191-c3b12a9c546f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2015-08-25* — If there are any alternative or additional costs to cast a spell with a converge ability, the mana spent to pay those costs will count. For example, if an effect makes sorcery spells cost {1} more to cast, you could pay {W}{U}{B}{R} to cast Radiant Flames and deal 4 damage to each creature.
+  - *2015-08-25* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2015-08-25* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/126/radiant-flames) · oracle_id `cfc8372f-13b6-4628-84c7-066881b287f5` · printing: DMC #126 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Fountain
 
@@ -204,6 +255,7 @@
   > *"All peoples treasure a place where the weary traveler may drink in peace."*
   > *—Ajani Goldmane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/310/radiant-fountain) · oracle_id `6db442e5-fbcc-4456-a4c5-bea1aee3fc8e` · printing: C21 #310 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7ee5e77f-ca43-480d-ac37-48336d3bf044/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Grace // Radiant Restraints
@@ -221,6 +273,7 @@
   > *—Thalia, Guardian of Thraben*
 - **Keywords:** Transform, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13011 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/31/radiant-grace-radiant-restraints) · oracle_id `93cddbad-92ef-4b30-a0e7-981aee714bce` · printing: VOW #31 (2021-11-19) · [rulings](https://api.scryfall.com/cards/4a708243-42a1-4fa7-8b0b-9d5163da84bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Grove
@@ -233,6 +286,7 @@
 - **Flavor text** (TDC printing):
   > *Yavimaya's inhabitants are dedicated to protecting its unspoiled jungle from the scourge of artifice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/385/radiant-grove) · oracle_id `32c91719-f3dd-4cc7-9e32-7d5ccf18f07c` · printing: TDC #385 (2025-04-11) · [rulings](https://api.scryfall.com/cards/466fd4e6-f1dd-40c9-92df-1da48ab729d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Kavu
@@ -245,6 +299,7 @@
 - **Flavor text** (PLS printing):
   > *When angered or frightened, it protects itself with a burst of blinding light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28944 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/120/radiant-kavu) · oracle_id `ab46b957-5206-4390-a2f6-aba2e8d1debe` · printing: PLS #120 (2001-02-05) · [rulings](https://api.scryfall.com/cards/153077a8-38c0-44aa-9b84-cdd9ade50ad6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Lotus
@@ -256,6 +311,7 @@
 - **Flavor text** (DFT printing):
   > *After devastation, hope bloomed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/240/radiant-lotus) · oracle_id `307be184-176a-40a8-944c-48aa00cfdd29` · printing: DFT #240 (2025-02-14) · [rulings](https://api.scryfall.com/cards/be6dac83-39c2-40dc-a322-76a3ea4e7aee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Performer
@@ -268,7 +324,12 @@
   > When this creature enters, if you cast it from your hand, choose target spell or ability that targets only a single permanent or player. Copy that spell or ability for each other permanent or player the spell or ability could target. Each copy targets a different one of those permanents and players.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11228 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/54/radiant-performer) · oracle_id `ad16f918-5603-437b-b143-49c69ceae17d` · printing: C21 #54 (2021-04-23) · [rulings](https://api.scryfall.com/cards/e8faedf4-1178-4f5d-8f46-7277dfe1ae2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Each copy you create will cause your magecraft abilities to trigger.
+  - *2021-04-16* — You can choose a spell or ability with multiple targets as long as all of those targets are the same permanent or player.
+  - *2021-04-16* — You control all the copies, and you'll choose which copy targets which permanent or player. For example, if the original spell says, "Destroy target creature," you'll ultimately choose the order in which each creature targeted by a copy is destroyed. Remember that the original spell or ability will resolve after all of the copies.
+  - *2021-04-16* — You copy the spell or ability for every permanent or player it could target. That is, you don't choose either permanents or players and then make copies based on that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/54/radiant-performer) · oracle_id `ad16f918-5603-437b-b143-49c69ceae17d` · printing: C21 #54 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Purge
 
@@ -279,6 +340,7 @@
 - **Flavor text** (DTK printing):
   > *The Shifting Wastes are Dromoka's domain. She will not tolerate intruders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/31/radiant-purge) · oracle_id `b61718ad-7102-4ed2-b884-733bc46df715` · printing: DTK #31 (2015-03-27) · [rulings](https://api.scryfall.com/cards/c34d94f4-c504-4cf1-9bc7-d318fbee54d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Scrollwielder
@@ -290,7 +352,11 @@
   > Instant and sorcery spells you control have lifelink.
   > At the beginning of your upkeep, exile an instant or sorcery card at random from your graveyard. You may cast it this turn. If a spell cast this way would be put into your graveyard, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10098 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/221/radiant-scrollwielder) · oracle_id `8f5ef838-839a-4eb0-8d65-c8c8def0a233` · printing: STX #221 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c8152ab0-c6fc-4568-b837-4e84129e7b57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — If an instant or sorcery spell you control with lifelink deals damage to you, you gain and lose that much life simultaneously. In this case, your life total doesn’t change. (You may gain life if the spell also deals damage to other permanents and/or players, however.)
+  - *2021-04-16* — Some instant and sorcery spells instruct other things to deal damage rather than deal damage themselves. In these cases, you won’t gain life for that damage (unless the other things also have lifelink). Notably, a spell that instructs a creature you control to fight won’t cause you to gain life.
+  - *2021-04-16* — You still pay the mana cost when casting the exiled card, and you must follow all timing rules for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/221/radiant-scrollwielder) · oracle_id `8f5ef838-839a-4eb0-8d65-c8c8def0a233` · printing: STX #221 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant's Dragoons
 
@@ -302,6 +368,7 @@
   > When this creature enters, you gain 5 life.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ulg/21/radiants-dragoons) · oracle_id `a0fe91a8-633c-4902-bc75-da0a5aa76992` · printing: ULG #21 (1999-02-15) · [rulings](https://api.scryfall.com/cards/8a0f39de-6ad2-410c-bc6c-75fd3c8d159b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant, Serra Archangel
@@ -315,7 +382,15 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Flying, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20260 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/40/radiant-serra-archangel) · oracle_id `4a8227ff-0ae4-4405-8e44-1f5187a7f9f5` · printing: CMR #40 (2020-11-20) · [rulings](https://api.scryfall.com/cards/38b00110-e3de-40ce-b2bd-9466fe9e53a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/40/radiant-serra-archangel) · oracle_id `4a8227ff-0ae4-4405-8e44-1f5187a7f9f5` · printing: CMR #40 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant's Judgment
 
@@ -326,6 +401,7 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/21/radiants-judgment) · oracle_id `85fd04e9-b39c-4ce0-97a1-58f9670a298f` · printing: DMR #21 (2023-01-13) · [rulings](https://api.scryfall.com/cards/5abbdd37-dc24-4bf7-808e-6354af7d7ec6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Solar
@@ -339,7 +415,19 @@
   > {W}, Discard this card: Venture into the dungeon and you gain 3 life.
 - **Keywords:** Flying, Lifelink, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/9/radiant-solar) · oracle_id `21a86dcd-03e3-409b-b214-5feed07db584` · printing: AFC #9 (2021-07-23) · [rulings](https://api.scryfall.com/cards/fa0e443a-c479-40ab-9702-8beca3e5ab95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — A token copy of Radiant Solar entering the battlefield will cause its own ability to trigger, but not that of any other Radiant Solars.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/9/radiant-solar) · oracle_id `21a86dcd-03e3-409b-b214-5feed07db584` · printing: AFC #9 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Strike
 
@@ -351,7 +439,9 @@
   > *"The light does not ask permission to cut through the darkness."*
   > *—Mentor Ultimate, to Regent Maximum Taman IV*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/29/radiant-strike) · oracle_id `186efd85-83d4-40cc-b617-76f32dbe99ce` · printing: EOE #29 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8c38e4cb-918b-4493-872b-66c90dcfd339/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — If the target permanent is an illegal target as Radiant Strike tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/29/radiant-strike) · oracle_id `186efd85-83d4-40cc-b617-76f32dbe99ce` · printing: EOE #29 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiant Summit
 
@@ -364,7 +454,9 @@
   > *"The Tapestry weaves worlds on its own. All we do is tend to the process."*
   > *—Antioxa, Drix elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/80/radiant-summit) · oracle_id `5dd0cc44-4647-4857-ad3b-22494099d08a` · printing: FRC #80 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f8cd6aae-a1cb-43b1-aca9-09fe2778969f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — Unlike some other dual lands, Radiant Summit has two basic land types. It’s not basic, so effects that search for basic lands (such as the ability of a Lander token) can’t find it, but it does have the appropriate land types for effects such as that of Sunbillow Verge (from the Aetherdrift release).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/80/radiant-summit) · oracle_id `5dd0cc44-4647-4857-ad3b-22494099d08a` · printing: FRC #80 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiate
 
@@ -373,6 +465,7 @@
 - **Oracle text:**
   > Choose target instant or sorcery spell that targets only a single permanent or player. Copy that spell for each other permanent or player the spell could target. Each copy targets a different one of those permanents and players.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/113/radiate) · oracle_id `2e5163bd-9b8a-4d1e-9ba9-8666c7348dfd` · printing: TOR #113 (2002-02-04) · [rulings](https://api.scryfall.com/cards/2562c25a-999e-4fb5-a595-f376c8abf1ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radiating Lightning
@@ -384,7 +477,9 @@
 - **Flavor text** (M19 printing):
   > *As the Cabal legions pushed into Shiv, they learned not to stand so close together.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19393 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/313/radiating-lightning) · oracle_id `9794f397-dd86-4cfe-a431-5f8d8c6b68ea` · printing: M19 #313 (2018-07-13) · [rulings](https://api.scryfall.com/cards/9395fce4-11bf-4934-8323-5be4862c9779/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Radiating Lightning targets only the player. Creatures that player controls with hexproof will be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/313/radiating-lightning) · oracle_id `9794f397-dd86-4cfe-a431-5f8d8c6b68ea` · printing: M19 #313 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radical Idea
 
@@ -397,7 +492,12 @@
   > *Genius is finding the edge of what's possible, then jumping over it.*
 - **Keywords:** Jump, Jump-start
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/110/radical-idea) · oracle_id `fd51dce2-8e8a-4686-910e-1bbc2825d190` · printing: OTC #110 (2024-04-19) · [rulings](https://api.scryfall.com/cards/aa32ec44-d29b-4ebe-82f5-4fe67bca07eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-10-05* — A spell cast using jump-start will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2018-10-05* — If a card with jump-start is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2018-10-05* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
+  - *2018-10-05* — You must still follow any timing restrictions and permissions when casting a spell with jump-start, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/110/radical-idea) · oracle_id `fd51dce2-8e8a-4686-910e-1bbc2825d190` · printing: OTC #110 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radioactive Man
 
@@ -411,6 +511,7 @@
   > *"Radiation is my plaything—but now it will become your doom!"*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21449 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/665/radioactive-man) · oracle_id `6e901cab-fba9-4581-9f09-90473bbd8e30` · printing: MSC #665 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8a195220-26ce-4254-9dd9-7ecf89569b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radioactive Spider
@@ -426,6 +527,7 @@
   > *—Peter Parker*
 - **Keywords:** Reach, Fateful Bite, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5858 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/111/radioactive-spider) · oracle_id `f15bd5c0-99ff-42c6-8eed-48de6df81b61` · printing: SPM #111 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f2d267f5-7f12-45f8-8fcb-e0ba3fbdeddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radjan Spirit
@@ -436,7 +538,9 @@
 - **Oracle text:**
   > {T}: Target creature loses flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31528 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/162/radjan-spirit) · oracle_id `c9ffce6c-a113-4c9d-9148-5ace68f68793` · printing: ME4 #162 (2011-01-10) · [rulings](https://api.scryfall.com/cards/03701cfd-4343-4ba0-a0b9-32db69acde6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can be used on a creature without Flying with no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/162/radjan-spirit) · oracle_id `c9ffce6c-a113-4c9d-9148-5ace68f68793` · printing: ME4 #162 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rad Rascal
 
@@ -449,6 +553,7 @@
   > *"Rent a scooter and be just like Devil K. Nevil! Just don't go faster than the speed limit. Or jump over anything. Or catch on fire. Or break every bone in your body multiple times. Other than that, just like him!"*
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17676 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/121/rad-rascal) · oracle_id `66d4a218-5404-4389-b495-eaeda9a34401` · printing: UNF #121 (2022-10-07) · [rulings](https://api.scryfall.com/cards/18961324-dbfb-4491-af66-ba8ccfbc94f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Radstorm
@@ -462,4 +567,13 @@
   > *Green sky at night, ghoul's delight.*
 - **Keywords:** Storm, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/37/radstorm) · oracle_id `d4cde3d5-eb13-4ad5-8178-08780dc85d39` · printing: PIP #37 (2024-03-08) · [rulings](https://api.scryfall.com/cards/d778cdec-8fc7-4174-bae1-4c8e8ccdfab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with storm won’t affect the copies.
+  - *2024-03-08* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can’t have it get just one kind of counter it already has and not the others.
+  - *2024-03-08* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it’s too late for anyone to respond.
+  - *2024-03-08* — Some spells and abilities that cause you to proliferate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. You won’t proliferate.
+  - *2024-03-08* — Spells cast from zones other than a player’s hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
+  - *2024-03-08* — The copies of Radstorm created by its storm ability are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn.
+  - *2024-03-08* — You can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2024-03-08* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/37/radstorm) · oracle_id `d4cde3d5-eb13-4ad5-8178-08780dc85d39` · printing: PIP #37 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -33,7 +33,9 @@
 - **Flavor text** (FIN printing):
   > *The town proper of Rabanastre is divided into four sections by the cardinal directions of the compass. The east and west are merchant districts, the streets lined with shops and stalls of every description.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4679 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/287/rabanastre-royal-city) · oracle_id `bd39e333-b0b8-4a85-8645-d77f4a3941db` · printing: FIN #287 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c44c9bbe-f4c6-41cf-b3c3-b943f4011bc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/287/rabanastre-royal-city) · oracle_id `bd39e333-b0b8-4a85-8645-d77f4a3941db` · printing: FIN #287 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabaroo Troop
 
@@ -47,6 +49,7 @@
   > *Rabaroos are famous enjoyers of hopping and infamous enjoyers of cabbage.*
 - **Keywords:** Plainscycling, Landcycling, Typecycling, Cycling, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16790 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/32/rabaroo-troop) · oracle_id `48252207-d345-455c-b655-c2027664e6a6` · printing: TLA #32 (2025-11-21) · [rulings](https://api.scryfall.com/cards/62a983b4-ac73-4949-9317-05a75a8ce164/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabbit Battery
@@ -60,7 +63,18 @@
   > Reconfigure {R} ({R}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Haste, Reconfigure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5498 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/157/rabbit-battery) · oracle_id `c739e180-2f14-41ed-8e7e-50b7df985f35` · printing: NEO #157 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5d33a5b7-797b-4079-8d62-edd124c0fb5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-02-18* — Although it causes an Equipment to become attached to a creature, reconfigure is not an “equip ability” for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2022-02-18* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2022-02-18* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2022-02-18* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Acquisition Octopus, then use reconfigure to unattach Acquisition Octopus after combat, the Octopus will be untapped and could be used to block during your opponent's turn.
+  - *2022-02-18* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2022-02-18* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2022-02-18* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
+  - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/157/rabbit-battery) · oracle_id `c739e180-2f14-41ed-8e7e-50b7df985f35` · printing: NEO #157 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabbit Response
 
@@ -72,6 +86,7 @@
   > *You never fight just one rabbitfolk. They bring the strength of their burrow to battle with them.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13410 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/26/rabbit-response) · oracle_id `9f7abd7d-1087-495c-8a52-2a2368cc1032` · printing: BLB #26 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c4ded450-346d-4917-917a-b62bc0267509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabble-Rouser
@@ -84,6 +99,7 @@
   > {R}, {T}: Attacking creatures get +X/+0 until end of turn, where X is this creature's power.
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27228 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/73/rabble-rouser) · oracle_id `1d591c00-7086-4337-bdb8-a5f35568f04e` · printing: GPT #73 (2006-02-03) · [rulings](https://api.scryfall.com/cards/c6877862-f7c5-493d-baaf-41a91d4c7982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabble Rousing
@@ -95,7 +111,12 @@
   > Whenever you attack with one or more creatures, create that many 1/1 green and white Citizen creature tokens. Then if you control ten or more creatures, you may play the exiled card without paying its mana cost.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3547 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/24/rabble-rousing) · oracle_id `2e420001-2b3d-4eb7-b01c-3a49d5e241c2` · printing: SNC #24 (2022-04-29) · [rulings](https://api.scryfall.com/cards/206c8529-56df-4ed9-97bc-6c9b5e2a04c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads “[This permanent] enters the battlefield tapped,” and they now have hideaway 4.
+  - *2022-04-29* — “Hideaway N” means “When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains ‘The player who controls the permanent that exiled this card may look at this card in the exile zone.'”
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/24/rabble-rousing) · oracle_id `2e420001-2b3d-4eb7-b01c-3a49d5e241c2` · printing: SNC #24 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Attack
 
@@ -107,6 +128,7 @@
   > *"Let me guess, the scurrids got to you lot?"*
   > *—Witherbloom infirmary attendant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/96/rabid-attack) · oracle_id `4db02b34-efec-437c-ab28-aa318b8879ad` · printing: SOS #96 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f5e67560-3135-4b27-a344-5859edf8bcd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Bite
@@ -118,7 +140,9 @@
 - **Flavor text** (BLB printing):
   > *A healthy felidar is voracious yet regal. A rabid felidar is nothing more than appetite lashed to frothing jaws.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/394/rabid-bite) · oracle_id `6d5dc34b-3eea-4b77-8db7-94bc30b14c4c` · printing: BLB #394 (2024-08-02) · [rulings](https://api.scryfall.com/cards/53a73200-b798-4bfd-a431-8b94e17b70be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If either creature is an illegal target as Rabid Bite tries to resolve, the creature you control won't deal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/394/rabid-bite) · oracle_id `6d5dc34b-3eea-4b77-8db7-94bc30b14c4c` · printing: BLB #394 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Bloodsucker
 
@@ -132,6 +156,7 @@
   > *She haunts the streets, wings spread wide, with carrion on her breath and blood in her eyes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/113/rabid-bloodsucker) · oracle_id `e6b0c47b-9758-4ee3-b831-0af0650660fe` · printing: ORI #113 (2015-07-17) · [rulings](https://api.scryfall.com/cards/7335da62-3b59-4c73-a19e-b1733393ed88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Elephant
@@ -144,6 +169,7 @@
 - **Flavor text** (ODY printing):
   > *When in doubt, stomp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29292 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/263/rabid-elephant) · oracle_id `9daed342-e773-43ec-a8e2-98126b505e8a` · printing: ODY #263 (2001-10-01) · [rulings](https://api.scryfall.com/cards/fe394a38-ee44-4342-adcf-8c65d14f4978/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Gnaw
@@ -155,7 +181,9 @@
 - **Flavor text** (BLB printing):
   > *Unbeknownst to the hosts, the foraged seeds they served at dinner had been touched by a Calamity Beast. The results were ... disturbing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/147/rabid-gnaw) · oracle_id `077ae62d-ed94-4365-a8b7-97fd99cff028` · printing: BLB #147 (2024-08-02) · [rulings](https://api.scryfall.com/cards/2f815bae-820a-49f6-8eed-46f658e7b6ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If the creature you control is a legal target but the creature you don’t control isn’t as Rabid Gnaw resolves, the creature you control will get +1/+0 until end of turn, but no damage will be dealt. If instead the creature you control is an illegal target but the creature you don’t control is still a legal target, nothing will happen when Rabid Gnaw resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/147/rabid-gnaw) · oracle_id `077ae62d-ed94-4365-a8b7-97fd99cff028` · printing: BLB #147 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Rats
 
@@ -167,6 +195,7 @@
 - **Flavor text** (STH printing):
   > *Every sentence in Volrath's prisons ends the same way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/67/rabid-rats) · oracle_id `0f2504b0-bd5a-4b61-b8bb-c8b20aa1e26e` · printing: STH #67 (1998-03-02) · [rulings](https://api.scryfall.com/cards/ed8c028e-6656-47ef-97fb-de99f8833d5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Wolverines
@@ -179,6 +208,7 @@
 - **Flavor text** (EXO printing):
   > *Is there any other kind?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/119/rabid-wolverines) · oracle_id `ed076c39-9bfc-424a-8ce8-8572f7c0de73` · printing: EXO #119 (1998-06-15) · [rulings](https://api.scryfall.com/cards/99121a2b-c735-47be-b01e-cdf59809e7f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabid Wombat
@@ -191,4 +221,6 @@
   > This creature gets +2/+2 for each Aura attached to it.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29437 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/126/rabid-wombat) · oracle_id `c886eeb5-f86f-48c8-9adb-af13015972b1` · printing: ME1 #126 (2007-09-10) · [rulings](https://api.scryfall.com/cards/604d52c5-ceab-40fd-936e-bab859c4333e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — If an Aura is removed from the Wombat, its power and toughness change immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/126/rabid-wombat) · oracle_id `c886eeb5-f86f-48c8-9adb-af13015972b1` · printing: ME1 #126 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

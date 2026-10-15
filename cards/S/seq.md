@@ -21,6 +21,7 @@
   > *"Reality, when broken down, is just math."*
   > *—Deekah, professor of fractal theory*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19603 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/67/sequence-engine) · oracle_id `87c1bd51-6a85-4a14-af7b-a5b02ab69d73` · printing: C21 #67 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ae50172c-8896-4ad2-8c83-d349ccca2308/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sequestered Stash
@@ -32,4 +33,6 @@
   > {4}, {T}, Sacrifice this land: Mill five cards. Then you may put an artifact card from your graveyard on top of your library.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/248/sequestered-stash) · oracle_id `b6fe779f-b20d-49cc-96dd-54f1ffb312e1` · printing: KLD #248 (2016-09-30) · [rulings](https://api.scryfall.com/cards/86a17084-bb96-4e81-bff0-005bd44a1fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — Sequestered Stash's ability doesn't target the artifact card in your graveyard. You may choose one of the five cards you put there from your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/248/sequestered-stash) · oracle_id `b6fe779f-b20d-49cc-96dd-54f1ffb312e1` · printing: KLD #248 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

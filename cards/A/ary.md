@@ -21,4 +21,9 @@
   > {B}, {T}, Tap X untapped Knights you control: Destroy target creature with power X or less.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8104 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/336/aryel-knight-of-windgrace) · oracle_id `9956f9b7-0140-484c-b606-3685690b84cc` · printing: CMM #336 (2023-08-04) · [rulings](https://api.scryfall.com/cards/216d7afe-3acf-4293-b474-8b27730cdefb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-04-27* — If the target creature's power is greater than X as Aryel's last ability tries to resolve, the ability doesn't resolve. You can't tap extra Knights once the ability has been activated.
+  - *2018-04-27* — Once you announce that you're activating Aryel's last ability, no player may take other actions until the ability's been paid for. Notably, players can't try to make the value of X invalid by removing or tapping your Knights.
+  - *2018-04-27* — Tapping Aryel to activate either of its abilities while it's attacking doesn't remove it from combat.
+  - *2018-04-27* — You can tap any untapped Knights you control, including ones you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Aryel's last ability. However, you must have controlled Aryel continuously since the beginning of your most recent turn in order to use either of its activated abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/336/aryel-knight-of-windgrace) · oracle_id `9956f9b7-0140-484c-b606-3685690b84cc` · printing: CMM #336 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

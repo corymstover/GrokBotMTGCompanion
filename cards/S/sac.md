@@ -40,6 +40,7 @@
 - **Flavor text** (CON printing):
   > *"Our arrows are aimed not at the sacred behemoths but at those who dare to dream of such a trophy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31943 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/89/sacellum-archers) · oracle_id `3b9117a1-cd2d-4478-beda-1049e0b0f8eb` · printing: CON #89 (2009-02-06) · [rulings](https://api.scryfall.com/cards/160335df-8377-4f72-9d3f-4b1492bd23ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacellum Godspeaker
@@ -52,7 +53,11 @@
 - **Flavor text** (ALA printing):
   > *Her connection to the gargantuans puts her in line to become Anima, a sacred but daunting duty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25975 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/146/sacellum-godspeaker) · oracle_id `891e9a08-35ec-422f-87a8-1f3f5c705699` · printing: ALA #146 (2008-10-03) · [rulings](https://api.scryfall.com/cards/cad80819-22d4-43a8-97b2-7cf20f61bca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — This is a mana ability. It doesn’t use the stack, and it can’t be responded to.
+  - *2008-10-01* — While you’re casting a creature spell, that card is on the stack, so you can’t reveal it with Sacellum Godspeaker’s ability to produce mana. You can, however, activate this mana ability and reveal that creature card from your hand before you begin to cast the card as a spell.
+  - *2008-10-01* — You can activate this ability even if you have no creature cards with power 5 or greater in your hand, or you have some but choose not to reveal any of them. In those cases, the ability won’t produce any mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/146/sacellum-godspeaker) · oracle_id `891e9a08-35ec-422f-87a8-1f3f5c705699` · printing: ALA #146 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sachi, Daughter of Seshiro
 
@@ -65,6 +70,7 @@
 - **Flavor text** (CHK printing):
   > *"The warriors deal in poison and fangs. We shamans remember why our ancestors crawled with their bellies to the earth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15311 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/238/sachi-daughter-of-seshiro) · oracle_id `0d7969b0-193b-4da0-a9eb-bd1c98016ee1` · printing: CHK #238 (2004-10-01) · [rulings](https://api.scryfall.com/cards/4c45b36f-b879-417c-b284-0176990fb9f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Armory
@@ -76,6 +82,7 @@
 - **Flavor text** (M15 printing):
   > *Arrive for worship. Leave for war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25875 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/228/sacred-armory) · oracle_id `37d74df9-cf87-4b82-842a-3941064078fb` · printing: M15 #228 (2014-07-18) · [rulings](https://api.scryfall.com/cards/b05fde97-ab24-40c9-a1db-8844c3e62fc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Boon
@@ -88,6 +95,7 @@
   > *"Divine gifts are granted to those who are worthy."*
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30931 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/33/sacred-boon) · oracle_id `32a8d49b-cdfb-4944-bfb5-afd704cc3658` · printing: ME2 #33 (2008-09-22) · [rulings](https://api.scryfall.com/cards/f8086253-5a66-4161-bdef-f460851368ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Cat
@@ -100,7 +108,13 @@
   > Embalm {W} ({W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a white Zombie Cat with no mana cost. Embalm only as a sorcery.)
 - **Keywords:** Lifelink, Embalm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/27/sacred-cat) · oracle_id `d85ea576-a794-44bf-b405-1f1c49477409` · printing: AKH #27 (2017-04-28) · [rulings](https://api.scryfall.com/cards/08891c78-13c1-4d84-aa9c-78346b3b7d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-04-18* — For each card with embalm, a corresponding game play supplement token can be found in some Amonkhet booster packs. These supplements are not required to play with cards with embalm; you can use the same items to represent an embalmed token as you would any other token.
+  - *2017-04-18* — The token copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+  - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/27/sacred-cat) · oracle_id `d85ea576-a794-44bf-b405-1f1c49477409` · printing: AKH #27 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Excavation
 
@@ -111,7 +125,9 @@
 - **Flavor text** (AKH printing):
   > *The anointed work the mines without pause, their cartouches instilling them with tireless purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/67/sacred-excavation) · oracle_id `5d8ff6a0-7037-4231-b6a9-ad97260bb267` · printing: AKH #67 (2017-04-28) · [rulings](https://api.scryfall.com/cards/1dc2ab27-0f68-480c-99c9-53243c1ab0ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Certain older cards have variants of cycling, such as basic landcycling or Wizardcycling. Sacred Excavation can target these cards in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/67/sacred-excavation) · oracle_id `5d8ff6a0-7037-4231-b6a9-ad97260bb267` · printing: AKH #67 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Fire
 
@@ -125,7 +141,14 @@
   > *—Odric, Order of Saint Traft*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/239/sacred-fire) · oracle_id `812bf52c-37f5-41c9-8a69-009fddbafb3f` · printing: MID #239 (2021-09-24) · [rulings](https://api.scryfall.com/cards/c0b1dcd7-6dd9-4134-bc6c-9dc7754006a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/239/sacred-fire) · oracle_id `812bf52c-37f5-41c9-8a69-009fddbafb3f` · printing: MID #239 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Foundry
 
@@ -137,7 +160,10 @@
 - **Flavor text** (TRK printing):
   > *Sooner or later, every Starfleet vessel passes through Spacedock, whether for resupply, repairs, or complete retrofit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #73 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/295/sacred-foundry) · oracle_id `45181cb8-2090-4471-ba90-e5a8f04d525f` · printing: TRK #295 (2026-11-13) · [rulings](https://api.scryfall.com/cards/a7758cc6-4e18-48a5-8720-5f42b5cd9d31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/295/sacred-foundry) · oracle_id `45181cb8-2090-4471-ba90-e5a8f04d525f` · printing: TRK #295 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Ground
 
@@ -148,6 +174,7 @@
 - **Flavor text** (9ED printing):
   > *The knight knelt and prayed, first for the sanctity of his land and second for the strength to repel its invaders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19692 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/37/sacred-ground) · oracle_id `b18e773c-611b-4c18-8b2d-8d3a7e5ddc93` · printing: 9ED #37 (2005-07-29) · [rulings](https://api.scryfall.com/cards/d72dc68a-d6f9-4a18-8282-0f104999591f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Guide
@@ -158,6 +185,7 @@
 - **Oracle text:**
   > {1}{W}, Sacrifice this creature: Reveal cards from the top of your library until you reveal a white card. Put that card into your hand and exile all other cards revealed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29028 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/38/sacred-guide) · oracle_id `de9e8b71-897d-4a9d-942b-af10f31e0425` · printing: TMP #38 (1997-10-14) · [rulings](https://api.scryfall.com/cards/7f10c37d-d25a-47d6-83b0-dbe0a9cfc938/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Knight
@@ -170,6 +198,7 @@
 - **Flavor text** (POR printing):
   > *"No flame, no horror can sway me from my cause."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31761 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/24/sacred-knight) · oracle_id `fe8f5cc0-5849-437f-8d1f-cb191f2fc638` · printing: POR #24 (1997-05-01) · [rulings](https://api.scryfall.com/cards/57b19990-c4a2-433d-a9ce-005216e9e4ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Mesa
@@ -180,7 +209,9 @@
   > At the beginning of your upkeep, sacrifice this enchantment unless you sacrifice a Pegasus.
   > {1}{W}: Create a 1/1 white Pegasus creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/86/sacred-mesa) · oracle_id `8776d14f-a5a2-4ef3-98d0-e1148e579e4d` · printing: C14 #86 (2014-11-07) · [rulings](https://api.scryfall.com/cards/377b2bc1-c710-439d-96d2-beef72ae80a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It can be used during upkeep to create a Pegasus token in time for it to be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/86/sacred-mesa) · oracle_id `8776d14f-a5a2-4ef3-98d0-e1148e579e4d` · printing: C14 #86 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Nectar
 
@@ -196,6 +227,7 @@
   > *And drink my everlasting fill. . . ."*
   > *—Sir Walter Raleigh, "The Pilgrimage"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26401 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/38/sacred-nectar) · oracle_id `30870ee5-6ad7-48a9-983e-d3b018f2344f` · printing: 9ED #38 (2005-07-29) · [rulings](https://api.scryfall.com/cards/bcdd5e1c-47db-4960-860c-2af14b734b59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Peaks
@@ -208,6 +240,7 @@
 - **Flavor text** (SOC printing):
   > *Everyone is welcome in the floating Serran cities, though few but the most faithful attempt the ascent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1776 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/402/sacred-peaks) · oracle_id `fb69bc57-f05a-41c2-9b7b-9a9761ef0cd3` · printing: SOC #402 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ee2d6798-b19d-4628-bb57-05663ab4af68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Prey
@@ -220,6 +253,7 @@
 - **Flavor text** (MMQ printing):
   > *To see one is a good omen to the Cho-Arrim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29564 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/268/sacred-prey) · oracle_id `e24110e8-72cf-4dd0-bca0-665758daca88` · printing: MMQ #268 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e965d32c-3151-48e8-b256-0b7fa8a8a211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Rites
@@ -229,6 +263,7 @@
 - **Oracle text:**
   > Discard any number of cards. Creatures you control get +0/+1 until end of turn for each card discarded this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/44/sacred-rites) · oracle_id `860a0e32-135b-4972-a1af-ebac60cae08f` · printing: ODY #44 (2001-10-01) · [rulings](https://api.scryfall.com/cards/3d7f1dd0-ee1b-484a-949d-dde4c3340a09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred White Deer
@@ -241,6 +276,7 @@
 - **Flavor text** (GS1 printing):
   > *The pale deer are believed to have lived a thousand years, the pure white five hundred more. Those who seek them would gladly wander the wilds forever for the merest glimpse of these sacred beings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30819 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/25/sacred-white-deer) · oracle_id `2d7bef31-3447-4de6-9d0e-bd6749e7ecd5` · printing: GS1 #25 (2018-06-22) · [rulings](https://api.scryfall.com/cards/1a864ae8-18fc-4c70-8564-65b745aded9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Wolf
@@ -255,6 +291,7 @@
   > *—Aref the Hunter*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/194/sacred-wolf) · oracle_id `ccb64a70-cbdd-4991-a28d-b137032a4f4d` · printing: M12 #194 (2011-07-15) · [rulings](https://api.scryfall.com/cards/ff4661dd-2075-48c3-b19b-fc7f8aaba1b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacrifice
@@ -265,7 +302,11 @@
   > As an additional cost to cast this spell, sacrifice a creature.
   > Add an amount of {B} equal to the sacrificed creature's mana value.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sum/126/sacrifice) · oracle_id `068b3692-411b-44d4-a7e9-005262760cfc` · printing: SUM #126 (1994-06-21) · [rulings](https://api.scryfall.com/cards/652bd781-1a48-42c1-9aff-f9050a9285d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Sacrificing an animated land gives no mana since the converted mana cost was zero.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sum/126/sacrifice) · oracle_id `068b3692-411b-44d4-a7e9-005262760cfc` · printing: SUM #126 (1994-06-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacrifice Play
 
@@ -276,4 +317,8 @@
 - **Flavor text** (UST printing):
   > *In recursive chess, one piece can capture another only after beating it in a game of recursive chess.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/21/sacrifice-play) · oracle_id `72018a20-db1f-4970-b7ba-724fc0b13429` · printing: UST #21 (2017-12-08) · [rulings](https://api.scryfall.com/cards/d0bc709f-c046-48c4-99a0-e9a3a7e79d66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
+  - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/21/sacrifice-play) · oracle_id `72018a20-db1f-4970-b7ba-724fc0b13429` · printing: UST #21 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

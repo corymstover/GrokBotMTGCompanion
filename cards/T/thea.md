@@ -40,7 +40,10 @@
   > *"An immense river of oblivion is sweeping us away into a nameless abyss."*
   > *—Ernest Renan, Souvenirs d'Enfance et de Jeunesse*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21698 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/77/the-abyss) · oracle_id `a02a7816-c967-4503-bb08-f8db44915250` · printing: ME3 #77 (2009-09-07) · [rulings](https://api.scryfall.com/cards/f11db51c-bbbc-4890-960e-d8a3eacca1e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The controller of The Abyss controls the ability, but the current player chooses what gets destroyed.
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/77/the-abyss) · oracle_id `a02a7816-c967-4503-bb08-f8db44915250` · printing: ME3 #77 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Actualizer
 
@@ -50,6 +53,7 @@
 - **Oracle text:**
   > At the beginning of your first main phase, read aloud the name, mana cost, type line, power, and toughness of a card in your hand, except lie about one of them. Each opponent simultaneously guesses which one is incorrect. Then reveal the card. Each opponent who guessed incorrectly loses 3 life. You may discard that card and draw a card. (They can't look it up or ask for help as this ability is resolving. Nice try, though.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03h/the-actualizer) · oracle_id `0cdfacbb-63c9-4a0e-bf47-ba7777417acc` · printing: UNK #RZ03h (2024-10-25) · [rulings](https://api.scryfall.com/cards/7a3d703c-4964-4a31-bb77-5fa57e3e938c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Aesir Escape Valhalla
@@ -62,7 +66,9 @@
   > II — Put a number of +1/+1 counters on target creature you control equal to the mana value of the exiled card.
   > III — Return this Saga and the exiled card to their owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/39/the-aesir-escape-valhalla) · oracle_id `6afe197b-0779-4284-a192-357a3c89b7e3` · printing: ACR #39 (2024-07-05) · [rulings](https://api.scryfall.com/cards/2efbcea0-53ba-444d-b2e0-6d184f945f92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If a card in exile has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/39/the-aesir-escape-valhalla) · oracle_id `6afe197b-0779-4284-a192-357a3c89b7e3` · printing: ACR #39 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Aetherspark
 
@@ -75,7 +81,9 @@
   > −5: Draw two cards.
   > −10: Add ten mana of any one color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1825 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/231/the-aetherspark) · oracle_id `483c747a-b602-4747-95bc-72c2c17ed509` · printing: DFT #231 (2025-02-14) · [rulings](https://api.scryfall.com/cards/05690d52-06c4-40b1-8360-380418a83250/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — If an effect causes The Aetherspark to become attached to a creature while it is being attacked, it will continue to be attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/231/the-aetherspark) · oracle_id `483c747a-b602-4747-95bc-72c2c17ed509` · printing: DFT #231 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Akroan War
 
@@ -87,7 +95,19 @@
   > II — Until your next turn, creatures your opponents control attack each combat if able.
   > III — Each tapped creature deals damage to itself equal to its power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/777/the-akroan-war) · oracle_id `8c0b9596-c44f-44fb-89c9-056da0db33d3` · printing: CLB #777 (2022-06-10) · [rulings](https://api.scryfall.com/cards/78161e60-878a-45a2-aced-40b739bd0a07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-01-24* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2020-01-24* — Because a Saga isn't sacrificed until after its last ability has resolved, you still control the creature you took with The Akroan War's first ability while the last ability is resolving.
+  - *2020-01-24* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If The Akroan War leaves the battlefield before its first ability resolves, you won't gain control of the creature at all.
+  - *2020-01-24* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having it attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — If the creature you took with The Akroan War's first ability has an ability that triggers when you sacrifice The Akroan War, you control the resulting trigger. If it has an ability that triggers when The Akroan War is put into a graveyard "from anywhere," check whether that ability should trigger only after the creature's former controller has regained control of it.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2020-01-24* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. 
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/777/the-akroan-war) · oracle_id `8c0b9596-c44f-44fb-89c9-056da0db33d3` · printing: CLB #777 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Alright Henge
 
@@ -97,6 +117,7 @@
   > {T}: Add {G}{G}.
   > Whenever a nontoken creature enters the battlefield under your control, put a +1/+1 counter on it.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG15/the-alright-henge) · oracle_id `71a82009-e817-4cce-9b87-c8b6e15bfcab` · printing: UNK #UG15 (2023-09-23) · [rulings](https://api.scryfall.com/cards/46b324ff-a701-4aa6-81c1-3ea338cfa9a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ancient Dingus
@@ -109,6 +130,7 @@
   > Whenever The Ancient Dingus attacks, target player creates a Food token.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04v/the-ancient-dingus) · oracle_id `57debcd1-440e-4369-becc-fe71c434bbc8` · printing: UNK #RZ04v (2026-05-01) · [rulings](https://api.scryfall.com/cards/b97323cd-236e-44c6-b24c-d81454d38286/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ancient One
@@ -121,7 +143,12 @@
   > {2}{U}{B}: Draw a card, then discard a card. When you discard a card this way, target player mills cards equal to its mana value.
 - **Keywords:** Descend, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5849 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/222/the-ancient-one) · oracle_id `6615f881-960c-4216-a32a-63856bc3afd0` · printing: LCI #222 (2023-11-17) · [rulings](https://api.scryfall.com/cards/66dd43d7-76a7-46ea-b431-097fcea417af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Once The Ancient One has legally attacked or blocked, removing permanent cards from your graveyard so the descend 8 ability no longer applies won't remove The Ancient One from combat.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — You don't choose a target for The Ancient One's activated ability at the time you activate it. Rather, a second "reflexive" ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/222/the-ancient-one) · oracle_id `6615f881-960c-4216-a32a-63856bc3afd0` · printing: LCI #222 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Animus
 
@@ -131,7 +158,10 @@
   > At the beginning of your end step, exile up to one target legendary creature card from a graveyard with a memory counter on it.
   > {T}: Until your next turn, target legendary creature you control becomes a copy of target creature card in exile with a memory counter on it. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9190 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/69/the-animus) · oracle_id `7e0062fb-aff8-4c41-96eb-1af656d8b195` · printing: ACR #69 (2024-07-05) · [rulings](https://api.scryfall.com/cards/ad574010-01ee-4bbc-87c5-4b04338b6ef6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — If either one of the targets of The Animus’s last ability is illegal when the ability begins to resolve, nothing will happen when the ability resolves.
+  - *2024-07-05* — The target legendary creature copies exactly what was printed on the card in exile and nothing else. It doesn’t copy any information about the object the card was before it was exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/69/the-animus) · oracle_id `7e0062fb-aff8-4c41-96eb-1af656d8b195` · printing: ACR #69 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Antiquities War
 
@@ -142,7 +172,20 @@
   > I, II — Look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > III — Artifacts you control become artifact creatures with base power and toughness 5/5 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12010 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/42/the-antiquities-war) · oracle_id `ab5a9749-5c94-43e0-b9df-bd2c3601936f` · printing: DOM #42 (2018-04-27) · [rulings](https://api.scryfall.com/cards/bbda670a-00a7-419c-b4b5-bfdb323f006d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-04-27* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2018-04-27* — An Equipment that becomes an artifact creature becomes unattached if it’s attached to a creature. Its equip ability can be activated, but it won’t become attached to the target creature.
+  - *2018-04-27* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2018-04-27* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2018-04-27* — Effects that modify an artifact creature’s power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2018-04-27* — If The Antiquities War somehow becomes an artifact enchantment prior to resolving its final chapter ability, it will become a 5/5 Saga artifact enchantment creature, and will then be sacrificed after that ability resolves.
+  - *2018-04-27* — If counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. Removing lore counters won’t cause a previous chapter ability to trigger.
+  - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2018-04-27* — The final chapter ability of The Antiquities War affects only artifacts you control at the time it resolves. Artifacts you begin to control later in the turn won’t become 5/5 creatures.
+  - *2018-04-27* — The final chapter ability of The Antiquities War overwrites an artifact creature’s normal base power and toughness and all previous effects that set an artifact creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/42/the-antiquities-war) · oracle_id `ab5a9749-5c94-43e0-b9df-bd2c3601936f` · printing: DOM #42 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Apprentice's Folly
 
@@ -153,7 +196,13 @@
   > I, II — Choose target nontoken creature you control that doesn't have the same name as a token you control. Create a token that's a copy of it, except it isn't legendary, is a Reflection in addition to its other types, and has haste.
   > III — Sacrifice all Reflections you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10072 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/200/the-apprentices-folly) · oracle_id `f45542a0-0d49-4b56-9c3e-663ff8d0529a` · printing: WOE #200 (2023-09-08) · [rulings](https://api.scryfall.com/cards/0edb58bb-8ff3-4e34-b3d1-d83b5bd8c178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the creature will also work.
+  - *2023-09-01* — Except for the listed exceptions, the token copies exactly what was printed on the original creature and nothing else (unless that permanent is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If something becomes a copy of the token, the copy is also a Reflection in addition to its other types, has haste, and isn't legendary.
+  - *2023-09-01* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the stated exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/200/the-apprentices-folly) · oracle_id `f45542a0-0d49-4b56-9c3e-663ff8d0529a` · printing: WOE #200 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Archenemy's Charm
 
@@ -165,6 +214,7 @@
   > • Every Hope Shall Vanish
   > • Make Yourself Useful
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB13/the-archenemys-charm) · oracle_id `26ffb2ab-615f-4f6a-b5f7-a8ff3409304b` · printing: UNK #RB13 (2024-10-25) · [rulings](https://api.scryfall.com/cards/0657e5e3-d452-4d53-b22f-b582fe299a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Archimandrite
@@ -177,7 +227,10 @@
   > Whenever you gain life, each Advisor, Artificer, and Monk you control gains vigilance and gets +X/+0 until end of turn, where X is the amount of life you gained.
   > Tap three untapped Advisors, Artificers, and/or Monks you control: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17783 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/26/the-archimandrite) · oracle_id `e5e8368d-43af-4f83-8565-25d03da64360` · printing: BRC #26 (2022-11-18) · [rulings](https://api.scryfall.com/cards/54fb3f4c-44fb-4afe-9fab-204ef98995c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — Since The Archimandrite’s activated ability doesn’t have a tap symbol in its cost, you can tap creatures that haven’t been under your control since your most recent turn began (including The Archimandrite itself) to pay the cost.
+  - *2022-10-14* — You can’t gain negative amounts of life. If you have fewer than four cards in hand as the first ability resolves, you won’t gain any life, but you won’t lose any life either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/26/the-archimandrite) · oracle_id `e5e8368d-43af-4f83-8565-25d03da64360` · printing: BRC #26 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Arkenstone // Seek the Heart
 
@@ -188,7 +241,20 @@
 - **Face 2: Seek the Heart** — {2}{W} — Sorcery — Adventure
   > Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle. (Then exile this card. You may cast the artifact later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/170/the-arkenstone-seek-the-heart) · oracle_id `09f09d0a-6054-4545-b81e-0295773cc5f0` · printing: HOB #170 (2026-08-14) · [rulings](https://api.scryfall.com/cards/a56a88ba-fcfa-4b56-bdae-a080b297b871/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-06-29* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.").
+  - *2026-06-29* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2026-06-29* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2026-06-29* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2026-06-29* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2026-06-29* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2026-06-29* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-06-29* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2026-06-29* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
+  - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/170/the-arkenstone-seek-the-heart) · oracle_id `09f09d0a-6054-4545-b81e-0295773cc5f0` · printing: HOB #170 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Art of Tea
 
@@ -201,7 +267,12 @@
   > *—Iroh*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/129/the-art-of-tea) · oracle_id `9ed4e48f-91bd-45f9-9f31-a2705b330713` · printing: TLE #129 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1897db0c-db6d-4018-bf2a-9221bb0d6e61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/129/the-art-of-tea) · oracle_id `9ed4e48f-91bd-45f9-9f31-a2705b330713` · printing: TLE #129 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ash Lizard
 
@@ -212,6 +283,7 @@
   > Other Lizards, Treefolk, And Warriors you control get +2/+2.
   > Whenever The Ash Lizard attacks, create a token that's a copy of one of the following cards at random: Ash Zealot; Bog-Strider Ash; Grotag ThrASHer; Seedguide Ash; Unstoppable Ash; ViASHino Warrior. (You're probably going to need to look these cards up.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05c/the-ash-lizard) · oracle_id `70565641-15db-49e8-91e7-d2772052a155` · printing: UNK #RZ05c (2024-06-29) · [rulings](https://api.scryfall.com/cards/1cba355b-438b-44a0-9e67-d7e7ae64adfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Asker of More Mana
@@ -222,6 +294,7 @@
 - **Oracle text:**
   > Each time a player pays mana, they must pay {1} additional mana. (This includes casting spells, activating abilities, turning face-down creatures face up, paying for Ghostly Prison, the weird ability on Quenchable Fire, etc.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW35b/the-asker-of-more-mana) · oracle_id `3c93038d-b6c3-49b3-9439-62b53347f01e` · printing: UNK #RW35b (2025-09-26) · [rulings](https://api.scryfall.com/cards/335ca507-ab79-4605-a30d-e5b25637e65a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Astonishing Ant-Man
@@ -233,6 +306,7 @@
   > Whenever you draw a card, put a +1/+1 counter on The Astonishing Ant-Man.
   > {2}{G}, {T}, Remove any number of +1/+1 counters from The Astonishing Ant-Man: Create that many 1/1 green Insect creature tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11536 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/204/the-astonishing-ant-man) · oracle_id `6c7e4e51-099a-4398-a4b7-e2f0ddd36429` · printing: MSH #204 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5d98073e-2828-4365-a8d6-f631aac0cca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Theater of Horrors
@@ -244,7 +318,12 @@
   > During your turn, if an opponent lost life this turn, you may play lands and cast spells from among cards exiled with this enchantment.
   > {3}{R}: This enchantment deals 1 damage to target opponent or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/236/theater-of-horrors) · oracle_id `b391a4ce-52ce-4a8c-bbe5-6053951ee1d4` · printing: DSC #236 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f0b88e4f-070f-48d1-a5f9-c22dfc7ab31b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-01-25* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2019-01-25* — Damage dealt to a player causes that player to lose that much life.
+  - *2019-01-25* — In a multiplayer game, if an opponent loses life during your turn and then leaves the game, you can play cards exiled with Theater of Horrors.
+  - *2019-01-25* — Theater of Horrors doesn't change when you can play the exiled cards during your turn. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/236/theater-of-horrors) · oracle_id `b391a4ce-52ce-4a8c-bbe5-6053951ee1d4` · printing: DSC #236 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Autonomous Furnace
 
@@ -257,6 +336,7 @@
 - **Flavor text** (ONE printing):
   > *In Urabrask's domain, mighty forges echo day and night with the clangor of the Great Work.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8385 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/247/the-autonomous-furnace) · oracle_id `e2dd05d5-312e-47f1-873e-c0741ee6ef4a` · printing: ONE #247 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c16f96f5-a2a6-4ac4-bdae-326cee92bf2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Avenger
@@ -266,4 +346,5 @@
 - **Oracle text:**
   > {3}, {T}: Target creature you control gains deathtouch until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1c/the-avenger) · oracle_id `73bf5475-78ed-4b10-9580-3c396865c206` · printing: THP1 #1c (2013-09-27) · [rulings](https://api.scryfall.com/cards/d0f83818-2c47-435c-ade3-302e4eabc2bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

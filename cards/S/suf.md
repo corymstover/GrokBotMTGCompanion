@@ -22,7 +22,11 @@
 - **Flavor text** (C21 printing):
   > *Ulamog's tentacles, their touch like burning ice, rummaged through his soul and stung his memories one by one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/155/suffer-the-past) · oracle_id `edf46ef0-159d-4f0b-ae14-14e0c8446382` · printing: C21 #155 (2021-04-23) · [rulings](https://api.scryfall.com/cards/40696611-b5eb-4d69-9614-c694f3422523/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — If the targeted player becomes an illegal target by the time Suffer the Past resolves but the targeted cards don’t, you still exile the cards and gain life. The player won’t be lose any life, though.
+  - *2010-06-15* — Suffer the Past’s effect causes a single life-gain event, not a number of separate ones. This matters for cards such as Cradle of Vitality.
+  - *2010-06-15* — The life that’s lost and the life that’s gained are based on the number of cards that are actually exiled, not on the value of X (in case any of the targeted cards somehow leave the graveyard in response and thus can’t be exiled this way).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/155/suffer-the-past) · oracle_id `edf46ef0-159d-4f0b-ae14-14e0c8446382` · printing: C21 #155 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suffocating Blast
 
@@ -31,6 +35,7 @@
 - **Oracle text:**
   > Counter target spell and Suffocating Blast deals 3 damage to target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/124/suffocating-blast) · oracle_id `2a9d9433-7b0f-45a3-88aa-9fd7e410c224` · printing: APC #124 (2001-06-04) · [rulings](https://api.scryfall.com/cards/c2a70297-2a7b-4a0c-ace5-cd61bfe6dafd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suffocating Fumes
@@ -45,7 +50,9 @@
   > *—Dol, Lavabrink quartermaster*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/100/suffocating-fumes) · oracle_id `80c7b1b4-4e37-4aef-9432-d629d71b7045` · printing: IKO #100 (2020-04-24) · [rulings](https://api.scryfall.com/cards/66b562e4-35df-4aee-848d-ceb4204bbe58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Suffocating Fumes affects only creatures your opponents control at the time it resolves. Creatures they begin to control later in the turn won’t get -1/-1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/100/suffocating-fumes) · oracle_id `80c7b1b4-4e37-4aef-9432-d629d71b7045` · printing: IKO #100 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suffocation
 
@@ -56,4 +63,6 @@
   > Suffocation deals 4 damage to the controller of the last red instant or sorcery spell that dealt damage to you this turn.
   > Draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31686 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/38/suffocation) · oracle_id `57aeb106-dc4f-4069-b596-f997263dc0cf` · printing: ALL #38 (1996-06-10) · [rulings](https://api.scryfall.com/cards/d22104df-8147-45fd-897a-f99a815be062/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It means “red instant or red sorcery” not “red instant or any sorcery”.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/38/suffocation) · oracle_id `57aeb106-dc4f-4069-b596-f997263dc0cf` · printing: ALL #38 (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

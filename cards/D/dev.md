@@ -71,6 +71,7 @@
   > *"You're willing to die for your homeland. I'm willing to kill for it."*
   > *—Latulla, Keldon overseer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/87/devastate) · oracle_id `90b3e2df-182d-4dad-9934-597a048fefc6` · printing: PCY #87 (2000-06-05) · [rulings](https://api.scryfall.com/cards/bfe7c990-a34b-475e-a612-447c22f998d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Dreams
@@ -83,6 +84,7 @@
 - **Flavor text** (TOR printing):
   > *Kamahl dreams of storms of fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23708 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/95/devastating-dreams) · oracle_id `18994c4c-9b5d-4b58-a5c3-646fbc92f9c7` · printing: TOR #95 (2002-02-04) · [rulings](https://api.scryfall.com/cards/9fffeed0-a5ea-47ac-a7a4-0cc3bb1d408a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Mastery
@@ -94,7 +96,13 @@
   > If the {2}{W}{W} cost was paid, an opponent chooses up to two nonland permanents they control and returns them to their owner's hand.
   > Destroy all nonland permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/14/devastating-mastery) · oracle_id `07bfb7d2-f171-4ce1-876a-f9fb5c7cd11a` · printing: STX #14 (2021-04-23) · [rulings](https://api.scryfall.com/cards/3b6be019-29b9-4c81-9899-aefeaf9cc977/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If an effect increases or decreases the cost of spells you cast, that cost increase or decrease is applied to the alternative cost you chose to pay. In that case, the cost was still paid for the purposes of the effect, even if you paid more or less for it when it was cast.
+  - *2021-04-16* — If you choose to pay one alternative cost, you can’t pay any other alternative costs. For example, if an effect lets you cast a “Mastery” spell “without paying its mana cost,” you can’t also choose to pay its given alternative cost.
+  - *2021-04-16* — If you copy a “Mastery” spell and the alternative cost was paid, the copy will resolve as though the cost was paid.
+  - *2021-04-16* — In a multiplayer game, you choose which opponent takes the prescribed action as the spell resolves.
+  - *2021-04-16* — The mana value of a spell on the stack is determined by its mana cost, not any alternative costs you used to pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/14/devastating-mastery) · oracle_id `07bfb7d2-f171-4ce1-876a-f9fb5c7cd11a` · printing: STX #14 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Onslaught
 
@@ -106,7 +114,12 @@
   > *"Adapt to this, you bug-eyed planet-squatters!"*
   > *—Admiral Scargruf, Kavaron Memorial Navy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/132/devastating-onslaught) · oracle_id `2e17cd4c-ebf0-40d0-b52d-b4d84bbcf7b3` · printing: EOE #132 (2025-08-01) · [rulings](https://api.scryfall.com/cards/fc779971-24e2-46a8-86be-16f0b244a3d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-07-25* — Any enters abilities of the copied permanent will trigger when the tokens enter. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the copied permanent will also work.
+  - *2025-07-25* — If the copied permanent is a token, the tokens that are created copy the original characteristics of that token as stated by the effect that created the token.
+  - *2025-07-25* — If the copied permanent is copying something else, then the tokens enter as whatever that permanent copied.
+  - *2025-07-25* — The tokens copy exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). They don’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on. If the permanent is a Vehicle, the copies are not crewed. If it is an Equipment, the copies are not attached to any creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/132/devastating-onslaught) · oracle_id `2e17cd4c-ebf0-40d0-b52d-b4d84bbcf7b3` · printing: EOE #132 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Summons
 
@@ -118,7 +131,9 @@
 - **Flavor text** (ROE printing):
   > *Things born in magma are always angry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/140/devastating-summons) · oracle_id `5eb6626a-1e0a-438e-9e95-a1e86be6489d` · printing: ROE #140 (2010-04-23) · [rulings](https://api.scryfall.com/cards/15b09784-8e89-4013-975d-57e4d26cc926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-06-15* — You may sacrifice zero lands as you cast Devastating Summons. If you do, you'll put two 0/0 creature tokens onto the battlefield as the spell resolves. Unless some effect (such as the one from Glorious Anthem) is boosting their toughness, they'll be put into the graveyard as a state-based action. Abilities that trigger when a creature enters will trigger, as will those that trigger when a creature leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/140/devastating-summons) · oracle_id `5eb6626a-1e0a-438e-9e95-a1e86be6489d` · printing: ROE #140 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastation
 
@@ -129,6 +144,7 @@
 - **Flavor text** (ME4 printing):
   > *There is much talk about the art of creation. What about the art of destruction?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17546 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/112/devastation) · oracle_id `052838cb-dcf0-46f5-82b1-c3ed863b42b7` · printing: ME4 #112 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7d53e999-ffd4-4829-b999-384664ce5a96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastation Tide
@@ -142,7 +158,19 @@
   > *It's hard to argue with a force made of divine will.*
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/85/devastation-tide) · oracle_id `4245ee98-2d4c-49d1-8d07-80760cae2bf9` · printing: C18 #85 (2018-08-10) · [rulings](https://api.scryfall.com/cards/2d493bd6-af71-45be-bd4c-1d8f94bca19e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-07-13* — If an effect puts a card into your hand without using the word "draw," the card wasn't drawn.
+  - *2018-07-13* — If the card with miracle leaves your hand before the triggered ability resolves, you won't be able to cast it using its miracle ability.
+  - *2018-07-13* — It's important to reveal a card with miracle before it is mixed with the other cards in your hand.
+  - *2018-07-13* — Miracle is an alternative cost to cast the spell with miracle. It can't be combined with other alternative costs, such as casting a spell "without paying its mana cost."
+  - *2018-07-13* — Multiple card draws are always treated as a sequence of individual card draws. For example, if you haven't drawn any cards yet during a turn and cast a spell that instructs you to draw three cards, you'll draw them one at a time. Only the first card drawn this way may be revealed and cast using its miracle ability.
+  - *2018-07-13* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a miracle cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2018-07-13* — You can cast a card for its miracle cost only as the miracle triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), you won't be able to cast it later for the miracle cost.
+  - *2018-07-13* — You can reveal and cast a card with miracle on any turn, not just your own, if it's the first card you've drawn that turn.
+  - *2018-07-13* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
+  - *2018-07-13* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
+  - *2018-07-13* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/85/devastation-tide) · oracle_id `4245ee98-2d4c-49d1-8d07-80760cae2bf9` · printing: C18 #85 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deviant Glee
 
@@ -155,7 +183,9 @@
   > *"You just need the right incentive to fulfill my dreams."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/65/deviant-glee) · oracle_id `13aeccd5-cca2-4249-904d-d5516f977440` · printing: RTR #65 (2012-10-05) · [rulings](https://api.scryfall.com/cards/e150896e-8745-42ac-894b-8f42a92bd7a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Only the controller of the enchanted creature can activate the ability that gives it trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/65/deviant-glee) · oracle_id `13aeccd5-cca2-4249-904d-d5516f977440` · printing: RTR #65 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil Dinosaur
 
@@ -170,6 +200,7 @@
   > *—Moon-Boy*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11781 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/719/devil-dinosaur) · oracle_id `08de884f-1930-43d6-8c23-04353a136b4e` · printing: MSC #719 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fcb4c268-441f-41cf-8c25-538eefc6a710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devilish Valet
@@ -184,7 +215,9 @@
   > *Nobody thought twice about checking their weapons at the door, until they were informed there was no weapon check at the door.*
 - **Keywords:** Alliance, Haste, Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/105/devilish-valet) · oracle_id `e1e0dc37-20c9-4236-ae01-e0891ce83afb` · printing: SNC #105 (2022-04-29) · [rulings](https://api.scryfall.com/cards/45d3fc69-6c5e-4ede-9f8d-c1cee096a78a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — To double a creature's power means that creature gets +X/+0, where X is its power as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/105/devilish-valet) · oracle_id `e1e0dc37-20c9-4236-ae01-e0891ce83afb` · printing: SNC #105 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil K. Nevil
 
@@ -198,7 +231,15 @@
   > *"Danger is my middle name. Also, I don't know how to spell."*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31583 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/104/devil-k-nevil) · oracle_id `74858500-8943-4ea7-894f-0cd022510bbe` · printing: UNF #104 (2022-10-07) · [rulings](https://api.scryfall.com/cards/89e71131-9591-4773-9c6a-1dc381d0e1ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — For any card involved in the jump, the card sleeve it’s in is considered part of the card.
+  - *2022-10-07* — For anything involved in the jump that’s a token, including Devil K. Nevil itself, use a Magic card-sized card as a substitute. Magic cards are the most Magic card-sized thing we can think of.
+  - *2022-10-07* — If Devil K. Nevil is in a card sleeve, you may take it out of the sleeve if you’d like (assuming you own the card; ask permission if you don’t). However, no other modifications are allowed to the card. You can’t put anything into the sleeve to make it heavier, for example. You also can’t bend, fold, or do anything else to the card that would make it unplayable in your deck.
+  - *2022-10-07* — In case the video doesn’t clarify what jumping Devil K. Nevil over any number of creatures means, perhaps a lengthy text explanation will help. First, place Devil K. Nevil at the edge of the table such that about half the card vertically is sticking over the edge of the table. Then take any number of creatures on the battlefield and place them side-by-side on the table in front of Devil K. Nevil. Those creature cards should be horizontal to Devil K. Nevil’s vertical from your perspective (unless they’re not cards—see below). Ideally, the first creature card should be as close to Devil K. Nevil as it can be without touching it, but if you’d like to make the jump more difficult, we’re not going to stop you. To execute the jump, flick Devil K. Nevil from underneath to cause it to fly up into the air and forward, majestically flying over the line of creatures. You can’t just flick him horizontally. Devil craves hang time. If Devil comes to rest completely past the creatures without touching any of them, it has cleared those creatures and will earn those +1/+1 counters. If it touches any of the creatures during the jump, that’s okay, as long as Devil comes to rest past the creatures, not touching any of them. All of Devil K. Nevil must be past the farthest creature for the jump to be successful. If Devil veers off to the side and doesn’t get farther than the last creature, the jump is unsuccessful, even if it comes to rest not touching any of the creatures. An unsuccessful jump has no consequences other than shame. Shame and no +1/+1 counters.
+  - *2022-10-07* — The jump is considered attempted if your hand makes contact with Devil K. Nevil and it moves. You can’t use anything other than your hand to flick Devil K. Nevil. If you’re wearing gloves (which are basically card sleeves for hands), those count as part of your hand.
+  - *2022-10-07* — You may choose to jump over no creatures—and thus not attempt a jump—if you want. If there are no other creatures on the battlefield as the enters-the-battlefield ability resolves, Devil K. Nevil is a stunt devil without a stunt and there won’t be a jump.
+  - *2022-10-07* — You may use any creatures on the battlefield except Devil K. Nevil itself for the jump, including your opponent’s creatures. You are limited to the number of other creatures on the battlefield for the jump attempt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/104/devil-k-nevil) · oracle_id `74858500-8943-4ea7-894f-0cd022510bbe` · printing: UNF #104 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devil's Play
 
@@ -211,7 +252,14 @@
   > *A devil's hands are never idle.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/138/devils-play) · oracle_id `ee9f0b29-8a54-4cb8-8e2c-7bd67c2184ba` · printing: C19 #138 (2019-08-23) · [rulings](https://api.scryfall.com/cards/d46473a7-69f5-492b-845d-c8862a1fec85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/138/devils-play) · oracle_id `ee9f0b29-8a54-4cb8-8e2c-7bd67c2184ba` · printing: C19 #138 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devils' Playground
 
@@ -223,6 +271,7 @@
   > *"The city is overrun. I would say burn it to the ground, but that won't be necessary."*
   > *—Inquisitor Delmund*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/151/devils-playground) · oracle_id `ab9e2045-860a-40ab-bec1-0dffced003ef` · printing: SOI #151 (2016-04-08) · [rulings](https://api.scryfall.com/cards/1207e6eb-15a7-4ec4-91b3-880375704bb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devilthorn Fox
@@ -235,6 +284,7 @@
 - **Flavor text** (SOI printing):
   > *On expeditions through Ashmouth, the hunters of Devilthorn Lodge rely on the cleverness of foxes to counteract the mischief of devils.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16292 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/14/devilthorn-fox) · oracle_id `8f80a7be-3da3-4e84-82a8-dd5d4b2c3f32` · printing: SOI #14 (2016-04-08) · [rulings](https://api.scryfall.com/cards/57bea4c2-7a15-4f31-938d-c4c906e4ebe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devious Cover-Up
@@ -246,7 +296,11 @@
 - **Flavor text** (MID printing):
   > *Widow Weber's new scarecrow seemed to attract more crows than it scared off.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/48/devious-cover-up) · oracle_id `feb221fb-59bf-4671-a53f-1bbe8e9c2ca9` · printing: MID #48 (2021-09-24) · [rulings](https://api.scryfall.com/cards/648281fe-89fb-4d8d-b944-3af28fb044f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — A spell that can't be countered is a legal target for Devious Cover-Up. The spell won't be countered when Devious Cover-Up resolves, but you'll still shuffle cards into your library.
+  - *2018-10-05* — Devious Cover-Up can't target itself at all. You can't try to counter it with itself and shuffle cards in, and you can't use its effect to shuffle itself into your library.
+  - *2018-10-05* — You may target zero cards in your graveyard and still shuffle your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/48/devious-cover-up) · oracle_id `feb221fb-59bf-4671-a53f-1bbe8e9c2ca9` · printing: MID #48 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devkarin Dissident
 
@@ -258,6 +312,7 @@
 - **Flavor text** (GRN printing):
   > *"This is Mileva, in the Tenth. We've got an elf in the plaza with a chip on her shoulder. Actually, it's more of a morningstar."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/127/devkarin-dissident) · oracle_id `a671fedf-3766-4fda-abeb-6f63e2fdd20b` · printing: GRN #127 (2018-10-05) · [rulings](https://api.scryfall.com/cards/490cd287-5f09-442f-9150-4a6ac2cf3e2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Abzan
@@ -268,6 +323,7 @@
 - **Oracle text:**
   > {5}, {T}: You draw a card and lose 1 life. This ability costs X less to activate, where X is your devotion to Abzan. (Each {W}, {B}, or {G} in the mana cost of permanents you control counts towards your devotion to Abzan.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB01/devoted-abzan) · oracle_id `0e95ea87-6273-470c-9ddb-0926a4e205c0` · printing: UNK #UB01 (2025-06-20) · [rulings](https://api.scryfall.com/cards/26d59cdc-3c2e-42f0-a2f3-39f90d85a351/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Caretaker
@@ -280,7 +336,9 @@
 - **Flavor text** (ODY printing):
   > *Her eyes blaze with the strength of twenty shields. Every glance is a salvation.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18359 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/18/devoted-caretaker) · oracle_id `654bcf7f-9325-4a4b-8a50-41fdd2b7e514` · printing: ODY #18 (2001-10-01) · [rulings](https://api.scryfall.com/cards/8d400b63-de3e-4805-a51d-c4c0dfbb7033/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The permanent affected by this ability can’t be targeted by instant and sorcery spells and (if it’s a creature) all damage from instant and sorcery spells will be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/18/devoted-caretaker) · oracle_id `654bcf7f-9325-4a4b-8a50-41fdd2b7e514` · printing: ODY #18 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Crop-Mate
 
@@ -291,7 +349,17 @@
   > You may exert this creature as it attacks. When you do, return target creature card with mana value 2 or less from your graveyard to the battlefield. (An exerted creature won't untap during your next untap step.)
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/10/devoted-crop-mate) · oracle_id `fcde4643-a212-4a9e-94c3-0a0a95841bc6` · printing: AKH #10 (2017-04-28) · [rulings](https://api.scryfall.com/cards/d3677f10-b530-4606-b7c8-a72dd2131160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2017-04-18* — All attackers are chosen at once. You can't attack with Devoted Crop-Mate, return a creature card to the battlefield, and then attack with that creature.
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can't do so later in combat, and creatures put onto the battlefield attacking can't be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If a creature has a targeted triggered ability that triggers when you exert it, you can exert it even if there isn't a legal target for that triggered ability.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If the creature returned to the battlefield has any abilities that trigger when creatures attack or when you exert creatures, those abilities won't trigger.
+  - *2017-04-18* — If the mana cost of a card in your graveyard includes X, X is considered to be 0.
+  - *2017-04-18* — If you gain control of another player's creature until end of turn and exert it, it will untap during that player's untap step.
+  - *2017-04-18* — The mana value of a card in your graveyard is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3.
+  - *2017-04-18* — You can't exert a creature unless an effect allows you to do so. Similar effects that "tap and freeze" a creature (such as that of Decision Paralysis) don't exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/10/devoted-crop-mate) · oracle_id `fcde4643-a212-4a9e-94c3-0a0a95841bc6` · printing: AKH #10 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Druid
 
@@ -304,7 +372,10 @@
 - **Flavor text** (ECC printing):
   > *"Mana lurks in all things, even in the depths of one's own heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/104/devoted-druid) · oracle_id `cb814e16-acf7-41d5-a357-1323dcc369f3` · printing: ECC #104 (2026-01-23) · [rulings](https://api.scryfall.com/cards/22589a81-3ea8-4e78-98c9-c015e7539cf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — If you can't put -1/-1 counters on Devoted Druid (due to an effect such as that of Solemnity), you can't activate its second ability. If you can put counters on it, but that is modified by an effect (such as that of Vizier of Remedies), you can activate the ability even if paying the cost causes no counters to be put on Devoted Druid.
+  - *2018-12-07* — You put the -1/-1 counter on Devoted Druid as a cost to activate its ability, not when it resolves. If paying the cost causes Devoted Druid to have 0 toughness, it's put into your graveyard before you can untap it and before you can even pay the cost again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/104/devoted-druid) · oracle_id `cb814e16-acf7-41d5-a357-1323dcc369f3` · printing: ECC #104 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Duelist
 
@@ -318,7 +389,9 @@
   > *"Arrows? Ha! Wood and feather? Toys!"*
 - **Keywords:** Flurry, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12046 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/104/devoted-duelist) · oracle_id `f7620c46-b3d8-4694-ac7c-a43933c86c22` · printing: TDM #104 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bbf9c673-37b4-48ed-a9ea-13f8e3e6c47b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/104/devoted-duelist) · oracle_id `f7620c46-b3d8-4694-ac7c-a43933c86c22` · printing: TDM #104 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Grafkeeper // Departed Soulkeeper
 
@@ -335,7 +408,15 @@
   > If Departed Soulkeeper would be put into a graveyard from anywhere, exile it instead.
 - **Keywords:** Flying, Transform, Mill, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/218/devoted-grafkeeper-departed-soulkeeper) · oracle_id `0a154fb2-9f23-4c22-baee-728492385d6d` · printing: MID #218 (2021-09-24) · [rulings](https://api.scryfall.com/cards/965e6bd5-dc32-406c-bc99-ceb15be4d3f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/218/devoted-grafkeeper-departed-soulkeeper) · oracle_id `0a154fb2-9f23-4c22-baee-728492385d6d` · printing: MID #218 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Hero
 
@@ -347,6 +428,7 @@
 - **Flavor text** (S99 printing):
   > *The heart's courage is the soul's guardian.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29210 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/13/devoted-hero) · oracle_id `fff6f2d0-22b5-41d0-99dc-bc817c3bd166` · printing: S99 #13 (1999-07-01) · [rulings](https://api.scryfall.com/cards/c0cdbd28-958a-4955-badd-4848eef3f0fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Jeskai
@@ -359,6 +441,7 @@
   > When this creature enters, you may return target creature an opponent controls with mana value X or less to its owners hand, where X is your devotion to Jeskai. (Each {U}, {R}, or {W} in the mana costs of permanents you control counts towards your devotion to Jeskai.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UU04b/devoted-jeskai) · oracle_id `3a34e9c5-8fa3-4d84-afa3-94a28ec15b2b` · printing: UNK #UU04b (2025-06-20) · [rulings](https://api.scryfall.com/cards/b6ad5252-4117-4946-8397-9419f853d685/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Mardu
@@ -371,6 +454,7 @@
   > Mobilize X, where X is your devotion to Mardu. (Whenever you attack, create X tapped and attacking Mardudes (tapped and attacking 1/1 red Warrior creature tokens). Sacrifice them at the beginning of the next end step. I'm out of room. You remember what devotion does, right? Counts {R}, {W}, and {B}!)
 - **Keywords:** Vigilance, Mobilize
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UW05a/devoted-mardu) · oracle_id `ef064b4d-25c0-4901-9005-f9d5c451768b` · printing: UNK #UW05a (2025-06-20) · [rulings](https://api.scryfall.com/cards/7c4aa564-4860-4b49-bf62-4ee35e6ea187/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Paladin
@@ -383,6 +467,7 @@
 - **Flavor text** (AFR printing):
   > *"I swore a sacred oath to protect the weak and punish those who threaten them. As long as I draw breath, I will protect you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25121 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/11/devoted-paladin) · oracle_id `00bcbeb5-196a-4a54-ac8d-dec708e68d01` · printing: AFR #11 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3620ed96-1d15-4942-b9e5-9f9a64b0cab4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Retainer
@@ -396,6 +481,7 @@
   > *Deep within Eiganjo Castle lay the Palace of Infinite Halls, a seemingly endless network of corridors once guarded by a seemingly endless legion of samurai.*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/7/devoted-retainer) · oracle_id `54970935-b3d3-4f65-a262-c4975f2787e5` · printing: CHK #7 (2004-10-01) · [rulings](https://api.scryfall.com/cards/fc41d6d6-d7e5-4874-b6e2-fa4c72454f15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Sultai
@@ -406,6 +492,7 @@
 - **Oracle text:**
   > When this creature enters, you may return target card from your graveyard with mana value X or less to your hand where X is your devotion to Sultai. (Each {U}, {B}, or {G} in the mana cost of permanents you control counts towards your devotion those colors.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG03/devoted-sultai) · oracle_id `5bfef37f-a565-4cd7-ac69-abe9c387baba` · printing: UNK #UG03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/81913e54-0c14-4d57-b487-f6016b47bfc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Temur
@@ -418,6 +505,7 @@
   > When this creature enters, target creature gets +X/+X until end of turn, where X is your devotion to Temur. (Each {G}, {U}, or {R} in the mana cost of permanents you control counts towards your devotion to Temur.)
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UR03/devoted-temur) · oracle_id `b8788f84-f892-4fc3-9e98-3520bc496509` · printing: UNK #UR03 (2025-06-20) · [rulings](https://api.scryfall.com/cards/0a493e70-60f1-490c-bcea-6d3cfa9427ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devotee of Strength
@@ -430,6 +518,7 @@
 - **Flavor text** (HOU printing):
   > *When Rhonas fell, his followers stirred with newfound strength—a final gift from a god they thought indomitable.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30580 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/113/devotee-of-strength) · oracle_id `a6d8f944-f516-49d7-9aa8-77b98e862d6a` · printing: HOU #113 (2017-07-14) · [rulings](https://api.scryfall.com/cards/977698ab-3b64-41f2-a214-ac95e04c9956/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devourer of Destiny
@@ -441,7 +530,11 @@
   > You may reveal this card from your opening hand. If you do, at the beginning of your first upkeep, look at the top four cards of your library. You may put one of those cards back on top of your library. Exile the rest.
   > When you cast this spell, exile target permanent that's one or more colors.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/2/devourer-of-destiny) · oracle_id `89215e6d-ebe7-4eb0-9999-11ee2e6eb1d2` · printing: MH3 #2 (2024-06-14) · [rulings](https://api.scryfall.com/cards/560debcd-feb4-4534-991e-a7aa1cca2409/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — A player's "opening hand" is the hand of cards the player has after all players have taken mulligans. If players have any cards in hand that allow actions to be taken with them from a player's opening hand, the starting player takes all such actions first in any order, followed by each other player in turn order. Then the first turn begins.
+  - *2024-06-07* — Devourer of Destiny's last triggered ability will resolve before Devourer of Destiny does. If Devourer of Destiny is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If you reveal more than one Devourer of Destiny from your opening hand, you'll put that many triggered abilities on the stack at the beginning of your first upkeep. As a result, you'll look at the top four cards of your library, put up to one back on top, and exile the rest once for each Devour of Destiny you revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/2/devourer-of-destiny) · oracle_id `89215e6d-ebe7-4eb0-9999-11ee2e6eb1d2` · printing: MH3 #2 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devourer of Memory
 
@@ -455,7 +548,10 @@
   > *It slips silently through the still waters of the Labyrinth of Memories to feed.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/213/devourer-of-memory) · oracle_id `f747b39a-28a0-46a8-a161-182939556d39` · printing: THB #213 (2020-01-24) · [rulings](https://api.scryfall.com/cards/514a6206-c2e5-4a0f-8a20-7efd6628dd0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — Devourer of Memory’s triggered ability grants it just +1/+1 each time cards are put into your graveyard from your library, no matter how many cards are put there at once.
+  - *2020-01-24* — Once Devourer of Memory has been blocked, resolving its triggered ability (perhaps by activating its activated ability) won’t change or undo that block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/213/devourer-of-memory) · oracle_id `f747b39a-28a0-46a8-a161-182939556d39` · printing: THB #213 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devour Flesh
 
@@ -466,7 +562,10 @@
 - **Flavor text** (GTC printing):
   > *His twisted mind concluded that if he was what he ate, and he wanted to stay human, . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/63/devour-flesh) · oracle_id `6c40f825-836e-4b76-8e43-267b4abf013b` · printing: GTC #63 (2013-02-01) · [rulings](https://api.scryfall.com/cards/88c42ebd-114a-430d-b3a4-ff2fb3093bf5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — Devour Flesh targets only a player. It doesn’t target any creatures. The target player chooses which creature to sacrifice when the spell resolves. That player can sacrifice only a creature they control.
+  - *2013-01-24* — The amount of life gained is equal to the creature’s toughness as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/63/devour-flesh) · oracle_id `6c40f825-836e-4b76-8e43-267b4abf013b` · printing: GTC #63 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devour in Flames
 
@@ -478,7 +577,9 @@
 - **Flavor text** (OGW printing):
   > *Ob Nixilis had prepared for every eventuality—except Chandra Nalaar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24920 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/106/devour-in-flames) · oracle_id `ea1fc580-a640-4f49-8f29-405c2830eca8` · printing: OGW #106 (2016-01-22) · [rulings](https://api.scryfall.com/cards/432dd78b-9520-4c28-8699-d7ff9c477070/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — Once you announce that you’re casting Devour in Flames, it’s too late for anyone to interrupt you by trying to remove the land you’re returning.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/106/devour-in-flames) · oracle_id `ea1fc580-a640-4f49-8f29-405c2830eca8` · printing: OGW #106 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Deep
 
@@ -491,6 +592,7 @@
   > *"Full fathom five thy father lies;/ Of his bones are coral made;/ Those are pearls that were his eyes;/ Nothing of him that doth fade,/ But doth suffer a sea-change/ Into something rich and strange." —William Shakespeare, \*The Tempest\**
 - **Keywords:** Landwalk, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28038 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/50/devouring-deep) · oracle_id `e0f18302-5ccf-47d2-a8a1-bb7aeaca9a53` · printing: LEG #50 (1994-06-01) · [rulings](https://api.scryfall.com/cards/0855a5a8-8c40-4396-9ad1-8fa0fc6a0c59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Greed
@@ -501,6 +603,7 @@
   > As an additional cost to cast this spell, you may sacrifice any number of Spirits.
   > Target player loses 2 life plus 2 life for each Spirit sacrificed this way. You gain that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16808 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/78/devouring-greed) · oracle_id `efbe96b5-1f58-4818-a346-ea554813adbc` · printing: MM2 #78 (2015-05-22) · [rulings](https://api.scryfall.com/cards/4a0f9b26-e1b0-4818-8d70-40a000f274eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Hellion
@@ -513,7 +616,11 @@
 - **Flavor text** (WAR printing):
   > *There's no crisis a hellion can't make worse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/124/devouring-hellion) · oracle_id `8f6620c3-2c15-467c-92ca-fdf9042a63f7` · printing: WAR #124 (2019-05-03) · [rulings](https://api.scryfall.com/cards/88205574-bf2b-46e7-aac7-4b8ea217f94c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — If Devouring Hellion somehow enters the battlefield at the same time as another creature or planeswalker, you can’t sacrifice that creature or planeswalker. You may choose only permanents that are already on the battlefield.
+  - *2019-05-03* — If any of the sacrificed permanents have abilities that trigger when Devouring Hellion enters the battlefield (such as that of Kronch Wrangler), those abilities won’t trigger.
+  - *2019-05-03* — You choose how many and which creatures and planeswalkers to sacrifice for Devouring Hellion’s ability while it’s entering the battlefield. No player may take actions between the time you choose which permanents to sacrifice and the time Devouring Hellion is on the battlefield with those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/124/devouring-hellion) · oracle_id `8f6620c3-2c15-467c-92ca-fdf9042a63f7` · printing: WAR #124 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Light
 
@@ -526,7 +633,15 @@
   > *Into the light the good are welcomed, and with the light the evil are banished.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-15/devouring-light) · oracle_id `5334dc24-040e-4094-80f4-8d1b9de01230` · printing: PLST #RVR-15 (2026-10-19) · [rulings](https://api.scryfall.com/cards/84c8189c-972e-4768-baf0-b767bfad723b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-07-18* — The declare blockers step is the last chance to cast Devouring Light before creatures deal their combat damage. However, a creature remains an attacking or blocking creature during the combat damage step and end of combat step. Devouring Light may be cast targeting such a creature during those steps, after the creature has dealt combat damage.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-15/devouring-light) · oracle_id `5334dc24-040e-4094-80f4-8d1b9de01230` · printing: PLST #RVR-15 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Rage
 
@@ -536,6 +651,7 @@
   > As an additional cost to cast this spell, you may sacrifice any number of Spirits.
   > Target creature gets +3/+0 until end of turn. For each Spirit sacrificed this way, that creature gets an additional +3/+0 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/164/devouring-rage) · oracle_id `19a8c2d3-b06e-4a76-bb28-8928ce84186c` · printing: CHK #164 (2004-10-01) · [rulings](https://api.scryfall.com/cards/608a6e1e-3e95-4ce4-aaf6-5f14c0456850/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Strossus
@@ -549,6 +665,7 @@
   > Sacrifice a creature: Regenerate this creature.
 - **Keywords:** Flying, Regenerate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21368 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/101/devouring-strossus) · oracle_id `8f2ab0a8-9d60-493b-a284-9ed7fa07e5ea` · printing: INV #101 (2000-10-02) · [rulings](https://api.scryfall.com/cards/064f013f-e74f-419d-8d17-7748bd91885e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Sugarmaw // Have for Dinner
@@ -562,7 +679,23 @@
   > Create a 1/1 white Human creature token and a Food token. (Then exile this card. You may cast the creature later from exile.)
 - **Keywords:** Food, Trample, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21606 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/224/devouring-sugarmaw-have-for-dinner) · oracle_id `c8bc28ea-5630-49d5-963a-5789fa83f3c7` · printing: WOE #224 (2023-09-08) · [rulings](https://api.scryfall.com/cards/58c7f52e-a97d-4475-ae00-3149991e723e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can't be the target of Tenacious Tomeseeker's triggered ability ("return target instant or sorcery card from your graveyard to your hand").
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/224/devouring-sugarmaw-have-for-dinner) · oracle_id `c8bc28ea-5630-49d5-963a-5789fa83f3c7` · printing: WOE #224 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Swarm
 
@@ -576,6 +709,7 @@
   > *Their arrival is heralded by the deafening hum of ten thousand wings. Their departure is marked by the silence of the dead.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/91/devouring-swarm) · oracle_id `11656b2a-b459-4b1c-b505-8547c3507856` · printing: M12 #91 (2011-07-15) · [rulings](https://api.scryfall.com/cards/735c2c79-9b4f-4f86-9dec-0749237fe9ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Tendrils
@@ -587,7 +721,9 @@
 - **Flavor text** (STX printing):
   > *Witherbloom spells often take on the appearance—and personality—of their components.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18012 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/126/devouring-tendrils) · oracle_id `c0112586-3826-452e-9e44-7e6edd197f78` · printing: STX #126 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f7444555-da19-4d2d-ad81-233c54fbb78e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Devouring Tendrils creates a delayed triggered ability that triggers whenever the target creature or planeswalker you don’t control dies this turn, even if it didn’t die because of the damage dealt as Devouring Tendrils resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/126/devouring-tendrils) · oracle_id `c0112586-3826-452e-9e44-7e6edd197f78` · printing: STX #126 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devour in Shadow
 
@@ -599,6 +735,7 @@
   > *"Feel the burn of the mists. Master them. They will devour your enemies."*
   > *—Geth, keeper of the Vault*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18288 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/46/devour-in-shadow) · oracle_id `9086d8ff-e375-4149-996d-2a88a7596c1c` · printing: 5DN #46 (2004-06-04) · [rulings](https://api.scryfall.com/cards/98c80584-b7b5-4dcd-8a00-812b9dd9b1b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devour Intellect
@@ -611,6 +748,7 @@
   > *"I'll know what you know soon enough."*
   > *—Nihiloor, Xanathar Guild spymaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21018 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/97/devour-intellect) · oracle_id `abf8264e-d020-4939-8092-83469b1a2244` · printing: AFR #97 (2021-07-23) · [rulings](https://api.scryfall.com/cards/13c34f2d-2eac-4241-8b23-9cab3268c254/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Chaplain
@@ -623,7 +761,9 @@
 - **Flavor text** (C20 printing):
   > *"By Avacyn's decree, we shall cleanse these relics of their demonic past."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/87/devout-chaplain) · oracle_id `1e575a82-e128-4637-87cd-f075654bc41b` · printing: C20 #87 (2020-04-17) · [rulings](https://api.scryfall.com/cards/4be0f70c-6bee-4208-8111-735b2fa31b4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — You can tap any two untapped Humans you control, including ones you haven’t controlled continuously since the beginning of your most recent turn, to pay the cost of Devout Chaplain’s activated ability. You must have controlled Devout Chaplain continuously since the beginning of your most recent turn, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/87/devout-chaplain) · oracle_id `1e575a82-e128-4637-87cd-f075654bc41b` · printing: C20 #87 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Decree
 
@@ -636,7 +776,9 @@
   > *—Sephara, Sky's Blade*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24070 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/571/devout-decree) · oracle_id `92f8c8b1-1fd5-4e80-b8a9-51671937aaf2` · printing: FDN #571 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d174cb01-b1cf-444c-a893-cc61ddf88b8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — If the target creature or planeswalker is an illegal target by the time Devout Decree tries to resolve, the spell doesn't resolve. You won't scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/571/devout-decree) · oracle_id `92f8c8b1-1fd5-4e80-b8a9-51671937aaf2` · printing: FDN #571 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Harpist
 
@@ -648,7 +790,9 @@
 - **Flavor text** (ULG printing):
   > *The notes themselves are irrelevant. The music's effect, however, is worth ten armies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/6/devout-harpist) · oracle_id `f57901c2-80c6-49d6-8de3-c96aaeb72bbf` · printing: ULG #6 (1999-02-15) · [rulings](https://api.scryfall.com/cards/985b5c60-8a5e-4473-ba43-583aef50f19e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-08-01* — It can only target “Enchantment - Aura” cards, which includes cards changed into Auras, such as Licids.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/6/devout-harpist) · oracle_id `f57901c2-80c6-49d6-8de3-c96aaeb72bbf` · printing: ULG #6 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Invocation
 
@@ -659,7 +803,9 @@
 - **Flavor text** (M14 printing):
   > *A prayer to bring demons to their knees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/16/devout-invocation) · oracle_id `fab491b0-b820-4027-996f-390c97df1e96` · printing: M14 #16 (2013-07-19) · [rulings](https://api.scryfall.com/cards/8a286954-fb40-4440-9f0e-a28367c6823c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — You choose the creatures to tap as Devout Invocation resolves. Once it starts resolving, no player can respond to you tapping the creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/16/devout-invocation) · oracle_id `fab491b0-b820-4027-996f-390c97df1e96` · printing: M14 #16 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Lightcaster
 
@@ -674,7 +820,9 @@
   > *—Prayer to Kamsa*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26051 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/10/devout-lightcaster) · oracle_id `a6f14387-4dfd-4d6b-a6b1-2ae658a70de6` · printing: ZEN #10 (2009-10-02) · [rulings](https://api.scryfall.com/cards/16e31e43-84d3-429e-9e81-60b325989c93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Devout Lightcaster's triggered ability isn't optional. When it enters, if you're the only player that controls a black permanent, you'll have to target a black permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/10/devout-lightcaster) · oracle_id `a6f14387-4dfd-4d6b-a6b1-2ae658a70de6` · printing: ZEN #10 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Monk
 
@@ -686,6 +834,7 @@
 - **Flavor text** (S99 printing):
   > *Discipline wears many robes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30158 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/14/devout-monk) · oracle_id `8a0f4e8e-b541-4327-80fe-4fecc23e0df3` · printing: S99 #14 (1999-07-01) · [rulings](https://api.scryfall.com/cards/cd1101f5-0bc1-47fa-891b-206b9c1c7f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devout Witness
@@ -698,4 +847,5 @@
 - **Flavor text** (VMA printing):
   > *The Cho-Arrim fought Mercadia's decadence with more than just swords.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/24/devout-witness) · oracle_id `83647f5b-2b0f-4f9d-83c5-75c52460f35b` · printing: VMA #24 (2014-06-16) · [rulings](https://api.scryfall.com/cards/fdafbdbd-002d-4a4d-a9f9-f6d365b9cf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

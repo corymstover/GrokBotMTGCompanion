@@ -69,7 +69,9 @@
 - **Flavor text** (TMP printing):
   > *Its growl is a long, rumbling grind of gears and clockwork, its bark a blast of hissing steam.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/314/watchdog) · oracle_id `6a951d2d-fc5a-4f41-bd77-3e301b76cf47` · printing: TMP #314 (1997-10-14) · [rulings](https://api.scryfall.com/cards/8c2ffc07-9993-40de-b36e-33c7afd4cfc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — The second ability is no longer triggered. It continuously checks the tapped/untapped status of the Watchdog, and gives them -1/-0 as appropriate.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/314/watchdog) · oracle_id `6a951d2d-fc5a-4f41-bd77-3e301b76cf47` · printing: TMP #314 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher for Tomorrow
 
@@ -82,7 +84,14 @@
   > When this creature leaves the battlefield, put the exiled card into its owner's hand.
 - **Keywords:** Hideaway
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7572 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/76/watcher-for-tomorrow) · oracle_id `277aafa6-4270-4d24-a888-cf9e8e635d4b` · printing: MH1 #76 (2019-06-14) · [rulings](https://api.scryfall.com/cards/15f01a3c-0a66-48da-a7d2-46260e3b721f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-06-14* — If Watcher for Tomorrow leaves the battlefield before its triggered ability from hideaway resolves, its leaves-the-battlefield ability resolves and does nothing. Then its enters-the-battlefield ability resolves and you exile a card with no way to return it to your hand.
+  - *2019-06-14* — You don't reveal the exiled card when you put it into its owner's hand.
+  - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
+  - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
+  - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
+  - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/76/watcher-for-tomorrow) · oracle_id `277aafa6-4270-4d24-a888-cf9e8e635d4b` · printing: MH1 #76 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher in the Mist
 
@@ -94,7 +103,9 @@
   > When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/104/watcher-in-the-mist) · oracle_id `e8c0fbea-a678-46b0-b385-e36f14c07672` · printing: CLU #104 (2024-02-23) · [rulings](https://api.scryfall.com/cards/fd0c6c65-b4dc-4e4a-bbfe-6cf7cab5b48b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/104/watcher-in-the-mist) · oracle_id `e8c0fbea-a678-46b0-b385-e36f14c07672` · printing: CLU #104 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher in the Web
 
@@ -108,6 +119,7 @@
   > *"Lost in the woods" is an optimistic way to describe a villager's disappearance. "Found in the woods" is frequently more appropriate.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10455 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/239/watcher-in-the-web) · oracle_id `232a4128-133e-446d-9f1c-dd3875094473` · printing: SOI #239 (2016-04-08) · [rulings](https://api.scryfall.com/cards/be1ee2d4-5992-4081-9907-4bc26750aff0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher of Hours
@@ -121,7 +133,21 @@
   > Suspend 6—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Flying, Surveil, Suspend, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/25/watcher-of-hours) · oracle_id `b2354092-7a4c-4e69-9c0a-0a2e146dc00c` · printing: MKC #25 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d827fc3c-bc86-4ee9-9db9-461cb0276f6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/25/watcher-of-hours) · oracle_id `b2354092-7a4c-4e69-9c0a-0a2e146dc00c` · printing: MKC #25 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher of the Roost
 
@@ -134,7 +160,17 @@
   > When this creature is turned face up, you gain 2 life.
 - **Keywords:** Flying, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/30/watcher-of-the-roost) · oracle_id `92cf18ab-dd7b-4bc8-8b85-a81b8cb5192c` · printing: KTK #30 (2014-09-26) · [rulings](https://api.scryfall.com/cards/a8684039-e4d9-4e48-9a41-7ccf4a795507/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/30/watcher-of-the-roost) · oracle_id `92cf18ab-dd7b-4bc8-8b85-a81b8cb5192c` · printing: KTK #30 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher of the Spheres
 
@@ -147,7 +183,11 @@
   > Whenever another creature you control with flying enters, this creature gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4276 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/227/watcher-of-the-spheres) · oracle_id `d43463d2-4395-4616-acc3-c4f80ebe3242` · printing: M21 #227 (2020-07-03) · [rulings](https://api.scryfall.com/cards/354b9ea4-3d55-48cc-b426-c46b1d1bb397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — A creature spell that doesn't have flying won't cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true.
+  - *2020-06-23* — The cost reduction applies only to generic mana in the cost of creature spells with flying you cast. For example, if you cast a second Watcher of the Spheres, its cost won't be reduced below {W}{U}.
+  - *2020-06-23* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Watcher of the Spheres). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/227/watcher-of-the-spheres) · oracle_id `d43463d2-4395-4616-acc3-c4f80ebe3242` · printing: M21 #227 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher of the Wayside
 
@@ -160,6 +200,7 @@
   > *Against dragonlords, khans, and Ugin himself, the golem survived. Original purpose forgotten, it awaits orders that will never come, from a world that has moved on without it.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16016 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/249/watcher-of-the-wayside) · oracle_id `b30eafed-2755-4423-9592-c8b83c68804b` · printing: TDM #249 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2dcafdac-a293-4adc-a540-3b3f469cf6f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watcher Sliver
@@ -173,7 +214,11 @@
   > *"I have spied them, wandering and watching—but for what? I fear they watch for us."*
   > *—Yonat of Amrou*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/49/watcher-sliver) · oracle_id `9a538bd7-e665-4896-95df-bbab1e28f75e` · printing: TSR #49 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b5395039-4f1d-4b16-a8b9-b80593dbde76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to another Sliver may become lethal if Watcher Sliver leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/49/watcher-sliver) · oracle_id `9a538bd7-e665-4896-95df-bbab1e28f75e` · printing: TSR #49 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchers of the Dead
 
@@ -185,7 +230,10 @@
 - **Flavor text** (AKH printing):
   > *They are tasked with protecting the entrance to the embalming chambers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22157 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/238/watchers-of-the-dead) · oracle_id `9ac46f46-3099-4ad9-ae58-bf25d7270e87` · printing: AKH #238 (2017-04-28) · [rulings](https://api.scryfall.com/cards/30efc831-3673-4bc1-8a25-150c0349253a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — An opponent with one or two cards in their graveyard won’t exile any cards.
+  - *2017-04-18* — When this ability resolves, first the player whose turn it is (if that player is an opponent) chooses two cards in their graveyard, then each other opponent in turn order does the same, then all of the other cards in their graveyards are exiled simultaneously. Each player will know the choices made by the players who chose before them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/238/watchers-of-the-dead) · oracle_id `9ac46f46-3099-4ad9-ae58-bf25d7270e87` · printing: AKH #238 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchful Automaton
 
@@ -199,7 +247,9 @@
   > *—Baral, Chief of Compliance*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/182/watchful-automaton) · oracle_id `6f5e6799-cb0f-4403-9c2a-69abeac08b79` · printing: AER #182 (2017-01-20) · [rulings](https://api.scryfall.com/cards/138b5fde-417d-4860-aca9-eae7f78b5768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — If you activate Watchful Automaton’s ability more than once, you’ll scry 1 each time. You won’t be able to look at multiple cards at once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/182/watchful-automaton) · oracle_id `6f5e6799-cb0f-4403-9c2a-69abeac08b79` · printing: AER #182 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchful Blisterzoa
 
@@ -214,6 +264,7 @@
   > *After a series of ambushes, Uulbrek demanded a sentry with no blind spots.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/78/watchful-blisterzoa) · oracle_id `ca130ba1-a4a8-4225-9799-75d56bac6fb3` · printing: ONE #78 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a895f63f-3c59-4249-9346-55ef489944fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchful Giant
@@ -226,6 +277,7 @@
 - **Flavor text** (RNA printing):
   > *Loitering is not only illegal but unwise, since those who stay too long in one place are apt to be stepped on.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/30/watchful-giant) · oracle_id `8239c63d-097a-449a-953a-cd480e594aa8` · printing: RNA #30 (2019-01-25) · [rulings](https://api.scryfall.com/cards/61a38f24-1eb3-4914-be1f-0b5f6d4b09d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchful Naga
@@ -239,7 +291,12 @@
   > *The forked tongue of the naga is sensitive to drifting scent trails from the past, present, and sometimes even the future.*
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/193/watchful-naga) · oracle_id `21932be9-cdfb-48d9-87c7-3d62eca98150` · printing: AKH #193 (2017-04-28) · [rulings](https://api.scryfall.com/cards/b0ae361e-20e2-4388-bd82-ce041f427495/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — All cards in the Amonkhet set that let you exert a creature let you do so as you declare it as an attacking creature, as do some of the cards in the Hour of Devastation set. You can’t do so later in combat, and creatures put onto the battlefield attacking can’t be exerted. Any abilities that trigger on exerting an attacking creature will resolve before blockers are declared.
+  - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
+  - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
+  - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/193/watchful-naga) · oracle_id `21932be9-cdfb-48d9-87c7-3d62eca98150` · printing: AKH #193 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchful Radstag
 
@@ -253,7 +310,27 @@
   > *Don't mistake timidness for defenselessness.*
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/87/watchful-radstag) · oracle_id `572afa0f-9e82-4899-b622-a7554625b9f4` · printing: PIP #87 (2024-03-08) · [rulings](https://api.scryfall.com/cards/be4151d4-4d35-48d2-9e72-c87014f79137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If Watchful Radstag leaves the battlefield before its last ability resolves, the token will still enter the battlefield as a copy of Watchful Radstag, using Watchful Radstag’s copiable values from when it was last on the battlefield.
+  - *2024-03-08* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2024-03-08* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — The token copy will have Watchful Radstag’s abilities. It will also be able to create copies of itself.
+  - *2024-03-08* — The token copy won’t copy counters or damage marked on Watchful Radstag, nor will it copy other effects that have changed Watchful Radstag’s power, toughness, types, color, and so on. Normally, this means the token will simply be a Watchful Radstag, but if any copy effects have affected the original Watchful Radstag, the token will take those into account.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+  - *2024-03-08* — Watchful Radstag “evolves” when its evolve ability resolves and a +1/+1 counter is put on it. If a replacement effect causes the evolve ability to put more than one +1/+1 counter on Watchful Radstag, its last ability triggers only once. If no +1/+1 counter is put on it (perhaps because it left the battlefield while its evolve ability was still on the stack), then its last ability doesn’t trigger.
+  - *2024-03-08* — Watchful Radstag’s last ability won’t trigger if a +1/+1 counter is put on it for any reason other than its evolve ability resolving.
+  - *2024-03-08* — When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, its toughness is greater, so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve.
+  - *2024-03-08* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2024-03-08* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/87/watchful-radstag) · oracle_id `572afa0f-9e82-4899-b622-a7554625b9f4` · printing: PIP #87 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchwing Scarecrow
 
@@ -266,6 +343,7 @@
 - **Flavor text** (SHM printing):
   > *The wings are held in place by wicker rods. The rods are held in place by pure faith.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19510 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/268/watchwing-scarecrow) · oracle_id `24bd190c-04bf-44d3-97ba-9dafd9adf7ae` · printing: SHM #268 (2008-05-02) · [rulings](https://api.scryfall.com/cards/5c7774fd-3460-46e3-9c9c-7aa70f2ff6d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watchwolf
@@ -278,6 +356,7 @@
 - **Flavor text** (A25 printing):
   > *Only in Ravnica do the wolves watch the flock.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13028 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/220/watchwolf) · oracle_id `a35c2e20-eb90-4132-b65f-be1fcb569819` · printing: A25 #220 (2018-03-16) · [rulings](https://api.scryfall.com/cards/682af5e9-26b5-4f88-99e1-ab2aa34fba86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbender Ascension
@@ -289,7 +368,13 @@
   > Waterbend {4}: Target creature can't be blocked this turn. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/79/waterbender-ascension) · oracle_id `aeddfdc2-149b-4703-ba57-8d844b25ef08` · printing: TLA #79 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3f57e0f9-e232-489c-b991-d0d23f75d8dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/79/waterbender-ascension) · oracle_id `aeddfdc2-149b-4703-ba57-8d844b25ef08` · printing: TLA #79 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbender's Restoration
 
@@ -300,7 +385,13 @@
   > Exile X target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/99/waterbenders-restoration) · oracle_id `285046f6-b3c4-4eb7-8712-9dffebabc762` · printing: TLE #99 (2025-11-21) · [rulings](https://api.scryfall.com/cards/fe68e08e-8d84-4f87-b2e9-b552788d78e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/99/waterbenders-restoration) · oracle_id `285046f6-b3c4-4eb7-8712-9dffebabc762` · printing: TLE #99 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbending Lesson
 
@@ -313,7 +404,13 @@
   > *—Katara*
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/80/waterbending-lesson) · oracle_id `3d28886c-46bf-4d2e-a257-cb9016cc3573` · printing: TLA #80 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4f81e3b5-a0a9-4764-8c2d-b499ce1740b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/80/waterbending-lesson) · oracle_id `3d28886c-46bf-4d2e-a257-cb9016cc3573` · printing: TLA #80 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterbending Scroll
 
@@ -324,6 +421,7 @@
 - **Flavor text** (TLA printing):
   > *The scroll taught Katara many useful skills. So did fighting the angry pirates she stole it from.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/81/waterbending-scroll) · oracle_id `882d032b-db36-401a-8075-a9fabc90c53d` · printing: TLA #81 (2025-11-21) · [rulings](https://api.scryfall.com/cards/50d0be73-a2c8-44a0-9178-9949f342f6f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watercourser
@@ -337,6 +435,7 @@
   > *"Beware an eddy where there should be none or a stretch that flows too fast or too slow."*
   > *—Old Fishbones, Martyne river guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/137/watercourser) · oracle_id `65dd4ae3-432c-4d57-ac14-4d827262ea0b` · printing: BBD #137 (2018-06-08) · [rulings](https://api.scryfall.com/cards/4826219d-c9f0-4589-8b5e-32128259c374/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Elemental
@@ -349,6 +448,7 @@
 - **Flavor text** (ME4 printing):
   > *Unpredictable as the sea itself, water elementals shift without warning from tranquility to tempest. Capricious and fickle, they flow restlessly from one shape to another, expressing their moods with their physical forms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30762 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/70/water-elemental) · oracle_id `c470fbe1-0538-46ec-8741-3143f5e78af8` · printing: ME4 #70 (2011-01-10) · [rulings](https://api.scryfall.com/cards/9d574bf9-f3e6-4b8e-a3bc-22706c3bb3ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterfall Aerialist
@@ -363,7 +463,9 @@
   > *Form and function in perfect unity.*
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/61/waterfall-aerialist) · oracle_id `736026b2-84d4-4452-ae0d-5d1b0af0a400` · printing: STX #61 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7bc6966c-18d9-4675-9594-6f0b2d11c405/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn’t pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/61/waterfall-aerialist) · oracle_id `736026b2-84d4-4452-ae0d-5d1b0af0a400` · printing: STX #61 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterfront Bouncer
 
@@ -375,6 +477,7 @@
 - **Flavor text** (VMA printing):
   > *Closing time comes earlier to some than to others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18084 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/102/waterfront-bouncer) · oracle_id `b53a8cde-494c-43d0-8d08-7bdfe2e84064` · printing: VMA #102 (2014-06-16) · [rulings](https://api.scryfall.com/cards/d4dab9a1-19e6-4d90-a79c-275b47d7073c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterfront District
@@ -388,6 +491,7 @@
 - **Flavor text** (SNC printing):
   > *The bottom of the dark canals is littered with countless corpses and treasures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7171 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/259/waterfront-district) · oracle_id `18b0b583-d17b-4c67-bc67-c4d9aad155c7` · printing: SNC #259 (2022-04-29) · [rulings](https://api.scryfall.com/cards/debf7aac-4d31-49b4-955b-79036258df69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Gun Balloon Game
@@ -399,7 +503,11 @@
   > Whenever a player casts a spell, move that player's pop! counter up one.
   > Whenever a player's pop! counter hits "5," that player creates a 5/5 pink Giant Teddy Bear creature token and resets all pop! counters to "0."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/538/water-gun-balloon-game) · oracle_id `3d190316-138e-45f5-b6f0-11667bd0630b` · printing: UNF #538 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9cb587e1-1243-4422-8ee3-198bd247b42c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-02-29* — In a game with more than two players, players can use paper and pencil to track where their pop! counter is. That is, the tracker located in Water Gun Balloon Game’s art is fun, but not required to work.
+  - *2020-02-29* — Pink joins gold and every eye color imaginable in the set of colors in silver-bordered Magic games.
+  - *2020-02-29* — The pop! counters are considered to be on the inherent tracker in Water Gun Balloon Game’s art, not on the permanent itself. Those counters can’t be removed or moved to another permanent. Similarly, if you proliferate, you can’t add more pop! counters to Water Gun Balloon Game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/538/water-gun-balloon-game) · oracle_id `3d190316-138e-45f5-b6f0-11667bd0630b` · printing: UNF #538 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterkin Shaman
 
@@ -411,6 +519,7 @@
 - **Flavor text** (M20 printing):
   > *"They come to drink, to bathe, and—I believe—to play."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/288/waterkin-shaman) · oracle_id `64e0c580-0e55-4f42-8594-11ccb584d633` · printing: M20 #288 (2019-07-12) · [rulings](https://api.scryfall.com/cards/184bfbc4-1c9b-44f7-b4a7-068290db3bac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterknot
@@ -423,6 +532,7 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22171 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/192/waterknot) · oracle_id `002100cd-1ab1-44da-93a0-1269d47a712a` · printing: JMP #192 (2020-07-17) · [rulings](https://api.scryfall.com/cards/ada68b91-3379-483e-93a0-b6c7c675c1dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterlogged Grove
@@ -435,6 +545,7 @@
 - **Flavor text** (MH1 printing):
   > *The trees pull water from deep underground, filling the forest for miles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1167 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/249/waterlogged-grove) · oracle_id `70fa2eba-565e-4fed-adc9-7f5d9fcbf1fa` · printing: MH1 #249 (2019-06-14) · [rulings](https://api.scryfall.com/cards/0ab6bfbd-d2e1-4c4c-9f91-6f69c5b8e3bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterlogged Hulk // Watertight Gondola
@@ -450,7 +561,14 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Craft, Vigilance, Transform, Descend, Crew, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16657 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/83/waterlogged-hulk-watertight-gondola) · oracle_id `30820f71-9fd4-453c-b377-c2e0b01c07a7` · printing: LCI #83 (2023-11-17) · [rulings](https://api.scryfall.com/cards/7ea89d3c-8d47-4bbb-9271-8cdfd9296e2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/83/waterlogged-hulk-watertight-gondola) · oracle_id `30820f71-9fd4-453c-b377-c2e0b01c07a7` · printing: LCI #83 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterlogged Teachings // Inundated Archive
 
@@ -465,7 +583,14 @@
   - *Flavor text (MH3 printing):*
   > *Moldering tomes line rotting shelves. Generations of priceless knowledge fade from memory beneath the waves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/261/waterlogged-teachings-inundated-archive) · oracle_id `e6ad1be9-f13d-4590-b3db-e2d0fff46f03` · printing: MH3 #261 (2024-06-14) · [rulings](https://api.scryfall.com/cards/060f9675-4921-4cbb-bae2-54c85c679fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/261/waterlogged-teachings-inundated-archive) · oracle_id `e6ad1be9-f13d-4590-b3db-e2d0fff46f03` · printing: MH3 #261 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watermarket
 
@@ -481,6 +606,7 @@
   > *Two-headed hammer*
   > *Kitten-fish*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/166/watermarket) · oracle_id `84d89a3d-4b28-4e19-8298-737ec6a06238` · printing: UST #166 (2017-12-08) · [rulings](https://api.scryfall.com/cards/bf98bb09-c479-4dba-b542-ac5475fac697/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Servant
@@ -495,7 +621,9 @@
   > *"This creature has innate perceptiveness. It knows when to rise and when to vanish into the tides."*
   > *—Jestus Dreya, \*Of Elements and Eternity\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/69/water-servant) · oracle_id `f8c32c80-9693-4ae4-a387-21ec8a3cdd40` · printing: MM2 #69 (2015-05-22) · [rulings](https://api.scryfall.com/cards/0ba4e555-7528-46fd-9cf8-aa1a70e2cc6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — You can activate Water Servant's second ability even if doing so would cause Water Servant's power to be less than 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/69/water-servant) · oracle_id `f8c32c80-9693-4ae4-a387-21ec8a3cdd40` · printing: MM2 #69 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterspout Djinn
 
@@ -510,7 +638,9 @@
   > *—Sisay, captain of the \*Weatherlight\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/11/waterspout-djinn) · oracle_id `050dac46-9ba0-4b8a-b61b-1c7ec6f3723a` · printing: JVC #11 (2014-12-05) · [rulings](https://api.scryfall.com/cards/0c4d3ffe-3e4d-496f-98d7-60f3b1757b67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose a land to return and return it during resolution of the upkeep triggered ability. This means if you have two Waterspout Djinns, they must each return different Islands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jvc/11/waterspout-djinn) · oracle_id `050dac46-9ba0-4b8a-b61b-1c7ec6f3723a` · printing: JVC #11 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterspout Elemental
 
@@ -523,7 +653,15 @@
   > When this creature enters, if it was kicked, return all other creatures to their owners' hands and you skip your next turn.
 - **Keywords:** Kicker, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30600 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/38/waterspout-elemental) · oracle_id `f86b8c03-9f1e-4d42-ac45-907c46e9e1c0` · printing: PLS #38 (2001-02-05) · [rulings](https://api.scryfall.com/cards/425156e6-8eee-4bff-8f2f-86edd9a4f73b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — It affects your creatures as well as your opponent's.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/38/waterspout-elemental) · oracle_id `f86b8c03-9f1e-4d42-ac45-907c46e9e1c0` · printing: PLS #38 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterspout Warden
 
@@ -535,6 +673,7 @@
 - **Flavor text** (BLB printing):
   > *The escape route of many a birdfolk thief has been less surefire than they'd thought.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13757 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/80/waterspout-warden) · oracle_id `5e11386f-4667-47f7-b280-eabd927e4a46` · printing: BLB #80 (2024-08-02) · [rulings](https://api.scryfall.com/cards/35898b39-98e2-405b-8f18-0e054bd2c29e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterspout Weavers
@@ -546,7 +685,14 @@
   > Kinship — At the beginning of your upkeep, you may look at the top card of your library. If it shares a creature type with this creature, you may reveal it. If you do, each creature you control gains flying until end of turn.
 - **Keywords:** Kinship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/56/waterspout-weavers) · oracle_id `7ab01e23-cbf5-458c-880c-50e061ece688` · printing: MOR #56 (2008-02-01) · [rulings](https://api.scryfall.com/cards/7db5c04f-fd5e-4e4c-9146-f9e6ef20a159/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — After the kinship ability finishes resolving, the card you looked at remains on top of your library.
+  - *2008-04-01* — If the top card of your library is already revealed (due to Magus of the Future, for example), you still have the option to reveal it or not as part of a kinship ability’s effect.
+  - *2008-04-01* — If you have multiple creatures with kinship abilities, each triggers and resolves separately. You’ll look at the same card for each one, unless you have some method of shuffling your library or moving that card to a different zone.
+  - *2008-04-01* — Kinship is an ability word that indicates a group of similar triggered abilities that appear on _Morningtide_ creatures. It doesn’t have any special rules associated with it.
+  - *2008-04-01* — The first two sentences of every kinship ability are the same (except for the creature’s name). Only the last sentence varies from one kinship ability to the next.
+  - *2008-04-01* — You don’t have to reveal the top card of your library, even if it shares a creature type with the creature that has the kinship ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/56/waterspout-weavers) · oracle_id `7ab01e23-cbf5-458c-880c-50e061ece688` · printing: MOR #56 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watertrap Weaver
 
@@ -558,7 +704,9 @@
 - **Flavor text** (XLN printing):
   > *The river is a powerful friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/87/watertrap-weaver) · oracle_id `ef0ed1b1-d092-46f0-beb2-444e3645d273` · printing: XLN #87 (2017-09-29) · [rulings](https://api.scryfall.com/cards/0d973568-d7b0-443f-a09d-44f6b02da5d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Watertrap Weaver’s ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/87/watertrap-weaver) · oracle_id `ef0ed1b1-d092-46f0-beb2-444e3645d273` · printing: XLN #87 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Tribe Captain
 
@@ -570,6 +718,7 @@
 - **Flavor text** (TLA printing):
   > *"Follow me to the bay! Our scouts have spotted the Fire Navy's smoketrail approaching, and we shall meet them with force!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20341 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/41/water-tribe-captain) · oracle_id `0c6c4921-c6cb-4b4b-ac9d-10ccc89a5d1d` · printing: TLA #41 (2025-11-21) · [rulings](https://api.scryfall.com/cards/0a0cdf97-1927-47c6-8ef1-29969e3567ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Tribe Rallier
@@ -581,7 +730,13 @@
   > Waterbend {5}: Look at the top four cards of your library. You may reveal a creature card with power 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/42/water-tribe-rallier) · oracle_id `64acb083-a0a3-46ec-9c93-b2ac36878703` · printing: TLA #42 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4e744b6c-1c2f-451a-818a-5ee7785b5213/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/42/water-tribe-rallier) · oracle_id `64acb083-a0a3-46ec-9c93-b2ac36878703` · printing: TLA #42 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterveil Cavern
 
@@ -591,6 +746,7 @@
   > {T}: Add {C}.
   > {T}: Add {U} or {B}. This land doesn't untap during your next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24205 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/286/waterveil-cavern) · oracle_id `3debfa0d-9945-4a85-a714-7c3d3d74de4e` · printing: CHK #286 (2004-10-01) · [rulings](https://api.scryfall.com/cards/405805e0-07f6-420f-86f9-5bde822caa5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Whip
@@ -604,7 +760,13 @@
   > *"The key is getting the wrist movement right."*
 - **Keywords:** Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/227/water-whip) · oracle_id `2015f455-988e-444c-93df-23fab179ef87` · printing: TLE #227 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f8783863-699b-4362-a211-7db7ab8f36ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/227/water-whip) · oracle_id `2015f455-988e-444c-93df-23fab179ef87` · printing: TLE #227 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterwhirl
 
@@ -616,6 +778,7 @@
   > *"Be as water: untamed and unheld, yet inexorably flowing toward a greater goal."*
   > *—Shensu, Riverwheel mystic*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30051 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/60/waterwhirl) · oracle_id `77636154-962f-4ca8-85e7-c0c9c0c3cd2d` · printing: KTK #60 (2014-09-26) · [rulings](https://api.scryfall.com/cards/9dd58503-d269-4756-a71c-a6a2bfb1658d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waterwind Scout
@@ -628,7 +791,15 @@
   > When this creature enters, create a Map token. (It's an artifact with "{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.")
 - **Keywords:** Flying, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/84/waterwind-scout) · oracle_id `db65f874-6bf3-4fdb-a977-10b01b7ee2e9` · printing: LCI #84 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8a7738fb-0a1b-4010-b8c0-e1129739c765/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/84/waterwind-scout) · oracle_id `db65f874-6bf3-4fdb-a977-10b01b7ee2e9` · printing: LCI #84 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Wings
 
@@ -639,7 +810,9 @@
 - **Flavor text** (WOE printing):
   > *Luckily for the plummeting Johann, the hydroloft spell was one he had actually mastered.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/77/water-wings) · oracle_id `17f8e8cb-cd1b-4d94-9efa-ce268e8e7096` · printing: WOE #77 (2023-09-08) · [rulings](https://api.scryfall.com/cards/4ea4993c-d1ba-4b33-955b-e0874fd2132f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Water Wings overwrites any previous effects that set the creature's power and/or toughness to specific values. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/77/water-wings) · oracle_id `17f8e8cb-cd1b-4d94-9efa-ce268e8e7096` · printing: WOE #77 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Water Wurm
 
@@ -649,7 +822,9 @@
 - **Oracle text:**
   > This creature gets +0/+1 as long as an opponent controls an Island.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/drk/38/water-wurm) · oracle_id `cfa373c4-6e42-4cf3-94a4-841f2824603e` · printing: DRK #38 (1994-08-01) · [rulings](https://api.scryfall.com/cards/e3da4a88-5225-467f-9240-f30bc1eee520/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only gets the bonus once even if more than one opponent has an Island on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/drk/38/water-wurm) · oracle_id `cfa373c4-6e42-4cf3-94a4-841f2824603e` · printing: DRK #38 (1994-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watery Grasp
 
@@ -661,7 +836,13 @@
   > Waterbend {5}: Enchanted creature's owner shuffles it into their library. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)
 - **Keywords:** Enchant, Waterbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/82/watery-grasp) · oracle_id `520b2799-66bd-40bf-9bc0-9cd3aed321f5` · printing: TLA #82 (2025-11-21) · [rulings](https://api.scryfall.com/cards/26bcff57-428e-4f30-a153-a778fbfc437d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Waterbend [cost]" means "Pay [cost]. For each generic mana in that cost, you may tap an untapped artifact or creature you control rather than pay that mana."
+  - *2025-10-02* — Even if the cost of the spell or ability that waterbend is part of increases or decreases, you still may only tap artifacts or creatures to pay for costs up to the amount of the generic mana in the waterbend cost.
+  - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
+  - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
+  - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/82/watery-grasp) · oracle_id `520b2799-66bd-40bf-9bc0-9cd3aed321f5` · printing: TLA #82 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Watery Grave
 
@@ -673,4 +854,7 @@
 - **Flavor text** (TRK printing):
   > *Earth's restored cetacean population eventually came to see the wreck of the \*Bounty\* as a sort of holy site.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #50 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/trk/306/watery-grave) · oracle_id `fc9ec820-4245-4a96-b009-5308a818ca58` · printing: TRK #306 (2026-11-13) · [rulings](https://api.scryfall.com/cards/5525d6a6-e532-4047-9da4-bfae7927fecc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
+  - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/trk/306/watery-grave) · oracle_id `fc9ec820-4245-4a96-b009-5308a818ca58` · printing: TRK #306 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

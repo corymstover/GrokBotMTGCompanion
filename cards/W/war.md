@@ -145,6 +145,7 @@
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18317 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/159/war-balloon) · oracle_id `021b495d-236f-4274-988d-2dfd7103c9ef` · printing: TLA #159 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6829b20d-c2fa-41a6-89ca-f21c522d8866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Barge
@@ -154,6 +155,7 @@
 - **Oracle text:**
   > {3}: Target creature gains islandwalk until end of turn. When this artifact leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated. (A creature with islandwalk can't be blocked as long as defending player controls an Island.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26706 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/116/war-barge) · oracle_id `fd57331f-1cfa-4f88-a925-fc171738c3c0` · printing: TSB #116 (2006-10-06) · [rulings](https://api.scryfall.com/cards/3c26771c-a1ec-4055-8df4-d5b49bfe5b1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warbeast of Gorgoroth
@@ -167,7 +169,16 @@
   > *Drums rolled, fires leaped, and great engines drawn by beasts crawled across the field.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/152/warbeast-of-gorgoroth) · oracle_id `7ca52e15-5a55-4d79-b0bf-0e2dc515ae6a` · printing: LTR #152 (2023-06-23) · [rulings](https://api.scryfall.com/cards/5eeecb9e-fbde-429b-b3da-18a4dbadf6de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If Warbeast of Gorgoroth and one or more other creatures you control with power 4 or greater die at the same time, its ability will trigger once for each of them.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/152/warbeast-of-gorgoroth) · oracle_id `7ca52e15-5a55-4d79-b0bf-0e2dc515ae6a` · printing: LTR #152 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Behemoth
 
@@ -181,7 +192,17 @@
   > *—Gvar Barzeel, krumar commander*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31770 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/29/war-behemoth) · oracle_id `4792a05e-b557-4132-8303-235feefe0d99` · printing: KTK #29 (2014-09-26) · [rulings](https://api.scryfall.com/cards/652109b9-d607-42b6-945d-0c0dd5bba89c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/29/war-behemoth) · oracle_id `4792a05e-b557-4132-8303-235feefe0d99` · printing: KTK #29 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warbreak Trumpeter
 
@@ -193,7 +214,10 @@
   > When this creature is turned face up, create X 1/1 red Goblin creature tokens.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22466 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/116/warbreak-trumpeter) · oracle_id `40e5c7fe-4d7a-41c0-8b90-ea0b46a01c9d` · printing: LGN #116 (2003-02-03) · [rulings](https://api.scryfall.com/cards/fc942957-1067-428c-8ee1-01f9e260efe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The X in the ability has the same value as the X paid in the Morph ability. This is pretty easy to derive since there is no other source of X.
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/116/warbreak-trumpeter) · oracle_id `40e5c7fe-4d7a-41c0-8b90-ea0b46a01c9d` · printing: LGN #116 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warbriar Blessing
 
@@ -205,7 +229,10 @@
   > Enchanted creature gets +0/+2.
 - **Keywords:** Fight, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/204/warbriar-blessing) · oracle_id `4a58954a-1d20-48b8-847c-3615de67e122` · printing: THB #204 (2020-01-24) · [rulings](https://api.scryfall.com/cards/11d64cab-2ed1-46d9-8034-0c2ba3f2e1ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — If Warbriar Blessing leaves the battlefield before its enters-the-battlefield triggered ability resolves, the creature it last enchanted before it left will be the one to fight.
+  - *2020-01-24* — If the target creature is an illegal target when Warbriar Blessing's triggered ability tries to resolve, the ability doesn't resolve. If the enchanted creature is no longer on the battlefield, the target creature won't deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/204/warbriar-blessing) · oracle_id `4a58954a-1d20-48b8-847c-3615de67e122` · printing: THB #204 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warbringer
 
@@ -217,7 +244,14 @@
   > Dash {2}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)
 - **Keywords:** Dash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/168/warbringer) · oracle_id `0636090b-49e0-45b4-a68d-48b1cdc0c54d` · printing: DTK #168 (2015-03-27) · [rulings](https://api.scryfall.com/cards/ed4951ef-2519-4511-b952-c835cd81def7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-02-25* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose dash cost was paid, the copy won’t have haste and won’t be returned to its owner’s hand.
+  - *2015-02-25* — If you choose to pay the dash cost rather than the mana cost, you’re still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its dash cost only when you otherwise could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2015-02-25* — If you pay the dash cost to cast a creature spell, that card will be returned to its owner’s hand only if it’s still on the battlefield when its triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2015-02-25* — Warbringer’s first ability can’t affect the colored mana requirement of a dash cost. If a card’s dash cost includes one generic mana, that cost will be reduced by {1}.
+  - *2015-02-25* — Warbringer’s first ability doesn’t affect Warbringer itself.
+  - *2015-02-25* — You don’t have to attack with the creature with dash unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/168/warbringer) · oracle_id `0636090b-49e0-45b4-a68d-48b1cdc0c54d` · printing: DTK #168 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Cadence
 
@@ -228,7 +262,10 @@
 - **Flavor text** (C13 printing):
   > *The rhythm isn't a call to arms, but a signal that the goblins have made a new enemy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/128/war-cadence) · oracle_id `49d0fdd6-cc8f-4fe1-a6bd-4321dac18404` · printing: C13 #128 (2013-11-01) · [rulings](https://api.scryfall.com/cards/359434c4-7123-435b-890b-4e88f5bf2f49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability only applies to blocks declared after it resolves. It will not add costs to any blockers already announced.
+  - *2004-10-04* — You can choose X=0. This doesn’t have an effect most of the time, but it does mean that creatures can’t block unless the controller chooses to pay the cost (a cost of zero is not automatically paid). You can use this to make your creatures unable to block an attacker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/128/war-cadence) · oracle_id `49d0fdd6-cc8f-4fe1-a6bd-4321dac18404` · printing: C13 #128 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warchanter of Mogis
 
@@ -239,7 +276,12 @@
   > Inspired — Whenever this creature becomes untapped, target creature you control gains intimidate until end of turn. (A creature with intimidate can't be blocked except by artifact creatures and/or creatures that share a color with it.)
 - **Keywords:** Inspired
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/85/warchanter-of-mogis) · oracle_id `9fb5ea12-5b87-462b-b9c0-904cd0f55a9c` · printing: BNG #85 (2014-02-07) · [rulings](https://api.scryfall.com/cards/757948b3-8cb2-4709-9bbf-031c2bf6d4c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/85/warchanter-of-mogis) · oracle_id `9fb5ea12-5b87-462b-b9c0-904cd0f55a9c` · printing: BNG #85 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warchanter Skald
 
@@ -251,7 +293,11 @@
 - **Flavor text** (KHM printing):
   > *"Who will be the hero of my tale?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19490 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/381/warchanter-skald) · oracle_id `dc7e259a-d965-4e25-8145-81ab3087f718` · printing: KHM #381 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f79c5e95-f6c6-4e2f-9c6c-d99addb757ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — For the triggered ability to trigger, Warchanter Skald has to actually change from untapped to tapped. If an effect attempts to tap while it is already tapped, the ability won’t trigger.
+  - *2021-02-05* — If Warchanter Skald isn’t enchanted or equipped at the moment it becomes tapped, the ability won’t trigger at all. If the ability does trigger, it will check again as it tries to resolve to make sure Warchanter Skald is still enchanted or equipped: if not, the ability won’t do anything. (Warchanter Skald could have different Auras and/or Equipment attached to it by that point, though.)
+  - *2021-02-05* — Warchanter Skald’s triggered ability doesn’t allow you to tap it. You have to find some other way to tap it. You could attack with it, I suppose?
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/381/warchanter-skald) · oracle_id `dc7e259a-d965-4e25-8145-81ab3087f718` · printing: KHM #381 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Chariot
 
@@ -263,6 +309,7 @@
   > *"I wouldn't advise using it with a Woolly Mammoth, but it's quite appropriate for many other beasts."*
   > *—Arcum Dagsson, Soldevi Machinist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30110 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/348/war-chariot) · oracle_id `989c698a-600e-47d8-acaf-3ca140dcd150` · printing: ICE #348 (1995-06-03) · [rulings](https://api.scryfall.com/cards/d0ea0c6c-aa76-4b16-bc99-2ff46dc56d4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warchief Giant
@@ -275,7 +322,16 @@
   > Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)
 - **Keywords:** Haste, Myriad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9670 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/127/warchief-giant) · oracle_id `589abb40-04b4-4dbe-9c2a-446b6c3075d1` · printing: CM2 #127 (2018-06-08) · [rulings](https://api.scryfall.com/cards/49b311c5-90f5-4d26-86ce-b9f645c137e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-11-04* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won’t trigger, including the myriad ability of the tokens. If there any costs to have a creature attack, those costs won’t apply to the tokens.
+  - *2015-11-04* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2015-11-04* — Each token copies exactly what was printed on the original creature and nothing else. It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2015-11-04* — If myriad creates more than one token for any given player (due to an effect such as the one Doubling Season creates), you may choose separately for each token whether it’s attacking the player or a planeswalker they control.
+  - *2015-11-04* — If the defending player is your only opponent, no tokens are put onto the battlefield.
+  - *2015-11-04* — The term “defending player” in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, or the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat.
+  - *2015-11-04* — The token creatures all enter the battlefield at the same time.
+  - *2015-11-04* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/127/warchief-giant) · oracle_id `589abb40-04b4-4dbe-9c2a-446b6c3075d1` · printing: CM2 #127 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warclamp Mastiff
 
@@ -289,6 +345,7 @@
   > *—Watchmaster Finn of An Karras*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20534 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m13/40/warclamp-mastiff) · oracle_id `8bd301ea-32f0-4c3a-a215-c04b31fbdc7c` · printing: M13 #40 (2012-07-13) · [rulings](https://api.scryfall.com/cards/102e48e0-8a5f-499d-ac62-005d3c075ef3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warcry Phoenix
@@ -303,7 +360,10 @@
   > *War begins with one red ember.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17711 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/150/warcry-phoenix) · oracle_id `5297f646-8235-47da-a290-a6883b374977` · printing: DOM #150 (2018-04-27) · [rulings](https://api.scryfall.com/cards/ff561f01-8dbc-4988-be00-592d1e417396/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — As Warcry Phoenix returns to the battlefield because of its triggered ability, you choose which opponent or opposing planeswalker it's attacking. It doesn't have to attack the same opponent or opposing planeswalker as your other attacking creatures.
+  - *2018-04-27* — If Warcry Phoenix enters the battlefield attacking, it wasn't declared as an attacking creature that turn. Abilities that trigger when a creature attacks won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/150/warcry-phoenix) · oracle_id `5297f646-8235-47da-a290-a6883b374977` · printing: DOM #150 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Dance
 
@@ -313,7 +373,9 @@
   > At the beginning of your upkeep, you may put a verse counter on this enchantment.
   > Sacrifice this enchantment: Target creature gets +X/+X until end of turn, where X is the number of verse counters on this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28673 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/282/war-dance) · oracle_id `ecfc81df-1271-47ca-9184-49bf5798e195` · printing: USG #282 (1998-10-12) · [rulings](https://api.scryfall.com/cards/392b4acf-4548-47dd-be58-bdf4ca4ece7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/282/war-dance) · oracle_id `ecfc81df-1271-47ca-9184-49bf5798e195` · printing: USG #282 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warded Battlements
 
@@ -327,6 +389,7 @@
   > *In dire times, even a place of refuge can become a weapon of war.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22960 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/44/warded-battlements) · oracle_id `7616dacf-44e2-4b03-b120-875cc2e50ea5` · printing: M21 #44 (2020-07-03) · [rulings](https://api.scryfall.com/cards/f234999b-54e9-40f5-a537-7d6ce169c710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of Evos Isle
@@ -341,7 +404,11 @@
   > *On Evos Isle, the swift and formidable aven enforce the will of the ruling sphinxes.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/106/warden-of-evos-isle) · oracle_id `f424b5e9-8f02-4491-a7d8-c7e088611c6a` · printing: CMR #106 (2020-11-20) · [rulings](https://api.scryfall.com/cards/6bfc5cef-aa9b-45d4-a9c3-4b157e4ed193/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — A creature spell that doesn't have flying won't cost less even if an effect will cause the creature to have flying once on the battlefield. This is also true if the creature spell itself has an ability that gives it flying once on the battlefield under certain conditions, even if those conditions are true.
+  - *2020-11-10* — The last ability of Warden of Evos Isle can't reduce the colored mana requirement of a creature spell with flying.
+  - *2020-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/106/warden-of-evos-isle) · oracle_id `f424b5e9-8f02-4491-a7d8-c7e088611c6a` · printing: CMR #106 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of Geometries
 
@@ -355,6 +422,7 @@
   > *The wastelands disorient even the most experienced scouts, making them easy prey for Kozilek's drones.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/11/warden-of-geometries) · oracle_id `448da389-81db-4931-9cf7-3fde0ce9392f` · printing: OGW #11 (2016-01-22) · [rulings](https://api.scryfall.com/cards/c7f517b9-ac10-4710-8ef1-ced1253d5ecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Beyond
@@ -370,7 +438,9 @@
   > *Designed by Isaiah Cartwright*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/42/warden-of-the-beyond) · oracle_id `6e9d5e5e-d571-4a1a-be8c-6672fd6b582f` · printing: M15 #42 (2014-07-18) · [rulings](https://api.scryfall.com/cards/d0a7406c-8c49-4ef6-a349-902833ea8ec5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-07-18* — Warden of the Beyond can't get more than +2/+2 from its last ability, no matter how many opponents own a card in exile or how many exiled cards they own.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/42/warden-of-the-beyond) · oracle_id `6e9d5e5e-d571-4a1a-be8c-6672fd6b582f` · printing: M15 #42 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Chained
 
@@ -384,7 +454,10 @@
   > *"Strength, skill, rage—all have their limits, but patience can be infinite."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28453 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/230/warden-of-the-chained) · oracle_id `d2f33d3a-afc6-4d15-9049-ecd33f85eb94` · printing: THB #230 (2020-01-24) · [rulings](https://api.scryfall.com/cards/ff48d55e-aa8b-4061-9c77-fd7e696fd7ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — If you control two Wardens of the Chained, each will fulfill the other's condition and both will be able to attack.
+  - *2020-01-24* — Once Warden of the Chained is attacking, it will remain attacking even if you no longer control another creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/230/warden-of-the-chained) · oracle_id `d2f33d3a-afc6-4d15-9049-ecd33f85eb94` · printing: THB #230 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Eye
 
@@ -396,6 +469,7 @@
 - **Flavor text** (KTK printing):
   > *The wardens guard the sacred documents of Tarkir's history, though they are forbidden to read the words.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25260 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/212/warden-of-the-eye) · oracle_id `5342ce88-4afc-431c-814a-054e5fca4b9e` · printing: KTK #212 (2014-09-26) · [rulings](https://api.scryfall.com/cards/04135bf7-2bcf-4a92-80f0-6d5eefca551b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the First Tree
@@ -408,7 +482,12 @@
   > {2}{W/B}{W/B}: If this creature is a Warrior, it becomes a Human Spirit Warrior with trample and lifelink.
   > {3}{W/B}{W/B}{W/B}: If this creature is a Spirit, put five +1/+1 counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/143/warden-of-the-first-tree) · oracle_id `0068a341-92a5-470e-a565-9ace69eb04a8` · printing: FRF #143 (2015-01-23) · [rulings](https://api.scryfall.com/cards/2e0c6628-04f1-4800-baa8-bcaefe64f59f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Effects that modify Warden of the First Tree's power or toughness, such as the one created by Titanic Growth, will apply to Warden of the First Tree no matter when they started to take effect. The same is true for any +1/+1 counters on Warden of the First Tree and effects that switch its power and toughness.
+  - *2014-11-24* — Neither the first nor the second ability has a duration. If one of them resolves, it will remain in effect until Warden of the First Tree leaves the battlefield or some subsequent effect changes its characteristics.
+  - *2014-11-24* — The first ability overwrites any previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the first ability resolves will overwrite this effect.
+  - *2014-11-24* — The first and second activated abilities cause Warden of the First Tree to lose any other creature types it has. It retains any card types or supertypes it may have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/143/warden-of-the-first-tree) · oracle_id `0068a341-92a5-470e-a565-9ace69eb04a8` · printing: FRF #143 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Grove
 
@@ -420,7 +499,12 @@
   > Whenever another nontoken creature you control enters, it endures X, where X is the number of counters on this creature. (Put X +1/+1 counters on the creature that entered or create an X/X white Spirit creature token.)
 - **Keywords:** Endure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2204 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/166/warden-of-the-grove) · oracle_id `13bf8103-3db3-4ee6-a6bb-441aabfd9e41` · printing: TDM #166 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2414db96-0e2b-4f7c-9b97-41f8e310b752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
+  - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
+  - *2025-04-04* — The value of X is determined as the last ability resolves. If Warden of the Grove is no longer on the battlefield at that time, the number of counters on it as it last existed on the battlefield is used to determine how many +1/+1 counters to put on the creature that endured or the power and toughness of the Spirit token created.
+  - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/166/warden-of-the-grove) · oracle_id `13bf8103-3db3-4ee6-a6bb-441aabfd9e41` · printing: TDM #166 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Inner Sky
 
@@ -432,7 +516,9 @@
   > Tap three untapped artifacts and/or creatures you control: Put a +1/+1 counter on this creature. Scry 1. Activate only as a sorcery.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/43/warden-of-the-inner-sky) · oracle_id `5268f772-5b42-4b5b-9e57-c32c662a42f3` · printing: LCI #43 (2023-11-17) · [rulings](https://api.scryfall.com/cards/549fd992-ed37-431d-97cb-9ca017db1d47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — You can tap any three untapped artifacts and/or creatures you control, including Warden of the Inner Sky itself and other creatures you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Warden of the Inner Sky's activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/43/warden-of-the-inner-sky) · oracle_id `5268f772-5b42-4b5b-9e57-c32c662a42f3` · printing: LCI #43 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Wall
 
@@ -443,7 +529,9 @@
   > {T}: Add {C}.
   > During turns other than yours, this artifact is a 2/3 Gargoyle artifact creature with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/153/warden-of-the-wall) · oracle_id `5d66c2b9-6011-4168-b468-0bde50bac37e` · printing: DKA #153 (2012-02-03) · [rulings](https://api.scryfall.com/cards/fd1a1f48-d46b-4b8e-a642-fc70fd9ef7df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — Warden of the Wall still has the ability to tap for mana when it’s not your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/153/warden-of-the-wall) · oracle_id `5d66c2b9-6011-4168-b468-0bde50bac37e` · printing: DKA #153 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warden of the Woods
 
@@ -457,7 +545,10 @@
   > *Weak and strong alike seek shelter beneath its branches.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/213/warden-of-the-woods) · oracle_id `c8c6924e-9af8-4212-be28-b0b4eaa4c7d8` · printing: M21 #213 (2020-07-03) · [rulings](https://api.scryfall.com/cards/f1d81cfc-cff8-4478-92b6-efbfc5084165/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — An ability that triggers when something becomes the target of a spell or ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered.
+  - *2020-06-23* — Players can cast spells and activate abilities after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/213/warden-of-the-woods) · oracle_id `c8c6924e-9af8-4212-be28-b0b4eaa4c7d8` · printing: M21 #213 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wardens of the Cycle
 
@@ -472,7 +563,9 @@
   > *"The wheel turns, and what meets its end begins again."*
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/125/wardens-of-the-cycle) · oracle_id `fa7d09aa-2ebc-4571-81da-836cd80cf554` · printing: FDN #125 (2024-11-15) · [rulings](https://api.scryfall.com/cards/83ea9b2c-5723-4eff-88ac-6669975939e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Wardens of the Cycle's ability will check as the end step starts to see if a creature died this turn. If none did, the ability won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/125/wardens-of-the-cycle) · oracle_id `fa7d09aa-2ebc-4571-81da-836cd80cf554` · printing: FDN #125 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ward of Bones
 
@@ -484,7 +577,9 @@
 - **Flavor text** (EVE printing):
   > *Mages dare not attempt magic in its grotesque presence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12358 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/174/ward-of-bones) · oracle_id `c3ea1497-63ac-46bb-95e9-d98b93a880b3` · printing: EVE #174 (2008-07-25) · [rulings](https://api.scryfall.com/cards/a271351e-5d5e-443b-99a4-ebdc8a3c4923/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — Spelling this out completely: — Each opponent who controls more creatures than you can’t play creature cards. — Each opponent who controls more artifacts than you can’t play artifact cards. — Each opponent who controls more enchantments than you can’t play enchantment cards. — Each opponent who controls more lands than you can’t play land cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/174/ward-of-bones) · oracle_id `c3ea1497-63ac-46bb-95e9-d98b93a880b3` · printing: EVE #174 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ward of Lights
 
@@ -497,7 +592,9 @@
   > Enchanted creature has protection from the chosen color. This effect doesn't remove this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22362 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/47/ward-of-lights) · oracle_id `edc05b33-2bfa-4692-bb3b-26b7cf111ce8` · printing: MIR #47 (1996-10-08) · [rulings](https://api.scryfall.com/cards/6d389daf-c7d8-4bd1-b4ea-5082f5d280c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/47/ward-of-lights) · oracle_id `edc05b33-2bfa-4692-bb3b-26b7cf111ce8` · printing: MIR #47 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ward of Piety
 
@@ -510,7 +607,9 @@
   > *Reluctant to strike at the kami directly, some kitsune trained in more passive fighting techniques.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/28/ward-of-piety) · oracle_id `0fe4767b-2023-49fc-bc93-b73b43f70b76` · printing: BOK #28 (2005-02-04) · [rulings](https://api.scryfall.com/cards/73acef0c-34b1-4e04-8569-4f8d754585df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-02-01* — Redirected damage retains its information. For example, your opponent attacks you with Slith Firewalker (which reads, in part, “Whenever Slith Firewalker deals combat damage to a player, put a +1/+1 counter on it.”) and you block with a creature enchanted with Ward of Piety. If you activate Ward of Piety, targeting your opponent, the Slith’s ability triggers during the combat damage step and it gets a +1/+1 counter. It’s still combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/28/ward-of-piety) · oracle_id `0fe4767b-2023-49fc-bc93-b73b43f70b76` · printing: BOK #28 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wardscale Crocodile
 
@@ -524,6 +623,7 @@
   > *—Jace Beleren*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26875 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/183/wardscale-crocodile) · oracle_id `86f725f6-b48b-4dcc-9a02-e258a226e31c` · printing: WAR #183 (2019-05-03) · [rulings](https://api.scryfall.com/cards/aa5341b9-06e4-4360-a75d-f405d468276e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wardscale Dragon
@@ -538,7 +638,10 @@
   > *Dromoka's brood emerge from the dragon tempests covered with tough scales that protect them from most clan weapons and magic.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/30/wardscale-dragon) · oracle_id `1fb53b6a-b456-4252-9614-12ac72968113` · printing: FRF #30 (2015-01-23) · [rulings](https://api.scryfall.com/cards/d4290215-3aec-40b8-aac5-e5c39c035cfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — The defending player can still activate abilities or take special actions, such as turning a face-down creature face up.
+  - *2014-11-24* — “Defending player” refers to the player Wardscale Dragon is attacking or the controller of the planeswalker Wardscale Dragon is attacking. In multiplayer formats that allow attacking multiple players, your other opponents can still cast spells, even if you control other creatures attacking those players or planeswalkers those players control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/30/wardscale-dragon) · oracle_id `1fb53b6a-b456-4252-9614-12ac72968113` · printing: FRF #30 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ward Sliver
 
@@ -551,7 +654,10 @@
 - **Flavor text** (LGN printing):
   > *The first wave of slivers perished from the Riptide wizards' magic. The second wave shrugged off their spells like water.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9814 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/25/ward-sliver) · oracle_id `7c259e83-1d85-4267-a2e6-1a0fbacae3fe` · printing: LGN #25 (2003-02-03) · [rulings](https://api.scryfall.com/cards/e264369a-ab81-4938-9fa6-7c3e069442f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/25/ward-sliver) · oracle_id `7c259e83-1d85-4267-a2e6-1a0fbacae3fe` · printing: LGN #25 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Effort
 
@@ -564,6 +670,7 @@
   > *Community is strength.*
   > *—Tenet of the Decree of Thunder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/131/war-effort) · oracle_id `d9bc6841-9f71-46af-ac1f-a01caee290c1` · printing: TDM #131 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dd7f0413-c009-4c08-b877-9c1b776cbf26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warehouse Tabby
@@ -577,7 +684,10 @@
 - **Flavor text** (WOE printing):
   > *For every rat she kills, ten more take its place.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/117/warehouse-tabby) · oracle_id `a7736614-cdd3-43bd-ab3e-461e3e24ed40` · printing: WOE #117 (2023-09-08) · [rulings](https://api.scryfall.com/cards/d500ad81-9659-4a00-8f99-8be7c23587e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Enchantment tokens (such as Roles) that are sacrificed, destroyed, or would otherwise go to the graveyard are put into their owner's graveyard before ceasing to exist. If you controlled the token, Warehouse Tabby's ability will trigger.
+  - *2023-09-01* — If Warehouse Tabby leaves the battlefield while it has an Aura you control attached to it or at the same time as another creature with an Aura you control attached to it, its ability won't trigger for those enchantments unless they were destroyed by the same effect that caused Warehouse Tabby to leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/117/warehouse-tabby) · oracle_id `a7736614-cdd3-43bd-ab3e-461e3e24ed40` · printing: WOE #117 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warehouse Thief
 
@@ -589,7 +699,9 @@
 - **Flavor text** (CLB printing):
   > *Wealthy patriars make up the vast majority of both his victims and his customers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24893 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/205/warehouse-thief) · oracle_id `ddf34a38-29d5-4bf3-9b08-e7c9579a4200` · printing: CLB #205 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5e7a5951-4f71-47a0-ad80-f236f61d3f22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — You must pay all costs and follow all timing rules when playing a land or casting a spell this way. For example, you may only play a land this way during your main phase while the stack is empty, and only if you haven't previously played a land this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/205/warehouse-thief) · oracle_id `ddf34a38-29d5-4bf3-9b08-e7c9579a4200` · printing: CLB #205 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Elemental
 
@@ -600,6 +712,7 @@
   > When this creature enters, sacrifice it unless an opponent was dealt damage this turn.
   > Whenever an opponent is dealt damage, put that many +1/+1 counters on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/112/war-elemental) · oracle_id `07947d01-ebb1-46b7-9bdd-ea00e034805b` · printing: MRD #112 (2003-10-02) · [rulings](https://api.scryfall.com/cards/9cc32bfc-7d87-46d9-a424-eac64eefd7ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Elephant
@@ -614,7 +727,12 @@
   > *—Kikuyu proverb*
 - **Keywords:** Banding, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/13/war-elephant) · oracle_id `2b7c9fe0-5a23-4172-b31f-b0d85cd465f6` · printing: CHR #13 (1995-07-01) · [rulings](https://api.scryfall.com/cards/709cd715-28ef-42e8-bf8c-fc51a1ca0c6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/13/war-elephant) · oracle_id `2b7c9fe0-5a23-4172-b31f-b0d85cd465f6` · printing: CHR #13 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Falcon
 
@@ -628,7 +746,10 @@
   > *The falcon is the picture of nobility, maintaining a regal bearing even as it conducts the bloody business of war.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29368 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/38/war-falcon) · oracle_id `406bccb6-6602-4486-a556-e0b550650253` · printing: M13 #38 (2012-07-13) · [rulings](https://api.scryfall.com/cards/7e092a0d-c031-4a76-86c1-7f83878a06e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — If an effect makes War Falcon a Knight or a Soldier, it will be able to attack even if it's the only creature you control.
+  - *2012-07-01* — To attack with War Falcon, you must control a Knight or a Soldier when you declare attackers. Once War Falcon is attacking, it won't be removed from combat if at any point you no longer control a Knight or Soldier.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/38/war-falcon) · oracle_id `406bccb6-6602-4486-a556-e0b550650253` · printing: M13 #38 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warfire Javelineer
 
@@ -640,7 +761,9 @@
 - **Flavor text** (JMP printing):
   > *Minotaurs favor magic that manifests as weapons wrapped in flame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/370/warfire-javelineer) · oracle_id `33a7a1e9-23b4-4cde-baf1-b1c0165c6729` · printing: JMP #370 (2020-07-17) · [rulings](https://api.scryfall.com/cards/d2c9ea25-7a5e-4b6d-b071-e929f6b652c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — A split card only counts once for Warfire Javelineer’s ability, even if it’s both an instant and a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/370/warfire-javelineer) · oracle_id `33a7a1e9-23b4-4cde-baf1-b1c0165c6729` · printing: JMP #370 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Flare
 
@@ -652,6 +775,7 @@
   > *"No sun or fire can warm my blood quite like a war flare."*
   > *—Urut Barzeel, Mardu hordechief*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/158/war-flare) · oracle_id `7146eecb-8a79-467c-936e-f577e481cf59` · printing: FRF #158 (2015-01-23) · [rulings](https://api.scryfall.com/cards/243f33d8-ec20-4376-99c2-a12098773dee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wargate
@@ -663,7 +787,10 @@
 - **Flavor text** (ARB printing):
   > *Bant mages still call to the heavens for aid, but angels are not the only ones who answer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/129/wargate) · oracle_id `26f39abe-ea0b-400d-b11c-03ee4cf50915` · printing: ARB #129 (2009-04-30) · [rulings](https://api.scryfall.com/cards/8f4fe11d-c404-489a-b17f-34f33b1597e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2009-05-01* — You may always find a permanent card with mana value 0. (If X is 0, that's all you can find.) Cards with no mana cost (such as land cards), cards with mana cost {0}, and cards with mana cost {X} all have mana value 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/129/wargate) · oracle_id `26f39abe-ea0b-400d-b11c-03ee4cf50915` · printing: ARB #129 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wargling
 
@@ -676,7 +803,9 @@
   > *From infancy, Warg pups were taught to hunt and harry and to fear and hate the presence of Humans.*
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16681 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/140/wargling) · oracle_id `ce107656-f222-4d9a-9ba2-b33b4d47bdb5` · printing: HOB #140 (2026-08-14) · [rulings](https://api.scryfall.com/cards/1ccbf823-846f-4f09-9c67-1deebb5d1d92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — Wargling's triggered ability will check when it attacks to see if you control a creature with power 4 or greater. If you don't, the ability won't trigger at all. It will not check again when it resolves, so the ability will resolve even if you no longer control a creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/140/wargling) · oracle_id `ce107656-f222-4d9a-9ba2-b33b4d47bdb5` · printing: HOB #140 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warg Rider
 
@@ -689,7 +818,11 @@
   > At the beginning of combat on your turn, amass Orcs 2. (Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6349 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/826/warg-rider) · oracle_id `3f4dd9e2-6460-413e-a3b8-96b20bf57f8b` · printing: LTR #826 (2023-11-03) · [rulings](https://api.scryfall.com/cards/18cc2bc6-12bb-4795-b2b2-9d414823b773/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-03* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-11-03* — In the rare case that you control multiple Army creatures (perhaps because you cast a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-11-03* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/826/warg-rider) · oracle_id `3f4dd9e2-6460-413e-a3b8-96b20bf57f8b` · printing: LTR #826 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warg Tactics
 
@@ -700,6 +833,7 @@
   > • Destroy target creature with flying.
   > • Put a +1/+1 counter on target creature you control. It gains trample and hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/139/warg-tactics) · oracle_id `d1663b51-37a1-45a0-b477-2d3e7dd0828e` · printing: HOB #139 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b06d9cee-bb0f-4fe7-ab2a-b55d36461aec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Historian
@@ -714,7 +848,9 @@
   > *All children on Kamigawa learn of the Kami War. Hostilities with beings from another reality were understood, and no time was wasted in disbelief.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/214/war-historian) · oracle_id `2676d0c3-0a24-4e93-ae80-8f3fe03da483` · printing: MOM #214 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0007efdf-417d-48a7-b119-3a2fda3e1158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — War Historian's last ability starts to apply as soon as it's declared as an attacker that's attacking a battle, and it applies for the entire turn. It doesn't matter what happens to the battle after that point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/214/war-historian) · oracle_id `2676d0c3-0a24-4e93-ae80-8f3fe03da483` · printing: MOM #214 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Horn
 
@@ -725,6 +861,7 @@
 - **Flavor text** (ORI printing):
   > *The reverberations course through the warriors' veins, beat with their hearts, and pound with their footfalls as they charge into battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22222 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/243/war-horn) · oracle_id `99bc739e-c745-47d8-8401-2f34b6becd85` · printing: ORI #243 (2015-07-17) · [rulings](https://api.scryfall.com/cards/45c17671-7c4a-4114-b2b7-d34af4e2f8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warhorn Blast
@@ -738,7 +875,11 @@
   > *"Mead down! Swords up!"*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/38/warhorn-blast) · oracle_id `8106606c-9a1c-44b2-a9bf-3f189ce050ef` · printing: KHM #38 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3fc98aff-edc0-4f78-ae4f-e08735c9e512/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/38/warhorn-blast) · oracle_id `8106606c-9a1c-44b2-a9bf-3f189ce050ef` · printing: KHM #38 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warhost's Frenzy
 
@@ -751,7 +892,14 @@
   > *Keldons may be outnumbered, but they are never outmatched.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/151/warhosts-frenzy) · oracle_id `a0218a14-8301-4484-aed5-90334349620e` · printing: DMU #151 (2022-09-09) · [rulings](https://api.scryfall.com/cards/a83d571b-ad91-43f5-8498-115cede4867d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/151/warhosts-frenzy) · oracle_id `a0218a14-8301-4484-aed5-90334349620e` · printing: DMU #151 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warkite Marauder
 
@@ -763,7 +911,11 @@
   > Whenever this creature attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6606 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/179/warkite-marauder) · oracle_id `8b566757-e5e4-4d47-b5ef-80ed7d853679` · printing: LCC #179 (2023-11-17) · [rulings](https://api.scryfall.com/cards/be9c4e92-7a20-4070-96b2-57f310d27c12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — Effects that modify a creature's power and/or toughness, such as the effect of Titanic Growth, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2018-01-19* — If the affected creature gains an ability after Warkite Marauder's ability resolves, it will keep that ability. If the affected creature has an ability that grants abilities to other objects, Warkite Marauder's effect will stop it from doing so.
+  - *2018-01-19* — Warkite Marauder's ability overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/179/warkite-marauder) · oracle_id `8b566757-e5e4-4d47-b5ef-80ed7d853679` · printing: LCC #179 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warleader's Call
 
@@ -775,6 +927,7 @@
 - **Flavor text** (MKM printing):
   > *While Aurelia mustered the Boros Legion, Kaya and Kellan raced against the clock, desperate to stave off a war the guilds might not survive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #913 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/242/warleaders-call) · oracle_id `a751c07b-fc21-4854-96e7-f71abf4e86c9` · printing: MKM #242 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b3e8f8bd-1c8b-4a7c-96c4-57a247ce9ccc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warleader's Helix
@@ -787,7 +940,9 @@
   > *"There is no time to remedy our enemies' ignorance. Blast it out of them."*
   > *—Aurelia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/210/warleaders-helix) · oracle_id `b1ea88f5-162b-4f08-bec3-be1f06dec392` · printing: UMA #210 (2018-12-07) · [rulings](https://api.scryfall.com/cards/989f8049-c4d2-4729-b35f-7bd7d8cbcb06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If the chosen target becomes an illegal target for Warleader’s Helix, the spell doesn’t resolve. You don’t gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/210/warleaders-helix) · oracle_id `b1ea88f5-162b-4f08-bec3-be1f06dec392` · printing: UMA #210 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warlock Class
 
@@ -801,7 +956,17 @@
   > {6}{B}: Level 3
   > At the beginning of your end step, each opponent loses life equal to the life they lost this turn. (Damage causes loss of life.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7233 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/125/warlock-class) · oracle_id `766c2c67-d1ee-44ff-b9bb-355361646ef1` · printing: AFR #125 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b7faf899-96b7-454e-b634-6684c2d72f26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-07-23* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2021-07-23* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2021-07-23* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2021-07-23* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
+  - *2021-07-23* — Warlock Class does not need to have been on the battlefield when the creature died for its first ability. For example, if a creature died in combat and you cast Warlock Class in your second main phase, the ability will trigger at the beginning of your end step.
+  - *2021-07-23* — Warlock Class's first ability will trigger only once during your end step, no matter how many creatures died this turn. However, if no creatures have died so far this turn as the end step begins, the ability won't trigger at all. It's not possible to cause a creature to die during the end step in time to have the ability trigger.
+  - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/125/warlock-class) · oracle_id `766c2c67-d1ee-44ff-b9bb-355361646ef1` · printing: AFR #125 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warlord's Axe
 
@@ -814,6 +979,7 @@
   > *To split wood with it would be sacrilege. This tool has but one purpose, and that is war.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28017 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/220/warlords-axe) · oracle_id `ebe43cc6-42fe-44f6-b198-ef0212bf82cb` · printing: M11 #220 (2010-07-16) · [rulings](https://api.scryfall.com/cards/41ab6393-df29-475b-b56d-c56eb95de05d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warlord's Elite
@@ -826,6 +992,7 @@
 - **Flavor text** (BRO printing):
   > *"The Warlord thinks we've gone soft, does he? The Fist of Progress will prove him wrong!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30191 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/32/warlords-elite) · oracle_id `ee2c8714-6e85-4eb5-9bd6-057b6abfb136` · printing: BRO #32 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1873cc9e-30b6-498e-b008-9d11a8bbf9b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warlord's Fury
@@ -839,7 +1006,9 @@
   > *"The old ways were for a winter world. We do what's best for us, not for the past. We are Keldons!"*
   > *—Grand Warlord Radha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/151/warlords-fury) · oracle_id `7340199d-60c7-4c27-9a0f-047790273db0` · printing: DOM #151 (2018-04-27) · [rulings](https://api.scryfall.com/cards/0ebd63cf-7e8c-4c8d-844d-98535d5f3039/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — You can cast Warlord’s Fury even if you control no creatures. You’ll still draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/151/warlords-fury) · oracle_id `7340199d-60c7-4c27-9a0f-047790273db0` · printing: DOM #151 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Machine, Avenging Arsenal
 
@@ -853,6 +1022,7 @@
   > *There's always room for a little more firepower.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11169 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/63/war-machine-avenging-arsenal) · oracle_id `b4f35cdd-3857-4a7d-8ef6-df5424dd40e7` · printing: MSC #63 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8c62621f-20b2-4950-a74a-7c2e4fc02e54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Machine, James Rhodes
@@ -867,6 +1037,7 @@
   > *"Stay down, there's a hundred more where that came from."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27276 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/572/war-machine-james-rhodes) · oracle_id `0a512e55-793e-4936-bd27-80d749f4657e` · printing: MSC #572 (2026-06-26) · [rulings](https://api.scryfall.com/cards/78bb5ed6-bb29-49a9-be0d-d9934f00dddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Machine, Legacy of Iron
@@ -881,6 +1052,7 @@
   > *"Listen up, you \*screw-heads\*. You're history!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21065 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/238/war-machine-legacy-of-iron) · oracle_id `ae6d1aa3-4ceb-4fc1-a3a6-033afd4b3bce` · printing: MSH #238 (2026-06-26) · [rulings](https://api.scryfall.com/cards/433a7d97-9c0b-4f5c-85ad-b55342c02d22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmaker Gunship
@@ -894,6 +1066,7 @@
   > 6+ | Flying
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/167/warmaker-gunship) · oracle_id `c947171b-ed9e-4b83-af45-bd595a8d84ee` · printing: EOE #167 (2025-08-01) · [rulings](https://api.scryfall.com/cards/9e5957f4-1cae-4989-8b40-27fc6e2fcf5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Mammoth
@@ -905,6 +1078,7 @@
   > Trample
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30115 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/172/war-mammoth) · oracle_id `b2a8fcf9-2ec2-40a9-9955-90f8605b11a3` · printing: ME4 #172 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7e892859-81cc-461a-a79f-39af43dbfb4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmind Infantry
@@ -918,7 +1092,11 @@
   > *Before Aurelia denounced Niv-Mizzet, the two guilds had collaborated on the Warmind Initiative in pursuit of the ultimate soldier.*
 - **Keywords:** Battalion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30009 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/111/warmind-infantry) · oracle_id `9e32750a-8e5f-4d81-92a8-c3d4ea1477fd` · printing: GTC #111 (2013-02-01) · [rulings](https://api.scryfall.com/cards/d8a5f801-9e55-4e14-85b0-5719521cd9d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-04-15* — Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
+  - *2013-04-15* — The effects of battalion abilities vary from card to card. Read each card carefully.
+  - *2024-01-12* — The three attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/111/warmind-infantry) · oracle_id `9e32750a-8e5f-4d81-92a8-c3d4ea1477fd` · printing: GTC #111 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmonger
 
@@ -930,6 +1108,7 @@
 - **Flavor text** (MMQ printing):
   > *Funny how money and war travel so well together.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22368 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/225/warmonger) · oracle_id `bae92332-1a0b-476b-8719-190e8d8cc03a` · printing: MMQ #225 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5577ac30-ee84-4d3c-b407-82578779dc90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmonger Hellkite
@@ -945,7 +1124,12 @@
   > *Its wings beat to the howls of war and fan the fires of rage.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13398 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/814/warmonger-hellkite) · oracle_id `746d4445-f28d-41af-827a-2b613b9b84ee` · printing: CLB #814 (2022-06-10) · [rulings](https://api.scryfall.com/cards/bbedbf64-cd51-4f40-9735-272bd86fdf84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-07* — Each creature's controller still chooses which player or planeswalker the creature attacks.
+  - *2014-11-07* — If there are multiple combat phases in a turn, creatures must attack during each combat phase in which they're able to.
+  - *2014-11-07* — If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2014-11-07* — Only creatures that are attacking when the last ability resolves will get +1/+0. That is, activating that ability before attackers have been declared won't give the bonus to any creatures, including ones that attack later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/814/warmonger-hellkite) · oracle_id `746d4445-f28d-41af-827a-2b613b9b84ee` · printing: CLB #814 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmonger's Chariot
 
@@ -959,7 +1143,10 @@
   > *The best defense is a good offense.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/490/warmongers-chariot) · oracle_id `90f4ec87-d33d-46c1-8cc7-3e7ad3f8ad70` · printing: JMP #490 (2020-07-17) · [rulings](https://api.scryfall.com/cards/f7321473-5747-4430-86b2-b5029d9f6486/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — If the equipped creature doesn’t have defender, the second ability simply doesn’t affect it.
+  - *2010-06-15* — The second ability doesn’t cause the equipped creature to lose defender. It just lets it attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/490/warmongers-chariot) · oracle_id `90f4ec87-d33d-46c1-8cc7-3e7ad3f8ad70` · printing: JMP #490 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warmth
 
@@ -971,7 +1158,9 @@
   > *"Flame grows gentle with but a little distance."*
   > *—Orim, Samite healer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/52/warmth) · oracle_id `cccc9664-0e3d-44c4-959c-abeaba25bbab` · printing: 6ED #52 (1999-04-21) · [rulings](https://api.scryfall.com/cards/cebd9062-a702-4f30-bba4-c2531e5ca5cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It triggers on all opposing players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/52/warmth) · oracle_id `cccc9664-0e3d-44c4-959c-abeaba25bbab` · printing: 6ED #52 (1999-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warm Welcome
 
@@ -982,6 +1171,7 @@
 - **Flavor text** (SNC printing):
   > *"Welcome to the family. Chef Rocco sends their congratulations."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22112 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/164/warm-welcome) · oracle_id `53807ded-5bbb-44a1-9c22-ffdd4b8523e0` · printing: SNC #164 (2022-04-29) · [rulings](https://api.scryfall.com/cards/bad9e58e-c9a3-4a0d-9a59-71c20a3275b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War-Name Aspirant
@@ -996,7 +1186,11 @@
   > *No battle means more to a Mardu warrior than the one that earns her war name.*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/126/war-name-aspirant) · oracle_id `448c84f9-712b-4970-8719-2ab9c2a59d20` · printing: KTK #126 (2014-09-26) · [rulings](https://api.scryfall.com/cards/e8d1714b-ff65-4c5c-ad21-b469f2c72286/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — Once a creature legally blocks War-Name Aspirant, changing that creature's power to 1 or less won't change or undo that block.
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/126/war-name-aspirant) · oracle_id `448c84f9-712b-4970-8719-2ab9c2a59d20` · printing: KTK #126 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warning
 
@@ -1008,6 +1202,7 @@
   > *"The folk of the Karplusan mountains are impossible to ambush."*
   > *—Lovisa Coldeyes, Balduvian chieftain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29030 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/38/warning) · oracle_id `c5ba0f0f-65c5-4ffa-987a-f320b401ec8f` · printing: ME2 #38 (2008-09-22) · [rulings](https://api.scryfall.com/cards/5cfbcb49-a640-4c0d-800f-482b813369a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War of the Last Alliance
@@ -1019,7 +1214,15 @@
   > I, II — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.
   > III — Creatures you control gain double strike until end of turn. The Ring tempts you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3619 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/36/war-of-the-last-alliance) · oracle_id `e376702a-f56e-4e47-aa8c-3f80384d12a9` · printing: LTR #36 (2023-06-23) · [rulings](https://api.scryfall.com/cards/60ddf2cd-5b33-4c8a-a610-8e6a15404dde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/36/war-of-the-last-alliance) · oracle_id `e376702a-f56e-4e47-aa8c-3f80384d12a9` · printing: LTR #36 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War of the Spark
 
@@ -1032,7 +1235,9 @@
   > III — Exile up to one target Bolas. Proliferate three times.
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/3/war-of-the-spark) · oracle_id `9bb259d0-09f6-4564-8cd1-73b4d0e5b4fc` · printing: PH19 #3 (2020-08-01) · [rulings](https://api.scryfall.com/cards/29fc560d-8ba3-4e6c-99df-08d034025131/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/3/war-of-the-spark) · oracle_id `9bb259d0-09f6-4564-8cd1-73b4d0e5b4fc` · printing: PH19 #3 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Oracle
 
@@ -1046,7 +1251,11 @@
   > *"When you are felled by my mace, you shall know it was divine fate."*
 - **Keywords:** Lifelink, Renown
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/41/war-oracle) · oracle_id `aa26fb50-1b53-488e-90d1-b0c7af273622` · printing: ORI #41 (2015-07-17) · [rulings](https://api.scryfall.com/cards/3d8827bf-11c3-4f78-b7aa-ae953442c709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/41/war-oracle) · oracle_id `aa26fb50-1b53-488e-90d1-b0c7af273622` · printing: ORI #41 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warp Artifact
 
@@ -1057,6 +1266,7 @@
   > At the beginning of the upkeep of enchanted artifact's controller, this Aura deals 1 damage to that player.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/100/warp-artifact) · oracle_id `f4b18451-1f40-48bd-8ca9-eec784ad5dd7` · printing: ME4 #100 (2011-01-10) · [rulings](https://api.scryfall.com/cards/20f3c7e4-dfb5-410f-b017-09b8b6d76037/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warpath
@@ -1068,6 +1278,7 @@
 - **Flavor text** (MMQ printing):
   > *Cho-Manno had never seen Mercadia City's forces fight so well. The magistrate must have hired a new hero.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30996 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/226/warpath) · oracle_id `413520c7-5227-406f-8861-e844c153e5b0` · printing: MMQ #226 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e031c819-1237-4911-8a1d-87d6095a5faa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warpath Ghoul
@@ -1080,6 +1291,7 @@
 - **Flavor text** (M12 printing):
   > *Ghouls are often found skulking on the fringes of great battles, showing themselves only to snatch the wounded and weak, dragging their victims screaming into the shadows.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/117/warpath-ghoul) · oracle_id `17ae652c-b1c7-4dde-ae9e-50b9e286776c` · printing: M12 #117 (2011-07-15) · [rulings](https://api.scryfall.com/cards/94785274-fa79-47cc-9896-0f5f695abb21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Devotion
@@ -1092,7 +1304,9 @@
   > *"The spirit of the devout is easily crushed by the loss of hope."*
   > *—Fallen angel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24563 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/172/warped-devotion) · oracle_id `22c49415-e8d2-4b4c-b021-57ee54670f86` · printing: 8ED #172 (2003-07-28) · [rulings](https://api.scryfall.com/cards/ffd41ebd-91a8-4972-8f93-3306e68519f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This card can trigger on itself being returned to a player’s hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/172/warped-devotion) · oracle_id `22c49415-e8d2-4b4c-b021-57ee54670f86` · printing: 8ED #172 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Landscape
 
@@ -1104,6 +1318,7 @@
 - **Flavor text** (C18 printing):
   > *Each cryptolith twists the plane's mana, bending its flow to a singular purpose.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8075 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/291/warped-landscape) · oracle_id `543e6bb3-a867-43bf-a737-2f5d6d8dc631` · printing: C18 #291 (2018-08-10) · [rulings](https://api.scryfall.com/cards/3d313741-af67-47fd-9beb-8abc7d554715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Physique
@@ -1115,7 +1330,10 @@
 - **Flavor text** (DGM printing):
   > *The Gruul seek unbounded strength. The Dimir deliver cruel irony.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/117/warped-physique) · oracle_id `f45fdef0-15b1-472b-9485-465c49a48a85` · printing: DGM #117 (2013-05-03) · [rulings](https://api.scryfall.com/cards/134802b2-7c5c-4eda-a879-b29bc06faaed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Once Warped Physique resolves, the effect won’t change if the number of cards in your hand changes.
+  - *2013-04-15* — Use the number of cards in your hand as Warped Physique resolves to determine the value of X. Warped Physique won’t be in your hand at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/117/warped-physique) · oracle_id `f45fdef0-15b1-472b-9485-465c49a48a85` · printing: DGM #117 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Researcher
 
@@ -1127,7 +1345,9 @@
 - **Flavor text** (LGN printing):
   > *New insights yield new senses.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31911 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/56/warped-researcher) · oracle_id `069862f9-f051-40cc-84f2-c0208873a34c` · printing: LGN #56 (2003-02-03) · [rulings](https://api.scryfall.com/cards/5df94a4e-1371-4b75-a557-eeb83c23cf9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — On your turn, an opponent can cycle a card that has a cycling triggered ability and target this card with that ability. This works on your turn because your triggered abilities go on the stack first, so your opponent’s ability will resolve before yours. This situation is reversed on your opponent’s turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/56/warped-researcher) · oracle_id `069862f9-f051-40cc-84f2-c0208873a34c` · printing: LGN #56 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warped Tusker
 
@@ -1142,7 +1362,9 @@
   > *Once, foraging for truffles, the very average boar fell asleep beneath the moon . . . .*
 - **Keywords:** Reach, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/16/warped-tusker) · oracle_id `0a994401-d37c-4e30-9410-422e7ae5a715` · printing: MH3 #16 (2024-06-14) · [rulings](https://api.scryfall.com/cards/2b5f3a1a-8514-4598-be3d-c3be719f6951/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The triggered ability will resolve before Warped Tusker or its cycling ability does, as appropriate. If Warped Tusker or its cycling ability are countered or otherwise leave the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/16/warped-tusker) · oracle_id `0a994401-d37c-4e30-9410-422e7ae5a715` · printing: MH3 #16 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warping Wail
 
@@ -1155,6 +1377,7 @@
   > • Counter target sorcery spell.
   > • Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this token: Add {C}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/812/warping-wail) · oracle_id `c8b9fa02-0a0c-4a87-9a00-3c1c7e2f4bfd` · printing: CMM #812 (2023-08-04) · [rulings](https://api.scryfall.com/cards/afcc9c88-836b-48b6-9d81-5a6844a6b70f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warping Wurm
@@ -1170,6 +1393,7 @@
   > *Even wurms start out small.*
 - **Keywords:** Phasing
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31855 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/287/warping-wurm) · oracle_id `c54c1517-cf7c-4afb-92f8-70c9d1591b45` · printing: MIR #287 (1996-10-08) · [rulings](https://api.scryfall.com/cards/a2c41d0f-f1db-4797-b245-7de12ffa3a0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Priest of Thune
@@ -1182,6 +1406,7 @@
 - **Flavor text** (EMA printing):
   > *"Let nothing take away from the purity of swords clashing or of arrows taking flight toward the breast of evil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17159 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/35/war-priest-of-thune) · oracle_id `2e44fd5c-5c7f-4ca8-90cd-34015047eb26` · printing: EMA #35 (2016-06-10) · [rulings](https://api.scryfall.com/cards/b222a639-dd46-40f9-835d-3c68b74c295e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warp World
@@ -1191,7 +1416,18 @@
 - **Oracle text:**
   > Each player shuffles all permanents they own into their library, then reveals that many cards from the top of their library. Each player puts all artifact, creature, and land cards revealed this way onto the battlefield, then does the same for enchantment cards, then puts all cards revealed this way that weren't put onto the battlefield on the bottom of their library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7115 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/163/warp-world) · oracle_id `50a228a2-c8b6-4416-b0ab-417926a9b9b6` · printing: M10 #163 (2009-07-17) · [rulings](https://api.scryfall.com/cards/aa6e1fb5-a06b-4e10-8cc7-785e0f0b298e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2006-10-15* — Anything that triggers during the resolution of this will wait to be put on the stack until everything is put onto the battlefield and resolution is complete. The player whose turn it is will put all of their triggered abilities on the stack in any order, then each other player in turn order will do the same. (The last ability put on the stack will be the first one that resolves.)
+  - *2009-10-01* — 1) Each player counts the number of permanents they own.
+  - *2009-10-01* — 2) Each player shuffles those permanents into their library.
+  - *2009-10-01* — 3) Each player reveals cards from the top of their library equal to the number that player counted.
+  - *2009-10-01* — 4) Each player puts all artifact, land, and creature cards revealed this way onto the battlefield. All of these cards enter at the same time.
+  - *2009-10-01* — 5) Each player puts all enchantment cards revealed this way onto the battlefield. An Aura put onto the battlefield this way can enchant an artifact, land, or creature that was already put onto the battlefield, but can't enchant an enchantment that's being put onto the battlefield at the same time as it. If multiple players have Auras to put onto the battlefield, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all enchantments (both Auras and non-Auras) enter at the same time.
+  - *2009-10-01* — 6) Each player puts all of their other revealed cards (instants, sorceries, planeswalkers, and Auras that can't enchant anything) on the bottom of their library in any order.
+  - *2009-10-01* — Taking it slowly, here's what happens when Warp World resolves:
+  - *2009-10-01* — Tokens are permanents but not cards. They'll count toward the number of permanents shuffled into your library, so you'll get a card back for each token you owned. But the tokens themselves should be ignored while you're revealing *cards* from your library. In practice, you shouldn't actually shuffle them into your library since they'll cease to exist as soon as Warp World finishes resolving. Note that a token's owner is the player under who created it.
+  - *2019-05-03* — If a permanent leaves the battlefield this way but ends up in a zone other than a library (most likely because it's a player's commander in the Commander variant), it's still counted to determine how many cards to reveal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/163/warp-world) · oracle_id `50a228a2-c8b6-4416-b0ab-417926a9b9b6` · printing: M10 #163 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrant // Warden
 
@@ -1201,7 +1437,16 @@
 - **Face 2: Warden** — {3}{W}{U} — Sorcery
   > Create a 4/4 white and blue Sphinx creature token with flying and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/240/warrant-warden) · oracle_id `19053c47-97ce-4a25-a92c-1f4061e85bf3` · printing: RVR #240 (2024-01-12) · [rulings](https://api.scryfall.com/cards/7e565adc-32ec-4ba8-9220-1239c373f84f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-01-25* — An "attacking creature" is one that has been declared as an attacker or put onto the battlefield attacking during this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat. Similarly, a "blocking creature" is one that has been declared as a blocker or put onto the battlefield blocking during this combat.
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/240/warrant-warden) · oracle_id `19053c47-97ce-4a25-a92c-1f4061e85bf3` · printing: RVR #240 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Elder
 
@@ -1213,6 +1458,7 @@
 - **Flavor text** (BLB printing):
   > *"There is strength in numbers, yes. More importantly, there is joy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14042 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/37/warren-elder) · oracle_id `33fcb05b-246d-4b82-8b0f-44d5f891b612` · printing: BLB #37 (2024-08-02) · [rulings](https://api.scryfall.com/cards/4bf20069-5a20-4f95-976b-6af2b69f3ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Instigator
@@ -1227,7 +1473,10 @@
   > *There is always a rabble to be roused.*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/32/warren-instigator) · oracle_id `47f75e25-8a52-4452-a3a8-bf1bd00942d1` · printing: DDT #32 (2017-10-24) · [rulings](https://api.scryfall.com/cards/a47fe35f-859c-4663-a4dd-f7ca38e1099a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If Warren Instigator attacks an opponent and isn’t blocked, its double strike ability will cause it to deal combat damage to that opponent twice, once during each combat damage step. Its triggered ability will thus trigger twice: Warren Instigator deals first-strike combat damage, its ability triggers and resolves, it deals regular combat damage, and its ability triggers and resolves again.
+  - *2009-10-01* — Warren Instigator’s ability triggers when it deals any kind of damage to an opponent, not just combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddt/32/warren-instigator) · oracle_id `47f75e25-8a52-4452-a3a8-bf1bd00942d1` · printing: DDT #32 (2017-10-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Pilferers
 
@@ -1239,7 +1488,10 @@
 - **Flavor text** (MMA printing):
   > *"What do they need all this stuff for? They're dead. We're alive. Simple enough."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24748 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/103/warren-pilferers) · oracle_id `9f90dcd1-e372-40c5-9de2-81392b0add06` · printing: MMA #103 (2013-06-07) · [rulings](https://api.scryfall.com/cards/2ac647ea-e81e-46d4-9a65-613d6643362b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-10-01* — If the card is an illegla target as the ability resolves, the ability won’t resolve and none of its effects will happen. Warren Pilferers won’t gain haste.
+  - *2007-10-01* — The ability checks whether the targeted card is a Goblin when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/103/warren-pilferers) · oracle_id `9f90dcd1-e372-40c5-9de2-81392b0add06` · printing: MMA #103 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren-Scourge Elf
 
@@ -1253,6 +1505,7 @@
   > *—Fiala, Gilt-Leaf winnower*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31193 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/241/warren-scourge-elf) · oracle_id `64368768-77b9-4f78-adb7-951ca71dfb28` · printing: LRW #241 (2007-10-12) · [rulings](https://api.scryfall.com/cards/7ab5fe17-5499-427b-9267-3b3a9676a087/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Soultrader
@@ -1266,6 +1519,7 @@
   > *"The living take their souls for granted. The dead know what they're worth."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #413 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/110/warren-soultrader) · oracle_id `ace86e56-efde-4eb7-8815-71456a4c3abe` · printing: MH3 #110 (2024-06-14) · [rulings](https://api.scryfall.com/cards/b334e4c6-d316-4141-8889-f95afcc04701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Torchmaster
@@ -1279,7 +1533,15 @@
   > *Auntie Soot's raids begin when her torch is dipped in the oil atop her head and end when the flame burns out.*
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/163/warren-torchmaster) · oracle_id `20c3c8ab-e996-462e-a1f6-87421fc3ee55` · printing: ECL #163 (2026-01-23) · [rulings](https://api.scryfall.com/cards/8f067a14-6667-4acf-b33d-e1149188a84d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+  - *2025-11-17* — You don't choose a target for Warren Torchmaster's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you blight 1 this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/163/warren-torchmaster) · oracle_id `20c3c8ab-e996-462e-a1f6-87421fc3ee55` · printing: ECL #163 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Warleader
 
@@ -1293,7 +1555,19 @@
   > • Attacking creatures you control get +1/+1 until end of turn.
 - **Keywords:** Offspring
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/38/warren-warleader) · oracle_id `a7e7059e-83f8-4124-9cc0-64ba150b5d96` · printing: BLB #38 (2024-08-02) · [rulings](https://api.scryfall.com/cards/eb5237a0-5ac3-4ded-9f92-5f782a7bbbd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-26* — Although the token enters attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won’t trigger when that creature enters attacking.
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — If the spell is countered, the offspring ability will not trigger, and no token will be created.
+  - *2024-07-26* — If the spell resolves but the creature with offspring leaves the battlefield before the offspring ability resolves, you’ll still create a token copy of it.
+  - *2024-07-26* — In the rare case where the creature doesn’t have the offspring ability when it enters, the ability won’t trigger even if you paid the offspring cost.
+  - *2024-07-26* — In the rare case where the original creature is copying something else when the offspring ability resolves, the token enters as whatever that creature copied, except it’s a 1/1.
+  - *2024-07-26* — Many creatures with offspring abilities have other abilities that refer to them as “this creature” rather than referring to them by name. This difference is for clarity purposes and does not change the function of any of these abilities.
+  - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
+  - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+  - *2024-07-26* — You choose the player, planeswalker, or battle the Rabbit token is attacking. It doesn’t have to be the same player, planeswalker, or battle that any other attacking creature is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/38/warren-warleader) · oracle_id `a7e7059e-83f8-4124-9cc0-64ba150b5d96` · printing: BLB #38 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warren Weirding
 
@@ -1305,7 +1579,11 @@
   > *"And that's when it was discovered that boggarts have just half a brain."*
   > *—\*The Book of Other Folk\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/104/warren-weirding) · oracle_id `d9c1c4d5-cc60-4762-9fc1-c768a1f61539` · printing: MMA #104 (2013-06-07) · [rulings](https://api.scryfall.com/cards/524aa84d-7838-4664-b30c-3c242b46fc6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/104/warren-weirding) · oracle_id `d9c1c4d5-cc60-4762-9fc1-c768a1f61539` · printing: MMA #104 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Report
 
@@ -1316,7 +1594,9 @@
 - **Flavor text** (NPH printing):
   > *Underling Ethu's 263rd report read simply "Yes, my lord. Overwhelmingly, my lord." This marked the end of the Mirran-Phyrexian War.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/26/war-report) · oracle_id `45dfb358-cd16-468e-bc89-ff17c6e244c1` · printing: NPH #26 (2011-05-13) · [rulings](https://api.scryfall.com/cards/6d837262-cd5d-4fc9-96dd-39ed04166883/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Each artifact creature on the battlefield is counted twice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/26/war-report) · oracle_id `45dfb358-cd16-468e-bc89-ff17c6e244c1` · printing: NPH #26 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior Angel
 
@@ -1330,6 +1610,7 @@
   > *She represents not hope, but hope's desperate fury.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/24/warrior-angel) · oracle_id `97140551-341a-40a1-93fe-0fcaa0c3be33` · printing: STH #24 (1998-03-02) · [rulings](https://api.scryfall.com/cards/81d2c6e3-e556-4cc6-94b6-fdbc62d6853e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior en-Kor
@@ -1342,7 +1623,13 @@
 - **Flavor text** (TPR printing):
   > *Only a matter as vital as destroying Volrath could bring together the reclusive kor people.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/39/warrior-en-kor) · oracle_id `1245b165-e26f-4839-8468-2e95148fc6f6` · printing: TPR #39 (2015-05-06) · [rulings](https://api.scryfall.com/cards/afcf1e51-5e9a-4c86-8a14-97d9e919c320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It can redirect damage to itself.
+  - *2004-10-04* — It is possible to redirect more damage to a creature than that creature’s toughness.
+  - *2004-10-04* — The ability of this card does not do anything to stop Trample damage from being assigned to the defending player.
+  - *2004-10-04* — You can use this ability as much as you want prior to damage being dealt.
+  - *2013-07-01* — When you redirect combat damage it is still combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/39/warrior-en-kor) · oracle_id `1245b165-e26f-4839-8468-2e95148fc6f6` · printing: TPR #39 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Blades
 
@@ -1356,6 +1643,7 @@
   > *Whetted against grief. Wielded with vengeance.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27741 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/163/warriors-blades) · oracle_id `f47419a5-b975-4934-a987-ea064a0c7c1a` · printing: FRA #163 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c63d5b0e-ee72-42ed-aa7e-484ba84507cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Charge
@@ -1367,6 +1655,7 @@
 - **Flavor text** (POR printing):
   > *It is not the absence of fear that makes a warrior, but its domination.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31994 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/38/warriors-charge) · oracle_id `5cf28c04-76af-4eb8-9969-366dc8e04690` · printing: POR #38 (1997-05-01) · [rulings](https://api.scryfall.com/cards/8668e4af-ae89-4fab-8015-8dc643c6cd36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Honor
@@ -1379,7 +1668,9 @@
   > *"The day will come when the righteous warrior faces a battle she cannot win. She will greet that day as she has any other."*
   > *—Asmira, holy avenger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30242 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/58/warriors-honor) · oracle_id `c3c9da49-ef4f-48c7-99c8-0f226b485285` · printing: 10E #58 (2007-07-13) · [rulings](https://api.scryfall.com/cards/09117d06-79e6-4f86-ba92-d1f8fe165147/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-07-15* — Warrior’s Honor affects creatures you control that are on the battlefield at the time it resolves. If you put a creature onto the battlefield later in the turn, that creature won’t get the bonus.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/58/warriors-honor) · oracle_id `c3c9da49-ef4f-48c7-99c8-0f226b485285` · printing: 10E #58 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warriors' Lesson
 
@@ -1391,6 +1682,7 @@
   > *"Let each challenge make you a better warrior."*
   > *—Anthousa of Setessa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/184/warriors-lesson) · oracle_id `1d4605c0-47c5-4561-ab53-9cff677330aa` · printing: THS #184 (2013-09-27) · [rulings](https://api.scryfall.com/cards/63f7e81a-6f9e-4cad-a911-fba7a431cd55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Oath
@@ -1402,6 +1694,7 @@
 - **Flavor text** (2X2 printing):
   > *"I swear this before all gods old and new: I will fight to my last breath."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7338 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/130/warriors-oath) · oracle_id `574044cf-2e2f-4b5c-b4d1-cf05ba814ab2` · printing: 2X2 #130 (2022-07-08) · [rulings](https://api.scryfall.com/cards/65e10759-e862-4b69-8b58-474df2cdae29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warriors of Wakanda
@@ -1415,6 +1708,7 @@
   > *The Five Tribes are not without internal strife. But to outside invaders, they show only one face: Wakanda.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31187 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/565/warriors-of-wakanda) · oracle_id `7abbbe18-a2e5-47ce-9c65-8008e5153a4d` · printing: MSC #565 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c8a5b28b-ff0d-4680-81cd-0d61e0e55e8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Resolve
@@ -1425,7 +1719,11 @@
   > Creatures you control have training. (Whenever a creature you control attacks with another creature with greater power, put a +1/+1 counter on the creature with lesser power.)
   > At the beginning of your end step, if you control a creature with a +1/+1 counter on it that attacked this turn, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/465/warriors-resolve) · oracle_id `e3f68aff-9347-452a-8f26-b344016a275d` · printing: FIC #465 (2025-12-05) · [rulings](https://api.scryfall.com/cards/7263ef64-dc8d-4a58-91b9-ff4f718e53ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
+  - *2025-10-02* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+  - *2025-10-02* — Warrior's Resolve's last ability checks at the moment it would trigger to see if any creatures you currently control with one or more +1/+1 counters on them attacked this turn. If none did, the ability won't trigger at all. It doesn't matter if the creatures had +1/+1 counters on them when they attacked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/465/warriors-resolve) · oracle_id `e3f68aff-9347-452a-8f26-b344016a275d` · printing: FIC #465 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Stand
 
@@ -1435,6 +1733,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Creatures you control get +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30576 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/31/warriors-stand) · oracle_id `1f08072d-7dec-4f0d-b465-dda62eb17630` · printing: PTK #31 (1999-05-01) · [rulings](https://api.scryfall.com/cards/53bffc2e-67b6-4eb0-9742-e2a5918cc8d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warrior's Sword
@@ -1447,7 +1746,12 @@
   > Equip {5} ({5}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10829 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/169/warriors-sword) · oracle_id `a339961e-3555-467f-a4f8-c5eaac7e7ed1` · printing: FIN #169 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cb98a7dd-542e-4448-b3bb-ff5d67a36535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/169/warriors-sword) · oracle_id `a339961e-3555-467f-a4f8-c5eaac7e7ed1` · printing: FIN #169 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Room
 
@@ -1459,7 +1763,11 @@
 - **Flavor text** (SOC printing):
   > *A figure is moved on a map, and the tide of war changes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/422/war-room) · oracle_id `71c52bf5-2a5d-488e-8b15-7ef290e4b77d` · printing: SOC #422 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0775b4be-881c-4832-8954-d961064315b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — Color identity is set before the game begins and doesn't change during the game, even if your commander is in a hidden zone (like the hand or library) or an effect changes your commander's color.
+  - *2020-11-10* — If you don't have a commander, you can't activate War Room's last ability at all.
+  - *2020-11-10* — If your commander has no colors in its color identity, you pay no life to activate War Room's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/422/war-room) · oracle_id `71c52bf5-2a5d-488e-8b15-7ef290e4b77d` · printing: SOC #422 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Screecher
 
@@ -1473,6 +1781,7 @@
   > *Soaring over Vitu-Ghazi, New Prahv, and Orzhova, the Conclave's trained falcons provided critical intelligence.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26188 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/80/war-screecher) · oracle_id `4617739e-4e3e-4d06-b074-8f836261a870` · printing: CLU #80 (2024-02-23) · [rulings](https://api.scryfall.com/cards/af3944a2-4736-4d62-b25d-61178af721c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warship Flight Crew
@@ -1485,6 +1794,7 @@
 - **Flavor text** (TRC printing):
   > *Opponents write off Klingons as unthinking brutes at their own peril. When the Klingon Empire developed warp drive, humanity still relied on horse-drawn carts.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/168/warship-flight-crew) · oracle_id `d55977f8-1655-4d97-adbf-ef6cb979ea55` · printing: TRC #168 (2026-11-13) · [rulings](https://api.scryfall.com/cards/9b6d130a-60f7-410a-b45f-ad81dd203c8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warship Scout
@@ -1497,6 +1807,7 @@
 - **Flavor text** (TLE printing):
   > *"For the glory of the Fire Nation!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26374 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/244/warship-scout) · oracle_id `f07e6ba7-42e8-4b4d-9831-00a856059060` · printing: TLE #244 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b1a95982-be16-465a-9c1b-1f4d875c0c40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War-Spike Changeling
@@ -1512,6 +1823,7 @@
   > *—Olly of Goldmeadow*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19753 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/139/war-spike-changeling) · oracle_id `b6ddb093-1fff-4648-b7a1-141a3875599c` · printing: MMA #139 (2013-06-07) · [rulings](https://api.scryfall.com/cards/523500d3-5614-4be8-95c7-d63ca279c1b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Squeak
@@ -1526,6 +1838,7 @@
   > *Dangers sharper than thorns can hide among flowers.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11551 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/160/war-squeak) · oracle_id `54702a84-3125-41a7-a875-fe2ec870836d` · printing: BLB #160 (2024-08-02) · [rulings](https://api.scryfall.com/cards/105964a7-88b7-4340-aa66-e908189a3638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War's Toll
@@ -1538,7 +1851,9 @@
 - **Flavor text** (BBD printing):
   > *Razia, archangel of war, demands total commitment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/187/wars-toll) · oracle_id `ba4e4afb-24bb-47de-aba8-89d21b11d45c` · printing: BBD #187 (2018-06-08) · [rulings](https://api.scryfall.com/cards/3a08f7fe-8ca9-4604-85c8-9050298730ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — Your opponent can tap lands for mana in response to the triggered ability. The effect won't prevent your opponent from casting spells or activating abilities, but it will make it difficult for that player to cast other spells or activate abilities later in the turn because unspent mana is lost at the end of each step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/187/wars-toll) · oracle_id `ba4e4afb-24bb-47de-aba8-89d21b11d45c` · printing: BBD #187 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warstorm Surge
 
@@ -1549,7 +1864,10 @@
 - **Flavor text** (CLB printing):
   > *"Listen to the roar! Feel the thunder! The Immersturm shouts its approval with every bolt of lightning!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/815/warstorm-surge) · oracle_id `42fb1a1c-ab3d-4cdc-a6ff-a591f7481583` · printing: CLB #815 (2022-06-10) · [rulings](https://api.scryfall.com/cards/dbe1bfe0-0be7-496d-94db-e8028d4d9493/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — The creature that entered deals damage equal to its current power to the targeted permanent or player. If it's no longer on the battlefield, its last known existence on the battlefield is checked to determine its power.
+  - *2011-09-22* — Warstorm Surge is the source of the ability, but the creature is the source of the damage. The ability couldn't target a creature with protection from red, for example. It could target a creature with protection from creatures, but all the damage would be prevented. Since damage is dealt by the creature, abilities like lifelink, deathtouch and infect are taken into account, even if the creature has left the battlefield by the time it deals damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/815/warstorm-surge) · oracle_id `42fb1a1c-ab3d-4cdc-a6ff-a591f7481583` · printing: CLB #815 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War Tax
 
@@ -1560,7 +1878,11 @@
 - **Flavor text** (MMQ printing):
   > *The worst thing about being a depraved pirate is having to work with a bunch of depraved pirates.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15772 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/113/war-tax) · oracle_id `fd5ff6ad-f3f1-470f-adef-fb4ce6536365` · printing: MMQ #113 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e7c15159-8466-43e5-9dc5-a8cc94619931/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — The ability only applies to attackers declared after it resolves. It will not add costs to any attackers already announced.
+  - *2004-10-04* — You can choose X=0. This doesn’t have an effect most of the time, but it does mean that creatures can’t attack unless the controller chooses to pay the cost (a cost of zero is not automatically paid, so the controller can choose to not pay).
+  - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/113/war-tax) · oracle_id `fd5ff6ad-f3f1-470f-adef-fb4ce6536365` · printing: MMQ #113 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warteye Witch
 
@@ -1573,7 +1895,10 @@
   > *Eyeballs that portend unpleasant futures become slimy snacks instead.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17135 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/115/warteye-witch) · oracle_id `594a57f6-7827-41c7-aa37-00b498720b16` · printing: MH1 #115 (2019-06-14) · [rulings](https://api.scryfall.com/cards/e0d4dd61-cc7e-4fc5-afce-73a4b326cfdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If Warteye Witch dies at the same time as one or more other creatures you control, Warteye Witch’s ability triggers for each of them.
+  - *2019-06-14* — If multiple creatures you control die simultaneously, you’ll scry 1 that many times. You won’t look at more than one card from your library at once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/115/warteye-witch) · oracle_id `594a57f6-7827-41c7-aa37-00b498720b16` · printing: MH1 #115 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Warthog
 
@@ -1587,6 +1912,7 @@
   > *—Grebog, goblin swine-rider*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28134 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/267/warthog) · oracle_id `ae1f22a5-89cf-440c-b90d-fed194b2dee5` · printing: 6ED #267 (1999-04-21) · [rulings](https://api.scryfall.com/cards/d65630c7-3813-404c-9919-0e46c557f7b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wartime Protestors
@@ -1601,6 +1927,7 @@
   > *Fire Lord Ozai's cruel reign only forged a stronger resolve in the hearts of the resistance.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9173 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/160/wartime-protestors) · oracle_id `6557813b-4ee7-4881-a37c-10c8ea097360` · printing: TLA #160 (2025-11-21) · [rulings](https://api.scryfall.com/cards/bac81940-d717-49ff-83b2-16a22bb2c988/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War-Torch Goblin
@@ -1614,6 +1941,7 @@
   > *"In a town shaped by the subtle machinations and political intrigue of its guilds, it's reassuring to see a goblin waving his torch and screaming about some nonsense or other."*
   > *—Agrus Kos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27220 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/151/war-torch-goblin) · oracle_id `58d39991-420b-4eca-967d-49ad3f9a4702` · printing: RAV #151 (2005-10-07) · [rulings](https://api.scryfall.com/cards/259469b3-1212-4030-97ae-a84f132798d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War-Trained Slasher
@@ -1629,6 +1957,7 @@
   > *—Jalina, Ikorian bonder*
 - **Keywords:** Menace, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/172/war-trained-slasher) · oracle_id `bc89face-92b1-47d3-8cdb-360b7334d3b8` · printing: MOM #172 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c2a87c5d-5efc-4ceb-b165-27f807117f71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### War-Wing Siren
@@ -1643,7 +1972,11 @@
   > *Once she sang sailors to their doom. Now she leads them to glory.*
 - **Keywords:** Flying, Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/57/war-wing-siren) · oracle_id `0e49ec18-f979-4168-b7df-7728f3fe442e` · printing: JOU #57 (2014-05-02) · [rulings](https://api.scryfall.com/cards/8d88c942-3a69-4975-a08d-80405a549beb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/57/war-wing-siren) · oracle_id `0e49ec18-f979-4168-b7df-7728f3fe442e` · printing: JOU #57 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wary Farmer
 
@@ -1656,7 +1989,9 @@
   > *"The only 'farmhands' I need are my own."*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/251/wary-farmer) · oracle_id `63eed1f5-442f-433d-989c-397b88543162` · printing: ECL #251 (2026-01-23) · [rulings](https://api.scryfall.com/cards/22d20c0d-176d-49c9-aa0b-2c5778548cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Wary Farmer's ability will check as your end step starts to see if another creature entered the battlefield under your control this turn. If none did, the ability won't trigger at all. A creature entering the battlefield under your control during your end step won't cause the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/251/wary-farmer) · oracle_id `63eed1f5-442f-433d-989c-397b88543162` · printing: ECL #251 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wary Okapi
 
@@ -1670,6 +2005,7 @@
   > *—Lalia, Selesnya dryad*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31135 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/149/wary-okapi) · oracle_id `46f01d1c-7ab6-4a58-97ce-57a4eb99843c` · printing: GRN #149 (2018-10-05) · [rulings](https://api.scryfall.com/cards/54f26697-0d4b-4af4-a644-3d0ae13f1d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wary Thespian
@@ -1683,6 +2019,7 @@
   > *Giorgio paced the stage anxiously. This was their final rehearsal, but there were still so many mistakes!*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18810 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/235/wary-thespian) · oracle_id `448cc829-1596-4aec-b180-c0c1e0566f6b` · printing: FDN #235 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a3d62d04-0974-4cb5-9a35-5e996c6456e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wary Watchdog
@@ -1696,4 +2033,5 @@
   > *Valgavoth harbors a special loathing for dogs, whose mere presence provides a powerful antidote to the fear he craves.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16032 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/206/wary-watchdog) · oracle_id `7e063f60-876a-48fe-8bc6-9888180176d1` · printing: DSK #206 (2024-09-27) · [rulings](https://api.scryfall.com/cards/25ed97f2-b47e-49b7-9b1a-694c4bbeca3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

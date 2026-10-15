@@ -50,6 +50,7 @@
 - **Oracle text:**
   > {1}{W}{W}, {T}, Discard a card: The next time a source of your choice would deal damage to you this turn, prevent that damage. You gain life equal to the damage prevented this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27446 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/8/cho-arrim-alchemist) · oracle_id `1e1d4d81-4a45-41b5-a781-ae2227b4f4c0` · printing: MMQ #8 (1999-10-04) · [rulings](https://api.scryfall.com/cards/42c9d49d-61eb-4f33-b06b-03bdd990efd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cho-Arrim Bruiser
@@ -62,6 +63,7 @@
 - **Flavor text** (MMQ printing):
   > *He doesn't know why the Cho-Arrim fight the Mercadians, but he's happy to bash heads for them anyway.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28197 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/9/cho-arrim-bruiser) · oracle_id `3db407ec-da4b-4b25-b613-e45c164ffe86` · printing: MMQ #9 (1999-10-04) · [rulings](https://api.scryfall.com/cards/26e98f06-ad8d-4a93-8ae6-3da42b63b5b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cho-Arrim Legate
@@ -74,6 +76,7 @@
   > Protection from black
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28562 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/10/cho-arrim-legate) · oracle_id `780c9cb2-9d98-4789-87e0-cb81db477204` · printing: MMQ #10 (1999-10-04) · [rulings](https://api.scryfall.com/cards/1427a3a1-24e1-4697-b5eb-1c0a24f89e75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Camp
@@ -85,7 +88,9 @@
   > {T}: Add {G}. When you next cast a Bird creature spell this turn, it enters with an additional +1/+1 counter on it.
   > {2}{G}{G}, {T}: Create a 2/2 green Bird creature token with "Whenever a land you control enters, this token gets +1/+0 until end of turn."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11976 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/462/chocobo-camp) · oracle_id `ed77fdf2-59c0-4310-9b12-80d28beeaeef` · printing: FIC #462 (2025-12-05) · [rulings](https://api.scryfall.com/cards/4fcd08ad-4dac-4236-9030-f59e473b3ec7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/462/chocobo-camp) · oracle_id `ed77fdf2-59c0-4310-9b12-80d28beeaeef` · printing: FIC #462 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Kick
 
@@ -96,7 +101,15 @@
   > Target creature you control deals damage equal to its power to target creature an opponent controls. If this spell was kicked, the creature you control deals twice that much damage instead.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/178/chocobo-kick) · oracle_id `aa00c18b-8719-4095-940a-8e35a57b46c2` · printing: FIN #178 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ff8c8be0-8223-499c-8704-cb68e0a42ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2025-06-06* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2025-06-06* — If either target is illegal as Chocobo Kick resolves, no damage will be dealt. If both targets are illegal, the spell won't resolve at all.
+  - *2025-06-06* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2025-06-06* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2025-06-06* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2025-06-06* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/178/chocobo-kick) · oracle_id `aa00c18b-8719-4095-940a-8e35a57b46c2` · printing: FIN #178 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Knights
 
@@ -108,6 +121,7 @@
 - **Flavor text** (FIC printing):
   > *Only a select few can become Chocobo Knights. You have to be a skilled rider or achieve some combat merit to become one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4205 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/12/chocobo-knights) · oracle_id `6cbefcba-0c1c-48fd-9b78-905ed61aae1e` · printing: FIC #12 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e874e435-7ade-4299-9803-1358c0f07a8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chocobo Racetrack
@@ -121,7 +135,11 @@
   > *—Racing expert*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3267 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/179/chocobo-racetrack) · oracle_id `7522f7fd-6fda-4ed3-9131-21bf91616a73` · printing: FIN #179 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1565813b-6912-42f4-bae0-22136a2d6a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/179/chocobo-racetrack) · oracle_id `7522f7fd-6fda-4ed3-9131-21bf91616a73` · printing: FIN #179 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choco-Comet
 
@@ -133,7 +151,9 @@
 - **Flavor text** (FIN printing):
   > *The other colorations of chocobo tend to be quite violent, giving rise to the saying: "Yellow, best for riding; aught else, best be hiding."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/132/choco-comet) · oracle_id `07b28ed7-eab8-4560-9994-3befcba876d3` · printing: FIN #132 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8d8d3903-a7f4-4cd8-8d29-b4a173e4fbb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If the target is illegal when Choco-Comet tries to resolve, it won't resolve and none of its effects will happen. You won't create a Bird token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/132/choco-comet) · oracle_id `07b28ed7-eab8-4560-9994-3befcba876d3` · printing: FIN #132 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choco, Seeker of Paradise
 
@@ -145,7 +165,11 @@
   > Landfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6170 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/215/choco-seeker-of-paradise) · oracle_id `7979bf83-5091-4e62-8885-ca1833a97306` · printing: FIN #215 (2025-06-13) · [rulings](https://api.scryfall.com/cards/409c305a-52dc-4538-8e72-efcd568eaf49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/215/choco-seeker-of-paradise) · oracle_id `7979bf83-5091-4e62-8885-ca1833a97306` · printing: FIN #215 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choice of Damnations
 
@@ -157,7 +181,10 @@
   > *"Life is a series of choices between bad and worse."*
   > *—Toshiro Umezawa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/62/choice-of-damnations) · oracle_id `506714a8-b9c2-443a-a9e8-ef9130e674ba` · printing: SOK #62 (2005-06-03) · [rulings](https://api.scryfall.com/cards/05939f15-2d95-47df-b66f-131c3e7ea95f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-06-01* — After the opponent chooses a number, Choice of Damnations’ controller may choose to make that opponent either lose that much life or make that opponent sacrifice permanents.
+  - *2005-06-01* — If the opponent must sacrifice all but a number of permanents, that opponent chooses that many permanents and then sacrifices the rest. If the number chosen is greater than the number of permanents the opponent controls, the player sacrifices nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/62/choice-of-damnations) · oracle_id `506714a8-b9c2-443a-a9e8-ef9130e674ba` · printing: SOK #62 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choke
 
@@ -169,6 +196,7 @@
   > *"One day we shall walk where once was water."*
   > *—Eladamri, Lord of Leaves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17524 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/237/choke) · oracle_id `057fa60b-10b0-4612-be0d-157076c82241` · printing: 8ED #237 (2003-07-28) · [rulings](https://api.scryfall.com/cards/e1ce4bab-6eb1-421f-b425-7bb0076defc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choked Estuary
@@ -182,7 +210,12 @@
   > *"My body may be imprisoned on the Isle of Silence, but my magic is free to seek revenge!"*
   > *—Loki*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/229/choked-estuary) · oracle_id `d473b507-8c33-4118-bc10-b0a268776074` · printing: MSC #229 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0c37e84e-e7e0-4dfe-bf17-daeb2e434861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — If an Island or Swamp is entering the battlefield from your hand at the same time as Choked Estuary, you may reveal the other land to have Choked Estuary enter untapped.
+  - *2016-04-08* — If an effect instructs you to put Choked Estuary onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
+  - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Choked Estuary itself is neither an Island nor a Swamp, even though it produces blue and black mana, so you can't reveal one to satisfy the ability of another.
+  - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Prairie Stream from the Battle for Zendikar set to satisfy the ability of Choked Estuary.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/229/choked-estuary) · oracle_id `d473b507-8c33-4118-bc10-b0a268776074` · printing: MSC #229 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Fumes
 
@@ -194,6 +227,7 @@
   > *"Fall to your knees and welcome our embrace."*
   > *—Qal-Sha, Priest of Norn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25947 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/4/choking-fumes) · oracle_id `51bd7bc4-12cd-434e-8691-3123a018e634` · printing: MBS #4 (2011-02-04) · [rulings](https://api.scryfall.com/cards/1b9af543-5273-4754-ab7d-75d0b632240f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Miasma
@@ -208,7 +242,14 @@
   > *The Phyrexians were as surprised as anyone to discover they still needed to breathe.*
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25472 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/86/choking-miasma) · oracle_id `158aaeab-1646-4160-9615-bc8747620a03` · printing: DMU #86 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ba537452-3dab-4ecd-b65f-9e311a130d31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/86/choking-miasma) · oracle_id `158aaeab-1646-4160-9615-bc8747620a03` · printing: DMU #86 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Restraints
 
@@ -220,6 +261,7 @@
   > {3}{W}{W}, Sacrifice this Aura: Exile enchanted creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23580 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/16/choking-restraints) · oracle_id `42bc33dd-3bba-462d-b272-2e8bd58c649e` · printing: EMN #16 (2016-07-22) · [rulings](https://api.scryfall.com/cards/4549735d-df63-47db-ad53-0497499fe387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Sands
@@ -232,6 +274,7 @@
   > *"The people wiped the sand from their eyes and cursed—and left the barren land to the hyenas and vipers."*
   > *—Afari, \*Tales\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24747 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/109/choking-sands) · oracle_id `3bcb7436-f7d9-4bb0-81be-7a3db9d8329f` · printing: VMA #109 (2014-06-16) · [rulings](https://api.scryfall.com/cards/d63b5e4c-e6be-4df5-bb22-d0610067adf6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Tethers
@@ -246,7 +289,11 @@
   > *A wizard can be outnumbered but never outsmarted.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/44/choking-tethers) · oracle_id `a60348fa-b182-4667-9e38-15bdf3511f82` · printing: MH1 #44 (2019-06-14) · [rulings](https://api.scryfall.com/cards/eb0d0c81-8698-41db-a687-47af028e910e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+  - *2022-12-08* — You can cycle this card even if there are no legal targets for the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/44/choking-tethers) · oracle_id `a60348fa-b182-4667-9e38-15bdf3511f82` · printing: MH1 #44 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Vines
 
@@ -256,7 +303,13 @@
   > Cast this spell only during the declare blockers step.
   > X target attacking creatures become blocked. Choking Vines deals 1 damage to each of those creatures. (This spell works on creatures that can't be blocked.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24137 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/123/choking-vines) · oracle_id `3b6b565e-c0b5-48f9-b3e0-4d5d4b065402` · printing: WTH #123 (1997-06-09) · [rulings](https://api.scryfall.com/cards/6cc4a7ee-f6f0-454a-9074-5988fdee1f34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — Choking Vines will make any creatures it targets become blocked, even if the creature had blocking restrictions on it. For example, you can make a creature with Islandwalk become blocked even if the defending player has Islands. This is because evasion abilities only prevent creatures from being assigned to block them.
+  - *2004-10-04* — You can declare zero targets, with X=0.
+  - *2008-04-01* — Choking Vines isn’t particularly effective against creatures with trample. Since the creature with trample has no blocker to assign damage to, all the damage will be assigned to the defending player.
+  - *2008-04-01* — If a previously unblocked creature becomes blocked as a result of Choking Vines, any “When this creature becomes blocked” abilities that creature has will trigger. Any “When this creature becomes blocked by a creature” abilities that creature has won’t trigger.
+  - *2008-04-01* — You may target a blocked creature with Choking Vines. Choking Vines will deal 1 damage to it, and have no other effect on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/123/choking-vines) · oracle_id `3b6b565e-c0b5-48f9-b3e0-4d5d4b065402` · printing: WTH #123 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cho-Manno, Revolutionary
 
@@ -268,6 +321,7 @@
 - **Flavor text** (10E printing):
   > *"Mercadia's masks can no longer hide the truth. Our day has come at last."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19439 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/12/cho-manno-revolutionary) · oracle_id `91af5e35-b3b8-43ce-b1ea-997ed74e4ad2` · printing: 10E #12 (2007-07-13) · [rulings](https://api.scryfall.com/cards/fe04dfe7-6376-4c12-9404-0e1ae0942917/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cho-Manno's Blessing
@@ -281,6 +335,7 @@
   > Enchanted creature has protection from the chosen color. This effect doesn't remove this Aura.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/12/cho-mannos-blessing) · oracle_id `fe9f2a67-b8af-48fd-83cd-d15168d2e64f` · printing: MMQ #12 (1999-10-04) · [rulings](https://api.scryfall.com/cards/5c9f33c6-5294-4584-854d-c8c0f847aba8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chomping Changeling
@@ -295,7 +350,12 @@
   > *The knight was irritated when her rations went missing and truly baffled when her weapons started disappearing too.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/172/chomping-changeling) · oracle_id `d740dbd9-8e90-4121-8d53-c6ddf5178d58` · printing: ECL #172 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e187dcc6-19ad-4cf6-94b4-daf07f5144e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/172/chomping-changeling) · oracle_id `d740dbd9-8e90-4121-8d53-c6ddf5178d58` · printing: ECL #172 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chomping Kavu
 
@@ -307,7 +367,14 @@
   > This creature can't be blocked by creatures with power 2 or less.
 - **Keywords:** Backup
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/179/chomping-kavu) · oracle_id `20a362c3-d278-437f-881c-e7d9fe78fc2d` · printing: MOM #179 (2023-04-21) · [rulings](https://api.scryfall.com/cards/31c249d9-37c0-451d-866b-e834c4c57214/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — Once Chomping Kavu has been legally blocked by a creature, changing that creature’s power to 2 or less won’t undo that block.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/179/chomping-kavu) · oracle_id `20a362c3-d278-437f-881c-e7d9fe78fc2d` · printing: MOM #179 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chong and Lily, Nomads
 
@@ -319,7 +386,9 @@
   > • Put a lore counter on each of any number of target Sagas you control.
   > • Creatures you control get +1/+0 until end of turn for each lore counter among Sagas you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21042 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/113/chong-and-lily-nomads) · oracle_id `faffc9fb-32b3-4015-8c3f-e6b45002c050` · printing: TLE #113 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6cf1c3d5-3fae-4a43-81c8-c823d2755b99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Putting a lore counter on a Saga outside of the normal timing for lore counters will cause the appropriate chapter ability of that Saga to trigger immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/113/chong-and-lily-nomads) · oracle_id `faffc9fb-32b3-4015-8c3f-e6b45002c050` · printing: TLE #113 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choose Your Weapon
 
@@ -334,7 +403,10 @@
   > *—Ellywick Tumblestrum*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/175/choose-your-weapon) · oracle_id `a3acb58d-3fb1-4602-8575-d78b716b0ea5` · printing: AFR #175 (2021-07-23) · [rulings](https://api.scryfall.com/cards/213726e4-e2f5-4e52-b05a-21c4bab9927c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If a creature's power is less than 0 when it's doubled, instead that creature gets -X/-0, where X is how much less than 0 its power is. For example, if an effect has given a 2/2 creature -4/-0 so that it's a -2/2 creature, doubling its power and toughness gives it -2/+2, and it becomes a -4/4 creature.
+  - *2021-07-23* — If an effect instructs you to “double” a creature's power, that creature gets +X/+0, where X is its power as that effect begins to apply. The same is true for toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/175/choose-your-weapon) · oracle_id `a3acb58d-3fb1-4602-8575-d78b716b0ea5` · printing: AFR #175 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorale of the Void
 
@@ -346,7 +418,10 @@
   > Void — At the beginning of your end step, sacrifice this Aura unless a nonland permanent left the battlefield this turn or a spell was warped this turn.
 - **Keywords:** Enchant, Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/91/chorale-of-the-void) · oracle_id `cd50bff0-c461-4023-b62a-6746eaaeab0e` · printing: EOE #91 (2025-08-01) · [rulings](https://api.scryfall.com/cards/7389fe88-f6ff-4497-a037-9ca283fb89e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won’t trigger when that creature enters attacking.
+  - *2025-07-25* — You choose the player, planeswalker, or battle the creature you put onto the battlefield is attacking. It doesn’t have to be the same player, planeswalker, or battle that the enchanted creature or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/91/chorale-of-the-void) · oracle_id `cd50bff0-c461-4023-b62a-6746eaaeab0e` · printing: EOE #91 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chord of Calling
 
@@ -357,7 +432,16 @@
   > Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/134/chord-of-calling) · oracle_id `6789a170-f2c5-4fc0-8a45-2b2361e67410` · printing: RVR #134 (2024-01-12) · [rulings](https://api.scryfall.com/cards/b18fe7e0-8344-40cc-b242-83f01c6be7a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-08-07* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/134/chord-of-calling) · oracle_id `6789a170-f2c5-4fc0-8a45-2b2361e67410` · printing: RVR #134 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choreographed Sparks
 
@@ -369,7 +453,18 @@
   > • Copy target instant or sorcery spell you control. You may choose new targets for the copy.
   > • Copy target creature spell you control. The copy gains haste and "At the beginning of the end step, sacrifice this token."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10250 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/111/choreographed-sparks) · oracle_id `61495793-b0c7-40a5-ad3e-9df8e2b8096b` · printing: SOS #111 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0cda4235-4dce-48fe-a8a5-2a952dedbe25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2026-03-20* — A resolving copy of a permanent spell becomes a token. That token isn't "created" and won't interact with abilities that care about tokens being created.
+  - *2026-03-20* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2026-03-20* — Choreographed Sparks has received a minor update to remove the erroneous word "next" from its second mode. Its updated Oracle text appears above.
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2026-03-20* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2026-03-20* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2026-03-20* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2026-03-20* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2026-03-20* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/111/choreographed-sparks) · oracle_id `61495793-b0c7-40a5-ad3e-9df8e2b8096b` · printing: SOS #111 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorus of Might
 
@@ -381,7 +476,9 @@
   > *"In each of us is the strength of all of us."*
   > *—Trostani*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/119/chorus-of-might) · oracle_id `0765c18b-25a0-4f79-aa1e-7adba7f5c91e` · printing: RTR #119 (2012-10-05) · [rulings](https://api.scryfall.com/cards/214dc9c1-154d-4c35-845d-dd2928f1e142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — The number of creatures you control is counted only when Chorus of Might resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/119/chorus-of-might) · oracle_id `0765c18b-25a0-4f79-aa1e-7adba7f5c91e` · printing: RTR #119 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorus of the Conclave
 
@@ -395,7 +492,11 @@
   > *"We are many, yet one. We are separate in body, yet speak with a single voice. Join us in our chorus."*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23898 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/189/chorus-of-the-conclave) · oracle_id `e4e6ffab-3f0c-43f8-b1c3-b59c7fcb095d` · printing: CMD #189 (2011-06-17) · [rulings](https://api.scryfall.com/cards/f6cde2c4-f53d-4b44-b83b-37b12e00c835/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-10-01* — Chorus of the Conclave's ability applies to creature spells only as they're being cast. You can't pay mana to put counters on creatures being put onto the battlefield by an effect.
+  - *2005-10-01* — Chorus of the Conclave's ability combines well with the convoke mechanic, effectively letting you tap creatures to put +1/+1 counters on the creature with convoke that you're casting, if you choose to do so.
+  - *2005-10-01* — Chorus of the Conclave's ability works only while it's on the battlefield, so you can't use it to put +1/+1 counters on itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/189/chorus-of-the-conclave) · oracle_id `e4e6ffab-3f0c-43f8-b1c3-b59c7fcb095d` · printing: CMD #189 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorus of the Tides
 
@@ -407,7 +508,15 @@
   > Heroic — Whenever you cast a spell that targets this creature, scry 1. (To scry 1, look at the top card of your library, then you may put that card on the bottom.)
 - **Keywords:** Scry, Flying, Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30293 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/33/chorus-of-the-tides) · oracle_id `48925016-8a55-4efb-84c7-dc5001baa58e` · printing: BNG #33 (2014-02-07) · [rulings](https://api.scryfall.com/cards/6e576f7a-0390-4514-aaed-20406fe6acdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability.
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability’s targets are illegal when it tries to resolve, it won’t resolve and none of its effects will happen. You won’t scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/33/chorus-of-the-tides) · oracle_id `48925016-8a55-4efb-84c7-dc5001baa58e` · printing: BNG #33 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chorus of Woe
 
@@ -418,6 +527,7 @@
 - **Flavor text** (S99 printing):
   > *When nightstalkers sing, nothing in creation sleeps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31407 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/68/chorus-of-woe) · oracle_id `e175a3c1-df6c-4aa7-a4c9-893b466ad9e0` · printing: S99 #68 (1999-07-01) · [rulings](https://api.scryfall.com/cards/ee70f692-35c4-4ea8-baad-c950725cfc30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chosen by Heliod
@@ -433,7 +543,9 @@
   > *—Brigone, soldier of Meletis*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/5/chosen-by-heliod) · oracle_id `f6475b40-e694-4aac-a25c-bbd48d45127d` · printing: THS #5 (2013-09-27) · [rulings](https://api.scryfall.com/cards/d8ead499-920c-465a-a23d-f08710d7e9bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — If the target of an Aura is illegal when it tries to resolve, the Aura won't resolve. The Aura doesn't enter the battlefield, so you won't get to draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/5/chosen-by-heliod) · oracle_id `f6475b40-e694-4aac-a25c-bbd48d45127d` · printing: THS #5 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chosen of Markov // Markov's Servant
 
@@ -450,4 +562,6 @@
   > *". . . and for that I shall be eternally grateful."*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/55/chosen-of-markov-markovs-servant) · oracle_id `29328bcb-e991-4095-9439-f493c8fa3f82` · printing: DKA #55 (2012-02-03) · [rulings](https://api.scryfall.com/cards/7c5a3c09-5656-4975-ba03-2d809903ed18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-22* — You can tap any untapped Vampire you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Chosen of Markov's activated ability. You must have controlled Chosen of Markov continuously since the beginning of your most recent turn, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/55/chosen-of-markov-markovs-servant) · oracle_id `29328bcb-e991-4095-9439-f493c8fa3f82` · printing: DKA #55 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -21,4 +21,5 @@
   > *"Ach! Hans, run! It's the lhurgoyf!"*
   > *—Saffi Eriksdotter, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8480 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/141/lhurgoyf) · oracle_id `0fe76004-b2f4-4b11-abce-75fd76f68b4d` · printing: CM2 #141 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ea5d550a-bd8b-4f9e-ac7d-c35ebbe313e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

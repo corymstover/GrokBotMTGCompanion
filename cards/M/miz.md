@@ -29,7 +29,15 @@
   > *Energy surges in Izzet labs are opportunities for experimentation.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/64/mizzium-meddler) · oracle_id `48a909b6-e6ee-4148-8b50-b35f11bc065f` · printing: ORI #64 (2015-07-17) · [rulings](https://api.scryfall.com/cards/762d568d-a2d6-449b-85c2-a92755efe4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-06-22* — If Mizzium Meddler leaves the battlefield before its ability resolves, the targets remain unchanged.
+  - *2015-06-22* — If Mizzium Meddler’s triggered ability targets a spell or ability with no targets, nothing happens.
+  - *2015-06-22* — If a spell or ability has a variable number of targets, you can’t change the number of targets.
+  - *2015-06-22* — If changing one target of a spell or ability to Mizzium Meddler would make other targets of that spell or ability illegal, the targets remain unchanged.
+  - *2015-06-22* — If the spell or ability has multiple instances of the word “target,” you choose which target you’re changing to Mizzium Meddler as Mizium Meddler’s ability resolves.
+  - *2015-06-22* — Mizzium Meddler’s triggered ability can target a spell or ability even if Mizzium Meddler wouldn’t be a legal target for that spell or ability. However, the target of that spell or ability will remain unchanged.
+  - *2015-06-22* — The target of the spell or ability won’t change unless Mizzium Meddler fulfills all the targeting criteria. If a spell or ability has multiple targets, such as Send to Sleep, you can change only one of the targets to Mizzium Meddler.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/64/mizzium-meddler) · oracle_id `48a909b6-e6ee-4148-8b50-b35f11bc065f` · printing: ORI #64 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Mortars
 
@@ -40,7 +48,13 @@
   > Overload {3}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3066 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/803/mizzium-mortars) · oracle_id `48ddba1e-2ad7-463f-9307-d2379a800e51` · printing: CLB #803 (2022-06-10) · [rulings](https://api.scryfall.com/cards/544b2931-0af1-4743-b7c1-91e1dc9294d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — Note that if the spell with overload is dealing damage, protection from that spell's color will still prevent that damage.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/803/mizzium-mortars) · oracle_id `48ddba1e-2ad7-463f-9307-d2379a800e51` · printing: CLB #803 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Skin
 
@@ -51,7 +65,12 @@
   > Overload {1}{U} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7862 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/45/mizzium-skin) · oracle_id `02d998a6-0afd-4be1-a209-05618fcc43ea` · printing: RTR #45 (2012-10-05) · [rulings](https://api.scryfall.com/cards/d9859344-4efc-4b87-a3fb-147e496cee68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/45/mizzium-skin) · oracle_id `02d998a6-0afd-4be1-a209-05618fcc43ea` · printing: RTR #45 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Tank
 
@@ -64,7 +83,10 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/138/mizzium-tank) · oracle_id `60957bfd-2460-429a-a7a7-d99424946f83` · printing: WAR #138 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5643253b-0996-45a8-9488-5bcc9192f867/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — Mizzium Tank's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-05-03* — Mizzium Tank's triggered ability triggers even if it's already a creature. In this case, it gets an additional +1/+1 until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/138/mizzium-tank) · oracle_id `60957bfd-2460-429a-a7a7-d99424946f83` · printing: WAR #138 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzium Transreliquat
 
@@ -77,7 +99,13 @@
   > *"What is it? Um . . . what do you \*want\* it to be?"*
   > *—Juzba, Izzet tinker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24215 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/153/mizzium-transreliquat) · oracle_id `a1f73421-cda5-4029-9bcf-f2baee179e5c` · printing: GPT #153 (2006-02-03) · [rulings](https://api.scryfall.com/cards/d29c3bf9-d37c-4e0a-ac44-15d47770ed44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2006-02-01* — An artifact's "copiable values" are those printed on it, as modified by other copy effects, plus any values set by "enters as" abilities. Counters and other effects aren't copied. For example, if you copy a Gruul War Plow that's been turned into an artifact creature, the result will be just an artifact.
+  - *2006-02-01* — If you use Mizzium Transreliquat's abilities multiple times in a turn in response to one another, then each time one of those abilities resolves, it will overwrite whatever the permanent was copying. The Transreliquat will wind up as a copy of the artifact targeted by the last ability to resolve. When the turn ends, all instances of its first ability will wear off at the same time. If one of those was the last copy ability to resolve, the Transreliquat will become what it was before those abilities resolved. This will likely be either the original Mizzium Transreliquat or whatever it copied with the last instance of its second ability to resolve.
+  - *2006-02-01* — If you use the first ability, Mizzium Transreliquat loses both of its copy abilities until the effect wears off (unless it copied itself or another Mizzium Transreliquat). When it wears off, Mizzium Transreliquat loses all abilities it gained this way and goes back to being what it was before.
+  - *2006-02-01* — The results of all copy effects are copied. If Mizzium Transreliquat is copied, the copy will be a Mizzium Transreliquat after applying all copy effects currently affecting the original. For example, Copy Artifact copying a Transreliquat that's using its first ability to copy an Izzet Signet will be an Izzet Signet. The effect won't wear off at the end of the turn; rather, the Copy Artifact will remain an Izzet Signet for the rest of the game.
+  - *2006-02-01* — The second ability doesn't wear off. If you use it, Mizzium Transreliquat becomes a copy of target artifact permanently and gains the {1}{U}{R} ability. It no longer has the {3} ability (unless it copied itself or another Mizzium Transreliquat).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/153/mizzium-transreliquat) · oracle_id `a1f73421-cda5-4029-9bcf-f2baee179e5c` · printing: GPT #153 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix of the Izmagnus
 
@@ -88,7 +116,17 @@
   > Whenever you cast an instant or sorcery spell with mana value greater than the number of experience counters you have, you get an experience counter.
   > Instant and sorcery spells you cast cost {1} less to cast for each experience counter you have.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6407 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus) · oracle_id `f787c6cf-a4ff-487b-a7b0-0f516e68510a` · printing: CMM #348 (2023-08-04) · [rulings](https://api.scryfall.com/cards/82f949d0-41a0-4491-9057-bfb2bb20bdb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-11-04* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
+  - *2015-11-04* — Each game pack includes a card labeled "Experience" with the suggestion "Place your experience counters here." This card isn't required for play. It's simply a convenient spot to put your experience counters, which can be represented with dice, glass beads, or other small items.
+  - *2015-11-04* — Experience counters are the second kind of counters a player can have, joining poison.
+  - *2015-11-04* — If an instant or sorcery spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost. For example, if that spell's mana cost is {X}{R} and you have one experience counter, you could choose 5 as the value of X and pay {4}{R} to cast the spell.
+  - *2015-11-04* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2015-11-04* — Mizzix's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic component of that cost.
+  - *2015-11-04* — Mizzix's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2015-11-04* — The cost reduction can apply to alternative costs such as flashback costs.
+  - *2015-11-04* — You finish casting a spell, including paying its costs, before Mizzix's first ability triggers. The ability that gives you the experience counter will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/348/mizzix-of-the-izmagnus) · oracle_id `f787c6cf-a4ff-487b-a7b0-0f516e68510a` · printing: CMM #348 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix, Replica Rider
 
@@ -100,7 +138,15 @@
   > Whenever you cast a spell from anywhere other than your hand, you may pay {1}{U/R}. If you do, copy that spell and you may choose new targets for the copy. If the copy is a permanent spell, it gains haste and "At the beginning of your end step, sacrifice this permanent." (A copy of a permanent spell becomes a token.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10673 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/35/mizzix-replica-rider) · oracle_id `24a7e1d2-0bc9-40a9-a606-f0017bde3dab` · printing: J22 #35 (2022-12-02) · [rulings](https://api.scryfall.com/cards/8faf1d83-3b6b-4e07-a024-3dfd37c29814/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-02* — Any spell you cast will be copied if you pay the cost, not just one that requires targets.
+  - *2022-12-02* — If a copy is created, you control the copy. That copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2022-12-02* — If the copied spell has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2022-12-02* — If the copied spell is modal (that is, it says "Choose one –" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2022-12-02* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2022-12-02* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if you sacrifice a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+  - *2022-12-02* — You may only pay the cost once, as the triggered ability resolves. You can't pay it more than once to get additional copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/35/mizzix-replica-rider) · oracle_id `24a7e1d2-0bc9-40a9-a606-f0017bde3dab` · printing: J22 #35 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mizzix's Mastery
 
@@ -111,4 +157,16 @@
   > Overload {5}{R}{R}{R} (You may cast this spell for its overload cost. If you do, change "target" in its text to "each.")
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4fa2d7f2-05b3-468f-9f2c-a61b46bad88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-11-04* — If Mizzix's Mastery exiled multiple cards, you may cast the copies in any order. The last copy you cast will be the first one to resolve.
+  - *2015-11-04* — If the copy has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2015-11-04* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2015-11-04* — If you don't cast one of the copies (perhaps because there are no legal targets available or you don't want to), the copy will cease to exist.
+  - *2015-11-04* — Mizzix's Mastery is still on the stack as it resolves. If you pay the overload cost, Mizzix's Mastery won't copy itself.
+  - *2015-11-04* — The cards remain exiled no matter what happens to the copies.
+  - *2015-11-04* — The copies are created and cast during the resolution of Mizzix's Mastery. You can't wait to cast them later in the turn. Timing restrictions based on the copy's type are ignored. Other restrictions (such as "Cast [this spell] only during combat") are not.
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/175/mizzixs-mastery) · oracle_id `40362fe0-a1a9-4d76-8c35-eac474b91af5` · printing: OTC #175 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,7 +22,11 @@
   > Whenever you cast a noncreature spell with mana value 3 or greater, Y'shtola deals 2 damage to each opponent and you gain 2 life.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2536 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/7/yshtola-nights-blessed) · oracle_id `3268251a-8292-44f9-9267-c961b182f739` · printing: FIC #7 (2025-06-13) · [rulings](https://api.scryfall.com/cards/c7f2c2d5-e052-49e8-b5de-712858c2ea78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — For spells on the stack with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2025-06-06* — Y'shtola's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — Y'shtola's second ability checks at the moment it would trigger to see if a player lost 4 or more life this turn. If none did, the ability won't trigger at all. Once an end step begins, it's too late to cause a player to lose life in order to cause this ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/7/yshtola-nights-blessed) · oracle_id `3268251a-8292-44f9-9267-c961b182f739` · printing: FIC #7 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Y'shtola Rhul
 
@@ -34,4 +38,9 @@
 - **Flavor text** (FIN printing):
   > *"As I suspected, the aetheric disturbance here is no natural occurrence."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2479 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/86/yshtola-rhul) · oracle_id `a6a7bf77-0560-4572-a826-3bc9df1f78d1` · printing: FIN #86 (2025-06-13) · [rulings](https://api.scryfall.com/cards/aef218fa-13a4-4653-95d6-6b3ef1b33a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — Abilities that trigger "at the beginning of [your/the] end step" will trigger at the beginning of each of your additional end steps as well.
+  - *2025-06-06* — Additional end steps don't come with any other additional steps (such as cleanup). Damage marked on permanents won't be removed until you actually get to the cleanup step (which will happen after your second end step), and "until end of turn" and "this turn" effects won't end until the cleanup step either.
+  - *2025-06-06* — If a permanent with an ability that triggers "at the beginning of the end step" enters during your first end step, that ability won't trigger during that end step, but it will trigger during your second end step. Likewise, if a delayed triggered ability that triggers "at the beginning of the next end step" is created during your first end step, that ability will trigger during your second end step.
+  - *2025-06-06* — If the target creature is an illegal target as Y'shtola Rhul's ability tries to resolve, it won't resolve and none of its effects will happen. There won't be an additional end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/86/yshtola-rhul) · oracle_id `a6a7bf77-0560-4572-a826-3bc9df1f78d1` · printing: FIN #86 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

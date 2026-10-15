@@ -59,7 +59,23 @@
   > Exile the top two cards of target opponent's library face down. You may look at and play those cards for as long as they remain exiled.
 - **Keywords:** Flying, Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3358 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/223/decadent-dragon-expensive-taste) · oracle_id `5df44b8d-b337-49d8-8427-34253f52cb47` · printing: WOE #223 (2023-09-08) · [rulings](https://api.scryfall.com/cards/315cbbf7-a2ad-4565-9877-1e903d7fd797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2023-09-01* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Questing Druid is a green creature card whose mana value is 2. It can’t be the target of Tenacious Tomeseeker’s triggered ability (“return target instant or sorcery card from your graveyard to your hand”).
+  - *2023-09-01* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2023-09-01* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2023-09-01* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2023-09-01* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2023-09-01* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy as a permanent.
+  - *2023-09-01* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2023-09-01* — If an effect refers to a card, spell, or permanent that has an Adventure, it won’t find an instant or sorcery spell on the stack that’s been cast as an Adventure.
+  - *2023-09-01* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
+  - *2023-09-01* — Only you get to look at the cards exiled with Expensive Taste. Their owner doesn't get to know what they are while they're in exile until you play them.
+  - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2023-09-01* — You may play the cards exiled with Expensive Taste even if they are land cards.
+  - *2023-09-01* — You must still follow all normal timing rules to play cards exiled with Expensive Taste.
+  - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/223/decadent-dragon-expensive-taste) · oracle_id `5df44b8d-b337-49d8-8427-34253f52cb47` · printing: WOE #223 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decanter of Endless Water
 
@@ -72,6 +88,7 @@
   > *"Now, remember: Under no circumstances should you utter the word 'geyser' in the same room as—oh, blast it!"*
   > *—Bindlehaim, Upper City merchant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #321 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/309/decanter-of-endless-water) · oracle_id `8ae98ef8-8f52-4877-a08c-1fae5514184e` · printing: CLB #309 (2022-06-10) · [rulings](https://api.scryfall.com/cards/518bbc36-58ea-44c4-a857-75a3aff058f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decaying Soil
@@ -83,7 +100,10 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this enchantment has "Whenever a nontoken creature is put into your graveyard from the battlefield, you may pay {1}. If you do, return that card to your hand."
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/127/decaying-soil) · oracle_id `3a58d68c-7683-4543-a929-8ef12641a564` · printing: ODY #127 (2001-10-01) · [rulings](https://api.scryfall.com/cards/f2bea0ec-52e0-4f45-a445-8805dc6ed596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Multiple creatures going to the graveyard at the same time all end up there at once, so either all of them or none of them will cause the trigger to go off, depending on whether or not Threshold was met prior to the creatures going to the graveyard.
+  - *2004-10-04* — The ability in Threshold will trigger only if Threshold was met before the creature goes to the graveyard. So the one that causes Threshold to be met will not trigger the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/127/decaying-soil) · oracle_id `3a58d68c-7683-4543-a929-8ef12641a564` · printing: ODY #127 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decaying Time Loop
 
@@ -97,7 +117,12 @@
   > *—The Thirteenth Doctor*
 - **Keywords:** Retrace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/80/decaying-time-loop) · oracle_id `13e94530-defb-4c9b-9ec7-bb7789ec2630` · printing: WHO #80 (2023-10-13) · [rulings](https://api.scryfall.com/cards/a0cedaa9-f08a-4d7b-8314-1d0a09a657bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — A retrace card cast from your graveyard follows the normal timing rules for its card type.
+  - *2023-10-13* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
+  - *2023-10-13* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
+  - *2023-10-13* — When a retrace spell you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/80/decaying-time-loop) · oracle_id `13e94530-defb-4c9b-9ec7-bb7789ec2630` · printing: WHO #80 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceit
 
@@ -110,7 +135,13 @@
   > Evoke {U/B}{U/B}
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/212/deceit) · oracle_id `d7dddeac-c6ed-4111-ba40-e2830c08d480` · printing: ECL #212 (2026-01-23) · [rulings](https://api.scryfall.com/cards/bd82c9e4-9871-4e6d-b691-ee00b4b9a3c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Deceit's first and second abilities care about what mana was spent to pay its total cost, not just what mana was spent to pay the hybrid mana symbols in its cost.
+  - *2025-11-17* — Deceit's first and second abilities check to see if at least two mana of the appropriate colors were spent to pay Deceit's cost. It doesn't matter if more than two mana of that color was spent; the effect isn't multiplied.
+  - *2025-11-17* — If this spell is copied, the copy will not have had any colors of mana paid for it, no matter what colors were spent on the original spell.
+  - *2025-11-17* — If you pay the evoke cost, you can have the creature's own triggered ability or abilities resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
+  - *2025-11-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/212/deceit) · oracle_id `d7dddeac-c6ed-4111-ba40-e2830c08d480` · printing: ECL #212 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceiver Exarch
 
@@ -124,6 +155,7 @@
   > • Tap target permanent an opponent controls.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13879 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/36/deceiver-exarch) · oracle_id `3c939ea6-68b7-4965-b1d3-af1d3dc79778` · printing: CMA #36 (2017-06-09) · [rulings](https://api.scryfall.com/cards/35437d86-6f92-480a-aa0c-c17c3943c00c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceiver of Form
@@ -135,7 +167,12 @@
   > ({C} represents colorless mana.)
   > At the beginning of combat on your turn, reveal the top card of your library. If a creature card is revealed this way, you may have creatures you control other than this creature become copies of that card until end of turn. You may put that card on the bottom of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/1/deceiver-of-form) · oracle_id `18c58328-518f-4228-bb1b-2433f3fb21f2` · printing: OGW #1 (2016-01-22) · [rulings](https://api.scryfall.com/cards/a416d54b-ac84-48ac-92f8-eeb348f26016/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-01-22* — Any noncopy effects that affected a creature you control, including ones that modified its power and/or toughness, will continue to apply.
+  - *2016-01-22* — If a creature you control becomes a copy of the revealed creature card, it’s neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won’t trigger.
+  - *2016-01-22* — If applicable, creatures you control copy the printed values of the revealed creature card. They will retain any counters they had on them. Any Auras and/or Equipment that were attached with them will remain so.
+  - *2016-01-22* — You may put the card on the bottom of your library in any of the possible scenarios that could occur with this card. It doesn’t matter whether the card is a creature card or not. If it is a creature card, it doesn’t matter whether you chose to have the copy effect apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/1/deceiver-of-form) · oracle_id `18c58328-518f-4228-bb1b-2433f3fb21f2` · printing: OGW #1 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceive the Messenger
 
@@ -149,7 +186,15 @@
   > *—Saruman*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/47/deceive-the-messenger) · oracle_id `a9720545-37f4-42f1-932f-13ef88c9ea72` · printing: LTR #47 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b2984bc6-7c12-46e4-8dd3-b23e29a7a7ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/47/deceive-the-messenger) · oracle_id `a9720545-37f4-42f1-932f-13ef88c9ea72` · printing: LTR #47 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deception
 
@@ -160,6 +205,7 @@
 - **Flavor text** (PTK printing):
   > *Believing they wrote the forged letter that had been stolen from Zhou Yu, Cao Cao rashly executed his two best admirals for treason.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/73/deception) · oracle_id `ae1b44df-1d8c-453a-9efb-6d1c93e52418` · printing: PTK #73 (1999-05-01) · [rulings](https://api.scryfall.com/cards/bdb63768-2d8a-4a74-a312-b981dd462cdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceptive Frostkite
@@ -175,7 +221,14 @@
   > *—Askar, Temur scout, last words*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3678 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/19/deceptive-frostkite) · oracle_id `96d7b761-b0b2-4ba3-98bd-3a9191ba544e` · printing: TDC #19 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1f87120f-d2a7-4c06-aadd-3ed5729d7abf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-04-04* — Any enters abilities of the copied creature will trigger when Deceptive Frostkite enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied permanent will also work.
+  - *2025-04-04* — Deceptive Frostkite copies exactly what was printed on the original creature and nothing else, with the listed exceptions (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2025-04-04* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-04-04* — If the copied creature is a token, Deceptive Frostkite copies the original characteristics of that token as stated by the effect that created the token, with the listed exceptions.
+  - *2025-04-04* — If the copied creature is copying something else, then Deceptive Frostkite enters as whatever that creature copied, with the listed exceptions.
+  - *2025-04-04* — You can choose not to have Deceptive Frostkite enter as a copy of another creature. If you do, it will just be a 1/1 Dragon with flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/19/deceptive-frostkite) · oracle_id `96d7b761-b0b2-4ba3-98bd-3a9191ba544e` · printing: TDC #19 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deceptive Landscape
 
@@ -187,6 +240,7 @@
   > Cycling {W}{B}{G} ({W}{B}{G}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2271 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/356/deceptive-landscape) · oracle_id `1831fe12-dbe0-437f-8fc8-f01bbb701fe1` · printing: TDC #356 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ba863744-929b-43f3-a773-342ba3437b18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimate
@@ -198,7 +252,9 @@
 - **Flavor text** (OTC printing):
   > *Anarchy comes in many forms: social, individual, Gruul . . .*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/220/decimate) · oracle_id `a4e5693f-12a0-451e-818d-d6efc7b4ed25` · printing: OTC #220 (2024-04-19) · [rulings](https://api.scryfall.com/cards/cf0e68bc-8de8-4ff8-a39a-8da95f71d843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You must choose a legal target for each target required by Decimate. However, if a permanent has multiple card types, it may be chosen as the target for more than one instance of the word "target." For example, you could cast Decimate targeting an artifact creature, an enchantment, and a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/220/decimate) · oracle_id `a4e5693f-12a0-451e-818d-d6efc7b4ed25` · printing: OTC #220 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimator Beetle
 
@@ -209,7 +265,10 @@
   > When this creature enters, put a -1/-1 counter on target creature you control.
   > Whenever this creature attacks, remove a -1/-1 counter from target creature you control and put a -1/-1 counter on up to one target creature defending player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18707 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/197/decimator-beetle) · oracle_id `c56e6715-80bc-4f9d-86ef-7c31b1ef0a17` · printing: AKH #197 (2017-04-28) · [rulings](https://api.scryfall.com/cards/6b75e834-fa46-4833-ae9f-1bc2809ece2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Decimator Beetle’s second ability can target any creature you control, not just one with a -1/-1 counter on it. It’ll put a -1/-1 counter on the opponent’s creature even if there isn’t one to remove from your creature.
+  - *2017-04-18* — If one target of Decimator Beetle’s second ability becomes illegal, the other will still be affected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/197/decimator-beetle) · oracle_id `c56e6715-80bc-4f9d-86ef-7c31b1ef0a17` · printing: AKH #197 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimator of the Provinces
 
@@ -222,7 +281,22 @@
   > Trample, haste
 - **Keywords:** Emerge, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/2/decimator-of-the-provinces) · oracle_id `7f522ded-09fd-457e-9efe-0a6324925e4c` · printing: INR #2 (2025-01-24) · [rulings](https://api.scryfall.com/cards/80fc51aa-64ca-4236-8cdb-670533b75f59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-01-24* — A creature’s mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is 0. If it’s a single-faced card with no mana symbols in its upper right corner (because it’s an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
+  - *2025-01-24* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — Colored mana components of emerge costs can’t be reduced with emerge.
+  - *2025-01-24* — Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s mana value.”
+  - *2025-01-24* — If you cast a spell for another cost “rather than paying its mana cost,” such as an emerge cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2025-01-24* — If you sacrifice a creature with {X} in its mana cost, that X is 0.
+  - *2025-01-24* — Once you begin to cast a spell with emerge, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice.
+  - *2025-01-24* — The creature chosen to be sacrificed is still on the battlefield as the cost of the emerge spell is determined and as you activate mana abilities to cast the emerge spell. Its abilities may affect the spell’s cost, be activated to generate mana, and so on. However, if it has an ability that triggers when a spell is cast, it will have been sacrificed before that ability can trigger.
+  - *2025-01-24* — The mana value of a creature spell with emerge isn’t affected by whether its emerge cost is paid. For example, if you cast Decimator of the Provinces for its emerge cost and sacrifice a creature whose mana value is 3, Decimator of the Provinces’s mana value remains 10.
+  - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
+  - *2025-01-24* — The set of creatures affected by the triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won’t get +2/+2 or trample.
+  - *2025-01-24* — The triggered ability resolves before Decimator of the Provinces enters the battlefield, so it won’t get +2/+2 from its own triggered ability.
+  - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
+  - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/2/decimator-of-the-provinces) · oracle_id `7f522ded-09fd-457e-9efe-0a6324925e4c` · printing: INR #2 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decimator Web
 
@@ -234,6 +308,7 @@
   > *Mycosynth grew unfettered beneath the black lacuna, metastasizing into a matrix of noxious energy.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16020 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/105/decimator-web) · oracle_id `eeabf42a-b1ac-4579-b82a-aabf9052ec20` · printing: MBS #105 (2011-02-04) · [rulings](https://api.scryfall.com/cards/fa1fe29f-cf84-45d3-b8fe-e4de1d2bebbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decision Paralysis
@@ -246,6 +321,7 @@
   > *"Eyes see only what is possible. A trained mind can explore the impossible."*
   > *—Kefnet, god of knowledge*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27417 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn2/19/decision-paralysis) · oracle_id `6e09ceaf-9005-4b06-ac5a-5e2250d4b663` · printing: GN2 #19 (2019-11-15) · [rulings](https://api.scryfall.com/cards/e46c7d04-977a-449b-9088-38e07bf62314/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decisions, Decisions
@@ -257,7 +333,10 @@
 - **Flavor text** (UNF printing):
   > *To B, or not to B.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/44/decisions-decisions) · oracle_id `378b29c5-9f63-420c-87f5-627f9fae2663` · printing: UNF #44 (2022-10-07) · [rulings](https://api.scryfall.com/cards/de388bf5-373e-4f3a-a7ab-cfa121f15964/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — For each card you reveal, use that card’s printed name (including any stickers) to determine the first word of its name. You may not use its Oracle text or its name in other languages.
+  - *2022-10-07* — In case you’re wondering, we’ve chosen to allow Y to be both a consonant and a vowel, depending on what the card cares about. Y? Because we’re nice, and because Y has a great legal team.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/44/decisions-decisions) · oracle_id `378b29c5-9f63-420c-87f5-627f9fae2663` · printing: UNF #44 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decisive Denial
 
@@ -271,6 +350,7 @@
   > *"I've heard enough."*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/304/decisive-denial) · oracle_id `2d0bd780-b754-44a3-894c-a9c8aa711f05` · printing: SOC #304 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b1ad1949-1c8e-4566-9286-caf240c88fcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Declaration in Stone
@@ -281,7 +361,16 @@
   > Exile target creature and all other creatures its controller controls with the same name as that creature. That player investigates for each nontoken creature exiled this way.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15363 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/196/declaration-in-stone) · oracle_id `49554441-bb48-4829-b8d6-55e687a6c2e2` · printing: NCC #196 (2022-04-29) · [rulings](https://api.scryfall.com/cards/6f5513a2-e63d-44df-b8a5-37c298e38e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2016-04-08* — A face-down creature, such as one cast with a megamorph ability from the Dragons of Tarkir set, has no name and can't share a name with any other creatures.
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — Declaration in Stone has only one target. The other creatures with that name aren't targeted. For example, a creature with hexproof will be exiled if it has the same name as the target creature.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — If the target creature is an illegal target when Declaration in Stone tries to resolve, it won't resolve and none of its effects will happen. No creatures will be exiled, including those with the same name as the target.
+  - *2016-04-08* — It's possible to have a creature and a noncreature permanent with the same name, such as two copies of the same land, one of which has become a land creature. Only creatures with that name are exiled by Declaration in Stone.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+  - *2022-06-10* — Unless a token is a copy of another permanent or was explicitly given a name by the effect that created it, its name is the subtypes it was given when it was created plus the word "Token." For example, if an effect creates a 1/1 Soldier creature token, that token is named "Soldier Token."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/196/declaration-in-stone) · oracle_id `49554441-bb48-4829-b8d6-55e687a6c2e2` · printing: NCC #196 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Declaration of Naught
 
@@ -293,7 +382,9 @@
 - **Flavor text** (MOR printing):
   > *Every story, even a faerie tale, comes to an end.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/29/declaration-of-naught) · oracle_id `55c71732-6ba1-401d-8759-4d64dae22133` · printing: MOR #29 (2008-02-01) · [rulings](https://api.scryfall.com/cards/2e67d62f-9629-463b-a445-4181f6fafd0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — You can name either half of a split card, but not both. If a player casts the half with the chosen name, it can be targeted by the second ability. In addition, if a player casts a fused split spell with the chosen name, it can be targeted by the second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/29/declaration-of-naught) · oracle_id `55c71732-6ba1-401d-8759-4d64dae22133` · printing: MOR #29 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Declare Dominance
 
@@ -305,7 +396,9 @@
   > *"If you think yourself a chief, then prove your might."*
   > *—Gar-Tun, Mistvalley silverback*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/175/declare-dominance) · oracle_id `db640c5b-4548-44b1-a9cd-cc6838707dbb` · printing: M19 #175 (2018-07-13) · [rulings](https://api.scryfall.com/cards/78271f34-f62e-4771-b430-b121097b8fb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If a creature the defending player controls can’t block the target creature for any reason (such as being tapped), then it doesn’t block that creature. If there’s a cost associated with having a creature block the attacking creature, the defending player isn’t forced to pay that cost, so it doesn’t have to block in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/175/declare-dominance) · oracle_id `db640c5b-4548-44b1-a9cd-cc6838707dbb` · printing: M19 #175 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decoction Module
 
@@ -317,7 +410,17 @@
 - **Flavor text** (KLD printing):
   > *Progress leads to inspiration.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/205/decoction-module) · oracle_id `1daba4f6-2a7d-426a-97d1-0298a7100c45` · printing: KLD #205 (2016-09-30) · [rulings](https://api.scryfall.com/cards/b08ae769-0070-47a6-aae0-1a3bcfd40d07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/205/decoction-module) · oracle_id `1daba4f6-2a7d-426a-97d1-0298a7100c45` · printing: KLD #205 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decode Transmissions
 
@@ -330,6 +433,7 @@
   > *"You would kill the Faller—our messiah—and call \*us\* monsters?"*
 - **Keywords:** Void
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9039 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/94/decode-transmissions) · oracle_id `42510758-6167-420b-bb70-65f914b7a259` · printing: EOE #94 (2025-08-01) · [rulings](https://api.scryfall.com/cards/cecb4936-14ca-49f9-b209-6519cab54b30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decommission
@@ -343,7 +447,14 @@
   > *"A key weakness in the design is its vulnerability to repeated, forceful blows."*
 - **Keywords:** Revolt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/16/decommission) · oracle_id `d001321d-b272-4f94-a333-7cfe8482da20` · printing: AER #16 (2017-01-20) · [rulings](https://api.scryfall.com/cards/1cca66e9-be21-4fc7-8951-cd99e9b213dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-02-09* — Energy counters aren't permanents. Paying {E} won't satisfy a revolt ability.
+  - *2017-02-09* — If Decommission destroys a permanent you control, it will enable its own revolt ability and you'll gain 3 life.
+  - *2017-02-09* — If the target artifact or enchantment becomes an illegal target, Decommission doesn't resolve and none of its effects happen. You won't gain life.
+  - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
+  - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
+  - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/16/decommission) · oracle_id `d001321d-b272-4f94-a333-7cfe8482da20` · printing: AER #16 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decompose
 
@@ -355,6 +466,7 @@
   > *"Sheesh! How am I supposed to make a decent living around here?"*
   > *—Cabal grave robber*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddk/20/decompose) · oracle_id `12c2b6bb-05f8-4291-b9a5-c4ddb7a69b9e` · printing: DDK #20 (2013-03-15) · [rulings](https://api.scryfall.com/cards/f4868145-fb8b-4624-8554-ddbab3d5a43c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decomposition
@@ -367,7 +479,9 @@
   > When enchanted creature dies, its controller loses 2 life.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30797 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/212/decomposition) · oracle_id `62817ef5-9b8d-4bca-bdd4-ab3bc4e063d0` · printing: MIR #212 (1996-10-08) · [rulings](https://api.scryfall.com/cards/b0ea46a1-ea65-4802-812c-4f0e0f3088d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If a permanent has multiple instances of cumulative upkeep, each triggers separately. However, the age counters are not connected to any particular ability; each cumulative upkeep ability will count the total number of age counters on the permanent at the time that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/212/decomposition) · oracle_id `62817ef5-9b8d-4bca-bdd4-ab3bc4e063d0` · printing: MIR #212 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deconstruct
 
@@ -378,6 +492,7 @@
 - **Flavor text** (MRD printing):
   > *"Nothing in this world, not even magic, likes to be caged."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/118/deconstruct) · oracle_id `36a8ceb1-148b-41e0-a7bf-ceb879bf08e7` · printing: MRD #118 (2003-10-02) · [rulings](https://api.scryfall.com/cards/53face79-d2bf-43dd-aa4e-d724c2b68c49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deconstruction Hammer
@@ -392,7 +507,9 @@
   > *—Oltec artificers' creed*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/9/deconstruction-hammer) · oracle_id `ccc2eb6d-21cf-45cf-b4e4-4b2a2517136a` · printing: LCI #9 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0c7ba382-18c4-4833-b3d2-bd469ae2ad77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — If Deconstruction Hammer somehow ends up attached to a creature controlled by a different player, that player won't be able to activate the granted ability, as they can't pay the cost of sacrificing Deconstruction Hammer, a permanent they don't control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/9/deconstruction-hammer) · oracle_id `ccc2eb6d-21cf-45cf-b4e4-4b2a2517136a` · printing: LCI #9 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decorated Champion
 
@@ -404,6 +521,7 @@
 - **Flavor text** (BBD printing):
   > *The oddsmakers hate him because every fight is a foregone conclusion. The crowd loves him for exactly the same reason.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19699 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/69/decorated-champion) · oracle_id `e7c0052e-6dda-4fcf-9368-7749aa9b9c5c` · printing: BBD #69 (2018-06-08) · [rulings](https://api.scryfall.com/cards/0cee6784-3171-4f28-af3d-f7993bc45303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decorated Griffin
@@ -418,6 +536,7 @@
   > *The awards and medals of polis-dwellers mean nothing to griffins, but they repay acts of generosity.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28438 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/7/decorated-griffin) · oracle_id `8356b1fe-02f8-4bb9-bcdb-bb7454eb18ed` · printing: THS #7 (2013-09-27) · [rulings](https://api.scryfall.com/cards/7bc2f3a0-444d-4cad-970f-6c4a63b02cce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decorated Knight // Present Arms
@@ -429,6 +548,7 @@
 - **Face 2: Present Arms** — {2}{U} — Sorcery — Adventure
   > Exchange your library with another deck you own from outside the game. Shuffle your library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/19/decorated-knight-present-arms) · oracle_id `d61cd9f1-a0ea-42d0-8afa-2cf62c80ec4d` · printing: HHO #19 (2019-12-01) · [rulings](https://api.scryfall.com/cards/6cbda4a6-e01b-4df2-aee9-b6f14336b85f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decorum Dissertation
@@ -440,7 +560,11 @@
   > Paradigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)
 - **Keywords:** Paradigm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/78/decorum-dissertation) · oracle_id `f4c57454-d36f-4f38-b7ac-76477a516c3e` · printing: SOS #78 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f4ab2d9b-c73d-478d-aac7-4d3bb24296d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — Each spell with paradigm has the Lesson subtype. The Lesson subtype appears on instants and sorceries and has no inherent rules meaning. Other effects (such as the learn ability from the original Strixhaven release) may refer to it.
+  - *2026-03-20* — Once a spell with paradigm has resolved, it doesn't matter what happens to the card in exile. Even if the card leaves exile, the delayed triggered ability will still trigger during each of your first main phases, and the copy will still be created.
+  - *2026-03-20* — Paradigm creates a delayed triggered ability that triggers at the beginning of each of your first main phases for the rest of the game. When that ability resolves and the copy is created, you can choose not to cast the copy. In that case, the copy will cease to exist the next time state-based actions are checked. The delayed triggered ability will still trigger again at the beginning of your first main phase on your next turn regardless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/78/decorum-dissertation) · oracle_id `f4c57454-d36f-4f38-b7ac-76477a516c3e` · printing: SOS #78 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decoy Gambit
 
@@ -452,7 +576,11 @@
   > *"We'll distract them. The rest of you, get out of here!"*
   > *—Alux, Skysail defender*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14086 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/32/decoy-gambit) · oracle_id `94d9878e-9786-438c-8b33-c1dff730b748` · printing: C20 #32 (2020-04-17) · [rulings](https://api.scryfall.com/cards/39671ac5-c730-4ba2-a2d9-23d5ac13f12b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — As the Decoy Gambit resolves, first the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses whether you’ll draw a card or return their creature that was targeted to its owner’s hand, then each other opponent in turn order does so knowing the choices made before them. After all choices are made, you draw the appropriate number of cards. After you’ve drawn, the appropriate creatures are all simultaneously returned to their owners’ hands.
+  - *2020-04-17* — For each opponent, if you didn’t choose a target creature they control or if that creature has become an illegal target, that player can’t choose for you to draw a card.
+  - *2020-04-17* — If a creature targeted by Decoy Gambit changes controller, it’s no longer a legal target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/32/decoy-gambit) · oracle_id `94d9878e-9786-438c-8b33-c1dff730b748` · printing: C20 #32 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decoy Ploy
 
@@ -465,6 +593,7 @@
 - **Flavor text** (MSH printing):
   > *"What fools you are that you cannot discern between a robotic servant and that which is . . . Doom!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/94/decoy-ploy) · oracle_id `035cddbc-39c9-42af-9e26-c88419b43b49` · printing: MSH #94 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8719b74-48ef-4f68-b59a-949edd644ddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Annihilation
@@ -477,7 +606,10 @@
   > When you cycle this card, destroy all lands.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/85/decree-of-annihilation) · oracle_id `6679b462-3c90-418c-8727-acd1a61d988b` · printing: SCG #85 (2003-05-26) · [rulings](https://api.scryfall.com/cards/73744717-518c-478e-9da9-201c49124f37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/85/decree-of-annihilation) · oracle_id `6679b462-3c90-418c-8727-acd1a61d988b` · printing: SCG #85 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Justice
 
@@ -489,7 +621,11 @@
   > When you cycle this card, you may pay {X}. If you do, create X 1/1 white Soldier creature tokens.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/263/decree-of-justice) · oracle_id `67a98359-6f02-4556-ad47-c01b643686d6` · printing: MH3 #263 (2024-06-14) · [rulings](https://api.scryfall.com/cards/21637fbe-d9d3-4d5b-a361-0687385d4738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-03-16* — A mana cost of {X}{X} means that you pay twice X. If you want X to be 3, you pay {8}{W}{W} to cast Decree of Justice.
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/263/decree-of-justice) · oracle_id `67a98359-6f02-4556-ad47-c01b643686d6` · printing: MH3 #263 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Pain
 
@@ -501,7 +637,10 @@
   > When you cycle this card, all creatures get -2/-2 until end of turn.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/136/decree-of-pain) · oracle_id `932668fa-d6e3-41c0-ad0c-8e0a00e68d11` · printing: DSC #136 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bd594aeb-f5cc-4435-8ea8-c35c5824b58c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/136/decree-of-pain) · oracle_id `932668fa-d6e3-41c0-ad0c-8e0a00e68d11` · printing: DSC #136 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Savagery
 
@@ -513,7 +652,11 @@
   > When you cycle this card, you may put four +1/+1 counters on target creature.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16251 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/156/decree-of-savagery) · oracle_id `96a6a8d4-6077-470f-984e-b576a24557a2` · printing: AFC #156 (2021-07-23) · [rulings](https://api.scryfall.com/cards/ec6d7db1-eeb2-4e9e-9a4f-488595bbcf1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+  - *2022-12-08* — You can cycle this card even if there are no legal targets for the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/156/decree-of-savagery) · oracle_id `96a6a8d4-6077-470f-984e-b576a24557a2` · printing: AFC #156 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Decree of Silence
 
@@ -525,4 +668,8 @@
   > When you cycle this card, you may counter target spell.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/scg/32/decree-of-silence) · oracle_id `920684d0-aef3-4408-a66b-a0c9394c58f4` · printing: SCG #32 (2003-05-26) · [rulings](https://api.scryfall.com/cards/f2fc46e2-5e19-4999-a4cd-1e84697066c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+  - *2022-12-08* — You can cycle this card even if there are no legal targets for the triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/scg/32/decree-of-silence) · oracle_id `920684d0-aef3-4408-a66b-a0c9394c58f4` · printing: SCG #32 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

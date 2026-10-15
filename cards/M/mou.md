@@ -47,6 +47,7 @@
   > *"No matter how hard I try, I always seem to return to this wicked world of Limbo. But this time will be different. This time, Belasco's soul will be mine to sunder. Come, my friends, for we have a battle to win."*
   > *—Magik, Illyana Rasputin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/298/mountain) · oracle_id `a3fb7228-e76b-4e96-a40e-20b5fed75685` · printing: MDD #298 (2027-04-09) · [rulings](https://api.scryfall.com/cards/85177bd7-6c50-48da-b692-ae5fe7bd357c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Bandit
@@ -60,6 +61,7 @@
   > *Penniless and far from home, many former Yellow Scarves and other soldiers became bandits to survive.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28994 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/117/mountain-bandit) · oracle_id `e3638c54-e494-47d2-b614-94c9d9add85a` · printing: PTK #117 (1999-05-01) · [rulings](https://api.scryfall.com/cards/34fd541d-9956-4595-9527-a83db4c5f74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Goat
@@ -73,6 +75,7 @@
   > *Only the heroic and the mad follow mountain goat trails.*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23464 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/195/mountain-goat) · oracle_id `031cd561-d9b1-4a0e-bc38-bc09e80563c3` · printing: 6ED #195 (1999-04-21) · [rulings](https://api.scryfall.com/cards/47754124-37e2-4878-a711-a3e00ae0bc70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Mover
@@ -87,7 +90,9 @@
   > Crew 3
 - **Keywords:** Flying, Haste, Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/2/mountain-mover) · oracle_id `5801dc62-dfc7-47bb-b824-7ca33021869e` · printing: PH20 #2 (2021-08-01) · [rulings](https://api.scryfall.com/cards/acba8c92-419a-4a4a-ad92-4f4a63ed8122/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/2/mountain-mover) · oracle_id `5801dc62-dfc7-47bb-b824-7ca33021869e` · printing: PH20 #2 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Stronghold
 
@@ -96,6 +101,7 @@
 - **Oracle text:**
   > Red legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/304/mountain-stronghold) · oracle_id `af147bb6-aa46-4fc9-af96-de3740c19fd5` · printing: LEG #304 (1994-06-01) · [rulings](https://api.scryfall.com/cards/314fd1d7-4bd8-4d95-b7c2-1aa6660ab88a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Titan
@@ -109,6 +115,7 @@
   > *"The Titans claimed to draw strength from the rocks, but I suspect them of some darker allegiance."*
   > *—Disa the Restless, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31998 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/299/mountain-titan) · oracle_id `160c8e94-ccf9-4058-b7fd-04529456f0fa` · printing: ICE #299 (1995-06-03) · [rulings](https://api.scryfall.com/cards/bcc1d589-02a2-4896-a283-9d0385534667/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Valley
@@ -121,7 +128,9 @@
 - **Flavor text** (EOC printing):
   > *The ice that grips Evendo hides a world coveted by both the Eumidians and the Καν.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3123 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/61/mountain-valley) · oracle_id `0b7393aa-d563-45bc-9946-8e7d1729d498` · printing: EOC #61 (2025-08-01) · [rulings](https://api.scryfall.com/cards/3094800e-9994-47c3-9ebc-536bf5de13cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not have to find a mountain or forest card if you do not want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/61/mountain-valley) · oracle_id `0b7393aa-d563-45bc-9946-8e7d1729d498` · printing: EOC #61 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Yeti
 
@@ -135,6 +144,7 @@
   > *The Yeti's single greatest asset is its unnerving ability to blend in with its surroundings.*
 - **Keywords:** Landwalk, Protection, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29152 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/105/mountain-yeti) · oracle_id `375ea10b-da68-4c66-b3eb-f5113c09ea4b` · printing: ME1 #105 (2007-09-10) · [rulings](https://api.scryfall.com/cards/bc6a062c-06ff-4295-83f2-48868c664d76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mount Doom
@@ -146,7 +156,10 @@
   > {1}{B}{R}, {T}: Mount Doom deals 1 damage to each opponent.
   > {5}{B}{R}, {T}, Sacrifice Mount Doom and a legendary artifact: Choose up to two creatures, then destroy the rest. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b5bc71a1-2344-4bc6-aa60-658cec19d0d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — For the last ability, none of the chosen creatures are targets of the ability. You may choose creatures with shroud, for example.
+  - *2023-06-16* — You must follow all normal timing rules for a card you play using Moria Marauder's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mounted Archers
 
@@ -158,7 +171,10 @@
   > {W}: This creature can block an additional creature this turn.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/19/mounted-archers) · oracle_id `22517690-3ec1-49c9-951f-93eb3114423a` · printing: TPR #19 (2015-05-06) · [rulings](https://api.scryfall.com/cards/801e7b20-9359-4157-87a5-6354efea929a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You can use the ability multiple times so it can block more than two creatures.
+  - *2008-04-01* — This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/19/mounted-archers) · oracle_id `22517690-3ec1-49c9-951f-93eb3114423a` · printing: TPR #19 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mounted Dreadknight
 
@@ -172,7 +188,9 @@
   > *Markov vampires cultivate an image of such decadent elegance that it can be easy to forget they can field a deadly fighting force.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23288 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/150/mounted-dreadknight) · oracle_id `b5e42be3-6bfc-4905-9237-cb8d53e2349e` · printing: MID #150 (2021-09-24) · [rulings](https://api.scryfall.com/cards/d1814fc8-011f-4cd4-825b-f00ae6ec0fe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Mounted Dreadknight's last ability cares whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/150/mounted-dreadknight) · oracle_id `b5e42be3-6bfc-4905-9237-cb8d53e2349e` · printing: MID #150 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mount Velus Manticore
 
@@ -184,7 +202,10 @@
 - **Flavor text** (MH2 printing):
   > *Born from a stray spark that flew from Purphoros's forge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29802 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/136/mount-velus-manticore) · oracle_id `f434590f-3a5d-47dd-8ed0-d2a43a521f86` · printing: MH2 #136 (2021-06-18) · [rulings](https://api.scryfall.com/cards/667a356c-b10d-42f2-bb2f-c3fd9affa4bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If you do not discard a card, Mount Velus Manticore's reflexive triggered ability won't trigger.
+  - *2021-06-18* — The card types that can appear on a discarded card are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Manticore and Saga are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/136/mount-velus-manticore) · oracle_id `f434590f-3a5d-47dd-8ed0-d2a43a521f86` · printing: MH2 #136 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mourner's Shield
 
@@ -195,6 +216,7 @@
   > {2}, {T}: Prevent all damage that would be dealt this turn by a source of your choice that shares a color with the exiled card.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/209/mourners-shield) · oracle_id `34cadd9d-b8e6-422c-b0ec-a2420cd983ad` · printing: MRD #209 (2003-10-02) · [rulings](https://api.scryfall.com/cards/783fe67f-59f7-46f0-bfa4-fa4a65c9c33c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mourner's Surprise
@@ -206,7 +228,9 @@
 - **Flavor text** (OTJ printing):
   > *"Y'all should've known better than to buy me a coffin!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13941 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/94/mourners-surprise) · oracle_id `567fa6e0-fc7b-4502-9c51-f2538c411003` · printing: OTJ #94 (2024-04-19) · [rulings](https://api.scryfall.com/cards/980b0b68-7218-49c6-b6bf-022218f3abf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — You don't have to choose a target for Mourner's Surprise. However, if you do, and that creature card is an illegal target at the time Mourner's Surprise tries to resolve, it won't resolve and none of its effects will happen. You won't create a Mercenary token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/94/mourners-surprise) · oracle_id `567fa6e0-fc7b-4502-9c51-f2538c411003` · printing: OTJ #94 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mournful Zombie
 
@@ -218,6 +242,7 @@
 - **Flavor text** (APC printing):
   > *Treated with a powerful mix of herbs and potions, its wrappings have a remarkable preservative effect, even for the living.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/43/mournful-zombie) · oracle_id `f0ed2cf1-7bd4-4586-a682-fd588632cb3d` · printing: APC #43 (2001-06-04) · [rulings](https://api.scryfall.com/cards/9ba12fb1-de8c-46c6-b33f-e0580ed2a3ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mourning
@@ -232,7 +257,9 @@
   > *Barrin waited for the nausea to pass or for Urza to say something else. He waited in vain.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/111/mourning) · oracle_id `20602d11-c0ae-47ce-a7fd-998b12480e18` · printing: INV #111 (2000-10-02) · [rulings](https://api.scryfall.com/cards/4649d881-709f-4ed0-91de-744d232a82f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If attached to an opponent's creature, only you can activate the ability to return it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/111/mourning) · oracle_id `20602d11-c0ae-47ce-a7fd-998b12480e18` · printing: INV #111 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mourning Patrol // Morning Apparition
 
@@ -251,7 +278,15 @@
   > *"You could see the spirits all along, couldn't you? Well, now I can too."*
 - **Keywords:** Flying, Vigilance, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27059 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/28/mourning-patrol-morning-apparition) · oracle_id `600db821-4210-4996-a3f7-e05a143e50c2` · printing: MID #28 (2021-09-24) · [rulings](https://api.scryfall.com/cards/2d3687e2-09e0-4753-aa02-88a19bde3330/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/28/mourning-patrol-morning-apparition) · oracle_id `600db821-4210-4996-a3f7-e05a143e50c2` · printing: MID #28 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mourning Thrull
 
@@ -266,6 +301,7 @@
   > *During their ascent to spirithood, patriarchs of Orzhova shed both flesh and emotion. This earthly slag is collected and formed into thrulls.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/204/mourning-thrull) · oracle_id `0406a534-c69c-40bb-801f-228a662ac1a2` · printing: RVR #204 (2024-01-12) · [rulings](https://api.scryfall.com/cards/0e8be7f3-9d4f-4928-8e26-2856b2881697/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mournwhelk
@@ -280,7 +316,9 @@
   > *It hoards Lorwyn's rare sorrows.*
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/127/mournwhelk) · oracle_id `10277cc5-f53b-4b33-bd68-edb0534a2040` · printing: LRW #127 (2007-10-12) · [rulings](https://api.scryfall.com/cards/3a62a282-5f94-444b-9095-4c36fabdad57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/127/mournwhelk) · oracle_id `10277cc5-f53b-4b33-bd68-edb0534a2040` · printing: LRW #127 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mournwillow
 
@@ -292,7 +330,9 @@
   > Delirium — When this creature enters, if there are four or more card types among cards in your graveyard, creatures with power 2 or less can't block this turn.
 - **Keywords:** Delirium, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25665 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/187/mournwillow) · oracle_id `742f6478-7c9e-43a4-81c1-09383fe65dad` · printing: EMN #187 (2016-07-22) · [rulings](https://api.scryfall.com/cards/45aa37d8-6765-443f-9b70-200fecf8fa1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — Because the last ability’s effect doesn’t change the characteristics of any permanents, the set of creatures affected is constantly updated. Any creature with power 2 or less at the moment blockers are chosen will be unable to block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/187/mournwillow) · oracle_id `742f6478-7c9e-43a4-81c1-09383fe65dad` · printing: EMN #187 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouser Attack!
 
@@ -306,6 +346,7 @@
   > *"For me, all things remain strictly business. And today's business happens to be extermination!"*
   > *—Baxter Stockman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21335 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/95/mouser-attack!) · oracle_id `bae5dc68-1fd1-428d-bee7-c238e07b21ea` · printing: TMT #95 (2026-03-06) · [rulings](https://api.scryfall.com/cards/058490f4-0ada-45e6-b4f0-e433537f52d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouser Foundry
@@ -319,6 +360,7 @@
   > *"Hmmm . . . How many should I send? Three? Five? Ten, maybe!"*
   > *—Baxter Stockman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/96/mouser-foundry) · oracle_id `404e958b-ead9-4ec7-b786-7b3d65e29967` · printing: TMT #96 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8aae3bd6-a935-44a5-aa4d-a525b00cbf50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouser Mark III
@@ -331,7 +373,9 @@
 - **Flavor text** (TMT printing):
   > *Designed to get rodents out of small spaces, its Mouser maws can be used to seize all sorts of vermin!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/159/mouser-mark-iii) · oracle_id `ad0c6d46-a1ca-4a9f-93f0-4a4dc31868e6` · printing: TMT #159 (2026-03-06) · [rulings](https://api.scryfall.com/cards/608a13b4-0b94-4be5-ac4b-e939901e8419/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Once Mouser Mark III is attacking, it will remain attacking even if you no longer control any other artifacts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/159/mouser-mark-iii) · oracle_id `ad0c6d46-a1ca-4a9f-93f0-4a4dc31868e6` · printing: TMT #159 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouse Trapper
 
@@ -345,7 +389,11 @@
   > *"I'm not here to hurt you, but I will stop you from hurting others."*
 - **Keywords:** Valiant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/22/mouse-trapper) · oracle_id `5b0a4530-6e19-41a2-9ea6-e4c8cf85b6c4` · printing: BLB #22 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8ba1bc5a-03e7-44ec-893e-44042cbc02ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a spell or ability you control has one or more of its targets changed to a creature you control with a valiant ability, that ability will trigger if that creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — If you create a copy of a spell on the stack and target a creature you control with a valiant ability, that ability will trigger as long as the creature hasn't yet been the target of a spell or ability you control this turn.
+  - *2024-07-26* — Valiant abilities will resolve before the spell or ability that caused them to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/22/mouse-trapper) · oracle_id `5b0a4530-6e19-41a2-9ea6-e4c8cf85b6c4` · printing: BLB #22 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouth // Feed
 
@@ -357,7 +405,18 @@
   > Draw a card for each creature you control with power 3 or greater.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15637 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/214/mouth-feed) · oracle_id `980f6341-3c13-4405-8550-b838b228f788` · printing: AKH #214 (2017-04-28) · [rulings](https://api.scryfall.com/cards/a47070a0-fd05-4ed9-a175-847a864478da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/214/mouth-feed) · oracle_id `980f6341-3c13-4405-8550-b838b228f788` · printing: AKH #214 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouth of Ronom
 
@@ -367,6 +426,7 @@
   > {T}: Add {C}.
   > {4}{S}, {T}, Sacrifice this land: It deals 4 damage to target creature. ({S} can be paid with one mana from a snow source.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10849 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/148/mouth-of-ronom) · oracle_id `7c05d239-39fc-4d34-a853-e3d591f4a235` · printing: CSP #148 (2006-07-21) · [rulings](https://api.scryfall.com/cards/2d8f7396-23d3-48e2-8686-2b59ccbfc7e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouth of the Storm
@@ -380,7 +440,9 @@
   > When this creature enters, creatures your opponents control get -3/-0 until your next turn.
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/70/mouth-of-the-storm) · oracle_id `832fbb1f-0ff5-4d6c-b1ee-2231923a6f64` · printing: EOE #70 (2025-08-01) · [rulings](https://api.scryfall.com/cards/380f16d6-ad43-4e0d-9645-6abde6248182/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — Mouth of the Storm’s last ability affects only creatures your opponents control at the time it resolves. Creatures they begin to control after the ability resolves but before your next turn begins won’t get -3/-0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/70/mouth-of-the-storm) · oracle_id `832fbb1f-0ff5-4d6c-b1ee-2231923a6f64` · printing: EOE #70 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouth to Mouth
 
@@ -391,4 +453,5 @@
 - **Flavor text** (UNH printing):
   > *Interesting tidbit: Surveys show that the card Ow has one of the most popular pieces of flavor text in the \*Unglued\* expansion.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/40/mouth-to-mouth) · oracle_id `b29f8287-b8ec-491d-805e-fbd958d23191` · printing: UNH #40 (2004-11-19) · [rulings](https://api.scryfall.com/cards/ae9307a6-7eb1-4e20-afd4-8a723db89048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

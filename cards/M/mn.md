@@ -23,7 +23,13 @@
   > Exile all opponents' graveyards. You may cast spells from among those cards this turn, and mana of any type can be spent to cast them. At the beginning of the next end step, if any of those cards remain exiled, return them to their owners' graveyards.
   > Exile Mnemonic Betrayal.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2529 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · [rulings](https://api.scryfall.com/cards/a5cf45aa-ed34-4add-a2ec-fc11f8c15ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — If you cast a spell this way and that card is exiled, it’s considered a new object. Mnemonic Betrayal no longer allows you to cast it. It remains in exile when Mnemonic Betrayal’s delayed triggered ability resolves.
+  - *2018-10-05* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Mnemonic Betrayal’s effect are exiled. If you leave the game before Mnemonic Betrayal’s delayed triggered ability resolves, the cards remain exiled.
+  - *2018-10-05* — Mnemonic Betrayal doesn’t change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2018-10-05* — Only the cards that remain in exile are returned to their owners’ graveyards. For example, a permanent spell cast this way will remain on the battlefield.
+  - *2018-10-05* — You can’t play land cards exiled this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/189/mnemonic-betrayal) · oracle_id `aa41e0e6-d04e-48d6-8450-02b972dd0bb1` · printing: GRN #189 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Deluge
 
@@ -34,7 +40,12 @@
 - **Flavor text** (CMR printing):
   > *Past, present, and future surged through the wizard's mind, bringing a flood of possibilities.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/82/mnemonic-deluge) · oracle_id `56de4cdc-4db0-48ec-8a16-f66086507233` · printing: CMR #82 (2020-11-20) · [rulings](https://api.scryfall.com/cards/2d0e725b-2250-4189-9682-73461b5cfed2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-11-10* — Because you're casting the spells during the resolution of Mnemonic Deluge, ignore any timing restrictions based on card type. In other words, you can cast copies of a sorcery card this way.
+  - *2020-11-10* — If the card you copy has {X} in its mana cost, you must choose 0 as the value of X when casting the copy without paying its mana cost.
+  - *2020-11-10* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast it.
+  - *2020-11-10* — You create and cast the copies all during the resolution of Mnemonic Deluge. You can't wait and cast them later. If you don't cast all three copies, the ones you don't cast will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/82/mnemonic-deluge) · oracle_id `56de4cdc-4db0-48ec-8a16-f66086507233` · printing: CMR #82 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Nexus
 
@@ -45,7 +56,9 @@
 - **Flavor text** (RAV printing):
   > *True enlightenment comes not with a new thought, but with understanding of all the old ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/59/mnemonic-nexus) · oracle_id `6fe302f2-5594-478c-a66b-89b4b96e3611` · printing: RAV #59 (2005-10-07) · [rulings](https://api.scryfall.com/cards/200edda9-7ad9-47fc-837e-37ec9e5b4b51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — This card won’t be put into your graveyard until after it’s finished resolving, which means it won’t be shuffled into your library as part of its own effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/59/mnemonic-nexus) · oracle_id `6fe302f2-5594-478c-a66b-89b4b96e3611` · printing: RAV #59 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Sliver
 
@@ -58,7 +71,10 @@
   > *"A jigsaw puzzle that lives, breeds, and thinks."*
   > *—Hanna, \*Weatherlight\* navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/62/mnemonic-sliver) · oracle_id `101a5c2d-b0b4-45a7-b236-df474ac47356` · printing: TPR #62 (2015-05-06) · [rulings](https://api.scryfall.com/cards/3457f86f-422c-483d-9d3f-b8e99fdab6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/62/mnemonic-sliver) · oracle_id `101a5c2d-b0b4-45a7-b236-df474ac47356` · printing: TPR #62 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Sphere
 
@@ -72,7 +88,10 @@
   > *—Emire, director of the Saiba Futurists*
 - **Keywords:** Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11994 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/64/mnemonic-sphere) · oracle_id `53bfffae-b99e-44bd-8954-6cf236f93f26` · printing: NEO #64 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1a15d8d9-0575-4add-ae8d-4576e8ed2cbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/64/mnemonic-sphere) · oracle_id `53bfffae-b99e-44bd-8954-6cf236f93f26` · printing: NEO #64 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mnemonic Wall
 
@@ -87,4 +106,5 @@
   > *—Perisophia the philosopher*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6659 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/67/mnemonic-wall) · oracle_id `f2933616-211b-4d3f-8064-2be61c26079a` · printing: IMA #67 (2017-11-17) · [rulings](https://api.scryfall.com/cards/a3e6784b-78e8-4f0b-8d27-d49c7cea9252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

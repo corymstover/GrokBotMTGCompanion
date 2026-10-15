@@ -21,6 +21,7 @@
 - **Flavor text** (DFT printing):
   > *For centuries, she grew in her benthic home, safe from Muraganda's moonfalls, feeding on the raw leylines that run below the water. When she emerged, the coral depths she called home came with her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10147 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/40/caelorna-coral-tyrant) · oracle_id `4bbc5df9-60d7-46c1-8856-91c9c74abf18` · printing: DFT #40 (2025-02-14) · [rulings](https://api.scryfall.com/cards/e8654e38-4230-4094-b815-778bfb5d06f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Caesar, Legion's Emperor
@@ -34,4 +35,7 @@
   > • You draw a card and you lose 1 life.
   > • Caesar deals damage equal to the number of creature tokens you control to target opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2781 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/1/caesar-legions-emperor) · oracle_id `8e62d05a-6efd-4764-bca8-97895e0cb613` · printing: PIP #1 (2024-03-08) · [rulings](https://api.scryfall.com/cards/246a7176-98bc-4f54-aa61-38747420f178/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — The Soldier tokens created by Caesar's ability enter the battlefield tapped and attacking, but since they weren't declared as attacking creatures, no abilities that trigger whenever a creature attacks or whenever you attack (such as Caesar's own ability) will trigger.
+  - *2024-03-08* — You don't choose modes or a target for Caesar, Legion's Emperor's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice another creature this way. You choose modes and, if you chose the third mode, a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/1/caesar-legions-emperor) · oracle_id `8e62d05a-6efd-4764-bca8-97895e0cb613` · printing: PIP #1 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -26,7 +26,14 @@
   > *—Azorius Arrester motto*
 - **Keywords:** Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20588 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/41/inaction-injunction) · oracle_id `6f6bb2dd-c888-43bd-b9ef-8bd451ab669b` · printing: RTR #41 (2012-10-05) · [rulings](https://api.scryfall.com/cards/5342ec3c-9d26-474a-9df5-c21ac90bb233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/41/inaction-injunction) · oracle_id `6f6bb2dd-c888-43bd-b9ef-8bd451ab669b` · printing: RTR #41 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inalla, Archmage Ritualist
 
@@ -38,7 +45,19 @@
   > Tap five untapped Wizards you control: Target player loses 7 life.
 - **Keywords:** Eminence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8523 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/38/inalla-archmage-ritualist) · oracle_id `21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc` · printing: C17 #38 (2017-08-25) · [rulings](https://api.scryfall.com/cards/7c6e803a-451c-4aa6-97a2-400077f32c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-08-25* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "As [this creature] enters the battlefield" or "[This creature] enters the battlefield with" abilities of the copied creature will also work.
+  - *2017-08-25* — If Inalla enters the battlefield at the same time as other Wizards you control, its ability will trigger for each of those other Wizards.
+  - *2017-08-25* — If a copied creature is legendary, any triggered abilities it has will trigger if appropriate before the "legend rule" causes one of those legendary creatures to be put into its owner's graveyard. Those abilities will be put on the stack after the "legend rule" is applied.
+  - *2017-08-25* — If the copied creature had {X} in its mana cost, X is 0.
+  - *2017-08-25* — If the copied creature was copying something else, the token enters the battlefield as whatever that permanent was copying.
+  - *2017-08-25* — If the creature that caused Inalla's ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {1}. If you do, you'll create a token with the copiable values of the characteristics of that creature as it last existed on the battlefield.
+  - *2017-08-25* — Notably, if your commander is on the battlefield and its eminence ability triggers, but it's put into the command zone before that ability resolves, that ability won't do anything as it resolves. This is because an object that changes zones is considered a new object.
+  - *2017-08-25* — The token copies exactly what was printed on the creature and nothing else (unless that creature was copying something else; see below). It doesn't copy whether that creature was tapped or untapped, whether it had any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2017-08-25* — This commander's eminence ability is a triggered ability. The commander must be on the battlefield or in the command zone as the trigger event occurs and also as the triggered ability resolves. If the commander is in an appropriate zone as the trigger event occurs but leaves that zone, the ability won't do anything as it resolves.
+  - *2017-08-25* — To activate Inalla's last ability, you may tap any untapped Wizards you control, including ones you haven't controlled continuously since the beginning of your most recent turn, such as Inalla itself. (Note that tapping the creature doesn't use {T} [the tap symbol].)
+  - *2017-08-25* — You can pay {1} only once each time Inalla's first ability resolves. You can't pay more to get more than one token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/38/inalla-archmage-ritualist) · oracle_id `21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc` · printing: C17 #38 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname as One
 
@@ -49,7 +68,14 @@
   > When Iname as One enters, if you cast it from your hand, you may search your library for a Spirit permanent card, put it onto the battlefield, then shuffle.
   > When Iname as One dies, you may exile it. If you do, return target Spirit permanent card from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22863 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/151/iname-as-one) · oracle_id `865e569b-6999-4a03-ad02-4bfd595d5820` · printing: SOK #151 (2005-06-03) · [rulings](https://api.scryfall.com/cards/4e13f122-0dfe-42f3-9815-9ae1a29fca99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2005-06-01* — Effects that put Iname onto the battlefield don't cause its "enters" ability to trigger.
+  - *2005-06-01* — Iname can target itself with the graveyard-triggered ability, but it will be exiled and the ability won't be able to return Iname.
+  - *2005-06-01* — You aren't required to exile Iname. If you don't, the target Spirit card isn't returned to the battlefield.
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+  - *2013-09-20* — If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy's "enters-the-battlefield" ability will still trigger as long as you cast that creature spell from your hand.
+  - *2021-06-18* — If Iname is your commander in a game of Commander, you may choose to put it in the command zone after it dies, but if you do, you won't be able to exile it. If you do exile it, you may put it into the command zone from exile after resolving its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/151/iname-as-one) · oracle_id `865e569b-6999-4a03-ad02-4bfd595d5820` · printing: SOK #151 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname, Death Aspect
 
@@ -61,6 +87,7 @@
 - **Flavor text** (CHK printing):
   > *Iname revels in sadistic glee at the crushing of souls, but soon mourns the lives so cruelly cut short. So the cycle begins anew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17773 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/118/iname-death-aspect) · oracle_id `46c7f465-304c-4c4b-a1f6-9707706dbf94` · printing: CHK #118 (2004-10-01) · [rulings](https://api.scryfall.com/cards/2dd67e11-3dad-4e59-b15d-02911e53fbbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iname, Life Aspect
@@ -73,4 +100,9 @@
 - **Flavor text** (CHK printing):
   > *Iname rejoices in the dawn of a new life, but soon becomes jealous of the simple joys denied him by his station. So the cycle begins anew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20722 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/215/iname-life-aspect) · oracle_id `cb806239-32bf-4850-be65-239444c347a5` · printing: CHK #215 (2004-10-01) · [rulings](https://api.scryfall.com/cards/be027e3c-8891-46f0-bca7-d28a94ca281a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-12-01* — The targets of Iname, Life Aspect's ability are chosen when the ability is put onto the stack, but you don't choose whether to exile Iname, Life Aspect until the ability resolves.
+  - *2004-12-01* — You can exile the card even if you choose no targets.
+  - *2004-12-01* — You may target Iname, Life Aspect. However, this doesn't do anything since the card will no longer be in your graveyard when the creature cards are returned to your hand.
+  - *2021-06-18* — If Iname is your commander in a game of Commander, you may choose to put it in the command zone after it dies, but if you do, you won't be able to exile it. If you do exile it, you may put it into the command zone from exile after resolving its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/215/iname-life-aspect) · oracle_id `cb806239-32bf-4850-be65-239444c347a5` · printing: CHK #215 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

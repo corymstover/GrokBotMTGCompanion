@@ -28,7 +28,10 @@
 - **Flavor text** (BBD printing):
   > *"Everyone has a price."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10297 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/223/gwafa-hazid-profiteer) · oracle_id `7ba31f45-c178-4bac-ab7b-5ba4d050133c` · printing: BBD #223 (2018-06-08) · [rulings](https://api.scryfall.com/cards/da097d1a-6e51-41d7-8dfe-f26acfb0038f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — Creatures with bribery counters on them can't be declared as attackers or blockers. However, if a bribery counter is put on a creature that's already been declared as an attacker or blocker, that creature will continue to attack or block that combat.
+  - *2009-02-01* — If Gwafa Hazid leaves the battlefield, any bribery counters will remain where they are. However, without a Gwafa Hazid on the battlefield, creatures with bribery counters on them can attack and block as normal. If another Gwafa Hazid enters, its ability will affect all creatures with bribery counters on them, including the ones that received counters from a different Gwafa Hazid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/223/gwafa-hazid-profiteer) · oracle_id `7ba31f45-c178-4bac-ab7b-5ba4d050133c` · printing: BBD #223 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwaihir, Greatest of the Eagles
 
@@ -41,7 +44,11 @@
   > At the beginning of each end step, if you gained 3 or more life this turn, create a 3/3 white Bird creature token with flying and "Whenever this token attacks, target attacking creature gains flying until end of turn."
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5945 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/15/gwaihir-greatest-of-the-eagles) · oracle_id `77572e70-4b8b-46ae-8c8d-f71b7dd456e0` · printing: LTC #15 (2023-06-23) · [rulings](https://api.scryfall.com/cards/9c17c3bb-aa20-43b0-8a28-b46a18b060ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-06-16* — Gwaihir, Greatest of the Eagles's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
+  - *2023-06-16* — If you haven't gained 3 or more life by the time an end step begins, Gwaihir, Greatest of the Eagles's ability won't trigger at all.
+  - *2023-06-16* — You create just one Bird token, no matter how much life you've gained past 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/15/gwaihir-greatest-of-the-eagles) · oracle_id `77572e70-4b8b-46ae-8c8d-f71b7dd456e0` · printing: LTC #15 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwaihir the Windlord
 
@@ -56,6 +63,7 @@
   > *There came Gwaihir the Windlord, greatest of all the Eagles of the North, mightiest of the descendants of old Thorondor.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6694 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/210/gwaihir-the-windlord) · oracle_id `b967fbb8-ddc8-485b-bd18-cbf3ef6b1bf8` · printing: LTR #210 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1a42c951-1146-4f49-a690-7d385962b191/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwendlyn Di Corci
@@ -68,6 +76,7 @@
 - **Flavor text** (ME3 printing):
   > *Urborg became the final resting place of many swordsmen of renown, their steel outmatched by the wiles of Gwendlyn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24945 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/149/gwendlyn-di-corci) · oracle_id `de44e7c8-01f9-44f9-9716-9e8a5b82b1ff` · printing: ME3 #149 (2009-09-07) · [rulings](https://api.scryfall.com/cards/a496823b-c864-4591-b395-5493383d11a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenna, Eyes of Gaea
@@ -79,6 +88,7 @@
   > {T}: Add two mana in any combination of colors. Spend this mana only to cast creature spells or activate abilities of creature sources.
   > Whenever you cast a creature spell with power 5 or greater, put a +1/+1 counter on Gwenna and untap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1673 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/185/gwenna-eyes-of-gaea) · oracle_id `7d95e72a-461e-4993-a190-847466a4b17c` · printing: BRO #185 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7ee387b7-18e4-41b7-aefe-f2b5954e3051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwenom, Remorseless
@@ -91,7 +101,14 @@
   > Whenever Gwenom attacks, until end of turn, you may look at the top card of your library any time and you may play cards from the top of your library. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2726 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/56/gwenom-remorseless) · oracle_id `c48cf135-b280-4e9f-a9d9-225104870741` · printing: SPM #56 (2025-09-26) · [rulings](https://api.scryfall.com/cards/46b6cc5d-7a37-4e8b-a1a5-9a573056610c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-09-19* — After the resolution of the triggered ability, Gwenom lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand. Once the effect has ended in your cleanup step, however, you may not look at the top card anymore.
+  - *2025-09-19* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2025-09-19* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2025-09-19* — If you cast a spell for another cost "rather than pay its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as a kicker cost. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2025-09-19* — You can play a land card from the top of your library only if you have available land plays remaining.
+  - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/56/gwenom-remorseless) · oracle_id `c48cf135-b280-4e9f-a9d9-225104870741` · printing: SPM #56 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwen Stacy // Ghost-Spider
 
@@ -109,7 +126,21 @@
   > Remove two counters from Ghost-Spider: Exile the top card of your library. You may play that card this turn.
 - **Keywords:** Flying, Vigilance, Transform, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8429 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/78/gwen-stacy-ghost-spider) · oracle_id `5f143d87-35fb-40e3-94ae-f85cfff9adb5` · printing: SPM #78 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b0f1597f-1dc7-465e-8fcb-0afe61bcca46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-09-19* — A modal double-faced card can be transformed or be put onto the battlefield transformed. This is a change from previous rules. If an effect instructs you to transform a modal double-faced card on the battlefield, it transforms only if its other face has a permanent type (that is, if its other face isn't an instant or sorcery). If it doesn't, it simply won't transform. Similarly, if an effect attempts to put a modal double-faced card onto the battlefield transformed, it will enter transformed if its back face has a permanent type. If it doesn't, it will simply stay in its current zone.
+  - *2025-09-19* — Each double-faced card has an icon in the top-left corner of each face. For modal double-faced cards in this set, these icons are a single black triangle for the front face, and a double white triangle for the back face.
+  - *2025-09-19* — Each face of a double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced card is on the stack or battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-09-19* — Ghost-Spider's triggered ability will trigger even if the spell you cast isn't represented by a card. For example, if an effect copies a card in exile and allows you to cast the copy, casting that copy will cause Ghost-Spider's triggered ability to trigger.
+  - *2025-09-19* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2025-09-19* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up.
+  - *2025-09-19* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2025-09-19* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2025-09-19* — One or both faces of a double-faced card may include a reminder about what's on the other face. This reminder text has no effect on gameplay.
+  - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
+  - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2025-09-19* — Transforming Gwen Stacy doesn't cause her to leave the battlefield, which means that the card you exiled when she entered can still be played after she transforms.
+  - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/78/gwen-stacy-ghost-spider) · oracle_id `5f143d87-35fb-40e3-94ae-f85cfff9adb5` · printing: SPM #78 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gwyllion Hedge-Mage
 
@@ -120,4 +151,9 @@
   > When this creature enters, if you control two or more Plains, you may create a 1/1 white Kithkin Soldier creature token.
   > When this creature enters, if you control two or more Swamps, you may put a -1/-1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/201/gwyllion-hedge-mage) · oracle_id `b89b285d-62d3-4013-b881-23f0f236337d` · printing: CMA #201 (2017-06-09) · [rulings](https://api.scryfall.com/cards/e77fb4ee-7595-47e9-846a-73dc0f55bd33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don't plan to use the ability.
+  - *2008-08-01* — Both abilities trigger at the same time. You can put them on the stack in any order.
+  - *2008-08-01* — Each of the triggered abilities has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters, and (2) the ability will do nothing if you don't control two or more lands of the appropriate land type by the time it resolves.
+  - *2008-08-01* — Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/201/gwyllion-hedge-mage) · oracle_id `b89b285d-62d3-4013-b881-23f0f236337d` · printing: CMA #201 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

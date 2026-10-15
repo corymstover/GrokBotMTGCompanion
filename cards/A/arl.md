@@ -26,7 +26,15 @@
   > −6: You get an emblem with "Creatures you control have haste and '{T}: This creature deals damage equal to its power to any target.'"
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/230/arlinn-kord-arlinn-embraced-by-the-moon) · oracle_id `6bb7d0df-7a9f-4e17-8c31-7628c4b12356` · printing: INR #230 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e72d7c11-2165-4c72-80f3-3c1a7b4b5572/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-09-29* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+  - *2025-01-24* — Arlinn, Embraced by the Moon is not a Werewolf card; that is, she doesn’t have the creature type Werewolf. Spells and abilities that refer to Werewolf cards or Werewolves don’t apply to Arlinn.
+  - *2025-01-24* — The emblem grants the activated ability to your creatures. Use the power of the creature as the activated ability resolves to determine how much damage is dealt. If the creature isn’t on the battlefield at that time, use its power as it last existed on the battlefield. Note that this works differently than the fight keyword action, which requires both creatures to be on the battlefield for any damage to be dealt.
+  - *2025-01-24* — The set of creatures affected by the first ability of Arlinn, Embraced by the Moon is determined as the ability resolves. Creatures you begin to control later in the turn won’t get +1/+1 or gain trample.
+  - *2025-01-24* — When the ability that transforms Arlinn Kord into Arlinn, Embraced by the Moon (or vice versa) resolves, the number of loyalty counters on her doesn’t change.
+  - *2025-01-24* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
+  - *2025-01-24* — You can’t activate a loyalty ability of Arlinn Kord and later that turn after she transforms activate a loyalty ability of Arlinn, Embraced by the Moon (or vice versa).
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/230/arlinn-kord-arlinn-embraced-by-the-moon) · oracle_id `6bb7d0df-7a9f-4e17-8c31-7628c4b12356` · printing: INR #230 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn's Wolf
 
@@ -39,7 +47,9 @@
   > *"If you don't speak wolf, allow me to translate: 'One step closer and I'll rip out your throat.'"*
   > *—Arlinn Kord*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/151/arlinns-wolf) · oracle_id `fe4c0f02-c5fd-4cd5-9f80-0936e3875f1c` · printing: WAR #151 (2019-05-03) · [rulings](https://api.scryfall.com/cards/747223a5-c669-4d0e-a062-265eb47710cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — Once a creature with power 3 or greater has blocked this creature, changing the power of the blocking creature won’t cause this creature to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/151/arlinns-wolf) · oracle_id `fe4c0f02-c5fd-4cd5-9f80-0936e3875f1c` · printing: WAR #151 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn, the Pack's Hope // Arlinn, the Moon's Fury
 
@@ -56,7 +66,17 @@
   > 0: Until end of turn, Arlinn becomes a 5/5 Werewolf creature with trample, indestructible, and haste.
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/211/arlinn-the-packs-hope-arlinn-the-moons-fury) · oracle_id `f227ce07-7e96-4a36-ab7c-9be6e777d649` · printing: MID #211 (2021-09-24) · [rulings](https://api.scryfall.com/cards/50d4b0df-a1d8-494f-a019-70ce34161320/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — Double-faced permanents with daybound transform to their nightbound faces as it becomes night. Similarly, double-faced permanents with nightbound transform to their daybound faces as it becomes day. This happens immediately and is not a state-based action. It happens any time it becomes day or night, not just during the untap step.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If it is night, permanents with daybound that enter the battlefield without being cast will enter with their nightbound faces up.
+  - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
+  - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
+  - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/211/arlinn-the-packs-hope-arlinn-the-moons-fury) · oracle_id `f227ce07-7e96-4a36-ab7c-9be6e777d649` · printing: MID #211 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn, Voice of the Pack
 
@@ -67,4 +87,8 @@
   > Each creature you control that's a Wolf or a Werewolf enters with an additional +1/+1 counter on it.
   > −2: Create a 2/2 green Wolf creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/150/arlinn-voice-of-the-pack) · oracle_id `a15b83df-91b7-49f0-9bec-5776a3dac8bd` · printing: WAR #150 (2019-05-03) · [rulings](https://api.scryfall.com/cards/5391d2f1-e8d3-4d39-98cf-367888e10534/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — A creature that’s a Wolf or Werewolf enters the battlefield with one +1/+1 counter if it would otherwise enter with no +1/+1 counters.
+  - *2019-05-03* — A creature that’s both a Wolf and a Werewolf receives only one additional +1/+1 counter from Arlinn’s ability.
+  - *2019-05-03* — If Arlinn leaves the battlefield before her last ability resolves, most likely because she only had 2 loyalty when you activated the ability, the Wolf token won’t enter the battlefield with a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/150/arlinn-voice-of-the-pack) · oracle_id `a15b83df-91b7-49f0-9bec-5776a3dac8bd` · printing: WAR #150 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

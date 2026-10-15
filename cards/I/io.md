@@ -28,7 +28,9 @@
   > *—Iona*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/21/ionas-blessing) · oracle_id `fc5bde87-231e-424a-a8fa-cd9910a09d43` · printing: OGW #21 (2016-01-22) · [rulings](https://api.scryfall.com/cards/a30f26f7-5181-4bf1-9084-5563b4996a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — The ability to block an additional creature is cumulative. If a creature is enchanted with two Iona’s Blessings, it can block three creatures each combat. (The +2/+2 is also cumulative, but you knew that.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/21/ionas-blessing) · oracle_id `fc5bde87-231e-424a-a8fa-cd9910a09d43` · printing: OGW #21 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iona, Shield of Emeria
 
@@ -43,7 +45,10 @@
   > *No more shall the righteous cower before evil.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/20/iona-shield-of-emeria) · oracle_id `5e816472-561d-43d1-ad28-80a829e2a91a` · printing: MM2 #20 (2015-05-22) · [rulings](https://api.scryfall.com/cards/6197b59e-1652-496c-a038-e2eb88ecf017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Iona's third ability includes permanent spells (artifacts, creatures, enchantments, and planeswalkers), not just instant and sorcery spells. It does not include lands or abilities (such as cycling or unearth).
+  - *2009-10-01* — Once the color is chosen, it's too late for opponents to respond by casting spells of that color. Iona is not yet in the battlefield at the time the color is chosen, so, for example, there's no way for an opponent to destroy it by casting Doom Blade if the chosen color is black.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/20/iona-shield-of-emeria) · oracle_id `5e816472-561d-43d1-ad28-80a829e2a91a` · printing: MM2 #20 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iona's Judgment
 
@@ -54,6 +59,7 @@
 - **Flavor text** (CMR printing):
   > *Beneath the gaze of angels, only the righteous may stand without fear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23531 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/25/ionas-judgment) · oracle_id `abbfbe50-4caf-48d0-b8f1-f2c9212bcd2f` · printing: CMR #25 (2020-11-20) · [rulings](https://api.scryfall.com/cards/e792e689-0cf8-4bd0-b2f1-4edff9972e18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ionize
@@ -65,7 +71,9 @@
 - **Flavor text** (GRN printing):
   > *"Countermagic is a simple process of breaking matter into its elementary particles."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7669 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/179/ionize) · oracle_id `01da67a5-e3dc-44f4-8a93-513bfa4d8fbc` · printing: GRN #179 (2018-10-05) · [rulings](https://api.scryfall.com/cards/f161f7d2-eaa1-4931-93f9-befa8b5df821/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — A spell that can’t be countered is a legal target for Ionize. The spell won’t be countered when Ionize resolves, but Ionize still deals 2 damage to that spell’s controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/179/ionize) · oracle_id `01da67a5-e3dc-44f4-8a93-513bfa4d8fbc` · printing: GRN #179 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ion Storm
 
@@ -76,6 +84,7 @@
 - **Flavor text** (MOC printing):
   > *When enough artifacts lie too long in the same place, their magical radiation weakens reality, opening rifts of unpredictable destructive power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/286/ion-storm) · oracle_id `448e0cf2-c97c-4dc0-96ef-91f1eb75d97c` · printing: MOC #286 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3871356b-a44c-4393-a69b-e5101508c5a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ioreth of the Healing House
@@ -89,6 +98,7 @@
 - **Flavor text** (LTR printing):
   > *"I have been too busy with this and that to heed all the crying and shouting. All I hope is that those murdering devils do not come to this House and trouble the sick."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2419 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/56/ioreth-of-the-healing-house) · oracle_id `af6e4c3e-0276-4f72-9a70-25868fe8bba5` · printing: LTR #56 (2023-06-23) · [rulings](https://api.scryfall.com/cards/03ab74cd-978a-49eb-9d38-bc8b472b3cef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ior Ruin Expedition
@@ -100,4 +110,8 @@
   > Remove three quest counters from this enchantment and sacrifice it: Draw two cards.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15148 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/398/ior-ruin-expedition) · oracle_id `fc338ba2-c3a4-45d6-895f-af7f72bf7a94` · printing: CMR #398 (2020-11-20) · [rulings](https://api.scryfall.com/cards/fd466b20-d11d-419e-8765-9befb9590299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/398/ior-ruin-expedition) · oracle_id `fc338ba2-c3a4-45d6-895f-af7f72bf7a94` · printing: CMR #398 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

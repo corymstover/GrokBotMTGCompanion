@@ -27,6 +27,7 @@
   > *—X*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/46/spy-eye) · oracle_id `0b4b9a83-e1bc-446b-9293-0618bb2696cf` · printing: UST #46 (2017-12-08) · [rulings](https://api.scryfall.com/cards/0e84a9db-8130-489b-9f76-e3ecd35a0fd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spyglass Siren
@@ -39,7 +40,15 @@
   > When this creature enters, create a Map token. (It's an artifact with "{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.")
 - **Keywords:** Flying, Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7655 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/78/spyglass-siren) · oracle_id `4ec9d9eb-14e2-47ea-88a2-d2394e363784` · printing: LCI #78 (2023-11-17) · [rulings](https://api.scryfall.com/cards/41e54343-95e5-4dc4-9f18-e4a415fe5e0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/78/spyglass-siren) · oracle_id `4ec9d9eb-14e2-47ea-88a2-d2394e363784` · printing: LCI #78 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spy Kit
 
@@ -52,7 +61,11 @@
   > *Imitation is the sincerest form of treachery.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21687 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/79/spy-kit) · oracle_id `4d94f5bd-42c6-4d15-a693-8be189ec3746` · printing: CN2 #79 (2016-08-26) · [rulings](https://api.scryfall.com/cards/c0fd4069-5860-42f5-9f7f-e07f1d4ff0b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-08-23* — If you named any nonlegendary creature card for hidden agenda or draft abilities that refer to a creature on the battlefield, the equipped creature will have that name and will qualify for any relevant bonuses. For example, equipping Spy Kit to Noble Banneret will enable Noble Banneret's last ability (as long as you noted a nonlegendary card name for it).
+  - *2016-08-23* — Some creature cards have abilities that function during the draft and additional abilities that refer to cards you exiled or information you noted with "cards named [this card's name]." These abilities are linked, so equipping Spy Kit to such a creature won't affect the set of cards it exiled or the information you noted.
+  - *2016-08-23* — The set of names the equipped creature has includes the names of all nonlegendary creature cards in the Oracle card reference, including the back faces of double-faced cards. Notably, the equipped creature won't gain the names of tokens, such as Zombie Token, Goblin Token, and similar. It also won't gain the names of noncreature cards that have become creatures, such as a Wandering Fumarole that has become a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/79/spy-kit) · oracle_id `4d94f5bd-42c6-4d15-a693-8be189ec3746` · printing: CN2 #79 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spymaster's Vault
 
@@ -64,7 +77,13 @@
   > {B}, {T}: Target creature you control connives X, where X is the number of creatures that died this turn. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1154 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/230/spymasters-vault) · oracle_id `69ddca4b-5cc0-45f3-b2e6-a047c8d601be` · printing: MH3 #230 (2024-06-14) · [rulings](https://api.scryfall.com/cards/3d5fbb30-abfc-4e79-8ce5-bbb04a241c9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — Connive X is a variant of connive. If a creature connives X, its controller will draw X cards, discard X cards, then then put a number of +1/+1 counters on the conniving permanent equal to the number of nonland cards discarded this way.
+  - *2024-06-07* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives, although you can't put any +1/+1 counters on it. Abilities that trigger "when [that creature] connives" will trigger.
+  - *2024-06-07* — If no cards are discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive any +1/+1 counters.
+  - *2024-06-07* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard cards but before it receives +1/+1 counters, if any.
+  - *2024-06-07* — You must already control a Swamp as Spymaster's Vault enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Swamp when you control no other Swamps, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/230/spymasters-vault) · oracle_id `69ddca4b-5cc0-45f3-b2e6-a047c8d601be` · printing: MH3 #230 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spy Network
 
@@ -73,4 +92,6 @@
 - **Oracle text:**
   > Look at target player's hand, the top card of that player's library, and any face-down creatures they control. Look at the top four cards of your library, then put them back in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/115/spy-network) · oracle_id `81a5893a-764c-41ea-ba81-346b3c7558a4` · printing: ONS #115 (2002-10-07) · [rulings](https://api.scryfall.com/cards/8a4bed3f-845c-4822-b8af-8b511dce6fe2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only you get to look. You can't show them to others.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/115/spy-network) · oracle_id `81a5893a-764c-41ea-ba81-346b3c7558a4` · printing: ONS #115 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

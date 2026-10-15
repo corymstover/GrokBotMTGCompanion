@@ -28,6 +28,7 @@
   > *"I believe that if you look hard enough, everything has an answer."*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13115 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/636/reed-richards-smartest-man) · oracle_id `51f55021-04e0-49bf-8f1f-de2a578c95fc` · printing: MSC #636 (2026-06-26) · [rulings](https://api.scryfall.com/cards/040dfd14-57e1-4f28-a42b-6d8874b44fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reef Pirates
@@ -41,6 +42,7 @@
   > *Relentless as the tides, souls dark as a moonless night. Bloodshed on their minds, and greed burning in their hearts like molten gold.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27812 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/116/reef-pirates) · oracle_id `13fb5413-0057-4022-84da-2c90ce065ed1` · printing: 5ED #116 (1997-03-24) · [rulings](https://api.scryfall.com/cards/2d712139-bf12-4f7b-bb9b-34d15fac56df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reef Roads
@@ -52,7 +54,9 @@
   > {T}: Add {U}.
   > {1}{U}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with "This token saddles Mounts and crews Vehicles as though its power were 2 greater." Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11680 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/259/reef-roads) · oracle_id `32438050-5ae7-4c19-bcaf-5a07a673e0e0` · printing: DFT #259 (2025-02-14) · [rulings](https://api.scryfall.com/cards/73a8171a-2629-4356-ae86-b4d03aa14bd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — Saddling a Mount or crewing a Vehicle doesn’t cause the token’s power to change.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/259/reef-roads) · oracle_id `32438050-5ae7-4c19-bcaf-5a07a673e0e0` · printing: DFT #259 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reef Shaman
 
@@ -64,6 +68,7 @@
 - **Flavor text** (APC printing):
   > *With one gesture, she can render a thousand years of navigational charts obsolete.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20897 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/29/reef-shaman) · oracle_id `4ad870b2-133c-4229-84a8-f91e4c62fcd0` · printing: APC #29 (2001-06-04) · [rulings](https://api.scryfall.com/cards/c6f56714-0baa-48f9-8da1-50d9279e759c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reef Worm
@@ -74,6 +79,7 @@
 - **Oracle text:**
   > When this creature dies, create a 3/3 blue Fish creature token with "When this token dies, create a 6/6 blue Whale creature token with 'When this token dies, create a 9/9 blue Kraken creature token.'"
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5513 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/271/reef-worm) · oracle_id `e3ad5cbc-4245-4e1e-8204-509381fa0c1c` · printing: MH3 #271 (2024-06-14) · [rulings](https://api.scryfall.com/cards/25576181-a5a4-4baf-a2b4-fbfe13fb9df6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reenact the Crime
@@ -85,4 +91,10 @@
 - **Flavor text** (MKM printing):
   > *At Proft's command, an ethereal model of the ransacked workshop sprang into being, every detail perfectly recreated. He'd missed something—he knew it—but what?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/70/reenact-the-crime) · oracle_id `ebb88893-427f-496c-82a8-94d2bafb5e4c` · printing: MKM #70 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d942e4ce-f582-4264-89aa-9b4a743e6b29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, such as that of Demand Answers, those must be paid to cast the card.
+  - *2024-02-02* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2024-02-02* — You cast the copy while Reenact the Crime is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/70/reenact-the-crime) · oracle_id `ebb88893-427f-496c-82a8-94d2bafb5e4c` · printing: MKM #70 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

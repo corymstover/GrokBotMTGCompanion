@@ -22,6 +22,7 @@
   > Whenever Arvad deals combat damage to an opponent, you may put a legendary permanent card from your hand onto the battlefield.
 - **Keywords:** Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06a/arvad-of-the-weatherlight) · oracle_id `a98df6bd-e806-4ee1-a418-ad318d5d0425` · printing: UNK #RZ06a (2023-07-29) · [rulings](https://api.scryfall.com/cards/37a04a94-d5ed-4f30-a750-fe6db7add1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arvad the Cursed
@@ -36,7 +37,9 @@
   > *"I won't abandon the \*Weatherlight\*. My destiny is to serve at Jhoira's side. This 'illness' means I must trust my faith more and myself less."*
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5131 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/317/arvad-the-cursed) · oracle_id `d561dcff-0a19-46ac-9dee-f374c840d532` · printing: MOC #317 (2023-04-21) · [rulings](https://api.scryfall.com/cards/475d3d3a-8df7-42e8-adeb-5810e48ddaa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a legendary creature you control may become lethal if Arvad leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/317/arvad-the-cursed) · oracle_id `d561dcff-0a19-46ac-9dee-f374c840d532` · printing: MOC #317 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arvinox, the Mind Flail
 
@@ -47,4 +50,6 @@
   > Arvinox isn't a creature unless you control three or more permanents you don't own.
   > At the beginning of your end step, exile the bottom card of each opponent's library face down. For as long as those cards remain exiled, you may look at them, you may cast permanent spells from among them, and you may spend mana as though it were mana of any color to cast those spells.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4982 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/130/arvinox-the-mind-flail) · oracle_id `9abecd23-a2d9-43c7-8d01-f8afdc53026e` · printing: DSC #130 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f81e3110-857c-4074-9c55-7e87c22051c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — For the purposes of deck construction, format legality, and all rules, abilities, and effects that refer to a card’s name, this card’s name is the same as that of Mind Flayer, the Shadow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/130/arvinox-the-mind-flail) · oracle_id `9abecd23-a2d9-43c7-8d01-f8afdc53026e` · printing: DSC #130 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

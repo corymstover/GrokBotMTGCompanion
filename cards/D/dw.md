@@ -68,7 +68,11 @@
   > *The Company had lost a great deal, but they had killed the Great Goblin and many others besides. All in all, they had the best of it.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9646 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/154/dwalin-weaponmaster) · oracle_id `cee583b7-7cc3-40ea-a227-b760839ec291` · printing: HOB #154 (2026-08-14) · [rulings](https://api.scryfall.com/cards/196d9287-a37d-4b27-a83b-a5489a54f081/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-06-29* — A creature equipped by an Equipment with hone counters on it gets +1/+0 for each hone counter on that Equipment. This effect is from the counter itself rather than an ability on the Equipment, so even if the Equipment loses some of its abilities, each hone counter will still grant +1/+0 to the creature.
+  - *2026-06-29* — Hone counters can be put on any Equipment and each one will grant +1/+0 to that Equipment's equipped creature, even if the Equipment the hone counters are on doesn't reference hone counters or have an ability that puts them on itself.
+  - *2026-06-29* — The power boost applies only while the Equipment with hone counters is attached to a creature. If an Equipment with hone counters on it becomes unattached from a creature, leaves the battlefield, or has its hone counters removed, the power of the creature changes immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/154/dwalin-weaponmaster) · oracle_id `cee583b7-7cc3-40ea-a227-b760839ec291` · printing: HOB #154 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarfhold Champion
 
@@ -80,6 +84,7 @@
 - **Flavor text** (AFR printing):
   > *Courage is neither a shield nor an axe, but the will to wield both in defense of the innocent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23456 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/14/dwarfhold-champion) · oracle_id `3db19689-73bb-48b2-a464-63615eb6bba0` · printing: AFR #14 (2021-07-23) · [rulings](https://api.scryfall.com/cards/2404a028-05f5-469b-80e0-e820721ff266/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Armorer
@@ -93,6 +98,7 @@
   > *"The few remaining pieces from this period suggest the Dwarves eventually made weapons and armor out of everything, even children's toys."*
   > *—\*Sarpadian Empires, vol. IV\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11962 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/50/dwarven-armorer) · oracle_id `5bbd27b1-0afd-4d98-a73c-c348c8f08625` · printing: FEM #50 (1994-11-01) · [rulings](https://api.scryfall.com/cards/1d50bf06-97ab-4874-a484-9289f41dc98e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Armory
@@ -105,7 +111,9 @@
   > *"Few of us left, now. Confounded Yeti have opened all the vents. We'd best hide here with the weapons."*
   > *—Perena Deepcutter, Dwarven Armorer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/182/dwarven-armory) · oracle_id `aba53a54-8666-430d-899e-45ad9f783a4a` · printing: ICE #182 (1995-06-03) · [rulings](https://api.scryfall.com/cards/7d14a430-6e08-40cf-970a-cae84bba6ef7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability can be activated during your opponent’s upkeep as well as your own. The upkeep restriction is there to avoid its use during combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/182/dwarven-armory) · oracle_id `aba53a54-8666-430d-899e-45ad9f783a4a` · printing: ICE #182 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Berserker
 
@@ -117,6 +125,7 @@
 - **Flavor text** (WTH printing):
   > *"I may be small, but I can kick \*your\* butt."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21205 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/97/dwarven-berserker) · oracle_id `cc43507a-ca61-45ae-ac0a-4ddb851c27ef` · printing: WTH #97 (1997-06-09) · [rulings](https://api.scryfall.com/cards/7bc734e9-fb09-4094-94b6-76c0458649e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Blastminer
@@ -131,6 +140,7 @@
   > *"Life is too short for something like a hunk of rock to get in my way."*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13353 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/199/dwarven-blastminer) · oracle_id `b373e978-c58b-465a-b68a-9d4acec9dce0` · printing: ONS #199 (2002-10-07) · [rulings](https://api.scryfall.com/cards/2970831a-738b-476f-9d46-39f10a1f91e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Bloodboiler
@@ -143,7 +153,10 @@
 - **Flavor text** (JUD printing):
   > *His battle cry unleashes an avalanche of dwarves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/84/dwarven-bloodboiler) · oracle_id `cbbca098-0b33-4693-8ea7-a2005b79af3d` · printing: JUD #84 (2002-05-27) · [rulings](https://api.scryfall.com/cards/9ac576b2-cda4-4aea-aa5c-933ec0457dda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability can be activated the turn it enters because the ability does not use the {T} symbol.
+  - *2004-10-04* — Yes, it can tap itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/84/dwarven-bloodboiler) · oracle_id `cbbca098-0b33-4693-8ea7-a2005b79af3d` · printing: JUD #84 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Castle Guard
 
@@ -155,6 +168,7 @@
 - **Flavor text** (FIN printing):
   > *"'Lali-ho' is the dwarven greeting!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/18/dwarven-castle-guard) · oracle_id `b51e0ae3-126b-4b7e-9dd1-818a5b8e512a` · printing: FIN #18 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e17c0d27-e88d-4ba9-acbb-3f916cee3d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Catapult
@@ -167,7 +181,11 @@
   > *"Often greatly outnumbered in battle, dwarves relied on catapults as one means of damaging a large army."*
   > *—\*Sarpadian Empires, vol. IV\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27116 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/91/dwarven-catapult) · oracle_id `2aae77ed-1a91-41f5-8dc2-e353d63a7586` · printing: ME1 #91 (2007-09-10) · [rulings](https://api.scryfall.com/cards/9d6310cd-95e2-4e8c-952f-f7c572726a01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Count the number of creatures on resolution of the spell and divide X by that number at that time. If the number of creatures changes before resolution, the damage done may be different than what you expected.
+  - *2007-09-16* — For example, if X is 5 and the targeted opponent controls three creatures, Dwarven Catapult deals 1 damage to each of those creatures.
+  - *2014-02-01* — If the targeted opponent controls more than X creatures, no damage will be dealt to any of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/91/dwarven-catapult) · oracle_id `2aae77ed-1a91-41f5-8dc2-e353d63a7586` · printing: ME1 #91 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Confluencer
 
@@ -177,7 +195,12 @@
 - **Oracle text:**
   > {T}: Destroy target nontoken land. Its controller creates a Mana Confluence token. (It's a land with "{T}, Pay 1 life: Add one mana of any color.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/561/dwarven-confluencer) · oracle_id `d483f61b-6000-43ca-b5eb-8ab1c924ffd6` · printing: MB2 #561 (2024-08-02) · [rulings](https://api.scryfall.com/cards/96cdc702-a314-4f97-96ab-998eb03cad4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Dwarven Confluencer’s last ability creates a token that’s a copy of the card Mana Confluence in the Oracle card reference. Official text for Mana Confluence can be found using the Gatherer card database at Gatherer.Wizards.com (but the reminder text is basically all you need).
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/561/dwarven-confluencer) · oracle_id `d483f61b-6000-43ca-b5eb-8ab1c924ffd6` · printing: MB2 #561 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Demolition Team
 
@@ -189,6 +212,7 @@
 - **Flavor text** (8ED printing):
   > *Foolishly, Najib retreated to his castle at El-Abar; the next morning he was dead. In just one night, the dwarven forces had reduced the mighty walls to mere rubble.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/184/dwarven-demolition-team) · oracle_id `caf3c6ec-d17e-497c-8fe7-6f818ce93f96` · printing: 8ED #184 (2003-07-28) · [rulings](https://api.scryfall.com/cards/94d17787-1f59-4e88-ba57-e69f02bb3ffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Driller
@@ -202,6 +226,7 @@
   > *"Drill the planet, it's no trouble: Mining granite, making rubble."*
   > *—Dwarven drilling song*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/85/dwarven-driller) · oracle_id `5967c3d3-2ef1-4496-b51c-23478fa77f09` · printing: JUD #85 (2002-05-27) · [rulings](https://api.scryfall.com/cards/69d815d3-7e33-4de9-aa36-ff5ffb893d73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Forge-Chanter
@@ -214,7 +239,11 @@
   > Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
 - **Keywords:** Prowess, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17850 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/131/dwarven-forge-chanter) · oracle_id `e69a8970-3ead-479d-860a-26ed65f9c846` · printing: BRO #131 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bbd6a95a-11b9-43aa-b293-20a3102bae71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2022-10-14* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2022-10-14* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/131/dwarven-forge-chanter) · oracle_id `e69a8970-3ead-479d-860a-26ed65f9c846` · printing: BRO #131 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Grunt
 
@@ -228,6 +257,7 @@
   > *—Dwarven compliment*
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/185/dwarven-grunt) · oracle_id `6da00e2d-4287-48eb-8abe-d153318381fd` · printing: ODY #185 (2001-10-01) · [rulings](https://api.scryfall.com/cards/6f00d726-4289-48ff-8c14-6a5080a00fda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Hammer
@@ -240,7 +270,10 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13868 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/219/dwarven-hammer) · oracle_id `a6365f98-f652-492b-81de-5f8cd6fe0a1c` · printing: CMM #219 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c47f7ea0-3cda-4e62-bd10-32854ed2e260/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The Dwarf Berserker creature token enters the battlefield as a 2/1 creature. Any abilities that trigger when a creature with a certain power enters the battlefield will see the token enter as a 2/1 creature.
+  - *2021-02-05* — You decide whether to pay {2} as the enters-the-battlefield ability resolves. If you do, you immediately create the Dwarf Berserker creature token and attach Dwarven Hammer to it. No players may respond to your decision to pay or not, and no player may take actions during this process.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/219/dwarven-hammer) · oracle_id `a6365f98-f652-492b-81de-5f8cd6fe0a1c` · printing: CMM #219 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Hold
 
@@ -252,7 +285,12 @@
   > At the beginning of your upkeep, if this land is tapped, put a storage counter on it.
   > {T}, Remove any number of storage counters from this land: Add {R} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/414/dwarven-hold) · oracle_id `4a6625bd-3dd2-45f1-8dc9-034c833fa90c` · printing: 5ED #414 (1997-03-24) · [rulings](https://api.scryfall.com/cards/79cb55f0-f0e8-4644-8c19-54efe5854973/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Counters are not lost if the land is changed to another land type. They wait around for the land to change back.
+  - *2004-10-04* — If the land is tapped by some external effect, no counters are removed from it.
+  - *2004-10-04* — It is only considered “tapped for mana” if you activate its mana ability and generate mana from it.
+  - *2004-10-04* — Whether or not it is tapped is checked at the beginning of upkeep. If it is not tapped, the ability does not trigger. It also checks during resolution and you only get a counter if it is still tapped then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/414/dwarven-hold) · oracle_id `4a6625bd-3dd2-45f1-8dc9-034c833fa90c` · printing: 5ED #414 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Landslide
 
@@ -263,7 +301,14 @@
   > Destroy target land. If this spell was kicked, destroy another target land.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26899 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/60/dwarven-landslide) · oracle_id `5231a7d6-b6cf-4fa8-8da8-f0ecf023e054` · printing: APC #60 (2001-06-04) · [rulings](https://api.scryfall.com/cards/48ab243e-d08d-4ece-9725-4bb5f67b1c92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/60/dwarven-landslide) · oracle_id `5231a7d6-b6cf-4fa8-8da8-f0ecf023e054` · printing: APC #60 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Lieutenant
 
@@ -276,6 +321,7 @@
   > *"Dwarven officers were tireless in battle, moving up and down the lines to rally their troops and boost morale."*
   > *—\*Sarpadian Empires, vol. IV\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24603 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/52/dwarven-lieutenant) · oracle_id `06e18c42-d158-494d-979c-c2ac074a8ee3` · printing: FEM #52 (1994-11-01) · [rulings](https://api.scryfall.com/cards/ea9a38b1-4676-425a-b40d-4fb478966024/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Lightsmith
@@ -288,7 +334,13 @@
   > When this creature enters, creatures your team controls get +1/+1 until end of turn.
 - **Keywords:** Assist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/27/dwarven-lightsmith) · oracle_id `cb9210eb-f5cb-430d-b893-b1d814117043` · printing: BBD #27 (2018-06-08) · [rulings](https://api.scryfall.com/cards/98689a75-aa88-4c83-8104-0352b829503e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-06-08* — Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell’s reminder text.
+  - *2018-06-08* — Dwarven Lightsmith’s ability affects only creatures your team controls at the time it resolves. Creatures that come under your team’s control later in the turn won’t get +1/+1.
+  - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
+  - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
+  - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/27/dwarven-lightsmith) · oracle_id `cb9210eb-f5cb-430d-b893-b1d814117043` · printing: BBD #27 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Mattock
 
@@ -300,6 +352,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12824 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/172/dwarven-mattock) · oracle_id `f75bb13b-41fc-4614-b35e-f456069ce9c6` · printing: HOB #172 (2026-08-14) · [rulings](https://api.scryfall.com/cards/92c6f09d-b525-4e8c-a87c-a74df9dc3b1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Mauler
@@ -312,6 +365,7 @@
 - **Flavor text** (HOB printing):
   > *There rose from across the valley a deep-throated roar. With cries of "Moria!" and "Dáin, Dáin!" the Dwarves of the Iron Hills plunged in.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11856 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/95/dwarven-mauler) · oracle_id `70538676-2ffb-4cad-827e-b55e81088678` · printing: HOB #95 (2026-08-14) · [rulings](https://api.scryfall.com/cards/bd0f0415-43af-4f5d-8999-853c5d42780d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Mine
@@ -323,7 +377,10 @@
   > This land enters tapped unless you control three or more other Mountains.
   > When this land enters untapped, create a 1/1 red Dwarf creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/243/dwarven-mine) · oracle_id `74ed0bd3-ac31-41a4-8220-d8e7c8c1c437` · printing: ELD #243 (2019-10-04) · [rulings](https://api.scryfall.com/cards/5c83074d-0c9b-4b58-94ca-d75240485579/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/243/dwarven-mine) · oracle_id `74ed0bd3-ac31-41a4-8220-d8e7c8c1c437` · printing: ELD #243 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Miner
 
@@ -336,6 +393,7 @@
   > *"Fetch the pestridder, Paka—we've got dwarves in the rutabagas!"*
   > *—Jamul, Femeref farmer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/169/dwarven-miner) · oracle_id `0935377b-384f-4e4c-9fbb-8d2a7d5dc280` · printing: MIR #169 (1996-10-08) · [rulings](https://api.scryfall.com/cards/b7142196-c379-4932-9402-97642ad2ebdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Nomad
@@ -349,6 +407,7 @@
   > *A dwarf's life belongs as much to the land as to the dwarf.*
   > *—Creed of the Stonethrow Clan*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19315 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/170/dwarven-nomad) · oracle_id `db130ff4-7525-421f-b7e7-200921ecbdec` · printing: MIR #170 (1996-10-08) · [rulings](https://api.scryfall.com/cards/30b09e65-5e69-48f8-be9b-a1e9706f18bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Patrol
@@ -362,7 +421,9 @@
 - **Flavor text** (APC printing):
   > *Dwarves never worry about who watches their backs.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/61/dwarven-patrol) · oracle_id `4369adc8-d8e0-4d51-b2a9-7e4a8dfd9f8f` · printing: APC #61 (2001-06-04) · [rulings](https://api.scryfall.com/cards/03c08df5-f5e7-4498-ac80-25ccbe304b26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Remember that lands are not spells.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/61/dwarven-patrol) · oracle_id `4369adc8-d8e0-4d51-b2a9-7e4a8dfd9f8f` · printing: APC #61 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Pony
 
@@ -375,6 +436,7 @@
   > *"I hear Halina's got a pony that can count to six—and likes to eat meat."*
   > *—Chandler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26394 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/70/dwarven-pony) · oracle_id `f47f1c96-0b09-4277-8d61-cffa56d81be7` · printing: HML #70 (1995-10-01) · [rulings](https://api.scryfall.com/cards/53a3019f-0b27-4ba3-be4c-73ed50eb9514/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Priest
@@ -387,7 +449,9 @@
 - **Flavor text** (M19 printing):
   > *"These storied halls are under my protection."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21114 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/11/dwarven-priest) · oracle_id `6a077a9b-d725-4b14-957f-1586db2adf59` · printing: M19 #11 (2018-07-13) · [rulings](https://api.scryfall.com/cards/7e1e0f13-35a6-4a5e-8666-47bc5c275be7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — The number of creatures you control is counted only as Dwarven Priest’s ability resolves. If Dwarven Priest is still on the battlefield, it will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/11/dwarven-priest) · oracle_id `6a077a9b-d725-4b14-957f-1586db2adf59` · printing: M19 #11 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Provisioner
 
@@ -399,6 +463,7 @@
 - **Flavor text** (HOB printing):
   > *They had brought with them a great store of supplies—for the Dwarves could carry very heavy burdens, and bore huge packs in addition to their weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/9/dwarven-provisioner) · oracle_id `8fcab221-8737-4357-b8ee-bad9421739a3` · printing: HOB #9 (2026-08-14) · [rulings](https://api.scryfall.com/cards/1f9a61a1-454e-4d5b-a6dd-1a79fe9dedf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Recruiter
@@ -409,6 +474,7 @@
 - **Oracle text:**
   > When this creature enters, search your library for any number of Dwarf cards, reveal them, then shuffle and put those cards on top in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9346 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/186/dwarven-recruiter) · oracle_id `d047a819-5196-4a16-8d67-a4edaf6fdef0` · printing: ODY #186 (2001-10-01) · [rulings](https://api.scryfall.com/cards/6a15d274-85b4-4f3c-b502-f6dfe7db4d37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Reinforcements
@@ -422,7 +488,11 @@
   > *"Orders? We don't wait for orders!"*
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15220 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/134/dwarven-reinforcements) · oracle_id `b38c567e-fd79-4a74-ab5f-df4a6a8f7e00` · printing: KHM #134 (2021-02-05) · [rulings](https://api.scryfall.com/cards/40bcc7cb-65dd-4bc6-8606-a162fa6c65f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/134/dwarven-reinforcements) · oracle_id `b38c567e-fd79-4a74-ab5f-df4a6a8f7e00` · printing: KHM #134 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Ruins
 
@@ -433,6 +503,7 @@
   > {T}: Add {R}.
   > {T}, Sacrifice this land: Add {R}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8435 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/227/dwarven-ruins) · oracle_id `cbef6ad5-717f-4b02-9c62-e5deba407ad1` · printing: ME2 #227 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0b6adef9-a1c5-452d-94c7-4110f4998180/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Scorcher
@@ -445,6 +516,7 @@
 - **Flavor text** (JUD printing):
   > *Barbarians invented the blaze of glory. Dwarves perfected it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10113 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/86/dwarven-scorcher) · oracle_id `a896cedb-f10a-48ac-82e7-6ae1e8b5a439` · printing: JUD #86 (2002-05-27) · [rulings](https://api.scryfall.com/cards/099873b1-7181-4b9d-8ce1-8ec63c814afe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Sea Clan
@@ -458,7 +530,10 @@
   > *"No dwarf alive can best one of my crew dead."*
   > *—Zeki, Reef Pirate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29852 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/hml/71/dwarven-sea-clan) · oracle_id `55ae9711-65ac-4166-8a51-1deeb10a8904` · printing: HML #71 (1995-10-01) · [rulings](https://api.scryfall.com/cards/4cb722d9-1998-4912-a6f2-4ffa8d21311a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If control of the targeted creature changes between the activating and resolution of the ability (ie, while it's on the stack), then the player who must control an Island as the ability resolves is the creature's new controller.
+  - *2008-08-01* — You can't target a creature if its controller doesn't control an Island as you are activating the ability, and the ability won't resolve if the creature's controller doesn't control an Island as the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hml/71/dwarven-sea-clan) · oracle_id `55ae9711-65ac-4166-8a51-1deeb10a8904` · printing: HML #71 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Shortsword
 
@@ -472,6 +547,7 @@
   > *Dwarves lived long lives if not felled in battle, and they forged their blades to last even longer.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14443 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/10/dwarven-shortsword) · oracle_id `9cc52afb-9788-46f6-9f9b-347513f8a64f` · printing: HOB #10 (2026-08-14) · [rulings](https://api.scryfall.com/cards/f2341cf3-4d2c-4a4f-9aea-8834104a8910/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Shrine
@@ -481,6 +557,7 @@
 - **Oracle text:**
   > Whenever a player casts a spell, this enchantment deals X damage to that player, where X is twice the number of cards in all graveyards with the same name as that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31688 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/187/dwarven-shrine) · oracle_id `ecf613a7-a3df-4da6-b3db-4626b5ae8df6` · printing: ODY #187 (2001-10-01) · [rulings](https://api.scryfall.com/cards/85197997-5e1a-46ce-8f0d-6da5ce297baf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Soldier
@@ -494,6 +571,7 @@
   > *"Let no one say we did not fight until the last . . . ."*
   > *—Headstone fragment from a mass grave found in the Crimson Peaks*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/92/dwarven-soldier) · oracle_id `88f9075c-ea96-4f8d-b0d1-e5e244e824c1` · printing: ME1 #92 (2007-09-10) · [rulings](https://api.scryfall.com/cards/0dfb3fa6-f4d7-4ed0-b2be-661d59d95800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Song
@@ -503,6 +581,7 @@
 - **Oracle text:**
   > One or more target creatures become red until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29866 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/143/dwarven-song) · oracle_id `29b7a220-cfcf-4b44-a5fb-737fd47d46cb` · printing: LEG #143 (1994-06-01) · [rulings](https://api.scryfall.com/cards/29a50f72-9524-4440-9380-9d3e0b693351/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Strike Force
@@ -515,6 +594,7 @@
 - **Flavor text** (ODY printing):
   > *Any given foothill may hide dozens of dwarves waiting to spill from their tunnels like fire ants.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30556 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/188/dwarven-strike-force) · oracle_id `66dd0e68-f5ec-45e5-991f-d588aa726387` · printing: ODY #188 (2001-10-01) · [rulings](https://api.scryfall.com/cards/a2bc3d85-5ba1-4f2e-a676-be989bdb04f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Thaumaturgist
@@ -525,7 +605,12 @@
 - **Oracle text:**
   > {T}: Switch target creature's power and toughness until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23392 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/98/dwarven-thaumaturgist) · oracle_id `019d0013-52fd-4261-9cc8-7efcee5a4616` · printing: WTH #98 (1997-06-09) · [rulings](https://api.scryfall.com/cards/8e68aa29-9f38-48a2-b00a-39aef9d91f6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2005-11-01* — Note that the wording "Effects that alter the creature's power alter its toughness instead, and vice versa, this turn" has been removed.
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/98/dwarven-thaumaturgist) · oracle_id `019d0013-52fd-4261-9cc8-7efcee5a4616` · printing: WTH #98 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Trader
 
@@ -538,6 +623,7 @@
   > *"Their definition of 'fair profit' is certainly novel."*
   > *—Reveka, Wizard Savant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/72a/dwarven-trader) · oracle_id `b40c5f3e-7080-4828-9215-79727c7a911f` · printing: HML #72a (1995-10-01) · [rulings](https://api.scryfall.com/cards/4db9aa47-f42b-41e9-948c-8b012c3809fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Vigilantes
@@ -550,7 +636,9 @@
 - **Flavor text** (VIS printing):
   > *Some dwarves can only be pushed so far.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27165 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/77/dwarven-vigilantes) · oracle_id `b49baf80-237c-41ee-8a22-2b6a68a313e7` · printing: VIS #77 (1997-02-03) · [rulings](https://api.scryfall.com/cards/077d33bb-41bf-440d-939b-67ab5aacb092/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/77/dwarven-vigilantes) · oracle_id `b49baf80-237c-41ee-8a22-2b6a68a313e7` · printing: VIS #77 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Warriors
 
@@ -560,7 +648,10 @@
 - **Oracle text:**
   > {T}: Target creature with power 2 or less can't be blocked this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17084 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/222/dwarven-warriors) · oracle_id `cfc553cd-3b4c-47a9-bffb-e5790befb32c` · printing: 5ED #222 (1997-03-24) · [rulings](https://api.scryfall.com/cards/d217942b-1253-4d4b-b0d2-09fc4e15cc62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you increase the power of the targeted creature after the ability resolves, it still can’t be blocked that turn.
+  - *2004-10-04* — The ability can be activated after a creature is blocked, but it has no effect. Once a creature is blocked, it can’t be unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/222/dwarven-warriors) · oracle_id `cfc553cd-3b4c-47a9-bffb-e5790befb32c` · printing: 5ED #222 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwarven Weaponsmith
 
@@ -573,6 +664,7 @@
   > *"Work with zeal as hammers peal! Melt, anneal, and pound the steel!"*
   > *—Old Dwarvish forge-chant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24652 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/145/dwarven-weaponsmith) · oracle_id `a3541870-3dc9-4571-be98-c0a2b6c468fb` · printing: SUM #145 (1994-06-21) · [rulings](https://api.scryfall.com/cards/aa9d6484-84ce-4dfe-b512-a9168b970ec1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwell on the Past
@@ -585,6 +677,7 @@
   > *None can find what hasn't been lost.*
   > *—Nantuko teaching*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23281 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/124/dwell-on-the-past) · oracle_id `08f361c5-bcb5-4a9b-9610-70609cdc047f` · printing: TOR #124 (2002-02-04) · [rulings](https://api.scryfall.com/cards/77ac905a-839b-4fb5-8c17-7fd6c2c0c492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwindle
@@ -599,7 +692,9 @@
   > *The collection didn't have room to expand, so the wizard improvised a solution.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27522 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/53/dwindle) · oracle_id `48a8fce6-b493-4b1d-8ac8-2a4f4b4781b5` · printing: M19 #53 (2018-07-13) · [rulings](https://api.scryfall.com/cards/cb38f190-30f0-49ca-99c3-d3cdf21075e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Once the enchanted creature is destroyed, the attacking creature won’t assign or deal combat damage unless it has trample or is being blocked by another creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/53/dwindle) · oracle_id `48a8fce6-b493-4b1d-8ac8-2a4f4b4781b5` · printing: M19 #53 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwynen, Gilt-Leaf Daen
 
@@ -612,7 +707,9 @@
   > Whenever Dwynen attacks, you gain 1 life for each attacking Elf you control.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2639 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · [rulings](https://api.scryfall.com/cards/01c00d7b-7fac-4f8c-a1ea-de2cf4d06627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Count the number of attacking Elves you control as Dwynen's last ability resolves to determine how much life to gain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/217/dwynen-gilt-leaf-daen) · oracle_id `30d0d75f-e94c-460b-b957-9f1d655c0f65` · printing: FDN #217 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dwynen's Elite
 
@@ -624,4 +721,6 @@
 - **Flavor text** (FDN printing):
   > *Call one, call them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · [rulings](https://api.scryfall.com/cards/89d94c28-ea2e-4a3d-935f-6b2d9f2efc7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Dwynen's Elite's ability checks at the moment it would trigger to see if you control another Elf. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control another Elf at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/218/dwynens-elite) · oracle_id `3d4a7dd3-9258-4bd1-adc4-08f0205e196a` · printing: FDN #218 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

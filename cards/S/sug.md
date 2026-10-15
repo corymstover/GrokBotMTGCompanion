@@ -23,7 +23,13 @@
   > *Some jokes have the punchline baked in.*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/76/sugar-coat) · oracle_id `1caa8c8a-ff45-4eee-a834-6e5e1fb54721` · printing: BLB #76 (2024-08-02) · [rulings](https://api.scryfall.com/cards/fcacbe71-efb0-49e1-b2d0-3ee65ec6cf8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-07-26* — A creature enchanted with Sugar Coat stops being a creature. Equipment attached to that creature become unattached. Auras attached to that creature will be put into their owner's graveyard (unless they could also enchant a Food artifact).
+  - *2024-07-26* — The enchanted permanent still retains its name, mana cost, and mana value. It isn't a token unless it already was one.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/76/sugar-coat) · oracle_id `1caa8c8a-ff45-4eee-a834-6e5e1fb54721` · printing: BLB #76 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sugar Rush
 
@@ -36,4 +42,5 @@
   > *"I smell frosting. Ready your weapons!"*
   > *—Greta, Scourge of Sweettooth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15029 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/110/sugar-rush) · oracle_id `57085b8e-a85e-4d50-a7d2-9bddfdaf411c` · printing: WOE #110 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a638c9ba-45d6-4b50-a8ab-ef580a0a5d8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

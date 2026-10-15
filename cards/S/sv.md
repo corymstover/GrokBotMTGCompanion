@@ -27,7 +27,9 @@
   > Svega can be your commander.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · [rulings](https://api.scryfall.com/cards/058bb1fd-5e1a-4be9-a174-fbe1938e11a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph22/4/svega-the-unconventional) · oracle_id `fe68fca9-7975-4ad6-a49e-1ed78b815511` · printing: PH22 #4 (2023-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svella, Ice Shaper
 
@@ -38,7 +40,19 @@
   > {3}, {T}: Create a colorless snow artifact token named Icy Manalith with "{T}: Add one mana of any color."
   > {6}{R}{G}, {T}: Look at the top four cards of your library. You may cast a spell from among them without paying its mana cost. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6788 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a7054d48-5ed3-43a1-85e5-9f306b081b4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-02-05* — If the spell has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2021-02-05* — If you cast a spell using Svella’s ability, you do so as part of the resolution of that ability. You can’t wait to cast it later in the turn. Timing permissions based on the card’s type are ignored.
+  - *2021-02-05* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — In some unusual cases, the order of your library will matter as you cast the spell from among the revealed cards. Remember that looking at the top cards of your library doesn’t change their order or allow you to change their order. You don’t put the cards on the bottom of your library until after you are done casting the spell.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The spell you cast with Svella’s last ability is cast from your library.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — You’ll put the cards you didn’t cast on the bottom of your library before the spell you cast resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svogthos, the Restless Tomb
 
@@ -48,7 +62,11 @@
   > {T}: Add {C}.
   > {3}{B}{G}: Until end of turn, this land becomes a black and green Plant Zombie creature with "This creature's power and toughness are each equal to the number of creature cards in your graveyard." It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12757 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/270/svogthos-the-restless-tomb) · oracle_id `a34a70b8-02e5-4e8c-a9e7-b21c5a11dddf` · printing: CM2 #270 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ffe08b0f-bb53-40b9-8057-10b60070459b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-10-01* — While animated, Svogthos’s power and toughness changes each time a creature card enters or leaves its controller’s graveyard.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+  - *2009-10-01* — Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/270/svogthos-the-restless-tomb) · oracle_id `a34a70b8-02e5-4e8c-a9e7-b21c5a11dddf` · printing: CM2 #270 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelunite Priest
 
@@ -61,7 +79,10 @@
   > *"Early Vodalians worshipped Svyelun, goddess of the Pearl Moon. Later she became a more abstract figure."*
   > *—\*Sarpadian Empires, vol. V\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/26/svyelunite-priest) · oracle_id `fb7adbee-a3b0-42bf-988f-9d4faf6bd006` · printing: FEM #26 (1994-11-01) · [rulings](https://api.scryfall.com/cards/316d25ae-7ac6-4f5b-93ab-0e0e28ec104b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Does not cause Auras on the creature to be removed when the ability is activated. An Aura on the battlefield is neither a spell nor an ability.
+  - *2005-08-01* — The effect prevents spells or the effects of permanents from targeting the creature. Auras which confer an ability (such as Lance or Firebreathing) are not prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/26/svyelunite-priest) · oracle_id `fb7adbee-a3b0-42bf-988f-9d4faf6bd006` · printing: FEM #26 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelunite Temple
 
@@ -72,6 +93,7 @@
   > {T}: Add {U}.
   > {T}, Sacrifice this land: Add {U}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/237/svyelunite-temple) · oracle_id `5578cf33-62f5-456c-a58c-f744a25df79b` · printing: ME2 #237 (2008-09-22) · [rulings](https://api.scryfall.com/cards/21fe2f1b-bfd1-4682-ae23-069300de3791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svyelun of Sea and Sky
@@ -84,4 +106,7 @@
   > Whenever Svyelun attacks, draw a card.
   > Other Merfolk you control have ward {1}. (Whenever another Merfolk you control becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3847 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/175/svyelun-of-sea-and-sky) · oracle_id `872bebff-720d-459b-8f86-fb9129a8d1fb` · printing: LCC #175 (2023-11-17) · [rulings](https://api.scryfall.com/cards/01f5ab00-5305-4ac4-915d-feeb591f9389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Damage dealt to creatures remains on those creatures until the cleanup step or until an effect removes that damage. If you control Svyelun of Sea and Sky with at least 4 damage and two other Merfolk and one of those Merfolk leaves the battlefield (or stops being a Merfolk), Svyelun will be destroyed.
+  - *2021-06-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/175/svyelun-of-sea-and-sky) · oracle_id `872bebff-720d-459b-8f86-fb9129a8d1fb` · printing: LCC #175 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

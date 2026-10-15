@@ -133,7 +133,11 @@
 - **Flavor text** (ARB printing):
   > *As pure mana flooded across the shards, it brought a sense of unity even to Jund's vicious food chain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/73/mycoid-shepherd) · oracle_id `c4a4e607-7f37-4dc6-8fc0-f77bdafeb919` · printing: ARB #73 (2009-04-30) · [rulings](https://api.scryfall.com/cards/8331079e-0193-4243-9db9-ec7762a27633/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-05-01* — If Mycoid Shepherd and another creature you control with power 5 or greater are put into a graveyard from the battlefield at the same time, Mycoid Shepherd’s ability will trigger twice.
+  - *2009-05-01* — If another creature you control is put into a graveyard from the battlefield, Mycoid Shepherd’s ability checks that creature’s power as it last existed on the battlefield. If it was 5 or greater, the ability will trigger.
+  - *2009-05-01* — Mycoid Shepherd’s ability will trigger when it’s put into a graveyard from the battlefield no matter what its power is at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/73/mycoid-shepherd) · oracle_id `c4a4e607-7f37-4dc6-8fc0-f77bdafeb919` · printing: ARB #73 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycologist
 
@@ -145,6 +149,7 @@
   > Remove three spore counters from this creature: Create a 1/1 green Saproling creature token.
   > Sacrifice a Saproling: You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19545 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/29/mycologist) · oracle_id `af0bf083-0624-4ccd-b282-a35937e925fe` · printing: TSR #29 (2021-03-19) · [rulings](https://api.scryfall.com/cards/cca60d13-137f-4438-bc51-7ea02ec3c515/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycoloth
@@ -157,7 +162,12 @@
   > At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on this creature.
 - **Keywords:** Devour
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/276/mycoloth) · oracle_id `d7fd16ce-282d-49cd-b2b4-0d25935e7a72` · printing: SOC #276 (2026-04-24) · [rulings](https://api.scryfall.com/cards/924976cf-9b46-4cbf-ab27-07ca72a21608/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — If multiple creatures with devour are entering under your control at the same time, you may use each one's devour ability. A creature you already control can be devoured by only one of them, however. (In other words, you can't sacrifice the same creature to satisfy multiple devour abilities.) All creatures devoured this way are sacrificed at the same time.
+  - *2008-10-01* — The number of Saproling tokens created by the triggered ability is based on the number of +1/+1 counters on Mycoloth, not on the number of creatures Mycoloth devoured. It doesn't matter where the +1/+1 counters came from.
+  - *2008-10-01* — You may choose not to sacrifice any creatures for the Devour ability.
+  - *2008-10-01* — You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/276/mycoloth) · oracle_id `d7fd16ce-282d-49cd-b2b4-0d25935e7a72` · printing: SOC #276 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myconid Spore Tender
 
@@ -170,6 +180,7 @@
   > *Myconid colonies grow and expand at an aggressive rate, but they are friendly and peaceful unless provoked.*
 - **Keywords:** Infesting Spores
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15845 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/243/myconid-spore-tender) · oracle_id `adf59918-a021-4b4e-b672-d82be960726e` · printing: CLB #243 (2022-06-10) · [rulings](https://api.scryfall.com/cards/70408d70-1e4b-41f0-80b1-0d37b3a3918c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Fiend
@@ -183,6 +194,7 @@
   > *"I wish I could take credit for it, but nature progresses on its own, just the way it should."*
   > *—Vorinclex, Voice of Hunger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19267 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/117/mycosynth-fiend) · oracle_id `e7c4bc25-806c-4a75-85bf-a0e66308d5d8` · printing: NPH #117 (2011-05-13) · [rulings](https://api.scryfall.com/cards/bdcd1b8e-9f1f-48a3-b7a1-43a32cc03bb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Golem
@@ -195,7 +207,11 @@
   > Artifact creature spells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/137/mycosynth-golem) · oracle_id `ebcd864a-b7dd-4330-89e1-80576a9437ec` · printing: 5DN #137 (2004-06-04) · [rulings](https://api.scryfall.com/cards/c3200fa2-182f-4515-b326-ab4fdb95c8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-12-01* — If Mycosynth Golem is sacrificed as part of the cost to cast a spell, the cost reduction will already be locked in, and the cost won’t be increased.
+  - *2004-12-01* — The spells gain affinity for artifacts as they’re put onto the stack. They don’t have the ability while they’re cards in your hand.
+  - *2004-12-01* — Two or more instances of the affinity ability are cumulative, even if they’re both affinity for the same thing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/137/mycosynth-golem) · oracle_id `ebcd864a-b7dd-4330-89e1-80576a9437ec` · printing: 5DN #137 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Lattice
 
@@ -206,7 +222,12 @@
   > All cards that aren't on the battlefield, spells, and permanents are colorless.
   > Players may spend mana as though it were mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2053 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/241/mycosynth-lattice) · oracle_id `ae1f2ab5-c6a5-4d49-a746-3cb4668bf805` · printing: BBD #241 (2018-06-08) · [rulings](https://api.scryfall.com/cards/94f89714-3b26-46a2-b9a8-3e664f391cd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-12-01* — Mycosynth Lattice turns all permanents on the battlefield into artifacts. Spells on the stack and cards in other zones aren’t permanents, so those spells and cards don’t become artifacts.
+  - *2004-12-01* — Mycosynth Lattice’s second ability makes everything, in every zone of the game, colorless.
+  - *2004-12-01* — The Lattice’s third ability lets players spend even colorless mana as though it had a color. However, it doesn’t remove restrictions on the mana. For example, Mycosynth Lattice doesn’t allow mana from Vedalken Engineer to be used to cast a nonartifact spell.
+  - *2009-10-01* — The Lattice’s first ability causes Auras to become artifacts. Combined with March of the Machines from the Mirrodin set, this can then make those Auras become creatures. An Aura that’s also a creature can’t enchant anything. It’s unattached the next time state-based actions are checked, and then immediately put into its owner’s graveyard as a second state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/241/mycosynth-lattice) · oracle_id `ae1f2ab5-c6a5-4d49-a746-3cb4668bf805` · printing: BBD #241 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Wellspring
 
@@ -217,7 +238,9 @@
 - **Flavor text** (C21 printing):
   > *The oil created the mycosynth. The mycosynth created New Phyrexia.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2461 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/252/mycosynth-wellspring) · oracle_id `9ec43ec6-b625-4be8-8f79-3679e6657dbc` · printing: C21 #252 (2021-04-23) · [rulings](https://api.scryfall.com/cards/c11c16ff-1786-4426-86b0-d7beb7a71798/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — The ability will trigger when Mycosynth Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered hasn't resolved yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/252/mycosynth-wellspring) · oracle_id `9ec43ec6-b625-4be8-8f79-3679e6657dbc` · printing: C21 #252 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### My Deck is About a Seven
 
@@ -226,6 +249,7 @@
 - **Oracle text:**
   > Choose a number between 6 and 8. My Deck is About a Seven deals that much damage to target creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CR14a/my-deck-is-about-a-seven) · oracle_id `6d623588-a7b8-4df1-a37f-fe959c4f0e93` · printing: UNK #CR14a (2023-07-29) · [rulings](https://api.scryfall.com/cards/4442420f-6ebd-4303-8579-2c71197dc071/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### My First Tome
@@ -237,6 +261,7 @@
 - **Flavor text** (UNH printing):
   > *This card is named My First Tome.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/125/my-first-tome) · oracle_id `2f301cc3-31f7-4728-94c4-4ae1bd0c439c` · printing: UNH #125 (2004-11-19) · [rulings](https://api.scryfall.com/cards/e56ccbd2-c17d-4625-bc11-181d36a84936/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myntasha, Honored One
@@ -248,7 +273,9 @@
   > As an additional cost to cast this spell, you may open a sealed Magic booster pack and put the cards on the bottom of your booster pile in a random order.
   > Spells you cast have booster cascade. (It's like cascade, but use your booster pile rather than your library.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/5/myntasha-honored-one) · oracle_id `6fc7ecff-749b-48a5-8ed4-8154d2570738` · printing: PH19 #5 (2020-08-01) · [rulings](https://api.scryfall.com/cards/d7e57d2f-141f-461a-8f5a-4cec3020442e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/5/myntasha-honored-one) · oracle_id `6fc7ecff-749b-48a5-8ed4-8154d2570738` · printing: PH19 #5 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Blooming Dawn
 
@@ -259,6 +286,7 @@
   > Myojin of Blooming Dawn enters with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Blooming Dawn: Create a 1/1 colorless Spirit creature token for each permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10182 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/31/myojin-of-blooming-dawn) · oracle_id `bfb75b28-0e51-4829-b104-f1679e63c126` · printing: NEC #31 (2022-02-18) · [rulings](https://api.scryfall.com/cards/afd718b5-040b-4bb7-9f0c-b72373d786d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Cleansing Fire
@@ -271,7 +299,9 @@
   > Myojin of Cleansing Fire has indestructible as long as it has a divinity counter on it.
   > Remove a divinity counter from Myojin of Cleansing Fire: Destroy all other creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15730 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/35/myojin-of-cleansing-fire) · oracle_id `c7b088d6-031b-4e50-aa07-69f4fd26df79` · printing: CHK #35 (2004-10-01) · [rulings](https://api.scryfall.com/cards/a0570ba0-2877-46f6-acea-6913f8915d6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/35/myojin-of-cleansing-fire) · oracle_id `c7b088d6-031b-4e50-aa07-69f4fd26df79` · printing: CHK #35 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Cryptic Dreams
 
@@ -282,7 +312,9 @@
   > Myojin of Cryptic Dreams enters with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Cryptic Dreams: Copy target permanent spell you control three times. (The copies become tokens.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7792 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/33/myojin-of-cryptic-dreams) · oracle_id `34da0b06-565f-4964-b8bc-dd106278e086` · printing: NEC #33 (2022-02-18) · [rulings](https://api.scryfall.com/cards/31142a36-3676-4ce4-9f5b-d9252fc30739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If you copy a permanent spell that has targets, such as an Aura spell, those targets remain unchanged.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/33/myojin-of-cryptic-dreams) · oracle_id `34da0b06-565f-4964-b8bc-dd106278e086` · printing: NEC #33 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Grim Betrayal
 
@@ -293,6 +325,7 @@
   > Myojin of Grim Betrayal enters with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Grim Betrayal: Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11929 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/34/myojin-of-grim-betrayal) · oracle_id `896fc91a-1f57-45e2-b135-37bc9c2c80a7` · printing: NEC #34 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3fa18695-e10f-4dd5-b116-8a9891e58c20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Infinite Rage
@@ -305,7 +338,9 @@
   > Myojin of Infinite Rage has indestructible as long as it has a divinity counter on it.
   > Remove a divinity counter from Myojin of Infinite Rage: Destroy all lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17849 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/181/myojin-of-infinite-rage) · oracle_id `aba1d01e-c340-47a3-8432-9d8c4a5cdfe0` · printing: CHK #181 (2004-10-01) · [rulings](https://api.scryfall.com/cards/df630ae9-aa17-46e9-95e7-4980f4a76ade/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/181/myojin-of-infinite-rage) · oracle_id `aba1d01e-c340-47a3-8432-9d8c4a5cdfe0` · printing: CHK #181 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Life's Web
 
@@ -317,7 +352,9 @@
   > Myojin of Life's Web has indestructible as long as it has a divinity counter on it.
   > Remove a divinity counter from Myojin of Life's Web: Put any number of creature cards from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11295 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/229/myojin-of-lifes-web) · oracle_id `8e3eafd7-5823-4cc1-bdb8-c456580e395a` · printing: CHK #229 (2004-10-01) · [rulings](https://api.scryfall.com/cards/efb926ad-e762-4883-8841-73e034d8e21e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/229/myojin-of-lifes-web) · oracle_id `8e3eafd7-5823-4cc1-bdb8-c456580e395a` · printing: CHK #229 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Night's Reach
 
@@ -329,7 +366,9 @@
   > Myojin of Night's Reach has indestructible as long as it has a divinity counter on it.
   > Remove a divinity counter from Myojin of Night's Reach: Each opponent discards their hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11791 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/610/myojin-of-nights-reach) · oracle_id `5ac65688-0a74-4dc4-b6cb-12bdf8aed01e` · printing: FDN #610 (2024-11-15) · [rulings](https://api.scryfall.com/cards/73bc5505-7fa0-4ebf-a691-b4ca5f52b019/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — In a Commander game where this card is your commander, casting it from the command zone does not count as casting it from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/610/myojin-of-nights-reach) · oracle_id `5ac65688-0a74-4dc4-b6cb-12bdf8aed01e` · printing: FDN #610 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Night's Reach and Grim Betrayal
 
@@ -340,6 +379,7 @@
   > Myojin of Night's Reach and Grim Betrayal enters the battlefield with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Night's Reach and Grim Betrayal: Each opponent discards their hand. Put onto the battlefield under your control all creature cards in all graveyards that were put there from anywhere this turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB08/myojin-of-nights-reach-and-grim-betrayal) · oracle_id `46376bc5-a18c-4986-99d7-b3707c516c23` · printing: UNK #RB08 (2023-05-06) · [rulings](https://api.scryfall.com/cards/02da984a-295e-422e-a05a-5d8c1349bc64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Roaring Blades
@@ -351,6 +391,7 @@
   > Myojin of Roaring Blades enters with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Roaring Blades: It deals 7 damage to each of up to three targets.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9463 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/36/myojin-of-roaring-blades) · oracle_id `20d20254-0f77-429a-a74e-0aec08d18f2d` · printing: NEC #36 (2022-02-18) · [rulings](https://api.scryfall.com/cards/1b948181-4688-455c-97ae-990d0ec50f1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Seeing Winds
@@ -363,7 +404,9 @@
   > Myojin of Seeing Winds has indestructible as long as it has a divinity counter on it.
   > Remove a divinity counter from Myojin of Seeing Winds: Draw a card for each permanent you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12739 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/75/myojin-of-seeing-winds) · oracle_id `87f746a3-ca6b-404e-99cc-290a0b23f9c4` · printing: CHK #75 (2004-10-01) · [rulings](https://api.scryfall.com/cards/8f5f8d3a-95e7-4dd9-8510-43517eb02693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/75/myojin-of-seeing-winds) · oracle_id `87f746a3-ca6b-404e-99cc-290a0b23f9c4` · printing: CHK #75 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myojin of Towering Might
 
@@ -374,7 +417,9 @@
   > Myojin of Towering Might enters with an indestructible counter on it if you cast it from your hand.
   > Remove an indestructible counter from Myojin of Towering Might: Distribute eight +1/+1 counters among any number of target creatures you control. They gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11769 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/38/myojin-of-towering-might) · oracle_id `1cb42cf5-ae69-46c5-b2ff-d2c1cd60099b` · printing: NEC #38 (2022-02-18) · [rulings](https://api.scryfall.com/cards/54803ba5-a2d7-4997-8e76-298aff6e1aff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — You choose how to distribute the counters as you activate Myojin of Towering Might's last ability. Each target must get at least one counter. Notably, you cannot choose more than eight targets just to give more creatures trample.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/38/myojin-of-towering-might) · oracle_id `1cb42cf5-ae69-46c5-b2ff-d2c1cd60099b` · printing: NEC #38 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### My Precious // Allure of Power
 
@@ -391,7 +436,20 @@
   > *"It won't see us, will it, my precious?"*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5439 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/176/my-precious-allure-of-power) · oracle_id `2e728381-6db0-4c66-883d-82d718fef833` · printing: HOB #176 (2026-08-14) · [rulings](https://api.scryfall.com/cards/15ae4d50-be2f-412c-bb6b-b0a06b60474a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2026-06-29* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Bilbo, Luckwearer is a blue creature card whose mana value is 2. It can't be put into your hand by the effect of Speak Secrets ("Mill four cards, then put an instant or sorcery card from among them into your hand.").
+  - *2026-06-29* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2026-06-29* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2026-06-29* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to cast it as a permanent later.
+  - *2026-06-29* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to cast it as a permanent spell.
+  - *2026-06-29* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to cast the copy as a permanent.
+  - *2026-06-29* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-06-29* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2026-06-29* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
+  - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/176/my-precious-allure-of-power) · oracle_id `2e728381-6db0-4c66-883d-82d718fef833` · printing: HOB #176 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Adapter
 
@@ -404,6 +462,7 @@
   > *"The simplest way to plan ahead is merely to be ready for everything."*
   > *—Pontifex, elder researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20967 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/210/myr-adapter) · oracle_id `714f916a-10ac-4c54-b1c7-a97b7ad8b9e5` · printing: MRD #210 (2003-10-02) · [rulings](https://api.scryfall.com/cards/0d6ddde9-4427-4a0f-b05c-9cfd886aad2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myra the Magnificent
@@ -416,7 +475,10 @@
   > {X}, {T}: Exile target instant or sorcery card with mana value X from your graveyard and choose an Attraction you control that doesn't have a midway counter on it. Put a midway counter on it. For as long as that Attraction is on the battlefield, whenever you visit it, copy the exiled card. You may cast the copy without paying its mana cost.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15098 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/175/myra-the-magnificent) · oracle_id `4f0c3154-1917-4bb5-9ba2-446943a88808` · printing: UNF #175 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5e57baea-00ee-49dc-80ce-a8c11a67a6db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — Myra’s activated ability creates a delayed triggered ability that will trigger whenever you visit the chosen Attraction. This ability will continue to trigger as long as the Attraction is on the battlefield and the exiled card remains exiled, even if Myra leaves the battlefield, loses her abilities, or changes controllers. It will also continue to trigger if the Attraction somehow loses the midway counter.
+  - *2022-10-07* — Myra’s activated ability targets only the instant or sorcery card in your graveyard. It doesn’t target the Attraction. You choose the Attraction as the ability is resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/175/myra-the-magnificent) · oracle_id `4f0c3154-1917-4bb5-9ba2-446943a88808` · printing: UNF #175 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Battlesphere
 
@@ -427,7 +489,11 @@
   > When this creature enters, create four 1/1 colorless Myr artifact creature tokens.
   > Whenever this creature attacks, you may tap X untapped Myr you control. If you do, this creature gets +X/+0 until end of turn and deals X damage to the player or planeswalker it's attacking.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/322/myr-battlesphere) · oracle_id `c53ba31a-ba27-4e17-9a92-311acb1cab29` · printing: TDC #322 (2025-04-11) · [rulings](https://api.scryfall.com/cards/71e7ef4a-2032-4571-afc6-5207d4b40c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — As the last ability resolves, you can tap untapped Myr you control even if Myr Battlesphere is no longer on the battlefield by then. If that has happened, Myr Battlesphere won't be able to get the +X/+0 bonus, but it will still deal X damage to the appropriate player or planeswalker.
+  - *2020-08-07* — You can tap any untapped Myr you control as the last ability resolves, not just the Myr tokens you created with the first ability. This includes Myr that haven't been under your control since your most recent turn began.
+  - *2020-08-07* — You choose the value for X as the last ability resolves. You can't choose a value for X that's greater than the number of untapped Myr you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/322/myr-battlesphere) · oracle_id `c53ba31a-ba27-4e17-9a92-311acb1cab29` · printing: TDC #322 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Convert
 
@@ -441,7 +507,15 @@
   > *Humble, obedient, and tireless, myr require little modification to excel as servants of Phyrexia.*
 - **Keywords:** Toxic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/234/myr-convert) · oracle_id `6abf433e-27da-4abb-b262-3af792a1db23` · printing: ONE #234 (2023-02-10) · [rulings](https://api.scryfall.com/cards/9df0adcf-7ad0-4d70-8dcd-28f69471495b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/234/myr-convert) · oracle_id `6abf433e-27da-4abb-b262-3af792a1db23` · printing: ONE #234 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Custodian
 
@@ -455,7 +529,9 @@
   > *—Urtet, Remnant of Memnarch*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12750 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/235/myr-custodian) · oracle_id `43923f24-7e95-4934-9a5c-8d9a5e06ddea` · printing: ONE #235 (2023-02-10) · [rulings](https://api.scryfall.com/cards/56bfdd21-4d46-4ec2-ba25-f16b6993f1a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — As the enters-the battlefield ability resolves, first you scry 2. Then each opponent in turn order chooses whether or not to scry 1. Those who do (likely all of them) look at the top card of their library at the same time, then they decide in turn order where their card goes. Each opponent will know the choices of previous players in turn order before making their own choices.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/235/myr-custodian) · oracle_id `43923f24-7e95-4934-9a5c-8d9a5e06ddea` · printing: ONE #235 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrel, Shield of Argive
 
@@ -466,7 +542,10 @@
   > During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.
   > Whenever Myrel attacks, create X 1/1 colorless Soldier artifact creature tokens, where X is the number of Soldiers you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1537 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/18/myrel-shield-of-argive) · oracle_id `503094aa-6f8f-42c1-ad5a-9305934e5f0c` · printing: BRO #18 (2022-11-18) · [rulings](https://api.scryfall.com/cards/e632ed57-bb00-4493-adef-7b4805edd7ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip and unearth) are activated abilities and will have colons in their reminder text.
+  - *2022-10-14* — Myrel, Shield of Argive's first ability prevents opponents from activating abilities of permanents on the battlefield that are artifacts, creatures, and/or enchantments. It doesn't prevent activated abilities from cards in any zone other than the battlefield. Notably, this means that your opponents may still activate abilities of cards in their graveyard (such as unearth).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/18/myrel-shield-of-argive) · oracle_id `503094aa-6f8f-42c1-ad5a-9305934e5f0c` · printing: BRO #18 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Enforcer
 
@@ -479,6 +558,7 @@
   > *Most myr monitor other species. Some myr monitor other myr.*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/224/myr-enforcer) · oracle_id `2d8e1054-654f-42e8-8c29-12c3cf13a3eb` · printing: MM2 #224 (2015-05-22) · [rulings](https://api.scryfall.com/cards/dff51ae7-4b68-4770-915b-fb6bcf9ca1ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Galvanizer
@@ -493,6 +573,7 @@
   > *"We can't quite determine what they're doing, but they seem to be doing it quite well."*
   > *—Vedalken research notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/181/myr-galvanizer) · oracle_id `e070028e-468a-41e9-9ddd-a8cd01551266` · printing: SOM #181 (2010-10-01) · [rulings](https://api.scryfall.com/cards/e55ca835-b7f3-497c-b0bc-50a182cabecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myriad Construct
@@ -506,7 +587,17 @@
   > When this creature becomes the target of a spell, sacrifice it and create a number of 1/1 colorless Construct artifact creature tokens equal to its power.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11513 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/963/myriad-construct) · oracle_id `f54111c8-9c20-4a73-a7c4-24d216e7de07` · printing: CMM #963 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fe102126-9aee-4b50-8bc6-1e979132eb3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — An ability that triggers when a permanent becomes the target of a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-09-25* — If a spell targets Myriad Construct more than once, its last ability triggers only once.
+  - *2020-09-25* — If you don't sacrifice Myriad Construct as its last ability resolves (perhaps because its ability triggered more than once and you've already sacrificed it), you still create Construct tokens. The number of tokens you create is determined by Myriad Construct's power as it last existed on the battlefield.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/963/myriad-construct) · oracle_id `f54111c8-9c20-4a73-a7c4-24d216e7de07` · printing: CMM #963 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myriad Landscape
 
@@ -517,7 +608,9 @@
   > {T}: Add {C}.
   > {2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a0e2098f-1d94-491a-a7e9-a45a9f69e3a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — You can choose to find one basic land card with Myriad Landscape's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Incubator
 
@@ -526,6 +619,7 @@
 - **Oracle text:**
   > {6}, {T}, Sacrifice this artifact: Search your library for any number of artifact cards, exile them, then create that many 1/1 colorless Myr artifact creature tokens. Then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15887 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/212/myr-incubator) · oracle_id `d0a493af-551e-4475-af5d-ec4e080728cb` · printing: MRD #212 (2003-10-02) · [rulings](https://api.scryfall.com/cards/31b0f9ef-7404-4e05-b759-aaf1ebcfcb31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Kinsmith
@@ -539,6 +633,7 @@
   > *"Our resistance is like the myr: small and easily overlooked, but loyal and resilient beyond measure."*
   > *—Melira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/236/myr-kinsmith) · oracle_id `97bb382b-16b2-44db-a2bd-de09ca90bfcc` · printing: ONE #236 (2023-02-10) · [rulings](https://api.scryfall.com/cards/6046e50a-f4c9-4029-a589-62a19371b734/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrkul, Lord of Bones
@@ -550,7 +645,10 @@
   > As long as your life total is less than or equal to half your starting life total, Myrkul has indestructible.
   > Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that card, except it's an enchantment and loses all other card types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10277 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/287/myrkul-lord-of-bones) · oracle_id `11329dd8-b10b-4659-b747-fbdbecf16308` · printing: CLB #287 (2022-06-10) · [rulings](https://api.scryfall.com/cards/82824d05-5215-459a-aa73-3c5a6be3d464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If Myrkul, Lord of Bones is dealt lethal damage at the same time that its controller's life total is reduced to less than or equal to half their starting life total, Myrkul will have indestructible at the time state-based actions are performed and survive.
+  - *2022-06-10* — The last ability creates a copy of the card as it last existed in the graveyard, not of the creature as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/287/myrkul-lord-of-bones) · oracle_id `11329dd8-b10b-4659-b747-fbdbecf16308` · printing: CLB #287 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrkul's Edict
 
@@ -562,6 +660,7 @@
   > 10—19 | Each opponent sacrifices a creature of their choice.
   > 20 | Each opponent sacrifices a creature with the greatest power among creatures that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6135 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/135/myrkuls-edict) · oracle_id `933afaa3-3b23-454c-9465-8f2ba9652b4f` · printing: CLB #135 (2022-06-10) · [rulings](https://api.scryfall.com/cards/adc7c427-aa31-4077-8397-74a9a3802ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrkul's Invoker
@@ -575,6 +674,7 @@
   > *"Your death will make a fine tribute for the Lord of Bones."*
 - **Keywords:** Psychic Blades
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26238 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/136/myrkuls-invoker) · oracle_id `9bc9f027-8a2a-4447-8458-66ed40cb5b0d` · printing: CLB #136 (2022-06-10) · [rulings](https://api.scryfall.com/cards/ca67faa9-2c23-4cc5-b77f-ff75cf0349f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Landshaper
@@ -587,7 +687,9 @@
 - **Flavor text** (DST printing):
   > *One thing the myr can't do is enjoy the scenery.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/131/myr-landshaper) · oracle_id `7432fbe1-dce6-4b3c-a6b4-764f4612a6b6` · printing: DST #131 (2004-02-06) · [rulings](https://api.scryfall.com/cards/0fb654ac-9bb0-465e-8878-5456c154274f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — The land keeps all its other types, subtypes, and supertypes: If it was a basic land, it’s still basic. If it was a Forest, it’s still a Forest.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/131/myr-landshaper) · oracle_id `7432fbe1-dce6-4b3c-a6b4-764f4612a6b6` · printing: DST #131 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Matrix
 
@@ -599,6 +701,7 @@
   > {5}: Create a 1/1 colorless Myr artifact creature token.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9697 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/132/myr-matrix) · oracle_id `46a07fdd-0ca3-4654-9caa-a88fae80c414` · printing: DST #132 (2004-02-06) · [rulings](https://api.scryfall.com/cards/4a1af62e-d566-4f39-a467-244602c9240b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Mindservant
@@ -611,6 +714,7 @@
 - **Flavor text** (MRD printing):
   > *It knows what you are planning, and does not approve.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/213/myr-mindservant) · oracle_id `c0ea83ab-f62e-43ee-b7ad-ddbbc8916632` · printing: MRD #213 (2003-10-02) · [rulings](https://api.scryfall.com/cards/f98ce711-8f68-4487-b67b-be35796ffcff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Moonvessel
@@ -623,7 +727,10 @@
 - **Flavor text** (DST printing):
   > *Memnarch created the myr with three qualities in mind: dependability, controllability, and disposability.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/133/myr-moonvessel) · oracle_id `3e922661-80df-4e84-a12a-524bc74e6c9d` · printing: DST #133 (2004-02-06) · [rulings](https://api.scryfall.com/cards/af0515cc-bf2d-4674-b339-4f4eefbc943d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-25* — The triggered ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2011-01-25* — You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/133/myr-moonvessel) · oracle_id `3e922661-80df-4e84-a12a-524bc74e6c9d` · printing: DST #133 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Propagator
 
@@ -636,7 +743,12 @@
   > *"We will ingest and remake this world in our image, not unlike some admirable designs I have seen here."*
   > *—Vorinclex, Voice of Hunger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9776 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/182/myr-propagator) · oracle_id `d071e2fc-3be8-4168-afa9-ba34edad18b9` · printing: SOM #182 (2010-10-01) · [rulings](https://api.scryfall.com/cards/837e4b25-d70b-48d8-aaad-9622ad93e154/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-01-01* — Here are the weird exceptions promised above. If any copy effects have affected the Myr Propagator whose ability was activated, they’re taken into account when the token is created. For example: If Myr Propagator’s ability is activated, then Myr Propagator temporarily becomes a copy of another creature before its ability resolves (due to Cytoshape, perhaps), the token will be a copy of whatever creature the Myr Propagator is currently a copy of. After the turn ends, the Cytoshaped Myr Propagator reverts back to what it was, but the token will stay as it is. Also, if the copy ability of a creature (such as Cemetery Puca, perhaps) makes it become a copy of Myr Propagator and gain another ability, the token created by this creature’s ability will be a Myr Propagator with that additional ability.
+  - *2011-01-01* — Here’s the detailed version of what happens. As the token is created, it checks the printed values of the Myr Propagator it’s copying — or, if the Myr Propagator whose ability was activated was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won’t copy counters on the Myr Propagator, nor will it copy other effects that have changed Myr Propagator’s power, toughness, types, color, or so on.
+  - *2011-01-01* — If Myr Propagator has left the battlefield by the time its ability resolves, you’ll still put a token onto the battlefield. That token has the copiable values of the characteristics of Myr Propagator as it last existed on the battlefield.
+  - *2011-01-01* — Normally, when a token is created by this ability, it will simply be a Myr Propagator, so it’ll also have the token-creating ability. (See below for weird exceptions.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/182/myr-propagator) · oracle_id `d071e2fc-3be8-4168-afa9-ba34edad18b9` · printing: SOM #182 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Prototype
 
@@ -647,6 +759,7 @@
   > At the beginning of your upkeep, put a +1/+1 counter on this creature.
   > This creature can't attack or block unless you pay {1} for each +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/214/myr-prototype) · oracle_id `496e0fbb-cb01-41d6-9c56-23e3ae2bb4f7` · printing: MRD #214 (2003-10-02) · [rulings](https://api.scryfall.com/cards/6d929b28-c184-4e77-a40b-ee43b8a37d79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Quadropod
@@ -659,7 +772,11 @@
 - **Flavor text** (5DN printing):
   > *Each myr was designed to fill a specific role. This one, for example, was designed to stomp on other myr.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21048 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/138/myr-quadropod) · oracle_id `f53732d3-d317-4042-a0ad-1a99c7ffc94f` · printing: 5DN #138 (2004-06-04) · [rulings](https://api.scryfall.com/cards/5576fe4d-cf12-460b-af15-996baeca5065/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
+  - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
+  - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/138/myr-quadropod) · oracle_id `f53732d3-d317-4042-a0ad-1a99c7ffc94f` · printing: 5DN #138 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Reservoir
 
@@ -671,7 +788,11 @@
 - **Flavor text** (SOM printing):
   > *A mana well as bottomless as the myr are tireless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/183/myr-reservoir) · oracle_id `82b327c6-5cd9-4bee-bef4-860522bded9c` · printing: SOM #183 (2010-10-01) · [rulings](https://api.scryfall.com/cards/60678391-44b2-4525-94dc-ffc5a433b79b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-01-01* — A card, spell, or permanent is a Myr only if it has the subtype Myr, regardless of its name. For example, Myr Reservoir itself is not a Myr.
+  - *2011-01-01* — The mana can’t be spent to activate activated abilities of Myr sources that aren’t on the battlefield.
+  - *2011-01-01* — You can use the mana produced by Myr Reservoir’s first ability to pay an alternative cost or additional cost incurred while casting a Myr spell. It’s not limited to just that spell’s mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/183/myr-reservoir) · oracle_id `82b327c6-5cd9-4bee-bef4-860522bded9c` · printing: SOM #183 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Retriever
 
@@ -683,7 +804,9 @@
 - **Flavor text** (2XM printing):
   > *Mephidross gives up treasure easily . . . as long as you take its place.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #889 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/277/myr-retriever) · oracle_id `d07d3be3-f69d-4484-8467-cffd43871788` · printing: 2XM #277 (2020-08-07) · [rulings](https://api.scryfall.com/cards/7f0149d4-0731-474a-a1c3-28c25e486c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If Myr Retriever dies at the same time as another artifact you own, its ability can target that other artifact card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/277/myr-retriever) · oracle_id `d07d3be3-f69d-4484-8467-cffd43871788` · printing: 2XM #277 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Scrapling
 
@@ -696,6 +819,7 @@
   > *"They're useful creatures, but quite replaceable. I find it best not to get too attached."*
   > *—Pontifex, elder researcher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9451 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/230/myr-scrapling) · oracle_id `1a4ffc1e-2f5e-446a-b1e8-32385b3c083b` · printing: MH2 #230 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5b9072a5-bd7f-4007-a34a-ebe251c95356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Servitor
@@ -708,7 +832,9 @@
 - **Flavor text** (UMA printing):
   > *The Krark Clan enjoys pulling them apart just to watch them reassemble one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/230/myr-servitor) · oracle_id `b6a50858-a013-4703-a9d7-5b69ef9bd9ae` · printing: UMA #230 (2018-12-07) · [rulings](https://api.scryfall.com/cards/d53712a0-e11d-4b83-aebc-8e97244f085b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — The Myr Servitor that's the source of the triggered ability must still be on the battlefield when the ability resolves. If it is, all other Myr Servitor cards are returned from all graveyards to the battlefield under their owner's control. If it's not, no Myr Servitors are returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/230/myr-servitor) · oracle_id `b6a50858-a013-4703-a9d7-5b69ef9bd9ae` · printing: UMA #230 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Sire
 
@@ -720,6 +846,7 @@
 - **Flavor text** (CMM printing):
   > *For the Phyrexians, death is not an end, nor a one-time occurrence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/400/myr-sire) · oracle_id `25794033-bd17-4056-b116-68d3acf52569` · printing: CMM #400 (2023-08-04) · [rulings](https://api.scryfall.com/cards/11ba43d1-e879-40e0-b49c-e009deb7e3aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrsmith
@@ -732,7 +859,10 @@
 - **Flavor text** (CMM printing):
   > *The Auriok see the artificer as a conduit, beckoning new creations into the world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/44/myrsmith) · oracle_id `7fc3798a-3907-4f50-98a1-25b8e1977197` · printing: CMM #44 (2023-08-04) · [rulings](https://api.scryfall.com/cards/78ea3e84-2d78-489f-875a-48e58c956451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-08-07* — While resolving Myrsmith's ability, you can't pay more than {1} to get more than one Myr.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/44/myrsmith) · oracle_id `7fc3798a-3907-4f50-98a1-25b8e1977197` · printing: CMM #44 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Superion
 
@@ -744,7 +874,10 @@
 - **Flavor text** (NPH printing):
   > *Two kinds of myr survive: the powerful and those that stay close by them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/146/myr-superion) · oracle_id `43dac6fa-4cdf-49ec-9e11-2e5e8f9f928b` · printing: NPH #146 (2011-05-13) · [rulings](https://api.scryfall.com/cards/290c6036-02a3-43fa-b0d4-af3818794c3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — Mana produced by abilities of creature cards not on the battlefield, such as Chancellor of the Tangle or Elvish Spirit Guide, can’t be used to cast Myr Superion.
+  - *2011-06-01* — Myr Superion can be cast only with mana produced by the abilities of one or more creatures on the battlefield (such as Alloy Myr or Priest of Urabrask in this set).
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/146/myr-superion) · oracle_id `43dac6fa-4cdf-49ec-9e11-2e5e8f9f928b` · printing: NPH #146 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Turbine
 
@@ -754,7 +887,9 @@
   > {T}: Create a 1/1 colorless Myr artifact creature token.
   > {T}, Tap five untapped Myr you control: Search your library for a Myr creature card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6939 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/117/myr-turbine) · oracle_id `b9043dcd-234f-4144-80db-1cb903c009ea` · printing: MBS #117 (2011-02-04) · [rulings](https://api.scryfall.com/cards/71a76840-47f7-4e1e-b68b-00cb7da98cdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — You can tap a Myr that hasn’t been under your control since your most recent turn began to pay for the cost of the second activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/117/myr-turbine) · oracle_id `b9043dcd-234f-4144-80db-1cb903c009ea` · printing: MBS #117 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Welder
 
@@ -768,7 +903,11 @@
   > *Memnarch designed some myr to follow the levelers and reaffix lost parts. Mirran partisans put that instinct to good use.*
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/118/myr-welder) · oracle_id `ea2cbf5a-2def-450b-9db8-40a5b6a604d0` · printing: MBS #118 (2011-02-04) · [rulings](https://api.scryfall.com/cards/eff75f16-413c-4618-b766-67bd8ff4d161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
+  - *2011-06-01* — If an activated ability of a card exiled with Myr Welder references the card it's printed on by name, treat Myr Welder's version of that ability as though it referenced Myr Welder by name instead. For example, if Lux Cannon (which says, in part, "{T}: Put a charge counter on Lux Cannon.") has been exiled by Myr Welder, Myr Welder has the ability "{T}: Put a charge counter on Myr Welder."
+  - *2011-06-01* — Myr Welder has only the activated abilities of cards it exiles. It doesn't gain triggered abilities or static abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/118/myr-welder) · oracle_id `ea2cbf5a-2def-450b-9db8-40a5b6a604d0` · printing: MBS #118 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysidian Elder
 
@@ -780,7 +919,9 @@
 - **Flavor text** (FIN printing):
   > *"Perhaps this is a test and you must prove yourself worthy."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/145/mysidian-elder) · oracle_id `10039992-d51a-47e7-9a70-02fe2227c163` · printing: FIN #145 (2025-06-13) · [rulings](https://api.scryfall.com/cards/6bc39af4-be19-4889-b930-df7ebf7b9481/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/145/mysidian-elder) · oracle_id `10039992-d51a-47e7-9a70-02fe2227c163` · printing: FIN #145 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysteries of the Deep
 
@@ -794,7 +935,13 @@
   > *—Ilori, merfolk falconer*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/33/mysteries-of-the-deep) · oracle_id `3708eaae-9306-46b2-ae41-7ce6c50be3c7` · printing: WWK #33 (2010-02-05) · [rulings](https://api.scryfall.com/cards/1907b1e9-ae1e-43fb-9033-3c4322277fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — Having more than one land enter the battlefield under your control this turn provides no additional benefit.
+  - *2024-11-08* — Once the spell resolves, having a land enter under your control provides no further benefit.
+  - *2024-11-08* — The effect of this spell's landfall ability replaces its normal effect. If you had a land enter under your control this turn, only the landfall-based effect happens.
+  - *2024-11-08* — The landfall ability checks for an action that has happened in the past. It doesn't matter if a land that entered the battlefield under your control previously in the turn is still on the battlefield, is still under your control, or is still a land.
+  - *2024-11-08* — Whether you had a land enter the battlefield under your control this turn is checked as this spell resolves, not as you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/33/mysteries-of-the-deep) · oracle_id `3708eaae-9306-46b2-ae41-7ce6c50be3c7` · printing: WWK #33 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterio, Master of Illusion
 
@@ -806,7 +953,9 @@
 - **Flavor text** (SPM printing):
   > *A skilled showman, Quentin Beck incorporated lights, special effects, holography . . . all in the service of a . . . DRAMATIC . . . ENTRANCE!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11015 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/37/mysterio-master-of-illusion) · oracle_id `40f664d8-4c73-44aa-8fb1-d38771a42520` · printing: SPM #37 (2025-09-26) · [rulings](https://api.scryfall.com/cards/facbd96f-c088-4377-b740-5e0fe99102bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If Mysterio leaves the battlefield before the tokens are created, the ability that removes them will never trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/37/mysterio-master-of-illusion) · oracle_id `40f664d8-4c73-44aa-8fb1-d38771a42520` · printing: SPM #37 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterio's Mirage
 
@@ -817,6 +966,7 @@
 - **Flavor text** (MSC printing):
   > *"I do not need to control reality when I can manipulate your perception of it. You see what I want you to see."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19059 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/630/mysterios-mirage) · oracle_id `60733a3a-dfc9-429a-af2d-f0ce9a58d533` · printing: MSC #630 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d5628e8b-7df6-4c9e-9ddc-57f124b38470/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterio's Phantasm
@@ -831,6 +981,7 @@
   > *Mysterio's greatest talent was the ability to instill doubt in one's own senses.*
 - **Keywords:** Flying, Vigilance, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17588 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/38/mysterios-phantasm) · oracle_id `99419378-8a23-44f3-aebe-e62d6e20e877` · printing: SPM #38 (2025-09-26) · [rulings](https://api.scryfall.com/cards/79aa0a78-80a2-44be-8a79-92bcba9c040f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Confluence
@@ -840,6 +991,7 @@
 - **Oracle text:**
   > Choose a card at random from among Righteous Confluence, Mystic Confluence, Wretched Confluence, Fiery Confluence, Verdant Confluence, Brokers Confluence, Cabaretti Confluence, Maestros Confluence, Obscura Confluence, and Riveteers Confluence. Create a copy of that card. You may cast the copy without paying its mana cost. (Roll a D10 to determine the random card.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05a/mysterious-confluence) · oracle_id `0f16846f-bcae-401a-a275-adb183180bdf` · printing: UNK #RC05a (2023-07-29) · [rulings](https://api.scryfall.com/cards/1ad6896e-ef6e-4304-ba42-ed18d6873c4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Egg
@@ -853,6 +1005,7 @@
   > *"A good forage if you can find it, but eat it before you get back to sanctuary. The guards won't let you bring it through the gates."*
   > *—Dennae, Savai hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11602 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/3/mysterious-egg) · oracle_id `d3b62851-6013-49e5-8808-fa61b1bdfe98` · printing: IKO #3 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cdfac3c3-7f38-49d6-bd88-dc0f5001116f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Hero
@@ -866,6 +1019,7 @@
   > Whenever this creature deals combat damage to a player, draw a card.
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UU03e/mysterious-hero) · oracle_id `94ca324e-fa68-490b-8dbe-543e3584f1b4` · printing: UNK #UU03e (2026-07-17) · [rulings](https://api.scryfall.com/cards/9f3ab69c-1923-4dac-825b-83fa31ed54a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Limousine
@@ -878,6 +1032,7 @@
   > Crew 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14337 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/22/mysterious-limousine) · oracle_id `864a9276-2fec-49b3-bc53-008608de5ab6` · printing: SNC #22 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a58cb742-0ba7-4795-9772-25d4db0bc4ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Pathlighter
@@ -892,7 +1047,11 @@
   > *For good or ill, most fae can't resist meddling in the adventures of any knight they meet.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/22/mysterious-pathlighter) · oracle_id `fe87e290-8e9d-4269-ad1f-bb31e6eeb7da` · printing: ELD #22 (2019-10-04) · [rulings](https://api.scryfall.com/cards/1028aa10-aded-4aeb-b70f-d7a9003ae846/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — A creature with an Adventure you control that would enter the battlefield with no +1/+1 counters on it enters with one +1/+1 counter on it.
+  - *2019-10-04* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2019-10-04* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/22/mysterious-pathlighter) · oracle_id `fe87e290-8e9d-4269-ad1f-bb31e6eeb7da` · printing: ELD #22 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Stranger
 
@@ -904,7 +1063,12 @@
   > When this creature enters, for each graveyard with an instant or sorcery card in it, exile target instant or sorcery card from that graveyard. If two or more cards are exiled this way, choose one of them at random and copy it. You may cast the copy without paying its mana cost.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9317 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/63/mysterious-stranger) · oracle_id `4cd2e1c2-5f14-4ac9-9c88-899af6ad9f80` · printing: PIP #63 (2024-03-08) · [rulings](https://api.scryfall.com/cards/063ca0fa-1947-48da-86f9-76dd00dfb550/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-03-08* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-03-08* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the card.
+  - *2024-03-08* — If you don’t want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2024-03-08* — You cast the copy while Mysterious Stranger’s last ability is resolving and still on the stack. You can’t wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/63/mysterious-stranger) · oracle_id `4cd2e1c2-5f14-4ac9-9c88-899af6ad9f80` · printing: PIP #63 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Tome // Chilling Chronicle
 
@@ -919,6 +1083,7 @@
   > *But every story ended the same way: the countryside was captured in the icy grip of winter and darkened by eternal night.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20237 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/63/mysterious-tome-chilling-chronicle) · oracle_id `b32253d6-5f00-40a8-a7e5-dc4655cd288c` · printing: MID #63 (2021-09-24) · [rulings](https://api.scryfall.com/cards/caa57b63-bb11-45e8-8795-de92ca61f4f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystery Key
@@ -930,6 +1095,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17371 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/85/mystery-key) · oracle_id `6a1e0dfd-2dd1-4372-966e-e28b48ae0115` · printing: CLB #85 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8894a0f5-2e1d-474f-9400-bdaa91b19fda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Dispute
@@ -942,6 +1108,7 @@
 - **Flavor text** (ELD printing):
   > *"Poor, lost mage. Your feet are on land, yet you're in over your head, aren't you?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/58/mystical-dispute) · oracle_id `48390b8d-db41-48a5-9bac-316660ab7252` · printing: ELD #58 (2019-10-04) · [rulings](https://api.scryfall.com/cards/fbe04cb8-a8b9-4241-baae-b398a2509a3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Teachings
@@ -953,7 +1120,14 @@
   > Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9721 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/594/mystical-teachings) · oracle_id `81d72511-88b4-45ec-a5a9-e722caf55577` · printing: FDN #594 (2024-11-15) · [rulings](https://api.scryfall.com/cards/3f88eacf-5c7b-4a35-86f0-af3b0516d4c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/594/mystical-teachings) · oracle_id `81d72511-88b4-45ec-a5a9-e722caf55577` · printing: FDN #594 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Tether
 
@@ -965,7 +1139,9 @@
 - **Flavor text** (OTJ printing):
   > *Kellan had no plan. He simply poured his focus into the train and willed it to stop.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/19/mystical-tether) · oracle_id `fb1a6986-39f7-4592-9039-7e30f5ccd009` · printing: OTJ #19 (2024-04-19) · [rulings](https://api.scryfall.com/cards/18344498-952e-489c-8b03-bd1bef4c26ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — If Mystical Tether leaves the battlefield before its triggered ability resolves, the target artifact or creature won't be exiled at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/19/mystical-tether) · oracle_id `fb1a6986-39f7-4592-9039-7e30f5ccd009` · printing: OTJ #19 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Tutor
 
@@ -976,7 +1152,9 @@
 - **Flavor text** (DMR printing):
   > *The student searches the world for meaning. The master finds worlds of meaning in the search.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #162 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · [rulings](https://api.scryfall.com/cards/36fa9a0b-b0c9-43ea-ba11-99d7982f974e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Archaeologist
 
@@ -988,6 +1166,7 @@
 - **Flavor text** (FDN printing):
   > *The delight of discovery drives the pursuit of knowledge.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21089 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/511/mystic-archaeologist) · oracle_id `b77dfe2a-ebc9-46b0-9134-2ecb2abdd8be` · printing: FDN #511 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c069ff32-6759-48a2-8674-4f729c91dcd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Barrier
@@ -998,7 +1177,12 @@
   > When this enchantment enters and at the beginning of your upkeep, choose left or right.
   > Each player may attack only the nearest opponent in the last chosen direction and planeswalkers controlled by that opponent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13690 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/18/mystic-barrier) · oracle_id `0caf42f5-abff-48aa-9bbf-df6cba169ef3` · printing: C13 #18 (2013-11-01) · [rulings](https://api.scryfall.com/cards/ffb70bd4-e876-4242-b5b4-bb7493710f0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-10-17* — If two Mystic Barriers are on the battlefield with two different chosen directions, you may not attack a player or planeswalker unless that player or the controller of that planeswalker is the opponent seated nearest you in both directions. (This happens most often in two-player games.)
+  - *2013-10-17* — In some formats, you may need to disregard teammates sitting between you and the opponent seated nearest you in the chosen direction. In formats like Emperor, other rules may prohibit you from attacking that player.
+  - *2013-10-17* — Mystic Barrier affects only what players and planeswalkers each player may attack with creatures they control. It doesn’t affect what players may be targeted by spells or abilities or other interactions.
+  - *2013-10-17* — Mystic Barrier doesn’t affect creatures that enter the battlefield attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/18/mystic-barrier) · oracle_id `0caf42f5-abff-48aa-9bbf-df6cba169ef3` · printing: C13 #18 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Compass
 
@@ -1007,6 +1191,7 @@
 - **Oracle text:**
   > {1}, {T}: Target land becomes the basic land type of your choice until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24561 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/302/mystic-compass) · oracle_id `87bafa97-38fd-41a2-8b1d-315e88d9d0bf` · printing: 6ED #302 (1999-04-21) · [rulings](https://api.scryfall.com/cards/e80bfd76-52f9-4dea-9056-8570c9b290a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Confluence
@@ -1019,7 +1204,13 @@
   > • Return target creature to its owner's hand.
   > • Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/108/mystic-confluence) · oracle_id `cd11c27b-9368-4622-bc5a-2e0b993cc42b` · printing: CMM #108 (2023-08-04) · [rulings](https://api.scryfall.com/cards/62e5d409-c0b6-4123-802d-eb32f223bd1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — If Mystic Confluence is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2021-03-19* — If the middle mode is chosen more than once, you choose the relative order to return the target creatures.
+  - *2021-03-19* — If you choose the first and/or second modes but all of the targets become illegal before Mystic Confluence resolves, the spell won't resolve. If you also chose the last mode once or twice, you won't draw any cards. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2021-03-19* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
+  - *2021-03-19* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until Mystic Confluence is done resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/108/mystic-confluence) · oracle_id `cd11c27b-9368-4622-bc5a-2e0b993cc42b` · printing: CMM #108 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Crusader
 
@@ -1031,6 +1222,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1 and has flying.
 - **Keywords:** Protection, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29924 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/33/mystic-crusader) · oracle_id `937d663d-c9a7-4312-a4cc-fcb54faa92bc` · printing: ODY #33 (2001-10-01) · [rulings](https://api.scryfall.com/cards/27ce1baf-8a89-4884-b0f7-19311bfc8c4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Decree
@@ -1043,7 +1235,9 @@
   > *"Curse Reveka, and curse her coddled conjurers. Their sorcerers' school shall yet be ours."*
   > *—Irini Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25302 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/53/mystic-decree) · oracle_id `06eb8b90-aad8-41c1-bbc5-85ded2fe76bc` · printing: ME4 #53 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2bc4a9a8-1c00-4e37-9942-3c7bb7ff8307/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/53/mystic-decree) · oracle_id `06eb8b90-aad8-41c1-bbc5-85ded2fe76bc` · printing: ME4 #53 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Denial
 
@@ -1052,6 +1246,7 @@
 - **Oracle text:**
   > Counter target creature or sorcery spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28797 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/49/mystic-denial) · oracle_id `d2bd23a6-4f77-4d6e-bf8f-339cb7a4184d` · printing: PTK #49 (1999-05-01) · [rulings](https://api.scryfall.com/cards/1296ddc4-300d-44f6-95d8-1b392613d379/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Doom Sandwich
@@ -1065,6 +1260,7 @@
   > {TK}{TK}{TK}{TK}{TK} — 6/8
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/11/mystic-doom-sandwich) · oracle_id `c490157a-cff5-417b-8f83-15f84398e34f` · printing: SUNF #11 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6995d646-cadc-48bb-911c-9f2e461a9fdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Enforcer
@@ -1077,7 +1273,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +3/+3 and has flying.
 - **Keywords:** Protection, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/192/mystic-enforcer) · oracle_id `cf3b79cc-ce97-48e9-a578-625e323d1b62` · printing: DMR #192 (2023-01-13) · [rulings](https://api.scryfall.com/cards/187ebb67-1bdd-4a9c-aeeb-554e7580ce24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Mystic Enforcer may become lethal if the number of cards in your graveyard falls below seven.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/192/mystic-enforcer) · oracle_id `cf3b79cc-ce97-48e9-a578-625e323d1b62` · printing: DMR #192 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Familiar
 
@@ -1091,6 +1289,7 @@
   > *They soar, and the mystics follow.*
 - **Keywords:** Flying, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/11/mystic-familiar) · oracle_id `9d3931a2-baba-4e6e-b923-44df00900e51` · printing: TOR #11 (2002-02-04) · [rulings](https://api.scryfall.com/cards/b235567a-424e-48da-a94b-c6674a73b3fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Forge
@@ -1102,7 +1301,14 @@
   > You may cast artifact spells and colorless spells from the top of your library.
   > {T}, Pay 1 life: Exile the top card of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/964/mystic-forge) · oracle_id `994bc16d-fdc6-475c-96df-beeb4d5aa03e` · printing: CMM #964 (2023-08-04) · [rulings](https://api.scryfall.com/cards/bc0de77a-c503-4000-9eb5-aa28a5e91082/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-07-12* — Because you never "cast" a land card, Mystic Forge doesn't allow you to play an artifact land from the top of your library.
+  - *2019-07-12* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2019-07-12* — If the top card of your library has a morph ability, you can cast it face down from the top of your library, even if it's normally not a colorless card.
+  - *2019-07-12* — Mystic Forge lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2019-07-12* — You must follow the normal timing permissions and restrictions of the spells you cast from your library.
+  - *2019-07-12* — You still pay all costs for a spell you cast from your library, including additional costs. You may also pay alternative costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/964/mystic-forge) · oracle_id `994bc16d-fdc6-475c-96df-beeb4d5aa03e` · printing: CMM #964 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Gate
 
@@ -1114,6 +1320,7 @@
 - **Flavor text** (FRC printing):
   > *The gate of every kithkin doun is a cunning trap, intended to spill visitors into an oubliette from which there is no escape.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #806 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/76/mystic-gate) · oracle_id `e9f5feb2-2c1a-46ce-885a-4f378d7d10af` · printing: FRC #76 (2026-10-02) · [rulings](https://api.scryfall.com/cards/fa32d90e-1153-42ab-b8ff-0eb82698692c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Genesis
@@ -1126,7 +1333,10 @@
   > *"The Simic can grow anything out of a puddle of sludge. I just hope they never join forces with the Golgari."*
   > *—Teysa Karlov, Grand Envoy of Orzhov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18709 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/174/mystic-genesis) · oracle_id `58940a7e-3827-43fa-8bf5-cc88dc295df0` · printing: MM3 #174 (2017-03-17) · [rulings](https://api.scryfall.com/cards/56b93af3-f7b9-4b66-8a66-366134ebb896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-03-14* — If the target spell is an illegal target when Mystic Genesis tries to resolve, Mystic Genesis won’t resolve and none of its effects will happen. You won’t get an Ooze token.
+  - *2017-03-14* — You may target a spell that can’t be countered. When Mystic Genesis resolves, the target spell will be unaffected, but you’ll still get an Ooze token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/174/mystic-genesis) · oracle_id `58940a7e-3827-43fa-8bf5-cc88dc295df0` · printing: MM3 #174 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Meditation
 
@@ -1138,7 +1348,9 @@
   > *"Still the mind and quiet the heart. Only then will you hear the Multiverse's great truths."*
   > *—Narset*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/64/mystic-meditation) · oracle_id `d7c18aa7-4184-4658-9a5a-0b64992348ee` · printing: DTK #64 (2015-03-27) · [rulings](https://api.scryfall.com/cards/d169f469-10d5-4ae8-88fe-12a8e20ab01b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — You may choose to discard a creature card and another card if you want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/64/mystic-meditation) · oracle_id `d7c18aa7-4184-4658-9a5a-0b64992348ee` · printing: DTK #64 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Melting
 
@@ -1150,6 +1362,7 @@
 - **Flavor text** (CSP printing):
   > *The sun-hot glow radiated from the druids, leaving scattered metal in steaming pools as it passed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27987 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/114/mystic-melting) · oracle_id `850fe8ad-f6b8-4d01-a94b-2b69adc3d8f0` · printing: CSP #114 (2006-07-21) · [rulings](https://api.scryfall.com/cards/bf4ff91d-acc1-4be7-a327-58fcb036b452/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Might
@@ -1162,6 +1375,7 @@
   > Enchanted land has "{T}: Target creature gets +2/+2 until end of turn."
 - **Keywords:** Enchant, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32011 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/86/mystic-might) · oracle_id `967eca77-d273-4fc6-97d1-df7d8cc6ff59` · printing: ICE #86 (1995-06-03) · [rulings](https://api.scryfall.com/cards/e35d7f08-0687-41bd-8c53-31a49adabb11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Monastery
@@ -1175,6 +1389,7 @@
   > *"It may not be the most extravagant or awe-inspiring House of the Deadly Hand of all time, but it's here and it's home."*
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/253/mystic-monastery) · oracle_id `834b8f71-9a45-42ae-9e99-e749fa6fb45e` · printing: MSC #253 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc23343a-3a01-4975-8430-17bf15fa639d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic of the Hidden Way
@@ -1189,7 +1404,18 @@
   > *"There are no obstacles, only different paths."*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/67/mystic-of-the-hidden-way) · oracle_id `530853b4-68a0-4814-b0aa-ffeb5585cd43` · printing: A25 #67 (2018-03-16) · [rulings](https://api.scryfall.com/cards/45261b50-e7cc-40f6-9d0d-44b5ada45e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+  - *2018-03-16* — If a face-down Mystic of the Hidden Way is blocked and then turned face up, it stays blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/67/mystic-of-the-hidden-way) · oracle_id `530853b4-68a0-4814-b0aa-ffeb5585cd43` · printing: A25 #67 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Penitent
 
@@ -1201,6 +1427,7 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+1 and has flying.
 - **Keywords:** Vigilance, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31101 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/34/mystic-penitent) · oracle_id `d3d59704-569d-42a7-8b31-8a31b9c0395f` · printing: ODY #34 (2001-10-01) · [rulings](https://api.scryfall.com/cards/fb37f08b-019e-4e6b-8b15-b2971a3b5ebb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Redaction
@@ -1214,7 +1441,10 @@
   > *"I'm sorry, but this information is classified."*
 - **Keywords:** Mill, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/53/mystic-redaction) · oracle_id `c2e54e13-dad5-4d01-850f-a1735eea54ae` · printing: MH2 #53 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f2f6615e-194d-43aa-815a-34dca2ff4fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If Mystic Redaction's last ability triggers during the cleanup step because you are discarding due to maximum hand size, players will be able to respond to that ability. Then, when all players have passed priority in succession with the stack empty, a new cleanup step will occur.
+  - *2021-06-18* — The ability that defines Necrogoyf's power works in all zones, not just the battlefield. If Necrogoyf is in a graveyard, that ability will count itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/53/mystic-redaction) · oracle_id `c2e54e13-dad5-4d01-850f-a1735eea54ae` · printing: MH2 #53 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Reflection
 
@@ -1225,7 +1455,19 @@
   > Foretell {U} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/69/mystic-reflection) · oracle_id `491dc110-b459-412e-8a0b-45e5744ee8d1` · printing: KHM #69 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f7b877e2-60eb-46cd-acd7-8555b9e7e993/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-02-05* — Any enters-the-battlefield abilities of the copied creature will trigger when the permanents enter the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the target creature will also work.
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If Mystic Reflection resolves, but the target creature leaves the battlefield before the next time one or more creatures or planeswalkers enter the battlefield, use the copiable values of the target creature as it last existed on the battlefield to determine what the entering permanents copy.
+  - *2021-02-05* — If a creature such as Clone is entering the battlefield under your control, there will be two copy effects to apply: the creature’s own and Mystic Reflection’s. No matter which order these effects are applied in, the creature will be a copy of the target creature when it enters the battlefield.
+  - *2021-02-05* — If more than one Mystic Reflection applies to the same permanent entering the battlefield, the controller of that permanent chooses the order of those copy effects. The copy effect they apply last will determine which creature the entering permanent copies.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — In most cases, the copiable values of the target creature won’t change between Mystic Reflection resolving and the next time one or more creatures or planeswalkers enter the battlefield. In some unusual cases, they might, and if they do, use the copiable values of the creature at the time the permanents enter the battlefield.
+  - *2021-02-05* — Other enters-the-battlefield replacement abilities printed on the creatures entering the battlefield won’t be applied because those permanents will already be copies of the target creature at that point (and therefore they won’t have those abilities). External abilities may still affect how those permanents enter the battlefield. For example, if another effect says, “Creatures enter the battlefield tapped,” the permanents will enter as tapped copies of the target creature.
+  - *2021-02-05* — Replacement effects that modify how a creature enters the battlefield are applied in the following order: first, control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Mystic Reflection and Clone), then all other effects.
+  - *2021-02-05* — The entering permanents don’t copy whether the target creature is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/69/mystic-reflection) · oracle_id `491dc110-b459-412e-8a0b-45e5744ee8d1` · printing: KHM #69 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Remora
 
@@ -1236,7 +1478,10 @@
   > Whenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #101 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · [rulings](https://api.scryfall.com/cards/40140991-cffa-4b52-9a25-37e9a8aa9ddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don't, sacrifice it."
+  - *2025-10-02* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if Mystic Remora has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Repeal
 
@@ -1248,6 +1493,7 @@
   > *"No power is too great to be undone."*
   > *—Karametra, god of harvests*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/180/mystic-repeal) · oracle_id `3f453aca-e14f-4460-9334-f0c3f4256a0e` · printing: THB #180 (2020-01-24) · [rulings](https://api.scryfall.com/cards/6797195a-508f-45b1-964d-da842dc46ca8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Restraints
@@ -1261,6 +1507,7 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29873 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/76/mystic-restraints) · oracle_id `efb91243-2617-495f-adb0-1c26a669fb80` · printing: CHK #76 (2004-10-01) · [rulings](https://api.scryfall.com/cards/96cc4428-3f86-4359-927d-4009ada52c5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Retrieval
@@ -1272,7 +1519,15 @@
   > Flashback {2}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/77/mystic-retrieval) · oracle_id `b7cfbfa1-dd38-47ff-9138-fa6b247afc11` · printing: INR #77 (2025-01-24) · [rulings](https://api.scryfall.com/cards/806e5536-103b-4d6c-83b4-8659a55b25b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-22* — Mystic Retrieval can't target itself. It's on the stack when you choose its target.
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/77/mystic-retrieval) · oracle_id `b7cfbfa1-dd38-47ff-9138-fa6b247afc11` · printing: INR #77 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Sanctuary
 
@@ -1283,7 +1538,10 @@
   > This land enters tapped unless you control three or more other Islands.
   > When this land enters untapped, you may put target instant or sorcery card from your graveyard on top of your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/388/mystic-sanctuary) · oracle_id `17b60106-a4c7-410a-8ac3-ec8e74e29a7c` · printing: SOC #388 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4cd86997-d7b9-4b5b-9488-11f5c679e4d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
+  - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/388/mystic-sanctuary) · oracle_id `17b60106-a4c7-410a-8ac3-ec8e74e29a7c` · printing: SOC #388 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Skull // Mystic Monstrosity
 
@@ -1300,6 +1558,7 @@
   > *Under the light of an unnatural moon, it walked out on legs of straw with joints of hinges ripped from the barn doors.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16847 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/256/mystic-skull-mystic-monstrosity) · oracle_id `1a7e367e-1d8d-463d-a35f-4bad44a5ebea` · printing: MID #256 (2021-09-24) · [rulings](https://api.scryfall.com/cards/115a9a44-131d-45f3-852a-40fd18e4afb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Skyfish
@@ -1312,7 +1571,10 @@
 - **Flavor text** (M21 printing):
   > *The problem wasn't that fish had learned how to fly. It was that sharks had adapted to follow them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/326/mystic-skyfish) · oracle_id `645b5784-a6f7-4cf3-966a-e1a51420b96b` · printing: M21 #326 (2020-07-03) · [rulings](https://api.scryfall.com/cards/0002ab72-834b-4c81-82b1-0d2760ea96b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If a spell or ability causes you to put a card into your hand without specifically using the word "draw," it's not a card drawn.
+  - *2020-06-23* — The triggered ability can trigger only once each turn. It doesn't matter if Mystic Skyfish was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/326/mystic-skyfish) · oracle_id `645b5784-a6f7-4cf3-966a-e1a51420b96b` · printing: M21 #326 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Snake
 
@@ -1326,6 +1588,7 @@
   > *Its fangs are in your flesh before its hiss leaves your ears.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5876 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/208/mystic-snake) · oracle_id `161b6d06-e6a7-488e-9f9c-d266c1402a3a` · printing: A25 #208 (2018-03-16) · [rulings](https://api.scryfall.com/cards/2d4bacd1-b602-4bcc-9aea-1229949a7d20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Speculation
@@ -1337,6 +1600,7 @@
   > Scry 3. (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Buyback, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7398 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/41/mystic-speculation) · oracle_id `a58adf82-d9e2-4b47-933e-68180f280ba2` · printing: FUT #41 (2007-05-04) · [rulings](https://api.scryfall.com/cards/92adfcb4-6a0a-46f9-a171-bfa9fade2156/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Subdual
@@ -1349,7 +1613,11 @@
   > Enchanted creature gets -2/-0 and loses all abilities. (Mutating onto the creature won't give it new abilities. It can gain abilities in other ways.)
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/57/mystic-subdual) · oracle_id `fdd423d5-f19b-4bb2-98ca-75cc3c058d32` · printing: IKO #57 (2020-04-24) · [rulings](https://api.scryfall.com/cards/627c2111-b7d7-40bc-aa30-57d72338b32d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If a creature has power and toughness written as */* with an ability that defines its power and toughness, its base power and toughness become 0/0 when it loses all abilities. Mystic Subdual then makes it a -2/0. If its power and toughness are written as */*+1, it’s -2/1, and so on.
+  - *2020-04-17* — If the affected creature gains an ability after Mystic Subdual becomes attached to it, it will keep that ability.
+  - *2020-04-17* — Mutating the enchanted creature won’t cause it to gain abilities. This is because mutate modifies the creature’s base characteristics, while Mystic Subdual applies to the resulting creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/57/mystic-subdual) · oracle_id `fdd423d5-f19b-4bb2-98ca-75cc3c058d32` · printing: IKO #57 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Veil
 
@@ -1364,7 +1632,10 @@
   > *—Poetics of Hanan*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22744 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/38/mystic-veil) · oracle_id `43c88fcd-aac9-4741-8fd6-31ac81c5bb6f` · printing: VIS #38 (1997-02-03) · [rulings](https://api.scryfall.com/cards/7ddb640d-5c54-4d0a-b8c2-e22fe04f96c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-08-01* — Does not destroy Auras which are already on the creature.
+  - *2022-12-08* — The sacrifice occurs only if you cast it using its own ability. If you cast it using some other effect (for example, if another effect allowed you to cast it as though it had flash), then it won't be sacrificed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/38/mystic-veil) · oracle_id `43c88fcd-aac9-4741-8fd6-31ac81c5bb6f` · printing: VIS #38 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Visionary
 
@@ -1377,6 +1648,7 @@
   > *"The aven are heralds of divinity. The greatest glory is to join them in the sky."*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32103 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/35/mystic-visionary) · oracle_id `bde74bcc-41b8-4014-b28e-2f6326e20799` · printing: ODY #35 (2001-10-01) · [rulings](https://api.scryfall.com/cards/48ed1b3d-0f7e-46ff-ada7-ebbd416ecf5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Zealot
@@ -1390,7 +1662,9 @@
   > *Nomad youths aspire to one of two roles in the tribe: priest or warrior. Their secret dream is to become both.*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/16/mystic-zealot) · oracle_id `5a47b99d-19dd-4830-89ee-35f4a74aa656` · printing: DMR #16 (2023-01-13) · [rulings](https://api.scryfall.com/cards/9bc955bd-b998-44b9-918f-84b96cf5e915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Mystic Zealot may become lethal if the number of cards in your graveyard falls below seven.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/16/mystic-zealot) · oracle_id `5a47b99d-19dd-4830-89ee-35f4a74aa656` · printing: DMR #16 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystifying Maze
 
@@ -1400,7 +1674,11 @@
   > {T}: Add {C}.
   > {4}, {T}: Exile target attacking creature an opponent controls. At the beginning of the next end step, return it to the battlefield tapped under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6567 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/264/mystifying-maze) · oracle_id `58bd67a8-1833-4827-aa33-1c141568f481` · printing: C17 #264 (2017-08-25) · [rulings](https://api.scryfall.com/cards/faeeb2f8-0aa1-4f3e-848d-f4233996055b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-08-15* — An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
+  - *2010-08-15* — At the beginning of the next end step, the affected creature is returned to the battlefield even if Mystifying Maze is no longer on the battlefield by then.
+  - *2010-08-15* — The targeted creature doesn’t have to be attacking you. It can be attacking a planeswalker, or (in a multiplayer game) it can be attacking another player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/264/mystifying-maze) · oracle_id `58bd67a8-1833-4827-aa33-1c141568f481` · printing: C17 #264 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythic Proportions
 
@@ -1413,6 +1691,7 @@
   > *The blood of Krosa turns rational beings into primal forces.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23189 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/274/mythic-proportions) · oracle_id `e03322a0-e477-4223-969e-27f6772e3d6d` · printing: ONS #274 (2002-10-07) · [rulings](https://api.scryfall.com/cards/829069cf-7e63-4443-b679-65ad15d6ca5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythos of Brokkos
@@ -1426,7 +1705,14 @@
   > *"The most unexpected weapon that a monster can wield is kindness."*
   > *—\*Tales of the Ozolith\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/168/mythos-of-brokkos) · oracle_id `14596108-a8ed-4e68-b787-d655b28bdab4` · printing: IKO #168 (2020-04-24) · [rulings](https://api.scryfall.com/cards/fa4fc5b1-6666-4c60-898f-f927212c7923/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-04-17* — A permanent card is an artifact, creature, enchantment, land, or planeswalker card.
+  - *2020-04-17* — Because Mythos of Brokkos doesn’t target the permanent cards in your graveyard, you may choose the card you searched for.
+  - *2020-04-17* — If an effect allows you to cast a spell without paying its mana cost, you can’t choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can’t waive a cost reduction unless that effect says you may.
+  - *2020-04-17* — If an effect copies the Mythos spell, no mana was spent to cast the copy, so the copy won’t receive the bonus.
+  - *2020-04-17* — The abilities of the Mythos check what colors of mana were spent to cast the spell. It’s not an alternative cost to cast the spell.
+  - *2020-04-17* — The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn’t otherwise spend, but it doesn’t change what mana you spent to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/168/mythos-of-brokkos) · oracle_id `14596108-a8ed-4e68-b787-d655b28bdab4` · printing: IKO #168 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythos of Illuna
 
@@ -1436,7 +1722,21 @@
   > Create a token that's a copy of target permanent. If {R}{G} was spent to cast this spell, instead create a token that's a copy of that permanent, except the token has "When this token enters, if it's a creature, it fights up to one target creature you don't control."
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13456 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/58/mythos-of-illuna) · oracle_id `42b10f0f-19cd-45d2-a2db-d5463ddc5e5b` · printing: IKO #58 (2020-04-24) · [rulings](https://api.scryfall.com/cards/f1b07082-c5a5-4283-a2f5-5b1e0120d752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2020-04-17* — Any enters-the-battlefield abilities of the copied permanent will trigger when the token enters the battlefield. Any "As [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the copied permanent will also work.
+  - *2020-04-17* — If an Aura is put onto the battlefield without being cast, such as by being created as a token, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If an Aura token can't legally be attached to anything, it isn't created.
+  - *2020-04-17* — If an effect allows you to cast a spell without paying its mana cost, you can't choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can't waive a cost reduction unless that effect says you may. 
+  - *2020-04-17* — If an effect copies the Mythos spell, no mana was spent to cast the copy, so the copy won't receive the bonus.
+  - *2020-04-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2020-04-17* — If the copied permanent is copying something else, the token enters the battlefield as whatever that permanent is copying.
+  - *2020-04-17* — If the copied permanent is itself a token, the token created by Mythos of Illuna copies the original characteristics of that token as stated by the effect that created it.
+  - *2020-04-17* — If the target creature is an illegal target or if the token is no longer a creature when the token's granted ability tries to resolve, the ability doesn't resolve. If it's a legal target but the token is no longer on the battlefield when the ability resolves, the target creature won't deal or be dealt damage.
+  - *2020-04-17* — If the token isn't a creature immediately after it enters the battlefield, the granted ability won't trigger. You can't take actions to make that token into a creature after it has entered the battlefield.
+  - *2020-04-17* — If {R}{G} was spent to cast the spell, the token has the extra ability. If something copies the token later, the copy will also have that ability.
+  - *2020-04-17* — The abilities of the Mythos check what colors of mana were spent to cast the spell. It's not an alternative cost to cast the spell.
+  - *2020-04-17* — The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana "as though it were mana" of any color or type, that allows you to spend mana you couldn't otherwise spend, but it doesn't change what mana you spent to cast the spell.
+  - *2020-04-17* — The token copies exactly what is printed on the permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/58/mythos-of-illuna) · oracle_id `42b10f0f-19cd-45d2-a2db-d5463ddc5e5b` · printing: IKO #58 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythos of Nethroi
 
@@ -1448,7 +1748,13 @@
   > *"And then the shadow took living form, and the shadow devoured the man whole—body, mind, and soul."*
   > *—\*Tales of the Ozolith\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/97/mythos-of-nethroi) · oracle_id `16da72a3-d980-4dd8-99f2-8191cce00978` · printing: IKO #97 (2020-04-24) · [rulings](https://api.scryfall.com/cards/6abc24e1-e721-471a-9efd-547f320675b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If an effect allows you to cast a spell without paying its mana cost, you can’t choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can’t waive a cost reduction unless that effect says you may.
+  - *2020-04-17* — If an effect copies the Mythos spell, no mana was spent to cast the copy, so the copy won’t receive the bonus.
+  - *2020-04-17* — Mythos of Nethroi can target any nonland permanent. Determine as the spell resolves whether the permanent is destroyed, either because it’s a creature at that time or because {G}{W} was spent to cast the spell.
+  - *2020-04-17* — The abilities of the Mythos check what colors of mana were spent to cast the spell. It’s not an alternative cost to cast the spell.
+  - *2020-04-17* — The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn’t otherwise spend, but it doesn’t change what mana you spent to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/97/mythos-of-nethroi) · oracle_id `16da72a3-d980-4dd8-99f2-8191cce00978` · printing: IKO #97 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythos of Snapdax
 
@@ -1457,7 +1763,16 @@
 - **Oracle text:**
   > Each player chooses an artifact, a creature, an enchantment, and a planeswalker from among the nonland permanents they control, then sacrifices the rest. If {B}{R} was spent to cast this spell, you choose the permanents for each player instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6773 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/24/mythos-of-snapdax) · oracle_id `4b0b4d16-1d2b-497e-a1ae-bfb89eece665` · printing: IKO #24 (2020-04-24) · [rulings](https://api.scryfall.com/cards/2712a1a3-dd28-44c8-a661-5bcf68d3acaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-04-17* — As Mythos of Snapdax resolves, first you choose which permanents you control won’t be sacrificed, then each other player in turn order does the same, knowing the choices made before them. Then each nonland permanent not chosen is sacrificed at the same time.
+  - *2020-04-17* — If an effect allows you to cast a spell without paying its mana cost, you can’t choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can’t waive a cost reduction unless that effect says you may.
+  - *2020-04-17* — If an effect copies the Mythos spell, no mana was spent to cast the copy, so the copy won’t receive the bonus.
+  - *2020-04-17* — If you control a permanent with more than one type, you may choose it for each of those types. For example, you could choose an artifact creature as the artifact you keep and also as the creature you keep.
+  - *2020-04-17* — If you’re choosing the permanents for each player, your choices must still be legal. For example, you can’t decline to choose a creature a player will keep if that player controls a creature.
+  - *2020-04-17* — Lands with another permanent type can’t be chosen and won’t be sacrificed.
+  - *2020-04-17* — The abilities of the Mythos check what colors of mana were spent to cast the spell. It’s not an alternative cost to cast the spell.
+  - *2020-04-17* — The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn’t otherwise spend, but it doesn’t change what mana you spent to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/24/mythos-of-snapdax) · oracle_id `4b0b4d16-1d2b-497e-a1ae-bfb89eece665` · printing: IKO #24 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythos of Vadrok
 
@@ -1466,7 +1781,16 @@
 - **Oracle text:**
   > Mythos of Vadrok deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers. If {W}{U} was spent to cast this spell, until your next turn, those permanents can't attack or block and their activated abilities can't be activated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24540 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/127/mythos-of-vadrok) · oracle_id `0b72fdeb-80b2-4691-93b9-8df5307b4641` · printing: IKO #127 (2020-04-24) · [rulings](https://api.scryfall.com/cards/2bbe99a7-3b58-4f23-bf86-e1e35b0bec2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-04-17* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keyword abilities are activated abilities and will have colons in their reminder text. Triggered abilities (starting with “when,” “whenever,” or “at”) are unaffected by Mythos of Vadrok.
+  - *2020-04-17* — Each chosen target must receive at least 1 damage.
+  - *2020-04-17* — If an effect allows you to cast a spell without paying its mana cost, you can’t choose to cast it and pay unless another rule or effect allows you to cast that spell for a cost. Similarly, you can’t waive a cost reduction unless that effect says you may.
+  - *2020-04-17* — If an effect copies the Mythos spell, no mana was spent to cast the copy, so the copy won’t receive the bonus.
+  - *2020-04-17* — If some of the targets become illegal for Mythos of Vadrok, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn’t dealt at all.
+  - *2020-04-17* — The abilities of the Mythos check what colors of mana were spent to cast the spell. It’s not an alternative cost to cast the spell.
+  - *2020-04-17* — The ability checks what mana was actually spent to cast a spell. If an effect allows you to spend mana “as though it were mana” of any color or type, that allows you to spend mana you couldn’t otherwise spend, but it doesn’t change what mana you spent to cast the spell.
+  - *2020-04-17* — The target creatures and planeswalkers will be unable to attack, block, or have their abilities activated even if the damage that would be dealt to them is prevented. However, if one of those permanents becomes an illegal target, it will be able to attack, block, and have its abilities activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/127/mythos-of-vadrok) · oracle_id `0b72fdeb-80b2-4691-93b9-8df5307b4641` · printing: IKO #127 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myth Realized
 
@@ -1477,7 +1801,10 @@
   > {2}{W}: Put a lore counter on this enchantment.
   > {W}: Until end of turn, this enchantment becomes a Monk Avatar creature in addition to its other types and gains "This creature's power and toughness are each equal to the number of lore counters on it."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/22/myth-realized) · oracle_id `3a726e40-829c-47ec-81a7-58a04164fc3f` · printing: 2X2 #22 (2022-07-08) · [rulings](https://api.scryfall.com/cards/15afcabf-58a8-4650-a6cf-b7f2f01d0671/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Activating the ability that turns Myth Realized into a creature while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
+  - *2015-02-25* — Myth Realized can't attack the turn it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/22/myth-realized) · oracle_id `3a726e40-829c-47ec-81a7-58a04164fc3f` · printing: 2X2 #22 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myth Unbound
 
@@ -1489,4 +1816,9 @@
 - **Flavor text** (C18 printing):
   > *There are precious few names that echo throughout the Multiverse.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9364 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/32/myth-unbound) · oracle_id `83e047ac-aaa9-4bd8-9ea0-49761d39139c` · printing: C18 #32 (2018-08-10) · [rulings](https://api.scryfall.com/cards/b88ca71b-de1f-497c-b094-8fe954cf8223/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — If Myth Unbound leaves the battlefield at the same time as your commander is put into the command zone, its last ability won’t trigger.
+  - *2018-07-13* — Myth Unbound’s cost reduction applies after you apply the commander tax. In effect, this reduces the commander tax to {1}.
+  - *2018-07-13* — Myth Unbound’s cost reduction applies even if you’re casting your commander from a zone other than the command zone.
+  - *2018-12-07* — If another player is somehow able to cast your commander, Myth Unbound’s first ability applies to that player’s spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/32/myth-unbound) · oracle_id `83e047ac-aaa9-4bd8-9ea0-49761d39139c` · printing: C18 #32 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

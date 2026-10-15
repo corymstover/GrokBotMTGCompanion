@@ -48,6 +48,7 @@
 - **Flavor text** (P02 printing):
   > *Battle tempers soldiers as fire tempers steel.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31231 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/26/trokin-high-guard) · oracle_id `51af8662-07e6-4771-8ff2-c54364987698` · printing: P02 #26 (1998-06-24) · [rulings](https://api.scryfall.com/cards/9c2b9302-fca6-43ca-a01c-03aec51acd0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troll Ascetic
@@ -62,6 +63,7 @@
   > *It's no coincidence that the oldest trolls are also the angriest.*
 - **Keywords:** Hexproof, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17748 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/146/troll-ascetic) · oracle_id `0585ea6a-ef78-4386-a22c-6b8d8fc6c03c` · printing: CM2 #146 (2018-06-08) · [rulings](https://api.scryfall.com/cards/430fa067-cecd-4958-851b-5908a0765063/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trollbred Guardian
@@ -76,7 +78,10 @@
   > *His favorite food is kraul.*
 - **Keywords:** Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/148/trollbred-guardian) · oracle_id `e9c756a5-f4d4-4b84-be60-ad4bc0d1acf9` · printing: RNA #148 (2019-01-25) · [rulings](https://api.scryfall.com/cards/8e3e51f6-7091-4cf3-86a3-b8c5946f3796/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-01-25* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won’t put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/148/trollbred-guardian) · oracle_id `e9c756a5-f4d4-4b84-be60-ad4bc0d1acf9` · printing: RNA #148 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trollhide
 
@@ -87,7 +92,12 @@
   > Enchanted creature gets +2/+2 and has "{1}{G}: Regenerate this creature." (The next time the creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Heal, Regenerate, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18792 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/197/trollhide) · oracle_id `397df813-c759-4246-8def-122c7ff82d88` · printing: M14 #197 (2013-07-19) · [rulings](https://api.scryfall.com/cards/08b9c400-dc8f-4fe6-a868-fdf0d247086a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-09-22* — Activating the ability granted to the enchanted creature causes a “regeneration shield” to be created for it. The next time that creature would be destroyed that turn, the regeneration shield is used up instead. This works only if the creature is dealt lethal damage, dealt damage from a source with deathtouch, or affected by a spell or ability that says to “destroy” it. Other effects that cause the creature to be put into the graveyard (such as reducing its toughness to 0 or sacrificing it) don’t destroy it, so regeneration won’t save it. If it hasn’t been used, the regeneration shield goes away as the turn ends.
+  - *2011-09-22* — If the enchanted creature is dealt lethal damage and is dealt damage by a source with deathtouch during the same combat damage step, a single regeneration shield will save it.
+  - *2011-09-22* — To work, the regeneration shield must be created before the enchanted creature is destroyed. This usually means activating its ability during the declare blockers step, or in response to a spell or ability that would destroy it.
+  - *2013-07-01* — Trollhide needs to be attached to the creature as the ability that creates the regeneration shield is activated, but after that, the regeneration shield will be created and remain in effect even if Trollhide is no longer attached to the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/197/trollhide) · oracle_id `397df813-c759-4246-8def-122c7ff82d88` · printing: M14 #197 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troll-Horn Cameo
 
@@ -99,6 +109,7 @@
   > *"I found a troll-horn fragment in the wooded foothills of Hurloon, and it keeps growing larger. I wonder, is the horn recreating itself or the troll?"*
   > *—Isel, master carver*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28204 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/316/troll-horn-cameo) · oracle_id `98e042de-05f4-4e2e-b12f-375b905e6600` · printing: INV #316 (2000-10-02) · [rulings](https://api.scryfall.com/cards/42b1ca6c-6ca0-4b02-885a-58cee3fa2aa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troll Negotiations
@@ -111,6 +122,7 @@
   > *Suddenly they were fighting like dogs, and calling one another all sorts of perfectly true and applicable names in very loud voices.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/138/troll-negotiations) · oracle_id `6e275711-eb76-4924-ba38-c38a36d9d82a` · printing: HOB #138 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ca0f7bf4-b8a2-4ec4-ad7e-b639de9fa76a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troll of Khazad-dûm
@@ -126,7 +138,10 @@
   > *—Gandalf*
 - **Keywords:** Landcycling, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/191/troll-of-khazad-d%C3%BBm) · oracle_id `222fd9fc-7af4-4269-bbb9-cd7b8ac029bd` · printing: HOC #191 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5edb0c1d-be6a-42b1-829c-ffbea3647ad8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
+  - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/191/troll-of-khazad-d%C3%BBm) · oracle_id `222fd9fc-7af4-4269-bbb9-cd7b8ac029bd` · printing: HOC #191 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trolls of Tel-Jilad
 
@@ -139,6 +154,7 @@
   > *"The secret of this world weighs upon us, and we have been shaped by time and duty to bear it."*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/136/trolls-of-tel-jilad) · oracle_id `4478e843-fd25-4ad1-93f8-2dee605386fc` · printing: MRD #136 (2003-10-02) · [rulings](https://api.scryfall.com/cards/6535f2ad-6cda-4be9-8e4f-6f062b63be31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tromell, Seymour's Butler
@@ -151,7 +167,15 @@
   > {1}, {T}: Proliferate X times, where X is the number of nontoken creatures you control that entered this turn. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3958 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/73/tromell-seymours-butler) · oracle_id `f088817a-570d-4480-bc59-f2ad6675a71b` · printing: FIC #73 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0f4f6de2-1c3d-4f3b-b999-70879f9cbb26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2025-06-06* — If you proliferate multiple times, you don't have to choose the same set of players and/or permanents to get additional counters each time.
+  - *2025-06-06* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2025-06-06* — The value of X is determined only once, as Tromell's last ability resolves. To determine that value, look at the nontoken creatures you control and count each one that entered this turn. It doesn't matter if they were creatures when they entered or who controlled them when they entered.
+  - *2025-06-06* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2025-06-06* — While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
+  - *2025-06-06* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/73/tromell-seymours-butler) · oracle_id `f088817a-570d-4480-bc59-f2ad6675a71b` · printing: FIC #73 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tromokratis
 
@@ -162,7 +186,10 @@
   > Tromokratis has hexproof unless it's attacking or blocking.
   > Tromokratis can't be blocked unless all creatures defending player controls block it. (If any creature that player controls doesn't block this creature, it can't be blocked.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5039 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/129/tromokratis) · oracle_id `9aa2f27b-4c00-44c1-8bc4-014350f05b6d` · printing: CMM #129 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f40ad933-ddd9-4975-a222-21fe3305137c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-02-01* — The defending player may block Tromokratis with each creature they control. If that player can't, perhaps because one of those creatures is tapped, or chooses not to, Tromokratis can't be blocked.
+  - *2014-02-01* — Tromokratis (like all attacking and blocking creatures) remains an attacking or blocking creature until the end of combat step is over. Notably, it will still be an attacking or blocking creature during the combat damage step, so any abilities an opponent controls that trigger when a creature dies as a result of combat damage could target Tromokratis.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/129/tromokratis) · oracle_id `9aa2f27b-4c00-44c1-8bc4-014350f05b6d` · printing: CMM #129 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tromp the Domains
 
@@ -174,7 +201,12 @@
   > *Ground into the footprints of the ravaging herd were clumps of salt from Benalia, moss from Llanowar, dust from Hurloon, and ash from as far as Urborg.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23030 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/242/tromp-the-domains) · oracle_id `5b5dece6-b1e0-4844-bbf9-3b44008ffa70` · printing: TSR #242 (2021-03-19) · [rulings](https://api.scryfall.com/cards/ef40007b-47eb-4881-9467-30ce5b9a0fa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — The size of the bonus is determined only as Tromp the Domains resolves. Once that happens, the bonus won't change later in the turn even if the number of basic land types among lands you control changes.
+  - *2021-03-19* — Tromp the Domains affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain trample or get a power and toughness boost.
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/242/tromp-the-domains) · oracle_id `5b5dece6-b1e0-4844-bbf9-3b44008ffa70` · printing: TSR #242 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troop of Ponies
 
@@ -186,7 +218,9 @@
 - **Flavor text** (HOB printing):
   > *The sun had only just turned west when they started on the path to Mirkwood, and till evening it lay golden on the land about them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/3/troop-of-ponies) · oracle_id `bb52b3c3-09f0-4506-b7c0-250ab0b91866` · printing: HOB #3 (2026-08-14) · [rulings](https://api.scryfall.com/cards/0b4b1c59-bcec-4779-9e27-0e6f9feb4e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — If you choose to find only one basic land card, you put it onto the battlefield tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/3/troop-of-ponies) · oracle_id `bb52b3c3-09f0-4506-b7c0-250ab0b91866` · printing: HOB #3 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trophy Hunter
 
@@ -197,7 +231,9 @@
   > {1}{G}: This creature deals 1 damage to target creature with flying.
   > Whenever a creature with flying dealt damage by this creature this turn dies, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/187/trophy-hunter) · oracle_id `d2c68c15-761e-4aea-89d8-f7fe8f44905c` · printing: RAV #187 (2005-10-07) · [rulings](https://api.scryfall.com/cards/f18d1047-9010-437c-94ab-7a8ad3a0250f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — The second ability checks whether a creature being put into a graveyard (a) currently has flying and (b) was dealt damage earlier this turn by Trophy Hunter. It doesn't matter whether Trophy Hunter dealt the damage that caused the creature to be destroyed, whether the damage from Trophy Hunter was dealt in combat or via its activated ability, or who controlled the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/187/trophy-hunter) · oracle_id `d2c68c15-761e-4aea-89d8-f7fe8f44905c` · printing: RAV #187 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trophy Mage
 
@@ -209,7 +245,9 @@
 - **Flavor text** (DDU printing):
   > *"The tools of the past will help us forge the future."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/42/trophy-mage) · oracle_id `08afc0d7-192f-4ab6-b6a0-c4265cf5e225` · printing: DDU #42 (2018-04-06) · [rulings](https://api.scryfall.com/cards/5252794a-5cbe-45e3-b5c1-b27c667e9c17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Trophy Mage's ability finds an artifact card with mana value exactly 3.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/42/trophy-mage) · oracle_id `08afc0d7-192f-4ab6-b6a0-c4265cf5e225` · printing: DDU #42 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tropical Island
 
@@ -218,7 +256,10 @@
 - **Oracle text:**
   > ({T}: Add {G} or {U}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #352 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/321/tropical-island) · oracle_id `74b7fe23-5d3a-4092-8d78-7c0eba8f6f73` · printing: VMA #321 (2014-06-16) · [rulings](https://api.scryfall.com/cards/47033ba4-8f26-4a6b-97bd-5b366327325e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/321/tropical-island) · oracle_id `74b7fe23-5d3a-4092-8d78-7c0eba8f6f73` · printing: VMA #321 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tropical Storm
 
@@ -230,6 +271,7 @@
   > *"After the storm, I found a sea turtle dying on the sands, a blade of grass driven through its shell."*
   > *—\*Travelogue of Najat\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/246/tropical-storm) · oracle_id `9b3b0bef-cdbb-41c2-b8f1-ddda9903b43a` · printing: MIR #246 (1996-10-08) · [rulings](https://api.scryfall.com/cards/cd5f473c-e11e-4047-91f9-81b80f0a3562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani Discordant
@@ -242,7 +284,11 @@
   > When Trostani enters, create two 1/1 white Soldier creature tokens with lifelink.
   > At the beginning of your end step, each player gains control of all creatures they own.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9644 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/213/trostani-discordant) · oracle_id `9a2fdc0e-e0de-47fc-95e4-04e725ddf060` · printing: CLU #213 (2024-02-23) · [rulings](https://api.scryfall.com/cards/79d61bba-4404-4336-8290-51d1576f728d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-10-05* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to other creatures you control may become lethal if Trostani leaves the battlefield during that turn.
+  - *2018-10-05* — If a creature has an ability that triggers at the beginning of each end step and Trostani's ability causes you to gain control of it, the ability of that creature is still controlled by the creature's former controller. If the creature has an ability that triggers at the beginning of your end step, that ability doesn't trigger when you gain control of it.
+  - *2018-10-05* — The owner of a token is the player who created it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/213/trostani-discordant) · oracle_id `9a2fdc0e-e0de-47fc-95e4-04e725ddf060` · printing: CLU #213 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani, Selesnya's Voice
 
@@ -256,7 +302,15 @@
   > *There are no soloists in the chorus of Selesnya.*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3100 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/204/trostani-selesnyas-voice) · oracle_id `e94ef397-f5c5-4b8d-ae27-528352fa1d1e` · printing: C19 #204 (2019-08-23) · [rulings](https://api.scryfall.com/cards/34ea44f2-cb2f-4b86-83fc-fe507f05bb9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2012-10-01* — Trostani's first ability checks the creature's toughness as it resolves. If that creature has left the battlefield, use its toughness from when it was last on the battlefield. You can't lose life this way if that creature's toughness was less than 0.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/204/trostani-selesnyas-voice) · oracle_id `e94ef397-f5c5-4b8d-ae27-528352fa1d1e` · printing: C19 #204 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani's Judgment
 
@@ -269,7 +323,16 @@
   > *—Trostani*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19078 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/77/trostanis-judgment) · oracle_id `97cf544e-ffbf-4730-8cd2-4f1d5be933f2` · printing: C19 #77 (2019-08-23) · [rulings](https://api.scryfall.com/cards/5b105835-8ca3-43fc-9724-29edde02f0bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2012-10-01* — If you choose a creature token you control as the target, it will be exiled before you populate and you won't be able to choose that creature to copy.
+  - *2012-10-01* — You must target a creature to cast Trostani's Judgment. If that creature is an illegal target when Trostani's Judgment tries to resolve, it won't resolve and none of its effects will happen. You won't populate.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/77/trostanis-judgment) · oracle_id `97cf544e-ffbf-4730-8cd2-4f1d5be933f2` · printing: C19 #77 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani's Summoner
 
@@ -279,6 +342,7 @@
 - **Oracle text:**
   > When this creature enters, create a 2/2 white Knight creature token with vigilance, a 3/3 green Centaur creature token, and a 4/4 green Rhino creature token with trample.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17617 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/156/trostanis-summoner) · oracle_id `874e0b54-bc24-4887-abe1-1ecfd3a3abae` · printing: MIC #156 (2021-09-24) · [rulings](https://api.scryfall.com/cards/eda757a0-067b-4eb9-badc-d86da5b40305/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani, Three Whispers
@@ -293,6 +357,7 @@
 - **Flavor text** (MKM printing):
   > *Tangled in the heart of Vitu-Ghazi, they guard their secrets from eager ears.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10123 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/238/trostani-three-whispers) · oracle_id `5c90b951-826e-4595-aacc-958904f3f794` · printing: MKM #238 (2024-02-09) · [rulings](https://api.scryfall.com/cards/329f3aca-6db7-41d3-95b2-c479d14b7fa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troubled Healer
@@ -305,6 +370,7 @@
 - **Flavor text** (PCY printing):
   > *"Which is worse: nothing to defend, or no one to defend it?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/27/troubled-healer) · oracle_id `4377cc84-19d3-48e0-9588-d18b4fbf4e6d` · printing: PCY #27 (2000-06-05) · [rulings](https://api.scryfall.com/cards/54407ba7-6671-42a9-acbe-8a1104c7166c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trouble in Pairs
@@ -317,7 +383,14 @@
 - **Flavor text** (MKC printing):
   > *Together, they're greater than the sum of their rap sheets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/15/trouble-in-pairs) · oracle_id `f349f58b-8cc8-45e4-9565-2b46fdf976c9` · printing: MKC #15 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0f61e93f-5f97-4c7d-b3d5-0e05242faeb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-02-02* — An "extra turn" is any turn created by a spell or ability. Notably, it doesn't include additional turns taken in tournaments after time expires for a round.
+  - *2024-02-02* — Extra turns can still be created while Trouble in Pairs is on the battlefield. They're not skipped until they would begin, so if Trouble in Pairs leaves the battlefield before that happens, the extra turns will be unaffected.
+  - *2024-02-02* — If an opponent attacks you with two or more creatures more than once in a turn (probably because they've generated extra combat phases), Trouble in Pairs's last ability will trigger each time that happens.
+  - *2024-02-02* — Trouble in Pairs counts spells that were cast even if they didn't resolve. This means it still counts spells that were countered.
+  - *2024-02-02* — Trouble in Pairs doesn't have to be on the battlefield to see the first card an opponent draws in a turn or the first spell they cast in a turn. As long as it's already on the battlefield when they draw their second card or cast their second spell in a turn, its last ability will trigger.
+  - *2024-02-02* — Trouble in Pairs's last ability can trigger multiple times per opponent per turn. For example, if an opponent draws a second card, casts a second spell, and attacks you with two or more creatures in a single turn, Trouble in Pairs's last ability will trigger once when each of those events occurs, for a total of three times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/15/trouble-in-pairs) · oracle_id `f349f58b-8cc8-45e4-9565-2b46fdf976c9` · printing: MKC #15 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troublemaker Ouphe
 
@@ -331,7 +404,13 @@
   > *Heavy is the head that wears the vase.*
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20718 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/194/troublemaker-ouphe) · oracle_id `16cdba97-73cf-44ba-9d64-f27009b829f8` · printing: WOE #194 (2023-09-08) · [rulings](https://api.scryfall.com/cards/7f7b2fc0-d3f6-4c4d-a163-986a372e5b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Bargain means “As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token.”
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is “bargained.”
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/194/troublemaker-ouphe) · oracle_id `16cdba97-73cf-44ba-9d64-f27009b829f8` · printing: WOE #194 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troublesome Spirit
 
@@ -345,6 +424,7 @@
   > *As erratic and turbulent as a summer squall.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30455 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/52/troublesome-spirit) · oracle_id `601d9bc3-ca75-43de-beea-ab3f0a49f543` · printing: PCY #52 (2000-06-05) · [rulings](https://api.scryfall.com/cards/23d7e856-6852-4b97-ae0e-a4becdfc8166/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trove of Temptation
@@ -356,7 +436,11 @@
   > At the beginning of your end step, create a Treasure token. (It's an artifact with "{T}, Sacrifice this token: Add one mana of any color.")
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/171/trove-of-temptation) · oracle_id `f624c0f1-1c09-4b7a-b140-11329f27e3c7` · printing: XLN #171 (2017-09-29) · [rulings](https://api.scryfall.com/cards/fb2df914-bb56-449e-9ef8-8b1012a76f64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — Each opponent only has to attack you or a planeswalker you control with one creature total, not one creature for you and one for each planeswalker you control. Other creatures are free to attack other players or other planeswalkers, or to not attack at all.
+  - *2017-09-29* — If a creature isn't able to attack you or a planeswalker you control for any reason (such as being tapped as its controller's declare attackers step begins or being affected by "summoning sickness"), that creature doesn't have to attack. If no creatures a player controls are able to attack you or a planeswalker you control, Trove of Temptation's requirement has no effect during that combat. If there's a cost associated with having a creature attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2017-09-29* — In a Two-Headed Giant game, each of your two opponents must attack you or a planeswalker you control with at least one creature if able. Attacking your teammate or a planeswalker your teammate controls doesn't satisfy Trove of Temptation's requirement.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/171/trove-of-temptation) · oracle_id `f624c0f1-1c09-4b7a-b140-11329f27e3c7` · printing: XLN #171 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trove Tracker
 
@@ -370,7 +454,15 @@
   > *The best treasures are the least shared.*
 - **Keywords:** Encore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/104/trove-tracker) · oracle_id `f27972da-ad2f-4df5-82d3-c909cce8cc91` · printing: CMR #104 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c3b74135-b8db-4485-a4b1-7aaa3ef28072/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — Each token must attack the appropriate player if able.
+  - *2020-11-10* — Exiling the card with encore is a cost to activate the ability. Once you announce that you're activating it, no player may take actions until you've finished. They can't try to remove the card from your graveyard to stop you from paying the cost.
+  - *2020-11-10* — If one of the tokens can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, you aren't forced to pay that cost, so it doesn't have to attack in that case either.
+  - *2020-11-10* — If one of the tokens somehow is under another player's control as the delayed triggered ability resolves, you can't sacrifice that token. It remains on the battlefield indefinitely, even if you regain control of it later.
+  - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
+  - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
+  - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/104/trove-tracker) · oracle_id `f27972da-ad2f-4df5-82d3-c909cce8cc91` · printing: CMR #104 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trove Warden
 
@@ -383,7 +475,11 @@
   > When this creature dies, put each permanent card exiled with it onto the battlefield under the control of that card's owner.
 - **Keywords:** Vigilance, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/3/trove-warden) · oracle_id `9056eba4-612b-4e82-8689-fe098241b007` · printing: ZNC #3 (2020-09-25) · [rulings](https://api.scryfall.com/cards/3336593c-c83c-48e7-9173-2c2b74b94d3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/3/trove-warden) · oracle_id `9056eba4-612b-4e82-8689-fe098241b007` · printing: ZNC #3 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troyan, Gutsy Explorer
 
@@ -396,4 +492,7 @@
 - **Flavor text** (SOC printing):
   > *"The streets of Ravnica were stifling. Eldraine is an endless adventure paved in gold."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5624 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/334/troyan-gutsy-explorer) · oracle_id `1135ebc3-9537-4341-956b-6e22d8be5f20` · printing: SOC #334 (2026-04-24) · [rulings](https://api.scryfall.com/cards/72968bfe-0fa4-432f-9599-4c32cb143716/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — You can spend mana generated by Troyan on any part of the cost of a spell that contains {X} in its mana cost. You're not limited to spending it only on the {X} part.
+  - *2023-09-01* — You don't have to spend the two mana on the same spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/334/troyan-gutsy-explorer) · oracle_id `1135ebc3-9537-4341-956b-6e22d8be5f20` · printing: SOC #334 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

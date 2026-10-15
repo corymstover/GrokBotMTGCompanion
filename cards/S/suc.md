@@ -24,6 +24,7 @@
   > *"Those who witness my work often question its necessity. I've never understood that."*
   > *—Dr. Julius Jumblemorph*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/24/success!) · oracle_id `d877800d-75a2-46b3-a3e4-008ea70c9543` · printing: UST #24 (2017-12-08) · [rulings](https://api.scryfall.com/cards/cf598741-c252-4388-979f-ad7392c8bf36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Succumb to Temptation
@@ -35,6 +36,7 @@
 - **Flavor text** (EMN printing):
   > *"Restraint is for the meek."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11396 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/107/succumb-to-temptation) · oracle_id `c8e21bc4-ea57-46d6-9e7e-ad95e17ea0fd` · printing: EMN #107 (2016-07-22) · [rulings](https://api.scryfall.com/cards/2974e18b-be17-4059-9f29-7afe1d1a51eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Succumb to the Cold
@@ -47,7 +49,9 @@
   > *"I've never known cold like it. It burned like fire and bit like an adder's fangs. Call me a coward if you wish, but I won't go back there."*
   > *—Syr Lydel, knight of Vantress*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/72/succumb-to-the-cold) · oracle_id `73992788-8084-459c-8375-9ccc8579c5d7` · printing: WOE #72 (2023-09-08) · [rulings](https://api.scryfall.com/cards/c14d9fc0-bfbf-4359-93bf-5e53466965d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — You may target creatures that are already tapped with Succumb to the Cold. If a target creature is already tapped as it resolves, you will still put a stun counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/72/succumb-to-the-cold) · oracle_id `73992788-8084-459c-8375-9ccc8579c5d7` · printing: WOE #72 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Su-Chi
 
@@ -59,7 +63,9 @@
 - **Flavor text** (VMA printing):
   > *Flawed copies of relics from the Thran Empire, the su-chi were inherently unstable but provided useful knowledge for Tocasia's students.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22534 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/285/su-chi) · oracle_id `9a28d53e-c789-47de-8f3e-a251843ac596` · printing: VMA #285 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f27a3660-a50d-4402-97c2-8d70dcbc1782/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — You get the mana whether you want it or not. If you don’t spend it, it will disappear at the end of the current step (or phase).
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/285/su-chi) · oracle_id `9a28d53e-c789-47de-8f3e-a251843ac596` · printing: VMA #285 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Su-Chi Cave Guard
 
@@ -72,4 +78,5 @@
   > When this creature dies, add eight {C}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Keywords:** Vigilance, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9619 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/249/su-chi-cave-guard) · oracle_id `28264920-9d14-4661-83b8-56f950fbff39` · printing: BRO #249 (2022-11-18) · [rulings](https://api.scryfall.com/cards/bb04dad2-4561-4cef-9cee-80d6f1a44bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

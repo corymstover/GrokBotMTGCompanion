@@ -32,7 +32,9 @@
   > *"Within the song of Mat'Selesnya, one becomes all."*
   > *—Heruj, Selesnya hierophant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ca18b625-6767-45b9-bc2c-765f1ba7bd44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — The second part of Camaraderie's effect affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camel
 
@@ -46,7 +48,13 @@
   > *Everyone knew Walid was a pious man, for he had been blessed with many sons, many jewels, and a great many Camels.*
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arn/3/camel) · oracle_id `d33b3591-c01f-4ac4-8626-7cbfdabaf90d` · printing: ARN #3 (1993-12-17) · [rulings](https://api.scryfall.com/cards/e0078aa8-bfb8-43b0-a6b7-1991596c21e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — It does prevent damage from animated Deserts in combat.
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arn/3/camel) · oracle_id `d33b3591-c01f-4ac4-8626-7cbfdabaf90d` · printing: ARN #3 (1993-12-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camellia, the Seedmiser
 
@@ -60,7 +68,11 @@
   > {2}, Forage: Put a +1/+1 counter on each other Squirrel you control. (To forage, exile three cards from your graveyard or sacrifice a Food.)
 - **Keywords:** Forage, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2728 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/207/camellia-the-seedmiser) · oracle_id `312c7a7b-2084-42b0-9b13-0a6d3e43a73d` · printing: BLB #207 (2024-08-02) · [rulings](https://api.scryfall.com/cards/2c16eaec-924c-42f6-9fea-07edd7ed93b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/207/camellia-the-seedmiser) · oracle_id `312c7a7b-2084-42b0-9b13-0a6d3e43a73d` · printing: BLB #207 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camera Launcher
 
@@ -73,7 +85,11 @@
   > *Vnwxt's contract demanded at least one dedicated camera on him at all times.*
 - **Keywords:** Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/232/camera-launcher) · oracle_id `b46bac37-5b45-4be5-93d0-76e48dbd9f74` · printing: DFT #232 (2025-02-14) · [rulings](https://api.scryfall.com/cards/968651db-92fb-46cd-acda-9e097668b7c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/232/camera-launcher) · oracle_id `b46bac37-5b45-4be5-93d0-76e48dbd9f74` · printing: DFT #232 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camouflage
 
@@ -83,6 +99,7 @@
   > Cast this spell only during your declare attackers step.
   > This turn, instead of declaring blockers, each defending player chooses any number of creatures they control and divides them into a number of piles equal to the number of attacking creatures for whom that player is the defending player. Creatures those players control that can block additional creatures may likewise be put into additional piles. Assign each pile to a different one of those attacking creatures at random. Each creature in a pile that can block the creature that pile is assigned to does so. (Piles can be empty.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26270 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2ed/188/camouflage) · oracle_id `9cf44db4-627a-4197-9588-6da72e41f03d` · printing: 2ED #188 (1993-12-01) · [rulings](https://api.scryfall.com/cards/09243dc6-c56c-42a8-969b-2ecffe89e1ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### C.A.M.P.
@@ -94,7 +111,13 @@
   > Fortify {3} ({3}: Attach to target land you control. Fortify only as a sorcery.)
 - **Keywords:** Fortify
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/129/camp) · oracle_id `9bf498ce-6d6d-462f-9ec3-b36a2184aff7` · printing: PIP #129 (2024-03-08) · [rulings](https://api.scryfall.com/cards/034d4543-2c53-4cda-acfd-7f26b8dd17fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-03-08* — Fortification is to lands what Equipment is to creatures. Except for the difference regarding what type of permanent they can be attached to, Fortifications and Equipment follow the same rules.
+  - *2024-03-08* — If the fortified land produced more than one color of mana, you'll create a Junk token as long as the target creature is at least one of those colors.
+  - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
+  - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
+  - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/129/camp) · oracle_id `9bf498ce-6d6d-462f-9ec3-b36a2184aff7` · printing: PIP #129 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campaign of Vengeance
 
@@ -106,7 +129,11 @@
   > *"There is no saving this world, not anymore. But we shall be its bloody vengeance."*
   > *—Sorin Markov*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/182/campaign-of-vengeance) · oracle_id `627e9668-5e1c-4ab6-83f4-612a42d0afce` · printing: EMN #182 (2016-07-22) · [rulings](https://api.scryfall.com/cards/c284997a-cfc3-4ffc-bc25-00c130fb1eb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — If a creature attacks a planeswalker, the defending player is the player who controls that planeswalker.
+  - *2016-07-13* — In a Two-Headed Giant game, Campaign of Vengeance’s triggered ability has one defending player of your choice lose 1 life. The team doesn’t lose 2 life.
+  - *2016-07-13* — In a multiplayer game, each instance of the ability affects only one defending player. For example, if you attack player A with two creatures and player B with two creatures, each of those players will lose 2 life, not 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/182/campaign-of-vengeance) · oracle_id `627e9668-5e1c-4ab6-83f4-612a42d0afce` · printing: EMN #182 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campfire
 
@@ -116,6 +143,7 @@
   > {1}, {T}: You gain 2 life.
   > {2}, {T}, Exile this artifact: Put all commanders you own from the command zone and from your graveyard into your hand. Then shuffle your graveyard into your library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5906 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/374/campfire) · oracle_id `011ff7a5-6bce-4784-a19b-e74f7b49b8f1` · printing: CMM #374 (2023-08-04) · [rulings](https://api.scryfall.com/cards/34b64d10-c012-4370-b475-755c4025a348/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campsite Cuisine
@@ -127,7 +155,11 @@
   > Whenever you attack, you may sacrifice X Foods. When you do, up to X target attacking creatures each get +3/+3 and gain trample and indestructible until end of turn.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9543 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/464/campsite-cuisine) · oracle_id `45f58002-c831-4b35-8b8c-9a502118e2ec` · printing: FIC #464 (2025-12-05) · [rulings](https://api.scryfall.com/cards/ec6d3402-eed6-44be-a572-9ec0678af403/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — A Food token is a colorless Food artifact token with "{2}, {T}, Sacrifice this token: You gain 3 life."
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Instant Ramen (an Artifact – Food from the Magic: The Gathering—FINAL FANTASY main set) to pay the cost of Campsite Cuisine's last ability.
+  - *2025-10-02* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to pay the cost of Campsite Cuisine's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/464/campsite-cuisine) · oracle_id `45f58002-c831-4b35-8b8c-9a502118e2ec` · printing: FIC #464 (2025-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campus Composer // Aqueous Aria
 
@@ -140,7 +172,23 @@
   > Create a 3/3 blue and red Elemental creature token with flying.
 - **Keywords:** Prepared, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/40/campus-composer-aqueous-aria) · oracle_id `9b3155c1-c662-4ff1-80e2-4064e6233dc5` · printing: SOS #40 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fac8ac39-ecb4-4142-bf37-131c65660a9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/40/campus-composer-aqueous-aria) · oracle_id `9b3155c1-c662-4ff1-80e2-4064e6233dc5` · printing: SOS #40 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campus Crier
 
@@ -153,7 +201,12 @@
   > *He speaks what the futurescribes have written.*
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26724 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/4/campus-crier) · oracle_id `c1a9d60f-a469-48f9-8f1c-3ca5ae86bd64` · printing: FRA #4 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6047b14c-91d5-4f8e-af3f-057a541e2546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/4/campus-crier) · oracle_id `c1a9d60f-a469-48f9-8f1c-3ca5ae86bd64` · printing: FRA #4 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campus Guide
 
@@ -165,6 +218,7 @@
 - **Flavor text** (FDN printing):
   > *"There's nowhere in Strixhaven I can't find. Where do you need to go?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11874 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/251/campus-guide) · oracle_id `5b8e0913-47e9-4d56-971d-abd91b0f7587` · printing: FDN #251 (2024-11-15) · [rulings](https://api.scryfall.com/cards/43c59814-3167-4b05-bb85-6c736f3956a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campus Renovation
@@ -176,4 +230,6 @@
 - **Flavor text** (MAT printing):
   > *Reconstructing the past is Lorehold's specialty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/27/campus-renovation) · oracle_id `d34a3b58-a905-4e90-b35c-9f5c21149b04` · printing: MAT #27 (2023-05-12) · [rulings](https://api.scryfall.com/cards/6d925d13-fcd6-417b-b2b2-bbdd114aae78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — You don't have to choose a target artifact or enchantment card to cast Campus Renovation. However, if you do, and that card is an illegal target at the time Campus Renovation tries to resolve, it won't resolve and none of its effects will happen. You won't exile any cards from your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/27/campus-renovation) · oracle_id `d34a3b58-a905-4e90-b35c-9f5c21149b04` · printing: MAT #27 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

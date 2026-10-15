@@ -21,7 +21,15 @@
   > Creature tokens you control have deathtouch.
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4236 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/87/gothmog-morgul-lieutenant) · oracle_id `f3817f63-7bde-46c5-93cb-b4756f5f821e` · printing: LTR #87 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a1c10e93-88eb-46b9-8adc-583661807990/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/87/gothmog-morgul-lieutenant) · oracle_id `f3817f63-7bde-46c5-93cb-b4756f5f821e` · printing: LTR #87 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### GO TO JAIL
 
@@ -31,4 +39,6 @@
   > When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.
   > At the beginning of the upkeep of the exiled card's owner, that player rolls two six-sided dice. If they roll doubles, sacrifice this enchantment.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/6/go-to-jail) · oracle_id `68e13ae5-c9fe-45e7-86ae-070b903df429` · printing: UND #6 (2020-02-29) · [rulings](https://api.scryfall.com/cards/d40eb8f1-7dec-47cd-99dd-b6147ad5593d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-02-29* — “Doubles” means the results of each of the two rolls is identical, after applying any effects that may alter or affect the roll. For example, if you roll a 5 and a 6, and then use Snickering Squirrel to change the 5 into a 6, you’ve rolled doubles.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/6/go-to-jail) · oracle_id `68e13ae5-c9fe-45e7-86ae-070b903df429` · printing: UND #6 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -20,4 +20,5 @@
   > Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Incubate, Transform, Landcycling, Typecycling, Cycling, Swampcycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18141 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/329/injector-crocodile) · oracle_id `619c7d51-51d1-4467-a58b-4f275ff9df0f` · printing: MOM #329 (2023-04-21) · [rulings](https://api.scryfall.com/cards/974ddcab-bbe0-4bae-9c99-1fd5a5554d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,7 +22,9 @@
   > As long as a creature card with flying is in a graveyard, this creature has flying. The same is true for fear, first strike, double strike, deathtouch, haste, landwalk, lifelink, protection, reach, trample, shroud, and vigilance.
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11779 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/130/cairn-wanderer) · oracle_id `a549d54f-2640-455c-8a93-bef4df2f9e8b` · printing: C20 #130 (2020-04-17) · [rulings](https://api.scryfall.com/cards/f84b53c7-10db-40f6-a1d4-0baab88355e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-10-01* — Cairn Wanderer’s ability looks at all cards in all graveyards. It gains any landwalk abilities and any protection abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/130/cairn-wanderer) · oracle_id `a549d54f-2640-455c-8a93-bef4df2f9e8b` · printing: C20 #130 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cait, Cage Brawler
 
@@ -33,7 +35,10 @@
   > During your turn, Cait has indestructible.
   > Whenever Cait attacks, you and defending player each draw a card, then discard a card. Put two +1/+1 counters on Cait if you discarded the card with the greatest mana value among those cards or tied for greatest.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12449 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/96/cait-cage-brawler) · oracle_id `f24319a1-0662-44be-9027-11e7bc020e1d` · printing: PIP #96 (2024-03-08) · [rulings](https://api.scryfall.com/cards/fca61d02-2819-483f-9d30-862f0650ab0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — If a card you discard has {X} in its mana cost, X is considered to be 0.
+  - *2024-03-08* — If you somehow can't discard a card (probably because you had no cards in hand and another effect prevented you from drawing cards), you won't put any counters on Cait no matter whether or not the defending player discarded a card or what that card's mana value is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/96/cait-cage-brawler) · oracle_id `f24319a1-0662-44be-9027-11e7bc020e1d` · printing: PIP #96 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cait Sith, Fortune Teller
 
@@ -46,4 +51,9 @@
   > *"I'm friend to one and all, thanks to my crystal ball!"*
 - **Keywords:** Lucky Slots, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5598 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/54/cait-sith-fortune-teller) · oracle_id `31851cb6-0caf-4575-aa5e-41aeadccafc1` · printing: FIC #54 (2025-06-13) · [rulings](https://api.scryfall.com/cards/3e0f6c53-6bbf-4d4c-bbbf-4dab22297527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the exiled card has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2025-06-06* — The value of X is calculated only once, as the reflexive triggered ability resolves.
+  - *2025-06-06* — You don't choose a target for Cait Sith's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you exile a card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/54/cait-sith-fortune-teller) · oracle_id `31851cb6-0caf-4575-aa5e-41aeadccafc1` · printing: FIC #54 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

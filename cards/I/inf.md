@@ -92,7 +92,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/35/infantry-shield) · oracle_id `71c68002-1489-4858-a8fb-1f575641983e` · printing: TDC #35 (2025-04-11) · [rulings](https://api.scryfall.com/cards/37332798-462e-49d3-b197-72411ccf67e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/35/infantry-shield) · oracle_id `71c68002-1489-4858-a8fb-1f575641983e` · printing: TDC #35 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infantry Veteran
 
@@ -104,7 +107,9 @@
 - **Flavor text** (IMA printing):
   > *"Swords, to me! We must engage their line to protect our archers and mages. Let no one fail this task!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26510 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/24/infantry-veteran) · oracle_id `42798e2b-9a5c-4f93-8f77-b7bb7a916d07` · printing: IMA #24 (2017-11-17) · [rulings](https://api.scryfall.com/cards/ec4b0fd0-045d-4a96-9a57-c7ba1548b4cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/24/infantry-veteran) · oracle_id `42798e2b-9a5c-4f93-8f77-b7bb7a916d07` · printing: IMA #24 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infected Defector
 
@@ -117,6 +122,7 @@
   > *The diamond storms of Gobakhan hampered Phyrexia's progress until they recruited some of the local shieldmages.*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18788 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/18/infected-defector) · oracle_id `cff8dd65-e531-4496-aa49-e8d4350b9620` · printing: MOM #18 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2777f8b5-2f8e-4cb8-9206-8a4978488657/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infected Vermin
@@ -129,6 +135,7 @@
   > Threshold — {3}{B}: This creature deals 3 damage to each creature and each player. Activate only if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/144/infected-vermin) · oracle_id `448396b8-b691-457a-8569-1282c3fca65a` · printing: ODY #144 (2001-10-01) · [rulings](https://api.scryfall.com/cards/00615487-3526-4b4c-bb06-8f2af1f101d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Bite
@@ -141,6 +148,7 @@
   > *"Let me tell you why you must never close your eyes when on watch. Not even for a second."*
   > *—Jor Kadeen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/172/infectious-bite) · oracle_id `7b740cd6-e07d-4273-8a7f-e084bdaf0f1c` · printing: ONE #172 (2023-02-10) · [rulings](https://api.scryfall.com/cards/83dfb2a5-cd5c-46c6-9bb8-7c5d00f3e003/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Bloodlust
@@ -153,7 +161,9 @@
   > When enchanted creature dies, you may search your library for a card named Infectious Bloodlust, reveal it, put it into your hand, then shuffle.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/152/infectious-bloodlust) · oracle_id `9cd8ca01-e8a9-47ea-8899-b016a2dcaea8` · printing: ORI #152 (2015-07-17) · [rulings](https://api.scryfall.com/cards/ee44df88-45a4-46ef-a8bd-f7fb7b9542b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — If, during its controller’s declare attackers step, the enchanted creature is tapped or is affected by a spell or ability that says it can’t attack, then that creature doesn’t attack. If there’s a cost associated with having that creature attack, its controller isn’t forced to pay that cost. If they don’t, the creature doesn’t have to attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/152/infectious-bloodlust) · oracle_id `9cd8ca01-e8a9-47ea-8899-b016a2dcaea8` · printing: ORI #152 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Horror
 
@@ -165,7 +175,9 @@
 - **Flavor text** (M19 printing):
   > *Not once in the history of Grixis has anyone died of old age.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/101/infectious-horror) · oracle_id `0931206b-eed2-40d0-9496-5ecefc7f8f90` · printing: M19 #101 (2018-07-13) · [rulings](https://api.scryfall.com/cards/d17aaa92-10ca-4f70-b45e-5a51e9192efb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — In a Two-Headed Giant game, Infectious Horror’s ability causes the opposing team to lose 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/101/infectious-horror) · oracle_id `0931206b-eed2-40d0-9496-5ecefc7f8f90` · printing: M19 #101 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Host
 
@@ -178,6 +190,7 @@
   > *"Lost man, dead man, knocking on the door. Cankerman, soreman, knock no more."*
   > *—Ravnican children's rhyme*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27787 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/91/infectious-host) · oracle_id `beb9c5c9-d4ab-423f-8937-91d308e09770` · printing: RAV #91 (2005-10-07) · [rulings](https://api.scryfall.com/cards/11858b4f-3a90-4990-9984-d888c000ec73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Inquiry
@@ -189,6 +202,7 @@
 - **Flavor text** (ONE printing):
   > *"I give you pain, you give me information. A simple trade, is it not?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2482 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/97/infectious-inquiry) · oracle_id `66051196-53ea-4461-b241-205df9395b3b` · printing: ONE #97 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0a10f284-b043-4307-bdc7-6dad47cc9221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infectious Rage
@@ -201,7 +215,10 @@
   > When enchanted creature dies, choose a creature at random this Aura can enchant. Return this card to the battlefield attached to that creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/92/infectious-rage) · oracle_id `ed0402d7-02cb-4763-a661-82280d6c9af8` · printing: JUD #92 (2002-05-27) · [rulings](https://api.scryfall.com/cards/8569cdf7-e0e9-4733-98b5-56fac216fad3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — When this card returns to the battlefield, it is put onto the battlefield on the creature without targeting it, so it can be placed on a creature with Shroud.
+  - *2004-10-04* — You can't return this card to the battlefield onto something it can't enchant. For example, you can't place this card on a permanent with protection from red.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/92/infectious-rage) · oracle_id `ed0402d7-02cb-4763-a661-82280d6c9af8` · printing: JUD #92 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Captor
 
@@ -215,7 +232,14 @@
   > *Possession is nine-tenths of the law. His fist is the other tenth.*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/125/infernal-captor) · oracle_id `2f0dec6c-797f-4dc3-9994-066c00cbf1a4` · printing: MH3 #125 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6b30243d-511b-47b8-bbed-0395d3de903d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — A creature with exploit "exploits a creature" when the controller of the exploit ability sacrifices a creature as that ability resolves.
+  - *2024-06-07* — If the creature with exploit isn't on the battlefield as the exploit ability resolves, you won't get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn't on the battlefield, its other triggered ability won't trigger.
+  - *2024-06-07* — You can sacrifice the creature with exploit if it's still on the battlefield. This will cause its other ability to trigger.
+  - *2024-06-07* — You can target an artifact or creature you already control (including Infernal Captor) with Infernal Captor's last ability just to untap that permanent and give it haste.
+  - *2024-06-07* — You can't sacrifice more than one creature to any one exploit ability.
+  - *2024-06-07* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/125/infernal-captor) · oracle_id `2f0dec6c-797f-4dc3-9994-066c00cbf1a4` · printing: MH3 #125 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Caretaker
 
@@ -227,7 +251,9 @@
   > When this creature is turned face up, return all Zombie cards from all graveyards to their owners' hands.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29406 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/76/infernal-caretaker) · oracle_id `bd310727-1091-4474-8d9e-ce56f7dac7c1` · printing: LGN #76 (2003-02-03) · [rulings](https://api.scryfall.com/cards/8a028a30-6242-4d87-9501-d1826ecb69b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/76/infernal-caretaker) · oracle_id `bd310727-1091-4474-8d9e-ce56f7dac7c1` · printing: LGN #76 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Contract
 
@@ -240,7 +266,9 @@
   > *Unholy power darkens the sky."*
   > *—"The Ballad of the Paladins"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/143/infernal-contract) · oracle_id `4372205f-45e6-49c7-b1fd-13a41e20d4de` · printing: 7ED #143 (2001-04-11) · [rulings](https://api.scryfall.com/cards/f451a70f-1f1c-4fd6-ab0c-4b77a043c324/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — If you attempt to halve a negative life total, you halve 0. This means that the life total stays the same. A life total of -10 would remain -10.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/143/infernal-contract) · oracle_id `4372205f-45e6-49c7-b1fd-13a41e20d4de` · printing: 7ED #143 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Darkness
 
@@ -254,7 +282,9 @@
   > *—Lucilde Fiksdotter, leader of the Order of the White Shield*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/97/infernal-darkness) · oracle_id `dd821fca-79a0-48a9-b1cf-5a496bc04f65` · printing: ME2 #97 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0230e9bf-da21-4014-a834-d4fd2f5b31df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — This effect changes the type of mana produced, but not the amount. For example, if a land that's tapped for mana would add {W}{W}, it adds {B}{B} instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/97/infernal-darkness) · oracle_id `dd821fca-79a0-48a9-b1cf-5a496bc04f65` · printing: ME2 #97 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Denizen
 
@@ -265,7 +295,10 @@
   > At the beginning of your upkeep, sacrifice two Swamps. If you can't, tap this creature, and an opponent may gain control of a creature you control of their choice for as long as this creature remains on the battlefield.
   > {T}: Gain control of target creature for as long as this creature remains on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27646 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/136/infernal-denizen) · oracle_id `2f33aced-c737-4b3c-ba25-aff7b340c2d7` · printing: ICE #136 (1995-06-03) · [rulings](https://api.scryfall.com/cards/b63ac9a6-aaa5-4659-97d1-c5f6b0d5ccfe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — You must sacrifice the Swamps if you can. You can’t choose not to pay if you have them.
+  - *2004-10-04* — You should always have one creature for your opponent to take (i.e. the Denizen). If by chance you have no creature for your opponent to take, then they don’t get one. Remember that taking a creature is optional so your opponent is not forced to take the Denizen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/136/infernal-denizen) · oracle_id `2f33aced-c737-4b3c-ba25-aff7b340c2d7` · printing: ICE #136 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Genesis
 
@@ -275,7 +308,9 @@
   > At the beginning of each player's upkeep, that player mills a card. Then they create X 1/1 black Minion creature tokens, where X is the milled card's mana value.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15107 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/68/infernal-genesis) · oracle_id `c3ce3473-e3bc-4b7c-ae57-957e6c40dc7a` · printing: PCY #68 (2000-06-05) · [rulings](https://api.scryfall.com/cards/1a63d16e-319d-46f4-a28c-895b36605ee6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — If the card has no mana cost (for instance, if it's a land), then its mana value is 0. This means no tokens will be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/68/infernal-genesis) · oracle_id `c3ce3473-e3bc-4b7c-ae57-957e6c40dc7a` · printing: PCY #68 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Grasp
 
@@ -286,6 +321,7 @@
 - **Flavor text** (SOC printing):
   > *Ancient evils dwell within the burning chasm called the Ashmouth, ever ready to devour those foolish enough to travel alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/216/infernal-grasp) · oracle_id `94f0a572-e91c-4b56-a5d1-6cbbeabd210d` · printing: SOC #216 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f67b323d-0dda-45f8-84b7-d883ce5045a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Harvest
@@ -299,7 +335,11 @@
   > *"I offered you eternal life; I just didn't say \*where\*."*
   > *—Shauku, Endbringer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29660 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/62/infernal-harvest) · oracle_id `b8c8cde9-34db-4185-86f5-4289969880c5` · printing: VIS #62 (1997-02-03) · [rulings](https://api.scryfall.com/cards/ccf85ac9-f5d8-4a36-aa6c-3a31427a0348/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If X is 0, you can’t choose any targets.
+  - *2004-10-04* — The return of X of your Swamps to your hand is part of the cost and is paid on casting. You do not have a choice to pay this cost zero times or more than one time in order to multiply the effect.
+  - *2004-10-04* — You can use X as being zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/62/infernal-harvest) · oracle_id `b8c8cde9-34db-4185-86f5-4289969880c5` · printing: VIS #62 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Idol
 
@@ -312,6 +352,7 @@
   > *"The courier's death was regrettable, but then again, she was warned not to touch it."*
   > *—Lord Xander*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16392 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdc/266/infernal-idol) · oracle_id `a0802918-e18a-4716-befb-96ae6667f2f3` · printing: FDC #266 (2026-10-02) · [rulings](https://api.scryfall.com/cards/21a72531-329c-43fd-adc1-a671b3b1edc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Kirin
@@ -326,7 +367,9 @@
   > *The kirin bellowed—an echoing, twisted parody of its once-inspirational call.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17070 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/72/infernal-kirin) · oracle_id `4f07a2e6-692b-4d8c-9ecf-4d94b03706a0` · printing: SOK #72 (2005-06-03) · [rulings](https://api.scryfall.com/cards/c79e7a4c-e0e7-42ac-b125-1db2f3d9325c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-06-01* — If the Spirit or Arcane spell has {X} in the mana cost, then you use the value of {X} on the stack. For example, Shining Shoal costs {X}{W}{W}. If you choose X = 2, then Shining Shoal's mana value is 4. Shining Shoal also has an ability that says "You may exile a white card with mana value X from your hand rather than pay Shining Shoal's mana cost"; if you choose to pay the alternative cost and exile a card with mana value 2, then X is 2 while Shining Shoal is on the stack and its mana value is 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/72/infernal-kirin) · oracle_id `4f07a2e6-692b-4d8c-9ecf-4d94b03706a0` · printing: SOK #72 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Medusa
 
@@ -337,6 +380,7 @@
   > Whenever this creature blocks a creature, destroy that creature at end of combat.
   > Whenever this creature becomes blocked by a non-Wall creature, destroy that creature at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27433 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/108/infernal-medusa) · oracle_id `2cf5ce1f-d5f6-44cd-96e5-87d990d7e770` · printing: LEG #108 (1994-06-01) · [rulings](https://api.scryfall.com/cards/26a5333f-2761-42b8-ae8b-1d360b109daf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Offering
@@ -347,7 +391,12 @@
   > Choose an opponent. You and that player each sacrifice a creature. Each player who sacrificed a creature this way draws two cards.
   > Choose an opponent. Return a creature card from your graveyard to the battlefield, then that player returns a creature card from their graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12825 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/146/infernal-offering) · oracle_id `348201c4-79de-4278-9896-d8b1567cc5cc` · printing: C21 #146 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8af751fd-bfac-43cb-af3b-6116fd643703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-07* — The sacrifice isn’t optional. If you control at least one creature, you must sacrifice one. If you control no creatures, you won’t sacrifice one and you won’t draw two cards. The same is true for the chosen opponent.
+  - *2014-11-07* — You choose the opponents for each effect as the spell resolves.
+  - *2014-11-07* — You choose which creature card you’re returning to the battlefield, then the chosen opponent chooses which creature card they are returning. These choices aren’t made until Infernal Offering resolves. Neither card is a target of Infernal Offering.
+  - *2014-11-07* — You may choose the same opponent for each of the effects, or you may choose different opponents. None of the affected players are targets of the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/146/infernal-offering) · oracle_id `348201c4-79de-4278-9896-d8b1567cc5cc` · printing: C21 #146 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Pet
 
@@ -360,7 +409,10 @@
   > *"Here, my pet. Another little light for you to snuff out."*
   > *—Kzarakh, Immersturm gamekeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/99/infernal-pet) · oracle_id `831b7dad-ab5a-4980-a52d-65c5633d474a` · printing: KHM #99 (2021-02-05) · [rulings](https://api.scryfall.com/cards/80340582-655b-4bf1-88fb-14bcbe17aa04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The triggered ability can trigger only once each turn. The ability will resolve before the second spell does. It doesn’t matter if the first spell you cast that turn has resolved, was countered, or is still on the stack.
+  - *2021-02-05* — The triggered ability triggers only if the creature that has it is on the battlefield as you cast your second spell. Spells you cast in a turn before that creature entered the battlefield will count. In other words, the ability won’t trigger if the creature with the ability is the second spell you cast during a turn or if you have already cast two or more spells by the time that creature enters the battlefield that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/99/infernal-pet) · oracle_id `831b7dad-ab5a-4980-a52d-65c5633d474a` · printing: KHM #99 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Phantom
 
@@ -372,7 +424,11 @@
   > When this creature dies, it deals damage equal to its power to any target.
 - **Keywords:** Eerie
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/141/infernal-phantom) · oracle_id `a8225b2e-62bf-45b7-b573-e3ce301a1eab` · printing: DSK #141 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f0c5999f-a185-4fc7-86fa-c4e5b091e768/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+  - *2024-09-20* — Use Infernal Phantom's power as it last existed on the battlefield to determine how much damage it deals due to its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/141/infernal-phantom) · oracle_id `a8225b2e-62bf-45b7-b573-e3ce301a1eab` · printing: DSK #141 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Plunge
 
@@ -384,7 +440,10 @@
 - **Flavor text** (ISD printing):
   > *"Oh mighty Griselbrand, Scourge of the Heedless World, gladly I consume myself for thee!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3044 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · [rulings](https://api.scryfall.com/cards/b3f50e17-c29c-4d2c-b3e7-45d1216b81ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/148/infernal-plunge) · oracle_id `0b67dff0-5bb7-44fe-a72b-d3b1a6c0ee72` · printing: ISD #148 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Rebirth
 
@@ -398,6 +457,7 @@
   > *—The Hood, Parker Robbins*
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23676 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/537/infernal-rebirth) · oracle_id `05a1e1ee-67f0-4158-a012-01612bc9cc70` · printing: MSC #537 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a09895d1-b41f-4dc6-aefa-774795d28e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Reckoning
@@ -409,7 +469,10 @@
 - **Flavor text** (M19 printing):
   > *"When these intruders are gone, Zendikar will be my throne, my palace, my playground."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/102/infernal-reckoning) · oracle_id `32aa920c-0d91-4bc9-803c-d13857688d10` · printing: M19 #102 (2018-07-13) · [rulings](https://api.scryfall.com/cards/4e291f27-d74f-48e7-bcb4-ddcc558c2211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — If the creature’s power is negative, you don’t lose or gain life.
+  - *2018-07-13* — The amount of life gained is equal to the power of the creature as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/102/infernal-reckoning) · oracle_id `32aa920c-0d91-4bc9-803c-d13857688d10` · printing: M19 #102 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Scarring
 
@@ -422,7 +485,10 @@
   > *One who is marked by a demon in life is sure to be remembered as one in death.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/105/infernal-scarring) · oracle_id `3fc640dd-6292-4d36-82fb-bd366bc00bd3` · printing: M21 #105 (2020-07-03) · [rulings](https://api.scryfall.com/cards/975e4b8e-add9-439c-9463-e2facee96c10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If Infernal Scarring and the enchanted creature are destroyed at the same time, the player will draw a card.
+  - *2020-06-23* — The player who controlled the creature when it died is the one who will draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/105/infernal-scarring) · oracle_id `3fc640dd-6292-4d36-82fb-bd366bc00bd3` · printing: M21 #105 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Sovereign
 
@@ -437,6 +503,7 @@
   > *Dominaria was his to conquer. The Phyrexians were merely the latest fools to stand in his way.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12095 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/75/infernal-sovereign) · oracle_id `b08cb220-34fe-4c54-b654-64a3c24dba44` · printing: MOC #75 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f4fd9a21-a06f-491c-88fa-6e83b1e4c2e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Spawn of Evil
@@ -449,6 +516,7 @@
   > {1}{B}, Reveal this card from your hand, Say "It's coming": This card deals 1 damage to target opponent or planeswalker. Activate only during your upkeep and only once each turn.
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/38/infernal-spawn-of-evil) · oracle_id `e88f6b45-0cde-4fd4-80f0-f252f6fd59fa` · printing: UND #38 (2020-02-29) · [rulings](https://api.scryfall.com/cards/4c28a60a-8b2b-45f5-b46e-c0c50218b239/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Spawn of Infernal Spawn of Evil
@@ -461,7 +529,12 @@
   > Once each turn, while you're searching your library, you may pay {1}{B}, reveal this card from your library and say "I'm coming, too" If you do, this card deals 2 damage to a player of your choice.
 - **Keywords:** Flying, First strike, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/39/infernal-spawn-of-infernal-spawn-of-evil) · oracle_id `cc2eb755-1260-461f-803e-b74adaf041ac` · printing: UND #39 (2020-02-29) · [rulings](https://api.scryfall.com/cards/df2c80d5-960b-4624-9b3e-96943d7b4144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — If you have multiple copies in your library while searching it, you may reveal all of them, provided you can pay the {1}{B} for each of them.
+  - *2020-02-29* — If you search your library multiple times in the same turn, each Infernal Spawn of Infernal Spawn of Evil in that library can be revealed once that turn. You may reveal multiples to prove you have multiples.
+  - *2020-02-29* — Infernal Spawn of Infernal Spawn of Evil doesn't itself allow you to search your library. You must have another spell or ability that instructs you to search it.
+  - *2020-02-29* — You can reveal Infernal Spawn of Infernal Spawn of Evil any time while searching your library before you shuffle it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/39/infernal-spawn-of-infernal-spawn-of-evil) · oracle_id `cc2eb755-1260-461f-803e-b74adaf041ac` · printing: UND #39 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Tribute
 
@@ -473,6 +546,7 @@
   > *"I would not barter my soul for any of the filth that they called power. So they took it from me and damned me to solitude."*
   > *—Crovax*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20062 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/73/infernal-tribute) · oracle_id `a8bf79d2-29fd-4d2f-ac07-2e61d3886bc0` · printing: WTH #73 (1997-06-09) · [rulings](https://api.scryfall.com/cards/569739b2-f212-4cc9-84db-1be17b3f90fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Tutor
@@ -484,6 +558,7 @@
   > Hellbent — If you have no cards in hand, instead search your library for a card, put it into your hand, then shuffle.
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16766 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/78/infernal-tutor) · oracle_id `68a203a3-2283-4e29-b177-b3be43f76899` · printing: RVR #78 (2024-01-12) · [rulings](https://api.scryfall.com/cards/4b868126-f5f4-4541-8f02-9ac0f196d18c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernal Vessel
@@ -496,6 +571,7 @@
 - **Flavor text** (FDN printing):
   > *"Rise, my liege! Rise, and blanket the world in eternal night!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/63/infernal-vessel) · oracle_id `0e13c283-f462-441f-a8a5-0c75a59ff1d9` · printing: FDN #63 (2024-11-15) · [rulings](https://api.scryfall.com/cards/877b6330-2d0b-4f2f-a848-f10b06fb4ef5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infernius Spawnington III, Esq.
@@ -511,7 +587,9 @@
   > *See evil, hear evil, speak evil.*
 - **Keywords:** Flying, First strike, Haste, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/40/infernius-spawnington-iii-esq) · oracle_id `e3ea4d64-0f36-43ab-9c2c-2c659b7398b0` · printing: UND #40 (2020-02-29) · [rulings](https://api.scryfall.com/cards/5e3b1317-f024-4e34-89ad-538fc148cd5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-02-29* — Reveal is a keyword action. A card is revealed if a spell, ability, or rule instructed you to reveal it, using the word “reveal.” While you are allowed to show your hand to other players just because you feel like it, that isn’t “revealing” those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/40/infernius-spawnington-iii-esq) · oracle_id `e3ea4d64-0f36-43ab-9c2c-2c659b7398b0` · printing: UND #40 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno
 
@@ -523,6 +601,7 @@
   > *"Some have said there is no subtlety to destruction. You know what? They're dead."*
   > *—Jaya Ballard, task mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/196/inferno) · oracle_id `69e2df4e-c7f3-4c3a-be5b-1c4afb29cead` · printing: 8ED #196 (2003-07-28) · [rulings](https://api.scryfall.com/cards/bf6895de-9c74-49a0-a71c-1e55a6897dfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Elemental
@@ -536,7 +615,11 @@
   > *"Those who wish to invade our monastery, please take it up with my servant."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/142/inferno-elemental) · oracle_id `287cb63c-d52d-4871-83d1-792a41ae7adc` · printing: M10 #142 (2009-07-17) · [rulings](https://api.scryfall.com/cards/53f05a58-a801-483a-8648-8685a4eaa773/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Inferno Elemental’s ability resolves during the declare blockers step, before even first strike damage is assigned. If the damage dealt to another creature this way is lethal damage, that creature will be destroyed before it can deal its combat damage.
+  - *2009-10-01* — Inferno Elemental’s ability will trigger for each creature it blocks or becomes blocked by.
+  - *2009-10-01* — The 3 damage that Inferno Elemental deals as a result of its ability is not combat damage. Inferno Elemental will still deal its combat damage as normal (unless all the creatures that blocked or were blocked by it have left the battlefield by the time the combat damage step begins).
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/142/inferno-elemental) · oracle_id `287cb63c-d52d-4871-83d1-792a41ae7adc` · printing: M10 #142 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Fist
 
@@ -550,7 +633,10 @@
   > *"I've never been above throwing the first punch."*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/150/inferno-fist) · oracle_id `0ccc75a0-1bc2-461f-ab6f-0f182328a863` · printing: M15 #150 (2014-07-18) · [rulings](https://api.scryfall.com/cards/721a42f4-5884-418f-b1f9-7cb651559ad0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — As soon as Inferno Fist leaves the battlefield, its power bonus stops applying. This means that if you sacrifice Inferno Fist before combat damage is dealt, perhaps to destroy a potential blocker, the creature that was enchanted won't have the bonus when it deals combat damage.
+  - *2014-07-18* — If another player gains control of the enchanted creature, or if Inferno Fist becomes attached to a creature another player controls, Inferno Fist will be put into its owner's graveyard as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/150/inferno-fist) · oracle_id `0ccc75a0-1bc2-461f-ab6f-0f182328a863` · printing: M15 #150 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Hellion
 
@@ -562,7 +648,9 @@
   > At the beginning of each end step, if this creature attacked or blocked this turn, its owner shuffles it into their library.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/337/inferno-hellion) · oracle_id `68c88a4c-8c2b-4e6f-b835-7e269eb073c8` · printing: JMP #337 (2020-07-17) · [rulings](https://api.scryfall.com/cards/6c59a4db-5806-40da-8752-cec05af6bf51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Inferno Hellion’s owner shuffles it into their library only if it’s on the battlefield as its last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/337/inferno-hellion) · oracle_id `68c88a4c-8c2b-4e6f-b835-7e269eb073c8` · printing: JMP #337 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Jet
 
@@ -575,6 +663,7 @@
   > *"When the whole world is crazy, it's important to find something you can rely on."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25654 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/99/inferno-jet) · oracle_id `50c13b38-9865-4c60-b2df-3fd6e3a9c6a2` · printing: HOU #99 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0c6a43fe-369d-4943-a825-570eb3cceba4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno of the Star Mounts
@@ -590,7 +679,11 @@
   > *The ancient dragon Imvaernarhro has earned his fiery nickname.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6364 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/151/inferno-of-the-star-mounts) · oracle_id `cd54438d-7f9d-4d80-b15b-0f0bf4becc15` · printing: AFR #151 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c788c6a6-20d9-4a93-a898-330b085226c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — However, if you have a way to decrease its power, you can cause the triggered ability to trigger multiple times in a single turn.
+  - *2021-07-23* — That triggered ability triggers only if the activated ability causes the power of Inferno of the Star Mounts to become exactly 20. If its power becomes 20 in any other way, the ability won't trigger. If its power becomes 21 or greater this way, the ability won't trigger.
+  - *2021-07-23* — You don't choose a target when you activate the activated ability. You choose a target for the linked triggered ability only if it triggers because the power of Inferno of the Star Mounts became 20.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/151/inferno-of-the-star-mounts) · oracle_id `cd54438d-7f9d-4d80-b15b-0f0bf4becc15` · printing: AFR #151 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Project
 
@@ -604,6 +697,7 @@
   > *Art born from such raw emotion often takes on a life of its own.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22256 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/52/inferno-project) · oracle_id `36d641d4-d3f5-4394-81d7-3209955a1628` · printing: C21 #52 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ca760378-fa30-47ac-b3e0-7dc2e72b3422/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Titan
@@ -618,7 +712,9 @@
   > *"I daresay there's more truth in some of them stories than you reckon."*
   > *—Sam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3172 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/198/inferno-titan) · oracle_id `0ce47c8b-1e1f-463f-94f0-35ca00be89e6` · printing: HOC #198 (2026-08-14) · [rulings](https://api.scryfall.com/cards/f839aadb-084e-4ddc-ba62-d654a695cc6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-08-15* — You divide the damage as you put Inferno Titan's triggered ability on the stack, not as it resolves. Each target must be assigned at least 1 damage. (In other words, as you put the ability on the stack, you choose whether to have it deal 3 damage to a single target, 2 damage to one target and 1 damage to another target, or 1 damage to each of three targets.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/198/inferno-titan) · oracle_id `0ce47c8b-1e1f-463f-94f0-35ca00be89e6` · printing: HOC #198 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inferno Trap
 
@@ -630,7 +726,15 @@
 - **Flavor text** (DDN printing):
   > *"Do you smell something burning?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/67/inferno-trap) · oracle_id `83a71000-942b-4472-9521-0e1070a3343b` · printing: DDN #67 (2014-09-05) · [rulings](https://api.scryfall.com/cards/8c8e6ca4-9678-4032-aca5-c74aac7cd897/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2009-10-01* — Casting a Trap by paying its alternative cost doesn't change its mana cost or mana value. The only difference is the cost you actually pay.
+  - *2009-10-01* — Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
+  - *2009-10-01* — Inferno Trap's alternative cost condition checks for any damage, not just combat damage.
+  - *2009-10-01* — The alternative cost condition doesn't check who controlled the creatures that dealt damage to you. Damage dealt to you by your own creatures counts.
+  - *2009-10-01* — The alternative cost condition is satisfied only if two different creatures dealt damage to you, not if one creature dealt damage to you twice. The damage may have been dealt to you simultaneously (as with combat damage), or at separate times.
+  - *2009-10-01* — You may ignore a Trap's alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
+  - *2009-10-01* — You may target any creature, not just one that dealt damage to you this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddn/67/inferno-trap) · oracle_id `83a71000-942b-4472-9521-0e1070a3343b` · printing: DDN #67 (2014-09-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infest
 
@@ -642,6 +746,7 @@
   > *"This is why we don't go out in banewasp weather."*
   > *—Rannon, Vithian holdout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21884 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/114/infest) · oracle_id `d6850616-7db5-4141-9ab0-ae8d1f08114f` · printing: CLU #114 (2024-02-23) · [rulings](https://api.scryfall.com/cards/332cd61d-b9b9-4214-bb2d-3073e12911fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infestation Expert // Infested Werewolf
@@ -661,6 +766,7 @@
   > *. . . "What's bugging you?"*
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21184 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/206/infestation-expert-infested-werewolf) · oracle_id `bf69dc2a-9aec-4181-bbe9-70875055ec03` · printing: VOW #206 (2021-11-19) · [rulings](https://api.scryfall.com/cards/0936761c-7cdc-49ef-8a0d-ed79219f1056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infestation Sage
@@ -673,6 +779,7 @@
 - **Flavor text** (FDN printing):
   > *"I control the swarm. If you strike me down, there will be nothing left to hold back their hunger."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/64/infestation-sage) · oracle_id `d398dca3-f3a5-44c9-998f-b4fce9e5c2bf` · printing: FDN #64 (2024-11-15) · [rulings](https://api.scryfall.com/cards/d40c73de-7a5f-46f2-a70b-449bc8ecfe24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Fleshcutter
@@ -685,7 +792,15 @@
   > Equip {2}{W}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/17/infested-fleshcutter) · oracle_id `e9c03ed6-34dd-46f7-ab41-8004348328cc` · printing: ONE #17 (2023-02-10) · [rulings](https://api.scryfall.com/cards/9f03d6bf-cbba-4ad7-8cec-065a47f03dbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/17/infested-fleshcutter) · oracle_id `e9c03ed6-34dd-46f7-ab41-8004348328cc` · printing: ONE #17 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Roothold
 
@@ -698,6 +813,7 @@
   > Whenever an opponent casts an artifact spell, you may create a 1/1 green Insect creature token.
 - **Keywords:** Protection, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/76/infested-roothold) · oracle_id `86ebaaf1-82eb-439e-bfca-68521ca199eb` · printing: DST #76 (2004-02-06) · [rulings](https://api.scryfall.com/cards/f9fc7bf3-fa3f-450a-875e-05a022794181/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infested Thrinax
@@ -712,7 +828,9 @@
   > *Jund doesn't have a food chain so much as a mass feeding frenzy.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/74/infested-thrinax) · oracle_id `860b5e4c-45bd-4ba1-930a-36a1450ebd37` · printing: M3C #74 (2024-06-14) · [rulings](https://api.scryfall.com/cards/59c6c82f-6b14-4cbe-a11c-26642112d308/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — Use the power of the creature that died as it last existed on the battlefield to determine how many Saproling tokens to create.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/74/infested-thrinax) · oracle_id `860b5e4c-45bd-4ba1-930a-36a1450ebd37` · printing: M3C #74 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infesting Radroach
 
@@ -726,7 +844,17 @@
   > Whenever an opponent mills a nonland card, if this creature is in your graveyard, you may return it to your hand.
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/46/infesting-radroach) · oracle_id `064f371c-e4f2-423b-9f35-443191dfbb4c` · printing: PIP #46 (2024-03-08) · [rulings](https://api.scryfall.com/cards/5b51b691-e226-44c9-b7cb-26f19c060597/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If Infesting Radroach is milled at the same time an opponent mills a nonland card (for example, because of the activated ability of Raul, Trouble Shooter), Infesting Radroach's ability will trigger.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they'll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don't go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger "whenever one or more nonland cards are milled" will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is "At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves."
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/46/infesting-radroach) · oracle_id `064f371c-e4f2-423b-9f35-443191dfbb4c` · printing: PIP #46 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltrate
 
@@ -737,6 +865,7 @@
 - **Flavor text** (NEM printing):
   > *Getting in was the easy part. Getting out proved to be more difficult.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/33/infiltrate) · oracle_id `081764b4-ef96-44aa-836c-05353efd215c` · printing: NEM #33 (2000-02-14) · [rulings](https://api.scryfall.com/cards/c549b817-8ad6-44d0-9761-5e4ff9e62c71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltration Lens
@@ -750,7 +879,9 @@
   > *Neurok spies carry devices that let them look a few moments into the future, giving them an almost insurmountable edge.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/167/infiltration-lens) · oracle_id `72dfd729-ebba-4bb1-83eb-54c2051fea3b` · printing: SOM #167 (2010-10-01) · [rulings](https://api.scryfall.com/cards/1baa10da-2733-4657-a1ea-74eb5a5a82b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If the equipped creature becomes blocked by multiple creatures, Infiltration Lens’s ability triggers that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/167/infiltration-lens) · oracle_id `72dfd729-ebba-4bb1-83eb-54c2051fea3b` · printing: SOM #167 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltrator il-Kor
 
@@ -762,7 +893,25 @@
   > Suspend 2—{1}{U} (Rather than cast this card from your hand, you may pay {1}{U} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
 - **Keywords:** Shadow, Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/71/infiltrator-il-kor) · oracle_id `dd491ac7-3c6c-4a47-94af-071d1edc5eb2` · printing: TSR #71 (2021-03-19) · [rulings](https://api.scryfall.com/cards/c3ab190b-c96f-4b00-8e97-33a11bb2ed08/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2021-03-19* — If an attacking creature has multiple evasion abilities, such as shadow and flying, a creature can block it only if that creature satisfies all of the appropriate evasion abilities.
+  - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
+  - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/71/infiltrator-il-kor) · oracle_id `dd491ac7-3c6c-4a47-94af-071d1edc5eb2` · printing: TSR #71 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infiltrator's Magemark
 
@@ -776,6 +925,7 @@
   > *—Szadek*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18418 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/28/infiltrators-magemark) · oracle_id `df82b67f-f685-4278-a108-f3689a3a121b` · printing: GPT #28 (2006-02-03) · [rulings](https://api.scryfall.com/cards/e63a62b7-7c66-422d-8588-d48ec49de127/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Authority
@@ -787,7 +937,10 @@
   > Whenever enchanted creature blocks or becomes blocked by a creature with toughness 3 or less, destroy the other creature at end of combat. At the beginning of the next end step, if that creature was destroyed this way, put a +1/+1 counter on the first creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30513 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/22/infinite-authority) · oracle_id `b4faba1a-23db-4678-9ce6-a7816105f22a` · printing: LEG #22 (1994-06-01) · [rulings](https://api.scryfall.com/cards/dc60077f-d577-4a6c-a78f-697317024c40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The enchanted creature gets a +1/+1 counter for each creature that triggers the ability.
+  - *2006-10-15* — Moving the enchantment after the ability triggers will not affect which creatures are affected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/22/infinite-authority) · oracle_id `b4faba1a-23db-4678-9ce6-a7816105f22a` · printing: LEG #22 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Coursework
 
@@ -801,6 +954,7 @@
   > *Theorem dreams soon became nightmares.*
 - **Keywords:** Enchant, Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25644 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/31/infinite-coursework) · oracle_id `666b34b5-a0c2-43e3-befd-7c3979313682` · printing: FRA #31 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a5988272-faaa-463d-a0a1-a8e96b946bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Guideline Station
@@ -815,6 +969,7 @@
   > Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7517 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/219/infinite-guideline-station) · oracle_id `cda39514-86c9-483e-8d95-fd08138ce33a` · printing: EOE #219 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5688894a-bbec-476b-ae2e-94000be258d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Hourglass
@@ -826,6 +981,7 @@
   > All creatures get +1/+0 for each time counter on this artifact.
   > {3}: Remove a time counter from this artifact. Any player may activate this ability but only during any upkeep step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20859 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/378/infinite-hourglass) · oracle_id `7c59ad65-ad1f-4dc4-bcf2-ea6b2b48fad8` · printing: 5ED #378 (1997-03-24) · [rulings](https://api.scryfall.com/cards/fbafc838-7458-4542-86f3-594326ec0691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Obliteration
@@ -835,6 +991,7 @@
 - **Oracle text:**
   > Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/103/infinite-obliteration) · oracle_id `3bea62dc-14cd-4cbc-b55d-3791c444bdc7` · printing: ORI #103 (2015-07-17) · [rulings](https://api.scryfall.com/cards/71a6f6a0-3670-4b72-8c8e-668f47252fa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Reflection
@@ -847,7 +1004,19 @@
   > Nontoken creatures you control enter as a copy of enchanted creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c14/114/infinite-reflection) · oracle_id `5bbcfb73-cccc-47b0-81ae-17eb7c33ff5e` · printing: C14 #114 (2014-11-07) · [rulings](https://api.scryfall.com/cards/bb6c9287-7af5-4741-9555-c256b82c5b76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2012-05-01* — Because creatures you control enter as a copy of the enchanted creature, any "enters" triggered abilities printed on such creatures won't trigger. However, if the enchanted creature has any "enters" triggered abilities, those will trigger.
+  - *2012-05-01* — Creatures you control don't copy whether the enchanted creature is tapped or untapped, whether it has any counters on it, whether it has any Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, types, color, or so on.
+  - *2012-05-01* — External abilities may still affect how a creature enters. For example, if your opponent controls Urabrask the Hidden, which reads, in part, "Creatures your opponents control enter tapped," a creature entering under your control will be a tapped copy of the enchanted creature.
+  - *2012-05-01* — If Infinite Reflection enters attached to a creature and then becomes attached to a different creature before its "enters" trigger resolves, each other nontoken creature you control will become a copy of the first creature.
+  - *2012-05-01* — If Infinite Reflection enters attached to a token creature, the nontoken creatures that become copies of that creature are not themselves tokens.
+  - *2012-05-01* — If Infinite Reflection leaves the battlefield or becomes attached to a different creature, none of the copy effects end. Your creatures will still be copies of whatever creature each was a copy of.
+  - *2012-05-01* — If a creature such as Clone is entering under your control, there will be two copy effects to apply: the creature's own and Infinite Reflection's. No matter what order these effects are applied, the creature will be a copy of the enchanted creature when it enters.
+  - *2012-05-01* — If you control more than one Infinite Reflection, you can apply those copy effects in any order. Creatures you control will enter as a copy of the one whose copy effect you apply last.
+  - *2012-05-01* — Infinite Reflection can enchant a creature controlled by another player.
+  - *2012-05-01* — Other "enters" replacement abilities printed on the creature entering won't be applied because the creature will already be a copy of the enchanted creature at that point (and therefore it won't have those abilities). For example, if the enchanted creature is Serra Angel, a creature that normally enters tapped will enter as an untapped copy of Serra Angel, and a creature that would normally enter with counters on it will enter as a copy of Serra Angel with no counters.
+  - *2012-05-01* — Replacement effects that modify how a permanent enters are now applied in the following order: control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Infinite Reflection and Clone), then all other effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c14/114/infinite-reflection) · oracle_id `5bbcfb73-cccc-47b0-81ae-17eb7c33ff5e` · printing: C14 #114 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinity Elemental
 
@@ -859,7 +1028,13 @@
 - **Flavor text** (UND printing):
   > *It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says, "It's so infinite that its flavor text says,*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/54/infinity-elemental) · oracle_id `4386cb3c-45ac-481c-aa68-04e6efc0442e` · printing: UND #54 (2020-02-29) · [rulings](https://api.scryfall.com/cards/f9330f67-0f79-4374-804c-5ca30841b8bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-02-29* — If an effect sets your life total to a specific number, it will be that number, even if you previously had infinite life.
+  - *2020-02-29* — If you give Infinity Elemental lifelink and it deals damage, you will gain infinite life. You might think infinite life sounds like a lot, and you’d be right. Once at infinite life, your life total mostly can’t change (see below). At infinite life and gain 2 life? You’re at infinite life. At infinite life and lose 29 life? You’re at infinite life. You can pay any amount of life and still be at infinite life. In fact, if you’re at infinite life and get with an opposing Infinity Elemental, you’d still be at infinite life.
+  - *2020-02-29* — If you’re at infinite life and attempt to draw a card from an empty library . . . you lose. You’re not immortal.
+  - *2020-02-29* — Infinity Elemental’s power is incalculable. Infinity Elemental has the greatest power among creatures on the battlefield (and off the battlefield for that matter), although it will tie with other Infinity Elementals. Gaining or losing power is meaningless to it, although effects that set its power to another number will still work.
+  - *2020-02-29* — Through various other cards, you can convert the infinite power of Infinity Elemental into other resources. For example, you could have infinite mana or create infinite tokens. You could draw infinite cards, but that many card don’t exist, so it’s probably not a great idea. Forcing another player to draw infinite cards, on the other hand . . . .
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/54/infinity-elemental) · oracle_id `4386cb3c-45ac-481c-aa68-04e6efc0442e` · printing: UND #54 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinity Formula
 
@@ -871,6 +1046,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24523 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/601/infinity-formula) · oracle_id `83669321-46cd-4805-b4ce-441c5db0f338` · printing: MSC #601 (2026-06-26) · [rulings](https://api.scryfall.com/cards/18286716-cdd6-4035-af0d-8e0a8dde68f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infirmary Healer // Stream of Life
@@ -883,7 +1059,23 @@
   > Target player gains X life.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/152/infirmary-healer-stream-of-life) · oracle_id `4cbbdebc-b807-4d7b-92dd-312637d2a5de` · printing: SOS #152 (2026-04-24) · [rulings](https://api.scryfall.com/cards/911442e3-3003-4683-a766-e791e9553667/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/152/infirmary-healer-stream-of-life) · oracle_id `4cbbdebc-b807-4d7b-92dd-312637d2a5de` · printing: SOS #152 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inflame
 
@@ -894,6 +1086,7 @@
 - **Flavor text** (DST printing):
   > *A Vulshok weapon strikes with the fire of the forge that made it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25936 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/64/inflame) · oracle_id `8426bdb6-b002-4d27-9eaf-d7f8353aa7e8` · printing: DST #64 (2004-02-06) · [rulings](https://api.scryfall.com/cards/e1efad9a-2fcf-4045-8105-bf9f5e79d12c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inflation Station
@@ -903,7 +1096,20 @@
 - **Oracle text:**
   > Whenever you crank this Contraption, target creature gets +3/+3 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/190/inflation-station) · oracle_id `6793afc6-33da-45cd-a607-45ef0f98a778` · printing: UST #190 (2017-12-08) · [rulings](https://api.scryfall.com/cards/c60b15f8-95e8-43b2-a21e-26cb7e686745/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-01-19* — Any Contraption that's on the battlefield and wasn't assembled immediately heads to the scrapyard. However, if it's a not an actual Contraption card (like Copy Artifact isn't), it goes to your graveyard as normal. Non-Contraption cards can't be in the scrapyard.
+  - *2018-01-19* — At the beginning of your upkeep, if you control any Contraptions, move the CRANK! counter to the next sprocket. You may then crank any number of Contraptions on that sprocket, causing their abilities to trigger. Cranking a Contraption is always optional.
+  - *2018-01-19* — Contraptions are artifacts. Anything that interacts with artifacts will interact with Contraptions.
+  - *2018-01-19* — Contraptions aren't put into your main deck. They go into a separate deck called the Contraption deck.
+  - *2018-01-19* — If a Contraption would leave the battlefield and go to any zone other than exile, it instead goes to the scrapyard, the Contraption deck's version of the graveyard. Things that affect the graveyard do not affect the scrapyard. You can exile Contraptions just fine.
+  - *2018-01-19* — If you crank multiple Contraptions, their abilities can be put onto the stack in any order. The ability put onto the stack will resolve first.
+  - *2018-01-19* — If you or a permanent you control are instructed to assemble a Contraption, reveal the top card of your Contraption deck. Put it onto the battlefield on one of the three sprockets.
+  - *2018-01-19* — If you or a permanent you control assembles a Contraption and your Contraption deck is empty, nothing happens. You don't lose the game.
+  - *2018-01-19* — In Constructed formats, a Contraption deck must have at least fifteen different Contraption cards and no more than one of each.
+  - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
+  - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
+  - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/190/inflation-station) · oracle_id `6793afc6-33da-45cd-a607-45ef0f98a778` · printing: UST #190 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Information Booth
 
@@ -914,6 +1120,7 @@
 - **Flavor text** (UNF printing):
   > *"Sir, this may be the information booth, but I cannot answer ontological questions. It would be arrogant to assume I could describe the true nature of reality. Also there's a line."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/218a/information-booth) · oracle_id `2155f3d8-c876-42bc-b546-a476425a4133` · printing: UNF #218a (2022-10-07) · [rulings](https://api.scryfall.com/cards/015dc10f-d1cb-41ed-a32e-3382540109b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Information Dealer
@@ -927,6 +1134,7 @@
   > *"One wizard is a suspect. Two wizards are a conspiracy."*
   > *—Elvish refugee*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/88/information-dealer) · oracle_id `52d10e81-c8ae-44bb-bb83-f4fe737f30d7` · printing: ONS #88 (2002-10-07) · [rulings](https://api.scryfall.com/cards/a45ac59c-654d-44de-b266-532d44b34137/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Informed Inkwright
@@ -941,7 +1149,10 @@
   > *"My inklings are ideal for gathering information. There's no place on Arcavios they can't reach."*
 - **Keywords:** Vigilance, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11667 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/20/informed-inkwright) · oracle_id `d2a372d8-3eb2-4ba4-a75f-7951654de383` · printing: SOS #20 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5defb2d1-d0fb-4e7f-a5c7-3df99fe675d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/20/informed-inkwright) · oracle_id `d2a372d8-3eb2-4ba4-a75f-7951654de383` · printing: SOS #20 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuriate
 
@@ -953,6 +1164,7 @@
   > *"Renata launched a dozen arrows into the minotaur's thick hide, but the monster didn't slow its charge. The fury of Mogis was upon it."*
   > *—Luphea of Setessa, \*Histories\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5579 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/141/infuriate) · oracle_id `d23119ca-73d1-4a48-a8d0-dab8919d891f` · printing: THB #141 (2020-01-24) · [rulings](https://api.scryfall.com/cards/85a74392-4056-428c-a807-b062957e838e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuse
@@ -966,7 +1178,9 @@
   > *"The potential for change lies in all things. Know a thing's nature, know its possibilities, and know it anew."*
   > *—Gustha Ebbasdotter, Kjeldoran Royal Mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18984 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/38/infuse) · oracle_id `6035303e-22b3-4b64-8160-1f46ae3dad55` · printing: ME3 #38 (2009-09-07) · [rulings](https://api.scryfall.com/cards/74f0acc2-de90-4299-ab89-5dd1717a98ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — You may target any artifact, creature, or land, not just a tapped one. If the targeted permanent is already untapped as Infuse resolves, Infuse won’t affect it, but you’ll still draw a card at the beginning of the next turn’s upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/38/infuse) · oracle_id `6035303e-22b3-4b64-8160-1f46ae3dad55` · printing: ME3 #38 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infused Arrows
 
@@ -977,6 +1191,7 @@
   > {T}, Remove X charge counters from this artifact: Target creature gets -X/-X until end of turn.
 - **Keywords:** Sunburst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25704 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/133/infused-arrows) · oracle_id `942216f7-6803-4ab3-9239-463002590f6f` · printing: 5DN #133 (2004-06-04) · [rulings](https://api.scryfall.com/cards/f5fd2639-3c95-435d-8e94-cd4e4d069e3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuse with the Elements
@@ -990,7 +1205,13 @@
   > *—Najiya, leader of the Tajuru*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/175/infuse-with-the-elements) · oracle_id `beea5db2-1771-417f-9a31-028b3d31aa66` · printing: BFZ #175 (2015-10-02) · [rulings](https://api.scryfall.com/cards/0ec25fe4-7967-42e2-8790-593738991eaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-08-25* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2015-08-25* — If there are any alternative or additional costs to cast a spell with a converge ability, the mana spent to pay those costs will count. For example, if an effect makes sorcery spells cost {1} more to cast, you could pay {W}{U}{B}{R} to cast Radiant Flames and deal 4 damage to each creature.
+  - *2015-08-25* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2015-08-25* — Unless a spell or ability allows you to, you can’t choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can’t ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/175/infuse-with-the-elements) · oracle_id `beea5db2-1771-417f-9a31-028b3d31aa66` · printing: BFZ #175 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infuse with Vitality
 
@@ -1002,4 +1223,5 @@
 - **Flavor text** (STX printing):
   > *Dina raised her cup to Killian's lips, and for the first time in his life, he knew compassion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10514 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/194/infuse-with-vitality) · oracle_id `6799217a-030c-4c1b-9de3-99725c6ef4cf` · printing: STX #194 (2021-04-23) · [rulings](https://api.scryfall.com/cards/840600a9-3e78-48a6-b75b-860446b82c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

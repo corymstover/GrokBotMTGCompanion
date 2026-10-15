@@ -25,6 +25,7 @@
   > *"Grux, for the last time, you have to do more than simply shout 'Apply!' at the administrators."*
   > *—Pavil, admissions officer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/50/reject) · oracle_id `198fed4c-297e-41c0-a172-e471c7401fbb` · printing: STX #50 (2021-04-23) · [rulings](https://api.scryfall.com/cards/d77f0731-fb40-4dc2-8530-afcb5ce1f27f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reject Imperfection
@@ -38,7 +39,14 @@
   > *—Sarnvax, Gitaxian sective*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/67/reject-imperfection) · oracle_id `25781dc5-d6ea-4273-9fe3-06a8808b3718` · printing: ONE #67 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c7ce5296-f28f-4105-9c79-b9c63ea720e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/67/reject-imperfection) · oracle_id `25781dc5-d6ea-4273-9fe3-06a8808b3718` · printing: ONE #67 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejoin the Fight
 
@@ -50,6 +58,7 @@
   > *"I have to fight... to protect the people I love, and to make the world a safe place for new lives!"*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8248 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/49/rejoin-the-fight) · oracle_id `d22ea32b-2128-4dcc-8b1c-c4c52f0b2f45` · printing: FIC #49 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f3140950-1ce2-41b8-91f9-da53bfbee963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenate
@@ -61,7 +70,9 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30855 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/271/rejuvenate) · oracle_id `35069cdb-e5bd-4224-a1a8-b329054e003b` · printing: USG #271 (1998-10-12) · [rulings](https://api.scryfall.com/cards/fe3709a3-7a1b-4644-b1d5-e1ffef549f94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/271/rejuvenate) · oracle_id `35069cdb-e5bd-4224-a1a8-b329054e003b` · printing: USG #271 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenating Springs
 
@@ -73,7 +84,10 @@
 - **Flavor text** (MSC printing):
   > *Time with family cures many ills.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/260/rejuvenating-springs) · oracle_id `d1620449-930a-4895-a143-fd2a0a3c8b17` · printing: MSC #260 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c4565a7b-a0ed-4a7f-ad48-7745c56d141b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
+  - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/260/rejuvenating-springs) · oracle_id `d1620449-930a-4895-a143-fd2a0a3c8b17` · printing: MSC #260 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenation Chamber
 
@@ -84,4 +98,5 @@
   > {T}: You gain 2 life.
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31323 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/137/rejuvenation-chamber) · oracle_id `c1ebe189-db71-47cd-a763-8cb8c305383a` · printing: NEM #137 (2000-02-14) · [rulings](https://api.scryfall.com/cards/b97f86ce-4758-4ae3-af29-b08a4d771652/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

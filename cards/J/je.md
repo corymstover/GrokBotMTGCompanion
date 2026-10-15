@@ -94,7 +94,17 @@
   > Menace
 - **Keywords:** Transform, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6402 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/104/jecht-reluctant-guardian-braskas-final-aeon) · oracle_id `b6cebf8d-37e1-42de-b3f1-1c174ab17ac8` · printing: FIN #104 (2025-06-13) · [rulings](https://api.scryfall.com/cards/4ec91fe8-b3da-47fa-b45e-94b62a260aba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — As Braska's Final Aeon's first or second chapter ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then the chosen cards are discarded at the same time. Finally, you draw a card.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/104/jecht-reluctant-guardian-braskas-final-aeon) · oracle_id `b6cebf8d-37e1-42de-b3f1-1c174ab17ac8` · printing: FIN #104 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen
 
@@ -106,6 +116,7 @@
 - **Flavor text** (ME3 printing):
   > *Mightiest of the cat warriors, Jedit Ojanen forsook the forests of his tribe and took service with the Robaran Mercenaries, rising through their ranks to lead them in the battle for Efrava.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25900 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/153/jedit-ojanen) · oracle_id `523cca7d-7d21-45de-b82d-58e777bf7f72` · printing: ME3 #153 (2009-09-07) · [rulings](https://api.scryfall.com/cards/701d1f89-1a4b-41a8-bdb0-972af01f78d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen, Mercenary
@@ -116,6 +127,7 @@
 - **Oracle text:**
   > Whenever Jedit Ojanen or another legendary creature you control enters, you may pay {G}. If you do, create a 2/2 green Cat Warrior creature token with forestwalk. (It can't be blocked as long as defending player controls a Forest.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21207 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/34/jedit-ojanen-mercenary) · oracle_id `3d80fa33-9032-4c16-8355-2f18a71af67c` · printing: DMC #34 (2022-09-09) · [rulings](https://api.scryfall.com/cards/914a4923-18a6-4aa5-8510-b02e9dc7bb41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen of Efrava
@@ -130,7 +142,9 @@
   > *The cat warriors recognized this Jedit's face, but not his fierce loyalty to Efrava.*
 - **Keywords:** Landwalk, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9790 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/153/jedit-ojanen-of-efrava) · oracle_id `c065a7c0-272b-4b7e-a41c-7164352cd189` · printing: C17 #153 (2017-08-25) · [rulings](https://api.scryfall.com/cards/aba23c7b-27c0-440b-b9b2-f1cd3892ba7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — If Jedit Ojanen of Efrava attacks or blocks and a token is created, it will be too late for that token to be declared as an attacker (if it somehow gets haste) or a blocker during that combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/153/jedit-ojanen-of-efrava) · oracle_id `c065a7c0-272b-4b7e-a41c-7164352cd189` · printing: C17 #153 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit's Dragoons
 
@@ -144,6 +158,7 @@
   > *After Efrava was destroyed, the cat warriors scattered across Dominaria. Those who followed Jedit's example were strong enough to survive the ravages of apocalypse.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29447 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/20/jedits-dragoons) · oracle_id `3f6df152-a0b9-441a-a8aa-8bb77f70d491` · printing: DDI #20 (2012-03-30) · [rulings](https://api.scryfall.com/cards/3f190c65-f939-4453-95d7-9acb36cf97c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeering Homunculus
@@ -157,7 +172,13 @@
   > *Mklthd had always hated crowds . . . and they had always hated him.*
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/88/jeering-homunculus) · oracle_id `146de263-fece-4a00-ab67-35dc934165d8` · printing: CLU #88 (2024-02-23) · [rulings](https://api.scryfall.com/cards/db7c1643-7c6a-422a-9440-2b0dc33b1011/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/88/jeering-homunculus) · oracle_id `146de263-fece-4a00-ab67-35dc934165d8` · printing: CLU #88 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeering Instigator
 
@@ -169,7 +190,19 @@
   > When this creature is turned face up, if it's your turn, gain control of another target creature until end of turn. Untap that creature. It gains haste until end of turn.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16414 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/113/jeering-instigator) · oracle_id `170adfe9-ffbe-40b1-b665-e756e7eb0302` · printing: KTK #113 (2014-09-26) · [rulings](https://api.scryfall.com/cards/72777ccf-1cd8-45e8-8dfb-0a42550b5607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to that creature.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Jeering Instigator's last ability can target any creature, even one that's untapped or one you already control.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/113/jeering-instigator) · oracle_id `170adfe9-ffbe-40b1-b665-e756e7eb0302` · printing: KTK #113 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jegantha, the Wellspring
 
@@ -181,7 +214,13 @@
   > {T}: Add {W}{U}{B}{R}{G}. This mana can't be spent to pay generic mana costs.
 - **Keywords:** Companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3855 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/125/jegantha-the-wellspring) · oracle_id `f0587c55-06c1-4930-a62e-668f37464ce9` · printing: ECC #125 (2026-01-23) · [rulings](https://api.scryfall.com/cards/79ec30d9-daf7-4f1d-ac16-4d11e8160d97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — A generic mana cost is usually represented by numeric mana symbols ({1}, {2}, and so on) and also {X}. It is any cost requiring mana where that cost isn't {C}, {W}, {U}, {B}, {R}, or {G}.
+  - *2020-04-17* — Jegantha's companion ability compares the exact symbols in the mana costs of cards in your deck. If any one card has the same symbol twice, such as {X}{X}{R} or {(r/g)}{(r/g)}, the companion condition isn't satisfied.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+  - *2023-04-14* — You can spend mana from Jegantha's mana ability to pay for a hybrid symbol such as {2/W}, but only if you choose to pay the colored mana component, not the generic mana component.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/125/jegantha-the-wellspring) · oracle_id `f0587c55-06c1-4930-a62e-668f37464ce9` · printing: ECC #125 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jelenn Sphinx
 
@@ -195,6 +234,7 @@
   > *Few among the Azorius have ever spoken with the sphinxes, but all have felt their influence.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/224/jelenn-sphinx) · oracle_id `d23b514f-3081-45da-a2cf-7ed3cf49dc24` · printing: BBD #224 (2018-06-08) · [rulings](https://api.scryfall.com/cards/5e868618-c1b0-4ab9-96b2-6435e52b8b07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeleva, Nephalia's Scourge
@@ -208,7 +248,17 @@
   > Whenever Jeleva attacks, you may cast an instant or sorcery spell from among cards exiled with Jeleva without paying its mana cost.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14169 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/194/jeleva-nephalias-scourge) · oracle_id `a014f283-c531-415c-ac00-e6773ea5d64d` · printing: C13 #194 (2013-11-01) · [rulings](https://api.scryfall.com/cards/83f9aeb8-05ba-49d9-a834-62f42fcd295b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2013-10-17* — If Jeleva leaves the battlefield, the exiled cards will remain exiled indefinitely. If Jeleva enters the battlefield again, it won't be associated with the cards the "other" Jeleva exiled. The new Jeleva will exile a new set of cards. Only those cards can be cast using Jeleva's last ability.
+  - *2013-10-17* — If the card has {X} in its mana cost, you must choose 0 as its value.
+  - *2013-10-17* — If you cast a card "without paying its mana cost," you can't pay alternative costs such as overload costs. However, you can pay additional costs such as kicker costs. If the card has mandatory additional costs, you must pay those.
+  - *2013-10-17* — If you cast an instant or sorcery card using Jeleva's last ability, you do so while that ability is resolving. If you choose not to (or you can't), you won't get a chance to cast it later unless the ability triggers again.
+  - *2013-10-17* — The card is cast before blocking creatures are declared.
+  - *2013-10-17* — When casting an instant or sorcery card this way, ignore all timing restrictions based on the card's type. Other timing restrictions, such as "Cast [this spell] only during combat," must be followed.
+  - *2014-02-01* — If Jeleva enters the battlefield without being cast, then no mana was spent to cast it. This means X will be 0, so no cards will be exiled.
+  - *2014-02-01* — The amount of mana you spent to cast this creature is usually equal to its mana value. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
+  - *2014-02-01* — You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/194/jeleva-nephalias-scourge) · oracle_id `a014f283-c531-415c-ac00-e6773ea5d64d` · printing: C13 #194 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jem Lightfoote, Sky Explorer
 
@@ -222,7 +272,9 @@
   > *The nomadic Atiin rarely settle anywhere for more than a few seasons, but Jem never lets that stop her from seeing every last corner.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21170 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/209/jem-lightfoote-sky-explorer) · oracle_id `5802aa98-a9b7-4b0d-9d7c-c3938701870d` · printing: OTJ #209 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e24fe6dc-662a-4abc-ad60-a1959b2be006/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — At the beginning of your end step, Jem Lightfoote’s ability will check to see if you’ve cast a spell from your hand this turn. If you have, the ability won’t trigger at all. If the ability does trigger, it will check again as it tries to resolve. If you’ve cast a spell from your hand since the ability triggered, the ability won’t do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/209/jem-lightfoote-sky-explorer) · oracle_id `5802aa98-a9b7-4b0d-9d7c-c3938701870d` · printing: OTJ #209 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenara, Asura of War
 
@@ -236,6 +288,7 @@
   > *Wounded soldiers looked up, grateful for her appearance. But she passed over them, her eyes firmly on their foe.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18913 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/343/jenara-asura-of-war) · oracle_id `d06cd670-7ffc-4295-97d1-0eff042fb6d5` · printing: NCC #343 (2022-04-29) · [rulings](https://api.scryfall.com/cards/4bcf5b5f-b908-4975-91f7-c4c6f819e0a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jennifer Walters // The Sensational She-Hulk
@@ -254,6 +307,7 @@
   > Whenever a creature you control is dealt damage, you may have The Sensational She-Hulk deal that much damage to any target. Do this only once each turn.
 - **Keywords:** Reach, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7291 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/18/jennifer-walters-the-sensational-she-hulk) · oracle_id `c867a778-97ef-4872-b890-b088b96a1281` · printing: MSH #18 (2026-06-26) · [rulings](https://api.scryfall.com/cards/61237530-ad49-469c-a952-67c92315708e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jennika, Bad Apple Big Sister
@@ -268,6 +322,7 @@
   > *"Splinter said that, once, ninjas defended the poor and the weak from power. We could be real ninjas. We can fight for the people!"*
 - **Keywords:** Plainscycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19894 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/10/jennika-bad-apple-big-sister) · oracle_id `b55da4d3-2cad-4c89-ad3f-7d8397b64d52` · printing: TMT #10 (2026-03-06) · [rulings](https://api.scryfall.com/cards/a5b83101-e3ef-4ffe-a886-4fc2b57a0947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jennika's Technique
@@ -281,7 +336,11 @@
   > *"Being a mutant isn't easy. Lucky for me, I've been preparing for this my entire life!"*
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/93/jennikas-technique) · oracle_id `90b1226f-4c90-47fd-98f3-ad4edd3b3518` · printing: TMT #93 (2026-03-06) · [rulings](https://api.scryfall.com/cards/df559199-c8b9-455b-aa07-0a042348de96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/93/jennikas-technique) · oracle_id `90b1226f-4c90-47fd-98f3-ad4edd3b3518` · printing: TMT #93 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenny Flint
 
@@ -295,7 +354,13 @@
   > Whenever you sacrifice a Clue or Food, put a +1/+1 counter on another target creature you control.
 - **Keywords:** Partner with, Training, First strike, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16125 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/136/jenny-flint) · oracle_id `d57adf99-972a-43fe-9ba2-2b01e673252f` · printing: WHO #136 (2023-10-13) · [rulings](https://api.scryfall.com/cards/74ebd099-ce57-4053-8f25-d18b3d47fac4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle."
+  - *2023-10-13* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
+  - *2023-10-13* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-10-13* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+  - *2023-10-13* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/136/jenny-flint) · oracle_id `d57adf99-972a-43fe-9ba2-2b01e673252f` · printing: WHO #136 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenny, Generated Anomaly
 
@@ -309,7 +374,14 @@
   > *"Time to run again. Love the running."*
 - **Keywords:** Explore, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19318 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/137/jenny-generated-anomaly) · oracle_id `fbddb6a4-f817-4f3d-bf75-63a98e71954b` · printing: WHO #137 (2023-10-13) · [rulings](https://api.scryfall.com/cards/abedc7b1-b6a4-48ab-a336-c0b8edb426a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-10-13* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature you control explores" trigger if appropriate.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/137/jenny-generated-anomaly) · oracle_id `fbddb6a4-f817-4f3d-bf75-63a98e71954b` · printing: WHO #137 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenova, Ancient Calamity
 
@@ -320,7 +392,11 @@
   > At the beginning of combat on your turn, put a number of +1/+1 counters equal to Jenova's power on up to one other target creature. That creature becomes a Mutant in addition to its other types.
   > Whenever a Mutant you control dies during your turn, you draw cards equal to its power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4145 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/228/jenova-ancient-calamity) · oracle_id `9370f6bf-d6a0-4c5b-828f-7229f563cc07` · printing: FIN #228 (2025-06-13) · [rulings](https://api.scryfall.com/cards/534f98ee-7bc2-44d6-b49f-f57c051807d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — If Jenova dies at the same time as one or more Mutants you control, its last ability will trigger for each of those Mutants (including itself if it somehow became a mutant).
+  - *2025-06-06* — If Jenova isn't on the battlefield at the time its first ability resolves, use Jenova's power as it last existed on the battlefield to determine how many counters to put on the target creature.
+  - *2025-06-06* — Use the power of the Mutant that died as it last existed on the battlefield to determine how many cards to draw with Jenova's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/228/jenova-ancient-calamity) · oracle_id `9370f6bf-d6a0-4c5b-828f-7229f563cc07` · printing: FIN #228 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenson Carthalion, Druid Exile
 
@@ -334,6 +410,7 @@
   > *He was born with the crescent-moon Mark of the Elder Druid, tying his fate to the druids of the Juniper Order.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7939 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/3/jenson-carthalion-druid-exile) · oracle_id `68cefb44-afad-4638-8fdc-65a099b51d55` · printing: DMC #3 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6a67f32c-4c9a-4bda-92f4-037b99999777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeong Jeong's Deserters
@@ -346,6 +423,7 @@
 - **Flavor text** (TLA printing):
   > *To leave the Fire Nation required incredible trust. They had that in Jeong Jeong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14928 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/25/jeong-jeongs-deserters) · oracle_id `6a06d281-3ca2-498f-91d0-e13e7b0869f9` · printing: TLA #25 (2025-11-21) · [rulings](https://api.scryfall.com/cards/060966f9-5e56-4512-9ef3-2b216daf093c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeong Jeong, the Deserter
@@ -358,7 +436,22 @@
   > Exhaust — {3}: Put a +1/+1 counter on Jeong Jeong. When you next cast a Lesson spell this turn, copy it and you may choose new targets for the copy. (Activate each exhaust ability only once.)
 - **Keywords:** Exhaust, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10716 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/142/jeong-jeong-the-deserter) · oracle_id `2158c73d-421b-4c94-af06-dd89cb8d3126` · printing: TLA #142 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a9f63d3b-bee5-48bc-8b04-d8b24b0bda6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-10-02* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+  - *2025-10-02* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+  - *2025-10-02* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2025-10-02* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2025-10-02* — The trigger from Jeong Jeong's exhaust ability and the copy it creates both resolve before the spell that caused the ability to trigger. They resolve even if the spell is countered before the copy is created.
+  - *2025-10-02* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/142/jeong-jeong-the-deserter) · oracle_id `2158c73d-421b-4c94-af06-dd89cb8d3126` · printing: TLA #142 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jermane, Pride of the Circus
 
@@ -371,7 +464,14 @@
 - **Flavor text** (UNF printing):
   > *"Don't worry about me, folks! This beauty was well-fed by my predecessor."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31203 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/144/jermane-pride-of-the-circus) · oracle_id `2b7855b8-33ac-4e49-a043-8cc392fc6397` · printing: UNF #144 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4b423097-a056-4673-bd7e-ca94a41a7aee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Creature type alone isn’t always enough to tell you whether a creature has four legs or not. For example, leonin have only two legs, while tigers have four legs, but both are Cats.
+  - *2022-10-07* — Generally, you look at the art of a creature card to determine whether it has four legs or not.
+  - *2022-10-07* — If a creature the defending player controls can’t block the creature targeted by the last ability for any reason (such as being tapped), then it doesn’t block that creature. If there’s a cost associated with having a creature block the attacking creature, the defending player isn’t forced to pay that cost, so it doesn’t have to block in that case either.
+  - *2022-10-07* — If the creature is known to have more than four legs—say, it’s a spider—but not all its legs are visible, it still has four or more legs. It’s a legal target for either activated ability.
+  - *2022-10-07* — If there are multiple creatures in the art that each match what the card is representing, then that creature has four or more legs as long as any one of the matching creatures in the art has four or more legs. For example, Llanowar Elves (M19) has three figures in its art, all of whom are Llanowar elves. However, none of those figures has four or more legs, so Llanowar Elves is not a valid target for Jermane’s abilities. If even one of the figures had four or more legs, then the creature would be a valid target.
+  - *2022-10-07* — If there are multiple creatures in the art, only compare the one that represents the actual creature on the card. For example, Tarmogoyf (MMA) has the tarmogoyf itself and an elk in the art, and you need only consider the tarmogoyf.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/144/jermane-pride-of-the-circus) · oracle_id `2b7855b8-33ac-4e49-a043-8cc392fc6397` · printing: UNF #144 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jerrard of the Closed Fist
 
@@ -383,6 +483,7 @@
 - **Flavor text** (ME3 printing):
   > *Once, the order of the Closed Fist reached throughout the Kb'Briann Highlands. Now, Jerrard alone remains to uphold their standard.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28001 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/154/jerrard-of-the-closed-fist) · oracle_id `fd20576d-4abe-4af8-ac53-ab9356593fe7` · printing: ME3 #154 (2009-09-07) · [rulings](https://api.scryfall.com/cards/621d4d0b-bcff-4855-bbaf-7aeeabeafe99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jerren, Corrupted Bishop // Ormendahl, the Corrupter
@@ -401,7 +502,11 @@
   > *"Ah, Jerren. You've been such a faithful, useful insect."*
 - **Keywords:** Flying, Lifelink, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13821 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/109/jerren-corrupted-bishop-ormendahl-the-corrupter) · oracle_id `20d0df30-013c-47c0-b70b-d628d427d30b` · printing: MID #109 (2021-09-24) · [rulings](https://api.scryfall.com/cards/0f6e668d-2502-4e82-b4c2-ef34c9afa27e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-09-24* — If, while activating mana abilities during the resolution of Jerren's last ability, you somehow gain or lose life, you will still be able to finish paying the cost and Jerren will still transform.
+  - *2021-09-24* — Jerren's last ability will trigger only if you have exactly 13 life at the beginning of your end step. You will be able to pay {4}{B}{B} only if you have exactly 13 life as that ability begins to resolve. If your life total isn't 13 at that point, the ability will have no effect. You won't be able to pay {4}{B}{B} and Jerren won't transform.
+  - *2021-09-24* — Multiple instances of lifelink are redundant, so giving lifelink to a Human that already has it gives no additional benefit.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/109/jerren-corrupted-bishop-ormendahl-the-corrupter) · oracle_id `20d0df30-013c-47c0-b70b-d628d427d30b` · printing: MID #109 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska and Kamahl
 
@@ -413,6 +518,7 @@
   > {T}: Jeska and Kamahl deals 2 damage to target opponent, battle, or planeswalker.
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UR04b/jeska-and-kamahl) · oracle_id `852d2a7f-5082-4668-978d-51776cad2cfd` · printing: UNK #UR04b (2023-05-06) · [rulings](https://api.scryfall.com/cards/cb02f45f-6b44-4cc1-a42d-40dd51639c32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Ascendancy
@@ -423,6 +529,7 @@
   > Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.
   > Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2727 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/231/jeskai-ascendancy) · oracle_id `c3c802ba-dfbb-4f63-ae9a-e29c2e30013d` · printing: 2X2 #231 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9a8399fc-4cba-44c5-888e-2cfc0f6739f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Baller
@@ -435,7 +542,16 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/517/jeskai-baller) · oracle_id `e789e7bf-d2f9-41e8-976f-24321e8da928` · printing: MB2 #517 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b06c51f3-7489-4588-901d-3f7bfb12cfdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-11-08* — Casting the card again due to rebound’s delayed triggered ability is optional. If you choose not to cast the card, or if you can’t because an effect prohibits it, the card will stay exiled. You won’t get another chance to cast it on a future turn.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason, including being countered, the spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+  - *2024-11-08* — If you cast Jeskai Baller from any zone other than your hand (including from exile using its rebound ability) and the spell resolves, Jeskai Baller enters the battlefield as a creature.
+  - *2024-11-08* — If you cast Jeskai Baller from your hand and the spell resolves, you must exile the spell due to its rebound ability. You cannot choose to have it enter the battlefield as a creature.
+  - *2024-11-08* — Jeskai Baller’s first ability will resolve before Jeskai Baller does. If Jeskai Baller is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/517/jeskai-baller) · oracle_id `e789e7bf-d2f9-41e8-976f-24321e8da928` · printing: MB2 #517 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Banner
 
@@ -447,6 +563,7 @@
 - **Flavor text** (KTK printing):
   > *Discipline to persevere, insight to discover.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13298 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/222/jeskai-banner) · oracle_id `fda10ef2-f431-4d9b-96a4-4db4c98d2b0c` · printing: KTK #222 (2014-09-26) · [rulings](https://api.scryfall.com/cards/684dc050-a66b-4364-9880-56f383db6c0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Barricade
@@ -460,6 +577,7 @@
   > When this creature enters, you may return another target creature you control to its owner's hand.
 - **Keywords:** Flash, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7289 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/15/jeskai-barricade) · oracle_id `7a2fa0a6-1324-4714-8896-6bb97640578a` · printing: FRF #15 (2015-01-23) · [rulings](https://api.scryfall.com/cards/3aa2d511-6eec-42dd-9ebe-1260c8527856/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Brushmaster
@@ -474,6 +592,7 @@
   > *Elegance. Precision. Grace. Qualities that must be practiced in writing as well as combat.*
 - **Keywords:** Prowess, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19485 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/195/jeskai-brushmaster) · oracle_id `eff690a7-c2c7-4750-894c-0667d3151165` · printing: TDM #195 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2eb06c36-cf7e-47a9-819e-adfc54284153/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Charm
@@ -486,6 +605,7 @@
   > • Jeskai Charm deals 4 damage to target opponent or planeswalker.
   > • Creatures you control get +1/+1 and gain lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9186 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/232/jeskai-charm) · oracle_id `2a9a05b4-1910-4f97-a0fe-0f57017f6df0` · printing: 2X2 #232 (2022-07-08) · [rulings](https://api.scryfall.com/cards/d4c0fcdb-a312-4976-bcfb-73930c0a556c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Devotee
@@ -500,7 +620,9 @@
   > *A master of the Whirling Blade technique, he did not hesitate to leap to the monastery's defense.*
 - **Keywords:** Flurry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22743 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/110/jeskai-devotee) · oracle_id `6dcdd313-6df7-4d44-a4cb-0346a4fdb4e1` · printing: TDM #110 (2025-04-11) · [rulings](https://api.scryfall.com/cards/27f31f9c-7149-4608-9b18-b3530a2efd4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — Spells that were cast before a permanent with flurry count. If that permanent was the first spell you cast that turn, the next spell you cast that turn is your second spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/110/jeskai-devotee) · oracle_id `6dcdd313-6df7-4d44-a4cb-0346a4fdb4e1` · printing: TDM #110 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Elder
 
@@ -512,7 +634,12 @@
   > Whenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18883 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/53/jeskai-elder) · oracle_id `dfbd5ad1-0f68-4219-95c4-98f674f321be` · printing: 2X2 #53 (2022-07-08) · [rulings](https://api.scryfall.com/cards/38fd9091-2d22-411f-955a-24c32293cdca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-09-20* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2014-09-20* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2020-06-23* — You draw a card and discard a card all while Jeskai Elder's ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/53/jeskai-elder) · oracle_id `dfbd5ad1-0f68-4219-95c4-98f674f321be` · printing: 2X2 #53 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Infiltrator
 
@@ -524,7 +651,38 @@
   > When this creature deals combat damage to a player, exile it and the top card of your library in a face-down pile, shuffle that pile, then manifest those cards. (To manifest a card, put it onto the battlefield face down as a 2/2 creature. Turn it face up any time for its mana cost if it's a creature card.)
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/93/jeskai-infiltrator) · oracle_id `39b359c1-48b8-43a7-b972-54764eadd2c7` · printing: C18 #93 (2018-08-10) · [rulings](https://api.scryfall.com/cards/4efcf6ba-e466-4947-94b2-725cc77b6e05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (30):
+  - *2014-11-24* — A card's owner is public information at all times. If the two cards you exile are owned by different players (perhaps because you gained control of a Jeskai Infiltrator owned by your opponent), which card is which is no longer hidden from your opponent. That player will know which face-down creature they own.
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If Jeskai Infiltrator isn't on the battlefield as its triggered ability resolves, you'll manifest just the top card of your library.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — If you manifest a card owned by an opponent and you leave the game, that card is exiled.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — The pile is shuffled to disguise from your opponents which manifested creature is which. After you manifest the cards, you can look at them.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+  - *2018-07-13* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2018-07-13* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2018-07-13* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect instructs you to do so.
+  - *2018-07-13* — Because face-down creatures don't have a name, they can't have the same name as any other creature or share any creature types with any other creature, even another face-down creature.
+  - *2018-07-13* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2018-07-13* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2018-07-13* — If an effect tries to return a face-down creature to the battlefield after it leaves (such as Aminatou's second ability or Adarkar Valkyrie's delayed triggered ability), that effect returns the card face up. If it tries to put an instant or sorcery card onto the battlefield this way, that card remains in its current zone instead.
+  - *2018-07-13* — Some previous Magic sets feature double-faced cards, which have a Magic card face on each side rather than a Magic card face on one side and a Magic card back on the other. If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up. Although a double-faced card can enter the battlefield face down, one already on the battlefield can't be turned face down.
+  - *2018-07-13* — The face-down characteristics of a permanent are copiable values. If another object becomes a copy of a face-down creature or if a token is created that's a copy of a face-down creature, that new object is a 2/2 colorless face-up creature with no abilities.
+  - *2018-07-13* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2018-07-13* — There are no cards in this set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2018-07-13* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2018-07-13* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using a morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/93/jeskai-infiltrator) · oracle_id `39b359c1-48b8-43a7-b972-54764eadd2c7` · printing: C18 #93 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Monument
 
@@ -534,6 +692,7 @@
   > When this artifact enters, search your library for a basic Island, Mountain, or Plains card, reveal it, put it into your hand, then shuffle.
   > {1}{U}{R}{W}, {T}, Sacrifice this artifact: Create two 1/1 white Bird creature tokens with flying. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18845 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/244/jeskai-monument) · oracle_id `0b2b7d04-73f3-43f6-86e0-fa00cbbc6469` · printing: TDM #244 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d0193ad6-39b7-4558-bd3e-36f809332ea2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Revelation
@@ -546,7 +705,10 @@
   > *"No one of us could have built all this alone. A clan, a school, hope for the future. Thank you all."*
   > *—Narset, to Shiko, Taigam, and Elsha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/196/jeskai-revelation) · oracle_id `61b6b1d1-4350-41c1-ac47-835b2831f24a` · printing: TDM #196 (2025-04-11) · [rulings](https://api.scryfall.com/cards/3cac0ad3-5107-4ed6-a688-d44bbd65e407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — If a copy of a spell is returned to its owner’s hand, it’s moved there, then it will cease to exist as a state-based action. It can’t be recast.
+  - *2025-04-04* — If a spell is returned to its owner’s hand, it’s removed from the stack and thus will not resolve. The spell isn’t countered; it just no longer exists. This works even against a spell that can’t be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/196/jeskai-revelation) · oracle_id `61b6b1d1-4350-41c1-ac47-835b2831f24a` · printing: TDM #196 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Runemark
 
@@ -558,7 +720,9 @@
   > Enchanted creature has flying as long as you control a red or white permanent.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/37/jeskai-runemark) · oracle_id `5fe13418-c63c-4f3c-9a42-7ab06949e3cd` · printing: FRF #37 (2015-01-23) · [rulings](https://api.scryfall.com/cards/2ada6302-326b-4ab1-a9a3-ae4fa6a9001c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-24* — Whether a creature has flying is checked as blocking creatures are declared. Once the enchanted creature blocks or is blocked, losing flying won’t change or undo that block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/37/jeskai-runemark) · oracle_id `5fe13418-c63c-4f3c-9a42-7ab06949e3cd` · printing: FRF #37 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Sage
 
@@ -572,7 +736,12 @@
   > *"The one who conquers the mind is greater than the one who conquers the world."*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22351 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/38/jeskai-sage) · oracle_id `b79d4b17-482e-415b-a63b-1f97a55e7583` · printing: FRF #38 (2015-01-23) · [rulings](https://api.scryfall.com/cards/6dff4734-7b2a-4089-a78a-46199818f39d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2014-11-24* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-11-24* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2014-11-24* — Prowess triggers only once for any spell, even if that spell has multiple types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/38/jeskai-sage) · oracle_id `b79d4b17-482e-415b-a63b-1f97a55e7583` · printing: FRF #38 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Shrinekeeper
 
@@ -586,6 +755,7 @@
   > *Like clouds and snow, Jeskai dragons prefer to drift among the monastery's highest spires.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13602 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/197/jeskai-shrinekeeper) · oracle_id `bb50b4f4-f0da-4283-821b-6d74bd20752f` · printing: TDM #197 (2025-04-11) · [rulings](https://api.scryfall.com/cards/6ec8fa0b-c695-4326-aebd-042cb1974925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Student
@@ -599,7 +769,11 @@
   > *Discipline is the first pillar of the Jeskai Way. Each member of the clan trains in a weapon, perfecting its use over a lifetime.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26264 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/14/jeskai-student) · oracle_id `c8ebfc8b-3cee-491b-a568-8a8dcb22541d` · printing: KTK #14 (2014-09-26) · [rulings](https://api.scryfall.com/cards/9007c528-0107-40fd-a97e-e5576f297eb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2014-09-20* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/14/jeskai-student) · oracle_id `c8ebfc8b-3cee-491b-a568-8a8dcb22541d` · printing: KTK #14 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Windscout
 
@@ -613,7 +787,11 @@
   > *They range from Sage-Eye Stronghold to the farthest reaches of Tarkir.*
 - **Keywords:** Flying, Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25332 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/44/jeskai-windscout) · oracle_id `c35f4b80-90b6-467a-a666-1cc3437d49ab` · printing: KTK #44 (2014-09-26) · [rulings](https://api.scryfall.com/cards/66356e38-38e1-4b09-80c2-be26007ff99c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2014-09-20* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/44/jeskai-windscout) · oracle_id `c35f4b80-90b6-467a-a666-1cc3437d49ab` · printing: KTK #44 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska's Will
 
@@ -627,7 +805,16 @@
   > *"Gather your strength. Prepare yourself."*
   > *—Jeska, to Radha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #107 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · [rulings](https://api.scryfall.com/cards/99e0c371-1024-4432-9fd9-3bc29c8d38e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2026-03-20* — Any of the exiled cards you don't play will remain exiled.
+  - *2026-03-20* — Even though the card is named after a specific character, controlling any commander will satisfy its condition.
+  - *2026-03-20* — Once you've announced that you're casting a spell, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2026-03-20* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
+  - *2026-03-20* — The commander you control doesn't have to be your commander.
+  - *2026-03-20* — There's no extra bonus if you control more than one commander.
+  - *2026-03-20* — Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add.
+  - *2026-03-20* — You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Thrice Reborn
 
@@ -642,7 +829,18 @@
   > Partner
 - **Keywords:** Triple, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4666 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander") · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/186/jeska-thrice-reborn) · oracle_id `b1fbfcf3-6921-4417-a58e-0f5e5d34a105` · printing: CMR #186 (2020-11-20) · [rulings](https://api.scryfall.com/cards/48caf4c4-745c-4072-bf3d-1a3fa7c3bc9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — For a creature affected by Jeska's second ability, if that creature has trample, only the damage dealt to the defending player is tripled (as long as that player is one of your opponents). For example, say you activate that ability targeting a 5/5 creature with trample, attack one of your opponents with that creature, and that creature is blocked by a 3/3 creature. You could assign 3 damage to the blocking creature and 2 damage to the defending player. If you did, your attacker would deal 3 damage to the blocking creature and 6 damage (2 damage tripled) to the defending player. All of the damage remains combat damage.
+  - *2020-11-10* — If a creature is targeted by Jeska's second ability twice, combat damage it would deal one of your opponents is multiplied by nine. Three abilities multiply the damage by twenty-seven, and so on.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If you cast Jeska, Thrice Reborn and she is your commander, that casting counts for her first ability.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/186/jeska-thrice-reborn) · oracle_id `b1fbfcf3-6921-4417-a58e-0f5e5d34a105` · printing: CMR #186 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Warrior Adept
 
@@ -656,6 +854,7 @@
   > *"My brother and I both come from Balthor's forge. Kamahl has a temper of fire. I have a temper of steel."*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19954 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/93/jeska-warrior-adept) · oracle_id `3186fddd-23fd-440c-ad61-b4130e00f765` · printing: JUD #93 (2002-05-27) · [rulings](https://api.scryfall.com/cards/1cf96a59-8b7d-4a5b-adfd-17eeedd95db5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jessica Jones, Private Eye
@@ -668,6 +867,7 @@
 - **Flavor text** (MSH printing):
   > *"I would trade all my powers for a fresh pot of hot coffee right now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19527 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/139/jessica-jones-private-eye) · oracle_id `6677cd5a-0785-499b-ba99-f6bdcfb196d5` · printing: MSH #139 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b48278fd-1d95-4ad6-9a51-f1c5a2ab9f4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Cap
@@ -679,7 +879,9 @@
 - **Flavor text** (DMR printing):
   > *The crowd laughed heartily at the fool's performance, until his hat laughed back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/227/jesters-cap) · oracle_id `8783a94a-d0b2-4291-a550-dbcf8e16bf4b` · printing: DMR #227 (2023-01-13) · [rulings](https://api.scryfall.com/cards/b364e7e7-83e5-474b-9768-8b70a77e5ffa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — As long as there are three or more cards in that library, you must find three cards and exile them. If there are fewer than three cards in the player's library, you exile all of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/227/jesters-cap) · oracle_id `8783a94a-d0b2-4291-a550-dbcf8e16bf4b` · printing: DMR #227 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Mask
 
@@ -689,6 +891,7 @@
   > This artifact enters tapped.
   > {1}, {T}, Sacrifice this artifact: Target opponent puts the cards from their hand on top of their library. Search that player's library for that many cards. That player puts those cards into their hand, then shuffles.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20139 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/211/jesters-mask) · oracle_id `bcc797b9-d2e5-4fde-8d80-c890c871f344` · printing: ME2 #211 (2008-09-22) · [rulings](https://api.scryfall.com/cards/69d74d40-5642-4ffb-a65e-4a5c48ff8254/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Scepter
@@ -699,7 +902,12 @@
   > When this artifact enters, exile the top five cards of target player's library face down. You may look at those cards for as long as they remain exiled.
   > {2}, {T}, Put a card exiled with this artifact into its owner's graveyard: Counter target spell if it has the same name as that card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/137/jesters-scepter) · oracle_id `396b943c-b45d-4e5b-a9c1-f70bc603ee9f` · printing: CSP #137 (2006-07-21) · [rulings](https://api.scryfall.com/cards/7118c2e0-04d6-4a71-8ffd-b9365b154050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2006-07-15* — Because the cards that are exiled are not hidden to you, you can choose which one to put into its owner’s graveyard when you activate the second ability.
+  - *2006-07-15* — If half of a split card is cast (for example, Hit), and you put one of those split cards into its owner’s graveyard with Jester’s Scepter (for example, Hit/Run), the spell is countered.
+  - *2006-07-15* — When Jester’s Scepter’s second ability is activated, any of the exiled cards may be put into its owner’s graveyard, and any spell may be targeted, whether or not the card and the spell have the same name. If they don’t have the same name, the effect does nothing. The spell’s controller and the owner of the card put into a graveyard this way may be different.
+  - *2006-07-15* — You can see the cards that are exiled with Jester’s Scepter, but no one else can.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/137/jesters-scepter) · oracle_id `396b943c-b45d-4e5b-a9c1-f70bc603ee9f` · printing: CSP #137 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jester's Sombrero
 
@@ -710,6 +918,7 @@
 - **Flavor text** (UGL printing):
   > *"¡Yo quiero Kormus Bell!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/76/jesters-sombrero) · oracle_id `9d4a60f8-cb0d-4423-a666-219c33c0a450` · printing: UGL #76 (1998-08-11) · [rulings](https://api.scryfall.com/cards/6e68f012-307f-4ffb-909e-1284fb39e64f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet Collector
@@ -722,6 +931,7 @@
   > {X}{B}: Return target creature card with mana value X from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery.
 - **Keywords:** Conjure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32175 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/69/jet-collector) · oracle_id `191f5f95-bfb8-4d3c-a223-c7654cc507d8` · printing: MBC #69 (2026-10-19) · [rulings](https://api.scryfall.com/cards/dede6c59-f129-49c7-8df6-6bca00777c17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetfire, Ingenious Scientist // Jetfire, Air Guardian
@@ -739,7 +949,24 @@
   > {U}{U}{U}: Convert Jetfire, then adapt 3. (If it has no +1/+1 counters on it, put three +1/+1 counters on it.)
 - **Keywords:** Flying, Adapt, Living metal, Convert, More Than Meets the Eye
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11808 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/3/jetfire-ingenious-scientist-jetfire-air-guardian) · oracle_id `38de7183-81ef-4a79-b231-7195ba89a281` · printing: BOT #3 (2022-11-18) · [rulings](https://api.scryfall.com/cards/6bf61883-2343-4a9f-9a34-99326a8827ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Because it has a target, Jetfire, Ingenious Scientist's activated ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Mana that you add with Jetfire, Ingenious Scientist's activated ability can be used on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/3/jetfire-ingenious-scientist-jetfire-air-guardian) · oracle_id `38de7183-81ef-4a79-b231-7195ba89a281` · printing: BOT #3 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet, Freedom Fighter
 
@@ -752,7 +979,9 @@
 - **Flavor text** (TLA printing):
   > *"One day, we'll drive the Fire Nation out of here for good."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16915 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/229/jet-freedom-fighter) · oracle_id `77cd2246-6906-4dce-8580-4c9d2e68c477` · printing: TLA #229 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9202c044-15e4-4218-a94d-16287ba19d69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — The amount of damage Jet's first ability deals is calculated only on resolution of the ability. Only creatures you control when the ability resolves will be counted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/229/jet-freedom-fighter) · oracle_id `77cd2246-6906-4dce-8580-4c9d2e68c477` · printing: TLA #229 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet Medallion
 
@@ -763,7 +992,13 @@
 - **Flavor text** (MH3 printing):
   > *It is the imposing heft of a ruler's scepter, the stench of death after a victory in battle, and the mournful wail of an enemy kneeling in supplication. It is power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · [rulings](https://api.scryfall.com/cards/d423365c-a32c-4060-b178-3221e3200387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-07-28* — If a spell you cast has {X} in its mana cost, you choose the value of X before calculating the spell's total cost.
+  - *2023-07-28* — If there are additional costs to cast a spell, or if the cost to cast a spell is increased by an effect (such as the one created by Thalia, Guardian of Thraben's ability), apply those increases before applying cost reductions.
+  - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+  - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir, Nexus of Revels
 
@@ -775,7 +1010,9 @@
   > Creatures you control also get +1/+0 and have trample as long as you control six or more creatures.
   > Creatures you control also get +1/+0 and have double strike as long as you control nine or more creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2257 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f9c69d75-651f-4b75-b65d-79999d2069f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — If a creature with double strike loses double strike after dealing damage during the first combat damage step but before dealing damage in the second combat damage step, it will not deal damage during that second combat damage step. Notably, this means that if your ninth creature dies in the first combat damage step, the rest of your creatures won't deal combat damage again unless something else is granting them double strike.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir's Fixer
 
@@ -787,6 +1024,7 @@
 - **Flavor text** (SNC printing):
   > *When you lose Jetmir's trust, his family makes sure you lose everything else.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25932 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/194/jetmirs-fixer) · oracle_id `f87df7d4-99e2-4340-9d0a-b96c397555db` · printing: SNC #194 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3e5aa701-28e8-47fa-8c26-4da2f943f582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir's Garden
@@ -801,6 +1039,7 @@
   > *The parklike Cabaretti grounds offer rest, food, and the perfect place to shake off a tail.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #367 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/250/jetmirs-garden) · oracle_id `f5896356-5744-4f7e-a4e5-1cc36dde5958` · printing: SNC #250 (2022-04-29) · [rulings](https://api.scryfall.com/cards/26d40e03-6de4-4373-9fbf-04c1dd79e995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetpack Death Seltzer
@@ -814,6 +1053,7 @@
   > {TK}{TK}{TK}{TK} — 6/5
 - **Keywords:** Trample, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/20/jetpack-death-seltzer) · oracle_id `fe37c718-b3fb-4e95-a547-dd741b70421c` · printing: SUNF #20 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1b09757f-22bb-4ae0-874f-67959b537da0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetpack Janitor
@@ -826,6 +1066,7 @@
 - **Flavor text** (UNF printing):
   > *"'Carol, blast those aliens.' 'Carol, transport these concessions.' No one cares that today is my birthday."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32314 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/15/jetpack-janitor) · oracle_id `34b33741-90dc-45a7-b1fa-53eee4a24884` · printing: UNF #15 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ca01d8c3-0b5d-4fcc-92e7-1e28956f4297/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet, Rebel Leader
@@ -838,6 +1079,7 @@
 - **Flavor text** (TLE printing):
   > *"Gotta be quicker next time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12763 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/78/jet-rebel-leader) · oracle_id `b9ca8ead-c267-4170-a6c8-04498330c82b` · printing: TLE #78 (2025-11-21) · [rulings](https://api.scryfall.com/cards/79d4b68c-36b9-4597-83f8-a869c5cf4b93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet's Brainwashing
@@ -850,7 +1092,14 @@
   > Create a Clue token. (It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/143/jets-brainwashing) · oracle_id `5cca85e0-43e8-4b97-a43b-1b8f23f541d1` · printing: TLA #143 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b17e8bdb-4b91-4a9d-bfe1-8a55f0bd040b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
+  - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+  - *2025-10-02* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2025-10-02* — If you copy a kicked spell on the stack, the copy is also kicked.
+  - *2025-10-02* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2025-10-02* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/143/jets-brainwashing) · oracle_id `5cca85e0-43e8-4b97-a43b-1b8f23f541d1` · printing: TLA #143 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetting Glasskite
 
@@ -864,6 +1113,7 @@
   > *The bolt struck with a flash, and there was a terrible sound, as of glass shattering, but the creature was unharmed.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31244 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/58/jetting-glasskite) · oracle_id `65b61373-835a-4b22-90d1-d019446e98f7` · printing: EMA #58 (2016-06-10) · [rulings](https://api.scryfall.com/cards/24f01503-03d3-4d74-b9d0-b973f7d66094/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Amulet
@@ -874,7 +1124,10 @@
   > {1}, {T}: Put a charge counter on this artifact. Note the type of mana spent to pay this activation cost. Activate only if there are no charge counters on this artifact.
   > {T}, Remove a charge counter from this artifact: Add one mana of this artifact's last noted type.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3527 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/75/jeweled-amulet) · oracle_id `e2ad4b4d-d5fe-4a64-9b40-296c8fc8bcce` · printing: MBC #75 (2026-10-19) · [rulings](https://api.scryfall.com/cards/d3656079-0b27-4169-a792-2629eff8ea56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — Charge counters are indistinguishable from one another. If some other spell or ability (such as Power Conduit’s ability) puts a charge counter on Jeweled Amulet, activating Jeweled Amulet’s second ability will still check the type of mana last noted by its first ability. If there is no type of mana noted by its first ability (because it hasn’t been activated by that point), the second ability will produce no mana.
+  - *2008-10-01* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/75/jeweled-amulet) · oracle_id `e2ad4b4d-d5fe-4a64-9b40-296c8fc8bcce` · printing: MBC #75 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Bird
 
@@ -884,7 +1137,9 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > {T}: Ante this artifact. If you do, put all other cards you own from the ante into your graveyard, then draw a card.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/102/jeweled-bird) · oracle_id `89f5b21c-18da-4071-bc42-9cdc433734bf` · printing: CHR #102 (1995-07-01) · [rulings](https://api.scryfall.com/cards/d78e61e5-9313-4c83-af38-98849aea4e42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The card is exchanged for your entire contribution to the ante. This means that it replaces all the cards if you have more than one already contributed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/102/jeweled-bird) · oracle_id `89f5b21c-18da-4071-bc42-9cdc433734bf` · printing: CHR #102 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Lotus
 
@@ -896,6 +1151,7 @@
   > *"I've seen my share of baubles, minister. Whatever ostentatious bit of glitter you have there won't convince me to ... Oh my."*
   > *—Emperor Ayrelion*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/396/jeweled-lotus) · oracle_id `23216e59-f147-4bb7-a698-12777c2f8584` · printing: CMM #396 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d7183700-6941-4a3d-a581-4f33bea795e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Spirit
@@ -910,7 +1166,9 @@
   > *As he knows all the world completely, the world refuses him harm.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32105 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/12/jeweled-spirit) · oracle_id `cddf2e46-79dc-4d6f-bb67-db55d966e8e2` · printing: PCY #12 (2000-06-05) · [rulings](https://api.scryfall.com/cards/b0d3e681-bd4b-41e9-8db4-083172f3caad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose the color (or artifacts) on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/12/jeweled-spirit) · oracle_id `cddf2e46-79dc-4d6f-bb67-db55d966e8e2` · printing: PCY #12 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Torque
 
@@ -920,6 +1178,7 @@
   > As this artifact enters, choose a color.
   > Whenever a player casts a spell of the chosen color, you may pay {2}. If you do, you gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/301/jeweled-torque) · oracle_id `91f36a03-6031-4834-98ee-20b36cdf5569` · printing: MMQ #301 (1999-10-04) · [rulings](https://api.scryfall.com/cards/eab076bc-e4c3-42a1-b701-9bc49bcc3cdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jewel-Eyed Cobra
@@ -935,6 +1194,7 @@
   > *—Mokgar, Kalonian hunter*
 - **Keywords:** Treasure, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14684 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/168/jewel-eyed-cobra) · oracle_id `bbfee53c-30a6-4ed0-beef-5c254be75fc5` · printing: MH2 #168 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8f8db60d-3adf-45e1-b4d0-3b5e24f5e01d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jewel Thief
@@ -949,4 +1209,5 @@
   > *"They can afford the loss. They build it into their prices."*
 - **Keywords:** Vigilance, Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12964 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/151/jewel-thief) · oracle_id `470f0bbf-a0c9-4216-96f0-d400dac17aef` · printing: SNC #151 (2022-04-29) · [rulings](https://api.scryfall.com/cards/736e498e-1245-40c1-96a4-c9bcfd1cfe1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

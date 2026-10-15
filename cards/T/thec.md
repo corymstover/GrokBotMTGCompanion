@@ -67,7 +67,13 @@
   > *"My cabbages..."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2213 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/134/the-cabbage-merchant) · oracle_id `e31808bb-fb6e-487b-a973-db44961c84ee` · printing: TLE #134 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2fea0356-6684-4730-9eb4-0262856bc1f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — Food sacrificed due to The Cabbage Merchant's second triggered ability is not being sacrificed to the Food's own ability, so you will not gain any life.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/134/the-cabbage-merchant) · oracle_id `e31808bb-fb6e-487b-a973-db44961c84ee` · printing: TLE #134 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Caffeinated Runner
 
@@ -80,6 +86,7 @@
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03d/the-caffeinated-runner) · oracle_id `c1d8b17f-7a21-479f-9907-2276a035e289` · printing: UNK #RZ03d (2024-10-25) · [rulings](https://api.scryfall.com/cards/e846cdb2-936d-4b47-af1f-68df7dd22868/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Capitoline Triad
@@ -92,7 +99,19 @@
   > Exile any number of historic cards from your graveyard with total mana value 30 or greater: You get an emblem with "Creatures you control have base power and toughness 9/9."
 - **Keywords:** Those Who Came Before
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7484 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/1/the-capitoline-triad) · oracle_id `e0321049-a3ed-4378-b607-7fb190b6f0fd` · printing: ACR #1 (2024-07-05) · [rulings](https://api.scryfall.com/cards/fa1b63ce-47d3-4633-9062-3fecd810e85f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Effects that modify a creature’s power and/or toughness without setting it will apply to creatures you control no matter when they started to take effect. The same is true for counters that change a creature’s power and/or toughness.
+  - *2024-07-05* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Once you announce you’re casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can’t try to remove historic cards from your graveyard.
+  - *2024-07-05* — Once you determine the cost to cast The Capitoline Triad, you may activate mana abilities to pay that cost. If the number of historic cards in your graveyard changes while activating mana abilities, the cost to cast The Capitoline Triad remains what you previously determined.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-07-05* — The Capitoline Triad’s mana value doesn’t change no matter how many historic cards are in your graveyard.
+  - *2024-07-05* — The ability of the emblem created by The Capitoline Triad overwrites all previous effects that set the power and toughness of creatures you control to specific values. Other effects that set these characteristics to specific values that start to apply after the emblem is created will overwrite this effect.
+  - *2024-07-05* — The first step of casting a spell is to move it to the stack. If this causes the number of historic cards in your graveyard to change (probably because you are casting The Capitoline Triad from your graveyard), that new number will be used to determine the cost reduction.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/1/the-capitoline-triad) · oracle_id `e0321049-a3ed-4378-b607-7fb190b6f0fd` · printing: ACR #1 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cauldron of Eternity
 
@@ -103,7 +122,11 @@
   > Whenever a creature you control dies, put it on the bottom of its owner's library.
   > {2}{B}, {T}, Pay 2 life: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/82/the-cauldron-of-eternity) · oracle_id `a7308a1f-ec46-478e-86ea-33b2ebbd995f` · printing: ELD #82 (2019-10-04) · [rulings](https://api.scryfall.com/cards/eb69473f-de99-43a7-b094-429465ae735c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much a relic's cost is reduced.
+  - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
+  - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/82/the-cauldron-of-eternity) · oracle_id `a7308a1f-ec46-478e-86ea-33b2ebbd995f` · printing: ELD #82 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cave of Two Lovers
 
@@ -116,7 +139,14 @@
   > III — Earthbend 3. (Target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/126/the-cave-of-two-lovers) · oracle_id `c2df54f1-a2db-4de3-bc96-5c07f4594752` · printing: TLA #126 (2025-11-21) · [rulings](https://api.scryfall.com/cards/50bf5c8b-f218-46b7-843c-8d8083f02fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/126/the-cave-of-two-lovers) · oracle_id `c2df54f1-a2db-4de3-bc96-5c07f4594752` · printing: TLA #126 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Caves of Androzani
 
@@ -128,7 +158,9 @@
   > II, III — For each non-Saga permanent, choose a counter on it. You may put an additional counter of that kind on that permanent.
   > IV — Search your library for a Doctor card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18126 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/15/the-caves-of-androzani) · oracle_id `5ce47fb9-4e4f-4419-af75-309d2743f5f9` · printing: WHO #15 (2023-10-13) · [rulings](https://api.scryfall.com/cards/7b260c0a-b9dc-4a4f-83ee-5a7fbd9b3f67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — The last ability of the Caves of Androzani can find any card with the Doctor creature type, not cards with the word "Doctor" in the name.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/15/the-caves-of-androzani) · oracle_id `5ce47fb9-4e4f-4419-af75-309d2743f5f9` · printing: WHO #15 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Celestial Toymaker
 
@@ -139,6 +171,7 @@
   > Whenever The Celestial Toymaker attacks, look at the top three cards of your library. Exile any number of them in a face-down pile and the rest in a face-up pile. Defending player chooses one of those piles. Put that pile into your hand.
   > At the beginning of each end step, each opponent loses 2 life for each spell or ability that caused one or more players to guess or to group cards or permanents into a pile this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17130 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/1582/the-celestial-toymaker) · oracle_id `388fe92a-0bc0-4c0a-a7c6-910c5e71e342` · printing: SLD #1582 (2023-12-11) · [rulings](https://api.scryfall.com/cards/55c9e915-9cee-45c3-96aa-9dfd5a600d0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Celestus
@@ -151,7 +184,14 @@
   > {3}, {T}: If it's night, it becomes day. Otherwise, it becomes night. Activate only as a sorcery.
   > Whenever day becomes night or night becomes day, you gain 1 life. You may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6310 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/252/the-celestus) · oracle_id `c0ad2b5f-066b-424b-bddf-d3014731e599` · printing: MID #252 (2021-09-24) · [rulings](https://api.scryfall.com/cards/39226a07-d44e-41a6-b9f1-685ef505d015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-09-24* — Before a player untaps their permanents during the untap step, the game checks to see if the day/night designation should change.
+  - *2021-09-24* — Day and night are designations that the game itself can have. The game starts as neither. Once the game becomes day (or less commonly, night), the game will be exactly one of them—day or night—going back and forth for the rest of the game.
+  - *2021-09-24* — If a triggered ability triggers whenever day becomes night or night becomes day, it only triggers if it was already either day/night and becomes the other. It does not trigger when the game becomes day or night for the first time.
+  - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
+  - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+  - *2021-09-24* — If you choose to draw a card with The Celestus but some effect replaces that card draw with something else, you will still have to discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/252/the-celestus) · oracle_id `c0ad2b5f-066b-424b-bddf-d3014731e599` · printing: MID #252 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chain Veil
 
@@ -161,7 +201,13 @@
   > At the beginning of your end step, if you didn't activate a loyalty ability of a planeswalker this turn, you lose 2 life.
   > {4}, {T}: For each planeswalker you control, you may activate one of its loyalty abilities once this turn as though none of its loyalty abilities have been activated this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/943/the-chain-veil) · oracle_id `fb88fb3d-6a85-4bb1-b316-7f759b45a0fa` · printing: CMM #943 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1ca66955-d900-45b6-9a40-38467689a68d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-07-18* — After the last ability resolves, you’ll essentially be able to activate a loyalty ability of each planeswalker you control a total of twice during your turn. The timing rules for when you can activate loyalty abilities apply each time; it must be your main phase and the stack must be empty.
+  - *2014-07-18* — Because the last ability modifies the rules of the game, it affects not only planeswalkers you control when it resolves, but also planeswalkers that come under your control later in the turn.
+  - *2014-07-18* — Each additional time The Chain Veil’s last ability resolves will allow you to activate a loyalty ability of each planeswalker you control an additional time. For example, if you activate The Chain Veil’s last ability, untap it, then activate it again, you can activate a loyalty ability of a planeswalker you control three times that turn.
+  - *2014-07-18* — For the first ability, it doesn’t matter whether the planeswalker is still on the battlefield as your end step begins. If you activated one of its loyalty abilities that turn, The Chain Veil’s triggered ability won’t trigger.
+  - *2014-07-18* — The second loyalty ability you activate doesn’t have to be the same as the first ability. For example, you could activate a planeswalker’s first ability twice, or you could activate a planeswalker’s first ability, then activate its second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/943/the-chain-veil) · oracle_id `fb88fb3d-6a85-4bb1-b316-7f759b45a0fa` · printing: CMM #943 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Champion
 
@@ -170,6 +216,7 @@
 - **Oracle text:**
   > {2}, {T}, Exile The Champion: Search your library for a legendary artifact card that isn't a creature, reveal it, and put it onto the battlefield. Then shuffle your library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp3/9/the-champion) · oracle_id `6d748b95-035c-468b-a271-f668afdb48f9` · printing: THP3 #9 (2014-05-02) · [rulings](https://api.scryfall.com/cards/9a6eba2c-a980-4a2b-b103-bd91bc5889d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chaos Keeper
@@ -181,6 +228,7 @@
   > The Chaos Keeper enters with a sealed Magic booster pack of your choice under it. (You provide a new pack each time.)
   > Whenever The Chaos Keeper deals combat damage to a player, reveal its cards and put one of them into your hand. (Don't open the booster pack until the first time this ability resolves.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02c/the-chaos-keeper) · oracle_id `e8080592-3782-4aa7-84ca-2c019263bf69` · printing: UNK #RZ02c (2024-10-25) · [rulings](https://api.scryfall.com/cards/26263231-f4ad-44ff-8922-15391d09e70f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Charitable Drafter
@@ -192,6 +240,7 @@
   > When The Charitable Drafter enters, create a 1/1 white Dog creature token. Then each players shuffles their hand into their library. Open a Magic booster pack, then starting with you, all players draft it face up. Each player's draft picks become their hand. (Each player owns the cards they draft until the game ends, then you should get them back, unless you feel generous or rare-drafted and don't care.)
   > Creatures you control have "{T}: Add one mana of any color. Spend this mana only to cast a card that wasn't in your starting deck."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU06/the-charitable-drafter) · oracle_id `3d85e2b9-d324-49ca-9d38-a83e880f1467` · printing: UNK #RU06 (2025-09-26) · [rulings](https://api.scryfall.com/cards/b5f5ff37-19b4-4e69-b60a-99d441c560c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chase Is On
@@ -204,7 +253,13 @@
   > *Etrata evaded the Boros arresters and Azorius lawmages, but not even a master assassin could give Kaya the slip.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/116/the-chase-is-on) · oracle_id `789899eb-3a33-4a41-b6b5-5e2f55a9af51` · printing: MKM #116 (2024-02-09) · [rulings](https://api.scryfall.com/cards/1d54d596-f7aa-4b05-ab13-19b246698c04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/116/the-chase-is-on) · oracle_id `789899eb-3a33-4a41-b6b5-5e2f55a9af51` · printing: MKM #116 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cheese Stands Alone
 
@@ -215,6 +270,7 @@
 - **Flavor text** (UGL printing):
   > *The meat, on the other hand, has frequent visitors.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/2/the-cheese-stands-alone) · oracle_id `f38b9fbc-1cb9-450a-93e8-a6b8139956ae` · printing: UGL #2 (1998-08-11) · [rulings](https://api.scryfall.com/cards/d01a114f-3349-4a62-bfad-0dc33b78a53f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chief Warg
@@ -229,7 +285,9 @@
   > *Even magic rings were not much use against wolves—especially against the evil packs that lived near Goblin-infested mountains.*
 - **Keywords:** Ferocious, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16897 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/150/the-chief-warg) · oracle_id `5ebe8de1-aa3d-410d-b43d-1685259c7a97` · printing: HOB #150 (2026-08-14) · [rulings](https://api.scryfall.com/cards/c397a298-bf7f-49d7-a26a-206ccf9e8120/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — The Chief Warg's triggered ability will check when you attack to see if you control a creature with power 4 or greater. If you don't, the ability won't trigger at all. It will not check again when it resolves, so the trigger will resolve even if you no longer control a creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/150/the-chief-warg) · oracle_id `5ebe8de1-aa3d-410d-b43d-1685259c7a97` · printing: HOB #150 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cinematic Phoenix
 
@@ -242,7 +300,9 @@
   > Tap six untapped creatures you control: Return The Cinematic Phoenix from your graveyard to the battlefield. If you tapped six legendary creatures this way, you win the game.
 - **Keywords:** Flying, Protection, Haste
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/6/the-cinematic-phoenix) · oracle_id `35358853-7443-4f3f-8922-fbcfc88bbd81` · printing: PH19 #6 (2020-08-01) · [rulings](https://api.scryfall.com/cards/6799b986-0c07-4082-8b5c-f28bddc42ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph19/6/the-cinematic-phoenix) · oracle_id `35358853-7443-4f3f-8922-fbcfc88bbd81` · printing: PH19 #6 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Circle of Loyalty
 
@@ -255,7 +315,13 @@
   > {3}{W}, {T}: Create a 2/2 white Knight creature token with vigilance.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/98/the-circle-of-loyalty) · oracle_id `fd1b4523-2399-4771-89bf-1d65f5d67056` · printing: DMC #98 (2022-09-09) · [rulings](https://api.scryfall.com/cards/81910ade-a742-4ed7-ab15-bca95850f8b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-10-04* — Once you announce that you're casting a spell, no player may take actions until the spell has been paid for. Notably, opponents can't try to change by how much a relic's cost is reduced.
+  - *2019-10-04* — The Circle of Loyalty's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-10-04* — The Circle of Loyalty's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
+  - *2019-10-04* — The cost reduction ability reduces only the generic mana in the relic's cost. The colored mana must still be paid.
+  - *2019-10-04* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/98/the-circle-of-loyalty) · oracle_id `fd1b4523-2399-4771-89bf-1d65f5d67056` · printing: DMC #98 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The City on the Edge of Forever
 
@@ -267,6 +333,7 @@
   > II — You draw two cards and each player loses 2 life.
   > III — Sacrifice a creature token. If you do, you gain 5 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31305 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/228/the-city-on-the-edge-of-forever) · oracle_id `47c9ef8c-7ba7-4702-bd8c-5fedc59c8166` · printing: TRK #228 (2026-11-13) · [rulings](https://api.scryfall.com/cards/aac6f64d-d39a-4994-bc70-6b477b2640f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Clever Magician
@@ -278,6 +345,7 @@
   > Rule Zero — Whenever this creature enters the battlefield, and before the game begins if this creature is your commander, you may propose a new rule that is contained to this game of Magic. If all players in the game agree to it, that rule becomes true for this game. If one or more players decline, instead you scry 2. (If this is your commander, scry after keeping your hand.)
 - **Keywords:** Rule Zero, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU04a/the-clever-magician) · oracle_id `2c4af7da-ed1c-4dd9-a5e7-7a00922127d2` · printing: UNK #RU04a (2024-06-29) · [rulings](https://api.scryfall.com/cards/7f7b811a-a49d-4ccd-98a0-9b46b3b988e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Clone Saga
@@ -291,6 +359,7 @@
   > III — Choose a card name. Whenever a creature with the chosen name deals combat damage to a player this turn, draw a card.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9260 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/782/the-clone-saga) · oracle_id `0f0282c6-aceb-4879-8ec8-482d0501204a` · printing: MSC #782 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d356ed6b-062f-47c5-a54e-a74dbc0300f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cloning of Shredder
@@ -302,7 +371,11 @@
   > I — Exile target creature card from your graveyard. Create a token that's a copy of it, except it isn't legendary and is a Mutant in addition to its other types.
   > II, III — Create a token that's a copy of a card exiled with this Saga, except it isn't legendary and is a Mutant in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14019 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/60/the-cloning-of-shredder) · oracle_id `bd768e8f-8f04-487e-85e9-2828d6fd8745` · printing: TMT #60 (2026-03-06) · [rulings](https://api.scryfall.com/cards/94449d88-2df4-4850-8ffa-d6d193835dda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Except for the listed exceptions, the token created by one of The Cloning of Shredder's chapter abilities copies exactly what was printed on the original card and nothing else. It doesn't copy information about the object that card was before it was put into that graveyard or before it was exiled.
+  - *2026-01-27* — If a card copied by the token had any "when this creature enters" abilities, the appropriate token also has those abilities and will trigger them when it's created. Similarly, any "as this creature enters" or "this creature enters with" abilities that the token has copied will also work.
+  - *2026-01-27* — The token isn't legendary and is a Mutant in addition to its other creature types. This is a copiable value of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/60/the-cloning-of-shredder) · oracle_id `bd768e8f-8f04-487e-85e9-2828d6fd8745` · printing: TMT #60 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cobra King
 
@@ -315,6 +388,7 @@
   > • Strike hard — Put a +1/+1 counter on each Snake and Serpent you control.
 - **Keywords:** Strike first, Fight, Strike hard
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06/the-cobra-king) · oracle_id `b7773555-7e0f-44bd-8140-686ca71263c9` · printing: UNK #RZ06 (2024-10-25) · [rulings](https://api.scryfall.com/cards/8aaddcc9-2c6d-4baf-a91e-a68a07709218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Collector
@@ -328,6 +402,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at MagicCon Chicago, February 24-25, 2024.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ99/the-collector) · oracle_id `d85f70d8-272a-4f62-8e71-92507782db0a` · printing: UNK #MZ99 (2024-02-24) · [rulings](https://api.scryfall.com/cards/11c455b9-fd1c-44b9-9f4c-87c1934b6c6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Colossal Dreadmaw
@@ -340,7 +415,14 @@
   > You may cast creature cards from your hand as though they were the card Colossal Dreadmaw. (They become Colossal Dreadmaws.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/573/the-colossal-dreadmaw) · oracle_id `549443ab-620e-433a-b782-386cb23b0052` · printing: MB2 #573 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d0c98dca-b499-408f-8f99-9c59742027ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If you choose to cast a card as Colossal Dreadmaw, while on the stack, treat that spell as though it were Colossal Dreadmaw (including the mana cost to cast it). After it resolves, treat the permanent it becomes as though it were Colossal Dreadmaw for as long as it remains on the battlefield. Once it leaves the battlefield, the card goes back to its normal self.
+  - *2024-11-08* — Official text for Colossal Dreadmaw can be found using the Gatherer card database at Gatherer.Wizards.com.
+  - *2024-11-08* — Once you’ve started casting a spell as Colossal Dreadmaw, it’s too late . . . for an opponent to prevent you from doing that by killing The Colossal Dreadmaw.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/573/the-colossal-dreadmaw) · oracle_id `549443ab-620e-433a-b782-386cb23b0052` · printing: MB2 #573 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Coming of Galactus
 
@@ -353,6 +435,7 @@
   > IV — Create Galactus, a legendary 16/16 black Elder Alien creature token with flying, trample, and "Whenever Galactus attacks, destroy target land."
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14681 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/212/the-coming-of-galactus) · oracle_id `e05f23ba-f2b2-4c40-83fa-8defce3cb978` · printing: MSH #212 (2026-06-26) · [rulings](https://api.scryfall.com/cards/04a38b92-619e-4fe8-b0cb-6fa31f0824ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Commander Recommender
@@ -364,6 +447,7 @@
   > When The Commander Recommender enters, bring out another Commander deck you own without revealing the commander. Reveal fifteen cards at random from it other than the commander. Each opponent guesses the deck's commander, then reveal it. (The deck must be a legit Commander deck, not just The Ur-Dragon and 99 Islands. Respect the minigame.)
   > Whenever an opponent guesses wrong (like to Liar's Pendulum... or the above effect), you draw two cards.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05d/the-commander-recommender) · oracle_id `696c9e73-b5df-4662-8b66-c3e0d462b583` · printing: UNK #RU05d (2025-09-26) · [rulings](https://api.scryfall.com/cards/ad03fec1-ec23-4b60-9142-e049dcfbe009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Companion of the Wilds
@@ -376,6 +460,7 @@
   > When The Companion of the Wilds enters the battlefield, create a Food token, a 1/1 black Rat creature token with "This creature can't block," and a Royal role token attached to a creature you control.
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC05b/the-companion-of-the-wilds) · oracle_id `83e89b97-c83f-4db8-8940-d8b533fe2391` · printing: UNK #RC05b (2023-09-23) · [rulings](https://api.scryfall.com/cards/2c0127ce-32ad-4860-85c2-95a085532492/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Convention Enthusiast
@@ -389,6 +474,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at GenCon, July 31-August 3, 2025.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05l/the-convention-enthusiast) · oracle_id `fb9b8272-b07a-4115-a5cd-e57c53c16a7b` · printing: UNK #RZ05l (2025-08-02) · [rulings](https://api.scryfall.com/cards/d9943669-dc56-49b2-9a65-35ec7be69a18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Convincing General
@@ -404,6 +490,7 @@
   > *Prize Card for the Unknown event at Gen Con 2024, August 4, 2024.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MZ05a/the-convincing-general) · oracle_id `5dd4e011-c5e7-488f-a592-d72dfe00a493` · printing: UNK #MZ05a (2024-08-03) · [rulings](https://api.scryfall.com/cards/0017051f-bb7d-4f78-b214-02d08a542400/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cookout Creator
@@ -417,6 +504,7 @@
   > Tapped four untapped Humans you control: You draw a card and create a Treasure token.
 - **Keywords:** Treasure, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03p/the-cookout-creator) · oracle_id `59361f63-967c-420a-a57b-cecf73ce5209` · printing: UNK #RZ03p (2026-05-01) · [rulings](https://api.scryfall.com/cards/864e7046-f05c-4cbb-a3ba-8e4f27e312d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cosplayzer
@@ -427,6 +515,7 @@
 - **Oracle text:**
   > You may have The Cosplayzer enter as a copy of any creature on the battlefield, except it has "The first time each turn an ability of this creature is activated or triggered, copy it. You may choose new targets for the copy" and the first letter of its name is Z. (This is both stylish AND makes it a different name for the legend rule!)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05a/the-cosplayzer) · oracle_id `6a82d247-749f-48ff-acad-414553f02fcd` · printing: UNK #RU05a (2024-10-25) · [rulings](https://api.scryfall.com/cards/7461dba5-8546-436c-a0d2-84dd6cb2aa19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Council of Four
@@ -440,6 +529,7 @@
 - **Flavor text** (CLB printing):
   > *Ambition has a price in Baldur's Gate, and it is paid to the Council.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2050 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/271/the-council-of-four) · oracle_id `3dfb006f-6620-4602-ac3c-d40a5a15a981` · printing: CLB #271 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0873cfa8-046c-4b14-ae22-3fd6a691f763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Countdown Is at One
@@ -450,7 +540,12 @@
   > Players play a Magic subgame, starting at 1 life and using their libraries as their decks. For the rest of the main game, if a source would deal damage to a player who didn't win the subgame, it deals double that damage to that player instead.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/80/the-countdown-is-at-one) · oracle_id `ca7ecf93-6cab-43b4-85ab-25a2c50505a2` · printing: UST #80 (2017-12-08) · [rulings](https://api.scryfall.com/cards/4afb8115-3a47-4d7e-a3ed-b2e81ca27255/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — After the subgame ends, all players shuffle their cards from the subgame to reform their main-game libraries, and they return to the main game from the point they left off, with The Countdown Is at One finishing resolving.
+  - *2018-01-19* — If a player has fewer than seven cards in their main-game library, they’ll lose the subgame as it begins, regardless of how many mulligans that player takes.
+  - *2018-01-19* — If the subgame is a draw, no player won the subgame, so damage dealt to any player in the main game will be doubled.
+  - *2018-01-19* — To play a Magic subgame, all players start a new game, using their libraries as their decks. No other cards, tokens, emblems, or anything else from the main game are included in the subgame.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/80/the-countdown-is-at-one) · oracle_id `ca7ecf93-6cab-43b4-85ab-25a2c50505a2` · printing: UST #80 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Countering Runner
 
@@ -462,6 +557,7 @@
   > Whenever a spell an opponent controls is countered by a spell or ability you control, draw a card. The Countering Runner deals 2 psychic damage to that player. (Psychic damage doesn't cause loss of life, but a player who's been dealt 20 psychic damage loses the game.)
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU05b/the-countering-runner) · oracle_id `9761c2bc-1e18-4fe4-8ccc-7b2df9ae7046` · printing: UNK #RU05b (2024-10-25) · [rulings](https://api.scryfall.com/cards/354f9932-4c1e-4a90-bfdf-0dd02be45fed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Covert Blue Mage
@@ -473,6 +569,7 @@
   > If The Covert Blue Mage is your commander, your starting deck can contain any number of cards beyond the maximum deck size. (For example, your deck can be 120 cards.)
   > When The Covert Blue Mage enters, create a colorless Equipment artifact token named Covert Sunglasses. It has "Equipped creature can't be blocked" and equip {2}{W/U}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03c/the-covert-blue-mage) · oracle_id `c51a0ccb-220d-46f6-9813-62f2d36356a5` · printing: UNK #RU03c (2024-10-25) · [rulings](https://api.scryfall.com/cards/b4de2229-185c-4f54-a9e3-9947c41606e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crab Queen
@@ -485,6 +582,7 @@
 - **Flavor text** (UNK printing):
   > *DIFFERENCE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU38/the-crab-queen) · oracle_id `232df79b-b848-4148-a0a6-2c7a91d7bf84` · printing: UNK #RU38 (2024-02-24) · [rulings](https://api.scryfall.com/cards/bc28b93d-c25b-4e26-af0f-f84e0c03e72e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crafter
@@ -500,6 +598,7 @@
   > *THE*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR66/the-crafter) · oracle_id `d3c5b218-a00b-4530-a88c-60a2aa83137b` · printing: UNK #RR66 (2024-02-24) · [rulings](https://api.scryfall.com/cards/f23f0b7e-ff04-45ea-bb0c-1e54afac8de0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Creation of Avacyn
@@ -512,7 +611,11 @@
   > II — Turn the exiled card face up. If it's a creature card, you lose life equal to its mana value.
   > III — You may put the exiled card onto the battlefield if it's a creature card. If you don't put it onto the battlefield, put it into its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/86/the-creation-of-avacyn) · oracle_id `7f32344f-06d8-4862-bfeb-f90a3e1d7fc2` · printing: MH3 #86 (2024-06-14) · [rulings](https://api.scryfall.com/cards/27d701aa-df93-4f0e-b1e3-d081487eb456/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Each The Creation of Avacyn you control has its own set of face-down exiled cards. (In most cases, this set of cards will contain just one card.) The Creation of Avacyn's second and third chapter abilities refer only to those cards, not those of any other The Creation of Avacyn.
+  - *2024-06-07* — In the unusual case where two or more cards are exiled face down with The Creation of Avacyn's first ability when the third chapter ability resolves, if at least one of the exiled cards is a creature card, you may choose to put all or none of the exiled cards that are permanent cards onto the battlefield. Regardless of what you choose, any remaining exiled cards will be put into their owners' hands.
+  - *2024-06-07* — In the unusual case where two or more cards are exiled face down with The Creation of Avacyn's first chapter ability (likely because the triggered ability was copied or the ability triggered a second time), the second chapter ability will turn all of the exiled cards face up. If at least one of them is a creature card, you'll lose life equal to the combined mana value of all the exiled cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/86/the-creation-of-avacyn) · oracle_id `7f32344f-06d8-4862-bfeb-f90a3e1d7fc2` · printing: MH3 #86 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crimson Avenger
 
@@ -526,6 +629,7 @@
   > *HAS*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR10/the-crimson-avenger) · oracle_id `9a460790-2261-4ffa-b35d-5c3363b5845d` · printing: UNK #RR10 (2024-02-24) · [rulings](https://api.scryfall.com/cards/a8b8428b-63f3-4183-9235-159cfc9bf8df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crowd Goes Wild
@@ -538,7 +642,19 @@
   > Each creature with a +1/+1 counter on it gains trample until end of turn.
 - **Keywords:** Support, Assist
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/68/the-crowd-goes-wild) · oracle_id `21302f37-0632-4202-9823-f08c5aec016e` · printing: BBD #68 (2018-06-08) · [rulings](https://api.scryfall.com/cards/94ae9160-5bc0-4162-8ea6-ef11c387c195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2018-06-08* — Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell’s reminder text.
+  - *2018-06-08* — If The Crowd Goes Wild has any targets and each of those targets is illegal as it tries to resolve, the spell doesn’t resolve. No creatures gain trample. The crowd falls silent.
+  - *2018-06-08* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
+  - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
+  - *2018-06-08* — If some, but not all, targets for a spell become illegal, the remaining targets are affected as appropriate. If all of a spell’s targets become illegal, that spell doesn’t resolve.
+  - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
+  - *2018-06-08* — Support can target a creature another player controls.
+  - *2018-06-08* — The final ability of The Crowd Goes Wild affects only creatures with a +1/+1 counter on them at the time it’s applied. Creatures that get a +1/+1 counter later in the turn won’t gain trample, and creatures that lose their +1/+1 counters later in the turn won’t lose trample.
+  - *2018-06-08* — You can cast The Crowd Goes Wild with 0 as the value of X. The spell won’t target any creatures, and creatures with +1/+1 counters on them will gain trample.
+  - *2018-06-08* — You can’t put more than one +1/+1 counter on any one target using the support action.
+  - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/68/the-crowd-goes-wild) · oracle_id `21302f37-0632-4202-9823-f08c5aec016e` · printing: BBD #68 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cruelty of Gix
 
@@ -551,7 +667,10 @@
   > III — Put target creature card from a graveyard onto the battlefield under your control.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4193 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/87/the-cruelty-of-gix) · oracle_id `2b5c62af-af5f-4beb-9688-19604ca46918` · printing: DMU #87 (2022-09-09) · [rulings](https://api.scryfall.com/cards/3d6e5eb3-25ab-4e9e-96e8-655e0ce74675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — You must search your library as the chapter II ability resolves, and you will lose 3 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/87/the-cruelty-of-gix) · oracle_id `2b5c62af-af5f-4beb-9688-19604ca46918` · printing: DMU #87 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Crystal's Chosen
 
@@ -562,6 +681,7 @@
 - **Flavor text** (FIN printing):
   > *Within the light, the will of the crystal surged through them. They decided to accept their destiny. And so began a journey to dispel the darkness and return light to the world ...*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/14/the-crystals-chosen) · oracle_id `df4ef2f8-2591-4be3-b905-4f9ff9c538ea` · printing: FIN #14 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d4df4373-0ee6-44e3-81c6-0881c070014c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Curse of Fenric
@@ -575,6 +695,7 @@
   > III — Target Mutant fights another target creature named Fenric.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/118/the-curse-of-fenric) · oracle_id `ef7fce1b-0d95-4f92-a8ad-09d9756fa0e4` · printing: WHO #118 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0e399b70-d793-4833-8317-557fa98a611c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Curve Keeper
@@ -587,6 +708,7 @@
 - **Flavor text** (UNK printing):
   > *THE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW47/the-curve-keeper) · oracle_id `6ca5b1e3-4fb3-4438-839b-e1b680aee108` · printing: UNK #RW47 (2024-02-24) · [rulings](https://api.scryfall.com/cards/c058eaf2-624d-41ff-b894-13eecd9a5645/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Cyber-Controller
@@ -599,4 +721,10 @@
   > Other artifact creatures you control get +1/+1.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8270 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/119/the-cyber-controller) · oracle_id `06c25d71-f3f4-4089-b9bc-de96fbad73a5` · printing: WHO #119 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3cab0df1-d53f-4208-9ff9-d015aac20141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — Double-faced permanents that are already on the battlefield can't be turned face down this way. However, a double-faced card can be put onto the battlefield face down from another zone this way.
+  - *2023-10-13* — Each creature turned face down this way or put onto the battlefield this way is a 2/2 Cyberman artifact creature with no name and no color.
+  - *2023-10-13* — If the face-down card has a morph ability, its controller may turn it face up by paying the associated morph cost.
+  - *2023-10-13* — If, for any reason, the face-down creature is turned face up, the effect making it a Cyberman ends. It will be whatever is printed on the card.
+  - *2023-10-13* — The player who controls a face-down permanent may look at it at any time. Notably, if the cards were put on the battlefield face down from another player's library, the player that owns them does not get to look at those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/119/the-cyber-controller) · oracle_id `06c25d71-f3f4-4089-b9bc-de96fbad73a5` · printing: WHO #119 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

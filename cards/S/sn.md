@@ -81,7 +81,9 @@
   > You may discard a Forest card rather than pay this spell's mana cost.
   > Prevent all combat damage that would be dealt by unblocked creatures this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18320 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/124/snag) · oracle_id `feb5e9a9-500a-4f20-881d-c97d052953ce` · printing: PCY #124 (2000-06-05) · [rulings](https://api.scryfall.com/cards/7401df8b-23e7-4485-9ed4-70118a66feed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — You may discard any card with the land type Forest, including Snow-covered Forest or non-Basic lands like Tropical Island, Murmuring Bosk, or Stomping Ground. You can even discard a card that is a land in addition to other types, such as Dryad Arbor.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pcy/124/snag) · oracle_id `feb5e9a9-500a-4f20-881d-c97d052953ce` · printing: PCY #124 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Basket
 
@@ -93,7 +95,9 @@
   > *"Uh, does anyone have a flute?"*
   > *—Rana, Suq'Ata market fool*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/312/snake-basket) · oracle_id `12236231-7c6e-4edc-87dc-737115843185` · printing: 6ED #312 (1999-04-21) · [rulings](https://api.scryfall.com/cards/3a9bc174-1d10-49bf-af4f-2f6061b1796e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — It used to make Cobra tokens. Now it makes Snake tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/312/snake-basket) · oracle_id `12236231-7c6e-4edc-87dc-737115843185` · printing: 6ED #312 (1999-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Cult Initiation
 
@@ -104,6 +108,7 @@
   > Enchanted creature has poisonous 3. (Whenever it deals combat damage to a player, that player gets three poison counters. A player with ten or more poison counters loses the game.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20975 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/89/snake-cult-initiation) · oracle_id `b6a64b19-e312-4e98-91bd-3bedca84eed3` · printing: FUT #89 (2007-05-04) · [rulings](https://api.scryfall.com/cards/93b47606-82d1-402c-b1c6-591457b10d86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snakeform
@@ -116,7 +121,12 @@
 - **Flavor text** (CLU printing):
   > *Losing his possessions distressed him, but the lack of limbs was strangely liberating.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20219 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/209/snakeform) · oracle_id `76ae07ce-ca0c-4308-b8bd-d999eea0a65f` · printing: CLU #209 (2024-02-23) · [rulings](https://api.scryfall.com/cards/5da4e042-7d86-46f6-84e0-1d3a62338f52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — If Snakeform affects a creature with changeling, the creature will lose its changeling ability, and will no longer be all creature types.
+  - *2008-08-01* — If the affected creature gains an ability after Snakeform resolves, it will keep that ability.
+  - *2008-08-01* — Snakeform doesn't counter abilities that have already triggered or been activated. In particular, there is no way to cast this to stop a creature's "At the beginning of your upkeep" or "When this creature enters" abilities from triggering.
+  - *2009-10-01* — The power/toughness-setting effect overwrites other effects that set power and toughness only if those effects existed before this spell resolved. It will not overwrite effects that modify power or toughness (whether from a static ability, counters, or a resolved spell or ability), nor will it overwrite effects that set power and toughness which come into existence after this spell resolves. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including this one, regardless of the order in which they are created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/209/snakeform) · oracle_id `76ae07ce-ca0c-4308-b8bd-d999eea0a65f` · printing: CLU #209 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake of the Golden Grove
 
@@ -130,7 +140,14 @@
   > *Some fruits are best left ungathered.*
 - **Keywords:** Tribute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24937 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/141/snake-of-the-golden-grove) · oracle_id `ef0c8193-8cbe-409e-9c2e-96b46ffcc420` · printing: BNG #141 (2014-02-07) · [rulings](https://api.scryfall.com/cards/08b10bd7-3f8b-426f-acdf-5a9559b9bc7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-02-01* — If the opponent pays tribute, the creature will enter the battlefield with the specified number of +1/+1 counters on it. It won’t enter the battlefield and then have the +1/+1 counters placed on it.
+  - *2014-02-01* — If the triggered ability has a target, that target will not be known while the creature spell with tribute is on the stack.
+  - *2014-02-01* — Players can’t respond to the tribute decision before the creature enters the battlefield. That is, if the opponent doesn’t pay tribute, the triggered ability will trigger before any player has a chance to remove the creature.
+  - *2014-02-01* — The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
+  - *2014-02-01* — The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time.
+  - *2017-04-18* — For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/141/snake-of-the-golden-grove) · oracle_id `ef0c8193-8cbe-409e-9c2e-96b46ffcc420` · printing: BNG #141 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Pit
 
@@ -142,6 +159,7 @@
   > *If the ground is smooth, the way will be rough.*
   > *—Deepwood saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14062 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/271/snake-pit) · oracle_id `115bd33d-4875-4014-ae9f-0052f5acdbb2` · printing: MMQ #271 (1999-10-04) · [rulings](https://api.scryfall.com/cards/059a70a5-d4fb-445e-af98-e81821df2c59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snakeskin Veil
@@ -153,6 +171,7 @@
 - **Flavor text** (TDM printing):
   > *"Now I wonder . . . will anyone come to protect \*you\*?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #426 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/159/snakeskin-veil) · oracle_id `1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8` · printing: TDM #159 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a3d2c692-7566-468e-9c86-47a9f768fde2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Umbra
@@ -165,7 +184,20 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/130/snake-umbra) · oracle_id `70ed2052-f03c-461d-b32a-8835c97c559f` · printing: NEC #130 (2022-02-18) · [rulings](https://api.scryfall.com/cards/106d17d6-5ef2-4634-8dd6-790b12574042/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2010-06-15* — Snake Umbra grants the triggered ability to the creature. It triggers whenever the enchanted creature deals damage to an opponent of its controller (who is not necessarily an opponent of the Aura's controller). In other words, if your Snake Umbra winds up enchanting your opponent's creature, that opponent will draw a card whenever that creature damages you.
+  - *2010-06-15* — The ability triggers when the enchanted creature deals any damage, not just combat damage.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/130/snake-umbra) · oracle_id `70ed2052-f03c-461d-b32a-8835c97c559f` · printing: NEC #130 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snap
 
@@ -176,7 +208,9 @@
 - **Flavor text** (DMR printing):
   > *Good riddance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #277 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · [rulings](https://api.scryfall.com/cards/f13406c6-f208-402a-94d3-a94a24f03563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapback
 
@@ -189,7 +223,9 @@
   > *"If it returns years hence, our knowledge of how to combat it will be that much greater."*
   > *—Andorel, Tolarian sentinel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4082 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/87/snapback) · oracle_id `e88de17c-086d-4e2a-b5b2-2f9f57ca7c0f` · printing: TSR #87 (2021-03-19) · [rulings](https://api.scryfall.com/cards/367d46d1-fa7a-403d-8949-b478a1f83f46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as the alternative cost of Snapback), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/87/snapback) · oracle_id `e88de17c-086d-4e2a-b5b2-2f9f57ca7c0f` · printing: TSR #87 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapcaster Mage
 
@@ -201,7 +237,19 @@
   > When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1442 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · [rulings](https://api.scryfall.com/cards/22b36ad5-bf4d-436a-9c3c-fa4acd0052fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — If a card with no mana cost gains flashback, it has no flashback cost. It can't be cast this way.
+  - *2025-06-06* — If a split card gains flashback, you pay only the cost of the half you're casting.
+  - *2025-06-06* — If you cast a spell with flashback, you can't pay any alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the spell has any mandatory additional costs, you must pay those to cast the spell with flashback.
+  - *2025-06-06* — If you cast an instant or sorcery with {X} in its mana cost this way, you still choose the value of X as part of casting the spell and pay that cost.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapdax, Apex of the Hunt
 
@@ -214,7 +262,9 @@
   > Whenever this creature mutates, it deals 4 damage to target creature or planeswalker an opponent controls and you gain 4 life.
 - **Keywords:** Mutate, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14143 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/209/snapdax-apex-of-the-hunt) · oracle_id `b2b78623-5a10-4ef7-b983-3d82478269c3` · printing: IKO #209 (2020-04-24) · [rulings](https://api.scryfall.com/cards/51fdeeb7-9868-4fc2-9c53-806244cd5488/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If there is no legal target for Snapdax’s triggered ability when it triggers, it won’t be put onto the stack at all and you won’t gain 4 life. Similarly, if the target creature or planeswalker is an illegal target by the time the ability tries to resolve, the ability won’t resolve and you won’t gain 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/209/snapdax-apex-of-the-hunt) · oracle_id `b2b78623-5a10-4ef7-b983-3d82478269c3` · printing: IKO #209 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snap Judgment
 
@@ -225,7 +275,14 @@
   > Cycling {1}
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/567/snap-judgment) · oracle_id `941d06da-96e7-4926-b042-aa7b697326fb` · printing: MB2 #567 (2024-08-02) · [rulings](https://api.scryfall.com/cards/bc51b39f-fd6e-41e8-9c1b-5e5087796788/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If the game ends in a draw, Snap Judgment’s effect won’t do anything.
+  - *2024-11-08* — In a case where the match would already be decided by the outcome of the current game, Snap Judgment’s effect won’t do anything.
+  - *2024-11-08* — In a two-player game, the game ends immediately if one player concedes. If Snap Judgment hasn’t yet resolved when this happens, its effect won’t apply.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/567/snap-judgment) · oracle_id `941d06da-96e7-4926-b042-aa7b697326fb` · printing: MB2 #567 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Creeper
 
@@ -238,7 +295,11 @@
   > *Its vast network of roots and vines keeps it aware of distant dangers.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/112/snapping-creeper) · oracle_id `bb4e1340-da63-46b8-a5e3-79dfedec3e78` · printing: WWK #112 (2010-02-05) · [rulings](https://api.scryfall.com/cards/8860c3d5-8b93-4c52-b374-8814fb8546bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/wwk/112/snapping-creeper) · oracle_id `bb4e1340-da63-46b8-a5e3-79dfedec3e78` · printing: WWK #112 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Drake
 
@@ -251,6 +312,7 @@
   > *Foul-tempered, poorly trained, and mule-stubborn, the drake is the perfect test of the master's will.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/318/snapping-drake) · oracle_id `e15060c3-3773-4548-8747-ff59dcf2b519` · printing: M20 #318 (2019-07-12) · [rulings](https://api.scryfall.com/cards/ef46580c-a204-4b0b-8526-2310b1ca32b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Gnarlid
@@ -264,7 +326,11 @@
   > *All of Zendikar's beings sense the upheaval that accompanies the Eldrazi.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/190/snapping-gnarlid) · oracle_id `eeba70f5-336c-46e6-90db-50818f88e8a5` · printing: BFZ #190 (2015-10-02) · [rulings](https://api.scryfall.com/cards/834409e3-134e-4a34-89cb-53e2a039e980/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/190/snapping-gnarlid) · oracle_id `eeba70f5-336c-46e6-90db-50818f88e8a5` · printing: BFZ #190 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Sailback
 
@@ -278,7 +344,10 @@
   > *Lurking beneath the murky waters of Ixalan's rivers, sailbacks can rip a meal off the shore in the blink of an eye.*
 - **Keywords:** Enrage, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14606 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/208/snapping-sailback) · oracle_id `6f7b9ff4-fe79-4d21-9262-47bcd2411259` · printing: XLN #208 (2017-09-29) · [rulings](https://api.scryfall.com/cards/0af1eadf-f7ea-40be-a0cc-b79e4161db34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/208/snapping-sailback) · oracle_id `6f7b9ff4-fe79-4d21-9262-47bcd2411259` · printing: XLN #208 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Thragg
 
@@ -290,6 +359,7 @@
   > Morph {4}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31129 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/233/snapping-thragg) · oracle_id `1a02cb6d-965a-4eeb-b126-8e153d4832a2` · printing: ONS #233 (2002-10-07) · [rulings](https://api.scryfall.com/cards/c8a47d41-b893-46b9-90c9-ccd8f9f78855/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Voidcraw
@@ -305,7 +375,13 @@
   > *Once considered a delicacy, turtle soup is no longer served in Nephalia's inns.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4727 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/204/snapping-voidcraw) · oracle_id `e495033b-f727-41e3-b7fc-7f5fa8abdd87` · printing: MH3 #204 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9185371c-2dde-48ad-ab27-08be04b3c522/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/204/snapping-voidcraw) · oracle_id `e495033b-f727-41e3-b7fc-7f5fa8abdd87` · printing: MH3 #204 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapsail Glider
 
@@ -318,7 +394,9 @@
   > *Built from a reconfigured thresher, it charges with light reflected off the golden plain, ready to take to the air in case of danger.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/203/snapsail-glider) · oracle_id `43e2e1ed-5c6a-49b4-8ab8-57861c02fc3e` · printing: SOM #203 (2010-10-01) · [rulings](https://api.scryfall.com/cards/fc98e0af-b18e-4172-bc56-19952ebd0303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — For the purposes of combat, whether Snapsail Glider has flying is relevant only as the declare blockers step begins. If an attacking Snapsail Glider without flying becomes blocked, gaining control of enough artifacts to cause it to have flying won't change that. Similarly, if a Snapsail Glider with flying blocks another creature with flying, losing control of enough artifacts to cause the Glider to lose flying won't change that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/203/snapsail-glider) · oracle_id `43e2e1ed-5c6a-49b4-8ab8-57861c02fc3e` · printing: SOM #203 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapsail Rider
 
@@ -330,6 +408,7 @@
   > When Snapsail Rider enters the battlefield, this match is now worth 6 base points instead of 3. (A player can concede the game at any time, and may want to in response to this ability.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR05/snapsail-rider) · oracle_id `4e6c17f0-ecd8-4eaf-9e2d-3643d64d20f3` · printing: UNK #RR05 (2023-02-17) · [rulings](https://api.scryfall.com/cards/1b18df14-23fc-4cd5-955f-e4a6d88817a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snaremaster Sprite
@@ -342,7 +421,10 @@
   > When this creature enters, you may pay {2}. When you do, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13386 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/68/snaremaster-sprite) · oracle_id `b0632f1b-14e5-4534-b2c5-af9d557fdcc0` · printing: WOE #68 (2023-09-08) · [rulings](https://api.scryfall.com/cards/eaa37390-5c32-46ae-89d1-c094c9aa01e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — You don't choose a target for Snaremaster Sprite's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {2} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+  - *2023-09-01* — You may target a creature that is already tapped with the reflexive triggered ability. If the target creature is already tapped as the ability resolves, you will still put a stun counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/68/snaremaster-sprite) · oracle_id `b0632f1b-14e5-4534-b2c5-af9d557fdcc0` · printing: WOE #68 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarespinner
 
@@ -356,7 +438,9 @@
   > *In the rich jungles of Yavimaya, bright colors are the perfect camouflage.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/179/snarespinner) · oracle_id `0f63de7b-03f2-49ad-b217-88fe9c50d68a` · printing: DMU #179 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0b51c3b5-db70-4976-986d-ed3fc8584d1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-04-18* *(Scryfall note)* — This free card preview was provided to Scryfall by Wizards of the Coast. Thank you!
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/179/snarespinner) · oracle_id `0f63de7b-03f2-49ad-b217-88fe9c50d68a` · printing: DMU #179 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snare Tactician
 
@@ -369,7 +453,11 @@
   > *"Our volleys don't aim to kill. Impair them and the ground will do the rest."*
   > *—Alux, Skysail defender*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/30/snare-tactician) · oracle_id `efee89a6-b730-45b6-bb84-33de0f25ad47` · printing: IKO #30 (2020-04-24) · [rulings](https://api.scryfall.com/cards/5f640e0c-298d-4a5f-94d0-d839cf06ca86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
+  - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/30/snare-tactician) · oracle_id `efee89a6-b730-45b6-bb84-33de0f25ad47` · printing: IKO #30 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snare the Skies
 
@@ -380,6 +468,7 @@
 - **Flavor text** (AVR printing):
   > *A hunter's precision and a durkvine's strength are a potent combination.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30679 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/193/snare-the-skies) · oracle_id `7d011e22-335b-465f-9111-e95a72ebffe9` · printing: AVR #193 (2012-05-04) · [rulings](https://api.scryfall.com/cards/28f75827-a144-4fe2-a713-4439ae7567eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snare Thopter
@@ -394,6 +483,7 @@
   > *—Nissa Revane*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/57/snare-thopter) · oracle_id `a3be0e16-6063-4cd0-87cb-606591a958c2` · printing: GNT #57 (2018-11-16) · [rulings](https://api.scryfall.com/cards/52b0ba0d-078e-4f54-81da-88f86227df4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarling Gorehound
@@ -409,7 +499,9 @@
   > *—Alquist Proft, to Judith*
 - **Keywords:** Surveil, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/105/snarling-gorehound) · oracle_id `d2b1c5eb-06f0-4ec4-9446-791faac099a7` · printing: MKM #105 (2024-02-09) · [rulings](https://api.scryfall.com/cards/93ab3e11-8584-406f-b9ae-9e1df4396cbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Snarling Gorehound's ability checks the power of a creature only at the moment it enters the battlefield. If it enters with counters, those counters are included. If that creature's power is 2 or less when it enters the battlefield but becomes greater than 2 after the ability triggers, you'll still surveil 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/105/snarling-gorehound) · oracle_id `d2b1c5eb-06f0-4ec4-9446-791faac099a7` · printing: MKM #105 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarling Undorak
 
@@ -423,6 +515,7 @@
   > *Most creatures in the Krosan Forest feared the Mirari's power. A few fed upon it.*
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31133 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/283/snarling-undorak) · oracle_id `a932e265-604a-4aed-b8a9-6234a3db16a5` · printing: ONS #283 (2002-10-07) · [rulings](https://api.scryfall.com/cards/05788d63-6210-44f2-9ae4-e55e9507a3a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarling Warg
@@ -437,6 +530,7 @@
   > *A shuddering howl broke from him, as if he were a captain summoning his pack to the assault.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/109/snarling-warg) · oracle_id `978a7a96-ca79-4f73-a4c6-99d662605969` · printing: LTR #109 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a1ad561c-ccb4-480a-88a4-0555d0ef245e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarling Wolf
@@ -450,6 +544,7 @@
   > *"Oh, thank the angels. It's not a werewolf, just a regular wo—"*
   > *—Bruno, Ulvenwald guide, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/219/snarling-wolf) · oracle_id `2c181479-6df0-44ef-a7ce-d1d592735bc6` · printing: VOW #219 (2021-11-19) · [rulings](https://api.scryfall.com/cards/ecd271d7-a3c8-4448-b8e2-bcef5d7e9118/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snarl Song
@@ -463,7 +558,13 @@
   > *—Zimone*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/161/snarl-song) · oracle_id `3b6fb13b-f126-4697-90a1-64b14ffcecd6` · printing: SOS #161 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc4c7fa2-aebb-4636-9afd-f1010c923316/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/161/snarl-song) · oracle_id `3b6fb13b-f126-4697-90a1-64b14ffcecd6` · printing: SOS #161 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snazzy Aether Homunculus
 
@@ -475,6 +576,7 @@
   > {TK}{TK} — 2/4
   > {TK}{TK}{TK}{TK}{TK} — 8/7
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/26/snazzy-aether-homunculus) · oracle_id `3e5ac76b-08bd-4232-9290-49742b0ff603` · printing: SUNF #26 (2022-10-07) · [rulings](https://api.scryfall.com/cards/8e3a1933-9efb-45dc-997f-c3e4cbb40817/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneak Attack
@@ -486,7 +588,9 @@
 - **Flavor text** (DMR printing):
   > *"Nothin' beat surprise—'cept rock."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a45b4ca9-4355-4690-84c3-a7d44c367dbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.N.E.A.K. Dispatcher
 
@@ -496,6 +600,7 @@
 - **Oracle text:**
   > {2}{U}, {T}: Look at the top card of target player's library. If it has an Agents of S.N.E.A.K. watermark, you may reveal it and put it into your hand. Otherwise, put it on your choice of the top or bottom of its owner's library.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/43/sneak-dispatcher) · oracle_id `4f2155dd-f694-45a0-9a68-6c5998a556d8` · printing: UST #43 (2017-12-08) · [rulings](https://api.scryfall.com/cards/1e6237d7-454b-4b1b-b732-1adda35d746d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneaking Guide
@@ -508,7 +613,10 @@
 - **Flavor text** (ZNR printing):
   > *"I swear, it's a shortcut."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/164/sneaking-guide) · oracle_id `3eabd27c-bd65-479a-9743-e90e4273c016` · printing: ZNR #164 (2020-09-25) · [rulings](https://api.scryfall.com/cards/569c9e8c-7808-49d0-82c1-72d5b835f51c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-09-25* — If the target creature’s power is greater than 2 as Sneaking Guide’s ability tries to resolve, the ability doesn’t resolve. However, if instead the creature’s power is raised above 2 after the ability resolves, it still can’t be blocked that turn.
+  - *2020-09-25* — Once a creature with power 2 or less has been blocked, Sneaking Guide’s ability won’t cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/164/sneaking-guide) · oracle_id `3eabd27c-bd65-479a-9743-e90e4273c016` · printing: ZNR #164 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneaky Homunculus
 
@@ -520,6 +628,7 @@
 - **Flavor text** (8ED printing):
   > *Keep watch only for the giants and you'll be eaten by the ants.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26145 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/101/sneaky-homunculus) · oracle_id `0b76bb3b-1ada-4c78-bd13-3464371d4fa0` · printing: 8ED #101 (2003-07-28) · [rulings](https://api.scryfall.com/cards/a9020f16-4c26-4a7b-8b5c-1d8df3e910a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneaky Snacker
@@ -534,6 +643,7 @@
   > *Though the High Fae gave explicit instructions not to tarry, she stayed in Sweettooth Village for seconds, thirds, and then dessert.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/205/sneaky-snacker) · oracle_id `f255492e-4e12-48b4-9c19-8a2a2780a1b7` · printing: MH3 #205 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0e3aedae-e4bb-48e3-9f8b-bea0430df306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneering Shadewriter
@@ -549,6 +659,7 @@
   > *— \*Strixhaven Star\* gallery show review*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20621 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/101/sneering-shadewriter) · oracle_id `21a094d6-de3d-48d4-a35d-b99617da55db` · printing: SOS #101 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4b4c120e-abe9-4f11-a7e4-bc3f723da4b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snickering Squirrel
@@ -561,7 +672,12 @@
 - **Flavor text** (UND printing):
   > *"In this line of work, you've got to know how to squirrel things away. Quite literally, in my case."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/45/snickering-squirrel) · oracle_id `ce20906f-a031-4d5f-972a-62f607570a43` · printing: UND #45 (2020-02-29) · [rulings](https://api.scryfall.com/cards/98469f4c-40b6-4ca8-886f-6d1879641641/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-02-29* — Multiple Snickering Squirrels can be used on the same die roll. In this way, you can produce results that really aren’t normally possible, such as a result of 83 on a six-sided die.
+  - *2020-02-29* — Snickering Squirrel can be used to produce results that aren’t normally possible, such as a result of 7 on a six-sided die.
+  - *2020-02-29* — You can use Snickering Squirrel’s ability even if Snickering Squirrel came under your control this turn. (Note that it doesn’t use the {T} symbol.)
+  - *2020-02-29* — You decide whether to use Snickering Squirrel right after you see the result of the die roll.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/45/snickering-squirrel) · oracle_id `ce20906f-a031-4d5f-972a-62f607570a43` · printing: UND #45 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snooping Newsie
 
@@ -573,7 +689,14 @@
   > As long as there are five or more mana values among cards in your graveyard, this creature gets +1/+1 and has lifelink.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/222/snooping-newsie) · oracle_id `347a5faa-5656-4a36-af44-ab5a3ed267f4` · printing: SNC #222 (2022-04-29) · [rulings](https://api.scryfall.com/cards/bed1e957-3df1-4640-9980-783817826602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — If you have five or more mana values among cards in your graveyard and then some of them are removed such that you have fewer than five mana values among those cards, Snooping Newsie loses its bonus to power and toughness immediately. Notably, this may cause it to die if it now has damage marked on it greater than its toughness.
+  - *2022-04-29* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2022-04-29* — The mana value of a land card is 0.
+  - *2022-04-29* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+  - *2022-04-29* — X is 0 when determining the mana value of a card in your graveyard.
+  - *2022-04-29* — “Five or more mana values among cards in your graveyard” means there are at least five different mana values among those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/222/snooping-newsie) · oracle_id `347a5faa-5656-4a36-af44-ab5a3ed267f4` · printing: SNC #222 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snooping Page
 
@@ -587,7 +710,10 @@
   > *Eavesdropping is not a misdeed in the Forum, but a fact of life.*
 - **Keywords:** Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/227/snooping-page) · oracle_id `f07c07d7-00f1-44a5-b51f-0a22cc51fd2b` · printing: SOS #227 (2026-04-24) · [rulings](https://api.scryfall.com/cards/73d06987-8686-461b-b260-9a4fee6a3b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/227/snooping-page) · oracle_id `f07c07d7-00f1-44a5-b51f-0a22cc51fd2b` · printing: SOS #227 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snort
 
@@ -598,7 +724,15 @@
   > Flashback {5}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/58/snort) · oracle_id `ab94985c-5a3e-42c7-be10-29c5b638346b` · printing: FIC #58 (2025-06-13) · [rulings](https://api.scryfall.com/cards/46f1179d-6e48-46ed-ab41-abddace7b5d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A player may choose to discard their hand even if their hand contains zero cards. Snort will still deal 5 damage to that player if they choose to discard their empty hand.
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/58/snort) · oracle_id `ab94985c-5a3e-42c7-be10-29c5b638346b` · printing: FIC #58 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snorting Gahr
 
@@ -610,6 +744,7 @@
 - **Flavor text** (MMQ printing):
   > *There's little advantage to surprising the gahr.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31828 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/272/snorting-gahr) · oracle_id `3e7f67d6-db12-4034-b8e3-9c9d401c8f57` · printing: MMQ #272 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e568503e-a886-4c8b-9d46-8520c2cdda48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.N.O.T.
@@ -621,6 +756,7 @@
   > You may have S.N.O.T. enter stuck to another creature named S.N.O.T. If you do, all those creatures form a single creature.
   > S.N.O.T.'s power and toughness are each equal to the square of the number of cards named S.N.O.T. stuck together to form it. (One is a 1/1, two are a 4/4, three are a 9/9, and four are a 16/16. If you manage to get -1 S.N.O.T.s stuck together, it's a 1/1.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/111/snot) · oracle_id `6857ef2e-1a25-4cec-b1c8-1dd18ad8396f` · printing: UNH #111 (2004-11-19) · [rulings](https://api.scryfall.com/cards/f77a2e16-f729-44ec-969f-d7011c623907/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowblind
@@ -632,6 +768,7 @@
   > Enchanted creature gets -X/-Y. If that creature is attacking, X is the number of snow lands defending player controls. Otherwise, X is the number of snow lands its controller controls. Y is equal to X or to enchanted creature's toughness minus 1, whichever is smaller.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26925 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/264/snowblind) · oracle_id `3f8bfa3d-7490-4259-a403-d13585ed2f66` · printing: ICE #264 (1995-06-03) · [rulings](https://api.scryfall.com/cards/5f62c376-487a-42bc-bd85-ab8b0480f7dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Forest
@@ -641,7 +778,14 @@
 - **Oracle text:**
   > ({T}: Add {G}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/284/snow-covered-forest) · oracle_id `5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d` · printing: KHM #284 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ca17acea-f079-4e53-8176-a2f5c5c408a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — In a Limited event (usually Booster Draft or Sealed Deck), you can't add basic snow lands to your card pool as you would other basic lands. You can play with basic snow lands only if you open them in your sealed deck or draft them.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/284/snow-covered-forest) · oracle_id `5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d` · printing: KHM #284 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Island
 
@@ -650,7 +794,14 @@
 - **Oracle text:**
   > ({T}: Add {U}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/278/snow-covered-island) · oracle_id `5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0` · printing: KHM #278 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3bfa5ebc-5623-4eec-89ea-dc187489ee4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — In a Limited event (usually Booster Draft or Sealed Deck), you can't add basic snow lands to your card pool as you would other basic lands. You can play with basic snow lands only if you open them in your sealed deck or draft them.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/278/snow-covered-island) · oracle_id `5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0` · printing: KHM #278 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Mountain
 
@@ -659,7 +810,14 @@
 - **Oracle text:**
   > ({T}: Add {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/282/snow-covered-mountain) · oracle_id `ca9f660b-e07d-4f42-a46e-abd0ca72510c` · printing: KHM #282 (2021-02-05) · [rulings](https://api.scryfall.com/cards/5474e67c-628f-41b0-aa31-3d85a267265a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — In a Limited event (usually Booster Draft or Sealed Deck), you can't add basic snow lands to your card pool as you would other basic lands. You can play with basic snow lands only if you open them in your sealed deck or draft them.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/282/snow-covered-mountain) · oracle_id `ca9f660b-e07d-4f42-a46e-abd0ca72510c` · printing: KHM #282 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Plains
 
@@ -668,7 +826,14 @@
 - **Oracle text:**
   > ({T}: Add {W}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/276/snow-covered-plains) · oracle_id `ac8cc74d-e43b-4118-bba0-dfa8b9c04d45` · printing: KHM #276 (2021-02-05) · [rulings](https://api.scryfall.com/cards/afd2730f-878e-47ee-ad2a-73f8fa4e0794/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — In a Limited event (usually Booster Draft or Sealed Deck), you can't add basic snow lands to your card pool as you would other basic lands. You can play with basic snow lands only if you open them in your sealed deck or draft them.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/276/snow-covered-plains) · oracle_id `ac8cc74d-e43b-4118-bba0-dfa8b9c04d45` · printing: KHM #276 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Swamp
 
@@ -677,7 +842,14 @@
 - **Oracle text:**
   > ({T}: Add {B}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/280/snow-covered-swamp) · oracle_id `d8239a86-7184-4005-ba1e-2dddcd756c47` · printing: KHM #280 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6aa85af8-15f5-4620-8aea-0b45c28372ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — In a Limited event (usually Booster Draft or Sealed Deck), you can't add basic snow lands to your card pool as you would other basic lands. You can play with basic snow lands only if you open them in your sealed deck or draft them.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/280/snow-covered-swamp) · oracle_id `d8239a86-7184-4005-ba1e-2dddcd756c47` · printing: KHM #280 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Wastes
 
@@ -686,7 +858,12 @@
 - **Oracle text:**
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/229/snow-covered-wastes) · oracle_id `46a07b53-ff58-4bd6-80dd-ded2eb0e29a3` · printing: MH3 #229 (2024-06-14) · [rulings](https://api.scryfall.com/cards/87870792-e429-4eba-8193-cdce5c7b6c55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — Because Snow-Covered Wastes is a basic land, you can include as many of them as you like in your Constructed decks.
+  - *2024-06-07* — In Limited events (including Sealed Deck and Booster Draft), Snow-Covered Wastes must be in your card pool to be included in your deck. You can't add Snow-Covered Wastes to your card pool in the same way that you can add other basic lands.
+  - *2024-06-07* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2024-06-07* — Wastes is not a land type. If something asks you to name a land type, you can't choose Wastes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/229/snow-covered-wastes) · oracle_id `46a07b53-ff58-4bd6-80dd-ded2eb0e29a3` · printing: MH3 #229 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Day
 
@@ -699,7 +876,10 @@
   > *"Advanced Elemental Manifestations is canceled until all students have thawed."*
   > *—Prismari dormitory notice*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24654 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/100/snow-day) · oracle_id `057729d0-f7ed-465b-91aa-fb2c6d6612b2` · printing: CLU #100 (2024-02-23) · [rulings](https://api.scryfall.com/cards/2358a511-7d55-4a63-93ea-a895fe45c3f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If you chose targets for Snow Day as you cast it, and none of those targets are legal as it tries to resolve, it will be removed from the stack and do nothing. You will not draw or discard.
+  - *2021-04-16* — You may choose tapped creatures as targets. Those creatures won’t untap during their controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/100/snow-day) · oracle_id `057729d0-f7ed-465b-91aa-fb2c6d6612b2` · printing: CLU #100 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Devil
 
@@ -714,6 +894,7 @@
   > *—Steinar Icefist, Balduvian Shaman*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19956 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/100/snow-devil) · oracle_id `e743b4ec-65bf-4e8d-ad87-6746a2e6ba73` · printing: ICE #100 (1995-06-03) · [rulings](https://api.scryfall.com/cards/2be3a9a5-2ac5-4ea4-915d-8cff35c0e72f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowfall
@@ -725,7 +906,9 @@
   > Whenever an Island is tapped for mana, its controller may add an additional {U}. If that Island is snow, its controller may add an additional {U}{U} instead. Spend this mana only to pay cumulative upkeep costs.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26638 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/101/snowfall) · oracle_id `5ffed544-1656-4753-ac8f-ad8fb4442c7f` · printing: ICE #101 (1995-06-03) · [rulings](https://api.scryfall.com/cards/788ed793-3993-4a63-b9f9-9ac3947c3108/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — This mana is in addition to any mana the Island itself produces, and is blue regardless of what type of mana the Island produces.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/101/snowfall) · oracle_id `5ffed544-1656-4753-ac8f-ad8fb4442c7f` · printing: ICE #101 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowfield Sinkhole
 
@@ -738,7 +921,13 @@
   > *"Young Vitima bellowed to the Cosmos, daring the gods to punish her hubris! Well, she got their attention, as you can see."*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4260 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/915/snowfield-sinkhole) · oracle_id `749c2c8e-9588-4e83-b07f-3c37eb63338b` · printing: CLB #915 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3c6e17f2-b1e4-4189-a02f-92fa4b13a1ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/915/snowfield-sinkhole) · oracle_id `749c2c8e-9588-4e83-b07f-3c37eb63338b` · printing: CLB #915 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Fortress
 
@@ -752,6 +941,7 @@
   > {3}: This creature deals 1 damage to target creature without flying that's attacking you.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26235 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/220/snow-fortress) · oracle_id `7709ed84-ed71-4dd2-b002-b257418dd79e` · printing: ME2 #220 (2008-09-22) · [rulings](https://api.scryfall.com/cards/e283874b-a2c8-46a2-94ad-17d1fc6cc1e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowhorn Rider
@@ -766,7 +956,17 @@
   > *Sure-footed, strong-willed, and ill-tempered—and so is the ram.*
 - **Keywords:** Morph, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30639 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/201/snowhorn-rider) · oracle_id `3d5a753b-ed2d-4646-ade3-5daeba2a7270` · printing: KTK #201 (2014-09-26) · [rulings](https://api.scryfall.com/cards/f5d9aa9b-1ed4-46db-89d1-6c9593c29f55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/201/snowhorn-rider) · oracle_id `3d5a753b-ed2d-4646-ade3-5daeba2a7270` · printing: KTK #201 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Hound
 
@@ -779,6 +979,7 @@
   > *"If you're starving, eat your horses, your dead, or yourself—but \*never\* eat your dog."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/53/snow-hound) · oracle_id `2fe8512f-826c-400d-ba6d-1de4f315b617` · printing: ICE #53 (1995-06-03) · [rulings](https://api.scryfall.com/cards/084437ba-26d4-4af6-ab00-dcb145dd2cd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowmelt Stag
@@ -794,6 +995,7 @@
   > *Elementals conjured by Temur mages are forever watchful and swift.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24347 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/57/snowmelt-stag) · oracle_id `b25ccb64-e114-4d54-a07a-c8cd4560b511` · printing: TDM #57 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a6b3b131-704a-4586-84f8-db465cd4a277/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Mercy
@@ -806,6 +1008,7 @@
 - **Flavor text** (HHO printing):
   > *WARNING: Shake gently. Contents may cause choking, hypothermia, and/or planar invasion.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hho/10/snow-mercy) · oracle_id `768ae935-3a06-4317-aee4-22ccc2ab84b8` · printing: HHO #10 (2010-12-01) · [rulings](https://api.scryfall.com/cards/cdafb8ac-e9af-4195-928a-43d004a2e9bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snowslope Hunter
@@ -818,7 +1021,9 @@
 - **Flavor text** (HOB printing):
   > *Goblins did not usually venture very far from their mountains except to go on raids or hunt for food.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/112/snowslope-hunter) · oracle_id `fdf7f144-56e4-4f88-b81a-b85473922355` · printing: HOB #112 (2026-08-14) · [rulings](https://api.scryfall.com/cards/47666099-ffb2-4d07-a801-70524dba0837/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/112/snowslope-hunter) · oracle_id `fdf7f144-56e4-4f88-b81a-b85473922355` · printing: HOB #112 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow Villiers
 
@@ -832,7 +1037,9 @@
   > *"All I can do is go forward. Keep fighting and surviving, until I find the answers I need."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15541 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/33/snow-villiers) · oracle_id `01cdaf69-f53a-4735-92f2-ef149de4d5c9` · printing: FIN #33 (2025-06-13) · [rulings](https://api.scryfall.com/cards/399bb699-e61d-4b41-b6e9-e594cbad6194/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — The ability that defines Snow Villiers's power applies in all zones, not just the battlefield. As long as Snow Villiers is on the battlefield (and still a creature), that ability will count Snow Villiers itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/33/snow-villiers) · oracle_id `01cdaf69-f53a-4735-92f2-ef149de4d5c9` · printing: FIN #33 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snubhorn Sentry
 
@@ -846,7 +1053,15 @@
   > *They're fun to train—if you like stubborn, aggressive, and fiercely territorial.*
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/23/snubhorn-sentry) · oracle_id `fc8d3933-f7fe-4849-aae7-737ce6f067de` · printing: RIX #23 (2018-01-19) · [rulings](https://api.scryfall.com/cards/3ee111e7-5309-46d5-b3ea-a049b3962c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2018-01-19* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2018-01-19* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2018-01-19* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+  - *2018-01-19* — Some cards get power, toughness, and/or abilities once you have the city's blessing. If another card has an ability that triggers when creatures with certain characteristics enter the battlefield (such as Mentor of the Meek or Elemental Bond do), use the entering permanent's characteristics after you have the city's blessing to determine whether those abilities trigger. This is true even if the entering permanent is your tenth permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/23/snubhorn-sentry) · oracle_id `fc8d3933-f7fe-4849-aae7-737ce6f067de` · printing: RIX #23 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snuff Out
 
@@ -858,4 +1073,5 @@
 - **Flavor text** (GVL printing):
   > *"The bigger they are, the faster they rot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/53/snuff-out) · oracle_id `324824cb-f938-401c-b9b5-d8908b431ef0` · printing: GVL #53 (2014-12-05) · [rulings](https://api.scryfall.com/cards/75bbe89f-09af-494e-b58e-271f64bde4b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -24,6 +24,7 @@
 - **Flavor text** (APC printing):
   > *"There is no true equity of power. There is only more and less."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32034 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/4/dega-disciple) · oracle_id `c6c53277-daad-4aa3-b29a-11378d550651` · printing: APC #4 (2001-06-04) · [rulings](https://api.scryfall.com/cards/fb9cd7d9-8aad-4607-890c-9c8efe016a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dega Sanctuary
@@ -33,7 +34,9 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if you control a black or red permanent, you gain 2 life. If you control a black permanent and a red permanent, you gain 4 life instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/5/dega-sanctuary) · oracle_id `75c626fb-9dfc-4a94-b59f-f0e45c7b2f56` · printing: APC #5 (2001-06-04) · [rulings](https://api.scryfall.com/cards/b7ddfdb5-3981-4954-af5f-2459d22ec575/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can gain 2 or 4 life, but never 6.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/5/dega-sanctuary) · oracle_id `75c626fb-9dfc-4a94-b59f-f0e45c7b2f56` · printing: APC #5 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Degavolver
 
@@ -46,7 +49,14 @@
   > If this creature was kicked with its {R} kicker, it enters with a +1/+1 counter on it and with first strike.
 - **Keywords:** Regenerate, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/6/degavolver) · oracle_id `9431c81f-7b71-4c5d-a63c-1b5aba03601b` · printing: APC #6 (2001-06-04) · [rulings](https://api.scryfall.com/cards/36a52c3a-2f58-4b4d-b3c6-f9a08e25c7de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/6/degavolver) · oracle_id `9431c81f-7b71-4c5d-a63c-1b5aba03601b` · printing: APC #6 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deglamer
 
@@ -57,4 +67,5 @@
 - **Flavor text** (MOR printing):
   > *The more pleasant an illusion's garb, the more indecent its form laid bare.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/118/deglamer) · oracle_id `049d2e18-8fa9-44d9-8618-f675592cb624` · printing: MOR #118 (2008-02-01) · [rulings](https://api.scryfall.com/cards/985b43aa-58f0-42fc-9ef0-a7925727d58f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

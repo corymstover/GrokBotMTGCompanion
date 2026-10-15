@@ -36,7 +36,9 @@
   > Remove two carrion counters from this creature: This creature gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/21/osai-vultures) · oracle_id `65b7a7ca-0e39-4612-9bcd-743bf903544a` · printing: ME4 #21 (2011-01-10) · [rulings](https://api.scryfall.com/cards/2c665c02-4010-4bc6-85f0-bc03bef38ce9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Only gets one counter per turn, not one per creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/21/osai-vultures) · oracle_id `65b7a7ca-0e39-4612-9bcd-743bf903544a` · printing: ME4 #21 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### _____-o-saurus
 
@@ -51,6 +53,7 @@
   > *—Astrotorium waiver*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/148/_____-o-saurus) · oracle_id `32921952-8846-418d-8689-c42dbc24a7b8` · printing: UNF #148 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Industries
@@ -64,7 +67,11 @@
   > Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)
 - **Keywords:** Mayhem
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/182/oscorp-industries) · oracle_id `f432eb6a-f1bf-4ce7-b915-1488dccb4bb9` · printing: SPM #182 (2025-09-26) · [rulings](https://api.scryfall.com/cards/1e609d6e-9e37-45d2-87de-8c76675f7cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You can play Oscorp Industries using its mayhem ability only if you have available land plays remaining. There's no cost to playing a land; you're simply playing it from your graveyard.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/182/oscorp-industries) · oracle_id `f432eb6a-f1bf-4ce7-b915-1488dccb4bb9` · printing: SPM #182 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Research Team
 
@@ -76,6 +83,7 @@
 - **Flavor text** (SPM printing):
   > *Norman Osborn relentlessly pursues success, and he demands everyone in his employ do the same.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23227 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/40/oscorp-research-team) · oracle_id `4d2e233c-0173-417f-82a0-1e692a400ae1` · printing: SPM #40 (2025-09-26) · [rulings](https://api.scryfall.com/cards/a800ffb4-0c48-41eb-b221-cf1d855131d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osgir, the Reconstructor
@@ -89,6 +97,7 @@
   > {X}, {T}, Exile an artifact card with mana value X from your graveyard: Create two tokens that are copies of the exiled card. Activate only as a sorcery.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8195 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/8/osgir-the-reconstructor) · oracle_id `add020f8-a6ae-4ce1-8d4e-f48f3fd14767` · printing: C21 #8 (2021-04-23) · [rulings](https://api.scryfall.com/cards/5815fe6e-e26b-4918-a090-55d6442722c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osgood, Operation Double
@@ -102,7 +111,12 @@
   > Paradox — Whenever you cast a spell from anywhere other than your hand, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate, Paradox
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13416 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/191/osgood-operation-double) · oracle_id `292aafef-8945-4827-90b2-1dd9764e517b` · printing: WHO #191 (2023-10-13) · [rulings](https://api.scryfall.com/cards/d180a882-84d9-4e38-8aed-1fc6ecd1df72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/191/osgood-operation-double) · oracle_id `292aafef-8945-4827-90b2-1dd9764e517b` · printing: WHO #191 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oskar, Rubbish Reclaimer
 
@@ -115,7 +129,13 @@
 - **Flavor text** (NCC printing):
   > *"So many fools think throwing something away is the same as disposing of it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10675 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/77/oskar-rubbish-reclaimer) · oracle_id `14c2c818-0ce2-4809-a5ff-ee4a6253defa` · printing: NCC #77 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ed87e25f-9dad-4858-92bc-e859fd2be2a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — The mana value of a double-faced card in your graveyard is always the mana value of the front face.
+  - *2022-04-29* — The mana value of a land card is 0.
+  - *2022-04-29* — The mana value of a split card in the graveyard is the total mana value of both halves of that card. It does not have two mana values.
+  - *2022-04-29* — X is 0 when determining the mana value of a card in your graveyard.
+  - *2022-04-29* — You may cast the spell immediately. You must pay all costs for a spell cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/77/oskar-rubbish-reclaimer) · oracle_id `14c2c818-0ce2-4809-a5ff-ee4a6253defa` · printing: NCC #77 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osseous Exhale
 
@@ -126,7 +146,12 @@
   > Osseous Exhale deals 5 damage to target attacking or blocking creature. If a Dragon was beheld, you gain 2 life.
 - **Keywords:** Behold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17143 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/17/osseous-exhale) · oracle_id `8d84a706-080c-4fb2-b1b9-3dbb3294fb7b` · printing: TDM #17 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2300da2f-2297-4c2f-90c1-11ce2b42d91f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — Effects that say “If a [quality] was beheld” only care if a card of that quality was revealed or a permanent you control of that quality was chosen. No matter what happens to that card or permanent after that, it was still beheld, and any additional effects that depend on that card or permanent being beheld will still happen.
+  - *2025-04-04* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that’s still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-04-04* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-04-04* — If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/17/osseous-exhale) · oracle_id `8d84a706-080c-4fb2-b1b9-3dbb3294fb7b` · printing: TDM #17 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osseous Sticktwister
 
@@ -138,7 +163,10 @@
   > Delirium — At the beginning of your end step, if there are four or more card types among cards in your graveyard, each opponent may sacrifice a nonland permanent of their choice or discard a card. Then this creature deals damage equal to its power to each opponent who didn't sacrifice a permanent or discard a card this way.
 - **Keywords:** Delirium, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/112/osseous-sticktwister) · oracle_id `33c3a81a-6cea-48c9-b966-67084d96e74f` · printing: DSK #112 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4f43473e-1302-4543-b331-1a86cfbc3ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — Use Osseous Sticktwister's power as its last ability resolves to determine how much damage it deals to each opponent who didn't sacrifice a permanent or discard a card this way. If Osseous Sticktwister is no longer on the battlefield at that time, use its power as it last existed on the battlefield.
+  - *2024-09-20* — While resolving Osseous Sticktwister's last ability, the next opponent in turn order chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then each other opponent in turn order does the same. Then all of the actions occur simultaneously. Opponents will know what choices opponents earlier in the turn order made, although cards chosen to be discarded this way won't be revealed until they're discarded at the end of the process.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/112/osseous-sticktwister) · oracle_id `33c3a81a-6cea-48c9-b966-67084d96e74f` · printing: DSK #112 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ossification
 
@@ -151,7 +179,11 @@
   > *Only Elesh Norn's most loyal servants are granted the honor of becoming part of her throne.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/26/ossification) · oracle_id `e29bfd62-286f-4982-813f-7086573c333b` · printing: ONE #26 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0da03224-c1af-438f-96c2-b0e41e1070b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+  - *2023-02-04* — If Ossification leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
+  - *2023-02-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/26/ossification) · oracle_id `e29bfd62-286f-4982-813f-7086573c333b` · printing: ONE #26 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ossuary Rats
 
@@ -163,6 +195,7 @@
 - **Flavor text** (J22 printing):
   > *You know you've ventured too deep when the rats stop running and hold their ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20919 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/24/ossuary-rats) · oracle_id `a1380d07-f582-46dd-a63a-9806123ebcd3` · printing: J22 #24 (2022-12-02) · [rulings](https://api.scryfall.com/cards/c93dc52c-6f62-45cc-a5e2-95f794e04b94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Osteomancer Adept
@@ -175,7 +208,19 @@
   > {T}: Until end of turn, you may cast creature spells from your graveyard by foraging in addition to paying their other costs. If you cast a spell this way, that creature enters with a finality counter on it. (To forage, exile three cards from your graveyard or sacrifice a Food. If a creature with a finality counter on it would die, exile it instead.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/103/osteomancer-adept) · oracle_id `791cbb7c-7935-4902-b050-9ea9d030e9fa` · printing: BLB #103 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7d8238dd-858f-466c-96de-986bd66861d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-26* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-07-26* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-07-26* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2024-07-26* — If Dryad Arbor (the only card that's both a creature and a land) is in your graveyard, you can't play it this way. Dryad Arbor can't be cast as a spell.
+  - *2024-07-26* — If you don't have enough cards in your graveyard or a Food on the battlefield, you can't choose to forage.
+  - *2024-07-26* — Multiple finality counters on a single permanent are redundant.
+  - *2024-07-26* — Once you announce that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard or Foods you control to stop you from foraging.
+  - *2024-07-26* — You must still follow timing restrictions and permissions for creature spells you cast with the permission granted by Osteomancer Adept's last ability. Normally, you'll be able to cast them only during your main phase while the stack is empty.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/103/osteomancer-adept) · oracle_id `791cbb7c-7935-4902-b050-9ea9d030e9fa` · printing: BLB #103 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostiary Thrull
 
@@ -187,6 +232,7 @@
 - **Flavor text** (GPT printing):
   > *Orzhov churches don't pass the plate for collection. They charge for admission.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31190 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/55/ostiary-thrull) · oracle_id `1c99c9d9-3ea8-43bc-96d7-4dea12770b5c` · printing: GPT #55 (2006-02-03) · [rulings](https://api.scryfall.com/cards/26407330-d7a1-4915-b7c6-e08e166cf638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostracize
@@ -198,6 +244,7 @@
 - **Flavor text** (7ED printing):
   > *"You won't be needing this."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24002 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/153/ostracize) · oracle_id `43975c07-103c-4664-b7e6-55bb29d85183` · printing: 7ED #153 (2001-04-11) · [rulings](https://api.scryfall.com/cards/abdaffcc-59f6-4489-88bf-1061ad6b0512/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostrich-Horse
@@ -211,6 +258,7 @@
   > *Ostrich-horses are renowned in the Earth Kingdom as reliable steeds for couriers, soldiers, and merchants.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/188/ostrich-horse) · oracle_id `2b6cb199-1564-4214-b24f-624dc962c907` · printing: TLA #188 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5ca3fd45-9301-44ef-afc0-4d7999d66d36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oswald Fiddlebender
@@ -223,4 +271,8 @@
 - **Flavor text** (AFR printing):
   > *"Can't see this airship crashing in the near future. Sturdy as a rock."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2937 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/28/oswald-fiddlebender) · oracle_id `dbc9ea19-cf68-41d3-88a8-b5ab8df75c5a` · printing: AFR #28 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bba1650f-eddf-49a9-820e-489cb8d5b6fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — A token has a mana value of 0 unless it's copying something else.
+  - *2021-07-23* — An artifact's mana value is determined solely by the mana symbols printed in its upper right corner (unless that artifact is copying something else; see below). If its mana cost includes {X}, X is considered to be 0. If it has no mana symbols in its upper right corner (because it's an animated land that's also an artifact, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) paid when the artifact spell was cast.
+  - *2021-07-23* — If an artifact is copying something else, its mana value is the mana value of whatever it's copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/28/oswald-fiddlebender) · oracle_id `dbc9ea19-cf68-41d3-88a8-b5ab8df75c5a` · printing: AFR #28 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

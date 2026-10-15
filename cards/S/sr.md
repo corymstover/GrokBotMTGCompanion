@@ -21,7 +21,9 @@
 - **Flavor text** (SOC printing):
   > *"As this conflict grows, it gets harder to prevent the city from breaking down. How much longer can we keep this machinery balanced?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #444 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/176/sram-senior-edificer) · oracle_id `7e00b0cd-d212-4604-ba07-da21f4fe00b0` · printing: SOC #176 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8fbd18ce-0ac3-4b52-9cd0-0af7e0244207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Sram's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/176/sram-senior-edificer) · oracle_id `7e00b0cd-d212-4604-ba07-da21f4fe00b0` · printing: SOC #176 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sram's Expertise
 
@@ -33,4 +35,12 @@
 - **Flavor text** (AER printing):
   > *"It's important to always have the right tool for the job. This one is for picking my teeth."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/24/srams-expertise) · oracle_id `5cd17347-5558-46f9-b8bb-ae5deeb1f229` · printing: AER #24 (2017-01-20) · [rulings](https://api.scryfall.com/cards/7c6d47b0-4c19-4c19-9e21-54cd87a5e34d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2017-02-09* — A card's mana value is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {1}{U}{U} has mana value 3. Ignore any alternative costs, additional costs, cost increases, or cost reductions that could apply to it. A card with no mana cost has a mana value of 0.
+  - *2017-02-09* — Any triggered abilities that trigger while performing the Expertise spell's first effect won't be put onto the stack until after you're done casting your free spell. They're put onto the stack at the same time as any abilities that triggered while casting that spell regardless of the order in which those abilities triggered.
+  - *2017-02-09* — Effects that allow you to "cast" a card don't allow you to play a land card.
+  - *2017-02-09* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-02-09* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, you must pay those to cast the card.
+  - *2017-02-09* — While you're casting your free spell, the Expertise spell is still on the stack. It will be put into its owner's graveyard after the free spell is cast. The free spell can't target the Expertise card in your graveyard. It can target the Expertise spell on the stack, but the Expertise spell will become an illegal target before the free spell resolves.
+  - *2017-04-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If an expertise spell allows you to cast a split card, you may cast either half or, if that split card has fuse, both halves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/24/srams-expertise) · oracle_id `5cd17347-5558-46f9-b8bb-ae5deeb1f229` · printing: AER #24 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

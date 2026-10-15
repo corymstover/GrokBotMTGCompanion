@@ -22,7 +22,11 @@
 - **Flavor text** (DMU printing):
   > *"Fear doesn't make you a coward; giving in to it does. Now take up your sword and fight!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8792 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/195/baird-argivian-recruiter) · oracle_id `1d078108-f88c-4a32-a28f-bae5182b2f53` · printing: DMU #195 (2022-09-09) · [rulings](https://api.scryfall.com/cards/1f643d78-d8d8-4645-9357-a68ebd0d3517/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — If a creature has a characteristic-defining ability that sets its power and toughness, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power and toughness.
+  - *2022-09-09* — Normally, a creature’s base power and toughness are the power and toughness printed on the card or, for a token, the power and toughness set by the effect that created it. If another effect sets a creature’s power and toughness to specific numbers or values, those become its base power and toughness. If an effect modifies a creature’s power and/or toughness without setting them, that is not included when determining its base power and toughness.
+  - *2022-09-09* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn’t change its base power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/195/baird-argivian-recruiter) · oracle_id `1d078108-f88c-4a32-a28f-bae5182b2f53` · printing: DMU #195 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baird, Steward of Argive
 
@@ -36,7 +40,10 @@
   > *"The walls of Argive were built by a peaceful dynastic union that has guarded us against war for fifteen centuries. The lesson is clear."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2581 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/15/baird-steward-of-argive) · oracle_id `69aa6809-5468-413a-94c9-562e6de93957` · printing: CMM #15 (2023-08-04) · [rulings](https://api.scryfall.com/cards/91bbe20b-0d39-46fc-a09a-fc8c676f1fe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — In a Two-Headed Giant game, creatures can attack your teammate and planeswalkers your teammate controls without requiring a mana payment. This is a change from previous rules.
+  - *2023-07-28* — If you control Baird, your opponents can choose not to pay to attack with a creature that attacks "if able." If there's no other player, planeswalker, or battle to attack, that creature simply doesn't attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/15/baird-steward-of-argive) · oracle_id `69aa6809-5468-413a-94c9-562e6de93957` · printing: CMM #15 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Baithook Angler // Hook-Haunt Drifter
 
@@ -54,4 +61,12 @@
   > *Even in death, he casts his lines, forever fishing for reasons long forgotten.*
 - **Keywords:** Flying, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/42/baithook-angler-hook-haunt-drifter) · oracle_id `c6bb4b41-8dae-429a-b928-ae9d39c74711` · printing: MID #42 (2021-09-24) · [rulings](https://api.scryfall.com/cards/36e71d16-0964-489d-bea2-9cec7991fc99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/42/baithook-angler-hook-haunt-drifter) · oracle_id `c6bb4b41-8dae-429a-b928-ae9d39c74711` · printing: MID #42 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

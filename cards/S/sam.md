@@ -47,6 +47,7 @@
 - **Flavor text** (EOE printing):
   > *Tannuk's gut warned of danger, but Sami forged ahead without heed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12071 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/203/samis-curiosity) · oracle_id `5f532b7f-cb76-4be7-b361-0106c561dcb2` · printing: EOE #203 (2025-08-01) · [rulings](https://api.scryfall.com/cards/703ad0f3-bd05-42b0-85fb-0cd37807dc91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sami, Ship's Engineer
@@ -59,6 +60,7 @@
 - **Flavor text** (EOE printing):
   > *Whenever Sami was down on their luck, they returned to an old comfort: the clinks and clanks of tinkering.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13052 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/225/sami-ships-engineer) · oracle_id `470c16c5-b078-47f5-89b0-42991e1f7157` · printing: EOE #225 (2025-08-01) · [rulings](https://api.scryfall.com/cards/75c38cc9-07de-46d4-8195-f04b2b7e0fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Alchemist
@@ -72,6 +74,7 @@
   > *"Powders and potions are nothing compared to faith."*
   > *—Baris, Serra Inquisitor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31763 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/13a/samite-alchemist) · oracle_id `120b565a-e22b-4d5d-9841-b11750b4ee49` · printing: HML #13a (1995-10-01) · [rulings](https://api.scryfall.com/cards/68224871-d4c2-4b43-9ab8-c0685588b035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Archer
@@ -85,6 +88,7 @@
 - **Flavor text** (INV printing):
   > *"I can preserve ten lives by taking one."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28669 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/269/samite-archer) · oracle_id `5322a218-6a0c-4d86-835a-c87eb52aaf6a` · printing: INV #269 (2000-10-02) · [rulings](https://api.scryfall.com/cards/07a262d7-6d0c-43d0-89b6-9f46a1a9eb69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Blessing
@@ -99,6 +103,7 @@
   > *—Samite healing ritual*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25422 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/13/samite-blessing) · oracle_id `a524ae69-2594-467d-af0a-27b9984d4300` · printing: STH #13 (1998-03-02) · [rulings](https://api.scryfall.com/cards/3b21aa2e-df36-4101-89b6-515858f2ab88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Censer-Bearer
@@ -111,7 +116,9 @@
 - **Flavor text** (FUT printing):
   > *Samite alchemists extracted aromatic traces of healing minerals from the residue of the receding salt dunes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/15/samite-censer-bearer) · oracle_id `e980e565-2612-467e-aff1-e0a9ec1b80e9` · printing: FUT #15 (2007-05-04) · [rulings](https://api.scryfall.com/cards/7de6aeea-0144-4148-b7a6-47b703f64af9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — This ability sets up a separate 1-point damage prevention shield on each creature you control at the time the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/15/samite-censer-bearer) · oracle_id `e980e565-2612-467e-aff1-e0a9ec1b80e9` · printing: FUT #15 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Elder
 
@@ -121,7 +128,10 @@
 - **Oracle text:**
   > {T}: Choose target permanent you control. Creatures you control gain protection from each of that permanent's colors until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/14/samite-elder) · oracle_id `8feb27aa-1f62-46e5-ba20-72c712de0862` · printing: PLS #14 (2001-02-05) · [rulings](https://api.scryfall.com/cards/b3c5dccc-2a48-4dcc-a796-fa6fdc11a14e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If the color of that permanent changes after the ability takes effect, the color of protection that was granted does not change.
+  - *2004-10-04* — The color is determined on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/14/samite-elder) · oracle_id `8feb27aa-1f62-46e5-ba20-72c712de0862` · printing: PLS #14 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Healer
 
@@ -133,6 +143,7 @@
 - **Flavor text** (10E printing):
   > *Healers ultimately acquire the divine gifts of spiritual and physical wholeness. The most devout are also granted the ability to pass physical wholeness on to others.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29019 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/38/samite-healer) · oracle_id `95a0ca48-d924-47f4-86ed-42c673ee778c` · printing: 10E #38 (2007-07-13) · [rulings](https://api.scryfall.com/cards/621f9a58-0bc8-40dd-aef1-43618274d6fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Herbalist
@@ -146,7 +157,10 @@
   > *"Spiritual wholeness is not something you can give to yourself: it is attained only through the divine blessing of healing another."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/31/samite-herbalist) · oracle_id `af753429-c121-4957-b768-8bed43dc06cb` · printing: DMU #31 (2022-09-09) · [rulings](https://api.scryfall.com/cards/409189da-53c9-4daf-b6b2-d155fc14f91a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — If Samite Herbalist becomes tapped while casting a spell or activating an ability, that spell or ability resolves after Samite Herbalist’s triggered ability has resolved.
+  - *2022-09-09* — Samite Herbalist’s ability is a triggered ability, not an activated ability. It doesn’t allow you to tap it whenever you want; rather, you need some other way of tapping it, such as by attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/31/samite-herbalist) · oracle_id `af753429-c121-4957-b768-8bed43dc06cb` · printing: DMU #31 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Ministration
 
@@ -155,6 +169,7 @@
 - **Oracle text:**
   > Prevent all damage that would be dealt to you this turn by a source of your choice. Whenever damage from a black or red source is prevented this way this turn, you gain that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28173 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/36/samite-ministration) · oracle_id `af669df1-3526-46ca-b90c-19b112b7ba44` · printing: INV #36 (2000-10-02) · [rulings](https://api.scryfall.com/cards/b1de62ed-79e6-4daf-a2ab-dc0726e1f7df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Pilgrim
@@ -166,7 +181,10 @@
   > Domain — {T}: Prevent the next X damage that would be dealt to target creature this turn, where X is the number of basic land types among lands you control.
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30501 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/15/samite-pilgrim) · oracle_id `542c5eaf-8b03-4406-a794-30c56b61d637` · printing: PLS #15 (2001-02-05) · [rulings](https://api.scryfall.com/cards/c12529e4-f4b1-45be-8252-28783badbec5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/15/samite-pilgrim) · oracle_id `542c5eaf-8b03-4406-a794-30c56b61d637` · printing: PLS #15 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samite Sanctuary
 
@@ -178,6 +196,7 @@
   > *Our war is against suffering, not against those who cause it.*
   > *—Samite creed*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30224 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/21/samite-sanctuary) · oracle_id `9e6e1ea6-4682-4056-b70e-fe45d0c9fdee` · printing: PCY #21 (2000-06-05) · [rulings](https://api.scryfall.com/cards/022ebeba-b61a-497a-a698-e75b130c468c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sami, Wildcat Captain
@@ -192,7 +211,11 @@
   > *"The hard way it is."*
 - **Keywords:** Vigilance, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4578 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/226/sami-wildcat-captain) · oracle_id `c4175a34-70bb-47e5-8406-efdc4d2cd079` · printing: EOE #226 (2025-08-01) · [rulings](https://api.scryfall.com/cards/bed64207-9193-4770-8f8f-e3203289d5a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — Affinity for artifacts means “This spell costs {1} less to cast for each artifact you control.”
+  - *2025-07-25* — If a spell has multiple instances of affinity, each one applies. For example, if you somehow control two Sami, Wildcat Captains and you control two artifacts, each spell you cast will cost {4} less to cast.
+  - *2025-07-25* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/226/sami-wildcat-captain) · oracle_id `c4175a34-70bb-47e5-8406-efdc4d2cd079` · printing: EOE #226 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sam, Loyal Attendant
 
@@ -205,7 +228,21 @@
   > Activated abilities of Foods you control cost {1} less to activate.
 - **Keywords:** Partner with, Food, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6540 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/7/sam-loyal-attendant) · oracle_id `2837be10-23ad-49d2-943e-b1e00edbbbd9` · printing: LTC #7 (2023-06-23) · [rulings](https://api.scryfall.com/cards/687a2b76-3f05-4732-bd9b-513d06d16300/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2023-06-16* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2023-06-16* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-06-16* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2023-06-16* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Frodo, Adventurous Hobbit and Sam, Loyal Attendant are your commanders, your deck may contain cards with white, black, and/or green in their color identity, but not blue or red.
+  - *2023-06-16* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2023-06-16* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2023-06-16* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
+  - *2023-06-16* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
+  - *2023-06-16* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/7/sam-loyal-attendant) · oracle_id `2837be10-23ad-49d2-943e-b1e00edbbbd9` · printing: LTC #7 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sample Collector
 
@@ -218,7 +255,11 @@
   > *"Whatever broke out of here is \*at least\* half bear... and I'd say some lizard as well."*
 - **Keywords:** Collect evidence
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/175/sample-collector) · oracle_id `566b65bb-fa5d-4da6-a766-b08128ee0049` · printing: MKM #175 (2024-02-09) · [rulings](https://api.scryfall.com/cards/76f7480c-82cc-4ddd-b619-c1a609c29a13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — You don't choose a target for Sample Collector's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you collect evidence 3 this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/175/sample-collector) · oracle_id `566b65bb-fa5d-4da6-a766-b08128ee0049` · printing: MKM #175 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sam's Desperate Rescue
 
@@ -229,7 +270,15 @@
 - **Flavor text** (LTR printing):
   > *"By all the signs, there's a large warrior loose, with an Elf-sword, and an axe as well maybe." Gorbag spat. Sam smiled grimly at this description of himself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/105/sams-desperate-rescue) · oracle_id `5a3336f1-614a-4b3f-8752-522a34d0417a` · printing: LTR #105 (2023-06-23) · [rulings](https://api.scryfall.com/cards/bdd4d735-8cda-47c1-865b-48b51ac8f666/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/105/sams-desperate-rescue) · oracle_id `5a3336f1-614a-4b3f-8752-522a34d0417a` · printing: LTR #105 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samurai Enforcers
 
@@ -242,6 +291,7 @@
   > *From the moment they swore their oaths, they belonged to their lord, sword and soul.*
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23566 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/42/samurai-enforcers) · oracle_id `9d0d19e4-34f9-4bfa-9c8b-74356d223a18` · printing: CHK #42 (2004-10-01) · [rulings](https://api.scryfall.com/cards/8b2be3fe-87a2-47b2-8af1-b99a48622c7b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samurai of the Pale Curtain
@@ -254,6 +304,7 @@
   > If a permanent would be put into a graveyard, exile it instead.
 - **Keywords:** Bushido
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17042 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/43/samurai-of-the-pale-curtain) · oracle_id `6df6e834-1917-4bf4-b0b7-09834bf90fb2` · printing: CHK #43 (2004-10-01) · [rulings](https://api.scryfall.com/cards/ead15cf8-f692-4cb9-ac86-0dff00236145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samurai's Katana
@@ -266,7 +317,12 @@
   > Murasame — Equip {5}
 - **Keywords:** Murasame, Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/154/samurais-katana) · oracle_id `9b8b5812-73bd-453e-bdff-aad1fafa9226` · printing: FIN #154 (2025-06-13) · [rulings](https://api.scryfall.com/cards/11f1d378-c78c-402a-ac46-2d32598c23e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/154/samurais-katana) · oracle_id `9b8b5812-73bd-453e-bdff-aad1fafa9226` · printing: FIN #154 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Hazoret's Champion
 
@@ -278,6 +334,7 @@
 - **Flavor text** (FRA printing):
   > *Samut doesn't pretend to know the best path, but she does know that Amonkhet will only thrive if its people keep moving forward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8813 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/251/samut-hazorets-champion) · oracle_id `add02a36-8811-438b-a8e1-f5c8a8146b4e` · printing: FRA #251 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ba920f23-f05c-410e-8516-c93abedf1d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut's Sprint
@@ -290,7 +347,9 @@
   > *Samut's war was intensely personal. Every hour she faced enemies she once loved as friends and horrors she once revered as gods.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/142/samuts-sprint) · oracle_id `7d07821e-d34b-4441-a137-836ffce7127b` · printing: WAR #142 (2019-05-03) · [rulings](https://api.scryfall.com/cards/94bda699-2b5d-4f5b-bee5-792b99d2b64a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If the target creature is an illegal target by the time Samut’s Sprint tries to resolve, the spell doesn’t resolve. You won’t scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/142/samuts-sprint) · oracle_id `7d07821e-d34b-4441-a137-836ffce7127b` · printing: WAR #142 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, the Driving Force
 
@@ -304,7 +363,14 @@
   > Noncreature spells you cast cost {X} less to cast, where X is your speed.
 - **Keywords:** Vigilance, First strike, Haste, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13001 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/222/samut-the-driving-force) · oracle_id `ee89c719-5ae8-4316-bfd0-cfe3684b5859` · printing: DFT #222 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8efd8222-5c37-46d8-a2ec-1d7aae25320b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/222/samut-the-driving-force) · oracle_id `ee89c719-5ae8-4316-bfd0-cfe3684b5859` · printing: DFT #222 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, the Tested
 
@@ -316,7 +382,11 @@
   > −2: Samut deals 2 damage divided as you choose among one or two targets.
   > −7: Search your library for up to two creature and/or planeswalker cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17962 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/144/samut-the-tested) · oracle_id `fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91` · printing: HOU #144 (2017-07-14) · [rulings](https://api.scryfall.com/cards/09f06f55-7918-46c4-80ff-0bf39e091a4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-07-14* — If Samut's second ability has two targets and one becomes an illegal target, the remaining target is dealt 1 damage, not 2.
+  - *2017-07-14* — While resolving Samut's last ability, all of the creatures and planeswalkers put onto the battlefield this way enter at the same time. If any have triggered abilities that trigger on something else entering the battlefield, they'll see each other.
+  - *2017-07-14* — You divide the damage as you activate Samut's second ability, not as it resolves. Each target must be assigned at least 1 damage. In other words, as you activate the ability, you choose whether to have it deal 2 damage to a single target, or deal 1 damage to each of two targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/144/samut-the-tested) · oracle_id `fffdc2ac-bde4-4e4c-a5bd-0e6c6e49ad91` · printing: HOU #144 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant of Naktamun
 
@@ -328,7 +398,13 @@
 - **Flavor text** (FRA printing):
   > *Everything in her wake stills, then stops.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9273 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun) · oracle_id `a275f7ac-7dae-4422-875a-f34f24b6f28a` · printing: FRA #220 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6d7d8fa7-ce69-4a8c-9af0-55571393a244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — After a spell with split second resolves (or otherwise leaves the stack), players may again cast spells and activate abilities before the next object on the stack resolves.
+  - *2026-08-21* — Casting a spell with split second won't affect spells and abilities that are already on the stack.
+  - *2026-08-21* — If the resolution of a triggered ability involves casting a spell, that spell can't be cast if a spell with split second is on the stack.
+  - *2026-08-21* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
+  - *2026-08-21* — Split second doesn't stop triggered abilities from triggering. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/220/samut-tyrant-of-naktamun) · oracle_id `a275f7ac-7dae-4422-875a-f34f24b6f28a` · printing: FRA #220 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Tyrant Smasher
 
@@ -340,7 +416,9 @@
   > −1: Target creature gets +2/+1 and gains haste until end of turn. Scry 1.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16783 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/235/samut-tyrant-smasher) · oracle_id `80405d7a-f533-44bd-ac85-890476cf2b78` · printing: WAR #235 (2019-05-03) · [rulings](https://api.scryfall.com/cards/e0457e3f-56c1-401b-8e08-f04b95c55e2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If the target creature is an illegal target by the time Samut’s loyalty ability tries to resolve, the ability doesn’t resolve. You won’t scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/235/samut-tyrant-smasher) · oracle_id `80405d7a-f533-44bd-ac85-890476cf2b78` · printing: WAR #235 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Vizier of Naktamun
 
@@ -354,6 +432,7 @@
   > *"Try to keep up, Djeru. We have lots of work to do."*
 - **Keywords:** Vigilance, First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7126 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/45/samut-vizier-of-naktamun) · oracle_id `178b3fdf-dbee-4245-a811-b21ff8a24f66` · printing: MAT #45 (2023-05-12) · [rulings](https://api.scryfall.com/cards/a0f3fdb0-47ad-4df6-a95c-a2c81aaf7af5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samut, Voice of Dissent
@@ -370,6 +449,7 @@
   > *"I'll fight no more just for the honor of dying. The afterlife will have to wait."*
 - **Keywords:** Vigilance, Haste, Double strike, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6345 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/205/samut-voice-of-dissent) · oracle_id `b1eee275-5106-4c8d-a497-d7945ad81d74` · printing: AKH #205 (2017-04-28) · [rulings](https://api.scryfall.com/cards/60f2d8f1-43a9-438a-830c-9d6b5701f950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samwise Gamgee
@@ -382,7 +462,16 @@
   > Sacrifice three Foods: Return target historic card from your graveyard to your hand. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2361 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/222/samwise-gamgee) · oracle_id `7ce37c26-91ea-493f-bfc3-a890d4538bc1` · printing: LTR #222 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a1b6f13e-63d0-46bf-aa57-23c2dbdf62dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+  - *2023-06-16* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
+  - *2023-06-16* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2023-06-16* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/222/samwise-gamgee) · oracle_id `7ce37c26-91ea-493f-bfc3-a890d4538bc1` · printing: LTR #222 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Samwise the Stouthearted
 
@@ -396,4 +485,12 @@
   > *"You've hurt my master, you brute, and you'll pay for it."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5121 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/28/samwise-the-stouthearted) · oracle_id `0e26b429-0469-474a-818a-2d4696c38a05` · printing: LTR #28 (2023-06-23) · [rulings](https://api.scryfall.com/cards/214c270e-29ca-4d69-bea6-9252ae7707ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/28/samwise-the-stouthearted) · oracle_id `0e26b429-0469-474a-818a-2d4696c38a05` · printing: LTR #28 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

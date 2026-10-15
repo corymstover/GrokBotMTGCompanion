@@ -81,6 +81,7 @@
   > *Dead or alive, true leaders can inspire an entire army.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8393 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/154/drogskol-captain) · oracle_id `c33604ac-636a-43ad-9efe-8d7b3a28bf81` · printing: VOC #154 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c88e7e22-6300-4871-9af8-923eedfe4b32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Cavalry
@@ -94,7 +95,9 @@
   > {3}{W}: Create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14089 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/15/drogskol-cavalry) · oracle_id `a8bac5a8-5a60-4f7a-a4d6-cb922da92472` · printing: SOI #15 (2016-04-08) · [rulings](https://api.scryfall.com/cards/46c262c8-9daa-4ed8-b519-11b5895de89f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — The Spirit tokens created by Drogskol Cavalry will cause its second ability to trigger, as well as any other Spirits you cast or Spirit tokens you put onto the battlefield another way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/15/drogskol-cavalry) · oracle_id `a8bac5a8-5a60-4f7a-a4d6-cb922da92472` · printing: SOI #15 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Infantry // Drogskol Armaments
 
@@ -112,6 +115,7 @@
   > *When he could no longer carry on, he imparted his strength to the one who took up his duty.*
 - **Keywords:** Transform, Enchant, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22690 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/10/drogskol-infantry-drogskol-armaments) · oracle_id `389bcb9f-4e66-4704-9968-a1c1574ec2c8` · printing: VOW #10 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f88e269e-ff3d-4775-8520-5b7a6dddf23d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Reaver
@@ -126,7 +130,12 @@
   > Whenever you gain life, draw a card.
 - **Keywords:** Flying, Lifelink, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4201 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/655/drogskol-reaver) · oracle_id `68175b49-f1e6-4b34-aad9-20d61a43d427` · printing: FDN #655 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c0a4450c-8dfd-4d05-adb9-e84ec6066c7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Drogskol Reaver's last ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Drogskol Reaver's last ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Drogskol Reaver deals enough first-strike damage to destroy each creature it's blocking or was blocked by, it won't deal any damage during the regular combat damage step and its last ability won't trigger a second time that combat. This is different if Drogskol Reaver is attacking and somehow gains trample.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and the last ability of Drogskol Reaver triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/655/drogskol-reaver) · oracle_id `68175b49-f1e6-4b34-aad9-20d61a43d427` · printing: FDN #655 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Reinforcements
 
@@ -139,6 +148,7 @@
   > Prevent all noncombat damage that would be dealt to Spirits you control.
 - **Keywords:** Melee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7952 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/5/drogskol-reinforcements) · oracle_id `6d174448-52f5-4439-9586-3abc5af940d7` · printing: VOC #5 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c86bdb28-9b0c-426d-b603-cc10cd301cc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Shieldmate
@@ -153,6 +163,7 @@
   > *"I will join you so that you will not yet join me."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26344 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/20/drogskol-shieldmate) · oracle_id `470028cf-0b99-4dd1-bb9d-aba91c52ee28` · printing: INR #20 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ba94ea90-66e5-4fd2-80fd-4baec5f8a1e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromad Purebred
@@ -166,7 +177,9 @@
   > *"I have seen much from the back of my dromad, most of it terribly wrong. The more I see, the more I am convinced of the rightness of my path."*
   > *—Heruj, Selesnya initiate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30127 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/15/dromad-purebred) · oracle_id `c7adac8f-8187-49a0-80b2-3281d42f1b92` · printing: RAV #15 (2005-10-07) · [rulings](https://api.scryfall.com/cards/0106caf1-2201-4661-96a5-56af02963fa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-10-01* — Each time Dromad Purebred is dealt damage, including from multiple sources at once, you gain 1 life. You don’t gain life equal to the damage dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/15/dromad-purebred) · oracle_id `c7adac8f-8187-49a0-80b2-3281d42f1b92` · printing: RAV #15 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Attendant
 
@@ -178,6 +191,7 @@
 - **Flavor text** (INV printing):
   > *"Dromar is the wings of the ur-dragon, sweeping away all opposition."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31410 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/303/dromars-attendant) · oracle_id `91d36a9d-3a3f-4cb7-837d-b1e8f6730512` · printing: INV #303 (2000-10-02) · [rulings](https://api.scryfall.com/cards/24936fa9-41a3-4da5-91cf-c28fa45f47c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Cavern
@@ -188,7 +202,10 @@
   > When this land enters, sacrifice it unless you return a non-Lair land you control to its owner's hand.
   > {T}: Add {W}, {U}, or {B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9392 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/246/dromars-cavern) · oracle_id `d8b57707-796d-4488-8f91-65bb75bc6281` · printing: DMR #246 (2023-01-13) · [rulings](https://api.scryfall.com/cards/10380662-88bd-4bc5-b8c3-14af425fc5a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you don't want to unsummon a land, you can play this card then tap it for mana before the enters ability resolves. You may then choose to sacrifice it instead of unsummoning a land.
+  - *2005-08-01* — This land is of type "Lair" only; other subtypes have been removed. It is not a basic land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/246/dromars-cavern) · oracle_id `d8b57707-796d-4488-8f91-65bb75bc6281` · printing: DMR #246 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Charm
 
@@ -203,6 +220,7 @@
   > *"Wisdom can be summed up in two rules: Control what you can. Eliminate what you cannot."*
   > *—Dromar, the Banisher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15751 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/187/dromars-charm) · oracle_id `e9950393-8458-4132-9dc7-01246282a41a` · printing: C13 #187 (2013-11-01) · [rulings](https://api.scryfall.com/cards/69f752d3-3f42-4275-be09-d257c89da70d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar, the Banisher
@@ -215,7 +233,9 @@
   > Whenever Dromar deals combat damage to a player, you may pay {2}{U}. If you do, choose a color, then return all creatures of that color to their owners' hands.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21075 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/244/dromar-the-banisher) · oracle_id `35ad7f82-a1b1-4aa7-a8b0-3f99ca2cff52` · printing: INV #244 (2000-10-02) · [rulings](https://api.scryfall.com/cards/cfcc3c72-fff5-454c-814c-eb952fd23ba9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You choose the color during resolution. This means your opponent does not get to react after knowing the color you chose.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/244/dromar-the-banisher) · oracle_id `35ad7f82-a1b1-4aa7-a8b0-3f99ca2cff52` · printing: INV #244 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Captain
 
@@ -229,7 +249,10 @@
   > *"We fight not out of fear, but for honor."*
 - **Keywords:** First strike, Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/12/dromoka-captain) · oracle_id `74333718-2a05-4643-9a37-013df39b32e0` · printing: DTK #12 (2015-03-27) · [rulings](https://api.scryfall.com/cards/2d11837c-613f-4e36-b5dd-99baf8b38532/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
+  - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/12/dromoka-captain) · oracle_id `74333718-2a05-4643-9a37-013df39b32e0` · printing: DTK #12 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Dunecaster
 
@@ -241,6 +264,7 @@
 - **Flavor text** (DTK printing):
   > *"The dragonlords rule the tempests of the skies. Here in the wastes, the storms are mine to command."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27937 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/13/dromoka-dunecaster) · oracle_id `5ac44e0a-782f-49ee-b263-2fb65359faaa` · printing: DTK #13 (2015-03-27) · [rulings](https://api.scryfall.com/cards/fc98e542-4bcc-43e1-9616-64ce40348a34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Monument
@@ -253,7 +277,12 @@
 - **Flavor text** (DTK printing):
   > *Dromoka rules her clan from the Great Aerie atop Arashin, the central city of the Shifting Wastes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/238/dromoka-monument) · oracle_id `1c587200-02cc-4c5f-86fe-d13cc7bdad8b` · printing: DTK #238 (2015-03-27) · [rulings](https://api.scryfall.com/cards/d4df975f-b6ef-4e8e-8be8-529c0ffd8a37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — A Monument can't attack on the turn it enters the battlefield.
+  - *2015-02-25* — Activating the last ability of a Monument while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
+  - *2015-02-25* — Each Monument is colorless, although the last ability will make each of them two colors until end of turn.
+  - *2015-02-25* — If a Monument has any +1/+1 counters on it, those counters will remain on the permanent after it stops being a creature. Those counters will have no effect as long as the Monument isn't a creature, but they will apply again if the Monument later becomes a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/238/dromoka-monument) · oracle_id `1c587200-02cc-4c5f-86fe-d13cc7bdad8b` · printing: DTK #238 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka's Command
 
@@ -267,7 +296,15 @@
   > • Target creature you control fights target creature you don't control.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · [rulings](https://api.scryfall.com/cards/43571705-6d53-4ec1-9159-c9c98771b3b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2015-02-25* — Although most instants and sorceries that cause damage to be dealt are the sources of that damage, a few cause other objects to deal damage (for example, spells that cause creatures to fight). The first ability of Dromoka's Command won't prevent damage caused by those other sources.
+  - *2015-02-25* — As the spell resolves, follow the instructions of the modes you chose in the order they are printed on the card. For example, if you chose the second and fourth modes of Ojutai's Command, you would gain 4 life and then draw a card. (The order won't matter in most cases.)
+  - *2015-02-25* — If a Command is copied, the effect that creates the copy will usually allow you to choose new targets for the copy, but you can't choose new modes.
+  - *2015-02-25* — If all targets for the chosen modes become illegal before the Command resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
+  - *2015-02-25* — You can target any player with the second ability, including one that doesn't control an enchantment.
+  - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka's Gift
 
@@ -279,7 +316,10 @@
   > *The simplest gift from a dragon can be a revered accolade for a human warrior.*
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/184/dromokas-gift) · oracle_id `1264da2f-4767-4bec-b4ed-1c625ac3cf95` · printing: DTK #184 (2015-03-27) · [rulings](https://api.scryfall.com/cards/a356afb6-19d7-459a-84ca-090924d45387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Aven Tactician’s bolster ability.
+  - *2015-02-25* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves. That could be the creature with the bolster ability, if it’s still under your control and has the least toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/184/dromokas-gift) · oracle_id `1264da2f-4767-4bec-b4ed-1c625ac3cf95` · printing: DTK #184 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka, the Eternal
 
@@ -294,7 +334,11 @@
   > *—Daghatar the Adamant*
 - **Keywords:** Bolster, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9658 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/170/dromoka-the-eternal) · oracle_id `73520b5a-3d55-40c9-af60-90fdd811934f` · printing: C17 #170 (2017-08-25) · [rulings](https://api.scryfall.com/cards/b8db6ab8-cd12-431a-bf18-28464cf03509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — Each Dragon you attack with will cause Dromoka’s triggered ability to trigger. For each instance of the ability, you’ll determine which creature to put +1/+1 counters on as it resolves. Specifically, the creature you control with the lowest toughness as the first such ability resolves may not have the lowest toughness as the second such ability resolves.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/170/dromoka-the-eternal) · oracle_id `73520b5a-3d55-40c9-af60-90fdd811934f` · printing: C17 #170 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka Warrior
 
@@ -306,6 +350,7 @@
 - **Flavor text** (DTK printing):
   > *Dromoka has regard for the humans who serve under her. In return for her protection, they obey with steadfast loyalty, acting as weapons for her and her scalelords against the other clans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/14/dromoka-warrior) · oracle_id `f62998a7-898f-494f-89a1-624f6236033b` · printing: DTK #14 (2015-03-27) · [rulings](https://api.scryfall.com/cards/13ae001b-556f-4576-8cf4-0b8902997bb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromosaur
@@ -318,7 +363,10 @@
 - **Flavor text** (USG printing):
   > *They say dromosaurs are frightened of dogs, even little ones. There are no dogs in Shiv. Not even little ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/182/dromosaur) · oracle_id `4576cc5b-7b3a-41a7-9b84-acadf2d4adf5` · printing: USG #182 (1998-10-12) · [rulings](https://api.scryfall.com/cards/65de0b43-64df-44dc-850c-25f48d6ab53b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If it manages to block or become blocked more than once in a turn, it can get the bonus twice.
+  - *2004-10-04* — Switching blockers will not re-trigger this since it only triggers on becoming blocked and switching does not unblock and reblock it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/182/dromosaur) · oracle_id `4576cc5b-7b3a-41a7-9b84-acadf2d4adf5` · printing: USG #182 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Droning Bureaucrats
 
@@ -330,7 +378,11 @@
 - **Flavor text** (GPT printing):
   > *" . . . and you must also apply for an application license, file documents 136(iv) and 22-C and -D in triplicate, pay all requisite fees, request a . . ."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/4/droning-bureaucrats) · oracle_id `21dc394e-ba82-4f27-8014-9236690d10a4` · printing: GPT #4 (2006-02-03) · [rulings](https://api.scryfall.com/cards/756eb23a-c6de-439a-b83d-e694cfae7ccb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-02-01* — Creature lands and most token creatures have mana value 0. If a creature on the battlefield has {X} in its mana cost, treat X as 0.
+  - *2006-02-01* — Droning Bureaucrats's ability affects all creatures with mana value equal to exactly X, regardless of whether they were on the battlefield at the time the ability resolved. For example, if the ability resolves with an X of 4, then Giant Solifuge is put onto the battlefield, the Solifuge can't attack or block that turn.
+  - *2006-02-01* — If you use Droning Bureaucrats's ability after you have declared attackers but before your opponent declares blockers, the restriction will apply to only your opponent's creatures. Creatures that are already attacking will be unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/4/droning-bureaucrats) · oracle_id `21dc394e-ba82-4f27-8014-9236690d10a4` · printing: GPT #4 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drooling Groodion
 
@@ -343,6 +395,7 @@
   > *"The Golgari expand, yes, but I refuse to call their tainted creations 'growth.'"*
   > *—Veszka, Selesnya evangel*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30463 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/173/drooling-groodion) · oracle_id `b027a80b-30cf-4e7b-8902-efd584e0edf7` · printing: MM2 #173 (2015-05-22) · [rulings](https://api.scryfall.com/cards/afbafd6c-15cc-492f-b1e4-c5baa61e4a0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drooling Ogre
@@ -356,6 +409,7 @@
   > *"Is it the stomping kind or the munching kind?"*
   > *—Slobad, goblin tinkerer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/58/drooling-ogre) · oracle_id `97b37822-b030-4792-bcd7-c84499f51b18` · printing: DST #58 (2004-02-06) · [rulings](https://api.scryfall.com/cards/2036745a-09ea-476f-ace6-1d06b8502f83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drop Bear
@@ -371,6 +425,7 @@
   > *Designed by players at PAX Australia 2025*
 - **Keywords:** Haste, Fight, Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05n/drop-bear) · oracle_id `a5edc165-09ec-4136-9da3-8c97ff7d07e3` · printing: UNK #RZ05n (2026-05-01) · [rulings](https://api.scryfall.com/cards/023f1b43-e5e1-4312-9e33-b459c40543e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dropkick Bomber
@@ -384,7 +439,9 @@
 - **Flavor text** (FDN printing):
   > *"I've always enjoyed kicking stuff, so this was an ideal career opportunity."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9892 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/537/dropkick-bomber) · oracle_id `c394d4b6-cfb8-4639-90cb-a322a25c0a2f` · printing: FDN #537 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b44f758e-716a-408e-96d4-b58403591c2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to a Goblin you control may become lethal if Dropkick Bomber leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/537/dropkick-bomber) · oracle_id `c394d4b6-cfb8-4639-90cb-a322a25c0a2f` · printing: FDN #537 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drop of Honey
 
@@ -394,7 +451,12 @@
   > At the beginning of your upkeep, destroy the creature with the least power. It can't be regenerated. If two or more creatures are tied for least power, you choose one of them.
   > When there are no creatures on the battlefield, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24454 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/150/drop-of-honey) · oracle_id `383e9005-5869-4d1d-917d-30e5f214fbd9` · printing: ME4 #150 (2011-01-10) · [rulings](https://api.scryfall.com/cards/588f1bc5-2230-4437-8d5e-a18f6e55b390/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If all creatures on the battlefield leave and immediately return (perhaps because Momentary Blink exiled and returned the only creature), the last ability of Drop of Honey triggers. You'll sacrifice it even though a creature's on the battlefield by the time the ability resolves.
+  - *2021-03-19* — If one of the creatures with the least power has indestructible, you must destroy one without indestructible. If all creatures with the least power have indestructible, you don't destroy any creature.
+  - *2021-03-19* — No player can take actions between the time you choose which creature to destroy and the time it's destroyed.
+  - *2021-03-19* — The first ability of Drop of Honey doesn't target. You can destroy a creature with shroud or protection from Green.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/150/drop-of-honey) · oracle_id `383e9005-5869-4d1d-917d-30e5f214fbd9` · printing: ME4 #150 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drop Tower
 
@@ -405,7 +467,10 @@
 - **Flavor text** (UNF printing):
   > *"I can see the next star system from here!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32342 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/209a/drop-tower) · oracle_id `54c4fd18-adf5-408b-a529-019ebc24ca8d` · printing: UNF #209a (2022-10-07) · [rulings](https://api.scryfall.com/cards/b738cd8d-f88b-431e-b66f-dc32e39a9606/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — As soon as a player rolls a 1, the creature will no longer be granted flying from Drop Tower. No player may take any actions between the result of die roll coming up 1 and the flying effect ending.
+  - *2022-10-07* — You can choose Drop Tower’s effect for Grand Marshal Macie’s last ability. If you do, the effect won’t end even if a player rolls a 1, though if that happens, the effect will end as soon as Grand Marshal Macie untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/209a/drop-tower) · oracle_id `54c4fd18-adf5-408b-a529-019ebc24ca8d` · printing: UNF #209a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drossclaw
 
@@ -418,7 +483,12 @@
   > Equip {2}
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13967 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/89/drossclaw) · oracle_id `cda1ac77-3986-4600-9835-b0c0063ecc2f` · printing: MH3 #89 (2024-06-14) · [rulings](https://api.scryfall.com/cards/70e68656-3204-4bb5-9f31-8036083fcba6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-06-07* — If the Phyrexian Germ token is destroyed, the Equipment remains on the battlefield as with any other Equipment.
+  - *2024-06-07* — If the living weapon trigger causes two Phyrexian Germs to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to one of them. The other will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2024-06-07* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Phyrexian Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
+  - *2024-06-07* — The Phyrexian Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/89/drossclaw) · oracle_id `cda1ac77-3986-4600-9835-b0c0063ecc2f` · printing: MH3 #89 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Crocodile
 
@@ -431,6 +501,7 @@
   > *"As soon as it surfaced, we could all smell it. Its rancid breath reeked of half-digested carrion and its own rotting innards."*
   > *—Dafri, Auriok champion*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25935 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/138/dross-crocodile) · oracle_id `028fa430-722d-45aa-b415-3f84076091a9` · printing: 10E #138 (2007-07-13) · [rulings](https://api.scryfall.com/cards/efd5c07e-4ece-4c8b-93c8-6abd7dd3a39a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drossforge Bridge
@@ -445,6 +516,7 @@
   > *The path to ruin is forged in pain.*
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/246/drossforge-bridge) · oracle_id `44b83535-fdbf-4307-bf53-ca20470a768d` · printing: MH2 #246 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5b46b8d8-723a-4752-b97d-29ef83bd294c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Golem
@@ -459,6 +531,7 @@
   > *The longer it skulks through the corrosive gases of Mephidross, the more it adopts their thirst for death.*
 - **Keywords:** Affinity, Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/119/dross-golem) · oracle_id `336d51cf-dcb3-4257-bd6c-926820a2f9de` · printing: DST #119 (2004-02-06) · [rulings](https://api.scryfall.com/cards/1df2f4fd-b96a-4537-93a4-38141b0fa577/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Harvester
@@ -472,6 +545,7 @@
   > Whenever a creature dies, you gain 2 life.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15263 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/750/dross-harvester) · oracle_id `5520ada0-f173-4b5e-a0b8-a5938a1c0a4b` · printing: CLB #750 (2022-06-10) · [rulings](https://api.scryfall.com/cards/35f77a00-1880-416c-813b-c6a870dd5f58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Hopper
@@ -484,7 +558,9 @@
 - **Flavor text** (SOM printing):
   > *Bred in the vicious Mephidross, dross hoppers learned to eat quickly and escape faster.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15617 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/60/dross-hopper) · oracle_id `2ec8c540-73bf-4412-a53a-499e9b9fd213` · printing: SOM #60 (2010-10-01) · [rulings](https://api.scryfall.com/cards/1a0656f6-a016-479a-a003-72e106e986b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — You may sacrifice Dross Hopper to pay for its own ability. If you do, however, it won't gain flying because it won't be on the battlefield by the time the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/60/dross-hopper) · oracle_id `2ec8c540-73bf-4412-a53a-499e9b9fd213` · printing: SOM #60 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Prowler
 
@@ -498,6 +574,7 @@
   > *—Glissa Sunseeker*
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30587 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/64/dross-prowler) · oracle_id `a3122c6a-20be-4bb3-ab2f-928143378ea6` · printing: MRD #64 (2003-10-02) · [rulings](https://api.scryfall.com/cards/1fff470a-3574-42be-8f0b-ac5e7a70f61a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Ripper
@@ -511,6 +588,7 @@
   > *"Such a creation serves no purpose other than exterminating every one of us."*
   > *—Sadra Alic, Neurok strategist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/106/dross-ripper) · oracle_id `bf3b7489-e9d6-4b3c-9fb8-3bb727584db9` · printing: MBS #106 (2011-02-04) · [rulings](https://api.scryfall.com/cards/55d54f08-53f0-41b2-8b86-8244515224eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Scorpion
@@ -523,6 +601,7 @@
 - **Flavor text** (MRD printing):
   > *They skitter out of the mists to consume fresh kill before Mephidross has a chance to corrode it away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10620 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/164/dross-scorpion) · oracle_id `132786bb-157c-4e2c-8f82-13df6a667448` · printing: MRD #164 (2003-10-02) · [rulings](https://api.scryfall.com/cards/27c5381c-2e79-41fa-b1d7-2cf0c6dc1808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Skullbomb
@@ -535,7 +614,9 @@
 - **Flavor text** (ONE printing):
   > *It seethes with the ambition of a ruthless gladiator.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12568 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/225/dross-skullbomb) · oracle_id `0c43e9b4-013a-47ee-9805-f41afb0a3bde` · printing: ONE #225 (2023-02-10) · [rulings](https://api.scryfall.com/cards/66270dd2-9139-4329-9621-852962836688/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — If the target of Dross Skullbomb's last ability isn't a legal target as the ability tries to resolve (probably because it has left the graveyard), you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/225/dross-skullbomb) · oracle_id `0c43e9b4-013a-47ee-9805-f41afb0a3bde` · printing: ONE #225 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drought
 
@@ -546,7 +627,11 @@
   > Spells cost an additional "Sacrifice a Swamp" to cast for each black mana symbol in their mana costs.
   > Activated abilities cost an additional "Sacrifice a Swamp" to activate for each black mana symbol in their activation costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28031 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/21/drought) · oracle_id `ecba74bd-850e-4cbe-9b1c-b0d4d6f27d1c` · printing: ICE #21 (1995-06-03) · [rulings](https://api.scryfall.com/cards/97736696-3de3-416d-94cf-4fac792f23f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — You have to sacrifice a Swamp for each black mana in the activation cost. If you use Pestilence with {B}{B}{B}{B}, that’s 4 activations with {B} each so you sacrifice 4 Swamps.
+  - *2008-08-01* — A hybrid symbol that is both black and another type is a black mana symbol, regardless of what cost is paid for it.
+  - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/21/drought) · oracle_id `ecba74bd-850e-4cbe-9b1c-b0d4d6f27d1c` · printing: ICE #21 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drove of Elves
 
@@ -560,6 +645,7 @@
   > *"The light of beauty protects our journeys through darkness."*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14509 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/101/drove-of-elves) · oracle_id `3ba81fbe-2c53-495b-9a2b-f124475bd71b` · printing: CMA #101 (2017-06-09) · [rulings](https://api.scryfall.com/cards/8d134465-8d7d-458b-99e5-e6aa6d285214/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drover Grizzly
@@ -572,7 +658,14 @@
   > Saddle 1 (Tap any number of other creatures you control with total power 1 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)
 - **Keywords:** Saddle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/161/drover-grizzly) · oracle_id `290fe09e-04ab-48d1-a60e-db47ea8c4d00` · printing: OTJ #161 (2024-04-19) · [rulings](https://api.scryfall.com/cards/560062cd-34f8-4d30-9e25-099b03961724/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-04-12* — An ability that triggers when a creature “attacks while saddled” will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren’t saddled.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won’t be saddled.
+  - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
+  - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
+  - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/161/drover-grizzly) · oracle_id `290fe09e-04ab-48d1-a60e-db47ea8c4d00` · printing: OTJ #161 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drover of the Mighty
 
@@ -585,7 +678,9 @@
 - **Flavor text** (LCC printing):
   > *"I do not lead. They do not follow. We walk together."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/239/drover-of-the-mighty) · oracle_id `6deba6e8-077b-4602-86af-64db766fbbd9` · printing: LCC #239 (2023-11-17) · [rulings](https://api.scryfall.com/cards/013360b3-c335-46c0-abe3-b7e3760f62c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-09-29* — Because damage remains marked on a creature until it's removed as the turn ends, the damage Drover of the Mighty takes during combat may become lethal if you no longer control a Dinosaur later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/239/drover-of-the-mighty) · oracle_id `6deba6e8-077b-4602-86af-64db766fbbd9` · printing: LCC #239 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned
 
@@ -598,6 +693,7 @@
   > *We asked Captain Soll what became of the Serafina, but all he said was, "Ships that go down shouldn't come back up."*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30297 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/47/drowned) · oracle_id `3da87e58-6a4b-48c3-873c-bc654277d4df` · printing: ME4 #47 (2011-01-10) · [rulings](https://api.scryfall.com/cards/92debe15-70c2-4d91-9fdc-f85c05ceef1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Catacomb
@@ -610,7 +706,10 @@
 - **Flavor text** (FRC printing):
   > *None can tell how many vessels are tangled up on the sea floor—or how much treasure remains unclaimed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #105 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · [rulings](https://api.scryfall.com/cards/4acb0f92-74be-40e8-b70e-61c4aaaeb47b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
+  - *2009-10-01* — This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), Drowned Catacomb will enter untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Rusalka
 
@@ -622,7 +721,9 @@
 - **Flavor text** (GPT printing):
   > *Lurking below the current, she thirsts until others come to drink.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/24/drowned-rusalka) · oracle_id `62e86e38-2f8d-4cee-aa7e-4519add79d4d` · printing: GPT #24 (2006-02-03) · [rulings](https://api.scryfall.com/cards/68864836-799e-467d-97cc-38c89f71afcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — Unlike many similar cards, Drowned Rusalka's ability causes you to discard a card first and then draw a card. If your hand is empty, you will just draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gpt/24/drowned-rusalka) · oracle_id `62e86e38-2f8d-4cee-aa7e-4519add79d4d` · printing: GPT #24 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Secrets
 
@@ -634,7 +735,10 @@
   > *Beneath Ravnica's streets runs a layer of tunnels, then caverns and waterways, then terrors and nightmares.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/39/drowned-secrets) · oracle_id `cab305d9-27fb-4a41-adf1-892e15167cb9` · printing: GRN #39 (2018-10-05) · [rulings](https://api.scryfall.com/cards/bfc98428-7a0f-445f-9d48-eeb76c3e10d6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — Drowned Secrets has to be on the battlefield for its ability to trigger. Casting it won’t trigger its own ability.
+  - *2018-10-05* — Drowned Secrets’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/39/drowned-secrets) · oracle_id `cab305d9-27fb-4a41-adf1-892e15167cb9` · printing: GRN #39 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner Initiate
 
@@ -647,6 +751,7 @@
   > *Nothing satisfies a merrow as much as drowning what it cannot have.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22662 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/36/drowner-initiate) · oracle_id `19a4010f-f5bf-48be-a1d7-eacc3bbeeb59` · printing: SHM #36 (2008-05-02) · [rulings](https://api.scryfall.com/cards/28accc5f-63a5-47d0-b0e6-747aa0aa43e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner of Hope
@@ -660,7 +765,19 @@
   > Sacrifice an Eldrazi Scion: Tap target creature.
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/57/drowner-of-hope) · oracle_id `2b3f2e85-5ea4-44d6-86e8-e8ce6d4f98c0` · printing: BFZ #57 (2015-10-02) · [rulings](https://api.scryfall.com/cards/0fd5b48c-6850-47d4-8106-297be6c8f708/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+  - *2015-08-25* — You can sacrifice any Eldrazi Scion to activate Drowner of Hope's last ability, not just one created by Drowner of Hope.
+  - *2015-08-25* — You can't sacrifice the same permanent to pay two different costs. Notably, if you sacrifice an Eldrazi Scion to activate the last ability of Drowner of Hope, you won't add {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/57/drowner-of-hope) · oracle_id `2b3f2e85-5ea4-44d6-86e8-e8ce6d4f98c0` · printing: BFZ #57 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner of Secrets
 
@@ -673,7 +790,9 @@
   > *Merrows consider themselves the keepers of Lorwyn's past—and consider it their duty to edit when necessary.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/58/drowner-of-secrets) · oracle_id `a5ce3fb6-9c70-4433-a079-467c911bfd4d` · printing: LRW #58 (2007-10-12) · [rulings](https://api.scryfall.com/cards/149aa77e-fc10-4b9b-8f38-cc6db5be7b79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — You can tap any permanent with the Merfolk creature type to pay for the ability, including noncreature kindred permanents such as Merrow Commerce.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/58/drowner-of-secrets) · oracle_id `a5ce3fb6-9c70-4433-a079-467c911bfd4d` · printing: LRW #58 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowner of Truth // Drowned Jungle
 
@@ -693,7 +812,20 @@
   > *—Ayli, high priest of the Eternal Pilgrims*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6390 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/253/drowner-of-truth-drowned-jungle) · oracle_id `db19a27a-ee22-4931-ae3c-0ce21f456ea6` · printing: MH3 #253 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7a1d3c1d-1373-4ac4-bb26-9780976efc4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2024-06-07* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2024-06-07* — Devoid doesn't affect the color identity of the card for the purposes of the Commander variant. For example, while Abstruse Appropriation is colorless because it has devoid, its color identity is still white and black, and it can't be included in a Commander deck where the commander's color identity doesn't include both white and black.
+  - *2024-06-07* — Devoid works in all zones, not just on the battlefield.
+  - *2024-06-07* — Drowner of Truth's triggered ability will resolve before Drowner of Truth does. If Drowner of Truth is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+  - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2024-06-07* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise.
+  - *2024-06-07* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2024-06-07* — If an effect allows you to put a card with particular characteristics onto the battlefield without instructing you to play or cast it, you consider only the characteristics of a modal double-faced card's front face to see if that card qualifies. If it does, it enters the battlefield with its front face up. For example, if an effect allows you to put a creature card from your graveyard onto the battlefield, you can put Disciple of Freyalise onto the battlefield. However, an effect that lets you return a land card from your graveyard to your hand won't let you return Garden of Freyalise to your hand, as that card has only its front face's characteristics while in the graveyard.
+  - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
+  - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/253/drowner-of-truth-drowned-jungle) · oracle_id `db19a27a-ee22-4931-ae3c-0ce21f456ea6` · printing: MH3 #253 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Dreams
 
@@ -708,7 +840,10 @@
   > *—Teferi*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2122 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/13/drown-in-dreams) · oracle_id `d3cec4b5-bc93-44a2-a29d-3478f0a5dac6` · printing: MIC #13 (2021-09-24) · [rulings](https://api.scryfall.com/cards/af4d5acb-12d6-46d7-aaf9-3ace1520825a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — Controlling a commander means that you control a permanent on the battlefield that is someone's commander. It can be yours or another player's. Controlling a commander spell on the stack will not allow you to choose both modes.
+  - *2021-09-24* — You may target the same player with both modes or target different players. The effects happen in the order they're listed on the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/13/drown-in-dreams) · oracle_id `d3cec4b5-bc93-44a2-a29d-3478f0a5dac6` · printing: MIC #13 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Filth
 
@@ -720,7 +855,9 @@
   > *The rot farmer's first rite of passage is to craft a pair of work stilts.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/67/drown-in-filth) · oracle_id `59af03ba-28d0-4f15-b877-2cf3c81d66e1` · printing: DGM #67 (2013-05-03) · [rulings](https://api.scryfall.com/cards/22feacda-01e0-4f0d-a3c7-a22e3d40bf4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — You choose the target of Drown in Filth as you cast the spell. You won’t necessarily know what will happen to that creature’s power and toughness at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/67/drown-in-filth) · oracle_id `59af03ba-28d0-4f15-b877-2cf3c81d66e1` · printing: DGM #67 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Ichor
 
@@ -732,7 +869,14 @@
   > *Sinking into the Dross is neither a gentle death nor a quiet one. But once the necrogen takes hold, it is inevitable.*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2061 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/91/drown-in-ichor) · oracle_id `e4912bc3-bee9-4a2f-a13e-3a99018f8a65` · printing: ONE #91 (2023-02-10) · [rulings](https://api.scryfall.com/cards/bf148ef4-0ed7-4fbe-8ab6-01dd3981c8d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/91/drown-in-ichor) · oracle_id `e4912bc3-bee9-4a2f-a13e-3a99018f8a65` · printing: ONE #91 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Shapelessness
 
@@ -743,6 +887,7 @@
 - **Flavor text** (GS1 printing):
   > *"From the swallows, I learned how to ride the winds to anywhere, and from my tears, I mastered how to harness the water."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26941 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/15/drown-in-shapelessness) · oracle_id `a3874282-9887-4b53-b80e-564ac99cca23` · printing: GS1 #15 (2018-06-22) · [rulings](https://api.scryfall.com/cards/31420a65-5f13-4ae9-8d45-2531ee2771e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Sorrow
@@ -756,7 +901,9 @@
   > *—Perisophia the philosopher*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/154/drown-in-sorrow) · oracle_id `5c93ec85-f87f-4121-9fbf-61fd598d1e65` · printing: CMM #154 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4512357b-0d08-4996-9301-5853eae1ea64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Drown in Sorrow affects only creatures on the battlefield at the time it resolves. Creatures that enter the battlefield or become creatures later in the turn won't get -2/-2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/154/drown-in-sorrow) · oracle_id `5c93ec85-f87f-4121-9fbf-61fd598d1e65` · printing: CMM #154 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in the Loch
 
@@ -767,7 +914,10 @@
   > • Counter target spell with mana value less than or equal to the number of cards in its controller's graveyard.
   > • Destroy target creature with mana value less than or equal to the number of cards in its controller's graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/842/drown-in-the-loch) · oracle_id `0f264e5b-264e-4e97-9a8d-8ae1d6a286ce` · printing: CLB #842 (2022-06-10) · [rulings](https://api.scryfall.com/cards/eb7b9762-740b-4c1c-a411-20dbf023aea5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
+  - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/842/drown-in-the-loch) · oracle_id `0f264e5b-264e-4e97-9a8d-8ae1d6a286ce` · printing: CLB #842 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Amalgam
 
@@ -781,6 +931,7 @@
   > *When human corpses are in short supply, stitchers get creative.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20476 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/50/drownyard-amalgam) · oracle_id `2378d6fc-b6ba-4a44-b951-5698ed507e4c` · printing: MID #50 (2021-09-24) · [rulings](https://api.scryfall.com/cards/71b05d44-d987-45e1-bbd9-842dbe58c2b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Behemoth
@@ -794,7 +945,20 @@
   > This creature has hexproof as long as it entered this turn.
 - **Keywords:** Emerge, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/4/drownyard-behemoth) · oracle_id `bfe1a52a-f2f8-4c62-8502-037f2d1395b2` · printing: EMN #4 (2016-07-22) · [rulings](https://api.scryfall.com/cards/082690e8-07b9-4a91-b779-e0123a69ee12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2016-07-13* — There is no moment during the turn Drownyard Behemoth enters the battlefield in which it doesn't have hexproof. The earliest opportunity for an opponent to target it is during the next turn's upkeep step.
+  - *2025-01-24* — A creature’s mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is 0. If it’s a single-faced card with no mana symbols in its upper right corner (because it’s an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
+  - *2025-01-24* — Colored mana components of emerge costs can’t be reduced with emerge.
+  - *2025-01-24* — Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s mana value.”
+  - *2025-01-24* — If you cast a spell for another cost “rather than paying its mana cost,” such as an emerge cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2025-01-24* — If you sacrifice a creature with {X} in its mana cost, that X is 0.
+  - *2025-01-24* — Once you begin to cast a spell with emerge, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice.
+  - *2025-01-24* — The creature chosen to be sacrificed is still on the battlefield as the cost of the emerge spell is determined and as you activate mana abilities to cast the emerge spell. Its abilities may affect the spell’s cost, be activated to generate mana, and so on. However, if it has an ability that triggers when a spell is cast, it will have been sacrificed before that ability can trigger.
+  - *2025-01-24* — The mana value of a creature spell with emerge isn’t affected by whether its emerge cost is paid. For example, if you cast Decimator of the Provinces for its emerge cost and sacrifice a creature whose mana value is 3, Decimator of the Provinces’s mana value remains 10.
+  - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
+  - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
+  - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/4/drownyard-behemoth) · oracle_id `bfe1a52a-f2f8-4c62-8502-037f2d1395b2` · printing: EMN #4 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Explorers
 
@@ -807,7 +971,11 @@
   > *"Angels and inquisitors terrorize villages, but no one seems to notice the stirring out at sea."*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27147 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/56/drownyard-explorers) · oracle_id `c1ebbe89-8976-4ed7-a68a-8b08aac4616c` · printing: SOI #56 (2016-04-08) · [rulings](https://api.scryfall.com/cards/3714713f-deb4-4b1c-8764-35287293ca18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/56/drownyard-explorers) · oracle_id `c1ebbe89-8976-4ed7-a68a-8b08aac4616c` · printing: SOI #56 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Lurker
 
@@ -822,7 +990,9 @@
   > *When Emrakul arrived on Innistrad, even fossils answered her twisted call.*
 - **Keywords:** Vigilance, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/3/drownyard-lurker) · oracle_id `7cf5c3dd-5c07-4eaf-8227-6f4e7f9b134d` · printing: MH3 #3 (2024-06-14) · [rulings](https://api.scryfall.com/cards/7faf5812-2067-4386-bb83-150723d67d02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — Drownyard Lurker's triggered ability will resolve before either Drownyard Lurker or its cycling ability does, as appropriate. If Drownyard Lurker or its cycling ability are countered or otherwise leave the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/3/drownyard-lurker) · oracle_id `7cf5c3dd-5c07-4eaf-8227-6f4e7f9b134d` · printing: MH3 #3 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Temple
 
@@ -835,6 +1005,7 @@
   > *"This is it! All the cryptoliths point here!"*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1989 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/359/drownyard-temple) · oracle_id `c30f9be4-c274-4ad0-b5d7-7d3421aa4277` · printing: TDC #359 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dbc8512a-9f6c-40d4-8049-14505e260746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowsing Tyrannodon
@@ -849,4 +1020,7 @@
   > *What the rangers thought were warning growls turned out to be nothing but monstrous snoring.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/178/drowsing-tyrannodon) · oracle_id `ee811356-ef6a-4972-b827-32c2d329b3c3` · printing: M21 #178 (2020-07-03) · [rulings](https://api.scryfall.com/cards/288b056a-ea80-4fdc-990d-0ee1e9a7bf64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If Drowsing Tyrannodon's power is raised to 4 or greater, it will allow itself to attack.
+  - *2020-06-23* — Once Drowsing Tyrannodon has attacked, it will remain an attacking creature even if you no longer control a creature with power 4 or greater.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/178/drowsing-tyrannodon) · oracle_id `ee811356-ef6a-4972-b827-32c2d329b3c3` · printing: M21 #178 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

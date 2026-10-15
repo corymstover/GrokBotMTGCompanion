@@ -30,6 +30,7 @@
   > *He wanders the land in search of Good Ass.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/49/bad-ass) · oracle_id `77014a94-650a-46e4-8d62-abbd31ee5b99` · printing: UNH #49 (2004-11-19) · [rulings](https://api.scryfall.com/cards/33b41832-f549-42e3-871e-e3a03372dbba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Deal
@@ -41,7 +42,13 @@
 - **Flavor text** (M21 printing):
   > *There are still places where a smile and a handshake are all you need to seal a deal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/89/bad-deal) · oracle_id `47258c3e-b4a7-466d-9464-3924f75d9293` · printing: M21 #89 (2020-07-03) · [rulings](https://api.scryfall.com/cards/7a3f8bc2-ef66-474f-92a3-9c4df1670cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-06-23* — As Bad Deal resolves, first you draw two cards. Then the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses two cards in hand without revealing them, then each other opponent in turn order does the same. All the chosen cards are discarded at the same time. Then each player loses 2 life.
+  - *2020-06-23* — Each player loses 2 life, including you, regardless of how many cards they draw or discard.
+  - *2020-06-23* — If an opponent has just one card in hand, that player discards just one card. Other opponents still discard two if able.
+  - *2020-06-23* — In a Two-Headed Giant game, Bad Deal causes each team to lose 4 life. Your teammate doesn't draw or discard any cards.
+  - *2020-06-23* — You draw just two cards no matter how many opponents you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/89/bad-deal) · oracle_id `47258c3e-b4a7-466d-9464-3924f75d9293` · printing: M21 #89 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgermole
 
@@ -53,7 +60,14 @@
   > Creatures you control with +1/+1 counters on them have trample.
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/166/badgermole) · oracle_id `2084a7f6-226b-4fb4-a30e-703f674d33b4` · printing: TLA #166 (2025-11-21) · [rulings](https://api.scryfall.com/cards/aabbd420-b7fc-496f-9168-bad823d51d9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/166/badgermole) · oracle_id `2084a7f6-226b-4fb4-a30e-703f674d33b4` · printing: TLA #166 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgermole Cub
 
@@ -67,7 +81,16 @@
   > *Every mountain starts as a molehill.*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/167/badgermole-cub) · oracle_id `2b0afb89-0944-4861-b9c3-e909e2ac215e` · printing: TLA #167 (2025-11-21) · [rulings](https://api.scryfall.com/cards/340c5799-4964-44dd-8c48-8f3f3aba5211/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — An ability that triggers "whenever you tap a creature for mana" triggers only if you activate a mana ability of a creature including {T} in its cost. Mana abilities that don't include the {T} symbol and instead say "Tap an untapped creature you control" or similar won't cause Badgermole Cub's second ability to trigger. Similarly, it won't trigger if you tap a creature to activate a mana ability of another object (even if that mana ability also includes {T}).
+  - *2025-10-02* — Badgermole Cub's last ability is a triggered mana ability. It doesn't use the stack and can't be responded to.
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/167/badgermole-cub) · oracle_id `2b0afb89-0944-4861-b9c3-e909e2ac215e` · printing: TLA #167 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgey, Malicious Glitch
 
@@ -79,6 +102,7 @@
 - **Flavor text** (TRC printing):
   > *"Can I teach you a lesson?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31416 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/152/badgey-malicious-glitch) · oracle_id `227fb13b-0a07-4937-9048-7cf02efbc8e3` · printing: TRC #152 (2026-11-13) · [rulings](https://api.scryfall.com/cards/294e0651-99b4-4792-8ee8-107e7484117d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Knight
@@ -92,6 +116,7 @@
   > If Bad Knight is on the battlefield at the end of the game, score an additional point for the Phyrexian team.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UB02a/bad-knight) · oracle_id `95abf085-3276-4209-b9ec-1d7ef1698dc8` · printing: UNK #UB02a (2023-02-17) · [rulings](https://api.scryfall.com/cards/02a14c29-0b59-45ce-96b6-ca12f8bdf234/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands
@@ -101,7 +126,12 @@
 - **Oracle text:**
   > ({T}: Add {B} or {R}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #380 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · [rulings](https://api.scryfall.com/cards/73403d04-fe97-4830-8b80-16dd1a1a6cc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Land type changing effects that change a dual land's land type will remove the old land types completely. Text-changing effects that just change one of the two land types will leave the other type unaffected.
+  - *2004-10-04* — This card is a Mountain and a Swamp even while in the graveyard, library, or any other zone.
+  - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
+  - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands Revival
 
@@ -112,6 +142,7 @@
 - **Flavor text** (OTJ printing):
   > *The cactusfolk were a young culture, but they already knew the pains of death and joys of birth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13071 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/194/badlands-revival) · oracle_id `a61267d2-2cc7-4208-a365-581d56b92e1c` · printing: OTJ #194 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8d3ef971-cdd4-410c-97c3-df98e4f02ab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Moon
@@ -121,6 +152,7 @@
 - **Oracle text:**
   > Black creatures get +1/+1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/48/bad-moon) · oracle_id `fc5d3341-cbce-49e5-93cc-8add92479dca` · printing: GVL #48 (2014-12-05) · [rulings](https://api.scryfall.com/cards/8f8a75da-ea3c-43e7-9d32-1c92f8ec0fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad River
@@ -131,4 +163,6 @@
   > This land enters tapped.
   > {T}, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/197/bad-river) · oracle_id `259fc423-d078-4668-9e95-8c1a0d2e49ba` · printing: DMC #197 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ca79caa8-9893-49be-bc39-f021adb28220/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/197/bad-river) · oracle_id `259fc423-d078-4668-9e95-8c1a0d2e49ba` · printing: DMC #197 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,6 +22,7 @@
   > *"Life gives way to death, and death to new life. Nature feeds upon her own decay."*
   > *—Ezrith, druid of the Dark Hours*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17562 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/207/mwonvuli-acid-moss) · oracle_id `53fb8118-f332-407b-add8-1b329e420226` · printing: TSP #207 (2006-10-06) · [rulings](https://api.scryfall.com/cards/6841dbf6-5023-4612-bbd7-182fd35b05c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mwonvuli Beast Tracker
@@ -35,7 +36,9 @@
   > *"The more dangerous, the better."*
 - **Keywords:** Reach, Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/177/mwonvuli-beast-tracker) · oracle_id `b6265654-84c3-469b-9afa-f752fd64abe0` · printing: M13 #177 (2012-07-13) · [rulings](https://api.scryfall.com/cards/0034d32c-cc82-48d7-a913-d58cc3d3afeb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — The creature card must have one of the listed abilities, not an ability that grants one of the listed abilities to the creature. For example, you couldn’t put Prized Elephant, which has “{G}: Prized Elephant gains trample until end of turn,” on top of your library this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/177/mwonvuli-beast-tracker) · oracle_id `b6265654-84c3-469b-9afa-f752fd64abe0` · printing: M13 #177 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mwonvuli Ooze
 
@@ -49,4 +52,7 @@
   > *"Ewww!"*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26501 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/135/mwonvuli-ooze) · oracle_id `42b2c6d0-e0da-41b0-8876-f17dbe5db79a` · printing: WTH #135 (1997-06-09) · [rulings](https://api.scryfall.com/cards/aa9c6f65-93a1-4913-87e7-a17ebfcc7780/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Its power/toughness changes when the cumulative upkeep resolves, not when it triggers.
+  - *2008-04-01* — If you choose not to pay Mwonvuli Ooze’s cumulative upkeep, it will still get an age counter before being sacrificed. Its power and toughness will momentarily increase before being put into the graveyard, which might matter to certain other cards (such as Proper Burial).
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/135/mwonvuli-ooze) · oracle_id `42b2c6d0-e0da-41b0-8876-f17dbe5db79a` · printing: WTH #135 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -32,7 +32,9 @@
   > *—\*Song of the Cogmentor\**
 - **Keywords:** Flying, Assemble
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/143/cogmentor) · oracle_id `5e2ad0e1-d422-4603-9d43-627ed8a34a0f` · printing: UST #143 (2017-12-08) · [rulings](https://api.scryfall.com/cards/af687c72-e5b9-4074-a3aa-1bf04fa06ce9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — To reassemble a Contraption you control means to move it from the sprocket it’s on to either of your two other sprockets. It doesn’t leave the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/143/cogmentor) · oracle_id `5e2ad0e1-d422-4603-9d43-627ed8a34a0f` · printing: UST #143 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cognivore
 
@@ -44,6 +46,7 @@
   > Cognivore's power and toughness are each equal to the number of instant cards in all graveyards.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/77/cognivore) · oracle_id `8b4aae48-be01-4b42-8d32-45071650da03` · printing: ODY #77 (2001-10-01) · [rulings](https://api.scryfall.com/cards/7de76ff6-d065-4db1-b28d-4a4ccb1cc0fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Archivist
@@ -59,6 +62,7 @@
   > *—Kasmina*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/254/cogwork-archivist) · oracle_id `60674ef7-f8e2-41e8-bab3-0100cfc9fbe9` · printing: STX #254 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8c024a2d-20fb-478b-a62e-e3590a1e3ac1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Assembler
@@ -71,7 +75,13 @@
 - **Flavor text** (2XM printing):
   > *Duplication is neither thievery nor flattery. It is efficiency.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13749 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/242/cogwork-assembler) · oracle_id `01cebebb-050c-4b69-8a13-c569183a3cc3` · printing: 2XM #242 (2020-08-07) · [rulings](https://api.scryfall.com/cards/e4bfde3f-f7d3-4902-b3cd-23f3fa53eff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — Any enters-the-battlefield abilities of the copied artifact will trigger when the token enters the battlefield. Any “as [this artifact] enters the battlefield” or “[this artifact] enters the battlefield with” abilities of the chosen artifact will also work.
+  - *2017-02-09* — If the copied artifact has {X} in its mana cost, X is considered to be 0.
+  - *2017-02-09* — If the copied artifact is a token, the token created with Cogwork Assembler copies the original characteristics of that token as stated by the effect that that created that token.
+  - *2017-02-09* — If the copied artifact is copying something else (for example, if the copied artifact is a Sculpting Steel), then the token enters the battlefield as whatever that artifact copied.
+  - *2017-02-09* — The token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/242/cogwork-assembler) · oracle_id `01cebebb-050c-4b69-8a13-c569183a3cc3` · printing: 2XM #242 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogworker's Puzzleknot
 
@@ -81,6 +91,7 @@
   > When this artifact enters, create a 1/1 colorless Servo artifact creature token.
   > {1}{W}, Sacrifice this artifact: Create a 1/1 colorless Servo artifact creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23666 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/201/cogworkers-puzzleknot) · oracle_id `2065e9d0-c6e9-4270-898e-9822b532d467` · printing: KLD #201 (2016-09-30) · [rulings](https://api.scryfall.com/cards/00d594df-c51b-4936-9af1-536dab1792ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Grinder
@@ -93,7 +104,14 @@
   > As you draft a card, you may remove it from the draft face down. (Those cards aren't in your card pool.)
   > This creature enters with X +1/+1 counters on it, where X is the number of cards you removed from the draft with cards named Cogwork Grinder.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/57/cogwork-grinder) · oracle_id `f10898a5-87ec-4a30-a383-9f9bcba3e4d0` · printing: CNS #57 (2014-06-06) · [rulings](https://api.scryfall.com/cards/807b1ac7-a495-4d67-a6c6-480d1b0522d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-05-29* — A card that is removed from the draft isn't in any player's card pool. That card can't be played in any games associated with that draft.
+  - *2014-05-29* — If a Cogwork Grinder owned by another player enters the battlefield under your control, the number of counters it enters with will be based on the number of cards you've removed from the draft with Cogwork Grinders, not the number its owner removed. Unless you also drafted Cogwork Grinder, this will be 0.
+  - *2014-05-29* — If you draft multiple Cogwork Grinders, the value for X will be the same for each of them. It doesn't matter that some of the removed cards may have been removed before you drafted the second Cogwork Grinder, for example.
+  - *2014-05-29* — No other player may look at the cards you remove from the draft (unless Cogwork Spy allows a player to).
+  - *2014-05-29* — You can't remove cards from the draft that you've already drafted. Only cards drafted after you draft Cogwork Grinder may be removed this way.
+  - *2014-05-29* — You still draft the card that you remove. This may matter if an ability refers to "the next card you draft" or similar. If that card instructs you to draft it face up, do so, then turn it face down as you remove it. If that card instructs you to reveal it as you draft it and then perform additional actions, perform those actions before turning the card face down and removing it from the draft.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/57/cogwork-grinder) · oracle_id `f10898a5-87ec-4a30-a383-9f9bcba3e4d0` · printing: CNS #57 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Librarian
 
@@ -106,7 +124,11 @@
 - **Flavor text** (CNS printing):
   > *Why wait for answers?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31417 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/58/cogwork-librarian) · oracle_id `ec0d964e-ca2c-4252-8551-cf1916576653` · printing: CNS #58 (2014-06-06) · [rulings](https://api.scryfall.com/cards/453de664-0f09-4772-a626-51d58d1173f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-05-29* — Cogwork Librarian essentially lets you draft two cards from a booster pack in exchange for putting Cogwork Librarian back into that booster pack.
+  - *2014-05-29* — The two cards you draft are drafted one at a time, in case one of the cards cares about when it was drafted or what the next card you draft is.
+  - *2014-05-29* — You may use the ability of more than one Cogwork Librarian while drafting from one booster pack. For example you can draft three cards from one booster pack and put two Cogwork Librarians into that booster pack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/58/cogwork-librarian) · oracle_id `ec0d964e-ca2c-4252-8551-cf1916576653` · printing: CNS #58 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Spy
 
@@ -120,7 +142,10 @@
   > *Paliano's creations provide ample opportunities to plot the downfall of a neighbor.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/59/cogwork-spy) · oracle_id `adfd33cb-086c-48f4-b443-ba971ff43684` · printing: CNS #59 (2014-06-06) · [rulings](https://api.scryfall.com/cards/661a7927-73ad-4230-a754-ba43b35be149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — If you are the next person to draft from the booster pack (perhaps because of Cogwork Librarian), the first ability doesn't do anything.
+  - *2014-05-29* — You may look at the card even if it's removed from the draft face down by Cogwork Grinder.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/59/cogwork-spy) · oracle_id `adfd33cb-086c-48f4-b443-ba971ff43684` · printing: CNS #59 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Tracker
 
@@ -132,7 +157,13 @@
   > This creature attacks each combat if able.
   > This creature attacks a player you noted for cards named Cogwork Tracker each combat if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/60/cogwork-tracker) · oracle_id `c60ba5e9-dbfa-441b-a96f-9cc7fdfd2d76` · printing: CNS #60 (2014-06-06) · [rulings](https://api.scryfall.com/cards/2ad996e5-f3b4-4aca-8b37-d20632245b4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-05-29* — If the last ability doesn't apply, you choose which player or planeswalker Cogwork Tracker attacks.
+  - *2014-05-29* — If the noted player isn't in the game, Cogwork Tracker's last ability won't do anything, although it must still attack each turn if able. This is also true if there is no noted player because Cogwork Tracker was the first card drafted from a booster pack.
+  - *2014-05-29* — If there are multiple noted players, perhaps because the players on both your left and right passed a Cogwork Tracker to you, you choose which of those players each Cogwork Tracker attacks. If you control more than one, they can each attack a different noted player.
+  - *2014-05-29* — If your draft is breaking up into multiple games, you and the noted player(s) aren't required to be in the same game.
+  - *2014-05-29* — If, during your declare attackers step, Cogwork Tracker is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under your control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack, you're not forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/60/cogwork-tracker) · oracle_id `c60ba5e9-dbfa-441b-a96f-9cc7fdfd2d76` · printing: CNS #60 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cogwork Wrestler
 
@@ -146,4 +177,5 @@
   > *Years of adventure and adversity on the open seas did not prepare Brog for the humiliation of losing a sparring match to a cogwork doll less than half his size.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19865 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/49/cogwork-wrestler) · oracle_id `db27e3f0-5750-4c4b-9da9-70c3ab627f9c` · printing: LCI #49 (2023-11-17) · [rulings](https://api.scryfall.com/cards/a9d329ad-6b19-4aa7-a53f-38c7b76c4c96/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

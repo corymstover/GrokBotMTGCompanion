@@ -23,7 +23,9 @@
 - **Flavor text** (FRA printing):
   > *Fblthp had \*definitely\* made a wrong turn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16457 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/213/fblthp-impossibly-lost) · oracle_id `17e7212e-69d8-4014-af98-447baed2cae7` · printing: FRA #213 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a3a2edbb-d144-4670-acad-17316cea98d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — Losing the game due to drawing from an empty library happens as a state-based action. At certain times (usually after each spell and ability resolves) the game checks to see if any state-based actions need to be performed, then does so. Since Fblthp's ability causes you to win the game while that ability is still resolving, this happens before those state-based actions would be checked and performed. Notably, drawing cards from an empty library at any other time while Fblthp is on the battlefield will still cause you to lose the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/213/fblthp-impossibly-lost) · oracle_id `17e7212e-69d8-4014-af98-447baed2cae7` · printing: FRA #213 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fblthp, Knows the Way
 
@@ -37,6 +39,7 @@
   > *Fblthp had always loved to travel.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24555 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/258/fblthp-knows-the-way) · oracle_id `48b891b6-3175-4864-bb98-af131098c557` · printing: FRA #258 (2026-10-02) · [rulings](https://api.scryfall.com/cards/28fbb55a-5c9d-45ee-bf42-a84b1048f5d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fblthp, Lost on the Range
@@ -51,7 +54,17 @@
   > You may plot nonland cards from the top of your library.
 - **Keywords:** Plot, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5175 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/48/fblthp-lost-on-the-range) · oracle_id `764f6412-c4ff-4eec-9a9d-870661f97f8b` · printing: OTJ #48 (2024-04-19) · [rulings](https://api.scryfall.com/cards/01d3e6ea-4791-4948-af22-c1bd04c34c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If the top card of your library normally has plot, you may plot that card using its own plot cost or the plot cost given to it by Fblthp.
+  - *2024-04-12* — If you plot the top card of your library, you must exile that card and pay its plot cost before you may look at the new top card of your library.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — While you control Fblthp, you can look at the top card of your library whenever you want (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+  - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/48/fblthp-lost-on-the-range) · oracle_id `764f6412-c4ff-4eec-9a9d-870661f97f8b` · printing: OTJ #48 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fblthp, the Lost
 
@@ -62,4 +75,10 @@
   > When Fblthp enters, draw a card. If it entered from your library or was cast from your library, draw two cards instead.
   > When Fblthp becomes the target of a spell, shuffle Fblthp into its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9230 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/44/fblthp-the-lost) · oracle_id `ba5a7ac0-b625-42e9-af05-2680a01a95ed` · printing: RVR #44 (2024-01-12) · [rulings](https://api.scryfall.com/cards/79b2c547-0d9e-4fd7-a399-347ad908c70b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — Fblthp's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2021-03-19* — Fblthp's last ability triggers only if it's on the battlefield when it becomes the target of a spell.
+  - *2021-03-19* — If an effect exiles Fblthp from your library and then lets you cast that card, it's cast from exile, not from your library.
+  - *2021-03-19* — If the spell that targets Fblthp has no other targets, it won't resolve (because it no longer has a legal target after Fblthp has gotten totally lost in your library).
+  - *2021-03-19* — There's normally no way to cast Fblthp from your library or to have it enter the battlefield from your library. You'll have to use other effects to find Fblthp for the bonus card draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/44/fblthp-the-lost) · oracle_id `ba5a7ac0-b625-42e9-af05-2680a01a95ed` · printing: RVR #44 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

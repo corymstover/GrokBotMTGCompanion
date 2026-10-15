@@ -23,7 +23,11 @@
   > Sacrifice Xiahou Dun: Return target black card from your graveyard to your hand. Activate only during your turn, before attackers are declared.
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18023 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/83/xiahou-dun-the-one-eyed) · oracle_id `9602f262-62cb-4c1e-91b6-d94780e571cf` · printing: ME3 #83 (2009-09-07) · [rulings](https://api.scryfall.com/cards/4aeaaeff-fb23-4f63-8d5f-8ccea6e58d3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+  - *2009-10-01* — You can't activate Xiahou Dun's ability to return Xiahou Dun itself to your hand. You must choose a target before you sacrifice Xiahou Dun, so it's not a black card in your graveyard yet.
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/83/xiahou-dun-the-one-eyed) · oracle_id `9602f262-62cb-4c1e-91b6-d94780e571cf` · printing: ME3 #83 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xindi Surveyors
 
@@ -36,6 +40,7 @@
   > *Six sapient species evolved in parallel on Xindus. They learned to turn their differences into strengths . . . but only after civil war reduced their number to five.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/225/xindi-surveyors) · oracle_id `5fdff691-686d-4ce0-bd12-eea676a648b4` · printing: TRK #225 (2026-11-13) · [rulings](https://api.scryfall.com/cards/803608aa-ae69-45d2-ae48-f1688d2a6a0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xira Arien
@@ -50,6 +55,7 @@
   > *Her wits are sharp, but her blades are sharper.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17081 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/205/xira-arien) · oracle_id `4a6e367c-7bc9-44a3-8ede-f2d0651abad3` · printing: DMR #205 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ce050d13-7897-4889-a514-a7617a1ed686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xira, the Golden Sting
@@ -62,4 +68,6 @@
   > Whenever Xira attacks, put an egg counter on another target creature without an egg counter on it. When that creature dies, if it has an egg counter on it, draw a card and create a 1/1 black Insect creature token with flying.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13694 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/48/xira-the-golden-sting) · oracle_id `18d0e6e1-3824-465d-9245-21e0174f551f` · printing: DMC #48 (2022-09-09) · [rulings](https://api.scryfall.com/cards/48e60dff-8ac0-4e70-a7a8-a177e9e6847b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — The delayed triggered ability created as Xira's ability resolves will trigger even if Xira is no longer on the battlefield when that creature dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/48/xira-the-golden-sting) · oracle_id `18d0e6e1-3824-465d-9245-21e0174f551f` · printing: DMC #48 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

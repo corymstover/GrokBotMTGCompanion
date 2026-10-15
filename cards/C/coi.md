@@ -28,6 +28,7 @@
   > *The bite of the tinviper feels most like a razor drawn across the tongue.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29309 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/219/coiled-tinviper) · oracle_id `b0bdc033-29f0-4dcb-87ff-ccd56126f7e5` · printing: TPR #219 (2015-05-06) · [rulings](https://api.scryfall.com/cards/c62c2f66-6419-49ca-82d7-a5e8789a665f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Oracle
@@ -40,6 +41,7 @@
 - **Flavor text** (RVR printing):
   > *Snaking remnants of nature directed by a body of thought and progress, the oracles embody all that is Simic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1395 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/172/coiling-oracle) · oracle_id `69fd4ddf-9ed8-4c56-bef3-9944daf05e4f` · printing: RVR #172 (2024-01-12) · [rulings](https://api.scryfall.com/cards/559ff1b1-018c-4e08-9531-8af20af47d05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Rebirth
@@ -51,7 +53,20 @@
   > Return target creature card from your graveyard to the battlefield. Then if the gift was promised and that creature isn't legendary, create a token that's a copy of that creature, except it's 1/1.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4595 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/86/coiling-rebirth) · oracle_id `27a91ebd-39f4-432d-b6cc-cd86b4a3979a` · printing: BLB #86 (2024-08-02) · [rulings](https://api.scryfall.com/cards/96d5de3e-0440-4dd1-899c-ab40c0752343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Any abilities that trigger during the resolution of Coiling Rebirth will wait to be put onto the stack until Coiling Rebirth finishes resolving. An ability that triggers when the creature is returned to the battlefield from the graveyard may target the token copy, and vice versa.
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when the token enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn’t given at this time; rather, it’s given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell’s other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn’t resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won’t be given. None of its other effects will happen either.
+  - *2024-07-26* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that’s already on the battlefield, the gift isn’t promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — The token created by the additional effect of Coiling Rebirth isn’t “cast,” so abilities that trigger when a creature spell is cast won’t trigger for the copy.
+  - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/86/coiling-rebirth) · oracle_id `27a91ebd-39f4-432d-b6cc-cd86b4a3979a` · printing: BLB #86 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Stalker
 
@@ -63,7 +78,16 @@
   > Whenever this creature deals combat damage to a player, put a +1/+1 counter on target creature you control that doesn't have a +1/+1 counter on it.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/179/coiling-stalker) · oracle_id `54dc1c02-2d71-465b-a285-d6d11113991c` · printing: NEO #179 (2022-02-18) · [rulings](https://api.scryfall.com/cards/6eba24f6-8a9c-4398-b2ab-3924b107c7b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+  - *2022-02-18* — The target of Coiling Stalker's triggered ability will become an illegal target if a +1/+1 counter is placed on it before the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/179/coiling-stalker) · oracle_id `54dc1c02-2d71-465b-a285-d6d11113991c` · printing: NEO #179 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coiling Woodworm
 
@@ -75,6 +99,7 @@
 - **Flavor text** (NEM printing):
   > *Only the elves know where the woods end and the woodworm begins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23911 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/103/coiling-woodworm) · oracle_id `75dcdf05-b392-4a96-98ae-5ec4cd425eee` · printing: NEM #103 (2000-02-14) · [rulings](https://api.scryfall.com/cards/341a70be-2dbf-4365-9c7a-e52cb62a74fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coils of the Medusa
@@ -89,6 +114,7 @@
   > *Serpentine locks shape ornate rocks.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27608 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/65/coils-of-the-medusa) · oracle_id `02a8a4e6-2081-4903-81ad-96e5a949dff8` · printing: WTH #65 (1997-06-09) · [rulings](https://api.scryfall.com/cards/502bfb38-4a37-4053-af20-d5606ffc67c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coin of Fate
@@ -100,7 +126,13 @@
   > {3}{W}, {T}, Exile two creature cards from your graveyard, Sacrifice this artifact: An opponent chooses one of the exiled cards. You put that card on the bottom of your library and return the other to the battlefield tapped. You become the monarch.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13344 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/15/coin-of-fate) · oracle_id `e43b478b-4cb8-42b1-a5b0-0b1421b84852` · printing: FIC #15 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cde3765f-e25c-4d16-b361-448167ed8736/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2025-06-06* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2025-06-06* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2025-06-06* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
+  - *2025-06-06* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/15/coin-of-fate) · oracle_id `e43b478b-4cb8-42b1-a5b0-0b1421b84852` · printing: FIC #15 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coin of Mastery
 
@@ -113,4 +145,5 @@
   > *Nowhere else can one coin buy you a second chance.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/38/coin-of-mastery) · oracle_id `d78518ee-df79-48d1-b9d5-4f968b441899` · printing: TMC #38 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ca053574-2ac9-4814-955d-87a97e0aca7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -35,7 +35,12 @@
   > *". . . and our blades shall never tire."*
 - **Keywords:** Lifelink, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5970 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · [rulings](https://api.scryfall.com/cards/80bd1928-18ec-4f55-acd8-9a62f9869fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-05* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
+  - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara, First of Locthwain
 
@@ -48,7 +53,9 @@
 - **Flavor text** (ELD printing):
   > *Mourning shifts seamlessly to celebration as she chooses her next suitor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #836 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/75/ayara-first-of-locthwain) · oracle_id `388168b3-ec68-4af2-b88c-6a5ec88c15f6` · printing: ELD #75 (2019-10-04) · [rulings](https://api.scryfall.com/cards/ed0ace28-9a33-4f0d-b8c8-f5517f20ccf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-10-04* — In a Two-Headed Giant game, Ayara's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/75/ayara-first-of-locthwain) · oracle_id `388168b3-ec68-4af2-b88c-6a5ec88c15f6` · printing: ELD #75 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara's Oathsworn
 
@@ -60,7 +67,11 @@
   > Whenever this creature deals combat damage to a player, if it has fewer than four +1/+1 counters on it, put a +1/+1 counter on it. Then if it has exactly four +1/+1 counters on it, search your library for a card, put it into your hand, then shuffle.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/11/ayaras-oathsworn) · oracle_id `ff3936bb-3281-4260-84de-1f65dbfbe993` · printing: MAT #11 (2023-05-12) · [rulings](https://api.scryfall.com/cards/5330e6b7-eca3-46a4-8905-8f1de16f76af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-05-12* — If Ayara's Oathsworn has four or more +1/+1 counters on it as it deals combat damage to a player, its ability won't trigger at all. None of its effects will happen. You won't put a +1/+1 counter on Ayara's Oathsworn and you won't search for a card.
+  - *2023-05-12* — If Ayara's Oathsworn isn't on the battlefield as its ability tries to resolve, you won't search for a card, even if Ayara's Oathsworn had three +1/+1 counters on it before if left the battlefield, because it won't be around to have the fourth +1/+1 counter put on it.
+  - *2023-05-12* — If the triggered ability does trigger, that ability will check Ayara's Oathsworn again as it tries to resolve. If Ayara's Oathsworn has four or more +1/+1 counters on it at that time, the ability won't resolve. None of its effects will happen. You won't put a +1/+1 counter on Ayara's Oathsworn and you won't search for a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/11/ayaras-oathsworn) · oracle_id `ff3936bb-3281-4260-84de-1f65dbfbe993` · printing: MAT #11 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara, Widow of the Realm // Ayara, Furnace Queen
 
@@ -76,7 +87,9 @@
   > *Ayara cherished her new machine servitors just as much as she once did her many suitors: not at all.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7253 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen) · oracle_id `f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f` · printing: MOM #90 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a21b1734-a773-4107-95c1-b44d5ccdfd82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — The first activated ability of Ayara, Widow of the Realm uses the mana value of the permanent you sacrificed as it last existed on the battlefield, not its mana value in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen) · oracle_id `f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f` · printing: MOM #90 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka
 
@@ -88,7 +101,13 @@
   > {T}: Counter target activated ability from an artifact source unless that ability's controller pays {W}. (Mana abilities can't be targeted.)
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26121 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chr/73/ayesha-tanaka) · oracle_id `35e4ed0e-8ce2-4729-a009-0d6be8f47663` · printing: CHR #73 (1995-07-01) · [rulings](https://api.scryfall.com/cards/8ce912d9-406b-4eba-97be-3bf1d425ee05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+  - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chr/73/ayesha-tanaka) · oracle_id `35e4ed0e-8ce2-4729-a009-0d6be8f47663` · printing: CHR #73 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka, Armorer
 
@@ -99,7 +118,10 @@
   > Whenever Ayesha Tanaka attacks, look at the top four cards of your library. You may put any number of artifact cards with mana value less than or equal to Ayesha Tanaka's power from among them onto the battlefield tapped. Put the rest on the bottom of your library in a random order.
   > Ayesha Tanaka can't be blocked as long as defending player controls three or more artifacts.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19936 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/29/ayesha-tanaka-armorer) · oracle_id `59fcd09c-4633-457e-b36a-488e94c1c941` · printing: DMC #29 (2022-09-09) · [rulings](https://api.scryfall.com/cards/dab74812-89c9-42e2-8b9d-bf5b35a7cf7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Ayesha's power is checked only once, as the triggered ability resolves. If it is no longer on the battlefield at that point, use its power as it last existed on the battlefield.
+  - *2022-09-09* — Each of the artifact cards needs to have mana value less than or equal to Ayesha's Power. It's not the total mana value of all the artifact cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/29/ayesha-tanaka-armorer) · oracle_id `59fcd09c-4633-457e-b36a-488e94c1c941` · printing: DMC #29 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayli, Eternal Pilgrim
 
@@ -112,7 +134,10 @@
   > {1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate only if you have at least 10 life more than your starting life total.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5554 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim) · oracle_id `e6a35729-edee-4a8c-9aa1-041114d66c69` · printing: FDN #652 (2024-11-15) · [rulings](https://api.scryfall.com/cards/06969031-2c13-4b5a-bb4e-86eed025e614/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — In a Two-Headed Giant game, Ayli's last ability checks your team's life total.
+  - *2024-11-08* — Once you've activated Ayli's last ability, it doesn't matter what happens to your life total.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/652/ayli-eternal-pilgrim) · oracle_id `e6a35729-edee-4a8c-9aa1-041114d66c69` · printing: FDN #652 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Abbey
 
@@ -125,6 +150,7 @@
 - **Flavor text** (HML printing):
   > *Serra's gift to her people: a symbol of faith and hope.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27648 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/112/aysen-abbey) · oracle_id `6ff85e73-bf7a-4a9c-80ef-6ce76656fab7` · printing: HML #112 (1995-10-01) · [rulings](https://api.scryfall.com/cards/2a2e669b-61b2-4729-b636-094796fb1d93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Bureaucrats
@@ -138,7 +164,9 @@
   > *"I would say that our bureaucrats are no better than vipers—but I shouldn't insult the vipers."*
   > *—Murat, death speaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/6/aysen-bureaucrats) · oracle_id `786b2028-cf24-4f00-b1d6-05b94e78d617` · printing: ME2 #6 (2008-09-22) · [rulings](https://api.scryfall.com/cards/194a17ad-8393-44d4-a5d1-a61f9a875573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This checks the power of the creature on activation and on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/6/aysen-bureaucrats) · oracle_id `786b2028-cf24-4f00-b1d6-05b94e78d617` · printing: ME2 #6 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Crusader
 
@@ -151,7 +179,9 @@
   > *"A renegade rallying the rabble does not a true crusader make."*
   > *—Irini Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29465 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/7/aysen-crusader) · oracle_id `3ebbe05c-7cc4-4845-87e5-ab93d7ac9623` · printing: ME2 #7 (2008-09-22) · [rulings](https://api.scryfall.com/cards/b865abb2-6bfe-4368-920b-a2c327fa6e43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Aysen Crusader’s ability counts the number of permanents you control that are Soldiers and/or Warriors. A permanent with both creature types is counted only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/7/aysen-crusader) · oracle_id `3ebbe05c-7cc4-4845-87e5-ab93d7ac9623` · printing: ME2 #7 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Highway
 
@@ -163,6 +193,7 @@
   > *"Tread the roads of righteousness, Murat, lest you lose your way and be consumed."*
   > *—Baris, Serra Inquisitor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28304 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/5/aysen-highway) · oracle_id `415bc26d-60fb-41ac-8006-7dd861671c14` · printing: HML #5 (1995-10-01) · [rulings](https://api.scryfall.com/cards/adfa87eb-9a11-459c-bff8-87bb09b61b87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayula, Queen Among Bears
@@ -178,7 +209,10 @@
   > *Born from the oldest red cedar, nursed on the sap of the tallest spruce, coronated under the mightiest pine.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5367 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/155/ayula-queen-among-bears) · oracle_id `a79d2fc8-467f-464d-9e73-2dae4b059628` · printing: MH1 #155 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c046dfb0-9ca3-4219-a6b0-d7503bc2fbd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Either of Ayula's modes can target any Bear you control, not just the Bear that entered the battlefield. Ayula can even be the target of its own ability.
+  - *2019-06-14* — For Ayula's second mode, if either target isn't a creature or is otherwise an illegal target as the ability resolves, no creature will deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/155/ayula-queen-among-bears) · oracle_id `a79d2fc8-467f-464d-9e73-2dae4b059628` · printing: MH1 #155 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayula's Influence
 
@@ -189,7 +223,9 @@
 - **Flavor text** (MH1 printing):
   > *Ayula's runic clawmarks ensure her territories are never left defenseless.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/156/ayulas-influence) · oracle_id `25d955e3-2b98-4a75-bb51-6072000111be` · printing: MH1 #156 (2019-06-14) · [rulings](https://api.scryfall.com/cards/1b9296ca-39a8-4aad-be92-0a56c704e950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — If an effect instructs you to draw cards and then discard cards, you can’t take actions in between. For example, if you have no cards in hand and cast Bazaar Trademage, you can’t activate Ayula’s Influence’s ability between the time you draw two cards and discard those cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/156/ayulas-influence) · oracle_id `25d955e3-2b98-4a75-bb51-6072000111be` · printing: MH1 #156 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayumi, the Last Visitor
 
@@ -202,4 +238,6 @@
   > *Before Shinka's walls were built, before the torii at Okina stood, she was there, tall and proud against the sky, and she will be there long after they have fallen into dust.*
 - **Keywords:** Landwalk, Legendary landwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22854 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/122/ayumi-the-last-visitor) · oracle_id `12acd466-deb9-4e68-b75b-aed86680b917` · printing: SOK #122 (2005-06-03) · [rulings](https://api.scryfall.com/cards/f037520e-2a44-4650-b7cb-c81d93d1418d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-06-01* — Nonland legendary permanents don’t affect whether Ayumi can be blocked or not, only legendary lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/122/ayumi-the-last-visitor) · oracle_id `12acd466-deb9-4e68-b75b-aed86680b917` · printing: SOK #122 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,4 +22,5 @@
   > • Creatures your opponents control get -1/-0 until your next turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31981 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/87/vger-the-intruder) · oracle_id `f50ec16b-13f5-4e20-ae09-9c7dee9d223b` · printing: TRK #87 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b082d454-d331-4960-8120-754f107ffa42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -33,6 +33,7 @@
   > *"Imagine a gigantic pine cone that's extremely territorial and always in a foul mood."*
   > *—Zhosmir, urban huntmaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27071 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/121/axebane-beast) · oracle_id `8f1d5c8d-98e1-47b7-8347-38887253e34a` · printing: RNA #121 (2019-01-25) · [rulings](https://api.scryfall.com/cards/2f420b35-1f73-41c8-a15f-1aee4af0999c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axebane Ferox
@@ -45,7 +46,10 @@
   > Ward—Collect evidence 4. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player exiles cards with total mana value 4 or greater from their graveyard.)
 - **Keywords:** Collect evidence, Haste, Ward, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10504 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/153/axebane-ferox) · oracle_id `35b3ae1c-4116-49b0-89a9-7332fe9bbff0` · printing: MKM #153 (2024-02-09) · [rulings](https://api.scryfall.com/cards/610a0de4-a4f7-446b-8477-00c917cb4789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/153/axebane-ferox) · oracle_id `35b3ae1c-4116-49b0-89a9-7332fe9bbff0` · printing: MKM #153 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axebane Guardian
 
@@ -59,7 +63,9 @@
   > *Only a worthy few are permitted within the sentient forest known as Axebane.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/248/axebane-guardian) · oracle_id `060e0378-e335-4b3d-82aa-ae36639339f6` · printing: TDC #248 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f0282af2-9b3f-4335-92ea-9db9267e8cd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-10-01* — Axebane Guardian’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to. The number of creatures with defender you control is counted, and the color(s) of mana produced chosen, immediately after the ability is activated when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/248/axebane-guardian) · oracle_id `060e0378-e335-4b3d-82aa-ae36639339f6` · printing: TDC #248 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axebane Stag
 
@@ -72,6 +78,7 @@
   > *"When the spires have burned and the cobblestones are dust, he will take his rightful place as king of the wilds."*
   > *—Kirce, Axebane guardian*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22470 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/116/axebane-stag) · oracle_id `a45d7135-c042-40d9-818c-74fa1c7af8ad` · printing: RTR #116 (2012-10-05) · [rulings](https://api.scryfall.com/cards/bfce7c02-ccc3-44cd-8087-627eaa6a072e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axegrinder Giant
@@ -84,6 +91,7 @@
 - **Flavor text** (LRW printing):
   > *The angriest of giants are often the most skillful weaponsmiths. Their grudges fuel endless sessions at the forge, all the while growling ferociously to themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29384 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/151/axegrinder-giant) · oracle_id `c5355c5e-d07d-48ca-90c5-98edcab1a3c7` · printing: LRW #151 (2007-10-12) · [rulings](https://api.scryfall.com/cards/8595e9a1-010e-48a7-91e4-3d2722c8dbc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axelrod Gunnarson
@@ -96,7 +104,11 @@
   > Whenever a creature dealt damage by Axelrod Gunnarson this turn dies, you gain 1 life and Axelrod Gunnarson deals 1 damage to target player or planeswalker.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29476 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/143/axelrod-gunnarson) · oracle_id `c640350b-16a5-4227-87fa-8b24fdb367c7` · printing: ME3 #143 (2009-09-07) · [rulings](https://api.scryfall.com/cards/97f2b387-661e-435f-96c9-d3d5a601caa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Each time a creature is put into a graveyard from play, check whether Axelrod Gunnarson had dealt any damage to it at any time during that turn. (This includes combat damage.) If so, Axelrod Gunnarson's second ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
+  - *2009-10-01* — If Axelrod Gunnarson and a creature it dealt damage to are both put into a graveyard at the same time, Axelrod Gunnarson's second ability will trigger.
+  - *2009-10-01* — The player you target with Axelrod Gunnarson's ability doesn't have to be the player that controlled the creature that was put into a graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/143/axelrod-gunnarson) · oracle_id `c640350b-16a5-4227-87fa-8b24fdb367c7` · printing: ME3 #143 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axe of the Warmonger
 
@@ -107,6 +119,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp3/7d/axe-of-the-warmonger) · oracle_id `daf52760-f6e8-4706-bc24-c350a26c48cb` · printing: THP3 #7d (2014-05-02) · [rulings](https://api.scryfall.com/cards/e6ba72d5-b57e-4c79-a868-e114c07288c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axgard Armory
@@ -118,6 +131,7 @@
   > {T}: Add {W}.
   > {1}{R}{R}{W}, {T}, Sacrifice this land: Search your library for an Aura card and/or an Equipment card, reveal them, put them into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/250/axgard-armory) · oracle_id `bce30fd0-ed1e-495d-9149-6a4c81c45c7b` · printing: KHM #250 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f9c77d35-8418-48fb-b7d7-7cfa763545c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axgard Artisan
@@ -131,6 +145,7 @@
   > *Skodreg knew the Phyrexians wouldn't appreciate his craftsmanship, but they'd get an up-close look just the same.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13700 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/332/axgard-artisan) · oracle_id `ce8ec966-ecff-425e-944c-36dc8d4aef23` · printing: MOM #332 (2023-04-21) · [rulings](https://api.scryfall.com/cards/af130b37-d3e0-4839-8193-5c62a91f0218/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axgard Braggart
@@ -144,7 +159,13 @@
   > *"Heavy? Ha! The Trollking of Mossrun was heavy, and I tossed him five miles!"*
 - **Keywords:** Boast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/1/axgard-braggart) · oracle_id `d0d4ab83-8b9b-49cd-86b8-720abd0550f4` · printing: KHM #1 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4de5ff64-6fe7-4fc5-be27-cdbaa14545ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — A boast ability can be activated at any point after the creature with that ability has been declared as an attacker. This can be before blockers are declared, after blockers are declared but before combat damage is dealt, during combat after combat damage is dealt, during the postcombat main phase, during the end step, or, in some unusual cases, during the cleanup step.
+  - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
+  - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
+  - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+  - *2021-02-05* — You can activate Axgard Braggart's boast ability even if Axgard Braggart is already untapped. You'll still put a +1/+1 counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/1/axgard-braggart) · oracle_id `d0d4ab83-8b9b-49cd-86b8-720abd0550f4` · printing: KHM #1 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axgard Cavalry
 
@@ -158,6 +179,7 @@
   > *—Dwarven expression meaning*
   > *"a foolhardy act of bravery"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6642 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/189/axgard-cavalry) · oracle_id `6a92b011-fd01-4b6a-a17c-73ac1967ff98` · printing: FDN #189 (2024-11-15) · [rulings](https://api.scryfall.com/cards/fe3cc41a-adae-4c9b-b4d3-03f3ca862fed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axiom Engraver
@@ -171,6 +193,7 @@
 - **Flavor text** (ONE printing):
   > *"I will not rest until the truth of Phyrexia is inscribed across the Multiverse."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20954 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/120/axiom-engraver) · oracle_id `a7ee67a6-0ac7-4079-a947-4e52d09ace8e` · printing: ONE #120 (2023-02-10) · [rulings](https://api.scryfall.com/cards/c9b3b785-396e-4240-bfa3-58ab53497686/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Axis of Mortality
@@ -182,4 +205,9 @@
 - **Flavor text** (XLN printing):
   > *The Church of Dusk teaches there is no gain without loss, no triumph without sacrifice, no drink of exquisite crimson without a dying gasp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/3/axis-of-mortality) · oracle_id `158cb888-a115-4d50-a82f-746622f0578e` · printing: XLN #3 (2017-09-29) · [rulings](https://api.scryfall.com/cards/3b9d72a8-8acf-42c6-8adf-cbaecb4a985a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-09-29* — If a player can’t gain life, that player can’t exchange life totals with a player with a higher life total. If a player can’t lose life, that player can’t exchange life totals with a player with a lower life total. In either of these cases, neither player’s life total will change.
+  - *2017-09-29* — If one of the targeted players is an illegal target when the triggered ability of Axis of Mortality tries to resolve, the exchange won’t happen. Neither player’s life total will change.
+  - *2017-09-29* — In a Two-Headed Giant game, each player is considered to have the same life total as their team. If the two targeted players are on different teams, those players gain or lose the appropriate amount of life so that the teams end up exchanging life totals. If the two targeted players are teammates, they can’t exchange life totals.
+  - *2017-09-29* — When the life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player’s previous life total. For example, if player A has 5 life and player B has 3 life before the exchange, player A will lose 2 life and player B will gain 2 life. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/3/axis-of-mortality) · oracle_id `158cb888-a115-4d50-a82f-746622f0578e` · printing: XLN #3 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

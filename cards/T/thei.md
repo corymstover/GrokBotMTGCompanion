@@ -27,6 +27,7 @@
   > {2}, {Q}: The Ice Dancer gains flying until end of turn. ({Q} is the untap symbol.)
   > Whenever The Ice Dancer deals combat damage to a player, create a Gold token. Then you draw X cards and gain X life, where X is the number of artifact tokens you control. The Ice Dancer deals X damage to each opponent. (A Gold token is an artifact with "Sacrifice this token: Add one mana of any color.")
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03t/the-ice-dancer) · oracle_id `f713356f-2b5e-47e7-8488-a79cd7c9e505` · printing: UNK #RZ03t (2026-05-01) · [rulings](https://api.scryfall.com/cards/7667b334-6184-4ec5-b46c-90a38a36ade7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Immortal Sun
@@ -39,7 +40,9 @@
   > Spells you cast cost {1} less to cast.
   > Creatures you control get +1/+1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/393/the-immortal-sun) · oracle_id `52232aad-e4ca-4551-8c8d-c69a3b6b49c7` · printing: CMM #393 (2023-08-04) · [rulings](https://api.scryfall.com/cards/88f68d45-a6cd-437d-a4b1-2787891f0128/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/393/the-immortal-sun) · oracle_id `52232aad-e4ca-4551-8c8d-c69a3b6b49c7` · printing: CMM #393 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Immortal Weapons
 
@@ -50,6 +53,7 @@
   > When The Immortal Weapons enter, return target instant or sorcery card from your graveyard to your hand.
   > Whenever you cast a noncreature spell, target creature gets +2/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25567 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/547/the-immortal-weapons) · oracle_id `760d6cb2-5d8a-495c-9853-f96a1efa5775` · printing: MSC #547 (2026-06-26) · [rulings](https://api.scryfall.com/cards/40295a9b-3a5a-402e-8baf-546cdad223b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Indomitable
@@ -64,7 +68,14 @@
   > You may cast this card from your graveyard as long as you control three or more tapped Pirates and/or Vehicles.
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2388 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/75/the-indomitable) · oracle_id `276dc5c8-c8cf-4b9c-ad75-31876e6e040a` · printing: LCC #75 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e6456329-b521-474b-bfb5-bfcd7e52b5f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If The Indomitable is countered or dies after being cast from your graveyard, it returns to the graveyard. It may be cast this way again later.
+  - *2023-11-10* — Once you begin casting a spell from your graveyard, it immediately moves to the stack. Players can't take any actions until you've finished casting the spell.
+  - *2023-11-10* — Only tapped Pirates and tapped Vehicles count toward the casting permission from The Indomitable's last ability.
+  - *2023-11-10* — The Indomitable checks if you control three or more tapped Pirates and/or Vehicles only as you begin to cast it. Once you begin to cast The Indomitable from your graveyard, it doesn't matter what happens to the tapped Pirates and/or Vehicles you control.
+  - *2023-11-10* — The casting permission granted by The Indomitable's last ability doesn't change when you may cast it from your graveyard.
+  - *2023-11-10* — You still pay The Indomitable's costs when casting it from your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/75/the-indomitable) · oracle_id `276dc5c8-c8cf-4b9c-ad75-31876e6e040a` · printing: LCC #75 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Infamous Cruelclaw
 
@@ -76,7 +87,12 @@
   > Whenever The Infamous Cruelclaw deals combat damage to a player, exile cards from the top of your library until you exile a nonland card. You may cast that card by discarding a card rather than paying its mana cost.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5406 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/219/the-infamous-cruelclaw) · oracle_id `e229d55c-9513-437d-bd67-015ac46aaa18` · printing: BLB #219 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dc6c9196-6d28-4cc2-9748-60e9632a502b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-07-26* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2024-07-26* — If you choose not to cast the exiled card, it remains in exile.
+  - *2024-07-26* — Since you are using an alternative cost to cast the spell, you can’t pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2024-07-26* — You cast the exiled card while the ability is resolving and still on the stack. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s type are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/219/the-infamous-cruelclaw) · oracle_id `e229d55c-9513-437d-bd67-015ac46aaa18` · printing: BLB #219 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Inspector Inspector
 
@@ -88,6 +104,7 @@
   > {2}, Sacrifice The Inspector Inspector: Draw a card.
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03e/the-inspector-inspector) · oracle_id `73d4f654-ecb3-4c8a-abcf-376fc8526cb1` · printing: UNK #RW03e (2024-06-29) · [rulings](https://api.scryfall.com/cards/c073e13f-1ac6-4bab-b0c1-1edd863b53f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Irencrag
@@ -98,7 +115,9 @@
   > {T}: Add {C}.
   > Whenever a legendary creature you control enters, you may have The Irencrag become a legendary Equipment artifact named Everflame, Heroes' Legacy. If you do, it gains equip {3} and "Equipped creature gets +3/+3" and loses all other abilities.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/248/the-irencrag) · oracle_id `8c89ba89-9bb3-4609-873c-6f5a961733ce` · printing: WOE #248 (2023-09-08) · [rulings](https://api.scryfall.com/cards/8051c5ec-54a6-45a8-8945-fb93c5feaa39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — The Irencrag's last ability lasts indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/248/the-irencrag) · oracle_id `8c89ba89-9bb3-4609-873c-6f5a961733ce` · printing: WOE #248 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Their Name Is Death
 
@@ -110,6 +129,7 @@
   > *"When the Silent King saw what had been done, he knew at last the true nature of the C'tan, and the doom they had wrought in his name."*
   > *—\*The Book of Mournful Night\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3960 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/62/their-name-is-death) · oracle_id `97f9aa5e-e34d-4029-9213-b32ebaf9859c` · printing: 40K #62 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ea5ddc28-dfc1-4b96-b6e2-590fcb1f83ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Their Number Is Legion
@@ -120,4 +140,6 @@
   > Create X tapped 2/2 black Necron Warrior artifact creature tokens, then you gain life equal to the number of artifacts you control. Exile Their Number Is Legion.
   > You may cast this card from your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8796 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/63/their-number-is-legion) · oracle_id `8cd45064-2ad9-4247-902e-aefaf3bc1a43` · printing: 40K #63 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f03c1eb4-1f47-4b65-8d8d-4057fb6997e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — You must still pay its normal cost and follow all normal timing rules when casting Their Number is Legion from your graveyard using the permission granted by its last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/63/their-number-is-legion) · oracle_id `8cd45064-2ad9-4247-902e-aefaf3bc1a43` · printing: 40K #63 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

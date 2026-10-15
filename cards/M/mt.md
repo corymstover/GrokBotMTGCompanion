@@ -25,7 +25,9 @@
   > *—Asmira, Holy Avenger*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23634 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/28/mtenda-griffin) · oracle_id `273f0353-4936-491b-82da-6d4d7f3259a6` · printing: MIR #28 (1996-10-08) · [rulings](https://api.scryfall.com/cards/162dd988-0beb-48e4-9eaa-a08ddb835648/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Must have a Griffin in the graveyard to use this ability because it requires a target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/28/mtenda-griffin) · oracle_id `273f0353-4936-491b-82da-6d4d7f3259a6` · printing: MIR #28 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mtenda Herder
 
@@ -39,6 +41,7 @@
   > *—Mangara*
 - **Keywords:** Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29518 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/29/mtenda-herder) · oracle_id `0edf5bac-36a9-4f35-afd1-73f7e1aab51b` · printing: MIR #29 (1996-10-08) · [rulings](https://api.scryfall.com/cards/51f30a3d-1421-4706-b17f-39a9ec7a0d8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mtenda Lion
@@ -52,4 +55,5 @@
   > *"The lion drank that lake right up! In thanks, he gave Siti the power to speak with lions and make them leave the goats alone."*
   > *—Afari, \*Tales\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/230/mtenda-lion) · oracle_id `af029853-cfb0-403b-af51-141ba02ae2e4` · printing: MIR #230 (1996-10-08) · [rulings](https://api.scryfall.com/cards/cb05cf5b-2a0d-432a-b8e7-10335c2a18e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -29,7 +29,20 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9949 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/37/rasaad-yn-bashir) · oracle_id `3848ad74-8ee7-4546-9394-30db88e1d1e6` · printing: CLB #37 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f6597ec7-0fc8-4aa5-a8a6-ea5f95f4ce15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — Rasaad yn Bashir's first ability doesn't actually change any creature's power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values.
+  - *2022-06-10* — To double a creature's toughness, that creature gets +0/+X, where X is that creature's toughness as the triggered ability resolves.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/37/rasaad-yn-bashir) · oracle_id `3848ad74-8ee7-4546-9394-30db88e1d1e6` · printing: CLB #37 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashel, Fist of Torm
 
@@ -41,6 +54,7 @@
   > Auras you control have exalted. (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn for each instance of exalted among permanents you control.)
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12372 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/24/rashel-fist-of-torm) · oracle_id `c0c39f80-cf12-482e-a7c4-757db85125b0` · printing: SLX #24 (2025-04-25) · [rulings](https://api.scryfall.com/cards/12401fc7-3332-48e5-b38a-efaae29b3ee1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashida Scalebane
@@ -53,6 +67,7 @@
 - **Flavor text** (MIR printing):
   > *It is not by the blood of dragons that Rashida measures victories, but by the sum of children who no longer wake from nightmares of scales and fire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27716 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/35/rashida-scalebane) · oracle_id `4aff0f09-0607-41b7-8f60-4ef35ff6183e` · printing: MIR #35 (1996-10-08) · [rulings](https://api.scryfall.com/cards/ebb48053-da60-477a-b1eb-a9ab9ea682af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashka the Slayer
@@ -68,7 +83,10 @@
   > *—Baron Sengir*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30805 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hml/12/rashka-the-slayer) · oracle_id `8e1e477a-192a-4e5c-a18b-7e25d9bd47f3` · printing: HML #12 (1995-10-01) · [rulings](https://api.scryfall.com/cards/ddf30363-9db2-44c5-8c13-dbf1aaa8c86b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Gets the bonus only once even if it blocks more than one black creature.
+  - *2008-04-01* — This card now uses the Reach keyword ability to enable the blocking of flying creatures. This works because a creature with flying can only be blocked by creatures with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hml/12/rashka-the-slayer) · oracle_id `8e1e477a-192a-4e5c-a18b-7e25d9bd47f3` · printing: HML #12 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashmi and Ragavan
 
@@ -79,7 +97,16 @@
   > Whenever you cast your first spell during each of your turns, exile the top card of target opponent's library and create a Treasure token. Then you may cast the exiled card without paying its mana cost if it's a spell with mana value less than the number of artifacts you control. If you don't cast it this way, you may cast it this turn.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10382 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/8/rashmi-and-ragavan) · oracle_id `bdef246c-cf66-40a1-aae4-a591846e73ca` · printing: MOC #8 (2023-04-21) · [rulings](https://api.scryfall.com/cards/30b2f2fd-8087-4fa8-9eb7-bf9b89a5dfb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-04-14* — Check the number of artifacts you control as the ability resolves, including the Treasure token you just created, to see if you can cast the exiled card without paying its mana cost.
+  - *2023-04-14* — If the spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a spell without paying its mana cost, you can’t choose to cast it for any alternative costs. You can, however, pay any additional costs. If the spell has any mandatory additional costs, you must pay those.
+  - *2023-04-14* — If you cast the spell without paying its mana cost, you do so during the resolution of the triggered ability. Timing restrictions of that spell based on card type are ignored. It will resolve before the spell that caused the ability to trigger.
+  - *2023-04-14* — If you don’t cast it without paying its mana cost but rather cast it later in the turn, you must pay its costs, and you must follow all applicable timing rules. For example, if the card is a creature card, you can cast that card by paying its mana cost only during your main phase while the stack is empty.
+  - *2023-04-14* — If you don’t cast the card at all, it remains exiled.
+  - *2023-04-14* — Rashmi and Ragavan has to be on the battlefield at the moment you cast your first spell. Notably, on the turn you cast Rashmi and Ragavan, the ability won’t trigger for you that turn. If a spell causes Rashmi and Ragavan to leave the battlefield as an additional cost to cast it, the ability won’t trigger.
+  - *2023-04-14* — Rashmi and Ragavan’s ability resolves before the spell that caused it to trigger, but not before you have to pay for the original spell. You won’t be able to use the Treasure token you create to pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/8/rashmi-and-ragavan) · oracle_id `bdef246c-cf66-40a1-aae4-a591846e73ca` · printing: MOC #8 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rashmi, Eternities Crafter
 
@@ -89,7 +116,17 @@
 - **Oracle text:**
   > Whenever you cast your first spell each turn, reveal the top card of your library. You may cast it without paying its mana cost if it's a spell with lesser mana value. If you don't cast it, put it into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3652 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/231/rashmi-eternities-crafter) · oracle_id `01a79429-7d57-4a51-9815-a20905ed4707` · printing: DSC #231 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e553935f-d8d8-4b98-ab4a-5a2eea3f3626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-09-20* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value. For cards in your library with {X} in their mana costs, X is considered to be 0.
+  - *2016-09-20* — If Rashmi's ability resolves and the spell that caused it to trigger has been countered, use that spell's mana value as it last existed on the stack to determine whether or not you may cast the top card of your library.
+  - *2016-09-20* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2016-09-20* — If the revealed card is a land card, you put it into your hand.
+  - *2016-09-20* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as emerge costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Cathartic Reunion, those must be paid to cast the card.
+  - *2016-09-20* — If you cast the top card of your library, you do so as part of the resolution of Rashmi's ability. You can't wait to cast it later in the turn. Timing permissions based on the card's type are ignored, but other restrictions (such as "Cast [this card] only during combat") are not.
+  - *2016-09-20* — Rashmi has to be on the battlefield at the moment you cast your first spell. If that spell is Rashmi itself, Rashmi's ability can't trigger. If that spell causes Rashmi to leave the battlefield as an additional cost to cast it, Rashmi's ability can't trigger.
+  - *2016-09-20* — Rashmi's ability resolves before the spell that caused it to trigger. If you cast a spell using the ability, it will also resolve before the initial spell.
+  - *2016-09-20* — Rashmi's ability triggers when you cast your first spell each turn, not just on your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/231/rashmi-eternities-crafter) · oracle_id `01a79429-7d57-4a51-9815-a20905ed4707` · printing: DSC #231 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rasputin Dreamweaver
 
@@ -103,7 +140,11 @@
   > At the beginning of your upkeep, if Rasputin started the turn untapped, put a dream counter on it.
   > Rasputin can't have more than seven dream counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22246 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/170/rasputin-dreamweaver) · oracle_id `fef452ee-9018-4175-bb79-476544e48433` · printing: ME3 #170 (2009-09-07) · [rulings](https://api.scryfall.com/cards/78418809-f048-4611-88cb-369f427d9c44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — If a number of dream counters would be put on Rasputin Dreamweaver for any reason that would bring the total number of dream counters on it to eight or more, the total number of dream counters on it is brought to seven instead.
+  - *2009-10-01* — If a permanent with eight or more dream counters on it becomes a copy of Rasputin Dreamweaver (or just gains its last ability), all dream counters except seven are removed from it as a state-based action.
+  - *2009-10-01* — The fourth ability has an "intervening 'if' clause," so it won't trigger at all unless Rasputin Dreamweaver started the turn untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/170/rasputin-dreamweaver) · oracle_id `fef452ee-9018-4175-bb79-476544e48433` · printing: ME3 #170 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rasputin, the Oneiromancer
 
@@ -115,6 +156,7 @@
   > {T}, Remove one or more dream counters from Rasputin: Add that much {C}.
   > {T}, Remove a dream counter from Rasputin: Create a 2/2 white Knight creature token with protection from red.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21371 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/40/rasputin-the-oneiromancer) · oracle_id `c16fd2b9-9147-43bc-aa08-6d1bddf1d3e8` · printing: DMC #40 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7f0f171a-2929-4d95-9829-d0e885622e04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rassilon, the War President
@@ -126,4 +168,9 @@
   > At the beginning of your upkeep, you lose 2 life and exile the top card of your library. You may play that card for as long as it remains exiled.
   > Each noncreature spell you cast from exile has conspire. (As you cast that spell, you may tap two untapped creatures you control that share a color with it. When you do, copy it and you may choose new targets for the copy.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18167 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/150/rassilon-the-war-president) · oracle_id `ebec9957-b777-42ae-a394-85c7ed84d00a` · printing: WHO #150 (2023-10-13) · [rulings](https://api.scryfall.com/cards/564120cb-dbe5-4a28-947c-d79ad3123152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You must pay all costs and follow all normal timing rules for playing a card exiled this way. For example, you may play a land this way only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/150/rassilon-the-war-president) · oracle_id `ebec9957-b777-42ae-a394-85c7ed84d00a` · printing: WHO #150 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

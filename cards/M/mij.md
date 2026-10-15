@@ -19,7 +19,11 @@
 - **Oracle text:**
   > Whenever this creature attacks, flip a coin. If you lose the flip, remove this creature from combat and tap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/127/mijae-djinn) · oracle_id `61bebdfa-5df0-4952-abf9-dc5e0e4f57ea` · printing: ME4 #127 (2011-01-10) · [rulings](https://api.scryfall.com/cards/b4eb4f9e-4c11-4563-9f9a-87ec93274695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — Any abilities which have already resolved before the coin flip are not undone. Any abilities that trigger when it attacks which have not already resolved will still resolve.
+  - *2004-10-04* — If the Djinn attacks, but you lose the coin toss, then it is still considered to have attacked, and any other abilities that trigger on it attacking will resolve normally.
+  - *2004-10-04* — The coin flip is done as a triggered ability on declaring the Djinn as an attacker.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/127/mijae-djinn) · oracle_id `61bebdfa-5df0-4952-abf9-dc5e0e4f57ea` · printing: ME4 #127 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mijo, the Bull
 
@@ -30,4 +34,5 @@
   > When Mijo enters, create a colorless Equipment artifact token named Rock with "Equipped creature has "{1}, {T}: Sacrifice Rock: This creature deals 2 damage to any target." and equip {1}.
   > From Downtown — If a source you control would deal exactly 2 damage to a permanent or player, it deals 3 damage instead.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR03b/mijo-the-bull) · oracle_id `b7af87c7-1f69-4224-a84a-2d3a8f5f1cd6` · printing: UNK #RR03b (2025-02-21) · [rulings](https://api.scryfall.com/cards/0f419ae7-482b-4cb3-a111-d34994734802/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

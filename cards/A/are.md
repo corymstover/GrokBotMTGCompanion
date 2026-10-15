@@ -29,7 +29,14 @@
   > As long as two or more hands are touching this creature, it has menace.
   > As long as three or more hands are touching this creature, it has lifelink.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/87/a-real-handful) · oracle_id `94e675d9-f426-4c36-aade-698967e1ed78` · printing: UNF #87 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ef3e053a-1287-4f4d-b1c2-daf0819c9230/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Bonuses will turn on and off as the number of hands touching A Real Handful changes. Touching A Real Handful isn’t a game action, so it doesn’t use the stack. You can just do it at any time.
+  - *2022-10-07* — Generally, only hands attached to humans count for these abilities. Hands of cards don’t count, nor do hands of clocks, hands of dolls, and so on. Every hand that touches A Real Handful must do so willingly.
+  - *2022-10-07* — Lifelink matters only as damage is dealt.
+  - *2022-10-07* — Menace matters only as blockers are being declared. If A Real Handful doesn’t have menace and is blocked by one creature, giving it menace won’t change or undo that block.
+  - *2022-10-07* — Pay attention to whether the +2/+2 bonus is applying or not. Damage can suddenly become lethal if A Real Handful loses the bonus after damage has been dealt to it.
+  - *2022-10-07* — The same hand can be touching multiple A Real Handfuls at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/87/a-real-handful) · oracle_id `94e675d9-f426-4c36-aade-698967e1ed78` · printing: UNF #87 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Realm Reborn
 
@@ -40,6 +47,7 @@
 - **Flavor text** (FIN printing):
   > *"The Seventh Astral Era is come!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/196/a-realm-reborn) · oracle_id `fd230ab5-874e-4827-9b5c-6d39d079cee6` · printing: FIN #196 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d1af74e4-38d5-44b5-85e1-4d13f6970453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena
@@ -50,7 +58,12 @@
   > {3}, {T}: Tap target creature you control and target creature of an opponent's choice they control. Those creatures fight each other. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8441 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/117/arena) · oracle_id `12326d23-1fb5-4084-a23a-d6e2c90ea36c` · printing: TSB #117 (2006-10-06) · [rulings](https://api.scryfall.com/cards/e5b7afa9-e07a-4a84-a41f-7a8bc5c1d274/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Either or both creatures can be tapped prior to using the ability and it still works.
+  - *2004-10-04* — In multiplayer games, you can choose a different opposing player each time it the ability is activated.
+  - *2004-10-04* — The power of the creatures when the effect resolves is used to determine how much damage is done.
+  - *2006-09-25* — If either target is illegal at the time the ability resolves (whether because it has left the battlefield, because it has gained Shroud or Protection, or for any other reason), the ability taps the remaining target, but no damage is dealt. If both targets are illegal, the ability doesn't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/117/arena) · oracle_id `12326d23-1fb5-4084-a23a-d6e2c90ea36c` · printing: TSB #117 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Athlete
 
@@ -63,7 +76,12 @@
   > *The Iroan Games award no medals. Athletes vie for a visit from Iroas, god of victory.*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24702 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/123/arena-athlete) · oracle_id `4dfea3bf-dfd1-4abd-a17e-f3a07488a069` · printing: UMA #123 (2018-12-07) · [rulings](https://api.scryfall.com/cards/bacc2881-26b8-4199-9b7d-e12c75effe6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2018-12-07* — Resolving Arena Athlete's ability after a creature has blocked won't remove the blocking creature from combat or cause the creature it blocked to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/123/arena-athlete) · oracle_id `4dfea3bf-dfd1-4abd-a17e-f3a07488a069` · printing: UMA #123 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of Glory
 
@@ -75,7 +93,16 @@
   > {R}, {T}, Exert this land: Add {R}{R}. If any of that mana is spent on a creature spell, it gains haste until end of turn. (An exerted permanent won't untap during your next untap step.)
 - **Keywords:** Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/215/arena-of-glory) · oracle_id `63dfe794-5f56-41ec-9883-5523b41cc3e0` · printing: MH3 #215 (2024-06-14) · [rulings](https://api.scryfall.com/cards/dd148edc-9e43-41aa-bb50-f912115d3e72/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-06-07* — If an exerted permanent is already untapped during your next untap step (most likely because an effect untapped it), exert's effect preventing it from untapping expires without having done anything.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent on a noncreature spell that becomes a creature later in the turn, that creature won't have haste.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent to cast a noncreature spell that creates tokens, those tokens won't gain haste.
+  - *2024-06-07* — If mana generated with Arena of Glory's last ability is spent to pay any part of a creature spell's cost, including an alternative or additional cost, that creature spell (and the resulting creature) will gain haste until end of turn.
+  - *2024-06-07* — If the mana generated with Arena of Glory's last ability is spent on two different creature spells, each of those spells (and resulting creatures) will gain haste until end of turn.
+  - *2024-06-07* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
+  - *2024-06-07* — The mana generated with Arena of Glory's last ability can be spent on anything, not just creature spells.
+  - *2024-06-07* — You must already control a Mountain as Arena of Glory enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Mountain when you control no other Mountains, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/215/arena-of-glory) · oracle_id `63dfe794-5f56-41ec-9883-5523b41cc3e0` · printing: MH3 #215 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of the Ancients
 
@@ -85,6 +112,7 @@
   > Legendary creatures don't untap during their controllers' untap steps.
   > When this artifact enters, tap all legendary creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18940 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/188/arena-of-the-ancients) · oracle_id `12584f75-77c1-4b6b-ae9d-1882792b6b94` · printing: ME3 #188 (2009-09-07) · [rulings](https://api.scryfall.com/cards/68ebdcc2-4449-4b10-82fb-51f5e14eab37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Rector
@@ -97,7 +125,9 @@
 - **Flavor text** (BBD printing):
   > *"I see something special in you—a bright ember that yearns to dance among the stars."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8851 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/23/arena-rector) · oracle_id `6a23963c-21dc-4d21-8d28-5abad7f859a1` · printing: BBD #23 (2018-06-08) · [rulings](https://api.scryfall.com/cards/60a24826-55fc-4b1b-98bf-3204ad852765/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-06-08* — If Arena Rector leaves your graveyard before its triggered ability resolves, perhaps because it’s a token and ceased to exist, you can’t exile it and won’t be able to search your library for a planeswalker card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/23/arena-rector) · oracle_id `6a23963c-21dc-4d21-8d28-5abad7f859a1` · printing: BBD #23 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena Trickster
 
@@ -109,7 +139,12 @@
 - **Flavor text** (THB printing):
   > *"It's not enough to surprise your opponent. You have to delight the crowd as well."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/126/arena-trickster) · oracle_id `69c27223-d676-4916-899b-297dc4ed2d59` · printing: THB #126 (2020-01-24) · [rulings](https://api.scryfall.com/cards/e096049d-9f02-4abb-bb5a-97b14fd17099/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — An ability that triggers when you cast a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-01-24* — If you have more than one opponent, this ability can trigger once during each of those opponents’ turns.
+  - *2020-01-24* — In a Two-Headed Giant game, this ability triggers no more than once during each opposing team’s turn.
+  - *2020-01-24* — This ability triggers only on your very first spell during an opponent’s turn, not the first spell after the card is on the battlefield. If you cast a spell before it’s on the battlefield (including if you cast this card somehow during an opponent’s turn), the ability won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/126/arena-trickster) · oracle_id `69c27223-d676-4916-899b-297dc4ed2d59` · printing: THB #126 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arenson's Aura
 
@@ -122,6 +157,7 @@
   > *"Cloak me in mystery, hide my names from my enemies, and let me draw from the well of power."*
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26626 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/6/arensons-aura) · oracle_id `465843dc-57d0-46fd-ac47-238723034563` · printing: 5ED #6 (1997-03-24) · [rulings](https://api.scryfall.com/cards/ba2bf14c-f04d-4380-b0d5-25028ddd999b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ares, God of War
@@ -135,4 +171,5 @@
 - **Flavor text** (MSH printing):
   > *"Let the slaughter begin!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10598 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/202/ares-god-of-war) · oracle_id `8a09d4a2-4796-4a15-ab75-a3a0b717f62d` · printing: MSH #202 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3e121d65-d341-40b9-bebc-1e7d1b83905c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

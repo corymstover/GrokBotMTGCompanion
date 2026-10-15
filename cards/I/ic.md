@@ -83,6 +83,7 @@
 - **Flavor text** (UMA printing):
   > *A thousand years removed from her home, her news of war had lost its context, but not its relevance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25340 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/22/icatian-crier) · oracle_id `668312dd-7b6e-46bf-9c6a-bfb03dd75b8f` · printing: UMA #22 (2018-12-07) · [rulings](https://api.scryfall.com/cards/c5ba6543-ede7-45a5-8e8d-e17d3f545d3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Infantry
@@ -96,7 +97,12 @@
 - **Flavor text** (FEM printing):
   > *The Icatian army easily repelled early surprise attacks by the Orcs on border towns like Montford.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/7a/icatian-infantry) · oracle_id `9eb274f3-ef55-4545-81b4-29454a48f075` · printing: FEM #7a (1994-11-01) · [rulings](https://api.scryfall.com/cards/f95d42d8-ba75-43bf-81b8-b02374f03e83/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/7a/icatian-infantry) · oracle_id `9eb274f3-ef55-4545-81b4-29454a48f075` · printing: FEM #7a (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Javelineers
 
@@ -107,6 +113,7 @@
   > This creature enters with a javelin counter on it.
   > {T}, Remove a javelin counter from this creature: It deals 1 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/9/icatian-javelineers) · oracle_id `26112ba7-2859-4af3-93c3-e62c31177216` · printing: DMR #9 (2023-01-13) · [rulings](https://api.scryfall.com/cards/9ccce13a-77e6-4c74-9acc-d5e7c271872a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Lieutenant
@@ -119,6 +126,7 @@
 - **Flavor text** (ME1 printing):
   > *To become an officer, an Icatian soldier had to pass a series of tests. These evaluated not only fighting and leadership skills, but also integrity, honor, and moral strength.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31852 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/17/icatian-lieutenant) · oracle_id `51e9af95-745b-45b9-b870-7f768578fa4f` · printing: ME1 #17 (2007-09-10) · [rulings](https://api.scryfall.com/cards/d6613685-f4f7-4f37-a69c-cc8b3e0e1152/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Moneychanger
@@ -132,6 +140,7 @@
   > At the beginning of your upkeep, put a credit counter on this creature.
   > Sacrifice this creature: You gain 1 life for each credit counter on this creature. Activate only during your upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/10a/icatian-moneychanger) · oracle_id `9b81aa32-e0f7-493f-92b8-85c2c46aef91` · printing: FEM #10a (1994-11-01) · [rulings](https://api.scryfall.com/cards/b3d502d4-4a96-47b3-ae26-8b2c9f36623d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Phalanx
@@ -145,7 +154,12 @@
   > *Even after the wall was breached in half a dozen places, the phalanxes fought on, standing solidly against the onrushing raiders. Disciplined and dedicated, they held their ranks to the end, even in the face of tremendous losses.*
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26550 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/16/icatian-phalanx) · oracle_id `a1160b8d-c4e4-4869-b7a5-c6a826eb1ba4` · printing: ME2 #16 (2008-09-22) · [rulings](https://api.scryfall.com/cards/93383078-b17f-47f5-a47a-cd6b5bfd8411/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/16/icatian-phalanx) · oracle_id `a1160b8d-c4e4-4869-b7a5-c6a826eb1ba4` · printing: ME2 #16 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Priest
 
@@ -157,6 +171,7 @@
 - **Flavor text** (DVD printing):
   > *Grelden knelt and felt the cool, dry hand of the priest on his brow. Hours later, when his wits returned, he was covered in his enemies' blood on the field of victory.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/2/icatian-priest) · oracle_id `3a9d29ce-e8e2-402f-b0c2-873f70418234` · printing: DVD #2 (2014-12-05) · [rulings](https://api.scryfall.com/cards/f48ce122-b966-4c48-9b6c-b84dd0584cb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Scout
@@ -170,6 +185,7 @@
   > *"Because the orc hordes attacked along the entire border, Scouts were essential to Icatia's defense."*
   > *—\*Sarpadian Empires, vol. VI\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29581 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/17/icatian-scout) · oracle_id `b1a9f49a-b0e2-481f-806d-0bc321517a4f` · printing: ME2 #17 (2008-09-22) · [rulings](https://api.scryfall.com/cards/08982a91-f194-4df7-a9b2-bcaeff5d44bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Skirmishers
@@ -184,7 +200,12 @@
   > *Skirmishers engaged raiders before they could reach the towns. Although these units typically suffered huge losses, they never lacked volunteers.*
 - **Keywords:** First strike, Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23998 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/14/icatian-skirmishers) · oracle_id `8ddbe82b-7fc9-4b2c-85de-dc747adbb3ca` · printing: FEM #14 (1994-11-01) · [rulings](https://api.scryfall.com/cards/15f6d115-c02d-45a3-aa6d-402964df47dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/14/icatian-skirmishers) · oracle_id `8ddbe82b-7fc9-4b2c-85de-dc747adbb3ca` · printing: FEM #14 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Store
 
@@ -196,7 +217,12 @@
   > At the beginning of your upkeep, if this land is tapped, put a storage counter on it.
   > {T}, Remove any number of storage counters from this land: Add {W} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/419/icatian-store) · oracle_id `87a0e0b9-6c2d-47a4-a3ed-7e0ae62fbffc` · printing: 5ED #419 (1997-03-24) · [rulings](https://api.scryfall.com/cards/e68c45d3-0f3c-4429-a93e-4ca70ea6b1a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — Counters are not lost if the land is changed to another land type. They wait around for the land to change back.
+  - *2004-10-04* — If the land is tapped by some external effect, no counters are removed from it.
+  - *2004-10-04* — It is only considered “tapped for mana” if you activate its mana ability and generate mana from it.
+  - *2004-10-04* — Whether or not it is tapped is checked at the beginning of upkeep. If it is not tapped, the ability does not trigger. It also checks during resolution and you only get a counter if it is still tapped then.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/419/icatian-store) · oracle_id `87a0e0b9-6c2d-47a4-a3ed-7e0ae62fbffc` · printing: 5ED #419 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icatian Town
 
@@ -207,6 +233,7 @@
 - **Flavor text** (ME1 printing):
   > *Icatia's once peaceful towns faced increasing attacks from orcs and goblins as the climate cooled. By the time the empire fell, they were little more than armed camps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29608 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/18/icatian-town) · oracle_id `aa8b60b6-cf55-4aaa-9caa-2b17942d8269` · printing: ME1 #18 (2007-09-10) · [rulings](https://api.scryfall.com/cards/582044a0-0f4e-4de4-8bea-bc64757db198/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iceberg
@@ -218,6 +245,7 @@
   > {3}: Put an ice counter on this enchantment.
   > Remove an ice counter from this enchantment: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22549 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/49/iceberg) · oracle_id `cff3fba2-9c5d-4e98-9ff0-0cc0b3bc8dbe` · printing: ME2 #49 (2008-09-22) · [rulings](https://api.scryfall.com/cards/dcb32615-4a97-4196-8c8c-3cd2748e74ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iceberg Cancrix
@@ -231,6 +259,7 @@
   > *Its shell can withstand anything but a thaw.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12748 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/54/iceberg-cancrix) · oracle_id `9e00188a-0743-4a39-9229-977a0a115659` · printing: MH1 #54 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d84b1444-a609-4c23-935d-fa25aef16179/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icebind Pillar
@@ -243,7 +272,13 @@
   > *"Oh, Valki. I'm disappointed in you. How could the god of lies be so gullible?"*
   > *—Tibalt*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/62/icebind-pillar) · oracle_id `18050051-63f6-4091-bf67-7a0701a0791d` · printing: KHM #62 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a3152f1f-5d3f-4bc4-9b6f-f2983ab3f691/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn’t a type of mana. If an effect says you may spend mana as though it were any type, you can’t pay for {S} using mana that wasn’t produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don’t spend any snow mana to cast them; their additional effects simply won’t do anything.
+  - *2021-02-05* — The Kaldheim set doesn’t have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn’t apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/62/icebind-pillar) · oracle_id `18050051-63f6-4091-bf67-7a0701a0791d` · printing: KHM #62 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icebreaker Kraken
 
@@ -256,7 +291,17 @@
   > Return three snow lands you control to their owner's hand: Return this creature to its owner's hand.
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/63/icebreaker-kraken) · oracle_id `01590ff3-34fa-47aa-b5da-f0b8c1b031c6` · printing: KHM #63 (2021-02-05) · [rulings](https://api.scryfall.com/cards/f1fdb9bb-09a2-4ff7-bcd4-35ea33c1b752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2021-02-05* — Icebreaker Kraken's enters-the-battlefield ability won't tap any artifacts or creatures.
+  - *2021-02-05* — No artifacts or creatures controlled by the player affected by Icebreaker Kraken's enters-the-battlefield ability will untap during that player's next untap step, even if they were untapped as the ability resolved or that player didn't control them at that time.
+  - *2021-02-05* — Once you announce that you're activating the last ability, no player may take actions until the ability has been paid for. Notably, opponents can't try to stop you from activating it by removing your snow lands.
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Icebreaker Kraken). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/63/icebreaker-kraken) · oracle_id `01590ff3-34fa-47aa-b5da-f0b8c1b031c6` · printing: KHM #63 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Cage
 
@@ -268,7 +313,10 @@
   > When enchanted creature becomes the target of a spell or ability, destroy this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m12/57/ice-cage) · oracle_id `e37416cc-f343-44cd-8676-4ce4d4068e85` · printing: M12 #57 (2011-07-15) · [rulings](https://api.scryfall.com/cards/a5e14b62-c050-4d43-aeee-873f46d1e295/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If the enchanted creature becomes the target of a spell or ability, Ice Cage's ability triggers and is put on the stack on top of that spell or ability. Ice Cage's ability will resolve (causing Ice Cage to be destroyed) first.
+  - *2016-06-08* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities and will have colons in their reminder text.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m12/57/ice-cage) · oracle_id `e37416cc-f343-44cd-8676-4ce4d4068e85` · printing: M12 #57 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Cauldron
 
@@ -278,7 +326,22 @@
   > {X}, {T}: You may exile a nonland card from your hand. You may cast that card for as long as it remains exiled. Put a charge counter on this artifact and note the type and amount of mana spent to pay this activation cost. Activate only if there are no charge counters on this artifact.
   > {T}, Remove a charge counter from this artifact: Add this artifact's last noted type and amount of mana. Spend this mana only to cast the last card exiled with this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25205 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/206/ice-cauldron) · oracle_id `2b7e4e70-53b1-4d4f-bdcc-56c2e15f367a` · printing: ME4 #206 (2011-01-10) · [rulings](https://api.scryfall.com/cards/5fad0f0f-b302-4f97-9cbb-a66dbfc57bae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2004-10-04* — Cards which are not actually in your hand can't be exiled by the Ice Cauldron.
+  - *2004-10-04* — If multiple cards are exiled by the Cauldron, any one of them can be cast.
+  - *2004-10-04* — If multiple cards are exiled by the Cauldron, the mana can only be used for the card that was exiled by the Cauldron when the most recent charge counter was put there.
+  - *2004-10-04* — If the Cauldron leaves the battlefield, you can still cast any cards it exiled as though they were in your hand. You just no longer have access to the mana you charged the Cauldron with.
+  - *2004-10-04* — If the ability to exile a card with the Cauldron is countered, you do not lose the card since it is exiled during resolution.
+  - *2004-10-04* — It is possible to have more than one card exiled by the Cauldron. You can tap the Cauldron to remove the charge counter and whatever mana is on it but leave the card there. Later, you can tap it and put in mana and a charge counter to add another card.
+  - *2004-10-04* — Produces mana of the last type used to put a counter on itself, not via any other charge counters.
+  - *2004-10-04* — Tapping the Cauldron for the mana is a mana ability.
+  - *2004-10-04* — The Cauldron counts only mana spent on it. It doesn't see the value of X, so isn't affected by cost reductions. Thus, if you spent {C}{C}{R}{R} on X, you get {C}{C}{R}{R} later even if X was 6.
+  - *2004-10-04* — The mana can be used to pay for additional costs to cast the spell.
+  - *2004-10-04* — The mana put in the Cauldron can only be used to cast the given spell, but you can add additional mana to a spell. This means you can pay part of the cost on one turn and the rest of it on the next turn.
+  - *2004-10-04* — X can be zero. This places a zero mana counter on the Cauldron.
+  - *2004-10-04* — You can only cast the spell when you could legally cast it normally. So no casting a sorcery on your opponent's turn.
+  - *2004-10-04* — You do not have to use any mana from the Cauldron when casting the spell if you don't want to. You don't even have to tap the Cauldron and draw the mana, you can just cast the spell using mana from somewhere else.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/206/ice-cauldron) · oracle_id `2b7e4e70-53b1-4d4f-bdcc-56c2e15f367a` · printing: ME4 #206 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Cave
 
@@ -289,7 +352,9 @@
 - **Flavor text** (APC printing):
   > *Even the oppressive cold of the cave could not temper Eladamri's ire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21332 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/24/ice-cave) · oracle_id `c532ecd2-feeb-41f5-bda0-b05e86f86a45` · printing: APC #24 (2001-06-04) · [rulings](https://api.scryfall.com/cards/fc2877c2-4426-4c07-92a2-8ba5107d5e7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The mana cost does not include cost increases or reductions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/24/ice-cave) · oracle_id `c532ecd2-feeb-41f5-bda0-b05e86f86a45` · printing: APC #24 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icecave Crasher
 
@@ -303,6 +368,7 @@
   > *As warmth crept across Evendo, many long-dormant species grew bolder.*
 - **Keywords:** Trample, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20948 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/191/icecave-crasher) · oracle_id `b9650a0e-5795-42ff-84c6-6040e5cf4c90` · printing: EOE #191 (2025-08-01) · [rulings](https://api.scryfall.com/cards/e6c1ed0c-0c0d-47a7-8ebc-67854cb226e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Cream Kitty
@@ -317,7 +383,12 @@
   > *"That's not what they mean by 'pet food,' dude!"*
   > *—Michelangelo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16022 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/150/ice-cream-kitty) · oracle_id `f8131dca-ba6e-4ca4-943e-a3d26c75b8b8` · printing: TMT #150 (2026-03-06) · [rulings](https://api.scryfall.com/cards/66081fd3-2457-4602-96c4-3075ddfec1c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/150/ice-cream-kitty) · oracle_id `f8131dca-ba6e-4ca4-943e-a3d26c75b8b8` · printing: TMT #150 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icefall
 
@@ -330,6 +401,7 @@
   > *As the Thaw met Terisiare, mountains shed their icy skins, crushing homes and hopes alike.*
 - **Keywords:** Recover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22719 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/85/icefall) · oracle_id `30baca42-50e2-45f8-8f99-8e2f9795b4da` · printing: CSP #85 (2006-07-21) · [rulings](https://api.scryfall.com/cards/6cf90fc3-b08b-4261-a194-d6b06fdd59d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icefall Regent
@@ -343,7 +415,12 @@
   > Spells your opponents cast that target this creature cost {2} more to cast.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/24/icefall-regent) · oracle_id `0cf18002-1bbe-40b3-ae15-fa51e61e9391` · printing: E01 #24 (2017-06-16) · [rulings](https://api.scryfall.com/cards/b2dc9693-3c27-4afe-84f3-2618a0e4ca1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — Icefall Regent’s last ability affects all spells cast by your opponents that target it, including Aura spells and spells with multiple targets. It doesn’t affect abilities.
+  - *2015-02-25* — Icefall Regent’s triggered ability can target any creature controlled by an opponent, including one that is already tapped. In that case, the creature stays tapped and won’t untap during its controller’s untap step.
+  - *2015-02-25* — If another player gains control of Icefall Regent, the creature will no longer be affected by the ability stopping it from untapping, even if you later regain control of Icefall Regent.
+  - *2015-02-25* — The ability stopping the creature from untapping will continue to apply to it even if the creature changes controllers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/24/icefall-regent) · oracle_id `0cf18002-1bbe-40b3-ae15-fa51e61e9391` · printing: E01 #24 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice-Fang Coatl
 
@@ -357,6 +434,7 @@
   > This creature has deathtouch as long as you control at least three other snow permanents.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/203/ice-fang-coatl) · oracle_id `f4b1bbd1-f1b2-4c7d-bafd-9d2857f92a89` · printing: MH1 #203 (2019-06-14) · [rulings](https://api.scryfall.com/cards/6a55cfed-e76c-4ade-ac78-a546e05fe8da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icefeather Aven
@@ -370,7 +448,18 @@
   > When this creature is turned face up, you may return another target creature to its owner's hand.
 - **Keywords:** Flying, Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/194/icefeather-aven) · oracle_id `9fb901db-1ff7-4a8d-8233-fe7e3dee7fd1` · printing: C19 #194 (2019-08-23) · [rulings](https://api.scryfall.com/cards/dc8b7dc7-b7a2-40fe-823c-642d8867973c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2014-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-09-20* — Any time you have priority, you may turn the face-down creature face up by revealing what its morph cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2014-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down spells or permanents you don't control unless an effect instructs you to do so.
+  - *2014-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-09-20* — If a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-09-20* — If you control the only other creatures when Icefeather Aven is turned face up, you must target one of them. You choose whether that creature is returned to its owner's hand as the ability resolves.
+  - *2014-09-20* — Morph lets you cast a card face down by paying {3}, and lets you turn the face-down permanent face up any time you have priority by paying its morph cost.
+  - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
+  - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
+  - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/194/icefeather-aven) · oracle_id `9fb901db-1ff7-4a8d-8233-fe7e3dee7fd1` · printing: C19 #194 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Flan
 
@@ -382,6 +471,7 @@
   > Islandcycling {2} ({2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Islandcycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14988 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/55/ice-flan) · oracle_id `3b7120a6-700b-4c61-bea4-a835f0cc0bcb` · printing: FIN #55 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ad304c9c-943f-442f-bb82-ff378ad7d7ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Floe
@@ -392,7 +482,14 @@
   > You may choose not to untap this land during your untap step.
   > {T}: Tap target creature without flying that's attacking you. It doesn't untap during its controller's untap step for as long as this land remains tapped.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/232/ice-floe) · oracle_id `cfaaead2-09e8-47cb-9e39-8570b8d8de86` · printing: ME2 #232 (2008-09-22) · [rulings](https://api.scryfall.com/cards/9a974983-b9aa-4f12-8279-2e74089f7f31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Ice Floe doesn’t track the creature’s controller. If the affected creature changes controllers, Ice Floe will prevent it from being untapped during its new controller’s untap step.
+  - *2008-10-01* — If Ice Floe untaps or leaves the battlefield, its effect will end. This has no immediate visible affect on the creature. (It doesn’t untap immediately, for example.) The creature will just untap as normal during its controller’s next untap step.
+  - *2008-10-01* — If the ability resolves, then the creature gains flying later, Ice Floe’s effect will not end. (The ability checks whether the creature has flying only at the time you activate it and the time it resolves.)
+  - *2008-10-01* — If the affected creature is untapped by some other spell or ability, Ice Floe’s effect will not end. If you keep Ice Floe tapped, and that creature becomes tapped again, Ice Floe will continue to prevent it from being untapped during its controller’s untap step.
+  - *2008-10-01* — The targeted creature is not removed from combat. Its attack will continue as normal.
+  - *2008-10-01* — You may target a tapped creature with Ice Floe’s activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/232/ice-floe) · oracle_id `cfaaead2-09e8-47cb-9e39-8570b8d8de86` · printing: ME2 #232 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icehide Golem
 
@@ -404,6 +501,7 @@
 - **Flavor text** (MH1 printing):
   > *In colder climates, ice is more obedient than stone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/224/icehide-golem) · oracle_id `29b925e9-1e98-471c-9b23-e0372ac86485` · printing: MH1 #224 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b2671c36-96fa-49e3-90dc-52820b2c8a62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icehide Troll
@@ -416,7 +514,14 @@
 - **Flavor text** (KHM printing):
   > *A troll's greatest weapon is its ability to emerge unexpectedly from the landscape.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/176/icehide-troll) · oracle_id `ce55c9a8-25ba-404c-95b4-c14ba4763081` · printing: KHM #176 (2021-02-05) · [rulings](https://api.scryfall.com/cards/02f3aaed-a01f-4c6a-b9bb-cd70b0f6ceb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+  - *2021-02-05* — You can activate Icehide Troll's last ability even if it's already tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/176/icehide-troll) · oracle_id `ce55c9a8-25ba-404c-95b4-c14ba4763081` · printing: KHM #176 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Magic
 
@@ -429,7 +534,14 @@
   > • Blizzaga — {5}{U} — Target creature's owner shuffles it into their library.
 - **Keywords:** Blizzard, Blizzara, Blizzaga, Tiered
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9633 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/56/ice-magic) · oracle_id `88b0bd3b-d832-4059-b0d9-04630917ae94` · printing: FIN #56 (2025-06-13) · [rulings](https://api.scryfall.com/cards/9dabd626-7ec3-4913-babb-d5d3fd5e32d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — If a mode requires a target, you can select that mode only if there's a legal target available. Ignore the targeting requirements for modes you don't choose.
+  - *2025-06-06* — If a spell with tiered is copied, the effect that creates the copy may allow you to choose new targets. You cannot choose a new mode.
+  - *2025-06-06* — If an effect allows you to cast a spell with tiered "without paying its mana cost," you must still choose exactly one mode and pay the associated additional cost.
+  - *2025-06-06* — The mana value of a spell with tiered is determined only by its mana cost (in the upper right corner of the card). It doesn't matter which mode you choose or which additional costs you pay, including any additional costs imposed by other effects.
+  - *2025-06-06* — You choose the mode as you cast the spell with tiered. Once the mode is chosen, it can't be changed.
+  - *2025-06-06* — You must choose exactly one of the listed modes and pay its associated additional cost in order to cast a spell with tiered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/56/ice-magic) · oracle_id `88b0bd3b-d832-4059-b0d9-04630917ae94` · printing: FIN #56 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iceman and Firestar
 
@@ -445,6 +557,7 @@
   > *—Spider-Man, Peter Parker*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25548 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/742/iceman-and-firestar) · oracle_id `f01c779a-97be-4727-ab62-33579f52447a` · printing: MSC #742 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3dbc2d29-c56f-4c80-b671-24f39c8d80e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Out
@@ -459,7 +572,13 @@
   > *Hylda built an ice statuary from all those who couldn't understand "go away."*
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7982 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/54/ice-out) · oracle_id `fed3bc35-4269-48f0-9133-a595ce49c2d1` · printing: WOE #54 (2023-09-08) · [rulings](https://api.scryfall.com/cards/88ffafda-c852-497a-8156-4f759cdf3693/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Bargain means “As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token.”
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is “bargained.”
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/54/ice-out) · oracle_id `fed3bc35-4269-48f0-9133-a595ce49c2d1` · printing: WOE #54 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Over
 
@@ -473,7 +592,9 @@
   > *—Jasi Ganin, master siphoner*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/35/ice-over) · oracle_id `80f8a64e-b22e-413e-a143-f1943be3a574` · printing: AER #35 (2017-01-20) · [rulings](https://api.scryfall.com/cards/c01d2835-060c-4ac3-b586-84811878a64d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-02-09* — Ice Over may target and may enchant an untapped creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/35/ice-over) · oracle_id `80f8a64e-b22e-413e-a143-f1943be3a574` · printing: AER #35 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icequake
 
@@ -485,7 +606,9 @@
   > *"When the earth shakes, and their animals are swallowed up by the ground, perhaps they will think twice before attacking again."*
   > *—Lim-Dûl, the Necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27075 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/94/icequake) · oracle_id `8c0a6ac1-b1cc-405a-95fb-f06b7fecbb54` · printing: ME2 #94 (2008-09-22) · [rulings](https://api.scryfall.com/cards/550880ba-26a0-463d-9da2-0160d224cda1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-10-15* — Checks only on resolution to see if the land has the supertype snow; it’s not part of the targeting condition.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/94/icequake) · oracle_id `8c0a6ac1-b1cc-405a-95fb-f06b7fecbb54` · printing: ME2 #94 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iceridge Serpent
 
@@ -498,6 +621,7 @@
   > *"Even dragons avoid Glintglaze Lake in this season. Which of you youngsters can tell me why?"*
   > *—Teacher Eliam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19796 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/49/iceridge-serpent) · oracle_id `53f07529-c212-43e4-b5b6-086efeadda39` · printing: TDM #49 (2025-04-11) · [rulings](https://api.scryfall.com/cards/d13f117b-b8e4-48db-8ce9-5da9c7ce23a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Storm
@@ -507,6 +631,7 @@
 - **Oracle text:**
   > Destroy target land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13712 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/122/ice-storm) · oracle_id `a0b97e33-2d0c-4800-a9f5-9cd9be651ea8` · printing: ME1 #122 (2007-09-10) · [rulings](https://api.scryfall.com/cards/68cc9670-6faf-41c3-b111-358c46d8812d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icetill Explorer
@@ -522,7 +647,11 @@
   > *"Come! Join me in the sun!"*
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/192/icetill-explorer) · oracle_id `109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f` · printing: EOE #192 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d9482aab-6ddf-48e1-84fa-b13d5ff81e69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — Icetill Explorer’s second ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
+  - *2025-07-25* — Icetill Explorer’s second ability doesn’t change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty.
+  - *2025-07-25* — The effect of Icetill Explorer’s first ability is cumulative with similar effects. For example, if you control both Icetill Explorer and Exploration (an enchantment with “You may play an additional land on each of your turns”), you’ll be able to play three lands during each of your turns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/192/icetill-explorer) · oracle_id `109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f` · printing: EOE #192 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ice Tunnel
 
@@ -535,7 +664,13 @@
   > *"The ice cracked underfoot; strange shapes swam beneath the surface. Who else has walked this blighted path?"*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/262/ice-tunnel) · oracle_id `40c5d6fe-854a-436d-9f80-13eb5f1f8f68` · printing: KHM #262 (2021-02-05) · [rulings](https://api.scryfall.com/cards/8cff3ef0-4dfb-472e-aa1e-77613dd0f6d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/262/ice-tunnel) · oracle_id `40c5d6fe-854a-436d-9f80-13eb5f1f8f68` · printing: KHM #262 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icewind Elemental
 
@@ -549,6 +684,7 @@
   > *It surveys its domain on wings of ice, bringing misfortune to all who dare trespass.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21941 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/742/icewind-elemental) · oracle_id `5001bf21-9dbb-4229-aeef-25805e71b832` · printing: FDN #742 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c2bfdfb6-aa0b-4bd7-89ba-6435da730e5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icewind Stalwart
@@ -562,7 +698,10 @@
   > *"Get behind my shield!"*
 - **Keywords:** Protection Fighting Style
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10735 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/27/icewind-stalwart) · oracle_id `9ad12c75-e97d-404a-bfa9-26ff1d0bb506` · printing: CLB #27 (2022-06-10) · [rulings](https://api.scryfall.com/cards/aeb153e2-345d-4993-9f2d-f0d0ddfbc8a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/27/icewind-stalwart) · oracle_id `9ad12c75-e97d-404a-bfa9-26ff1d0bb506` · printing: CLB #27 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icewrought Sentry
 
@@ -575,7 +714,9 @@
   > Whenever you tap an untapped creature an opponent controls, this creature gets +2/+1 until end of turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/55/icewrought-sentry) · oracle_id `0828d891-f7c3-4e51-b42e-6ce88d48ac8b` · printing: WOE #55 (2023-09-08) · [rulings](https://api.scryfall.com/cards/859419d3-cd15-4362-98b3-a7ff98e29692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Icewrought Sentry's last ability will trigger only when an effect instructs you to tap an opponent's creature. It won't trigger if a spell or ability you control instructs an opponent to tap a creature they control. For example, if you control Tangle Wire and an opponent taps an untapped creature they control as part of the resolution of Tangle Wire's triggered ability, Icewrought Sentry's ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/55/icewrought-sentry) · oracle_id `0828d891-f7c3-4e51-b42e-6ce88d48ac8b` · printing: WOE #55 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichneumon Druid
 
@@ -585,7 +726,9 @@
 - **Oracle text:**
   > Whenever an opponent casts an instant spell other than the first instant spell that player casts each turn, this creature deals 4 damage to that player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/191/ichneumon-druid) · oracle_id `6aba2a04-0117-429e-a5df-6ba4645129d8` · printing: LEG #191 (1994-06-01) · [rulings](https://api.scryfall.com/cards/cf2313bb-6f9b-49d6-b069-9f3b77b6e107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It tracks the instant count for each player separately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/191/ichneumon-druid) · oracle_id `6aba2a04-0117-429e-a5df-6ba4645129d8` · printing: LEG #191 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorclaw Myr
 
@@ -597,7 +740,15 @@
   > Whenever this creature becomes blocked, it gets +2/+2 until end of turn.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4665 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/166/ichorclaw-myr) · oracle_id `8462a2fa-944b-4fff-a161-10345690b56f` · printing: SOM #166 (2010-10-01) · [rulings](https://api.scryfall.com/cards/faef8b8b-2c45-4fed-b6ba-a8ac49c66330/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
+  - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+  - *2011-01-01* — Whenever Ichorclaw Myr becomes blocked, its last ability triggers just once, no matter how many creatures it became blocked by. It will get just +2/+2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/166/ichorclaw-myr) · oracle_id `8462a2fa-944b-4fff-a161-10345690b56f` · printing: SOM #166 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Drinker
 
@@ -609,6 +760,7 @@
   > {B}, Exile this card from your graveyard: Incubate 2. Activate only as a sorcery. (Create an Incubator token with two +1/+1 counters on it and "{2}: Transform this token." It transforms into a 0/0 Phyrexian artifact creature.)
 - **Keywords:** Lifelink, Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16105 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/111/ichor-drinker) · oracle_id `470a8ee9-1870-44d8-8ade-64ec8084b9f7` · printing: MOM #111 (2023-04-21) · [rulings](https://api.scryfall.com/cards/91fd7350-cc97-4c35-a072-2c826984293c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Elixir
@@ -621,6 +773,7 @@
 - **Flavor text** (MOC printing):
   > *The corrupted essence of Kaldheim's World Tree became the seed from which New Phyrexia's Realmbreaker grew.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10918 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/46/ichor-elixir) · oracle_id `81b06e8d-ed30-4f90-b729-0aa93b0d870f` · printing: MOC #46 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5ff34beb-9a69-4e15-91d3-be2100b73797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Explosion
@@ -633,7 +786,11 @@
 - **Flavor text** (NPH printing):
   > *The first explosion that didn't excite goblins.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28463 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/64/ichor-explosion) · oracle_id `d33aa11b-011b-4d12-85a9-4f956153fb1d` · printing: NPH #64 (2011-05-13) · [rulings](https://api.scryfall.com/cards/0b207e2f-4604-43c5-bb35-a877e35ddd81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-06-01* — X is the power of the sacrificed creature as it last existed on the battlefield.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/64/ichor-explosion) · oracle_id `d33aa11b-011b-4d12-85a9-4f956153fb1d` · printing: NPH #64 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorid
 
@@ -646,7 +803,10 @@
   > At the beginning of your upkeep, if this card is in your graveyard, you may exile a black creature card other than this card from your graveyard. If you do, return this card to the battlefield.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23188 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ema/93/ichorid) · oracle_id `5261ba70-b641-461d-9d9f-fce17764ad67` · printing: EMA #93 (2016-06-10) · [rulings](https://api.scryfall.com/cards/cd5bc1e4-eefb-4613-aa18-2bf2b9bdf415/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-06-08* — If multiple Ichorids are in your graveyard, you can't exile the same creature card to return each of them to the battlefield.
+  - *2016-06-08* — If one Ichorid's ability exiles another, the exiled Ichorid's ability can't return it to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ema/93/ichorid) · oracle_id `5261ba70-b641-461d-9d9f-fce17764ad67` · printing: EMA #93 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichormoon Gauntlet
 
@@ -657,7 +817,9 @@
   > Whenever you cast a noncreature spell, choose a counter on target permanent. Put an additional counter of that kind on that permanent.
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/56/ichormoon-gauntlet) · oracle_id `9fc7aba7-eda2-4134-9c10-31ee35201b72` · printing: ONE #56 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2c093ce0-2561-4847-ab58-f6f1650d743e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/56/ichormoon-gauntlet) · oracle_id `9fc7aba7-eda2-4134-9c10-31ee35201b72` · printing: ONE #56 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorplate Golem
 
@@ -668,7 +830,10 @@
   > Whenever a creature you control enters, if it has one or more oil counters on it, put an oil counter on it.
   > Creatures you control with oil counters on them get +1/+1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/230/ichorplate-golem) · oracle_id `2feca0cd-6bd3-4e19-8cfd-81d7bd1118ee` · printing: ONE #230 (2023-02-10) · [rulings](https://api.scryfall.com/cards/e555abb1-ffd4-4143-9be8-ec8a758f5c2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — If a creature has at least one oil counter on it, it gets +1/+1 due to Ichorplate Golem's effect. It does not get any additional bonus for having more oil counters on it.
+  - *2023-02-04* — The first ability will check to see if a creature has any oil counters on it at the moment it entered the battlefield. If it doesn't, the ability won't trigger at all. This means that if the creature doesn't enter the battlefield with oil counters on it, there isn't an opportunity to put oil counters on it after it has already entered to get Ichorplate Golem's first ability to trigger. If the ability does trigger, it will check again as it tries to resolve. If the creature has no oil counters on it at that time, the ability will do nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/230/ichorplate-golem) · oracle_id `2feca0cd-6bd3-4e19-8cfd-81d7bd1118ee` · printing: ONE #230 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Rats
 
@@ -680,7 +845,15 @@
   > When this creature enters, each player gets a poison counter.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3292 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/67/ichor-rats) · oracle_id `f8148664-49c0-421f-93a5-cd59e4e9ea36` · printing: SOM #67 (2010-10-01) · [rulings](https://api.scryfall.com/cards/2013aed6-7415-4bf0-a3bb-46d6beecbaff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2011-01-01* — A player who has ten or more poison counters loses the game. This is a state-based action.
+  - *2011-01-01* — Damage from a source with infect affects planeswalkers normally.
+  - *2011-01-01* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
+  - *2011-01-01* — If Ichor Rats's last ability causes each player to have ten poison counters, the game is a draw.
+  - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn't get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn't get -1/-1 counters.
+  - *2011-01-01* — Infect's effect applies to any damage, not just combat damage.
+  - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/67/ichor-rats) · oracle_id `f8148664-49c0-421f-93a5-cd59e4e9ea36` · printing: SOM #67 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Shade
 
@@ -692,7 +865,11 @@
 - **Flavor text** (MOM printing):
   > *As oil seeped into their funeral shrouds, Tolvada's dead rose to join the invaders' ranks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/112/ichor-shade) · oracle_id `083ea8b0-ff2a-406e-90f1-668f33443747` · printing: MOM #112 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0fd86fbf-eac2-456b-b4bb-437ff9be9b58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — Ichor Shade’s ability will check as your end step begins if an artifact or creature was put into a graveyard from the battlefield this turn. If none have, the ability won’t trigger at all.
+  - *2023-04-14* — If a nontoken artifact or creature is put into a graveyard, it doesn’t matter what happens to the card afterward. Ichor Shade’s ability will count it even if the card has left the graveyard by the time the ability resolves.
+  - *2023-04-14* — The ability will count any artifact or creature that was put into a graveyard, including tokens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/112/ichor-shade) · oracle_id `083ea8b0-ff2a-406e-90f1-668f33443747` · printing: MOM #112 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Slick
 
@@ -704,7 +881,18 @@
   > Madness {3}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Madness, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/90/ichor-slick) · oracle_id `7a36fc2e-bb02-4222-a335-4c80e380e690` · printing: DMR #90 (2023-01-13) · [rulings](https://api.scryfall.com/cards/9db67828-5697-45fd-87db-ff27ef9cec5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you cycle Ichor Slick, you may cast it for its madness cost. You choose whether or not to cast it with madness before you draw a card from the cycling ability.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/90/ichor-slick) · oracle_id `7a36fc2e-bb02-4222-a335-4c80e380e690` · printing: DMR #90 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichorspit Basilisk
 
@@ -718,7 +906,15 @@
   > *Warm forges and tasty goblins lured it from the Hunter Maze to the Quiet Furnace.*
 - **Keywords:** Toxic, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8255 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/170/ichorspit-basilisk) · oracle_id `5a2f8474-b032-4567-a569-3f9725805f10` · printing: ONE #170 (2023-02-10) · [rulings](https://api.scryfall.com/cards/0955b64f-6721-4fa6-b161-cae404cb5b9f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/170/ichorspit-basilisk) · oracle_id `5a2f8474-b032-4567-a569-3f9725805f10` · printing: ONE #170 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Synthesizer
 
@@ -731,7 +927,9 @@
 - **Flavor text** (ONE printing):
   > *"I've isolated the chirality of the glistening oil, so there will be no wasted precursors."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22367 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/55/ichor-synthesizer) · oracle_id `e82f46f3-143b-46ae-ab5d-4aa177437a64` · printing: ONE #55 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7f516ee6-8f7b-40b2-82e5-9c4ea3e0a355/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-02-04* — Putting a fourth oil counter on Ichor Synthesizer after it has become blocked will not cause it to become unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/55/ichor-synthesizer) · oracle_id `e82f46f3-143b-46ae-ab5d-4aa177437a64` · printing: ONE #55 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichor Wellspring
 
@@ -743,7 +941,9 @@
   > *"Our glorious infection has taken hold."*
   > *—Elesh Norn, Grand Cenobite*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #966 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/245/ichor-wellspring) · oracle_id `5b5ef43b-13fd-4461-8d2d-18be65e9a790` · printing: C21 #245 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1ccdb407-ac8f-4736-89d3-ab0d086096ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — The ability will trigger when Ichor Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered hasn't resolved yet.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/245/ichor-wellspring) · oracle_id `5b5ef43b-13fd-4461-8d2d-18be65e9a790` · printing: C21 #245 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ich-Tekik, Salvage Splicer
 
@@ -756,7 +956,17 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11311 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/233/ich-tekik-salvage-splicer) · oracle_id `fcbada94-54fe-4330-8303-c46162420228` · printing: CMR #233 (2020-11-20) · [rulings](https://api.scryfall.com/cards/0409a15a-7cf6-43e5-958c-d23da4304f29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Artifact tokens that are destroyed or otherwise die are put into the graveyard before ceasing to exist. They will cause Ich-Tekik's middle ability to trigger.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If Ich-Tekik leaves the battlefield before its middle ability resolves, you'll still put a +1/+1 counter on each Golem you control.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/233/ich-tekik-salvage-splicer) · oracle_id `fcbada94-54fe-4330-8303-c46162420228` · printing: CMR #233 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ichthyomorphosis
 
@@ -769,7 +979,14 @@
   > *Tycthis's military career was a flop.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/51/ichthyomorphosis) · oracle_id `816e13c6-79d8-431f-a04e-15c423baf7b3` · printing: THB #51 (2020-01-24) · [rulings](https://api.scryfall.com/cards/e4763b6c-6471-41bd-b3e4-785564bcf06f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-01-24* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Ichthyomorphosis becomes attached to it during that turn.
+  - *2020-01-24* — Effects that modify a creature’s power and/or toughness will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness.
+  - *2020-01-24* — Ichthyomorphosis may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Ichthyomorphosis will be put into its owner’s graveyard as a state-based action once the creature stops being a creature.
+  - *2020-01-24* — Ichthyomorphosis overwrites all colors and creature types the enchanted creature has. It’s just a blue Fish. The creature keeps any supertypes (such as legendary) it has, as well as any other card types it has (such as enchantment).
+  - *2020-01-24* — Ichthyomorphosis overwrites all previous effects that set the creature’s base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Ichthyomorphosis becomes attached to a creature will overwrite this effect.
+  - *2020-01-24* — If the affected creature gains an ability after Ichthyomorphosis becomes attached to it, it will keep that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/51/ichthyomorphosis) · oracle_id `816e13c6-79d8-431f-a04e-15c423baf7b3` · printing: THB #51 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icingdeath, Frost Tyrant
 
@@ -781,6 +998,7 @@
   > When Icingdeath, Frost Tyrant dies, create Icingdeath, Frost Tongue, a legendary white Equipment artifact token with "Equipped creature gets +2/+0," "Whenever equipped creature attacks, tap target creature defending player controls," and equip {2}.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11219 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/20/icingdeath-frost-tyrant) · oracle_id `1dc2c213-72f6-4112-96a8-bf6ad553c707` · printing: AFR #20 (2021-07-23) · [rulings](https://api.scryfall.com/cards/26b0e68a-9d4e-42ea-8dac-c47cbed0c6ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icing Manipulator
@@ -794,7 +1012,18 @@
 - **Flavor text** (UNF printing):
   > *Her most popular flavors are vanilla, maple pecan crunch, and Glurgian galactopod.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #30944 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/142/icing-manipulator) · oracle_id `d4d5111e-85ca-486b-a4b1-061c30934ca8` · printing: UNF #142 (2022-10-07) · [rulings](https://api.scryfall.com/cards/95d270c5-9619-41a3-849f-d0d836bb1b2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-10-07* — +1/+1 counters aren't "attached" to the creatures they're on like an Aura or Equipment is, so a +1/+1 counter/Food token that becomes a creature stays on the creature its on. It still gives that creature a +1/+1 bonus. It doesn't give itself a +1/+1 bonus. Note that +1/+1 counters/Food tokens don't have a mana cost, so their mana value is 0. Many ways of turning them into creatures will turn them into 0/0 creatures, so unless something else is raising their toughness, they'll immediately spoil . . . er, die.
+  - *2022-10-07* — Each die is identified by the number of faces it has. A six-sided die is a die with six equally likely outcomes: 1, 2, 3, 4, 5, and 6. The roll must be fair. Although physical dice are recommended, digital substitutes are allowed except in cases where the physical die is required for the effect.
+  - *2022-10-07* — If a die is rerolled, the original roll essentially never happened: it doesn't cause any abilities to trigger, and no effect that cares about die rolls will consider it.
+  - *2022-10-07* — If an ability triggers "whenever you roll a die," it will trigger whenever you roll any die, including the planar die. This is a change from previous Un- rules. Some abilities use the result to determine part of the effect. If you get a non-numerical result (currently just the planar die, but the future is long), that part of the effect won't do anything.
+  - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
+  - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
+  - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+  - *2022-10-07* — The +1/+1 counters that are also Food tokens are still +1/+1 counters. They should stay on whatever permanent they were on, even though they become permanents themselves. That acorn symbol at the bottom of the card isn't messing around here.
+  - *2022-10-07* — The +1/+1 counters/Food tokens are artifacts, so anything that counts artifacts will count them. They can be tapped, untapped, sacrificed, and so on. They can even attack and block if you find a way to make them creatures.
+  - *2022-10-07* — The activated ability doesn't target any creature. You choose which creatures get counters after you roll the dice. If you roll two odd numbers, you may put both +1/+1 counters on the same creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/142/icing-manipulator) · oracle_id `d4d5111e-85ca-486b-a4b1-061c30934ca8` · printing: UNF #142 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Iconic Shield
 
@@ -805,6 +1034,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24262 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/520/iconic-shield) · oracle_id `1c4fdd52-dc99-4942-bdaa-93f74dd4ebdc` · printing: MSC #520 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e35881d3-bf69-4e69-8e6b-3d7daf40822b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icon of Ancestry
@@ -816,7 +1046,9 @@
   > Creatures you control of the chosen type get +1/+1.
   > {3}, {T}: Look at the top three cards of your library. You may reveal a creature card of the chosen type from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2457 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/305/icon-of-ancestry) · oracle_id `2b4973cc-83b0-4986-a19e-b4252706527e` · printing: LCC #305 (2023-11-17) · [rulings](https://api.scryfall.com/cards/f6cdbdf3-f8bd-48a9-8a47-6b0b9d5de0db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — You must choose an existing creature type, such as Vampire or Warrior. Card types (such as artifact) and supertypes (such as legendary) can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/305/icon-of-ancestry) · oracle_id `2b4973cc-83b0-4986-a19e-b4252706527e` · printing: LCC #305 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Blast
 
@@ -829,7 +1061,13 @@
   > *"Do not think the sand or the sun will hold back the breath of winter."*
 - **Keywords:** Ferocious
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/42/icy-blast) · oracle_id `f49302c5-8510-4360-841c-a59f53f87e0b` · printing: KTK #42 (2014-09-26) · [rulings](https://api.scryfall.com/cards/b098f029-6b5d-49e4-9a81-f497ebbdb5ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
+  - *2014-09-20* — Icy Blast can target a creature that’s already tapped. It still won’t untap during its controller’s next untap step.
+  - *2014-09-20* — Icy Blast tracks the creature, but not its controller. If the creature changes controllers before its first controller’s next untap step has come around, then it won’t untap during its new controller’s next untap step.
+  - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
+  - *2014-09-20* — You check if you control a creature with power 4 or greater as Icy Blast resolves. It doesn’t matter if you control such a creature during any of the relevant untap steps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/42/icy-blast) · oracle_id `f49302c5-8510-4360-841c-a59f53f87e0b` · printing: KTK #42 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Manipulator
 
@@ -840,7 +1078,9 @@
 - **Flavor text** (DMR printing):
   > *In fire there is the spark of chaos and destruction, the seed of life. In ice there is perfect tranquility, perfect order, and the silence of death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10819 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/225/icy-manipulator) · oracle_id `3608f1f7-8dc5-4dd1-ae91-c830e1de9529` · printing: DMR #225 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ac5a54ca-f175-4005-895f-d76effd6178e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Once a player announces that they're casting a spell or activating an ability, no player may take other actions until the spell or ability has been paid for. Notably, other players can't try to tap that player's permanents to stop them from paying {T} or to stop them from producing enough mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/225/icy-manipulator) · oracle_id `3608f1f7-8dc5-4dd1-ae91-c830e1de9529` · printing: DMR #225 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Prison
 
@@ -851,7 +1091,9 @@
   > At the beginning of your upkeep, sacrifice this enchantment unless any player pays {3}.
   > When this enchantment leaves the battlefield, return the exiled card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28566 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/50/icy-prison) · oracle_id `d4e2cc1a-4212-4284-9ebe-d3c40931de50` · printing: ME2 #50 (2008-09-22) · [rulings](https://api.scryfall.com/cards/5f3a535e-2efa-4893-a9ee-f42caf482e5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — If Icy Prison leaves the battlefield before its first ability has resolved, its third ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature forever.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/50/icy-prison) · oracle_id `d4e2cc1a-4212-4284-9ebe-d3c40931de50` · printing: ME2 #50 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Icy Reception
 
@@ -864,4 +1106,5 @@
 - **Flavor text** (FRA printing):
   > *"Keep them distracted," instructed the Theorist. Chandra's doppelganger smiled, and a chill went through the air.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/30/icy-reception) · oracle_id `612c7807-be70-4e2f-afd2-3d3c03eddbbe` · printing: FRA #30 (2026-10-02) · [rulings](https://api.scryfall.com/cards/8d754b96-5e44-45af-9c7a-b0da59fbe4c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

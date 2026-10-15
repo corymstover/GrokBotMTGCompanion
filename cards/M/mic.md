@@ -31,7 +31,17 @@
   > Whenever you cast an instant or sorcery spell, you may sacrifice an artifact. If you do, copy that spell and you may choose new targets for the copy.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13736 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/124/mica-reader-of-ruins) · oracle_id `fc90f74d-11f3-4bd4-b8a1-1cf2ffcd5b73` · printing: SOS #124 (2026-04-24) · [rulings](https://api.scryfall.com/cards/949ad3ff-9e80-493c-a3ae-146b919bfcd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2026-03-20* — Any choices made when the spell resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2026-03-20* — If the spell that's copied has an X whose value was determined as it was cast, the copy has the same value of X.
+  - *2026-03-20* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2026-03-20* — Mica's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2026-03-20* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2026-03-20* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/124/mica-reader-of-ruins) · oracle_id `fc90f74d-11f3-4bd4-b8a1-1cf2ffcd5b73` · printing: SOS #124 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, Game Master
 
@@ -45,7 +55,9 @@
   > *—Splinter*
 - **Keywords:** Disappear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17544 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/118/michelangelo-game-master) · oracle_id `594c6b1f-ff0e-4122-8b29-852632a22a79` · printing: TMT #118 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2e914c3d-2eed-48bf-af9a-a8998fd5111d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — Some disappear abilities, such as those of the above cards, are triggered abilities with intervening if clauses. If a permanent hasn't left the battlefield under your control that turn by the time the disappear ability would trigger, it won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/118/michelangelo-game-master) · oracle_id `594c6b1f-ff0e-4122-8b29-852632a22a79` · printing: TMT #118 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, Improviser
 
@@ -57,7 +69,12 @@
   > Whenever Michelangelo deals combat damage to a player, you may put a creature card and/or a land card from your hand onto the battlefield.
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10522 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/119/michelangelo-improviser) · oracle_id `1939679b-ea2e-4a75-b3ce-d7af68437484` · printing: TMT #119 (2026-03-06) · [rulings](https://api.scryfall.com/cards/955848c0-5092-4e13-97c9-5978d44d5586/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Putting a land card onto the battlefield with Michelangelo's last ability doesn't count as playing a land. You can put a land card onto the battlefield this way even if you've already played a land for the turn.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/119/michelangelo-improviser) · oracle_id `1939679b-ea2e-4a75-b3ce-d7af68437484` · printing: TMT #119 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, Mutant BFF
 
@@ -68,7 +85,11 @@
   > Each creature you control with a counter on it can't be blocked by more than one creature.
   > Whenever Michelangelo enters or attacks, create a Mutagen token. (It's an artifact with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8779 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/120/michelangelo-mutant-bff) · oracle_id `fe1eb8b3-c605-4711-a057-ed3565bfe75c` · printing: TMT #120 (2026-03-06) · [rulings](https://api.scryfall.com/cards/02f7281f-b50c-4a1c-a2fc-3caeb6ab7d41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Once a creature you control has been blocked, putting a counter on that creature won't cause it to stop being blocked.
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/120/michelangelo-mutant-bff) · oracle_id `fe1eb8b3-c605-4711-a057-ed3565bfe75c` · printing: TMT #120 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, On the Scene
 
@@ -81,6 +102,7 @@
   > When Michelangelo dies, return this card to your hand.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15382 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/124/michelangelo-on-the-scene) · oracle_id `e0e3feb8-2add-41c9-839c-587af6ca8f93` · printing: TMC #124 (2026-03-06) · [rulings](https://api.scryfall.com/cards/60a80d88-1f76-4a97-9e61-3a0d6304c9c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo's Technique
@@ -92,7 +114,12 @@
   > Look at the top eight cards of your library. Put up to two creature cards with total mana value 6 or less from among them onto the battlefield and the rest on the bottom of your library in a random order.
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15936 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/122/michelangelos-technique) · oracle_id `42f12942-9ac1-497e-a8b7-9f66a5afd0ae` · printing: TMT #122 (2026-03-06) · [rulings](https://api.scryfall.com/cards/3a63c06a-7c59-4b72-b916-e5b6ad78c684/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — If a card in your library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/122/michelangelos-technique) · oracle_id `42f12942-9ac1-497e-a8b7-9f66a5afd0ae` · printing: TMT #122 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, the Heart
 
@@ -105,7 +132,19 @@
   > Partner—Character select (You can have two commanders if both have this ability.)
 - **Keywords:** Food, Partner, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8193 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/5/michelangelo-the-heart) · oracle_id `f11e914c-16bc-4836-bc14-bc1b5de9cd87` · printing: TMC #5 (2026-03-06) · [rulings](https://api.scryfall.com/cards/bac2d744-db65-4b56-8634-c87fd00c090e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2026-01-27* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2026-01-27* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2026-01-27* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2026-01-27* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Pizza Face (a Legendary Artifact Creature — Food Mutant) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+  - *2026-01-27* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2026-01-27* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Donatello, the Brains and Splinter, the Mentor are your commanders, your deck may contain cards with blue and/or black in their color identity, but not cards with red, green, or white. (If Leonardo, the Balance is one of your commanders, your deck may contain cards with any color or combination of colors in their color identity, regardless of who your other commander is.)
+  - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2026-01-27* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
+  - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/5/michelangelo-the-heart) · oracle_id `f11e914c-16bc-4836-bc14-bc1b5de9cd87` · printing: TMC #5 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michelangelo, Weirdness to 11
 
@@ -116,7 +155,13 @@
   > When Michelangelo enters, create a Mutagen token. (It's an artifact with "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.")
   > If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4838 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/121/michelangelo-weirdness-to-11) · oracle_id `170ab932-9d50-4ce7-9a42-08e1edce7e7c` · printing: TMT #121 (2026-03-06) · [rulings](https://api.scryfall.com/cards/18477047-218d-4b2a-a086-37431b6a3025/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-01-27* — If a creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
+  - *2026-01-27* — If two or more effects attempt to modify how many counters would be put on a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
+  - *2026-01-27* — In the unusual case where you control more than one Michelangelo, Weirdness to 11, each one you control will increase the number of +1/+1 counters placed on a creature you control by one.
+  - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
+  - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/121/michelangelo-weirdness-to-11) · oracle_id `170ab932-9d50-4ce7-9a42-08e1edce7e7c` · printing: TMT #121 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michiko Konda, Truth Seeker
 
@@ -129,7 +174,11 @@
   > *"Watch over my father. Tell him I'm safe, but I won't come home until I find out how to bring him back to his senses, and Kamigawa is again at peace."*
   > *—Michiko Konda, last letter to General Takeno*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5968 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/19/michiko-konda-truth-seeker) · oracle_id `fbe190eb-fd4b-40e7-9a17-48c96b60f653` · printing: SOK #19 (2005-06-03) · [rulings](https://api.scryfall.com/cards/99c56bf0-ad9f-4419-902c-f3a3880c716c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-06-01* — One permanent is sacrificed each time an opponent’s source deals damage to Michiko Konda’s controller. The amount of damage doesn’t matter.
+  - *2005-06-01* — Sources that deal damage multiple times (such as creatures with double strike) will trigger Michiko Konda multiple times.
+  - *2005-06-01* — Spells that deal damage repeatedly trigger Michiko Konda’s ability each time they deal damage. For example, a Glacial Ray spliced onto another Glacial Ray triggers the ability twice (once for each “2 damage” event from the Glacial Ray).
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/19/michiko-konda-truth-seeker) · oracle_id `fbe190eb-fd4b-40e7-9a17-48c96b60f653` · printing: SOK #19 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Michiko's Reign of Truth // Portrait of Michiko
 
@@ -145,7 +194,14 @@
   > *Long ago, as the first mortal to bond with Kyodai, Michiko Konda brought an end to the Kami War and guided Kamigawa into an age of truth and harmony.*
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/29/michikos-reign-of-truth-portrait-of-michiko) · oracle_id `94794f7c-62e7-43c8-ba7f-ac5c0bc9a712` · printing: NEO #29 (2022-02-18) · [rulings](https://api.scryfall.com/cards/74f12c23-5c15-4ae6-8f4d-c5e6c1878817/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/29/michikos-reign-of-truth-portrait-of-michiko) · oracle_id `94794f7c-62e7-43c8-ba7f-ac5c0bc9a712` · printing: NEO #29 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Micromancer
 
@@ -157,7 +213,9 @@
 - **Flavor text** (FDN printing):
   > *"Ideas don't have to be big to be great."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/158/micromancer) · oracle_id `d2605782-09f1-4d52-b3e7-5ec1442bd9b5` · printing: FDN #158 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e6af54ea-b57a-4e50-8e46-1747cca14430/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/158/micromancer) · oracle_id `d2605782-09f1-4d52-b3e7-5ec1442bd9b5` · printing: FDN #158 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Microscope
 
@@ -168,4 +226,8 @@
   > {T}: Target permanent card in a graveyard becomes a 0/0 black Germ creature in addition to its other colors and types until end of turn. (This effect ends if it leaves the graveyard.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/607/microscope) · oracle_id `8dde3f91-ebc8-4de6-9261-88010e1a7c73` · printing: MB2 #607 (2024-08-02) · [rulings](https://api.scryfall.com/cards/82c19074-c00e-49b0-bef7-59eb34563f0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/607/microscope) · oracle_id `8dde3f91-ebc8-4de6-9261-88010e1a7c73` · printing: MB2 #607 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

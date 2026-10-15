@@ -71,7 +71,10 @@
 - **Flavor text** (LCI printing):
   > *"These lost children of Aclazotz are misguided, but perhaps there can be reconciliation of our ideals without war."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12439 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/44/akal-pakal-first-among-equals) · oracle_id `53bfe54e-9b97-4113-97d9-3c5dbc85e7cf` · printing: LCI #44 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ab9f6a1b-8467-4584-affd-8c71d3e34d2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — If there is only one card in your library, you put it into your hand.
+  - *2023-11-10* — The ability will trigger no matter what happened to the artifact after it entered. It may have left the battlefield, come under another player's control, or stopped being an artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/44/akal-pakal-first-among-equals) · oracle_id `53bfe54e-9b97-4113-97d9-3c5dbc85e7cf` · printing: LCI #44 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akawalli, the Seething Tower
 
@@ -83,7 +86,10 @@
   > Descend 8 — As long as there are eight or more permanent cards in your graveyard, Akawalli gets an additional +2/+2 and can't be blocked by more than one creature.
 - **Keywords:** Descend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11089 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/220/akawalli-the-seething-tower) · oracle_id `0679dcef-e1c3-4739-a769-18a4ffdcfde7` · printing: LCI #220 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3ee62dd1-97d0-4e5d-8937-26c9e51e9414/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/220/akawalli-the-seething-tower) · oracle_id `0679dcef-e1c3-4739-a769-18a4ffdcfde7` · printing: LCI #220 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### A Killer Among Us
 
@@ -93,7 +99,12 @@
   > When this enchantment enters, create a 1/1 white Human creature token, a 1/1 blue Merfolk creature token, and a 1/1 red Goblin creature token. Then secretly choose Human, Merfolk, or Goblin.
   > Sacrifice this enchantment, Reveal the creature type you chose: If target attacking creature token is the chosen type, put three +1/+1 counters on it and it gains deathtouch until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/167/a-killer-among-us) · oracle_id `79d577a8-53c0-4220-bc0e-70764d72d5fd` · printing: MKM #167 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2c1392c5-91a5-4e6e-803d-ed032e4d594b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-02-02* — A Killer Among Us's last ability can target any attacking creature token, not just one of the tokens created by its first ability, and not just one of the chosen type. Only a token of the chosen type will get the bonuses, though.
+  - *2024-02-02* — If you control multiple copies of A Killer Among Us, you may choose the same or different creature types for each one. Be careful to keep track of which type is chosen for each A Killer Among Us.
+  - *2024-02-02* — Only the player who secretly chose the creature type can reveal the creature type they chose. If another player gains control of A Killer Among Us, they will be unable to activate its last ability.
+  - *2024-02-02* — There are several ways to secretly choose one of the creature types, including writing that type on a piece of paper that's kept with A Killer Among Us.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/167/a-killer-among-us) · oracle_id `79d577a8-53c0-4220-bc0e-70764d72d5fd` · printing: MKM #167 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akim, the Soaring Wind
 
@@ -106,6 +117,7 @@
   > {3}{U}{R}{W}: Creature tokens you control gain double strike until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17335 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/6/akim-the-soaring-wind) · oracle_id `2a20530b-d1d6-4dac-8d08-f583bea55e6e` · printing: C20 #6 (2020-04-17) · [rulings](https://api.scryfall.com/cards/23736c5f-bd1c-4505-8639-5fb92cd74b21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akiri, Fearless Voyager
@@ -119,7 +131,13 @@
 - **Flavor text** (CMM printing):
   > *"No angel bars our ascent. Emeria waits above!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2062 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/335/akiri-fearless-voyager) · oracle_id `c03ae426-2536-4c20-a73a-a24e816f76b0` · printing: CMM #335 (2023-08-04) · [rulings](https://api.scryfall.com/cards/fa135775-abcd-4a21-abb7-3aeb5a39df28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — Akiri's first ability has you draw just one card per player you attack with an equipped creature, no matter how many equipped creatures you attack them with beyond the first and no matter how many Equipment that creature's carrying beyond the first.
+  - *2020-09-25* — If the creature is already tapped, it just gains indestructible until end of turn.
+  - *2020-09-25* — The Equipment that's unattached remains on the battlefield.
+  - *2020-09-25* — You choose which Equipment to unattach as Akiri's second ability resolves. Unattaching an Equipment from a creature won't affect other Equipment attached to that creature. No player can take actions between the time you unattach that Equipment and the time that the creature becomes tapped and gains indestructible.
+  - *2023-07-28* — Equipped creatures attacking a planeswalker or battle won't cause Akiri's first ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/335/akiri-fearless-voyager) · oracle_id `c03ae426-2536-4c20-a73a-a24e816f76b0` · printing: CMM #335 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akiri, Line-Slinger
 
@@ -134,7 +152,15 @@
   > *Her bold movements are anchored in the careful precision of each rope.*
 - **Keywords:** Vigilance, First strike, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10154 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/26/akiri-line-slinger) · oracle_id `3e0a0276-b640-41c7-95bd-ba3067f5c911` · printing: C16 #26 (2016-11-11) · [rulings](https://api.scryfall.com/cards/3b951e0c-a4dd-4a20-87c6-eaa947e33aa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/26/akiri-line-slinger) · oracle_id `3e0a0276-b640-41c7-95bd-ba3067f5c911` · printing: C16 #26 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Avalanchers
 
@@ -146,7 +172,9 @@
 - **Flavor text** (CHK printing):
   > *Among Godo's hordes, "beware of falling rocks" came to mean "akki live nearby."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/151/akki-avalanchers) · oracle_id `5a98decb-30ba-4c34-a88a-424b7f4e03bc` · printing: CHK #151 (2004-10-01) · [rulings](https://api.scryfall.com/cards/bfef6acb-a11c-4a3f-9cfb-9394dece2675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — The "activate only once each turn" restriction applies even if the creature changes controllers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/151/akki-avalanchers) · oracle_id `5a98decb-30ba-4c34-a88a-424b7f4e03bc` · printing: CHK #151 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Battle Squad
 
@@ -156,7 +184,12 @@
 - **Oracle text:**
   > Whenever one or more modified creatures you control attack, untap all modified creatures you control. After this phase, there is an additional combat phase. This ability triggers only once each turn. (Equipment, Auras you control, and counters are modifications.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/18/akki-battle-squad) · oracle_id `5bd81d2f-46a1-4536-92e7-28c7e1892735` · printing: NEC #18 (2022-02-18) · [rulings](https://api.scryfall.com/cards/ca624ce6-5b99-41af-8e26-b952f5a30916/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+  - *2022-02-18* — Notably, the triggered ability of Akki Battle Squad doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/18/akki-battle-squad) · oracle_id `5bd81d2f-46a1-4536-92e7-28c7e1892735` · printing: NEC #18 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Blizzard-Herder
 
@@ -169,6 +202,7 @@
   > *"It remains unclear whether the akki shamans could in fact create storms or simply predicted them."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18900 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/91/akki-blizzard-herder) · oracle_id `16fe1f04-9bbf-43a3-ab14-395fdf4a3a43` · printing: BOK #91 (2005-02-04) · [rulings](https://api.scryfall.com/cards/7ce1ee90-67d1-4e83-ae1e-3bd71069aae4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Coalflinger
@@ -183,6 +217,7 @@
   > *No matter where you find them, goblins love rocks.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20189 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/evg/33/akki-coalflinger) · oracle_id `96de29a1-3178-4c8b-a67b-ab0262442cb6` · printing: EVG #33 (2014-12-05) · [rulings](https://api.scryfall.com/cards/2c7067f4-8578-4e5e-886a-c9b14729c4b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Drillmaster
@@ -195,6 +230,7 @@
 - **Flavor text** (SOK printing):
   > *"What part of 'hayaku ikee!' did you not understand?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/92/akki-drillmaster) · oracle_id `aa228a01-7de3-4539-9ebb-b3c546f72b41` · printing: SOK #92 (2005-06-03) · [rulings](https://api.scryfall.com/cards/7fb63254-5786-43fb-8ccd-132095a55e64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Ember-Keeper
@@ -207,6 +243,7 @@
 - **Flavor text** (NEO printing):
   > *"Follow my lantern, little ones."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18490 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/130/akki-ember-keeper) · oracle_id `8df42f4a-022c-4fcb-a953-fb165fdbfc13` · printing: NEO #130 (2022-02-18) · [rulings](https://api.scryfall.com/cards/4d83e837-fcd1-4833-9117-e6f1bb53caad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Lavarunner // Tok-Tok, Volcano Born
@@ -222,6 +259,7 @@
   > If a red source would deal damage to a player, it deals that much damage plus 1 to that player instead.
 - **Keywords:** Protection, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21635 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/153/akki-lavarunner-tok-tok-volcano-born) · oracle_id `47795817-73e5-4af6-bd1e-d69b193e8e9e` · printing: CHK #153 (2004-10-01) · [rulings](https://api.scryfall.com/cards/6ee6cd34-c117-4d7e-97d1-8f8464bfaac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Raider
@@ -234,6 +272,7 @@
 - **Flavor text** (BOK printing):
   > *Akki were very territorial, attacking and destroying any settlements that came too close to their mountain homes. The more successful their raids, the bolder they became.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/92/akki-raider) · oracle_id `bf9c5c0d-86a5-467a-863c-653279f2e6e7` · printing: BOK #92 (2005-02-04) · [rulings](https://api.scryfall.com/cards/c8fb34ae-157c-4f4b-bb47-2a9dc394a20c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Rockspeaker
@@ -246,7 +285,10 @@
 - **Flavor text** (CHK printing):
   > *The lava-proof shells of akki evolved over centuries, as akki pranks almost always got seriously out of hand.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/154/akki-rockspeaker) · oracle_id `01cd52f9-7fac-4396-bec7-d06bf683e011` · printing: CHK #154 (2004-10-01) · [rulings](https://api.scryfall.com/cards/9c8b6685-2c74-4026-aef0-73ca7bc43306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-25* — The triggered ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2011-01-25* — You get the mana whether you want it or not. If you don't spend it, it will disappear at the end of the current step (or phase).
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/154/akki-rockspeaker) · oracle_id `01cd52f9-7fac-4396-bec7-d06bf683e011` · printing: CHK #154 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Ronin
 
@@ -259,6 +301,7 @@
   > *"Carry the heat of the furnace in your steel, and never let it fade."*
   > *—Keni-Keni, akki smith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/131/akki-ronin) · oracle_id `4b4c76e1-c480-4d10-93d4-483ef2debc4b` · printing: NEO #131 (2022-02-18) · [rulings](https://api.scryfall.com/cards/96f15754-1ca6-45b0-a7de-2fe507df2a1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Scrapchomper
@@ -271,6 +314,7 @@
 - **Flavor text** (MOM printing):
   > *The Furnace Host found great value in the chaotic ingenuity of Kamigawa's akki and allowed willing converts to "experiment" however they saw fit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14639 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/130/akki-scrapchomper) · oracle_id `baea7cc5-15ec-4229-ad8b-d4b34c2e21e8` · printing: MOM #130 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b0e02737-0193-46e4-a506-cec86a44dc99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Underling
@@ -284,6 +328,7 @@
   > *"I lost my hounds in the war and thus found myself employing akki as servants. I found their training to be remarkably similar."*
   > *—Kensuke, houndmaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29714 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/93/akki-underling) · oracle_id `91f95d83-3637-4cf8-af6c-56bc4e4b2591` · printing: SOK #93 (2005-06-03) · [rulings](https://api.scryfall.com/cards/106382db-56aa-4061-9d1e-17821937f1de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Underminer
@@ -297,6 +342,7 @@
   > *"Deep inside the Sokenzan Mountains, a band of akki discovered a cache of ancient items of power. Their ensuing spree of destruction became known as 'The Three Days of Fun.'"*
   > *—\*Observations of the Kami War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23421 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/155/akki-underminer) · oracle_id `8358f65a-7572-430d-b4f0-4fba7a372bd9` · printing: CHK #155 (2004-10-01) · [rulings](https://api.scryfall.com/cards/efdd1e22-d68d-4858-b253-80071d26d50e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki War Paint
@@ -310,6 +356,7 @@
   > *Akki paint bright, bold designs on their salvaged Imperial mechs, leaving no doubt as to who they belong to now.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/132/akki-war-paint) · oracle_id `e01ab6d8-8419-436e-a8fb-10aa46ca3d05` · printing: NEO #132 (2022-02-18) · [rulings](https://api.scryfall.com/cards/f110698e-a343-4eff-ba23-ed7ac5a3f87b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Battlesinger
@@ -322,6 +369,7 @@
   > Whenever this creature or another Ally you control enters, you may have Ally creatures you control get +1/+0 until end of turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16932 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/71/akoum-battlesinger) · oracle_id `eb448589-28e1-49d4-ba3e-7ddb4341fdc5` · printing: WWK #71 (2010-02-05) · [rulings](https://api.scryfall.com/cards/031950b6-110f-4e20-b31b-afe5ffdd6086/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Boulderfoot
@@ -335,6 +383,7 @@
   > *"If you're in Akoum and you glimpse a shadow overhead, the worst thing you can do is duck."*
   > *—Chadir the Navigator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29461 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/134/akoum-boulderfoot) · oracle_id `c16367eb-1c0a-4197-8e2f-2d74e4381024` · printing: ROE #134 (2010-04-23) · [rulings](https://api.scryfall.com/cards/88e8f7b6-1214-447b-8665-ff3c85845564/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Firebird
@@ -348,7 +397,14 @@
   > Landfall — Whenever a land you control enters, you may pay {4}{R}{R}. If you do, return this card from your graveyard to the battlefield.
 - **Keywords:** Landfall, Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/138/akoum-firebird) · oracle_id `10ab3102-43a3-4c60-8641-2c5a7c1e29c2` · printing: BFZ #138 (2015-10-02) · [rulings](https://api.scryfall.com/cards/304a2e4c-da2c-43fb-b44d-9db55ff94f04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-08-25* — If, during its controller's declare attackers step, Akoum Firebird is tapped or is affected by a spell or ability that says it can't attack, then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost. If they don't, Akoum Firebird doesn't have to attack.
+  - *2015-08-25* — Players can respond to the triggered ability, but once it starts resolving and you decide whether to pay {4}{R}{R}, it's too late for anyone to respond.
+  - *2015-08-25* — The landfall ability triggers only if Akoum Firebird is in your graveyard at the moment the land enters the battlefield.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/138/akoum-firebird) · oracle_id `10ab3102-43a3-4c60-8641-2c5a7c1e29c2` · printing: BFZ #138 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Flameseeker
 
@@ -361,7 +417,10 @@
   > *In the face of extinction, the most perilous endeavors can be cause for hope.*
 - **Keywords:** Cohort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27037 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/101/akoum-flameseeker) · oracle_id `efae637f-3232-46f2-9839-f3386e2f447d` · printing: OGW #101 (2016-01-22) · [rulings](https://api.scryfall.com/cards/6ef4e1e2-7961-47d2-bb55-9168ea201214/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-01-22* — Discarding a card is part of the ability’s effect and isn’t optional. As the cohort ability resolves, if you have a card in your hand, you must discard one, even if the card you may have wanted to discard as you activated the ability is no longer in your hand.
+  - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can’t have “summoning sickness.” However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn’t use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/101/akoum-flameseeker) · oracle_id `efae637f-3232-46f2-9839-f3386e2f447d` · printing: OGW #101 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Hellhound
 
@@ -374,7 +433,11 @@
   > *Hellhound packs roam the Spikefields, basking in the harsh sunlight and lighting the night with their flames.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/133/akoum-hellhound) · oracle_id `05074b68-6b31-4f9f-b3ec-bffe3e7eab47` · printing: ZNR #133 (2020-09-25) · [rulings](https://api.scryfall.com/cards/3a5ad1c8-3d70-43ed-9539-2aa6289c5c4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/133/akoum-hellhound) · oracle_id `05074b68-6b31-4f9f-b3ec-bffe3e7eab47` · printing: ZNR #133 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Hellkite
 
@@ -386,7 +449,11 @@
   > Landfall — Whenever a land you control enters, this creature deals 1 damage to any target. If that land is a Mountain, this creature deals 2 damage instead.
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gn2/36/akoum-hellkite) · oracle_id `05b6f9e3-9acd-43a6-acff-caa811aaf0a1` · printing: GN2 #36 (2019-11-15) · [rulings](https://api.scryfall.com/cards/f6ba0c10-6707-40f4-8f01-387532df9958/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/gn2/36/akoum-hellkite) · oracle_id `05b6f9e3-9acd-43a6-acff-caa811aaf0a1` · printing: GN2 #36 (2019-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Refuge
 
@@ -397,6 +464,7 @@
   > When this land enters, you gain 1 life.
   > {T}: Add {B} or {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3844 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/226/akoum-refuge) · oracle_id `354fecd1-2371-49e3-81c6-7e47728dbb1f` · printing: C19 #226 (2019-08-23) · [rulings](https://api.scryfall.com/cards/51aecc57-f0cc-4e35-af38-ead25cf8a1b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Stonewaker
@@ -408,7 +476,11 @@
   > Landfall — Whenever a land you control enters, you may pay {2}{R}. If you do, create a 3/1 red Elemental creature token with trample and haste. Exile that token at the beginning of the next end step.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24059 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/140/akoum-stonewaker) · oracle_id `36d1a46e-44ac-4a65-a93c-8d6ab5c31cbf` · printing: BFZ #140 (2015-10-02) · [rulings](https://api.scryfall.com/cards/c92ab7b5-6a29-463e-b294-3cb0efaccddb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/140/akoum-stonewaker) · oracle_id `36d1a46e-44ac-4a65-a93c-8d6ab5c31cbf` · printing: BFZ #140 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Warrior // Akoum Teeth
 
@@ -427,7 +499,17 @@
   > *—Tyrux, expedition warrior*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/134/akoum-warrior-akoum-teeth) · oracle_id `afedce7b-0e18-40ad-a26a-1933fddb560d` · printing: ZNR #134 (2020-09-25) · [rulings](https://api.scryfall.com/cards/d8ed0335-daa6-4dbe-a94d-4d56c8cfd093/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-09-25* — A modal double-faced card can’t be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2020-09-25* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2020-09-25* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than “play”) a specific modal double-faced card, you can’t play it as a land.
+  - *2020-09-25* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face’s name.
+  - *2020-09-25* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can’t be put onto the battlefield, it doesn’t enter the battlefield.
+  - *2020-09-25* — In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/134/akoum-warrior-akoum-teeth) · oracle_id `afedce7b-0e18-40ad-a26a-1933fddb560d` · printing: ZNR #134 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akrasan Squire
 
@@ -440,7 +522,14 @@
   > *Bant's armies are primarily composed of members of the Mortar caste, loyal commoners who haven't yet earned a sigil.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/1/akrasan-squire) · oracle_id `2b8ef83b-1a1d-4299-ab69-e9e296bb224d` · printing: ALA #1 (2008-10-03) · [rulings](https://api.scryfall.com/cards/59fdc045-b938-4321-aec3-51685cbbaa52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won’t trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature “attacks alone” if it’s the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate’s exalted abilities won’t.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they’re ignored by exalted abilities. They won’t cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/1/akrasan-squire) · oracle_id `2b8ef83b-1a1d-4299-ab69-e9e296bb224d` · printing: ALA #1 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Conscriptor
 
@@ -453,7 +542,14 @@
   > *"The time to serve is now."*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20077 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/87/akroan-conscriptor) · oracle_id `54216953-c575-4e08-9bee-384721c0bc4d` · printing: BNG #87 (2014-02-07) · [rulings](https://api.scryfall.com/cards/decb529f-44fd-409d-932f-be9c403f12f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability.
+  - *2014-02-01* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it. Notably, if that creature is enchanted by an Aura with bestow and dies while under your control, the Aura’s controller will continue to control the creature that Aura becomes.
+  - *2014-02-01* — If you control a legendary creature and gain control of another legendary creature with the same name, you’ll choose one to remain on the battlefield and put the other into its owner’s graveyard.
+  - *2014-02-01* — The ability can target any creature except Akroan Conscriptor, including one that’s untapped or one you already control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/87/akroan-conscriptor) · oracle_id `54216953-c575-4e08-9bee-384721c0bc4d` · printing: BNG #87 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Crusader
 
@@ -466,7 +562,11 @@
   > *An Akroan soldier's worth is measured by the number of swords raised by his battle cry.*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11006 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/121/akroan-crusader) · oracle_id `d981d85c-e97b-4fe7-b415-6e73a3e7e35c` · printing: UMA #121 (2018-12-07) · [rulings](https://api.scryfall.com/cards/73d295ac-3c83-47db-a324-aa4907bcefdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/121/akroan-crusader) · oracle_id `d981d85c-e97b-4fe7-b415-6e73a3e7e35c` · printing: UMA #121 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Hoplite
 
@@ -478,7 +578,10 @@
 - **Flavor text** (CN2 printing):
   > *"Fair fight? How could it be a fair fight? We're Akroans. They're not."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16519 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/197/akroan-hoplite) · oracle_id `e15db59f-4477-4139-8e7e-741ab4584e7f` · printing: CN2 #197 (2016-08-26) · [rulings](https://api.scryfall.com/cards/04aa9d4f-37cc-4fc8-877a-6190f96eb509/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — Count the number of attacking creatures you control when the ability resolves to determine the value of X.
+  - *2013-09-15* — Once the ability resolves, the bonus won't change even if the number of attacking creatures you control does.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/197/akroan-hoplite) · oracle_id `e15db59f-4477-4139-8e7e-741ab4584e7f` · printing: CN2 #197 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Horse
 
@@ -491,7 +594,10 @@
   > At the beginning of your upkeep, each opponent creates a 1/1 white Soldier creature token.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c16/241/akroan-horse) · oracle_id `8d0213d7-9e25-49d2-93fa-1d346cb2e869` · printing: C16 #241 (2016-11-11) · [rulings](https://api.scryfall.com/cards/31a8954f-467d-4eb9-8a48-d25bae9529b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — Akroan Horse's enters-the-battlefield ability doesn't target any opponent. In a multiplayer game, you choose the opponent as the ability resolves.
+  - *2013-09-15* — In the last ability, “each opponent” refers to opponents of Akroan Horse's controller. In most situations in two-player games, your opponent will control Akroan Horse and you'll put Soldier tokens onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c16/241/akroan-horse) · oracle_id `8d0213d7-9e25-49d2-93fa-1d346cb2e869` · printing: C16 #241 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Jailer
 
@@ -503,6 +609,7 @@
 - **Flavor text** (ORI printing):
   > *He ensures escape attempts are just that—attempts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23927 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/1/akroan-jailer) · oracle_id `e3ad2c77-2a41-4a4a-a6bf-e542d0162b88` · printing: ORI #1 (2015-07-17) · [rulings](https://api.scryfall.com/cards/8d96bc2b-2e31-4654-b192-c3f023d9fde6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Line Breaker
@@ -516,7 +623,11 @@
   > *The enemies' shields are the first to shatter, and their battle line is never far behind.*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/88/akroan-line-breaker) · oracle_id `01443d75-3f86-45c0-81fa-fbf1b3175d4f` · printing: JOU #88 (2014-05-02) · [rulings](https://api.scryfall.com/cards/a5114db5-b545-43dc-85a3-c0e68ab22a95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/88/akroan-line-breaker) · oracle_id `01443d75-3f86-45c0-81fa-fbf1b3175d4f` · printing: JOU #88 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Mastiff
 
@@ -528,6 +639,7 @@
 - **Flavor text** (JOU printing):
   > *Even when many of the soldiers who guarded Akros were called away, its safety was never in doubt.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22153 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/3/akroan-mastiff) · oracle_id `6039b9b7-e49a-4ea3-887c-a17dd502d63f` · printing: JOU #3 (2014-05-02) · [rulings](https://api.scryfall.com/cards/7e21938b-46b1-4b2f-8269-0cd0e998cddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Phalanx
@@ -542,6 +654,7 @@
   > *Shields up, spears out, heels set, hearts firm.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28506 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/2/akroan-phalanx) · oracle_id `0edd4894-0df0-4a4e-8a96-d20360ea81c7` · printing: BNG #2 (2014-02-07) · [rulings](https://api.scryfall.com/cards/fe23019a-e432-4a27-8acb-b17728a1e8b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Sergeant
@@ -554,7 +667,11 @@
   > Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)
 - **Keywords:** Renown, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28240 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/130/akroan-sergeant) · oracle_id `8a206c6f-4f6f-4c31-9dab-d73a57db989c` · printing: ORI #130 (2015-07-17) · [rulings](https://api.scryfall.com/cards/31913547-460c-45b3-be23-89f0e3a43325/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
+  - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
+  - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/130/akroan-sergeant) · oracle_id `8a206c6f-4f6f-4c31-9dab-d73a57db989c` · printing: ORI #130 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Skyguard
 
@@ -568,7 +685,11 @@
   > *"Trust me. When you have earned a god's favor, you'll know."*
 - **Keywords:** Flying, Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/3/akroan-skyguard) · oracle_id `f4e8be6f-2a1f-47b2-a4d8-7e576e25ab60` · printing: BNG #3 (2014-02-07) · [rulings](https://api.scryfall.com/cards/d55e85c3-234e-49c4-a307-96fb4497eea8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/3/akroan-skyguard) · oracle_id `f4e8be6f-2a1f-47b2-a4d8-7e576e25ab60` · printing: BNG #3 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Angel of Fury
 
@@ -582,7 +703,11 @@
   > Morph {3}{R}{R}{R} (You may cast this card face down as a 2/2 creature for {3}. Turn her face up any time for her morph cost.)
 - **Keywords:** Flying, Morph, Protection, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6902 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/19/akroma-angel-of-fury) · oracle_id `2b80faaf-92fd-4fa0-a3f6-8bb263e7ff1d` · printing: FRC #19 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b5ac7bd-3788-4c8b-b945-c1105986807a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — A spell or ability that counters spells can still target Akroma. When that spell or ability resolves, Akroma won't be countered, but any additional effects of the countering spell or ability will still happen.
+  - *2021-03-19* — If Akroma, Angel of Fury is cast face down, it can be countered.
+  - *2021-03-19* — In a Commander game where Akroma is your commander, you may cast it face down from the command zone by paying {3} plus {2} for each time it has been cast from your command zone. The cost to turn it face up is unaffected. While face down, the combat damage it deals is still counted as damage dealt by your commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/19/akroma-angel-of-fury) · oracle_id `2b80faaf-92fd-4fa0-a3f6-8bb263e7ff1d` · printing: FRC #19 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Angel of Wrath
 
@@ -595,6 +720,7 @@
   > *"Wrath is no vice when inflicted upon the deserving."*
 - **Keywords:** Flying, Vigilance, First strike, Protection, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4471 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/73/akroma-angel-of-wrath) · oracle_id `107f204c-9fd3-490d-8887-be63d14fc6a4` · printing: C20 #73 (2020-04-17) · [rulings](https://api.scryfall.com/cards/bf1ef8ec-d915-41f2-b087-3d6d82e3db85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Blessing
@@ -608,7 +734,9 @@
   > *The clerics saw her as a divine gift. She saw them only as allies in her war against Phage.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13377 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/11/akromas-blessing) · oracle_id `a3fc6888-0a4b-4e1d-b709-042b8b6b1a04` · printing: VMA #11 (2014-06-16) · [rulings](https://api.scryfall.com/cards/be43fdd6-917e-4a49-a9b8-d1673b421dce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/11/akromas-blessing) · oracle_id `a3fc6888-0a4b-4e1d-b709-042b8b6b1a04` · printing: VMA #11 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Devoted
 
@@ -620,6 +748,7 @@
 - **Flavor text** (LGN printing):
   > *Akroma asked for only one thing from her troops: unwavering, unconditional loyalty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21834 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/2/akromas-devoted) · oracle_id `d264903b-d23e-48c8-95f1-cb1606a705a2` · printing: LGN #2 (2003-02-03) · [rulings](https://api.scryfall.com/cards/798893df-e720-471d-822d-50284de23efd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Memorial
@@ -632,6 +761,7 @@
   > *"No rest. No mercy. No matter what."*
   > *—Memorial inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1211 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/262/akromas-memorial) · oracle_id `967e8b3f-8266-4d9a-a38b-d0e10184e1e4` · printing: TSR #262 (2021-03-19) · [rulings](https://api.scryfall.com/cards/950ee61d-0bc1-4d7b-ba68-157061aa98eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Vengeance
@@ -645,7 +775,9 @@
   > *"Many must die for the one who should not have perished."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/74/akromas-vengeance) · oracle_id `ae19dce5-c9fc-4fbe-99b5-dc6a12124a68` · printing: C20 #74 (2020-04-17) · [rulings](https://api.scryfall.com/cards/e45b4cba-cd60-4491-a334-30976d0990b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/74/akromas-vengeance) · oracle_id `ae19dce5-c9fc-4fbe-99b5-dc6a12124a68` · printing: C20 #74 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Will
 
@@ -656,7 +788,14 @@
   > • Creatures you control gain flying, vigilance, and double strike until end of turn.
   > • Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/125/akromas-will) · oracle_id `fd949f82-fc10-4e37-8aa9-6c7569fe3c55` · printing: LCC #125 (2023-11-17) · [rulings](https://api.scryfall.com/cards/608cdbdb-6f7e-438a-bab0-0e7782435f0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-11-10* — Even though the card is named after a specific character, controlling any commander will satisfy its condition.
+  - *2020-11-10* — Once you've announced that you're casting a spell, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2020-11-10* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
+  - *2020-11-10* — The commander you control doesn't have to be your commander.
+  - *2020-11-10* — There's no extra bonus if you control more than one commander.
+  - *2025-11-17* — "Protection from each color" is shorthand for protection from white, from blue, from black, from red, and from green. Colorless is not a color.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/125/akromas-will) · oracle_id `fd949f82-fc10-4e37-8aa9-6c7569fe3c55` · printing: LCC #125 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Vision of Ixidor
 
@@ -669,7 +808,19 @@
   > Partner
 - **Keywords:** Flying, Vigilance, First strike, Partner, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5180 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/2/akroma-vision-of-ixidor) · oracle_id `b9be5ce9-08bb-4361-940c-9031e429ba86` · printing: CMR #2 (2020-11-20) · [rulings](https://api.scryfall.com/cards/c0bdd07d-9fb9-4ee4-80db-494ee0cba58d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2020-11-10* — A creature with more than one instances of one of the listed keywords gets just +1/+1 for that keyword. Similarly, if a creature has multiple variants of the same keyword (e.g. protection from black and from red), it gets just +1/+1 for that keyword.
+  - *2020-11-10* — A creature with more than one of the listed keyword gets +1/+1 for each of those keywords it has.
+  - *2020-11-10* — Akroma's ability refers only to creatures with partner or "partner with" abilities, not creatures with any other partner variant (such as choose a Background or friends forever).
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — Which creatures are affected and the size of their individual bonuses is determined only as Akroma's triggered ability resolves. Gaining or losing keywords after that time won't cause a creature to grow or shrink.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/2/akroma-vision-of-ixidor) · oracle_id `b9be5ce9-08bb-4361-940c-9031e429ba86` · printing: CMR #2 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akron Legionnaire
 
@@ -679,7 +830,9 @@
 - **Oracle text:**
   > Except for creatures named Akron Legionnaire and artifact creatures, creatures you control can't attack.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/1/akron-legionnaire) · oracle_id `c5f50a78-9dc4-4f3c-aa11-b41c8278bc16` · printing: ME3 #1 (2009-09-07) · [rulings](https://api.scryfall.com/cards/b3e10240-8a4f-410f-a9b2-5df89d7038df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you have two or more Legionnaires, they can all attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/1/akron-legionnaire) · oracle_id `c5f50a78-9dc4-4f3c-aa11-b41c8278bc16` · printing: ME3 #1 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aku Djinn
 
@@ -694,7 +847,9 @@
   > *—Mangara*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26136 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/51/aku-djinn) · oracle_id `233c6686-ead8-4569-941d-3bfa768ff270` · printing: VIS #51 (1997-02-03) · [rulings](https://api.scryfall.com/cards/369a5df5-fc36-476c-84f4-ec4bdeb4f9d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-02-01* — Only puts counters on creatures your opponents control, so in the Two-Headed Giant format, won’t put counters on your teammate’s creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/51/aku-djinn) · oracle_id `233c6686-ead8-4569-941d-3bfa768ff270` · printing: VIS #51 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akul the Unrepentant
 
@@ -708,6 +863,7 @@
   > *Crackling with rage and stolen thunder, he drives the Hellspurs to ever-greater heights of violence.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11427 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/189/akul-the-unrepentant) · oracle_id `d6b56d6d-e2f6-47f5-a9d1-cd0e17f94a0d` · printing: OTJ #189 (2024-04-19) · [rulings](https://api.scryfall.com/cards/68fd8548-50db-4243-9154-377f32408d58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akuta, Born of Ash
@@ -720,4 +876,7 @@
   > At the beginning of your upkeep, if you have more cards in hand than each opponent, you may sacrifice a Swamp. If you do, return Akuta from your graveyard to the battlefield.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24533 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/61/akuta-born-of-ash) · oracle_id `29169659-309f-4e1c-86ba-1d36420ed41e` · printing: SOK #61 (2005-06-03) · [rulings](https://api.scryfall.com/cards/08730b49-e51e-4868-9cc8-4ddc4a1dce4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-06-01* — Akuta must already be in your graveyard as your upkeep begins in order for its ability to trigger.
+  - *2005-06-01* — In multiplayer games, it checks for each opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/61/akuta-born-of-ash) · oracle_id `29169659-309f-4e1c-86ba-1d36420ed41e` · printing: SOK #61 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

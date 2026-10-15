@@ -21,6 +21,7 @@
 - **Oracle text:**
   > Whenever this creature attacks, look at the top six cards of your library. You may put a Cat creature card from among them onto the battlefield tapped and attacking. Put the rest of the cards on the bottom of your library in a random order. If you don't put a card onto the battlefield this way, create a token that's a tapped and attacking copy of Lurrus of the Dream-Den.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04h/the-joiner-of-cats) · oracle_id `c6b6e42c-dfd4-43c1-a301-78b07918c686` · printing: UNK #RZ04h (2024-06-29) · [rulings](https://api.scryfall.com/cards/e4e62e22-25e0-4efd-9ec4-32edacd13eb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Jolly Balloon Man
@@ -33,7 +34,13 @@
   > {1}, {T}: Create a token that's a copy of another target creature you control, except it's a 1/1 red Balloon creature in addition to its other colors and types and it has flying and haste. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2516 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/219/the-jolly-balloon-man) · oracle_id `82ea519f-0e14-43d3-bf46-a1c5352e9600` · printing: DSK #219 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a3c4e2e0-1c0e-475d-a0f4-1be4216c2bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-09-20* — Except for the listed exceptions, the token created by The Jolly Balloon Man's ability copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-09-20* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-09-20* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token, with the stated exceptions.
+  - *2024-09-20* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the stated exception.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/219/the-jolly-balloon-man) · oracle_id `82ea519f-0e14-43d3-bf46-a1c5352e9600` · printing: DSK #219 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Judge of Height
 
@@ -45,6 +52,7 @@
   > The Judge of Height gets +1/+0 for each creature on the battlefield that it's taller than. (A creature's height is equal to its toughness plus its mana value.)
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05f/the-judge-of-height) · oracle_id `f868bc09-60dd-4fe5-8de2-a604ea0ace93` · printing: UNK #RZ05f (2024-10-25) · [rulings](https://api.scryfall.com/cards/0ad63f85-7ec7-4921-9984-f0a38f3b2bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Juzam Master
@@ -55,4 +63,5 @@
 - **Oracle text:**
   > Creatures you control get +1/+0 and have "At the beginning of your upkeep, this creature deals 1 damage to you."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB03e/the-juzam-master) · oracle_id `06d0cb93-82ea-4868-bfd4-3e2835dcd94e` · printing: UNK #RB03e (2024-06-29) · [rulings](https://api.scryfall.com/cards/40462719-7be6-4d6d-ac59-a0e820ed06d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -27,7 +27,11 @@
 - **Flavor text** (WHO printing):
   > *"The most damning is still to come. And when I have finished, this court will demand your life!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8287 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · [rulings](https://api.scryfall.com/cards/d63218a4-afaf-4ad8-9ca4-4f9af87877b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/165/the-valeyard) · oracle_id `ed202f1d-3511-45f4-bfbc-e6b76d4311d1` · printing: WHO #165 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Value Knight
 
@@ -41,6 +45,7 @@
   > *NAME*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU07a/the-value-knight) · oracle_id `30e1cddd-686a-437d-96ac-1bcb8f22f74c` · printing: UNK #RU07a (2024-02-24) · [rulings](https://api.scryfall.com/cards/540d1f33-85a4-4f1a-a994-37d5187d4434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vanquisher
@@ -51,6 +56,7 @@
   > Your starting hand size is increased by one.
   > Your maximum hand size is increased by one.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/6/the-vanquisher) · oracle_id `3aebafe3-5d5d-4163-bd52-70c71a9c23e2` · printing: THP2 #6 (2014-02-07) · [rulings](https://api.scryfall.com/cards/08a63083-997b-4a72-af48-cd35e6e9599d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vast Scrier
@@ -63,6 +69,7 @@
   > Whenever The Vast Scrier attacks a player, you may put a Soldier, Warrior, or Wizard creature card from your hand onto the battlefield tapped and attacking that player. If it has any "Whenever this creature attacks" triggers, those trigger. If you don't put a card onto the battlefield this way, scry 2.
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04u/the-vast-scrier) · oracle_id `173d63fa-c467-4871-b2e1-6507cf3fb2c2` · printing: UNK #RZ04u (2025-09-26) · [rulings](https://api.scryfall.com/cards/f3fe34d8-ee91-447d-a09f-15b41689ab13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vegetable Car
@@ -77,6 +84,7 @@
   > The Vegetable Car can be your commander.
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02/the-vegetable-car) · oracle_id `46c45085-9a2d-41e6-9f15-142676409c00` · printing: UNK #RZ02 (2025-06-20) · [rulings](https://api.scryfall.com/cards/9dd68ae8-6df7-4697-bed8-b8c50e51689e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision
@@ -92,6 +100,7 @@
   > • Technopathy — Draw a card.
 - **Keywords:** Density Control, Flying, Vigilance, Technopathy, Solar Beam
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7250 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/255/the-vision) · oracle_id `32aee76a-e738-4898-985a-801d1cce15ea` · printing: MSH #255 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2961cf20-33c8-4e66-9d0f-6daca8ea7880/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Vision and Scarlet Witch
@@ -106,4 +115,5 @@
   > *No matter how many times they are disassembled, teleported, or possessed, their love always brings them back together.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11700 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/707/the-vision-and-scarlet-witch) · oracle_id `33219792-f0a7-4849-bfca-70ee2d410b9e` · printing: MSC #707 (2026-06-26) · [rulings](https://api.scryfall.com/cards/930afb5f-54b7-4cca-8c28-3e48938f3a43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -27,6 +27,7 @@
   > *Held aloft by metabolized magic, trygons are ravenous for sources of mystic fuel.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3563 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/667/trygon-predator) · oracle_id `c744b5f4-fbcf-48b8-9d60-5e9c6ac297e0` · printing: FDN #667 (2024-11-15) · [rulings](https://api.scryfall.com/cards/cdb88a22-8086-4bf7-89e8-cce929440dd8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trygon Prime
@@ -40,7 +41,9 @@
   > *The walls of the Necron tomb were unbreakable. The ground beneath it was not.*
 - **Keywords:** Subterranean Assault
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/143/trygon-prime) · oracle_id `6b2d1d7b-a4b4-46c3-a50b-df7e60f39ee2` · printing: 40K #143 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f6a419b2-6586-4abf-9751-eabe568066ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — "That creature" refers to the other target attacking creature. It doesn't refer to Trygon Prime, even if you didn't choose a target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/143/trygon-prime) · oracle_id `6b2d1d7b-a4b4-46c3-a50b-df7e60f39ee2` · printing: 40K #143 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Try-My-Deck Elemental
 
@@ -53,6 +56,7 @@
   > The "legend rule" doesn't apply to commanders you control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW04f/try-my-deck-elemental) · oracle_id `1a9ebfcf-3392-40a0-84fa-d195dc2adc5a` · printing: UNK #RW04f (2023-07-29) · [rulings](https://api.scryfall.com/cards/69b51307-179b-4299-847a-6054ede6a6de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trynn, Champion of Freedom
@@ -65,7 +69,17 @@
   > At the beginning of your end step, if you attacked this turn, create a 1/1 white Human Soldier creature token.
 - **Keywords:** Partner with, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17230 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/1/trynn-champion-of-freedom) · oracle_id `76771556-3eb7-4f87-aaeb-32ea81105aa2` · printing: C20 #1 (2020-04-17) · [rulings](https://api.scryfall.com/cards/168d7532-c925-4a96-a756-2ce4dd0fec33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-04-17* — "Partner with [name]" represents two abilities. The first is a triggered ability: "When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library."
+  - *2020-04-17* — A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+  - *2020-04-17* — Both commanders start in the command zone, and the remaining 98 cards of your deck are shuffled to become your library.
+  - *2020-04-17* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Haldan and Pako are your commanders, your deck may contain cards with blue, red, and/or green in their color identity, but not cards with white or black.
+  - *2020-04-17* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
+  - *2020-04-17* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from one of them, not from both of them combined. Command Beacon's effect puts one into your hand from the command zone, not both.
+  - *2020-04-17* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+  - *2020-04-17* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
+  - *2020-04-17* — Trynn's ability checks only whether you declared an attacking creature during the turn. It doesn't trigger once for each such creature, and it doesn't check whether any attacking creatures dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/1/trynn-champion-of-freedom) · oracle_id `76771556-3eb7-4f87-aaeb-32ea81105aa2` · printing: C20 #1 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trystan, Callous Cultivator // Trystan, Penitent Culler
 
@@ -82,7 +96,17 @@
   > At the beginning of your first main phase, you may pay {G}. If you do, transform Trystan.
 - **Keywords:** Transform, Mill, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11854 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/199/trystan-callous-cultivator-trystan-penitent-culler) · oracle_id `961d1128-a022-480c-918e-16ba0abf844b` · printing: ECL #199 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2094f9b6-ce84-47d9-8819-81db14ba483f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-11-17* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-11-17* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-11-17* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-11-17* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-11-17* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all.
+  - *2025-11-17* — In some rare cases, this permanent might transform while its triggered ability that allows you to pay mana to transform it is still on the stack. (For example, another effect might cause that ability to trigger an additional time.) In such a case, even if you pay mana as the triggered ability resolves, this permanent won't transform because it already transformed while the triggered ability was on the stack.
+  - *2025-11-17* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Oko, Lorwyn Liege's color identity is green and blue, since its front face is blue, its rules text contains a green mana symbol, and its back face has a green color indicator as well as a blue mana symbol in its rules text.
+  - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/199/trystan-callous-cultivator-trystan-penitent-culler) · oracle_id `961d1128-a022-480c-918e-16ba0abf844b` · printing: ECL #199 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trystan's Command
 
@@ -95,4 +119,14 @@
   > • Destroy target creature or enchantment.
   > • Creatures target player controls get +3/+3 until end of turn. Untap them.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/247/trystans-command) · oracle_id `ecc4e230-a546-4cb4-987c-87300060bbe2` · printing: ECL #247 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ba1d99ca-740a-481a-be89-615e40d56d06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-11-17* — Any enters abilities of the copied permanent will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied permanent will also work.
+  - *2025-11-17* — If all of Trystan's Command's targets are illegal as it tries to resolve, it will do nothing. If at least one target is still legal, it will resolve and do as much as it can.
+  - *2025-11-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2025-11-17* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
+  - *2025-11-17* — Kindred is a card type that allows noncreature cards to have creature types. For example, Morcant's Eyes is an Elf (although not a creature) while on the battlefield and an Elf card (although not a creature card) in zones other than the battlefield.
+  - *2025-11-17* — Some older cards were originally printed with the "tribal" card type. That card type has been replaced with "kindred." This change does not affect the gameplay function of these cards.
+  - *2025-11-17* — The token created by the first mode of Trystan's Command copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2025-11-17* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/247/trystans-command) · oracle_id `ecc4e230-a546-4cb4-987c-87300060bbe2` · printing: ECL #247 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

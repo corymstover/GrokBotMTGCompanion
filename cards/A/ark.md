@@ -20,6 +20,7 @@
 - **Flavor text** (SCG printing):
   > *When opened, it erases entire landscapes from minds and maps.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25006 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/140/ark-of-blight) · oracle_id `b4505b07-ac99-4706-88b2-6164389e447c` · printing: SCG #140 (2003-05-26) · [rulings](https://api.scryfall.com/cards/f3b09956-cc34-4472-8b9f-ae355522bd5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ark of Hunger
@@ -33,4 +34,7 @@
   > *Few relics survived the turmoil of the Blood Age; those that did are powerful, dangerous, or both.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8556 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/173/ark-of-hunger) · oracle_id `2c654772-c786-4966-a46e-9556bbf31d7c` · printing: SOS #173 (2026-04-24) · [rulings](https://api.scryfall.com/cards/79d01c19-162b-4a12-9e27-18366d95eaa0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If more than one card is milled by Ark of Hunger's last ability (because of the effect of Bruvac the Grandiloquent's ability, for example), you may play any of the milled cards that turn.
+  - *2026-03-20* — If multiple cards leave your graveyard at the same time, Ark of Hunger's first ability will trigger only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/173/ark-of-hunger) · oracle_id `2c654772-c786-4966-a46e-9556bbf31d7c` · printing: SOS #173 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -35,6 +35,7 @@
   > Fuse (You may cast one or both halves of this card from your hand.)
 - **Keywords:** Split second, Fuse
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU03e/yeah-nah-nah-yeah) · oracle_id `f672ea4f-8268-4540-b30e-9307ac6a97bd` · printing: UNK #RU03e (2026-05-01) · [rulings](https://api.scryfall.com/cards/565abdb5-bc7d-43d2-b39f-5b6a5f4b9302/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yedora, Grave Gardener
@@ -47,7 +48,11 @@
 - **Flavor text** (DSC printing):
   > *"Even in death, we never stop growing."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3273 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/209/yedora-grave-gardener) · oracle_id `1fa20b05-cc06-4fb7-ae76-677a29e2185a` · printing: DSC #209 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7b852b55-bee1-46fc-87e4-5c01b90bbd43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — If one of these Forests is turned face up, the effect making it a Forest land will expire. The face-up permanent will again have its printed name, type line, mana cost, abilities, and so on.
+  - *2021-04-16* — If the face-down card has morph, you can pay its morph cost to turn it face up.
+  - *2021-04-16* — The face-down card has no name or colors. Its only type is land, its only subtype is Forest, and its only ability is "{T}: Add {G}."
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/209/yedora-grave-gardener) · oracle_id `1fa20b05-cc06-4fb7-ae76-677a29e2185a` · printing: DSC #209 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellowjacket, Heartless Marauder
 
@@ -61,6 +66,7 @@
   > *"They won't see me, but they'll certainly feel my sting."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20680 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/123/yellowjacket-heartless-marauder) · oracle_id `0a364879-31bd-4760-833d-165cde1e96c6` · printing: MSH #123 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d8f91212-2ff5-4024-8f14-86bb5c4a9754/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves Cavalry
@@ -73,7 +79,9 @@
   > This creature can't block.
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/125/yellow-scarves-cavalry) · oracle_id `8ff7e8e9-11b4-4a77-a423-70777f00482b` · printing: PTK #125 (1999-05-01) · [rulings](https://api.scryfall.com/cards/84460666-4f6b-422c-b20e-dc1651c66e15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/125/yellow-scarves-cavalry) · oracle_id `8ff7e8e9-11b4-4a77-a423-70777f00482b` · printing: PTK #125 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves General
 
@@ -87,7 +95,9 @@
   > *Zhang Jue, leader of the Yellow Scarves rebellion, was a Taoist master and tutored his soldiers in those arts.*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/126/yellow-scarves-general) · oracle_id `6fbade4d-502d-45d7-a79e-3fd9e3e7ccdf` · printing: PTK #126 (1999-05-01) · [rulings](https://api.scryfall.com/cards/06e98691-6227-41f2-a3f4-3131b07a3a6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/126/yellow-scarves-general) · oracle_id `6fbade4d-502d-45d7-a79e-3fd9e3e7ccdf` · printing: PTK #126 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yellow Scarves Troops
 
@@ -99,6 +109,7 @@
 - **Flavor text** (PTK printing):
   > *Over 500,000 commoners followed Zhang Jue, General of Heaven, in his attempt to overthrow the corrupt Han dynasty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31896 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/127/yellow-scarves-troops) · oracle_id `fcfa5671-a7b1-4170-9c72-f18a9eccfa31` · printing: PTK #127 (1999-05-01) · [rulings](https://api.scryfall.com/cards/3ca36a8d-ca44-485e-a219-85814f160c4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yenna, Redtooth Regent
@@ -112,7 +123,13 @@
   > *"My people are both bloom and thorn."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3004 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/219/yenna-redtooth-regent) · oracle_id `0adede77-5181-4190-8066-4797cefe0189` · printing: WOE #219 (2023-09-08) · [rulings](https://api.scryfall.com/cards/e635d461-254a-434e-8e5d-dea61dd8ca4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Any enters-the-battlefield abilities of the copied enchantment will trigger when the token enters the battlefield. Any "as [this enchantment] enters the battlefield" or "[this enchantment] enters the battlefield with" abilities of the enchantment will also work.
+  - *2023-09-01* — Except for the listed exceptions, the token copies exactly what was printed on the original enchantment and nothing else (unless that enchantment is itself copying something else; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2023-09-01* — If something becomes a copy of the token, the copy also isn't legendary.
+  - *2023-09-01* — If the copied enchantment has {X} in its mana cost, X is 0.
+  - *2023-09-01* — If the copied enchantment is copying something else, then the token enters the battlefield as whatever that creature copied, with the stated exceptions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/219/yenna-redtooth-regent) · oracle_id `0adede77-5181-4190-8066-4797cefe0189` · printing: WOE #219 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yennett, Cryptic Sovereign
 
@@ -126,7 +143,13 @@
   > *She talks using riddles her disciples alone can unravel.*
 - **Keywords:** Flying, Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8787 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign) · oracle_id `4eec6838-3565-407f-8941-ce9421402f0b` · printing: CMM #363 (2023-08-04) · [rulings](https://api.scryfall.com/cards/28ee11c9-fa23-4863-8a18-25a008f18da5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-07-13* — Because all attackers are chosen at once, a spell cast this way can't affect which creatures you can attack with, but it can affect which creatures will be able to block.
+  - *2018-07-13* — If a spell has {X} in its mana cost, you must choose 0 as the value of X if you cast it without paying its mana cost.
+  - *2018-07-13* — If the revealed card doesn't have an odd mana value or if that card does but you choose not to cast it, you draw a card. Keep in mind that revealing a card doesn't cause it to change zones. This means that the card you draw will be the card you revealed.
+  - *2018-07-13* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs, such as evoke costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast it.
+  - *2018-07-13* — If you wish to cast the revealed card without paying its mana cost, you must cast it while Yennett's triggered ability is resolving; you can't cast for free it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/363/yennett-cryptic-sovereign) · oracle_id `4eec6838-3565-407f-8941-ce9421402f0b` · printing: CMM #363 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yes Man, Personal Securitron
 
@@ -138,7 +161,11 @@
   > Wild Card — When Yes Man leaves the battlefield, its owner creates a tapped 1/1 white Soldier creature token for each quest counter on it.
 - **Keywords:** Wild Card
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3822 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/29/yes-man-personal-securitron) · oracle_id `16b8eab0-ccbd-4dbf-9998-82a4d85d0f77` · printing: PIP #29 (2024-03-08) · [rulings](https://api.scryfall.com/cards/8e2fac8c-a574-4414-ac68-632fc822ddbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-03-08* — If Yes Man isn't on the battlefield as its first ability resolves, or if the target opponent is an illegal target as the ability tries to resolve, nothing will happen. You won't draw two cards, because that effect is part of a reflexive triggered ability that triggers only if the target opponent gains control of Yes Man.
+  - *2024-03-08* — When Yes Man's controller leaves the game, if that player wasn't its owner, the effect giving that player control of Yes Man ends. Yes Man will return to the control of the player still in the game who most recently controlled it, ignoring any control effects whose durations have already expired.
+  - *2024-03-08* — When Yes Man's owner leaves the game, Yes Man leaves the game along with that player. It's just doing what it's told.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/29/yes-man-personal-securitron) · oracle_id `16b8eab0-ccbd-4dbf-9998-82a4d85d0f77` · printing: PIP #29 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yet Another Aether Vortex
 
@@ -151,7 +178,16 @@
 - **Flavor text** (UND printing):
   > *It puts the "vortex" in "flavortext."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/60/yet-another-aether-vortex) · oracle_id `77d1489b-e7c1-4185-9269-766ca554f0e8` · printing: UND #60 (2020-02-29) · [rulings](https://api.scryfall.com/cards/e5d85779-89f6-4f4e-b34a-d44a6d15ce06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-02-29* — A permanent card that becomes the top card of your library enters the battlefield (unless it went from the battlefield to the top of your library), so any enters-the-battlefield abilities will trigger and “as [this creature] enters the battlefield” abilities will apply. Similarly, a permanent card that stops being the top card of your library leaves the battlefield (unless it went from the top of your library to the battlefield directly).
+  - *2020-02-29* — If a creature you control that isn’t part of your library is put on top of your library, surprisingly little happens, at least at first. That creature doesn’t leave or enter the battlefield. It just stays on the battlefield. Of course, now that it’s also the top card of your library, you’ll probably draw it soon. This is also true if something puts the top card of your library directly onto the battlefield, without you having to play it.
+  - *2020-02-29* — If the top card is your library is an Aura card, that Aura is on the battlefield not attached to anything. As such, it’s put into your graveyard. The new top card of your library is then revealed.
+  - *2020-02-29* — If the top card of your library is a creature card and it’s put into your graveyard, the creature did die. Note that it wasn’t destroyed or sacrificed or anything. It just died. &lt;sad trombone noises>
+  - *2020-02-29* — If the top card of your library is a creature card, it can attack. It does have haste, after all. It can also block.
+  - *2020-02-29* — If the top card of your library is a creature, planeswalker, land, enchantment, or artifact card, it’s also on the battlefield. Ta-da! This is, as they say, very weird.
+  - *2020-02-29* — If the top card of your library is a permanent card with an activated ability that requires it to be tapped, that ability can be activated. Land cards on top of your library can be tapped for mana, and so on.
+  - *2020-02-29* — If you are instructed to draw multiple cards, you draw them one at a time. Each card you draw after the first becomes the top card of your library briefly and is revealed. Each permanent card revealed this way enters and then leaves the battlefield, for any abilities that care about that.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/60/yet-another-aether-vortex) · oracle_id `77d1489b-e7c1-4185-9269-766ca554f0e8` · printing: UND #60 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yet Another Night in Vegas
 
@@ -166,6 +202,7 @@
   > • Go to bed — Sacrifice this enchantment.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04g/yet-another-night-in-vegas) · oracle_id `062568d1-e948-4ad7-8132-a2594827c443` · printing: UNK #RB04g (2025-06-20) · [rulings](https://api.scryfall.com/cards/876cf344-8d2d-4c7f-8faa-394682269931/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yeva, Nature's Herald
@@ -180,7 +217,10 @@
   > *"I can call an army to my side in the blink of an eye. Best not blink."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3317 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/162/yeva-natures-herald) · oracle_id `2d513c3e-bd27-479e-af32-7f66d96d0de0` · printing: RVR #162 (2024-01-12) · [rulings](https://api.scryfall.com/cards/67ff9ba3-cd2b-4970-b4da-22104b10a4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-07-01* — Yeva's ability applies to green creature cards in any zone, provided something is allowing you to cast them. For example, if the top card of your library is a green creature card and you control Garruk's Horde, you can cast that card as though it had flash.
+  - *2012-07-01* — You still pay the costs for green creature spells you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/162/yeva-natures-herald) · oracle_id `2d513c3e-bd27-479e-af32-7f66d96d0de0` · printing: RVR #162 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yeva's Forcemage
 
@@ -192,7 +232,9 @@
 - **Flavor text** (CLU printing):
   > *"Nature can't be stopped. It rips and tears at Ravnica's tallest buildings to claim its place in the sun."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26849 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/181/yevas-forcemage) · oracle_id `785e451d-87b6-4772-97e5-d2744818e0fd` · printing: CLU #181 (2024-02-23) · [rulings](https://api.scryfall.com/cards/200a7f42-9642-4ba8-b3db-a8824282ca00/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Yeva’s Forcemage’s ability is mandatory, although you can choose Yeva’s Forcemage as the target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/181/yevas-forcemage) · oracle_id `785e451d-87b6-4772-97e5-d2744818e0fd` · printing: CLU #181 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yew Spirit
 
@@ -205,4 +247,7 @@
   > *"I wonder what dwelled in the primordial forests before humans existed."*
   > *—Elder Rimheit*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26769 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/207/yew-spirit) · oracle_id `0333cb81-5f44-4f31-9ee7-725e4f6af7b3` · printing: AVR #207 (2012-05-04) · [rulings](https://api.scryfall.com/cards/b9320432-4f89-4363-91e6-2e740535cc2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — The value of X is determined when the ability resolves. The bonus won't change later in the turn if the creature's power changes.
+  - *2017-07-14* — If this creature's power is negative as its ability resolves, X is considered to be 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/207/yew-spirit) · oracle_id `0333cb81-5f44-4f31-9ee7-725e4f6af7b3` · printing: AVR #207 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

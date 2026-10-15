@@ -28,7 +28,12 @@
   > *"Our enemies have breached our realm. To survive, the clans must fight as one!"*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3585 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/222/maja-bretagard-protector) · oracle_id `0a2075b5-9609-433d-bcd2-e0a637456cf8` · printing: KHM #222 (2021-02-05) · [rulings](https://api.scryfall.com/cards/cc3707f1-ed9d-412e-a7be-b6d8b554bd6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-02-05* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to creatures you control may become lethal if Maja, Bretagard Protector leaves the battlefield that turn.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/222/maja-bretagard-protector) · oracle_id `0a2075b5-9609-433d-bcd2-e0a637456cf8` · printing: KHM #222 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Auricorn
 
@@ -41,6 +46,7 @@
   > Whenever this creature mutates, you gain 4 life.
 - **Keywords:** Mutate, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14689 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/22/majestic-auricorn) · oracle_id `9c13f77a-800c-4fb6-b54a-89a96e12d279` · printing: IKO #22 (2020-04-24) · [rulings](https://api.scryfall.com/cards/8df320c9-449a-457e-8688-f611aceb3352/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Genesis
@@ -50,7 +56,9 @@
 - **Oracle text:**
   > Reveal the top X cards of your library, where X is the greatest mana value of a commander you own on the battlefield or in the command zone. You may put any number of permanent cards from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5854 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/240/majestic-genesis) · oracle_id `15039c85-31e2-4a2b-82f8-2f8270ff9a00` · printing: CLB #240 (2022-06-10) · [rulings](https://api.scryfall.com/cards/eaadb067-4a77-4d6e-931d-447bd0c06594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-06-10* — If your commander is under the control of another player as Majestic Genesis resolves, it is still on the battlefield and will still be used to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/240/majestic-genesis) · oracle_id `15039c85-31e2-4a2b-82f8-2f8270ff9a00` · printing: CLB #240 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Heliopterus
 
@@ -65,6 +73,7 @@
   > *—Huatli*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/131/majestic-heliopterus) · oracle_id `d3b49970-46b7-441b-bff8-8403d982b8a7` · printing: LCC #131 (2023-11-17) · [rulings](https://api.scryfall.com/cards/637741c4-5420-4a54-839e-4fd454d93172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Metamorphosis
@@ -77,7 +86,10 @@
 - **Flavor text** (SNC printing):
   > *New Capenna's statues hold Old Capenna's secrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/48/majestic-metamorphosis) · oracle_id `5779d9b2-4de1-4aa4-a56d-0da05146743a` · printing: SNC #48 (2022-04-29) · [rulings](https://api.scryfall.com/cards/bcaebea6-9e3f-4ac7-abe1-5445912f5b44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-04-29* — Majestic Metamorphosis overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Majestic Metamorphosis resolves will overwrite this effect.
+  - *2022-04-29* — The target artifact or creature retains its original abilities and colors, if any.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/48/majestic-metamorphosis) · oracle_id `5779d9b2-4de1-4aa4-a56d-0da05146743a` · printing: SNC #48 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Myriarch
 
@@ -88,7 +100,14 @@
   > Majestic Myriarch's power and toughness are each equal to twice the number of creatures you control.
   > At the beginning of each combat, this creature gains flying until end of turn if you control a creature with flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/182/majestic-myriarch) · oracle_id `c39dca94-3849-4edb-bba9-e7a2eefa5021` · printing: C20 #182 (2020-04-17) · [rulings](https://api.scryfall.com/cards/457d66b3-f059-4b2f-91b0-96568e1b17f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-07-14* — If a creature gains one of the listed abilities before Majestic Mryiarch's triggered ability resolves, perhaps due to another ability that triggered at the beginning of combat, Majestic Myriarch will gain that ability.
+  - *2017-07-14* — Majestic Myriarch's first ability applies in all zones. While it's on the battlefield, it counts itself, so it'll be at least 2/2.
+  - *2017-07-14* — Majestic Myriarch's second ability triggers at the beginning of each combat, not just combat on your turn, whether or not any creatures you control have any of the listed abilities. 
+  - *2017-07-14* — Multiple instances of any of the abilities Majestic Myriarch can gain are redundant.
+  - *2017-07-14* — Which abilities Majestic Myriarch gains is determined as the ability resolves. They won't change even if every other creature that has the abilities leaves the battlefield or if creatures enter the battlefield or gain abilities.
+  - *2020-01-24* — If one of those creatures has one or more variants of the listed keywords (for example, hexproof from white), this creature gains those specific variants.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/182/majestic-myriarch) · oracle_id `c39dca94-3849-4edb-bba9-e7a2eefa5021` · printing: C20 #182 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Major Teroh
 
@@ -102,4 +121,5 @@
   > *"I am the holy wind that shall avenge the Cabal's victims."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24848 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/8/major-teroh) · oracle_id `fb52dbf1-0cbc-4e1d-8ded-0498b529b4b8` · printing: TOR #8 (2002-02-04) · [rulings](https://api.scryfall.com/cards/3229ca5a-5340-48b8-bd46-b0b924c8faf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

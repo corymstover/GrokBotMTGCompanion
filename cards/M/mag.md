@@ -123,7 +123,15 @@
 - **Oracle text:**
   > {1}{B}{R}: Note the name of target instant or sorcery card in your graveyard and put it onto the battlefield face down. It's a 3/3 creature with "Whenever this creature deals combat damage to a player, you may create a copy of the card with the noted name. You may cast the copy without paying its mana cost" and "If this creature would leave the battlefield, exile it instead of putting it anywhere else."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11475 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/171/magar-of-the-magic-strings) · oracle_id `f6fee76b-5c34-4e95-962d-d2b38fcef540` · printing: UNF #171 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a6f2ba13-cd72-4f7a-8443-8e3962f2ac46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — If a creature enters the battlefield as a copy of a face-down creature (or if a token is created that’s a copy of one), that copy has the same characteristics as the face-down creature (in this case, it’s a 3/3 creature with the two abilities and no other characteristics), even though the copy is face up. Importantly, the noted name is not part of the face-down creature’s copiable values, so copies of the face-down creature won’t know the noted name. If one deals combat damage to a player, its controller won’t create a copy of any card.
+  - *2022-10-07* — If a face-down permanent you control leaves the battlefield, or if the game ends or you leave the game while you control it, you must reveal it to all players (even though in this case, everyone saw it before it entered).
+  - *2022-10-07* — If an effect tries to “blink” a face-down instant or sorcery card—that is, exile it and then return it to the battlefield—the card is exiled and remains in exile.
+  - *2022-10-07* — The face-down creature has no characteristics other than the ones given to it by Magar’s ability. It has no name, no mana cost, no creature types, and no abilities other than the two Magar gives it. The creature is colorless and has a mana value of 0.
+  - *2022-10-07* — There are no cards in this set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
+  - *2022-10-07* — You may look at face-down permanents you control at any time.
+  - *2022-10-07* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (Magar’s ability, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/171/magar-of-the-magic-strings) · oracle_id `f6fee76b-5c34-4e95-962d-d2b38fcef540` · printing: UNF #171 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maga, Traitor to Mortals
 
@@ -134,6 +142,7 @@
   > Maga enters with X +1/+1 counters on it.
   > When Maga enters, target player loses life equal to the number of +1/+1 counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20449 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/81/maga-traitor-to-mortals) · oracle_id `1fb1afc0-a3bf-4368-9ca0-47dd8c4c3c60` · printing: SOK #81 (2005-06-03) · [rulings](https://api.scryfall.com/cards/2563fd68-afdd-466f-8137-0769565674bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magda, Brazen Outlaw
@@ -147,7 +156,10 @@
   > Sacrifice five Treasures: Search your library for an artifact or Dragon card, put that card onto the battlefield, then shuffle.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1220 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/142/magda-brazen-outlaw) · oracle_id `3d268e48-3004-4384-bf52-e63243fb5e02` · printing: KHM #142 (2021-02-05) · [rulings](https://api.scryfall.com/cards/079e6263-e54c-4899-a336-5315909b9322/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — For the triggered ability to trigger, a Dwarf you control has to actually change from untapped to tapped. If an effect attempts to tap a Dwarf you control while it is already tapped, the ability won’t trigger.
+  - *2021-02-05* — Magda’s triggered ability doesn’t allow you to tap any Dwarves. You have to find some other way to tap them. Attacking is still a great way to go.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/142/magda-brazen-outlaw) · oracle_id `3d268e48-3004-4384-bf52-e63243fb5e02` · printing: KHM #142 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magda, the Hoardmaster
 
@@ -159,7 +171,13 @@
   > Sacrifice three Treasures: Create a 4/4 red Scorpion Dragon creature token with flying and haste. Activate only as a sorcery.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2009 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/133/magda-the-hoardmaster) · oracle_id `7fd2beb8-f823-4723-beec-e59b62127490` · printing: OTJ #133 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4443d112-209b-49ec-bc40-3a11dcdb092e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-04-12* — A player can commit only one crime per spell or ability they control. Targeting multiple opponents, permanents, spells, abilities, and/or cards with the same spell or ability doesn’t constitute committing multiple crimes.
+  - *2024-04-12* — A player commits a crime as they cast a spell, activate an ability, or put a triggered ability on the stack that targets at least one opponent, at least one permanent, spell, or ability an opponent controls, and/or at least one card in an opponent’s graveyard.
+  - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
+  - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
+  - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/133/magda-the-hoardmaster) · oracle_id `7fd2beb8-f823-4723-beec-e59b62127490` · printing: OTJ #133 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magebane Armor
 
@@ -171,7 +189,11 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15018 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/214/magebane-armor) · oracle_id `fc24af7b-f3d0-41d0-aaac-d83424455717` · printing: M10 #214 (2009-07-17) · [rulings](https://api.scryfall.com/cards/95b0f586-a100-4817-93f8-1ee2df39ce03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Combat damage is the damage that’s dealt automatically by attacking and blocking creatures, even if it’s redirected (by Harm’s Way, perhaps). Noncombat damage is any other damage (generally, it’s damage dealt as the result of a spell or ability).
+  - *2009-10-01* — Magebane Armor can equip a creature that doesn’t have flying. The “lose flying” effect just won’t do anything in that case.
+  - *2009-10-01* — Magebane Armor causes the equipped creature to lose flying at the time it became equipped. Any ability that grants that creature flying that starts to work later (such as a Jump that resolves later, or a Levitation that comes under your control later) will work normally.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/214/magebane-armor) · oracle_id `fc24af7b-f3d0-41d0-aaac-d83424455717` · printing: M10 #214 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magebane Lizard
 
@@ -184,7 +206,10 @@
   > *"I didn't miss. Blasted thing snatched my bolt out of the air and ate it!"*
   > *—Lilah, Slickshot boss*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/134/magebane-lizard) · oracle_id `0c38f159-367b-4e4b-94cd-bf1b0721c3a8` · printing: OTJ #134 (2024-04-19) · [rulings](https://api.scryfall.com/cards/62e12566-375f-4f31-aa91-1b13a96d9ece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Magebane Lizard’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-04-12* — Noncreature spells that were cast before Magebane Lizard entered the battlefield count. If Magebane Lizard enters the battlefield after a player has already cast a noncreature spell in the same turn, that spell will be counted by Magebane Lizard’s triggered ability if that player casts another noncreature spell that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/134/magebane-lizard) · oracle_id `0c38f159-367b-4e4b-94cd-bf1b0721c3a8` · printing: OTJ #134 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Duel
 
@@ -197,7 +222,11 @@
   > *"Remember the rules. No spells to the face!"*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/137/mage-duel) · oracle_id `763882f9-a7ad-4fb1-bdf4-c9a158d4b68e` · printing: STX #137 (2021-04-23) · [rulings](https://api.scryfall.com/cards/92325638-0321-4409-8910-2287c64c182e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — If the creature you control is an illegal target as Mage Duel tries to resolve, that creature won’t get +1/+2. If that creature is a legal target, but the one you don’t control isn’t, your creature will still get +1/+2. In both cases, no fight will happen and no creature will deal or be dealt damage.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Mage Duel). Mage Duel’s mana value is always 3, no matter what the total cost to cast it was.
+  - *2021-04-16* — You can’t cast Mage Duel unless you choose both a creature you control and a creature you don’t control as targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/137/mage-duel) · oracle_id `763882f9-a7ad-4fb1-bdf4-c9a158d4b68e` · printing: STX #137 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magefire Wings
 
@@ -210,6 +239,7 @@
   > *Giving a thing wings does not take away its fear of flight—or its fear of fire, for that matter.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28373 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/88/magefire-wings) · oracle_id `ea8c4a7d-f7fb-4620-b3a4-ae8280dd60d9` · printing: ARB #88 (2009-04-30) · [rulings](https://api.scryfall.com/cards/be18c2d9-60c4-454b-b6c7-7c22ed2985fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Hunter
@@ -222,7 +252,9 @@
 - **Flavor text** (STX printing):
   > *One of the Oriq's most powerful tools is the mage hunter, a vile monstrosity created to seek out and snuff out the arcane.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/76/mage-hunter) · oracle_id `e3d2df4d-8c79-4391-bc4e-69325958a5be` · printing: STX #76 (2021-04-23) · [rulings](https://api.scryfall.com/cards/56fcbe4a-2d98-4fa9-a6c3-e28255171a4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — Mage Hunter’s triggered ability will resolve before the spell that caused it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/76/mage-hunter) · oracle_id `e3d2df4d-8c79-4391-bc4e-69325958a5be` · printing: STX #76 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Hunters' Onslaught
 
@@ -234,6 +266,7 @@
 - **Flavor text** (STX printing):
   > *Extus stood before his alma mater for a moment, remembering first his studies, then his vengeance. At his command, the mage hunters unfolded.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23934 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/77/mage-hunters-onslaught) · oracle_id `22195e0e-a426-48d6-b100-480c7e2bd5cc` · printing: STX #77 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ed85140f-f0e0-4ac1-a67f-26d17ff95e31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage il-Vec
@@ -246,7 +279,9 @@
 - **Flavor text** (TPR printing):
   > *Living below a flowstone foundry produces a disproportionate number of fire mages among the il.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32041 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/140/mage-il-vec) · oracle_id `adea7db6-634c-4c5d-be40-264b4acffc53` · printing: TPR #140 (2015-05-06) · [rulings](https://api.scryfall.com/cards/672b4f9a-84e4-4a27-8d03-11a63a701fec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You must discard a card as part of the activation cost. You can't announce the ability unless you have a card in hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/140/mage-il-vec) · oracle_id `adea7db6-634c-4c5d-be40-264b4acffc53` · printing: TPR #140 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage-Ring Bully
 
@@ -260,7 +295,12 @@
   > *"Don't be rude, Beleren. We just want to enjoy the view with you."*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28945 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/154/mage-ring-bully) · oracle_id `a0b4fa95-4c61-40ff-b645-a1dbe8825750` · printing: ORI #154 (2015-07-17) · [rulings](https://api.scryfall.com/cards/1a129f22-dd7e-4b2c-a514-a2ac55bb5661/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-06-22* — Any spell you cast that doesn't have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won't cause prowess to trigger. Playing a land also won't cause prowess to trigger.
+  - *2015-06-22* — If, during its controller's declare attackers step, Mage-Ring Bully is tapped or is affected by a spell or ability that says it can't attack, then Mage-Ring Bully doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost. If they don't, Mage-Ring Bully doesn't have to attack.
+  - *2015-06-22* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2015-06-22* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/154/mage-ring-bully) · oracle_id `a0b4fa95-4c61-40ff-b645-a1dbe8825750` · printing: ORI #154 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage-Ring Network
 
@@ -271,6 +311,7 @@
   > {1}, {T}: Put a storage counter on this land.
   > {T}, Remove any number of storage counters from this land: Add {C} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4468 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1009/mage-ring-network) · oracle_id `136596a0-b179-40be-b42d-c0b992621c95` · printing: CMM #1009 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f060ea2b-717a-47ae-a4d6-b0594e838459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage-Ring Responder
@@ -283,7 +324,9 @@
   > {7}: Untap this creature.
   > Whenever this creature attacks, it deals 7 damage to target creature defending player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22928 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/232/mage-ring-responder) · oracle_id `1d84fb81-2de5-4be1-9638-9ae28e3d867a` · printing: ORI #232 (2015-07-17) · [rulings](https://api.scryfall.com/cards/7c60473d-5065-4e63-bfc2-a041a8ca48ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — The last ability triggers and resolves before blockers are declared. If the target creature is destroyed by the damage, it won’t be on the battlefield to block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/232/mage-ring-responder) · oracle_id `1d84fb81-2de5-4be1-9638-9ae28e3d867a` · printing: ORI #232 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage's Attendant
 
@@ -295,6 +338,7 @@
 - **Flavor text** (CLB printing):
   > *Crime sometimes makes unlikely allies into lifelong friends.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10725 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/698/mages-attendant) · oracle_id `94b1e7ed-87f3-44e6-bf34-186dd9a1a0d1` · printing: CLB #698 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e7039d47-276b-4c7c-acc3-94a9baae97e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mages' Contest
@@ -304,6 +348,7 @@
 - **Oracle text:**
   > You and target spell's controller bid life. You start the bidding with a bid of 1. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid. If you win the bidding, counter that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/154/mages-contest) · oracle_id `b0a6bf69-7e21-4d5c-ac72-5946d84fc2ca` · printing: INV #154 (2000-10-02) · [rulings](https://api.scryfall.com/cards/c516861c-68d9-4d02-a343-689dba0526c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage's Guile
@@ -317,7 +362,9 @@
   > *"Next time, don't bother."*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/91/mages-guile) · oracle_id `f371cdaf-7ab8-4555-8c96-61dfbf8c0179` · printing: ONS #91 (2002-10-07) · [rulings](https://api.scryfall.com/cards/301cb538-a931-4916-927b-4986046b1158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/91/mages-guile) · oracle_id `f371cdaf-7ab8-4555-8c96-61dfbf8c0179` · printing: ONS #91 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Slayer
 
@@ -331,7 +378,10 @@
   > *—Kresh the Bloodbraided*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/140/mage-slayer) · oracle_id `db444262-c40f-4c80-9d14-265c32f77cf1` · printing: NEC #140 (2022-02-18) · [rulings](https://api.scryfall.com/cards/e3226808-493e-4df2-9446-cb7cb47aaf2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — This ability triggers and resolves in the declare attackers step. The creature will still deal its combat damage as normal later on during the combat phase.
+  - *2009-05-01* — When the equipped creature attacks, the first ability will trigger. When that ability resolves, that creature will deal damage equal to its power to player or planeswalker it's attacking, even if Mage Slayer has left the battlefield or is equipping a different creature by that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/140/mage-slayer) · oracle_id `db444262-c40f-4c80-9d14-265c32f77cf1` · printing: NEC #140 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mageta's Boon
 
@@ -346,6 +396,7 @@
   > *—Kipamu saying*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26848 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/14/magetas-boon) · oracle_id `e3e5b12c-2103-4b40-83d8-6d5449179b6f` · printing: PCY #14 (2000-06-05) · [rulings](https://api.scryfall.com/cards/22db8a3b-413d-4f4d-b103-f50fc0415e9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mageta the Lion
@@ -358,6 +409,7 @@
 - **Flavor text** (PCY printing):
   > *In the jungle of war there is always a Lion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21477 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/13/mageta-the-lion) · oracle_id `cd170b1c-879b-414e-9f0e-5e7fb099e7bb` · printing: PCY #13 (2000-06-05) · [rulings](https://api.scryfall.com/cards/5861dffc-5afa-44a3-a3fa-9fd440093377/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage Tower Referee
@@ -370,7 +422,9 @@
 - **Flavor text** (SOS printing):
   > *Incapable of choosing a favorite and invulnerable to the influence of magic, it is an ideal and obnoxiously accurate referee.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23630 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/249/mage-tower-referee) · oracle_id `3f27988b-0863-4cc1-8eb9-83bd0cd8561c` · printing: SOS #249 (2026-04-24) · [rulings](https://api.scryfall.com/cards/1ceb704a-97a8-49f9-b799-30f001404144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — Mage Tower Referee's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/249/mage-tower-referee) · oracle_id `3f27988b-0863-4cc1-8eb9-83bd0cd8561c` · printing: SOS #249 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magewright's Stone
 
@@ -381,7 +435,10 @@
 - **Flavor text** (DIS printing):
   > *The stones hark back to an age before civilization, when the living earth blessed all who trod its untamed wilds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/162/magewrights-stone) · oracle_id `9e500094-c430-4c10-89cc-97f4f18b08bc` · printing: DIS #162 (2006-05-05) · [rulings](https://api.scryfall.com/cards/d27e8442-91ce-4106-bfc6-a1f6e0e34c2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-05-01* — If an activated ability with {T} in its cost is granted to a creature by an effect (such as Hypervolt Grasp’s effect, for instance), Magewright’s Stone can untap that creature.
+  - *2006-05-01* — This looks for the {T} symbol. The phrase “tap an untapped creature you control” isn’t the same and doesn’t count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/162/magewrights-stone) · oracle_id `9e500094-c430-4c10-89cc-97f4f18b08bc` · printing: DIS #162 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maggot Carrier
 
@@ -394,6 +451,7 @@
   > *"We do not suddenly fall on death, but advance towards it by slight degrees; we die every day."*
   > *—Seneca, \*Epistles\*, trans. Gummere*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22888 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/142/maggot-carrier) · oracle_id `e4ad4b81-3685-4f95-84c0-755263b9d3b1` · printing: 8ED #142 (2003-07-28) · [rulings](https://api.scryfall.com/cards/cd2ee72e-68d3-46b9-abc6-08532ce412b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maggot Therapy
@@ -409,6 +467,7 @@
   > *—Orim*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/145/maggot-therapy) · oracle_id `ab4887e6-f71b-462d-9243-9ebe54da98f4` · printing: MMQ #145 (1999-10-04) · [rulings](https://api.scryfall.com/cards/6ab963aa-2304-4ee6-a8c7-c485c5133b40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magical Hack
@@ -418,7 +477,17 @@
 - **Oracle text:**
   > Change the text of target spell or permanent by replacing all instances of one basic land type with another. (For example, you may change "swampwalk" to "plainswalk." This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/101/magical-hack) · oracle_id `cba229fa-9035-405b-b091-3798898a37ee` · printing: 5ED #101 (1997-03-24) · [rulings](https://api.scryfall.com/cards/c2349d53-d9f0-450f-be96-463791ee7aab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2004-10-04* — Alters all occurrences of the chosen word in the text box and the type line of the given card.
+  - *2004-10-04* — Can target a card with no appropriate words on it, or even one with no words at all.
+  - *2004-10-04* — Changing the text of a spell will not allow you to change the targets of the spell because the targets were chosen when the spell was cast. The text change will (probably) cause it to be countered since the targets will be illegal.
+  - *2004-10-04* — If you change the text of a spell which is to become a permanent, the permanent will retain the text change until the effect wears off.
+  - *2004-10-04* — It can be used to change a land’s type from one basic land type to another. For example, Forest can be changed to Island so it produces blue mana. It doesn’t change the name of any permanent.
+  - *2004-10-04* — It can’t change a word to the same word. It must be a different word.
+  - *2004-10-04* — It only changes what is printed on the card (or set on a token when it was created or set by a copy effect). It will not change any effects that are on the permanent.
+  - *2004-10-04* — You can’t change proper nouns (i.e. card names) such as “Island Fish Jasconius”.
+  - *2004-10-04* — You choose the words to change on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/101/magical-hack) · oracle_id `cba229fa-9035-405b-b091-3798898a37ee` · printing: 5ED #101 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magical Hacker
 
@@ -430,6 +499,7 @@
 - **Flavor text** (UNH printing):
   > *1|= y()u (4|\| r3@d 7#][5, y0|_| /\r3 @ IVI0/\/$+3|2 &33|&lt;*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/37/magical-hacker) · oracle_id `260071d7-9b72-4453-aa9f-5005b5a6df61` · printing: UNH #37 (2004-11-19) · [rulings](https://api.scryfall.com/cards/651626f5-aca6-4653-aa27-36c919566cb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### MagicConsecrated Sphinx
@@ -446,6 +516,7 @@
   > • Go to Sleep — Exile this creature, then return it to the battlefield under its owner's control.
 - **Keywords:** Flying, Investigate, Treasure, Go to Sleep
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU06a/magicconsecrated-sphinx) · oracle_id `c4206b91-1426-49d1-af3c-f4ca6f47bf28` · printing: UNK #RU06a (2025-02-21) · [rulings](https://api.scryfall.com/cards/edfa586d-8a4a-4603-96d8-60e5f74a290d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Damper
@@ -457,6 +528,7 @@
 - **Flavor text** (FIN printing):
   > *"You're gonna wish you hadn't."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2982 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/61/magic-damper) · oracle_id `ada82f93-dc93-4a95-a13f-42b5942b3413` · printing: FIN #61 (2025-06-13) · [rulings](https://api.scryfall.com/cards/44921b2e-5938-4f63-92b9-0b719a2f8c68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Designer
@@ -467,6 +539,7 @@
 - **Oracle text:**
   > When Magic Designer enters the battlefield, look at the top 10 cards of your library. You may reveal a playtest card from among them and put it into your hand, then put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UC02/magic-designer) · oracle_id `7c996399-29e5-463a-af70-36856863bce9` · printing: UNK #UC02 (2023-09-23) · [rulings](https://api.scryfall.com/cards/bca5d58e-4ecd-4a59-89de-b2ab8da2615f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Missile
@@ -479,7 +552,10 @@
 - **Flavor text** (AFR printing):
   > *A tried-and-true favorite of many wizards, whatever their school.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13142 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/154/magic-missile) · oracle_id `e48b8d78-3f8b-4bf8-853a-76c435bc31f0` · printing: AFR #154 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c814ac58-8826-48cd-8209-4af6803866e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If Magic Missile has one or more targets, and some (but not all) of them are illegal as Magic Missile tries to resolve, the amount of damage dealt to the remaining legal targets doesn't change. If all targets become illegal, Magic Missile won't resolve.
+  - *2021-07-23* — You divide the damage as you cast Magic Missile. Each target must be assigned at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/154/magic-missile) · oracle_id `e48b8d78-3f8b-4bf8-853a-76c435bc31f0` · printing: AFR #154 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Pot
 
@@ -493,6 +569,7 @@
   > *"Gimme elixir!"*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14054 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/263/magic-pot) · oracle_id `caed9999-74b8-43e3-a319-fa505c04c71c` · printing: FIN #263 (2025-06-13) · [rulings](https://api.scryfall.com/cards/57d07ca0-5618-4a90-a605-ca14a193ce3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Word
@@ -505,6 +582,7 @@
   > Whisper the chosen word: Tap enchanted creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/24/magic-word) · oracle_id `bf4f9e00-c0ae-447a-a2a9-f868e65942b0` · printing: UND #24 (2020-02-29) · [rulings](https://api.scryfall.com/cards/111f985b-d33e-4ecd-93d4-1be4a730463b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magik, Illyana Rasputin // Darkchild, Demon Uncaged
@@ -520,6 +598,7 @@
   > Pay 4 life: Darkchild gains indestructible until end of turn. Tap her.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29261 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/242/magik-illyana-rasputin-darkchild-demon-uncaged) · oracle_id `72d85d61-6bc3-4028-97c0-d5c34204a1df` · printing: MDD #242 (2027-04-09) · [rulings](https://api.scryfall.com/cards/60e252e3-88ea-49f2-a14f-ae9d0712bafe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magister of Worth
@@ -532,7 +611,13 @@
   > Will of the council — When this creature enters, starting with you, each player votes for grace or condemnation. If grace gets more votes, each player returns each creature card from their graveyard to the battlefield. If condemnation gets more votes or the vote is tied, destroy all creatures other than this creature.
 - **Keywords:** Flying, Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/223/magister-of-worth) · oracle_id `0429d146-332f-4fb0-8273-c73679ca6d47` · printing: C21 #223 (2021-04-23) · [rulings](https://api.scryfall.com/cards/e32b7d4b-60ac-4970-9af0-8c50623f6d64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/223/magister-of-worth) · oracle_id `0429d146-332f-4fb0-8273-c73679ca6d47` · printing: C21 #223 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magister Sphinx
 
@@ -546,7 +631,11 @@
   > *"These benighted worlds are thick with ignorance. I will educate them. They will listen, or they will die."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7285 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/247/magister-sphinx) · oracle_id `1d86ae29-4705-4bbc-8922-9b4e031df5b1` · printing: 2X2 #247 (2022-07-08) · [rulings](https://api.scryfall.com/cards/be662808-e452-407d-b142-bf6f30990b5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-02-01* — For a player's life total to become 10, what actually happens is that the player gains or loses the appropriate amount of life. For example, if the targeted player's life total is 4 when this ability resolves, it will cause that player to gain 6 life; alternately, if the targeted player's life total is 17 when this ability resolves, it will cause that player to lose 7 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+  - *2009-02-01* — This ability is not optional.
+  - *2010-06-15* — In a Two-Headed Giant game, this ability basically causes the team's life total to become 10, but only the targeted player is considered to have actually gained or lost life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/247/magister-sphinx) · oracle_id `1d86ae29-4705-4bbc-8922-9b4e031df5b1` · printing: 2X2 #247 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magistrate's Scepter
 
@@ -556,7 +645,9 @@
   > {4}, {T}: Put a charge counter on this artifact.
   > {T}, Remove three charge counters from this artifact: Take an extra turn after this one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5589 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/238/magistrates-scepter) · oracle_id `487485a6-cf79-48c0-bea9-0ec6b3ee253c` · printing: M19 #238 (2018-07-13) · [rulings](https://api.scryfall.com/cards/ecf1f24f-d910-4ec6-95d2-0ecaf9f051aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If multiple extra turns would be taken after this one, perhaps because more than one player has activated the last ability of their Magistrate’s Scepter, the most recently created one is taken first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/238/magistrates-scepter) · oracle_id `487485a6-cf79-48c0-bea9-0ec6b3ee253c` · printing: M19 #238 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magistrate's Veto
 
@@ -567,6 +658,7 @@
 - **Flavor text** (MMQ printing):
   > *The magistrate had been the goblins' puppet for so long that he made the right decisions with little prompting.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/204/magistrates-veto) · oracle_id `f50f8cac-35bf-4d4d-88c0-1c0c581f862c` · printing: MMQ #204 (1999-10-04) · [rulings](https://api.scryfall.com/cards/2f83d39e-bf49-4968-829e-c0e9abf2fb86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magitek Armor
@@ -579,6 +671,7 @@
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19793 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/24/magitek-armor) · oracle_id `0e9d8e12-b9da-4452-a758-5caffd8a752e` · printing: FIN #24 (2025-06-13) · [rulings](https://api.scryfall.com/cards/59c4a1a2-623c-43b2-8005-ecb5c6436c10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magitek Infantry
@@ -592,6 +685,7 @@
 - **Flavor text** (FIN printing):
   > *These cybersoldiers were specifically engineered to excel in combat, and serve as the powerhouse of the imperial infantry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26253 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/25/magitek-infantry) · oracle_id `563992ff-6fdf-45a0-afc2-7c73c2ec6f74` · printing: FIN #25 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b64dc6d7-dd01-4e66-9099-4c90865448df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magitek Scythe
@@ -604,6 +698,7 @@
   > Equip {2}
 - **Keywords:** Equip, A Test of Your Reflexes!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14096 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/562/magitek-scythe) · oracle_id `0d5bbde7-6f33-4708-b3ab-34d4528af649` · printing: FIN #562 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8b691d42-3498-4d47-9a46-f7c376df8886/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmablood Archaic
@@ -617,7 +712,14 @@
   > Whenever you cast an instant or sorcery spell, creatures you control get +1/+0 until end of turn for each color of mana spent to cast that spell.
 - **Keywords:** Reach, Converge, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/123/magmablood-archaic) · oracle_id `c6a5adc8-ee57-421e-8235-0b3160f44568` · printing: SOS #123 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4d611278-9948-4345-b4dd-aa6eaf21b233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2026-03-20* — Magmablood Archaic's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/123/magmablood-archaic) · oracle_id `c6a5adc8-ee57-421e-8235-0b3160f44568` · printing: SOS #123 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Burst
 
@@ -628,7 +730,16 @@
   > Magma Burst deals 3 damage to any target. If this spell was kicked, it deals 3 damage to another target.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31575 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/66/magma-burst) · oracle_id `f5af6d60-decd-4e04-8841-da2d3000a405` · printing: PLS #66 (2001-02-05) · [rulings](https://api.scryfall.com/cards/d9752bc3-0bdf-4657-8750-73c8cbc8e83f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2004-10-04* — The second target must be different from the first one.
+  - *2004-10-04* — You choose a second target only if you choose to pay the Kicker cost.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/66/magma-burst) · oracle_id `f5af6d60-decd-4e04-8841-da2d3000a405` · printing: PLS #66 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Giant
 
@@ -640,6 +751,7 @@
 - **Flavor text** (CM2 printing):
   > *Its open mouth is a furnace blast that blisters the skin. Its smoking fists are meteors that split the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/111/magma-giant) · oracle_id `f71d8073-d265-4387-8d08-0b9815fd2242` · printing: CM2 #111 (2018-06-08) · [rulings](https://api.scryfall.com/cards/55ebd81a-4711-459d-9d97-d9ea12892184/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Hellion
@@ -654,7 +766,12 @@
   > *The stadium is well-stocked with hazards to force the action if combatants show too much caution.*
 - **Keywords:** Assist, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30064 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/61/magma-hellion) · oracle_id `88f6575d-a6cb-4b2c-90dd-c6239f3c6e4d` · printing: BBD #61 (2018-06-08) · [rulings](https://api.scryfall.com/cards/ef9d02dc-4cb2-4ae1-84c3-e70aeb3c29ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-06-08* — Assist allows another player to pay for any amount of generic mana. If an effect changes the cost of the spell, the amount that player may pay will be more or less than the amount in the spell’s reminder text.
+  - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
+  - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
+  - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/61/magma-hellion) · oracle_id `88f6575d-a6cb-4b2c-90dd-c6239f3c6e4d` · printing: BBD #61 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Jet
 
@@ -666,7 +783,12 @@
   > *Some Akroans make the dangerous pilgrimage to the volcanic temples of Purphoros, where oracles known as flamespeakers glean omens from lava.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/346/magma-jet) · oracle_id `2f292253-64d3-4cf2-881f-a3eea4fda388` · printing: JMP #346 (2020-07-17) · [rulings](https://api.scryfall.com/cards/2975ce11-589a-4da8-a016-854bbaeb869c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/346/magma-jet) · oracle_id `2f292253-64d3-4cf2-881f-a3eea4fda388` · printing: JMP #346 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmakin Artillerist
 
@@ -679,7 +801,11 @@
   > When you cycle this card, it deals 1 damage to each opponent.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3019 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/137/magmakin-artillerist) · oracle_id `900b9409-9c16-414d-8674-2ea42c2415a1` · printing: DFT #137 (2025-02-14) · [rulings](https://api.scryfall.com/cards/2ac26341-a100-424d-be84-33fbbf1b4078/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card or discard any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2025-02-07* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
+  - *2025-02-07* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/137/magmakin-artillerist) · oracle_id `900b9409-9c16-414d-8674-2ea42c2415a1` · printing: DFT #137 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Mine
 
@@ -691,6 +817,7 @@
 - **Flavor text** (VIS printing):
   > *BOOM!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27694 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/149/magma-mine) · oracle_id `8a2726a4-29b7-4836-bd0a-9c0d914ed915` · printing: VIS #149 (1997-02-03) · [rulings](https://api.scryfall.com/cards/1aecc3df-7ce6-419c-b3d6-60fc28bfe941/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Opus
@@ -702,7 +829,13 @@
   > {U/R}{U/R}, Discard this card: Create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4932 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/318/magma-opus) · oracle_id `985f9dd7-e693-48ff-9dd6-a1a3cbaa236b` · printing: SOC #318 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0fd4a0f7-ba03-4158-95cd-4effe798aec0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If somehow all of Magma Opus's targets are illegal as it tries to resolve, none of its effects happen. You will not create an Elemental token or draw two cards.
+  - *2021-04-16* — The same permanent can be chosen as a target for each of the two instances of "target." That is, you can have Magma Opus both deal damage to a creature or planeswalker and then tap it. (We're having a hard time imagining why you would, but you're the brilliant student.)
+  - *2021-04-16* — You also choose how the 4 damage will be divided among the first group of targets as you cast Magma Opus. You must have at least 1 damage dealt to each of those targets.
+  - *2021-04-16* — You choose all targets for Magma Opus as you cast the spell. This includes up to four targets for the first effect and two target permanents for the second effect.
+  - *2021-04-16* — You must choose two different target permanents for the second effect. You may choose permanents that are already tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/318/magma-opus) · oracle_id `985f9dd7-e693-48ff-9dd6-a1a3cbaa236b` · printing: SOC #318 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Phoenix
 
@@ -715,6 +848,7 @@
   > {3}{R}{R}: Return this card from your graveyard to your hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/150/magma-phoenix) · oracle_id `9c6edb99-2625-4d80-a2e8-1b6039c0a960` · printing: M11 #150 (2010-07-16) · [rulings](https://api.scryfall.com/cards/b3857c9b-136d-4e6a-bd3b-92dab1b71947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Pummeler
@@ -726,7 +860,9 @@
   > This creature enters with X +1/+1 counters on it.
   > If damage would be dealt to this creature while it has a +1/+1 counter on it, prevent that damage and remove that many +1/+1 counters from it. When one or more counters are removed from this creature this way, it deals that much damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/169/magma-pummeler) · oracle_id `1a7c5807-afdc-4855-afd5-39839d96fc77` · printing: VOW #169 (2021-11-19) · [rulings](https://api.scryfall.com/cards/42f133d6-35c3-49b7-85f6-d6cfa6bac3d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If an amount of damage would be dealt to Magma Pummeler greater than the number of +1/+1 counters on it, all of that damage is prevented, and all of those counters are removed. In most cases, this will result in Magma Pummeler having 0 toughness, so it will be put into its owner's graveyard. Its reflexive triggered ability still triggers and it will still deal that much damage to any target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/169/magma-pummeler) · oracle_id `1a7c5807-afdc-4855-afd5-39839d96fc77` · printing: VOW #169 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmaquake
 
@@ -738,7 +874,9 @@
   > *"Where will you run when I punish you with the very ground you flee on?"*
   > *—Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/133/magmaquake) · oracle_id `a52037df-0be1-4c99-b9eb-b033157af203` · printing: AFC #133 (2021-07-23) · [rulings](https://api.scryfall.com/cards/8a8945b4-d2e1-4779-9c33-a8b062637fa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Magmaquake doesn't target any creature or planeswalker. For example, it will deal damage to a creature without flying that has hexproof.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/133/magmaquake) · oracle_id `a52037df-0be1-4c99-b9eb-b033157af203` · printing: AFC #133 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Rift
 
@@ -751,6 +889,7 @@
   > *"Lighting a fire needs kindling and heat. You be the kindling. I'll bring the heat."*
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29868 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/136/magma-rift) · oracle_id `0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca` · printing: ZEN #136 (2009-10-02) · [rulings](https://api.scryfall.com/cards/ee526306-6959-421c-9969-3c19b666d6da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmaroth
@@ -764,7 +903,9 @@
 - **Flavor text** (HOU printing):
   > *Sand into glass and flesh into ash—such are the markers of its domain.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/102/magmaroth) · oracle_id `ac5c2069-0706-4b85-a811-a522db016e3e` · printing: HOU #102 (2017-07-14) · [rulings](https://api.scryfall.com/cards/76f87128-2d12-467b-895d-943f318b7c38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-07-14* — Magmaroth’s second ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/102/magmaroth) · oracle_id `ac5c2069-0706-4b85-a811-a522db016e3e` · printing: HOU #102 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmasaur
 
@@ -775,6 +916,7 @@
   > This creature enters with five +1/+1 counters on it.
   > At the beginning of your upkeep, you may remove a +1/+1 counter from this creature. If you don't, sacrifice this creature and it deals damage equal to the number of +1/+1 counters on it to each creature without flying and each player.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27459 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/141/magmasaur) · oracle_id `da38bfdf-b4c8-4ffe-ad53-b42c317cae5f` · printing: TPR #141 (2015-05-06) · [rulings](https://api.scryfall.com/cards/dc628d2f-ca19-4ef0-8b8d-d3a831579b52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Sliver
@@ -787,7 +929,10 @@
 - **Flavor text** (LGN printing):
   > *As malleable as molten steel, but as dangerous as the finished blade.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/107/magma-sliver) · oracle_id `008ac258-763c-4379-bfcd-b9cc4d7296dd` · printing: LGN #107 (2003-02-03) · [rulings](https://api.scryfall.com/cards/9091d908-456f-4127-857d-b22fdb4f2fd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
+  - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/107/magma-sliver) · oracle_id `008ac258-763c-4379-bfcd-b9cc4d7296dd` · printing: LGN #107 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Spray
 
@@ -799,7 +944,9 @@
   > *"Ashes can't be embalmed."*
   > *—Neheb, initiate of Ahn crop*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17978 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/141/magma-spray) · oracle_id `fe16f1ab-58b4-4452-abe4-cbd9addd348f` · printing: AKH #141 (2017-04-28) · [rulings](https://api.scryfall.com/cards/988a7993-eb7d-4ae2-8a22-1676f517558b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-04-18* — Magma Spray's replacement effect will exile the target creature if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature even if Magma Spray deals no damage to it (due to a prevention effect) or Magma Spray deals damage to a different creature (due to a redirection effect).
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/141/magma-spray) · oracle_id `fe16f1ab-58b4-4452-abe4-cbd9addd348f` · printing: AKH #141 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Channeler
 
@@ -810,7 +957,12 @@
   > As long as there are four or more instant and/or sorcery cards in your graveyard, this creature gets +3/+1.
   > {T}, Discard a card: Exile the top two cards of your library, then choose one of them. You may play that card this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/148/magmatic-channeler) · oracle_id `382267da-c63c-432e-8a11-f803cf0e3a3a` · printing: ZNR #148 (2020-09-25) · [rulings](https://api.scryfall.com/cards/d8be6570-5b5f-4ffc-a5e5-67d7c41c8caa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — If you don’t play the exiled card you chose, it remains exiled. The card you didn’t choose remains exiled whether you play the chosen card or not.
+  - *2020-09-25* — Magmatic Channeler gets just +3/+1 from its first ability, no matter how many instant and sorcery cards are in your graveyard beyond the fourth.
+  - *2020-09-25* — You choose which card you’ll be allowed to play this turn while Magmatic Channeler’s ability is resolving, but you must follow the normal timing permissions and restrictions for the card when you play it. If it’s a land, you can’t play it unless you have land plays available.
+  - *2020-09-25* — You’ll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/148/magmatic-channeler) · oracle_id `382267da-c63c-432e-8a11-f803cf0e3a3a` · printing: ZNR #148 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Chasm
 
@@ -821,7 +973,9 @@
 - **Flavor text** (SOI printing):
   > *The Needle's Eye, a seldom-used passage that winds through Stensia's mountains, carries travelers close to Ashmouth—too close, some would argue.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18227 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/172/magmatic-chasm) · oracle_id `6cfd2cd8-a86e-48fe-a85a-9a3444b5030c` · printing: SOI #172 (2016-04-08) · [rulings](https://api.scryfall.com/cards/d4d5de8b-0286-4fca-86fd-e983a91f4a8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — Because Magmatic Chasm’s effect doesn’t change the characteristics of any permanents, the set of creatures affected by Magmatic Chasm is constantly updated. Creatures without flying that enter the battlefield later in the turn won’t be able to block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/172/magmatic-chasm) · oracle_id `6cfd2cd8-a86e-48fe-a85a-9a3444b5030c` · printing: SOI #172 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Core
 
@@ -832,7 +986,12 @@
   > At the beginning of your end step, this enchantment deals X damage divided as you choose among any number of target creatures, where X is the number of age counters on it.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30095 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/91/magmatic-core) · oracle_id `b9526bd5-ed83-466f-8819-e9a8487bbe77` · printing: CSP #91 (2006-07-21) · [rulings](https://api.scryfall.com/cards/98db70f9-1feb-4932-97be-02db824eda70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2006-07-15* — Each target must be assigned at least 1 damage.
+  - *2006-07-15* — If Magmatic Core has no age counters on it, the only number of targets the ability can have is zero.
+  - *2006-07-15* — The damage is divided when Magmatic Core’s ability triggers. Increasing or decreasing the number of age counters on Magmatic Core after the ability triggers but before it resolves has no effect on the amount of damage that’s dealt.
+  - *2019-07-12* — You can choose zero targets. In this case, Magmatic Core deals no damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/91/magmatic-core) · oracle_id `b9526bd5-ed83-466f-8819-e9a8487bbe77` · printing: CSP #91 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Force
 
@@ -844,7 +1003,10 @@
 - **Flavor text** (BBD printing):
   > *It's the pinnacle of utter destructiveness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10173 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/181/magmatic-force) · oracle_id `ea73153b-1ecb-4593-a9ec-ce4f54e69824` · printing: BBD #181 (2018-06-08) · [rulings](https://api.scryfall.com/cards/e98eb29b-af03-4a96-b84c-a0bd51f80f03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — In a Two-Headed Giant game, this ability triggers once at the beginning of each team’s upkeep.
+  - *2011-09-22* — The controller of Magmatic Force when its ability triggers always chooses the target, even when the ability triggers during another player’s upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bbd/181/magmatic-force) · oracle_id `ea73153b-1ecb-4593-a9ec-ce4f54e69824` · printing: BBD #181 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Galleon
 
@@ -857,7 +1019,9 @@
   > Crew 2
 - **Keywords:** Treasure, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7495 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/157/magmatic-galleon) · oracle_id `59322432-591a-4e8d-aff5-12ca1feb1028` · printing: LCI #157 (2023-11-17) · [rulings](https://api.scryfall.com/cards/4471a833-11b9-4146-a9c0-84a6896c94d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/157/magmatic-galleon) · oracle_id `59322432-591a-4e8d-aff5-12ca1feb1028` · printing: LCI #157 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Hellkite
 
@@ -869,7 +1033,10 @@
   > When this creature enters, destroy target nonbasic land an opponent controls. Its controller searches their library for a basic land card, puts it onto the battlefield tapped with a stun counter on it, then shuffles. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/111/magmatic-hellkite) · oracle_id `2a3b29c3-f69d-4671-8907-600d21528153` · printing: TDM #111 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b3b3aec8-d931-4c7f-86b5-1e7dfb717b59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — As long as Magmatic Hellkite’s last ability resolves, the target land’s controller gets to search for a basic land card even if the target land wasn’t destroyed by the ability. This may happen because the land has indestructible.
+  - *2025-04-04* — If the target land is an illegal target as Magmatic Hellkite’s last ability tries to resolve, it won’t resolve and none of its effects will happen. No player will search their library for a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/111/magmatic-hellkite) · oracle_id `2a3b29c3-f69d-4671-8907-600d21528153` · printing: TDM #111 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Insight
 
@@ -881,7 +1048,9 @@
 - **Flavor text** (OTC printing):
   > *Chief among the tenets of Purphoros is that one must destroy in order to create.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6303 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/173/magmatic-insight) · oracle_id `6a9031b6-3f4d-4a36-90e1-ac77b8518cee` · printing: OTC #173 (2024-04-19) · [rulings](https://api.scryfall.com/cards/991ea0b7-0368-4e21-b941-ec5c7103798f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — You must discard exactly one land card to cast Magmatic Insight. You can't cast it without discarding a land card, and you can't discard additional cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/173/magmatic-insight) · oracle_id `6a9031b6-3f4d-4a36-90e1-ac77b8518cee` · printing: OTC #173 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Sinkhole
 
@@ -894,7 +1063,11 @@
   > *Opening like the maw of a hellion, the earth swallowed the traveler whole.*
 - **Keywords:** Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21592 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/135/magmatic-sinkhole) · oracle_id `2da7f1b7-316b-4e8e-9fa3-5880b258d601` · printing: MH1 #135 (2019-06-14) · [rulings](https://api.scryfall.com/cards/94db1674-d72b-4c1f-b436-490e5363bee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Because delve isn’t an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn’t change a spell’s mana cost or mana value. For example, Treasure Cruise’s mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can’t exile more cards than the generic mana requirement of a spell with delve. For example, you can’t exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/135/magmatic-sinkhole) · oracle_id `2da7f1b7-316b-4e8e-9fa3-5880b258d601` · printing: MH1 #135 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Sprinter
 
@@ -907,6 +1080,7 @@
   > At the beginning of your end step, return this creature to its owner's hand unless you remove two oil counters from it.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21633 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/140/magmatic-sprinter) · oracle_id `85d025d9-158d-4bf1-b3b2-361f3fe59663` · printing: ONE #140 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2e6af42f-35ec-432f-9879-2a0fb938a9f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Vein
@@ -919,6 +1093,7 @@
   > *Standing near a volcano*
   > *—Barbarian expression meaning "asking for it"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/203/magma-vein) · oracle_id `9ae2bf71-c443-4814-b7c3-b3b82d595983` · printing: ODY #203 (2001-10-01) · [rulings](https://api.scryfall.com/cards/69ed2b52-2862-423c-8ce3-6c8232d9d92c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmaw
@@ -932,7 +1107,9 @@
   > *"The purpose of existence is simple: everything is fuel for the magmaw."*
   > *—Jaji, magmaw worshipper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25671 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/138/magmaw) · oracle_id `bc891258-2f22-4248-9972-4f41905744c6` · printing: UMA #138 (2018-12-07) · [rulings](https://api.scryfall.com/cards/08c571fe-54ef-4234-98c3-5d4a7b07e7d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You can sacrifice Magmaw to pay the cost for its own ability. It still deals 1 damage to the target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/138/magmaw) · oracle_id `bc891258-2f22-4248-9972-4f41905744c6` · printing: UMA #138 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnanimous Magistrate
 
@@ -943,6 +1120,7 @@
   > This creature enters with five reprieve counters on it.
   > Whenever another nontoken creature you control dies, if its mana value was 1 or greater, you may remove that many reprieve counters from this creature. If you do, return that card to the battlefield under its owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24699 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/7/magnanimous-magistrate) · oracle_id `ecd3ddd7-2fa8-466b-9319-ae51c744a05f` · printing: J22 #7 (2022-12-02) · [rulings](https://api.scryfall.com/cards/a6649e6c-bbd8-43db-9f3f-a24b32aed4e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Flux
@@ -954,6 +1132,7 @@
 - **Flavor text** (DST printing):
   > *After the researcher's astonishing success, his assistants spent six hours finding a way to return the specimens safely to the ground.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26884 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/25/magnetic-flux) · oracle_id `d50f756d-9ab6-4597-86ae-80beb70879ac` · printing: DST #25 (2004-02-06) · [rulings](https://api.scryfall.com/cards/03ab7022-fa0f-42da-b0ca-998cbd0c791c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Mine
@@ -963,7 +1142,9 @@
 - **Oracle text:**
   > Whenever another artifact is put into a graveyard from the battlefield, this artifact deals 2 damage to that artifact's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18482 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/113/magnetic-mine) · oracle_id `bbb50cf5-cd07-4ae8-bfa8-d747e44fb1ef` · printing: MBS #113 (2011-02-04) · [rulings](https://api.scryfall.com/cards/5ed2f7dc-3ada-4490-8c1f-1d03bd4840f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — Magnetic Mine will not trigger when it is put into a graveyard from the battlefield itself, although it will trigger if another artifact is put into the graveyard from the battlefield at the same time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/113/magnetic-mine) · oracle_id `bbb50cf5-cd07-4ae8-bfa8-d747e44fb1ef` · printing: MBS #113 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Mountain
 
@@ -973,6 +1154,7 @@
   > Blue creatures don't untap during their controllers' untap steps.
   > At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {4} for each creature chosen this way. If the player does, untap those creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23411 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/209/magnetic-mountain) · oracle_id `5c28fc22-7da6-4f15-b02b-6ff10981466c` · printing: 4ED #209 (1995-04-01) · [rulings](https://api.scryfall.com/cards/993a14d5-a33d-426e-ab49-c3226a6fcdca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Snuffler
@@ -986,7 +1168,9 @@
 - **Flavor text** (MKM printing):
   > *It recovers precious jewelry, murder weapons, and discarded food tins with equal excitement.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/254/magnetic-snuffler) · oracle_id `8f85088c-256d-4925-a4dd-aafcc2632282` · printing: MKM #254 (2024-02-09) · [rulings](https://api.scryfall.com/cards/70476534-2fc7-4872-a009-3380dd5ce2ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — You may target an Equipment card that can't legally be attached to Magnetic Snuffler with its first ability. If you do, it will enter the battlefield unattached.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/254/magnetic-snuffler) · oracle_id `8f85088c-256d-4925-a4dd-aafcc2632282` · printing: MKM #254 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Theft
 
@@ -997,7 +1181,9 @@
 - **Flavor text** (5DN printing):
   > *Among the Vulshok, the most prized blades are those that killed their original owners.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/74/magnetic-theft) · oracle_id `9b22cc97-003f-4227-acdc-7a0857674b67` · printing: 5DN #74 (2004-06-04) · [rulings](https://api.scryfall.com/cards/de0c1e37-fedc-43d9-97fd-b797c6c2fbbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — Magnetic Theft can cause an Equipment one player controls to be attached to a creature another player controls. The controller of the Equipment can pay the equip cost to move the Equipment to a creature they control (but only any time that player could cast a sorcery).
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/74/magnetic-theft) · oracle_id `9b22cc97-003f-4227-acdc-7a0857674b67` · printing: 5DN #74 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnetic Web
 
@@ -1008,6 +1194,7 @@
   > Whenever a creature with a magnet counter on it attacks, all creatures with magnet counters on them block that creature this turn if able.
   > {1}, {T}: Put a magnet counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20713 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/295/magnetic-web) · oracle_id `c62c8006-5650-43cb-8247-da097aa42376` · printing: TMP #295 (1997-10-14) · [rulings](https://api.scryfall.com/cards/9f3c7309-4efb-49ce-a9cc-a8f7b04c1a15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnificent End
@@ -1020,6 +1207,7 @@
 - **Flavor text** (HOB printing):
   > *The flames were near him. His companions were leaving him. He bent his bow for the last time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/20/magnificent-end) · oracle_id `82bdf9cb-61fe-4eaf-8762-c32002403d96` · printing: HOB #20 (2026-08-14) · [rulings](https://api.scryfall.com/cards/430c8916-1167-400b-9cad-d301f59d5e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnify
@@ -1031,6 +1219,7 @@
 - **Flavor text** (UDS printing):
   > *The seed torches' pollen gives off light, but the elves find it heightens their senses as well.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29959 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/111/magnify) · oracle_id `421c661a-24d9-4797-b538-2a4243825628` · printing: UDS #111 (1999-06-07) · [rulings](https://api.scryfall.com/cards/7b9bb2c6-f1a6-42c3-a7cb-3a1a46854c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnifying Glass
@@ -1045,7 +1234,11 @@
   > *—Argyle, Agency junior detective*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/255/magnifying-glass) · oracle_id `f2ce9e55-07c0-4f36-a59e-127693fc0f62` · printing: MKM #255 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c606a71f-8fb0-486b-955f-727ebf436946/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/255/magnifying-glass) · oracle_id `f2ce9e55-07c0-4f36-a59e-127693fc0f62` · printing: MKM #255 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnigoth Sentry
 
@@ -1058,6 +1251,7 @@
   > *When one of Yavimaya's enormous magnigoth trees awakens into a treefolk, it is a towering presence of physical strength and ancient wisdom.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/556/magnigoth-sentry) · oracle_id `b52824f9-7897-46b7-a4e5-a0261861cb5b` · printing: FDN #556 (2024-11-15) · [rulings](https://api.scryfall.com/cards/5624e610-c4c0-4103-a32b-0f1264030a7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnigoth Treefolk
@@ -1069,7 +1263,10 @@
   > Domain — For each basic land type among lands you control, this creature has landwalk of that type. (It can't be blocked as long as defending player controls a land of that type.)
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17026 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/82/magnigoth-treefolk) · oracle_id `b153e4c4-6557-43a6-8404-e4450f879945` · printing: PLS #82 (2001-02-05) · [rulings](https://api.scryfall.com/cards/90c2869b-43cf-4d5e-8a54-9ae200f5bff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/82/magnigoth-treefolk) · oracle_id `b153e4c4-6557-43a6-8404-e4450f879945` · printing: PLS #82 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnivore
 
@@ -1081,6 +1278,7 @@
   > Magnivore's power and toughness are each equal to the number of sorcery cards in all graveyards.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17752 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/202/magnivore) · oracle_id `882da1c6-7b86-4de0-9161-ce7c50f9c90c` · printing: 9ED #202 (2005-07-29) · [rulings](https://api.scryfall.com/cards/ab077f67-09c3-43d0-ad27-d1e6255c4d55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnus the Red
@@ -1094,7 +1292,14 @@
   > Blade of Magnus — Whenever Magnus the Red deals combat damage to a player, create a 3/3 red Spawn creature token.
 - **Keywords:** Flying, Blade of Magnus, Unearthly Power
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6375 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/131/magnus-the-red) · oracle_id `86c9b01e-18a2-4616-8e04-5343f97d2efe` · printing: 40K #131 (2022-10-07) · [rulings](https://api.scryfall.com/cards/63050aa0-a7ea-4fe7-8746-7a11407ea0e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-07* — Activating a permanent card's unearth ability isn't the same as casting it as a spell. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2022-10-07* — At the beginning of the end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed trigger won't trigger again. However, the replacement effect will still exile it if it eventually leaves the battlefield.
+  - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+  - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
+  - *2022-10-07* — The total cost to cast a spell is locked in before you pay that cost. For example, if you control three creature tokens, including one you can sacrifice to add {C}, the total cost to cast an instant with mana cost {4}{R} is {1}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
+  - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/131/magnus-the-red) · oracle_id `86c9b01e-18a2-4616-8e04-5343f97d2efe` · printing: 40K #131 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magosi, the Waterveil
 
@@ -1106,7 +1311,13 @@
   > {U}, {T}: Put an eon counter on this land. Skip your next turn.
   > {T}, Remove an eon counter from this land and return it to its owner's hand: Take an extra turn after this one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13830 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/218/magosi-the-waterveil) · oracle_id `4bdffa67-e6b3-4588-b76e-c11db6f043ca` · printing: ZEN #218 (2009-10-02) · [rulings](https://api.scryfall.com/cards/3c84cf70-4164-47ea-8da1-c0ca1ac132e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — As Magosi’s third ability resolves, you’ll skip your next turn even if you don’t put an eon counter on Magosi (because it’s left the battlefield by then, perhaps).
+  - *2009-10-01* — If you somehow activate Magosi’s third and fourth abilities during the same turn, the effects will cancel each other out. The turn you skip is the next one you would take, which is the turn created by Magosi’s fourth ability. It doesn’t matter in which order the abilities resolved.
+  - *2009-10-01* — If you take an extra turn in a Two-Headed Giant game, you entire team takes the extra turn.
+  - *2009-10-01* — You can activate Magosi’s fourth ability only if it has an eon counter on it.
+  - *2009-10-01* — You return Magosi to its owner’s hand as part of the cost to activate its fourth ability. If Magosi has more than one eon counter on it, you can’t activate the ability, untap it, then activate it again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/218/magosi-the-waterveil) · oracle_id `4bdffa67-e6b3-4588-b76e-c11db6f043ca` · printing: ZEN #218 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus Lucea Kane
 
@@ -1118,7 +1329,24 @@
   > Psychic Stimulus — {T}: Add {C}{C}. When you next cast a spell with {X} in its mana cost or activate an ability with {X} in its activation cost this turn, copy that spell or ability. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)
 - **Keywords:** Spiritual Leader, Psychic Stimulus
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7021 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/7/magus-lucea-kane) · oracle_id `ae9f5c80-bc96-4ab3-bb5b-e8bd470e9eab` · printing: 40K #7 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4f86e7cc-2b6e-49d0-964e-bba0c51cc11d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2022-10-07* — A copy is created even if the spell or ability that caused the delayed triggered ability to trigger has been countered by the time that delayed triggered ability resolves. The copy resolves before the original spell.
+  - *2022-10-07* — A spell or ability with a cost that includes X, but not the mana symbol {X}, won't be copied.
+  - *2022-10-07* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities are activated abilities and will have a colon in their reminder text. Triggered abilities (starting with "when," "whenever," or "at") that ask a player to pay {X} aren't copied.
+  - *2022-10-07* — Any choices made when the spell or ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves.
+  - *2022-10-07* — If a permanent spell is copied, it's put onto the battlefield as a token as the spell resolves rather than putting the copy of the spell onto the battlefield. The rules that apply to a permanent spell becoming a permanent apply to a copy of a spell becoming a token.
+  - *2022-10-07* — If the spell or ability has damage divided as it was put onto the stack, the division can't be changed, although the targets receiving that damage still can. The same is true of spells and abilities that distribute counters.
+  - *2022-10-07* — If the spell or ability that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2022-10-07* — Magus Lucea Kane's ability will copy any spell or activated ability whose mana cost or activation cost contains {X}, not just one with targets.
+  - *2022-10-07* — Spells with additional costs that include {X} won't be affected by Magus Lucea Kane. {X} must be in the spell's mana cost.
+  - *2022-10-07* — The copy has the same value of X.
+  - *2022-10-07* — The copy is created on the stack, so it's not "cast" or "activated." Creating the copy won't cause abilities that trigger when a player casts a spell or activates an ability to trigger.
+  - *2022-10-07* — The copy will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If the spell is a permanent spell with targets, such as an Aura, you may also choose a new target for that spell. The new targets must be legal. If, for any target, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2022-10-07* — The copy will resolve before the original spell or ability does.
+  - *2022-10-07* — The token that a resolving copy of a spell becomes isn't said to have been "created."
+  - *2022-10-07* — The {C}{C} created by the mana ability doesn't need to be spent on the next spell or ability with {X} in its cost in order to copy it. That spell or ability will be copied even if that mana is spent on something else or not spent on anything at all.
+  - *2022-10-07* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/7/magus-lucea-kane) · oracle_id `ae9f5c80-bc96-4ab3-bb5b-e8bd470e9eab` · printing: 40K #7 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Abyss
 
@@ -1130,7 +1358,10 @@
 - **Flavor text** (2XM printing):
   > *He climbs a staircase of falling souls, fighting the continuous pull of the void.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/97/magus-of-the-abyss) · oracle_id `66958c48-3ac7-4f41-aa3e-adacaa24ea4f` · printing: 2XM #97 (2020-08-07) · [rulings](https://api.scryfall.com/cards/9954157a-0c05-4788-8a0f-6093ebbb38c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Even though the player whose upkeep it is chooses the target creature, you control the ability. An opponent can't target a creature with hexproof they control.
+  - *2020-08-07* — The triggered ability can target a creature with indestructible. It won't be destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/97/magus-of-the-abyss) · oracle_id `66958c48-3ac7-4f41-aa3e-adacaa24ea4f` · printing: 2XM #97 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Arena
 
@@ -1143,7 +1374,13 @@
   > *The magus still hears the roar of the crowds. They're gone, but the will to compete remains.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25979 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/115/magus-of-the-arena) · oracle_id `44865261-16f8-42d2-a388-a57173142eb0` · printing: C13 #115 (2013-11-01) · [rulings](https://api.scryfall.com/cards/91e1c919-58e8-4637-a030-99ae90165585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2007-02-01* — If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.
+  - *2007-02-01* — If an effect changes the targets of this ability, the second target can be changed to any creature the chosen opponent controls. The choice of opponent can't be changed.
+  - *2007-02-01* — If either target leaves the battlefield before the ability resolves, the ability taps the remaining target, but no damage is dealt. If both targets leave the battlefield, the ability doesn't resolve.
+  - *2007-02-01* — Magus of the Arena's controller always chooses their creature first.
+  - *2007-02-01* — Tapped creatures can be targeted. Tapping them again will do nothing, but they'll still deal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/115/magus-of-the-arena) · oracle_id `44865261-16f8-42d2-a388-a57173142eb0` · printing: C13 #115 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Balance
 
@@ -1153,7 +1390,11 @@
 - **Oracle text:**
   > {4}{W}, {T}, Sacrifice this creature: Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/699/magus-of-the-balance) · oracle_id `ed450f48-e69d-48d7-82cc-79cf89b2a1fb` · printing: CLB #699 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e63074e4-2c4c-411c-b320-c90d3a4a96d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — If a player has zero cards in hand, controls no lands, or controls no creatures, other players will have to discard their entire hand, sacrifice all of their lands, or sacrifice all of their creatures, as appropriate.
+  - *2018-07-13* — Players can't take actions once Magus of the Balance's ability begins to resolve until it's done resolving. If any abilities trigger during this process, they're put onto the stack after it's done resolving.
+  - *2018-07-13* — When Magus of the Balance's ability resolves, first the player whose turn it is chooses an appropriate number of lands they control (which may be zero if that player doesn't control more lands than the player who controls the fewest). Then each other player in turn order does the same, knowing choices made by previous players. Finally, all of the chosen lands are sacrificed simultaneously. Players repeat this process for cards in hand and creatures they control, except while choosing cards in hand, players won't know the identity of cards chosen by the previous players.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/699/magus-of-the-balance) · oracle_id `ed450f48-e69d-48d7-82cc-79cf89b2a1fb` · printing: CLB #699 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Bazaar
 
@@ -1165,7 +1406,9 @@
 - **Flavor text** (UMA printing):
   > *"Some trade in goods, some in secrets. My soul has walked the futures, and I offer the rare coin of possibility."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13513 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/63/magus-of-the-bazaar) · oracle_id `e08d264d-5731-4e2a-ae6d-5a74ef648575` · printing: UMA #63 (2018-12-07) · [rulings](https://api.scryfall.com/cards/d117ed81-7b5c-4e29-b958-6126d48ac5a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — You draw two cards and discard three cards all while the activated ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/63/magus-of-the-bazaar) · oracle_id `e08d264d-5731-4e2a-ae6d-5a74ef648575` · printing: UMA #63 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Bridge
 
@@ -1178,7 +1421,11 @@
 - **Flavor text** (MH2 printing):
   > *"The dead know their place."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/92/magus-of-the-bridge) · oracle_id `e48951ed-1c32-449a-898e-e5b1c0d0ee73` · printing: MH2 #92 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8ec4b7d1-16ed-4cc3-8db3-12fb8f25658c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — A token's owner is the player who created it, which may be different from the player who controls it or, in some weird cases, different than the player under whose control it entered the battlefield.
+  - *2021-06-18* — Neither ability cares who controlled the creature that died, only which graveyard it was put into. This means that if an opponent controls a creature you own, its death causes Magus of the Bridge's first ability to trigger, not its second.
+  - *2021-06-18* — Unlike its namesake, Bridge from Below, the Magus's abilities work only while it's on the battlefield. They do not work while it is in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/92/magus-of-the-bridge) · oracle_id `e48951ed-1c32-449a-898e-e5b1c0d0ee73` · printing: MH2 #92 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Candelabra
 
@@ -1191,6 +1438,7 @@
   > *"What would Urza think, I wonder, if he could hear how the nature mages still snarl at his name, but venerate the work of his apprentice?"*
   > *—Teferi, to Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3673 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/206/magus-of-the-candelabra) · oracle_id `30e58e88-ac99-4d32-b2fe-6d6cb6288af3` · printing: BBD #206 (2018-06-08) · [rulings](https://api.scryfall.com/cards/f50583b8-6953-4094-b420-580d545e827f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Chains
@@ -1202,7 +1450,14 @@
   > If a player would draw a card except the first one they draw in each of their draw steps, that player discards a card instead. If the player discards a card this way, they draw a card. If the player doesn't discard a card this way, they mill a card.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/549/magus-of-the-chains) · oracle_id `401c5a8a-25f7-493a-b8d7-8679dd6949d6` · printing: MB2 #549 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e6c97b8f-5365-4ba9-8afc-f01ec5ef6835/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Here’s what happens when Magus of the Chains replaces a player’s draw: — If that player has at least one card in their hand, they discard a card and then draw a card. — If that player’s hand is empty, they mill a card. The player doesn’t draw a card at all.
+  - *2024-11-08* — If an effect instructs you to draw multiple cards, you draw those cards one at a time. Apply the effect of Magus of the Chains to each one.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The effects of more than one Magus of the Chains are cumulative. If there are two of these on the battlefield, each of them will modify each draw (after the first one if during the draw step) and will cause the player to discard or to mill a card. As they resolve in order, the player must discard if possible. Once the player fails to discard and instead mills a card, all further effects of each additional Magus of the Chains will not do anything. This is because the mill also replaces the draw effect and the player is no longer drawing a card. You handle them in order. Each one makes you discard first and then continue or else mill a card and lose the draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/549/magus-of-the-chains) · oracle_id `401c5a8a-25f7-493a-b8d7-8679dd6949d6` · printing: MB2 #549 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Coffers
 
@@ -1214,6 +1469,7 @@
 - **Flavor text** (C14 printing):
   > *All that remains of the Cabal are the echoes in its deepest vault. Yet those who hear the echoes feel a power undiminished by the dust of ages.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5583 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/148/magus-of-the-coffers) · oracle_id `23dd895c-92bd-4af0-8b1a-7d76ca49178f` · printing: C14 #148 (2014-11-07) · [rulings](https://api.scryfall.com/cards/962a16bb-516c-4e74-b8dd-edd4c63c5fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Disk
@@ -1227,7 +1483,9 @@
 - **Flavor text** (C20 printing):
   > *Studying the journals of the necromage Nevinyrral leaves disciples gripped with the urge to exercise his draconian judgment.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/94/magus-of-the-disk) · oracle_id `3996aa0c-3322-43be-bbaf-7b66836a8ff4` · printing: C20 #94 (2020-04-17) · [rulings](https://api.scryfall.com/cards/70cdad7a-f041-4bbe-87ed-876ac6d0c31b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If an effect gives Magus of the Disk indestructible or regenerates it, it won’t be destroyed by its ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/94/magus-of-the-disk) · oracle_id `3996aa0c-3322-43be-bbaf-7b66836a8ff4` · printing: C20 #94 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Future
 
@@ -1240,7 +1498,14 @@
 - **Flavor text** (TSR printing):
   > *Those gifted with the sight have one eye in the present and the other in the future.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/75/magus-of-the-future) · oracle_id `10758aa7-0f64-499f-8010-514e8fc31b7e` · printing: TSR #75 (2021-03-19) · [rulings](https://api.scryfall.com/cards/27ba1ea5-c861-4bb4-a681-fc0633268bd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you don't reveal the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell; and if you play a land from the top of your library, you can't look at the next card until you're done handling any replacement effects that modify how that land enters the battlefield (such as that of Vesuva).
+  - *2021-03-19* — Magus of the Future doesn't change when you can play lands. You can do so only during your main phase when you have priority and the stack is empty.
+  - *2021-03-19* — Playing a land from the top of your library counts as your land play for the turn. Once you play a land during your turn, you won't be able to play an additional land from the top of your library unless another effect (such as that of Azusa, Lost but Seeking) allows you to.
+  - *2021-03-19* — The top card of your library is still in your library and not in your hand. You can't discard or suspend cards from the top of your library, for example.
+  - *2021-03-19* — You must follow the normal timing permissions and restrictions of the spells you cast from your library.
+  - *2021-03-19* — You still pay all costs for a spell you cast from your library, including additional costs. You may also pay alternative costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/75/magus-of-the-future) · oracle_id `10758aa7-0f64-499f-8010-514e8fc31b7e` · printing: TSR #75 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Jar
 
@@ -1250,6 +1515,7 @@
 - **Oracle text:**
   > {T}, Sacrifice this creature: Each player exiles all cards from their hand face down and draws seven cards. At the beginning of the next end step, each player discards their hand and returns to their hand each card they exiled this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16729 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/67/magus-of-the-jar) · oracle_id `d547275a-bc31-4c05-9db3-27b5efe47bb1` · printing: TSP #67 (2006-10-06) · [rulings](https://api.scryfall.com/cards/31961041-a9e6-4d96-bd4a-5c5f88a79e74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Library
@@ -1263,7 +1529,9 @@
 - **Flavor text** (PLC printing):
   > *The ancient books slowly crumbled, their secrets turning to dust. But their every word sings within the magus's head.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18511 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/134/magus-of-the-library) · oracle_id `69266cb7-50eb-43d2-96d6-fc3c85be49f7` · printing: PLC #134 (2007-02-02) · [rulings](https://api.scryfall.com/cards/899db99b-df27-4848-a23d-5c645deae450/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You may tap multiples of these in response to each other because the requirement for 7 cards is checked only at the time the ability is announced and not again when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/134/magus-of-the-library) · oracle_id `69266cb7-50eb-43d2-96d6-fc3c85be49f7` · printing: PLC #134 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Mind
 
@@ -1275,7 +1543,14 @@
 - **Flavor text** (C17 printing):
   > *"I'll show you what you truly desire."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/12/magus-of-the-mind) · oracle_id `b39d98c3-0173-4d7c-83d0-f80db82fc9ba` · printing: C17 #12 (2017-08-25) · [rulings](https://api.scryfall.com/cards/34a0d8a1-8564-4d4a-9390-06a06312e668/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-08-25* — Any of the cards you don’t play will remain in exile.
+  - *2017-08-25* — If no spells have been cast in the turn you activate Magus of the Mind’s ability, X is one.
+  - *2017-08-25* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2017-08-25* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, such as that of Tormenting Voice, those must be paid to cast the card.
+  - *2017-08-25* — You may play a land exiled this way only if you have an available land play this turn.
+  - *2017-08-25* — You must follow the normal timing permissions and restrictions for cards you cast this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/12/magus-of-the-mind) · oracle_id `b39d98c3-0173-4d7c-83d0-f80db82fc9ba` · printing: C17 #12 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Mirror
 
@@ -1287,7 +1562,10 @@
 - **Flavor text** (CNS printing):
   > *"Behold! The image of the enemy and all that she has. Trust your envy, and take it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12408 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/117/magus-of-the-mirror) · oracle_id `f587676e-d45f-4b1d-be2c-b404d8f55fb3` · printing: CNS #117 (2014-06-06) · [rulings](https://api.scryfall.com/cards/81357a2a-e436-469f-8610-3572c29fef15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-09-25* — When the life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player’s previous life total. For example, if player A has 5 life and player B has 3 life before the exchange, player A will lose 2 life and player B will gain 2 life. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
+  - *2011-01-01* — If an effect says that a player can’t lose life, that player can’t exchange life totals with a player who has a lower life total; in that case, the exchange won’t happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/117/magus-of-the-mirror) · oracle_id `f587676e-d45f-4b1d-be2c-b404d8f55fb3` · printing: CNS #117 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Moat
 
@@ -1299,6 +1577,7 @@
 - **Flavor text** (FUT printing):
   > *"The spirits of the mythic ones ever circle their beloved keep, forbidding entry to all who come with the heavy tread of hate."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7609 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/12/magus-of-the-moat) · oracle_id `a035f865-b4db-4b9f-bccc-8572acd2033c` · printing: FUT #12 (2007-05-04) · [rulings](https://api.scryfall.com/cards/20dcdda9-66a2-401f-9e1b-5603f771f56f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Moon
@@ -1311,7 +1590,13 @@
 - **Flavor text** (TSR printing):
   > *Tidal forces of the blood moon wrench and buckle the land, drawing monoliths of stone and soil toward the flaming orb.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3418 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/175/magus-of-the-moon) · oracle_id `6800d01c-345d-4932-a2a4-8df0fb1902f2` · printing: TSR #175 (2021-03-19) · [rulings](https://api.scryfall.com/cards/7c9bd75c-9606-4607-bfa6-d6acdee12820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-03-19* — If Magus of the Moon loses its abilities, it continues to turn nonbasic lands into Mountains. This is because effects that change subtypes are applied before considering effects that remove abilities, regardless of the order in which those effects started.
+  - *2021-03-19* — If a nonbasic land has an ability that causes it to enter the battlefield tapped, it will lose that ability before it can apply. The same is also true of any other abilities that modify how a land enters the battlefield or apply "as" a land enters the battlefield, such as that of Vesuva or Cavern of Souls.
+  - *2021-03-19* — If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it can trigger.
+  - *2021-03-19* — Magus of the Moon doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
+  - *2021-03-19* — Nonbasic lands lose any other land types and abilities they had. They gain the land type Mountain and gain the ability "{T}: Add {R}."
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/175/magus-of-the-moon) · oracle_id `6800d01c-345d-4932-a2a4-8df0fb1902f2` · printing: TSR #175 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Order
 
@@ -1323,7 +1608,11 @@
 - **Flavor text** (CMR printing):
   > *"Life for life. The cost is always the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12640 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/242/magus-of-the-order) · oracle_id `ff922641-142a-4774-be3e-36a5183fce2b` · printing: CMR #242 (2020-11-20) · [rulings](https://api.scryfall.com/cards/a93e5fa9-cfe3-487b-af77-0dbf6c68ee04/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If Magus of the Order becomes nongreen, you can still activate its ability by sacrificing it and a green creature.
+  - *2020-11-10* — Once you declare you're activating the ability, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove Magus of the Order or green creatures you control to stop you from activating the ability.
+  - *2020-11-10* — You can't sacrifice additional creatures to search for more green creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/242/magus-of-the-order) · oracle_id `ff922641-142a-4774-be3e-36a5183fce2b` · printing: CMR #242 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Scroll
 
@@ -1333,6 +1622,7 @@
 - **Oracle text:**
   > {3}, {T}: Choose a card name, then reveal a card at random from your hand. If that card has the chosen name, this creature deals 2 damage to any target.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28219 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/169/magus-of-the-scroll) · oracle_id `992df446-75a1-4174-9fde-9a912d332172` · printing: TSP #169 (2006-10-06) · [rulings](https://api.scryfall.com/cards/6060cada-52bf-4ef2-8a26-8ba04dded458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Tabernacle
@@ -1345,6 +1635,7 @@
 - **Flavor text** (PLC printing):
   > *The Tabernacle's disciples channel the emanations from Pendrell Vale, spreading its paradoxical demand to be both worshipped and left alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17414 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/8/magus-of-the-tabernacle) · oracle_id `8ab4d31e-7187-4ba1-97cb-1a0a11ab28bf` · printing: PLC #8 (2007-02-02) · [rulings](https://api.scryfall.com/cards/dd520f8c-93fb-4cf3-8dd5-d05abbd86c74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Unseen
@@ -1355,7 +1646,12 @@
 - **Oracle text:**
   > {1}{U}, {T}: Untap target artifact an opponent controls and gain control of it until end of turn. It gains haste until end of turn. When you lose control of the artifact, tap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/53/magus-of-the-unseen) · oracle_id `d8857977-c8a5-4703-9aaa-331b17c7a713` · printing: ME2 #53 (2008-09-22) · [rulings](https://api.scryfall.com/cards/73c0d236-f283-454f-909f-296dafc4f7da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-10-04* — The artifact taps after returning to the opponent (if it is not already tapped), so any abilities triggered off it tapping happen at that time.
+  - *2004-10-04* — You may target an untapped artifact with this ability.
+  - *2008-10-01* — The artifact will gain haste whether or not it’s a creature. Of course, if it’s not a creature, haste will have no particular effect.
+  - *2008-10-01* — You tap the artifact when you lose control of it for any reason — because Magus of the Unseen’s effect ends, or because a spell or ability causes another player to gain control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/53/magus-of-the-unseen) · oracle_id `d8857977-c8a5-4703-9aaa-331b17c7a713` · printing: ME2 #53 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Vineyard
 
@@ -1367,7 +1663,9 @@
 - **Flavor text** (CMD printing):
   > *Battered and beaten by years of salt and claw, he never ceased to walk, and to seed. Only now, in this time of rebirth, do his seeds take root.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7426 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/166/magus-of-the-vineyard) · oracle_id `e6788809-6b34-4701-89af-b422ba35efb2` · printing: CMD #166 (2011-06-17) · [rulings](https://api.scryfall.com/cards/63005c92-fc0b-45dc-b488-489350527453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — This ability is not optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmd/166/magus-of-the-vineyard) · oracle_id `e6788809-6b34-4701-89af-b422ba35efb2` · printing: CMD #166 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Wheel
 
@@ -1379,7 +1677,9 @@
 - **Flavor text** (CMM printing):
   > *"Fate is not as fixed as you might think."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/241/magus-of-the-wheel) · oracle_id `df13dafb-f82e-42ac-b6dc-efe82af5db58` · printing: CMM #241 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0e952dd9-ef09-40f0-993f-eb3a1516616a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If each player has fewer than seven cards in their library as Magus of the Wheel's ability resolves, the game ends in a draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/241/magus-of-the-wheel) · oracle_id `df13dafb-f82e-42ac-b6dc-efe82af5db58` · printing: CMM #241 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Will
 
@@ -1391,4 +1691,11 @@
 - **Flavor text** (2XM printing):
   > *"These eyes have shown me the flaws of flesh."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/98/magus-of-the-will) · oracle_id `f32c5530-6692-4d47-8789-c73da23fd5b7` · printing: 2XM #98 (2020-08-07) · [rulings](https://api.scryfall.com/cards/24c41068-59d8-4ef4-aae4-a93b0a9ee19e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2020-08-07* — Cards that would be put into your graveyard are exiled even if you didn't play them this turn, such as a nontoken creature that would die.
+  - *2020-08-07* — If another effect tries to change where a spell is put as it resolves, such as that of a rebound or buyback ability, you may choose whether to exile the card to Magus of the Will's effect or to apply the other effect.
+  - *2020-08-07* — Magus of the Will doesn't change when you can play the cards in your graveyard. For example, if you have a creature card without flash in your graveyard, you can cast it only during your main phase while the stack is empty.
+  - *2020-08-07* — Tokens are put into your graveyard as normal (and cease to exist soon after). Abilities that trigger when a creature dies can trigger on token creatures being put into your graveyard but won't trigger on nontoken creatures being exiled instead of being put into your graveyard.
+  - *2020-08-07* — You may play a land card from your graveyard only if you have an available land play.
+  - *2020-08-07* — You pay the costs for a card in your graveyard if you cast it. You may pay alternative costs such as overload rather than the card's mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/98/magus-of-the-will) · oracle_id `f32c5530-6692-4d47-8789-c73da23fd5b7` · printing: 2XM #98 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -80,7 +80,15 @@
   > *The contagion spreads and the Multiverse quakes.*
 - **Keywords:** Indestructible, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #812 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness) · oracle_id `7514e401-7aa1-405d-9f7a-312b4e630cc2` · printing: MOM #137 (2023-04-21) · [rulings](https://api.scryfall.com/cards/95c14c4d-6c16-4826-8d93-d89ad04aee09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — Any cards not cast, including land cards, remain in exile. They can’t be cast on later turns.
+  - *2023-04-14* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a card “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-04-14* — If you cast any of the exiled cards, you do so as part of the resolution of the triggered ability. You can’t wait to cast them later in the turn. Timing restrictions based on a card’s type are ignored.
+  - *2023-04-14* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won’t resolve until you’re done casting spells, so the permanents they become can’t be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can’t cast that Aura targeting that creature.
+  - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali’s ability are exiled.
+  - *2023-04-14* — Losing the game because a player (preferably an opponent) has ten or more poison counters is a rule of the game. Etali, Primal Sickness doesn’t have to still be on the battlefield when someone (preferably an opponent) gets their tenth poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness) · oracle_id `7514e401-7aa1-405d-9f7a-312b4e630cc2` · printing: MOM #137 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali, Primal Storm
 
@@ -92,7 +100,15 @@
 - **Flavor text** (FDN printing):
   > *The storm rages and the earth breaks.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #279 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/194/etali-primal-storm) · oracle_id `078def07-ae5d-4591-8db6-d156834aab97` · printing: FDN #194 (2024-11-15) · [rulings](https://api.scryfall.com/cards/b6af9894-95b5-4c8e-902f-a9ba70f02e4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — Any cards not cast, including land cards, remain in exile. They can't be cast on later turns, even if Etali attacks again.
+  - *2021-03-19* — Because all attacking creatures are chosen at once, a creature cast this way can't attack during the same combat as Etali, even if it has haste.
+  - *2021-03-19* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-03-19* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2021-03-19* — If you cast any of the exiled cards, you do so as part of the resolution of the triggered ability. You can't wait to cast them later in the turn. Timing permissions based on a card's type are ignored, and the spells resolve before blockers are declared.
+  - *2021-03-19* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won't resolve until you're done casting spells, so the permanents they become can't be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can't cast that Aura targeting that creature.
+  - *2021-03-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali's ability are exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/194/etali-primal-storm) · oracle_id `078def07-ae5d-4591-8db6-d156834aab97` · printing: FDN #194 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali's Favor
 
@@ -104,7 +120,17 @@
   > Enchanted creature gets +1/+1 and has trample.
 - **Keywords:** Discover, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7040 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/149/etalis-favor) · oracle_id `df98b93b-0aa6-4bea-9d8d-798ebc795b0b` · printing: LCI #149 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6d4075a8-c15d-4078-bf4b-0f85c03fecec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/149/etalis-favor) · oracle_id `df98b93b-0aa6-4bea-9d8d-798ebc795b0b` · printing: LCI #149 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Champion
 
@@ -117,7 +143,9 @@
   > *Its predecessors were etched with the wisdom of ancients; its own etchings bear warnings of a future fraught with war.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/209/etched-champion) · oracle_id `7cd7102d-6413-4f46-9434-9130aefa2f88` · printing: MM2 #209 (2015-05-22) · [rulings](https://api.scryfall.com/cards/30fe653b-956a-4e0e-981b-37e1a6b08c2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — "Protection from all colors" means protection from white, from blue, from black, from red, and from green. (In other words, it doesn't just mean "protection from objects that have all five colors.")
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/209/etched-champion) · oracle_id `7cd7102d-6413-4f46-9434-9130aefa2f88` · printing: MM2 #209 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Cornfield
 
@@ -129,7 +157,9 @@
 - **Flavor text** (DSK printing):
   > *They say those who lose their way in the fields gradually wither and grow brittle, until at last they put down roots and anchor into the soil as a whispering stalk.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/258/etched-cornfield) · oracle_id `6ccca5c2-66c3-495a-8d9e-1a9805569e52` · printing: DSK #258 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f8900b89-0e10-4602-bba2-da8d60ea5885/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — If one of these lands is entering at the same time as a "shock land" (a cycle of lands originally from Ravnica block that allow you to pay life or have them enter tapped), use the life totals of all players before choices are made for that shock land's replacement effect to determine whether or not the land enters tapped. For example, if a Lakeside Shack and a Breeding Pool you control are entering at the same time (perhaps because of the effect of a spell like Scapeshift), your life total is 14, and your opponent's life total is 20, the Lakeside Shack will enter tapped whether or not you choose to pay life as Breeding Pool enters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/258/etched-cornfield) · oracle_id `6ccca5c2-66c3-495a-8d9e-1a9805569e52` · printing: DSK #258 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Familiar
 
@@ -142,6 +172,7 @@
   > *"No refunds."*
   > *—Chammi, curio vendor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17015 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/101/etched-familiar) · oracle_id `e2bc064e-4739-4eb1-ba44-1fd92b2829d7` · printing: MOM #101 (2023-04-21) · [rulings](https://api.scryfall.com/cards/4616a548-269b-4530-97e8-c690ccc138f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Host Doombringer
@@ -154,6 +185,7 @@
   > • Target opponent loses 2 life and you gain 2 life.
   > • Choose target battle. If an opponent protects it, remove three defense counters from it. Otherwise, put three defense counters on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24357 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/102/etched-host-doombringer) · oracle_id `85c799e9-74d5-459e-b168-b95ed78cd4e9` · printing: MOM #102 (2023-04-21) · [rulings](https://api.scryfall.com/cards/b2f1afa2-ca71-49cf-953b-d5dfc60c178f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Monstrosity
@@ -167,6 +199,7 @@
 - **Flavor text** (MM2 printing):
   > *Now etched only with the scars of phyresis.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24231 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/210/etched-monstrosity) · oracle_id `d0dd582a-ac35-4a46-beca-6304fdd2d358` · printing: MM2 #210 (2015-05-22) · [rulings](https://api.scryfall.com/cards/f6be7947-b929-408d-ad67-3b07b93dd36e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Oracle
@@ -179,6 +212,7 @@
   > {1}, Remove four +1/+1 counters from this creature: Target player draws three cards.
 - **Keywords:** Sunburst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8861 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/136/etched-oracle) · oracle_id `7ecfa47e-1165-46a6-884c-290b1c14d020` · printing: EOC #136 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1b4e70c6-8f74-4b0b-9ad7-33fce05c401b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etched Slith
@@ -193,7 +227,11 @@
   > *The inherently adaptive bodies of the slith made them coveted subjects for \*compleation\*.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18171 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/91/etched-slith) · oracle_id `f1bd0d32-7513-4d1d-94aa-d06101a940c0` · printing: MH3 #91 (2024-06-14) · [rulings](https://api.scryfall.com/cards/428e255d-bdda-4265-91cf-d02962e818e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — If there's more than one type of counter on the targeted permanent or opponent, Etched Slith's controller chooses which counter to remove.
+  - *2024-06-07* — In a case where you put more than one +1/+1 counter on Etched Slith with its last ability (for example, because of the effect of Doubling Season), the reflexive ability will trigger once for each +1/+1 counter you put on it this way.
+  - *2024-06-07* — You don't choose a target for Etched Slith's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you put a +1/+1 counter on Etched Slith this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/91/etched-slith) · oracle_id `f1bd0d32-7513-4d1d-94aa-d06101a940c0` · printing: MH3 #91 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etchings of the Chosen
 
@@ -204,7 +242,10 @@
   > Creatures you control of the chosen type get +1/+1.
   > {1}, Sacrifice a creature of the chosen type: Target creature you control gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/269/etchings-of-the-chosen) · oracle_id `0114f97f-b196-4af1-90aa-eba164cb8f22` · printing: LCC #269 (2023-11-17) · [rulings](https://api.scryfall.com/cards/496e4759-9d6b-42fa-833c-1fff2c9d03f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — The last ability of Etchings of the Chosen can target any creature you control, not just one of the chosen type.
+  - *2019-06-14* — You must choose an existing creature type, such as Sliver or Warrior. Card types such as artifact, and supertypes such as legendary or snow, can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/269/etchings-of-the-chosen) · oracle_id `0114f97f-b196-4af1-90aa-eba164cb8f22` · printing: LCC #269 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Acrobat Toast
 
@@ -216,6 +257,7 @@
   > {TK}{TK}{TK} — 4/4
   > {TK}{TK}{TK}{TK}{TK} — 7/8
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/19/eternal-acrobat-toast) · oracle_id `60a69ddc-3289-4786-944d-27a82c5f0dc8` · printing: SUNF #19 (2022-10-07) · [rulings](https://api.scryfall.com/cards/780b4d5d-d3a0-4aad-abe7-3073339a8fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Dominion
@@ -227,6 +269,7 @@
   > Epic (For the rest of the game, you can't cast spells. At the beginning of each of your upkeeps, copy this spell except for its epic ability. You may choose a new target for the copy.)
 - **Keywords:** Epic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/36/eternal-dominion) · oracle_id `ede2a435-bf9a-4f87-b579-259cfdebc13f` · printing: SOK #36 (2005-06-03) · [rulings](https://api.scryfall.com/cards/3067a9bd-991a-462d-862a-2518ae31c382/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Dragon
@@ -240,7 +283,12 @@
   > Plainscycling {2} ({2}, Discard this card: Search your library for a Plains card, reveal it, put it into your hand, then shuffle.)
 - **Keywords:** Flying, Plainscycling, Landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/66/eternal-dragon) · oracle_id `04d8615c-3883-4251-9790-1d8a4a40e142` · printing: AFC #66 (2021-07-23) · [rulings](https://api.scryfall.com/cards/0f57fc0c-cab1-4eb0-a58a-0c7a762f1572/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-02-01* — Plainscycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on Plainscycling this card. Any ability that stops a cycling ability from being activated also stops Plainscycling from being activated.
+  - *2009-02-01* — Plainscycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with Plainscycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+  - *2009-02-01* — Unlike the normal cycling ability, Plainscycling doesn't allow you to draw a card. Instead, it lets you search your library for a Plains card. After you find a Plains card in your library, you reveal it, put it into your hand, then shuffle your library.
+  - *2009-02-01* — You can choose to find any card with the Plains land type, including nonbasic lands. You can also choose not to find a card, even if there is a Plains card in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/66/eternal-dragon) · oracle_id `04d8615c-3883-4251-9790-1d8a4a40e142` · printing: AFC #66 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Flame
 
@@ -249,6 +297,7 @@
 - **Oracle text:**
   > Eternal Flame deals X damage to target opponent or planeswalker and half X damage, rounded up, to you, where X is the number of Mountains you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29653 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drk/61/eternal-flame) · oracle_id `b3119f27-45fd-4411-8a09-5f8d3cd8d927` · printing: DRK #61 (1994-08-01) · [rulings](https://api.scryfall.com/cards/d646feea-3c20-4737-8d20-ffad42258ced/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Isolation
@@ -260,6 +309,7 @@
 - **Flavor text** (M20 printing):
   > *"Well, at least it's a lovely view."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25401 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/15/eternal-isolation) · oracle_id `8f69a103-d557-4d28-847e-aa94a440e908` · printing: M20 #15 (2019-07-12) · [rulings](https://api.scryfall.com/cards/021963bf-87fc-432f-b9a1-4f627885a7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal of Harsh Truths
@@ -275,7 +325,13 @@
   > *—Jace Beleren*
 - **Keywords:** Afflict
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/34/eternal-of-harsh-truths) · oracle_id `5c09d646-afea-4fd0-9752-04820b81cc5b` · printing: HOU #34 (2017-07-14) · [rulings](https://api.scryfall.com/cards/0389daf7-0818-488f-8e6a-94818a6c94a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-07-14* — Afflict causes the defending player to lose life; it's not damage or combat damage.
+  - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
+  - *2017-07-14* — An ability that triggers when something "attacks and isn't blocked" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+  - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
+  - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/34/eternal-of-harsh-truths) · oracle_id `5c09d646-afea-4fd0-9752-04820b81cc5b` · printing: HOU #34 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Scourge
 
@@ -289,7 +345,11 @@
   > *"It has latched onto this place like an infestation. All efforts at eradication have proved futile."*
   > *—Yeter, Trostad villager*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/7/eternal-scourge) · oracle_id `c8b0436e-16d2-4d48-a894-454d69a3743b` · printing: EMN #7 (2016-07-22) · [rulings](https://api.scryfall.com/cards/13ce52f5-6d49-4d44-a3d7-925340de8406/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — Eternal Scourge's triggered ability only triggers while it's on the battlefield. For example, Convolute cast targeting Eternal Scourge won't cause its ability to trigger.
+  - *2016-07-13* — You must follow the normal timing permissions and restrictions and pay its cost to cast Eternal Scourge from exile.
+  - *2016-07-13* — You'll exile Eternal Scourge even if the spell or ability that targets it is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/7/eternal-scourge) · oracle_id `c8b0436e-16d2-4d48-a894-454d69a3743b` · printing: EMN #7 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Skylord
 
@@ -301,7 +361,15 @@
   > Zombie tokens you control have flying.
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4704 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/99/eternal-skylord) · oracle_id `324a30cc-bddd-463c-9f28-c94c93a26780` · printing: MIC #99 (2021-09-24) · [rulings](https://api.scryfall.com/cards/d48d37d2-d776-41b4-9d20-7d2f5c51f814/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Orcs works the same way, except you create a 0/0 black Orc Army creature token if you don't control an Army. If the Army creature you chose isn't already an Orc, it becomes an Orc in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Zombie Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
+  - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/99/eternal-skylord) · oracle_id `324a30cc-bddd-463c-9f28-c94c93a26780` · printing: MIC #99 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Student
 
@@ -313,6 +381,7 @@
 - **Flavor text** (SOS printing):
   > *She was entering her fiftieth year of graduate study with no signs of stopping.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23959 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/82/eternal-student) · oracle_id `140cb5cf-8aa2-457c-9d65-5acefea00195` · printing: SOS #82 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f97fac69-3e77-4150-9702-cc726daa6d21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Taskmaster
@@ -327,7 +396,9 @@
   > *"They are called Eternals. They will never stop."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/228/eternal-taskmaster) · oracle_id `a7c000a8-1864-4bb2-80fa-a61d74dbd966` · printing: JMP #228 (2020-07-17) · [rulings](https://api.scryfall.com/cards/94a6644a-52e6-454e-a479-44b086240974/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — You can't pay {2}{B} more than once each time Eternal Taskmaster's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/228/eternal-taskmaster) · oracle_id `a7c000a8-1864-4bb2-80fa-a61d74dbd966` · printing: JMP #228 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Thirst
 
@@ -338,7 +409,10 @@
   > Enchanted creature has lifelink and "Whenever a creature an opponent controls dies, put a +1/+1 counter on this creature." (Damage dealt by a creature with lifelink also causes its controller to gain that much life.)
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5946 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/229/eternal-thirst) · oracle_id `a1b66fbf-14a3-4582-8414-53f432f96dad` · printing: JMP #229 (2020-07-17) · [rulings](https://api.scryfall.com/cards/5bbc405d-0cfb-45c6-baa1-75845d82e713/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If the enchanted creature is dealt lethal damage at the same time as a creature an opponent controls, they’re destroyed at the same time. It won’t receive a +1/+1 counter from its ability in time to save it.
+  - *2017-11-17* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/229/eternal-thirst) · oracle_id `a1b66fbf-14a3-4582-8414-53f432f96dad` · printing: JMP #229 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Warrior
 
@@ -351,6 +425,7 @@
   > *Warriors of the Tsunami-nito School spend years in training to master the way of effortless effort.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20316 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/225/eternal-warrior) · oracle_id `dab28bc6-3b2a-444f-b596-0a8d95d6d28c` · printing: 5ED #225 (1997-03-24) · [rulings](https://api.scryfall.com/cards/2a1a36ca-2467-4c23-ba03-744c76b0be51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Witness
@@ -363,7 +438,9 @@
 - **Flavor text** (CMM printing):
   > *She remembers every word spoken, from the hero's oath to the baby's cry.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/286/eternal-witness) · oracle_id `30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c` · printing: CMM #286 (2023-08-04) · [rulings](https://api.scryfall.com/cards/39704000-65d3-4d39-849e-a3b617376bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If a resolving spell puts Eternal Witness onto the battlefield, Eternal Witness's ability can target that card if it's put into your graveyard as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/286/eternal-witness) · oracle_id `30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c` · printing: CMM #286 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternity Snare
 
@@ -375,6 +452,7 @@
   > Enchanted creature doesn't untap during its controller's untap step.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29380 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/37/eternity-snare) · oracle_id `b9bd1833-d4f9-46c0-bb94-331c456193fc` · printing: BNG #37 (2014-02-07) · [rulings](https://api.scryfall.com/cards/fa167147-68ca-49af-98d3-538474ea1158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternity Vessel
@@ -386,7 +464,14 @@
   > Landfall — Whenever a land you control enters, you may have your life total become the number of charge counters on this artifact.
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9798 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/200/eternity-vessel) · oracle_id `c8fa1319-6623-4999-acb5-a5e15e6d868c` · printing: ZEN #200 (2009-10-02) · [rulings](https://api.scryfall.com/cards/a9222e18-41b3-423f-8715-305a0d8fd410/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2009-10-01* — Eternity Vessel's landfall ability cares only about how many charge counters are on it, not what its controller's life total was as it entered. The number of charge counters may be changed by other spells and abilities.
+  - *2009-10-01* — For your life total to become the number of charge counters on Eternity Vessel, you actually gain or lose the necessary amount of life. For example, if your life total is 4 when Eternity Vessel's landfall ability resolves and Eternity Vessel has 12 charge counters on it, the ability will cause you to gain 8 life. Other cards that interact with life gain or life loss will interact with this effect accordingly.
+  - *2010-06-15* — In a Two-Headed Giant game, your life total is the same as your team's life total, so Eternity Vessel enters with a number of charge counters on it equal to your team's life total. When its landfall ability resolves, it causes its controller to lose or gain the appropriate amount of life, and the team's life total is adjusted by the amount of life the player gains or loses as a result of this ability. Suppose Eternity Vessel has 15 charge counters on it when its landfall ability resolves, and its controller's team has 11 life. That player's life total is 11, which becomes 15, for a net gain of 4 life. The team's life total becomes 15.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/200/eternity-vessel) · oracle_id `c8fa1319-6623-4999-acb5-a5e15e6d868c` · printing: ZEN #200 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ether
 
@@ -397,7 +482,16 @@
 - **Flavor text** (FIN printing):
   > *Restores 20 MP.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/53/ether) · oracle_id `566533af-5e67-463f-ac33-dfcf1ec735c9` · printing: FIN #53 (2025-06-13) · [rulings](https://api.scryfall.com/cards/896ee6e9-15a9-4974-b576-50f4759fac38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-06-06* — After Ether's ability resolves, the next instant or sorcery spell you cast that turn will be copied whether or not it has targets and whether or not you spent the mana added by Ether's ability on that spell.
+  - *2025-06-06* — Ether's ability is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2025-06-06* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can't be changed. If you choose new targets, you must choose the same number of targets.
+  - *2025-06-06* — If the spell has any targets, the copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2025-06-06* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-06-06* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode or modes. You can't choose different ones.
+  - *2025-06-06* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
+  - *2025-06-06* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/53/ether) · oracle_id `566533af-5e67-463f-ac33-dfcf1ec735c9` · printing: FIN #53 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethercaste Knight
 
@@ -410,6 +504,7 @@
   > *"We coat ourselves in steel every day. What is etherium but the next logical step?"*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17780 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/175/ethercaste-knight) · oracle_id `b34a7a9e-d740-4ddc-9b3c-8c49555ee2aa` · printing: MM2 #175 (2015-05-22) · [rulings](https://api.scryfall.com/cards/125126e1-1e48-42ed-ac94-02f62ab13d05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Absolution
@@ -424,6 +519,7 @@
   > *"Time to let the dead be dead."*
   > *—Kaya, to Teysa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11429 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/170/ethereal-absolution) · oracle_id `e6f95e3a-61a6-40a9-8070-ffd2767764ad` · printing: RNA #170 (2019-01-25) · [rulings](https://api.scryfall.com/cards/0872d0ff-1060-44cc-9ed0-a6aa496440c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Ambush
@@ -436,7 +532,23 @@
   > *The energies of the Temur lands are readily unleashed upon intruders.*
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27183 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/152/ethereal-ambush) · oracle_id `c0604afb-eae2-41c8-b390-dbc0f7e025ed` · printing: FRF #152 (2015-01-23) · [rulings](https://api.scryfall.com/cards/825d3f4d-eba3-4c45-8846-03b246e93f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — If you're playing with the top card of your library revealed as Ethereal Ambush resolves (perhaps because you control a card such as Courser of Kruphix), you'll manifest the top card, reveal the next card (now the top card), and then manifest that card.
+  - *2014-11-24* — The cards are manifested one at a time. It must remain clear which face-down creature was the top card of your library and which one was the second card of your library.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/152/ethereal-ambush) · oracle_id `c0604afb-eae2-41c8-b390-dbc0f7e025ed` · printing: FRF #152 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Armor
 
@@ -449,7 +561,9 @@
   > *Clad in the light of conviction and hope, Linette strode forth to face Duskmourn's terrors without fear.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1109 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/7/ethereal-armor) · oracle_id `dbba75f5-2404-4bd5-982b-f6c4effa5316` · printing: DSK #7 (2024-09-27) · [rulings](https://api.scryfall.com/cards/fd0e8a82-0201-483e-a976-5f29764b35a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Ethereal Armor counts each enchantment you control, including itself and any Auras you control that are attached to an opponent or to permanents controlled by an opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/7/ethereal-armor) · oracle_id `dbba75f5-2404-4bd5-982b-f6c4effa5316` · printing: DSK #7 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Champion
 
@@ -462,6 +576,7 @@
   > *"If I have learned anything as a wizard it is this: never fight your own battles."*
   > *—Waffa, sorcerer of Nyomba*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28849 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/20/ethereal-champion) · oracle_id `f203671b-76f7-4be0-80a9-826fbb450fe7` · printing: 6ED #20 (1999-04-21) · [rulings](https://api.scryfall.com/cards/7c1733e2-bee2-4b85-b165-d4329402578b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Elk
@@ -474,6 +589,7 @@
   > When this creature enters, you may search your library and/or graveyard for a card named Vivien, Nature's Avenger, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28779 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/299/ethereal-elk) · oracle_id `82d643ef-8380-4fdc-a88d-ed205324dbd9` · printing: M20 #299 (2019-07-12) · [rulings](https://api.scryfall.com/cards/3f4d0ed2-3fc5-4cb0-b886-e30b21e76872/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Forager
@@ -487,7 +603,13 @@
   > Whenever this creature attacks, you may return an instant or sorcery card exiled with this creature to its owner's hand.
 - **Keywords:** Flying, Delve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19382 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/34/ethereal-forager) · oracle_id `a3f3a5b5-b931-4961-828c-501a33e5a0a0` · printing: C20 #34 (2020-04-17) · [rulings](https://api.scryfall.com/cards/97543d69-547e-41f8-9a4f-908e5eb0ee4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — After Ethereal Forager’s triggered ability resolves, players will have priority to cast spells (such as the card you returned to your hand, if it’s legal to do so) before blockers are declared.
+  - *2020-04-17* — If Ethereal Forager leaves the battlefield while its triggered ability is on the stack, that ability can still find the cards exiled with Ethereal Forager’s delve ability.
+  - *2021-03-19* — Because delve isn’t an alternative cost, it can be used in conjunction with alternative costs, such as flashback. It can also be used to pay for additional costs that include generic mana.
+  - *2021-03-19* — Delve doesn’t change a spell’s mana cost or mana value. For example, Treasure Cruise’s mana value is 8 even if you exiled three cards to cast it.
+  - *2021-03-19* — You can exile cards to pay only for generic mana, and you can’t exile more cards than the generic mana requirement of a spell with delve. For example, you can’t exile more than seven cards from your graveyard to cast Treasure Cruise unless an effect has increased its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/34/ethereal-forager) · oracle_id `a3f3a5b5-b931-4961-828c-501a33e5a0a0` · printing: C20 #34 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Guidance
 
@@ -499,7 +621,9 @@
   > *"The call of the Blessed Sleep is not so strong as the call to protect those in need."*
   > *—Saint Traft*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/18/ethereal-guidance) · oracle_id `0e24c0d2-2333-425c-952e-9a13e6519cd3` · printing: SOI #18 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f47dd220-6193-4e31-a1df-591b6424ad27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — The set of creatures affected by Ethereal Guidance is determined as the spell resolves. Creatures you begin to control later in the turn won’t get +2/+1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/18/ethereal-guidance) · oracle_id `0e24c0d2-2333-425c-952e-9a13e6519cd3` · printing: SOI #18 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Haze
 
@@ -511,6 +635,7 @@
   > *"Imagine a dove flying through smoke. Does the dove injure the smoke? Does the smoke impede the dove?"*
   > *—Teachings of Eight-and-a-Half-Tails*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8543 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/9/ethereal-haze) · oracle_id `0cdbd9e7-4941-46ac-99d8-ea227181bdf8` · printing: CHK #9 (2004-10-01) · [rulings](https://api.scryfall.com/cards/7f1996af-5f15-447f-9b1d-98a7e97df53a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Investigator
@@ -524,6 +649,7 @@
   > Whenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying.
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4166 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/105/ethereal-investigator) · oracle_id `24038629-7c12-45ef-8ec4-0d2bb3e2265c` · printing: MKC #105 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c675428b-2dc4-408d-9632-81c1a700090f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Usher
@@ -536,6 +662,7 @@
   > Transmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)
 - **Keywords:** Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17621 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/47/ethereal-usher) · oracle_id `3ad6e495-d0e6-4b07-8f91-fe057e173975` · printing: RAV #47 (2005-10-07) · [rulings](https://api.scryfall.com/cards/908901b7-fb40-4358-bca5-5e71bdafcbe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Valkyrie
@@ -548,7 +675,16 @@
   > Whenever this creature enters or attacks, draw a card, then exile a card from your hand face down. It becomes foretold. Its foretell cost is its mana cost reduced by {2}. (On a later turn, you may cast it for its foretell cost, even if this creature has left the battlefield.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/16/ethereal-valkyrie) · oracle_id `f0f7c3df-52f8-4835-a18f-69e56ffa3432` · printing: KHC #16 (2021-02-05) · [rulings](https://api.scryfall.com/cards/552912bf-4085-49ad-902f-5c41540df97a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — Although the card you exile becomes foretold, you did not foretell it. An ability that triggers whenever you foretell a card will not trigger.
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Because the card in exile becomes foretold, you can look at it in exile. (Most effects that have you exile a card face down don’t allow you to look at the card in exile.)
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If the card you exile has foretell, it will have two foretell costs, the one printed on it and the one given to it by Ethereal Valkyrie. You may cast that card for either of its foretell costs.
+  - *2021-02-05* — If you foretell a modal double-faced card, the foretell cost will be based on the mana cost of the face you cast from exile. For example, if you foretell Kolvori, God of Kinship/The Ringhart Crest, you could cast Kolvori by paying {G}{G} or The Ringhart Crest by paying {G} on a future turn. If you foretell a modal double-faced card whose front face is a nonland face but whose back face is a land face, you can’t play that card as a land.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+  - *2021-02-05* — The reduction of the foretell cost applies only to generic mana in the foretell cost. It can’t reduce requirements of specific colors of mana. For example, if you foretell a card in your hand with mana cost {1}{G}{G}, its foretell cost will be {G}{G}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/16/ethereal-valkyrie) · oracle_id `f0f7c3df-52f8-4835-a18f-69e56ffa3432` · printing: KHC #16 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Whiskergill
 
@@ -562,6 +698,7 @@
   > *Fallowsages debate whether the whiskergill is native to the Dark Meanders or merely dreamstuff made real.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31050 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/60/ethereal-whiskergill) · oracle_id `3d3e6dc0-2aed-4afa-bfa9-59d04ade9bee` · printing: LRW #60 (2007-10-12) · [rulings](https://api.scryfall.com/cards/5b9fa774-fb6d-4a2f-96d5-a449a423312e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Abomination
@@ -575,6 +712,7 @@
   > *It was given life by the etherium of a hundred slain Esperites.*
 - **Keywords:** Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30327 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/20/etherium-abomination) · oracle_id `e1135564-ca93-4c5b-8686-cafdbaf0205e` · printing: ARB #20 (2009-04-30) · [rulings](https://api.scryfall.com/cards/312bbd63-d6ff-4da5-868f-ed68cbc12d43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Astrolabe
@@ -589,7 +727,9 @@
   > *—Cinna, vedalken consul*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24877 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/41/etherium-astrolabe) · oracle_id `8d7194f7-1525-4f6e-b974-b947a254f437` · printing: ALA #41 (2008-10-03) · [rulings](https://api.scryfall.com/cards/d60731c6-7a25-4f2b-8ed1-2469a2d300c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/41/etherium-astrolabe) · oracle_id `8d7194f7-1525-4f6e-b974-b947a254f437` · printing: ALA #41 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium-Horn Sorcerer
 
@@ -601,7 +741,18 @@
   > Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8827 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/171/etherium-horn-sorcerer) · oracle_id `01afb7a1-6427-4bb6-935a-613e9bda9de3` · printing: C17 #171 (2017-08-25) · [rulings](https://api.scryfall.com/cards/732d0770-fc8a-4319-8219-8d68b1a39af0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2012-06-01* — Etherium-Horn Sorcerer's first ability can only be activated when it is on the battlefield. If Etherium-Horn Sorcerer isn't on the battlefield when the ability resolves, the ability won't do anything.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/171/etherium-horn-sorcerer) · oracle_id `01afb7a1-6427-4bb6-935a-613e9bda9de3` · printing: C17 #171 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Pteramander
 
@@ -614,7 +765,10 @@
   > {6}{B}: Adapt 4. This ability costs {1} less to activate for each other artifact you control. (If this creature has no +1/+1 counters on it, put four +1/+1 counters on it.)
 - **Keywords:** Flying, Adapt
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15747 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/92/etherium-pteramander) · oracle_id `3e254cae-6e14-4a40-bc02-7ca23750bb26` · printing: MH3 #92 (2024-06-14) · [rulings](https://api.scryfall.com/cards/3abd093b-c1d6-400e-bc26-1aa045fe47b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
+  - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/92/etherium-pteramander) · oracle_id `3e254cae-6e14-4a40-bc02-7ca23750bb26` · printing: MH3 #92 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Sculptor
 
@@ -626,7 +780,10 @@
 - **Flavor text** (EOC printing):
   > *The greatest masters of the craft abandon tools altogether, shaping metal with hand and mind alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #415 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/72/etherium-sculptor) · oracle_id `96b87445-6362-4a17-91b2-cbf203fd03fd` · printing: EOC #72 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b0556f20-1ea8-4ab5-9a09-dec9959f017b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — This effect can reduce only the generic portion of the artifact spell's total cost.
+  - *2008-10-01* — This effect doesn't change the mana cost or mana value of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/72/etherium-sculptor) · oracle_id `96b87445-6362-4a17-91b2-cbf203fd03fd` · printing: EOC #72 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Spinner
 
@@ -638,7 +795,9 @@
 - **Flavor text** (MH2 printing):
   > *"Thopters from a foundry always lack that personal touch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/40/etherium-spinner) · oracle_id `b501128b-2797-401b-8aec-923050081cae` · printing: MH2 #40 (2021-06-18) · [rulings](https://api.scryfall.com/cards/cdc8056f-4c8e-4a2b-b32f-c50c2cb7601a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — If a spell on the stack has {X} in its mana cost, X is the value chosen for it when determining that spell's mana value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/40/etherium-spinner) · oracle_id `b501128b-2797-401b-8aec-923050081cae` · printing: MH2 #40 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethersworn Adjudicator
 
@@ -653,6 +812,7 @@
   > *Esper mages devised their weapons to be so devastating that war seemed unnecessary.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/222/ethersworn-adjudicator) · oracle_id `ca2a7669-4932-4a78-8a6c-8558b7c05ba5` · printing: MOC #222 (2023-04-21) · [rulings](https://api.scryfall.com/cards/774ece27-ca6b-4e04-88ae-cfc774401bdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethersworn Canonist
@@ -665,7 +825,10 @@
 - **Flavor text** (2XM printing):
   > *"The noble work of our order is to infuse all life on Esper with etherium. Our goal will be reached more rapidly if new life is . . . suppressed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/14/ethersworn-canonist) · oracle_id `ec3471ad-b65c-4e35-a7d1-68da9555a9ec` · printing: 2XM #14 (2020-08-07) · [rulings](https://api.scryfall.com/cards/abc8e0f8-fdb9-4f24-a3e3-439f6cc3ebdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — Each turn, each player can cast any number of artifact spells plus a maximum of one nonartifact spell.
+  - *2020-08-07* — Ethersworn Canonist takes into account spells that were cast earlier in the turn before Ethersworn Canonist entered the battlefield, including any spells that are somehow still on the stack. However, any spells on the stack as Ethersworn Canonist enters the battlefield have already been cast by that point, so they're not affected by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/14/ethersworn-canonist) · oracle_id `ec3471ad-b65c-4e35-a7d1-68da9555a9ec` · printing: 2XM #14 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethersworn Shieldmage
 
@@ -677,7 +840,9 @@
   > When this creature enters, prevent all damage that would be dealt to artifact creatures this turn.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arc/84/ethersworn-shieldmage) · oracle_id `ee988017-fc7e-4d8a-8f5c-0a7e57a8d050` · printing: ARC #84 (2010-06-18) · [rulings](https://api.scryfall.com/cards/0ce33f36-e29e-4cac-a237-a7b932d50bbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — When Ethersworn Shieldmage’s triggered ability resolves, it doesn’t lock in which permanents will be affected. For the rest of the turn, any time damage would be dealt to a permanent, check whether it’s an artifact creature at that time. If it is, that damage is prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arc/84/ethersworn-shieldmage) · oracle_id `ee988017-fc7e-4d8a-8f5c-0a7e57a8d050` · printing: ARC #84 (2010-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethersworn Sphinx
 
@@ -690,7 +855,20 @@
   > Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card with lesser mana value. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
 - **Keywords:** Cascade, Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/195/ethersworn-sphinx) · oracle_id `71366469-04ea-4526-bf24-7abc02fdc5ab` · printing: MH2 #195 (2021-06-18) · [rulings](https://api.scryfall.com/cards/315ae21a-4d95-488e-812b-0d018219af6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Affinity can reduce only the generic mana in a spell's total cost. It can't reduce colored mana requirements.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If there are any additional costs or cost increases that would apply to Ethersworn Sphinx, apply those before applying any cost reductions.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The cost reduction is set before you pay any of the spell's costs. Specifically, you could lock in a discount for an artifact you control and then sacrifice that artifact to activate a mana ability.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/195/ethersworn-sphinx) · oracle_id `71366469-04ea-4526-bf24-7abc02fdc5ab` · printing: MH2 #195 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ether Well
 
@@ -701,7 +879,9 @@
 - **Flavor text** (MIR printing):
   > *"Whoa—my tail will \*never\* fit through that hole!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/65/ether-well) · oracle_id `a2b6faca-3321-45d2-a027-ff3a8ae61f10` · printing: MIR #65 (1996-10-08) · [rulings](https://api.scryfall.com/cards/0a2cf195-01bf-4076-a0c6-ca5403d84f7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The choice of where to put the creature is made on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/65/ether-well) · oracle_id `a2b6faca-3321-45d2-a027-ff3a8ae61f10` · printing: MIR #65 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherwrought Page
 
@@ -716,7 +896,10 @@
   > *An unbound page is a riddle, free of cover and of context, a favorite token of the hegemon.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/108/etherwrought-page) · oracle_id `f1c87913-9374-41d7-ae70-444d427290b4` · printing: ARB #108 (2009-04-30) · [rulings](https://api.scryfall.com/cards/568785f1-47c7-4011-926f-44693f7e0233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — You choose a mode when the ability triggers.
+  - *2009-05-01* — You may choose a different mode each time it triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/108/etherwrought-page) · oracle_id `f1c87913-9374-41d7-ae70-444d427290b4` · printing: ARB #108 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etrata, Deadly Fugitive
 
@@ -729,7 +912,27 @@
   > Whenever an Assassin you control deals combat damage to an opponent, cloak the top card of that player's library.
 - **Keywords:** Cloak, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8663 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/200/etrata-deadly-fugitive) · oracle_id `87957d09-7e22-40fe-8770-ff66d1934a38` · printing: MKM #200 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4410db5a-62af-43ac-979d-88a7c975f7bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you can turn a cloaked permanent you control face-up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a cloaked creature would have disguise (or morph) if it were face up, you may also turn it face up by paying its disguise (or morph) cost.
+  - *2024-02-02* — If a double-faced card is cloaked, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-02-02* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Demand Answers, those must be paid to cast the spell.
+  - *2024-02-02* — In a multiplayer game, if an opponent leaves the game, all of the cards they own that you cloaked leave as well. If you leave the game, the creatures you cloaked with Etrata, Deadly Fugitive's triggered ability are exiled.
+  - *2024-02-02* — To cloak a card, put it onto the battlefield face down. It becomes a 2/2 face-down creature card with ward {2} and no name, mana cost, or creature types. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-02-02* — You might be unable to turn a face-down creature face up because it's an instant or sorcery. Alternatively, abilities such as that of Karlov Watchdog might prevent you from turning face-down creatures face up altogether. In those cases, you'll exile that creature, and then you'll choose whether or not to cast that card without paying its mana cost.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+  - *2024-02-02* — Your opponents can't look at cards they own that you cloaked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/200/etrata-deadly-fugitive) · oracle_id `87957d09-7e22-40fe-8770-ff66d1934a38` · printing: MKM #200 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etrata, the Silencer
 
@@ -740,7 +943,13 @@
   > Etrata can't be blocked.
   > Whenever Etrata deals combat damage to a player, exile target creature that player controls and put a hit counter on that card. That player loses the game if they own three or more exiled cards with hit counters on them. Etrata's owner shuffles Etrata into their library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7201 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/170/etrata-the-silencer) · oracle_id `2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6` · printing: GRN #170 (2018-10-05) · [rulings](https://api.scryfall.com/cards/fa36b142-e67e-49da-9080-c5994e275266/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2018-10-05* — Etrata's owner shuffles it into their library as the triggered ability resolves, regardless of how many cards are in exile or whether the player loses the game.
+  - *2018-10-05* — If Etrata leaves the battlefield while its triggered ability is on the stack, it remains in its new zone and Etrata's owner shuffles their library.
+  - *2018-10-05* — If Etrata's ability exiles a token creature, it won't count to determine whether three cards are exiled with hit counters.
+  - *2018-10-05* — If the player controls no creatures, Etrata's ability doesn't resolve. Etrata remains on the battlefield and its owner doesn't shuffle their library. The same is true if the target creature is an illegal target when Etrata's ability tries to resolve.
+  - *2018-10-05* — In a Commander game, if Etrata is your commander, you may put it into the command zone as its ability resolves. You'll still shuffle your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/170/etrata-the-silencer) · oracle_id `2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6` · printing: GRN #170 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ettercap // Web Shot
 
@@ -758,4 +967,16 @@
   > *—Erinis, gloom stalker*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17490 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/231/ettercap-web-shot) · oracle_id `e0b5b3af-af89-4b91-8b55-947ec095d6f2` · printing: CLB #231 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8f5228dc-ec9d-456f-a89c-1bc592a1bbab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/231/ettercap-web-shot) · oracle_id `e0b5b3af-af89-4b91-8b55-947ec095d6f2` · printing: CLB #231 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

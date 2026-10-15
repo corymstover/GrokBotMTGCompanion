@@ -22,4 +22,5 @@
   > *Her angry call split the sky. From that rift descended her champions.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12817 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/95/oyobi-who-split-the-heavens) · oracle_id `df5c1f34-94e4-4f89-b1af-943c430862d0` · printing: VOC #95 (2021-11-19) · [rulings](https://api.scryfall.com/cards/8f279602-024a-44b6-9a36-465c16363cb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

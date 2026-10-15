@@ -22,7 +22,12 @@
   > When this enchantment enters, each opponent gains 10 life.
   > Whenever you cast an instant or sorcery spell, put a verse counter on this enchantment, then it deals damage equal to the number of verse counters on it to target player or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8335 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/118/aria-of-flame) · oracle_id `406fad02-e1a6-4c24-b46d-976c548e1c78` · printing: MH1 #118 (2019-06-14) · [rulings](https://api.scryfall.com/cards/95a96eb1-f87c-4b1d-82c7-f239bcbc62b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — Aria of Flame’s last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-06-14* — If Aria of Flame leaves the battlefield while its last ability is on the stack, use the number of verse counters it had on it immediately before it left the battlefield to determine how much damage it deals.
+  - *2019-06-14* — If the target player or planeswalker is an illegal target by the time Aria of Flame’s last ability tries to resolve, the ability doesn’t resolve. You don’t put a verse counter on Aria of Flame.
+  - *2019-06-14* — In a Two-Headed Giant game, Aria of Flame’s first ability causes the opposing team to gain 20 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/118/aria-of-flame) · oracle_id `406fad02-e1a6-4c24-b46d-976c548e1c78` · printing: MH1 #118 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arid Archway
 
@@ -34,7 +39,10 @@
   > {T}: Add {C}{C}.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/252/arid-archway) · oracle_id `3be3d7e6-7860-438a-b8c8-ef154c18c163` · printing: OTJ #252 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3f8c8fa2-12ab-4f6a-9f7a-2bc69e9ba024/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-04-12* — Arid Archway will return itself to its owner’s hand if you control no other lands when its enters-the-battlefield ability resolves (or if you choose to return it to its owner’s hand despite controlling other lands). It’s almost never a good idea to play it on your first turn.
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/252/arid-archway) · oracle_id `3be3d7e6-7860-438a-b8c8-ef154c18c163` · printing: OTJ #252 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arid Mesa
 
@@ -43,6 +51,7 @@
 - **Oracle text:**
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #55 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/244/arid-mesa) · oracle_id `c5acf2a5-40f4-433d-a74d-1cb56c521464` · printing: MH2 #244 (2021-06-18) · [rulings](https://api.scryfall.com/cards/25ac5405-df7b-4097-914a-022cb18e20d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arisen Gorgon
@@ -56,6 +65,7 @@
   > *"I'm not picky about what comes up, but the less decay, the better."*
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24846 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/292/arisen-gorgon) · oracle_id `69858691-1190-4454-af0a-87c2ac4ab6ec` · printing: M19 #292 (2018-07-13) · [rulings](https://api.scryfall.com/cards/e39502fd-193c-4526-8dd8-0cd8c822552c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arixmethes, Slumbering Isle
@@ -69,4 +79,12 @@
   > Whenever you cast a spell, you may remove a slumber counter from Arixmethes.
   > {T}: Add {G}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2047 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/211/arixmethes-slumbering-isle) · oracle_id `caeb39ee-f0bb-4305-9e8b-b30ba0a74c78` · printing: DSC #211 (2024-09-27) · [rulings](https://api.scryfall.com/cards/bf561379-4e5f-486a-bcdf-6e08e105316e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-08-07* — Arixmethes can tap for mana the turn it enters the battlefield as long as it has slumber counters on it. If you can figure out how to untap it, that is.
+  - *2020-08-07* — Arixmethes can't be played as a land.
+  - *2020-08-07* — Arixmethes isn't a land until after it has entered the battlefield. Effects such as that of Blood Moon won't affect its enters-the-battlefield ability. Similarly, replacement effects that modify how creatures you control enter the battlefield will see Arixmethes entering as a creature rather than a land. However, triggered abilities (such as landfall abilities) will see that a land has entered the battlefield and not a creature.
+  - *2020-08-07* — Arixmethes's effect causing it to be a land overwrites any earlier effects that gave it additional types. For example, a Phyrexian Metamorph that copies Arixmethes will be a land, not an artifact land, until its slumber counters are removed.
+  - *2020-08-07* — Arixmethes's triggered ability resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+  - *2020-08-07* — Once Arixmethes is a creature again, it can attack on the same turn as long as you've controlled it since your most recent turn began.
+  - *2020-08-07* — While Arixmethes is a land, it's still green and blue, it's still legendary, and its mana value is still 4.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/211/arixmethes-slumbering-isle) · oracle_id `caeb39ee-f0bb-4305-9e8b-b30ba0a74c78` · printing: DSC #211 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

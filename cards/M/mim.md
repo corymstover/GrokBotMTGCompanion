@@ -23,6 +23,7 @@
   > Choose target permanent an opponent controls. Search that player's library for a card with the same name and put it onto the battlefield under your control. Then that player shuffles.
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28026 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/30/mimeofacture) · oracle_id `79b978b8-44c8-4ca8-bdd5-10490145398d` · printing: GPT #30 (2006-02-03) · [rulings](https://api.scryfall.com/cards/f4ada33a-5b7c-426a-8416-4ce01bccaa5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimeoplasm, Revered One
@@ -34,6 +35,7 @@
   > As Mimeoplasm enters, exile up to X creature cards from your graveyard. It enters with three +1/+1 counters on it for each creature card exiled this way.
   > {2}: Mimeoplasm becomes a copy of target creature card exiled with it, except it's 0/0 and has this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14207 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/214/mimeoplasm-revered-one) · oracle_id `2b8c2882-dbca-466a-a0af-dd1d65edfe7c` · printing: DFT #214 (2025-02-14) · [rulings](https://api.scryfall.com/cards/34e4c342-dc22-4e9c-81fc-a691ae9e21c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimic
@@ -44,7 +46,10 @@
   > {T}, Sacrifice this artifact: Add one mana of any color.
   > {2}: This artifact becomes a Shapeshifter artifact creature with base power and toughness 3/3 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19024 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/249/mimic) · oracle_id `ba8156cd-2e78-4763-b61d-8bc85b2f3657` · printing: AFR #249 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9da96aab-cf84-4150-b9d0-a4b84fcf585f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — If an effect refers to a Treasure, it means any Treasure artifact, not just a Treasure artifact token.
+  - *2021-07-23* — Mimic is still a Treasure after its last ability resolves, but Treasure is an artifact type, never a creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/249/mimic) · oracle_id `ba8156cd-2e78-4763-b61d-8bc85b2f3657` · printing: AFR #249 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimic Vat
 
@@ -55,7 +60,22 @@
   > {3}, {T}: Create a token that's a copy of a card exiled with this artifact. It gains haste. Exile it at the beginning of the next end step.
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/372/mimic-vat) · oracle_id `6ebdc9f3-6b23-4716-8011-48f00d7e30c8` · printing: NCC #372 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dfa8757b-ef7d-44b8-ae80-45c436e85c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2011-01-01* — Any "enters" abilities of the exiled card will trigger when the token is put onto the battlefield. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the exiled card will also work.
+  - *2011-01-01* — Exiling the card as the first ability resolves is optional. If you choose not to exile it, or you can't exile it because the card has somehow left the graveyard before the ability resolves, the ability simply doesn't do anything as it resolves. Any card currently exiled by Mimic Vat remains exiled.
+  - *2011-01-01* — If Mimic Vat's second ability is activated during a turn's end step, the token will be exiled at the beginning of the following turn's end step.
+  - *2011-01-01* — If multiple nontoken creatures are put into their owners' graveyards from the battlefield at the same time, the imprint ability will trigger that many times. You put the triggered abilities on the stack in any order, so you'll determine in which order they resolve. However, since exiling those cards is optional, and choosing to exile a card this way causes the previously exiled cards to return to their owners' graveyards, the order generally doesn't matter: You'll wind up with at most one of those cards exiled, and the rest will be in the appropriate graveyards.
+  - *2011-01-01* — If the exiled card has {X} in its mana cost (such as Protean Hydra), X is considered to be 0.
+  - *2011-01-01* — If the token is a copy of a noncreature card, it will still have haste, though that won't matter unless that token somehow becomes a creature.
+  - *2011-01-01* — If the token isn't exiled when the delayed triggered ability resolves (due to Stifle, perhaps), it remains on the battlefield indefinitely. It continues to have haste.
+  - *2011-01-01* — The imprint ability will trigger whenever a nontoken creature is put into any graveyard from the battlefield, not just your graveyard.
+  - *2011-01-01* — The token created by the second ability will be a copy of whatever card is exiled with Mimic Vat at the time the ability resolves. This might not be the same card that was exiled with Mimic Vat at the time the ability was activated. It also might not be a creature card.
+  - *2011-01-01* — The token is exiled at the beginning of the next end step regardless of who controls it at that time, whether the exiled card is still exiled at that time, or whether Mimic Vat is still on the battlefield at that time.
+  - *2011-01-01* — You may activate the second ability even if no card has been exiled with Mimic Vat. If no card has been exiled with Mimic Vat by the time the ability resolves, no token will be created.
+  - *2011-01-01* — You may exile a noncreature card with Mimic Vat's first ability. For example, if a nontoken artifact that's become a creature is put into a graveyard from the battlefield, Mimic Vat's first ability triggers and you may exile that card.
+  - *2016-07-13* — If a melded permanent dies and triggers Mimic Vat's triggered ability, both of its component cards are exiled. As Mimic Vat's second ability resolves, its controller chooses one of those cards to make a token copy of.
+  - *2018-07-13* — If the creature that dies is an instant or sorcery card that's been manifested, Mimic Vat may have a nonpermanent card exiled. You can't create a token that's a copy of a nonpermanent card. No token is created in this case.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/372/mimic-vat) · oracle_id `6ebdc9f3-6b23-4716-8011-48f00d7e30c8` · printing: NCC #372 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miming Slime
 
@@ -67,4 +87,7 @@
   > *"We paid the Simic very well for this capability, but we should quickly recoup our expenses in saved wages."*
   > *—Milana, Orzhov prelate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15013 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/173/miming-slime) · oracle_id `50e7f705-c347-440b-8159-81a52bbfbdfb` · printing: UMA #173 (2018-12-07) · [rulings](https://api.scryfall.com/cards/80d816cd-9ca6-4118-893e-5c6b167d9d81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — The power and toughness of the Ooze token is determined when Miming Slime resolves. It won’t change as the greatest power among creatures you control changes.
+  - *2018-12-07* — The value of X is the greatest power among creatures you control when Miming Slime resolves. If you control no creatures at that time, X will be 0, creating a 0/0 Ooze token that will be put into your graveyard as a state-based action (unless something else is raising its toughness).
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/173/miming-slime) · oracle_id `50e7f705-c347-440b-8159-81a52bbfbdfb` · printing: UMA #173 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

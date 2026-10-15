@@ -48,7 +48,21 @@
 - **Flavor text** (FIN printing):
   > *A triumph of technology and testament to man's potential.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/286/midgar-city-of-mako-reactor-raid) · oracle_id `4e34a49d-f031-48ac-a458-97b79124b76c` · printing: FIN #286 (2025-06-13) · [rulings](https://api.scryfall.com/cards/8a837256-6bb4-4a60-962d-d2793548d26c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/286/midgar-city-of-mako-reactor-raid) · oracle_id `4e34a49d-f031-48ac-a458-97b79124b76c` · printing: FIN #286 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midlife Upgrade
 
@@ -59,6 +73,7 @@
   > Assemble X plus one Contraptions. (To assemble a Contraption, put the top card of your Contraption deck face up onto one of your sprockets.)
 - **Keywords:** Assemble
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/14/midlife-upgrade) · oracle_id `85670a50-91ba-428f-bd18-3240a93da040` · printing: UST #14 (2017-12-08) · [rulings](https://api.scryfall.com/cards/bb6e37a1-0dfd-4b8a-83d1-8f6d99123516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Angel Armor
@@ -74,6 +89,7 @@
   > *—Aneka, to Ayo*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/22/midnight-angel-armor) · oracle_id `cdcfc66d-3d3a-4311-b864-937e7b624d61` · printing: MSC #22 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5b5b87ba-c6cc-4f25-a5c9-22464a41de65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Arsonist
@@ -86,7 +102,9 @@
 - **Flavor text** (VOC printing):
   > *Killing the slayers was self-preservation. The fire was just for fun.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/27/midnight-arsonist) · oracle_id `d9ee7916-2c9d-4489-8dd8-86929b09c6ea` · printing: VOC #27 (2021-11-19) · [rulings](https://api.scryfall.com/cards/4d322638-9775-42f4-b75e-d2e1a08bd75d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — Midnight Arsonist's triggered ability can't target artifacts that have either activated or triggered mana abilities. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers based on an activated mana ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/27/midnight-arsonist) · oracle_id `d9ee7916-2c9d-4489-8dd8-86929b09c6ea` · printing: VOC #27 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Assassin
 
@@ -100,6 +118,7 @@
   > *The broad avenues and graceful spires of Park Heights are the playground of the affluent. After nightfall, they also make a fine hunting ground.*
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13627 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/87/midnight-assassin) · oracle_id `f394d2bf-89aa-44c1-b473-8c7a8874a9a3` · printing: SNC #87 (2022-04-29) · [rulings](https://api.scryfall.com/cards/02a4a5b3-0477-4709-8bce-3e01f54001b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Banshee
@@ -114,6 +133,7 @@
   > *Many have heard the beginning of its low, sustained shriek but few the end.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4687 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/80/midnight-banshee) · oracle_id `dd8b6067-a97f-402f-bba1-70ebc6ee1599` · printing: ECC #80 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f0a38737-22e6-469f-94d8-12b9a62f4495/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Charm
@@ -126,6 +146,7 @@
   > • Target creature gains first strike until end of turn.
   > • Tap target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24389 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/74/midnight-charm) · oracle_id `ed228f67-3adf-46d4-ac45-e0278592850d` · printing: PLC #74 (2007-02-02) · [rulings](https://api.scryfall.com/cards/33f51f18-41af-4a2c-a353-48bebd697599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Clock
@@ -138,7 +159,12 @@
   > At the beginning of each upkeep, put an hour counter on this artifact.
   > When the twelfth hour counter is put on this artifact, shuffle your hand and graveyard into your library, then draw seven cards. Exile this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #648 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/100/midnight-clock) · oracle_id `c68faebc-b2cd-461b-b93e-e1fcd4816810` · printing: OTC #100 (2024-04-19) · [rulings](https://api.scryfall.com/cards/0b3c33b7-5b15-4b61-bfd6-1ffa823eb28a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — If Midnight Clock leaves the battlefield while its last ability is on the stack, it won't be exiled.
+  - *2019-10-04* — Midnight Clock's first triggered ability triggers at the beginning of each upkeep, not just your upkeep. In a Two-Headed Giant game, an ability that triggers at the beginning of each upkeep rather than each player's upkeep triggers only once during each team's upkeep.
+  - *2019-10-04* — Midnight Clock's last ability triggers after one or more counters are put onto it if it had fewer than twelve counters on it before those counters were put on it and it has twelve or more counters on it after.
+  - *2019-10-04* — You can activate Midnight Clock's mana ability to pay the cost of its second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/100/midnight-clock) · oracle_id `c68faebc-b2cd-461b-b93e-e1fcd4816810` · printing: OTC #100 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Covenant
 
@@ -152,6 +178,7 @@
   > *—\*The History of Kamigawa\**
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28044 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/125/midnight-covenant) · oracle_id `f3f2db4b-4a07-453c-ae18-aeec0adc8d3d` · printing: CHK #125 (2004-10-01) · [rulings](https://api.scryfall.com/cards/5d797e91-3fc7-4f62-8cd8-dbd5f445e69c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Crusader Shuttle
@@ -164,7 +191,12 @@
   > Crew 2
 - **Keywords:** Crew, Midnight Entity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8252 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/179/midnight-crusader-shuttle) · oracle_id `22fa2860-d746-4429-b7e3-3403bef27f7b` · printing: WHO #179 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0a8dcf01-8e2c-439c-81c4-650dd01ecb65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
+  - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
+  - *2023-10-13* — When a creature becomes attacking this way, it wasn't declared as an attacker, so triggered abilities that trigger when a creature attacks won't trigger. Similar, all restrictions or costs to attack are ignored. For example, if the chosen creature has defender, it could still end up being an attacking creature this way.
+  - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/179/midnight-crusader-shuttle) · oracle_id `22fa2860-d746-4429-b7e3-3403bef27f7b` · printing: WHO #179 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Duelist
 
@@ -177,6 +209,7 @@
   > *Avacyn's return did not rid him of his desire for revenge.*
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30486 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/27/midnight-duelist) · oracle_id `e8e2e1e9-13a6-4cfd-b9ed-2080e984844d` · printing: AVR #27 (2012-05-04) · [rulings](https://api.scryfall.com/cards/2371bd0c-ca38-4a62-b525-bef4d1ca0646/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Entourage
@@ -188,7 +221,11 @@
   > Other Aetherborn you control get +1/+1.
   > Whenever this creature or another Aetherborn you control dies, you draw a card and you lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29404 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/66/midnight-entourage) · oracle_id `02d6b7f6-1fe0-4a93-8385-69ab160ab732` · printing: AER #66 (2017-01-20) · [rulings](https://api.scryfall.com/cards/2838c6dd-d816-4363-a861-f2f8052d1430/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-02-09* — If Midnight Entourage and another Aetherborn you control die at the same time, its ability triggers once for each of them.
+  - *2017-02-09* — If a creature has been dealt damage, that damage remains marked on it until the cleanup step. If Midnight Entourage leaves the battlefield and another Aetherborn creature you control has been dealt damage, that creature will be destroyed if the damage is now lethal. The same is true if an Aetherborn’s toughness becomes 0 this way.
+  - *2017-02-09* — Midnight Entourage’s triggered ability is mandatory. You draw a card and lose 1 life even if you don’t want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/66/midnight-entourage) · oracle_id `02d6b7f6-1fe0-4a93-8385-69ab160ab732` · printing: AER #66 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Guard
 
@@ -201,6 +238,7 @@
   > *"When you're on watch, no noise is harmless and no shadow can be ignored."*
   > *—Olgard of the Skiltfolk*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14032 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/99/midnight-guard) · oracle_id `f5430b0e-e77f-47b8-ae6d-30bcff4d7e35` · printing: BBD #99 (2018-06-08) · [rulings](https://api.scryfall.com/cards/87c1d85d-b2b8-4c9d-84fa-2566b14cb5ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Haunting
@@ -212,6 +250,7 @@
 - **Flavor text** (C14 printing):
   > *The path back to the world of the living is murky and bewildering. A geist may not even realize that it's terrifying its own loved ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/80/midnight-haunting) · oracle_id `a79e21fc-89bd-4547-8bef-5510554e1431` · printing: C14 #80 (2014-11-07) · [rulings](https://api.scryfall.com/cards/4399dcc7-7684-4345-9f74-318c3ec9af82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Mangler
@@ -227,6 +266,7 @@
   > *—Vnwxt, Grand Prix host*
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16592 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/50/midnight-mangler) · oracle_id `c9f8651a-4118-4d80-902e-60473e81d3a9` · printing: DFT #50 (2025-02-14) · [rulings](https://api.scryfall.com/cards/237568e3-7331-4bbb-a091-a766723134fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Mayhem
@@ -239,7 +279,9 @@
   > *"They might look funny, but when all those teeth sink into your flesh, you won't be laughing."*
   > *—Winter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/222/midnight-mayhem) · oracle_id `5236a6b5-0a96-4470-ba03-37b6d7a889bb` · printing: DSK #222 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4fc0b94f-08b3-4fb6-9b09-2f3a215203ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — Midnight Mayhem affects only Gremlins you control at the time it resolves, including the Gremlin tokens it creates. Gremlins you begin to control later in the turn won't gain menace, lifelink, or haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/222/midnight-mayhem) · oracle_id `5236a6b5-0a96-4470-ba03-37b6d7a889bb` · printing: DSK #222 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Oil
 
@@ -251,7 +293,13 @@
   > Your maximum hand size is equal to the number of hour counters on this enchantment.
   > Whenever you discard a card, you lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/92/midnight-oil) · oracle_id `26bfc19c-8122-4e95-9a62-2b5418429db2` · printing: KLD #92 (2016-09-30) · [rulings](https://api.scryfall.com/cards/14875840-044d-482f-845e-79240cad66f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-09-20* — If Midnight Oil has no hour counters on it, its first triggered ability will continue to trigger and have you draw an additional card, even though you can't remove any counters from it.
+  - *2016-09-20* — If Midnight Oil has only one hour counter on it, its first triggered ability will remove that one counter.
+  - *2016-09-20* — If multiple effects try to set your maximum hand size to a certain number or state that you have no maximum hand size, the one created latest is the one that applies.
+  - *2016-09-20* — If you discard a card during your cleanup step while you control Midnight Oil, its last ability will trigger, and players will get priority in your cleanup step. You'll have another cleanup step after that one before continuing to the next player's turn.
+  - *2016-09-20* — Your maximum hand size is only checked during the cleanup step of your turn. At other times, you may have more cards in hand than your maximum hand size.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/92/midnight-oil) · oracle_id `26bfc19c-8122-4e95-9a62-2b5418429db2` · printing: KLD #92 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Pathlighter
 
@@ -263,7 +311,19 @@
   > Whenever one or more creatures you control deal combat damage to a player, venture into the dungeon. (Enter the first room or advance to the next room.)
 - **Keywords:** Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/52/midnight-pathlighter) · oracle_id `e49228d6-6488-4cbc-aa53-303afd3a549b` · printing: AFC #52 (2021-07-23) · [rulings](https://api.scryfall.com/cards/8eb6f699-1b5d-412b-a697-ee94b7be07a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — Unblocked creatures with double strike deal damage twice, which will cause Midnight Pathlighter's last ability to trigger twice.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/52/midnight-pathlighter) · oracle_id `e49228d6-6488-4cbc-aa53-303afd3a549b` · printing: AFC #52 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Reaper
 
@@ -275,7 +335,10 @@
 - **Flavor text** (FDN printing):
   > *No one welcomes his visit, yet all must grant him tribute.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1045 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/609/midnight-reaper) · oracle_id `e8c7566d-7cc0-48af-a986-83223ec7e06c` · printing: FDN #609 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f229b0e6-1ffd-410e-b04b-a0afc179c58c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If Midnight Reaper dies at the same time as one or more other nontoken creatures you control, Midnight Reaper's ability triggers for each of them.
+  - *2018-10-05* — Midnight Reaper's ability triggers when it dies if it's not a token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/609/midnight-reaper) · oracle_id `e8c7566d-7cc0-48af-a986-83223ec7e06c` · printing: FDN #609 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Recovery
 
@@ -286,7 +349,19 @@
   > Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 - **Keywords:** Cipher
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/73/midnight-recovery) · oracle_id `7904025c-7120-4362-abe9-a9f5fb64447f` · printing: GTC #73 (2013-02-01) · [rulings](https://api.scryfall.com/cards/4df40471-1118-4429-83bf-8225ea50b69f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2013-04-15* — If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
+  - *2013-04-15* — If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it.
+  - *2013-04-15* — If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
+  - *2013-04-15* — If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature.
+  - *2013-04-15* — If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time.
+  - *2013-04-15* — If you want to encode the card with cipher onto a noncreature permanent such as a Keyrune that can turn into a creature, that permanent has to be a creature before the spell with cipher starts resolving. You can choose only a creature to encode the card onto.
+  - *2013-04-15* — The copy of the card with cipher is created in and cast from exile.
+  - *2013-04-15* — The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature.
+  - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
+  - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
+  - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/73/midnight-recovery) · oracle_id `7904025c-7120-4362-abe9-a9f5fb64447f` · printing: GTC #73 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Ritual
 
@@ -297,6 +372,7 @@
 - **Flavor text** (10E printing):
   > *Bury old friends deeply, lest they return bearing worms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29414 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/158/midnight-ritual) · oracle_id `389ad507-8a14-4856-8d19-c90e3104aca8` · printing: 10E #158 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4239c4e8-41f3-47fd-bd01-fa0b28976e29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Scavengers
@@ -308,7 +384,11 @@
   > When this creature enters, you may return target creature card with mana value 3 or less from your graveyard to your hand.
   > (Melds with Graf Rats.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18861 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/123/midnight-scavengers) · oracle_id `1c29ae09-cc93-4a2a-b432-3c78ae01c1ed` · printing: INR #123 (2025-01-24) · [rulings](https://api.scryfall.com/cards/bc079c81-85e8-4a0d-83fe-533c4feaa343/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — For more information on meld cards, see the Eldritch Moon mechanics article (https://magic.wizards.com/en/articles/archive/feature/eldritch-moon-mechanics-2016-06-27).
+  - *2016-07-13* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2016-07-13* — The set of creatures affected by Chittering Host's triggered ability is determined as the ability resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain menace.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/123/midnight-scavengers) · oracle_id `1c29ae09-cc93-4a2a-b432-3c78ae01c1ed` · printing: INR #123 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Snack
 
@@ -319,7 +399,11 @@
   > {2}{B}, Sacrifice this enchantment: Target opponent loses X life, where X is the amount of life you gained this turn.
 - **Keywords:** Food, Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/65/midnight-snack) · oracle_id `3ddcaee9-a11e-477a-bd19-f5ee10512549` · printing: FDN #65 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c9b7543f-2a45-4db6-b560-d15507a58c91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+  - *2024-11-08* — The value of X is determined only once, as Midnight Snack's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/65/midnight-snack) · oracle_id `3ddcaee9-a11e-477a-bd19-f5ee10512549` · printing: FDN #65 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Tilling
 
@@ -331,6 +415,7 @@
   > *The kithkin farmer awoke to find the crop ruined and a trail of rootprints leading into the forest.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/182/midnight-tilling) · oracle_id `79bc2c6d-b03d-4ceb-b468-293378ec73ae` · printing: ECL #182 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c5112bbf-752c-41e7-9c61-4c81e6a77463/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midsummer Revel
@@ -341,7 +426,9 @@
   > At the beginning of your upkeep, you may put a verse counter on this enchantment.
   > {G}, Sacrifice this enchantment: Create X 3/3 green Beast creature tokens, where X is the number of verse counters on this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27136 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/268/midsummer-revel) · oracle_id `d3579282-5045-4b37-9998-9a282e9932b9` · printing: USG #268 (1998-10-12) · [rulings](https://api.scryfall.com/cards/b40a7f65-10fe-4ce5-ad1c-be53a635d7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/268/midsummer-revel) · oracle_id `d3579282-5045-4b37-9998-9a282e9932b9` · printing: USG #268 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midvast Protector
 
@@ -353,4 +440,5 @@
 - **Flavor text** (AVR printing):
   > *"I cultivated my faith in Avacyn despite meager returns. Now my faith is repaid."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30862 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/28/midvast-protector) · oracle_id `33a5ad42-cd81-4724-9f68-7f32a1c8a047` · printing: AVR #28 (2012-05-04) · [rulings](https://api.scryfall.com/cards/d4f6214f-90cb-4575-b221-3c8d0ed65ffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

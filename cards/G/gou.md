@@ -23,7 +23,10 @@
   > *He can't fear what he can't see.*
 - **Keywords:** Delirium, Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28067 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/131/gouged-zealot) · oracle_id `35b30274-bf8c-4d3c-b738-f9e62cdd5156` · printing: MH2 #131 (2021-06-18) · [rulings](https://api.scryfall.com/cards/5c0595a6-a9e5-4ea8-b733-382e6c365759/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Gouged Zealot's triggered ability checks whether there are four or more card types among cards in your graveyard to see if it triggers. If you don't, the ability won't trigger at all. The ability will check again as it tries to resolve. If you don't at that time, the ability won't do anything. The specific cards in your graveyard may change between the two checks.
+  - *2021-06-18* — The card types that can appear in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Cyclops and Berserker are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/131/gouged-zealot) · oracle_id `35b30274-bf8c-4d3c-b738-f9e62cdd5156` · printing: MH2 #131 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gourmand's Talent
 
@@ -37,4 +40,17 @@
   > {3}{G}: Level 3
   > Whenever you gain life for the first time each turn, put a +1/+1 counter on each creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5961 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/31/gourmands-talent) · oracle_id `e802bf11-d3c7-4aad-8e85-99b39ff50d70` · printing: BLC #31 (2024-08-02) · [rulings](https://api.scryfall.com/cards/89670a1b-a6f1-491d-bbb4-92e3382da653/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — If Gourmand's Talent somehow becomes an artifact, it will also be a Food during your turn.
+  - *2024-07-26* — The artifacts retain any types, subtypes, supertypes, and abilities they have.
+  - *2024-07-26* — The level 2 and level 3 class abilities of Gourmand's Talent won't trigger if you already gained life earlier in the turn on which it gained those levels, even if you gain life again later in the turn.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/31/gourmands-talent) · oracle_id `e802bf11-d3c7-4aad-8e85-99b39ff50d70` · printing: BLC #31 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

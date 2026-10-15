@@ -47,6 +47,7 @@
   > *"May Ganathog bless us with bloody visions of glory restored!"*
 - **Keywords:** Haste, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/209/oggyar-battle-seer) · oracle_id `645005dd-3438-4b88-bb19-561f9679a022` · printing: STX #209 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a38329f1-af6e-47b8-86e4-f2a39e1edbf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ognis, the Dragon's Lash
@@ -61,6 +62,7 @@
   > *Ziatora's second-in-command has a habit of appearing when and where her enemies least expect her.*
 - **Keywords:** Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9507 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/210/ognis-the-dragons-lash) · oracle_id `a6e50e06-6d1d-457d-8fbb-ec9a866960c3` · printing: SNC #210 (2022-04-29) · [rulings](https://api.scryfall.com/cards/636058c3-bacc-4a66-8988-832ab0cc9be6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Arsonist
@@ -71,6 +73,7 @@
 - **Oracle text:**
   > When this creature enters, destroy target land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29815 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/110/ogre-arsonist) · oracle_id `00af96af-5eae-4044-a2f7-a08cd0699d1e` · printing: P02 #110 (1998-06-24) · [rulings](https://api.scryfall.com/cards/b67e28b2-9d25-4873-8db2-1f0853ab0c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Battlecaster
@@ -83,7 +86,9 @@
   > Whenever this creature attacks, you may cast target instant or sorcery card from your graveyard by paying {R}{R} in addition to its other costs. If that spell would be put into a graveyard, exile it instead. When you cast that spell, this creature gets +X/+0 until end of turn, where X is that spell's mana value.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/36/ogre-battlecaster) · oracle_id `00ba0c24-a671-493e-ba46-13e45d1818f1` · printing: J22 #36 (2022-12-02) · [rulings](https://api.scryfall.com/cards/298f1ab2-4c66-4d91-8f6a-1bad230632df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-02* — You must cast the spell as Ogre Battlecaster's triggered ability resolves. You can't wait and cast it later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/36/ogre-battlecaster) · oracle_id `00ba0c24-a671-493e-ba46-13e45d1818f1` · printing: J22 #36 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Battledriver
 
@@ -95,6 +100,7 @@
 - **Flavor text** (TDC printing):
   > *Ogres are driven by passion, rage, and another ogre standing behind them with a whip.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3314 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/227/ogre-battledriver) · oracle_id `c834c4b5-c122-4c63-81c7-884ca4c0dc3b` · printing: TDC #227 (2025-04-11) · [rulings](https://api.scryfall.com/cards/49998b89-61ae-4b10-903b-9eb24ce50d4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Berserker
@@ -108,6 +114,7 @@
   > *The machine does the growling, so the ogre's free to smile.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32201 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/111/ogre-berserker) · oracle_id `9e6f76dc-b7db-49b6-a61e-3495b81e61d7` · printing: P02 #111 (1998-06-24) · [rulings](https://api.scryfall.com/cards/b6969d4d-c311-4663-bcd6-77a4d6458335/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Chitterlord
@@ -120,6 +127,7 @@
   > Whenever this creature enters or attacks, create two 1/1 black Rat creature tokens with "This token can't block." Then if you control five or more Rats, each Rat you control gets +2/+0 until end of turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13029 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/319/ogre-chitterlord) · oracle_id `532cac99-e3cf-4869-a19f-cba67a2a6fd0` · printing: WOE #319 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a70b2033-eec5-4c86-9ebe-a68960a86763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Enforcer
@@ -133,7 +141,10 @@
   > *"Ate up all of his siblings in the first week. A good beginning for one destined to command."*
   > *—Suka, ogre matron*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32172 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/89/ogre-enforcer) · oracle_id `86cc83d8-4a70-4b97-aa4d-160afd4cd6cb` · printing: VIS #89 (1997-02-03) · [rulings](https://api.scryfall.com/cards/b0f072d6-7489-4eb0-8c53-1fa42ad806a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If its toughness falls to zero or less and it is undamaged, it will still be put into the graveyard.
+  - *2004-10-04* — The check for nonlethal damage is done on a per-source basis. So each source’s damage is checked independently and it is not possible to team up sources (such as creatures) in order to kill it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/89/ogre-enforcer) · oracle_id `86cc83d8-4a70-4b97-aa4d-160afd4cd6cb` · printing: VIS #89 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Errant
 
@@ -145,6 +156,7 @@
 - **Flavor text** (ELD printing):
   > *Knights kept returning from Ogre's Pass wearing nothing but bruises, so they decided to just pretend it was on their side.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29063 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/132/ogre-errant) · oracle_id `fbaa6819-3372-4f0b-abb8-773805135153` · printing: ELD #132 (2019-10-04) · [rulings](https://api.scryfall.com/cards/0e96f3dc-dc58-4034-8d3d-3ae74fa64562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Gatecrasher
@@ -157,6 +169,7 @@
 - **Flavor text** (DIS printing):
   > *A popular game among ogres is to see how many revolutions a head can make before it pops off.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32006 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/67/ogre-gatecrasher) · oracle_id `0b88bc94-99c4-4be5-b474-a7dad68057b3` · printing: DIS #67 (2006-05-05) · [rulings](https://api.scryfall.com/cards/ffddd4e2-e98c-4535-bac2-0af73f1535c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Geargrabber
@@ -169,7 +182,12 @@
 - **Flavor text** (SOM printing):
   > *Long reach, short attention span.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29782 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/99/ogre-geargrabber) · oracle_id `a483b1fd-751a-447e-8e4f-a54b1c194d2c` · printing: SOM #99 (2010-10-01) · [rulings](https://api.scryfall.com/cards/f0f6e2c3-0e0d-47ff-9d92-afc86a8c8aac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-01-01* — Any ability of the targeted Equipment that triggers “whenever equipped creature attacks” won’t trigger. That’s because Ogre Geargrabber is already attacking at the time that Equipment becomes attached to it.
+  - *2011-01-01* — If the targeted Equipment can’t be attached to Ogre Geargrabber for some reason, you’ll still gain control of it until end of turn.
+  - *2011-01-01* — Ogre Geargrabber’s control-changing effect ends during the cleanup step, at the same time that damage marked on permanents is removed. If you still controlled the Equipment at that time, this causes the delayed triggered ability to trigger. It goes on the stack and players can respond (which normally doesn’t happen during the cleanup step), then, once that cleanup step ends, another one begins.
+  - *2011-01-01* — The delayed triggered ability (“When you lose control of that Equipment, unattach it”) triggers the next time you lose control of the Equipment for any reason, not just when Ogre Geargrabber’s control-changing effect ends. The Equipment will become unattached from whatever creature it happens to be attached to at that time. It doesn’t matter if Ogre Geargrabber is still on the battlefield at this time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/99/ogre-geargrabber) · oracle_id `a483b1fd-751a-447e-8e4f-a54b1c194d2c` · printing: SOM #99 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre-Head Helm
 
@@ -182,7 +200,19 @@
   > Reconfigure {3} ({3}: Attach to target creature you control; or unattach from a creature. Reconfigure only as a sorcery. While attached, this isn't a creature.)
 - **Keywords:** Reconfigure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14793 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/155/ogre-head-helm) · oracle_id `b73c297a-1c39-450f-99c3-c8daa31c5f3f` · printing: NEO #155 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3a0d5f7d-4e8a-42ad-8875-610004bd9796/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-02-18* — Although it causes an Equipment to become attached to a creature, reconfigure is not an “equip ability” for the purpose of cards like Fighter Class and Leonin Shikari.
+  - *2022-02-18* — An Equipment creature can never become attached to itself. If an effect tries to do this, nothing happens.
+  - *2022-02-18* — An Equipment creature with reconfigure can be attached to creatures by effects other than its reconfigure ability, such as the activated ability of Brass Squire.
+  - *2022-02-18* — An Equipment doesn't become tapped when the permanent it's attached to becomes tapped. For example, if you attack with a creature that is equipped with Acquisition Octopus, then use reconfigure to unattach Acquisition Octopus after combat, the Octopus will be untapped and could be used to block during your opponent's turn.
+  - *2022-02-18* — As soon as an Equipment creature with reconfigure stops being a creature, any Equipment and Auras with enchant creature abilities become unattached. Auras that can enchant an Equipment that isn't a creature remain attached to it.
+  - *2022-02-18* — Attaching an Equipment with reconfigure to a creature causes that Equipment to stop being a creature until it becomes unattached. It also loses any creature subtypes it had.
+  - *2022-02-18* — If a permanent with reconfigure is somehow still a creature after it becomes attached (perhaps due to an effect like that of March of the Machines), it immediately becomes unattached from the equipped creature.
+  - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
+  - *2022-02-18* — If the equipped creature deals combat damage, you may sacrifice the equipped creature, not Ogre-Head Helm.
+  - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
+  - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/155/ogre-head-helm) · oracle_id `b73c297a-1c39-450f-99c3-c8daa31c5f3f` · printing: NEO #155 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Jailbreaker
 
@@ -196,7 +226,9 @@
   > *It took three years for it to occur to him to use the chain as a weapon, but once it did, he made up for lost time.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28050 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/80/ogre-jailbreaker) · oracle_id `08d27af8-7178-4694-8621-fabac54c8f0a` · printing: MM3 #80 (2017-03-17) · [rulings](https://api.scryfall.com/cards/da55a961-9eb7-4b9b-9be3-d4a0a5b76efb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-03-14* — Defender only matters when Ogre Jailbreaker could be declared as an attacking creature. If Ogre Jailbreaker is already attacking, losing control of your only Gate won't cause Ogre Jailbreaker to leave combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm3/80/ogre-jailbreaker) · oracle_id `08d27af8-7178-4694-8621-fabac54c8f0a` · printing: MM3 #80 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Leadfoot
 
@@ -208,6 +240,7 @@
 - **Flavor text** (MRD printing):
   > *When the goblins need more scrap for the Great Furnace, they simply let the ogres loose and follow in their wake.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/102/ogre-leadfoot) · oracle_id `17e00d6e-c57d-48ea-a1a1-0c1097083851` · printing: MRD #102 (2003-10-02) · [rulings](https://api.scryfall.com/cards/e3c77744-3a86-46cf-9e0f-5a217a1c08b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Marauder
@@ -220,7 +253,10 @@
 - **Flavor text** (BOK printing):
   > *Once freed, the oni demanded more and more sacrifices to appease them. The ogres happily obliged.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/75/ogre-marauder) · oracle_id `d9dafa31-41ea-4f1c-bc63-ec84b01d57fa` · printing: BOK #75 (2005-02-04) · [rulings](https://api.scryfall.com/cards/f083bd50-d171-4e49-b8e6-972802879c24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2005-02-01* — Attacking with Ogre Marauder a second time would cause a second trigger. If no creature was previously sacrificed, the Marauder already can’t be blocked. Sacrificing a creature for the second trigger will not nullify the first.
+  - *2005-02-01* — Ogre Marauder’s ability requires the defending player to sacrifice a creature as the ability resolves, or Ogre Marauder can’t be blocked for the rest of the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/75/ogre-marauder) · oracle_id `d9dafa31-41ea-4f1c-bc63-ec84b01d57fa` · printing: BOK #75 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Menial
 
@@ -232,6 +268,7 @@
   > {R}: This creature gets +1/+0 until end of turn.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22646 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/89/ogre-menial) · oracle_id `e7c879fa-a34b-42d9-8edf-29254380c1f7` · printing: NPH #89 (2011-05-13) · [rulings](https://api.scryfall.com/cards/6271c5c1-5f39-4908-b838-0f34c74e912e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Recluse
@@ -245,6 +282,7 @@
   > *"Those ogres who did not embrace oni worship were cast out, cursed, and forced into hermitage, waiting for the day the oni would come for them."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32203 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/113/ogre-recluse) · oracle_id `17ff0155-0006-464a-a65f-b8e1b9aeba0b` · printing: BOK #113 (2005-02-04) · [rulings](https://api.scryfall.com/cards/aa425203-71fc-4d19-8014-871d16b11bfd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Resister
@@ -257,6 +295,7 @@
 - **Flavor text** (MBS printing):
   > *He didn't have a word for "home," but he knew it was something to be defended.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/72/ogre-resister) · oracle_id `d626bd7f-c993-49ff-b05b-262330d8540c` · printing: MBS #72 (2011-02-04) · [rulings](https://api.scryfall.com/cards/60b7407d-f677-403b-893c-361df456009a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Savant
@@ -269,7 +308,10 @@
 - **Flavor text** (DDJ printing):
   > *He's an oxymoron.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30860 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/9/ogre-savant) · oracle_id `2ce12817-a7b5-475a-87d0-718d77349a6d` · printing: DDJ #9 (2012-09-07) · [rulings](https://api.scryfall.com/cards/1940a64a-51da-4509-b33e-86415aeeafad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-02-01* — If {U} was spent to cast Ogre Savant and no other creatures are on the battlefield, the Ogre will have to return itself.
+  - *2006-02-01* — The ability is not optional.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddj/9/ogre-savant) · oracle_id `2ce12817-a7b5-475a-87d0-718d77349a6d` · printing: DDJ #9 (2012-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre's Cleaver
 
@@ -282,6 +324,7 @@
   > *She adopted the weapon of the slave-lord Kazuul, and with it, all his cruelty.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18436 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/220/ogres-cleaver) · oracle_id `e32c2ed2-be8b-497c-8b94-9c104f203b49` · printing: ROE #220 (2010-04-23) · [rulings](https://api.scryfall.com/cards/ec319380-bede-49e8-9d0c-473688033601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Sentry
@@ -296,6 +339,7 @@
   > *—Javad Nasrin, Ondu relic hunter*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/168/ogre-sentry) · oracle_id `263b3472-b437-4889-af5e-c7537abb6cb6` · printing: CN2 #168 (2016-08-26) · [rulings](https://api.scryfall.com/cards/bb6e7b24-9430-4ac9-bd62-1770b8749090/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Shaman
@@ -308,6 +352,7 @@
 - **Flavor text** (TPR printing):
   > *Ogre shamans must be bright enough to learn their invocations and dim enough to use them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31996 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/148/ogre-shaman) · oracle_id `04c7bb20-6e40-4e79-a0ec-ced920d3491e` · printing: TPR #148 (2015-05-06) · [rulings](https://api.scryfall.com/cards/e5e11a62-7885-4494-b128-938485dea8a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Siegebreaker
@@ -321,6 +366,7 @@
   > *"What he doesn't burn, he smashes."*
   > *—Captain Wellis, ogre wrangler*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/215/ogre-siegebreaker) · oracle_id `1432db6a-9466-48f6-9011-60728c437608` · printing: M20 #215 (2019-07-12) · [rulings](https://api.scryfall.com/cards/0aba1c64-c552-4aeb-b669-da885c8c75b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Slumlord
@@ -335,7 +381,9 @@
   > *"His tenement is filled with the most vile, disgusting vermin. It's infested with rats, too."*
   > *—Branko One-Ear*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/145/ogre-slumlord) · oracle_id `0a5e3748-2e58-4e53-9653-8af4e21cf223` · printing: OTC #145 (2024-04-19) · [rulings](https://api.scryfall.com/cards/76995067-81a3-41c5-bc95-bfa5a953700d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — All Rats you control have deathtouch while Ogre Slumlord is on the battlefield, not just the ones created by Ogre Slumlord.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/145/ogre-slumlord) · oracle_id `0a5e3748-2e58-4e53-9653-8af4e21cf223` · printing: OTC #145 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Taskmaster
 
@@ -347,6 +395,7 @@
 - **Flavor text** (ME4 printing):
   > *Three little goblins, enjoying their brew. One bumped an ogre, and then there were two.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/128/ogre-taskmaster) · oracle_id `5604f04e-fd72-41bf-906f-eb89d4a3475d` · printing: ME4 #128 (2011-01-10) · [rulings](https://api.scryfall.com/cards/60b6b204-f3a2-4d58-94a7-1d132ccfc819/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ogre Warrior
@@ -359,4 +408,5 @@
 - **Flavor text** (S00 printing):
   > *Assault and battery included.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31957 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s00/33/ogre-warrior) · oracle_id `31426e08-bfd1-44f1-8473-5e982cb8e841` · printing: S00 #33 (2000-04-01) · [rulings](https://api.scryfall.com/cards/c0a6848f-7cb3-4ab0-a14a-e7fb62562861/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -72,6 +72,7 @@
   > *It took more than Bilbo showing up alive to convince some that he was not, in fact, "presumed dead."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8304 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/83/the-sackville-bagginses) · oracle_id `e3a665f9-6e51-4e0d-923b-e9552d5978a4` · printing: HOB #83 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ed87b471-79f9-45ec-9188-69e970f6121e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sad Creaturez
@@ -84,6 +85,7 @@
   > All creatures have "{2}: Put a +1/+1 counter on this creature. You gain 1 life. This creature shares its feelings. Activate only as a sorcery. (Creatures can continue to share their feelings.)"
   > {T}: Add two mana of any one color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03u/the-sad-creaturez) · oracle_id `170b33a2-86f2-4ca2-af4f-062a1c876c4a` · printing: UNK #RZ03u (2026-05-01) · [rulings](https://api.scryfall.com/cards/f4fc0551-8c69-4f11-8631-2e4b870e4407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Salubrious Philosopher
@@ -94,6 +96,7 @@
 - **Oracle text:**
   > If you would draw a card, you may instead choose mana base, removal, or win condition and reveal cards from the top of your library until you reveal a card of the chosen kind. Put that card into your hand and the rest on the bottom of your library in a random order. (Mana base cards add mana. Removal cards are instants and sorceries that can damage, destroy, or exile opposing permanents. Win conditions cost 6 or more mana.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04x/the-salubrious-philosopher) · oracle_id `b4725992-0c97-427e-a3dd-02aa98c0b290` · printing: UNK #RZ04x (2026-05-01) · [rulings](https://api.scryfall.com/cards/989c90e6-d936-4104-8e82-045d983d34df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Savant
@@ -103,6 +106,7 @@
 - **Oracle text:**
   > Exile The Savant: Tap all creatures your opponents control. Those creatures don't untap during their controllers' next untap steps.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4b/the-savant) · oracle_id `85660446-570a-475e-934f-b39a1c655a2c` · printing: THP2 #4b (2014-02-07) · [rulings](https://api.scryfall.com/cards/51726f8f-b63d-4e93-82b2-d63d361a3b70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scarab God
@@ -116,7 +120,12 @@
   > When The Scarab God dies, return it to its owner's hand at the beginning of the next end step.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1735 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/353/the-scarab-god) · oracle_id `c75e55f2-fd6c-4816-9d96-21eeb8369aff` · printing: CMM #353 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f4f414ef-84a2-4694-9e98-51bee4576c84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-07-14* — If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+  - *2017-07-14* — The “next end step” refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.
+  - *2020-08-07* — In a Two-Headed Giant game, The Scarab God's first ability causes the opposing team to lose life equal to twice the number of Zombies you control, although you scry only equal to the number of Zombies you control.
+  - *2020-08-07* — The number of Zombies you control is counted as The Scarab God's first ability resolves. Players can try to change that number in response to the ability (perhaps by activating its second ability).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/353/the-scarab-god) · oracle_id `c75e55f2-fd6c-4816-9d96-21eeb8369aff` · printing: CMM #353 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scarlet Witch
 
@@ -128,6 +137,7 @@
 - **Flavor text** (MSH printing):
   > *"Some are bound by the whims of chaos, but I found freedom in its endless possibility."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10335 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/151/the-scarlet-witch) · oracle_id `d8ae8c38-501e-44ea-9faf-cf9d11ba6616` · printing: MSH #151 (2026-06-26) · [rulings](https://api.scryfall.com/cards/407e8993-e56d-477d-ab85-d10a2522eab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scholar of Seas
@@ -147,6 +157,7 @@
 - **Flavor text** (UNK printing):
   > *A*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ11b/the-scholar-of-seas) · oracle_id `dc347aad-d6b2-494c-95b7-90c356692a7a` · printing: UNK #RZ11b (2024-02-24) · [rulings](https://api.scryfall.com/cards/70bd95e3-33df-49f1-877d-f8c249234c26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Scorpion God
@@ -159,7 +170,10 @@
   > {1}{B}{R}: Put a -1/-1 counter on another target creature.
   > When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5128 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/133/the-scorpion-god) · oracle_id `aff223d4-6338-460d-a4d5-d45f522864dc` · printing: ECC #133 (2026-01-23) · [rulings](https://api.scryfall.com/cards/792eabed-6c49-41f0-a9ce-0184e5c577e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-07-14* — If a creature with a -1/-1 counter on it dies at the same time as The Scorpion God does, you'll draw a card. The same is true if The Scorpion God dies with a -1/-1 counter on it.
+  - *2017-07-14* — You'll draw only one card when a creature with more than one -1/-1 counter on it dies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/133/the-scorpion-god) · oracle_id `aff223d4-6338-460d-a4d5-d45f522864dc` · printing: ECC #133 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sea Devils
 
@@ -170,6 +184,7 @@
   > I, II — Create a 2/2 green Alien Salamander creature token with islandwalk. (It can't be blocked as long as defending player controls an Island.)
   > III — Until end of turn, whenever a Salamander deals combat damage to a player, it deals that much damage to target creature that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18031 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/108/the-sea-devils) · oracle_id `09d7a2d5-9e6e-4d84-8f97-c36b11ccc6fb` · printing: WHO #108 (2023-10-13) · [rulings](https://api.scryfall.com/cards/96fcb0cb-0df9-4a45-beab-08dc39cf6b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Second Doctor
@@ -184,7 +199,11 @@
   > *"Well . . . it is a fact, Jamie, that I do tend to get involved."*
 - **Keywords:** How Civil of You
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3725 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/156/the-second-doctor) · oracle_id `8a6eda31-2791-4def-b9e7-3adde155a4f0` · printing: WHO #156 (2023-10-13) · [rulings](https://api.scryfall.com/cards/568c2687-4381-4954-9cab-f669d1fe6306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/156/the-second-doctor) · oracle_id `8a6eda31-2791-4def-b9e7-3adde155a4f0` · printing: WHO #156 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Secret Lair
 
@@ -195,7 +214,9 @@
   > {T}, Say the secret word: Add one mana of any color. Scry 1. You gain 1 life.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/3/the-secret-lair) · oracle_id `06eec4d7-ee11-44c9-8c5c-a16ecd5ecd84` · printing: PH20 #3 (2021-08-01) · [rulings](https://api.scryfall.com/cards/60522839-bcf5-4da9-bab5-ff436269c4a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph20/3/the-secret-lair) · oracle_id `06eec4d7-ee11-44c9-8c5c-a16ecd5ecd84` · printing: PH20 #3 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Seedcore
 
@@ -207,6 +228,7 @@
   > Corrupted — {T}: Target 1/1 creature gets +2/+1 until end of turn. Activate only if an opponent has three or more poison counters.
 - **Keywords:** Corrupted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5761 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/259/the-seedcore) · oracle_id `249fdd3e-376c-4ec2-a612-4353e0e61ee2` · printing: ONE #259 (2023-02-10) · [rulings](https://api.scryfall.com/cards/29c91aad-bf33-448e-b122-65940fb2e33b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sentry, Golden Guardian
@@ -221,6 +243,7 @@
   > *"For all the kindness I spread, the Void only sows terror."*
 - **Keywords:** Flying, Indestructible, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9863 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/35/the-sentry-golden-guardian) · oracle_id `1fe549c3-79be-40ef-b57c-de59f24df5ab` · printing: MSH #35 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f56c0e7-5b07-48e3-b0ca-5d09ddc8de9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Seriema
@@ -235,6 +258,7 @@
   > Other tapped legendary creatures you control have indestructible.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2751 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/35/the-seriema) · oracle_id `a6bcec1f-f515-4e63-9e84-8eb04cc582ff` · printing: EOE #35 (2025-08-01) · [rulings](https://api.scryfall.com/cards/dec91ec3-42d3-4922-96f0-dbb50a576084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Serpent Society
@@ -251,6 +275,7 @@
   > *—King Cobra*
 - **Keywords:** Ward, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11737 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/226/the-serpent-society) · oracle_id `3688ad0d-653b-4d5d-a57e-444db679d83e` · printing: MSH #226 (2026-06-26) · [rulings](https://api.scryfall.com/cards/209855ee-d531-4b58-926b-8da171d46619/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Seventh Doctor
@@ -262,7 +287,13 @@
   > Whenever The Seventh Doctor attacks, choose a card in your hand. Defending player guesses whether that card's mana value is greater than the number of artifacts you control. If they guessed wrong, you may cast it without paying its mana cost. If you don't cast a spell this way, investigate. (Create a Clue token. It's an artifact with "{2}, Sacrifice this token: Draw a card.")
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11330 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/158/the-seventh-doctor) · oracle_id `43e1b053-2cb9-4b1d-9e38-100cfa7267b6` · printing: WHO #158 (2023-10-13) · [rulings](https://api.scryfall.com/cards/8dd6bfb3-1338-4ee6-9281-30a7428200d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If the card you chose has an {X} in its mana cost, the value of X is 0.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — To choose a card in your hand for The Seventh Doctor's ability, take a card in your hand and separate it from the others, face down. Then the defending player guesses whether the mana value of that card is greater than the number of artifacts you control. You do not have to reveal whether they guess right or wrong unless you are casting the card.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/158/the-seventh-doctor) · oracle_id `43e1b053-2cb9-4b1d-9e38-100cfa7267b6` · printing: WHO #158 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Shattered States Era // Nameless Conqueror
 
@@ -280,7 +311,14 @@
   > *—\*History of the Empire\**
 - **Keywords:** Transform, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16554 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/162/the-shattered-states-era-nameless-conqueror) · oracle_id `99473461-3c6f-4f7f-8ba2-d6c090ddb567` · printing: NEO #162 (2022-02-18) · [rulings](https://api.scryfall.com/cards/517392f6-d3fd-4c59-8317-2a3595ab7562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/162/the-shattered-states-era-nameless-conqueror) · oracle_id `99473461-3c6f-4f7f-8ba2-d6c090ddb567` · printing: NEO #162 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Shire
 
@@ -295,7 +333,12 @@
   > *—Merry*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1184 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/260/the-shire) · oracle_id `9abf9a0e-8e7d-406b-a01d-d4870b30134e` · printing: LTR #260 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d5178a1b-588b-4414-a370-ac6eed51187a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-06-16* — The legendary creature must already be on the battlefield as the land enters the battlefield. If it enters the battlefield at the same time, the land will enter tapped.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/260/the-shire) · oracle_id `9abf9a0e-8e7d-406b-a01d-d4870b30134e` · printing: LTR #260 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sibsig Ceremony
 
@@ -307,6 +350,7 @@
 - **Flavor text** (TDM printing):
   > *"Once flesh, now gold and jade. Once dead, now alive again. Once respected, now honored beyond imagination."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8946 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/91/the-sibsig-ceremony) · oracle_id `bbdb731d-c533-48ef-b82a-cf1a8ba36208` · printing: TDM #91 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5a9f2a62-1c61-4d2e-86d9-18cd84c31748/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sixth Doctor
@@ -320,7 +364,12 @@
   > *"This is a situation that requires tact and finesse. Fortunately, I am blessed with both!"*
 - **Keywords:** Time Lord's Prerogative
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6665 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/159/the-sixth-doctor) · oracle_id `49cb8d81-d8a0-4ae7-9750-6788a3e9c81b` · printing: WHO #159 (2023-10-13) · [rulings](https://api.scryfall.com/cards/c045ccb2-28d1-4bbe-9feb-3e86988fd24d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — Usually, a historic spell won't have any targets. However, if it does have one or more targets, those targets will remain the same for the copy. You won't get to choose new targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/159/the-sixth-doctor) · oracle_id `49cb8d81-d8a0-4ae7-9750-6788a3e9c81b` · printing: WHO #159 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sixth Seraph
 
@@ -332,6 +381,7 @@
   > Artifact spells you cast have demonstrate. (Whenever you cast an artifact spell, you may copy it. If you do, choose an opponent to also copy it. Each copy becomes a token.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW05c/the-sixth-seraph) · oracle_id `357f32bb-b33d-4903-9113-fa9048b1a822` · printing: UNK #RW05c (2024-10-25) · [rulings](https://api.scryfall.com/cards/5bd9ca12-c7e6-4637-aa21-3e1ea4414a90/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Skullspore Nexus
@@ -344,7 +394,12 @@
   > {2}, {T}: Double target creature's power until end of turn.
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1651 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/212/the-skullspore-nexus) · oracle_id `ba26ff0a-e714-44f2-95cf-1a5a6088edf9` · printing: LCI #212 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b56a7631-5f94-468d-aab7-7e9e129c5f49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — Once you determine the cost to cast The Skullspore Nexus, you may activate abilities to pay that cost. If the greatest power among creatures you control changes while activating mana abilities, the cost to cast The Skullspore Nexus remains what you previously determined.
+  - *2023-11-10* — The first step of casting a spell is to move it to the stack. If this causes the greatest power among creatures you control to change (for example, if you control a creature with "This creature's power is equal to the number of cards in your hand"), that new power will be used to determine the cost reduction.
+  - *2023-11-10* — To double a creature's power, that creature gets +X/+0, where X is that creature's power as The Skullspore Nexus's activated ability resolves.
+  - *2023-11-10* — Use the power of the nontoken creatures that died as they last existed on the battlefield to determine the base power and toughness of the token created by the middle ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/212/the-skullspore-nexus) · oracle_id `ba26ff0a-e714-44f2-95cf-1a5a6088edf9` · printing: LCI #212 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Slayer
 
@@ -353,6 +408,7 @@
 - **Oracle text:**
   > You start the game with an additional 7 life.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/3/the-slayer) · oracle_id `10bca1c1-de28-4fbb-8439-31bfed5d52d7` · printing: THP1 #3 (2013-09-27) · [rulings](https://api.scryfall.com/cards/5a12f3e3-5708-4d14-a1ed-600232002266/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Snapstone Wielder
@@ -364,6 +420,7 @@
   > If The Snapstone Wielder is your commander and your deck contains no land cards, your starting hand size is four and for the rest of the game, at the beginning of your upkeep, you get a mana counter. During each of your turns, you can spend mana of any color equal to the number of mana counters you have. (You want mana on opponent's turns, you're on your own. Who needs instant-speed interaction?)
   > Whenever The Snapstone Wielder enters or attacks, cast a random nonland Magic card without paying its mana cost. If it has targets, choose the targets at random.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06h/the-snapstone-wielder) · oracle_id `405df512-6739-4ad7-a3e4-43196545ce43` · printing: UNK #RZ06h (2025-09-26) · [rulings](https://api.scryfall.com/cards/2a1f08aa-05a3-4051-b19f-141b49e422a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Soul Stone
@@ -377,7 +434,11 @@
   > ∞ — At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/66/the-soul-stone) · oracle_id `92cfba68-12f6-4f97-9187-0f6a39656a0f` · printing: SPM #66 (2025-09-26) · [rulings](https://api.scryfall.com/cards/1982f910-a9bd-4e94-a187-84381b22aacc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — "Harnessed" is a designation that the permanent has once an ability instructs you to harness it. It has no special rules meaning other than being a designation that the ∞ ability (and, theoretically, other effects) can see.
+  - *2025-09-19* — Being harnessed isn't copiable. If something else becomes a copy of The Soul Stone, it must be harnessed separately. Similarly, if The Soul Stone is already harnessed and becomes a copy of something else, it stays harnessed, though it's very likely that won't be relevant until that copy effect ends.
+  - *2025-09-19* — Until it is harnessed, The Soul Stone doesn't have the ability listed after the infinity symbol. It also doesn't have that ability in zones other than the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/66/the-soul-stone) · oracle_id `92cfba68-12f6-4f97-9187-0f6a39656a0f` · printing: SPM #66 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sound of Drums
 
@@ -390,6 +451,7 @@
   > {2}{R}: Return this card from your graveyard to your hand.
 - **Keywords:** Goad, Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/97/the-sound-of-drums) · oracle_id `0afcc646-cb34-4c0e-b3f5-4115ad4faa8e` · printing: WHO #97 (2023-10-13) · [rulings](https://api.scryfall.com/cards/5ff2141a-a3ed-4ad0-9338-560502b1c85c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Space Family Goblinson
@@ -403,7 +465,10 @@
 - **Flavor text** (UNF printing):
   > *The goblin word for "vacation" translates roughly to "a battered landscape of noise and violence."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21524 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/179/the-space-family-goblinson) · oracle_id `63132b61-a684-4900-baf2-818904805208` · printing: UNF #179 (2022-10-07) · [rulings](https://api.scryfall.com/cards/26177224-3c0e-4081-8468-3cd9981ddb0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — If you roll more than one die at a time, however, that does count as multiple die rolls.
+  - *2022-10-07* — Remember that if a die is rerolled, that counts only as a single roll. The original roll doesn’t count. Similarly, any die roll that’s ignored doesn’t count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/179/the-space-family-goblinson) · oracle_id `63132b61-a684-4900-baf2-818904805208` · printing: UNF #179 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spear of Bashenga
 
@@ -416,6 +481,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16854 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/25/the-spear-of-bashenga) · oracle_id `e7a0b370-913d-4e96-8fb4-5df168405073` · printing: MSC #25 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b8cc0703-f626-4d42-90bb-1a26e331a9de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spear of Leonidas
@@ -430,7 +496,9 @@
   > Equip {2}
 - **Keywords:** Bull Rush, Summon, Equip, Revelation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3647 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/38/the-spear-of-leonidas) · oracle_id `dac3a263-cc02-446a-88ec-882a21096b6c` · printing: ACR #38 (2024-07-05) · [rulings](https://api.scryfall.com/cards/160d6ce7-2452-41a2-aa70-41e1b8045c54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — You may choose the “Revelation” mode even if you have one or fewer cards in your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/38/the-spear-of-leonidas) · oracle_id `dac3a263-cc02-446a-88ec-882a21096b6c` · printing: ACR #38 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Speed Demon
 
@@ -445,7 +513,14 @@
   > *Caution is for those who falter.*
 - **Keywords:** Flying, Trample, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6280 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/105/the-speed-demon) · oracle_id `c9fb22b4-dc22-4291-91f2-89c07cee7569` · printing: DFT #105 (2025-02-14) · [rulings](https://api.scryfall.com/cards/62242a80-0444-4a0e-a868-97eabcc77648/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/105/the-speed-demon) · oracle_id `c9fb22b4-dc22-4291-91f2-89c07cee7569` · printing: DFT #105 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thespian's Stage
 
@@ -457,7 +532,12 @@
 - **Flavor text** (2XM printing):
   > *Amid rumors of war, the third act of \*The Absolution of the Guildpact\* was quickly rewritten as a tragedy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/327/thespians-stage) · oracle_id `b01e698b-608a-4fc7-8073-b01d044743ec` · printing: 2XM #327 (2020-08-07) · [rulings](https://api.scryfall.com/cards/269a926d-7788-4668-8bd8-7572dbf5f5eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-12-07* — A land's copiable values are those printed on it, as modified by other copy effects. Counters and other effects aren't copied. Notably, if you copy a land that is also a creature because of a temporary effect (such as Celestial Colonnade), Thespian's Stage will become just the "unanimated" land.
+  - *2018-12-07* — No enters-the-battlefield abilities of the land Thespian's Stage is copying will trigger. Thespian's Stage was already on the battlefield. Similarly, no "as this land enters the battlefield" or "this land enters the battlefield with" effects, such as that of Dark Depths, will apply.
+  - *2018-12-07* — The copy effect created by the last activated ability doesn't have a duration. It will last until Thespian's Stage leaves the battlefield or another copy effect overwrites it. The permanent will no longer have the first ability of Thespian's Stage.
+  - *2018-12-07* — Thespian's Stage doesn't become untapped when it becomes a copy, even if the target land is untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/327/thespians-stage) · oracle_id `b01e698b-608a-4fc7-8073-b01d044743ec` · printing: 2XM #327 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spike Cactus
 
@@ -470,6 +550,7 @@
 - **Flavor text** (UNK printing):
   > *TARGET*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03e/the-spike-cactus) · oracle_id `ab9cba15-4393-4cc5-8324-dae98a9e7642` · printing: UNK #RG03e (2024-02-24) · [rulings](https://api.scryfall.com/cards/53471a59-99a6-4f90-8140-af22f89b1562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spirit Oasis
@@ -483,6 +564,7 @@
   > *"It's the center of all spiritual energy in our land."*
   > *—Princess Yue*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7202 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/72/the-spirit-oasis) · oracle_id `b677a73c-f179-46bf-83ee-c2b05f9fca67` · printing: TLA #72 (2025-11-21) · [rulings](https://api.scryfall.com/cards/3a1b1329-531c-47ed-9802-c505501f8fd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spot, Living Portal
@@ -496,7 +578,9 @@
 - **Flavor text** (SPM printing):
   > *Dr. Johnathon Ohnn had no problem breaking laws, physical or otherwise.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19113 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/153/the-spot-living-portal) · oracle_id `a5dfa7ad-9637-4da8-9ed2-0ac863617d9a` · printing: SPM #153 (2025-09-26) · [rulings](https://api.scryfall.com/cards/09081740-1180-48ea-b50b-e016d9c3828a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-09-19* — If The Spot is a token, you can't move him from the graveyard when he dies, so the exiled cards won't be returned.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/153/the-spot-living-portal) · oracle_id `a5dfa7ad-9637-4da8-9ed2-0ac863617d9a` · printing: SPM #153 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Spot's Portal
 
@@ -508,6 +592,7 @@
   > *"You've been working too hard, Spider-Man. I think you deserve a little vacation somewhere you won't be so . . . in the way."*
   > *—The Spot, Johnathon Ohnn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10723 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/798/the-spots-portal) · oracle_id `3ceac6ce-acde-42ab-b79d-ff153074d2d8` · printing: MSC #798 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7b14d897-c056-43e6-972c-d4e23c7f484f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Sprinkler of Stardust
@@ -518,6 +603,7 @@
 - **Oracle text:**
   > Whenever The Sprinkler of Stardust attacks, look at the top six cards of your library. You may put an instant or sorcery card from among them onto the battlefield tapped and attacking. It becomes a 2/2 creature with "Whenever this deals combat damage to an opponent, cast a copy of this card." (The 2/2 creature stays on the battlefield.) Put the rest of the cards on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04r/the-sprinkler-of-stardust) · oracle_id `35cd3af1-3522-4dde-8dbd-adb16692e485` · printing: UNK #RZ04r (2025-06-20) · [rulings](https://api.scryfall.com/cards/7773cb71-59b5-47d6-8acd-964cd4d9de48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Squadron Sinister
@@ -531,6 +617,7 @@
   > Mayhem {3}{U}{R} (You may cast this card from your graveyard for {3}{U}{R} if you discarded it this turn. Timing rules still apply.)
 - **Keywords:** Flying, Mayhem, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11197 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/96/the-squadron-sinister) · oracle_id `3b7352e6-6508-491c-9935-426a6eebb429` · printing: MSC #96 (2026-06-26) · [rulings](https://api.scryfall.com/cards/96714d95-baef-45e3-a2b0-00a8bdb3a76d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Stasis Coffin
@@ -542,7 +629,12 @@
 - **Flavor text** (BRO printing):
   > *Tawnos built it to be absolutely impermeable to any force inside. Luckily it worked for any force outside as well.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6644 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/245/the-stasis-coffin) · oracle_id `a46bfaf5-e631-4603-850a-f0074395b2f5` · printing: BRO #245 (2022-11-18) · [rulings](https://api.scryfall.com/cards/45537ac3-fc61-4253-a782-7f3e436b2aa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Gaining protection from everything causes a spell or ability on the stack to have an illegal target if it targets you. As a spell or ability tries to resolve, if all its targets are illegal, that spell or ability doesn't resolve and none of its effects happen, including effects unrelated to the target. If at least one target is still legal, the spell or ability does as much as it can to the remaining legal targets, and its other effects still happen.
+  - *2022-10-14* — If a player has protection from everything, it means three things: (1) All damage that would be dealt to that player is prevented. (2) Auras can't be attached to that player. (3) That player can't be the target of spells or abilities.
+  - *2022-10-14* — If an effect says that damage can't be prevented, you can still take damage from untargeted sources, such as attacking creatures or spells that deal damage to each player.
+  - *2022-10-14* — Nothing other than the specified events are prevented or illegal. An effect that doesn't target you could still cause you to discard cards, for example. Creatures can still attack you while you have protection from everything, although combat damage that they would deal to you will be prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/245/the-stasis-coffin) · oracle_id `a46bfaf5-e631-4603-850a-f0074395b2f5` · printing: BRO #245 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Stone Brain
 
@@ -551,7 +643,13 @@
 - **Oracle text:**
   > {2}, {T}, Exile The Stone Brain: Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. That player shuffles, then draws a card for each card exiled from their hand this way. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/247/the-stone-brain) · oracle_id `b28dcb41-5e47-4719-892f-da009a5d50b4` · printing: BRO #247 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3570ebf2-a94c-4621-8808-b06e6e830c06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — The ability has no effect on permanents with the chosen name that are on the battlefield.
+  - *2022-10-14* — Unlike most effects of this kind, The Stone Brain's ability allows its controller to choose the name of a basic land. Note that you may only search for up to four copies of that card, even if you find more of them.
+  - *2022-10-14* — You don't have to choose the name of a card that you've already seen this game; you may guess at a card you think your opponent might have in their deck, if you'd like.
+  - *2022-10-14* — You don't have to exile each card you find with that name. If you want to leave one in their graveyard, for example, you may.
+  - *2022-10-14* — You target a player as The Stone Brain's activated ability is put on the stack, but you don't name a card until it resolves. Notably, this means that players don't get to respond to the ability knowing what card you will name.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/247/the-stone-brain) · oracle_id `b28dcb41-5e47-4719-892f-da009a5d50b4` · printing: BRO #247 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Strixhaven-Lorwyn Rover
 
@@ -565,6 +663,7 @@
 - **Flavor text** (UNK printing):
   > *Prize Card for the Unknown events at MagicCon Las Vegas, May 1-3, 2026*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/MA04/the-strixhaven-lorwyn-rover) · oracle_id `db0c209c-f17e-4897-9989-05e17dbaf261` · printing: UNK #MA04 (2026-05-01) · [rulings](https://api.scryfall.com/cards/a7475e46-2dd9-487e-8cbb-5a259fb5ec99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Super Hero Civil War
@@ -578,6 +677,7 @@
   > III — Target creature you control fights up to one other target creature.
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19033 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/231/the-super-hero-civil-war) · oracle_id `11d74dc2-8c11-4d4b-b727-8216d2eb6b4e` · printing: MSH #231 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fbd1f333-5640-41f8-b9dd-1c322ac7724a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230a)
@@ -589,6 +689,7 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice The Superlatorium and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/230a/the-superlatorium) · oracle_id `8169a0a2-2e2b-4b07-bee5-6ae535458f17` · printing: UNF #230a (2022-10-07) · [rulings](https://api.scryfall.com/cards/0319b2d1-1d63-4f3f-a1da-10ec64d74f03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230b)
@@ -600,6 +701,7 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice The Superlatorium and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/230b/the-superlatorium) · oracle_id `2f5b07d8-3697-4117-9143-15f697695a61` · printing: UNF #230b (2022-10-07) · [rulings](https://api.scryfall.com/cards/d65ff7de-ed00-41cf-8320-74f98c87212e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230c)
@@ -611,7 +713,10 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice this Attraction and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/230c/the-superlatorium) · oracle_id `061dd278-c74c-4f43-98de-577ea9df5f5e` · printing: UNF #230c (2022-10-07) · [rulings](https://api.scryfall.com/cards/d298f389-4c97-413c-ac83-9c928cb5c3e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-10-07* — All categories are subjective. If there’s a 1/1 Beeble and a 6/6 Elephant on the battlefield, and the outside person chooses the Elephant as “the weakest,” so be it.
+  - *2022-10-07* — The outside person should be told only the category, not which creature you chose. Their decision can’t be influenced in any way. They are free to choose whichever creature they feel best fits the category.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/230c/the-superlatorium) · oracle_id `061dd278-c74c-4f43-98de-577ea9df5f5e` · printing: UNF #230c (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230d)
 
@@ -622,6 +727,7 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice The Superlatorium and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/230d/the-superlatorium) · oracle_id `8f69c7cc-5373-4b1a-b5c4-ed272e1c6811` · printing: UNF #230d (2022-10-07) · [rulings](https://api.scryfall.com/cards/9f21a33a-ef9d-495d-a475-7042cbd9f6f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230e)
@@ -633,6 +739,7 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice The Superlatorium and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/230e/the-superlatorium) · oracle_id `5d2f7082-d2be-4437-80aa-24ee328b31af` · printing: UNF #230e (2022-10-07) · [rulings](https://api.scryfall.com/cards/801ff015-e322-4a85-a060-326a74bed703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Superlatorium (UNF #230f)
@@ -644,6 +751,7 @@
   > Prize — Create two 1/1 red Balloon creature tokens with flying, then sacrifice The Superlatorium and open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/230f/the-superlatorium) · oracle_id `886aa63c-2dab-481a-bf62-5b6770cc9607` · printing: UNF #230f (2022-10-07) · [rulings](https://api.scryfall.com/cards/dc25f5c7-2352-4d21-a48f-11dddc310a1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Surgical Bay
@@ -657,6 +765,7 @@
 - **Flavor text** (ONE printing):
   > *In Jin-Gitaxias's domain, strange and terrible experiments iterate toward perfection, unbound by ethics.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/260/the-surgical-bay) · oracle_id `db9c155f-b342-41bb-9e1a-50358fb9f40e` · printing: ONE #260 (2023-02-10) · [rulings](https://api.scryfall.com/cards/1b49ec35-2c4f-4144-85fe-226f7cb67266/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Swamp Kitten
@@ -668,6 +777,7 @@
   > Land creatures and/or creatures you control with menace get +1/+1.
   > At the beginning of combat on your turn, target Swamp you control becomes a 0/0 black land creature and gains menace. It's still a land. Put a +1/+1 counter on it. (It can't be blocked except by two or more creatures. It's dark and scary.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RB04i/the-swamp-kitten) · oracle_id `eba38613-bb48-4d96-b1c8-c87f1a1f9446` · printing: UNK #RB04i (2026-07-17) · [rulings](https://api.scryfall.com/cards/550107d4-05ff-49db-90db-e0dd357f7e0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Swarmlord
@@ -680,6 +790,7 @@
   > Xenos Cunning — Whenever a creature you control with a counter on it dies, draw a card.
 - **Keywords:** Rapid Regeneration, Xenos Cunning
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13610 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/4/the-swarmlord) · oracle_id `ead75ea4-025f-443a-824f-26fef9e424db` · printing: 40K #4 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d5c4077c-604e-4e8a-b448-0807849040ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Swarmweaver
@@ -692,4 +803,5 @@
   > Delirium — As long as there are four or more card types among cards in your graveyard, Insects and Spiders you control get +1/+1 and have deathtouch.
 - **Keywords:** Delirium
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6152 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/236/the-swarmweaver) · oracle_id `50120e90-2fdf-43c1-93e2-2230ee4e63fc` · printing: DSK #236 (2024-09-27) · [rulings](https://api.scryfall.com/cards/dcf3b17b-f2f6-4702-864d-8c96100b0563/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

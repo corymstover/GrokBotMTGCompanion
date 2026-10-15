@@ -44,6 +44,7 @@
   > You may tap three untapped Dwarves you control rather than pay this spell's mana cost.
   > At the beginning of each end step, if a land you controlled was put into a graveyard from the battlefield this turn, reveal the top four cards of your library. You may put any number of Dwarf cards from among them into your hand. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24795 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/35/the-lady-of-otaria) · oracle_id `1ea4f882-6872-4d9e-9532-5ba2bf848d00` · printing: DMC #35 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d96a5a00-22a7-4a7b-a7e2-5c055a8384ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lady of the Mountain
@@ -56,6 +57,7 @@
 - **Flavor text** (ME3 printing):
   > *Her given name has been lost in the mists of time. Legend says that her silent vigil will one day be ended by the one who, pure of heart and spirit, calls out that name again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28887 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/180/the-lady-of-the-mountain) · oracle_id `3ef03975-0f46-43aa-b461-bd3b6f5d4613` · printing: ME3 #180 (2009-09-07) · [rulings](https://api.scryfall.com/cards/70802e74-c292-446f-aa9a-dd32454a4b3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Agni Kai
@@ -69,7 +71,10 @@
   > *Zuko's journey began when he refused to duel his father, but it would end dueling his sister.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1997 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/144/the-last-agni-kai) · oracle_id `fd1998c0-c18e-4310-82de-b6320be5fe10` · printing: TLA #144 (2025-11-21) · [rulings](https://api.scryfall.com/cards/61eaebc6-7575-48ed-b212-ff8b0c7ae694/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+  - *2025-10-02* — In some cases, the creature you control that is fighting may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn't greater than the opponent's creature's toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/144/the-last-agni-kai) · oracle_id `fd1998c0-c18e-4310-82de-b6320be5fe10` · printing: TLA #144 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ride
 
@@ -84,6 +89,7 @@
   > *The rearview mirror showed Winter what awaited him should he fail.*
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15628 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/94/the-last-ride) · oracle_id `3ef03540-b538-466d-aa3c-da6750117ba4` · printing: DFT #94 (2025-02-14) · [rulings](https://api.scryfall.com/cards/9cbb7b4e-bd32-44a0-9396-16738c5e4381/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ronin
@@ -97,7 +103,9 @@
   > III — Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17222 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/154/the-last-ronin) · oracle_id `e1865bec-1744-40c2-9031-7d6363be5333` · printing: TMT #154 (2026-03-06) · [rulings](https://api.scryfall.com/cards/72ab3ccf-3ddb-4dd1-9cfb-98802a18d954/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — You don't choose a target for The Last Ronin's second chapter ability at the time it triggers. Rather, a second "reflexive" ability triggers when you mill four cards this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/154/the-last-ronin) · oracle_id `e1865bec-1744-40c2-9031-7d6363be5333` · printing: TMT #154 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ronin's Technique
 
@@ -110,7 +118,13 @@
   > *They stood beside him. Whether they were figments or true spirits no longer mattered.*
 - **Keywords:** Sneak
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12124 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/12/the-last-ronins-technique) · oracle_id `6a51bb21-0c01-4ad8-99d7-17685db90b69` · printing: TMT #12 (2026-03-06) · [rulings](https://api.scryfall.com/cards/dfb18239-d373-4795-8598-c82abae2cb62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2026-01-27* — Although the tokens enter attacking if The Last Ronin's Technique's sneak cost was paid, those tokens were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won't trigger when those tokens enter attacking.
+  - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
+  - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+  - *2026-01-27* — You choose the player, planeswalker, or battle each token is attacking. Each token can enter attacking a different player, planeswalker, or battle. They don't need to be the same player, planeswalker, or battle that the creature returned to pay The Last Ronin's Technique's sneak cost was attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/12/the-last-ronins-technique) · oracle_id `6a51bb21-0c01-4ad8-99d7-17685db90b69` · printing: TMT #12 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Arena
 
@@ -121,7 +135,9 @@
   > I, II — Create a 2/1 red Human Wizard creature token. Spells you cast this turn cost {1} less to cast for each Wizard you control.
   > III — Search your library for a planeswalker card, put it onto the battlefield, then shuffle your library. It enters with an additional loyalty counter on it for each Wizard you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/4/the-legend-of-arena) · oracle_id `51dddde5-c826-4adc-8fca-0a7f9b6cf17f` · printing: PH18 #4 (2019-08-01) · [rulings](https://api.scryfall.com/cards/9acbbb54-f08d-4926-acdb-db376d4b46cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph18/4/the-legend-of-arena) · oracle_id `51dddde5-c826-4adc-8fca-0a7f9b6cf17f` · printing: PH18 #4 (2019-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Kuruk // Avatar Kuruk
 
@@ -136,7 +152,13 @@
   > Exhaust — Waterbend {20}: Take an extra turn after this one. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}. Activate each exhaust ability only once.)
 - **Keywords:** Transform, Exhaust, Waterbend, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk) · oracle_id `201b8936-18f4-4881-a1d4-c308cf3832bf` · printing: TLA #61 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5e9a53d3-7f2f-4a9c-9516-0713da740478/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Kuruk, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk) · oracle_id `201b8936-18f4-4881-a1d4-c308cf3832bf` · printing: TLA #61 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Kyoshi // Avatar Kyoshi
 
@@ -154,7 +176,22 @@
   > *"Only justice will bring peace."*
 - **Keywords:** Transform, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3015 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi) · oracle_id `e41e8754-028c-4399-b530-de9e134d04b0` · printing: TLA #186 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4887ce64-7c98-4bd7-95db-0c43ab71cc6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Avatar Kyoshi's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less, no mana is added.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Kyoshi, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The effect making the land an Island doesn't have a duration and will last indefinitely while that land is on the battlefield. The land retains any land types and abilities it already had. An Island has the ability "{T}: Add {U}."
+  - *2025-10-02* — The greatest power among creatures you control is determined as The Legend of Kyoshi's first chapter ability resolves. If the greatest power among creatures you control is 0 or less at that time, you will not draw any cards.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi) · oracle_id `e41e8754-028c-4399-b530-de9e134d04b0` · printing: TLA #186 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Roku // Avatar Roku
 
@@ -172,7 +209,14 @@
   > *"You must be decisive."*
 - **Keywords:** Transform, Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku) · oracle_id `2f26f270-26d9-46d3-957f-19f52d51eb03` · printing: TLA #145 (2025-11-21) · [rulings](https://api.scryfall.com/cards/95f2f5af-d405-4534-8683-5a9001f997b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Roku, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You pay all costs and follow all timing rules for cards played from exile using The Legend of Roku's first chapter ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty. You may play those exiled cards even if you no longer control The Legend of Roku.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku) · oracle_id `2f26f270-26d9-46d3-957f-19f52d51eb03` · printing: TLA #145 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Yangchen // Avatar Yangchen
 
@@ -190,7 +234,15 @@
   > *"Selfless duty calls you to sacrifice your own spiritual needs and do whatever it takes to protect the world."*
 - **Keywords:** Flying, Airbend, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4281 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen) · oracle_id `521a63cf-5e83-4649-9800-c62b2fc474d6` · printing: TLA #27 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a60e8f23-90b2-4bc6-bd54-a95055556389/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-10-02* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2025-10-02* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Yangchen, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2025-10-02* — Permanents chosen by players using The Legend of Yangchen's first ability will be exiled simultaneously once all players have chosen permanents.
+  - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+  - *2025-10-02* — You must choose a target opponent for The Legend of Yangchen's second chapter ability when it is put on the stack. You will not choose whether or not that opponent will draw cards until the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen) · oracle_id `521a63cf-5e83-4649-9800-c62b2fc474d6` · printing: TLA #27 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lion-Turtle
 
@@ -204,6 +256,7 @@
   > {T}: Add one mana of any color.
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12286 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/232/the-lion-turtle) · oracle_id `fff728a1-56f5-4e97-91e2-19aba5772909` · printing: TLA #232 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8491585c-81d0-48be-8ed0-832e42fad9c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Local Guides
@@ -216,6 +269,7 @@
   > Whenever another creature you control enters, if the first letter of its name is found in the name of the city you're in, it explores. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on the creature, then put the card back or put it into your graveyard.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03/the-local-guides) · oracle_id `1c9af8a9-40be-4925-bf52-12e991a1be71` · printing: UNK #RG03 (2026-07-17) · [rulings](https://api.scryfall.com/cards/7a08a1db-ec32-4783-baff-8fb09219f9ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Locust God
@@ -230,7 +284,11 @@
   > When The Locust God dies, return it to its owner's hand at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1738 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/335/the-locust-god) · oracle_id `e025a714-02da-4b0c-8021-cf3e8dc9b19e` · printing: MOC #335 (2023-04-21) · [rulings](https://api.scryfall.com/cards/7e599847-8ab0-4fd6-b2c0-cb44a7669aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-07-14* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” The Locust God's first triggered ability won't trigger.
+  - *2017-07-14* — If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
+  - *2017-07-14* — The “next end step” refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/335/the-locust-god) · oracle_id `e025a714-02da-4b0c-8021-cf3e8dc9b19e` · printing: MOC #335 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lonely Mountain
 
@@ -241,6 +299,7 @@
   > This land enters tapped unless you control an Equipment.
   > {4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Equipment you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7616 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/187/the-lonely-mountain) · oracle_id `3678c06f-8a33-4a6d-bf20-5b92d5c05a95` · printing: HOB #187 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b39ebc4d-a01a-4401-ab3a-bf6142c93b47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Long Reach of Night // Animus of Night's Reach
@@ -258,7 +317,14 @@
   > *The dark myojin's gifts were instrumental in ending the Kami War.*
 - **Keywords:** Transform, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/109/the-long-reach-of-night-animus-of-nights-reach) · oracle_id `8b1e453a-35a6-4dff-bd37-498f34d0470e` · printing: NEO #109 (2022-02-18) · [rulings](https://api.scryfall.com/cards/4ec18bf7-bd80-408d-acc4-ffaaf7ef6b5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/109/the-long-reach-of-night-animus-of-nights-reach) · oracle_id `8b1e453a-35a6-4dff-bd37-498f34d0470e` · printing: NEO #109 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelonite Druid
 
@@ -271,7 +337,13 @@
   > *"The magic at the heart of all living things can bear awe-inspiring fruit."*
   > *—Kolevi of Havenwood, elder druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25715 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/182/thelonite-druid) · oracle_id `adbc8970-1bbc-4f30-9a2e-eebaf074eae6` · printing: ME2 #182 (2008-09-22) · [rulings](https://api.scryfall.com/cards/644aa4e7-9ea4-454b-abce-2a1a53c25560/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — Can sacrifice the Druid to itself.
+  - *2004-10-04* — Only affects Forests that are on the battlefield when the effect resolves.
+  - *2004-10-04* — The land animation ability does not wear off if the land stops being a Forest. It continues until the end of the turn.
+  - *2004-10-04* — The most recent land animating ability takes precedence.
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/182/thelonite-druid) · oracle_id `adbc8970-1bbc-4f30-9a2e-eebaf074eae6` · printing: ME2 #182 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelonite Hermit
 
@@ -284,7 +356,9 @@
   > When this creature is turned face up, create four 1/1 green Saproling creature tokens.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/188/thelonite-hermit) · oracle_id `69d2e5f3-2f4d-4a36-bcd5-181164ecd894` · printing: MKC #188 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4271f5b2-32ca-4349-9a09-afffbdacf636/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Saproling may become lethal if Thelonite Hermit leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/188/thelonite-hermit) · oracle_id `69d2e5f3-2f4d-4a36-bcd5-181164ecd894` · printing: MKC #188 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelonite Monk
 
@@ -297,7 +371,9 @@
   > *"As the climate worsened, some Thelonites turned to fertilizing with fresh blood in an attempt to keep Havenwood alive and growing."*
   > *—\*Sarpadian Empires, vol. III\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27173 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/79/thelonite-monk) · oracle_id `26b0b742-48f7-4ab5-93de-6bd39a7f61ea` · printing: FEM #79 (1994-11-01) · [rulings](https://api.scryfall.com/cards/5400ff25-c70e-4095-a228-190601b86043/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-10-15* — Will not add or remove the supertype snow to or from a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/79/thelonite-monk) · oracle_id `26b0b742-48f7-4ab5-93de-6bd39a7f61ea` · printing: FEM #79 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelon of Havenwood
 
@@ -310,7 +386,9 @@
 - **Flavor text** (TSR printing):
   > *"The sight of my thallids still thriving is a bittersweet welcome to this cold waste."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14424 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/238/thelon-of-havenwood) · oracle_id `c673b7b0-c1e7-4bcd-8fe0-66d83f22ecb9` · printing: TSR #238 (2021-03-19) · [rulings](https://api.scryfall.com/cards/783f1b9f-9866-4ead-96cf-88babf459ce2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Fungus creature may become lethal if Thelon leaves the battlefield during that turn or if spore counters are removed from the Fungus during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/238/thelon-of-havenwood) · oracle_id `c673b7b0-c1e7-4bcd-8fe0-66d83f22ecb9` · printing: TSR #238 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelon's Chant
 
@@ -320,7 +398,9 @@
   > At the beginning of your upkeep, sacrifice this enchantment unless you pay {G}.
   > Whenever a player puts a Swamp onto the battlefield, this enchantment deals 3 damage to that player unless the player puts a -1/-1 counter on a creature they control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fem/76/thelons-chant) · oracle_id `ff4ccf8d-7d3d-4a44-a9ab-6bc88e90d6a7` · printing: FEM #76 (1994-11-01) · [rulings](https://api.scryfall.com/cards/9d970195-0a09-4cb4-a2c0-c16fcab5c859/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Damages the player putting the land onto the battlefield, even if they are not the controller of the land after it is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fem/76/thelons-chant) · oracle_id `ff4ccf8d-7d3d-4a44-a9ab-6bc88e90d6a7` · printing: FEM #76 (1994-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thelon's Curse
 
@@ -330,6 +410,7 @@
   > Blue creatures don't untap during their controllers' untap steps.
   > At the beginning of each player's upkeep, that player may choose any number of tapped blue creatures they control and pay {U} for each creature chosen this way. If the player does, untap those creatures.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31902 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fem/77/thelons-curse) · oracle_id `f6880f71-a05a-4752-ba33-ffbc450606bf` · printing: FEM #77 (1994-11-01) · [rulings](https://api.scryfall.com/cards/9b868846-cc3c-4756-a5dd-2335bb380567/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lord of Pain
@@ -343,7 +424,12 @@
   > Whenever a player casts their first spell each turn, choose another target player. The Lord of Pain deals damage equal to that spell's mana value to the chosen player.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2462 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/3/the-lord-of-pain) · oracle_id `b194f277-5045-4391-8b48-d555a6d657a7` · printing: DSC #3 (2024-09-27) · [rulings](https://api.scryfall.com/cards/494c244e-dcdc-4169-9743-8a61f58e8763/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-09-20* — If a spell has {X} in its mana cost, use the value chosen for X when determining that spell's mana value.
+  - *2024-09-20* — If an effect says to set an opponent's life total to a number that's higher than their current life total, that player's life total won't change.
+  - *2024-09-20* — Spells and abilities that cause opponents to gain life still resolve while The Lord of Pain is on the battlefield. They won't gain life, but any other effects of that spell or ability will still happen.
+  - *2024-09-20* — The Lord of Pain's last ability must target a player other than the one who cast the spell that caused the ability to trigger. That means that if it's just you and one other player in the game, you'll have to target yourself when that player casts their first spell each turn. (What did you expect? You summoned The Lord of Pain!)
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/3/the-lord-of-pain) · oracle_id `b194f277-5045-4391-8b48-d555a6d657a7` · printing: DSC #3 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lord of the Eagles
 
@@ -358,7 +444,12 @@
   > *The ancient Eagles of the northern mountains were proud, strong, and noble-hearted—the greatest of all birds.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13909 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/46/the-lord-of-the-eagles) · oracle_id `3b38f314-d997-4c2a-b4c9-40dbe780993d` · printing: HOB #46 (2026-08-14) · [rulings](https://api.scryfall.com/cards/fa0554fc-9448-4ae2-8712-4f4f7af3c7b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-06-29* — Once a player has announced that they are casting The Lord of the Eagles, no player may take actions to try and change the power of creatures its controller controls before that spell's cost is locked in.
+  - *2026-06-29* — The cost reduction ability reduces only the generic mana in the cost to cast The Lord of the Eagles. The colored mana must still be paid.
+  - *2026-06-29* — The total cost to cast The Lord of the Eagles is locked in before you pay that cost. For example, if you control three flying creatures, each with power 2, including one you can sacrifice to add {C}, the total cost of The Lord of the Eagles is {1}{U}{U}. Then you can sacrifice the creature as you activate mana abilities just before paying the cost.
+  - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of The Lord of the Eagles). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/46/the-lord-of-the-eagles) · oracle_id `3b38f314-d997-4c2a-b4c9-40dbe780993d` · printing: HOB #46 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lost and the Damned
 
@@ -369,6 +460,7 @@
 - **Flavor text** (40K printing):
   > *The gods of Chaos bestow gifts of mutations upon their champions. Too many of these gifts transform their bearer into mindless, writhing chaos spawn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/129/the-lost-and-the-damned) · oracle_id `22e70ad0-1a9c-4d9e-8cc1-ebea485282ca` · printing: 40K #129 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9a53cf96-b47f-48f0-b9cc-3330ae546a87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lunar Whale
@@ -383,4 +475,9 @@
   > Crew 1
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10922 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/60/the-lunar-whale) · oracle_id `13b4aeac-4530-4e09-a547-548b4884bb2f` · printing: FIN #60 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ae875471-346c-4a76-b26f-b7205dad5b80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
+  - *2025-06-06* — The Lunar Whale lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2025-06-06* — The top card of your library isn't in your hand, so you can't cycle it, discard it, or activate any of its abilities that could be activated from your hand.
+  - *2025-06-06* — You must follow all normal timing rules for spells cast and lands played using the third ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/60/the-lunar-whale) · oracle_id `13b4aeac-4530-4e09-a547-548b4884bb2f` · printing: FIN #60 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -54,7 +54,11 @@
 - **Flavor text** (MH3 printing):
   > *Born from the greatest granite boulder, nursed on the sweetest honey, crowned amid a raging blizzard.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6647 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/192/kudo-king-among-bears) · oracle_id `070d22cf-2eed-4d04-b932-4b8339ea9b7a` · printing: MH3 #192 (2024-06-14) · [rulings](https://api.scryfall.com/cards/585e4e02-4873-4a65-a9ad-30cf0d5b6f79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to creatures may become lethal if Kudo enters or leaves the battlefield during that turn.
+  - *2024-06-07* — If an effect causes a noncreature permanent to become a creature and sets its power and toughness as it does so, that creature will have that power and toughness; it won't be 2/2. Notably, crewing a Vehicle does not set its power and toughness, so a Vehicle will be a 2/2 creature once crewed.
+  - *2024-06-07* — Kudo, King Among Bears's ability overwrites any effects that set a creature's power and toughness. Any existing effects or counters that raise, lower, or switch a creature's power and/or toughness continue to apply to the creature's newly set power and toughness. Any power- or toughness-setting effects that start to apply after Kudo enters the battlefield will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/192/kudo-king-among-bears) · oracle_id `070d22cf-2eed-4d04-b932-4b8339ea9b7a` · printing: MH3 #192 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kudzu
 
@@ -65,7 +69,11 @@
   > When enchanted land becomes tapped, destroy it. That land's controller may attach this Aura to a land of their choice.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26062 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/159/kudzu) · oracle_id `51ca5965-ae39-4e51-8948-9a230a03f906` · printing: ME4 #159 (2011-01-10) · [rulings](https://api.scryfall.com/cards/c3bc363a-573e-4df4-9b1b-586bf4275f3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — You can move it to any other player's land whenever you get to move it.
+  - *2005-08-01* — If Kudzu is destroyed directly, or the land is destroyed by a spell or ability, then Kudzu goes to the graveyard like any Aura would.
+  - *2008-04-01* — Because the ability isn't targeted, the controller of the destroyed land may attach it to a land that can't be the target of abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/159/kudzu) · oracle_id `51ca5965-ae39-4e51-8948-9a230a03f906` · printing: ME4 #159 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuja, Genome Sorcerer // Trance Kuja, Fate Defied
 
@@ -82,7 +90,20 @@
   > *"Yes, this is it! This is the power I've always wanted!"*
 - **Keywords:** Transform, Flare Star, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3035 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · [rulings](https://api.scryfall.com/cards/008782d2-72b0-4554-b1ce-2db99969a4d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If another effect (or effects) modifies how much damage a Wizard you control would deal—by preventing some of it, for example—the player being dealt damage or the controller of the permanent being dealt damage chooses the order in which any such effects (including Trance Kuja's) apply. If all of the damage is prevented, Trance Kuja's effect no longer applies.
+  - *2025-06-06* — If damage dealt by a Wizard you control is being divided or assigned among multiple permanents and/or players, that damage is divided or assigned before doubling. For example, if you attack with a 4/6 Wizard with trample and it's blocked by a 1/1 creature, you can assign 1 damage to the blocker and 3 damage to the defending player. Those amounts are then doubled to 2 and 6, respectively.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Trance Kuja unless it was the original source of damage.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/232/kuja-genome-sorcerer-trance-kuja-fate-defied) · oracle_id `3998a60d-9521-4100-8d41-3e612972a3de` · printing: FIN #232 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kujar Seedsculptor
 
@@ -94,7 +115,9 @@
 - **Flavor text** (DDU printing):
   > *Every leaf, tree, and building in Kujar has been placed to achieve maximum harmony, in accordance with the elvish philosophy known as the Great Conduit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21873 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/15/kujar-seedsculptor) · oracle_id `93f817c7-2a3d-4346-94c1-3ba8bafb485d` · printing: DDU #15 (2018-04-06) · [rulings](https://api.scryfall.com/cards/7a8a8d63-e64b-4a7a-ba95-1a68f75977d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — Kujar Seedsculptor can be the target of its own triggered ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/15/kujar-seedsculptor) · oracle_id `93f817c7-2a3d-4346-94c1-3ba8bafb485d` · printing: DDU #15 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kukemssa Pirates
 
@@ -107,7 +130,9 @@
   > *". . . pirates gambled with a djinn and lost the thing more dear than gold."*
   > *—"Love Song of Night and Day"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23058 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/71/kukemssa-pirates) · oracle_id `280148c5-3a2f-48f7-a147-4578f2068073` · printing: MIR #71 (1996-10-08) · [rulings](https://api.scryfall.com/cards/d10b5ce7-16c9-48f3-a1da-8a91092d053a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/71/kukemssa-pirates) · oracle_id `280148c5-3a2f-48f7-a147-4578f2068073` · printing: MIR #71 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kukemssa Serpent
 
@@ -119,6 +144,7 @@
   > {U}, Sacrifice an Island: Target land an opponent controls becomes an Island until end of turn.
   > When you control no Islands, sacrifice this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28922 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/72/kukemssa-serpent) · oracle_id `49e3ac82-7c22-4dec-b61a-b581148c0419` · printing: MIR #72 (1996-10-08) · [rulings](https://api.scryfall.com/cards/9099eacf-1898-493c-ae87-d5ff4a3646a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Cackler
@@ -133,6 +159,7 @@
   > *You would laugh too if you just burned through a tyrranax's stomach.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/139/kuldotha-cackler) · oracle_id `e1a41091-6ff1-42bb-b248-90040107efe1` · printing: ONE #139 (2023-02-10) · [rulings](https://api.scryfall.com/cards/f7155c42-a824-4bbe-9f7a-fa01e7625fd6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Flamefiend
@@ -143,7 +170,12 @@
 - **Oracle text:**
   > When this creature enters, you may sacrifice an artifact. If you do, this creature deals 4 damage divided as you choose among any number of targets.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31010 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/134/kuldotha-flamefiend) · oracle_id `e93089b1-e790-402b-a994-69a7e422e4f2` · printing: 2XM #134 (2020-08-07) · [rulings](https://api.scryfall.com/cards/226e1d72-4ed0-4db6-ac0a-f4631db986a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — If some of the targets become illegal for Kuldotha Flamefiend's ability, the original division of damage still applies, but the damage that would have been dealt to illegal targets isn't dealt at all. If all of the targets become illegal, you can't sacrifice an artifact.
+  - *2020-08-07* — You divide the damage as Kuldotha Flamefiend's triggered ability is put onto the stack, not as it resolves. Each target must be assigned at least 1 damage. You can't choose more than 4 targets and assign 0 damage to a target.
+  - *2020-08-07* — You don't choose whether to sacrifice an artifact or which artifact you're sacrificing until the ability resolves. Once you decide to sacrifice an artifact (or not), it's too late for players to respond.
+  - *2020-08-07* — You may choose zero targets. If you do, Kuldotha Flamefiend deals no damage, but you may sacrifice an artifact.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/134/kuldotha-flamefiend) · oracle_id `e93089b1-e790-402b-a994-69a7e422e4f2` · printing: 2XM #134 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Forgemaster
 
@@ -155,7 +187,9 @@
 - **Flavor text** (2XM printing):
   > *The goblins say it used to be larger, before it began to stoke the Great Furnace with pieces of itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/266/kuldotha-forgemaster) · oracle_id `b0f99367-4313-4bb1-a9fd-7711bc4ce40e` · printing: 2XM #266 (2020-08-07) · [rulings](https://api.scryfall.com/cards/c768267f-5ad2-4f4d-bbc7-6639325401c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — Kuldotha Forgemaster can be one of the three artifacts you sacrifice to activate the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/266/kuldotha-forgemaster) · oracle_id `b0f99367-4313-4bb1-a9fd-7711bc4ce40e` · printing: 2XM #266 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Phoenix
 
@@ -167,7 +201,9 @@
   > Metalcraft — {4}: Return this card from your graveyard to the battlefield. Activate only during your upkeep and only if you control three or more artifacts.
 - **Keywords:** Flying, Metalcraft, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20102 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/95/kuldotha-phoenix) · oracle_id `884260cf-b3f3-43a4-82b6-4f6a0b19cc75` · printing: SOM #95 (2010-10-01) · [rulings](https://api.scryfall.com/cards/6bb79b56-81f1-417f-b5ad-030ad29f904b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — You can activate Kuldotha Phoenix's ability only if it's in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/95/kuldotha-phoenix) · oracle_id `884260cf-b3f3-43a4-82b6-4f6a0b19cc75` · printing: SOM #95 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Rebirth
 
@@ -179,6 +215,7 @@
 - **Flavor text** (SOM printing):
   > *All goblin rituals serve a dual purpose as fertility rites, even the destructive ones. Especially the destructive ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13540 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/96/kuldotha-rebirth) · oracle_id `f3e28778-0149-4dbd-badb-ba5aeacacd76` · printing: SOM #96 (2010-10-01) · [rulings](https://api.scryfall.com/cards/7ee07266-a95d-4cd8-9863-1664922e9490/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuldotha Ringleader
@@ -193,6 +230,7 @@
   > *Being surrounded by goblins is less objectionable when they're fighting \*for\* you.*
 - **Keywords:** Battle Cry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/70/kuldotha-ringleader) · oracle_id `dff72513-b67a-4732-a8fc-269cbf21ae99` · printing: MBS #70 (2011-02-04) · [rulings](https://api.scryfall.com/cards/3cda5434-c0a5-4551-8e30-b1923f0001b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kulrath Knight
@@ -208,7 +246,9 @@
   > *Mounted cinders circle the blasted peak at Kulrath, hunting the Extinguisher.*
 - **Keywords:** Flying, Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/126/kulrath-knight) · oracle_id `f3d1b2e9-6ede-416d-937b-2063ea278d2f` · printing: ECC #126 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c28c15bd-6fb3-4250-81c4-d42f3efdb6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-05-01* — This checks your opponents' creatures for any kind of counters, not just -1/-1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/126/kulrath-knight) · oracle_id `f3d1b2e9-6ede-416d-937b-2063ea278d2f` · printing: ECC #126 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kulrath Mystic
 
@@ -220,7 +260,9 @@
 - **Flavor text** (ECL printing):
   > *"The difference between passion and anger is nothing more than who is in control."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/56/kulrath-mystic) · oracle_id `ed428638-181b-47cb-92f4-379db020e634` · printing: ECL #56 (2026-01-23) · [rulings](https://api.scryfall.com/cards/377d257c-920c-4dd4-a4b1-01cbc631ef8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/56/kulrath-mystic) · oracle_id `ed428638-181b-47cb-92f4-379db020e634` · printing: ECL #56 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kulrath Zealot
 
@@ -234,7 +276,9 @@
   > *The Path of Flame brought him power at the terrible cost of his own identity.*
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19133 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/148/kulrath-zealot) · oracle_id `d18ca75c-3572-4851-9580-27bafe10edd6` · printing: ECL #148 (2026-01-23) · [rulings](https://api.scryfall.com/cards/3502685d-4e57-4c5c-94c6-ae69048cdfbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/148/kulrath-zealot) · oracle_id `d18ca75c-3572-4851-9580-27bafe10edd6` · printing: ECL #148 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumano Faces Kakkazan // Etching of Kumano
 
@@ -252,7 +296,14 @@
   > *Many kami came to demand a secret he did not know, and every one of them fell.*
 - **Keywords:** Transform, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/152/kumano-faces-kakkazan-etching-of-kumano) · oracle_id `535916f8-b51a-4414-8ab0-fdccdefd9433` · printing: NEO #152 (2022-02-18) · [rulings](https://api.scryfall.com/cards/28d92cad-45b0-479d-97fc-c175f3a3f259/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-02-18* — A transforming double-faced card enters the battlefield with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or you cast it transformed, in which case it enters with its back face up.
+  - *2022-02-18* — Each face of a transforming double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a transforming double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2022-02-18* — Each transforming double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2022-02-18* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Azusa's Many Journeys, the chapter III ability will cause it to be exiled and then remain in exile.
+  - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
+  - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/152/kumano-faces-kakkazan-etching-of-kumano) · oracle_id `535916f8-b51a-4414-8ab0-fdccdefd9433` · printing: NEO #152 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumano, Master Yamabushi
 
@@ -263,7 +314,10 @@
   > {1}{R}: Kumano deals 1 damage to any target.
   > If a creature dealt damage by Kumano this turn would die, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22866 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/176/kumano-master-yamabushi) · oracle_id `6d776c7b-4ca1-48cd-88c7-dfbbe5a56a0b` · printing: CHK #176 (2004-10-01) · [rulings](https://api.scryfall.com/cards/f93870f9-343f-43e7-8ae8-e7aaa56aacca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — If a creature dealt damage by Kumano this turn would be put into a graveyard, exile it, even if it's going to the graveyard at the same time as Kumano.
+  - *2004-12-01* — Kumano, Master Yamabushi must be on the battlefield when the creature would be put into a graveyard in order to exile it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/176/kumano-master-yamabushi) · oracle_id `6d776c7b-4ca1-48cd-88c7-dfbbe5a56a0b` · printing: CHK #176 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumano's Blessing
 
@@ -275,6 +329,7 @@
   > If a creature dealt damage by enchanted creature this turn would die, exile it instead.
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/111/kumanos-blessing) · oracle_id `85d81888-8df7-4826-891e-a14fb8bf6549` · printing: BOK #111 (2005-02-04) · [rulings](https://api.scryfall.com/cards/56f0d9aa-4270-41cd-8993-765354c03d03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumano's Pupils
@@ -288,7 +343,10 @@
   > *"Long before he reluctantly joined the war, stories spread of Kumano's followers winning victories against the kami."*
   > *—\*Observations of the Kami War\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/177/kumanos-pupils) · oracle_id `f7f8a186-313e-4a29-bf4e-b6a200dfd1ed` · printing: CHK #177 (2004-10-01) · [rulings](https://api.scryfall.com/cards/c62b233e-95fe-4cfd-ad89-86e07656bf8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — If a creature dealt damage by Kumano’s Pupils this turn would be put into a graveyard, exile it instead, even if it’s going to the graveyard at the same time as Kumano’s Pupils.
+  - *2004-12-01* — Kumano’s Pupils must be on the battlefield when the creature would be put into a graveyard in order to exile it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/177/kumanos-pupils) · oracle_id `f7f8a186-313e-4a29-bf4e-b6a200dfd1ed` · printing: CHK #177 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumena's Awakening
 
@@ -299,7 +357,15 @@
   > At the beginning of your upkeep, each player draws a card. If you have the city's blessing, instead only you draw a card.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12503 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/42/kumenas-awakening) · oracle_id `f7a8066e-f8a4-4202-8825-0327d11e58c3` · printing: RIX #42 (2018-01-19) · [rulings](https://api.scryfall.com/cards/3a86f499-a2d4-47f1-9fc1-b543e5ad5c82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2018-01-19* — Ascend on a permanent isn’t a triggered ability and doesn’t use the stack. Players can respond to a spell that will give you your tenth permanent, but they can’t respond to getting the city’s blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can’t respond before you get the city’s blessing.
+  - *2018-01-19* — If you cast a spell with ascend, you don’t get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2018-01-19* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won’t have the city’s blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “Legend Rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+  - *2018-01-19* — Some cards have triggered abilities that check if you have the city’s blessing, but don’t use an intervening “if” clause. These abilities trigger regardless of whether you have the city’s blessing and check whether you do only as they resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/42/kumenas-awakening) · oracle_id `f7a8066e-f8a4-4202-8825-0327d11e58c3` · printing: RIX #42 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumena's Speaker
 
@@ -311,7 +377,11 @@
 - **Flavor text** (XLN printing):
   > *"The same power that drives the river ever onward flows through the roots and branches—to me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/196/kumenas-speaker) · oracle_id `68b26aeb-4952-4ca1-9b4a-82bdca16461b` · printing: XLN #196 (2017-09-29) · [rulings](https://api.scryfall.com/cards/52e96ddf-ac9e-4cc5-8c9a-afee421d99a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2017-09-29* — Because damage remains marked on a creature until it’s removed as the turn ends, the damage Kumena’s Speaker takes during combat may become lethal if you no longer control a Merfolk or Island later in the turn.
+  - *2017-09-29* — Kumena’s Speaker gets only +1/+1 from its ability, no matter how many Merfolk and Islands you control.
+  - *2017-09-29* — Most nonbasic lands that produce blue mana aren’t Islands. For example, Glacial Fortress isn’t an Island. Some nonbasic lands (such as Irrigated Farmland from the Amonkhet set) do have basic land types printed on the type line and may be Islands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/196/kumenas-speaker) · oracle_id `68b26aeb-4952-4ca1-9b4a-82bdca16461b` · printing: XLN #196 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kumena, Tyrant of Orazca
 
@@ -323,7 +393,10 @@
   > Tap three untapped Merfolk you control: Draw a card.
   > Tap five untapped Merfolk you control: Put a +1/+1 counter on each Merfolk you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5320 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/274/kumena-tyrant-of-orazca) · oracle_id `e7125493-febc-4e8e-abdc-5fc4f94a281c` · printing: LCC #274 (2023-11-17) · [rulings](https://api.scryfall.com/cards/aebcbb35-2973-41bf-811a-e2413ef45c3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Activating Kumena's first ability after it has become blocked won't cause it to become unblocked.
+  - *2018-01-19* — To activate Kumena's abilities, you may tap any untapped Merfolk you control, including one you haven't controlled continuously since the beginning of your most recent turn. (Note that tapping the creature doesn't use {T} [the tap symbol].) For Kumena's second and third abilities, this includes Kumena itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/274/kumena-tyrant-of-orazca) · oracle_id `e7125493-febc-4e8e-abdc-5fc4f94a281c` · printing: LCC #274 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### K'un-Lun Warrior
 
@@ -336,6 +409,7 @@
   > *"The old men of K'un-Lun were afraid to train me. Now I am their last line of defense."*
   > *—Sparrow, Thunderer of K'un-Lun*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23810 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/140/kun-lun-warrior) · oracle_id `0618a217-2a6e-4fa1-bfe6-89c6612a594d` · printing: MSH #140 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e6e8359d-12be-49be-8cbe-6a3b8506a9e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kunoros, Hound of Athreos
@@ -351,7 +425,11 @@
   > *Three sharp barks announce an attempt to escape the Underworld. Three sharp bites end it.*
 - **Keywords:** Lifelink, Vigilance, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9329 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/222/kunoros-hound-of-athreos) · oracle_id `d297ce39-da98-4351-be9d-24f4d09bee7f` · printing: THB #222 (2020-01-24) · [rulings](https://api.scryfall.com/cards/dbc0d2c3-8060-4155-b10e-d641648a4e6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — If an effect exiles a card from a graveyard and allows a player to cast it, that player may do so. The spell is cast from exile, not a graveyard.
+  - *2020-01-24* — Look at the card as it exists in your graveyard to determine whether it can enter the battlefield. For example, Sculpting Steel (a noncreature card in the graveyard) can be put onto the battlefield as a copy of a creature, but Phyrexian Metamorph (a creature card in the graveyard) can’t be put onto the battlefield, even if it would copy a noncreature artifact. A Theros Beyond Death God creature card can’t be put onto the battlefield regardless of your devotion to its colors.
+  - *2020-01-24* — Players can still play lands from graveyards if an effect allows them to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/222/kunoros-hound-of-athreos) · oracle_id `d297ce39-da98-4351-be9d-24f4d09bee7f` · printing: THB #222 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuon, Ogre Ascendant // Kuon's Essence
 
@@ -362,7 +440,11 @@
 - **Face 2: Kuon's Essence** — — — Legendary Enchantment
   > At the beginning of each player's upkeep, that player sacrifices a creature of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22847 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/78/kuon-ogre-ascendant-kuons-essence) · oracle_id `f1b1cf99-b44c-4bcc-b0ed-98f69e66c54a` · printing: SOK #78 (2005-06-03) · [rulings](https://api.scryfall.com/cards/41004bdf-8e09-4b2c-9e9c-26c25eac9854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-06-01* — Creatures put into graveyards after the end-of-turn step begins have no particular effect on Kuon.
+  - *2005-06-01* — Each Ascendant is legendary in both its unflipped and flipped forms. This means that effects that look for legendary creature cards, such as Time of Need and Captain Sisay, can find an Ascendant.
+  - *2005-06-01* — Kuon’s flip ability looks at everything that happened during that turn, even before Kuon entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/78/kuon-ogre-ascendant-kuons-essence) · oracle_id `f1b1cf99-b44c-4bcc-b0ed-98f69e66c54a` · printing: SOK #78 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kura, the Boundless Sky
 
@@ -376,6 +458,7 @@
   > • Create an X/X green Spirit creature token, where X is the number of lands you control.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4523 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/200/kura-the-boundless-sky) · oracle_id `6426e73a-7e11-48ab-ac5c-15647c6cf9ba` · printing: NEO #200 (2022-02-18) · [rulings](https://api.scryfall.com/cards/06b25752-26be-4189-bc8b-828db6f0e612/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurbis, Harvest Celebrant
@@ -387,7 +470,13 @@
   > Kurbis enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
   > Remove a +1/+1 counter from Kurbis: Prevent all damage that would be dealt this turn to another target creature with a +1/+1 counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11004 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mic/27/kurbis-harvest-celebrant) · oracle_id `991fab9c-8554-4e64-a933-6cc2ffa4edb1` · printing: MIC #27 (2021-09-24) · [rulings](https://api.scryfall.com/cards/5ea94e69-36f0-47a6-b7f7-1379625a6955/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — If a resolving spell enters the battlefield as a copy of Kurbis, it will enter the battlefield with a number of +1/+1 counters equal to the mana spent to cast the spell. For example, if you spend {3}{U} to cast Clone and choose to have it copy Kurbis as it enters the battlefield, it will enter with four +1/+1 counters on it because four mana was spent to cast Clone.
+  - *2021-09-24* — If you copy Kurbis while it is on the stack (perhaps using an effect like that of Double Major), the copy wasn't cast, so no mana was spent to cast it. That Kurbis will enter with zero +1/+1 counters on it.
+  - *2021-09-24* — Kurbis enters with a number of +1/+1 counters on it equal to the total mana spent to cast it, and that number usually won't be the same as X. If you cast Kurbis for {G}{G}, it will enter the battlefield with two +1/+1 counters on it.
+  - *2021-09-24* — Once the activated ability resolves, damage will be prevented even if the creature later loses all of its +1/+1 counters.
+  - *2021-09-24* — Similarly, if you create a token that's a copy of Kurbis, or if a card enters the battlefield as a copy of Kurbis without being cast, it enters with zero +1/+1 counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mic/27/kurbis-harvest-celebrant) · oracle_id `991fab9c-8554-4e64-a933-6cc2ffa4edb1` · printing: MIC #27 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurgadon
 
@@ -399,6 +488,7 @@
 - **Flavor text** (SCG printing):
   > *When it walks through Krosa, trees step aside, leaves take wing, and the ground shudders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28962 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/124/kurgadon) · oracle_id `6ce6aed2-b959-4572-96fd-fee340d5a5ee` · printing: SCG #124 (2003-05-26) · [rulings](https://api.scryfall.com/cards/52a1758c-849a-4de3-b674-857c3c9bf399/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kurkesh, Onakke Ancient
@@ -411,7 +501,14 @@
 - **Flavor text** (M15 printing):
   > *The Onakke were masters of dark arts and artifice. Their creations continue to spread foul magic, paving the way for their return.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18160 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/153/kurkesh-onakke-ancient) · oracle_id `ea7302b3-c9a2-4bc4-81b8-3a8d1d7c3b8b` · printing: M15 #153 (2014-07-18) · [rulings](https://api.scryfall.com/cards/2e2a0e9e-0e45-4af1-9f03-6fd3652933f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2014-07-18* — A mana ability is an ability that (1) could add mana when it resolves, (2) isn't a loyalty ability, and (3) doesn't require a target.
+  - *2014-07-18* — Activated abilities are written in the form "Cost: Effect." Some keywords are activated abilities and will have colons in their reminder texts.
+  - *2014-07-18* — If paying the activation cost of the ability includes sacrificing Kurkesh, the ability won't be copied. At the time the ability is considered activated (after all costs are paid), Kurkesh is no longer on the battlefield.
+  - *2014-07-18* — If the ability has {X} in its cost, the value of X is copied.
+  - *2014-07-18* — If the ability is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2014-07-18* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/153/kurkesh-onakke-ancient) · oracle_id `ea7302b3-c9a2-4bc4-81b8-3a8d1d7c3b8b` · printing: M15 #153 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuroki, Thief of Talents
 
@@ -425,6 +522,7 @@
   > *Ever seeking a voice all its own.*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22074 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/15/kuroki-thief-of-talents) · oracle_id `ce70f16c-ea45-4f1d-aafb-34a5d05d31e7` · printing: MBC #15 (2026-10-19) · [rulings](https://api.scryfall.com/cards/95a0a609-216b-42e1-83fa-6570c08a4a11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuro, Pitlord
@@ -436,6 +534,7 @@
   > At the beginning of your upkeep, sacrifice Kuro unless you pay {B}{B}{B}{B}.
   > Pay 1 life: Target creature gets -1/-1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17649 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/44/kuro-pitlord) · oracle_id `c80a7d22-076a-4fd7-bcf4-4769143647f0` · printing: DVD #44 (2014-12-05) · [rulings](https://api.scryfall.com/cards/e1f9531a-7201-4dfc-beb1-4128ec41728c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kuro's Taken
@@ -450,6 +549,7 @@
   > *Simple bargains are the most tempting, and oni bargains are the simplest of all: eternal life for eternal service.*
 - **Keywords:** Bushido, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21478 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/79/kuros-taken) · oracle_id `8b787ba5-0b87-449f-98cd-9454445e2f48` · printing: SOK #79 (2005-06-03) · [rulings](https://api.scryfall.com/cards/1e301a46-f321-4fa6-a8c4-08dd4079a458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kusari-Gama
@@ -462,6 +562,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10708 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/260/kusari-gama) · oracle_id `b5585eb5-4df3-4ae2-8c39-a8e7a9706dc2` · printing: CHK #260 (2004-10-01) · [rulings](https://api.scryfall.com/cards/c6a700bd-6424-4a0c-b055-e8b64cf430ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kutzil, Malamet Exemplar
@@ -475,7 +576,11 @@
 - **Flavor text** (LCI printing):
   > *"Invaders in the West Chasm? Give me an hour and they'll be fungus food."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #396 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/232/kutzil-malamet-exemplar) · oracle_id `3233af43-7826-4895-b67e-03c6102c2cd5` · printing: LCI #232 (2023-11-17) · [rulings](https://api.scryfall.com/cards/c9f88a40-a6ed-4c1f-a309-011aca1acddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-11-10* — If a creature has a characteristic-defining ability that sets its power and toughness, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power and toughness.
+  - *2023-11-10* — Normally, a creature's base power and toughness are the power and toughness printed on the card or, for a token, the power and toughness set by the effect that created it. If another effect sets a creature's power and toughness to specific numbers or values, those become its base power and toughness. If an effect modifies a creature's power and/or toughness without setting them, that is not included when determining its base power and toughness.
+  - *2023-11-10* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power and toughness. Such a creature will have power greater than its base power if the ability is raising its power above 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/232/kutzil-malamet-exemplar) · oracle_id `3233af43-7826-4895-b67e-03c6102c2cd5` · printing: LCI #232 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kutzil's Flanker
 
@@ -490,4 +595,5 @@
   > • Exile target player's graveyard.
 - **Keywords:** Flash, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9508 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/20/kutzils-flanker) · oracle_id `ba557e19-a409-4c02-a9ac-a8fb77762e43` · printing: LCI #20 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d1201811-54ab-4c4e-b6e1-19b0d07e5ede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

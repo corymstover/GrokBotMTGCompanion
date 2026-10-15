@@ -29,7 +29,9 @@
   > *"Ho, Shaggyfoot! Lumpton, pick up those hooves! Edgewall by sundown or I'll sell the lot of you to a witch!"*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12063 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/6/ox-drover) · oracle_id `70f26726-0373-4e50-a1de-37392ca94890` · printing: WOC #6 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b479be78-da22-41f0-937e-348dc0c7511e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — If the target opponent is an illegal target by the time Ox Drover's last ability tries to resolve, it won't resolve. They won't create an Ox token, and you won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/6/ox-drover) · oracle_id `70f26726-0373-4e50-a1de-37392ca94890` · printing: WOC #6 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidda Daredevil
 
@@ -41,6 +43,7 @@
 - **Flavor text** (SOM printing):
   > *His goggles spattered with grime and his mouth full of bugs, he tossed the engines another priceless relic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30041 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/100/oxidda-daredevil) · oracle_id `4be254e7-d082-4c10-8495-1ef8b80721e1` · printing: SOM #100 (2010-10-01) · [rulings](https://api.scryfall.com/cards/4b0bde7b-dc2d-45d2-b124-69b4b51ef3d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidda Finisher
@@ -55,6 +58,7 @@
   > *Popular wisdom says that Phyrexians don't feel fear. But popular wisdom has never tried to hold a bridge against an angry ogre.*
 - **Keywords:** Affinity, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/143/oxidda-finisher) · oracle_id `f308a1de-94a6-4f9f-8f46-6f2018959b40` · printing: ONE #143 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7177431e-5cc4-4ecd-8848-f51903289072/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidda Golem
@@ -69,6 +73,7 @@
   > *The longer it patrols the smoldering crags of the Oxidda Chain, the more it adopts their fiery temper.*
 - **Keywords:** Affinity, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16867 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/46/oxidda-golem) · oracle_id `9c51d843-d155-44ed-ab1f-dfa2ff848f53` · printing: JVC #46 (2014-12-05) · [rulings](https://api.scryfall.com/cards/3a5994a9-dc0c-486d-a622-0e2a68699073/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidda Scrapmelter
@@ -81,7 +86,9 @@
 - **Flavor text** (SOM printing):
   > *It subsists on a diet rich in screaming metal and molten blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/som/101/oxidda-scrapmelter) · oracle_id `cef64ec6-cdfb-42a4-9a4a-3ef5448e93fc` · printing: SOM #101 (2010-10-01) · [rulings](https://api.scryfall.com/cards/c64fe85b-e471-489a-8c38-2357da1c7969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — This ability is mandatory. If you’re the only player who controls any artifacts, you must target one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/som/101/oxidda-scrapmelter) · oracle_id `cef64ec6-cdfb-42a4-9a4a-3ef5448e93fc` · printing: SOM #101 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidize
 
@@ -93,6 +100,7 @@
   > *"Ashes to ashes, rust to rust."*
   > *—Viridian shaman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21007 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/79/oxidize) · oracle_id `0ff78353-a26e-4b5a-948d-1c3b41d2dd1f` · printing: DST #79 (2004-02-06) · [rulings](https://api.scryfall.com/cards/1349969e-1cbe-4541-b3ed-154f5a39f1f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ox of Agonas
@@ -106,4 +114,13 @@
   > This creature escapes with a +1/+1 counter on it.
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/108/ox-of-agonas) · oracle_id `22113051-c971-4108-953b-95356d21323a` · printing: NEC #108 (2022-02-18) · [rulings](https://api.scryfall.com/cards/00c46d18-064e-403a-bf39-ec655d78390a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+  - *2020-01-24* — You draw three cards, even if you discard no cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/108/ox-of-agonas) · oracle_id `22113051-c971-4108-953b-95356d21323a` · printing: NEC #108 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

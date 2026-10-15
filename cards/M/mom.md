@@ -38,7 +38,16 @@
   > Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/15/momentary-blink) · oracle_id `a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7` · printing: DMR #15 (2023-01-13) · [rulings](https://api.scryfall.com/cards/619c620d-1920-40d1-98d4-df5607f84d26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2022-12-08* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2022-12-08* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/15/momentary-blink) · oracle_id `a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7` · printing: DMR #15 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Craving
 
@@ -49,7 +58,10 @@
 - **Flavor text** (RIX printing):
   > *"The time of condemnation is at hand. Dusk washes over the world, and I consign you to eternal darkness!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16693 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/79/moment-of-craving) · oracle_id `1489551f-5714-471b-a0e6-f40bc3085afc` · printing: RIX #79 (2018-01-19) · [rulings](https://api.scryfall.com/cards/c0e3ea55-162d-4466-ba4e-b938a0845fb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If the target creature is an illegal target by the time Moment of Craving tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.
+  - *2024-11-08* — The target creature will still be on the battlefield when you gain life, even if its toughness has been reduced to 0 or less. Any abilities it has that interact with gaining life do so as appropriate. If any abilities trigger on you gaining life, the creature will be put into its owner's graveyard after that ability triggers but before it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/79/moment-of-craving) · oracle_id `1489551f-5714-471b-a0e6-f40bc3085afc` · printing: RIX #79 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Defiance
 
@@ -61,6 +73,7 @@
 - **Flavor text** (BRO printing):
   > *"Well? What are you waiting for? Let's not keep the buzzards waiting."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20464 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/108/moment-of-defiance) · oracle_id `257f81fb-b3c9-4ebe-9889-dd0ef960bba3` · printing: BRO #108 (2022-11-18) · [rulings](https://api.scryfall.com/cards/0e99fb27-a1e9-491f-ab2a-3ccb493168cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Glory
@@ -74,7 +87,12 @@
   > *"I am Bard, slayer of the Dragon!"*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19306 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/21/moment-of-glory) · oracle_id `3d39db09-67b7-4a4e-9667-4e1b806f51a5` · printing: HOB #21 (2026-08-14) · [rulings](https://api.scryfall.com/cards/0a6a6ff0-b1cd-4b06-bd31-612690094e0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-06-29* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2026-06-29* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2026-06-29* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2026-06-29* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/21/moment-of-glory) · oracle_id `3d39db09-67b7-4a4e-9667-4e1b806f51a5` · printing: HOB #21 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Heroism
 
@@ -85,7 +103,9 @@
 - **Flavor text** (JMP printing):
   > *"My faith is stronger than fang, claw, or mindless hunger."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18586 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/124/moment-of-heroism) · oracle_id `a167d593-cded-43e1-b9bb-2287dbd0cbec` · printing: JMP #124 (2020-07-17) · [rulings](https://api.scryfall.com/cards/b17da4d0-f9fd-43af-85fc-ede9fa3962bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/124/moment-of-heroism) · oracle_id `a167d593-cded-43e1-b9bb-2287dbd0cbec` · printing: JMP #124 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Reckoning
 
@@ -98,7 +118,14 @@
 - **Flavor text** (SOS printing):
   > *The archaics experience all of Arcavian history. Changing that fate threatens their very existence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11919 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/205/moment-of-reckoning) · oracle_id `8e9576c1-b0c2-4be5-9005-35b51164f78e` · printing: SOS #205 (2026-04-24) · [rulings](https://api.scryfall.com/cards/577d9dc8-7720-4dc9-b650-64b4729b309b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-03-20* — If Moment of Reckoning is copied, the effect that creates the copy will usually allow you to choose new targets, but you can't choose new modes.
+  - *2026-03-20* — If all targets for the chosen modes become illegal before Moment of Reckoning resolves, the spell won't resolve and none of its effects will happen. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
+  - *2026-03-20* — If the same mode is chosen more than once, you choose their relative order as you cast the spell. For example, if you choose the second mode of Moment of Reckoning more than once, you choose the relative order to return the target nonland permanent cards.
+  - *2026-03-20* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
+  - *2026-03-20* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until a spell is done resolving.
+  - *2026-03-20* — You choose the modes as you cast Moment of Reckoning. Once modes are chosen, they can't be changed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/205/moment-of-reckoning) · oracle_id `8e9576c1-b0c2-4be5-9005-35b51164f78e` · printing: SOS #205 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Silence
 
@@ -109,7 +136,11 @@
 - **Flavor text** (MMQ printing):
   > *The silence commemorates not those who've died, but those about to.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/28/moment-of-silence) · oracle_id `43af5041-a4bd-4b61-b1a1-bdea916afc59` · printing: MMQ #28 (1999-10-04) · [rulings](https://api.scryfall.com/cards/3f50b5f5-8dac-4785-b1af-a0bd64ce7a92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If cast on a player when it is not their turn, it has no effect.
+  - *2004-10-04* — It must be used before the combat phase starts or it has no effect.
+  - *2004-10-04* — The player skips their next combat phase this turn (if any). If they manage to have two combat phases, then only their next one combat phase is skipped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/28/moment-of-silence) · oracle_id `43af5041-a4bd-4b61-b1a1-bdea916afc59` · printing: MMQ #28 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Triumph
 
@@ -120,7 +151,9 @@
 - **Flavor text** (RIX printing):
   > *"The time of salvation is at hand. Dusk washes over the world, and the Legion will rise immortal!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/15/moment-of-triumph) · oracle_id `57579799-2582-417f-9864-4560cac39ac3` · printing: RIX #15 (2018-01-19) · [rulings](https://api.scryfall.com/cards/08be8c18-eca3-4960-b174-e4a78579ed63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — If the target creature is an illegal target by the time Moment of Triumph tries to resolve, it won't resolve and none of its effects will happen. You won't gain 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/15/moment-of-triumph) · oracle_id `57579799-2582-417f-9864-4560cac39ac3` · printing: RIX #15 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Truth
 
@@ -131,7 +164,9 @@
 - **Flavor text** (MOM printing):
   > *On the precipice of eternity, Elspeth made a choice. The fight would not end without her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/67/moment-of-truth) · oracle_id `ef61fb5c-2ea6-4f82-92c5-c4713dee45fa` · printing: MOM #67 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0e758594-a48c-4508-b400-9028aec07f63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-04-14* — If there are fewer than three cards in your library, look at all of the cards in your library and follow the instructions in order. For example, if you had only two cards in your library, you would look at both, put one into your hand, and then put the other one in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/67/moment-of-truth) · oracle_id `ef61fb5c-2ea6-4f82-92c5-c4713dee45fa` · printing: MOM #67 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Valor
 
@@ -144,7 +179,9 @@
 - **Flavor text** (WOE printing):
   > *Hardened by the Phyrexian invasion, Will's knights starved the nightmares of the thing they craved most: fear.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16845 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/20/moment-of-valor) · oracle_id `bfac8072-2bbc-43ca-b141-9cd0799840f7` · printing: WOE #20 (2023-09-08) · [rulings](https://api.scryfall.com/cards/6f257fd6-24a4-4cc1-89e0-99cf5d821e3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-09-01* — Moment of Valor's first mode can target an untapped creature. It still gets +1/+0 and gains indestructible until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/20/moment-of-valor) · oracle_id `bfac8072-2bbc-43ca-b141-9cd0799840f7` · printing: WOE #20 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentous Fall
 
@@ -156,7 +193,11 @@
 - **Flavor text** (JMP printing):
   > *It wasn't long until the elves had developed a use for every part of the Eldrazi.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2591 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/411/momentous-fall) · oracle_id `6a5ce1b0-ac78-4a74-9eb7-4064e1687bf1` · printing: JMP #411 (2020-07-17) · [rulings](https://api.scryfall.com/cards/91a6f558-a754-4437-8328-00a6ca47f9b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-06-15* — The sacrificed creature’s last known existence on the battlefield is checked to determine its power and its toughness.
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
+  - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/411/momentous-fall) · oracle_id `6a5ce1b0-ac78-4a74-9eb7-4064e1687bf1` · printing: JMP #411 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment's Peace
 
@@ -167,7 +208,14 @@
   > Flashback {2}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/251/moments-peace) · oracle_id `b6d22228-a45e-4296-9ae2-1649e04b1c53` · printing: ODY #251 (2001-10-01) · [rulings](https://api.scryfall.com/cards/40ebe935-ccf9-435e-8fe8-53bcbf3526e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/251/moments-peace) · oracle_id `b6d22228-a45e-4296-9ae2-1649e04b1c53` · printing: ODY #251 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentum
 
@@ -179,7 +227,9 @@
   > Enchanted creature gets +1/+1 for each growth counter on this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/113/momentum) · oracle_id `80875914-df4c-4b05-8c4d-658ff477c956` · printing: UDS #113 (1999-06-07) · [rulings](https://api.scryfall.com/cards/10bd11a2-7cab-4d3f-b52b-f5bb66fbbec6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Putting on a counter is optional. If you forget, you can't go back later even if it is something you usually do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/113/momentum) · oracle_id `80875914-df4c-4b05-8c4d-658ff477c956` · printing: UDS #113 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentum Breaker
 
@@ -191,7 +241,14 @@
   > {2}, Sacrifice this enchantment: You gain life equal to your speed.
 - **Keywords:** Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/97/momentum-breaker) · oracle_id `087d2e42-c69f-4cd2-b2e3-e0b64ac2893b` · printing: DFT #97 (2025-02-14) · [rulings](https://api.scryfall.com/cards/38513b53-384f-45e7-9905-80dd2c3c4918/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/97/momentum-breaker) · oracle_id `087d2e42-c69f-4cd2-b2e3-e0b64ac2893b` · printing: DFT #97 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentum Rumbler
 
@@ -202,6 +259,7 @@
   > Whenever this creature attacks, if it doesn't have first strike, put a first strike counter on it.
   > Whenever this creature attacks, if it has first strike, it gains double strike until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22499 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/126/momentum-rumbler) · oracle_id `502230fb-3a7a-439c-adfa-f7820deacf87` · printing: IKO #126 (2020-04-24) · [rulings](https://api.scryfall.com/cards/3587f450-c1ba-4074-84bb-47978a2b6116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momir Vig, Simic Visionary
@@ -213,7 +271,9 @@
   > Whenever you cast a green creature spell, you may search your library for a creature card, reveal it, then shuffle and put that card on top.
   > Whenever you cast a blue creature spell, reveal the top card of your library. If it's a creature card, put that card into your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12008 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/118/momir-vig-simic-visionary) · oracle_id `6202d1cf-5359-4783-846d-7f35460e42b4` · printing: DIS #118 (2006-05-05) · [rulings](https://api.scryfall.com/cards/25a8c801-df0c-402b-a41c-4703a2abfb66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — If you cast a green and blue creature spell, both abilities will trigger. The abilities may be stacked so that when they resolve, you search your library for a creature card, put it on top of your library, and then put that card into your hand. The abilities may also be stacked in the other order, of course.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/118/momir-vig-simic-visionary) · oracle_id `6202d1cf-5359-4783-846d-7f35460e42b4` · printing: DIS #118 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Friendly Flier
 
@@ -226,7 +286,9 @@
   > Whenever another creature you control with flying enters, Momo gets +1/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7144 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/29/momo-friendly-flier) · oracle_id `a3c56e71-0de6-447a-a9b4-0971f56c2362` · printing: TLA #29 (2025-11-21) · [rulings](https://api.scryfall.com/cards/c472ef84-a632-4ad7-853c-60588a7a4b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — Momo, Friendly Flier's second ability only reduces the generic mana cost of the spell. If first non-Lemur creature spell with flying you cast on your turn doesn't have generic mana in its cost, the cost will not be reduced and the cost reduction will not apply to the next spell you cast that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/29/momo-friendly-flier) · oracle_id `a3c56e71-0de6-447a-a9b4-0971f56c2362` · printing: TLA #29 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Playful Pet
 
@@ -241,7 +303,12 @@
   > • Scry 2.
 - **Keywords:** Scry, Flying, Vigilance, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8669 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/30/momo-playful-pet) · oracle_id `85ee8ab6-8db5-45d7-85ae-64838771146a` · printing: TLA #30 (2025-11-21) · [rulings](https://api.scryfall.com/cards/9350bf4a-fa12-4867-b31f-1f1394d99571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-10-02* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
+  - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
+  - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/30/momo-playful-pet) · oracle_id `85ee8ab6-8db5-45d7-85ae-64838771146a` · printing: TLA #30 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo, Rambunctious Rascal
 
@@ -256,6 +323,7 @@
   > *—A common query among Team Avatar*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14653 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/217/momo-rambunctious-rascal) · oracle_id `8854222e-590f-4fc0-b5d7-bf3d986b8507` · printing: TLE #217 (2025-11-21) · [rulings](https://api.scryfall.com/cards/1ce491a2-bb43-48fc-acc7-273bc7f418d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momo's Heist
@@ -265,4 +333,5 @@
 - **Oracle text:**
   > Gain control of target artifact. Untap it. It gains haste. At the beginning of the next end step, sacrifice it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16548 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/72/momos-heist) · oracle_id `b8f05217-1f61-4d6d-be17-7fb15f1d1e32` · printing: TLE #72 (2025-11-21) · [rulings](https://api.scryfall.com/cards/bfc80abe-c36e-4a96-82d5-4d4c1a793ae4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

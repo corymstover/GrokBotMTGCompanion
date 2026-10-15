@@ -29,7 +29,26 @@
   > Partner (You can have two commanders if both have partner.)
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1074 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces) · oracle_id `8ecdaf4b-4442-42da-9714-4257a83faf50` · printing: CMR #89 (2020-11-20) · [rulings](https://api.scryfall.com/cards/714c3a1f-7b30-4ed8-8f38-6176758741fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (18):
+  - *2020-11-10* — Any enters-the-battlefield abilities of the copied creature will trigger when Sakashima enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2020-11-10* — If Sakashima is your commander, it remains your commander even if it's copying another creature. If Sakashima is not your commander, it remains not your commander even if it's copying your commander.
+  - *2020-11-10* — If Sakashima somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2020-11-10* — If another creature becomes a copy of Sakashima, that creature also has Sakashima's other abilities.
+  - *2020-11-10* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
+  - *2020-11-10* — If the chosen creature is a token, Sakashima copies the original characteristics of that token as stated by the effect that put that token onto the battlefield. Sakashima doesn't become a token in this case.
+  - *2020-11-10* — If the chosen creature is copying something else, then Sakashima enters the battlefield as whatever the chosen creature copied.
+  - *2020-11-10* — If you control more than one legendary permanent with the same name and the "legend rule" begins applying again (perhaps because Sakashima of a Thousand Faces leaves the battlefield), you'll immediately have to comply with the rule and put all but one of those permanents into the graveyard.
+  - *2020-11-10* — Sakashima of a Thousand Faces copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below), except that it also has Sakashima's other abilities. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. Most notably, if it copies a creature that's not normally a creature, it won't be a creature.
+  - *2020-11-10* — The "legend rule" is the rule that states that if a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners' graveyards. (704.5j at the time of this document's creation for those of you scoring at home.)
+  - *2020-11-10* — While the "legend rule" doesn't apply to permanents you control, you can control any number of legendary permanents with the same name and none of them will be put into the graveyard.
+  - *2025-06-06* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2025-06-06* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2025-06-06* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2025-06-06* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Bruse Tarl and Ishai are your commanders, your deck may contain cards with red, white, and/or blue in their color identity, but not cards with green or black.
+  - *2025-06-06* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2025-06-06* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2025-06-06* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces) · oracle_id `8ecdaf4b-4442-42da-9714-4257a83faf50` · printing: CMR #89 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Protege
 
@@ -42,7 +61,24 @@
   > You may have this creature enter as a copy of any permanent that entered this turn.
 - **Keywords:** Flash, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/90/sakashimas-protege) · oracle_id `cf127842-5fb1-44df-8d91-8cc0f48c559a` · printing: CMR #90 (2020-11-20) · [rulings](https://api.scryfall.com/cards/cce06cd4-099b-445f-af95-76564ee24668/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2020-11-10* — Any enters-the-battlefield abilities of the copied permanent will trigger when Sakashima's Protege enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2020-11-10* — If Sakashima's Protege enters the battlefield as a copy of a planeswalker, it will enter with a number of loyalty counters on it equal to the loyalty printed in the lower right corner of the planeswalker. It won't copy the number of counters currently on that planeswalker.
+  - *2020-11-10* — If Sakashima's Protege somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield and entered the battlefield this turn.
+  - *2020-11-10* — If the chosen permanent is a token, Sakashima's Protege copies the original characteristics of that token as stated by the effect that put that token onto the battlefield. Sakashima's Protege doesn't become a token in this case.
+  - *2020-11-10* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Sakashima's Protege), then Sakashima's Protege enters the battlefield as whatever the chosen permanent copied.
+  - *2020-11-10* — If you cast a permanent spell using the cascade ability of Sakashima's Protege, that permanent will be on the battlefield in time to be copied by Sakashima's Protege.
+  - *2020-11-10* — Sakashima's Protege copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/90/sakashimas-protege) · oracle_id `cf127842-5fb1-44df-8d91-8cc0f48c559a` · printing: CMR #90 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Student
 
@@ -54,7 +90,16 @@
   > You may have this creature enter as a copy of any creature on the battlefield, except it's a Ninja in addition to its other creature types.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3710 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pca/24/sakashimas-student) · oracle_id `afcc68e2-3634-43ce-ae99-dd2ec735d146` · printing: PCA #24 (2016-11-25) · [rulings](https://api.scryfall.com/cards/91b0a6cb-1c2e-4122-8874-a48e69e1c464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2012-06-01* — Any "enters" abilities of the copied creature will trigger when Sakashima's Student enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the chosen creature (like devour) will also work.
+  - *2012-06-01* — Because you return the unblocked attacking creature to its owner's hand while activating the ninjutsu ability, you can't have Sakashima's Student enter as a copy of that creature.
+  - *2012-06-01* — If Sakashima's Student somehow enters at the same time as another creature, Sakashima's Student can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2012-06-01* — If the chosen creature has {X} in its mana cost, X is zero.
+  - *2012-06-01* — If the chosen creature is a token, Sakashima's Student copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Sakashima's Student is not a token.
+  - *2012-06-01* — If the chosen creature is copying something else (for example, if the chosen creature is another Sakashima's Student), then your Sakashima's Student enters as whatever the chosen creature copied.
+  - *2012-06-01* — Sakashima's Student copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it is a Ninja in addition to its other types. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2012-06-01* — You can choose not to copy anything. In that case, Sakashima's Student enters as a 0/0 creature, and is probably put into the graveyard immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pca/24/sakashimas-student) · oracle_id `afcc68e2-3634-43ce-ae99-dd2ec735d146` · printing: PCA #24 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima's Will
 
@@ -65,7 +110,17 @@
   > • Target opponent chooses a creature they control. You gain control of it.
   > • Choose a creature you control. Each other creature you control becomes a copy of that creature until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/91/sakashimas-will) · oracle_id `2c3c3bec-00f0-4de2-b929-73f1c9276ec4` · printing: CMR #91 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ca9fd318-ffb2-40d0-b1e0-e951d7735f78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-11-10* — Choosing a token won't cause other nontoken creatures you control to become tokens. If you choose a nontoken creature, other creature tokens you control won't stop being tokens.
+  - *2020-11-10* — Even though the card is named after a specific character, controlling any commander will satisfy its condition.
+  - *2020-11-10* — If the chosen creature is copying something else, other creatures you control become copies of whatever the chosen creature is copying.
+  - *2020-11-10* — Once you've announced that you're casting a spell, players can't take any actions until you've finished doing so. Notably, opponents can't try to remove your commander to change how many modes you may choose.
+  - *2020-11-10* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
+  - *2020-11-10* — Sakashima's Will copies the printed values of the chosen creature. It won't copy any counters on that creature or any effects that have changed its power, toughness, types, color, and so on. Notably, it won't copy effects that made the chosen creature become a creature if it isn't normally a creature. For example, if you choose a land that's become a creature, all your other creatures will become noncreature lands until end of turn.
+  - *2020-11-10* — The commander you control doesn't have to be your commander.
+  - *2020-11-10* — The second mode doesn't target any creature. You choose the creature that will be copied as Sakashima's Will resolves. If you chose both modes, the creature you gained control of because of the first mode can be chosen for your other creatures to copy.
+  - *2020-11-10* — There's no extra bonus if you control more than one commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/91/sakashimas-will) · oracle_id `2c3c3bec-00f0-4de2-b929-73f1c9276ec4` · printing: CMR #91 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakashima the Impostor
 
@@ -75,7 +130,11 @@
 - **Oracle text:**
   > You may have Sakashima the Impostor enter as a copy of any creature on the battlefield, except its name is Sakashima the Impostor, it's legendary in addition to its other types, and it has "{2}{U}{U}: Return Sakashima the Impostor to its owner's hand at the beginning of the next end step."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2044 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sok/53/sakashima-the-impostor) · oracle_id `a7243d25-22a2-4df5-adaf-1f40f5330ec1` · printing: SOK #53 (2005-06-03) · [rulings](https://api.scryfall.com/cards/61dc2f54-3637-4caa-9741-36ff14dc5527/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-06-01* — If there is no creature on the battlefield or if you don't choose a creature as Sakashima enters, Sakashima remains a 3/1 Human Rogue.
+  - *2005-06-01* — Sakashima doesn't get the return to hand ability unless a creature is copied as Sakashima enters. Sakashima can't copy itself because the choice is made as part of the event that puts it onto the battlefield, and whatever will be copied must already be on the battlefield.
+  - *2005-06-01* — Sakashima must be on the battlefield at the end of turn in order to return to hand. If Sakashima leaves the battlefield after the ability is activated but before the at-end-of-turn ability resolves, the ability does nothing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sok/53/sakashima-the-impostor) · oracle_id `a7243d25-22a2-4df5-adaf-1f40f5330ec1` · printing: SOK #53 (2005-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakiko, Mother of Summer
 
@@ -87,6 +146,7 @@
 - **Flavor text** (CMM printing):
   > *"My heart beats with the rhythm of the forest."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10473 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/319/sakiko-mother-of-summer) · oracle_id `e4021e30-16bf-4178-9a3b-565bfdce4384` · printing: CMM #319 (2023-08-04) · [rulings](https://api.scryfall.com/cards/8dbdb5f5-cd6e-47cd-b83d-ff71b00c369e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Elder
@@ -99,6 +159,7 @@
 - **Flavor text** (SOC printing):
   > *He'd chosen a sunlit clearing with open skies and an ample brook. All that remained was to find a worthy sapling.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/285/sakura-tribe-elder) · oracle_id `e3afc704-220f-498f-9eaa-0821b17dc24c` · printing: SOC #285 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7a8b1c49-8594-426d-b585-41140235bb0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Scout
@@ -112,6 +173,7 @@
   > *"Scouts of the Sakura Tribe spent two years wandering the forest to learn every leaf and tree. That knowledge was called upon during the Kami War to ensure the orochi's survival."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3655 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/144/sakura-tribe-scout) · oracle_id `0c319f45-cb0f-4641-acd8-145768acb3fc` · printing: SOK #144 (2005-06-03) · [rulings](https://api.scryfall.com/cards/9cbdda50-8a27-4094-849d-b6f66def82ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sakura-Tribe Springcaller
@@ -122,4 +184,5 @@
 - **Oracle text:**
   > At the beginning of your upkeep, add {G}. Until end of turn, you don't lose this mana as steps and phases end.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/142/sakura-tribe-springcaller) · oracle_id `675a0eff-4da0-45cd-9371-fca96c313f4c` · printing: BOK #142 (2005-02-04) · [rulings](https://api.scryfall.com/cards/b2ca7687-ba90-4479-8c6e-ece3f29fff12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

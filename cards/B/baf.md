@@ -18,4 +18,7 @@
   > When this enchantment enters, exile target creature an opponent controls with mana value 3 or less.
   > When this enchantment leaves the battlefield, target opponent creates a 3/3 green Dinosaur creature token with trample.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/1/baffling-end) · oracle_id `03c35670-84ac-4825-b395-cefb76ceb89a` · printing: RIX #1 (2018-01-19) · [rulings](https://api.scryfall.com/cards/208c6f51-3c00-4fc6-8579-8f57444d0e97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — In a multiplayer game, the target opponent who creates a Dinosaur token doesn’t have to be the same one whose creature was exiled.
+  - *2018-01-19* — While Baffling End’s two abilities are flavorfully related, they are independent. If the first ability doesn’t resolve (perhaps because the target gained hexproof), the second will still create a Dinosaur token when Baffling End leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/1/baffling-end) · oracle_id `03c35670-84ac-4825-b395-cefb76ceb89a` · printing: RIX #1 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

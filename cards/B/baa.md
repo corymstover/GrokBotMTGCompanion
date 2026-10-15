@@ -23,4 +23,5 @@
   > *Cute as a mutton.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/35/baaallerina) · oracle_id `3bf3e503-0628-4550-84a9-7c1dd0a97457` · printing: UNF #35 (2022-10-07) · [rulings](https://api.scryfall.com/cards/db5b2911-5b22-4847-a570-c16ce719d9b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -31,6 +31,7 @@
   > *It seeks those consumed with rage and offers burning blades.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5763 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/144/go-shintai-of-ancient-wars) · oracle_id `d145e4d4-a190-4c0b-8dfd-401c0111e995` · printing: NEO #144 (2022-02-18) · [rulings](https://api.scryfall.com/cards/5b915e8d-b972-4ae1-a1c3-74d6623963c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Boundless Vigor
@@ -45,7 +46,10 @@
   > *It seeks those with untamed spirits and offers wild strength.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5837 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/187/go-shintai-of-boundless-vigor) · oracle_id `183cfd35-c18a-4838-94e5-1ad66e6bd325` · printing: NEO #187 (2022-02-18) · [rulings](https://api.scryfall.com/cards/691016a1-8630-423c-9a57-061593d170fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Count the number of Shrines you control as the reflexive triggered ability resolves to determine how many +1/+1 counters to put on the target Shrine.
+  - *2022-02-18* — Go-Shintai of Boundless Vigor's reflexive triggered ability may target a Shrine which isn't currently a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/187/go-shintai-of-boundless-vigor) · oracle_id `183cfd35-c18a-4838-94e5-1ad66e6bd325` · printing: NEO #187 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Hidden Cruelty
 
@@ -59,6 +63,7 @@
   > *It seeks those with hate in their hearts and offers vengeance.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5606 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/97/go-shintai-of-hidden-cruelty) · oracle_id `ff8cf669-a38a-44ae-baff-420f59492371` · printing: NEO #97 (2022-02-18) · [rulings](https://api.scryfall.com/cards/45e1ff1e-916b-4455-84cb-4125a79d76de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Life's Origin
@@ -70,7 +75,9 @@
   > {W}{U}{B}{R}{G}, {T}: Return target enchantment card from your graveyard to the battlefield.
   > Whenever Go-Shintai of Life's Origin or another nontoken Shrine you control enters, create a 1/1 colorless Shrine enchantment creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5143 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/37/go-shintai-of-lifes-origin) · oracle_id `6dbcd542-ddb0-434e-b8ee-3e31e1a8b051` · printing: NEC #37 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9476fe67-d2d3-4835-8ba6-2a17d18cc141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — If a token copy of Go-Shintai of Life's Origin enters the battlefield, it will cause its own triggered ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/37/go-shintai-of-lifes-origin) · oracle_id `6dbcd542-ddb0-434e-b8ee-3e31e1a8b051` · printing: NEC #37 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Lost Wisdom
 
@@ -84,6 +91,7 @@
   > *It seeks those driven by curiosity and offers enlightenment.*
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6153 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/55/go-shintai-of-lost-wisdom) · oracle_id `f6a2092a-093e-4cd6-9eb0-d8ed32da896c` · printing: NEO #55 (2022-02-18) · [rulings](https://api.scryfall.com/cards/7ec1192c-25b8-4975-ae6c-86be28ac1840/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go-Shintai of Shared Purpose
@@ -98,6 +106,7 @@
   > *It seeks those who act with kindness and offers friendship.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5456 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/14/go-shintai-of-shared-purpose) · oracle_id `4cab6ea8-4a80-4b34-b758-7f2aa4d540e4` · printing: NEO #14 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0ab91962-ebad-46f6-9f90-7477c224d93d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossamer Chains
@@ -110,7 +119,10 @@
   > *"Harah swung his sword mightily, but still the air held him fast."*
   > *—Azeworai, "Kenechi's Dream"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/6/gossamer-chains) · oracle_id `af3936ab-0156-438d-9fef-a924d2fcffc3` · printing: VIS #6 (1997-02-03) · [rulings](https://api.scryfall.com/cards/e9917a29-c6b4-4e0a-a301-21868bd27e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — A creature is only considered an “unblocked creature” if it is an attacker during combat after blockers are declared.
+  - *2004-10-04* — The return of this card to your hand is part of the activation cost and is paid on activation. You do not have a choice to pay this cost zero times or more than one time in order to multiply the effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/6/gossamer-chains) · oracle_id `af3936ab-0156-438d-9fef-a924d2fcffc3` · printing: VIS #6 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossamer Phantasm
 
@@ -125,7 +137,10 @@
   > *—Hakim, Loreweaver*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/70/gossamer-phantasm) · oracle_id `5ed23ed2-be2f-4958-affe-429f58e9dca5` · printing: TSR #70 (2021-03-19) · [rulings](https://api.scryfall.com/cards/bf05ed80-8abf-4c2c-97d7-a96961c35f35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Gossamer Phantasm's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2021-03-19* — If the spell that targets Gossamer Phantasm has no other targets, it won't resolve (because it no longer has a legal target after Gossamer Phantasm has been sacrificed).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/70/gossamer-phantasm) · oracle_id `5ed23ed2-be2f-4958-affe-429f58e9dca5` · printing: TSR #70 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gossip's Talent
 
@@ -140,7 +155,19 @@
   > Whenever a creature you control deals combat damage to a player, you may exile it, then return it to the battlefield under its owner's control.
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/51/gossips-talent) · oracle_id `96e6d220-87db-4dab-abaa-e80c9577d89a` · printing: BLB #51 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b299889a-03d6-4659-b0e1-f0830842e40f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — Gossip's Talent's level 3 class ability triggers once for each creature you control that deals combat damage to a player during that combat damage step. You choose the order those triggers are put onto the stack. They resolve one at a time; when one resolves, you choose whether or not to exile the appropriate creature.
+  - *2024-07-26* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2024-07-26* — If the target creature's power is increased to 4 or greater after Gossip's Talent's level 2 class ability triggers but before it resolves, the ability doesn't resolve. However, if instead the creature's power is increased to 4 or greater after the ability resolves, it still can't be blocked that turn.
+  - *2024-07-26* — If you choose to exile a creature with double strike when Gossip's Talent's level 3 class ability resolves, it won't be an attacking creature anymore when it returns to the battlefield, and it won't deal combat damage during the regular combat damage step.
+  - *2024-07-26* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/51/gossips-talent) · oracle_id `96e6d220-87db-4dab-abaa-e80c9577d89a` · printing: BLB #51 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gosta Dirk
 
@@ -152,4 +179,5 @@
   > Creatures with islandwalk can be blocked as though they didn't have islandwalk.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30950 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/227/gosta-dirk) · oracle_id `fb966147-1d60-4150-b4e7-acf301b2d067` · printing: LEG #227 (1994-06-01) · [rulings](https://api.scryfall.com/cards/92ef316b-dd22-40d1-82e8-8890976684c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

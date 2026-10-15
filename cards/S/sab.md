@@ -33,6 +33,7 @@
 - **Flavor text** (MMQ printing):
   > *They stay on the battlefield only long enough to consume the losers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13262 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/267/saber-ants) · oracle_id `9c3c9a22-e092-4845-b661-047590746498` · printing: MMQ #267 (1999-10-04) · [rulings](https://api.scryfall.com/cards/e9269f52-1002-475d-a0f3-d652630591ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saberclaw Golem
@@ -45,6 +46,7 @@
 - **Flavor text** (SOM printing):
   > *The warriors of the Blade Tribe charged the golem, twenty strong. They returned numbering ten . . . and a half.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31473 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/200/saberclaw-golem) · oracle_id `4989d38e-332f-48f5-863b-1566921156c8` · printing: SOM #200 (2010-10-01) · [rulings](https://api.scryfall.com/cards/6656b6d1-1c92-4da4-8afb-36f11610b0b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Alley Cat
@@ -58,6 +60,7 @@
 - **Flavor text** (RAV printing):
   > *It has eight lives' worth of hunger to satisfy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30475 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/140/sabertooth-alley-cat) · oracle_id `13d301d1-c1e1-4656-8700-3f1c1c7c4485` · printing: RAV #140 (2005-10-07) · [rulings](https://api.scryfall.com/cards/b9ec817c-c414-4a56-b455-748c6e5cac0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Cobra
@@ -68,7 +71,9 @@
 - **Oracle text:**
   > Whenever this creature deals damage to a player, that player gets a poison counter. The player gets another poison counter at the beginning of their next upkeep unless they pay {2} before that step. (A player with ten or more poison counters loses the game.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20153 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/238/sabertooth-cobra) · oracle_id `115c7ca7-c27b-43ca-9281-be6913e90059` · printing: MIR #238 (1996-10-08) · [rulings](https://api.scryfall.com/cards/48ead72b-f3f5-4065-a33c-0992cf1fdb34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability still gives a poison counter even if Sabertooth Cobra leaves the battlefield before the next upkeep.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/238/sabertooth-cobra) · oracle_id `115c7ca7-c27b-43ca-9281-be6913e90059` · printing: MIR #238 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Mauler
 
@@ -81,7 +86,10 @@
   > *"I hope the idiot who introduced these creatures to the jungle was their first meal."*
   > *—Opar, veteran guide*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23034 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/202/sabertooth-mauler) · oracle_id `da4f4094-b0ce-4b5b-8ac3-8c0a5159220f` · printing: M21 #202 (2020-07-03) · [rulings](https://api.scryfall.com/cards/fe39e38e-76e5-4883-b530-d3e30e88ccad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-06-23* — If a creature didn't die before your end step begins, Sabertooth Mauler's ability doesn't trigger at all. The creature may have died before Sabertooth Mauler entered the battlefield, however.
+  - *2020-06-23* — The triggered ability triggers just once, no matter how many creatures died this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/202/sabertooth-mauler) · oracle_id `da4f4094-b0ce-4b5b-8ac3-8c0a5159220f` · printing: M21 #202 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saber-Tooth Moose-Lion
 
@@ -95,6 +103,7 @@
   > *Foo Foo Cuddlypoops didn't look much like a saber-tooth moose-lion to Sokka, but his mother certainly did.*
 - **Keywords:** Reach, Landcycling, Forestcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15191 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/194/saber-tooth-moose-lion) · oracle_id `7af493e3-15a1-42d6-a66c-82aacabe816f` · printing: TLA #194 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b15f302d-c451-4e79-a5af-75ee3ba4cadf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Nishoba
@@ -108,6 +117,7 @@
   > *They sneer at the terrestrial dangers found on peaks and shores, eager to prove themselves against new and even mightier foes.*
 - **Keywords:** Protection, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28360 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/268/sabertooth-nishoba) · oracle_id `ce82aa79-bb50-47bc-84f5-eae30249c7a5` · printing: INV #268 (2000-10-02) · [rulings](https://api.scryfall.com/cards/8338c296-cf3f-41d7-b380-3fb4237cb41c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Outrider
@@ -120,7 +130,11 @@
   > Formidable — Whenever this creature attacks, if creatures you control have total power 8 or greater, this creature gains first strike until end of turn.
 - **Keywords:** Trample, Formidable
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29738 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/152/sabertooth-outrider) · oracle_id `2a98f634-d739-47a7-98cb-b7f935cd65ef` · printing: DTK #152 (2015-03-27) · [rulings](https://api.scryfall.com/cards/64ddda91-3ccb-4c87-82e6-d4e60f4afc24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7.
+  - *2015-02-25* — Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect.
+  - *2015-02-25* — Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/152/sabertooth-outrider) · oracle_id `2a98f634-d739-47a7-98cb-b7f935cd65ef` · printing: DTK #152 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabertooth Wyvern
 
@@ -133,6 +147,7 @@
   > *Most creatures grow out of their baby teeth, but sabertooth wyverns grow into theirs.*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32114 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/153/sabertooth-wyvern) · oracle_id `acaae632-3203-4867-ad03-32619c3fcfe6` · printing: TPR #153 (2015-05-06) · [rulings](https://api.scryfall.com/cards/a196fc8f-e17f-41bb-90df-d74b9c3f59c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabin, Master Monk
@@ -146,7 +161,13 @@
   > You may cast this card from your graveyard using its blitz ability.
 - **Keywords:** Blitz, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11507 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/57/sabin-master-monk) · oracle_id `7234bbf8-b962-4515-bedf-68d111c6137e` · printing: FIC #57 (2025-06-13) · [rulings](https://api.scryfall.com/cards/43bacd07-fdaf-4ce4-bf7a-dda55a99d460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2025-06-06* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2025-06-06* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2025-06-06* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2025-06-06* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/57/sabin-master-monk) · oracle_id `7234bbf8-b962-4515-bedf-68d111c6137e` · printing: FIC #57 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabotage Strategist
 
@@ -159,7 +180,11 @@
   > Exhaust — {5}{U}{U}: Put three +1/+1 counters on this creature. (Activate each exhaust ability only once.)
 - **Keywords:** Flying, Vigilance, Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/59/sabotage-strategist) · oracle_id `1b788680-28e3-4378-9607-bd42acb4fbad` · printing: DFT #59 (2025-02-14) · [rulings](https://api.scryfall.com/cards/c8bb15e2-e1ad-4645-aab0-df4a1a68563d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/59/sabotage-strategist) · oracle_id `1b788680-28e3-4378-9607-bd42acb4fbad` · printing: DFT #59 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabotender
 
@@ -173,7 +198,11 @@
   > *These strange, ambulatory cacti are commonly found in the Altepa Desert of the Kuzotz Region, and little regarding their way of life is known to science.*
 - **Keywords:** Reach, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/153/sabotender) · oracle_id `65385311-1158-4e94-892a-683997706ca8` · printing: FIN #153 (2025-06-13) · [rulings](https://api.scryfall.com/cards/12df1295-8b08-4c8e-bac9-55b4f514c0be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/153/sabotender) · oracle_id `65385311-1158-4e94-892a-683997706ca8` · printing: FIN #153 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabretooth Tiger
 
@@ -186,6 +215,7 @@
   > *To a sabretooth, all men are mice.*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30585 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/217/sabretooth-tiger) · oracle_id `8ea35158-1c1a-46da-b466-0eafb376e464` · printing: 8ED #217 (2003-07-28) · [rulings](https://api.scryfall.com/cards/c85964eb-c586-4e62-9a19-6a665e6ad98d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sab-Sunen, Luxa Embodied
@@ -199,4 +229,5 @@
   > At the beginning of your first main phase, put a +1/+1 counter on Sab-Sunen. Then if it has an odd number of counters on it, draw two cards.
 - **Keywords:** Reach, Indestructible, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5446 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/221/sab-sunen-luxa-embodied) · oracle_id `07e15387-f346-4fa0-b556-d1c52d4acc07` · printing: DFT #221 (2025-02-14) · [rulings](https://api.scryfall.com/cards/2ef555b1-666d-4386-8983-0e88f9b6cdec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

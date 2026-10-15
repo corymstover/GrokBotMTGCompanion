@@ -39,7 +39,21 @@
   > Whenever you or another permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6438 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/21/reidane-god-of-the-worthy-valkmira-protectors-shield) · oracle_id `35ae7b25-6d0f-49f8-a40d-dd2cf88e6f44` · printing: KHM #21 (2021-02-05) · [rulings](https://api.scryfall.com/cards/3606519e-5677-4c21-a34e-be195b6669fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2021-02-05* — A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed.
+  - *2021-02-05* — If a spell has {X} in its mana cost, use the value of X to determine whether its mana value is 4 or greater. If it is, Reidane's last ability will apply. If not, it won't.
+  - *2021-02-05* — If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect.
+  - *2021-02-05* — If an effect allows you to play a specific modal double-faced card, you may cast it as a spell or play it as a land, as determined by which face you choose to play. If an effect allows you to cast (rather than "play") a specific modal double-faced card, you can't play it as a land.
+  - *2021-02-05* — If an effect instructs a player to choose a card name, the name of either face may be chosen. If that effect or a linked ability refers to a spell with the chosen name being cast and/or a land with the chosen name being played, it considers only the chosen name, not the other face's name.
+  - *2021-02-05* — If an effect puts a double-faced card onto the battlefield, it enters with its front face up. If that front face can't be put onto the battlefield, it doesn't enter the battlefield.
+  - *2021-02-05* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered.
+  - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
+  - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
+  - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of Reidane, God of the Worthy), then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+  - *2021-02-05* — Valkmira's first ability prevents 1 damage from each source an opponent controls each time that source would deal damage to you. It prevents 1 of any kind of damage, not just combat damage.
+  - *2021-02-05* — Valkmira's last ability affects each spell (including Aura spells), activated ability, and triggered ability controlled by an opponent that targets you or another permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/21/reidane-god-of-the-worthy-valkmira-protectors-shield) · oracle_id `35ae7b25-6d0f-49f8-a40d-dd2cf88e6f44` · printing: KHM #21 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reigning Victor
 
@@ -51,7 +65,10 @@
   > When this creature enters, target creature gets +1/+0 and gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Keywords:** Mobilize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/216/reigning-victor) · oracle_id `b8c5e481-371c-4999-bb2c-347a2aa33171` · printing: TDM #216 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a394112a-032b-4047-887a-6522cf7b83d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
+  - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/216/reigning-victor) · oracle_id `b8c5e481-371c-4999-bb2c-347a2aa33171` · printing: TDM #216 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reign of Chaos
 
@@ -65,6 +82,7 @@
   > *"The Burning Isles are the home to a dozen lords who claim dominion. Jamuraa will look to only one leader: me."*
   > *—Kaervek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/190/reign-of-chaos) · oracle_id `436b5989-9b8c-4e03-a82e-046837c891ca` · printing: MIR #190 (1996-10-08) · [rulings](https://api.scryfall.com/cards/9285b14a-fc8e-457a-b803-202e05be41e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reign of Terror
@@ -77,6 +95,7 @@
   > *"I don't know what takes them; they die around me without time to scream."*
   > *—Scout Ekemet, final journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/137/reign-of-terror) · oracle_id `67d12a5a-9e0c-4550-86ad-cd1e173fea8f` · printing: MIR #137 (1996-10-08) · [rulings](https://api.scryfall.com/cards/7bd83049-aec1-4911-bc70-39adba04b174/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reign of the Pit
@@ -86,7 +105,10 @@
 - **Oracle text:**
   > Each player sacrifices a creature of their choice. Create an X/X black Demon creature token with flying, where X is the total power of the creatures sacrificed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/258/reign-of-the-pit) · oracle_id `3e1a6337-bb29-450f-bf29-ff71b357a983` · printing: NCC #258 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3074a8e8-765c-4f32-9bc1-a3f865448ef9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — Use the powers of the creatures as they last existed on the battlefield to determine the value of X, even if they were negative. For example, if the sacrificed creatures were 3/3, 5/5, 0/4, and -2/2, the Demon will be 6/6.
+  - *2014-05-29* — You choose which creature you are sacrificing first, then each other player in turn order does the same. The creatures are all sacrificed simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/258/reign-of-the-pit) · oracle_id `3e1a6337-bb29-450f-bf29-ff71b357a983` · printing: NCC #258 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reincarnation
 
@@ -98,7 +120,11 @@
   > *"You cannot imagine what eyes you may look through tomorrow."*
   > *—Aerona, elder druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/166/reincarnation) · oracle_id `d6bf5e22-8d33-43a9-8824-435068e0a87a` · printing: C13 #166 (2013-11-01) · [rulings](https://api.scryfall.com/cards/7ee379cd-b3fb-487b-846c-eab02902de79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — All Reincarnation does when it resolves is set up a delayed triggered ability. If the targeted creature isn't put into a graveyard this turn, that ability never triggers. If the targeted creature is put into a graveyard this turn, that ability triggers and resolves like any other triggered ability.
+  - *2009-10-01* — The creature card that will be returned to the battlefield isn't chosen until the delayed triggered ability resolves. The player who chooses is the player who controlled Reincarnation. The player under whose control the chosen creature card enters is the player who owned the targeted creature (in other words, the player into whose graveyard it went), not necessarily the controller of that creature.
+  - *2009-10-01* — The creature that's returned to the battlefield may be the same one that was put into the graveyard (assuming it's still in the graveyard when the delayed triggered ability resolves). If so, it returns to the battlefield as a brand-new creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/166/reincarnation) · oracle_id `d6bf5e22-8d33-43a9-8824-435068e0a87a` · printing: C13 #166 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reinforced Bulwark
 
@@ -112,6 +138,7 @@
   > *Built of wood and iron. Held together by hope and prayer.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26517 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/223/reinforced-bulwark) · oracle_id `8916b3d4-6a9a-420a-8ee7-be67b2f47201` · printing: ROE #223 (2010-04-23) · [rulings](https://api.scryfall.com/cards/437a91e7-f98e-4ed8-9ab7-f4db62979f5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reinforced Ronin
@@ -125,7 +152,10 @@
   > Channel — {1}{R}, Discard this card: Draw a card.
 - **Keywords:** Haste, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6428 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/158/reinforced-ronin) · oracle_id `5e891927-b6cb-40ae-8270-0e72820fd7f5` · printing: NEO #158 (2022-02-18) · [rulings](https://api.scryfall.com/cards/89a18961-8f0b-4e98-9de4-aba97e91ad9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/158/reinforced-ronin) · oracle_id `5e891927-b6cb-40ae-8270-0e72820fd7f5` · printing: NEO #158 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reinforcements
 
@@ -137,7 +167,9 @@
   > *"Let them send their legions! I will show them that my truth is stronger than their swords."*
   > *—General Varchild*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20731 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/28/reinforcements) · oracle_id `ff27ff96-afd2-45df-b799-3046179e27c6` · printing: ME2 #28 (2008-09-22) · [rulings](https://api.scryfall.com/cards/36f250f5-e667-458d-aed7-3ead3f3db64b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You have to show which creature cards you put on top of your library, but not the order you put them there.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/28/reinforcements) · oracle_id `ff27ff96-afd2-45df-b799-3046179e27c6` · printing: ME2 #28 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of Power
 
@@ -146,7 +178,10 @@
 - **Oracle text:**
   > Untap all creatures you control and all creatures target opponent controls. You and that opponent each gain control of all creatures the other controls until end of turn. Those creatures gain haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · [rulings](https://api.scryfall.com/cards/9b5730aa-c74a-4c74-bb1b-a133a3c353ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — It is perfectly legal for either or both players to have zero creatures. They give control of all their zero creatures as instructed.
+  - *2007-05-01* — You only untap creatures controlled by you and the targeted opponent, not all creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/734/reins-of-power) · oracle_id `96381388-1e82-411c-8290-1f3e909d3b5f` · printing: CLB #734 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reins of the Vinesteed
 
@@ -158,7 +193,12 @@
   > When enchanted creature dies, you may return this card from your graveyard to the battlefield attached to a creature that shares a creature type with that creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/134/reins-of-the-vinesteed) · oracle_id `db616096-ce15-4c32-b8ff-0fda4dd3b0de` · printing: MOR #134 (2008-02-01) · [rulings](https://api.scryfall.com/cards/407a0ef5-a63e-4013-b3d9-b42f2c42c7a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-04-01* — As the triggered ability resolves, check which creatures on the battlefield have any of the creature types that the previously enchanted creature had as it left the battlefield. If that creature was a Goblin Rogue, for example, Reins of the Vinesteed can be returned to the battlefield attached to either a Goblin creature or a Rogue creature.
+  - *2008-04-01* — Reins of the Vinesteed's last ability triggers if it and the creature it's enchanting are both put into the graveyard at the same time, or if the creature it's enchanting is put into the graveyard but Reins of the Vinesteed isn't. (In the second case, Reins of the Vinesteed is then put into the graveyard as a state-based action.)
+  - *2008-04-01* — This triggered ability doesn't target a creature. You may return Reins of the Vinesteed to the battlefield attached to a creature that has shroud, for example. However, the creature must be able to be legally enchanted by Reins of the Vinesteed. You can't return Reins of the Vinesteed to the battlefield attached to a creature that has protection from green, for example.
+  - *2008-04-01* — You can choose to return Reins of the Vinesteed to the battlefield attached to a creature another player controls. You still control Reins of the Vinesteed. When that creature is put into a graveyard, the ability of Reins of the Vinesteed will trigger again and you'll be able choose another creature for the Aura to enchant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/134/reins-of-the-vinesteed) · oracle_id `db616096-ce15-4c32-b8ff-0fda4dd3b0de` · printing: MOR #134 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reinterpret
 
@@ -170,7 +210,13 @@
   > *"With just a little added flair, your work could be truly spectacular. Let me show you."*
   > *—Nassari, Prismari dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9916 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/73/reinterpret) · oracle_id `e197104f-5382-4cb2-8afe-5ca0594629c2` · printing: C21 #73 (2021-04-23) · [rulings](https://api.scryfall.com/cards/765e64ae-699c-46bd-a8cc-c8c1075d644f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If a spell with {X} in its mana cost is countered this way, {X} is the value chosen as the spell was cast.
+  - *2021-04-16* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2021-04-16* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2021-04-16* — If you target a spell that can’t be countered, like Heated Debate, you won’t counter the spell, but you will get to cast a spell with an equal or lesser mana value.
+  - *2021-04-16* — This can be used to cast either face of a modal double-faced card, but only if the face you are casting has an equal or lesser mana value than the target spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/73/reinterpret) · oracle_id `e197104f-5382-4cb2-8afe-5ca0594629c2` · printing: C21 #73 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterate
 
@@ -184,7 +230,15 @@
   > *—Zyd, Kamahlite druid*
 - **Keywords:** Buyback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · [rulings](https://api.scryfall.com/cards/99302c41-434f-41ff-a61a-2c3681a0c135/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — If the spell has damage divided as it was cast, the division can't be changed, although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2021-03-19* — If the spell that's copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2021-03-19* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2021-03-19* — Reiterate can copy any instant or sorcery spell, not just one with targets.
+  - *2021-03-19* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger. The copy will resolve before the original spell does.
+  - *2021-03-19* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2021-03-19* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/182/reiterate) · oracle_id `38394ee3-6726-4f91-bc25-36bce0c6aab9` · printing: TSR #182 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiterating Bolt
 
@@ -197,7 +251,9 @@
   > *"Eureka! Now to show those fools at the Academy how easily I can replicate \*these\* results!"*
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/134/reiterating-bolt) · oracle_id `371da0d8-3845-458e-9b0a-6477017b890e` · printing: MH3 #134 (2024-06-14) · [rulings](https://api.scryfall.com/cards/51f57902-85d1-4c40-b79c-6cffafb4557a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/134/reiterating-bolt) · oracle_id `371da0d8-3845-458e-9b0a-6477017b890e` · printing: MH3 #134 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reito Lantern
 
@@ -208,6 +264,7 @@
 - **Flavor text** (CNS printing):
   > *Lanterns carved from the mystic stones of the Reito Mines were said to light the way of lost souls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15720 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/202/reito-lantern) · oracle_id `ea871b01-ebaf-4987-a2bf-949cdd367ad1` · printing: CNS #202 (2014-06-06) · [rulings](https://api.scryfall.com/cards/fc5be55e-9a90-4842-894c-2573b70ccc57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reito Sentinel
@@ -221,6 +278,7 @@
   > {3}: Put target card from a graveyard on the bottom of its owner's library.
 - **Keywords:** Mill, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16734 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/256/reito-sentinel) · oracle_id `e574bfdb-505b-4d61-a376-6d26f03cd9b1` · printing: NEO #256 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0218923a-b685-4492-8fdd-2d2d22ef532e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reiver Demon
@@ -233,4 +291,6 @@
   > When this creature enters, if you cast it from your hand, destroy all nonartifact, nonblack creatures. They can't be regenerated.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10926 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/64/reiver-demon) · oracle_id `7dcb95a9-c114-4333-8b45-4380f92d9695` · printing: CMA #64 (2017-06-09) · [rulings](https://api.scryfall.com/cards/3e0de032-a107-4095-b475-28f3f13b2c6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a creature (such as Clone) enters the battlefield as a copy of this creature, the copy’s “enters-the-battlefield” ability will still trigger as long as you cast that creature spell from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/64/reiver-demon) · oracle_id `7dcb95a9-c114-4333-8b45-4380f92d9695` · printing: CMA #64 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -69,7 +69,18 @@
   > When Ilharg dies or is put into exile from the battlefield, you may put it into its owner's library third from the top.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2484 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/113/ilharg-the-raze-boar) · oracle_id `8d571129-9030-47e0-9624-a49fb63e5a1b` · printing: RVR #113 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3d397fc3-fd4e-45ad-ad40-0f8a585c15fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2019-05-03* — Although the new creature is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example, such as those of Trusted Pegasus and Makeshift Battalion).
+  - *2019-05-03* — If an effect exiles the God and immediately returns it to the battlefield, its last ability triggers but will have no effect. However, if an effect exiles it and would return it to the battlefield at a later time, the God's ability may return that card to its owner's library first. If it does, the effect that exiled it won't return it later.
+  - *2019-05-03* — If one of these Gods dies and it's your commander, you may put it into the command zone before its ability puts it into your library. If you save your commander this way, it won't put it into your library. The same is true if it would be exiled.
+  - *2019-05-03* — If one of these Gods leaves the graveyard or exile while its last ability is on the stack, it will remain in its new zone, even if that zone is a graveyard or exile.
+  - *2019-05-03* — If the God's owner has two or fewer cards in their library, the God is put on the bottom of their library as its last ability resolves.
+  - *2019-05-03* — If the new creature has an ability that triggers at the beginning of the end step, that ability will trigger and resolve even if the creature is returned to your hand during the end step before that ability resolves.
+  - *2019-05-03* — If the new creature leaves the battlefield before the end step, most likely because it died in combat, that card remains in its current zone. It won't return to your hand.
+  - *2019-05-03* — If you control another player's God when it dies, you decide whether to put that card into its owner's library.
+  - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
+  - *2024-01-12* — You choose which player, planeswalker, or battle the new creature is attacking. It doesn't have to be attacking the same player, planeswalker, or battle that Ilharg is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/113/ilharg-the-raze-boar) · oracle_id `8d571129-9030-47e0-9624-a49fb63e5a1b` · printing: RVR #113 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illegitimate Business
 
@@ -82,6 +93,7 @@
 - **Flavor text** (TMT printing):
   > *Their recipe isn't the only secret.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10664 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/186/illegitimate-business) · oracle_id `01ee70d4-6527-45ae-9600-bd3d16b3037d` · printing: TMT #186 (2026-03-06) · [rulings](https://api.scryfall.com/cards/71597acf-1ce6-46a8-b6c0-88755c8a377c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Gotten Gains
@@ -93,7 +105,9 @@
 - **Flavor text** (CNS printing):
   > *Urza thought it a crusade. Xantcha knew it was a robbery.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14148 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/114/ill-gotten-gains) · oracle_id `c88eff74-def5-42ea-873c-b3b479f6fe18` · printing: CNS #114 (2014-06-06) · [rulings](https://api.scryfall.com/cards/cf569836-5ee7-4e5c-9ab7-f1004891ee15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Players can get fewer than 3 cards if they want.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/114/ill-gotten-gains) · oracle_id `c88eff74-def5-42ea-873c-b3b479f6fe18` · printing: CNS #114 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Gotten Inheritance
 
@@ -105,7 +119,9 @@
 - **Flavor text** (RVR printing):
   > *"The suffering of others is not my concern."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9906 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/77/ill-gotten-inheritance) · oracle_id `84e8ca5e-730e-468b-943c-7c6358ade95c` · printing: RVR #77 (2024-01-12) · [rulings](https://api.scryfall.com/cards/abf2a55e-3112-452c-ac6a-6a3b9986ca99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — In a Two-Headed Giant game, Ill-Gotten Inheritance’s first ability causes the opposing team to lose 2 life and you gain 1 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/77/ill-gotten-inheritance) · oracle_id `84e8ca5e-730e-468b-943c-7c6358ade95c` · printing: RVR #77 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illicit Auction
 
@@ -114,7 +130,9 @@
 - **Oracle text:**
   > Each player may bid life for control of target creature. You start the bidding with a bid of 0. In turn order, each player may top the high bid. The bidding ends if the high bid stands. The high bidder loses life equal to the high bid and gains control of the creature. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/190/illicit-auction) · oracle_id `dea8c725-455e-4668-877a-df388fe22255` · printing: 6ED #190 (1999-04-21) · [rulings](https://api.scryfall.com/cards/97d68c39-cfdd-4883-9058-d648d073ae36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This is a life loss and not a life payment so you can bid more life than you have.
+- **Source flags:** [Scryfall](https://scryfall.com/card/6ed/190/illicit-auction) · oracle_id `dea8c725-455e-4668-877a-df388fe22255` · printing: 6ED #190 (1999-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illicit Masquerade
 
@@ -126,7 +144,9 @@
   > Whenever a creature you control with an impostor counter on it dies, exile it. Return up to one other target creature card from your graveyard to the battlefield.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/88/illicit-masquerade) · oracle_id `fa2a275a-a28b-45cd-b8ca-a93247ff59bc` · printing: MKM #88 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2a7a3ec4-afaa-45e1-8cde-f15bf4bd7379/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — Illicit Masquerade's last ability affects all creatures you control with impostor counters on them, not just ones that had impostor counters put on them with Illicit Masquerade's second ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/88/illicit-masquerade) · oracle_id `fa2a275a-a28b-45cd-b8ca-a93247ff59bc` · printing: MKM #88 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illicit Shipment
 
@@ -139,7 +159,12 @@
   > *Whatever the Maestros had ordered, it wasn't anyone's business, including his.*
 - **Keywords:** Casualty
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10388 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/83/illicit-shipment) · oracle_id `81d62f0a-b2ba-4e87-9003-e5472bd1101f` · printing: SNC #83 (2022-04-29) · [rulings](https://api.scryfall.com/cards/1f7cced2-390b-499f-ace3-e52fd53d4712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — Casualty N means “As an additional cost to cast this spell, you may sacrifice a creature with power N or greater.” and “When you cast this spell, if a casualty cost was paid for it, copy it. If the spell has any targets, you may choose new targets for the copy.”
+  - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
+  - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
+  - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/83/illicit-shipment) · oracle_id `81d62f0a-b2ba-4e87-9003-e5472bd1101f` · printing: SNC #83 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illithid Harvester // Plant Tadpoles
 
@@ -155,7 +180,25 @@
   > *"Your mind belongs to the Emperor now."*
 - **Keywords:** Ceremorphosis
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7177 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/76/illithid-harvester-plant-tadpoles) · oracle_id `299ffd3a-29cf-4667-b191-dd30d09f799c` · printing: CLB #76 (2022-06-10) · [rulings](https://api.scryfall.com/cards/df9573a3-d013-4631-98ed-78418bf0bc78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (17):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — If a creature enters the battlefield as a copy of a face-down creature or if a token is created that's a copy of one, that copy has the same characteristics as the face-down creature (in this case, a 2/2 Horror creature with no other characteristics), even though the copy is face up.
+  - *2022-06-10* — If a face-down permanent leaves the battlefield, its owner must reveal it to all players.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — Illithid Harvester's triggered ability can't turn double-faced cards face down.
+  - *2022-06-10* — Once the permanents are face down, no player may mix them up on the battlefield or otherwise try to hide or disguise which card is which.
+  - *2022-06-10* — Players may look at face-down permanents they control at any time.
+  - *2022-06-10* — The Commander Legends: Battle for Baldur's Gate set includes no way to turn these cards face up. If an effect from cards outside of this set does turn one face up, the effect causing it to be a 2/2 Horror creature ends.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/76/illithid-harvester-plant-tadpoles) · oracle_id `299ffd3a-29cf-4667-b191-dd30d09f799c` · printing: CLB #76 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illness in the Ranks
 
@@ -167,7 +210,9 @@
   > *"Selesnya denied us tribute. Let's show them the error of their ways."*
   > *—Milana, Orzhov prelate*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14564 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/69/illness-in-the-ranks) · oracle_id `51abc95c-bd92-46f7-a0a1-6e9f8e0dda87` · printing: GTC #69 (2013-02-01) · [rulings](https://api.scryfall.com/cards/989a68c1-3b76-4c2d-9db3-23c45be3f9ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-01-24* — If an effect creates a creature token that normally has toughness 1, it will enter with toughness 0, be put into its owner's graveyard as a state-based action, and then cease to exist. Any abilities that trigger when a creature enters or dies will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/69/illness-in-the-ranks) · oracle_id `51abc95c-bd92-46f7-a0a1-6e9f8e0dda87` · printing: GTC #69 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Tempered Cyclops
 
@@ -181,7 +226,11 @@
   > *A cyclops has two moods: angry and asleep.*
 - **Keywords:** Trample, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29754 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/166/ill-tempered-cyclops) · oracle_id `07f62413-92cc-4f44-a827-a7c3a7318602` · printing: CN2 #166 (2016-08-26) · [rulings](https://api.scryfall.com/cards/7590def9-1b7d-4dae-845b-d544752360eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-09-15* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2013-09-15* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2013-09-15* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/166/ill-tempered-cyclops) · oracle_id `07f62413-92cc-4f44-a827-a7c3a7318602` · printing: CN2 #166 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Tempered Loner // Howlpack Avenger
 
@@ -198,7 +247,10 @@
   > Nightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)
 - **Keywords:** Transform, Daybound, Nightbound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7210 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/162/ill-tempered-loner-howlpack-avenger) · oracle_id `6e0b3317-394d-42cc-a350-cb5ce051787a` · printing: VOW #162 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f3d1e90b-0c99-46da-b4f6-4b7be27dbd5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-11-19* — If the damage causes this creature to die before the triggered ability resolves, use last known information to determine whether or not this creature had abilities such as deathtouch and lifelink. If it did, those abilities will apply to the damage
+  - *2021-11-19* — The triggered ability on each face still works even if that damage causes this creature to die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/162/ill-tempered-loner-howlpack-avenger) · oracle_id `6e0b3317-394d-42cc-a350-cb5ce051787a` · printing: VOW #162 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ill-Timed Explosion
 
@@ -209,7 +261,9 @@
 - **Flavor text** (MKM printing):
   > *Only too late did the Agency custodians realize the device had not been inactive—it was just waiting for the right trigger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/207/ill-timed-explosion) · oracle_id `6e3b3a3f-e32f-4c72-a9fb-dd1e877876b6` · printing: MKM #207 (2024-02-09) · [rulings](https://api.scryfall.com/cards/0b5cdb01-eaa4-4a0a-b42a-332bcf4d6fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If a card discarded this way has {X} in its mana cost, X is 0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/207/ill-timed-explosion) · oracle_id `6e3b3a3f-e32f-4c72-a9fb-dd1e877876b6` · printing: MKM #207 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminate
 
@@ -220,7 +274,14 @@
   > Illuminate deals X damage to target creature. If this spell was kicked with its {2}{R} kicker, it deals X damage to that creature's controller. If this spell was kicked with its {3}{U} kicker, you draw X cards.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28672 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/apc/63/illuminate) · oracle_id `f944c245-08ff-41a8-bdfc-7d21a6a63eae` · printing: APC #63 (2001-06-04) · [rulings](https://api.scryfall.com/cards/ceef2761-7301-42de-8f54-49b8cd1e457b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/apc/63/illuminate) · oracle_id `f944c245-08ff-41a8-bdfc-7d21a6a63eae` · printing: APC #63 (2001-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminated Folio
 
@@ -231,7 +292,10 @@
 - **Flavor text** (SHM printing):
   > *Most such relics remain clasped shut for fear of what ominous truths might be carved into the diptych inside.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/254/illuminated-folio) · oracle_id `0440f85f-8128-4399-9a3d-51f39e196c96` · printing: SHM #254 (2008-05-02) · [rulings](https://api.scryfall.com/cards/73d473d9-f52e-4357-b25a-e8bdcc833f09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-05-01* — Colorless is not a color. You can’t reveal two colorless cards from your hand to activate this ability because those cards don’t share a color with one another.
+  - *2008-05-01* — The two revealed cards stay revealed until the ability resolves. If one of them is played, is discarded, or otherwise leaves your hand, the ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/254/illuminated-folio) · oracle_id `0440f85f-8128-4399-9a3d-51f39e196c96` · printing: SHM #254 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminated Wings
 
@@ -245,6 +309,7 @@
   > *For a moment, Urza thought not of war and destruction, but of the freedom of the skies.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31047 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/34/illuminated-wings) · oracle_id `7a22389a-34e7-4726-a551-f6fbc225cefe` · printing: UDS #34 (1999-06-07) · [rulings](https://api.scryfall.com/cards/7f98e703-a0d3-497f-840a-aa026b02d47f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminate History
@@ -256,7 +321,12 @@
 - **Flavor text** (STX printing):
   > *"Look at the detail in this stonework! Professor, our assumptions about early Kathorran tool use may not be correct."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10626 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/108/illuminate-history) · oracle_id `c7c1e7cf-0be2-4129-9bdf-0862be2fba7f` · printing: STX #108 (2021-04-23) · [rulings](https://api.scryfall.com/cards/98739789-80b5-4224-a2e4-09e00654aa9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Illuminate History will stay on the stack until it is finished resolving, so it will not count itself as one of the cards in your graveyard.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+  - *2021-04-16* — You may choose not to discard any cards as Illuminate History resolves. In that case, you will not draw any cards, but you might still create a Spirit.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/108/illuminate-history) · oracle_id `c7c1e7cf-0be2-4129-9bdf-0862be2fba7f` · printing: STX #108 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminating Detective
 
@@ -266,6 +336,7 @@
 - **Oracle text:**
   > When Illuminating Detective enters the battlefield, each of your opponents reveal all of their commanders. If their commanders were already revealed, put a flying counter on this creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CW01/illuminating-detective) · oracle_id `b01aadb8-695a-47fb-b62f-efba70a17c08` · printing: UNK #CW01 (2024-02-24) · [rulings](https://api.scryfall.com/cards/92a5e8f6-bad0-4b64-8b3a-c975b4b4d8c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illumination
@@ -278,6 +349,7 @@
   > *"A brilliant light can either illuminate or blind. How will you know which until you open your eyes?"*
   > *—Asmira, Holy Avenger*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18178 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/21/illumination) · oracle_id `cd1a6508-aaba-4515-9496-057915d02040` · printing: MIR #21 (1996-10-08) · [rulings](https://api.scryfall.com/cards/eb28f6e5-c9ef-416e-b315-967d857e7600/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminator Virtuoso
@@ -292,7 +364,11 @@
   > *The Obscura reserve their keenest blades for traitors in their midst.*
 - **Keywords:** Double strike, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16652 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/17/illuminator-virtuoso) · oracle_id `ed2af15e-955b-43a1-80af-2484be373db3` · printing: SNC #17 (2022-04-29) · [rulings](https://api.scryfall.com/cards/52ba20d9-9423-4114-8734-1dac307483c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/17/illuminator-virtuoso) · oracle_id `ed2af15e-955b-43a1-80af-2484be373db3` · printing: SNC #17 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuminor Szeras
 
@@ -305,7 +381,9 @@
   > *"Immortality is not quite the same as invulnerability, but it is close enough."*
 - **Keywords:** Secrets of the Soul
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5357 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/37/illuminor-szeras) · oracle_id `10f274f9-9044-447b-81c9-d4906ad9e6be` · printing: 40K #37 (2022-10-07) · [rulings](https://api.scryfall.com/cards/d161a190-3c85-4207-9d88-7ff9213efea8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — Use the mana value of the sacrificed creature as it last existed on the battlefield to determine the amount of {B} to add.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/37/illuminor-szeras) · oracle_id `10f274f9-9044-447b-81c9-d4906ad9e6be` · printing: 40K #37 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuna, Apex of Wishes
 
@@ -318,7 +396,13 @@
   > Whenever this creature mutates, exile cards from the top of your library until you exile a nonland permanent card. Put that card onto the battlefield or into your hand.
 - **Keywords:** Flying, Mutate, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9783 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/154/illuna-apex-of-wishes) · oracle_id `08daa30f-7ce0-4a72-b539-fbb0c585fd73` · printing: DMC #154 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0dfec692-66c8-4c90-8afa-095654011c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — A nonland permanent card is an artifact, creature, enchantment, or planeswalker card.
+  - *2020-04-17* — Any land, instant, and sorcery cards exiled this way remain in exile.
+  - *2020-04-17* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+  - *2020-04-17* — Illuna's last ability exiles the cards face up. All players will see what the card is if you put it into your hand.
+  - *2020-04-17* — You choose whether to put the card into your hand or onto the battlefield after seeing what the card is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/154/illuna-apex-of-wishes) · oracle_id `08daa30f-7ce0-4a72-b539-fbb0c585fd73` · printing: DMC #154 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Armor
 
@@ -330,7 +414,9 @@
   > When enchanted creature becomes the target of a spell or ability, sacrifice this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/59/illusionary-armor) · oracle_id `f36603d4-571d-4d03-a9cb-d1f2af3eb3c1` · printing: M14 #59 (2013-07-19) · [rulings](https://api.scryfall.com/cards/d09346ff-6e63-499b-9265-c15a7b2cdece/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — Only Illusionary Armor is sacrificed because of its triggered ability; the enchanted creature is not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/59/illusionary-armor) · oracle_id `f36603d4-571d-4d03-a9cb-d1f2af3eb3c1` · printing: M14 #59 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Forces
 
@@ -345,7 +431,9 @@
   > *—Gerda Äagesdotter, Archmage of the Unseen*
 - **Keywords:** Cumulative upkeep, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31762 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/38/illusionary-forces) · oracle_id `e17e3bda-75cb-47a1-9f60-f50705a46a1e` · printing: ME1 #38 (2007-09-10) · [rulings](https://api.scryfall.com/cards/1f011ad5-0ff1-4538-942e-b72e93d87e3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/38/illusionary-forces) · oracle_id `e17e3bda-75cb-47a1-9f60-f50705a46a1e` · printing: ME1 #38 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Informant
 
@@ -358,7 +446,9 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/32/illusionary-informant) · oracle_id `5e8c6894-c9ad-4a50-af13-c2d95395c71e` · printing: CN2 #32 (2016-08-26) · [rulings](https://api.scryfall.com/cards/766150d9-c795-4675-a849-a388e8ae148d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-08-23* — Once a player has put a card into their pile of drafted cards, it's too late to turn Illusionary Informant face down to look at that card. As a courtesy, you should alert the player as soon as they are passed the booster pack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/32/illusionary-informant) · oracle_id `5e8c6894-c9ad-4a50-af13-c2d95395c71e` · printing: CN2 #32 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Mask
 
@@ -367,7 +457,20 @@
 - **Oracle text:**
   > {X}: You may choose a creature card in your hand whose mana cost could be paid by some amount of, or all of, the mana you spent on {X}. If you do, you may cast that card face down as a 2/2 creature spell without paying its mana cost. If the creature that spell becomes as it resolves has not been turned face up and would assign or deal damage, be dealt damage, or become tapped, instead it's turned face up and assigns or deals damage, is dealt damage, or becomes tapped. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25286 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/197/illusionary-mask) · oracle_id `05ac866d-0405-4d25-986a-c10fcfc097e6` · printing: ME3 #197 (2009-09-07) · [rulings](https://api.scryfall.com/cards/937e977f-5e97-4e00-8a5a-42982862b997/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2004-10-04* — Only the controller of the face down creature can look at it.
+  - *2004-10-04* — The creature enters face down, so none of its "enters" abilities will trigger or have any effect. Also none of its "As this enters" abilities apply.
+  - *2004-10-04* — The creature's "enters" abilities (and any other abilities relating to the creature entering) do not trigger when it turns face up.
+  - *2009-10-01* — Both the amount and types of mana you spend on {X} are taken into account while you're choosing a creature card from your hand. For example, if you spent {U}{U} on {X}, you can choose a creature card with mana cost {U}{U}, {1}{U}, {2}, or {W/U}{W/U}, among other possibilities, but not one that costs {2}{U} or one that costs {G}.
+  - *2009-10-01* — If you use the ability to cast a creature card face down, you must keep track of the amount and types of mana you spent on {X}. If that creature spell is moved from the stack to anywhere other than the battlefield, the resulting creature leaves the battlefield, or the game ends, the face-down card is revealed. If its mana cost couldn't be paid by some amount of, or all of, the mana you spent on {X}, all applicable penalties for casting a card illegally are assessed.
+  - *2009-10-01* — Illusionary Mask's ability will continue to apply to creatures cast face down with it, even if Illusionary Mask has left the battlefield.
+  - *2009-10-01* — The effect that turns it face-up is a replacement effect. It doesn't use the stack and can't be responded to.
+  - *2009-10-01* — While the creature card is face down, it's a 2/2 creature with no name, mana cost, color, creature type, abilities, or expansion symbol. Since it has no mana cost, its mana value is 0.
+  - *2009-10-01* — You actually cast the card face-down, much as when playing a spell with Morph. It can be responded to and countered.
+  - *2009-10-01* — You can turn a face-down permanent face up if it would have morph while face up. This applies to creatures you cast face down as a result of Illusionary Mask's effect. The rest of Illusionary Mask's effect applies to it as well.
+  - *2009-10-01* — You may look at a face-down spell or permanent you control at any time.
+  - *2009-10-01* — You may not turn a face-down spell face up. You may not turn a face-down permanent face up unless it would have morph while face up or an effect specifically allows you to turn it face up. Illusionary Mask's ability has you turn a face-down creature face up if it would assign damage, deal damage, be dealt damage, or become tapped, but not for any other reason. For example, if you use Illusionary Mask's ability to cast a black creature face down, you can't turn it face up just because it's being targeted by Terror.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/197/illusionary-mask) · oracle_id `05ac866d-0405-4d25-986a-c10fcfc097e6` · printing: ME3 #197 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Presence
 
@@ -382,7 +485,11 @@
   > *—Disa the Restless, journal entry*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31389 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/76/illusionary-presence) · oracle_id `8f319b31-efb0-4f48-a2a3-1f308e7b1dda` · printing: ICE #76 (1995-06-03) · [rulings](https://api.scryfall.com/cards/aa31efed-4a11-4f59-a623-bac45d20091d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-11-01* — Can only give landwalk of land sub-types that exist (so you can no longer give "Island of Wak-Wak walk").
+  - *2005-11-01* — Can't give Snow landwalk, because Snow is supertype, not a subtype.
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/76/illusionary-presence) · oracle_id `8f319b31-efb0-4f48-a2a3-1f308e7b1dda` · printing: ICE #76 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Servant
 
@@ -397,7 +504,9 @@
   > *—Jace Beleren*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/57/illusionary-servant) · oracle_id `28e99c5f-a78a-4323-b5e9-1b43303acaf6` · printing: M10 #57 (2009-07-17) · [rulings](https://api.scryfall.com/cards/b2348f3e-8c08-4250-95a9-fc5ed63cd725/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — If Illusionary Servant becomes the target of a spell or ability, Illusionary Servant’s ability triggers and is put on the stack on top of that spell or ability. Illusionary Servant’s ability will resolve (causing it to be sacrificed) first. Unless the spell or ability has another target, it will then be countered when it tries to resolve for having no legal targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/57/illusionary-servant) · oracle_id `28e99c5f-a78a-4323-b5e9-1b43303acaf6` · printing: M10 #57 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Terrain
 
@@ -412,7 +521,9 @@
   > *—Disa the Restless, journal entry*
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/77/illusionary-terrain) · oracle_id `17ae63fa-fd63-45e6-81c1-bf30851bf77c` · printing: ICE #77 (1995-06-03) · [rulings](https://api.scryfall.com/cards/691f4a1b-4706-41aa-82da-ae920739f036/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-10-15* — Will not add or remove the supertype snow to or from a land.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/77/illusionary-terrain) · oracle_id `17ae63fa-fd63-45e6-81c1-bf30851bf77c` · printing: ICE #77 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Wall
 
@@ -427,6 +538,7 @@
   > *—Gerda Äagesdotter, Archmage of the Unseen*
 - **Keywords:** Cumulative upkeep, Flying, First strike, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25965 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/39/illusionary-wall) · oracle_id `77a8945f-4d52-4445-8913-425007e7948c` · printing: ME1 #39 (2007-09-10) · [rulings](https://api.scryfall.com/cards/d1800174-b6dd-49c3-865a-5292c8563441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionist's Bracers
@@ -440,7 +552,15 @@
   > *It's easy to believe you're a god when you're twice as powerful as everyone else.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1645 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/260/illusionists-bracers) · oracle_id `1d1d78af-7982-419d-b9be-2bf4c149d97d` · printing: RVR #260 (2024-01-12) · [rulings](https://api.scryfall.com/cards/9dd8d940-a973-4469-bf78-90318d98f3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-01-24* — An activated ability is written in the form "Cost: Effect."
+  - *2013-01-24* — If Illusionist's Bracers somehow becomes equipped to a creature an opponent controls, and an activated ability (that isn't a mana ability) of that creature is activated, you will control the copy of that ability.
+  - *2013-01-24* — If the ability has {X} in its cost, the value of X is copied.
+  - *2013-01-24* — If the ability is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
+  - *2013-01-24* — If the cost of an activated ability requires Illusionist's Bracers or the equipped creature to be sacrificed, the ability won't be copied. At the time the ability is considered activated (after all costs are paid), Illusionist's Bracers is no longer equipped to that creature.
+  - *2013-01-24* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/260/illusionists-bracers) · oracle_id `1d1d78af-7982-419d-b9be-2bf4c149d97d` · printing: RVR #260 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionist's Gambit
 
@@ -450,7 +570,11 @@
   > Cast this spell only during the declare blockers step on an opponent's turn.
   > Remove all attacking creatures from combat and untap them. After this phase, there is an additional combat phase. Each of those creatures attacks that combat if able. They can't attack you or planeswalkers you control that combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/47/illusionists-gambit) · oracle_id `333745d9-e930-439b-94d6-3aeea2877f69` · printing: C13 #47 (2013-11-01) · [rulings](https://api.scryfall.com/cards/a00cc6ab-e97c-4eba-bc7e-49d77690433b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-10-17* — Creatures that didn't attack during the combat phase when Illusionist's Gambit resolved aren't required to attack in the additional combat phase, although they may. Those creatures can attack you or a planeswalker you control.
+  - *2013-10-17* — If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack.
+  - *2013-10-17* — If, during a player's declare attackers step, a creature is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/47/illusionists-gambit) · oracle_id `333745d9-e930-439b-94d6-3aeea2877f69` · printing: C13 #47 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionist's Stratagem
 
@@ -463,7 +587,13 @@
   > *"When everything hangs on a single moment, be sure you choose the right moment."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7696 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/36/illusionists-stratagem) · oracle_id `1225bee2-c829-4a93-9f75-3495277c23bc` · printing: AER #36 (2017-01-20) · [rulings](https://api.scryfall.com/cards/a7eede83-6f1b-4054-b01c-0da17b197bad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-02-09* — Each card that returns to the battlefield will be a new object with no connection to the creature that was exiled. It won’t be in combat or have any additional abilities it may have had when it was exiled. Any +1/+1 counters on it or Auras attached to it are removed, and any Equipment will no longer be attached.
+  - *2017-02-09* — If a creature token is exiled this way, it will cease to exist and will not return to the battlefield.
+  - *2017-02-09* — If each target creature is an illegal target as Illusionist’s Stratagem resolves, the spell doesn’t resolve. You won’t draw a card.
+  - *2017-02-09* — If you choose two target creatures and one is an illegal target as Illusionist’s Stratagem resolves, you’ll exile the other, return it, and draw a card.
+  - *2017-02-09* — You may cast Illusionist’s Stratagem without any targets if you wish to just draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/36/illusionists-stratagem) · oracle_id `1225bee2-c829-4a93-9f75-3495277c23bc` · printing: AER #36 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion of Choice
 
@@ -476,7 +606,10 @@
   > *"Please vote with a clear head and vigilant heart, knowing each voice is meaningful regardless of the outcome."*
   > *—Ottavio d'Oro, Electoral Committee Speaker of Paliano*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/31/illusion-of-choice) · oracle_id `e3ad9287-ef13-4b66-9df8-b17e15bb4b0f` · printing: CN2 #31 (2016-08-26) · [rulings](https://api.scryfall.com/cards/ab54f283-92b6-4738-b2cd-fecb43750a4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-08-23* — If another player controls Ballot Broker, that player first takes their “normal” vote with you choosing the result, then that player decides whether they are taking the additional vote. If there is an additional vote, you again choose the result.
+  - *2016-08-23* — If multiple players cast Illusion of Choice during the same turn, the controller of the one that resolved most recently will choose how each player votes that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/31/illusion-of-choice) · oracle_id `e3ad9287-ef13-4b66-9df8-b17e15bb4b0f` · printing: CN2 #31 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion // Reality
 
@@ -486,7 +619,15 @@
 - **Face 2: Reality** — {2}{G} — Instant
   > Destroy target artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28814 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/213/illusion-reality) · oracle_id `5af2689d-c45c-4d45-b6a9-f32e8410b336` · printing: DMR #213 (2023-01-13) · [rulings](https://api.scryfall.com/cards/ba6ea373-65ea-45a8-8fed-31c482ba8387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/213/illusion-reality) · oracle_id `5af2689d-c45c-4d45-b6a9-f32e8410b336` · printing: DMR #213 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusions of Grandeur
 
@@ -498,7 +639,9 @@
   > When this enchantment leaves the battlefield, you lose 20 life.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10414 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/40/illusions-of-grandeur) · oracle_id `d7c81b3e-8082-4aaf-8979-2717d118234c` · printing: ME1 #40 (2007-09-10) · [rulings](https://api.scryfall.com/cards/44c20ed5-7064-436d-ad76-85a1d6bf0103/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If a player takes control of this card away from you, you do not lose 20 life because the loss of 20 life is a separate ability. That player is now subject to the loss.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/40/illusions-of-grandeur) · oracle_id `d7c81b3e-8082-4aaf-8979-2717d118234c` · printing: ME1 #40 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion Spinners
 
@@ -513,6 +656,7 @@
   > *You can't catch what you can't perceive.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19930 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/55/illusion-spinners) · oracle_id `b608288e-1755-4738-b828-9df6998bae8d` · printing: ECL #55 (2026-01-23) · [rulings](https://api.scryfall.com/cards/eb4229a9-8df4-4adc-9d3e-acd2221fa3e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusory Ambusher
@@ -528,7 +672,10 @@
   > *—Doriel, mentor of Mistral Isle*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11462 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/113/illusory-ambusher) · oracle_id `ad3add32-cb87-4cd4-8c36-a737a897a8c8` · printing: C20 #113 (2020-04-17) · [rulings](https://api.scryfall.com/cards/50a68135-b7e1-454e-8891-11f00cb79cd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — Creatures may be dealt damage greater than their toughness. For example, if a source deals 5 damage to Illusory Ambusher, you'll draw five cards.
+  - *2017-11-17* — If Illusory Ambusher blocks a creature with trample, that creature's controller can assign any amount of damage from 1 to that creature's power to Illusory Ambusher. Excess damage doesn't have to be assigned to the defending player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/113/illusory-ambusher) · oracle_id `ad3add32-cb87-4cd4-8c36-a737a897a8c8` · printing: C20 #113 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusory Angel
 
@@ -543,7 +690,10 @@
   > *—Letter from a soldier*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22973 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ima/59/illusory-angel) · oracle_id `6ee32b5e-3b29-47ff-87f8-913ec05f6b2f` · printing: IMA #59 (2017-11-17) · [rulings](https://api.scryfall.com/cards/0a88a855-827c-4b08-bc1c-2c8f7cf92660/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-07-18* — It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast Illusory Angel as though it had flash, it could still be on the stack.
+  - *2017-11-17* — It doesn't matter whether the other spell resolved. It could have been countered or, if you've somehow cast Illusory Angel as though it had flash, it could still be on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ima/59/illusory-angel) · oracle_id `6ee32b5e-3b29-47ff-87f8-913ec05f6b2f` · printing: IMA #59 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusory Demon
 
@@ -557,7 +707,9 @@
   > *In the Maelstrom, a trick of the light can feast on human flesh.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31395 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/21/illusory-demon) · oracle_id `91d0a557-7a80-46d5-b823-392a84a6be44` · printing: ARB #21 (2009-04-30) · [rulings](https://api.scryfall.com/cards/f4d69f7f-ac70-477b-9246-8d81fef7d335/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — If you cast a spell, the spell goes on the stack, then Illusory Demon’s triggered ability goes on the stack on top of it. The triggered ability will resolve (and you’ll sacrifice Illusory Demon) before the spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/21/illusory-demon) · oracle_id `91d0a557-7a80-46d5-b823-392a84a6be44` · printing: ARB #21 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusory Gains
 
@@ -569,7 +721,12 @@
   > Whenever a creature an opponent controls enters, attach this Aura to that creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22570 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/59/illusory-gains) · oracle_id `1ba45691-417b-4e6a-be45-6027e4f04599` · printing: DTK #59 (2015-03-27) · [rulings](https://api.scryfall.com/cards/747dfb21-a00c-46ba-9da3-739f570e1246/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — If Illusory Gains can't legally enchant the creature that enters the battlefield (perhaps because it has protection from blue), it remains where it is. You retain control of the creature it's currently enchanting.
+  - *2015-02-25* — If multiple creatures enter the battlefield under an opponent's control at the same time, Illusory Gains will trigger for each of them. You may put these abilities on the stack in any order. As each resolves, you'll briefly gain control of the associated creature. The last one to resolve determines which one you'll ultimately control.
+  - *2015-02-25* — Illusory Gains's last ability is mandatory. You can't choose to have Illusory Gains not move.
+  - *2015-02-25* — The last ability of Illusory Gains doesn't target the new creature. It will become attached to that creature even if that creature has hexproof or shroud.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/59/illusory-gains) · oracle_id `1ba45691-417b-4e6a-be45-6027e4f04599` · printing: DTK #59 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusory Wrappings
 
@@ -583,7 +740,10 @@
   > *—Kefnet, god of knowledge*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/58/illusory-wrappings) · oracle_id `bda363b6-4be1-4415-8b3e-92882df1f630` · printing: AKH #58 (2017-04-28) · [rulings](https://api.scryfall.com/cards/a67aefde-2c91-4974-b89d-84333a2874eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Any power- or toughness-modifying effects (those that give +N/+N, for example) and counters will apply to the creature’s new base power and toughness, even if they started to apply before Illusory Wrappings became attached.
+  - *2017-04-18* — Illusory Wrappings overwrites all previous effects that set the creature’s base power and toughness to specific values, including those that define a * such as that of Enigma Drake. Any power- or toughness-setting effects that start to apply to a creature after Illusory Wrappings becomes attached to it will overwrite this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/58/illusory-wrappings) · oracle_id `bda363b6-4be1-4415-8b3e-92882df1f630` · printing: AKH #58 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illustrious Historian
 
@@ -595,6 +755,7 @@
 - **Flavor text** (STX printing):
   > *The most distinguished Lorehold professors are eligible to receive extended tenure, even beyond the limits of their own mortality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29836 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/109/illustrious-historian) · oracle_id `5a131407-c217-48fc-aa15-9e3392445768` · printing: STX #109 (2021-04-23) · [rulings](https://api.scryfall.com/cards/56cc4e7d-3b06-4938-9023-d903912350c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illustrious Wanderglyph
@@ -608,7 +769,14 @@
   > At the beginning of each upkeep, create a 1/1 colorless Gnome artifact creature token.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2111 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/9/illustrious-wanderglyph) · oracle_id `72adf091-4491-4afe-b893-b8d20ad38a86` · printing: LCC #9 (2023-11-17) · [rulings](https://api.scryfall.com/cards/30e02cc7-8ea9-468b-ba61-a1e00fefea22/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2023-11-10* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to you getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2023-11-10* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2023-11-10* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of two, then cast Illustrious Wanderglyph, you won't have the city's blessing.
+  - *2023-11-10* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2023-11-10* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/9/illustrious-wanderglyph) · oracle_id `72adf091-4491-4afe-b893-b8d20ad38a86` · printing: LCC #9 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illvoi Galeblade
 
@@ -623,6 +791,7 @@
   > *Uthros guards have such rapid reflexes that it has led to rumors of experimental precognition.*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11276 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/58/illvoi-galeblade) · oracle_id `d6273621-c36c-491b-85ca-37445ed30097` · printing: EOE #58 (2025-08-01) · [rulings](https://api.scryfall.com/cards/769f7d13-a312-4d79-8639-6ae248452448/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illvoi Infiltrator
@@ -636,7 +805,9 @@
 - **Flavor text** (EOE printing):
   > *Cloudkill agents slip in and out like a breeze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19157 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/59/illvoi-infiltrator) · oracle_id `3084377f-73fb-4b00-9dd9-3844b1ecafc2` · printing: EOE #59 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2db4ed41-0426-4d7f-bb43-e43392bed83b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — Illvoi Infiltrator’s first ability will count any spells you’ve cast this turn, which may include Illvoi Infiltrator itself. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/59/illvoi-infiltrator) · oracle_id `3084377f-73fb-4b00-9dd9-3844b1ecafc2` · printing: EOE #59 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illvoi Light Jammer
 
@@ -649,6 +820,7 @@
   > Equip {3}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13445 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/60/illvoi-light-jammer) · oracle_id `cbc0b136-544d-45a6-be3e-cd21a573bf19` · printing: EOE #60 (2025-08-01) · [rulings](https://api.scryfall.com/cards/efb3d961-543c-4404-b4ed-1cb28ee411b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illvoi Operative
@@ -661,7 +833,10 @@
 - **Flavor text** (EOE printing):
   > *The Uthros Combine's first question for any scientific breakthrough is always: "How can this be used to keep our next breakthrough secret?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19736 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/61/illvoi-operative) · oracle_id `2e0b225a-d4b4-4f53-8fea-8c6c37102920` · printing: EOE #61 (2025-08-01) · [rulings](https://api.scryfall.com/cards/d0ae9fc7-1802-4806-9996-1f1f458ff6a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-07-25* — Illvoi Operative’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-07-25* — Illvoi Operative’s ability will count any spells you’ve cast this turn, which may include Illvoi Operative itself. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack. If Illvoi Operative was the first spell you cast this turn, the next spell you cast this turn is your second spell. Similarly, if Illvoi Operative was the second spell you cast this turn, its ability won’t trigger and it won’t get a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/61/illvoi-operative) · oracle_id `2e0b225a-d4b4-4f53-8fea-8c6c37102920` · printing: EOE #61 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Il Mheg Pixie
 
@@ -675,6 +850,7 @@
   > *"Well now, aren't you just brimming with life? I'd love to suck up all that aether like nectar from a flower!"*
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11162 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/57/il-mheg-pixie) · oracle_id `c2c47e13-b581-41a8-a4af-542557a6249a` · printing: FIN #57 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ae612312-3a8e-495f-8730-deaaf7505ca1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ilysian Caryatid
@@ -687,4 +863,6 @@
 - **Flavor text** (CMM printing):
   > *Those who die as heroes are permitted to dwell in Ilysia, a protected realm of the Underworld as tranquil and vibrant as the rest is bleak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1771 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/297/ilysian-caryatid) · oracle_id `5f2be3c2-060a-43e1-b63b-9cd3c78ffcb0` · printing: CMM #297 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3db65137-c9d6-4352-b7a0-f3968b167233/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — Ilysian Caryatid’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/297/ilysian-caryatid) · oracle_id `5f2be3c2-060a-43e1-b63b-9cd3c78ffcb0` · printing: CMM #297 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

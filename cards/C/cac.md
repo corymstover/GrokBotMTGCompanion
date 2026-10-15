@@ -36,7 +36,10 @@
   > *The glittering scales in the Abzan vaults represent mighty deeds of the past and protection for generations to come.*
 - **Keywords:** Bolster
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/126/cached-defenses) · oracle_id `0e564f52-94fb-4c44-926f-0eebedc7d4c0` · printing: FRF #126 (2015-01-23) · [rulings](https://api.scryfall.com/cards/41ad36cf-5f29-41c4-b2a3-6b8e8c0c493f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — Bolster itself doesn’t target any creature, though some spells and abilities that bolster may have other effects that target creatures. For example, you could put counters on a creature with protection from white with Abzan Skycaptain’s bolster ability.
+  - *2014-11-24* — You determine which creature to put counters on as the spell or ability that instructs you to bolster resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/126/cached-defenses) · oracle_id `0e564f52-94fb-4c44-926f-0eebedc7d4c0` · printing: FRF #126 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cache Grab
 
@@ -46,7 +49,11 @@
   > Mill four cards. You may put a permanent card from among the cards milled this way into your hand. If you control a Squirrel or returned a Squirrel card to your hand this way, create a Food token. (To mill four cards, put the top four cards of your library into your graveyard. A Food token is an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.")
 - **Keywords:** Food, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/167/cache-grab) · oracle_id `06ccec61-27d2-4079-80b5-29ebd3a980ee` · printing: BLB #167 (2024-08-02) · [rulings](https://api.scryfall.com/cards/dfd977dc-a7c3-4d0a-aca7-b25bd154e963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/167/cache-grab) · oracle_id `06ccec61-27d2-4079-80b5-29ebd3a980ee` · printing: BLB #167 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cache Raiders
 
@@ -58,7 +65,9 @@
 - **Flavor text** (DDI printing):
   > *What the current doesn't take, they do.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/18/cache-raiders) · oracle_id `57947037-91b2-4058-be22-158d3257317e` · printing: DDI #18 (2012-03-30) · [rulings](https://api.scryfall.com/cards/bb75ec92-7c8e-47d3-a412-01d0c98321fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — This ability isn’t targeted. You choose a permanent to return when the ability resolves. No one will be able to respond to the choice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddi/18/cache-raiders) · oracle_id `57947037-91b2-4058-be22-158d3257317e` · printing: DDI #18 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Counterpart
 
@@ -69,7 +78,19 @@
   > Flashback {5}{U}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2927 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/55/cackling-counterpart) · oracle_id `9e2adca5-f39c-4a09-bcce-8238ebac2c4a` · printing: INR #55 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a865fdc5-955a-4c4a-90c0-342c15fd7bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2025-01-24* — Any “enters” triggered ability of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters” or “[this creature] enters with” abilities of the chosen creature will also work.
+  - *2025-01-24* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2025-01-24* — If the copied creature is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2025-01-24* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2025-01-24* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/55/cackling-counterpart) · oracle_id `9e2adca5-f39c-4a09-bcce-8238ebac2c4a` · printing: INR #55 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Fiend
 
@@ -81,7 +102,9 @@
 - **Flavor text** (DMR printing):
   > *Its windpipe is only the first to amplify its maddening laughter.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21494 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/76/cackling-fiend) · oracle_id `2029954b-6fa7-40d7-bb19-d7534c62be5d` · printing: DMR #76 (2023-01-13) · [rulings](https://api.scryfall.com/cards/c7e4fa7f-a5d7-46cd-bc46-d3d231235460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the opponent has no cards in hand, this has no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/76/cackling-fiend) · oracle_id `2029954b-6fa7-40d7-bb19-d7534c62be5d` · printing: DMR #76 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Flames
 
@@ -95,6 +118,7 @@
   > *—Rakdos*
 - **Keywords:** Hellbent
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28995 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/59/cackling-flames) · oracle_id `ab48147c-0bd7-4875-8e11-0e26185453dd` · printing: DIS #59 (2006-05-05) · [rulings](https://api.scryfall.com/cards/a54a371e-fb82-41f1-892c-975f932b668e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Imp
@@ -109,6 +133,7 @@
   > *Its laughter drives needles through your mind.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/41/cackling-imp) · oracle_id `adc8c55c-8fbe-4e07-b1be-8cb796db3d8a` · printing: DVD #41 (2014-12-05) · [rulings](https://api.scryfall.com/cards/351e65ac-25d4-4916-aa33-5bfd9df19b25/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Prowler
@@ -121,7 +146,9 @@
   > Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature.
 - **Keywords:** Ward, Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/101/cackling-prowler) · oracle_id `898da62e-d29a-4ddc-be69-2ddec54614f5` · printing: FDN #101 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1bd8e971-c075-4203-8d83-c28f22d4f9b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — Cackling Prowler's last ability will check as the end step starts to see if a creature died this turn. If none did, the ability won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/101/cackling-prowler) · oracle_id `898da62e-d29a-4ddc-be69-2ddec54614f5` · printing: FDN #101 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Slasher
 
@@ -135,6 +162,7 @@
   > *Every death was funnier than the last, until his howling laughter drowned out his victims' screams.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/85/cackling-slasher) · oracle_id `b9671f4b-72d2-48d7-a497-2ea0ab72cd0b` · printing: DSK #85 (2024-09-27) · [rulings](https://api.scryfall.com/cards/b1269ccf-febf-42b0-8c20-21ccb731a3ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cackling Witch
@@ -147,6 +175,7 @@
 - **Flavor text** (MMQ printing):
   > *The touch of his madness can drive anyone into a killing frenzy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/119/cackling-witch) · oracle_id `ee608650-410a-4d6b-be6e-63d7955cff39` · printing: MMQ #119 (1999-10-04) · [rulings](https://api.scryfall.com/cards/cec755ee-b4c0-47fd-9e61-9a3161766de6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophodon
@@ -160,7 +189,10 @@
   > *When a cacophodon is angry, the whole jungle knows.*
 - **Keywords:** Enrage
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/123/cacophodon) · oracle_id `8bd6dea2-2fdd-482f-9fe8-6f3eeed13872` · printing: RIX #123 (2018-01-19) · [rulings](https://api.scryfall.com/cards/351b213e-b23e-4287-947a-6bd81f1cf751/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
+  - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/123/cacophodon) · oracle_id `8bd6dea2-2fdd-482f-9fe8-6f3eeed13872` · printing: RIX #123 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophony Scamp
 
@@ -172,7 +204,15 @@
   > When this creature dies, it deals damage equal to its power to any target.
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11746 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/124/cacophony-scamp) · oracle_id `4854a41e-db49-462f-ae57-0ba4005bae75` · printing: ONE #124 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3553dcef-7b99-49d5-b071-06b894696952/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You choose whether to sacrifice Cacophony Scamp as its first ability resolves. No player may respond between the time you sacrifice it and the time you proliferate.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/124/cacophony-scamp) · oracle_id `4854a41e-db49-462f-ae57-0ba4005bae75` · printing: ONE #124 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophony Unleashed
 
@@ -182,7 +222,10 @@
   > When this enchantment enters, if you cast it, destroy all nonenchantment creatures.
   > Whenever this enchantment or another enchantment you control enters, until end of turn, this enchantment becomes a legendary 6/6 Nightmare God creature with menace and deathtouch. It's still an enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7195 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/730/cacophony-unleashed) · oracle_id `1f6056be-67c8-40a9-86ef-1606961644eb` · printing: CMM #730 (2023-08-04) · [rulings](https://api.scryfall.com/cards/908d9aa5-818c-4651-b135-cc6d1983ad99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-07-28* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+  - *2023-07-28* — You can't cast an Aura with "enchant creature" targeting Cacophony Unleashed unless it's already a creature before you cast that Aura.  When Cacophony Unleashed stops being a creature, any such auras will be put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/730/cacophony-unleashed) · oracle_id `1f6056be-67c8-40a9-86ef-1606961644eb` · printing: CMM #730 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactarantula
 
@@ -195,7 +238,12 @@
   > Whenever this creature becomes the target of a spell or ability an opponent controls, you may draw a card.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/158/cactarantula) · oracle_id `18a5fe34-0c97-486c-b09a-80535a99e982` · printing: OTJ #158 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2e0e27f9-dc2c-4366-b810-3e8d0bdff8c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-04-12* — Cactarantula still costs only {1} less to cast if you control multiple Deserts.
+  - *2024-04-12* — Cactarantula’s last ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell is countered.
+  - *2024-04-12* — If a spell or ability targets Cactarantula more than once, its last ability still triggers only once.
+  - *2024-04-12* — Once you announce that you’re casting Cactarantula, no player may take actions until the spell has been paid for. Notably, opponents can’t try to change whether you control a Desert.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/158/cactarantula) · oracle_id `18a5fe34-0c97-486c-b09a-80535a99e982` · printing: OTJ #158 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactuar
 
@@ -209,6 +257,7 @@
   > *A cactus with legs that loves to run hither and thither. Watch out for its thorns!*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/177/cactuar) · oracle_id `3e61d7c4-263f-4077-bdbc-d79020f2a479` · printing: FIN #177 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d5273db4-6214-41e4-825a-612fca8bbe03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactusfolk Sureshot
@@ -222,7 +271,9 @@
   > At the beginning of combat on your turn, other creatures you control with power 4 or greater gain trample and haste until end of turn.
 - **Keywords:** Reach, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/199/cactusfolk-sureshot) · oracle_id `05f15b7b-28bf-4b63-a4ca-b57712a1a66a` · printing: OTJ #199 (2024-04-19) · [rulings](https://api.scryfall.com/cards/318b8c5d-9fb0-488f-9b32-c2e29d1f1dbb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Cactusfolk Sureshot’s last ability affects only creatures you control at the time it resolves. Creatures you control with power 4 or greater you begin to control later in the turn won’t gain trample or haste.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/199/cactusfolk-sureshot) · oracle_id `05f15b7b-28bf-4b63-a4ca-b57712a1a66a` · printing: OTJ #199 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cactus Preserve
 
@@ -233,4 +284,12 @@
   > {T}: Add one mana of any type that a land you control could produce.
   > {3}: Until end of turn, this land becomes an X/X green Plant creature with reach, where X is the greatest mana value among your commanders. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/40/cactus-preserve) · oracle_id `8da29533-f389-4bc2-ab9b-b469f893a362` · printing: OTC #40 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ad9d426f-5870-42bb-a589-9218f7e35d62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Any change to a land’s type or abilities gained by a land can affect the types of mana a land can produce.
+  - *2024-04-12* — Cactus Preserve doesn’t care about any restrictions or riders your lands put on the mana they produce, such as that of Bucolic Ranch or the ability granted by Discreet Retreat. It just produces one mana of the appropriate type, with no restrictions or riders.
+  - *2024-04-12* — Cactus Preserve’s second ability checks the effects of all mana-producing abilities of lands you control, but it doesn’t check their costs or legality. For example, Spire of Industry says “{T}, Pay 1 life: Add one mana of any color. Activate only if you control an artifact.” If you control Spire of Industry and Cactus Preserve, you can tap Cactus Preserve for any color of mana. It doesn’t matter whether you control an artifact, whether you can pay 1 life, or whether Spire of Industry is untapped.
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2024-04-12* — If Cactus Preserve becomes a creature but you haven’t controlled it continuously since your most recent turn began, you won’t be able to activate its mana ability or attack with it that turn.
+  - *2024-04-12* — It doesn’t matter where your commander is (or commanders are, if you have more than one because of the partner ability or similar). The value of X will be calculated using your commander’s current characteristics. (Mana value typically doesn’t change, but your commander may become a copy of something else.)
+  - *2024-04-12* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/40/cactus-preserve) · oracle_id `8da29533-f389-4bc2-ab9b-b469f893a362` · printing: OTC #40 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

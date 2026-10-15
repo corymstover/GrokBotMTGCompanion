@@ -63,7 +63,9 @@
   > Return target tapped creature to its owner's hand. Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17775 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/63/select-for-inspection) · oracle_id `cfee4ba9-3cf2-4e8b-a4a7-21974828cd54` · printing: KLD #63 (2016-09-30) · [rulings](https://api.scryfall.com/cards/120f0fb0-4831-4759-b58c-05c4be90a4af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-09-20* — If the target creature becomes untapped or otherwise becomes an illegal target before Select for Inspection resolves, the spell doesn't resolve. The creature remains on the battlefield and you won't scry 1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/63/select-for-inspection) · oracle_id `cfee4ba9-3cf2-4e8b-a4a7-21974828cd54` · printing: KLD #63 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selective Adaptation
 
@@ -72,7 +74,9 @@
 - **Oracle text:**
   > Reveal the top seven cards of your library. Choose from among them a card with flying, a card with first strike, and so on for double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance. Put one of the chosen cards onto the battlefield, the other chosen cards into your hand, and the rest into your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17406 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/65/selective-adaptation) · oracle_id `b68df6d7-d69e-446f-9b1b-7a6ca56efbec` · printing: C20 #65 (2020-04-17) · [rulings](https://api.scryfall.com/cards/adbd8ffa-c7d3-4ef6-b3a7-8a967b50ce49/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If a card has more than one of the listed keywords, you pick which keyword you’re choosing it for. For example, if you choose a card with flying and first strike, you may choose it as the card with flying and choose another card with first strike, or you may choose it as the card with first strike and choose another card with flying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/65/selective-adaptation) · oracle_id `b68df6d7-d69e-446f-9b1b-7a6ca56efbec` · printing: C20 #65 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selective Memory
 
@@ -84,6 +88,7 @@
   > *"I of all people know that memory is not a safe place to hide valuables."*
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22037 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/37/selective-memory) · oracle_id `3cfb4977-5b6d-4220-9c54-70920b3087ed` · printing: WWK #37 (2010-02-05) · [rulings](https://api.scryfall.com/cards/555063cc-99ad-4014-b17b-c4c6b40d2e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selective Obliteration
@@ -96,7 +101,13 @@
   > *"I don't know what's worse—that my family was taken, or that I wasn't."*
   > *—Elsen, Sea Gate survivor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/35/selective-obliteration) · oracle_id `9f95027a-5f04-48b4-99a0-8913be3a520a` · printing: M3C #35 (2024-06-14) · [rulings](https://api.scryfall.com/cards/f0c21e73-8db1-4ede-bea5-1dcd4b3cef01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-06-07* — For example, say you control a colorless creature, a blue creature, a green creature, and a creature that's both blue and green. No matter what you choose, your colorless creature will not be exiled, and your creature that's both blue and green will be exiled. If you choose blue or green, the creature you control that is only that color will not be exiled. It doesn't matter what anyone else chooses.
+  - *2024-06-07* — Lands have no mana cost, so they are colorless unless an effect states otherwise. The colors of mana that a land can produce do not affect that land's color.
+  - *2024-06-07* — No matter what color any player chooses, all multicolored permanents will be exiled.
+  - *2024-06-07* — Players decide and announce in turn order, starting with the active player, which color they are choosing. Players later in the turn order will know which colors were chosen by players before them.
+  - *2024-06-07* — The colors chosen by players affect only whether or not permanents they control will be exiled. That choice does not affect whether particular permanents controlled by other players will be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/35/selective-obliteration) · oracle_id `9f95027a-5f04-48b4-99a0-8913be3a520a` · printing: M3C #35 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selective Snare
 
@@ -108,7 +119,9 @@
   > *"How thoughtful of the Legion to train its soldiers to fit our spell's specifications."*
   > *—Nefara, Dimir agent*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/53/selective-snare) · oracle_id `85442273-9596-47bf-9b40-6d48fd7183a6` · printing: GRN #53 (2018-10-05) · [rulings](https://api.scryfall.com/cards/2adfc0ac-08a9-487a-b01c-5de52fae0312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can’t choose multiple creature types, such as “Vampire Knight,” but choosing “Vampire” is enough to allow you to target a Vampire Knight. Card types such as artifact can’t be chosen; nor can supertypes such as legendary; nor can subtypes that aren’t creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/53/selective-snare) · oracle_id `85442273-9596-47bf-9b40-6d48fd7183a6` · printing: GRN #53 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selenia, Dark Angel
 
@@ -122,6 +135,7 @@
   > *"I am light. I am dark. I must give my life to serve; not even death can release me."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21599 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/210/selenia-dark-angel) · oracle_id `3db1ac09-e35a-4f50-97c4-f65dbc28daef` · printing: TPR #210 (2015-05-06) · [rulings](https://api.scryfall.com/cards/664b57e3-9476-4d6a-8301-5a2f96bcfbf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selenia, the Cursed Heart
@@ -135,6 +149,7 @@
   > When Selenia dies, create a legendary black Aura Curse enchantment token named Selenia's Curse attached to target opponent. The token has enchant player and "If enchanted player would lose life, they lose twice that much life instead."
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #20470 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/50/selenia-the-cursed-heart) · oracle_id `7126be80-cebc-4868-b39d-8b215410f575` · printing: MBC #50 (2026-10-19) · [rulings](https://api.scryfall.com/cards/2733a3cf-624a-430c-97c3-1c521c9a4d57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Charm
@@ -147,6 +162,7 @@
   > • Exile target creature with power 5 or greater.
   > • Create a 2/2 white Knight creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/192/selesnya-charm) · oracle_id `a1a49639-bcc4-4522-8862-c9fb13d40880` · printing: CMA #192 (2017-06-09) · [rulings](https://api.scryfall.com/cards/6e52d1a2-064f-4dcb-983d-322aec1776f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Cluestone
@@ -160,6 +176,7 @@
   > *"Break it if you must. The loss of one relic is nothing next to the value of enriching us all."*
   > *—Suniel the Woodwise*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15866 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/144/selesnya-cluestone) · oracle_id `792d4afd-b3de-4be2-b68a-03a5be7b9627` · printing: DGM #144 (2013-05-03) · [rulings](https://api.scryfall.com/cards/34ad5631-439a-43e2-b00a-04f78d66b8e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Eulogist
@@ -173,7 +190,16 @@
   > *"Let the example of the fallen inspire us all to greater courage."*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12168 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/35/selesnya-eulogist) · oracle_id `a0335224-9523-47d5-8944-486f2d4a6b8f` · printing: C19 #35 (2019-08-23) · [rulings](https://api.scryfall.com/cards/3e65d501-6a11-4278-949b-53a3f3502fcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-08-23* — If the target card is an illegal target by the time Selesnya Eulogist's ability tries to resolve, the ability doesn't resolve. You won't populate.
+  - *2019-08-23* — You can't activate Selesnya Eulogist's ability without a target creature card in a graveyard.
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/35/selesnya-eulogist) · oracle_id `a0335224-9523-47d5-8944-486f2d4a6b8f` · printing: C19 #35 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Evangel
 
@@ -185,7 +211,9 @@
 - **Flavor text** (RVR printing):
   > *"The clamor of the city drowns all voices. But together we can sing a harmony that will resonate from Ravnica's tallest spires to her deepest wells."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13803 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/220/selesnya-evangel) · oracle_id `4a2fea39-99d6-4766-9f2c-0a63925349cb` · printing: RVR #220 (2024-01-12) · [rulings](https://api.scryfall.com/cards/2d929bda-150c-484a-910e-eee19297c77e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — You can tap any untapped creature you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Selesnya Evangel's activated ability. You must have controlled Selesnya Evangel continuously since the beginning of your most recent turn, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/220/selesnya-evangel) · oracle_id `4a2fea39-99d6-4766-9f2c-0a63925349cb` · printing: RVR #220 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Guildgate
 
@@ -197,7 +225,10 @@
 - **Flavor text** (FDN printing):
   > *Enter and rejoice! The Conclave stands united, open to one and all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2096 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/694/selesnya-guildgate) · oracle_id `75b235d3-595a-4859-be45-9559d8445db5` · printing: FDN #694 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6718d4e7-768e-473f-8064-a68422e977f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Gate is not a basic land type.
+  - *2013-04-15* — The subtype Gate has no special rules significance, but other spells and abilities may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/694/selesnya-guildgate) · oracle_id `75b235d3-595a-4859-be45-9559d8445db5` · printing: FDN #694 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Guildmage
 
@@ -208,6 +239,7 @@
   > {3}{G}: Create a 1/1 green Saproling creature token.
   > {3}{W}: Creatures you control get +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17012 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/207/selesnya-guildmage) · oracle_id `8fbdca3a-7aa3-4b5a-98d7-9168856045ac` · printing: CLU #207 (2024-02-23) · [rulings](https://api.scryfall.com/cards/954b8e86-284a-4a6f-ac35-896afd414f8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Keyrune
@@ -220,7 +252,10 @@
 - **Flavor text** (RTR printing):
   > *A mark of unity when you want one; a fierce guardian when you need one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19471 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/233/selesnya-keyrune) · oracle_id `d4ecee6d-b23f-48e7-b7e5-347027225709` · printing: RTR #233 (2012-10-05) · [rulings](https://api.scryfall.com/cards/1645eafd-cd17-463a-9d7e-42f5f7b5196f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Activating the ability that turns the Keyrune into a creature while it's already a creature will override any effects that set its power and/or toughness to another number, but effects that modify power and/or toughness without directly setting them will still apply.
+  - *2013-04-15* — Until the ability that turns the Keyrune into a creature resolves, the Keyrune is colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/233/selesnya-keyrune) · oracle_id `d4ecee6d-b23f-48e7-b7e5-347027225709` · printing: RTR #233 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Locket
 
@@ -233,6 +268,7 @@
   > *"Think of the locket as a seed you bear, spreading life from Vitu-Ghazi across all of Ravnica."*
   > *—Heruj, Selesnya hierophant*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14894 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/240/selesnya-locket) · oracle_id `9ecd98d5-8d66-4cb0-bada-23dfa0faacc0` · printing: GRN #240 (2018-10-05) · [rulings](https://api.scryfall.com/cards/ea0c04b9-c7fc-4204-9af2-5d1987bdd97e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Sagittars
@@ -248,6 +284,7 @@
   > *—Otak, Tin Street shopkeep*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25278 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/229/selesnya-sagittars) · oracle_id `027484b8-0df5-48b6-b69b-bb4e39c5ba81` · printing: RAV #229 (2005-10-07) · [rulings](https://api.scryfall.com/cards/9a72e933-d977-4be9-985f-8b8cf1267f8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Sanctuary
@@ -259,7 +296,9 @@
   > When this land enters, return a land you control to its owner's hand.
   > {T}: Add {G}{W}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/246/selesnya-sanctuary) · oracle_id `00ef1c55-dea1-4564-bd57-66de86cba4df` · printing: CLU #246 (2024-02-23) · [rulings](https://api.scryfall.com/cards/fdc53c6a-8e28-4314-9bcf-b31b6c6f56d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If this land enters the battlefield and you control no other lands, its ability will force you to return it to your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/246/selesnya-sanctuary) · oracle_id `00ef1c55-dea1-4564-bd57-66de86cba4df` · printing: CLU #246 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Sentry
 
@@ -272,6 +311,7 @@
   > *Ravnicans still tell tales about the Battle of Sumala where four Selesnya sentries held off an entire clan of Gruul warriors.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30723 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/21/selesnya-sentry) · oracle_id `29e8d973-0233-446e-b587-1c7508352642` · printing: RTR #21 (2012-10-05) · [rulings](https://api.scryfall.com/cards/9c34c1f5-d509-4c66-ba41-c7958ef5ee44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selesnya Signet
@@ -283,6 +323,7 @@
 - **Flavor text** (PLST printing):
   > *The symbol of the Conclave is one of unity, with tree supporting sun and sun feeding tree.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/RVR-267/selesnya-signet) · oracle_id `1436dd81-496e-42a5-b210-fb5b9cdf073f` · printing: PLST #RVR-267 (2026-08-10) · [rulings](https://api.scryfall.com/cards/43b5b24f-316a-406d-b30a-0f6252f6590d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Assembler
@@ -295,7 +336,9 @@
 - **Flavor text** (A25 printing):
   > *It sees itself in all of its creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/a25/231/self-assembler) · oracle_id `8f36e058-e5fa-48f9-9996-09b77fc193b3` · printing: A25 #231 (2018-03-16) · [rulings](https://api.scryfall.com/cards/d86ba613-29bd-45d8-b5ed-f8fe8323fe75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — Self-Assembler's ability can find any creature card with the Assembly-Worker subtype, not only creature cards named Assembly-Worker. Notably, it can't find Mishra's Factory.
+- **Source flags:** [Scryfall](https://scryfall.com/card/a25/231/self-assembler) · oracle_id `8f36e058-e5fa-48f9-9996-09b77fc193b3` · printing: A25 #231 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfcraft Mechan
 
@@ -307,7 +350,9 @@
 - **Flavor text** (EOE printing):
   > *Sometimes the best parts are already in use.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20748 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/74/selfcraft-mechan) · oracle_id `4ba4cb4b-f421-4abd-8fcf-a01174447790` · printing: EOE #74 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5b2de056-5c27-44d6-871d-909411bd52dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-07-25* — You don’t choose a target for Selfcraft Mechan’s ability at the time it triggers. Rather, a second “reflexive” ability triggers when you sacrifice an artifact this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal. Then if the target creature is an illegal target as the reflexive trigger tries to resolve, it won’t resolve and you won’t draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/74/selfcraft-mechan) · oracle_id `4ba4cb4b-f421-4abd-8fcf-a01174447790` · printing: EOE #74 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Destruct
 
@@ -319,7 +364,10 @@
   > *"Hah! If I'd just left you in the lurch, I'd look like a jerk for all of history!"*
   > *—Gilgamesh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/157/self-destruct) · oracle_id `98bf6311-bc9b-4bf8-ac83-c041973b86d0` · printing: FIN #157 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7661003c-bf83-46bb-bcc0-8fbf5819ffa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-06-06* — If the target creature you control is an illegal target as Self-Destruct tries to resolve, the creature you control won't deal damage. If the creature you control is a legal target but the other target isn't, your creature will still deal damage to itself.
+  - *2025-06-06* — The value of X is calculated only once, as Self-Destruct resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/157/self-destruct) · oracle_id `98bf6311-bc9b-4bf8-ac83-c041973b86d0` · printing: FIN #157 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfie Preservation
 
@@ -330,7 +378,10 @@
 - **Flavor text** (UST printing):
   > *"Be sure to get the tree in the picture."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/119/selfie-preservation) · oracle_id `905fead2-3f6b-48e7-89f4-db157569079d` · printing: UST #119 (2017-12-08) · [rulings](https://api.scryfall.com/cards/88375ad9-50cb-4529-982b-82f9653c69f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Stumps don’t count. They’re like the absence of trees.
+  - *2018-01-19* — The tree doesn’t have to be alive, but it must be recognizably tree-shaped. Wooden structures that were once trees don’t count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/119/selfie-preservation) · oracle_id `905fead2-3f6b-48e7-89f4-db157569079d` · printing: UST #119 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Inflicted Wound
 
@@ -342,6 +393,7 @@
   > *"Worse than watching the cruelest deed is watching it done by your own hand."*
   > *—Baihir, Dromoka mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30607 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/117/self-inflicted-wound) · oracle_id `28956db0-985c-402d-abae-1075c68b97e7` · printing: DTK #117 (2015-03-27) · [rulings](https://api.scryfall.com/cards/f69b1a5d-fb17-43f0-bf29-4ade853e0e6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Cathar
@@ -354,7 +406,10 @@
 - **Flavor text** (M15 printing):
   > *"If I fail to offer myself, we will surely be overrun. My fate would be the same."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26990 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/31/selfless-cathar) · oracle_id `a6e4c8de-4c35-4ea4-b865-596ae8cef075` · printing: M15 #31 (2014-07-18) · [rulings](https://api.scryfall.com/cards/3366f6c3-3899-4585-b6d2-24406703cf34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-09-22* — Only creatures you control when Selfless Cathar's ability resolves will be affected. Creatures that enter or that you gain control of later in the turn will not.
+  - *2011-09-22* — You can activate Selfless Cathar's ability even if you control no other creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/31/selfless-cathar) · oracle_id `a6e4c8de-4c35-4ea4-b865-596ae8cef075` · printing: M15 #31 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Exorcist
 
@@ -364,7 +419,9 @@
 - **Oracle text:**
   > {T}: Exile target creature card from a graveyard. That card deals damage equal to its power to this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32024 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/21/selfless-exorcist) · oracle_id `78e875b1-e621-4bf0-ad81-24ed9e2b43f8` · printing: JUD #21 (2002-05-27) · [rulings](https://api.scryfall.com/cards/c9b1c300-aec3-4512-9902-309615e86c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — The reminder text printed on Selfless Exorcist is no longer correct. Abilities that define a creature’s power (and toughness) apply in every zone. The value of * is defined by such an ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/21/selfless-exorcist) · oracle_id `78e875b1-e621-4bf0-ad81-24ed9e2b43f8` · printing: JUD #21 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Glyphweaver // Deadly Vanity
 
@@ -379,7 +436,13 @@
   - *Flavor text (STX printing):*
   > *She cast a spell to purge all weakness. When the ink cleared, she stood alone.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13128 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/157/selfless-glyphweaver-deadly-vanity) · oracle_id `4507d35a-f7f3-4abe-b06b-90c5331b533a` · printing: STX #157 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8982ff88-8595-4363-8cde-6e87fb57a2d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — As Deadly Vanity resolves, you choose which creature or planeswalker you are saving. Once the choice is made, there is no window for players to respond before the rest of the creatures and planeswalkers are destroyed.
+  - *2021-04-16* — Because Deadly Vanity does not target the permanent you choose to save, you may choose creatures with hexproof or protection from black.
+  - *2021-04-16* — You may activate Selfless Glyphweaver’s ability only if Selfless Glyphweaver is on the battlefield. Only creatures you control as that ability resolves will gain indestructible. Creatures that come under your control later in the turn will not.
+  - *2021-04-16* — You may choose any creature or planeswalker, even one controlled by an opponent.
+  - *2021-04-16* — You must choose a creature or planeswalker if there is one on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/157/selfless-glyphweaver-deadly-vanity) · oracle_id `4507d35a-f7f3-4abe-b06b-90c5331b533a` · printing: STX #157 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Police Captain
 
@@ -393,6 +456,7 @@
   > *"Peter always disappears when Spider-Man is around. How very odd."*
   > *—Captain George Stacy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15441 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/774/selfless-police-captain) · oracle_id `ece77a64-8d99-430e-8407-bdb321828d63` · printing: MSC #774 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1533363c-d95e-46d9-8dce-37f66192d361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Safewright
@@ -406,7 +470,13 @@
   > When this creature enters, choose a creature type. Other permanents you control of that type gain hexproof and indestructible until end of turn.
 - **Keywords:** Flash, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3894 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/193/selfless-safewright) · oracle_id `ce19b337-9266-471d-bec3-49eb7f0e62ac` · printing: ECL #193 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ac95b1c3-9eb2-4f80-bb32-72b36817d622/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2025-11-17* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+  - *2025-11-17* — You choose the creature type as Selfless Safewright's last ability resolves. Once the ability starts to resolve, players can't respond to the choice or take any actions until the ability finishes resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/193/selfless-safewright) · oracle_id `ce19b337-9266-471d-bec3-49eb7f0e62ac` · printing: ECL #193 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Samurai
 
@@ -417,6 +487,7 @@
   > Whenever a Samurai or Warrior you control attacks alone, it gains lifelink until end of turn.
   > Sacrifice this creature: Another target creature you control gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7282 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/35/selfless-samurai) · oracle_id `20c9fb06-3941-456f-ba02-4fbde9deb1e2` · printing: NEO #35 (2022-02-18) · [rulings](https://api.scryfall.com/cards/76c27ec5-5a9b-4080-9a53-00630335a915/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Savior
@@ -429,6 +500,7 @@
 - **Flavor text** (M21 printing):
   > *She raised him from an orphaned pup and gave him a life of love. With his last act, he thanked her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/36/selfless-savior) · oracle_id `49dc3434-2501-4788-84f2-93e55730f67c` · printing: M21 #36 (2020-07-03) · [rulings](https://api.scryfall.com/cards/6911759c-7177-402c-a95a-f9f46efaf521/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Spirit
@@ -443,7 +515,9 @@
   > *"There is always more to give."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #594 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9cd16dac-3bf9-4a71-a906-0cfbf98cdca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — The set of creatures affected by Selfless Spirit's last ability is determined as the ability resolves. Creatures you begin to control later in the turn won't gain indestructible.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/167/selfless-spirit) · oracle_id `71d785a9-ddc8-472e-a778-a551b444a4bd` · printing: SOC #167 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selfless Squire
 
@@ -456,7 +530,10 @@
   > Whenever damage that would be dealt to you is prevented, put that many +1/+1 counters on this creature.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/82/selfless-squire) · oracle_id `7d079c78-b2a9-444f-ab54-c61c041baa6d` · printing: MKC #82 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8b8f4489-3d07-4e57-9b94-afa52fa984f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-11-08* — Selfless Squire's first triggered ability prevents all damage that would be dealt to you this turn after the triggered ability resolves, even if Selfless Squire leaves the battlefield.
+  - *2016-11-08* — Selfless Squire's second triggered ability doesn't trigger only when damage is prevented by its first triggered ability's effect. Any effect that uses the word "prevent" will cause it to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/82/selfless-squire) · oracle_id `7d079c78-b2a9-444f-ab54-c61c041baa6d` · printing: MKC #82 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Self-Reflection
 
@@ -469,7 +546,19 @@
   > *Some Echoes remember every moment of their past lives and spend their existence contemplating past choices.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10542 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/163/self-reflection) · oracle_id `5c68853e-4fb8-465e-b262-e6dbaf972533` · printing: FDN #163 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e1e6abc9-25b2-4d51-b519-2525079eab51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — Any "enters" abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the target creature will also work.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-11-08* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2024-11-08* — If the copied creature is copying something else, then the token enters as whatever that creature copied.
+  - *2024-11-08* — The token copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/163/self-reflection) · oracle_id `5c68853e-4fb8-465e-b262-e6dbaf972533` · printing: FDN #163 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selhoff Entomber
 
@@ -481,6 +570,7 @@
 - **Flavor text** (VOW printing):
   > *It knows one fundamental truth: bodies belong in graves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/76/selhoff-entomber) · oracle_id `3b97794a-3aaa-45a6-9cad-f1b768615b6d` · printing: VOW #76 (2021-11-19) · [rulings](https://api.scryfall.com/cards/f8805db2-5a26-43cf-9b74-f882c283e5e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selhoff Occultist
@@ -494,6 +584,7 @@
   > *"The mist whispers to those who know it to be more than a mundane fog."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21801 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/174/selhoff-occultist) · oracle_id `d72031e1-c8cf-4e57-b15b-6a5eaacff1e2` · printing: JMP #174 (2020-07-17) · [rulings](https://api.scryfall.com/cards/94975b02-f678-4442-9d1a-cf586aee8789/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selkie Hedge-Mage
@@ -505,7 +596,12 @@
   > When this creature enters, if you control two or more Forests, you may gain 3 life.
   > When this creature enters, if you control two or more Islands, you may return target tapped creature to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27954 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/158/selkie-hedge-mage) · oracle_id `1f1c369a-3209-405b-9880-0e10b86e5698` · printing: EVE #158 (2008-07-25) · [rulings](https://api.scryfall.com/cards/5f66b0b4-44fc-444d-9181-0b717c9642fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-08-01* — Both abilities are optional; you choose whether to use them when they resolve. If an ability has a target, you must choose a target even if you don't plan to use the ability.
+  - *2008-08-01* — Both abilities trigger at the same time. You can put them on the stack in any order.
+  - *2008-08-01* — Each of the triggered abilities has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless you control two or more lands of the appropriate land type when the Hedge-Mage enters, and (2) the ability will do nothing if you don't control two or more lands of the appropriate land type by the time it resolves.
+  - *2008-08-01* — Each of the triggered abilities look at your lands individually. This means that if you only control two dual-lands of the appropriate types, both of the abilities will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/158/selkie-hedge-mage) · oracle_id `1f1c369a-3209-405b-9880-0e10b86e5698` · printing: EVE #158 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seller of Songbirds
 
@@ -518,6 +614,7 @@
   > *"Lady Wren is the one merchant in Keyhole Downs who isn't running a scam."*
   > *—Mirela, Azorius hussar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23625 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/72/seller-of-songbirds) · oracle_id `87e4c6ff-f83f-412b-9d23-aac7a57ef6db` · printing: CLU #72 (2024-02-23) · [rulings](https://api.scryfall.com/cards/df84d9ce-9ff0-438a-96e1-2aadd60dcaba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sell-Sword Brute
@@ -530,6 +627,7 @@
 - **Flavor text** (RAV printing):
   > *"Killing is easy. Just wrap your hand around the haft, and wrap your enemy around the blade."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31767 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/142/sell-sword-brute) · oracle_id `7549656b-359f-467e-90ab-6b21d93c26b9` · printing: RAV #142 (2005-10-07) · [rulings](https://api.scryfall.com/cards/db513835-af5a-4ff3-8cf8-31936732a4db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seluma, Light of Aysen
@@ -543,6 +641,7 @@
   > Whenever Seluma deals combat damage to a player, return target Angel creature card from your graveyard to the battlefield.
 - **Keywords:** Flying, Rulebreaker
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22072 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/4/seluma-light-of-aysen) · oracle_id `dbbf6379-01b4-400d-a277-5887e6be1d0f` · printing: MBC #4 (2026-10-19) · [rulings](https://api.scryfall.com/cards/1eb501cc-0f83-40ca-8987-424bbee5f584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Eager Trailblazer
@@ -556,7 +655,11 @@
   > {T}: Choose a color. Add one mana of that color for each different power among creatures you control.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10444 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/231/selvala-eager-trailblazer) · oracle_id `95b20721-1af9-4f3f-a39b-7cd1d4ce0b20` · printing: OTJ #231 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7d2e167f-7cb2-4f15-a1db-7ee56b7ba523/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-04-12* — Selvala’s last ability doesn’t care what color or colors the creatures you control are. It cares only about the power of those creatures.
+  - *2024-04-12* — Selvala’s last ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+  - *2024-04-12* — Selvala’s last ability looks at the creatures you control as it resolves to determine how much mana of the chosen color to add. For example, if you control Selvala (a 4/5 creature), a 1/1 creature, and a 2/1 creature, there are three different powers among creatures you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/231/selvala-eager-trailblazer) · oracle_id `95b20721-1af9-4f3f-a39b-7cd1d4ce0b20` · printing: OTJ #231 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Explorer Returned
 
@@ -569,7 +672,10 @@
   > *"The Lowlands refuse to suffer at the whims of the High City."*
 - **Keywords:** Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2110 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/218/selvala-explorer-returned) · oracle_id `b628a39b-c923-473d-900a-1617f47ecb76` · printing: MKC #218 (2024-02-09) · [rulings](https://api.scryfall.com/cards/28c1b84a-a21b-4df1-9fc9-5b387fb56810/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — Except in some very rare cases, the card each player draws will be the card revealed from the top of their library.
+  - *2026-08-05* *(Scryfall note)* — Selvala’s ability is not a mana ability. Players can respond to it, and it can’t be activated in the middle of paying for a cost. A recent update to rule 605.1a has made any abilities that move cards to or from libraries no longer mana abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/218/selvala-explorer-returned) · oracle_id `b628a39b-c923-473d-900a-1617f47ecb76` · printing: MKC #218 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala, Heart of the Wilds
 
@@ -580,7 +686,11 @@
   > Whenever another creature enters, its controller may draw a card if its power is greater than each other creature's power.
   > {G}, {T}: Add X mana in any combination of colors, where X is the greatest power among creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #409 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds) · oracle_id `1d725121-e50c-42f0-9128-56802f07c89e` · printing: ECC #116 (2026-01-23) · [rulings](https://api.scryfall.com/cards/812856be-cf51-42de-96d2-4ac91e71d442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-08-23* — If the new creature isn't on the battlefield as the first ability resolves, use its power when it left the battlefield to determine whether its controller may draw a card. Note that effects that reduced its power before it left the battlefield will apply.
+  - *2016-08-23* — Selvala's last ability is a mana ability. It doesn't use the stack and can't be responded to. If the greatest power among creatures you control is 0 or less at that time, no mana is added.
+  - *2016-08-23* — The new creature's power is compared to the power of each other creature on the battlefield as the first ability resolves. If another creature has the same or higher power than the new creature's power, no one may draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/116/selvala-heart-of-the-wilds) · oracle_id `1d725121-e50c-42f0-9128-56802f07c89e` · printing: ECC #116 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala's Charge
 
@@ -592,7 +702,9 @@
   > *Selvala's arrival never goes unnoticed.*
 - **Keywords:** Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23328 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/39/selvalas-charge) · oracle_id `7e6478c1-e5b3-4641-baa7-7cdeab042569` · printing: CNS #39 (2014-06-06) · [rulings](https://api.scryfall.com/cards/426b63f9-5788-45d2-b934-1579320bc775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-05-29* — Except in some very rare cases, the card each player draws will be the card revealed from the top of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/39/selvalas-charge) · oracle_id `7e6478c1-e5b3-4641-baa7-7cdeab042569` · printing: CNS #39 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala's Enforcer
 
@@ -603,7 +715,10 @@
   > Parley — When this creature enters, each player reveals the top card of their library. For each nonland card revealed this way, put a +1/+1 counter on this creature. Then each player draws a card.
 - **Keywords:** Parley
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25139 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/40/selvalas-enforcer) · oracle_id `8ee2dd43-cda2-4cb7-9e4b-1946d5b7467e` · printing: CNS #40 (2014-06-06) · [rulings](https://api.scryfall.com/cards/000ba9c3-cd88-47c1-966a-00466569a9bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-05-29* — Except in some very rare cases, the card each player draws will be the card revealed from the top of their library.
+  - *2014-05-29* — If Selvala’s Enforcer leaves the battlefield before its ability resolves, the top card of each library will still be revealed and drawn, although no +1/+1 counters will be placed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/40/selvalas-enforcer) · oracle_id `8ee2dd43-cda2-4cb7-9e4b-1946d5b7467e` · printing: CNS #40 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Selvala's Stampede
 
@@ -613,4 +728,14 @@
   > Council's dilemma — Starting with you, each player votes for wild or free. Reveal cards from the top of your library until you reveal a creature card for each wild vote. Put those creature cards onto the battlefield, then shuffle the rest into your library. You may put a permanent card from your hand onto the battlefield for each free vote.
 - **Keywords:** Council's dilemma
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4023 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/269/selvalas-stampede) · oracle_id `9d2aea05-f55c-4355-950f-bfdc4e985e80` · printing: TDC #269 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b84e46c2-f3ea-49ff-8f8b-58aa6a1175a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-08-23* — Any abilities that trigger because of any of those cards entering the battlefield are put onto the stack at the same time, after Selvala’s Stampede finishes resolving. You choose the order that abilities you control go on the stack, followed by each other player in turn order choosing the order for abilities they control. The last ability to be put on the stack will resolve first.
+  - *2016-08-23* — Because the votes are made in turn order, each player will know the votes of players who voted beforehand.
+  - *2016-08-23* — If a creature with an enters-the-battlefield council’s dilemma ability leaves the battlefield before that ability resolves, players can still vote for any option that would put +1/+1 counters on that creature, even though—or perhaps especially because—those votes won’t generate an effect.
+  - *2016-08-23* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2016-08-23* — Players can’t do anything between voting and finishing the resolution of the spell or ability that included the vote.
+  - *2016-08-23* — The creature cards revealed for the wild votes all enter the battlefield at the same time, followed by the permanent cards put onto the battlefield from your hand for the free votes.
+  - *2016-08-23* — The effects of each council’s dilemma ability happen in the stated order. First the vote occurs, then the first effect, and finally the second effect.
+  - *2016-08-23* — Unlike the will of the council cards from the original Conspiracy set, where a majority of votes determined what happened, each vote made for a council’s dilemma card adds to the ultimate effect.
+  - *2016-08-23* — You must vote for one of the available options. You can’t abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/269/selvalas-stampede) · oracle_id `9d2aea05-f55c-4355-950f-bfdc4e985e80` · printing: TDC #269 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

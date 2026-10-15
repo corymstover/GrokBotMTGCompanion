@@ -127,6 +127,7 @@
 - **Flavor text** (FDN printing):
   > *Though small, goblins can hold their own in a fight. Foolhardy confidence goes a long way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25390 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/548/swab-goblin) · oracle_id `343ecf2f-0bbc-4840-8fb3-f5f61b26e76f` · printing: FDN #548 (2024-11-15) · [rulings](https://api.scryfall.com/cards/8db11970-74c2-463d-88bb-9f88aa079eaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swaggering Corsair
@@ -140,7 +141,10 @@
   > *"I'm about to make you famous. From the golden city to High and Dry, they'll talk about how fast you died!"*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/119/swaggering-corsair) · oracle_id `48fa47c0-544e-4374-a0a6-ef8f65cdf0dd` · printing: RIX #119 (2018-01-19) · [rulings](https://api.scryfall.com/cards/22da9f6a-9598-4cfe-b465-719266b65dee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/119/swaggering-corsair) · oracle_id `48fa47c0-544e-4374-a0a6-ef8f65cdf0dd` · printing: RIX #119 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swallowed by Leviathan
 
@@ -150,6 +154,7 @@
   > Choose target spell. Surveil 2, then counter the chosen spell unless its controller pays {1} for each card in your graveyard. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/79/swallowed-by-leviathan) · oracle_id `1a8185ed-636b-49ad-bf24-2ab02c7fb91e` · printing: FIN #79 (2025-06-13) · [rulings](https://api.scryfall.com/cards/2270642d-fe2a-4265-aff0-a24a43ebe0a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swallowing Plague
@@ -162,6 +167,7 @@
   > *"We are recalling all forces from the Takenuma Swamp. We lose men daily to kami attacks, and it seems our defeats only encourage them further."*
   > *—General Takeno, letter to Lord Konda*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19670 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/146/swallowing-plague) · oracle_id `91cac048-90ca-41bc-9177-56c78453c4a2` · printing: CHK #146 (2004-10-01) · [rulings](https://api.scryfall.com/cards/ac549d51-3862-4eb0-9951-f13a8ba28822/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swallow the Hero Whole
@@ -171,6 +177,7 @@
 - **Oracle text:**
   > Each player exiles a creature they control. Until the Hydra's next turn, when a Head leaves the battlefield, return the exiled cards to the battlefield under their owners' control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tfth/13/swallow-the-hero-whole) · oracle_id `93265f4d-2bd5-414f-8f45-0447cf54a2f6` · printing: TFTH #13 (2013-10-19) · [rulings](https://api.scryfall.com/cards/9b1871c1-59e5-4c2f-8e05-944d6cbabf99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swallow Whole
@@ -184,7 +191,13 @@
   > *"World's better with one fewer poacher in it."*
   > *—Winota, heartbonder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/35/swallow-whole) · oracle_id `54d4c632-1e7c-42f1-938c-9b4bd9b9a9b9` · printing: IKO #35 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c3b9140b-848f-4886-8c28-eccd3829a607/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If an effect copies Swallow Whole, the copy will put a +1/+1 counter on the creature tapped to pay the additional cost of the original spell.
+  - *2020-04-17* — If the target creature is an illegal target by the time Swallow Whole tries to resolve, the spell won’t resolve. You won’t put a +1/+1 counter on any creature.
+  - *2020-04-17* — The target tapped creature will be exiled even if the creature you tapped leaves the battlefield or becomes untapped before Swallow Whole resolves.
+  - *2020-04-17* — You can tap any untapped creature you control, including a creature you haven’t controlled continuously since the beginning of your most recent turn, to pay the additional cost.
+  - *2020-04-17* — You must tap exactly one creature to cast Swallow Whole; you can’t cast it without tapping a creature, and you can’t tap additional creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/35/swallow-whole) · oracle_id `54d4c632-1e7c-42f1-938c-9b4bd9b9a9b9` · printing: IKO #35 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swamp
 
@@ -196,6 +209,7 @@
   > *"Svartalfheim is the realm of the Dark Elves, so keep your wits about you, heroes. They battle with foul magic and poisoned blades, and they care not if they win. They care only that we lose."*
   > *—Sif*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/296/swamp) · oracle_id `56719f6a-1a6c-4c0a-8d21-18f7d7350b68` · printing: MDD #296 (2027-04-09) · [rulings](https://api.scryfall.com/cards/b233b117-9369-45c1-80c5-cc857386b6be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swampbenders
@@ -207,7 +221,10 @@
   > Swampbenders's power and toughness are each equal to the number of Swamps on the battlefield.
   > Lands you control are Swamps in addition to their other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/65/swampbenders) · oracle_id `feb00c6d-ff43-49bc-84d5-57e2d4651258` · printing: TLE #65 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b0a8ee49-7bb0-48e2-bc43-a2cfa0a7196c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-10-02* — Land cards not on the battlefield aren't affected by Swampbenders's second ability.
+  - *2025-10-02* — Swampbenders's second ability causes each land on the battlefield you control to have the land type Swamp in addition to its other types. Any land that's a Swamp has the ability "{T}: Add {B}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary, basic, or snow.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/65/swampbenders) · oracle_id `feb00c6d-ff43-49bc-84d5-57e2d4651258` · printing: TLE #65 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swamp Mosquito
 
@@ -219,7 +236,10 @@
   > Whenever this creature attacks and isn't blocked, defending player gets a poison counter. (A player with ten or more poison counters loses the game.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19482 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/49/swamp-mosquito) · oracle_id `4bb4844c-2678-45c7-8f5e-9cf185fd484b` · printing: TSB #49 (2006-10-06) · [rulings](https://api.scryfall.com/cards/450800c5-28e0-4eeb-9164-db9fdebc595f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Triggers immediately after blocking is declared if at that time no blockers are assigned to it.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/49/swamp-mosquito) · oracle_id `4bb4844c-2678-45c7-8f5e-9cf185fd484b` · printing: TSB #49 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swampsnare Trap
 
@@ -234,7 +254,9 @@
   > *—Due, Foggy Swamp Tribe member*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17069 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/120/swampsnare-trap) · oracle_id `fc532d1d-6cf5-4b59-afb3-325d0bc0db77` · printing: TLA #120 (2025-11-21) · [rulings](https://api.scryfall.com/cards/6348b6bf-08a7-45f0-8b2d-2827ab89f21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Swampsnare Trap). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/120/swampsnare-trap) · oracle_id `fc532d1d-6cf5-4b59-afb3-325d0bc0db77` · printing: TLA #120 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swans of Bryn Argoll
 
@@ -248,7 +270,13 @@
   > *Any being that harms them quickly learns its lesson.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/199/swans-of-bryn-argoll) · oracle_id `b187aeeb-5cf5-4b73-a3ef-f39188d2ba33` · printing: MM2 #199 (2015-05-22) · [rulings](https://api.scryfall.com/cards/a8903e1d-e255-4eda-bb8e-c6229a88c8a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — If a creature with wither would deal damage to Swans of Bryn Argoll, that damage is treated just like any other damage. It’s prevented, and the creature’s controller draws cards. Swans of Bryn Argoll doesn’t get any -1/-1 counters.
+  - *2008-05-01* — If a spell is causing damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Burn Trail says “Burn Trail deals 3 damage to any target.”
+  - *2008-05-01* — If an ability is causing damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Knollspine Invocation’s ability says “Knollspine Invocation deals X damage to any target.”
+  - *2008-05-01* — If the source of the damage is a permanent, Swans of Bryn Argoll checks who that permanent’s controller is at the time that damage is prevented. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, its controller is obvious. If the source of the damage is a card from some other zone (such as a cycled Gempalm Incinerator), Swans of Bryn Argoll checks its owner rather than its controller.
+  - *2008-05-01* — The source of combat damage is the creature that deals it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/199/swans-of-bryn-argoll) · oracle_id `b187aeeb-5cf5-4b73-a3ef-f39188d2ba33` · printing: MM2 #199 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swan Song
 
@@ -259,7 +287,9 @@
 - **Flavor text** (EOC printing):
   > *In the end, the dying Illvoi clung to neither secrecy nor protocol. She cloudsculpted wings that she might live on in a spark of creativity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #66 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · [rulings](https://api.scryfall.com/cards/83d0b761-d694-4232-9f40-5bd8c82a05f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Swan Song can target a spell that can't be countered. That spell won't be countered when Swan Song resolves, but its controller will get a Bird token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/46/swan-song) · oracle_id `8ddfc283-c9b4-41a5-af88-cf0068e986cc` · printing: EOC #46 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm, Being of Bees
 
@@ -275,7 +305,10 @@
   > *—Swarm, Fritz von Meyer*
 - **Keywords:** Flying, Mayhem, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12476 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/799/swarm-being-of-bees) · oracle_id `10c8cf3b-2530-49e7-b38e-95cdaae8a6e7` · printing: MSC #799 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8a89d8ca-d084-415a-9247-90902f8bb541/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
+  - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/799/swarm-being-of-bees) · oracle_id `10c8cf3b-2530-49e7-b38e-95cdaae8a6e7` · printing: MSC #799 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarmborn Giant
 
@@ -288,7 +321,11 @@
   > As long as this creature is monstrous, it has reach.
 - **Keywords:** Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29469 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/144/swarmborn-giant) · oracle_id `9d09697f-8c5c-4bf9-811f-2f847ee374f0` · printing: JOU #144 (2014-05-02) · [rulings](https://api.scryfall.com/cards/84a3ddf9-b682-4691-bb1d-abd1d3486f59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — An ability that triggers when a creature becomes monstrous won't trigger if that creature isn't on the battlefield when its monstrosity ability resolves.
+  - *2014-04-26* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
+  - *2014-04-26* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/144/swarmborn-giant) · oracle_id `9d09697f-8c5c-4bf9-811f-2f847ee374f0` · printing: JOU #144 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Culler
 
@@ -302,6 +339,7 @@
   > *The swarm lacked a natural predator, so the Eumidians became one.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/119/swarm-culler) · oracle_id `a6c28bde-10d9-471b-acd0-32a1c6195805` · printing: EOE #119 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2a8f583c-88b6-4797-b93e-3086845fc326/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Guildmage
@@ -313,6 +351,7 @@
   > {4}{B}, {T}: Creatures you control get +1/+0 and gain menace until end of turn. (They can't be blocked except by two or more creatures.)
   > {1}{G}, {T}: You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22307 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/201/swarm-guildmage) · oracle_id `14b8b35e-57b6-4577-97a8-9d9c513db0b8` · printing: GRN #201 (2018-10-05) · [rulings](https://api.scryfall.com/cards/7599adc7-72b2-4079-ac0a-1a821f9de925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarming Goblins
@@ -326,6 +365,7 @@
   > 10—19 | Create two of those tokens.
   > 20 | Create three of those tokens.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9548 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/162/swarming-goblins) · oracle_id `6a038dec-2d9c-4422-a0f3-94bf70e55217` · printing: AFR #162 (2021-07-23) · [rulings](https://api.scryfall.com/cards/623c1d1b-69a4-4bc4-b388-17a7600fd960/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarming of Moria
@@ -337,7 +377,15 @@
   > Amass Orcs 2. (Put two +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)
 - **Keywords:** Amass, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/150/swarming-of-moria) · oracle_id `c96402dc-1509-4136-bbfd-c86a85e3ee6f` · printing: LTR #150 (2023-06-23) · [rulings](https://api.scryfall.com/cards/0a1bd073-4351-4c56-9b07-4430d0d83084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/150/swarming-of-moria) · oracle_id `c96402dc-1509-4136-bbfd-c86a85e3ee6f` · printing: LTR #150 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Intelligence
 
@@ -348,7 +396,16 @@
 - **Flavor text** (C21 printing):
   > *The Locust God's children were numberless, relentlessly eating away every trace of the city's protection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/130/swarm-intelligence) · oracle_id `4a7a5ea9-b633-459f-bcd4-40de53afce0e` · printing: C21 #130 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2c573d12-4c69-4a54-b1b9-236c003ba98a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-07-14* — If the spell has damage divided as it was cast (like Chandra’s Pyrohelix), the division can’t be changed (although the targets receiving that damage still can).
+  - *2017-07-14* — If the spell that’s copied has an X whose value was determined as it was cast (like Torment of Hailfire does), the copy will have the same value of X.
+  - *2017-07-14* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode. A different mode can’t be chosen.
+  - *2017-07-14* — Swarm Intelligence can copy any instant or sorcery spell, not just one with targets.
+  - *2017-07-14* — Swarm Intelligence can copy the spell even if it’s countered before Swarm Intelligence’s triggered ability resolves.
+  - *2017-07-14* — The controller of a copy can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2017-07-14* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell (such as Swarm Intelligence’s own ability) won’t trigger.
+  - *2017-07-14* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/130/swarm-intelligence) · oracle_id `4a7a5ea9-b633-459f-bcd4-40de53afce0e` · printing: C21 #130 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm of Bloodflies
 
@@ -363,6 +420,7 @@
   > *In the Gudul delta, bloodfly bites are indistinguishable from spear wounds.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13935 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/282/swarm-of-bloodflies) · oracle_id `767e4aa9-527f-425f-bffb-6d842e1fbb74` · printing: JMP #282 (2020-07-17) · [rulings](https://api.scryfall.com/cards/d9fb56fc-47a4-44ba-8b55-4d0ceb8ce62f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm of Locus
@@ -375,7 +433,9 @@
   > Whenever Swarm of Locus attacks, it gets +1/+0 until end of turn for each Locus you control.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/48/swarm-of-locus) · oracle_id `fc589ca1-a523-41f5-9de8-07938c6c24dd` · printing: CMB2 #48 (2021-08-20) · [rulings](https://api.scryfall.com/cards/c2536a4f-9e73-482b-8c1b-71974ef8950c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-11-12* — It’s unlikely the Swarm of Locus pun will survive creative review. They’ll assign a new creature type, as Locus can’t be both a land type and a creature type. For now, the triggered ability of Swarm of Locus counts both the temporary-creature type Locus and the land type Locus. Other effects that refer to one won’t affect the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/48/swarm-of-locus) · oracle_id `fc589ca1-a523-41f5-9de8-07938c6c24dd` · printing: CMB2 #48 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm of Rats
 
@@ -388,6 +448,7 @@
   > *"Rats, rats, rats! Hundreds, thousands, millions of them, and every one a life."*
   > *—Bram Stoker, \*Dracula\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9342 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/166/swarm-of-rats) · oracle_id `7fe21ade-01f1-45ff-9b70-bc6302c3d284` · printing: 9ED #166 (2005-07-29) · [rulings](https://api.scryfall.com/cards/ba1a92e2-6a8f-45fe-84cc-08fde6210077/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Shambler
@@ -400,7 +461,12 @@
   > Whenever a creature you control with a +1/+1 counter on it becomes the target of a spell an opponent controls, create a 1/1 green Insect creature token.
   > {1}, {T}: Put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15360 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/207/swarm-shambler) · oracle_id `f46c72b8-e2e8-42e6-a2e7-ffa5810a9bf3` · printing: ZNR #207 (2020-09-25) · [rulings](https://api.scryfall.com/cards/7a7e4f99-ece4-473e-b712-40e4c53558e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-09-25* — An ability that triggers when a creature becomes the target of a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-09-25* — If a creature without a +1/+1 counter on it becomes the target of a spell an opponent controls, putting a +1/+1 counter on it after that won’t cause Swarm Shambler’s middle ability to trigger.
+  - *2020-09-25* — If a spell targets a creature you control with a +1/+1 counter on it more than once, Swarm Shambler’s ability triggers only once.
+  - *2020-09-25* — You create just one Insect token, no matter how many +1/+1 counters the target creature has on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/207/swarm-shambler) · oracle_id `f46c72b8-e2e8-42e6-a2e7-ffa5810a9bf3` · printing: ZNR #207 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarm Surge
 
@@ -413,7 +479,14 @@
   > *The Eldrazi rampaged across Zendikar in a tide of chittering, heaving flesh.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24998 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/100/swarm-surge) · oracle_id `77b98632-e103-44fa-a940-2c3b2897b60f` · printing: BFZ #100 (2015-10-02) · [rulings](https://api.scryfall.com/cards/837287cc-f3a4-4ba7-8518-9b1e4a53acda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-08-25* — A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — A colorless creature given first strike by Swarm Surge won’t lose first strike if it stops being colorless later in the turn.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/100/swarm-surge) · oracle_id `77b98632-e103-44fa-a940-2c3b2897b60f` · printing: BFZ #100 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarmyard
 
@@ -426,6 +499,7 @@
   > *Where scavengers nest in hollowed-out rib cages and chittering crawlers peer from empty eye sockets, few dare to trespass.*
 - **Keywords:** Heal, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1040 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/284/swarmyard) · oracle_id `4b508087-99da-4eb1-8b12-29162f2ec85d` · printing: TSR #284 (2021-03-19) · [rulings](https://api.scryfall.com/cards/b89329f2-d386-40a7-9098-6d80beeb8843/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swarmyard Massacre
@@ -438,7 +512,9 @@
   > *"Life and death are a cycle, and it is I who keeps it spinning."*
   > *—Decai, squirrelfolk rotmaster*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2229 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/20/swarmyard-massacre) · oracle_id `50e7ae38-2a66-4e32-bfb3-fefbae0caa61` · printing: BLC #20 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8486f472-afad-4fdd-a57a-d20d8871b543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-26* — If you control a creature that has more than one of the listed types (for example, Daggerfang Duo, which is a Rat Squirrel), it's only counted once for Swarmyard Massacre.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/20/swarmyard-massacre) · oracle_id `50e7ae38-2a66-4e32-bfb3-fefbae0caa61` · printing: BLC #20 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swashbuckler Extraordinaire
 
@@ -450,6 +526,7 @@
   > Whenever you attack, you may sacrifice one or more Treasures. When you do, up to that many target creatures gain double strike until end of turn.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/198/swashbuckler-extraordinaire) · oracle_id `66f0f43c-829d-44d6-adda-d8885bfbfbaf` · printing: CLB #198 (2022-06-10) · [rulings](https://api.scryfall.com/cards/b06604f3-c70c-44d6-b1b9-e915552084e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swashbuckler's Whip
@@ -461,7 +538,17 @@
   > Equip {1}
 - **Keywords:** Discover, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14514 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/263/swashbucklers-whip) · oracle_id `5cdb69e5-9395-4ef6-be18-71e3dd70df66` · printing: LCI #263 (2023-11-17) · [rulings](https://api.scryfall.com/cards/24a85c52-e5b5-4d65-931c-eacc0cf0fb31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-11-10* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2023-11-10* — If the discovered card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-11-10* — If you can't cast the discovered card (perhaps because there are no legal targets for the spell), you'll put it into your hand.
+  - *2023-11-10* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, you must pay those to cast it.
+  - *2023-11-10* — If you discover an adventurer card, split card, or modal double-faced card, you might be able to cast that card with either set of characteristics depending on the effect's discover value. For example, if you discover 4 and reveal Galvanic Giant (an adventurer card from Wilds of Eldraine with a mana value of 4), you could cast Galvanic Giant, but not Storm Reading (its Adventure, which has a mana value of 7). If you discover 7 and reveal Galvanic Giant, you could cast either Galvanic Giant or Storm Reading.
+  - *2023-11-10* — Some spells and abilities that cause you to discover may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve and you won't discover.
+  - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
+  - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
+  - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/263/swashbucklers-whip) · oracle_id `5cdb69e5-9395-4ef6-be18-71e3dd70df66` · printing: LCI #263 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swashbuckling
 
@@ -474,6 +561,7 @@
   > *The pirates of the Brazen Coalition are the descendants of those displaced by the Legion of Dusk, and they are eager for vengeance.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23065 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/167/swashbuckling) · oracle_id `4992144f-7a36-4f30-9e8a-4355288b50c5` · printing: XLN #167 (2017-09-29) · [rulings](https://api.scryfall.com/cards/01ed59b1-968b-4297-9e98-42d940f9478c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swat
@@ -487,7 +575,9 @@
   > *Few who cross Phage have the chance to repeat the mistake.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/174/swat) · oracle_id `7bb5c5af-6943-4958-a666-0c322d5b9f33` · printing: ONS #174 (2002-10-07) · [rulings](https://api.scryfall.com/cards/cec3a260-6c50-401d-a0ff-bf49a973e1a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/174/swat) · oracle_id `7bb5c5af-6943-4958-a666-0c322d5b9f33` · printing: ONS #174 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swat Away
 
@@ -499,6 +589,7 @@
 - **Flavor text** (ECL printing):
   > *Some beings shouldn't be toyed with.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17873 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/75/swat-away) · oracle_id `79090b00-d920-4134-a838-fb434cf3ee4d` · printing: ECL #75 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2fb0ea3f-2f6d-4b64-a9d7-e822c8854a03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swathcutter Giant
@@ -514,7 +605,10 @@
   > *—Eksari, Boros patrol leader*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/202/swathcutter-giant) · oracle_id `fc16a2ce-a570-454f-8498-f9c604c0d68b` · printing: GRN #202 (2018-10-05) · [rulings](https://api.scryfall.com/cards/700b38c5-3fd2-4566-8d27-9a09d5ab02b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If a creature attacks a planeswalker, that planeswalker’s controller is the defending player.
+  - *2018-10-05* — In a Two-Headed Giant game, Swathcutter Giant deals 1 damage to each creature controlled by the player it’s attacking. The other player’s creatures are unaffected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/202/swathcutter-giant) · oracle_id `fc16a2ce-a570-454f-8498-f9c604c0d68b` · printing: GRN #202 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sway of Illusion
 
@@ -527,7 +621,9 @@
   > *"I suggest you take a closer look."*
   > *—Tidal visionary*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18864 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/77/sway-of-illusion) · oracle_id `9a7e2298-8855-43a7-8cb1-4b31e4058c3f` · printing: INV #77 (2000-10-02) · [rulings](https://api.scryfall.com/cards/ff65e386-9aec-4deb-a4ec-d9a97bd87645/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can cast this and choose to target zero creatures and effectively just draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/77/sway-of-illusion) · oracle_id `9a7e2298-8855-43a7-8cb1-4b31e4058c3f` · printing: INV #77 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sway of the Stars
 
@@ -536,7 +632,11 @@
 - **Oracle text:**
   > Each player shuffles their hand, graveyard, and all permanents they own into their library, then draws seven cards. Each player's life total becomes 7.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17742 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/54/sway-of-the-stars) · oracle_id `c4fccdd5-5b51-46b9-9937-9167c108743d` · printing: BOK #54 (2005-02-04) · [rulings](https://api.scryfall.com/cards/5eb58d9e-d181-4167-8b80-64b238183bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2005-02-01* — Changes in life total are treated as life gain and life loss.
+  - *2005-02-01* — Tokens are included in the effect but shouldn’t actually be included in the shuffle. Tokens will cease to exist immediately after the spell resolves.
+  - *2013-07-01* — This card won’t be put into your graveyard until after it’s finished resolving, which means it won’t be shuffled into your library as part of its own effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/54/sway-of-the-stars) · oracle_id `c4fccdd5-5b51-46b9-9937-9167c108743d` · printing: BOK #54 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweatworks Brawler
 
@@ -550,7 +650,16 @@
   > *The residents of Embraal were never known for finesse, just for getting things done.*
 - **Keywords:** Improvise, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/100/sweatworks-brawler) · oracle_id `9bb1de3f-b6af-4ee2-b896-a05aae50e238` · printing: AER #100 (2017-01-20) · [rulings](https://api.scryfall.com/cards/b477d12a-9ba5-4302-a3f0-af0afb5d87f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-02-09* — Because improvise isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2017-02-09* — Equipment attached to a creature doesn't become tapped when that creature becomes tapped, and tapping that Equipment doesn't cause the creature to become tapped.
+  - *2017-02-09* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped when you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2017-02-09* — Improvise can't be used to pay for anything other than the cost of casting the spell. For example, it can't be used during the resolution of an ability that says "Counter target spell unless its controller pays {3}."
+  - *2017-02-09* — Improvise can't pay for {W}, {U}, {B}, {R}, {G}, or {C} mana symbols in a spell's total cost.
+  - *2017-02-09* — Improvise doesn't change a spell's mana cost or mana value.
+  - *2017-02-09* — Tapping an artifact won't cause its abilities to stop applying unless those abilities say so.
+  - *2017-02-09* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/100/sweatworks-brawler) · oracle_id `9bb1de3f-b6af-4ee2-b896-a05aae50e238` · printing: AER #100 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweep Away
 
@@ -561,6 +670,7 @@
 - **Flavor text** (JMP printing):
   > *The Roil takes many forms. It also takes many victims.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/180/sweep-away) · oracle_id `c6901a89-ac7d-4797-a027-97bb1cf42e60` · printing: JMP #180 (2020-07-17) · [rulings](https://api.scryfall.com/cards/cad50269-6e80-47ea-a027-fa274f904e86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweep the Skies
@@ -573,7 +683,14 @@
   > *A gleam of refracted light is often the only warning.*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21903 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/70/sweep-the-skies) · oracle_id `7596fe49-c9cf-4415-ac1b-156cbbf9604e` · printing: MH2 #70 (2021-06-18) · [rulings](https://api.scryfall.com/cards/e22dcb4e-ac39-4bee-b8d0-1b6ed038834e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-06-18* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2021-06-18* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2021-06-18* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2021-06-18* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2021-06-18* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+  - *2021-06-18* — You can choose any value for X. Choosing a higher value for X lets you pay more mana and thus spend more colors of mana to cast it. For example, if you choose 0 for the value of X and pay {U}{U} to cast Sweep the Skies, you'll create one Thopter. If you choose 4 for the value of X and pay {W}{U}{U}{B}{R}{G}, you'll create five Thopters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/70/sweep-the-skies) · oracle_id `7596fe49-c9cf-4415-ac1b-156cbbf9604e` · printing: MH2 #70 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweet-Gum Recluse
 
@@ -587,7 +704,18 @@
   > When this creature enters, put three +1/+1 counters on each of any number of target creatures that entered this turn.
 - **Keywords:** Reach, Flash, Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/835/sweet-gum-recluse) · oracle_id `8ea10a5a-b698-4f7d-a9c8-520f8d835f34` · printing: CLB #835 (2022-06-10) · [rulings](https://api.scryfall.com/cards/2d3c6325-450d-47f3-a69b-cdfc25ae65e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — A permanent that wasn't a creature as it entered the battlefield this turn but is currently a creature can be chosen as a target of Sweet-Gum Recluse's last ability.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/835/sweet-gum-recluse) · oracle_id `8ea10a5a-b698-4f7d-a9c8-520f8d835f34` · printing: CLB #835 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweet Oblivion
 
@@ -600,7 +728,15 @@
   > *When memory is torment, oblivion is bliss.*
 - **Keywords:** Escape, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22459 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/70/sweet-oblivion) · oracle_id `c023538d-2feb-4af5-a44e-b355a190f081` · printing: THB #70 (2020-01-24) · [rulings](https://api.scryfall.com/cards/51ac77d4-f918-4bbc-b023-8117a8c401ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/70/sweet-oblivion) · oracle_id `c023538d-2feb-4af5-a44e-b355a190f081` · printing: THB #70 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweettooth Witch
 
@@ -614,7 +750,12 @@
   > *"Try some pie! Your brother helped make it, and he really poured his heart into it."*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15986 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/111/sweettooth-witch) · oracle_id `635b854d-de71-4c85-9755-8c97bf3cba36` · printing: WOE #111 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a6bdb984-06f8-4bca-a943-17fe5db97682/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/111/sweettooth-witch) · oracle_id `635b854d-de71-4c85-9755-8c97bf3cba36` · printing: WOE #111 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swell of Courage
 
@@ -627,6 +768,7 @@
   > *"Tideshaping is more than creating a few new puddles."*
 - **Keywords:** Reinforce
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29514 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddf/31/swell-of-courage) · oracle_id `60033841-71c7-4370-a2bc-e570a5c100ea` · printing: DDF #31 (2010-09-03) · [rulings](https://api.scryfall.com/cards/0fddb694-d863-4364-9bf9-650d7be3b471/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swell of Growth
@@ -639,7 +781,9 @@
   > *"Nissa is not the only one with a deep connection to Zendikar's primal elements."*
   > *—Kiora*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13065 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/191/swell-of-growth) · oracle_id `e47e0b81-0f0c-4e52-bc58-16af19b0dfe0` · printing: BFZ #191 (2015-10-02) · [rulings](https://api.scryfall.com/cards/b06da6fe-57bf-437e-8589-7e57a5881801/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-08-25* — Putting a land onto the battlefield this way is not the same as playing a land. Swell of Growth doesn’t affect how many lands you can play from your hand during your turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/191/swell-of-growth) · oracle_id `e47e0b81-0f0c-4e52-bc58-16af19b0dfe0` · printing: BFZ #191 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swelter
 
@@ -650,7 +794,9 @@
 - **Flavor text** (JUD printing):
   > *No circle has a beginning, but many have foreseeable ends.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/101/swelter) · oracle_id `e1169108-1bc8-42ca-a056-a9358fba10cb` · printing: JUD #101 (2002-05-27) · [rulings](https://api.scryfall.com/cards/8f667c26-40f5-4ac5-87a4-cb03f70590a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can’t cast this spell unless you have two different legal targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/101/swelter) · oracle_id `e1169108-1bc8-42ca-a056-a9358fba10cb` · printing: JUD #101 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sweltering Suns
 
@@ -663,6 +809,7 @@
   > *The Hekma may repel storms and monsters, but nothing holds back the heat of the suns.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11520 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/149/sweltering-suns) · oracle_id `526cd570-046e-402a-986c-f6ece68eec47` · printing: AKH #149 (2017-04-28) · [rulings](https://api.scryfall.com/cards/f11cd406-c6ae-4018-ae45-4e5577aa82ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swerve
@@ -675,7 +822,14 @@
   > *"We can't beat the necromancers in numbers or raw power. We must beat them with ingenuity and timing."*
   > *—Rannon, Vithian holdout*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15722 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/200/swerve) · oracle_id `c68627b1-025c-48c9-9646-98eb2d268e71` · printing: ALA #200 (2008-10-03) · [rulings](https://api.scryfall.com/cards/10affb59-7c57-4b72-892b-d813f385f4a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — If a spell targets multiple things, you can't target it with Swerve, even if all but one of those targets has become illegal.
+  - *2008-10-01* — If a spell targets the same player or object multiple times, you can't target it with Swerve.
+  - *2008-10-01* — If you cast Swerve on a spell that targets a spell on the stack (like Cancel does, for example), you can't change that spell's target to itself. You can, however, change that spell's target to Swerve. If you do, that spell won't resolve when it tries to resolve because Swerve will have left the stack by then.
+  - *2008-10-01* — Swerve targets only the spell whose target will be changed. It doesn't directly affect the original target of that spell or the new target of that spell.
+  - *2008-10-01* — You don't choose the new target for the spell until Swerve resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets, the target isn't changed. It doesn't matter if the original target of that spell has somehow become illegal.
+  - *2010-03-01* — An Aura spell on the stack targets the object or player which it will enchant upon entering. Thus, an Aura spell is a "spell with a single target", which means you may use Swerve to change that target. Doing so will cause it to enter enchanting the new target rather than the original one.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/200/swerve) · oracle_id `c68627b1-025c-48c9-9646-98eb2d268e71` · printing: ALA #200 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftblade Vindicator
 
@@ -688,7 +842,9 @@
   > Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)
 - **Keywords:** Vigilance, Trample, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/246/swiftblade-vindicator) · oracle_id `44240b1e-c104-4eb4-8ab9-0d56607ba241` · printing: FDN #246 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f94618ec-000c-4371-b925-05ff82bfe221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If an attacking creature with double strike and trample destroys all of its blocking creatures with first-strike combat damage, all of its normal combat damage is assigned to the player or planeswalker that creature's attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/246/swiftblade-vindicator) · oracle_id `44240b1e-c104-4eb4-8ab9-0d56607ba241` · printing: FDN #246 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Demise
 
@@ -699,6 +855,7 @@
 - **Flavor text** (TMC printing):
   > *"My patience wears thin!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10769 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/21/swift-demise) · oracle_id `7eaf3fd0-e141-42c2-874d-b471f4a94ad2` · printing: TMC #21 (2026-03-06) · [rulings](https://api.scryfall.com/cards/442feb65-9c0f-4962-8518-78e6d314c916/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftfoot Boots
@@ -713,7 +870,9 @@
   > *—Kenjek, captain of the Thousand Swords*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · [rulings](https://api.scryfall.com/cards/03f7e9fc-8e59-45c1-90fc-1d04d929b292/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-03-16* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Swiftfoot Boots to allow two new creatures to attack in the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftgear Drake
 
@@ -727,6 +886,7 @@
   > *Inspired by fishing raptors, Tawnos designed the drake's talons to seize prey with overwhelming speed and precision.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23691 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/251/swiftgear-drake) · oracle_id `b7618312-6835-4851-9651-b5402001b3b0` · printing: BRO #251 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d5ae38a2-2f95-4750-9b59-53eb1771e5ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Justice
@@ -739,6 +899,7 @@
   > *"Having conviction is more important than being righteous."*
   > *—Aurelia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18773 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddn/62/swift-justice) · oracle_id `d363e135-0a76-4d0e-b3b7-3293944f392c` · printing: DDN #62 (2014-09-05) · [rulings](https://api.scryfall.com/cards/df2cc327-715b-4fb6-8218-9d01711d1022/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Kick
@@ -751,7 +912,11 @@
   > *Shintan sensed the malice in his opponent, but he did not strike until the orc's muscles tensed in preparation to throw the first punch.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25764 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/122/swift-kick) · oracle_id `8c54fd75-e89f-490e-90dd-788f22b6e316` · printing: KTK #122 (2014-09-26) · [rulings](https://api.scryfall.com/cards/2dc3120c-7e04-4c4a-af16-da264593a1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — If either target is an illegal target when Swift Kick tries to resolve, neither creature will deal or be dealt damage.
+  - *2014-09-20* — If just the creature you control is an illegal target when Swift Kick tries to resolve, it won’t get +1/+0 until end of turn. If the creature you control is a legal target but the creature you don’t control isn’t, the creature you control will get +1/+0 until end of turn.
+  - *2014-09-20* — You can’t cast Swift Kick unless you target both a creature you control and a creature you don’t control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/122/swift-kick) · oracle_id `8c54fd75-e89f-490e-90dd-788f22b6e316` · printing: KTK #122 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Maneuver
 
@@ -763,6 +928,7 @@
 - **Flavor text** (CSP printing):
   > *Darien's call to Yavimaya would have fallen red to the snow had it not been for the agility of the aesthir.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29821 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/21/swift-maneuver) · oracle_id `d7b5fb4b-8f3c-4143-9fb0-2e2544612528` · printing: CSP #21 (2006-07-21) · [rulings](https://api.scryfall.com/cards/1f97ef40-9d07-47fa-ad4b-45f26f7351c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Reckoning
@@ -774,7 +940,11 @@
   > Destroy target tapped creature.
 - **Keywords:** Spell mastery
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26539 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/39/swift-reckoning) · oracle_id `82b0c006-bf58-4f05-8801-e5d2857a6fd6` · printing: UMA #39 (2018-12-07) · [rulings](https://api.scryfall.com/cards/820096b5-0d64-47a0-88a4-17d3f24cb165/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-06-22* — Check to see if there are two or more instant and/or sorcery cards in your graveyard as the spell resolves to determine whether the spell mastery ability applies. The spell itself won't count because it's still on the stack as you make this check.
+  - *2018-12-07* — If an effect allows you to cast Swift Reckoning from your graveyard, you need two other instant and/or sorcery cards in your graveyard to cast it as though it had flash.
+  - *2018-12-07* — The number of instant and/or sorcery cards in your graveyard matters only as you begin to cast Swift Reckoning. Once it's cast, that number doesn't matter and will have no effect on Swift Reckoning resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/39/swift-reckoning) · oracle_id `82b0c006-bf58-4f05-8801-e5d2857a6fd6` · printing: UMA #39 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Reconfiguration
 
@@ -788,7 +958,12 @@
   > *On the bright side, the bear now had cupholders.*
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4014 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nec/10/swift-reconfiguration) · oracle_id `5d47e820-913f-441a-a6cc-37ab3181d79a` · printing: NEC #10 (2022-02-18) · [rulings](https://api.scryfall.com/cards/975dcfab-0281-4fee-92aa-021ea6c524c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-02-18* — If Swift Reconfiguration becomes attached to a creature that is also a planeswalker, that permanent loses its planeswalker type. Its controller may still activate its loyalty abilities as normal, but it can't be attacked and damage dealt to it doesn't remove loyalty counters.
+  - *2022-02-18* — If Swift Reconfiguration becomes attached to a creature that is also an Equipment, that permanent becomes a Vehicle and loses the Equipment subtype. If it is attached to a creature, it becomes unattached from that creature.
+  - *2022-02-18* — If the enchanted permanent was attacking or blocking (or being attacked if it's a planeswalker) when Swift Reconfiguration becomes attached to it, that permanent is removed from combat.
+  - *2022-02-18* — The permanent keeps all of its abilities. Notably, if Swift Reconfiguration enchants a Vehicle, that Vehicle gains crew 5 in addition to any crew abilities it already had.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nec/10/swift-reconfiguration) · oracle_id `5d47e820-913f-441a-a6cc-37ab3181d79a` · printing: NEC #10 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Response
 
@@ -800,6 +975,7 @@
   > *"There's nothing quite as satisfying as delivering a good kick to the face."*
   > *—Adrasteia, Akroan captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15736 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/64/swift-response) · oracle_id `5820d760-8ed7-4abf-a959-c06ed86a3730` · printing: CMM #64 (2023-08-04) · [rulings](https://api.scryfall.com/cards/3d70dcbe-0b90-40b4-8a54-e5218b7135b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Silence
@@ -812,6 +988,7 @@
   > *"This world may not know peace, but in my presence you \*will\* know quiet."*
   > *—Augustin IV*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25452 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/132/swift-silence) · oracle_id `ec45caf7-2051-463d-bf70-3dda671d6ce2` · printing: DIS #132 (2006-05-05) · [rulings](https://api.scryfall.com/cards/a1c5f733-e126-4c22-b528-18bdb90b509b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Spinner
@@ -826,6 +1003,7 @@
   > *Its web is woven so tightly that not even geists can avoid capture.*
 - **Keywords:** Reach, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24311 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/173/swift-spinner) · oracle_id `91585b64-f10d-47c6-a563-384ceb944710` · printing: EMN #173 (2016-07-22) · [rulings](https://api.scryfall.com/cards/264f78d8-d554-45f3-867e-19dba38e4644/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Warden
@@ -840,6 +1018,7 @@
   > *A warning shout would take too long.*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21272 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/146/swift-warden) · oracle_id `0928ddda-20ea-462e-9f00-6c10ef1cfb4b` · printing: RIX #146 (2018-01-19) · [rulings](https://api.scryfall.com/cards/1531cb47-b0ff-4d66-acf2-ef5bb5f690fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swift Warkite
@@ -852,7 +1031,11 @@
   > When this creature enters, you may put a creature card with mana value 3 or less from your hand or graveyard onto the battlefield. That creature gains haste. Return it to your hand at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/233/swift-warkite) · oracle_id `0df3444c-ae29-4fcc-bf46-4edf52b90e30` · printing: DTK #233 (2015-03-27) · [rulings](https://api.scryfall.com/cards/f62db9d7-3cc7-49cb-bffc-d2f9c286aa36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-02-25* — The creature you put onto the battlefield will be returned to your hand only if it’s still on the battlefield as the delayed triggered ability resolves during the next end step. If it leaves the battlefield before then, it will remain wherever it is.
+  - *2015-02-25* — The delayed triggered ability that returns the creature to your hand will trigger even if Swift Warkite leaves the battlefield before the next end step.
+  - *2015-02-25* — You can’t put creatures onto the battlefield face down this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/233/swift-warkite) · oracle_id `0df3444c-ae29-4fcc-bf46-4edf52b90e30` · printing: DTK #233 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftwater Cliffs
 
@@ -865,6 +1048,7 @@
 - **Flavor text** (TDM printing):
   > *When spring melted the snow, fishers downstream of the Qadat Fire Rim learned of conflict between Temur and Jeskai from the gruesome flotsam.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1077 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/268/swiftwater-cliffs) · oracle_id `2f4ad084-2062-44c0-9975-15f100204531` · printing: TDM #268 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ca53fb19-b8ca-485b-af1a-5117ae54bfe3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftwing Assailant
@@ -878,7 +1062,14 @@
   > Max speed — This creature gets +0/+1 and has vigilance.
 - **Keywords:** Flying, Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24365 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/32/swiftwing-assailant) · oracle_id `46b36d25-25bd-48c5-9a53-75230bb27dee` · printing: DFT #32 (2025-02-14) · [rulings](https://api.scryfall.com/cards/72db9bb9-d930-40e5-b144-01ebfd377996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-02-07* — A player “has max speed” if their speed is 4.
+  - *2025-02-07* — Each player tracks their speed (or lack thereof) separately. Increasing your speed has no effect on whether another player has speed.
+  - *2025-02-07* — If an effect needs to know what a player’s speed is and that player doesn’t have a speed, their speed is considered 0.
+  - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
+  - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
+  - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/32/swiftwing-assailant) · oracle_id `46b36d25-25bd-48c5-9a53-75230bb27dee` · printing: DFT #32 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swimmer in Nightmares
 
@@ -891,7 +1082,10 @@
 - **Flavor text** (THB printing):
   > *Ashiok's minions plumb the depths of the ocean and the psyche.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/275/swimmer-in-nightmares) · oracle_id `64ca54ee-1502-4fae-b919-7e4457e641c0` · printing: THB #275 (2020-01-24) · [rulings](https://api.scryfall.com/cards/ebc6b5ee-e764-444e-8b27-26e00f4b2074/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-01-24* — The ability that modifies the power of Swimmer in Nightmares applies only while it's on the battlefield.
+  - *2020-01-24* — The first ability of Swimmer in Nightmares gives it just +3/+0, no matter how many graveyards beyond the first have ten cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/275/swimmer-in-nightmares) · oracle_id `64ca54ee-1502-4fae-b919-7e4457e641c0` · printing: THB #275 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swindler's Scheme
 
@@ -900,7 +1094,9 @@
 - **Oracle text:**
   > Whenever an opponent casts a spell from their hand, you may reveal the top card of your library. If it shares a card type with that spell, counter that spell and that opponent may cast the revealed card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23387 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/88/swindlers-scheme) · oracle_id `e3ff6134-10dd-4565-afcb-0f41a2933d19` · printing: NCC #88 (2022-04-29) · [rulings](https://api.scryfall.com/cards/dc7436c6-cd33-4324-bd1b-026a5d5c0007/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — You don't get to look at the top card of your library before choosing whether to reveal it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/88/swindlers-scheme) · oracle_id `e3ff6134-10dd-4565-afcb-0f41a2933d19` · printing: NCC #88 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swinging Ship
 
@@ -912,7 +1108,12 @@
   > *"I feel just like Kari Zev! Ragavan, set a course for Lathnu!"*
   > *—Vorthos, Steward of Myth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/231a/swinging-ship) · oracle_id `65215f0d-d664-44ac-8c27-c4b5a1a01c11` · printing: UNF #231a (2022-10-07) · [rulings](https://api.scryfall.com/cards/b0782b5d-57a9-4595-8f35-18d1881263f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — If you somehow visit Swinging Ship after the first combat phase of a turn has ended, it won’t have any effect. No additional combat phase will be created.
+  - *2022-10-07* — If you somehow visit Swinging Ship during an opponent’s turn before their first combat phase ends, they will get an additional combat phase. Their creatures that attacked will untap.
+  - *2022-10-07* — If you visit Swinging Ship multiple times before the first combat phase of a turn has ended, that many additional combat phases will happen, one at a time. At the beginning of each of those combats, any creature that attacked during any combat that turn will untap.
+  - *2022-10-07* — Swinging Ship won’t untap any creatures that entered the battlefield attacking. Those creatures never attacked, meaning they were never declared as attacking creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/231a/swinging-ship) · oracle_id `65215f0d-d664-44ac-8c27-c4b5a1a01c11` · printing: UNF #231a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swirling Sandstorm
 
@@ -924,7 +1125,9 @@
   > *As dust swept out, vultures swept in.*
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jud/102/swirling-sandstorm) · oracle_id `dc5cb229-82c9-4a87-9a10-490350cbdfc0` · printing: JUD #102 (2002-05-27) · [rulings](https://api.scryfall.com/cards/4d757ec3-c15f-4d6e-8e18-36ebae985448/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This card does nothing if you don’t have seven cards in your graveyard when it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jud/102/swirling-sandstorm) · oracle_id `dc5cb229-82c9-4a87-9a10-490350cbdfc0` · printing: JUD #102 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swirling Spriggan
 
@@ -936,7 +1139,9 @@
 - **Flavor text** (EVE printing):
   > *After its encounter with the spriggan, the patrol was red with anger, green with envy, white with fear, and painfully black and blue.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30478 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/76/swirling-spriggan) · oracle_id `3b0cea17-9baf-43c7-9f01-44f255e9d687` · printing: EVE #76 (2008-07-25) · [rulings](https://api.scryfall.com/cards/303d057c-c51c-46bb-b8fe-aabe7f3b07b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — You can choose any color or combination of colors. You can’t choose colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/76/swirling-spriggan) · oracle_id `3b0cea17-9baf-43c7-9f01-44f255e9d687` · printing: EVE #76 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swirling Torrent
 
@@ -950,6 +1155,7 @@
   > *"Oops!"*
   > *—Grupgrup, sluiceway technician*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/56/swirling-torrent) · oracle_id `70f44207-338e-4031-a093-f045e8d328b2` · printing: RNA #56 (2019-01-25) · [rulings](https://api.scryfall.com/cards/8dbb3d2f-4ee4-46e2-98aa-4aa388bd5375/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swirl the Mists
@@ -960,7 +1166,10 @@
   > As this enchantment enters, choose a color word.
   > All instances of color words in the text of spells and permanents are changed to the chosen color word.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/94/swirl-the-mists) · oracle_id `eed742c3-006f-475c-aa62-41f971d328cb` · printing: CHK #94 (2004-10-01) · [rulings](https://api.scryfall.com/cards/2ea50e09-4ab3-439e-83d7-d584f8af8f16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — Swirl the Mists' ability also affects spells that are cast and permanents that enter after Swirl the Mists enters.
+  - *2004-12-01* — This effect lasts as long as Swirl the Mists is on the battlefield. It ends as soon as Swirl the Mists leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/94/swirl-the-mists) · oracle_id `eed742c3-006f-475c-aa62-41f971d328cb` · printing: CHK #94 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Switcheroo
 
@@ -971,7 +1180,12 @@
 - **Flavor text** (M19 printing):
   > *Say hello to your new friend.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/78/switcheroo) · oracle_id `68227969-39cf-42cf-b3b8-cf8a04647d7e` · printing: M19 #78 (2018-07-13) · [rulings](https://api.scryfall.com/cards/9d3d062c-5853-44f9-b951-a264e9e0d72d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it.
+  - *2018-07-13* — If one of the target creatures is an illegal target when Switcheroo resolves, the exchange won’t happen.
+  - *2018-07-13* — If the same player controls both creatures when Switcheroo resolves, nothing happens.
+  - *2018-07-13* — You don’t have to control either target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/78/switcheroo) · oracle_id `68227969-39cf-42cf-b3b8-cf8a04647d7e` · printing: M19 #78 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swooping Lookout
 
@@ -985,6 +1199,7 @@
   > *—Prahan, Mirran rebel*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10156 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/35/swooping-lookout) · oracle_id `0594f19c-c4c2-4812-8f4d-5630fc24c47a` · printing: ONE #35 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b62c740d-260d-4dfa-b6b3-9a1527538f89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swooping Protector
@@ -998,7 +1213,14 @@
   > This creature enters with a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/33/swooping-protector) · oracle_id `094689cc-617a-426e-beb9-3f8de692cd5b` · printing: SNC #33 (2022-04-29) · [rulings](https://api.scryfall.com/cards/8713498f-a467-4a11-9de2-53a1bbd0b18b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-04-29* — "Shield" is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+  - *2022-04-29* — A creature with a shield counter on it may still be destroyed by state-based actions if it has damage marked on it equal to its toughness or has been dealt unpreventable damage by a source with deathtouch.
+  - *2022-04-29* — If a permanent that would be dealt damage has more than one shield counter on it, that damage is prevented and only one shield counter is removed.
+  - *2022-04-29* — If a permanent with a shield counter is dealt unpreventable damage, that damage will be dealt and a shield counter will still be removed.
+  - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
+  - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/33/swooping-protector) · oracle_id `094689cc-617a-426e-beb9-3f8de692cd5b` · printing: SNC #33 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swooping Pteranodon
 
@@ -1010,7 +1232,9 @@
   > Whenever this creature or another Dinosaur you control with flying enters, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains flying and haste until end of turn. At the beginning of the next end step, target land deals 3 damage to that creature.
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9583 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rex/19/swooping-pteranodon) · oracle_id `0b1f6e77-55db-4638-9030-3f4e4d37eb1b` · printing: REX #19 (2023-11-17) · [rulings](https://api.scryfall.com/cards/43aa5d97-7483-4f90-998d-70732a7ae1dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — Swooping Pteranodon's triggered ability targets only the creature an opponent controls. You choose the target land (where the poor creature is going to drop) as the delayed triggered ability triggers at the beginning of the next end step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rex/19/swooping-pteranodon) · oracle_id `0b1f6e77-55db-4638-9030-3f4e4d37eb1b` · printing: REX #19 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swooping Talon
 
@@ -1023,6 +1247,7 @@
   > Provoke (Whenever this creature attacks, you may have target creature defending player controls untap and block it if able.)
 - **Keywords:** Flying, Provoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30749 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/23/swooping-talon) · oracle_id `c292d5cc-b6f4-4bb5-bc74-ff67e0643293` · printing: LGN #23 (2003-02-03) · [rulings](https://api.scryfall.com/cards/34c3d19c-d4c6-4c5c-85eb-11d55959a89c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword Coast Sailor
@@ -1034,7 +1259,19 @@
 - **Flavor text** (CLB printing):
   > *You were born at sea, and your legs are steadiest when the waves are rowdiest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6042 · Game Changer: no · Can be commander: Only alongside a commander with *Choose a Background*
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/98/sword-coast-sailor) · oracle_id `71248bf6-a6a2-440e-9313-a7abce05a84b` · printing: CLB #98 (2022-06-10) · [rulings](https://api.scryfall.com/cards/704f8ab7-63fd-4963-bacd-0076fffb34a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — The ability granted by Sword Coast Sailor is looking to see if any of the attacking player's opponents have a higher life total than that defending player. The attacking player's life total is not included in this comparison.
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/98/sword-coast-sailor) · oracle_id `71248bf6-a6a2-440e-9313-a7abce05a84b` · printing: CLB #98 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword Coast Serpent // Capsizing Wave
 
@@ -1045,7 +1282,20 @@
 - **Face 2: Capsizing Wave** — {1}{U} — Instant — Adventure
   > Return target creature to its owner's hand. (Then exile this card. You may cast the creature later from exile.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6561 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/99/sword-coast-serpent-capsizing-wave) · oracle_id `d60e14b4-f750-40cc-85b5-17c87ae8a584` · printing: CLB #99 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0bbfb7ae-9a32-428d-903c-99d0d8669b8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-06-10* — An adventurer card is a permanent card in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it’s in your graveyard, Altar of Bhaal is an artifact card whose mana value is 2.
+  - *2022-06-10* — An effect may refer to a card, spell, or permanent that “has an Adventure.” This refers to a card, spell, or permanent that has an adventurer card’s set of alternative characteristics, even if they’re not being used and even if that card was never cast as an Adventure.
+  - *2022-06-10* — Casting a card as an Adventure isn’t casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2022-06-10* — Casting a noncreature spell after Sword Coast Serpent has become blocked will not cause it to become unblocked.
+  - *2022-06-10* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner’s graveyard as it resolves. For as long as it remains exiled, that player may cast it as a permanent spell. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won’t be exiled and the spell’s controller won’t be able to cast it as a permanent later.
+  - *2022-06-10* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won’t give you permission to cast it as a permanent spell.
+  - *2022-06-10* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it’s not possible to cast the copy from exile.
+  - *2022-06-10* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2022-06-10* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it’s a token) or cease to be a copy (if it’s a nontoken permanent), and so you won’t be able to cast it as an Adventure.
+  - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
+  - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/99/sword-coast-serpent-capsizing-wave) · oracle_id `d60e14b4-f750-40cc-85b5-17c87ae8a584` · printing: CLB #99 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword Dancer
 
@@ -1057,6 +1307,7 @@
 - **Flavor text** (8ED printing):
   > *Most soldiers think of the sword as a weapon. In the hands of Zho monks, swords are also the strongest of shields.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30223 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/53/sword-dancer) · oracle_id `9ae49b45-a38f-4bd6-aa08-b5a5da6e75a1` · printing: 8ED #53 (2003-07-28) · [rulings](https://api.scryfall.com/cards/ec270d53-042e-4b11-b0f4-6416348b8fff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Body and Mind
@@ -1069,7 +1320,9 @@
   > Equip {2}
 - **Keywords:** Equip, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4385 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/295/sword-of-body-and-mind) · oracle_id `fac42229-4f5f-4d04-85dd-5031d4e435aa` · printing: 2XM #295 (2020-08-07) · [rulings](https://api.scryfall.com/cards/1ffe5f80-a2ac-41b8-8fce-fd3485643557/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If there are fewer than ten cards in that player's library, that player puts all the cards from their library into their graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/295/sword-of-body-and-mind) · oracle_id `fac42229-4f5f-4d04-85dd-5031d4e435aa` · printing: 2XM #295 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Dungeons & Dragons
 
@@ -1081,7 +1334,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/84/sword-of-dungeons-&-dragons) · oracle_id `8e0b725c-b27a-4aa2-8e4b-6ab47e73927d` · printing: UND #84 (2020-02-29) · [rulings](https://api.scryfall.com/cards/bf451d4b-0884-4ab5-8d85-312d9db82e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — If asked to choose a color in a silver-bordered game, you can choose gold.
+  - *2018-01-19* — The Dragon token is monocolored. It’s gold.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/84/sword-of-dungeons-&-dragons) · oracle_id `8e0b725c-b27a-4aa2-8e4b-6ab47e73927d` · printing: UND #84 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Feast and Famine
 
@@ -1093,7 +1349,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #545 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/296/sword-of-feast-and-famine) · oracle_id `d0901053-6de0-46d0-9ee3-8d40510236c1` · printing: 2XM #296 (2020-08-07) · [rulings](https://api.scryfall.com/cards/c7710eb5-c56a-437b-8847-2a829c404d47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — You can tap your lands for mana while the triggered ability is on the stack. However, you'll lose any mana you produce this way if you don't spend it before the end of the current combat damage step.
+  - *2020-08-07* — You'll untap all lands you control even if the player can't discard a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/296/sword-of-feast-and-famine) · oracle_id `d0901053-6de0-46d0-9ee3-8d40510236c1` · printing: 2XM #296 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Fire and Ice
 
@@ -1105,7 +1364,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/297/sword-of-fire-and-ice) · oracle_id `2ccdc60a-49a9-44b9-a7af-0ebf18b26785` · printing: 2XM #297 (2020-08-07) · [rulings](https://api.scryfall.com/cards/2626d4c9-fcef-4057-a154-7d987a4a4b84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-08-07* — If the chosen target is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/297/sword-of-fire-and-ice) · oracle_id `2ccdc60a-49a9-44b9-a7af-0ebf18b26785` · printing: 2XM #297 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Fire and Ice and War and Peace
 
@@ -1117,6 +1378,7 @@
   > Equip {4}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RA06c/sword-of-fire-and-ice-and-war-and-peace) · oracle_id `64bd0722-7123-43cf-b22d-0b4a385974e0` · printing: UNK #RA06c (2023-05-06) · [rulings](https://api.scryfall.com/cards/e54d33bc-2da8-4163-9dc4-badc648faa56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Forge and Frontier
@@ -1129,7 +1391,11 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1887 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/244/sword-of-forge-and-frontier) · oracle_id `c6331ce3-21f7-4784-80fe-df1f541a4c46` · printing: ONE #244 (2023-02-10) · [rulings](https://api.scryfall.com/cards/2daa3621-8a2c-4b4b-87ac-f981192a0567/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — If the equipped creature somehow deals combat damage to a player on an opponent's turn, the second ability will trigger. You'll be able to cast cards you exile if timing rules allow (so, instants, mostly), but you won't be able to play a land that turn.
+  - *2023-02-04* — The effect that allows you to play an additional land that turn is cumulative with other effects that do so, including itself. If the second ability triggers multiple times in the same turn, perhaps because there were multiple combats, you will be able to play that many additional lands.
+  - *2023-02-04* — You must follow all normal timing rules for a card you play using Sword of Forge and Frontier's second ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/244/sword-of-forge-and-frontier) · oracle_id `c6331ce3-21f7-4784-80fe-df1f541a4c46` · printing: ONE #244 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Hearth and Home
 
@@ -1141,7 +1407,11 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #910 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/238/sword-of-hearth-and-home) · oracle_id `913e6182-706a-4872-8c8a-e146b0ae0738` · printing: MH2 #238 (2021-06-18) · [rulings](https://api.scryfall.com/cards/a16fabbe-4557-4067-b882-f2e5dbd8b458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — As Sword of Hearth and Home's second ability resolves, the land and the creature will enter the battlefield at the same time.
+  - *2021-06-18* — If the creature you own is a token, it won't return to the battlefield. It will stay in exile and cease to exist after the ability finishes resolving.
+  - *2021-06-18* — If you choose a target creature you own and that creature isn't a legal target as the triggered ability tries to resolve, that ability won't resolve and none of its effects will happen. You won't search for a basic land card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/238/sword-of-hearth-and-home) · oracle_id `913e6182-706a-4872-8c8a-e146b0ae0738` · printing: MH2 #238 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Hours
 
@@ -1153,7 +1423,20 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5096 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/61/sword-of-hours) · oracle_id `abaddcce-9039-4b4e-baf8-fdab304b5c52` · printing: AFC #61 (2021-07-23) · [rulings](https://api.scryfall.com/cards/eaedf482-9f2c-497a-bf1c-bebb4168c52f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — If the equipped creature takes lethal damage at the same time that it deals combat damage, it will die before the counters on it can be doubled. However, you will still roll a d12, which may cause abilities of other permanents to trigger.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — To double the number of +1/+1 counters on a permanent, count the number of +1/+1 counters that are currently on that permanent and put that many more on it. Any replacement effects that change this number will apply accordingly.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/61/sword-of-hours) · oracle_id `abaddcce-9039-4b4e-baf8-fdab304b5c52` · printing: AFC #61 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Kaldra
 
@@ -1165,7 +1448,9 @@
   > Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/251/sword-of-kaldra) · oracle_id `35f63c60-b0a1-459d-bf51-a8549fb06930` · printing: MRD #251 (2003-10-02) · [rulings](https://api.scryfall.com/cards/3a665bff-b57a-450c-9310-932b0686a03e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You exile the creature that gets damaged.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mrd/251/sword-of-kaldra) · oracle_id `35f63c60-b0a1-459d-bf51-a8549fb06930` · printing: MRD #251 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Light and Shadow
 
@@ -1177,7 +1462,10 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2266 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/298/sword-of-light-and-shadow) · oracle_id `01c8a554-45a6-46ca-b40a-af0fd4529e40` · printing: 2XM #298 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b378c8bf-85ed-4d28-aec9-4925d12bca4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-08-07* — If you choose a target creature card in your graveyard and that card is an illegal target by the time the triggered ability tries to resolve, the ability won't resolve. You won't gain 3 life. If you don't choose a target at all, you just gain 3 life.
+  - *2020-08-07* — The triggered ability can target a creature card that was put into your graveyard as a result of state-based actions immediately after the combat damage that caused the ability to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/298/sword-of-light-and-shadow) · oracle_id `01c8a554-45a6-46ca-b40a-af0fd4529e40` · printing: 2XM #298 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Once and Future
 
@@ -1189,7 +1477,13 @@
   > Equip {2}
 - **Keywords:** Surveil, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4879 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/265/sword-of-once-and-future) · oracle_id `1e0cf860-6be6-4b4b-9a67-0c19b6018ae1` · printing: MOM #265 (2023-04-21) · [rulings](https://api.scryfall.com/cards/1670393d-86f0-46fb-b577-f73a1da2a3ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-04-14* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
+  - *2023-04-14* — The card you cast may be one you just put into the graveyard with surveil or one already in the graveyard.
+  - *2023-04-14* — You choose whether or not to cast the instant or sorcery card as the triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+  - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/265/sword-of-once-and-future) · oracle_id `1e0cf860-6be6-4b4b-9a67-0c19b6018ae1` · printing: MOM #265 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Sinew and Steel
 
@@ -1201,7 +1495,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4238 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/228/sword-of-sinew-and-steel) · oracle_id `ccab4509-f189-4610-9597-547e7f6b0775` · printing: MH1 #228 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c081e5cf-81e2-4afb-a912-8267de29e88d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — Protection from a color means that the equipped creature can't be blocked by creatures of that color, can't be the target of spells of that color or abilities from sources of that color, can't be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/228/sword-of-sinew-and-steel) · oracle_id `ccab4509-f189-4610-9597-547e7f6b0775` · printing: MH1 #228 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Ages
 
@@ -1211,7 +1507,9 @@
   > This artifact enters tapped.
   > {T}, Sacrifice this artifact and any number of creatures you control: This artifact deals X damage to any target, where X is the total power of the creatures sacrificed this way, then exile this artifact and those creature cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26125 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/202/sword-of-the-ages) · oracle_id `201f2434-96b3-408c-a5ce-74d0675920ed` · printing: ME3 #202 (2009-09-07) · [rulings](https://api.scryfall.com/cards/aad10ff3-6d8d-4de4-9c30-1ae1aec85e5e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The activated ability checks the power the exiled creatures had as they last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/202/sword-of-the-ages) · oracle_id `201f2434-96b3-408c-a5ce-74d0675920ed` · printing: ME3 #202 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Animist
 
@@ -1225,6 +1523,7 @@
   > *The blade glows only for Zendikar's chosen.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #234 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/413/sword-of-the-animist) · oracle_id `d79cbc61-6c15-48ea-bbba-3cffb819ccba` · printing: CMM #413 (2023-08-04) · [rulings](https://api.scryfall.com/cards/64401acc-d080-4763-b67a-95164c11c69e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Chosen
@@ -1236,6 +1535,7 @@
 - **Flavor text** (DMC printing):
   > *One shard of Selenia yet remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/192/sword-of-the-chosen) · oracle_id `3c756eda-4fc1-4766-99be-32d8c9f35262` · printing: DMC #192 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6de493a9-d1df-4507-b7c3-e775c4c50db9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Meek
@@ -1248,7 +1548,13 @@
   > Whenever a 1/1 creature you control enters, you may return this card from your graveyard to the battlefield, then attach it to that creature.
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/299/sword-of-the-meek) · oracle_id `215c287d-56a5-46da-b49e-8524b6d320a4` · printing: 2XM #299 (2020-08-07) · [rulings](https://api.scryfall.com/cards/5a0c2773-3205-4ac4-b31c-c54fb06fdd7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-08-07* — Any creature can be equipped with Sword of the Meek, not just 1/1 creatures.
+  - *2020-08-07* — If Sword of the Meek can't be attached to the creature that caused its last ability to trigger, most likely because that creature has left the battlefield, Sword of the Meek returns to the battlefield and remains unattached.
+  - *2020-08-07* — If a creature is entering the battlefield under your control, consider static abilities to determine whether its power and toughness are both 1. Spells, activated abilities, and triggered abilities can't be used to raise or lower the creature's power and toughness in time to have the last ability trigger or to stop it from triggering.
+  - *2020-08-07* — Once the last ability has triggered, changing the power or toughness of the creature won't stop you from returning Sword of the Meek and attaching it to the creature.
+  - *2020-08-07* — Sword of the Meek's last ability triggers only if it's in your graveyard immediately after the 1/1 creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/299/sword-of-the-meek) · oracle_id `215c287d-56a5-46da-b49e-8524b6d320a4` · printing: 2XM #299 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Paruns
 
@@ -1261,7 +1567,9 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5447 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/270/sword-of-the-paruns) · oracle_id `cc33444e-da8c-4af5-b3ed-552e91b0e656` · printing: RVR #270 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3e0fd1d6-c57e-47c7-a87f-0487cf5b2786/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-01-12* — If equipped creature becomes tapped, untapped creatures you control will immediately lose the +0/+2 bonus. This may cause nonlethal damage already dealt to them that turn to become lethal. The Paruns would want you to be careful.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/270/sword-of-the-paruns) · oracle_id `cc33444e-da8c-4af5-b3ed-552e91b0e656` · printing: RVR #270 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of the Squeak
 
@@ -1273,7 +1581,11 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/40/sword-of-the-squeak) · oracle_id `6ede28a7-57ea-47d6-a5fb-b0f061da2689` · printing: BLC #40 (2024-08-02) · [rulings](https://api.scryfall.com/cards/a3f4d41d-69a5-412f-aa25-f1acc5cacab2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-26* — If a creature has a characteristic-defining ability that sets its power and toughness, indicated with a */* or similar in the power and toughness box, that ability is taken into account when determining its base power and toughness.
+  - *2024-07-26* — Normally, a creature's base power and toughness are the power and toughness printed on the card or, for a token, the power and toughness set by the effect that created it. If another effect sets a creature's power and toughness to specific numbers or values, those become its base power and toughness. If an effect modifies a creature's power and/or toughness without setting them, that is not included when determining its base power and toughness.
+  - *2024-07-26* — Some creatures have base power and toughness 0/0 and an ability that gives them a bonus based on some criteria. Those are not characteristic-defining abilities, and that ability doesn't change its base power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/40/sword-of-the-squeak) · oracle_id `6ede28a7-57ea-47d6-a5fb-b0f061da2689` · printing: BLC #40 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Truth and Justice
 
@@ -1285,7 +1597,16 @@
   > Equip {2}
 - **Keywords:** Proliferate, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/229/sword-of-truth-and-justice) · oracle_id `7a8baaf9-e21f-41a0-9f15-80764f6e5e68` · printing: MH1 #229 (2019-06-14) · [rulings](https://api.scryfall.com/cards/2be8d24e-1370-4e85-90f2-66b6d6e9c4a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-06-14* — If a permanent or player you choose while proliferating has more than one kind of counter on it, it will get one more of each of those kinds. This means that if you put a +1/+1 counter on a creature you control with a -1/-1 counter on it, then choose that creature while proliferating, you'll put another of each of those counters on it before state-based actions remove them.
+  - *2019-06-14* — Protection from a color means that the equipped creature can't be blocked by creatures of that color, can't be the target of spells of that color or abilities from sources of that color, can't be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal.
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/229/sword-of-truth-and-justice) · oracle_id `7a8baaf9-e21f-41a0-9f15-80764f6e5e68` · printing: MH1 #229 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Vengeance
 
@@ -1298,6 +1619,7 @@
   > *When wielded by a true believer, it matters little whether the sword is a relic or a replica.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1613 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/395/sword-of-vengeance) · oracle_id `e366afb3-c447-4bde-b358-41c8568142d5` · printing: BLB #395 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f21b5fc1-7611-44ac-ad8d-1f0c6d4fc9a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of War and Peace
@@ -1310,7 +1632,9 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/300/sword-of-war-and-peace) · oracle_id `b10ad415-0aae-4d70-82e6-a4055a40cbe4` · printing: 2XM #300 (2020-08-07) · [rulings](https://api.scryfall.com/cards/46e6f50b-4b18-4aab-a7b0-869f25bc4c40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — You count the cards in the each player's hand when the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/300/sword-of-war-and-peace) · oracle_id `b10ad415-0aae-4d70-82e6-a4055a40cbe4` · printing: 2XM #300 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword of Wealth and Power
 
@@ -1322,7 +1646,15 @@
   > Equip {2}
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/big/26/sword-of-wealth-and-power) · oracle_id `b3a80545-9a8a-46b2-9d8c-b0d66fb68a5d` · printing: BIG #26 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ed9e5041-3c05-4a8a-9f00-081b01685d0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets.
+  - *2024-04-12* — If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2024-04-12* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones.
+  - *2024-04-12* — Protection from instants and from sorceries means that the equipped creature can’t be the target of instant spells, sorcery spells, or abilities from instant or sorcery cards (such as an ability of an instant card that triggers when that card is cycled), and all damage that an instant or sorcery spell or card would deal to it is prevented. Nothing other than these events is prevented or illegal.
+  - *2024-04-12* — The copy created by Sword of Wealth and Power’s delayed triggered ability will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2024-04-12* — The copy made by Sword of Wealth and Power’s delayed triggered ability is created on the stack, so it’s not “cast.”
+  - *2024-04-12* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/big/26/sword-of-wealth-and-power) · oracle_id `b3a80545-9a8a-46b2-9d8c-b0d66fb68a5d` · printing: BIG #26 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword-Point Diplomacy
 
@@ -1333,7 +1665,10 @@
 - **Flavor text** (XLN printing):
   > *"Take my blood if you want. Just don't take my gold!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23209 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/126/sword-point-diplomacy) · oracle_id `ac5585ce-2959-4eaf-af56-5dca8cdfb2d6` · printing: XLN #126 (2017-09-29) · [rulings](https://api.scryfall.com/cards/25750098-02a1-48e4-917d-187c41e111b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — In a multiplayer game, each opponent in turn order chooses whether to pay life for one card before proceeding to the next card. You choose the order to perform this process for the cards, but opponents may discuss them before making any choices. Opponents will then know choices made by earlier opponents when making their choices.
+  - *2017-09-29* — You reveal all three cards before opponents choose whether to pay life for any of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/126/sword-point-diplomacy) · oracle_id `ac5585ce-2959-4eaf-af56-5dca8cdfb2d6` · printing: XLN #126 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swordsman, Sharp Scoundrel
 
@@ -1347,6 +1682,7 @@
   > *"None can match me with the blade!"*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20193 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/116/swordsman-sharp-scoundrel) · oracle_id `2f15abe7-54aa-40ed-a15d-5b827f1c3923` · printing: MSH #116 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6572aafe-18ed-4182-92e9-25f003f5fe3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swordsman's Steel
@@ -1361,6 +1697,7 @@
   > *"How perfectly it sings as it slices! Encore!"*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8432 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/752/swordsmans-steel) · oracle_id `e36100d6-d9ae-454a-bba1-b50a69d5a28f` · printing: MSC #752 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ae4ab04b-a3bd-40ea-9a71-df221cde4496/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swords to Plowshares
@@ -1372,7 +1709,9 @@
 - **Flavor text** (FRC printing):
   > *"The arc of my blade has carved a path of light for the peace that will follow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/37/swords-to-plowshares) · oracle_id `b1544f21-7e98-461b-aed5-e748b0168c52` · printing: FRC #37 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f7e12477-d59f-442b-a678-1be746d0b7be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Use the power of the creature from when it was last on the battlefield to determine how much life is gained.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/37/swords-to-plowshares) · oracle_id `b1544f21-7e98-461b-aed5-e748b0168c52` · printing: FRC #37 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sword-Swallowing Seraph
 
@@ -1385,6 +1724,7 @@
   > {1}{W}, {T}: Put a +1/+1 counter on another target creature with a name sticker on it. Activate only as a sorcery.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29917 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/30/sword-swallowing-seraph) · oracle_id `01efde9a-a20d-4972-b17f-c2d9eb024b0b` · printing: UNF #30 (2022-10-07) · [rulings](https://api.scryfall.com/cards/105f7d98-5288-4867-b081-c0541e5d75cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swordsworn Cavalier
@@ -1397,7 +1737,10 @@
 - **Flavor text** (MOM printing):
   > *The Royal Knights of Belenon are equally practiced in courtesy and combat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27848 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/42/swordsworn-cavalier) · oracle_id `18aa69d5-9611-49fe-8aa4-7b91d5980dbc` · printing: MOM #42 (2023-04-21) · [rulings](https://api.scryfall.com/cards/aa0461fc-4298-45b9-90a0-939093cf2544/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — If Swordsworn Cavalier enters the battlefield, leaves the battlefield, and returns to the battlefield all in the same turn, it will have first strike that turn. It will have no connection to the object it was and see it as “another Knight.”
+  - *2023-04-14* — Swordsworn Cavalier will continue to have first strike even if the other Knight that entered the battlefield that turn has since left the battlefield, has since stopped being a Knight, or another player has gained control of it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/42/swordsworn-cavalier) · oracle_id `18aa69d5-9611-49fe-8aa4-7b91d5980dbc` · printing: MOM #42 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swordwise Centaur
 
@@ -1410,6 +1753,7 @@
   > *The girl who would become the Champion of the Sun hacked furiously at the practice dummy. At last she stopped, breathing heavily, and looked up at her instructor. "So much anger," said the centaur. "I will teach you the ways of war, child. But first you must make peace with yourself."*
   > *—\*The Theriad\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14483 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/142/swordwise-centaur) · oracle_id `5c2e0762-4994-4c34-b33f-909c2b3f0f43` · printing: BNG #142 (2014-02-07) · [rulings](https://api.scryfall.com/cards/1776ebd7-91fc-49e1-a978-f2012162d1cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sworn Companions
@@ -1422,6 +1766,7 @@
   > *"The trouble with youths these days is that, in outright defiance of their elders, they refuse to be bought."*
   > *—Karlov of the Ghost Council*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20003 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/27/sworn-companions) · oracle_id `d1a9fd14-fecb-4d2a-983c-70143238275b` · printing: GRN #27 (2018-10-05) · [rulings](https://api.scryfall.com/cards/2ccfa5c1-69f9-4351-aba3-883fe92c9b98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sworn Defender
@@ -1432,7 +1777,9 @@
 - **Oracle text:**
   > {1}: This creature's power becomes the toughness of target creature blocking or being blocked by this creature minus 1 until end of turn, and its toughness becomes 1 plus the power of that creature until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29080 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/19/sworn-defender) · oracle_id `02197d14-8d9f-4b1f-9ee0-ce8ef690843c` · printing: ALL #19 (1996-06-10) · [rulings](https://api.scryfall.com/cards/328e6ceb-30f7-415e-93b4-7075af0fed89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — You apply power/toughness changing effects in a series of sublayers in the following order: (a) effects from characteristic-defining abilities; (b) effects that set power and/or toughness to a specific number or value; (c) effects that modify power and/or toughness but don’t set power and/or toughness to a specific number or value; (d) changes from counters; (e) effects that switch a creature’s power and toughness. This card’s effect is always applied in (b), which means that effects applied in sublayer (c), (d), or (e) will not be overwritten; they will be applied to the new value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/19/sworn-defender) · oracle_id `02197d14-8d9f-4b1f-9ee0-ce8ef690843c` · printing: ALL #19 (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sworn Guardian
 
@@ -1444,4 +1791,5 @@
 - **Flavor text** (RIX printing):
   > *For the River Heralds, the Immortal Sun is an object of terror and devastation. The idea that anyone would retrieve it for their own use is utterly abhorrent.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30308 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/58/sworn-guardian) · oracle_id `9f63ab29-b86e-4337-b9dd-2b35c8415f90` · printing: RIX #58 (2018-01-19) · [rulings](https://api.scryfall.com/cards/6452ba94-6bb0-409c-99f7-71e6457c3f2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

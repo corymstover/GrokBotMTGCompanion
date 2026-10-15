@@ -21,4 +21,5 @@
   > *"Time is chaos. We supply order."*
   > *—Mobius M. Mobius*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30201 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/761/tva-bureaucrat) · oracle_id `e9638ad1-4e1d-4721-91f5-8cf13d0d0d0d` · printing: MSC #761 (2026-06-26) · [rulings](https://api.scryfall.com/cards/62da11c2-e37d-46e9-b225-ba864b7f2c11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

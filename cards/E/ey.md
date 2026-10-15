@@ -50,6 +50,7 @@
 - **Flavor text** (CMR printing):
   > *"Boggart blood disgusts me almost as much as the foul creatures themselves."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22217 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/123/eyeblight-assassin) · oracle_id `09cacd93-5c20-4993-9ee2-a756204796f7` · printing: CMR #123 (2020-11-20) · [rulings](https://api.scryfall.com/cards/8a480da7-1b5d-41a5-b603-e63af100724a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyeblight Cullers
@@ -64,6 +65,7 @@
   > *—Miara, Thorn of the Glade*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16033 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/48/eyeblight-cullers) · oracle_id `b7d69422-b90b-4149-8c6d-eef636d5c6f5` · printing: KHC #48 (2021-02-05) · [rulings](https://api.scryfall.com/cards/89b47813-9b6c-4e8f-9212-fe37fb50e405/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyeblight Massacre
@@ -76,7 +78,9 @@
   > *"I've already seen so much evil, so much darkness. Why do you insist on adding more?"*
   > *—Nissa Revane, to Dwynen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12294 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/49/eyeblight-massacre) · oracle_id `3b90dd70-798e-4dc4-99e7-b36d6823af2b` · printing: KHC #49 (2021-02-05) · [rulings](https://api.scryfall.com/cards/00652c09-c50c-40da-8f0f-86b5cc3f6c26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-11-10* — Eyeblight Massacre affects only creatures that aren't Elves at the time it resolves. Creatures that enter the battlefield later in the turn won't get -2/-2, and creatures that become Elves or stop being Elves won't get or lose -2/-2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/49/eyeblight-massacre) · oracle_id `3b90dd70-798e-4dc4-99e7-b36d6823af2b` · printing: KHC #49 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyeblight's Ending
 
@@ -88,7 +92,11 @@
   > *"Those without beauty are Lorwyn's greatest tumor. The winnowers have an unpleasant duty, but a necessary one."*
   > *—Eidren, perfect of Lys Alana*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9524 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/75/eyeblights-ending) · oracle_id `9f3e1eef-31db-4e1a-b5a9-ac835f6a3eab` · printing: 2X2 #75 (2022-07-08) · [rulings](https://api.scryfall.com/cards/6738c356-734a-4930-acd3-31dead241bea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/75/eyeblights-ending) · oracle_id `9f3e1eef-31db-4e1a-b5a9-ac835f6a3eab` · printing: 2X2 #75 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye Collector
 
@@ -102,6 +110,7 @@
   > *"Lord Rankle will see you now—all he asks is a small token of tribute."*
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10438 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/86/eye-collector) · oracle_id `553c2006-e123-406e-ab4a-1d1f67c7468c` · printing: ELD #86 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2b9bb2f3-a7c7-4e8f-ba39-44e6acd9240b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye for an Eye
@@ -111,7 +120,10 @@
 - **Oracle text:**
   > The next time a source of your choice would deal damage to you this turn, instead that source deals that much damage to you and Eye for an Eye deals that much damage to that source's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/12/eye-for-an-eye) · oracle_id `22647b1a-5a7c-41b5-b820-b2e9f49c7aad` · printing: ME4 #12 (2011-01-10) · [rulings](https://api.scryfall.com/cards/7b4b8de1-a548-4398-887e-f95b4c15590c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-02-01* — Eye for an Eye must resolve before damage would be dealt to you in order to affect that damage.
+  - *2009-02-01* — The damage dealt to you is still being dealt by the original source. The damage dealt to the other player is being dealt by Eye for an Eye.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/12/eye-for-an-eye) · oracle_id `22647b1a-5a7c-41b5-b820-b2e9f49c7aad` · printing: ME4 #12 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye Gouge
 
@@ -122,7 +134,9 @@
 - **Flavor text** (BNG printing):
   > *One chance. One throw. One perfect hit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28951 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/67/eye-gouge) · oracle_id `89661ef9-cb42-401a-ae45-b57bb8dac033` · printing: BNG #67 (2014-02-07) · [rulings](https://api.scryfall.com/cards/94d4eb34-0529-48a0-ac52-b57cead7b651/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-02-01* — If the target creature is a Cyclops, it will get -1/-1 before it’s destroyed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/67/eye-gouge) · oracle_id `89661ef9-cb42-401a-ae45-b57bb8dac033` · printing: BNG #67 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyekite
 
@@ -137,7 +151,10 @@
   > *—Cyla, Lord of the Aerie*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26753 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/49/eyekite) · oracle_id `fb3f2677-a31d-49ad-a9d1-7324733938d6` · printing: MH1 #49 (2019-06-14) · [rulings](https://api.scryfall.com/cards/49f7bda8-949a-42aa-9254-f39b791cb9a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — Eyekite's effect applies even if you drew two or more cards only before Eyekite entered the battlefield.
+  - *2019-06-14* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," Eyekite's effect doesn't count them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/49/eyekite) · oracle_id `fb3f2677-a31d-49ad-a9d1-7324733938d6` · printing: MH1 #49 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyeless Watcher
 
@@ -151,7 +168,17 @@
   > *Every Eldrazi in Ulamog's lineage is an extension of the titan's will.*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10329 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/166/eyeless-watcher) · oracle_id `ba047b0b-d451-4566-8656-00b00611de8c` · printing: BFZ #166 (2015-10-02) · [rulings](https://api.scryfall.com/cards/4d949d0e-baf7-4573-bb15-7e30e3e9b202/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/166/eyeless-watcher) · oracle_id `ba047b0b-d451-4566-8656-00b00611de8c` · printing: BFZ #166 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Doom
 
@@ -161,7 +188,11 @@
   > When this artifact enters, each player chooses a nonland permanent and puts a doom counter on it.
   > {2}, {T}, Sacrifice this artifact: Destroy each permanent with a doom counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22991 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/243/eye-of-doom) · oracle_id `e808a11e-29bd-4e99-a24e-67fa8f6fe502` · printing: C13 #243 (2013-11-01) · [rulings](https://api.scryfall.com/cards/b48d431d-3ead-417e-8f2a-0189bd1ef9f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2013-10-17* — If a permanent with a doom counter isn’t destroyed by Eye of Doom’s last ability (perhaps because it has indestructible or it regenerated), the doom counter will remain on that permanent.
+  - *2013-10-17* — None of the permanents are targeted. A player can choose a permanent with protection from artifacts, for example.
+  - *2013-10-17* — The active player chooses a permanent first, followed by each other player in turn order. Each player will know what previous players have chosen when making their own choice. Then the doom counters are put on all the chosen permanents simultaneously.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/243/eye-of-doom) · oracle_id `e808a11e-29bd-4e99-a24e-67fa8f6fe502` · printing: C13 #243 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Duskmantle
 
@@ -175,7 +206,11 @@
   > *Most thought the Dimir had been wiped out. This suited the Dimir perfectly.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/27/eye-of-duskmantle) · oracle_id `04e7f739-fe50-440d-aa3d-e547295044a8` · printing: MKC #27 (2024-02-09) · [rulings](https://api.scryfall.com/cards/905fa4ed-e496-43d8-9c4a-38e85d9b7651/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you cast a spell with {X} in its mana cost this way, the only legal choice for X is 0.
+  - *2024-02-02* — You may only cast spells this way by paying the appropriate amount of life. You may not pay their normal costs and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs. If the spell has mandatory additional costs, you must pay those.
+  - *2024-02-02* — “Cards in your graveyard you’ve surveilled this turn” includes cards you put into your graveyard while surveilling. It does not include cards you saw while surveilling, left on top of your library, and then put into your graveyard later that turn by other means.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/27/eye-of-duskmantle) · oracle_id `04e7f739-fe50-440d-aa3d-e547295044a8` · printing: MKC #27 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Jace
 
@@ -187,6 +222,7 @@
   > *All cadets wore the Eye. None discussed how it followed their every move.*
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18105 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/170/eye-of-jace) · oracle_id `c8f802ad-4621-4f71-b52d-fbc55853dc88` · printing: FRA #170 (2026-10-02) · [rulings](https://api.scryfall.com/cards/0edba64a-39cf-4a8d-ba20-4f7da10b6c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Malcator
@@ -198,6 +234,7 @@
   > Whenever another artifact you control enters, this artifact becomes a 4/4 Phyrexian Eye artifact creature until end of turn.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23774 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/50/eye-of-malcator) · oracle_id `7270b5b6-a571-4e6d-91de-03f7cc035b3c` · printing: ONE #50 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7cc4246b-ff59-44b2-acff-c0bb6e4cd6ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Nidhogg
@@ -210,7 +247,18 @@
   > When Eye of Nidhogg is put into a graveyard from the battlefield, return it to its owner's hand.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · [rulings](https://api.scryfall.com/cards/186862e7-91ba-47e9-bc38-e8e20772d40c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2025-06-06* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if Eye of Nidhogg becomes attached to it or unattached from it during that turn.
+  - *2025-06-06* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2025-06-06* — Effects that modify the creature's power and/or toughness without setting base power and/or toughness will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
+  - *2025-06-06* — Eye of Nidhogg may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Eye of Nidhogg will be put into its owner's graveyard as a state-based action once the creature stops being a creature.
+  - *2025-06-06* — Eye of Nidhogg overwrites all colors and creature types the enchanted creature has. It's just a black Dragon. The creature keeps any supertypes it has (such as legendary), as well as any other card types it has (such as enchantment).
+  - *2025-06-06* — Eye of Nidhogg overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
+  - *2025-06-06* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2025-06-06* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2025-06-06* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Nowhere
 
@@ -222,6 +270,7 @@
   > *"Once we prayed to the kaijin for safe voyage. Now we only pray that we can escape their gaze."*
   > *—Hayato, master sailor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19142 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/59/eye-of-nowhere) · oracle_id `27ffdf11-bb7f-40bf-94c4-6bfbc41668e5` · printing: CHK #59 (2004-10-01) · [rulings](https://api.scryfall.com/cards/b307af89-1890-4fac-a12e-f8a678f1101f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Ojer Taq // Apex Observatory
@@ -237,7 +286,13 @@
   > *Though they had never left the Core, the Oltec knew the stars.*
 - **Keywords:** Craft, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12878 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/15/eye-of-ojer-taq-apex-observatory) · oracle_id `0b1557e8-3dd6-4276-8b8e-505e7ea944ec` · printing: LCC #15 (2023-11-17) · [rulings](https://api.scryfall.com/cards/15304957-dbb5-4010-a0a6-27343d4c20a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — Card types that may appear in a normal game of Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes such as snow and basic may not be chosen. Subtypes such as Bird, Equipment, and Forest also may not be chosen. Land may be chosen, but it's not a good idea.
+  - *2023-11-10* — If a card that isn't a transforming double-faced card becomes a copy of a card with craft, it'll stay in exile if you activate the craft ability. It won't return to the battlefield.
+  - *2023-11-10* — If the materials required include multiple objects, you may exile some of them from among permanents you control and the rest from among cards in your graveyard. You don't have to choose all permanents or all cards from your graveyard.
+  - *2023-11-10* — The back faces of some cards with craft refer to cards "used to craft" it. This refers to the cards exiled as part of the cost of the craft ability of the front face. Those cards are considered to be "used to craft" that permanent as long as they remain exiled and the permanent remains on the battlefield, even if the permanent's controller changes or some of its characteristics change (because of a copy effect, for example.)
+  - *2023-11-10* — You may exile tokens you control as part of the materials required. However, because they aren't cards and won't stay in exile, any abilities that refer to what you "used to craft" the back faces won't refer to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/15/eye-of-ojer-taq-apex-observatory) · oracle_id `0b1557e8-3dd6-4276-8b8e-505e7ea944ec` · printing: LCC #15 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Ramos
 
@@ -249,7 +304,9 @@
 - **Flavor text** (MMQ printing):
   > *Ramos wept, and there were seas.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19199 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/294/eye-of-ramos) · oracle_id `a1bdea9f-56d0-411a-9da8-601dd6dc6d32` · printing: MMQ #294 (1999-10-04) · [rulings](https://api.scryfall.com/cards/78d22400-39f6-444d-b508-783a7df7e945/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can activate the sacrifice ability while this card is tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mmq/294/eye-of-ramos) · oracle_id `a1bdea9f-56d0-411a-9da8-601dd6dc6d32` · printing: MMQ #294 (1999-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Singularity
 
@@ -259,7 +316,11 @@
   > When this enchantment enters, destroy each permanent with the same name as another permanent, except for basic lands. They can't be regenerated.
   > Whenever a permanent other than a basic land enters, destroy all other permanents with that name. They can't be regenerated.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25739 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/4/eye-of-singularity) · oracle_id `e13edf92-cdba-4c24-b81b-088b1554fde6` · printing: VIS #4 (1997-02-03) · [rulings](https://api.scryfall.com/cards/fa84e4ad-738a-4d23-a84c-06c39ff4200b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a permanent enters as a copy of another permanent, the permanent it is copying is destroyed and the copy stays on the battlefield.
+  - *2004-10-04* — Since phasing in does not cause enters abilities to trigger, it is possible to phase in a card which is already on the battlefield and not trigger this effect.
+  - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/4/eye-of-singularity) · oracle_id `e13edf92-cdba-4c24-b81b-088b1554fde6` · printing: VIS #4 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of the Storm
 
@@ -268,7 +329,13 @@
 - **Oracle text:**
   > Whenever a player casts an instant or sorcery card, exile it. Then that player copies each instant or sorcery card exiled with this enchantment. For each copy, the player may cast the copy without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11708 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rav/48/eye-of-the-storm) · oracle_id `01f8db27-1191-488e-b0d5-172821613c15` · printing: RAV #48 (2005-10-07) · [rulings](https://api.scryfall.com/cards/49967eb9-5020-4f0a-8775-5114f6d96d75/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2005-10-01* — The ability triggers when a player casts an instant or sorcery *card*. A copy of a card (such as those generated by Eye of the Storm itself) won’t trigger this ability. The card that was cast is exiled and won’t resolve, but the player will get a copy of the spell from Eye of the Storm.
+  - *2005-10-01* — The player chooses modes, pays additional costs, chooses targets, and so on for the copies when casting them. Any X in the mana cost of a copy cast this way will be 0. Alternative costs can’t be paid.
+  - *2005-10-01* — When the ability resolves, the player copies all cards exiled with Eye of the Storm, not just the cards they own. That player then chooses which of those copies to cast, if any. All chosen copies are cast in the order the player chooses.
+  - *2006-01-01* — You must still follow any restrictions on when you can cast the spell, such as “cast only during combat” or “cast only on your own turn.”
+  - *2006-02-01* — When a spell with Replicate is copied by Eye of the Storm, you have the opportunity to pay additional costs, so you may Replicate as much as you like (assuming you have the mana available).
+- **Source flags:** [Scryfall](https://scryfall.com/card/rav/48/eye-of-the-storm) · oracle_id `01f8db27-1191-488e-b0d5-172821613c15` · printing: RAV #48 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Ugin
 
@@ -280,7 +347,11 @@
 - **Flavor text** (MM2 printing):
   > *An eye closes. A race awakens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2931 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · [rulings](https://api.scryfall.com/cards/d2d5124b-4d73-4aa9-9331-88e03779ffad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — Eye of Ugin doesn’t have a mana ability.
+  - *2010-03-01* — Eye of Ugin’s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that’s become colorless due to Mycosynth Lattice.
+  - *2013-04-15* — Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Vecna
 
@@ -292,6 +363,7 @@
 - **Flavor text** (AFR printing):
   > *"I see all things as they truly are! I see . . . decay in all flesh, and betrayal in every heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/243/eye-of-vecna) · oracle_id `371a7bbf-5890-46d8-ae57-f020c103b465` · printing: AFR #243 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b91e2431-500e-441a-881d-094ebef62283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Yawgmoth
@@ -301,6 +373,7 @@
 - **Oracle text:**
   > {3}, {T}, Sacrifice a creature: Reveal a number of cards from the top of your library equal to the sacrificed creature's power. Put one into your hand and exile the rest.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29104 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/129/eye-of-yawgmoth) · oracle_id `e0af613a-05ba-438d-ba74-3f6a9958576c` · printing: NEM #129 (2000-02-14) · [rulings](https://api.scryfall.com/cards/9c258aa1-cd9f-45e9-b478-d689b78850cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes Everywhere
@@ -314,7 +387,11 @@
   > *"They've got eyes inside my head!"*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12430 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/43/eyes-everywhere) · oracle_id `7d0a1ae5-cd93-4789-9666-fc7bbbc6b613` · printing: RVR #43 (2024-01-12) · [rulings](https://api.scryfall.com/cards/cf5aa4a2-f5fb-4771-9dd8-f41d8c65e687/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-01-25* — As Eyes Everywhere’s last ability resolves, Eyes Everywhere must be on the battlefield and the target nonland permanent must be a legal target. If either of these things isn’t true, the ability does nothing.
+  - *2019-01-25* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the effect giving you control of the target nonland permanent ends.
+  - *2019-01-25* — The effect of Eyes Everywhere’s last ability lasts indefinitely. It doesn’t wear off during the cleanup step, and it doesn’t expire if Eyes Everywhere leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/43/eyes-everywhere) · oracle_id `7d0a1ae5-cd93-4789-9666-fc7bbbc6b613` · printing: RVR #43 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes in the Skies
 
@@ -327,7 +404,14 @@
   > *—Zunak, Selesnya strategist*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16773 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/17/eyes-in-the-skies) · oracle_id `9697cd05-474e-46f3-8bcc-d4b6fb2059a1` · printing: RVR #17 (2024-01-12) · [rulings](https://api.scryfall.com/cards/077aafc3-d94c-4ac0-8b7e-aadbb114e4c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/17/eyes-in-the-skies) · oracle_id `9697cd05-474e-46f3-8bcc-d4b6fb2059a1` · printing: RVR #17 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes of Gitaxias
 
@@ -340,6 +424,7 @@
   > *No longer bound by the myopic limitations of flesh, Ekken would truly see the realms.*
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20891 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/57/eyes-of-gitaxias) · oracle_id `7ef6ca6e-a8b8-4ea6-b13d-a08eb847c12d` · printing: MOM #57 (2023-04-21) · [rulings](https://api.scryfall.com/cards/c4303347-3fbd-4bbd-ab3f-e7ddbe0e0a9d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes of the Beholder
@@ -351,6 +436,7 @@
 - **Flavor text** (AFR printing):
   > *In the end, there was nothing beautiful to be seen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21632 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/101/eyes-of-the-beholder) · oracle_id `0fae0474-25ec-474f-8c7f-9e9061835030` · printing: AFR #101 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3f9e5402-690f-497d-ada3-aa41fa900fdd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes of the Watcher
@@ -361,7 +447,9 @@
   > Whenever you cast an instant or sorcery spell, you may pay {1}. If you do, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22140 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/30/eyes-of-the-watcher) · oracle_id `350b3c1c-b37e-4279-9b49-0fb93c5e7e33` · printing: 5DN #30 (2004-06-04) · [rulings](https://api.scryfall.com/cards/f7bb0716-e0fc-415d-8fc3-d3f5ee31e9c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — You do the scrying at the end of the ability’s resolution (assuming you pay {1}).
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/30/eyes-of-the-watcher) · oracle_id `350b3c1c-b37e-4279-9b49-0fb93c5e7e33` · printing: 5DN #30 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyes of the Wisent
 
@@ -373,7 +461,11 @@
   > *Calm as a wisent's watch*
   > *—Elvish expression meaning "safe"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23027 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/210/eyes-of-the-wisent) · oracle_id `3c59ab03-8744-4148-be06-eb1b0147f2cc` · printing: LRW #210 (2007-10-12) · [rulings](https://api.scryfall.com/cards/c6725b96-7390-4599-9d5f-ba08755605af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/210/eyes-of-the-wisent) · oracle_id `3c59ab03-8744-4148-be06-eb1b0147f2cc` · printing: LRW #210 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye Spy
 
@@ -382,6 +474,7 @@
 - **Oracle text:**
   > Look at the top card of target player's library. You may put that card into their graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27542 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/38/eye-spy) · oracle_id `0fef3f4f-18b6-452c-a634-c870709abcf5` · printing: S99 #38 (1999-07-01) · [rulings](https://api.scryfall.com/cards/74d0fa75-41dc-4fe9-af12-d9d4006b708f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye to Eye
@@ -393,6 +486,7 @@
 - **Flavor text** (UNH printing):
   > *True, Gargox had blinded himself for life, but the glass eyes never lost.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/54/eye-to-eye) · oracle_id `38c17cd6-27b1-4e7f-9f38-7e73f815d807` · printing: UNH #54 (2004-11-19) · [rulings](https://api.scryfall.com/cards/0276e9da-73fc-4d27-bbf1-726a37f5d5a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyetwitch
@@ -407,4 +501,9 @@
   > *Oculomancers see the ideal potion ingredient. The bats don't see it that way.*
 - **Keywords:** Flying, Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15819 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/70/eyetwitch) · oracle_id `6a7a5e93-fea8-4aa0-a2b1-73d466220cfb` · printing: STX #70 (2021-04-23) · [rulings](https://api.scryfall.com/cards/1f4d1bb6-cb8f-4d01-9879-0b3a0585cbf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/70/eyetwitch) · oracle_id `6a7a5e93-fea8-4aa0-a2b1-73d466220cfb` · printing: STX #70 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

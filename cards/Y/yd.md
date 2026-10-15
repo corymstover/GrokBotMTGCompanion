@@ -18,4 +18,6 @@
 - **Oracle text:**
   > Whenever this creature blocks, flip a coin. If you lose the flip, remove this creature from combat and it can't block this turn. Creatures it was blocking that had become blocked by only this creature this combat become unblocked.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28271 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/112/ydwen-efreet) · oracle_id `15b9b0cc-47ef-4147-aba7-a7adae41921b` · printing: ME1 #112 (2007-09-10) · [rulings](https://api.scryfall.com/cards/79a0dd6d-8904-467f-b63b-13dfc45232fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — The ability triggers any time Ydwen Efreet blocks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/112/ydwen-efreet) · oracle_id `15b9b0cc-47ef-4147-aba7-a7adae41921b` · printing: ME1 #112 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

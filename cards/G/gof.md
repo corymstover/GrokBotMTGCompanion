@@ -23,7 +23,9 @@
   > *Lukka's bond provided not only friendship, but also the most powerful weapon in his arsenal.*
 - **Keywords:** Fight, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13817 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/122/go-for-blood) · oracle_id `11cf103c-f8a3-4892-942d-2c4472dd5716` · printing: IKO #122 (2020-04-24) · [rulings](https://api.scryfall.com/cards/67315df9-99a1-45ba-8ade-ddc476368a86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — If either target is an illegal target as Go for Blood resolves, no creature will deal or be dealt damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/122/go-for-blood) · oracle_id `11cf103c-f8a3-4892-942d-2c4472dd5716` · printing: IKO #122 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go Forth
 
@@ -36,6 +38,7 @@
 - **Flavor text** (J25 printing):
   > *Spark or no, Nissa would always be an explorer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12872 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/20/go-forth) · oracle_id `a4f3df30-383b-47ad-8576-0ee69349faf5` · printing: J25 #20 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e4ed67f0-85cc-4b1d-b745-e13e5bea3397/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Go for the Throat
@@ -47,4 +50,7 @@
 - **Flavor text** (MOC printing):
   > *When Titania offered peace, Urza merely turned her down. Mishra made her people pay for the insult.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #379 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/250/go-for-the-throat) · oracle_id `2f092562-9e17-43cd-aeb8-d0567f99363e` · printing: MOC #250 (2023-04-21) · [rulings](https://api.scryfall.com/cards/5446e1ba-c745-45b2-ad05-b22abf04daec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
+  - *2022-10-14* — If the targeted creature is also an artifact when Go for the Throat tries to resolve, it won't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/250/go-for-the-throat) · oracle_id `2f092562-9e17-43cd-aeb8-d0567f99363e` · printing: MOC #250 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

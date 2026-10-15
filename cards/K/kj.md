@@ -40,7 +40,10 @@
   > *—Lim-Dûl, the Necromancer*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22361 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/98/kjeldoran-dead) · oracle_id `61e00946-7df7-4298-91b2-c656169e6601` · printing: ME2 #98 (2008-09-22) · [rulings](https://api.scryfall.com/cards/581c6102-99cd-4768-a5d3-3e724490db17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The sacrifice is a triggered ability and not a cost.
+  - *2008-10-01* — When Kjeldoran Dead's "enters" ability resolves, if you don't control any other creatures, you must sacrifice Kjeldoran Dead itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/98/kjeldoran-dead) · oracle_id `61e00946-7df7-4298-91b2-c656169e6601` · printing: ME2 #98 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Elite Guard
 
@@ -52,6 +55,7 @@
 - **Flavor text** (ME2 printing):
   > *The winged helms of the guard are put on for pageants—but taken off for war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31480 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/21/kjeldoran-elite-guard) · oracle_id `a1f6df2a-fc97-44d4-a0d1-902d8df94002` · printing: ME2 #21 (2008-09-22) · [rulings](https://api.scryfall.com/cards/0121644b-9d5e-4f0e-bc39-6532028f7480/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Escort
@@ -66,7 +70,12 @@
   > *—Lovisa Coldeyes, Balduvian Chieftain*
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25549 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/7a/kjeldoran-escort) · oracle_id `1c6c1604-0724-40b1-9df6-71e57e5063c9` · printing: ALL #7a (1996-06-10) · [rulings](https://api.scryfall.com/cards/0fd7536a-5417-4de0-9a48-82a5f82d9af4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/7a/kjeldoran-escort) · oracle_id `1c6c1604-0724-40b1-9df6-71e57e5063c9` · printing: ALL #7a (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Frostbeast
 
@@ -79,7 +88,10 @@
   > *"Two of my Warriors found that the creature was dangerous not only in combat, but also in simple proximity."*
   > *—Disa the Restless, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30899 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/156/kjeldoran-frostbeast) · oracle_id `39050823-ccda-43c0-818d-d5db15d82b99` · printing: ME3 #156 (2009-09-07) · [rulings](https://api.scryfall.com/cards/4d923d51-a6c8-416e-94cf-cac785d29d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — Its ability will destroy all creatures it’s currently blocking or blocked by, not necessarily the creatures it had blocked or become blocked by during that combat phase. For example, if Kjeldoran Frostbeast is dealt lethal combat damage and regenerates, it’s removed from combat. Its ability will trigger at end of combat, but since it’s no longer blocking or blocked by any creatures, the ability won’t do anything.
+  - *2009-10-01* — Kjeldoran Frostbeast’s ability triggers only if it’s still on the battlefield when the end of combat step begins (after the combat damage step). For example, if it blocks a 7/7 creature and is destroyed, its ability won’t trigger at all. The 7/7 will remain on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/156/kjeldoran-frostbeast) · oracle_id `39050823-ccda-43c0-818d-d5db15d82b99` · printing: ME3 #156 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Gargoyle
 
@@ -93,7 +105,10 @@
   > *The gargoyles were taken from the walls of flooded Kjeldoran cities and brought upland to guard the outposts of New Argive.*
 - **Keywords:** Flying, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27348 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/11/kjeldoran-gargoyle) · oracle_id `b82d1104-8a54-4745-ba8b-eeddcb657338` · printing: DMR #11 (2023-01-13) · [rulings](https://api.scryfall.com/cards/6c090af7-3f75-4c14-9ab5-1f409dfd6de1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — Kjeldoran Gargoyle’s triggered ability triggers when it deals any damage, not only combat damage.
+  - *2022-12-08* — Unlike lifelink, Kjeldoran Gargoyle’s last ability is a triggered ability that goes on the stack and may be responded to. Notably, if Kjeldoran Gargoyle deals damage at the same time you’re dealt enough damage to reduce your life total to 0 or less, you’ll lose the game before you can gain any life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/11/kjeldoran-gargoyle) · oracle_id `b82d1104-8a54-4745-ba8b-eeddcb657338` · printing: DMR #11 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Guard
 
@@ -103,6 +118,7 @@
 - **Oracle text:**
   > {T}: Target creature gets +1/+1 until end of turn. When that creature leaves the battlefield this turn, sacrifice this creature. Activate only during combat and only if defending player controls no snow lands.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31454 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/35/kjeldoran-guard) · oracle_id `bd699cf8-56c7-4375-920e-8dd22c83a82c` · printing: ICE #35 (1995-06-03) · [rulings](https://api.scryfall.com/cards/bdf41f17-8f82-4a8c-adec-0f3804faff3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Home Guard
@@ -113,7 +129,10 @@
 - **Oracle text:**
   > At end of combat, if this creature attacked or blocked this combat, put a -0/-1 counter on this creature and create a 0/1 white Deserter creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/22/kjeldoran-home-guard) · oracle_id `5f7ae611-a78d-4535-9d76-755001bda34c` · printing: ME2 #22 (2008-09-22) · [rulings](https://api.scryfall.com/cards/af8fd3bc-2244-45c7-a271-ec982fbc13ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — The ability will trigger only if Kjeldoran Home Guard is still on the battlefield at end of combat. If it’s been dealt lethal combat damage and destroyed during that combat (or has left the battlefield during that combat by any other means), its ability won’t trigger and you won’t get a token.
+  - *2008-10-01* — You put the Deserter token onto the battlefield even if you can’t put a -0/-1 counter on Kjeldoran Home Guard (because it left the battlefield after its ability triggered but before it resolved, for example).
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/22/kjeldoran-home-guard) · oracle_id `5f7ae611-a78d-4535-9d76-755001bda34c` · printing: ME2 #22 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Javelineer
 
@@ -125,7 +144,9 @@
   > {T}: This creature deals damage equal to the number of age counters on it to target attacking or blocking creature.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30785 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/11/kjeldoran-javelineer) · oracle_id `95921d1e-0487-4274-b797-8652e94fc4bc` · printing: CSP #11 (2006-07-21) · [rulings](https://api.scryfall.com/cards/48b0776b-d1ed-4b0d-9684-99978e3e3b46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/11/kjeldoran-javelineer) · oracle_id `95921d1e-0487-4274-b797-8652e94fc4bc` · printing: CSP #11 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Knight
 
@@ -141,7 +162,12 @@
   > *—Arna Kennerüd, Skyknight*
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23632 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/36/kjeldoran-knight) · oracle_id `5d7747b4-061d-4459-ba80-51361526cbfa` · printing: ICE #36 (1995-06-03) · [rulings](https://api.scryfall.com/cards/d5b9db8f-93b5-44e3-9e2b-728c80dfbb37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/36/kjeldoran-knight) · oracle_id `5d7747b4-061d-4459-ba80-51361526cbfa` · printing: ICE #36 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Outpost
 
@@ -152,7 +178,9 @@
   > {T}: Add {W}.
   > {1}{W}, {T}: Create a 1/1 white Soldier creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15058 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/301/kjeldoran-outpost) · oracle_id `8b370db5-dfb9-4ea0-9017-bae3e767b041` · printing: VMA #301 (2014-06-16) · [rulings](https://api.scryfall.com/cards/db90c357-26e3-4ab2-a280-0d8d74b95048/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You have to sacrifice a plains before this card is put onto the battlefield. You have to do this no matter how it is put onto the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/301/kjeldoran-outpost) · oracle_id `8b370db5-dfb9-4ea0-9017-bae3e767b041` · printing: VMA #301 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Outrider
 
@@ -164,6 +192,7 @@
 - **Flavor text** (CSP printing):
   > *"I listen to people. He sniffs the wind. And we both sense something big coming. Something very big."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31940 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/12/kjeldoran-outrider) · oracle_id `7b8559a7-e11f-430d-8a7a-785a7005c4c4` · printing: CSP #12 (2006-07-21) · [rulings](https://api.scryfall.com/cards/bd641b1d-dab8-415b-9655-09e033df761d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Phalanx
@@ -178,7 +207,12 @@
   > *—Avram Garrisson, Leader of the Knights of Stromgald*
 - **Keywords:** First strike, Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27066 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/37/kjeldoran-phalanx) · oracle_id `a8563a4f-a23b-4cb5-b6e5-795bf8d74ee6` · printing: ICE #37 (1995-06-03) · [rulings](https://api.scryfall.com/cards/b6e91ba0-b229-4ab1-84f3-2a490dfa5051/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/37/kjeldoran-phalanx) · oracle_id `a8563a4f-a23b-4cb5-b6e5-795bf8d74ee6` · printing: ICE #37 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Pride
 
@@ -190,7 +224,9 @@
   > {2}{U}: Attach this Aura to target creature other than enchanted creature.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31989 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/9a/kjeldoran-pride) · oracle_id `515fb257-ec07-4978-af16-47a10a22ba3c` · printing: ALL #9a (1996-06-10) · [rulings](https://api.scryfall.com/cards/d0acdf4d-6fdd-4430-9204-9c80dc8fb387/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The activated ability moves this card to a new permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/9a/kjeldoran-pride) · oracle_id `515fb257-ec07-4978-af16-47a10a22ba3c` · printing: ALL #9a (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Royal Guard
 
@@ -202,7 +238,9 @@
 - **Flavor text** (10E printing):
   > *Upon the frozen tundra stand the Kjeldoran Royal Guard, pikes raised, with the king's oath upon their lips.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26874 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/25/kjeldoran-royal-guard) · oracle_id `8137e765-4df9-469f-a527-dee91d58fb7e` · printing: 10E #25 (2007-07-13) · [rulings](https://api.scryfall.com/cards/ea3d742a-52a1-45c8-961a-85b6ff120c44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If you activate the ability but Kjeldoran Royal Guard leaves the battlefield before combat damage is dealt, the combat damage from unblocked creatures won’t be redirected. It will be dealt to you as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/25/kjeldoran-royal-guard) · oracle_id `8137e765-4df9-469f-a527-dee91d58fb7e` · printing: 10E #25 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Skycaptain
 
@@ -216,7 +254,12 @@
   > *—Arna Kennerüd, skyknight*
 - **Keywords:** Flying, First strike, Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/23/kjeldoran-skycaptain) · oracle_id `7160ebce-ee3f-42ac-a3f7-b55f17f2c49f` · printing: ME2 #23 (2008-09-22) · [rulings](https://api.scryfall.com/cards/dc368160-aa0b-4814-8c35-00314e023963/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/23/kjeldoran-skycaptain) · oracle_id `7160ebce-ee3f-42ac-a3f7-b55f17f2c49f` · printing: ME2 #23 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Skyknight
 
@@ -230,7 +273,12 @@
   > *—Arna Kennerüd, Skyknight*
 - **Keywords:** Flying, First strike, Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/40/kjeldoran-skyknight) · oracle_id `b06db20f-84c4-4e2e-a184-3cd70ea0d10d` · printing: ICE #40 (1995-06-03) · [rulings](https://api.scryfall.com/cards/f794665a-8353-482a-b065-2a0777a8acda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/40/kjeldoran-skyknight) · oracle_id `b06db20f-84c4-4e2e-a184-3cd70ea0d10d` · printing: ICE #40 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran War Cry
 
@@ -241,6 +289,7 @@
 - **Flavor text** (CSP printing):
   > *King Darien's breath crystallized and fell to the frozen battlefield, but its command carried true to all soldiers of New Argive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32118 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/13/kjeldoran-war-cry) · oracle_id `e45a1626-d659-4eda-bc6b-bd8119ce7386` · printing: CSP #13 (2006-07-21) · [rulings](https://api.scryfall.com/cards/320b2b02-a3ff-4f68-93e6-8539d7caa005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kjeldoran Warrior
@@ -255,4 +304,9 @@
   > *—Avram Garrisson, Leader of the Knights of Stromgald*
 - **Keywords:** Banding
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22422 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/41/kjeldoran-warrior) · oracle_id `73b70a48-b62c-4fdf-9c2d-c6d6688f9ac8` · printing: ICE #41 (1995-06-03) · [rulings](https://api.scryfall.com/cards/ce76f38f-566e-49ff-b197-510cfa1cb51c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/41/kjeldoran-warrior) · oracle_id `73b70a48-b62c-4fdf-9c2d-c6d6688f9ac8` · printing: ICE #41 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

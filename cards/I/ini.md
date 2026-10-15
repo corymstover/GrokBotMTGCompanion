@@ -22,6 +22,7 @@
   - **P/T:** 4/4
   > {T}: Goka deals 4 damage to target creature that was dealt damage this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29777 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/173/initiate-of-blood-goka-the-unjust) · oracle_id `5b18d2fd-bc65-49a2-b812-c217f125571d` · printing: CHK #173 (2004-10-01) · [rulings](https://api.scryfall.com/cards/b3523b8e-065f-427c-8d5b-eb731ca91ede/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Initiate's Companion
@@ -35,6 +36,7 @@
   > *"I'd like to say that it's our pet, but the reverse may be closer to the truth."*
   > *—Ixor, initiate of Rhet crop*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20252 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/403/initiates-companion) · oracle_id `f3264224-43a4-4c6b-b363-2d147687dfc1` · printing: JMP #403 (2020-07-17) · [rulings](https://api.scryfall.com/cards/380e83c1-e5e3-49b2-bbf3-fad8cc7d020a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Initiates of the Ebon Hand
@@ -48,4 +50,6 @@
   > *"We are no longer Nature's children, but her masters . . . ."*
   > *—Oath of the Ebon Hand*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/169/initiates-of-the-ebon-hand) · oracle_id `0bf359ef-669f-41dc-8ab5-ba8e58b2f398` · printing: 5ED #169 (1997-03-24) · [rulings](https://api.scryfall.com/cards/c83085df-1ffb-4178-9fc0-fd347196673f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Mana which “changes color” as it goes through the Hand forgets its original source because the old mana gets used up and new mana gets generated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/169/initiates-of-the-ebon-hand) · oracle_id `0bf359ef-669f-41dc-8ab5-ba8e58b2f398` · printing: 5ED #169 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

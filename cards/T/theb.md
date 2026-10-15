@@ -56,7 +56,10 @@
   > When The Balrog dies, destroy target artifact or creature an opponent controls.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6702 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/195/the-balrog-durins-bane) · oracle_id `d113af33-d75d-44e4-a8dc-31f8984edc42` · printing: LTR #195 (2023-06-23) · [rulings](https://api.scryfall.com/cards/416880c3-cefb-45ea-bcc3-2ec7a70c8097/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — The Balrog, Durin's Bane's first ability can't reduce its cost to less than {B}{R}.
+  - *2023-06-16* — The Balrog, Durin's Bane's first ability counts every permanent that was sacrificed this turn, by any player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/195/the-balrog-durins-bane) · oracle_id `d113af33-d75d-44e4-a8dc-31f8984edc42` · printing: LTR #195 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Balrog, Flame of Udûn
 
@@ -70,7 +73,9 @@
   > *An evil of the Ancient World, both a shadow and a flame.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21454 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/297/the-balrog-flame-of-ud%C3%BBn) · oracle_id `de12ca82-4824-4975-9a31-309a6d9101a7` · printing: LTR #297 (2023-06-23) · [rulings](https://api.scryfall.com/cards/905e7424-2d0b-4877-a7dc-272ea9392ff0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — The Balrog, Flame of Udûn will be put on the bottom of its owner's library only if it's still on the battlefield when the ability resolves. If it leaves the battlefield before that point, it will stay in whatever zone it's in, even if it's returned to the battlefield before the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/297/the-balrog-flame-of-ud%C3%BBn) · oracle_id `de12ca82-4824-4975-9a31-309a6d9101a7` · printing: LTR #297 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Balrog of Moria
 
@@ -84,7 +89,10 @@
   > When you cycle this card, create two Treasure tokens.
 - **Keywords:** Treasure, Haste, Trample, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4748 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/46/the-balrog-of-moria) · oracle_id `d73191d8-6f94-4fba-acd2-2d0490e3ac00` · printing: LTC #46 (2023-06-23) · [rulings](https://api.scryfall.com/cards/2a3fcfdc-f2cf-42d8-8bb4-7308bc12746e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+  - *2023-06-16* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as Saruman's Trickery) won't affect them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/46/the-balrog-of-moria) · oracle_id `d73191d8-6f94-4fba-acd2-2d0490e3ac00` · printing: LTC #46 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bath Song
 
@@ -95,7 +103,10 @@
   > I, II — Draw two cards, then discard a card.
   > III — Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4969 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/40/the-bath-song) · oracle_id `bc475376-54eb-4846-9cfc-5fa2e7908905` · printing: LTR #40 (2023-06-23) · [rulings](https://api.scryfall.com/cards/fb11c04f-6f17-4da4-bbf6-0bd09de6e544/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — The Bath Song's final chapter ability is not a mana ability. It uses the stack and can be responded to.
+  - *2023-06-16* — You can choose no targets for The Bath Song's final chapter ability just to add {U}{U}. However, if you do choose targets, and all of those targets are illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't add {U}{U}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/40/the-bath-song) · oracle_id `bc475376-54eb-4846-9cfc-5fa2e7908905` · printing: LTR #40 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Battle of Bywater
 
@@ -107,7 +118,11 @@
   > *The Tooks marched in with Pippin at their head. Merry now had enough sturdy Hobbitry to deal with the ruffians.*
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1858 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/2/the-battle-of-bywater) · oracle_id `a94c191d-a938-458e-bc1b-2f44fd8873a3` · printing: LTR #2 (2023-06-23) · [rulings](https://api.scryfall.com/cards/9bae7a4d-9117-43c5-a048-80a0ddadc034/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/2/the-battle-of-bywater) · oracle_id `a94c191d-a938-458e-bc1b-2f44fd8873a3` · printing: LTR #2 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Battle of Dragon Brothers // Fate Reforged
 
@@ -125,6 +140,7 @@
   > III — (Both) Exile Fate Reforged, then return it to the battlefield (Front face up).
 - **Keywords:** Transform, Manifest
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RC07b/the-battle-of-dragon-brothers-fate-reforged) · oracle_id `8d75c41f-8318-4944-ac20-b12904c7883f` · printing: UNK #RC07b (2024-08-03) · [rulings](https://api.scryfall.com/cards/6ad2d87a-1ddb-4803-8995-c4c6027d9c74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Beamtown Bullies
@@ -137,6 +153,7 @@
   > {T}: Target opponent whose turn it is puts target nonlegendary creature card from your graveyard onto the battlefield under their control. It gains haste. Goad it. At the beginning of the next end step, exile it. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
 - **Keywords:** Goad, Vigilance, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12160 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/6/the-beamtown-bullies) · oracle_id `62d394e1-6e7d-4703-8fd8-494f0f043876` · printing: NCC #6 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f0455a79-15f4-4ea6-87ae-263ce943cfac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bearded Teakeeper
@@ -149,6 +166,7 @@
   > Foods you control have "Scald — {2}, {T}, Sacrifice this artifact: It deals 2 damage to target opponent."
 - **Keywords:** Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ02g/the-bearded-teakeeper) · oracle_id `89dd4e7b-1e70-4f69-bd19-652047b9f0cd` · printing: UNK #RZ02g (2026-05-01) · [rulings](https://api.scryfall.com/cards/46226221-861f-4224-96bf-82eb06927468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bear Force Pilot
@@ -161,7 +179,9 @@
 - **Flavor text** (UNK printing):
   > *WHO*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG59/the-bear-force-pilot) · oracle_id `00bcada7-9028-4919-8de2-ddb74c1c7ef8` · printing: UNK #RG59 (2024-02-24) · [rulings](https://api.scryfall.com/cards/b9af422c-f4f6-4497-afcb-b914cdd1e800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-28* — This playtest card recieved errata to clarify that it makes 0/0 tokens https://www.youtube.com/watch?v=L-QhBBzdJpc&t=610
+- **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG59/the-bear-force-pilot) · oracle_id `00bcada7-9028-4919-8de2-ddb74c1c7ef8` · printing: UNK #RG59 (2024-02-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bear Force Pilot Runner
 
@@ -175,6 +195,7 @@
   > *MR 9/19: So you're saying your plan is to errata a previous Unknown card to have this new mechanic now? Will they even notice?*
   > *GV 9/23: Don't worry, I'll fix it in the flavor text.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG59a/the-bear-force-pilot-runner) · oracle_id `cae2a057-95fe-46de-a479-a40c4b3a4b9d` · printing: UNK #RG59a (2024-10-25) · [rulings](https://api.scryfall.com/cards/a8bf5779-a23f-4e0b-8654-be94a749a54d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bears of Littjara
@@ -187,7 +208,22 @@
   > II — Any number of target Shapeshifter creatures you control have base power and toughness 4/4.
   > III — Choose up to one target creature or planeswalker. Each creature with power 4 or greater you control deals damage equal to its power to that permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/205/the-bears-of-littjara) · oracle_id `697f3fd9-1577-4f69-bdf8-db1f673d3505` · printing: KHM #205 (2021-02-05) · [rulings](https://api.scryfall.com/cards/be43a643-6cb7-4bb6-a28d-8ad30b7fbb6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — Any effects that modify the Shapeshifter’s power or toughness without setting it to a specific value will apply after its base power and toughness are set, regardless of the order in which those effects were created. The same is true of counters that modify its power and toughness.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Changeling is a characteristic-defining ability. It functions in all zones, not only while a card that has it is on the battlefield.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type. It will still have changeling; the effect making it all creature types will simply be overwritten.
+  - *2021-02-05* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The chapter II ability overwrites any previous effects that set any of the Shapeshifters’ base power and toughness to specific values. Any effects that set a Shapeshifter’s base power and toughness that start to apply after the chapter II ability will override the effect of that ability.
+  - *2021-02-05* — The effect of the chapter II ability lasts indefinitely. It doesn’t expire at end of turn.
+  - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/205/the-bears-of-littjara) · oracle_id `697f3fd9-1577-4f69-bdf8-db1f673d3505` · printing: KHM #205 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Beast, Deathless Prince
 
@@ -199,6 +235,7 @@
   > The Beast enters tapped with six stun counters on it. (If it would become untapped, remove a stun counter from it instead.)
   > Whenever a creature deals combat damage to its owner, untap The Beast and draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11165 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/114/the-beast-deathless-prince) · oracle_id `ca187570-3634-4296-92b2-1fcd99d150e3` · printing: WHO #114 (2023-10-13) · [rulings](https://api.scryfall.com/cards/6218badd-d352-4e6d-9c84-f1e3f2f84695/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Beleaguered Boxer
@@ -212,6 +249,7 @@
 - **Flavor text** (UNK printing):
   > *FIVE*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ16/the-beleaguered-boxer) · oracle_id `3061c41f-7f58-4f38-afc8-add035cf0c60` · printing: UNK #RZ16 (2024-02-24) · [rulings](https://api.scryfall.com/cards/51c13fe3-57b1-4f12-a2dc-21a8e8d42d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Belligerent
@@ -224,7 +262,12 @@
   > Crew 3
 - **Keywords:** Treasure, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6922 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/225/the-belligerent) · oracle_id `9a0c9023-9431-4f98-b167-ab4c7215319c` · printing: LCI #225 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1454af8c-bce9-47d3-890f-283e2fea2cf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-11-10* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you can't look at the new top card until you finish doing so. This means that if you cast a spell from the top of your library, you can't look at the next one until you're done paying for that spell.
+  - *2023-11-10* — If the top card of your library has an Adventure, you can cast the Adventure spell this way.
+  - *2023-11-10* — Once The Belligerent's triggered ability resolves, you can look at the top card of your library whenever you want until end of turn (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+  - *2023-11-10* — You must pay all costs and follow all timing rules for spells cast and lands played from the top of your library this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/225/the-belligerent) · oracle_id `9a0c9023-9431-4f98-b167-ab4c7215319c` · printing: LCI #225 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Belligerent and Useless Island
 
@@ -238,6 +281,7 @@
   > Crew 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RL01a/the-belligerent-and-useless-island) · oracle_id `3765004c-2146-49fa-b556-ba216302599b` · printing: UNK #RL01a (2023-05-06) · [rulings](https://api.scryfall.com/cards/6ff8c834-9cac-471a-a317-b49e63bdd88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Biblioplex
@@ -248,7 +292,10 @@
   > {T}: Add {C}.
   > {2}, {T}: Look at the top card of your library. If it's an instant or sorcery card, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard. Activate only if you have exactly zero or seven cards in hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16210 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/264/the-biblioplex) · oracle_id `86ed6073-c35c-4d29-9911-5fe191dd875f` · printing: STX #264 (2021-04-23) · [rulings](https://api.scryfall.com/cards/8eae4481-977f-4bb7-bb1a-ab7100e6ba47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you must have exactly zero or seven cards in your hand to activate the last ability, it doesn’t matter how many cards you have in your hand as that ability resolves.
+  - *2021-04-16* — If you don’t choose to either reveal the card or put it into your graveyard, the card stays on top of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/264/the-biblioplex) · oracle_id `86ed6073-c35c-4d29-9911-5fe191dd875f` · printing: STX #264 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Big Idea
 
@@ -259,7 +306,11 @@
   > {2}{B/R}{B/R}, {T}: Roll a six-sided die. Create a number of 1/1 red Brainiac creature tokens equal to the result.
   > Tap three untapped Brainiacs you control: The next time you would roll a six-sided die, instead roll two six-sided dice and use the total of those results.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/76/the-big-idea) · oracle_id `976fb4c7-f330-4b8b-8f87-e6839d9a2880` · printing: UST #76 (2017-12-08) · [rulings](https://api.scryfall.com/cards/2ec4563d-1a83-402c-b209-0e1f740a6523/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If another spell or ability instructs you to roll two dice and use the difference, you can use The Big Idea’s second ability to replace one of those die rolls. First, roll two dice and use their sum. That’s the first result. Then roll one die. That’s the second result. Then figure out the difference between those two results.
+  - *2018-01-19* — If you use the second ability to roll two dice instead of one, any ability that triggers “whenever you roll a die” will trigger twice.
+  - *2018-01-19* — Some cards, like Chittering Doom, care about the results of individual die rolls and not the total if two dice are rolled together. For example, if you use The Big Idea’s second ability to replace one die roll with two and roll two 3s, Chittering Doom’s ability (which triggers whenever you roll 4 or higher on a die) won’t trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/76/the-big-idea) · oracle_id `976fb4c7-f330-4b8b-8f87-e6839d9a2880` · printing: UST #76 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Big Top
 
@@ -270,7 +321,11 @@
 - **Flavor text** (UNF printing):
   > *The glow of the big top can be seen for light years, but its excitement can be felt in the hearts of everyone who's ever been there.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #29236 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/197/the-big-top) · oracle_id `eb6a0eb4-994a-4516-9339-c22e62c40a95` · printing: UNF #197 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7e8c98d7-a5c4-41ce-9179-0f06ae72b7f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — If you’re wearing layers, you can count any garment that other players can see.
+  - *2022-10-07* — There’s wide latitude for what counts as the five colors of mana. Any shade of red qualifies as red, and so on. Some dark shades of purple can likely pass for black mana, and some light shades of yellow can pass for white. We do those on cards sometimes.
+  - *2022-10-07* — You can add any color of mana in Un- games, though, so if you really want turquoise mana, go for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/197/the-big-top) · oracle_id `eb6a0eb4-994a-4516-9339-c22e62c40a95` · printing: UNF #197 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Binding of the Titans
 
@@ -283,7 +338,15 @@
   > III — Return target creature or land card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/886/the-binding-of-the-titans) · oracle_id `f0435065-a8ca-4b4d-a7da-0ef41749118f` · printing: CMM #886 (2023-08-04) · [rulings](https://api.scryfall.com/cards/22c03969-db08-4af3-8c83-b13750e8b20a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2020-01-24* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/886/the-binding-of-the-titans) · oracle_id `f0435065-a8ca-4b4d-a7da-0ef41749118f` · printing: CMM #886 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bird Champion
 
@@ -296,6 +359,7 @@
   > As long as you control twelve or more Birds, you can't lose the game and opponents can't win the game.
 - **Keywords:** Flying, Defender
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06i/the-bird-champion) · oracle_id `d0b15417-9980-4b5f-bc4c-87ad278a878f` · printing: UNK #RZ06i (2026-05-01) · [rulings](https://api.scryfall.com/cards/4bfea33c-0aec-456b-aeef-23878667c2d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Birth of Meletis
@@ -308,7 +372,15 @@
   > II — Create a 0/4 colorless Wall artifact creature token with defender.
   > III — You gain 2 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7562 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/5/the-birth-of-meletis) · oracle_id `1ae54fe7-b1d3-4c13-a8ef-f502cf3eb1a0` · printing: THB #5 (2020-01-24) · [rulings](https://api.scryfall.com/cards/d824f8bd-58f8-4796-80b5-5cd3033d35e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won’t trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2020-01-24* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/5/the-birth-of-meletis) · oracle_id `1ae54fe7-b1d3-4c13-a8ef-f502cf3eb1a0` · printing: THB #5 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Black Arrow
 
@@ -321,6 +393,7 @@
   > Equip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16406 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/171/the-black-arrow) · oracle_id `cb2803ee-825b-420e-b404-c7c44f15ec15` · printing: HOB #171 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ab181190-d53d-4972-8cd5-8e54b45f2276/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Black Breath
@@ -333,7 +406,15 @@
   > *"When the black breath blows, death's shadow grows."*
   > *—A rhyme of old days*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10056 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/78/the-black-breath) · oracle_id `c0afbb32-dc50-436a-bd24-2990c103a4f8` · printing: LTR #78 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1e63983d-c36b-4440-b9e1-baaa6c7c0ba9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/78/the-black-breath) · oracle_id `c0afbb32-dc50-436a-bd24-2990c103a4f8` · printing: LTR #78 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Black Gate
 
@@ -344,7 +425,10 @@
   > {T}: Add {B}.
   > {1}{B}, {T}: Choose a player with the most life or tied for most life. Target creature can't be blocked by creatures that player controls this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1182 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/80/the-black-gate) · oracle_id `40eb9904-dea3-47cf-963a-04821f98ba64` · printing: LTC #80 (2023-06-23) · [rulings](https://api.scryfall.com/cards/46418186-c215-47c4-9d0a-d15a1d8ca613/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-06-16* — The chosen player needs only to have the most life or tied for most life as The Black Gate's last ability resolves. After the ability resolves, any changes in life total won't affect which creatures can block or be blocked that turn.
+  - *2023-06-16* — The creature that was targeted by The Black Gate's last ability can't be blocked by any creature the chosen player controls, including creatures that weren't on the battlefield when The Black Gate's ability resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/80/the-black-gate) · oracle_id `40eb9904-dea3-47cf-963a-04821f98ba64` · printing: LTC #80 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Blackstaff of Waterdeep
 
@@ -354,6 +438,7 @@
   > You may choose not to untap The Blackstaff of Waterdeep during your untap step.
   > Animate Walking Statue — {1}{U}, {T}: Another target nontoken artifact you control becomes a 4/4 artifact creature for as long as The Blackstaff of Waterdeep remains tapped. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20457 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/48/the-blackstaff-of-waterdeep) · oracle_id `a4faed58-4b1b-4cab-8a12-4fcd20b320ab` · printing: AFR #48 (2021-07-23) · [rulings](https://api.scryfall.com/cards/3317cbf3-13a1-4471-a23c-de429941e8a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bloodsky Massacre
@@ -366,7 +451,16 @@
   > II — Whenever a Berserker attacks this turn, you draw a card and you lose 1 life.
   > III — Add {R} for each Berserker you control. Until end of turn, you don't lose this mana as steps and phases end.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/207/the-bloodsky-massacre) · oracle_id `fd9cd2b0-3f43-41a6-b963-c781d0f285e8` · printing: KHM #207 (2021-02-05) · [rulings](https://api.scryfall.com/cards/669975ed-0501-4b48-988d-29c1215179a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+  - *2021-02-05* — The chapter III ability isn’t a mana ability. It uses the stack and can be responded to. Use the number of Berserkers you control as the ability resolves to determine how much {R} to add.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/207/the-bloodsky-massacre) · oracle_id `fd9cd2b0-3f43-41a6-b963-c781d0f285e8` · printing: KHM #207 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Blue Spirit
 
@@ -379,6 +473,7 @@
 - **Flavor text** (TLE printing):
   > *To the Avatar, was the Blue Spirit a friend? A foe? Or something else entirely?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7331 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/90/the-blue-spirit) · oracle_id `497e9c7c-a16d-43e5-a7ec-04153aa2566a` · printing: TLE #90 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d0d1f5b0-f842-40d5-ae51-015eefe68fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Book of Exalted Deeds
@@ -389,7 +484,10 @@
   > At the beginning of your end step, if you gained 3 or more life this turn, create a 3/3 white Angel creature token with flying.
   > {W}{W}{W}, {T}, Exile The Book of Exalted Deeds: Put an enlightened counter on target Angel. It gains "You can't lose the game and your opponents can't win the game." Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/4/the-book-of-exalted-deeds) · oracle_id `046add85-952f-46ac-974a-463d2a7d3fd4` · printing: AFR #4 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a1899bb1-dd8e-4437-8ea3-4ad637eabf2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-07-23* — The Angel won't lose the ability it gains if it stops being an Angel after the ability resolves.
+  - *2021-07-23* — The enlightenment counter placed by the last ability serves as a memory aid. It isn't connected to the granted ability. The Angel keeps that ability even if it loses the counter. Similarly, if the counter is somehow moved to another permanent, that permanent doesn't gain the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/4/the-book-of-exalted-deeds) · oracle_id `046add85-952f-46ac-974a-463d2a7d3fd4` · printing: AFR #4 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Book of Vile Darkness
 
@@ -399,7 +497,11 @@
   > At the beginning of your end step, if you lost 2 or more life this turn, create a 2/2 black Zombie creature token.
   > {T}, Exile The Book of Vile Darkness and artifacts you control named Eye of Vecna and Hand of Vecna: Create Vecna, a legendary 8/8 black Zombie God creature token with indestructible and all triggered abilities of the exiled cards.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15371 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/91/the-book-of-vile-darkness) · oracle_id `fcc666bc-6fea-44e0-94bc-462c742db528` · printing: AFR #91 (2021-07-23) · [rulings](https://api.scryfall.com/cards/05dcff61-8c48-401f-a31f-5fc53a298356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — In some strange cases, you might make something into a copy of the Eye and/or Hand of Vecna and then exile that copy to activate The Book of Vile Darkness's ability. The ability that creates Vecna will look at the cards in exile, not the permanents on the battlefield, so it's possible to have Vecna gain different triggered abilities.
+  - *2021-07-23* — In the vast majority of cases, Vecna will gain the triggered ability printed on Hand of Vecna and the two triggered abilities printed on Eye of Vecna.
+  - *2021-07-23* — The Book of Vile Darkness has received an update to its Oracle text. Specifically, the triggered abilities that Vecna gains are part of its copiable values. This means any enters-the-battlefield triggered abilities it gains (such as the one from Eye of Vecna) will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/91/the-book-of-vile-darkness) · oracle_id `fcc666bc-6fea-44e0-94bc-462c742db528` · printing: AFR #91 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Boulder, Ready to Rumble
 
@@ -412,7 +514,14 @@
   > *"The Boulder's gonna win this in a landslide!"*
 - **Keywords:** Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4960 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/168/the-boulder-ready-to-rumble) · oracle_id `d33ee141-a880-4368-a274-a6ae2f2c624b` · printing: TLA #168 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ec27a466-5457-44c6-a842-1de7d3788d66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/168/the-boulder-ready-to-rumble) · oracle_id `d33ee141-a880-4368-a274-a6ae2f2c624b` · printing: TLA #168 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Brewing Chef
 
@@ -423,6 +532,7 @@
   > When The Brewing Chef enters, look at the top six cards of your library. You may reveal a card from among them that creates a token and put it into your hand. Put the rest on the bottom of your library in a random order.
   > Creature tokens you control get +1/+1 for each differently named token you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ05/the-brewing-chef) · oracle_id `46a87237-ff14-4b74-ba7f-ad21ab5ee837` · printing: UNK #RZ05 (2025-06-20) · [rulings](https://api.scryfall.com/cards/c5cbebb7-2adc-470e-ad31-ea0945085b1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bringer of the Red Beard
@@ -435,6 +545,7 @@
   > Red creatures you control get +1/+0.
   > Equipped creatures you control get +1/+0.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR02a/the-bringer-of-the-red-beard) · oracle_id `c6c156bc-15ae-4a99-a33d-1e7cca6ee298` · printing: UNK #RR02a (2026-05-01) · [rulings](https://api.scryfall.com/cards/e6de972a-c817-45f1-bb4f-34b4a5bcc681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Brothers' War
@@ -447,7 +558,11 @@
   > II — Choose two target players. Until your next turn, each creature they control attacks the other chosen player each combat if able.
   > III — This Saga deals X damage to any target and X damage to any other target, where X is the number of artifacts you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12553 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/22/the-brothers-war) · oracle_id `43040c34-acad-4d62-893d-fd606fa9d8fe` · printing: BRC #22 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5615a50b-3b8b-4d31-b351-1725b730ef0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/22/the-brothers-war) · oracle_id `43040c34-acad-4d62-893d-fd606fa9d8fe` · printing: BRC #22 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Brute
 
@@ -461,6 +576,7 @@
   > *After years of being bullied, Fergo reaped the benefits of his newfound strength: he never met a man he didn't want to fight.*
 - **Keywords:** Regenerate, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24815 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/272/the-brute) · oracle_id `99587b7a-cbd0-4ade-b517-50aaf0635fb1` · printing: 5ED #272 (1997-03-24) · [rulings](https://api.scryfall.com/cards/d3ded8fa-facf-4196-8964-56ebc6424be1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Bus Runner
@@ -472,4 +588,5 @@
   > When The Bus Runner enters, create a 4/4 Desert Vehicle artifact land token with crew 2. Put eight hour counters on it. It has "{T}: Add {C}" and "Whenever this token or a Gamer you control becomes tapped, remove an hour counter from this token. Then if it has no hour counters on it, each opponent loses 1 life, you gain 1 life, and put eight hour counters on this token."
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04m/the-bus-runner) · oracle_id `bb880c24-2c75-4f27-b2e0-2b44309f5a17` · printing: UNK #RZ04m (2024-10-25) · [rulings](https://api.scryfall.com/cards/08c5e454-4ba9-4c01-a95a-ef44e3d629d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

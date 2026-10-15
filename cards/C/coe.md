@@ -27,6 +27,7 @@
   > *—Lazav*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23842 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/217/coerced-confession) · oracle_id `49b84c50-ca0a-4947-8225-ae41aa08e1f1` · printing: GTC #217 (2013-02-01) · [rulings](https://api.scryfall.com/cards/d76102f1-b05f-472b-81cf-eae424c55638/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coerced to Kill
@@ -42,7 +43,10 @@
   > *—Alquist Proft*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18244 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/192/coerced-to-kill) · oracle_id `3a007dbd-18fd-44d1-a305-7cc8dd6231eb` · printing: MKM #192 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2dc9f352-5076-4b5f-9815-cf47abb63d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — Coerced to Kill overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
+  - *2024-02-02* — Effects that modify a creature's power and/or toughness, such as the effect of Auspicious Arrival, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/192/coerced-to-kill) · oracle_id `3a007dbd-18fd-44d1-a305-7cc8dd6231eb` · printing: MKM #192 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercion
 
@@ -54,6 +58,7 @@
   > *"There's very little that escapes me, Greven. And you will escape very little if you fail."*
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/86/coercion) · oracle_id `68413337-ddb9-46f8-8c8e-f3d2d672c652` · printing: TPR #86 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8c0459ca-1646-46a0-9fc2-709b321bb41f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Impetus
@@ -66,7 +71,13 @@
   > Whenever enchanted creature attacks, you draw a card and lose 1 life.
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/24/coercive-impetus) · oracle_id `dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9` · printing: SOC #24 (2026-04-24) · [rulings](https://api.scryfall.com/cards/f98ca390-d2ea-41c8-93ed-57fcd22737d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2026-03-20* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2026-03-20* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2026-03-20* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2026-03-20* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/24/coercive-impetus) · oracle_id `dbb8a3d9-6b1b-4ad1-b8b9-f92ead03d1d9` · printing: SOC #24 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Portal
 
@@ -76,7 +87,13 @@
   > Will of the council — At the beginning of your upkeep, starting with you, each player votes for carnage or homage. If carnage gets more votes, sacrifice this artifact and destroy all nonland permanents. If homage gets more votes or the vote is tied, draw a card.
 - **Keywords:** Will of the council
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vma/266/coercive-portal) · oracle_id `eea4feef-2595-4ed2-92a0-11ccb3e7d40e` · printing: VMA #266 (2014-06-16) · [rulings](https://api.scryfall.com/cards/18e8c013-1a56-4894-a4f5-6ec564bcbe9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2014-05-29* — Because the votes are cast in turn order, each player will know the votes of players who voted beforehand.
+  - *2014-05-29* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
+  - *2014-05-29* — Players can't do anything after they finish voting but before the spell or ability that included the vote finishes resolving.
+  - *2014-05-29* — The phrase "the vote is tied" refers only to when there is more than one choice that received the most votes. For example, if a 5-player vote from among three different choices ends 3 votes to 1 vote to 1 vote, the vote isn't tied.
+  - *2014-05-29* — You must vote for one of the available options. You can't abstain.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vma/266/coercive-portal) · oracle_id `eea4feef-2595-4ed2-92a0-11ccb3e7d40e` · printing: VMA #266 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Recruiter
 
@@ -88,7 +105,10 @@
 - **Flavor text** (LCC printing):
   > *"Choose, vampire: our hat on your head, or no hat, no head."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3758 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/222/coercive-recruiter) · oracle_id `ad33530c-a8df-4c1c-a863-501e583290b6` · printing: LCC #222 (2023-11-17) · [rulings](https://api.scryfall.com/cards/16a1d084-34f1-4278-ae54-d0dac288b1da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — Coercive Recruiter's ability can target any creature, even one that's untapped or one you already control. It can even target itself or the creature that caused the ability to trigger.
+  - *2020-11-10* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/222/coercive-recruiter) · oracle_id `ad33530c-a8df-4c1c-a863-501e583290b6` · printing: LCC #222 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coeurl
 
@@ -100,4 +120,5 @@
 - **Flavor text** (FIN printing):
   > *A lean and limber predator whose whiskers acquire charge from naturally-occurring electric particles in the atmosphere.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17537 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/12/coeurl) · oracle_id `00d1596a-c3e2-4109-86da-388934a0c652` · printing: FIN #12 (2025-06-13) · [rulings](https://api.scryfall.com/cards/7604b534-5480-42fa-bc36-bbae730f8582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

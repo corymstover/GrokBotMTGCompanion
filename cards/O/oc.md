@@ -34,7 +34,9 @@
 - **Flavor text** (FRC printing):
   > *In a single unending moment, a hundred lifetimes of knowledge coursed through his unraveling mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8203 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/43/occult-epiphany) · oracle_id `6df1c314-b97b-4bbc-8b7e-a07785347a49` · printing: FRC #43 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e5fcfaff-2fd0-46d8-b863-ad25558c9e95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — The card types that you can discard include artifact, creature, enchantment, land, planeswalker, instant, and sorcery. Legendary, basic, and snow are supertypes, not card types. Human, Equipment, and Aura are subtypes, not card types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/43/occult-epiphany) · oracle_id `6df1c314-b97b-4bbc-8b7e-a07785347a49` · printing: FRC #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Occupation of Kulrath
 
@@ -46,6 +48,7 @@
   > When this battle enters, you may discard a card. If you do, draw a card.
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR02b/occupation-of-kulrath) · oracle_id `99763d8f-a251-47b9-83e6-153a023628c0` · printing: UNK #RR02b (2026-05-01) · [rulings](https://api.scryfall.com/cards/552e0b57-dd5f-46cc-bfa0-35908908f385/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Occupation of Llanowar
@@ -57,6 +60,7 @@
   > (Any opponent may attack this battle. When an opponent defeats this, exile it, then put it onto the battlefield under that player's control with 4 defense counters. This is different from sieges!)
   > At the beginning of your combat step, put a +1/+1 counter on target creature you control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG11/occupation-of-llanowar) · oracle_id `e504070d-f38d-4240-b602-6d4e38c9155a` · printing: UNK #RG11 (2023-05-06) · [rulings](https://api.scryfall.com/cards/0ccb6224-276f-4452-a57b-602b589fba3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oceanus Dragon
@@ -69,6 +73,7 @@
   > When this creature enters, tap target creature an opponent controls. Goad it. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
 - **Keywords:** Flying, Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18992 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/87/oceanus-dragon) · oracle_id `bf5d44e7-9ff1-4c9a-a62e-628aa5be720d` · printing: CLB #87 (2022-06-10) · [rulings](https://api.scryfall.com/cards/3fda8b66-fdf1-43e9-9d65-60b991348aac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ocelot Pride
@@ -82,7 +87,19 @@
   > At the beginning of your end step, if you gained life this turn, create a 1/1 white Cat creature token. Then if you have the city's blessing, for each token you control that entered this turn, create a token that's a copy of it.
 - **Keywords:** Lifelink, Ascend, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1099 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/38/ocelot-pride) · oracle_id `b4ce2c8f-a19c-461e-8a2e-0ec2bd3ebca3` · printing: MH3 #38 (2024-06-14) · [rulings](https://api.scryfall.com/cards/89cf6f57-230f-497e-a14e-ad1e8737fd42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2024-06-07* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2024-06-07* — Any enters-the-battlefield abilities of tokens you create will trigger when they enter the battlefield. Any "As [this permanent] enters the battlefield" or "[This permanent] enters the battlefield with" abilities of the tokens will also work.
+  - *2024-06-07* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to you getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2024-06-07* — Each of the token copies you create copies the original characteristics of the token it's copying as stated by the effect that created that token. The newly created token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — If the creature token created by Ocelot Pride's last ability is your tenth permanent, you'll get the city's blessing before the ability would check to see if you have the city's blessing.
+  - *2024-06-07* — If the original token is copying something else, the token copy you create will use the copiable values of the original token. In most cases, it will be a copy of whatever the original token is copying. If it's copying a permanent or card with {X} in its mana cost, X is 0.
+  - *2024-06-07* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of two, then cast Ocelot Pride, you won't have the city's blessing.
+  - *2024-06-07* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2024-06-07* — Ocelot Pride doesn't need to have been on the battlefield when you gained life. For example, if a creature with lifelink deals combat damage on your turn and you cast Ocelot Pride during your second main phase, its last ability will trigger at the beginning of your end step.
+  - *2024-06-07* — Ocelot Pride's last ability doesn't target any of the tokens.
+  - *2024-06-07* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/38/ocelot-pride) · oracle_id `b4ce2c8f-a19c-461e-8a2e-0ec2bd3ebca3` · printing: MH3 #38 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ochran Assassin
 
@@ -96,7 +113,10 @@
   > *"The dagger is just the distraction. I carry the real killer in a vial at my side."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/194/ochran-assassin) · oracle_id `ef6ecb67-7e49-4d40-84f2-1e7c02960a0d` · printing: GRN #194 (2018-10-05) · [rulings](https://api.scryfall.com/cards/541ef933-64f8-4075-9bd3-97149ac84b2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-10-05* — If a creature the defending player controls can’t block Ochran Assassin for any reason (such as being tapped), then it doesn’t block Ochran Assassin. If there’s a cost associated with having a creature block Ochran Assassin, the defending player isn’t forced to pay that cost, so it doesn’t have to block in that case either.
+  - *2018-10-05* — Remember that a source with deathtouch must deal damage to a creature for that creature to be destroyed. If five creatures block Ochran Assassin while its power is still 1, only one of them (of Ochran Assassin’s controller’s choice) will be the one dealt damage and destroyed. You’ll have to raise Ochran Assassin’s power to destroy more than one creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/194/ochran-assassin) · oracle_id `ef6ecb67-7e49-4d40-84f2-1e7c02960a0d` · printing: GRN #194 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ochre Jelly
 
@@ -109,7 +129,9 @@
   > Split — When this creature dies, if it had two or more +1/+1 counters on it, create a token that's a copy of it at the beginning of the next end step. The token enters with half that many +1/+1 counters on it, rounded down.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/196/ochre-jelly) · oracle_id `2b757d32-09a3-49cd-ada4-84b5335178ce` · printing: AFR #196 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9f23cfb7-c6b6-4f04-abba-5b2a6117ea12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-07-23* — For example, if Ochre Jelly had five +1/+1 counters on it when it dies, the token you create will enter the battlefield with two +1/+1 counters on it. When that token dies, the next one you create will enter with one +1/+1 counter on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/196/ochre-jelly) · oracle_id `2b757d32-09a3-49cd-ada4-84b5335178ce` · printing: AFR #196 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octavia, Living Thesis
 
@@ -122,7 +144,14 @@
   > Magecraft — Whenever you cast or copy an instant or sorcery spell, target creature has base power and toughness 8/8 until end of turn.
 - **Keywords:** Magecraft, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6154 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/103/octavia-living-thesis) · oracle_id `65681a2a-8395-4390-845f-9be974994dcb` · printing: OTC #103 (2024-04-19) · [rulings](https://api.scryfall.com/cards/e9591647-bad3-4015-90d1-1646a9eb4d14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* —  Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* —  For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* —  If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* —  If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* —  Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/103/octavia-living-thesis) · oracle_id `65681a2a-8395-4390-845f-9be974994dcb` · printing: OTC #103 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octomancer
 
@@ -134,7 +163,20 @@
   > At the beginning of each end step, create a token that's a copy of target creature token that entered the battlefield this turn.
 - **Keywords:** Gift
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/37/octomancer) · oracle_id `1cf7e5a0-cc8f-4bf7-9767-2f3bcae26339` · printing: BLC #37 (2024-08-02) · [rulings](https://api.scryfall.com/cards/f260197a-0297-4673-96de-dee915d79353/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-07-26* — Any "enters" abilities of the copied token will trigger when the token enters. Any "as [this permanent] enters" or "[this permanent] enters with" abilities of the copied token will also work.
+  - *2024-07-26* — As an additional cost to cast a spell with gift, you can promise the listed gift to an opponent. That opponent is chosen as part of that additional cost. The gift isn't given at this time; rather, it's given at a later time based on whether or not the spell is a permanent spell.
+  - *2024-07-26* — For instants and sorceries with gift, the gift is given to the appropriate opponent as part of the resolution of the spell. This happens before any of the spell's other effects would take place.
+  - *2024-07-26* — For permanent spells with gift, an ability triggers when that permanent enters if the gift was promised. When that ability resolves, the gift is given to the appropriate opponent.
+  - *2024-07-26* — If a spell for which the gift was promised is countered, doesn't resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won't be given. None of its other effects will happen either.
+  - *2024-07-26* — If the copied token has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If the copied token is copying something else (for example, if the copied token is one previously created by this ability), then the token enters as whatever that token copied.
+  - *2024-07-26* — If you copy a spell for which the gift was promised, the gift was also promised to the same opponent for the copy. If a card or token enters as a copy of a permanent that's already on the battlefield, the gift isn't promised for that new permanent, even if it was promised for the original.
+  - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
+  - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
+  - *2024-07-26* — The token you create copies the original characteristics of the token as stated by the effect that created that token (unless that token is copying something else; see below). It doesn't copy whether that token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2024-07-26* — You can't pay a gift cost more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/37/octomancer) · oracle_id `1cf7e5a0-cc8f-4bf7-9767-2f3bcae26339` · printing: BLC #37 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octo Opus
 
@@ -144,7 +186,15 @@
   > When this enchantment enters, create a 4/4 blue Octopus Performer creature token named Contortionist with "At the beginning of your upkeep, you may fold this token in half." (It becomes 2/2, then 1/1, ½/½, and so on.)
   > Sacrifice this enchantment: Draw a card and an additional card for each of Contortionist's folds.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/54/octo-opus) · oracle_id `aaae8413-2a92-421c-af3f-8fe2284f3506` · printing: UNF #54 (2022-10-07) · [rulings](https://api.scryfall.com/cards/73c590e5-be42-4acc-80ef-b27def8d896b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-10-07* — Creatures in Un- games with power between 0 and 1 still deal damage equal to their power, and players can have fractional life totals. For example, if a ½/½ creature deals combat damage to a player with 10 life, the player will go to 9 ½ life.
+  - *2022-10-07* — If Contortionist is no longer on the battlefield, you may still sacrifice Octo Opus to draw a card.
+  - *2022-10-07* — If an effect instructs you to do something based on Contortionist’s power or toughness that can only be done in whole numbers, such as draw cards, and Contortionist’s power or toughness isn’t a whole number, ignore that instruction. You can’t draw half a card, mill a quarter of a card, etc.
+  - *2022-10-07* — If you control more than one creature named Contortionist as the last ability resolves, perhaps because you created a copy of the token or created more than one to begin with, choose one of them and use its number of folds to determine how many cards to draw.
+  - *2022-10-07* — If you’re not using a printed token or another Magic card to represent the token, you can’t fold it in half. Its power, toughness, and the number of folds it has (zero) remains the same.
+  - *2022-10-07* — Sacrificing Octo Opus has no effect on Contortionist. It will still have the ability to fold in half at the beginning of your upkeep, but doing so is optional.
+  - *2022-10-07* — To represent the token, you have three choices: (1) Use the printed token included in some Unfinity booster packs, (2) use another printed Magic card or token as a substitute, or (3) use anything else, read the next ruling, and be slightly sad.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/54/octo-opus) · oracle_id `aaae8413-2a92-421c-af3f-8fe2284f3506` · printing: UNF #54 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octoprophet
 
@@ -157,6 +207,7 @@
   > *In every swirl of the tide, it sees the awakening of things yet to come.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18438 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/161/octoprophet) · oracle_id `af6cfc23-b64b-4c8a-94b4-69d2b01cb3b9` · printing: JMP #161 (2020-07-17) · [rulings](https://api.scryfall.com/cards/fbbb3f9d-8629-4815-8b7d-f8ec9368b9b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octopus Form
@@ -168,6 +219,7 @@
 - **Flavor text** (TLA printing):
   > *A skilled Waterbender is always well armed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3136 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/66/octopus-form) · oracle_id `6fec368d-374d-4318-861b-ff478ba51a3c` · printing: TLA #66 (2025-11-21) · [rulings](https://api.scryfall.com/cards/ce96a826-53a0-4029-bf34-46779d133b13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Octopus Umbra
@@ -180,7 +232,20 @@
   > Umbra armor (If enchanted creature would be destroyed, instead remove all damage from it and destroy this Aura.)
 - **Keywords:** Umbra armor, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10081 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/11/octopus-umbra) · oracle_id `6d2ce0ba-f2ff-4c2b-ba85-f6c011ebda6c` · printing: C18 #11 (2018-08-10) · [rulings](https://api.scryfall.com/cards/9efcf24c-ad57-4320-9b85-c838f5ed659b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2018-07-13* — Any power- or toughness-modifying effects (those that give +N/+N, for example) and counters will apply to the creature's new base power and toughness, even if they started to apply before Octopus Umbra became attached.
+  - *2018-07-13* — Octopus Umbra overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply to a creature after Octopus Umbra becomes attached to it will overwrite this effect.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor has indestructible, lethal damage and effects that try to destroy it simply have no effect. Umbra armor won't do anything because it won't have to.
+  - *2024-06-07* — If a creature enchanted with an Aura that has umbra armor would be destroyed by multiple state-based actions at the same time (most likely because a creature with deathtouch has dealt damage to that creature greater than or equal to its toughness), umbra armor's effect will replace all of them and save the creature.
+  - *2024-06-07* — If a creature you control is enchanted with multiple Auras that have umbra armor, and the enchanted creature would be destroyed, one of those Auras is destroyed instead—but only one of them. You choose which one because you control the enchanted creature.
+  - *2024-06-07* — If a spell or ability says that it would "destroy" a creature enchanted with an Aura that has umbra armor, that spell or ability is what causes the Aura to be destroyed instead. Umbra armor doesn't destroy the Aura; rather, it changes the effects of the spell or ability. On the other hand, if a spell or ability deals lethal damage to a creature enchanted with an Aura that has umbra armor, the game rules regarding lethal damage cause the Aura to be destroyed, not that spell or ability.
+  - *2024-06-07* — If a spell or ability would destroy both an Aura with umbra armor and the creature it's enchanting at the same time, umbra armor's effect will save the enchanted creature from being destroyed. Instead, the spell or ability will destroy the Aura in two different ways at the same time, but the result is the same as destroying it once.
+  - *2024-06-07* — Some printings of this card refer to the ability "totem armor". This ability's name has been replaced with "umbra armor". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — Umbra armor has no effect if the enchanted creature is put into a graveyard for any other reason, such as if it's sacrificed, if the "legend rule" applies to it, or if its toughness is 0 or less.
+  - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
+  - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
+  - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/11/octopus-umbra) · oracle_id `6d2ce0ba-f2ff-4c2b-ba85-f6c011ebda6c` · printing: C18 #11 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ocular Halo
 
@@ -194,6 +259,7 @@
   > *While the soldier dreams, the eyes stand watch.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/28/ocular-halo) · oracle_id `e649614a-ff23-4234-92f4-6f564cbfe648` · printing: DIS #28 (2006-05-05) · [rulings](https://api.scryfall.com/cards/6c883e75-5c37-44bb-a6c8-f97aa704c739/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oculus
@@ -207,6 +273,7 @@
   > *"In its gaze I saw no mercy, no recognition that I was worthy to exist."*
   > *—Kara Vrist, Neurok agent*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24000 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/29/oculus) · oracle_id `e793ede9-044a-44e9-bc9c-99b0034503eb` · printing: MBS #29 (2011-02-04) · [rulings](https://api.scryfall.com/cards/673bebb4-9c82-40ca-8552-b9030e961005/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oculus Whelp
@@ -221,4 +288,7 @@
   > *Even before Phyrexia's forces arrived on Tarkir, Silumgar's draconic brood had a discerning eye for valuables.*
 - **Keywords:** Flying, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/69/oculus-whelp) · oracle_id `89ff1b0a-0cf3-455e-a381-1d93ef86a41b` · printing: MOM #69 (2023-04-21) · [rulings](https://api.scryfall.com/cards/58b35399-79af-49fa-989e-867a85320cc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-04-14* — A “transformed permanent” is a double-faced permanent with its back face up. Notably, modal double-faced permanents and melded permanents are never transformed permanents, no matter which faces are up.
+  - *2023-04-14* — If Oculus Whelp dies at the same time as your transformed permanents, its ability will trigger, and you’ll draw a card. (This wouldn’t be true if the ability were worded differently, in case you were wondering.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/69/oculus-whelp) · oracle_id `89ff1b0a-0cf3-455e-a381-1d93ef86a41b` · printing: MOM #69 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

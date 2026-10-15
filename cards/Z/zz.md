@@ -19,4 +19,5 @@
 - **Flavor text** (UNH printing):
   > *Tired of always being picked last, the wizard Zzzyxas created the ultimate revenge.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/70/zzzyxass-abyss) · oracle_id `0f863bb9-d73a-485b-b620-fb23510ff6d1` · printing: UNH #70 (2004-11-19) · [rulings](https://api.scryfall.com/cards/d1ead203-b976-46d7-81c7-86ada091a4ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -39,7 +39,10 @@
   > *"The fools have done it."*
   > *—Tishana*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19972 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/175/awakened-amalgam) · oracle_id `909d7e77-ad7c-4af2-88db-f22442cfa531` · printing: RIX #175 (2018-01-19) · [rulings](https://api.scryfall.com/cards/d24b14ea-04f0-4d4b-970e-efc65d64945e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — The ability that defines Awakened Amalgam’s power and toughness works in all zones, not just the battlefield.
+  - *2018-01-19* — To determine the number of differently named lands you control, count each land you control once, but only if its English name isn’t exactly the same as another land you’ve already counted this way. For example, if you control four lands named Plains, two named Island, and one named Drowned Catacomb, Awakened Amalgam is a 3/3 creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/175/awakened-amalgam) · oracle_id `909d7e77-ad7c-4af2-88db-f22442cfa531` · printing: RIX #175 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakened Awareness
 
@@ -51,7 +54,12 @@
   > As long as enchanted permanent is a creature, it has base power and toughness 1/1.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/47/awakened-awareness) · oracle_id `6629e5f3-ac59-48f8-b09c-3b98f59b9922` · printing: NEO #47 (2022-02-18) · [rulings](https://api.scryfall.com/cards/51378e10-2f17-445b-97e9-5c373234ba52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-02-18* — Awakened Awareness will overwrite any previous effects that set the enchanted creature's power and toughness to specific numbers. Effects that otherwise modify the enchanted creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+  - *2022-02-18* — If Awakened Awareness is enchanting a Vehicle that is currently a creature or it becomes a creature later, its base power and toughness will be 1/1, not the power and toughness printed on the Vehicle.
+  - *2022-02-18* — The enchanted creature's toughness becomes 1 before the triggered ability that puts counters on it goes on the stack. If it has damage equal to or greater than its toughness at that point, it will be destroyed before the triggered ability that puts counters on it resolves.
+  - *2022-02-18* — You may cast this spell with X equal to 0 if, for example, you just want an opponent's creature to have base power and toughness 1/1 but not give it counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/47/awakened-awareness) · oracle_id `6629e5f3-ac59-48f8-b09c-3b98f59b9922` · printing: NEO #47 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakener Druid
 
@@ -63,7 +71,13 @@
 - **Flavor text** (JMP printing):
   > *The druids of Mazar treat each seedcone with respect for the warrior it will become.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24330 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/379/awakener-druid) · oracle_id `7e8f5b34-fd16-4307-9104-17b584b25b14` · printing: JMP #379 (2020-07-17) · [rulings](https://api.scryfall.com/cards/7de98df4-9552-4ba6-a324-1669dc077d4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — Awakener Druid's ability affects a land with the land type Forest, not necessarily a land with the name Forest.
+  - *2009-10-01* — Awakener Druid's ability is mandatory. When it enters, you must target a Forest (if there is one), even if you don't control that Forest.
+  - *2009-10-01* — If Awakener Druid and the Treefolk are dealt lethal damage at the same time, both will be destroyed. However, if Awakener Druid leaves the battlefield before the Treefolk is dealt damage, it will immediately revert to being just a land and thus can't be dealt damage.
+  - *2009-10-01* — If Awakener Druid leaves the battlefield before its "enters" ability resolves, nothing happens to the targeted Forest when that ability resolves. It won't become a creature.
+  - *2009-10-01* — If the targeted Forest entered this turn, it will be affected by "summoning sickness" once it becomes a Treefolk. You won't be able to attack with it or use its activated abilities that have {T} in the cost (including its mana ability).
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/379/awakener-druid) · oracle_id `7e8f5b34-fd16-4307-9104-17b584b25b14` · printing: JMP #379 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakening
 
@@ -75,7 +89,9 @@
   > *"There are times when destiny calls forth a people and demands an action. \*Now\* is the time. \*We\* are the people. \*This\* is our action. Charge!"*
   > *—Eladamri, Lord of Leaves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9088 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/101/awakening) · oracle_id `5563427d-ffdc-4bea-ad7d-1605894b8a6c` · printing: STH #101 (1998-03-02) · [rulings](https://api.scryfall.com/cards/59612c02-6028-4953-ac4d-aca94b0ce4b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-05-01* — In Two-Headed Giant, triggers only once per upkeep, not once for each player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/101/awakening) · oracle_id `5563427d-ffdc-4bea-ad7d-1605894b8a6c` · printing: STH #101 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakening of Vitu-Ghazi
 
@@ -86,7 +102,11 @@
 - **Flavor text** (WAR printing):
   > *The Eternal armies advanced on Vitu-Ghazi. At Nissa's command, Vitu-Ghazi advanced on them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11898 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/war/152/awakening-of-vitu-ghazi) · oracle_id `5c326102-005d-463c-b9f7-14b034b66baa` · printing: WAR #152 (2019-05-03) · [rulings](https://api.scryfall.com/cards/b42b2fb4-8016-462c-8764-2639adec931f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-05-03* — Awakening of Vitu-Ghazi doesn’t untap the land that becomes a creature.
+  - *2019-05-03* — Awakening of Vitu-Ghazi’s effect lasts indefinitely. It doesn’t wear off during the cleanup step.
+  - *2019-05-03* — The target land loses the name it had, and its name is just Vitu-Ghazi. It keeps any types and abilities it had.
+- **Source flags:** [Scryfall](https://scryfall.com/card/war/152/awakening-of-vitu-ghazi) · oracle_id `5c326102-005d-463c-b9f7-14b034b66baa` · printing: WAR #152 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakening Zone
 
@@ -97,6 +117,7 @@
 - **Flavor text** (SOC printing):
   > *The ground erupted in time with the hedron's thrum, a dirge of the last days.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1594 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/262/awakening-zone) · oracle_id `f955bc96-d602-4142-a9a2-87009cc7028c` · printing: SOC #262 (2026-04-24) · [rulings](https://api.scryfall.com/cards/13724768-83d3-4da2-82d7-35787c4f9877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Ancient
@@ -110,7 +131,13 @@
   > *Some days you stand to greet the horizon. Other days the horizon stands to greet you.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/126/awaken-the-ancient) · oracle_id `0fd27f59-36ec-4235-8e1f-4a4a14972f4a` · printing: M14 #126 (2013-07-19) · [rulings](https://api.scryfall.com/cards/e4125304-fd68-4051-96d5-625ffa9b0d3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-07-01* — Awaken the Ancient can enchant any land with the subtype Mountain, not just one named Mountain.
+  - *2013-07-01* — Copies of the enchanted Mountain won't be 7/7 red Giant creatures with haste. For example, if Awaken the Ancient is enchanting a basic Mountain, a copy of that creature would just be a basic Mountain.
+  - *2013-07-01* — If the enchanted Mountain stops being a Mountain for any reason, Awaken the Ancient will be put into its owner's graveyard as a state-based action.
+  - *2013-07-01* — The enchanted Mountain retains any other types or subtypes it may have. You can still tap it to add {R}. It can be affected by anything that affects either a land or a creature.
+  - *2013-07-01* — This doesn't count as a creature entering the battlefield. The Mountain was already on the battlefield; it only changed types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/126/awaken-the-ancient) · oracle_id `0fd27f59-36ec-4235-8e1f-4a4a14972f4a` · printing: M14 #126 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Bear
 
@@ -121,6 +148,7 @@
 - **Flavor text** (KTK printing):
   > *When Temur warriors enter the battle trance known as "awakening the bear," they lose all sense of enemy or friend, seeing only threats to the wilderness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16137 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/129/awaken-the-bear) · oracle_id `53dc9795-d26a-4821-afad-8d77d279ffe3` · printing: KTK #129 (2014-09-26) · [rulings](https://api.scryfall.com/cards/803a6ac7-9327-4c2f-b023-93f5f65f83b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Erstwhile
@@ -132,7 +160,9 @@
 - **Flavor text** (RNA printing):
   > *In preparation for the conflict all foresaw, the Golgari called upon an army that had slept for millennia beneath the city.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9315 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/61/awaken-the-erstwhile) · oracle_id `06fa6719-aa4f-4857-8029-e42d01232645` · printing: RNA #61 (2019-01-25) · [rulings](https://api.scryfall.com/cards/ea166114-2f9b-4ca6-b573-1f49f7485580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — The number of Zombie tokens each player creates is equal to the number of cards that player discarded, not the total number of cards discarded.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/61/awaken-the-erstwhile) · oracle_id `06fa6719-aa4f-4857-8029-e42d01232645` · printing: RNA #61 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Honored Dead
 
@@ -145,7 +175,9 @@
   > III — You may discard a card. When you do, return target creature or land card from your graveyard to your hand.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5125 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/170/awaken-the-honored-dead) · oracle_id `5f694917-f434-4459-bc86-caf9ac1c80e7` · printing: TDM #170 (2025-04-11) · [rulings](https://api.scryfall.com/cards/14078a49-2230-4ad7-aea0-0c253813c646/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You don’t choose a target for Awaken the Honored Dead’s final chapter ability at the time it triggers. Rather, a second “reflexive” ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. You may choose the card you just discarded as the target or a card that was already in your graveyard. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/170/awaken-the-honored-dead) · oracle_id `5f694917-f434-4459-bc86-caf9ac1c80e7` · printing: TDM #170 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Inferno
 
@@ -158,6 +190,7 @@
   > *Nothing burns like betrayal.*
 - **Keywords:** Landcycling, Basic landcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27728 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/74/awaken-the-inferno) · oracle_id `e729fce5-a1cf-4e95-9fd5-fccf4f704d31` · printing: FRA #74 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c596c4ec-8480-4be9-a45d-700398a126f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Sky Tyrant
@@ -167,7 +200,10 @@
 - **Oracle text:**
   > When a source an opponent controls deals damage to you, sacrifice this enchantment. If you do, create a 5/5 red Dragon creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23613 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/24/awaken-the-sky-tyrant) · oracle_id `0607b289-74a6-4f3a-b15c-a639244873b6` · printing: C15 #24 (2015-11-13) · [rulings](https://api.scryfall.com/cards/5c3d57d1-1031-45e0-97d1-8e8e3e6ab516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-11-04* — Awaken the Sky Tyrant will trigger once for each source an opponent controls that deals damage to you, but you can sacrifice it only once.
+  - *2015-11-04* — If Awaken the Sky Tyrant isn’t on the battlefield as its ability resolves, you can’t sacrifice it. You won’t get the Dragon in that case.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/24/awaken-the-sky-tyrant) · oracle_id `0607b289-74a6-4f3a-b15c-a639244873b6` · printing: C15 #24 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Sleeper
 
@@ -179,6 +215,7 @@
   > *"Without faith in each other, we truly would have nothing left. Isn't that right, Malach? ...Malach?"*
   > *—Darven, Mirran rebel, last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16640 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/119/awaken-the-sleeper) · oracle_id `d4df1710-7402-45a7-966f-b51ddc087fbe` · printing: ONE #119 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3b92f866-2522-4f2a-a5ca-7d01ad79b927/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Woods
@@ -191,6 +228,7 @@
   > *"We expected the Argothians to stand their ground. We didn't expect the ground itself to stand."*
   > *—Myrel, Shield of Argive*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1334 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/170/awaken-the-woods) · oracle_id `3cc79d36-1a24-4395-8ad1-915a65db8a60` · printing: BRO #170 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1c95f8b8-faba-4412-8d8f-093e2ec903f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe for the Guilds
@@ -202,7 +240,10 @@
 - **Flavor text** (DGM printing):
   > *When the guilds cooperate, the guildless celebrate their peaceful society. When the guilds clash, the guildless just try to keep out of the way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/31/awe-for-the-guilds) · oracle_id `cb50ec2e-cb27-4ee5-a7de-64ab93619cea` · printing: DGM #31 (2013-05-03) · [rulings](https://api.scryfall.com/cards/ec644ac3-07a2-43de-8173-9cc18e2ea2d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — A monocolored creature is exactly one color. (Colorless creatures aren’t monocolored.)
+  - *2013-04-15* — No monocolored creature will be able to block that turn, including monocolored creatures that enter the battlefield after Awe for the Guilds resolves. A creature that’s monocolored when Awe for the Guilds resolves but somehow becomes multicolored before blockers are declared will be able to block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/31/awe-for-the-guilds) · oracle_id `cb50ec2e-cb27-4ee5-a7de-64ab93619cea` · printing: DGM #31 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awesome Presence
 
@@ -215,7 +256,9 @@
   > *"At the core of all power is raw passion." —Gerda Äagesdotter, Archmage of the Unseen*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/23a/awesome-presence) · oracle_id `d6efff61-2087-4f48-a8a8-6c465190dad9` · printing: ALL #23a (1996-06-10) · [rulings](https://api.scryfall.com/cards/80017e84-87bc-4eb8-a663-5c263d8df812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/23a/awesome-presence) · oracle_id `d6efff61-2087-4f48-a8a8-6c465190dad9` · printing: ALL #23a (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe Strike
 
@@ -226,6 +269,7 @@
 - **Flavor text** (MRD printing):
   > *Stunned by the mere presence of the leonin kha, the nim raider quickly fell to its knees.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15642 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/6/awe-strike) · oracle_id `994bcde3-4a76-403d-a6e1-88609a13a99c` · printing: MRD #6 (2003-10-02) · [rulings](https://api.scryfall.com/cards/a5cd231b-7891-42b5-b5de-5112d1230c37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awoken Nephilim
@@ -236,6 +280,7 @@
 - **Oracle text:**
   > During deck construction, name a Nephilim card originally printed in Guildpact. Awoken Nephilim has that card's color identity and is a copy of that card in all zones except it's also Legendary.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ11a/awoken-nephilim) · oracle_id `b890b2d4-4baa-4be6-996f-5333a4a767c8` · printing: UNK #RZ11a (2023-07-29) · [rulings](https://api.scryfall.com/cards/0ec501f0-6eb7-46d4-a679-7545a49b6c64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### AWOL
@@ -245,4 +290,5 @@
 - **Oracle text:**
   > Exile target attacking creature. Then remove it from the game. Then put it into the absolutely-removed-from-the-freaking-game-forever zone.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/2/awol) · oracle_id `3bf1ddcd-efde-4888-92f6-718be495b799` · printing: UND #2 (2020-02-29) · [rulings](https://api.scryfall.com/cards/a3da3387-454c-4c09-b78f-6fcc36c426ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -24,7 +24,17 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12823 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/94/ryan-sinclair) · oracle_id `6c06e2d5-1473-4ce6-bcf6-10dfbbe5f801` · printing: WHO #94 (2023-10-13) · [rulings](https://api.scryfall.com/cards/42684d97-fce6-4a96-9c64-20e2cb382dca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+  - *2023-10-13* — You cast the spell as part of the resolution of Ryan's triggered ability. You can't wait and cast the spell at a later time.
+  - *2023-10-13* — You may pay optional additional costs to cast that spell, such as kicker costs. If it has any mandatory additional costs, you must pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/94/ryan-sinclair) · oracle_id `6c06e2d5-1473-4ce6-bcf6-10dfbbe5f801` · printing: WHO #94 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rydia's Return
 
@@ -38,6 +48,7 @@
   > *"Are you okay? You should be able to move now."*
   > *—Rydia, Summoner of Mist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14123 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/198/rydias-return) · oracle_id `0d007479-c5e8-4aa1-b53e-fa962783deee` · printing: FIN #198 (2025-06-13) · [rulings](https://api.scryfall.com/cards/40a06165-2835-4610-86a1-7f684992fcf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rydia, Summoner of Mist
@@ -50,7 +61,15 @@
   > Summon — {X}, {T}: Return target Saga card with mana value X from your graveyard to the battlefield with a finality counter on it. It gains haste until end of turn. Activate only as a sorcery.
 - **Keywords:** Summon, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4956 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/239/rydia-summoner-of-mist) · oracle_id `a08f79b7-d66f-47da-9670-afd7409c0c5c` · printing: FIN #239 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99450143-6ab5-463d-9e04-e8e6703a8b92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2025-06-06* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2025-06-06* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
+  - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/239/rydia-summoner-of-mist) · oracle_id `a08f79b7-d66f-47da-9670-afd7409c0c5c` · printing: FIN #239 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rysorian Badger
 
@@ -60,7 +79,9 @@
 - **Oracle text:**
   > Whenever this creature attacks and isn't blocked, you may exile up to two target creature cards from defending player's graveyard. If you do, you gain 1 life for each card exiled this way and this creature assigns no combat damage this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30497 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/hml/96/rysorian-badger) · oracle_id `cf9fc317-3184-4999-84ef-945a8842096e` · printing: HML #96 (1995-10-01) · [rulings](https://api.scryfall.com/cards/ab87a387-678b-4913-a0c7-85f0238cee26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hml/96/rysorian-badger) · oracle_id `cf9fc317-3184-4999-84ef-945a8842096e` · printing: HML #96 (1995-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ryusei, the Falling Star
 
@@ -74,4 +95,5 @@
   > *The course of the falling star always ends in ruin.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6065 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/806/ryusei-the-falling-star) · oracle_id `5e99ba3b-dc2b-4c3c-84ce-228d4772cfee` · printing: CLB #806 (2022-06-10) · [rulings](https://api.scryfall.com/cards/68d57ab8-fbe0-4f01-b7f7-2a5cccd2d13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

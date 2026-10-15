@@ -21,4 +21,5 @@
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Treasure, Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4606 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/93/rms-titanic) · oracle_id `6754753d-790e-4a95-a150-76741c4a02d4` · printing: WHO #93 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3f5bcf60-f956-4e0d-beb7-a7f5c1c83692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

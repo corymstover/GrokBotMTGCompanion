@@ -49,7 +49,11 @@
 - **Flavor text** (UNF printing):
   > *There's no defending against public opinion.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/99/art-appreciation) · oracle_id `5f2961e8-83b0-4b76-8654-11b5e17aaa3b` · printing: UNF #99 (2022-10-07) · [rulings](https://api.scryfall.com/cards/88ece617-f845-47e9-8fee-8533db5c7a2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — Art Appreciation doesn’t target the nonland permanent. You choose which one is getting the sticker as the spell resolves.
+  - *2022-10-07* — If you don’t put an art sticker on the permanent because you don’t have any available, the outside person should rate the card’s existing art. Perhaps they should dock you a point or two for your lack of originality. Who are we to say?
+  - *2022-10-07* — The outside person is rating the new art, considering the way the sticker synthesizes with the original art. Does it produce a harmonious aesthetic? Does it make a worthwhile commentary on society? Does it present a fresh viewpoint in a landscape rife with imitation and vapid regurgitation? Or, if they must . . . is the sound effect funny? Sigh.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/99/art-appreciation) · oracle_id `5f2961e8-83b0-4b76-8654-11b5e17aaa3b` · printing: UNF #99 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arteeoh, Dread Scavenger
 
@@ -61,7 +65,9 @@
   > Whenever Arteeoh deals combat damage to a player, you may exchange control of two other target artifacts. When you do, create a token that's a copy of target artifact you don't control, except it's a 1/1 green Squirrel creature token in addition to its other colors and types.
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ph21/2/arteeoh-dread-scavenger) · oracle_id `7c0cd1ae-3c13-443e-b9c2-1e26fba29cae` · printing: PH21 #2 (2021-12-25) · [rulings](https://api.scryfall.com/cards/3d71f719-ff43-44cf-88ac-08429c4c33a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ph21/2/arteeoh-dread-scavenger) · oracle_id `7c0cd1ae-3c13-443e-b9c2-1e26fba29cae` · printing: PH21 #2 (2021-12-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arterial Alchemy
 
@@ -71,7 +77,14 @@
   > When this enchantment enters, create a Blood token for each opponent you have. (It's an artifact with "{1}, {T}, Discard a card, Sacrifice this token: Draw a card.")
   > Blood tokens you control are Equipment in addition to their other types and have "Equipped creature gets +2/+0" and equip {2}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10544 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/23/arterial-alchemy) · oracle_id `dfc982a2-9ae8-4206-a2d7-4dcfcde02451` · printing: VOC #23 (2021-11-19) · [rulings](https://api.scryfall.com/cards/afe2dba0-55f4-460c-aa89-3921414e7ea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-11-19* — Blood tokens stop being Equipment if Arterial Alchemy leaves the battlefield. If any of them are attached to creatures at that time, they become unattached.
+  - *2021-11-19* — If a Blood token is somehow both a creature and an Equipment, it can't be attached to a creature.
+  - *2021-11-19* — If you control more than one Arterial Alchemy, creatures equipped with Blood Equipment will get +2/+0 for each Arterial Alchemy. The equip cost is still {2}.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/23/arterial-alchemy) · oracle_id `dfc982a2-9ae8-4206-a2d7-4dcfcde02451` · printing: VOC #23 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arterial Flow
 
@@ -82,7 +95,11 @@
 - **Flavor text** (RIX printing):
   > *"It is impious to admit, but I do enjoy pirate blood. Something in the salty tang of it, the spice of rebellion."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8700 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/62/arterial-flow) · oracle_id `f5e2fb92-4678-410c-8c83-42aead9d29d3` · printing: RIX #62 (2018-01-19) · [rulings](https://api.scryfall.com/cards/13c41212-9f16-48e0-8c4b-985ce331164b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — Arterial Flow causes each opponent to lose 2 life if you control a Vampire, even if some or all of those players were unable to discard any cards.
+  - *2018-01-19* — In a Two-Headed Giant game, Arterial Flow causes the opposing team to lose 4 life, and each player on that team discards two cards. You gain 2 life.
+  - *2018-01-19* — Whether you control a Vampire is checked as Arterial Flow resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/62/arterial-flow) · oracle_id `f5e2fb92-4678-410c-8c83-42aead9d29d3` · printing: RIX #62 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Dodge
 
@@ -95,7 +112,14 @@
   > *Those who know the alleys and sewers of the Erdwal can disappear like smoke.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4007 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/27/artful-dodge) · oracle_id `c174dcbb-03a0-439c-b3d8-ed61bd46dc67` · printing: DKA #27 (2012-02-03) · [rulings](https://api.scryfall.com/cards/de6ce6aa-e19f-4299-9807-e68920e63c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it’s legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you’re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+  - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/27/artful-dodge) · oracle_id `c174dcbb-03a0-439c-b3d8-ed61bd46dc67` · printing: DKA #27 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Looter
 
@@ -108,6 +132,7 @@
 - **Flavor text** (UNH printing):
   > *PRICELESS PIC PILFERED Painting Found Abandoned in Graveyard Merfolk Decry Wizards' Treatment*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/25/artful-looter) · oracle_id `68097fd5-b2c4-4542-a07e-4e51bcfccdc6` · printing: UNH #25 (2004-11-19) · [rulings](https://api.scryfall.com/cards/0f3ba2a4-3784-4bb5-8a60-7bae80e97eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Maneuver
@@ -119,7 +144,16 @@
   > Rebound (If you cast this spell from your hand, exile it as it resolves. At the beginning of your next upkeep, you may cast this card from exile without paying its mana cost.)
 - **Keywords:** Rebound
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21794 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/4/artful-maneuver) · oracle_id `7b58920e-3e90-44ed-a0e9-4cb1b7359a5b` · printing: DTK #4 (2015-03-27) · [rulings](https://api.scryfall.com/cards/7fcaf67e-ba97-4af9-8c47-dbca703cba35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2015-02-25* — As long as you cast a spell with rebound from your hand, rebound will work regardless of whether you paid its mana cost or an alternative cost you were permitted to pay.
+  - *2015-02-25* — At the beginning of your upkeep, all delayed triggered abilities created by rebound effects trigger. You may handle them in any order. If you want to cast a card this way, you do so as part of the resolution of its delayed triggered ability. Timing restrictions based on the card’s type (if it’s a sorcery) are ignored. Other restrictions, such as “Cast [this spell] only during combat,” must be followed.
+  - *2015-02-25* — Casting the card again due to the delayed triggered ability is optional. If you choose not to cast the card, or if you can’t (perhaps because there are no legal targets available), the card will stay exiled. You won’t get another chance to cast it on a future turn.
+  - *2015-02-25* — If a replacement effect (such as the one created by Rest in Peace) would cause a spell with rebound that you cast from your hand to be put somewhere other than into your graveyard as it resolves, you can choose whether to apply the rebound effect or the other effect as the spell resolves.
+  - *2015-02-25* — If a spell with rebound that you cast from your hand doesn’t resolve for any reason (either because another spell or ability counters it or because all its targets are illegal as it tries to resolve), none of its effects will happen, including rebound. The spell will be put into its owner’s graveyard and you won’t get to cast it again on your next turn.
+  - *2015-02-25* — If you cast a card from exile this way, it will go to its owner’s graveyard when it resolves, fails to resolve, or is countered. It won’t go back to exile.
+  - *2015-02-25* — If you cast a spell with rebound from any zone other than your hand (including your opponent’s hand), rebound will have no effect.
+  - *2015-02-25* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/4/artful-maneuver) · oracle_id `7b58920e-3e90-44ed-a0e9-4cb1b7359a5b` · printing: DTK #4 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Takedown
 
@@ -132,7 +166,9 @@
 - **Flavor text** (GRN printing):
   > *Dimir assassinations are choreographed like dance routines. Each challenge is anticipated and countered with graceful ease.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25159 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/151/artful-takedown) · oracle_id `edc193bf-2987-4c7b-9cf3-69089ff13764` · printing: GRN #151 (2018-10-05) · [rulings](https://api.scryfall.com/cards/4c9e8f24-af62-4d13-bfed-a8b3294b64c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — Artful Takedown’s two modes may each target the same creature, or they may target two different creatures.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/151/artful-takedown) · oracle_id `edc193bf-2987-4c7b-9cf3-69089ff13764` · printing: GRN #151 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arthur, Marigold Knight
 
@@ -144,7 +180,10 @@
   > Whenever Arthur and at least one other creature attack, look at the top six cards of your library. You may put a creature card from among them onto the battlefield tapped and attacking. Put the rest on the bottom of your library in a random order. Return that creature to its owner's hand at end of combat.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8159 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/blc/5/arthur-marigold-knight) · oracle_id `8d6ce07f-b21b-42eb-a3d6-df810664e2be` · printing: BLC #5 (2024-08-02) · [rulings](https://api.scryfall.com/cards/9b3603aa-58a2-41d4-a58f-2b3306876e35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-26* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
+  - *2024-07-26* — You choose the player, planeswalker, or battle the creature you put onto the battlefield is attacking. It doesn't have to be the same player, planeswalker, or battle that Arthur or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blc/5/arthur-marigold-knight) · oracle_id `8d6ce07f-b21b-42eb-a3d6-df810664e2be` · printing: BLC #5 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Blast
 
@@ -155,6 +194,7 @@
 - **Flavor text** (ME4 printing):
   > *The first line of defense against Urza and Mishra, the Artifact Blast achieved widespread fame until an unlucky mage discovered it was useless on the devices the brothers had already created.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18150 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/108/artifact-blast) · oracle_id `2d4aedc5-31c5-4281-98e1-b0c2233c3c8a` · printing: ME4 #108 (2011-01-10) · [rulings](https://api.scryfall.com/cards/9ccecb44-a697-44dd-afd2-3d2546c4595f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Mutation
@@ -167,7 +207,9 @@
   > *"There's nothing technology can build that nature can't eventually reclaim."*
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2579 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/326/artifact-mutation) · oracle_id `e77e8768-3ea8-44f9-aba6-1e023e006946` · printing: NCC #326 (2022-04-29) · [rulings](https://api.scryfall.com/cards/fed09083-a259-4ab5-bb85-aeab9d0b1f7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This spell is countered and you get no Saprolings if the artifact is an illegal target on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/326/artifact-mutation) · oracle_id `e77e8768-3ea8-44f9-aba6-1e023e006946` · printing: NCC #326 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Possession
 
@@ -180,6 +222,7 @@
   > *Any black mage could coax a Thraxodemon to inhabit a magical device.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27148 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/atq/15/artifact-possession) · oracle_id `5c641df8-97d7-484b-8d0e-790279fd6177` · printing: ATQ #15 (1994-03-04) · [rulings](https://api.scryfall.com/cards/587d6ac8-fad8-49e0-862e-636e06628ff9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Unknown Shores
@@ -190,6 +233,7 @@
   > {T}: Add {C}.
   > {1}, {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CL03a/artifact-unknown-shores) · oracle_id `d41a54ec-7bf0-4053-8d59-9bce9e6dbbb5` · printing: UNK #CL03a (2023-02-17) · [rulings](https://api.scryfall.com/cards/c2d79e5d-f5f4-49ec-8d34-ddb71026156b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Ward
@@ -203,6 +247,7 @@
   > Enchanted creature can't be the target of abilities from artifact sources.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26552 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/atq/3/artifact-ward) · oracle_id `9bd3a4bb-cc12-4e5f-a33f-77ab0c7788db` · printing: ATQ #3 (1994-03-04) · [rulings](https://api.scryfall.com/cards/b3a5101a-ec66-4658-950c-9ad49c29b836/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer Class
@@ -217,7 +262,14 @@
   > {5}{U}: Level 3
   > At the beginning of your end step, create a token that's a copy of target artifact you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4156 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/663/artificer-class) · oracle_id `6dccf583-1045-4058-86cc-ebbcc8de080e` · printing: CLB #663 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cf4e9335-06e3-4b27-8fd8-3e44ece89a36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-06-10* — Class is a returning enchantment type. Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2022-06-10* — Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2022-06-10* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2022-06-10* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2022-06-10* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
+  - *2022-06-10* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/663/artificer-class) · oracle_id `6dccf583-1045-4058-86cc-ebbcc8de080e` · printing: CLB #663 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Assistant
 
@@ -229,7 +281,12 @@
   > Whenever you cast a historic spell, scry 1. (Artifacts, legendaries, and Sagas are historic. To scry 1, look at the top card of your library, then you may put that card on the bottom.)
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/44/artificers-assistant) · oracle_id `6191a7eb-04b5-47e6-a31f-43f9aa91d4d7` · printing: DOM #44 (2018-04-27) · [rulings](https://api.scryfall.com/cards/deadf867-b999-49b2-88d8-91da975a3cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2018-04-27* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
+  - *2018-04-27* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
+  - *2018-04-27* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/44/artificers-assistant) · oracle_id `6191a7eb-04b5-47e6-a31f-43f9aa91d4d7` · printing: DOM #44 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Dragon
 
@@ -242,7 +299,14 @@
   > Unearth {3}{R}{R} ({3}{R}{R}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Flying, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18759 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/291/artificers-dragon) · oracle_id `4284ff9f-4085-4874-abc7-95467cb759a5` · printing: BRO #291 (2022-11-18) · [rulings](https://api.scryfall.com/cards/ccd88d6c-7d3a-45b1-85b4-b390d60cae14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-10-14* — Activating a card's unearth ability isn't the same as casting that card. The unearth ability is put on the stack, but the card is not. Spells and abilities that interact with activated abilities (such as Defabricate's second mode) will interact with unearth, but spells and abilities that interact with spells (such as Scatter Ray) will not.
+  - *2022-10-14* — At the beginning of the next end step, a permanent returned to the battlefield with unearth is exiled. This is a delayed triggered ability, and it can be countered by effects such as Defabricate that counter triggered abilities. If the ability is countered, the permanent will stay on the battlefield and the delayed triggered ability won't trigger again. However, the replacement effect will still exile the permanent if it eventually leaves the battlefield.
+  - *2022-10-14* — If a permanent returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead—unless the spell or ability that's causing the permanent to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If that spell or ability later returns the card to the battlefield (as Static Net might, for example), the permanent card will return to the battlefield as a new object with no relation to its previous existence. The unearth effects will no longer apply to it.
+  - *2022-10-14* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will do nothing as it resolves.
+  - *2022-10-14* — The first activated ability affects only artifact creatures you control at the time it resolves. Any artifact creatures that come under your control later in the turn won't be affected.
+  - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/291/artificers-dragon) · oracle_id `4284ff9f-4085-4874-abc7-95467cb759a5` · printing: BRO #291 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Epiphany
 
@@ -253,7 +317,9 @@
 - **Flavor text** (DDU printing):
   > *The artificers of Kaladesh strive ceaselessly for perfection, progress, and the ultimate expression of elegance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14268 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/36/artificers-epiphany) · oracle_id `ed10bb4c-f7ef-4046-8dde-465041b55078` · printing: DDU #36 (2018-04-06) · [rulings](https://api.scryfall.com/cards/f4e6f89d-c73b-4105-9743-95504f0fd866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — If you control at least one artifact as Artificer’s Epiphany resolves, you can’t discard a card, even if you want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/36/artificers-epiphany) · oracle_id `ed10bb4c-f7ef-4046-8dde-465041b55078` · printing: DDU #36 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Hex
 
@@ -267,7 +333,12 @@
   > *—Dack Fayden*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20605 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/85/artificers-hex) · oracle_id `d14d9f44-9cff-4a11-be86-0cea5fe9b551` · printing: M14 #85 (2013-07-19) · [rulings](https://api.scryfall.com/cards/3a5cd9a1-da2e-44ef-9f2e-352dc9f92c50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-07-01* — In some rare cases, the creature the enchanted Equipment is attached to as the ability resolves isn’t the same one as the one it was attached to when it triggered. In such a case, the creature the Equipment is attached to when the ability resolves is destroyed.
+  - *2013-07-01* — Players can’t pay an Equipment’s equip cost to unattach that Equipment to stop Artificer’s Hex from destroying a creature.
+  - *2013-07-01* — The ability checks to see if the enchanted Equipment is attached to a creature as your upkeep begins. If it’s not, the ability won’t trigger at all. If it is, the ability will check again as it tries to resolve. If the enchanted Equipment isn’t attached to a creature at that time, the ability won’t do anything.
+  - *2013-07-01* — This ability triggers at the beginning of the upkeep of the controller of Artificer’s Hex, not the upkeep of the controller of the enchanted Equipment or the creature that Equipment is attached to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/85/artificers-hex) · oracle_id `d14d9f44-9cff-4a11-be86-0cea5fe9b551` · printing: M14 #85 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Intuition
 
@@ -276,6 +347,7 @@
 - **Oracle text:**
   > {U}, Discard an artifact card: Search your library for an artifact card with mana value 1 or less, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12982 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/23/artificers-intuition) · oracle_id `be14b10a-7cac-47fc-a954-685091990291` · printing: 5DN #23 (2004-06-04) · [rulings](https://api.scryfall.com/cards/abe37c88-afd7-45ac-9f84-f4bd881a1462/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificial Evolution
@@ -285,7 +357,17 @@
 - **Oracle text:**
   > Change the text of target spell or permanent by replacing all instances of one creature type with another. The new creature type can't be Wall. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12127 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/67/artificial-evolution) · oracle_id `c5ab6dc9-34af-434f-ae8e-b2389ee6c5ae` · printing: ONS #67 (2002-10-07) · [rulings](https://api.scryfall.com/cards/f46894d1-2503-43fa-938e-7bbf19101d13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2004-10-04* — Alters all occurrences of the chosen word in the text box and the type line of the given card.
+  - *2004-10-04* — Can target a card with no appropriate words on it, or even one with no words at all.
+  - *2004-10-04* — Changing the text of a spell will not allow you to change the targets of the spell because the targets were chosen when the spell was cast. The text change will (probably) cause it to be countered since the targets will be illegal.
+  - *2004-10-04* — If a creature's creature type has been changed by a spell or ability, changing the card's text won't affect or alter the new creature type.
+  - *2004-10-04* — If you change the text of a spell which is to become a permanent, the permanent will retain the text change until the effect wears off.
+  - *2004-10-04* — It can't change a word to the same word. It must be a different word.
+  - *2004-10-04* — It only changes what is printed on the card (or set on a token when it was created or set by a copy effect). It will not change any effects that are on the permanent.
+  - *2004-10-04* — You can't change proper nouns (i.e. card names) such as “Island Fish Jasconius”.
+  - *2004-10-04* — You choose the words to change on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/67/artificial-evolution) · oracle_id `c5ab6dc9-34af-434f-ae8e-b2389ee6c5ae` · printing: ONS #67 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifist Acumen
 
@@ -298,6 +380,7 @@
   > *"It's important to emphasize core principles, but to win duels you must extrapolate your designs to work in a variety of formats."*
   > *—\*Advanced Tethering\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21683 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/73/artifist-acumen) · oracle_id `129b41cf-8327-42f0-b186-1111b42c08ab` · printing: FRA #73 (2026-10-02) · [rulings](https://api.scryfall.com/cards/7d3b720d-f27c-462a-8f80-15748e5086e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artillerize
@@ -310,7 +393,9 @@
 - **Flavor text** (NPH printing):
   > *Phyrexian or Mirran, most goblins stick to the job they know best.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23423 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nph/79/artillerize) · oracle_id `d14a8d90-13c0-4eb0-ab7b-86edb2c7fb96` · printing: NPH #79 (2011-05-13) · [rulings](https://api.scryfall.com/cards/034522ae-f531-44d9-b186-ada046ce0abc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — The artifact or creature is sacrificed as costs are paid. Players can’t respond to the paying of costs by trying to destroy that artifact or creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nph/79/artillerize) · oracle_id `d14a8d90-13c0-4eb0-ab7b-86edb2c7fb96` · printing: NPH #79 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artillery Blast
 
@@ -322,7 +407,10 @@
   > *To conserve ammunition, Jhoira modified ancient Thran artillery cannons to fire gouts of pure Shivan lava.*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25941 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/6/artillery-blast) · oracle_id `dad0b69f-ef33-475b-aebc-3a3ca880feb1` · printing: DMU #6 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0d4d7293-657f-48ac-931b-fb6a44128e6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/6/artillery-blast) · oracle_id `dad0b69f-ef33-475b-aebc-3a3ca880feb1` · printing: DMU #6 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artisan of Forms
 
@@ -333,7 +421,18 @@
   > Heroic — Whenever you cast a spell that targets this creature, you may have this creature become a copy of target creature, except it has this ability.
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17043 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/40/artisan-of-forms) · oracle_id `3e8abec7-1e18-460a-9d88-30969755ebd2` · printing: THS #40 (2013-09-27) · [rulings](https://api.scryfall.com/cards/a7f10198-1eef-4577-b375-b900b15060e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2013-09-15* — Artisan of Forms copies the printed values of the creature plus any copy effects that have been applied to it. It won't copy any other effects that have changed that creature's power, toughness, color, and so on. Artisan of Forms won't copy any counters on the creature, but Artisan of Forms will retain any counters it already had on it.
+  - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+  - *2013-09-15* — If Artisan of Forms becomes a copy of a token creature, it copies the original characteristics of that token as defined by the effect that put it onto the battlefield. It won't become a token creature.
+  - *2013-09-15* — If another creature becomes a copy of Artisan of Forms, it will become a copy of whatever Artisan of Forms is currently copying (if anything), plus it will have the triggered ability.
+  - *2013-09-15* — If the creature is an illegal target when the ability tries to resolve, the ability won't resolve. Artisan of Forms won't become a copy of that creature. It remains whatever it was a copy of.
+  - *2013-09-15* — The copy effect lasts indefinitely. Often, it will last until it is overwritten by another copy effect (if it copies another creature on a future turn, perhaps).
+  - *2013-09-15* — When Artisan of Forms becomes a copy of a creature, it's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
+  - *2013-09-15* — You choose the target for the triggered ability when the ability is put onto the stack. You choose whether or not Artisan of Forms becomes a copy of that creature when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/40/artisan-of-forms) · oracle_id `3e8abec7-1e18-460a-9d88-30969755ebd2` · printing: THS #40 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artisan of Kozilek
 
@@ -345,7 +444,10 @@
   > Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)
 - **Keywords:** Annihilator
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1207 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/801/artisan-of-kozilek) · oracle_id `19409704-09c4-4a4b-a5a7-f95120b425db` · printing: CMM #801 (2023-08-04) · [rulings](https://api.scryfall.com/cards/9312fada-fc31-46ac-b6a1-cfffd776856f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
+  - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/801/artisan-of-kozilek) · oracle_id `19409704-09c4-4a4b-a5a7-f95120b425db` · printing: CMM #801 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artisan's Sorrow
 
@@ -357,7 +459,13 @@
   > *Some seers read bones or entrails. Others just like to break things.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20175 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/151/artisans-sorrow) · oracle_id `115fd5ac-460b-49a3-83ed-9d56a7aecb14` · printing: THS #151 (2013-09-27) · [rulings](https://api.scryfall.com/cards/b4f38f7e-2369-48c9-9121-4b13c29ea869/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2013-09-15* — Scry appears on some spells and abilities with one or more targets. If all of the spell or ability's targets are illegal when it tries to resolve, it won't resolve and none of its effects will happen. You won't scry.
+  - *2013-09-15* — The artifact or enchantment won't be on the battlefield when you scry, unless it regenerated or had indestructible.
+  - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
+  - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
+  - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/151/artisans-sorrow) · oracle_id `115fd5ac-460b-49a3-83ed-9d56a7aecb14` · printing: THS #151 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artist Alley
 
@@ -367,6 +475,7 @@
   > {T}: Add {C}
   > {T}: Add one mana of any color signed in this card's art box by someone who has illustrated a printed Magic card. (You can't add colors besides white, blue, black, red, and green. Sorry, purple and orange enjoyers.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UL01/artist-alley) · oracle_id `a5abcd43-1f9b-4247-9ace-cd04051a131d` · printing: UNK #UL01 (2026-05-01) · [rulings](https://api.scryfall.com/cards/394543dd-7e3e-4d63-94e9-aca879df64b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artistic Process
@@ -379,6 +488,7 @@
   > • Artistic Process deals 2 damage to each creature you don't control.
   > • Create a 3/3 blue and red Elemental creature token with flying. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/108/artistic-process) · oracle_id `0c061a1b-206a-4fcc-92e5-30c8ed9d65c1` · printing: SOS #108 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bce9d933-be58-4301-beb4-07b04d0b69f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artistic Refusal
@@ -394,7 +504,15 @@
   > *Errant wouldn't allow anything to stop her from decorating the streets of New Capenna.*
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7405 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/46/artistic-refusal) · oracle_id `ff192482-3808-4291-a31e-3dfaeb49cda2` · printing: MOM #46 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2bd05f97-ef8b-4cbe-a44b-6501aa5895b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — If you choose both modes, and the target of the first mode is an illegal target at the time Artistic Refusal tries to resolve (probably because that spell has been countered by something else), Artistic Refusal won't resolve and none of its effects will happen. You won't draw or discard any cards.
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/46/artistic-refusal) · oracle_id `ff192482-3808-4291-a31e-3dfaeb49cda2` · printing: MOM #46 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artist's Talent
 
@@ -408,4 +526,15 @@
   > {2}{R}: Level 3
   > If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1557 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/124/artists-talent) · oracle_id `ea734863-5793-49d6-b10e-109432aec0a3` · printing: BLB #124 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8b9e51d9-189b-4dd6-87cb-628ea6373e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-07-26* — Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3.
+  - *2024-07-26* — Each Class starts with only the first of its three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability.
+  - *2024-07-26* — Gaining a level is a normal activated ability. It uses the stack and can be responded to.
+  - *2024-07-26* — Gaining a level won't remove abilities that a Class had at a previous level.
+  - *2024-07-26* — If another effect modifies how much damage a source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, the effect of Artist's Talent's last ability no longer applies.
+  - *2024-07-26* — The additional 2 damage is dealt by the same source as the original source of damage. The damage isn't dealt by Artist's Talent unless Artist's Talent is somehow the original source of that damage.
+  - *2024-07-26* — The cost reduction applies only to generic mana in the total cost of noncreature spells you cast.
+  - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
+  - *2024-07-26* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/124/artists-talent) · oracle_id `ea734863-5793-49d6-b10e-109432aec0a3` · printing: BLB #124 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -106,7 +106,9 @@
   > At the beginning of each opponent's upkeep, the next time they would draw a card this turn, instead they exile the top card of their library. They may play it this turn.
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4463 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/129/urabrask-heretic-praetor) · oracle_id `3fe61a65-b1c0-4d15-b379-e4ce22c96941` · printing: SNC #129 (2022-04-29) · [rulings](https://api.scryfall.com/cards/d9a4ec18-1da4-43c6-a79a-03fbd4aef3db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-04-29* — Players must pay all costs and follow all normal timing rules for cards played this way. For example, players may play a land card this way only during a main phase of their own turn when the stack is empty, and only if they haven't yet played a land this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/129/urabrask-heretic-praetor) · oracle_id `3fe61a65-b1c0-4d15-b379-e4ce22c96941` · printing: SNC #129 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urabrask's Anointer
 
@@ -118,6 +120,7 @@
 - **Flavor text** (ONE printing):
   > *"You were so eager to spy on my work, I assume you'll appreciate a hands-on demonstration."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21807 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/152/urabrasks-anointer) · oracle_id `a09c134b-7802-4526-9250-ec5cc637d9c0` · printing: ONE #152 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b3ef034f-37e5-4baa-a7a9-5fd0de792535/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urabrask's Forge
@@ -127,6 +130,7 @@
 - **Oracle text:**
   > At the beginning of combat on your turn, put an oil counter on this artifact, then create an X/1 red Phyrexian Horror creature token with trample and haste, where X is the number of oil counters on this artifact. Sacrifice that token at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2568 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/153/urabrasks-forge) · oracle_id `7c4b2203-a937-4d91-8e39-2283fe686b45` · printing: ONE #153 (2023-02-10) · [rulings](https://api.scryfall.com/cards/68f9f9d8-9ea0-4608-a79c-a09a87918186/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urabrask // The Great Work
@@ -144,7 +148,12 @@
   > III — Until end of turn, you may cast instant and sorcery spells from any graveyard. If a spell cast this way would be put into a graveyard, exile it instead. Exile this Saga, then return it to the battlefield (front face up).
 - **Keywords:** Transform, First strike, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1903 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/169/urabrask-the-great-work) · oracle_id `4b1da9aa-a30c-44b8-a10e-f9dc3fe70b6f` · printing: MOM #169 (2023-04-21) · [rulings](https://api.scryfall.com/cards/712fb9e5-bd67-4173-a2d4-061aeb6253b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-04-14* — After chapter III of The Great Work resolves, casting spells from graveyards follows the normal rules for casting those cards. You must pay their costs, and you must follow all applicable timing rules. For example, to cast a sorcery spell from a graveyard, you can do so by paying its mana cost only during your main phase while the stack is empty.
+  - *2023-04-14* — If multiple players are allowed to cast the same card, the player with priority at any given time determines who can cast it. The player whose turn it is has priority as each step and phase begins, and they receive priority after each spell and ability resolves. This means immediately after chapter III resolves you’ll have priority to cast spells before any other player does.
+  - *2023-04-14* — Urabrask will count any instant or sorcery spells you’ve cast during the turn, whether those spells resolved, didn’t resolve, were countered, or left the stack some other way. Urabrask won’t count copies of instant and sorcery spells that were created on the stack and not cast.
+  - *2023-04-14* — Urabrask’s second ability isn’t a mana ability, even though it causes you to add mana. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/169/urabrask-the-great-work) · oracle_id `4b1da9aa-a30c-44b8-a10e-f9dc3fe70b6f` · printing: MOM #169 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urabrask the Hidden
 
@@ -157,7 +166,10 @@
 - **Flavor text** (CLB printing):
   > *When the Mirran resistance arrived, the furnace dwellers looked to Urabrask for guidance. His decree stunned the others: "Let them be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1790 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/811/urabrask-the-hidden) · oracle_id `5b2ffb53-86b7-4665-a5c7-b85b035b6c81` · printing: CLB #811 (2022-06-10) · [rulings](https://api.scryfall.com/cards/93970fae-19f7-41dd-9750-ca428ae1de7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-11-17* — If a creature an opponent controls enters the battlefield at the same time that Urabrask the Hidden enters the battlefield under your control, Urabrask's effect doesn't apply to your opponent's creature.
+  - *2017-11-17* — Urabrask the Hidden gives itself haste while it's on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/811/urabrask-the-hidden) · oracle_id `5b2ffb53-86b7-4665-a5c7-b85b035b6c81` · printing: CLB #811 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urban Burgeoning
 
@@ -170,7 +182,10 @@
   > *The ruins of Old Prahv became a wildspace, although all birdsong was silenced by lingering Azorius magic.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13907 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/138/urban-burgeoning) · oracle_id `2772e3cc-10e0-420f-b183-71ebaf3580e1` · printing: RTR #138 (2012-10-05) · [rulings](https://api.scryfall.com/cards/393c230f-5bc3-4b71-b5ac-81d5ce227df5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-10-01* — Effects that state that the enchanted land doesn’t untap during your untap step won’t apply during another player’s untap step.
+  - *2012-10-01* — The enchanted land untaps at the same time as the active player’s permanents. You can’t choose to not untap it at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/138/urban-burgeoning) · oracle_id `2772e3cc-10e0-420f-b183-71ebaf3580e1` · printing: RTR #138 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urban Daggertooth
 
@@ -184,7 +199,13 @@
   > *Stop, smell the roses, eat the peoples.*
 - **Keywords:** Enrage, Vigilance, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/181/urban-daggertooth) · oracle_id `cc545c68-829f-4c57-94d2-cd1edf2667a7` · printing: MH2 #181 (2021-06-18) · [rulings](https://api.scryfall.com/cards/4ab83a39-d90d-403e-b74d-fe99c8b2aacd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — If Urban Daggertooth has a +1/+1 counter on it and is dealt lethal damage, it will die before its triggered ability resolves and you proliferate. You won't be able to add a +1/+1 counter to it in time to save it.
+  - *2021-06-18* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2021-06-18* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents, and you can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2021-06-18* — While proliferating, if you choose a permanent or player with multiple kinds of counters, the permanent or player gets another counter of each kind, not just one kind. This change from the original proliferate rules was introduced in a previous set.
+  - *2021-06-18* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since “any number” includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/181/urban-daggertooth) · oracle_id `cc545c68-829f-4c57-94d2-cd1edf2667a7` · printing: MH2 #181 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urban Evolution
 
@@ -195,7 +216,11 @@
 - **Flavor text** (NCC printing):
   > *As the Simic released more of their krasis experiments, they required new habitats, always at the expense of the locals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2440 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/355/urban-evolution) · oracle_id `c715e525-fc3a-4cab-94a0-04e0a22a5013` · printing: NCC #355 (2022-04-29) · [rulings](https://api.scryfall.com/cards/85df7b1b-7cd6-499d-aa9d-5599a79a3512/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-12-07* — If you somehow manage to cast Urban Evolution when it's not your turn, you'll draw three cards when it resolves, but you won't be able to play a land that turn.
+  - *2018-12-07* — The effects of multiple Urban Evolutions in the same turn are cumulative. They're also cumulative with other effects that let you play additional lands, such as the one from Explore.
+  - *2018-12-07* — Urban Evolution's effect allows you to play an additional land during your main phase. Doing so follows the normal timing rules for playing lands. In particular, you don't get to play a land as Urban Evolution resolves; Urban Evolution fully resolves first and you draw three cards, perhaps including a land you'll play later.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/355/urban-evolution) · oracle_id `c715e525-fc3a-4cab-94a0-04e0a22a5013` · printing: NCC #355 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urban Retreat
 
@@ -208,6 +233,7 @@
 - **Flavor text** (SPM printing):
   > *For Peter, apartment hunting was about location, location, cost, and location.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4707 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/187/urban-retreat) · oracle_id `18290c4b-cff6-4ee5-a487-fe0d5706d3de` · printing: SPM #187 (2025-09-26) · [rulings](https://api.scryfall.com/cards/2581f320-8238-413d-ab04-d5535da55630/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urban Utopia
@@ -222,7 +248,9 @@
   > *Ravnica's diversity produces blossoms of opinion in a rich soil of perspectives.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17071 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/grn/146/urban-utopia) · oracle_id `77b73f11-a59a-4f2b-83d3-e6fe5064bc87` · printing: GRN #146 (2018-10-05) · [rulings](https://api.scryfall.com/cards/45d7ab0e-db37-4051-86dd-3ab09c047a2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — The enchanted land won't lose any other abilities it had. It also won't gain or lose any land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/grn/146/urban-utopia) · oracle_id `77b73f11-a59a-4f2b-83d3-e6fe5064bc87` · printing: GRN #146 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urbis Protector
 
@@ -235,6 +263,7 @@
   > *"I hear that Boros is losing its angels to the Gateless Movement. I'm sure this comes as no surprise to you."*
   > *—Teysa, to Lazav*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23263 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/79/urbis-protector) · oracle_id `564dd5e7-6c1e-4959-a594-60e08552aec9` · printing: CLU #79 (2024-02-23) · [rulings](https://api.scryfall.com/cards/8771abc9-e1f2-4d4f-8492-3209866cdc05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg
@@ -248,7 +277,13 @@
   > *"Resignedly beneath the sky/The melancholy waters lie./So blend the turrets and shadows there/That all seem pendulous in air,/While from a proud tower in town/Death looks gigantically down."*
   > *—Edgar Allan Poe, "The City in the Sea"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9145 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/214/urborg) · oracle_id `b6114962-035e-4e7f-9009-4739bf83a05a` · printing: ME3 #214 (2009-09-07) · [rulings](https://api.scryfall.com/cards/5319f782-2713-43b1-9b28-0d1ec7a39203/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2004-10-04* — The ability can be used on a creature without First Strike or Swampwalk but has no effect.
+  - *2008-04-01* — If a creature loses first strike after first strike combat damage has been assigned, it won’t deal damage during the second combat damage step.
+  - *2009-10-01* — Causing a creature to lose swampwalk is useful only during the declare attackers step or earlier. Once the declare blockers step begins, it’s too late to block the creature.
+  - *2009-10-01* — Urborg’s second ability affects only the first strike ability, not the part of the double strike ability that acts like first strike.
+  - *2009-10-01* — You choose whether the targeted creature loses first strike or swampwalk as the ability resolves. If the creature has both abilities, it will lose just one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/214/urborg) · oracle_id `b6114962-035e-4e7f-9009-4739bf83a05a` · printing: ME3 #214 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Drake
 
@@ -262,6 +297,7 @@
   > *Relentless as the sea, remorseless as death.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31885 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/231/urborg-drake) · oracle_id `57d93683-8739-49ef-856a-5a70f92d8763` · printing: BBD #231 (2018-06-08) · [rulings](https://api.scryfall.com/cards/2c87088f-6613-413b-aef9-0ef08c6b637f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Elf
@@ -274,6 +310,7 @@
 - **Flavor text** (APC printing):
   > *The elves of Urborg are as deadly and capricious as the swamp itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10189 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/90/urborg-elf) · oracle_id `9c382817-5c62-44ff-8f29-d283e65712a1` · printing: APC #90 (2001-06-04) · [rulings](https://api.scryfall.com/cards/1d8521bf-d026-4d26-831e-a2f253307c93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Emissary
@@ -286,7 +323,14 @@
   > When this creature enters, if it was kicked, return target permanent to its owner's hand.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32035 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/131/urborg-emissary) · oracle_id `f30943f1-473f-4fa4-b6a7-3dfbd1995ba9` · printing: INV #131 (2000-10-02) · [rulings](https://api.scryfall.com/cards/e6912c71-1836-4e87-9a65-d577d903d03c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/131/urborg-emissary) · oracle_id `f30943f1-473f-4fa4-b6a7-3dfbd1995ba9` · printing: INV #131 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Justice
 
@@ -298,7 +342,10 @@
   > *"It is a narrow line between justice and vengeance."*
   > *—Crovax*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22949 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/84/urborg-justice) · oracle_id `d8e2dea9-0e96-4ce4-a070-9893f44cf0cc` · printing: WTH #84 (1997-06-09) · [rulings](https://api.scryfall.com/cards/39f322ff-0b04-41ce-90cd-9896f941e703/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Does not target the creatures.
+  - *2004-10-04* — The creatures are chosen on resolution, not on announcement.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/84/urborg-justice) · oracle_id `d8e2dea9-0e96-4ce4-a070-9893f44cf0cc` · printing: WTH #84 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Lhurgoyf
 
@@ -311,7 +358,18 @@
   > Urborg Lhurgoyf's power is equal to the number of creature cards in your graveyard and its toughness is equal to that number plus 1.
 - **Keywords:** Mill, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/186/urborg-lhurgoyf) · oracle_id `f84d8217-51a4-49ba-9df6-d080ed38f37d` · printing: DMU #186 (2022-09-09) · [rulings](https://api.scryfall.com/cards/a6f97236-1497-4811-8189-0545707451da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-09-09* — If it was kicked, Urborg Lhurgoyf enters the battlefield with a power and toughness determined by the number of creature cards in your graveyard after you have milled cards for each time it was kicked. For example, if you have one creature card in your graveyard before it enters the battlefield and you mill two more creature cards with its ability, it enters the battlefield as a 3/4 creature.
+  - *2022-09-09* — The ability that defines Urborg Lhurgoyf's power and toughness works in all zones, not just on the battlefield.
+  - *2022-09-09* — Urborg Lhurgoyf's second ability isn't a triggered ability and doesn't use the stack. Players can't cast spells or take other actions after it enters the battlefield but before its controller mills cards.
+  - *2022-09-09* — You may kick Urborg Lhurgoyf only once for its {U} cost and only once for its {B} cost. You can kick it twice by paying {U}{B}, but you can't kick it twice by paying {U}{U} or {B}{B}. You can't kick it more than twice.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/186/urborg-lhurgoyf) · oracle_id `f84d8217-51a4-49ba-9df6-d080ed38f37d` · printing: DMU #186 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Mindsucker
 
@@ -324,7 +382,9 @@
   > *"My pet will pick the ripe fruit from your tortured brain as if it were hanging from a vine."*
   > *—Kaervek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30824 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vis/71/urborg-mindsucker) · oracle_id `19d11ca8-a95b-4e6e-a71f-8f9d06c580fd` · printing: VIS #71 (1997-02-03) · [rulings](https://api.scryfall.com/cards/78405864-fc83-47ab-9238-8e0464a700ec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this as normal during your main phase, it will enter the battlefield and you’ll receive priority. If no abilities trigger because of this, you can activate its ability immediately, before any other player has a chance to remove it from the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vis/71/urborg-mindsucker) · oracle_id `19d11ca8-a95b-4e6e-a71f-8f9d06c580fd` · printing: VIS #71 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Panther
 
@@ -335,6 +395,7 @@
   > {B}, Sacrifice this creature: Destroy target creature blocking it.
   > Sacrifice a creature named Feral Shadow, a creature named Breathstealer, and this creature: Search your library for a card named Spirit of the Night, put that card onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29085 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/150/urborg-panther) · oracle_id `0678beaf-564c-4e98-b45f-a544925683a1` · printing: MIR #150 (1996-10-08) · [rulings](https://api.scryfall.com/cards/edc9ff0f-adec-4d39-b281-98c5862f506b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Phantom
@@ -348,6 +409,7 @@
 - **Flavor text** (INV printing):
   > *A chilling fog with teeth of ice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32264 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/132/urborg-phantom) · oracle_id `f8b5d2f4-58a8-408c-bb67-6b5f9ba5b678` · printing: INV #132 (2000-10-02) · [rulings](https://api.scryfall.com/cards/397355b9-5b67-4973-972e-3505c500d116/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Repossession
@@ -359,7 +421,16 @@
   > Return target creature card from your graveyard to your hand. You gain 2 life. If this spell was kicked, return another target permanent card from your graveyard to your hand.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13467 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/114/urborg-repossession) · oracle_id `0c0eeb01-62e7-4a7f-923d-a7b830e4c83b` · printing: DMU #114 (2022-09-09) · [rulings](https://api.scryfall.com/cards/ecb8dab0-ecce-4321-b382-c58b296c2fd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-09-09* — If it isn't kicked, Urborg Repossession has only one target.
+  - *2022-09-09* — You can't cast Urborg Repossession kicked if there aren't both a creature card and another permanent card in your graveyard.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/114/urborg-repossession) · oracle_id `0c0eeb01-62e7-4a7f-923d-a7b830e4c83b` · printing: DMU #114 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Scavengers
 
@@ -370,7 +441,9 @@
   > Whenever this creature enters or attacks, exile target card from a graveyard. Put a +1/+1 counter on this creature.
   > This creature has flying as long as a card exiled with it has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/15/urborg-scavengers) · oracle_id `d27f3338-4900-49eb-9d8b-994afd524abe` · printing: MAT #15 (2023-05-12) · [rulings](https://api.scryfall.com/cards/4dbb4d8f-8ae3-4052-9c6a-e56e96cec832/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-05-12* — If the target of the first ability is an illegal target at the time the ability tries to resolve (likely because it left the graveyard in response), the ability won't resolve and none of its effects will happen. You won't put a +1/+1 counter on Urborg Scavengers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/15/urborg-scavengers) · oracle_id `d27f3338-4900-49eb-9d8b-994afd524abe` · printing: MAT #15 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Shambler
 
@@ -382,6 +455,7 @@
 - **Flavor text** (INV printing):
   > *A writhing mass of rot, with sharp claws and a vicious spirit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29721 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/133/urborg-shambler) · oracle_id `7947a210-32d0-4c99-82b4-4b5969447832` · printing: INV #133 (2000-10-02) · [rulings](https://api.scryfall.com/cards/eaedd5c8-03c6-4bbb-bf83-632551830bd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Skeleton
@@ -395,7 +469,14 @@
   > If this creature was kicked, it enters with a +1/+1 counter on it.
 - **Keywords:** Regenerate, Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26252 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inv/134/urborg-skeleton) · oracle_id `712d7eb4-4044-4852-a5da-57635d3086b0` · printing: INV #134 (2000-10-02) · [rulings](https://api.scryfall.com/cards/6e522a62-fbca-4362-9006-d4356c525704/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inv/134/urborg-skeleton) · oracle_id `712d7eb4-4044-4852-a5da-57635d3086b0` · printing: INV #134 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Stalker
 
@@ -408,7 +489,10 @@
   > *"May you be a stalker's dream."*
   > *—Urborg curse*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29410 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/85/urborg-stalker) · oracle_id `e5ef45e4-8c19-40bf-8756-c1b408dcb2fb` · printing: WTH #85 (1997-06-09) · [rulings](https://api.scryfall.com/cards/2d33e3d5-c608-4ba8-8614-0b9d0385af64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — This ability checks whether the player controls any nonblack, nonland permanents twice: once when it would trigger, and once when it resolves. If all the player’s nonland permanents are black at the time the ability would trigger, it doesn’t trigger at all. If all the player’s nonland permanents are black at the time the ability would resolve, it’s countered.
+  - *2008-04-01* — Urborg Stalker’s ability will trigger at the beginning of your upkeep as well.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/85/urborg-stalker) · oracle_id `e5ef45e4-8c19-40bf-8756-c1b408dcb2fb` · printing: WTH #85 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Syphon-Mage
 
@@ -420,6 +504,7 @@
 - **Flavor text** (DMR printing):
   > *"I have become a gourmet of sorts. Each soul has its own distinctive flavor. The art is in inviting the right company to the feast."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/106/urborg-syphon-mage) · oracle_id `d6608efe-b014-4b4d-a995-0be5047567c5` · printing: DMR #106 (2023-01-13) · [rulings](https://api.scryfall.com/cards/cf857d76-f2ca-4323-9611-cb20b9615202/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg, Tomb of Yawgmoth
@@ -432,7 +517,12 @@
   > *"Yawgmoth's corpse is a wound in the universe. His foul blood seeps out, infecting the land with his final curse."*
   > *—Lord Windgrace*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #75 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth) · oracle_id `db6174d7-211d-4817-b8e4-8384594c83f9` · printing: TSR #287 (2021-03-19) · [rulings](https://api.scryfall.com/cards/9e1a9e38-6ffc-490f-b0be-23ba4e8204c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-03-19* — If an effect such as that of Magus of the Moon causes Urborg to lose its abilities by setting it to a basic land type not in addition to its other types, it won't turn lands into Swamps, no matter in what order those effects started to apply.
+  - *2021-03-19* — Land cards not on the battlefield aren't Swamps while Urborg is on the battlefield.
+  - *2021-03-19* — Urborg's ability causes each land on the battlefield to have the land type Swamp. Any land that's a Swamp has the ability "{T}: Add {B}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary, basic, or snow.
+  - *2021-03-19* — Urborg, Tomb of Yawgmoth isn't a Swamp while it's not on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth) · oracle_id `db6174d7-211d-4817-b8e4-8384594c83f9` · printing: TSR #287 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Uprising
 
@@ -444,7 +534,10 @@
 - **Flavor text** (DMR printing):
   > *In Urborg, few things are less permanent than death.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21624 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/107/urborg-uprising) · oracle_id `882d3be7-1c0f-4d2b-8f2e-32369488ef82` · printing: DMR #107 (2023-01-13) · [rulings](https://api.scryfall.com/cards/497dedba-909a-4f1d-8b05-39c512007fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — If you chose at least one target and all targets are illegal as Urborg Uprising tries to resolve, the spell won’t resolve and you won’t draw a card.
+  - *2022-12-08* — You can cast Urborg Uprising with no targets if you want to only draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/107/urborg-uprising) · oracle_id `882d3be7-1c0f-4d2b-8f2e-32369488ef82` · printing: DMR #107 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urborg Volcano
 
@@ -456,6 +549,7 @@
 - **Flavor text** (C17 printing):
   > *Deep in the heart of Urborg lie massive volcanoes whose thick black smoke covers the land with perpetual darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11359 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/288/urborg-volcano) · oracle_id `018129dd-f578-4fc9-b6f8-b13ed0c75a8d` · printing: C17 #288 (2017-08-25) · [rulings](https://api.scryfall.com/cards/c69f6612-c974-4723-925e-afd4211c76db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urdnan, Dromoka Warrior
@@ -467,6 +561,7 @@
   > When Urdnan enters, put a +1/+1 counter on target creature.
   > Whenever you attack, target attacking creature with a +1/+1 counter on it gains first strike until end of turn. If that creature has two or more +1/+1 counters on it, it gains double strike until end of turn instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7717 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/34/urdnan-dromoka-warrior) · oracle_id `adc1f850-9217-4a90-8e6a-02ed226ef8df` · printing: J25 #34 (2024-11-15) · [rulings](https://api.scryfall.com/cards/f239682a-2b81-4f62-a474-60e8db343200/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ur-Drago
@@ -479,7 +574,9 @@
   > Creatures with swampwalk can be blocked as though they didn't have swampwalk.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31174 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/leg/268/ur-drago) · oracle_id `537162d5-a2c2-4ad4-9fae-d2ec7a269dcc` · printing: LEG #268 (1994-06-01) · [rulings](https://api.scryfall.com/cards/81a40f34-fc26-4d05-9c52-6ffbf1766a3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Allows any creature controlled by any player to block Swampwalking creatures as if they did not have this ability. It is not limited to just Ur-Drago.
+- **Source flags:** [Scryfall](https://scryfall.com/card/leg/268/ur-drago) · oracle_id `537162d5-a2c2-4ad4-9fae-d2ec7a269dcc` · printing: LEG #268 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ureni of the Unwritten
 
@@ -491,6 +588,7 @@
   > Whenever Ureni enters or attacks, look at the top eight cards of your library. You may put a Dragon creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2430 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/9/ureni-of-the-unwritten) · oracle_id `99c2d3ef-e5b4-48cd-b3f5-de9b02c7c36a` · printing: TDC #9 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f54ecbf1-83df-4486-bd6a-7d1f173b6863/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ureni's Rebuff
@@ -504,6 +602,7 @@
   > *"You say you come in peace. That you come here at all is an act of war."*
 - **Keywords:** Harmonize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/63/urenis-rebuff) · oracle_id `c0b7e989-8194-484c-93aa-a44df0764a77` · printing: TDM #63 (2025-04-11) · [rulings](https://api.scryfall.com/cards/722716df-9cea-40a7-924b-c28497e227e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ureni, the Song Unending
@@ -516,7 +615,9 @@
   > When Ureni enters, it deals X damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control, where X is the number of lands you control.
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5230 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/233/ureni-the-song-unending) · oracle_id `1c995c80-3301-409b-822b-9297aa260823` · printing: TDM #233 (2025-04-11) · [rulings](https://api.scryfall.com/cards/227802c0-4ff6-43a8-a850-ed0f546dc5ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — You cannot choose more than X targets for Ureni’s triggered ability. You choose how the damage is divided immediately after choosing those targets. The value of X won’t change even if the number of lands you control changes after that point. That division of damage also won’t change, even if damage can’t be dealt to one or more of those targets as the ability resolves (usually because they’ve left the battlefield).
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/233/ureni-the-song-unending) · oracle_id `1c995c80-3301-409b-822b-9297aa260823` · printing: TDM #233 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urgent Exorcism
 
@@ -528,6 +629,7 @@
   > *"To show geists pity is to prolong their agonies. Whether they know it or not, they seek the Blessed Sleep, and we are to give it to them."*
   > *—Mikaeus, the Lunarch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29142 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/40/urgent-exorcism) · oracle_id `2f87ebc6-68b0-4121-bfaf-b412b077d75b` · printing: ISD #40 (2011-09-30) · [rulings](https://api.scryfall.com/cards/516a437c-a2ee-43c6-876c-1a63a455c97c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urgent Necropsy
@@ -541,7 +643,11 @@
   > *"The Golgari can read the dead like a newspaper."*
   > *—Taboro of the Foundway Associates*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18713 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/240/urgent-necropsy) · oracle_id `378a6203-0d47-4165-bdc2-43dfdfb4d15d` · printing: MKM #240 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d2ac346a-fc46-4023-aa60-4d55170697dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-02-02* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-02-02* — The value of X is locked in after you choose targets but before you pay costs for Urgent Necropsy. In the extremely unusual case where the mana value of one or more of the targets changes while you're paying costs, the cost to cast Urgent Necropsy, including the additional cost, remains what you previously determined.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/240/urgent-necropsy) · oracle_id `378a6203-0d47-4165-bdc2-43dfdfb4d15d` · printing: MKM #240 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urge to Feed
 
@@ -550,7 +656,11 @@
 - **Oracle text:**
   > Target creature gets -3/-3 until end of turn. You may tap any number of untapped Vampire creatures you control. If you do, put a +1/+1 counter on each of those Vampires.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11865 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/voc/139/urge-to-feed) · oracle_id `c9f2f0ae-5869-43dc-a225-4dfe3d37c166` · printing: VOC #139 (2021-11-19) · [rulings](https://api.scryfall.com/cards/041606a6-d20b-4241-ae5a-2dd004c47487/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2010-03-01* — If the targeted creature is an illegal target by the time Urge to Feed resolves, the entire spell doesn't resolve. You can't tap any Vampires.
+  - *2010-03-01* — If you cast Urge to Feed targeting an untapped Vampire creature you control with toughness 3, its toughness will be reduced to 0 by the -3/-3 effect. However, state-based actions aren't checked until the spell has finished resolving. You may then tap that Vampire and put a +1/+1 counter on it, raising its toughness to 1. It will remain on the battlefield.
+  - *2010-03-01* — You don't choose which untapped Vampire creatures you control to tap (if any) until Urge to Feed resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/voc/139/urge-to-feed) · oracle_id `c9f2f0ae-5869-43dc-a225-4dfe3d37c166` · printing: VOC #139 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ur-Golem's Eye
 
@@ -561,6 +671,7 @@
 - **Flavor text** (C14 printing):
   > *Ur-golems once dominated the plane. Even now, they maintain a deep connection to it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7623 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/280/ur-golems-eye) · oracle_id `fb34fc00-e60d-41fc-9393-ca4248ec0a1c` · printing: C14 #280 (2014-11-07) · [rulings](https://api.scryfall.com/cards/7a2ea921-8ef9-4a31-b484-73375e828d34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urgoros, the Empty One
@@ -575,7 +686,9 @@
   > *As the phantom flies overhead, the city of Vhelnish screams in silence.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19425 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/109/urgoros-the-empty-one) · oracle_id `43e7b834-d3a9-4297-bf79-2dab5507bebe` · printing: DOM #109 (2018-04-27) · [rulings](https://api.scryfall.com/cards/e8652fb7-1bce-44ee-b75e-4c773ff8fdb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — If that player has one card in hand, it's discarded at random (even though that's not very random). You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/109/urgoros-the-empty-one) · oracle_id `43e7b834-d3a9-4297-bf79-2dab5507bebe` · printing: DOM #109 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urianger Augurelt
 
@@ -588,7 +701,13 @@
   > Play Arcanum — {T}: Until end of turn, you may play cards exiled with Urianger Augurelt. Spells you cast this way cost {2} less to cast.
 - **Keywords:** Draw Arcanum, Play Arcanum
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8703 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/96/urianger-augurelt) · oracle_id `7ca584e7-4621-4b4e-a381-a0051acbf66a` · printing: FIC #96 (2025-06-13) · [rulings](https://api.scryfall.com/cards/44d44107-da15-41b9-8dfb-6335c1cbd83a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If one of the exiled cards is a land card, you may play it only if you have an available land play remaining this turn.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of spells you cast with the permission granted by Urianger Augurelt's last ability.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Urianger Augurelt's last ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2025-06-06* — Urianger Augurelt's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack. (Playing a land doesn't use the stack.)
+  - *2025-06-06* — You pay all costs and follow all timing rules for cards played with the permission granted by Urianger Augurelt's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/96/urianger-augurelt) · oracle_id `7ca584e7-4621-4b4e-a381-a0051acbf66a` · printing: FIC #96 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uril, the Miststalker
 
@@ -602,6 +721,7 @@
   > *It strides through the whitecover, mists in which even gargantuans can hide.*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13744 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/290/uril-the-miststalker) · oracle_id `4308a020-48cf-45fe-8074-dd5d0ac6d12d` · printing: 2X2 #290 (2022-07-08) · [rulings](https://api.scryfall.com/cards/ca984fdb-aaca-4d8f-af2f-72387122607b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urn of Godfire
@@ -614,6 +734,7 @@
 - **Flavor text** (MOM printing):
   > *Ephara blessed the defenders of Theros with godfire, a Nyx-infused incendiary substance that burned without fuel.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16535 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/266/urn-of-godfire) · oracle_id `420290d9-7bb9-4e5a-82ec-c777152ccc72` · printing: MOM #266 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ff5f302e-d884-4995-ba3c-8c22f9045318/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uro, Titan of Nature's Wrath
@@ -627,7 +748,18 @@
   > Escape—{G}{G}{U}{U}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1581 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/229/uro-titan-of-natures-wrath) · oracle_id `ee302659-59ed-4eef-babe-451b9ccf7f14` · printing: THB #229 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a0b6a71e-56cb-4d25-8f2b-7a4f1b60900d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+  - *2020-01-24* — Uro's effect doesn't count as playing a land. It can put a land card onto the battlefield even if it's not your turn or if you've already played your land for the turn.
+  - *2020-01-24* — Uro's first ability causes you to sacrifice it if you didn't cast it, or if it was cast using any permission other than an escape ability.
+  - *2020-01-24* — Uro's second ability triggers when it enters the battlefield, even if it didn't escape.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/229/uro-titan-of-natures-wrath) · oracle_id `ee302659-59ed-4eef-babe-451b9ccf7f14` · printing: THB #229 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ursapine
 
@@ -639,6 +771,7 @@
 - **Flavor text** (RAV printing):
   > *A friendly ursapine means a constant supply of sharp spears. An unfriendly one means a constant supply of small holes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27869 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/188/ursapine) · oracle_id `fcf92abb-6c06-42d2-a3d1-f44ec997d56d` · printing: RAV #188 (2005-10-07) · [rulings](https://api.scryfall.com/cards/ba547810-c82a-498b-81eb-e81a8dcbbd42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ursine Champion
@@ -651,6 +784,7 @@
 - **Flavor text** (M19 printing):
   > *"Would you rather feel the edge of my blade or the sharpness of my fangs?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28255 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/304/ursine-champion) · oracle_id `4f142d99-8146-4b16-a2cc-ac03da19b960` · printing: M19 #304 (2018-07-13) · [rulings](https://api.scryfall.com/cards/e60b6c02-c1f1-4ab9-bd62-ae3b447a898f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ursine Fylgja
@@ -663,6 +797,7 @@
   > Remove a healing counter from this creature: Prevent the next 1 damage that would be dealt to this creature this turn.
   > {2}{W}: Put a healing counter on this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/22/ursine-fylgja) · oracle_id `4d244787-66d2-4a32-914d-a3e97d393370` · printing: CSP #22 (2006-07-21) · [rulings](https://api.scryfall.com/cards/1ad7c141-2e20-4891-93a8-1cf309d3b979/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ursine Monstrosity
@@ -675,7 +810,14 @@
   > At the beginning of combat on your turn, mill a card and choose an opponent at random. This creature attacks that player this combat if able. Until end of turn, this creature gains indestructible and gets +1/+1 for each card type among cards in your graveyard.
 - **Keywords:** Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/36/ursine-monstrosity) · oracle_id `647feda9-2876-4430-902f-10dc1f4f99a9` · printing: DSC #36 (2024-09-27) · [rulings](https://api.scryfall.com/cards/73cc6df4-3564-4ace-bf8a-eac3e62d725a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-09-20* — If Ursine Monstrosity isn't forced to attack the chosen player for one of the above reasons but can still attack, you may choose to have it attack another player, a planeswalker, a battle, or nothing at all.
+  - *2024-09-20* — If you can't mill a card, you'll still follow the rest of the instructions of Ursine Monstrosity's last ability.
+  - *2024-09-20* — If your turn has multiple combat phases, Ursine Monstrosity's last ability triggers at the beginning of each of them. Ignore any choices made for its last ability during previous combat phases.
+  - *2024-09-20* — If, during your declare attackers step, Ursine Monstrosity is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under your control continuously since your turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having Ursine Monstrosity attack the chosen player, you aren't forced to pay that cost, so it doesn't have to attack that player in that case either.
+  - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+  - *2024-09-20* — Ursine Monstrosity must attack the chosen player if able, not a planeswalker they control or a battle they protect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/36/ursine-monstrosity) · oracle_id `647feda9-2876-4430-902f-10dc1f4f99a9` · printing: DSC #36 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urtet, Remnant of Memnarch
 
@@ -687,6 +829,7 @@
   > At the beginning of combat on your turn, untap each Myr you control.
   > {W}{U}{B}{R}{G}, {T}: Put three +1/+1 counters on each Myr you control. Activate only during your turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7391 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/28/urtet-remnant-of-memnarch) · oracle_id `6222fccf-fc08-4190-8d40-a56d6d1423df` · printing: ONC #28 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7aa01ab4-26b0-49dc-8514-b3850d355a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uruk-hai Berserker
@@ -699,7 +842,15 @@
 - **Flavor text** (LTR printing):
   > *"What of the dawn? We are the Uruk-hai; we do not stop the fight for night or day, for fair weather or for storm. We come to kill, by sun or moon. What of the dawn?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10884 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/112/uruk-hai-berserker) · oracle_id `0e353a41-b523-4c22-9bda-d10460ba99c7` · printing: LTR #112 (2023-06-23) · [rulings](https://api.scryfall.com/cards/936421a0-2c2a-4410-941d-4e6b88166bd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/112/uruk-hai-berserker) · oracle_id `0e353a41-b523-4c22-9bda-d10460ba99c7` · printing: LTR #112 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Academy Headmaster
 
@@ -711,7 +862,12 @@
   > −1: Head to AskUrza.com and click -1.
   > −6: Head to AskUrza.com and click -6.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/136/urza-academy-headmaster) · oracle_id `298fd21f-8ac8-49a4-8ed6-689576ff4241` · printing: UST #136 (2017-12-08) · [rulings](https://api.scryfall.com/cards/e4581455-5fa1-4c96-96b3-e9e9654f5a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-01-19* — If an ability comes up that requires a target and there are legal targets available, you must use that ability even if you may not want to. However, the effects are all good for you or bad for your opponent. In some cases, you may not be able to take advantage. For example, if it ends up that creatures you control get +1/+1 until end of turn but you don't control any creatures, you're out of luck. But nothing bad will happen.
+  - *2018-01-19* — Players can respond to the activation of any of Urza's abilities, but not after players know what effect is going to happen.
+  - *2018-01-19* — Urza's abilities work a little differently with respect to targeting. Unlike other abilities, you may have to choose the targets for an ability as part of that ability resolving. If the ability that comes up requires a target and there are no legal targets available, click again until that's not true.
+  - *2018-01-19* — Urza, Academy Headmaster is just like any other planeswalker, except you're never quite sure what his abilities are going to do. Urza is very unpredictable. To find out what happens, head to AskUrza.com. There you will find three buttons: +1, -1, and -6. Click the button for the loyalty ability that's resolving, and follow whatever instructions appear.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/136/urza-academy-headmaster) · oracle_id `298fd21f-8ac8-49a4-8ed6-689576ff4241` · printing: UST #136 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza Assembles the Titans
 
@@ -724,7 +880,11 @@
   > III — You may activate the loyalty abilities of planeswalkers you control twice this turn rather than only once.
 - **Keywords:** Read Ahead, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/37/urza-assembles-the-titans) · oracle_id `0d406496-e1c3-4e1c-976c-618d5ad67d0b` · printing: DMU #37 (2022-09-09) · [rulings](https://api.scryfall.com/cards/10a544d7-ead7-42fd-a35a-c1b672771d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — After this Saga’s third chapter ability resolves, you may activate the same ability of a planeswalker twice that turn, or you may activate two different abilities of that planeswalker that turn.
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — If more than one effect allows you to activate loyalty abilities of planeswalkers your control twice rather than only once, those effects don’t continue to increase the number of activations. You won’t be able to activate abilities of planeswalkers you control more than twice in a turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/37/urza-assembles-the-titans) · oracle_id `0d406496-e1c3-4e1c-976c-618d5ad67d0b` · printing: DMU #37 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Chief Artificer
 
@@ -737,7 +897,9 @@
   > At the beginning of your end step, create a 0/0 colorless Construct artifact creature token with "This token gets +1/+1 for each artifact you control."
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4906 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/brc/2/urza-chief-artificer) · oracle_id `9deced63-80d0-419e-a5ac-71b06ba1459e` · printing: BRC #2 (2022-11-18) · [rulings](https://api.scryfall.com/cards/ea409050-4296-4b76-a6cd-2896ce1b88e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — The ability of that Construct token does count the Construct itself, so it'll be at least 1/1.
+- **Source flags:** [Scryfall](https://scryfall.com/card/brc/2/urza-chief-artificer) · oracle_id `9deced63-80d0-419e-a5ac-71b06ba1459e` · printing: BRC #2 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Lord High Artificer
 
@@ -749,7 +911,14 @@
   > Tap an untapped artifact you control: Add {U}.
   > {5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #802 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/130/urza-lord-high-artificer) · oracle_id `e87906d2-db1a-4e19-b910-adb4eb339945` · printing: CMM #130 (2023-08-04) · [rulings](https://api.scryfall.com/cards/7b7a348a-51f7-4dc5-8fe7-1c70fea5e050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-12-08* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2022-12-08* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2022-12-08* — If you don't play the card exiled with Urza's last ability, it remains in exile.
+  - *2022-12-08* — The token created by Urza's first ability will count itself, so it'll be at least 1/1.
+  - *2022-12-08* — Urza's last ability doesn't change when you can play the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+  - *2022-12-08* — You can tap any untapped artifact you control to pay the cost of the mana ability, including an artifact creature you haven't controlled continuously since the beginning of your most recent turn. Tapping an Equipment this way won't affect its abilities or the equipped creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/130/urza-lord-high-artificer) · oracle_id `e87906d2-db1a-4e19-b910-adb4eb339945` · printing: CMM #130 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Lord Protector
 
@@ -761,7 +930,21 @@
   > {7}: If you both own and control Urza, Lord Protector and an artifact named The Mightstone and Weakstone, exile them, then meld them into Urza, Planeswalker. Activate only as a sorcery.
 - **Keywords:** Meld
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5928 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/225/urza-lord-protector) · oracle_id `df2af646-3e5b-43a3-8f3e-50565889f456` · printing: BRO #225 (2022-11-18) · [rulings](https://api.scryfall.com/cards/8aefe8bd-216a-4ec1-9362-3f9dbf7fd083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2022-10-14* — A player prompted to name a card may name the combined back face, and each player has the right to know that combined back face's characteristics at all times.
+  - *2022-10-14* — During each of your turns, you may activate Urza, Planeswalker's loyalty abilities twice, whether that's activating the same ability two times, or activating two different abilities once each.
+  - *2022-10-14* — If an effect moves a melded permanent to a new zone and then affects "that card," it affects both cards.
+  - *2022-10-14* — In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered.
+  - *2022-10-14* — Note that the permanent represented by the combined back faces has a color indicator.
+  - *2022-10-14* — One card in each pair of meld cards has an ability that instructs you to exile the two cards and meld them. If you control more than one object with one of those names, you select one object with that name to exile.
+  - *2022-10-14* — Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile.
+  - *2022-10-14* — The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that becomes a copy of a melded permanent has only the characteristics of that combined back face, and its mana value is 0.
+  - *2022-10-14* — Urza, Lord Protector's first ability can't reduce the colored mana costs of spells you cast.
+  - *2022-10-14* — When a pair of cards are melded, the result is a single creature that's represented by two cards. If the melded creature dies, both cards are put into your graveyard. As it leaves the battlefield, both of those cards are turned face up again. If the cards are put on the top or bottom of your library, you choose their relative order.
+  - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
+  - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
+  - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/225/urza-lord-protector) · oracle_id `df2af646-3e5b-43a3-8f3e-50565889f456` · printing: BRO #225 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Planeswalker
 
@@ -776,7 +959,19 @@
   > −3: Exile target nonland permanent.
   > −10: Artifacts and planeswalkers you control gain indestructible until end of turn. Destroy all nonland permanents.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/238b/urza-planeswalker) · oracle_id `759406d7-44ae-4260-9ef5-3bb2c92f751a` · printing: BRO #238b (2022-11-18) · [rulings](https://api.scryfall.com/cards/40a01679-3224-427e-bd1d-b797b0ab68b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2022-10-14* — A player prompted to name a card may name the combined back face, and each player has the right to know that combined back face's characteristics at all times.
+  - *2022-10-14* — If an effect moves a melded permanent to a new zone and then affects "that card," it affects both cards.
+  - *2022-10-14* — In the Commander variant, a meld card's color identity is determined only by the mana costs and mana symbols in the rules text of its front face. No symbols or rules text of the permanent it melds into are considered.
+  - *2022-10-14* — Note that the permanent represented by the combined back faces has a color indicator.
+  - *2022-10-14* — One card in each pair of meld cards has an ability that instructs you to exile the two cards and meld them. If you control more than one object with one of those names, you select one object with that name to exile.
+  - *2022-10-14* — Only two cards belonging to the same meld pair can be melded. Tokens, cards that aren't meld cards, or meld cards that don't form a meld pair can't be melded. If an effect instructs a player to meld cards that can't be melded, those cards remain in exile.
+  - *2022-10-14* — The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that becomes a copy of a melded permanent has only the characteristics of that combined back face, and its mana value is 0.
+  - *2022-10-14* — When a pair of cards are melded, the result is a single creature that's represented by two cards. If the melded creature dies, both cards are put into your graveyard. As it leaves the battlefield, both of those cards are turned face up again. If the cards are put on the top or bottom of your library, you choose their relative order.
+  - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
+  - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
+  - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/238b/urza-planeswalker) · oracle_id `759406d7-44ae-4260-9ef5-3bb2c92f751a` · printing: BRO #238b (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Powerstone Prodigy
 
@@ -789,7 +984,11 @@
   > Whenever you discard one or more artifact cards, create a tapped Powerstone token. This ability triggers only once each turn. (The token is an artifact with "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12520 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/69/urza-powerstone-prodigy) · oracle_id `8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b` · printing: BRO #69 (2022-11-18) · [rulings](https://api.scryfall.com/cards/445f897e-a059-4cd5-bfd2-302dc7a4c8e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/69/urza-powerstone-prodigy) · oracle_id `8ad7fdd2-bff5-4434-a3f9-1f5ce0ed573b` · printing: BRO #69 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza, Prince of Kroog
 
@@ -802,7 +1001,13 @@
 - **Flavor text** (BRO printing):
   > *The prince consort was happy to let Yotia's coffers fund his extravagant research.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4498 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/226/urza-prince-of-kroog) · oracle_id `6a448862-e8d8-4a08-8e3d-5460afa29b4d` · printing: BRO #226 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5a7329cd-95af-4d71-984f-f5f28982520c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-14* — For Urza, Prince of Kroog's activated ability, the token copies exactly what was printed on the original permanent, with the listed exceptions, and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2022-10-14* — If the copied permanent has {X} in its mana cost, X is considered to be 0.
+  - *2022-10-14* — If the copied permanent is a token, the token created with Urza copies the original characteristics of that token as stated by the effect that created that token, with the listed exceptions.
+  - *2022-10-14* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied, with the listed exceptions.
+  - *2022-10-14* — The token is a Soldier creature in addition to its other types. Its base power and toughness is 1/1. These are the copiable values of the token's characteristics that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/226/urza-prince-of-kroog) · oracle_id `6a448862-e8d8-4a08-8e3d-5460afa29b4d` · printing: BRO #226 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Armor
 
@@ -813,7 +1018,10 @@
 - **Flavor text** (8ED printing):
   > *Urza protected his body well, but neglected his soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/318/urzas-armor) · oracle_id `e5fa232a-c8f2-4532-88bf-60d1223181b0` · printing: 8ED #318 (2003-07-28) · [rulings](https://api.scryfall.com/cards/e40375cf-8649-4f06-9e08-f0577f35d1bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If a spell or ability damages multiple things, divide up the damage before applying this effect, and prevent the 1 damage to you only.
+  - *2004-10-04* — It is a prevention effect applied when damage would be dealt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/318/urzas-armor) · oracle_id `e5fa232a-c8f2-4532-88bf-60d1223181b0` · printing: 8ED #318 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Avenger
 
@@ -825,7 +1033,9 @@
 - **Flavor text** (5ED printing):
   > *Unable to settle on just one design, Urza decided to create one versatile being.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27316 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/405/urzas-avenger) · oracle_id `1cfeb5c4-a2d0-4872-a907-a6d484be85a5` · printing: 5ED #405 (1997-03-24) · [rulings](https://api.scryfall.com/cards/60bd9559-1a8f-47d0-af6b-d0681cae4060/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The -1/-1 is not permanent. It lasts until the end of the turn as do the abilities that are granted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5ed/405/urzas-avenger) · oracle_id `1cfeb5c4-a2d0-4872-a907-a6d484be85a5` · printing: 5ED #405 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Bauble
 
@@ -834,6 +1044,7 @@
 - **Oracle text:**
   > {T}, Sacrifice this artifact: Look at a card at random in target player's hand. You draw a card at the beginning of the next turn's upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2823 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/170/urzas-bauble) · oracle_id `17dbbca3-ac1c-4d4e-9618-3e66ac3ccd24` · printing: ME1 #170 (2007-09-10) · [rulings](https://api.scryfall.com/cards/29175e6b-a2ab-4373-8093-cb372aa8c7d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Blueprints
@@ -847,6 +1058,7 @@
   > *From concept to paper to reality.*
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23559 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/238/urzas-blueprints) · oracle_id `ad75efdb-3e36-4253-be47-1df5a3cf8204` · printing: DMR #238 (2023-01-13) · [rulings](https://api.scryfall.com/cards/1fd2b6a7-b93a-42d3-b66a-a70b573fc58a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Cave
@@ -859,6 +1071,7 @@
 - **Flavor text** (MH3 printing):
   > *No matter how deep Urza delved, he couldn't escape his regrets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #440 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/234/urzas-cave) · oracle_id `4474ecee-0ec3-409b-90df-738d9313fe3c` · printing: MH3 #234 (2024-06-14) · [rulings](https://api.scryfall.com/cards/926916ed-2f22-4ba9-9427-194886ad6c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Chalice
@@ -870,7 +1083,9 @@
 - **Flavor text** (ME4 printing):
   > *When sorely wounded or tired, Urza would often retreat to the workshops of his apprentices. They were greatly amazed at how much better he looked each time he took a sip of water.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/236/urzas-chalice) · oracle_id `fde25440-1810-46ba-a112-b54091593b66` · printing: ME4 #236 (2011-01-10) · [rulings](https://api.scryfall.com/cards/67678871-a1e4-42ef-b49d-bb646ee9595d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This will not trigger on its own casting. It must be on the battlefield at the time the artifact is cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/236/urzas-chalice) · oracle_id `fde25440-1810-46ba-a112-b54091593b66` · printing: ME4 #236 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Command
 
@@ -884,7 +1099,12 @@
   > • Scry 1, then draw a card.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9745 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/70/urzas-command) · oracle_id `f5c30dec-072c-4f02-b5d8-5eccfd1cffcf` · printing: BRO #70 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b9b4a02c-e57f-4287-943e-6bc859ac149e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — The ability of that Construct token does count the Construct itself, so it'll be at least 1/1.
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/70/urzas-command) · oracle_id `f5c30dec-072c-4f02-b5d8-5eccfd1cffcf` · printing: BRO #70 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Contact Lenses
 
@@ -896,6 +1116,7 @@
   > As long as this artifact is untapped, all players play with their hands revealed.
   > Clap your hands twice: You may tap or untap this artifact.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/82/urzas-contact-lenses) · oracle_id `696cce0c-677c-41f3-aa84-fa6c105462b2` · printing: UGL #82 (1998-08-11) · [rulings](https://api.scryfall.com/cards/f386c088-fa37-4134-96bb-9fb784719101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Dark Cannonball
@@ -909,6 +1130,7 @@
   > {TK}{TK}{TK}{TK} — 7/4
 - **Keywords:** Shadow, Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/4/urzas-dark-cannonball) · oracle_id `7abe9119-cc5d-4004-8a46-4a3153ead570` · printing: SUNF #4 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f20010bf-3745-422a-8811-c3f6be9a8805/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Engine
@@ -925,7 +1147,12 @@
   > *—Arcum Dagsson*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25080 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/all/135/urzas-engine) · oracle_id `bf6ea878-044b-40a8-a21b-0191a948a69a` · printing: ALL #135 (1996-06-10) · [rulings](https://api.scryfall.com/cards/273b54c3-325b-4f2e-857b-fc1d59b6b3c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2008-10-01* — A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it.
+  - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
+  - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
+  - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/all/135/urzas-engine) · oracle_id `bf6ea878-044b-40a8-a21b-0191a948a69a` · printing: ALL #135 (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Factory
 
@@ -938,7 +1165,9 @@
   > *"Though their ideals are leagues apart, Urza's and Mishra's creations have a surprising harmony with one another."*
   > *—Tocasia, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4446 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/288/urzas-factory) · oracle_id `5a620d20-f14e-43d0-8e57-c2a197e2ec51` · printing: TSR #288 (2021-03-19) · [rulings](https://api.scryfall.com/cards/d03f17f1-b0fd-4b84-82ea-085c2f87eeda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — Urza's is a land subtype that has no inherent rules meaning. Other effects may refer to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/288/urzas-factory) · oracle_id `5a620d20-f14e-43d0-8e57-c2a197e2ec51` · printing: TSR #288 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Filter
 
@@ -949,6 +1178,7 @@
 - **Flavor text** (INV printing):
   > *"It's a tool for aiding my other tools," explained Urza. "Now they'll work in harmony."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14645 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/318/urzas-filter) · oracle_id `46484242-28ed-43d2-b33a-1e5c1771acca` · printing: INV #318 (2000-10-02) · [rulings](https://api.scryfall.com/cards/680c75b1-e766-40be-84d7-2332047bb3de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Fun House
@@ -960,7 +1190,17 @@
   > {T}: Add {∞}. Activate only once and only if you control an Urza's Mine, an Urza's Power-Plant, and an Urza's Tower.
   > {7}, {T}: Head to AskUrza.com and click Urza's Fun House.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #28965 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/199/urzas-fun-house) · oracle_id `6538fb05-7cc6-4bb9-9b57-11f4f07b5e59` · printing: UNF #199 (2022-10-07) · [rulings](https://api.scryfall.com/cards/42c47a99-965c-4bde-935a-10f28cf5ccba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-10-07* — AskUrza.com, the web site that powers Urza, Academy Headmaster, has expanded to support Urza's Fun House. On that site you'll find a button that says "ENTER THE FUN HOUSE." As the last ability resolves, click it and find out what you paid seven mana for!
+  - *2022-10-07* — If an effect comes up that requires a target and there are legal targets available, you must use that effect even though you may not want to. However, the effects are all good for you or bad for your opponent. In some cases, you may not be able to take advantage. For example, if it ends up that creatures you control get +3/+3 until end of turn but you don't control any creatures, you're out of luck. But nothing bad will happen.
+  - *2022-10-07* — Once you have infinite colorless mana, it doesn't matter how much mana you spend, you will still have infinite colorless mana. You will, however, lose infinite unspent mana as that step or phase ends.
+  - *2022-10-07* — Players can respond to the activation of the last ability, but not after players know what effect is going to happen.
+  - *2022-10-07* — The Urza's Mine, Urza's Power-Plant, and Urza's Tower required to activate the middle ability needn't be three separate permanents. If you happen to control a land that has those four land types (or perhaps one that has all land types . . . you know . . . glances up . . . it's a different card in this . . . Nearby Planet!), you can activate the ability.
+  - *2022-10-07* — The last ability works a little differently with respect to targeting. Unlike other abilities, you may have to choose targets while that ability is resolving. If the effect that comes up requires a target and there are no legal targets available, click again until that's not true.
+  - *2022-10-07* — The mana added by the middle ability is colorless mana.
+  - *2022-10-07* — The middle ability can be activated only once. Not once per turn. Once. Okay, maybe more times. If Urza's Fun House leaves the battlefield and returns, it's a new object, so you can activate it again. You know, in case INFINITE MANA wasn't enough the first time.
+  - *2022-10-07* — You can do a lot of cool stuff with infinite mana. And some situations may not be obvious. Rather than rehash everything ad infinitum, perhaps the Gatherer rulings on Infinity Elemental will help.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/199/urzas-fun-house) · oracle_id `6538fb05-7cc6-4bb9-9b57-11f4f07b5e59` · printing: UNF #199 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Guilt
 
@@ -971,6 +1211,7 @@
 - **Flavor text** (PLS printing):
   > *Deep in Yawgmoth's realm, Urza stopped dead in his tracks and rubbed his soot-filled eyes. "Mishra?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22654 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/130/urzas-guilt) · oracle_id `b0aeeeb6-490c-4638-a4ad-498e4d85413e` · printing: PLS #130 (2001-02-05) · [rulings](https://api.scryfall.com/cards/d429233e-1cf9-4f87-b191-894a73e7a876/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Hot Dog Stand
@@ -988,6 +1229,7 @@
   > *"Hold the ketchup!"*
 - **Keywords:** Hexproof from, Hexproof, Treasure, Food
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UL01b/urzas-hot-dog-stand) · oracle_id `7eb14f19-0e53-4c1b-9edd-4fbe15198432` · printing: UNK #UL01b (2024-02-24) · [rulings](https://api.scryfall.com/cards/14f73be4-287a-4aee-96ff-4989b384505e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Hot Tub
@@ -1000,6 +1242,7 @@
   > *Management regrets to inform you that www.wizards.com/hottub is closed, but guests are welcome to lounge by our luxurious mana pool.*
   > *Oh, it seems the mana pool is now also closed. Guests are welcome to lounge by the nondescript area where the mana appears to be gathering.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/131/urzas-hot-tub) · oracle_id `c940ca6e-bb9a-46d7-a7dd-1de15debb916` · printing: UNH #131 (2004-11-19) · [rulings](https://api.scryfall.com/cards/7e17722a-3509-45ac-ae5c-c230482c69e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Incubator
@@ -1013,7 +1256,10 @@
   > *"Our recruitment drives are bringing in fewer fresh troops every day. We need a new strategy."*
   > *—Urza, to Tawnos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #311 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/297/urzas-incubator) · oracle_id `b380c04b-0bce-4328-8f0a-1425e48bee72` · printing: MH3 #297 (2024-06-14) · [rulings](https://api.scryfall.com/cards/c4589226-6072-409b-b598-ebd87f675a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Multiple Incubators are cumulative.
+  - *2004-10-04* — You choose a creature type right as it enters, before any continuous effects are applied or trigged abilities trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/297/urzas-incubator) · oracle_id `b380c04b-0bce-4328-8f0a-1425e48bee72` · printing: MH3 #297 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Mine
 
@@ -1024,7 +1270,10 @@
 - **Flavor text** (CMM printing):
   > *In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #840 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1051/urzas-mine) · oracle_id `33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0` · printing: CMM #1051 (2023-08-04) · [rulings](https://api.scryfall.com/cards/396bbb7d-ae61-4d8d-b931-9ed2f712832e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1051/urzas-mine) · oracle_id `33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0` · printing: CMM #1051 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Miter
 
@@ -1033,6 +1282,7 @@
 - **Oracle text:**
   > Whenever an artifact you control is put into a graveyard from the battlefield, if it wasn't sacrificed, you may pay {3}. If you do, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29737 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/237/urzas-miter) · oracle_id `57f0c89c-79ad-4786-9497-c7e668620fc0` · printing: ME4 #237 (2011-01-10) · [rulings](https://api.scryfall.com/cards/23270d99-5a25-4647-95f8-64da9b8e8831/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Power Plant
@@ -1044,7 +1294,10 @@
 - **Flavor text** (CMM printing):
   > *Urza threw himself into his research, pushing the boundaries of both possibility and morality.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #842 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1052/urzas-power-plant) · oracle_id `e11966cd-2ee3-4df4-b099-abf42dcdf0db` · printing: CMM #1052 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b0449a19-37f7-4169-9e32-928db5ec76fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If you have at least one of each of the three Urza's lands on the battlefield, you must take the 2 mana instead of just one.
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1052/urzas-power-plant) · oracle_id `e11966cd-2ee3-4df4-b099-abf42dcdf0db` · printing: CMM #1052 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Rage
 
@@ -1056,7 +1309,16 @@
   > Urza's Rage deals 3 damage to any target. If this spell was kicked, instead it deals 10 damage to that permanent or player and the damage can't be prevented.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17346 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/151/urzas-rage) · oracle_id `363f8c66-fe0c-44b9-987d-1d160e3f9c54` · printing: MH1 #151 (2019-06-14) · [rulings](https://api.scryfall.com/cards/5c91e364-c157-494e-bb1b-f2cef004900f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2019-06-14* — A spell or ability that counters spells can still target Urza's Rage. When that spell or ability resolves, Urza's Rage won't be countered, but any additional effects of that spell or ability will still happen.
+  - *2019-06-14* — If the target for Urza's Rage becomes an illegal target, the spell won't resolve and will be put into its owner's graveyard with no effect. This is true even if its damage can't be prevented and even though it can't be countered.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/151/urzas-rage) · oracle_id `363f8c66-fe0c-44b9-987d-1d160e3f9c54` · printing: MH1 #151 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Rebuff
 
@@ -1070,6 +1332,7 @@
   > *"As usual, my brother's maneuvers are brash and impulsive."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9579 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/71/urzas-rebuff) · oracle_id `db3b294a-87b1-4dda-b1f6-ea63a9722faf` · printing: BRO #71 (2022-11-18) · [rulings](https://api.scryfall.com/cards/8a6f90b3-450c-490a-b6d0-2393c4646c85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Ruinous Blast
@@ -1082,7 +1345,10 @@
 - **Flavor text** (CMM printing):
   > *Centuries ago, one man's vengeance plunged the world into ice and darkness.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1615 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/842/urzas-ruinous-blast) · oracle_id `978e0d87-3ff2-4a73-916c-ff0dc0ab2797` · printing: CMM #842 (2023-08-04) · [rulings](https://api.scryfall.com/cards/76b10977-64eb-4a50-a481-d67cc2950f56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Other than the casting restriction, the legendary supertype on a sorcery carries no additional rules. You may cast any number of legendary sorceries in a turn, and your deck may contain any number of legendary cards (but no more than four of any with the same name).
+  - *2018-04-27* — You can't cast a legendary sorcery unless you control a legendary creature or a legendary planeswalker. Once you begin to cast a legendary sorcery, losing control of your legendary creatures and planeswalkers won't affect that spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/842/urzas-ruinous-blast) · oracle_id `978e0d87-3ff2-4a73-916c-ff0dc0ab2797` · printing: CMM #842 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Saga
 
@@ -1094,7 +1360,13 @@
   > II — This Saga gains "{2}, {T}: Create a 0/0 colorless Construct artifact creature token with 'This token gets +1/+1 for each artifact you control.'"
   > III — Search your library for an artifact card with mana cost {0} or {1}, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #117 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/259/urzas-saga) · oracle_id `4c6a0c30-b547-4eff-8ff4-0ca25803c076` · printing: MH2 #259 (2021-06-18) · [rulings](https://api.scryfall.com/cards/c1e0f201-42cb-46a1-901a-65bb4fc18f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-06-18* — Although Urza's Saga has the Urza's land type, it doesn't interact with Urza's Tower, Urza's Mine, or Urza's Power Plant.
+  - *2021-06-18* — Even though Urza's Saga is a land, it is also still a Saga, and it will be sacrificed after its last chapter ability resolves.
+  - *2021-06-18* — Urza's Saga gains an ability from its first and second chapters. It keeps those abilities for as long as it's on the battlefield.
+  - *2021-06-18* — Urza's Saga is a land, so it can only be played as a land. It cannot be cast as a spell.
+  - *2021-06-18* — While resolving the chapter III ability, you can find only a card with actual mana cost {0} or {1}, not mana value 0 or 1. For example, you couldn't find a card with mana cost {U} or one with mana cost {X}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/259/urzas-saga) · oracle_id `4c6a0c30-b547-4eff-8ff4-0ca25803c076` · printing: MH2 #259 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Science Fair Project
 
@@ -1110,6 +1382,7 @@
   > 5 — It gains flying until end of turn.
   > 6 — It gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/83/urzas-science-fair-project) · oracle_id `d071d5ca-64a4-47bc-aeb1-dd2dbc46a6a3` · printing: UGL #83 (1998-08-11) · [rulings](https://api.scryfall.com/cards/8bfe56d0-c15f-4a68-a0b8-911e13b1bc9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Sylex
@@ -1120,7 +1393,9 @@
   > {2}{W}{W}, {T}, Exile Urza's Sylex: Each player chooses six lands they control. Destroy all other permanents. Activate only as a sorcery.
   > When Urza's Sylex is put into exile from the battlefield, you may pay {2}. If you do, search your library for a planeswalker card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15610 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/40/urzas-sylex) · oracle_id `fb4d99c2-daec-430a-9ca2-5a178a96618b` · printing: BRO #40 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3000d1c6-dbb3-4e65-b428-dbf167bb8797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — The triggered ability of Urza's Sylex will resolve before the activated ability. This means that you choose whether to pay {2} and search your library before any player chooses lands. Notably, this means that the other players will get to know which planeswalker card you searched for before choosing any lands.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/40/urzas-sylex) · oracle_id `fb4d99c2-daec-430a-9ca2-5a178a96618b` · printing: BRO #40 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Tome
 
@@ -1132,7 +1407,11 @@
   > *"Truly understanding even one volume can be a life's work."*
   > *—Naru Meha, master wizard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22688 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/235/urzas-tome) · oracle_id `4734b73e-104c-4b25-ab52-0145f361c9d1` · printing: DOM #235 (2018-04-27) · [rulings](https://api.scryfall.com/cards/d6bead8b-a67f-4451-9d44-038f8688093f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
+  - *2018-04-27* — You can choose to discard a card even if there’s a historic card in your graveyard you could exile.
+  - *2018-04-27* — You don’t choose whether to discard or exile a card from your graveyard until after you see the card you draw.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/235/urzas-tome) · oracle_id `4734b73e-104c-4b25-ab52-0145f361c9d1` · printing: DOM #235 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Tower
 
@@ -1143,7 +1422,9 @@
 - **Flavor text** (CMM printing):
   > *Urza studied the creations of the Thran not simply to learn from them, but to surpass them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #832 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1053/urzas-tower) · oracle_id `32fbb638-ab14-4e8b-a07a-d4c44e3496f2` · printing: CMM #1053 (2023-08-04) · [rulings](https://api.scryfall.com/cards/1e9f09b3-dd2d-4ba9-a57e-4f3c1793f752/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — The ability checks for land types, not the names of other permanents you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1053/urzas-tower) · oracle_id `32fbb638-ab14-4e8b-a07a-d4c44e3496f2` · printing: CMM #1053 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Urza's Workshop
 
@@ -1156,4 +1437,5 @@
   > *Urza eventually came to understand Tocasia's lessons on clarity of purpose. Perfection became his goal, and all other matters fell away in its pursuit.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2277 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/28/urzas-workshop) · oracle_id `71099427-e110-488f-ab29-7867241fc7f0` · printing: BRC #28 (2022-11-18) · [rulings](https://api.scryfall.com/cards/37c9b9d7-2fa7-4710-94bb-c55ee7bf598c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

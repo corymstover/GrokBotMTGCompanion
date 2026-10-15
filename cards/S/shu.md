@@ -39,7 +39,9 @@
   > *In establishing the Shu kingdom, Liu Bei's forces fought against Ma Chao at Chengdu. Eventually, Ma Chao surrendered and became one of Liu Bei's Tiger Generals.*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25866 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/23/shu-cavalry) · oracle_id `d9180f63-c745-41a1-9f01-273e7ee13176` · printing: ME3 #23 (2009-09-07) · [rulings](https://api.scryfall.com/cards/b8761f17-6f6d-45c3-a626-003396093142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/23/shu-cavalry) · oracle_id `d9180f63-c745-41a1-9f01-273e7ee13176` · printing: ME3 #23 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Defender
 
@@ -51,6 +53,7 @@
 - **Flavor text** (PTK printing):
   > *Confronting Cao Cao's army at Steepslope Bridge, Zhang Fei bellowed, "I am Zhang Fei of Yan! Who dares fight me to the death?" Cao Cao's army cowered and fled.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31460 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/20/shu-defender) · oracle_id `0b6625cb-4177-45bd-ba99-2af43dfd6f46` · printing: PTK #20 (1999-05-01) · [rulings](https://api.scryfall.com/cards/ee57a9ab-c385-4a51-aff7-6a654f5d7611/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Elite Companions
@@ -64,7 +67,9 @@
   > *Throughout the three kingdoms, important generals were often guarded by small groups of expert soldiers known as "elite companions."*
 - **Keywords:** Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27857 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/24/shu-elite-companions) · oracle_id `edf304b8-523e-4233-8d77-1d45d33cbb86` · printing: ME3 #24 (2009-09-07) · [rulings](https://api.scryfall.com/cards/4e4b456f-f4d8-412b-afac-11eaae51b0fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/24/shu-elite-companions) · oracle_id `edf304b8-523e-4233-8d77-1d45d33cbb86` · printing: ME3 #24 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Elite Infantry
 
@@ -76,6 +81,7 @@
 - **Flavor text** (PTK printing):
   > *Kongming's first campaign against the Wei kingdom was a rousing success until an arrogant Shu general, Ma Su, foolishly lost the city of Jieting.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31286 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/22/shu-elite-infantry) · oracle_id `806b4f0c-f577-4d7f-b826-09e4479c314e` · printing: PTK #22 (1999-05-01) · [rulings](https://api.scryfall.com/cards/36bcd751-1142-4e72-9d87-7a25c74c038b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Farmer
@@ -89,7 +95,9 @@
   > *"The common folk are ceaselessly active. The fields are fertile and the soil productive, and neither flood nor drought plagues us."*
   > *—A Shu diplomat*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29915 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/23/shu-farmer) · oracle_id `0d059577-0790-4033-b719-a74b6a62262e` · printing: PTK #23 (1999-05-01) · [rulings](https://api.scryfall.com/cards/fc6d6524-d8bd-4eb9-9222-747443492b8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ptk/23/shu-farmer) · oracle_id `0d059577-0790-4033-b719-a74b6a62262e` · printing: PTK #23 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Foot Soldiers
 
@@ -101,6 +109,7 @@
 - **Flavor text** (PTK printing):
   > *Liu Bei lost many men at the battle of Runan because of his lack of strategy. It wasn't until he met Kongming that he began to truly succeed as a leader.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30938 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/24/shu-foot-soldiers) · oracle_id `4d7ff9d5-dc06-4a70-a9c8-d6f88f02fd67` · printing: PTK #24 (1999-05-01) · [rulings](https://api.scryfall.com/cards/cd4268d5-f27b-44a5-91f6-6c90521825fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu General
@@ -112,7 +121,9 @@
   > Vigilance; horsemanship (This creature can't be blocked except by creatures with horsemanship.)
 - **Keywords:** Vigilance, Horsemanship
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26778 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/25/shu-general) · oracle_id `0fef6729-b044-4daf-834a-ac8c9711ad8a` · printing: ME3 #25 (2009-09-07) · [rulings](https://api.scryfall.com/cards/167c1d3f-e013-48b7-a961-590136bda297/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/25/shu-general) · oracle_id `0fef6729-b044-4daf-834a-ac8c9711ad8a` · printing: ME3 #25 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Grain Caravan
 
@@ -124,6 +135,7 @@
 - **Flavor text** (PTK printing):
   > *Keeping a million-man army fed was no easy task. Grain and rice caravans were the lifeblood of the empire.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31329 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/26/shu-grain-caravan) · oracle_id `587e9f15-1d79-458f-a073-229b828b2393` · printing: PTK #26 (1999-05-01) · [rulings](https://api.scryfall.com/cards/7bf26eb7-8a31-4022-87bb-67394653f06a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuko
@@ -138,7 +150,9 @@
   > *—\*Weaponry of Kamigawa\**
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11589 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/159/shuko) · oracle_id `8abe0577-8fdb-4e4a-a871-01b21732c961` · printing: BOK #159 (2005-02-04) · [rulings](https://api.scryfall.com/cards/a47456b8-cef8-4085-90b1-92788e16fd27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — You may activate this card’s equip ability targeting the creature that it is currently attached to, even if it’s the only creature you control. Since the equip ability costs zero, you can do this as many times as you like during your main phases, though it generally won’t do anything.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/159/shuko) · oracle_id `8abe0577-8fdb-4e4a-a871-01b21732c961` · printing: BOK #159 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shunt
 
@@ -149,7 +163,18 @@
 - **Flavor text** (10E printing):
   > *Aranghil held her fury in her heart, hard and bright as a ruby. With its razor edge, she rewrote the laws of battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14333 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/10e/233/shunt) · oracle_id `e714bcfb-b451-4b7b-ab60-4cb845c75647` · printing: 10E #233 (2007-07-13) · [rulings](https://api.scryfall.com/cards/5e54b10e-5307-4138-8f80-28406170f2c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2004-10-04* — If there is no other legal target for the spell, this does not change the target.
+  - *2004-10-04* — Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
+  - *2004-10-04* — The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+  - *2004-10-04* — This does not check if the current target is legal. It just checks if the spell has a single target.
+  - *2004-10-04* — This only targets the spell being changed, not the original or new target of the spell it is affecting.
+  - *2004-10-04* — You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
+  - *2004-10-04* — You can’t make a spell which is on the stack target itself.
+  - *2004-10-04* — You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+  - *2007-07-15* — If a spell targets multiple things, you can’t target it with Shunt, even if all but one of those targets has become illegal.
+  - *2007-07-15* — If a spell targets the same player or object multiple times, you can’t target it with Shunt.
+- **Source flags:** [Scryfall](https://scryfall.com/card/10e/233/shunt) · oracle_id `e714bcfb-b451-4b7b-ab60-4cb845c75647` · printing: 10E #233 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuriken
 
@@ -160,6 +185,7 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23963 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/160/shuriken) · oracle_id `c6e92e21-d3e7-4982-b9f3-af56d4014c07` · printing: BOK #160 (2005-02-04) · [rulings](https://api.scryfall.com/cards/ef1e7f3b-55a4-41bf-b7ec-81114f2c63c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri's Fabricator
@@ -170,6 +196,7 @@
   > When this artifact enters, create two tapped Vibranium tokens. (They're artifacts with indestructible and "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell.")
   > {6}, {T}: Return target artifact card from your graveyard to the battlefield with a finality counter on it. Activate only as a sorcery. (If a permanent with a finality counter on it would be put into a graveyard, exile it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13903 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/114/shuris-fabricator) · oracle_id `127f6985-c1f4-487f-b5ee-c84524cd6c55` · printing: MSC #114 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ace834f0-7f64-4716-8599-f96f674e61a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, the Black Panther
@@ -184,6 +211,7 @@
   > *"Monster! You've faced the muscle of Wakanda. Now face its claws."*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16220 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/95/shuri-the-black-panther) · oracle_id `1ea7b298-be87-4032-9f45-37f9b39ce3fa` · printing: MSC #95 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bb9efb2e-3fe8-4f21-82c5-e089d835bdd5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, Vibranium Technologist
@@ -200,6 +228,7 @@
   > *"Vibranium is the heart of Wakanda, and I have always been able to feel that heartbeat."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26463 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/746/shuri-vibranium-technologist) · oracle_id `94b2a7a6-9e9a-437f-9cde-111b1b02a68e` · printing: MSC #746 (2026-06-26) · [rulings](https://api.scryfall.com/cards/33795ef2-2215-4a69-9127-25ef252db684/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuri, Wakandan Inventor
@@ -213,6 +242,7 @@
 - **Flavor text** (MSH printing):
   > *While her older brother T'Challa ruled Wakanda, Shuri perfected its defenses and vibranium-based weapons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5752 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/75/shuri-wakandan-inventor) · oracle_id `a8c047fc-20a9-4c62-b8a6-9ead56d60ad0` · printing: MSH #75 (2026-06-26) · [rulings](https://api.scryfall.com/cards/65005522-555e-4479-939c-be16e0262f6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Soldier-Farmers
@@ -225,6 +255,7 @@
 - **Flavor text** (ME3 printing):
   > *During Kongming's campaigns against the Wei, his Shu troops rotated from the battlefront to the fields every hundred days.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30842 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/26/shu-soldier-farmers) · oracle_id `174cf7cd-3e8c-4f90-abc1-a78a0ce832d2` · printing: ME3 #26 (2009-09-07) · [rulings](https://api.scryfall.com/cards/53100324-b42f-4cd1-a5db-8a3b292d2da7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuttle Ace
@@ -238,6 +269,7 @@
 - **Flavor text** (TRK printing):
   > *Although she was a Kelpien, a prey species, she feared no predator once behind the controls.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32249 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/36/shuttle-ace) · oracle_id `4b5b0864-7ddd-497d-a7d6-a31c49bb9c7b` · printing: TRK #36 (2026-11-13) · [rulings](https://api.scryfall.com/cards/559f838a-24ac-4f18-8c40-23cfde6f65cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shuttle Crew
@@ -252,6 +284,7 @@
   > *Transporters aren't always reliable, especially when you're coming in hot.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32306 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/137/shuttle-crew) · oracle_id `25855177-a416-4083-a6e4-8c9e00361d41` · printing: TRC #137 (2026-11-13) · [rulings](https://api.scryfall.com/cards/f5174a37-fbc7-4dbd-a5c2-e2f256ea7a6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shu Yun, the Silent Tempest
@@ -264,4 +297,9 @@
   > Whenever you cast a noncreature spell, you may pay {R/W}{R/W}. If you do, target creature gains double strike until end of turn.
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14240 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/52/shu-yun-the-silent-tempest) · oracle_id `7b22f31c-9caa-4afd-8c44-f88346bfa79c` · printing: FRF #52 (2015-01-23) · [rulings](https://api.scryfall.com/cards/bd79e83a-a34b-472c-9317-12af4ed2ca28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Any spell you cast that doesn’t have the type creature will cause prowess to trigger. If a spell has multiple types, and one of those types is creature (such as an artifact creature), casting it won’t cause prowess to trigger. Playing a land also won’t cause prowess to trigger.
+  - *2014-11-24* — Once it triggers, prowess isn’t connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
+  - *2014-11-24* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
+  - *2014-11-24* — Prowess triggers only once for any spell, even if that spell has multiple types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/52/shu-yun-the-silent-tempest) · oracle_id `7b22f31c-9caa-4afd-8c44-f88346bfa79c` · printing: FRF #52 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

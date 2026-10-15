@@ -23,7 +23,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, put a +1/+1 counter on each creature you control if you control a creature with power 5 or greater. Then you gain 10 life if you control a creature with power 10 or greater. Then you win the game if you control a creature with power 20 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7138 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/253/mayaels-aria) · oracle_id `6cb9ca93-e0bb-4758-bf0d-c9a8fce5f11f` · printing: 2X2 #253 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a53170fe-7f18-47ef-b501-1ed398306419/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-05-01* — The three parts of the ability happen sequentially. For example, if you control a creature with 9 power when the ability starts to resolve, you'll put a +1/+1 counter on each creature you control — and now, since you control a creature with 10 power, you'll gain 10 life.
+  - *2009-05-01* — This ability triggers at the beginning of each of your upkeeps. Whether you control any applicable creatures is checked only when the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/253/mayaels-aria) · oracle_id `6cb9ca93-e0bb-4758-bf0d-c9a8fce5f11f` · printing: 2X2 #253 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayael the Anima
 
@@ -35,6 +38,7 @@
 - **Flavor text** (C13 printing):
   > *The sacred Anima's eyes are blind to all but the grandest truths.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15292 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/199/mayael-the-anima) · oracle_id `7f546d54-584d-4bec-8fbb-1ea2f8ab277e` · printing: C13 #199 (2013-11-01) · [rulings](https://api.scryfall.com/cards/309d95ad-e46c-4407-894d-d4cfdc7017f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Devil
@@ -47,7 +51,13 @@
 - **Flavor text** (EOC printing):
   > *Despite their stake in the city's survival, Rakdos cultists are loath to pass up any opportunity to sow chaos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #573 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/121/mayhem-devil) · oracle_id `4709f11c-aef8-45ac-b2bf-e640c568dfac` · printing: EOC #121 (2025-08-01) · [rulings](https://api.scryfall.com/cards/674f3a8a-4552-4289-b92a-06ce158f115c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-05-03* — A legendary permanent that is put into a graveyard because of the "legend rule" isn't sacrificed.
+  - *2019-05-03* — If a permanent is sacrificed to pay a cost of a spell or ability, Mayhem Devil's ability will resolve before that spell or ability. Conversely, if a permanent is sacrificed during the resolution of a spell or ability, that spell or ability will finish resolving before Mayhem Devil's ability is put onto the stack.
+  - *2019-05-03* — If you sacrifice Mayhem Devil, its ability triggers.
+  - *2019-05-03* — Mayhem Devil itself doesn't allow any player to sacrifice any permanents. Its ability triggers whenever a player sacrifices a permanent because some other spell, ability, or cost instructed the player to do so.
+  - *2019-05-03* — You control Mayhem Devil's triggered ability and choose the target, no matter who sacrificed the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoc/121/mayhem-devil) · oracle_id `4709f11c-aef8-45ac-b2bf-e640c568dfac` · printing: EOC #121 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Patrol
 
@@ -60,7 +70,13 @@
   > Blitz {1}{R} (If you cast this spell for its blitz cost, it gains haste and "When this creature dies, draw a card." Sacrifice it at the beginning of the next end step.)
 - **Keywords:** Blitz, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19036 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/114/mayhem-patrol) · oracle_id `f77a9160-1d37-476d-8908-29ddcc982328` · printing: SNC #114 (2022-04-29) · [rulings](https://api.scryfall.com/cards/50162cdd-ba30-48df-93ff-197c7f4a2913/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If a creature enters the battlefield as a copy of or becomes a copy of a creature whose blitz cost was paid, the copy won't have haste, won't be sacrificed, and its controller won't draw a card when it dies.
+  - *2022-04-29* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
+  - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
+  - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
+  - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/114/mayhem-patrol) · oracle_id `f77a9160-1d37-476d-8908-29ddcc982328` · printing: SNC #114 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### May of the Machine
 
@@ -70,6 +86,7 @@
   > Destroy target creature or planeswalker. If today's date is May 6th, scry 1. If today's date is May 7th, fateseal 1. (To fateseal 1, look at the top card of an opponent's library. You may put that card on the bottom of their library.)
 - **Keywords:** Fateseal, Scry
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CB03/may-of-the-machine) · oracle_id `8954a62c-3d58-4cca-89a5-e8dd3f859743` · printing: UNK #CB03 (2023-05-06) · [rulings](https://api.scryfall.com/cards/29d6d636-b2ab-4694-adf2-36c438067c21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayor of Avabruck // Howlpack Alpha
@@ -88,7 +105,9 @@
   > At the beginning of each upkeep, if a player cast two or more spells last turn, transform this creature.
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/207/mayor-of-avabruck-howlpack-alpha) · oracle_id `6e638587-30b3-4c4b-b463-fb415ea048f7` · printing: INR #207 (2025-01-24) · [rulings](https://api.scryfall.com/cards/ef84540b-a132-4169-b3c0-b0edeb395c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-01-24* — A creature that is both a Werewolf and a Wolf will only get +1/+1 from Howlpack Alpha’s first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/207/mayor-of-avabruck-howlpack-alpha) · oracle_id `6e638587-30b3-4c4b-b463-fb415ea048f7` · printing: INR #207 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### May the Mana Be with You
 
@@ -99,4 +118,5 @@
   > Choose two basic land types. Create the appropriate Shockland token. (For example, if you choose Island and Swamp, you'd get a Watery Grave token.)
 - **Keywords:** Demonstrate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CC03/may-the-mana-be-with-you) · oracle_id `9007b1ae-5938-41cf-a190-76c514c3c253` · printing: UNK #CC03 (2025-08-02) · [rulings](https://api.scryfall.com/cards/f0c70102-d966-4453-a1f2-020143c7be5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

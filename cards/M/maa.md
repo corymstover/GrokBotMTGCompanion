@@ -22,6 +22,7 @@
   > *"Who am I to break up a family?"*
   > *—Ghoulcaller Gisa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19196 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/523/maalfeld-twins) · oracle_id `dda4b515-49c0-43fe-9f6a-36defa326bb1` · printing: FDN #523 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c166df8f-9508-427a-8ec7-bc8541b6ed88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maarika, Brutal Gladiator
@@ -34,4 +35,5 @@
   > As long as it's your turn, Maarika has indestructible.
   > Whenever Maarika deals damage to a creature, if that creature was dealt excess damage this turn, that creature's controller sacrifices a noncreature, nonland permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10703 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/15/maarika-brutal-gladiator) · oracle_id `a46f9f5c-775c-470d-8935-9556e1bbb23d` · printing: SLX #15 (2023-02-10) · [rulings](https://api.scryfall.com/cards/86123ab7-ee60-4ef2-8467-1ad420213eb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

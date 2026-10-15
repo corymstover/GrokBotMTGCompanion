@@ -25,7 +25,20 @@
   > When you cast this spell, you may destroy target artifact or enchantment.
 - **Keywords:** Emerge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19995 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/emn/10/mockery-of-nature) · oracle_id `5da5240e-5d87-494f-aec9-64b7a3f0d935` · printing: EMN #10 (2016-07-22) · [rulings](https://api.scryfall.com/cards/3118737f-2fd9-4fe5-bd0f-43c9ef2166e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2016-07-13* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+  - *2025-01-24* — A creature’s mana value is determined solely by the mana symbols printed in its upper right corner (unless that creature is the back face of a double-faced card, is a melded permanent, or is copying something else; see below). If the mana cost includes {X}, X is 0. If it’s a single-faced card with no mana symbols in its upper right corner (because it’s an animated land, for example), its mana value is 0. Ignore any alternative costs or additional costs (such as kicker) that were paid as the creature was cast.
+  - *2025-01-24* — Colored mana components of emerge costs can’t be reduced with emerge.
+  - *2025-01-24* — Emerge represents two static abilities that function while the spell with emerge is on the stack. “Emerge [cost]” means “You may cast this spell by paying [cost] and sacrificing a creature rather than paying its mana cost” and “If you chose to pay this spell’s emerge cost, its total cost is reduced by an amount of generic mana equal to the sacrificed creature’s mana value.”
+  - *2025-01-24* — If you cast a spell for another cost “rather than paying its mana cost,” such as an emerge cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast it.
+  - *2025-01-24* — If you sacrifice a creature with {X} in its mana cost, that X is 0.
+  - *2025-01-24* — Once you begin to cast a spell with emerge, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice.
+  - *2025-01-24* — The creature chosen to be sacrificed is still on the battlefield as the cost of the emerge spell is determined and as you activate mana abilities to cast the emerge spell. Its abilities may affect the spell’s cost, be activated to generate mana, and so on. However, if it has an ability that triggers when a spell is cast, it will have been sacrificed before that ability can trigger.
+  - *2025-01-24* — The mana value of a creature spell with emerge isn’t affected by whether its emerge cost is paid. For example, if you cast Decimator of the Provinces for its emerge cost and sacrifice a creature whose mana value is 3, Decimator of the Provinces’s mana value remains 10.
+  - *2025-01-24* — The mana value of the back face of a double-faced card is the mana value of its front face. The mana value of a melded permanent is the sum of the mana values of its front faces. A creature that’s a copy of either has a mana value of 0.
+  - *2025-01-24* — You may sacrifice a creature with a mana value of 0, such as a token creature that’s not a copy of another permanent, to cast a spell for its emerge cost. You’ll just pay the full emerge cost with no reduction.
+  - *2025-01-24* — You may sacrifice a creature with mana value greater than or equal to the emerge cost. If you do, you’ll pay only the colored mana component of the emerge cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/emn/10/mockery-of-nature) · oracle_id `5da5240e-5d87-494f-aec9-64b7a3f0d935` · printing: EMN #10 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird
 
@@ -39,7 +52,15 @@
   > *"Laughing at you? No, no, I'm laughing \*as\* you!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #734 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/blb/61/mockingbird) · oracle_id `b9df2cdf-397c-458d-89cf-911568737ffa` · printing: BLB #61 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ade32396-8841-4ba4-8852-d11146607f21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-07-26* — Any “enters” abilities of the copied creature will trigger when Mockingbird enters. Any “as [this creature] enters” or “[this creature] enters with” abilities of the copied creature will also work.
+  - *2024-07-26* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-07-26* — If the copied creature is a token, Mockingbird copies the original characteristics of that token as stated by the effect that created that token, with the noted exceptions.
+  - *2024-07-26* — If the copied creature is copying something else, then Mockingbird enters as whatever that creature copied, with the noted exceptions.
+  - *2024-07-26* — Mockingbird copies exactly what was printed on the original creature, except it’s a Bird in addition to its other types and it has flying, and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-07-26* — Mockingbird’s second ability counts all mana spent to cast Mockingbird, not just mana spent on {X}. If there are any additional costs to cast it, the mana spent to pay those costs counts as well.
+  - *2024-07-26* — You can choose not to have Mockingbird enter as a copy of another creature. If you do, it will just be a 1/1 Bird Bard creature with flying, an ability that didn’t do anything, and the opportunity for a good self-deprecating joke or two.
+- **Source flags:** [Scryfall](https://scryfall.com/card/blb/61/mockingbird) · oracle_id `b9df2cdf-397c-458d-89cf-911568737ffa` · printing: BLB #61 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird, Ace Agent
 
@@ -53,6 +74,7 @@
   > *"My first love was lab work, but these days my heart's in the field."*
 - **Keywords:** Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22642 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/22/mockingbird-ace-agent) · oracle_id `1fd00656-83ba-4feb-b089-224007936b99` · printing: MSH #22 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0f5701ac-ec30-4fb1-bd71-4bac4693c075/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird, Bobbi Morse
@@ -65,6 +87,7 @@
 - **Flavor text** (MSC printing):
   > *"How did I get here? I'm not rich. Not a mutant. Not a natural. I just try harder."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28349 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/522/mockingbird-bobbi-morse) · oracle_id `d34affa9-3629-49e1-b1e4-4742aff6eafc` · printing: MSC #522 (2026-06-26) · [rulings](https://api.scryfall.com/cards/895f7959-4780-4215-a3d3-36a038ebb000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Doppelganger
@@ -77,7 +100,14 @@
   > You may have this creature enter as a copy of a creature an opponent controls, except it has "Other creatures with the same name as this creature are goaded." (They attack each combat if able and attack a player other than you if able.)
 - **Keywords:** Goad, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5552 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · [rulings](https://api.scryfall.com/cards/6c5f81d8-b189-4f6e-872f-a237bb872aa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2022-06-10* — Any enters-the-battlefield abilities of the copied creature will trigger when Mocking Doppelganger enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2022-06-10* — Except for the added ability, Mocking Doppelganger copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2022-06-10* — If Mocking Doppelganger somehow enters the battlefield at the same time as another creature an opponent controls, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2022-06-10* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
+  - *2022-06-10* — If the chosen creature is a token, Mocking Doppelganger copies the original characteristics of that token, except for the added ability. Mocking Doppelganger doesn't become a token in this case.
+  - *2022-06-10* — If the chosen creature is copying something else, Mocking Doppelganger will use the copiable values of the chosen creature. In most cases, it will be a copy of whatever the chosen creature is copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Sprite
 
@@ -91,4 +121,7 @@
   > *"Look at me, everyone! I'm a High Fae! Watch me do important High Fae things!"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2894 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/744/mocking-sprite) · oracle_id `013ca531-1ff7-4efc-a280-4bc3ab574072` · printing: FDN #744 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d52d16be-c74b-4e40-94f9-2ffa497b6337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Mocking Sprite's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
+  - *2023-09-01* — Mocking Sprite's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/744/mocking-sprite) · oracle_id `013ca531-1ff7-4efc-a280-4bc3ab574072` · printing: FDN #744 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

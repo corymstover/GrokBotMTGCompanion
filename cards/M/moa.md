@@ -25,6 +25,7 @@
   > *The dead sing their own lullabies.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/p02/79/moaning-spirit) · oracle_id `78962897-e2e3-4cb2-ae97-eca5dbe74e49` · printing: P02 #79 (1998-06-24) · [rulings](https://api.scryfall.com/cards/cdd99210-5201-4ecc-b86a-aee9dafe2657/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moaning Wall
@@ -39,6 +40,7 @@
   > *Before the monuments, before the first trials, before Naktamun itself, Bolas culled the plane of its adults in order to rebuild it for his own designs.*
 - **Keywords:** Defender, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20755 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/72/moaning-wall) · oracle_id `7bf22390-a6c0-4da6-9f05-e66628f72079` · printing: HOU #72 (2017-07-14) · [rulings](https://api.scryfall.com/cards/ef494f81-638a-4e5d-b987-0dde7f2a135c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moan of the Unhallowed
@@ -52,7 +54,14 @@
   > *For a ghoul, every village is a buffet and every disaster is a reunion.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18420 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/107/moan-of-the-unhallowed) · oracle_id `ce87e5ed-2562-4563-9a5b-bd53c04ec4a5` · printing: UMA #107 (2018-12-07) · [rulings](https://api.scryfall.com/cards/2a1f42ee-7f4e-4b2a-b60b-750662878a5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-11-08* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-11-08* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/107/moan-of-the-unhallowed) · oracle_id `ce87e5ed-2562-4563-9a5b-bd53c04ec4a5` · printing: UMA #107 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moat
 
@@ -63,6 +72,7 @@
 - **Flavor text** (ME1 printing):
   > *The purpose of any moat is to impede attack. Some are filled with water, some with thistles. Some are filled with things best left unseen.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13277 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/21/moat) · oracle_id `42208fea-8c24-451f-861d-6d70c0a7a502` · printing: ME1 #21 (2007-09-10) · [rulings](https://api.scryfall.com/cards/e2dffeb3-c858-4b8c-ae1f-109721f7d2da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moat Piranhas
@@ -77,4 +87,5 @@
   > *—Gorin the Brazen*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25360 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/67/moat-piranhas) · oracle_id `40057917-4a88-4316-bc5b-efc0ada1ddff` · printing: M20 #67 (2019-07-12) · [rulings](https://api.scryfall.com/cards/543b3f69-19be-494b-928f-e16b92560e35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

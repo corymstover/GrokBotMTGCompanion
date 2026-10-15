@@ -30,7 +30,14 @@
   > Evoke {B} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 - **Keywords:** Evoke, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20542 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/108/offalsnout) · oracle_id `f0a20c62-035d-408a-9385-8f2bc2a6d332` · printing: UMA #108 (2018-12-07) · [rulings](https://api.scryfall.com/cards/737679bd-b38f-402e-a6b2-7964da0f8d2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-04-01* — Effects that cause you to pay more or less to cast a spell will cause you to pay that much more or less while casting it for its evoke cost, too. That's because they affect the total cost of the spell, not its mana cost.
+  - *2008-04-01* — Evoke doesn't change the timing of when you can cast the creature that has it. If you could cast that creature spell only when you could cast a sorcery, the same is true for cast it with evoke.
+  - *2008-04-01* — If a creature spell cast with evoke changes controllers before it enters, it will still be sacrificed when it enters. Similarly, if a creature cast with evoke changes controllers after it enters but before its sacrifice ability resolves, it will still be sacrificed. In both cases, the controller of the creature at the time it left the battlefield will control its leaves-the-battlefield ability.
+  - *2008-04-01* — If you're casting a spell "without paying its mana cost," you can't use its evoke ability.
+  - *2008-04-01* — When you cast a spell by paying its evoke cost, its mana cost doesn't change. You just pay the evoke cost instead.
+  - *2008-04-01* — Whether evoke's sacrifice ability triggers when the creature enters depends on whether the spell's controller chose to pay the evoke cost, not whether they actually paid it (if it was reduced or otherwise altered by another ability, for example).
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/108/offalsnout) · oracle_id `f0a20c62-035d-408a-9385-8f2bc2a6d332` · printing: UMA #108 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Off Balance
 
@@ -41,7 +48,9 @@
 - **Flavor text** (NEM printing):
   > *A heavy weapon deals plenty of damage—but it does have to hit.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30999 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/15/off-balance) · oracle_id `38d9401e-2840-455d-8478-8c976588d4ab` · printing: NEM #15 (2000-02-14) · [rulings](https://api.scryfall.com/cards/adafe5c4-8de0-4d38-919f-de96bc70c21b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The ability only does something if used before attackers or blockers (as appropriate) are declared during a turn. If used after the creature is declared as an attacker or blocker, nothing happens.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/15/off-balance) · oracle_id `38d9401e-2840-455d-8478-8c976588d4ab` · printing: NEM #15 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offender at Large
 
@@ -56,7 +65,20 @@
   > *—Imel of the Foundway Associates*
 - **Keywords:** Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27350 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/138/offender-at-large) · oracle_id `c8c42851-1b1b-49dd-a97c-7eda57dadb13` · printing: MKM #138 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f096ff4a-85f4-46f1-9478-e8921f21309d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/138/offender-at-large) · oracle_id `c8c42851-1b1b-49dd-a97c-7eda57dadb13` · printing: MKM #138 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offer Immortality
 
@@ -67,6 +89,7 @@
 - **Flavor text** (ONE printing):
   > *"Give all you are to Phyrexia, and you will receive more than you could have ever desired."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5553 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/102/offer-immortality) · oracle_id `be4499e6-616a-4c11-b37e-9201d2492682` · printing: ONE #102 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b0aac10a-6d47-4a6c-8a10-2b7c06f3ff32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offering to Asha
@@ -79,7 +102,9 @@
   > *"His body belongs to Bant now. His soul? I honestly don't know. I expect it belongs to the angels."*
   > *—Rafiq of the Many*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26445 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arb/9/offering-to-asha) · oracle_id `d061972e-6f4f-41a7-966a-88839f105f19` · printing: ARB #9 (2009-04-30) · [rulings](https://api.scryfall.com/cards/260fe443-ca03-42b1-bcee-86e5173c1aaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2009-05-01* — You gain 4 life whether or not the targeted spell’s controller pays {4} and whether or not the targeted spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arb/9/offering-to-asha) · oracle_id `d061972e-6f4f-41a7-966a-88839f105f19` · printing: ARB #9 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Officious Interrogation
 
@@ -92,7 +117,18 @@
   > *No guest was permitted to leave before being questioned in an Azorius verity circle.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/222/officious-interrogation) · oracle_id `e57e448b-1186-4662-a6b0-01a9ce33b961` · printing: MKM #222 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a433ca4c-82d0-4e49-bc8e-98e18dd174e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-02-02* — Any target players that are no longer legal targets by the time Officious Interrogation resolves won't have their creatures counted when determining how many tokens you create.
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If a spell or ability allows you to cast Officious Interrogation without paying its mana cost, you must still pay the additional cost for any targets beyond the first.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — If this spell is copied and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2024-02-02* — Officious Interrogation's mana value doesn't change no matter how many targets it has.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+  - *2024-02-02* — You choose how many targets Officious Interrogation has and what those targets are as you cast it. You can't choose the same target more than once. It's legal to cast Officious Interrogation with no targets, although this particular option should be placed under some serious scrutiny.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/222/officious-interrogation) · oracle_id `e57e448b-1186-4662-a6b0-01a9ce33b961` · printing: MKM #222 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Offspring's Revenge
 
@@ -103,7 +139,11 @@
 - **Flavor text** (IKO printing):
   > *All they found in the hunter's camp were tiny paw prints and a lot of blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21935 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/198/offsprings-revenge) · oracle_id `e9fa3e3c-4a7e-4a18-b2ef-15d53ff55321` · printing: IKO #198 (2020-04-24) · [rulings](https://api.scryfall.com/cards/78619ffb-f514-4f9f-9d77-3ab49e045f7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — If the card copied by the token had any “when [this permanent] enters the battlefield” abilities, then the token also has those abilities and will trigger them when it’s created. Similarly, any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities that the token has copied will also work.
+  - *2020-04-17* — The token copies exactly what was printed on the original card and nothing else, except the characteristics it specifically modifies. It doesn’t copy any information about the object the card was before it was put into your graveyard.
+  - *2020-04-17* — The token’s power and toughness are 1/1. These are copiable values of the token that other effects may copy. If the copied card has an ability that defines its power or toughness, that ability isn’t copied. On the other hand, gaining haste after the token has been created is not a copiable value.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/198/offsprings-revenge) · oracle_id `e9fa3e3c-4a7e-4a18-b2ef-15d53ff55321` · printing: IKO #198 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Of Herbs and Stewed Rabbit
 
@@ -116,7 +156,13 @@
   > III — Create a 1/1 white Halfling creature token for each Food you control.
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4698 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/17/of-herbs-and-stewed-rabbit) · oracle_id `2efb908f-d069-4041-930b-5c1ccec00db2` · printing: LTC #17 (2023-06-23) · [rulings](https://api.scryfall.com/cards/c58623cb-8b49-470c-9622-dd6e09d47599/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — When Of Herbs and Stewed Rabbit's first chapter ability triggers, you can choose not to target a creature just to create a Food token. However, if you do choose a target, and that target is illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't create a Food token.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/17/of-herbs-and-stewed-rabbit) · oracle_id `2efb908f-d069-4041-930b-5c1ccec00db2` · printing: LTC #17 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Of One Mind
 
@@ -129,7 +175,11 @@
   > *"The \*eludha\* is total communication, total understanding. It makes regular human speech feel like garbled grunting."*
   > *—Winota, heartbonder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12283 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/60/of-one-mind) · oracle_id `5a23c734-cbfb-419a-9bf1-126cb07fe427` · printing: IKO #60 (2020-04-24) · [rulings](https://api.scryfall.com/cards/c95fb136-f21d-4f3a-82b7-bcf490b7e90c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-04-17* — Of One Mind is unaffected if you no longer control a Human and non-Human creature after you've cast it.
+  - *2020-04-17* — Once you announce that you're casting Of One Mind, no player may take actions until the spell has been paid for. Notably, opponents can't try to change whether you control a Human and a non-Human creature.
+  - *2020-04-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Of One Mind). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/60/of-one-mind) · oracle_id `5a23c734-cbfb-419a-9bf1-126cb07fe427` · printing: IKO #60 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oft-Nabbed Goat
 
@@ -140,4 +190,6 @@
   > {1}: Draw a card. Gain control of this creature and put a -1/-1 counter on it. Only your opponents may activate this ability and only as a sorcery.
   > When this creature dies, if it had one or more -1/-1 counters on it, its owner draws that many cards and each other player loses that much life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5656 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/11/oft-nabbed-goat) · oracle_id `63193ad4-bbd2-4cc3-98e2-9f6b985e8ae7` · printing: ECC #11 (2026-01-23) · [rulings](https://api.scryfall.com/cards/4030bfab-867c-4724-904e-3e8b631f075e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Only the opponents of Oft-Nabbed Goat's controller can activate its first ability. For the purposes of the first ability, it doesn't matter who owns Oft-Nabbed Goat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/11/oft-nabbed-goat) · oracle_id `63193ad4-bbd2-4cc3-98e2-9f6b985e8ae7` · printing: ECC #11 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

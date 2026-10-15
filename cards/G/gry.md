@@ -26,7 +26,10 @@
   > *—Anders, cathar drillmaster*
 - **Keywords:** Flying, Training
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24658 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/15/gryff-rider) · oracle_id `e1ca5c24-bbd8-4eed-bb2b-17163f90e72b` · printing: VOW #15 (2021-11-19) · [rulings](https://api.scryfall.com/cards/5317077b-370e-41a9-9162-c713362fd7f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-11-19* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
+  - *2021-11-19* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/15/gryff-rider) · oracle_id `e1ca5c24-bbd8-4eed-bb2b-17163f90e72b` · printing: VOW #15 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gryff's Boon
 
@@ -38,7 +41,9 @@
   > {3}{W}: Return this card from your graveyard to the battlefield attached to target creature. Activate only as a sorcery.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7807 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/25/gryffs-boon) · oracle_id `f62f3f4e-d506-43a9-91d8-bbc86e0a9167` · printing: INR #25 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a01e7a3f-9654-4f72-8adc-20dad0b5d14e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — If you activate Gryff's Boon's last ability and the target creature becomes an illegal target in response, the ability doesn't resolve and Gryff's Boon remains in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/25/gryffs-boon) · oracle_id `f62f3f4e-d506-43a9-91d8-bbc86e0a9167` · printing: INR #25 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gryff Vanguard
 
@@ -53,6 +58,7 @@
   > *—Ekka, shopkeeper of Hanweir*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/25/gryff-vanguard) · oracle_id `3bcdf832-4ce2-4043-b46a-0c5fd7019fcd` · printing: DDQ #25 (2016-02-26) · [rulings](https://api.scryfall.com/cards/53a14ab8-62f4-4873-b4ef-650f0aded095/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gryffwing Cavalry
@@ -66,4 +72,8 @@
   > Whenever this creature attacks, you may pay {1}{W}. If you do, target attacking creature without flying gains flying until end of turn.
 - **Keywords:** Flying, Training
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/16/gryffwing-cavalry) · oracle_id `8e5e6f1d-4945-4074-a33e-c0e8b6b24a47` · printing: VOW #16 (2021-11-19) · [rulings](https://api.scryfall.com/cards/792d5b41-27f3-455b-890e-a1771944fc7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-11-19* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
+  - *2021-11-19* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+  - *2021-11-19* — You must choose a target for Gryffwing Cavalry's last ability before you choose whether or not to pay the cost. If there is no legal target, you won't have the opportunity to pay the cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/16/gryffwing-cavalry) · oracle_id `8e5e6f1d-4945-4074-a33e-c0e8b6b24a47` · printing: VOW #16 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

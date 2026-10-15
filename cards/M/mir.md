@@ -101,6 +101,7 @@
   > *"Those blessed hands could bring surcease to even the most tainted soul."*
   > *—Sister Betje, \*Miracles of the Saints\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31154 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/drk/13/miracle-worker) · oracle_id `86ddbc56-3318-49cf-be95-78772ef87637` · printing: DRK #13 (1994-08-01) · [rulings](https://api.scryfall.com/cards/35d29bda-096c-44d4-b45e-c2c507f8efbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miraculous Recovery
@@ -112,7 +113,10 @@
 - **Flavor text** (UMA printing):
   > *"I am the rock of the polis. Death only strengthens me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16723 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/26/miraculous-recovery) · oracle_id `cea73a4b-e10a-4517-a92b-24a08321009f` · printing: UMA #26 (2018-12-07) · [rulings](https://api.scryfall.com/cards/2b3459d9-a667-4cee-9b39-844013576d0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-12-07* — No player may take actions between the time the creature returns to the battlefield and the time you put a +1/+1 counter on it.
+  - *2018-12-07* — The creature returns to the battlefield without a +1/+1 counter on it. Any abilities that trigger when a creature enters the battlefield will trigger or not as appropriate before it receives the +1/+1 counter and resolve after it has received that counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/26/miraculous-recovery) · oracle_id `cea73a4b-e10a-4517-a92b-24a08321009f` · printing: UMA #26 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirage Mesa
 
@@ -125,7 +129,9 @@
   > *"Out there, death and salvation may lie on either side of the same ridge of sand."*
   > *—Ertha Jo, frontier mentor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4378 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/262/mirage-mesa) · oracle_id `e103f422-85c0-43f8-8a2f-8b7863e503fa` · printing: OTJ #262 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c3d2e816-c06d-4c5d-98fe-c350d8cfab27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/262/mirage-mesa) · oracle_id `e103f422-85c0-43f8-8a2f-8b7863e503fa` · printing: OTJ #262 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirage Mirror
 
@@ -137,7 +143,16 @@
   > *"I'm Reed Richards. The ultimate Reed Richards. The one who's finally going to solve everything."*
   > *—The Maker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1319 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/206/mirage-mirror) · oracle_id `6a84eda1-7e72-4b5a-849f-b6e177565aeb` · printing: MSC #206 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e516bc14-749c-4da6-b5d3-cb5c16316e0c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2017-07-14* — If Mirage Mirror becomes a copy of a legendary permanent you control, you'll put one of them into your graveyard.
+  - *2017-07-14* — If Mirage Mirror becomes a copy of an Aura, it's put into its owner's graveyard unless it's somehow attached to an appropriate object or player already. If it becomes a copy of an Equipment and is attached to a creature, it'll become unattached when it becomes a non-Equipment artifact again.
+  - *2017-07-14* — If Mirage Mirror becomes a creature the same turn it enters the battlefield, you can't attack with it or use any of its {T} abilities (if it gains any) unless it has haste.
+  - *2017-07-14* — If Mirage Mirror copies a permanent that's copying something else, it will become whatever the target is copying.
+  - *2017-07-14* — If an effect begins to apply to Mirage Mirror before it becomes a copy of another permanent, that effect will continue to apply. For example, if Mirage Mirror is activated twice in response to itself targeting first Rampaging Hippo then Frilled Sandwalla, the ability it has while it's a copy of Frilled Sandwalla can be activated and its effect will continue to apply while Mirage Mirror is a copy of Rampaging Hippo.
+  - *2017-07-14* — If you activate Mirage Mirror's ability multiple times in a turn in response to itself, then each time one of those abilities resolves, it will overwrite whatever Mirage Mirror is copying. Mirage Mirror will wind up as a copy of the permanent targeted by the last ability to resolve. When the turn ends, all instances of the ability will wear off at the same time.
+  - *2017-07-14* — Mirage Mirror copies the printed values of the target permanent, plus any copy effects that have been applied to it. It won't copy counters on that permanent or effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target permanent become a creature.
+  - *2017-07-14* — Once Mirage Mirror's ability resolves, it no longer has that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/206/mirage-mirror) · oracle_id `6a84eda1-7e72-4b5a-849f-b6e177565aeb` · printing: MSC #206 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirage Mockery
 
@@ -150,7 +165,14 @@
   > Entwine {2}{U} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9614 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/onc/22/mirage-mockery) · oracle_id `2b0c08fb-7c46-484a-a446-b26a94db7172` · printing: ONC #22 (2023-02-10) · [rulings](https://api.scryfall.com/cards/67cead78-26fa-4cae-ba0e-925e28c26d53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2023-02-04* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-02-04* — If the copied creature is a token, the new token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2023-02-04* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2023-02-04* — If you cast the spell by paying its entwine cost, the tokens don't enter the battlefield at the same time. The token that's a copy of the artifact creature enters the battlefield first, followed by the token that's a copy of the nonartifact creature. Then any abilities that triggered due to either of them entering the battlefield are put on the stack.
+  - *2023-02-04* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or it is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/onc/22/mirage-mockery) · oracle_id `2b0c08fb-7c46-484a-a446-b26a94db7172` · printing: ONC #22 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirage Phalanx
 
@@ -162,6 +184,7 @@
   > As long as Mirage Phalanx is paired with another creature, each of those creatures has "At the beginning of combat on your turn, create a token that's a copy of this creature, except it has haste and loses soulbond. Exile it at end of combat."
 - **Keywords:** Soulbond
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6989 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/35/mirage-phalanx) · oracle_id `d18dfca7-2947-4308-a9ef-501e1b4843f4` · printing: VOC #35 (2021-11-19) · [rulings](https://api.scryfall.com/cards/e67c7b3b-38c0-43ec-9cee-5605fc402af6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirari
@@ -174,7 +197,15 @@
   > *"It offers you what you want, not what you need."*
   > *—Braids, dementia summoner*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15419 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/246/mirari) · oracle_id `8f6a2fce-719e-4745-80d3-aabce5c9bafa` · printing: C13 #246 (2013-11-01) · [rulings](https://api.scryfall.com/cards/7de1dfcf-f2e7-4c7c-8b00-c5d30a2d3f98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2004-10-04* — Everything about the original spell is copied, including any decisions made on announcement, such as whether it was kicked or its Buyback cost was paid. Effects on the spell, such as Sleight of Mind or Flashback, are not copied.
+  - *2004-10-04* — If the copied spell requires a target and there are no legal targets, then the copy has the same target (which should be illegal) as the original.
+  - *2004-10-04* — If the spell is countered before the triggered ability resolves, then the ability will make a copy of how the spell looked right before it was countered.
+  - *2004-10-04* — It triggers once per spell, so you can’t get multiple copies of a spell using this card. And since this card is legendary, you can’t control more than one.
+  - *2004-10-04* — The copy is not “cast” so it will not trigger anything that triggers on a spell being cast.
+  - *2004-10-04* — You are not required to choose new targets. If you do choose, then the targets must be legal. If you don’t change them, the spell is placed on the stack whether or not the targets are legal. The legality of the targets is always checked on resolution of the spell, so the spell may be countered at that time if all of its targets are illegal.
+  - *2004-10-04* — You choose whether or not to pay when the triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/246/mirari) · oracle_id `8f6a2fce-719e-4745-80d3-aabce5c9bafa` · printing: C13 #246 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirari's Wake
 
@@ -186,7 +217,12 @@
 - **Flavor text** (CMM printing):
   > *Even after a false god tore the magic from Dominaria, power still radiated from the Mirari sword that slew her.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #712 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/928/miraris-wake) · oracle_id `852657c0-18a4-4b28-b9ae-7728acdb5044` · printing: CMM #928 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ef4fa4e8-39e8-47a6-b975-ff5d46e59edd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — Because damage remains marked on a creature until the cleanup step or an effect removes that damage, nonlethal damage dealt to creatures you control may become lethal if Mirari's Wake leaves the battlefield.
+  - *2021-06-18* — If tapping a land produces more than one type of mana, you choose one type that was produced and add one mana of that type.
+  - *2021-06-18* — If the mana produced by the land has any additional restrictions or riders, those restrictions or riders don't apply to the mana added by Mirari's Wake. You just get one mana of the appropriate type.
+  - *2021-06-18* — The types of mana are white, blue, black, red, green, and colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/928/miraris-wake) · oracle_id `852657c0-18a4-4b28-b9ae-7728acdb5044` · printing: CMM #928 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Blight
 
@@ -200,7 +236,10 @@
   > *—Tarsa, Sea Gate sell-sword*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/104/mire-blight) · oracle_id `fcfbe3b8-a955-45d8-9329-3af565a3b53c` · printing: ZEN #104 (2009-10-02) · [rulings](https://api.scryfall.com/cards/1e63238d-a022-4ea1-a83d-0b2260d56a17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2009-10-01* — If Mire Blight’s ability triggers, the creature it was enchanting at that time is the one that will be destroyed when the ability resolves. It doesn’t matter if Mire Blight leaves the battlefield or somehow becomes attached to another creature by that time.
+  - *2009-10-01* — Mire Blight’s ability triggers when the enchanted creature is dealt any kind of damage, not just combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/104/mire-blight) · oracle_id `fcfbe3b8-a955-45d8-9329-3af565a3b53c` · printing: ZEN #104 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Boa
 
@@ -212,6 +251,7 @@
   > {G}: Regenerate this creature. (The next time this creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)
 - **Keywords:** Landwalk, Heal, Swampwalk, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16503 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/219/mire-boa) · oracle_id `e9a3a466-df78-49a0-add3-975b94c5cd09` · printing: TSR #219 (2021-03-19) · [rulings](https://api.scryfall.com/cards/4ab20019-d4b7-4bbb-b258-c9cc14bf2b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire in Misery
@@ -223,7 +263,10 @@
 - **Flavor text** (C19 printing):
   > *Misery loves company.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6520 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/19/mire-in-misery) · oracle_id `da1d1f64-e239-4b92-9eb9-fe9ea06aa18a` · printing: C19 #19 (2019-08-23) · [rulings](https://api.scryfall.com/cards/37b2cc43-307c-429f-a4f7-ac339a97e0bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-08-23* — As Mire in Misery resolves, first the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a creature or an enchantment they control, then each other opponent in turn order does the same, knowing the choices made before them. Then all the chosen permanents are sacrificed at the same time.
+  - *2019-08-23* — Your opponents choose what to sacrifice from among the creatures and enchantments they control. This means that you don’t decide which type of permanent a player sacrifices, and a player can’t choose to sacrifice an enchantment if they control none.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/19/mire-in-misery) · oracle_id `da1d1f64-e239-4b92-9eb9-fe9ea06aa18a` · printing: C19 #19 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Kavu
 
@@ -235,6 +278,7 @@
 - **Flavor text** (PLS printing):
   > *"At this rate," said Sisay, "the next kavu we see will have wings."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31273 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pls/67/mire-kavu) · oracle_id `0bc58096-7925-4870-bb95-58cce51ea8e7` · printing: PLS #67 (2001-02-05) · [rulings](https://api.scryfall.com/cards/ccdd0086-eb27-48b3-91cb-a113aa1de102/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirelurk Queen
@@ -248,7 +292,16 @@
   > Whenever one or more nonland cards are milled, draw a card, then put a +1/+1 counter on this creature. This ability triggers only once each turn.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4186 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/33/mirelurk-queen) · oracle_id `116ef9ea-d199-49b8-89c7-d61dd92711f5` · printing: PIP #33 (2024-03-08) · [rulings](https://api.scryfall.com/cards/6e6d1843-9e05-4cdd-ad4e-15d7913d87f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/33/mirelurk-queen) · oracle_id `116ef9ea-d199-49b8-89c7-d61dd92711f5` · printing: PIP #33 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miren, the Moaning Well
 
@@ -258,6 +311,7 @@
   > {T}: Add {C}.
   > {3}, {T}, Sacrifice a creature: You gain life equal to the sacrificed creature's toughness.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8162 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/163/miren-the-moaning-well) · oracle_id `03fe19bb-8e22-4030-8299-2ddd2d5a7eb2` · printing: SOK #163 (2005-06-03) · [rulings](https://api.scryfall.com/cards/53d414f0-15ae-446b-a8d7-56c1b502740c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire's Grasp
@@ -271,6 +325,7 @@
   > *Those caught attempting to escape the Underworld spend the rest of their existence trapped in the Mire of Punishment.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21275 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/106/mires-grasp) · oracle_id `1009d2a2-a145-46e1-ba14-7a42735062fc` · printing: THB #106 (2020-01-24) · [rulings](https://api.scryfall.com/cards/0ae0c536-612d-4916-a8da-5aaaf14218b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Shade
@@ -284,6 +339,7 @@
   > *"We realized the bog had not given up a soul but had come to claim a new one."*
   > *—Scout Ekemet, final journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31949 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/131/mire-shade) · oracle_id `b77a7f4a-1b3a-440e-977c-1ba39e450581` · printing: MIR #131 (1996-10-08) · [rulings](https://api.scryfall.com/cards/120822b8-02ae-411f-bda5-a774c21db66c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire's Malice
@@ -295,7 +351,14 @@
   > Awaken 3—{5}{B} (If you cast this spell for {5}{B}, also put three +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It's still a land.)
 - **Keywords:** Awaken
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/117/mires-malice) · oracle_id `1e7b18a3-43eb-4491-bb19-99f261a94719` · printing: BFZ #117 (2015-10-02) · [rulings](https://api.scryfall.com/cards/c2d737fb-fd09-4483-8128-8897cbcdc4f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2015-08-25* — Awaken doesn’t give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2015-08-25* — If a spell with awaken has multiple targets (including the land you control), and some but not all of those targets become illegal by the time the spell tries to resolve, the spell won’t affect the illegal targets in any way.
+  - *2015-08-25* — If the non-awaken part of the spell doesn’t require a target and you cast the spell for its awaken cost, then the spell won’t resolve if the target land you control becomes illegal before the spell resolves (such as due to being destroyed in response to the spell being cast).
+  - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
+  - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
+  - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/117/mires-malice) · oracle_id `1e7b18a3-43eb-4491-bb19-99f261a94719` · printing: BFZ #117 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire's Toll
 
@@ -306,7 +369,9 @@
 - **Flavor text** (DDR printing):
   > *As the bridge snapped, Berko was sure he heard the swamp laughing at him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22429 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/55/mires-toll) · oracle_id `3e0756d8-c2bd-40f1-a281-0828c5a2da03` · printing: DDR #55 (2016-09-02) · [rulings](https://api.scryfall.com/cards/a7e80be6-bc3b-4331-a5f2-1407a0a5dfe7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-03-01* — If the number of Swamps you control exceeds the number of cards in the targeted player’s hand, that player reveals all the cards in their hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddr/55/mires-toll) · oracle_id `3e0756d8-c2bd-40f1-a281-0828c5a2da03` · printing: DDR #55 (2016-09-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mire Triton
 
@@ -320,6 +385,7 @@
   > *Caught between life and death, between land and sea, between thought and oblivion.*
 - **Keywords:** Mill, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5449 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/174/mire-triton) · oracle_id `4fe6f784-0290-4d4a-85ae-0b66522d31e9` · printing: CMM #174 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a070b7af-7c85-4129-81ca-e2ec0540085e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Miriam, Herd Whisperer
@@ -333,6 +399,7 @@
 - **Flavor text** (OTJ printing):
   > *"Anything willing to bear your weight and save your feet a trip across the hot sands deserves respect. Show some."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12691 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/221/miriam-herd-whisperer) · oracle_id `1d88014b-8189-4a88-bee3-c2310d36f6e8` · printing: OTJ #221 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bfa7750a-7c32-4413-b762-62e24d992c6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirko, Obsessive Theorist
@@ -346,7 +413,13 @@
   > At the beginning of your end step, you may return target creature card with power less than Mirko's from your graveyard to the battlefield with a finality counter on it. (If it would die, exile it instead.)
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8140 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/2/mirko-obsessive-theorist) · oracle_id `1692f19e-4906-4808-965f-5f0284004f55` · printing: MKC #2 (2024-02-09) · [rulings](https://api.scryfall.com/cards/690acbbf-5e92-4323-b939-31bdb07f9905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — An ability that triggers "whenever you surveil" triggers after you're done surveilling, even if you have fewer cards in your library than the number of cards you're instructed to surveil. It even triggers if you have no cards in your library.
+  - *2024-02-02* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2024-02-02* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2024-02-02* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would go to a graveyard from the battlefield, exile it instead.
+  - *2024-02-02* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/2/mirko-obsessive-theorist) · oracle_id `1692f19e-4906-4808-965f-5f0284004f55` · printing: MKC #2 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirko Vosk, Mind Drinker
 
@@ -358,7 +431,9 @@
   > Whenever Mirko Vosk deals combat damage to a player, that player reveals cards from the top of their library until they reveal four land cards, then puts those cards into their graveyard.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10502 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/85/mirko-vosk-mind-drinker) · oracle_id `469da932-8186-4e54-a858-cfc72c4ded96` · printing: DGM #85 (2013-05-03) · [rulings](https://api.scryfall.com/cards/d37cdd3e-4303-4391-aff4-4a543e65a836/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If the player has fewer than four land cards in their library, all cards from that library will be revealed and put into that player's graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dgm/85/mirko-vosk-mind-drinker) · oracle_id `469da932-8186-4e54-a858-cfc72c4ded96` · printing: DGM #85 (2013-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood
 
@@ -372,6 +447,7 @@
   > *"Stick to the forest-track, keep your spirits up, and hope for the best."*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16487 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/188/mirkwood) · oracle_id `cd49aa99-bf84-4edd-aecc-6dae78b73412` · printing: HOB #188 (2026-08-14) · [rulings](https://api.scryfall.com/cards/612cf954-f86c-4629-99df-4874d56fded3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Bats
@@ -387,6 +463,7 @@
   > *—Gandalf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #232 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/95/mirkwood-bats) · oracle_id `0636b6c3-0662-420a-b30d-f0a14e7c512d` · printing: LTR #95 (2023-06-23) · [rulings](https://api.scryfall.com/cards/15f035df-784a-4dc8-b7f5-77139a4e6e99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Channeler
@@ -399,7 +476,9 @@
 - **Flavor text** (LTR printing):
   > *The dark things that were driven out of Mirkwood have returned in greater numbers, and it is again an evil place, save where the Elvish realm is maintained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14275 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/828/mirkwood-channeler) · oracle_id `30f373d8-cd8c-4fb2-9383-9969fc547df9` · printing: LTR #828 (2023-11-03) · [rulings](https://api.scryfall.com/cards/ca533454-8bea-4e08-ab0b-e2f4affffaef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-03* — Count the number of Forests you control as Mirkwood Channeler's ability resolves to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/828/mirkwood-channeler) · oracle_id `30f373d8-cd8c-4fb2-9383-9969fc547df9` · printing: LTR #828 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Elk
 
@@ -411,7 +490,9 @@
   > Whenever this creature enters or attacks, return target Elf card from your graveyard to your hand. You gain life equal to that card's power.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14682 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/210/mirkwood-elk) · oracle_id `5b29c26f-c0f0-4703-83db-3a249ebc5792` · printing: HOC #210 (2026-08-14) · [rulings](https://api.scryfall.com/cards/eda8bfa5-1e7d-442d-9d8c-651eb5630124/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — In the rare case that the Elf card you return to your hand doesn't have power, you'll gain 0 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hoc/210/mirkwood-elk) · oracle_id `5b29c26f-c0f0-4703-83db-3a249ebc5792` · printing: HOC #210 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Meditator
 
@@ -424,7 +505,14 @@
   > *Elves always knew what was going on among the peoples of the land—as quick as water flows, or quicker.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23298 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/48/mirkwood-meditator) · oracle_id `399cd159-7376-421c-b001-c26f1cbadced` · printing: HOB #48 (2026-08-14) · [rulings](https://api.scryfall.com/cards/ad7ed4e6-3fe2-40f1-909b-a03b2a3c941a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-06-29* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2026-06-29* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2026-06-29* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to Mirkwood Meditator may become lethal if you change its base toughness during that turn.
+  - *2026-06-29* — Effects that modify the power or toughness of Mirkwood Meditator without setting it will apply to its new base power and toughness no matter when they started to take effect. The same is true for counters that change its power and toughness.
+  - *2026-06-29* — The ability of Mirkwood Meditator overwrites any previous effects that set its power and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after the ability resolves will overwrite that part of the effect.
+  - *2026-06-29* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/48/mirkwood-meditator) · oracle_id `399cd159-7376-421c-b001-c26f1cbadced` · printing: HOB #48 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Nurturer
 
@@ -437,6 +525,7 @@
   > *"Merry be the greenwood, while the world is yet young! And merry be all your folk!"*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20180 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/160/mirkwood-nurturer) · oracle_id `66630640-9605-44da-afdf-eb9d458d056f` · printing: HOB #160 (2026-08-14) · [rulings](https://api.scryfall.com/cards/704b45e4-566e-40f6-a33a-9151018b44e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Pathmaker
@@ -449,7 +538,9 @@
 - **Flavor text** (HOB printing):
   > *In the wide world, the Wood-Elves lingered in the twilight of the sun and moon but loved best the stars. They wandered in the great forests that grew tall in lands that were now lost.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15259 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/129/mirkwood-pathmaker) · oracle_id `f1b36dde-9cde-46c8-8d5a-9ad93feba41f` · printing: HOB #129 (2026-08-14) · [rulings](https://api.scryfall.com/cards/50fbedc0-bc66-4ffb-87f6-a2df69995091/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-06-29* — The ability that defines Mirkwood Pathmaker's power and toughness works in all zones, not just the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/129/mirkwood-pathmaker) · oracle_id `f1b36dde-9cde-46c8-8d5a-9ad93feba41f` · printing: HOB #129 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Spider
 
@@ -463,6 +554,7 @@
   > *Far and wide Shelob's lesser broods spread from glen to glen, to Dol Guldur and the fastnesses of Mirkwood.*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5909 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/178/mirkwood-spider) · oracle_id `07fb2903-b239-43d0-864b-c4437b7a5230` · printing: LTR #178 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ad961ba1-c74f-4a44-87fe-b30e2b63e378/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirkwood Trapper
@@ -476,7 +568,9 @@
 - **Flavor text** (LTC printing):
   > *Under the boughs of Mirkwood, there was deadly strife of Elves and evil beings.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13871 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/62/mirkwood-trapper) · oracle_id `debbbdb2-2fa8-413f-b394-977212915c65` · printing: LTC #62 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ca079e59-4433-49c7-9001-abac20b776e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If a player is attacking a planeswalker you control or a battle you're protecting but not attacking you, Mirkwood Trapper's last ability will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/62/mirkwood-trapper) · oracle_id `debbbdb2-2fa8-413f-b394-977212915c65` · printing: LTC #62 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirozel
 
@@ -490,7 +584,10 @@
   > *The mirozels are the only stars in Rath's opaque skies.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32087 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/exo/41/mirozel) · oracle_id `c35111ce-4325-4547-b954-08275a268060` · printing: EXO #41 (1998-06-15) · [rulings](https://api.scryfall.com/cards/16417e94-e33f-4ed4-bb3e-52f29f7d441b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — Triggers on a spell or ability being changed to target this card.
+  - *2004-10-04* — Triggers on any spell or ability being announced which targets this card. This means it returns to owner’s hand before that spell resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/exo/41/mirozel) · oracle_id `c35111ce-4325-4547-b954-08275a268060` · printing: EXO #41 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Banesplitter
 
@@ -503,6 +600,7 @@
   > Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13168 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/154/mirran-banesplitter) · oracle_id `aeaf3ce8-6bdf-4a90-8b81-cdbce0f3bb12` · printing: MOM #154 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ee4d00b8-1373-47b2-9be5-2199e0b12540/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Bardiche
@@ -515,7 +613,11 @@
   > Equip {3}{W} ({3}{W}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** For Mirrodin!, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17097 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/22/mirran-bardiche) · oracle_id `1fd04d9e-cf89-49ba-a932-5d278f65bf77` · printing: ONE #22 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3006ea5a-5391-41eb-b0c8-092741dca2eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-02-04* — If the Rebel is destroyed, the Equipment stays on the battlefield. Similarly, you may pay its equip cost to move it from the Rebel token to another creature you control.
+  - *2023-02-04* — If the ability causes two Rebel tokens to be created (due to an effect such as that of Mondrak, Glory Dominus), the Equipment becomes attached to only one of them.
+  - *2023-02-04* — The Rebel enters the battlefield as a 2/2 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 2/2 creature entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/22/mirran-bardiche) · oracle_id `1fd04d9e-cf89-49ba-a932-5d278f65bf77` · printing: ONE #22 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Crusader
 
@@ -528,6 +630,7 @@
   > *A symbol of what Mirrodin once was and hope for what it will be again.*
 - **Keywords:** Protection, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11885 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/25/mirran-crusader) · oracle_id `fe69d9bd-2a60-4b33-a0d8-1ca18c2b6705` · printing: MM2 #25 (2015-05-22) · [rulings](https://api.scryfall.com/cards/f7c34f5d-0430-4036-a633-1a68a0d2fc65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Mettle
@@ -541,6 +644,7 @@
   > *"Our land will not yield to Phyrexian corruption!"*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28424 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/84/mirran-mettle) · oracle_id `35506b6b-6476-4830-9baa-4051c18322f0` · printing: MBS #84 (2011-02-04) · [rulings](https://api.scryfall.com/cards/edbb5778-fa9a-4a1f-be4f-627630c3e3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Safehouse
@@ -553,7 +657,12 @@
   > *"Melira helped me design it. Those who are infected by the oil cannot cross the threshold. We should be safe inside."*
   > *—Koth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/232/mirran-safehouse) · oracle_id `08826de5-a2d7-4732-a5f7-f580507a7844` · printing: ONE #232 (2023-02-10) · [rulings](https://api.scryfall.com/cards/d76fe2f2-ce2c-49e4-9f00-89c82f2fae8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-02-04* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
+  - *2023-02-04* — Cards with basic land types intrinsically have the appropriate mana ability, even if it isn't printed in the card's text box. Mirran Safehouse also gains those abilities. For example, if there is a Plains in your graveyard, Mirran Safehouse has "{T}: Add {W}," even though that may not be printed on the Plains itself.
+  - *2023-02-04* — If an activated ability of a land card in a graveyard references the card it's printed on by name, treat Mirran Safehouse's version of that ability as though it referenced Mirran Safehouse by name instead.
+  - *2023-02-04* — Mirran Safehouse gains only activated abilities, including activated mana abilites. It doesn't gain keyword abilities (unless those keyword abilities are activated), triggered abilities, or static abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/232/mirran-safehouse) · oracle_id `08826de5-a2d7-4732-a5f7-f580507a7844` · printing: ONE #232 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirran Spy
 
@@ -567,6 +676,7 @@
   > *Accurate information is a precious commodity in times of war.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8705 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/26/mirran-spy) · oracle_id `8e5d72a1-6ae0-445d-bac7-62da3bd3a8d6` · printing: MBS #26 (2011-02-04) · [rulings](https://api.scryfall.com/cards/50e576ad-3e03-424c-8857-88ec8898a92e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrex
@@ -578,7 +688,15 @@
   > {T}: Add one mana of any color. Activate only if this land entered this turn.
   > {3}, {T}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and "This token can't block." (Players dealt combat damage by it also get a poison counter.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2871 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/254/mirrex) · oracle_id `5502741a-e3b9-454e-8121-4360a6db6750` · printing: ONE #254 (2023-02-10) · [rulings](https://api.scryfall.com/cards/54a702cd-ca49-4570-b47e-8b090452a3c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/254/mirrex) · oracle_id `5502741a-e3b9-454e-8121-4360a6db6750` · printing: ONE #254 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri, Cat Warrior
 
@@ -592,6 +710,7 @@
   > *—Rofellos, Llanowar emissary*
 - **Keywords:** Landwalk, Vigilance, First strike, Forestwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14973 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/180/mirri-cat-warrior) · oracle_id `f01efb04-ad2b-46fb-852c-dfb7e523e1b7` · printing: TPR #180 (2015-05-06) · [rulings](https://api.scryfall.com/cards/0a1d9876-4588-4591-af53-cb4e83c2b6c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri's Guile
@@ -603,6 +722,7 @@
 - **Flavor text** (TMP printing):
   > *Hanna was astounded. Mirri read every leaf and wisp of breeze like a book of ancient lore.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6673 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/236/mirris-guile) · oracle_id `7f89c0ee-b914-406c-8a3f-98424a52ae14` · printing: TMP #236 (1997-10-14) · [rulings](https://api.scryfall.com/cards/73d51a3c-95c0-4810-b847-4b8afd12fd64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri the Cursed
@@ -617,7 +737,9 @@
   > *A hero fails, a martyr falls. Time twists and destinies interchange.*
 - **Keywords:** Flying, First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9965 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/125/mirri-the-cursed) · oracle_id `19d6a20b-4641-4c79-ae70-ed1ad5085472` · printing: TSR #125 (2021-03-19) · [rulings](https://api.scryfall.com/cards/24c1706d-2faa-452b-a192-204386df29f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-03-19* — If Mirri the Cursed is blocking or blocked by a creature that doesn't have first strike or double strike, Mirri will deal combat damage to that creature, then get a +1/+1 counter, then (if the other creature survived) Mirri will be dealt combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/125/mirri-the-cursed) · oracle_id `19d6a20b-4641-4c79-ae70-ed1ad5085472` · printing: TSR #125 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirri, Weatherlight Duelist
 
@@ -630,7 +752,10 @@
   > As long as Mirri is tapped, no more than one creature can attack you each combat.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2685 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/347/mirri-weatherlight-duelist) · oracle_id `60bc9cd2-2e03-4889-b1ef-fdab9a9a6d08` · printing: CMM #347 (2023-08-04) · [rulings](https://api.scryfall.com/cards/db44fe95-6a32-4d6f-a32f-72491381f495/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-08-25* — Tapping Mirri after creatures have attacked will not remove creatures from combat.
+  - *2023-07-28* — While Mirri is tapped, there's no restriction on how many creatures can attack planeswalkers you control or battles you protect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/347/mirri-weatherlight-duelist) · oracle_id `60bc9cd2-2e03-4889-b1ef-fdab9a9a6d08` · printing: CMM #347 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrodin Avenged
 
@@ -642,6 +767,7 @@
 - **Flavor text** (MOM printing):
   > *"You were my mistake. I will forever bear the weight of your horrors, and of your end."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10535 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/118/mirrodin-avenged) · oracle_id `ec83f398-31af-484d-b6d2-8c7add142260` · printing: MOM #118 (2023-04-21) · [rulings](https://api.scryfall.com/cards/750b2090-7fd4-4048-a148-9a5fc7b6f265/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrodin Besieged
@@ -653,7 +779,12 @@
   > • Mirran — Whenever you cast an artifact spell, create a 1/1 colorless Myr artifact creature token.
   > • Phyrexian — At the beginning of your end step, draw a card, then discard a card. Then if there are fifteen or more artifact cards in your graveyard, target opponent loses the game.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2473 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/57/mirrodin-besieged) · oracle_id `674e2683-31c0-4fee-95fb-98b1201e41e7` · printing: MH1 #57 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d8423d8d-744a-4bbe-a853-8ad756451bdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-06-14* — If you somehow control Mirrodin Besieged and no choice was made for it, it has neither of the two triggered abilities.
+  - *2019-06-14* — If you support the Mirrans, Mirrodin Besieged’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2019-06-14* — If you support the Phyrexians, you must choose a target opponent as your end step begins. Whether that player loses the game is determined only as the ability resolves. This means that the card you discard may be the fifteenth artifact card that causes the target player to lose the game, but it also means that if there is no legal target opponent, you won’t draw or discard.
+  - *2019-06-14* — In a Two-Headed Giant game, if one player on a team loses the game, that team loses the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/57/mirrodin-besieged) · oracle_id `674e2683-31c0-4fee-95fb-98b1201e41e7` · printing: MH1 #57 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrodin's Core
 
@@ -664,6 +795,7 @@
   > {T}: Put a charge counter on this land.
   > {T}, Remove a charge counter from this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11394 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/492/mirrodins-core) · oracle_id `ea53adbe-3f9a-4847-87c7-723ac2789918` · printing: JMP #492 (2020-07-17) · [rulings](https://api.scryfall.com/cards/c0a9fbb3-9fe4-4ec6-82f0-3bb101524e1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Box
@@ -675,7 +807,13 @@
   > Each legendary creature you control gets +1/+1.
   > Each nontoken creature you control gets +1/+1 for each other creature you control with the same name as that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1712 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/250/mirror-box) · oracle_id `3bed1944-58dc-4679-9aee-7be4d94fb55c` · printing: NEO #250 (2022-02-18) · [rulings](https://api.scryfall.com/cards/d507daa3-3f16-4ab1-81ea-794e5bb488fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-02-18* — A face-down creature has no name, so it doesn't have the same name as anything else.
+  - *2022-02-18* — Although token creatures won't get a bonus from Mirror Box's last ability, tokens that are copies of nontoken creatures improve the bonus those creatures get.
+  - *2022-02-18* — If you control more than one legendary permanent with the same name and the “legend rule” begins applying again (perhaps because Mirror Box leaves the battlefield), you'll immediately have to comply with the rule and put all but one of those permanents into the graveyard.
+  - *2022-02-18* — The “legend rule” is the rule that states that if a player controls two or more legendary permanents with the same name, that player chooses one of them, and the rest are put into their owners' graveyards.
+  - *2022-02-18* — While the “legend rule” doesn't apply to permanents you control, you can control any number of legendary permanents with the same name and none of them will be put into the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/250/mirror-box) · oracle_id `3bed1944-58dc-4679-9aee-7be4d94fb55c` · printing: NEO #250 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrored Lotus
 
@@ -685,7 +823,9 @@
   > Reflect {0} (As this enters, each opponent may pay {0}. When they do, they create a token copy of this except it lacks this ability.)
   > {T}, Exile Mirrored Lotus: Add three mana of any one color.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/107/mirrored-lotus) · oracle_id `446a4d60-fb4e-4f43-a34c-3c4fa34608a8` · printing: CMB2 #107 (2021-08-20) · [rulings](https://api.scryfall.com/cards/3dff3583-a8bd-4a50-a203-0b2f069c5a32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-11-12* — You can’t pay a reflect cost more than once as a permanent with reflect enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/107/mirrored-lotus) · oracle_id `446a4d60-fb4e-4f43-a34c-3c4fa34608a8` · printing: CMB2 #107 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Entity
 
@@ -699,7 +839,11 @@
   > *Unaware of Lorwyn's diversity, it sees only itself, reflected a thousand times over.*
 - **Keywords:** Changeling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #998 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/83/mirror-entity) · oracle_id `17e905ca-c0bd-473d-95a7-e180ba5fea43` · printing: OTC #83 (2024-04-19) · [rulings](https://api.scryfall.com/cards/f2a3107d-bb96-45c6-97ac-b6c6b84cbad4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — Activating the ability with X = 0 will cause all creatures you control to become 0/0 and be put into the graveyard.
+  - *2021-03-19* — Changeling applies in all zones, not just the battlefield.
+  - *2021-03-19* — Mirror Entity's ability overwrites any effects that previously set a creature's base power and/or toughness. Any existing effects or counters that raise or lower a creature's power and/or toughness continue to apply to the creature's newly-set power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/83/mirror-entity) · oracle_id `17e905ca-c0bd-473d-95a7-e180ba5fea43` · printing: OTC #83 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorform
 
@@ -710,7 +854,12 @@
 - **Flavor text** (ECL printing):
   > *If you stare long enough at your reflection, your reflection starts staring back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6327 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/59/mirrorform) · oracle_id `81cb888c-c4d3-45a2-a03e-bfd91a2af2be` · printing: ECL #59 (2026-01-23) · [rulings](https://api.scryfall.com/cards/55d30256-f5d8-4f61-a3f5-878970ced6d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-11-17* — Because the permanents aren't entering the battlefield when they become copies of the target permanent, any "When [this permanent] enters" or "[This permanent] enters with" abilities of the copied permanent won't apply.
+  - *2025-11-17* — If the copied permanent has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied permanent is copying something else, then the permanents become copies of whatever that permanent copied.
+  - *2025-11-17* — The permanents copy exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else; see below). They don't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/59/mirrorform) · oracle_id `81cb888c-c4d3-45a2-a03e-bfd91a2af2be` · printing: ECL #59 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Gallery
 
@@ -721,7 +870,9 @@
 - **Flavor text** (BOK printing):
   > *Only in mirrors do heroes find their equal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bok/154/mirror-gallery) · oracle_id `7c9c3060-ca9d-4868-84c6-2a95b0fa8885` · printing: BOK #154 (2005-02-04) · [rulings](https://api.scryfall.com/cards/00beba34-54cc-4a30-8424-71a1215647a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2005-02-01* — Mirror Gallery removes the “Legend rule” while it’s on the battlefield. If all Mirror Galleries leave the battlefield, the “Legend rule” will apply the next time state-based actions are performed.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bok/154/mirror-gallery) · oracle_id `7c9c3060-ca9d-4868-84c6-2a95b0fa8885` · printing: BOK #154 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Golem
 
@@ -733,6 +884,7 @@
   > This creature has protection from each of the exiled card's card types. (Artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery are card types.)
 - **Keywords:** Imprint
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27971 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/208/mirror-golem) · oracle_id `3460e86f-c182-4ca9-bd90-7949b0759c98` · printing: MRD #208 (2003-10-02) · [rulings](https://api.scryfall.com/cards/d9467839-b2a2-4cfe-a60e-12766e2ba983/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorhall Mimic // Ghastly Mimicry
@@ -748,7 +900,15 @@
   > If Ghastly Mimicry would be put into a graveyard from anywhere, exile it instead.
 - **Keywords:** Transform, Enchant, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4152 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/68/mirrorhall-mimic-ghastly-mimicry) · oracle_id `5768fe50-a134-492c-a725-5ed02610c39f` · printing: VOW #68 (2021-11-19) · [rulings](https://api.scryfall.com/cards/823ad188-bd56-476d-9853-bed90bfad582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-11-19* — Any enters-the-battlefield abilities of the copied creature will trigger when Mirrorhall Mimic enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the chosen creature will also work.
+  - *2021-11-19* — If Mirrorhall Mimic somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2021-11-19* — If another creature becomes a copy of Mirrorhall Mimic, that creature is also a Spirit.
+  - *2021-11-19* — If the chosen creature is a token, Mirrorhall Mimic copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, except it's a Spirit. Mirrorhall Mimic doesn't become a token in this case.
+  - *2021-11-19* — If the chosen creature is copying something else (for example, if the chosen creature is another Mirrorhall Mimic), then Mirrorhall Mimic enters the battlefield as whatever the chosen creature copied.
+  - *2021-11-19* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2021-11-19* — Mirrorhall Mimic copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below), except that it's also a Spirit. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. Most notably, if it copies a creature that's not normally a creature, it won't be a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/68/mirrorhall-mimic-ghastly-mimicry) · oracle_id `5768fe50-a134-492c-a725-5ed02610c39f` · printing: VOW #68 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Image
 
@@ -760,7 +920,14 @@
 - **Flavor text** (M19 printing):
   > *The life of a shapeshifter is one of constant change.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5213 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/61/mirror-image) · oracle_id `7275fb8c-571a-4c4c-889a-829419332e51` · printing: M19 #61 (2018-07-13) · [rulings](https://api.scryfall.com/cards/5b3ffc69-f21b-410e-8993-8c1b4669fc19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-07-13* — Any enters-the-battlefield abilities of the copied creature will trigger when Mirror Image enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the chosen creature will also work.
+  - *2018-07-13* — If Mirror Image somehow enters the battlefield at the same time as another creature, it can't become a copy of that creature. You may choose only a creature that's already on the battlefield.
+  - *2018-07-13* — If the chosen creature is a token, Mirror Image copies the original characteristics of that token as stated by the effect that put the token onto the battlefield. Mirror Image doesn't become a token in this case.
+  - *2018-07-13* — If the chosen creature is copying something else (for example, if the chosen creature is another Mirror Image), then Mirror Image enters the battlefield as whatever the chosen creature copied.
+  - *2018-07-13* — If the copied creature has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — Mirror Image copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or any Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/61/mirror-image) · oracle_id `7275fb8c-571a-4c4c-889a-829419332e51` · printing: M19 #61 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrormade
 
@@ -772,7 +939,15 @@
   > *"Share your darkest secret and the Mirror will reveal your soul's essence."*
   > *—Ceri, royal mirrorkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1160 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/120/mirrormade) · oracle_id `79a71fe5-38ce-4bb5-aea0-c9b9a856d397` · printing: DSC #120 (2024-09-27) · [rulings](https://api.scryfall.com/cards/a26cbfbe-fbb8-4804-b065-ab2c42ddad9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-10-04* — Any enters-the-battlefield abilities of the copied permanent will trigger when Mirrormade enters the battlefield. Any "as [this permanent] enters the battlefield" or "[this permanent] enters the battlefield with" abilities of the chosen permanent will also work.
+  - *2019-10-04* — If Mirrormade copies an Aura this way, you choose what the Aura will enchant just before it enters the battlefield. You can't choose any permanent cards entering the battlefield at the same time as that Aura. This doesn't target the player or permanent it will enchant, so an opponent's permanent with hexproof may be chosen this way. The chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura's qualities can't be chosen this way. If there's nothing legal for Mirrormade to enchant, it stays in its current zone (unless it's a spell, in which case it's put into its owner's graveyard).
+  - *2019-10-04* — If Mirrormade somehow enters the battlefield at the same time as another artifact or enchantment, it can't become a copy of that permanent. You may choose only a permanent that's already on the battlefield.
+  - *2019-10-04* — If the chosen permanent has {X} in its mana cost, X is considered to be 0.
+  - *2019-10-04* — If the chosen permanent is a token, Mirrormade copies the original characteristics of that token as stated by the effect that created the token. Mirrormade doesn't become a token in this case.
+  - *2019-10-04* — If the chosen permanent is copying something else (for example, if the chosen permanent is another Mirrormade), then Mirrormade enters the battlefield as whatever the chosen permanent copied.
+  - *2019-10-04* — Mirrormade copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras attached to it, or any non-copy effects that have changed its types, color, or so on. Notably, if Mirrormade copies an artifact creature or enchantment creature that's normally not a creature (such as one affected by Bring to Life), Mirrormade won't be a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/120/mirrormade) · oracle_id `79a71fe5-38ce-4bb5-aea0-c9b9a856d397` · printing: DSC #120 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror-Mad Phantasm
 
@@ -784,7 +959,11 @@
   > {1}{U}: This creature's owner shuffles it into their library. If that player does, they reveal cards from the top of that library until a card named Mirror-Mad Phantasm is revealed. The player puts that card onto the battlefield and all other cards revealed this way into their graveyard.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14664 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/68/mirror-mad-phantasm) · oracle_id `fd26127d-6807-41e3-9dcf-20ef257d71d3` · printing: ISD #68 (2011-09-30) · [rulings](https://api.scryfall.com/cards/b20eea41-9daf-4ac1-8bad-bb4aa211bb53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2011-09-22* — If another creature (such as Necrotic Ooze) gains Mirror-Mad Phantasm's activated ability, its owner reveals cards until they reveal a card named Mirror-Mad Phantasm.
+  - *2011-09-22* — If no card named Mirror-Mad Phantasm is revealed (possibly because it was a card copying Mirror-Mad Phantasm or it was a token), all cards from that library will be put into their owner's graveyard.
+  - *2011-09-22* — You can only activate the ability if you control Mirror-Mad Phantasm, even if you don't own it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/68/mirror-mad-phantasm) · oracle_id `fd26127d-6807-41e3-9dcf-20ef257d71d3` · printing: ISD #68 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror March
 
@@ -793,7 +972,14 @@
 - **Oracle text:**
   > Whenever a nontoken creature you control enters, flip a coin until you lose a flip. For each flip you won, create a token that's a copy of that creature. Those tokens gain haste. Exile them at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/108/mirror-march) · oracle_id `945eaa8b-0ba5-45a6-a02a-763e5bfe3af8` · printing: RNA #108 (2019-01-25) · [rulings](https://api.scryfall.com/cards/50a27943-f08c-4cbd-affb-8e59411b3d4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2019-01-25* — All of the tokens enter the battlefield at the same time.
+  - *2019-01-25* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “As [this creature] enters the battlefield” or “[This creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2019-01-25* — Each token copies exactly what is printed on the creature and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+  - *2019-01-25* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2019-01-25* — If the copied creature is copying something else, each token enters the battlefield as whatever that creature is copying.
+  - *2019-01-25* — If the entering creature leaves the battlefield before Mirror March’s ability resolves, use that creature’s last known existence on the battlefield to determine the token’s characteristics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/108/mirror-march) · oracle_id `945eaa8b-0ba5-45a6-a02a-763e5bfe3af8` · printing: RNA #108 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Match
 
@@ -803,7 +989,18 @@
   > Cast this spell only during the declare blockers step.
   > For each creature attacking you or a planeswalker you control, create a token that's a copy of that creature and that's blocking that creature. Exile those tokens at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17170 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c15/13/mirror-match) · oracle_id `1f0883f8-89c9-4620-9837-72a2909e0599` · printing: C15 #13 (2015-11-13) · [rulings](https://api.scryfall.com/cards/0e0b8b4c-75ce-4b1d-8943-c54555e9f015/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2015-11-04* — A token created by Mirror Match will be blocking the creature it’s copying even if that creature can’t be blocked or has an ability that would stop the token creature from blocking it (such as menace or protection). This is also true even if the token creature has an ability that would stop it from being declared as a blocker.
+  - *2015-11-04* — Although the tokens enter the battlefield blocking, they were never declared as blockers. Abilities that trigger whenever a creature blocks won’t trigger. If there are any costs to have a creature block, those costs won’t apply to the tokens.
+  - *2015-11-04* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2015-11-04* — Each token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2015-11-04* — If Mirror Match creates more than one token for any given attacking creature (due to an effect such as the one Doubling Season creates), each of those tokens will enter the battlefield blocking the creature it’s a copy of. All of those tokens will be exiled by the delayed triggered ability.
+  - *2015-11-04* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2015-11-04* — If the copied creature is a token, the token created by Mirror Match copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
+  - *2015-11-04* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2015-11-04* — If the tokens aren’t creatures (perhaps because the attacking creature was an animated land), they’ll enter the battlefield but they won’t be blocking. Attacking creatures that weren’t otherwise blocked will remain unblocked.
+  - *2015-11-04* — The delayed triggered ability that exiles the tokens will trigger at end of combat no matter what happens to the original creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c15/13/mirror-match) · oracle_id `1f0883f8-89c9-4620-9837-72a2909e0599` · printing: C15 #13 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrormere Guardian
 
@@ -819,7 +1016,15 @@
   > *Till Durin wakes again from sleep."*
   > *—Gimli's song*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17825 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/179/mirrormere-guardian) · oracle_id `97c188c4-3f27-428e-a4f6-4213f44898fc` · printing: LTR #179 (2023-06-23) · [rulings](https://api.scryfall.com/cards/8315d7cc-fc2c-45b1-8340-11ff2af3beb5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/179/mirrormere-guardian) · oracle_id `97c188c4-3f27-428e-a4f6-4213f44898fc` · printing: LTR #179 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrormind Crown
 
@@ -832,7 +1037,13 @@
   > *Forged in Velis Vel, swiped by a clever merrow, and sold to a curious kithkin.*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4497 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/258/mirrormind-crown) · oracle_id `353db389-b829-4e66-85d5-6018bc87c3e0` · printing: ECL #258 (2026-01-23) · [rulings](https://api.scryfall.com/cards/061d765e-df27-406a-9ba0-b51b0cbb65da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-11-17* — Any enters abilities of the copied creature will trigger when the tokens enter. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2025-11-17* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2025-11-17* — If the copied creature is a token, the tokens that are created copy the original characteristics of that token as stated by the effect that created that token.
+  - *2025-11-17* — If the copied creature is copying something else, then the tokens enter as whatever that creature copied.
+  - *2025-11-17* — The tokens created by Mirrormind Crown's ability copy exactly what was printed on the equipped creature and nothing else (unless that creature is copying something else or is a token; see below). They don't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/258/mirrormind-crown) · oracle_id `353db389-b829-4e66-85d5-6018bc87c3e0` · printing: ECL #258 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Mirror
 
@@ -842,6 +1053,7 @@
   > This artifact enters tapped.
   > {7}, {T}, Sacrifice this artifact: Choose target player. At the beginning of the next end step, exchange life totals with that player, exchange control of all permanents you and that player control, and exchange cards in your hands, cards in your libraries, and cards in your graveyards.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ugl/77/mirror-mirror) · oracle_id `f0ba392b-fd12-441c-a68b-a53dffe27f7f` · printing: UGL #77 (1998-08-11) · [rulings](https://api.scryfall.com/cards/2abf208d-5fe6-4030-a19d-7505832dab3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Mockery
@@ -855,7 +1067,19 @@
   > *Who you are constantly runs toward who you will be.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13409 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/62/mirror-mockery) · oracle_id `6a802318-9123-4058-8554-5023eace33f4` · printing: DTK #62 (2015-03-27) · [rulings](https://api.scryfall.com/cards/f837b050-70a6-46f0-963d-4badb37a42a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-02-25* — A token that enters the battlefield as a copy of a face-down creature is a face-up colorless 2/2 creature with no name, abilities, or creature types.
+  - *2015-02-25* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2015-02-25* — If Mirror Mockery enchants a creature you don’t control, and you are the defending player, you can block with the token.
+  - *2015-02-25* — If Mirror Mockery is no longer on the battlefield as its triggered ability resolves, its ability makes a copy of the creature it was enchanting when it left the battlefield. If it left the battlefield because it was no longer enchanting a legal creature, it makes a copy of the creature it was most recently enchanting before it left the battlefield.
+  - *2015-02-25* — If Mirror Mockery’s ability creates multiple tokens (due to an effect such as the one Doubling Season creates), all such tokens will be exiled by the delayed triggered ability.
+  - *2015-02-25* — If the copied creature has {X} in its mana cost, X is considered to be zero.
+  - *2015-02-25* — If the copied creature is a token, the token created by Mirror Mockery copies the original characteristics of that token as stated by the effect that put the token onto the battlefield.
+  - *2015-02-25* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2015-02-25* — Notably, the token won’t be attacking.
+  - *2015-02-25* — The ability that exiles the token will trigger at end of combat no matter what happens to the original creature or to Mirror Mockery.
+  - *2015-02-25* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/62/mirror-mockery) · oracle_id `6a802318-9123-4058-8554-5023eace33f4` · printing: DTK #62 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror of Fate
 
@@ -866,7 +1090,11 @@
 - **Flavor text** (M10 printing):
   > *As the glass shattered, forgotten realities and dead memories came flooding back.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m10/215/mirror-of-fate) · oracle_id `38ffe614-e8f7-4625-b921-9409e7e7ee5b` · printing: M10 #215 (2009-07-17) · [rulings](https://api.scryfall.com/cards/08b480c8-d899-4e63-b0e2-f4bec3a3ca4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2009-10-01* — Exiled cards are face up by default; they’re face down only if the effect that exiled them said so. For example, the cards from your library that Mirror of Fate exiles are exiled face up.
+  - *2009-10-01* — You choose the order that the chosen cards are put on top of your library. You don’t have to show anyone else that order.
+  - *2009-10-01* — You don’t choose the exiled cards until Mirror of Fate’s ability resolves. It doesn’t matter how they wound up in the exile zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m10/215/mirror-of-fate) · oracle_id `38ffe614-e8f7-4625-b921-9409e7e7ee5b` · printing: M10 #215 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror of Galadriel
 
@@ -878,6 +1106,7 @@
   > *"Your Quest stands upon the edge of a knife. Stray but a little and it will fail, to the ruin of all. Yet hope remains while all the Company is true."*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5702 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/244/mirror-of-galadriel) · oracle_id `7695ef41-fa58-4890-b3fe-de5751831d8e` · printing: LTR #244 (2023-06-23) · [rulings](https://api.scryfall.com/cards/bc95036f-98f2-4ea7-93bb-542ad7064540/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror of Life Trapping
@@ -889,6 +1118,7 @@
 - **Flavor text** (CLB printing):
   > *Quenton barely had a second to admire his exquisite handsomeness before reality collapsed around him.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11622 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/326/mirror-of-life-trapping) · oracle_id `3ec7ae18-b203-49bd-95f9-ad5482459a23` · printing: CLB #326 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a0937a60-887b-46d0-b573-099626d57bcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror of the Forebears
@@ -899,7 +1129,20 @@
   > As this artifact enters, choose a creature type.
   > {1}: Until end of turn, this artifact becomes a copy of target creature you control of the chosen type, except it's an artifact in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10584 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/54/mirror-of-the-forebears) · oracle_id `9eaeb54b-73a8-43cc-b4d8-ed8b5eb19646` · printing: C17 #54 (2017-08-25) · [rulings](https://api.scryfall.com/cards/82e96f29-ce98-4e2d-8035-da3994ab66db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2017-08-25* — If Mirror of the Forebears becomes a copy of a creature that itself has an ability that asks you to choose a creature type as it enters the battlefield and another ability that references “the chosen creature type,” that ability won’t have a choice made for it. You won’t use the type chosen for Mirror of the Forebears.
+  - *2017-08-25* — If Mirror of the Forebears becomes a copy of a legendary creature you control, you’ll put one of them into your graveyard.
+  - *2017-08-25* — If Mirror of the Forebears becomes a creature the same turn it enters the battlefield, you can’t attack with it or use any of its {T} abilities (if it gains any) unless it has haste.
+  - *2017-08-25* — If Mirror of the Forebears copies a creature that’s copying something else, it will become whatever the target is copying.
+  - *2017-08-25* — If an effect begins to apply to Mirror of the Forebears before it becomes a copy of another permanent, that effect will continue to apply. For example, if Mirror of the Forebears is activated twice in response to itself targeting first Spirit of the Hearth then Temur Sabertooth, the ability it has while it’s a copy of Temur Sabertooth can be activated and its effect will continue to apply while Mirror of the Forebears is a copy of Spirit of the Hearth.
+  - *2017-08-25* — If you activate the second ability of Mirror of the Forebears multiple times in a turn in response to itself, then each time one of those abilities resolves, it will overwrite whatever Mirror of the Forebears is copying. Mirror of the Forebears will wind up as a copy of the permanent targeted by the last ability to resolve. When the turn ends, all instances of the ability will wear off at the same time.
+  - *2017-08-25* — If you somehow control a Mirror of the Forebears with no chosen creature type, its activated ability can’t be activated.
+  - *2017-08-25* — Mirror of the Forebears becomes an artifact in addition to its other types. This is a copiable value that other effects may copy.
+  - *2017-08-25* — Mirror of the Forebears copies the printed values of the target creature, plus any copy effects that have been applied to it. It won’t copy counters on that creature or effects that have changed its power, toughness, types, color, or so on. Notably, it won’t copy effects that made the target creature become a creature.
+  - *2017-08-25* — Once the second ability of Mirror of the Forebears resolves, it no longer has that ability.
+  - *2017-08-25* — You can’t choose multiple creature types, such as “Cat Warrior.” A Cat Warrior is both a Cat and a Warrior. It’s affected by anything that affects either type and unaffected by things that affect non-Cat or non-Warrior creatures.
+  - *2017-08-25* — You must choose an existing creature type, such as Vampire or Cat. Card types such as “artifact” can’t be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/54/mirror-of-the-forebears) · oracle_id `9eaeb54b-73a8-43cc-b4d8-ed8b5eb19646` · printing: C17 #54 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorpool
 
@@ -911,7 +1154,19 @@
   > {2}{C}, {T}, Sacrifice this land: Copy target instant or sorcery spell you control. You may choose new targets for the copy.
   > {4}{C}, {T}, Sacrifice this land: Create a token that's a copy of target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2786 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1010/mirrorpool) · oracle_id `57b86d5c-3269-44bc-a838-3c5439d820d9` · printing: CMM #1010 (2023-08-04) · [rulings](https://api.scryfall.com/cards/0441cd2c-3646-4c69-ae97-ad3bcea7466f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2016-01-22* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities of the copied creature will also work.
+  - *2016-01-22* — For Mirrorpool’s last ability, the token copies exactly what’s printed on the original creature and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2016-01-22* — For example, if a token copies a Plains that’s been affected by a spell with awaken, the token will be just a land, even though the object being copied is currently a land creature. The same is true if the land has an ability that animates it.
+  - *2016-01-22* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2016-01-22* — If the copied creature is copying something else when the ability resolves, then the token enters the battlefield as a copy of whatever that creature is copying.
+  - *2016-01-22* — If the copied spell has an X whose value was determined as it was cast (like Fall of the Titans does), the copy has the same value of X.
+  - *2016-01-22* — If the copied spell is modal (that is, it says “Choose one —” or the like), the copy will have the same modes. You can’t choose different ones.
+  - *2016-01-22* — Mirrorpool’s third ability can target (and copy) any instant or sorcery spell, not just one with targets.
+  - *2016-01-22* — The copy is created on the stack, so it’s not cast. Abilities that trigger when a player casts a spell won’t trigger. The copy will then resolve like a normal spell, after players get a chance to cast spells and activate abilities.
+  - *2016-01-22* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2016-01-22* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy, too. For example, if a player sacrifices a 3/3 creature to cast Fling, and you copy it, the copy of Fling will also deal 3 damage to its target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1010/mirrorpool) · oracle_id `57b86d5c-3269-44bc-a838-3c5439d820d9` · printing: CMM #1010 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Room // Fractured Realm
 
@@ -923,7 +1178,36 @@
   > If a triggered ability of a permanent you control triggers, that ability triggers an additional time.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/67/mirror-room-fractured-realm) · oracle_id `e7a1c21b-5966-4ce0-a925-0b3cb3c3db00` · printing: DSK #67 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c2e085dd-a448-4f5a-9cfa-5c2034234e7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (28):
+  - *2024-09-20* — Abilities that apply "as [this creature] enters" or "as [this creature] is turned face up" are also unaffected by Fractured Realm's ability.
+  - *2024-09-20* — Abilities that apply "when [this creature] is turned face up" will trigger an additional time due to Fractured Realm's ability.
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any enters abilities of the copied creature will trigger when the token enters. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied creature will also work.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — Except for the stated exception, the token created by Mirror Room's ability copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-09-20* — Fractured Realm's ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-09-20* — If the copied creature is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token, with the stated exception.
+  - *2024-09-20* — If the copied creature is copying something else, then the token enters as whatever that creature copied, with the stated exception.
+  - *2024-09-20* — In some cases involving linked abilities, an ability requires information about "the exiled card." When this happens, the ability gets multiple answers. If these answers are being used to determine the value of a variable, the sum is used. For example, if Elite Arcanist's enters-the-battlefield ability triggers twice, two cards are exiled. The value of X in the activation cost of Elite Arcanist's other ability is the sum of the two cards' mana values. As the ability resolves, you create copies of both cards and can cast none, one, or both of the copies in any order.
+  - *2024-09-20* — Replacement effects are unaffected by Fractured Realm's ability. For example, a 1/1 creature that enters under your control "with a +1/+1 counter on it" won't receive an additional +1/+1 counter.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/67/mirror-room-fractured-realm) · oracle_id `e7a1c21b-5966-4ce0-a925-0b3cb3c3db00` · printing: DSK #67 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Sheen
 
@@ -934,7 +1218,11 @@
 - **Flavor text** (EVE printing):
   > *Even treefolk witches steer clear of the unpredictable woods near Glen Elendra. Spells refract off the glamer-polished trees and the eyes of lurking pucas.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26541 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/105/mirror-sheen) · oracle_id `d6494704-54b2-4c80-acb4-184c9815c5f3` · printing: EVE #105 (2008-07-25) · [rulings](https://api.scryfall.com/cards/e26b31ce-416f-4309-b591-798cf12175af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-08-01* — It doesn’t matter who controls the spell.
+  - *2008-08-01* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them.
+  - *2008-08-01* — The targeted spell can have any number of targets, as long as you are one of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/105/mirror-sheen) · oracle_id `d6494704-54b2-4c80-acb4-184c9815c5f3` · printing: EVE #105 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorshell Crab
 
@@ -946,7 +1234,11 @@
   > Channel — {2}{U}, Discard this card: Counter target spell or ability unless its controller pays {3}.
 - **Keywords:** Ward, Channel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/63/mirrorshell-crab) · oracle_id `cd727e02-5064-4b89-9398-e3cc4463ba56` · printing: NEO #63 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0394c8df-2e8a-4477-93b7-569934d7b936/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
+  - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+  - *2022-02-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/63/mirrorshell-crab) · oracle_id `cd727e02-5064-4b89-9398-e3cc4463ba56` · printing: NEO #63 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Shield
 
@@ -957,7 +1249,11 @@
   > Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/234/mirror-shield) · oracle_id `57f2858e-5793-41fc-9bbb-1fdd3b99fe79` · printing: THB #234 (2020-01-24) · [rulings](https://api.scryfall.com/cards/e7624e84-93ce-4983-8624-ebc934cab67f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — If a creature with deathtouch blocks the equipped creature and is then destroyed, the equipped creature remains blocked. Unless the equipped creature has trample, it won’t deal combat damage to the player or planeswalker it’s attacking.
+  - *2020-01-24* — Once a creature without deathtouch has blocked or become blocked by the equipped creature, causing the other creature to gain deathtouch won’t cause the ability granted by Mirror Shield to trigger.
+  - *2020-01-24* — The ability Mirror Shield grants triggers and resolves before combat damage is dealt. That creature won’t deal combat damage to the equipped creature or be dealt damage by it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/234/mirror-shield) · oracle_id `57f2858e-5793-41fc-9bbb-1fdd3b99fe79` · printing: THB #234 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror-Shield Hoplite
 
@@ -971,7 +1267,15 @@
   > *In the shield's gleaming surface, the Phyrexian saw a reflection of what it once had been, and paused.*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/247/mirror-shield-hoplite) · oracle_id `23f01235-b5a5-4b2e-a90b-b49fc0c7b18d` · printing: MOM #247 (2023-04-21) · [rulings](https://api.scryfall.com/cards/49a5e7de-43cc-488b-99a4-7d173b42d5dc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a creature other than the creature with backup ends up as the target of both the backup ability and the copy, it will end up with two +1/+1 counters and it will gain the non-backup abilities twice. In some cases, the duplicate abilities will be redundant (two instances of flying, for example). However, if it picks up two triggered abilities, for example, those abilities trigger independently.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+  - *2023-04-14* — The source of the copy is the same as the source of the original backup ability. If the creature that ends up as the target of the copy is that original creature with backup, it will get a +1/+1 counter, but it won’t gain any abilities. If it’s a creature other than that original creature, it will get a +1/+1 counter and gain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/247/mirror-shield-hoplite) · oracle_id `23f01235-b5a5-4b2e-a90b-b49fc0c7b18d` · printing: MOM #247 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror-Sigil Sergeant
 
@@ -985,7 +1289,13 @@
   > *"If I had many lives, I would give them all for Bant."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21826 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/con/12/mirror-sigil-sergeant) · oracle_id `c021c808-dc58-4386-8758-68b858badbd5` · printing: CON #12 (2009-02-06) · [rulings](https://api.scryfall.com/cards/e94b3eec-7420-45fa-8750-7f01028836d3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-02-01* — Here are the weird exceptions. If any copy effects have affected the Mirror-Sigil Sergeant whose ability triggered, they're taken into account when the token is created. For example: -- If Mirror-Sigil Sergeant's ability triggers, then Mirror-Sigil Sergeant temporarily becomes a copy of another creature before its ability resolves (due to Mirrorweave, perhaps), the token will be a copy of whatever creature the Mirror-Sigil Sergeant is currently a copy of. After the turn ends, the Mirrorweaved Mirror-Sigil Sergeant reverts back to what it was, but the token will stay as it is. -- If the copy ability of a creature (such as Cemetery Puca, perhaps) makes it become a copy of Mirror-Sigil Sergeant and gain another ability, the token created by this creature at the beginning of your upkeep will be a Mirror-Sigil Sergeant with that additional ability.
+  - *2009-02-01* — Here’s the detailed version of what happens. As the token is created, it checks the printed values of the Mirror-Sigil Sergeant it’s copying — or, if the Mirror-Sigil Sergeant whose ability triggered was itself a token, the original characteristics of that token as stated by the effect that put it onto the battlefield — as well as any copy effects that have been applied to it. It won’t copy counters on the Mirror-Sigil Sergeant, nor will it copy other effects that have changed Mirror-Sigil Sergeant’s power, toughness, types, color, or so on.
+  - *2009-02-01* — If Mirror-Sigil Sergeant has left the battlefield by the time its triggered ability resolves, you’ll still put a token onto the battlefield. That token has the copiable values of the characteristics of Mirror-Sigil Sergeant as it last existed on the battlefield.
+  - *2009-02-01* — Normally, when a token is created by this ability, it will simply be a Mirror-Sigil Sergeant, so it’ll also have the token-creating ability. (See the other ruling for weird exceptions.) At the beginning of your next upkeep, if you still control the original Sergeant, the token copy, and a blue permanent, you’ll get two more token copies; the turn after that you’ll get four; then eight; and so on.
+  - *2009-02-01* — The “intervening ‘if’ clause” means that (1) the ability won’t trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/con/12/mirror-sigil-sergeant) · oracle_id `c021c808-dc58-4386-8758-68b858badbd5` · printing: CON #12 (2009-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Strike
 
@@ -997,6 +1307,7 @@
   > *"Enemies can be your weapons or your shields. Simply show them which they are."*
   > *—\*The Teachings of Zho\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17812 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/17/mirror-strike) · oracle_id `184fdd23-8235-4500-b2f5-d3b0b93a8f35` · printing: PCY #17 (2000-06-05) · [rulings](https://api.scryfall.com/cards/148fbe36-b22d-44e6-9341-7f707baca49d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror-Style Master
@@ -1009,7 +1320,20 @@
   > Whenever this creature attacks, for each attacking modified creature you control, create a tapped and attacking token that's a copy of that creature. Exile those tokens at end of combat. (Equipment, Auras you control, and counters are modifications.)
 - **Keywords:** Backup
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12800 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/32/mirror-style-master) · oracle_id `6a871d70-a46d-4357-8c7d-876f7a004eb7` · printing: MOC #32 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d3481424-444e-4f13-881e-339e9c353988/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2023-04-14* — All of the tokens enter the battlefield at the same time.
+  - *2023-04-14* — Although the tokens enter the battlefield attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2023-04-14* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any “as [this creature] enters the battlefield” or “[this creature] enters the battlefield with” abilities of the copied creature will also work.
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — Each of the tokens copy exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on. (Basically, it won’t copy anything that made it modified in the first place. C’est la vie.)
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2023-04-14* — If the copied creature is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2023-04-14* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/32/mirror-style-master) · oracle_id `6a871d70-a46d-4357-8c7d-876f7a004eb7` · printing: MOC #32 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Universe
 
@@ -1018,7 +1342,10 @@
 - **Oracle text:**
   > {T}, Sacrifice this artifact: Exchange life totals with target opponent. Activate only during your upkeep.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22533 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/me1/159/mirror-universe) · oracle_id `8d231d2f-5274-4b55-8262-9eb95654d183` · printing: ME1 #159 (2007-09-10) · [rulings](https://api.scryfall.com/cards/0f9cbeaf-3456-4a87-ac75-e7658ccbd97f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-09-16* — When the life totals are exchanged, each player gains or loses the amount of life necessary to equal the other player’s previous life total. For example, if player A has 5 life and player B has 3 life before the exchange, player A will lose 2 life and player B will gain 2 life. Replacement effects may modify these gains and losses, and triggered abilities may trigger on them.
+  - *2011-01-01* — If an effect says that a player can’t lose life, that player can’t exchange life totals with a player who has a lower life total; in that case, the exchange won’t happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me1/159/mirror-universe) · oracle_id `8d231d2f-5274-4b55-8262-9eb95654d183` · printing: ME1 #159 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirror Wall
 
@@ -1033,6 +1360,7 @@
   > *—Nomad sentry*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29574 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/47/mirror-wall) · oracle_id `c4ab446a-97e4-46a5-89a8-180a0bf3447c` · printing: JUD #47 (2002-05-27) · [rulings](https://api.scryfall.com/cards/d0e52b73-ebdf-4339-8780-84327a59ca57/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorweave
@@ -1045,7 +1373,14 @@
   > *"Those who are different are untrustworthy, unpredictable. Put your safety in the hands of your own kind."*
   > *—Bowen, Barrenton guardcaptain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/162/mirrorweave) · oracle_id `026b7221-0caf-4c8b-8c1b-e7de836797b7` · printing: CM2 #162 (2018-06-08) · [rulings](https://api.scryfall.com/cards/1c77925b-0944-4b2b-b389-42bf17907b34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-05-01* — As the turn ends, the other creatures revert to what they were before. If two Mirrorweaves are cast on the same turn, they’ll both wear off at the same time.
+  - *2008-05-01* — Each other creature copies the printed values of the targeted creature, plus any copy effects that have been applied to that creature. They won’t copy other effects that have changed the targeted creature’s power, toughness, types, color, or so on. They also won’t copy counters on the targeted creature (they’ll each just retain the counters they already have).
+  - *2008-05-01* — If the targeted creature is a token, each other creature copies the original characteristics of that token as stated by the effect that put it onto the battlefield. Those creatures don’t become tokens.
+  - *2008-05-01* — If the targeted creature is itself copying a creature, each other creature will become whatever it’s copying, as modified by that copy effect. For example, if you target a Cemetery Puca that’s copying a Grizzly Bears (a 2/2 creature with no abilities), each other creature will become a Grizzly Bears with the Cemetery Puca ability.
+  - *2008-05-01* — Noncopy effects that have already applied to the other creatures will continue to apply to them. For example, if Giant Growth had given one of them +3/+3 earlier in the turn, then Mirrorweave made it a copy of Grizzly Bears, it will be a 5/5 Grizzly Bears.
+  - *2008-05-01* — This effect can cause each other creature to stop being a creature. For example, if you target an animated Mutavault (a land with an activated ability that turns it into a creature), only the printed wording will be copied — the “becomes a creature” effect won’t. Each other creature will become an unanimated Mutavault.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cm2/162/mirrorweave) · oracle_id `026b7221-0caf-4c8b-8c1b-e7de836797b7` · printing: CM2 #162 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorwing Dragon
 
@@ -1057,7 +1392,17 @@
   > Whenever a player casts an instant or sorcery spell that targets only this creature, that player copies that spell for each other creature they control that the spell could target. Each copy targets a different one of those creatures.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8178 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/249/mirrorwing-dragon) · oracle_id `9ea14a03-c6a2-49ec-953d-4249a2c27e1d` · printing: SOC #249 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6ba557ab-9d80-4d0a-bddb-ec230cc4437d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2016-07-13* — Any creature the player controls that couldn't be targeted by the original spell (due to shroud, protection abilities, targeting restrictions, or any other reason) is just ignored by Mirrorwing Dragon's ability. If the spell has multiple targets, a given creature must be a legal target for all of them or else a copy won't be created for that creature.
+  - *2016-07-13* — If a player casts an instant or sorcery spell that has multiple targets and Mirrorwing Dragon is chosen as the target in each instance, Mirrorwing Dragon's ability will trigger. Each of the copies will similarly be targeting only one of the player's other creatures.
+  - *2016-07-13* — If the spell that's copied has an X whose value was determined as it was cast (like Burn from Within does), the copies have the same value of X.
+  - *2016-07-13* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode. A different mode cannot be chosen.
+  - *2016-07-13* — The ability triggers whenever a player casts an instant or sorcery spell that targets only Mirrorwing Dragon and no other object or player.
+  - *2016-07-13* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2016-07-13* — The copies are only created targeting creatures that the spell's controller controls. Copies are not created for all creatures on the battlefield, and the affected creatures may be controlled by a different player than the controller of Mirrorwing Dragon. Notably, if you cast Murder targeting your opponent's Mirrorwing Dragon, your creatures will each get a Murder, not your opponent's.
+  - *2016-07-13* — The copies that the ability creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (like Mirrorwing Dragon's ability itself) won't trigger.
+  - *2016-07-13* — The player who cast the original spell controls all the copies. That player chooses the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/249/mirrorwing-dragon) · oracle_id `9ea14a03-c6a2-49ec-953d-4249a2c27e1d` · printing: SOC #249 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorwood Treefolk
 
@@ -1069,7 +1414,10 @@
 - **Flavor text** (PLS printing):
   > *It doesn't need a bite. The bark works just fine.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30438 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/83/mirrorwood-treefolk) · oracle_id `fec51ab9-484f-46a8-b2b0-772a61d89e41` · printing: PLS #83 (2001-02-05) · [rulings](https://api.scryfall.com/cards/ba9a1c94-2b7f-4df7-8517-a122616d9ae4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — If the target creature is not on the battlefield (or is not a creature) at the time the damage would be redirected, then the damage goes on this card.
+  - *2004-10-04* — The ability applies to the next time damage is dealt. Normally this means damage from one source at one time, but during combat it is possible for multiple sources to damage the Treefolk at one time, in which case damage from all of those sources is redirected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/83/mirrorwood-treefolk) · oracle_id `fec51ab9-484f-46a8-b2b0-772a61d89e41` · printing: PLS #83 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mirrorworks
 
@@ -1080,4 +1428,9 @@
 - **Flavor text** (C18 printing):
   > *The faces of Geth's corpse-dredgers are disturbingly similar.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3112 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/211/mirrorworks) · oracle_id `fd9c4ebe-cc9c-427c-8105-adb1703c191b` · printing: C18 #211 (2018-08-10) · [rulings](https://api.scryfall.com/cards/99fff4f2-1a12-4bb5-9904-6c058e5ed595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2011-06-01* — As the token is created, it checks the printed values of the artifact it's copying, as well as any copy effects that have been applied to it.
+  - *2011-06-01* — Each time the ability triggers, you can pay {2} only one time to get one token.
+  - *2011-06-01* — If the artifact that caused Mirrorworks's ability to trigger has already left the battlefield by the time the ability resolves, you can still pay {2}. If you do, you'll still put a token onto the battlefield. That token has the copiable values of the characteristics of that nontoken artifact as it last existed on the battlefield.
+  - *2011-06-01* — The copiable values of the token's characteristics are the same as the copiable values of the characteristics of the artifact it's copying.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/211/mirrorworks) · oracle_id `fd9c4ebe-cc9c-427c-8105-adb1703c191b` · printing: C18 #211 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

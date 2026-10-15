@@ -20,4 +20,5 @@
 - **Flavor text** (TLE printing):
   > *Moku marches to the beat of a different drum.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23350 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/122/moku-meandering-drummer) · oracle_id `d6e1b1ff-e4e5-4814-9a20-2d527014463f` · printing: TLE #122 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4144eca9-13c0-41a7-810b-8f30813945d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

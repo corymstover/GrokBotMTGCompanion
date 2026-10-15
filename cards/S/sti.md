@@ -76,6 +76,7 @@
 - **Oracle text:**
   > *(no rules text)*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/335/sticker-sheet) · oracle_id `f55a5b8a-ee73-4248-90c7-d2456928448e` · printing: SLD #335 (2025-03-24) · [rulings](https://api.scryfall.com/cards/15b3fde6-7f7f-4bc4-9d74-92c869e916b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stick, Fearless Mentor
@@ -90,6 +91,7 @@
   > *"Every strength was a weakness once. Don't you ever forget it."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20201 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/706/stick-fearless-mentor) · oracle_id `e7bd3882-a0f2-4706-80e7-1d3ec455801f` · printing: MSC #706 (2026-06-26) · [rulings](https://api.scryfall.com/cards/75147899-6eda-41dd-acec-cfe09dc38ba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stick Together
@@ -101,6 +103,7 @@
 - **Flavor text** (CLB printing):
   > *Every veteran adventurer will tell you to stick with your party, because the ones who split up aren't around to give advice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8738 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/661/stick-together) · oracle_id `4abda0ad-0a2b-4bd9-81c7-56329e62311d` · printing: CLB #661 (2022-06-10) · [rulings](https://api.scryfall.com/cards/8d77a57a-e30b-46d7-acb8-1d164c7dff78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sticky Fingers
@@ -113,6 +116,7 @@
   > When enchanted creature dies, draw a card.
 - **Keywords:** Treasure, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1865 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/124/sticky-fingers) · oracle_id `fa8ddc13-5108-4fe9-b3aa-dc28df476f7b` · printing: SNC #124 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3678fa3d-d41f-4b7a-b25e-6fc5f78876c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sticky Kavu Daredevil
@@ -125,6 +129,7 @@
   > {TK}{TK} — 3/3
   > {TK}{TK}{TK} — 2/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/16/sticky-kavu-daredevil) · oracle_id `3def54bf-2640-47de-84e8-7a9406df007e` · printing: SUNF #16 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ca27624e-bddf-4719-9d7e-579de18e1084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stickytongue Sentinel
@@ -139,6 +144,7 @@
   > *Victory doesn't have to be close for him to taste it.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9399 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/193/stickytongue-sentinel) · oracle_id `899f0931-4e9b-4fa8-9f6d-d13a7de05334` · printing: BLB #193 (2024-08-02) · [rulings](https://api.scryfall.com/cards/b5fa9651-b217-4f93-9c46-9bdb11feedcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stifle
@@ -151,7 +157,11 @@
   > *"Superior force meets woefully inadequate object. What paradox were you expecting?"*
   > *—Azguri, archmage of Evos Isle*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4596 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/108/stifle) · oracle_id `b3b00911-ece7-4484-bc36-f211ce72b6cc` · printing: CNS #108 (2014-06-06) · [rulings](https://api.scryfall.com/cards/616d1b20-61c1-4d39-a9b5-ad9fd61699e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — An activated ability has a "Cost: Effect" format. Look for the colon. A triggered ability starts with "when", "whenever", or "at".
+  - *2004-10-04* — It can target delayed triggered abilities. For example, a card that says "Whenever a player cycles a card, you may exile target creature. If you do, return that creature to the battlefield at the beginning of the end step." triggers when a player cycles a card and creates a delayed trigger that happens at the beginning of the end step. You can choose to target the "at the beginning of the end step" trigger when it is placed on the stack at end of turn.
+  - *2004-10-04* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/108/stifle) · oracle_id `b3b00911-ece7-4484-bc36-f211ce72b6cc` · printing: CNS #108 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stigma Lasher
 
@@ -165,7 +175,10 @@
   > *The Extinguisher's curse lasted long after her departure.*
 - **Keywords:** Wither
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12534 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eve/62/stigma-lasher) · oracle_id `7e4a1286-cac6-491f-a32d-64fb98d35de2` · printing: EVE #62 (2008-07-25) · [rulings](https://api.scryfall.com/cards/ce5d1fd4-0543-46ce-bcea-1695fc04e85b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-08-01* — If a player has been dealt damage by Stigma Lasher, the following things are true: — Spells and abilities that would normally cause that player to gain life still resolve, but the life-gain part simply has no effect. — If a cost includes having that player gain life (like Invigorate’s alternative cost does), that cost can’t be paid. — Effects that would replace having that player gain life with some other effect won’t be able to do anything because it’s impossible for that player to gain life. — Effects that replace an event with having that player gain life (like Words of Worship’s effect does) will end up replacing the event with nothing. — If an effect says to set that player’s life total to a certain number, and that number is higher than the player’s current life total, that part of the effect won’t do anything. (If the number is lower than that player’s current life total, the effect will work as normal.)
+  - *2008-08-01* — Once the last ability resolves, it will be in effect for the rest of the game. It doesn’t matter if Stigma Lasher remains on the battlefield or not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eve/62/stigma-lasher) · oracle_id `7e4a1286-cac6-491f-a32d-64fb98d35de2` · printing: EVE #62 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stika, Playtestress
 
@@ -175,6 +188,7 @@
 - **Oracle text:**
   > Whenever you cast a playtest card, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03d/stika-playtestress) · oracle_id `ad6b90c4-739c-49ab-9735-20dd4b7b9338` · printing: UNK #RW03d (2023-09-23) · [rulings](https://api.scryfall.com/cards/5a3c8b1e-1f5e-4583-a52b-96390b5794f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Still Life
@@ -186,7 +200,9 @@
 - **Flavor text** (ODY printing):
   > *The centaurs' simple magic can undo a basilisk's gaze, but only for a short time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32113 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ody/275/still-life) · oracle_id `55159adc-36f0-4088-8930-5d9b45f76365` · printing: ODY #275 (2001-10-01) · [rulings](https://api.scryfall.com/cards/12be33d7-f25e-4dbf-9706-74403103b127/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ody/275/still-life) · oracle_id `55159adc-36f0-4088-8930-5d9b45f76365` · printing: ODY #275 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stillmoon Cavalier
 
@@ -200,6 +216,7 @@
   > {W/B}{W/B}: This creature gets +1/+0 until end of turn.
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26838 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/95/stillmoon-cavalier) · oracle_id `9c430b5a-83b6-4f4f-b1d3-5737e1f61947` · printing: EVE #95 (2008-07-25) · [rulings](https://api.scryfall.com/cards/400dc91e-96c0-49bf-b307-677d6f80f3ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stillness in Motion
@@ -212,6 +229,7 @@
   > *"The Meditation Realm is a willful puzzle. Seek, and it will impede. Wait, and it will permit passage."*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10816 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/59/stillness-in-motion) · oracle_id `d73913ea-44d0-408f-9f8b-8e91843f2826` · printing: TDM #59 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a6289251-17e4-4987-96b9-2fb1a8f90e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stilt-Man, Towering Terror
@@ -224,6 +242,7 @@
   > Whenever one or more Villains you control deal combat damage to a player, gain control of target noncreature, nonland permanent that player controls until the end of your next turn. It gains "This permanent can't be sacrificed" until the end of your next turn.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16899 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/61/stilt-man-towering-terror) · oracle_id `8ae1bda5-8f70-48ec-9df0-89e58a4ab21c` · printing: MSC #61 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7ffa820c-ac05-4b3d-a0ec-5cbd3c42ac9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stiltstrider
@@ -238,6 +257,7 @@
   > *Impossibly tall, improbably elegant.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23997 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/157/stiltstrider) · oracle_id `9c0d7d7d-5513-4e2b-b834-1ff999ab24f5` · printing: UNF #157 (2022-10-07) · [rulings](https://api.scryfall.com/cards/fd16fe9d-9f31-4fe8-941e-f5728cd394a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stiltzkin, Moogle Merchant
@@ -252,6 +272,7 @@
   > *"How about a three-piece combo of Hi-Potion, Ether, and Phoenix Pinion for 444 Gil?"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6878 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/34/stiltzkin-moogle-merchant) · oracle_id `958c2a27-9fb1-42b4-a0ef-296584763a98` · printing: FIN #34 (2025-06-13) · [rulings](https://api.scryfall.com/cards/06a972a4-0c1b-4f12-a5a5-fdea47c4cd35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stimulus Package
@@ -263,6 +284,7 @@
   > Sacrifice a Treasure: Create a 1/1 green and white Citizen creature token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12086 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/225/stimulus-package) · oracle_id `ce76d17e-d536-46f0-98e2-3e1b1b4f61a4` · printing: SNC #225 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ecbe7459-8613-4ab8-84dc-deab19c08511/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sting, Bilbo's Sword
@@ -275,7 +297,11 @@
   > Equip {3}
 - **Keywords:** Equip, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10001 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hob/178/sting-bilbos-sword) · oracle_id `9779f32c-b1a2-42a3-8e78-14c28c3ad254` · printing: HOB #178 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d6a8d698-c454-42c4-ad4e-9a7625d5569f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-06-29* — A creature equipped by an Equipment with hone counters on it gets +1/+0 for each hone counter on that Equipment. This effect is from the counter itself rather than an ability on the Equipment, so even if the Equipment loses some of its abilities, each hone counter will still grant +1/+0 to the creature.
+  - *2026-06-29* — Hone counters can be put on any Equipment and each one will grant +1/+0 to that Equipment's equipped creature, even if the Equipment the hone counters are on doesn't reference hone counters or have an ability that puts them on itself.
+  - *2026-06-29* — The power boost applies only while the Equipment with hone counters is attached to a creature. If an Equipment with hone counters on it becomes unattached from a creature, leaves the battlefield, or has its hone counters removed, the power of the creature changes immediately.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hob/178/sting-bilbos-sword) · oracle_id `9779f32c-b1a2-42a3-8e78-14c28c3ad254` · printing: HOB #178 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingblade Assassin
 
@@ -288,6 +314,7 @@
   > When this creature enters, destroy target creature an opponent controls that was dealt damage this turn.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15165 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/109/stingblade-assassin) · oracle_id `7938112a-3832-42b4-b123-27a42c06a290` · printing: WOE #109 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b71b7dd9-6a1d-4c71-873b-782a0a2e7d1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingcaster Mage
@@ -300,7 +327,14 @@
   > When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18508 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/93/stingcaster-mage) · oracle_id `056b651e-e0e2-4333-9235-d1ffe8fcca29` · printing: FRA #93 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2d8e8e5f-3bf5-490d-aa9c-9df2b26f1460/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2026-08-21* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2026-08-21* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2026-08-21* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2026-08-21* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2026-08-21* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2026-08-21* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/93/stingcaster-mage) · oracle_id `056b651e-e0e2-4333-9235-d1ffe8fcca29` · printing: FRA #93 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerback Terror
 
@@ -313,7 +347,15 @@
   > Plot {2}{R} (You may pay {2}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
 - **Keywords:** Flying, Plot, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17896 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/147/stingerback-terror) · oracle_id `5cc6ca73-c38f-4ef8-a2c9-4f0342eebb73` · printing: OTJ #147 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d84d6e52-5c35-47bc-b160-876a3b0fcbe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-04-12* — Because damage remains marked on a creature until it's removed as the turn ends, the damage Stingerback Terror takes during combat may become lethal if you draw cards later in the turn.
+  - *2024-04-12* — Exiling a card using its plot ability is a special action. Once you announce you're taking that action, no other player can respond by trying to remove that card from your hand.
+  - *2024-04-12* — If a plotted card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If a spell or ability causes you to draw cards and then has you remove some from hand (such as by discarding them or putting them on top of your library), Stingerback Terror may briefly have 0 toughness or less. As long as its toughness is 1 or greater again after the spell or ability is finished resolving, it will remain on the battlefield.
+  - *2024-04-12* — If you're casting a plotted card from exile without paying its mana cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the plotted card has any mandatory additional costs, those must still be paid to cast the spell.
+  - *2024-04-12* — Plot abilities are written "Plot [cost]," which means "Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted."
+  - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/147/stingerback-terror) · oracle_id `5cc6ca73-c38f-4ef8-a2c9-4f0342eebb73` · printing: OTJ #147 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerfling Spider
 
@@ -327,7 +369,9 @@
   > *The juiciest prey is that which grows lazy, thinking itself beyond the reach of danger.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15912 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/258/stingerfling-spider) · oracle_id `056770e2-8ab7-424d-a2d8-7be6d6cc73f1` · printing: CMR #258 (2020-11-20) · [rulings](https://api.scryfall.com/cards/18f45424-2c26-43fa-9afe-eeb22ce772e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — You choose the target creature with flying when the ability goes on the stack. When it resolves, you choose whether or not to destroy the creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/258/stingerfling-spider) · oracle_id `056770e2-8ab7-424d-a2d8-7be6d6cc73f1` · printing: CMR #258 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerquill Annex
 
@@ -339,7 +383,9 @@
 - **Flavor text** (FRA printing):
   > *Battlemages of Stingerquill, the school of painful words, sharpen their tongues to cut down the unworthy.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19397 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/190/stingerquill-annex) · oracle_id `26e20ae5-4059-4d63-9db5-6e12421d1aba` · printing: FRA #190 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6ede3143-69ac-4cbe-922a-d25b07c26da7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — If this land enters at the same time as a planeswalker, that planeswalker isn't considered when determining if this land enters the battlefield tapped or untapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/190/stingerquill-annex) · oracle_id `26e20ae5-4059-4d63-9db5-6e12421d1aba` · printing: FRA #190 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerquill Charm
 
@@ -351,6 +397,7 @@
   > • Target creature gains first strike and deathtouch until end of turn.
   > • Create a 2/2 colorless Wizard Soldier creature token named Cadet. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20676 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/150/stingerquill-charm) · oracle_id `987aadac-d6a6-4e50-9468-9e8e53cc5529` · printing: FRA #150 (2026-10-02) · [rulings](https://api.scryfall.com/cards/81733ff7-e611-43ee-bf38-6bb700676017/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerquill Voxmancer // Vicious Verse
@@ -363,7 +410,23 @@
   > Vicious Verse deals 1 damage to target opponent.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20918 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse) · oracle_id `e8f755f7-ec93-4d2e-bffc-c719984fa13d` · printing: FRA #151 (2026-10-02) · [rulings](https://api.scryfall.com/cards/84b1c268-3b8a-41b6-92e3-a2ce0cc3d738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-08-21* — A creature with a prepare spell can't become prepared more than once at the same time. For example, say Bloodline Recollector is on the battlefield and is prepared. During the current turn, three creatures die. At the beginning of the end step, Bloodline Recollector's last ability triggers. When that ability resolves, since Bloodline Recollector is already prepared, the ability won't cause it to become prepared a second time or create a second copy of Ancestral Craving in exile.
+  - *2026-08-21* — A creature without a prepare spell can't become prepared.
+  - *2026-08-21* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Diviner of Victory is a blue creature card whose mana value is 1. It can't be the target of Stingcaster Mage's triggered ability ("When this creature enters, target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost.").
+  - *2026-08-21* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-08-21* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-08-21* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-08-21* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog") targeting Diviner of Victory. The token copy of Diviner of Victory will enter prepared as a 1/1 green Frog creature, but the copy of Unwind History in exile will still be a blue sorcery. The copy of Unwind History won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-08-21* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-08-21* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-08-21* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-08-21* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-08-21* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
+  - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/151/stingerquill-voxmancer-vicious-verse) · oracle_id `e8f755f7-ec93-4d2e-bffc-c719984fa13d` · printing: FRA #151 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Barrier
 
@@ -375,6 +438,7 @@
   > {U}, {T}: This creature deals 1 damage to any target.
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27246 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/107/stinging-barrier) · oracle_id `b56f375f-35b3-4d96-9749-c059c2d29c8b` · printing: MMQ #107 (1999-10-04) · [rulings](https://api.scryfall.com/cards/ca7f7cd5-4e91-474a-9f60-a66f3f462b1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Cave Crawler
@@ -389,7 +453,10 @@
   > *Caverns uninhabited by mycoids are often infested with worse.*
 - **Keywords:** Descend, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11901 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/124/stinging-cave-crawler) · oracle_id `a9a35c77-637f-4d56-afa2-6c8a4ded4838` · printing: LCI #124 (2023-11-17) · [rulings](https://api.scryfall.com/cards/6a230208-84ae-4f48-afbd-a0d50596ad27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — Cards with the ability word "descend N" have abilities that care if you have at least N permanent cards in your graveyard.
+  - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/124/stinging-cave-crawler) · oracle_id `a9a35c77-637f-4d56-afa2-6c8a4ded4838` · printing: LCI #124 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Hivemaster
 
@@ -403,7 +470,15 @@
   > *From within its form, a single word echoed forth: "Devour."*
 - **Keywords:** Toxic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/110/stinging-hivemaster) · oracle_id `6b1f750c-0f01-4b1c-ad8f-260e26fbbfea` · printing: ONE #110 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cdbbcbe1-5317-455e-8d71-a4e2ad0addfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — A player with ten or more poison counters loses the game. This is a state-based action and doesn't use the stack. In other words, it happens immediately and players can't respond to it, just like a player losing the game due to having 0 or less life.
+  - *2023-02-04* — Any other effects of that damage, such as life gain from lifelink, still apply.
+  - *2023-02-04* — Conversely, replacement effects that apply to the number of counters put on a player can modify the counters placed this way. For example, Vorinclex, Monstrous Raider's last two abilities can apply to counters placed this way.
+  - *2023-02-04* — Damage dealt by a creature with toxic grants the same number of counters regardless of how much damage is dealt. Notably, if a replacement effect modifies the damage in some way (such as that of Gratuitous Violence), the number of counters given remains unchanged.
+  - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
+  - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
+  - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/110/stinging-hivemaster) · oracle_id `6b1f750c-0f01-4b1c-ad8f-260e26fbbfea` · printing: ONE #110 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Licid
 
@@ -414,7 +489,10 @@
   > {1}{U}, {T}: This creature loses this ability and becomes an Aura enchantment with enchant creature. Attach it to target creature. You may pay {U} to end this effect.
   > Whenever enchanted creature becomes tapped, this creature deals 2 damage to that creature's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29668 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/91/stinging-licid) · oracle_id `c6e48eaf-02f8-43b3-90bf-970d4e412fa6` · printing: TMP #91 (1997-10-14) · [rulings](https://api.scryfall.com/cards/807227d7-2eb2-4d47-bb3c-9d1ec9befeb7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — If a spell that can target enchantments but not creatures (such as Clear) is cast targeting the Licid after it has become an enchantment, but the Licid's controller pays the cost, the Licid will no longer be an enchantment. This will result in the spell failing to resolve for having no legal targets.
+  - *2013-04-15* — Paying the cost to end the effect is a special action and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmp/91/stinging-licid) · oracle_id `c6e48eaf-02f8-43b3-90bf-970d4e412fa6` · printing: TMP #91 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Lionfish
 
@@ -426,7 +504,12 @@
 - **Flavor text** (THB printing):
   > *Starfish are its favorite prey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14291 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/69/stinging-lionfish) · oracle_id `ffd6c4b8-928d-40f1-9549-d13fa0b3af82` · printing: THB #69 (2020-01-24) · [rulings](https://api.scryfall.com/cards/0162a0b8-a2d1-4664-a445-331aee6d5175/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-01-24* — An ability that triggers when you cast a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2020-01-24* — If you have more than one opponent, this ability can trigger once during each of those opponents' turns.
+  - *2020-01-24* — In a Two-Headed Giant game, this ability triggers no more than once during each opposing team's turn.
+  - *2020-01-24* — This ability triggers only on your very first spell during an opponent's turn, not the first spell after the card is on the battlefield. If you cast a spell before it's on the battlefield (including if you cast this card somehow during an opponent's turn), the ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/69/stinging-lionfish) · oracle_id `ffd6c4b8-928d-40f1-9549-d13fa0b3af82` · printing: THB #69 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Scorpion
 
@@ -436,7 +519,9 @@
 - **Oracle text:**
   > When this creature enters, target creature an opponent controls gets -1/-1 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/46/stinging-scorpion) · oracle_id `90d936b9-6da8-4c99-9133-f7b27839ee24` · printing: UND #46 (2020-02-29) · [rulings](https://api.scryfall.com/cards/67248450-7135-43ed-a1ec-d8a2da556066/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/46/stinging-scorpion) · oracle_id `90d936b9-6da8-4c99-9133-f7b27839ee24` · printing: UND #46 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Shot
 
@@ -449,6 +534,7 @@
   > *Initiates must train to resist the natural toxins they use as weapons.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22644 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/189/stinging-shot) · oracle_id `7fd7d20d-d44c-443c-a2cf-320f39a3bec4` · printing: AKH #189 (2017-04-28) · [rulings](https://api.scryfall.com/cards/547c4c26-1118-41fa-aec8-1b43a7792e59/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Study
@@ -460,7 +546,10 @@
 - **Flavor text** (C21 printing):
   > *Silverquill first-years welcome discomfort in the classroom, knowing it will prepare them for the years ahead.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3412 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/44/stinging-study) · oracle_id `115bc79e-a109-42d7-ac58-2ee8dc0a959f` · printing: C21 #44 (2021-04-23) · [rulings](https://api.scryfall.com/cards/b8840226-1693-44bc-a067-e50198c5e17e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If you own multiple commanders on the battlefield and/or in the command zone, you choose one of them as Stinging Study resolves to determine the value of X.
+  - *2021-04-16* — If your commander is under the control of another player as Stinging Study resolves, it is still on the battlefield and will still be used to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/44/stinging-study) · oracle_id `115bc79e-a109-42d7-ac58-2ee8dc0a959f` · printing: C21 #44 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Vitriol
 
@@ -472,6 +561,7 @@
   > *"Confidence is relative. Bolster yours by breaking theirs."*
   > *—Ingris Stingerquill*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27397 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/152/stinging-vitriol) · oracle_id `624cf822-0b4e-4f0c-9893-a53cb094f616` · printing: FRA #152 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a7d78297-7411-4ec5-8931-a25146869d5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingmoggie
@@ -485,6 +575,7 @@
 - **Flavor text** (MOR printing):
   > *A path vexed by the stingmoggie was probably the wrong path anyhow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28443 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/106/stingmoggie) · oracle_id `e868028f-4c6f-43d1-9cc6-6f3ce2df2ec3` · printing: MOR #106 (2008-02-01) · [rulings](https://api.scryfall.com/cards/27e0fdb4-187a-4178-a702-884bef9e029d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingscourger
@@ -497,6 +588,7 @@
   > When this creature enters, return target creature an opponent controls to its owner's hand.
 - **Keywords:** Echo
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/192/stingscourger) · oracle_id `3e8d1051-1739-4a10-9cef-78f7333b4979` · printing: TSR #192 (2021-03-19) · [rulings](https://api.scryfall.com/cards/d6bcc2bc-75a7-4b01-856b-4e0b8703e302/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sting-Slinger
@@ -510,7 +602,14 @@
   > *"The first step is to wuzzle the buzzers."*
 - **Keywords:** Blight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17856 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/161/sting-slinger) · oracle_id `945a4a4d-fdfd-4c39-9975-5b22d17a4e70` · printing: ECL #161 (2026-01-23) · [rulings](https://api.scryfall.com/cards/386c5f73-fb8f-46c8-ad45-56e2c19b7d1f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-11-17* — All of the -1/-1 counters must be put on a single creature. You can't choose to split them up between multiple creatures.
+  - *2025-11-17* — If a creature has +1/+1 counters and -1/-1 counters on it, state-based actions remove the same number of each so that it has only one kind of those counters on it. For example, if a creature has three +1/+1 counters on it and two -1/-1 counters are put on it, state-based actions will remove two of each of those kinds of counters, leaving the creature with just one +1/+1 counter.
+  - *2025-11-17* — If a creature that has +1/+1 counters on it receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner's graveyard for having 0 or less toughness, effects that refer to the counters on that creature when it died will see all of those +1/+1 and -1/-1 counters.
+  - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
+  - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
+  - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/161/sting-slinger) · oracle_id `945a4a4d-fdfd-4c39-9975-5b22d17a4e70` · printing: ECL #161 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sting, the Glinting Dagger
 
@@ -523,6 +622,7 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1639 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/250/sting-the-glinting-dagger) · oracle_id `973c49a1-8425-40b9-8bdc-2c2434222314` · printing: LTR #250 (2023-06-23) · [rulings](https://api.scryfall.com/cards/afbec7e7-f5b9-407e-bf96-2e088710e791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Bandit
@@ -535,7 +635,10 @@
   > Whenever a Rogue you control attacks and isn't blocked, it gets +2/+1 until end of turn.
 - **Keywords:** Prowl
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13181 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/55/stinkdrinker-bandit) · oracle_id `dadae60e-b91e-435f-85e0-518dfa419530` · printing: ZNC #55 (2020-09-25) · [rulings](https://api.scryfall.com/cards/dd75155b-a13d-4bed-8014-70f27175aa74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — This ability triggers after blockers are declared during the declare blockers step. Each attacking Rogue you control gets +2/+1 if no creatures were assigned to block it. That creature will get the bonus even if an effect causes it to become blocked.
+  - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/55/stinkdrinker-bandit) · oracle_id `dadae60e-b91e-435f-85e0-518dfa419530` · printing: ZNC #55 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Daredevil
 
@@ -547,6 +650,7 @@
 - **Flavor text** (CM2 printing):
   > *Boggarts constantly strive to outdo each other with the things they bring back to the warren, each hoping the exploit will become as well-known as those of Auntie Grub.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/119/stinkdrinker-daredevil) · oracle_id `25af5e13-ebe8-4bc4-b8fe-8b9aee59579c` · printing: CM2 #119 (2018-06-08) · [rulings](https://api.scryfall.com/cards/bca9593b-764f-4fb8-80bd-91cdebc83356/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkweed Imp
@@ -560,7 +664,15 @@
   > Dredge 5 (If you would draw a card, you may mill five cards instead. If you do, return this card from your graveyard to your hand.)
 - **Keywords:** Flying, Dredge, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3154 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/36/stinkweed-imp) · oracle_id `e005bc76-4985-4ec6-b9f6-cf6d0d9f5df4` · printing: DVD #36 (2014-12-05) · [rulings](https://api.scryfall.com/cards/2ab08d69-210b-4b06-88a2-45281a1a4e1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-03-19* — Notably, Stinkweed Imp's ability isn't deathtouch. It's a triggered ability that triggers only on combat damage.
+  - *2024-01-12* — Dredge can replace any card draw, not only the one during your draw step.
+  - *2024-01-12* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-01-12* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was milled by the first dredge ability) may be used to replace the second draw.
+  - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
+  - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
+  - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dvd/36/stinkweed-imp) · oracle_id `e005bc76-4985-4ec6-b9f6-cf6d0d9f5df4` · printing: DVD #36 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirge
 
@@ -576,6 +688,7 @@
   > *—Imoen*
 - **Keywords:** Blood Drain, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11852 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/150/stirge) · oracle_id `aed2d938-125d-49b4-93ac-202b7a37fcc2` · printing: CLB #150 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4b1d59fb-c3ff-4995-a695-51f2a4dae404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Address
@@ -589,7 +702,12 @@
   > *"For glory! For justice! For our queen!"*
 - **Keywords:** Overload
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28859 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/32/stirring-address) · oracle_id `45a60f56-35e4-46e5-838f-8b4407a67cd6` · printing: MH1 #32 (2019-06-14) · [rulings](https://api.scryfall.com/cards/2de3e3b0-6ecf-4bf6-9595-0e5e59ef1d6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-01-12* — Because a spell with overload doesn't target when its overload cost is paid, it may affect permanents with hexproof or with protection from the appropriate color.
+  - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
+  - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/32/stirring-address) · oracle_id `45a60f56-35e4-46e5-838f-8b4407a67cd6` · printing: MH1 #32 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Bard
 
@@ -604,7 +722,18 @@
   > *At the first sign of danger, she breaks out the power chords.*
 - **Keywords:** Defender, Mantle of Inspiration
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11270 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/195/stirring-bard) · oracle_id `2583836d-7fd3-47b3-9b69-6814efe54a90` · printing: CLB #195 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d06d9d83-d1e6-4499-a1ac-6f865159f6b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren’t in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you’re already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you’re already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can’t start a dungeon that isn’t Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/195/stirring-bard) · oracle_id `2583836d-7fd3-47b3-9b69-6814efe54a90` · printing: CLB #195 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Honormancer
 
@@ -616,7 +745,9 @@
 - **Flavor text** (SOS printing):
   > *"Speak as though the world will be a better place after your words are in it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26563 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/234/stirring-honormancer) · oracle_id `3bcf54f8-fcd7-4ec0-b011-92b367411cdb` · printing: SOS #234 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ee84b04d-78fc-416f-9166-72e5417c3e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — The value of X is determined only once, as Stirring Honormancer's triggered ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/234/stirring-honormancer) · oracle_id `3bcf54f8-fcd7-4ec0-b011-92b367411cdb` · printing: SOS #234 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Hopesinger
 
@@ -630,7 +761,10 @@
   > *Though not all her students have wings, she's determined to help them reach new heights.*
 - **Keywords:** Flying, Lifelink, Repartee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/35/stirring-hopesinger) · oracle_id `7244d04a-bb9c-4fbe-a346-4a3f45709da7` · printing: SOS #35 (2026-04-24) · [rulings](https://api.scryfall.com/cards/21375667-b318-47f8-a482-9c8c2b5b14c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/35/stirring-hopesinger) · oracle_id `7244d04a-bb9c-4fbe-a346-4a3f45709da7` · printing: SOS #35 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Wildwood
 
@@ -641,7 +775,10 @@
   > {T}: Add {G} or {W}.
   > {1}{G}{W}: Until end of turn, this land becomes a 3/4 green and white Elemental creature with reach. It's still a land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7476 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/251/stirring-wildwood) · oracle_id `e900f211-dc8b-40f7-a217-1b1462b15c26` · printing: UMA #251 (2018-12-07) · [rulings](https://api.scryfall.com/cards/22f40dfc-a35d-4094-9805-0de8b7f61cb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2010-03-01* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
+  - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/251/stirring-wildwood) · oracle_id `e900f211-dc8b-40f7-a217-1b1462b15c26` · printing: UMA #251 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir the Grave
 
@@ -653,6 +790,7 @@
   > *"Your lungs may not draw breath, but while your hands can grip a sword, you will be useful to me."*
   > *—Nighteyes, nezumi necromancer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/85/stir-the-grave) · oracle_id `296dcc57-5651-4cb1-b89c-fcdd3f5311bd` · printing: BOK #85 (2005-02-04) · [rulings](https://api.scryfall.com/cards/7287f68f-f2e2-4e6f-a772-29a629bb9ccd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir the Pride
@@ -666,7 +804,10 @@
   > Entwine {1}{W} (Choose both if you pay the entwine cost.)
 - **Keywords:** Entwine
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27698 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/30/stir-the-pride) · oracle_id `7e46d2c7-59ae-4b0e-a2ec-d0ac1b68d594` · printing: MMA #30 (2013-06-07) · [rulings](https://api.scryfall.com/cards/2e01c926-bd9a-4d2f-b9fc-452584d056d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-06-07* — Notably, the ability granted by the second mode isn’t lifelink. It’s a triggered ability that triggers whenever the creature with that ability deals damage. If that creature also has lifelink, you’ll gain life as a result of that damage and also when the triggered ability resolves. Multiple instances of this ability trigger separately.
+  - *2013-06-07* — Only creatures you control when Stir the Pride resolves will get the bonuses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/30/stir-the-pride) · oracle_id `7e46d2c7-59ae-4b0e-a2ec-d0ac1b68d594` · printing: MMA #30 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir the Sands
 
@@ -678,7 +819,10 @@
   > When you cycle this card, create a 2/2 black Zombie creature token.
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23163 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/110/stir-the-sands) · oracle_id `52fa7e9b-36d9-409c-8981-6f8dfd8bb031` · printing: AKH #110 (2017-04-28) · [rulings](https://api.scryfall.com/cards/0cb84193-9648-46e5-a34d-c12cc3f1d7f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
+  - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/110/stir-the-sands) · oracle_id `52fa7e9b-36d9-409c-8981-6f8dfd8bb031` · printing: AKH #110 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir Up Trouble
 
@@ -691,6 +835,7 @@
   > *"I will prepare something particularly uncomfortable for you, Thorin Oakenshield!"*
   > *—The Great Goblin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15798 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/84/stir-up-trouble) · oracle_id `dda607bd-f419-4b7f-b052-a5ce6ce22bfe` · printing: HOB #84 (2026-08-14) · [rulings](https://api.scryfall.com/cards/fd145e3a-c889-4390-accb-863dbcc845ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitched Assistant
@@ -703,6 +848,7 @@
   > When this creature exploits a creature, scry 1, then draw a card. (To scry 1, look at the top card of your library, then you may put that card on the bottom.)
 - **Keywords:** Exploit, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/81/stitched-assistant) · oracle_id `eedbc164-032c-420f-ac59-bd2675ff1b69` · printing: VOW #81 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c1debb8c-d5e0-49e5-ab27-2d50e6f9d8d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitched Drake
@@ -718,7 +864,10 @@
   > *—Stitcher Geralf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26791 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/72/stitched-drake) · oracle_id `10fd868f-45b3-4e2f-89d9-5c0b8a92f9fe` · printing: UMA #72 (2018-12-07) · [rulings](https://api.scryfall.com/cards/736f293a-10b5-43bc-8aad-cb63f00601a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to otherwise remove the creature card you exiled in order to prevent you from casting this spell.
+  - *2013-04-15* — You must exile exactly one creature card from your graveyard to cast this spell; you cannot cast it without exiling a creature card, and you cannot exile additional creature cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/72/stitched-drake) · oracle_id `10fd868f-45b3-4e2f-89d9-5c0b8a92f9fe` · printing: UMA #72 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitched Mangler
 
@@ -729,6 +878,7 @@
   > This creature enters tapped.
   > When this creature enters, tap target creature an opponent controls. That creature doesn't untap during its controller's next untap step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21293 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/87/stitched-mangler) · oracle_id `4c502f1b-7361-48c0-8def-0d3b3e9ff628` · printing: INR #87 (2025-01-24) · [rulings](https://api.scryfall.com/cards/e90cb0f1-d6fa-4a73-83bb-8870e59b1d7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher Geralf
@@ -740,7 +890,9 @@
   > {2}{U}, {T}: Each player mills three cards. Exile up to two creature cards put into graveyards this way. Create an X/X blue Zombie creature token, where X is the total power of the cards exiled this way.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13680 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/121/stitcher-geralf) · oracle_id `da394a25-79c9-4b75-9ce6-741f64ae6913` · printing: CMM #121 (2023-08-04) · [rulings](https://api.scryfall.com/cards/a4ce6c30-a301-4a8a-ac3a-abacaf358a56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2014-11-07* — “Exiled this way” refers to the exile instruction that's part of the ability's effect. If the cards each player would put into their graveyard are exiled because of a replacement effect, those cards won't be in the graveyards to be exiled by the next part of the ability. In this case, the value of X will be 0. You'll put a 0/0 token onto the battlefield, then that token will die and subsequently cease to exist (unless something else raises its toughness above 0).
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/121/stitcher-geralf) · oracle_id `da394a25-79c9-4b75-9ce6-741f64ae6913` · printing: CMM #121 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher's Apprentice
 
@@ -752,7 +904,11 @@
 - **Flavor text** (UMA printing):
   > *"Oglor create life, Oglor take it away. Oglor god! ... until Master return."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26516 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/73/stitchers-apprentice) · oracle_id `14bf3049-faa3-4c1f-a613-603e977a50a4` · printing: UMA #73 (2018-12-07) · [rulings](https://api.scryfall.com/cards/717e34b9-161e-4b11-afb1-f41ee8027433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-12-07* — Any abilities that trigger on the Homunculus token entering the battlefield will resolve after you’ve sacrificed a creature.
+  - *2018-12-07* — The creature you sacrifice for the ability of Stitcher’s Apprentice could be the Homunculus you’ve just created. It could also be Stitcher’s Apprentice itself.
+  - *2018-12-07* — You create a token and sacrifice a creature all while the activated ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/73/stitchers-apprentice) · oracle_id `14bf3049-faa3-4c1f-a613-603e977a50a4` · printing: UMA #73 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher's Graft
 
@@ -765,7 +921,11 @@
   > Equip {2}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22029 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/271/stitchers-graft) · oracle_id `2b73a5ec-c52e-4074-a7cb-78d6eb2adef0` · printing: INR #271 (2025-01-24) · [rulings](https://api.scryfall.com/cards/a5dad4be-599b-4c4d-a957-3fe6b52b4141/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-07-13* — If Stitcher’s Graft’s last triggered ability triggers, but you don’t control the permanent it became unattached from at the time that ability resolves (perhaps because another player has somehow gained control of it), you won’t be able to sacrifice it.
+  - *2016-07-13* — If multiple effects say that a creature doesn’t untap during your next untap step, those effects all apply during one untap step. For example, a creature that attacks while equipped with two Stitcher’s Grafts will only spend one untap step without untapping.
+  - *2016-07-13* — Stitcher’s Graft becomes unattached from the creature it’s equipping if you equip it to a new creature, if Stitcher’s Graft leaves the battlefield, if the equipped creature ceases to be a creature, or if Stitcher’s Graft ceases to be an Equipment. (It also becomes unattached if the equipped creature leaves the battlefield, but the triggered ability won’t do anything in that case.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/271/stitchers-graft) · oracle_id `2b73a5ec-c52e-4074-a7cb-78d6eb2adef0` · printing: INR #271 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher's Supplier
 
@@ -778,6 +938,7 @@
   > *No part goes to waste.*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #618 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/196/stitchers-supplier) · oracle_id `7fd61a18-6e4f-40c5-aa00-3d101ec1ec82` · printing: TDC #196 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2edcde06-b326-476e-884d-770187c785fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitch in Time
@@ -789,6 +950,7 @@
 - **Flavor text** (RVR printing):
   > *Quyzl was told by his mentor to "make more time" for his studies.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5166 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/229/stitch-in-time) · oracle_id `59b2a90e-542f-4fb0-b290-ac79dc2892a4` · printing: RVR #229 (2024-01-12) · [rulings](https://api.scryfall.com/cards/da3a311a-d2c2-4bd1-aa39-9e6f4eb51960/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitch Together
@@ -800,7 +962,9 @@
   > Threshold — Return that card from your graveyard to the battlefield instead if there are seven or more cards in your graveyard.
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1611 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/119/stitch-together) · oracle_id `bc3d5911-3580-4132-9daf-2826495b5739` · printing: C18 #119 (2018-08-10) · [rulings](https://api.scryfall.com/cards/8423c98d-4cb6-4a70-8bf2-3ac24c025c4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Checks the number of cards in your graveyard when it starts resolving. You may drop below seven cards during resolution, but that won't stop it from resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/119/stitch-together) · oracle_id `bc3d5911-3580-4132-9daf-2826495b5739` · printing: C18 #119 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitchwing Skaab
 
@@ -815,4 +979,6 @@
   > *—Stitcher Geralf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24477 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soi/90/stitchwing-skaab) · oracle_id `0b40e537-d385-450d-93a9-b60a25bfe508` · printing: SOI #90 (2016-04-08) · [rulings](https://api.scryfall.com/cards/f84bb1ce-a8a0-4a29-9129-b1d7041fd01a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-04-08* — Stitchwing Skaab's last ability can only be activated while it's in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soi/90/stitchwing-skaab) · oracle_id `0b40e537-d385-450d-93a9-b60a25bfe508` · printing: SOI #90 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

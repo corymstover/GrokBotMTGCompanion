@@ -30,7 +30,10 @@
 - **Flavor text** (UST printing):
   > *The odds are good, but the goods are odd.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/15/oddly-uneven) · oracle_id `ef2ca5fc-aadb-4490-98b0-fa34d9554c27` · printing: UST #15 (2017-12-08) · [rulings](https://api.scryfall.com/cards/830d5f87-1c8b-414a-a91e-4805f5bdca54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Include all words in the name, including lowercase words like “of” or “the.”
+  - *2018-01-19* — The name of a creature token is the same as its creature type(s), unless the effect that created it gives it a specific name. For example, a Human Soldier creature token is named “Human Soldier.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/15/oddly-uneven) · oracle_id `ef2ca5fc-aadb-4490-98b0-fa34d9554c27` · printing: UST #15 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oddric, Lunar Marquis
 
@@ -40,7 +43,15 @@
 - **Oracle text:**
   > At the beginning of each combat, creatures you control gain banding until end of turn if a creature you control has banding. The same is true for changeling, devoid, fear, flanking, horsemanship, ingest, intimidate, landwalk, shroud, tantrum, wither, and the activated ability "Sacrifice this creature: Add {C}."
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/551/oddric-lunar-marquis) · oracle_id `99db3404-1b0e-4d31-8781-b12b01ee68f6` · printing: MB2 #551 (2024-08-02) · [rulings](https://api.scryfall.com/cards/d2ad2377-bd13-4b6c-8206-ca590234392b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Gaining changeling or devoid works exactly how you would expect it to unless you’ve spent too much time looking at the Magic rules.
+  - *2024-11-08* — If one of those creatures has one or more variants of the listed keywords (for example, islandwalk), creatures you control gain those specific variants.
+  - *2024-11-08* — Oddric’s ability triggers at the beginning of each combat, not just combat on your turn, whether or not any creatures you control have any of the listed abilities. If a creature gains one of the listed abilities before Oddric’s triggered ability resolves, perhaps due to another ability that triggered at the beginning of combat, then creatures you control will gain that ability.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The set of creatures affected by Oddric’s ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won’t gain any abilities or cause creatures to gain new abilities, and the abilities gained won’t change even if every creature that normally had the abilities leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/551/oddric-lunar-marquis) · oracle_id `99db3404-1b0e-4d31-8781-b12b01ee68f6` · printing: MB2 #551 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odds // Ends
 
@@ -50,7 +61,16 @@
 - **Face 2: Ends** — {3}{R}{W} — Instant
   > Target player sacrifices two attacking creatures of their choice.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26433 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dis/153/odds-ends) · oracle_id `82922f3a-a444-49cf-b136-f30a3c85f791` · printing: DIS #153 (2006-05-05) · [rulings](https://api.scryfall.com/cards/4bb07091-86d6-4735-82b6-6e71e26710f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2006-05-01* — The Odds coin flip has no winner or loser, and no player calls "heads" or "tails."
+  - *2022-12-08* — A split card's characteristics are a combination of its two halves while it is not on the stack. For example, Assault // Battery has a mana value of 5 while it is in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Assault // Battery.
+  - *2022-12-08* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2022-12-08* — Each split card is a single card. For example, if you discard a split card, you've discarded one card, not two. If an effect counts the number of sorcery cards in your graveyard, Assault // Battery counts once, not twice.
+  - *2022-12-08* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the half you're casting. For example, if an effect allows you to cast a sorcery spell with mana value 2 or less from among cards in your graveyard, you could cast Assault this way, but not Battery.
+  - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
+  - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
+  - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dis/153/odds-ends) · oracle_id `82922f3a-a444-49cf-b136-f30a3c85f791` · printing: DIS #153 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odious Trow
 
@@ -63,6 +83,7 @@
   > *Trows are the vile trolls that lurk in the bogs of Shadowmoor. They reappear each night to frighten the living and gnaw the dead.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29981 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/125/odious-trow) · oracle_id `0e9864e2-1bb4-4527-b2af-62433a90b669` · printing: EVE #125 (2008-07-25) · [rulings](https://api.scryfall.com/cards/bc2e0c36-645a-46c8-bd9e-4b8b591dfb58/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Blood-Cursed
@@ -74,7 +95,13 @@
   > When Odric enters, create X Blood tokens, where X is the number of abilities from among flying, first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance found among creatures you control. (Count each ability only once.)
 - **Keywords:** Deathtouch, Lifelink, Reach, Indestructible, Hexproof, First strike, Haste, Trample, Menace, Double strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19633 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/vow/243/odric-blood-cursed) · oracle_id `690f79f3-e6a5-4542-8401-61a9bf645d55` · printing: VOW #243 (2021-11-19) · [rulings](https://api.scryfall.com/cards/81a79f5f-a65a-4b43-b58c-cdfa09cc7855/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-11-19* — Odric, Blood-Cursed counts the number of the listed abilities found, not the number of creatures with those abilities. If you control a single creature with both reach and vigilance as Odric enters the battlefield, you create two Blood tokens. On the other hand, if you control two creatures that each have flying, you create a single Blood token.
+  - *2021-11-19* — Variants of an ability are counted as that ability and are not counted multiple times. For example, if you control a creature with hexproof from blue and another creature with hexproof from black, you create a single Blood token.
+  - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
+  - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
+  - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Source flags:** [Scryfall](https://scryfall.com/card/vow/243/odric-blood-cursed) · oracle_id `690f79f3-e6a5-4542-8401-61a9bf645d55` · printing: VOW #243 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Lunarch Marshal
 
@@ -84,7 +111,12 @@
 - **Oracle text:**
   > At the beginning of each combat, creatures you control gain first strike until end of turn if a creature you control has first strike. The same is true for flying, deathtouch, double strike, haste, hexproof, indestructible, lifelink, menace, reach, skulk, trample, and vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1495 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/36/odric-lunarch-marshal) · oracle_id `bad76170-c773-4be5-9457-20dc9f745cb4` · printing: INR #36 (2025-01-24) · [rulings](https://api.scryfall.com/cards/1db600b2-9b8b-4c21-8d8b-8033ec680a35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-04-08* — Multiple instances of any of the abilities Odric can grant your creatures are redundant.
+  - *2016-04-08* — Odric's ability triggers at the beginning of each combat, not just combat on your turn, whether or not any creatures you control have any of the listed abilities. If a creature gains one of the listed abilities before Odric's triggered ability resolves, perhaps due to another ability that triggered at the beginning of combat, then creatures you control will gain that ability.
+  - *2016-04-08* — The set of creatures affected by Odric's ability and how they are affected is determined as the ability resolves. Creatures you begin to control later in the turn won't gain any abilities or cause creatures to gain new abilities, and the abilities gained won't change even if every creature that normally had the abilities leaves the battlefield.
+  - *2020-01-24* — If one of those creatures has one or more variants of the listed keywords (for example, hexproof from white), creatures you control gain those specific variants.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/36/odric-lunarch-marshal) · oracle_id `bad76170-c773-4be5-9457-20dc9f745cb4` · printing: INR #36 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric, Master Tactician
 
@@ -98,7 +130,11 @@
   > *"Fear holds no place in faith's battle plan."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2477 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/46/odric-master-tactician) · oracle_id `ade898df-14a5-460b-94f6-1f3f74d3ff95` · printing: CMM #46 (2023-08-04) · [rulings](https://api.scryfall.com/cards/13bfcec9-a789-41f1-aa3d-4e4cdd7555b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2012-07-01* — All blocking declarations must still be legal.
+  - *2012-07-01* — If there's a cost associated with having a creature block and you choose for that creature to block, its controller can choose to pay that cost or not. If that player decides to not pay that cost, you must propose a new set of blocking creatures.
+  - *2012-07-01* — You can decide that a creature won't block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/46/odric-master-tactician) · oracle_id `ade898df-14a5-460b-94f6-1f3f74d3ff95` · printing: CMM #46 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odric's Outrider
 
@@ -110,6 +146,7 @@
 - **Flavor text** (MID printing):
   > *Terms like "safe route" and "cleared district" are a source of dark humor to the cathars who patrol the ruins of Thraben.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20222 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/29/odrics-outrider) · oracle_id `a5a9a314-81a0-4b11-9cf9-daeaea98b33c` · printing: MID #29 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9016f837-cc19-43f1-adb9-96bdd3195407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odunos River Trawler
@@ -121,6 +158,7 @@
   > When this creature enters, return target enchantment creature card from your graveyard to your hand.
   > {W}, Sacrifice this creature: Return target enchantment creature card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27491 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/79/odunos-river-trawler) · oracle_id `0282b5c0-e792-4099-a3fa-329eda11fb44` · printing: BNG #79 (2014-02-07) · [rulings](https://api.scryfall.com/cards/a5d1eda4-ac34-4905-9022-59f91d38dbb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Odylic Wraith
@@ -135,4 +173,6 @@
   > *By the time you've seen it, you won't remember that you did.*
 - **Keywords:** Landwalk, Swampwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24200 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/77/odylic-wraith) · oracle_id `613fa223-856e-49c4-8952-224895e00b5e` · printing: WTH #77 (1997-06-09) · [rulings](https://api.scryfall.com/cards/3a3b7cd1-051c-43a8-b5f0-72a9d704efbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — Odylic Wraith’s ability triggers when it deals any kind of damage to a player, not just when it deals combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/77/odylic-wraith) · oracle_id `613fa223-856e-49c4-8952-224895e00b5e` · printing: WTH #77 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

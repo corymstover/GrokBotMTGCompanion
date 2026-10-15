@@ -34,7 +34,15 @@
   > Covenant of Blood deals 4 damage to any target and you gain 4 life.
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26308 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m15/91/covenant-of-blood) · oracle_id `20ca6a15-ba88-4efd-b5bd-da5938e9a43e` · printing: M15 #91 (2014-07-18) · [rulings](https://api.scryfall.com/cards/752b7d05-19d7-4765-9bf8-05a7cb539c3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2014-07-18* — If the target permanent or player is an illegal target when Covenant of Blood tries to resolve, it won't resolve and none of its effects will happen. You won't gain any life. (Any creatures you tapped to cast Covenant of Blood remain tapped.)
+  - *2024-01-12* — Because convoke isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-01-12* — If a creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell with convoke will result in the creature being tapped before you pay the spell's costs. You won't be able to tap it again for convoke. Similarly, if you sacrifice a creature to activate a mana ability while casting a spell with convoke, that creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for convoke.
+  - *2024-01-12* — Tapping a multicolored creature using convoke will pay for {1} or one mana of your choice of any of that creature's colors.
+  - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
+  - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
+  - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m15/91/covenant-of-blood) · oracle_id `20ca6a15-ba88-4efd-b5bd-da5938e9a43e` · printing: M15 #91 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covenant of Minds
 
@@ -45,7 +53,9 @@
 - **Flavor text** (CN2 printing):
   > *Before signing anything on Grixis, always read the fine print.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20692 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/105/covenant-of-minds) · oracle_id `3edac7df-2a88-4718-865e-703dff9c972e` · printing: CN2 #105 (2016-08-26) · [rulings](https://api.scryfall.com/cards/0df0e2eb-753a-4dd1-8b08-f741683e089d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — The targeted opponent has two options: Let you have the three revealed cards or let you have five unknown cards. Note that if the opponent goes with the first option, you put cards into your hand rather than draw them (in case something like Hoofprints of the Stag cares about that), but if the opponent goes with the second option, you actually draw cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/105/covenant-of-minds) · oracle_id `3edac7df-2a88-4718-865e-703dff9c972e` · printing: CN2 #105 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover of Darkness
 
@@ -55,6 +65,7 @@
   > As this enchantment enters, choose a creature type.
   > Creatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1487 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/133/cover-of-darkness) · oracle_id `d78654fc-7d90-40ce-9c36-a211424d1a88` · printing: ONS #133 (2002-10-07) · [rulings](https://api.scryfall.com/cards/0d6d7d88-d82b-40f4-bf57-ec5d7c480689/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover of Winter
@@ -67,7 +78,12 @@
   > {S}: Put an age counter on this enchantment.
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21366 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/3/cover-of-winter) · oracle_id `f85a157f-d7ec-4e61-97df-2ca851b6c666` · printing: CSP #3 (2006-07-21) · [rulings](https://api.scryfall.com/cards/91d9bb89-d8f8-4dff-8b94-3f7b8aa8f299/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2006-07-15* — Cover of Winter's replacement effect prevents combat damage creatures would deal to you and to attacking or blocking creatures you control.
+  - *2006-07-15* — If a creature has double strike, Cover of Winter prevents X of the combat damage it would deal during each combat damage step.
+  - *2006-07-15* — If a creature's combat damage is assigned to multiple recipients (for example, if it has trample and is blocked by two creatures, and damage is assigned to each of those creatures and to you), you decide how to divide the prevention effect. You may prevent damage that would be dealt to the first creature, the second creature, and/or you, as long as the total amount of that creature's damage that would be prevented is X.
+  - *2006-07-15* — If multiple creatures would deal combat damage to you and your creatures at the same time, this prevents X of the damage that would be dealt by each of them. This prevention is applied creature by creature. For example, if Cover of Winter has two age counters and you're being attacked by an unblocked 1/1 and an unblocked 4/4, this will prevent 2 of the combat damage that would be dealt by each one. All damage from the 1/1 is prevented and 2 damage from the 4/4 is prevented, meaning you're dealt 2 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/3/cover-of-winter) · oracle_id `f85a157f-d7ec-4e61-97df-2ca851b6c666` · printing: CSP #3 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covert Cutpurse // Covetous Geist
 
@@ -85,7 +101,15 @@
   > *—Kaya*
 - **Keywords:** Deathtouch, Flying, Transform, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26788 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/92/covert-cutpurse-covetous-geist) · oracle_id `5d0b8dc6-f4b6-4650-805d-4240d4a4ab82` · printing: MID #92 (2021-09-24) · [rulings](https://api.scryfall.com/cards/5db99746-8aee-42b8-acb0-ed69933d0ff8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/92/covert-cutpurse-covetous-geist) · oracle_id `5d0b8dc6-f4b6-4650-805d-4240d4a4ab82` · printing: MID #92 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cover the Spot
 
@@ -96,7 +120,12 @@
   > Prize — You get {TK}{TK}{TK}{TK}, then you may put a sticker on a nonland permanent you own. Sacrifice this Attraction, then open an Attraction.
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/207a/cover-the-spot) · oracle_id `f2febf29-6a0e-4776-85a4-cfee6df5e42b` · printing: UNF #207a (2022-10-07) · [rulings](https://api.scryfall.com/cards/174517f4-efdc-4932-bc6a-53703dfa6875/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — Card sleeves are considered part of the card. If Cover the Spot is sleeved, the dropped cards may also be sleeved. If Cover the Spot is not sleeved, the dropped cards can’t be either.
+  - *2022-10-07* — No player may interfere with the dropping of the cards, including while they’re in freefall.
+  - *2022-10-07* — The cards you drop must be traditionally sized Magic cards. You can’t use plane cards, oversized cards, or those giant cards that are sometimes given away as prizes or at conventions.
+  - *2022-10-07* — The dropped cards don’t have to flip, rotate, or do any other kind of acrobatics.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/207a/cover-the-spot) · oracle_id `f2febf29-6a0e-4776-85a4-cfee6df5e42b` · printing: UNF #207a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covert Operative
 
@@ -108,6 +137,7 @@
 - **Flavor text** (LGN printing):
   > *Some spies seek clarity. Others seek transparency.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29874 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/33/covert-operative) · oracle_id `c1f33eac-0f85-4f0f-8562-1737b5f6b23a` · printing: LGN #33 (2003-02-03) · [rulings](https://api.scryfall.com/cards/dbda6799-3b55-4714-8305-713e1e198a15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covert Technician
@@ -120,7 +150,15 @@
   > Whenever this creature deals combat damage to a player, you may put an artifact card with mana value less than or equal to that damage from your hand onto the battlefield.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/49/covert-technician) · oracle_id `b713ee3a-b6cd-4cd7-b403-f0bbc683ea99` · printing: NEO #49 (2022-02-18) · [rulings](https://api.scryfall.com/cards/dbae9991-43a2-4afb-a882-fff6b0d89d12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/49/covert-technician) · oracle_id `b713ee3a-b6cd-4cd7-b403-f0bbc683ea99` · printing: NEO #49 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Falcon
 
@@ -134,7 +172,21 @@
   > When this creature is turned face up, target opponent gains control of any number of target permanents you control. Draw a card for each one they gained control of this way.
 - **Keywords:** Flying, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9608 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/48/coveted-falcon) · oracle_id `4c495e94-3194-47c7-8129-dd0a0f915daa` · printing: MKM #48 (2024-02-09) · [rulings](https://api.scryfall.com/cards/bc936987-d58b-4e7c-870f-379bcae77727/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — A token's owner is the player who created it.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/48/coveted-falcon) · oracle_id `4c495e94-3194-47c7-8129-dd0a0f915daa` · printing: MKM #48 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Jewel
 
@@ -145,7 +197,12 @@
   > {T}: Add three mana of any one color.
   > Whenever one or more creatures an opponent controls attack you and aren't blocked, that player draws three cards and gains control of this artifact. Untap it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1261 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/196/coveted-jewel) · oracle_id `98492d7d-3b9e-4ae1-ac45-1b508d6d2670` · printing: MSC #196 (2026-06-26) · [rulings](https://api.scryfall.com/cards/06a7ad3b-87d4-47f0-9450-facac00dfe97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — A creature attacking a planeswalker you control won't cause Coveted Jewel's last ability to trigger.
+  - *2018-07-13* — Coveted Jewel's last ability resolves after blockers are chosen but before combat damage is dealt.
+  - *2018-07-13* — Coveted Jewel's last ability triggers after you declare blockers (or declare no blockers at all) if any attacking creatures are unblocked. It doesn't matter if some attacking creatures were blocked.
+  - *2018-07-13* — If more than one opponent attacks you at the same time, Coveted Jewel's last ability triggers for each of them. You choose which player ends up with Coveted Jewel, but each of them draws three cards and has a chance to activate its mana ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/196/coveted-jewel) · oracle_id `98492d7d-3b9e-4ae1-ac45-1b508d6d2670` · printing: MSC #196 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Peacock
 
@@ -157,7 +214,13 @@
   > Whenever this creature attacks, you may goad target creature defending player controls. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)
 - **Keywords:** Flying, Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19232 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/82/coveted-peacock) · oracle_id `e6ad5e92-c1ab-4c91-95ca-1af295e71b23` · printing: CMM #82 (2023-08-04) · [rulings](https://api.scryfall.com/cards/15935478-c2e1-4fb5-b6ba-0969ea5a0e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-30* — Attacking with a goaded creature doesn't cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2023-06-30* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
+  - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
+  - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/82/coveted-peacock) · oracle_id `e6ad5e92-c1ab-4c91-95ca-1af295e71b23` · printing: CMM #82 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coveted Prize
 
@@ -167,7 +230,18 @@
   > This spell costs {1} less to cast for each creature in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
   > Search your library for a card, put it into your hand, then shuffle. If you have a full party, you may cast a spell with mana value 4 or less from your hand without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6909 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/95/coveted-prize) · oracle_id `56204530-7ab5-4610-9570-fba2673725ad` · printing: ZNR #95 (2020-09-25) · [rulings](https://api.scryfall.com/cards/5afbc5d3-318f-4545-88d6-fc81e5466238/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2020-09-25* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2020-09-25* — If you have a full party and wish to cast a spell with Coveted Prize's effect, you do so as part of the resolution of Coveted Prize after searching for a card. You can't wait to cast it later in the turn. Timing permissions based on a card's type are ignored.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — Some cards refer to you having a "full party." This is true if the number of creatures in your party is four.
+  - *2020-09-25* — The card you search for may be the one you cast.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/95/coveted-prize) · oracle_id `56204530-7ab5-4610-9570-fba2673725ad` · printing: ZNR #95 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covetous Castaway // Ghostly Castigator
 
@@ -183,7 +257,15 @@
   > If Ghostly Castigator would be put into a graveyard from anywhere, exile it instead.
 - **Keywords:** Flying, Transform, Mill, Disturb
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22915 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/58/covetous-castaway-ghostly-castigator) · oracle_id `8f3e6554-eb8a-4096-81a3-2411186d9cb4` · printing: INR #58 (2025-01-24) · [rulings](https://api.scryfall.com/cards/4ff66f14-aee6-4ad2-be70-1c9bb39089b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-09-24* — "Disturb [cost]" means "You may cast this card transformed from your graveyard by paying [cost] rather than its mana cost."
+  - *2021-09-24* — A spell cast this way enters the battlefield with its back face up.
+  - *2021-09-24* — Disturb is found only on the front faces of some double-faced cards.
+  - *2021-09-24* — If you copy a permanent spell cast this way (perhaps with a card like Double Major), the copy becomes a token that's a copy of the card's back face, even though it isn't itself a double-faced card.
+  - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
+  - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
+  - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/58/covetous-castaway-ghostly-castigator) · oracle_id `8f3e6554-eb8a-4096-81a3-2411186d9cb4` · printing: INR #58 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covetous Dragon
 
@@ -197,7 +279,10 @@
   > *Gatha survived as long as he did by giving all Keld's predators exactly what they wanted.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28715 · Game Changer: no · Can be commander: No · Reserved List
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/80/covetous-dragon) · oracle_id `bf7710cb-70cb-42fb-b840-cc4f385daa7a` · printing: UDS #80 (1999-06-07) · [rulings](https://api.scryfall.com/cards/c5f37e36-c004-4b89-a668-5cd984c59019/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The ability only checks if you control no artifacts at the time it triggers. It does not check again on resolution. So gaining control of an artifact before then will not save the Dragon.
+  - *2004-10-04* — The ability will trigger if you don’t control an artifact, even for a brief moment during the resolution of another spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/80/covetous-dragon) · oracle_id `bf7710cb-70cb-42fb-b840-cc4f385daa7a` · printing: UDS #80 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covetous Elegy
 
@@ -209,7 +294,10 @@
   > *Wealthier than ever thanks to exorbitant interest on wartime loans, the Orzhov only grew hungrier for more.*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/29/covetous-elegy) · oracle_id `dd69ef80-d30c-4b15-aec8-4154dc20cb25` · printing: CLU #29 (2024-02-23) · [rulings](https://api.scryfall.com/cards/f8f1f5e8-c1bf-405f-b8e3-655d5558e18d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-02-02* — Players may choose fewer than two creatures even if they control two or more creatures.
+  - *2024-02-02* — Starting with the player whose turn it is, each player in turn order chooses up to two creatures they control, then all of the creatures not chosen by any player are sacrificed at the same time. Players get to know the choices made by players who chose before them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/29/covetous-elegy) · oracle_id `dd69ef80-d30c-4b15-aec8-4154dc20cb25` · printing: CLU #29 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Covetous Urge
 
@@ -218,4 +306,9 @@
 - **Oracle text:**
   > Target opponent reveals their hand. You choose a nonland card from that player's graveyard or hand and exile it. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17631 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/207/covetous-urge) · oracle_id `6f52008f-3365-4cf9-9cae-8e761d657902` · printing: ELD #207 (2019-10-04) · [rulings](https://api.scryfall.com/cards/f3b4871d-4d74-411b-88e0-9a9d386cafe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-10-04* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
+  - *2019-10-04* — Covetous Urge's effect doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+  - *2019-10-04* — If you cast an Adventure with Covetous Urge, it's you, not the card's owner, who may cast the creature later.
+  - *2019-10-04* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the spell or permanent you control from Covetous Urge's effect is exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/207/covetous-urge) · oracle_id `6f52008f-3365-4cf9-9cae-8e761d657902` · printing: ELD #207 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

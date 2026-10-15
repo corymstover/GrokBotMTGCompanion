@@ -25,7 +25,13 @@
   > You may cast Ally spells and artifact spells as though they had flash.
 - **Keywords:** Firebending
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10718 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tle/68/mai-and-zuko) · oracle_id `b86ba0aa-89f3-4924-b3c4-f7ca44468e9b` · printing: TLE #68 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4b50fe92-e596-4949-929b-54ae25a7992c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-10-02* — "Firebending N" is a keyword that represents the ability "Whenever this creature attacks, add N {R}. Until end of combat, you don't lose this mana as steps end."
+  - *2025-10-02* — Any other mana you add during combat will still be lost as normal when moving between steps of combat.
+  - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
+  - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
+  - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tle/68/mai-and-zuko) · oracle_id `b86ba0aa-89f3-4924-b3c4-f7ca44468e9b` · printing: TLE #68 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mai, Jaded Edge
 
@@ -39,7 +45,11 @@
   > *"Finally, something to do."*
 - **Keywords:** Prowess, Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13196 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/147/mai-jaded-edge) · oracle_id `b5029f21-e0d6-4f22-9afd-79452de26490` · printing: TLA #147 (2025-11-21) · [rulings](https://api.scryfall.com/cards/732e6bc9-0798-4c00-aea0-5ef4298b45f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-10-02* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-10-02* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/147/mai-jaded-edge) · oracle_id `b5029f21-e0d6-4f22-9afd-79452de26490` · printing: TLA #147 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Main Event Horizon
 
@@ -51,7 +61,11 @@
 - **Flavor text** (UNF printing):
   > *"Anna and Blaine said the ride was awesome. Yolanda and Zachary aren't back yet."*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32119 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/unf/19/main-event-horizon) · oracle_id `9af1c8b1-c60b-4110-b8ba-ee7e4c7d22d1` · printing: UNF #19 (2022-10-07) · [rulings](https://api.scryfall.com/cards/315c4a63-2561-4c52-908f-7d1c08e1d9a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-10-07* — Because choosing a half of the alphabet is an additional cost, players will know which creatures are fated to be destroyed while pondering responses.
+  - *2022-10-07* — Creatures in languages that don’t use an alphabet that includes the letters A through M or N through Z are safe from Main Event Horizon. They won’t be destroyed no matter which of the alphabet was chosen.
+  - *2022-10-07* — When determining what a name begins with, ignore all spaces and punctuation, including blank lines.
+- **Source flags:** [Scryfall](https://scryfall.com/card/unf/19/main-event-horizon) · oracle_id `9af1c8b1-c60b-4110-b8ba-ee7e4c7d22d1` · printing: UNF #19 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mairsil, the Pretender
 
@@ -62,7 +76,19 @@
   > When Mairsil enters, you may exile an artifact or creature card from your hand or graveyard and put a cage counter on it.
   > Mairsil has all activated abilities of all cards you own in exile with cage counters on them. You may activate each of those abilities only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18704 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/41/mairsil-the-pretender) · oracle_id `ed5fbae0-2dca-44a5-84dc-62674b3a92a6` · printing: C17 #41 (2017-08-25) · [rulings](https://api.scryfall.com/cards/87b71b08-668c-4b32-8243-8def1a9acf26/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2017-08-25* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have colons in their reminder text. Mairsil won't gain triggered abilities (which start with "when," "whenever," or "at").
+  - *2017-08-25* — If Mairsil gains an activated ability that's normally linked to a non-activated ability of the card it came from, the ability Mairsil has isn't linked to any ability. For example, if Mairsil exiles Prototype Portal, the activated ability creates no tokens at all; it doesn't create Prototype Portal tokens.
+  - *2017-08-25* — If Mairsil gains an activated ability that's normally linked to another activated ability of the card it came from, those two abilities Mairsil gains are linked for as long as Mairsil remains on the battlefield. For example, if Mairsil exiles Izzet Chemister, cards exiled with the first ability Mairsil gained from Izzet Chemister can be cast if you activate the second ability it gained that way. Izzet Chemister itself can't be cast this way, and if Mairsil leaves the battlefield before activating that second ability, the cards exiled with that first ability are lost forever.
+  - *2017-08-25* — If Mairsil has a crew ability, creatures can crew Mairsil. It'll become an artifact creature, but its power and toughness remain unchanged.
+  - *2017-08-25* — If Mairsil has an equip ability, activating it won't cause anything to happen. Mairsil doesn't become attached to a creature. They may remain friends.
+  - *2017-08-25* — If an activated ability of a card in exile with a cage counter on it references the card it's printed on by name, treat Mairsil's instance of that ability as though it referenced Mairsil by name instead. For instance, if Mairsil exiles Magus of the Mind, the cost to activate the ability includes sacrificing Mairsil, not sacrificing Magus of the Mind.
+  - *2017-08-25* — If another player gains control of Mairsil, it will have the abilities of only cards that player owns in exile with cage counters on them.
+  - *2017-08-25* — If multiple cards exiled with cage counters on them have the same ability, Mairsil will have multiple instances of that ability. Each may be activated once each turn.
+  - *2017-08-25* — If one of Mairsil's abilities doesn't resolve, most likely because its target became illegal before it resolved, it can't be activated again in the same turn.
+  - *2017-08-25* — If you have a creature enter the battlefield as a copy of Mairsil, its first ability triggers. You won't be able to activate any abilities before the "legend rule" applies, but the triggered ability will still let you exile another card with a cage counter regardless of which Mairsil you keep.
+  - *2017-08-25* — The exiled cards remain exiled with cage counters when Mairsil leaves the battlefield. If Mairsil returns to the battlefield, it will see all of those exiled cards with cage counters on them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/41/mairsil-the-pretender) · oracle_id `ed5fbae0-2dca-44a5-84dc-62674b3a92a6` · printing: C17 #41 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mai, Scornful Striker
 
@@ -76,6 +102,7 @@
   > *"You miscalculated. I love Zuko more than I fear you."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4916 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/109/mai-scornful-striker) · oracle_id `953a2bd3-5bca-41fc-8785-66b2d7fa381a` · printing: TLA #109 (2025-11-21) · [rulings](https://api.scryfall.com/cards/74dd4c0e-27b8-4c47-b7a6-a281413cd6b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maître Tree
@@ -91,4 +118,5 @@
   > • 3/3 green Beast
 - **Keywords:** Tempting offer
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG03a/ma%C3%AEtre-tree) · oracle_id `5a357a92-e6b0-40b3-a7a2-816b81de5a94` · printing: UNK #RG03a (2023-07-29) · [rulings](https://api.scryfall.com/cards/afbc9e33-679c-4a6f-8154-739602d59a50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

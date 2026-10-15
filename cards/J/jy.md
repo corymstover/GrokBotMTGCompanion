@@ -19,4 +19,8 @@
   > When Jyoti enters, create a 1/1 green Forest Dryad land creature token for each time you've cast your commander from the command zone this game. (They're affected by summoning sickness.)
   > At the beginning of each combat, land creatures you control get +X/+X until end of turn, where X is Jyoti's power.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10930 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/8/jyoti-moag-ancient) · oracle_id `67f0cef6-8ef4-4c39-b306-2b580036894e` · printing: M3C #8 (2024-06-14) · [rulings](https://api.scryfall.com/cards/9d2cb8d1-6aaa-487f-bf5a-89d657c0f37e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-06-07* — If you have multiple commanders, Jyoti's first ability will create a 1/1 green Forest Dryad land creature token for each time you've cast either of them. For example, if you've cast one commander once and one twice, you'll create three Forest Dryads.
+  - *2024-06-07* — If your commander was countered, that time you cast it still counts.
+  - *2024-06-07* — The value of X in Jyoti's last ability is calculated only once, as Jyoti's ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/8/jyoti-moag-ancient) · oracle_id `67f0cef6-8ef4-4c39-b306-2b580036894e` · printing: M3C #8 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

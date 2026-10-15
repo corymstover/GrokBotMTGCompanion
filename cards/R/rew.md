@@ -25,6 +25,7 @@
   > *"Everything is in place. Nothing can happen that isn't part of my plan."*
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/32/rewards-of-diversity) · oracle_id `064c5a14-c2f2-4b7a-8e0b-01b9995e8f89` · printing: INV #32 (2000-10-02) · [rulings](https://api.scryfall.com/cards/04116b38-8fb1-47c6-b68d-060d0fc4a60d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reward the Faithful
@@ -36,6 +37,7 @@
 - **Flavor text** (SCG printing):
   > *"When you have drunk your fill, pass the cup to others who thirst."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23301 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/22/reward-the-faithful) · oracle_id `7fb7c848-377c-4476-9b3f-d95d145137f1` · printing: SCG #22 (2003-05-26) · [rulings](https://api.scryfall.com/cards/df6e8844-3736-4fb1-bedb-6a6bfa6ccdc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reweave
@@ -47,7 +49,15 @@
   > Splice onto Arcane {2}{U}{U} (As you cast an Arcane spell, you may reveal this card from your hand and pay its splice cost. If you do, add this card's effects to that spell.)
 - **Keywords:** Splice
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17110 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/chk/82/reweave) · oracle_id `744d6daa-2f93-43e1-88c0-0d9d5f9d111b` · printing: CHK #82 (2004-10-01) · [rulings](https://api.scryfall.com/cards/4ff68016-80b4-4801-b796-5c5fdbc8faa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2005-04-01* — When Reweave resolves it uses the type(s) that the permanent had right before it was sacrificed.
+  - *2005-11-01* — The player reveals cards only if the targeted permanent gets sacrificed.
+  - *2008-04-01* — With the introduction of the kindred type it became possible for an instant or sorcery card to share a type with the sacrificed permanent (ie, a kindred instant card shares a type with a kindred enchantment card). Reweave has received errata so that the effect looks for a *permanent* card that shares a type with the sacrificed permanent. A permanent card is a card that could be put onto the battlefield, which is any card that isn't an instant or sorcery.
+  - *2013-06-07* — A card with a splice ability can't be spliced onto itself because the spell is on the stack (and not in your hand) when you reveal the cards you want to splice onto it.
+  - *2013-06-07* — If all of the spell's targets are illegal when the spell tries to resolve, it won't resolve and none of its effects will happen.
+  - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word "target" on the resulting spell.
+  - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/chk/82/reweave) · oracle_id `744d6daa-2f93-43e1-88c0-0d9d5f9d111b` · printing: CHK #82 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rewind
 
@@ -58,7 +68,11 @@
 - **Flavor text** (M21 printing):
   > *"The best denials are simply that: a beginning and end unchanged, a dream with no memory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1016 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/63/rewind) · oracle_id `bb27bfdf-fe8d-45bd-ad62-8118dce06eda` · printing: M21 #63 (2020-07-03) · [rulings](https://api.scryfall.com/cards/b832abcc-9ffd-47bf-827a-01b303c610ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-06-23* — If the spell is an illegal target when Rewind tries to resolve, perhaps because it was countered by another spell or ability, Rewind won't resolve and none of its effects will happen. You won't untap any lands.
+  - *2020-06-23* — Rewind targets only a spell. It doesn't target any lands. The lands are chosen as Rewind resolves.
+  - *2020-06-23* — You can choose up to four lands, no matter who controls any of them. Those lands untap once. You can't choose one land and have it untap four times, for example.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/63/rewind) · oracle_id `bb27bfdf-fe8d-45bd-ad62-8118dce06eda` · printing: M21 #63 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rewrite History
 
@@ -68,6 +82,7 @@
   > Whenever one or more creatures you control become tapped, draw a card, then discard a card and put a plan counter on this enchantment.
   > When the fourth plan counter is put on this enchantment, sacrifice it. When you do, return up to two target instant and/or sorcery cards from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19280 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/71/rewrite-history) · oracle_id `f91c860e-3feb-4a5a-b7ef-4e7d38d61c75` · printing: MSH #71 (2026-06-26) · [rulings](https://api.scryfall.com/cards/91fdf444-3f41-4b8b-b9f5-f3ae3d903649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rewrite Regrets
@@ -79,4 +94,10 @@
   > Empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card.")
 - **Keywords:** Surveil, Empower Jace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18169 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/62/rewrite-regrets) · oracle_id `42565432-3a17-4274-87fc-016ab900e313` · printing: FRA #62 (2026-10-02) · [rulings](https://api.scryfall.com/cards/453cfde7-c460-4b55-9472-b714e16f24bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If a card in your graveyard has an {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/62/rewrite-regrets) · oracle_id `42565432-3a17-4274-87fc-016ab900e313` · printing: FRA #62 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

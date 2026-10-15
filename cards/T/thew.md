@@ -55,6 +55,7 @@
   > *Prize Card for the Unknown events at MagicCon Atlanta. September 26-28, 2025*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/ML01/the-waffle-restaurant) · oracle_id `a9b72adf-61a4-41ea-85b3-b92f243ca545` · printing: UNK #ML01 (2025-09-26) · [rulings](https://api.scryfall.com/cards/628effd3-d7f9-4c79-bb4c-07cda183ef6d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Walls of Ba Sing Se
@@ -70,7 +71,11 @@
   > *—General Sung*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1880 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/261/the-walls-of-ba-sing-se) · oracle_id `af7d7da5-aff5-48e1-901a-f81257a85f71` · printing: TLA #261 (2025-11-21) · [rulings](https://api.scryfall.com/cards/24a14ac5-0b7e-4441-9963-782a7cda3f4a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
+  - *2025-10-02* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
+  - *2025-10-02* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if The Walls of Ba Sing Se leave the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/261/the-walls-of-ba-sing-se) · oracle_id `af7d7da5-aff5-48e1-901a-f81257a85f71` · printing: TLA #261 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wanderer
 
@@ -81,7 +86,9 @@
   > Prevent all noncombat damage that would be dealt to you and other permanents you control.
   > −2: Exile target creature with power 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/843/the-wanderer) · oracle_id `4c2196e5-6ed7-4cd2-b8e7-f01aff236569` · printing: CMM #843 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c6ec3686-cecd-4dee-8a68-c3e4baec25ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-05-03* — If The Wanderer would be dealt lethal damage at the same time as you and/or other permanents you control would be dealt noncombat damage, the damage that would be dealt to you and your other permanents is prevented.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/843/the-wanderer) · oracle_id `4c2196e5-6ed7-4cd2-b8e7-f01aff236569` · printing: CMM #843 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Emperor
 
@@ -96,7 +103,9 @@
   > −2: Exile target tapped creature. You gain 2 life.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/42/the-wandering-emperor) · oracle_id `0c7f18d5-36cb-4bc6-a358-443b97666215` · printing: NEO #42 (2022-02-18) · [rulings](https://api.scryfall.com/cards/fab2d8a9-ab4c-4225-a570-22636293c17d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — You may still only activate one of The Wandering Emperor's loyalty abilities on the turn she entered the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/42/the-wandering-emperor) · oracle_id `0c7f18d5-36cb-4bc6-a358-443b97666215` · printing: NEO #42 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Minstrel
 
@@ -108,7 +117,12 @@
   > The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.
   > {3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5918 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/249/the-wandering-minstrel) · oracle_id `e6e6e3d2-f2fb-46a1-8798-13a2f2efe8cc` · printing: FIN #249 (2025-06-13) · [rulings](https://api.scryfall.com/cards/77bc419d-ff69-4e7c-afe6-faca383a5ed7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — If The Wandering Minstrel would enter the battlefield at the same time a land you control would enter the battlefield tapped, that land still enters the battlefield tapped.
+  - *2025-06-06* — If a land has an ability that says it enters the battlefield tapped, you choose the order in which that ability's effect and The Wandering Minstrel's effect apply. This means you can choose to have the land enter tapped or untapped. If a land you control is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if you control The Wandering Minstrel.
+  - *2025-06-06* — The Wandering Minstrel's second ability checks at the moment it would trigger to see if you control five or more Towns. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control five or more Towns at that time, the ability won't resolve and none of its effects will happen.
+  - *2025-06-06* — The value of X is calculated only once, as The Wandering Minstrel's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/249/the-wandering-minstrel) · oracle_id `e6e6e3d2-f2fb-46a1-8798-13a2f2efe8cc` · printing: FIN #249 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wandering Rescuer
 
@@ -122,7 +136,9 @@
   > Other tapped creatures you control have hexproof.
 - **Keywords:** Double strike, Flash, Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4785 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/41/the-wandering-rescuer) · oracle_id `b8ef65df-f8e7-44e3-9864-9c127232a2b6` · printing: DSK #41 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e1ccca86-df8b-4fd9-8fdf-0a5a7b14cdee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-09-20* — You can't tap more creatures to cast this spell using convoke than are required to pay its total cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/41/the-wandering-rescuer) · oracle_id `b8ef65df-f8e7-44e3-9864-9c127232a2b6` · printing: DSK #41 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War Doctor
 
@@ -133,7 +149,13 @@
   > Whenever one or more other permanents phase out and whenever one or more other cards are put into exile from anywhere, put a time counter on The War Doctor.
   > Whenever The War Doctor attacks, it deals damage equal to the number of time counters on it to any target. If a creature dealt damage this way would die this turn, exile it instead.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8044 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/167/the-war-doctor) · oracle_id `d97553bf-6763-4a7b-8d82-1b438a22aa62` · printing: WHO #167 (2023-10-13) · [rulings](https://api.scryfall.com/cards/7a51472c-b61f-4d31-8753-a9ec90d12889/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-10-13* — If The War Doctor phases out at the same time as any other permanents, its first ability won't trigger.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You choose the target of the second ability as it attacks. The number of time counters is checked at the time the ability resolves. If The War Doctor has left the battlefield by that time, use the number of time counters it had on it the last time it was on the battlefield to determine how much damage it deals to that target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/167/the-war-doctor) · oracle_id `d97553bf-6763-4a7b-8d82-1b438a22aa62` · printing: WHO #167 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War Games
 
@@ -146,6 +168,7 @@
   > IV — You may exile a nontoken creature you control. When you do, exile all Warriors.
 - **Keywords:** Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13825 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/30/the-war-games) · oracle_id `d7cfe3a3-e8e6-446d-a855-46c845f657fa` · printing: WHO #30 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0662fee0-a6bc-4a1c-8a0f-6e7efc6b8a21/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The War in Heaven
@@ -159,7 +182,9 @@
   > III — Choose up to three target creature cards with total mana value 8 or less in your graveyard. Return each of them to the battlefield with a necrodermis counter on it. They're artifacts in addition to their other types.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11104 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/69/the-war-in-heaven) · oracle_id `5924cbb0-19b5-449c-a7c5-722e744a54f8` · printing: 40K #69 (2022-10-07) · [rulings](https://api.scryfall.com/cards/cd556cd1-e33a-433d-ac18-4a4fd195c3ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — If a card in your graveyard has an {X} in its cost, X is zero.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/69/the-war-in-heaven) · oracle_id `5924cbb0-19b5-449c-a7c5-722e744a54f8` · printing: 40K #69 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Warmonger
 
@@ -168,6 +193,7 @@
 - **Oracle text:**
   > Exile The Warmonger: Creatures you control get +2/+0 and gain haste until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4d/the-warmonger) · oracle_id `11f1f549-e4f7-422d-b0a6-c7c624c2f594` · printing: THP2 #4d (2014-02-07) · [rulings](https://api.scryfall.com/cards/f02b5e79-5eea-4cbe-b087-241cf27f0580/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Warring Triad
@@ -181,7 +207,17 @@
   > {T}, Mill a card: Target player adds one mana of any color. (Activate only as an instant.)
 - **Keywords:** Flying, Haste, Trample, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3173 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/99/the-warring-triad) · oracle_id `df0b5995-117b-4ba8-964d-ea3c592621ef` · printing: FIC #99 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99fd1cd5-4740-4a0f-b773-3d3b66861d77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-06-06* — As The Warring Triad enters the battlefield, the number of cards in your graveyard will determine whether any replacement effects that affect creatures entering the battlefield apply to The Warring Triad.
+  - *2025-06-06* — Counters put on The Warring Triad remain on it while it's not a creature, even if they have no effect.
+  - *2025-06-06* — If The Warring Triad is attacking or blocking and it stops being a creature, it will be removed from combat. It won't rejoin combat if it resumes being a creature later during that combat.
+  - *2025-06-06* — If The Warring Triad stops being a creature, it loses the type creature and the creature type God. It continues to be a legendary artifact.
+  - *2025-06-06* — If an effect causes The Warring Triad to lose all abilities, its ability that causes it to stop being a creature still applies if appropriate.
+  - *2025-06-06* — The Warring Triad's abilities function while it's on the battlefield, regardless of whether it's a creature.
+  - *2025-06-06* — The Warring Triad's last ability isn't a mana ability. It uses the stack and can be responded to.
+  - *2025-06-06* — The type-changing ability that can make The Warring Triad not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of how many cards are in your graveyard. It's always a creature spell while it's on the stack.
+  - *2025-06-06* — When The Warring Triad enters the battlefield, the number of cards in your graveyard will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/99/the-warring-triad) · oracle_id `df0b5995-117b-4ba8-964d-ea3c592621ef` · printing: FIC #99 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Warrior
 
@@ -190,6 +226,7 @@
 - **Oracle text:**
   > {T}: Target creature you control gains haste until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp1/1d/the-warrior) · oracle_id `7a6b3559-9a10-4f95-b912-e890a069dc96` · printing: THP1 #1d (2013-09-27) · [rulings](https://api.scryfall.com/cards/dd60768a-c47f-4af5-bb33-c17777c7dd66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wasp, Janet Van Dyne
@@ -204,6 +241,7 @@
   > *"Careful, wasps are known to sting."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27392 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/844/the-wasp-janet-van-dyne) · oracle_id `8d35c7c8-1342-40b7-82ec-2f7973ee8af8` · printing: MSC #844 (2026-06-26) · [rulings](https://api.scryfall.com/cards/cd009478-6df9-4ebc-b0a4-0c50da82ad11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wasp, Winsome Avenger
@@ -220,6 +258,7 @@
   > *"No job too small. No villain too big."*
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14412 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/39/the-wasp-winsome-avenger) · oracle_id `4b706959-ea38-4808-870a-7c35d83f7ab2` · printing: MSC #39 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ce5fb436-fcc6-426f-a33b-a8ba904df0ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Watcher in the Water
@@ -232,7 +271,9 @@
   > Whenever you draw a card during an opponent's turn, create a 1/1 blue Tentacle creature token.
   > Whenever a Tentacle you control dies, untap up to one target Kraken and put a stun counter on up to one target nonland permanent.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5666 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/75/the-watcher-in-the-water) · oracle_id `a9ddb3dc-f289-46a1-af17-3a8523a26b0d` · printing: LTR #75 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1cb8e8bb-75a0-4b5e-b4b3-5d8f3795032d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — For the last ability, the target Kraken can (and probably will) be The Watcher in the Water. If it is, and if it has at least one stun counter on it, you'll remove a stun counter from it instead of untapping it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/75/the-watcher-in-the-water) · oracle_id `a9ddb3dc-f289-46a1-af17-3a8523a26b0d` · printing: LTR #75 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Water Crystal
 
@@ -247,7 +288,13 @@
   > *—Aria Benett*
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/85/the-water-crystal) · oracle_id `f8d2a94f-7be1-4b17-8556-398dde531360` · printing: FIN #85 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e0af8436-797b-4e1f-b21a-d8e93701c3c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If an opponent is instructed to put a card into their graveyard without using the word "mill," The Water Crystal's second ability doesn't apply.
+  - *2025-06-06* — In the rare case where you control two of The Water Crystal, each opponent mills eight more cards than originally instructed. If you control three, your opponents mill twelve more, and so on.
+  - *2025-06-06* — Some older cards have received errata to instruct a player to mill cards rather than to put the top cards of their library into their graveyard. Use the Oracle™ card reference at Gatherer.Wizards.com to determine whether a specific card has received such errata. As a rule of thumb, if an effect instructs a player to look at or reveal a card before it's put into its owner's graveyard, it's unlikely to have received errata.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of blue spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Water Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/85/the-water-crystal) · oracle_id `f8d2a94f-7be1-4b17-8556-398dde531360` · printing: FIN #85 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Water Maro
 
@@ -260,6 +307,7 @@
 - **Flavor text** (UNK printing):
   > *DESTROY*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ01b/the-water-maro) · oracle_id `4efc68ba-6366-4e3c-8539-4cde0cc45e82` · printing: UNK #RZ01b (2024-02-24) · [rulings](https://api.scryfall.com/cards/8f104d73-793d-49e8-bf1d-82a0aa1bd1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weatherseed Treaty
@@ -273,7 +321,11 @@
   > III — Domain — Target creature you control gets +X/+X and gains trample until end of turn, where X is the number of basic land types among lands you control.
 - **Keywords:** Read Ahead, Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/188/the-weatherseed-treaty) · oracle_id `7d723a6f-854f-43df-9401-a4eb0c0f639f` · printing: DMU #188 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e2a54461-1f75-4304-b6d7-635171419456/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don’t contribute to domain abilities.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/188/the-weatherseed-treaty) · oracle_id `7d723a6f-854f-43df-9401-a4eb0c0f639f` · printing: DMU #188 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weaver King
 
@@ -285,6 +337,7 @@
   > Whenever The Weaver King deals combat damage to a player, they mill that many cards. Then for each opponent, put a creature card from that player's graveyard that was put there from their library this turn onto the battlefield under your control.
 - **Keywords:** Shadow, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #21848 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/56/the-weaver-king) · oracle_id `ed1a6d06-436b-45c0-979c-7802246eeb9e` · printing: MBC #56 (2026-10-19) · [rulings](https://api.scryfall.com/cards/34390921-6fe4-463a-af1c-2aa5f0bfe82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wedding of River Song
@@ -296,7 +349,24 @@
   > Time travel. (For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter.)
 - **Keywords:** Time Travel
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/31/the-wedding-of-river-song) · oracle_id `1ff91cc1-2233-4ceb-91ba-6a49c7147f32` · printing: WHO #31 (2023-10-13) · [rulings](https://api.scryfall.com/cards/adc4ce53-7805-4448-bc20-f5bf85fdefa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2023-10-13* — If you exile a card with a mana value of 0, it will gain suspend, but no time counters will be placed on it. It can't be cast unless a time counter is later placed on it (and then, subsequently removed), and it isn't considered to be a "suspended card."
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/31/the-wedding-of-river-song) · oracle_id `1ff91cc1-2233-4ceb-91ba-6a49c7147f32` · printing: WHO #31 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Weekly Princess
 
@@ -308,6 +378,7 @@
   > Whenever night becomes day, put a +1/+1 counter on The Weekly Princess. Then if she has seven or more +1/+1 counters on her, she deals damage equal to her power to each opponent.
   > When The Weekly Princess leaves the battlefield, it stops being day or night. (Stop tracking it. Trust us, it's better this way.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03e/the-weekly-princess) · oracle_id `3088d1ba-a478-4657-8675-195fc4f7d23c` · printing: UNK #RZ03e (2024-10-25) · [rulings](https://api.scryfall.com/cards/293c4bc6-7b58-4e2c-b7d3-5ce0900fdfb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wheeling Runner
@@ -320,6 +391,7 @@
   > Whenever The Wheeling Runner deals combat damage to a player, you may discard your hand. If you do, choose four Vintage-legal cards at random. Add those cards to your hand. (The "Random Card" feature on a search site may help.)
   > Ready to run (You can have two commanders if both have ready to run.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04d/the-wheeling-runner) · oracle_id `d4199531-b8b2-4c3d-b0a2-534f38d7f3bb` · printing: UNK #RR04d (2024-10-25) · [rulings](https://api.scryfall.com/cards/5f9b509c-009e-4f5f-84b4-d139cf6a655d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whiteboarder
@@ -332,6 +404,7 @@
   > Whenever you cast a creature spell, note its power, toughness, or one of its abilities. (Perhaps write on something you can reuse infinitely.)
   > {6}, {T}: Create a white-bordered blue Elemental creature token. It has noted power and toughness and up to two noted abilities. Erase whatever text you use this way.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RU01a/the-whiteboarder) · oracle_id `ad0f1851-695e-44b0-ad91-9ed6489713f6` · printing: UNK #RU01a (2026-05-01) · [rulings](https://api.scryfall.com/cards/3ab96f42-52cd-4487-bfdd-959b14a9762b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Whizzer, Classic Speedster
@@ -345,6 +418,7 @@
   > *In the Golden Age, he fought alongside the mightiest heroes in the All-Winners Squad. He's slowed down since then but, as is the case with many heroes, retirement didn't quite take.*
 - **Keywords:** First strike, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30105 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/710/the-whizzer-classic-speedster) · oracle_id `aa86bce1-9cde-44d8-9455-24502221f31d` · printing: MSC #710 (2026-06-26) · [rulings](https://api.scryfall.com/cards/77134e93-4c03-476b-ab60-d8fb48f7a74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wiley Speedster
@@ -359,6 +433,7 @@
   > • Create a Treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR03/the-wiley-speedster) · oracle_id `1a0ff3b5-cd25-4803-a7ee-614348b4e0aa` · printing: UNK #RR03 (2024-10-25) · [rulings](https://api.scryfall.com/cards/7ba815c0-a1c7-42c2-b1f8-a999f68704c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wind Crystal
@@ -372,7 +447,13 @@
 - **Flavor text** (FIN printing):
   > *"I give unto you the last of my light, and with it, the last hope of a fading world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #900 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/43/the-wind-crystal) · oracle_id `240f0835-36af-4ad8-9336-d6d3d816d293` · printing: FIN #43 (2025-06-13) · [rulings](https://api.scryfall.com/cards/19bd0885-baaa-40f2-9c59-b1ea53807540/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If an effect would set your life total to a specific number that's higher than your current life total, that effect causes you to gain life equal to the difference. The Wind Crystal will then double the amount of life that effect would cause you to gain. For example, if you have 3 life and an effect says that your life total "becomes 10," you would gain 7 life which The Wind Crystal doubles to 14, so your life total will actually become 17.
+  - *2025-06-06* — In a Two-Headed Giant game, life gained by your teammate won't cause The Wind Crystal's second ability to apply, even though it will cause your team's life total to increase.
+  - *2025-06-06* — In the rare case where you control two of The Wind Crystal, life you gain is multiplied by four. Three of The Wind Crystal means life you gain is multiplied by eight, and so on.
+  - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of white spells you cast.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of The Wind Crystal's first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/43/the-wind-crystal) · oracle_id `240f0835-36af-4ad8-9336-d6d3d816d293` · printing: FIN #43 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wise Mothman
 
@@ -385,7 +466,17 @@
   > Whenever one or more nonland cards are milled, put a +1/+1 counter on each of up to X target creatures, where X is the number of nonland cards milled this way.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3734 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sld/2455/the-wise-mothman) · oracle_id `7656f93b-336f-49cb-b8fe-c2b5c014258f` · printing: SLD #2455 (2026-01-26) · [rulings](https://api.scryfall.com/cards/cfb80c75-4b1b-4f25-923a-933855e7345c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2024-03-08* — Any effects (such as proliferate) that interact with counters a player gets, has, or loses can interact with rad counters.
+  - *2024-03-08* — If a player has fewer cards remaining in their library than the number of rad counters they have when the triggered ability resolves, they’ll mill as many cards as they can.
+  - *2024-03-08* — If more than one player is instructed to mill at the same time (by the activated ability of Raul, Trouble Shooter, for example), as long as at least one nonland card is milled, The Wise Mothman’s last ability will trigger just once.
+  - *2024-03-08* — In a game using the shared team turns option, such as an Archenemy or Two-Headed Giant game, the inherent triggered ability associated with rad counters triggers once for each player on the active team that has rad counters. Each instance of that ability is controlled by one of those players.
+  - *2024-03-08* — Keep track of how many rad counters each player has. Potential ways to track this include writing them down on paper or using dice, but any method that is clear and mutually agreeable is fine.
+  - *2024-03-08* — Rad counters are a kind of counter that a player may have. They’re not associated with any specific permanents.
+  - *2024-03-08* — Rad counters don’t go away as steps, phases, or turns end. They only go away when an effect instructs a player to remove rad counters from themselves.
+  - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
+  - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
+- **Source flags:** [Scryfall](https://scryfall.com/card/sld/2455/the-wise-mothman) · oracle_id `7656f93b-336f-49cb-b8fe-c2b5c014258f` · printing: SLD #2455 (2026-01-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wise Sable
 
@@ -396,6 +487,7 @@
   > Judge Call! — When The Wise Sable enters the battlefield, choose one of the following six cards at random: Blood Moon; Enraging Licid; Humility; Life and Limb; Opalescence; Yavimaya, Cradle of Growth. Create a token that's a copy of the chosen card. (One easy way to determine is to roll a D6.)
 - **Keywords:** Judge Call!
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ06c/the-wise-sable) · oracle_id `c0d27f3e-90a4-47f5-bace-9e91d7a05022` · printing: UNK #RZ06c (2024-06-29) · [rulings](https://api.scryfall.com/cards/8953a06a-3aff-4920-a131-5b9e2d4393f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Witch's Vanity
@@ -409,7 +501,19 @@
   > III — Create a Wicked Role token attached to target creature you control.
 - **Keywords:** Role token, Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16314 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/119/the-witchs-vanity) · oracle_id `ad2793f3-a36f-4a09-a38f-eb98ce0a2b79` · printing: WOE #119 (2023-09-08) · [rulings](https://api.scryfall.com/cards/47ca4926-b5ac-405a-8b58-f8db6df400ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/119/the-witchs-vanity) · oracle_id `ad2793f3-a36f-4a09-a38f-eb98ce0a2b79` · printing: WOE #119 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wizardly Barge
 
@@ -422,6 +526,7 @@
   > Crew 1
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ03r/the-wizardly-barge) · oracle_id `e110cb22-e984-4975-bba0-3882f7e32850` · printing: UNK #RZ03r (2026-05-01) · [rulings](https://api.scryfall.com/cards/7150c1d7-f4f9-4063-bd3d-563f0cdcd21c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wondrous Wasp
@@ -437,6 +542,7 @@
   > *"Don't overlook the little things."*
 - **Keywords:** Flying, Wasp's Sting, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12762 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/84/the-wondrous-wasp) · oracle_id `5ad8963b-8091-4787-9147-20a1fe7bf0fb` · printing: MSH #84 (2026-06-26) · [rulings](https://api.scryfall.com/cards/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The World Spell
@@ -449,7 +555,9 @@
   > III — Put up to two non-Saga permanent cards from your hand onto the battlefield.
 - **Keywords:** Read Ahead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10424 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/189/the-world-spell) · oracle_id `f5186d3f-52b2-43ef-be11-d183ab765663` · printing: DMU #189 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f3a9112a-6a1d-4d89-9866-189b55cd326d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/189/the-world-spell) · oracle_id `f5186d3f-52b2-43ef-be11-d183ab765663` · printing: DMU #189 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The World Tree
 
@@ -461,7 +569,9 @@
   > As long as you control six or more lands, lands you control have "{T}: Add one mana of any color."
   > {W}{W}{U}{U}{B}{B}{R}{R}{G}{G}, {T}, Sacrifice this land: Search your library for any number of God cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #818 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a70cb6d9-3955-4064-917b-11dec26440c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-02-05* — The World Tree’s third ability doesn’t cause lands you control to lose any of their abilities. It also doesn’t cause lands you control to gain or lose any land types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wretched
 
@@ -471,4 +581,12 @@
 - **Oracle text:**
   > At end of combat, gain control of all creatures blocking this creature for as long as you control this creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28130 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me3/78/the-wretched) · oracle_id `27af77e5-6680-43d3-9202-40be9b5d14a0` · printing: ME3 #78 (2009-09-07) · [rulings](https://api.scryfall.com/cards/edf30a58-f77c-4887-a0b2-9d939243d86e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2009-05-01* — Any blocking creatures that regenerated during combat will have been removed from combat. Since such creatures are no longer in combat, they cannot be blocking The Wretched, which means you won’t be able to gain control of them.
+  - *2009-05-01* — If The Wretched itself regenerated during combat, then it will have been removed from combat. Since it is no longer in combat, there cannot be any creatures blocking it, which means you won’t be able to gain control of any creatures.
+  - *2009-05-01* — The ability grants you control of all creatures that are blocking it as the ability resolves. This will include any creatures that were put onto the battlefield blocking it.
+  - *2009-10-01* — If The Wretched leaves the battlefield, you no longer control it, so the duration of its control-change effect ends.
+  - *2009-10-01* — If you lose control of The Wretched before its ability resolves, you won’t gain control of the creatures blocking it at all.
+  - *2009-10-01* — Once the ability resolves, it doesn’t care whether the permanents you gained control of remain creatures, only that they remain on the battlefield.
+  - *2009-10-01* — The Wretched’s ability triggers only if it’s still on the battlefield when the end of combat step begins (after the combat damage step). For example, if it’s blocked by a 7/7 creature and is destroyed, its ability won’t trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me3/78/the-wretched) · oracle_id `27af77e5-6680-43d3-9202-40be9b5d14a0` · printing: ME3 #78 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

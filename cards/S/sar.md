@@ -57,7 +57,9 @@
   > Whenever Saradoc or another nontoken creature you control with power 2 or less enters, create a 1/1 white Halfling creature token.
   > Tap two other untapped Halflings you control: Saradoc gets +2/+0 and gains lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9593 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/282/saradoc-master-of-buckland) · oracle_id `3c7f7a67-6a71-4f40-8554-2e724e6916a6` · printing: LTR #282 (2023-06-23) · [rulings](https://api.scryfall.com/cards/a65a1fb5-cc2c-4556-b109-05c3d966ded9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-06-16* — If Saradoc, Master of Buckland's power is greater than 2 as it enters the battlefield, its first ability will still trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/282/saradoc-master-of-buckland) · oracle_id `3c7f7a67-6a71-4f40-8554-2e724e6916a6` · printing: LTR #282 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarah Jane Smith
 
@@ -69,7 +71,15 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Investigate, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9530 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/6/sarah-jane-smith) · oracle_id `da268892-b190-4eee-9a2b-b0b9bb763033` · printing: WHO #6 (2023-10-13) · [rulings](https://api.scryfall.com/cards/1ba76f68-e647-4786-903c-92dbd3cef05d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/6/sarah-jane-smith) · oracle_id `da268892-b190-4eee-9a2b-b0b9bb763033` · printing: WHO #6 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarah's Wings
 
@@ -78,7 +88,12 @@
 - **Oracle text:**
   > Target creature or player gains flying until end of turn. (Players with flying can't be dealt damage by creatures without flying.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/11/sarahs-wings) · oracle_id `b87f22f5-bb31-4cb1-8cfd-95ad32fda892` · printing: CMB2 #11 (2021-08-20) · [rulings](https://api.scryfall.com/cards/0fbda632-3b01-4bf4-9170-f10faa12a0ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2019-11-12* — Abilities of creatures without flying can still target a player with flying. Any parts of that ability that don’t deal damage will happen as normal.
+  - *2019-11-12* — An instance of flying on a player creates a prevention effect.
+  - *2019-11-12* — Players with flying can still be dealt damage by noncreature permanents without flying.
+  - *2019-11-12* — Sarah’s Wings does not enable user to fly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/11/sarahs-wings) · oracle_id `b87f22f5-bb31-4cb1-8cfd-95ad32fda892` · printing: CMB2 #11 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarcatog
 
@@ -89,6 +104,7 @@
   > Exile two cards from your graveyard: This creature gets +1/+1 until end of turn.
   > Sacrifice an artifact: This creature gets +1/+1 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21212 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/293/sarcatog) · oracle_id `e5afc145-1fc3-4d87-b175-0dcd9a81ae7c` · printing: ODY #293 (2001-10-01) · [rulings](https://api.scryfall.com/cards/760a329c-e815-49d3-8df1-d052ce19b0c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarcomancy
@@ -99,6 +115,7 @@
   > When this enchantment enters, create a 2/2 black Zombie creature token.
   > At the beginning of your upkeep, if there are no Zombies on the battlefield, this enchantment deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27587 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/115/sarcomancy) · oracle_id `bd1e93da-7524-4bdd-9738-accd76bda7f7` · printing: TPR #115 (2015-05-06) · [rulings](https://api.scryfall.com/cards/5e26f693-4e62-4925-923f-f46376a8a179/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarcomite Myr
@@ -113,7 +130,9 @@
   > *"A horrible sight, yes, but the sounds . . . Its twanging tendons and grinding gears are almost musical."*
   > *—Brudiclad, Telchor engineer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17443 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/84/sarcomite-myr) · oracle_id `e78fd8f6-eca9-4107-aee7-a65689cee2f4` · printing: TSR #84 (2021-03-19) · [rulings](https://api.scryfall.com/cards/8636ba4f-07ef-4327-8e4a-6c2d8f90b264/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-05-01* — Sarcomite Myr is an artifact creature, just like Ornithopter. The only difference between this and any other artifact creature is that Sarcomite Myr is blue since it has blue mana in its mana cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/84/sarcomite-myr) · oracle_id `e78fd8f6-eca9-4107-aee7-a65689cee2f4` · printing: TSR #84 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sardian Avenger
 
@@ -126,6 +145,7 @@
   > Whenever an artifact an opponent controls is put into a graveyard from the battlefield, this creature deals 1 damage to that player.
 - **Keywords:** First strike, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7980 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/23/sardian-avenger) · oracle_id `6db90f86-205a-4e0b-944b-74742bc4e59d` · printing: BRC #23 (2022-11-18) · [rulings](https://api.scryfall.com/cards/593b4a4f-5644-44be-9bfe-752732ffe59e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sardian Cliffstomper
@@ -138,6 +158,7 @@
 - **Flavor text** (BRO printing):
   > *When Urza betrayed the Sardian dwarves, they called upon the might of their neighbors for aid.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15446 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/151/sardian-cliffstomper) · oracle_id `20f3bc44-c7fa-4d5a-adb9-2dd1d2d66ffe` · printing: BRO #151 (2022-11-18) · [rulings](https://api.scryfall.com/cards/c1c42d56-5b0e-4624-8831-77280f8d56cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarevok, Deathbringer
@@ -150,7 +171,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14454 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/144/sarevok-deathbringer) · oracle_id `4e215ede-e4ac-482a-a2e1-cacb20affa70` · printing: CLB #144 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4009d5ab-945d-43c3-9077-f10f96249fc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders’ combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/144/sarevok-deathbringer) · oracle_id `4e215ede-e4ac-482a-a2e1-cacb20affa70` · printing: CLB #144 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarevok's Tome
 
@@ -161,7 +193,18 @@
   > {T}: Add {C}. If you have the initiative, add {C}{C} instead.
   > {3}, {T}: Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost. Activate only if you've completed a dungeon.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5988 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/685/sarevoks-tome) · oracle_id `6ec54d84-7026-45a3-a7d7-37cd5c9a8463` · printing: CLB #685 (2022-06-10) · [rulings](https://api.scryfall.com/cards/5a470690-a05d-4311-963c-50cbf779846d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — A player who currently has the initiative may take the initiative again. This causes that player to venture into Undercity again, but does not cause them to have multiple initiative designations.
+  - *2022-06-10* — If the player with the initiative leaves the game, the active player takes the initiative at the same time that player leaves the game. If the active player is leaving the game or if there is no active player, the next player in turn order takes the initiative.
+  - *2022-06-10* — If you aren't in a dungeon when instructed to venture into Undercity, you will put Undercity into the command zone and move your venture marker to Secret Entrance (the first room).
+  - *2022-06-10* — If you're already in a dungeon when instructed to venture into Undercity, you move to the next room of that dungeon. If you are already in the last room, you will complete that dungeon and start Undercity. This is true whether you're already in Undercity or any other dungeon.
+  - *2022-06-10* — In a Two-Headed Giant game, if both players on a team deal combat damage to the player that has the initiative at the same time, the player with the initiative will choose the order of the triggered abilities. Then, as those abilities resolve, one team member takes the initiative (and ventures into Undercity) and then the other team member does the same. The last player to take the initiative keeps it until the initiative changes again.
+  - *2022-06-10* — Only one player can have the initiative at a time. As one player takes the initiative, any other player that had the initiative ceases to have it.
+  - *2022-06-10* — Similarly, when instructed to venture into Undercity, you can't start a dungeon that isn't Undercity.
+  - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to "have the initiative." The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
+  - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
+  - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren't in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can't start Undercity.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/685/sarevoks-tome) · oracle_id `6ec54d84-7026-45a3-a7d7-37cd5c9a8463` · printing: CLB #685 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarinth Greatwurm
 
@@ -175,7 +218,12 @@
   > *It felt the rumblings of war and uncoiled itself from the depths of the world.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12629 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/220/sarinth-greatwurm) · oracle_id `5b5b9390-bb3a-4f71-809a-cfe2a6566b59` · printing: BRO #220 (2022-11-18) · [rulings](https://api.scryfall.com/cards/eaee6fcb-23de-4347-84b6-1e9849a537fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
+  - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
+  - *2022-10-14* — Sarinth Greatwurm's second ability triggers whenever a land enters the battlefield under any player's control, not just under your control.
+  - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/220/sarinth-greatwurm) · oracle_id `5b5b9390-bb3a-4f71-809a-cfe2a6566b59` · printing: BRO #220 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarinth Steelseeker
 
@@ -187,7 +235,9 @@
 - **Flavor text** (BRO printing):
   > *"This metal junk is ugly, but it's got its uses."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/189/sarinth-steelseeker) · oracle_id `dacf7f0d-9ce2-4e28-98a5-e7ec270a4c83` · printing: BRO #189 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d96761b2-eb9c-4963-a496-ba53a01f4b17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You don't have to reveal the card if it's a land card. You may choose not to reveal it and instead put it into your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/189/sarinth-steelseeker) · oracle_id `dacf7f0d-9ce2-4e28-98a5-e7ec270a4c83` · printing: BRO #189 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan, Dragon Ascendant
 
@@ -199,7 +249,12 @@
   > Whenever a Dragon you control enters, put a +1/+1 counter on Sarkhan. Until end of turn, Sarkhan becomes a Dragon in addition to his other types and gains flying.
 - **Keywords:** Behold, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7069 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant) · oracle_id `71cb48e2-2328-471c-a04a-7b6461f378f4` · printing: TDM #118 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c2200646-7b7c-489d-bbae-16b03e1d7fb2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-04-04* — Effects that say “If a [quality] was beheld” only care if a card of that quality was revealed or a permanent you control of that quality was chosen. No matter what happens to that card or permanent after that, it was still beheld, and any additional effects that depend on that card or permanent being beheld will still happen.
+  - *2025-04-04* — If a card in your hand is already revealed (perhaps because it was revealed to pay a cost of a spell that’s still on the stack or due to the effect of a card like Telepathy), you may reveal it again to pay the cost of another spell or ability that requires you to reveal a card from your hand.
+  - *2025-04-04* — If a cost to cast a spell includes revealing a card, that card remains revealed from the time the spell is announced until the time it leaves the stack.
+  - *2025-04-04* — If an effect refers to a “[subtype] card,” it refers only to a card that has that subtype. For example, Teeming Dragonstorm is a card that cares about Dragons and features Dragons in its art, but it isn’t a Dragon card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/118/sarkhan-dragon-ascendant) · oracle_id `71cb48e2-2328-471c-a04a-7b6461f378f4` · printing: TDM #118 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan, Dragonsoul
 
@@ -211,7 +266,9 @@
   > −3: Sarkhan deals 4 damage to target player or planeswalker.
   > −9: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12151 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/296/sarkhan-dragonsoul) · oracle_id `c2c1e44c-2a19-466f-a6d5-4cb71a940b86` · printing: M19 #296 (2018-07-13) · [rulings](https://api.scryfall.com/cards/59715c84-8eed-41ad-aaf9-cfcce4445254/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — In a Two-Headed Giant game, Sarkhan's first ability causes the opposing team to lose 2 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/296/sarkhan-dragonsoul) · oracle_id `c2c1e44c-2a19-466f-a6d5-4cb71a940b86` · printing: M19 #296 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan, Fireblood
 
@@ -223,7 +280,10 @@
   > +1: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.
   > −7: Create four 5/5 red Dragon creature tokens with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/154/sarkhan-fireblood) · oracle_id `074cbe14-a0c8-4772-955a-b4052333d6ce` · printing: M19 #154 (2018-07-13) · [rulings](https://api.scryfall.com/cards/3553a70e-75de-4a8c-9b20-92cd4a317101/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-07-13* — A "Dragon spell" refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon's Hoard isn't a Dragon spell.
+  - *2018-07-13* — Because it's a loyalty ability, Sarkhan's second ability isn't a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/154/sarkhan-fireblood) · oracle_id `074cbe14-a0c8-4772-955a-b4052333d6ce` · printing: M19 #154 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Catharsis
 
@@ -234,6 +294,7 @@
 - **Flavor text** (WAR printing):
   > *"You once brought havoc to my home and ruined my mind. I'm here to return the favor, Bolas."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25791 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/144/sarkhans-catharsis) · oracle_id `787935ab-26a6-4b4a-9c14-e106160e951d` · printing: WAR #144 (2019-05-03) · [rulings](https://api.scryfall.com/cards/2f4b6f26-c66b-4048-9503-af0a886ef14f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Dragonfire
@@ -246,7 +307,9 @@
 - **Flavor text** (M19 printing):
   > *"I am most myself when I am least human."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25835 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/298/sarkhans-dragonfire) · oracle_id `2a08d878-7816-4d0a-9532-4f2d3c8eee90` · printing: M19 #298 (2018-07-13) · [rulings](https://api.scryfall.com/cards/b96a7320-089a-4a7e-813f-49ca1620df76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — If the chosen target is an illegal target when Sarkhan’s Dragonfire tries to resolve, the spell doesn’t resolve. You won’t look at the top five cards of your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/298/sarkhans-dragonfire) · oracle_id `2a08d878-7816-4d0a-9532-4f2d3c8eee90` · printing: M19 #298 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan, Soul Aflame
 
@@ -257,7 +320,15 @@
   > Dragon spells you cast cost {1} less to cast.
   > Whenever a Dragon you control enters, you may have Sarkhan become a copy of it until end of turn, except its name is Sarkhan, Soul Aflame and it's legendary in addition to its other types.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2071 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/301/sarkhan-soul-aflame) · oracle_id `bbcae463-ba05-4cfe-9c25-13f2e64698c7` · printing: TDC #301 (2025-04-11) · [rulings](https://api.scryfall.com/cards/49d64e6b-563f-486c-ba04-4a254a9a971d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-05-12* — If the Dragon that enters the battlefield is legendary and you have Sarkhan copy it, the two Dragons will have different names (unless the entering Dragon is somehow named Sarkhan, Soul Aflame). The "legend rule" won't apply.
+  - *2023-05-12* — If the copied Dragon has {X} in its mana cost, X is 0.
+  - *2023-05-12* — If the copied Dragon is a token, Sarkhan copies the original characteristics of that token as stated by the effect that created that token, with the noted exceptions.
+  - *2023-05-12* — In some unusual cases, the Dragon that entered the battlefield will be copying something else by the time Sarkhan's ability resolves. In such a case, Sarkhan will copy whatever the Dragon is copying, with the noted exceptions.
+  - *2023-05-12* — Sarkhan copies exactly what was printed on the original Dragon and nothing else, with the noted exceptions (unless that creature is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on in response to Sarkhan's ability.
+  - *2023-05-12* — Sarkhan's first ability doesn't change the mana cost or mana value of any Dragon spell. It changes only the total cost you pay.
+  - *2023-05-12* — That ability can't reduce the amount of colored mana you pay for a Dragon spell. It reduces only the generic component of that cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/301/sarkhan-soul-aflame) · oracle_id `bbcae463-ba05-4cfe-9c25-13f2e64698c7` · printing: TDC #301 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Rage
 
@@ -268,7 +339,9 @@
 - **Flavor text** (JMP printing):
   > *The people of Tarkir speak of an ancient legend, of the dragon-man called Sarkhan who was greatest of all khans.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25074 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/360/sarkhans-rage) · oracle_id `3313aa8f-6441-4daa-b8fa-e6144f60bea8` · printing: JMP #360 (2020-07-17) · [rulings](https://api.scryfall.com/cards/47daba07-1f1e-48e1-a500-ef94d0a3b327/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — Sarkhan's Rage checks whether you control a Dragon as it resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/360/sarkhans-rage) · oracle_id `3313aa8f-6441-4daa-b8fa-e6144f60bea8` · printing: JMP #360 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Resolve
 
@@ -281,6 +354,7 @@
 - **Flavor text** (TDM printing):
   > *With Taigam whispering encouragement in his ear, Sarkhan threw aside his misgivings. The ritual would return him to his former glory. All he needed was a dragon's heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15015 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/158/sarkhans-resolve) · oracle_id `30f058f8-5777-4c25-b881-8f1d0ce17d3a` · printing: TDM #158 (2025-04-11) · [rulings](https://api.scryfall.com/cards/cae56fef-b661-4bc5-b9a1-3871ae06e491/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Triumph
@@ -292,6 +366,7 @@
 - **Flavor text** (DTK printing):
   > *Sarkhan gazed on the world around him, the dragons sweeping through its skies, and joy kindled like a fire in his soul.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3839 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/154/sarkhans-triumph) · oracle_id `c4f7cdb7-aef9-4ab8-995b-4e5180d47214` · printing: DTK #154 (2015-03-27) · [rulings](https://api.scryfall.com/cards/f9a0ff4d-060e-41dc-8b79-1fa42838adf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Unsealing
@@ -302,7 +377,12 @@
   > Whenever you cast a creature spell with power 4, 5, or 6, this enchantment deals 4 damage to any target.
   > Whenever you cast a creature spell with power 7 or greater, this enchantment deals 4 damage to each opponent and each creature and planeswalker they control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/361/sarkhans-unsealing) · oracle_id `c27c9514-7b5a-461a-a109-f8abafd83523` · printing: JMP #361 (2020-07-17) · [rulings](https://api.scryfall.com/cards/bb9c6068-cfd8-4371-b549-e474d573e52e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2018-07-13* — Each of the triggered abilities of Sarkhan’s Unsealing resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+  - *2018-07-13* — If a creature card’s power is written as * and an ability defines its power, that ability applies while the creature spell is on the stack. Sarkhan’s unsealing checks its power only as you finish paying costs; it doesn’t matter what the spell’s power is as you begin to cast it or when the triggered ability resolves.
+  - *2018-07-13* — If you cast a creature spell that will enter the battlefield with a number of +1/+1 counters, such as Hungering Hydra, those counters aren’t considered when determining whether either ability of Sarkhan’s Unsealing triggers. Similarly, effects that will raise the creature’s power once it has entered the battlefield won’t apply.
+  - *2018-07-13* — In a Two-Headed Giant game, the last ability of Sarkhan’s Unsealing causes the opposing team to lose 8 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/361/sarkhans-unsealing) · oracle_id `c27c9514-7b5a-461a-a109-f8abafd83523` · printing: JMP #361 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan's Whelp
 
@@ -314,6 +394,7 @@
   > Whenever you activate an ability of a Sarkhan planeswalker, this creature deals 1 damage to any target.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25232 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/299/sarkhans-whelp) · oracle_id `482f5fc8-ca3b-4280-8cf7-a1c55f8b9f12` · printing: M19 #299 (2018-07-13) · [rulings](https://api.scryfall.com/cards/07135c4d-b4de-4054-800a-11090ed32692/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan, the Dragonspeaker
@@ -326,7 +407,11 @@
   > −3: Sarkhan deals 4 damage to target creature.
   > −6: You get an emblem with "At the beginning of your draw step, draw two additional cards" and "At the beginning of your end step, discard your hand."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14876 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker) · oracle_id `80c26f58-04b0-4db0-b84e-9b136609abe0` · printing: KTK #119 (2014-09-26) · [rulings](https://api.scryfall.com/cards/c58064fd-4d8b-4f54-812f-0bb1d7e2ddc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-09-20* — Any loyalty counters on Sarkhan when his first ability resolves will remain on him while he's a creature. Because he's not a planeswalker at this time, damage dealt to him won't cause those counters to be removed.
+  - *2014-09-20* — If Sarkhan, the Dragonspeaker becomes a creature due to his first ability, that doesn't count as having a creature enter the battlefield. Sarkhan was already on the battlefield; he only changed his types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+  - *2014-09-20* — If a permanent enters the battlefield as a copy of Sarkhan after his first ability has resolved, the copy will be a Sarkhan planeswalker. It will enter the battlefield with four loyalty counters, no matter how many loyalty counters are on the original Sarkhan. You'll then find yourself in the same situation described above.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/119/sarkhan-the-dragonspeaker) · oracle_id `80c26f58-04b0-4db0-b84e-9b136609abe0` · printing: KTK #119 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan the Mad
 
@@ -338,7 +423,15 @@
   > −2: Target creature's controller sacrifices it, then that player creates a 5/5 red Dragon creature token with flying.
   > −4: Each Dragon creature you control deals damage equal to its power to target player or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18943 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/roe/214/sarkhan-the-mad) · oracle_id `e70a93e4-2fe7-46d3-8958-153ab2fcfd99` · printing: ROE #214 (2010-04-23) · [rulings](https://api.scryfall.com/cards/26c1ba92-556e-4da9-8e3a-a4a82612cb29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2010-06-15* — If the targeted creature is a legal target by the time the second ability resolves but its controller can't sacrifice it (due to Tajuru Preserver, perhaps), the ability continues to resolve. That player gets a Dragon token.
+  - *2010-06-15* — If the targeted creature is an illegal target by the time the second ability resolves, the ability doesn't resolve. The player won't get a Dragon token.
+  - *2010-06-15* — If you target an opponent with the third ability, you choose separately for each Dragon creature you control whether or not to redirect the damage dealt by that Dragon to a planeswalker that player controls.
+  - *2010-06-15* — Once the first ability starts to resolve and you reveal the top card of your library (and see how much damage Sarkhan the Mad deals to himself), it's too late to respond.
+  - *2010-06-15* — The first ability causes Sarkhan to deal damage directly to himself, resulting in that many loyalty counters being removed from him. The damage would never have been dealt to you, so prevention effects that would prevent damage from being dealt to you won't affect it.
+  - *2010-06-15* — Unlike previous planeswalkers, Sarkhan the Mad has no way to raise his loyalty.
+  - *2010-06-15* — You choose a single target as you activate the third ability. All your Dragons deal damage to that player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/roe/214/sarkhan-the-mad) · oracle_id `e70a93e4-2fe7-46d3-8958-153ab2fcfd99` · printing: ROE #214 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan the Masterless
 
@@ -350,7 +443,10 @@
   > +1: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.
   > −3: Create a 4/4 red Dragon creature token with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5694 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/880/sarkhan-the-masterless) · oracle_id `67dbc5dd-6d05-43e7-83f7-70e10eb54807` · printing: CMM #880 (2023-08-04) · [rulings](https://api.scryfall.com/cards/2aced16a-ebbd-47bb-a4c4-9454afa9971c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-05-03* — A planeswalker that becomes a creature due to Sarkhan’s first loyalty ability can’t attack unless you’ve controlled it continuously since your turn began.
+  - *2019-05-03* — Once Sarkhan’s first loyalty ability has resolved, each planeswalker you control (including Sarkhan) is no longer a planeswalker for the rest of the turn. They don’t lose any loyalty counters or abilities, and you can still activate their loyalty abilities if you haven’t done so yet this turn. They don’t lose loyalty if they’re dealt damage while they’re not planeswalkers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/880/sarkhan-the-masterless) · oracle_id `67dbc5dd-6d05-43e7-83f7-70e10eb54807` · printing: CMM #880 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan Unbroken
 
@@ -362,6 +458,7 @@
   > −2: Create a 4/4 red Dragon creature token with flying.
   > −8: Search your library for any number of Dragon creature cards, put them onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6326 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/230/sarkhan-unbroken) · oracle_id `1d37b453-f10c-42f2-8390-626a8a8eb27c` · printing: DTK #230 (2015-03-27) · [rulings](https://api.scryfall.com/cards/192452f8-93c2-4a20-a52b-0093741a9e45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarkhan Vol
@@ -374,7 +471,11 @@
   > −2: Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.
   > −6: Create five 4/4 red Dragon creature tokens with flying.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/183/sarkhan-vol) · oracle_id `d902074a-2a2b-42b7-a1e5-750862c64fbe` · printing: MMA #183 (2013-06-07) · [rulings](https://api.scryfall.com/cards/181e20e9-94a2-40b6-abc4-797f588866bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2008-10-01* — Sarkhan Vol’s first ability affects only creatures you control when that ability resolves.
+  - *2008-10-01* — You may activate the first ability even if you control no creatures. Sarkhan Vol gains a loyalty counter, but the ability will have no effect.
+  - *2008-10-01* — You may target any creature with the second ability, not just a creature an opponent controls. If you target a creature you already control, you’ll gain control of it (which will usually have no visible effect), it’ll untap, and it’ll gain haste until end of turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/183/sarkhan-vol) · oracle_id `d902074a-2a2b-42b7-a1e5-750862c64fbe` · printing: MMA #183 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarpadian Empires, Vol. VII
 
@@ -386,6 +487,7 @@
 - **Flavor text** (TSP printing):
   > *The past still lives within its pages, waiting for its time to come again.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21557 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/263/sarpadian-empires-vol-vii) · oracle_id `f71d55f5-f220-4cb0-9468-b8d339ab8535` · printing: TSP #263 (2006-10-06) · [rulings](https://api.scryfall.com/cards/b37a6cf7-f239-4bca-b4c3-a48932ef56b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarpadian Simulacrum
@@ -400,6 +502,7 @@
   > *Built to be super soldiers, the goblins preferred just being super destructive.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/135/sarpadian-simulacrum) · oracle_id `b563a578-86ce-41a5-a83e-c70c6a4960e2` · printing: MH3 #135 (2024-06-14) · [rulings](https://api.scryfall.com/cards/099c65d5-9dd3-41d3-9102-3f6cb30c7b8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarulf, Realm Eater
@@ -411,7 +514,15 @@
   > Whenever a permanent an opponent controls is put into a graveyard from the battlefield, put a +1/+1 counter on Sarulf.
   > At the beginning of your upkeep, if Sarulf has one or more +1/+1 counters on it, you may remove all of them. If you do, exile each other nonland permanent with mana value less than or equal to the number of counters removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10547 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/228/sarulf-realm-eater) · oracle_id `789964f5-79c5-4329-b68f-b15b0d54b0b2` · printing: KHM #228 (2021-02-05) · [rulings](https://api.scryfall.com/cards/bcecf9ba-36da-490a-9460-99ff87d99fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2021-02-05* — Choosing to remove all the +1/+1 counters on Sarulf won't affect any other counters it may have.
+  - *2021-02-05* — If Sarulf doesn't have any +1/+1 counters on it as your upkeep begins, its last ability won't trigger at all. If the ability does trigger, it will check again as it tries to resolve. If Sarulf doesn't have any +1/+1 counters on it at that time, the ability won't do anything. No other permanents will be exiled.
+  - *2021-02-05* — If Sarulf isn't on the battlefield as its last ability starts to resolve, you can't remove any +1/+1 counters from it, even if it had +1/+1 counters when it was last on the battlefield. No other permanents will be exiled.
+  - *2021-02-05* — If you do remove +1/+1 counters, you must remove all of them. You can't fine-tune the carnage by only removing some of them.
+  - *2021-02-05* — It doesn't matter which graveyard the permanent is put into as long as an opponent controlled it when it last existed on the battlefield.
+  - *2021-02-05* — You choose whether to remove +1/+1 counters as the last ability is resolving. If you do, the appropriate permanents are then exiled. No one can respond to your choice or take actions during this process.
+  - *2021-02-05* — You may choose to remove Sarulf's +1/+1 counters even if that would cause lethal damage to be marked on Sarulf. If you do this, Sarulf will die after its last ability is finished resolving. But it won't have gone alone! Legendary.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/228/sarulf-realm-eater) · oracle_id `789964f5-79c5-4329-b68f-b15b0d54b0b2` · printing: KHM #228 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sarulf's Packmate
 
@@ -423,7 +534,11 @@
   > Foretell {1}{G} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)
 - **Keywords:** Foretell
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/192/sarulfs-packmate) · oracle_id `f32caf11-abc1-4cae-a311-10210176ea3a` · printing: KHM #192 (2021-02-05) · [rulings](https://api.scryfall.com/cards/6061113e-7dd8-4739-b4dd-55bb7f9e39a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-02-05* — Because exiling a card with foretell from your hand is a special action, you can do so any time you have priority during your turn, including in response to spells and abilities. Once you announce you’re taking the action, no other player can respond by trying to remove the card from your hand.
+  - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
+  - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/192/sarulfs-packmate) · oracle_id `f32caf11-abc1-4cae-a311-10210176ea3a` · printing: KHM #192 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruli Caretaker
 
@@ -437,7 +552,9 @@
   > *"I hold the seed of our new beginning."*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9676 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/139/saruli-caretaker) · oracle_id `5e2736e6-b812-43a4-bd79-6f6095344fe1` · printing: RNA #139 (2019-01-25) · [rulings](https://api.scryfall.com/cards/ef3358cb-714c-49bf-b7e9-a69d02d7799e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — You can tap any untapped creature you control, including one you haven’t controlled continuously since the beginning of your most recent turn, to pay the cost of Saruli Caretaker’s activated ability. You must have controlled Saruli Caretaker continuously since the beginning of your most recent turn, however.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/139/saruli-caretaker) · oracle_id `5e2736e6-b812-43a4-bd79-6f6095344fe1` · printing: RNA #139 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruli Gatekeepers
 
@@ -449,6 +566,7 @@
 - **Flavor text** (DGM printing):
   > *In Ravnica's wilder districts, nature still stirs, and its protectors still mind their posts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23061 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/48/saruli-gatekeepers) · oracle_id `509ea58a-da0a-4e9a-aafc-15f4f65a7467` · printing: DGM #48 (2013-05-03) · [rulings](https://api.scryfall.com/cards/471a5b1d-e2e5-4d90-b72a-ffae81ad6602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruman of Many Colors
@@ -461,7 +579,14 @@
   > Whenever you cast your second spell each turn, each opponent mills two cards. When one or more cards are milled this way, exile target enchantment, instant, or sorcery card with equal or lesser mana value than that spell from an opponent's graveyard. Copy the exiled card. You may cast the copy without paying its mana cost.
 - **Keywords:** Ward, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11755 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/223/saruman-of-many-colors) · oracle_id `c2d04138-cc17-4dd0-9a4c-9c87df72ed01` · printing: LTR #223 (2023-06-23) · [rulings](https://api.scryfall.com/cards/8cfcc7ec-87a2-4712-8d82-217bd8600891/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-06-16* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2023-06-16* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2023-06-16* — If you don't have an enchantment, instant, or sorcery card in your hand, you won't be able to pay Saruman of Many Colors's ward cost.
+  - *2023-06-16* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2023-06-16* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+  - *2023-06-16* — You don't choose a target for Saruman of Many Colors's ability at the time it triggers. Rather, a second "reflexive" ability triggers when one or more cards are milled this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/223/saruman-of-many-colors) · oracle_id `c2d04138-cc17-4dd0-9a4c-9c87df72ed01` · printing: LTR #223 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruman's Trickery
 
@@ -475,7 +600,15 @@
   > *—Saruman*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4761 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/68/sarumans-trickery) · oracle_id `1b415806-a3e3-4d87-b4c1-ccd11a8ee589` · printing: LTR #68 (2023-06-23) · [rulings](https://api.scryfall.com/cards/8eb6c23b-e52e-4533-9625-884eb0a4d866/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/68/sarumans-trickery) · oracle_id `1b415806-a3e3-4d87-b4c1-ccd11a8ee589` · printing: LTR #68 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruman the White
 
@@ -489,7 +622,16 @@
   > *"Sauron's victory is at hand; and there will be rich reward for those who aided it."*
 - **Keywords:** Amass, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7988 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/67/saruman-the-white) · oracle_id `8ba24644-8dff-4f1e-a96a-7361baf46b5a` · printing: LTR #67 (2023-06-23) · [rulings](https://api.scryfall.com/cards/1bfccbab-29fa-4e92-8919-6cd4815fb655/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — Spells that were cast before Saruman the White count. If Saruman the White was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/67/saruman-the-white) · oracle_id `8ba24644-8dff-4f1e-a96a-7361baf46b5a` · printing: LTR #67 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saruman, the White Hand
 
@@ -503,7 +645,17 @@
   > *Over all his works a dark smoke hung and wrapped itself about the sides of Orthanc.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3654 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/8/saruman-the-white-hand) · oracle_id `2bade11e-04e0-42a2-8861-9257c99a7c08` · printing: LTC #8 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6487ccbf-f6cd-45a6-8514-2c458b655ef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2023-06-16* — A creature that is both a Goblin and an Orc still only gets one instance of ward {2} from Saruman, the White Hand's last ability.
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If Saruman, the White Hand is a Goblin or an Orc, it will have ward {2}.
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/8/saruman-the-white-hand) · oracle_id `2bade11e-04e0-42a2-8861-9257c99a7c08` · printing: LTC #8 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saryth, the Viper's Fang
 
@@ -515,4 +667,6 @@
   > Other untapped creatures you control have hexproof.
   > {1}, {T}: Untap another target creature or land you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1278 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/185/saryth-the-vipers-fang) · oracle_id `4e07a0b3-f340-4ed1-a8a9-c25fe6f37fb3` · printing: MKC #185 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8050afb7-3c16-4456-aa34-4cc999fac7f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-09-24* — Saryth's first ability doesn't care whether Saryth is tapped or untapped. The same is true for the second ability. Both abilities apply as long as Saryth is on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/185/saryth-the-vipers-fang) · oracle_id `4e07a0b3-f340-4ed1-a8a9-c25fe6f37fb3` · printing: MKC #185 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

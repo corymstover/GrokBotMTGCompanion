@@ -50,7 +50,10 @@
   > {W}: Zabaz gains flying until end of turn.
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12016 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/243/zabaz-the-glimmerwasp) · oracle_id `549dc9f3-1fda-4ad3-87bc-8a990800380b` · printing: MH2 #243 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8c1cce91-7c81-45d9-bbec-b085e794791d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+  - *2021-06-18* — Zabaz the Glimmerwasp's replacement effect requires it to be on the battlefield to work. Notably, that means it won't increase the counters given by its own modular ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/243/zabaz-the-glimmerwasp) · oracle_id `549dc9f3-1fda-4ad3-87bc-8a990800380b` · printing: MH2 #243 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zacama, Primal Calamity
 
@@ -65,7 +68,10 @@
   > {2}{W}: You gain 3 life.
 - **Keywords:** Reach, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1814 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/296/zacama-primal-calamity) · oracle_id `23270e4a-a222-4ffb-a946-d0e20d665187` · printing: LCC #296 (2023-11-17) · [rulings](https://api.scryfall.com/cards/05c5a9a8-badd-43ab-8408-a13e75407681/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-01-19* — Zacama's triggered ability triggers if you cast it from any zone. It doesn't trigger if you put Zacama onto the battlefield without casting it.
+  - *2023-07-28* — Zacama's damage-dealing ability can be activated during combat, perhaps targeting a creature blocking it. If all creatures blocking Zacama are destroyed, its combat damage is assigned to the player, planeswalker, or battle it's attacking because of trample. If the blocking creatures are dealt nonlethal damage, that damage is considered when assigning trample damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/296/zacama-primal-calamity) · oracle_id `23270e4a-a222-4ffb-a946-d0e20d665187` · printing: LCC #296 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zack Fair
 
@@ -76,7 +82,11 @@
   > Zack Fair enters with a +1/+1 counter on it.
   > {1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2631 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/45/zack-fair) · oracle_id `e84d146a-1c67-49df-b062-622794e45c42` · printing: FIN #45 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f21f9161-5945-40da-8da0-446f6a4a1c23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith ("Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.") when Zack Fair's last ability resolves, you'll put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
+  - *2025-06-06* — Zack Fair's last ability doesn't cause you to move counters from Zack Fair onto the target creature. Rather, you put the same number of each kind of counter Zack Fair had when it was sacrificed onto the target creature.
+  - *2025-06-06* — Zack Fair's last ability puts all counters that were on Zack Fair onto the target creature, not just its +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/45/zack-fair) · oracle_id `e84d146a-1c67-49df-b062-622794e45c42` · printing: FIN #45 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada, Hedron Grinder
 
@@ -88,7 +98,16 @@
 - **Flavor text** (CMM printing):
   > *"A hedron holds magic for a thousand years—or less, if need be."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3442 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/268/zada-hedron-grinder) · oracle_id `9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36` · printing: CMM #268 (2023-08-04) · [rulings](https://api.scryfall.com/cards/4520cdcc-a10f-4b39-9c6f-ba86f6aa2c87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-03-16* — Any creature you control that couldn't be targeted by the original spell (due to shroud, protection abilities, targeting restrictions, or any other reason) is just ignored by Zada's ability.
+  - *2018-03-16* — If the spell that's copied has an X whose value was determined as it was cast (like Rolling Thunder does), the copies have the same value of X.
+  - *2018-03-16* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copies will have the same mode. You can't choose a different one.
+  - *2018-03-16* — If you cast an instant or sorcery spell that has multiple targets, but it's targeting only Zada with all of them, Zada's ability will trigger. The copies will similarly each be targeting only one of your other creatures. You can't change any of the copy's targets to other creatures.
+  - *2018-03-16* — The controller of a copy can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+  - *2018-03-16* — The copies that the ability creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (like Zada's ability itself) won't trigger.
+  - *2018-03-16* — You control all the copies. You choose the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
+  - *2018-03-16* — Zada's ability triggers whenever you cast an instant or sorcery spell that targets only Zada and no other object or player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/268/zada-hedron-grinder) · oracle_id `9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36` · printing: CMM #268 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada's Commando
 
@@ -103,7 +122,9 @@
   > *—Zada of Slab Haven*
 - **Keywords:** First strike, Cohort
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25269 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/120/zadas-commando) · oracle_id `d57d1988-5962-4df9-8342-cf04233fd6c7` · printing: OGW #120 (2016-01-22) · [rulings](https://api.scryfall.com/cards/f4ad826d-c7e6-4dfd-991f-15d75b87d504/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-01-22* — To activate a cohort ability, the Ally with that ability must have been under your control continuously since the beginning of your most recent turn. Informally, it can't have "summoning sickness." However, the other Ally you tap can be one that just came under your control. (Note that tapping the second Ally doesn't use {T} [the tap symbol].)
+- **Source flags:** [Scryfall](https://scryfall.com/card/ogw/120/zadas-commando) · oracle_id `d57d1988-5962-4df9-8342-cf04233fd6c7` · printing: OGW #120 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zaffai and the Tempests
 
@@ -115,7 +136,10 @@
 - **Flavor text** (SOS printing):
   > *"Leave everything on the stage and give them a performance they'll never forget."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12139 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/246/zaffai-and-the-tempests) · oracle_id `3f8a8650-0e38-4926-8f48-526351e6a863` · printing: SOS #246 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2026-03-20* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
+  - *2026-03-20* — If you cast a spell with {X} in its mana cost this way, you must choose 0 as the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/246/zaffai-and-the-tempests) · oracle_id `3f8a8650-0e38-4926-8f48-526351e6a863` · printing: SOS #246 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zaffai, Thunder Conductor
 
@@ -126,7 +150,16 @@
   > Magecraft — Whenever you cast or copy an instant or sorcery spell, scry 1. If that spell's mana value is 5 or greater, create a 4/4 blue and red Elemental creature token. If that spell's mana value is 10 or greater, Zaffai deals 10 damage to an opponent chosen at random.
 - **Keywords:** Magecraft, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11511 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/4/zaffai-thunder-conductor) · oracle_id `02d529df-6299-4e8f-9794-70c8061efdc4` · printing: C21 #4 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ea1ab937-8647-4c83-99d5-6a40dffa4c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-04-16* — "That spell's mana value" refers to the spell that caused the ability to trigger, not the card you look at when you scry.
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — For example, if you control Archmage Emeritus and cast an instant or sorcery spell, Archmage Emeritus's magecraft ability will trigger and you will draw a card.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — If the instant or sorcery spell has {X} in its mana cost, X is the value chosen for X as the spell was cast.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+  - *2021-04-16* — The wrong card name was inadvertently included in Zaffai's printed rules text. The text above is correct and the full name of the card is Zaffai, Thunder Conductor.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/4/zaffai-thunder-conductor) · oracle_id `02d529df-6299-4e8f-9794-70c8061efdc4` · printing: C21 #4 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagorka, Mother of Sanctum
 
@@ -140,6 +173,7 @@
   > *She had been the first to call the city home. Many more would follow and find its sanctuary.*
 - **Keywords:** Vigilance, Trample
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #22309 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/58/zagorka-mother-of-sanctum) · oracle_id `e444c824-6b9c-4b72-8aa9-a86489c47cbe` · printing: MBC #58 (2026-10-19) · [rulings](https://api.scryfall.com/cards/c1a428e0-2e96-4c38-9ea5-ae4de39c3bce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagoth Crystal
@@ -153,6 +187,7 @@
   > *From the fertile muck of Zagoth, everything—animal, botanical, and crystalline—grows with rugged beauty.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16045 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/242/zagoth-crystal) · oracle_id `87edb566-8929-4961-9c03-d3657a8c6feb` · printing: IKO #242 (2020-04-24) · [rulings](https://api.scryfall.com/cards/9138a442-8e8b-465f-bb76-b6af7e6dab6f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagoth Mamba
@@ -166,6 +201,7 @@
   > *"It's just a snake. A many-eyed snake with venom that turns your blood to smoke, but still, just a snake."*
   > *—Kinnan, bonder prodigy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/106/zagoth-mamba) · oracle_id `aad05e4e-28cf-4dfe-bf5b-277a50d183ba` · printing: IKO #106 (2020-04-24) · [rulings](https://api.scryfall.com/cards/ce945f7e-ded9-4819-9313-d50d3aad40fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagoth Triome
@@ -180,6 +216,7 @@
   > *Hunters in the primeval wetlands become fluent in reading the ripples to tell when to pursue and when to flee.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #400 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/259/zagoth-triome) · oracle_id `fdd46004-eaba-4024-8687-39b23dc6a58c` · printing: IKO #259 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cc520518-2063-4b57-a0d4-10cf62a7175e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagras, Thief of Heartbeats
@@ -194,7 +231,13 @@
   > Whenever a creature you control deals combat damage to a planeswalker, destroy that planeswalker.
 - **Keywords:** Deathtouch, Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10303 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/241/zagras-thief-of-heartbeats) · oracle_id `a2375a23-a1f0-4514-87a0-e699f91acd7d` · printing: ZNR #241 (2020-09-25) · [rulings](https://api.scryfall.com/cards/ac81448c-f87b-4ca1-b951-b359216ab1d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — If a spell has a cost reduction based on the number of creatures in your party, no player may attempt to change that number after you begin to cast the spell but before you pay the cost.
+  - *2020-09-25* — Several cards have a cost reduction based on the number of creatures in your party. To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2020-09-25* — To determine "the number of creatures in your party," check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/241/zagras-thief-of-heartbeats) · oracle_id `a2375a23-a1f0-4514-87a0-e699f91acd7d` · printing: ZNR #241 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zahid, Djinn of the Lamp
 
@@ -208,6 +251,7 @@
   > *"I do as I please, little mortal. Do go on about your wishes, though—they amuse me to no end."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26073 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/136/zahid-djinn-of-the-lamp) · oracle_id `89b07037-64df-4e66-acd8-87d97df61e3a` · printing: CMM #136 (2023-08-04) · [rulings](https://api.scryfall.com/cards/880fc139-4200-483f-bdb1-dc9ef32d63a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zahur, Glory's Past
@@ -221,6 +265,7 @@
   > Max speed — Whenever a nontoken creature you control dies, create a tapped 2/2 black Zombie creature token.
 - **Keywords:** Surveil, Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10636 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/229/zahur-glorys-past) · oracle_id `fb82cd81-0e71-43ab-88f9-b1fa158f5138` · printing: DFT #229 (2025-02-14) · [rulings](https://api.scryfall.com/cards/31944ea5-045d-481d-9aff-3c7ed663813a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zalto, Fire Giant Duke
@@ -235,7 +280,20 @@
   > *Fire giants love to fight on a large scale, and Duke Zalto is one of the greatest warmongers of his age.*
 - **Keywords:** Trample, Venture into the dungeon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18971 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/171/zalto-fire-giant-duke) · oracle_id `fb1c507d-ef94-438e-bee5-29eb48dc8e70` · printing: AFR #171 (2021-07-23) · [rulings](https://api.scryfall.com/cards/9c6da066-accb-4c09-9acb-4de263dadad3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-07-23* — A player may only have one dungeon in the command zone at a time.
+  - *2021-07-23* — Choosing the dungeon or room to venture into is part of resolving the venture into the dungeon keyword action. Once that choice is made, players may not respond until after the appropriate room ability has triggered.
+  - *2021-07-23* — Dungeon cards are not part of a player's deck or sideboard. In both constructed and limited formats, players can use any dungeon card when they venture into the dungeon.
+  - *2021-07-23* — Dungeons are removed from the game as a state-based action.
+  - *2021-07-23* — If Zalto is dealt damage by multiple sources at the same time (usually creatures blocking it), you will only venture into the dungeon once.
+  - *2021-07-23* — If Zalto is dealt lethal damage, you will still get to venture into the dungeon.
+  - *2021-07-23* — If you somehow venture into the dungeon while a room's ability is on the stack, you will continue on in the dungeon. If you're already in the last room, complete that dungeon and start a new one.
+  - *2021-07-23* — Moving into a dungeon room will cause its room ability to trigger.
+  - *2021-07-23* — Once you resolve the last room ability of a dungeon, that dungeon is now completed and is removed from the game.
+  - *2021-07-23* — The player venturing into the dungeon chooses which dungeon they will venture into. They may choose a dungeon that they have already completed this game.
+  - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
+  - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/171/zalto-fire-giant-duke) · oracle_id `fb1c507d-ef94-438e-bee5-29eb48dc8e70` · printing: AFR #171 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zameck Guildmage
 
@@ -246,7 +304,10 @@
   > {G}{U}: This turn, each creature you control enters with an additional +1/+1 counter on it.
   > {G}{U}, Remove a +1/+1 counter from a creature you control: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10322 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/209/zameck-guildmage) · oracle_id `98250fad-7fd0-431e-a87e-551185d26ec1` · printing: GTC #209 (2013-02-01) · [rulings](https://api.scryfall.com/cards/feeaf99b-7720-42e3-8cb1-23218b646458/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — Zameck Guildmage's first ability has no effect on creatures already on the battlefield when it resolves.
+  - *2013-01-24* — Zameck Guildmage's first ability is cumulative. For example, if it resolves twice in a turn, each creature that enters under your control that turn will do so with two +1/+1 additional counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/209/zameck-guildmage) · oracle_id `98250fad-7fd0-431e-a87e-551185d26ec1` · printing: GTC #209 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zamriel, Seraph of Steel
 
@@ -260,6 +321,7 @@
   > *Armored in courage and armed with searing light, her legion stands unflinching against the forces of darkness.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17595 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gn3/1/zamriel-seraph-of-steel) · oracle_id `acb0fa6a-89c8-4957-881e-c61659e86f97` · printing: GN3 #1 (2022-10-14) · [rulings](https://api.scryfall.com/cards/bc883e4e-e5f5-4823-ac2a-9ff8b7772926/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zanam Djinn
@@ -272,6 +334,7 @@
   > This creature gets -2/-2 as long as blue is the most common color among all permanents or is tied for most common.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/90/zanam-djinn) · oracle_id `049fc248-4e46-43de-986d-fa023a3e8792` · printing: INV #90 (2000-10-02) · [rulings](https://api.scryfall.com/cards/57a3c1d5-0ca8-443b-ae7a-66e0363e377b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zanarkand, Ancient Metropolis // Lasting Fayth
@@ -287,7 +350,21 @@
 - **Flavor text** (FIN printing):
   > *A city dead for a thousand years. The end of Yuna's journey.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3837 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth) · oracle_id `5f2b3ea8-99ee-47a4-8a1c-4b27478d524c` · printing: FIN #293 (2025-06-13) · [rulings](https://api.scryfall.com/cards/881e4c00-3b9a-47a1-bf66-1badda994c88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2025-06-06* — An adventurer card uses only its non-Adventure characteristics in every zone except the stack, as well as while on the stack if not cast as an Adventure. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Jidoor, Aristocratic Capital is a colorless Town land card whose mana value is 0. It can't be the target of Sorceress's Schemes, which reads in part "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand."
+  - *2025-06-06* — An effect may refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
+  - *2025-06-06* — Casting a card as an Adventure isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to the Adventure.
+  - *2025-06-06* — If a spell is cast as an Adventure, its controller exiles it instead of putting it into its owner's graveyard as it resolves. For as long as it remains exiled, that player may play it using its primary characteristics. If an Adventure spell leaves the stack in any way other than resolving (most likely by being countered or by failing to resolve because its targets have all become illegal), that card won't be exiled and the spell's controller won't be able to play that card from exile later.
+  - *2025-06-06* — If an adventurer card ends up in exile for any other reason than by exiling itself while resolving, it won't give you permission to play it with its primary characteristics.
+  - *2025-06-06* — If an effect copies an Adventure spell, that copy is exiled as it resolves. It ceases to exist as a state-based action; it's not possible to play the copy as a permanent.
+  - *2025-06-06* — If an effect instructs you to choose a card name, you may choose the alternative Adventure name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2025-06-06* — If an effect refers to a card, spell, or permanent that has an Adventure, it won't find an instant or sorcery spell on the stack that's been cast as an Adventure.
+  - *2025-06-06* — If an object becomes a copy of an object that has an Adventure, the copy also has an Adventure. If it changes zones, it will either cease to exist (if it's a token) or cease to be a copy (if it's a nontoken permanent), and so you won't be able to cast it as an Adventure.
+  - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+  - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth) · oracle_id `5f2b3ea8-99ee-47a4-8a1c-4b27478d524c` · printing: FIN #293 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zanikev Locust
 
@@ -299,7 +376,9 @@
   > Scavenge {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Put a number of +1/+1 counters equal to this card's power on target creature. Scavenge only as a sorcery.)
 - **Keywords:** Flying, Scavenge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28310 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/84/zanikev-locust) · oracle_id `e29012bb-4a1d-409e-8db9-50920fdf68a2` · printing: RTR #84 (2012-10-05) · [rulings](https://api.scryfall.com/cards/adcbd7ee-8958-46fe-abb0-e899e7d2e654/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — Exiling the creature card with scavenge is part of the cost of activating the scavenge ability. Once the ability is activated and the cost is paid, it’s too late to stop the ability from being activated by trying to remove the creature card from the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/84/zanikev-locust) · oracle_id `e29012bb-4a1d-409e-8db9-50920fdf68a2` · printing: RTR #84 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zap
 
@@ -311,6 +390,7 @@
 - **Flavor text** (INV printing):
   > *"All this time I thought Squee was useless," chuckled Sisay. "Who knew he'd be such a good shot?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24915 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/180/zap) · oracle_id `56115482-3fd4-45fb-b800-be68c5509cf2` · printing: INV #180 (2000-10-02) · [rulings](https://api.scryfall.com/cards/7502ce01-b762-40fe-a064-c7b20b08a722/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zara, Renegade Recruiter
@@ -323,7 +403,13 @@
   > Whenever Zara attacks, look at defending player's hand. You may put a creature card from it onto the battlefield under your control tapped and attacking that player or a planeswalker they control. Return that creature to its owner's hand at the beginning of the next end step.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4936 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/297/zara-renegade-recruiter) · oracle_id `cd2720c2-522c-4fdc-9cef-9c5ce250fe7b` · printing: LCC #297 (2023-11-17) · [rulings](https://api.scryfall.com/cards/d8bd1312-2c3a-4591-943c-c1550b506fa4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-11-10* — Although the creature is attacking, it was never declared as an attacking creature. This means that abilities that trigger whenever a creature attacks won't trigger when the creature enters the battlefield attacking.
+  - *2020-11-10* — Any effects that say the creature can't attack affect only the declaration of attackers. They won't stop the creature from entering the battlefield attacking. For example, you could put a creature card with defender onto the battlefield tapped and attacking this way.
+  - *2020-11-10* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
+  - *2020-11-10* — If you lose the game before the creature put onto the battlefield under your control returns to its owner's hand, that creature is exiled. If that creature's owner loses the game while you control the creature, the creature leaves the game with them.
+  - *2020-11-10* — The creature is returned to its owner's hand only if it's still on the battlefield as the delayed triggered ability resolves. If it's somewhere else at that time, it stays where it is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/297/zara-renegade-recruiter) · oracle_id `cd2720c2-522c-4fdc-9cef-9c5ce250fe7b` · printing: LCC #297 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zarda, the Power Princess
 
@@ -337,6 +423,7 @@
   > *"We Utopians don't just dream of a better world, we make the world better."*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24782 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/615/zarda-the-power-princess) · oracle_id `c7b158b9-19f7-47b6-a97c-74023dfe73b9` · printing: MSC #615 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f99b7504-a743-4923-becf-37b5759487b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zareth San, the Trickster
@@ -350,7 +437,16 @@
   > Whenever Zareth San deals combat damage to a player, you may put target permanent card from that player's graveyard onto the battlefield under your control.
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10974 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/242/zareth-san-the-trickster) · oracle_id `a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e` · printing: ZNR #242 (2020-09-25) · [rulings](https://api.scryfall.com/cards/9cfe4fbe-277f-410c-9eee-f7617f4cb850/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-09-25* — Although Zareth San is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2020-09-25* — Before blockers are declared, attacking Rogues are neither blocked nor unblocked, so you can't pay the cost to activate Zareth San's second ability.
+  - *2020-09-25* — If Zareth San leaves your hand before its second ability resolves, the ability does nothing as it resolves. Zareth San remains in its new zone and the Rogue you returned remains in its owner's hand.
+  - *2020-09-25* — If a creature in combat has first strike or double strike, you can activate Zareth San's second ability during the first-strike combat damage step. Zareth San will deal combat damage during the regular combat damage step in this case, even if it somehow gains first strike.
+  - *2020-09-25* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Zareth San's last ability are exiled.
+  - *2020-09-25* — To activate Zareth San's second ability, you reveal it in your hand. It remains revealed until the ability has resolved.
+  - *2020-09-25* — You choose which player or planeswalker Zareth San is attacking. It doesn't have to be attacking the same player or planeswalker that the returned Rogue was attacking.
+  - *2020-09-25* — Zareth San's second ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, Zareth San won't normally deal combat damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/242/zareth-san-the-trickster) · oracle_id `a316b0ce-1f63-4a8e-9a6e-bfbe03ca4e9e` · printing: ZNR #242 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zarichi Tiger
 
@@ -363,6 +459,7 @@
   > *"The taming and consecration of these creatures is evidence of our faith."*
   > *—Resimir, Zarichi Temple priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26711 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/28/zarichi-tiger) · oracle_id `0749e79f-e61d-4037-bb39-75f1ebf46c5d` · printing: GTC #28 (2013-02-01) · [rulings](https://api.scryfall.com/cards/7bf5efe4-d9a0-4704-b5ba-3213c946df37/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zariel, Archduke of Avernus
@@ -375,7 +472,12 @@
   > 0: Create a 1/1 red Devil creature token with "When this token dies, it deals 1 damage to any target."
   > −6: You get an emblem with "At the end of the first combat phase on your turn, untap target creature you control. After this phase, there is an additional combat phase."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6458 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7be5b866-d479-4698-98b2-87a973f6b8f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — If the target of the emblem's ability becomes an illegal target by the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. You won't get an additional combat phase.
+  - *2021-07-23* — If you have more than one of Zariel's emblem, the abilities will each trigger at the end of the first combat phase on your turn. You can choose the same creature as the target of each ability. Those targets will untap before any additional combats. No creatures will untap between the first additional combat and the second additional combat (or between the second and third, and so on, and wow, how long was Zariel under your control?!)
+  - *2021-07-23* — The ability of the emblem can target any creature you control, not just one that's tapped.
+  - *2021-07-23* — There is no main phase between the combat phases. You move from the first combat phase directly into the second combat phase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zar Ojanen, Scion of Efrava
 
@@ -388,7 +490,12 @@
   > *"I carry my home in my heart."*
 - **Keywords:** Domain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18576 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/227/zar-ojanen-scion-of-efrava) · oracle_id `1402c792-6e2f-4a85-8a0c-8db3c8ce5f1f` · printing: DMU #227 (2022-09-09) · [rulings](https://api.scryfall.com/cards/65c903e3-d622-415e-9144-a5b2f3f7b9ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-09-09* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
+  - *2022-09-09* — If Zar Ojanen becomes tapped while casting a spell or activating an ability, that spell or ability resolves after Zar Ojanen's triggered ability has resolved.
+  - *2022-09-09* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+  - *2022-09-09* — Zar Ojanen, Scion of Efrava's ability is a triggered ability, not an activated ability. It doesn't allow you to tap it whenever you want; rather, you need some other way of tapping it, such as by attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/227/zar-ojanen-scion-of-efrava) · oracle_id `1402c792-6e2f-4a85-8a0c-8db3c8ce5f1f` · printing: DMU #227 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zask, Skittering Swarmlord
 
@@ -401,7 +508,9 @@
   > {1}{B/G}: Target Insect gets +1/+0 and gains deathtouch until end of turn. ({B/G} can be paid with either {B} or {G}.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7128 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j22/47/zask-skittering-swarmlord) · oracle_id `3c4966b9-26f9-46ff-8d41-7fd01c70986d` · printing: J22 #47 (2022-12-02) · [rulings](https://api.scryfall.com/cards/4eafc507-973a-4aec-91b9-c29d70b0e25d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-02* — You must pay all costs and follow all timing rules for cards played from your graveyard this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j22/47/zask-skittering-swarmlord) · oracle_id `3c4966b9-26f9-46ff-8d41-7fd01c70986d` · printing: J22 #47 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zaxara, the Exemplary
 
@@ -414,4 +523,10 @@
   > Whenever you cast a spell with {X} in its mana cost, create a 0/0 green Hydra creature token, then put X +1/+1 counters on it.
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5793 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/176/zaxara-the-exemplary) · oracle_id `a9946ea0-bf0e-4c9c-a3c6-21337a5029ab` · printing: DMC #176 (2022-09-09) · [rulings](https://api.scryfall.com/cards/6dc390da-75f8-490a-a724-c12d21cfe578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If X is 0, the 0/0 Hydra token will die immediately after the ability's done resolving unless something else is raising its toughness.
+  - *2020-04-17* — If an effect, such as that of Parallel Lives, causes Zaxara's ability to create multiple Hydra tokens, they each receive X +1/+1 counters.
+  - *2020-04-17* — If the spell you cast has {X}{X} in its mana cost, the token gets only X counters, not twice X.
+  - *2020-04-17* — The Hydra token enters the battlefield as a 0/0 creature. Any abilities that modify or trigger on this event apply. After the token is on the battlefield but before any player can take actions, +1/+1 counters are put onto the token.
+  - *2020-04-17* — The value of X in Zaxara's last ability is the value of X of the spell you cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/176/zaxara-the-exemplary) · oracle_id `a9946ea0-bf0e-4c9c-a3c6-21337a5029ab` · printing: DMC #176 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

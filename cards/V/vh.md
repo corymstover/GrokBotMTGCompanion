@@ -22,7 +22,18 @@
   > Choose a Background (You can have a Background as a second commander.)
 - **Keywords:** Vigilance, Choose a background
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14426 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/102/vhal-candlekeep-researcher) · oracle_id `7253e7d1-b1df-4637-bf64-850be7fa5188` · printing: CLB #102 (2022-06-10) · [rulings](https://api.scryfall.com/cards/46738fb3-ab5e-486c-b66a-1526ba1cdfa8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2022-06-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2022-06-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2022-06-10* — Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability.
+  - *2022-06-10* — If a card refers to a commander creature you own, a Background won't usually be counted or included for that effect. If another spell or ability causes your Background to become a creature, however, it will be included. Any effect that refers to your commander or a commander you own or control without specifying creature will apply to a Background that is your commander, as appropriate.
+  - *2022-06-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2022-06-10* — If you control a Background that grants an ability to commander creatures you own, and you own more than one commander creature, each of them will have that ability.
+  - *2022-06-10* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
+  - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
+  - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/102/vhal-candlekeep-researcher) · oracle_id `7253e7d1-b1df-4637-bf64-850be7fa5188` · printing: CLB #102 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vhati il-Dal
 
@@ -34,4 +45,6 @@
 - **Flavor text** (TPR printing):
   > *"Sir, I just thought . . . ," explained Vhati. "Don't think," interrupted Greven. "It doesn't suit you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17987 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/214/vhati-il-dal) · oracle_id `1759547a-52b3-4bae-817a-658a6fd047e3` · printing: TPR #214 (2015-05-06) · [rulings](https://api.scryfall.com/cards/a8564611-b678-4336-87e0-5a00a930de48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — You don’t choose whether to affect the targeted creature’s power or its toughness until the ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tpr/214/vhati-il-dal) · oracle_id `1759547a-52b3-4bae-817a-658a6fd047e3` · printing: TPR #214 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

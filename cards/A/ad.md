@@ -81,7 +81,24 @@
   > 12+ | {3}{W}, {T}: Create a token that's a copy of target artifact or enchantment you control, except it's legendary. Activate only as a sorcery.
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1590 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/250/adagia-windswept-bastion) · oracle_id `70d35dbd-1d91-4a2a-a643-6870d168f4f5` · printing: EOE #250 (2025-08-01) · [rulings](https://api.scryfall.com/cards/c634273a-94b0-4104-9d10-ae522ece1fc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2025-07-25* — A station card is a card with the station keyword ability. The station keyword means “Tap another untapped creature you control: Put a number of charge counters on this permanent equal to the tapped creature’s power. Activate only as a sorcery.”
+  - *2025-07-25* — Any enters abilities of the copied permanent will trigger when the token enters. Any “as [this permanent] enters” or “[this permanent] enters with” abilities of the copied permanent will also work.
+  - *2025-07-25* — Each station card has one or more striations in its text box. Each striation is preceded by a station symbol—a circle surrounding a number and a plus sign.
+  - *2025-07-25* — Each station symbol represents an ability. A station symbol means “As long as this permanent has N or more charge counters on it, it has [abilities],” where N is the number inside the symbol and [abilities] are all the abilities found inside the same striation as that symbol.
+  - *2025-07-25* — Even if a permanent with station has equal or greater charge counters than the number in its last station symbol, you can still activate its station ability. Adding more charge counters won’t give it additional abilities, but other effects or cards might make those extra counters relevant.
+  - *2025-07-25* — If Adagia creates a token copy of an Aura, you choose what the token is enchanting as it enters the battlefield. This doesn’t target the player or permanent it will enchant, so a player or permanent with hexproof may be chosen this way. The chosen recipient must be able to legally be enchanted by the Aura, so a player or permanent with protection from one of the Aura’s qualities can’t be chosen this way. If there’s nothing legal for the Aura token to enchant, the token is never created.
+  - *2025-07-25* — If Adagia’s last ability creates a token copy of a nonlegendary permanent, you’ll control two permanents with the same name, but only one of them (the newly created token) will be legendary. You won’t put any of them into their owners’ graveyards.
+  - *2025-07-25* — If a permanent with station becomes a creature, it will be able to attack if it’s been under your control continuously since the turn began. That is, it doesn’t matter how long it’s been a creature, just how long it’s been on the battlefield.
+  - *2025-07-25* — If another permanent becomes a copy of a permanent represented by a station card, all of its printed abilities, including the ones represented by station symbols, are copied. Its current characteristics and the number of charge counters on it are not copied. The abilities (and in some cases, types, power, and toughness) are determined based on the number of charge counters on the copy.
+  - *2025-07-25* — If the copied permanent is a token, the token that’s created copies the original characteristics of that token as stated by the effect that created the token, with the listed exception.
+  - *2025-07-25* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied, with the listed exception.
+  - *2025-07-25* — If the tapped creature has negative power, no charge counters are put onto or removed from the permanent with station.
+  - *2025-07-25* — Planet is a land subtype with no special meaning. It doesn’t grant the land any intrinsic abilities.
+  - *2025-07-25* — The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether or not that permanent is a creature.
+  - *2025-07-25* — The token created by Adagia’s last ability copies exactly what was printed on the original permanent and nothing else, with the listed exception (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed. If it is an Equipment, it is not attached to any creature.
+  - *2025-07-25* — Use the tapped creature’s power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn’t on the battlefield at that time, use its power as it last existed on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eoe/250/adagia-windswept-bastion) · oracle_id `70d35dbd-1d91-4a2a-a643-6870d168f4f5` · printing: EOE #250 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adamant Will
 
@@ -92,6 +109,7 @@
 - **Flavor text** (FDN printing):
   > *"I refuse to die before I see the sun rise again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9133 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/488/adamant-will) · oracle_id `467e22c3-6107-40ff-afc7-5960710c970b` · printing: FDN #488 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1fd2c9ab-b3dd-4f68-b91f-0f075a045757/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adamaro, First to Desire
@@ -105,6 +123,7 @@
   > *"Beware Adamaro! In him all pain and anger is perfected."*
   > *—Isao, Enlightened Bushi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20058 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/91/adamaro-first-to-desire) · oracle_id `18f34bfd-7675-49df-91ea-695c510cd3c3` · printing: SOK #91 (2005-06-03) · [rulings](https://api.scryfall.com/cards/d2fa85ea-f5d5-4be3-a874-ce246c3e4245/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adanto Vanguard
@@ -116,7 +135,9 @@
   > As long as this creature is attacking, it gets +2/+0.
   > Pay 4 life: This creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/1/adanto-vanguard) · oracle_id `91c380f6-2c41-48b7-9f07-104e8659e397` · printing: XLN #1 (2017-09-29) · [rulings](https://api.scryfall.com/cards/21c950d7-b4f6-4902-8c9a-98f2933f9fa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-01-25* — An ability that triggers whenever a creature with a certain power attacks uses Adanto Vanguard's power after it has +2/+0 to determine whether it triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/1/adanto-vanguard) · oracle_id `91c380f6-2c41-48b7-9f07-104e8659e397` · printing: XLN #1 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Automaton
 
@@ -130,7 +151,11 @@
 - **Flavor text** (FDN printing):
   > *Such loyalty can only be made.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1780 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/723/adaptive-automaton) · oracle_id `53c730c6-2f8c-4af8-b400-b9d573a71e60` · printing: FDN #723 (2024-11-15) · [rulings](https://api.scryfall.com/cards/e35e614c-51a9-4d5c-b7fa-1a0a87108785/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Even though Adaptive Automaton is a Construct, other Construct creatures you control won't get +1/+1 unless you chose Construct as Adaptive Automaton entered the battlefield.
+  - *2024-11-08* — The choice of creature type is made as Adaptive Automaton enters. Players can't take any actions between the time the choice is made and the time the appropriate creatures begin to get +1/+1.
+  - *2024-11-08* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can't be chosen.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/723/adaptive-automaton) · oracle_id `53c730c6-2f8c-4af8-b400-b9d573a71e60` · printing: FDN #723 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Gemguard
 
@@ -142,7 +167,9 @@
 - **Flavor text** (LCI printing):
   > *Left to their own devices, gnomes reengineer their own devices.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20895 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/3/adaptive-gemguard) · oracle_id `2fdc0d15-ecb4-4a6d-be77-7a3fca188c9c` · printing: LCI #3 (2023-11-17) · [rulings](https://api.scryfall.com/cards/83c91e24-b7e8-4040-80cb-d1b375002c10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-11-10* — You can tap any two untapped artifacts and/or creatures you control, including Adaptive Gemguard itself and other creatures you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Adaptive Gemguard's activated ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/3/adaptive-gemguard) · oracle_id `2fdc0d15-ecb4-4a6d-be77-7a3fca188c9c` · printing: LCI #3 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Omnitool
 
@@ -154,6 +181,7 @@
   > Equip {3}
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1869 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdc/243/adaptive-omnitool) · oracle_id `e91240bc-4a13-4131-9379-5ddac6555f4a` · printing: FDC #243 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9e84f840-d7c6-4a82-8891-3d12281020ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Shimmerer
@@ -169,6 +197,7 @@
   > *—Kinnan, bonder prodigy*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/1/adaptive-shimmerer) · oracle_id `8003ca2d-0c1d-47c1-bcd1-4609615c7a82` · printing: IKO #1 (2020-04-24) · [rulings](https://api.scryfall.com/cards/d8a2e243-e446-46c6-8a37-e26620951c41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Snapjaw
@@ -183,7 +212,14 @@
   > *—Gulistan, Simic biomancer*
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22867 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/113/adaptive-snapjaw) · oracle_id `0a56e2ad-684d-45a7-9145-479d1505bba2` · printing: GTC #113 (2013-02-01) · [rulings](https://api.scryfall.com/cards/0d3c0c43-2d6d-49b8-a112-07611a23ae69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2013-04-15* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2013-04-15* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2013-04-15* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2013-04-15* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
+  - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/gtc/113/adaptive-snapjaw) · oracle_id `0a56e2ad-684d-45a7-9145-479d1505bba2` · printing: GTC #113 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Sporesinger
 
@@ -197,7 +233,14 @@
   > • Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
 - **Keywords:** Vigilance, Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11262 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/157/adaptive-sporesinger) · oracle_id `f6311b7a-7482-4b13-9f8f-13e80c98e98e` · printing: ONE #157 (2023-02-10) · [rulings](https://api.scryfall.com/cards/3db6d202-9c6f-4485-9224-173b23de7054/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/157/adaptive-sporesinger) · oracle_id `f6311b7a-7482-4b13-9f8f-13e80c98e98e` · printing: ONE #157 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Training Post
 
@@ -207,7 +250,16 @@
   > Whenever you cast an instant or sorcery spell, if this artifact has fewer than three charge counters on it, put a charge counter on it.
   > Remove three charge counters from this artifact: When you next cast an instant or sorcery spell this turn, copy it and you may choose new targets for the copy.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8323 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/18/adaptive-training-post) · oracle_id `a6657fcf-f08c-4b03-8ec8-cb0b194eb553` · printing: TDC #18 (2025-04-11) · [rulings](https://api.scryfall.com/cards/654a1564-0356-44ad-b1ab-8c1a556fc244/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2025-04-04* — After Adaptive Training Post’s last ability resolves, the next instant or sorcery spell you cast that turn will be copied whether or not it has targets.
+  - *2025-04-04* — If the copied spell divides damage or distributes counters among a number of targets, the division and number of targets can’t be changed. If you choose new targets, you must choose the same number of targets.
+  - *2025-04-04* — If the spell has any targets, the copy will have the same targets unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
+  - *2025-04-04* — If the spell that’s copied has an X whose value was determined as it was cast, the copy will have the same value of X.
+  - *2025-04-04* — If the spell that’s copied is modal (that is, it says “Choose one —” or the like), the copy will have the same mode or modes. You can’t choose different ones.
+  - *2025-04-04* — The copy created by Adaptive Training Post’s last ability resolves before the spell it’s copying. It resolves even if the original spell is countered before the copy is created.
+  - *2025-04-04* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
+  - *2025-04-04* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/18/adaptive-training-post) · oracle_id `a6657fcf-f08c-4b03-8ec8-cb0b194eb553` · printing: TDC #18 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Sentinel
 
@@ -220,6 +272,7 @@
   > *"We encountered the sentinels in the wastes, near no living thing. Their purpose was inscrutable."*
   > *—Disa the Restless, journal entry*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28979 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/201/adarkar-sentinel) · oracle_id `bd372a53-48f9-4e9a-ab00-0f9c4606d452` · printing: ME2 #201 (2008-09-22) · [rulings](https://api.scryfall.com/cards/3802c412-6c85-46aa-b21e-52edc0536f6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Unicorn
@@ -233,6 +286,7 @@
   > *"There is no nobler creature in all of Terisiare."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29758 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/1/adarkar-unicorn) · oracle_id `287cd5e8-51e2-42a4-a139-c112ff89706d` · printing: ICE #1 (1995-06-03) · [rulings](https://api.scryfall.com/cards/0ba7526f-dba8-4483-b925-946164fc0ae9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Valkyrie
@@ -247,7 +301,9 @@
   > *She doesn't escort the dead to the afterlife, but instead raises them to fight and die again.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8249 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/60/adarkar-valkyrie) · oracle_id `2932baae-bdf1-455a-9ac4-23ba1f83e7e1` · printing: C18 #60 (2018-08-10) · [rulings](https://api.scryfall.com/cards/fc2a4abc-85da-46a6-a616-9aa607ce7372/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-07-15* — Adarkar Valkyrie's ability can target a token creature, but since token creatures cease to exist when they leave the battlefield, it won't be returned to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/60/adarkar-valkyrie) · oracle_id `2932baae-bdf1-455a-9ac4-23ba1f83e7e1` · printing: C18 #60 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Wastes
 
@@ -259,6 +315,7 @@
 - **Flavor text** (EOC printing):
   > *Left barren by the Brothers' War, it stands as a stark reminder of Dominaria's likely fate should the Coalition fail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/147/adarkar-wastes) · oracle_id `d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b` · printing: EOC #147 (2025-08-01) · [rulings](https://api.scryfall.com/cards/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Windform
@@ -273,6 +330,7 @@
   > *Terisiare has only two kinds of weather: cold and weird.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/26/adarkar-windform) · oracle_id `dd66b8ab-14a9-455b-98f6-5356df72a522` · printing: CSP #26 (2006-07-21) · [rulings](https://api.scryfall.com/cards/c18bce4a-9afb-4b91-bc9a-d62634b0f8dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adder-Staff Boggart
@@ -284,6 +342,7 @@
   > When this creature enters, clash with an opponent. If you win, put a +1/+1 counter on this creature. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26908 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/148/adder-staff-boggart) · oracle_id `c95e75fb-2bf2-431c-b7ca-d84236bffe5c` · printing: LRW #148 (2007-10-12) · [rulings](https://api.scryfall.com/cards/d116839f-6a3a-4a2e-a3ab-ea177c012746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Additive Evolution
@@ -297,6 +356,7 @@
   > *"Numbers have no limits. Why should nature?"*
   > *—Emil, Quandrix fourth-year*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/139/additive-evolution) · oracle_id `ce1a6c1f-6b4e-4d19-b256-48d073b359b7` · printing: SOS #139 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b44ec684-d558-45eb-bcd6-8119428634c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Addle
@@ -309,6 +369,7 @@
   > *"I'll wring out your tiny mind like a sponge."*
   > *—Urborg witch*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23578 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/103/addle) · oracle_id `3745aea4-4455-4859-9772-bcfd14e4067b` · printing: VMA #103 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f7fcce83-4378-405f-8007-dd0ed002be6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adelbert Steiner
@@ -323,6 +384,7 @@
   > *"Chivalry requires a knight to look after his comrades-in-arms. I will not abandon you!"*
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6689 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/3/adelbert-steiner) · oracle_id `657a4500-4b47-4c78-945b-a7791af7d10e` · printing: FIN #3 (2025-06-13) · [rulings](https://api.scryfall.com/cards/1a67a991-1e52-4676-a2e3-2bc7aa943ab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adeline, Resplendent Cathar
@@ -336,7 +398,13 @@
   > Whenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #493 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/108/adeline-resplendent-cathar) · oracle_id `38515f89-348b-4cf3-b7bd-1f6fe4ce2fba` · printing: TDC #108 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1de30c12-2011-495a-be25-f7a46b23e142/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-09-24* — Although the Human tokens created by the triggered ability are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2021-09-24* — Attacking with any creatures will cause Adeline's last ability to trigger. Adeline doesn't have to be among them.
+  - *2021-09-24* — The ability that defines Adeline's power works in all zones, not just the battlefield. As long as Adeline is on the battlefield (and still a creature), that ability will count Adeline itself.
+  - *2021-09-24* — Tokens will be created for each of your opponents, not just opponents that you attacked.
+  - *2021-09-24* — You choose whether each token is attacking that opponent or a planeswalker they control as those tokens enter the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdc/108/adeline-resplendent-cathar) · oracle_id `38515f89-348b-4cf3-b7bd-1f6fe4ce2fba` · printing: TDC #108 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adeliz, the Cinder Wind
 
@@ -350,7 +418,10 @@
   > *The passionate intensity of the Ghitu tempered by the cool insight of Tolarian training.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10982 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dom/190/adeliz-the-cinder-wind) · oracle_id `850eb3c3-029b-49b0-91a9-6daeb1b3a9e8` · printing: DOM #190 (2018-04-27) · [rulings](https://api.scryfall.com/cards/b3c950e2-a43b-47f8-9ad6-1909ccc7acbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-04-27* — Adeliz's last ability affects only Wizards you control at the time it resolves, including Adeliz itself. Creatures you begin to control later in the turn or that become Wizards later in the turn won't get +1/+1.
+  - *2018-04-27* — Adeliz's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dom/190/adeliz-the-cinder-wind) · oracle_id `850eb3c3-029b-49b0-91a9-6daeb1b3a9e8` · printing: DOM #190 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adept Watershaper
 
@@ -362,7 +433,9 @@
 - **Flavor text** (ECL printing):
   > *"If even the simplest land-dweller can divert the river with no more than a shovel, just imagine what I can do."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6450 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/3/adept-watershaper) · oracle_id `602cce3e-7033-47d6-aec1-d755f234f270` · printing: ECL #3 (2026-01-23) · [rulings](https://api.scryfall.com/cards/6e53f246-8347-4632-9d5b-4aeb12f7b762/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-11-17* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if that creature becomes untapped or if Adept Watershaper leaves the battlefield during that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecl/3/adept-watershaper) · oracle_id `602cce3e-7033-47d6-aec1-d755f234f270` · printing: ECL #3 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adéwalé, Breaker of Chains
 
@@ -373,7 +446,10 @@
   > When Adéwalé enters, reveal the top six cards of your library. Put an Assassin, Pirate, or Vehicle card from among them into your hand and the rest on the bottom of your library in a random order.
   > Whenever a Vehicle you control deals combat damage to a player, you may return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6877 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/44/ad%C3%A9wal%C3%A9-breaker-of-chains) · oracle_id `e30d9e08-cf88-4e2d-95e1-7144d8fea5c7` · printing: ACR #44 (2024-07-05) · [rulings](https://api.scryfall.com/cards/914efc24-5c3a-4d22-9d77-fce337a08d4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Adéwalé's last ability triggers only if it's already in your graveyard as a Vehicle you control deals combat damage to a player.
+  - *2024-07-05* — If Adéwalé leaves your graveyard before its last ability resolves, the ability will have no effect, even if the card returns to your graveyard before that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/44/ad%C3%A9wal%C3%A9-breaker-of-chains) · oracle_id `e30d9e08-cf88-4e2d-95e1-7144d8fea5c7` · printing: ACR #44 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adherent of Hope
 
@@ -385,6 +461,7 @@
 - **Flavor text** (M21 printing):
   > *"Basri has shown me the way forward, and I will follow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29568 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/321/adherent-of-hope) · oracle_id `b5f5400e-f341-40e3-b935-36d9cf983a20` · printing: M21 #321 (2020-07-03) · [rulings](https://api.scryfall.com/cards/ce2bc7ad-458d-445e-a0a9-7897b596fdd0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adipose Offspring
@@ -397,7 +474,9 @@
   > When this creature enters, create a 2/2 white Alien creature token. If this creature's emerge cost was paid, instead create X of those tokens, where X is the sacrificed creature's toughness.
 - **Keywords:** Emerge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17809 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/10/adipose-offspring) · oracle_id `1e21e57e-3bc9-41a8-9746-57b583a5ad63` · printing: WHO #10 (2023-10-13) · [rulings](https://api.scryfall.com/cards/68f91092-b679-46c1-9f0c-3b286ee1d02f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2023-10-13* — For Adipose Offspring's last ability, use the toughness of the sacrificed creature as it existed when it was last on the battlefield, which may be different from its toughness in the graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/10/adipose-offspring) · oracle_id `1e21e57e-3bc9-41a8-9746-57b583a5ad63` · printing: WHO #10 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral Beckett Brass
 
@@ -410,7 +489,14 @@
 - **Flavor text** (LCC printing):
   > *"You and your ship will make a fine addition to my fleet."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6221 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/264/admiral-beckett-brass) · oracle_id `43b5e462-d860-473d-828f-6c513fc7768a` · printing: LCC #264 (2023-11-17) · [rulings](https://api.scryfall.com/cards/02cbd397-3ef3-465f-84fe-765dd1444af8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2017-09-29* — Admiral Beckett Brass's triggered ability checks what happened earlier in the turn. It doesn't care whether Admiral Beckett Brass was on the battlefield when those Pirates dealt combat damage, whether those creatures are still on the battlefield, or whether they're still Pirates.
+  - *2017-09-29* — If more than one player was dealt combat damage by three Pirates, you target only one permanent. It may be controlled by either of those players.
+  - *2017-09-29* — If one Pirate deals combat damage multiple times, most likely because it has double strike, it counts as only one of the three Pirates for Admiral Beckett Brass's triggered ability.
+  - *2017-09-29* — In a Two-Headed Giant game, combat damage dealt by Pirates your teammate controls will count when checking for Admiral Beckett Brass's ability.
+  - *2017-09-29* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
+  - *2017-09-29* — The control-change effect of Admiral Beckett Brass's triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when you lose control of Admiral Beckett Brass.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/264/admiral-beckett-brass) · oracle_id `43b5e462-d860-473d-828f-6c513fc7768a` · printing: LCC #264 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral Brass, Unsinkable
 
@@ -422,7 +508,13 @@
   > At the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn. (If a creature with a finality counter on it would die, exile it instead.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7745 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/1/admiral-brass-unsinkable) · oracle_id `4df179b4-7c6b-4e63-9d7d-62f4df377989` · printing: LCC #1 (2023-11-17) · [rulings](https://api.scryfall.com/cards/bdc2d492-9d1e-4543-8b9c-c66ee67992ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-11-10* — Admiral Brass, Unsinkable's effect will overwrite any previous effects that set the returned creature's power and toughness to specific numbers. Effects that otherwise modify the returned creature's power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+  - *2023-11-10* — Finality counters aren't keyword counters, and a finality counter doesn't give any abilities to the permanent it's on. If that permanent loses its abilities and then would go to a graveyard, it will still be exiled instead.
+  - *2023-11-10* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
+  - *2023-11-10* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
+  - *2023-11-10* — Multiple finality counters on a single permanent are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/1/admiral-brass-unsinkable) · oracle_id `4df179b4-7c6b-4e63-9d7d-62f4df377989` · printing: LCC #1 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral's Order
 
@@ -435,7 +527,10 @@
   > *"Damn the cannons, mates. Charge!"*
 - **Keywords:** Raid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11499 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rix/31/admirals-order) · oracle_id `ae4fe5e0-408d-4398-84d7-a901b836df2a` · printing: RIX #31 (2018-01-19) · [rulings](https://api.scryfall.com/cards/80dc0310-afd9-49b4-b58f-a0e91120c38c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
+  - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rix/31/admirals-order) · oracle_id `ae4fe5e0-408d-4398-84d7-a901b836df2a` · printing: RIX #31 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admonition Angel
 
@@ -448,7 +543,13 @@
   > When this creature leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.
 - **Keywords:** Landfall, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/10/admonition-angel) · oracle_id `78a7bb30-fc60-410c-b086-862b5521c1aa` · printing: ZNC #10 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a6e7713d-6054-46a7-a8bc-f09e7a81a571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2010-03-01* — Admonition Angel's landfall ability and its last ability are linked. The last ability refers only to cards exiled with its landfall ability.
+  - *2010-03-01* — If Admonition Angel's landfall ability triggers, but the Angel leaves the battlefield before it resolves, its last ability will trigger and resolve first. All previously exiled cards will be returned to the battlefield. Then the landfall ability will resolve and exile the targeted permanent forever.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/10/admonition-angel) · oracle_id `78a7bb30-fc60-410c-b086-862b5521c1aa` · printing: ZNC #10 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ad Nauseam
 
@@ -459,7 +560,11 @@
 - **Flavor text** (2XM printing):
   > *When the task spilled over into undeath, he stopped calling it his life's work.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1362 · Game Changer: **yes** · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/76/ad-nauseam) · oracle_id `981b0e21-e5e6-4a1e-bfde-679d56623f7f` · printing: 2XM #76 (2020-08-07) · [rulings](https://api.scryfall.com/cards/a9f2c53e-ff58-4aa8-89a6-4f45628cc571/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — Each time you put the revealed card into your hand and lose the appropriate amount of life, you decide whether to continue by revealing another card. You don't decide in advance how many cards to put into your hand this way.
+  - *2026-03-20* — If a card in a player's library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+  - *2026-03-20* — You may continue to reveal cards with Ad Nauseam even if your life total has been reduced to 0 or less. If you continue, you will continue to lose life, dropping your life total into negative numbers. As soon as you stop, you'll lose the game as a state-based action.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/76/ad-nauseam) · oracle_id `981b0e21-e5e6-4a1e-bfde-679d56623f7f` · printing: 2XM #76 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adorable Kitten
 
@@ -469,7 +574,9 @@
 - **Oracle text:**
   > When this creature enters, roll a six-sided die. You gain life equal to the result.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/und/1/adorable-kitten) · oracle_id `748d5353-b66c-4d7a-8c55-0d28fefb1e2a` · printing: UND #1 (2020-02-29) · [rulings](https://api.scryfall.com/cards/d25ff6aa-a01d-49f2-926f-8f5457143b5c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-01-19* — Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature.
+- **Source flags:** [Scryfall](https://scryfall.com/card/und/1/adorable-kitten) · oracle_id `748d5353-b66c-4d7a-8c55-0d28fefb1e2a` · printing: UND #1 (2020-02-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adorned Crocodile
 
@@ -484,7 +591,9 @@
   > *—Visk, Qarsi Palace caretaker*
 - **Keywords:** Renew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/69/adorned-crocodile) · oracle_id `fb49c7d2-d750-4676-b90e-76e7fae70a25` · printing: TDM #69 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bb13a34b-6ac8-47cb-9e91-47106a585fc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/69/adorned-crocodile) · oracle_id `fb49c7d2-d750-4676-b90e-76e7fae70a25` · printing: TDM #69 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adorned Pouncer
 
@@ -496,7 +605,13 @@
   > Eternalize {3}{W}{W} ({3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.)
 - **Keywords:** Double strike, Eternalize
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/2/adorned-pouncer) · oracle_id `80b8ee3d-4174-4f47-a533-a3db1e703382` · printing: HOU #2 (2017-07-14) · [rulings](https://api.scryfall.com/cards/865e267d-450c-4eeb-b61d-bd0ec5d8534a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2017-07-14* — For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token.
+  - *2017-07-14* — If a creature card with eternalize is put into your graveyard during your main phase, you'll have priority immediately afterward. You can activate its eternalize ability before any player can try to exile it, such as with Crook of Condemnation, if it's legal for you to do so.
+  - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+  - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
+  - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/2/adorned-pouncer) · oracle_id `80b8ee3d-4174-4f47-a533-a3db1e703382` · printing: HOU #2 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrenaline Jockey
 
@@ -509,7 +624,11 @@
 - **Flavor text** (DFT printing):
   > *"Either I win or we both lose. Take your pick."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15578 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/112/adrenaline-jockey) · oracle_id `c3dc6b0e-8790-4bd3-b166-63b2dc77488f` · printing: DFT #112 (2025-02-14) · [rulings](https://api.scryfall.com/cards/c8655373-320d-440d-b700-d03413f743fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/112/adrenaline-jockey) · oracle_id `c3dc6b0e-8790-4bd3-b166-63b2dc77488f` · printing: DFT #112 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrestia
 
@@ -522,7 +641,11 @@
   > Crew 1
 - **Keywords:** Landwalk, Crew, Islandwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8616 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/68/adrestia) · oracle_id `94779ca4-c202-4163-9c77-1036921a34bc` · printing: ACR #68 (2024-07-05) · [rulings](https://api.scryfall.com/cards/b3d878fc-cc21-407f-b3cc-95bf2d717a80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-07-05* — Adrestia’s second ability will trigger as long as it was crewed by an Assassin this turn, even if that creature has left the battlefield or stopped being an Assassin since.
+  - *2024-07-05* — Adrestia’s second ability will trigger only if it was crewed this turn by a creature that was an Assassin when it was tapped to pay the cost of Adrestia’s crew ability.
+  - *2024-07-05* — When Adrestia attacks, if it hasn’t already been crewed by an Assassin this turn, its second ability won’t trigger at all. It’s not possible to crew it with an Assassin after it attacks in time to have the ability trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/68/adrestia) · oracle_id `94779ca4-c202-4163-9c77-1036921a34bc` · printing: ACR #68 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adriana, Captain of the Guard
 
@@ -534,7 +657,12 @@
   > Other creatures you control have melee. (If a creature has multiple instances of melee, each triggers separately.)
 - **Keywords:** Melee
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4917 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/139/adriana-captain-of-the-guard) · oracle_id `de23275e-e9c1-4151-aed8-f79ead03d5d4` · printing: DMC #139 (2022-09-09) · [rulings](https://api.scryfall.com/cards/01c2337d-1c3c-4c5e-8b06-dc8a8c56164e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2016-08-23* — Creatures that enter the battlefield attacking were never declared as attackers, so they won't count toward melee's effect. Similarly, if a creature with melee enters the battlefield attacking, melee won't trigger.
+  - *2016-08-23* — It doesn't matter how many creatures you attacked a player with, only that you attacked a player with at least one creature. For example, if you attack one player with Wings of the Guard and another player with five creatures, Wings of the Guard will get +2/+2 until end of turn.
+  - *2016-08-23* — Melee will trigger if the creature with melee attacks a planeswalker. However, the effect counts only opponents (and not planeswalkers) that you attacked with a creature when determining the bonus.
+  - *2016-08-23* — You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn't matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn't matter if the opponent you attacked is still in the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/139/adriana-captain-of-the-guard) · oracle_id `de23275e-e9c1-4151-aed8-f79ead03d5d4` · printing: DMC #139 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adriana's Valor
 
@@ -545,7 +673,24 @@
   > Whenever a creature you control with the chosen name attacks, you may pay {W}. If you do, that creature gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Keywords:** Hidden agenda
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/1/adrianas-valor) · oracle_id `512a9ab9-ddd4-4872-b4f4-dee56f9f5575` · printing: CN2 #1 (2016-08-26) · [rulings](https://api.scryfall.com/cards/8bfd6889-90e2-49fe-bd30-7d850dc18db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy with hidden agenda that has a triggered ability must be face up before that ability's trigger condition is met in order for it to trigger. Turning it face up afterward won't have any effect.
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn't use the stack and can't be responded to. Once face up, the named card is revealed and the conspiracy's abilities will affect the game.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players.
+  - *2016-08-23* — At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can't bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — If you play multiple games after the draft, you can name a different card in each new game.
+  - *2016-08-23* — The last ability triggers once for each creature with the chosen name that attacks. You choose whether to pay {W} as the ability resolves. Notably, someone could respond to the ability and destroy the creature before it gains indestructible.
+  - *2016-08-23* — There are several ways to secretly name a card, including writing the name on a piece of paper that's kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It's important that each named card is clearly associated with only one of the conspiracies.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+  - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
+  - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/1/adrianas-valor) · oracle_id `512a9ab9-ddd4-4872-b4f4-dee56f9f5575` · printing: CN2 #1 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adric, Mathematical Genius
 
@@ -558,7 +703,29 @@
   > Doctor's companion (You can have two commanders if the other is the Doctor.)
 - **Keywords:** Ultimate Sacrifice, Doctor's companion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8096 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Doctor's companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/33/adric-mathematical-genius) · oracle_id `af566158-23b2-4f91-8d59-a58342a9f576` · printing: WHO #33 (2023-10-13) · [rulings](https://api.scryfall.com/cards/1f290a17-699e-420d-8322-3e28300a0d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (21):
+  - *2023-10-13* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
+  - *2023-10-13* — Adric, Mathematical Genius can copy any activated or triggered ability on the stack, not just one with targets.
+  - *2023-10-13* — Adric, Mathematical Genius's first ability targets an activated or triggered ability that is on the stack and creates another instance of that ability on the stack. It doesn't cause any object to gain an ability.
+  - *2023-10-13* — Although Doctor's companion is a new variant of the partner ability, the rules for partner have not otherwise changed. Notably, Time Lord Doctors and cards with Doctor's companion do not interact with cards which have another partner ability.
+  - *2023-10-13* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2023-10-13* — Any choices made when the ability resolves won't have been made yet when it's copied. Any such choices will be made separately when the copy resolves. Most notably, if a triggered ability asks its controller to pay a cost, you pay that cost for the copy if you wish to have it paid.
+  - *2023-10-13* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2023-10-13* — If an ability is linked to a second ability, copies of that first ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by the first ability and the copy. For example, if Fiend Hunter's enters-the-battlefield ability is copied and two creatures are exiled, they both return when Fiend Hunter leaves the battlefield.
+  - *2023-10-13* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2023-10-13* — If the ability has damage divided as it was put onto the stack, the division can't be changed, although the targets receiving that damage still can. The same is true of abilities that distribute counters.
+  - *2023-10-13* — If the ability that's copied has an X whose value was determined as it was activated, the copy will have the same value of X.
+  - *2023-10-13* — If the ability that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
+  - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
+  - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
+  - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+  - *2023-10-13* — The copy is created on the stack, so it's not "activated." Creating the copy won't cause abilities that trigger when a player activates an ability to trigger. Abilities that say that a triggered ability triggers additional times won't apply to copying a triggered ability.
+  - *2023-10-13* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+  - *2023-10-13* — The copy will resolve before the original ability does.
+  - *2023-10-13* — The source of the copy from Adric, Mathematical Genius's first ability is the same as the source of the original ability.
+  - *2023-10-13* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
+  - *2023-10-13* — You can't choose to pay any activation costs for the copy. However, effects based on those costs that were paid for the original ability are copied as though those same costs were paid for the copy.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/33/adric-mathematical-genius) · oracle_id `af566158-23b2-4f91-8d59-a58342a9f576` · printing: WHO #33 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrix and Nev, Twincasters
 
@@ -570,7 +737,10 @@
   > If one or more tokens would be created under your control, twice that many of those tokens are created instead.
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1409 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/198/adrix-and-nev-twincasters) · oracle_id `12a6cad9-eb42-43bd-9e68-aaf862cd83db` · printing: MKC #198 (2024-02-09) · [rulings](https://api.scryfall.com/cards/b9c11061-bb34-4904-b9f1-ea106b517bbe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-06-18* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Adrix and Nev's replacement effect. For example, if an effect tells you to create a token "tapped and attacking" the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it (such as a Fractal token) the additional token will also get those counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/198/adrix-and-nev-twincasters) · oracle_id `12a6cad9-eb42-43bd-9e68-aaf862cd83db` · printing: MKC #198 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adult Gold Dragon
 
@@ -583,6 +753,7 @@
   > *Gold dragons are the greatest of the metallic dragons in size, power, and wisdom, and often take it upon themselves to safeguard mortal communities from evils that might threaten them.*
 - **Keywords:** Flying, Lifelink, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12571 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/216/adult-gold-dragon) · oracle_id `a361fdd1-7f97-4aed-8e24-ab2a03387f73` · printing: AFR #216 (2021-07-23) · [rulings](https://api.scryfall.com/cards/67a76010-d932-4727-8b5e-b8e2d14e1362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adun Oakenshield
@@ -596,6 +767,7 @@
   > *". . . And at his passing, the bodies of the world's great warriors shall rise from their graves and follow him to battle."*
   > *—The Anvilonian Grimoire*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24461 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/141/adun-oakenshield) · oracle_id `aefd49a4-ecec-42cb-b882-e5db7f81eff8` · printing: ME1 #141 (2007-09-10) · [rulings](https://api.scryfall.com/cards/184da30e-0db4-450c-8856-5c23088c35be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advanced Hoverguard
@@ -611,6 +783,7 @@
   > *—Bruenna, Neurok leader*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29127 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/22/advanced-hoverguard) · oracle_id `65dc61a4-9052-49d4-bce8-9c16f0339382` · printing: 5DN #22 (2004-06-04) · [rulings](https://api.scryfall.com/cards/7384d50a-5801-47ed-ab9f-5c7e4f1f20dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advanced Reconstruction
@@ -626,7 +799,11 @@
   > Spells you cast from anywhere other than your hand cost {2} less to cast.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9092 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/30/advanced-reconstruction) · oracle_id `f00bc101-8082-4459-b987-f0c4b7a12344` · printing: SOC #30 (2026-04-24) · [rulings](https://api.scryfall.com/cards/cc912fec-827d-4deb-8430-79f5ea31ca9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2026-03-20* — If multiple cards leave your graveyard at the same time, Advanced Reconstruction's level 2 ability will trigger only once.
+  - *2026-03-20* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Advanced Reconstruction's level 3 ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+  - *2026-03-20* — You pay all costs and follow all timing rules for cards played this way. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/30/advanced-reconstruction) · oracle_id `f00bc101-8082-4459-b987-f0c4b7a12344` · printing: SOC #30 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advanced Stitchwing
 
@@ -641,7 +818,9 @@
   > *—Stitcher Geralf*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21474 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/36/advanced-stitchwing) · oracle_id `7e5d2801-873f-4318-9c23-9a73e00e31a4` · printing: 2X2 #36 (2022-07-08) · [rulings](https://api.scryfall.com/cards/044b2bfc-a5cc-4505-831d-5e1e3a6fdb3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2016-07-13* — Advanced Stitchwing's last ability can only be activated while it's in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/36/advanced-stitchwing) · oracle_id `7e5d2801-873f-4318-9c23-9a73e00e31a4` · printing: 2X2 #36 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advanced Tactics
 
@@ -652,6 +831,7 @@
   > Creatures can't block creatures they aren't orthogonally adjacent to.
   > {1}: Move target creature you control one space left, right, up, or down. Any player may activate this ability.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04g/advanced-tactics) · oracle_id `468f4e8a-687f-4e45-8400-f75194b040cc` · printing: UNK #RR04g (2025-06-20) · [rulings](https://api.scryfall.com/cards/311ca06b-ff25-46c7-82d9-ca3bd1b8f081/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advance Scout
@@ -667,6 +847,7 @@
   > *—Oracle \*en\*-Vec*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25955 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/1/advance-scout) · oracle_id `831e2185-0bb2-45bb-99cd-d2091bad86f0` · printing: TMP #1 (1997-10-14) · [rulings](https://api.scryfall.com/cards/81ce7e1e-ffe5-4ced-8967-9a6917245240/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advancing the Spirit
@@ -679,6 +860,7 @@
 - **Flavor text** (MSC printing):
   > *"I am the old ways from which we came. I am here because the universe demanded it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21510 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/712/advancing-the-spirit) · oracle_id `c9949a5a-13d4-41ca-80fe-902b0ae71204` · printing: MSC #712 (2026-06-26) · [rulings](https://api.scryfall.com/cards/85d0495c-cca0-4aeb-a03e-2bc102b3c556/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advantageous Proclamation
@@ -691,7 +873,17 @@
 - **Flavor text** (CNS printing):
   > *"The beneficent council deems you worthy of favor. They hope this doesn't provoke envy from your peers."*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cns/1/advantageous-proclamation) · oracle_id `86373537-7424-416a-8d89-cc38f6538458` · printing: CNS #1 (2014-06-06) · [rulings](https://api.scryfall.com/cards/f8c37fe8-43b3-454e-a70b-5b0d0f396a33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2014-05-29* — In Limited formats (including Conspiracy Draft), the minimum deck size is generally 40 cards. With Advantageous Proclamation, your Conspiracy Draft deck must contain at least 35 cards.
+  - *2014-05-29* — The effect of Advantageous Proclamation is cumulative. If you have two in your command zone to start the game, your minimum deck size is reduced by ten, and so on.
+  - *2016-08-23* — A conspiracy doesn't count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)
+  - *2016-08-23* — A conspiracy's static and triggered abilities function as long as that conspiracy is face-up in the command zone.
+  - *2016-08-23* — Conspiracies are colorless, have no mana cost, and can't be cast as spells.
+  - *2016-08-23* — Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down.
+  - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
+  - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
+  - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cns/1/advantageous-proclamation) · oracle_id `86373537-7424-416a-8d89-cc38f6538458` · printing: CNS #1 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advent of the Wurm
 
@@ -702,6 +894,7 @@
 - **Flavor text** (MM3 printing):
   > *The consciousness of Mat'Selesnya does not always spread in peaceful ways.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15545 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/147/advent-of-the-wurm) · oracle_id `eb62aa4b-c11b-4195-ae85-cff8f78ce17b` · printing: MM3 #147 (2017-03-17) · [rulings](https://api.scryfall.com/cards/ba3b5e35-5448-4115-a9c5-6ac14013c904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventure Awaits
@@ -713,7 +906,9 @@
 - **Flavor text** (ZNR printing):
   > *"Good, we're all here. Let's get started!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14767 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/177/adventure-awaits) · oracle_id `70235727-e330-46fa-b057-ddbb55cd1ac3` · printing: ZNR #177 (2020-09-25) · [rulings](https://api.scryfall.com/cards/db50f988-da46-4b9b-9cc5-78497df2df8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-09-25* — If you draw a card this way, that card is the next one in your library after putting the five cards from the top of your library on the bottom.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/177/adventure-awaits) · oracle_id `70235727-e330-46fa-b057-ddbb55cd1ac3` · printing: ZNR #177 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurer Beguiler
 
@@ -723,6 +918,7 @@
 - **Oracle text:**
   > When Adventurer Beguiler enters the battlefield, choose target creature card on an adventure. That card is now on an adventure for you. (You can cast it from exile and your opponent can't.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UU05/adventurer-beguiler) · oracle_id `64a4041b-f828-4c8d-ab38-297f6cfae242` · printing: UNK #UU05 (2023-09-23) · [rulings](https://api.scryfall.com/cards/3abce24a-e6a9-4d40-90a6-f0206c78ac36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurer's Airship
@@ -736,6 +932,7 @@
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10666 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/252/adventurers-airship) · oracle_id `e3016295-00f7-4daf-91b0-57653733b103` · printing: FIN #252 (2025-06-13) · [rulings](https://api.scryfall.com/cards/0a1d6dcd-bd41-4f57-a35b-6613811fe4d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurers' Guildhouse
@@ -745,6 +942,7 @@
 - **Oracle text:**
   > Green legendary creatures you control have "bands with other legendary creatures." (Any legendary creatures can attack in a band as long as at least one has "bands with other legendary creatures." Bands are blocked as a group. If at least two legendary creatures you control, one of which has "bands with other legendary creatures," are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22057 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/300/adventurers-guildhouse) · oracle_id `bf29b215-d4f5-4641-97ef-b65d4c463e72` · printing: LEG #300 (1994-06-01) · [rulings](https://api.scryfall.com/cards/32865e68-5842-4f17-b2ea-4ffa743b511f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurer's Inn
@@ -758,7 +956,9 @@
   > *"Welcome! We have rooms for 200 gil a night. Would you like to stay and rest your body and mind?"*
   > *—Innkeep*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1457 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/271/adventurers-inn) · oracle_id `232bd88c-ecdb-43dd-b34a-d381cb3bedf2` · printing: FIN #271 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f0da2ee1-986e-4cbf-92eb-d96fdb572ca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/271/adventurers-inn) · oracle_id `232bd88c-ecdb-43dd-b34a-d381cb3bedf2` · printing: FIN #271 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventuring Gear
 
@@ -771,7 +971,13 @@
   > *An explorer's essentials in a wild world.*
 - **Keywords:** Equip, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6427 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/249/adventuring-gear) · oracle_id `17042684-7af4-43a6-88c7-885032cfb27c` · printing: FDN #249 (2024-11-15) · [rulings](https://api.scryfall.com/cards/361f9b99-5b5d-40da-b4b9-5ad90f6280ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2009-10-01* — If Adventuring Gear leaves the battlefield before its landfall ability resolves, the creature it was attached to at the time it left the battlefield gets +2/+2. If it wasn't attached to a creature at that time, nothing gets the bonus.
+  - *2009-10-01* — The landfall ability gives +2/+2 to the creature that's equipped by Adventuring Gear at the time that ability resolves. It doesn't matter what creature Adventuring Gear was attached to (if any) when it triggered. That bonus remains with that creature even if Adventuring Gear leaves the battlefield or becomes attached to a different creature later in the turn.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/249/adventuring-gear) · oracle_id `17042684-7af4-43a6-88c7-885032cfb27c` · printing: FDN #249 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurous Eater // Have a Bite
 
@@ -783,7 +989,23 @@
   > Put a +1/+1 counter on target creature. You gain 1 life.
 - **Keywords:** Prepared
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18299 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/72/adventurous-eater-have-a-bite) · oracle_id `02125db4-4507-467a-ac0c-406de2c7d533` · printing: SOS #72 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d40cc7da-c731-418e-8547-7033d1939450/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/72/adventurous-eater-have-a-bite) · oracle_id `02125db4-4507-467a-ac0c-406de2c7d533` · printing: SOS #72 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventurous Impulse
 
@@ -794,6 +1016,7 @@
 - **Flavor text** (IKO printing):
   > *An adventure without a companion is hardly an adventure at all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8503 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/142/adventurous-impulse) · oracle_id `5bf49f39-b3d5-4148-8dc2-b5b5011769d2` · printing: IKO #142 (2020-04-24) · [rulings](https://api.scryfall.com/cards/30811fb2-5767-4106-9a8d-6091f61969c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adverse Conditions
@@ -805,7 +1028,19 @@
   > Tap up to two target creatures. Those creatures don't untap during their controller's next untap step. Create a 1/1 colorless Eldrazi Scion creature token. It has "Sacrifice this token: Add {C}."
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21327 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/54/adverse-conditions) · oracle_id `7a5a81f7-1597-4972-8565-fd2a5667df99` · printing: BFZ #54 (2015-10-02) · [rulings](https://api.scryfall.com/cards/03d86e0b-294f-41b8-a5cd-d3144a019334/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2015-08-25* — A card with devoid is just colorless. It's not colorless and the colors of mana in its mana cost.
+  - *2015-08-25* — Adverse Conditions tracks the creatures, but not their controller. If either of the creatures changes controllers before its first controller's next untap step has come around, then it won't untap during its new controller's next untap step.
+  - *2015-08-25* — Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play.
+  - *2015-08-25* — Devoid works in all zones, not just on the battlefield.
+  - *2015-08-25* — Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1.
+  - *2015-08-25* — Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example.
+  - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
+  - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
+  - *2015-08-25* — Sacrificing an Eldrazi Scion creature token to add {C} is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2015-08-25* — Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won't resolve and none of its effects will happen. You won't get any Eldrazi Scions.
+  - *2015-08-25* — You can cast Adverse Conditions with no targets. When it resolves, you'll get an Eldrazi Scion. However, if you cast Adverse Conditions with any targets and all of those targets are illegal as it tries to resolve, it won't resolve and none of its effects will happen. You won't get the Eldrazi Scion in that case.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bfz/54/adverse-conditions) · oracle_id `7a5a81f7-1597-4972-8565-fd2a5667df99` · printing: BFZ #54 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advice from the Fae
 
@@ -815,7 +1050,13 @@
   > ({2/U} can be paid with any two mana or with {U}. This card's mana value is 6.)
   > Look at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22987 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/shm/28/advice-from-the-fae) · oracle_id `5063f015-bd1c-4e14-9888-63e202be2ac8` · printing: SHM #28 (2008-05-02) · [rulings](https://api.scryfall.com/cards/d874f345-e623-4317-9aa7-66d14a011303/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-05-01* — A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Advice from the Fae is blue, even if you spend six black mana to cast it.
+  - *2008-05-01* — A card with monocolored hybrid mana symbols in its mana cost has a mana value equal to the highest possible cost it could be cast for. Its mana value never changes. Thus, Advice from the Fae has a mana value of 6, even if you spend {U}{U}{U} to cast it.
+  - *2008-05-01* — If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Advice from the Fae by spending {U}{U}{U}, {2}{U}{U}, {4}{U}, or {6}.
+  - *2008-05-01* — If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana.
+  - *2008-05-01* — In a multiplayer game, compare the number of creatures you control with the number of creatures each other player controls. If any single player controls at least as many creatures as you, you get to put only one card into your hand.
+- **Source flags:** [Scryfall](https://scryfall.com/card/shm/28/advice-from-the-fae) · oracle_id `5063f015-bd1c-4e14-9888-63e202be2ac8` · printing: SHM #28 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advocate of the Beast
 
@@ -827,4 +1068,6 @@
 - **Flavor text** (M14 printing):
   > *"I am neither their drover nor their leader. To these majestic beasts, I am simply their herdmate and nothing more."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22189 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m14/164/advocate-of-the-beast) · oracle_id `1208cb6e-34b4-4a23-9a5b-a01229113e38` · printing: M14 #164 (2013-07-19) · [rulings](https://api.scryfall.com/cards/b1320400-5aa8-48d6-be84-197b4559456f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-07-01* — If you don't control any Beast creatures as your end step begins, the ability will be removed from the stack and will have no effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m14/164/advocate-of-the-beast) · oracle_id `1208cb6e-34b4-4a23-9a5b-a01229113e38` · printing: M14 #164 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

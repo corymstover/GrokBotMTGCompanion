@@ -26,6 +26,7 @@
   > *From its maw comes neither word nor whisper—only wind.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28061 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/59/mawcor) · oracle_id `4c0384d6-21cb-4645-b7a4-3af133e8a9a8` · printing: TPR #59 (2015-05-06) · [rulings](https://api.scryfall.com/cards/5baada74-d91e-4081-8d42-d165550b8373/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mawloc
@@ -38,7 +39,13 @@
   > Terror from the Deep — When this creature enters, it fights up to one target creature an opponent controls. If that creature would die this turn, exile it instead.
 - **Keywords:** Ravenous, Fight, Terror from the Deep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/133/mawloc) · oracle_id `e5d928dc-b465-4cf7-ab11-d5bd3328f8e7` · printing: 40K #133 (2022-10-07) · [rulings](https://api.scryfall.com/cards/bbec97ff-bb84-4496-9e09-d4fc1570c516/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-10-07* — A creature with ravenous gets its counters as it enters the battlefield. It doesn't enter the battlefield first and then get its counters. Any triggered ability that looks for a creature with a certain power or toughness entering the battlefield will see the counters when it checks to see if it should trigger.
+  - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
+  - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
+  - *2022-10-07* — The creature Mawloc fights will be exiled instead of going to the graveyard if it would die on the same turn for any reason, not just because of the damage from fighting Mawloc. This is true even if Mawloc has left the battlefield by that time.
+  - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/133/mawloc) · oracle_id `e5d928dc-b465-4cf7-ab11-d5bd3328f8e7` · printing: 40K #133 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maw of Kozilek
 
@@ -53,6 +60,7 @@
   > *—Gideon Jura*
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30100 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/99/maw-of-kozilek) · oracle_id `11b529f0-e365-4500-b54a-44e2ac6e709f` · printing: OGW #99 (2016-01-22) · [rulings](https://api.scryfall.com/cards/48669993-ad68-499e-8f2e-bc5c651b4b28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maw of the Mire
@@ -64,7 +72,9 @@
 - **Flavor text** (ISD printing):
   > *As the chapel was dragged under, the bell in the tower rang until the murky depths forever silenced its toll.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26607 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/isd/108/maw-of-the-mire) · oracle_id `44e9030d-dd49-46b4-a0eb-75a49b6638a2` · printing: ISD #108 (2011-09-30) · [rulings](https://api.scryfall.com/cards/90b34a03-3270-412c-90ca-03c1b3e61222/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-09-22* — If the targeted land is an illegal target by the time Maw of the Mire resolves, it won’t resolve and none of its effects will occur. You won’t gain 4 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/isd/108/maw-of-the-mire) · oracle_id `44e9030d-dd49-46b4-a0eb-75a49b6638a2` · printing: ISD #108 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maw of the Obzedat
 
@@ -76,4 +86,5 @@
 - **Flavor text** (DGM printing):
   > *The devout sacrifice themselves to it hoping for escape from their debts to the guild, but many end up owing in the afterlife.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21842 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dgm/83/maw-of-the-obzedat) · oracle_id `ed8ec935-3359-42a1-8ac6-cac6f0e7f905` · printing: DGM #83 (2013-05-03) · [rulings](https://api.scryfall.com/cards/cd1131c6-04da-4c4d-ab61-874ac5be7087/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -74,7 +74,12 @@
   > • Counter target artifact or enchantment spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
   > • Counter target activated or triggered ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6512 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/45/defabricate) · oracle_id `60fc5eb0-95d6-49b0-a538-945ef599e484` · printing: BRO #45 (2022-11-18) · [rulings](https://api.scryfall.com/cards/7dd32168-0b9c-4633-adec-d41cf125cc35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip and unearth) are activated abilities and will have colons in their reminder text.
+  - *2022-10-14* — The last mode can target delayed triggered abilities. Notably, it can target the delayed triggered ability that exiles an unearthed permanent at the beginning of the next end step. If that delayed triggered ability is countered, the unearthed permanent remains on the battlefield indefinitely. It will still be exiled, however, if it would die or otherwise leave the battlefield for any other reason.
+  - *2022-10-14* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+  - *2022-10-14* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted. Mana abilities also can't be targeted.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/45/defabricate) · oracle_id `60fc5eb0-95d6-49b0-a538-945ef599e484` · printing: BRO #45 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deface
 
@@ -88,6 +93,7 @@
   > *"Leave no stone unturned."*
   > *—Ruric Thar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19297 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/98/deface) · oracle_id `390290b3-77cc-4180-8e6c-9cb808f6ac7a` · printing: RNA #98 (2019-01-25) · [rulings](https://api.scryfall.com/cards/43df9f41-944e-4cf3-ac80-524eadac221d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defacing Duskmage // Vandal's Edit
@@ -101,7 +107,24 @@
   > Draw two cards. Each player loses 2 life.
 - **Keywords:** Prepared, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8003 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/45/defacing-duskmage-vandals-edit) · oracle_id `27c366cf-00d7-47d4-9577-736bfc4a3b81` · printing: SOC #45 (2026-04-24) · [rulings](https://api.scryfall.com/cards/c35a1c6f-1656-4619-9ab8-40044c857a7f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2026-03-20* — A creature with a prepare spell can't become prepared more than once at the same time. For example, Emeritus of Ideation is on the battlefield and is prepared. When it attacks, its last ability triggers. When that ability resolves, its controller may still exile eight cards from their graveyard, but doing so won't cause Emeritus of Ideation to become prepared a second time or create a second copy of Ancestral Recall in exile.
+  - *2026-03-20* — A creature without a prepare spell can't become prepared.
+  - *2026-03-20* — A preparation card is a creature card in every zone. For example, while it's in your graveyard, Emeritus of Ideation is a blue creature whose mana value is 5. It can't be the target of Zealous Lorecaster's triggered ability ("When this creature enters, return target instant or sorcery card from your graveyard to your hand.").
+  - *2026-03-20* — As an effect causes a creature with a prepare spell to become prepared (including effects that state that a creature "enters prepared"), that creature's controller creates a copy of that creature's prepare spell in exile. That copy remains in exile for as long as that permanent is on the battlefield and is prepared. That creature's controller may cast that copy as long as it remains in exile. As they cast it, that creature stops being prepared.
+  - *2026-03-20* — Being prepared isn't a copiable value. If a permanent becomes a copy of a prepared creature, it won't be prepared. That permanent will have the alternative characteristics, though, and some other effect could cause it to become prepared later.
+  - *2026-03-20* — Casting a copy of a prepare spell from exile isn't casting it for an alternative cost. Effects that allow you to cast a spell for an alternative cost or without paying its mana cost may allow you to apply those to a copy of a prepare spell cast from exile.
+  - *2026-03-20* — Creating a copy of a creature's prepare spell in exile ignores copy exceptions applied to that creature that would affect the copiable values of that spell. For example, say a player casts Croaking Counterpart (a sorcery that says "Create a token that's a copy of target non-Frog creature, except it's a 1/1 green Frog.") targeting Goblin Glasswright. The token copy of Goblin Glasswright will enter prepared as a 1/1 green Frog creature, but the copy of Craft with Pride in exile will still be a red sorcery. The copy of Craft with Pride won't be green, a creature, or a Frog, and it won't have power or toughness.
+  - *2026-03-20* — Defacing Duskmage doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when an opponent draws their second card in a turn, that ability will trigger.
+  - *2026-03-20* — If a prepare spell with one or more targets has no legal targets when it tries to resolve, it won't resolve and none of its effects will happen. Since the spell was cast, the associated permanent will still not be prepared.
+  - *2026-03-20* — If a prepared creature loses all abilities, it won't stop being prepared, and nothing will happen to its alternative characteristics or to the copy of its prepare spell in exile.
+  - *2026-03-20* — If a prepared creature stops being a creature, it will still be prepared, and the copy of its prepare spell will remain in exile. That permanent's controller will still be able to cast it. The same is true if a prepared creature becomes a copy of something else, even if it's then a permanent without a prepare spell.
+  - *2026-03-20* — If an effect causes a creature to become unprepared, a prepared creature stops being prepared and the associated copy of its prepare spell in exile ceases to exist. If it wasn't prepared at that time, nothing happens.
+  - *2026-03-20* — If an effect instructs you to choose a card name, you may choose the alternative prepare spell's name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
+  - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
+  - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
+  - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/45/defacing-duskmage-vandals-edit) · oracle_id `27c366cf-00d7-47d4-9577-736bfc4a3b81` · printing: SOC #45 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defang
 
@@ -114,6 +137,7 @@
   > *Once vampires are disarmed, they're given wooden swords and forced to assist in the training of Midnight Duelists.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22498 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/15/defang) · oracle_id `5a6c81b8-71f0-468b-85ad-d87e9a712ecf` · printing: AVR #15 (2012-05-04) · [rulings](https://api.scryfall.com/cards/f12fee0b-c237-4188-a718-1572f72c63ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defeat
@@ -126,6 +150,7 @@
   > *"Wars are decided one life at a time."*
   > *—Gvar Barzeel, Kolaghan warrior*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28081 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/97/defeat) · oracle_id `21645448-ecbd-4036-b9ed-47cd903079e4` · printing: DTK #97 (2015-03-27) · [rulings](https://api.scryfall.com/cards/60473300-0bdc-4e89-87d9-28c8d7b4d83d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defective Detective
@@ -139,7 +164,11 @@
 - **Flavor text** (UST printing):
   > *Nothing gets by her . . . except the evidence, the motive, and the culprit.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ust/32/defective-detective) · oracle_id `282bcb1b-3dfd-44aa-99b3-04012316ec60` · printing: UST #32 (2017-12-08) · [rulings](https://api.scryfall.com/cards/42f829be-d4f5-4231-a45d-1869222e5e24/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-01-19* — If there’s no one around to make a decision, you can call or text someone if you need to. If there’s a physical action required, such as high-fiving, you’ll need someone there.
+  - *2018-01-19* — It doesn’t have to be someone who plays Magic. This may be fun.
+  - *2018-01-19* — You can choose any player not currently in your game. This includes people who used to be in your game but left it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ust/32/defective-detective) · oracle_id `282bcb1b-3dfd-44aa-99b3-04012316ec60` · printing: UST #32 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender en-Vec
 
@@ -151,6 +180,7 @@
   > Remove a fade counter from this creature: Prevent the next 2 damage that would be dealt to any target this turn.
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31668 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/5/defender-en-vec) · oracle_id `bb8a55a5-596e-427c-b745-4de8b0dfb095` · printing: NEM #5 (2000-02-14) · [rulings](https://api.scryfall.com/cards/e7b224b7-d5f7-4515-beca-523f305ee3b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender of Chaos
@@ -165,7 +195,9 @@
   > *Some knights will not follow orders—only disorder.*
 - **Keywords:** Protection, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/75/defender-of-chaos) · oracle_id `e5f04e8a-e9ae-4f00-8ada-f63b3454ed30` · printing: ULG #75 (1999-02-15) · [rulings](https://api.scryfall.com/cards/717ae26a-e5a0-4478-9995-00ea6bd84c03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This card is always a creature spell and is never an instant spell, no matter when you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/75/defender-of-chaos) · oracle_id `e5f04e8a-e9ae-4f00-8ada-f63b3454ed30` · printing: ULG #75 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender of Law
 
@@ -179,7 +211,9 @@
   > *"It is not my place to question Radiant's rule. I exist to enforce her will."*
 - **Keywords:** Protection, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29585 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/5/defender-of-law) · oracle_id `656513cf-1bf0-431e-8d3a-2d1ec79d0bec` · printing: ULG #5 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9c8e8719-8c33-429d-8b95-b7f813888850/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — This card is always a creature spell and is never an instant spell, no matter when you cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/5/defender-of-law) · oracle_id `656513cf-1bf0-431e-8d3a-2d1ec79d0bec` · printing: ULG #5 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender of the Order
 
@@ -191,7 +225,9 @@
   > When this creature is turned face up, creatures you control get +0/+2 until end of turn.
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/11/defender-of-the-order) · oracle_id `f9f4c574-ddbe-4ebc-bfda-29cf3e4b7c44` · printing: LGN #11 (2003-02-03) · [rulings](https://api.scryfall.com/cards/236b1c88-20a0-479e-91fb-16bb77f699fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — The trigger occurs when you use the Morph ability to turn the card face up, or when an effect turns it face up. It will not trigger on being revealed or on leaving the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lgn/11/defender-of-the-order) · oracle_id `f9f4c574-ddbe-4ebc-bfda-29cf3e4b7c44` · printing: LGN #11 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defender of the Queue
 
@@ -202,7 +238,12 @@
   > Positioning (As this creature enters, lock your creatures in order from left to right for as long as you control a creature with positioning. Each time a creature enters or comes under your control, position it to the left or right of another creature you control.)
   > Adjacent creatures to the left and right of Defender of the Queue get +1/+1 and have vigilance.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/512/defender-of-the-queue) · oracle_id `14a40b09-13fe-402f-97d6-e08e0b5ff764` · printing: MB2 #512 (2024-08-02) · [rulings](https://api.scryfall.com/cards/43ac96ca-c25a-47fe-9194-ff3d2bf07854/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — If multiple creatures enter or come under your control at the same time, position them individually.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/512/defender-of-the-queue) · oracle_id `14a40b09-13fe-402f-97d6-e08e0b5ff764` · printing: MB2 #512 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defenders of Humanity
 
@@ -212,7 +253,9 @@
   > When this enchantment enters, create X 2/2 white Astartes Warrior creature tokens with vigilance.
   > {X}{2}{W}, Exile this enchantment: Create X 2/2 white Astartes Warrior creature tokens with vigilance. Activate only if you control no creatures and only during your turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11559 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/11/defenders-of-humanity) · oracle_id `7662af07-1ebc-4545-bffd-7a2e0c513b71` · printing: 40K #11 (2022-10-07) · [rulings](https://api.scryfall.com/cards/495c6b21-3e2b-417c-9387-6747993cbffe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-07* — X in the first ability is always calculated separately from X in the second ability, even if you activate second ability in response to the first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/11/defenders-of-humanity) · oracle_id `7662af07-1ebc-4545-bffd-7a2e0c513b71` · printing: 40K #11 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Campus
 
@@ -225,6 +268,7 @@
 - **Flavor text** (STX printing):
   > *Professors scrambled to push the mage hunters back, leaving the heart of Strixhaven undefended.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24837 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/12/defend-the-campus) · oracle_id `274c2781-f40a-49b4-a039-669739beaab6` · printing: STX #12 (2021-04-23) · [rulings](https://api.scryfall.com/cards/85e4e1b5-77d6-4af4-b22e-6f6b4d129f5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Celestus
@@ -236,7 +280,10 @@
 - **Flavor text** (MID printing):
   > *Witch, werewolf, and cathar stood shoulder to shoulder around the Sungold Lock at the center of the ritual, ready to stop Tovolar's assault—or die trying.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20535 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/182/defend-the-celestus) · oracle_id `c079a636-cfd4-49cd-bcd4-54375b3fa355` · printing: MID #182 (2021-09-24) · [rulings](https://api.scryfall.com/cards/c11e4420-06f3-48e2-91d1-a9199483add2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-09-24* — If some, but not all, of the target creatures are illegal targets as Defend the Celestus resolves, the original distribution of counters remains the same. Counters that were to be put on the now-illegal targets are lost.
+  - *2021-09-24* — You decide how to distribute the counters as you cast Defend the Celestus. You must distribute at least one counter to each creature you target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/182/defend-the-celestus) · oracle_id `c079a636-cfd4-49cd-bcd4-54375b3fa355` · printing: MID #182 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Hearth
 
@@ -247,6 +294,7 @@
 - **Flavor text** (THS printing):
   > *The defenders said not a word. Their shields, spears, and stances were warning enough.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14792 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/156/defend-the-hearth) · oracle_id `1dd64972-5713-4c25-b7a5-a35a56886ef4` · printing: THS #156 (2013-09-27) · [rulings](https://api.scryfall.com/cards/c3e4c4c3-db3c-49d4-8080-1c93470f8b4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defend the Rider
@@ -260,6 +308,7 @@
 - **Flavor text** (DFT printing):
   > *Lagorin would not lose another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3245 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/157/defend-the-rider) · oracle_id `561af57d-d43d-4d98-9ef6-18a0843f22ae` · printing: DFT #157 (2025-02-14) · [rulings](https://api.scryfall.com/cards/59ed23a2-6153-47b2-ab73-062195cafb74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defenestrate
@@ -271,6 +320,7 @@
 - **Flavor text** (MID printing):
   > *The chaplain would perhaps have found some small comfort had he known that the replacement window would be named in his honor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18539 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/95/defenestrate) · oracle_id `caf840e8-c1d3-4570-8542-432a765c09ff` · printing: MID #95 (2021-09-24) · [rulings](https://api.scryfall.com/cards/df3abdcc-83a8-45c3-9bfd-23f929705018/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defenestrated Phantom
@@ -286,7 +336,20 @@
   > *—Teysa*
 - **Keywords:** Flying, Disguise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29790 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/11/defenestrated-phantom) · oracle_id `e73addfa-d18a-46f7-882e-7bc2f292230b` · printing: MKM #11 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8b284304-c3bf-4413-9fd3-b44eb4eb642a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-02-02* — A disguise ability lets you cast a card face down by paying {3} and announcing that you are using a disguise ability. Any time you have priority, you can turn a face-down permanent with disguise face up by paying its disguise cost.
+  - *2024-02-02* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-02-02* — Any time you have priority, you may turn the face-down creature face up by revealing what its disguise cost is and paying that cost. This is a special action. It doesn't use the stack and can't be responded to. Only a face-down permanent can be turned face up this way; a face-down spell cannot.
+  - *2024-02-02* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-02-02* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-02-02* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-02-02* — If a face-down creature loses its abilities, it can't be turned face up with a disguise ability because it will no longer have a disguise ability (or a disguise cost) once face up.
+  - *2024-02-02* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-02-02* — The creature spell is a 2/2 creature spell with ward {2} that has no name, mana cost, or creature types. The resulting creature is a 2/2 creature with ward {2} that has no name, mana cost, or creature types. Both the spell and the resulting creature are colorless and have a mana value of 0. Other effects that apply to the spell or creature can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
+  - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/11/defenestrated-phantom) · oracle_id `e73addfa-d18a-46f7-882e-7bc2f292230b` · printing: MKM #11 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense Force Aggressor
 
@@ -299,6 +362,7 @@
   > *"You play games with death, little warrior. I like it!"*
   > *—Captain Ma'ah*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32310 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/161/defense-force-aggressor) · oracle_id `8f1a39bf-7597-4655-b7af-4b1332edf529` · printing: TRC #161 (2026-11-13) · [rulings](https://api.scryfall.com/cards/67380a35-1a15-4c45-8a24-3c6077af85db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense Grid
@@ -310,7 +374,10 @@
 - **Flavor text** (9ED printing):
   > *It lights up the sky, beckoning enemies only to repel them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · [rulings](https://api.scryfall.com/cards/f939dac5-ad71-4163-adde-4f435412477c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — The additional cost can be reduced by effects that reduce costs, such as Sapphire Medallion.
+  - *2006-05-01* — In Two-Headed Giant, spells don't cost extra on your own turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/9ed/293/defense-grid) · oracle_id `22ba474e-f6e6-450d-a4cf-0739f0b51079` · printing: 9ED #293 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defense of the Heart
 
@@ -319,7 +386,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, if an opponent controls three or more creatures, sacrifice this enchantment, search your library for up to two creature cards, put those cards onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1304 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/100/defense-of-the-heart) · oracle_id `e7e1b166-9267-426d-897d-24903327b48d` · printing: ULG #100 (1999-02-15) · [rulings](https://api.scryfall.com/cards/9e93381f-627f-41b6-b1b6-45d712a44d8e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Defense of the Heart's ability will check if an opponent controls three or more creatures as your upkeep begins. If none of them do, the ability won't trigger at all. If an opponent does, the ability will check again as it tries to resolve. If none of your opponents control three or more creatures at that point, the ability won't do anything. The opponent that controls three or more creatures as the ability resolves doesn't have to be the same opponent that controlled three or more creatures as it triggered.
+  - *2023-09-01* — If Defense of the Heart leaves the battlefield while its triggered ability is on the stack, the ability will still resolve as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ulg/100/defense-of-the-heart) · oracle_id `e7e1b166-9267-426d-897d-24903327b48d` · printing: ULG #100 (1999-02-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defensive Formation
 
@@ -331,7 +401,9 @@
   > *"Your enemies will pound upon the door of your defenses, but only you shall have the key, and it is the key of life."*
   > *—\*Song of All\*, canto 873*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20813 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/usg/9/defensive-formation) · oracle_id `9386f4d3-aa72-4849-8921-83740762dc0e` · printing: USG #9 (1998-10-12) · [rulings](https://api.scryfall.com/cards/fdd76db0-1a67-4965-81a5-1d8d86b63971/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Damage assignment choices from Trample and other things which allow alternative damage assignments for attacking creatures are all made by you.
+- **Source flags:** [Scryfall](https://scryfall.com/card/usg/9/defensive-formation) · oracle_id `9386f4d3-aa72-4849-8921-83740762dc0e` · printing: USG #9 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defensive Maneuvers
 
@@ -342,6 +414,7 @@
 - **Flavor text** (ONS printing):
   > *"Only on the battlefield can we repay all the Order has given us."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/23/defensive-maneuvers) · oracle_id `812701c3-c9b7-4877-bf2e-c37e0f551c45` · printing: ONS #23 (2002-10-07) · [rulings](https://api.scryfall.com/cards/58f9eb25-4140-4ecf-bcaa-1b193d884007/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defensive Stance
@@ -356,6 +429,7 @@
   > *—Kara Vrist, Mirran resistance*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31233 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/34/defensive-stance) · oracle_id `19959b6d-eb8f-4273-94c8-65210e1998ab` · printing: NPH #34 (2011-05-13) · [rulings](https://api.scryfall.com/cards/d0670653-d4fe-4fac-b769-d19ca4698c97/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Bloodlord
@@ -371,7 +445,11 @@
   > *—Drana, Kalastria bloodchief*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5977 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/142/defiant-bloodlord) · oracle_id `7bf5196d-a16c-418f-943c-2128e40c55da` · printing: C21 #142 (2021-04-23) · [rulings](https://api.scryfall.com/cards/4e7ae077-52c7-49a1-a61a-61e50b494616/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-08-25* — A creature with lifelink dealing combat damage is a single life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice. However, if a single creature with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2015-08-25* — In a Two-Headed Giant game, life gained by your teammate won’t cause the ability to trigger, even though it causes your team’s life total to increase.
+  - *2015-08-25* — The ability triggers just once for each life-gaining event, whether it’s 1 life from Drana’s Emissary or 7 life from Nissa’s Renewal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/142/defiant-bloodlord) · oracle_id `7bf5196d-a16c-418f-943c-2128e40c55da` · printing: C21 #142 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Elf
 
@@ -384,6 +462,7 @@
   > *"I lost one home when Yavimaya was destroyed. I will not lose another."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23312 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/123/defiant-elf) · oracle_id `6faa29c4-582a-42d5-b80c-4dc0bd738493` · printing: LGN #123 (2003-02-03) · [rulings](https://api.scryfall.com/cards/3b7a0b8f-6942-40b0-8efc-234ae77855b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Falcon
@@ -396,7 +475,10 @@
   > {4}, {T}: Search your library for a Rebel permanent card with mana value 3 or less, put it onto the battlefield, then shuffle.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22103 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/6/defiant-falcon) · oracle_id `dc206e6a-e447-48d4-a91a-7c746320e2b4` · printing: NEM #6 (2000-02-14) · [rulings](https://api.scryfall.com/cards/4c80032b-daeb-4661-9a66-61abe9d12ddd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-10-04* — This card is both a Rebel and a Bird.
+  - *2004-10-04* — You do not have to find a Rebel card if you do not want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/6/defiant-falcon) · oracle_id `dc206e6a-e447-48d4-a91a-7c746320e2b4` · printing: NEM #6 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Greatmaw
 
@@ -407,7 +489,10 @@
   > When this creature enters, put two -1/-1 counters on target creature you control.
   > Whenever you put one or more -1/-1 counters on this creature, remove a -1/-1 counter from another target creature you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21998 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/163/defiant-greatmaw) · oracle_id `ee152ffa-9c39-48ed-9aca-e53c8ebb0231` · printing: AKH #163 (2017-04-28) · [rulings](https://api.scryfall.com/cards/b74cb0ba-c691-4823-aa94-399b1aaeaf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — If a creature with wither or infect deals damage to a creature, the controller of the creature with wither or infect puts that many -1/-1 counters on the second creature.
+  - *2017-04-18* — If you put enough -1/-1 counters on Defiant Greatmaw so that its toughness is 0 or less, its last ability triggers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/163/defiant-greatmaw) · oracle_id `ee152ffa-9c39-48ed-9aca-e53c8ebb0231` · printing: AKH #163 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Khenra
 
@@ -419,6 +504,7 @@
 - **Flavor text** (HOU printing):
   > *There were those who saw the death of the gods and the city's collapse as a final test of worth. Some believed it meant the God-Pharaoh had been killed. Only a few realized they had been deceived.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/89/defiant-khenra) · oracle_id `0e6fe04f-b20d-4df9-a7ac-edebc3bcc9be` · printing: HOU #89 (2017-07-14) · [rulings](https://api.scryfall.com/cards/67e3983d-b1ed-46a9-9ab0-96c4d0d77050/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Ogre
@@ -433,7 +519,10 @@
 - **Flavor text** (FRF printing):
   > *"I have no clan, but I still have purpose."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28603 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/96/defiant-ogre) · oracle_id `db849660-1ad4-4af4-8822-40ba6c0b6d73` · printing: FRF #96 (2015-01-23) · [rulings](https://api.scryfall.com/cards/09cfd3d5-1b44-4dc7-b35d-703f3a75da88/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — If a mode requires a target and there are no legal targets available, that mode can't be chosen. You must choose another mode if able.
+  - *2014-11-24* — You choose which mode you're using as you put the ability on the stack, after the creature has entered the battlefield. Once you've chosen a mode, you can't change that mode even if the creature leaves the battlefield in response to that ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/96/defiant-ogre) · oracle_id `db849660-1ad4-4af4-8822-40ba6c0b6d73` · printing: FRF #96 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Salvager
 
@@ -445,7 +534,10 @@
 - **Flavor text** (CMR printing):
   > *"I didn't survive that crash just so I could fall to the likes of you."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19197 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/117/defiant-salvager) · oracle_id `2a8c9ef7-8171-4f6f-bf39-4a08d127e729` · printing: CMR #117 (2020-11-20) · [rulings](https://api.scryfall.com/cards/cfd1c30e-e539-4382-b0fd-724a502a4b7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2020-11-10* — If you sacrifice an artifact creature to activate Defiant Salvager's ability, you put one +1/+1 counter on Defiant Salvager, not two.
+  - *2020-11-10* — You can sacrifice Defiant Salvager to activate its own ability. It won't receive a counter, but abilities that trigger on the sacrifice or watch for a creature dying will see it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/117/defiant-salvager) · oracle_id `2a8c9ef7-8171-4f6f-bf39-4a08d127e729` · printing: CMR #117 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Stand
 
@@ -455,6 +547,7 @@
   > Cast this spell only during the declare attackers step and only if you've been attacked this step.
   > Target creature gets +1/+3 until end of turn. Untap that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31775 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/12/defiant-stand) · oracle_id `05e61628-cdae-4664-b866-be438fb3a6ba` · printing: POR #12 (1997-05-01) · [rulings](https://api.scryfall.com/cards/9cc37fd2-5c34-4522-8113-e6dd2181550b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Strike
@@ -467,7 +560,9 @@
 - **Flavor text** (M21 printing):
   > *"My family was saved thanks to a single Boros soldier. It's why I joined the Legion. I will be the protector now."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5714 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/15/defiant-strike) · oracle_id `f8c2d9c5-6fe6-4698-9972-83cdd625d94b` · printing: M21 #15 (2020-07-03) · [rulings](https://api.scryfall.com/cards/5c23869b-c99a-49dd-9e29-fcc0eb63fad1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If the target creature is an illegal target by the time Defiant Strike tries to resolve, the spell won't resolve. You won't draw a card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/15/defiant-strike) · oracle_id `f8c2d9c5-6fe6-4698-9972-83cdd625d94b` · printing: M21 #15 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Survivor
 
@@ -480,7 +575,28 @@
   > *"The dark should be scared of me!"*
 - **Keywords:** Manifest, Survival, Manifest dread
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17120 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/175/defiant-survivor) · oracle_id `7b62c53a-46a2-4c57-9eab-0c6706795b4e` · printing: DSK #175 (2024-09-27) · [rulings](https://api.scryfall.com/cards/327772f3-5a87-47af-9308-c1119ad2711d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (20):
+  - *2024-09-20* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent and Auras and Equipment that were attached to that permanent aren't affected unless the new characteristics of the object change the legality of those targets or attachments.
+  - *2024-09-20* — Any time you have priority, you can turn a manifested permanent you control face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — At any time, you can look at a face-down spell or permanent you control. You can't look at face-down permanents or spells you don't control unless an effect instructs or allows you to do so.
+  - *2024-09-20* — Because face-down creatures don't have a name, they can't have the same name as any other creature, even another face-down creature.
+  - *2024-09-20* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2024-09-20* — If a creature with a survival ability isn't tapped when your second main phase begins, the ability won't trigger at all. You won't be able to tap it during your second main phase in time to have that ability trigger.
+  - *2024-09-20* — If a creature's survival ability triggers but that creature is untapped when the ability begins to resolve, that ability won't do anything.
+  - *2024-09-20* — If a creature's survival ability triggers but the creature leaves the battlefield before the ability resolves, use its tapped or untapped status as it last existed on the battlefield to determine whether or not the ability will do anything.
+  - *2024-09-20* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2024-09-20* — If a face-down creature loses its abilities, it can't be turned face up with a disguise or morph ability because it will no longer have that ability (or the associated cost) once face up.
+  - *2024-09-20* — If a face-down spell leaves the stack and goes to any zone other than the battlefield (if it was countered, for example), you must reveal it. Similarly, if a face-down permanent leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or the game ends.
+  - *2024-09-20* — If a manifested creature would have disguise or morph if it were face up, you may also turn it face up by paying its disguise or morph cost, as appropriate.
+  - *2024-09-20* — If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2024-09-20* — If your library contains only one card when you manifest dread, you'll look at that card and put it onto the battlefield face down. You won't have the option to put it into your graveyard instead. If your library contains no cards when you manifest dread, you won't do anything.
+  - *2024-09-20* — Some cards in the Duskmourn release have abilities that trigger "whenever you manifest dread." In circumstances where you are instructed to manifest dread but can't perform some or all of the steps of manifesting dread (probably because your library has one or fewer cards in it), these abilities will still trigger.
+  - *2024-09-20* — Survival abilities (and other abilities that trigger at the beginning of your second main phase) will trigger at the beginning of the second main phase you take in a turn. They won't trigger during your third, fourth, or other additional main phases in a single turn, if effects somehow cause you to have more than two main phases.
+  - *2024-09-20* — To manifest dread, look at the top two cards of your library. Manifest one (by putting it onto the battlefield face down) and put the other into your graveyard. The card you put onto the battlefield becomes a 2/2 face-down creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant it any characteristics it doesn't have or change the characteristics it does have.
+  - *2024-09-20* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2024-09-20* — Unlike a face-down creature that was cast using a disguise or morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2024-09-20* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered should remain clear, as well as what ability caused them to be face down. (This includes manifest, disguise, cloak, morph, and a few older effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/175/defiant-survivor) · oracle_id `7b62c53a-46a2-4c57-9eab-0c6706795b4e` · printing: DSK #175 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiant Vanguard
 
@@ -491,7 +607,9 @@
   > When this creature blocks, at end of combat, destroy it and all creatures it blocked this turn.
   > {5}, {T}: Search your library for a Rebel permanent card with mana value 4 or less, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22963 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/5/defiant-vanguard) · oracle_id `680766e2-637b-40bc-a15f-0b4dc55bd619` · printing: TSB #5 (2006-10-06) · [rulings](https://api.scryfall.com/cards/a37acadc-0e58-4f44-93f4-dd465b9ee06f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You do not have to find a Rebel card if you do not want to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsb/5/defiant-vanguard) · oracle_id `680766e2-637b-40bc-a15f-0b4dc55bd619` · printing: TSB #5 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defibrillating Current
 
@@ -503,7 +621,9 @@
   > *A small shock to save a life, a large one to take it away.*
   > *—Mardu healer's adage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20942 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/177/defibrillating-current) · oracle_id `5a96b93b-bae6-48fb-87f5-05f3ffcf7ba9` · printing: TDM #177 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bf3a18cf-03db-4eb0-8d53-0c1a71e184da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If the target permanent is an illegal target as Defibrillating Current tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/177/defibrillating-current) · oracle_id `5a96b93b-bae6-48fb-87f5-05f3ffcf7ba9` · printing: TDM #177 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defile
 
@@ -514,6 +634,7 @@
 - **Flavor text** (MH1 printing):
   > *The only shortcut in a bog is to the bottom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #985 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/86/defile) · oracle_id `49dddec0-d958-4810-8c6e-225fc8118c8f` · printing: MH1 #86 (2019-06-14) · [rulings](https://api.scryfall.com/cards/5bcb4398-edd1-41a7-a496-b12bce22ceb6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiled Crypt // Cadaver Lab
@@ -526,7 +647,24 @@
   > When you unlock this door, return target creature card from your graveyard to your hand.
   > (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5921 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/91/defiled-crypt-cadaver-lab) · oracle_id `f97de425-c7ab-4688-8606-159370d179ee` · printing: DSK #91 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d94fb4da-0d3f-4d84-966b-914b84b23289/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2024-09-20* — An ability that triggers "when you unlock this door" triggers when that door becomes unlocked. This can happen one of two ways: (1) the door becomes unlocked on the battlefield or (2) the door becomes unlocked as the Room enters the battlefield because you cast the corresponding half. In the latter case, since the door becoming unlocked is what causes the ability to trigger, effects that cause abilities that trigger when a permanent enters to trigger an additional time (such as that of Panharmonicon) won't apply.
+  - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
+  - *2024-09-20* — Any time you have priority during a main phase of your turn and the stack is empty, you may pay the mana cost of a locked door (also called its "unlock cost"). That door becomes unlocked. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2024-09-20* — Each Room card has two names. If an effect instructs you to choose a card name, you may choose one of those names, but not both.
+  - *2024-09-20* — Each Room card is a single card. For example, if you discard a Room card, you've discarded one card, not two. If an effect counts the number of enchantment cards in your graveyard, Bottomless Pool // Locker Room counts once, not twice.
+  - *2024-09-20* — If a Room enters from any zone other than the stack, it will enter with both halves locked.
+  - *2024-09-20* — If a spell or ability would create a copy of a Room spell on the stack, the copy retains the choice of which door was cast but also retains the full characteristics of the spell. The characteristics of the door that wasn't cast are still ignored while the copy is on the stack, and when the copy resolves, the token it becomes will enter with the appropriate door unlocked.
+  - *2024-09-20* — If an effect allows you to cast a spell with certain characteristics, consider only the characteristics of the door you're casting. For example, if an effect allows you to cast a permanent spell with mana value 3 or less from among cards in your graveyard, you could cast Bottomless Pool this way, but not Locker Room.
+  - *2024-09-20* — If neither door of a Room is unlocked, it's a Room enchantment with no name and no abilities.
+  - *2024-09-20* — Room cards have two card faces with a shared type line on a single card. The characteristics of the door you didn't cast are ignored while the spell is on the stack.
+  - *2024-09-20* — Some abilities allow you to lock a door of a Room you control. You can't choose to lock a door that's already locked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are locked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some abilities allow you to unlock a door of a Room you control. You can't choose to unlock a door that's already unlocked with such an ability. If such an ability requires a target, you can target a Room even if both of its doors are unlocked, but the ability won't do anything when it resolves.
+  - *2024-09-20* — Some doors have abilities that trigger whenever you unlock that door and require one or more targets. You can unlock that door even if there would be insufficient legal targets for that triggered ability. The triggered ability won't go on the stack.
+  - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
+  - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
+  - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/91/defiled-crypt-cadaver-lab) · oracle_id `f97de425-c7ab-4688-8606-159370d179ee` · printing: DSK #91 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Dreams
 
@@ -539,7 +677,10 @@
   > Whenever you cast a blue permanent spell, draw a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4372 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/46/defiler-of-dreams) · oracle_id `9d4ec5e5-5520-45c3-8071-53191811117d` · printing: DMU #46 (2022-09-09) · [rulings](https://api.scryfall.com/cards/881cc4a3-252b-4155-a34f-63d4b4f44442/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/46/defiler-of-dreams) · oracle_id `9d4ec5e5-5520-45c3-8071-53191811117d` · printing: DMU #46 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Faith
 
@@ -552,7 +693,10 @@
   > Whenever you cast a white permanent spell, create a 1/1 white Soldier creature token.
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5008 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/16/defiler-of-faith) · oracle_id `88ac2d09-7993-4bce-8aae-b2683c5c25a5` · printing: DMU #16 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2cfe404d-1a27-4627-9284-56188d92d5d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/16/defiler-of-faith) · oracle_id `88ac2d09-7993-4bce-8aae-b2683c5c25a5` · printing: DMU #16 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Flesh
 
@@ -565,7 +709,10 @@
   > Whenever you cast a black permanent spell, target creature you control gets +1/+1 and gains menace until end of turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5765 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/90/defiler-of-flesh) · oracle_id `3ad002de-8be3-48d2-a0e0-865538144789` · printing: DMU #90 (2022-09-09) · [rulings](https://api.scryfall.com/cards/61a4dd11-6166-4a54-95c0-728c623d0fbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/90/defiler-of-flesh) · oracle_id `3ad002de-8be3-48d2-a0e0-865538144789` · printing: DMU #90 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Instinct
 
@@ -578,7 +725,10 @@
   > Whenever you cast a red permanent spell, this creature deals 1 damage to any target.
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4955 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/119/defiler-of-instinct) · oracle_id `590137df-af61-4e93-b6f1-3a2e438b8037` · printing: DMU #119 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0e76e0cc-caff-4b15-b550-39e2324c8c95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/119/defiler-of-instinct) · oracle_id `590137df-af61-4e93-b6f1-3a2e438b8037` · printing: DMU #119 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Souls
 
@@ -593,6 +743,7 @@
   > *—Prayer of Asha*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23099 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/37/defiler-of-souls) · oracle_id `34894b92-7ebd-49be-9a67-7dc6428aaab9` · printing: ARB #37 (2009-04-30) · [rulings](https://api.scryfall.com/cards/16e8b418-04af-4b99-b8fd-deb1fe21a61c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiler of Vigor
@@ -606,7 +757,10 @@
   > Whenever you cast a green permanent spell, put a +1/+1 counter on each creature you control.
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1642 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/160/defiler-of-vigor) · oracle_id `0a1dc797-7531-4494-afe6-add6ac3f74c0` · printing: DMU #160 (2022-09-09) · [rulings](https://api.scryfall.com/cards/0896860c-d028-4193-89a5-97e05c12a1e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-09-09* — Some players may make the mental shortcut that the Defilers effectively turn one of the colored mana symbols in the spell’s cost into a Phyrexian colored mana symbol. Despite the similarity in function, this ability does not cause the spells to have Phyrexian mana symbols in their costs. Sorry, Rage Extractor!
+  - *2022-09-09* — You may only pay the additional cost once per permanent spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/160/defiler-of-vigor) · oracle_id `0a1dc797-7531-4494-afe6-add6ac3f74c0` · printing: DMU #160 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiling Daemogoth
 
@@ -619,7 +773,9 @@
   > At the beginning of your end step, each opponent loses X life, where X is the amount of life you gained this turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6653 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/25/defiling-daemogoth) · oracle_id `d3f7095a-b287-4858-9d08-242cf18e87cb` · printing: SOC #25 (2026-04-24) · [rulings](https://api.scryfall.com/cards/2cde79eb-91c3-4a42-a2d3-e733e3b56846/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-03-20* — The value of X is calculated at the time Defiling Daemogoth's last ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/25/defiling-daemogoth) · oracle_id `d3f7095a-b287-4858-9d08-242cf18e87cb` · printing: SOC #25 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defiling Tears
 
@@ -631,6 +787,7 @@
   > *Serra's living warriors looked on in horror. "Where is our Lady now?" they cried.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31322 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/99/defiling-tears) · oracle_id `0decd8ea-a3d6-436b-81e9-bdd836537a1c` · printing: INV #99 (2000-10-02) · [rulings](https://api.scryfall.com/cards/db7cba29-9472-4874-bd54-37edf70645b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Definitely Not a Turtle
@@ -643,6 +800,7 @@
 - **Flavor text** (TMC printing):
   > *Nothing a New Yorker ain't seen a thousand times before.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23075 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/98/definitely-not-a-turtle) · oracle_id `3d8dfd57-7d26-4a3b-a9c3-33077c85b3db` · printing: TMC #98 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8f15d16e-b9cc-4edd-9792-f5d452488778/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflecting Palm
@@ -652,7 +810,10 @@
 - **Oracle text:**
   > The next time a source of your choice would deal damage to you this turn, prevent that damage. If damage is prevented this way, Deflecting Palm deals that much damage to that source's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1131 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · [rulings](https://api.scryfall.com/cards/c5bda1a7-537f-4a80-95a0-c45eb127969b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — Deflecting Palm doesn't target any permanent or player. You choose a source of damage as Deflecting Palm resolves.
+  - *2014-09-20* — If multiple prevention and/or replacement effects are trying to apply to the same damage, the player who would be dealt damage chooses the order in which to apply them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/205/deflecting-palm) · oracle_id `dc5dffc8-fac5-4956-bac4-1ad2cc16f6be` · printing: MKC #205 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflecting Swat
 
@@ -664,7 +825,13 @@
 - **Flavor text** (CMM printing):
   > *Archmage attacks are little more than annoyances to Kalamax.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #74 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · [rulings](https://api.scryfall.com/cards/b4b36435-55b3-4615-8812-af41d4fc64d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2020-04-17* — If the target spell has a variable number of targets, you can't change how many targets it has.
+  - *2020-04-17* — If the target spell has damage divided as it was cast (like Mythos of Vadrok), the division can't be changed although the targets receiving that damage still can. The same is true of spells that distribute counters.
+  - *2020-04-17* — If you choose new targets for the target spell, the new targets must be legal.
+  - *2020-04-17* — It doesn't matter whose commander you control. Any one will do. If you have two commanders, you just need to control one of them.
+  - *2020-04-17* — Once you begin casting this spell, players can't take any other actions until you're done casting it. Notably, they can't try to remove the commander you control to make you pay its cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/214/deflecting-swat) · oracle_id `ae120613-97d6-4393-b39d-c3e6c076f5d6` · printing: CMM #214 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deflection
 
@@ -675,7 +842,18 @@
 - **Flavor text** (8ED printing):
   > *The golden rule of revenge: Do unto others what they tried to do unto you.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22411 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/74/deflection) · oracle_id `ec7ae9ed-dc5b-47ed-a4ad-086f3c7c377c` · printing: 8ED #74 (2003-07-28) · [rulings](https://api.scryfall.com/cards/217c899e-f624-4791-af64-b1b1e2ac53cd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2004-10-04* — If there is no other legal target for the spell, this does not change the target.
+  - *2004-10-04* — Once the spell resolves, the new target is considered to be targeted by the deflected spell. This will trigger any effects which trigger on being targeted.
+  - *2004-10-04* — The target of a spell that targets another spell on the stack can be changed to any other spell on the stack, even if the new target will resolve before the spell does.
+  - *2004-10-04* — This does not check if the current target is legal. It just checks if the spell has a single target.
+  - *2004-10-04* — This only targets the spell being changed, not the original or new target of the spell it is affecting.
+  - *2004-10-04* — You can choose to make a spell on the stack target this spell (if such a target choice would be legal had the spell been cast while this spell was on the stack). The new target for the deflected spell is not chosen until this spell resolves. This spell is still on the stack when new targets are selected for the spell.
+  - *2004-10-04* — You can’t make a spell which is on the stack target itself.
+  - *2004-10-04* — You choose the spell to target on announcement, but you pick the new target for that spell on resolution.
+  - *2009-02-01* — If a spell targets multiple things, you can’t target it with Deflection, even if all but one of those targets has become illegal.
+  - *2009-02-01* — If a spell targets the same player or object multiple times, you can’t target it with Deflection.
+- **Source flags:** [Scryfall](https://scryfall.com/card/8ed/74/deflection) · oracle_id `ec7ae9ed-dc5b-47ed-a4ad-086f3c7c377c` · printing: 8ED #74 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defossilize
 
@@ -685,7 +863,14 @@
   > Return target creature card from your graveyard to the battlefield. That creature explores, then it explores again. (Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard. Then repeat this process.)
 - **Keywords:** Explore
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13777 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lci/103/defossilize) · oracle_id `d620de15-8141-4877-9330-8328a3fa85e1` · printing: LCI #103 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3d9abaec-af72-4399-b162-5e62e7487242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-11-10* — If a resolving spell or ability instructs a specific creature to explore but that creature has left the battlefield, the creature still explores. If you reveal a nonland card this way, you won't put a +1/+1 counter on anything, but you may put the revealed card into your graveyard. Effects that trigger "whenever a creature explores" trigger as appropriate.
+  - *2023-11-10* — If an ability instructs a creature to explore, its controller reveals the top card of their library. If it's a land card, they'll put it into their hand. Otherwise, they'll put a +1/+1 counter on that creature, then choose to either leave that card on top of their library or put it into their graveyard.
+  - *2023-11-10* — If no card is revealed, most likely because that player's library is empty, the exploring creature receives a +1/+1 counter.
+  - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
+  - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
+  - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lci/103/defossilize) · oracle_id `d620de15-8141-4877-9330-8328a3fa85e1` · printing: LCI #103 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deftblade Elite
 
@@ -697,6 +882,7 @@
   > {1}{W}: Prevent all combat damage that would be dealt to and dealt by this creature this turn.
 - **Keywords:** Provoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23097 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/23/deftblade-elite) · oracle_id `9a3e3a8f-7c19-4b52-a1b4-08eb09f6127a` · printing: VMA #23 (2014-06-16) · [rulings](https://api.scryfall.com/cards/d576b8f2-9b5b-47c0-8f9f-faa209d59595/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deft Dismissal
@@ -709,7 +895,10 @@
   > *"With spy thopters all around, how can the consuls be so blind to Tezzeret's manipulations?"*
   > *—Gideon Jura*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30822 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/aer/17/deft-dismissal) · oracle_id `7cbe863a-6654-4f54-b4ec-e1040e830174` · printing: AER #17 (2017-01-20) · [rulings](https://api.scryfall.com/cards/5cb26d5b-ffeb-4dac-ad61-f85e5e7b1675/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-02-09* — If some (but not all) of the targets become illegal, the original division of damage still applies, but no damage is dealt to illegal targets. If all targets become illegal, Deft Dismissal doesn’t resolve.
+  - *2017-02-09* — You choose how many targets Deft Dismissal has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/aer/17/deft-dismissal) · oracle_id `7cbe863a-6654-4f54-b4ec-e1040e830174` · printing: AER #17 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deft Duelist
 
@@ -723,6 +912,7 @@
   > *Some Serul Cove rogues traffic in stolen sigils, which fetch a high price from those who would rather pay for honor than earn it.*
 - **Keywords:** Shroud, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29883 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/165/deft-duelist) · oracle_id `2b6aaa8b-b90d-459f-95d4-9e00ee134f8e` · printing: ALA #165 (2008-10-03) · [rulings](https://api.scryfall.com/cards/c4885a83-9410-4c88-b45e-1e1626fe90ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defy Death
@@ -734,7 +924,10 @@
 - **Flavor text** (AVR printing):
   > *Gisela cornered the murderous demon among the graves of the dead villagers. "A fitting end," she murmured as she raised her sword.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/16/defy-death) · oracle_id `dbf9c3e8-35dd-4b80-bd23-f43e21cfd991` · printing: AVR #16 (2012-05-04) · [rulings](https://api.scryfall.com/cards/028028d7-80ff-4d63-8b84-795f257a3456/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2012-05-01* — If the creature is an Angel only on the battlefield (perhaps because it’s a non-Angel creature card and Xenograft is on the battlefield), it will get the +1/+1 counters.
+  - *2012-05-01* — No player can cast spells or activate abilities between returning the creature card to the battlefield and checking whether it’s an Angel.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/16/defy-death) · oracle_id `dbf9c3e8-35dd-4b80-bd23-f43e21cfd991` · printing: AVR #16 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Defy Gravity
 
@@ -747,4 +940,11 @@
   > *On every plane in the Multiverse, there is magic, and someone is using it to fly.*
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/48/defy-gravity) · oracle_id `5a295dc1-7f60-4581-b0f9-61e8b14339bf` · printing: UMA #48 (2018-12-07) · [rulings](https://api.scryfall.com/cards/c31e6c69-e5c4-47b0-b226-4e1d84fabfa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-03-19* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2021-03-19* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2021-03-19* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/48/defy-gravity) · oracle_id `5a295dc1-7f60-4581-b0f9-61e8b14339bf` · printing: UMA #48 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

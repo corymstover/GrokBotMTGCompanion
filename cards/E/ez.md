@@ -33,6 +33,7 @@
   > *For all his wealth and power, there is a fear deep inside Ezekiel that spurs him to train others.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14473 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/100/ezekiel-sims-spider-totem) · oracle_id `4074e897-82a4-4f57-86c2-4aab3f29ef9b` · printing: SPM #100 (2025-09-26) · [rulings](https://api.scryfall.com/cards/bb7c3ae2-6b01-4472-8bd1-9a7456401ddc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio Auditore da Firenze
@@ -46,7 +47,10 @@
   > Whenever Ezio deals combat damage to a player, you may pay {W}{U}{B}{R}{G} if that player has 10 or less life. When you do, that player loses the game.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7650 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/25/ezio-auditore-da-firenze) · oracle_id `3017ac79-37f1-4cc1-8efd-4add027618a2` · printing: ACR #25 (2024-07-05) · [rulings](https://api.scryfall.com/cards/dae9ee75-30b8-4e24-af8b-031c816d3221/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+  - *2024-07-05* — When Ezio’s triggered ability resolves, it checks to see if that player has 10 or less life at that time. If they do, you may pay {W}{U}{B}{R}{G}. A second “reflexive” ability triggers when you pay this cost. Each player may respond to that triggered ability as normal, but it doesn’t matter what happens to the damaged player’s life total at that point; when that reflexive triggered ability resolves, that player will lose the game no matter what their life total is.
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/25/ezio-auditore-da-firenze) · oracle_id `3017ac79-37f1-4cc1-8efd-4add027618a2` · printing: ACR #25 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio, Blade of Vengeance
 
@@ -60,6 +64,7 @@
   > *"Nothing is true. Everything is permitted."*
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6577 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/275/ezio-blade-of-vengeance) · oracle_id `2127a245-d664-45cb-8ed1-0024de1a10df` · printing: ACR #275 (2024-07-05) · [rulings](https://api.scryfall.com/cards/bbdc8019-9b5e-4d9a-a09b-2a14f41ddfe1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio, Brash Novice
@@ -73,7 +78,9 @@
 - **Flavor text** (ACR printing):
   > *"When I was a young man, I had liberty but I did not see it. I had time, but I did not know it. And I had love, but I did not feel it."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12960 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/acr/55/ezio-brash-novice) · oracle_id `d4e2b541-31b6-4bcb-a28a-d897deb91484` · printing: ACR #55 (2024-07-05) · [rulings](https://api.scryfall.com/cards/3351cae2-87be-4438-ba58-f4f4aff2416c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-07-05* — If Ezio loses first strike after it has already dealt first-strike combat damage but before regular combat damage has been dealt, it won't also deal regular combat damage (unless it somehow has double strike).
+- **Source flags:** [Scryfall](https://scryfall.com/card/acr/55/ezio-brash-novice) · oracle_id `d4e2b541-31b6-4bcb-a28a-d897deb91484` · printing: ACR #55 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezrim, Agency Chief
 
@@ -86,7 +93,13 @@
   > {1}, Sacrifice an artifact: Ezrim gains your choice of vigilance, lifelink, or hexproof until end of turn.
 - **Keywords:** Flying, Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14519 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/202/ezrim-agency-chief) · oracle_id `ddcd8a0a-7ac3-4400-a16f-8bb5aa50994e` · printing: MKM #202 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9554d5f2-7a33-4734-8cf3-dfae2ccc3596/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/202/ezrim-agency-chief) · oracle_id `ddcd8a0a-7ac3-4400-a16f-8bb5aa50994e` · printing: MKM #202 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Claw of Progress
 
@@ -97,7 +110,11 @@
   > Whenever a creature you control with power 2 or less enters, you get an experience counter.
   > At the beginning of combat on your turn, put X +1/+1 counters on another target creature you control, where X is the number of experience counters you have.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5679 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/211/ezuri-claw-of-progress) · oracle_id `40eacdae-fae5-46b9-a9e5-9211469f74fc` · printing: 2X2 #211 (2022-07-08) · [rulings](https://api.scryfall.com/cards/6bf721b0-2b5a-4085-b50c-89cbe7420673/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2015-11-04* — All experience counters are identical, no matter how you got them. For example, the last ability will count experience counters that you got from the first ability, from another ability, from proliferating, and so on.
+  - *2015-11-04* — Each game pack includes a card labeled "Experience" with the suggestion "Place your experience counters here." This card isn't required for play. It's simply a convenient spot to put your experience counters, which can be represented with dice, glass beads, or other small items.
+  - *2015-11-04* — Experience counters are the second kind of counters a player can have, joining poison.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/211/ezuri-claw-of-progress) · oracle_id `40eacdae-fae5-46b9-a9e5-9211469f74fc` · printing: 2X2 #211 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Renegade Leader
 
@@ -111,7 +128,10 @@
   > *Great hero or grand betrayer? The truth of Ezuri's legacy is clouded by the fog of legend.*
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2324 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/1/ezuri-renegade-leader) · oracle_id `6734497c-16f0-4c4b-ba24-337333511fc6` · printing: DDU #1 (2018-04-06) · [rulings](https://api.scryfall.com/cards/8a448dbf-08a1-4145-a4b2-0265cc9f2e53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-01* — Ezuri's first ability can't affect itself, but its second ability does.
+  - *2011-01-01* — Only Elf creatures you control when the last ability resolves will get +3/+3 and gain trample until end of turn. Non-Elf creatures that become Elves or Elf creatures that enter under your control later in the turn won't get the bonuses.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/1/ezuri-renegade-leader) · oracle_id `6734497c-16f0-4c4b-ba24-337333511fc6` · printing: DDU #1 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Archers
 
@@ -125,7 +145,9 @@
   > *Eyes and arrows trained ever skyward.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17402 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/9/ezuris-archers) · oracle_id `bcaf3f32-c4e5-4d39-be98-bfc00327021b` · printing: DDU #9 (2018-04-06) · [rulings](https://api.scryfall.com/cards/f909f002-f419-4292-ad92-05c4fd71749d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-01-01* — If Ezuri’s Archers somehow blocks multiple creatures with flying (perhaps because it’s equipped by Echo Circlet), its ability triggers that many times.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ddu/9/ezuris-archers) · oracle_id `bcaf3f32-c4e5-4d39-be98-bfc00327021b` · printing: DDU #9 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Brigade
 
@@ -138,6 +160,7 @@
   > *Riding ravenous, ever-growing vorracs is almost as dangerous as fitting them with saddles.*
 - **Keywords:** Metalcraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27374 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/121/ezuris-brigade) · oracle_id `ae32c0a5-0874-4cab-9a24-29fa572f3193` · printing: SOM #121 (2010-10-01) · [rulings](https://api.scryfall.com/cards/079a6b44-3492-4484-aed1-5cd2449e702d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Predation
@@ -150,7 +173,12 @@
   > *"Slaughter the weak ones. They are unworthy of the gift of \*compleation.\*"*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1198 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/178/ezuris-predation) · oracle_id `d0dd425b-fdba-41b4-b9e6-f5161610bd7e` · printing: DSC #178 (2024-09-27) · [rulings](https://api.scryfall.com/cards/9a6cd6f6-ae6e-4a77-95ca-64c6882357d5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-11-04* — Each of the "fights" happens at the same time.
+  - *2015-11-04* — If Ezuri's Predation creates more than one token for any given creature (due to an effect such as the one Doubling Season creates), the extra tokens won't fight any creature.
+  - *2015-11-04* — Players can't cast spells or activate any abilities in between the Beasts entering the battlefield and fighting the other creatures. If the Beasts entering the battlefield cause any abilities to trigger, those abilities will be put onto the stack after Ezuri's Predation is finished resolving.
+  - *2015-11-04* — You choose which Beast is fighting which creature an opponent controls.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/178/ezuris-predation) · oracle_id `d0dd425b-fdba-41b4-b9e6-f5161610bd7e` · printing: DSC #178 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Stalker of Spheres
 
@@ -164,7 +192,16 @@
   > *"Ah, my old friends. Have you decided at last to stop clinging to the past and join me in the grand pursuit of perfection?"*
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3261 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/201/ezuri-stalker-of-spheres) · oracle_id `cffec16f-373b-43e7-a04c-4452987d7e02` · printing: ONE #201 (2023-02-10) · [rulings](https://api.scryfall.com/cards/d38961ce-0257-412f-acec-c5c9886061f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-02-04* — An ability that triggers "Whenever you proliferate" triggers even if you chose no permanents or players while doing so.
+  - *2023-02-04* — If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.
+  - *2023-02-04* — If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.
+  - *2023-02-04* — If you proliferate twice, you don't have to choose the same set of players and/or permanents to get additional counters each time.
+  - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
+  - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
+  - *2023-02-04* — While proliferating twice, players can't respond between proliferating the first time and proliferating the second time.
+  - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/201/ezuri-stalker-of-spheres) · oracle_id `cffec16f-373b-43e7-a04c-4452987d7e02` · printing: ONE #201 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezzaroot Channeler
 
@@ -177,4 +214,8 @@
   > {T}: You gain 2 life.
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10166 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c21/60/ezzaroot-channeler) · oracle_id `3e72ec1f-9941-42e6-b832-58b79b44066b` · printing: C21 #60 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a7fd9ede-cc6e-4a96-934b-d91d4aa7fa0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-04-16* — Ezzaroot Channeler’s second ability counts the total amount of life gained without considering any life you lost during that turn. For example, if you lost 3 life and gained 4 life earlier in the turn, creature spells you cast will cost {4} less.
+  - *2021-04-16* — The second ability’s cost reduction can reduce only generic mana in a spell’s total cost. It can’t reduce colored mana requirements.
+  - *2021-04-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Ezzaroot Channeler’s second ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c21/60/ezzaroot-channeler) · oracle_id `3e72ec1f-9941-42e6-b832-58b79b44066b` · printing: C21 #60 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

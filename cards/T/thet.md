@@ -39,6 +39,7 @@
 - **Oracle text:**
   > All creatures have "At the beginning of your upkeep, destroy this creature unless you pay {1}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8848 · Game Changer: **yes** · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/212/the-tabernacle-at-pendrell-vale) · oracle_id `69b409b3-fa16-4c79-8b46-215a7036ed46` · printing: ME3 #212 (2009-09-07) · [rulings](https://api.scryfall.com/cards/cd3f7f4e-cb25-4121-96a0-a4dc530420b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tale of Tamiyo
@@ -51,7 +52,13 @@
   > IV — Exile any number of target instant, sorcery, and/or Tamiyo planeswalker cards from your graveyard. Copy them. You may cast any number of the copies.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12683 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/75/the-tale-of-tamiyo) · oracle_id `98a13f7b-ebe7-4a90-a0b9-95dccfff7fa6` · printing: DSK #75 (2024-09-27) · [rulings](https://api.scryfall.com/cards/aaeba193-05d3-4c2d-a304-bbe7114c2eef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-09-20* — Because you're paying the spells' costs, if one of the copied spells has {X} in its mana cost, you may choose its value as normal.
+  - *2024-09-20* — If you don't want to cast some (or all) of the copies, you may choose not to. Any copies that you didn't cast cease to exist the next time state-based actions are checked.
+  - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+  - *2024-09-20* — When the first, second, or third chapter ability of The Tale of Tamiyo resolves, the ability will continue until you mill a set of two cards that share no card types or you mill one or fewer cards. You can't just pause the story whenever you want to. (And why would you? It's quite the story.)
+  - *2024-09-20* — You cast the copies while the last chapter ability of The Tale of Tamiyo is resolving and still on the stack. You can't wait to cast them later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsk/75/the-tale-of-tamiyo) · oracle_id `98a13f7b-ebe7-4a90-a0b9-95dccfff7fa6` · printing: DSK #75 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tarrasque
 
@@ -65,7 +72,12 @@
   > *When it rises, nations fall.*
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5860 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/207/the-tarrasque) · oracle_id `bfd66214-e576-4a7e-8559-4e4e51d56b98` · printing: AFR #207 (2021-07-23) · [rulings](https://api.scryfall.com/cards/8a26fa15-d81f-4152-ae33-e91aa276b3fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-07-23* — Fighting is not optional. If there is at least one legal target for The Tarrasque's last ability, it must fight.
+  - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+  - *2021-07-23* — The Tarrasque will have haste and ward {10} even if it was cast from a zone other than your hand. May we suggest the command zone?
+  - *2021-07-23* — The fight happens in the declare attackers step before blockers are declared. Unless the creature it is fighting survives, that creature won't be able to block that combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/207/the-tarrasque) · oracle_id `bfd66214-e576-4a7e-8559-4e4e51d56b98` · printing: AFR #207 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Temporal Anchor
 
@@ -77,7 +89,9 @@
   > During your turn, you may play cards exiled with The Temporal Anchor.
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8934 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1a212d59-b72e-4939-a757-c131ca4323ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-10-14* — You must follow all normal timing rules for a card you play using The Temporal Anchor's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ten Rings
 
@@ -90,6 +104,7 @@
   > *"The rings act as if they have a will of their own."*
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4190 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/251/the-ten-rings) · oracle_id `a82d855c-50c8-43f2-99ba-a84fe84539c5` · printing: MSH #251 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2332bc91-b0f2-4911-844d-d1cc915cd6c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tenth Doctor
@@ -102,7 +117,27 @@
   > Timey-Wimey — {7}: Time travel three times. Activate only as a sorcery. (For each suspended card you own and each permanent you control with a time counter on it, you may add or remove a time counter. Then do it two more times.)
 - **Keywords:** Allons-y!, Time Travel, Timey-Wimey
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6727 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/3/the-tenth-doctor) · oracle_id `23af0a0a-1d12-47c7-b191-2bd3f84eea93` · printing: WHO #3 (2023-10-13) · [rulings](https://api.scryfall.com/cards/f1499f49-793b-4265-9ad0-883a431941ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (19):
+  - *2023-10-13* — Any land cards exiled with The Tenth Doctor's first ability will remain in exile.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
+  - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/3/the-tenth-doctor) · oracle_id `23af0a0a-1d12-47c7-b191-2bd3f84eea93` · printing: WHO #3 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Terror of Serpent's Pass
 
@@ -116,6 +151,7 @@
   > *—Sokka*
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21017 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/225/the-terror-of-serpents-pass) · oracle_id `771bf51d-cb32-4240-936c-f9d1e0c90cf0` · printing: TLE #225 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f7569861-5b68-4265-bb45-3d54992bfe66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thanos-Copter
@@ -130,6 +166,7 @@
   > Crew 2
 - **Keywords:** Flying, Haste, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14410 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/753/the-thanos-copter) · oracle_id `e58e94dc-9602-48db-9dd9-9d3051c33a76` · printing: MSC #753 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6fd703f5-32ee-47d6-a501-b45fb921e42f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Theorist, Jace Beleren
@@ -143,7 +180,9 @@
   > −2: For each opponent, return up to one target artifact or creature that player controls to its owner's hand.
   > −6: Draw three cards. Then put X +1/+1 counters on each creature you control, where X is the number of cards in your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6460 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · [rulings](https://api.scryfall.com/cards/20bb8c55-4b0b-425f-8201-b54fa2fdde86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-08-21* — Your opponent will draw the card they normally draw in their draw step before you draw a card from Jace's first ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thing
 
@@ -156,6 +195,7 @@
   > Whenever The Thing attacks, you may pay {R}{G}{W}{U}. When you do, double the number of each kind of counter on any number of target permanents you control.
 - **Keywords:** Trample, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15400 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/4/the-thing) · oracle_id `c8de07d4-9bc1-4bfe-b5a4-0a58e05af022` · printing: MSC #4 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ba5167e4-27b1-4f55-8282-7b5bd6de611a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thing, Ben Grimm
@@ -170,6 +210,7 @@
   > *"Don't worry, pal! Soon all yer problems'll be over, 'cause it's clobberin' time!"*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13357 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/190/the-thing-ben-grimm) · oracle_id `d566d5f1-5abd-405b-8553-d267ecbe72ab` · printing: MSH #190 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f1933a8-046f-471a-afcf-cfb08ca0d239/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Third Doctor
@@ -185,7 +226,14 @@
   > *"It's rather a pity, in a way. Now the universe is down to 699 wonders."*
 - **Keywords:** Treasure, Food, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9808 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2934f5e5-2274-4de7-a8c7-ca034f1fec29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thirteenth Doctor
 
@@ -197,7 +245,16 @@
   > Team TARDIS — At the beginning of your end step, untap each creature you control with a counter on it.
 - **Keywords:** Paradox, Team TARDIS
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5142 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/4/the-thirteenth-doctor) · oracle_id `3778e06c-62c7-4b8f-90ff-b2fc2d2e213c` · printing: WHO #4 (2023-10-13) · [rulings](https://api.scryfall.com/cards/0dc4ec90-1650-4b98-9350-66341394cf0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-10-13* — A triggered ability that triggers when a spell is cast from anywhere other than your hand, such as that of The Thirteenth Doctor, functions only on the battlefield, so it doesn't trigger when you cast that spell from a zone other than your hand.
+  - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
+  - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+  - *2023-10-13* — The Thirteenth Doctor's last ability untaps creatures you control with any kind of counter on them, not just creatures you control with +1/+1 counters on them.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/4/the-thirteenth-doctor) · oracle_id `3778e06c-62c7-4b8f-90ff-b2fc2d2e213c` · printing: WHO #4 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Three Seasons
 
@@ -210,7 +267,16 @@
   > III — Choose three cards in each graveyard. Their owners shuffle those cards into their libraries.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16892 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/231/the-three-seasons) · oracle_id `a38ebf4a-064c-4517-a553-15f0a252c159` · printing: KHM #231 (2021-02-05) · [rulings](https://api.scryfall.com/cards/48ce03b3-ec7c-46df-b89a-55405f3b5245/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2021-02-05* — A chapter ability doesn’t trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter’s number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won’t trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn’t use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga’s text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability’s chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — For the chapter III ability, if a player has no cards in their graveyard, they don’t shuffle their library.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
+  - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/231/the-three-seasons) · oracle_id `a38ebf4a-064c-4517-a553-15f0a252c159` · printing: KHM #231 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tokenator
 
@@ -220,6 +286,7 @@
 - **Oracle text:**
   > Whenever The Tokenator attacks, you get two token counters. Then create a creature token with the color(s) and creature type of your choice. Its power and toughness are any combination equal to the number of token counters you have. (For example, if you have four token counters, it can be a 0/4, 1/3, 2/2, 3/1, or, if you're really sure, 4/0.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RW03g/the-tokenator) · oracle_id `d862b479-49a2-4b5e-96b8-f3c514b22b0b` · printing: UNK #RW03g (2024-10-25) · [rulings](https://api.scryfall.com/cards/ed44e75e-195d-4bb1-a986-4440dc44f362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Torment of Gollum
@@ -233,7 +300,15 @@
   > *In Mordor, all that he knew was forced from him.*
 - **Keywords:** Amass
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13451 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/110/the-torment-of-gollum) · oracle_id `8b70aad1-bcb1-4359-b27e-ba8b40ef2752` · printing: LTR #110 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ba2c8c25-1fa9-4cc4-a378-5eccc25bacf0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — Amass Zombies works the same way, except you create a 0/0 black Zombie Army creature token if you don't control an Army. If the Army creature you chose isn't already a Zombie, it becomes a Zombie in addition to its other types. By combining cards with amass Orcs and amass Zombies, you can end up with an Orc Zombie Army.
+  - *2023-06-16* — Amass abilities are now written as "amass [subtype] N." Previous cards with amass have received errata to say "amass Zombies N."
+  - *2023-06-16* — If you don't control an Army, the Orc Army token you create enters the battlefield as a 0/0 creature before receiving counters. Any abilities that trigger when a creature with a certain power enters the battlefield, such as that of Mentor of the Meek, will see the token enter as a 0/0 creature before it gets +1/+1 counters.
+  - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Orcs, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't an Orc, it becomes an Orc in addition to its other types.
+  - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
+  - *2023-06-16* — Some spells and abilities that amass Orcs may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Orcs.
+  - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/110/the-torment-of-gollum) · oracle_id `8b70aad1-bcb1-4359-b27e-ba8b40ef2752` · printing: LTR #110 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Toymaker's Trap
 
@@ -242,7 +317,10 @@
 - **Oracle text:**
   > At the beginning of your upkeep, secretly choose a number between 1 and 5 that hasn't been chosen. If you do, an opponent guesses which number you chose, then you reveal the number you chose. If they guessed wrong, they lose life equal to the number they guessed and you draw a card. If they guessed right, sacrifice this enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13654 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/72/the-toymakers-trap) · oracle_id `8e93ea21-5e3f-448e-a175-96c8438c328e` · printing: WHO #72 (2023-10-13) · [rulings](https://api.scryfall.com/cards/381de078-6eac-462c-b6d9-095779279d42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-10-13* — If The Toymaker's Trap leaves the battlefield and later returns to the battlefield, it has no memory of which numbers were chosen for its effect before. The same is true if you control a second copy of it.
+  - *2023-10-13* — To secretly choose a number, write a number from 1 to 5 down without showing it to anyone else.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/72/the-toymakers-trap) · oracle_id `8e93ea21-5e3f-448e-a175-96c8438c328e` · printing: WHO #72 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Traveling Postman
 
@@ -254,6 +332,7 @@
   > Whenever The Traveling Postman deals combat damage to a player, choose Magic cards at random until you find one that creates a token other than a copy. Create a token of the type of your choice that card can create. (Many Magic search engines have "random card" functions.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04t/the-traveling-postman) · oracle_id `56df525a-f93c-40f7-b915-327b7d3dfca2` · printing: UNK #RZ04t (2025-09-26) · [rulings](https://api.scryfall.com/cards/246990ac-548d-4e74-aed9-c0a918d10732/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Trickster-God's Heist
@@ -266,7 +345,20 @@
   > II — You may exchange control of two target nonbasic, noncreature permanents that share a card type.
   > III — Target player loses 3 life and you gain 3 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11774 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/232/the-trickster-gods-heist) · oracle_id `78f99c66-cb50-49e3-ab2d-e7755818ffd7` · printing: KHM #232 (2021-02-05) · [rulings](https://api.scryfall.com/cards/4aa19a68-0d71-4123-a64d-8cb76f93cd74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2021-02-05* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the chapter III ability to trigger, but chapters I and II won't trigger again.
+  - *2021-02-05* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2021-02-05* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2021-02-05* — For the chapter II ability, either target can have card types the other does not. For example, you can target an artifact land and an artifact.
+  - *2021-02-05* — For those two abilities, you don't have to control either target.
+  - *2021-02-05* — Gaining control of a creature doesn't cause a player to gain control of any Auras or Equipment attached to it.
+  - *2021-02-05* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2021-02-05* — If one of the target permanents of the chapter I or chapter II ability is an illegal target as that ability resolves, the exchange won't happen. If both targets are illegal, the ability doesn't resolve.
+  - *2021-02-05* — If the same player controls both target permanents as the chapter I or chapter II ability resolves, nothing happens.
+  - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/232/the-trickster-gods-heist) · oracle_id `78f99c66-cb50-49e3-ab2d-e7755818ffd7` · printing: KHM #232 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Triumph of Anax
 
@@ -278,7 +370,17 @@
   > IV — Target creature you control fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21484 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/160/the-triumph-of-anax) · oracle_id `eea6ba94-8755-45c0-94ea-cde68e4a1e7c` · printing: THB #160 (2020-01-24) · [rulings](https://api.scryfall.com/cards/49b5b348-1415-4062-a2a7-017694424c05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2020-01-24* — A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again.
+  - *2020-01-24* — As a Saga enters the battlefield, its controller puts a lore counter on it. As your precombat main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack.
+  - *2020-01-24* — Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to.
+  - *2020-01-24* — If either target is an illegal target as the final chapter ability resolves, no creature will deal or be dealt damage.
+  - *2020-01-24* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
+  - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
+  - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+  - *2020-01-24* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters. 
+  - *2020-01-24* — The value of X for the first three chapters is determined only as each chapter ability resolves. Once that happens, the value of X won't change later in the turn even if the number of lore counters on The Triumph of Anax changes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/160/the-triumph-of-anax) · oracle_id `eea6ba94-8755-45c0-94ea-cde68e4a1e7c` · printing: THB #160 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Trivia Mastermind
 
@@ -288,6 +390,7 @@
 - **Oracle text:**
   > {1}, {T}: Look at the top three cards of your library. Choose one of them that isn't a playtest card and say its name, then choose a category among power, toughness, or mana value. An opponent guesses in that category about that card, then reveal the card. If they guessed incorrectly, put the card into your hand. Then, put each card not put into your hand this way on the bottom of your library in any order.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RZ04l/the-trivia-mastermind) · oracle_id `e33aaabf-5720-4326-bafd-1220c37c51cf` · printing: UNK #RZ04l (2024-06-29) · [rulings](https://api.scryfall.com/cards/70be3542-63f5-4f63-9ef2-dbcde918a4d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Twelfth Doctor
@@ -299,7 +402,19 @@
   > The first spell you cast from anywhere other than your hand each turn has demonstrate. (When you cast that spell, you may copy it. If you do, choose an opponent to also copy it. A copy of a permanent spell becomes a token.)
   > Whenever you copy a spell, put a +1/+1 counter on The Twelfth Doctor.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7481 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/164/the-twelfth-doctor) · oracle_id `9ecf19ba-754e-4bb3-b526-fe9df87a0f08` · printing: WHO #164 (2023-10-13) · [rulings](https://api.scryfall.com/cards/2400d681-05ef-43b1-b720-c15ca4226c27/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — If any additional or alternative costs were paid to cast the spell with demonstrate, the copies will see those choices as well. For example, if the spell has a kicker ability and was kicked, the copies will also be kicked.
+  - *2023-10-13* — If the spell had an X value chosen for it as it was cast, the copies will have the same value of X.
+  - *2023-10-13* — If the spell requires targets, you choose the target of the original spell as you cast it. If you create a copy of the spell, you may choose new targets for the copy as you create that copy. Similarly, the opponent you chose to create a copy may choose new targets for that copy as it's created. In other words, your opponent will know the targets of your original spell and your copy when choosing the new targets, if any, for their copy.
+  - *2023-10-13* — If the spell with demonstrate had any modes chosen for it as it was cast, the copies will have the same modes chosen for it.
+  - *2023-10-13* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
+  - *2023-10-13* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+  - *2023-10-13* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/164/the-twelfth-doctor) · oracle_id `9ecf19ba-754e-4bb3-b526-fe9df87a0f08` · printing: WHO #164 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tyrant
 
@@ -308,4 +423,5 @@
 - **Oracle text:**
   > Exile The Tyrant: Creatures your opponents control get -1/-1 until end of turn.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/thp2/4c/the-tyrant) · oracle_id `d16dfd67-128c-4664-ae60-f9084b8ec660` · printing: THP2 #4c (2014-02-07) · [rulings](https://api.scryfall.com/cards/be5044ab-5f7d-4109-8574-42306ca86b4c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

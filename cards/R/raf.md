@@ -31,7 +31,9 @@
   > You may cast historic spells as though they had flash. (Artifacts, legendaries, and Sagas are historic.)
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6526 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/351/raff-capashen-ships-mage) · oracle_id `13044ca1-76a3-43b2-a8e4-3bbc692c30c5` · printing: CMM #351 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c681e33b-3d60-4aaa-8186-51866d8b79d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/351/raff-capashen-ships-mage) · oracle_id `13044ca1-76a3-43b2-a8e4-3bbc692c30c5` · printing: CMM #351 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine, Scheming Seer
 
@@ -43,7 +45,11 @@
   > Whenever you attack, target attacking creature connives X, where X is the number of attacking creatures. (Draw X cards, then discard X cards. Put a +1/+1 counter on that creature for each nonland card discarded this way.)
 - **Keywords:** Flying, Ward, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4486 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/213/raffine-scheming-seer) · oracle_id `9307f7e9-bcd9-41f9-88f8-0fb9700a6b12` · printing: SNC #213 (2022-04-29) · [rulings](https://api.scryfall.com/cards/716a44b4-f6b0-4f14-a270-6442aed3251f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — Connive X is a variant of connive. If a creature connives X, its controller will draw X cards, discard X cards, then then put a number of +1/+1 counters on the conniving permanent equal to the number of nonland cards discarded this way.
+  - *2024-04-12* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2024-04-12* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/213/raffine-scheming-seer) · oracle_id `9307f7e9-bcd9-41f9-88f8-0fb9700a6b12` · printing: SNC #213 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Guidance
 
@@ -55,6 +61,7 @@
   > You may cast this card from your graveyard by paying {2}{W} rather than paying its mana cost.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13477 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/162/raffines-guidance) · oracle_id `ad3bf726-e0c2-4038-a66e-9a9dff439563` · printing: SOC #162 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8eb97e21-442b-4f23-a846-f0a0135a5c31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Informant
@@ -68,7 +75,11 @@
   > *"I've analyzed the vault schematic. Do you want the fast way, the easy way, or the secret way in?"*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21031 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/26/raffines-informant) · oracle_id `838c4831-7d5c-4025-92b3-46eee59d6b34` · printing: SNC #26 (2022-04-29) · [rulings](https://api.scryfall.com/cards/4e64ff87-2099-4360-94f6-164277b7b514/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/26/raffines-informant) · oracle_id `838c4831-7d5c-4025-92b3-46eee59d6b34` · printing: SNC #26 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Silencer
 
@@ -80,7 +91,12 @@
   > When this creature dies, target creature an opponent controls gets -X/-X until end of turn, where X is this creature's power.
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17214 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/snc/90/raffines-silencer) · oracle_id `2901948c-2a5a-4135-9135-27406e9d8652` · printing: SNC #90 (2022-04-29) · [rulings](https://api.scryfall.com/cards/4ba72399-c827-43f3-b072-08597dbafb2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-04-29* — If a resolving spell or ability instructs a specific creature to connive but that creature has left the battlefield, the creature still connives. If you discard a nonland card this way, you won't put a +1/+1 counter on anything. Abilities that trigger “when [that creature] connives” will trigger.
+  - *2022-04-29* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
+  - *2022-04-29* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+  - *2022-04-29* — Use Raffine's Silencer's power as it last existed on the battlefield to determine the value of X.
+- **Source flags:** [Scryfall](https://scryfall.com/card/snc/90/raffines-silencer) · oracle_id `2901948c-2a5a-4135-9135-27406e9d8652` · printing: SNC #90 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Tower
 
@@ -94,6 +110,7 @@
   > *The Obscura's Cloud Spire dominates the skyline, its eye a beacon of progress that sees all.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #419 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/254/raffines-tower) · oracle_id `6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b` · printing: SNC #254 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a2c56479-4bee-4edb-80d7-4af010b7c793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raff, Weatherlight Stalwart
@@ -107,7 +124,9 @@
 - **Flavor text** (DMU printing):
   > *"This old ship has seen a lot, but she's not done yet."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13319 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/212/raff-weatherlight-stalwart) · oracle_id `41f3acbf-6092-435f-a5af-4d80dd6e1aef` · printing: DMU #212 (2022-09-09) · [rulings](https://api.scryfall.com/cards/cc0cba4c-d9f0-421f-acf4-ab1adcd59c80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-09-09* — Raff, Weatherlight Stalwart’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/212/raff-weatherlight-stalwart) · oracle_id `41f3acbf-6092-435f-a5af-4d80dd6e1aef` · printing: DMU #212 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafiq of the Many
 
@@ -121,7 +140,14 @@
   > *Many sigils, one purpose.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10962 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/352/rafiq-of-the-many) · oracle_id `c6e17443-2379-419d-8c32-13ea9bf52993` · printing: CMM #352 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ebdd967d-b364-47ad-a1c2-49b155f72c5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2008-10-01* — Exalted abilities will resolve before blockers are declared.
+  - *2008-10-01* — Exalted bonuses last until end of turn. If an effect creates an additional combat phase during your turn, a creature that attacked alone during the first combat phase will still have its exalted bonuses in that new phase. If a creature attacks alone during the second combat phase, all your exalted abilities will trigger again.
+  - *2008-10-01* — If you attack with multiple creatures, but then all but one are removed from combat, your exalted abilities won't trigger.
+  - *2008-10-01* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger. The bonuses are given to the attacking creature, not to the permanent with exalted. Ultimately, the attacking creature will wind up with +1/+1 for each of your exalted abilities.
+  - *2008-10-01* — In a Two-Headed Giant game, a creature "attacks alone" if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
+  - *2008-10-01* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/352/rafiq-of-the-many) · oracle_id `c6e17443-2379-419d-8c32-13ea9bf52993` · printing: CMM #352 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafi, Retro Racer
 
@@ -132,6 +158,7 @@
   > When Rafi enters and at the beginning of the first upkeep in a game where it's your commander, there's mana burn and combat damage uses the stack for the rest of the game. (If you don't know what that means, ask somebody over 30.)
   > {R}, Sacrifice Rafi: Each player adds {R}{R}{R}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RR04e/rafi-retro-racer) · oracle_id `19146dcd-f624-4ce5-a8dd-48f7c6321d40` · printing: UNK #RR04e (2025-02-21) · [rulings](https://api.scryfall.com/cards/eccc5c45-9666-4d0d-95d2-5fb2fdfec32c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rafter Demon
@@ -144,7 +171,14 @@
   > When this creature enters, if its spectacle cost was paid, each opponent discards a card.
 - **Keywords:** Spectacle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26013 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rna/196/rafter-demon) · oracle_id `2e7a03ac-44bb-45f1-b209-85fc3b6e90d3` · printing: RNA #196 (2019-01-25) · [rulings](https://api.scryfall.com/cards/bf8dad4d-bc4f-46fb-892c-dbf6481cdc46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — A card's spectacle cost is the same no matter how much life your opponents lost or how many opponents lost life.
+  - *2024-01-12* — Damage dealt to a player causes that player to lose that much life.
+  - *2024-01-12* — In a multiplayer game, if an opponent loses life and later that turn leaves the game, you can cast a spell for its spectacle cost. (If a player leaves the game during their turn, that turn continues without an active player.)
+  - *2024-01-12* — Spectacle cares only that an opponent lost life during the turn, not that the opponent's life total is currently lower than it was. For example, if an opponent loses 1 life and then gains 2 life in the same turn, you can cast a spell for its spectacle cost that turn.
+  - *2024-01-12* — Spectacle doesn't change when you can cast the spell. For example, you can't cast a sorcery with spectacle during an opponent's turn unless another effect allows you to do so, even if that player has lost life this turn.
+  - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a spectacle cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rna/196/rafter-demon) · oracle_id `2e7a03ac-44bb-45f1-b209-85fc3b6e90d3` · printing: RNA #196 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raft Security Officer
 
@@ -157,4 +191,5 @@
   > *"We've upgraded the power dampeners since your last escape. No more breakouts on my watch."*
   > *—[Name withheld on S.H.I.E.L.D. orders], last words*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27078 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/33/raft-security-officer) · oracle_id `60754d4b-2add-4928-8d30-8ce9c0f54f91` · printing: MSH #33 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f9b9f9d6-b50c-4b29-80be-284ba773c70b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

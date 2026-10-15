@@ -66,6 +66,7 @@
   > At the beginning of your upkeep, flip a coin. If it's heads and this creature has deathtouch, or it's tails and this creature has haste, create a treasure token.
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UZ02/red-and-black-legac) · oracle_id `47fb3947-92e7-40d9-9874-03b4b9c50500` · printing: UNK #UZ02 (2025-06-20) · [rulings](https://api.scryfall.com/cards/16af4f96-d6e4-4170-b6d0-f23047b233e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Gutter-Dweller
@@ -79,7 +80,10 @@
   > At the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature and exile the top card of your library. You may play that card this turn.
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/631/redcap-gutter-dweller) · oracle_id `ada48353-4c86-44d6-83a5-e7e3c703b948` · printing: FDN #631 (2024-11-15) · [rulings](https://api.scryfall.com/cards/c6c7f55a-bcc7-4ca3-853d-fc6e260d9429/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-11-08* — If Redcap Gutter-Dweller leaves the battlefield after its last ability has triggered, you can still sacrifice a creature and exile the top card of your library, even though you won't put a +1/+1 counter on Redcap Gutter-Dweller.
+  - *2024-11-08* — You pay all costs and follow all normal timing rules for cards played with the permission granted by Redcap Gutter-Dweller's last ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/631/redcap-gutter-dweller) · oracle_id `ada48353-4c86-44d6-83a5-e7e3c703b948` · printing: FDN #631 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Heelslasher
 
@@ -93,7 +97,13 @@
   > *Biffle was delighted to have an excuse to use the nice cutlery he'd liberated from Edgewall.*
 - **Keywords:** Backup, First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23480 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/161/redcap-heelslasher) · oracle_id `d2134b68-d73f-4090-aaec-b2ee5c9f9f04` · printing: MOM #161 (2023-04-21) · [rulings](https://api.scryfall.com/cards/3c7ca435-aa84-4d35-80db-d1c74b878b12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/161/redcap-heelslasher) · oracle_id `d2134b68-d73f-4090-aaec-b2ee5c9f9f04` · printing: MOM #161 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Melee
 
@@ -104,6 +114,7 @@
 - **Flavor text** (ELD printing):
   > *At first, Syr Fenwick scoffed when he saw his opponents for the final match.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26355 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/135/redcap-melee) · oracle_id `1b78aa71-b554-45dc-a737-52cd74c3e7f1` · printing: ELD #135 (2019-10-04) · [rulings](https://api.scryfall.com/cards/6bd1dd34-d480-4dfd-9f82-73c4e24a11fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Raiders
@@ -117,7 +128,11 @@
   > *"I admire their courage as much as I despise their savagery."*
   > *—Syr Carah, the Bold*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24274 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/136/redcap-raiders) · oracle_id `05c42b13-5125-477c-991f-692c4e22bc53` · printing: ELD #136 (2019-10-04) · [rulings](https://api.scryfall.com/cards/686cf5c4-6ba3-4fa0-9732-0a350c637c7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-10-04* — Players can't take any actions between the time you choose whether to tap a creature and the time Redcap Raiders gets +1/+1 and gains trample.
+  - *2019-10-04* — Tapping an attacking creature with vigilance to pay the cost of Redcap Raiders's ability won't cause that creature to leave combat or to stop attacking.
+  - *2019-10-04* — While resolving the ability of Redcap Raiders, you can't tap more than one creature to get +1/+1 more than once.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/136/redcap-raiders) · oracle_id `05c42b13-5125-477c-991f-692c4e22bc53` · printing: ELD #136 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redcap Thief
 
@@ -130,6 +145,7 @@
   > *"Shiny is best. Then sharp. Sharp is good. Anything else is basically trash."*
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14772 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/147/redcap-thief) · oracle_id `e055bc6d-d395-4f85-8e15-3bce65b7fcca` · printing: WOE #147 (2023-09-08) · [rulings](https://api.scryfall.com/cards/cda6bdeb-a0d6-46ca-ba8c-317ee0096416/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Cliffs Armada
@@ -142,6 +158,7 @@
 - **Flavor text** (ME2 printing):
   > *By the battle of Red Cliffs in the year 208, the Wu kingdom controlled more than seven thousand warships on the Yangtze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31199 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/62/red-cliffs-armada) · oracle_id `063884e0-1f5e-4be9-930b-e73895b2fa41` · printing: ME2 #62 (2008-09-22) · [rulings](https://api.scryfall.com/cards/d0391b4f-e819-409a-9e81-1bff932808e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Death, Shipwrecker
@@ -156,7 +173,14 @@
   > *—The Mariner*
 - **Keywords:** Alluring Eyes, Goad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6357 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/116/red-death-shipwrecker) · oracle_id `0d40b2c3-9f39-45c6-8b25-12353f300613` · printing: PIP #116 (2024-03-08) · [rulings](https://api.scryfall.com/cards/edf616fa-b9a0-4f7a-b7ee-32ce3a08d466/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-03-08* — Attacking with a goaded creature doesn’t cause it to stop being goaded. If there is an additional combat phase that turn, or if another player gains control of it before it stops being goaded, it must attack again if able.
+  - *2024-03-08* — Being goaded isn’t an ability the creature has. Once it’s been goaded, it must attack as detailed above even if it loses all abilities.
+  - *2024-03-08* — If the creature doesn’t meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can’t attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
+  - *2024-03-08* — If the target creature is an illegal target as Red Death’s ability tries to resolve, it won’t resolve and none of its effects happen. You won’t add any mana, and the creature’s controller won’t draw a card.
+  - *2024-03-08* — If, during a player’s declare attackers step, a creature that player controls that’s been goaded is tapped, is affected by a spell or ability that says it can’t attack, or hasn’t been under that player’s control continuously since the turn began (and doesn’t have haste), then it doesn’t attack. If there’s a cost associated with having a creature attack a player, its controller isn’t forced to pay that cost, so it doesn’t have to attack that player.
+  - *2024-03-08* — Red Death’s ability isn’t a mana ability even though it causes you to add mana. It uses the stack and can be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/116/red-death-shipwrecker) · oracle_id `0d40b2c3-9f39-45c6-8b25-12353f300613` · printing: PIP #116 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Dragon
 
@@ -170,6 +194,7 @@
   > *Red dragons consider the world and every creature in it as theirs to command.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6626 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/160/red-dragon) · oracle_id `ff6e4346-463c-445d-8f72-11cb35dd99ee` · printing: AFR #160 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7cf57369-b8e2-481c-89d4-c83c617499a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redeem
@@ -182,6 +207,7 @@
   > *"Let me redeem my brothers both from death."*
   > *—William Shakespeare, \*Titus Andronicus\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29172 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/37/redeem) · oracle_id `c2032f88-a000-4ed2-a7e5-61d29723d45e` · printing: 8ED #37 (2003-07-28) · [rulings](https://api.scryfall.com/cards/b9ba3fde-f5ff-4e59-88a0-3c38fc5e75e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redeem the Lost
@@ -192,7 +218,10 @@
   > Target creature you control gains protection from the color of your choice until end of turn. Clash with an opponent. If you win, return Redeem the Lost to its owner's hand. (Each clashing player reveals the top card of their library, then puts that card on their choice of the top or bottom. A player wins if their card had a greater mana value.)
 - **Keywords:** Clash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25108 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mor/21/redeem-the-lost) · oracle_id `3c5e269e-1baa-4b40-8e0f-1763ac85dc6b` · printing: MOR #21 (2008-02-01) · [rulings](https://api.scryfall.com/cards/6a0f1aa1-b5be-43f0-822d-c4fcf33270d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-04-01* — If the spell is countered or doesn't resolve for any reason (for example, if all its targets become illegal), none of its effects happen. There is no clash, and the spell card won't be returned to your hand.
+  - *2008-04-01* — If you win the clash, the spell moves from the stack to your hand as part of its resolution. It never hits the graveyard. If you don't win the clash, the spell is put into the graveyard from the stack as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mor/21/redeem-the-lost) · oracle_id `3c5e269e-1baa-4b40-8e0f-1763ac85dc6b` · printing: MOR #21 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Elemental Blast
 
@@ -205,6 +234,7 @@
 - **Flavor text** (A25 printing):
   > *Nothing restrains a burning passion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #450 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/147/red-elemental-blast) · oracle_id `bb329a5c-b9f9-4973-a53f-090024146325` · printing: A25 #147 (2018-03-16) · [rulings](https://api.scryfall.com/cards/70a45e9b-699e-425a-9f3d-267274830d3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemption Arc
@@ -219,6 +249,7 @@
   > *Crime doesn't pay nearly as well as the Agency.*
 - **Keywords:** Goad, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3560 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/163/redemption-arc) · oracle_id `c22e5fc6-9b4e-4197-b472-70d168eb4330` · printing: SOC #163 (2026-04-24) · [rulings](https://api.scryfall.com/cards/49326de1-d3b0-4f2b-95bc-5f2878e14a89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemption Choir
@@ -231,7 +262,10 @@
   > Coven — Whenever this creature enters or attacks, if you control three or more creatures with different powers, return target permanent card with mana value 3 or less from your graveyard to the battlefield.
 - **Keywords:** Lifelink, Coven
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6252 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/74/redemption-choir) · oracle_id `90c62b27-027a-44a3-8d21-3c62701b18a8` · printing: LCC #74 (2023-11-17) · [rulings](https://api.scryfall.com/cards/981dcacb-24a3-43bb-bb64-2b227f31dc3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-11-10* — For three creatures to have different powers from one another, each of their powers needs to be different. A 1/1 creature, a 2/1 creature, and another 2/1 creature aren't three creatures with different powers, even though both 2/1 creatures have different power than the 1/1 creature.
+  - *2023-11-10* — You must control three or more creatures with different powers at the time the coven ability triggers and at the time the ability tries to resolve. They do not, however, need to be the same set of creatures in both cases.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/74/redemption-choir) · oracle_id `90c62b27-027a-44a3-8d21-3c62701b18a8` · printing: LCC #74 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemptor Dreadnought
 
@@ -244,6 +278,7 @@
   > Plasma Incinerator — Whenever this creature attacks, if a card is exiled with it, it gets +X/+X until end of turn, where X is the power of the exiled card.
 - **Keywords:** Trample, Plasma Incinerator, Fallen Warrior
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17231 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/164/redemptor-dreadnought) · oracle_id `bcd48403-7c4b-4b57-8a28-4007b36fe4d7` · printing: 40K #164 (2022-10-07) · [rulings](https://api.scryfall.com/cards/73b09833-c60b-4818-baa6-0bee7558c6f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Ghost, Intangible Genius
@@ -259,6 +294,7 @@
   > *"To me, my Super Apes!"*
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12461 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/92/red-ghost-intangible-genius) · oracle_id `9984d950-29dc-4d6b-8750-8d1bf86ea98f` · printing: MSC #92 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35bae013-51e9-4047-91e3-3b366ad0764e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Guardian, Super-Soldier
@@ -273,6 +309,7 @@
   > *"You fight for your nation, Captain America. I fight for mine."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22851 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/34/red-guardian-super-soldier) · oracle_id `e85567e8-1102-4d44-a15b-d5f1fdef8465` · printing: MSH #34 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c08f8163-319a-4a31-b15a-93974cacd5b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Herring (CMB2 #62)
@@ -283,7 +320,13 @@
 - **Oracle text:**
   > {1}{U}: Exchange Red Herring from your hand with a permanent you control on the battlefield or a spell you control on the stack. If that permanent or spell was the target of a spell or ability, change that target to Red Herring.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/62/red-herring) · oracle_id `0e99efaf-6402-44c5-ae8b-1f5bb1b68333` · printing: CMB2 #62 (2021-08-20) · [rulings](https://api.scryfall.com/cards/d991ff8b-db6e-411b-95fd-bfb3c78d95cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2019-11-12* — Any counters on the returned object, objects attached to the returned object, or continuous effects affecting the returned object will be on, attached to, and/or affecting Red Herring.
+  - *2019-11-12* — If Red Herring isn’t a legal target for a spell or ability that targets the returned spell or permanent, that spell continues to target what it originally did. That spell or permanent will be an illegal target for the spell or ability, and that spell or ability won’t affect it.
+  - *2019-11-12* — If Red Herring leaves your hand before its ability resolves, you can’t exchange it or change the target of a spell.
+  - *2019-11-12* — If the returned object was attacking or blocking, so is Red Herring. If it was tapped, face down, or flipped, so is Red Herring.
+  - *2019-11-12* — You reveal Red Herring in your hand as you activate its ability, but you choose which spell or permanent to exchange as the ability resolves. No player may take actions between the time you choose a spell or permanent and the time you make the exchange.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/62/red-herring) · oracle_id `0e99efaf-6402-44c5-ae8b-1f5bb1b68333` · printing: CMB2 #62 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Herring (MKM #142)
 
@@ -299,7 +342,9 @@
   > *—Kylox*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21815 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/142/red-herring) · oracle_id `f0ee45b5-697b-48f8-b1a6-cb3ae75e4a29` · printing: MKM #142 (2024-02-09) · [rulings](https://api.scryfall.com/cards/6c137a44-9ab6-4e59-8324-34d9dca8f5a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-02-02* — If Red Herring can't attack for any reason (such as being tapped), then it doesn't attack. If there's a cost associated with having it attack, its controller isn't forced to pay that cost, so it doesn't have to attack in that case either.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/142/red-herring) · oracle_id `f0ee45b5-697b-48f8-b1a6-cb3ae75e4a29` · printing: MKM #142 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red-Hot Hottie
 
@@ -311,6 +356,7 @@
 - **Flavor text** (UNH printing):
   > *She was winning the Dominarian "Are You Hot?" competition until disaster struck during the wet T-shirt round.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/86/red-hot-hottie) · oracle_id `c6a47548-c1e5-4223-aafe-2d578305314d` · printing: UNH #86 (2004-11-19) · [rulings](https://api.scryfall.com/cards/8f65a9d6-12d8-472c-b9d4-cc2460aa58ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Hulk
@@ -325,6 +371,7 @@
   > *To finally defeat the Hulk, General "Thunderbolt" Ross became what he hated most.*
 - **Keywords:** Reach, Enrage, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10325 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/149/red-hulk) · oracle_id `a14a838a-49f4-45e3-9ec0-3c803af45a68` · printing: MSH #149 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e25468e2-17c6-47b2-8eb6-fcb8ae6f4c17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redirect
@@ -337,7 +384,12 @@
   > *"It's actually quite simple, but since you've only recently begun to walk upright, it may take some time to explain."*
   > *—Jace Beleren, to Garruk Wildspeaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9205 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/64/redirect) · oracle_id `74a7d880-5a49-412b-af4d-0b4cdb8453ee` · printing: M13 #64 (2012-07-13) · [rulings](https://api.scryfall.com/cards/0eef8431-f63c-44e0-940c-e1a38c338214/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2010-08-15* — If the targeted spell is modal (that is, it says “Choose one —” or the like), you can’t choose a different mode.
+  - *2010-08-15* — If you cast Redirect targeting a spell that targets a spell on the stack (like Cancel does, for example), you can’t change that spell’s target to itself. You can, however, change that spell’s target to Redirect. If you do, that spell won’t resolve when it tries to resolve because Redirect will have left the stack by then.
+  - *2010-08-15* — Redirect can target any spell, not just an instant or sorcery spell. For example, you could use it to change the target of an Aura spell. However, if the targeted spell has no targets (for example, if it’s an instant or sorcery spell that doesn’t specifically use the word “target,” or if it’s a creature spell), Redirect won’t have any effect on it.
+  - *2010-08-15* — You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/64/redirect) · oracle_id `74a7d880-5a49-412b-af4d-0b4cdb8453ee` · printing: M13 #64 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redirect Lightning
 
@@ -350,7 +402,11 @@
   > *"A Waterbender lets their defense become their offense, turning their opponent's energy against them. I learned a way to do this with lightning."*
   > *—Iroh*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #533 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/151/redirect-lightning) · oracle_id `c62b5c22-e058-436f-9575-a01cb2112829` · printing: TLA #151 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2b5b14a7-1fdd-4efc-b197-cadfa7f7c860/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-10-02* — If a spell or ability targets multiple things, you can't target it with Redirect Lightning, even if all but one of those targets have become illegal.
+  - *2025-10-02* — If a spell or ability targets the same player or object multiple times, you can't target it with Redirect Lightning.
+  - *2025-10-02* — You don't choose the new target for the spell or ability until Redirect Lightning resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/151/redirect-lightning) · oracle_id `c62b5c22-e058-436f-9575-a01cb2112829` · printing: TLA #151 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rediscover the Way
 
@@ -361,7 +417,9 @@
   > I, II — Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
   > III — Whenever you cast a noncreature spell this turn, target creature you control gains double strike until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12482 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/215/rediscover-the-way) · oracle_id `680a8e14-053f-4cde-a060-e1b36873cf14` · printing: TDM #215 (2025-04-11) · [rulings](https://api.scryfall.com/cards/79d6decf-afd5-4e96-b87e-fd7ab7e3c068/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — The triggered ability created by the chapter III ability may trigger multiple times during the turn, even though Rediscover the Way will likely no longer be on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/215/rediscover-the-way) · oracle_id `680a8e14-053f-4cde-a060-e1b36873cf14` · printing: TDM #215 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Mage's Rapier
 
@@ -373,7 +431,13 @@
   > Equip {3}
 - **Keywords:** Job select, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8505 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/152/red-mages-rapier) · oracle_id `35ad9e15-3e00-4bd2-96cf-36a6ef49059f` · printing: FIN #152 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e0579955-75f9-47a9-8b03-e287d120826a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-06-06* — If the Hero token is destroyed, the Equipment stays on the battlefield.
+  - *2025-06-06* — If the job select ability causes two Hero tokens to be created (due to an effect such as that of Doubling Season), the Equipment becomes attached to only one of them.
+  - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
+  - *2025-06-06* — The ability granted by Red Mage's Rapier resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+  - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/152/red-mages-rapier) · oracle_id `35ad9e15-3e00-4bd2-96cf-36a6ef49059f` · printing: FIN #152 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Mana
 
@@ -382,6 +446,7 @@
 - **Oracle text:**
   > *(no rules text)*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/7082/red-mana) · oracle_id `b33fc3cd-da49-46d7-9816-a2ea50fba2ce` · printing: SLD #7082 (2026-05-18) · [rulings](https://api.scryfall.com/cards/d83038fb-0f20-4445-af36-beaaff837985/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Mana Battery
@@ -392,7 +457,9 @@
   > {2}, {T}: Put a charge counter on this artifact.
   > {T}, Remove any number of charge counters from this artifact: Add {R}, then add an additional {R} for each charge counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27191 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/343/red-mana-battery) · oracle_id `8ceb295c-a611-4ac7-940b-557bf60f8a8b` · printing: 4ED #343 (1995-04-01) · [rulings](https://api.scryfall.com/cards/e4e507bc-441d-4f44-85d4-cf93ca199d2e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — Can be tapped even if it has no counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/4ed/343/red-mana-battery) · oracle_id `8ceb295c-a611-4ac7-940b-557bf60f8a8b` · printing: 4ED #343 (1995-04-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redoubled Stormsinger
 
@@ -406,7 +473,13 @@
   > *"Blink or don't. You'll get hit either way."*
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3196 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/251/redoubled-stormsinger) · oracle_id `792c4d38-41e6-49eb-bd4e-de0a5ac8330f` · printing: SOC #251 (2026-04-24) · [rulings](https://api.scryfall.com/cards/fc5fcb5e-091e-4f47-9c74-9e187a9e0e5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2025-04-04* — Although the tokens are attacking, they were never declared as attacking creatures. This means that abilities that trigger whenever a creature attacks won't trigger when these tokens enter attacking.
+  - *2025-04-04* — Any enters-the-battlefield abilities of the copied token will trigger when the token enters the battlefield. Any "as [this creature] enters" or "[this creature] enters with" abilities of the copied token will also work.
+  - *2025-04-04* — Each of the tokens created by Redoubled Stormsinger's last ability copies the original characteristics of the token it's copying as stated by the effect that created that token.
+  - *2025-04-04* — If a creature token you control that entered this turn is copying something else, then the token enters the battlefield as whatever that creature token copied.
+  - *2025-04-04* — You declare which player, planeswalker, or battle each token is attacking as you put it onto the battlefield. It doesn't have to be the same player, planeswalker, or battle as Redoubled Stormsinger or any of the other tokens created by Redoubled Stormsinger's last ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/251/redoubled-stormsinger) · oracle_id `792c4d38-41e6-49eb-bd4e-de0a5ac8330f` · printing: SOC #251 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Priest of Yawgmoth
 
@@ -416,6 +489,7 @@
 - **Oracle text:**
   > {T}, Sacrifice an artifact: Add an amount of {R} equal to the sacrificed artifact's mana value.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UR02b/red-priest-of-yawgmoth) · oracle_id `11bc7014-68d3-46e3-97cb-1f1b475e53af` · printing: UNK #UR02b (2023-02-17) · [rulings](https://api.scryfall.com/cards/2fe3ed98-bd34-467d-9081-6b0de6ba738a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redress Fate
@@ -429,7 +503,10 @@
   > *"I can't go with you into the House, but I can give you one chance to reverse your doom. Make it count."*
 - **Keywords:** Miracle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3773 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/9/redress-fate) · oracle_id `e8ff6780-5f22-42fa-a7c1-7406e8203063` · printing: DSC #9 (2024-09-27) · [rulings](https://api.scryfall.com/cards/19f56096-f692-4719-af38-6a4955f2b65c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-09-20* — If an Aura is being put onto the battlefield at the same time as a creature, that Aura can't enchant that creature.
+  - *2024-09-20* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/9/redress-fate) · oracle_id `e8ff6780-5f22-42fa-a7c1-7406e8203063` · printing: DSC #9 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redrock Sentinel
 
@@ -443,6 +520,7 @@
   > *The miners thought it would be genius to increase their productivity with explosives. The land thought otherwise.*
 - **Keywords:** Treasure, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17349 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/247/redrock-sentinel) · oracle_id `51a6819d-c8fb-4f52-ab0c-4ae845728ed2` · printing: OTJ #247 (2024-04-19) · [rulings](https://api.scryfall.com/cards/8eb98381-8418-4dfd-b7d1-4353570e611b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Room Recruit
@@ -457,6 +535,7 @@
   > *—Black Widow, Natasha Romanoff*
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19358 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/110/red-room-recruit) · oracle_id `4e60c38c-cbf5-4ff7-8fff-634f7e3086cc` · printing: MSH #110 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f52a5ba3-a618-4f52-9d33-ba85345eb627/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Scarab
@@ -469,6 +548,7 @@
   > Enchanted creature gets +2/+2 as long as an opponent controls a red permanent.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26500 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/49/red-scarab) · oracle_id `380b6a48-c364-4939-be0b-df542c63a5ff` · printing: ICE #49 (1995-06-03) · [rulings](https://api.scryfall.com/cards/9a734154-5944-42f4-a02e-c426a45847f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redshift, Rocketeer Chief
@@ -482,7 +562,11 @@
   > Exhaust — {10}{R}{G}: Put any number of permanent cards from your hand onto the battlefield. (Activate each exhaust ability only once.)
 - **Keywords:** Vigilance, Exhaust
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8900 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/218/redshift-rocketeer-chief) · oracle_id `582c7e54-d64c-4ffb-ae5f-d2752b3ed10b` · printing: DFT #218 (2025-02-14) · [rulings](https://api.scryfall.com/cards/5fba3820-32ba-47e9-9fa8-f985ff471b3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/218/redshift-rocketeer-chief) · oracle_id `582c7e54-d64c-4ffb-ae5f-d2752b3ed10b` · printing: DFT #218 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Sun's Twilight
 
@@ -494,7 +578,15 @@
   > *"Where once there was apathy, Urabrask brought passion, and the Great Work truly began."*
   > *—Monument inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7090 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/145/red-suns-twilight) · oracle_id `21c77cdb-9ba1-4621-b096-7eb94c076cef` · printing: ONE #145 (2023-02-10) · [rulings](https://api.scryfall.com/cards/7cac1827-69af-469d-b88c-fb9f2f33866a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-02-04* — Any enters-the-battlefield abilities of the copied artifact will trigger when the token enters the battlefield. Any "as [this artifact] enters the battlefield" or "[this artifact] enters the battlefield with" abilities of the artifact will also work.
+  - *2023-02-04* — Each token copies exactly what was printed on the original artifact and nothing else (unless that artifact is copying something else or is a token; see below). It doesn't copy whether that artifact is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
+  - *2023-02-04* — Each token gains haste after it has been created. If something copies one of these tokens, the copy won't have haste, and you won't exile it at the beginning of the next end step.
+  - *2023-02-04* — If X is 5 or more and any of the target artifacts become illegal, you create a token only for each of the artifacts that is still a legal target.
+  - *2023-02-04* — If the copied artifact has {X} in its mana cost, X is 0.
+  - *2023-02-04* — If the copied artifact is a token, the token that's created copies the original characteristics of that token as stated by the effect that created the token.
+  - *2023-02-04* — If the copied artifact is copying something else, then the token enters the battlefield as whatever that artifact copied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/145/red-suns-twilight) · oracle_id `21c77cdb-9ba1-4621-b096-7eb94c076cef` · printing: ONE #145 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Sun's Zenith
 
@@ -503,7 +595,9 @@
 - **Oracle text:**
   > Red Sun's Zenith deals X damage to any target. If a creature dealt damage this way would die this turn, exile it instead. Shuffle Red Sun's Zenith into its owner's library.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12307 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/74/red-suns-zenith) · oracle_id `82e61db8-4625-488f-8a5f-66ace9bbf34a` · printing: MBS #74 (2011-02-04) · [rulings](https://api.scryfall.com/cards/373eb109-0e30-41c1-b2df-6bc78d968890/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2011-06-01* — If this spell doesn’t resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner’s library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/74/red-suns-zenith) · oracle_id `82e61db8-4625-488f-8a5f-66ace9bbf34a` · printing: MBS #74 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Tiger Mechan
 
@@ -517,6 +611,7 @@
   > *While the Kavaron tiger has been extinct for centuries, its renowned ferocity endures.*
 - **Keywords:** Haste, Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/154/red-tiger-mechan) · oracle_id `94c9aea7-564d-4fc8-ae14-7b22cba18b95` · printing: EOE #154 (2025-08-01) · [rulings](https://api.scryfall.com/cards/b7b2fa48-cd2d-42ea-afd8-8cbd7a1bcdab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redtooth Genealogist
@@ -530,7 +625,16 @@
   > *Some family trees are thornier than others.*
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23974 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/179/redtooth-genealogist) · oracle_id `f6cb9c5a-601e-4580-9fab-903e9b00e35e` · printing: WOE #179 (2023-09-08) · [rulings](https://api.scryfall.com/cards/99c81440-66eb-4443-a83f-e2f15cb68a3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the “Virtue and Valor” Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won’t prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn’t target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner’s graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners’ graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can’t legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn’t created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/179/redtooth-genealogist) · oracle_id `f6cb9c5a-601e-4580-9fab-903e9b00e35e` · printing: WOE #179 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redtooth Vanguard
 
@@ -544,6 +648,7 @@
   > *"I'm just as deadly during the day."*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24999 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/180/redtooth-vanguard) · oracle_id `9e459e48-d2bb-4c4e-9a87-58efb56cddd1` · printing: WOE #180 (2023-09-08) · [rulings](https://api.scryfall.com/cards/55271960-b9bd-4bea-93ca-3321bf30be78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reduce in Stature
@@ -557,7 +662,10 @@
   > *A dragon learns humility only in the moments before its death.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28888 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/72/reduce-in-stature) · oracle_id `7ebaeef0-4e4c-4bf0-85dd-07c6b6be0741` · printing: DTK #72 (2015-03-27) · [rulings](https://api.scryfall.com/cards/8bad1d13-c4f6-4440-9988-e1db40039f02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2015-02-25* — Effects that modify the power or toughness of the creature, such as the effects of Giant Growth or Honor of the Pure, will apply to it no matter when they started to take effect. The same is true for counters that change the creature’s power or toughness (such as +1/+1 counters) and effects that switch its power and toughness.
+  - *2015-02-25* — Reduce in Stature overrides all previous effects that set the creature’s power or toughness to specific values. However, effects that set its power or toughness to specific values that start to apply after Reduce in Stature becomes attached to the creature will override this effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/72/reduce-in-stature) · oracle_id `7ebaeef0-4e4c-4bf0-85dd-07c6b6be0741` · printing: DTK #72 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reduce // Rubble
 
@@ -569,7 +677,18 @@
   > Up to three target lands don't untap during their controller's next untap step.
 - **Keywords:** Aftermath
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24282 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/akh/216/reduce-rubble) · oracle_id `cac993d5-28a1-48b6-9c2f-f216cb5f521d` · printing: AKH #216 (2017-04-28) · [rulings](https://api.scryfall.com/cards/d2f3035c-ca27-40f3-ad73-c4e54bb2bcd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2017-04-18* — A spell with aftermath cast from a graveyard will always be exiled afterward, whether it resolves, it's countered, or it leaves the stack in some other way.
+  - *2017-04-18* — All split cards have two card faces on a single card, and you put a split card onto the stack with only the half you're casting. The characteristics of the half of the card you didn't cast are ignored while the spell is on the stack. For example, if an effect prevents you from casting green spells, you can cast Destined of Destined // Lead, but not Lead.
+  - *2017-04-18* — Each split card has two names. If an effect instructs you to choose a card name, you may choose one, but not both.
+  - *2017-04-18* — Each split card is a single card. For example, if you discard one, you've discarded one card, not two. If an effect counts the number of instant and sorcery cards in your graveyard, Destined // Lead counts once, not twice.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from a graveyard, you may cast either half. If you cast the half that has aftermath, you'll exile the card if it would leave the stack.
+  - *2017-04-18* — If another effect allows you to cast a split card with aftermath from any zone other than a graveyard, you can't cast the half with aftermath.
+  - *2017-04-18* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
+  - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
+  - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
+  - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Source flags:** [Scryfall](https://scryfall.com/card/akh/216/reduce-rubble) · oracle_id `cac993d5-28a1-48b6-9c2f-f216cb5f521d` · printing: AKH #216 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reduce to Ashes
 
@@ -581,7 +700,9 @@
   > *"Before they can go to their final rest, the wicked must be purified by fire."*
   > *—Harra the Adjudicator*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25787 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clu/145/reduce-to-ashes) · oracle_id `9aab4b32-c5b3-4707-b359-9b5e3b63cd11` · printing: CLU #145 (2024-02-23) · [rulings](https://api.scryfall.com/cards/3e2a218b-2d22-4ffa-860c-27f461480fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-07-12* — The replacement effect of Reduce to Ashes will exile the target creature if it would die this turn for any reason, not just due to lethal damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clu/145/reduce-to-ashes) · oracle_id `9aab4b32-c5b3-4707-b359-9b5e3b63cd11` · printing: CLU #145 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reduce to Dreams
 
@@ -593,6 +714,7 @@
   > *"This world is a dream. We cling to our toys like children, but sooner or later we must learn to live without them."*
   > *—Sensei Hisoka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25630 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/49/reduce-to-dreams) · oracle_id `85bac6ad-b63a-4068-a813-ad685966e171` · printing: BOK #49 (2005-02-04) · [rulings](https://api.scryfall.com/cards/10962b1b-4039-4d8a-88e0-fc67537920a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reduce to Memory
@@ -605,7 +727,10 @@
   > *"Do not flinch from studying the horrors of the past. History's most important lessons are cloaked in terror and tragedy."*
   > *—Augusta, Lorehold dean*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16628 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/25/reduce-to-memory) · oracle_id `661736eb-97d7-4b3c-ab18-708479a5fb29` · printing: STX #25 (2021-04-23) · [rulings](https://api.scryfall.com/cards/7bfc408e-34d6-4e94-8678-4cc229cbc6f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-04-16* — Although you may want to include Lessons in your sideboard if you’re playing with cards that instruct you to learn, Lesson cards can be included in your main deck like other instant or sorcery cards.
+  - *2021-04-16* — Lesson is a spell subtype found on some instant and sorcery cards in the Strixhaven set. The Lesson subtype has no special rules associated with it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/25/reduce-to-memory) · oracle_id `661736eb-97d7-4b3c-ab18-708479a5fb29` · printing: STX #25 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Ward
 
@@ -616,6 +741,7 @@
   > Enchanted creature has protection from red. This effect doesn't remove this Aura.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24887 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/44/red-ward) · oracle_id `73f84440-425f-4cf5-b01a-3ae89f1f6e37` · printing: 4ED #44 (1995-04-01) · [rulings](https://api.scryfall.com/cards/543e8ec0-f36a-46a6-b7b1-e983e90a091a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redwood Treefolk
@@ -629,6 +755,7 @@
   > *And would you strip the bark from a treefolk?*
   > *—Elvish expression meaning "Are you crazy?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/264/redwood-treefolk) · oracle_id `2cdebbc2-2e0b-4d26-bb7f-4736f0318ca7` · printing: 7ED #264 (2001-04-11) · [rulings](https://api.scryfall.com/cards/9cc6d29d-2915-418d-856f-13b05430dfda/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red XIII, Proud Warrior
@@ -642,4 +769,8 @@
   > Cosmo Memory — When Red XIII enters, return target Aura or Equipment card from your graveyard to your hand.
 - **Keywords:** Vigilance, Trample, Cosmo Memory
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3791 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/91/red-xiii-proud-warrior) · oracle_id `9d302e2a-d852-4878-ac9d-d51d9924144b` · printing: FIC #91 (2025-06-13) · [rulings](https://api.scryfall.com/cards/10407b26-be28-4628-9567-746681e5c834/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-06-06* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2025-06-06* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2025-06-06* — An Aura controlled by another player does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/91/red-xiii-proud-warrior) · oracle_id `9d302e2a-d852-4878-ac9d-d51d9924144b` · printing: FIC #91 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

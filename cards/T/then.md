@@ -23,6 +23,7 @@
 - **Oracle text:**
   > Create X 6/6 green Dinosaur creature tokens with trample named Colossal Dreadmaw.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/RG08/then-dreadmaws-ate-everyone) · oracle_id `82f1e02b-7a1a-4771-b435-e00214a73e07` · printing: UNK #RG08 (2023-02-17) · [rulings](https://api.scryfall.com/cards/eb41631e-3545-4dc3-861e-1dbe3d82898b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Necrobloom
@@ -35,7 +36,18 @@
   > Land cards in your graveyard have dredge 2. (You may return a land card from your graveyard to your hand and mill two cards instead of drawing a card.)
 - **Keywords:** Mill, Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3808 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/194/the-necrobloom) · oracle_id `b981af39-4ee6-4fbc-9a89-618dcad9dfbf` · printing: MH3 #194 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8fcf68cf-0dac-4b29-90d5-c18c685182e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2024-06-07* — Dredge can replace any card draw, not just the one during your draw step. One card draw can't be replaced by multiple dredge abilities.
+  - *2024-06-07* — If an effect puts a card into your hand without specifically using the word "draw," you're not drawing a card. Dredge can't replace this event.
+  - *2024-06-07* — If multiple lands enter the battlefield under your control simultaneously, all of those lands are counted. For example, if you sacrifice seven lands while resolving Scapeshift and search your library for seven lands with different names, you'll create seven Zombie tokens.
+  - *2024-06-07* — If you control multiple lands with the same name, only one of those lands will count toward the seven or more required to create a Zombie. For example, if you control four lands named Forest, two named Plains, and one named Swamp, you control three lands with different names.
+  - *2024-06-07* — If you're drawing multiple cards, each draw is performed one at a time. For example, if you're instructed to draw two cards and you replace the first draw with a dredge ability, another card with a dredge ability (including one that was put into your graveyard by the first dredge ability) may be used to replace the second draw.
+  - *2024-06-07* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any action until you've put that card into your hand and put the top cards of your library into your graveyard.
+  - *2024-06-07* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/194/the-necrobloom) · oracle_id `b981af39-4ee6-4fbc-9a89-618dcad9dfbf` · printing: MH3 #194 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Neutrinos
 
@@ -48,7 +60,12 @@
   > Whenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking.
 - **Keywords:** Flying, Alliance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18521 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/160/the-neutrinos) · oracle_id `b1462c82-7702-451b-b612-990353a79ac4` · printing: TMT #160 (2026-03-06) · [rulings](https://api.scryfall.com/cards/1308dadc-08a9-40bd-98a4-fb66d792e27d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-01-27* — Although the creature you put onto the battlefield is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking. (Any abilities that triggered before The Neutrinos exiled the creature are unaffected, and the source of those abilities is that creature as it last existed on the battlefield, not the creature that's attacking now.)
+  - *2026-01-27* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+  - *2026-01-27* — Once a creature exiled this way returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+  - *2026-01-27* — You choose the player, planeswalker, or battle the returned creature is attacking. It doesn't need to be the same player, planeswalker, or battle that The Neutrinos or any other attacking creatures are attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmt/160/the-neutrinos) · oracle_id `b1462c82-7702-451b-b612-990353a79ac4` · printing: TMT #160 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Night of the Doctor
 
@@ -59,6 +76,7 @@
   > I — Destroy all creatures.
   > II — Return target legendary creature card from your graveyard to the battlefield. Put your choice of a first strike, vigilance, or lifelink counter on it.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9591 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/24/the-night-of-the-doctor) · oracle_id `a9c1fa95-34a8-42ef-af2f-1394df23cad8` · printing: WHO #24 (2023-10-13) · [rulings](https://api.scryfall.com/cards/513d33fb-becc-4804-806a-764d08fc7b7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ninth Doctor
@@ -73,7 +91,12 @@
   > *"Fantastic!"*
 - **Keywords:** Into the TARDIS, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7141 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/who/148/the-ninth-doctor) · oracle_id `c99f59c0-5cce-41a4-908f-d34e2c697419` · printing: WHO #148 (2023-10-13) · [rulings](https://api.scryfall.com/cards/74785b3b-44df-4555-a036-082572b7f4e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
+  - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
+  - *2023-10-13* — The Ninth Doctor's ability triggers during the untap step and goes onto the stack at the beginning of the next step (usually the upkeep). The additional upkeep is taken after that step, not after the untap step.
+  - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Source flags:** [Scryfall](https://scryfall.com/card/who/148/the-ninth-doctor) · oracle_id `c99f59c0-5cce-41a4-908f-d34e2c697419` · printing: WHO #148 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Nipton Lottery
 
@@ -84,7 +107,10 @@
 - **Flavor text** (PIP printing):
   > *Oliver Swanick won the only lottery that matters: a chance to live another day.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11339 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/113/the-nipton-lottery) · oracle_id `8af798a9-2198-4f39-aa6d-5420a0f1203c` · printing: PIP #113 (2024-03-08) · [rulings](https://api.scryfall.com/cards/a0abd847-1c9d-45cd-a6d1-3a0cda3687cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2024-03-08* — Players can’t take actions between the time the creature is randomly chosen and the time at which the rest of the effects occur.
+  - *2024-03-08* — The creature chosen at random isn’t targeted, so a creature with shroud or an opponent’s creature with hexproof can be chosen this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/113/the-nipton-lottery) · oracle_id `8af798a9-2198-4f39-aa6d-5420a0f1203c` · printing: PIP #113 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Notary Hobbits
 
@@ -97,4 +123,5 @@
 - **Flavor text** (HOB printing):
   > *Since Bilbo was presumed dead, his belongings were auctioned by three of the town's best lawyers: Messrs. Grubb, Grubb, and Burrowes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10439 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/131/the-notary-hobbits) · oracle_id `dc20b29b-856e-4d45-99cd-5e12cfc2324d` · printing: HOB #131 (2026-08-14) · [rulings](https://api.scryfall.com/cards/d876315f-b269-4254-a517-905c6e927462/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -32,7 +32,9 @@
   > Morph {3}{B}{B} (You may cast this card face down as a 2/2 creature for {3}. Turn it face up any time for its morph cost.)
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9981 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ons/141/ebonblade-reaper) · oracle_id `86fd4652-a629-429a-bf95-0b8724708a71` · printing: ONS #141 (2002-10-07) · [rulings](https://api.scryfall.com/cards/16ebef2c-8bb2-4816-a628-0062f95e512e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-02-01* — If you attempt to halve a negative life total, you halve 0. This means that the life total stays the same. A life total of -10 would remain -10.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ons/141/ebonblade-reaper) · oracle_id `86fd4652-a629-429a-bf95-0b8724708a71` · printing: ONS #141 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebondeath, Dracolich
 
@@ -46,7 +48,11 @@
   > You may cast this card from your graveyard if a creature not named Ebondeath, Dracolich died this turn.
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6915 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/100/ebondeath-dracolich) · oracle_id `1a6fce11-e77c-41f1-9ff7-9a93b18071db` · printing: AFR #100 (2021-07-23) · [rulings](https://api.scryfall.com/cards/e6b3f460-92ba-4af0-aad9-cf86615d4177/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-07-23* — Casting Ebondeath, Dracolich from your graveyard follows the normal rules for casting that card. You must pay its costs, and you must follow all applicable timing rules.
+  - *2021-07-23* — Ebondeath Dracolich cares what the creature's name was while it was last on the battlefield, not what it is in the graveyard. For example, if a creature with a different name becomes a copy of Ebondeath, Dracolich and then dies, you won't be able to cast Ebondeath, Dracolich from your graveyard.
+  - *2021-07-23* — Ebondeath, Dracolich's last ability cares only whether a creature not named Ebondeath, Dracolich died during the turn, even if Ebondeath, Dracolich wasn't in your graveyard when that happened. It doesn't matter if a creature named Ebondeath, Dracolich also died, and it doesn't matter what happens to the creature after it dies. For example, if the creature that died is a token or the creature card leaves the graveyard later in the turn, you can still cast Ebondeath, Dracolich.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/100/ebondeath-dracolich) · oracle_id `1a6fce11-e77c-41f1-9ff7-9a93b18071db` · printing: AFR #100 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Dragon
 
@@ -58,6 +64,7 @@
   > When this creature enters, you may have target opponent discard a card.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28229 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/80/ebon-dragon) · oracle_id `12e4d2bd-83e9-4120-a2e8-0645c0ed2387` · printing: ME4 #80 (2011-01-10) · [rulings](https://api.scryfall.com/cards/63ec235b-7d9a-4600-89db-48b14beb1aa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Drake
@@ -72,7 +79,9 @@
   > *The deadliest killers serve only those who are not afraid to die.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10399 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/48/ebon-drake) · oracle_id `db4242ab-fdf3-487a-bc77-42bd2ef973c3` · printing: 5DN #48 (2004-06-04) · [rulings](https://api.scryfall.com/cards/254ea05c-c349-4a95-8751-779b044603bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — This ability triggers off anyone casting a spell, including you, not just Ebon Drake’s controller or an opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/5dn/48/ebon-drake) · oracle_id `db4242ab-fdf3-487a-bc77-42bd2ef973c3` · printing: 5DN #48 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Praetor
 
@@ -85,6 +94,7 @@
   > Sacrifice a creature: Remove a -2/-2 counter from this creature. If the sacrificed creature was a Thrull, put a +1/+0 counter on this creature. Activate only during your upkeep and only once each turn.
 - **Keywords:** First strike, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28809 · Game Changer: no · Can be commander: No · Reserved List
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/89/ebon-praetor) · oracle_id `0501af1f-c67c-4cb1-aced-4be426c83316` · printing: ME2 #89 (2008-09-22) · [rulings](https://api.scryfall.com/cards/6438dc8e-eb21-4db7-aeab-bb062acd6029/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebon Stronghold
@@ -96,6 +106,7 @@
   > {T}: Add {B}.
   > {T}, Sacrifice this land: Add {B}{B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10521 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/228/ebon-stronghold) · oracle_id `4d4b9512-d29d-4b99-9249-d37e1199a1f5` · printing: ME2 #228 (2008-09-22) · [rulings](https://api.scryfall.com/cards/add84934-3067-4f01-9b43-5af4ff247de3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Charm
@@ -108,7 +119,9 @@
   > • Exile up to three target cards from a single graveyard.
   > • Target creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19394 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mir/120/ebony-charm) · oracle_id `2f3237fe-9e07-4aad-8bc8-7ef4b510dd36` · printing: MIR #120 (1996-10-08) · [rulings](https://api.scryfall.com/cards/937c8016-43c8-418b-9057-b5d6715f71f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — It targets the cards in the graveyard. These targets are selected when casting the spell.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mir/120/ebony-charm) · oracle_id `2f3237fe-9e07-4aad-8bc8-7ef4b510dd36` · printing: MIR #120 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Fly
 
@@ -120,7 +133,19 @@
   > {4}: Roll a d6. Until end of turn, you may have this artifact become an X/X Insect artifact creature with flying, where X is the result.
   > Whenever this artifact attacks, another target attacking creature gains flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/60/ebony-fly) · oracle_id `2a2f2d6c-3937-4e4b-9e4a-3480e0c787d0` · printing: AFC #60 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7f11245d-9e80-42b0-b371-21e990a2e6ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (11):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+  - *2021-07-23* — You choose whether Ebony Fly becomes a creature as the second ability resolves, after you see the result of the die roll. If you don't choose to make it a creature at that time, you can't choose to make it a creature later in the turn unless you activate the ability again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/60/ebony-fly) · oracle_id `2a2f2d6c-3937-4e4b-9e4a-3480e0c787d0` · printing: AFC #60 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Horse
 
@@ -129,6 +154,7 @@
 - **Oracle text:**
   > {2}, {T}: Untap target attacking creature you control. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24703 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/198/ebony-horse) · oracle_id `4eb67ba3-35e3-47c3-820f-62814cf202a7` · printing: ME4 #198 (2011-01-10) · [rulings](https://api.scryfall.com/cards/441ac6f6-c233-4fd4-8005-2ecf0579a538/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Owl Netsuke
@@ -141,6 +167,7 @@
   > *"Owls filled the skies during the Kami War, harbingers of darker times to come."*
   > *—\*The History of Kamigawa\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12985 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/154/ebony-owl-netsuke) · oracle_id `dcacb717-4ca4-47c0-9b23-26e4eb4ffdc8` · printing: SOK #154 (2005-06-03) · [rulings](https://api.scryfall.com/cards/39e0c24f-2312-4b40-9cd1-2b83d501e485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Rhino
@@ -155,6 +182,7 @@
   > *—Chandler*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30657 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/199/ebony-rhino) · oracle_id `3d2b5201-c2bf-4753-89ad-543795740216` · printing: ME4 #199 (2011-01-10) · [rulings](https://api.scryfall.com/cards/0cc3d3c7-f76c-4d54-83b8-ccc04c8f2241/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ebony Treefolk
@@ -167,4 +195,5 @@
 - **Flavor text** (APC printing):
   > *Its roots are equally happy to drink the water of a clear stream or the oily blood of a Phyrexian warrior.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30434 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/97/ebony-treefolk) · oracle_id `04683bd7-b100-4fc8-8165-316c5508c255` · printing: APC #97 (2001-06-04) · [rulings](https://api.scryfall.com/cards/2b85dadb-351f-4975-a2c3-febf5e80bc85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

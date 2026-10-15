@@ -28,7 +28,14 @@
   > Whenever you gain life, put a +1/+1 counter on Qala.
   > {3}{W}: You gain 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7378 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/j25/32/qala-ajanis-pridemate) · oracle_id `1fc1b0d7-7f15-4d00-bc8f-e06489afd425` · printing: J25 #32 (2024-11-15) · [rulings](https://api.scryfall.com/cards/3cf1e9ab-343d-462c-a71e-e12b101aa0b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Qala's second ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2024-11-08* — If Qala is dealt lethal damage at the same time that you gain life, it won't receive a counter from its second ability in time to save it.
+  - *2024-11-08* — If you gain an amount of life "for each" of something or "equal to the number" of something, that life is gained as one event and Qala's second ability triggers only once.
+  - *2024-11-08* — In a Two-Headed Giant game, life gained by your teammate won't cause Qala's second ability to trigger, even though it caused your team's life total to increase.
+  - *2024-11-08* — Qala's second ability triggers just once for each life-gaining event, whether it's 1 life from Dazzling Angel or 4 life from Apothecary Stomper.
+  - *2024-11-08* — The value of X is calculated only once, as Qala's first ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/j25/32/qala-ajanis-pridemate) · oracle_id `1fc1b0d7-7f15-4d00-bc8f-e06489afd425` · printing: J25 #32 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qal Sisma Behemoth
 
@@ -41,7 +48,9 @@
   > *"It hunts grand game for Atarka, and when the time comes, it will become a mighty feast."*
   > *—Surrak, the Hunt Caller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30970 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/149/qal-sisma-behemoth) · oracle_id `636e9863-29ac-476a-86db-d8f73b4adbf4` · printing: DTK #149 (2015-03-27) · [rulings](https://api.scryfall.com/cards/ea70e96a-bebd-4ca4-aa24-e5fd0df38b8a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-02-25* — If an effect says that Qal Sisma Behemoth must attack or block if able, you can choose not to pay the associated cost and ignore that requirement. Players are never forced to pay a cost to attack or block.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/149/qal-sisma-behemoth) · oracle_id `636e9863-29ac-476a-86db-d8f73b4adbf4` · printing: DTK #149 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi Deceiver
 
@@ -51,7 +60,12 @@
 - **Oracle text:**
   > {T}: Add {C}. Spend this mana only to cast a face-down creature spell, pay a mana cost to turn a manifested creature face up, or pay a morph cost. (A megamorph cost is a morph cost.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24028 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/71/qarsi-deceiver) · oracle_id `e12681cc-c66e-4dac-882c-bd8638a2e12c` · printing: DTK #71 (2015-03-27) · [rulings](https://api.scryfall.com/cards/64d64264-895f-4d4d-8e5c-ab1d0d6e340b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
+  - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
+  - *2015-02-25* — The mana produced by Qarsi Deceiver can’t be used to cast a spell that instructs you to manifest cards.
+  - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/71/qarsi-deceiver) · oracle_id `e12681cc-c66e-4dac-882c-bd8638a2e12c` · printing: DTK #71 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi High Priest
 
@@ -64,7 +78,21 @@
   > *"Hear me, nameless, and obey."*
 - **Keywords:** Manifest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23526 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/80/qarsi-high-priest) · oracle_id `3bcb5ad4-818e-4f10-aaff-188d713b160b` · printing: FRF #80 (2015-01-23) · [rulings](https://api.scryfall.com/cards/58c1bdbc-2bf4-4036-bf83-669c27458c6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (13):
+  - *2014-11-24* — A permanent that turns face up or face down changes characteristics but is otherwise the same permanent. Spells and abilities that were targeting that permanent, as well as Auras and Equipment that were attached to the permanent, aren't affected.
+  - *2014-11-24* — Any time you have priority, you may turn a manifested creature face up by revealing that it's a creature card (ignoring any copy effects or type-changing effects that might be applying to it) and paying its mana cost. This is a special action. It doesn't use the stack and can't be responded to.
+  - *2014-11-24* — At any time, you can look at a face-down permanent you control. You can't look at face-down permanents you don't control unless an effect allows you to or instructs you to.
+  - *2014-11-24* — Because face-down creatures don't have names, they can't have the same name as any other creature, even another face-down creature.
+  - *2014-11-24* — Because the permanent is on the battlefield both before and after it's turned face up, turning a permanent face up doesn't cause any enters-the-battlefield abilities to trigger.
+  - *2014-11-24* — If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up.
+  - *2014-11-24* — If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends.
+  - *2014-11-24* — If a manifested creature would have morph if it were face up, you may also turn it face up by paying its morph cost.
+  - *2014-11-24* — The face-down permanent is a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the permanent can still grant or change any of these characteristics.
+  - *2014-11-24* — There are no cards in the Fate Reforged set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it's an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won't trigger, because even though you revealed the card, it never turned face up.
+  - *2014-11-24* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
+  - *2014-11-24* — Unlike a face-down creature that was cast using the morph ability, a manifested creature may still be turned face up after it loses its abilities if it's a creature card.
+  - *2014-11-24* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (manifested, cast face down using the morph ability, and so on).
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/80/qarsi-high-priest) · oracle_id `3bcb5ad4-818e-4f10-aaff-188d713b160b` · printing: FRF #80 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi Revenant
 
@@ -79,7 +107,9 @@
   > *—Sultai warning*
 - **Keywords:** Deathtouch, Flying, Lifelink, Renew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2336 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/86/qarsi-revenant) · oracle_id `bbea79bc-71d4-4100-92f4-783c2c4b46da` · printing: TDM #86 (2025-04-11) · [rulings](https://api.scryfall.com/cards/8c93a0f6-5e50-4dda-9ff6-da741fb839ff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tdm/86/qarsi-revenant) · oracle_id `bbea79bc-71d4-4100-92f4-783c2c4b46da` · printing: TDM #86 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qarsi Sadist
 
@@ -93,7 +123,13 @@
   > *Dying for the greater good still hurts.*
 - **Keywords:** Exploit
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24374 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/113/qarsi-sadist) · oracle_id `69e15fd8-9531-4392-8b85-b539c138ea91` · printing: DTK #113 (2015-03-27) · [rulings](https://api.scryfall.com/cards/068c44b9-0ba8-4275-b73d-18ad366f4b45/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2015-02-25* — A creature with exploit “exploits a creature” when the controller of the exploit ability sacrifices a creature as that ability resolves.
+  - *2015-02-25* — If the creature with exploit isn’t on the battlefield as the exploit ability resolves, you won’t get any bonus from the creature with exploit, even if you sacrifice a creature. Because the creature with exploit isn’t on the battlefield, its other triggered ability won’t trigger.
+  - *2015-02-25* — You can sacrifice the creature with exploit if it’s still on the battlefield. This will cause its other ability to trigger.
+  - *2015-02-25* — You can’t sacrifice more than one creature to any one exploit ability.
+  - *2015-02-25* — You choose whether to sacrifice a creature and which creature to sacrifice as the exploit ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dtk/113/qarsi-sadist) · oracle_id `69e15fd8-9531-4392-8b85-b539c138ea91` · printing: DTK #113 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qasali Ambusher
 
@@ -107,7 +143,13 @@
   > *The surprise of a battle cry can be as deadly as a blade.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/184/qasali-ambusher) · oracle_id `cbd106fb-c9c5-4c5e-8801-619b7c8ff5a6` · printing: ALA #184 (2008-10-03) · [rulings](https://api.scryfall.com/cards/be4e1284-eea2-4fc4-99e4-ed53176939ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2008-10-01* — Casting Qasali Ambusher as described in its second ability still uses the stack. The spell can be countered.
+  - *2008-10-01* — For you to cast Qasali Ambusher as described in its second ability, a creature has to be attacking *you*. If creatures are attacking only planeswalkers, you won’t be able to cast Qasali Ambusher this way.
+  - *2008-10-01* — If you want to cast Qasali Ambusher by using its second ability, you don’t necessarily have to do it during the declare attackers step. You can do it later in combat (including all the way up through the end of combat step) as long as there’s still a creature attacking you. Of course, if you cast Qasali Ambusher later than the declare attackers step, it won’t be able to block.
+  - *2008-10-01* — Qasali Ambusher’s second ability is looking for lands with the subtypes Forest and Plains. Those lands don’t need to be named Forest and Plains. It’s okay if both subtypes are from the same land (such as Savannah or Temple Garden).
+  - *2018-04-27* — If you’re playing a Two-Headed Giant game and a creature is attacking your teammate, you won’t be able to cast Qasali Ambusher this way.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/184/qasali-ambusher) · oracle_id `cbd106fb-c9c5-4c5e-8801-619b7c8ff5a6` · printing: ALA #184 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qasali Pridemage
 
@@ -121,7 +163,11 @@
   > *An elder in one pride, of the Sigiled caste in another.*
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/267/qasali-pridemage) · oracle_id `10821e37-8a83-4d8e-a12f-249a10933a22` · printing: 2X2 #267 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a103646d-b363-4896-a48f-0527d746587e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-03-19* — If you declare exactly one creature as an attacker, each exalted ability on each permanent you control (including, perhaps, the attacking creature itself) will trigger.
+  - *2021-03-19* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
+  - *2021-03-19* — You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2x2/267/qasali-pridemage) · oracle_id `10821e37-8a83-4d8e-a12f-249a10933a22` · printing: 2X2 #267 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Qasali Slingers
 
@@ -135,4 +181,6 @@
   > *All things will crumble, whether by time or by force.*
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c17/33/qasali-slingers) · oracle_id `f763d118-3183-4604-a50c-7c3933e2185e` · printing: C17 #33 (2017-08-25) · [rulings](https://api.scryfall.com/cards/40e21394-146e-4648-b81e-63659c0c4764/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2017-08-25* — If Qasali Slingers enters the battlefield at the same time as other Cats you control, its ability will trigger for each of those Cats.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c17/33/qasali-slingers) · oracle_id `f763d118-3183-4604-a50c-7c3933e2185e` · printing: C17 #33 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

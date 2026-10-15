@@ -32,6 +32,7 @@
   > Creatures you control have vigilance and "{T}: Add one mana of any color. Spend this mana only to cast a creature spell."
   > Whenever you cast a creature spell, if three or more mana from creatures was spent to cast it, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2508 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/229/inga-and-esika) · oracle_id `3431ee42-c34a-4972-9488-41b83ba5f943` · printing: MOM #229 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0aa97506-b943-4443-96b1-1b49f57d80aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In Garruk's Wake
@@ -43,6 +44,7 @@
 - **Flavor text** (CLB printing):
   > *Beyond pain, beyond obsession and wild despair, there lies a place of twisted power only the most tormented souls can reach.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1492 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/759/in-garruks-wake) · oracle_id `a6899b94-427d-4851-a474-4087e0a0918a` · printing: CLB #759 (2022-06-10) · [rulings](https://api.scryfall.com/cards/57a6f727-8239-45e6-9dbb-67d2d3c9239d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inga Rune-Eyes
@@ -57,7 +59,10 @@
   > *Every path ever charted by an Omenseeker is etched into her eyes.*
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18463 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/100/inga-rune-eyes) · oracle_id `78afa295-c9f4-4a81-9f7b-5746a3cf6b31` · printing: CMM #100 (2023-08-04) · [rulings](https://api.scryfall.com/cards/c190eceb-f6d8-408f-bbc4-df0fefb778ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-02-05* — The last ability will count any creature that died, no matter who controlled it.
+  - *2021-02-05* — The number of creatures that have died that turn is checked as the last ability resolves. Inga Rune-Eyes will count, as will creatures that die at the same time as Inga Rune-Eyes and creatures that die while that ability is on the stack but has not yet resolved.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/100/inga-rune-eyes) · oracle_id `78afa295-c9f4-4a81-9f7b-5746a3cf6b31` · printing: CMM #100 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Artillerist
 
@@ -69,6 +74,7 @@
 - **Flavor text** (CLB printing):
   > *"Sure, you can help me calibrate the aiming mechanism. Stand over there."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1745 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/182/ingenious-artillerist) · oracle_id `752c7723-90f8-4e3a-8266-f251ee0dadd8` · printing: CLB #182 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1d8dd6c3-3699-4dd1-a019-fdb569eaf722/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Infiltrator
@@ -81,7 +87,15 @@
   > Whenever a Ninja you control deals combat damage to a player, draw a card.
 - **Keywords:** Ninjutsu
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3218 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/204/ingenious-infiltrator) · oracle_id `354defd2-f63f-4a48-9fd4-2526b3878a84` · printing: MH1 #204 (2019-06-14) · [rulings](https://api.scryfall.com/cards/919cd266-b796-4a1c-937f-76b565c82495/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2019-06-14* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2019-06-14* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja isn’t put onto the battlefield until the ability resolves. If it leaves your hand before then, it won’t enter the battlefield at all.
+  - *2019-06-14* — If Ingenious Infiltrator is dealt lethal combat damage at the same time a Ninja you control deals combat damage to a player, its ability triggers.
+  - *2019-06-14* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature’s controller chooses which player or planeswalker it’s attacking.
+  - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won’t normally deal combat damage.
+  - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/204/ingenious-infiltrator) · oracle_id `354defd2-f63f-4a48-9fd4-2526b3878a84` · printing: MH1 #204 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Leonin
 
@@ -93,6 +107,7 @@
 - **Flavor text** (FDN printing):
   > *Leonin claws were already deadly weapons of natural evolution before he improved upon them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23056 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/495/ingenious-leonin) · oracle_id `99853d2e-2223-4c05-bbd7-0a746f8f810d` · printing: FDN #495 (2024-11-15) · [rulings](https://api.scryfall.com/cards/ea566679-4202-4076-9314-142241485f6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Mastery
@@ -104,7 +119,13 @@
   > If the {2}{U} cost was paid, you draw three cards, then an opponent creates two Treasure tokens and they scry 2. If that cost wasn't paid, you draw X cards.
 - **Keywords:** Treasure, Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/44/ingenious-mastery) · oracle_id `dad43a2d-5b30-45f2-a34d-9e68d1fbb716` · printing: STX #44 (2021-04-23) · [rulings](https://api.scryfall.com/cards/2386d020-a9ae-4d54-b5e4-f2cb5a7298cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-04-16* — If an effect increases or decreases the cost of spells you cast, that cost increase or decrease is applied to the alternative cost you chose to pay. In that case, the cost was still paid for the purposes of the effect, even if you paid more or less for it when it was cast.
+  - *2021-04-16* — If you choose to pay one alternative cost, you can’t pay any other alternative costs. For example, if an effect lets you cast a “Mastery” spell “without paying its mana cost,” you can’t also choose to pay its given alternative cost.
+  - *2021-04-16* — If you copy a “Mastery” spell and the alternative cost was paid, the copy will resolve as though the cost was paid.
+  - *2021-04-16* — In a multiplayer game, you choose which opponent takes the prescribed action as the spell resolves.
+  - *2021-04-16* — The mana value of a spell on the stack is determined by its mana cost, not any alternative costs you used to pay for it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/44/ingenious-mastery) · oracle_id `dad43a2d-5b30-45f2-a34d-9e68d1fbb716` · printing: STX #44 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Prodigy
 
@@ -117,6 +138,7 @@
   > At the beginning of your upkeep, if this creature has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card.
 - **Keywords:** Skulk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3238 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/115/ingenious-prodigy) · oracle_id `6f498ff7-38c9-44ea-9cb5-994a003825ee` · printing: SOC #115 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8d242dc2-5117-4bd6-a0c9-813d36d01e11/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Skaab
@@ -131,6 +153,7 @@
   > *Heads and shoulders above the rest.*
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/52/ingenious-skaab) · oracle_id `9107ece7-a263-4203-ab09-069193cc4902` · printing: 2X2 #52 (2022-07-08) · [rulings](https://api.scryfall.com/cards/a264f107-f9dd-4599-a134-62db6a242a8b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Smith
@@ -142,6 +165,7 @@
   > When this creature enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
   > Whenever one or more artifacts you control enter, put a +1/+1 counter on this creature. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13130 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/135/ingenious-smith) · oracle_id `f3988b96-9e00-445c-b3e1-6b2df9b13dac` · printing: MSC #135 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2962e4d3-3f01-47d4-abe3-75658700c132/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Thief
@@ -154,6 +178,7 @@
   > When this creature enters, look at target player's hand.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29696 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/40/ingenious-thief) · oracle_id `73ea2949-5812-478d-8f09-00743ce4d40f` · printing: S99 #40 (1999-07-01) · [rulings](https://api.scryfall.com/cards/97c47d9a-c942-4b17-99f1-ff7a24134f7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenuity Engine
@@ -165,7 +190,18 @@
   > {1}, {T}, Sacrifice an artifact: Return target artifact you control to its owner's hand.
 - **Keywords:** Cascade
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9465 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/317/ingenuity-engine) · oracle_id `d1da2c33-2be4-4065-8e5c-613a069d2013` · printing: CMR #317 (2020-11-20) · [rulings](https://api.scryfall.com/cards/ac255db4-9c46-4971-bf89-f9014602999c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2020-11-10* — Ingenuity Engine can be the target of its own ability. It can be artifact you sacrifice as part of the activation cost. It can even be both, although that will result only in you sacrificing Ingenuity Engine and not returning anything to its owner's hand.
+  - *2021-06-18* — A spell's mana value is determined only by its mana cost. Ignore any alternative costs, additional costs, cost increases, or cost reductions.
+  - *2021-06-18* — Cascade triggers when you cast the spell, meaning that it resolves before that spell. If you end up casting the exiled card, it will go on the stack above the spell with cascade.
+  - *2021-06-18* — Due to a 2021 rules change to cascade, not only do you stop exiling cards if you exile a nonland card with lesser mana value than the spell with cascade, but the resulting spell you cast must also have lesser mana value. Previously, in cases where a card's mana value differed from the resulting spell, such as with some modal double-faced cards or cards with an Adventure, you could cast a spell with a higher mana value than the exiled card.
+  - *2021-06-18* — If a spell with cascade is countered, the cascade ability will still resolve normally.
+  - *2021-06-18* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2021-06-18* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
+  - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
+  - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
+  - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/317/ingenuity-engine) · oracle_id `d1da2c33-2be4-4065-8e5c-613a069d2013` · printing: CMR #317 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingot Chewer
 
@@ -179,7 +215,9 @@
   > *Elementals are ideas given form. This one is the idea of "smashitude."*
 - **Keywords:** Evoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5312 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/95/ingot-chewer) · oracle_id `127795e6-3f0e-4318-95ad-ccb1912580ac` · printing: ECC #95 (2026-01-23) · [rulings](https://api.scryfall.com/cards/c2086d4e-c202-4677-8dee-ecabd61cf921/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — If you cast this card for its evoke cost, you may put the sacrifice trigger and the regular enters-the-battlefield trigger on the stack in either order. The one put on the stack last will resolve first.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/95/ingot-chewer) · oracle_id `127795e6-3f0e-4318-95ad-ccb1912580ac` · printing: ECC #95 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingris Stingerquill
 
@@ -192,4 +230,5 @@
   > {4}: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then creatures you control gain haste until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12876 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/137/ingris-stingerquill) · oracle_id `bda098cb-31ec-41a1-a9d7-122877cc69d2` · printing: FRA #137 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6471b135-33a8-4005-9a07-ebb74e0bf145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -22,4 +22,5 @@
   > *"I don't believe this was a fair test of my command abilities."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32319 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/33/saavik-stoic-student) · oracle_id `53aaa919-d08f-4b76-8583-bc2d4635f991` · printing: TRK #33 (2026-11-13) · [rulings](https://api.scryfall.com/cards/3783c530-a2da-4dc1-811a-0a9a412c8e78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

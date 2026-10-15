@@ -35,7 +35,9 @@
   > *"This backwater doesn't have a single wall, ward, or guard that could keep me out."*
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3302 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/230/satoru-the-infiltrator) · oracle_id `7555c429-5f2d-4171-b6b0-8e3c8da7f314` · printing: OTJ #230 (2024-04-19) · [rulings](https://api.scryfall.com/cards/acc9a5cc-2b3c-4c2f-8176-4a2d86265cc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-04-12* — If you cast a creature spell without paying its mana cost but you paid mana for additional costs or cost increases (such as from Aven Interrupter), Satoru's last ability won't trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/230/satoru-the-infiltrator) · oracle_id `7555c429-5f2d-4171-b6b0-8e3c8da7f314` · printing: OTJ #230 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satoru Umezawa
 
@@ -46,7 +48,17 @@
   > Whenever you activate a ninjutsu ability, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. This ability triggers only once each turn.
   > Each creature card in your hand has ninjutsu {2}{U}{B}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3708 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/234/satoru-umezawa) · oracle_id `ed1d21ba-ddfe-4f82-9e37-93f9e2c7ba33` · printing: NEO #234 (2022-02-18) · [rulings](https://api.scryfall.com/cards/8887f26d-b097-4fbc-9c48-bdc656409a32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2022-02-18* — Although the Ninja is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2022-02-18* — As you activate a ninjutsu ability, you reveal the Ninja card in your hand and return the attacking creature. The Ninja card stays revealed and isn't put onto the battlefield until the ability resolves. If it leaves your hand before then, it won't enter the battlefield at all.
+  - *2022-02-18* — If a creature in combat has first strike or double strike, you can activate the ninjutsu ability during the first-strike combat damage step. The Ninja will deal combat damage during the regular combat damage step, even if it has first strike.
+  - *2022-02-18* — Once you activate a ninjutsu ability, no player can affect that ability by removing Satoru Umezawa from the battlefield. Even if Satoru leaves the battlefield before it resolves, you'll still be able to put the creature onto the battlefield tapped and attacking.
+  - *2022-02-18* — Puff of smoke not included.
+  - *2022-02-18* — Satoru Umezawa's triggered ability triggers whenever you activate a ninjustsu ability, and it will resolve before that ability resolves. The card with ninjustsu will still be in your hand while resolving the ability and must remain revealed until the ninjutsu ability resolves or is otherwise removed from the stack.
+  - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
+  - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
+  - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/234/satoru-umezawa) · oracle_id `ed1d21ba-ddfe-4f82-9e37-93f9e2c7ba33` · printing: NEO #234 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satsuki, the Living Lore
 
@@ -59,7 +71,9 @@
   > • Return target Saga or enchantment creature you control to its owner's hand.
   > • Return target Saga card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4664 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/neo/235/satsuki-the-living-lore) · oracle_id `e41be9ad-3717-4f25-a8e0-c9947a2a0227` · printing: NEO #235 (2022-02-18) · [rulings](https://api.scryfall.com/cards/0152575b-31b0-4142-9cc2-b87a81bd51a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-02-18* — Putting a lore counter on a Saga will usually cause the next chapter ability to trigger. If it already has a number of lore counters on it equal to its final chapter number however, no abilities trigger. In particular, this doesn't cause the final chapter ability to trigger again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/neo/235/satsuki-the-living-lore) · oracle_id `e41be9ad-3717-4f25-a8e0-c9947a2a0227` · printing: NEO #235 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satya, Aetherflux Genius
 
@@ -71,7 +85,22 @@
   > Whenever Satya attacks, create a tapped and attacking token that's a copy of up to one other target nontoken creature you control. You get {E}{E} (two energy counters). At the beginning of the next end step, sacrifice that token unless you pay an amount of {E} equal to its mana value.
 - **Keywords:** Haste, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6613 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/3/satya-aetherflux-genius) · oracle_id `ce8af7dd-49df-4419-9776-4157efc60b0f` · printing: M3C #3 (2024-06-14) · [rulings](https://api.scryfall.com/cards/3b964bbe-54cc-425c-9cc6-c877f82af7ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-06-07* — Any enters-the-battlefield abilities of the copied creature will trigger when the token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the creature will also work.
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — If the copied creature has {X} in its mana cost, X is 0.
+  - *2024-06-07* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — The token copies exactly what was printed on the original card and nothing else (unless that creature is itself copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+  - *2024-06-07* — You choose which player, planeswalker, or battle the token is attacking as you create the token. It doesn't need to be attacking the same player, planeswalker, or battle that Satya is attacking.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m3c/3/satya-aetherflux-genius) · oracle_id `ce8af7dd-49df-4419-9776-4157efc60b0f` · printing: M3C #3 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Enchanter
 
@@ -83,7 +112,9 @@
 - **Flavor text** (CMM printing):
   > *"The threads of magic that protect this place were woven by my will."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/936/satyr-enchanter) · oracle_id `aa321138-b1a7-4b8e-a2ca-b9ce65704e92` · printing: CMM #936 (2023-08-04) · [rulings](https://api.scryfall.com/cards/df83d28d-bb0b-4f3d-a16f-8ee8bf452e10/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-07-13* — Satyr Enchanter’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/936/satyr-enchanter) · oracle_id `aa321138-b1a7-4b8e-a2ca-b9ce65704e92` · printing: CMM #936 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Firedancer
 
@@ -95,6 +126,7 @@
 - **Flavor text** (BNG printing):
   > *His heart, the coal; his eye, the spark; his hand, the whirling flame.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16572 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/108/satyr-firedancer) · oracle_id `b30edff0-3716-4dbb-b445-5329b08e36f4` · printing: BNG #108 (2014-02-07) · [rulings](https://api.scryfall.com/cards/7fc6a735-cbf5-4af2-b15c-7ced82f0d9da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Grovedancer
@@ -107,6 +139,7 @@
 - **Flavor text** (JOU printing):
   > *"Some of my kin dance for themselves, without greater purpose. Nylea gives me purpose, and with it strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21529 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/139/satyr-grovedancer) · oracle_id `49f3bd5a-9c2a-45b8-aa10-9c6471028a0f` · printing: JOU #139 (2014-05-02) · [rulings](https://api.scryfall.com/cards/d46febca-f3c0-4467-aef4-4dfcdf3009fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Hedonist
@@ -119,7 +152,9 @@
 - **Flavor text** (THS printing):
   > *"Any festival you can walk away from wasn't worth attending in the first place."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18768 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/174/satyr-hedonist) · oracle_id `a75bf714-ed3e-4403-a009-3a81f430bc64` · printing: THS #174 (2013-09-27) · [rulings](https://api.scryfall.com/cards/88c67e15-833c-406a-b75f-8de97fbacf5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-15* — Satyr Hedonist's ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/174/satyr-hedonist) · oracle_id `a75bf714-ed3e-4403-a009-3a81f430bc64` · printing: THS #174 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Hoplite
 
@@ -132,7 +167,11 @@
   > *"Xenagos has become what he once despised: a tyrant and an oppressor."*
 - **Keywords:** Heroic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21265 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jou/110/satyr-hoplite) · oracle_id `ee7dc820-10ee-429a-a1ef-ecd6a11f5608` · printing: JOU #110 (2014-05-02) · [rulings](https://api.scryfall.com/cards/b8754d66-facb-432e-a6c2-91430a6dec94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-04-26* — Heroic abilities will resolve before the spell that caused them to trigger.
+  - *2014-04-26* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
+  - *2014-04-26* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jou/110/satyr-hoplite) · oracle_id `ee7dc820-10ee-429a-a1ef-ecd6a11f5608` · printing: JOU #110 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Nyx-Smith
 
@@ -144,7 +183,12 @@
   > Inspired — Whenever this creature becomes untapped, you may pay {2}{R}. If you do, create a 3/1 red Elemental enchantment creature token with haste.
 - **Keywords:** Inspired, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23828 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/109/satyr-nyx-smith) · oracle_id `3ad9d55d-02f7-412e-8756-6a026f8e68d7` · printing: BNG #109 (2014-02-07) · [rulings](https://api.scryfall.com/cards/3bc2c65e-3cba-4813-9949-87e15f592247/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — If an inspired ability triggers during your untap step, the ability will be put on the stack at the beginning of your upkeep. If the ability creates one or more token creatures, those creatures won’t be able to attack that turn (unless they gain haste).
+  - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
+  - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
+  - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/109/satyr-nyx-smith) · oracle_id `3ad9d55d-02f7-412e-8756-6a026f8e68d7` · printing: BNG #109 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Piper
 
@@ -157,7 +201,10 @@
   > *"When I asked my commander the reward for killing that prancing nuisance, he told me, 'None! I want to kill him myself!'"*
   > *—Phrogas, soldier of Akros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23237 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ths/175/satyr-piper) · oracle_id `d15eed8e-6c2c-4427-9f72-a46e90c562b9` · printing: THS #175 (2013-09-27) · [rulings](https://api.scryfall.com/cards/e244c4d0-2c30-4a56-94bb-0fff9ffe4a6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-09-15* — During the declare blockers step, the defending player must assign at least one blocker to each creature that must be blocked if that player controls any creatures that could block it.
+  - *2013-09-15* — If multiple attacking creatures must be blocked, the defending player must assign blockers in such a way that the greatest number of those attacking creatures are blocked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ths/175/satyr-piper) · oracle_id `d15eed8e-6c2c-4427-9f72-a46e90c562b9` · printing: THS #175 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Rambler
 
@@ -170,6 +217,7 @@
   > *A satyr is bound by nothing—not home, not family, not loyalty.*
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24149 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/139/satyr-rambler) · oracle_id `6ea0d274-564b-4785-801d-b3272a7b6bfa` · printing: THS #139 (2013-09-27) · [rulings](https://api.scryfall.com/cards/fabccddd-c0ea-45a5-bebc-d8f858242a2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr's Cunning
@@ -183,7 +231,15 @@
   > *It's hard to keep a satyr down, even in the Underworld.*
 - **Keywords:** Escape
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18650 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/152/satyrs-cunning) · oracle_id `46fd9b9e-ef8f-41d6-9f1d-040bb7fe74c1` · printing: THB #152 (2020-01-24) · [rulings](https://api.scryfall.com/cards/646d8201-be68-42fa-bcfd-42d81a2ad195/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-01-24* — After an escaped spell resolves, it returns to its owner's graveyard if it's not a permanent spell. If it is a permanent spell, it enters the battlefield and will return to its owner's graveyard if it dies later. Perhaps it will escape again—good underworld security is so hard to come by these days.
+  - *2020-01-24* — Escape's permission doesn't change when you may cast the spell from your graveyard.
+  - *2020-01-24* — If a card has multiple abilities giving you permission to cast it, such as two escape abilities or an escape ability and a flashback ability, you choose which one to apply. The others have no effect.
+  - *2020-01-24* — If a card with escape is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before an opponent can take any actions.
+  - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
+  - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
+  - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/152/satyrs-cunning) · oracle_id `46fd9b9e-ef8f-41d6-9f1d-040bb7fe74c1` · printing: THB #152 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Satyr Wayfinder
 
@@ -195,4 +251,5 @@
 - **Flavor text** (EOC printing):
   > *The first satyr to wake after a revel must search for the site of the next one.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1785 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/106/satyr-wayfinder) · oracle_id `ead4c01a-e2ae-49c9-95d9-651d81005907` · printing: EOC #106 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8bbbe65d-7162-42fb-94ee-d835d6c3f02a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

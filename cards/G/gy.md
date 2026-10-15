@@ -28,7 +28,16 @@
   > • Create a Monster Role token attached to that creature.
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11184 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/4/gylwain-casting-director) · oracle_id `e7dfe47f-41fc-4071-9ad3-96cd8d9be52e` · printing: WOC #4 (2023-09-08) · [rulings](https://api.scryfall.com/cards/79e4242c-a53a-4287-976b-8e545888a1fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2023-09-01* — A permanent can have multiple Roles attached to it if each one is controlled by a different player.
+  - *2023-09-01* — Cards in the Wilds of Eldraine main set create six different Role tokens: Cursed, Monster, Royal, Sorcerer, Wicked, and Young Hero. A seventh Role token, Virtuous, is created by Ellivere of the Wild Court, the commander of the "Virtue and Valor" Commander Deck.
+  - *2023-09-01* — Hexproof and shroud won't prevent a Role from becoming attached to a permanent if the ability creating that Role attached to that permanent doesn't target it.
+  - *2023-09-01* — If a permanent has more than one Role attached to it controlled by the same player, each of those Roles except the one with the most recent timestamp is put into its owner's graveyard. This is a state-based action.
+  - *2023-09-01* — If two or more Roles controlled by the same player become attached to a permanent at the same time (perhaps due to an effect such as that of Doubling Season), that player chooses which one to keep and which are put into their owners' graveyards.
+  - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
+  - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
+  - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/4/gylwain-casting-director) · oracle_id `e7dfe47f-41fc-4071-9ad3-96cd8d9be52e` · printing: WOC #4 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyome, Master Chef
 
@@ -41,7 +50,14 @@
   > {1}, Sacrifice a Food: Target creature gains indestructible until end of turn. Tap it.
 - **Keywords:** Food, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4821 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/313/gyome-master-chef) · oracle_id `0f1b5cea-2035-444c-9f63-87dcb9782c74` · printing: SOC #313 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8279d421-dd86-49d1-93f7-65f6046c542d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2021-04-16* — Gyome, Master Chef's second ability counts all nontoken creatures that entered the battlefield under your control this turn, even if some or all of those creatures are no longer on the battlefield, no longer creatures, or no longer under your control.
+  - *2021-04-16* — The second ability will count Gyome itself on the turn it enters the battlefield.
+  - *2021-04-16* — You can activate the last ability even if the creature is already tapped.
+  - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
+  - *2024-11-08* — Whatever you do, don't eat the delicious cards.
+  - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/313/gyome-master-chef) · oracle_id `0f1b5cea-2035-444c-9f63-87dcb9782c74` · printing: SOC #313 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyre Engineer
 
@@ -53,6 +69,7 @@
 - **Flavor text** (RNA printing):
   > *"As I contemplate what is, I dive ever deeper into the depths of possibility. Then I set an experiment in motion and watch the truth rise to the surface."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9813 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/180/gyre-engineer) · oracle_id `27eef5c1-259a-4d37-93af-7451f50905af` · printing: RNA #180 (2019-01-25) · [rulings](https://api.scryfall.com/cards/26dd6a1d-4dcb-4392-9856-c0e4140efbd7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyre Sage
@@ -65,7 +82,15 @@
   > {T}: Add {G} for each +1/+1 counter on this creature.
 - **Keywords:** Evolve
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #847 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/moc/300/gyre-sage) · oracle_id `e3aa16cf-079b-4737-9ffd-7bfdffef0cb2` · printing: MOC #300 (2023-04-21) · [rulings](https://api.scryfall.com/cards/be573ae7-967a-4b98-9058-ec3ff82ff63f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2013-01-24* — Gyre Sage's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+  - *2013-04-15* — If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger.
+  - *2013-04-15* — If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats.
+  - *2013-04-15* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
+  - *2013-04-15* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
+  - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
+  - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Source flags:** [Scryfall](https://scryfall.com/card/moc/300/gyre-sage) · oracle_id `e3aa16cf-079b-4737-9ffd-7bfdffef0cb2` · printing: MOC #300 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyruda, Doom of Depths
 
@@ -77,7 +102,24 @@
   > When Gyruda enters, each player mills four cards. Put a creature card with an even mana value from among the milled cards onto the battlefield under your control.
 - **Keywords:** Companion, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4492 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Companion
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/221/gyruda-doom-of-depths) · oracle_id `25eaa977-ca85-4f8d-8be5-9297a3edb14f` · printing: IKO #221 (2020-04-24) · [rulings](https://api.scryfall.com/cards/97eb1804-6fd8-4917-af36-87fdfce39d3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2020-04-17* — A card with mana value 0 has an even mana value.
+  - *2020-04-17* — Before shuffling your deck to become your library, you may reveal one card from outside the game to be your companion if your starting deck meets the requirements of the companion ability. You can't reveal more than one. It remains revealed outside the game as the game begins.
+  - *2020-04-17* — If a card in a player's graveyard has {X} in its mana cost, X is considered to be 0.
+  - *2020-04-17* — If a replacement effect causes a player to exile the top four cards of their library instead of putting them into their graveyard as Gyruda's triggered ability resolves, the creature card you choose may be one of those cards in exile.
+  - *2020-04-17* — If more than one player wishes to reveal a companion, the starting player does so first, and players proceed in turn order. Once a player has chosen not to reveal a companion, that player can't change their mind.
+  - *2020-04-17* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discard, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-04-17* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-04-17* — The companion ability has no effect if the card is in your starting deck and creates no restriction on putting a card with a companion ability into your starting deck. For example, Zirda may be in your starting deck even if your other permanent cards don't all have activated abilities.
+  - *2020-04-17* — The companion's other abilities apply only if the creature is on the battlefield. They have no effect while the companion is outside the game.
+  - *2020-04-17* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard.
+  - *2020-04-17* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your one hundred cards.
+  - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
+  - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
+  - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
+  - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+  - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/221/gyruda-doom-of-depths) · oracle_id `25eaa977-ca85-4f8d-8be5-9297a3edb14f` · printing: IKO #221 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gyrus, Waker of Corpses
 
@@ -88,7 +130,16 @@
   > Gyrus enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.
   > Whenever Gyrus attacks, you may exile target creature card with lesser power from your graveyard. If you do, create a token that's a copy of that card and that's tapped and attacking. Exile the token at end of combat.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19054 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/c18/41/gyrus-waker-of-corpses) · oracle_id `2deae472-3cfe-4d7b-b9cf-a045f07a002e` · printing: C18 #41 (2018-08-10) · [rulings](https://api.scryfall.com/cards/91585912-038d-4d26-b552-0e7c48ba1e4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2018-07-13* — Although the token is attacking, it was never declared as an attacking creature (for the purposes of abilities that trigger whenever a creature attacks, for example).
+  - *2018-07-13* — Any enters-the-battlefield abilities of the copied creature card will trigger when the token enters the battlefield. Any "as [this creature card] enters the battlefield" or "[this creature card] enters the battlefield with" abilities of the chosen creature card will also work.
+  - *2018-07-13* — Gyrus's token copies exactly what was printed on the original creature card and nothing else. It doesn't copy any effects that modified it before it was put into your graveyard.
+  - *2018-07-13* — If Gyrus enters the battlefield without being cast, then no mana was spent to cast it. It enters the battlefield without any +1/+1 counters. If no other effects are increasing its toughness at that time, it will be put into its owner's graveyard as a state-based action.
+  - *2018-07-13* — If another creature enters the battlefield as a copy of Gyrus, consider how much mana was spent to cast that creature to determine how many +1/+1 counters it enters with.
+  - *2018-07-13* — If the copied creature card has {X} in its mana cost, X is considered to be 0.
+  - *2018-07-13* — The amount of mana you spent to cast Gyrus is usually equal to its mana value, normally 3 plus the value chosen for X. However, you also include any additional costs you pay, including the commander tax.
+  - *2018-07-13* — You choose which player or planeswalker the token is attacking. It doesn't have to be attacking the same player or planeswalker that Gyrus is attacking.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c18/41/gyrus-waker-of-corpses) · oracle_id `2deae472-3cfe-4d7b-b9cf-a045f07a002e` · printing: C18 #41 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gysahl Greens
 
@@ -99,4 +150,11 @@
   > Flashback {6}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9492 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/190/gysahl-greens) · oracle_id `eddfe7d7-6868-4b81-b46c-d0765e5210e7` · printing: FIN #190 (2025-06-13) · [rulings](https://api.scryfall.com/cards/020dee17-d85b-44c4-9faa-b1ef977956f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/190/gysahl-greens) · oracle_id `eddfe7d7-6868-4b81-b46c-d0765e5210e7` · printing: FIN #190 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

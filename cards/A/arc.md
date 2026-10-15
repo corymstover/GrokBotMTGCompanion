@@ -167,7 +167,9 @@
   > *From the golden age of gaming . . .*
 - **Keywords:** Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7083 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/36/arcade-cabinet) · oracle_id `a8e55287-f0df-46f2-a41d-27bea90216cc` · printing: TMC #36 (2026-03-06) · [rulings](https://api.scryfall.com/cards/b2fd1df8-cc67-4209-af9d-5cf18c68cca9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2026-01-27* — To double the number of a kind of counters on a permanent, put a number of that kind of counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tmc/36/arcade-cabinet) · oracle_id `a8e55287-f0df-46f2-a41d-27bea90216cc` · printing: TMC #36 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcade Gannon
 
@@ -179,7 +181,14 @@
   > For Auld Lang Syne — Once during each of your turns, you may cast an artifact or Human spell from your graveyard with mana value less than or equal to the number of quest counters on Arcade Gannon.
 - **Keywords:** For Auld Lang Syne
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11110 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/pip/92/arcade-gannon) · oracle_id `e001d7e6-71c9-42fa-9d5c-9455da66e4ec` · printing: PIP #92 (2024-03-08) · [rulings](https://api.scryfall.com/cards/36356522-15fc-41e2-bf14-a745e5a96a50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-03-08* — If an artifact or Human card is put into your graveyard during your main phase and the stack is empty, you have a chance to cast it before any player may attempt to remove that card from your graveyard.
+  - *2024-03-08* — If you cast an artifact or Human spell from your graveyard using another permission, Arcade Gannon’s effect doesn’t apply. You can cast another artifact or Human spell from your graveyard.
+  - *2024-03-08* — If you cast one artifact or Human spell from your graveyard and then have a new Arcade Gannon come under your control in the same turn, you may cast another artifact or Human spell from your graveyard that turn as long as that spell has mana value less than or equal to the number of quest counters on the new Arcade Gannon.
+  - *2024-03-08* — Once you begin to cast the spell, losing control of Arcade Gannon won’t affect the spell.
+  - *2024-03-08* — You must follow the normal timing permissions and restrictions of the spell you cast from your graveyard.
+  - *2024-03-08* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pip/92/arcade-gannon) · oracle_id `e001d7e6-71c9-42fa-9d5c-9455da66e4ec` · printing: PIP #92 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcades Sabboth
 
@@ -193,7 +202,9 @@
   > {W}: Arcades Sabboth gets +0/+1 until end of turn.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24197 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/187/arcades-sabboth) · oracle_id `8ead94c5-8447-4f20-87ec-efdccde689fc` · printing: DMR #187 (2023-01-13) · [rulings](https://api.scryfall.com/cards/175695bb-2630-4269-a407-9138c7008e81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — As long as Arcades Sabboth is untapped and isn’t attacking, it gets +0/+2 from its own third ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmr/187/arcades-sabboth) · oracle_id `8ead94c5-8447-4f20-87ec-efdccde689fc` · printing: DMR #187 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcades, the Strategist
 
@@ -206,7 +217,10 @@
   > Each creature you control with defender assigns combat damage equal to its toughness rather than its power and can attack as though it didn't have defender.
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5824 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/212/arcades-the-strategist) · oracle_id `e7fc5ad6-f2f0-4b06-a61b-05022db9d93b` · printing: M19 #212 (2018-07-13) · [rulings](https://api.scryfall.com/cards/1e90c638-d4b2-4243-bbc4-1cc10516c40f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — Arcades's last ability doesn't actually change any creature's power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Rabid Bite won't cause a creature with defender to deal damage equal to its toughness.
+  - *2021-03-19* — If Arcades leaves the battlefield after a creature with defender has attacked, that creature remains an attacking creature, although it will assign damage equal to its power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/212/arcades-the-strategist) · oracle_id `e7fc5ad6-f2f0-4b06-a61b-05022db9d93b` · printing: M19 #212 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Adaptation
 
@@ -216,7 +230,10 @@
   > As this enchantment enters, choose a creature type.
   > Creatures you control are the chosen type in addition to their other types. The same is true for creature spells you control and creature cards you own that aren't on the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4000 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/xln/46/arcane-adaptation) · oracle_id `2188c03f-11b6-4651-914a-b4fdd59127e3` · printing: XLN #46 (2017-09-29) · [rulings](https://api.scryfall.com/cards/bf3edaaf-cf63-4e17-94ae-9d9991d9fb5f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-09-29* — Replacement effects that modify creatures of a certain type as they enter the battlefield will apply after you apply Arcane Adaptation’s effect. This is a change from previous rules. If you control Arcane Adaptation and the Aether Revolt card Metallic Mimic, with the same creature type chosen for both, then any creature you control will enter the battlefield with an additional +1/+1 counter on it.
+  - *2018-01-19* — To choose a creature type, you must choose an existing creature type, such as Vampire or Knight. You can’t choose multiple creature types, such as “Vampire Knight.” Card types such as artifact can’t be chosen, nor can subtypes that aren’t creature types, such as Jace, Vehicle, or Treasure.
+- **Source flags:** [Scryfall](https://scryfall.com/card/xln/46/arcane-adaptation) · oracle_id `2188c03f-11b6-4651-914a-b4fdd59127e3` · printing: XLN #46 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Amphisbaena
 
@@ -230,7 +247,12 @@
   > *Its tongues can taste loyalty—or deceit.*
 - **Keywords:** Surveil, Empower Jace, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25416 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fra/97/arcane-amphisbaena) · oracle_id `5c151e3b-fcf2-4adb-a60b-9eff0c360705` · printing: FRA #97 (2026-10-02) · [rulings](https://api.scryfall.com/cards/1bf923c4-f0b7-4271-978c-fd2e79fe1cc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2026-08-21* — Empower Jace won't let you put loyalty counters on nontoken Jace planeswalkers. However, if you control a Jace planeswalker token that you got another way (such as an effect that creates a token that's a copy of a permanent), empower Jace will put loyalty counters on that.
+  - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
+  - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
+  - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fra/97/arcane-amphisbaena) · oracle_id `5c151e3b-fcf2-4adb-a60b-9eff0c360705` · printing: FRA #97 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Artisan
 
@@ -241,7 +263,14 @@
   > {2}{U}, {T}: Target player draws a card, then exiles a card from their hand. If a creature card is exiled this way, that player creates a token that's a copy of that card.
   > When this creature leaves the battlefield, exile all tokens created with it at the beginning of the next end step.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19206 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khc/36/arcane-artisan) · oracle_id `7dbf5f59-1246-4156-bb21-090cfddd9111` · printing: KHC #36 (2021-02-05) · [rulings](https://api.scryfall.com/cards/ba946cfb-a729-406b-be35-0defaf95283e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-06-08* — If Arcane Artisan leaves the battlefield before its activated ability has resolved, the token that ability creates will still be exiled at the beginning of the next end step.
+  - *2018-06-08* — If a card in exile has {X} in its mana cost, X is considered to be 0.
+  - *2018-06-08* — If an effect such as that of Doubling Season causes Arcane Artisan’s first ability to create two tokens, its last ability will exile both of those tokens. However, if something becomes a copy of the token or creates a copy of that token later (such as Evil Twin or Cackling Counterpart), that copy won’t be exiled.
+  - *2018-06-08* — If any of those tokens have an ability that triggers at the beginning of the end step, that ability will trigger and resolve even if the token is exiled during the end step before that ability resolves.
+  - *2018-06-08* — If multiple Arcane Artisans are creating tokens, each will exile only the ones it created.
+  - *2018-06-08* — If the card copied by the token had any “when [this permanent] enters the battlefield” abilities, then the token also has those abilities and will trigger them when it’s created. Similarly, any “as [this permanent] enters the battlefield” or “[this permanent] enters the battlefield with” abilities that the token has copied will also work.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khc/36/arcane-artisan) · oracle_id `7dbf5f59-1246-4156-bb21-090cfddd9111` · printing: KHC #36 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Bombardment
 
@@ -250,7 +279,13 @@
 - **Oracle text:**
   > Whenever you cast your first instant or sorcery spell each turn, exile an instant or sorcery card at random from your graveyard. Then copy each card exiled with this enchantment. You may cast any number of the copies without paying their mana costs.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2347 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/154/arcane-bombardment) · oracle_id `1e36a42f-58e2-49bc-8c14-7f75e1d8ef98` · printing: OTC #154 (2024-04-19) · [rulings](https://api.scryfall.com/cards/ef7e6e2d-d984-483e-b117-b1c5d640dc23/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2022-04-29* — If Arcane Bombardment leaves the battlefield, the exiled cards remain in exile. If it returns to the battlefield or you play another copy of it, you won't get to cast copies of the cards previously exiled.
+  - *2022-04-29* — If you cast a spell with {X} in its cost without paying its mana cost, you must choose 0 for X.
+  - *2022-04-29* — If you've already cast an instant or sorcery spell the turn that Arcane Bombardment enters the battlefield, it won't trigger until you cast an instant or sorcery spell on a later turn.
+  - *2022-04-29* — The spell that caused Arcane Bombardment's ability to trigger is normally still on the stack while that ability resolves. That spell won't be among the cards in your graveyard when you exile an instant or sorcery from it at random.
+  - *2022-04-29* — You cast the desired copies as the triggered ability resolves. You don't get to cast them later in the turn. You choose the order of copies as you cast them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/154/arcane-bombardment) · oracle_id `1e36a42f-58e2-49bc-8c14-7f75e1d8ef98` · printing: OTC #154 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Denial
 
@@ -263,7 +298,9 @@
   > *"Your mundane wizardry will not harm the Sorcerer Supreme."*
   > *—Doctor Strange*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #52 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/msc/147/arcane-denial) · oracle_id `ab1cc360-b9de-48d9-9983-4dfe4a7d2a37` · printing: MSC #147 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5eb843ef-b223-40d0-a461-54b16d188d0e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2007-09-16* — The controller of the countered spell doesn't choose how many cards to draw until the relevant ability resolves. The player may draw 0, 1, or 2 cards. They choose the number before drawing any cards.
+- **Source flags:** [Scryfall](https://scryfall.com/card/msc/147/arcane-denial) · oracle_id `ab1cc360-b9de-48d9-9983-4dfe4a7d2a37` · printing: MSC #147 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Encyclopedia
 
@@ -274,6 +311,7 @@
 - **Flavor text** (CLB printing):
   > *A quill from the First Reader at Candlekeep, the spectacles of the Most Holy Servant of Gond, a woven bookmark from the Caleph Arcane of Calimport: readers always leave something of themselves behind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11122 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/297/arcane-encyclopedia) · oracle_id `d91ea728-2d69-42cb-bb5d-e2b058f0d7b1` · printing: CLB #297 (2022-06-10) · [rulings](https://api.scryfall.com/cards/00ff4cb8-a0e0-4527-a77d-03394065ffe0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Endeavor
@@ -285,7 +323,18 @@
 - **Flavor text** (AFC printing):
   > *Late at night, when dreams touch a studious mind, bouts of inspiration strike.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10609 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afc/14/arcane-endeavor) · oracle_id `901ee0e3-1011-40e1-815a-09246112e8dc` · printing: AFC #14 (2021-07-23) · [rulings](https://api.scryfall.com/cards/7886d4e9-003c-4978-a48d-4743fbc38985/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afc/14/arcane-endeavor) · oracle_id `901ee0e3-1011-40e1-815a-09246112e8dc` · printing: AFC #14 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Epiphany
 
@@ -297,7 +346,9 @@
 - **Flavor text** (FDN printing):
   > *For years, the tome pulsed with forgotten spells and secrets, hungry for a mind strong enough to read it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11185 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/29/arcane-epiphany) · oracle_id `fe1556cc-32d0-4e51-bb15-f3fce669a5e1` · printing: FDN #29 (2024-11-15) · [rulings](https://api.scryfall.com/cards/06431793-5dfe-4cbf-990b-4bcc960d1f31/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/29/arcane-epiphany) · oracle_id `fe1556cc-32d0-4e51-bb15-f3fce669a5e1` · printing: FDN #29 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Flight
 
@@ -310,6 +361,7 @@
   > *The Tolarian Academies are known for their magical research, powerful sorcerers, and accidental destruction of ecosystems.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13330 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/43/arcane-flight) · oracle_id `40eee955-bec6-455a-addf-68cdb84c76b9` · printing: DOM #43 (2018-04-27) · [rulings](https://api.scryfall.com/cards/09fbb1c0-ba57-4a5a-8ad6-77fbc6aeeec9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Heist
@@ -321,7 +373,22 @@
   > Cipher (Then you may exile this spell card encoded on a creature you control. Whenever that creature deals combat damage to a player, its controller may cast a copy of the encoded card without paying its mana cost.)
 - **Keywords:** Cipher
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5093 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otc/13/arcane-heist) · oracle_id `839748e7-ccb4-421e-9626-b6d8be9390ab` · printing: OTC #13 (2024-04-19) · [rulings](https://api.scryfall.com/cards/3ceb13f4-ac9e-4ddd-9170-545f8d37b87a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2024-04-12* — If a creature with an encoded card deals combat damage to more than one player simultaneously (perhaps because some of the combat damage was redirected), the triggered ability will trigger once for each player it deals combat damage to. Each ability will create a copy of the exiled card and allow you to cast it.
+  - *2024-04-12* — If another player gains control of the creature, that player will control the triggered ability. That player will create a copy of the encoded card and may cast it.
+  - *2024-04-12* — If the creature leaves the battlefield, the exiled card will no longer be encoded on any creature. It will stay exiled.
+  - *2024-04-12* — If the spell with cipher doesn’t resolve, none of its effects will happen, including cipher. The card will go to its owner’s graveyard and won’t be encoded on a creature.
+  - *2024-04-12* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-04-12* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
+  - *2024-04-12* — If you choose not to cast the copy, or you can’t cast it (perhaps because there are no legal targets available), the copy will cease to exist the next time state-based actions are performed. You won’t get a chance to cast the copy at a later time.
+  - *2024-04-12* — The copy of the card with cipher is created in and cast from exile.
+  - *2024-04-12* — The exiled card with cipher grants a triggered ability to the creature it’s encoded on. If that creature loses that ability and subsequently deals combat damage to a player, the triggered ability won’t trigger. However, the exiled card will continue to be encoded on that creature.
+  - *2024-04-12* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
+  - *2024-04-12* — You can choose only a creature to encode the card onto.
+  - *2024-04-12* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
+  - *2024-04-12* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature.
+  - *2024-04-12* — You choose whether to cast the target instant or sorcery card as Arcane Heist resolves. If you do, you do so as part of the resolution of Arcane Heist. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otc/13/arcane-heist) · oracle_id `839748e7-ccb4-421e-9626-b6d8be9390ab` · printing: OTC #13 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Infusion
 
@@ -332,7 +399,14 @@
   > Flashback {3}{U}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12370 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mid/210/arcane-infusion) · oracle_id `d5251d47-11de-41f7-9965-1f921e12d927` · printing: MID #210 (2021-09-24) · [rulings](https://api.scryfall.com/cards/9ab520b7-ad87-4c8e-a454-5c022e378564/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2025-06-06* — "Flashback [cost]" means "You may cast this card from your graveyard if the resulting spell is an instant or sorcery spell by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2025-06-06* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2025-06-06* — If a card with flashback is put into your graveyard during your turn, you can cast it if it's legal to do so before any other player can take any actions.
+  - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mid/210/arcane-infusion) · oracle_id `d5251d47-11de-41f7-9965-1f921e12d927` · printing: MID #210 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Investigator
 
@@ -344,7 +418,18 @@
   > 1—9 | Draw a card.
   > 10—20 | Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16781 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/afr/46/arcane-investigator) · oracle_id `19b229c4-1c21-4c7c-a25e-4e8c1cd4ed4b` · printing: AFR #46 (2021-07-23) · [rulings](https://api.scryfall.com/cards/dc457520-9947-4f65-bbe7-9b95bd2c23af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2021-07-23* — An ability that tells you to roll a die will also specify what to do with the result of that roll. Most often, this is in the form of a “results table” in the card text.
+  - *2021-07-23* — An effect that says “choose a target, then roll a d20” or similar still uses the normal process of putting an ability on the stack and resolving it. Choosing targets is part of putting the ability on the stack and rolling the d20 happens later, as the ability resolves.
+  - *2021-07-23* — Dice are identified by the number of faces each one has. For example, a d20 is a twenty-sided die.
+  - *2021-07-23* — Dice used must have equally likely outcomes and the roll must be fair. Although physical dice are recommended, digital substitutes are allowed, provided they have the same number of equally likely outcomes as specified in the original roll instruction.
+  - *2021-07-23* — Some abilities, like that of Pixie Guide and Barbarian Class, replace rolling a die with rolling extra dice and ignoring the lowest roll. The ignored rolls are not considered for the effect that instructed you to roll a die, and do not cause abilities to trigger. For all intents and purposes, once you determine which dice count, any extra dice were never rolled.
+  - *2021-07-23* — Some effects instruct you to roll again. This uses the same number and type of dice as the original roll, and that roll will use the same set of possible outcomes.
+  - *2021-07-23* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die or it may come from other cards. Anything that references the “result” of a die roll is looking for the result after these modifications. Anything that is looking for the “natural result” is looking for the number shown on the face of the die before these modifications.
+  - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
+  - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
+  - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Source flags:** [Scryfall](https://scryfall.com/card/afr/46/arcane-investigator) · oracle_id `19b229c4-1c21-4c7c-a25e-4e8c1cd4ed4b` · printing: AFR #46 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Laboratory
 
@@ -356,7 +441,11 @@
   > *Too many wizards spoil the spell, but too many spells spoil the wizard.*
   > *—Sign on entry to arcane lab*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9801 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/60/arcane-laboratory) · oracle_id `f5e3c26c-c28c-455f-a682-2597e4b92d10` · printing: 7ED #60 (2001-04-11) · [rulings](https://api.scryfall.com/cards/f9e3bcd7-60f8-472a-ada0-c3147cf06588/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If a spell is countered, it still counts as the one spell cast.
+  - *2004-10-04* — When Arcane Laboratory enters, it will look back over the turn to see if any spell was cast before it entered the battlefield. It will notice itself being cast.
+  - *2004-10-04* — When it leaves the battlefield, the effect ends and all players are able to cast spells unrestricted again.
+- **Source flags:** [Scryfall](https://scryfall.com/card/7ed/60/arcane-laboratory) · oracle_id `f5e3c26c-c28c-455f-a682-2597e4b92d10` · printing: 7ED #60 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Lighthouse
 
@@ -366,7 +455,11 @@
   > {T}: Add {C}.
   > {1}, {T}: Until end of turn, creatures your opponents control lose hexproof and shroud and can't have hexproof or shroud.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1038 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/361/arcane-lighthouse) · oracle_id `30ac68e6-160a-41f9-9f0f-0e0eef383150` · printing: SOC #361 (2026-04-24) · [rulings](https://api.scryfall.com/cards/e2384e42-2442-4b40-9bae-8db470d2fb8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2014-11-07* — After the second ability resolves, continuous effects generated by the resolution of spells and abilities that would give hexproof or shroud to one of the affected creatures aren't created. For example, after the second ability resolves, a spell cast by an opponent that gives creatures they control hexproof wouldn't cause the creatures to have hexproof. (If that spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+  - *2014-11-07* — Continuous effects generated by static abilities (such as an Aura that grants hexproof to a creature) will not apply during the turn, but will resume applying once the turn ends.
+  - *2014-11-07* — The second ability applies only to creatures controlled by your opponents when it resolves. Creatures that enter the battlefield or come under an opponent's control later in the turn won't be affected.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/361/arcane-lighthouse) · oracle_id `30ac68e6-160a-41f9-9f0f-0e0eef383150` · printing: SOC #361 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Melee
 
@@ -377,7 +470,12 @@
 - **Flavor text** (C13 printing):
   > *Debates between wizards are never purely academic.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11662 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c13/29/arcane-melee) · oracle_id `9967b292-1239-4aed-b871-72e40d1f3e26` · printing: C13 #29 (2013-11-01) · [rulings](https://api.scryfall.com/cards/9ea8fd24-311a-4745-804e-46b2abbe217a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2012-05-01* — Arcane Melee can reduce alternative costs such as miracle costs.
+  - *2012-05-01* — Arcane Melee can’t reduce the colored mana requirement of an instant or sorcery spell.
+  - *2012-05-01* — If there are additional costs to cast a spell, such as a kicker cost or a cost imposed by another effect (such as Thalia, Guardian of Thraben’s ability), apply those increases before applying cost reductions.
+  - *2012-05-01* — The cost to cast an instant or sorcery spell with one generic mana in its mana cost will be reduced by {1}. For example, an instant spell with a mana cost of {1}{G} would cost {G} to cast.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c13/29/arcane-melee) · oracle_id `9967b292-1239-4aed-b871-72e40d1f3e26` · printing: C13 #29 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Omens
 
@@ -389,7 +487,13 @@
   > *Lluwen suddenly felt that he was seeing something very dangerous. The crackling magic, the thunderous chanting—the urge to turn and run replaced all his curiosity.*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27507 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/73/arcane-omens) · oracle_id `863cbd12-da20-456e-8698-06fba4d9bd5c` · printing: SOS #73 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d357d997-9d4e-4ade-81f2-37629853f13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/73/arcane-omens) · oracle_id `863cbd12-da20-456e-8698-06fba4d9bd5c` · printing: SOS #73 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Proxy
 
@@ -401,7 +505,20 @@
   > When this creature enters, if you cast it, exile target instant or sorcery card with mana value less than or equal to this creature's power from your graveyard. Copy that card. You may cast the copy without paying its mana cost.
 - **Keywords:** Prototype
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16574 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bro/75/arcane-proxy) · oracle_id `792f8235-f23b-4858-bdd4-c7a186b7a470` · printing: BRO #75 (2022-11-18) · [rulings](https://api.scryfall.com/cards/d6d74d2e-7382-4fe3-ac3e-6906203ffcc7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2022-10-14* — A prototype card is a colorless card in every zone except the stack or the battlefield, as well as while on the stack or the battlefield if not cast as a prototyped spell. Ignore its alternative characteristics in those cases. For example, while it's in your graveyard, Blitz Automaton is a colorless creature card with mana value 7. It can't be the target of Recommission, a spell that targets an artifact or creature card with mana value 3 or less in your graveyard.
+  - *2022-10-14* — Casting a prototyped spell isn't the same as casting it for an alternative cost, and an alternative cost may be applied to a spell cast this way. For example, if an effect allows you to cast an artifact card without paying its mana cost, you could either cast Blitz Automaton normally, or as a prototyped spell.
+  - *2022-10-14* — If an effect copies a prototyped spell, that copy (as well as the token it becomes on the battlefield) will have the same characteristics as the prototyped spell. Similarly, if an effect creates a token that's a copy of a prototyped permanent or causes another permanent to become a copy of it, the copy would have the same characteristics as the prototyped permanent.
+  - *2022-10-14* — If another effect causes Arcane Proxy's power to be less than the mana value of the target card as the ability tries to resolve, the target is illegal. The card won't be exiled, and you won't get to cast a copy.
+  - *2022-10-14* — If the spell you cast has {X} in its mana cost, you must choose 0 as the value of X.
+  - *2022-10-14* — If you cast a spell "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
+  - *2022-10-14* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
+  - *2022-10-14* — Regardless of how it was cast, a prototype card always has the same name, abilities, types, and so on. Only the mana cost, mana value, color, power, and toughness change depending on whether the card was cast as a prototyped spell.
+  - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
+  - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
+  - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+  - *2022-10-14* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bro/75/arcane-proxy) · oracle_id `792f8235-f23b-4858-bdd4-c7a186b7a470` · printing: BRO #75 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Sanctum
 
@@ -414,6 +531,7 @@
   > *"We must rely on our own knowledge, not on the dogma of the seekers or the mutterings of the sphinxes."*
   > *—Tullus of Palandius*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #351 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/259/arcane-sanctum) · oracle_id `7d7cf15c-06b9-4062-a1eb-32614c458a3b` · printing: DSC #259 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c75eeb97-3249-4762-84b0-387f27fb255f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Savant
@@ -425,7 +543,13 @@
   > Before you shuffle your deck to start the game, you may reveal this card from your deck and exile an instant or sorcery card you drafted that isn't in your deck.
   > When this creature enters, copy a card you exiled with cards named Arcane Savant. You may cast the copy without paying its mana cost.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30732 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/27/arcane-savant) · oracle_id `6b8c69ac-1856-4070-9489-798a6b224268` · printing: CN2 #27 (2016-08-26) · [rulings](https://api.scryfall.com/cards/0e7466e5-9443-4b38-a7e9-e0d615a35667/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2016-08-23* — As Arcane Savant's last ability resolves, if there are multiple cards you exiled with cards named Arcane Savant, you choose one of them to copy.
+  - *2016-08-23* — If the copied card has {X} in its mana cost, you must choose 0 as its value when casting the copy.
+  - *2016-08-23* — If you have more than one Arcane Savant in your deck, you may reveal any number of them and exile that many instant or sorcery cards you drafted that aren't in your deck.
+  - *2016-08-23* — The copy is created in and cast from exile. You cast the copy during the resolution of Arcane Savant's last ability. You ignore any timing restrictions based on the card type of the card you copied. However, you must still follow any other timing restrictions, such as "Cast [this spell] only during combat."
+  - *2016-08-23* — You can't pay any alternative costs the card has. You can pay additional costs, and if the spell has any mandatory additional costs, you must pay those.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/27/arcane-savant) · oracle_id `6b8c69ac-1856-4070-9489-798a6b224268` · printing: CN2 #27 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Signet
 
@@ -437,7 +561,11 @@
   > *"Everything is in progress . . . just like us. May we always know exactly who we are."*
   > *—Jace, to Tam*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · [rulings](https://api.scryfall.com/cards/c6b6117c-faab-4bbb-b851-07bd8061ef03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — If you don't have a commander, Arcane Signet's ability produces no mana.
+  - *2020-11-10* — If you have two commanders, the ability adds one mana of any color in their combined color identities.
+  - *2020-11-10* — If your commander is a card that has no colors in its color identity, Arcane Signet's ability produces no mana. It doesn't produce {C}.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/20/arcane-signet) · oracle_id `0bc7f093-bef0-4f1a-852c-4b75ebf54838` · printing: FRC #20 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Spyglass
 
@@ -449,6 +577,7 @@
 - **Flavor text** (DST printing):
   > *It breaches not physical distances but temporal ones.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20570 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/93/arcane-spyglass) · oracle_id `c2fbdc80-ad5d-4fe0-a860-3e4f452e6302` · printing: DST #93 (2004-02-06) · [rulings](https://api.scryfall.com/cards/d10d85c9-859a-4ff5-9a41-bf20622a3ff5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Subtraction
@@ -462,7 +591,12 @@
   > *The class learned little that day.*
 - **Keywords:** Learn
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25636 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/36/arcane-subtraction) · oracle_id `4b5806fa-430f-4b78-b874-63d01a8a9de5` · printing: STX #36 (2021-04-23) · [rulings](https://api.scryfall.com/cards/68cdb00c-ea86-4b72-8f62-570820edfa1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — If a card is brought into the game from outside the game, it will stay in the game until it ends or until its owner leaves the game, whichever comes first.
+  - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
+  - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/36/arcane-subtraction) · oracle_id `4b5806fa-430f-4b78-b874-63d01a8a9de5` · printing: STX #36 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcane Teachings
 
@@ -473,6 +607,7 @@
   > Enchanted creature gets +2/+2 and has "{T}: This creature deals 1 damage to any target."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19551 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/188/arcane-teachings) · oracle_id `0b633017-bfdf-47cd-a60f-c93816b47e9c` · printing: 10E #188 (2007-07-13) · [rulings](https://api.scryfall.com/cards/41764237-fa31-4b27-92ff-712a42d350b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcanis the Omnipotent
@@ -486,7 +621,9 @@
 - **Flavor text** (FDN printing):
   > *He has journeyed where none have been before. Now he returns to ensure that none follow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3027 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/741/arcanis-the-omnipotent) · oracle_id `8a7183cc-161c-444d-a889-a17519c8061b` · printing: FDN #741 (2026-04-24) · [rulings](https://api.scryfall.com/cards/9d31e3e3-f398-4c0e-a2c9-4c614a4d41de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2022-12-08* — Arcanis's last ability can be activated only while it's on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/741/arcanis-the-omnipotent) · oracle_id `8a7183cc-161c-444d-a889-a17519c8061b` · printing: FDN #741 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcanist's Owl
 
@@ -498,6 +635,7 @@
   > When this creature enters, look at the top four cards of your library. You may reveal an artifact or enchantment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16352 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/135/arcanists-owl) · oracle_id `4bd38337-fb79-4809-848a-308c682825d1` · printing: NEC #135 (2022-02-18) · [rulings](https://api.scryfall.com/cards/9849087e-ea39-4667-b879-51ecdff4bf6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcanum Things
@@ -510,7 +648,13 @@
   > Equipment swap {2}{W} ({2}{W}: Exchange this Equipment with an Equipment card in your hand. If this Equipment was attached to a creature, attach the new Equipment to that creature.)
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/508/arcanum-things) · oracle_id `91b316ed-c7c2-495a-b160-7f6cb1a78943` · printing: MB2 #508 (2024-08-02) · [rulings](https://api.scryfall.com/cards/c9d23521-8e35-4547-971a-d06416c84a71/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-11-08* — As Equipment swap resolves, you may reveal an Equipment card from your hand. If you don’t reveal an Equipment card, or if the exchange can’t be completed (such as if Arcanum Things is no longer on the battlefield, you don’t own Arcanum Things, or the new Equipment can’t be attached to the creature Arcanum Things is attached to), nothing happens.
+  - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
+  - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
+  - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+  - *2024-11-08* — The exchange happens on resolution of Arcanum Things’s Equipment swap ability and is simultaneous.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mb2/508/arcanum-things) · oracle_id `91b316ed-c7c2-495a-b160-7f6cb1a78943` · printing: MB2 #508 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcanum Wings
 
@@ -524,7 +668,10 @@
   > *Nobles don wings to reach the sky villas of their peers, exchanging them for more fashionable attire upon arrival.*
 - **Keywords:** Aura Swap, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20208 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fut/48/arcanum-wings) · oracle_id `b8cc7a78-a627-4e56-b1fc-0b2bd844ef68` · printing: FUT #48 (2007-05-04) · [rulings](https://api.scryfall.com/cards/47e6e715-abd8-4ff9-a8aa-8f4b929b0283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2007-05-01* — If on resolution, half the exchange can’t be completed (such as if the only Aura in your hand can’t enchant the permanent), nothing happens.
+  - *2007-05-01* — The exchange is simultaneous, and happens on resolution.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fut/48/arcanum-wings) · oracle_id `b8cc7a78-a627-4e56-b1fc-0b2bd844ef68` · printing: FUT #48 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Blade
 
@@ -535,7 +682,23 @@
   > Suspend 3—{2}{R} (Rather than cast this card from your hand, you may pay {2}{R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14816 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/152/arc-blade) · oracle_id `2c7c42e1-b097-4443-aa02-1f1dfcbb9732` · printing: TSR #152 (2021-03-19) · [rulings](https://api.scryfall.com/cards/92b8fe7c-fe36-4f6d-9c7f-85286b745865/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2021-03-19* — Each time you cast Arc Blade, it will suspend itself again when it resolves so you can cast it again three turns later.
+  - *2021-03-19* — If the chosen target is an illegal target by the time Arc Blade tries to resolve, the spell doesn't resolve. You don't exile it with time counters on it.
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/152/arc-blade) · oracle_id `2c7c42e1-b097-4443-aa02-1f1dfcbb9732` · printing: TSR #152 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbond
 
@@ -547,7 +710,12 @@
   > *"If you must die today, make your death worthy of legend."*
   > *—Alesha, Who Smiles at Death*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frf/91/arcbond) · oracle_id `01790829-cc03-430f-a899-2f274b7dbf62` · printing: FRF #91 (2015-01-23) · [rulings](https://api.scryfall.com/cards/9bc397d1-50a8-46cd-98b2-7104f2241420/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-11-24* — Damage dealt by the creature because of the ability Arcbond creates isn’t combat damage, even if it was combat damage that caused the ability to trigger.
+  - *2014-11-24* — If two Arcbonds have resolved targeting different creatures, and damage is dealt to one of them, the delayed triggered ability will cause that creature to deal damage to each other creature and player. This will cause the delayed triggered ability from the other Arcbond to trigger. The second creature will then deal damage to each other creature and player. This will continue until one or both of the creatures die or the game ends. If this doesn’t happen (perhaps because both creatures have indestructible and damage dealt to the players is being prevented), and no player breaks the loop, the game will be a draw.
+  - *2014-11-24* — The creature is the source of the new damage.
+  - *2014-11-24* — The delayed triggered ability Arcbond creates will trigger even if the target creature is dealt lethal damage. For example, if a 3/3 creature is targeted by Arcbond and later in the turn it blocks a 7/7 creature, the 3/3 creature will deal 7 damage each other creature and each player.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frf/91/arcbond) · oracle_id `01790829-cc03-430f-a899-2f274b7dbf62` · printing: FRF #91 (2015-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Bruiser
 
@@ -560,7 +728,9 @@
   > *Break in case of emergency.*
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14922 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/94/arcbound-bruiser) · oracle_id `51577a8b-28d6-4f9e-8d3f-6a1380270fab` · printing: DST #94 (2004-02-06) · [rulings](https://api.scryfall.com/cards/a4672ba6-cd82-4208-bc08-764986899999/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/94/arcbound-bruiser) · oracle_id `51577a8b-28d6-4f9e-8d3f-6a1380270fab` · printing: DST #94 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Condor
 
@@ -573,7 +743,9 @@
   > Whenever another artifact you control enters, target creature an opponent controls gets -1/-1 until end of turn.
 - **Keywords:** Flying, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10019 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/81/arcbound-condor) · oracle_id `d484be42-5dd4-49e0-afcd-2d3c1a2c3037` · printing: MH3 #81 (2024-06-14) · [rulings](https://api.scryfall.com/cards/e7995b44-7932-4d28-9a4c-a32ba35c60d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2024-06-07* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/81/arcbound-condor) · oracle_id `d484be42-5dd4-49e0-afcd-2d3c1a2c3037` · printing: MH3 #81 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Crusher
 
@@ -586,7 +758,9 @@
   > Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6050 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/105/arcbound-crusher) · oracle_id `ee496b34-d8e0-482a-a2c2-3122ea376da0` · printing: HOP #105 (2009-09-04) · [rulings](https://api.scryfall.com/cards/03c67a1b-32d7-4f66-bc6c-aaf09275a779/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/105/arcbound-crusher) · oracle_id `ee496b34-d8e0-482a-a2c2-3122ea376da0` · printing: HOP #105 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Fiend
 
@@ -599,7 +773,10 @@
   > Modular 3 (This creature enters with three +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular, Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13302 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/96/arcbound-fiend) · oracle_id `72e6cc74-0574-4421-a6b8-97d180484950` · printing: DST #96 (2004-02-06) · [rulings](https://api.scryfall.com/cards/408f42ae-fb83-4c8a-8638-38c719dec197/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2004-12-01* — The creature that’s targeted by Arcbound Fiend’s middle ability doesn’t have to have any +1/+1 counters on it. If it doesn’t have a counter on it when the ability resolves, nothing happens.
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/96/arcbound-fiend) · oracle_id `72e6cc74-0574-4421-a6b8-97d180484950` · printing: DST #96 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Hybrid
 
@@ -611,7 +788,9 @@
   > Modular 2 (This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/97/arcbound-hybrid) · oracle_id `4bd7b380-ed4b-46a1-8211-1c4b651a52c6` · printing: DST #97 (2004-02-06) · [rulings](https://api.scryfall.com/cards/a2f33f9d-dffd-4742-92c6-be7fe6463dca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/97/arcbound-hybrid) · oracle_id `4bd7b380-ed4b-46a1-8211-1c4b651a52c6` · printing: DST #97 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Javelineer
 
@@ -623,7 +802,11 @@
   > Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10940 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/2/arcbound-javelineer) · oracle_id `48e3f6dd-68ab-420a-ad4d-fe7ee39486d3` · printing: MH2 #2 (2021-06-18) · [rulings](https://api.scryfall.com/cards/fe4a2cb0-4129-451e-a946-a21ea646cc28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2021-06-18* — If the target is illegal as the activated ability tries to resolve, perhaps because it was removed from combat, no damage will be dealt.
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/2/arcbound-javelineer) · oracle_id `48e3f6dd-68ab-420a-ad4d-fe7ee39486d3` · printing: MH2 #2 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Lancer
 
@@ -635,7 +818,9 @@
   > Modular 4 (This creature enters with four +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** First strike, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16058 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/98/arcbound-lancer) · oracle_id `fd6ffa00-170b-46d2-810a-f255de62b9d7` · printing: DST #98 (2004-02-06) · [rulings](https://api.scryfall.com/cards/7ff3241b-49ba-4243-b8fc-fef600836c8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/98/arcbound-lancer) · oracle_id `fd6ffa00-170b-46d2-810a-f255de62b9d7` · printing: DST #98 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Mamba
 
@@ -647,6 +832,7 @@
   > Poison Modular 2 (This creature enters the battlefield with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target player or artifact creature. If they're put on a player this way, they become poison counters.)
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/UG04/arcbound-mamba) · oracle_id `0cbb89eb-052b-4239-8e66-27ba251201d2` · printing: UNK #UG04 (2023-02-17) · [rulings](https://api.scryfall.com/cards/77003718-83d4-4913-81b3-d69ab18d9562/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Mouser
@@ -661,6 +847,7 @@
   > *It doesn't purr. It hums.*
 - **Keywords:** Lifelink, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8516 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/3/arcbound-mouser) · oracle_id `5e59199c-facc-46b4-9681-988de0cfaba2` · printing: MH2 #3 (2021-06-18) · [rulings](https://api.scryfall.com/cards/9d66e724-49ee-4f08-a160-584350de1d95/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Overseer
@@ -673,7 +860,9 @@
   > Modular 6 (This creature enters with six +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11337 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/99/arcbound-overseer) · oracle_id `d57eb294-9707-4f93-82ad-b22d5f68c6c9` · printing: DST #99 (2004-02-06) · [rulings](https://api.scryfall.com/cards/8b64717e-0e7b-4b4c-ba82-48498ee87aad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/99/arcbound-overseer) · oracle_id `d57eb294-9707-4f93-82ad-b22d5f68c6c9` · printing: DST #99 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Prototype
 
@@ -686,6 +875,7 @@
   > *It flickered to life, saw itself alone, and began to build.*
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12080 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/4/arcbound-prototype) · oracle_id `ac1003b4-1f7c-4801-9dd3-5cb7d9881af8` · printing: MH2 #4 (2021-06-18) · [rulings](https://api.scryfall.com/cards/1cb0a1a4-9216-47f8-a4e3-20fe0de6a518/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Ravager
@@ -698,7 +888,9 @@
   > Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3695 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/198/arcbound-ravager) · oracle_id `62e7e7b1-9887-4d15-b0e5-a8ddc711bd88` · printing: MMA #198 (2013-06-07) · [rulings](https://api.scryfall.com/cards/c0c33a92-5621-40b4-a3a2-b67893edbc01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/198/arcbound-ravager) · oracle_id `62e7e7b1-9887-4d15-b0e5-a8ddc711bd88` · printing: MMA #198 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Reclaimer
 
@@ -710,7 +902,9 @@
   > Modular 2 (This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7571 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/101/arcbound-reclaimer) · oracle_id `c6424a3e-dbc7-403f-867f-a81cccd17ab8` · printing: DST #101 (2004-02-06) · [rulings](https://api.scryfall.com/cards/3e4c5228-1dff-4df0-9d14-f8103364c701/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/101/arcbound-reclaimer) · oracle_id `c6424a3e-dbc7-403f-867f-a81cccd17ab8` · printing: DST #101 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Shikari
 
@@ -723,6 +917,7 @@
   > Modular 2 (This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** First strike, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8120 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/184/arcbound-shikari) · oracle_id `acb8d6a0-4bbd-4a42-bcac-3656367cc051` · printing: MH2 #184 (2021-06-18) · [rulings](https://api.scryfall.com/cards/8d54c510-19bf-4da4-a51b-1caadf960654/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Slasher
@@ -735,7 +930,12 @@
   > Riot (This creature enters with your choice of an additional +1/+1 counter or haste.)
 - **Keywords:** Modular, Riot
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12475 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/111/arcbound-slasher) · oracle_id `bf86376d-474d-4658-8cf3-d0e2a01cdfff` · printing: MH2 #111 (2021-06-18) · [rulings](https://api.scryfall.com/cards/dcafff1a-e220-40ff-8c00-de6037219bc6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-06-18* — If a creature entering the battlefield has riot but can't have a +1/+1 counter put onto it, it gains haste. In the case of Arcbound Slasher, however, it's toughness will probably be 0, and it will be put into its owner's graveyard before it can attack.
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+  - *2021-06-18* — If you choose for the creature to gain haste, it gains haste indefinitely. It won't lose it as the turn ends or as another player gains control of it.
+  - *2021-06-18* — Riot is a replacement effect. Players can't respond to your choice of a +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/111/arcbound-slasher) · oracle_id `bf86376d-474d-4658-8cf3-d0e2a01cdfff` · printing: MH2 #111 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Slith
 
@@ -747,7 +947,9 @@
   > Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hop/106/arcbound-slith) · oracle_id `4fa113da-44aa-4c84-8f63-b1cad63da926` · printing: HOP #106 (2009-09-04) · [rulings](https://api.scryfall.com/cards/46b468b4-ceb7-4bbd-9d77-046df3b5ba61/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hop/106/arcbound-slith) · oracle_id `4fa113da-44aa-4c84-8f63-b1cad63da926` · printing: HOP #106 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Stinger
 
@@ -759,7 +961,9 @@
   > Modular 1 (This creature enters with a +1/+1 counter on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Flying, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8325 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/199/arcbound-stinger) · oracle_id `7e6e2c37-3a06-456a-ae0f-37b7dc1a3e2b` · printing: MMA #199 (2013-06-07) · [rulings](https://api.scryfall.com/cards/db438720-5bfb-4cd9-b565-434839045f60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/199/arcbound-stinger) · oracle_id `7e6e2c37-3a06-456a-ae0f-37b7dc1a3e2b` · printing: MMA #199 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Tracker
 
@@ -772,7 +976,10 @@
   > Whenever you cast a spell other than your first spell each turn, put a +1/+1 counter on this creature.
 - **Keywords:** Modular, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9914 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/112/arcbound-tracker) · oracle_id `ff86f385-dc3e-4bfe-83e7-9229afab4aa9` · printing: MH2 #112 (2021-06-18) · [rulings](https://api.scryfall.com/cards/881175c4-fee5-4c39-ad25-145ef73569ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Arcbound Tracker will consider spells you cast before it was on the battlefield. For example, if Arcbound Tracker is the first spell you cast in a turn, each subsequent spell you cast after it's on the battlefield will cause the last ability to trigger.
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/112/arcbound-tracker) · oracle_id `ff86f385-dc3e-4bfe-83e7-9229afab4aa9` · printing: MH2 #112 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Wanderer
 
@@ -783,7 +990,12 @@
   > Modular—Sunburst (This creature enters with a +1/+1 counter on it for each color of mana spent to cast it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Modular, Sunburst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20192 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/200/arcbound-wanderer) · oracle_id `03436524-197a-4941-a2a1-c7c4b71c4709` · printing: MMA #200 (2013-06-07) · [rulings](https://api.scryfall.com/cards/fdb48b77-9d25-47b0-8d3b-bf52b8db23e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2004-12-01* — For the leaves-the-battlefield ability, the number of counters on Arcbound Wanderer at the time it left the battlefield is what's relevant; the number of colors of mana used to pay its cost doesn't matter anymore.
+  - *2004-12-01* — This card has modular—sunburst, a combination of two keyword abilities. The sunburst ability sets the number for the modular ability. Basically, the number of +1/+1 counters the Wanderer gets as it enters is equal to the number of colors of mana used to pay its cost.
+  - *2004-12-01* — When the Wanderer leaves the battlefield, you may put the counters onto a single target artifact creature. You can't split them among two or more artifact creatures.
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/200/arcbound-wanderer) · oracle_id `03436524-197a-4941-a2a1-c7c4b71c4709` · printing: MMA #200 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Whelp
 
@@ -796,7 +1008,9 @@
   > Modular 2 (This creature enters with two +1/+1 counters on it. When it dies, you may put its +1/+1 counters on target artifact creature.)
 - **Keywords:** Flying, Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13391 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/113/arcbound-whelp) · oracle_id `36875030-8094-4e2c-860d-c0820825a24e` · printing: MH2 #113 (2021-06-18) · [rulings](https://api.scryfall.com/cards/154ed1d3-e24a-48ba-8f7b-be254c08d1cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — If this creature gets enough -1/-1 counters put on it to cause it to go to the graveyard, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/113/arcbound-whelp) · oracle_id `36875030-8094-4e2c-860d-c0820825a24e` · printing: MH2 #113 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcbound Worker
 
@@ -809,7 +1023,9 @@
   > *The parts are as strong as the whole.*
 - **Keywords:** Modular
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7880 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mma/201/arcbound-worker) · oracle_id `6d9af084-cd5d-4242-b0f0-24a36d0a75d4` · printing: MMA #201 (2013-06-07) · [rulings](https://api.scryfall.com/cards/fdfc2453-5a2b-4104-bf82-84f935de7b99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2006-09-25* — If this creature gets enough -1/-1 counters put on it to cause its toughness to be 0 or less (or the damage marked on it to be lethal), modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mma/201/arcbound-worker) · oracle_id `6d9af084-cd5d-4242-b0f0-24a36d0a75d4` · printing: MMA #201 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcee, Sharpshooter // Arcee, Acrobatic Coupe
 
@@ -825,7 +1041,22 @@
   > Whenever you cast a spell that targets one or more creatures or Vehicles you control, put that many +1/+1 counters on Arcee. Convert Arcee.
 - **Keywords:** Living metal, First strike, Convert, More Than Meets the Eye
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13622 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/bot/7/arcee-sharpshooter-arcee-acrobatic-coupe) · oracle_id `9fba3097-d53f-4ea4-b5d2-8adddaa09524` · printing: BOT #7 (2022-11-18) · [rulings](https://api.scryfall.com/cards/21462db4-7739-4853-845f-0c2aa38fd2a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2022-10-14* — "Living metal" means "As long as it's your turn, this permanent is an artifact creature in addition to its other types."
+  - *2022-10-14* — "More Than Meets the Eye [cost]" means "You may cast this card converted by paying [cost] rather than its mana cost." It functions in any zone from which the spell can be cast.
+  - *2022-10-14* — A spell cast this way enters the battlefield with its back face up.
+  - *2022-10-14* — Any triggered ability of another card that triggers whenever a permanent transforms will also trigger whenever a permanent converts.
+  - *2022-10-14* — Converting a permanent doesn't affect any Auras or Equipment that are attached to it. Similarly, any counters on the permanent will remain on that permanent after it converts. Any continuous effects from a resolved spell or ability will continue to affect it. Any spells or abilities on the stack that target a permanent continue to do so after that permanent converts.
+  - *2022-10-14* — If a static ability of another permanent applies only to noncreature permanents, that ability applies to a Vehicle with living metal only during your opponents' turns. For example, if you control Arcee, Acrobatic Coupe and March of the Machines, Arcee will be a 2/2 artifact creature during your turn and a 3/3 artifact creature (because its mana value is 3) during each opponent's turn.
+  - *2022-10-14* — If you copy a permanent spell cast this way, the copy has the characteristics of the card's back face, even though it isn't itself a double-faced card.
+  - *2022-10-14* — Similarly, an ability of another card that instructs you to "transform" one of these cards will cause you to convert it, even if that ability doesn't use the word "convert."
+  - *2022-10-14* — The convert keyword action functions the same way as the transform keyword action found on some other cards; to convert a permanent on the battlefield, turn it over so that its other face is up.
+  - *2022-10-14* — The cost is an alternative cost, so it can't be combined with any other alternative costs. It can be combined with any applicable additional costs.
+  - *2022-10-14* — The mana value of a converted permanent on the battlefield is equal to the mana value of the card's front face, no matter which face is up.
+  - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
+  - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
+  - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/bot/7/arcee-sharpshooter-arcee-acrobatic-coupe) · oracle_id `9fba3097-d53f-4ea4-b5d2-8adddaa09524` · printing: BOT #7 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeological Dig
 
@@ -835,6 +1066,7 @@
   > {T}: Add {C}.
   > {T}, Sacrifice this land: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17538 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/320/archaeological-dig) · oracle_id `cf438848-da86-4db6-b3b8-4dd8570be3b8` · printing: INV #320 (2000-10-02) · [rulings](https://api.scryfall.com/cards/35f55af0-5a46-4900-b3d0-ca796b710e07/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeomancer
@@ -847,7 +1079,9 @@
 - **Flavor text** (UMA printing):
   > *"Words of power never disappear. They sleep, awaiting those with the will to rouse them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #974 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uma/45/archaeomancer) · oracle_id `a91a3266-cadd-47a0-9b20-160307f14c07` · printing: UMA #45 (2018-12-07) · [rulings](https://api.scryfall.com/cards/cc258713-6ce3-44e0-9b4b-8fa7d1d093a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-12-07* — If an instant or sorcery spell puts Archaeomancer onto the battlefield, its ability can target that card in your graveyard.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uma/45/archaeomancer) · oracle_id `a91a3266-cadd-47a0-9b20-160307f14c07` · printing: UMA #45 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeomancer's Map
 
@@ -857,7 +1091,9 @@
   > When this artifact enters, search your library for up to two basic Plains cards, reveal them, put them into your hand, then shuffle.
   > Whenever a land an opponent controls enters, if that player controls more lands than you, you may put a land card from your hand onto the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #685 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/136/archaeomancers-map) · oracle_id `ef833546-f755-4ac5-867a-3926984e68a0` · printing: SOC #136 (2026-04-24) · [rulings](https://api.scryfall.com/cards/3679b9c8-ebae-474a-b862-6397edbcc4ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — The last ability triggers only if that opponent controls more lands than you after the land enters the battlefield. The ability will check again as it tries to resolve. If that opponent doesn't still control more lands than you at that time, the ability won't resolve.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/136/archaeomancers-map) · oracle_id `ef833546-f755-4ac5-867a-3926984e68a0` · printing: SOC #136 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaeomender
 
@@ -869,6 +1105,7 @@
 - **Flavor text** (JMP printing):
   > *"Just as a broken relic can be mended, a shattered history can be made whole."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15929 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/9/archaeomender) · oracle_id `5a4553fc-f945-4094-b231-2d378ed6609e` · printing: JMP #9 (2020-07-17) · [rulings](https://api.scryfall.com/cards/22bb8779-ac19-43d6-b818-86eb8ee2f87d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archaic's Agony
@@ -881,7 +1118,15 @@
   > *Its past became present became paradox.*
 - **Keywords:** Converge
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26905 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sos/107/archaics-agony) · oracle_id `55d1a788-fe9a-4e19-a524-6709f728ea28` · printing: SOS #107 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8d99f8b2-5c1c-4059-bf68-c6b2e9e5b275/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2026-03-20* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
+  - *2026-03-20* — If a spell with a converge ability is copied, no mana was spent to cast the copy, so the number of colors of mana spent to cast the spell will be zero. The number of colors spent to cast the original spell is not copied.
+  - *2026-03-20* — If there are any alternative or additional costs to cast a spell with a converge ability, the colors of mana spent to pay those costs will count.
+  - *2026-03-20* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
+  - *2026-03-20* — In some unusual cases, Archaic's Agony may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn't greater than the creature's toughness.
+  - *2026-03-20* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
+  - *2026-03-20* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sos/107/archaics-agony) · oracle_id `55d1a788-fe9a-4e19-a524-6709f728ea28` · printing: SOS #107 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel
 
@@ -894,6 +1139,7 @@
   > *The sky rang with the cries of armored seraphs, and the darkness made a tactical retreat.*
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23611 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/5/archangel) · oracle_id `9971697b-2acc-4bc2-a44e-074d03a51df7` · printing: C13 #5 (2013-11-01) · [rulings](https://api.scryfall.com/cards/85160859-9a2d-470b-a924-4b1b4caba860/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel Avacyn // Avacyn, the Purifier
@@ -914,7 +1160,10 @@
   > *—Grete, cathar apostate*
 - **Keywords:** Flying, Vigilance, Transform, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7519 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/11/archangel-avacyn-avacyn-the-purifier) · oracle_id `432b37a5-d32a-4b78-91ab-860aa026b7cc` · printing: INR #11 (2025-01-24) · [rulings](https://api.scryfall.com/cards/fe675f03-cbb5-4177-b7d7-64a30260ee2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2016-04-08* — Archangel Avacyn's delayed triggered ability triggers at the beginning of the next upkeep regardless of whose turn it is.
+  - *2016-04-08* — Archangel Avacyn's delayed triggered ability won't cause it to transform back into Archangel Avacyn if it has already transformed into Avacyn, the Purifier, perhaps because several creatures died in one turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/11/archangel-avacyn-avacyn-the-purifier) · oracle_id `432b37a5-d32a-4b78-91ab-860aa026b7cc` · printing: INR #11 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel Elspeth
 
@@ -926,7 +1175,11 @@
   > −2: Put two +1/+1 counters on target creature. It becomes an Angel in addition to its other types and gains flying.
   > −6: Return all nonland permanent cards with mana value 3 or less from your graveyard to the battlefield.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/6/archangel-elspeth) · oracle_id `0b2481d6-97a0-4f92-b7e5-3451863fd7fb` · printing: MOM #6 (2023-04-21) · [rulings](https://api.scryfall.com/cards/35ed6263-bdd7-4013-ac8c-9b652d71a0db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2023-04-14* — For the last ability, if a card in your graveyard has {X} in its mana cost, X is 0.
+  - *2023-04-14* — If the target of the second ability stops being a creature after the ability has resolved, it will also stop being an Angel until it becomes a creature again, if applicable.
+  - *2023-04-14* — The second ability doesn’t have a duration. It lasts until the creature leaves the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/6/archangel-elspeth) · oracle_id `0b2481d6-97a0-4f92-b7e5-3451863fd7fb` · printing: MOM #6 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel of Strife
 
@@ -940,7 +1193,13 @@
   > Creatures controlled by players who chose peace get +0/+3.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18487 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cma/5/archangel-of-strife) · oracle_id `19e302f8-6ddb-4a43-98bc-ee71a456ac5a` · printing: CMA #5 (2017-06-09) · [rulings](https://api.scryfall.com/cards/b15514f0-0dd8-4e49-a56e-ed829f4c9623/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2011-09-22* — Archangel of Strife's bonuses apply immediately. Depending on your choice, Archangel of Strife will enter as either a 9/6 or 6/9 creature.
+  - *2011-09-22* — Archangel of Strife's second and third abilities are linked. Similarly, its second and fourth abilities are linked. The bonus a player's creatures get depends only on the choice that player made when Archangel of Strife entered.
+  - *2011-09-22* — As soon as Archangel of Strife leaves the battlefield, the bonus stops applying. If it returns to the battlefield, players will be able to make new choices.
+  - *2011-09-22* — If there are two Archangels of Strife on the battlefield, and you choose war for one and peace for the other, your creatures get +3/+3.
+  - *2011-09-22* — The active player chooses war or peace first, followed by each other player in turn order. Each player will know what previous players chose when making their choice.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cma/5/archangel-of-strife) · oracle_id `19e302f8-6ddb-4a43-98bc-ee71a456ac5a` · printing: CMA #5 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel of Thune
 
@@ -955,7 +1214,12 @@
   > *Even the wicked have nightmares.*
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1296 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/5/archangel-of-thune) · oracle_id `4f2d4538-dc1d-4c09-964b-b0d7c240fb7d` · printing: 2XM #5 (2020-08-07) · [rulings](https://api.scryfall.com/cards/15c34447-b0f4-4fcc-b557-23c92850b31b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2020-08-07* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, the ability will trigger twice. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, and/or planeswalkers at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
+  - *2020-08-07* — If a creature you control is dealt lethal damage at the same time that you gain life, it won't receive a counter from Archangel of Thune's ability in time to save it.
+  - *2020-08-07* — If you gain an amount of life “for each” of something, that life is gained as one event and the ability triggers only once.
+  - *2020-08-07* — In a Two-Headed Giant game, life gained by your teammate won't cause the ability to trigger, even though it caused your team's life total to increase.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/5/archangel-of-thune) · oracle_id `4f2d4538-dc1d-4c09-964b-b0d7c240fb7d` · printing: 2XM #5 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel of Tithes
 
@@ -968,7 +1232,9 @@
   > As long as this creature is attacking, creatures can't block unless their controller pays {1} for each of those creatures.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2121 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/2/archangel-of-tithes) · oracle_id `ff5caed4-0276-476d-8fae-edae2536df7f` · printing: OTJ #2 (2024-04-19) · [rulings](https://api.scryfall.com/cards/c853d04c-864b-491c-8c6f-72d2d4874d2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — If you control an untapped Archangel of Tithes, your opponents can choose to not attack with a creature that must attack if able. The same is true with respect to an attacking Archangel of Tithes and a creature that must block if able.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/2/archangel-of-tithes) · oracle_id `ff5caed4-0276-476d-8fae-edae2536df7f` · printing: OTJ #2 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel of Wrath
 
@@ -982,7 +1248,16 @@
   > When this creature enters, if it was kicked twice, it deals 2 damage to any target.
 - **Keywords:** Kicker, Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22602 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/3/archangel-of-wrath) · oracle_id `022e97af-2a3a-4e13-9b6b-d34fcc8cf168` · printing: DMU #3 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2d00bab2-e95d-4296-a805-2a05e7640efb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2022-09-09* — If it was kicked twice, each of Archangel of Wrath's last two abilities will trigger once. In other words, it will deal 2 damage to each of two targets or deal 2 damage to the same target twice.
+  - *2022-09-09* — You may kick Archangel of Wrath only once for its {B} cost and only once for its {R} cost. You can kick it twice by paying {B}{R}, but you can't kick it twice by paying {B}{B} or {R}{R}. You can't kick it more than twice.
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmu/3/archangel-of-wrath) · oracle_id `022e97af-2a3a-4e13-9b6b-d34fcc8cf168` · printing: DMU #3 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archangel's Light
 
@@ -994,7 +1269,10 @@
   > *"This is the light of Avacyn. Even in her absence she offers us hope."*
   > *—Radulf, priest of Avacyn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16725 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dka/1/archangels-light) · oracle_id `fc734a75-93bf-448b-b347-810ae835fe49` · printing: DKA #1 (2012-02-03) · [rulings](https://api.scryfall.com/cards/f99837b3-b487-43bb-846b-7a0e8afb6eef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-01-22* — Archangel’s Light isn’t put into the graveyard until after its instructions are followed. You won’t gain 2 life for it, and it won’t be shuffled into your library.
+  - *2011-01-22* — If you have no cards in your graveyard, you won’t gain any life, but you’ll still shuffle your library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dka/1/archangels-light) · oracle_id `fc734a75-93bf-448b-b347-810ae835fe49` · printing: DKA #1 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archdemon of Paliano
 
@@ -1007,7 +1285,11 @@
   > Flying
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30795 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/39/archdemon-of-paliano) · oracle_id `6ca0078f-d6b5-4643-b801-e7a98706f21c` · printing: CN2 #39 (2016-08-26) · [rulings](https://api.scryfall.com/cards/632122b0-6525-4b41-840f-4fd5bea2f0ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2016-08-23* — After you draft a card at random, look at it to determine whether it needs to be revealed as it's drafted or drafted face up. If it does, follow its instructions as normal.
+  - *2016-08-23* — If you have more than one face-up Archdemon of Paliano, keep track of the number of cards you've drafted at random for each one. Each card you draft at random counts toward the demands of all your Archdemons. While you're doing this, consider carefully why the Archdemon seems to favor you.
+  - *2016-08-23* — Once Archdemon of Paliano is turned face down, you may look at booster packs and draft cards as normal.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cn2/39/archdemon-of-paliano) · oracle_id `6ca0078f-d6b5-4643-b801-e7a98706f21c` · printing: CN2 #39 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archdemon of Unx
 
@@ -1021,7 +1303,10 @@
   > *The necropolis at Unx was once a living city, its streets untrodden by death.*
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25971 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ala/64/archdemon-of-unx) · oracle_id `41e250e6-8e38-4cbc-ae66-98800a5feba8` · printing: ALA #64 (2008-10-03) · [rulings](https://api.scryfall.com/cards/b260fbe1-21cb-4a66-aca3-e504b67ed712/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2008-10-01* — If Archdemon of Unx is the only non-Zombie creature you control when the triggered ability resolves, you’ll have to sacrifice it. You’ll still get a Zombie token.
+  - *2008-10-01* — If you somehow control no non-Zombie creatures when the triggered ability resolves, you won’t have to sacrifice anything. You’ll still get a Zombie token.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ala/64/archdemon-of-unx) · oracle_id `41e250e6-8e38-4cbc-ae66-98800a5feba8` · printing: ALA #64 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archdruid's Charm
 
@@ -1033,7 +1318,11 @@
   > • Put a +1/+1 counter on target creature you control. It deals damage equal to its power to target creature you don't control.
   > • Exile target artifact or enchantment.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/151/archdruids-charm) · oracle_id `3c1ef404-e2c6-486d-a5a2-d5779c71d498` · printing: MKM #151 (2024-02-09) · [rulings](https://api.scryfall.com/cards/5caae5ae-845f-42c2-b1ae-956df2739433/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-02-02* — If you choose the second mode and the creature you don't control is not a legal target as Archdruid's Charm resolves, you'll still put a +1/+1 counter on your creature.
+  - *2024-02-02* — If you choose the second mode and your creature is not a legal target as Archdruid's Charm resolves, you won't put a +1/+1 counter on it, and no damage will be dealt.
+  - *2024-02-02* — You can't choose the second mode for Archdruid's Charm unless you and another player have creatures to target.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/151/archdruids-charm) · oracle_id `3c1ef404-e2c6-486d-a5a2-d5779c71d498` · printing: MKM #151 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archelos, Lagoon Mystic
 
@@ -1046,7 +1335,11 @@
 - **Flavor text** (DMC printing):
   > *"Life ... is not ... a race."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8731 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/140/archelos-lagoon-mystic) · oracle_id `fd19a009-d1ab-4148-a829-3d4c3af1b0b2` · printing: DMC #140 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d45ec78e-6190-46af-8057-834f5ca41ec8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-11-10* — Archelos's abilities don't apply to itself as it enters the battlefield, nor do they apply to any permanents entering the battlefield at the same time.
+  - *2020-11-10* — If another replacement effect says that a permanent enters the battlefield tapped while Archelos is untapped, the entering permanent's controller chooses whether the permanent enters tapped or untapped. If a permanent is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if Archelos is untapped.
+  - *2020-11-10* — If more than one Archelos is on the battlefield, the controller of an entering permanent chooses how to order the replacement effects.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dmc/140/archelos-lagoon-mystic) · oracle_id `fd19a009-d1ab-4148-a829-3d4c3af1b0b2` · printing: DMC #140 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archenemy's Charm
 
@@ -1058,6 +1351,7 @@
   > • Return one or two target creature and/or planeswalker cards from your graveyard to your hand.
   > • Put two +1/+1 counters on target creature you control. It gains lifelink until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3143 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/88/archenemys-charm) · oracle_id `edcb0248-e7c9-4df9-8dba-982048654fd2` · printing: EOE #88 (2025-08-01) · [rulings](https://api.scryfall.com/cards/dcde5f27-e2f0-4d2a-afa3-f300896ec4b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archers of Qarsi
@@ -1073,6 +1367,7 @@
   > *—Goton, Qal Sisma shaman*
 - **Keywords:** Reach, Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25794 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/frf/124/archers-of-qarsi) · oracle_id `ad6bdd24-5a32-4046-83ee-2fe51bf8bb7a` · printing: FRF #124 (2015-01-23) · [rulings](https://api.scryfall.com/cards/0fcf0074-162a-4cc0-9726-8672a0261307/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archers' Parapet
@@ -1087,6 +1382,7 @@
   > *Every shaft is graven with a name from a kin tree, calling upon the spirits of the ancestors to make it fly true.*
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18996 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/128/archers-parapet) · oracle_id `9df1c48b-52a8-47d7-8315-272fecf1a8a0` · printing: KTK #128 (2014-09-26) · [rulings](https://api.scryfall.com/cards/64ac0667-8ecc-4034-89bb-dce0af531014/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archery Training
@@ -1099,7 +1395,11 @@
   > Enchanted creature has "{T}: This creature deals X damage to target attacking or blocking creature, where X is the number of arrow counters on Archery Training."
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19309 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/uds/2/archery-training) · oracle_id `acab4fa9-d9ab-4a89-a50f-0cee9d7ca0c3` · printing: UDS #2 (1999-06-07) · [rulings](https://api.scryfall.com/cards/151232e6-68cc-4cac-a532-9ade8e925961/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2004-10-04* — If there is more than one Archery Training on a creature, each granted ability counts the counters on the Archery Training that granted that ability.
+  - *2004-10-04* — Putting on a counter is optional. If you forget, you can't go back later even if it is something you usually do.
+  - *2004-10-04* — You do not remove counters when using the ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/uds/2/archery-training) · oracle_id `acab4fa9-d9ab-4a89-a50f-0cee9d7ca0c3` · printing: UDS #2 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archetype of Aggression
 
@@ -1113,7 +1413,12 @@
   > *"Did Purphoros bless Maikal because of his rage? Or did Maikal's rage blossom after he'd been blessed? Only the gods know."*
   > *—Eocles, oracle of Purphoros*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2852 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/88/archetype-of-aggression) · oracle_id `263408e6-b315-4af5-8cb8-3fd1aa88e48c` · printing: BNG #88 (2014-02-07) · [rulings](https://api.scryfall.com/cards/13946413-c76d-41a8-a699-404fd56b2067/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
+  - *2014-02-01* — If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.
+  - *2014-02-01* — The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
+  - *2014-02-01* — While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/88/archetype-of-aggression) · oracle_id `263408e6-b315-4af5-8cb8-3fd1aa88e48c` · printing: BNG #88 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archetype of Courage
 
@@ -1127,7 +1432,12 @@
   > *"It has been my experience that soldiers most fervently follow generals who lead by example."*
   > *—Elspeth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4565 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/4/archetype-of-courage) · oracle_id `79b48704-480d-4905-b87a-40b127894670` · printing: BNG #4 (2014-02-07) · [rulings](https://api.scryfall.com/cards/8e6c4afb-6a94-4519-91c6-9824fed2892c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
+  - *2014-02-01* — If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.
+  - *2014-02-01* — The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
+  - *2014-02-01* — While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/4/archetype-of-courage) · oracle_id `79b48704-480d-4905-b87a-40b127894670` · printing: BNG #4 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archetype of Endurance
 
@@ -1140,7 +1450,12 @@
 - **Flavor text** (BNG printing):
   > *Despite its fearsome stature, it is as elusive as a shadow, circling round to stalk those who presume to hunt it.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2917 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/116/archetype-of-endurance) · oracle_id `79254223-3fa6-4b7c-8163-1e48bf5cb708` · printing: BNG #116 (2014-02-07) · [rulings](https://api.scryfall.com/cards/3145ca68-7a9d-4161-9456-518591251b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
+  - *2014-02-01* — If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.
+  - *2014-02-01* — The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
+  - *2014-02-01* — While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/116/archetype-of-endurance) · oracle_id `79254223-3fa6-4b7c-8163-1e48bf5cb708` · printing: BNG #116 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archetype of Finality
 
@@ -1153,7 +1468,12 @@
 - **Flavor text** (BNG printing):
   > *She sees mortals not as they wish to be, but as what they will become.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5820 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/bng/58/archetype-of-finality) · oracle_id `eb4e9ce9-1917-46b1-b01c-645f5920ef9c` · printing: BNG #58 (2014-02-07) · [rulings](https://api.scryfall.com/cards/f326b9c5-063b-4c53-a696-11cd89fc88d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
+  - *2014-02-01* — If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.
+  - *2014-02-01* — The Archetype’s second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
+  - *2014-02-01* — While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren’t created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn’t cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/bng/58/archetype-of-finality) · oracle_id `eb4e9ce9-1917-46b1-b01c-645f5920ef9c` · printing: BNG #58 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archetype of Imagination
 
@@ -1167,7 +1487,12 @@
   > *"Is it not the embodiment of our aspirations?"*
   > *—Prokopios, astronomer of Meletis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1875 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/111/archetype-of-imagination) · oracle_id `a5458de0-0f61-49a3-a013-d90f92559809` · printing: DSC #111 (2024-09-27) · [rulings](https://api.scryfall.com/cards/204972f7-8111-4e7d-97c4-53bcdc222230/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2014-02-01* — Conversely, continuous effects generated by static abilities (such as an Aura that granted the appropriate ability) would resume applying if the Archetype left the battlefield.
+  - *2014-02-01* — If you and an opponent each control the same Archetype, no creature controlled by any player will have the appropriate ability.
+  - *2014-02-01* — The Archetype's second ability applies to each creature controlled by any of your opponents, no matter when it entered the battlefield.
+  - *2014-02-01* — While you control an Archetype, continuous effects generated by the resolution of spells and abilities that would give the specified ability to creatures your opponents control aren't created. For example, if you control Archetype of Courage, a spell cast by an opponent that gives creatures they control first strike wouldn't cause the creatures to have first strike, even if later in the turn Archetype of Courage left the battlefield. (If the spell has additional effects, such as raising the power of the creatures, those effects will apply as normal.)
+- **Source flags:** [Scryfall](https://scryfall.com/card/dsc/111/archetype-of-imagination) · oracle_id `a5458de0-0f61-49a3-a013-d90f92559809` · printing: DSC #111 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Depravity
 
@@ -1181,7 +1506,10 @@
   > *"Why would I kill you all? Who then would be left to worship me?"*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1582 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/e01/31/archfiend-of-depravity) · oracle_id `af247e2f-b271-4f5b-ab98-4579d2c17c21` · printing: E01 #31 (2017-06-16) · [rulings](https://api.scryfall.com/cards/0ec85db7-c8ec-4730-b692-c140977436aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-11-24* — The opponent chooses which creatures to spare, if any, as the ability resolves. This choice doesn't target the creatures.
+  - *2014-11-24* — The opponent may choose to spare one or no creatures. If the player doesn't choose any creatures, they will sacrifice all creatures they control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/e01/31/archfiend-of-depravity) · oracle_id `af247e2f-b271-4f5b-ab98-4579d2c17c21` · printing: E01 #31 (2017-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Despair
 
@@ -1194,7 +1522,11 @@
   > At the beginning of each end step, each opponent loses life equal to the life that player lost this turn. (Damage causes loss of life.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2407 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/46/archfiend-of-despair) · oracle_id `9c36760b-57c5-488b-afc9-ef141942c6ab` · printing: FRC #46 (2026-10-02) · [rulings](https://api.scryfall.com/cards/137b69ad-3296-49f1-bddf-24818a03830f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-06-08* — Archfiend of Despair's last ability counts only how much life was lost. It doesn't care whether a player also gained life.
+  - *2018-06-08* — In a Two-Headed Giant game, damage and life loss happen to each player individually. If each player on a team is dealt 2 damage, each of those players loses 2 life and the team's life total goes down by 4. When Archfiend of Despair's ability resolves, each of those players again loses 2 life and the team's life total goes down again by 4; they don't each lose 4 life.
+  - *2018-06-08* — The amount of life to lose is determined only as Archfiend of Despair's triggered ability resolves. For example, if you control two of them and an opponent lost 3 life earlier in the turn, the first ability to resolve would have that player lose 3 life, and the second would have that player lose 6 life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/46/archfiend-of-despair) · oracle_id `9c36760b-57c5-488b-afc9-ef141942c6ab` · printing: FRC #46 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Ifnir
 
@@ -1207,7 +1539,12 @@
   > Cycling {2} ({2}, Discard this card: Draw a card.)
 - **Keywords:** Flying, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1279 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/70/archfiend-of-ifnir) · oracle_id `535e2af0-7b08-4026-b1bf-87626407dd42` · printing: ECC #70 (2026-01-23) · [rulings](https://api.scryfall.com/cards/83057af6-cb88-4401-92ef-5b5d10463140/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2017-04-18* — An ability that triggers whenever you "cycle or discard" a card triggers only once if you cycle a card. The ability "Whenever you discard a card" is functionally identical to this ability; cycling is mentioned for clarity.
+  - *2017-04-18* — An ability that triggers whenever you discard a card doesn't give you permission to discard cards. You'll need another effect that instructs or allows you to discard them.
+  - *2017-04-18* — If a player discards a card during their cleanup step due to having too many cards in hand, any appropriate abilities that trigger on discarding that card trigger. If this happens, those triggered abilities are put onto the stack and players receive priority in that cleanup step to cast spells or activate abilities (normally, no players may take actions during a cleanup step). Another cleanup step is created following that one.
+  - *2017-04-18* — Some cards have an ability that triggers whenever you cycle any card. These triggered abilities resolve before you draw from the cycling ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ecc/70/archfiend-of-ifnir) · oracle_id `535e2af0-7b08-4026-b1bf-87626407dd42` · printing: ECC #70 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Sorrows
 
@@ -1220,7 +1557,10 @@
   > Unearth {3}{B}{B} ({3}{B}{B}: Return this card from your graveyard to the battlefield. It gains haste. Exile it at the beginning of the next end step or if it would leave the battlefield. Unearth only as a sorcery.)
 - **Keywords:** Flying, Unearth
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15211 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/74/archfiend-of-sorrows) · oracle_id `fe84966e-0f0c-4df8-b61c-e9693492dfd8` · printing: MH2 #74 (2021-06-18) · [rulings](https://api.scryfall.com/cards/f4d089f1-718e-4853-a634-64114735fba5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-06-18* — Activating a creature card's unearth ability isn't the same as casting the creature card. The unearth ability is put on the stack, but the creature card is not. Spells and abilities that interact with activated abilities (such as Stifle) will interact with unearth, but spells and abilities that interact with spells (such as Cancel) will not.
+  - *2021-06-18* — If a creature returned to the battlefield by the unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the creature. If the spell or ability later returns the creature card to the battlefield (as Ephemerate might, for example), the creature card will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh2/74/archfiend-of-sorrows) · oracle_id `fe84966e-0f0c-4df8-b61c-e9693492dfd8` · printing: MH2 #74 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of Spite
 
@@ -1233,7 +1573,22 @@
   > Madness {3}{B}{B} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)
 - **Keywords:** Flying, Madness
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9286 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c19/14/archfiend-of-spite) · oracle_id `6beec974-891f-4354-8621-ac403c07509a` · printing: C19 #14 (2019-08-23) · [rulings](https://api.scryfall.com/cards/1df2ca13-4062-4827-ae2f-c61cf88ba3b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (14):
+  - *2019-08-23* — Archfiend of Spite's triggered ability will trigger even if it is dealt lethal damage. For example, if Archfiend of Spite blocks a 7/7 creature, its ability will trigger when combat damage is dealt and the attacking player will sacrifice seven permanents or lose 7 life.
+  - *2019-08-23* — If the player doesn't control enough permanents that they can sacrifice, they must lose life.
+  - *2019-08-23* — The player may always choose not to sacrifice permanents, even if they will end up losing more life than they have or if an effect (such as that of Platinum Emperion) says that they can't lose life.
+  - *2019-08-23* — The player who loses life or permanents is the player who controls the source as Archfiend of Spite's triggered ability resolves. In some rare cases, this may not be the same player who controlled the source as it dealt damage. If the source is no longer in the zone it was in as it dealt damage, the source's last known information is used to determine who controlled it.
+  - *2019-08-23* — The source's controller must either sacrifice permanents or lose life. They can't choose to sacrifice some permanents and lose some life.
+  - *2022-12-08* — A card with madness that's discarded counts as having been discarded even though it's put into exile rather than a graveyard. If it was discarded to pay a cost, that cost is still paid. Abilities that trigger when a card is discarded will still trigger.
+  - *2022-12-08* — A spell cast for its madness cost is put onto the stack like any other spell. It can be countered, copied, and so on. As it resolves, it's put onto the battlefield if it's a permanent card or into its owner's graveyard if it's an instant or sorcery card.
+  - *2022-12-08* — Cards are discarded in a Magic game only from a player's hand. Effects that put cards into a player's graveyard from anywhere else do not cause those cards to be discarded.
+  - *2022-12-08* — Casting a spell with madness ignores the timing rules based on the card's card type. For example, you can cast a sorcery with madness if you discard it during an opponent's turn.
+  - *2022-12-08* — If you choose not to cast a card with madness when the madness triggered ability resolves, it's put into your graveyard. Madness doesn't give you another chance to cast it later.
+  - *2022-12-08* — If you discard a card with madness to pay the cost of a spell or activated ability, that card's madness triggered ability (and the spell that card becomes, if you choose to cast it) will resolve before the spell or ability the discard paid for.
+  - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
+  - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
+  - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c19/14/archfiend-of-spite) · oracle_id `6beec974-891f-4354-8621-ac403c07509a` · printing: C19 #14 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend of the Dross
 
@@ -1247,7 +1602,10 @@
   > Whenever a creature an opponent controls dies, its controller loses 2 life.
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/one/82/archfiend-of-the-dross) · oracle_id `9188031e-1c24-4981-a3d2-461a2bf917b6` · printing: ONE #82 (2023-02-10) · [rulings](https://api.scryfall.com/cards/86b0edaf-8cfd-4508-9554-6f0fddc2dfc4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-02-04* — If Archfiend of the Dross is no longer on the battlefield as its upkeep triggered ability resolves, use the number of oil counters it had the last time it existed on the battlefield to determine whether you lose the game. You can't remove oil counters from it if it's not on the battlefield, so you won't lose the game if it had only one oil counter on it before leaving the battlefield.
+  - *2023-02-04* — If Archfiend of the Dross somehow loses all of its oil counters due to an effect other than its upkeep triggered ability, this won't cause you to lose the game until the next time that ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/one/82/archfiend-of-the-dross) · oracle_id `9188031e-1c24-4981-a3d2-461a2bf917b6` · printing: ONE #82 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archfiend's Vessel
 
@@ -1259,7 +1617,9 @@
   > When this creature enters, if it entered from your graveyard or you cast it from your graveyard, exile it. If you do, create a 5/5 black Demon creature token with flying.
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14340 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m21/88/archfiends-vessel) · oracle_id `62c240ac-f2dd-4e39-9e82-50307efa833e` · printing: M21 #88 (2020-07-03) · [rulings](https://api.scryfall.com/cards/83437022-ba00-4370-83c2-ce1260336fcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-06-23* — If Archfiend's Vessel leaves the battlefield while its triggered ability is on the stack, you can't exile it from the zone it's put into, so you won't create a Demon.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m21/88/archfiends-vessel) · oracle_id `62c240ac-f2dd-4e39-9e82-50307efa833e` · printing: M21 #88 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archghoul of Thraben
 
@@ -1269,7 +1629,9 @@
 - **Oracle text:**
   > Whenever this creature or another Zombie you control dies, look at the top card of your library. If it's a Zombie card, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6150 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/inr/95/archghoul-of-thraben) · oracle_id `575ffeb4-6d12-4f69-bcc9-15db325daac1` · printing: INR #95 (2025-01-24) · [rulings](https://api.scryfall.com/cards/687b8e00-80f4-474b-927f-d208a2e8c205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-11-19* — If Archghoul of Thraben and another Zombie you control die at the same time, this ability will trigger once for each of them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/inr/95/archghoul-of-thraben) · oracle_id `575ffeb4-6d12-4f69-bcc9-15db325daac1` · printing: INR #95 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archipelagore
 
@@ -1281,7 +1643,9 @@
   > Whenever this creature mutates, tap up to X target creatures, where X is the number of times this creature has mutated. Those creatures don't untap during their controller's next untap step.
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9432 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/iko/41/archipelagore) · oracle_id `ae1df2ad-f34c-4569-92f2-98be776c612d` · printing: IKO #41 (2020-04-24) · [rulings](https://api.scryfall.com/cards/f24b1030-64d5-4c94-a04c-1d9520bfddab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-04-17* — Archipelagore’s triggered ability can target a creature that’s already tapped. That creature won’t untap during its controller’s next untap step.
+- **Source flags:** [Scryfall](https://scryfall.com/card/iko/41/archipelagore) · oracle_id `ae1df2ad-f34c-4569-92f2-98be776c612d` · printing: IKO #41 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Architect of the Untamed
 
@@ -1295,7 +1659,20 @@
   > *Next to her designs, life seems like a pale imitation.*
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9158 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/kld/143/architect-of-the-untamed) · oracle_id `be6cab52-b3ae-46a2-a581-2468a49bff25` · printing: KLD #143 (2016-09-30) · [rulings](https://api.scryfall.com/cards/7bc540f5-96a1-44d8-910d-914b9e61b2a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (12):
+  - *2024-06-07* — Energy counters are a kind of counter that a player may have. They're not associated with any specific permanents.
+  - *2024-06-07* — Energy counters aren't mana. They don't go away as steps, phases, and turns end, and effects that add mana "of any type" can't give you energy counters.
+  - *2024-06-07* — If a spell or ability with one or more targets states that you "may pay" some amount of {E}, and each permanent that it targets has become an illegal target, the spell or ability won't resolve. You can't pay any {E} even if you want to.
+  - *2024-06-07* — If an effect says you get one or more {E}, you get that many energy counters. To pay one or more {E}, you lose that many energy counters. You can't pay more energy counters than you have. Any effects that interact with counters a player gets, has, or loses can interact with energy counters.
+  - *2024-06-07* — Keep track of how many energy counters each player has. Potential ways to track this include writing theme down on paper or using dice, but any method that is clear and mutually agreeable is fine. (At higher levels of tournament play, dice may not be allowed for tracking counters that players have.)
+  - *2024-06-07* — Some spells and abilities that give you {E} may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't get any {E}.
+  - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
+  - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
+  - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+  - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
+  - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
+  - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Source flags:** [Scryfall](https://scryfall.com/card/kld/143/architect-of-the-untamed) · oracle_id `be6cab52-b3ae-46a2-a581-2468a49bff25` · printing: KLD #143 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Architects of Will
 
@@ -1309,7 +1686,9 @@
   > *This secret society of mages manipulates the beliefs and opinions of others.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20773 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/arc/77/architects-of-will) · oracle_id `79d290ea-c095-4135-9711-f3ce089dae43` · printing: ARC #77 (2010-06-18) · [rulings](https://api.scryfall.com/cards/6f614bb4-92e3-4ae0-9f2f-294434706c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Source flags:** [Scryfall](https://scryfall.com/card/arc/77/architects-of-will) · oracle_id `79d290ea-c095-4135-9711-f3ce089dae43` · printing: ARC #77 (2010-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archive Arbiter
 
@@ -1325,6 +1704,7 @@
   > *It ensures students leave the Folioplex with the correct notes, theories, and ponderings.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19861 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/167/archive-arbiter) · oracle_id `36cb3d18-019c-464d-b591-8c87e1b81f31` · printing: FRA #167 (2026-10-02) · [rulings](https://api.scryfall.com/cards/024bce1e-a5f3-4292-bc17-d0355a5d65e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archive Dragon
@@ -1340,6 +1720,7 @@
   > *"Fascinating. It says here that dragons cannot read."*
 - **Keywords:** Scry, Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15671 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/41/archive-dragon) · oracle_id `cddbd819-4895-4712-b44b-d6b51f3d8646` · printing: WOE #41 (2023-09-08) · [rulings](https://api.scryfall.com/cards/2979104f-7570-487c-8024-131d7ee3ab91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archive Trap
@@ -1351,7 +1732,16 @@
   > Target opponent mills thirteen cards.
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5844 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/41/archive-trap) · oracle_id `d412b175-2365-4b2c-a8f5-3e4e9d06280d` · printing: ZEN #41 (2009-10-02) · [rulings](https://api.scryfall.com/cards/67bb2ca9-32b8-442d-b6a0-d624a87f5af8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2009-10-01* — A spell or ability causes a player to search their library only if it specifically contains the word “search” in its text. For example, if a spell or ability lets a player look at the top four cards of their library and do something with one of those cards, that’s not a search.
+  - *2009-10-01* — Archive Trap checks only whether an opponent searched their library. It doesn’t matter whether that player found a card during the search.
+  - *2009-10-01* — Casting a Trap by paying its alternative cost doesn’t change its mana cost or mana value. The only difference is the cost you actually pay.
+  - *2009-10-01* — Effects that increase or reduce the cost to cast a Trap will apply to whichever cost you chose to pay.
+  - *2009-10-01* — If a search effect is affected by Aven Mindcensor’s ability (which causes a player to search the top four cards of their library instead), that still counts as searching that library.
+  - *2009-10-01* — If the targeted opponent has fewer than thirteen cards in their library, that player puts their entire library into their graveyard.
+  - *2009-10-01* — The opponent you target doesn’t have to be the opponent who searched their library.
+  - *2009-10-01* — You may ignore a Trap’s alternative cost condition and simply cast it for its normal mana cost. This is true even if its alternative cost condition has been met.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/41/archive-trap) · oracle_id `d412b175-2365-4b2c-a8f5-3e4e9d06280d` · printing: ZEN #41 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archivist
 
@@ -1364,6 +1754,7 @@
   > *"Sit down and read. Educate yourself for the coming conflicts."*
   > *—Mary Harris "Mother" Jones*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14709 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/60/archivist) · oracle_id `d137586f-83b0-40af-8100-443460b07ac0` · printing: 9ED #60 (2005-07-29) · [rulings](https://api.scryfall.com/cards/2f025c11-feeb-429b-9518-f24d70596601/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archivist of Gondor
@@ -1377,7 +1768,13 @@
 - **Flavor text** (LTC printing):
   > *"If indeed you look only, as you say, for records of ancient days and the beginnings of the City, read on!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10049 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/18/archivist-of-gondor) · oracle_id `a086f7a5-1319-4c5d-b23f-41bec2f81027` · printing: LTC #18 (2023-06-23) · [rulings](https://api.scryfall.com/cards/ec691418-1075-477f-b0df-f0d064588baf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-06-16* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2023-06-16* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2023-06-16* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2023-06-16* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2023-06-16* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltc/18/archivist-of-gondor) · oracle_id `a086f7a5-1319-4c5d-b23f-41bec2f81027` · printing: LTC #18 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archivist of Oghma
 
@@ -1391,7 +1788,10 @@
   > *"Knowledge is the greatest tool of the mortal mind, outweighing anything made by mortal hands. Before anything else can exist, the idea must exist."*
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #699 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/4/archivist-of-oghma) · oracle_id `08b13e1f-27ca-40a8-b5ed-88ac933d24bf` · printing: CLB #4 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f6589e02-8c84-4069-88d1-ebcc8520cae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2022-06-10* — Archivist of Oghma's triggered ability won't be put onto the stack until after the spell or ability causing the opponent to search their library finishes resolving. Notably, if that spell or ability causes any other abilities to trigger (for example, if the opponent searched for a card and put it onto the battlefield), those abilities and Archivist of Oghma's triggered ability will go on the stack at the same time. The active player puts all their abilities on the stack in any order, then each other player in turn order does the same. The last ability put onto the stack this way resolves first, and so on.
+  - *2022-06-10* — Archivist of Oghma's triggered ability won't trigger if you search an opponent's library or an opponent searches another player's library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/4/archivist-of-oghma) · oracle_id `08b13e1f-27ca-40a8-b5ed-88ac933d24bf` · printing: CLB #4 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage Ascension
 
@@ -1401,7 +1801,12 @@
   > At the beginning of each end step, if you drew two or more cards this turn, you may put a quest counter on this enchantment.
   > As long as this enchantment has six or more quest counters on it, if you would draw a card, you may instead search your library for a card, put that card into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8087 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/zen/42/archmage-ascension) · oracle_id `5966c464-5f63-4c71-9317-e2ca79da5aba` · printing: ZEN #42 (2009-10-02) · [rulings](https://api.scryfall.com/cards/dbfe803d-88d7-4ad2-b3d8-c41c123d8bf3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2009-10-01* — Archmage Ascension’s first ability has an “intervening ‘if’ clause.” It won’t trigger at all unless you’ve already drawn two or more cards by the time the end step begins.
+  - *2009-10-01* — If a spell or ability causes you to put cards in your hand without specifically using the word “draw,” Archmage Ascension’s abilities ignore it.
+  - *2009-10-01* — If an effect would cause you to draw multiple cards while Archmage Ascension has six or more quest counters on it, each individual draw may be replaced by Archmage Ascension’s effect. Process the draws one at a time. Even if you use the reasonable shortcut of finding all of the cards at once and only physically shuffling once, the game will consider you to have searched and shuffled once per card.
+  - *2009-10-01* — If two or more replacement effects would apply to a card-drawing event, the player who’s drawing the card chooses what order to apply them. It’s possible that after applying one of them, the others will no longer be applicable because the player would no longer draw a card. For example, if you control more than one Archmage Ascension with six quest counters on it and you would draw a card, each Archmage Ascension’s replacement effect could apply. Once you use one, the rest are no longer applicable.
+- **Source flags:** [Scryfall](https://scryfall.com/card/zen/42/archmage-ascension) · oracle_id `5966c464-5f63-4c71-9317-e2ca79da5aba` · printing: ZEN #42 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage Emeritus
 
@@ -1414,7 +1819,12 @@
   > *Some emeritus professors return from their wanderings periodically to share tales of the mystical wonders of Arcavios.*
 - **Keywords:** Magecraft
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #253 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/188/archmage-emeritus) · oracle_id `8305d576-21d8-4ce7-8eda-a7cd9793aca5` · printing: SOC #188 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dd547601-d650-4a02-a3a4-890bcef03a7c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2021-04-16* — Each magecraft ability has a different effect, although they all have the same trigger condition, whenever you cast or copy an instant or sorcery spell.
+  - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
+  - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
+  - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/188/archmage-emeritus) · oracle_id `8305d576-21d8-4ce7-8eda-a7cd9793aca5` · printing: SOC #188 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage of Echoes
 
@@ -1429,7 +1839,10 @@
   > *—Chulane, Teller of Tales*
 - **Keywords:** Flying, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4284 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woc/9/archmage-of-echoes) · oracle_id `f1ecb3d7-5ea0-45b2-b1b0-d7ae304db2a1` · printing: WOC #9 (2023-09-08) · [rulings](https://api.scryfall.com/cards/c8a40d37-6bd7-4476-9968-36b1988f36e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — A resolving copy of a permanent spell becomes a token, so the token isn't "created." Effects that care about a token being created won't interact with a token that enters the battlefield from Archmage of Echoes's ability.
+  - *2023-09-01* — The copy remembers any decisions that were made for the original spell as it was cast, including values chosen for X in its mana cost and whether any alternative or additional costs were chosen. For example, if the original creature spell had kicker and its kicker cost was paid, the copy will also be kicked.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woc/9/archmage-of-echoes) · oracle_id `f1ecb3d7-5ea0-45b2-b1b0-d7ae304db2a1` · printing: WOC #9 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage of Runes
 
@@ -1442,7 +1855,11 @@
 - **Flavor text** (FDN printing):
   > *He's so intent on his study that others think him frozen in place.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #928 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/30/archmage-of-runes) · oracle_id `28045b32-4c1a-40e5-a15d-524d0f8fe6ec` · printing: FDN #30 (2024-11-15) · [rulings](https://api.scryfall.com/cards/334b5018-2da9-49f1-9d09-83d312ecfb02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2024-11-08* — Archmage of Runes's first ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell.
+  - *2024-11-08* — Archmage of Runes's first ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay to cast instant and sorcery spells.
+  - *2024-11-08* — Archmage of Runes's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fdn/30/archmage-of-runes) · oracle_id `28045b32-4c1a-40e5-a15d-524d0f8fe6ec` · printing: FDN #30 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage's Charm
 
@@ -1454,7 +1871,10 @@
   > • Target player draws two cards.
   > • Gain control of target nonland permanent with mana value 1 or less.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1741 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/40/archmages-charm) · oracle_id `85cbb035-25df-43bb-ae06-ab098f448b02` · printing: MH1 #40 (2019-06-14) · [rulings](https://api.scryfall.com/cards/57b852b6-4388-4a41-a5c0-bba37a5c1451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-06-14* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+  - *2024-04-12* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/40/archmages-charm) · oracle_id `85cbb035-25df-43bb-ae06-ab098f448b02` · printing: MH1 #40 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archmage's Newt
 
@@ -1466,7 +1886,23 @@
   > Saddle 3
 - **Keywords:** Saddle
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13649 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/otj/39/archmages-newt) · oracle_id `75ffebc4-8db9-4de6-a330-e3f41cdccecc` · printing: OTJ #39 (2024-04-19) · [rulings](https://api.scryfall.com/cards/a440bbd6-8e51-4db1-90d9-7fa9fc327ad5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (15):
+  - *2024-04-12* — "Flashback [cost]" means "You may cast this card from your graveyard by paying [cost] rather than paying its mana cost" and "If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack."
+  - *2024-04-12* — "Saddle N" means "Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery."
+  - *2024-04-12* — "Saddled" isn't an ability that a creature has. It's just something true about that creature. It won't stop being saddled until the turn ends or it leaves the battlefield.
+  - *2024-04-12* — A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way.
+  - *2024-04-12* — An ability that triggers when a creature "attacks while saddled" will trigger only if that creature was saddled when it was declared as an attacker.
+  - *2024-04-12* — Creatures with saddle can attack or block as normal even if they aren't saddled.
+  - *2024-04-12* — If a card has multiple instances of flashback, you may choose any of its flashback costs to pay.
+  - *2024-04-12* — If a card with no mana cost gains flashback equal to its mana cost, it has no flashback cost. It can't be cast this way.
+  - *2024-04-12* — If a permanent becomes a copy of a saddled Mount, the copy won't be saddled.
+  - *2024-04-12* — If you cast a spell with flashback, you can't pay any alternative costs such as overload costs. You can pay additional costs such as kicker costs. If the spell has any mandatory additional costs, you must pay those to cast the spell with flashback.
+  - *2024-04-12* — If you cast an instant or sorcery with {X} in its mana cost and a flashback cost equal to its mana cost, you still choose the value of X as part of casting the spell and paying that cost. If that spell has flashback {0}, you won't be able to choose the value of X; the value of X will simply be 0.
+  - *2024-04-12* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+  - *2024-04-12* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
+  - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+  - *2024-04-12* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Source flags:** [Scryfall](https://scryfall.com/card/otj/39/archmages-newt) · oracle_id `75ffebc4-8db9-4de6-a330-e3f41cdccecc` · printing: OTJ #39 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archnemesis
 
@@ -1480,6 +1916,7 @@
   > *Rivals at the start, and rivals to the end.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11590 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/74/archnemesis) · oracle_id `c408717c-e07b-484f-9c81-5666595adf81` · printing: MSC #74 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b440109f-af52-415e-94d3-d4997f5bee3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arch of Orazca
@@ -1492,7 +1929,14 @@
   > {5}, {T}: Draw a card. Activate only if you have the city's blessing.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/319/arch-of-orazca) · oracle_id `3bb518ff-399b-4ce7-b9ad-a1d563dd7792` · printing: LCC #319 (2023-11-17) · [rulings](https://api.scryfall.com/cards/581dcadd-7de4-4b39-bab0-d3567194a252/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2018-01-19* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren't permanents.
+  - *2018-01-19* — Ascend on a permanent isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your tenth permanent, but they can't respond to getting the city's blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can't respond before you get the city's blessing.
+  - *2018-01-19* — If you cast a spell with ascend, you don't get the city's blessing until it resolves. Players may respond to that spell by trying to change whether you get the city's blessing.
+  - *2018-01-19* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of one, then cast Golden Demise, you won't have the city's blessing and the spell will affect creatures you control.
+  - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
+  - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lcc/319/arch-of-orazca) · oracle_id `3bb518ff-399b-4ce7-b9ad-a1d563dd7792` · printing: LCC #319 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Absolution
 
@@ -1505,7 +1949,10 @@
   > Creatures can't attack you or planeswalkers you control unless their controller pays {1} for each of those creatures.
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/eld/3/archon-of-absolution) · oracle_id `0e3ac581-3d78-4879-9afb-3db69c5c47a5` · printing: ELD #3 (2019-10-04) · [rulings](https://api.scryfall.com/cards/684ca60c-7ed4-49e1-b54a-91d129539375/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2019-10-04* — In a Two-Headed Giant game, creatures can attack your teammate and planeswalkers your teammate controls without requiring a mana payment.
+  - *2019-10-04* — Your opponents can choose not to pay to attack with a creature that attacks “if able.” If there's no other player or planeswalker to attack, that creature simply doesn't attack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/eld/3/archon-of-absolution) · oracle_id `0e3ac581-3d78-4879-9afb-3db69c5c47a5` · printing: ELD #3 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Coronation
 
@@ -1518,7 +1965,15 @@
   > As long as you're the monarch, damage doesn't cause you to lose life. (When a creature deals combat damage to you, its controller still becomes the monarch.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6730 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/192/archon-of-coronation) · oracle_id `61f55e39-4028-4c91-910e-16b88c73beb5` · printing: NCC #192 (2022-04-29) · [rulings](https://api.scryfall.com/cards/2c306cf7-da52-4cc4-9272-bd7d78f1175d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2020-11-10* — Combat damage dealt to you by a commander is still tracked, even if it didn't cause you to lose life.
+  - *2020-11-10* — If combat damage dealt to the monarch causes that player to lose the game, the triggered ability that causes the controller of the attacking creature to become the monarch doesn't resolve. In most cases, the controller of the attacking creature will still become the monarch as it is likely their turn.
+  - *2020-11-10* — If the monarch leaves the game during another player's turn, that player becomes the monarch. If the monarch leaves the game during their turn, the next player in turn order becomes the monarch.
+  - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
+  - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
+  - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+  - *2020-11-10* — While Archon of Coronation's last ability applies, damage dealt to you still has all effects other than causing you to lose life. For example, abilities that trigger on that damage being dealt still trigger; if the source has lifelink, its controller still gains life; and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ncc/192/archon-of-coronation) · oracle_id `61f55e39-4028-4c91-910e-16b88c73beb5` · printing: NCC #192 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Cruelty
 
@@ -1532,7 +1987,9 @@
   > *Malice spreads on wings of tyranny.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1017 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/frc/47/archon-of-cruelty) · oracle_id `aa1a6646-c1e6-4bff-9092-43ee3e137914` · printing: FRC #47 (2026-10-02) · [rulings](https://api.scryfall.com/cards/95ff951b-a098-409c-86c8-373b6c9f8331/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-06-18* — You and the opponent you target take all the actions in the order listed. Notably, the creature or planeswalker they sacrifice won't be on the battlefield as they discard a card or lose life. If any abilities trigger, they will wait to be put on the stack until after the spell resolves. If any abilities controlled by that opponent trigger but losing 3 life causes them to lose the game, none of those abilities will be put on the stack.
+- **Source flags:** [Scryfall](https://scryfall.com/card/frc/47/archon-of-cruelty) · oracle_id `aa1a6646-c1e6-4bff-9092-43ee3e137914` · printing: FRC #47 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Emeria
 
@@ -1548,7 +2005,11 @@
   > *—Nissa Revane*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2134 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znr/4/archon-of-emeria) · oracle_id `ceef2d5a-77ea-4e56-9806-fd1a2d5be400` · printing: ZNR #4 (2020-09-25) · [rulings](https://api.scryfall.com/cards/228c1650-da3c-4099-91b6-18e3873c9cdb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-09-25* — Archon of Emeria looks at the entire turn to see if a player has cast a spell, even if Archon of Emeria wasn't on the battlefield when that spell was cast. Notably, you can't cast Archon of Emeria and then cast another spell during the same turn.
+  - *2020-09-25* — If an effect says that a land enters tapped unless a condition is met or a cost is paid, that land enters tapped even if that condition is met or that cost is paid if it's affected by Archon of Emeria's second ability.
+  - *2020-09-25* — If you cast a spell that was countered, you can't cast another spell during the same turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znr/4/archon-of-emeria) · oracle_id `ceef2d5a-77ea-4e56-9806-fd1a2d5be400` · printing: ZNR #4 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Falling Stars
 
@@ -1563,7 +2024,9 @@
   > *—\*The Cosmogony\**
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21258 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/thb/2/archon-of-falling-stars) · oracle_id `38e0a1d0-2a4c-4510-9610-abea7fa1de7c` · printing: THB #2 (2020-01-24) · [rulings](https://api.scryfall.com/cards/d0dd1e40-a514-42df-8cc1-364998c7700c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2020-01-24* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/thb/2/archon-of-falling-stars) · oracle_id `38e0a1d0-2a4c-4510-9610-abea7fa1de7c` · printing: THB #2 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Justice
 
@@ -1577,6 +2040,7 @@
   > *In dark times, Truth bears a blade.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17515 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/89/archon-of-justice) · oracle_id `d551931d-4ebe-4acc-9e87-6c628897071a` · printing: JMP #89 (2020-07-17) · [rulings](https://api.scryfall.com/cards/042b0148-5821-4105-9cda-a0e405eb8bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Redemption
@@ -1591,7 +2055,9 @@
   > *Until Emeria is freed, he raises his sword in her name.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/90/archon-of-redemption) · oracle_id `434e58f4-4237-454f-a2d0-61885c9aafaa` · printing: JMP #90 (2020-07-17) · [rulings](https://api.scryfall.com/cards/a9e8eb41-3800-4553-843b-ec27a44e8d55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2010-03-01* — The creature’s power is determined as the triggered ability resolves, so it will take into account any effects that modify it. If the creature has left the battlefield by the time the triggered ability resolves, its last existence on the battlefield is checked to determine its power.
+- **Source flags:** [Scryfall](https://scryfall.com/card/jmp/90/archon-of-redemption) · oracle_id `434e58f4-4237-454f-a2d0-61885c9aafaa` · printing: JMP #90 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Sun's Grace
 
@@ -1605,7 +2071,11 @@
   > Constellation — Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying.
 - **Keywords:** Flying, Lifelink, Constellation
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1245 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/137/archon-of-suns-grace) · oracle_id `48a99dce-0aa9-4aac-81df-cec5f94c639d` · printing: SOC #137 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0d3af89d-d22c-45e8-9fec-170ac9bb0a34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-01-24* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
+  - *2020-01-24* — An Aura spell that has an illegal target when it tries to resolve doesn't resolve and is instead put into its owner's graveyard. It doesn't enter the battlefield, so constellation abilities don't trigger.
+  - *2020-01-24* — Multiple instances of lifelink on the same creature are redundant.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/137/archon-of-suns-grace) · oracle_id `48a99dce-0aa9-4aac-81df-cec5f94c639d` · printing: SOC #137 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of the Triumvirate
 
@@ -1617,7 +2087,16 @@
   > Whenever this creature attacks, detain up to two target nonland permanents your opponents control. (Until your next turn, those permanents can't attack or block and their activated abilities can't be activated.)
 - **Keywords:** Flying, Detain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22506 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/142/archon-of-the-triumvirate) · oracle_id `27ecb717-6251-4066-b57e-7070e9e44bbf` · printing: RTR #142 (2012-10-05) · [rulings](https://api.scryfall.com/cards/bf91d847-4a87-4a65-8d6d-e20d538c5cec/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2012-10-01* — The nonland permanents will be detained before blockers are chosen. Notably, a creature detained this way can’t block before it is detained.
+  - *2012-10-01* — The two nonland permanents can be controlled by the same opponent or by different opponents.
+  - *2013-04-15* — Activated abilities include a colon and are written in the form “[cost]: [effect].” No one can activate any activated abilities, including mana abilities, of a detained permanent.
+  - *2013-04-15* — If a creature is already attacking or blocking when it’s detained, it won’t be removed from combat. It will continue to attack or block.
+  - *2013-04-15* — If a noncreature permanent is detained and later turns into a creature, it won’t be able to attack or block.
+  - *2013-04-15* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
+  - *2013-04-15* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
+  - *2013-04-15* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/142/archon-of-the-triumvirate) · oracle_id `27ecb717-6251-4066-b57e-7070e9e44bbf` · printing: RTR #142 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of the Wild Rose
 
@@ -1631,7 +2110,10 @@
   > *The curse of Redtooth Keep could only be broken by a mystical rose that blooms in moonlight.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10401 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/1/archon-of-the-wild-rose) · oracle_id `180efbd4-0f77-41cc-8ae2-2e6ccf853d10` · printing: WOE #1 (2023-09-08) · [rulings](https://api.scryfall.com/cards/00174be7-0dc8-43b9-81b6-f25a8c3fb4eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2023-09-01* — Archon of the Wild Rose's ability overwrites all previous effects that set the affected creatures' power and/or toughness to specific values. Other effects that set these characteristics to specific values that start to apply after Archon of the Wild Rose enters the battlefield will overwrite this effect.
+  - *2023-09-01* — Effects that modify a creature's power and/or toughness without setting it will apply to the affected creatures no matter when they started to take effect. The same is true for counters that change a creature's power and/or toughness.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/1/archon-of-the-wild-rose) · oracle_id `180efbd4-0f77-41cc-8ae2-2e6ccf853d10` · printing: WOE #1 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon of Valor's Reach
 
@@ -1644,7 +2126,10 @@
   > Players can't cast spells of the chosen type.
 - **Keywords:** Flying, Vigilance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10279 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/c20/202/archon-of-valors-reach) · oracle_id `baff00b8-b109-4e31-942b-38aeb1e45ab2` · printing: C20 #202 (2020-04-17) · [rulings](https://api.scryfall.com/cards/7f51e677-1278-401e-a892-33cd8ffed6fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2018-06-08* — The enters-the-battlefield effect of Archon of Valor’s Reach is a replacement effect that doesn’t use the stack. No player can cast spells or activate abilities after it has entered the battlefield but before you choose a card type.
+  - *2018-06-08* — Whether it’s legal to cast a spell is determined before its costs are paid. This means that if Archon of Valor’s Reach has sorcery as the chosen type, you can’t cast Morbid Curiosity, even if you wish to sacrifice Archon of Valor’s Reach to do so.
+- **Source flags:** [Scryfall](https://scryfall.com/card/c20/202/archon-of-valors-reach) · oracle_id `baff00b8-b109-4e31-942b-38aeb1e45ab2` · printing: C20 #202 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archon's Glory
 
@@ -1657,7 +2142,13 @@
   > *A winged dawn dispels the terrors of night.*
 - **Keywords:** Bargain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19234 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/woe/2/archons-glory) · oracle_id `bc5631ae-494e-4987-8d17-57674bfbdb9f` · printing: WOE #2 (2023-09-08) · [rulings](https://api.scryfall.com/cards/e71768e7-4ef7-4fb2-838b-eb3a7f662d38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-09-01* — Bargain means "As an additional cost to cast this spell, you may sacrifice an artifact, enchantment, or token."
+  - *2023-09-01* — Bargain represents an optional additional cost. A spell cast with that additional cost paid is "bargained."
+  - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
+  - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
+  - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/woe/2/archons-glory) · oracle_id `bc5631ae-494e-4987-8d17-57674bfbdb9f` · printing: WOE #2 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archpriest of Iona
 
@@ -1668,7 +2159,16 @@
   > Archpriest of Iona's power is equal to the number of creatures in your party. (Your party consists of up to one each of Cleric, Rogue, Warrior, and Wizard.)
   > At the beginning of combat on your turn, if you have a full party, target creature gets +1/+1 and gains flying until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/clb/686/archpriest-of-iona) · oracle_id `a8730922-3f47-4c07-bdd5-4a0f557a3d3d` · printing: CLB #686 (2022-06-10) · [rulings](https://api.scryfall.com/cards/0b0b1acd-68e5-4922-8b51-06fa7eda984c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-09-25* — An ability referring to the number of creatures in your party gets a number from zero to four. Such abilities never ask which creatures are in your party, and you never have to designate specific creatures as being in your party. You can't choose to exclude creatures from this count to lower the number.
+  - *2020-09-25* — Archpriest of Iona's power is constantly updated as the number of creatures in your party changes. If Archpriest of Iona is on the battlefield, it will consider itself as a Cleric.
+  - *2020-09-25* — If a creature has more than one party creature type, and there are multiple ways to count that creature that could result in a different number of creatures in your party, the highest such number is used. For example, if you control a Cleric and a Cleric Wizard, the number of creatures in your party is two. You can't choose to have it be just one by counting the Cleric Wizard first as a Cleric.
+  - *2020-09-25* — Once the target creature gets +1/+1 and gains flying, it keeps those bonuses even if you no longer have a full party later in the turn.
+  - *2020-09-25* — Some cards refer to you having a “full party.” This is true if the number of creatures in your party is four.
+  - *2020-09-25* — The ability that defines Archpriest of Iona's power applies in all zones, not just the battlefield.
+  - *2020-09-25* — The last ability won't trigger at all if you don't have a full party as your combat phase begins. It won't grant +1/+1 or flying if you don't have a full party as it resolves. The number of creatures in your party may change between these times, however.
+  - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Source flags:** [Scryfall](https://scryfall.com/card/clb/686/archpriest-of-iona) · oracle_id `a8730922-3f47-4c07-bdd5-4a0f557a3d3d` · printing: CLB #686 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archpriest of Shadows
 
@@ -1681,7 +2181,13 @@
   > Whenever this creature deals combat damage to a player or battle, return target creature card from your graveyard to the battlefield.
 - **Keywords:** Backup, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3278 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mom/89/archpriest-of-shadows) · oracle_id `7b03910a-2ca7-40cb-9c71-1c2cc856a287` · printing: MOM #89 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f5931746-a55c-4528-9e4a-ee15edab3489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2023-04-14* — Backup confers only abilities that are actually printed below it. Any abilities that are gained by the permanent are ignored, including abilities gained due to a resolving spell or ability or copy effects.
+  - *2023-04-14* — If a backup ability causes another creature to gain abilities, the creature with backup will still have those abilities.
+  - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
+  - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
+  - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mom/89/archpriest-of-shadows) · oracle_id `7b03910a-2ca7-40cb-9c71-1c2cc856a287` · printing: MOM #89 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archway Angel
 
@@ -1695,6 +2201,7 @@
   > *A ray of hope breaks through the shroud of rain.*
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20140 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/566/archway-angel) · oracle_id `f2cf087a-d89a-4145-9394-945ce41c8cca` · printing: FDN #566 (2024-11-15) · [rulings](https://api.scryfall.com/cards/2c3ff489-bdd7-4aeb-8130-3c234d0dd3dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archway Commons
@@ -1706,6 +2213,7 @@
   > When this land enters, sacrifice it unless you pay {1}.
   > {T}: Add one mana of any color.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9257 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/263/archway-commons) · oracle_id `69c63055-ed44-4b32-b591-f3c6c2f3e7d1` · printing: STX #263 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f6f6a2ff-7eb7-4680-af2b-e69ac88a65c9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archway of Innovation
@@ -1717,7 +2225,14 @@
   > {T}: Add {U}.
   > {U}, {T}: The next spell you cast this turn has improvise. (Your artifacts can help cast that spell. Each artifact you tap after you're done activating mana abilities pays for {1}.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #925 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/214/archway-of-innovation) · oracle_id `bfa20bc7-4626-4a52-87f4-6e2763cb8ed5` · printing: MH3 #214 (2024-06-14) · [rulings](https://api.scryfall.com/cards/6a90f9e6-9251-4203-9599-cc4032a5e6e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-06-07* — Because improvise isn't an alternative cost, it can be used in conjunction with alternative costs.
+  - *2024-06-07* — If an artifact you control has a mana ability with {T} in the cost, activating that ability while casting a spell with improvise will result in the artifact being tapped before you pay the spell's costs. You won't be able to tap it again for improvise. Similarly, if you sacrifice an artifact to activate a mana ability while casting a spell with improvise, that artifact won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for improvise.
+  - *2024-06-07* — Multiple instances of improvise are redundant.
+  - *2024-06-07* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Improvise applies after the total cost is calculated. Improvise doesn't change a spell's mana cost or mana value.
+  - *2024-06-07* — When using improvise to cast a spell with {X} in its cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap artifacts you control to help pay that cost. For example, if you activate the last ability of Archway of Innovation and then cast Wrath of the Skies (a spell with mana cost {X}{W}{W}), choosing 3 as the value of X, the total cost is {3}{W}{W}. If you tap two artifacts, you'll have to pay {1}{W}{W}.
+  - *2024-06-07* — You must already control an Island as Archway of Innovation enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as an Island when you control no other Islands, it will enter tapped.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/214/archway-of-innovation) · oracle_id `bfa20bc7-4626-4a52-87f4-6e2763cb8ed5` · printing: MH3 #214 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archweaver
 
@@ -1730,6 +2245,7 @@
   > *The silk of the archweavers adds structural integrity to otherwise unstable Izzet building sites.*
 - **Keywords:** Reach, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24478 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/114/archweaver) · oracle_id `2ceb76e2-1692-48fc-ab20-9587d1374172` · printing: RTR #114 (2012-10-05) · [rulings](https://api.scryfall.com/cards/f99dc8ff-932c-4d56-9253-99ce9e145306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Archwing Dragon
@@ -1744,7 +2260,9 @@
   > *Swifter than an angel, crueler than a demon, and relentless as a ghoul.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16948 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/avr/126/archwing-dragon) · oracle_id `a0a706b2-b237-4183-82fa-2140a23b89e3` · printing: AVR #126 (2012-05-04) · [rulings](https://api.scryfall.com/cards/6c6f1a8b-329e-4094-8141-6bc88311a08c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-05-01* — Archwing Dragon is only returned to its owner’s hand if it’s on the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/avr/126/archwing-dragon) · oracle_id `a0a706b2-b237-4183-82fa-2140a23b89e3` · printing: AVR #126 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Lightning
 
@@ -1755,7 +2273,10 @@
 - **Flavor text** (KTK printing):
   > *Lightning burns its own path.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16486 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/97/arc-lightning) · oracle_id `5acc8b39-3c3e-4012-8cfd-ac3c2c4ca982` · printing: KTK #97 (2014-09-26) · [rulings](https://api.scryfall.com/cards/35c7c392-6782-40c8-bb24-6aad24f14660/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2014-09-20* — If some of the creatures are illegal targets as Arc Lightning tries to resolve, the original division of damage still applies but no damage is dealt to the illegal targets. If all targets are illegal, Arc Lightning doesn’t resolve.
+  - *2014-09-20* — You choose how many targets Arc Lightning has and how the damage is divided as you cast the spell. Each target must receive at least 1 damage.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ktk/97/arc-lightning) · oracle_id `5acc8b39-3c3e-4012-8cfd-ac3c2c4ca982` · printing: KTK #97 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arclight Phoenix
 
@@ -1769,7 +2290,9 @@
   > *Some storms never blow over.*
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19334 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/100/arclight-phoenix) · oracle_id `a80ea391-54d1-4b61-95a3-f8deb4cbe842` · printing: RVR #100 (2024-01-12) · [rulings](https://api.scryfall.com/cards/def7f05b-6e63-4828-a92c-ce7921bbdf4e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2018-10-05* — Because the beginning of combat step is before attackers are declared, you can attack with Arclight Phoenix during the same combat it returns to the battlefield.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rvr/100/arclight-phoenix) · oracle_id `a80ea391-54d1-4b61-95a3-f8deb4cbe842` · printing: RVR #100 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Mage
 
@@ -1779,7 +2302,9 @@
 - **Oracle text:**
   > {2}{R}, {T}, Discard a card: This creature deals 2 damage divided as you choose among one or two targets.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30622 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/nem/77/arc-mage) · oracle_id `011bb6cc-f1a1-4790-befc-373acabf63b8` · printing: NEM #77 (2000-02-14) · [rulings](https://api.scryfall.com/cards/62982dab-4c27-45b3-9740-38fec3df7226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — You can't choose zero targets. You must choose between 1 and 2 targets.
+- **Source flags:** [Scryfall](https://scryfall.com/card/nem/77/arc-mage) · oracle_id `011bb6cc-f1a1-4790-befc-373acabf63b8` · printing: NEM #77 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arco-Flagellant
 
@@ -1792,7 +2317,12 @@
   > Endurant — Pay 3 life: This creature gains indestructible until end of turn.
 - **Keywords:** Endurant, Squad
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14938 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/40k/29/arco-flagellant) · oracle_id `b48e7e87-3adf-417d-b93b-bf67ad6cbf1d` · printing: 40K #29 (2022-10-07) · [rulings](https://api.scryfall.com/cards/0894d21c-d44c-4c7c-8693-f32dde67b336/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2022-10-07* — If the spell is countered, the squad ability will not trigger, and no tokens will be created.
+  - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
+  - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
+  - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+- **Source flags:** [Scryfall](https://scryfall.com/card/40k/29/arco-flagellant) · oracle_id `b48e7e87-3adf-417d-b93b-bf67ad6cbf1d` · printing: 40K #29 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Reactor
 
@@ -1806,6 +2336,7 @@
   > *A true marvel of engineering.*
 - **Keywords:** Improvise
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5674 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/243/arc-reactor) · oracle_id `55f7b005-31ea-4865-a8f3-460d15bed795` · printing: MSH #243 (2026-06-26) · [rulings](https://api.scryfall.com/cards/339acb17-4b8e-4836-9cc5-8a0a946ebc73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Runner
@@ -1820,6 +2351,7 @@
   > *The storms of the wastelands form quickly and hit hard. Few have anything to do with rain.*
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16853 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/123/arc-runner) · oracle_id `9bbee1a5-2eb0-4fad-9524-4ad9cc5ca998` · printing: M11 #123 (2010-07-16) · [rulings](https://api.scryfall.com/cards/32014715-7faa-412a-b8b4-751102e6b8a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc-Slogger
@@ -1832,6 +2364,7 @@
 - **Flavor text** (MRD printing):
   > *A shuffling sound and the smell of ozone follow the slogger as surely as its electric tail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30303 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/85/arc-slogger) · oracle_id `a28fc506-a98c-4b4d-a0f4-7d971489ccbb` · printing: MRD #85 (2003-10-02) · [rulings](https://api.scryfall.com/cards/d3dd67e0-72b4-4c55-b49b-c69950feccb1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Spitter
@@ -1845,6 +2378,7 @@
   > *"I'm fresh out of mercy today. Why don't you ask Sparky here for forgiveness?"*
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17541 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/233/arc-spitter) · oracle_id `9376ccf6-1b18-44e9-8f9d-c5ad38927e2f` · printing: SNC #233 (2022-04-29) · [rulings](https://api.scryfall.com/cards/f95a00ed-dc77-4dcd-9e14-6902565974b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Aven
@@ -1858,7 +2392,9 @@
   > {W}: This creature gains lifelink until end of turn. (Damage dealt by this creature also causes you to gain that much life.)
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25500 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m13/42/arctic-aven) · oracle_id `616cb1be-074a-46c2-b8f1-6b9f15b7bc23` · printing: M13 #42 (2012-07-13) · [rulings](https://api.scryfall.com/cards/06f6aab1-c400-4d87-b68e-f36552e7417f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2012-07-01* — Multiple instances of lifelink aren't cumulative. Activating Arctic Aven's ability more than once during a single turn won't cause you to gain more life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m13/42/arctic-aven) · oracle_id `616cb1be-074a-46c2-b8f1-6b9f15b7bc23` · printing: M13 #42 (2012-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Flats
 
@@ -1873,6 +2409,7 @@
   > *Those dearly loved, forever lost . . ."*
   > *—\*The Dynasty of Winter Kings\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13733 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/143/arctic-flats) · oracle_id `841f0a1d-6f84-45fb-81cc-f2d99fa9e9a2` · printing: CSP #143 (2006-07-21) · [rulings](https://api.scryfall.com/cards/609b15f6-e65b-46d6-95e8-dc39f25d7efa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Foxes
@@ -1886,6 +2423,7 @@
   > *"Those Foxes are wily, swift, and ferocious. They are the warriors of the snows."*
   > *—General Jarkeld, the Arctic Fox*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27320 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/2/arctic-foxes) · oracle_id `898f0824-cf4c-4e34-8407-9a32fdae6dcb` · printing: ICE #2 (1995-06-03) · [rulings](https://api.scryfall.com/cards/98f99c3e-dddc-492f-aab6-1d899346a385/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Merfolk
@@ -1898,7 +2436,14 @@
   > If this creature was kicked, it enters with a +1/+1 counter on it.
 - **Keywords:** Kicker
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25992 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/pls/21/arctic-merfolk) · oracle_id `c56671e1-28a6-40c3-bad5-b5e617ddb7da` · printing: PLS #21 (2001-02-05) · [rulings](https://api.scryfall.com/cards/86369fe5-d86d-4f4c-8f3d-dedc174f2032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-11-08* — If a card or token enters as a copy of a permanent, the new permanent isn't kicked, even if the original was.
+  - *2024-11-08* — If a spell's kicker cost was paid, the spell is "kicked."
+  - *2024-11-08* — If you copy a kicked spell on the stack, the copy is also kicked. If the copied spell is a permanent spell, the token the copy of that spell becomes when it enters is also kicked.
+  - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
+  - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
+  - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Source flags:** [Scryfall](https://scryfall.com/card/pls/21/arctic-merfolk) · oracle_id `c56671e1-28a6-40c3-bad5-b5e617ddb7da` · printing: PLS #21 (2001-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Nishoba
 
@@ -1911,7 +2456,9 @@
   > When this creature dies, you gain 2 life for each age counter on it.
 - **Keywords:** Trample, Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30321 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/csp/102/arctic-nishoba) · oracle_id `66ae3349-ad37-47da-8ccc-3e1cdddb32a9` · printing: CSP #102 (2006-07-21) · [rulings](https://api.scryfall.com/cards/8da62ada-b7cd-4110-a213-281f00fca3e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/csp/102/arctic-nishoba) · oracle_id `66ae3349-ad37-47da-8ccc-3e1cdddb32a9` · printing: CSP #102 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Treeline
 
@@ -1924,7 +2471,13 @@
   > *"When the Light of Starnheim shines here, every frost-edged needle glitters with the reflected glory of the Cosmos."*
   > *—Iskene, Kannah storyteller*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4025 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/khm/249/arctic-treeline) · oracle_id `32fb0096-546c-4633-b6e3-ba3f2d9fa49c` · printing: KHM #249 (2021-02-05) · [rulings](https://api.scryfall.com/cards/b20e3117-f1e4-4449-ae9d-0b66abfc717d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2021-02-05* — Snow is a supertype, not a card type. It has no rules meaning or function by itself, but spells and abilities may refer to it.
+  - *2021-02-05* — Snow isn't a type of mana. If an effect says you may spend mana as though it were any type, you can't pay for {S} using mana that wasn't produced by a snow source.
+  - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
+  - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
+  - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Source flags:** [Scryfall](https://scryfall.com/card/khm/249/arctic-treeline) · oracle_id `32fb0096-546c-4633-b6e3-ba3f2d9fa49c` · printing: KHM #249 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arctic Wolves
 
@@ -1939,7 +2492,9 @@
   > *—Mirri of the \*Weatherlight\**
 - **Keywords:** Cumulative upkeep
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/wth/118/arctic-wolves) · oracle_id `c9e7218f-07f2-46f3-bc63-eb5c0d32538b` · printing: WTH #118 (1997-06-09) · [rulings](https://api.scryfall.com/cards/b5fb56a2-5138-4c31-aa4b-0824a1a24573/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — Paying cumulative upkeep is always optional. If it’s not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can’t be made. For example, if a permanent with “cumulative upkeep {1}” has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/wth/118/arctic-wolves) · oracle_id `c9e7218f-07f2-46f3-bc63-eb5c0d32538b` · printing: WTH #118 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arc Trail
 
@@ -1951,6 +2506,7 @@
   > *"Don't try to hit your enemies. Concentrate on the space between them, and fill the air with doom."*
   > *—Spear-Tribe teaching*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19783 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/39/arc-trail) · oracle_id `f1c26b25-371e-4fbf-a43d-7fd59a364d3a` · printing: PCA #39 (2016-11-25) · [rulings](https://api.scryfall.com/cards/56306d90-7f58-4559-954c-f8ca43d04be8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcum Dagsson
@@ -1963,7 +2519,11 @@
 - **Flavor text** (2XM printing):
   > *"Artifice sundered the world. It shall not again wreak such sorrow."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6829 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/41/arcum-dagsson) · oracle_id `0fdfe986-0216-468b-aac8-bbcf588fd894` · printing: 2XM #41 (2020-08-07) · [rulings](https://api.scryfall.com/cards/f5ecf811-2efc-4fa6-9af8-ef09f559ec1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2020-08-07* — Any triggered abilities that trigger when the creature is sacrificed will be put onto the stack at the same time as any triggered abilities that trigger when the noncreature artifact enters the battlefield.
+  - *2020-08-07* — Arcum Dagsson's ability targets an artifact creature, not the player who controls it.
+  - *2020-08-07* — If the target artifact creature is an illegal target by the time Arcum's ability tries to resolve, the ability won't resolve. No player searches their library. If the target is legal but not sacrificed (most likely because of an effect such as that of Sigarda, Host of Herons), its controller does search their library for a noncreature artifact card.
+- **Source flags:** [Scryfall](https://scryfall.com/card/2xm/41/arcum-dagsson) · oracle_id `0fdfe986-0216-468b-aac8-bbcf588fd894` · printing: 2XM #41 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcum's Astrolabe
 
@@ -1976,6 +2536,7 @@
 - **Flavor text** (MH1 printing):
   > *Though the Time of Ice has ended, its relics still slumber in New Argive.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8831 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/220/arcums-astrolabe) · oracle_id `ec463bde-dadf-4044-8e41-71338fd4d62f` · printing: MH1 #220 (2019-06-14) · [rulings](https://api.scryfall.com/cards/c2462fdf-a594-47d0-8e10-b55901e350d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcum's Sleigh
@@ -1988,6 +2549,7 @@
   > *"With the proper equipment and caution, one can travel anywhere."*
   > *—Arcum Dagsson, Soldevi Machinist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28864 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/309/arcums-sleigh) · oracle_id `40960ec8-e3be-45f2-8d27-316d82c69123` · printing: ICE #309 (1995-06-03) · [rulings](https://api.scryfall.com/cards/e9780ce2-756c-48e5-9936-45f6a224f61d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcum's Weathervane
@@ -1998,7 +2560,10 @@
   > {2}, {T}: Target snow land is no longer snow.
   > {2}, {T}: Target nonsnow basic land becomes snow.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28523 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/310/arcums-weathervane) · oracle_id `b4e57fba-5fa3-4fd5-8f0a-7b61593ade72` · printing: ICE #310 (1995-06-03) · [rulings](https://api.scryfall.com/cards/9e142435-6930-4596-bc3b-60abde1229df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2006-10-15* — Adds the snow or removes the snow supertype to or from a land. Adding snow doesn’t overwrite other supertypes.
+  - *2006-10-15* — Can’t be used on a dual land to add the Snow Supertype even though it is a basic land subtype. You can use it on any land to remove the snow supertype.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/310/arcums-weathervane) · oracle_id `b4e57fba-5fa3-4fd5-8f0a-7b61593ade72` · printing: ICE #310 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcum's Whistle
 
@@ -2007,7 +2572,9 @@
 - **Oracle text:**
   > {3}, {T}: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That player may pay {X}, where X is that creature's mana value. If they don't pay, the creature attacks this turn if able, and at the beginning of the next end step, destroy it if it didn't attack this turn. Activate only before attackers are declared.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27853 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ice/311/arcums-whistle) · oracle_id `de691eed-d90b-48f9-bae4-f982767f2bfd` · printing: ICE #311 (1995-06-03) · [rulings](https://api.scryfall.com/cards/73c07c87-0e44-4a5a-92b7-728350cd02de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ice/311/arcums-whistle) · oracle_id `de691eed-d90b-48f9-bae4-f982767f2bfd` · printing: ICE #311 (1995-06-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arcus Acolyte
 
@@ -2022,4 +2589,5 @@
   > *"Archery requires holding an enormous amount of tension and making it look effortless."*
 - **Keywords:** Lifelink, Reach, Outlast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13698 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/185/arcus-acolyte) · oracle_id `628f2deb-519e-4810-a7e5-e31316e9a4e0` · printing: MH2 #185 (2021-06-18) · [rulings](https://api.scryfall.com/cards/d8546eaa-1e64-4e70-b6a5-85892bab8c47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -21,6 +21,7 @@
   > This creature gets -2/-2 as long as black is the most common color among all permanents or is tied for most common.
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32218 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/107/goham-djinn) · oracle_id `e9db02fb-78e2-44b3-9e1b-ef0148234337` · printing: INV #107 (2000-10-02) · [rulings](https://api.scryfall.com/cards/d67796c7-4d93-4c50-8839-bb69e075bc42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gohn, Town of Ruin
@@ -34,4 +35,6 @@
   > *"They say that beyond the dunes is the Town of Ruin, but no one can even enter the desert to find out, let alone cross it."*
   > *—Cid Previa*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5485 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/278/gohn-town-of-ruin) · oracle_id `13fbd525-c9ee-4bd6-b269-94fb264024b6` · printing: FIN #278 (2025-06-13) · [rulings](https://api.scryfall.com/cards/99582781-613e-4a33-aec7-7569b4a961aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/278/gohn-town-of-ruin) · oracle_id `13fbd525-c9ee-4bd6-b269-94fb264024b6` · printing: FIN #278 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

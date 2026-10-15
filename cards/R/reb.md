@@ -37,7 +37,16 @@
   > *—Glacian, powerstone engineer*
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9994 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension) · oracle_id `ccad9b56-3c31-445f-8b78-b5bbdb3d077a` · printing: CMR #42 (2020-11-20) · [rulings](https://api.scryfall.com/cards/46975250-950f-4f5d-a7c5-f61aec8e40ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (8):
+  - *2020-11-10* — An effect that checks whether you control your commander is satisfied if you control one or both of your two commanders.
+  - *2020-11-10* — Both commanders start in the command zone, and the remaining 98 cards (or 58 cards in a Commander Draft game) of your deck are shuffled to become your library.
+  - *2020-11-10* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value. If an artifact you control has {X} in its mana cost, X is considered to be 0.
+  - *2020-11-10* — If something refers to your commander while you have two commanders, it refers to one of them of your choice. If you are instructed to perform an action on your commander (e.g. put it from the command zone into your hand due to Command Beacon), you choose one of your commanders at the time the effect happens.
+  - *2020-11-10* — If your Commander deck has two commanders, you can only include cards whose own color identities are also found in your commanders' combined color identities. If Falthis and Kediss are your commanders, your deck may contain cards with black and/or red in their color identity, but not cards with green, white, or blue.
+  - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
+  - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
+  - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmr/42/rebbec-architect-of-ascension) · oracle_id `ccad9b56-3c31-445f-8b78-b5bbdb3d077a` · printing: CMR #42 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebel Informer
 
@@ -50,6 +59,7 @@
 - **Flavor text** (PCY printing):
   > *The problem with mercenaries is that if you can buy their loyalty, others can too.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30650 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/75/rebel-informer) · oracle_id `85ef10fd-4a48-4a37-baad-f663fb5439e0` · printing: PCY #75 (2000-06-05) · [rulings](https://api.scryfall.com/cards/c98a71a8-291f-4d94-ada0-5f50f354cca7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebellion of the Flamekin
@@ -59,7 +69,12 @@
 - **Oracle text:**
   > Whenever you clash, you may pay {1}. If you do, create a 3/1 red Elemental Shaman creature token. If you won, that token gains haste until end of turn. (This ability triggers after the clash ends.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30923 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/188/rebellion-of-the-flamekin) · oracle_id `0e2a283b-c06a-4b54-a627-5b4959318b1a` · printing: LRW #188 (2007-10-12) · [rulings](https://api.scryfall.com/cards/abd2c8cb-4852-4bde-b2cf-72ceb9b0dd3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2013-09-20* — If you clash because of a spell or ability an opponent controls, the ability will still trigger. Likewise, you can still win the clash even if you weren't the player to initiate it.
+  - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
+  - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
+  - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Source flags:** [Scryfall](https://scryfall.com/card/lrw/188/rebellion-of-the-flamekin) · oracle_id `0e2a283b-c06a-4b54-a627-5b4959318b1a` · printing: LRW #188 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebellious Captives
 
@@ -72,7 +87,17 @@
   > *"The Fire Nation will regret the day they set foot on our land!"*
 - **Keywords:** Exhaust, Earthbend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14087 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tla/191/rebellious-captives) · oracle_id `70401db7-edbc-402f-98ef-be74bd316273` · printing: TLA #191 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e64a4a8b-323c-4c8b-92af-1a3295799e65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (9):
+  - *2025-10-02* — "Earthbend N" means "Target land you control becomes a 0/0 land creature with haste in addition to its other types. Put N +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped under your control."
+  - *2025-10-02* — Earthbend doesn't give the land you control a color. As most lands are colorless, in most cases the resulting land creature will also be colorless.
+  - *2025-10-02* — Exhaust abilities can be activated any time you could normally activate an ability.
+  - *2025-10-02* — If a land was animated by earthbend and would go to any zone other than the graveyard or exile, it will not be returned to the battlefield by the delayed triggered ability created by earthbend.
+  - *2025-10-02* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
+  - *2025-10-02* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+  - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
+  - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
+  - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tla/191/rebellious-captives) · oracle_id `70401db7-edbc-402f-98ef-be74bd316273` · printing: TLA #191 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebellious Strike
 
@@ -85,6 +110,7 @@
   > *"Even if you battle unseen, even if there is no one to witness your sacrifice—strike! Strike true. Strike from the heart. Let that be your legacy."*
   > *—Shiko*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9348 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/20/rebellious-strike) · oracle_id `4f3d7102-f8ce-42d4-94eb-f69b695773d1` · printing: TDM #20 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c9bafe19-3bd6-4da0-b3e5-e0b89262504c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebel Salvo
@@ -98,6 +124,7 @@
   > *"That Great Work of yours is looking pretty fragile, Urabrask!"*
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11827 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/144/rebel-salvo) · oracle_id `a35b7fd3-fdef-4414-b720-978f7ce70bff` · printing: ONE #144 (2023-02-10) · [rulings](https://api.scryfall.com/cards/cd37d1b1-70ce-466e-890d-36be82433035/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebirth
@@ -108,6 +135,7 @@
   > Remove this card from your deck before playing if you're not playing for ante.
   > Each player may ante the top card of their library. If a player does, that player's life total becomes 20.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/4ed/267/rebirth) · oracle_id `d17576b2-4a47-4848-8908-3152c8b4afe2` · printing: 4ED #267 (1995-04-01) · [rulings](https://api.scryfall.com/cards/27c01d57-2bd4-433e-bea7-1acc70d14be3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reborn Hero
@@ -120,7 +148,9 @@
   > Threshold — As long as there are seven or more cards in your graveyard, this creature has "When this creature dies, you may pay {W}{W}. If you do, return this card to the battlefield under your control."
 - **Keywords:** Vigilance, Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31280 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tor/14/reborn-hero) · oracle_id `5562b4bd-1485-47d4-a087-d93dafc37272` · printing: TOR #14 (2002-02-04) · [rulings](https://api.scryfall.com/cards/b4acbc7f-c86e-4285-a66d-d7b03fe44377/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2013-04-15* — You must already have seven or more cards in your graveyard before Reborn Hero is put into the graveyard in order for its Threshold ability to trigger; you don't include Reborn Hero itself in the count.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tor/14/reborn-hero) · oracle_id `5562b4bd-1485-47d4-a087-d93dafc37272` · printing: TOR #14 (2002-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reborn Hope
 
@@ -132,6 +162,7 @@
   > *"In darkness is kindled the fiercest hope."*
   > *—Hadran, sunseeder of Naya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15509 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/76/reborn-hope) · oracle_id `683d8deb-2ab4-4c65-9a23-f4e733f06ba2` · printing: ARB #76 (2009-04-30) · [rulings](https://api.scryfall.com/cards/59038868-6278-4d8c-a107-35aa85b5648f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebound
@@ -143,7 +174,9 @@
 - **Flavor text** (STH printing):
   > *Insult, like an arrow, is beyond control once loosed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27890 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/sth/40/rebound) · oracle_id `9769ed80-b546-49f5-9329-689e619dabdd` · printing: STH #40 (1998-03-02) · [rulings](https://api.scryfall.com/cards/bb6ca66e-1116-4739-8375-87af99e9bba5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-04-01* — You can’t use this on a spell unless the target spell is an Aura or uses the word “target” in its text. If it isn’t an Aura and the word “target” is not there, then the spell does not target a player at all—it just affects a player without targeting them.
+- **Source flags:** [Scryfall](https://scryfall.com/card/sth/40/rebound) · oracle_id `9769ed80-b546-49f5-9329-689e619dabdd` · printing: STH #40 (1998-03-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuff the Wicked
 
@@ -155,7 +188,10 @@
   > *"I cannot teach you their brand of magic, but I can teach you how to defend against it."*
   > *—Tavalus, priest of Korlis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1525 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/35/rebuff-the-wicked) · oracle_id `f5822e53-ddec-4c77-bcf4-091e35c1e731` · printing: TSR #35 (2021-03-19) · [rulings](https://api.scryfall.com/cards/a6ea5111-5a5c-4c40-8686-8123c822843a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2021-03-19* — If the permanent you control targeted by the target spell leaves the battlefield, that spell is no longer a legal target for Rebuff the Wicked. On the other hand, if that targeted permanent becomes an illegal target for the target spell but remains on the battlefield under your control, the target spell is still a legal target for Rebuff the Wicked.
+  - *2021-03-19* — Rebuff the Wicked can target a spell that has multiple targets, as long as at least one of those targets is a permanent you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsr/35/rebuff-the-wicked) · oracle_id `f5822e53-ddec-4c77-bcf4-091e35c1e731` · printing: TSR #35 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuild
 
@@ -168,7 +204,9 @@
   > *The first step in any artificer's scheme is to take inventory.*
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12301 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/66/rebuild) · oracle_id `496999a7-a82a-45ea-9c4e-1b6aabc781cd` · printing: MH1 #66 (2019-06-14) · [rulings](https://api.scryfall.com/cards/fd683b0b-1ac1-4fa7-9657-d3b29db2ae51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2019-06-14* — Artifact cards not on the battlefield won't be returned by Rebuild.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh1/66/rebuild) · oracle_id `496999a7-a82a-45ea-9c4e-1b6aabc781cd` · printing: MH1 #66 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuild the City
 
@@ -179,7 +217,12 @@
 - **Flavor text** (MAT printing):
   > *The Phyrexian design had to go, but the materials could be put to good use.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17558 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mat/43/rebuild-the-city) · oracle_id `2aac0ddc-1005-4049-a337-fe86e092b461` · printing: MAT #43 (2023-05-12) · [rulings](https://api.scryfall.com/cards/e7651eb7-3cbe-43de-8800-085be19e7f77/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2023-05-12* — Any enters-the-battlefield abilities of the copied land will trigger when the token enters the battlefield. Any "as [this land] enters the battlefield" or "[this land] enters the battlefield with" abilities of the copied land will also work.
+  - *2023-05-12* — Each of the tokens copy exactly what was printed on the original land and nothing else (unless that land is copying something else or is a token; see below). It doesn't copy whether that land is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, and so on. However, if the original land has an ability that says it enters the battlefield tapped, the copies will also enter tapped.
+  - *2023-05-12* — If the copied land is a token, the token that's created copies the original characteristics of that token as stated by the effect that created that token.
+  - *2023-05-12* — If the copied land is copying something else, then the token enters the battlefield as whatever that land copied.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mat/43/rebuild-the-city) · oracle_id `2aac0ddc-1005-4049-a337-fe86e092b461` · printing: MAT #43 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuke
 
@@ -191,6 +234,7 @@
   > *"No one chooses to be stitched together into a skaab. If it could speak, it would beg for its own destruction."*
   > *—Thalia, Knight-Cathar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23672 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/103/rebuke) · oracle_id `cf35ec1e-11e2-4028-89df-9755fd6772bf` · printing: BBD #103 (2018-06-08) · [rulings](https://api.scryfall.com/cards/9671c116-98cb-43b4-ace2-1e4f51a4a4c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rebuking Ceremony
@@ -202,4 +246,6 @@
 - **Flavor text** (DST printing):
   > *From the Radix at the hub of the Tangle all the way out to the Edges of Forgetting, a Viridian elf's life is built around the temporary.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31833 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dst/82/rebuking-ceremony) · oracle_id `ddd97b56-a80f-4515-9883-ae5fc1de0c5d` · printing: DST #82 (2004-02-06) · [rulings](https://api.scryfall.com/cards/5940ed12-5224-4aed-9edc-dd4190691ee9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-12-01* — If both cards are owned by the same player, that player decides their order on top of their library.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dst/82/rebuking-ceremony) · oracle_id `ddd97b56-a80f-4515-9883-ae5fc1de0c5d` · printing: DST #82 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

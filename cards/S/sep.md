@@ -29,7 +29,9 @@
   > *"As long as each side thinks it can win, the balance holds, and the mage-rings stand."*
   > *—Alhammarret*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25968 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ori/72/separatist-voidmage) · oracle_id `d9fabfa8-b930-428d-af4e-640fb310a5b2` · printing: ORI #72 (2015-07-17) · [rulings](https://api.scryfall.com/cards/e5634d1a-ca4b-4528-9e0e-b88f1025d434/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2015-06-22* — Separatist Voidmage’s ability can target itself.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ori/72/separatist-voidmage) · oracle_id `d9fabfa8-b930-428d-af4e-640fb310a5b2` · printing: ORI #72 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephara, Sky's Blade
 
@@ -42,7 +44,11 @@
   > Other creatures you control with flying have indestructible. (Damage and effects that say "destroy" don't destroy them.)
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1363 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/54/sephara-skys-blade) · oracle_id `ac8952c9-bd30-48cd-b964-7e6271f9cbc8` · printing: CMM #54 (2023-08-04) · [rulings](https://api.scryfall.com/cards/729ee848-6c27-4202-b2bc-605f45209468/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2019-07-12* — Because damage remains marked on a creature until it's removed as the turn ends, lethal damage dealt to other creatures you control with flying may cause them to be destroyed if Sephara leaves the battlefield during that turn.
+  - *2019-07-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as Sephara's alternative cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+  - *2019-07-12* — To pay Sephara's alternative cost, you may tap any untapped creatures you control with flying, including ones you haven't controlled continuously since the beginning of your most recent turn.
+- **Source flags:** [Scryfall](https://scryfall.com/card/cmm/54/sephara-skys-blade) · oracle_id `ac8952c9-bd30-48cd-b964-7e6271f9cbc8` · printing: CMM #54 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
 
@@ -58,7 +64,18 @@
   > Whenever Sephiroth attacks, you may sacrifice any number of other creatures. If you do, draw that many cards.
 - **Keywords:** Flying, Transform, Super Nova
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1242 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/115/sephiroth-fabled-soldier-sephiroth-one-winged-angel) · oracle_id `70113003-be5e-406a-9aec-cb480468c36d` · printing: FIN #115 (2025-06-13) · [rulings](https://api.scryfall.com/cards/85eaf5e7-77dc-4842-a70c-ce4ac7f724df/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (10):
+  - *2025-06-06* — A nonmodal double-faced card enters with its front face up by default, unless a spell or ability instructs you to put it onto the battlefield transformed or allows you to cast it transformed, in which case it enters with its back face up.
+  - *2025-06-06* — A token that is created as a copy of a double-faced permanent or a double-faced card in another zone is a double-faced token. It will have both the front face and back face of whatever object it's copying. If it's copying a double-faced permanent whose back face is up, the token will enter with its back face up. It can transform if instructed to do so.
+  - *2025-06-06* — Each face of a nonmodal double-faced card has its own set of characteristics: name, types, subtypes, abilities, and so on. While a nonmodal double-faced permanent is on the battlefield, consider only the characteristics of the face that's currently up. The other set of characteristics is ignored.
+  - *2025-06-06* — Each nonmodal double-faced card in this release is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
+  - *2025-06-06* — If Sephiroth, Fabled SOLDIER and one or more other creatures die at the same time, its last ability will trigger for each of those other creatures. (It won't transform, though.)
+  - *2025-06-06* — If this card somehow enters the battlefield with its back face up, it didn't transform, so you won't get an emblem.
+  - *2025-06-06* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of Crystal Fragments, it will be exiled during the resolution of its second ability and remain in exile.
+  - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
+  - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
+  - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/115/sephiroth-fabled-soldier-sephiroth-one-winged-angel) · oracle_id `70113003-be5e-406a-9aec-cb480468c36d` · printing: FIN #115 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Fallen Hero
 
@@ -70,7 +87,12 @@
   > The Reunion — {3}, Sacrifice a modified creature: Return this card from your graveyard to the battlefield tapped.
 - **Keywords:** Jenova Cells, The Reunion
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3835 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/fic/92/sephiroth-fallen-hero) · oracle_id `ca9ab230-51e2-4ef2-a7b9-4e325d9f9657` · printing: FIC #92 (2025-06-13) · [rulings](https://api.scryfall.com/cards/df919eb8-9eff-4777-9c46-94c795cda918/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2025-06-06* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2025-06-06* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2025-06-06* — An Aura controlled by another player does not cause a creature you control to be modified.
+  - *2025-06-06* — Sephiroth's first ability will overwrite any previous effects that set the creature's power and toughness to specific numbers. Effects that otherwise modify its power and toughness will still apply no matter when they took effect. The same is true for +1/+1 counters.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fic/92/sephiroth-fallen-hero) · oracle_id `ca9ab230-51e2-4ef2-a7b9-4e325d9f9657` · printing: FIC #92 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth, Planet's Heir
 
@@ -85,6 +107,7 @@
   > *"This is the end... for all of you."*
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10907 · Game Changer: no · Can be commander: Yes (legendary creature)
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/553/sephiroth-planets-heir) · oracle_id `6af71c5a-2c1b-4120-b3c9-c3c70d94a5c9` · printing: FIN #553 (2025-06-13) · [rulings](https://api.scryfall.com/cards/abd73e52-62f0-4e89-9dc6-90ff0bc2a9b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sephiroth's Intervention
@@ -96,7 +119,9 @@
 - **Flavor text** (FIN printing):
   > *"Fate is not to be taken lightly, Cloud."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6518 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/fin/116/sephiroths-intervention) · oracle_id `94ac2990-58a5-43d4-bdac-ec2f6daf0b51` · printing: FIN #116 (2025-06-13) · [rulings](https://api.scryfall.com/cards/cf7df82f-937a-443f-813f-2bcc6944c5c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-06-06* — If the target creature is an illegal target as Sephiroth's Intervention tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Source flags:** [Scryfall](https://scryfall.com/card/fin/116/sephiroths-intervention) · oracle_id `94ac2990-58a5-43d4-bdac-ec2f6daf0b51` · printing: FIN #116 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Septic Rats
 
@@ -108,7 +133,10 @@
   > Whenever this creature attacks, if defending player is poisoned, it gets +1/+1 until end of turn.
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10384 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/55/septic-rats) · oracle_id `c7335845-ace9-402d-a5be-3bfe3fe9b089` · printing: MBS #55 (2011-02-04) · [rulings](https://api.scryfall.com/cards/8e7915d9-b941-4675-9a1b-18e579977144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2011-06-01* — A player is poisoned if that player has one or more poison counters.
+  - *2011-06-01* — Septic Rats gets a maximum of +1/+1 from its ability, no matter how many poison counters the defending player has.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mbs/55/septic-rats) · oracle_id `c7335845-ace9-402d-a5be-3bfe3fe9b089` · printing: MBS #55 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sepulcher Ghoul
 
@@ -120,6 +148,7 @@
 - **Flavor text** (AFR printing):
   > *Ghouls devour the dead and any living creatures unwary enough to fall into their grasp.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23935 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/118/sepulcher-ghoul) · oracle_id `04936cc9-c915-4182-b84a-3491d26be548` · printing: AFR #118 (2021-07-23) · [rulings](https://api.scryfall.com/cards/5b302bc8-683f-4a26-ab86-87eaa19dce4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sepulchral Primordial
@@ -132,4 +161,7 @@
   > When this creature enters, for each opponent, you may put up to one target creature card from that player's graveyard onto the battlefield under your control.
 - **Keywords:** Intimidate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2187 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/znc/54/sepulchral-primordial) · oracle_id `480454a0-fb10-432b-a963-8b0c0ffc6680` · printing: ZNC #54 (2020-09-25) · [rulings](https://api.scryfall.com/cards/2ed2b1d9-3c23-4f2e-b816-6f2bea74b797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2013-01-24* — The creature cards enter simultaneously.
+  - *2013-01-24* — You can choose a number of targets up to the number of opponents you have, one target per opponent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/znc/54/sepulchral-primordial) · oracle_id `480454a0-fb10-432b-a963-8b0c0ffc6680` · printing: ZNC #54 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

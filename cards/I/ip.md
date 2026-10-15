@@ -20,4 +20,7 @@
   > {1}{U}, {T}, Sacrifice a Desert: Target player mills four cards. (They put the top four cards of their library into their graveyard.)
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9448 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/hou/180/ipnu-rivulet) · oracle_id `c17d799f-adc9-4c41-87cf-b243b5ea3be1` · printing: HOU #180 (2017-07-14) · [rulings](https://api.scryfall.com/cards/203011ef-3737-4fd1-bd23-0e531b5a7c32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (2):
+  - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+  - *2017-07-14* — If a Desert has an ability with a cost of "Sacrifice a Desert," you can sacrifice that Desert to pay the cost for its own ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/hou/180/ipnu-rivulet) · oracle_id `c17d799f-adc9-4c41-87cf-b243b5ea3be1` · printing: HOU #180 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

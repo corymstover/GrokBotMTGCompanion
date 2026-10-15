@@ -33,6 +33,7 @@
   > *—Bayek of Siwa*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18068 · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/277/detained-by-legionnaires) · oracle_id `d59488b5-1118-4276-b862-11e860c7c32a` · printing: ACR #277 (2024-07-05) · [rulings](https://api.scryfall.com/cards/fe06e87f-8915-4fc2-81fd-168a371dc407/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detainment Spell
@@ -47,7 +48,11 @@
   > *Bind the mind rather than the wrist, and you stop the intent to harm before it starts.*
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18425 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/12/detainment-spell) · oracle_id `b46526af-6b88-42c4-b317-4b499f151ff0` · printing: TSP #12 (2006-10-06) · [rulings](https://api.scryfall.com/cards/c467446b-0168-4c7d-9ab6-57ad8b664877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2006-09-25* — Detainment Spell prevents mana abilities of the enchanted creature from being activated.
+  - *2006-09-25* — Morph isn't an activated ability, so Detainment Spell doesn't prevent face-down creatures from being able to turn face up.
+  - *2006-09-25* — Responding to a creature's activated ability being activated by moving Detainment Spell onto that creature won't affect the ability that was just activated.
+- **Source flags:** [Scryfall](https://scryfall.com/card/tsp/12/detainment-spell) · oracle_id `b46526af-6b88-42c4-b317-4b499f151ff0` · printing: TSP #12 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detection Tower
 
@@ -59,7 +64,11 @@
 - **Flavor text** (M19 printing):
   > *Its light exposes enemies and lays secrets bare.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3621 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/m19/249/detection-tower) · oracle_id `93695c16-c441-492d-af12-b57df9739846` · printing: M19 #249 (2018-07-13) · [rulings](https://api.scryfall.com/cards/02f99756-d334-4dba-a375-ba3d91ecae62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2018-07-13* — Because Detection Tower’s last ability doesn’t change the characteristics of any permanents, the set of creatures affected by it is constantly updated. Creatures that come under your opponents’ control later in the turn can be targeted as though they didn’t have hexproof.
+  - *2018-07-13* — Creatures your opponents control with “hexproof from [quality]” abilities can be targeted as though they didn’t have those abilities as well.
+  - *2018-07-13* — Your opponents and creatures your opponents control don’t actually lose hexproof, although you will ignore hexproof for purposes of choosing targets of spells and abilities you control.
+- **Source flags:** [Scryfall](https://scryfall.com/card/m19/249/detection-tower) · oracle_id `93695c16-c441-492d-af12-b57df9739846` · printing: M19 #249 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective of the Month
 
@@ -72,7 +81,15 @@
   > Whenever you draw your second card each turn, create a 2/2 white and blue Detective creature token.
 - **Keywords:** Ascend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6483 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/21/detective-of-the-month) · oracle_id `10d1d6ca-95f8-48da-8798-37c8aadb1f1f` · printing: MKC #21 (2024-02-09) · [rulings](https://api.scryfall.com/cards/e63e381d-142c-4622-ad78-8cacd5778355/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-02-02* — A permanent is any object on the battlefield, including tokens and lands. Spells and emblems aren’t permanents.
+  - *2024-02-02* — Ascend on a permanent isn’t a triggered ability and doesn’t use the stack. Players can respond to a spell that will give you your tenth permanent, but they can’t respond to you getting the city’s blessing once you control that tenth permanent. This means that if your tenth permanent is a land you play, players can’t respond before you get the city’s blessing.
+  - *2024-02-02* — Gaining the city’s blessing after a Detective you control has become blocked won’t cause that Detective to become unblocked.
+  - *2024-02-02* — If you cast a spell with ascend, you don't get the city’s blessing until it resolves. Players may respond to that spell by trying to change whether you get the city’s blessing.
+  - *2024-02-02* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of two, then cast Detective of the Month, you won’t have the city’s blessing.
+  - *2024-02-02* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “legend rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
+  - *2024-02-02* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkc/21/detective-of-the-month) · oracle_id `10d1d6ca-95f8-48da-8798-37c8aadb1f1f` · printing: MKC #21 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Phoenix
 
@@ -86,7 +103,15 @@
   > You may cast this card from your graveyard using its bestow ability.
 - **Keywords:** Flying, Collect evidence, Haste, Bestow
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8581 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/116/detectives-phoenix) · oracle_id `52c3fe55-74ee-44cb-b62b-dc6c5dfdc33e` · printing: MH3 #116 (2024-06-14) · [rulings](https://api.scryfall.com/cards/e2a01edd-dbc0-4ed4-b827-9b608290e9a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2024-06-07* — Auras attached to a creature don't become tapped when the creature becomes tapped. Except in some rare cases, an Aura with bestow remains untapped when it becomes unattached and becomes a creature.
+  - *2024-06-07* — If a permanent with bestow enters the battlefield by any method other than being cast, it will be an enchantment creature. You can't choose to pay the bestow cost and have it become an Aura.
+  - *2024-06-07* — If you can't exile enough cards to meet or exceed the required mana value, you can't choose to collect evidence at all.
+  - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
+  - *2024-06-07* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
+  - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
+  - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mh3/116/detectives-phoenix) · oracle_id `52c3fe55-74ee-44cb-b62b-dc6c5dfdc33e` · printing: MH3 #116 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Satchel
 
@@ -99,7 +124,13 @@
   > *It's a crime lab in a bag.*
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14373 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/196/detectives-satchel) · oracle_id `e4ecfccd-b8b4-4b18-b989-30de79b4971e` · printing: MKM #196 (2024-02-09) · [rulings](https://api.scryfall.com/cards/2c05bf2d-7d4f-4717-b1ea-ec4284854f4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (5):
+  - *2024-02-02* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
+  - *2024-02-02* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
+  - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
+  - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
+  - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Source flags:** [Scryfall](https://scryfall.com/card/mkm/196/detectives-satchel) · oracle_id `e4ecfccd-b8b4-4b18-b989-30de79b4971e` · printing: MKM #196 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Chariot
 
@@ -112,7 +143,9 @@
   > Cycling {W} ({W}, Discard this card: Draw a card.)
 - **Keywords:** Crew, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15434 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/dft/12/detention-chariot) · oracle_id `0ea2c5ad-2982-4041-8c9d-a1d31ced11aa` · printing: DFT #12 (2025-02-14) · [rulings](https://api.scryfall.com/cards/75d5e64f-7af2-4cb4-abd1-23992e346bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2025-02-07* — If this Vehicle leaves the battlefield before its triggered ability resolves, the target will never be exiled.
+- **Source flags:** [Scryfall](https://scryfall.com/card/dft/12/detention-chariot) · oracle_id `0ea2c5ad-2982-4041-8c9d-a1d31ced11aa` · printing: DFT #12 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Sphere
 
@@ -122,7 +155,12 @@
   > When this enchantment enters, you may exile target nonland permanent not named Detention Sphere and all other permanents with the same name as that permanent.
   > When this enchantment leaves the battlefield, return the exiled cards to the battlefield under their owner's control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8493 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/155/detention-sphere) · oracle_id `0a0b376d-7824-4ba5-8bc9-bc0be12800c5` · printing: RTR #155 (2012-10-05) · [rulings](https://api.scryfall.com/cards/afee5464-83b7-4d7a-b407-9ee7de21535b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (4):
+  - *2012-10-01* — Although the target of the "enters" ability must not be a land, lands with the same name as that permanent will be exiled.
+  - *2012-10-01* — If Detention Sphere leaves the battlefield before its "enters" ability has resolved, its leaves-the-battlefield ability will trigger and do nothing. Then the "enters" ability will resolve and exile the targeted nonland permanent and other permanents with that name indefinitely.
+  - *2012-10-01* — If the target nonland permanent is an illegal target when the "enters" ability tries to resolve, it won't resolve and none of its effects will happen. No permanents will be exiled, including those with the same name as the target.
+  - *2012-10-01* — The "enters" ability has only one target. The other permanents with that name aren't targeted. For example, a permanent with protection from white will be exiled if it has the same name as the target nonland permanent.
+- **Source flags:** [Scryfall](https://scryfall.com/card/rtr/155/detention-sphere) · oracle_id `0a0b376d-7824-4ba5-8bc9-bc0be12800c5` · printing: RTR #155 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detention Vortex
 
@@ -134,7 +172,9 @@
   > {3}: Destroy this Aura. Only your opponents may activate this ability and only as a sorcery.
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21536 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/stx/13/detention-vortex) · oracle_id `5383a1c1-662f-46fe-a0e5-0f38efe1a37a` · printing: STX #13 (2021-04-23) · [rulings](https://api.scryfall.com/cards/54ebe581-be17-415a-a160-28d8f4e95636/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2021-04-16* — In a multiplayer game, any opponent may activate Detention Vortex's last ability, not just an opponent who controls the permanent that it is enchanting.
+- **Source flags:** [Scryfall](https://scryfall.com/card/stx/13/detention-vortex) · oracle_id `5383a1c1-662f-46fe-a0e5-0f38efe1a37a` · printing: STX #13 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Determined Iteration
 
@@ -146,7 +186,14 @@
   > *"Have I finally done it? Have I finally freed myself from failure?"*
 - **Keywords:** Populate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3885 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/soc/122/determined-iteration) · oracle_id `e4ed7935-0263-4cde-8118-ac18fffce3ef` · printing: SOC #122 (2026-04-24) · [rulings](https://api.scryfall.com/cards/d95490fe-44f2-4f83-b587-b0df402d38ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (6):
+  - *2024-01-12* — Any enters-the-battlefield abilities of the copied token will trigger when the new token enters the battlefield. Any "as [this creature] enters the battlefield" or "[this creature] enters the battlefield with" abilities of the copied token will also work.
+  - *2024-01-12* — If you choose to copy a creature token that's a copy of another creature, the new creature token will copy the characteristics of whatever the original token is copying.
+  - *2024-01-12* — If you control no creature tokens when you populate, nothing will happen.
+  - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
+  - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
+  - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Source flags:** [Scryfall](https://scryfall.com/card/soc/122/determined-iteration) · oracle_id `e4ed7935-0263-4cde-8118-ac18fffce3ef` · printing: SOC #122 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detonate
 
@@ -155,7 +202,9 @@
 - **Oracle text:**
   > Destroy target artifact with mana value X. It can't be regenerated. Detonate deals X damage to that artifact's controller.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23481 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me4/111/detonate) · oracle_id `daa90a75-c600-41bd-9311-ec21cf51480b` · printing: ME4 #111 (2011-01-10) · [rulings](https://api.scryfall.com/cards/45d14cd5-8398-481a-a190-d6c0f6263e33/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2004-10-04* — If the artifact becomes an illegal target before resolution, then no damage is done.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me4/111/detonate) · oracle_id `daa90a75-c600-41bd-9311-ec21cf51480b` · printing: ME4 #111 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detritivore
 
@@ -168,4 +217,21 @@
   > Whenever a time counter is removed from this card while it's exiled, destroy target nonbasic land.
 - **Keywords:** Suspend
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15459 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/plc/96/detritivore) · oracle_id `ba5fa5ca-f72d-49dd-9f86-e6e1292f5bf0` · printing: PLC #96 (2007-02-02) · [rulings](https://api.scryfall.com/cards/2ec01f4b-b3df-4e2b-ae93-2f2d0cc279bd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (16):
+  - *2007-02-01* — The triggered ability is mandatory. If no other player has any nonbasic lands on the battlefield, you must target one of your own.
+  - *2024-02-02* — A creature cast using suspend will enter the battlefield with haste. It will have haste until another player gains control of it. (In some rare cases, another player may gain control of the creature spell itself. If this happens, the creature won't enter the battlefield with haste.)
+  - *2024-02-02* — Cards exiled with suspend are exiled face up.
+  - *2024-02-02* — Due to a recent rules change to suspend, you are no longer required to cast the suspended card as the second triggered ability of suspend resolves. Instead, as the second triggered ability resolves, you may cast the card. Timing permissions based on the card's type are ignored. If you don't cast the card, it remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — Exiling a card with suspend isn't casting that card. This action doesn't use the stack and can't be responded to.
+  - *2024-02-02* — If an effect refers to a "suspended card," that means a card that (1) has suspend, (2) is in exile, and (3) has one or more time counters on it.
+  - *2024-02-02* — If the card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
+  - *2024-02-02* — If the first triggered ability of suspend (the one that removes time counters) is countered, no time counter is removed. The ability will trigger again at the beginning of the card's owner's next upkeep.
+  - *2024-02-02* — If the second triggered ability is countered, the card can't be cast. It remains exiled with no time counters on it, and it's no longer suspended.
+  - *2024-02-02* — If the spell requires any targets, those targets are chosen when the spell is finally cast, not when it's exiled.
+  - *2024-02-02* — If this is suspended, then when the last time counter is removed from it, both its triggered ability and the "you may cast this spell" part of the suspend ability will trigger. They can be put on the stack in either order.
+  - *2024-02-02* — If you cast a card "without paying its mana cost," such as with suspend, you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those if you want to cast the card.
+  - *2024-02-02* — Suspend is a keyword that represents three abilities. The first is a static ability that allows you to exile the card from your hand with the specified number of time counters (the number before the dash) on it by paying its suspend cost (listed after the dash). The second is a triggered ability that removes a time counter from the suspended card at the beginning of each of your upkeeps. The third is a triggered ability that gives you the option to cast the card when the last time counter is removed.
+  - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
+  - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
+  - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Source flags:** [Scryfall](https://scryfall.com/card/plc/96/detritivore) · oracle_id `ba5fa5ca-f72d-49dd-9f86-e6e1292f5bf0` · printing: PLC #96 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

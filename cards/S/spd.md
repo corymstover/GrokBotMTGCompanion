@@ -21,4 +21,8 @@
   > Whenever a modified creature you control deals combat damage to a player, draw a card. (Equipment, Auras you control, and counters are modifications.)
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6098 · Game Changer: no · Can be commander: Yes (legendary creature)
-- **Source flags:** [Scryfall](https://scryfall.com/card/spm/147/spdr-piloted-by-peni) · oracle_id `722ab6e4-a2e0-4aaa-a050-7b6436e22b40` · printing: SPM #147 (2025-09-26) · [rulings](https://api.scryfall.com/cards/c47c1d83-e76d-4939-9ed6-05a9e709dea1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (3):
+  - *2025-09-19* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
+  - *2025-09-19* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
+  - *2025-09-19* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Source flags:** [Scryfall](https://scryfall.com/card/spm/147/spdr-piloted-by-peni) · oracle_id `722ab6e4-a2e0-4aaa-a050-7b6436e22b40` · printing: SPM #147 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

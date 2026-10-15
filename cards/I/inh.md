@@ -22,7 +22,9 @@
   > *"More than lessons may be gained from the past."*
   > *—Halvor Arensson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25341 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/me2/18/inheritance) · oracle_id `742cb752-dd20-4b1f-8d96-7e9a8f864e75` · printing: ME2 #18 (2008-09-22) · [rulings](https://api.scryfall.com/cards/f660a337-09f7-4ae9-b61b-f5ecbda4a4ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (1):
+  - *2008-10-01* — If Inheritance and a creature are each put into a graveyard from the battlefield at the same time, Inheritance’s ability will trigger.
+- **Source flags:** [Scryfall](https://scryfall.com/card/me2/18/inheritance) · oracle_id `742cb752-dd20-4b1f-8d96-7e9a8f864e75` · printing: ME2 #18 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inherited Envelope
 
@@ -35,7 +37,15 @@
   > *"Keep it secret, and keep it safe!"*
   > *—Gandalf*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3892 · Game Changer: no · Can be commander: No
-- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/242/inherited-envelope) · oracle_id `2f1ae834-f6b8-458c-ac0d-3510ddb85193` · printing: LTR #242 (2023-06-23) · [rulings](https://api.scryfall.com/cards/b590d028-ea6a-4550-b5e2-ba328a81bbc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
+- **Rulings** (7):
+  - *2023-06-16* — As the Ring tempts you, you get an emblem named The Ring if you don't have one. Then your emblem gains its next ability and you choose a creature you control to become (or remain) your Ring-bearer.
+  - *2023-06-16* — Each player can have only one emblem named The Ring and only one Ring-bearer at a time.
+  - *2023-06-16* — Each time the Ring tempts you, you must choose a creature if you control one.
+  - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
+  - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
+  - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
+  - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Source flags:** [Scryfall](https://scryfall.com/card/ltr/242/inherited-envelope) · oracle_id `2f1ae834-f6b8-458c-ac0d-3510ddb85193` · printing: LTR #242 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inhumaniac
 
@@ -47,4 +57,5 @@
 - **Flavor text** (UND printing):
   > *For the mind-minded mastermind.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
+- **Rulings:** none published on Scryfall
 - **Source flags:** [Scryfall](https://scryfall.com/card/und/41/inhumaniac) · oracle_id `dc65cf70-c3aa-4e3c-82c6-260cbdf5f522` · printing: UND #41 (2020-02-29) · [rulings](https://api.scryfall.com/cards/e1150ef5-b529-4ad2-ba27-dd0fcffd8888/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
