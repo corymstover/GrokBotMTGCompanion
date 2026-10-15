@@ -76,7 +76,7 @@ The input is one card per line (`1x Name`, optional `(set) number`, optional `[T
 ## Gate L — lore-themed (story-first)
 **(Repo addition, Bot cycle 21, [#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81).)** Apply after Gates A–E when the deck is a lore list ([EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md)).
 - [ ] **Story summary** is present, cites official sources, and matches the linked Conflicts & Arcs / dossier entry. No invented plot.
-- [ ] **Lore score ≥ 60%** of non-basic cards are story-connected (name, flavor, story-set printing, cited note, or labeled mechanical echo).
+- [ ] **Lore score ≥ 85% of all non-basic cards (commander + every non-land + every non-basic land; basics excluded)** are story-linked by a counting test: name, flavor text (any paper printing — check lands too), story-set printing, or a note citing an official Wizards story page. Mechanical and type echoes are guidance and **do not count** (Bot cycle 23; enforced by `scripts/build_lore_decks.py --check` in `validate_all`).
 - [ ] Every non-basic card has a **Why it belongs** row; playability slots are explicitly labeled **guidance**.
 - [ ] **Cross-links** to the arc, character and plane pages exist on the deck page and (ideally) back-links from those lore pages.
 - [ ] Secondary / unfetched novels and non-canonical sets are flagged ⚠️ / 🚫.

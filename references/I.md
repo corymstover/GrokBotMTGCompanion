@@ -1039,9 +1039,9 @@ schema: 2
 
 ### Inventors' Fair
 
-[Card entry](../cards/I/inv.md#inventors-fair) · **12 pages** (decks 9 · edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/I/inv.md#inventors-fair) · **10 pages** (decks 7 · edh guides 1 · lore & story 1 · card data 1)
 
-- **Decks (9):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Missy (Grixis)](../grixis/decks/missy.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Decks (7):** [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Cult of Skaro (Grixis)](../grixis/decks/cult-of-skaro.md) · [Dr. Eggman (Grixis)](../grixis/decks/dr-eggman.md) · [Mishra, Artificer Prodigy (Grixis)](../grixis/decks/mishra-artificer-prodigy.md) · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) · [Missy (Grixis)](../grixis/decks/missy.md)
 - **EDH guides (1):** [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 - **Lore & story (1):** [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f) (+2 more)

@@ -893,7 +893,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If a creature enters the battlefield under your control and gains haste, but then loses it before attacking, it won't be able to attack that turn. This means that you can't use one Swiftfoot Boots to allow two new creatures to attack in the same turn.
-- **Referenced in:** 32 pages (25 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
+- **Referenced in:** 31 pages (24 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#swiftfoot-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/77/swiftfoot-boots) · oracle_id `c8b143ad-43ec-4e0d-a440-e348daa31391` · printing: MBC #77 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Swiftgear Drake

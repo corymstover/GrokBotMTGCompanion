@@ -412,9 +412,9 @@ schema: 2
 
 ### Basilisk Collar
 
-[Card entry](../cards/B/bas.md#basilisk-collar) · **3 pages** (decks 2 · card data 1)
+[Card entry](../cards/B/bas.md#basilisk-collar) · **4 pages** (decks 3 · card data 1)
 
-- **Decks (2):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
+- **Decks (3):** [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+2 more)
 
 ### Basim Ibn Ishaq
@@ -1162,9 +1162,9 @@ schema: 2
 
 ### Blackblade Reforged
 
-[Card entry](../cards/B/bla.md#blackblade-reforged) · **4 pages** (decks 3 · lore & story 1)
+[Card entry](../cards/B/bla.md#blackblade-reforged) · **3 pages** (decks 2 · lore & story 1)
 
-- **Decks (3):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
+- **Decks (2):** [Braids, Arisen Nightmare (Dominaria-only)](../decks/plane-dominaria-braids-arisen-nightmare.md) · [Garza Zol, Plague Queen (Grixis)](../grixis/decks/garza-zol-plague-queen.md)
 - **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
 
 ### Black Cat, Cunning Thief
@@ -2909,9 +2909,9 @@ schema: 2
 
 ### Buried Ruin
 
-[Card entry](../cards/B/bu.md#buried-ruin) · **6 pages** (decks 4 · edh guides 1 · card data 1)
+[Card entry](../cards/B/bu.md#buried-ruin) · **5 pages** (decks 3 · edh guides 1 · card data 1)
 
-- **Decks (4):** [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Decks (3):** [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
 - **EDH guides (1):** [EDH Mana Bases → Graveyard interaction](../EDH%20Mana%20Bases.md#graveyard-interaction)
 - **Card data (1):** [Artist Index → Artists F](../Artist%20Index.md#artists-f)
 

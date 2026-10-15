@@ -476,7 +476,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #656 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#trailblazers-boots)
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#trailblazers-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/269/trailblazers-boots) · oracle_id `634d5009-cbf3-44cb-8c15-7057f501a210` · printing: OTC #269 (2024-04-19) · [rulings](https://api.scryfall.com/cards/aa05985b-e2cb-412f-a2ad-b8d723d9f451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trailblazer's Torch
@@ -1458,7 +1458,7 @@ schema: 2
   - *2004-10-04* — The one from the library enters when the spell is resolved, and this does not count as the casting of an artifact.
   - *2004-10-04* — You can't sacrifice more than one artifact to this spell.
   - *2011-01-01* — The sacrifice of an artifact is an effect of the spell, not a cost, which means it happens as the spell resolves. If Transmute Artifact is countered, you do not have to sacrifice an artifact.
-- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#transmute-artifact)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#transmute-artifact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/69/transmute-artifact) · oracle_id `dbe792f9-22be-4972-b418-99a6190c4421` · printing: ME4 #69 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transplant Theorist

@@ -10,12 +10,14 @@ combos: 1
 two_card_infinites: 0
 validated: true
 tags: [lore, mono-blue, bracket-floor-2, no-game-changers, combos]
+lore_score: 93.8
+lore_standard_met: true
 schema: 2
 ---
 
 # Lore Deck — The Brothers' War (Urza, Lord High Artificer)
 
-> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80](https://github.com/corymstover/GrokBotMTGCompanion/issues/80)) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.
+> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80](https://github.com/corymstover/GrokBotMTGCompanion/issues/80); 85% standard Bot cycle 23) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.
 
 ## Contents
 - [Story the deck tells](#story-the-deck-tells)
@@ -72,13 +74,13 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 | Mass land denial | none | — |
 | Extra-turn cards | none | — |
 | Two-card infinite combos (Spellbook) | 0 | — |
-| Tutors (non-land) | 2: Fabricate, Whir of Invention | informational: the Oct 2025 update removed tutor limits (efficient tutors are Game Changers) |
+| Tutors (non-land) | 2: Transmute Artifact, Whir of Invention | informational: the Oct 2025 update removed tutor limits (efficient tutors are Game Changers) |
 
 **Calibrated floor: Bracket 2** — set by no Game Changers, mass land denial or two-card infinites (Bracket 2 floor; Bracket 1 is a matter of intent).
 
 ### Calibration context
 
-- Spellbook also lists 22 combos one card away (not counted): adding a single card can raise the floor.
+- Spellbook also lists 21 combos one card away (not counted): adding a single card can raise the floor.
 
 ### Playing at a lower bracket (guidance)
 
@@ -87,16 +89,16 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 
 ### Pilot notes (guidance)
 
-- **Mana (fact):** 37 lands, 14 ramp pieces, average nonland mana value 2.95. A 7-card opening hand has 3–5 lands 51% of the time and at least 2 lands 81%; it has no ramp piece 33% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../EDH%20Mulligans.md#keep-or-mulligan-guidance).
-- **Interaction budget (fact):** 3 spot removal · 0 board wipes · 4 counterspells · 0 protection · 12 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
-- **Combo lines (fact, Spellbook):** [Drafna, Founder of Lat-Nam + Urza, Lord High Artificer + Sai, Master Thopterist](https://commanderspellbook.com/combo/457-4331-4947--44/) → Infinite artifact ETB. **Guidance:** the 2 tutors (Fabricate, Whir of Invention) can fetch a missing piece; announce the combo in the pregame talk.
+- **Mana (fact):** 37 lands, 14 ramp pieces, average nonland mana value 2.98. A 7-card opening hand has 3–5 lands 51% of the time and at least 2 lands 81%; it has no ramp piece 33% of the time. **Guidance:** keep 3–4 landers, or 2 lands plus ramp; see [EDH Mulligans](../EDH%20Mulligans.md#keep-or-mulligan-guidance).
+- **Interaction budget (fact):** 4 spot removal · 0 board wipes · 4 counterspells · 0 protection · 12 card draw. **Guidance:** hold protection or a counterspell on the turn you commit the commander or a combo.
+- **Combo lines (fact, Spellbook):** [Drafna, Founder of Lat-Nam + Urza, Lord High Artificer + Sai, Master Thopterist](https://commanderspellbook.com/combo/457-4331-4947--44/) → Infinite artifact ETB. **Guidance:** the 2 tutors (Transmute Artifact, Whir of Invention) can fetch a missing piece; announce the combo in the pregame talk.
 - **Pregame talk (guidance):** say the floor (Bracket 2), the Game Changers (0), and any two-card infinite or extra-turn cards before the game, as the Brackets intend.
 <!-- CALIBRATION:END -->
 
 ## Lore score
 
-- **Story-connected slots: 58 / 79 non-basic cards (73%)**; playability slots (guidance): 21. Guide threshold: ≥ 60%.
-- Evidence types are machine-found (name, flavor text, story-set printing, type echo) plus cited notes. Story sets: `atq`, `bro`, `brr`, `brc`.
+- **Story-linked: 75 / 80 non-basic cards (93.8%)** — ✅ meets the ≥ 85% standard. Counted over the commander, every non-land card and every non-basic land (17 non-basic lands, 17 of them story-linked); basics excluded. Not linked (guidance slots): 5.
+- Counting tests (facts): card **name**, **flavor text** of any paper printing, **printing in the story's sets**, or a note citing an **official story page**. Type and mechanical echoes are shown as guidance and **do not count**. Story sets: `atq`, `bro`, `brr`, `brc`.
 
 ## Packages
 
@@ -110,7 +112,9 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 | Thran legacy | 4 |
 | Machine army (mechanical echo) | 8 |
 | Lat-Nam & the Third Path | 6 |
-| Playability (guidance) | 21 |
+| Playability (guidance) | 17 |
+| Artificers of Terisiare | 2 |
+| Story lands (Antiquities / Brothers' War printings) | 2 |
 
 ## Decklist (Archidekt import)
 
@@ -176,17 +180,17 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 1x Thought Vessel [Playability]
 1x Lightning Greaves [Playability]
 1x Skullclamp [Playability]
-1x Expedition Map [Playability]
-1x Fabricate [Playability]
+1x Tawnos's Coffin [Artificers of Terisiare]
+1x Transmute Artifact [Artificers of Terisiare]
 1x Whir of Invention [Playability]
 1x Thoughtcast [Playability]
 1x Pongify [Playability]
 1x An Offer You Can't Refuse [Playability]
 1x Counterspell [Playability]
 1x Negate [Playability]
-1x Academy Ruins [Playability]
+1x Strip Mine [Story lands]
 1x Buried Ruin [Playability]
-1x Inventors' Fair [Playability]
+1x Mishra's Factory [Story lands]
 1x Seat of the Synod [Playability]
 1x Darksteel Citadel [Playability]
 1x Reliquary Tower [Playability]
@@ -204,6 +208,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 
 | Card | Package | Why it belongs | Identity |
 |---|---|---|---|
+| [Urza, Lord High Artificer](../cards/U/ur.md#urza-lord-high-artificer) | Commander | named for the story | U |
 | [Liberator, Urza's Battlethopter](../cards/L/li.md#liberator-urzas-battlethopter) | Urza's inventions | named for the story; printed in `bro` | C |
 | [Karn, Scion of Urza](../cards/K/ka.md#karn-scion-of-urza) | Karn & Urza's later legacy | Karn is the silver golem Urza created ([Karn profile](https://magic.wizards.com/en/story/karn-planeswalker)).; named for the story | C |
 | [Karn, Living Legacy](../cards/K/ka.md#karn-living-legacy) | Karn & Urza's later legacy | Karn — Urza's creation and a Legacy artifact ([Dominaria profile](https://magic.wizards.com/en/story/dominaria-plane)).; named for the story | C |
@@ -214,15 +219,15 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 | [Worn Powerstone](../cards/W/wo.md#worn-powerstone) | Koilos stones, powerstones & the sylex | named for the story; flavor: “Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.” | C |
 | [Fractured Powerstone](../cards/F/fr.md#fractured-powerstone) | Koilos stones, powerstones & the sylex | named for the story; flavor: “The Thran learned to capture mana, but power inevitably escapes its bonds.” | C |
 | [Energy Refractor](../cards/E/en.md#energy-refractor) | Koilos stones, powerstones & the sylex | flavor: “"Raw energy contains infinite possibility." —Urza”; printed in `bro` | C |
-| [Urza's Mine](../cards/U/ur.md#urzas-mine) | Urza's lands & workshops | named for the story; flavor: “In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.”; printed in `atq` | C |
-| [Urza's Power Plant](../cards/U/ur.md#urzas-power-plant) | Urza's lands & workshops | named for the story; flavor: “Urza threw himself into his research, pushing the boundaries of both possibility and morality.”; printed in `atq` | C |
-| [Urza's Tower](../cards/U/ur.md#urzas-tower) | Urza's lands & workshops | named for the story; flavor: “Urza always put Tocasia's lessons on resource-gathering to effective use.”; printed in `atq` | C |
-| [Urza's Workshop](../cards/U/ur.md#urzas-workshop) | Urza's lands & workshops | named for the story; flavor: “Urza eventually came to understand Tocasia's lessons on clarity of purpose. Perfection became his goal, and all other matters fell away in its pursuit.”; printed in `brc` | C |
-| [Urza's Cave](../cards/U/ur.md#urzas-cave) | Urza's lands & workshops | named for the story; flavor: “No matter how deep Urza delved, he couldn't escape his regrets.” | C |
-| [Urza's Factory](../cards/U/ur.md#urzas-factory) | Urza's lands & workshops | named for the story; flavor: “"Though their ideals are leagues apart, Urza's and Mishra's creations have a surprising harmony with one another." —Tocasia, journal entry” | C |
-| [Urza's Saga](../cards/U/ur.md#urzas-saga) | Urza's lands & workshops | named for the story | C |
+| [Urza's Mine](../cards/U/ur.md#urzas-mine) | Urza's lands & workshops (land) | named for the story; flavor: “In his hunger for power and knowledge, Urza dug deep into Dominaria's ancient past.”; printed in `atq` | C |
+| [Urza's Power Plant](../cards/U/ur.md#urzas-power-plant) | Urza's lands & workshops (land) | named for the story; flavor: “Urza threw himself into his research, pushing the boundaries of both possibility and morality.”; printed in `atq` | C |
+| [Urza's Tower](../cards/U/ur.md#urzas-tower) | Urza's lands & workshops (land) | named for the story; flavor: “Urza always put Tocasia's lessons on resource-gathering to effective use.”; printed in `atq` | C |
+| [Urza's Workshop](../cards/U/ur.md#urzas-workshop) | Urza's lands & workshops (land) | named for the story; flavor: “Urza eventually came to understand Tocasia's lessons on clarity of purpose. Perfection became his goal, and all other matters fell away in its pursuit.”; printed in `brc` | C |
+| [Urza's Cave](../cards/U/ur.md#urzas-cave) | Urza's lands & workshops (land) | named for the story; flavor: “No matter how deep Urza delved, he couldn't escape his regrets.” | C |
+| [Urza's Factory](../cards/U/ur.md#urzas-factory) | Urza's lands & workshops (land) | named for the story; flavor: “"Though their ideals are leagues apart, Urza's and Mishra's creations have a surprising harmony with one another." —Tocasia, journal entry” | C |
+| [Urza's Saga](../cards/U/ur.md#urzas-saga) | Urza's lands & workshops (land) | named for the story | C |
 | [Urza's Bauble](../cards/U/ur.md#urzas-bauble) | Urza's inventions | named for the story | C |
-| [Urza's Incubator](../cards/U/ur.md#urzas-incubator) | Urza's inventions | named for the story; flavor: “"In my dark moments, I think Urza may have been more of a father to his creations than he ever was to his own son." —Tawnos” | C |
+| [Urza's Incubator](../cards/U/ur.md#urzas-incubator) | Urza's inventions | named for the story; flavor: “"Stop thinking like an artificer, Urza, and start thinking like a father!" —Rayne, Academy Chancellor” | C |
 | [Urza's Chalice](../cards/U/ur.md#urzas-chalice) | Urza's inventions | named for the story; flavor: “When sorely wounded or tired, Urza would often retreat to the workshops of his apprentices. They were greatly amazed at how much better he looked each time h…”; printed in `atq` | C |
 | [Urza's Avenger](../cards/U/ur.md#urzas-avenger) | Urza's inventions | named for the story; flavor: “Unable to settle on just one design, Urza decided to create one versatile being.”; printed in `atq` | C |
 | [Urza's Armor](../cards/U/ur.md#urzas-armor) | Urza's inventions | named for the story; flavor: “"Tawnos's blueprints were critical to the creation of my armor. As he once sealed himself in steel, I sealed myself in a walking crypt." —Urza” | C |
@@ -233,16 +238,16 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 | [Amulet of Kroog](../cards/A/am.md#amulet-of-kroog) | Kroog, Tawnos & the war machines | named for the story; flavor: “Among the first allies Urza gained were the people of Kroog. As a sign of friendship, Urza gave the healers of the city potent amulets; afterwards, thousands…”; printed in `atq` | C |
 | [Clay Statue](../cards/C/cl.md#clay-statue) | Kroog, Tawnos & the war machines | flavor: “Tawnos won fame as Urza's greatest assistant. After he created these warriors, Urza ended his apprenticeship, promoting him directly to the rank of master.”; printed in `atq` | C |
 | [Dragon Engine](../cards/D/dra.md#dragon-engine) | Kroog, Tawnos & the war machines | flavor: “"How is it the legged engines seem so much more alive than their wheeled counterparts? Simply, they were born, not made." —Mishra”; printed in `atq` | C |
-| [Grapeshot Catapult](../cards/G/gra.md#grapeshot-catapult) | Kroog, Tawnos & the war machines | flavor: “For years scholars debated whether these were Urza's or Mishra's creations. Recent research suggests they were invented by the brothers' original master, Toc…”; printed in `atq` | C |
+| [Grapeshot Catapult](../cards/G/gra.md#grapeshot-catapult) | Kroog, Tawnos & the war machines | flavor: “Recent research suggests these creatures were invented by Urza's and Mishra's original master, Tocasia, and that both brothers used them.”; printed in `atq` | C |
 | [Onulet](../cards/O/on.md#onulet) | Kroog, Tawnos & the war machines | flavor: “An early inspiration for Urza, Tocasia's Onulets contained magical essences that could be cannibalized after they stopped functioning.”; printed in `atq` | C |
-| [Tocasia's Dig Site](../cards/T/to.md#tocasias-dig-site) | Urza's lands & workshops | Tocasia's dig, where the brothers' story begins (card flavor).; named for the story; flavor: “Sent by their noble parents to toughen up and learn something of the world's past, Urza and Mishra instead uncovered Terisiare's future.”; printed in `bro` | C |
-| [Hall of Tagsin](../cards/H/ha.md#hall-of-tagsin) | Urza's lands & workshops | flavor: “The Thran's machines were not dead after all, merely dormant . . . and waiting.”; printed in `bro` | C |
+| [Tocasia's Dig Site](../cards/T/to.md#tocasias-dig-site) | Urza's lands & workshops (land) | Tocasia's dig, where the brothers' story begins (card flavor).; named for the story; flavor: “Sent by their noble parents to toughen up and learn something of the world's past, Urza and Mishra instead uncovered Terisiare's future.”; printed in `bro` | C |
+| [Hall of Tagsin](../cards/H/ha.md#hall-of-tagsin) | Urza's lands & workshops (land) | flavor: “The Thran's machines were not dead after all, merely dormant . . . and waiting.”; printed in `bro` | C |
 | [Argivian Avenger](../cards/A/arg.md#argivian-avenger) | Kroog, Tawnos & the war machines | flavor: “Unable to settle on just one versatile being, Urza decided to create myriad adaptable machines.”; printed in `bro` | C |
 | [Metathran Soldier](../cards/M/me.md#metathran-soldier) | Karn & Urza's later legacy | named for the story; flavor: “Just as Serra crafted angels of light and faith, Urza constructed an army of sorcery and power to resist the coming invasion.” | U |
 | [Thran Dynamo](../cards/T/thr.md#thran-dynamo) | Thran legacy | named for the story; flavor: “Urza's metathran children were conceived, birthed, and nurtured by an integrated system of machines.”; printed in `brc` | C |
 | [Thran Turbine](../cards/T/thr.md#thran-turbine) | Thran legacy | named for the story; flavor: “When Urza asked the viashino what it did, they answered: "It hums."” | C |
 | [Thran Foundry](../cards/T/thr.md#thran-foundry) | Thran legacy | named for the story; flavor: “"What we do not use up, we use again." —Urza” | C |
-| [Thran Golem](../cards/T/thr.md#thran-golem) | Thran legacy | named for the story; flavor: “Even after thousands of years, the wondrous creations of the Thran guarded the lost empire's secrets with single-minded devotion.” | C |
+| [Thran Golem](../cards/T/thr.md#thran-golem) | Thran legacy | named for the story; flavor: “The golems of the ancient Thran still draw power in ways that baffle the artificers of today.” | C |
 | [Inspiring Statuary](../cards/I/ins.md#inspiring-statuary) | Kroog, Tawnos & the war machines | flavor: “"In the early days, Urza's wondrous automatons were seen as symbols of hope and courage." —*The Antiquities War*”; printed in `brr` | C |
 | [Sai, Master Thopterist](../cards/S/sai.md#sai-master-thopterist) | Machine army (mechanical echo) | printed in `brc` | U |
 | [Foundry Inspector](../cards/F/fo.md#foundry-inspector) | Machine army (mechanical echo) | flavor: “"Delicate resonance detectors could scan the assembly lines for metallic impurities, loose bolts, and freak occurrences of sentience." —Tawnos, proposal for …”; printed in `brr` | C |
@@ -255,33 +260,33 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 | [Burnished Hart](../cards/B/bu.md#burnished-hart) | Kroog, Tawnos & the war machines | flavor: “"The natural world has already solved our problems. Our challenge is to replicate the elegance of its solutions." —Tawnos”; printed in `brr` | C |
 | [Drafna, Founder of Lat-Nam](../cards/D/dra.md#drafna-founder-of-lat-nam) | Lat-Nam & the Third Path | named for the story; flavor: “Alongside his wife, Hurkyl, Drafna built a legacy of scholarship that endured for millennia.”; printed in `bro` | U |
 | [Hurkyl, Master Wizard](../cards/H/hu.md#hurkyl-master-wizard) | Lat-Nam & the Third Path | named for the story; printed in `bro` | U |
-| [Hurkyl's Recall](../cards/H/hu.md#hurkyls-recall) | Lat-Nam & the Third Path | named for the story; flavor: “Hurkyl's research at the College of Lat-Nam wasn't enough to stop the two brothers, but for centuries thereafter her spellcraft taught artificers restraint.”; printed in `atq` | U |
+| [Hurkyl's Recall](../cards/H/hu.md#hurkyls-recall) | Lat-Nam & the Third Path | named for the story; flavor: “This spell, attributed to Drafna, was actually the work of his wife Hurkyl.”; printed in `atq` | U |
 | [Lat-Nam's Legacy](../cards/L/la.md#lat-nams-legacy) | Lat-Nam & the Third Path | named for the story; flavor: “"All the knowledge of Lat-Nam could not protect its sages from the Brothers' War." —Gerda Äagesdotter, Archmage of the Unseen” | U |
 | [Machine Over Matter](../cards/M/mac.md#machine-over-matter) | Lat-Nam & the Third Path | flavor: “The Warlord decreed that only someone who could move the statue would be strong enough to marry the princess. So Urza moved it.”; printed in `bro` | U |
 | [Stroke of Genius](../cards/S/str.md#stroke-of-genius) | Lat-Nam & the Third Path | flavor: “After a hundred failed experiments, Urza was stunned to find that common silver passed through the portal undamaged. He immediately designed a golem made of …” | U |
-| [Sol Ring](../cards/S/so.md#sol-ring) | Playability (guidance) | **Playability slot (guidance)**: flavor: “"Model? I'm insulted. It's by all reasonable metrics a fully functional planetary system, scaled down for easier study." —Urza, to Tawnos”; printed in `brc` | C |
-| [Mind Stone](../cards/M/min.md#mind-stone) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Thought Vessel](../cards/T/tho.md#thought-vessel) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Playability (guidance) | **Playability slot (guidance)**: type echo: Equipment | C |
-| [Skullclamp](../cards/S/sk.md#skullclamp) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Expedition Map](../cards/E/ex.md#expedition-map) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Fabricate](../cards/F/fa.md#fabricate) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [Whir of Invention](../cards/W/wh.md#whir-of-invention) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [Thoughtcast](../cards/T/tho.md#thoughtcast) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | U |
-| [Pongify](../cards/P/po.md#pongify) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [Counterspell](../cards/C/cou.md#counterspell) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [Negate](../cards/N/ne.md#negate) | Playability (guidance) | **Playability slot (guidance)**: flavor: “Teferi gave them time. Karn gave them a chance. But it was Melira who paid the ultimate price to free Ajani from Phyrexia's grasp.” | U |
-| [Academy Ruins](../cards/A/ac.md#academy-ruins) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | U |
-| [Buried Ruin](../cards/B/bu.md#buried-ruin) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Inventors' Fair](../cards/I/inv.md#inventors-fair) | Playability (guidance) | **Playability slot (guidance)** — no direct story link; kept for mana, interaction or a win path. | C |
-| [Seat of the Synod](../cards/S/sea.md#seat-of-the-synod) | Playability (guidance) | **Playability slot (guidance)**: flavor: “"Full of immense beauty and power, the falls at Orleason inspired the empire's greatest dreamers." —*Fall of the Thran*”; printed in `brc` | U |
-| [Darksteel Citadel](../cards/D/da.md#darksteel-citadel) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Playability (guidance) | **Playability slot (guidance)**: printed in `brc` | C |
-| [Blast Zone](../cards/B/bla.md#blast-zone) | Playability (guidance) | **Playability slot (guidance)**: printed in `bro` | C |
-| [Demolition Field](../cards/D/dem.md#demolition-field) | Playability (guidance) | **Playability slot (guidance)**: printed in `bro` | C |
+| [Sol Ring](../cards/S/so.md#sol-ring) | Playability (guidance) | flavor: “"Model? I'm insulted. It's by all reasonable metrics a fully functional planetary system, scaled down for easier study." —Urza, to Tawnos”; printed in `brc` | C |
+| [Mind Stone](../cards/M/min.md#mind-stone) | Playability (guidance) | printed in `brc` | C |
+| [Thought Vessel](../cards/T/tho.md#thought-vessel) | Playability (guidance) | printed in `brc` | C |
+| [Lightning Greaves](../cards/L/li.md#lightning-greaves) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)**: type echo (guidance, not counted): Equipment | C |
+| [Skullclamp](../cards/S/sk.md#skullclamp) | Playability (guidance) | printed in `brc` | C |
+| [Tawnos's Coffin](../cards/T/ta.md#tawnoss-coffin) | Artificers of Terisiare | Named for Tawnos, Urza's apprentice; printed in Antiquities (ATQ). Repeatable creature exile adds interaction.; named for the story; printed in `atq` | C |
+| [Transmute Artifact](../cards/T/tra.md#transmute-artifact) | Artificers of Terisiare | Printed in Antiquities (ATQ). Artifact tutor replacing Fabricate.; printed in `atq` | U |
+| [Whir of Invention](../cards/W/wh.md#whir-of-invention) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | U |
+| [Thoughtcast](../cards/T/tho.md#thoughtcast) | Playability (guidance) | printed in `brc` | U |
+| [Pongify](../cards/P/po.md#pongify) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | U |
+| [An Offer You Can't Refuse](../cards/A/an.md#an-offer-you-cant-refuse) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | U |
+| [Counterspell](../cards/C/cou.md#counterspell) | Playability (guidance) | **Not story-linked under the 85% tests (guidance slot)** — kept for mana, interaction or a win path. | U |
+| [Negate](../cards/N/ne.md#negate) | Playability (guidance) | flavor: “Teferi gave them time. Karn gave them a chance. But it was Melira who paid the ultimate price to free Ajani from Phyrexia's grasp.” | U |
+| [Strip Mine](../cards/S/str.md#strip-mine) | Story lands (Antiquities / Brothers' War printings) (land) | Printed in Antiquities (ATQ); its flavor text names the war between Urza and Mishra. Single-target land removal (not mass land denial).; flavor: “Unlike previous conflicts, the war between Urza and Mishra made Dominia itself a casualty of war.”; printed in `atq` | C |
+| [Buried Ruin](../cards/B/bu.md#buried-ruin) | Playability (guidance) (land) | printed in `brc` | C |
+| [Mishra's Factory](../cards/M/mis.md#mishras-factory) | Story lands (Antiquities / Brothers' War printings) (land) | Named for Mishra; printed in Antiquities (ATQ). Manland adds a threat on an artifact-dense mana base.; named for the story; printed in `atq` | C |
+| [Seat of the Synod](../cards/S/sea.md#seat-of-the-synod) | Playability (guidance) (land) | flavor: “"Full of immense beauty and power, the falls at Orleason inspired the empire's greatest dreamers." —*Fall of the Thran*”; printed in `brc` | U |
+| [Darksteel Citadel](../cards/D/da.md#darksteel-citadel) | Playability (guidance) (land) | printed in `brc` | C |
+| [Reliquary Tower](../cards/R/rel.md#reliquary-tower) | Playability (guidance) (land) | printed in `brc` | C |
+| [Blast Zone](../cards/B/bla.md#blast-zone) | Playability (guidance) (land) | printed in `bro` | C |
+| [Demolition Field](../cards/D/dem.md#demolition-field) | Playability (guidance) (land) | printed in `bro` | C |
 | [Golgothian Sylex](../cards/G/gol.md#golgothian-sylex) | Koilos stones, powerstones & the sylex | The sylex is the weapon Urza activates in 63 AR, ending the war ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)).; named for the story; printed in `atq` | C |
-| [Tawnos's Weaponry](../cards/T/ta.md#tawnoss-weaponry) | Kroog, Tawnos & the war machines | named for the story; flavor: “When Urza's war machines became too costly, Tawnos's weaponry replaced them.”; printed in `atq` | C |
+| [Tawnos's Weaponry](../cards/T/ta.md#tawnoss-weaponry) | Kroog, Tawnos & the war machines | named for the story; flavor: “When war machines became too costly, Tawnos's Weaponry replaced them.”; printed in `atq` | C |
 | [Urza's Engine](../cards/U/ur.md#urzas-engine) | Urza's inventions | named for the story | C |
 
 ## Pilot notes (guidance)
@@ -296,7 +301,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 
 > Auto-generated 2026-10-15 by `scripts/detect_combos.py` from the [Commander Spellbook](https://commanderspellbook.com) public API (community-maintained combo database; each combo links to its page). Only combos whose **every card is in this list** are shown. Bracket note uses the official barometer: *Brackets 1–2 — no intentional two-card infinite combos; Bracket 3 — no early-game two-card infinite combos*.
 
-**1 complete combo(s); 0 two-card infinite.** 22 more are one card away (not listed).
+**1 complete combo(s); 0 two-card infinite.** 21 more are one card away (not listed).
 
 | Cards | Produces (Spellbook) | Extra requirements | Link |
 |---|---|---|---|
@@ -311,7 +316,7 @@ Lore links: [Conflicts & Arcs](../Conflicts%20%26%20Arcs.md#the-brothers-war) ·
 - **EDH packages in this list:** [Ramp: Mana rocks (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-rocks-mv--2) 4 · [Card advantage: Burst draw (instants & sorceries)](../EDH%20Packages.md#card-advantage-burst-draw-instants--sorceries) 2 · [Ramp: Cost reducers](../EDH%20Packages.md#ramp-cost-reducers) 2 · [Aristocrats: Fodder makers (multiple creature tokens)](../EDH%20Packages.md#aristocrats-fodder-makers-multiple-creature-tokens) 1 · [Artifacts: Artifact cost reducers](../EDH%20Packages.md#artifacts-artifact-cost-reducers) 1 · [Artifacts: Artifact payoffs](../EDH%20Packages.md#artifacts-artifact-payoffs) 1 · [Card advantage: Impulse / exile-to-play](../EDH%20Packages.md#card-advantage-impulse--exile-to-play) 1 · [Graveyard: Self-mill](../EDH%20Packages.md#graveyard-self-mill) 1 · [Ramp: Land ramp (puts lands onto the battlefield)](../EDH%20Packages.md#ramp-land-ramp-puts-lands-onto-the-battlefield) 1 · [Tokens: Anthems](../EDH%20Packages.md#tokens-anthems) 1
 - **Keywords → [Keyword Encyclopedia](../Keyword%20Encyclopedia.md):** [Affinity](../Keyword%20Encyclopedia.md#affinity) 2 · [Equip](../Keyword%20Encyclopedia.md#equip) 2 · [Flying](../Keyword%20Encyclopedia.md#flying) 2 · [Echo](../Keyword%20Encyclopedia.md#echo) 1 · [Flash](../Keyword%20Encyclopedia.md#flash) 1 · [Improvise](../Keyword%20Encyclopedia.md#improvise) 1 · [Indestructible](../Keyword%20Encyclopedia.md#indestructible) 1 · [Mill](../Keyword%20Encyclopedia.md#mill) 1 · [Regenerate](../Keyword%20Encyclopedia.md#regenerate) 1 · [Scry](../Keyword%20Encyclopedia.md#scry) 1 · [Surveil](../Keyword%20Encyclopedia.md#surveil) 1 · [Trample](../Keyword%20Encyclopedia.md#trample) 1
 - **Rules sections citing cards in this list:** [Keyword Encyclopedia → Affinity](../Keyword%20Encyclopedia.md#affinity) (Emry, Lurker of the Loch) · [Keyword Encyclopedia → Equip](../Keyword%20Encyclopedia.md#equip) (Lightning Greaves) · [Keyword Encyclopedia → Improvise](../Keyword%20Encyclopedia.md#improvise) (Whir of Invention) · [Keyword Encyclopedia → Indestructible](../Keyword%20Encyclopedia.md#indestructible) (Darksteel Citadel) · [Rules Interactions → Sagas](../Rules%20Interactions.md#sagas) (Urza's Saga)
-- **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) (Machine Over Matter, Negate, Tocasia's Dig Site) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) (Karn, Living Legacy, Karn, Scion of Urza, Urza, Lord High Artificer) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched) (Karn, Living Legacy, Karn, Scion of Urza) · [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Worn Powerstone) · [Art & Flavor Story Links → Kaladesh & Aether Revolt (2016–17)](../Art%20%26%20Flavor%20Story%20Links.md#kaladesh--aether-revolt-201617) (Inventors' Fair)
-- **EDH guide sections citing cards in this list:** [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (Lightning Greaves, Mind Stone, Reliquary Tower +2) · [EDH Staples → Ramp (mana rocks & land ramp)](../EDH%20Staples.md#ramp-mana-rocks--land-ramp) (An Offer You Can't Refuse, Mind Stone, Sol Ring +2) · [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion) (Expedition Map, Inventors' Fair, Urza's Cave +2) · [EDH Mana Bases → Mana & untapping](../EDH%20Mana%20Bases.md#mana--untapping) (Urza's Mine, Urza's Power Plant, Urza's Saga +1) · [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) (An Offer You Can't Refuse, Negate, Sol Ring) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Mind Stone, Sol Ring, Thought Vessel) · …52 more sections
-- **Decks sharing the most cards:** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) 16 · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) 15 · [Ashad, the Lone Cyberman (Grixis)](../grixis/decks/ashad-the-lone-cyberman.md) 13 · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) 13
+- **Lore & story sections citing cards in this list:** [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) (Machine Over Matter, Negate, Tocasia's Dig Site) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) (Karn, Living Legacy, Karn, Scion of Urza, Urza, Lord High Artificer) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched) (Karn, Living Legacy, Karn, Scion of Urza) · [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) (Worn Powerstone)
+- **EDH guide sections citing cards in this list:** [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (Lightning Greaves, Mind Stone, Reliquary Tower +2) · [EDH Staples → Ramp (mana rocks & land ramp)](../EDH%20Staples.md#ramp-mana-rocks--land-ramp) (An Offer You Can't Refuse, Mind Stone, Sol Ring +2) · [EDH Mana Bases → Mana & untapping](../EDH%20Mana%20Bases.md#mana--untapping) (Urza's Mine, Urza's Power Plant, Urza's Saga +1) · [EDH Archetypes → Spellslinger (instants & sorceries)](../EDH%20Archetypes.md#spellslinger-instants--sorceries) (An Offer You Can't Refuse, Negate, Sol Ring) · [EDH Mana Bases → Land destruction / utility removal](../EDH%20Mana%20Bases.md#land-destruction--utility-removal) (Blast Zone, Demolition Field, Strip Mine) · [EDH Packages → Ramp: Mana rocks (MV ≤ 2)](../EDH%20Packages.md#ramp-mana-rocks-mv--2) (Mind Stone, Sol Ring, Thought Vessel) · …52 more sections
+- **Decks sharing the most cards:** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) 15 · [Breya, Etherium Shaper](../decks/breya-etherium-shaper.md) 14 · [Ashnod the Uncaring (Grixis)](../grixis/decks/ashnod-the-uncaring.md) 11 · [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md) 11
 <!-- CROSSREFS:END -->

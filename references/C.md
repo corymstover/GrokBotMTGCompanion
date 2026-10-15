@@ -2077,9 +2077,8 @@ schema: 2
 
 ### Colossus Hammer
 
-[Card entry](../cards/C/col.md#colossus-hammer) · **2 pages** (decks 1 · card data 1)
+[Card entry](../cards/C/col.md#colossus-hammer) · **1 pages** (card data 1)
 
-- **Decks (1):** [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 - **Card data (1):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) (+1 more)
 
 ### Combat Celebrant

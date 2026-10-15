@@ -1263,7 +1263,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
-- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/E.md#emeria-shepherd)
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/E.md#emeria-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/16/emeria-shepherd) · oracle_id `473da1b6-232b-4428-a66d-30262246b47a` · printing: ZNC #16 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Emeria, the Sky Ruin

@@ -595,7 +595,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6805 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moonsilver-spear)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#moonsilver-spear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/212/moonsilver-spear) · oracle_id `d99bcf62-db93-40db-8844-3d0af0756a0c` · printing: AFC #212 (2021-07-23) · [rulings](https://api.scryfall.com/cards/a4ace878-6d15-4276-9bfb-2f23667c6d7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moonsnare Prototype

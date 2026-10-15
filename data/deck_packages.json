@@ -1191,6 +1191,11 @@
     "cards": 7
    },
    {
+    "deck": "decks/lore-nahiri-the-lithomancer.md",
+    "label": "Nahiri, the Lithomancer",
+    "cards": 3
+   },
+   {
     "deck": "decks/theme-muldrotha-the-gravetide-self-mill.md",
     "label": "Muldrotha, the Gravetide (self mill theme)",
     "cards": 3
@@ -1288,11 +1293,6 @@
     "deck": "grixis/decks/garza-zol-plague-queen.md",
     "label": "Garza Zol, Plague Queen (Grixis)",
     "cards": 6
-   },
-   {
-    "deck": "decks/lore-nahiri-the-lithomancer.md",
-    "label": "Nahiri, the Lithomancer",
-    "cards": 3
    },
    {
     "deck": "decks/zur-the-enchanter.md",

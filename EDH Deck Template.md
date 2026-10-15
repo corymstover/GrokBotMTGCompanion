@@ -107,8 +107,8 @@ Reopen triggers: Oracle/rules/legality change · material new card · repeated f
 | Story the deck tells | One cited paragraph; link Conflicts & Arcs / dossier / Timeline |
 | Story packages | Beat or chapter names (not only Ramp/Draw) |
 | Story keywords & sets | Regex/keywords and Scryfall set codes used as evidence |
-| Lore score target | ≥ 60% of non-basic slots story-connected |
+| Lore score target | ≥ 85% of all non-basic cards (commander + every non-land + every non-basic land; basics excluded) story-linked by name, flavor text, story-set printing or official story page (Bot cycle 23). Mechanical/type echoes are guidance and don't count. Check land flavor text too |
 | Deliberately rejected power | Game Changers / infinites / off-story staples you skipped and why (guidance) |
-| Playability budget | How many labeled playability slots you allow |
+| Playability budget | Labeled unlinked playability slots — at most ~15% of non-basic cards |
 
 Finished pages live under `decks/lore-*.md` and are rebuilt by `scripts/build_lore_decks.py`.

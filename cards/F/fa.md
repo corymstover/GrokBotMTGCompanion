@@ -345,7 +345,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — If you control four or more lands, the basic land doesn't enter untapped; it enters tapped and then you untap it.
   - *2020-06-23* — The land that you put onto the battlefield will be counted when determining whether you control four or more lands, but Fabled Passage will not.
-- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#fabled-passage)
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#fabled-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/71/fabled-passage) · oracle_id `0c85b8f7-0bd0-4680-9ec5-d4b110460a54` · printing: FRC #71 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabled Path of Searo Point
@@ -417,7 +417,7 @@ schema: 2
   > *"The secret to invention is to see something in your mind, then find where it hides in the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #470 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#fabricate)
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#fabricate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/9/fabricate) · oracle_id `422e1869-134f-463d-9fa1-86b66a998b3e` · printing: HOP #9 (2009-09-04) · [rulings](https://api.scryfall.com/cards/44e49332-b1e1-4b88-b508-516b55c67a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabrication Foundry

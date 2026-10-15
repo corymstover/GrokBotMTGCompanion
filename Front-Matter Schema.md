@@ -59,6 +59,8 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `tags` | list of tags | yes | Computed: kind, identity name, `bracket-floor-N`, Game Changer and combo flags, plane/theme. |
 | `plane` | string | when applicable | Plane-restricted decks only. |
 | `theme` | string | when applicable | Theme decks only (EDHREC theme). |
+| `lore_score` | float 0–100 | when applicable | Lore decks only (Bot cycle 23): % of non-basic cards (commander + non-lands + non-basic lands) that are story-linked. |
+| `lore_standard_met` | bool | when applicable | Lore decks only: lore_score ≥ 85 (the Lore-Themed Deckbuilding standard; enforced by `build_lore_decks.py --check`). |
 | `source_repo` | string | when applicable | Grixis decks only: the read-only source repository. |
 | `schema` | int | yes | Front-matter schema version (currently 2). |
 

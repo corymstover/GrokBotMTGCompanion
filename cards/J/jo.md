@@ -1079,6 +1079,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8838 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If Journey to Nowhere leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and exile the targeted creature forever.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#journey-to-nowhere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/17/journey-to-nowhere) · oracle_id `2bfec482-be0d-4768-84e7-1c2c74ea1373` · printing: CMD #17 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey to Oblivion

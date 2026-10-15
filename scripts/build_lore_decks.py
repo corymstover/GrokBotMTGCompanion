@@ -6,7 +6,8 @@ For every card the script adds machine-found evidence of its story link, all of 
 Scryfall bulk in .cache/: name keyword hits, flavor-text quotes containing an arc keyword (any paper
 printing, default-cards bulk), printings in the arc's story sets, and type-line echoes (Kor, Construct…).
 A card with no evidence and no cited note is labeled "playability slot (guidance)", and the page
-reports the story-connected share (the guide asks for >= 60% of non-basic slots).
+reports the story-linked share. Bot cycle 23: >= 85% of ALL non-basic cards (commander, non-land cards and non-basic lands);
+only name / flavor / story-set printing / official-story-page notes count; type and mechanical echoes are guidance.
 Hard checks come from scripts/evaluate_decklist.py: names, eligibility, 100 cards, singleton,
 identity, Commander legality, Game Changers, plus Commander Spellbook combos (--online, cached
 in data/lore_decks/combos.json otherwise).
@@ -25,6 +26,8 @@ SPEC = ROOT / "data/lore_decks/lore_decks.json"
 COMBOS = ROOT / "data/lore_decks/combos.json"
 API = "https://backend.commanderspellbook.com/find-my-combos"
 I = "https://github.com/corymstover/GrokBotMTGCompanion/issues/"
+THRESHOLD = 85  # Bot cycle 23: % of ALL non-basic cards (commander + non-land + non-basic lands)
+OFFICIAL = re.compile(r"https://magic\.wizards\.com/en/(story|news)/")
 TYPE_ECHO = re.compile(r"\b(Kor|Construct|Thopter|Golem|Artificer|Eldrazi|Equipment|Soldier|Angel|Powerstone)\b")
 C_START, C_END = "<!-- COMBOS:START -->", "<!-- COMBOS:END -->"
 
@@ -82,39 +85,45 @@ def build(d, by, idx, sets, flav, R, combos):
     two = [r for r in cb["combos"] if len(r["cards"]) == 2 and r["infinite"]]
     floor = 4 if (len(gcs) > 3 or mld) else 3 if (gcs or two) else 2
     rows, story_n, play_n = [], 0, 0
-    for c in d["cards"]:
+    entries = [{"name": d["commander"], "package": "Commander", "note": d.get("commander_note", "")}] + d["cards"]
+    for c in entries:
         n, card = c["name"], by[c["name"]]
-        ev_ = []
+        ev_, counted = [], False
         if kw.search(n):
-            ev_.append("named for the story")
+            ev_.append("named for the story"); counted = True
         fl = sorted(x for x in flav.get(n, ()) if kw.search(x))
         if fl:
+            fl.sort(key=lambda x: (not re.search(r"—\s*\w", x), len(x)))
             q = fl[0] if len(fl[0]) <= 160 else fl[0][:157] + "…"
-            ev_.append(f"flavor: “{q}”")
+            ev_.append(f"flavor: “{q}”"); counted = True
         ss = sorted(sets.get(n, set()) & story_sets)
         if ss:
-            ev_.append("printed in " + ", ".join(f"`{s}`" for s in ss))
+            ev_.append("printed in " + ", ".join(f"`{s}`" for s in ss)); counted = True
+        note = c.get("note") or ""
+        if note:
+            ev_.insert(0, note)
+            if OFFICIAL.search(note) and "mechanical echo" not in note.lower():
+                counted = True
         te = sorted(set(TYPE_ECHO.findall(card.get("type_line", ""))))
-        if te and not ev_:
-            ev_.append("type echo: " + ", ".join(te))
-        if c.get("note"):
-            ev_.insert(0, c["note"])
-        playability = c["package"].startswith("Playability") or (not ev_)
-        if playability:
-            play_n += 1
-            why = "**Playability slot (guidance)**" + (": " + "; ".join(ev_) if ev_ else " — no direct story link; kept for mana, interaction or a win path.")
-        else:
+        if te and not counted:
+            ev_.append("type echo (guidance, not counted): " + ", ".join(te))
+        if counted:
             story_n += 1
             why = "; ".join(ev_)
-        mech = "mechanical echo (guidance)" in why or "mechanical echo" in c["package"]
-        rows.append(f"| {lk(n)} | {c['package']} | {why} | {''.join(x for x in 'WUBRG' if x in (card.get('color_identity') or [])) or 'C'} |")
-    share = round(100 * story_n / max(1, story_n + play_n))
+        else:
+            play_n += 1
+            why = "**Not story-linked under the 85% tests (guidance slot)**" + (": " + "; ".join(ev_) if ev_ else " — kept for mana, interaction or a win path.")
+        land = "Land" in card.get("type_line", "")
+        rows.append(f"| {lk(n)} | {c['package']}{' (land)' if land else ''} | {why} | {''.join(x for x in 'WUBRG' if x in (card.get('color_identity') or [])) or 'C'} |")
+    share = round(100 * story_n / max(1, story_n + play_n), 1)
+    nb_lands = sum(1 for r in rows if "(land)" in r.split(" | ")[1])
+    nb_lands_linked = sum(1 for r in rows if "(land)" in r.split(" | ")[1] and "Not story-linked" not in r)
     pk = {}
     for c in d["cards"]:
         pk.setdefault(c["package"], []).append(c["name"])
     lands = sum(1 for n in names if "Land" in by[n]["type_line"]) + d["basics"]
     L = [f"# {d['title']}", "",
-         f"> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80]({I}80)) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.",
+         f"> **Lore-themed deck (story-first, not power-first).** Built by `scripts/build_lore_decks.py` (Bot cycle 21, [#80]({I}80); 85% standard Bot cycle 23) under [EDH Lore-Themed Deckbuilding](../EDH%20Lore-Themed%20Deckbuilding.md). Card data and legality are facts from Scryfall bulk; story claims cite official magic.wizards.com pages; package choices, pilot notes and *How the deck tells it* are **guidance**. ✅ sourced · ⚠️ uncertain · 🚫 non-canonical.",
          "", "## Contents", "- [Story the deck tells](#story-the-deck-tells)", "- [Commander](#commander)", "- [Validation](#validation)", "- [Bracket assessment](#bracket-assessment)",
          "- [Lore score](#lore-score)", "- [Packages](#packages)", "- [Decklist (Archidekt import)](#decklist-archidekt-import)", "- [Card breakdown](#card-breakdown)",
          "- [Pilot notes (guidance)](#pilot-notes-guidance)", "- [Combos (Commander Spellbook)](#combos-commander-spellbook)", "",
@@ -129,8 +138,8 @@ def build(d, by, idx, sets, flav, R, combos):
          "- Extra-turn cards: " + (", ".join(xt) or "none"), "- Mass land denial: " + (", ".join(mld) if mld else "none"),
          f"- Two-card infinite combos (Commander Spellbook): {len(two)}" + (" — " + "; ".join(" + ".join(r["cards"]) for r in two) if two else ""),
          f"- **Minimum bracket by the published barometers: {floor}**. Lore decks aim for Bracket 2–3 by design (guidance); see [EDH Standards](../EDH%20Standards.md#power-bracket-assessment).", "",
-         "## Lore score", "", f"- **Story-connected slots: {story_n} / {story_n + play_n} non-basic cards ({share}%)**; playability slots (guidance): {play_n}. Guide threshold: ≥ 60%.",
-         f"- Evidence types are machine-found (name, flavor text, story-set printing, type echo) plus cited notes. Story sets: " + ", ".join(f"`{s}`" for s in d["story_sets"]) + ".", "",
+         "## Lore score", "", f"- **Story-linked: {story_n} / {story_n + play_n} non-basic cards ({share}%)** — {'✅ meets' if share >= THRESHOLD else '❌ below'} the ≥ {THRESHOLD}% standard. Counted over the commander, every non-land card and every non-basic land ({nb_lands} non-basic lands, {nb_lands_linked} of them story-linked); basics excluded. Not linked (guidance slots): {play_n}.",
+         f"- Counting tests (facts): card **name**, **flavor text** of any paper printing, **printing in the story's sets**, or a note citing an **official story page**. Type and mechanical echoes are shown as guidance and **do not count**. Story sets: " + ", ".join(f"`{s}`" for s in d["story_sets"]) + ".", "",
          "## Packages", "", "| Package | Cards |", "|---|---|"]
     L += [f"| {p} | {len(v)} |" for p, v in pk.items()]
     L += ["", "## Decklist (Archidekt import)", "", "```text", text.rstrip(), "```", "",
@@ -150,7 +159,7 @@ def build(d, by, idx, sets, flav, R, combos):
         blk += [f"| {' + '.join(r['cards'])} | {', '.join(r['produces'])} | {'; '.join(r['requires']) or '—'} | [{r['id']}](https://commanderspellbook.com/combo/{r['id']}/) |" for r in cb["combos"]]
     blk.append(C_END)
     return "\n".join(L + blk) + "\n", {"slug": d["slug"], "type": d["type"], "commander": d["commander"], "identity": ci, "floor": floor, "gc": len(gcs),
-                                       "story": story_n, "playability": play_n, "share": share, "valid": not hard, "lands": lands}
+                                       "story": story_n, "playability": play_n, "share": share, "valid": not hard, "lands": lands, "nonbasic_lands": nb_lands, "nonbasic_lands_linked": nb_lands_linked, "threshold": THRESHOLD}
 
 
 def main():
@@ -178,7 +187,9 @@ def main():
             new = new.rstrip("\n") + "\n\n" + keep["xr"].group(0) + "\n"
         fm_ = re.match(r"^---\n.*?\n---\n\n?", old, re.S)
         new = (fm_.group(0) if fm_ else "") + new
-        if new != old:
+        # --check compares only the sections this script owns (other scripts post-edit TOC, combo and calibration text)
+        own = lambda t: [m.group(0) for m in re.finditer(r"^## (Lore score|Packages|Decklist \(Archidekt import\)|Card breakdown)\n.*?(?=^## |\Z)", t, re.S | re.M)]
+        if ("--check" in sys.argv and own(new) != own(old)) or ("--check" not in sys.argv and new != old):
             stale.append(p.name)
             if "--check" not in sys.argv:
                 p.write_text(new, encoding="utf-8")
@@ -186,10 +197,13 @@ def main():
         COMBOS.write_text(json.dumps(combos, indent=1))
         (ROOT / "data/lore_decks/summary.json").write_text(json.dumps(summary, indent=1))
     for s in summary:
-        print(f"{s['slug']}: valid={s['valid']} floor={s['floor']} GC={s['gc']} story {s['story']}/{s['story'] + s['playability']} ({s['share']}%)")
+        print(f"{s['slug']}: valid={s['valid']} floor={s['floor']} GC={s['gc']} lands={s['lands']} story {s['story']}/{s['story'] + s['playability']} ({s['share']}%) nonbasic lands linked {s['nonbasic_lands_linked']}/{s['nonbasic_lands']}")
     if "--check" in sys.argv:
         print(f"lore decks: {len(summary)} decks; {len(stale)} stale")
-        return 1 if stale or not all(s["valid"] for s in summary) else 0
+        low = [s["slug"] for s in summary if s["share"] < THRESHOLD]
+        if low:
+            print(f"lore decks below {THRESHOLD}%: " + ", ".join(low))
+        return 1 if stale or low or not all(s["valid"] for s in summary) else 0
     return 0
 
 

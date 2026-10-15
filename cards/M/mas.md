@@ -257,6 +257,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4158 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — If Mask of Avacyn somehow becomes attached to a creature an opponent controls, that creature can't be the target of spells or abilities you control.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mask-of-avacyn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/466/mask-of-avacyn) · oracle_id `ab66f8a8-eb3d-4c2d-95e9-26a53c66b237` · printing: CMR #466 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mask of Griselbrand

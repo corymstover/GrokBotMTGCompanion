@@ -875,9 +875,9 @@ schema: 2
 
 ### Emeria Shepherd
 
-[Card entry](../cards/E/em.md#emeria-shepherd) · **2 pages** (decks 2)
+[Card entry](../cards/E/em.md#emeria-shepherd) · **3 pages** (decks 3)
 
-- **Decks (2):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md)
+- **Decks (3):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Giada, Font of Hope](../decks/giada-font-of-hope.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md)
 
 ### Emeria, the Sky Ruin
 
@@ -1660,9 +1660,9 @@ schema: 2
 
 ### Everflowing Chalice
 
-[Card entry](../cards/E/ev.md#everflowing-chalice) · **7 pages** (decks 4 · edh guides 1 · rules 1 · card data 1)
+[Card entry](../cards/E/ev.md#everflowing-chalice) · **8 pages** (decks 5 · edh guides 1 · rules 1 · card data 1)
 
-- **Decks (4):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
+- **Decks (5):** [Atraxa, Praetors' Voice](../decks/atraxa-praetors-voice.md) · [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md) · [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
 - **EDH guides (1):** [cEDH Primer → Mana rocks, MV ≤ 1](../cEDH%20Primer.md#mana-rocks-mv--1)
 - **Rules (1):** [Rules Interactions → Copy effects](../Rules%20Interactions.md#copy-effects) (+1 more)
 - **Card data (1):** [Artist Index → Artists A](../Artist%20Index.md#artists-a) (+2 more)
@@ -1740,9 +1740,9 @@ schema: 2
 
 ### Evolving Wilds
 
-[Card entry](../cards/E/ev.md#evolving-wilds) · **14 pages** (decks 7 · edh guides 4 · lore & story 1 · card data 2)
+[Card entry](../cards/E/ev.md#evolving-wilds) · **15 pages** (decks 8 · edh guides 4 · lore & story 1 · card data 2)
 
-- **Decks (7):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
+- **Decks (8):** [Chulane, Teller of Tales (landfall theme)](../decks/theme-chulane-teller-of-tales-landfall.md) · [Korvold, Fae-Cursed King](../decks/korvold-fae-cursed-king.md) · [Muldrotha, the Gravetide](../decks/muldrotha-the-gravetide.md) · [Muldrotha, the Gravetide (self mill theme)](../decks/theme-muldrotha-the-gravetide-self-mill.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md) · [Tatyova, Benthic Druid](../decks/tatyova-benthic-druid.md) · [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
 - **EDH guides (4):** [EDH Mana Bases → Fetch lands & land search](../EDH%20Mana%20Bases.md#fetch-lands--land-search) (+1 more) · [EDH Standards → Sacrifice = card + counter — Korvold, Fae-Cursed King (BRG, sacrifice/Treasure)](../EDH%20Standards.md#sacrifice--card--counter--korvold-fae-cursed-king-brg-sacrificetreasure) · [EDH Staples → Colorless](../EDH%20Staples.md#colorless) (+1 more) · [EDH Upgrade Paths → Animar, Soul of Elements](../EDH%20Upgrade%20Paths.md#animar-soul-of-elements) (+21 more)
 - **Lore & story (1):** [Art & Flavor Story Links → Lorwyn Eclipsed (2025–26)](../Art%20%26%20Flavor%20Story%20Links.md#lorwyn-eclipsed-202526)
 - **Card data (2):** [Artist Index → Most prolific artists](../Artist%20Index.md#most-prolific-artists) (+11 more) · [Printing History → Most-printed cards](../Printing%20History.md#most-printed-cards)
@@ -1851,9 +1851,9 @@ schema: 2
 
 ### Expedition Map
 
-[Card entry](../cards/E/ex.md#expedition-map) · **6 pages** (decks 4 · edh guides 2)
+[Card entry](../cards/E/ex.md#expedition-map) · **5 pages** (decks 3 · edh guides 2)
 
-- **Decks (4):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md) · [Urza, Lord High Artificer](../decks/lore-brothers-war-urza-lord-high-artificer.md)
+- **Decks (3):** [Kozilek, the Great Distortion](../decks/kozilek-the-great-distortion.md) · [Nahiri, the Lithomancer](../decks/lore-nahiri-the-lithomancer.md) · [Omnath, Locus of Rage (Zendikar-only)](../decks/plane-zendikar-omnath-locus-of-rage.md)
 - **EDH guides (2):** [EDH Staples → Tutors](../EDH%20Staples.md#tutors) · [EDH Upgrade Paths → Kozilek, the Great Distortion](../EDH%20Upgrade%20Paths.md#kozilek-the-great-distortion)
 
 ### Experimental Augury

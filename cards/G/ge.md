@@ -1096,7 +1096,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #63 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — If the target permanent is an illegal target by the time Generous Gift tries to resolve, the spell doesn't resolve. No player creates an Elephant. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create an Elephant.
-- **Referenced in:** 9 pages (5 decks · 2 edh guides · 2 card data) → [reverse index](../../references/G.md#generous-gift)
+- **Referenced in:** 8 pages (4 decks · 2 edh guides · 2 card data) → [reverse index](../../references/G.md#generous-gift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/133/generous-gift) · oracle_id `fae37e28-e137-4177-b973-fa8b4dd8f409` · printing: MSC #133 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Generous Patron

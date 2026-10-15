@@ -632,7 +632,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — You can choose to find one basic land card with Myriad Landscape's last ability.
-- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#myriad-landscape)
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#myriad-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Incubator

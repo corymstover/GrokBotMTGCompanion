@@ -1359,7 +1359,7 @@ schema: 2
   > *Unlike previous conflicts, the war between Urza and Mishra made Dominaria itself a casualty of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #529 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/S.md#strip-mine)
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 2 card data) → [reverse index](../../references/S.md#strip-mine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/316/strip-mine) · oracle_id `d21a89eb-7c5b-459a-acc7-12b20b13bf79` · printing: VMA #316 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f57fd4c9-0004-4f71-a30f-2720943f57ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strixhaven Skycoach

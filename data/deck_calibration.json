@@ -824,19 +824,19 @@
    "extra_turns": [],
    "two": [],
    "lands": 37,
-   "avg_mv": 2.95,
+   "avg_mv": 2.98,
    "roles": {
     "ramp": 14,
     "draw": 12,
     "counter": 4,
-    "removal": 3,
+    "removal": 4,
     "wipe": 0,
     "protection": 0,
     "tutor": 2
    },
    "target": null,
    "edhrec": null,
-   "one_card_away": "22"
+   "one_card_away": "21"
   },
   {
    "path": "decks/lore-nahiri-the-lithomancer.md",
@@ -855,14 +855,14 @@
    "extra_turns": [],
    "two": [],
    "lands": 36,
-   "avg_mv": 2.6,
+   "avg_mv": 2.57,
    "roles": {
     "ramp": 8,
-    "draw": 10,
+    "draw": 9,
     "counter": 0,
     "removal": 12,
     "wipe": 1,
-    "protection": 7,
+    "protection": 5,
     "tutor": 4
    },
    "target": null,

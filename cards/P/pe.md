@@ -1051,6 +1051,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14838 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-06-15* — As long as you control Pennon Blade, its ability constantly counts the number of creatures you control. It doesn't matter who controls the creature it's equipping (in case an opponent somehow manages to take control of that creature). If you control the creature it's equipping, the bonus will include that creature too.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pennon-blade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/329/pennon-blade) · oracle_id `b97e6acd-a676-429e-b875-b734759ebea7` · printing: CMR #329 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Penregon Strongbull

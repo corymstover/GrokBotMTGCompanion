@@ -677,7 +677,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-03-01* — Assuming you can activate Tectonic Edge’s second ability, you can target any nonbasic land with it (not just one controlled by an opponent that controls four or more lands).
   - *2010-03-01* — Tectonic Edge’s second ability checks how many lands an opponent controls only at the time you activate the ability.
-- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tectonic-edge)
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#tectonic-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/313/tectonic-edge) · oracle_id `4927150d-7ff6-4232-b20e-d2ea245ac710` · printing: C14 #313 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tectonic Fiend

@@ -1,7 +1,7 @@
 {
 "generated_by": "scripts/build_crossrefs.py",
 "bulk": "2026-10-15",
-"cards_referenced": 8525,
+"cards_referenced": 8530,
 "cards": {
 "00037840-6089-42ec-8c5c-281f9f474504": {
 "name": "Nissa, Worldsoul Speaker",
@@ -1024,9 +1024,9 @@
 },
 "02f16726-f2f6-4943-b71a-93f8e26251d3": {
 "name": "Ancient Den",
-"n": 4,
+"n": 3,
 "kinds": {
-"deck": 2,
+"deck": 1,
 "edh": 1,
 "cards": 1
 },
@@ -1116,9 +1116,9 @@
 },
 "032b8a0d-491a-4a12-ab9f-689010054d5b": {
 "name": "Prismatic Vista",
-"n": 3,
+"n": 2,
 "kinds": {
-"deck": 2,
+"deck": 1,
 "cards": 1
 },
 "index": "references/P.md#prismatic-vista"
@@ -1839,6 +1839,14 @@
 "lore": 2
 },
 "index": "references/N.md#nicol-bolas-planeswalker"
+},
+"05f20087-416f-4928-a0ab-6d0d2ca2ad05": {
+"name": "Tawnos's Coffin",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/T.md#tawnoss-coffin"
 },
 "060209fa-4b7d-4e08-bf8b-8759bba5641b": {
 "name": "Karn, Scion of Urza",
@@ -3203,9 +3211,9 @@
 },
 "0a79237e-0811-4a8a-bd4d-db3ca91bff22": {
 "name": "Everflowing Chalice",
-"n": 7,
+"n": 8,
 "kinds": {
-"deck": 4,
+"deck": 5,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -3353,9 +3361,9 @@
 },
 "0b504dc6-61cc-4a72-907c-145fa4c72466": {
 "name": "Seraph Sanctuary",
-"n": 1,
+"n": 2,
 "kinds": {
-"deck": 1
+"deck": 2
 },
 "index": "references/S.md#seraph-sanctuary"
 },
@@ -3793,9 +3801,9 @@
 },
 "0c85b8f7-0bd0-4680-9ec5-d4b110460a54": {
 "name": "Fabled Passage",
-"n": 9,
+"n": 8,
 "kinds": {
-"deck": 6,
+"deck": 5,
 "edh": 2,
 "cards": 1
 },
@@ -6937,6 +6945,14 @@
 "cards": 1
 },
 "index": "references/S.md#steam-vents"
+},
+"17042684-7af4-43a6-88c7-885032cfb27c": {
+"name": "Adventuring Gear",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/A.md#adventuring-gear"
 },
 "170ab932-9d50-4ce7-9a42-08e1edce7e7c": {
 "name": "Michelangelo, Weirdness to 11",
@@ -10893,9 +10909,9 @@
 },
 "2549bc57-9ffb-4053-9f10-f2a5f792b845": {
 "name": "Myriad Landscape",
-"n": 9,
+"n": 8,
 "kinds": {
-"deck": 4,
+"deck": 3,
 "edh": 3,
 "cards": 2
 },
@@ -12614,6 +12630,14 @@
 },
 "index": "references/K.md#kor-spiritdancer"
 },
+"2bfec482-be0d-4768-84e7-1c2c74ea1373": {
+"name": "Journey to Nowhere",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/J.md#journey-to-nowhere"
+},
 "2c10cae2-951a-4f4f-94e4-8713b58d07dd": {
 "name": "Pyrite Spellbomb",
 "n": 2,
@@ -13400,9 +13424,9 @@
 },
 "2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc": {
 "name": "Ghost Quarter",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -15815,9 +15839,9 @@
 },
 "3644f316-f9a3-46c9-9b1e-747f86cf4ead": {
 "name": "Buried Ruin",
-"n": 6,
+"n": 5,
 "kinds": {
-"deck": 4,
+"deck": 3,
 "edh": 1,
 "cards": 1
 },
@@ -18033,9 +18057,9 @@
 },
 "3dc364f3-3094-4660-80ca-9418588c7fde": {
 "name": "Mithril Coat",
-"n": 6,
+"n": 5,
 "kinds": {
-"deck": 2,
+"deck": 1,
 "edh": 2,
 "rules": 1,
 "cards": 1
@@ -19117,9 +19141,9 @@
 },
 "422e1869-134f-463d-9fa1-86b66a998b3e": {
 "name": "Fabricate",
-"n": 7,
+"n": 6,
 "kinds": {
-"deck": 5,
+"deck": 4,
 "edh": 1,
 "cards": 1
 },
@@ -20522,9 +20546,9 @@
 },
 "473da1b6-232b-4428-a66d-30262246b47a": {
 "name": "Emeria Shepherd",
-"n": 2,
+"n": 3,
 "kinds": {
-"deck": 2
+"deck": 3
 },
 "index": "references/E.md#emeria-shepherd"
 },
@@ -21059,8 +21083,9 @@
 },
 "4927150d-7ff6-4232-b20e-d2ea245ac710": {
 "name": "Tectonic Edge",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/T.md#tectonic-edge"
@@ -25640,8 +25665,9 @@
 },
 "5963e0ef-e0bc-4611-ad4f-813a4c0eacfb": {
 "name": "Mishra's Factory",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "edh": 1
 },
 "index": "references/M.md#mishras-factory"
@@ -28217,9 +28243,9 @@
 },
 "634d5009-cbf3-44cb-8c15-7057f501a210": {
 "name": "Trailblazer's Boots",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 1,
+"deck": 2,
 "edh": 1,
 "cards": 1
 },
@@ -39612,9 +39638,9 @@
 },
 "8b27326f-e7b8-4a4d-b589-df459246d19a": {
 "name": "Shadowspear",
-"n": 7,
+"n": 6,
 "kinds": {
-"deck": 4,
+"deck": 3,
 "edh": 1,
 "rules": 1,
 "cards": 1
@@ -40463,9 +40489,8 @@
 },
 "8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0": {
 "name": "Colossus Hammer",
-"n": 2,
+"n": 1,
 "kinds": {
-"deck": 1,
 "cards": 1
 },
 "index": "references/C.md#colossus-hammer"
@@ -40702,9 +40727,9 @@
 },
 "8fcf50cd-e6d0-4516-850f-d42ee75dcc3a": {
 "name": "Expedition Map",
-"n": 6,
+"n": 5,
 "kinds": {
-"deck": 4,
+"deck": 3,
 "edh": 2
 },
 "index": "references/E.md#expedition-map"
@@ -41184,9 +41209,9 @@
 },
 "91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4": {
 "name": "Inventors' Fair",
-"n": 12,
+"n": 10,
 "kinds": {
-"deck": 9,
+"deck": 7,
 "edh": 1,
 "lore": 1,
 "cards": 1
@@ -46213,9 +46238,9 @@
 },
 "a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2": {
 "name": "Academy Ruins",
-"n": 9,
+"n": 8,
 "kinds": {
-"deck": 7,
+"deck": 6,
 "edh": 2
 },
 "index": "references/A.md#academy-ruins"
@@ -47149,9 +47174,9 @@
 },
 "a75445d3-1303-4bb5-89ad-26ea93fecd48": {
 "name": "Evolving Wilds",
-"n": 14,
+"n": 15,
 "kinds": {
-"deck": 7,
+"deck": 8,
 "edh": 4,
 "lore": 1,
 "cards": 2
@@ -48293,6 +48318,14 @@
 "cards": 2
 },
 "index": "references/S.md#saheeli-sublime-artificer"
+},
+"ab66f8a8-eb3d-4c2d-95e9-26a53c66b237": {
+"name": "Mask of Avacyn",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/M.md#mask-of-avacyn"
 },
 "ab6b0048-0be6-4ff2-916e-b6a246eb765f": {
 "name": "Glimpse, the Unthinkable",
@@ -50397,9 +50430,9 @@
 },
 "b2e950fb-cb7e-40a0-a311-5bbdd0477b29": {
 "name": "Sun Titan",
-"n": 9,
+"n": 8,
 "kinds": {
-"deck": 4,
+"deck": 3,
 "edh": 3,
 "rules": 1,
 "cards": 1
@@ -52000,6 +52033,14 @@
 "cards": 1
 },
 "index": "references/R.md#release-the-dogs"
+},
+"b97e6acd-a676-429e-b875-b734759ebea7": {
+"name": "Pennon Blade",
+"n": 1,
+"kinds": {
+"deck": 1
+},
+"index": "references/P.md#pennon-blade"
 },
 "b980bf11-9e12-4ee9-83c1-45706d9ae344": {
 "name": "Aetherling",
@@ -55140,9 +55181,9 @@
 },
 "c5acf2a5-40f4-433d-a74d-1cb56c521464": {
 "name": "Arid Mesa",
-"n": 18,
+"n": 19,
 "kinds": {
-"deck": 13,
+"deck": 14,
 "edh": 3,
 "cards": 2
 },
@@ -55968,9 +56009,9 @@
 },
 "c8b143ad-43ec-4e0d-a440-e348daa31391": {
 "name": "Swiftfoot Boots",
-"n": 32,
+"n": 31,
 "kinds": {
-"deck": 25,
+"deck": 24,
 "edh": 4,
 "rules": 1,
 "cards": 2
@@ -56217,9 +56258,9 @@
 },
 "c97361b5-af16-4a7b-af85-a429dbaf4ad2": {
 "name": "Mind Stone",
-"n": 13,
+"n": 12,
 "kinds": {
-"deck": 9,
+"deck": 8,
 "edh": 2,
 "cards": 2
 },
@@ -58725,8 +58766,9 @@
 },
 "d21a89eb-7c5b-459a-acc7-12b20b13bf79": {
 "name": "Strip Mine",
-"n": 3,
+"n": 4,
 "kinds": {
+"deck": 1,
 "edh": 1,
 "cards": 2
 },
@@ -60966,8 +61008,9 @@
 },
 "d99bcf62-db93-40db-8844-3d0af0756a0c": {
 "name": "Moonsilver Spear",
-"n": 1,
+"n": 2,
 "kinds": {
+"deck": 1,
 "cards": 1
 },
 "index": "references/M.md#moonsilver-spear"
@@ -61347,9 +61390,9 @@
 },
 "dab520d0-20b4-4273-ba6b-eb07f85ea433": {
 "name": "Marsh Flats",
-"n": 28,
+"n": 29,
 "kinds": {
-"deck": 23,
+"deck": 24,
 "edh": 3,
 "cards": 2
 },
@@ -61774,9 +61817,9 @@
 },
 "dbe792f9-22be-4972-b418-99a6190c4421": {
 "name": "Transmute Artifact",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/T.md#transmute-artifact"
@@ -61961,9 +62004,9 @@
 },
 "dca51281-fb21-45b6-beb4-1f13397caee2": {
 "name": "Blackblade Reforged",
-"n": 4,
+"n": 3,
 "kinds": {
-"deck": 3,
+"deck": 2,
 "lore": 1
 },
 "index": "references/B.md#blackblade-reforged"
@@ -63776,9 +63819,8 @@
 },
 "e3955573-3db5-490e-903e-65e0172a9202": {
 "name": "Hammer of Nazahn",
-"n": 2,
+"n": 1,
 "kinds": {
-"deck": 1,
 "edh": 1
 },
 "index": "references/H.md#hammer-of-nazahn"
@@ -68936,9 +68978,9 @@
 },
 "f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe": {
 "name": "Basilisk Collar",
-"n": 3,
+"n": 4,
 "kinds": {
-"deck": 2,
+"deck": 3,
 "cards": 1
 },
 "index": "references/B.md#basilisk-collar"
@@ -70409,9 +70451,9 @@
 },
 "fae37e28-e137-4177-b973-fa8b4dd8f409": {
 "name": "Generous Gift",
-"n": 9,
+"n": 8,
 "kinds": {
-"deck": 5,
+"deck": 4,
 "edh": 2,
 "cards": 2
 },

@@ -1819,7 +1819,7 @@ schema: 2
   - *2010-08-15* — If a card in your graveyard has no mana symbols in its upper right corner (because it's a land card, for example), its mana value is 0.
   - *2010-08-15* — If the mana cost of a card in your graveyard includes {X}, X is considered to be 0.
   - *2010-08-15* — The mana value of a card in your graveyard is determined solely by the mana symbols printed in its upper right corner. The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has mana value 5.
-- **Referenced in:** 9 pages (4 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#sun-titan)
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#sun-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/178/sun-titan) · oracle_id `b2e950fb-cb7e-40a0-a311-5bbdd0477b29` · printing: SOC #178 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suntouched Myr
