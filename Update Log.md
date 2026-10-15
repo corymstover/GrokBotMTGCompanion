@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Knowledge Index.md", "Front-Matter Schema.md", "Contradictions & Retcons Log.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md"]
+related: ["Knowledge Index.md", "Contradictions & Retcons Log.md", "Front-Matter Schema.md", "Conflicts & Arcs.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)](#2026-10-15--bot-cycle-24-phase-6-newest-arcs-pre-2019-arcs-dossiers)
 - [2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)](#2026-10-15--bot-cycle-23-lore-decks-85-standard-incl-lands)
 - [2026-10-15 — Bot cycle 22 (Phase 6: primary-source ingestion & thin arcs)](#2026-10-15--bot-cycle-22-phase-6-primary-source-ingestion--thin-arcs)
 - [2026-10-15 — Bot cycle 21 (Phase 6: lore-themed deckbuilding)](#2026-10-15--bot-cycle-21-phase-6-lore-themed-deckbuilding)
@@ -37,6 +38,28 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 24 (Phase 6: newest arcs, pre-2019 arcs, dossiers)
+Issues [#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15.
+
+- [Conflicts & Arcs](Conflicts%20%26%20Arcs.md): the **5 newest arcs** are rewritten in Cause · Key beats · Outcome · Lasting consequences · Sources format from every fetched episode plus the Planeswalker's Guide and Legends pages: Tarkir: Dragonstorm (7 eps.), Edge of Eternities (11), Lorwyn Eclipsed (7), Secrets of Strixhaven (6), Reality Fracture (10).
+- Pre-2019 arcs: **Kaladesh**, **Amonkhet** and **Ixalan** were rewritten from the 2016–18 web fiction (14 + 12 + 12 episodes). **Alara** got Ajani/Sarkhan beats and **Mirrodin** got the New Phyrexia faction guides. A **new Theros (2013–14) arc** draws on the Born of the Gods / Journey into Nyx guides and the THB summary (⚠️ the *Godsend* novella was not fetched). Totals: **34 arcs** in full format, 40 entries. Master Timeline row 4a added.
+- +46 official pages fetched, for **584** in [Lore Primary Sources](Lore%20Primary%20Sources.md). `build_primary_sources.py` gains the THS, KLD/AER, AKH/HOU and XLN/RIX arc codes.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): **+4 cited entries** (15 total):
+  - Jace: dead → fragments → dead. This resolves a queued item.
+  - Oko's origin revealed (Oona's first avatar).
+  - Tam revealed as Jace's creation.
+  - Did Bolas create Amonkhet? (Liliana's belief vs later text).
+- Fixes:
+  - Ixalan profile misquote corrected ("strength of empire, command over nature").
+  - Jace's death is now dated to RF Ep. 9, not Ep. 10, and the spark leaves in Ep. 10 (Characters Index).
+  - The Lorwyn Eclipsed claim that Ajani said Jace was "unmade" is replaced with the verbatim exchange ("Who died?" / "Jace.").
+  - The unverified "Liliana and Vraska carry his body out" line is removed.
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74 started):
+  - New **Tam** dossier.
+  - New timeline rows for Jace (Ixalan; LE/RF), Elspeth (Theros 2014), Ajani (Alara, Aether Revolt oath) and Vraska (Ixalan, Reality Fracture).
+  - Oko's spark/origin is now cited. Characters Index entries for Oko and Jace are updated.
+- Every new quote was checked verbatim against the fetched text (0 misses in the new sections). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 23 (lore decks: 85% standard incl. lands)
 Cory's request (run before the planned lore cycle, now renumbered cycle 24); follows [#79](https://github.com/corymstover/GrokBotMTGCompanion/issues/79)–[#81](https://github.com/corymstover/GrokBotMTGCompanion/issues/81).

@@ -5,13 +5,13 @@ tags: [sources, primary, planeswalkers-guide, story-episodes]
 issues: [73]
 generated_by: scripts/build_primary_sources.py
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md"]
+related: ["Conflicts & Arcs.md", "Side-Media Index.md", "Contradictions & Retcons Log.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 
 # Lore Primary Sources
 
-> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **538 pages** (2,698,375 words), incl. **60 Planeswalker's Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) and the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) in cycle 22 were matched against this text.
+> **Generated (Bot cycle 22, [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73)).** Official Wizards pages fetched for the Phase 6 primary-source pass: **584 pages** (2,705,205 words), incl. **60 Planeswalker's Guides**. Page text is cached locally (`.cache/story/text22/`, gitignored) and is never committed; this page lists titles, dates and URLs only. Quotes added to [Conflicts & Arcs](Conflicts%20%26%20Arcs.md), the [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) and [Planeswalker Dossiers](Planeswalker%20Dossiers.md) in cycles 22 and 24 were matched against this text (cycle 24 added pre-2019 web fiction for Kaladesh, Amonkhet, Ixalan and Theros).
 
 **Flags:** ✅ deepened this cycle (Cause · Key beats · Outcome · Lasting consequences, primary quotes) · 📚 fetched, deepening queued · ⚠️ secondary material (novels / e-books / comics) is **not** in this list — see [Side-Media Index](Side-Media%20Index.md).
 
@@ -38,12 +38,16 @@ schema: 2
 | BLB | ✅ | 8 | 39,057 | [Bloomburrow (2024)](Conflicts%20%26%20Arcs.md#bloomburrow-2024) |
 | DSK | ✅ | 7 | 38,838 | [Duskmourn: House of Horror (2024)](Conflicts%20%26%20Arcs.md#duskmourn-house-of-horror-2024) |
 | DFT | ✅ | 10 | 56,994 | [Aetherdrift (2025)](Conflicts%20%26%20Arcs.md#aetherdrift-2025) |
-| TDM | 📚 | 14 | 74,271 | [Tarkir: Dragonstorm (2025)](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) |
-| EOE | 📚 | 18 | 121,878 | [Edge of Eternities (2025)](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) |
-| ECL | 📚 | 12 | 65,794 | [Lorwyn Eclipsed (2025–26)](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526) |
-| SOS | 📚 | 14 | 75,885 | [Secrets of Strixhaven (2026)](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) |
-| RF | 📚 | 12 | 75,982 | [Jace's Echoverse (Reality Fracture)](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) |
-| other (older arcs, profiles, features) | 📚 | 360 | 1,724,679 | — |
+| TDM | ✅ | 14 | 74,271 | [Tarkir: Dragonstorm (2025)](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) |
+| EOE | ✅ | 18 | 121,878 | [Edge of Eternities (2025)](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) |
+| ECL | ✅ | 12 | 65,794 | [Lorwyn Eclipsed (2025–26)](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526) |
+| SOS | ✅ | 14 | 75,885 | [Secrets of Strixhaven (2026)](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) |
+| RF | ✅ | 12 | 75,982 | [Jace's Echoverse (Reality Fracture)](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) |
+| THS | ✅ | 6 | 14,418 | [Theros: Xenagos's ascension & Elspeth's fall](Conflicts%20%26%20Arcs.md#theros-xenagoss-ascension--elspeths-fall) |
+| KLD/AER | ✅ | 17 | 110,994 | [Kaladesh revolt](Conflicts%20%26%20Arcs.md#kaladesh-revolt) |
+| AKH/HOU | ✅ | 16 | 78,651 | [Amonkhet & the God-Pharaoh](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) |
+| XLN/RIX | ✅ | 17 | 81,346 | [Ixalan & the Immortal Sun](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) |
+| other (older arcs, profiles, features) | 📚 | 350 | 1,446,100 | — |
 
 ## Planeswalker's Guides
 | Date | Title | Words |

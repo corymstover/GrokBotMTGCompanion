@@ -260,7 +260,7 @@ schema: 2
 ### Jace Beleren
 - **Who:** Mind mage from Vryn; became "the Theorist", building the Echoverse from the Meditation Realm.
 - **Status (late 2026):** ✅ Dead — killed in the Echoverse's collapse; spark passed to Tam.
-- **Detail:** Compleated; presumed dead after the invasion; masqueraded as Ashiok on Eldraine (BLB Ep. 1); lost control of a spell in the Meditation Realm (LE Ep. 2); built the Echoverse; died at its end (RF Ep. 10).
+- **Detail:** Compleated; presumed dead after the invasion; masqueraded as Ashiok on Eldraine (BLB Ep. 1); lost control of a spell in the Meditation Realm (LE Ep. 2); built the Echoverse; died at its end ("goes still", RF Ep. 9); his spark left his body in RF Ep. 10 ([Retcons Log](Contradictions%20%26%20Retcons%20Log.md#jace-dead-then-fragments-then-dead)).
   - Let Ugin capture Bolas while letting everyone think Bolas died (LE Ep. 2).
   - Disguised as Ashiok, told Rowan "The spark is gone… for you, and for many others" (WOE Ep. 3).
 - **See also:** Planes: [Echoverse Arcavios / Hexhaven Academy](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era), [Ravnica](Planes%20Index.md#planes-with-official-profiles), [Vryn](Planes%20Index.md#vryn) · Arcs: [Phyrexian Invasion](Conflicts%20%26%20Arcs.md#phyrexian-invasion-of-the-multiverse), [Jace's Echoverse](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) · Timeline: [Phyrexian Invasion](Master%20Timeline.md#phyrexian-invasion), [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion)
@@ -367,7 +367,7 @@ schema: 2
 - **Sources:** [profile](https://magic.wizards.com/en/story/tezzeret-planeswalker) · [EOE Ep. 11](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11)
 
 ### Oko
-- **Who:** Shapeshifting trickster; Kellan's father.
+- **Who:** Shapeshifting trickster; Kellan's father. Revealed as "the first avatar of Oona", a Lorwyn-Shadowmoor faerie and Maralen's brother ([Legends of ECL](https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed); [Retcons Log](Contradictions%20%26%20Retcons%20Log.md#okos-origin-revealed)).
 - **Status (late 2026):** ✅ Active.
 - **Detail:** Heist leader on Thunder Junction; appears in Lorwyn Eclipsed.
 - **See also:** Planes: [Thunder Junction](Planes%20Index.md#other-planes-in-recent-stories-omenpath-era), [Lorwyn-Shadowmoor](Planes%20Index.md#planes-with-official-profiles) · Arcs: [Omenpath-era arcs](Conflicts%20%26%20Arcs.md#omenpath-era-arcs-20242026) · Timeline: [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion)

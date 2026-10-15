@@ -301,22 +301,22 @@ schema: 2
 
 ### Tam, Mindful First-Year
 
-[Card entry](../cards/T/ta.md#tam-mindful-first-year) · **1 pages** (lore & story 1)
+[Card entry](../cards/T/ta.md#tam-mindful-first-year) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Tam, Observant Sequencer // Deep Sight
 
-[Card entry](../cards/T/ta.md#tam-observant-sequencer--deep-sight) · **1 pages** (lore & story 1)
+[Card entry](../cards/T/ta.md#tam-observant-sequencer--deep-sight) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Tam, the Possibility
 
-[Card entry](../cards/T/ta.md#tam-the-possibility) · **2 pages** (rules 1 · lore & story 1)
+[Card entry](../cards/T/ta.md#tam-the-possibility) · **3 pages** (rules 1 · lore & story 2)
 
 - **Rules (1):** [Keyword Encyclopedia → Proliferate](../Keyword%20Encyclopedia.md#proliferate)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Tandem Lookout
 

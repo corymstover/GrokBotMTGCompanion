@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Master Timeline.md", "Characters Index.md", "Lore Primary Sources.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -30,6 +30,11 @@ schema: 2
   - [Tamiyo after compleation](#tamiyo-after-compleation)
   - [Jace compleated, then healed](#jace-compleated-then-healed)
   - ["Ashiok" on Eldraine was Jace](#ashiok-on-eldraine-was-jace)
+- [Added Bot cycle 24](#added-bot-cycle-24)
+  - [Jace: dead, then fragments, then dead](#jace-dead-then-fragments-then-dead)
+  - [Oko's origin revealed](#okos-origin-revealed)
+  - [Tam revealed as Jace's creation](#tam-revealed-as-jaces-creation)
+  - [Did Bolas create Amonkhet?](#did-bolas-create-amonkhet)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -149,13 +154,51 @@ Primary-source pass ([#73](https://github.com/corymstover/GrokBotMTGCompanion/is
 | **KB treatment** | Credit WOE "Ashiok" actions (incl. freeing Eriette) to Jace in disguise; the real Ashiok is not shown on Eldraine in the fetched text. |
 | **Related** | [Conflicts → WOE](Conflicts%20%26%20Arcs.md#wilds-of-eldraine-2023) · [Bloomburrow](Conflicts%20%26%20Arcs.md#bloomburrow-2024) |
 
+## Added Bot cycle 24
+Recent-arc and pre-2019 primary-source pass ([#72](https://github.com/corymstover/GrokBotMTGCompanion/issues/72), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Jace: dead, then fragments, then dead
+| Field | Detail |
+|---|---|
+| **Type** | 🔄 in-world revision (a reported death is later qualified) |
+| **Earlier statement** | In the Meditation Realm, "he shattered like glass" ([TDM Ep. 6](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love)). Ajani tells Liliana who died: "Jace." ([LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber)). |
+| **Later / overriding statement** | "When our original plan failed, Jace was unmade in the Meditation Realm. But pieces of him—like me—lingered" ([PW Guide to Reality Fracture](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture)). Jace then "goes still" in Vraska's arms ([RF Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid)), and his spark leaves "out of his chest" ([RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday)). |
+| **KB treatment** | TDM→SOS: Jace is *believed* dead, but the Theorist and his fragments survive. After RF Ep. 9 he is dead. Characters Index status = dead (RF). |
+| **Related** | [Conflicts → TDM](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025) · [Echoverse](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture) · [Jace compleated, then healed](#jace-compleated-then-healed) |
+
+### Oko's origin revealed
+| Field | Detail |
+|---|---|
+| **Type** | 📝 reveal (an earlier unknown is filled in) |
+| **Earlier statement** | "Though his past is a mystery, Oko has likely been causing mischief throughout the Multiverse for many years" ([Oko profile](https://magic.wizards.com/en/story/oko-planeswalker)). |
+| **Later / overriding statement** | "Oko was the first avatar of Oona and an abysmal failure"; "Oko was quick to leave the plane after he sparked" ([Legends of Lorwyn Eclipsed](https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed)). In the story he calls Maralen "my sister" and Oona "our maker" ([LE Ep. 7](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace)). |
+| **KB treatment** | Oko is a Lorwyn-Shadowmoor faerie, created as Oona's avatar. The profile's "mystery" wording is pre-reveal. |
+| **Related** | [Characters → Oko](Characters%20Index.md#oko) · [Conflicts → Lorwyn Eclipsed](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526) |
+
+### Tam revealed as Jace's creation
+| Field | Detail |
+|---|---|
+| **Type** | 📝 reveal |
+| **Earlier statement** | Tam is introduced as a student: "Tam is unassuming, studious, and a little intense" ([Legends of Lorwyn Eclipsed](https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed)). |
+| **Later / overriding statement** | Tam reflects that "So long as there was a Tam, there would be blood. It was her nature. The very purpose of her creation" ([SOS Ep. 6](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven)). "Her duty to a future without suffering demanded betrayal" ([RF Ep. 1](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive)). |
+| **KB treatment** | Tam = an artificial being created by Jace/the Theorist who infiltrated Strixhaven. She ends RF carrying Jace's spark. |
+| **Related** | [Characters → Tam](Characters%20Index.md#tam) · [Conflicts → SOS](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) |
+
+### Did Bolas create Amonkhet?
+| Field | Detail |
+|---|---|
+| **Type** | ⚠️ in-world misinformation (a character's belief vs. later text) |
+| **Earlier statement** | Liliana, about Amonkhet: "Bolas controls the place completely. As far as I know, he created it" ([Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01)). |
+| **Later / overriding statement** | Bolas "came and killed but did not stay and left an entire culture with a crude outline of whatever existed before" ([The Writing on the Wall](https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12)). "Several decades ago" he came and "prepared—layer upon layer of preparations" ([Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26)). |
+| **KB treatment** | Amonkhet existed before Bolas, who conquered and reshaped it. Liliana's line reflects her limited knowledge. |
+| **Related** | [Conflicts → Amonkhet](Conflicts%20%26%20Arcs.md#amonkhet--the-god-pharaoh) · [Conflicts → Kaladesh](Conflicts%20%26%20Arcs.md#kaladesh-revolt) |
+
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
 | Ixalan Rivals alternate endings vs later LCI canon | Alternate endings page exists; which branches bind? | [Alternate Endings](https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21) + LCI episodes |
 | Spark status lists after MOM Aftermath | Multiple characters desparked; later stories restore or clarify unevenly | Characters Index spark table + each dossier's sources |
-| Jace "unmade" report (LE Ep. 2) vs RF Ep. 10 death | Post-healing reports only; see [Jace compleated, then healed](#jace-compleated-then-healed) | TDM Ep. 6–7, LE Ep. 2, RF Ep. 10 |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

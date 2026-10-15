@@ -2398,7 +2398,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6004 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-11-17* — "Hexproof from each color" is shorthand for hexproof from white, from blue, from black, from red, and from green. Colorless is not a color.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tam-mindful-first-year)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#tam-mindful-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/245/tam-mindful-first-year) · oracle_id `096a878e-cff0-430a-90b5-031ecb9bfe1b` · printing: ECL #245 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tam, Observant Sequencer // Deep Sight
@@ -2427,7 +2427,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tam-observant-sequencer--deep-sight)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#tam-observant-sequencer--deep-sight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/237/tam-observant-sequencer-deep-sight) · oracle_id `702e871d-90d8-4468-8f69-5ae42af2c9d3` · printing: SOS #237 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tam's Resistance
@@ -2469,7 +2469,7 @@ schema: 2
   - *2026-08-21* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2026-08-21* — While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
   - *2026-08-21* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
-- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/T.md#tam-the-possibility)
+- **Referenced in:** 3 pages (1 rules · 2 lore & story) → [reverse index](../../references/T.md#tam-the-possibility)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/276/tam-the-possibility) · oracle_id `c92c7744-0c92-4a36-9ada-4ffca812009e` · printing: FRA #276 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tana, the Bloodsower

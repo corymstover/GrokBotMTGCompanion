@@ -1,4 +1,50 @@
 date,title,kind,arc,words,url
+,Ajani Goldmane | Planeswalker,story,,69,https://magic.wizards.com/en/story/ajani-goldmane-planeswalker
+,Alara,story,,321,https://magic.wizards.com/en/story/alara-plane
+,Amonkhet,story,AKH/HOU,296,https://magic.wizards.com/en/story/amonkhet-plane
+,Angrath | Planeswalker,story,,41,https://magic.wizards.com/en/story/angrath-planeswalker
+,Ashiok | Planeswalker,story,,42,https://magic.wizards.com/en/story/ashiok-planeswalker
+,Avishkar,story,,272,https://magic.wizards.com/en/story/avishkar-plane
+,Chandra Nalaar | Planeswalker,story,,99,https://magic.wizards.com/en/story/chandra-nalaar-planeswalker
+,Dominaria,story,,308,https://magic.wizards.com/en/story/dominaria-plane
+,Dovin Baan | Planeswalker,story,,42,https://magic.wizards.com/en/story/dovin-baan-planeswalker
+,Elspeth Tirel | Planeswalker,story,,103,https://magic.wizards.com/en/story/elspeth-tirel-planeswalker
+,Fiora,story,,262,https://magic.wizards.com/en/story/fiora-plane
+,Gideon Jura | Planeswalker,story,,27,https://magic.wizards.com/en/story/gideon-jura-planeswalker
+,Huatli | Planeswalker,story,,89,https://magic.wizards.com/en/story/huatli-planeswalker
+,Innistrad,story,,302,https://magic.wizards.com/en/story/innistrad-plane
+,Ixalan,story,XLN/RIX,234,https://magic.wizards.com/en/story/ixalan-plane
+,Jace Beleren | Planeswalker,story,,111,https://magic.wizards.com/en/story/jace-beleren-planeswalker
+,Kamigawa,story,,334,https://magic.wizards.com/en/story/kamigawa-plane
+,Karn | Planeswalker,story,,123,https://magic.wizards.com/en/story/karn-planeswalker
+,Kaya | Planeswalker,story,,98,https://magic.wizards.com/en/story/kaya-planeswalker
+,Kiora | Planeswalker,story,,41,https://magic.wizards.com/en/story/kiora-planeswalker
+,Koth of the Hammer | Planeswalker,story,,66,https://magic.wizards.com/en/story/koth-planeswalker
+,Liliana Vess | Planeswalker,story,,44,https://magic.wizards.com/en/story/liliana-vess-planeswalker
+,Lorwyn & Shadowmoor,story,,326,https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane
+,Mirrodin,story,,268,https://magic.wizards.com/en/story/mirrodin-plane
+,Nahiri | Planeswalker,story,,91,https://magic.wizards.com/en/story/nahiri-planeswalker
+,Narset | Planeswalker,story,,74,https://magic.wizards.com/en/story/narset-planeswalker
+,New Phyrexia,story,,178,https://magic.wizards.com/en/story/new-phyrexia-plane
+,Nicol Bolas | Planeswalker,story,,75,https://magic.wizards.com/en/story/nicol-bolas-planeswalker
+,Nissa Revane | Planeswalker,story,,62,https://magic.wizards.com/en/story/nissa-revane-planeswalker
+,Oko | Planeswalker,story,,67,https://magic.wizards.com/en/story/oko-planeswalker
+,Ravnica,story,,305,https://magic.wizards.com/en/story/ravnica-plane
+,Saheeli | Planeswalker,story,,45,https://magic.wizards.com/en/story/saheeli-rai-planeswalker
+,Samut | Planeswalker,story,,85,https://magic.wizards.com/en/story/samut-planeswalker
+,Sarkhan Vol | Planeswalker,story,,452,https://magic.wizards.com/en/story/sarkhan-vol-planeswalker
+,Shandalar,story,,82,https://magic.wizards.com/en/story/shandalar-plane
+,Sorin Markov | Planeswalker,story,,77,https://magic.wizards.com/en/story/sorin-markov-planeswalker
+,Tamiyo | Planeswalker,story,,72,https://magic.wizards.com/en/story/tamiyo-planeswalker
+,Tarkir,story,,282,https://magic.wizards.com/en/story/tarkir-plane
+,Teferi | Planeswalker,story,,136,https://magic.wizards.com/en/story/teferi-planeswalker
+,Tezzeret | Planeswalker,story,,57,https://magic.wizards.com/en/story/tezzeret-planeswalker
+,Theros,story,THS,250,https://magic.wizards.com/en/story/theros-plane
+,Ugin | Planeswalker,story,,37,https://magic.wizards.com/en/story/ugin-planeswalker
+,Venser | Planeswalker,story,,75,https://magic.wizards.com/en/story/venser-planeswalker
+,Vraska | Planeswalker,story,,71,https://magic.wizards.com/en/story/vraska-planeswalker
+,Xenagos | Planeswalker,story,,78,https://magic.wizards.com/en/story/xenagos-planeswalker
+,Zendikar,story,,261,https://magic.wizards.com/en/story/zendikar-plane
 2007-02-12,Maelstrom,story,,2269,https://magic.wizards.com/en/news/magic-story/maelstrom
 2007-02-12,Torrent,story,,2737,https://magic.wizards.com/en/news/magic-story/torrent
 2009-08-09,A Planeswalker's Guide to Zendikar,planeswalkers-guide,,3048,https://magic.wizards.com/en/news/feature/a-planeswalkers-guide-to-zendikar
@@ -37,10 +83,10 @@ date,title,kind,arc,words,url
 2012-11-19,Planeswalker's Guide to Return to Ravnica: Part 3,planeswalkers-guide,,2607,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-3
 2012-12-05,Planeswalker's Guide to Gatecrash: Part 1,planeswalkers-guide,,3069,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-1
 2012-12-12,Planeswalker's Guide to Gatecrash: Part 2,planeswalkers-guide,,4694,https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-gatecrash-part-2
-2013-08-21,"Planeswalker's Guide to Theros, Part 1",planeswalkers-guide,,2166,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21
-2013-08-28,"Planeswalker's Guide to Theros, Part 2",planeswalkers-guide,,4538,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-2-2013-08-28
-2013-09-04,"Planeswalker's Guide to Theros, Part 3",planeswalkers-guide,,4985,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-3-2013-09-04
-2014-01-08,Planeswalker's Guide to Born of the Gods,planeswalkers-guide,,1000,https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08
+2013-08-21,"Planeswalker's Guide to Theros, Part 1",planeswalkers-guide,THS,2166,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21
+2013-08-28,"Planeswalker's Guide to Theros, Part 2",planeswalkers-guide,THS,4538,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-2-2013-08-28
+2013-09-04,"Planeswalker's Guide to Theros, Part 3",planeswalkers-guide,THS,4985,https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-3-2013-09-04
+2014-01-08,Planeswalker's Guide to Born of the Gods,planeswalkers-guide,THS,1000,https://magic.wizards.com/en/news/feature/planeswalkers-guide-born-gods-2014-01-08
 2014-01-15,The Nature of Identity,story,,1547,https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15-0
 2014-01-16,The Nature of Identity,story,,1549,https://magic.wizards.com/en/news/magic-story/nature-identity-2014-01-15
 2014-01-23,Cowardice of the Hero,story,,3152,https://magic.wizards.com/en/news/magic-story/cowardice-hero-2014-01-22
@@ -53,7 +99,7 @@ date,title,kind,arc,words,url
 2014-03-13,The Gorgon and the Guildpact,story,,3326,https://magic.wizards.com/en/news/magic-story/gorgon-and-guildpact-2014-03-12
 2014-03-19,The Oracle of Ephara,story,,4361,https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19-0
 2014-03-20,The Oracle of Ephara,story,,4361,https://magic.wizards.com/en/news/magic-story/oracle-ephara-2014-03-19
-2014-04-02,Planeswalker's Guide to Journey into Nyx,planeswalkers-guide,,1479,https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02
+2014-04-02,Planeswalker's Guide to Journey into Nyx,planeswalkers-guide,THS,1479,https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02
 2014-04-09,"Ajani, Mentor of Heroes",story,,3656,https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17
 2014-04-17,Desperate Stand,story,,1742,https://magic.wizards.com/en/news/magic-story/desperate-stand-2014-04-16
 2014-04-24,Dreams of the City,story,,3528,https://magic.wizards.com/en/news/magic-story/dreams-city-2014-04-23
@@ -134,63 +180,63 @@ date,title,kind,arc,words,url
 2016-08-16,"Proclamation by Adriana, Captain of the Guard",story,,725,https://magic.wizards.com/en/news/magic-story/proclamation-adriana-captain-guard-2016-08-16
 2016-08-17,Bloody Instructions,story,,2831,https://magic.wizards.com/en/news/magic-story/bloody-instructions
 2016-08-24,Leovold's Dossiers,story,,2664,https://magic.wizards.com/en/news/magic-story/leovolds-dossiers-2016-08-24
-2016-08-29,Homesick,story,,11251,https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29
-2016-08-31,A Time for Innovation,story,,8233,https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31
-2016-09-05,Torch of Defiance,story,,3971,https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07
-2016-09-14,Renegade Prime,story,,5793,https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14
-2016-09-21,Born of Aether,story,,4931,https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21
-2016-09-28,Bottled Up,story,,6307,https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28
-2016-10-05,Release,story,,11346,https://magic.wizards.com/en/news/magic-story/release-2016-10-05
-2016-10-12,In This Very Arena,story,,5323,https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12
-2016-10-19,A Grateful Consulate,story,,3638,https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19
+2016-08-29,Homesick,story,KLD/AER,11251,https://magic.wizards.com/en/news/magic-story/homesick-2016-08-29
+2016-08-31,A Time for Innovation,story,KLD/AER,8233,https://magic.wizards.com/en/news/magic-story/time-innovation-2016-08-31
+2016-09-05,Torch of Defiance,story,KLD/AER,3971,https://magic.wizards.com/en/news/magic-story/torch-defiance-2016-09-07
+2016-09-14,Renegade Prime,story,KLD/AER,5793,https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14
+2016-09-21,Born of Aether,story,KLD/AER,4931,https://magic.wizards.com/en/news/magic-story/born-aether-2016-09-21
+2016-09-28,Bottled Up,story,KLD/AER,6307,https://magic.wizards.com/en/news/magic-story/bottled-2016-09-28
+2016-10-05,Release,story,KLD/AER,11346,https://magic.wizards.com/en/news/magic-story/release-2016-10-05
+2016-10-12,In This Very Arena,story,KLD/AER,5323,https://magic.wizards.com/en/news/magic-story/very-arena-2016-10-12
+2016-10-19,A Grateful Consulate,story,KLD/AER,3638,https://magic.wizards.com/en/news/magic-story/grateful-consulate-2016-10-19
 2016-10-26,It's Time to Talk Commander (2016 Edition)!,story,,1931,https://magic.wizards.com/en/news/magic-story/its-time-talk-commander-2016-edition-2016-10-26
-2016-11-02,Planeswalker's Guide to Kaladesh,planeswalkers-guide,,3867,https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02
+2016-11-02,Planeswalker's Guide to Kaladesh,planeswalkers-guide,KLD/AER,3867,https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-kaladesh-2016-11-02
 2016-11-10,The Making of Kaladesh,story,,2999,https://magic.wizards.com/en/news/magic-story/making-kaladesh-2016-11-09
 2016-11-30,In the Dead of Night,story,,6788,https://magic.wizards.com/en/news/magic-story/dead-night-2016-11-30
-2016-12-08,Quiet Moments,story,,4835,https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07
-2016-12-15,Breakthrough,story,,7461,https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14
+2016-12-08,Quiet Moments,story,KLD/AER,4835,https://magic.wizards.com/en/news/magic-story/quiet-moments-2016-12-07
+2016-12-15,Breakthrough,story,KLD/AER,7461,https://magic.wizards.com/en/news/magic-story/breakthrough-2016-12-14
 2016-12-22,Under the Silver Moon,story,,7760,https://magic.wizards.com/en/news/magic-story/under-silver-moon-2016-03-02
 2016-12-29,A Gaze Blank and Pitiless,story,,8635,https://magic.wizards.com/en/news/magic-story/gaze-blank-and-pitiless-2016-03-09
-2017-01-03,Revolution Begins,story,,5890,https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02
-2017-01-12,The Skies over Ghirapur,story,,8485,https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11
-2017-01-18,Breaking Points,story,,5017,https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18
-2017-01-26,Puppets,story,,4390,https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25
-2017-02-02,Renewal,story,,10256,https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01
+2017-01-03,Revolution Begins,story,KLD/AER,5890,https://magic.wizards.com/en/news/magic-story/revolution-begins-2017-01-02
+2017-01-12,The Skies over Ghirapur,story,KLD/AER,8485,https://magic.wizards.com/en/news/magic-story/skies-over-ghirapur-2017-01-11
+2017-01-18,Breaking Points,story,KLD/AER,5017,https://magic.wizards.com/en/news/magic-story/breaking-points-2017-01-18
+2017-01-26,Puppets,story,KLD/AER,4390,https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25
+2017-02-02,Renewal,story,KLD/AER,10256,https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01
 2017-03-29,Impact,story,,7834,https://magic.wizards.com/en/news/magic-story/impact-2017-03-29
 2017-04-01,Burn,story,,14441,https://magic.wizards.com/en/news/magic-story/burn
-2017-04-05,Trust,story,,5109,https://magic.wizards.com/en/news/magic-story/trust-2017-04-05
-2017-04-12,The Writing on the Wall,story,,5176,https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12
-2017-04-19,Servants,story,,4235,https://magic.wizards.com/en/news/magic-story/servants-2017-04-19
-2017-04-26,The Hand That Moves,story,,3762,https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26
-2017-05-03,Brazen,story,,8269,https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03
-2017-05-10,Trespass,story,,6505,https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10
-2017-05-17,Judgment,story,,8036,https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17
+2017-04-05,Trust,story,AKH/HOU,5109,https://magic.wizards.com/en/news/magic-story/trust-2017-04-05
+2017-04-12,The Writing on the Wall,story,AKH/HOU,5176,https://magic.wizards.com/en/news/magic-story/writing-wall-2017-04-12
+2017-04-19,Servants,story,AKH/HOU,4235,https://magic.wizards.com/en/news/magic-story/servants-2017-04-19
+2017-04-26,The Hand That Moves,story,AKH/HOU,3762,https://magic.wizards.com/en/news/magic-story/hand-moves-2017-04-26
+2017-05-03,Brazen,story,AKH/HOU,8269,https://magic.wizards.com/en/news/magic-story/brazen-2017-05-03
+2017-05-10,Trespass,story,AKH/HOU,6505,https://magic.wizards.com/en/news/magic-story/trespass-2017-05-10
+2017-05-17,Judgment,story,AKH/HOU,8036,https://magic.wizards.com/en/news/magic-story/judgment-2017-05-17
 2017-05-31,Pride of the Kraul,story,,3908,https://magic.wizards.com/en/news/magic-story/pride-kraul-2017-05-31
-2017-06-07,The Hour of Revelation,story,,3839,https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07
-2017-06-14,Feast,story,,4482,https://magic.wizards.com/en/news/magic-story/feast-2017-06-14
-2017-06-21,Hour of Glory,story,,3695,https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21
-2017-06-28,The Hour of Promise,story,,5760,https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28
-2017-07-05,Favor,story,,3133,https://magic.wizards.com/en/news/magic-story/favor-2017-07-05
-2017-07-12,Hour of Eternity,story,,4083,https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12
-2017-07-19,Endure,story,,6096,https://magic.wizards.com/en/news/magic-story/endure-2017-07-19
-2017-07-26,Hour of Devastation,story,,6175,https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26
-2017-09-06,"Jace, Alone",story,,6541,https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06
-2017-09-13,A Question of Confidence,story,,6413,https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13
-2017-09-20,The Talented Captain Vraska,story,,7182,https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20
-2017-09-27,The Shapers,story,,3207,https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27
-2017-10-04,Something Else Entirely,story,,5223,https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04
-2017-10-11,"The Race, Part 1",story,,7845,https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11
-2017-10-18,"The Race, Part 2",story,,5873,https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18
-2017-11-01,"Planeswalker's Guide to Ixalan, Part 1",planeswalkers-guide,,2424,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01
-2017-11-08,"Planeswalker's Guide to Ixalan, Part 2",planeswalkers-guide,,2862,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-2-2017-11-08
+2017-06-07,The Hour of Revelation,story,AKH/HOU,3839,https://magic.wizards.com/en/news/magic-story/hour-revelation-2017-06-07
+2017-06-14,Feast,story,AKH/HOU,4482,https://magic.wizards.com/en/news/magic-story/feast-2017-06-14
+2017-06-21,Hour of Glory,story,AKH/HOU,3695,https://magic.wizards.com/en/news/magic-story/hour-glory-2017-06-21
+2017-06-28,The Hour of Promise,story,AKH/HOU,5760,https://magic.wizards.com/en/news/magic-story/hour-promise-2017-06-28
+2017-07-05,Favor,story,AKH/HOU,3133,https://magic.wizards.com/en/news/magic-story/favor-2017-07-05
+2017-07-12,Hour of Eternity,story,AKH/HOU,4083,https://magic.wizards.com/en/news/magic-story/hour-eternity-2017-07-12
+2017-07-19,Endure,story,AKH/HOU,6096,https://magic.wizards.com/en/news/magic-story/endure-2017-07-19
+2017-07-26,Hour of Devastation,story,AKH/HOU,6175,https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26
+2017-09-06,"Jace, Alone",story,XLN/RIX,6541,https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06
+2017-09-13,A Question of Confidence,story,XLN/RIX,6413,https://magic.wizards.com/en/news/magic-story/question-confidence-2017-09-13
+2017-09-20,The Talented Captain Vraska,story,XLN/RIX,7182,https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20
+2017-09-27,The Shapers,story,XLN/RIX,3207,https://magic.wizards.com/en/news/magic-story/shapers-2017-09-27
+2017-10-04,Something Else Entirely,story,XLN/RIX,5223,https://magic.wizards.com/en/news/magic-story/something-else-entirely-2017-10-04
+2017-10-11,"The Race, Part 1",story,XLN/RIX,7845,https://magic.wizards.com/en/news/magic-story/race-part-1-2017-10-11
+2017-10-18,"The Race, Part 2",story,XLN/RIX,5873,https://magic.wizards.com/en/news/magic-story/race-part-2-2017-10-18
+2017-11-01,"Planeswalker's Guide to Ixalan, Part 1",planeswalkers-guide,XLN/RIX,2424,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-1-2017-11-01
+2017-11-08,"Planeswalker's Guide to Ixalan, Part 2",planeswalkers-guide,XLN/RIX,2862,https://magic.wizards.com/en/news/feature/planeswalkers-guide-ixalan-part-2-2017-11-08
 2017-11-30,World Class,story,,4083,https://magic.wizards.com/en/news/magic-story/world-class-2017-11-29
-2018-01-11,The Flood,story,,7669,https://magic.wizards.com/en/news/magic-story/flood-2018-01-10
-2018-01-18,Glimpse the Far Side of the Sun,story,,5713,https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17
-2018-01-25,The Arbiter of Law Left Chaos in His Wake,story,,5775,https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24
-2018-02-01,Sabotage,story,,5095,https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31
-2018-02-08,Who Tells the Stories,story,,3686,https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07
-2018-02-15,Wool Over the Eyes,story,,4162,https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14
-2018-02-22,Rivals of Ixalan Magic Story Alternate Endings,story,,1442,https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21
+2018-01-11,The Flood,story,XLN/RIX,7669,https://magic.wizards.com/en/news/magic-story/flood-2018-01-10
+2018-01-18,Glimpse the Far Side of the Sun,story,XLN/RIX,5713,https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17
+2018-01-25,The Arbiter of Law Left Chaos in His Wake,story,XLN/RIX,5775,https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24
+2018-02-01,Sabotage,story,XLN/RIX,5095,https://magic.wizards.com/en/news/magic-story/sabotage-2018-01-31
+2018-02-08,Who Tells the Stories,story,XLN/RIX,3686,https://magic.wizards.com/en/news/magic-story/who-tells-stories-2018-02-07
+2018-02-15,Wool Over the Eyes,story,XLN/RIX,4162,https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14
+2018-02-22,Rivals of Ixalan Magic Story Alternate Endings,story,XLN/RIX,1442,https://magic.wizards.com/en/news/magic-story/rivals-ixalan-magic-story-alternate-endings-2018-02-21
 2018-03-21,Return to Dominaria: Episode 1,story,,5857,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-1-2018-03-21
 2018-03-22,Return to Dominaria: Episode 2,story,,5762,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-2-2018-03-22
 2018-03-28,Return to Dominaria: Episode 3,story,,4374,https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-3-2018-03-28

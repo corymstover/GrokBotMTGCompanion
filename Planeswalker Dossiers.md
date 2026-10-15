@@ -5,7 +5,7 @@ tags: [planeswalkers, dossiers, sparks]
 issues: [35]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Side-Media Index.md", "Story Arc Summaries.md"]
+related: ["Characters Index.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Contradictions & Retcons Log.md", "Art & Flavor Story Links.md", "Lore Primary Sources.md"]
 schema: 2
 ---
 
@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -30,11 +30,12 @@ schema: 2
 |---|---|---|
 | Origins (2015) | Spark ignites in the fight with Alhammarret; memory lost; arrives on Ravnica. | [Absent Minds](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24) |
 | Oath of the Gatewatch (2016) | Swears: "Never again. For the sake of the Multiverse, I will keep watch." | [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
+| XLN/RIX (2017–18) | Washes up on Ixalan with no memory ("He did not know his own name") and joins Vraska's crew. Later calls himself "the Living Guildpact". | [Jace, Alone](https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06) · [A Glimpse of the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) |
 | ONE (2023) | Infected on New Phyrexia after losing Vraska: "guess I won't have to". | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) |
 | OTJ epilogue (set "One Year Prior") | Falls into his mother Ranna's home on Vryn with Vraska: "Please help us, Mom." | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
 | WOE / OTJ (2023–24) | Disguised as "Ashiok"; tells Rowan "The spark is gone" and hires Oko and Vraska for the vault job. Later revealed as Jace. | [WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets) · [BLB Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley) |
 | TDM (2025) | Arrives with Loot ("a map of everything"); "What I needed to." He is unmade and "shattered like glass". | [TDM Ep. 5](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion) · [Ep. 6](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love) |
-| LE / RF (2025–26) | Becomes "the Theorist" and builds the Echoverse, then dies at its end. | [Characters Index → Jace](Characters%20Index.md#jace-beleren) (sources there) |
+| LE / SOS / RF (2025–26) | Reported dead ("Who died?" — "Jace."), but "pieces of him … lingered" as the Theorist, who builds the Echoverse. He undoes the overlay and "goes still"; his spark leaves "out of his chest". | [LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber) · [RF Guide](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture) · [RF Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday) |
 
 **Allegiances:** Gatewatch (sworn above). Partner to Vraska ([OTJ Epilogue 2](https://magic.wizards.com/en/news/magic-story/epilogue-2-bring-the-end-part-2)).
 **Status:** see [Characters Index → Jace Beleren](Characters%20Index.md#jace-beleren).
@@ -88,6 +89,7 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Childhood | Phyrexian captive; escapes when her spark ignites. | [profile](https://magic.wizards.com/en/story/elspeth-tirel-planeswalker) |
+| JOU / *Godsend* (2014) | Sent by Heliod to destroy Xenagos "—and she succeeded". Then "Heliod struck Elspeth down in her moment of triumph." ⚠️ Novella not fetched. | [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) · [PW Guide to JOU](https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02) |
 | ONE (2023) | Wakes alone on New Phyrexia; holds off compleated Ajani so the others can go on. | [ONE Ep. 2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) · [Ep. 4](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds) |
 | MOM (2023) | Serra: "Fear is always the last thing to leave." Reborn winged; defeats Jin-Gitaxias; rescues Karn. | [MOM Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave) · [Ep. 7](https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention) |
 | TDM (2025) | Seeks Narset on Tarkir with a warning; witnesses Jace unmade. | [TDM Ep. 1](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones) · [Ep. 6](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love) |
@@ -128,6 +130,8 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| Alara (2008–09) | His brother Jazal is "struck down during Alara's Conflux Wars while trying to broker peace." Of Bolas, Ajani later says "I've actually won" — "By cheating." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) |
+| AER (2017) | Joins the Gatewatch: "Until all have found their place, I will keep watch." | [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) |
 | ONE (2023) | Compleated; fights Elspeth on New Phyrexia. | [ONE Ep. 4](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds) |
 | MOM (2023) | Sent to Theros by Norn; executes Sheoldred; "Ajani killed her" (Jaya). | [MOM Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless) · [Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath) |
 | MAT (2023) | Cleansed, and kept his spark ("Chandra and Ajani"). | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
@@ -167,6 +171,8 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| XLN/RIX (2017–18) | Hired by Bolas ("I would like to hire you for the use of your talents") to retrieve the Immortal Sun. She learns he wants "an artifact that imprisons Planeswalkers", and he later inspects "her memories of Ixalan". | [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) · [The Arbiter of Law](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) · [Wool over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) |
+| RF (2026) | Learns that "the spell is held together by our body" and holds Jace as he dies. | [RF Ep. 6](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition) · [Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid) |
 | ONE (2023) | Lost on New Phyrexia ("the loss of Vraska"); compleated. | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) |
 | OTJ epilogue (set "One Year Prior") | "a bloodied and mangled Phyrexian gorgon" in Ranna's home: "Save him first." | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
 | OTJ (2024) | Takes the vault job alongside Oko: "The only way to fix what I've done is by getting what's inside the vault." | [OTJ Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers) |
@@ -291,7 +297,7 @@ schema: 2
 
 ## Oko
 **Identity:** "Charming, deceitful, and unpredictable, Oko is a shapeshifter who bears a grudge against authority" ([profile](https://magic.wizards.com/en/story/oko-planeswalker)).
-**Spark moment:** ❓ Not in the fetched sources ("his past is a mystery", per the profile).
+**Spark moment:** 📝 Origin revealed in ECL: "Oko was the first avatar of Oona and an abysmal failure", and he "was quick to leave the plane after he sparked" ([Legends of ECL](https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed); [Retcons Log](Contradictions%20%26%20Retcons%20Log.md#okos-origin-revealed)). ❓ The ignition scene itself is not shown.
 
 | When (story) | Event | Source |
 |---|---|---|
@@ -316,6 +322,19 @@ schema: 2
 **Allegiances:** Formerly Bolas's agent. ❓ Who he delivered the Endstone for in EOE isn't stated.
 **Status:** [Characters Index → Tezzeret](Characters%20Index.md#tezzeret).
 
+## Tam
+**Identity:** Introduced as a Strixhaven student: "Tam is unassuming, studious, and a little intense" ([Legends of ECL](https://magic.wizards.com/en/news/magic-story/the-legends-of-lorwyn-eclipsed)). Later revealed as an artificial being made for the Theorist's plan: "The very purpose of her creation" ([SOS Ep. 6](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven); [Retcons Log](Contradictions%20%26%20Retcons%20Log.md#tam-revealed-as-jaces-creation)).
+**Spark moment:** Jace's spark leaves his body "seeking a body," and Tam is overwhelmed by "the pressure and potency of magic" ([RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| ECL (2025–26) | Strixhaven first-year on the Lorwyn field study; flees with Maralen and Sanar. | [LE Ep. 4](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-4-fetch-me-that-flower) |
+| SOS (2026) | Takes the oracle Jadzi to a mirrored Strixhaven; the Theorist tells her "I'm proud of you." | [SOS Ep. 6](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven) |
+| RF (2026) | At Hexhaven: "Her duty to a future without suffering demanded betrayal." Receives the spark, then goes to Vraska and Ranna: "I'm here to help make things better." | [RF Ep. 1](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-1-tam-alive) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday) |
+
+**Allegiances:** Created by and loyal to the Theorist (SOS–RF). ❓ Allegiance after RF is not yet stated.
+**Status:** [Characters Index → Tam](Characters%20Index.md#tam).
+
 ## Spark & allegiance summary
 | Planeswalker | Spark ignition (sourced) | Spark now (per Characters Index) | Key allegiance |
 |---|---|---|---|
@@ -326,7 +345,7 @@ schema: 2
 | Elspeth | ✅ profile | see index (archangel) | Mirran resistance |
 | Karn | ⚠️ Venser's spark (DMU Ep. 1); original ❓ | given up | Zhalfir (ally) |
 | Teferi | ❓ | faded | Zhalfir |
-| Ajani | ❓ (only "had awoken") | kept | Gatewatch |
+| Ajani | ❓ (only "had awoken") | kept | Gatewatch (oath: Renewal) |
 | Kaya | ❓ | kept (MKM) | Orzhov |
 | Kaito | ✅ origin story (Himoto) | active (DSK) | Kamigawa's empress |
 | Vraska | ❓ | see index | Golgari (era) |
@@ -338,8 +357,9 @@ schema: 2
 | Ugin | ✅ Chronicle: Whispers of Treachery | kept | against Bolas |
 | Nicol Bolas | ✅ Chronicle: Perspectives | ❓ (escaped) | himself |
 | Ral | ❓ | active | Izzet |
-| Oko | ❓ | active | himself / family |
+| Oko | 📝 Legends of ECL (origin; scene ❓) | active | himself / family |
 | Tezzeret | ❓ | active (EOE) | ex-Bolas |
+| Tam | ✅ inherits Jace's spark (RF Ep. 10) | active | ❓ (post-Theorist) |
 
 <!-- CHARCARDS:START -->
 ## Character cards (name-matched)
@@ -369,6 +389,7 @@ schema: 2
 | [Ral Zarek](#ral-zarek) | [Ral Zarek](cards/R/ral.md#ral-zarek) · [Ral Zarek, Guest Lecturer](cards/R/ral.md#ral-zarek-guest-lecturer) · [Ral, Caller of Storms](cards/R/ral.md#ral-caller-of-storms) · [Ral, Crackling Wit](cards/R/ral.md#ral-crackling-wit) · [Ral, Izzet Viceroy](cards/R/ral.md#ral-izzet-viceroy) · [Ral, Monsoon Mage // Ral, Leyline Prodigy](cards/R/ral.md#ral-monsoon-mage--ral-leyline-prodigy) · [Ral, Storm Conduit](cards/R/ral.md#ral-storm-conduit) | 7 |
 | [Oko](#oko) | [Oko, Lorwyn Liege // Oko, Shadowmoor Scion](cards/O/ok.md#oko-lorwyn-liege--oko-shadowmoor-scion) · [Oko, Thief of Crowns](cards/O/ok.md#oko-thief-of-crowns) · [Oko, the Ringleader](cards/O/ok.md#oko-the-ringleader) · [Oko, the Trickster](cards/O/ok.md#oko-the-trickster) | 4 |
 | [Tezzeret](#tezzeret) | [Tezzeret the Schemer](cards/T/te.md#tezzeret-the-schemer) · [Tezzeret the Seeker](cards/T/te.md#tezzeret-the-seeker) · [Tezzeret, Agent of Bolas](cards/T/te.md#tezzeret-agent-of-bolas) · [Tezzeret, Artifice Master](cards/T/te.md#tezzeret-artifice-master) · [Tezzeret, Betrayer of Flesh](cards/T/te.md#tezzeret-betrayer-of-flesh) · [Tezzeret, Cruel Captain](cards/T/te.md#tezzeret-cruel-captain) · [Tezzeret, Cruel Machinist](cards/T/te.md#tezzeret-cruel-machinist) · [Tezzeret, Master of Metal](cards/T/te.md#tezzeret-master-of-metal) · [Tezzeret, Master of the Bridge](cards/T/te.md#tezzeret-master-of-the-bridge) | 9 |
+| [Tam](#tam) | [Tam, Mindful First-Year](cards/T/ta.md#tam-mindful-first-year) · [Tam, Observant Sequencer // Deep Sight](cards/T/ta.md#tam-observant-sequencer--deep-sight) · [Tam, the Possibility](cards/T/ta.md#tam-the-possibility) | 3 |
 
-21 of 21 characters have name-matched cards (199 card links).
+22 of 22 characters have name-matched cards (202 card links).
 <!-- CHARCARDS:END -->

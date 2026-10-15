@@ -2858,9 +2858,9 @@
 },
 "096a878e-cff0-430a-90b5-031ecb9bfe1b": {
 "name": "Tam, Mindful First-Year",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#tam-mindful-first-year"
 },
@@ -32002,9 +32002,9 @@
 },
 "702e871d-90d8-4468-8f69-5ae42af2c9d3": {
 "name": "Tam, Observant Sequencer // Deep Sight",
-"n": 1,
+"n": 2,
 "kinds": {
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#tam-observant-sequencer--deep-sight"
 },
@@ -56199,10 +56199,10 @@
 },
 "c92c7744-0c92-4a36-9ada-4ffca812009e": {
 "name": "Tam, the Possibility",
-"n": 2,
+"n": 3,
 "kinds": {
 "rules": 1,
-"lore": 1
+"lore": 2
 },
 "index": "references/T.md#tam-the-possibility"
 },
