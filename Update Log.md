@@ -5,7 +5,7 @@ tags: [changelog]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Contradictions & Retcons Log.md", "Knowledge Index.md", "Planeswalker Dossiers.md", "Conflicts & Arcs.md", "Front-Matter Schema.md", "Lore Primary Sources.md"]
+related: ["Contradictions & Retcons Log.md", "Planeswalker Dossiers.md", "Knowledge Index.md", "Lore Primary Sources.md", "Planes Index.md", "Characters Index.md"]
 schema: 2
 ---
 
@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)](#2026-10-15--bot-cycle-28-phase-6-dossiers-items-planes-retcons)
 - [2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)](#2026-10-15--bot-cycle-27-phase-6-dossiers-items-planes-spark-refresh)
 - [2026-10-15 — Bot cycle 26 (Phase 6: dossiers, planes, items index)](#2026-10-15--bot-cycle-26-phase-6-dossiers-planes-items-index)
 - [2026-10-15 — Bot cycle 25 (Phase 6: last six arcs, episode upgrades, dossiers)](#2026-10-15--bot-cycle-25-phase-6-last-six-arcs-episode-upgrades-dossiers)
@@ -41,6 +42,17 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 28 (Phase 6: dossiers, items, planes, retcons)
+Issues [#73](https://github.com/corymstover/GrokBotMTGCompanion/issues/73), [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 27 merged as PR #88.
+
+- [Planeswalker Dossiers](Planeswalker%20Dossiers.md) (#74): **+7 rows** for Jace (RTR, WAR Living Guildpact loss, DSK), Elspeth (THB return, the sylex into the Blind Eternities) and Ajani (JOU, Beyond Repair). **New dossiers:** Garruk Wildspeaker, Wrenn (spark moment ✅ from profile) and Niv-Mizzet (📝 not a Planeswalker) → **25 dossiers**. Spark summary: fixed the stale Nahiri row (now "lost") and added 3 rows.
+- [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) (#75): **+3 entries (22)**: Reality Chip, World Tree & the Sword of the Realms, Theros god weapons (Dekella, Mastix, Akmon, Ephixis). The sylex entry now records the copy's fate (detonated in the Blind Eternities). Ozolith re-checked: still ⚠️ (image text only).
+- [Planes Index](Planes%20Index.md) (#74): **Dominaria (before DMU)**, **Kamigawa (Kami War era)**, **Fiora**, **Shandalar** → 38 detailed entries; all 15 planes with official profiles now have one.
+- [Characters Index](Characters%20Index.md): Teyo, Will Kenrith and Bolas spark statements re-checked. Bolas is unknown even in-story ("we don't know whether his spark is intact", LE Ep. 2); Will's shared-spark context added ⚠️; Teyo stays ❓.
+- [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md): **25 entries** (+sylex blast vs spark loss ❓, Elspeth's death and return ✅, Living Guildpact Jace → Niv-Mizzet 🔄).
+- [Lore Primary Sources](Lore%20Primary%20Sources.md) (#73): 6 more official pages fetched (Garruk, Wrenn, Teyo, Will and Rowan profiles; Legends of Kaldheim) → 594 pages.
+- Every new quote was checked verbatim against the fetched text (0 new misses). `validate_all.py` PASS. Grixis #63 remains ON HOLD.
 
 ## 2026-10-15 — Bot cycle 27 (Phase 6: dossiers, items, planes, spark refresh)
 Issues [#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76); milestone 15. Cycle 26 merged as PR #87.

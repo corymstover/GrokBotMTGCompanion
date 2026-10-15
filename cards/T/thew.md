@@ -595,7 +595,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #818 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — The World Tree’s third ability doesn’t cause lands you control to lose any of their abilities. It also doesn’t cause lands you control to gain or lose any land types.
-- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-world-tree)
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#the-world-tree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/275/the-world-tree) · oracle_id `3437d504-bf62-4c27-b15f-f6330182ff7e` · printing: KHM #275 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Wretched

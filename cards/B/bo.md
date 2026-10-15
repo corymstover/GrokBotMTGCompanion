@@ -5200,7 +5200,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2414 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-15* — You choose which mode you're using as you activate the ability.
-- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bow-of-nylea)
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/B.md#bow-of-nylea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/153/bow-of-nylea) · oracle_id `361b965f-2ce7-49f8-84e7-7325ea0c948d` · printing: THS #153 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bow of the Hunter

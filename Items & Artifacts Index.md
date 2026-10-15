@@ -14,7 +14,7 @@ schema: 2
 > **Bot cycles 26–27 · issue [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75).** Story items, spells and artifacts: what each is, who used it, where it appears, and the card that depicts it. Every quote is verbatim from a fetched magic.wizards.com page (see [Lore Primary Sources](Lore%20Primary%20Sources.md)). Card links go to this KB's Oracle-verified card entries; card text is game rules, not story. Flags: ⚠️ secondary or image-only source · ❓ not covered by fetched sources.
 
 ## Contents
-- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone) · *(Bot cycle 27)* [Halo](#halo) · [Lithoform Core](#lithoform-core) · [Mightstone & Weakstone](#mightstone--weakstone) · [Celestus, Sungold Lock & Moonsilver Key](#celestus-sungold-lock--moonsilver-key) · [Biblioplex & the Blood Avatar](#biblioplex--the-blood-avatar-strixhaven)
+- [Artifacts](#artifacts): [Golgothian Sylex](#golgothian-sylex) · [Blackblade](#blackblade) · [Immortal Sun](#immortal-sun) · [Chain Veil](#chain-veil) · [Godsend & Khrusor](#godsend--khrusor) · [Helvault](#helvault) · [Hedrons](#hedrons) · [Planar Bridge](#planar-bridge) · [Spear of Hazoret](#spear-of-hazoret) · [Temporal Anchor](#temporal-anchor) · [Ozolith](#ozolith) · [Endstone](#endstone) · *(Bot cycle 27)* [Halo](#halo) · [Lithoform Core](#lithoform-core) · [Mightstone & Weakstone](#mightstone--weakstone) · [Celestus, Sungold Lock & Moonsilver Key](#celestus-sungold-lock--moonsilver-key) · [Biblioplex & the Blood Avatar](#biblioplex--the-blood-avatar-strixhaven) · *(Bot cycle 28)* [Reality Chip](#reality-chip) · [World Tree & the Sword of the Realms](#world-tree--the-sword-of-the-realms-kaldheim) · [Theros god weapons](#theros-god-weapons)
 - [Spells & world-scale magic](#spells--world-scale-magic): [Elderspell](#elderspell) · [Realmbreaker, the Invasion Tree](#realmbreaker-the-invasion-tree)
 - [Queue](#queue)
 
@@ -23,6 +23,7 @@ schema: 2
 ### Golgothian Sylex
 - **What:** Urza's world-ending bowl from the Brothers' War. Karn: "It was created by Urza to help defeat the Phyrexians. I intend to take it to New Phyrexia and detonate it there" ([RtD Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09)).
 - **Use:** In the war's end, after the blast Tawnos "was greeted by the first flakes of snow" ([BRO Ep. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-episode-5-as-cruel-as-necessary)). In 2022, "We're helping Teferi find information about how to use the sylex" ([BRO Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus)). The strike team made "their own copy of the Golgothian sylex, an artifact of massive destructive potential," planning to "detonate it and destroy the Invasion Tree" ([PW Guide to MOM](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-march-of-the-machine)).
+- **Fate of the copy** *(Bot cycle 28)*: Compleated Jace tried to set it off ("Jace grasps the sylex and, as he does, surrenders", [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree)). Jaya: "Elspeth ran him through, picked up the sylex and planeswalked into the Blind Eternities" ([MOM Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath)). Aftermath: "The sylex had gone off in the Blind Eternities. Holes had been punched in the space between planes" ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). ❓ The fate of the *original* sylex Karn dug up in 2018 is still not stated.
 - **Arcs:** [The Brothers' War](Conflicts%20%26%20Arcs.md#the-brothers-war) · [BRO frame](Conflicts%20%26%20Arcs.md#the-brothers-war-frame-story-2022) · [MOM](Conflicts%20%26%20Arcs.md#march-of-the-machine-2023) · Retcon: [The sylex plan](Contradictions%20%26%20Retcons%20Log.md#the-sylex-plan-karn-2018-vs-the-invasion-copy) · **Card:** [Golgothian Sylex](cards/G/gol.md#golgothian-sylex)
 
 ### Blackblade
@@ -67,7 +68,7 @@ schema: 2
 - **What / use:** Saheeli's time device, its first iteration "based heavily on blueprints given to her by Jodah"; it "projected a person's spirit backward in time", with Kaya's ghostform making Teferi "entirely incorporeal" ([BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities)). Arc: [BRO frame](Conflicts%20%26%20Arcs.md#the-brothers-war-frame-story-2022). ❓ No card of this name in the KB.
 
 ### Ozolith
-- **What / use:** "a massive crystal formation" that Lukka uses to control mutated monsters; it "explodes in a flash of orange light" ([IKO Story on Cards](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10)). ⚠️ The story text is in images and was not machine-verified. Arc: [Ikoria](Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) · **Card:** [The Ozolith](cards/T/theo.md#the-ozolith)
+- **What / use:** "a massive crystal formation" that Lukka uses to control mutated monsters; it "explodes in a flash of orange light" ([IKO Story on Cards](https://magic.wizards.com/en/news/feature/ikoria-lair-behemoths-story-cards-2020-04-10)). ⚠️ The story text is in images and was not machine-verified. *(Bot cycle 28 re-check: the PW Guide to Ikoria, Worldbuilding Ikoria and the story-cards page contain no machine-readable mention of the Ozolith; stays ⚠️.)* Arc: [Ikoria](Conflicts%20%26%20Arcs.md#ikoria-lair-of-behemoths-2020) · **Card:** [The Ozolith](cards/T/theo.md#the-ozolith)
 
 ### Endstone
 - **What / use:** The relic both faiths chase in Edge of Eternities: "He said there would be a battle over the Endstone" ([EOE Ep. 10](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-10)); Tezzeret delivers it ([EOE Ep. 11](https://magic.wizards.com/en/news/magic-story/edge-of-eternities-episode-11)). ❓ Who receives it is not stated. Arc: [Edge of Eternities](Conflicts%20%26%20Arcs.md#edge-of-eternities-2025) · **Card:** [The Endstone](cards/T/thee.md#the-endstone)
@@ -102,6 +103,26 @@ schema: 2
 - **Use:** Extus targets it ("Tomes of great value, magical artifacts—the Biblioplex is full of things an aspiring megalomaniac might want") and summons "Blood Avatar!" ([STX Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-put-test-2021-04-14); [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-final-exam-2021-04-21)). After the invasion: "the rebuilt Biblioplex, memorials to lost faculty and students" ([PW Guide to Secrets of Strixhaven](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-secrets-of-strixhaven)).
 - **Arcs:** [Strixhaven (2021)](Conflicts%20%26%20Arcs.md#strixhaven-2021) · [Secrets of Strixhaven](Conflicts%20%26%20Arcs.md#secrets-of-strixhaven-2026) · **Card:** [Hall of Oracles](cards/H/ha.md#hall-of-oracles) (a Strixhaven location card)
 
+### Reality Chip
+*Added Bot cycle 28.*
+- **What:** "It is called a Reality Chip, and it may be dangerous not just to Kamigawa, but to multiple planes." Of the emperor: "The Reality Chip left her spark unstable" ([NEO Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24)).
+- **Use:** "Tamiyo placed the Reality Chip on the back of the emperor's hand" ([NEO Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-4-break-2022-01-26)). Then "Tezzeret took control of the Reality Chip"—"The Reality Chip was disrupting her spark, forcing her on the verge of planeswalking" ([NEO Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27)). Phyrexia's copy: "The Reality Chip, a new version dripping with glistening oil" ([A Man of Parts](https://magic.wizards.com/en/news/magic-story/a-man-of-parts)).
+- **Arc:** [Kamigawa: Neon Dynasty](Conflicts%20%26%20Arcs.md#kamigawa-neon-dynasty-2022) · **Card:** [The Reality Chip](cards/T/ther.md#the-reality-chip)
+
+### World Tree & the Sword of the Realms (Kaldheim)
+*Added Bot cycle 28.*
+- **World Tree:** "The realms of Kaldheim are mini-planes that are all connected to a cosmic structure that births them"; "The peoples of the realms see this structure as a vast, living tree—the World Tree—that is the origin of all life, growing in a vast nothingness" ([PW Guide to Kaldheim Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-1-2021-01-08)). Realms collide in a Doomskar: "When a Doomskar brings Karfell into contact with another realm" ([Pt 2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14)).
+- **Sword of the Realms:** Sigrid reveals "a sword that seemed to be forged from glass"—"The Sword of the Realms." Kaya carries it to Halvar, who ends the battle with "the Sword of the Realms pointing straight up into the air"; "With the Doomskar over, the gods had vanished" ([KHM Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-battle-kaldheim-2021-02-03)).
+- **Arc:** [Kaldheim](Conflicts%20%26%20Arcs.md#kaldheim-2021) · **Cards:** [The World Tree](cards/T/thew.md#the-world-tree), [Doomskar](cards/D/do.md#doomskar), [Koma, Cosmos Serpent](cards/K/ko.md#koma-cosmos-serpent) · ❓ no card found named "Sword of the Realms"
+
+### Theros god weapons
+*Added Bot cycle 28.* See also [Godsend & Khrusor](#godsend--khrusor).
+- **Dekella (Thassa):** "Thassa wields Dekella, a two-pronged spear. Wielding Dekella allows her to control the tides and stir the seas into whirlpools."
+- **Mastix (Erebos):** "Erebos wields Mastix, a golden-handled whip with an impossibly long lash"; it acts "as a snare to pull the reluctant dead into—or back into—his realm."
+- **Akmon (Purphoros):** "Purphoros wields Akmon, a large hammer whose head slightly resembles an anvil. A blow from Akmon can render the earth molten."
+- **Ephixis (Nylea):** "Nylea is Theros's finest archer, and she wields a shortbow called Ephixis."
+- Source for all four: [PW Guide to Theros Pt 1](https://magic.wizards.com/en/news/making-magic/planeswalkers-guide-theros-part-1-2013-08-21). Arc: [Theros (2013–14)](Conflicts%20%26%20Arcs.md#theros-xenagoss-ascension--elspeths-fall) · **Related cards** (card names differ from the story names; ⚠️ not stated to be the same objects): [Bident of Thassa](cards/B/bi.md#bident-of-thassa), [Whip of Erebos](cards/W/wh.md#whip-of-erebos), [Hammer of Purphoros](cards/H/ha.md#hammer-of-purphoros), [Bow of Nylea](cards/B/bo.md#bow-of-nylea)
+
 ## Spells & world-scale magic
 
 ### Elderspell
@@ -112,4 +133,5 @@ schema: 2
 
 ## Queue
 - Done Bot cycle 27: Halo, Lithoform Core, Mightstone & Weakstone, Celestus / Sungold Lock / Moonsilver Key, Biblioplex & Blood Avatar.
-- Next cycles: the Reality Chip (NEO), Kaldheim's Doomskar / World Tree sap, other Theros god weapons, the Sylex copy's fate, Lukka's Ozolith follow-up, other Edge of Eternities relics.
+- Done Bot cycle 28: Reality Chip, World Tree & Sword of the Realms, Theros god weapons (Dekella, Mastix, Akmon, Ephixis), fate of the sylex copy (added to the sylex entry); Ozolith re-checked (still ⚠️ image text only).
+- Next cycles: Edge of Eternities relics, the Thran / Powerstone items of DMU, Duskmourn's House relics, Tarkir's dragonstorm artifacts — only where official text names them.

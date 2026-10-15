@@ -643,7 +643,7 @@ schema: 2
   - *2021-02-05* — If you choose the first mode of Koma's activated ability, you can choose a permanent that's already tapped as the target. The effect stopping its activated abilities will still apply.
   - *2021-02-05* — The first mode of Koma's activated ability doesn't stop static abilities from affecting the game, and it doesn't stop triggered abilities from triggering. Unlike similar effects, it does stop mana abilities from being activated. Most activated abilities that produce mana as they resolve are mana abilities.
   - *2021-02-05* — You can't sacrifice Koma itself to activate its last ability, but you can sacrifice any other Serpent you control, including Koma's Coil.
-- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/K.md#koma-cosmos-serpent)
+- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/K.md#koma-cosmos-serpent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/213/koma-cosmos-serpent) · oracle_id `6ba0656f-e0d2-4735-9c66-3a00afa9fc23` · printing: MKC #213 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Komainu Battle Armor

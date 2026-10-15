@@ -3235,7 +3235,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9358 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-dracogenius)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-dracogenius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/184/niv-mizzet-dracogenius) · oracle_id `899d58dc-60b2-4013-9f91-c1888c585d66` · printing: C17 #184 (2017-08-25) · [rulings](https://api.scryfall.com/cards/1b1c4bed-9b6b-42f9-939d-ece0f959a0a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Ghost Counsel
@@ -3253,7 +3253,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10795 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, Niv-Mizzet's triggered ability will trigger once for each of those creatures.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-ghost-counsel)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-ghost-counsel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/10/niv-mizzet-ghost-counsel) · oracle_id `a5350327-e84c-44b6-8359-87882e521048` · printing: FRC #10 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Guildpact
@@ -3269,7 +3269,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — A "color pair" is exactly two colors. There are ten color pairs in Magic: white-blue, white-black, blue-black, blue-red, black-red, black-green, red-green, red-white, green-white, and green-blue.
   - *2024-02-02* — The value of X is checked only once, as Niv-Mizzet, Guildpact's triggered ability resolves.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-guildpact)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-guildpact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/220/niv-mizzet-guildpact) · oracle_id `46570366-5e58-40b7-b725-833321a3b7b1` · printing: MKM #220 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Parun
@@ -3289,7 +3289,7 @@ schema: 2
   - *2018-10-05* — If an effect instructs you to draw multiple cards, Niv-Mizzet's first triggered ability triggers that many times. You choose targets for those abilities after you've drawn all of the cards.
   - *2018-10-05* — Niv-Mizzet's second triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. This causes its first triggered ability to trigger, and that also resolves before the spell.
   - *2018-10-05* — Players can cast spells and activate abilities after Niv-Mizzet's second triggered ability resolves but before the spell that caused it to trigger does. Notably, the card you draw may be able to counter that spell.
-- **Referenced in:** 10 pages (3 decks · 5 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/N.md#niv-mizzet-parun)
+- **Referenced in:** 11 pages (3 decks · 5 edh guides · 2 lore & story · 1 card data) → [reverse index](../../references/N.md#niv-mizzet-parun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/235/niv-mizzet-parun) · oracle_id `33666a98-812f-4892-9f8d-33e0cbecc340` · printing: OTC #235 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet Reborn
@@ -3305,7 +3305,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — A "color pair" is exactly two colors. There are ten color pairs in Magic: white-blue, white-black, blue-black, blue-red, black-red, black-green, red-green, red-white, green-white, and green-blue.
   - *2019-05-03* — If the top ten cards of your library don't contain all ten color pairs, you choose as many cards as you can and put those cards into your hand.
-- **Referenced in:** 3 pages (3 lore & story) → [reverse index](../../references/N.md#niv-mizzet-reborn)
+- **Referenced in:** 4 pages (4 lore & story) → [reverse index](../../references/N.md#niv-mizzet-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/208/niv-mizzet-reborn) · oracle_id `10764b35-5c6c-4161-8579-1124d5963a0e` · printing: WAR #208 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet's Diary
@@ -3335,7 +3335,7 @@ schema: 2
   - *2023-05-12* — If an effect allows you to pay an alternative cost rather than a spell's mana cost, you may pay that alternative cost when you jump-start a spell. You'll still discard a card as an additional cost to cast it.
   - *2023-05-12* — If an instant or sorcery card is put into your graveyard during your turn, you'll be able to cast it right away if it's legal to do so, before any player may attempt to remove that card from your graveyard.
   - *2023-05-12* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using jump-start only when you could normally cast a sorcery.
-- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-supreme)
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-supreme)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/40/niv-mizzet-supreme) · oracle_id `4c3a865a-88b1-43e0-b326-17c45670da54` · printing: MAT #40 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, the Firemind
@@ -3354,7 +3354,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — If a spell or ability causes you to draw multiple cards, Niv-Mizzet's ability triggers that many times.
   - *2018-03-16* — If dealing 1 damage to a permanent or player causes you to draw a card, perhaps because Niv-Mizzet is enchanted by Curiosity, you'll continue this loop until the loop is interrupted, perhaps by a player losing the game.
-- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-the-firemind)
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-the-firemind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/225/niv-mizzet-the-firemind) · oracle_id `959acb66-84ca-4535-bca2-ad591895735e` · printing: C20 #225 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Niv-Mizzet, Visionary
@@ -3371,7 +3371,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2170 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/N.md#niv-mizzet-visionary)
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 lore & story) → [reverse index](../../references/N.md#niv-mizzet-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/123/niv-mizzet-visionary) · oracle_id `d9f1dc61-831e-4244-a2da-aa9da6fd5b50` · printing: FDN #123 (2024-11-15) · [rulings](https://api.scryfall.com/cards/7a69a618-d588-4745-8ede-0ff0a9f356f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nix

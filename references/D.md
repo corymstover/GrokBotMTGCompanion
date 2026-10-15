@@ -2007,9 +2007,9 @@ schema: 2
 
 ### Doomskar
 
-[Card entry](../cards/D/do.md#doomskar) · **1 pages** (lore & story 1)
+[Card entry](../cards/D/do.md#doomskar) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore & story (2):** [Items & Artifacts Index → World Tree & the Sword of the Realms (Kaldheim)](../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) · [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 
 ### Doomwake Giant
 

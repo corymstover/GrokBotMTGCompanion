@@ -199,52 +199,52 @@ schema: 2
 
 ### Garruk, Apex Predator
 
-[Card entry](../cards/G/ga.md#garruk-apex-predator) · **3 pages** (lore & story 1 · card data 2)
+[Card entry](../cards/G/ga.md#garruk-apex-predator) · **4 pages** (lore & story 2 · card data 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Artist Index → Artists J](../Artist%20Index.md#artists-j) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Garruk, Caller of Beasts
 
-[Card entry](../cards/G/ga.md#garruk-caller-of-beasts) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-caller-of-beasts) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Garruk, Curse Breaker
 
-[Card entry](../cards/G/ga.md#garruk-curse-breaker) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-curse-breaker) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Garruk, Cursed Huntsman
 
-[Card entry](../cards/G/ga.md#garruk-cursed-huntsman) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-cursed-huntsman) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Garruk, Primal Hunter
 
-[Card entry](../cards/G/ga.md#garruk-primal-hunter) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-primal-hunter) · **4 pages** (decks 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [Selvala, Heart of the Wilds](../decks/selvala-heart-of-the-wilds.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Garruk Relentless // Garruk, the Veil-Cursed
 
-[Card entry](../cards/G/ga.md#garruk-relentless--garruk-the-veil-cursed) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-relentless--garruk-the-veil-cursed) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Garruk, Savage Herald
 
-[Card entry](../cards/G/ga.md#garruk-savage-herald) · **1 pages** (lore & story 1)
+[Card entry](../cards/G/ga.md#garruk-savage-herald) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Garruk's Lost Wolf // Hey, Has Anyone Seen Garruk?
 
@@ -263,29 +263,29 @@ schema: 2
 
 ### Garruk the Slayer
 
-[Card entry](../cards/G/ga.md#garruk-the-slayer) · **1 pages** (lore & story 1)
+[Card entry](../cards/G/ga.md#garruk-the-slayer) · **2 pages** (lore & story 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 
 ### Garruk, Unleashed
 
-[Card entry](../cards/G/ga.md#garruk-unleashed) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-unleashed) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Garruk, Veiled Butcher
 
-[Card entry](../cards/G/ga.md#garruk-veiled-butcher) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-veiled-butcher) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Garruk Wildspeaker
 
-[Card entry](../cards/G/ga.md#garruk-wildspeaker) · **2 pages** (lore & story 1 · card data 1)
+[Card entry](../cards/G/ga.md#garruk-wildspeaker) · **3 pages** (lore & story 2 · card data 1)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### Garza's Assassin

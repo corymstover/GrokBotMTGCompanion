@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Characters Index.md", "Items & Artifacts Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Items & Artifacts Index.md", "Planeswalker Dossiers.md", "Planes Index.md", "Master Timeline.md"]
 schema: 2
 ---
 
@@ -45,6 +45,10 @@ schema: 2
 - [Added Bot cycle 27](#added-bot-cycle-27)
   - [Nahiri's spark: sensed by Ajani, but gone](#nahiris-spark-sensed-by-ajani-but-gone)
   - [The Moonsilver Key: Innistrad relic, then Teferi's artifact](#the-moonsilver-key-innistrad-relic-then-teferis-artifact)
+- [Added Bot cycle 28](#added-bot-cycle-28)
+  - [Did the sylex blast cause the spark loss?](#did-the-sylex-blast-cause-the-spark-loss)
+  - [Elspeth: struck down on Theros, then back](#elspeth-struck-down-on-theros-then-back)
+  - [The Living Guildpact: Jace, then Niv-Mizzet](#the-living-guildpact-jace-then-niv-mizzet)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -275,11 +279,41 @@ Dossier, items and spark-status pass ([#74](https://github.com/corymstover/GrokB
 | **KB treatment** | Treat as the same key carried from Innistrad (⚠️ inferred; no fetched text says so outright). Do not add details about how he obtained or modified it. |
 | **Related** | [Items → Celestus, Sungold Lock & Moonsilver Key](Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key) · [Items → Temporal Anchor](Items%20%26%20Artifacts%20Index.md#temporal-anchor) |
 
+## Added Bot cycle 28
+Dossier, items and spark-status pass ([#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Did the sylex blast cause the spark loss?
+| Field | Detail |
+|---|---|
+| **Type** | ❓ open (in-story speculation only) |
+| **Earlier statement** | Elspeth "picked up the sylex and planeswalked into the Blind Eternities" ([MOM Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath)). |
+| **Later / overriding statement** | Nissa: "The sylex had gone off in the Blind Eternities. Holes had been punched in the space between planes. Maybe this is some sort of natural response from the Multiverse; a great pruning." Karn: "Realmbreaker burrowed holes through the fabric of reality. The sylex exploded in the Blind Eternities. Who knows what that might have changed." ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)). |
+| **KB treatment** | Characters can only guess; no fetched text confirms a cause. Do not state that the sylex (or Realmbreaker) caused the spark loss. |
+| **Related** | [Spark loss after the invasion](#spark-loss-after-the-invasion-mat--lci) · [Items → Golgothian Sylex](Items%20%26%20Artifacts%20Index.md#golgothian-sylex) · [Characters → Sparks after the invasion](Characters%20Index.md#sparks-after-the-phyrexian-invasion) |
+
+### Elspeth: struck down on Theros, then back
+| Field | Detail |
+|---|---|
+| **Type** | ✅ resolved (in-story return) |
+| **Earlier statement** | "Heliod struck Elspeth down in her moment of triumph, casting her into the Underworld to be forgotten. Elspeth was dead." ([THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10)). |
+| **Later / overriding statement** | Same summary: "Erebos gifted her his eternal gratitude—and safe passage back to the mortal realm. After a brief reunion with Daxos, Elspeth planeswalked away." |
+| **KB treatment** | Her JOU death is real and undone in THB (2020); later appearances (ONE, MOM, TDM) follow from that return. |
+| **Related** | [Dossiers → Elspeth Tirel](Planeswalker%20Dossiers.md#elspeth-tirel) · [Items → Godsend & Khrusor](Items%20%26%20Artifacts%20Index.md#godsend--khrusor) |
+
+### The Living Guildpact: Jace, then Niv-Mizzet
+| Field | Detail |
+|---|---|
+| **Type** | 🔄 in-world transfer |
+| **Earlier statement** | Jace held the role (see Dossiers → Jace, XLN/RIX row); during WAR, Ral: "Jace Beleren has lost the power of the Living Guildpact." ([Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05)). |
+| **Later / overriding statement** | Niv-Mizzet: "You're out of a job, Beleren. The Firemind is the new Living Guildpact. As it was always meant to be." ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)); still "the Firemind and Living Guildpact" in 2024 ([MKM Ep. 11](https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens)). |
+| **KB treatment** | From WAR on, the Living Guildpact is Niv-Mizzet. Earlier pages that call Jace the Living Guildpact are era snapshots. |
+| **Related** | [Dossiers → Niv-Mizzet](Planeswalker%20Dossiers.md#niv-mizzet) · [Dossiers → Jace Beleren](Planeswalker%20Dossiers.md#jace-beleren) · [Planes → Ravnica (before the invasion)](Planes%20Index.md#ravnica-before-the-invasion) |
+
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
-| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration; cycle 27 moved Nahiri to 'lost'; Teyo, Will Kenrith and Bolas still unstated) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
+| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration; cycle 27 moved Nahiri to 'lost'; Teyo, Will Kenrith and Bolas still unstated; cycle 28 re-check found no new statement, and for Bolas the text itself says "we don't know whether his spark is intact") | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

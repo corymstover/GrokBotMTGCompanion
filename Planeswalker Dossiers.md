@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · [Garruk Wildspeaker](#garruk-wildspeaker) · [Wrenn](#wrenn) · [Niv-Mizzet](#niv-mizzet) *(Bot cycle 28)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)* · Jace, Elspeth and Ajani extended *(Bot cycle 28)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -29,11 +29,14 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Origins (2015) | Spark ignites in the fight with Alhammarret; memory lost; arrives on Ravnica. | [Absent Minds](https://magic.wizards.com/en/news/feature/jaces-origin-absent-minds-2015-06-24) |
+| RTR (2012) *(Bot cycle 28)* | "The planeswalker Jace Beleren has made Ravnica his adoptive home." | [PW Guide to RTR Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1) |
 | Oath of the Gatewatch (2016) | Swears: "Never again. For the sake of the Multiverse, I will keep watch." | [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03) |
 | XLN/RIX (2017–18) | Washes up on Ixalan with no memory ("He did not know his own name") and joins Vraska's crew. Later calls himself "the Living Guildpact". | [Jace, Alone](https://magic.wizards.com/en/news/magic-story/jace-alone-2017-09-06) · [A Glimpse of the Far Side of the Sun](https://magic.wizards.com/en/news/magic-story/glimpse-far-side-sun-2018-01-17) |
+| WAR (2019) *(Bot cycle 28)* | Ral: "Jace Beleren has lost the power of the Living Guildpact." After the battle Niv-Mizzet tells him: "You're out of a job, Beleren. The Firemind is the new Living Guildpact." | [WAR: Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05) · [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | ONE (2023) | Infected on New Phyrexia after losing Vraska: "guess I won't have to". | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) |
 | OTJ epilogue (set "One Year Prior") | Falls into his mother Ranna's home on Vryn with Vraska: "Please help us, Mom." | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
 | WOE / OTJ (2023–24) | Disguised as "Ashiok"; tells Rowan "The spark is gone" and hires Oko and Vraska for the vault job. Later revealed as Jace. | [WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets) · [BLB Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley) |
+| DSK (2024) *(Bot cycle 28)* | Confronted by Kaito: "I did it to save Kamigawa from the sylex you were trying to activate." Jace: "It would have worked if we'd been faster, or if we hadn't been separated." | [DSK Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-three-dont-look-back) |
 | TDM (2025) | Arrives with Loot ("a map of everything"); "What I needed to." He is unmade and "shattered like glass". | [TDM Ep. 5](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-5-recursion) · [Ep. 6](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love) |
 | LE / SOS / RF (2025–26) | Reported dead ("Who died?" — "Jace."), but "pieces of him … lingered" as the Theorist, who builds the Echoverse. He undoes the overlay and "goes still"; his spark leaves "out of his chest". | [LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber) · [RF Guide](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture) · [RF Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday) |
 
@@ -107,7 +110,9 @@ schema: 2
 |---|---|---|
 | Childhood | Phyrexian captive; escapes when her spark ignites. | [profile](https://magic.wizards.com/en/story/elspeth-tirel-planeswalker) |
 | JOU / *Godsend* (2014) | Sent by Heliod to destroy Xenagos "—and she succeeded". Then "Heliod struck Elspeth down in her moment of triumph." ⚠️ Novella not fetched. | [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) · [PW Guide to JOU](https://magic.wizards.com/en/news/feature/planeswalkers-guide-journey-nyx-2014-04-02) |
+| THB (2020) *(Bot cycle 28)* | "Elspeth was dead." Escaping the Underworld, she claims the true Khrusor; Heliod yields, and "Erebos gifted her his eternal gratitude—and safe passage back to the mortal realm. After a brief reunion with Daxos, Elspeth planeswalked away." | [THB Story Summary](https://magic.wizards.com/en/news/feature/theros-beyond-death-story-summary-2020-01-10) |
 | ONE (2023) | Wakes alone on New Phyrexia; holds off compleated Ajani so the others can go on. | [ONE Ep. 2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) · [Ep. 4](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds) |
+| ONE → MOM (2023) *(Bot cycle 28)* | Jaya recounts: "Elspeth ran him through, picked up the sylex and planeswalked into the Blind Eternities." | [MOM Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath) |
 | MOM (2023) | Serra: "Fear is always the last thing to leave." Reborn winged; defeats Jin-Gitaxias; rescues Karn. | [MOM Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-last-to-leave) · [Ep. 7](https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention) |
 | TDM (2025) | Seeks Narset on Tarkir with a warning; witnesses Jace unmade. | [TDM Ep. 1](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-1-stories-and-their-bones) · [Ep. 6](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-6-how-wretched-love) |
 
@@ -153,10 +158,12 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Alara (2008–09) | His brother Jazal is "struck down during Alara's Conflux Wars while trying to broker peace." Of Bolas, Ajani later says "I've actually won" — "By cheating." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) |
+| JOU (2014) *(Bot cycle 28)* | On Theros with Elspeth: "Elspeth seemed to find it comforting, to think that minds greater than any mortal's were watching over her. Ajani found the idea less appealing." | [Ajani, Mentor of Heroes](https://magic.wizards.com/en/news/magic-story/ajani-mentor-heroes-2014-12-17) |
 | AER (2017) | Joins the Gatewatch: "Until all have found their place, I will keep watch." | [Renewal](https://magic.wizards.com/en/news/magic-story/renewal-2017-02-01) |
 | ONE (2023) | Compleated; fights Elspeth on New Phyrexia. | [ONE Ep. 4](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-4-impossible-odds) |
 | MOM (2023) | Sent to Theros by Norn; executes Sheoldred; "Ajani killed her" (Jaya). | [MOM Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-triumph-of-the-fleshless) · [Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-holding-your-breath) |
 | MAT (2023) | Cleansed, and kept his spark ("Chandra and Ajani"). | [She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world) · [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
+| MAT (2023) *(Bot cycle 28)* | Finds Nahiri on Zendikar and asks her to work with him; she answers: "You want me to . . . join you? Be your partner in fixing the Multiverse?" He tells her "you and I, Nahiri, are the only ones who can truly know the sins we committed." | [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair) |
 | TDM (2025) | Found in self-exile by Narset and Elspeth: "I'm afraid I must." | [TDM Ep. 4](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-4-heart-of-fire) |
 
 **Allegiances:** Gatewatch ([profile](https://magic.wizards.com/en/story/ajani-goldmane-planeswalker)).
@@ -382,6 +389,51 @@ schema: 2
 **Allegiances:** Created by and loyal to the Theorist (SOS–RF). ❓ Allegiance after RF is not yet stated.
 **Status:** [Characters Index → Tam](Characters%20Index.md#tam).
 
+## Garruk Wildspeaker
+*Dossier added Bot cycle 28.*
+**Identity:** "a towering mountain of a man who turned his back on civilization long ago, preferring a solitary life in the wilds" ([profile](https://magic.wizards.com/en/story/garruk-wildspeaker-planeswalker)).
+**Spark moment:** ❓ Not in the fetched sources. Before he knew others existed, "He had never before heard of Planeswalkers: people like himself who had somehow learned to travel between the disparate worlds" ([The Hunter Cannot Pity](https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| Shandalar (pre-AVR) | "While hunting a beast across Shandalar, Garruk's path led him to the Onakke Catacombs"; "Garruk donned the Chain Veil." | [Legends of Reality Fracture](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) |
+| AVR (2012) | Liliana "inflicted him with the Chain Veil's curse"; "Garruk had been hunting Liliana across multiple planes in order to force her to remove the curse, or, barring that, to kill her in revenge." | [PW Guide to AVR Pt 2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-avacyn-restored-part-2) |
+| M15 (2014) | Hunted by the Planeswalker-hunting cult; "Garruk grew even larger and more ferocious in the full fury of his defiled nature magic." | [The Hunter Cannot Pity](https://magic.wizards.com/en/news/magic-story/hunter-cannot-pity-2014-07-16) |
+| RF (2026) | "Once cursed against his will, Garruk is loath to let Jace erase the Multiverse, so he joins the hunt for the mind-mage." At the end, "Garruk says nothing and simply planeswalks away." | [Legends of RF](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture) · [RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday) |
+
+**Allegiances:** Solitary hunter. ❓ His interest in the Kenrith twins (RF Ep. 10).
+**Status:** [Characters Index → Garruk Wildspeaker](Characters%20Index.md#garruk-wildspeaker).
+
+## Wrenn
+*Dossier added Bot cycle 28.*
+**Identity:** "Long ago, Wrenn was a dryad who protected a vast forest on an unknown plane" ([profile](https://magic.wizards.com/en/story/wrenn-planeswalker)).
+**Spark moment:** ✅ "When a malevolent force tried to burn her forest to the ground, Wrenn absorbed the inferno into her own body. Unable to contain the blaze alone, she was nearly incinerated and her Planeswalker Spark ignited" ([profile](https://magic.wizards.com/en/story/wrenn-planeswalker)).
+
+| When (story) | Event | Source |
+|---|---|---|
+| MID (2021) | Arrives on Innistrad: "Wrenn and Six took a step—one of their last together—and put their massive foot down on the soil of Innistrad"; Six is later replaced by Seven. | [Tangles](https://magic.wizards.com/en/news/magic-story/tangles-2021-09-03) |
+| BRO (2022) | Recruited by Teferi, who finds her "on the plane of Cridhe, where she and Seven were basking in the intense mana showers of the plane's Clan Tree." Defends the Tower with Nissa. | [BRO Ch. 1](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-1-stronghold) · [Ch. 5](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-5-exodus) |
+| MOM (2023) | Merges with Realmbreaker as Eight: "The others said Eight was the kind of tree who bridged whole planes together." Afterwards "Wrenn swapped New Phyrexia and Zhalfir's places in the Multiverse." | [MOM Ep. 8](https://magic.wizards.com/en/news/magic-story/episode-8-wrenn-and-eight) · [Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) |
+
+**Allegiances:** Ally of Teferi and the Dominarian coalition (BRO, MOM).
+**Status:** [Characters Index → Wrenn](Characters%20Index.md#wrenn).
+
+## Niv-Mizzet
+*Dossier added Bot cycle 28.* 📝 Not a Planeswalker; included as a recurring major character (Izzet parun, Living Guildpact).
+**Identity:** "Niv-Mizzet, the Firemind, is the original parun of the Izzet League"; "known for his unpredictability, vanity, and fiery temper" ([PW Guide to RTR Pt 2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2)).
+**Spark moment:** n/a (no spark).
+
+| When (story) | Event | Source |
+|---|---|---|
+| RTR (2012) | Niv-Mizzet "has driven the Izzet to delve deeper and deeper into more dangerous and experimental magic." | [PW Guide to RTR Pt 2](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-2) |
+| Origins (2015) | Ral fears his secret: "Niv-Mizzet might have guessed you're a Planeswalker already." | [Project Lightning Bug](https://magic.wizards.com/en/news/magic-story/project-lightning-bug-2015-05-27) |
+| WAR (2019) | Killed ("So Master Niv-Mizzet's dead, too"); resurrected by Operation Desperation "as the new Living Guildpact"; drives the Spear of Hazoret "farther into Bolas's back". | [Rallying the Reluctant](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-rallying-reluctant-2019-05-22) · [Operation Desperation](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-operation-desperation-2019-06-05) · [Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
+| MKM (2024) | "Niv-Mizzet, the Firemind and Living Guildpact." | [MKM Ep. 11](https://magic.wizards.com/en/news/magic-story/episode-11-portents-and-omens) |
+| DSK (2024) | The door to Duskmourn was found "on Ravnica, being guarded by Niv-Mizzet." | [DSK Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house) |
+
+**Allegiances:** Izzet League; Living Guildpact of Ravnica.
+**Status:** [Characters Index → Proft, Etrata, Aminatou, Niv-Mizzet](Characters%20Index.md#proft-etrata-aminatou-niv-mizzet).
+
 ## Spark & allegiance summary
 | Planeswalker | Spark ignition (sourced) | Spark now (per Characters Index) | Key allegiance |
 |---|---|---|---|
@@ -399,7 +451,7 @@ schema: 2
 | Tamiyo | ❓ | dead | — |
 | Sarkhan | ✅ Victory | ❓ | Mardu / Ugin |
 | Gideon | ✅ Kytheon Iora of Akros | dead (WAR) | Gatewatch |
-| Nahiri | ❓ | ❓ (diminished) | Zendikar |
+| Nahiri | ❓ | lost (Beyond Repair) *(Bot cycle 28 fix)* | Zendikar |
 | Sorin | ✅ VOW Ep. 4 | ⚠️ unverified | Innistrad |
 | Ugin | ✅ Chronicle: Whispers of Treachery | kept | against Bolas |
 | Nicol Bolas | ✅ Chronicle: Perspectives | ❓ (escaped) | himself |
@@ -407,6 +459,9 @@ schema: 2
 | Oko | 📝 Legends of ECL (origin; scene ❓) | active | himself / family |
 | Tezzeret | ❓ | active (EOE) | ex-Bolas |
 | Tam | ✅ inherits Jace's spark (RF Ep. 10) | active | ❓ (post-Theorist) |
+| Garruk | ❓ | kept (planeswalks, RF Ep. 10) | himself |
+| Wrenn | ✅ profile | dead (MOM) | Teferi / coalition |
+| Niv-Mizzet | n/a (not a Planeswalker) | n/a | Izzet / Living Guildpact |
 
 <!-- CHARCARDS:START -->
 ## Character cards (name-matched)
@@ -437,6 +492,9 @@ schema: 2
 | [Oko](#oko) | [Oko, Lorwyn Liege // Oko, Shadowmoor Scion](cards/O/ok.md#oko-lorwyn-liege--oko-shadowmoor-scion) · [Oko, Thief of Crowns](cards/O/ok.md#oko-thief-of-crowns) · [Oko, the Ringleader](cards/O/ok.md#oko-the-ringleader) · [Oko, the Trickster](cards/O/ok.md#oko-the-trickster) | 4 |
 | [Tezzeret](#tezzeret) | [Tezzeret the Schemer](cards/T/te.md#tezzeret-the-schemer) · [Tezzeret the Seeker](cards/T/te.md#tezzeret-the-seeker) · [Tezzeret, Agent of Bolas](cards/T/te.md#tezzeret-agent-of-bolas) · [Tezzeret, Artifice Master](cards/T/te.md#tezzeret-artifice-master) · [Tezzeret, Betrayer of Flesh](cards/T/te.md#tezzeret-betrayer-of-flesh) · [Tezzeret, Cruel Captain](cards/T/te.md#tezzeret-cruel-captain) · [Tezzeret, Cruel Machinist](cards/T/te.md#tezzeret-cruel-machinist) · [Tezzeret, Master of Metal](cards/T/te.md#tezzeret-master-of-metal) · [Tezzeret, Master of the Bridge](cards/T/te.md#tezzeret-master-of-the-bridge) | 9 |
 | [Tam](#tam) | [Tam, Mindful First-Year](cards/T/ta.md#tam-mindful-first-year) · [Tam, Observant Sequencer // Deep Sight](cards/T/ta.md#tam-observant-sequencer--deep-sight) · [Tam, the Possibility](cards/T/ta.md#tam-the-possibility) | 3 |
+| [Garruk Wildspeaker](#garruk-wildspeaker) | [Garruk Relentless // Garruk, the Veil-Cursed](cards/G/ga.md#garruk-relentless--garruk-the-veil-cursed) · [Garruk Wildspeaker](cards/G/ga.md#garruk-wildspeaker) · [Garruk the Slayer](cards/G/ga.md#garruk-the-slayer) · [Garruk, Apex Predator](cards/G/ga.md#garruk-apex-predator) · [Garruk, Caller of Beasts](cards/G/ga.md#garruk-caller-of-beasts) · [Garruk, Curse Breaker](cards/G/ga.md#garruk-curse-breaker) · [Garruk, Cursed Huntsman](cards/G/ga.md#garruk-cursed-huntsman) · [Garruk, Primal Hunter](cards/G/ga.md#garruk-primal-hunter) · [Garruk, Savage Herald](cards/G/ga.md#garruk-savage-herald) · [Garruk, Unleashed](cards/G/ga.md#garruk-unleashed) · [Garruk, Veiled Butcher](cards/G/ga.md#garruk-veiled-butcher) | 11 |
+| [Wrenn](#wrenn) | [Wrenn and Realmbreaker](cards/W/wr.md#wrenn-and-realmbreaker) · [Wrenn and Seven](cards/W/wr.md#wrenn-and-seven) · [Wrenn and Six](cards/W/wr.md#wrenn-and-six) | 3 |
+| [Niv-Mizzet](#niv-mizzet) | [Niv-Mizzet Reborn](cards/N/ni.md#niv-mizzet-reborn) · [Niv-Mizzet, Dracogenius](cards/N/ni.md#niv-mizzet-dracogenius) · [Niv-Mizzet, Ghost Counsel](cards/N/ni.md#niv-mizzet-ghost-counsel) · [Niv-Mizzet, Guildpact](cards/N/ni.md#niv-mizzet-guildpact) · [Niv-Mizzet, Parun](cards/N/ni.md#niv-mizzet-parun) · [Niv-Mizzet, Supreme](cards/N/ni.md#niv-mizzet-supreme) · [Niv-Mizzet, Visionary](cards/N/ni.md#niv-mizzet-visionary) · [Niv-Mizzet, the Firemind](cards/N/ni.md#niv-mizzet-the-firemind) | 8 |
 
-22 of 22 characters have name-matched cards (202 card links).
+25 of 25 characters have name-matched cards (224 card links).
 <!-- CHARCARDS:END -->

@@ -10,6 +10,7 @@ date,title,kind,arc,words,url
 ,Dovin Baan | Planeswalker,story,,42,https://magic.wizards.com/en/story/dovin-baan-planeswalker
 ,Elspeth Tirel | Planeswalker,story,,103,https://magic.wizards.com/en/story/elspeth-tirel-planeswalker
 ,Fiora,story,,262,https://magic.wizards.com/en/story/fiora-plane
+,Garruk Wildspeaker | Planeswalker,story,,64,https://magic.wizards.com/en/story/garruk-wildspeaker-planeswalker
 ,Gideon Jura | Planeswalker,story,,27,https://magic.wizards.com/en/story/gideon-jura-planeswalker
 ,Huatli | Planeswalker,story,,89,https://magic.wizards.com/en/story/huatli-planeswalker
 ,Innistrad,story,,302,https://magic.wizards.com/en/story/innistrad-plane
@@ -30,6 +31,7 @@ date,title,kind,arc,words,url
 ,Nissa Revane | Planeswalker,story,,62,https://magic.wizards.com/en/story/nissa-revane-planeswalker
 ,Oko | Planeswalker,story,,67,https://magic.wizards.com/en/story/oko-planeswalker
 ,Ravnica,story,,305,https://magic.wizards.com/en/story/ravnica-plane
+,Rowan Kenrith | Planeswalker,story,,68,https://magic.wizards.com/en/story/rowan-kenrith-planeswalker
 ,Saheeli | Planeswalker,story,,45,https://magic.wizards.com/en/story/saheeli-rai-planeswalker
 ,Samut | Planeswalker,story,,85,https://magic.wizards.com/en/story/samut-planeswalker
 ,Sarkhan Vol | Planeswalker,story,,452,https://magic.wizards.com/en/story/sarkhan-vol-planeswalker
@@ -38,11 +40,14 @@ date,title,kind,arc,words,url
 ,Tamiyo | Planeswalker,story,,72,https://magic.wizards.com/en/story/tamiyo-planeswalker
 ,Tarkir,story,,282,https://magic.wizards.com/en/story/tarkir-plane
 ,Teferi | Planeswalker,story,,136,https://magic.wizards.com/en/story/teferi-planeswalker
+,Teyo Verada | Planeswalker,story,,43,https://magic.wizards.com/en/story/teyo-verada-planeswalker
 ,Tezzeret | Planeswalker,story,,57,https://magic.wizards.com/en/story/tezzeret-planeswalker
 ,Theros,story,THS,250,https://magic.wizards.com/en/story/theros-plane
 ,Ugin | Planeswalker,story,,37,https://magic.wizards.com/en/story/ugin-planeswalker
 ,Venser | Planeswalker,story,,75,https://magic.wizards.com/en/story/venser-planeswalker
 ,Vraska | Planeswalker,story,,71,https://magic.wizards.com/en/story/vraska-planeswalker
+,Will Kenrith | Planeswalker,story,,64,https://magic.wizards.com/en/story/will-kenrith-planeswalker
+,Wrenn | Planeswalker,story,,107,https://magic.wizards.com/en/story/wrenn-planeswalker
 ,Xenagos | Planeswalker,story,,78,https://magic.wizards.com/en/story/xenagos-planeswalker
 ,Zendikar,story,,261,https://magic.wizards.com/en/story/zendikar-plane
 2007-02-12,Maelstrom,story,,2269,https://magic.wizards.com/en/news/magic-story/maelstrom
@@ -297,6 +302,7 @@ date,title,kind,arc,words,url
 2021-01-08,Episode 1: Travelers,story,KHM,4020,https://magic.wizards.com/en/news/magic-story/episode-1-travelers-2021-01-07
 2021-01-14,"Planeswalker's Guide to Kaldheim, Part 2",planeswalkers-guide,KHM,7730,https://magic.wizards.com/en/news/feature/planeswalkers-guide-kaldheim-part-2-2021-01-14
 2021-01-14,Episode 2: Awaken the Trolls,story,KHM,4652,https://magic.wizards.com/en/news/magic-story/episode-2-awaken-trolls-2021-01-13
+2021-01-21,The Legends of Kaldheim,feature,KHM,5447,https://magic.wizards.com/en/news/feature/legends-kaldheim-2021-01-21
 2021-01-21,Episode 3: The Saga of Tibalt,story,KHM,1334,https://magic.wizards.com/en/news/magic-story/episode-3-saga-tibalt-2021-01-20
 2021-01-22,Brokenbrow,story,,3763,https://magic.wizards.com/en/news/magic-story/brokenbrow-2021-01-22
 2021-01-28,Episode 4: Into the Demons' Realm,story,KHM,5551,https://magic.wizards.com/en/news/magic-story/episode-4-demons-realm-2021-01-27

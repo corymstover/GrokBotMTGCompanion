@@ -1246,9 +1246,9 @@ schema: 2
 
 ### Koma, Cosmos Serpent
 
-[Card entry](../cards/K/ko.md#koma-cosmos-serpent) · **3 pages** (lore & story 1 · card data 2)
+[Card entry](../cards/K/ko.md#koma-cosmos-serpent) · **4 pages** (lore & story 2 · card data 2)
 
-- **Lore & story (1):** [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
+- **Lore & story (2):** [Items & Artifacts Index → World Tree & the Sword of the Realms (Kaldheim)](../Items%20%26%20Artifacts%20Index.md#world-tree--the-sword-of-the-realms-kaldheim) · [Planes Index → Kaldheim](../Planes%20Index.md#kaldheim)
 - **Card data (2):** [Artist Index → Artists E](../Artist%20Index.md#artists-e) · [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Koma, World-Eater

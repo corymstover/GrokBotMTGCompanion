@@ -761,10 +761,11 @@ schema: 2
 
 ### Whip of Erebos
 
-[Card entry](../cards/W/wh.md#whip-of-erebos) · **4 pages** (decks 1 · edh guides 2 · card data 1)
+[Card entry](../cards/W/wh.md#whip-of-erebos) · **5 pages** (decks 1 · edh guides 2 · lore & story 1 · card data 1)
 
 - **Decks (1):** [Be'lakor, the Dark Master (Grixis)](../grixis/decks/belakor-the-dark-master.md)
 - **EDH guides (2):** [EDH Packages → Graveyard: Reanimation](../EDH%20Packages.md#graveyard-reanimation) · [EDH Staples → Graveyard recursion](../EDH%20Staples.md#graveyard-recursion)
+- **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Artist Index → Artists M](../Artist%20Index.md#artists-m)
 
 ### Whirlermaker
@@ -1755,25 +1756,25 @@ schema: 2
 
 ### Wrenn and Realmbreaker
 
-[Card entry](../cards/W/wr.md#wrenn-and-realmbreaker) · **4 pages** (decks 1 · lore & story 2 · card data 1)
+[Card entry](../cards/W/wr.md#wrenn-and-realmbreaker) · **5 pages** (decks 1 · lore & story 3 · card data 1)
 
 - **Decks (1):** [Atraxa, Praetors' Voice (planeswalkers theme)](../decks/theme-atraxa-praetors-voice-planeswalkers.md)
-- **Lore & story (2):** [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (3):** [Art & Flavor Story Links → The Phyrexian Invasion saga (2023)](../Art%20%26%20Flavor%20Story%20Links.md#the-phyrexian-invasion-saga-2023) · [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Wrenn and Seven
 
-[Card entry](../cards/W/wr.md#wrenn-and-seven) · **3 pages** (decks 1 · lore & story 1 · card data 1)
+[Card entry](../cards/W/wr.md#wrenn-and-seven) · **4 pages** (decks 1 · lore & story 2 · card data 1)
 
 - **Decks (1):** [The Gitrog Monster (Innistrad-only)](../decks/plane-innistrad-the-gitrog-monster.md)
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens) (+1 more)
 
 ### Wrenn and Six
 
-[Card entry](../cards/W/wr.md#wrenn-and-six) · **3 pages** (lore & story 1 · card data 2)
+[Card entry](../cards/W/wr.md#wrenn-and-six) · **4 pages** (lore & story 2 · card data 2)
 
-- **Lore & story (1):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched)
+- **Lore & story (2):** [Characters Index → Character cards (name-matched)](../Characters%20Index.md#character-cards-name-matched) · [Planeswalker Dossiers → Character cards (name-matched)](../Planeswalker%20Dossiers.md#character-cards-name-matched)
 - **Card data (2):** [Format Legality Matrix → legacy](../Format%20Legality%20Matrix.md#legacy) (+2 more) · [Tokens, Emblems & Dungeons → Emblems](../Tokens%2C%20Emblems%20%26%20Dungeons.md#emblems)
 
 ### Wrenn's Resolve

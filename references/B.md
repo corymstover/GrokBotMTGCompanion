@@ -927,11 +927,11 @@ schema: 2
 
 ### Bident of Thassa
 
-[Card entry](../cards/B/bi.md#bident-of-thassa) · **7 pages** (decks 4 · edh guides 1 · lore & story 1 · card data 1)
+[Card entry](../cards/B/bi.md#bident-of-thassa) · **8 pages** (decks 4 · edh guides 1 · lore & story 2 · card data 1)
 
 - **Decks (4):** [Admiral Beckett Brass (Grixis)](../grixis/decks/admiral-beckett-brass.md) · [Goro-Goro and Satoru (Grixis)](../grixis/decks/goro-goro-and-satoru.md) · [Talrand, Sky Summoner](../decks/talrand-sky-summoner.md) · [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
 - **EDH guides (1):** [EDH Packages → Card advantage: Repeatable draw engines (permanents)](../EDH%20Packages.md#card-advantage-repeatable-draw-engines-permanents)
-- **Lore & story (1):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages)
+- **Lore & story (2):** [Art & Flavor Story Links → Captioned art on cited story pages](../Art%20%26%20Flavor%20Story%20Links.md#captioned-art-on-cited-story-pages) · [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Artist Index → Artists K](../Artist%20Index.md#artists-k)
 
 ### Bigger on the Inside
@@ -2234,9 +2234,10 @@ schema: 2
 
 ### Bow of Nylea
 
-[Card entry](../cards/B/bo.md#bow-of-nylea) · **1 pages** (decks 1)
+[Card entry](../cards/B/bo.md#bow-of-nylea) · **2 pages** (decks 1 · lore & story 1)
 
 - **Decks (1):** [Uro, Titan of Nature's Wrath (Theros-only)](../decks/plane-theros-uro-titan-of-natures-wrath.md)
+- **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 
 ### Brago, King Eternal
 

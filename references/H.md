@@ -178,8 +178,9 @@ schema: 2
 
 ### Hammer of Purphoros
 
-[Card entry](../cards/H/ha.md#hammer-of-purphoros) · **1 pages** (card data 1)
+[Card entry](../cards/H/ha.md#hammer-of-purphoros) · **2 pages** (lore & story 1 · card data 1)
 
+- **Lore & story (1):** [Items & Artifacts Index → Theros god weapons](../Items%20%26%20Artifacts%20Index.md#theros-god-weapons)
 - **Card data (1):** [Tokens, Emblems & Dungeons → Creature tokens](../Tokens%2C%20Emblems%20%26%20Dungeons.md#creature-tokens)
 
 ### Hamza, Guardian of Arashin

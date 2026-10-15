@@ -609,7 +609,7 @@ schema: 2
   - *2013-09-15* — If a creature returned to the battlefield with Whip of Erebos would leave the battlefield for any reason, it's exiled instead. However, if that creature is already being exiled, then the replacement effect won't apply. If the spell or ability that exiles it later returns it to the battlefield (as Chained to the Rocks might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The effects from Whip of Erebos will no longer apply to it.
   - *2013-09-15* — The exiled creature is never put into the graveyard. Any abilities the creature has that trigger when it dies won't trigger.
   - *2013-09-15* — Whip of Erebos grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
-- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/W.md#whip-of-erebos)
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#whip-of-erebos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/159/whip-of-erebos) · oracle_id `53987a39-c18c-4c13-b1ea-fd1b2a369f9e` · printing: DSC #159 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Whippoorwill

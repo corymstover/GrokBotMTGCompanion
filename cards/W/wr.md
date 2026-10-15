@@ -565,7 +565,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2712 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The lands you play and spells you cast from your graveyard follow the usual timing restrictions, and you must pay any costs for spells you cast.
-- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-realmbreaker)
+- **Referenced in:** 5 pages (1 decks · 3 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-realmbreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/217/wrenn-and-realmbreaker) · oracle_id `4566fb92-448e-4b3f-9045-9d74323c35d1` · printing: MOM #217 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Seven
@@ -580,7 +580,7 @@ schema: 2
   > −8: Return all permanent cards from your graveyard to your hand. You get an emblem with "You have no maximum hand size."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2491 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
-- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-seven)
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/W.md#wrenn-and-seven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/226/wrenn-and-seven) · oracle_id `63a509ea-cedc-40e9-b4e8-0ff4fc356485` · printing: INR #226 (2025-01-24) · [rulings](https://api.scryfall.com/cards/302f0dc1-88ab-4961-b78c-fbe7980dca18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn and Six
@@ -595,7 +595,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6569 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-06-14* — When a spell you cast with retrace resolves or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
-- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/W.md#wrenn-and-six)
+- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/W.md#wrenn-and-six)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/296/wrenn-and-six) · oracle_id `108ae90a-50fa-4cfd-b751-d630e41425fe` · printing: 2X2 #296 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wrenn's Resolve
