@@ -78,8 +78,8 @@ Every enriched card, by type and batch. The full per-card record is `data/card_e
 
 | Evidence on the card's lines | Cards |
 |---|---|
-| depicts | 21 |
-| featured | 108 |
+| depicts | 19 |
+| featured | 110 |
 | name match only | 396 |
 | Story Spotlight | 384 |
 | art on an official page | 1,088 |
@@ -222,7 +222,7 @@ Every lore entry named on an enriched card's Lore line, with the cards that name
 | [Item → Endstone](Items%20%26%20Artifacts%20Index.md#endstone) | [The Endstone](cards/T/thee.md#the-endstone) (depicts) |
 | [Item → Godsend & Khrusor](Items%20%26%20Artifacts%20Index.md#godsend--khrusor) | [Godsend](cards/G/god.md#godsend) (depicts) |
 | [Item → Golgothian Sylex](Items%20%26%20Artifacts%20Index.md#golgothian-sylex) | [Golgothian Sylex](cards/G/gol.md#golgothian-sylex) (depicts) · [Karn's Sylex](cards/K/ka.md#karns-sylex) (featured) |
-| [Item → Halo](Items%20%26%20Artifacts%20Index.md#halo) | [Halo Forager](cards/H/ha.md#halo-forager) (depicts) · [Halo Fountain](cards/H/ha.md#halo-fountain) (depicts) |
+| [Item → Halo](Items%20%26%20Artifacts%20Index.md#halo) | [Halo Forager](cards/H/ha.md#halo-forager) (featured) · [Halo Fountain](cards/H/ha.md#halo-fountain) (depicts) |
 | [Item → Hedrons](Items%20%26%20Artifacts%20Index.md#hedrons) | [Hedron Archive](cards/H/he.md#hedron-archive) (featured) |
 | [Item → Helvault](Items%20%26%20Artifacts%20Index.md#helvault) | [Helvault](cards/H/he.md#helvault) (depicts) |
 | [Item → Immortal Sun](Items%20%26%20Artifacts%20Index.md#immortal-sun) | [The Immortal Sun](cards/T/thei.md#the-immortal-sun) (depicts) |
@@ -231,7 +231,7 @@ Every lore entry named on an enriched card's Lore line, with the cards that name
 | [Item → Mightstone & Weakstone](Items%20%26%20Artifacts%20Index.md#mightstone--weakstone) | [The Mightstone and Weakstone](cards/T/them.md#the-mightstone-and-weakstone) (depicts) |
 | [Item → Ozolith](Items%20%26%20Artifacts%20Index.md#ozolith) | [The Ozolith](cards/T/theo.md#the-ozolith) (depicts) |
 | [Item → Planar Bridge](Items%20%26%20Artifacts%20Index.md#planar-bridge) | [Planar Bridge](cards/P/pl.md#planar-bridge) (depicts) |
-| [Item → Reality Chip](Items%20%26%20Artifacts%20Index.md#reality-chip) | [The Reality Chip](cards/T/ther.md#the-reality-chip) (depicts) |
+| [Item → Reality Chip](Items%20%26%20Artifacts%20Index.md#reality-chip) | [The Reality Chip](cards/T/ther.md#the-reality-chip) (featured) |
 | [Item → Realmbreaker, the Invasion Tree](Items%20%26%20Artifacts%20Index.md#realmbreaker-the-invasion-tree) | [Realmbreaker, the Invasion Tree](cards/R/rea.md#realmbreaker-the-invasion-tree) (depicts) |
 | [Item → Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)](Items%20%26%20Artifacts%20Index.md#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir) | [Crucible of the Spirit Dragon](cards/C/cr.md#crucible-of-the-spirit-dragon) (depicts) |
 | [Item → Theros god weapons](Items%20%26%20Artifacts%20Index.md#theros-god-weapons) | [Bident of Thassa](cards/B/bi.md#bident-of-thassa) (featured) · [Bow of Nylea](cards/B/bo.md#bow-of-nylea) (featured) · [Hammer of Purphoros](cards/H/ha.md#hammer-of-purphoros) (featured) · [Whip of Erebos](cards/W/wh.md#whip-of-erebos) (featured) |

@@ -135,7 +135,7 @@ schema: 2
 [Card entry](../cards/H/ha.md#halo-forager) · **1 pages** (lore & story 1)
 
 - **Lore & story (1):** [Items & Artifacts Index → Halo](../Items%20%26%20Artifacts%20Index.md#halo)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Halo](../Items%20%26%20Artifacts%20Index.md#halo) (depicts)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Halo](../Items%20%26%20Artifacts%20Index.md#halo) (featured)
 
 ### Halo Fountain
 

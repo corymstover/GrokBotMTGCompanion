@@ -2166,7 +2166,7 @@ schema: 2
 - **Rules (1):** [Keyword Encyclopedia → Reconfigure](../Keyword%20Encyclopedia.md#reconfigure)
 - **Lore & story (1):** [Items & Artifacts Index → Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip)
 - **Card data (1):** [Artist Index → Artists T](../Artist%20Index.md#artists-t)
-- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip) (depicts)
+- **Lore entries (1; [card enrichment](../Card%20Enrichment.md), Bot cycle 33):** [Reality Chip](../Items%20%26%20Artifacts%20Index.md#reality-chip) (featured)
 
 ### There and Back Again
 

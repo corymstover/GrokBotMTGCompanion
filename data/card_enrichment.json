@@ -22479,7 +22479,7 @@
    "anchor": "halo-forager",
    "batch": 34,
    "lines": [
-    "- **Lore:** Depicts: [Item → Halo](../../Items%20%26%20Artifacts%20Index.md#halo) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) via entry) — *References:* New Capenna's Halo: the archangels \"gave themselves up to make Halo, to distribute it across the city and throughout the air itself\" ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna)) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Lore:** Featured in: [Item → Halo](../../Items%20%26%20Artifacts%20Index.md#halo) ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna), [2](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations) via entry) — *References:* New Capenna's Halo: the archangels \"gave themselves up to make Halo, to distribute it across the city and throughout the air itself\" ([source](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna)) · [format](../../Card%20Enrichment.md#lore-line)",
     "- **Synergy:** *Proven* — Commander Spellbook: no Commander-legal combo listed · EDHREC: in 23,942 decks; most often under [Alela, Cunning Conqueror](../../cards/A/al.md#alela-cunning-conqueror) (34.6% of its decks), [Tegwyll, Duke of Splendor](../../cards/T/te.md#tegwyll-duke-of-splendor) (69.7% of its decks), [Maralen, Fae Ascendant](../../cards/M/mar.md#maralen-fae-ascendant) (7.7% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
@@ -22500,7 +22500,7 @@
       "kind": "item",
       "line_flags": [],
       "name": "Halo",
-      "relation": "depicts",
+      "relation": "featured",
       "sources": [
        "https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-streets-of-new-capenna",
        "https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-2-unstable-foundations"
@@ -70855,7 +70855,7 @@
    "anchor": "the-reality-chip",
    "batch": 33,
    "lines": [
-    "- **Lore:** Depicts: [Item → Reality Chip](../../Items%20%26%20Artifacts%20Index.md#reality-chip) ([source](https://magic.wizards.com/en/news/magic-story/a-man-of-parts), [2](https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24) via entry) · [format](../../Card%20Enrichment.md#lore-line)",
+    "- **Lore:** Featured in: [Item → Reality Chip](../../Items%20%26%20Artifacts%20Index.md#reality-chip) ([source](https://magic.wizards.com/en/news/magic-story/a-man-of-parts), [2](https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24) via entry) · [format](../../Card%20Enrichment.md#lore-line)",
     "- **Synergy:** *Proven* — KB decks (1): [Mishra, Artificer Prodigy (Grixis)](../../grixis/decks/mishra-artificer-prodigy.md) · Commander Spellbook: 100+ combos; most popular [Sensei's Divining Top + Etherium Sculptor + The Reality Chip](https://commanderspellbook.com/combo/1976-5078-5243/) (Infinite card draw, Infinite draw triggers) · EDHREC as commander: 1,720 decks; highest synergy [Etherium Sculptor](../../cards/E/et.md#etherium-sculptor) (+56%), [Foundry Inspector](../../cards/F/fo.md#foundry-inspector) (+56%), [Cloud Key](../../cards/C/cl.md#cloud-key) (+48%) · EDHREC: in 144,431 decks; most often under [Urza, Lord High Artificer](../../cards/U/ur.md#urza-lord-high-artificer) (44.7% of its decks), [Kellan, the Kid](../../cards/K/ke.md#kellan-the-kid) (62.6% of its decks), [Marvo, Deep Operative](../../cards/M/mar.md#marvo-deep-operative) (50.4% of its decks) · [format](../../Card%20Enrichment.md#synergy-line)"
    ],
    "lore": {
@@ -70869,7 +70869,7 @@
       "kind": "item",
       "line_flags": [],
       "name": "Reality Chip",
-      "relation": "depicts",
+      "relation": "featured",
       "sources": [
        "https://magic.wizards.com/en/news/magic-story/a-man-of-parts",
        "https://magic.wizards.com/en/news/magic-story/episode-3-unexpected-alliance-2022-01-24"

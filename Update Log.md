@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)](#2026-10-15--bot-cycle-34-phase-8-batch-2-package-back-links-atomic-writes)
 - [2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)](#2026-10-15--bot-cycle-33-phase-8-card-enrichment-format--batch-1)
 - [2026-10-15 — Bot cycle 32 (Phase 7 complete: lore cross-refs, story maps, rules quote checks)](#2026-10-15--bot-cycle-32-phase-7-complete-lore-cross-refs-story-maps-rules-quote-checks)
 - [2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)](#2026-10-15--bot-cycle-31-phase-7-lore-retrieval--validation)
@@ -47,6 +48,34 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 34 (Phase 8: batch 2, package back-links, atomic writes)
+Batch 2 of [Phase 8](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17). The first run was interrupted by a box reset, so this cycle also covers the recovery.
+
+- **P8.2 ([#100](https://github.com/corymstover/GrokBotMTGCompanion/issues/100)) batch 2 lore:** 1,757 more cards: every remaining lore-entry-linked card, all 414 name-matched character cards and every story-flavor card. 1,850 cards are now enriched.
+  - By type: 317 creatures, 270 legendary creatures, 270 planeswalkers, 270 sorceries, 267 instants, 160 enchantments, 107 lands, 58 artifacts, 20 legendary artifacts, 13 other legendaries, 4 legendary lands, 1 battle.
+  - 713 new lore relations: 7 *depicts*, 29 *featured*, 677 *name match only* ⚠️.
+  - New evidence kind: **art shown on an official story page**, counted only when the `data/story_art_captions.csv` caption names the card and its artist matches a printing (1,077 cards). There are also 381 Story Spotlight cards, 268 Art & Flavor section back-links and 19 cards whose flavor text appears verbatim on an official page.
+  - 7 new curated notes in `data/card_lore_notes.json`: Golgothian Sylex (🔄 origin retcon), Moonsilver Key, Crucible of the Spirit Dragon, Hedron Archive, The World Tree, Halo Fountain and Halo Forager. All 15 quotations in the 12 notes were re-checked against the live official pages after the reset.
+  - Creatures named for an item (Halo Forager → Halo) are now *featured*, not *depicts*.
+- **P8.3 ([#101](https://github.com/corymstover/GrokBotMTGCompanion/issues/101)) batch 2 synergy:**
+  - Proven tier: KB decks 302, Commander Spellbook combos 487, EDHREC co-occurrence 1,747, EDHREC as-commander 284. Guidance tier (EDH Packages): 321.
+  - EDHREC/Spellbook were fetched in the background, one thread per host, 1 s apart. The fetch now follows EDHREC redirect stubs, which fixes split cards such as Integrity // Intervention. A 403 from EDHREC (no page) is cached as a miss.
+  - 10 cards have no EDHREC page. Most are meld results or digital-only cards.
+- **P8.4 ([#102](https://github.com/corymstover/GrokBotMTGCompanion/issues/102)) done:**
+  - Each EDH Packages sub-package lists the enriched cards that name it.
+  - The `card-enrichment` step now checks package ↔ card reciprocity, Art & Flavor back-links and curated-note flags.
+- **Recovery and robustness:**
+  - The box reset wiped the gitignored `.cache/` and `/tmp`. `data/card_enrichment.json` survived complete and was kept. The partially rewritten generated files were restored from HEAD with `git restore`.
+  - Caches rebuilt:
+    - the identical Scryfall bulks (2026-10-15 09:02, still hosted);
+    - CR 2026-09-25;
+    - the price snapshot, via new `scripts/build_min_usd.py`, which reproduces the EDH Packages prices exactly.
+  - The story-page cache is not rebuilt yet. Until it is, `lore_quotes --check` compares fingerprints with the ledger, and the enrichment build keeps the flavor-text matches verified in an earlier run.
+  - New `scripts/atomic_io.py`: every generator now writes through a temp file plus `os.replace`, so a killed run leaves each file either old or new.
+  - The branch was pushed in checkpoint commits.
+- **Coverage:** entry-linked 128/128, character cards 414/414, story-flavor 1,431/1,431, planeswalkers 291/338, legendary creatures 322/3,786. Priority pool: 1,850/5,361 (34.5%). The pool grew from 4,549 because art on official pages now counts as story-flavor evidence.
+- `validate_all` PASS (13 steps).
 
 ## 2026-10-15 — Bot cycle 33 (Phase 8: card enrichment format + batch 1)
 New milestone [Phase 8 — Card-level lore & synergy deepening](https://github.com/corymstover/GrokBotMTGCompanion/milestone/17) with issues #99–#103 (Cory's request). This cycle covers the format, the tooling and batch 1.

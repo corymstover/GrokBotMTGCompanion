@@ -416,6 +416,9 @@ def lore_for(r, c, links, cc, keys, prints, S, norm, notes, caps, afs, prev_lore
     rel = []
     for x in links.get(k, []):
         relation = "depicts" if x["kind"] in ("character", "dossier", "item") and names_match(x["name"], c["name"]) else "featured"
+        if relation == "depicts" and x["kind"] == "item" and "Creature" in face_types(c)[0] \
+                and front(c["name"]).lower() not in x["name"].lower():
+            relation = "featured"  # a creature named for an item (Halo Forager → Halo) features it, not depicts it
         if x["kind"] == "plane" and names_match(x["name"], c["name"]):
             relation = "depicts"  # a legendary land / location named for the plane
         rel.append({"entry": x["key"], "kind": x["kind"], "name": x["name"], "relation": relation, "sources": x["sources"],
