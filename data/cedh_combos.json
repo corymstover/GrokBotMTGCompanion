@@ -1,0 +1,1068 @@
+{
+ "generated": "2026-10-15",
+ "source": "https://backend.commanderspellbook.com/find-my-combos",
+ "seed": [
+  "Thassa's Oracle",
+  "Demonic Consultation",
+  "Tainted Pact",
+  "Underworld Breach",
+  "Brain Freeze",
+  "Lion's Eye Diamond",
+  "Dramatic Reversal",
+  "Isochron Scepter",
+  "Kiki-Jiki, Mirror Breaker",
+  "Zealous Conscripts",
+  "Heliod, Sun-Crowned",
+  "Walking Ballista",
+  "Sanguine Bond",
+  "Exquisite Blood",
+  "Laboratory Maniac",
+  "Jace, Wielder of Mysteries",
+  "Ad Nauseam",
+  "Angel's Grace",
+  "Basalt Monolith",
+  "Rings of Brighthearth",
+  "Grim Monolith",
+  "Power Artifact",
+  "Animate Dead",
+  "Worldgorger Dragon",
+  "Food Chain",
+  "Squee, the Immortal",
+  "Eternal Scourge",
+  "Hermit Druid",
+  "Peregrine Drake",
+  "Deadeye Navigator",
+  "Bolas's Citadel",
+  "Sensei's Divining Top",
+  "Aetherflux Reservoir",
+  "Godo, Bandit Warlord",
+  "Helm of the Host",
+  "Niv-Mizzet, Parun",
+  "Curiosity",
+  "Splinter Twin",
+  "Pestermite",
+  "Deceiver Exarch",
+  "Doomsday",
+  "Earthcraft",
+  "Squirrel Nest",
+  "Mikaeus, the Unhallowed",
+  "Triskelion",
+  "Ashnod's Altar",
+  "Nim Deathmantle",
+  "Hullbreaker Horror",
+  "Sol Ring",
+  "Mana Vault",
+  "Auriok Salvagers",
+  "Bloom Tender",
+  "Freed from the Real",
+  "Pemmin's Aura",
+  "Devoted Druid",
+  "Vizier of Remedies",
+  "Selvala, Heart of the Wilds",
+  "Umbral Mantle",
+  "Kinnan, Bonder Prodigy",
+  "Najeela, the Blade-Blossom",
+  "Derevi, Empyrial Tactician"
+ ],
+ "combos": [
+  {
+   "id": "513-5034--46",
+   "cards": [
+    "Hullbreaker Horror",
+    "Sol Ring"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite colorless mana",
+    "Infinite storm count"
+   ],
+   "requires": [
+    "Permanent Castable for {C}"
+   ],
+   "popularity": 359378,
+   "prerequisites": " "
+  },
+  {
+   "id": "690-3966",
+   "cards": [
+    "Sanguine Bond",
+    "Exquisite Blood"
+   ],
+   "identity": "B",
+   "produces": [
+    "Infinite lifegain triggers",
+    "Infinite lifeloss",
+    "Infinite lifegain"
+   ],
+   "requires": [],
+   "popularity": 149544,
+   "prerequisites": " You have a way to gain life."
+  },
+  {
+   "id": "742-1295",
+   "cards": [
+    "Demonic Consultation",
+    "Thassa's Oracle"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Exile your library",
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 149189,
+   "prerequisites": " "
+  },
+  {
+   "id": "1295-3093",
+   "cards": [
+    "Tainted Pact",
+    "Thassa's Oracle"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 131438,
+   "prerequisites": "No two cards in library share a name. "
+  },
+  {
+   "id": "4821-5261",
+   "cards": [
+    "Dramatic Reversal",
+    "Isochron Scepter"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite magecraft triggers",
+    "Infinite mana nonland permanents you control can produce",
+    "Infinite storm count",
+    "Infinite untap of nonland permanents you control"
+   ],
+   "requires": [],
+   "popularity": 106467,
+   "prerequisites": " Nonland permanents you control can tap to produce at least {3}."
+  },
+  {
+   "id": "1368-3518-4856",
+   "cards": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite self-mill",
+    "Near-infinite colored mana",
+    "Near-infinite magecraft triggers",
+    "Near-infinite mill",
+    "Near-infinite storm count"
+   ],
+   "requires": [],
+   "popularity": 95287,
+   "prerequisites": " You have at least six other cards in hand and/or graveyard."
+  },
+  {
+   "id": "513-2364--47",
+   "cards": [
+    "Hullbreaker Horror",
+    "Mana Vault"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite colorless mana",
+    "Infinite storm count"
+   ],
+   "requires": [
+    "Permanent Castable for {C}{C}"
+   ],
+   "popularity": 77571,
+   "prerequisites": " "
+  },
+  {
+   "id": "1089-2353",
+   "cards": [
+    "Curiosity",
+    "Niv-Mizzet, Parun"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite draw triggers",
+    "Infinite card draw",
+    "Near-infinite damage"
+   ],
+   "requires": [],
+   "popularity": 68558,
+   "prerequisites": " Curiosity attached to Niv-Mizzet.\nYou have a way to draw a card.\nYour library is greater than opponent life total."
+  },
+  {
+   "id": "3966-4740",
+   "cards": [
+    "Aetherflux Reservoir",
+    "Exquisite Blood"
+   ],
+   "identity": "B",
+   "produces": [
+    "Infinite damage",
+    "Infinite lifegain triggers"
+   ],
+   "requires": [],
+   "popularity": 56295,
+   "prerequisites": " You have at least 51 life."
+  },
+  {
+   "id": "4131-4235",
+   "cards": [
+    "Rings of Brighthearth",
+    "Basalt Monolith"
+   ],
+   "identity": "C",
+   "produces": [
+    "Infinite colorless mana"
+   ],
+   "requires": [],
+   "popularity": 53328,
+   "prerequisites": " "
+  },
+  {
+   "id": "1274-3693",
+   "cards": [
+    "Heliod, Sun-Crowned",
+    "Walking Ballista"
+   ],
+   "identity": "W",
+   "produces": [
+    "Infinite damage",
+    "Infinite lifegain",
+    "Infinite lifegain triggers"
+   ],
+   "requires": [],
+   "popularity": 52194,
+   "prerequisites": " Walking Ballista has at least two +1/+1 counters on it."
+  },
+  {
+   "id": "2173-4740-5078",
+   "cards": [
+    "Sensei's Divining Top",
+    "Aetherflux Reservoir",
+    "Bolas's Citadel"
+   ],
+   "identity": "B",
+   "produces": [
+    "Infinite card draw",
+    "Infinite draw triggers",
+    "Near-infinite damage",
+    "Near-infinite lifegain",
+    "Near-infinite lifegain triggers",
+    "Near-infinite storm count"
+   ],
+   "requires": [],
+   "popularity": 51436,
+   "prerequisites": "Your life total is at least 2. "
+  },
+  {
+   "id": "1409-3821",
+   "cards": [
+    "Peregrine Drake",
+    "Deadeye Navigator"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite blinking",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite mana lands you control can produce"
+   ],
+   "requires": [],
+   "popularity": 47389,
+   "prerequisites": " Deadeye Navigator is paired with Peregrine Drake.\nYou control up to five lands that can tap to produce {2}{U}."
+  },
+  {
+   "id": "129-4131",
+   "cards": [
+    "Kinnan, Bonder Prodigy",
+    "Basalt Monolith"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite colorless mana"
+   ],
+   "requires": [],
+   "popularity": 46828,
+   "prerequisites": " "
+  },
+  {
+   "id": "3519-3705",
+   "cards": [
+    "Squee, the Immortal",
+    "Food Chain"
+   ],
+   "identity": "RG",
+   "produces": [
+    "Infinite colored mana that can only be spent to cast creature spells",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite storm count"
+   ],
+   "requires": [],
+   "popularity": 35868,
+   "prerequisites": " "
+  },
+  {
+   "id": "618-1537",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Zealous Conscripts"
+   ],
+   "identity": "R",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers"
+   ],
+   "requires": [],
+   "popularity": 28017,
+   "prerequisites": " "
+  },
+  {
+   "id": "1692-4251",
+   "cards": [
+    "Godo, Bandit Warlord",
+    "Helm of the Host"
+   ],
+   "identity": "R",
+   "produces": [
+    "Infinite combat phases",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers",
+    "Put all Equipment cards from your library onto the battlefield"
+   ],
+   "requires": [],
+   "popularity": 25750,
+   "prerequisites": " Helm of the Host attached to Godo."
+  },
+  {
+   "id": "4222-5168",
+   "cards": [
+    "Bloom Tender",
+    "Freed from the Real"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite non-blue mana of colors among permanents you control",
+    "Infinite mana of colors among permanents you control"
+   ],
+   "requires": [],
+   "popularity": 23280,
+   "prerequisites": " Freed from the Real attached to Bloom Tender.\nBloom Tender does not have summoning sickness."
+  },
+  {
+   "id": "1806-3519",
+   "cards": [
+    "Eternal Scourge",
+    "Food Chain"
+   ],
+   "identity": "G",
+   "produces": [
+    "Infinite colored mana that can only be spent to cast creature spells",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite storm count"
+   ],
+   "requires": [],
+   "popularity": 19268,
+   "prerequisites": " "
+  },
+  {
+   "id": "4812-4846",
+   "cards": [
+    "Worldgorger Dragon",
+    "Animate Dead"
+   ],
+   "identity": "BR",
+   "produces": [
+    "Infinite death triggers",
+    "Infinite blinking of permanents",
+    "Infinite colored mana",
+    "Infinite colorless mana",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers"
+   ],
+   "requires": [],
+   "popularity": 15660,
+   "prerequisites": " "
+  },
+  {
+   "id": "618-1692",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Helm of the Host"
+   ],
+   "identity": "R",
+   "produces": [
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers",
+    "Infinite tapped creature tokens",
+    "Infinite tapped creature tokens until end of turn"
+   ],
+   "requires": [],
+   "popularity": 15594,
+   "prerequisites": " Helm of the Host attached to Kiki-Jiki."
+  },
+  {
+   "id": "527-2816",
+   "cards": [
+    "Umbral Mantle",
+    "Selvala, Heart of the Wilds"
+   ],
+   "identity": "G",
+   "produces": [
+    "Infinite colored mana",
+    "Infinitely large creature until end of turn",
+    "Infinite untap of creatures you control",
+    "Infinite mana creatures you control can produce"
+   ],
+   "requires": [],
+   "popularity": 15237,
+   "prerequisites": "Umbral Mantle attached to Selvala. Selvala does not have summoning sickness."
+  },
+  {
+   "id": "742-2836",
+   "cards": [
+    "Demonic Consultation",
+    "Laboratory Maniac"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Exile your library",
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 14549,
+   "prerequisites": " You have a way to draw a card."
+  },
+  {
+   "id": "1295-3189",
+   "cards": [
+    "Doomsday",
+    "Thassa's Oracle"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 14531,
+   "prerequisites": " Your life total is at least 2.\nYou have at least three devotion to blue."
+  },
+  {
+   "id": "3525-5168",
+   "cards": [
+    "Bloom Tender",
+    "Pemmin's Aura"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite non-blue mana of colors among permanents you control",
+    "Infinite mana of colors among permanents you control"
+   ],
+   "requires": [],
+   "popularity": 14147,
+   "prerequisites": " Pemmin's Aura attached to Bloom Tender.\nBloom Tender does not have summoning sickness."
+  },
+  {
+   "id": "129-4222-5168",
+   "cards": [
+    "Kinnan, Bonder Prodigy",
+    "Bloom Tender",
+    "Freed from the Real"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite mana of colors among permanents you control",
+    "Infinite non-blue mana of colors among permanents you control",
+    "Put most creature cards from your library onto the battlefield"
+   ],
+   "requires": [],
+   "popularity": 12242,
+   "prerequisites": " Freed from the Real attached to Bloom Tender.\nBloom Tender does not have summoning sickness."
+  },
+  {
+   "id": "628-3693",
+   "cards": [
+    "Walking Ballista",
+    "Mikaeus, the Unhallowed"
+   ],
+   "identity": "B",
+   "produces": [
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB"
+   ],
+   "requires": [],
+   "popularity": 11976,
+   "prerequisites": " Walking Ballista on the battlefield with a +1/+1 counter on it."
+  },
+  {
+   "id": "4131-5149",
+   "cards": [
+    "Power Artifact",
+    "Basalt Monolith"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite colorless mana"
+   ],
+   "requires": [],
+   "popularity": 10866,
+   "prerequisites": " Power Artifact attached to Basalt Monolith."
+  },
+  {
+   "id": "527-4222",
+   "cards": [
+    "Selvala, Heart of the Wilds",
+    "Freed from the Real"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite colored mana"
+   ],
+   "requires": [],
+   "popularity": 10370,
+   "prerequisites": " Freed from the Real attached to Selvala.\nSelvala does not have summoning sickness.\nYou control a creature with power three or greater."
+  },
+  {
+   "id": "1295-4400",
+   "cards": [
+    "Hermit Druid",
+    "Thassa's Oracle"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 10354,
+   "prerequisites": " Hermit Druid does not have summoning sickness.\nYou have no basic lands in library."
+  },
+  {
+   "id": "2011-2608",
+   "cards": [
+    "Najeela, the Blade-Blossom",
+    "Derevi, Empyrial Tactician"
+   ],
+   "identity": "WUBRG",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite untap of permanents you control",
+    "Infinite colored mana",
+    "Infinite combat phases",
+    "Infinite creature ETB",
+    "Infinite mana permanents you control can produce"
+   ],
+   "requires": [],
+   "popularity": 10066,
+   "prerequisites": " You control two additional creatures.\nYou control permanents that can produce at least {W}{U}{B}{R}{G}.\nNajeela, Derevi, and the additional creatures do not have summoning sickness.\nAn opponent is unable to block your creatures."
+  },
+  {
+   "id": "2585-5149",
+   "cards": [
+    "Power Artifact",
+    "Grim Monolith"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite colorless mana"
+   ],
+   "requires": [],
+   "popularity": 9898,
+   "prerequisites": " Power Artifact attached to Grim Monolith."
+  },
+  {
+   "id": "2836-3093",
+   "cards": [
+    "Tainted Pact",
+    "Laboratory Maniac"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 9640,
+   "prerequisites": "No two cards in library share a name. You have a way to draw a card."
+  },
+  {
+   "id": "742-3096",
+   "cards": [
+    "Demonic Consultation",
+    "Jace, Wielder of Mysteries"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Exile your library",
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 9443,
+   "prerequisites": " "
+  },
+  {
+   "id": "628-1495",
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Triskelion"
+   ],
+   "identity": "B",
+   "produces": [
+    "Infinite damage",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB"
+   ],
+   "requires": [],
+   "popularity": 8454,
+   "prerequisites": " Triskelion has at least two +1/+1 counters on it."
+  },
+  {
+   "id": "515-2757",
+   "cards": [
+    "Earthcraft",
+    "Squirrel Nest"
+   ],
+   "identity": "G",
+   "produces": [
+    "Infinite creature ETB",
+    "Infinite tapped creature tokens"
+   ],
+   "requires": [],
+   "popularity": 8431,
+   "prerequisites": " Squirrel Nest is attached to a basic land you control."
+  },
+  {
+   "id": "628-4762",
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Devoted Druid"
+   ],
+   "identity": "BG",
+   "produces": [
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB"
+   ],
+   "requires": [],
+   "popularity": 7571,
+   "prerequisites": " "
+  },
+  {
+   "id": "2836-4400",
+   "cards": [
+    "Hermit Druid",
+    "Laboratory Maniac"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 7224,
+   "prerequisites": " Hermit Druid does not have summoning sickness.\nYou have no basic lands in library."
+  },
+  {
+   "id": "3093-3096",
+   "cards": [
+    "Tainted Pact",
+    "Jace, Wielder of Mysteries"
+   ],
+   "identity": "UB",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 7030,
+   "prerequisites": "No two cards in library share a name. "
+  },
+  {
+   "id": "527-3525",
+   "cards": [
+    "Selvala, Heart of the Wilds",
+    "Pemmin's Aura"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Infinite colored mana"
+   ],
+   "requires": [],
+   "popularity": 6999,
+   "prerequisites": " Pemmin's Aura attached to Selvala.\nSelvala does not have summoning sickness.\nYou control a creature with power three or greater."
+  },
+  {
+   "id": "2055-3518",
+   "cards": [
+    "Lion's Eye Diamond",
+    "Auriok Salvagers"
+   ],
+   "identity": "W",
+   "produces": [
+    "Infinite colored mana",
+    "Infinite storm count",
+    "Return some artifact cards from your graveyard to your hand"
+   ],
+   "requires": [],
+   "popularity": 6732,
+   "prerequisites": " "
+  },
+  {
+   "id": "1274-1495",
+   "cards": [
+    "Heliod, Sun-Crowned",
+    "Triskelion"
+   ],
+   "identity": "W",
+   "produces": [
+    "Infinite damage",
+    "Infinite lifegain",
+    "Infinite lifegain triggers"
+   ],
+   "requires": [],
+   "popularity": 6257,
+   "prerequisites": " "
+  },
+  {
+   "id": "978-4762",
+   "cards": [
+    "Devoted Druid",
+    "Vizier of Remedies"
+   ],
+   "identity": "GW",
+   "produces": [
+    "Infinite green mana"
+   ],
+   "requires": [],
+   "popularity": 4909,
+   "prerequisites": " Devoted Druid does not have summoning sickness."
+  },
+  {
+   "id": "3096-4400",
+   "cards": [
+    "Hermit Druid",
+    "Jace, Wielder of Mysteries"
+   ],
+   "identity": "GU",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 4730,
+   "prerequisites": " Hermit Druid does not have summoning sickness.\nYou have no basic lands in library."
+  },
+  {
+   "id": "1537-4702",
+   "cards": [
+    "Splinter Twin",
+    "Zealous Conscripts"
+   ],
+   "identity": "R",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite creature ETB"
+   ],
+   "requires": [],
+   "popularity": 4588,
+   "prerequisites": "Splinter Twin attached to Zealous Conscripts. "
+  },
+  {
+   "id": "527-2011",
+   "cards": [
+    "Najeela, the Blade-Blossom",
+    "Selvala, Heart of the Wilds"
+   ],
+   "identity": "WUBRG",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite colored mana",
+    "Infinite combat phases"
+   ],
+   "requires": [],
+   "popularity": 4243,
+   "prerequisites": "Selvala, Heart of the Wilds does not have summoning sickness. You have a way to give Selvala vigilance.\nYou control a creature with power 6 or greater."
+  },
+  {
+   "id": "618-2198",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Deceiver Exarch"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers"
+   ],
+   "requires": [],
+   "popularity": 2521,
+   "prerequisites": " "
+  },
+  {
+   "id": "618-2905",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Pestermite"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers"
+   ],
+   "requires": [],
+   "popularity": 2218,
+   "prerequisites": " "
+  },
+  {
+   "id": "618-4846",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Worldgorger Dragon"
+   ],
+   "identity": "R",
+   "produces": [
+    "Infinite blinking of permanents",
+    "Infinite blinking",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite mana lands you control can produce"
+   ],
+   "requires": [],
+   "popularity": 1798,
+   "prerequisites": " "
+  },
+  {
+   "id": "1409-2608-5168",
+   "cards": [
+    "Deadeye Navigator",
+    "Derevi, Empyrial Tactician",
+    "Bloom Tender"
+   ],
+   "identity": "GWU",
+   "produces": [
+    "Infinite creature ETB",
+    "Infinite green mana",
+    "Infinite creature LTB",
+    "Infinite non-blue mana of colors among permanents you control",
+    "Infinite white mana"
+   ],
+   "requires": [],
+   "popularity": 1659,
+   "prerequisites": " Bloom Tender does not have summoning sickness.\nDeadeye Navigator is paired with Derevi."
+  },
+  {
+   "id": "2198-4702",
+   "cards": [
+    "Splinter Twin",
+    "Deceiver Exarch"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite creature ETB"
+   ],
+   "requires": [],
+   "popularity": 1317,
+   "prerequisites": "Splinter Twin attached to Deceiver Exarch. "
+  },
+  {
+   "id": "2905-4702",
+   "cards": [
+    "Splinter Twin",
+    "Pestermite"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite creature ETB"
+   ],
+   "requires": [],
+   "popularity": 1235,
+   "prerequisites": "Splinter Twin attached to Pestermite. "
+  },
+  {
+   "id": "618-4222--140",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Freed from the Real"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature LTB",
+    "Infinite creature ETB",
+    "Infinite creature sacrifice triggers",
+    "Infinite death triggers",
+    "Infinite tapped creature tokens"
+   ],
+   "requires": [
+    "Mana Dork or Mana Dork Creator"
+   ],
+   "popularity": 952,
+   "prerequisites": " "
+  },
+  {
+   "id": "335-1984-2836",
+   "cards": [
+    "Ad Nauseam",
+    "Laboratory Maniac",
+    "Angel's Grace"
+   ],
+   "identity": "WUB",
+   "produces": [
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 715,
+   "prerequisites": " "
+  },
+  {
+   "id": "1692-2011-5168",
+   "cards": [
+    "Najeela, the Blade-Blossom",
+    "Bloom Tender",
+    "Helm of the Host"
+   ],
+   "identity": "WUBRG",
+   "produces": [
+    "Infinite creature tokens with haste",
+    "Infinite combat phases",
+    "Infinite creature ETB",
+    "Infinite lifegain",
+    "Infinite lifegain triggers"
+   ],
+   "requires": [],
+   "popularity": 658,
+   "prerequisites": " Helm of the Host attached to Bloom Tender.\nOpponents can not block and kill creatures you control.\nYou control a white, a blue, and a black permanent."
+  },
+  {
+   "id": "618-3525--140",
+   "cards": [
+    "Kiki-Jiki, Mirror Breaker",
+    "Pemmin's Aura"
+   ],
+   "identity": "UR",
+   "produces": [
+    "Infinite creature LTB",
+    "Infinite creature ETB",
+    "Infinite creature sacrifice triggers",
+    "Infinite death triggers",
+    "Infinite tapped creature tokens"
+   ],
+   "requires": [
+    "Mana Dork or Mana Dork Creator"
+   ],
+   "popularity": 430,
+   "prerequisites": " "
+  },
+  {
+   "id": "335-1984-3096",
+   "cards": [
+    "Ad Nauseam",
+    "Angel's Grace",
+    "Jace, Wielder of Mysteries"
+   ],
+   "identity": "WUB",
+   "produces": [
+    "Infinite card draw",
+    "Win the game"
+   ],
+   "requires": [],
+   "popularity": 425,
+   "prerequisites": " "
+  },
+  {
+   "id": "2034-3821-5003",
+   "cards": [
+    "Nim Deathmantle",
+    "Ashnod's Altar",
+    "Peregrine Drake"
+   ],
+   "identity": "U",
+   "produces": [
+    "Infinite colorless mana",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite mana lands you control can produce",
+    "Infinite creature sacrifice triggers",
+    "Infinite untap of lands you control"
+   ],
+   "requires": [],
+   "popularity": 351,
+   "prerequisites": " You control up to five lands that can tap to produce at least {2}."
+  },
+  {
+   "id": "2034-2608-5168",
+   "cards": [
+    "Derevi, Empyrial Tactician",
+    "Bloom Tender",
+    "Ashnod's Altar"
+   ],
+   "identity": "GWU",
+   "produces": [
+    "Infinite colorless mana",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature sacrifice triggers"
+   ],
+   "requires": [],
+   "popularity": 283,
+   "prerequisites": " Bloom Tender does not have summoning sickness."
+  },
+  {
+   "id": "628-2757-4762",
+   "cards": [
+    "Mikaeus, the Unhallowed",
+    "Devoted Druid",
+    "Earthcraft"
+   ],
+   "identity": "BG",
+   "produces": [
+    "Infinite colored mana",
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB"
+   ],
+   "requires": [],
+   "popularity": 175,
+   "prerequisites": " An additional untapped basic land under your control."
+  },
+  {
+   "id": "2608-4702",
+   "cards": [
+    "Splinter Twin",
+    "Derevi, Empyrial Tactician"
+   ],
+   "identity": "RGWU",
+   "produces": [
+    "Infinite death triggers",
+    "Infinite creature ETB",
+    "Infinite creature LTB",
+    "Infinite creature tokens with haste"
+   ],
+   "requires": [],
+   "popularity": 55,
+   "prerequisites": " Splinter Twin attached to Derevi.\nDerevi does not have summoning sickness."
+  }
+ ]
+}

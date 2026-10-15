@@ -27,6 +27,15 @@
 | [EDH Staples.md](EDH%20Staples.md) | Auto-generated (`scripts/build_staples.py`): Commander-legal staples by color identity and by role/archetype, EDHREC-rank ordered, Game Changer flags. Data, not opinion. |
 | [Story Archive Index.md](Story%20Archive%20Index.md) | 612 official story/lore pages by year, live vs. 🗄️ archived (`scripts/crawl_story_index.py`, `data/story_index.csv`). |
 | [EDH Archetypes.md](EDH%20Archetypes.md) | 12 archetype guides assembled from decks, Oracle text, staples, synergy notes, rules topics, Spellbook combos (`scripts/build_archetypes.py`). |
+| [ROADMAP.md](ROADMAP.md) | The user's refinement sprint brief (4 phases), with a tracking table mapping each bullet to its GitHub issue and milestone. |
+| [EDH Mana Bases.md](EDH%20Mana%20Bases.md) | Generated (`scripts/build_mana_bases.py`): land-count guidance, universal fixing, colorless utility lands, and most-played/budget lands for each of the 32 identities. |
+| [EDH Packages.md](EDH%20Packages.md) | Generated (`scripts/build_packages.py`): 13 reusable packages (33 sub-packages) with patterns, GC counts and budget options. |
+| [EDH Win Conditions.md](EDH%20Win%20Conditions.md) | Generated (`scripts/build_wincons.py`): 8-category win-condition taxonomy plus the two-card combo kills from `data/combos.json`. |
+| [EDH Interaction.md](EDH%20Interaction.md) | Generated (`scripts/build_interaction.py`): removal, wipe, counterspell, graveyard-hate, artifact/enchantment-hate and stax hierarchies. |
+| [EDH Pairings.md](EDH%20Pairings.md) | Generated (`scripts/build_pairings.py`): Partner, Partner—[text], Partner with, Background and Doctor's companion pairs by combined identity (CR 702.124). |
+| [EDH Mulligans.md](EDH%20Mulligans.md) | Generated (`scripts/build_mulligans.py`): CR 103.5/103.6 quoted, exact opening-hand odds, opening-hand cards, and per-archetype priorities (guidance). |
+| [cEDH Primer.md](cEDH%20Primer.md) | ⚠️ **COMPETITIVE (Bracket 5) only.** Generated (`scripts/build_cedh.py`): fast mana, tutors, free interaction, 61 Commander Spellbook compact combos (`data/cedh_combos.json`) and stax. Kept separate from casual guides. |
+| [scripts/edh_lib.py](scripts/edh_lib.py) | Shared helpers for the Phase 1 generators: Commander-legal pool, identity, prices, GC flag, tables, standard disclaimer header. |
 | [decks/](decks/) | 32 validated deck skeletons (one per color identity) following EDH Standards, each with a Commander rules & rulings block. |
 | [Card Data Conventions.md](Card%20Data%20Conventions.md) | Card entry format, storage layout, source flags. |
 | [Card Index.md](Card%20Index.md) | Auto-generated tracker of which cards have entries (+ category trackers). |

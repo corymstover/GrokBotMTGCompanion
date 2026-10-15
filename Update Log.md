@@ -3,11 +3,29 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)](#2026-10-15--bot-cycle-6-roadmap-phase-1-edh--deckbuilding-depth)
 - [2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)](#2026-10-15--bot-cycle-5-sprint-rules-topics-remaining-planes-story-archive-maintenance)
 - [2026-10-15 — Bot cycle 4 (sprint: rules topics, Planeswalker review, ELD/THB/IKO sources, combos & archetypes)](#2026-10-15--bot-cycle-4-sprint-rules-topics-planeswalker-review-eldthbiko-sources-combos--archetypes)
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)
+
+> All entries in this section are **Bot cycle 6** (Grok Bot) changes. The commits are ef3084d, 5075887 and the docs commit, all on branch `bot-cycle6`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 6.1 | Bot cycle 6: **ROADMAP**. The user's refinement brief is copied verbatim with a tracking table. Created label `structure`, 4 milestones (one per phase) and 23 issues (#25–#47, one per bullet). | `ROADMAP.md`, `README.md`, `Knowledge Index.md` | User request: make sprint progress visible on GitHub. |
+| 6.2 | Bot cycle 6: shared generator library `edh_lib.py`. The pool is the 32,116 Commander-legal indexed cards; the cheapest paper USD comes from Scryfall default-cards bulk. A standard header covers legality, identity, the GC/brackets flag, the price snapshot and the guidance label. | `scripts/edh_lib.py` | Every guide applies the same legality and identity rules. |
+| 6.3 | Bot cycle 6: **EDH Mana Bases**. Land-count guidance (36–38 lands, about 10 ramp), universal fixing, 7 colorless utility categories, and for each of the 32 identities the most-played lands (by land type), on-color fetches and budget (≤ $1) picks. 1,118 non-basic lands. | `EDH Mana Bases.md`, `scripts/build_mana_bases.py` | #25 |
+| 6.4 | Bot cycle 6: **EDH Packages**. 13 packages, 33 sub-packages, 321 rows. Each sub-package shows its Oracle-text pattern, match count, GC count and budget alternatives. | `EDH Packages.md`, `scripts/build_packages.py` | #26 |
+| 6.5 | Bot cycle 6: **EDH Win Conditions**. 8 categories, 146 rows, plus 46 two-card combo kills from `data/combos.json` with Spellbook links. CR 704.5a–c are cited for the loss conditions. | `EDH Win Conditions.md`, `scripts/build_wincons.py` | #27 |
+| 6.6 | Bot cycle 6: **EDH Interaction**. 6 hierarchies (targeted removal, wipes, stack, graveyard hate, artifact/enchantment hate, stax), 19 buckets, 183 rows with speed column. Mass land denial is flagged as not allowed at Brackets 1–3. | `EDH Interaction.md`, `scripts/build_interaction.py` | #28 |
+| 6.7 | Bot cycle 6: **cEDH Primer**, a separate file with a COMPETITIVE / Bracket 5 banner. Fast mana, tutors, free interaction, stax (129 rows) and 61 compact combos from Commander Spellbook `find-my-combos` (cached in `data/cedh_combos.json`; all cards Commander-legal). It notes that Mana Crypt, Dockside Extortionist, Jeweled Lotus and Nadu are banned per Scryfall. | `cEDH Primer.md`, `scripts/build_cedh.py`, `data/cedh_combos.json` | #29 |
+| 6.8 | Bot cycle 6: **EDH Pairings**. CR 702.124 rules, card and legal-pair counts for 8 partner abilities (3,104 legal pairs), a 32-identity matrix, and the most-played pair per identity. | `EDH Pairings.md`, `scripts/build_pairings.py` | #32 |
+| 6.9 | Bot cycle 6: **EDH Mulligans**. CR 103.5/103.5c/103.6 quoted from the cached CR. Exact hypergeometric land and key-piece odds for 99 cards, 19 opening-hand cards, and keep/mulligan plus per-archetype priorities (12 archetypes, labeled guidance). | `EDH Mulligans.md`, `scripts/build_mulligans.py` | #31 |
+| 6.10 | Bot cycle 6: README dashboard, run commands and releases; Progress Tracker; Knowledge Index; Update Log. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep the dashboard current. |
 
 ## 2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)
 

@@ -47,6 +47,7 @@
 | EDH Staples | ✅ auto-generated: top 15 per color identity (C, 5 mono, 10 two-color, 10 three-color) + top 15 per role/archetype (14 roles) from 32,048 ranked Commander-legal cards |
 | Synergy notes | 15 commander engines with Oracle text + official rulings · **12 archetype guides** in [EDH Archetypes](EDH%20Archetypes.md) (was 0) |
 | Combo detection | ✅ (#15) Commander Spellbook API on all 32 decks: **189 complete combos, 51 two-card infinite in 14 decks**; combo-adjusted floors (Xenagos and Gishath 2 → 3) |
+| Phase 1 guides (Bot cycle 6, [ROADMAP](ROADMAP.md)) | 🟢 **7 of 9 Phase 1 issues done**: Mana Bases (32 identities, 1,118 non-basic lands), Packages (13 / 33 sub-packages / 321 rows), Win Conditions (8 categories / 146 rows / 46 combo kills), Interaction (6 hierarchies / 19 buckets / 183 rows), Pairings (8 abilities / 3,104 legal pairs), Mulligans (5 CR quotes, 2 odds tables, 19 opening-hand cards, 12 archetype rows), cEDH Primer (129 rows, 61 Spellbook combos). Open: #30 upgrade paths, #33 themed decks |
 
 ## Rules
 | Item | Status |
@@ -67,3 +68,7 @@
 | Lore foundation | ✅ closed (Bot cycle 5: #12, #14 done) | v1.3-cycle5-rules-lore-maintenance |
 | EDH foundation | ✅ closed (Bot cycle 4: #15, #19 done) | v1.2-cycle4-rules-lore-edh |
 | Rules interactions | ✅ closed (Bot cycle 5: #9, 27 topics) | v1.3-cycle5-rules-lore-maintenance |
+| Phase 1 — EDH & Deckbuilding depth | 🟡 open (7/9 closed in Bot cycle 6; #30 and #33 remain) | `v1.4-cycle6-edh-depth` |
+| Phase 2 — Lore & Story depth | ⏳ open (#34–#38) | — |
+| Phase 3 — Card & Rules enrichment | ⏳ open (#39–#43) | — |
+| Phase 4 — Structure & usability | ⏳ open (#44–#47) | — |
