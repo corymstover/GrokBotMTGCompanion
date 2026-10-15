@@ -1,0 +1,1001 @@
+name,oracle_id,shard,anchor,edhrec_rank,color_identity,type_line,commander_legality,game_changer,batch
+Abrade,f9db72dc-9a5b-48a4-a86e-7464d9a2166a,cards/A/ab.md,abrade,145,R,Instant,legal,0,2026-10-15-b1
+Abrupt Decay,1c747fe2-289e-492a-a846-aa77707e2dc3,cards/A/ab.md,abrupt-decay,751,BG,Instant,legal,0,2026-10-15-b1
+Absorb,132ca99a-a3c7-4ed6-b4d0-0edcd7140ca2,cards/A/ab.md,absorb,3696,UW,Instant,legal,0,2026-10-15-b1
+Academy Manufactor,f36d1d8b-8303-44a9-ab56-531931641ea2,cards/A/ac.md,academy-manufactor,263,C,Artifact Creature — Assembly-Worker,legal,0,2026-10-15-b1
+Academy Ruins,a3da7d5b-2c2b-45fe-b9c5-413b8c8fc0a2,cards/A/ac.md,academy-ruins,459,U,Legendary Land,legal,0,2026-10-15-b1
+Access Tunnel,ed9cc560-f30b-4b60-a094-ccf93ed656a7,cards/A/ac.md,access-tunnel,598,C,Land,legal,0,2026-10-15-b1
+Accursed Marauder,d8ad23a1-0b43-48ea-9fbe-d89b29194509,cards/A/ac.md,accursed-marauder,476,B,Creature — Zombie Warrior,legal,0,2026-10-15-b1
+Acidic Slime,21f45043-5419-4019-8b6c-e5294bd5f549,cards/A/ac.md,acidic-slime,1520,G,Creature — Ooze,legal,0,2026-10-15-b1
+Adarkar Wastes,d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b,cards/A/ad.md,adarkar-wastes,143,UW,Land,legal,0,2026-10-15-b1
+"Adeline, Resplendent Cathar",38515f89-348b-4cf3-b7bd-1f6fe4ce2fba,cards/A/ad.md,adeline-resplendent-cathar,493,W,Legendary Creature — Human Knight,legal,0,2026-10-15-b1
+"Aesi, Tyrant of Gyre Strait",6511f317-bd38-46d0-b800-7125a3f420da,cards/A/ae.md,aesi-tyrant-of-gyre-strait,848,GU,Legendary Creature — Serpent,legal,0,2026-10-15-b1
+Aetherflux Reservoir,5f15125e-ae89-471e-b055-226a783bc7c1,cards/A/ae.md,aetherflux-reservoir,366,C,Artifact,legal,0,2026-10-15-b1
+Aetherize,7c779721-cd1b-4696-9ae9-68ccc284ed2a,cards/A/ae.md,aetherize,287,U,Instant,legal,0,2026-10-15-b1
+Aftermath Analyst,374e54d8-8e73-4268-9dde-c28c77bbbf32,cards/A/af.md,aftermath-analyst,630,G,Creature — Elf Detective,legal,0,2026-10-15-b1
+Aggravated Assault,20129459-a386-41eb-899d-1aede3427300,cards/A/ag.md,aggravated-assault,695,R,Enchantment,legal,0,2026-10-15-b1
+Akroma's Will,fd949f82-fc10-4e37-8aa9-6c7569fe3c55,cards/A/ak.md,akromas-will,186,W,Instant,legal,0,2026-10-15-b1
+All That Glitters,a4d751e0-41c1-4e90-853d-512f385acd81,cards/A/al.md,all-that-glitters,636,W,Enchantment — Aura,legal,0,2026-10-15-b1
+Altar of Dementia,d64e9152-ef24-4394-aeb0-9c3befc56549,cards/A/al.md,altar-of-dementia,641,C,Artifact,legal,0,2026-10-15-b1
+Ancient Copper Dragon,48daee9d-ddaf-410f-8c3a-12fa1064ab56,cards/A/an.md,ancient-copper-dragon,624,R,Creature — Elder Dragon,legal,0,2026-10-15-b1
+Ancient Den,02f16726-f2f6-4943-b71a-93f8e26251d3,cards/A/an.md,ancient-den,483,W,Artifact Land,legal,0,2026-10-15-b1
+Ancient Greenwarden,3bcf090c-e890-4a9f-a8aa-6079e4ec9947,cards/A/an.md,ancient-greenwarden,700,G,Creature — Elemental,legal,0,2026-10-15-b1
+Ancient Tomb,23467047-6dba-4498-b783-1ebc4f74b8c2,cards/A/an.md,ancient-tomb,69,C,Land,legal,1,2026-10-15-b1
+Anger,eaabd151-2160-4bff-82c0-3fa88659be98,cards/A/an.md,anger,346,R,Creature — Incarnation,legal,0,2026-10-15-b1
+Anguished Unmaking,ad09b3c3-c8e7-481c-8c45-e7f234935117,cards/A/an.md,anguished-unmaking,153,BW,Instant,legal,0,2026-10-15-b1
+Animate Dead,c0d8fef4-65f4-4769-982d-b397d2b7e977,cards/A/an.md,animate-dead,222,B,Enchantment — Aura,legal,0,2026-10-15-b1
+An Offer You Can't Refuse,234a734b-ba28-4f1b-9d01-3c3e7d516590,cards/A/an.md,an-offer-you-cant-refuse,34,U,Instant,legal,0,2026-10-15-b1
+Anointed Procession,7246d45b-2185-4cdd-981b-5419b7d52bce,cards/A/an.md,anointed-procession,364,W,Enchantment,legal,0,2026-10-15-b1
+Aqueous Form,3378fef3-4d8c-4d9e-a338-4abb6f70d410,cards/A/aq.md,aqueous-form,758,U,Enchantment — Aura,legal,0,2026-10-15-b1
+Arbor Elf,4567a528-75f0-4ea6-b927-3a500caf76ac,cards/A/ar.md,arbor-elf,605,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Arcane Denial,ab1cc360-b9de-48d9-9983-4dfe4a7d2a37,cards/A/ar.md,arcane-denial,52,U,Instant,legal,0,2026-10-15-b1
+Arcane Sanctum,7d7cf15c-06b9-4062-a1eb-32614c458a3b,cards/A/ar.md,arcane-sanctum,351,BUW,Land,legal,0,2026-10-15-b1
+Arcane Signet,0bc7f093-bef0-4f1a-852c-4b75ebf54838,cards/A/ar.md,arcane-signet,3,C,Artifact,legal,0,2026-10-15-b1
+Archaeomancer's Map,ef833546-f755-4ac5-867a-3926984e68a0,cards/A/ar.md,archaeomancers-map,685,W,Artifact,legal,0,2026-10-15-b1
+Archdruid's Charm,3c1ef404-e2c6-486d-a5a2-d5779c71d498,cards/A/ar.md,archdruids-charm,622,G,Instant,legal,0,2026-10-15-b1
+Archivist of Oghma,08b13e1f-27ca-40a8-b5ed-88ac933d24bf,cards/A/ar.md,archivist-of-oghma,699,W,Creature — Halfling Cleric,legal,0,2026-10-15-b1
+Archmage Emeritus,8305d576-21d8-4ce7-8eda-a7cd9793aca5,cards/A/ar.md,archmage-emeritus,253,U,Creature — Human Wizard,legal,0,2026-10-15-b1
+Archmage of Runes,28045b32-4c1a-40e5-a15d-524d0f8fe6ec,cards/A/ar.md,archmage-of-runes,928,U,Creature — Giant Wizard,legal,0,2026-10-15-b1
+Archway of Innovation,bfa20bc7-4626-4a52-87f4-6e2763cb8ed5,cards/A/ar.md,archway-of-innovation,925,U,Land,legal,0,2026-10-15-b1
+Arena of Glory,63dfe794-5f56-41ec-9883-5523b41cc3e0,cards/A/ar.md,arena-of-glory,372,R,Land,legal,0,2026-10-15-b1
+Arid Mesa,c5acf2a5-40f4-433d-a74d-1cb56c521464,cards/A/ar.md,arid-mesa,55,C,Land,legal,0,2026-10-15-b1
+Armageddon,c9ed8b01-959a-47d6-891e-0abbdccf6e4f,cards/A/ar.md,armageddon,4059,W,Sorcery,legal,0,2026-10-15-b1
+"Ashaya, Soul of the Wild",162572f2-1757-42e9-bd97-e6bd9a762c0e,cards/A/as.md,ashaya-soul-of-the-wild,829,G,Legendary Creature — Elemental,legal,0,2026-10-15-b1
+Ash Barrens,58257464-278e-45fa-8e0b-bcd9a7500bc1,cards/A/as.md,ash-barrens,210,C,Land,legal,0,2026-10-15-b1
+Ashnod's Altar,4d18bcba-a346-445e-a182-6cc30b7e066d,cards/A/as.md,ashnods-altar,134,C,Artifact,legal,0,2026-10-15-b1
+Assassin's Trophy,ac10d218-f9a6-4058-9cda-a15ca1b0b7b5,cards/A/as.md,assassins-trophy,122,BG,Instant,legal,0,2026-10-15-b1
+"Aurelia, the Warleader",0f5a3a09-2f07-4774-9e0f-e99d9a444166,cards/A/au.md,aurelia-the-warleader,819,RW,Legendary Creature — Angel,legal,0,2026-10-15-b1
+Austere Command,09cc8709-fe10-472a-b05c-e89f3523018d,cards/A/au.md,austere-command,170,W,Sorcery,legal,0,2026-10-15-b1
+Authority of the Consuls,55f3c721-e13a-406e-bc8e-d6cdc91ac477,cards/A/au.md,authority-of-the-consuls,315,W,Enchantment,legal,0,2026-10-15-b1
+"Avacyn, Angel of Hope",216cb26e-8da9-478b-bfbc-8030f7adee72,cards/A/av.md,avacyn-angel-of-hope,744,W,Legendary Creature — Angel,legal,0,2026-10-15-b1
+Avacyn's Pilgrim,069f6530-e65c-4d52-85f3-e0a2acd148c5,cards/A/av.md,avacyns-pilgrim,501,GW,Creature — Human Monk,legal,0,2026-10-15-b1
+Avalanche Riders,c9048d35-aff7-45ae-ae97-db89397b3e74,cards/A/av.md,avalanche-riders,21034,R,Creature — Human Nomad,legal,0,2026-10-15-b1
+Avenger of Zendikar,4ba5b3f6-503b-43e6-b66e-4f8c55cffed7,cards/A/av.md,avenger-of-zendikar,299,G,Creature — Elemental,legal,0,2026-10-15-b1
+"Ayara, First of Locthwain",388168b3-ec68-4af2-b88c-6a5ec88c15f6,cards/A/ay.md,ayara-first-of-locthwain,836,B,Legendary Creature — Elf Noble,legal,0,2026-10-15-b1
+Azorius Chancery,189fc8f4-17ac-4f1d-82c8-8401445bdaf4,cards/A/az.md,azorius-chancery,478,UW,Land,legal,0,2026-10-15-b1
+Azorius Signet,e018773f-95b3-49a3-9674-6f04ddef2092,cards/A/az.md,azorius-signet,211,UW,Artifact,legal,0,2026-10-15-b1
+"Azusa, Lost but Seeking",6c2c8bf3-9bf8-4a86-89d3-3bb36260dc51,cards/A/az.md,azusa-lost-but-seeking,330,G,Legendary Creature — Human Monk,legal,0,2026-10-15-b1
+Badlands,13ff3222-91cb-4796-a34e-899ed817694c,cards/B/ba.md,badlands,380,BR,Land — Swamp Mountain,legal,0,2026-10-15-b1
+Bala Ged Recovery // Bala Ged Sanctuary,d2075f58-b0e9-4e85-b7e6-0523a27a1d5b,cards/B/ba.md,bala-ged-recovery--bala-ged-sanctuary,318,G,Sorcery // Land,legal,0,2026-10-15-b1
+Baleful Strix,37688720-03de-4eca-a82d-a0afe8d58adc,cards/B/ba.md,baleful-strix,363,BU,Artifact Creature — Bird,legal,0,2026-10-15-b1
+Banner of Kinship,8c220dbd-6572-4715-aae6-dd09a4252d68,cards/B/ba.md,banner-of-kinship,616,C,Artifact,legal,0,2026-10-15-b1
+Basalt Monolith,6b8cf2a0-b045-4d91-9d91-c602d40c6237,cards/B/ba.md,basalt-monolith,564,C,Artifact,legal,0,2026-10-15-b1
+Basilisk Collar,f5f4dd28-f4ae-4d39-b9b8-6ebfd63c93fe,cards/B/ba.md,basilisk-collar,254,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Bastion of Remembrance,c7f33cea-2ec8-4081-9208-a5b1d86721b3,cards/B/ba.md,bastion-of-remembrance,331,B,Enchantment,legal,0,2026-10-15-b1
+Bastion Protector,858f53ef-3fec-4aa0-867d-b7f040614b3c,cards/B/ba.md,bastion-protector,935,W,Creature — Human Soldier,legal,0,2026-10-15-b1
+Battlefield Forge,6b75b94e-83b7-457e-ac41-7ca90b5a59aa,cards/B/ba.md,battlefield-forge,118,RW,Land,legal,0,2026-10-15-b1
+Bayou,b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b,cards/B/ba.md,bayou,425,BG,Land — Swamp Forest,legal,0,2026-10-15-b1
+Bear Umbra,44661108-d72f-4d02-9303-7e4b0ecf7e9c,cards/B/be.md,bear-umbra,901,G,Enchantment — Aura,legal,0,2026-10-15-b1
+Beastmaster Ascension,11b5308d-5bc0-4782-875f-a28be36e665d,cards/B/be.md,beastmaster-ascension,568,G,Enchantment,legal,0,2026-10-15-b1
+Beast Whisperer,5da7eea8-bb9e-47ce-a554-8a1ee058bd7a,cards/B/be.md,beast-whisperer,213,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Beast Within,7735eeba-693b-47e2-bd51-414379cf1016,cards/B/be.md,beast-within,25,G,Instant,legal,0,2026-10-15-b1
+Bedevil,bceecc64-96f1-4e7b-8904-0aef90377764,cards/B/be.md,bedevil,487,BR,Instant,legal,0,2026-10-15-b1
+Bender's Waterskin,3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34,cards/B/be.md,benders-waterskin,543,C,Artifact,legal,0,2026-10-15-b1
+Beseech the Mirror,cbbe535b-12d6-4e6c-8b26-9220f06a1604,cards/B/be.md,beseech-the-mirror,870,B,Sorcery,legal,0,2026-10-15-b1
+Bident of Thassa,e1afaef7-9fa3-4662-a95f-adfb0da9fd11,cards/B/bi.md,bident-of-thassa,443,U,Legendary Enchantment Artifact,legal,0,2026-10-15-b1
+Big Score,a5cbd257-c836-493e-bb1a-76242619dea2,cards/B/bi.md,big-score,138,R,Instant,legal,0,2026-10-15-b1
+Birds of Paradise,d3a0b660-358c-41bd-9cd2-41fbf3491b1a,cards/B/bi.md,birds-of-paradise,35,G,Creature — Bird,legal,0,2026-10-15-b1
+"Birgi, God of Storytelling // Harnfel, Horn of Bounty",fb81e4d3-1d8c-4779-be62-87cf49277e51,cards/B/bi.md,birgi-god-of-storytelling--harnfel-horn-of-bounty,498,R,Legendary Creature — God // Legendary Artifact,legal,0,2026-10-15-b1
+Bitterblossom,fb868840-09fa-49b1-85cb-b08ad065e972,cards/B/bi.md,bitterblossom,614,B,Kindred Enchantment — Faerie,legal,0,2026-10-15-b1
+Bitter Triumph,776341cb-d2ec-423f-9250-92dc8bd8d503,cards/B/bi.md,bitter-triumph,828,B,Instant,legal,0,2026-10-15-b1
+Blackblade Reforged,dca51281-fb21-45b6-beb4-1f13397caee2,cards/B/bl.md,blackblade-reforged,356,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Black Market,21338b71-37f5-4121-9b84-565025ebcd17,cards/B/bl.md,black-market,680,B,Enchantment,legal,0,2026-10-15-b1
+Black Market Connections,d2664f28-49e1-46f8-a863-b217e961a57c,cards/B/bl.md,black-market-connections,129,B,Enchantment,legal,0,2026-10-15-b1
+Blade of Selves,9c329f3d-4d0a-4012-8aa6-92afdd120a52,cards/B/bl.md,blade-of-selves,892,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Blasphemous Act,7a2484a9-04fd-41a0-8224-610c1c07ed10,cards/B/bl.md,blasphemous-act,22,R,Sorcery,legal,0,2026-10-15-b1
+Blasphemous Edict,6cf50e21-0f60-4e9a-b910-ebe1bad2a29e,cards/B/bl.md,blasphemous-edict,500,B,Sorcery,legal,0,2026-10-15-b1
+Blazemire Verge,977c2f33-b622-4172-9efb-7f523becd32b,cards/B/bl.md,blazemire-verge,496,BR,Land,legal,0,2026-10-15-b1
+Bleachbone Verge,2b8144a0-08d2-4c28-9fd7-5d90f90105e4,cards/B/bl.md,bleachbone-verge,774,BW,Land,legal,0,2026-10-15-b1
+Blightstep Pathway // Searstep Pathway,e580a229-e800-4746-9d37-c32fcef8de28,cards/B/bl.md,blightstep-pathway--searstep-pathway,846,BR,Land // Land,legal,0,2026-10-15-b1
+Blind Obedience,5d998c09-7d89-4265-ada4-6d80cbf56dae,cards/B/bl.md,blind-obedience,504,W,Enchantment,legal,0,2026-10-15-b1
+Blood Artist,310f141c-7f37-4729-aed6-dd9c09db448d,cards/B/bl.md,blood-artist,142,B,Creature — Vampire,legal,0,2026-10-15-b1
+Bloodchief Ascension,d5ea905b-4bb6-48d0-9082-c472703db550,cards/B/bl.md,bloodchief-ascension,762,B,Enchantment,legal,0,2026-10-15-b1
+Blood Crypt,43985bbc-a0f6-4812-984e-392bc8562633,cards/B/bl.md,blood-crypt,68,BR,Land — Swamp Mountain,legal,0,2026-10-15-b1
+Bloodletter of Aclazotz,469956a2-7cd4-4695-b8f4-c841526f160d,cards/B/bl.md,bloodletter-of-aclazotz,862,B,Creature — Vampire Demon,legal,0,2026-10-15-b1
+Bloodstained Mire,fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57,cards/B/bl.md,bloodstained-mire,43,C,Land,legal,0,2026-10-15-b1
+Bloodthirsty Conqueror,fd505c02-c59e-476d-8e88-35da862ddc23,cards/B/bl.md,bloodthirsty-conqueror,822,B,Creature — Vampire Knight,legal,0,2026-10-15-b1
+Bloom Tender,0c23fefe-9891-4dd8-9bb1-eebdb3274e31,cards/B/bl.md,bloom-tender,255,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Blossoming Defense,5a851367-1c4a-4cc9-a9c3-3d2775986b4c,cards/B/bl.md,blossoming-defense,2537,G,Instant,legal,0,2026-10-15-b1
+Boggart Trawler // Boggart Bog,727f3201-1cfc-4ab2-9dfe-be4f7251f42f,cards/B/bo.md,boggart-trawler--boggart-bog,632,B,Creature — Goblin // Land,legal,0,2026-10-15-b1
+Bojuka Bog,04b7362d-0490-4cb0-b5d7-2a7732f659ce,cards/B/bo.md,bojuka-bog,24,B,Land,legal,0,2026-10-15-b1
+Bolas's Citadel,2bd111bb-ce02-414c-b5b7-e0e037d8d96b,cards/B/bo.md,bolass-citadel,276,B,Legendary Artifact,legal,1,2026-10-15-b1
+Bolt Bend,c20a96f7-aa5a-4c15-b8b1-806685c99b27,cards/B/bo.md,bolt-bend,521,R,Instant,legal,0,2026-10-15-b1
+Bonders' Enclave,f33ce38a-34ec-4b65-a0fc-160484a02007,cards/B/bo.md,bonders-enclave,542,C,Land,legal,0,2026-10-15-b1
+Bontu's Monument,940ba435-7abc-40f8-a5af-c1c653b3284e,cards/B/bo.md,bontus-monument,670,C,Legendary Artifact,legal,0,2026-10-15-b1
+Boom // Bust,514fdac0-95f4-4034-b891-283fe0fb6da6,cards/B/bo.md,boom--bust,13014,R,Sorcery // Sorcery,legal,0,2026-10-15-b1
+Borne Upon a Wind,ce19962d-94f9-4b2b-b668-963c0acce308,cards/B/bo.md,borne-upon-a-wind,645,U,Instant,legal,0,2026-10-15-b1
+"Boromir, Warden of the Tower",d72b57e5-1c6e-4f02-968f-7e2dd24f0d3c,cards/B/bo.md,boromir-warden-of-the-tower,868,W,Legendary Creature — Human Soldier,legal,0,2026-10-15-b1
+Boros Charm,2679d0dd-ba30-4a1c-b6a0-b3ac6c790496,cards/B/bo.md,boros-charm,182,RW,Instant,legal,0,2026-10-15-b1
+Boros Garrison,8fa3ac81-3dfe-4565-be99-5554f7597b4b,cards/B/bo.md,boros-garrison,512,RW,Land,legal,0,2026-10-15-b1
+Boros Signet,41c84665-1f99-40ab-aaca-1188649eb263,cards/B/bo.md,boros-signet,251,RW,Artifact,legal,0,2026-10-15-b1
+"Boseiju, Who Endures",bf1341dd-41a3-49f6-87ec-63170dde4324,cards/B/bo.md,boseiju-who-endures,77,G,Legendary Land,legal,0,2026-10-15-b1
+Bountiful Promenade,761cb262-f83b-4a99-9345-b773182a7671,cards/B/bo.md,bountiful-promenade,209,GW,Land,legal,0,2026-10-15-b1
+"Braids, Arisen Nightmare",e0445c80-fa53-4c3e-881e-940e9fce7f57,cards/B/br.md,braids-arisen-nightmare,298,B,Legendary Creature — Nightmare,legal,0,2026-10-15-b1
+Brain Freeze,464c0150-3dbc-403b-9ada-fef25ab1f29d,cards/B/br.md,brain-freeze,777,U,Instant,legal,0,2026-10-15-b1
+Brainstorm,36cd2364-d113-47d1-b2c4-b088d9eb88dd,cards/B/br.md,brainstorm,72,U,Instant,legal,0,2026-10-15-b1
+Branching Evolution,28fe909b-06e0-424c-9f75-c824a25f5865,cards/B/br.md,branching-evolution,374,G,Enchantment,legal,0,2026-10-15-b1
+Brash Taunter,3e41648f-c5a9-4b26-b97e-8176fe5e9c85,cards/B/br.md,brash-taunter,809,R,Creature — Goblin,legal,0,2026-10-15-b1
+Breach the Multiverse,ebbd5b9c-07ff-4b42-81c2-ba09539f3a42,cards/B/br.md,breach-the-multiverse,873,B,Sorcery,legal,0,2026-10-15-b1
+Breeding Pool,20283c4a-f1f0-42f0-bc08-6da87474426b,cards/B/br.md,breeding-pool,60,GU,Land — Forest Island,legal,0,2026-10-15-b1
+Bridgeworks Battle // Tanglespan Bridgeworks,9d581188-ce80-494e-bd38-f411e1f4efb5,cards/B/br.md,bridgeworks-battle--tanglespan-bridgeworks,672,G,Sorcery // Land,legal,0,2026-10-15-b1
+Brightclimb Pathway // Grimclimb Pathway,1c633e02-95ef-445e-b4e0-fbfbc5ed9cc9,cards/B/br.md,brightclimb-pathway--grimclimb-pathway,820,BW,Land // Land,legal,0,2026-10-15-b1
+"Bristly Bill, Spine Sower",d3b2d8a2-d3bc-448c-9cf6-6bead6010c28,cards/B/br.md,bristly-bill-spine-sower,919,G,Legendary Creature — Plant Druid,legal,0,2026-10-15-b1
+Brotherhood Regalia,d169738e-af0b-4488-a399-3aa1d1933aa1,cards/B/br.md,brotherhood-regalia,563,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Brushland,5eb8b497-ec9a-4a89-ad29-1ec3ca82da7c,cards/B/br.md,brushland,230,GW,Land,legal,0,2026-10-15-b1
+Burgeoning,88cf4c1a-5863-45fc-b76d-7ad33b175b2b,cards/B/bu.md,burgeoning,907,G,Enchantment,legal,0,2026-10-15-b1
+Buried Alive,8203c621-a1a0-4865-8c9a-0d4064c86107,cards/B/bu.md,buried-alive,353,B,Sorcery,legal,0,2026-10-15-b1
+Buried Ruin,3644f316-f9a3-46c9-9b1e-747f86cf4ead,cards/B/bu.md,buried-ruin,193,C,Land,legal,0,2026-10-15-b1
+Burnished Hart,893fed41-c144-433f-af88-bc7d419b7fb3,cards/B/bu.md,burnished-hart,505,C,Artifact Creature — Elk,legal,0,2026-10-15-b1
+Buster Sword,5e060d58-4d6e-425c-b7d4-727669fcce5b,cards/B/bu.md,buster-sword,850,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Cabal Coffers,7358e164-5704-4e78-9b21-6a9bf2a968ce,cards/C/ca.md,cabal-coffers,200,B,Land,legal,0,2026-10-15-b1
+Cabal Ritual,5b5bf1fa-6502-4790-b66b-f0f8504ebc7c,cards/C/ca.md,cabal-ritual,442,B,Instant,legal,0,2026-10-15-b1
+Cancel,7d00fb28-ea6c-49a9-b4af-ffb38860a9a7,cards/C/ca.md,cancel,2083,U,Instant,legal,0,2026-10-15-b1
+Cankerbloom,d5b80895-621a-40df-bf48-6c7295658f21,cards/C/ca.md,cankerbloom,827,G,Creature — Phyrexian Fungus,legal,0,2026-10-15-b1
+Canopy Vista,dcb7e046-f01b-497c-88e5-57794eb30ce5,cards/C/ca.md,canopy-vista,108,GW,Land — Forest Plains,legal,0,2026-10-15-b1
+Canyon Slough,2031b17c-0536-446f-a9aa-b46fe79b7ea7,cards/C/ca.md,canyon-slough,688,BR,Land — Swamp Mountain,legal,0,2026-10-15-b1
+Caretaker's Talent,c97957a2-8310-4cff-8aad-871b7901d124,cards/C/ca.md,caretakers-talent,633,W,Enchantment — Class,legal,0,2026-10-15-b1
+Carrion Feeder,a1cc5e37-b09a-4b7f-afd5-77c1c35aa425,cards/C/ca.md,carrion-feeder,609,B,Creature — Zombie,legal,0,2026-10-15-b1
+Cascade Bluffs,f1603384-4361-49c9-98aa-7785fc3504c4,cards/C/ca.md,cascade-bluffs,291,RU,Land,legal,0,2026-10-15-b1
+Castle Ardenvale,f8f4fc60-725d-46d8-8e8f-e68e00d20589,cards/C/ca.md,castle-ardenvale,715,W,Land,legal,0,2026-10-15-b1
+Castle Embereth,91fbb25b-8521-483f-88b0-77778d25f7fd,cards/C/ca.md,castle-embereth,1096,R,Land,legal,0,2026-10-15-b1
+Castle Garenbrig,de75e5dd-8a52-406c-b55c-96d686885500,cards/C/ca.md,castle-garenbrig,720,G,Land,legal,0,2026-10-15-b1
+Castle Locthwain,be811e70-aaaa-41f3-bf9e-5d3f9f719b49,cards/C/ca.md,castle-locthwain,790,B,Land,legal,0,2026-10-15-b1
+Castle Vantress,cdf41cf4-4e77-453d-be5b-0abbbd358934,cards/C/ca.md,castle-vantress,1014,U,Land,legal,0,2026-10-15-b1
+Cataclysm,b0479ca4-e925-4aa7-a4fa-f7e01f899ac5,cards/C/ca.md,cataclysm,12768,W,Sorcery,legal,0,2026-10-15-b1
+Catastrophe,ed68160e-5e3d-44f2-ac7a-3749fda10119,cards/C/ca.md,catastrophe,12597,W,Sorcery,legal,0,2026-10-15-b1
+Cathars' Crusade,cc65ac73-5bef-4ecb-ad8e-39199084c027,cards/C/ca.md,cathars-crusade,559,W,Enchantment,legal,0,2026-10-15-b1
+Cavern of Souls,89ca686a-7c72-4d8f-9290-e89635624a83,cards/C/ca.md,cavern-of-souls,110,C,Land,legal,0,2026-10-15-b1
+Caves of Koilos,33de01e9-ce5a-42d4-afcb-343cd54a6d80,cards/C/ca.md,caves-of-koilos,124,BW,Land,legal,0,2026-10-15-b1
+Cephalid Coliseum,c733873e-77db-471f-8061-139db24f7e7c,cards/C/ce.md,cephalid-coliseum,854,U,Land,legal,0,2026-10-15-b1
+Chain Reaction,086b2564-9114-4ba2-94fd-b490f98f38a7,cards/C/ch.md,chain-reaction,708,R,Sorcery,legal,0,2026-10-15-b1
+Champion of Lambholt,c549b0fd-1e08-4873-952e-a14dc45a0fd2,cards/C/ch.md,champion-of-lambholt,584,G,Creature — Human Warrior,legal,0,2026-10-15-b1
+Champion's Helm,c01aafb8-3da5-4eb1-8731-2a223e747d63,cards/C/ch.md,champions-helm,739,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Chandra's Ignition,f61680da-606e-4d16-b0a0-361aa5210901,cards/C/ch.md,chandras-ignition,474,R,Sorcery,legal,0,2026-10-15-b1
+Changeling Outcast,a61ef0cc-1da9-49f9-b0dc-01cf9f6205be,cards/C/ch.md,changeling-outcast,687,B,Creature — Shapeshifter,legal,0,2026-10-15-b1
+Chaos Warp,07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8,cards/C/ch.md,chaos-warp,29,R,Instant,legal,0,2026-10-15-b1
+Charcoal Diamond,1386d111-a2a7-4df1-91d7-947664126989,cards/C/ch.md,charcoal-diamond,701,B,Artifact,legal,0,2026-10-15-b1
+Chasm Skulker,69facbc7-3859-4716-b627-5199571fb3cf,cards/C/ch.md,chasm-skulker,704,U,Creature — Squid Horror,legal,0,2026-10-15-b1
+"Chimil, the Inner Sun",119d9671-61ba-4629-89b1-f94bdec5cb74,cards/C/ch.md,chimil-the-inner-sun,743,C,Legendary Artifact,legal,0,2026-10-15-b1
+Choked Estuary,d473b507-8c33-4118-bc10-b0a268776074,cards/C/ch.md,choked-estuary,292,BU,Land,legal,0,2026-10-15-b1
+Chord of Calling,6789a170-f2c5-4fc0-8a45-2b2361e67410,cards/C/ch.md,chord-of-calling,520,G,Instant,legal,0,2026-10-15-b1
+Chromatic Lantern,539f5396-d99a-417d-a84c-dff7930b5900,cards/C/ch.md,chromatic-lantern,85,C,Artifact,legal,0,2026-10-15-b1
+Chrome Mox,ec3d4466-547c-4e02-b1b5-a156ec4637e9,cards/C/ch.md,chrome-mox,156,C,Artifact,legal,1,2026-10-15-b1
+Cinder Glade,dfac0258-e148-4d7d-8ded-fc2466d9caa6,cards/C/ci.md,cinder-glade,87,GR,Land — Mountain Forest,legal,0,2026-10-15-b1
+City of Brass,f25351e3-539b-4bbc-b92d-6480acf4d722,cards/C/ci.md,city-of-brass,94,C,Land,legal,0,2026-10-15-b1
+City on Fire,41eec4e8-92d3-4f98-9346-3a3e3cc602ce,cards/C/ci.md,city-on-fire,896,R,Enchantment,legal,0,2026-10-15-b1
+Clearwater Pathway // Murkwater Pathway,144119bc-7fd1-45c5-9e29-f742e7c255ac,cards/C/cl.md,clearwater-pathway--murkwater-pathway,815,BU,Land // Land,legal,0,2026-10-15-b1
+Clever Concealment,42bb7ea9-f6e4-4551-8d93-3b1eae84b865,cards/C/cl.md,clever-concealment,553,W,Instant,legal,0,2026-10-15-b1
+Clifftop Retreat,d7faa3c8-46cf-46b2-bfa4-89000307cf18,cards/C/cl.md,clifftop-retreat,78,RW,Land,legal,0,2026-10-15-b1
+Cloud Key,2a838818-d590-4374-9a63-d9e6381a0f0d,cards/C/cl.md,cloud-key,606,C,Artifact,legal,0,2026-10-15-b1
+Cloudshift,6879f5ce-7a1b-4606-bad1-885779b0d456,cards/C/cl.md,cloudshift,766,W,Instant,legal,0,2026-10-15-b1
+Collective Resistance,bffdfe7b-f17a-41b6-a460-80280fe497d4,cards/C/co.md,collective-resistance,764,G,Instant,legal,0,2026-10-15-b1
+Colossus Hammer,8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0,cards/C/co.md,colossus-hammer,824,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Command Beacon,7e8c2a18-e404-40ff-a9e0-ec3eeb6d576e,cards/C/co.md,command-beacon,183,C,Land,legal,0,2026-10-15-b1
+Commander's Plate,cae166de-e681-40a0-83a8-3c17cf40e2fc,cards/C/co.md,commanders-plate,475,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Commander's Sphere,0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b,cards/C/co.md,commanders-sphere,54,C,Artifact,legal,0,2026-10-15-b1
+Command Tower,0895c9b7-ae7d-4bb3-af17-3b75deb50a25,cards/C/co.md,command-tower,2,C,Land,legal,0,2026-10-15-b1
+Commercial District,b33656ae-3473-4223-845f-f9147f87678b,cards/C/co.md,commercial-district,657,GR,Land — Mountain Forest,legal,0,2026-10-15-b1
+Conduit of Worlds,ed14be15-8f8d-4fe3-a147-f5da8ed873bf,cards/C/co.md,conduit-of-worlds,567,G,Artifact,legal,0,2026-10-15-b1
+Conjurer's Closet,cd1eda60-53e4-44d0-9b2c-7a57395e291f,cards/C/co.md,conjurers-closet,464,C,Artifact,legal,0,2026-10-15-b1
+Consecrated Sphinx,311a449d-dc74-46e6-9a47-6a597931f736,cards/C/co.md,consecrated-sphinx,654,U,Creature — Sphinx,legal,1,2026-10-15-b1
+Consider,4c9bcba6-87b5-4fb3-97ee-6fe5b739337d,cards/C/co.md,consider,362,U,Instant,legal,0,2026-10-15-b1
+Corrupted Conviction,b45e35df-9032-4482-89a6-c7c50c6d0a79,cards/C/co.md,corrupted-conviction,601,B,Instant,legal,0,2026-10-15-b1
+Coruscation Mage,88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf,cards/C/co.md,coruscation-mage,805,R,Creature — Otter Wizard,legal,0,2026-10-15-b1
+Counterspell,cc187110-1148-4090-bbb8-e205694a39f5,cards/C/co.md,counterspell,16,U,Instant,legal,0,2026-10-15-b1
+Craterhoof Behemoth,8c52bd39-0586-48ca-b263-17210cf9feb6,cards/C/cr.md,craterhoof-behemoth,296,G,Creature — Beast,legal,0,2026-10-15-b1
+Crop Rotation,28b46183-c62f-47b1-9fee-3ba148202cab,cards/C/cr.md,crop-rotation,218,G,Instant,legal,1,2026-10-15-b1
+Crucible of Worlds,33c722cf-b4bf-431f-aefd-ee96241a7fbf,cards/C/cr.md,crucible-of-worlds,599,C,Artifact,legal,0,2026-10-15-b1
+Crumbling Necropolis,7190debf-708b-4f41-9714-0d0a5bd5a74e,cards/C/cr.md,crumbling-necropolis,368,BRU,Land,legal,0,2026-10-15-b1
+Crypt Ghast,a3c8d817-7949-4dae-b9f5-f9d952479270,cards/C/cr.md,crypt-ghast,523,B,Creature — Spirit,legal,0,2026-10-15-b1
+Cryptic Command,a3e51a35-09df-4189-b131-08a21e6a557d,cards/C/cr.md,cryptic-command,1610,U,Instant,legal,0,2026-10-15-b1
+Cryptolith Rite,043f869d-b11c-4c0d-9591-2bf0df7bde55,cards/C/cr.md,cryptolith-rite,665,G,Enchantment,legal,0,2026-10-15-b1
+Culling Ritual,15e5136e-ed15-49a8-b027-e09436673fb4,cards/C/cu.md,culling-ritual,591,BG,Sorcery,legal,0,2026-10-15-b1
+Culling the Weak,6385fd0d-256d-4400-9319-afa8170024db,cards/C/cu.md,culling-the-weak,508,B,Instant,legal,0,2026-10-15-b1
+Cultivate,8b755881-a72d-4e21-a369-d2924eb4585a,cards/C/cu.md,cultivate,20,G,Sorcery,legal,0,2026-10-15-b1
+Curiosity,223fa044-d387-4884-bf4e-75f1b61c6a46,cards/C/cu.md,curiosity,581,U,Enchantment — Aura,legal,0,2026-10-15-b1
+Cursed Mirror,4d67e2a7-4aa7-44cc-853b-500d7aac046d,cards/C/cu.md,cursed-mirror,428,R,Artifact,legal,0,2026-10-15-b1
+Curse of Opulence,ba0d3df2-3acf-46d7-8d64-8d67d1579adc,cards/C/cu.md,curse-of-opulence,697,R,Enchantment — Aura Curse,legal,0,2026-10-15-b1
+Curse of the Swine,5669ea7c-c4fc-494c-896b-4bce9b494817,cards/C/cu.md,curse-of-the-swine,856,U,Sorcery,legal,0,2026-10-15-b1
+Cyclonic Rift,d75b9c82-1b49-4c3e-a1b5-aeef57d6644b,cards/C/cy.md,cyclonic-rift,58,U,Instant,legal,1,2026-10-15-b1
+Damn,b01d61cc-9844-4191-86a0-f2db6d42d6e5,cards/D/da.md,damn,348,BW,Sorcery,legal,0,2026-10-15-b1
+Damnation,d57a8f0b-7989-4db5-8756-6f2690097252,cards/D/da.md,damnation,391,B,Sorcery,legal,0,2026-10-15-b1
+"Danitha Capashen, Paragon",4b6377da-83e7-4519-9582-16a9c16b8faa,cards/D/da.md,danitha-capashen-paragon,803,W,Legendary Creature — Human Knight,legal,0,2026-10-15-b1
+Dark Depths,c9b82110-7dfd-4617-9399-9510be449043,cards/D/da.md,dark-depths,1483,C,Legendary Snow Land,legal,0,2026-10-15-b1
+Dark Ritual,53f7c868-b03e-4fc2-8dcf-a75bbfa3272b,cards/D/da.md,dark-ritual,33,B,Instant,legal,0,2026-10-15-b1
+Darksteel Citadel,8dc067bf-f78f-4ac4-b6e7-b305c42cf0bc,cards/D/da.md,darksteel-citadel,284,C,Artifact Land,legal,0,2026-10-15-b1
+Darksteel Mutation,05a4f8ff-49da-42af-add5-6248c4b0644b,cards/D/da.md,darksteel-mutation,586,W,Enchantment — Aura,legal,0,2026-10-15-b1
+Darksteel Plate,b5b4cf54-ed5e-42d0-9d98-5fec76b0b0b8,cards/D/da.md,darksteel-plate,912,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Darkwater Catacombs,4869a530-757f-4364-8d8e-4dc8001f433c,cards/D/da.md,darkwater-catacombs,328,BU,Land,legal,0,2026-10-15-b1
+Dauntless Bodyguard,70973a2d-66e6-4662-ab10-99678775dda1,cards/D/da.md,dauntless-bodyguard,9936,W,Creature — Human Knight,legal,0,2026-10-15-b1
+Dauthi Voidwalker,f1c2dbe2-fbe0-4058-bdf1-91d1b1832786,cards/D/da.md,dauthi-voidwalker,395,B,Creature — Dauthi Rogue,legal,0,2026-10-15-b1
+Dawn's Truce,37c06f89-db36-4937-9404-2b07cd22e1a6,cards/D/da.md,dawns-truce,358,W,Instant,legal,0,2026-10-15-b1
+Deadly Dispute,457af74a-02b3-4659-846d-63e482667f34,cards/D/de.md,deadly-dispute,131,B,Instant,legal,0,2026-10-15-b1
+Deadly Rollick,0456ec64-2c81-4763-a352-8ff64a4c3d6b,cards/D/de.md,deadly-rollick,106,B,Instant,legal,0,2026-10-15-b1
+Deathcap Glade,f6d24565-5b32-4eff-b2e0-6e2c25516ff0,cards/D/de.md,deathcap-glade,342,BG,Land,legal,0,2026-10-15-b1
+Deathrite Shaman,22f1a4a4-c423-4d1c-8775-0ed604a9fa51,cards/D/de.md,deathrite-shaman,615,BG,Creature — Elf Shaman,legal,0,2026-10-15-b1
+Decanter of Endless Water,8ae98ef8-8f52-4877-a08c-1fae5514184e,cards/D/de.md,decanter-of-endless-water,321,C,Artifact,legal,0,2026-10-15-b1
+Decree of Annihilation,6679b462-3c90-418c-8727-acd1a61d988b,cards/D/de.md,decree-of-annihilation,12147,R,Sorcery,legal,0,2026-10-15-b1
+Deflecting Swat,ae120613-97d6-4393-b39d-c3e6c076f5d6,cards/D/de.md,deflecting-swat,74,R,Instant,legal,0,2026-10-15-b1
+Delay,983caa3f-7089-4e66-825d-4086a5adb9bb,cards/D/de.md,delay,2245,U,Instant,legal,0,2026-10-15-b1
+Delighted Halfling,f9d3b046-0b95-4103-a630-4b3fb88bb60b,cards/D/de.md,delighted-halfling,148,G,Creature — Halfling Citizen,legal,0,2026-10-15-b1
+"Delney, Streetwise Lookout",245d0ccf-87b6-460a-8b99-9e2079f2d375,cards/D/de.md,delney-streetwise-lookout,852,W,Legendary Creature — Human Scout,legal,0,2026-10-15-b1
+Demand Answers,c11e84a1-dbda-429b-8cd6-fd0deaefc689,cards/D/de.md,demand-answers,417,R,Instant,legal,0,2026-10-15-b1
+Demolition Field,93953926-a644-49bb-9b5a-4c8f19114c7e,cards/D/de.md,demolition-field,394,C,Land,legal,0,2026-10-15-b1
+Demonic Consultation,9a1412db-45ad-46ea-8f12-a85d203113d8,cards/D/de.md,demonic-consultation,920,B,Instant,legal,0,2026-10-15-b1
+Demonic Tutor,82004860-e589-4e38-8d61-8c0210e4ea39,cards/D/de.md,demonic-tutor,64,B,Sorcery,legal,1,2026-10-15-b1
+Descent into Avernus,1313da2f-92bb-4862-9153-373972cc1520,cards/D/de.md,descent-into-avernus,897,R,Enchantment,legal,0,2026-10-15-b1
+Deserted Beach,f0ec8681-da50-466b-8cdd-1dc710deccd9,cards/D/de.md,deserted-beach,267,UW,Land,legal,0,2026-10-15-b1
+Desolate Mire,3edf9201-265f-4cd9-b27b-8073bf1a4cf2,cards/D/de.md,desolate-mire,915,BW,Land,legal,0,2026-10-15-b1
+Despark,bd16434d-55ea-4c5a-a9ef-752971a4af16,cards/D/de.md,despark,407,BW,Instant,legal,0,2026-10-15-b1
+Destructive Flow,f7544a96-46b3-4cdc-8b14-c7b6daecdabd,cards/D/de.md,destructive-flow,20441,BGR,Enchantment,legal,0,2026-10-15-b1
+Diabolic Intent,038519b9-bca8-4b27-b5ac-2409595469d0,cards/D/di.md,diabolic-intent,275,B,Sorcery,legal,0,2026-10-15-b1
+Diabolic Tutor,14589b6b-1814-46f9-a364-83cc15dacac2,cards/D/di.md,diabolic-tutor,485,B,Sorcery,legal,0,2026-10-15-b1
+Didn't Say Please,b90bc464-a95a-42e4-9d9a-4b0882eb57ba,cards/D/di.md,didnt-say-please,3530,U,Instant,legal,0,2026-10-15-b1
+Dig Through Time,f8b17b89-26ce-4208-874a-9e1d66514640,cards/D/di.md,dig-through-time,627,U,Instant,legal,0,2026-10-15-b1
+Dimir Aqueduct,378a1d57-e2f1-4b84-9692-1564602e9e99,cards/D/di.md,dimir-aqueduct,387,BU,Land,legal,0,2026-10-15-b1
+Dimir Signet,7d881c57-0bd9-4c57-aa4a-b10808b86143,cards/D/di.md,dimir-signet,158,BU,Artifact,legal,0,2026-10-15-b1
+Disciple of Freyalise // Garden of Freyalise,2699005b-a471-429f-a9d8-fbf2077ee2fd,cards/D/di.md,disciple-of-freyalise--garden-of-freyalise,456,G,Creature — Elf Druid // Land,legal,0,2026-10-15-b1
+Disdainful Stroke,11e02134-7b1a-46a4-a89e-7539dd1efada,cards/D/di.md,disdainful-stroke,2354,U,Instant,legal,0,2026-10-15-b1
+Dismember,fd74f8eb-0253-42dd-8277-186d4934da38,cards/D/di.md,dismember,922,B,Instant,legal,0,2026-10-15-b1
+Dispatch,133c99c0-3652-410f-8100-68015a47af9f,cards/D/di.md,dispatch,449,W,Instant,legal,0,2026-10-15-b1
+Dispel,6d7be242-a072-40ce-b540-95880506cccd,cards/D/di.md,dispel,950,U,Instant,legal,0,2026-10-15-b1
+Displacer Kitten,09ef446c-a13d-49d9-a94c-cd5f5a2d440b,cards/D/di.md,displacer-kitten,549,U,Creature — Cat Beast,legal,0,2026-10-15-b1
+Disrupt Decorum,9b084cd4-cc21-4f3a-9ac5-1e1160a31aa6,cards/D/di.md,disrupt-decorum,895,R,Sorcery,legal,0,2026-10-15-b1
+Distant Melody,ac6c5852-71c7-4f19-8c87-ccb345052862,cards/D/di.md,distant-melody,653,U,Sorcery,legal,0,2026-10-15-b1
+Doubling Season,01546b7d-a233-4176-8843-d732074dc5b6,cards/D/do.md,doubling-season,189,G,Enchantment,legal,0,2026-10-15-b1
+Dovin's Veto,1b388371-f9ef-45b4-82a3-ca20a8cd7807,cards/D/do.md,dovins-veto,229,UW,Instant,legal,0,2026-10-15-b1
+Dragonskull Summit,63398c02-6fb1-481d-9d9f-81063532fbc0,cards/D/dr.md,dragonskull-summit,83,BR,Land,legal,0,2026-10-15-b1
+Dragon Tempest,b9bacb46-fd1d-459b-81c2-d7d08fe73848,cards/D/dr.md,dragon-tempest,844,R,Enchantment,legal,0,2026-10-15-b1
+Dramatic Reversal,da46904c-8fb8-44c2-b2ab-775a1cc12ec3,cards/D/dr.md,dramatic-reversal,673,U,Instant,legal,0,2026-10-15-b1
+Drannith Magistrate,aadd10d0-6dd0-4bdc-8d93-ff08e29a5863,cards/D/dr.md,drannith-magistrate,759,W,Creature — Human Wizard,legal,1,2026-10-15-b1
+Dread Return,352b64d2-2ae5-44ee-a64f-94932ef545d3,cards/D/dr.md,dread-return,539,B,Sorcery,legal,0,2026-10-15-b1
+Dreamroot Cascade,dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb,cards/D/dr.md,dreamroot-cascade,174,GU,Land,legal,0,2026-10-15-b1
+Drowned Catacomb,819fc966-434e-470f-91e9-a38df974ad17,cards/D/dr.md,drowned-catacomb,105,BU,Land,legal,0,2026-10-15-b1
+Dryad Arbor,e996cd67-739c-40f4-b276-0042acf26c71,cards/D/dr.md,dryad-arbor,778,G,Land Creature — Forest Dryad,legal,0,2026-10-15-b1
+Dryad of the Ilysian Grove,bdbde5d0-f5e4-44da-b27c-b4ad6f374cc9,cards/D/dr.md,dryad-of-the-ilysian-grove,312,G,Enchantment Creature — Nymph Dryad,legal,0,2026-10-15-b1
+Dualcaster Mage,8eb7c0a5-6190-40de-b473-2d1daa3bbe28,cards/D/du.md,dualcaster-mage,682,R,Creature — Human Wizard,legal,0,2026-10-15-b1
+Dust Bowl,d3df7128-31dd-4d71-90be-87e2e9ff51b4,cards/D/du.md,dust-bowl,5303,C,Land,legal,0,2026-10-15-b1
+"Eiganjo, Seat of the Empire",7edb3d15-4f70-4ebe-8c5e-caf6a225076d,cards/E/ei.md,eiganjo-seat-of-the-empire,376,W,Legendary Land,legal,0,2026-10-15-b1
+Eladamri's Call,4acb6612-54e8-428d-acb6-c7259a5ad6a8,cards/E/el.md,eladamris-call,780,GW,Instant,legal,0,2026-10-15-b1
+"Elas il-Kor, Sadistic Pilgrim",a4d33e21-d3fe-4d5b-903c-b75e859d6f7f,cards/E/el.md,elas-il-kor-sadistic-pilgrim,617,BW,Legendary Creature — Phyrexian Kor Cleric,legal,0,2026-10-15-b1
+Eldritch Evolution,0f77c0c9-4dc4-489a-b547-e93287c4d1a5,cards/E/el.md,eldritch-evolution,763,G,Sorcery,legal,0,2026-10-15-b1
+Elegant Parlor,9ea747cf-5d04-4aa7-bdc3-8145860cd1ba,cards/E/el.md,elegant-parlor,771,RW,Land — Mountain Plains,legal,0,2026-10-15-b1
+Elemental Bond,d9a7e5a6-3e41-4fc6-987a-18fe1b9d67dd,cards/E/el.md,elemental-bond,550,G,Enchantment,legal,0,2026-10-15-b1
+"Elesh Norn, Grand Cenobite",958d71ff-c9f7-46f0-96ca-79e7f4d65a16,cards/E/el.md,elesh-norn-grand-cenobite,857,W,Legendary Creature — Phyrexian Praetor,legal,0,2026-10-15-b1
+"Elspeth, Storm Slayer",f78af825-023a-42e9-8374-5c52303a1417,cards/E/el.md,elspeth-storm-slayer,663,W,Legendary Planeswalker — Elspeth,legal,0,2026-10-15-b1
+"Elspeth, Sun's Champion",05e6b243-48a6-4a42-bc5f-413441de9c33,cards/E/el.md,elspeth-suns-champion,786,W,Legendary Planeswalker — Elspeth,legal,0,2026-10-15-b1
+Elves of Deep Shadow,20347559-95a9-4689-bb79-c5bb3809b719,cards/E/el.md,elves-of-deep-shadow,742,BG,Creature — Elf Druid,legal,0,2026-10-15-b1
+Elvish Archdruid,6e2c2423-d854-4478-99e6-64f29851f026,cards/E/el.md,elvish-archdruid,883,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Elvish Mystic,3f3b2c10-21f8-4e13-be83-4ef3fa36e123,cards/E/el.md,elvish-mystic,102,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Elvish Spirit Guide,6b0e23cf-7d68-4329-86db-7adc26abd86b,cards/E/el.md,elvish-spirit-guide,750,G,Creature — Elf Spirit,legal,0,2026-10-15-b1
+Emerald Medallion,d683024d-8fe7-4509-851b-7655fadc1de7,cards/E/em.md,emerald-medallion,582,C,Artifact,legal,0,2026-10-15-b1
+Emergence Zone,7536eb66-959d-4dca-9b75-895572ef733c,cards/E/em.md,emergence-zone,538,C,Land,legal,0,2026-10-15-b1
+"Emeria, the Sky Ruin",cc999cf2-c99b-4911-8c52-6cc4a99fcc7b,cards/E/em.md,emeria-the-sky-ruin,942,W,Land,legal,0,2026-10-15-b1
+"Emry, Lurker of the Loch",da3e7d3d-2ca0-40c3-9602-fca37c92f507,cards/E/em.md,emry-lurker-of-the-loch,604,U,Legendary Creature — Merfolk Wizard,legal,0,2026-10-15-b1
+Encroaching Wastes,43144f06-079b-4515-a03a-01ea3e90d586,cards/E/en.md,encroaching-wastes,10599,C,Land,legal,0,2026-10-15-b1
+Enduring Curiosity,9d2460c3-8eeb-4f35-b6f6-748c478664c7,cards/E/en.md,enduring-curiosity,825,U,Enchantment Creature — Cat Glimmer,legal,0,2026-10-15-b1
+Enduring Innocence,98a389f4-2905-47f3-b60e-3d4afb3e5cb0,cards/E/en.md,enduring-innocence,728,W,Enchantment Creature — Sheep Glimmer,legal,0,2026-10-15-b1
+Enduring Tenacity,98e698ae-1a69-469c-9cfb-0e3fedeb71d4,cards/E/en.md,enduring-tenacity,787,B,Enchantment Creature — Snake Glimmer,legal,0,2026-10-15-b1
+Enduring Vitality,3577c47e-76d3-4659-b922-31c4b74be3a0,cards/E/en.md,enduring-vitality,424,G,Enchantment Creature — Elk Glimmer,legal,0,2026-10-15-b1
+Enlightened Tutor,c5229c17-b7be-4b05-b683-f2277edc4849,cards/E/en.md,enlightened-tutor,123,W,Instant,legal,1,2026-10-15-b1
+Entish Restoration,736017e2-bc33-49e8-812d-1639443fdb51,cards/E/en.md,entish-restoration,455,G,Instant,legal,0,2026-10-15-b1
+Entomb,299fc083-0834-4064-8344-f895aff68867,cards/E/en.md,entomb,325,B,Instant,legal,0,2026-10-15-b1
+Ephemerate,0fd57894-b917-41c8-a394-360d1d31b236,cards/E/ep.md,ephemerate,429,W,Instant,legal,0,2026-10-15-b1
+Escape Tunnel,0056fc91-4398-471c-b561-7ff99750ac8a,cards/E/es.md,escape-tunnel,791,C,Land,legal,0,2026-10-15-b1
+Esper Sentinel,5def9f38-0a0b-4e8d-9f9d-29dcb46520b4,cards/E/es.md,esper-sentinel,80,W,Artifact Creature — Human Soldier,legal,0,2026-10-15-b1
+Essence Flux,64824ae5-efab-4b55-9d3c-b9c690bad857,cards/E/es.md,essence-flux,917,U,Instant,legal,0,2026-10-15-b1
+Essence Scatter,46665089-aa3d-44c3-964d-6638dfbb5782,cards/E/es.md,essence-scatter,2645,U,Instant,legal,0,2026-10-15-b1
+"Etali, Primal Conqueror // Etali, Primal Sickness",7514e401-7aa1-405d-9f7a-312b4e630cc2,cards/E/et.md,etali-primal-conqueror--etali-primal-sickness,812,GR,Legendary Creature — Elder Dinosaur // Legendary Creature — Phyrexian Elder Dinosaur,legal,0,2026-10-15-b1
+"Etali, Primal Storm",078def07-ae5d-4591-8db6-d156834aab97,cards/E/et.md,etali-primal-storm,279,R,Legendary Creature — Elder Dinosaur,legal,0,2026-10-15-b1
+Eternal Witness,30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c,cards/E/et.md,eternal-witness,121,G,Creature — Human Shaman,legal,0,2026-10-15-b1
+Etherium Sculptor,96b87445-6362-4a17-91b2-cbf203fd03fd,cards/E/et.md,etherium-sculptor,415,U,Artifact Creature — Vedalken Artificer,legal,0,2026-10-15-b1
+Evacuation,fdd94383-b573-439a-8e1c-925af887c5a6,cards/E/ev.md,evacuation,1898,U,Instant,legal,0,2026-10-15-b1
+"Evendo, Waking Haven",83161d59-2520-4741-9328-e2a4a8b5d5bc,cards/E/ev.md,evendo-waking-haven,905,G,Land — Planet,legal,0,2026-10-15-b1
+Everflowing Chalice,0a79237e-0811-4a8a-bd4d-db3ca91bff22,cards/E/ev.md,everflowing-chalice,252,C,Artifact,legal,0,2026-10-15-b1
+Evolution Sage,b45fdeab-00cc-4422-af9f-66f30a880a7c,cards/E/ev.md,evolution-sage,402,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Evolving Wilds,a75445d3-1303-4bb5-89ad-26ea93fecd48,cards/E/ev.md,evolving-wilds,19,C,Land,legal,0,2026-10-15-b1
+"Excalibur, Sword of Eden",9fb6bd72-031b-40a1-83c5-8a1c82f84e12,cards/E/ex.md,excalibur-sword-of-eden,926,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Exotic Orchard,27b047e3-0d41-45e2-98e9-9391d7923a1e,cards/E/ex.md,exotic-orchard,9,C,Land,legal,0,2026-10-15-b1
+Expedition Map,8fcf50cd-e6d0-4516-850f-d42ee75dcc3a,cards/E/ex.md,expedition-map,452,C,Artifact,legal,0,2026-10-15-b1
+Exploration,0c2841bb-038c-4fbf-8360-bc0a1522b58d,cards/E/ex.md,exploration,305,G,Enchantment,legal,0,2026-10-15-b1
+Explore,b8f566ea-8283-4afa-9ac8-737e26419283,cards/E/ex.md,explore,237,G,Sorcery,legal,0,2026-10-15-b1
+Expressive Iteration,c7aecca5-2f67-4245-ab2d-e723d8b23a67,cards/E/ex.md,expressive-iteration,879,RU,Sorcery,legal,0,2026-10-15-b1
+Exquisite Blood,8f933fae-6c0c-42d7-a817-14760d8285cd,cards/E/ex.md,exquisite-blood,517,B,Enchantment,legal,0,2026-10-15-b1
+Exsanguinate,8164b1e8-3350-465e-8a17-75f57d326344,cards/E/ex.md,exsanguinate,273,B,Sorcery,legal,0,2026-10-15-b1
+Fabled Passage,0c85b8f7-0bd0-4680-9ec5-d4b110460a54,cards/F/fa.md,fabled-passage,44,C,Land,legal,0,2026-10-15-b1
+Fabricate,422e1869-134f-463d-9fa1-86b66a998b3e,cards/F/fa.md,fabricate,470,U,Sorcery,legal,0,2026-10-15-b1
+Fact or Fiction,437b2dab-15e0-4b9a-a204-58622d37a3b3,cards/F/fa.md,fact-or-fiction,703,U,Instant,legal,0,2026-10-15-b1
+Faeburrow Elder,70a6f08e-854d-4e2f-9d8c-c45ec3231157,cards/F/fa.md,faeburrow-elder,494,GW,Creature — Treefolk Druid,legal,0,2026-10-15-b1
+Faerie Mastermind,a984db23-40ea-428d-829f-e944267280f8,cards/F/fa.md,faerie-mastermind,288,U,Creature — Faerie Rogue,legal,0,2026-10-15-b1
+Faithless Looting,3d6fa57a-aa53-4b5c-b8af-a7612c823117,cards/F/fa.md,faithless-looting,99,R,Sorcery,legal,0,2026-10-15-b1
+Fall of the Thran,341803d9-fd29-4721-81bf-ae9b7f1c01d2,cards/F/fa.md,fall-of-the-thran,13263,W,Enchantment — Saga,legal,0,2026-10-15-b1
+Fanatic of Rhonas,7973820b-fdaf-46ec-9e3e-d4c0e77b5067,cards/F/fa.md,fanatic-of-rhonas,404,G,Creature — Snake Druid,legal,0,2026-10-15-b1
+Farewell,4eb813fd-2d5a-4b02-8193-662681ef4e7d,cards/F/fa.md,farewell,177,W,Sorcery,legal,1,2026-10-15-b1
+Farseek,495e52e6-4c2b-4574-9474-eadbdcc8b4ac,cards/F/fa.md,farseek,23,G,Sorcery,legal,0,2026-10-15-b1
+Feed the Swarm,5825997b-10d7-4a36-972c-a80ddd90b8ed,cards/F/fe.md,feed-the-swarm,93,B,Sorcery,legal,0,2026-10-15-b1
+Felidar Retreat,16629f59-bae8-4c19-bf50-443eb0ed6856,cards/F/fe.md,felidar-retreat,519,W,Enchantment,legal,0,2026-10-15-b1
+Fell the Profane // Fell Mire,053a69d8-2b5e-4f14-8b02-ca405891dc4a,cards/F/fe.md,fell-the-profane--fell-mire,198,B,Instant // Land,legal,0,2026-10-15-b1
+Fellwar Stone,95560508-7ac9-4be9-8a3f-3c7d5b52807b,cards/F/fe.md,fellwar-stone,17,C,Artifact,legal,0,2026-10-15-b1
+Ferrous Lake,62c15af0-40e1-407d-b056-7a3d909e3fdb,cards/F/fe.md,ferrous-lake,776,RU,Land,legal,0,2026-10-15-b1
+Fetid Heath,42bf259d-4bb9-49c3-b4ec-223dca62f4d6,cards/F/fe.md,fetid-heath,322,BW,Land,legal,0,2026-10-15-b1
+Fetid Pools,32b03b48-06da-4a74-a7ac-e5ae39a4f428,cards/F/fe.md,fetid-pools,860,BU,Land — Island Swamp,legal,0,2026-10-15-b1
+Field of Ruin,f825c98f-a327-440b-8c0d-ebe02e23bfb7,cards/F/fi.md,field-of-ruin,914,C,Land,legal,0,2026-10-15-b1
+Field of the Dead,aa959340-c869-4caa-92c7-572bd8d23eef,cards/F/fi.md,field-of-the-dead,490,C,Land,legal,1,2026-10-15-b1
+Fierce Guardianship,d09c9cba-fdd2-479b-ad5d-d05181c3e3f9,cards/F/fi.md,fierce-guardianship,82,U,Instant,legal,1,2026-10-15-b1
+Fiery Emancipation,52159875-354c-47f9-bb1c-cd65395fcc68,cards/F/fi.md,fiery-emancipation,863,R,Enchantment,legal,0,2026-10-15-b1
+Fiery Islet,026f4a4b-eedd-44e1-9d37-ca4fb8d6db98,cards/F/fi.md,fiery-islet,867,RU,Land,legal,0,2026-10-15-b1
+Finale of Devastation,69872a9a-fe54-4e58-940c-89395af71acd,cards/F/fi.md,finale-of-devastation,301,G,Sorcery,legal,0,2026-10-15-b1
+Fire Diamond,97b477d8-2e05-475e-8ed6-7d680cb21cd9,cards/F/fi.md,fire-diamond,727,R,Artifact,legal,0,2026-10-15-b1
+Flare of Fortitude,4ff07b7c-e97a-4b57-bcf1-2f22c37a8bd6,cards/F/fl.md,flare-of-fortitude,735,W,Instant,legal,0,2026-10-15-b1
+Flawless Maneuver,4e183439-17d2-47ff-9d99-5e22821d91e3,cards/F/fl.md,flawless-maneuver,173,W,Instant,legal,0,2026-10-15-b1
+Fleshbag Marauder,4b1bf05e-753e-4350-a913-894cf3cecc0c,cards/F/fl.md,fleshbag-marauder,796,B,Creature — Zombie Warrior,legal,0,2026-10-15-b1
+Flooded Grove,dc974eb4-72b9-4213-887b-8ee684b93420,cards/F/fl.md,flooded-grove,303,GU,Land,legal,0,2026-10-15-b1
+Flooded Strand,f3c7af78-a77d-4134-82a2-a5ce84285a84,cards/F/fl.md,flooded-strand,38,C,Land,legal,0,2026-10-15-b1
+Floodfarm Verge,f1e9abfb-c3c8-483e-b446-5c2afc9f6394,cards/F/fl.md,floodfarm-verge,619,UW,Land,legal,0,2026-10-15-b1
+Flowering of the White Tree,3cda958a-f777-433d-850e-a6c8f581db4e,cards/F/fl.md,flowering-of-the-white-tree,811,W,Legendary Enchantment,legal,0,2026-10-15-b1
+Flusterstorm,86bf58f2-7f25-4e10-b797-25e0e8e67769,cards/F/fl.md,flusterstorm,309,U,Instant,legal,0,2026-10-15-b1
+Fog,27e9db49-7af7-4bef-ad4c-bf5dfb92030d,cards/F/fo.md,fog,649,G,Instant,legal,0,2026-10-15-b1
+Forbidden Orchard,cfd60d1f-9832-4408-b84e-0fd3018b015b,cards/F/fo.md,forbidden-orchard,738,C,Land,legal,0,2026-10-15-b1
+Force of Negation,ac2173f9-f223-440a-9231-fd98762bdc6f,cards/F/fo.md,force-of-negation,272,U,Instant,legal,0,2026-10-15-b1
+Force of Will,956381ba-6d37-4a8a-846c-bad79222dbee,cards/F/fo.md,force-of-will,202,U,Instant,legal,1,2026-10-15-b1
+Foreboding Ruins,5c87e2fa-77f1-4978-b25f-f14d227301d1,cards/F/fo.md,foreboding-ruins,316,BR,Land,legal,0,2026-10-15-b1
+Forgotten Ancient,2ef75cf3-30dc-4852-a6d1-1d6391fad022,cards/F/fo.md,forgotten-ancient,390,G,Creature — Elemental,legal,0,2026-10-15-b1
+Forgotten Cave,394c6de5-7957-4a0b-a6b9-ee0c707cd022,cards/F/fo.md,forgotten-cave,869,R,Land,legal,0,2026-10-15-b1
+Forsaken Monument,7777fab1-df3f-467f-b9e2-46dd2bd2166e,cards/F/fo.md,forsaken-monument,882,C,Legendary Artifact,legal,0,2026-10-15-b1
+Fortified Village,56f1a16a-9f41-41fb-b580-c200bca27cd6,cards/F/fo.md,fortified-village,344,GW,Land,legal,0,2026-10-15-b1
+Foundry Inspector,18f22960-87ec-43cd-82ea-ec5cabf49ad3,cards/F/fo.md,foundry-inspector,250,C,Artifact Creature — Construct,legal,0,2026-10-15-b1
+Fountainport,94e8b0a9-44a1-4dce-8d44-78681ae638a1,cards/F/fo.md,fountainport,933,C,Land,legal,0,2026-10-15-b1
+Frantic Search,16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c,cards/F/fr.md,frantic-search,98,U,Instant,legal,0,2026-10-15-b1
+Frontier Bivouac,e4cf6c2f-0f1e-4980-9ef9-e4eabcae42a9,cards/F/fr.md,frontier-bivouac,401,GRU,Land,legal,0,2026-10-15-b1
+Frostboil Snarl,7137aae6-260d-41de-8b4e-42a8cf752697,cards/F/fr.md,frostboil-snarl,334,RU,Land,legal,0,2026-10-15-b1
+Furycalm Snarl,651dea9c-2375-4e44-8e65-ba8e40f0c0ef,cards/F/fu.md,furycalm-snarl,343,RW,Land,legal,0,2026-10-15-b1
+Fyndhorn Elves,df317532-7d36-40fd-938f-e972749c8792,cards/F/fy.md,fyndhorn-elves,217,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Gaea's Cradle,7c427c3d-ecd8-45ef-bebd-8f10f4a311db,cards/G/ga.md,gaeas-cradle,448,G,Legendary Land,legal,1,2026-10-15-b1
+Gamble,a54f0869-94c8-42af-9080-166efb9486a4,cards/G/ga.md,gamble,241,R,Sorcery,legal,1,2026-10-15-b1
+Game Trail,00de57d2-7cb6-4337-9bc6-f6711e4dfabf,cards/G/ga.md,game-trail,397,GR,Land,legal,0,2026-10-15-b1
+Garruk's Uprising,3127ae9b-a7a7-43ec-89d7-688f8445b33d,cards/G/ga.md,garruks-uprising,91,G,Enchantment,legal,0,2026-10-15-b1
+Gavony Township,8a44e4e7-dfa2-427b-bbff-11c398fa60bb,cards/G/ga.md,gavony-township,1002,GW,Land,legal,0,2026-10-15-b1
+Geier Reach Sanitarium,7b9fafe7-d26a-4ed5-b4c4-ce13763770b5,cards/G/ge.md,geier-reach-sanitarium,447,C,Legendary Land,legal,0,2026-10-15-b1
+Gemstone Caverns,c0adbddc-b070-4c5f-afe0-0474c72a9251,cards/G/ge.md,gemstone-caverns,181,C,Legendary Land,legal,0,2026-10-15-b1
+Generous Gift,fae37e28-e137-4177-b973-fa8b4dd8f409,cards/G/ge.md,generous-gift,63,W,Instant,legal,0,2026-10-15-b1
+"Ghalta, Primal Hunger",b0b6be0c-41cf-4757-9f0e-87227b6ba6b3,cards/G/gh.md,ghalta-primal-hunger,457,G,Legendary Creature — Elder Dinosaur,legal,0,2026-10-15-b1
+Ghostly Flicker,ad0070db-6454-41cb-861f-8f5b8fc2a3b8,cards/G/gh.md,ghostly-flicker,592,U,Instant,legal,0,2026-10-15-b1
+Ghostly Prison,e828b189-0e8f-43b8-b909-4c23e742e028,cards/G/gh.md,ghostly-prison,160,W,Enchantment,legal,0,2026-10-15-b1
+Ghost Quarter,2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc,cards/G/gh.md,ghost-quarter,835,C,Land,legal,0,2026-10-15-b1
+Gilded Goose,f2f09757-1931-47c0-a5f0-39280445489d,cards/G/gi.md,gilded-goose,807,G,Creature — Bird,legal,0,2026-10-15-b1
+Gilded Lotus,9a02a9a7-39d9-4763-85d3-747a0540b60b,cards/G/gi.md,gilded-lotus,412,C,Artifact,legal,0,2026-10-15-b1
+Gitaxian Probe,1d67f5ff-1fce-45e5-b6a1-416c569351e2,cards/G/gi.md,gitaxian-probe,525,U,Sorcery,legal,0,2026-10-15-b1
+Giver of Runes,4ec85850-f274-4c0c-9a03-0488267caa14,cards/G/gi.md,giver-of-runes,1383,W,Creature — Kor Cleric,legal,0,2026-10-15-b1
+Glacial Chasm,73e7a2ad-d11c-4867-b97d-f971809da778,cards/G/gl.md,glacial-chasm,2241,C,Land,legal,1,2026-10-15-b1
+Glacial Fortress,027dd013-baa7-4111-b3c9-f4d1414e9c45,cards/G/gl.md,glacial-fortress,88,UW,Land,legal,0,2026-10-15-b1
+Gloomlake Verge,d71bda4c-3dee-4398-8fd0-f77d8743b887,cards/G/gl.md,gloomlake-verge,595,BU,Land,legal,0,2026-10-15-b1
+Goblin Anarchomancer,e9319f13-1f2b-429c-9d61-e58a3cbec86a,cards/G/go.md,goblin-anarchomancer,557,GR,Creature — Goblin Shaman,legal,0,2026-10-15-b1
+Goblin Bombardment,edad60c6-80de-4033-af1b-a703ac332983,cards/G/go.md,goblin-bombardment,463,R,Enchantment,legal,0,2026-10-15-b1
+Goblin Electromancer,81f06f84-1580-43c0-89d5-08d34541a519,cards/G/go.md,goblin-electromancer,671,RU,Creature — Goblin Wizard,legal,0,2026-10-15-b1
+Godless Shrine,73864fcc-1bde-4bc0-831e-2b93e546e417,cards/G/go.md,godless-shrine,59,BW,Land — Plains Swamp,legal,0,2026-10-15-b1
+Go for the Throat,2f092562-9e17-43cd-aeb8-d0567f99363e,cards/G/go.md,go-for-the-throat,379,B,Instant,legal,0,2026-10-15-b1
+Goldspan Dragon,716b3ea2-45b7-4a8f-af72-de7f4e510eff,cards/G/go.md,goldspan-dragon,365,R,Creature — Dragon,legal,0,2026-10-15-b1
+Golgari Rot Farm,1b301478-b14f-4ef8-94e6-9647d582eabe,cards/G/go.md,golgari-rot-farm,337,BG,Land,legal,0,2026-10-15-b1
+Golgari Signet,1cf51f50-24e4-48d0-95b3-1dad3ffa4bf5,cards/G/go.md,golgari-signet,726,BG,Artifact,legal,0,2026-10-15-b1
+"Goreclaw, Terror of Qal Sisma",befb211f-37ca-4083-98d4-9ff1f28be3f2,cards/G/go.md,goreclaw-terror-of-qal-sisma,637,G,Legendary Creature — Bear,legal,0,2026-10-15-b1
+Grand Abolisher,c749f23c-40c0-4159-b84c-a70cbb062c14,cards/G/gr.md,grand-abolisher,256,W,Creature — Human Cleric,legal,0,2026-10-15-b1
+Grapeshot,ebd2d760-5ad8-4027-b124-171822f3edfe,cards/G/gr.md,grapeshot,729,R,Sorcery,legal,0,2026-10-15-b1
+Gravecrawler,09ff28b1-b6c9-48e6-b12e-2f0e644f709f,cards/G/gr.md,gravecrawler,658,B,Creature — Zombie,legal,0,2026-10-15-b1
+Graven Cairns,5004b84a-33b7-4f6f-b2c2-7086b9087535,cards/G/gr.md,graven-cairns,555,BR,Land,legal,0,2026-10-15-b1
+Grave Pact,6f4ac4a4-53ec-4bc9-8f5c-d4b801d867b2,cards/G/gr.md,grave-pact,579,B,Enchantment,legal,0,2026-10-15-b1
+Gray Merchant of Asphodel,38f3b157-0df4-409b-89cc-086e1531cd5b,cards/G/gr.md,gray-merchant-of-asphodel,244,B,Creature — Zombie,legal,0,2026-10-15-b1
+Greater Good,dc0593c2-ccb4-4648-a592-c5bcd121dc72,cards/G/gr.md,greater-good,634,G,Enchantment,legal,0,2026-10-15-b1
+Great Furnace,f4819061-b0b5-48ab-af7b-6525c3d2eab7,cards/G/gr.md,great-furnace,371,R,Artifact Land,legal,0,2026-10-15-b1
+Green Sun's Zenith,0d96b60b-a060-48ee-bb83-93f1c4a10669,cards/G/gr.md,green-suns-zenith,540,G,Sorcery,legal,0,2026-10-15-b1
+Grim Hireling,89738595-dafb-400a-bfba-91a53a37e717,cards/G/gr.md,grim-hireling,902,B,Creature — Tiefling Rogue,legal,0,2026-10-15-b1
+Grim Monolith,229d6627-1292-4ae1-8849-b0f956fa6540,cards/G/gr.md,grim-monolith,676,C,Artifact,legal,1,2026-10-15-b1
+Grim Tutor,e62f8d69-a559-4f13-a5c9-5fb750b4af2c,cards/G/gr.md,grim-tutor,710,B,Sorcery,legal,0,2026-10-15-b1
+"Growing Rites of Itlimoc // Itlimoc, Cradle of the Sun",ea9c459a-6047-43aa-968f-a582be4000e8,cards/G/gr.md,growing-rites-of-itlimoc--itlimoc-cradle-of-the-sun,574,G,Legendary Enchantment // Legendary Land,legal,0,2026-10-15-b1
+Growth Spiral,34bcc217-dd91-45a0-90d7-a94d02f1f317,cards/G/gr.md,growth-spiral,239,GU,Instant,legal,0,2026-10-15-b1
+Gruul Signet,d36e0c9f-c025-4dfe-9644-9cad2461ce38,cards/G/gr.md,gruul-signet,826,GR,Artifact,legal,0,2026-10-15-b1
+Gruul Turf,657243dd-e479-4f4b-99d2-09b55d833a35,cards/G/gr.md,gruul-turf,466,GR,Land,legal,0,2026-10-15-b1
+Guardian Project,4f9e07ae-6341-4b46-9f77-f17ab659d266,cards/G/gu.md,guardian-project,323,G,Enchantment,legal,0,2026-10-15-b1
+Guttersnipe,c6bdaf76-6a03-4695-9c4b-f040e73435af,cards/G/gu.md,guttersnipe,408,R,Creature — Goblin Shaman,legal,0,2026-10-15-b1
+Gyre Sage,e3aa16cf-079b-4737-9ffd-7bfdffef0cb2,cards/G/gy.md,gyre-sage,847,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Hall of Heliod's Generosity,2fc070dc-f2f7-4648-8069-31d74790a39c,cards/H/ha.md,hall-of-heliods-generosity,433,W,Legendary Land,legal,0,2026-10-15-b1
+Hallowed Fountain,f1750962-a87c-49f6-b731-02ae971ac6ea,cards/H/ha.md,hallowed-fountain,61,UW,Land — Plains Island,legal,0,2026-10-15-b1
+Hammer of Nazahn,e3955573-3db5-490e-903e-65e0172a9202,cards/H/ha.md,hammer-of-nazahn,722,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Hardened Scales,a1f3da21-af6d-450e-bf0b-985d158418e6,cards/H/ha.md,hardened-scales,185,G,Enchantment,legal,0,2026-10-15-b1
+Harmonic Prodigy,2e2ace5b-4018-43af-8e72-ebafec1a7739,cards/H/ha.md,harmonic-prodigy,640,R,Creature — Human Wizard,legal,0,2026-10-15-b1
+Harmonize,7eff84f1-f772-497a-b350-bbc93d0230f7,cards/H/ha.md,harmonize,327,G,Sorcery,legal,0,2026-10-15-b1
+Harrow,705509e9-a034-4a5a-9c65-66f58748b8a2,cards/H/ha.md,harrow,249,G,Instant,legal,0,2026-10-15-b1
+Haunted Ridge,e2a37967-4212-4553-9f77-bcb613405807,cards/H/ha.md,haunted-ridge,270,BR,Land,legal,0,2026-10-15-b1
+Haywire Mite,749d2994-44e7-40d3-8630-7bebed239e9e,cards/H/ha.md,haywire-mite,683,G,Artifact Creature — Insect,legal,0,2026-10-15-b1
+Hedge Maze,ca4b6689-04ee-4227-9bdc-cb5a9590c745,cards/H/he.md,hedge-maze,558,GU,Land — Forest Island,legal,0,2026-10-15-b1
+Hedron Archive,32263baa-d3f0-463f-92b3-4e9938476add,cards/H/he.md,hedron-archive,544,C,Artifact,legal,0,2026-10-15-b1
+Hellkite Tyrant,d9b066ff-9519-415c-ae17-bfea703c9889,cards/H/he.md,hellkite-tyrant,737,R,Creature — Dragon,legal,0,2026-10-15-b1
+Helm of the Host,83b43aba-bf9c-4da2-967d-9daa632e97d2,cards/H/he.md,helm-of-the-host,393,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Heraldic Banner,3525e263-e29a-49bf-a29f-fb3ce43bbd33,cards/H/he.md,heraldic-banner,849,C,Artifact,legal,0,2026-10-15-b1
+Herald's Horn,c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2,cards/H/he.md,heralds-horn,151,C,Artifact,legal,0,2026-10-15-b1
+Heroic Intervention,24882fa2-3fe9-4c1b-aa3d-0e6488b9db27,cards/H/he.md,heroic-intervention,28,G,Instant,legal,0,2026-10-15-b1
+Hexing Squelcher,96c2d71e-0fc9-42aa-bc6b-6d0ae3f66f8b,cards/H/he.md,hexing-squelcher,575,R,Creature — Goblin Sorcerer,legal,0,2026-10-15-b1
+High Fae Trickster,28c1a4a0-f58c-4d07-a918-51ff8a74f050,cards/H/hi.md,high-fae-trickster,841,U,Creature — Faerie Wizard,legal,0,2026-10-15-b1
+High Market,86fb3749-37d6-48a6-8524-71e996850307,cards/H/hi.md,high-market,420,C,Land,legal,0,2026-10-15-b1
+High Tide,dc671205-f2fa-454f-9957-921a6069ad53,cards/H/hi.md,high-tide,797,U,Instant,legal,0,2026-10-15-b1
+Hinterland Harbor,fb5a3403-7f0b-406c-8c4f-d693be010ca6,cards/H/hi.md,hinterland-harbor,97,GU,Land,legal,0,2026-10-15-b1
+Homeward Path,cb8ec2e4-8223-4172-8f2c-37c918a573fa,cards/H/ho.md,homeward-path,1187,C,Land,legal,0,2026-10-15-b1
+Howling Mine,d26b27db-a567-4631-b4b6-7294222fbdd1,cards/H/ho.md,howling-mine,721,C,Artifact,legal,0,2026-10-15-b1
+Hullbreacher,2f533667-e29b-4bec-897a-e7a9eee08314,cards/H/hu.md,hullbreacher,,U,Creature — Merfolk Pirate,banned,0,2026-10-15-b1
+Hullbreaker Horror,d4a84e78-d9b9-4c67-8a4b-4329e65f0f15,cards/H/hu.md,hullbreaker-horror,278,U,Creature — Kraken Horror,legal,0,2026-10-15-b1
+Hushwood Verge,cce328b9-6100-417e-9ddf-808bbe3e3bc5,cards/H/hu.md,hushwood-verge,674,GW,Land,legal,0,2026-10-15-b1
+Hydroelectric Specimen // Hydroelectric Laboratory,573151f0-00d4-4a8a-8a09-745c5f376532,cards/H/hy.md,hydroelectric-specimen--hydroelectric-laboratory,607,U,Creature — Weird // Land,legal,0,2026-10-15-b1
+Icetill Explorer,109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f,cards/I/ic.md,icetill-explorer,611,G,Creature — Insect Scout,legal,0,2026-10-15-b1
+Idol of Oblivion,c232d974-9c65-4bce-b045-e5a7cc0c62e0,cards/I/id.md,idol-of-oblivion,191,C,Artifact,legal,0,2026-10-15-b1
+Idyllic Tutor,57c9ff89-dd30-467b-bb3e-499eeea8cb94,cards/I/id.md,idyllic-tutor,754,W,Sorcery,legal,0,2026-10-15-b1
+Ignoble Hierarch,c8de43a3-ebd3-4000-b343-a6ffed11d34d,cards/I/ig.md,ignoble-hierarch,535,BGR,Creature — Goblin Shaman,legal,0,2026-10-15-b1
+Impact Tremors,9242cd3e-1a71-4700-8182-9c1005616033,cards/I/im.md,impact-tremors,203,R,Enchantment,legal,0,2026-10-15-b1
+Impending Disaster,cf0799f3-ef64-4fcc-924a-5265e52c9727,cards/I/im.md,impending-disaster,12920,R,Enchantment,legal,0,2026-10-15-b1
+Imperial Recruiter,4d6a1391-817a-4ddc-840d-886b138eeb3f,cards/I/im.md,imperial-recruiter,705,R,Creature — Human Advisor,legal,0,2026-10-15-b1
+Imperial Seal,16cd0b90-f70c-4efa-b252-8de8784ef9a3,cards/I/im.md,imperial-seal,541,B,Sorcery,legal,1,2026-10-15-b1
+Imprisoned in the Moon,339a7418-9a29-4eae-a3c2-ea590d175936,cards/I/im.md,imprisoned-in-the-moon,765,U,Enchantment — Aura,legal,0,2026-10-15-b1
+Imp's Mischief,30ec73ad-c7a1-4527-8dc6-44bdd65b9ba6,cards/I/im.md,imps-mischief,650,B,Instant,legal,0,2026-10-15-b1
+Incubation Druid,34428f42-03ac-4795-8286-6cbea796df2b,cards/I/in.md,incubation-druid,642,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Indatha Triome,ec2b3779-55f7-4169-aa66-6312fb52721f,cards/I/in.md,indatha-triome,480,BGW,Land — Plains Swamp Forest,legal,0,2026-10-15-b1
+Infernal Grasp,94f0a572-e91c-4b56-a5d1-6cbbeabd210d,cards/I/in.md,infernal-grasp,264,B,Instant,legal,0,2026-10-15-b1
+Inkshield,da93264e-4e04-401a-9809-e4e1056cf604,cards/I/in.md,inkshield,784,BW,Instant,legal,0,2026-10-15-b1
+Innkeeper's Talent,915b75d1-b5e3-4aca-a54c-beaccef0a2e4,cards/I/in.md,innkeepers-talent,692,G,Enchantment — Class,legal,0,2026-10-15-b1
+Inspiring Call,9b9a10ff-5a5d-4df8-88aa-18d84ff9117c,cards/I/in.md,inspiring-call,280,G,Instant,legal,0,2026-10-15-b1
+Intangible Virtue,d21c3c8f-d105-4ba9-bf69-e5f26f0f8ec5,cards/I/in.md,intangible-virtue,675,W,Enchantment,legal,0,2026-10-15-b1
+Into the Flood Maw,8cb36a67-9206-4665-a03f-64f52ba559c4,cards/I/in.md,into-the-flood-maw,679,U,Instant,legal,0,2026-10-15-b1
+Inventors' Fair,91d4a5fe-fd6d-4b14-a63f-61b4d0ecd9c4,cards/I/in.md,inventors-fair,268,C,Legendary Land,legal,0,2026-10-15-b1
+Irrigated Farmland,406eabe2-df62-49e2-bb39-c0227509d875,cards/I/ir.md,irrigated-farmland,813,UW,Land — Plains Island,legal,0,2026-10-15-b1
+Isochron Scepter,ddd649f4-dbaf-48ec-8ff7-95581257772d,cards/I/is.md,isochron-scepter,760,C,Artifact,legal,0,2026-10-15-b1
+Isolated Chapel,7e5d9efe-48a9-434b-bb09-056e0e09cc9a,cards/I/is.md,isolated-chapel,90,BW,Land,legal,0,2026-10-15-b1
+Izzet Boilerworks,1cb9d94a-3039-4f2e-8fcc-6996f9a45f74,cards/I/iz.md,izzet-boilerworks,437,RU,Land,legal,0,2026-10-15-b1
+Izzet Signet,2fda4fe7-8b0c-489c-a000-6d358e614e34,cards/I/iz.md,izzet-signet,172,RU,Artifact,legal,0,2026-10-15-b1
+"Jaheira, Friend of the Forest",0aeeb0d7-15a3-4722-ad67-8fc7fe89220d,cards/J/ja.md,jaheira-friend-of-the-forest,934,G,Legendary Creature — Human Elf Druid,legal,0,2026-10-15-b1
+Jeska's Will,0fd114c4-092b-4e28-b0dc-ef529f3bc73e,cards/J/je.md,jeskas-will,107,R,Sorcery,legal,1,2026-10-15-b1
+Jet Medallion,bccb06f1-8839-4104-9ffa-c79a817f8378,cards/J/je.md,jet-medallion,274,C,Artifact,legal,0,2026-10-15-b1
+Jetmir's Garden,f5896356-5744-4f7e-a4e5-1cc36dde5958,cards/J/je.md,jetmirs-garden,367,GRW,Land — Mountain Forest Plains,legal,0,2026-10-15-b1
+Jeweled Lotus,23216e59-f147-4bb7-a698-12777c2f8584,cards/J/je.md,jeweled-lotus,,C,Artifact,banned,0,2026-10-15-b1
+Jokulhaups,7bdfe368-353c-4f8d-851f-05b7ea9f905d,cards/J/jo.md,jokulhaups,11516,R,Sorcery,legal,0,2026-10-15-b1
+Jungle Hollow,6de714e1-446d-4fb9-9e3d-bcd3ec6af9ca,cards/J/ju.md,jungle-hollow,798,BG,Land,legal,0,2026-10-15-b1
+Jungle Shrine,2e69537c-c898-4e13-a72d-ce3957a90304,cards/J/ju.md,jungle-shrine,324,GRW,Land,legal,0,2026-10-15-b1
+Kami of Whispered Hopes,f122624f-f30d-444e-a62a-939829241045,cards/K/ka.md,kami-of-whispered-hopes,403,G,Creature — Spirit,legal,0,2026-10-15-b1
+Kappa Cannoneer,7fffbe7f-ad78-4bb6-a611-c37e495c6ee0,cards/K/ka.md,kappa-cannoneer,918,U,Artifact Creature — Turtle Warrior,legal,0,2026-10-15-b1
+Karakas,59119143-c0fa-49dd-adf0-e2fd3029c48b,cards/K/ka.md,karakas,,W,Legendary Land,banned,0,2026-10-15-b1
+Karn's Bastion,9fb8cd81-403a-4988-8f1c-b8eccf8abd9c,cards/K/ka.md,karns-bastion,206,C,Land,legal,0,2026-10-15-b1
+Karplusan Forest,bd912666-f37f-4767-af6f-9e6d0fcccacf,cards/K/ka.md,karplusan-forest,219,GR,Land,legal,0,2026-10-15-b1
+Kaya's Ghostform,b15c6203-6311-44eb-916d-a4c271960c74,cards/K/ka.md,kayas-ghostform,769,B,Enchantment — Aura,legal,0,2026-10-15-b1
+Kenrith's Transformation,a492a323-df8a-40fd-bff0-50091baa7700,cards/K/ke.md,kenriths-transformation,748,G,Enchantment — Aura,legal,0,2026-10-15-b1
+Kessig Wolf Run,c6911265-54ef-4c16-bcf2-1ffb24b7d426,cards/K/ke.md,kessig-wolf-run,406,GR,Land,legal,0,2026-10-15-b1
+Ketria Triome,6bae00e8-06cf-4ac4-a1cc-757e454109fe,cards/K/ke.md,ketria-triome,359,GRU,Land — Forest Island Mountain,legal,0,2026-10-15-b1
+Kindred Discovery,005ee549-1bf5-478f-bc3f-3e791bd7eecf,cards/K/ki.md,kindred-discovery,339,U,Enchantment,legal,0,2026-10-15-b1
+Kindred Dominance,ccaa44f2-96be-44e2-884f-c31baa3908d5,cards/K/ki.md,kindred-dominance,696,B,Sorcery,legal,0,2026-10-15-b1
+Knight of the White Orchid,7d0efc64-151f-45b4-8c0b-c32609f9d862,cards/K/kn.md,knight-of-the-white-orchid,655,W,Creature — Human Knight,legal,0,2026-10-15-b1
+Kodama of the West Tree,d69b1e68-8d8e-460b-9eb4-6a68be886197,cards/K/ko.md,kodama-of-the-west-tree,855,G,Legendary Creature — Spirit,legal,0,2026-10-15-b1
+Kodama's Reach,1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90,cards/K/ko.md,kodamas-reach,37,G,Sorcery — Arcane,legal,0,2026-10-15-b1
+Kor Haven,276cece9-f9f2-46e6-ae76-daddaa2fb9ab,cards/K/ko.md,kor-haven,3743,W,Legendary Land,legal,0,2026-10-15-b1
+"Krenko, Tin Street Kingpin",e8065e1d-e937-4b56-8011-78f0d07328a0,cards/K/kr.md,krenko-tin-street-kingpin,916,R,Legendary Creature — Goblin,legal,0,2026-10-15-b1
+Krosan Grip,3e39224c-72ce-4ecc-aa17-12c071ea1f3e,cards/K/kr.md,krosan-grip,660,G,Instant,legal,0,2026-10-15-b1
+"Kutzil, Malamet Exemplar",3233af43-7826-4895-b67e-03c6102c2cd5,cards/K/ku.md,kutzil-malamet-exemplar,396,GW,Legendary Creature — Cat Warrior,legal,0,2026-10-15-b1
+Laboratory Maniac,aa286dd5-aa19-446d-9003-684d81eb57ca,cards/L/la.md,laboratory-maniac,554,U,Creature — Human Wizard,legal,0,2026-10-15-b1
+Land Tax,d2d9ecea-7925-420e-98b9-2f87f41f387c,cards/L/la.md,land-tax,357,W,Enchantment,legal,0,2026-10-15-b1
+Lapse of Certainty,1b721ad3-d0f6-4eec-9bf0-f57ea9dfa392,cards/L/la.md,lapse-of-certainty,6434,W,Instant,legal,0,2026-10-15-b1
+Ledger Shredder,e9117015-1050-44dd-a46b-e7ffe2085fae,cards/L/le.md,ledger-shredder,838,U,Creature — Bird Advisor,legal,0,2026-10-15-b1
+Leyline of Anticipation,9dc65ffe-17fc-4280-b4bd-78073ac7e12b,cards/L/le.md,leyline-of-anticipation,755,U,Enchantment,legal,0,2026-10-15-b1
+Life from the Loam,ac8fba34-512c-4f24-999a-ab72f1ce4acb,cards/L/li.md,life-from-the-loam,713,G,Sorcery,legal,0,2026-10-15-b1
+Lightning Bolt,4457ed35-7c10-48c8-9776-456485fdf070,cards/L/li.md,lightning-bolt,157,R,Instant,legal,0,2026-10-15-b1
+Lightning Greaves,ca204b66-8d0c-431a-8d34-282f7c2d17da,cards/L/li.md,lightning-greaves,13,C,Artifact — Equipment,legal,0,2026-10-15-b1
+"Liliana, Dreadhorde General",5e958212-6a5b-4288-8d31-f1572619d7dc,cards/L/li.md,liliana-dreadhorde-general,775,B,Legendary Planeswalker — Liliana,legal,0,2026-10-15-b1
+Lion's Eye Diamond,ee6099b0-fb1f-42f1-b862-7708c6e36d05,cards/L/li.md,lions-eye-diamond,741,C,Artifact,legal,1,2026-10-15-b1
+Liquimetal Torque,b7d4b7dd-fbb1-4ca3-875f-ef13a95e66ad,cards/L/li.md,liquimetal-torque,511,C,Artifact,legal,0,2026-10-15-b1
+Living Death,9e6a3df4-67a3-452e-a6ef-f04dbadb21ef,cards/L/li.md,living-death,454,B,Sorcery,legal,0,2026-10-15-b1
+Llanowar Elves,68954295-54e3-4303-a6bc-fc4547a4e3a3,cards/L/ll.md,llanowar-elves,56,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Llanowar Wastes,32116127-cf96-4a1b-8896-a1ebc087b597,cards/L/ll.md,llanowar-wastes,140,BG,Land,legal,0,2026-10-15-b1
+"Loot, Exuberant Explorer",f6476884-f73f-465f-8e7f-ea312a5b306d,cards/L/lo.md,loot-exuberant-explorer,871,G,Legendary Creature — Beast Noble,legal,0,2026-10-15-b1
+Loran of the Third Path,b3d81980-76f2-44e2-b1c9-01e30c726312,cards/L/lo.md,loran-of-the-third-path,340,W,Legendary Creature — Human Artificer,legal,0,2026-10-15-b1
+"Lotho, Corrupt Shirriff",135cc078-1c45-465e-b0b9-7168c89f56f4,cards/L/lo.md,lotho-corrupt-shirriff,410,BW,Legendary Creature — Halfling Rogue,legal,0,2026-10-15-b1
+Lotus Cobra,8ad91f64-ccab-4edc-bd54-b2ee9267d614,cards/L/lo.md,lotus-cobra,329,G,Creature — Snake,legal,0,2026-10-15-b1
+Lotus Field,134d5b82-7940-4b33-a922-7f9d1f403e50,cards/L/lo.md,lotus-field,864,C,Land,legal,0,2026-10-15-b1
+Lotus Petal,32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5,cards/L/lo.md,lotus-petal,120,C,Artifact,legal,0,2026-10-15-b1
+Loyal Apprentice,7f268b15-ac92-4e98-821b-78d15d9285d9,cards/L/lo.md,loyal-apprentice,749,R,Creature — Human Artificer,legal,0,2026-10-15-b1
+Lush Portico,d51831b1-7394-456e-a1de-6787a59f5932,cards/L/lu.md,lush-portico,730,GW,Land — Forest Plains,legal,0,2026-10-15-b1
+Luxury Suite,819e1765-8325-4e6f-89c1-63ea86de369f,cards/L/lu.md,luxury-suite,161,BR,Land,legal,0,2026-10-15-b1
+Malakir Rebirth // Malakir Mire,a731e87b-8d99-4b64-8ee3-8e540d652366,cards/M/ma.md,malakir-rebirth--malakir-mire,235,B,Instant // Land,legal,0,2026-10-15-b1
+Mana Confluence,d0ee5bdc-2b69-4b73-9a20-ffcc18783b29,cards/M/ma.md,mana-confluence,116,C,Land,legal,0,2026-10-15-b1
+Mana Crypt,2c63e4e1-89d2-4bc6-a232-94e75c4b1c8a,cards/M/ma.md,mana-crypt,,C,Artifact,banned,0,2026-10-15-b1
+Mana Drain,74d3277a-38e5-4732-afed-084a56148f20,cards/M/ma.md,mana-drain,119,U,Instant,legal,0,2026-10-15-b1
+Mana Geyser,a8dba58b-2956-492e-ae30-49db2ae68e53,cards/M/ma.md,mana-geyser,289,R,Sorcery,legal,0,2026-10-15-b1
+Mana Leak,c61fe162-2202-4e56-9ba0-393547f9875f,cards/M/ma.md,mana-leak,1769,U,Instant,legal,0,2026-10-15-b1
+Mana Vault,736892cb-a34b-4bb9-b56c-e26e3db207a2,cards/M/ma.md,mana-vault,152,C,Artifact,legal,1,2026-10-15-b1
+"Mangara, the Diplomat",cbcb6d9a-6ae5-4bcd-8013-2b657553764a,cards/M/ma.md,mangara-the-diplomat,608,W,Legendary Creature — Human Cleric,legal,0,2026-10-15-b1
+Marionette Apprentice,726d9d2c-736a-4852-9938-a0f50d8fd89f,cards/M/ma.md,marionette-apprentice,565,B,Creature — Human Artificer,legal,0,2026-10-15-b1
+Marsh Flats,dab520d0-20b4-4273-ba6b-eb07f85ea433,cards/M/ma.md,marsh-flats,51,C,Land,legal,0,2026-10-15-b1
+Maskwood Nexus,9b2cdbed-c733-409b-b0e4-2c8960c25111,cards/M/ma.md,maskwood-nexus,492,C,Artifact,legal,0,2026-10-15-b1
+Massacre Wurm,93cf50cf-0ecc-4d3e-abea-778c1ebacec4,cards/M/ma.md,massacre-wurm,515,B,Creature — Phyrexian Wurm,legal,0,2026-10-15-b1
+Mayhem Devil,4709f11c-aef8-45ac-b2bf-e640c568dfac,cards/M/ma.md,mayhem-devil,573,BR,Creature — Devil,legal,0,2026-10-15-b1
+Maze of Ith,38a12bd7-4394-44a8-91a0-6a4ff7fa4f71,cards/M/ma.md,maze-of-ith,556,C,Land,legal,0,2026-10-15-b1
+Memory Lapse,bbfb3e4a-b389-4391-8141-13b68c0ef2e0,cards/M/me.md,memory-lapse,3230,U,Instant,legal,0,2026-10-15-b1
+Mental Misstep,1a0770e6-b093-4439-baff-6889a50ba12e,cards/M/me.md,mental-misstep,473,U,Instant,legal,0,2026-10-15-b1
+Mentor of the Meek,b9f4f96b-6e54-4fe6-8df7-623e0fc72409,cards/M/me.md,mentor-of-the-meek,662,W,Creature — Human Soldier,legal,0,2026-10-15-b1
+Mesa Enchantress,8f4b8a19-72f4-48ed-ac05-62a7c7525797,cards/M/me.md,mesa-enchantress,837,W,Creature — Human Druid,legal,0,2026-10-15-b1
+Meteor Golem,d9f11aa1-9219-42a8-85a9-a8f204160706,cards/M/me.md,meteor-golem,800,C,Artifact Creature — Golem,legal,0,2026-10-15-b1
+Meticulous Archive,ccfb8b4d-651c-418a-aa19-cb23105b3f2f,cards/M/me.md,meticulous-archive,677,UW,Land — Plains Island,legal,0,2026-10-15-b1
+Midnight Clock,c68faebc-b2cd-461b-b93e-e1fcd4816810,cards/M/mi.md,midnight-clock,648,U,Artifact,legal,0,2026-10-15-b1
+"Minamo, School at Water's Edge",17784f90-89a1-47a5-83ef-ae60dfc30bd1,cards/M/mi.md,minamo-school-at-waters-edge,612,U,Legendary Land,legal,0,2026-10-15-b1
+Minas Tirith,7b0d7e62-0287-454a-8702-b0bfa7b41245,cards/M/mi.md,minas-tirith,416,W,Legendary Land,legal,0,2026-10-15-b1
+Mindbreak Trap,48712d36-5c13-4ded-87a4-68106da4a5cd,cards/M/mi.md,mindbreak-trap,551,U,Instant — Trap,legal,0,2026-10-15-b1
+Mind Stone,c97361b5-af16-4a7b-af85-a429dbaf4ad2,cards/M/mi.md,mind-stone,32,C,Artifact,legal,0,2026-10-15-b1
+Mirari's Wake,852657c0-18a4-4b28-b9ae-7728acdb5044,cards/M/mi.md,miraris-wake,712,GW,Enchantment,legal,0,2026-10-15-b1
+Mirkwood Bats,0636b6c3-0662-420a-b30d-f0a14e7c512d,cards/M/mi.md,mirkwood-bats,232,B,Creature — Bat,legal,0,2026-10-15-b1
+Miscalculation,9078db26-3a54-4a11-9aae-e45c38da7226,cards/M/mi.md,miscalculation,11385,U,Instant,legal,0,2026-10-15-b1
+Mistrise Village,339f5334-b65a-445a-a016-20e997e0b4bb,cards/M/mi.md,mistrise-village,375,U,Land,legal,0,2026-10-15-b1
+Misty Rainforest,09dd85aa-47bc-4713-a9b9-8b52ff2285ed,cards/M/mi.md,misty-rainforest,42,C,Land,legal,0,2026-10-15-b1
+Mithril Coat,3dc364f3-3094-4660-80ca-9418588c7fde,cards/M/mi.md,mithril-coat,238,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Mizzix's Mastery,40362fe0-a1a9-4d76-8c35-eac474b91af5,cards/M/mi.md,mizzixs-mastery,816,R,Sorcery,legal,0,2026-10-15-b1
+Mockingbird,b9df2cdf-397c-458d-89cf-911568737ffa,cards/M/mo.md,mockingbird,734,U,Creature — Bird Bard,legal,0,2026-10-15-b1
+Mold Shambler,7aba1039-f108-423e-8aa4-d9d8b4da2414,cards/M/mo.md,mold-shambler,16907,G,Creature — Fungus Beast,legal,0,2026-10-15-b1
+"Mondrak, Glory Dominus",fe83087d-c6c1-40be-9295-baaa1c6b2db1,cards/M/mo.md,mondrak-glory-dominus,431,W,Legendary Creature — Phyrexian Horror,legal,0,2026-10-15-b1
+Monument to Endurance,e69e8de4-b521-4888-8074-17f1efe2f345,cards/M/mo.md,monument-to-endurance,930,C,Artifact,legal,0,2026-10-15-b1
+Morbid Opportunist,322f44f0-e6da-4ee0-b474-e7d5e9a461c5,cards/M/mo.md,morbid-opportunist,246,B,Creature — Human Rogue,legal,0,2026-10-15-b1
+Morphic Pool,bd004c9d-771e-4e63-a97d-a2259c096af8,cards/M/mo.md,morphic-pool,149,BU,Land,legal,0,2026-10-15-b1
+Mortify,faa01ed1-ccfa-4e58-951f-cd81f9068027,cards/M/mo.md,mortify,580,BW,Instant,legal,0,2026-10-15-b1
+Mortuary Mire,1b3fb20a-e090-4286-9c03-6b71c27c45be,cards/M/mo.md,mortuary-mire,707,B,Land,legal,0,2026-10-15-b1
+Mossborn Hydra,84122d81-9634-4d3f-85a5-f6cf4303691a,cards/M/mo.md,mossborn-hydra,752,G,Creature — Elemental Hydra,legal,0,2026-10-15-b1
+Mossfire Valley,23bbd091-f6ff-4514-97aa-42c08164b4eb,cards/M/mo.md,mossfire-valley,552,GR,Land,legal,0,2026-10-15-b1
+Mosswort Bridge,7cb9e29f-835f-4155-a2a5-4b778866c773,cards/M/mo.md,mosswort-bridge,197,G,Land,legal,0,2026-10-15-b1
+Mother of Runes,60433b48-d27f-413c-905c-43839b1943f1,cards/M/mo.md,mother-of-runes,506,W,Creature — Human Cleric,legal,0,2026-10-15-b1
+Mox Amber,7a43bd27-fdd8-41f0-9bc4-92568f3408f1,cards/M/mo.md,mox-amber,205,C,Legendary Artifact,legal,0,2026-10-15-b1
+Mox Diamond,f3c5978a-70fa-431f-933b-b954bd0db0ea,cards/M/mo.md,mox-diamond,248,C,Artifact,legal,1,2026-10-15-b1
+Mox Opal,de2440de-e948-4811-903c-0bbe376ff64d,cards/M/mo.md,mox-opal,243,C,Legendary Artifact,legal,0,2026-10-15-b1
+Muddle the Mixture,0826cf7d-7ccc-459b-a92f-29dc169628f8,cards/M/mu.md,muddle-the-mixture,709,U,Instant,legal,0,2026-10-15-b1
+Mulldrifter,24d0f5e7-0d9e-4b76-900e-a7274e80312d,cards/M/mu.md,mulldrifter,602,U,Creature — Elemental,legal,0,2026-10-15-b1
+Murder,938b4e2c-88d9-4637-bc00-e228920c9a78,cards/M/mu.md,murder,872,B,Instant,legal,0,2026-10-15-b1
+Myr Battlesphere,c53ba31a-ba27-4e17-9a92-311acb1cab29,cards/M/my.md,myr-battlesphere,927,C,Artifact Creature — Myr Construct,legal,0,2026-10-15-b1
+Myriad Landscape,2549bc57-9ffb-4053-9f10-f2a5f792b845,cards/M/my.md,myriad-landscape,31,C,Land,legal,0,2026-10-15-b1
+Myr Retriever,d07d3be3-f69d-4484-8467-cffd43871788,cards/M/my.md,myr-retriever,889,C,Artifact Creature — Myr,legal,0,2026-10-15-b1
+Mystical Dispute,48390b8d-db41-48a5-9bac-316660ab7252,cards/M/my.md,mystical-dispute,10876,U,Instant,legal,0,2026-10-15-b1
+Mystical Tutor,fb81f95c-70f8-4eb7-8d15-15d0ae23ec03,cards/M/my.md,mystical-tutor,162,U,Instant,legal,1,2026-10-15-b1
+Mystic Forge,994bc16d-fdc6-475c-96df-beeb4d5aa03e,cards/M/my.md,mystic-forge,414,C,Artifact,legal,0,2026-10-15-b1
+Mystic Gate,e9f5feb2-2c1a-46ce-885a-4f378d7d10af,cards/M/my.md,mystic-gate,806,UW,Land,legal,0,2026-10-15-b1
+Mystic Monastery,834b8f71-9a45-42ae-9e99-e749fa6fb45e,cards/M/my.md,mystic-monastery,373,RUW,Land,legal,0,2026-10-15-b1
+Mystic Remora,8a52f3c0-2552-4425-b2e3-5496eb2232a7,cards/M/my.md,mystic-remora,101,U,Enchantment,legal,0,2026-10-15-b1
+Mystic Sanctuary,17b60106-a4c7-410a-8ac3-ec8e74e29a7c,cards/M/my.md,mystic-sanctuary,175,U,Land — Island,legal,0,2026-10-15-b1
+Mystifying Maze,58bd67a8-1833-4827-aa33-1c141568f481,cards/M/my.md,mystifying-maze,6567,C,Land,legal,0,2026-10-15-b1
+Nadier's Nightblade,391978f6-0bbc-41e8-9246-f7d0e21c7900,cards/N/na.md,nadiers-nightblade,859,B,Creature — Elf Warrior,legal,0,2026-10-15-b1
+Narset's Reversal,d55f6c70-321f-4fb4-bd33-0850ae1a7c36,cards/N/na.md,narsets-reversal,716,U,Instant,legal,0,2026-10-15-b1
+Natural Order,8c1fe337-375a-4add-93b6-0ac39ed72b4f,cards/N/na.md,natural-order,1533,G,Sorcery,legal,1,2026-10-15-b1
+Nature's Claim,6d4e558e-9109-4918-a082-fdcbaffd516b,cards/N/na.md,natures-claim,382,G,Instant,legal,0,2026-10-15-b1
+Nature's Lore,78826359-fe63-44ad-adc4-a17ffcd710e4,cards/N/na.md,natures-lore,26,G,Sorcery,legal,0,2026-10-15-b1
+Nature's Rhythm,0259f063-3e3f-4e07-9066-f748d4819829,cards/N/na.md,natures-rhythm,861,G,Sorcery,legal,0,2026-10-15-b1
+Necroblossom Snarl,761ee6f9-b0fa-43c9-8d1f-9591ea18e52d,cards/N/ne.md,necroblossom-snarl,537,BG,Land,legal,0,2026-10-15-b1
+Necropotence,94a844d2-0574-45a7-b347-e0e329767c42,cards/N/ne.md,necropotence,522,B,Enchantment,legal,1,2026-10-15-b1
+Needleverge Pathway // Pillarverge Pathway,a9b8d020-4d72-4934-8942-df29ef19fc1d,cards/N/ne.md,needleverge-pathway--pillarverge-pathway,874,RW,Land // Land,legal,0,2026-10-15-b1
+Negate,3407fe41-fdd3-4119-8f70-4bc4590a379f,cards/N/ne.md,negate,57,U,Instant,legal,0,2026-10-15-b1
+Nesting Grounds,d27bb97d-286b-4947-8d7b-443e4df93319,cards/N/ne.md,nesting-grounds,561,C,Land,legal,0,2026-10-15-b1
+Night's Whisper,7ffae8f8-3006-4969-a339-6d30678f87ea,cards/N/ni.md,nights-whisper,180,B,Sorcery,legal,0,2026-10-15-b1
+"Niv-Mizzet, Parun",33666a98-812f-4892-9f8d-33e0cbecc340,cards/N/ni.md,niv-mizzet-parun,795,RU,Legendary Creature — Dragon Wizard,legal,0,2026-10-15-b1
+Noble Hierarch,98aa9424-5912-4bd6-9300-b3972a31d8af,cards/N/no.md,noble-hierarch,772,GUW,Creature — Human Druid,legal,0,2026-10-15-b1
+Nomad Outpost,4619de7e-3d6e-4c6b-8e6e-e24db324839d,cards/N/no.md,nomad-outpost,381,BRW,Land,legal,0,2026-10-15-b1
+Noxious Revival,97cabeda-9fe3-490d-99b4-4c8d87c17157,cards/N/no.md,noxious-revival,629,G,Instant,legal,0,2026-10-15-b1
+"Nykthos, Shrine to Nyx",84dc18f0-8225-4b40-a165-b10321e41769,cards/N/ny.md,nykthos-shrine-to-nyx,163,C,Legendary Land,legal,0,2026-10-15-b1
+Obliterate,47496941-8007-45a0-a981-76c683cbddc1,cards/O/ob.md,obliterate,9576,R,Sorcery,legal,0,2026-10-15-b1
+Ohran Frostfang,b99ada26-9a61-4175-9fb8-15a106960220,cards/O/oh.md,ohran-frostfang,446,G,Snow Creature — Snake,legal,0,2026-10-15-b1
+"Ojer Taq, Deepest Foundation // Temple of Civilization",486bb9a5-73f1-4cec-b097-fb07ac80b72e,cards/O/oj.md,ojer-taq-deepest-foundation--temple-of-civilization,921,W,Legendary Creature — God // Land,legal,0,2026-10-15-b1
+Old Gnawbone,dff3f4c7-f792-4ca3-9b0a-0738e70664d9,cards/O/ol.md,old-gnawbone,932,G,Legendary Creature — Dragon,legal,0,2026-10-15-b1
+Opal Palace,aa6723a2-75da-49f5-a1ba-cbfa82c55301,cards/O/op.md,opal-palace,689,C,Land,legal,0,2026-10-15-b1
+Open the Armory,2ecf7771-8061-4710-ad2e-80b092ae0b4b,cards/O/op.md,open-the-armory,638,W,Sorcery,legal,0,2026-10-15-b1
+Ophiomancer,55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7,cards/O/op.md,ophiomancer,631,B,Creature — Human Shaman,legal,0,2026-10-15-b1
+Opposition Agent,1f438b8f-fe23-4f3b-ab2e-f6c33676c462,cards/O/op.md,opposition-agent,593,B,Creature — Human Rogue,legal,1,2026-10-15-b1
+Opt,713332c1-5bd8-400f-bfff-c1ca0697a043,cards/O/op.md,opt,216,U,Instant,legal,0,2026-10-15-b1
+Opulent Palace,f9e7e855-1e3b-42d3-91b0-64ba8b5b8982,cards/O/op.md,opulent-palace,385,BGU,Land,legal,0,2026-10-15-b1
+Oracle of Mul Daya,6c5b02eb-7829-436a-8555-fea200e4b67f,cards/O/or.md,oracle-of-mul-daya,509,G,Creature — Elf Shaman,legal,0,2026-10-15-b1
+"Oran-Rief, the Vastwood",e88027a6-24cc-4a8b-86db-734f26149ea8,cards/O/or.md,oran-rief-the-vastwood,740,G,Land,legal,0,2026-10-15-b1
+Orcish Bowmasters,ea5103f5-27e0-4eb1-902c-7f34652d6bf3,cards/O/or.md,orcish-bowmasters,260,B,Creature — Orc Archer,legal,1,2026-10-15-b1
+Ornithopter,a3a98bc9-caa0-49b7-951c-fe4e4f54e4ba,cards/O/or.md,ornithopter,789,C,Artifact Creature — Thopter,legal,0,2026-10-15-b1
+Ornithopter of Paradise,3a940dfa-a026-4969-8981-ef90cdfbe9ef,cards/O/or.md,ornithopter-of-paradise,220,C,Artifact Creature — Thopter,legal,0,2026-10-15-b1
+Orzhov Basilica,aa00ae0b-7c0f-427e-8102-ce0e2a6af5df,cards/O/or.md,orzhov-basilica,418,BW,Land,legal,0,2026-10-15-b1
+Orzhov Signet,de3dcb5d-775a-479f-99f5-d1883ed9b1b5,cards/O/or.md,orzhov-signet,190,BW,Artifact,legal,0,2026-10-15-b1
+"Otawara, Soaring City",e9b6a394-691c-425a-9307-76d8edc7375e,cards/O/ot.md,otawara-soaring-city,89,U,Legendary Land,legal,0,2026-10-15-b1
+Overflowing Basin,5ac8e01c-b0a7-4855-a122-1cd26b07c4a5,cards/O/ov.md,overflowing-basin,725,GU,Land,legal,0,2026-10-15-b1
+Overgrown Farmland,709d2f10-1585-48c3-9058-ddd5f62f0452,cards/O/ov.md,overgrown-farmland,283,GW,Land,legal,0,2026-10-15-b1
+Overgrown Tomb,975ec9a3-6f20-4177-8211-82526e092538,cards/O/ov.md,overgrown-tomb,71,BG,Land — Swamp Forest,legal,0,2026-10-15-b1
+Overwhelming Stampede,e1e96802-fd0c-41f1-aa21-3287d75a0e88,cards/O/ov.md,overwhelming-stampede,524,G,Sorcery,legal,0,2026-10-15-b1
+"Ozolith, the Shattered Spire",41fed659-237c-4d8e-ad31-d17fa0d3f764,cards/O/oz.md,ozolith-the-shattered-spire,644,G,Legendary Artifact,legal,0,2026-10-15-b1
+Pact of Negation,f3e213a4-ba5a-468a-93b3-c0a34e1bd725,cards/P/pa.md,pact-of-negation,370,U,Instant,legal,0,2026-10-15-b1
+"Padeem, Consul of Innovation",0c7ba712-6a99-4d2f-9242-a2163a11f69c,cards/P/pa.md,padeem-consul-of-innovation,904,U,Legendary Creature — Vedalken Artificer,legal,0,2026-10-15-b1
+Palladium Myr,7b0767b8-b504-456e-93bd-218502f73b3d,cards/P/pa.md,palladium-myr,732,C,Artifact Creature — Myr,legal,0,2026-10-15-b1
+Panharmonicon,76678885-3674-443d-b9a2-2a460cf6aac0,cards/P/pa.md,panharmonicon,271,C,Artifact,legal,0,2026-10-15-b1
+Parallel Lives,84dc94b2-95fb-4d53-aaa2-191cb645639f,cards/P/pa.md,parallel-lives,405,G,Enchantment,legal,0,2026-10-15-b1
+Patchwork Banner,4fb00dbe-1f82-4ba6-b18c-97e816d10d3a,cards/P/pa.md,patchwork-banner,201,C,Artifact,legal,0,2026-10-15-b1
+Path of Ancestry,b473e293-59e3-4e04-acf2-622604aeb25f,cards/P/pa.md,path-of-ancestry,14,C,Land,legal,0,2026-10-15-b1
+Path to Exile,d683d985-9888-4d21-8b5f-69e69ce4a03b,cards/P/pa.md,path-to-exile,15,W,Instant,legal,0,2026-10-15-b1
+Pearl Medallion,19015380-1332-4960-8cc6-0732009525a2,cards/P/pe.md,pearl-medallion,430,C,Artifact,legal,0,2026-10-15-b1
+Peregrin Took,188da0ad-8524-4fb2-915e-1876dc9df89f,cards/P/pe.md,peregrin-took,792,G,Legendary Creature — Halfling Citizen,legal,0,2026-10-15-b1
+Personal Tutor,90f54959-2c9b-4b8a-84c9-d6893eb43553,cards/P/pe.md,personal-tutor,2098,U,Sorcery,legal,0,2026-10-15-b1
+Phyrexian Altar,8d02b297-97c4-4379-9862-0a462400f66f,cards/P/ph.md,phyrexian-altar,307,C,Artifact,legal,0,2026-10-15-b1
+Phyrexian Arena,ee579a32-a048-4335-b966-231ba731cdea,cards/P/ph.md,phyrexian-arena,104,B,Enchantment,legal,0,2026-10-15-b1
+Phyrexian Metamorph,340bbe8b-e987-4c3e-ab4e-9dee63e57d4f,cards/P/ph.md,phyrexian-metamorph,313,U,Artifact Creature — Phyrexian Shapeshifter,legal,0,2026-10-15-b1
+Phyrexian Tower,1861e642-21d5-4232-89f3-b5557f2946c1,cards/P/ph.md,phyrexian-tower,194,B,Legendary Land,legal,0,2026-10-15-b1
+Pinnacle Monk // Mystic Peak,f3d48efa-910a-4872-a5b1-a353c5dbce99,cards/P/pi.md,pinnacle-monk--mystic-peak,531,R,Creature — Djinn Monk // Land,legal,0,2026-10-15-b1
+Pitiless Plunderer,a784481f-eccb-4112-bb38-04a659319660,cards/P/pi.md,pitiless-plunderer,224,B,Creature — Human Pirate,legal,0,2026-10-15-b1
+Plaguecrafter,2e3ee458-fa3f-4452-ab95-5a7fb5a0483b,cards/P/pl.md,plaguecrafter,639,B,Creature — Human Shaman,legal,0,2026-10-15-b1
+Plateau,c7a15ca4-085f-4d92-8387-c3711c04c8fa,cards/P/pl.md,plateau,441,RW,Land — Mountain Plains,legal,0,2026-10-15-b1
+Plaza of Heroes,9c58d241-4d9f-4b46-b8ee-f4587f9acfd6,cards/P/pl.md,plaza-of-heroes,471,C,Land,legal,0,2026-10-15-b1
+Polluted Delta,ef86989d-ce80-4e55-aece-7d11710eeffa,cards/P/po.md,polluted-delta,36,C,Land,legal,0,2026-10-15-b1
+Ponder,02090581-61aa-4348-ad57-451be8ee91c2,cards/P/po.md,ponder,146,U,Sorcery,legal,0,2026-10-15-b1
+Pongify,05849bd6-8f38-4031-be2b-e2aa03beb8cc,cards/P/po.md,pongify,155,U,Instant,legal,0,2026-10-15-b1
+Port Town,458d2b12-f578-4392-98d3-c3bc83f316c4,cards/P/po.md,port-town,338,UW,Land,legal,0,2026-10-15-b1
+Prairie Stream,5330e24a-8568-446e-840a-594cd08bd1bc,cards/P/pr.md,prairie-stream,103,UW,Land — Plains Island,legal,0,2026-10-15-b1
+Preordain,ac641490-ca14-48d7-8cc4-b69ce984befa,cards/P/pr.md,preordain,214,U,Sorcery,legal,0,2026-10-15-b1
+Priest of Titania,3a198a16-17b9-481e-b516-5bc945c7e247,cards/P/pr.md,priest-of-titania,770,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Prismatic Vista,032b8a0d-491a-4a12-ab9f-689010054d5b,cards/P/pr.md,prismatic-vista,192,C,Land,legal,0,2026-10-15-b1
+Professional Face-Breaker,04152e7a-969c-4858-841b-0a569a9fc1bf,cards/P/pr.md,professional-face-breaker,207,R,Creature — Human Warrior,legal,0,2026-10-15-b1
+Promise of Loyalty,e1d294e8-67b1-4a4a-86b8-f98f28a327d9,cards/P/pr.md,promise-of-loyalty,931,W,Sorcery,legal,0,2026-10-15-b1
+Propaganda,ea9709b6-4c37-4d5a-b04d-cd4c42e4f9dd,cards/P/pr.md,propaganda,112,U,Enchantment,legal,0,2026-10-15-b1
+Psychosis Crawler,2876e74f-a242-4995-9702-0b737a1ab67a,cards/P/ps.md,psychosis-crawler,432,C,Artifact Creature — Phyrexian Horror,legal,0,2026-10-15-b1
+Puresteel Paladin,74a62c7b-4753-4af2-b7a1-9a4ae8988801,cards/P/pu.md,puresteel-paladin,597,W,Creature — Human Knight,legal,0,2026-10-15-b1
+"Purphoros, God of the Forge",4fdbbec2-e921-4b63-958d-f9ba1e417197,cards/P/pu.md,purphoros-god-of-the-forge,694,R,Legendary Enchantment Creature — God,legal,0,2026-10-15-b1
+Putrefy,9b271430-f53d-42d6-a547-2f286dd9bcb6,cards/P/pu.md,putrefy,345,BG,Instant,legal,0,2026-10-15-b1
+Pyretic Ritual,86ef6474-613f-41fb-931c-d4279b03ed99,cards/P/py.md,pyretic-ritual,711,R,Instant,legal,0,2026-10-15-b1
+Pyroblast,ecc435e2-deb1-420a-a79f-01dd08747314,cards/P/py.md,pyroblast,479,R,Instant,legal,0,2026-10-15-b1
+Raffine's Tower,6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b,cards/R/ra.md,raffines-tower,419,BUW,Land — Plains Island Swamp,legal,0,2026-10-15-b1
+"Ragavan, Nimble Pilferer",37108cd4-bbab-4ce3-9ed6-f60e8422e703,cards/R/ra.md,ragavan-nimble-pilferer,282,R,Legendary Creature — Monkey Pirate,legal,0,2026-10-15-b1
+Raise the Palisade,f55a3781-fe33-4301-9bb5-6a54b9c13c4f,cards/R/ra.md,raise-the-palisade,876,U,Sorcery,legal,0,2026-10-15-b1
+Rakdos Carnarium,0a023964-2905-4928-9c3e-dc63e6ebd218,cards/R/ra.md,rakdos-carnarium,518,BR,Land,legal,0,2026-10-15-b1
+Rakdos Charm,5e62b51d-faec-4aa0-9504-cf2c282d08ea,cards/R/ra.md,rakdos-charm,326,BR,Instant,legal,0,2026-10-15-b1
+Rakdos Signet,3adb7681-977f-4a32-9ec8-51481b958268,cards/R/ra.md,rakdos-signet,168,BR,Artifact,legal,0,2026-10-15-b1
+Rampaging Baloths,2d3e6549-6cc6-434f-a189-ba3b55e64c34,cards/R/ra.md,rampaging-baloths,386,G,Creature — Beast,legal,0,2026-10-15-b1
+Rampant Growth,8539f295-5d58-4436-a73a-b9277c4c7795,cards/R/ra.md,rampant-growth,27,G,Sorcery,legal,0,2026-10-15-b1
+Ramunap Excavator,4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5,cards/R/ra.md,ramunap-excavator,491,G,Creature — Snake Cleric,legal,0,2026-10-15-b1
+Rancor,9d2d6479-531c-4ce1-b52b-00e36fa63b64,cards/R/ra.md,rancor,853,G,Enchantment — Aura,legal,0,2026-10-15-b1
+Ranger-Captain of Eos,cada3481-cc2b-4412-b9b5-0436af53aad2,cards/R/ra.md,ranger-captain-of-eos,808,W,Creature — Human Soldier Ranger,legal,0,2026-10-15-b1
+Rapid Hybridization,06692cd9-ac2f-4a32-8fd1-043ba3c0fe71,cards/R/ra.md,rapid-hybridization,208,U,Instant,legal,0,2026-10-15-b1
+Raucous Theater,04e5e84f-8fd4-43ab-8f9d-5b24646f7ae5,cards/R/ra.md,raucous-theater,570,BR,Land — Swamp Mountain,legal,0,2026-10-15-b1
+Raugrin Triome,c7fa1dda-9312-4ec8-82cd-a1ba7bc33497,cards/R/ra.md,raugrin-triome,477,RUW,Land — Island Mountain Plains,legal,0,2026-10-15-b1
+Ravages of War,265236d1-d96c-4424-835e-a0fe91c41170,cards/R/ra.md,ravages-of-war,11748,W,Sorcery,legal,0,2026-10-15-b1
+Read the Bones,5bf4d8d9-a2b2-4dba-ac05-9d4470a89db2,cards/R/re.md,read-the-bones,488,B,Sorcery,legal,0,2026-10-15-b1
+Reality Shift,70dc830e-d05b-4fc7-88dd-879e140b3fbf,cards/R/re.md,reality-shift,285,U,Instant,legal,0,2026-10-15-b1
+Realmwalker,b81eaa2f-0554-41c6-bdf6-d1cb73b8f56f,cards/R/re.md,realmwalker,610,G,Creature — Shapeshifter,legal,0,2026-10-15-b1
+Reanimate,a044474a-cd72-4e9d-bd8d-a08f2de9cdc0,cards/R/re.md,reanimate,53,B,Sorcery,legal,0,2026-10-15-b1
+Reassembling Skeleton,9dbc3530-b278-4c8d-b2cc-a09dfac9d5e5,cards/R/re.md,reassembling-skeleton,773,B,Creature — Skeleton Warrior,legal,0,2026-10-15-b1
+Reckless Fireweaver,180e1a7e-890d-477c-80a5-da8a5f2857b3,cards/R/re.md,reckless-fireweaver,668,R,Creature — Human Artificer,legal,0,2026-10-15-b1
+Reclamation Sage,032ec6e2-6cc3-4a97-9cc7-3233f5e11904,cards/R/re.md,reclamation-sage,332,G,Creature — Elf Shaman,legal,0,2026-10-15-b1
+Reconnaissance,32599d7c-243b-447b-9d5d-e8e29830ac61,cards/R/re.md,reconnaissance,891,W,Enchantment,legal,0,2026-10-15-b1
+Reconnaissance Mission,11bf211c-95a3-4e7f-bd08-13f979d54e73,cards/R/re.md,reconnaissance-mission,906,U,Enchantment,legal,0,2026-10-15-b1
+Red Elemental Blast,bb329a5c-b9f9-4973-a53f-090024146325,cards/R/re.md,red-elemental-blast,450,R,Instant,legal,0,2026-10-15-b1
+Redirect Lightning,c62b5c22-e058-436f-9575-a01cb2112829,cards/R/re.md,redirect-lightning,533,R,Instant — Lesson,legal,0,2026-10-15-b1
+Reflecting Pool,67f43ac6-2a58-4b53-b5d7-0330e2a252e2,cards/R/re.md,reflecting-pool,164,C,Land,legal,0,2026-10-15-b1
+Reflections of Littjara,c3fdfb94-2d10-4743-864c-a59fdd57d8b7,cards/R/re.md,reflections-of-littjara,693,U,Enchantment,legal,0,2026-10-15-b1
+Rejuvenating Springs,d1620449-930a-4895-a143-fd2a0a3c8b17,cards/R/re.md,rejuvenating-springs,147,GU,Land,legal,0,2026-10-15-b1
+Relic of Legends,4d9554de-c005-41ab-a941-39328ebff9de,cards/R/re.md,relic-of-legends,532,C,Artifact,legal,0,2026-10-15-b1
+Reliquary Tower,c23e5b80-08d2-4e24-9908-fe2aa4f30f6f,cards/R/re.md,reliquary-tower,10,C,Land,legal,0,2026-10-15-b1
+Remand,d71cd08e-3e84-41ff-b9db-9e343c0af6b4,cards/R/re.md,remand,4633,U,Instant,legal,0,2026-10-15-b1
+Reprieve,f0449cbd-855c-4c20-a1f5-f76a395d8d39,cards/R/re.md,reprieve,596,W,Instant,legal,0,2026-10-15-b1
+Resculpt,814e321d-16fd-4f7b-a8d8-2b089be76f2c,cards/R/re.md,resculpt,923,U,Instant,legal,0,2026-10-15-b1
+Return of the Wildspeaker,2b76f9e9-cd28-4eaf-8674-215c34263f96,cards/R/re.md,return-of-the-wildspeaker,179,G,Instant,legal,0,2026-10-15-b1
+Return the Favor,30377bd5-99ab-4888-9ea7-e5a069b527e8,cards/R/re.md,return-the-favor,572,R,Instant,legal,0,2026-10-15-b1
+Return to Dust,3029df1d-d02a-4fed-8ab4-000a2096f823,cards/R/re.md,return-to-dust,1636,W,Instant,legal,0,2026-10-15-b1
+Return to Nature,777b8ec4-a783-4297-96b7-4f200d0eb734,cards/R/re.md,return-to-nature,785,G,Instant,legal,0,2026-10-15-b1
+Revitalizing Repast // Old-Growth Grove,8dd6d060-d023-48a6-85cb-7a5521b6257b,cards/R/re.md,revitalizing-repast--old-growth-grove,756,BG,Instant // Land,legal,0,2026-10-15-b1
+Rewind,bb27bfdf-fe8d-45bd-ad62-8118dce06eda,cards/R/re.md,rewind,1016,U,Instant,legal,0,2026-10-15-b1
+Rhystic Study,53236dd7-845a-444c-96d5-f41ed7325d8f,cards/R/rh.md,rhystic-study,46,U,Enchantment,legal,1,2026-10-15-b1
+Rhythm of the Wild,acfa77fd-3610-4f12-9c3c-bd860ce91700,cards/R/rh.md,rhythm-of-the-wild,223,GR,Enchantment,legal,0,2026-10-15-b1
+Ripples of Potential,45bcebd0-5e93-4433-b92f-b4c161d04bd6,cards/R/ri.md,ripples-of-potential,880,U,Instant,legal,0,2026-10-15-b1
+Ripples of Undeath,2acf8e34-9215-4a72-a24f-09d3bdd0083a,cards/R/ri.md,ripples-of-undeath,534,B,Enchantment,legal,0,2026-10-15-b1
+Rise of the Dark Realms,e5223a09-f732-4747-8914-e6546ab0ef4c,cards/R/ri.md,rise-of-the-dark-realms,486,B,Sorcery,legal,0,2026-10-15-b1
+"Rishkar, Peema Renegade",761021ce-4559-464e-aa03-85c2fe78e267,cards/R/ri.md,rishkar-peema-renegade,881,G,Legendary Creature — Elf Druid,legal,0,2026-10-15-b1
+Rishkar's Expertise,97407cd0-2bd2-4074-94d3-4ec3d243fa78,cards/R/ri.md,rishkars-expertise,242,G,Sorcery,legal,0,2026-10-15-b1
+Rising of the Day,434a20f8-3f87-4004-9155-0f196fc2257e,cards/R/ri.md,rising-of-the-day,733,R,Enchantment,legal,0,2026-10-15-b1
+Rite of Flame,8a2e53f9-8100-488f-8504-b59e9bd1cc29,cards/R/ri.md,rite-of-flame,646,R,Sorcery,legal,0,2026-10-15-b1
+Rite of Replication,fb60739e-1dc3-481d-a056-ad72e665c680,cards/R/ri.md,rite-of-replication,893,U,Sorcery,legal,0,2026-10-15-b1
+Riverglide Pathway // Lavaglide Pathway,4924b3a4-a218-4783-8a4d-82361fdecc78,cards/R/ri.md,riverglide-pathway--lavaglide-pathway,865,RU,Land // Land,legal,0,2026-10-15-b1
+Riverpyre Verge,510a6ac5-f098-4145-ac07-771b1b6f7cdf,cards/R/ri.md,riverpyre-verge,839,RU,Land,legal,0,2026-10-15-b1
+Riveteers Overlook,5548ff43-e5f6-4a63-8562-a2b1de06d6f5,cards/R/ri.md,riveteers-overlook,717,C,Land,legal,0,2026-10-15-b1
+Roaming Throne,3640c29b-1534-4952-b297-619ade948431,cards/R/ro.md,roaming-throne,133,C,Artifact Creature — Golem,legal,0,2026-10-15-b1
+Rockfall Vale,185c70c1-8403-4ae5-b45d-3679d4ee092a,cards/R/ro.md,rockfall-vale,225,GR,Land,legal,0,2026-10-15-b1
+Rogue's Passage,f29dc596-2121-4421-8463-15f6c2e8b9b3,cards/R/ro.md,rogues-passage,18,C,Land,legal,0,2026-10-15-b1
+Rootbound Crag,9516c4c1-d72d-434f-97e1-6a862434a169,cards/R/ro.md,rootbound-crag,128,GR,Land,legal,0,2026-10-15-b1
+Ruby Medallion,0c367958-729e-416d-988b-098e90e7a1fd,cards/R/ru.md,ruby-medallion,293,C,Artifact,legal,0,2026-10-15-b1
+Rugged Prairie,8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8,cards/R/ru.md,rugged-prairie,281,RW,Land,legal,0,2026-10-15-b1
+Ruination,59dbc873-72d9-4e7b-9442-2c7b8e8523e1,cards/R/ru.md,ruination,8423,R,Sorcery,legal,0,2026-10-15-b1
+Ruinous Ultimatum,a6f38908-aa4f-4f99-a28e-85d11dab52e4,cards/R/ru.md,ruinous-ultimatum,651,BRW,Sorcery,legal,0,2026-10-15-b1
+Sacred Foundry,45181cb8-2090-4471-ba90-e5a8f04d525f,cards/S/sa.md,sacred-foundry,73,RW,Land — Mountain Plains,legal,0,2026-10-15-b1
+"Sai, Master Thopterist",52241b9c-7a69-4176-9234-8bdab09d8e64,cards/S/sa.md,sai-master-thopterist,814,U,Legendary Creature — Human Artificer,legal,0,2026-10-15-b1
+Sakura-Tribe Elder,e3afc704-220f-498f-9eaa-0821b17dc24c,cards/S/sa.md,sakura-tribe-elder,114,G,Creature — Snake Shaman,legal,0,2026-10-15-b1
+Sanctum Weaver,acfe7ec0-0606-4d5e-b1fa-25f0c7aeec47,cards/S/sa.md,sanctum-weaver,669,G,Enchantment Creature — Dryad,legal,0,2026-10-15-b1
+Sandsteppe Citadel,544dbabd-cbfc-40da-a5ba-2fea9cddb453,cards/S/sa.md,sandsteppe-citadel,510,BGW,Land,legal,0,2026-10-15-b1
+Sanguine Bond,73089a39-a2f6-4aa2-a058-e6551475153d,cards/S/sa.md,sanguine-bond,503,B,Enchantment,legal,0,2026-10-15-b1
+Sapphire Medallion,f1ef5698-14bd-42bf-aae5-2870699e4186,cards/S/sa.md,sapphire-medallion,354,C,Artifact,legal,0,2026-10-15-b1
+Savage Lands,a3292406-3f49-42d6-a547-e43dd5797f84,cards/S/sa.md,savage-lands,647,BGR,Land,legal,0,2026-10-15-b1
+Savai Triome,00625242-9348-4ef4-b975-f2ac82fee21d,cards/S/sa.md,savai-triome,495,BRW,Land — Mountain Plains Swamp,legal,0,2026-10-15-b1
+Savannah,703243f0-8cb3-420f-958f-5fd4bde30293,cards/S/sa.md,savannah,458,GW,Land — Forest Plains,legal,0,2026-10-15-b1
+Saw in Half,eea18c55-8695-4ba1-9b38-3e7638692f5f,cards/S/sa.md,saw-in-half,578,B,Instant,legal,0,2026-10-15-b1
+Saw It Coming,90edaf33-d0ab-47e0-8f6a-6fba38286e6e,cards/S/sa.md,saw-it-coming,3121,U,Instant,legal,0,2026-10-15-b1
+Scalding Tarn,cb027150-848c-4a66-88ad-e20222304dd8,cards/S/sc.md,scalding-tarn,49,C,Land,legal,0,2026-10-15-b1
+Scavenger Grounds,5ece7d03-9ee7-4953-a06e-9d8e41874903,cards/S/sc.md,scavenger-grounds,294,C,Land — Desert,legal,0,2026-10-15-b1
+Scoured Barrens,d37f858e-03c8-4594-9b92-cd03699a1591,cards/S/sc.md,scoured-barrens,753,BW,Land,legal,0,2026-10-15-b1
+Scrap Trawler,164f3f85-21fc-40b7-9871-4f303ba98428,cards/S/sc.md,scrap-trawler,878,C,Artifact Creature — Construct,legal,0,2026-10-15-b1
+Scrawling Crawler,1d60c80d-9a95-4051-bbf7-02ca51ee1be2,cards/S/sc.md,scrawling-crawler,587,C,Artifact Creature — Phyrexian Construct,legal,0,2026-10-15-b1
+Scrubland,c8d95ca8-7d12-4072-aeaf-e20f248c7e39,cards/S/sc.md,scrubland,383,BW,Land — Plains Swamp,legal,0,2026-10-15-b1
+Sculpting Steel,6c85271c-c711-49b0-a72e-9e576c33714d,cards/S/sc.md,sculpting-steel,667,C,Artifact,legal,0,2026-10-15-b1
+Scute Swarm,aa854d50-444c-49d9-bfb1-5476b33c1c0b,cards/S/sc.md,scute-swarm,240,G,Creature — Insect,legal,0,2026-10-15-b1
+"Sea Gate Restoration // Sea Gate, Reborn",4a8d41fe-e04d-484b-a7d1-19be311e6ca7,cards/S/se.md,sea-gate-restoration--sea-gate-reborn,659,U,Sorcery // Land,legal,0,2026-10-15-b1
+Sea of Clouds,672e190d-8ea0-4a2e-b74f-5d35304631e4,cards/S/se.md,sea-of-clouds,165,UW,Land,legal,0,2026-10-15-b1
+Seaside Citadel,2ae77795-6a80-498b-bf69-6fd612f601e4,cards/S/se.md,seaside-citadel,411,GUW,Land,legal,0,2026-10-15-b1
+Seat of the Synod,39451b4d-cd7a-40da-b457-cb51b609173f,cards/S/se.md,seat-of-the-synod,310,U,Artifact Land,legal,0,2026-10-15-b1
+Secluded Courtyard,79ba18fd-f184-43c1-86df-56ee18ce806c,cards/S/se.md,secluded-courtyard,221,C,Land,legal,0,2026-10-15-b1
+Second Harvest,61a6341e-0d36-44b6-8026-9c87c8ef61cb,cards/S/se.md,second-harvest,560,G,Instant,legal,0,2026-10-15-b1
+Seedborn Muse,463865bc-087e-477b-9e86-84e77f1ad931,cards/S/se.md,seedborn-muse,286,G,Creature — Spirit,legal,1,2026-10-15-b1
+Seething Song,64bf8929-f5f2-4d50-8667-13b1d007bcfc,cards/S/se.md,seething-song,300,R,Instant,legal,0,2026-10-15-b1
+Seize the Spoils,58f83528-9110-4895-b5ea-51b90af30a8d,cards/S/se.md,seize-the-spoils,746,R,Sorcery,legal,0,2026-10-15-b1
+Selesnya Sanctuary,00ef1c55-dea1-4564-bd57-66de86cba4df,cards/S/se.md,selesnya-sanctuary,585,GW,Land,legal,0,2026-10-15-b1
+Selfless Spirit,71d785a9-ddc8-472e-a778-a551b444a4bd,cards/S/se.md,selfless-spirit,594,W,Creature — Spirit Cleric,legal,0,2026-10-15-b1
+"Selvala, Heart of the Wilds",1d725121-e50c-42f0-9128-56802f07c89e,cards/S/se.md,selvala-heart-of-the-wilds,409,G,Legendary Creature — Elf Scout,legal,0,2026-10-15-b1
+Sensei's Divining Top,13575cf9-65c1-4861-b21e-eb2155e07766,cards/S/se.md,senseis-divining-top,231,C,Artifact,legal,0,2026-10-15-b1
+Serum Visions,56956afd-db53-4542-816b-490c8b0bbcf7,cards/S/se.md,serum-visions,890,U,Sorcery,legal,0,2026-10-15-b1
+Sevinne's Reclamation,1b9f9f5b-8712-4f00-90cb-1b7b9970eccc,cards/S/se.md,sevinnes-reclamation,341,W,Sorcery,legal,0,2026-10-15-b1
+Shadowblood Ridge,15687ee3-3cdb-4a8f-a726-46b73bceb792,cards/S/sh.md,shadowblood-ridge,436,BR,Land,legal,0,2026-10-15-b1
+Shadowspear,8b27326f-e7b8-4a4d-b589-df459246d19a,cards/S/sh.md,shadowspear,306,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Shadowy Backstreet,216a2a92-9ca3-4ca3-8af7-686c13b04290,cards/S/sh.md,shadowy-backstreet,576,BW,Land — Plains Swamp,legal,0,2026-10-15-b1
+Shamanic Revelation,d1d171de-1c6d-4fb9-817a-9c689c709f3d,cards/S/sh.md,shamanic-revelation,369,G,Sorcery,legal,0,2026-10-15-b1
+Shared Animosity,a27445db-33f2-4571-98b5-83206b797484,cards/S/sh.md,shared-animosity,686,R,Enchantment,legal,0,2026-10-15-b1
+Shattered Sanctum,c854ecb0-cc60-4c48-a9aa-7f2348a7a8c6,cards/S/sh.md,shattered-sanctum,261,BW,Land,legal,0,2026-10-15-b1
+Sheltered Thicket,db8d8643-3d0b-4f20-bf53-f4cd26a0e8df,cards/S/sh.md,sheltered-thicket,652,GR,Land — Mountain Forest,legal,0,2026-10-15-b1
+"Sheoldred, the Apocalypse",34f34409-326d-4994-a0ea-1a69aa278f03,cards/S/sh.md,sheoldred-the-apocalypse,460,B,Legendary Creature — Phyrexian Praetor,legal,0,2026-10-15-b1
+"Sheoldred, Whispering One",9218b56d-aaec-482f-99e9-d95d227bfe25,cards/S/sh.md,sheoldred-whispering-one,723,B,Legendary Creature — Phyrexian Praetor,legal,0,2026-10-15-b1
+Shifting Woodland,7c2a4fe5-43e8-4e20-bef2-0278d18afc4b,cards/S/sh.md,shifting-woodland,361,G,Land,legal,0,2026-10-15-b1
+Shineshadow Snarl,c9fc13d6-bd10-47bc-b2b6-7f67a1f3371e,cards/S/sh.md,shineshadow-snarl,422,BW,Land,legal,0,2026-10-15-b1
+Shipwreck Marsh,5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8,cards/S/sh.md,shipwreck-marsh,227,BU,Land,legal,0,2026-10-15-b1
+Shivan Reef,0fe16212-66c3-4e45-a641-7391e9b2e304,cards/S/sh.md,shivan-reef,113,RU,Land,legal,0,2026-10-15-b1
+"Shizo, Death's Storehouse",008f2698-1721-45a3-8353-10f2f400dc8f,cards/S/sh.md,shizo-deaths-storehouse,623,B,Legendary Land,legal,0,2026-10-15-b1
+Sigarda's Aid,4f5f2792-0cc4-4caa-b798-2ee9597f2524,cards/S/si.md,sigardas-aid,833,W,Enchantment,legal,0,2026-10-15-b1
+Sign in Blood,c6207f6a-a624-4754-88f5-dbe700c841ff,cards/S/si.md,sign-in-blood,233,B,Sorcery,legal,0,2026-10-15-b1
+Silence,8aed54cb-d1bb-45ad-adbe-38e55d84ff31,cards/S/si.md,silence,399,W,Instant,legal,0,2026-10-15-b1
+Silumgar's Command,7052fbd6-94df-41a9-a382-641701086804,cards/S/si.md,silumgars-command,14198,BU,Instant,legal,0,2026-10-15-b1
+Simian Spirit Guide,44e0ffa3-8915-4c1f-8f1a-4aeea1365f07,cards/S/si.md,simian-spirit-guide,438,R,Creature — Ape Spirit,legal,0,2026-10-15-b1
+Simic Growth Chamber,046f5783-cc7b-416a-8cf6-2bcef9c2cc1a,cards/S/si.md,simic-growth-chamber,319,GU,Land,legal,0,2026-10-15-b1
+Simic Signet,44503105-3e13-408d-a44f-37d503c61d72,cards/S/si.md,simic-signet,628,GU,Artifact,legal,0,2026-10-15-b1
+Sinkhole,5a46ad2a-35b1-4dd5-b7c3-fec36b7c67ab,cards/S/si.md,sinkhole,19055,B,Sorcery,legal,0,2026-10-15-b1
+Sink into Stupor // Soporific Springs,bcc6eece-75ea-494c-b33a-d4477d504e0b,cards/S/si.md,sink-into-stupor--soporific-springs,166,U,Instant // Land,legal,0,2026-10-15-b1
+Six,dbcbdf37-c40f-4068-b4a7-a849cab1056c,cards/S/si.md,six,590,G,Legendary Creature — Treefolk,legal,0,2026-10-15-b1
+Skullclamp,65986c1b-8e51-4604-b685-d82fa7d1263a,cards/S/sk.md,skullclamp,39,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Skycloud Expanse,76f335d0-7f71-4b1a-b60d-73de954cbe2c,cards/S/sk.md,skycloud-expanse,347,UW,Land,legal,0,2026-10-15-b1
+Sky Diamond,2224b6e0-c5ff-45d0-84e3-83758c5fc99f,cards/S/sk.md,sky-diamond,817,U,Artifact,legal,0,2026-10-15-b1
+Skyshroud Claim,376c9d3f-21d3-4251-bb6a-026fa9e1b0e1,cards/S/sk.md,skyshroud-claim,304,G,Sorcery,legal,0,2026-10-15-b1
+Smoldering Marsh,390f1b56-264e-4336-83be-dc1fe79bfdcf,cards/S/sm.md,smoldering-marsh,95,BR,Land — Swamp Mountain,legal,0,2026-10-15-b1
+Smothering Tithe,153376c9-dffd-458c-8ce3-a4c8269bc4e9,cards/S/sm.md,smothering-tithe,67,W,Enchantment,legal,1,2026-10-15-b1
+Snakeskin Veil,1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8,cards/S/sn.md,snakeskin-veil,426,G,Instant,legal,0,2026-10-15-b1
+Snap,ac914d98-221e-426c-8a50-342896b15f9e,cards/S/sn.md,snap,277,U,Instant,legal,0,2026-10-15-b1
+Snuff Out,324824cb-f938-401c-b9b5-d8908b431ef0,cards/S/sn.md,snuff-out,691,B,Instant,legal,0,2026-10-15-b1
+"Sokenzan, Crucible of Defiance",c5ee72d5-3a9e-4fe5-8802-3286ee612055,cards/S/so.md,sokenzan-crucible-of-defiance,992,R,Legendary Land,legal,0,2026-10-15-b1
+Solemn Simulacrum,00c0543c-2a1f-4425-8283-4062d74a1637,cards/S/so.md,solemn-simulacrum,41,C,Artifact Creature — Golem,legal,0,2026-10-15-b1
+"Solphim, Mayhem Dominus",895f23a2-55b7-4cc0-8939-2efaaf097e6f,cards/S/so.md,solphim-mayhem-dominus,898,R,Legendary Creature — Phyrexian Horror,legal,0,2026-10-15-b1
+Sol Ring,6ad8011d-3471-4369-9d68-b264cc027487,cards/S/so.md,sol-ring,1,C,Artifact,legal,0,2026-10-15-b1
+Soul's Attendant,045a9d3d-c20d-427f-a77b-0bffc6f55526,cards/S/so.md,souls-attendant,794,W,Creature — Human Cleric,legal,0,2026-10-15-b1
+Soul Warden,f3fad295-1af2-4ecc-8546-b121ad6be27b,cards/S/so.md,soul-warden,467,W,Creature — Human Cleric,legal,0,2026-10-15-b1
+Sowing Salt,131d2b70-959d-4814-b0c8-38031f141718,cards/S/so.md,sowing-salt,30683,R,Sorcery,legal,0,2026-10-15-b1
+Spara's Headquarters,3123ec89-8e95-4761-ba17-747ec667509f,cards/S/sp.md,sparas-headquarters,398,GUW,Land — Forest Plains Island,legal,0,2026-10-15-b1
+Spark Double,8dcb35e5-ae44-455f-86e3-4a77d496ff34,cards/S/sp.md,spark-double,378,U,Creature — Illusion,legal,0,2026-10-15-b1
+Spectator Seating,cf6d10ed-85c3-48f2-8ba0-2960e03b408b,cards/S/sp.md,spectator-seating,167,RW,Land,legal,0,2026-10-15-b1
+Spell Pierce,d64b0848-0193-4025-ba62-63ecd8fb9f50,cards/S/sp.md,spell-pierce,903,U,Instant,legal,0,2026-10-15-b1
+Spelunking,2962fe4c-bf48-454b-8a6b-0f8253352ae8,cards/S/sp.md,spelunking,747,G,Enchantment,legal,0,2026-10-15-b1
+Sphere of Safety,92f6c063-a740-4c3c-a60a-569fd298854d,cards/S/sp.md,sphere-of-safety,690,W,Enchantment,legal,0,2026-10-15-b1
+Spinerock Knoll,690c7f8e-fea2-4920-afa7-02ff120701a1,cards/S/sp.md,spinerock-knoll,783,R,Land,legal,0,2026-10-15-b1
+Spire Garden,45fe016e-1a09-410c-bbe3-4663ba06c5b7,cards/S/sp.md,spire-garden,188,GR,Land,legal,0,2026-10-15-b1
+Spire of Industry,55a519b4-61cb-448a-875b-4d6dbe00580f,cards/S/sp.md,spire-of-industry,392,C,Land,legal,0,2026-10-15-b1
+Splendid Reclamation,13fe5e46-77a6-45d8-ac0b-c3d740eccf86,cards/S/sp.md,splendid-reclamation,877,G,Sorcery,legal,0,2026-10-15-b1
+Springbloom Druid,788a4896-3414-40bf-b391-d2efea2fb5f9,cards/S/sp.md,springbloom-druid,782,G,Creature — Elf Druid,legal,0,2026-10-15-b1
+Springheart Nantuko,8a3ad2ef-8bcb-40c0-85de-f03328c2b644,cards/S/sp.md,springheart-nantuko,706,G,Enchantment Creature — Insect Monk,legal,0,2026-10-15-b1
+Springleaf Drum,bdeb440d-a714-40e8-9038-f651e6ae45fb,cards/S/sp.md,springleaf-drum,562,C,Artifact,legal,0,2026-10-15-b1
+"Sram, Senior Edificer",7e00b0cd-d212-4604-ba07-da21f4fe00b0,cards/S/sr.md,sram-senior-edificer,444,W,Legendary Creature — Dwarf Advisor,legal,0,2026-10-15-b1
+Starting Town,d04e0975-f401-41b8-a9db-9bcf9cbbce66,cards/S/st.md,starting-town,698,C,Land — Town,legal,0,2026-10-15-b1
+Steam Vents,17039058-822d-409f-938c-b727a366ba63,cards/S/st.md,steam-vents,62,RU,Land — Island Mountain,legal,0,2026-10-15-b1
+Steel Overseer,986ae327-f433-4c58-93dc-afc544b9bfcb,cards/S/st.md,steel-overseer,793,C,Artifact Creature — Construct,legal,0,2026-10-15-b1
+Steelshaper's Gift,d9abda7e-6ca2-42ea-ab24-c542e57014f1,cards/S/st.md,steelshapers-gift,1023,W,Sorcery,legal,0,2026-10-15-b1
+Stern Scolding,3bc8a406-3ae7-4f56-a33c-b4a2c115b917,cards/S/st.md,stern-scolding,11153,U,Instant,legal,0,2026-10-15-b1
+Stifle,b3b00911-ece7-4484-bc36-f211ce72b6cc,cards/S/st.md,stifle,4596,U,Instant,legal,0,2026-10-15-b1
+Stitcher's Supplier,7fd61a18-6e4f-40c5-aa00-3d101ec1ec82,cards/S/st.md,stitchers-supplier,618,B,Creature — Zombie,legal,0,2026-10-15-b1
+Stomping Ground,16052b52-ade1-406f-a06b-ce7ea607fb63,cards/S/st.md,stomping-ground,70,GR,Land — Mountain Forest,legal,0,2026-10-15-b1
+Stone Rain,6e880df6-fc00-43d2-a9c8-f575f40b78c6,cards/S/st.md,stone-rain,13220,R,Sorcery,legal,0,2026-10-15-b1
+Stormcarved Coast,4722105b-0085-4bb8-bca1-9de0d3eb5600,cards/S/st.md,stormcarved-coast,184,RU,Land,legal,0,2026-10-15-b1
+Storm-Kiln Artist,a145ff8c-5812-4bcb-bd16-9839dc25121d,cards/S/st.md,storm-kiln-artist,196,R,Creature — Dwarf Shaman,legal,0,2026-10-15-b1
+Strionic Resonator,cf751552-156f-4f81-ac94-9814dce099f9,cards/S/st.md,strionic-resonator,603,C,Artifact,legal,0,2026-10-15-b1
+Strip Mine,d21a89eb-7c5b-459a-acc7-12b20b13bf79,cards/S/st.md,strip-mine,529,C,Land,legal,0,2026-10-15-b1
+Stroke of Midnight,9a107e48-3d50-4941-95b1-10f2b29a4245,cards/S/st.md,stroke-of-midnight,199,W,Instant,legal,0,2026-10-15-b1
+Sulfur Falls,6a6c5e17-6465-4a1f-9d63-8a3ce2edc522,cards/S/su.md,sulfur-falls,76,RU,Land,legal,0,2026-10-15-b1
+Sulfurous Springs,f5c38c01-4a40-469f-91a0-7479daf4e8e7,cards/S/su.md,sulfurous-springs,144,BR,Land,legal,0,2026-10-15-b1
+Sunbillow Verge,a202276b-1f1b-4277-95ee-26877a204f5e,cards/S/su.md,sunbillow-verge,801,RW,Land,legal,0,2026-10-15-b1
+Sundering Eruption // Volcanic Fissure,c95309e9-5c2f-4518-b2fd-825d3d0a4ae0,cards/S/su.md,sundering-eruption--volcanic-fissure,702,R,Sorcery // Land,legal,0,2026-10-15-b1
+Sundown Pass,5ad0b405-cca4-475e-985c-4d7e3599d87e,cards/S/su.md,sundown-pass,259,RW,Land,legal,0,2026-10-15-b1
+Sunfall,fb3f5097-0da0-458c-8508-60823567e2da,cards/S/su.md,sunfall,3524,W,Sorcery,legal,0,2026-10-15-b1
+Sungrass Prairie,0a28dff0-2bd6-4105-b73a-b6c4735833fd,cards/S/su.md,sungrass-prairie,434,GW,Land,legal,0,2026-10-15-b1
+Sunken Hollow,cd2c90ac-2b04-461c-92f3-939871b6b6a3,cards/S/su.md,sunken-hollow,86,BU,Land — Island Swamp,legal,0,2026-10-15-b1
+Sunken Ruins,e6415ffb-8b7a-41c3-bedf-0d4112b7b795,cards/S/su.md,sunken-ruins,909,BU,Land,legal,0,2026-10-15-b1
+Sunpetal Grove,402ec768-76fb-474e-ae74-babc90d833c4,cards/S/su.md,sunpetal-grove,132,GW,Land,legal,0,2026-10-15-b1
+Sunscorched Divide,8d2b2675-19df-4f40-9e8e-196ec097b91c,cards/S/su.md,sunscorched-divide,821,RW,Land,legal,0,2026-10-15-b1
+Sun Titan,b2e950fb-cb7e-40a0-a311-5bbdd0477b29,cards/S/su.md,sun-titan,314,W,Creature — Giant,legal,0,2026-10-15-b1
+Supreme Verdict,0230de18-8d15-4cfa-9d42-7ccddd9f9570,cards/S/su.md,supreme-verdict,469,UW,Sorcery,legal,0,2026-10-15-b1
+Supreme Will,75325029-e6f1-44af-88b2-53cc2b7233c0,cards/S/su.md,supreme-will,8938,U,Instant,legal,0,2026-10-15-b1
+Survival of the Fittest,119d719d-e965-45b4-9bc9-ac03211b10c2,cards/S/su.md,survival-of-the-fittest,2367,G,Enchantment,legal,1,2026-10-15-b1
+Swan Song,8ddfc283-c9b4-41a5-af88-cf0068e986cc,cards/S/sw.md,swan-song,66,U,Instant,legal,0,2026-10-15-b1
+Swiftfoot Boots,c8b143ad-43ec-4e0d-a440-e348daa31391,cards/S/sw.md,swiftfoot-boots,12,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Sword of Feast and Famine,d0901053-6de0-46d0-9ee3-8d40510236c1,cards/S/sw.md,sword-of-feast-and-famine,545,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Sword of Hearth and Home,913e6182-706a-4872-8c8a-e146b0ae0738,cards/S/sw.md,sword-of-hearth-and-home,910,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Sword of the Animist,d79cbc61-6c15-48ea-bbba-3cffb819ccba,cards/S/sw.md,sword-of-the-animist,234,C,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+Swords to Plowshares,b1544f21-7e98-461b-aed5-e748b0168c52,cards/S/sw.md,swords-to-plowshares,11,W,Instant,legal,0,2026-10-15-b1
+Sylvan Library,92eed395-62ca-4293-882b-8565c40daab5,cards/S/sy.md,sylvan-library,258,G,Enchantment,legal,0,2026-10-15-b1
+Sylvan Safekeeper,bddf8f4a-3149-4dd6-a9e5-7747e7e45a1c,cards/S/sy.md,sylvan-safekeeper,779,G,Creature — Human Wizard,legal,0,2026-10-15-b1
+"Syr Konrad, the Grim",14c3ff84-1e82-4606-a433-869fc52cc382,cards/S/sy.md,syr-konrad-the-grim,262,B,Legendary Creature — Human Knight,legal,0,2026-10-15-b1
+Taiga,22e3cf1d-3559-4ce1-954c-8dc815342979,cards/T/ta.md,taiga,435,GR,Land — Mountain Forest,legal,0,2026-10-15-b1
+Tainted Field,439de49b-1091-4688-9ffb-80a025df31c2,cards/T/ta.md,tainted-field,451,BW,Land,legal,0,2026-10-15-b1
+Tainted Isle,0222414f-98b5-458a-a0fd-831a66cd8b07,cards/T/ta.md,tainted-isle,527,BU,Land,legal,0,2026-10-15-b1
+Tainted Pact,1a85ba2b-ae10-4917-954a-7709b75a9740,cards/T/ta.md,tainted-pact,887,B,Instant,legal,0,2026-10-15-b1
+Tainted Peak,b2bae7fc-0668-4b34-9cd6-0d80aea52275,cards/T/ta.md,tainted-peak,497,BR,Land,legal,0,2026-10-15-b1
+Tainted Wood,fa6d05a1-3df4-4751-b1a0-8d9693faec73,cards/T/ta.md,tainted-wood,445,BG,Land,legal,0,2026-10-15-b1
+"Takenuma, Abandoned Mire",ac2dd694-d2f1-4025-8400-12332bdc882a,cards/T/ta.md,takenuma-abandoned-mire,245,B,Legendary Land,legal,0,2026-10-15-b1
+Tale's End,8ebb6fe0-3ed1-4cc9-bcb1-5317de199efc,cards/T/ta.md,tales-end,4854,U,Instant,legal,0,2026-10-15-b1
+Talisman of Conviction,6c326439-5620-4ec6-a56a-fe9c3d5d2a46,cards/T/ta.md,talisman-of-conviction,150,RW,Artifact,legal,0,2026-10-15-b1
+Talisman of Creativity,14d2979d-5728-42d7-a027-0eb1f754655d,cards/T/ta.md,talisman-of-creativity,125,RU,Artifact,legal,0,2026-10-15-b1
+Talisman of Curiosity,8c34b089-aad1-476e-958a-3077bf1bbb51,cards/T/ta.md,talisman-of-curiosity,484,GU,Artifact,legal,0,2026-10-15-b1
+Talisman of Dominance,4c0a0448-b9d6-43a0-8549-64066dac63f0,cards/T/ta.md,talisman-of-dominance,92,BU,Artifact,legal,0,2026-10-15-b1
+Talisman of Hierarchy,b693c3de-2eaf-4850-b405-e79d00adefda,cards/T/ta.md,talisman-of-hierarchy,135,BW,Artifact,legal,0,2026-10-15-b1
+Talisman of Impulse,f2ccc9e8-8e92-4f8c-8728-8c748630e0dd,cards/T/ta.md,talisman-of-impulse,589,GR,Artifact,legal,0,2026-10-15-b1
+Talisman of Indulgence,1d9aeaaa-66f6-41cb-9bac-162d6fd8662c,cards/T/ta.md,talisman-of-indulgence,127,BR,Artifact,legal,0,2026-10-15-b1
+Talisman of Progress,00e35322-1a9a-41e3-9ce1-359c8eaa3bc7,cards/T/ta.md,talisman-of-progress,136,UW,Artifact,legal,0,2026-10-15-b1
+Talisman of Resilience,42b8aa14-10bc-4bd6-88d9-4bb287eadd19,cards/T/ta.md,talisman-of-resilience,502,BG,Artifact,legal,0,2026-10-15-b1
+Talon Gates of Madara,8c45bf9d-a017-43bf-9e32-67810a8a217b,cards/T/ta.md,talon-gates-of-madara,569,C,Land — Gate,legal,0,2026-10-15-b1
+"Talrand, Sky Summoner",ea1eb902-a23c-44ff-9169-19baf71de238,cards/T/ta.md,talrand-sky-summoner,804,U,Legendary Creature — Merfolk Wizard,legal,0,2026-10-15-b1
+Tamiyo's Safekeeping,bb2b324c-970a-4920-884e-c92ba49669f0,cards/T/ta.md,tamiyos-safekeeping,465,G,Instant,legal,0,2026-10-15-b1
+"Tatyova, Benthic Druid",0715e860-3b3b-4331-9718-207973e94fee,cards/T/ta.md,tatyova-benthic-druid,481,GU,Legendary Creature — Merfolk Druid,legal,0,2026-10-15-b1
+Tear Asunder,610af0f7-b5e3-43fb-9d02-7c59bd99034c,cards/T/te.md,tear-asunder,858,BG,Instant,legal,0,2026-10-15-b1
+Tectonic Edge,4927150d-7ff6-4232-b20e-d2ea245ac710,cards/T/te.md,tectonic-edge,4187,C,Land,legal,0,2026-10-15-b1
+Teferi's Ageless Insight,1c9e1f75-73f0-4846-b53f-458a0984b1bb,cards/T/te.md,teferis-ageless-insight,588,U,Legendary Enchantment,legal,0,2026-10-15-b1
+Teferi's Protection,0d4ecdb1-ec90-497f-a7a4-1c68092b8757,cards/T/te.md,teferis-protection,109,W,Instant,legal,1,2026-10-15-b1
+Temple Garden,f413a83d-a40d-434c-b20a-4c707c0527fa,cards/T/te.md,temple-garden,81,GW,Land — Forest Plains,legal,0,2026-10-15-b1
+Temple of Abandon,3baa8e38-ef93-435d-b63e-f781d5bfcc68,cards/T/te.md,temple-of-abandon,548,GR,Land,legal,0,2026-10-15-b1
+Temple of Deceit,33b9b3bd-33ca-46f3-b8bb-a978bc3d1085,cards/T/te.md,temple-of-deceit,360,BU,Land,legal,0,2026-10-15-b1
+Temple of Enlightenment,89f43e27-790b-4ca1-8ba7-0882b31e0783,cards/T/te.md,temple-of-enlightenment,320,UW,Land,legal,0,2026-10-15-b1
+Temple of Epiphany,79f94050-d850-41ca-b1db-5ae0cf743f0a,cards/T/te.md,temple-of-epiphany,295,RU,Land,legal,0,2026-10-15-b1
+Temple of Malady,dc55421f-dee8-4263-9df0-2365df5f14bb,cards/T/te.md,temple-of-malady,377,BG,Land,legal,0,2026-10-15-b1
+Temple of Malice,7c439c18-31dc-41fe-b03d-3fca06e6fc0b,cards/T/te.md,temple-of-malice,462,BR,Land,legal,0,2026-10-15-b1
+Temple of Mystery,7e26f0b7-20e6-46d5-8130-d98c14d6aa29,cards/T/te.md,temple-of-mystery,335,GU,Land,legal,0,2026-10-15-b1
+Temple of Plenty,e521322b-0e83-458c-8936-7021a80ee279,cards/T/te.md,temple-of-plenty,507,GW,Land,legal,0,2026-10-15-b1
+Temple of Silence,e6e6fce8-0f6a-4b84-865e-d4e4a4182f9f,cards/T/te.md,temple-of-silence,308,BW,Land,legal,0,2026-10-15-b1
+Temple of the False God,cfdd5dc6-593e-495a-8cfe-3a56b3c4c7df,cards/T/te.md,temple-of-the-false-god,84,C,Land,legal,0,2026-10-15-b1
+Temple of Triumph,6f0d94d9-64bb-4175-83bc-301e8f79f54f,cards/T/te.md,temple-of-triumph,317,RW,Land,legal,0,2026-10-15-b1
+Tempt with Discovery,4baa6145-216e-476b-b178-aaaa1e633701,cards/T/te.md,tempt-with-discovery,886,G,Sorcery,legal,0,2026-10-15-b1
+Temur Ascendancy,e68dc47c-692f-4420-9799-eee104017273,cards/T/te.md,temur-ascendancy,899,GRU,Enchantment,legal,0,2026-10-15-b1
+Terminate,6257c2fd-005f-41e3-8a72-af76df1eb134,cards/T/te.md,terminate,226,BR,Instant,legal,0,2026-10-15-b1
+Terramorphic Expanse,1bd3e453-aa21-4ee6-95c2-d6d920ee8e7a,cards/T/te.md,terramorphic-expanse,30,C,Land,legal,0,2026-10-15-b1
+Terrasymbiosis,4ac94586-3ac7-4ade-af31-ad0d0e3ffc4a,cards/T/te.md,terrasymbiosis,768,G,Enchantment,legal,0,2026-10-15-b1
+Terror of the Peaks,f8e17f4f-080d-4bba-bd05-ca27e94ccecc,cards/T/te.md,terror-of-the-peaks,514,R,Creature — Dragon,legal,0,2026-10-15-b1
+Thassa's Oracle,1de1b591-a73f-4974-b507-8c63e07a0868,cards/T/th.md,thassas-oracle,453,U,Creature — Merfolk Wizard,legal,1,2026-10-15-b1
+The Earth Crystal,5e7ef7fe-968b-4ada-9fe4-6fda0541aafc,cards/T/th.md,the-earth-crystal,681,G,Legendary Artifact,legal,0,2026-10-15-b1
+The Fire Crystal,57276db8-9d8d-4587-ae88-dfdc44343f17,cards/T/th.md,the-fire-crystal,843,R,Legendary Artifact,legal,0,2026-10-15-b1
+The Gitrog Monster,a5e54d2b-aad8-4ddd-af4b-13668913762b,cards/T/th.md,the-gitrog-monster,911,BG,Legendary Creature — Frog Horror,legal,0,2026-10-15-b1
+The Great Henge,78427103-9543-41fb-b6d4-72963fe87275,cards/T/th.md,the-great-henge,228,G,Legendary Artifact,legal,0,2026-10-15-b1
+The Meathook Massacre,127de52b-df75-4342-95a0-20d84c5bf916,cards/T/th.md,the-meathook-massacre,516,B,Legendary Enchantment,legal,0,2026-10-15-b1
+The Mycosynth Gardens,03f5c566-825c-4c46-9c01-a2f9b1e70a13,cards/T/th.md,the-mycosynth-gardens,851,C,Land — Sphere,legal,0,2026-10-15-b1
+The One Ring,3aa83ed2-f48b-4ce6-a614-2c54ddf50538,cards/T/th.md,the-one-ring,96,C,Legendary Artifact,legal,1,2026-10-15-b1
+The Ozolith,1946ded1-5f53-409f-b0a6-5433bb0357d2,cards/T/th.md,the-ozolith,302,C,Legendary Artifact,legal,0,2026-10-15-b1
+The Reaver Cleaver,37a2a31d-51e6-4c07-b4c2-b206ad40eb42,cards/T/th.md,the-reaver-cleaver,530,R,Legendary Artifact — Equipment,legal,0,2026-10-15-b1
+The Soul Stone,92cfba68-12f6-4f97-9187-0f6a39656a0f,cards/T/th.md,the-soul-stone,866,B,Legendary Artifact — Infinity Stone,legal,0,2026-10-15-b1
+Thespian's Stage,b01e698b-608a-4fc7-8073-b01d044743ec,cards/T/th.md,thespians-stage,583,C,Land,legal,0,2026-10-15-b1
+The Wind Crystal,240f0835-36af-4ad8-9336-d6d3d816d293,cards/T/th.md,the-wind-crystal,900,W,Legendary Artifact,legal,0,2026-10-15-b1
+The World Tree,3437d504-bf62-4c27-b15f-f6330182ff7e,cards/T/th.md,the-world-tree,818,BGRUW,Land,legal,0,2026-10-15-b1
+Thornspire Verge,e861bc08-4f0b-4d22-9b85-9d20227fd5b4,cards/T/th.md,thornspire-verge,719,GR,Land,legal,0,2026-10-15-b1
+Thoughtcast,cce9bbff-82dc-4b2f-addd-d6715588de20,cards/T/th.md,thoughtcast,929,U,Sorcery,legal,0,2026-10-15-b1
+Thought Monitor,9deded8b-cec4-4ede-a50b-131404d456d4,cards/T/th.md,thought-monitor,736,U,Artifact Creature — Construct,legal,0,2026-10-15-b1
+Thought Vessel,9965d9c5-2ebf-4a6c-930e-55c5890979be,cards/T/th.md,thought-vessel,21,C,Artifact,legal,0,2026-10-15-b1
+Thousand-Year Elixir,4dc5726e-2f7e-4c2b-9616-c3301d212f78,cards/T/th.md,thousand-year-elixir,888,C,Artifact,legal,0,2026-10-15-b1
+Thran Dynamo,a699c663-8131-4045-9265-a83e86609374,cards/T/th.md,thran-dynamo,195,C,Artifact,legal,0,2026-10-15-b1
+Three Tree City,da3b17a2-e1e1-44e9-b9b1-ae54a92037db,cards/T/th.md,three-tree-city,178,C,Legendary Land,legal,0,2026-10-15-b1
+Three Visits,1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e,cards/T/th.md,three-visits,40,G,Sorcery,legal,0,2026-10-15-b1
+Thrill of Possibility,1cb0610b-a731-42c2-b93f-0a29f63cebf4,cards/T/th.md,thrill-of-possibility,212,R,Instant,legal,0,2026-10-15-b1
+Throne of Eldraine,5b9a2b81-a645-43be-8001-03817ac210ca,cards/T/th.md,throne-of-eldraine,894,C,Legendary Artifact,legal,0,2026-10-15-b1
+Thrummingbird,eac94269-4baa-4b8e-a0fd-d6b227d1cde3,cards/T/th.md,thrummingbird,830,U,Creature — Phyrexian Bird Horror,legal,0,2026-10-15-b1
+Thundering Falls,d2bcff58-7a8a-46ef-b6b3-39501d4c8e6e,cards/T/th.md,thundering-falls,626,RU,Land — Island Mountain,legal,0,2026-10-15-b1
+Tibalt's Trickery,6623cb85-fb1e-4561-8b21-0977c25096c2,cards/T/ti.md,tibalts-trickery,600,R,Instant,legal,0,2026-10-15-b1
+Tireless Provisioner,ab8d5f5c-1976-4f77-8ed2-8d28ee666741,cards/T/ti.md,tireless-provisioner,187,G,Creature — Elf Scout,legal,0,2026-10-15-b1
+Tireless Tracker,e6555cca-e608-4c87-b835-9cd47fd1f543,cards/T/ti.md,tireless-tracker,666,G,Creature — Human Scout,legal,0,2026-10-15-b1
+Tocasia's Welcome,25c983e0-a8c9-4784-91a4-8fe04c6df882,cards/T/to.md,tocasias-welcome,823,W,Enchantment,legal,0,2026-10-15-b1
+Torment of Hailfire,30a0a6c2-1fbb-4784-ab96-22611d57e62c,cards/T/to.md,torment-of-hailfire,625,B,Sorcery,legal,0,2026-10-15-b1
+"Toski, Bearer of Secrets",a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f,cards/T/to.md,toski-bearer-of-secrets,388,G,Legendary Creature — Squirrel,legal,0,2026-10-15-b1
+Toxic Deluge,afaef788-34d1-460b-b884-9d7ae6ddeb18,cards/T/to.md,toxic-deluge,65,B,Sorcery,legal,0,2026-10-15-b1
+Tragic Slip,fa6e2a47-a8cb-4224-ae3e-f61c90477285,cards/T/tr.md,tragic-slip,885,B,Instant,legal,0,2026-10-15-b1
+Trailblazer's Boots,634d5009-cbf3-44cb-8c15-7057f501a210,cards/T/tr.md,trailblazers-boots,656,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Training Center,e3570ac7-c593-40e3-bbd6-ec3da6d8158d,cards/T/tr.md,training-center,154,RU,Land,legal,0,2026-10-15-b1
+Treasure Cruise,5b6bdf5a-2742-4851-92cd-a857a3852836,cards/T/tr.md,treasure-cruise,643,U,Sorcery,legal,0,2026-10-15-b1
+Treasure Vault,3c43efd6-b1a8-452c-ae20-9a936c3340ab,cards/T/tr.md,treasure-vault,461,C,Artifact Land,legal,0,2026-10-15-b1
+Tribute to the World Tree,72deedab-7c17-4505-aeca-4bc8596d80a5,cards/T/tr.md,tribute-to-the-world-tree,613,G,Enchantment,legal,0,2026-10-15-b1
+Tropical Island,74b7fe23-5d3a-4092-8d78-7c0eba8f6f73,cards/T/tr.md,tropical-island,352,GU,Land — Forest Island,legal,0,2026-10-15-b1
+Trouble in Pairs,f349f58b-8cc8-45e4-9565-2b46fdf976c9,cards/T/tr.md,trouble-in-pairs,621,W,Enchantment,legal,0,2026-10-15-b1
+Tundra,02418479-9455-417f-a6a1-004356faff37,cards/T/tu.md,tundra,350,UW,Land — Plains Island,legal,0,2026-10-15-b1
+Twilight Mire,db623754-e078-4030-ba07-818803c348a8,cards/T/tw.md,twilight-mire,355,BG,Land,legal,0,2026-10-15-b1
+Twinflame Tyrant,321b5cc6-8df6-4292-97a0-a6a3a22f3b55,cards/T/tw.md,twinflame-tyrant,767,R,Creature — Dragon,legal,0,2026-10-15-b1
+Tyvar's Stand,4247b667-a0a8-4995-97c7-622d20132f7d,cards/T/ty.md,tyvars-stand,718,G,Instant,legal,0,2026-10-15-b1
+Unbreakable Formation,97435e03-2fff-4fe0-8fa9-69ab0a046a33,cards/U/un.md,unbreakable-formation,566,W,Instant,legal,0,2026-10-15-b1
+Unclaimed Territory,584b15f2-6ae9-413a-8b8d-9244dbea4878,cards/U/un.md,unclaimed-territory,247,C,Land,legal,0,2026-10-15-b1
+Undercity Sewers,08d80efc-9542-4ba2-824c-c8615d8d07f2,cards/U/un.md,undercity-sewers,421,BU,Land — Island Swamp,legal,0,2026-10-15-b1
+Underground Mortuary,840119bf-e60f-4ff7-9c9b-d420d09df545,cards/U/un.md,underground-mortuary,482,BG,Land — Swamp Forest,legal,0,2026-10-15-b1
+Underground River,857febd9-cdd7-4f8e-a852-d88084b0cfbc,cards/U/un.md,underground-river,141,BU,Land,legal,0,2026-10-15-b1
+Underground Sea,4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b,cards/U/un.md,underground-sea,297,BU,Land — Island Swamp,legal,0,2026-10-15-b1
+Undergrowth Stadium,7c69f718-acc8-4851-8e5d-0cbaaa86192c,cards/U/un.md,undergrowth-stadium,176,BG,Land,legal,0,2026-10-15-b1
+Underworld Breach,27e0948b-9916-473b-8d8c-a51bdfbc7457,cards/U/un.md,underworld-breach,389,R,Enchantment,legal,1,2026-10-15-b1
+Unexpected Windfall,498c10c9-253d-4b15-b48c-1509381b17e8,cards/U/un.md,unexpected-windfall,269,R,Instant,legal,0,2026-10-15-b1
+Unnatural Growth,7324abaa-48da-439d-9339-b0ea5eea612e,cards/U/un.md,unnatural-growth,439,G,Enchantment,legal,0,2026-10-15-b1
+Untimely Malfunction,2c49d24a-98a4-43c2-bb59-1ef13d4214c2,cards/U/un.md,untimely-malfunction,266,R,Instant,legal,0,2026-10-15-b1
+Unwinding Clock,153fac93-5d2b-4348-a468-a5eef6a12da3,cards/U/un.md,unwinding-clock,546,C,Artifact,legal,0,2026-10-15-b1
+"Urborg, Tomb of Yawgmoth",db6174d7-211d-4817-b8e4-8384594c83f9,cards/U/ur.md,urborg-tomb-of-yawgmoth,75,C,Legendary Land,legal,0,2026-10-15-b1
+"Urza, Lord High Artificer",e87906d2-db1a-4e19-b910-adb4eb339945,cards/U/ur.md,urza-lord-high-artificer,802,U,Legendary Creature — Human Artificer,legal,0,2026-10-15-b1
+Urza's Cave,4474ecee-0ec3-409b-90df-738d9313fe3c,cards/U/ur.md,urzas-cave,440,C,Land — Urza's Cave,legal,0,2026-10-15-b1
+Urza's Incubator,b380c04b-0bce-4328-8f0a-1425e48bee72,cards/U/ur.md,urzas-incubator,311,C,Artifact,legal,0,2026-10-15-b1
+Urza's Mine,33e85a8a-86df-4cdc-a9cc-8cbabe92c3c0,cards/U/ur.md,urzas-mine,840,C,Land — Urza's Mine,legal,0,2026-10-15-b1
+Urza's Power Plant,e11966cd-2ee3-4df4-b099-abf42dcdf0db,cards/U/ur.md,urzas-power-plant,842,C,Land — Urza's Power-Plant,legal,0,2026-10-15-b1
+Urza's Saga,4c6a0c30-b547-4eff-8ff4-0ca25803c076,cards/U/ur.md,urzas-saga,117,C,Enchantment Land — Urza's Saga,legal,0,2026-10-15-b1
+Urza's Tower,32fbb638-ab14-4e8b-a07a-d4c44e3496f2,cards/U/ur.md,urzas-tower,832,C,Land — Urza's Tower,legal,0,2026-10-15-b1
+Utopia Sprawl,00d8efa6-a2d9-4249-8da7-b45173675329,cards/U/ut.md,utopia-sprawl,349,G,Enchantment — Aura,legal,0,2026-10-15-b1
+Valakut Awakening // Valakut Stoneforge,ff0ab867-b710-4b1a-baed-95fc3cf68f79,cards/V/va.md,valakut-awakening--valakut-stoneforge,513,R,Instant // Land,legal,0,2026-10-15-b1
+"Valakut, the Molten Pinnacle",1bc44216-4e06-4f66-89b7-5c327004604e,cards/V/va.md,valakut-the-molten-pinnacle,1320,R,Land,legal,0,2026-10-15-b1
+Valley Floodcaller,4879c8f0-8832-4290-bc71-9838940f75cd,cards/V/va.md,valley-floodcaller,761,U,Creature — Otter Wizard,legal,0,2026-10-15-b1
+Vampiric Tutor,ededbdae-d9dc-4206-9335-d7158f2d7700,cards/V/va.md,vampiric-tutor,115,B,Instant,legal,1,2026-10-15-b1
+Vandalblast,3567c3c8-b3c7-45b7-935b-b1fdbc973720,cards/V/va.md,vandalblast,100,R,Sorcery,legal,0,2026-10-15-b1
+Vanquisher's Banner,8cf38025-5821-45a0-9483-266353b7e82d,cards/V/va.md,vanquishers-banner,384,C,Artifact,legal,0,2026-10-15-b1
+Vanquish the Horde,a332e80a-dc51-4dc6-bc85-e114a1c6fdb8,cards/V/va.md,vanquish-the-horde,788,W,Sorcery,legal,0,2026-10-15-b1
+Vault of Champions,ebc5ac83-08d4-4d6b-b840-0c4ba71a38ab,cards/V/va.md,vault-of-champions,169,BW,Land,legal,0,2026-10-15-b1
+Vault of the Archangel,eeaac65a-3480-475a-bb28-e6375d53f487,cards/V/va.md,vault-of-the-archangel,468,BW,Land,legal,0,2026-10-15-b1
+Vault of Whispers,09496421-74e4-466a-9546-56f2a0c8eef4,cards/V/va.md,vault-of-whispers,620,B,Artifact Land,legal,0,2026-10-15-b1
+Veil of Summer,002965be-a36f-4a09-9ce0-c6535bca1703,cards/V/ve.md,veil-of-summer,528,G,Instant,legal,0,2026-10-15-b1
+Verdant Catacombs,67d60b24-d429-4ded-90d9-06e49f28c396,cards/V/ve.md,verdant-catacombs,48,C,Land,legal,0,2026-10-15-b1
+Vernal Fen,40544d12-0391-4a61-af95-9b8ec01ed8fc,cards/V/ve.md,vernal-fen,664,BG,Land — Swamp Forest,legal,0,2026-10-15-b1
+Vesuva,4001b868-ada1-43f4-92e2-27ab0e80c913,cards/V/ve.md,vesuva,924,C,Land,legal,0,2026-10-15-b1
+"Veyran, Voice of Duality",d57a6b19-bd06-4b07-8ee1-0b45612ba9e4,cards/V/ve.md,veyran-voice-of-duality,745,RU,Legendary Creature — Efreet Wizard,legal,0,2026-10-15-b1
+Victimize,240e85d3-e495-4877-8609-4b4056c402f7,cards/V/vi.md,victimize,130,B,Sorcery,legal,0,2026-10-15-b1
+Village Rites,365548fb-5acc-4a8a-b20b-26d28b7d029f,cards/V/vi.md,village-rites,204,B,Instant,legal,0,2026-10-15-b1
+Vindicate,63c1ac21-e3d8-40c2-8c09-3f31c52992ef,cards/V/vi.md,vindicate,1161,BW,Sorcery,legal,0,2026-10-15-b1
+Vineglimmer Snarl,33f52df8-4b44-4422-8b0a-37fead9c894b,cards/V/vi.md,vineglimmer-snarl,547,GU,Land,legal,0,2026-10-15-b1
+Viridescent Bog,6bd6d259-1af7-4dff-a79c-48a616d2a36e,cards/V/vi.md,viridescent-bog,724,BG,Land,legal,0,2026-10-15-b1
+Viscera Seer,f82a4e85-526d-4456-b700-7760043a31be,cards/V/vi.md,viscera-seer,257,B,Creature — Vampire Wizard,legal,0,2026-10-15-b1
+"Vito, Thorn of the Dusk Rose",7336a541-3ae9-4ab2-acb8-f574c0a5b3a9,cards/V/vi.md,vito-thorn-of-the-dusk-rose,489,B,Legendary Creature — Vampire Cleric,legal,0,2026-10-15-b1
+Voice of Victory,b12cbda1-ac09-49eb-96b3-a4df27bc37ea,cards/V/vo.md,voice-of-victory,499,W,Creature — Human Bard,legal,0,2026-10-15-b1
+Void Rend,713f16db-95ec-479e-a48c-7a69f7668d7f,cards/V/vo.md,void-rend,757,BUW,Instant,legal,0,2026-10-15-b1
+Volcanic Island,c718911c-c955-4eb9-9e16-be4bd49a4e4e,cards/V/vo.md,volcanic-island,336,RU,Land — Island Mountain,legal,0,2026-10-15-b1
+Volrath's Stronghold,73b8cf90-3c71-4f8b-a29f-61894b7f27c9,cards/V/vo.md,volraths-stronghold,2816,B,Legendary Land,legal,0,2026-10-15-b1
+Walking Ballista,4b515bb0-f275-4400-8032-3173b799ab40,cards/W/wa.md,walking-ballista,423,C,Artifact Creature — Construct,legal,0,2026-10-15-b1
+Warleader's Call,a751c07b-fc21-4854-96e7-f71abf4e86c9,cards/W/wa.md,warleaders-call,913,RW,Enchantment,legal,0,2026-10-15-b1
+Warren Soultrader,ace86e56-efde-4eb7-8815-71456a4c3abe,cards/W/wa.md,warren-soultrader,413,B,Creature — Zombie Goblin Wizard,legal,0,2026-10-15-b1
+War Room,71c52bf5-2a5d-488e-8b15-7ef290e4b77d,cards/W/wa.md,war-room,139,C,Land,legal,0,2026-10-15-b1
+Warstorm Surge,42fb1a1c-ab3d-4cdc-a6ff-a591f7481583,cards/W/wa.md,warstorm-surge,731,R,Enchantment,legal,0,2026-10-15-b1
+Wasteland,09a70ae8-3859-4a09-901d-dce063fa3b5f,cards/W/wa.md,wasteland,1217,C,Land,legal,0,2026-10-15-b1
+Watery Grave,fc9ec820-4245-4a96-b009-5308a818ca58,cards/W/wa.md,watery-grave,50,BU,Land — Island Swamp,legal,0,2026-10-15-b1
+Wayfarer's Bauble,31f15274-301b-47c5-ba19-0ced04520878,cards/W/wa.md,wayfarers-bauble,126,C,Artifact,legal,0,2026-10-15-b1
+Welcoming Vampire,605c1ee0-5e8a-4e0a-a99b-42a38873f822,cards/W/we.md,welcoming-vampire,427,W,Creature — Vampire,legal,0,2026-10-15-b1
+Wheel of Fortune,a8abd966-de7b-46a3-8ac7-8747ab35653a,cards/W/wh.md,wheel-of-fortune,577,R,Sorcery,legal,0,2026-10-15-b1
+Whip of Erebos,53987a39-c18c-4c13-b1ea-fd1b2a369f9e,cards/W/wh.md,whip-of-erebos,714,B,Legendary Enchantment Artifact,legal,0,2026-10-15-b1
+Whir of Invention,152b91c9-cc07-4ca8-944f-9bc2242a2283,cards/W/wh.md,whir-of-invention,1335,U,Instant,legal,0,2026-10-15-b1
+Whispersilk Cloak,9ad4f730-a18e-4a7c-a468-a926c718c741,cards/W/wh.md,whispersilk-cloak,333,C,Artifact — Equipment,legal,0,2026-10-15-b1
+Wildfire,0da68ca2-07fd-4359-95a9-fb2f815e6ed0,cards/W/wi.md,wildfire,12851,R,Sorcery,legal,0,2026-10-15-b1
+Wild Growth,706ae742-1807-44b7-a4fa-f2e26f61519a,cards/W/wi.md,wild-growth,215,G,Enchantment — Aura,legal,0,2026-10-15-b1
+Windbrisk Heights,3589bcfc-42b0-414a-adce-bc690dc631c8,cards/W/wi.md,windbrisk-heights,661,W,Land,legal,0,2026-10-15-b1
+Windfall,08becc07-28bc-4a2f-a6b0-28a2998d2f50,cards/W/wi.md,windfall,159,U,Sorcery,legal,0,2026-10-15-b1
+Winds of Abandon,499a4715-6776-461b-bee4-22ed172d455e,cards/W/wi.md,winds-of-abandon,1956,W,Sorcery,legal,0,2026-10-15-b1
+Windswept Heath,29737a60-3ebd-40d9-b935-c4f54b90d45d,cards/W/wi.md,windswept-heath,45,C,Land,legal,0,2026-10-15-b1
+Wishclaw Talisman,81c70ae7-3c18-4c9b-8505-e4db9e0e6518,cards/W/wi.md,wishclaw-talisman,526,B,Artifact,legal,0,2026-10-15-b1
+Witch Enchanter // Witch-Blessed Meadow,0355249a-8e4e-41db-9cea-1b901faffbe6,cards/W/wi.md,witch-enchanter--witch-blessed-meadow,290,W,Creature — Human Warlock // Land,legal,0,2026-10-15-b1
+Witch's Cottage,6c8f276e-4e7b-4974-ab02-9356cc0ffb2b,cards/W/wi.md,witchs-cottage,875,B,Land — Swamp,legal,0,2026-10-15-b1
+Withering Torment,ffce81c5-1b58-4882-a4e7-6f8d7cb170de,cards/W/wi.md,withering-torment,265,B,Instant,legal,0,2026-10-15-b1
+Wizard Class,36f68aa3-9955-46f1-bc87-497f16ef5222,cards/W/wi.md,wizard-class,635,U,Enchantment — Class,legal,0,2026-10-15-b1
+Wonder,232284f7-c623-4895-9ab9-8b1a39926830,cards/W/wo.md,wonder,831,U,Creature — Incarnation,legal,0,2026-10-15-b1
+Wooded Foothills,6587a463-a108-4854-b6d1-944e89b8c8a4,cards/W/wo.md,wooded-foothills,47,C,Land,legal,0,2026-10-15-b1
+Wood Elves,8973bd99-20f8-4867-90ef-50392147ee1b,cards/W/wo.md,wood-elves,678,G,Creature — Elf Scout,legal,0,2026-10-15-b1
+Woodland Cemetery,c9fe1383-1331-4a58-a45a-3320250221a9,cards/W/wo.md,woodland-cemetery,111,BG,Land,legal,0,2026-10-15-b1
+Worldly Tutor,e8863518-0bfa-49c3-8c6e-6c9116a81051,cards/W/wo.md,worldly-tutor,171,G,Instant,legal,1,2026-10-15-b1
+Worn Powerstone,b166b670-febc-4821-855e-f8d465644c03,cards/W/wo.md,worn-powerstone,571,C,Artifact,legal,0,2026-10-15-b1
+Wrath of God,34515b16-c9a4-4f98-8c77-416a7a523407,cards/W/wr.md,wrath-of-god,684,W,Sorcery,legal,0,2026-10-15-b1
+Xander's Lounge,8291543f-d086-48aa-b2b7-5481ca8c9198,cards/X/xa.md,xanders-lounge,472,BRU,Land — Island Swamp Mountain,legal,0,2026-10-15-b1
+Xorn,11d8fab8-93af-4291-80bd-cf9436e99f4b,cards/X/xo.md,xorn,884,R,Creature — Elemental,legal,0,2026-10-15-b1
+Yavimaya Coast,40b36bc6-c185-4bda-99e7-0118953c2c97,cards/Y/ya.md,yavimaya-coast,137,GU,Land,legal,0,2026-10-15-b1
+"Yavimaya, Cradle of Growth",8dd5f5af-d2d8-4356-8617-8381081b930c,cards/Y/ya.md,yavimaya-cradle-of-growth,79,C,Legendary Land,legal,0,2026-10-15-b1
+"Yawgmoth, Thran Physician",a1e232c0-dc38-47be-a5a0-f68bc1d86a29,cards/Y/ya.md,yawgmoth-thran-physician,834,B,Legendary Creature — Human Cleric,legal,0,2026-10-15-b1
+Young Pyromancer,5fac139a-07d3-4e6c-98e3-d98b199f7a6f,cards/Y/yo.md,young-pyromancer,845,R,Creature — Human Shaman,legal,0,2026-10-15-b1
+Zagoth Triome,fdd46004-eaba-4024-8687-39b23dc6a58c,cards/Z/za.md,zagoth-triome,400,BGU,Land — Swamp Forest Island,legal,0,2026-10-15-b1
+Ziatora's Proving Ground,f7e7b78c-c769-4720-8585-1874773eb342,cards/Z/zi.md,ziatoras-proving-ground,536,BGR,Land — Swamp Mountain Forest,legal,0,2026-10-15-b1
+Zulaport Cutthroat,76b003e0-15af-4f22-bdf2-1ade5430964a,cards/Z/zu.md,zulaport-cutthroat,236,B,Creature — Human Rogue Ally,legal,0,2026-10-15-b1
+Zuran Orb,08cb8a30-9cb4-4517-bee5-8848aa60d1a2,cards/Z/zu.md,zuran-orb,908,C,Artifact,legal,0,2026-10-15-b1
