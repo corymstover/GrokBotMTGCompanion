@@ -1,6 +1,6 @@
 # Rules Interactions
 
-> **Source of truth:** Magic: The Gathering **Comprehensive Rules, effective 2026-09-25** ([official text](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt), Wizards of the Coast). Rule text below is **quoted verbatim** (long rules trimmed with "…"); card rulings are **official WotC rulings** from the Scryfall rulings bulk (2026-10-15), quoted verbatim and linked to the card entries that carry them. Plain-language summaries are labeled **Summary** and are paraphrase, not rules text. Started Bot cycle 3, extended Bot cycle 4 (issue [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)).
+> **Source of truth:** Magic: The Gathering **Comprehensive Rules, effective 2026-09-25** ([official text](https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt), Wizards of the Coast). Rule text below is **quoted verbatim** (long rules trimmed with "…"); card rulings are **official WotC rulings** from the Scryfall rulings bulk (2026-10-15), quoted verbatim and linked to the card entries that carry them. Plain-language summaries are labeled **Summary** and are paraphrase, not rules text. Started Bot cycle 3, extended Bot cycles 4–5 (issue [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9)).
 
 ## Contents
 - [Layers & timestamps](#layers--timestamps) — CR 613
@@ -20,6 +20,16 @@
 - [ETB / LTB & look-back triggers](#etb--ltb--look-back-triggers) — CR 603.6 / 603.10
 - [Mutate & merged permanents](#mutate--merged-permanents) — CR 702.140 / 730
 - [Commander tax](#commander-tax) — CR 903.8
+- [Sagas](#sagas) — CR 714
+- [Classes](#classes) — CR 716
+- [Phasing](#phasing) — CR 702.26
+- [Double-faced cards & transform](#double-faced-cards--transform) — CR 712 / 701.27
+- [The legend rule](#the-legend-rule) — CR 704.5j
+- ["Can't" beats "can" (and impossible instructions)](#cant-beats-can-and-impossible-instructions) — CR 101.2 / 101.3
+- [Ordering replacement effects (worked examples)](#ordering-replacement-effects-worked-examples) — CR 616
+- [Commander damage](#commander-damage) — CR 903.10a / 704.6c
+- [Partner & Backgrounds](#partner--backgrounds) — CR 702.124
+- [When a player leaves a multiplayer game](#when-a-player-leaves-a-multiplayer-game) — CR 800.4
 - [Open questions / next topics](#open-questions--next-topics)
 
 ## Layers & timestamps
@@ -476,6 +486,281 @@
 - [Rakdos, Lord of Riots](cards/R/rak.md#rakdos-lord-of-riots) — *2020-11-10* — "If there are additional costs to cast a creature spell, such as a kicker cost or the commander tax, apply those increases before applying cost reductions."
 - [Derevi, Empyrial Tactician](cards/D/der.md#derevi-empyrial-tactician) — *2020-11-10* — "When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the commander tax, nor does it increase the tax if you cast Derevi from the command zone later in the game."
 
+## Sagas
+
+**Summary:** A Saga enters with a lore counter (714.3a). As your precombat main phase begins you add another lore counter as a turn-based action that doesn't use the stack (714.3c). Each chapter is a **triggered ability** that triggers when the count reaches its number (714.2b). Once the counters are at least the final chapter number and no chapter ability from it is still on the stack, the Saga is sacrificed as a state-based action (714.4).
+
+> **CR 714.2** — A chapter symbol is a keyword ability that represents a triggered ability referred to as a chapter ability.
+>
+> **CR 714.2b** — “{rN}—[Effect]” means “When one or more lore counters are put onto this Saga, if the number of lore counters on it was less than N and became at least N, [effect].”
+>
+> **CR 714.2d** — A Saga’s final chapter number is the greatest value among chapter abilities it has. If a Saga somehow has no chapter abilities, its final chapter number is 0.
+>
+> **CR 714.3a** — Each Saga without read ahead has the intrinsic ability “This Saga enters with a lore counter on it.” This ability creates a replacement effect (see rule 614.1c).
+>
+> **CR 714.3c** — As a player’s precombat main phase begins, that player puts a lore counter on each Saga they control with one or more chapter abilities. This turn-based action doesn’t use the stack.
+>
+> **CR 714.4** — If the number of lore counters on a Saga permanent with one or more chapter abilities is greater than or equal to its final chapter number, and it isn’t the source of a chapter ability that has triggered but not yet left the stack, that Saga’s controller sacrifices it. This state-based action doesn’t use the stack.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Urza's Saga](cards/U/ur.md#urzas-saga) — *2021-06-18* — "Even though Urza's Saga is a land, it is also still a Saga, and it will be sacrificed after its last chapter ability resolves."
+- [Summon: Bahamut](cards/S/sum.md#summon-bahamut) — *2025-06-06* — "Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield."
+- [Binding the Old Gods](cards/B/bi.md#binding-the-old-gods) — *2021-02-05* — "Each symbol on the left of a Saga's text box represents a chapter ability. A chapter ability is a triggered ability that triggers when a lore counter that is put on the Saga causes the number of lore counters on the Saga to become equal to or greater than the ability's chapter number. Chapter abilities are put onto the stack and may be responded to."
+- [Summon: Titan](cards/S/sum.md#summon-titan) — *2025-06-06* — "Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack."
+- [The Eldest Reborn](cards/T/thee.md#the-eldest-reborn) — *2018-04-27* — "A chapter ability doesn't trigger if a lore counter is put on a Saga that already had a number of lore counters greater than or equal to that chapter's number. For example, the third lore counter put on a Saga causes the III chapter ability to trigger, but I and II won't trigger again."
+- [Summon: Primal Odin](cards/S/sum.md#summon-primal-odin) — *2025-06-06* — "As a Saga enters, its controller puts a lore counter on it. As your first main phase begins (immediately after your draw step), you put another lore counter on each Saga you control. Putting a lore counter on a Saga in either of these ways doesn't use the stack."
+
+## Classes
+
+**Summary:** Gaining a Class level is an **activated ability, sorcery speed only**, and you can level only from N-1 to N, so you can't skip levels (716.2a). Abilities from earlier levels stay. A level is not a copiable value (716.2b). Class levels are not level counters (716.4).
+
+> **CR 716.1** — Each Class card has a striated text box containing two class level bars. Its illustration is vertically oriented on the left side of the card, and its type line is along the bottom of the card.
+>
+> **CR 716.2** — A class level bar is a keyword ability that represents both an activated ability and a static ability. A class level bar includes the activation cost of its activated ability and a level number. Any abilities printed within the same text box section as the class level bar are part of its static ability.
+>
+> **CR 716.2a** — “[Cost]: Level N — [Abilities]” means “[Cost]: This Class’s level becomes N. Activate only if this Class is level N-1 and only as a sorcery” and “As long as this Class is level N or greater, it has [abilities].”
+>
+> **CR 716.2b** — A level is a designation that any permanent can have. A Class retains its level even if it stops being a Class. Levels are not a copiable characteristic.
+>
+> **CR 716.2d** — If a rule or effect refers to a permanent’s level and that permanent doesn’t have a level, it is treated as though its level is 1.
+>
+> **CR 716.3** — Any ability printed on a Class card that isn’t preceded by a class level bar is treated normally. In particular, the Class has the ability printed in its top text box section at all times. That ability may affect the game if it’s a static ability, it may trigger if it’s a triggered ability, and it can be activated if it’s an activated ability.
+>
+> **CR 716.4** — Some older creature cards, called leveler cards, have level up abilities that add level counters to them. These are not the same as class level abilities. Level counters do not interact with Class cards, and class levels do not interact with leveler cards. See rule 702.87, “Level Up,” and rule 711, “Leveler Cards.”
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Caretaker's Talent](cards/C/car.md#caretakers-talent) — *2024-07-26* — "You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2."
+- [Wizard Class](cards/W/wi.md#wizard-class) — *2021-07-23* — "Each Class starts with only the first of three class abilities. As the first level ability resolves, the Class becomes level 2 and gains the second class ability. As the second level ability resolves, the Class becomes level 3 and gains the third class ability."
+- [Barbarian Class](cards/B/bar.md#barbarian-class) — *2021-07-23* — "Each Class has five abilities. The three in the major sections of its text box are class abilities. Class abilities can be static, activated, or triggered abilities. The other two are level abilities, one activated ability to advance the Class to level 2 and another to advance the Class to level 3."
+- [Cool but Rude](cards/C/coo.md#cool-but-rude) — *2026-01-27* — "Class cards have multiple text box sections. Other than the top section, each section contains a class level bar that includes a cost and a level number. Each represents an activated ability with the listed cost that advances the Class to the level listed in that bar."
+
+## Phasing
+
+**Summary:** A phased-out permanent is treated as though it doesn't exist and is removed from combat (702.26b). It **doesn't change zones**, so no enter/leave triggers fire and its counters stay (702.26d). Attached Auras and Equipment phase out with it (702.26g). It phases back in during its controller's next untap step (702.26a).
+
+> **CR 702.26a** — Phasing is a static ability that modifies the rules of the untap step. During each player’s untap step, before the active player untaps permanents, all phased-in permanents with phasing that player controls “phase out.” Simultaneously, all phased-out permanents that had phased out under that player’s control “phase in.”
+>
+> **CR 702.26b** — If a permanent phases out, its status changes to “phased out.” Except for rules and effects that specifically mention phased-out permanents, a phased-out permanent is treated as though it does not exist. It can’t affect or be affected by anything else in the game. A permanent that phases out is removed from combat. (See rule 506.4.)
+>
+> **CR 702.26d** — The phasing event doesn’t actually cause a permanent to change zones or control, even though it’s treated as though it’s not on the battlefield and not under its controller’s control while it’s phased out. Zone-change triggers don’t trigger when a permanent phases in or out. Tokens continue to exist on the battlefield while phased out. Counters and stickers remain on a permanent while it’s phased out. Effects that …
+>
+> **CR 702.26g** — When a permanent phases out, any Auras, Equipment, or Fortifications attached to that permanent phase out at the same time. This alternate way of phasing out is known as phasing out “indirectly.” An Aura, Equipment, or Fortification that phased out indirectly won’t phase in by itself, but instead phases in along with the permanent it’s attached to.
+>
+> **CR 702.26k** — Phased-out permanents owned by a player who leaves the game also leave the game. This doesn’t cause zone-change abilities to trigger. See rule 800.4.
+>
+> **CR 702.26m** — If an effect causes a player to skip their untap step, the phasing event simply doesn’t occur that turn.
+
+**Official CR examples** (2):
+
+- *CR 702.26b example* — You control three creatures, one of which is phased out. You cast a spell that says “Draw a card for each creature you control.” You draw two cards.
+- *CR 702.26b example* — You control a phased-out creature. You cast a spell that says “Destroy all creatures.” The phased-out creature is not destroyed.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Teferi's Protection](cards/T/te.md#teferis-protection) — *2017-08-25* — "Any one-shot effects that are waiting "until [this] leaves the battlefield," such as that of Banishing Light, won't happen when a permanent phases out."
+- [Clever Concealment](cards/C/cl.md#clever-concealment) — *2023-02-04* — "An attacking or blocking creature that phases out is removed from combat."
+- [Talon Gates of Madara](cards/T/ta.md#talon-gates-of-madara) — *2024-06-07* — "Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger."
+- [Ripples of Potential](cards/R/ri.md#ripples-of-potential) — *2023-11-10* — "Choices made for permanents as they entered the battlefield are remembered even after they phase in."
+- [March of Swirling Mist](cards/M/mar.md#march-of-swirling-mist) — *2022-02-18* — "Phased out permanents are treated as though they don't exist. They can't be the target of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on."
+- [Galadriel's Dismissal](cards/G/ga.md#galadriels-dismissal) — *2023-11-03* — "Choices made for permanents as they entered the battlefield are remembered when they phase in."
+
+## Double-faced cards & transform
+
+**Summary:** Outside the battlefield and stack a DFC has only its front face's characteristics (712.8a), so for example its mana value is the front face's. A transforming permanent is the **same object**, so effects on it keep applying (712.18). An ability that would transform a permanent does nothing if the permanent already transformed since that ability went on the stack (701.27f).
+
+> **CR 712.8a** — While a double-faced card is outside the game or in a zone other than the battlefield or stack, it has only the characteristics of its front face.
+>
+> **CR 712.8d** — While a double-faced permanent has its front face up, it has only the characteristics of its front face.
+>
+> **CR 712.8e** — While a nonmodal double-faced permanent has its back face up, it has only the characteristics of its back face. However, its mana value is calculated using the mana cost of its front face. If a permanent is copying the back face of a nonmodal double-faced permanent (even if the object representing that copy is itself a double-faced permanent), the mana value of that permanent is 0. See rule 202.3b.
+>
+> **CR 712.11** — A double-faced spell is cast with its front face up by default. See rule 601, “Casting Spells.”
+>
+> **CR 712.14** — A double-faced card put onto the battlefield from a zone other than the stack enters the battlefield with its front face up by default.
+>
+> **CR 712.18** — When a double-faced permanent transforms or converts, it doesn’t become a new object. Any effects that applied to that permanent will continue to apply to it.
+>
+> **CR 701.27a** — To transform a permanent, turn it over so that its other face is up. Only permanents represented by double-faced tokens and double-faced cards can transform. (See rule 712, “Double-Faced Cards.”)
+>
+> **CR 701.27c** — If a spell or ability instructs a player to transform a permanent that isn’t represented by a double-faced token or a double-faced card, nothing happens.
+>
+> **CR 701.27f** — If an activated or triggered ability of a permanent that isn’t a delayed triggered ability of that permanent tries to transform it, the permanent does so only if it hasn’t transformed or converted since the ability was put onto the stack. If a delayed triggered ability of a permanent tries to transform that permanent, the permanent does so only if it hasn’t transformed or converted since that delayed triggered …
+
+**Official CR examples** (4):
+
+- *CR 712.9 example* — A Clone enters the battlefield as a copy of Wildblood Pack (the back face of a double-faced card). The Clone will be a copy of the Wildblood Pack. Because the Clone is itself not a double-faced card, it can’t transform.
+- *CR 712.9 example* — A player casts Cytoshape, causing a Kruin Outlaw (the front face of a double-faced card) to become a copy of Elite Vanguard (a 2/1 Human Soldier creature) until end of turn. The player then casts Moonmist, which reads, in part, “Transform all Humans.” Because the copy of Elite Vanguard is a double-faced card, it will transform. The resulting permanent will have its back face up, but it will still be a copy of Elite Vanguard that turn.
+- *CR 712.13a example* — A player controls both Mycosynth Lattice and March of the Machines, the combined effects of which make all permanents artifact creatures in addition to their other types. They also control a Clone on the battlefield that is a copy of Bird Admirer, a creature with daybound. It is currently night, but that permanent can’t transform because it isn’t represented by a double-faced card. Its controller casts Mystic Reflection targeting it, then casts Invasion of Kylem, a Siege battle whose back face is a sorcery. Because Invasion of Kylem is entering the battlefield as a creature, Mystic Reflection’s replacement effect applies to it and it tries to enter the battlefield as a copy of Bird Admirer. Since it is night, the daybound ability would normally cause it to enter with its back face up. However, since its back face is a sorcery, it is instead put into its owner’s graveyard.
+- *CR 712.18 example* — An effect gives Village Ironsmith (the front face of a double-faced card) +2/+2 until end of turn and then Village Ironsmith transforms into Ironfang. Ironfang will continue to get +2/+2 until end of turn.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Sink into Stupor // Soporific Springs](cards/S/si.md#sink-into-stupor--soporific-springs) — *2024-06-07* — "If an effect allows you to play a land or cast a spell from among a group of cards, you may play or cast a modal double-faced card with any face that fits the criteria of that effect. For example, if an effect allows you to play lands from your graveyard, you can play Garden of Freyalise, but you can't cast Disciple of Freyalise."
+- [Fell the Profane // Fell Mire](cards/F/fe.md#fell-the-profane--fell-mire) — *2024-06-07* — "A modal double-faced card can't be transformed or be put onto the battlefield transformed. Ignore any instruction to transform a modal double-faced card or to put one onto the battlefield transformed."
+- [Malakir Rebirth // Malakir Mire](cards/M/mal.md#malakir-rebirth--malakir-mire) — *2020-09-25* — "There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face."
+- [Reality Shift](cards/R/rea.md#reality-shift) — *2014-11-24* — "If a double-faced card is manifested, it will be put onto the battlefield face down. While face down, it can't transform. If the front face of the card is a creature card, you can turn it face up by paying its mana cost. If you do, its front face will be up."
+- [Bala Ged Recovery // Bala Ged Sanctuary](cards/B/bal.md#bala-ged-recovery--bala-ged-sanctuary) — *2020-09-25* — "In the Commander variant, a double-faced card’s color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered."
+- [Disciple of Freyalise // Garden of Freyalise](cards/D/di.md#disciple-of-freyalise--garden-of-freyalise) — *2024-06-07* — "To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise."
+
+## The legend rule
+
+**Summary:** If you control two or more legendary permanents with the same name, you choose one and the rest go to their owners' graveyards as a state-based action (704.5j). Different players can each control one with the same name. Planeswalkers follow the same rule (306.4).
+
+> **CR 704.5j** — If two or more legendary permanents with the same name are controlled by the same player, that player chooses one of them, and the rest are put into their owners’ graveyards. This is called the “legend rule.”
+>
+> **CR 306.4** — Previously, planeswalkers were subject to a “planeswalker uniqueness rule” that stopped a player from controlling two planeswalkers of the same planeswalker type. This rule has been removed and planeswalker cards printed before this change have received errata in the Oracle card reference to have the legendary supertype. Like other legendary permanents, they are subject to the “legend rule” (see rule 704.5j).
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Gemstone Caverns](cards/G/ge.md#gemstone-caverns) — *2021-03-19* — "If multiple Gemstone Caverns are put onto the battlefield under a single player's control before the game begins, the "legend rule" won't put the extras into that player's graveyard until just before the starting player gets priority during the game's first upkeep step. There's no opportunity to tap the extras for mana."
+- [Mox Opal](cards/M/mox.md#mox-opal) — *2020-08-07* — "If you control Mox Opal and one other artifact, then have a second Mox Opal enter the battlefield as your third artifact, you can't activate either one's mana ability before putting one into your graveyard due to the “legend rule.”"
+- [Spark Double](cards/S/spa.md#spark-double) — *2019-05-03* — "Spark Double isn’t legendary if it copies a legendary permanent, and this exception is copiable. If something else copies Spark Double later, that copy also won’t be legendary. If you control two or more permanents with the same name but only one is legendary, the “legend rule” doesn’t apply."
+- [Helm of the Host](cards/H/he.md#helm-of-the-host) — *2018-04-27* — "The token isn't legendary, and this exception is copiable. If something else copies the token later, that copy also won't be legendary. If you control two or more permanents with the same name but only one is legendary, the "legend rule" doesn't apply."
+- [Mayhem Devil](cards/M/may.md#mayhem-devil) — *2019-05-03* — "A legendary permanent that is put into a graveyard because of the "legend rule" isn't sacrificed."
+- [Elesh Norn, Grand Cenobite](cards/E/el.md#elesh-norn-grand-cenobite) — *2017-11-17* — "If a second Elesh Norn, Grand Cenobite comes under your control, you'll put one into its owner's graveyard due to the “legend rule” at the same time that any of your opponents' creatures getting -4/-4 are put into their owner's graveyard for having 0 or less toughness."
+
+## "Can't" beats "can" (and impossible instructions)
+
+**Summary:** When one effect allows something and another says it **can't** happen, the "can't" wins (101.2). The parts of an instruction that are impossible are ignored (101.3). Simultaneous choices are made in APNAP order (101.4).
+
+> **CR 101.1** — Whenever a card’s text directly contradicts these rules, the card takes precedence. The card overrides only the rule that applies to that specific situation. The only exception is that a player can concede the game at any time (see rule 104.3a).
+>
+> **CR 101.2** — When a rule or effect allows or directs something to happen, and another effect states that it can’t happen, the “can’t” effect takes precedence.
+>
+> **CR 101.3** — Any part of an instruction that’s impossible to perform is ignored. (In many cases the card will specify consequences for this; if it doesn’t, there’s no effect.)
+>
+> **CR 101.4** — If multiple players would make choices and/or take actions at the same time, the active player (the player whose turn it is) makes any choices required, then the next player in turn order (usually the player seated to the active player’s left) makes any choices required, followed by the remaining nonactive players in turn order. Then the actions happen simultaneously. This rule is often referred to as the “Active …
+
+**Official CR examples** (2):
+
+- *CR 101.2 example* — If one effect reads “You may play an additional land this turn” and another reads “You can’t play lands this turn,” the effect that precludes you from playing lands wins.
+- *CR 101.4 example* — A card reads “Each player sacrifices a creature.” First, the active player chooses a creature they control. Then each of the nonactive players, in turn order, chooses a creature they control. Then all creatures chosen this way are sacrificed simultaneously.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- ⚠️ No official card ruling in the bulk matched this topic; rely on the quoted CR text.
+
+## Ordering replacement effects (worked examples)
+
+**Summary:** The affected player, or the controller of the affected object, chooses the order. Self-replacement effects come first (616.1a, 614.15), then effects that change who controls an entering object (616.1b), then copy-as-it-enters effects (616.1c) and back-face-up effects (616.1d), then any others (616.1e). After each one is applied, re-check which effects still apply (616.1f).
+
+> **CR 616.1** — If two or more replacement and/or prevention effects are attempting to modify the way an event affects an object or player, the affected object’s controller (or its owner if it has no controller) or the affected player chooses one to apply, following the steps listed below. If two or more players have to make these choices at the same time, choices are made in APNAP order (see rule 101.4).
+>
+> **CR 616.1a** — If any of the replacement and/or prevention effects are self-replacement effects (see rule 614.15), one of them must be chosen. If not, proceed to rule 616.1b.
+>
+> **CR 616.1b** — If any of the replacement and/or prevention effects would modify under whose control an object would enter the battlefield, one of them must be chosen. If not, proceed to rule 616.1c.
+>
+> **CR 616.1c** — If any of the replacement and/or prevention effects would cause an object to become a copy of another object as it enters the battlefield, one of them must be chosen. If not, proceed to rule 616.1d.
+>
+> **CR 616.1d** — If any of the replacement and/or prevention effects would cause a card to enter the battlefield with its back face up, one of them must be chosen (See rule 701.27, “Transform,” and rule 701.28, “Convert.”). If not, proceed to 616.1e.
+>
+> **CR 616.1e** — Any of the applicable replacement and/or prevention effects may be chosen.
+>
+> **CR 616.1f** — Once the chosen effect has been applied, this process is repeated (taking into account only replacement or prevention effects that would now be applicable) until there are no more left to apply.
+>
+> **CR 616.1g** — While following the steps in 616.1a–f, one replacement or prevention effect may apply to an event, and another may apply to an event contained within the first event. In this case, the second effect can’t be chosen until after the first effect has been chosen.
+>
+> **CR 614.15** — Some replacement effects are not continuous effects. Rather, they are an effect of a resolving spell or ability that replace part or all of that spell or ability’s own effect(s). Such effects are called self-replacement effects. The text creating a self-replacement effect is usually part of the ability whose effect is being replaced, but the text can be a separate ability, particularly when preceded by an ability …
+
+**Official CR examples** (4):
+
+- *CR 616.1f example* — Two permanents are on the battlefield. One is an enchantment that reads “If a card would be put into a graveyard from anywhere, instead exile it,” and the other is a creature that reads “If this creature would die, instead shuffle it into its owner’s library.” If the creature is destroyed, its controller decides which replacement to apply first; the other does nothing.
+- *CR 616.1f example* — Essence of the Wild reads “Creatures you control enter as a copy of this creature.” A player who controls Essence of the Wild casts Rusted Sentinel, which normally enters the battlefield tapped. As it enters the battlefield, the copy effect from Essence of the Wild is applied first. As a result, it no longer has the ability that causes it to enter the battlefield tapped. Rusted Sentinel will enter the battlefield as an untapped copy of Essence of the Wild.
+- *CR 616.1g example* — A player is instructed to create a token that’s a copy of Voice of All, which has the ability “As this creature enters, choose a color.” Doubling Season has an ability that reads “If an effect would create one or more tokens under your control, it creates twice that many of those tokens instead.” Because entering the battlefield is an event contained within the event of creating a token, the effect of Doubling Season must be applied first, and then the effects of the two Voice of All tokens may be applied in either order.
+- *CR 616.2 example* — One effect reads “If you would gain life, draw that many cards instead,” and another reads “If you would draw a card, return a card from your graveyard to your hand instead.” Both effects combine (regardless of the order they came into existence): Instead of gaining 1 life, the player puts a card from their graveyard into their hand.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Teferi's Ageless Insight](cards/T/te.md#teferis-ageless-insight) — *2020-06-23* — "If two or more replacement effects would apply to a card-drawing event, the player drawing the card chooses the order in which to apply them."
+- [Memory Lapse](cards/M/me.md#memory-lapse) — *2016-06-08* — "Memory Lapse has a self-replacement effect that replaces the spell going to the graveyard before any other effect can replace that event. If the spell was cast using flashback, however, flashback will change the spell's destination from its owner's library to exile."
+- [Mystic Reflection](cards/M/my.md#mystic-reflection) — *2021-02-05* — "Replacement effects that modify how a creature enters the battlefield are applied in the following order: first, control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Mystic Reflection and Clone), then all other effects."
+- [Bard, King of Dale](cards/B/bar.md#bard-king-of-dale) — *2026-06-29* — "If an effect creates more than one kind of token, it'll create twice as many of each kind. For example, if you control Bilbo, Fellow Conspirator and Bard, King of Dale and you create a Food token, you'll create two Food tokens and two Treasure tokens (regardless of the order you chose to apply the replacement effects)."
+- [Archelos, Lagoon Mystic](cards/A/arc.md#archelos-lagoon-mystic) — *2020-11-10* — "If more than one Archelos is on the battlefield, the controller of an entering permanent chooses how to order the replacement effects."
+- [Infinite Reflection](cards/I/inf.md#infinite-reflection) — *2012-05-01* — "Replacement effects that modify how a permanent enters are now applied in the following order: control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Infinite Reflection and Clone), then all other effects."
+
+## Commander damage
+
+**Summary:** A player who has been dealt **21 or more combat damage by the same commander** over the game loses. This is a state-based action (903.10a, 704.6c). Only **combat** damage counts. Partner commanders are tracked separately (702.124d).
+
+> **CR 903.10a** — A player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. (This is a state-based action. See rule 704.)
+>
+> **CR 704.6c** — In a Commander game, a player who’s been dealt 21 or more combat damage by the same commander over the course of the game loses the game. See rule 903, “Commander.”
+>
+> **CR 702.124d** — Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast (see rule 903.8). When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders separately (see rule 903.10a).
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Angel's Grace](cards/A/an.md#angels-grace) — *2021-03-19* — "In a Commander game, combat damage you're dealt by a commander is still tracked, even if it doesn't change your life total."
+- [Archon of Coronation](cards/A/arc.md#archon-of-coronation) — *2020-11-10* — "Combat damage dealt to you by a commander is still tracked, even if it didn't cause you to lose life."
+- [Courageous Resolve](cards/C/cou.md#courageous-resolve) — *2023-11-03* — "In a Commander game, combat damage you're dealt by a commander is still tracked, even if you don't lose life as a result."
+- [Elderscale Wurm](cards/E/el.md#elderscale-wurm) — *2012-07-01* — "In a Commander game, combat damage you’re dealt by a commander is still tracked, even if it doesn’t change your life total."
+- [Aethersnatch](cards/A/ae.md#aethersnatch) — *2015-11-04* — "Combat damage dealt by a commander is tracked without regard to who controlled the commander at the time it dealt damage. For example, say a commander deals 10 combat damage to a player, leaves the battlefield, is recast, and you gain control of it with Aethersnatch. If it deals another 11 combat damage to that same player, they will lose the game."
+- [Tahngarth, First Mate](cards/T/ta.md#tahngarth-first-mate) — *2019-08-23* — "Commander damage is tracked for each commander. It doesn't matter who controls the commander as it deals damage. If Tahngarth deals 10 damage to one player while under your control and another 11 damage to that same player while under a third player's control, the player loses the game."
+
+## Partner & Backgrounds
+
+**Summary:** Partner variants let you have two commanders (100 cards total, 702.124b). Your color identity is the combined identity of both (702.124c). Each commander has its own commander tax and its own commander-damage count (702.124d). Different partner abilities can't be combined (702.124f).
+
+> **CR 702.124a** — Partner abilities are keyword abilities that modify the rules for deck construction in the Commander variant (see rule 903), and they function before the game begins. Each partner ability allows you to designate two legendary cards as your commander rather than one. Each partner ability has its own requirements for those two commanders. The partner abilities are: partner, partner—[text], partner with [name], choose …
+>
+> **CR 702.124b** — Your deck must contain exactly 100 cards, including its two commanders. Both commanders begin the game in the command zone.
+>
+> **CR 702.124c** — A rule or effect that refers to your commander’s color identity refers to the combined color identities of your two commanders. See rule 903.4.
+>
+> **CR 702.124d** — Except for determining the color identity of your commander, the two commanders function independently. When casting a commander with partner, ignore how many times your other commander has been cast (see rule 903.8). When determining whether a player has been dealt 21 or more combat damage by the same commander, consider damage from each of your two commanders separately (see rule 903.10a).
+>
+> **CR 702.124f** — Different partner abilities are distinct from one another and cannot be combined. For example, you cannot designate two cards as your commander if one of them has “partner” and the other has “partner with [name].”
+>
+> **CR 702.124h** — “Partner” means “You may designate two legendary cards as your commander rather than one if each of them has partner.”
+>
+> **CR 702.124j** — “Partner with [name]” represents two abilities. It means “You may designate two legendary cards as your commander rather than one if each has a ‘partner with [name]’ ability with the other’s name” and “When this permanent enters, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle.”
+>
+> **CR 702.124k** — “Choose a Background” means “You may designate two cards as your commander rather than one if one of them is this card and the other is a legendary Background enchantment card.” You can’t designate two cards as your commander if one has a “choose a Background” ability and the other is not a legendary Background enchantment card, and legendary Background enchantment cards can’t be your commander unless you have also …
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Command Beacon](cards/C/com.md#command-beacon) — *2016-11-08* — "If you have two commanders with the partner ability in the command zone, Command Beacon's effect puts one of your choice into your hand, not both."
+- [Loyal Apprentice](cards/L/lo.md#loyal-apprentice) — *2018-07-13* — "The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set)."
+- [Jaheira, Friend of the Forest](cards/J/ja.md#jaheira-friend-of-the-forest) — *2022-06-10* — "If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander."
+- [Kodama of the East Tree](cards/K/ko.md#kodama-of-the-east-tree) — *2020-11-10* — "You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes."
+- [Karlach, Fury of Avernus](cards/K/ka.md#karlach-fury-of-avernus) — *2022-06-10* — "Choose a Background is a variant of the partner ability. You may have two commanders if one of them is a legendary creature with the choose a background ability and the other is a legendary Background enchantment. Backgrounds and cards with choose a Background do not interact with cards which have any other partner ability."
+- [Kediss, Emberclaw Familiar](cards/K/ke.md#kediss-emberclaw-familiar) — *2020-11-10* — "To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander."
+
+## When a player leaves a multiplayer game
+
+**Summary:** When a player leaves a multiplayer game, everything they **own** leaves with them, and effects that gave them control of something end. Anything they still control after that is exiled (800.4a). Damage that would be assigned to a player who has left isn't assigned (800.4e).
+
+> **CR 800.4a** — When a player leaves the game, all objects (see rule 109) owned by that player leave the game and any effects which give that player control of any objects or players end. Then, if that player controlled any objects on the stack not represented by cards, those objects cease to exist. Then, if there are any objects still controlled by that player, those objects are exiled. This is not a state-based action. It happens …
+>
+> **CR 800.4b** — If an object would change to the control of a player who has left the game, it doesn’t. If a token would be created under the control of a player who has left the game, no token is created. If an object would be put onto the battlefield or onto the stack under the control of a player who has left the game, that object remains in its current zone. If a player would be controlled by a player who has left the game, …
+>
+> **CR 800.4d** — If an object that would be owned by a player who has left the game would be created in any zone, it isn’t created. If a triggered ability that would be controlled by a player who has left the game would be put onto the stack, it isn’t put on the stack.
+>
+> **CR 800.4e** — If combat damage would be assigned to a player who has left the game, that damage isn’t assigned.
+>
+> **CR 800.4j** — If a player leaves the game during their turn, that turn continues to its completion without an active player. If the active player would receive priority, instead the next player in turn order receives priority, or the top object on the stack resolves, or the phase or step ends, whichever is appropriate.
+>
+> **CR 800.4m** — When a player leaves the game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+
+**Official CR examples** (5):
+
+- *CR 800.4a example* — Alex casts Mind Control, an Aura that reads, “You control enchanted creature,” on Bianca’s Assault Griffin. If Alex leaves the game, so does Mind Control, and Assault Griffin reverts to Bianca’s control. If, instead, Bianca leaves the game, so does Assault Griffin, and Mind Control is put into Alex’s graveyard.
+- *CR 800.4a example* — Alex casts Act of Treason, which reads, in part, “Gain control of target creature until end of turn,” targeting Bianca’s Runeclaw Bears. If Alex leaves the game, Act of Treason’s change-of-control effect ends and Runeclaw Bears reverts to Bianca’s control.
+- *CR 800.4a example* — Alex casts Bribery, which reads, “Search target opponent’s library for a creature card and put that card onto the battlefield under your control. Then that player shuffles their library,” targeting Bianca. Alex puts Serra Angel onto the battlefield from Bianca’s library. If Bianca leaves the game, Serra Angel also leaves the game. If, instead, Alex leaves the game, Serra Angel is exiled.
+- *CR 800.4a example* — Alex controls Genesis Chamber, which reads, “Whenever a nontoken creature enters, if Genesis Chamber is untapped, that creature’s controller creates a 1/1 colorless Myr artifact creature token.” If Alex leaves the game, all such Myr tokens that entered the battlefield under Alex’s control leave the game, and all such Myr tokens that entered the battlefield under any other player’s control remain in the game.
+- *CR 800.4d example* — Astral Slide is an enchantment that reads, “Whenever a player cycles a card, you may exile target creature. If you do, return that creature to the battlefield under its owner’s control at the beginning of the next end step.” During Alex’s turn, Bianca uses Astral Slide’s ability to exile Alex’s Hypnotic Specter. Before the end of that turn, Bianca leaves the game. At the beginning of the end step, the delayed triggered ability generated by Astral Slide that would return Hypnotic Specter to the battlefield triggers, but it isn’t put on the stack. Hypnotic Specter never returns to the battlefield.
+
+**Official rulings that apply these rules** (WotC, most-played cards first by EDHREC rank):
+
+- [Reanimate](cards/R/rea.md#reanimate) — *2025-09-19* — "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creature you control from Reanimate is exiled."
+- [Teferi's Protection](cards/T/te.md#teferis-protection) — *2017-08-25* — "If you gain control of another player's permanent and it phases out, if the duration of the control-change effect expires before it phases in, that permanent phases in under that other player's control as your next untap step begins. If you leave the game before your next untap step, it phases in as the next untap step begins after your turn would have begun."
+- [Etali, Primal Storm](cards/E/et.md#etali-primal-storm) — *2021-03-19* — "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali's ability are exiled."
+- [Reality Shift](cards/R/rea.md#reality-shift) — *2014-11-24* — "If a face-down permanent you control leaves the battlefield, you must reveal it. You must also reveal all face-down spells and permanents you control if you leave the game or if the game ends."
+- [Conjurer's Closet](cards/C/con.md#conjurers-closet) — *2020-08-07* — "When an effect returns the exiled card “under your control,” you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Conjurer's Closet effect are exiled."
+- [Wishclaw Talisman](cards/W/wi.md#wishclaw-talisman) — *2019-10-04* — "You choose which opponent gains control of Wishclaw Talisman while its ability is resolving. If that player later leaves the game, you regain control of Wishclaw Talisman."
+
 ## Open questions / next topics
-- Next: sagas & classes (714, 717), phasing (702.26), double-faced cards & transform (712, 701.27), the legend rule (704.5j), "can't" vs. "can" (101.2), and replacement-effect ordering worked examples (616).
+- Possible further topics: morph/disguise & face-down (708), split/adventure/omen cards (709, 715), the monarch & initiative (724, 725), day/night (726), dungeons (309), banding (702.22).
 - ❓ Any rule summary here that disagrees with the quoted text is an error: the quoted CR text wins.
