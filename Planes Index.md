@@ -6,7 +6,7 @@
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn)
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) ⚠️ · [Ulgrotha](#ulgrotha) ⚠️
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -123,6 +123,22 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ✅ Jace Beleren's home plane ("our home plane of Vryn", [PW Guide: Reality Fracture](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-reality-fracture)); after the Echoverse collapsed Jace "was laid to rest as a son of Vryn" in a funerary lake ([RF Episode 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday)). See [Jace's Echoverse](Conflicts%20%26%20Arcs.md#jaces-echoverse-reality-fracture).
 - ⚠️ Vryn's mage-rings and its conflicts (Magic Origins era) are not yet sourced here.
 
+### Regatha
+- ✅ Chandra Nalaar's refuge: her spark ignited and vaulted her "from imminent doom at the hands of Lieutenant Baral to the fire monasteries of Regatha" ([Renegade Prime](https://magic.wizards.com/en/news/magic-story/renegade-prime-2016-09-14)).
+- ✅ Home of the **Keral Keep** monastery of pyromancer-monks (Mother Luti); Chandra trained "on floes of solid rock in the lava field, miles from the Keral Keep monastery on Regatha" ([Offers to the Fire](https://magic.wizards.com/en/news/magic-story/offers-fire-2015-08-05)).
+- ✅ Gideon and Jace went "to Regatha in a fruitless effort to recruit Chandra Nalaar" ([Slaughter at the Refuge](https://magic.wizards.com/en/news/magic-story/slaughter-refuge-2015-08-19)); she "accepted the position of abbot" of the monastery before joining the Gatewatch ([Promises to Keep](https://magic.wizards.com/en/news/magic-story/promises-keep-2015-12-02), which also links an official *Plane Profile: Regatha*).
+- ✅ Jaya Ballard: "A long time ago, I went to Regatha … Two hundred years later, I went back and found they'd started a religion based on me" ([Return to Dominaria Ep. 9](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-9-2018-05-09)). Characters: [Chandra Nalaar](Characters%20Index.md#chandra-nalaar), [Jaya Ballard](Characters%20Index.md#jaya-ballard).
+
+### Rath
+- ✅ Weatherlight-saga plane. In *Torrent* (Wizards story archive, dated 2007-02-12 in page metadata) Starke tells Gerrard "I can lead you to Rath … I can help you find Sisay," and Gerrard suspects Starke handed Sisay "over to Volrath"; Starke also claims to have seen the angel Selenia "once in Rath" ([Torrent](https://magic.wizards.com/en/news/magic-story/torrent)).
+- ⚠️ Rath's nature (an artificial plane used for Phyrexia's invasion of Dominaria) is widely known from the Tempest-era novels but is **not stated in any fetched source**; see [Phyrexia vs. Dominaria & the Weatherlight](Conflicts%20%26%20Arcs.md#phyrexia-vs-dominaria--the-weatherlight).
+
+### Mercadia
+- ⚠️ **No official source found.** No Wizards story or plane page for Mercadia is in the fetched sitemap or corpus, and `magic.wizards.com/en/story/mercadia-plane` returned 404 (checked 2026-10-15). Nothing about it is recorded here until a source is found.
+
+### Ulgrotha
+- ⚠️ **No official source found.** Same check as Mercadia: no sitemap or corpus hit, and `/en/story/ulgrotha-plane` returned 404 (2026-10-15).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -131,4 +147,4 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 
 ## Gaps / next to add
 - **Done in Bot cycle 2:** Eldraine, Kaldheim, Ikoria, New Capenna, Phyrexia (original) + New Phyrexia's spheres, Ravnica post-invasion, Skalla, Vryn (stub).
-- **Still to add:** Ergamon, Regatha, Segovia, Muraganda, Rath, Ulgrotha, Mercadia, Kylem, Gobakhan, Vryn (mage-rings / Magic Origins), Dominaria United-era Dominaria, Theros Beyond Death, Zendikar Rising, Kamigawa: Neon Dynasty detail, Strixhaven colleges, Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
+- **Still to add:** Ergamon, Segovia, Muraganda, Mercadia & Ulgrotha (⚠️ stubs — no official source found yet), Kylem, Gobakhan, Vryn (mage-rings / Magic Origins), Dominaria United-era Dominaria, Theros Beyond Death, Zendikar Rising, Kamigawa: Neon Dynasty detail, Strixhaven colleges, Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
