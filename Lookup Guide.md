@@ -1,6 +1,6 @@
 # Lookup Guide
 
-> **Bot cycle 9 · issue [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) (Phase 4, first pass).** The fastest way to find each kind of fact in this repo, with commands tested against the current data. Start from the [Knowledge Index](Knowledge%20Index.md) when browsing. Use this page when you know what you want.
+> **Bot cycle 14 · issue [#46](https://github.com/corymstover/GrokBotMTGCompanion/issues/46) (Phase 4, first pass).** The fastest way to find each kind of fact in this repo, with commands tested against the current data. Start from the [Knowledge Index](Knowledge%20Index.md) when browsing. Use this page when you know what you want.
 
 ## Contents
 - [Cards](#cards)
