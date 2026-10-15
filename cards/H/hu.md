@@ -180,6 +180,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Huatli’s last ability affects only Dinosaurs you control at the time it resolves. Dinosaurs you begin to control later in the turn or creatures that become Dinosaurs later in the turn won’t get +4/+4.
   - *2017-09-29* — If either creature is an illegal target as Huatli’s second ability resolves, the creature you control won’t deal damage.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatli-dinosaur-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/285/huatli-dinosaur-knight) · oracle_id `04aa210a-235f-4e07-87d1-0d28cdf6888b` · printing: XLN #285 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Poet of Unity // Roar of the Fifth People
@@ -199,6 +200,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9406 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-11-10* — Roar of the Fifth People's second chapter ability doesn't have a duration. It will continue to apply as long as Roar of the Fifth People remains on the battlefield.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-poet-of-unity--roar-of-the-fifth-people)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/189/huatli-poet-of-unity-roar-of-the-fifth-people) · oracle_id `2e6ed3e6-d2b8-4b75-b7e1-0773da4987a1` · printing: LCI #189 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Radiant Champion
@@ -214,6 +216,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If you activate Huatli's first ability while you control no creatures, she'll get one loyalty counter from the ability's activation cost and no others as it resolves.
   - *2018-01-19* — The number of creatures you control is counted only as Huatli's first or second ability resolves. Once her second ability resolves, the bonus won't change, even if the number of creatures you control changes later in the turn.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#huatli-radiant-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/159/huatli-radiant-champion) · oracle_id `5ab5b82a-83e1-44d7-b8c3-9cd7accc1ca4` · printing: RIX #159 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli's Final Strike
@@ -227,6 +230,7 @@ schema: 2
   > *—Huatli, to Vito*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19559 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatlis-final-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/190/huatlis-final-strike) · oracle_id `20acb8df-2ea0-48b0-8dcf-54dd0e1f8db8` · printing: LCI #190 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1247a5fa-b50a-4ab1-96ca-dbeb45bd0b56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli's Raptor
@@ -289,6 +293,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Huatli’s first ability doesn’t actually change any creature’s power. It changes only the amount of combat damage it assigns. All other rules and effects that check power or toughness use the real values. For example, Domri’s Ambush won’t cause a creature to deal damage equal to its toughness.
   - *2019-05-03* — The greatest toughness among creatures you control is determined only as Huatli’s loyalty ability begins to resolve.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/H.md#huatli-the-suns-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/230/huatli-the-suns-heart) · oracle_id `e1a13723-a6b1-4160-8eb5-f7a4860898a3` · printing: WAR #230 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huatli, Warrior Poet
@@ -306,6 +311,7 @@ schema: 2
   - *2017-09-29* — The greatest power among creatures you control is determined as Huatli's first ability resolves. If that number is negative, you won't gain or lose any life.
   - *2017-09-29* — You can activate Huatli's first ability even if you control no creatures. You simply won't gain any life.
   - *2017-09-29* — You divide the damage among the target creatures as you activate Huatli's last ability. Each target must be assigned at least 1 damage. If X is 0, you can't choose any targets.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#huatli-warrior-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/224/huatli-warrior-poet) · oracle_id `3ec889bc-f4d7-492a-91c3-d3691eb90eac` · printing: XLN #224 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hua Tuo, Honored Physician
@@ -318,6 +324,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14603 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hua-tuo-honored-physician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/149/hua-tuo-honored-physician) · oracle_id `00284955-0a1b-4939-9567-a7d34cbcee51` · printing: C13 #149 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hubris
@@ -440,6 +447,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8751 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hulkbuster-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/107/hulkbuster-armor) · oracle_id `abc3f55e-5fc6-44b3-a2f5-b8f49d93249f` · printing: MSC #107 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0cd857a3-ad93-4d74-80e0-c99d0a04a60a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk, Gamma Goliath
@@ -481,6 +489,7 @@ schema: 2
   > *Anyone can get around a cyclops, but few can stand in its way.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31632 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hulking-cyclops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/195/hulking-cyclops) · oracle_id `04936918-7ef3-42fa-b0cd-87d18cb69d2c` · printing: 8ED #195 (2003-07-28) · [rulings](https://api.scryfall.com/cards/dc1a5428-9bb4-4e2b-ba94-fccd321ce537/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulking Devil
@@ -535,6 +544,7 @@ schema: 2
   - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
   - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
   - *2022-10-14* — You can choose not to copy anything. In that case, Hulking Metamorph simply enters the battlefield as a 7/7 (or 3/3) artifact creature.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hulking-metamorph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/79/hulking-metamorph) · oracle_id `b2b09dc3-8239-4f3b-91d2-e7cbbdc062f7` · printing: BRO #79 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulking Ogre
@@ -564,6 +574,7 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1937 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#hulking-raptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/191/hulking-raptor) · oracle_id `9f2e7533-cfc1-4dd8-a9b8-09cdc712ef2f` · printing: LCI #191 (2023-11-17) · [rulings](https://api.scryfall.com/cards/45f763af-5a6a-404c-8e8c-4dbed71277bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulkling, Burgeoning Bruiser
@@ -594,6 +605,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19666 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hulkling-young-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/689/hulkling-young-avenger) · oracle_id `c92f20c4-838d-43a1-8a71-dae205789d94` · printing: MSC #689 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6358d9ec-7542-4364-8bba-ca29fe470338/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HULK SMASH!
@@ -608,6 +620,7 @@ schema: 2
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11183 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hulk-smash)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/135/hulk-smash!) · oracle_id `5f97d49c-d0fa-4776-9455-93c1a172cd83` · printing: MSH #135 (2026-06-26) · [rulings](https://api.scryfall.com/cards/374ffb3e-0753-4682-936a-ae6921ace475/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hulk's Thunderclap
@@ -652,6 +665,7 @@ schema: 2
   > *—Human Torch, Johnny Storm*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2421 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hull-breach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/185/hull-breach) · oracle_id `2da232d8-580f-4116-b977-2c59cd21b5a4` · printing: MSC #185 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3ff49b0b-322b-4b98-8604-d6716f3bec39/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullbreacher
@@ -669,6 +683,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If multiple replacement effects apply to the same card draw, the player drawing the card chooses the order in which to apply them.
   - *2020-11-10* — If you control multiple Hullbreachers while an opponent would draw a card except their first one in their draw step, you'll create only one Treasure.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/H.md#hullbreacher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/74/hullbreacher) · oracle_id `2f533667-e29b-4bec-897a-e7a9eee08314` · printing: CMR #74 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullbreaker Horror
@@ -685,6 +700,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #278 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (2 decks · 5 edh guides · 1 card data) → [reverse index](../../references/H.md#hullbreaker-horror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/68/hullbreaker-horror) · oracle_id `d4a84e78-d9b9-4c67-8a4b-4329e65f0f15` · printing: INR #68 (2025-01-24) · [rulings](https://api.scryfall.com/cards/137acb70-a1fd-4ea9-a5d9-f4b438eb5e82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hullcarver
@@ -714,6 +730,7 @@ schema: 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10806 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hulldrifter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/47/hulldrifter) · oracle_id `a0a7319d-9441-4aed-a351-9ff3fb3b1d9e` · printing: DFT #47 (2025-02-14) · [rulings](https://api.scryfall.com/cards/402666f8-c9cc-4e8f-abaa-6c38be90cdd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Human Frailty
@@ -753,6 +770,7 @@ schema: 2
 - **Keywords:** Flying, Power-up
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12754 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#human-torch-johnny-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/136/human-torch-johnny-storm) · oracle_id `5b6f2770-e774-4a77-801f-a3fda093c3dd` · printing: MSH #136 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8f8659f6-a793-4edc-8401-d9126840c1c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Humble
@@ -801,6 +819,7 @@ schema: 2
   - *2020-11-10* — If Humble Defector is controlled by a player other than its owner, and its controller leaves the game, the effect giving that player control of Humble Defector ends. Humble Defector will return to the control of the player still in the game who most recently controlled it.
   - *2020-11-10* — If Humble Defector isn't on the battlefield as its ability resolves, but the target player is still a legal target, the ability will resolve. You'll draw two cards, even though the player doesn't gain control of Humble Defector.
   - *2020-11-10* — If Humble Defector's owner leaves the game, Humble Defector humbly leaves the game along with that player.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#humble-defector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/170/humble-defector) · oracle_id `1582e16d-4825-4cc5-b12c-449c45e4e449` · printing: OTC #170 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Humble Naturalist
@@ -896,6 +915,7 @@ schema: 2
   - *2006-02-01* — With a Humility and two Opalescences on the battlefield, if Humility has the latest timestamp, then all creatures are 1/1 with no abilities. If the timestamp order is Opalescence, Humility, Opalescence, the second Opalescence is 1/1, and the Humility and first Opalescence are 4/4. If Humility has the earliest timestamp, then everything is 4/4.
   - *2007-02-01* — Removes all creature abilities. This includes mana abilities. Animated lands will also lose the ability to tap for mana.
   - *2009-10-01* — This is the current interaction between Humility and Opalescence: The type-changing effect applies at layer 4, but the rest happens in the applicable layers. The rest of it will apply even if the permanent loses its ability before it's finished applying. So if Opalescence, Humility, and Worship are on the battlefield and Opalescence entered before Humility, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments. (Opalescence). Layer 6: Humility and Worship each lose their abilities. (Humility) Layer 7b: Humility becomes 4/4 and Worship becomes 4/4. (Opalescence). Humility becomes 1/1 and Worship becomes 1/1 (Humility). But if Humility entered before Opalescence, the following is true: Layer 4: Humility and Worship each become creatures that are still enchantments (Opalescence). Layer 6: Humility and Worship each lose their abilities (Humility). Layer 7b: Humility becomes 1/1 and Worship becomes 1/1 (Humility). Humility becomes 4/4 and Worship becomes 4/4 (Opalescence).
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/H.md#humility)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/16/humility) · oracle_id `ed7bdb3e-5c51-4547-9266-76a791e0b2b0` · printing: TPR #16 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Humming-
@@ -1135,6 +1155,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22294 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — You can’t cast Hungry Flames unless you target both a creature and a player. If one target is illegal as Hungry Flames resolves, the spell deals damage to the remaining legal target.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/H.md#hungry-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/336/hungry-flames) · oracle_id `a2c00788-14e7-4ab5-8c71-2a176621a177` · printing: JMP #336 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungry for More
@@ -1153,6 +1174,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hungry-for-more)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/228/hungry-for-more) · oracle_id `3eaf1e6b-bf4c-4ea8-83ea-6827470fd802` · printing: MID #228 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungry Ghoul
@@ -1218,6 +1240,7 @@ schema: 2
   - *2017-08-25* — Nothing other than the specified events is prevented or illegal. Hungry Lynx can’t block a Rat with the ability “This creature can’t be blocked,” for example.
   - *2017-08-25* — The opponent who creates the Rat token is the owner of that token.
   - *2017-08-25* — Tokens that are sacrificed or destroyed are put into their owner’s graveyard before ceasing to exist. If the token was a Rat, Hungry Lynx’s last ability will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hungry-lynx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/31/hungry-lynx) · oracle_id `a5fdc358-25de-4a5b-b965-53a01df6019c` · printing: C17 #31 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hungry Megasloth
@@ -1316,6 +1339,7 @@ schema: 2
   - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/H.md#hunted-bonebrute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/87/hunted-bonebrute) · oracle_id `c1d9c41a-0941-4b7e-b8a6-890d30386458` · printing: MKM #87 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted by The Family
@@ -1345,6 +1369,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13141 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-10-01* — The tokens are the color white and have name and creature type Knight. They are *not* functionally identical to the card White Knight.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hunted-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/106/hunted-dragon) · oracle_id `39a4416f-9b40-432e-aeb6-cc7bf519b37a` · printing: CM2 #106 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Ghoul
@@ -1371,6 +1396,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4624 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hunted-horror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/758/hunted-horror) · oracle_id `3469463e-ed4d-44bb-81f3-42bbe09d34ad` · printing: CLB #758 (2022-06-10) · [rulings](https://api.scryfall.com/cards/02f74866-d0ea-42ce-bc44-500219fb73d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Lammasu
@@ -1386,6 +1412,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15005 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hunted-lammasu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/94/hunted-lammasu) · oracle_id `a76667b5-2144-4395-a5c1-57cb3c29a99e` · printing: C21 #94 (2021-04-23) · [rulings](https://api.scryfall.com/cards/ea6daa57-1520-40a9-90c7-fa7283f4a687/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Nightmare
@@ -1442,6 +1469,7 @@ schema: 2
   > *He ferried weapons, spells, exotic animals—but his most dangerous cargo was the truth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7894 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hunted-witness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/15/hunted-witness) · oracle_id `1fde570c-aa96-45ca-a6be-f59c8e4f4b6a` · printing: GRN #15 (2018-10-05) · [rulings](https://api.scryfall.com/cards/8c31b8e5-2349-4119-9dc2-3e41c5364a78/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunted Wumpus
@@ -1569,6 +1597,7 @@ schema: 2
   > *—Garruk Wildspeaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1067 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#hunters-insight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/296/hunters-insight) · oracle_id `cf8a0782-f545-445e-abac-d9063dad696b` · printing: CMM #296 (2023-08-04) · [rulings](https://api.scryfall.com/cards/de399acd-e792-4f4a-8025-434f1080c0fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter Sliver
@@ -1608,6 +1637,7 @@ schema: 2
   > *To be counted among the warriors of Setessa's Leina Tower, you must not fear death, only failure.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5604 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hunters-prowess)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/152/hunters-prowess) · oracle_id `e1a776d2-fb3a-4215-a14e-4b6e9bda95df` · printing: C17 #152 (2017-08-25) · [rulings](https://api.scryfall.com/cards/64e0f9db-fd82-44d0-9d98-12275e2f05e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunter's Talent
@@ -1631,6 +1661,7 @@ schema: 2
   - *2024-07-26* — If either target is illegal as the level 1 class ability resolves, no damage will be dealt. If both targets are illegal, the ability won't resolve at all.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hunters-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/179/hunters-talent) · oracle_id `a8a9b103-0cb8-4810-a2d7-42f6a10f80bd` · printing: BLB #179 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunt for Specimens
@@ -1660,6 +1691,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
   - *2009-10-01* — Hunting Cheetah's ability allows you to search your library for any card with the land type Forest, not just a card with the name Forest.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hunting-cheetah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/124/hunting-cheetah) · oracle_id `057e1cfc-d528-49e1-a386-9fb1edc1d135` · printing: ME3 #124 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunting Drake
@@ -1753,6 +1785,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hunting-triad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/116/hunting-triad) · oracle_id `66bf0c4b-0c36-4d63-a929-5a7427a07279` · printing: CMA #116 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunting Velociraptor
@@ -1771,6 +1804,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Prowl compares the creature types of the spell with the creature types of the creatures that dealt combat damage to players this turn. For example, this means that normally, if you control Hunting Velociraptor, you can cast Grim Giganotosaurus for its prowl cost only if a Dinosaur dealt combat damage to a player, but if an effect causes the spell to have other creature types, the prowl ability is also satisfied by a creature with those additional types having dealt combat damage to a player.
   - *2023-11-10* — You can cast a spell for its prowl cost any time in a turn after a creature you control of a matching type has dealt combat damage to a player. It doesn't matter if that player left the game, if that creature left the battlefield or left your control, or if that creature no longer has a matching type.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hunting-velociraptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/4/hunting-velociraptor) · oracle_id `bca33fb6-cd37-4259-8c0b-7a4675754a00` · printing: REX #4 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunting Wilds
@@ -1825,6 +1859,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8688 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#huntmaster-of-the-fells--ravager-of-the-fells)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/241/huntmaster-of-the-fells-ravager-of-the-fells) · oracle_id `582328cd-660d-47a4-bb23-e91e80b9a907` · printing: INR #241 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hunt the Hunter
@@ -1882,6 +1917,7 @@ schema: 2
   > Return all nonland permanents to their owners' hands. End the turn. (Exile all spells and abilities from the stack, including this card. The player whose turn it is discards down to their maximum hand size. Damage wears off, and "this turn" and "until end of turn" effects end.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17782 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#hurkyls-final-meditation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/52/hurkyls-final-meditation) · oracle_id `a2099033-42d9-47ac-90c7-b41b55b7dadd` · printing: BRO #52 (2022-11-18) · [rulings](https://api.scryfall.com/cards/5577f345-9577-42f8-b244-089b9a7c2e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurkyl's Recall
@@ -1896,6 +1932,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It only returns artifacts which are on the battlefield.
   - *2004-10-04* — Retrieves all artifacts owned by the target player regardless of who controls them. Ignores artifacts owned by other players even if target player has control of them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hurkyls-recall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/48/hurkyls-recall) · oracle_id `ed1e5d24-c8a8-48fe-a88f-1003ad432477` · printing: MM2 #48 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurler Cyclops
@@ -1931,6 +1968,7 @@ schema: 2
   - *2023-11-10* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect's discover value) but not both halves.
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/H.md#hurl-into-history)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/59/hurl-into-history) · oracle_id `016718df-2eb5-499f-adea-18231c0375b3` · printing: LCI #59 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurloon Battle Hymn
@@ -2006,6 +2044,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If the creature you exile is actually a land card that was animated, you won't be able to play the land card from exile.
   - *2021-07-23* — You must still follow all normal timing rules for casting the spell.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/H.md#hurl-through-hell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/48/hurl-through-hell) · oracle_id `4254c048-7207-4ca0-bd20-ebb418d9ed1a` · printing: AFC #48 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurly-Burly
@@ -2032,6 +2071,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8968 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Whether or not a creature has flying is only checked on resolution.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hurricane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/270/hurricane) · oracle_id `9c021685-4017-49c7-9f58-2ae0243361a0` · printing: 10E #270 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hurr Jackal
@@ -2131,6 +2171,7 @@ schema: 2
   > *Here, the Hauntwoods churn like a viper's nest, as monstrous creatures prowl hungrily toward the ghostly light.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #674 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/H.md#hushwood-verge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/261/hushwood-verge) · oracle_id `cce328b9-6100-417e-9ddf-808bbe3e3bc5` · printing: DSK #261 (2024-09-27) · [rulings](https://api.scryfall.com/cards/ec288d76-c1f5-471b-8a53-504f88469c1b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Huskburster Swarm
@@ -2178,4 +2219,5 @@ schema: 2
   - *2024-02-02* — If the creature targeted by Hustle is tapped or is affected by a spell or ability that says it can't attack or block, then it won't attack or block this turn. If there's a cost associated with having that creature attack or block, its controller isn't forced to pay that cost, so it doesn't have to attack or block in that case either.
   - *2024-02-02* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2024-02-02* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of any of the split cards featured in this set.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/H.md#hustle--bustle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/249/hustle-bustle) · oracle_id `e294d85f-caf2-4939-99d3-7ca5bba2b8d1` · printing: MKM #249 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

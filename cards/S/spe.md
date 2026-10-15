@@ -156,6 +156,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3537 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — In a Two-Headed Giant game, you can activate the ability only if your team's life total is at least 7 more than your team's starting life total.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#speaker-of-the-heavens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/38/speaker-of-the-heavens) · oracle_id `e4bacf1b-0a45-4c73-857d-dffadb7e6fa5` · printing: M21 #38 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spearbreaker Behemoth
@@ -248,6 +249,7 @@ schema: 2
 - **Keywords:** Foot Toss, Dash Attack, Jump Kick
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10413 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#special-move)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/26/special-move) · oracle_id `7564afbb-b29e-4234-a3b2-3354c6f5c90a` · printing: TMC #26 (2026-03-06) · [rulings](https://api.scryfall.com/cards/600e2c3f-dfbd-4d5c-813a-47ae2d75ac12/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Species Gorger
@@ -279,6 +281,7 @@ schema: 2
   - *2020-04-17* — If Species Specialist happens to have the chosen creature type, its ability triggers when it dies.
   - *2020-04-17* — If a creature of the chosen type dies at the same time as Species Specialist, its ability triggers for that creature.
   - *2020-04-17* — You must choose an existing creature type, such as Human or Warrior. Card types such as artifact and supertypes such as legendary can’t be chosen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#species-specialist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/47/species-specialist) · oracle_id `51feda69-0ae8-4df3-bb50-a4bb9deb965d` · printing: C20 #47 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specimen Collector
@@ -292,6 +295,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23125 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — For Specimen Collector's last ability, the target token can be any token you control, not necessarily one of the token creatures you created due to its first ability, and not necessarily even a creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#specimen-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/64/specimen-collector) · oracle_id `fdb51cc1-ce0e-4920-b123-1cdd570fc38b` · printing: MH2 #64 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specimen Freighter
@@ -354,6 +358,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9279 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spectacular-pileup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/29/spectacular-pileup) · oracle_id `8f7479e6-b2bd-46b1-96ad-34deb43565c1` · printing: DFT #29 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a24a6309-0e69-45f0-a9ff-44d4997e7e4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Showdown
@@ -370,6 +375,7 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spectacular-showdown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/162/spectacular-showdown) · oracle_id `b6f61b77-d571-4508-a5e8-435b4e097f3a` · printing: MKC #162 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Skywhale
@@ -400,6 +406,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3081 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spectacular-spider-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pspl/6/spectacular-spider-man) · oracle_id `eed5e0cc-8f88-4779-bf10-6a823c72df7f` · printing: PSPL #6 (2025-10-24) · [rulings](https://api.scryfall.com/cards/3f1b7b3e-3449-4c8f-8eb7-aacc62d9eadd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectacular Tactics
@@ -431,6 +438,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#spectator-seating)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/268/spectator-seating) · oracle_id `cf6d10ed-85c3-48f2-8ba0-2960e03b408b` · printing: MSC #268 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Specter of Mortality
@@ -739,6 +747,7 @@ schema: 2
   - *2008-05-01* — A card with monocolored hybrid mana symbols in its mana cost has a mana value equal to the highest possible cost it could be cast for. Its mana value never changes. Thus, Spectral Procession has a mana value of 6, even if you spend {W}{W}{W} to cast it.
   - *2008-05-01* — If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Spectral Procession by spending {W}{W}{W}, {2}{W}{W}, {4}{W}, or {6}.
   - *2008-05-01* — If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you've chosen a method of paying for it that includes generic mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spectral-procession)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/33/spectral-procession) · oracle_id `376271a6-80f0-47a6-990a-5ec5517aae42` · printing: MM2 #33 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Reserves
@@ -783,6 +792,7 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1986 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#spectral-sailor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/746/spectral-sailor) · oracle_id `a8fdbcdf-479d-4582-9ad5-9fbd4c740c29` · printing: FDN #746 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5ef30b6c-0806-4bf6-9a84-c2aea8d84cf1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spectral Searchlight
@@ -1027,6 +1037,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1918 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Spellbook onto the battlefield, you'll have no maximum hand size. However, if those permanents entered in the opposite order, your maximum hand size would be two.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spellbook)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/220/spellbook) · oracle_id `83133f51-bfbd-4db5-9be0-f660e3b66435` · printing: M10 #220 (2009-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellbook Seeker // Careful Study
@@ -1310,6 +1321,7 @@ schema: 2
   - *2019-11-12* — To cast a spell with a morph ability, you turn it face down before determining whether it’s legal to cast. The face-down spell (and the permanent it becomes) is a 2/2 creature with no name, mana cost, creature types, or abilities. It’s colorless and has a converted mana cost of 0, and the cost to cast the spell is {3}. Other effects that apply to the spell or permanent can still grant or change any of these characteristics.
   - *2019-11-12* — To cast a spell with spellmorph from the battlefield, first reveal that it has a spellmorph cost. If it does, ignore all effects that are affecting it to determine whether it’s legal to cast; it’s no longer a creature. If it’s legal to cast, move it to the stack. If you realize that you can’t legally cast the spell, the game rewinds and it remains face down on the battlefield.
   - *2019-11-12* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix them up on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spellmorph-raise-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/46/spellmorph-raise-dead) · oracle_id `d8f5c632-48d2-416a-9bdd-59f9b8bcd212` · printing: CMB2 #46 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Pierce
@@ -1322,6 +1334,7 @@ schema: 2
   > *The druid's aim was dead on. But their choice of target was dead wrong.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #903 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#spell-pierce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/64/spell-pierce) · oracle_id `d64b0848-0193-4025-ba62-63ecd8fb9f50` · printing: DFT #64 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8dd4374f-0301-4b2e-bc99-2cd19568cb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellpyre Phoenix
@@ -1448,6 +1461,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spellscorn-coven--take-it-back)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/237/spellscorn-coven-take-it-back) · oracle_id `9357fc7f-c9d0-4ce2-a6dd-0ff1f24bfc56` · printing: WOE #237 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellseeker
@@ -1462,6 +1476,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1056 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If the mana cost of a card in your library includes {X}, X is considered to be 0.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#spellseeker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/120/spellseeker) · oracle_id `47a785ed-8095-4685-8daa-02c4e2b0ffcd` · printing: CMM #120 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellshift
@@ -1525,6 +1540,7 @@ schema: 2
   - *2020-08-07* — If changing one target of a spell or ability to Spellskite would make other targets of that spell or ability illegal, that target can't be changed to Spellskite.
   - *2020-08-07* — If the spell or ability has multiple instances of the word “target,” you choose which one target you're changing to Spellskite as Spellskite's ability resolves.
   - *2020-08-07* — You can activate Spellskite's ability even if Spellskite isn't a legal target for the target spell or ability—or even if that spell or ability has no targets. In this case, no targets are changed.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#spellskite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/873/spellskite) · oracle_id `e0aa6ce0-ca31-433b-ac6c-32b8675cdb71` · printing: CLB #873 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Snare
@@ -1595,6 +1611,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3626 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-10-01* — The value of X needs to be determined both when the ability triggers (so you can choose a target) and again when the ability resolves (to check if that target is still legal). If the number of Faeries you control has decreased enough in that time to make the target illegal, Spellstutter Sprite’s ability won’t resolve (and the targeted spell will resolve as normal).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spellstutter-sprite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/65/spellstutter-sprite) · oracle_id `32e60fb4-e841-4f82-9c83-5e63766e8e6f` · printing: MMA #65 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spell Suck
@@ -1702,6 +1719,7 @@ schema: 2
   - *2017-07-14* — Afflict resolves before combat damage is dealt. If this loss of life brings a player to 0 life or less, that player loses the game immediately. A blocking creature with lifelink won't deal combat damage in time to save that player.
   - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
   - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#spellweaver-eternal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/46/spellweaver-eternal) · oracle_id `71f3d3d3-3f82-43f6-b2a9-d21afbdd7739` · printing: HOU #46 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spellweaver Helix
@@ -1761,6 +1779,7 @@ schema: 2
   - *2007-05-01* — The cost reduction applies to spells cast by any player.
   - *2007-05-01* — The cost reduction will be {2} no matter how many times the spell targets the same Spellwild Ouphe.
   - *2007-05-01* — The spell may have any number of other targets; that won’t affect the cost reduction unless the spell targets other Spellwild Ouphes as well. In that case, the spell costs {2} less to cast for each different Spellwild Ouphe it targets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#spellwild-ouphe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/151/spellwild-ouphe) · oracle_id `13979fb6-91ba-4dd2-9bb9-8dbc7307d433` · printing: FUT #151 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Spelunking
@@ -1774,4 +1793,5 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If Spelunking would enter the battlefield at the same time a land you control would enter the battlefield tapped, that land still enters the battlefield tapped.
   - *2023-11-10* — If a land has an ability that says it enters the battlefield tapped, you choose the order in which that ability's effect and Spelunking's effect apply. This means you can choose to have the land enter tapped or untapped. If a land you control is simply put onto the battlefield tapped without a replacement effect being applied, it always enters untapped if you control Spelunking.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#spelunking)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/213/spelunking) · oracle_id `2962fe4c-bf48-454b-8a6b-0f8253352ae8` · printing: LCI #213 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

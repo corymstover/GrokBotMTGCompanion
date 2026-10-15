@@ -69,4 +69,5 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/D.md#deduce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/52/deduce) · oracle_id `eeae4161-9f35-45df-8b3c-c55e37f49cd1` · printing: MKM #52 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

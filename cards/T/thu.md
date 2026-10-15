@@ -152,6 +152,7 @@ schema: 2
 - **Rulings** (2):
   - *2007-05-01* — Thunderblade Charge triggers only once per combat damage step per player no matter how many of your creatures deal combat damage to that player, how much damage is dealt, or who that player is. (It might be you if the combat damage is redirected.)
   - *2007-05-01* — When the ability triggers, first you choose whether to pay {2}{R}{R}{R}. If you paid, then you choose whether to cast the spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thunderblade-charge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/124/thunderblade-charge) · oracle_id `b4f31434-b7c4-489b-9385-70ee0cc3125e` · printing: FUT #124 (2007-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderblust
@@ -188,6 +189,7 @@ schema: 2
   > *—Hadaken, alchemist of Nephalia*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20267 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thunderbolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/159/thunderbolt) · oracle_id `6ffae2fa-511a-45bf-93c4-5d53c85324f5` · printing: AVR #159 (2012-05-04) · [rulings](https://api.scryfall.com/cards/5845a5bc-6b7d-4bbb-80b3-a0f877b95553/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderbolts Conspiracy
@@ -202,6 +204,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14721 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thunderbolts-conspiracy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/117/thunderbolts-conspiracy) · oracle_id `d90a5213-3363-4cd1-97d6-4fc057f78b2a` · printing: MSH #117 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f498c1a4-54d2-4e87-952f-8cf7e408930c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderbreak Regent
@@ -218,6 +221,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3018 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — Thunderbreak Regent's ability will resolve before the spell or ability that caused it to trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thunderbreak-regent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/241/thunderbreak-regent) · oracle_id `bb04f927-0348-4a14-9e74-381f18083f6a` · printing: TDC #241 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Brute
@@ -238,6 +242,7 @@ schema: 2
   - *2014-02-01* — The choice of whether to pay tribute is made as the creature with tribute is entering the battlefield. At that point, it’s too late to respond to the creature spell. For example, in a multiplayer game, opponents won’t know whether tribute will be paid or which opponent will be chosen to pay tribute or not when deciding whether to counter the creature spell.
   - *2014-02-01* — The triggered ability will resolve even if the creature with tribute isn’t on the battlefield at that time.
   - *2017-04-18* — For effects that check which player put counters on the entering creature, the player chosen to pay tribute puts those counters on it, not the creature’s controller.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#thunder-brute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/113/thunder-brute) · oracle_id `ee1d97e9-847d-4295-a9c1-7ce8006fb0bd` · printing: BNG #113 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderclap
@@ -272,6 +277,7 @@ schema: 2
   - *2024-04-12* — Thunderclap Drake's second ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that spell's cost.
   - *2024-04-12* — Thunderclap Drake's second ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay to cast instant and sorcery spells.
   - *2024-04-12* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copies too.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#thunderclap-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/204/thunderclap-drake) · oracle_id `88d0a394-79e2-42ac-9a37-1a7b78231941` · printing: SOC #204 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderclap Wyvern
@@ -385,6 +391,7 @@ schema: 2
   - *2014-11-07* — If you lose control of your commander, lieutenant abilities of creatures you control will immediately stop applying. If this causes a creature's toughness to become less than or equal to the amount of damage marked on it, the creature will be destroyed.
   - *2014-11-07* — Lieutenant abilities apply only if your commander is on the battlefield and under your control.
   - *2014-11-07* — Lieutenant abilities refer only to whether you control your commander, not any other player's commander.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/T.md#thunderfoot-baloth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/201/thunderfoot-baloth) · oracle_id `f55334d9-1ec2-4667-bf28-5a0384d6f053` · printing: DSC #201 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderhawk Gunship
@@ -400,6 +407,7 @@ schema: 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3694 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#thunderhawk-gunship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/167/thunderhawk-gunship) · oracle_id `d64a4ad2-c80e-4a7f-93f2-b702916dba07` · printing: 40K #167 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6790720a-e1f3-4533-acd8-b002c8e91929/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderhead Gunner
@@ -431,6 +439,7 @@ schema: 2
 - **Keywords:** Replicate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thunderheads)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/23/thunderheads) · oracle_id `9c5bc3a7-42fe-4f8f-b799-ece7dd98ea4d` · printing: DDJ #23 (2012-09-07) · [rulings](https://api.scryfall.com/cards/bf0a2851-946d-4f10-b43b-7444daa54ae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderhead Squadron
@@ -466,6 +475,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5527 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thunderherd-migration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/259/thunderherd-migration) · oracle_id `006bbd8b-2007-419d-8b84-9ff73f2f95b7` · printing: LCC #259 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Broodwagon
@@ -542,6 +552,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #626 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#thundering-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/269/thundering-falls) · oracle_id `d2bcff58-7a8a-46ef-b6b3-39501d4c8e6e` · printing: MKM #269 (2024-02-09) · [rulings](https://api.scryfall.com/cards/17260fff-b239-4af4-9306-3236ae3fa5a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Giant
@@ -585,6 +596,7 @@ schema: 2
   - *2022-02-18* — A creature that is equipped is considered modified no matter who controls the Equipment that's attached to it.
   - *2022-02-18* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2022-02-18* — An Aura controlled by an opponent does not cause a creature you control to be modified.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thundering-raiju)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/166/thundering-raiju) · oracle_id `3d713c11-36a7-4b19-8c42-a9b61ef5902c` · printing: NEO #166 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Rebuke
@@ -630,6 +642,7 @@ schema: 2
   > *—Captain Brinely Rage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8630 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#thundering-spineback)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/260/thundering-spineback) · oracle_id `c9db31d7-00cf-4200-a11f-74cc2d9e843e` · printing: LCC #260 (2023-11-17) · [rulings](https://api.scryfall.com/cards/0c65d26e-b529-43ba-9e6e-82aed27cbbfc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thundering Tanadon
@@ -862,6 +875,7 @@ schema: 2
 - **Keywords:** Crew, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6751 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thunderous-velocipede)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/183/thunderous-velocipede) · oracle_id `899007b5-6a07-4491-9104-bb537106b07d` · printing: DFT #183 (2025-02-14) · [rulings](https://api.scryfall.com/cards/98a79557-8ed6-4d9a-b4e1-cece05664984/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderous Wrath
@@ -1042,6 +1056,7 @@ schema: 2
   - *2008-10-01* — If you cast this as a spell, you choose how many and which creatures to devour as part of the resolution of that spell. (It can't be countered at this point.) The same is true of a spell or ability that lets you put a creature with devour onto the battlefield.
   - *2008-10-01* — You may choose not to sacrifice any creatures for the Devour ability.
   - *2008-10-01* — You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#thunder-thrash-elder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pca/53/thunder-thrash-elder) · oracle_id `aef6c5b3-824f-4b7d-9671-1ed61d547717` · printing: PCA #53 (2016-11-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Totem
@@ -1076,6 +1091,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#thundertrap-trainer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/78/thundertrap-trainer) · oracle_id `d0be5969-0442-4557-a5fc-bee56e1835c2` · printing: BLB #78 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunder Wall
@@ -1106,6 +1122,7 @@ schema: 2
   > 20 | Thunderwave deals 6 damage to each creature your opponents control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7941 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thunderwave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/201/thunderwave) · oracle_id `43de944b-e630-45f0-bce4-c66803e8b5c1` · printing: CLB #201 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e9531098-63ea-4568-81e9-80e00a5f8995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thunderwolf Cavalry

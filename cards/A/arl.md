@@ -46,6 +46,7 @@ schema: 2
   - *2025-01-24* — When the ability that transforms Arlinn Kord into Arlinn, Embraced by the Moon (or vice versa) resolves, the number of loyalty counters on her doesn’t change.
   - *2025-01-24* — You can control two of this permanent, one front-face up and the other back-face up, at the same time.
   - *2025-01-24* — You can’t activate a loyalty ability of Arlinn Kord and later that turn after she transforms activate a loyalty ability of Arlinn, Embraced by the Moon (or vice versa).
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#arlinn-kord--arlinn-embraced-by-the-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/230/arlinn-kord-arlinn-embraced-by-the-moon) · oracle_id `6bb7d0df-7a9f-4e17-8c31-7628c4b12356` · printing: INR #230 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn's Wolf
@@ -88,6 +89,7 @@ schema: 2
   - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
   - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
   - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#arlinn-the-packs-hope--arlinn-the-moons-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/211/arlinn-the-packs-hope-arlinn-the-moons-fury) · oracle_id `f227ce07-7e96-4a36-ab7c-9be6e777d649` · printing: MID #211 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arlinn, Voice of the Pack
@@ -103,4 +105,5 @@ schema: 2
   - *2019-05-03* — A creature that’s a Wolf or Werewolf enters the battlefield with one +1/+1 counter if it would otherwise enter with no +1/+1 counters.
   - *2019-05-03* — A creature that’s both a Wolf and a Werewolf receives only one additional +1/+1 counter from Arlinn’s ability.
   - *2019-05-03* — If Arlinn leaves the battlefield before her last ability resolves, most likely because she only had 2 loyalty when you activated the ability, the Wolf token won’t enter the battlefield with a +1/+1 counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#arlinn-voice-of-the-pack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/150/arlinn-voice-of-the-pack) · oracle_id `a15b83df-91b7-49f0-9bec-5776a3dac8bd` · printing: WAR #150 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

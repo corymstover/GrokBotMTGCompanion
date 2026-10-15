@@ -152,4 +152,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4530 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — If another Human didn't enter the battlefield before your beginning of combat step, Éowyn, Shieldmaiden's ability won't trigger. You won't draw a card even if you control six or more Humans.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#éowyn-shieldmaiden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/1/%C3%A9owyn-shieldmaiden) · oracle_id `98a2a642-a30a-43e7-b47f-4776c22d1cb0` · printing: LTC #1 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

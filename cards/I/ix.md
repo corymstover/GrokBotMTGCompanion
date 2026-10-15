@@ -95,6 +95,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6057 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — A "Dinosaur source" is any object with the creature type Dinosaur. This means you could spend the mana to activate an ability of a Dinosaur you control or a Dinosaur card in your hand or graveyard, for example.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ixallis-lorekeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/194/ixallis-lorekeeper) · oracle_id `a3ce0fa9-8742-4e2c-a8a0-00fc009f998a` · printing: LCI #194 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixhel, Scion of Atraxa
@@ -120,6 +121,7 @@ schema: 2
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
   - *2023-02-04* — You may look at and cast the exiled cards (and spend mana as though it were mana of any color to do so) even if Ixhel leaves the battlefield. If another player gains control of Ixhel, that player can't look at or cast the cards, and you still can.
   - *2023-02-04* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ixhel-scion-of-atraxa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/1/ixhel-scion-of-atraxa) · oracle_id `9fb7982f-fe35-4dea-a515-a0039ddbbaec` · printing: ONC #1 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixidor, Reality Sculptor
@@ -135,6 +137,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11614 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-10-04* — When you turn a card face up, its controller does not have to pay its Morph cost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ixidor-reality-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/89/ixidor-reality-sculptor) · oracle_id `90b98aa7-c8d0-4853-887c-164f8160c3f3` · printing: ONS #89 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ixidor's Will

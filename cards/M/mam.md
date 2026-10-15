@@ -43,6 +43,7 @@ schema: 2
   - *2025-04-04* — You can cast a spell using harmonize even if it was somehow put into your graveyard without having been cast.
   - *2025-04-04* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using harmonize only when you could normally cast a sorcery.
   - *2025-04-04* — “Harmonize [cost]” means “You may cast this card from your graveyard by paying [cost] and tapping up to one untapped creature you control rather than paying the spell’s mana cost,” “If you cast this spell using its harmonize ability, its total cost is reduced by an amount of generic mana equal to the tapped creature’s power,” and “If the harmonize cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mammoth-bellow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/205/mammoth-bellow) · oracle_id `6f2e4607-bece-42ba-a2a3-5dc50f246793` · printing: TDM #205 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mammoth Growth

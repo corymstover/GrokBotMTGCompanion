@@ -172,6 +172,7 @@ schema: 2
   > *—Plargg, dean of chaos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11211 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#ceaseless-conflict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/12/ceaseless-conflict) · oracle_id `2f109125-b743-4ecf-84da-690d8e8ddf9c` · printing: SOC #12 (2026-04-24) · [rulings](https://api.scryfall.com/cards/a0e18f74-7fa6-4e3a-bc80-390a25055205/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ceaseless Searblades
@@ -215,6 +216,7 @@ schema: 2
   - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cecil-dark-knight--cecil-redeemed-paladin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/91/cecil-dark-knight-cecil-redeemed-paladin) · oracle_id `e4719557-d94e-490f-8a56-c1867a01d2ef` · printing: FIN #91 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cecily, Haunted Mage
@@ -229,6 +231,7 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12465 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/C.md#cecily-haunted-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/3/cecily-haunted-mage) · oracle_id `a726c27d-2955-4d41-b8a6-fca654c020a2` · printing: SLX #3 (2022-03-03) · [rulings](https://api.scryfall.com/cards/a09ffd51-8ea4-40a6-b64e-58f3acfee533/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celeborn the Wise
@@ -301,6 +304,7 @@ schema: 2
   - *2026-06-29* — In a multiplayer game, if Celebrate the Mountain-king's owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn't an ability that goes on the stack, it won't cease to exist along with the leaving player's spells and abilities on the stack.
   - *2026-06-29* — Once a spell or ability that causes you to recruit begins to resolve, no player may take any other actions until it's done. Any responses made to the spell or ability must be made before you draw, discard, and potentially create a token.
   - *2026-06-29* — The exiled cards return to the battlefield immediately after Celebrate the Mountain-king leaves the battlefield. Nothing happens between the two events, including state-based actions.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#celebrate-the-mountain-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/7/celebrate-the-mountain-king) · oracle_id `d51136fa-3c13-48a5-83fd-51fe00010a4b` · printing: HOB #7 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celebrity Fencer
@@ -397,6 +401,7 @@ schema: 2
   - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
   - *2018-12-07* — If Celestial Colonnade can't attack unless you pay a cost that includes a mana payment, you may attack with it and tap it to pay for that cost. It will still attack in this case.
   - *2018-12-07* — Once Celestial Colonnade has attacked, tapping it for mana won't remove it from combat.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#celestial-colonnade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/238/celestial-colonnade) · oracle_id `876ac6f6-74de-4666-84c6-83d81f054723` · printing: UMA #238 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Convergence
@@ -638,6 +643,7 @@ schema: 2
   - *2025-11-17* — If an effect refers to a "[subtype] card," it refers only to a card that has that subtype. For example, Glen Elendra's Answer creates a Faerie token and features a Faerie in its art, but it isn't a Faerie card.
   - *2025-11-17* — Notably, Celestial Reunion's behold instruction is limited to "creatures." It doesn't allow you to behold kindred cards or kindred permanents, which are permitted for most other behold instructions.
   - *2025-11-17* — To behold two creatures of a specified creature type, you can reveal two creature cards of that type from your hand, choose two creatures you control of that type on the battlefield, or reveal one card and choose one creature on the battlefield.
+- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/C.md#celestial-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/170/celestial-reunion) · oracle_id `ba0a815c-1dfe-47c1-890f-496c670124f3` · printing: ECL #170 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestial Sword
@@ -683,6 +689,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If a creature is attacking a planeswalker, the planeswalker’s controller is the defending player.
   - *2019-11-12* — If the Curse tokens can’t be attached to the defending player (perhaps because that player has protection from black), the tokens aren’t created at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#celestine-cave-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/37/celestine-cave-witch) · oracle_id `4963011a-a49c-46ae-8868-dd975817cb1f` · printing: CMB2 #37 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Celestine, the Living Saint
@@ -873,6 +880,7 @@ schema: 2
   - *2009-10-01* — A "creature card" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.
   - *2009-10-01* — Cemetery Reaper grants +1/+1 to all other Zombie creatures you control, not just the ones its ability puts onto the battlefield.
   - *2009-10-01* — The creature card in a graveyard is exiled as part of the activated ability's effect, not as a cost. If that card has left the graveyard by the time the ability would resolve, the ability doesn't resolve and you don't get a Zombie token.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#cemetery-reaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/108/cemetery-reaper) · oracle_id `70fa209f-5e79-44de-81ce-1d8d0d8c1006` · printing: MIC #108 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Recruitment
@@ -886,6 +894,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10628 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — If the target creature card is an illegal target as Cemetery Recruitment tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card even if the target creature card was a Zombie card.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cemetery-recruitment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/517/cemetery-recruitment) · oracle_id `07792d72-d5db-41b9-871c-e720e12ce659` · printing: FDN #517 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cemetery Tampering
@@ -902,6 +911,7 @@ schema: 2
   - *2022-04-29* — "Hideaway N" means "When this permanent enters the battlefield, look at the top N cards of your library. Exile one of them face down and put the rest on the bottom of your library in a random order. The exiled card gains 'The player who controls the permanent that exiled this card may look at this card in the exile zone.'"
   - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
   - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cemetery-tampering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/135/cemetery-tampering) · oracle_id `9babcd0a-531f-417d-905e-b916a87112bb` · printing: DSC #135 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cenn's Enlistment
@@ -1321,6 +1331,7 @@ schema: 2
 - **Keywords:** Threshold
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #854 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cephalid-coliseum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/349/cephalid-coliseum) · oracle_id `c733873e-77db-471f-8061-139db24f7e7c` · printing: TDC #349 (2025-04-11) · [rulings](https://api.scryfall.com/cards/03b9c9ed-fb6f-4f8d-bb1d-7999dec4245c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cephalid Constable
@@ -1388,6 +1399,7 @@ schema: 2
   > *Cephalids shrink from the harsh glare of scrutiny.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15784 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cephalid-inkshrouder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/36/cephalid-inkshrouder) · oracle_id `a3add0d7-2610-4b4e-9d43-3f04a5cd8259` · printing: JUD #36 (2002-05-27) · [rulings](https://api.scryfall.com/cards/2c3e8c80-690b-4d79-9dee-99d1a3876160/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cephalid Looter

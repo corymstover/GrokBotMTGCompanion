@@ -81,6 +81,7 @@ schema: 2
 - **Keywords:** Vigilance, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10256 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#casal-lurkwood-pathfinder--casal-pathbreaker-owlbear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/29/casal-lurkwood-pathfinder-casal-pathbreaker-owlbear) · oracle_id `b7bdb688-f8ee-4d22-a679-37a2ecd390a1` · printing: SLX #29 (2025-04-25) · [rulings](https://api.scryfall.com/cards/d571c367-c786-41f9-9cdb-cb02594fa413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cascade Bluffs
@@ -94,6 +95,7 @@ schema: 2
   > *Travelers bathe in the falls to wash away curses from the pucas who lurk nearby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #291 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#cascade-bluffs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/364/cascade-bluffs) · oracle_id `f1603384-4361-49c9-98aa-7785fc3504c4` · printing: SOC #364 (2026-04-24) · [rulings](https://api.scryfall.com/cards/22acccd2-4e9d-46de-a060-863b08152e50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cascade Seer
@@ -129,6 +131,7 @@ schema: 2
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1208 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cascading-cataracts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/202/cascading-cataracts) · oracle_id `d98b4250-3492-4864-9c4c-42db09b3ccd4` · printing: DMC #202 (2022-09-09) · [rulings](https://api.scryfall.com/cards/2f3fbd9b-91ab-4691-a916-e20db8ebc513/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case File Auditor
@@ -293,6 +296,7 @@ schema: 2
   - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
   - *2024-02-02* — The effect of Case of the Locked Hothouse that allows you to play an additional land is cumulative with similar effects. For example, if you control two Case of the Locked Hothouses, you'll be able to play three lands during each of your turns.
   - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#case-of-the-locked-hothouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/155/case-of-the-locked-hothouse) · oracle_id `2380fd04-6d19-4f5a-8a9e-c17d9ae09fb6` · printing: MKM #155 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Pilfered Proof
@@ -342,6 +346,7 @@ schema: 2
   - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
   - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
   - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/C.md#case-of-the-ransacked-lab)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/45/case-of-the-ransacked-lab) · oracle_id `f85eea8f-5887-4921-a943-d15e0ad1e028` · printing: MKM #45 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Shattered Pact
@@ -420,6 +425,7 @@ schema: 2
   - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#case-of-the-stashed-skeleton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/80/case-of-the-stashed-skeleton) · oracle_id `64219e17-1302-4a43-85d2-8a6214448890` · printing: MKM #80 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case of the Trampled Garden
@@ -464,6 +470,7 @@ schema: 2
   - *2024-02-02* — Each Case has two special keyword abilities: to solve and solved.
   - *2024-02-02* — Once a Case becomes solved, it stays solved until it leaves the battlefield.
   - *2024-02-02* — The meaning of "solved" differs based on what type of ability follows it. "Solved — [activated ability]" means "[Activated ability]. Activate only if this Case is solved." Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." 
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#case-of-the-uneaten-feast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/10/case-of-the-uneaten-feast) · oracle_id `0d8730b5-f7ba-48b0-928d-d8b7685347d3` · printing: MKM #10 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Case the Joint
@@ -575,6 +582,7 @@ schema: 2
   > *Every part of Jace's mind that objected to his plan had been cut away. The Theorist was all that remained.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16730 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cast-away-doubt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/51/cast-away-doubt) · oracle_id `bcf29dd7-6d5a-4139-958e-7c59434c0770` · printing: FRA #51 (2026-10-02) · [rulings](https://api.scryfall.com/cards/3b5b28a4-0abd-4dc2-9856-c9a8d27f6a2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castaway's Despair
@@ -602,6 +610,7 @@ schema: 2
   > *—Rog, steward of House Rillyn*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7411 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cast-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/119/cast-down) · oracle_id `cdaab6b0-1a2d-4809-8e6b-56013acd8f78` · printing: CLB #119 (2022-06-10) · [rulings](https://api.scryfall.com/cards/aba79021-39af-4e74-beb5-f2f508c865b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castigate
@@ -690,6 +699,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#castle-ardenvale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/346/castle-ardenvale) · oracle_id `f8f4fc60-725d-46d8-8e8f-e68e00d20589` · printing: TDC #346 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Doom
@@ -704,6 +714,7 @@ schema: 2
   > *Those in Doom's shadow know his protection. And his wrath.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8295 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#castle-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/263/castle-doom) · oracle_id `9bd013df-ad75-4099-940b-1765c58faf26` · printing: MSH #263 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6b39d7a6-ca2d-4376-a18e-efd0138e83bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Embereth
@@ -720,6 +731,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#castle-embereth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/347/castle-embereth) · oracle_id `91fbb25b-8521-483f-88b0-77778d25f7fd` · printing: TDC #347 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Garenbrig
@@ -737,6 +749,7 @@ schema: 2
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
   - *2019-10-04* — The mana generated by Castle Garenbrig's last ability can't be spent to activate abilities of creature cards that aren't on the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#castle-garenbrig)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/240/castle-garenbrig) · oracle_id `de75e5dd-8a52-406c-b55c-96d686885500` · printing: ELD #240 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Locthwain
@@ -754,6 +767,7 @@ schema: 2
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — No player may take actions between the time you draw a card and the time you lose life.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#castle-locthwain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/884/castle-locthwain) · oracle_id `be811e70-aaaa-41f3-bf9e-5d3f9f719b49` · printing: CLB #884 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Raptors
@@ -783,6 +797,7 @@ schema: 2
   > *Where hope has no champion, evil rules all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26741 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#castle-sengir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/113/castle-sengir) · oracle_id `c7f0251a-9341-4ff2-8b15-31c06eb4f2e7` · printing: HML #113 (1995-10-01) · [rulings](https://api.scryfall.com/cards/16bfba30-4075-4bd6-9e4b-3a37641d43ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Castle Vantress
@@ -800,6 +815,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Although the common lands have basic land types, they aren't basic lands.
   - *2019-10-04* — Once the common lands (such as Mystic Sanctuary) enter the battlefield tapped, there's no way to untap them with a spell or ability to make their last ability trigger.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#castle-vantress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/267/castle-vantress) · oracle_id `cdf41cf4-4e77-453d-be5b-0abbbd358934` · printing: DSC #267 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cast Out

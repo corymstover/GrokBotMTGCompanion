@@ -175,6 +175,7 @@ schema: 2
   > *When the strands call, only the dead answer.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15232 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#strands-of-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/165/strands-of-night) · oracle_id `0e8ae1f7-8926-414a-8434-db0b0f877505` · printing: 7ED #165 (2001-04-11) · [rulings](https://api.scryfall.com/cards/d8f6685d-eb5d-403f-b89a-b8b67900b602/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strands of Undeath
@@ -240,6 +241,7 @@ schema: 2
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
   - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
   - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#strange-inversion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/192/strange-inversion) · oracle_id `540f8779-cf29-4582-8b7f-95ebcae92925` · printing: CHK #192 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strangle
@@ -284,6 +286,7 @@ schema: 2
   - *2011-09-22* — If an effect says “Search your library . . . then shuffle your library,” your opponents shuffle their libraries even though they can’t search.
   - *2011-09-22* — If an effect says “You may search your library . . . If you do, shuffle your library” or “You may search your library . . . then shuffle your library,” your opponents can’t choose to search, so they won’t shuffle.
   - *2011-09-22* — If an opponent’s extra turn is created while Stranglehold is on the battlefield, but Stranglehold leaves the battlefield before that turn would begin, that opponent takes the extra turn as normal.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#stranglehold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/87/stranglehold) · oracle_id `b66c6e3a-daed-43a3-95d6-4f9d6223bbf1` · printing: CMA #87 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strangleroot Geist
@@ -376,6 +379,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10978 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — The opponent chooses which creature to exile as Strategic Betrayal resolves. If they don’t control any creatures at that time, they simply exile their graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#strategic-betrayal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/94/strategic-betrayal) · oracle_id `0127c13f-7b0f-44c3-8b35-97f306c5f239` · printing: TDM #94 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strategic Intervention
@@ -402,6 +406,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7837 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If there are fewer than three cards in your library, you look at all of them, put one of them into your hand, and put the rest into your graveyard.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#strategic-planning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/77/strategic-planning) · oracle_id `02b5acf3-47cb-4d39-9307-e02656f1879b` · printing: KHM #77 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strategy, Schmategy
@@ -467,6 +472,7 @@ schema: 2
   - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
   - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
   - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stratus-dancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/96/stratus-dancer) · oracle_id `5b6a821c-51e4-44dc-8353-f4d10eab7fcb` · printing: C19 #96 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stratus Walk
@@ -509,6 +515,7 @@ schema: 2
   > *The overnight appearance of miles of "armed" Wu forts at Guangling frightened a much vaster Wei force into fleeing for their lives.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28581 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#straw-soldiers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/54/straw-soldiers) · oracle_id `8138a9d7-63cb-4d40-ac9e-1a9b10766113` · printing: PTK #54 (1999-05-01) · [rulings](https://api.scryfall.com/cards/8ae5ba21-eb8e-4663-bfd8-3e19a0c10774/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strax, Sontaran Nurse
@@ -738,6 +745,7 @@ schema: 2
   - *2022-06-10* — If your commander that had the ability Street Urchin gave it somehow isn't a creature at the time the ability resolves, it will still deal 1 damage.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#street-urchin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/197/street-urchin) · oracle_id `f52759f9-7aa5-4493-8fe3-7be9ec340dde` · printing: CLB #197 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Streetwise Negotiator
@@ -1050,6 +1058,7 @@ schema: 2
   > *And then—as the agonizing ache in his limbs seems unendurable—from out of the pain—from out of the agony—comes triumph!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3329 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#strength-of-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/118/strength-of-will) · oracle_id `0389b48a-e64c-44fb-8a41-fd571cba237c` · printing: SPM #118 (2025-09-26) · [rulings](https://api.scryfall.com/cards/68f985c7-7765-46c3-ad31-edae3abb9fbf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strength-Testing Hammer
@@ -1122,6 +1131,7 @@ schema: 2
   - *2025-02-07* — If you copy a permanent spell, that copy becomes a token on the battlefield, but that’s not the same as creating a token. You won’t get an additional Thopter token that way.
   - *2025-02-07* — The additional Thopter token won’t have any abilities the other tokens were created with. Anything else specified in the effect creating the token (such as tapped, attacking, or “Exile that token at end of combat”) applies to both the original tokens and the Thopter. Similarly, if the effect that creates the token has an additional effect that gives the token an ability, such as “That token gains haste,” that effect will also apply to the Thopter.
   - *2025-02-07* — You don’t need to control the spell or ability that creates the tokens, but the tokens do need to be created under your control.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#stridehangar-automaton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/drc/19/stridehangar-automaton) · oracle_id `9070c98b-fd01-4eeb-a4ec-fc464946c7c0` · printing: DRC #19 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strider Harness
@@ -1258,6 +1268,7 @@ schema: 2
   - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
   - *2013-07-01* — If Striking Sliver leaves the battlefield after Sliver creatures you control have dealt first-strike damage but before regular combat damage, those Slivers won’t deal regular combat damage (unless they have double strike for some reason).
   - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#striking-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/882/striking-sliver) · oracle_id `6a15599d-8b00-4e0f-ac0c-d05f07c1e50d` · printing: CMM #882 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### String of Disappearances
@@ -1292,6 +1303,7 @@ schema: 2
   - *2018-03-16* — Strionic Resonator targets a triggered ability that has triggered and is on the stack and creates another instance of that ability on the stack. It doesn't cause any object to gain an ability.
   - *2018-03-16* — The source of the copy is the same as the source of the original ability.
   - *2018-03-16* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]."
+- **Referenced in:** 11 pages (7 decks · 4 edh guides) → [reverse index](../../references/S.md#strionic-resonator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/384/strionic-resonator) · oracle_id `cf751552-156f-4f81-ac94-9814dce099f9` · printing: MOC #384 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strip Bare
@@ -1347,6 +1359,7 @@ schema: 2
   > *Unlike previous conflicts, the war between Urza and Mishra made Dominaria itself a casualty of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #529 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/S.md#strip-mine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/316/strip-mine) · oracle_id `d21a89eb-7c5b-459a-acc7-12b20b13bf79` · printing: VMA #316 (2014-06-16) · [rulings](https://api.scryfall.com/cards/f57fd4c9-0004-4f71-a30f-2720943f57ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strixhaven Skycoach
@@ -1377,6 +1390,7 @@ schema: 2
   - *2021-04-16* — In a multiplayer game, if creatures you control deal combat damage to multiple opponents at the same time, the last ability will trigger multiple times. However, because the counters are removed, it is difficult (but not impossible) to make multiple players lose the game from this ability in the same combat phase.
   - *2021-04-16* — The check for ten or more point counters happens only as the last ability is resolving. Notably, if you add the tenth point counter some other way, no one will lose the game . . . yet.
   - *2021-04-16* — “That player” refers to the opponent who was dealt damage.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#strixhaven-stadium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/259/strixhaven-stadium) · oracle_id `2ed0c6fc-b8b4-47da-a04b-1d995bdeecb0` · printing: STX #259 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Strix Lookout
@@ -1405,6 +1419,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1084 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — Strix Serenade can target a spell that can't be countered. That spell won't be countered when Strix Serenade resolves, but its controller will get a Bird token. (This won't come up often, but when it does, it'll be a hoot.)
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#strix-serenade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/71/strix-serenade) · oracle_id `7ca3aa03-e62d-464a-9111-e754abe17f76` · printing: MH3 #71 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stroke of Genius
@@ -1417,6 +1432,7 @@ schema: 2
   > *"Every thought is a star illuminating the darkness. Inspiration comes from finding the constellations that link them."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3541 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stroke-of-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/203/stroke-of-genius) · oracle_id `0cc6d683-366f-4ae4-be60-20ad9621fdaf` · printing: SOC #203 (2026-04-24) · [rulings](https://api.scryfall.com/cards/beeb5419-828e-4a84-b4f3-87bc6f4cc594/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stroke of Midnight
@@ -1431,6 +1447,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #199 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If the target permanent is an illegal target by the time Stroke of Midnight tries to resolve, the spell doesn't resolve. No player creates a Human token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Human token.
+- **Referenced in:** 4 pages (2 edh guides · 2 card data) → [reverse index](../../references/S.md#stroke-of-midnight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/35/stroke-of-midnight) · oracle_id `9a107e48-3d50-4941-95b1-10f2b29a4245` · printing: FRC #35 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromgald Cabal
@@ -1473,6 +1490,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30227 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stromgald-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/62/stromgald-spy) · oracle_id `b7aa0625-c691-4219-b099-3798b349d09c` · printing: ALL #62 (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromkirk Bloodthief
@@ -1504,6 +1522,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3056 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — If a creature with first strike deals damage in the first combat damage step, but then loses first strike before regular combat damage, it won't deal combat damage a second time (unless it also has double strike).
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#stromkirk-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/157/stromkirk-captain) · oracle_id `599c3fd6-3309-4b5d-adec-9c4062848ad5` · printing: VOC #157 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromkirk Condemned
@@ -1520,6 +1539,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — If you discard a Vampire card with madness and cast it, it'll enter the battlefield before Stromkirk Condemned's ability resolves.
   - *2016-07-13* — The set of creatures affected by Stromkirk Condemned's ability is determined as the ability resolves. Vampires you begin to control later in the turn won't get +1/+1.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stromkirk-condemned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/137/stromkirk-condemned) · oracle_id `67b87332-44e1-4948-9269-5fc8f6107d0e` · printing: VOC #137 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stromkirk Mentor
@@ -1691,6 +1711,7 @@ schema: 2
   > *The assassin sees only throats and hears only heartbeats.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11621 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stronghold-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/120/stronghold-assassin) · oracle_id `35826db0-b6ff-47b5-be16-c5b878d9e842` · printing: TPR #120 (2015-05-06) · [rulings](https://api.scryfall.com/cards/22f2bad4-565d-4302-a8aa-57e03f65cc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stronghold Biologist
@@ -1724,6 +1745,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stronghold-confessor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/105/stronghold-confessor) · oracle_id `e7c200a9-4793-44c8-ba8d-6298dc83bbac` · printing: DOM #105 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stronghold Discipline
@@ -1736,6 +1758,7 @@ schema: 2
   > *In Urborg, the instigators of each new rebellion are soaked in the blood of the last.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23380 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stronghold-discipline)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/126/stronghold-discipline) · oracle_id `90e46d04-9d53-4a24-aff0-f8c61e1db97d` · printing: CNS #126 (2014-06-06) · [rulings](https://api.scryfall.com/cards/46c1934a-ea15-4f2c-88f4-4490c68241c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stronghold Gambit

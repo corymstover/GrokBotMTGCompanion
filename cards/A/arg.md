@@ -121,6 +121,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-02-04* — Notably, this means that you may discard a card to keep Argentum Masticore on the battlefield even if there isn't a legal target for that second triggered ability. In that case, no players may respond to the second triggered ability and it does not resolve.
   - *2023-02-04* — You don't choose a target for Argentum Masticore's upkeep triggered ability at the time it triggers. Rather, a second "reflexive" ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#argentum-masticore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/222/argentum-masticore) · oracle_id `3ceee5c2-321c-49ec-ba49-1fac7f6ee2cc` · printing: ONE #222 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Archaeologist
@@ -160,6 +161,7 @@ schema: 2
   > *Through years of study and training, the Blacksmiths of Argive became adept at reassembling the mangled remains of the strange, mechanical creatures abounding in their native land.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31581 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#argivian-blacksmith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/4/argivian-blacksmith) · oracle_id `80240b6b-d20d-4dfb-a2c5-c272c3b43a70` · printing: ME4 #4 (2011-01-10) · [rulings](https://api.scryfall.com/cards/f1fb4d0b-fa3f-4794-9285-89ddb9ac21c3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Cavalier
@@ -190,6 +192,7 @@ schema: 2
   > *—Gerrard of the \*Weatherlight\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10635 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#argivian-find)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/6/argivian-find) · oracle_id `0b6c74a7-d7d3-4c05-84b1-bcb580bb476f` · printing: WTH #6 (1997-06-09) · [rulings](https://api.scryfall.com/cards/89f23295-ad0a-4e2d-ae04-1a9c065e575d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argivian Phalanx
@@ -252,6 +255,7 @@ schema: 2
   - *2016-06-08* — Argothian Enchantress’s last ability will resolve before the spell that caused it to trigger.
   - *2016-06-08* — Enchantments put onto the battlefield without being cast won’t cause Argothian Enchantress’s last ability to trigger.
   - *2016-06-08* — If the enchantment spell is countered, Argothian Enchantress’s last ability still resolves and causes you to draw a card.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/A.md#argothian-enchantress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/158/argothian-enchantress) · oracle_id `11f17f85-ca97-4551-838f-7cb32f0e5f10` · printing: EMA #158 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Argothian Opportunist
@@ -361,6 +365,7 @@ schema: 2
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
   - *2022-10-14* — You can activate the ability multiple times targeting the same land to add more counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#argoth-sanctum-of-nature)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/256/argoth-sanctum-of-nature) · oracle_id `62648946-1708-48f4-ba40-c057563ab11b` · printing: BRO #256 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arguel's Blood Fast // Temple of Aclazotz

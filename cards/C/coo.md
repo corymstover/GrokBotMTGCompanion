@@ -49,6 +49,7 @@ schema: 2
   - *2026-01-27* — Gaining a level won't remove abilities that a Class had at a previous level.
   - *2026-01-27* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2026-01-27* — You can't activate an ability that advances a Class to a particular level if that Class is already that level or higher. For example, if a Class is already level 2, you can't activate the ability that advances it to level 2 again.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/C.md#cool-but-rude)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/89/cool-but-rude) · oracle_id `1f076303-d160-4e02-aa1e-9ed6040c3735` · printing: TMT #89 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cool Fluffy Loxodon
@@ -62,6 +63,7 @@ schema: 2
   > {TK}{TK}{TK}{TK} — 5/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cool-fluffy-loxodon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/28/cool-fluffy-loxodon) · oracle_id `ba2bb276-b7ef-46ec-9618-2cf4d60c70a6` · printing: SUNF #28 (2022-10-07) · [rulings](https://api.scryfall.com/cards/b1710520-d69f-415f-aef8-03eaa514b63a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cooped Up
@@ -151,6 +153,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13791 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If one of the target creatures you control is an illegal target when Coordinated Clobbering begins to resolve (perhaps because it's no longer on the battlefield or because it's tapped), that creature won't deal any damage. If the target creature an opponent controls is an illegal target, no damage will be dealt.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#coordinated-clobbering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/173/coordinated-clobbering) · oracle_id `b2b65b17-1fb4-42d6-9c6a-376d3f18851b` · printing: DSK #173 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coordinated Maneuver

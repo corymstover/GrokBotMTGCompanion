@@ -283,6 +283,7 @@ schema: 2
 - **Keywords:** Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #709 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/M.md#muddle-the-mixture)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/50/muddle-the-mixture) · oracle_id `0826cf7d-7ccc-459b-a92f-29dc169628f8` · printing: RVR #50 (2024-01-12) · [rulings](https://api.scryfall.com/cards/e69d760c-48fb-4e7f-8611-547b0c22928c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mudflat Village
@@ -339,6 +340,7 @@ schema: 2
   - *2024-07-26* — You choose {R} or {G} for each Raccoon you control. You aren’t limited to only one color of mana.
   - *2024-07-26* — You may play the exiled cards even if Muerra is no longer on the battlefield or under your control.
   - *2024-07-26* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#muerra-trash-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/227/muerra-trash-tactician) · oracle_id `c115159c-6991-4812-b3b6-6ed80221cab4` · printing: BLB #227 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mugato
@@ -400,6 +402,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16895 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mukotai-soulripper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/113/mukotai-soulripper) · oracle_id `060d109f-2969-4f9e-a723-535d662a571a` · printing: NEO #113 (2022-02-18) · [rulings](https://api.scryfall.com/cards/166775be-c3b7-4a17-9376-aa4229b147f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mulch
@@ -452,6 +455,7 @@ schema: 2
   - *2020-11-10* — Use the type of the card as it's played or cast to determine which permanent type to count it as. For example, if you cast a creature spell from your graveyard, you can cast a card with bestow as an enchantment spell.
   - *2020-11-10* — You must follow the normal timing permissions and restrictions of the cards you play from your graveyard. For example, you can't use Muldrotha to play a land if you don't have an available land play or to cast a planeswalker spell during your end step.
   - *2020-11-10* — You must pay the costs to cast a spell this way. If it has an alternative cost, you may cast it for that cost instead.
+- **Referenced in:** 8 pages (2 decks · 4 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#muldrotha-the-gravetide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/128/muldrotha-the-gravetide) · oracle_id `e4625704-1d52-44e4-804f-2f45644d76ac` · printing: ECC #128 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mulldrifter
@@ -468,6 +472,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If you pay the evoke cost, you can have Mulldrifter's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice Mulldrifter.
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mulldrifter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/67/mulldrifter) · oracle_id `24d0f5e7-0d9e-4b76-900e-a7274e80312d` · printing: ECC #67 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Multani, Maro-Sorcerer
@@ -553,6 +558,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — Multani's ability that modifies its power and toughness applies only while it's on the battlefield. In all other zones, it's a 0/0 creature card.
   - *2018-04-27* — To activate Multani's last ability, you must return lands you control from the battlefield to their owner's hand. Land cards in your graveyard can't be returned this way.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#multani-yavimayas-avatar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/100/multani-yavimayas-avatar) · oracle_id `4b8bf64b-4800-45ff-81c6-2857f34999b5` · printing: EOC #100 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Multiclass Baldric
@@ -667,6 +673,7 @@ schema: 2
   > *New worlds await...*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2067 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#multiversal-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/180/multiversal-passage) · oracle_id `17770eeb-ecbf-4510-af2d-acececfbe146` · printing: SPM #180 (2025-09-26) · [rulings](https://api.scryfall.com/cards/f5fb426a-5618-4dd4-9c51-0cc847be8c1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Multiversal Recruitment
@@ -710,6 +717,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-08-25* — If a creature with a rally ability enters the battlefield under your control at the same time as other Allies, that ability will trigger once for each of those creatures and once for the creature with the ability itself.
   - *2015-08-25* — When an Ally enters the battlefield under your control, each rally ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#munda-ambush-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/215/munda-ambush-leader) · oracle_id `4d5da73a-f22a-4446-b5f9-504dfabf1d52` · printing: BFZ #215 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Munda's Vanguard
@@ -804,6 +812,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Primeval counters have their effect regardless of whether or not Muraganda Eldrazi is on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#muraganda-eldrazi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/519/muraganda-eldrazi) · oracle_id `e73e2f8a-44d8-4fc3-afa9-3eec2d61d88c` · printing: MB2 #519 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muraganda Petroglyphs
@@ -820,6 +829,7 @@ schema: 2
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature with no abilities may become lethal if that creature gains an ability or Muraganda Petroglyphs leaves the battlefield during that turn.
   - *2021-03-19* — If a land with a basic land type becomes a creature, the intrinsic mana ability it has stops Muraganda Petroglyphs from applying to it.
   - *2021-03-19* — If an effect says that an affected creature "has" or "gains" an ability, Muraganda Petroglyphs won't apply to that creature because it has gained an ability. If an effect simply says that something is true of an affected creature (such as "target creature can't be blocked this turn") then that effect isn't causing the creature to gain an ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#muraganda-petroglyphs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/220/muraganda-petroglyphs) · oracle_id `e6eff050-f1f6-49ce-a92e-1d1e13e51084` · printing: TSR #220 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muraganda Raceway
@@ -841,6 +851,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#muraganda-raceway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/257/muraganda-raceway) · oracle_id `b5fa5651-d714-44d6-867b-be0e3224b7ed` · printing: DFT #257 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murasa Behemoth
@@ -940,6 +951,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#murasa-sproutling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/196/murasa-sproutling) · oracle_id `dfa8c557-f2f5-4763-85c7-e2ec14d9e6b6` · printing: ZNR #196 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murder
@@ -952,6 +964,7 @@ schema: 2
   > *Razorkin have only one hobby.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #872 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/M.md#murder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/110/murder) · oracle_id `938b4e2c-88d9-4637-bc00-e228920c9a78` · printing: DSK #110 (2024-09-27) · [rulings](https://api.scryfall.com/cards/2c249609-9cf7-46f1-b94c-9329add966bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murderer's Axe
@@ -1072,6 +1085,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player’s persist creatures will return to the battlefield first, then the active player’s persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it’s a new object with no memory of or connection to its previous existence.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#murderous-redcap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/217/murderous-redcap) · oracle_id `a498bc70-36e7-4454-bc44-906893df38b8` · printing: UMA #217 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murderous Rider // Swift End
@@ -1098,6 +1112,7 @@ schema: 2
   - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#murderous-rider--swift-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/258/murderous-rider-swift-end) · oracle_id `1080c5b5-6651-4c6a-93e6-099fbe389e26` · printing: MOC #258 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murderous Spoils
@@ -1228,6 +1243,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Murmuration's last ability counts spells you cast earlier in the turn even if you didn't control Murmuration as you cast them and even if those spells were countered or otherwise didn't resolve.
   - *2024-07-26* — The number of spells you've cast is counted only as Murmuration's last ability resolves. For example, say you've cast two spells this turn, and with Murmuration's last ability on the stack, you cast a Blizzard Strix (a Bird creature spell with flash that may have been chosen for this example due to being an adorable owl). When Murmuration's ability resolves, you'll have cast three spells so far this turn, so you'll create three Storm Crow tokens. Caw!
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#murmuration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/10/murmuration) · oracle_id `84e7be36-b8cd-4111-a91b-3628f421d5d5` · printing: BLC #10 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murmuring Bosk
@@ -1241,6 +1257,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2717 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — Murmuring Bosk is a Forest, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do. For example, you can't find Murmuring Bosk with Fertilid's ability ("searches their library for a basic land card"), but you can find Murmuring Bosk with Everbark Shaman's ability ("search your library for two Forest cards").
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/M.md#murmuring-bosk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/220/murmuring-bosk) · oracle_id `42b9d383-3fe2-4fc8-ab86-f80a288d502b` · printing: DMC #220 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murmuring Mystic
@@ -1255,6 +1272,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1839 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — Murmuring Mystic's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#murmuring-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/102/murmuring-mystic) · oracle_id `dcd4da46-5438-4454-8b1b-43ca51bda1f9` · printing: OTC #102 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Murmuring Phantasm
@@ -1486,6 +1504,7 @@ schema: 2
   - *2024-06-07* — Muster the Departed's last ability will trigger only once during your end step, no matter how many creatures died under your control this turn. However, if no creatures have died under your control so far this turn as your end step begins, the ability won't trigger at all. It's not possible to cause a creature to die under your control during the end step in time to have the ability trigger.
   - *2024-06-07* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-06-07* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#muster-the-departed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/36/muster-the-departed) · oracle_id `f0ba9cca-b946-465c-acae-0b465d7e1622` · printing: MH3 #36 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutable Explorer
@@ -1504,6 +1523,7 @@ schema: 2
   - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
   - *2025-11-17* — Mutable Explorer's last ability creates a token that's a copy of the card Mutavault in the Oracle card reference. Official text for Mutavault can be found using the Gatherer card database at Gatherer.Wizards.com.
   - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#mutable-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/186/mutable-explorer) · oracle_id `34b93a66-de1e-4133-a479-e0d90ba94a3a` · printing: ECL #186 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutagen Connoisseur
@@ -1557,6 +1577,7 @@ schema: 2
   - *2026-01-27* — Mutagen Man's second ability can cause the mana component of the cost to activate an ability of an artifact token to be {0}.
   - *2026-01-27* — Mutagen tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Mutagen and the ability "{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery."
   - *2026-01-27* — Some spells and abilities that create Mutagen tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Mutagen token won't be created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mutagen-man-living-ooze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/124/mutagen-man-living-ooze) · oracle_id `472d9a18-19a0-46c0-a4bf-328ebec7ce41` · printing: TMT #124 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutalith Vortex Beast
@@ -1650,6 +1671,7 @@ schema: 2
 - **Keywords:** Alliance, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25358 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mutant-town-musicians)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/97/mutant-town-musicians) · oracle_id `9f318ddc-3dc5-4e43-92b3-3a776e41c56e` · printing: TMT #97 (2026-03-06) · [rulings](https://api.scryfall.com/cards/2dbe9207-06e8-4837-8227-0f960490771b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutated Cultist
@@ -1709,6 +1731,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — Although Mutavault has all creature types while it's animated, it does not have the changeling keyword ability.
   - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mutavault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/903/mutavault) · oracle_id `6b3cc59a-7ea5-4eb5-9bf9-5a9c07f80e2b` · printing: CLB #903 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutilate
@@ -1722,6 +1745,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2401 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — The effect is based on the number of Swamps you control when Mutilate resolves. Only creatures on the battlefield at that time will be affected. The effect won't change later in the turn, even if the number of Swamps you control changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mutilate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/55/mutilate) · oracle_id `698e79ec-c2bc-4973-a095-f3c57b50e39c` · printing: GVL #55 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutinous Massacre
@@ -1736,6 +1760,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If a creature has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2025-07-25* — You’ll untap all creatures, including those you already control. They’ll also gain haste even if they were already untapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mutinous-massacre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/222/mutinous-massacre) · oracle_id `9fdd445a-c8e1-4309-9d74-374676fcac1d` · printing: EOE #222 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mutiny
@@ -1780,6 +1805,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — If a card in a player's library has {X} in its mana cost, X is considered to be 0.
   - *2020-06-23* — The bonus Muxus gets is determined only as its last ability resolves. Once that happens, the bonus won't change later in the turn even if the number of Goblins you control changes.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#muxus-goblin-grandee)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/24/muxus-goblin-grandee) · oracle_id `07c82cde-f00d-4454-9df4-9286e344c9bb` · printing: JMP #24 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mu Yanling
@@ -1793,6 +1819,7 @@ schema: 2
   > −10: Tap all creatures your opponents control. You take an extra turn after this one.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15507 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#mu-yanling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/1/mu-yanling) · oracle_id `34e1477a-c0fb-4364-bb93-04a85c0c2517` · printing: GS1 #1 (2018-06-22) · [rulings](https://api.scryfall.com/cards/a2ee3c3c-768b-434b-a121-6d897b2ae345/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mu Yanling, Celestial Wind
@@ -1808,6 +1835,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — In a multiplayer game, if you leave the game after Mu Yanling’s first ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-07-12* — Mu Yanling’s last ability affects only creatures you control with flying at the time it resolves. Creatures you begin to control later in the turn (or creatures that that gain flying later in the turn) won’t get +5/+5.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mu-yanling-celestial-wind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/286/mu-yanling-celestial-wind) · oracle_id `5f39accf-62fd-407a-a147-781210569d33` · printing: M20 #286 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mu Yanling, Sky Dancer
@@ -1826,6 +1854,7 @@ schema: 2
   - *2019-07-12* — In a multiplayer game, if you leave the game after Mu Yanling's first ability resolves but before your next turn begins, its effect lasts until your next turn would have begun. It neither expires immediately nor lasts indefinitely.
   - *2019-07-12* — Mu Yanling's first ability can target a creature that doesn't have flying. The creature just gets -2/-0.
   - *2019-07-12* — Tapping an Island for mana is an activated ability. You can't activate that ability and also activate the ability it gains from Mu Yanling's emblem.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/M.md#mu-yanling-sky-dancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/68/mu-yanling-sky-dancer) · oracle_id `1e825298-7c99-40cc-81c9-280cc7ed98d3` · printing: M20 #68 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mu Yanling, Wind Rider
@@ -1841,6 +1870,7 @@ schema: 2
   > *The search for her lost mentor continued.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7181 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/M.md#mu-yanling-wind-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/52/mu-yanling-wind-rider) · oracle_id `aaafcd69-6295-4d79-8e67-98df0c9bae88` · printing: DFT #52 (2025-02-14) · [rulings](https://api.scryfall.com/cards/76423446-d62f-4cc5-a23a-3175be88bd73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muzzio's Preparations
@@ -1868,6 +1898,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#muzzios-preparations)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/7/muzzios-preparations) · oracle_id `0e505699-8388-4862-93e0-059cef91cdd4` · printing: CNS #7 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Muzzio, Visionary Architect

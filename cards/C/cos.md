@@ -72,6 +72,7 @@ schema: 2
   - *2021-02-05* — While the triggered ability Cosima gains is resolving, if you don't put a voyage counter on Cosima, you'll immediately return it to the battlefield and draw cards equal to the number of voyage counters Cosima had on it in exile. Players can't respond to this choice, and no player may take actions during this process.
   - *2021-02-05* — You can play lands from among cards exiled with The Omenkeel for as long as they remain exiled, even if The Omenkeel leaves the battlefield or another player gains control of it.
   - *2021-02-05* — You may choose to return Cosima to the battlefield even if it doesn't have any voyage counters on it. If you do, it won't enter with any +1/+1 counters on it and you won't draw any cards.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#cosima-god-of-the-voyage--the-omenkeel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/50/cosima-god-of-the-voyage-the-omenkeel) · oracle_id `648100cd-d44a-48f8-87e4-a1d5467f348c` · printing: KHM #50 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosi's Ravager
@@ -90,6 +91,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cosis-ravager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/52/cosis-ravager) · oracle_id `1253de62-6218-401c-9d98-a5ec8617e0d8` · printing: DDI #52 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosi's Trickster
@@ -305,6 +307,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — Cosmogrand Zenith’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving. Notably, if your second spell is a creature spell and you choose the second mode for Cosmogrand Zenith’s ability, the resulting creature from that spell won’t get a +1/+1 counter.
   - *2025-07-25* — Cosmogrand Zenith’s ability will count any spells you’ve cast this turn, which may include Cosmogrand Zenith itself. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cosmogrand-zenith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/9/cosmogrand-zenith) · oracle_id `e2cd65f6-7cbc-497c-bdc9-698ff17da31e` · printing: EOE #9 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cosmos Charger
@@ -368,6 +371,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — You can't cast Costly Plunder without sacrificing a permanent, and you can't sacrifice additional permanents.
   - *2020-08-07* — You can't sacrifice an artifact to generate mana to pay towards Costly Plunder's cost and also to pay its additional cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#costly-plunder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/80/costly-plunder) · oracle_id `8cdfd9df-4783-4138-a286-828a97f516aa` · printing: 2XM #80 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cost of Brilliance
@@ -411,4 +415,5 @@ schema: 2
   > *Outfits you'll love at prices you'll tolerate.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32340 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#costume-shop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/206a/costume-shop) · oracle_id `24c52448-03f2-43cd-9172-487384baeb18` · printing: UNF #206a (2022-10-07) · [rulings](https://api.scryfall.com/cards/c81dd9df-0eeb-42fd-8dd0-fd7f154954e0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

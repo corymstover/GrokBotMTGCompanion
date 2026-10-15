@@ -245,6 +245,7 @@ schema: 2
   - *2019-11-12* — If a creature that would be dealt combat damage stops being a creature, combat damage that would be dealt to it isn’t dealt. If a creature that would deal combat damage stops being a creature, it deals combat damage.
   - *2019-11-12* — No other aspects of the previous combat damage rules are applied while Stack of Paperwork is on the battlefield. Blocking creatures are still ordered and combat damage must be assigned going through that order, requiring lethal damage to be assigned in that order.
   - *2019-11-12* — Normally, each player assigns a creature’s combat damage and it’s immediately dealt. While Stack of Paperwork is on the battlefield, this assignment is put onto the stack as a single game object controlled by no player, and all damage is dealt as assigned as that object resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stack-of-paperwork)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/13/stack-of-paperwork) · oracle_id `0ed49613-809a-4439-962e-ad7e1adb39c2` · printing: CMB2 #13 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stadium Headliner
@@ -302,6 +303,7 @@ schema: 2
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1350 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#staff-of-compleation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/326/staff-of-compleation) · oracle_id `11c7662f-e688-40a6-98fd-6ae89d231b44` · printing: TDC #326 (2025-04-11) · [rulings](https://api.scryfall.com/cards/0c475639-1368-4e29-adeb-8973e343bca5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Staff of Domination
@@ -316,6 +318,7 @@ schema: 2
   > {5}, {T}: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1037 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#staff-of-domination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/343/staff-of-domination) · oracle_id `d7888719-647d-4022-a211-822fa09f0791` · printing: CMR #343 (2020-11-20) · [rulings](https://api.scryfall.com/cards/fde838c8-2f32-4e7d-a236-0bc42dd7abd9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Staff of Eden, Vault's Key
@@ -426,6 +429,7 @@ schema: 2
   > {W}, {T}, Remove a story counter from this artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2799 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#staff-of-the-storyteller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/34/staff-of-the-storyteller) · oracle_id `0c4e2c90-c17b-42cc-b4d7-cf75970fbe90` · printing: FRC #34 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f9321060-c1bf-4190-aaf6-253d6df64237/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Staff of the Sun Magus
@@ -470,6 +474,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4367 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — Forest is a land subtype. Dryad is a creature subtype. If an effect causes the token to have a different land subtype, that won't affect its creature subtypes (or color), and vice versa.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#staff-of-titania)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/27/staff-of-titania) · oracle_id `f99f4b52-21ae-47a2-8ae6-b0aa7386723a` · printing: BRC #27 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Staff of Zegon
@@ -725,6 +730,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-08-01* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
   - *2009-10-01* — Activating the ability that turns it into a creature while it's already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stalking-stones)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/245/stalking-stones) · oracle_id `f3658894-3d3d-4cd4-b0ac-c53e1d08747c` · printing: TPR #245 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stalking Tiger
@@ -738,6 +744,7 @@ schema: 2
   > *In the Jamuraan jungles, there is often no separating beauty from danger.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28485 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stalking-tiger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/w17/28/stalking-tiger) · oracle_id `e6af1429-276f-41a8-88d0-062661dc0cd4` · printing: W17 #28 (2017-04-15) · [rulings](https://api.scryfall.com/cards/2048b66a-586f-49ad-bd2b-7fce1eb45ce6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stalking Vengeance
@@ -1000,6 +1007,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — Although the tokens enter the battlefield attacking, they were never declared as attackers. Abilities that trigger whenever a creature attacks won't trigger. If there are any costs to have a creature attack, those costs won't apply to the tokens.
   - *2024-02-02* — The token creatures all enter the battlefield at the same time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stampede-surfer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/44/stampede-surfer) · oracle_id `22640b75-8db6-4264-a4aa-9174c159a228` · printing: CLU #44 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stampeding Elk Herd
@@ -1290,6 +1298,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26921 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-03-16* — If Stangg leaves the battlefield before its ability has resolved, that ability will still create a Stangg Twin token, but its delayed triggered ability that exiles the token will never have a chance to trigger. That token will remain on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stangg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/218/stangg) · oracle_id `739eac91-3029-4ce7-9885-0af3ddea472e` · printing: A25 #218 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stangg, Echo Warrior
@@ -1304,6 +1313,7 @@ schema: 2
   - *2022-09-09* — If a replacement effect causes the created tokens to have different characteristics or causes additional tokens to be created this way, those tokens will still be sacrificed at the beginning of the next end step.
   - *2022-09-09* — If another player gains control of the tokens created this way, the ability that causes you to sacrifice them will still trigger. However, any tokens you no longer control can't be sacrificed and will remain on the battlefield.
   - *2022-09-09* — If, for any reason, an Aura token that would be created this way can't be attached to Stangg Twin, that token isn't created. If an Equipment token that can't be attached to Stangg Twin would be created, that token enters the battlefield unattached.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stangg-echo-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/42/stangg-echo-warrior) · oracle_id `aaf2a587-ced7-4615-b10f-164e7384b073` · printing: DMC #42 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Star Athlete
@@ -1324,6 +1334,7 @@ schema: 2
   - *2024-09-20* — If you choose to pay the blitz cost rather than the mana cost, you're still casting the spell. It goes on the stack and can be responded to and countered. You can cast a creature spell for its blitz cost only if you could cast that creature spell. Most of the time, this means during your main phase when the stack is empty.
   - *2024-09-20* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2024-09-20* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#star-athlete)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/29/star-athlete) · oracle_id `fb03befb-b4e4-4ae9-908d-a16d5b03b054` · printing: DSC #29 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starbreach Whale
@@ -1394,6 +1405,7 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13863 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stardew-valley)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2801/stardew-valley) · oracle_id `6a4ee425-b3b8-487d-866c-9e2d73682466` · printing: SLD #2801 (2026-07-27) · [rulings](https://api.scryfall.com/cards/9979db80-83f6-41ed-aea2-0c222e923add/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starfall
@@ -1430,6 +1442,7 @@ schema: 2
   - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starfall-invocation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/34/starfall-invocation) · oracle_id `7024532b-f99b-43a7-b0ed-5b3e7ec7592b` · printing: BLB #34 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starfield Mystic
@@ -1459,6 +1472,7 @@ schema: 2
   - *2015-06-22* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.
   - *2015-06-22* — If the first ability returns an Aura card to the battlefield, you choose what that Aura will enchant as it enters the battlefield. If the Aura can’t legally enchant anything, it stays in the graveyard.
   - *2015-06-22* — Note that if an Aura is returned to the battlefield this way, whatever the Aura enchants isn’t a target of Starfield of Nyx’s ability, nor is it a target of the Aura card itself. You could put an Aura onto the battlefield this way enchanting a creature with hexproof controlled by an opponent, for example.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starfield-of-nyx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/840/starfield-of-nyx) · oracle_id `922d603e-6623-4455-b91f-fad76f94045a` · printing: CMM #840 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starfield Shepherd
@@ -1495,6 +1509,7 @@ schema: 2
   - *2025-07-25* — Replacement effects are unaffected by Starfield Vocalist’s first ability. For example, a creature that enters the battlefield under your control with a +1/+1 counter on it won’t receive an additional +1/+1 counter.
   - *2025-07-25* — Starfield Vocalist’s first ability affects a permanent’s own “enters” triggered abilities as well as other triggered abilities that trigger when that permanent enters the battlefield. Such triggered abilities start with “when” or “whenever.” Some keyword abilities also include a triggered ability that happens when a permanent enters the battlefield.
   - *2025-07-25* — Starfield Vocalist’s first ability doesn’t copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#starfield-vocalist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/78/starfield-vocalist) · oracle_id `4add809e-9caa-45ae-bb0d-4760a360b8e2` · printing: EOE #78 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starfighter Pilot
@@ -1523,6 +1538,7 @@ schema: 2
   > *—Captain Jean-Luc Picard*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32308 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starfleet-crew)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/139/starfleet-crew) · oracle_id `83b31215-ea9b-4ad9-a39e-3fe6cdb9b7de` · printing: TRC #139 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ecf2358f-542d-45c9-b5c5-c57b2b0c1122/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starforged Sword
@@ -1563,6 +1579,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — If your library contains fewer than X cards, you'll put them all into your hand. You can't choose to put any of them into your graveyard. You'll still lose X life.
   - *2024-07-26* — If your library contains fewer than twice X cards, you'll look at your whole library. You'll still lose X life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stargaze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/114/stargaze) · oracle_id `db8b4869-f898-40ad-bbad-62390a02d1b1` · printing: BLB #114 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starke of Rath
@@ -1675,6 +1692,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — If you control more than one Starlight Spectacular, each one calculates its bonuses separately. For example, if you control three creatures and two Starlight Spectaculars, each Spectacular will give one creature +0/+0, another +1/+1 and the third +2/+2. You could choose a different order for each one though.
   - *2022-10-07* — You don’t have to line up the creatures in a parade line to get the bonuses, but it would be spectacular if you did.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starlight-spectacular)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/28/starlight-spectacular) · oracle_id `5c4e9401-537c-4bf6-bd07-d2abc43612c9` · printing: UNF #28 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starling, Aerial Ally
@@ -1705,6 +1723,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29965 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starlit-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/30/starlit-angel) · oracle_id `e66e3450-bddb-46ac-bc7e-c7732e258374` · printing: POR #30 (1997-05-01) · [rulings](https://api.scryfall.com/cards/36691cd0-c709-4452-a61a-d6e2049fdfcf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starlit Mantle
@@ -1749,6 +1768,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — If you haven’t gained or lost life during the turn when your end step begins, Starlit Soothsayer’s last ability won’t trigger at all. Gaining or losing life during your end step won’t cause the ability to trigger.
   - *2024-07-26* — Starlit Soothsayer’s last ability cares whether you gained or lost life this turn, not how your life total changed. For example, if you gained 2 life and lost 2 life in the same turn, you still gained and lost life that turn, even though your life total is the same as it was at the start of the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starlit-soothsayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/115/starlit-soothsayer) · oracle_id `0c0940c6-8126-4d58-809e-871cf8588ef9` · printing: BLB #115 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starnheim Aspirant
@@ -1765,6 +1785,7 @@ schema: 2
   - *2021-02-05* — An Angel spell is a creature spell with the creature type Angel. Instant, sorcery, and enchantment cards that may create Angel tokens are not Angel spells.
   - *2021-02-05* — The cost reduction applies only to generic mana in the costs of Angel spells you cast. It can't reduce requirements of specific colors of mana.
   - *2021-02-05* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Starnheim Aspirant). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#starnheim-aspirant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/380/starnheim-aspirant) · oracle_id `e7b92789-47a9-430a-ad57-be7b6c3d63cb` · printing: KHM #380 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starnheim Courser
@@ -1811,6 +1832,7 @@ schema: 2
   - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player’s turn. In most cases, if you foretell a card that isn’t an instant (or doesn’t have flash), you’ll have to wait until your next turn to cast it.
   - *2021-02-05* — If you’re casting a foretold card from exile for its foretell cost, you can’t choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2021-02-05* — You choose the value of X in the foretell cost as you cast the spell. You’ll pay {2}{W} for one Angel Warrior token, {4}{W} for two, {6}{W} for three, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starnheim-unleashed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/33/starnheim-unleashed) · oracle_id `495ebe60-f0e5-4f0f-9d99-b2c64c95dbf4` · printing: KHM #33 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Star of Extinction
@@ -1897,6 +1919,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#starscape-cleric)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/116/starscape-cleric) · oracle_id `8d72ddb3-ef6e-4847-b6d4-5d85b1dd5802` · printing: BLB #116 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starscream, Power Hungry // Starscream, Seeker Leader
@@ -1936,6 +1959,7 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#starscream-power-hungry--starscream-seeker-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/5/starscream-power-hungry-starscream-seeker-leader) · oracle_id `3e924a35-0e08-4050-b33a-a143d2ab5aea` · printing: BOT #5 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starseer Mentor
@@ -1968,6 +1992,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3109 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/110/starstorm) · oracle_id `34d112c3-cc2d-4428-bd7f-568bda61bd30` · printing: NEC #110 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Start // Finish
@@ -2003,6 +2028,7 @@ schema: 2
   > Fire deals 2 damage divided as you choose among one or two targets.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#start--fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/101/start-fire) · oracle_id `48ba332b-36ce-4f1d-893c-a9ef77ffd482` · printing: CMB2 #101 (2021-08-20) · [rulings](https://api.scryfall.com/cards/e244eac9-8b94-4ac9-8dfd-744598148cd3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Start from Scratch
@@ -2055,6 +2081,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #698 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#starting-town)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/289/starting-town) · oracle_id `d04e0975-f401-41b8-a9db-9bcf9cbbce66` · printing: FIN #289 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Starting Town NPC
@@ -2076,6 +2103,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2024-11-08* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starting-town-npc)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/585/starting-town-npc) · oracle_id `88309ff4-a49f-4a16-b3ac-4fc1710e5223` · printing: MB2 #585 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Startle
@@ -2091,6 +2119,7 @@ schema: 2
   - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
   - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
   - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#startle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/78/startle) · oracle_id `7996222e-68c8-4a5c-9531-c60cdd88ae05` · printing: MID #78 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Startled Awake // Persistent Nightmare
@@ -2111,6 +2140,7 @@ schema: 2
   - *2016-04-08* — A sorcery can't be put onto the battlefield and a permanent can't transform into a sorcery. If an effect exiles Persistent Nightmare and then instructs you to return it to the battlefield, it remains face up in exile (unless that effect instructs you to put it onto the battlefield transformed, in which case it returns as Persistent Nightmare). If an effect instructs you to transform Persistent Nightmare, the instruction is ignored.
   - *2016-04-08* — If you cause a creature to have 0 power or less, use the actual value (which may be negative) to determine whether it can block or be blocked. A creature with skulk and 0 or less power most likely won't be blocked, but it won't deal combat damage and won't trigger any abilities that trigger when combat damage is dealt.
   - *2016-04-08* — Skulk matters only as blockers are chosen. Modifying either creature's power after blockers are chosen won't cause the attacking creature to become unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#startled-awake--persistent-nightmare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/88/startled-awake-persistent-nightmare) · oracle_id `99d42ae8-8cee-449b-812b-98a81a593077` · printing: SOI #88 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Startled Relic Sloth
@@ -2164,6 +2194,7 @@ schema: 2
   - *2023-10-13* — You may planeswalk only in games using the Planechase variant. If you are instructed to planeswalk in any other game, nothing happens.
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
   - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#start-the-tardis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/56/start-the-tardis) · oracle_id `31b72bcc-2f45-4ff8-8e4b-27c020ff0e32` · printing: WHO #56 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Start Your Engines
@@ -2210,6 +2241,7 @@ schema: 2
   - *2023-11-10* — For Starving Revenant's enters-the-battlefield ability, you put cards into your graveyard for surveil (if any) before drawing cards. If there are eight or more permanent cards in your graveyard by the time you draw cards, those draws will cause the descend 8 ability to trigger.
   - *2023-11-10* — Some descend triggered abilities include intervening "if" clauses (i.e. "if you have [four or eight] permanent cards in your graveyard" in the middle of the ability). Each of these abilities checks your graveyard at the moment it would trigger to see if it does. If you don't have the required number of permanent cards in your graveyard at that time, the ability doesn't trigger at all. If it does trigger, it will check again as it tries to resolve. If you don't have the required number of permanent cards in your graveyard at that time, the ability won't resolve and none of its effects will happen.
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starving-revenant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/123/starving-revenant) · oracle_id `2ca969eb-3d79-4d1f-8d9d-7b8204ad166a` · printing: LCI #123 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Star Whale
@@ -2250,6 +2282,7 @@ schema: 2
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2358 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#starwinder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/79/starwinder) · oracle_id `face2dc0-37ba-4efe-b900-b5521567c943` · printing: EOE #79 (2025-08-01) · [rulings](https://api.scryfall.com/cards/27d1a010-5790-4b35-9fdc-0e366eed021d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stasis
@@ -2263,6 +2296,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Does not prevent cards from being untapped outside the untap step.
   - *2004-10-04* — Since there is no untap step, Phasing in/out won't happen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stasis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/64/stasis) · oracle_id `a8cf1379-0195-4e11-b994-481ef1284245` · printing: ME4 #64 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stasis Cell
@@ -2370,6 +2404,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5811 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If there are two of these on the battlefield, they do not add together. The result is that only two permanents can be untapped.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#static-orb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/319/static-orb) · oracle_id `0004ebd0-dfd6-4276-b4a6-de0003e94237` · printing: 7ED #319 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Static Prison
@@ -2421,6 +2456,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — Station Monitor’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
   - *2025-07-25* — Station Monitor’s ability will count any spells you’ve cast this turn, which may include Station Monitor itself. It doesn’t matter if the other spells resolved, didn’t resolve, were countered, or are still on the stack. If Station Monitor was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#station-monitor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/230/station-monitor) · oracle_id `94e8791b-e72f-4aed-b761-826779337168` · printing: EOE #230 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stature, Size Shifter

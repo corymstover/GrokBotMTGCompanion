@@ -60,6 +60,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23494 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#djerus-renunciation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/11/djerus-renunciation) · oracle_id `11b21086-0779-4d16-8a56-252c6bee9bed` · printing: HOU #11 (2017-07-14) · [rulings](https://api.scryfall.com/cards/03f005de-7971-4f22-ad1f-5d0667f68113/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Djeru's Resolve

@@ -329,6 +329,7 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn’t become renowned. Any ability that triggers “whenever a creature becomes renowned” won’t trigger.
   - *2015-06-22* — Renown won’t trigger when a creature deals combat damage to a planeswalker or another creature. It also won’t trigger when a creature deals noncombat damage to a player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#scab-clan-berserker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/160/scab-clan-berserker) · oracle_id `d4f659ba-c277-47a2-8b95-ce81ddac34fb` · printing: ORI #160 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scab-Clan Charger
@@ -376,6 +377,7 @@ schema: 2
 - **Keywords:** Bloodthirst, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27640 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scab-clan-mauler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/219/scab-clan-mauler) · oracle_id `db0b6e35-d7f2-435a-87d7-9e8c36426f4d` · printing: RVR #219 (2024-01-12) · [rulings](https://api.scryfall.com/cards/3463609d-58ca-4747-a450-05cf3e3bbf9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scabland
@@ -448,6 +450,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #49 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 46 pages (41 decks · 3 edh guides · 2 card data) → [reverse index](../../references/S.md#scalding-tarn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/254/scalding-tarn) · oracle_id `cb027150-848c-4a66-88ad-e20222304dd8` · printing: MH2 #254 (2021-06-18) · [rulings](https://api.scryfall.com/cards/71e491c5-8c07-449b-b2f1-ffa052e6d311/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scalding Tongs
@@ -488,6 +491,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scalding-viper--steam-clean)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/235/scalding-viper-steam-clean) · oracle_id `12c71296-1243-49e6-a196-8b016a7b635c` · printing: WOE #235 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scaldkin
@@ -564,6 +568,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If a creature has negative power or toughness, consider the actual value when determining the size of the creature. For example, a 0/7 creature that’s been given -2/-1 is a -2/6 creature, which totals 4, making it small.
   - *2019-11-12* — If you choose more than one mode, creatures are destroyed in the order specified. This may cause some creatures to escape destruction. For example, if you choose to destroy small and medium creatures while you control a 2/2 creature with the ability “Other creatures you control get +1/+1” and another 2/2 creature that’s a 3/3 creature thanks to that ability, the first creature is destroyed, then the second creature won’t be destroyed when medium creatures are destroyed since it’s become a 2/2 creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scaled-destruction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/12/scaled-destruction) · oracle_id `570ab1ea-6fb4-49d9-a33d-f20cafbfc086` · printing: CMB2 #12 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scaled Herbalist
@@ -652,6 +657,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-08-25* — If the only nonland permanents on the battlefield are Scalelord Reckoners and Dragons controlled by players who control Scalelord Reckoners, any spell or ability that targets one of those Dragons will cause an infinite loop of triggered abilities and the game will immediately end in a draw.
   - *2017-08-25* — Scalelord Reckoner's triggered ability resolves before the spell or ability that caused it to trigger. The ability will resolve even if that spell or ability is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scalelord-reckoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/6/scalelord-reckoner) · oracle_id `9da65d66-71f0-4e17-a1f9-6da6cd1cfa8a` · printing: C17 #6 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scale of Chiss-Goria
@@ -693,6 +699,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20667 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — Scalestorm Summoner’s ability triggers even if you don’t control any creatures with power 4 or greater. It checks only as it resolves to see if you do. You can respond to the ability by raising the power of a creature you control so you can create a Dinosaur token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scalestorm-summoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/144/scalestorm-summoner) · oracle_id `55ede1d4-593d-433c-943a-4db12eeb5fa8` · printing: OTJ #144 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scale the Heights
@@ -770,6 +777,7 @@ schema: 2
   > *It knows the length, pitch, and orientation of every tunnel it has ever traversed.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4641 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scampering-surveyor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/260/scampering-surveyor) · oracle_id `63c8f510-eba8-4f00-9f80-fbbc74801a4a` · printing: LCI #260 (2023-11-17) · [rulings](https://api.scryfall.com/cards/afcb2a90-d4c0-4c83-8ee7-2ac3a23b4402/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scampire
@@ -782,6 +790,7 @@ schema: 2
   > {3}{B}: Return target creature card with a sticker on it from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27463 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#scampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/89/scampire) · oracle_id `64dbed80-b3a2-4a0f-afe4-c3d968173e50` · printing: UNF #89 (2022-10-07) · [rulings](https://api.scryfall.com/cards/31950e19-83ca-45d4-8ca1-e109b875fd67/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scandalmonger
@@ -824,6 +833,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1291 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — You sacrifice the lands as part of the resolution of Scapeshift. It isn’t an additional cost. If Scapeshift is countered, you won’t sacrifice any lands.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scapeshift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/201/scapeshift) · oracle_id `c235015e-a7a9-4f8d-bf4a-cf68b3847f83` · printing: M19 #201 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scar
@@ -903,6 +913,7 @@ schema: 2
   > *The poison on their blades is nothing compared to the poison in their hearts.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11096 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scarblades-malice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/119/scarblades-malice) · oracle_id `66d57851-2844-4b9d-be78-e90fc620b750` · printing: ECL #119 (2026-01-23) · [rulings](https://api.scryfall.com/cards/aea9b5c0-3b32-44be-9773-566b9daafa6b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarecrone
@@ -1025,6 +1036,7 @@ schema: 2
   - *2025-09-19* — Use the mana value of the creature as it last existed on the battlefield to determine the value of X. If it had {X} in its mana cost, X is 0 when determining its mana value.
   - *2025-09-19* — Web-slinging represents an alternative cost. If another effect allows you to play a card for a different alternative cost, including "without paying its mana cost," you can't also choose to pay its web-slinging cost. If any additional costs from other sources are applied, you must pay those.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with web-slinging. For creatures, that usually means you must cast it during a main phase of your turn while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scarlet-spider-ben-reilly)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/142/scarlet-spider-ben-reilly) · oracle_id `13ab2f3f-f65e-42b5-b743-39b30a4c4751` · printing: SPM #142 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarlet Spider, Kaine
@@ -1058,6 +1070,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11494 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scarlet-witch-chaotic-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/93/scarlet-witch-chaotic-avenger) · oracle_id `8c72d54e-97a6-408e-ae77-18d3c96b3bd8` · printing: MSC #93 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2308c274-40d8-490f-955e-67a57b89525a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scarlet Witch, Wanda Maximoff
@@ -1264,6 +1277,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1041 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scattered-groves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/262/scattered-groves) · oracle_id `3c87ea85-ca29-45a7-b5b2-758c62898b0a` · printing: MSC #262 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6bd38442-854d-43b1-a80c-9d841c3a304d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scattered Thoughts
@@ -1454,6 +1468,7 @@ schema: 2
   - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
   - *2017-07-14* — If a Desert has an ability with a cost of "Sacrifice a Desert," you can sacrifice that Desert to pay the cost for its own ability.
   - *2017-07-14* — The sacrificed Desert will be in your graveyard to be exiled by the last ability of Scavenger Grounds.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#scavenger-grounds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/263/scavenger-grounds) · oracle_id `5ece7d03-9ee7-4953-a06e-9d8e41874903` · printing: MSC #263 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scavenger Hunt (UNF #226a)
@@ -1562,6 +1577,7 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scavenger-regent--exude-toxin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/90/scavenger-regent-exude-toxin) · oracle_id `7e97a242-0bac-4f18-9228-e98ecca36254` · printing: TDM #90 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scavenger's Talent
@@ -1633,6 +1649,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1603 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-06-23* — If the target card is an illegal target when the ability tries to resolve, it won't resolve and none of its effects will happen. No +1/+1 counter will be put on Scavenging Ooze and you won't gain life. Notably, this means that if you activate Scavenging Ooze's ability multiple times targeting the same creature card, only the first instance of the ability to resolve will have any effect.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#scavenging-ooze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/232/scavenging-ooze) · oracle_id `1ff25f67-36a7-4cfa-a2b1-2135b5b6fb67` · printing: FDN #232 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scavenging Scarab
@@ -1793,6 +1810,7 @@ schema: 2
   > *It burns with the very fire that doomed Szarekh's species, and channels it to devastate his foes.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2370 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sceptre-of-eternal-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/166/sceptre-of-eternal-glory) · oracle_id `ce08aff3-efe6-4186-9557-274e00a7ca38` · printing: 40K #166 (2022-10-07) · [rulings](https://api.scryfall.com/cards/bc7f3009-c852-41e7-8e62-d2ee637b3998/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Schema Thief
@@ -1827,6 +1845,7 @@ schema: 2
 - **Keywords:** Proliferate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6923 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scheming-aspirant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/107/scheming-aspirant) · oracle_id `cf4a3b1a-4b87-473e-be1f-3aa3da45c28e` · printing: ONE #107 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8de80f71-82b5-499c-afc0-6bbae6b896ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scheming Fence
@@ -1874,6 +1893,7 @@ schema: 2
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — Scheming Silvertongue's last ability will check as your second main phase starts to see if you gained 2 or more life this turn. If you didn't, the ability won't trigger at all. It's not possible to gain life during your second main phase in time to have the ability trigger.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scheming-silvertongue--sign-in-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/99/scheming-silvertongue-sign-in-blood) · oracle_id `44443716-8356-40cd-a879-35264b29108c` · printing: SOS #99 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scheming Symmetry
@@ -1887,6 +1907,7 @@ schema: 2
   > *—Kethis, the Hidden Hand*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1840 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scheming-symmetry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/113/scheming-symmetry) · oracle_id `6dfb50d7-359b-4644-90e3-7ecdacee7c12` · printing: M20 #113 (2019-07-12) · [rulings](https://api.scryfall.com/cards/01acc50b-856d-442d-9880-1a892b40643b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Schismotivate
@@ -1967,6 +1988,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10301 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — The triggered ability of Scholar of the Ages can return at most two cards, not two instant cards plus two sorcery cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scholar-of-the-ages)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/93/scholar-of-the-ages) · oracle_id `1bb1ad32-9ce5-4f14-a408-e142ff30c679` · printing: CMR #93 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scholar of the Lost Trove
@@ -1984,6 +2006,7 @@ schema: 2
   - *2020-06-23* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2020-06-23* — If you cast an artifact spell this way, it won’t be exiled if it would be put into your graveyard this turn.
   - *2020-06-23* — If you wish to cast the target card, you must cast it while the triggered ability is resolving. You can’t cast it later in the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scholar-of-the-lost-trove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/14/scholar-of-the-lost-trove) · oracle_id `5f1e9098-f554-4505-974b-cef4b4b7b23d` · printing: JMP #14 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scholarship Sponsor
@@ -2051,6 +2074,7 @@ schema: 2
   > *"A weapon to kill a god? A.I.M. can do that, if you have the money."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16624 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#scientist-supreme-of-aim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/225/scientist-supreme-of-aim) · oracle_id `c09c424b-6aba-4190-9f55-f0307d746386` · printing: MSH #225 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0473a990-88c4-4921-a492-377d9171318a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Calamity
@@ -2072,6 +2096,7 @@ schema: 2
   - *2023-11-10* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking, the controller of the planeswalker it was attacking, or the protector of the battle it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the appropriate player based on who or what the creature was last attacking.
   - *2023-11-10* — The tokens all enter the battlefield at the same time.
   - *2023-11-10* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it's attacking a planeswalker, you choose which one. You can't have any of the tokens attack a battle.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#scion-of-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/93/scion-of-calamity) · oracle_id `75fddffb-68f4-4b65-bf3b-4e2ada62a522` · printing: LCC #93 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Darkness
@@ -2103,6 +2128,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Domain abilities count the number of basic land types among lands you control, not how many lands you control or how many of any type.
   - *2021-06-18* — The basic land types are Plains, Island, Swamp, Mountain, and Forest. Land types other than basic land types (such as Desert) don't contribute to domain abilities.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scion-of-draco)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/234/scion-of-draco) · oracle_id `fd547632-a29a-4dad-a9da-155882391815` · printing: MH2 #234 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Glaciers
@@ -2139,6 +2165,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#scion-of-halaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/145/scion-of-halaster) · oracle_id `227ddf6c-d21a-48da-84fb-395c7e096914` · printing: CLB #145 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Oona
@@ -2154,6 +2181,7 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3511 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scion-of-oona)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/63/scion-of-oona) · oracle_id `b34601d2-2aeb-4649-9d73-d0895611bd69` · printing: MMA #63 (2013-06-07) · [rulings](https://api.scryfall.com/cards/a29f95fe-2efa-4788-84d8-2bd88d8650b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Opulence
@@ -2234,6 +2262,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-09-25* — Removing the other Dragon card from your graveyard has no effect on Scion of the Ur-Dragon.
   - *2006-09-25* — When Scion of the Ur-Dragon becomes a copy of another Dragon, it loses its copy ability for the rest of the turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scion-of-the-ur-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/192/scion-of-the-ur-dragon) · oracle_id `b4031540-584b-4c8a-9e4e-d68ae5cdec5b` · printing: C17 #192 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of the Wild
@@ -2262,6 +2291,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24171 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — Scion of Ugin is colorless. It isn’t monocolored, nor is it an artifact.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scion-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/1/scion-of-ugin) · oracle_id `7422f43d-0c1e-42cb-864d-1c63f2ec533a` · printing: IMA #1 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scion of Vitu-Ghazi
@@ -2377,6 +2407,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If this land enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
   - *2026-03-20* — Unlike some other dual lands, Scorched Geyser has two basic land types. It's not basic, so effects that search for basic lands can't find it, but it does have the appropriate land types for effects such as that of Frostboil Snarl (included in the Secrets of Strixhaven Commander decks).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scorched-geyser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/264/scorched-geyser) · oracle_id `f808b510-907a-4c3c-aea1-efb825c8e13e` · printing: MSC #264 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorched Ruins
@@ -2389,6 +2420,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6398 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2008-04-01* — If you don't sacrifice the lands, Scorched Ruins never enters — it goes directly to your graveyard.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#scorched-ruins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/166/scorched-ruins) · oracle_id `6ee68855-c8c5-422b-88da-163c09a96416` · printing: WTH #166 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorched Rusalka
@@ -2417,6 +2449,7 @@ schema: 2
   - *2019-10-04* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature or planeswalker even if Scorching Dragonfire deals no damage to it (most likely due to a prevention effect).
   - *2020-06-23* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
   - *2024-09-20* — Scorching Dragonfire's replacement effect will exile the target creature or planeswalker if it would die this turn for any reason, not just due to lethal damage.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#scorching-dragonfire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/545/scorching-dragonfire) · oracle_id `d14f313c-fea6-49c4-8197-5b74ee584a6b` · printing: FDN #545 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorching Lava
@@ -2607,6 +2640,7 @@ schema: 2
   > *Late at night, ululations echo from deep under Shiv, as the wurms sing of times older than humanity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21227 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scoria-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/227/scoria-wurm) · oracle_id `ee45c80c-699c-4e37-97e6-1859c6601c99` · printing: 10E #227 (2007-07-13) · [rulings](https://api.scryfall.com/cards/406f7fef-00f0-4ca5-ada4-c4a760e68467/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorn-Blade Berserker
@@ -2627,6 +2661,7 @@ schema: 2
   - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won’t gain additional abilities.
   - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
   - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won’t change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scorn-blade-berserker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/124/scorn-blade-berserker) · oracle_id `93107139-b743-4d62-b0ac-9997202e0562` · printing: MOM #124 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorned Villager // Moonscarred Werewolf
@@ -2726,6 +2761,7 @@ schema: 2
   > *—Cloud Strife*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19361 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scorpion-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/72/scorpion-sentinel) · oracle_id `5e53fe9f-9995-47ff-85e9-f09b70d7af15` · printing: FIN #72 (2025-06-13) · [rulings](https://api.scryfall.com/cards/08ab5220-e5c1-472e-8217-97fd60e1773c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scorpion's Sting
@@ -2785,6 +2821,7 @@ schema: 2
   > *By the codes of Mardu and Abzan alike, both sides allowed their enemies time to grieve after a battle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #753 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#scoured-barrens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/267/scoured-barrens) · oracle_id `d37f858e-03c8-4594-9b92-cd03699a1591` · printing: TDM #267 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b4b47b80-69ed-44b0-afa0-ca90206dc16d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scour for Scrap
@@ -2859,6 +2896,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2211 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-04-26* — The value of X is determined as the ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scourge-of-fleets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/403/scourge-of-fleets) · oracle_id `57308fc8-8915-4211-a5fd-9363caea9ab9` · printing: CMR #403 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scourge of Geier Reach
@@ -2996,6 +3034,7 @@ schema: 2
   - *2014-05-29* — Scourge of the Throne's ability has an intervening "if" clause. It must be attacking the player with the most life or tied with the most life both when it's declared as an attacker and as it starts to resolve for it to have any effect. If, at either time, the player isn't the one with the most life or tied for the most life, the ability will have no effect. Notably, this is different than how dethrone works. (Dethrone checks only once to see if the ability triggers.)
   - *2014-05-29* — The +1/+1 counter is put on the creature before blockers are declared.
   - *2023-07-28* — Dethrone doesn't trigger if the creature attacks a planeswalker, even if its controller has the most life. The same is true if the creature attacks a battle, even if its protector has the most life.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#scourge-of-the-throne)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/230/scourge-of-the-throne) · oracle_id `06496a05-7f1a-402c-9594-304cd82bfefd` · printing: TDC #230 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scourge of the Undercity
@@ -3027,6 +3066,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If a Dragon entering the battlefield causes Scourge of Valkas's ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage.
   - *2017-11-17* — The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#scourge-of-valkas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/137/scourge-of-valkas) · oracle_id `0a147009-a57c-4ac1-ab81-d8bd8b737631` · printing: AFC #137 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scourge Servant
@@ -3109,6 +3149,7 @@ schema: 2
   - *2025-07-25* — Scouring Swarm’s last ability counts the number of land cards in your graveyard as it resolves. This will usually include the land you sacrificed.
   - *2025-07-25* — The token copy will have Scouring Swarm’s abilities and will be able to create more copies of itself.
   - *2025-07-25* — The token doesn’t copy whether Scouring Swarm is tapped or untapped, whether it has any counters on it or Auras or Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scouring-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/16/scouring-swarm) · oracle_id `aa64f830-b9b6-4d5e-9a5d-f9e120089335` · printing: EOC #16 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scour the Desert
@@ -3177,6 +3218,7 @@ schema: 2
   > *—Eladamri*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19269 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scouting-trek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/210/scouting-trek) · oracle_id `929c231a-12d9-4f1a-9849-64a8b5a65f20` · printing: INV #210 (2000-10-02) · [rulings](https://api.scryfall.com/cards/1b882e68-5c03-4ec6-9982-8c3b09847969/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scout's Warning
@@ -3486,6 +3528,7 @@ schema: 2
   - *2017-02-09* — If an artifact is a copy of another artifact with greater mana value, such as Sculpting Steel copying an artifact with mana value 4, Scrap Trawler's ability can target that artifact card in your graveyard when that artifact is put into your graveyard.
   - *2017-02-09* — The target artifact card must have a lesser mana value than the artifact that caused Scrap Trawler's ability to trigger by being put into a graveyard. Use the artifact's mana value as it last existed on the battlefield to determine what may be returned.
   - *2017-02-09* — While on the battlefield or in a graveyard, {X} in an object's mana cost is 0.
+- **Referenced in:** 7 pages (6 decks · 1 edh guides) → [reverse index](../../references/S.md#scrap-trawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/373/scrap-trawler) · oracle_id `164f3f85-21fc-40b7-9871-4f303ba98428` · printing: MOC #373 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scrap Welder
@@ -3500,6 +3543,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9786 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — The target card's mana value must be less than X. A card with mana value equal to X is not a legal target for Scrap Welder's ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scrap-welder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/159/scrap-welder) · oracle_id `4ebce651-ef95-4a96-b720-a23757d641c8` · printing: NEO #159 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scrapwork Cohort
@@ -3582,6 +3626,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-06-14* — If a creature with modular receives enough -1/-1 counters to cause it to be destroyed by lethal damage or put into its owner’s graveyard for having 0 or less toughness, modular will put a number of +1/+1 counters on the target artifact creature equal to the number of +1/+1 counters on this creature before it left the battlefield. That’s because modular checks the creature as it last existed on the battlefield, and it still had +1/+1 counters on it at that point.
   - *2019-06-14* — You can sacrifice Scrapyard Recombiner to pay the cost of its second ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scrapyard-recombiner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/227/scrapyard-recombiner) · oracle_id `ecf09f2d-a886-4ec8-8ff6-fe15d87b1375` · printing: MH1 #227 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scrapyard Salvo
@@ -3623,6 +3668,7 @@ schema: 2
   > *It spreads the machine gospel of New Phyrexia, its task incomplete until all surrender to perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #587 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#scrawling-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/132/scrawling-crawler) · oracle_id `1d60c80d-9a95-4051-bbf7-02ca51ee1be2` · printing: FDN #132 (2024-11-15) · [rulings](https://api.scryfall.com/cards/a1176dcf-40ee-4342-aa74-791b8352e99a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screamer-Killer
@@ -3670,6 +3716,7 @@ schema: 2
   - *2024-09-20* — If lethal damage is dealt to Screaming Nemesis, its last ability still triggers.
   - *2024-09-20* — Once Screaming Nemesis's last ability causes it to deal damage to a player, that player won't be able to gain life for the rest of the game. It doesn't matter if Screaming Nemesis remains on the battlefield or not.
   - *2024-09-20* — Spells and abilities that cause a player affected by Screaming Nemesis's last ability to gain life still resolve. That player won't gain life, but any other effects of that spell or ability will happen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#screaming-nemesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/157/screaming-nemesis) · oracle_id `fcb7c93c-46ab-49b5-a6e0-35d73f3be8f0` · printing: DSK #157 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screaming Phantom
@@ -3782,6 +3829,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — If another player has gained control of Screams from Within, its triggered ability does nothing when it's put into a graveyard. Cards are always put into their owner's graveyard, but Screams from Within's ability looks for the card only in its controller's graveyard.
   - *2005-08-01* — If Screams from Within returns to the battlefield from your graveyard, you choose the creature that Screams from Within enchants (just as you would for any Aura that you're putting onto the battlefield without casting it). If your opponent doesn't control any creatures, you must choose one of your creatures. If there's nothing at all that Screams from Within can enchant, it remains in your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#screams-from-within)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/119/screams-from-within) · oracle_id `a3b3b9ae-1e48-481d-80a5-7e2a26cf2f50` · printing: SOC #119 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screams of the Damned
@@ -3913,6 +3961,7 @@ schema: 2
   - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
   - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
   - *2024-03-08* — “Do this only once each turn” lets you choose whether or not to create the appropriate number of 2/2 black Zombie Mutant creature tokens as the triggered ability resolves. If you choose not to create tokens, the ability will trigger again the next time the condition is met. Once you choose to do so, the ability will no longer trigger for the rest of the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#screeching-scorchbeast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/49/screeching-scorchbeast) · oracle_id `ed5889c9-e524-40c1-9011-7559a992bb1b` · printing: PIP #49 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screeching Silcaw
@@ -3959,6 +4008,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
   - *2013-07-01* — If the creature type of a Sliver changes so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#screeching-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/75/screeching-sliver) · oracle_id `88485575-e491-4ab7-a020-e52dd92ae085` · printing: TSP #75 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Screeching Soulbreaker
@@ -4033,6 +4083,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If the target creature is an illegal target as Scriv's last ability tries to resolve, it won't resolve and none of its effects will happen. The Contract token won't be created.
   - *2026-03-20* — In the rare case that the target creature is a legal target as Scriv's first ability resolves but the target creature can't legally be enchanted by the Contract token, the token won't be created at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scriv-the-obligator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/9/scriv-the-obligator) · oracle_id `64c986f0-e786-419c-9b51-8c316c8fae0e` · printing: SOC #9 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scroll of Avacyn
@@ -4095,6 +4146,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scroll-of-isildur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/69/scroll-of-isildur) · oracle_id `aa9a45a5-0250-465b-962e-f2d45dea26f9` · printing: LTR #69 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scroll of Origins
@@ -4131,6 +4183,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1369 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If there are not enough cards in the library, you do not lose. This is not a draw effect. You just get as many cards as are there, even if there are zero cards in the library.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#scroll-rack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/337/scroll-rack) · oracle_id `648bd03d-247e-4d6f-87a9-12a67688cbf5` · printing: CMR #337 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scrollshift
@@ -4242,6 +4295,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/S.md#scrubland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/313/scrubland) · oracle_id `c8d95ca8-7d12-4072-aeaf-e20f248c7e39` · printing: VMA #313 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scryb Ranger
@@ -4256,6 +4310,7 @@ schema: 2
 - **Keywords:** Flying, Protection, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5425 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scryb-ranger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/227/scryb-ranger) · oracle_id `d1961110-575b-4a1b-9cee-db0e1f0fdbc1` · printing: TSR #227 (2021-03-19) · [rulings](https://api.scryfall.com/cards/885c122a-d350-420f-ba7b-4523a28e48a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scryb Sprites
@@ -4282,6 +4337,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The only valid colors are white, black, blue, red, and green.
   - *2004-10-04* — You choose a target opponent on announcement. You choose a number and color during resolution, then the targeted opponent reveals their hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scrying-glass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/137/scrying-glass) · oracle_id `ca16b32c-3f1e-4f8d-821a-064f922c45d8` · printing: UDS #137 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scrying Sheets
@@ -4337,6 +4393,7 @@ schema: 2
   - *2007-07-15* — If the chosen artifact is copying something else (for example, if the chosen artifact is another Sculpting Steel), then your Sculpting Steel enters as whatever the chosen artifact copied.
   - *2007-07-15* — Sculpting Steel doesn't copy whether the original artifact is tapped or untapped. It also doesn't copy any counters on that artifact, any Auras or Equipment attached to that artifact, or any effects that are currently affecting that artifact — you get exactly what's printed on the chosen card and nothing more. So if you copy an animated Chimeric Staff, for example, you get a normal, nonanimated Chimeric Staff.
   - *2007-07-15* — You can choose not to copy anything. In that case, Sculpting Steel stays on the battlefield as an artifact that doesn't do much of anything.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#sculpting-steel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/374/sculpting-steel) · oracle_id `6c85271c-c711-49b0-a72e-9e576c33714d` · printing: MOC #374 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sculptor of Winter
@@ -4408,6 +4465,7 @@ schema: 2
   - *2021-06-18* — If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the comparison will take place each time one of those abilities tries to resolve. For example, if you control a 1/2 creature with evolve and two 2/2 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing.
   - *2021-06-18* — When comparing the characteristics of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2021-06-18* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither characteristic of the new creature is greater, evolve won't trigger at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scurry-oak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/172/scurry-oak) · oracle_id `eee6c02b-7d6a-4445-ad27-8b03176147d4` · printing: MH2 #172 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scurry of Gremlins
@@ -4430,6 +4488,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scurry-of-gremlins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/203/scurry-of-gremlins) · oracle_id `ff24d18d-9c5d-4ffe-846f-a8d568b32724` · printing: MH3 #203 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scurry of Squirrels
@@ -4451,6 +4510,7 @@ schema: 2
   - *2024-07-26* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking, the controller of the planeswalker it was attacking, or the protector of the battle it was attacking at the time the ability resolves. If that creature is no longer attacking, it refers to the appropriate player based on who or what the creature was last attacking.
   - *2024-07-26* — The tokens created by a single instance of myriad all enter at the same time.
   - *2024-07-26* — You choose whether each token is attacking the player or a planeswalker they control as the token is created. If it's attacking a planeswalker, you choose which one. You can't have any of the tokens attack a battle.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#scurry-of-squirrels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/BLC-33/scurry-of-squirrels) · oracle_id `3beed054-a099-4887-b1bd-39cf9e514e94` · printing: PLST #BLC-33 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scute Mob
@@ -4487,6 +4547,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 10 pages (4 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#scute-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/197/scute-swarm) · oracle_id `aa854d50-444c-49d9-bfb1-5476b33c1c0b` · printing: DSC #197 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scuttlegator
@@ -4541,6 +4602,7 @@ schema: 2
   - *2021-06-18* — The tokens are normal artifacts. For example, one can be sacrificed to activate the ability of Breya's Apprentice and one can be the target of Break Ties.
   - *2021-06-18* — The triggered ability triggers when creatures are declared as attackers attacking you or a planeswalker you control. It will not trigger if an effect puts a creature onto the battlefield attacking you or a planeswalker you control.
   - *2021-06-18* — You can't sacrifice a Clue to activate its own ability and also to activate another ability that requires sacrificing a Clue (or any artifact) as a cost, such as that of Lonis, Cryptozoologist.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#scuttletide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/61/scuttletide) · oracle_id `2be9c1e6-0226-497a-b548-21bf1cfbc286` · printing: MH2 #61 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scuttling Butler
@@ -4666,6 +4728,7 @@ schema: 2
   - *2025-11-17* — If you can't place -1/-1 counters on any creatures you control (probably because you control no creatures), you can't choose to blight.
   - *2025-11-17* — Once you've announced that you're casting a spell or activating an ability, players can't take actions until you've finished doing so. Notably, opponents can't try to destroy or otherwise remove your creatures to stop you from blighting as part of paying the cost of that spell or ability.
   - *2025-11-17* — The creature you choose to put -1/-1 counters on doesn't have to have enough toughness to survive the process. For example, if you blight 2, you can choose to put the counters on a 1/1 creature you control.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#scuzzback-scrounger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/153/scuzzback-scrounger) · oracle_id `af38d683-77a3-4599-ad2a-1c293ae01d45` · printing: ECL #153 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scythecat Cub
@@ -4749,6 +4812,7 @@ schema: 2
   - *2004-12-01* — If the card isn't a creature when it comes back onto the battlefield, then Scythe of the Wretched won't move onto it.
   - *2004-12-01* — Scythe of the Wretched needs to equip your creature when the other creature goes to the graveyard for the ability to trigger, but it doesn't matter whether the Scythe equipped your creature when the damage was actually dealt.
   - *2004-12-01* — The Scythe's ability triggers even if something other than the damage dealt by the equipped creature causes the creature to be put into a graveyard that turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#scythe-of-the-wretched)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/239/scythe-of-the-wretched) · oracle_id `9dc26b9f-3b02-46f2-88f8-eb6dffa04ee5` · printing: MRD #239 (2003-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Scythe Specter

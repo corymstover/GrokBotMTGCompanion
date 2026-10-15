@@ -79,6 +79,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13407 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zuko-avatar-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/246/zuko-avatar-hunter) · oracle_id `d445a584-98e7-4501-bb20-e76c9cafa757` · printing: TLE #246 (2025-11-21) · [rulings](https://api.scryfall.com/cards/2a2330fa-a1e1-41d9-bb7b-8aa9b03a0543/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Conflicted
@@ -96,6 +97,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — In a multiplayer game, if Zuko, Conflicted's owner leaves the game, Zuko, Conflicted leaves the game with them. If his controller leaves the game, Zuko, Conflicted is exiled (assuming that player wasn't also Zuko, Conflicted's owner).
   - *2025-10-02* — When Zuko, Conflicted is under an opponent's control, his triggered ability will trigger in their first main phase, and they will make all choices for the ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zuko-conflicted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/253/zuko-conflicted) · oracle_id `b5fd82b9-77de-4358-9ce7-915cc809a889` · printing: TLA #253 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko, Exiled Prince
@@ -140,6 +142,7 @@ schema: 2
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — The experience counter goes on you, the player, not on Zuko. You will keep that counter even if Zuko, Firebending Master dies.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/Z.md#zuko-firebending-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/127/zuko-firebending-master) · oracle_id `33db6dc8-2c88-4a7f-8d4d-3bc9fb6544b2` · printing: TLE #127 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Conviction
@@ -175,6 +178,7 @@ schema: 2
   - *2025-10-02* — Firebending abilities aren't mana abilities. They use the stack and can be responded to.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zuko-seeking-honor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/150/zuko-seeking-honor) · oracle_id `6e737c52-cbe0-493f-ae46-7bf068e04882` · printing: TLE #150 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Exile
@@ -189,6 +193,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Clue tokens are artifact tokens with "{2}, Sacrifice this token: Draw a card."
   - *2025-10-02* — Creating a Clue token this way isn't the same thing as investigating. Notably, an ability that triggers whenever you investigate won't trigger because of creating a Clue token this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zukos-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/3/zukos-exile) · oracle_id `5cf18398-9552-415e-a61f-2c149e35ec3d` · printing: TLA #3 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuko's Offense
@@ -231,6 +236,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #236 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If another creature you control dies at the same time as Zulaport Cutthroat, its ability triggers for that creature.
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/Z.md#zulaport-cutthroat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/233/zulaport-cutthroat) · oracle_id `76b003e0-15af-4f22-bdf2-1ade5430964a` · printing: SOC #233 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zulaport Duelist
@@ -267,6 +273,7 @@ schema: 2
   - *2010-06-15* — Effects that set a leveler's power or toughness to a specific value, including the effects from a level symbol's ability, apply in timestamp order. The timestamp of each level symbol's ability is the same as the timestamp of the leveler itself, regardless of when the most recent level counter was put on it.
   - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler's printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
   - *2010-06-15* — The abilities a leveler grants to itself don't overwrite any other abilities it may have. In particular, they don't overwrite the creature's level up ability; it always has that.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Z.md#zulaport-enforcer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/133/zulaport-enforcer) · oracle_id `0ab5fde8-e7db-4265-81c6-2a6488ba56c4` · printing: ROE #133 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zul Ashur, Lich Lord
@@ -321,6 +328,7 @@ schema: 2
   > *—Jodah, Archmage Eternal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #908 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zuran-orb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/300/zuran-orb) · oracle_id `08cb8a30-9cb4-4517-bee5-8848aa60d1a2` · printing: MH2 #300 (2021-06-18) · [rulings](https://api.scryfall.com/cards/618c8ecc-686d-41de-b9b1-1a7ee9cc7c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zuran Spellcaster
@@ -351,6 +359,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — If a permanent on the battlefield has an {X} in its mana cost, X is zero when determining its mana value.
   - *2022-09-09* — Zur, Eternal Schemer’s last ability does not have a duration. Once it resolves the target enchantment will be a creature until it leaves the battlefield or another effect causes it to stop being a creature.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/Z.md#zur-eternal-schemer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/228/zur-eternal-schemer) · oracle_id `cfc5dc9c-6f26-460b-a624-3681b8584eb3` · printing: DMU #228 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo and Ojutai
@@ -422,6 +431,7 @@ schema: 2
   - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
   - *2025-04-04* — If Zurgo Stormrender leaves the battlefield at the same time as one or more creature tokens you control, its last ability will trigger once for each of those creature tokens.
   - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/Z.md#zurgo-stormrender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/10/zurgo-stormrender) · oracle_id `0f93d88c-9d2e-416d-a10b-99483360b1fb` · printing: TDC #10 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurgo's Vanguard
@@ -496,6 +506,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2902 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-12-08* — If you put an Aura card onto the battlefield with Zur's ability, you choose what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in your library.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/Z.md#zur-the-enchanter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/206/zur-the-enchanter) · oracle_id `d7950018-d744-48a8-81aa-0d8384703f48` · printing: DMR #206 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zurzoth, Chaos Rider
@@ -511,4 +522,5 @@ schema: 2
   - *2020-06-23* — Devils you control that attack a planeswalker won't cause any player to draw or discard a card.
   - *2020-06-23* — If a spell or ability causes a player to put a card into their hand without specifically using the word "draw," it's not a card drawn.
   - *2020-06-23* — If your life total is brought to 0 or less at the same time that a Devil token is dealt lethal damage, you lose the game before its ability goes on the stack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zurzoth-chaos-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/278/zurzoth-chaos-rider) · oracle_id `a7da9ec5-f82f-4a6d-9737-06a1556e2dd6` · printing: NCC #278 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

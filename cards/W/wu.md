@@ -51,6 +51,7 @@ schema: 2
   > *The Wu kingdom's well-trained admirals were integral to the Southlands' victory at Red Cliffs as well as the kingdom's defense.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31338 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-admiral)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/57/wu-admiral) · oracle_id `578c5b92-9f7e-4645-9624-f2c1a16b6aaf` · printing: PTK #57 (1999-05-01) · [rulings](https://api.scryfall.com/cards/499ae191-80ac-42bf-b49d-db343803bd56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Elite Cavalry
@@ -66,6 +67,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26887 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-elite-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/54/wu-elite-cavalry) · oracle_id `7dc5d729-0553-46fb-aff7-2f0d9573837b` · printing: ME3 #54 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Infantry
@@ -94,6 +96,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — Wulfgar of Icewind Dale's last ability affects only triggered abilities with conditions that are directly related to attacking, such as “whenever this creature attacks” or “whenever you attack with one or more creatures.” It does not affect triggered abilities with other trigger conditions, such as “whenever this creature becomes tapped.”
   - *2021-07-23* — Wulfgar's last ability will cause its melee ability to trigger an additional time.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wulfgar-of-icewind-dale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/56/wulfgar-of-icewind-dale) · oracle_id `b19d1459-eb08-4e75-95f4-402d86371a78` · printing: AFC #56 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Light Cavalry
@@ -109,6 +112,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25034 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-light-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/60/wu-light-cavalry) · oracle_id `c24da532-311b-4b83-82d2-7dc80409ba12` · printing: PTK #60 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Longbowman
@@ -121,6 +125,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27249 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-longbowman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/55/wu-longbowman) · oracle_id `68fc55b9-55cc-4caf-a052-b44ddc0b346f` · printing: ME3 #55 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wumpus Aberration
@@ -143,6 +148,7 @@ schema: 2
   - *2024-06-07* — If a card loses devoid, it will still be colorless. This is because effects that change an object's color (like the one created by devoid) are considered before the object loses devoid.
   - *2024-06-07* — Other cards and abilities can give a card with devoid a color. If that happens, it's just the new color, not that color and colorless.
   - *2024-06-07* — Wumpus Aberration's triggered ability will resolve before Wumpus Aberration does. If Wumpus Aberration is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wumpus-aberration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/176/wumpus-aberration) · oracle_id `c116801e-9893-46e8-a967-352b5fa27e86` · printing: MH3 #176 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmcalling
@@ -183,6 +189,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — It must be clear to all players which token has deathtouch and which token has lifelink.
   - *2011-01-01* — The two creature tokens enter at the same time.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/W.md#wurmcoil-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/308/wurmcoil-engine) · oracle_id `d1a60f44-7696-49ee-91fb-cab5b3102962` · printing: 2XM #308 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmcoil Larva
@@ -198,6 +205,7 @@ schema: 2
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12722 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wurmcoil-larva)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/112/wurmcoil-larva) · oracle_id `72a39730-acc3-470c-960e-3a91c5eae4be` · printing: MH3 #112 (2024-06-14) · [rulings](https://api.scryfall.com/cards/cc9b30e0-3934-4e4c-bdd9-5b7696b45948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmquake
@@ -218,6 +226,7 @@ schema: 2
   - *2023-02-04* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2023-02-04* — You can't choose to spend more mana to cast Wurmquake than you're asked to just to make a bigger Wurm. In most cases, it's a 6/6 Phyrexian Wurm the first time, and a 10/10 Phyrexian Wurm when you cast Wurmquake with flashback. However, if there are any additional costs to cast it, the mana spent to pay those costs counts.
   - *2023-02-04* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wurmquake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/19/wurmquake) · oracle_id `0eeb9a62-1b36-42f5-8820-3331fa5ca3a6` · printing: ONC #19 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmskin Forger
@@ -259,6 +268,7 @@ schema: 2
 - **Keywords:** Surveil, Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12711 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wurmwall-sweeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/249/wurmwall-sweeper) · oracle_id `320ed2ec-ef06-41fb-ac8a-72579f11544c` · printing: EOE #249 (2025-08-01) · [rulings](https://api.scryfall.com/cards/9ace282a-5901-4d36-ad21-17eb88bc5138/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wurmweaver Coil
@@ -275,6 +285,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20870 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-02-01* — Wurmweaver Coil can enchant only a green creature. It can't enter attached to a nongreen creature, it can't be moved onto a nongreen creature, and if the creature it's attached to stops being green, the Aura is put into its owner's graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wurmweaver-coil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/161/wurmweaver-coil) · oracle_id `83419229-c266-4022-8297-d1b05ec5ee20` · printing: RVR #161 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Scout
@@ -289,6 +300,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23706 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/W.md#wu-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/62/wu-scout) · oracle_id `ef577d7d-7a24-4bd3-b86b-f69e37bb2ce7` · printing: PTK #62 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Spy
@@ -300,6 +312,7 @@ schema: 2
   > When this creature enters, look at the top two cards of target player's library. Put one of them into their graveyard.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29877 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-spy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/63/wu-spy) · oracle_id `4b681770-eea3-459c-ad5b-138834213f8c` · printing: PTK #63 (1999-05-01) · [rulings](https://api.scryfall.com/cards/f77b8e34-e7e9-4ac6-bc21-0ef52c6696c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wu Warship
@@ -313,4 +326,5 @@ schema: 2
   > *Both Wu and Wei warships patrolled the Yangtze River, the natural border between the two kingdoms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30458 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wu-warship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/56/wu-warship) · oracle_id `f184e860-05c3-43cf-a625-ab53427406c5` · printing: ME3 #56 (2009-09-07) · [rulings](https://api.scryfall.com/cards/935fc8cf-c2c5-4bfc-9dd8-0a0d52058312/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -83,6 +83,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — Zacama's triggered ability triggers if you cast it from any zone. It doesn't trigger if you put Zacama onto the battlefield without casting it.
   - *2023-07-28* — Zacama's damage-dealing ability can be activated during combat, perhaps targeting a creature blocking it. If all creatures blocking Zacama are destroyed, its combat damage is assigned to the player, planeswalker, or battle it's attacking because of trample. If the blocking creatures are dealt nonlethal damage, that damage is considered when assigning trample damage.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/Z.md#zacama-primal-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/296/zacama-primal-calamity) · oracle_id `23270e4a-a222-4ffb-a946-d0e20d665187` · printing: LCC #296 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zack Fair
@@ -98,6 +99,7 @@ schema: 2
   - *2025-06-06* — In some unusual cases, you may end up putting the appropriate counters on more than one permanent. For example, if you control The Ozolith ("Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.") when Zack Fair's last ability resolves, you'll put the appropriate number of each kind of counter onto both The Ozolith and the target creature.
   - *2025-06-06* — Zack Fair's last ability doesn't cause you to move counters from Zack Fair onto the target creature. Rather, you put the same number of each kind of counter Zack Fair had when it was sacrificed onto the target creature.
   - *2025-06-06* — Zack Fair's last ability puts all counters that were on Zack Fair onto the target creature, not just its +1/+1 counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zack-fair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/45/zack-fair) · oracle_id `e84d146a-1c67-49df-b062-622794e45c42` · printing: FIN #45 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada, Hedron Grinder
@@ -119,6 +121,7 @@ schema: 2
   - *2018-03-16* — The copies that the ability creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (like Zada's ability itself) won't trigger.
   - *2018-03-16* — You control all the copies. You choose the order the copies are put onto the stack. The original spell will be on the stack beneath those copies and will resolve last.
   - *2018-03-16* — Zada's ability triggers whenever you cast an instant or sorcery spell that targets only Zada and no other object or player.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/Z.md#zada-hedron-grinder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/268/zada-hedron-grinder) · oracle_id `9f7d5e1c-bf5b-4ab9-bd6e-2627b4d22b36` · printing: CMM #268 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zada's Commando
@@ -171,6 +174,7 @@ schema: 2
   - *2021-04-16* — If the instant or sorcery spell has {X} in its mana cost, X is the value chosen for X as the spell was cast.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
   - *2021-04-16* — The wrong card name was inadvertently included in Zaffai's printed rules text. The text above is correct and the full name of the card is Zaffai, Thunder Conductor.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zaffai-thunder-conductor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/4/zaffai-thunder-conductor) · oracle_id `02d529df-6299-4e8f-9794-70c8061efdc4` · printing: C21 #4 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagorka, Mother of Sanctum
@@ -229,6 +233,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #400 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/Z.md#zagoth-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/259/zagoth-triome) · oracle_id `fdd46004-eaba-4024-8687-39b23dc6a58c` · printing: IKO #259 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cc520518-2063-4b57-a0d4-10cf62a7175e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zagras, Thief of Heartbeats
@@ -278,6 +283,7 @@ schema: 2
 - **Keywords:** Surveil, Max speed, Start your engines!
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10636 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zahur-glorys-past)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/229/zahur-glorys-past) · oracle_id `fb82cd81-0e71-43ab-88f9-b1fa158f5138` · printing: DFT #229 (2025-02-14) · [rulings](https://api.scryfall.com/cards/31944ea5-045d-481d-9aff-3c7ed663813a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zalto, Fire Giant Duke
@@ -376,6 +382,7 @@ schema: 2
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zanarkand-ancient-metropolis--lasting-fayth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/293/zanarkand-ancient-metropolis-lasting-fayth) · oracle_id `5f2b3ea8-99ee-47a4-8a1c-4b27478d524c` · printing: FIN #293 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zanikev Locust
@@ -421,6 +428,7 @@ schema: 2
   - *2020-11-10* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player.
   - *2020-11-10* — If you lose the game before the creature put onto the battlefield under your control returns to its owner's hand, that creature is exiled. If that creature's owner loses the game while you control the creature, the creature leaves the game with them.
   - *2020-11-10* — The creature is returned to its owner's hand only if it's still on the battlefield as the delayed triggered ability resolves. If it's somewhere else at that time, it stays where it is.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/Z.md#zara-renegade-recruiter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/297/zara-renegade-recruiter) · oracle_id `cd2720c2-522c-4fdc-9cef-9c5ce250fe7b` · printing: LCC #297 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zarda, the Power Princess
@@ -489,6 +497,7 @@ schema: 2
   - *2021-07-23* — If you have more than one of Zariel's emblem, the abilities will each trigger at the end of the first combat phase on your turn. You can choose the same creature as the target of each ability. Those targets will untap before any additional combats. No creatures will untap between the first additional combat and the second additional combat (or between the second and third, and so on, and wow, how long was Zariel under your control?!)
   - *2021-07-23* — The ability of the emblem can target any creature you control, not just one that's tapped.
   - *2021-07-23* — There is no main phase between the combat phases. You move from the first combat phase directly into the second combat phase.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zariel-archduke-of-avernus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/172/zariel-archduke-of-avernus) · oracle_id `04ddb495-e9b0-47bf-b892-c7ae7b87c10c` · printing: AFR #172 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Zar Ojanen, Scion of Efrava
@@ -541,4 +550,5 @@ schema: 2
   - *2020-04-17* — If the spell you cast has {X}{X} in its mana cost, the token gets only X counters, not twice X.
   - *2020-04-17* — The Hydra token enters the battlefield as a 0/0 creature. Any abilities that modify or trigger on this event apply. After the token is on the battlefield but before any player can take actions, +1/+1 counters are put onto the token.
   - *2020-04-17* — The value of X in Zaxara's last ability is the value of X of the spell you cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Z.md#zaxara-the-exemplary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/176/zaxara-the-exemplary) · oracle_id `a9946ea0-bf0e-4c9c-a3c6-21337a5029ab` · printing: DMC #176 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

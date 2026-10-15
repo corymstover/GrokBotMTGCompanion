@@ -107,6 +107,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jocasta-automaton-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/108/jocasta-automaton-avenger) · oracle_id `787e6a7b-64f9-48ba-bccd-68dda3489b0f` · printing: MSC #108 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f666e211-0d80-4f01-b206-dac19bcbcfa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jodah, Archmage Eternal
@@ -189,6 +190,7 @@ schema: 2
 - **Keywords:** Partner, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22116 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#joel-resolute-survivor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2198/joel-resolute-survivor) · oracle_id `64611260-c9f7-4375-b67a-f88fee6d3bff` · printing: SLD #2198 (2025-10-27) · [rulings](https://api.scryfall.com/cards/713ab02f-cd48-420d-a2fe-ef460e6ce2d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jo Grant
@@ -210,6 +212,7 @@ schema: 2
   - *2023-10-13* — If your Commander deck has two commanders, you can include only cards whose own color identities are also found in your commanders' combined color identities.
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/J.md#jo-grant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/23/jo-grant) · oracle_id `65ea3638-1766-4096-88a8-662a0d6faf0c` · printing: WHO #23 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Johan
@@ -448,6 +451,7 @@ schema: 2
   - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#join-the-maestros)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/85/join-the-maestros) · oracle_id `849a7ae8-2b4e-4fa5-9607-2bfc961fee40` · printing: SNC #85 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Join the Ranks
@@ -461,6 +465,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22097 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-03-01* — When a Join the Ranks you control resolves, each ability that triggers whenever an Ally enters under your control will trigger twice.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#join-the-ranks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/9/join-the-ranks) · oracle_id `aa16307a-9c1f-4538-872c-95206e2b7a6e` · printing: WWK #9 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Join the Winning Team
@@ -485,6 +490,7 @@ schema: 2
   > *—Halvor Arenson, Kjeldoran priest*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11516 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jokulhaups)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/100/jokulhaups) · oracle_id `7bdfe368-353c-4f8d-851f-05b7ea9f905d` · printing: ME1 #100 (2007-09-10) · [rulings](https://api.scryfall.com/cards/99d26ff7-afff-40a0-b515-7928c2428809/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jokulmorder
@@ -579,6 +585,7 @@ schema: 2
   - *2022-12-08* — Jolrael's last ability overwrites all previous effects that set the affected creatures' power and/or toughness to specific values. If other effects that set these characteristics to specific values start to apply after Jolrael's ability resolves, they will overwrite that part of the effect.
   - *2022-12-08* — The triggered ability can trigger only once each turn. It doesn't matter if Jolrael was on the battlefield when the first card was drawn: if it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn.
   - *2022-12-08* — The value of X is determined only as Jolrael's last ability resolves. Once that happens, the value of X won't change later in the turn even if the number of cards in your hand changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jolrael-mwonvuli-recluse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/173/jolrael-mwonvuli-recluse) · oracle_id `f8640899-2458-40f2-98a3-35c402ee9a7a` · printing: MKC #173 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolrael's Centaur
@@ -595,6 +602,7 @@ schema: 2
 - **Keywords:** Shroud, Flanking
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29888 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jolraels-centaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/222/jolraels-centaur) · oracle_id `39b699e1-79c6-4960-97dc-d58574181bbe` · printing: MIR #222 (1996-10-08) · [rulings](https://api.scryfall.com/cards/31588ea3-31d2-4118-9b9f-4ce820c16a15/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolrael's Favor
@@ -661,6 +669,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jolted-awake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/33/jolted-awake) · oracle_id `4306a9e5-6845-4fd4-96ad-8888147612aa` · printing: MH3 #33 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jolting Merfolk
@@ -788,6 +797,7 @@ schema: 2
   - *2010-06-15* — If Joraga Treespeaker is level 5 or greater, it grants the mana ability to each Elf you control, including itself.
   - *2010-06-15* — If another creature becomes a copy of a leveler, all of the leveler’s printed abilities — including those represented by level symbols — are copied. The current characteristics of the leveler, and the number of level counters on it, are not. The abilities, power, and toughness of the copy will be determined based on how many level counters are on the copy.
   - *2010-06-15* — The abilities a leveler grants to itself don’t overwrite any other abilities it may have. In particular, they don’t overwrite the creature’s level up ability; it always has that.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/J.md#joraga-treespeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/190/joraga-treespeaker) · oracle_id `a011aefe-5853-4435-b686-179e931ba897` · printing: ROE #190 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Joraga Visionary
@@ -902,6 +912,7 @@ schema: 2
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2021-02-05* — You don't play the card as Kaldring's activated ability is resolving; rather, that ability gives you permission to play that card that turn. You must follow the normal timing permissions and restrictions for the card when you play it. To play a land this way, you must have a land play available. Notably, if you activate Kaldring's ability during an opponent's turn, you won't be able to cast a spell that way unless it has flash and you won't be able to play a land that way at all.
   - *2021-02-05* — You'll still pay all costs to cast a spell this way, including any additional costs. You may also pay alternative costs if any are available.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jorn-god-of-winter--kaldring-the-rimestaff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/179/jorn-god-of-winter-kaldring-the-rimestaff) · oracle_id `bd43b485-e42e-4c20-adcb-799b0ce18a59` · printing: KHM #179 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jorubai Murk Lurker
@@ -965,6 +976,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/J.md#josu-vess-lich-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/253/josu-vess-lich-knight) · oracle_id `974a46f9-aa84-4b34-bee5-c635166e5841` · printing: MOC #253 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jötun Grunt
@@ -1004,6 +1016,7 @@ schema: 2
   > *—Noboru, master kitemaker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16653 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#journeyers-kite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/65/journeyers-kite) · oracle_id `10aab5bc-5758-443b-ba4c-49f6c6d91262` · printing: DDI #65 (2012-03-30) · [rulings](https://api.scryfall.com/cards/5440121d-d3b5-4d26-a2d9-674af73d449a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey for the Elixir
@@ -1016,6 +1029,7 @@ schema: 2
   > *"As my hands touched it, I realized that I had not found it—it had been leading me here."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29654 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#journey-for-the-elixir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/36/journey-for-the-elixir) · oracle_id `e87606d5-5a23-4507-aece-8fdd044e7185` · printing: GS1 #36 (2018-06-22) · [rulings](https://api.scryfall.com/cards/3da5b115-84b5-4eb3-bbef-e5024601ebc8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Journey of Discovery

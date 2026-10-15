@@ -61,6 +61,7 @@ schema: 2
   - *2025-06-06* — The source of the copy from Gogo's ability is the same as the source of the original ability.
   - *2025-06-06* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
   - *2025-06-06* — You can't choose to pay any activation costs for the copy. However, effects based on those costs that were paid for the original ability are copied as though those same costs were paid for the copy.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gogo-master-of-mimicry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/54/gogo-master-of-mimicry) · oracle_id `61586052-7d69-489c-84c4-0359228d131b` · printing: FIN #54 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gogo, Mysterious Mime
@@ -77,4 +78,5 @@ schema: 2
   - *2025-06-06* — If the copied creature has {X} in its mana cost, X is 0.
   - *2025-06-06* — If the copied creature is a token, Gogo copies the original characteristics of that token as stated by the effect that created the token, with the listed exception.
   - *2025-06-06* — If the copied creature is copying something else, then Gogo becomes a copy of whatever that creature is copying, with the listed exception.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gogo-mysterious-mime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/56/gogo-mysterious-mime) · oracle_id `6fdcb563-9279-4365-8a78-26e75fbfd917` · printing: FIC #56 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -130,6 +130,7 @@ schema: 2
   > *"I decide what stands in my way."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2083 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cancel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/505/cancel) · oracle_id `7d00fb28-ea6c-49a9-b4af-ffb38860a9a7` · printing: FDN #505 (2024-11-15) · [rulings](https://api.scryfall.com/cards/475bff39-220a-4490-9c2e-d311e306a6db/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candelabra of Tawnos
@@ -145,6 +146,7 @@ schema: 2
   - *2004-10-04* — Can be used on an untapped land.
   - *2004-10-04* — This is not mana ability. It is a normal ability and it will resolve along with other spells and abilities on the stack. The lands untap during resolution.
   - *2004-10-04* — You may untap your opponent's lands if desired.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#candelabra-of-tawnos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/187/candelabra-of-tawnos) · oracle_id `c7c7bffa-442d-4ba5-b778-ad394c192f27` · printing: ME4 #187 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlegrove Witch
@@ -198,6 +200,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#candlekeep-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/60/candlekeep-sage) · oracle_id `f9516b60-36dd-4f8a-bebb-ac1bc0961f07` · printing: CLB #60 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Candlelight Vigil
@@ -320,6 +323,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6823 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#candy-trail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/243/candy-trail) · oracle_id `7c8e4f29-53e0-4242-8ef8-7a9476dce178` · printing: WOE #243 (2023-09-08) · [rulings](https://api.scryfall.com/cards/1a860925-d912-49e5-9ddc-41ab26916bb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canker Abomination
@@ -355,6 +359,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 6 pages (1 decks · 4 edh guides · 1 rules) → [reverse index](../../references/C.md#cankerbloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/161/cankerbloom) · oracle_id `d5b80895-621a-40df-bf48-6c7295658f21` · printing: ONE #161 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cankerous Thirst
@@ -405,6 +410,7 @@ schema: 2
   - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
   - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
   - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#canonized-in-blood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/96/canonized-in-blood) · oracle_id `d491995f-e9b2-4187-852c-8a4c2495eaca` · printing: LCI #96 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Scarab Swarm
@@ -419,6 +425,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4097 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — If an exiled card is both an artifact card and a land card, you will create one token, not two.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#canoptek-scarab-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/150/canoptek-scarab-swarm) · oracle_id `5b7f6cc3-8d4e-42e5-a908-7ebe3bccaf1e` · printing: 40K #150 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Spyder
@@ -432,6 +439,7 @@ schema: 2
 - **Keywords:** Flying, Fabricator Claw Array
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3347 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#canoptek-spyder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/151/canoptek-spyder) · oracle_id `bcad5b83-5513-4455-a9c9-716281505eaa` · printing: 40K #151 (2022-10-07) · [rulings](https://api.scryfall.com/cards/56ae1e4b-b620-480b-b6fc-66f2137d7d89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Tomb Sentinel
@@ -451,6 +459,7 @@ schema: 2
   - *2022-10-07* — If a permanent returned to the battlefield by an unearth ability would leave it for any reason, it's exiled instead—unless the spell or ability that's causing it to leave the battlefield is actually trying to exile it. In that case, the spell or ability succeeds at exiling the permanent. If the spell or ability later returns the card to the battlefield, it will return as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
   - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#canoptek-tomb-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/152/canoptek-tomb-sentinel) · oracle_id `678b3fb5-aa9f-4268-9433-2a89dd37b927` · printing: 40K #152 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canoptek Wraith
@@ -501,6 +510,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card’s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#canopy-claws)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jud/108/canopy-claws) · oracle_id `195c6453-e5cc-4b3b-8518-eaccf29bc4a6` · printing: JUD #108 (2002-05-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Cover
@@ -529,6 +539,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29471 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The number of +1/+1 counters for the ability is checked when the ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#canopy-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lgn/122/canopy-crawler) · oracle_id `7fc60ae2-75fc-49e1-9d56-aa5a43844210` · printing: LGN #122 (2003-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Dragon
@@ -640,6 +651,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3263 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to Elves you control may become lethal if Canopy Tactician leaves the battlefield that turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#canopy-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/378/canopy-tactician) · oracle_id `8b20d6f4-6322-4435-92d5-acaae74774f4` · printing: KHM #378 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canopy Vista
@@ -657,6 +669,7 @@ schema: 2
   - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
   - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
   - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#canopy-vista)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/227/canopy-vista) · oracle_id `dcb7e046-f01b-497c-88e5-57794eb30ce5` · printing: MSC #227 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cantankerous Captain
@@ -670,6 +683,7 @@ schema: 2
   > *"Are you the best crew in the fleet or not?!"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32323 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cantankerous-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/141/cantankerous-captain) · oracle_id `2375e6e4-bea2-4fa2-b0d5-467e3076962c` · printing: TRK #141 (2026-11-13) · [rulings](https://api.scryfall.com/cards/2c053ec5-d1ea-4526-8a0d-e4dfafb8ecdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cantankerous Keepers
@@ -711,6 +725,7 @@ schema: 2
   > Target player draws three cards.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cant-quite-recall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/527/cant-quite-recall) · oracle_id `e6d0e62e-2262-4071-95b3-4ad39a3997f5` · printing: MB2 #527 (2024-08-02) · [rulings](https://api.scryfall.com/cards/e65a3a97-88ab-4949-9aa5-3dd43204a804/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Can't Stay Away
@@ -764,6 +779,7 @@ schema: 2
   - *2025-10-02* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Bosco, Just a Bear's ability (an ability with "Sacrifice a Food" in its cost). You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Bosco, Just a Bear's ability.
   - *2025-10-02* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2025-10-02* — Whatever you do, don't eat the delicious cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#canyon-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/90/canyon-crawler) · oracle_id `bac94fc9-808b-4dc9-b405-408dd2aa6194` · printing: TLA #90 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Drake
@@ -853,6 +869,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #688 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#canyon-slough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/228/canyon-slough) · oracle_id `2031b17c-0536-446f-a9aa-b46fe79b7ea7` · printing: MSC #228 (2026-06-26) · [rulings](https://api.scryfall.com/cards/587cc3ba-75c2-46a0-bd44-6f953fe1eb01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Canyon Vaulter

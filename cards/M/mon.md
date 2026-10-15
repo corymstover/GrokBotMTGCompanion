@@ -107,6 +107,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5862 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Mona Lisa's last ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mona-lisa-science-geek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/123/mona-lisa-science-geek) · oracle_id `e6490e98-37a9-4a8b-a04c-cceeb22b0c35` · printing: TMT #123 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Flock
@@ -170,6 +171,7 @@ schema: 2
   - *2014-11-24* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
   - *2014-11-24* — Prowess triggers only once for any spell, even if that spell has multiple types.
   - *2014-11-24* — The spell that causes Monastery Mentor's second ability to trigger will not cause the prowess ability of the Monk token that's created to trigger.
+- **Referenced in:** 5 pages (2 decks · 1 rules · 2 card data) → [reverse index](../../references/M.md#monastery-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/125/monastery-mentor) · oracle_id `3979067a-9c68-443d-a85f-d9f07be880b9` · printing: TDC #125 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monastery Messenger
@@ -235,6 +237,7 @@ schema: 2
   - *2014-09-20* — Once it triggers, prowess isn't connected to the spell that caused it to trigger. If that spell is countered, prowess will still resolve.
   - *2014-09-20* — Prowess goes on the stack on top of the spell that caused it to trigger. It will resolve before that spell.
   - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#monastery-swiftspear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/144/monastery-swiftspear) · oracle_id `dafd2713-d1bc-474b-b390-d2ff20b5375e` · printing: BRO #144 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondo Gecko
@@ -264,6 +267,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #431 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Mondrak's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it (such as a Fractal token) the additional token will also get those counters.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#mondrak-glory-dominus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/23/mondrak-glory-dominus) · oracle_id `fe83087d-c6c1-40be-9295-baaa1c6b2db1` · printing: ONE #23 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mondronen Shaman // Tovolar's Magehunter
@@ -371,6 +375,7 @@ schema: 2
   - *2022-10-07* — If you roll multiple dice at the same time, paying {1} will let you reroll any number of those dice. You don’t have to pay {1} per die.
   - *2022-10-07* — You can use Monitor Monitor’s reroll ability on any die roll, including a roll of the planar die in a Planechase game.
   - *2022-10-07* — You decide whether to use Monitor Monitor’s ability right after you monitor the result of the die roll. You can’t wait and use it to reroll that die later.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#monitor-monitor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/52/monitor-monitor) · oracle_id `f59fe075-f507-4a2c-a65c-725ff3084bd0` · printing: UNF #52 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Class
@@ -458,6 +463,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#monk-gyatso)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/81/monk-gyatso) · oracle_id `ff92fa60-f0fe-496e-8155-d9d6f5af651b` · printing: TLE #81 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monk Idealist
@@ -564,6 +570,7 @@ schema: 2
   - *2021-04-16* — It doesn't matter if Monologue Tax was on the battlefield for the first spell. It also doesn't matter if that first spell resolved or not.
   - *2021-04-16* — Nothing special happens on the third spell, fourth spell, and so on.
   - *2021-04-16* — The ability can trigger once each turn for each opponent.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#monologue-tax)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/139/monologue-tax) · oracle_id `ace8e88e-ca6a-4bdf-8c6d-1b914fc00259` · printing: MSC #139 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monomania
@@ -613,6 +620,7 @@ schema: 2
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
   - *2022-10-07* — The die roll caused by the activated ability has no inherent effect: you just roll a six-sided die, but any ability that triggers whenever you roll a die will trigger. Abilities that trigger whenever you roll a specific result, such as Monoxa's first ability, may also trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#monoxa-midway-manager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/173/monoxa-midway-manager) · oracle_id `d8e6cdab-234a-46b9-8b6c-164034cf2bc7` · printing: UNF #173 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monsoon
@@ -683,6 +691,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#monster-manual--zoological-study)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/242/monster-manual-zoological-study) · oracle_id `6d4e7943-1fdf-4085-8af0-658badbd0cb8` · printing: CLB #242 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monster Mash-Up
@@ -863,6 +872,7 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#monstrous-rage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/142/monstrous-rage) · oracle_id `646a2371-54c0-4492-ac2f-20f109d6108c` · printing: WOE #142 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monstrous Step
@@ -949,6 +959,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1482 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-06-07* — You must already control a Plains as Monumental Henge enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Plains when you control no other Plains, it will enter tapped.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#monumental-henge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/222/monumental-henge) · oracle_id `c48df45c-3513-4d56-aed6-30c2f3a759cd` · printing: MH3 #222 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monument to Endurance
@@ -966,6 +977,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #930 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — If you discard a card after all three have been chosen in a turn, that instance of the ability is removed from the stack with no effect.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#monument-to-endurance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/237/monument-to-endurance) · oracle_id `e69e8de4-b521-4888-8074-17f1efe2f345` · printing: DFT #237 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Monument to Perfection

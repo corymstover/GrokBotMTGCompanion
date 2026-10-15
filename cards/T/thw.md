@@ -34,6 +34,7 @@ schema: 2
   > Counter target spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15512 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/T.md#thwart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mmq/108/thwart) · oracle_id `615a149a-2869-4b18-bbbe-9ec1825049d7` · printing: MMQ #108 (1999-10-04) · [rulings](https://api.scryfall.com/cards/c12a0717-e9ea-4be3-a29f-179671ed4489/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thwart the Enemy

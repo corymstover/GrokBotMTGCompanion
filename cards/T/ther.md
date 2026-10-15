@@ -80,6 +80,7 @@ schema: 2
   - *2023-10-13* — If an effect instructs you to choose a creature type, you may choose Time Lord.
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-rani)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/149/the-rani) · oracle_id `ac9b0bdf-caf8-4dba-a900-e59de35e77d7` · printing: WHO #149 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Raven Man
@@ -93,6 +94,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4728 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — The Raven Man's first ability triggers at the beginning of each player's end step as long as at least one player has discarded a card this turn. It only triggers once, not once for each card discarded or once for each player that discarded a card. It will trigger even if its controller is the one that discarded a card this turn.
+- **Referenced in:** 5 pages (3 decks · 2 card data) → [reverse index](../../references/T.md#the-raven-man)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/103/the-raven-man) · oracle_id `19918740-f6e3-40cd-9848-3c7a852a6c2a` · printing: DMU #103 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Raven's Warning
@@ -142,6 +144,7 @@ schema: 2
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
   - *2022-02-18* — The top card of your library is still in your library and not in your hand. You can't discard cards from the top of your library (for example, to activate their channel abilities).
   - *2022-02-18* — You must pay all costs and follow all timing rules for cards played from the top of your library this way. For example, you may play a land this way only while the stack is empty during one of your own main phases, and only if you haven't played a land yet this turn.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/T.md#the-reality-chip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/74/the-reality-chip) · oracle_id `751f22bc-bcea-4213-a37b-b5f72448a4c4` · printing: NEO #74 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There and Back Again
@@ -163,6 +166,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#there-and-back-again)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/151/there-and-back-again) · oracle_id `de4e5120-b958-4dcb-ad78-d0f726b7a881` · printing: LTR #151 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Reaper, King No More
@@ -177,6 +181,7 @@ schema: 2
   > *Harrowed but still harrowing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5791 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-reaper-king-no-more)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/4/the-reaper-king-no-more) · oracle_id `39b67a4d-6a87-41f0-a86f-b66671ccc20d` · printing: ECC #4 (2026-01-23) · [rulings](https://api.scryfall.com/cards/d2119f3f-27d2-4d43-a5ef-35c1b73d182a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Reaver Cleaver
@@ -189,6 +194,7 @@ schema: 2
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #530 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-reaver-cleaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/8/the-reaver-cleaver) · oracle_id `37a2a31d-51e6-4c07-b4c2-b206ad40eb42` · printing: DMC #8 (2022-09-09) · [rulings](https://api.scryfall.com/cards/5bcd1591-b5b9-49fc-9f2a-45f31ed1871e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Rebellious Intelligence
@@ -229,6 +235,7 @@ schema: 2
 - **Keywords:** Haste, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2438 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-regalia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/267/the-regalia) · oracle_id `27a7610e-acbe-4a2b-9f61-81b383eb20a5` · printing: FIN #267 (2025-06-13) · [rulings](https://api.scryfall.com/cards/dc420e79-c483-474f-97cd-e9c6a636c306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Restoration of Eiganjo // Architect of Restoration
@@ -256,6 +263,7 @@ schema: 2
   - *2022-02-18* — If you choose to discard a card as The Restoration of Eiganjo's second chapter ability resolves, a second triggered ability goes on the stack and you choose a target for it. Notably, this means you may target the card you discarded if it is a permanent card with mana value 2 or less.
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#the-restoration-of-eiganjo--architect-of-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/34/the-restoration-of-eiganjo-architect-of-restoration) · oracle_id `9d9b52b2-2edc-4f7f-a8d9-e024b1398847` · printing: NEO #34 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### There // They're // Their
@@ -343,6 +351,7 @@ schema: 2
   - *2025-10-02* — This ability has no effect on permanents with the chosen name that are on the battlefield.
   - *2025-10-02* — You don't have to choose the name of a card that you've already seen this game; you may guess at a card you think your opponent might have in their hand or library if you'd like.
   - *2025-10-02* — You target an opponent when The Rise of Sozin's second chapter ability is put on the stack, but you don't name a card until it resolves. Notably, this means that players don't get to respond to the ability knowing what card you will name.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-rise-of-sozin--fire-lord-sozin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/117/the-rise-of-sozin-fire-lord-sozin) · oracle_id `9b0b217d-cc9d-4187-89cb-f13160ed2983` · printing: TLA #117 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The River Warlock
@@ -427,6 +436,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-01-24* — In a Two-Headed Giant game, Thermo-Alchemist's activated ability deals 1 damage to each of your opponents, resulting in the opposing team losing 2 life.
   - *2025-01-24* — Thermo-Alchemist's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. Players can cast spells and activate abilities (such as Thermo-Alchemist's own activated ability) after the triggered ability resolves but before the spell that caused it to trigger does.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/T.md#thermo-alchemist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/174/thermo-alchemist) · oracle_id `228fbae1-423e-461d-b8c3-55786938a3cb` · printing: INR #174 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thermokarst
@@ -524,6 +534,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Use the mana value of the spell as it exists on the stack (or last existed on the stack, if it's been removed) to determine how much life is lost. If there is an {X} in that spell's cost, include the value chosen for X to determine its mana value.
   - *2022-10-07* — You must follow all normal timing rules when casting a spell or playing a land using the permission granted by Ruinous Powers.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-ruinous-powers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/139/the-ruinous-powers) · oracle_id `283054ed-5fbd-4202-bc02-294079aaff03` · printing: 40K #139 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ruinous Wrecking Crew

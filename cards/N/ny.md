@@ -87,6 +87,7 @@ schema: 2
   - *2021-06-18* — If a creature you control is dealt lethal damage at the same time that you gain life, it won't receive +1/+1 counters from Nykthos Paragon's ability in time to save it.
   - *2021-06-18* — If multiple instances of the ability are on the stack, you will be able to put +1/+1 counters for only one of those instances. Once you do that, other instances will do nothing as they resolve.
   - *2021-06-18* — Once you have chosen to put +1/+1 counters on your creatures, further instances of gaining life will not cause the ability to trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nykthos-paragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/22/nykthos-paragon) · oracle_id `367ac7e2-5056-48f3-a296-87d6cb1f7b54` · printing: MH2 #22 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nykthos, Shrine to Nyx
@@ -103,6 +104,7 @@ schema: 2
   - *2013-09-15* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2013-09-15* — Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don't count toward your devotion to any color.
   - *2013-09-15* — The second ability is a mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 5 pages (3 decks · 2 edh guides) → [reverse index](../../references/N.md#nykthos-shrine-to-nyx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx) · oracle_id `84dc18f0-8225-4b40-a165-b10321e41769` · printing: THS #223 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyla, Shirshu Sleuth
@@ -146,6 +148,7 @@ schema: 2
   - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nylea-god-of-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ths/166/nylea-god-of-the-hunt) · oracle_id `43674fdf-496f-42dc-8a0a-5c42a7c7d910` · printing: THS #166 (2013-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea, Keen-Eyed
@@ -175,6 +178,7 @@ schema: 2
   - *2020-01-24* — The abilities of Gods function as long as they’re on the battlefield, regardless of whether they’re creatures.
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It’s always a creature card in other zones, regardless of your devotion to its color. It’s always a creature spell while it’s on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nylea-keen-eyed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/185/nylea-keen-eyed) · oracle_id `642bbdf6-9a8c-4158-83c8-d59feb49101b` · printing: THB #185 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Colossus
@@ -241,6 +245,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10067 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nyleas-forerunner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/186/nyleas-forerunner) · oracle_id `bf0948b7-f7af-4d99-a8aa-ea7e6a69232d` · printing: THB #186 (2020-01-24) · [rulings](https://api.scryfall.com/cards/2cf2b6be-80a8-4464-a909-8cc658196a14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Huntmaster
@@ -275,6 +280,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5783 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — The second mode of Nylea’s Intervention has it deal damage to each creature with flying equal to twice X. It doesn’t deal X damage to them then deal X damage again.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nyleas-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/188/nyleas-intervention) · oracle_id `acf388b2-c4e3-4f1b-a16c-88f991d5c17b` · printing: THB #188 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nylea's Presence
@@ -330,6 +336,7 @@ schema: 2
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
   - *2023-10-13* — You can choose fewer than X targets for Nyssa's reflexive triggered ability. The number of targets doesn't change the number of cards drawn.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#nyssa-of-traken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/51/nyssa-of-traken) · oracle_id `07802bd6-29ca-40c5-beba-c2baf7a92555` · printing: WHO #51 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxathid
@@ -367,6 +374,7 @@ schema: 2
   - *2020-01-24* — Nyxbloom Ancient doesn’t produce any mana itself. Rather, it causes permanents you tap for mana to produce more mana. If the mana ability of that permanent puts any restrictions or riders on the mana it produces, that will apply to all the mana it produces this way.
   - *2020-01-24* — The effects of multiple Nyxbloom Ancients are cumulative. For example, if you have two Nyxbloom Ancients on the battlefield, you’ll get nine times the original amount and type of mana.
   - *2020-01-24* — You’re “tapping a permanent for mana” only if you’re activating a mana ability of that permanent that includes the {T} symbol in its cost. A mana ability produces mana as part of its effect.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nyxbloom-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/190/nyxbloom-ancient) · oracle_id `8b610f8f-c8dd-4eeb-bc6e-3bc706d5f63e` · printing: THB #190 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Behemoth
@@ -413,6 +421,7 @@ schema: 2
   > *—\*The Callapheia\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16639 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nyxborn-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/191/nyxborn-colossus) · oracle_id `4a74cccb-5d75-4362-9c9e-2622096544fe` · printing: THB #191 (2020-01-24) · [rulings](https://api.scryfall.com/cards/8b4f003c-1e99-4e53-ad6d-81ff3c592b2c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Courser
@@ -468,6 +477,7 @@ schema: 2
   - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/N.md#nyxborn-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/164/nyxborn-hydra) · oracle_id `4d1b655f-05b8-4b82-9cb9-67660f570a9b` · printing: MH3 #164 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Marauder
@@ -581,6 +591,7 @@ schema: 2
   - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/N.md#nyxborn-unicorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/37/nyxborn-unicorn) · oracle_id `b9304d88-a1de-4300-9425-50350969bd70` · printing: MH3 #37 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyxborn Wolf
@@ -612,6 +623,7 @@ schema: 2
   > *The gods are fascinated by innocence, perhaps because it's a quality they themselves lack.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4500 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nyx-fleece-ram)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/126/nyx-fleece-ram) · oracle_id `5a20113c-7ea8-4edf-af9f-148ccd326a88` · printing: TDC #126 (2025-04-11) · [rulings](https://api.scryfall.com/cards/771fcea9-1007-4ff6-8000-99017978ac1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyx Herald
@@ -659,6 +671,7 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent’s permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
   - *2020-01-24* — Nyx Lotus’s second ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nyx-lotus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/235/nyx-lotus) · oracle_id `cfb8cdde-11f6-441a-942b-32d8c191fc90` · printing: THB #235 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nyx Weaver
@@ -673,4 +686,5 @@ schema: 2
 - **Keywords:** Reach, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1762 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/N.md#nyx-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/298/nyx-weaver) · oracle_id `6f8bf968-0571-4582-8c04-9791e44d5df0` · printing: TDC #298 (2025-04-11) · [rulings](https://api.scryfall.com/cards/26c4c471-f79f-4ca4-acc7-852cdc14e726/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

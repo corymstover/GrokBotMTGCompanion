@@ -127,6 +127,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-10-13* — Time counters are usually found on cards with suspend and vanishing, but may be found on other cards as well. Notably, Sagas use lore counters to track their progress, not time counters. You can't move a Saga's chapters forward and backward this way.
   - *2023-10-13* — To time travel, look at each permanent you control with a time counter on it and each suspended card you own in exile with a time counter on it. For each of them, you choose whether you want to put a time counter on that card or permanent, remove a time counter from it, or do neither. Then those changes all happen simultaneously.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-girl-in-the-fireplace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/21/the-girl-in-the-fireplace) · oracle_id `39068bf1-cae4-4ac9-82ef-4e81bf59446e` · printing: WHO #21 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gitrog Monster
@@ -143,6 +144,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #911 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-01-24* — If multiple land cards are put into your graveyard at once, The Gitrog Monster's last ability triggers only once. This could happen because an effect put them there from your library at the same time (such as by a mill effect) or because they were destroyed at the same time (such as two land creatures that were dealt lethal combat damage).
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#the-gitrog-monster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/117/the-gitrog-monster) · oracle_id `a5e54d2b-aad8-4ddd-af4b-13668913762b` · printing: EOC #117 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Gitrog, Ravenous Ride
@@ -165,6 +167,7 @@ schema: 2
   - *2024-04-12* — Putting one or more land cards onto the battlefield with The Gitrog's triggered ability doesn't count as playing a land. It can put land cards onto the battlefield even if you've already played your land for the turn.
   - *2024-04-12* — Use the power of the sacrificed creature as it last existed on the battlefield to determine the value of X.
   - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#the-gitrog-ravenous-ride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/206/the-gitrog-ravenous-ride) · oracle_id `7739311a-682b-48a6-8db2-c07f44141751` · printing: OTJ #206 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Goblin Mastermind
@@ -225,6 +228,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3331 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-gold-saucer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/279/the-gold-saucer) · oracle_id `93e38650-ce22-4ab9-b79d-cc7b6477c075` · printing: FIN #279 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Good Gamers
@@ -302,6 +306,7 @@ schema: 2
   - *2019-11-12* — No player may take actions while The Grand Tour is resolving, and any abilities that trigger while the permanent is on tour won’t be put onto the stack until The Grand Tour has finished resolving.
   - *2019-11-12* — Once the exiled permanent returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
   - *2019-11-12* — The Grand Tour does not include the command zone or zones belonging to any player other than its owner. Look for The MegaGrand Tour, coming soon.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-grand-tour)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/30/the-grand-tour) · oracle_id `eddfcf9f-7696-46fb-8589-d8444b438db4` · printing: CMB2 #30 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Aurora
@@ -347,6 +352,7 @@ schema: 2
   - *2025-10-02* — The cost reduction ability reduces only the generic mana in The Great Henge's cost. The colored mana must still be paid.
   - *2025-10-02* — The first step of casting a spell is to move it to the stack. If this causes the greatest power among creatures you control to change, that new power will be used to determine the cost reduction.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 6 pages (3 decks · 3 edh guides) → [reverse index](../../references/T.md#the-great-henge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/294/the-great-henge) · oracle_id `78427103-9543-41fb-b6d4-72963fe87275` · printing: CMM #294 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Great Juggernaut
@@ -373,6 +379,7 @@ schema: 2
   > *Mena Ngai, where the heaven-sent metal dwells.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12206 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-great-mound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/120/the-great-mound) · oracle_id `6b78e417-44f8-4ab6-9d3c-e71704fc648e` · printing: MSC #120 (2026-06-26) · [rulings](https://api.scryfall.com/cards/11b3f96c-138e-431e-a1d6-5ebae4cb6b2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Grey Havens

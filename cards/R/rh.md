@@ -141,6 +141,7 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11963 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rhinos-rampage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/823/rhinos-rampage) · oracle_id `0a744206-04c4-46cb-b64d-cf192c9324df` · printing: MSC #823 (2026-06-26) · [rulings](https://api.scryfall.com/cards/722c62a0-a8f3-4bc3-b463-8904ba234eed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhino, Terrible Trampler
@@ -188,6 +189,7 @@ schema: 2
 - **Keywords:** Partner with, Vigilance, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10845 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#rhoda-geist-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/8/rhoda-geist-avenger) · oracle_id `3579e40c-6ec5-4927-8252-5a188db400ab` · printing: VOC #8 (2021-11-19) · [rulings](https://api.scryfall.com/cards/c434e774-c908-46b9-ba18-52e1efe092de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas's Last Stand
@@ -202,6 +204,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If more than one spell says that lands you control don’t untap during your next untap step, the effects will all wear off during that untap step. You’ll untap lands you control during your untap step after that one.
   - *2017-07-14* — No lands that you control will untap during your next untap step, even lands that aren’t tapped as this spell resolves. This includes lands that enter the battlefield after this spell resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rhonass-last-stand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/132/rhonass-last-stand) · oracle_id `01c729d7-9b80-479d-8d30-ae47c76c2c50` · printing: HOU #132 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhonas's Monument
@@ -253,6 +256,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Once Rhonas has attacked or blocked, it will remain in combat even if you no longer control another creature with power 4 or greater.
   - *2017-04-18* — You don't have to attack with another creature with power 4 or greater for Rhonas to be able to attack. The same is true of blocking.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rhonas-the-indomitable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/182/rhonas-the-indomitable) · oracle_id `5d2acd3e-4782-42e3-bcd5-80f8b439cc28` · printing: AKH #182 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhovanion Rampager
@@ -304,6 +308,7 @@ schema: 2
 - **Keywords:** Exalted
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25853 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rhox-bodyguard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/con/122/rhox-bodyguard) · oracle_id `34bd39ed-4058-4c65-ba5f-9ac5cf7c166a` · printing: CON #122 (2009-02-06) · [rulings](https://api.scryfall.com/cards/1e9f43c8-9df6-49df-b145-4a19bc55e8f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhox Brute
@@ -529,6 +534,7 @@ schema: 2
   > *Whole again in honor and horn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3378 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#rhys-the-redeemed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/213/rhys-the-redeemed) · oracle_id `f7252190-ad24-4ba3-a644-2790dd1d680d` · printing: 2XM #213 (2020-08-07) · [rulings](https://api.scryfall.com/cards/b91dadcb-31e9-43b0-b425-c9311af3e9d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Cave
@@ -626,6 +632,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Rhystic Study's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered. The player gets the option to pay when this triggered ability resolves.
   - *2023-09-01* — You don't have to decide whether or not to draw a card until after the player decides whether or not to pay.
+- **Referenced in:** 41 pages (33 decks · 6 edh guides · 2 card data) → [reverse index](../../references/R.md#rhystic-study)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j22/114/rhystic-study) · oracle_id `53236dd7-845a-444c-96d5-f41ed7325d8f` · printing: J22 #114 (2022-12-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhystic Syphon
@@ -661,6 +668,7 @@ schema: 2
   > Search your library and/or graveyard for a card named Mu Yanling, reveal it, and put it into your hand. If you search your library this way, shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29969 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rhythmic-water-vortex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/18/rhythmic-water-vortex) · oracle_id `373c6cd0-0bf7-4dab-bc18-7ecf5f015e10` · printing: GS1 #18 (2018-06-22) · [rulings](https://api.scryfall.com/cards/be82ea29-66d4-471d-bef7-c6524207b96d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rhythm of the Wild
@@ -683,4 +691,5 @@ schema: 2
   - *2019-01-25* — Once a creature with riot has entered the battlefield, it keeps its +1/+1 counter or haste even if it loses riot.
   - *2019-01-25* — Riot is a replacement effect. Players can't respond to your choice of +1/+1 counter or haste, and they can't take actions while the creature is on the battlefield without one or the other.
   - *2019-05-03* — If Rhythm of the Wild leaves the battlefield at the same time that a nontoken creature enters the battlefield (most likely because that creature has a replacement effect, such as that of Rescuer Sphinx), that creature still gets a +1/+1 counter or haste.
+- **Referenced in:** 10 pages (5 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/R.md#rhythm-of-the-wild)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/217/rhythm-of-the-wild) · oracle_id `acfa77fd-3610-4f12-9c3c-bd860ce91700` · printing: RVR #217 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

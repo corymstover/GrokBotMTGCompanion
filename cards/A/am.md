@@ -109,6 +109,7 @@ schema: 2
   - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
   - *2023-11-10* — The instruction for Amalia Benavides Aguirre to explore and the effect that occurs if Amalia Benavides Aguirre's power is exactly 20 are all part of the same ability. Players do not get to chance to respond to the ability after knowing the result of the explore.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/A.md#amalia-benavides-aguirre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/221/amalia-benavides-aguirre) · oracle_id `85eefda9-4aab-467d-a08c-be026cb8ff42` · printing: LCI #221 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amarant Coral
@@ -142,6 +143,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#amaranthine-wall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/210/amaranthine-wall) · oracle_id `3c9fcda6-3ebc-4f9d-9f73-2bb4252d9420` · printing: DOM #210 (2018-04-27) · [rulings](https://api.scryfall.com/cards/73b49065-0a46-4813-a721-71d718e73d18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amareth, the Lustrous
@@ -188,6 +190,7 @@ schema: 2
   > *—\*RAVNICA! The Musical\**
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#amateur-auteur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/3a/amateur-auteur) · oracle_id `38e36eb0-f3a9-42d7-9223-417d23e434fa` · printing: UST #3a (2017-12-08) · [rulings](https://api.scryfall.com/cards/f426dc98-daae-4785-8384-d2b2dc2bbaad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amateur Hero
@@ -264,6 +267,7 @@ schema: 2
   - *2022-10-07* — If Ambassador Blorpityblorpboop has a power and toughness sticker on it, that sticker is included when calculating for the last ability.
   - *2022-10-07* — It doesn’t matter if the stickers are on creatures. Any power and toughness stickers on noncreature permanents you control will also count.
   - *2022-10-07* — The base power and toughness change doesn’t end at end of turn; it lasts indefinitely, until Ambassador Blorpityblorpboop either leaves the battlefield or its base power and toughness changes again from another effect (for example, a power and toughness sticker being placed on it or its ability triggering again).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ambassador-blorpityblorpboop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/161/ambassador-blorpityblorpboop) · oracle_id `183a9488-e21f-448b-8b69-e53b56fa0a56` · printing: UNF #161 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambassador Laquatus
@@ -317,6 +321,7 @@ schema: 2
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
   - *2022-06-10* — You decide whether to discard your hand as Amber Gristle O'Maul's ability resolves. No player may respond after you have decided to discard your hand but before you have drawn cards.
   - *2022-06-10* — You may choose to discard your hand even if it is empty. Especially if it is empty.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#amber-gristle-omaul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/159/amber-gristle-omaul) · oracle_id `d1435f7b-a694-4c7f-a0f2-34c4c646e04b` · printing: CLB #159 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amber Prison
@@ -351,6 +356,7 @@ schema: 2
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3709 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ambitions-cost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/246/ambitions-cost) · oracle_id `84de4fec-2f38-4293-93d3-b3882c5aac14` · printing: MOC #246 (2023-04-21) · [rulings](https://api.scryfall.com/cards/d560c996-ef80-4117-8642-a632ae51c07d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambitious Aetherborn
@@ -483,6 +489,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — You don't choose a target for Ambulatory Edifice's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay 2 life this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ambulatory-edifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/79/ambulatory-edifice) · oracle_id `b46351cf-73c7-493c-b8a7-5d7bedc8b205` · printing: ONE #79 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ambuscade
@@ -667,6 +674,7 @@ schema: 2
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You choose how many targets Explosive Crystal has and how the damage is divided as you put the spell on the stack. Each target must receive at least 1 damage.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#amethyst-dragon--explosive-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/160/amethyst-dragon-explosive-crystal) · oracle_id `0961b68d-bb0c-4bfb-ad78-01f90b3b97c8` · printing: CLB #160 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aminatou's Augury
@@ -706,6 +714,7 @@ schema: 2
   - *2018-07-13* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
   - *2018-07-13* — The effect of Aminatou's third ability lasts indefinitely. It continues to apply after Aminatou (or her controller) leaves the game.
   - *2018-07-13* — You draw a card and put one back all while Aminatou's first ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#aminatou-the-fateshifter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/169/aminatou-the-fateshifter) · oracle_id `3a30089d-cd2d-49be-9b06-7a2454117692` · printing: 2X2 #169 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aminatou, Veil Piercer
@@ -730,6 +739,7 @@ schema: 2
   - *2024-09-20* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
   - *2024-09-20* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
   - *2024-09-20* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#aminatou-veil-piercer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/1/aminatou-veil-piercer) · oracle_id `bf45f5ee-4d5f-4920-b612-b5492c2f035d` · printing: DSC #1 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ammit Eternal
@@ -749,6 +759,7 @@ schema: 2
   - *2017-07-14* — Ammit Eternal's middle ability will resolve before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
   - *2017-07-14* — If multiple creatures block a creature with afflict, afflict triggers only once.
   - *2023-07-28* — If a creature is attacking a planeswalker, that planeswalker's controller is the defending player. If a creature is attacking a battle, that battle's protector is the defending player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#ammit-eternal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/57/ammit-eternal) · oracle_id `c2f6ddc2-86bc-43da-9bdd-0c2af79c62fd` · printing: HOU #57 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amnesia
@@ -804,6 +815,7 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31065 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#amok-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/183/amok-time) · oracle_id `98a752ff-f041-4032-9f3f-c6c4007f10f1` · printing: TRK #183 (2026-11-13) · [rulings](https://api.scryfall.com/cards/d31447b6-484f-4dda-b6af-ab068a84f896/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amonkhet Raceway
@@ -825,6 +837,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#amonkhet-raceway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/248/amonkhet-raceway) · oracle_id `fe174586-d36b-40f6-babd-1f98e76eec22` · printing: DFT #248 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amorphous Axe
@@ -864,6 +877,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — You choose whether or not to cast the exiled nonland card as Amped Raptor's triggered ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#amped-raptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/114/amped-raptor) · oracle_id `3ed14ea7-ee62-4604-af3b-deafb00108c3` · printing: MH3 #114 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amped Up
@@ -955,6 +969,7 @@ schema: 2
   - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
   - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
   - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#amphin-mutineer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/143/amphin-mutineer) · oracle_id `8910f79a-66c9-41b3-b55a-e3e651ae6f26` · printing: TDC #143 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amphin Pathmage
@@ -1075,6 +1090,7 @@ schema: 2
   > {T}, Sacrifice this artifact: Target opponent may ante the top card of their library. If they don't, you flip a coin. If you win the flip, that player loses the game. If you lose the flip, you lose the game. Activate only during your upkeep.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#amulet-of-quoz)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ice/308/amulet-of-quoz) · oracle_id `a06f8476-0a23-413a-bc28-8dc2427fdc2a` · printing: ICE #308 (1995-06-03) · [rulings](https://api.scryfall.com/cards/764ec6a8-a878-446c-b7e4-6026c2a3e9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amulet of Safekeeping
@@ -1117,6 +1133,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-03-01* — For Amulet of Vigor's ability to trigger, a permanent must enter tapped due to an effect that says "put [the permanent] onto the battlefield tapped," "[this permanent] enters tapped," or the like. If it enters untapped, the ability won't trigger, even if you tap that permanent afterward.
   - *2010-03-01* — If you control more than one Amulet of Vigor, each Amulet's ability triggers when a permanent enters tapped and under your control. The first ability that resolves will untap that permanent. If the permanent somehow becomes tapped again before the next ability resolves, the next ability will untap it as well (and so on).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#amulet-of-vigor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/121/amulet-of-vigor) · oracle_id `dba16032-66c1-4ccb-9d65-d41ac550d182` · printing: WWK #121 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amy Pond
@@ -1144,6 +1161,7 @@ schema: 2
   - *2023-10-13* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined.
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
   - *2023-10-13* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#amy-pond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/75/amy-pond) · oracle_id `aa7d3e99-fc14-4f62-bf00-c0428c11e4f2` · printing: WHO #75 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Amy Rose

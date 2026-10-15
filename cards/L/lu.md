@@ -138,6 +138,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24948 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lu-bu-master-at-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/108/lu-bu-master-at-arms) · oracle_id `ff959f1f-0982-4761-a6b0-3044dff1d617` · printing: ME3 #108 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lucent Liminid
@@ -197,6 +198,7 @@ schema: 2
   - *2024-03-08* — If X is a very large number, you may be required to roll more dice than you physically can in a reasonable time frame. In such cases, we encourage you to use digital resources for simulating die rolls or generating random numbers.
   - *2024-03-08* — The value of X is determined only once, as Luck Bobblehead’s last ability resolves.
   - *2024-03-08* — You win the game only if you rolled 6 exactly seven times while resolving a single instance of Luck Bobblehead’s last ability. Results of previous die rolls, whether they’re from previous resolutions of Luck Bobblehead’s last ability or from other effects that instruct you to roll dice, don’t matter for the purposes of this effect.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#luck-bobblehead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/135/luck-bobblehead) · oracle_id `d870a93a-8399-4004-9b45-2b49b001f165` · printing: PIP #135 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lucky Clover
@@ -214,6 +216,7 @@ schema: 2
   - *2019-10-04* — Lucky Clover's ability and the copy it creates both resolve before the Adventure spell. They resolve even if the Adventure spell is countered before the copy is created.
   - *2019-10-04* — The copy is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2019-10-04* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lucky-clover)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/226/lucky-clover) · oracle_id `370d67f6-8d43-46ca-ae6c-00799bb0bd0c` · printing: ELD #226 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lucky Offering
@@ -373,6 +376,7 @@ schema: 2
   - *2023-02-04* — Other replacement effects that would change the number of loyalty counters Lukka enters with will apply as normal.
   - *2023-02-04* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
   - *2023-02-04* — You can't choose more targets than the greatest power among creatures you control as you activate the ability, and each chosen target must receive at least 1 damage.
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/L.md#lukka-bound-to-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/207/lukka-bound-to-ruin) · oracle_id `8e68eba1-65ac-4c03-956f-45e7b5695e2a` · printing: ONE #207 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lukka, Coppercoat Outcast
@@ -394,6 +398,7 @@ schema: 2
   - *2020-04-17* — The ability granted by Lukka's first ability doesn't change when you may cast the card.
   - *2020-04-17* — You may cast creature cards exiled with Lukka's first ability as noncreature spells if a rule or effect allows you to do so. For example, adventurer cards from the Throne of Eldraine set may be cast as Adventures.
   - *2020-04-17* — You still pay any costs for spells cast from Lukka's first ability. You may pay alternative costs, such as mutate costs.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/L.md#lukka-coppercoat-outcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/125/lukka-coppercoat-outcast) · oracle_id `1ca97394-4e8c-4698-bea1-554f9b10927b` · printing: IKO #125 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lull
@@ -425,6 +430,7 @@ schema: 2
   - *2009-10-01* — A spell or ability counters a spell only if it specifically contains the word “counter” in its text. If a spell or ability you control causes all the targets of a spell to become illegal, that spell doesn’t resolve but is not countered.
   - *2009-10-01* — Lullmage Mentor’s second ability will cause its first ability to trigger.
   - *2009-10-01* — Since the second ability doesn’t have a tap symbol in its cost, you can tap creatures (including Lullmage Mentor itself) that haven’t been under your control since your most recent turn began to pay the cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lullmage-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/54/lullmage-mentor) · oracle_id `752566b4-d3f5-4f10-b6f5-7185809f7a9d` · printing: ZEN #54 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lullmage's Domination
@@ -483,6 +489,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#lulu-loyal-hollyphant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/32/lulu-loyal-hollyphant) · oracle_id `d99197b9-143a-462f-ace4-f35228ba082e` · printing: CLB #32 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lulu, Stern Guardian
@@ -503,6 +510,7 @@ schema: 2
   - *2025-06-06* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2025-06-06* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2025-06-06* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lulu-stern-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/38/lulu-stern-guardian) · oracle_id `969fa9b9-161f-461e-8878-9ebcff5a2669` · printing: FIC #38 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lumaret's Favor
@@ -627,6 +635,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4110 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lumbering-worldwagon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/168/lumbering-worldwagon) · oracle_id `7e60a641-1f2d-45ff-b3f2-d389be938b22` · printing: DFT #168 (2025-02-14) · [rulings](https://api.scryfall.com/cards/9f989c59-7b2a-4036-9ea2-cd0c7e85c15b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lumberknot
@@ -757,6 +766,7 @@ schema: 2
   - *2018-03-16* — Luminarch Ascension's first ability cares only whether you lost life this turn, even if Luminarch Ascension wasn't on the battlefield when that happened. It doesn't care how much you lost, whether you also gained life, or even whether you gained more life than you lost.
   - *2018-03-16* — Luminarch Ascension's first ability doesn't trigger if you have lost life before an opponent's end step begins. If it does trigger but you lose life before it resolves, it does nothing and you won't put a quest counter on Luminarch Ascension.
   - *2018-03-16* — You can activate Luminarch Ascension's last ability during the end step in which it receives its fourth quest counter.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#luminarch-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/23/luminarch-ascension) · oracle_id `90076bf5-aa9a-4a6e-9035-9aa97fd5561e` · printing: A25 #23 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luminarch Aspirant
@@ -771,6 +781,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3906 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-09-25* — Luminarch Aspirant can be the target of its own ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#luminarch-aspirant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/205/luminarch-aspirant) · oracle_id `cb9994b9-924b-4e10-9075-9cfbec88f2bf` · printing: NCC #205 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luminate Primordial
@@ -878,6 +889,7 @@ schema: 2
   - *2020-04-17* — If Luminous Broodmoth dies at the same time as a creature without flying, its ability triggers for that creature.
   - *2020-04-17* — If a merged creature dies and that creature didn't have flying, each card that was part of that merged creature is returned to the battlefield. Each one has a flying counter on it.
   - *2020-04-17* — Luminous Broodmoth's ability triggers if a token creature without flying dies, but the token won't be returned to the battlefield. If that token was a merged creature, any cards that were part of it will be returned to the battlefield.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/L.md#luminous-broodmoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/21/luminous-broodmoth) · oracle_id `28c7c816-07e7-42fb-923c-bf149ba28b38` · printing: IKO #21 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luminous Guardian
@@ -952,6 +964,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1128 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — The ability that defines Lumra's power and toughness functions in all zones, not just the battlefield.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/L.md#lumra-bellow-of-the-woods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/183/lumra-bellow-of-the-woods) · oracle_id `97a84e9d-bfc4-4ca2-b1e8-908dba56ccdb` · printing: BLB #183 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lunar Avenger
@@ -1009,6 +1022,7 @@ schema: 2
   - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
   - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
   - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#lunarch-veteran--luminous-phantom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/32/lunarch-veteran-luminous-phantom) · oracle_id `0761a0e7-d443-4bab-bb15-307c83d4a6a1` · printing: INR #32 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lunar Convocation
@@ -1024,6 +1038,7 @@ schema: 2
   - *2024-07-26* — If you haven’t gained life during the turn when your end step begins, Lunar Convocation’s first ability won’t trigger at all. Gaining life during your end step won’t cause the ability to trigger.
   - *2024-07-26* — Lunar Convocation’s first ability cares whether you gained life this turn, not how your life total changed. For example, if you gained 2 life and lost 1 life in the same turn, you still lost life. You also still gained life, which is relevant for Lunar Convocation’s second ability.
   - *2024-07-26* — Similarly, if you haven’t both gained and lost life during the turn when your end step begins, Lunar Convocation’s second ability won’t trigger at all. Gaining and/or losing life during your end step won’t cause the ability to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lunar-convocation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/223/lunar-convocation) · oracle_id `cb68d1e4-36aa-4a00-b671-8959e7d526d4` · printing: BLB #223 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lunar Force
@@ -1102,6 +1117,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — The decision to pay {1} is made when the triggered ability resolves. It’s not an additional cost of the instant spell.
   - *2012-05-01* — The triggered ability will go on the stack on top of the instant spell and resolve before it.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lunar-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/115/lunar-mystic) · oracle_id `9652f79c-3060-4e9c-9623-0ebe4ab4094c` · printing: C20 #115 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lunar Rejection
@@ -1216,6 +1232,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — As blockers are declared, any creature that’s tapped or affected by a spell or ability that says it can’t block doesn’t block. If there’s a cost associated with having the creature block, no player is forced to pay that cost, so it doesn’t block if that cost isn’t paid.
   - *2017-11-17* — Lure doesn’t give any creatures the ability to block the target creature. It just forces those creatures that are already able to block the creature to do so.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lure)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/175/lure) · oracle_id `7a7425ba-4478-4bc4-855f-abf947ea4fa2` · printing: IMA #175 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lurebound Scarecrow
@@ -1509,6 +1526,7 @@ schema: 2
   - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
   - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lurrus-of-the-dream-den)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/226/lurrus-of-the-dream-den) · oracle_id `3bc757c1-3adb-4321-8832-8e1cc9e687f7` · printing: IKO #226 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lush Growth
@@ -1582,6 +1600,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28124 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lu-su-wu-advisor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/47/lu-su-wu-advisor) · oracle_id `59238ba1-fde4-4e43-9f24-b24125e59de0` · printing: PTK #47 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lutri, Pauper Otter
@@ -1609,6 +1628,7 @@ schema: 2
   - *2024-11-08* — The requirements of the companion ability apply only to your starting deck. They do not apply to your sideboard, nor to any cards added to your deck after the game began (such as with the conjure mechanic).
   - *2024-11-08* — You may have one companion in the Commander variant. Your deck, including your commander, must meet its companion requirement. Your companion is not one of your 100 cards.
   - *2024-11-08* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In non-tournament play, it’s simply a card you own that’s not in your starting deck.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lutri-pauper-otter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/597/lutri-pauper-otter) · oracle_id `ffb6e274-dc19-4280-8dcd-020c5920ede2` · printing: MB2 #597 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lutri, the Spellchaser
@@ -1641,6 +1661,7 @@ schema: 2
   - *2020-04-17* — Your companion begins the game outside the game. In tournament play, this means your sideboard. In casual play, it's simply a card you own that's not in your starting deck.
   - *2020-06-01* — If you reveal a companion outside the game, for as long as it remains there, you may pay {3} any time you could cast a sorcery (that is, you have priority during your main phase and the stack is empty). Once you do, you put it into your hand and behaves like any other card you've brought into the game. For example, if it's discarded, countered, or destroyed, it's put into your graveyard, remaining in the game. This is a change from previous rules.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lutri-the-spellchaser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/227/lutri-the-spellchaser) · oracle_id `158a6225-a246-4fd6-aa57-0df8067b4383` · printing: IKO #227 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxa River Shrine
@@ -1727,6 +1748,7 @@ schema: 2
   - *2024-11-08* — Luxior can still be attacked even if it’s attached to a creature.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#luxior-ignited)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/606/luxior-ignited) · oracle_id `23b10fbe-8de0-4829-ac49-6ff425acca1e` · printing: MB2 #606 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxknight Breacher
@@ -1742,6 +1764,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13779 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — In the rare case where Luxknight Breacher enters at the same time as one or more other creatures and/or artifacts you control, it doesn’t count those other creatures and/or artifacts. It counts only creatures and/or artifacts that are already on the battlefield under your control.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#luxknight-breacher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/26/luxknight-breacher) · oracle_id `e0a508b5-0896-4620-a93e-60b958829703` · printing: EOE #26 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lu Xun, Scholar General
@@ -1757,6 +1780,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
   - *2009-10-01* — Lu Xun's second ability triggers whenever it deals damage to an opponent for any reason. It's not limited to combat damage.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/L.md#lu-xun-scholar-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/41/lu-xun-scholar-general) · oracle_id `ea658352-abef-4201-b20c-f5c5809d1d3e` · printing: CMA #41 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxurious Libation
@@ -1786,6 +1810,7 @@ schema: 2
   - *2024-04-12* — Luxurious Locomotive's triggered ability counts each creature that crewed it this turn, including creatures that are no longer on the battlefield as the ability resolves.
   - *2024-04-12* — Once a player announces that they are activating a crew ability, no player may take other actions until the ability has been paid for. Notably, players can't try to stop the ability by changing a creature's power or by removing or tapping a creature.
   - *2024-04-12* — You may tap more creatures than necessary to activate a crew ability.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/L.md#luxurious-locomotive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/244/luxurious-locomotive) · oracle_id `c68c2a98-9a6d-4199-af3a-78eb92beda48` · printing: OTJ #244 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Luxury Suite
@@ -1801,4 +1826,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #161 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-06-08* — If you began the game with two or more opponents but now only have one opponent left, these lands enter the battlefield tapped.
+- **Referenced in:** 41 pages (37 decks · 4 edh guides) → [reverse index](../../references/L.md#luxury-suite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/252/luxury-suite) · oracle_id `819e1765-8325-4e6f-89c1-63ea86de369f` · printing: MSC #252 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

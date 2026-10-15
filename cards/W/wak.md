@@ -141,6 +141,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If you cast a creature spell that enters the battlefield as a copy of Wakening Sun's Avatar, such as Clone, the enters-the-battlefield ability will trigger.
   - *2017-09-29* — If you put Wakening Sun's Avatar onto the battlefield from your hand without casting it, its ability won't trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wakening-suns-avatar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/139/wakening-suns-avatar) · oracle_id `3c2aec69-ffd9-4a34-888c-58adbbb99bb5` · printing: LCC #139 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake of Destruction
@@ -265,6 +266,7 @@ schema: 2
   - *2023-06-16* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2023-06-16* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2023-06-16* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wake-the-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/74/wake-the-dragon) · oracle_id `cfa5b168-d112-4b92-ac42-8bba30f15d77` · printing: LTC #74 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wake the Past
@@ -364,6 +366,7 @@ schema: 2
   - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
   - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#waking-the-trolls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/234/waking-the-trolls) · oracle_id `c8cdabc4-e147-491b-9c44-96e57f6ec3b4` · printing: KHM #234 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wakka, Devoted Guardian

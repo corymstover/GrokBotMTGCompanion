@@ -86,6 +86,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Excess damage has been dealt to a creature if the damage dealt to it is greater than lethal damage. Usually, this means damage greater than its toughness, although damage already marked on the creature is taken into account.
   - *2025-10-02* — In some cases, the creature you control that is fighting may have deathtouch. Even 1 damage dealt to a creature from a source with deathtouch is considered lethal damage, so any amount greater than that will cause excess damage to be dealt, even if the total amount of damage isn't greater than the opponent's creature's toughness.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-last-agni-kai)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/144/the-last-agni-kai) · oracle_id `fd1998c0-c18e-4310-82de-b6320be5fe10` · printing: TLA #144 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ride
@@ -136,6 +137,7 @@ schema: 2
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
   - *2026-01-27* — You choose the player, planeswalker, or battle each token is attacking. Each token can enter attacking a different player, planeswalker, or battle. They don't need to be the same player, planeswalker, or battle that the creature returned to pay The Last Ronin's Technique's sneak cost was attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-last-ronins-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/12/the-last-ronins-technique) · oracle_id `6a51bb21-0c01-4ad8-99d7-17685db90b69` · printing: TMT #12 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Arena
@@ -170,6 +172,7 @@ schema: 2
   - *2025-10-02* — Each nonmodal double-faced card in this set is cast face up. In every zone other than the battlefield, consider only the characteristics of its front face. If it is on the battlefield, consider only the characteristics of the face that's up; the other face's characteristics are ignored.
   - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Kuruk, the chapter III ability will cause it to be exiled and then remain in exile.
   - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#the-legend-of-kuruk--avatar-kuruk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/61/the-legend-of-kuruk-avatar-kuruk) · oracle_id `201b8936-18f4-4881-a1d4-c308cf3832bf` · printing: TLA #61 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Kyoshi // Avatar Kyoshi
@@ -203,6 +206,7 @@ schema: 2
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-legend-of-kyoshi--avatar-kyoshi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/186/the-legend-of-kyoshi-avatar-kyoshi) · oracle_id `e41e8754-028c-4399-b530-de9e134d04b0` · printing: TLA #186 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Roku // Avatar Roku
@@ -228,6 +232,7 @@ schema: 2
   - *2025-10-02* — If you are instructed to put a card that isn't a double-faced card onto the battlefield transformed, it will not enter the battlefield at all. In that case, it stays in the zone it was previously in. For example, if a single-faced card is a copy of The Legend of Roku, the chapter III ability will cause it to be exiled and then remain in exile.
   - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-10-02* — You pay all costs and follow all timing rules for cards played from exile using The Legend of Roku's first chapter ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty. You may play those exiled cards even if you no longer control The Legend of Roku.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-legend-of-roku--avatar-roku)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/145/the-legend-of-roku-avatar-roku) · oracle_id `2f26f270-26d9-46d3-957f-19f52d51eb03` · printing: TLA #145 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Legend of Yangchen // Avatar Yangchen
@@ -254,6 +259,7 @@ schema: 2
   - *2025-10-02* — Permanents chosen by players using The Legend of Yangchen's first ability will be exiled simultaneously once all players have chosen permanents.
   - *2025-10-02* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-10-02* — You must choose a target opponent for The Legend of Yangchen's second chapter ability when it is put on the stack. You will not choose whether or not that opponent will draw cards until the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-legend-of-yangchen--avatar-yangchen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/27/the-legend-of-yangchen-avatar-yangchen) · oracle_id `521a63cf-5e83-4649-9800-c62b2fc474d6` · printing: TLA #27 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lion-Turtle
@@ -269,6 +275,7 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12286 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-lion-turtle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/232/the-lion-turtle) · oracle_id `fff728a1-56f5-4e97-91e2-19aba5772909` · printing: TLA #232 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8491585c-81d0-48be-8ed0-832e42fad9c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Local Guides
@@ -300,6 +307,7 @@ schema: 2
   - *2017-07-14* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” The Locust God's first triggered ability won't trigger.
   - *2017-07-14* — If this creature dies but leaves your graveyard before the next end step, it will remain in its new zone.
   - *2017-07-14* — The “next end step” refers to the next end step that occurs, not the end step of the next turn. If this creature dies before a turn's end step (for example, during combat), it will be returned to its owner's hand at the beginning of that turn's end step.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#the-locust-god)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/335/the-locust-god) · oracle_id `e025a714-02da-4b0c-8021-cf3e8dc9b19e` · printing: MOC #335 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lonely Mountain
@@ -312,6 +320,7 @@ schema: 2
   > {4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Equipment you control. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7616 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-lonely-mountain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/187/the-lonely-mountain) · oracle_id `3678c06f-8a33-4a6d-bf20-5b92d5c05a95` · printing: HOB #187 (2026-08-14) · [rulings](https://api.scryfall.com/cards/b39ebc4d-a01a-4401-ab3a-bf6142c93b47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Long Reach of Night // Animus of Night's Reach
@@ -473,6 +482,7 @@ schema: 2
   > *The gods of Chaos bestow gifts of mutations upon their champions. Too many of these gifts transform their bearer into mindless, writhing chaos spawn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5705 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#the-lost-and-the-damned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/129/the-lost-and-the-damned) · oracle_id `22e70ad0-1a9c-4d9e-8cc1-ebea485282ca` · printing: 40K #129 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9a53cf96-b47f-48f0-b9cc-3330ae546a87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Lunar Whale

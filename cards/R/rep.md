@@ -117,6 +117,7 @@ schema: 2
   - *2021-03-19* — If a permanent on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2021-03-19* — If the target permanent is an illegal target by the time Repeal tries to resolve, the spell doesn't resolve. You don't draw a card.
   - *2021-03-19* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#repeal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/94/repeal) · oracle_id `b1f2b26c-91b2-4f3c-9f48-6429ec3fde48` · printing: CLU #94 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repeated Reverberation
@@ -313,6 +314,7 @@ schema: 2
   > *Not all Keld's warriors are found on the battlefield.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3003 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#repercussion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/95/repercussion) · oracle_id `f6069a4f-744e-43e8-9f8b-7c13b8b0187f` · printing: UDS #95 (1999-06-07) · [rulings](https://api.scryfall.com/cards/d0f3c78e-16c0-4fbc-8ef4-fbf610f9d464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replenish
@@ -328,6 +330,7 @@ schema: 2
   - *2004-10-04* — It determines what enchantments to return when its resolution starts. If more enchantments go to the graveyard during the resolution, those additional enchantments are ignored.
   - *2005-08-01* — Auras can only be placed on permanents that were on the battlefield before this effect started to resolve. You can't put an enchantment onto the battlefield with Replenish and put an Aura that is also entering onto one of those enchantments.
   - *2005-08-01* — You must return Auras if possible, even if this means enchanting an opponent's permanent with a good enchantment.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#replenish)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uds/15/replenish) · oracle_id `523ae937-5535-490d-96ea-07f331b5e5ad` · printing: UDS #15 (1999-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replicating Ring
@@ -345,6 +348,7 @@ schema: 2
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The check of whether Replicating Ring has eight or more night counters on it happens only as part of the resolution of the triggered ability. If Replicating Ring picks up its eighth night counter at another time, you won't immediately create Replicated Rings. You'll have to wait until the next time the triggered ability resolves.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#replicating-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/372/replicating-ring) · oracle_id `1ff00f5b-4bf9-4724-8bb5-6b9a9eb0ec7f` · printing: MOC #372 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Replication Specialist
@@ -377,6 +381,7 @@ schema: 2
   - *2021-04-16* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
   - *2021-04-16* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
   - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#replication-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/200/replication-technique) · oracle_id `163baf58-b35d-4f2b-aa53-8384b8b5800a` · printing: SOC #200 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repopulate
@@ -419,6 +424,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #596 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-09-19* — If a spell is returned to its owner's hand, it's removed from the stack and thus will not resolve. This works against a spell that can't be countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reprieve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/26/reprieve) · oracle_id `f0449cbd-855c-4c20-a1f5-f76a395d8d39` · printing: LTR #26 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprisal
@@ -432,6 +438,7 @@ schema: 2
   > *—Elspeth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20819 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reprisal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/23/reprisal) · oracle_id `fae90808-bafa-44d8-972a-17ded87576ee` · printing: JOU #23 (2014-05-02) · [rulings](https://api.scryfall.com/cards/343baad1-dd58-4d64-9b0a-258618094ceb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reprobation
@@ -464,6 +471,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9911 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You can sacrifice zero permanents if you want to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reprocess)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/77/reprocess) · oracle_id `27177cb0-1670-488e-82be-4610da5a7de3` · printing: TD2 #77 (2011-05-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reptil, Dinomorpher
@@ -548,6 +556,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8564 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — If the target creature is an illegal target as Repulse tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#repulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/119/repulse) · oracle_id `6f7ef1d1-c441-41ba-b7d6-6b7727ffcf04` · printing: CN2 #119 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Repulsive Mutation
@@ -636,6 +645,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3719 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — If there’s an {X} in the sacrificed artifact’s mana cost, X is 0 when determining its mana value.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/R.md#repurposing-bay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/56/repurposing-bay) · oracle_id `1787ac2f-762d-4f3a-b7e5-12db6d3d470d` · printing: DFT #56 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reputable Merchant

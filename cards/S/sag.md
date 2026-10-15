@@ -184,6 +184,7 @@ schema: 2
   - *2008-04-01* — If a Wizard would normally enter with a certain number of +1/+1 counters on it, it enters with that many +1/+1 counters plus one on it instead. If a Wizard would normally enter with no +1/+1 counters on it, it enters with one +1/+1 counter on it instead.
   - *2008-04-01* — The creature gets the counter if it would enter under your control. It doesn't matter who owns the creature or what zone it enters from (such as your opponent's graveyard, for example).
   - *2008-04-01* — The effects from more than one Sage of Fables are cumulative. That is, if you have two Sage of Fables on the battlefield, Wizard creatures you control enter with two additional +1/+1 counters on them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sage-of-fables)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/169/sage-of-fables) · oracle_id `f53da056-97be-41ad-8cfc-0d92e17dcd7b` · printing: LCC #169 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage of Hours
@@ -404,6 +405,7 @@ schema: 2
   > *(trans. Feng and English)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28541 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sages-knowledge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/52/sages-knowledge) · oracle_id `b8ffd53b-5b10-4866-83fe-630eee58c514` · printing: PTK #52 (1999-05-01) · [rulings](https://api.scryfall.com/cards/156d7c70-6c6d-4052-9d44-029ba1bb66e4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Nouliths
@@ -455,6 +457,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-11-24* — An Aura doesn't necessarily need the enchant creature ability for the abilities of Sage's Reverie to count it. For example, an Aura with enchant permanent that's attached to a creature will count.
   - *2014-11-24* — Count the number of Auras you control attached to creatures as the enters-the-battlefield ability resolves to determine how many cards to draw. This will include Sage's Reverie as long as it's still on the battlefield at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sages-reverie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/165/sages-reverie) · oracle_id `bd92cacd-c7d8-43a2-a261-ea4754fefdc5` · printing: SOC #165 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sage's Row Denizen
@@ -601,4 +604,5 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#sagu-wildling--roost-seek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/157/sagu-wildling-roost-seek) · oracle_id `7cee6d43-5dec-4989-85ec-c635ec783ec7` · printing: TDM #157 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

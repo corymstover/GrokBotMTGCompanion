@@ -158,6 +158,7 @@ schema: 2
   - *2016-06-08* — If the spell is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. You can't choose a different one.
   - *2016-06-08* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2016-06-08* — You can't choose to pay any additional costs for the copy. However, effects based on any additional or alternative costs paid for the targeted spell are copied as though those same costs were paid for the copy.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#dualcaster-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/165/dualcaster-mage) · oracle_id `8eb7c0a5-6190-40de-b473-2d1daa3bbe28` · printing: C21 #165 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dual Casting
@@ -471,6 +472,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#duelist-of-deep-faith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/9/duelist-of-deep-faith) · oracle_id `30d69e88-2bf6-43b8-8678-2cf37f6a5cf5` · printing: ONE #9 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duelist of the Mind
@@ -504,6 +506,7 @@ schema: 2
   > Whenever you play a land or cast a spell, if it shares a mana value with one or more uncrossed digits in the chosen number, cross out one of those digits and draw a card. Then if all ten digits are crossed out, you win the game.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#duelists-convocation-international)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/529/duelists-convocation-international) · oracle_id `27a7380d-4c18-4754-b5fb-1302d939c9d9` · printing: MB2 #529 (2024-08-02) · [rulings](https://api.scryfall.com/cards/da56c50e-235c-4e55-92f8-bf6cdf39fe79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duelist's Flame
@@ -531,6 +534,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1284 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-11-08* — The ability of Duelist's Heritage triggers whenever any player attacks with one or more creatures, not just when you do. You know which players and planeswalkers the creatures are attacking before you choose the target creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#duelists-heritage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/153/duelists-heritage) · oracle_id `5cdc4654-b8c5-4599-a1d2-9e9d5f6509cb` · printing: TLE #153 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duel Tactics
@@ -896,6 +900,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dune-mover)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/226/dune-mover) · oracle_id `38d2176c-1a1e-4030-9c63-e28ba4a69b6d` · printing: ONE #226 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dunerider Outlaw
@@ -930,6 +935,7 @@ schema: 2
   - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn't grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
   - *2017-07-14* — Dunes of the Dead's second ability doesn't allow you to sacrifice it whenever you'd like. You must find another way to get Dunes of the Dead into the graveyard.
   - *2017-07-14* — If you sacrifice Dunes of the Dead to pay the activation cost of an ability, you'll create the Zombie token before that activated ability resolves.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#dunes-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/291/dunes-of-the-dead) · oracle_id `c761f71c-785c-4533-a2b7-2da3667688b8` · printing: OTC #291 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Crawler
@@ -979,6 +985,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — The ability Dungeon Delver grants causes the same room you ventured into to trigger an additional time. It does not cause you to move to the next room.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dungeon-delver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/67/dungeon-delver) · oracle_id `0073d731-e60d-433a-ac35-a22af855da20` · printing: CLB #67 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Descent
@@ -1100,6 +1107,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — Dungeon cards are nontraditional Magic cards that begin outside the game. They are not part of a player's deck or sideboard.
   - *2021-07-23* — Dungeon cards may be put into a player's command zone using the venture into the dungeon keyword action found on some cards from the Adventures in the Forgotten Realms set. If any other effect tries to bring a dungeon card into the game, it fails to do so.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dungeon-of-the-mad-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tafr/20/dungeon-of-the-mad-mage) · oracle_id `30d0398c-bf5a-4b30-936f-afdb5a109b4b` · printing: TAFR #20 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungeon Shade
@@ -1115,6 +1123,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27968 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dungeon-shade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/103/dungeon-shade) · oracle_id `953a1a07-1bf2-480e-81a3-f2d5f19f6df5` · printing: TPR #103 (2015-05-06) · [rulings](https://api.scryfall.com/cards/3e2f317a-578c-4f7d-a185-b22bf7c32624/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dungrove Elder
@@ -1173,6 +1182,7 @@ schema: 2
   - *2020-08-07* — Duplicant's base power and toughness change to the imprinted card's power and toughness. Counters and other effects that modify Duplicant's power and toughness still apply.
   - *2020-08-07* — Duplicant's power and toughness are constantly updated if the exiled card's power and/or toughness change.
   - *2020-08-07* — If a melded permanent or a merged permanent is exiled by Duplicant's triggered ability, that ability's controller chooses the relative timestamp of the exiled cards. Duplicant looks at the information of the one with the latest timestamp.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/D.md#duplicant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/946/duplicant) · oracle_id `ea86abfa-6cab-4ef0-8463-34136fc25b59` · printing: CMM #946 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duplication Device
@@ -1251,6 +1261,7 @@ schema: 2
   > *—Nokar, priest of Sheoldred*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3258 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/D.md#duress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/606/duress) · oracle_id `33d405ea-7a9a-4970-b70f-9c05d90dd6f0` · printing: FDN #606 (2024-11-15) · [rulings](https://api.scryfall.com/cards/34c3a894-ee75-4db9-a69f-711bb3cc150a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Durkwood Baloth
@@ -1331,6 +1342,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
   - *2022-06-10* — You must still pay all costs (as modified by the undaunted ability) and follow all normal timing rules when casting a spell this way.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#durnan-of-the-yawning-portal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/657/durnan-of-the-yawning-portal) · oracle_id `21d3858f-441d-4bb2-888e-8b147ecad7e9` · printing: CLB #657 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskana, the Rage Mother
@@ -1424,6 +1436,7 @@ schema: 2
   - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
   - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
   - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/D.md#dusk--dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/61/dusk-dawn) · oracle_id `7bc3f92f-68a2-4934-afc4-89f6d0e8cf98` · printing: MKC #61 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskfang Mentor
@@ -1583,6 +1596,7 @@ schema: 2
   - *2013-01-24* — Each time the first ability resolves, a delayed triggered ability is created. Whenever a card is put into an opponent’s graveyard that turn, each of those abilities will trigger. For example, if you activate the first ability twice (and let those abilities resolve) and then activate the second ability targeting an opponent, that player will lose a total of 4 life. Each card put into that player’s graveyard will cause two abilities to trigger, each causing that player to lose 1 life.
   - *2013-01-24* — The delayed triggered ability created won’t trigger if a token permanent is put into an opponent’s graveyard.
   - *2013-01-24* — The first ability considers each of your opponents. You don’t choose just one of them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#duskmantle-guildmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/158/duskmantle-guildmage) · oracle_id `ec44ca05-6b10-4be2-b4df-967535967fce` · printing: GTC #158 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskmantle, House of Shadow
@@ -1670,6 +1684,7 @@ schema: 2
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23264 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#duskrider-falcon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/12/duskrider-falcon) · oracle_id `d87ab916-5d49-4840-8d5b-805af800a83c` · printing: WTH #12 (1997-06-09) · [rulings](https://api.scryfall.com/cards/bee3a23a-6ecf-439c-8637-e096fa8c1a80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duskrider Peregrine
@@ -1728,6 +1743,7 @@ schema: 2
   > *They often perch on street lamps, causing the poles to buckle under their weight.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1408 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#duskshell-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/161/duskshell-crawler) · oracle_id `e54ad5a1-e79d-42db-a3e9-5caecae62c9f` · printing: CLU #161 (2024-02-23) · [rulings](https://api.scryfall.com/cards/eb39a0c0-668f-4881-957a-3d09c50beaf4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusk Urchins
@@ -1945,6 +1961,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22312 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If one target is removed or becomes invalid after declaration, the other target is still affected.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/D.md#dust-to-dust)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/71/dust-to-dust) · oracle_id `b17eb586-0272-4d02-be75-de06ea044b6f` · printing: MBC #71 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dusyut Earthcarver
@@ -1963,6 +1980,7 @@ schema: 2
   - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
   - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
   - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dusyut-earthcarver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/141/dusyut-earthcarver) · oracle_id `387b12b1-d8f5-487b-972f-5303b23eed5a` · printing: TDM #141 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dutiful Attendant
@@ -2070,6 +2088,7 @@ schema: 2
   > Creatures you control gain indestructible until end of turn. Put a +1/+1 counter on each creature you control. (Damage and effects that say "destroy" don't destroy those creatures.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2268 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#duty-beyond-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/10/duty-beyond-death) · oracle_id `67e6ce99-4883-4713-9822-cb2334765b5b` · printing: TDM #10 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2e92640d-768b-4357-905f-bea017d351cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Duty-Bound Dead

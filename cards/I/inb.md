@@ -39,4 +39,5 @@ schema: 2
   - *2018-04-27* — Gaining control of a permanent doesn’t cause you to gain control of any Auras or Equipment attached to it. They’ll remain attached, but an Aura’s effect that affects “you” still affects its controller rather than you, the controller of an Equipment can move it during their next main phase, and so on.
   - *2018-04-27* — If you control two In Bolas’s Clutches attached to two permanents with the same name, the “legend rule” applies to the enchanted permanents and to In Bolas’s Clutches at once. You can choose to keep the In Bolas’s Clutches that enchants the permanent you wish to keep.
   - *2018-04-27* — If you control two or more permanents with the same name but only one is legendary, the “legend rule” doesn’t apply.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#in-bolass-clutches)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/54/in-bolass-clutches) · oracle_id `201a4455-1b6b-4e13-a0d5-4cf2116e1673` · printing: DOM #54 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

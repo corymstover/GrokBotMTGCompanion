@@ -149,6 +149,7 @@ schema: 2
   - *2015-01-19* *(Scryfall note)* — Derevi, Empyrial Tactician is banned as a commander in Duel Commander format, but it may be part of your deck.
   - *2020-11-10* — When you activate Derevi's last ability, you're not casting Derevi as a spell. The ability can't be countered by something that counters only spells. The ability isn't subject to the commander tax, nor does it increase the tax if you cast Derevi from the command zone later in the game.
   - *2020-11-10* — You can activate Derevi's last ability only when it is in the command zone.
+- **Referenced in:** 4 pages (2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/D.md#derevi-empyrial-tactician)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/176/derevi-empyrial-tactician) · oracle_id `afa49a09-146f-4439-850e-dd1938c93cef` · printing: CMA #176 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dermoplasm

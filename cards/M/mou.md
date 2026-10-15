@@ -60,6 +60,7 @@ schema: 2
   > *—Magik, Illyana Rasputin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 33 pages (32 decks · 1 card data) → [reverse index](../../references/M.md#mountain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mdd/298/mountain) · oracle_id `a3fb7228-e76b-4e96-a40e-20b5fed75685` · printing: MDD #298 (2027-04-09) · [rulings](https://api.scryfall.com/cards/85177bd7-6c50-48da-b692-ae5fe7bd357c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Bandit
@@ -74,6 +75,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28994 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mountain-bandit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/117/mountain-bandit) · oracle_id `e3638c54-e494-47d2-b614-94c9d9add85a` · printing: PTK #117 (1999-05-01) · [rulings](https://api.scryfall.com/cards/34fd541d-9956-4595-9527-a83db4c5f74f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Goat
@@ -88,6 +90,7 @@ schema: 2
 - **Keywords:** Landwalk, Mountainwalk
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23464 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mountain-goat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/195/mountain-goat) · oracle_id `031cd561-d9b1-4a0e-bc38-bc09e80563c3` · printing: 6ED #195 (1999-04-21) · [rulings](https://api.scryfall.com/cards/47754124-37e2-4878-a711-a3e00ae0bc70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Mover
@@ -142,6 +145,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3123 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You do not have to find a mountain or forest card if you do not want to.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mountain-valley)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/61/mountain-valley) · oracle_id `0b7393aa-d563-45bc-9946-8e7d1729d498` · printing: EOC #61 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mountain Yeti
@@ -171,6 +175,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — For the last ability, none of the chosen creatures are targets of the ability. You may choose creatures with shroud, for example.
   - *2023-06-16* — You must follow all normal timing rules for a card you play using Moria Marauder's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mount-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/258/mount-doom) · oracle_id `995c8dac-fd27-468a-abd4-02372cf0c850` · printing: LTR #258 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mounted Archers
@@ -373,6 +378,7 @@ schema: 2
   > *—Baxter Stockman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15876 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mouser-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/96/mouser-foundry) · oracle_id `404e958b-ead9-4ec7-b786-7b3d65e29967` · printing: TMT #96 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8aae3bd6-a935-44a5-aa4d-a525b00cbf50/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouser Mark III
@@ -428,6 +434,7 @@ schema: 2
   - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
   - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
   - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mouth--feed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/214/mouth-feed) · oracle_id `980f6341-3c13-4405-8550-b838b228f788` · printing: AKH #214 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mouth of Ronom

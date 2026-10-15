@@ -99,6 +99,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The third ability only triggers once for each instance where cards an opponent owns are put into exile, no matter how many cards were exiled at the same time.
   - *2024-11-08* — You cast the copy of Emrakul, the Promised End as The Heron Moon’s last ability resolves. You do so as part of the resolution of the ability. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-heron-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/612/the-heron-moon) · oracle_id `4e7d4fdb-ff80-4192-a78c-78c8bce8c955` · printing: MB2 #612 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Highland Runner
@@ -124,6 +125,7 @@ schema: 2
   > *—Galenti, treasure hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25845 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-hive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/324/the-hive) · oracle_id `87a77482-f286-4fb1-b179-85b2095bb768` · printing: 10E #324 (2007-07-13) · [rulings](https://api.scryfall.com/cards/4141e02a-d42c-4272-833d-98e2614ab371/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Horizon Seeker

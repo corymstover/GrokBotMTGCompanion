@@ -76,6 +76,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12543 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — The value of X is calculated only once, as Sally Pride's first ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sally-pride-lioness-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/24/sally-pride-lioness-leader) · oracle_id `b529f6b0-c6b2-4eb3-bb48-178e1eda75f3` · printing: TMT #24 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sally Sparrow
@@ -316,6 +317,7 @@ schema: 2
   - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#salvage-drone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/65/salvage-drone) · oracle_id `9b18bbf3-3b1c-4010-bc6f-e7eacb2ffb70` · printing: BFZ #65 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvager of Ruin
@@ -441,6 +443,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#salvation-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/43/salvation-colossus) · oracle_id `8b5c6754-36bd-44ac-b0c0-5a3cd2d9f2c3` · printing: M3C #43 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvation Engine
@@ -458,6 +461,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3714 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#salvation-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/27/salvation-engine) · oracle_id `7903666e-7803-4cfc-9ed9-482a6b577c96` · printing: DFT #27 (2025-02-14) · [rulings](https://api.scryfall.com/cards/34ed1bf2-0f3c-4528-b570-e5bdcd7ffda9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Salvation Swan
@@ -474,4 +478,5 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2024-07-26* — Once the exiled permanent returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners' graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#salvation-swan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/28/salvation-swan) · oracle_id `0f68ae67-1671-4281-8b6b-3e52fdd4915f` · printing: BLB #28 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

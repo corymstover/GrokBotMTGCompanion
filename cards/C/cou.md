@@ -103,6 +103,7 @@ schema: 2
   > *Sun Quan's long and successful rule in the years 199 to 251 was due to his ability to choose and foster talented advisors and generals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26924 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#council-of-advisors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/40/council-of-advisors) · oracle_id `ff427657-173a-4845-89af-6f0a93467130` · printing: PTK #40 (1999-05-01) · [rulings](https://api.scryfall.com/cards/0c59f45b-46fa-4494-9b25-cf9d3e462539/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of Echoes
@@ -134,6 +135,7 @@ schema: 2
   > *"Reed Richards of Earth-616, it is time you reached your full potential."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12389 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#council-of-reeds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/28/council-of-reeds) · oracle_id `33fa949c-f29e-4a98-9381-ecfa9e5c3f6d` · printing: MSC #28 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a0d824ea-75d2-4de5-923b-813bba44e80b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Council of the Absolute
@@ -186,6 +188,7 @@ schema: 2
   - *2020-08-07* — No player votes until the spell or ability resolves. Any responses to that spell or ability must be made without knowing the outcome of the vote.
   - *2020-08-07* — None of the candidate permanents are targeted. Players may vote for a permanent with protection from white, for example.
   - *2020-08-07* — Players can't do anything after they finishing voting but before the "winning" permanent or permanents are exiled.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#councils-judgment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/79/councils-judgment) · oracle_id `acf4d685-a718-42f7-9a7a-dee069ae8db2` · printing: OTC #79 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counsel of the Soratami
@@ -210,6 +213,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-07-15* — If an opponent casts a spell with X in its mana cost, the mana value of that spell takes the value of X into account. If you reveal a card with X in its mana cost, X is 0. For example, if your opponent casts Blaze with X=1, Counterbalance will counter that spell if you reveal a card with mana value 2, but it won't counter that spell if you reveal a Blaze of your own.
   - *2017-04-18* — If an opponent casts half of a split card (for example, Hit), it won't be countered if you reveal that same split card. The mana value of a split card is determined by the combined mana cost of its two halves, but the mana value of Hit is determined using only that half's mana cost.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/C.md#counterbalance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/31/counterbalance) · oracle_id `088dfd02-c0e0-41d1-9923-efe023fb2ad1` · printing: CSP #31 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterbore
@@ -254,6 +258,7 @@ schema: 2
   > *Before the battle of Red Cliffs, a supposedly sleeping Zhou Yu allowed his old friend, a Wei advisor, to steal a planted letter forged as if from Wei's two best admirals.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28265 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#counterintelligence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/41/counterintelligence) · oracle_id `0c4e64d1-cdcf-4e96-8bf4-ed1414f6ad62` · printing: PTK #41 (1999-05-01) · [rulings](https://api.scryfall.com/cards/eafbeafb-ef84-4a8d-9ca8-ca305b1feeea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Counterlash
@@ -302,6 +307,7 @@ schema: 2
   - *2024-02-02* — If the target spell is an illegal target as Counterpoint tries to resolve, it won’t resolve and none of its effects will happen.
   - *2024-02-02* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-02-02* — You cast the card from your graveyard as Counterpoint resolves. You can’t wait to cast it later in the turn. Timing restrictions based on the card’s types are ignored.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#counterpoint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/41/counterpoint) · oracle_id `dad4af15-5b26-417d-a41b-29e671e878f4` · printing: MKC #41 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countersculpt
@@ -328,6 +334,7 @@ schema: 2
   > Counter target spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 30 pages (24 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#counterspell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/114/counterspell) · oracle_id `cc187110-1148-4090-bbb8-e205694a39f5` · printing: DSC #114 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4f616706-ec97-4923-bb1e-11a69fbaa1f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countersquall
@@ -403,6 +410,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4125 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-02-07* — You pay all costs and follow all normal timing rules for the card played from exile with this permanent’s ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#count-on-luck)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/118/count-on-luck) · oracle_id `73ad7bcd-4ffc-442c-b6b5-d935b9ccaaaf` · printing: DFT #118 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Country Roads
@@ -415,6 +423,7 @@ schema: 2
   > {1}{W}, {T}, Sacrifice this land: Create a 1/1 colorless Pilot creature token with "This token saddles Mounts and crews Vehicles as though its power were 2 greater." Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8367 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#country-roads)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/253/country-roads) · oracle_id `c5a39f76-dd1b-442c-9f52-08561ecb91ad` · printing: DFT #253 (2025-02-14) · [rulings](https://api.scryfall.com/cards/897acd91-12ba-4fa8-a26e-c09f009167a8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Countryside Crusher
@@ -501,6 +510,7 @@ schema: 2
   - *2023-11-03* — Spells and abilities that would normally cause you to lose life still resolve, but the life-loss part simply has no effect.
   - *2023-11-03* — You can choose not to target a creature just to draw a card and, if you have 5 or less life, to get the additional effects listed. However, if you do choose a target, and that target is illegal at the time Courageous Resolve tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card, and the additional effects won't occur even if you have 5 or less life.
   - *2023-11-03* — You can't pay a cost that includes the payment of any amount of life other than 0 life. However, you can choose to be dealt damage, even though that damage won't result in your life total changing.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#courageous-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/506/courageous-resolve) · oracle_id `3f7452aa-b075-47d9-b61f-061d61c7d1b4` · printing: LTC #506 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courier Bat
@@ -590,6 +600,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20778 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#couriers-capsule)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/37/couriers-capsule) · oracle_id `4e694613-e2e1-4ae3-baa8-f372259e91cf` · printing: ALA #37 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Courser of Kruphix
@@ -608,6 +619,7 @@ schema: 2
   - *2021-03-19* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you don't reveal the new top card until you finish doing so. This means that if you play a land from the top of your library, you can't look at the next one until you've handled any replacement effects that modify that land entering the battlefield, such as that of Vesuva.
   - *2021-03-19* — Playing a land from the top of your library counts as your land play for the turn. Once you play a land during your turn, you won't be able to play an additional land from the top of your library unless another effect (such as that of Azusa, Lost but Seeking) allows you to.
   - *2021-03-19* — While playing with the top card of your library revealed, if you draw multiple cards, reveal each one before you draw it. If you put multiple cards on top of your library at once, reveal only the one new top card.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#courser-of-kruphix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/888/courser-of-kruphix) · oracle_id `46779609-4fa7-4fd2-b5b4-7d4d749339e6` · printing: CMM #888 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coursers' Accord
@@ -730,6 +742,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#court-of-ambition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/114/court-of-ambition) · oracle_id `652e71a9-e46f-41b3-8695-76b3606b1955` · printing: CMR #114 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ardenvale
@@ -784,6 +797,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#court-of-cunning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/63/court-of-cunning) · oracle_id `2ab88c99-aaa0-4a91-9225-0bbfba04b6bc` · printing: CMR #63 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Embereth
@@ -800,6 +814,7 @@ schema: 2
   - *2023-09-01* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2023-09-01* — The game starts with no monarch. As a player becomes the monarch, the current monarch (if any) ceases being the monarch. There is never more than one monarch at a time.
   - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#court-of-embereth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/WOC-24/court-of-embereth) · oracle_id `87a82441-9dfb-49bd-8b9e-eaab2c552843` · printing: PLST #WOC-24 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Garenbrig
@@ -838,6 +853,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/C.md#court-of-grace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/16/court-of-grace) · oracle_id `f63c2438-27d4-449a-828f-f0a2ea86ff16` · printing: CMR #16 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Ire
@@ -875,6 +891,7 @@ schema: 2
   - *2023-09-01* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
   - *2023-09-01* — You may play the exiled cards (and spend mana of any type to do so) even if Court of Locthwain leaves the battlefield. If another player gains control of Court of Locthwain, that player can't play the cards, and you still can.
   - *2023-09-01* — You pay the costs for an exiled card if you cast it. You may pay any alternative costs the card has rather than the card's mana cost.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#court-of-locthwain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/23/court-of-locthwain) · oracle_id `6106ba65-f07b-41ec-8b59-e052bbde5529` · printing: WOC #23 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Court of Vantress

@@ -111,6 +111,7 @@ schema: 2
   - *2023-11-10* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2023-11-10* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
   - *2023-11-10* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#blue-loyal-raptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/8/blue-loyal-raptor) · oracle_id `4f13ed2e-7790-499f-87bf-07480b567811` · printing: REX #8 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Mage's Cane
@@ -132,6 +133,7 @@ schema: 2
   - *2025-06-06* — The Hero token enters as a 1/1 creature, then the Equipment becomes attached to it. Abilities that trigger when a creature enters the battlefield see that a 1/1 creature entered the battlefield.
   - *2025-06-06* — You cast the copy while the ability is resolving and still on the stack. You can't wait to cast it later in the turn.
   - *2025-06-06* — You may pay the Equipment's equip cost as normal to move it from the Hero token to another creature you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blue-mages-cane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/35/blue-mages-cane) · oracle_id `6290233b-b015-4909-8aba-bf8d65cc37b5` · printing: FIC #35 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Mana Battery
@@ -228,6 +230,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — If this spell doesn't resolve, none of its effects occur. In particular, it will go to the graveyard rather than to its owner's library.
   - *2018-03-16* — Because you follow the spell's instructions in order, you won't be able to draw the same Blue Sun's Zenith that you cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blue-suns-zenith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/44/blue-suns-zenith) · oracle_id `613a41b8-0b4f-4995-bf1e-ca41f96e6438` · printing: A25 #44 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blue Ward
@@ -297,6 +300,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/58/blur) · oracle_id `00b36996-43c6-42a5-892c-c7c8864cf973` · printing: CLB #58 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur of Blades
@@ -310,6 +314,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22487 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-07-14* — If the targeted creature is an illegal target by the time Blur of Blades resolves, it won’t resolve and none of its effects will happen. Blur of Blades won’t deal damage to any player.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#blur-of-blades)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/84/blur-of-blades) · oracle_id `65410f7a-c749-4b23-ad61-8a7136efcad2` · printing: HOU #84 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur of Heroism
@@ -324,6 +329,7 @@ schema: 2
   > *—Blur, Stanley Stewart*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25574 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blur-of-heroism)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/585/blur-of-heroism) · oracle_id `b4a9b328-f976-4390-be9a-711ef357a50d` · printing: MSC #585 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ca94680f-d46c-4b0f-a40f-635a0fcb16f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blurred Mongoose
@@ -342,6 +348,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Counterspells can be cast that target it, but when they resolve they simply don’t counter it since it can’t be countered.
   - *2004-10-04* — It can be targeted while on the stack. Shroud only works while it is on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#blurred-mongoose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/183/blurred-mongoose) · oracle_id `588a5bac-dcad-410e-8878-0230500c2e3a` · printing: INV #183 (2000-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blurry Beeble
@@ -383,6 +390,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different from how the mana value of a transforming double-faced card is determined.
   - *2024-11-08* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blurry-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/526/blurry-visionary) · oracle_id `37c09de4-7cc3-457e-9471-e9a9fc73339d` · printing: MB2 #526 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blur Sliver

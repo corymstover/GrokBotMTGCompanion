@@ -58,6 +58,7 @@ schema: 2
   - *2025-10-02* — If unspent mana has any restrictions or riders associated with it (for example, if it was produced by White Lotus Hideout), those restrictions or riders will remain associated with that mana when it becomes red.
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#ozai-the-phoenix-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/235/ozai-the-phoenix-king) · oracle_id `7472af8e-2e93-43b2-bc32-a3741f6d7502` · printing: TLA #235 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozolith, the Shattered Spire
@@ -75,6 +76,7 @@ schema: 2
   - *2023-04-14* — If another artifact or creature you control would enter the battlefield with a number of +1/+1 counters on it, it enters with that many plus one instead.
   - *2023-04-14* — If two or more effects attempt to modify how many counters would be put onto a permanent you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
   - *2023-04-14* — If you somehow control two copies of Ozolith, the Shattered Spire, the number of +1/+1 counters put on an artifact or creature you control is two plus the original number. Three Ozoliths add three, and so on.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/O.md#ozolith-the-shattered-spire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/281/ozolith-the-shattered-spire) · oracle_id `41fed659-237c-4d8e-ad31-d17fa0d3f764` · printing: SOC #281 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ozox, the Clattering King

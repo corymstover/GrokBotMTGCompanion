@@ -162,6 +162,7 @@ schema: 2
   > *The Phyrexian death machine awoke, its coldsteel heart imbuing it with sinister new power.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coldsteel-heart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/301/coldsteel-heart) · oracle_id `21d700e8-0255-418e-96a0-6fe05b3f836d` · printing: 2X2 #301 (2022-07-08) · [rulings](https://api.scryfall.com/cards/b2548ad2-3c62-4ed1-899c-1002b46cdd8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cold Storage
@@ -207,6 +208,7 @@ schema: 2
   - *2007-10-01* — Playing a card exiled with Colfenor's Plans follows all the normal rules for playing that card. You must pay its costs, and you must follow all timing restrictions, for example.
   - *2007-10-01* — The turn you cast Colfenor's Plans, you have cast (at least) one spell that turn. After it enters and its last ability goes into effect, you can't cast any more spells that turn.
   - *2013-04-15* — If Colfenor's Plans leaves the battlefield, you can continue to look at cards exiled by it, but you can no longer play them.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/C.md#colfenors-plans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/106/colfenors-plans) · oracle_id `ad786230-4045-46af-bc89-078d45891e5b` · printing: LRW #106 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colfenor's Urn
@@ -254,6 +256,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13189 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coliseum-behemoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/181/coliseum-behemoth) · oracle_id `076cf4f1-b3d4-4175-b976-938ad851cc0e` · printing: FIN #181 (2025-06-13) · [rulings](https://api.scryfall.com/cards/900206f1-7dd6-4db9-a430-73e560fd196b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collapsing Borders
@@ -339,6 +342,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#collectigull--only-the-best)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph19/1/collectigull-only-the-best) · oracle_id `23146975-7ba4-4c64-96a5-1cd54090f367` · printing: PH19 #1 (2020-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Blessing
@@ -395,6 +399,7 @@ schema: 2
   - *2016-07-13* — If two of the chosen modes of an escalate spell target a creature, you may choose the same creature for each mode’s target, or choose different creatures. The same is true if the chosen modes target a player (or opponent).
   - *2016-07-13* — You can’t choose any one mode multiple times.
   - *2016-07-13* — You choose all of your modes at once. You can’t wait to perform one mode’s actions and then decide to choose more modes.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#collective-defiance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/149/collective-defiance) · oracle_id `43ddc3e8-936b-4be0-9e64-484bbbd69016` · printing: INR #149 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Drone
@@ -432,6 +437,7 @@ schema: 2
   - *2016-07-13* — You can tap any untapped creature you control to pay the escalate cost, including one you haven't controlled continuously since the beginning of the turn.
   - *2016-07-13* — You can't choose any one mode multiple times.
   - *2016-07-13* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Referenced in:** 3 pages (1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/C.md#collective-effort)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/126/collective-effort) · oracle_id `a97e760a-99c8-47ea-a875-451aca913ee7` · printing: MSC #126 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Inferno
@@ -452,6 +458,7 @@ schema: 2
   - *2025-11-17* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Collective Inferno unless (in a very unusual case) it was the original source of damage.
   - *2025-11-17* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2025-11-17* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#collective-inferno)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/132/collective-inferno) · oracle_id `649e4969-71d4-434f-85b0-205ec2c6b24f` · printing: ECL #132 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Nightmare
@@ -494,6 +501,7 @@ schema: 2
   - *2024-06-07* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until Collective Resistance is done resolving.
   - *2024-06-07* — You can't choose any one mode multiple times.
   - *2024-06-07* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#collective-resistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/147/collective-resistance) · oracle_id `bffdfe7b-f17a-41b6-a460-80280fe497d4` · printing: MH3 #147 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collective Restraint
@@ -533,6 +541,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4581 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — You may find any number of basic lands up to X, including zero. However, searching and shuffling your library is not optional.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#collective-voyage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/145/collective-voyage) · oracle_id `00f82f84-81a5-45e5-9c35-9d627a180950` · printing: C16 #145 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collector Ouphe
@@ -551,6 +560,7 @@ schema: 2
   - *2019-06-14* — Collector Ouphe's ability affects only artifacts on the battlefield. Activated abilities that work in other zones (such as cycling) can still be activated.
   - *2019-06-14* — If you control Collector Ouphe, you can't activate any abilities of your artifacts, even if you'd sacrifice Collector Ouphe as a cost to activate one of those abilities.
   - *2019-06-14* — No abilities of artifacts can be activated, including mana abilities.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#collector-ouphe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/158/collector-ouphe) · oracle_id `0c4bc9ea-a5fd-4f44-96a1-5448eee228c4` · printing: MH1 #158 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collector Protector
@@ -583,6 +593,7 @@ schema: 2
   - *2024-04-12* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-04-12* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
   - *2024-04-12* — You choose whether to play the exiled card as Collector's Cage's last ability resolves. If you do, you do so as part of the resolution of that ability. You can't wait to play it later in the turn. Timing restrictions based on the card's types are ignored. However, you can never play lands on other players' turns.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#collectors-cage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/1/collectors-cage) · oracle_id `8f5b71fd-469f-4370-a806-9bfefbae03a2` · printing: BIG #1 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Collector's Case
@@ -610,6 +621,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1820 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#collectors-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/244/collectors-vault) · oracle_id `f460ff80-8175-43f7-9810-540cf3817085` · printing: WOE #244 (2023-09-08) · [rulings](https://api.scryfall.com/cards/967a4f27-8cd6-437d-8c05-8aedbc7ddc4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colleen Wing, Street Samurai
@@ -690,6 +702,7 @@ schema: 2
   - *2024-03-08* — You can sacrifice the creature with exploit if it’s still on the battlefield. If it has an ability that triggers when it exploits a creature (or, in this case, when any creature you control exploits a creature), that ability will trigger.
   - *2024-03-08* — You can’t sacrifice more than one creature to any one exploit ability.
   - *2024-03-08* — You choose whether to sacrifice a creature and which creature to sacrifice as an exploit ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#colonel-autumn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/98/colonel-autumn) · oracle_id `5c6ce876-781b-437d-b20e-db0b6e2769f4` · printing: PIP #98 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colorful Feiyi Sparrow
@@ -704,6 +717,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28110 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#colorful-feiyi-sparrow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/2/colorful-feiyi-sparrow) · oracle_id `82657b8b-de2d-46ab-ab56-e2790e326d95` · printing: GS1 #2 (2018-06-22) · [rulings](https://api.scryfall.com/cards/846169fb-8f63-4a0f-af94-e08af8927144/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colorless Ultimatum
@@ -759,6 +773,7 @@ schema: 2
 - **Keywords:** Reach, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14683 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#colossadactyl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/180/colossadactyl) · oracle_id `34ff281a-f294-4351-9665-863a5b2e882b` · printing: LCI #180 (2023-11-17) · [rulings](https://api.scryfall.com/cards/8702e776-be2c-48a9-9bc5-bb8ea514333b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Badger // Dig Deep
@@ -787,6 +802,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#colossal-badger--dig-deep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/223/colossal-badger-dig-deep) · oracle_id `96aab05a-49bc-418a-9980-f3322955de1e` · printing: CLB #223 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Collision
@@ -832,6 +848,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10529 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#colossal-dreadmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/176/colossal-dreadmaw) · oracle_id `08c7db90-c0cf-4482-b7ee-bb033e5996d2` · printing: M21 #176 (2020-07-03) · [rulings](https://api.scryfall.com/cards/8059c52b-5d25-4052-b48a-e9e219a7a546/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Dreadmaw and Storm Crow
@@ -862,6 +879,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1857 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — All three of the milled cards are put into your graveyard at the same time. If there is more than one creature card among those cards, the last ability triggers only once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#colossal-grave-reaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/50/colossal-grave-reaver) · oracle_id `df8e0d1b-b47c-4807-9c9b-84dcec835254` · printing: TDC #50 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Growth
@@ -918,6 +936,7 @@ schema: 2
   - *2018-07-13* — If you don't control a creature with power 4 or greater as your upkeep begins, Colossal Majesty's ability won't trigger. You can't take any actions during your turn before your upkeep begins.
   - *2018-07-13* — The creature with power 4 or greater that you control as Colossal Majesty's ability resolves doesn't have to be the same creature with power 4 or greater that was under your control as the ability triggered.
   - *2018-07-13* — You draw only one card, no matter how many creatures with power 4 or greater you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#colossal-majesty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/160/colossal-majesty) · oracle_id `cac95494-0db0-4bec-8665-998431a6f76b` · printing: CLU #160 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossal Might
@@ -1059,6 +1078,7 @@ schema: 2
   - *2019-07-12* — Colossus Hammer can be attached to a creature that didn't have flying to begin with. It just won't lose flying.
   - *2019-07-12* — If an ability of the equipped creature states that it has flying "as long as" a particular condition is true, that condition becoming true will not cause that creature to gain flying. For example, if the equipped creature "has flying as long as it's attacking," it will not gain flying, even if it attacks after Colossus Hammer becomes attached to it.
   - *2019-07-12* — If the equipped creature gains flying after Colossus Hammer became attached to it, it will keep flying.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#colossus-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/202/colossus-hammer) · oracle_id `8ec03b88-8d3a-4a32-8b7c-7da59b0c03d0` · printing: AFC #202 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Colossus of Akros

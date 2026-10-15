@@ -268,6 +268,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4588 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#eagle-vision)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/17/eagle-vision) · oracle_id `f96f1b4c-f06a-4374-8d8f-aaa06c6108c3` · printing: ACR #17 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eardrum Rattler
@@ -325,6 +326,7 @@ schema: 2
   > *—William Shakespeare, \*The Tempest\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11265 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#early-harvest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/235/early-harvest) · oracle_id `32001382-3079-4bbe-8d86-05da654c0d1a` · printing: 9ED #235 (2005-07-29) · [rulings](https://api.scryfall.com/cards/22113d08-ecc9-4efd-90f1-00d699582ec3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Early Winter
@@ -387,6 +389,7 @@ schema: 2
   - *2025-10-02* — The land that the first ability searches for is not on the battlefield when you select targets for earthbend, so it cannot be the land that you earthbend.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#earthbender-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/175/earthbender-ascension) · oracle_id `f8966fd5-2926-4ba0-b7d6-cfea40cd4e05` · printing: TLA #175 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthbending Lesson
@@ -479,6 +482,7 @@ schema: 2
   > *—Eladamri, Lord of Leaves*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4112 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/E.md#earthcraft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/222/earthcraft) · oracle_id `50aa7aff-1f01-4224-9a83-01f74d703ec2` · printing: TMP #222 (1997-10-14) · [rulings](https://api.scryfall.com/cards/9dda7531-82a1-4f49-8858-601ddbc6e2bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth-Cult Elemental
@@ -696,6 +700,7 @@ schema: 2
   > *Deep in the Northern Mountains, the yaks linger silently, channeling the powers of the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25305 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#earth-origin-yak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/9/earth-origin-yak) · oracle_id `c2b659ef-68f6-452c-94b5-2872f4e7b069` · printing: GS1 #9 (2018-06-22) · [rulings](https://api.scryfall.com/cards/abcde784-d0cd-4bac-b1bf-bd686ac2f73d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthquake
@@ -709,6 +714,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2906 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Whether or not a creature is without flying is only checked on resolution.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#earthquake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/95/earthquake) · oracle_id `9a40614b-50a3-422c-849e-53c8b7d3d204` · printing: CM2 #95 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthquake Dragon
@@ -837,6 +843,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2396 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/E.md#earthshaker-dreadmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/183/earthshaker-dreadmaw) · oracle_id `454cbc6a-b7f0-445e-842c-5db267917a18` · printing: LCI #183 (2023-11-17) · [rulings](https://api.scryfall.com/cards/cdcbba6f-aa54-44be-a3b0-f712fa8bd5ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaker Giant
@@ -874,6 +881,7 @@ schema: 2
   - *2017-07-14* — The target creature's power is checked when you target it with Earthshaker Khenra's ability and when that ability resolves. Once the ability resolves, if the creature's power increases or Earthshaker Khenra's power decreases, the target creature will still be unable to block.
   - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#earthshaker-khenra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/90/earthshaker-khenra) · oracle_id `df660a8e-39c2-455d-8860-522e2998a95e` · printing: HOU #90 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earthshaking Si
@@ -918,6 +926,7 @@ schema: 2
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13748 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#earths-mightiest-heroes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/165/earths-mightiest-heroes) · oracle_id `2b87bcac-ec64-4012-9e75-f459d3640eb3` · printing: MSH #165 (2026-06-26) · [rulings](https://api.scryfall.com/cards/b38b9bd6-1dd7-4bbc-8a82-ce391c1172e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Earth Surge
@@ -1105,6 +1114,7 @@ schema: 2
   - *2024-11-08* — Eaten by Piranhas overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply afterward will overwrite this effect.
   - *2024-11-08* — Effects that modify the creature's power and/or toughness, such as the effect of Giant Growth, will apply to the creature no matter when they started to take effect. The same is true for counters that change its power and/or toughness and effects that switch its power and toughness.
   - *2024-11-08* — If the enchanted creature had any subtypes other than creature types, such as Equipment, Vehicle, or Cave, it loses those as well.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eaten-by-piranhas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/507/eaten-by-piranhas) · oracle_id `c37eae65-1afe-4242-b677-24dd40e6f401` · printing: FDN #507 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eaten by Spiders
@@ -1163,6 +1173,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It untaps during the resolution of its ability.
   - *2007-09-16* — You can activate the ability whether or not Eater of the Dead is tapped. However, if Eater of the Dead is untapped when the ability resolves, the ability won't do anything.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#eater-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/67/eater-of-the-dead) · oracle_id `3c414ace-fd04-4fac-9379-24f5910f20e4` · printing: ME1 #67 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eater of Virtue

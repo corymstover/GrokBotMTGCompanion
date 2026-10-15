@@ -125,6 +125,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #477 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/R.md#raugrin-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/251/raugrin-triome) · oracle_id `c7fa1dda-9312-4ec8-82cd-a1ba7bc33497` · printing: IKO #251 (2020-04-24) · [rulings](https://api.scryfall.com/cards/02138fbb-3962-4348-8d31-faaefba0b8b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raul, Trouble Shooter

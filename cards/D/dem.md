@@ -88,6 +88,7 @@ schema: 2
   > *After the attempt on Aurelia's life, she gave the Agency an ultimatum: solve the case in twenty-four hours, or the Boros Legion would declare war on the Cult of Rakdos.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #417 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 lore & story) → [reverse index](../../references/D.md#demand-answers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/122/demand-answers) · oracle_id `c11e84a1-dbda-429b-8cd6-fd0deaefc689` · printing: MKM #122 (2024-02-09) · [rulings](https://api.scryfall.com/cards/eca092fc-7c67-4a73-989e-5297bbaaea76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demanding Dragon
@@ -244,6 +245,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If the targeted land is an illegal target by the time Demolition Field's ability resolves, it won't resolve and none of its effects will happen. Neither player will get to search for a basic land card.
   - *2022-10-14* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Demolition Field's ability. This may happen because the land has indestructible.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#demolition-field)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/687/demolition-field) · oracle_id `93953926-a644-49bb-9b5a-4c8f19114c7e` · printing: FDN #687 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demolition Stomper
@@ -342,6 +344,7 @@ schema: 2
   > Each player antes the top card of their library.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/D.md#demonic-attorney)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/103/demonic-attorney) · oracle_id `65a9f643-063f-406a-8d5a-5ebbe0f04c3d` · printing: SUM #103 (1994-06-21) · [rulings](https://api.scryfall.com/cards/233b1104-91b3-4949-8356-baf6e80ab07e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Bargain
@@ -385,6 +388,7 @@ schema: 2
   - *2004-10-04* — You must name a card that actually exists in the game of Magic.
   - *2008-10-01* — If you don't reveal the named card (perhaps because it was in the top six cards of your library), you'll end up exiling your entire library. You don't lose the game at that point, but will lose the next time you're instructed to draw a card.
   - *2008-10-01* — You don't name a card until Demonic Consultation resolves.
+- **Referenced in:** 12 pages (7 decks · 3 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-consultation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/85/demonic-consultation) · oracle_id `9a1412db-45ad-46ea-8f12-a85d203113d8` · printing: ME2 #85 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Counsel
@@ -400,6 +404,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1815 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — In the case where Demonic Counsel's delirium ability allows you to search your library for any card, you won't have to reveal that card. (You could, but as your demonic counsel, I wouldn't advise it.)
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/D.md#demonic-counsel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/92/demonic-counsel) · oracle_id `712e3479-722c-40a1-9b61-d5bdde93042b` · printing: DSK #92 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Covenant
@@ -416,6 +421,7 @@ schema: 2
   - *2024-09-20* — Demonic Covenant's first ability will trigger once for each player you attack with one or more Demons.
   - *2024-09-20* — Demonic Covenant's last ability will only cause you to sacrifice Demonic Covenant if both cards have the exact same combination of card types. Supertypes and subtypes are not taken into account.
   - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#demonic-covenant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/19/demonic-covenant) · oracle_id `393b9d9e-9d71-43e7-aede-eac7f85d2365` · printing: DSC #19 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Dread
@@ -466,6 +472,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8578 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — The reanimating effect of Demonic Gifts works only once. Once the creature dies and returns to the battlefield, it’s a new object with no relation to the creature it was. If that new creature dies, it won’t come back.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#demonic-gifts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/84/demonic-gifts) · oracle_id `162bcc9d-6edf-4b3b-83e6-2c933e2a5967` · printing: KHM #84 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Hordes
@@ -494,6 +501,7 @@ schema: 2
 - **Keywords:** Affinity, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4230 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#demonic-junker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/83/demonic-junker) · oracle_id `88075828-a76e-412d-b738-182f50e3a133` · printing: DFT #83 (2025-02-14) · [rulings](https://api.scryfall.com/cards/4aad569e-4acb-4416-9d4f-64e6991de3ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Lore
@@ -528,6 +536,7 @@ schema: 2
   - *2015-06-22* — The phrase "that hasn't been chosen" refers only to that specific Demonic Pact. If you control one and cast another one, you can choose any mode for the second one the first time its ability triggers.
   - *2015-06-22* — Yes, if the fourth mode is the only one remaining, you must choose it. You read the whole contract, right?
   - *2015-06-22* — You choose the mode as the triggered ability goes on the stack. You can choose a mode that requires targets only if there are legal targets available.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#demonic-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/602/demonic-pact) · oracle_id `19a2f0a0-9e68-4982-a5f5-b77d805befd7` · printing: FDN #602 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Rising
@@ -606,6 +615,7 @@ schema: 2
 - **Keywords:** Outlast
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#demonic-tourist-laser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/21/demonic-tourist-laser) · oracle_id `13d9822f-0398-4915-818b-b9fbaf63b93c` · printing: SUNF #21 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7c7241ef-ccde-4c2f-807b-45b9e644870f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Tutor
@@ -621,6 +631,7 @@ schema: 2
   - *2004-10-04* — This card is put directly into your hand. It is not drawn.
   - *2004-10-04* — You don't reveal the card to your opponent.
   - *2004-10-04* — You pick a card on resolution.
+- **Referenced in:** 50 pages (43 decks · 5 edh guides · 2 card data) → [reverse index](../../references/D.md#demonic-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/150/demonic-tutor) · oracle_id `82004860-e589-4e38-8d61-8c0210e4ea39` · printing: CMM #150 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonic Vigor
@@ -637,6 +648,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13131 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-04-27* — Demonic Vigor can enchant a token, but its last ability won’t return the token to your hand.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#demonic-vigor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/85/demonic-vigor) · oracle_id `00cb93a8-5d33-4c6a-9e2a-4b3560f76f3f` · printing: DOM #85 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonlord Belzenlok
@@ -656,6 +668,7 @@ schema: 2
   - *2018-04-27* — Land cards exiled this way remain exiled.
   - *2018-04-27* — Once the triggered ability resolves, the ability will continue until you either exile a nonland card with mana value 3 or less or fail to exile any nonland cards while performing the process. You can't choose to stop receiving the blessings of Demonlord Belzenlok any sooner.
   - *2018-04-27* — The mana value of a split card, such as a card with aftermath from the Amonkhet block, is equal to the combined mana cost of its two halves.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/D.md#demonlord-belzenlok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/151/demonlord-belzenlok) · oracle_id `667ece0e-a474-4e11-8ac4-6c8fc354457c` · printing: CMM #151 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonlord of Ashmouth
@@ -672,6 +685,7 @@ schema: 2
 - **Rulings** (2):
   - *2012-05-01* — Demonlord of Ashmouth's "enters" ability will trigger no matter how it entered, including because of its undying ability.
   - *2012-05-01* — You don't have to sacrifice another creature, even if you control one. You may choose to exile Demonlord of Ashmouth.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#demonlord-of-ashmouth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/96/demonlord-of-ashmouth) · oracle_id `049777d0-910d-46d2-9ca1-10277b2fb845` · printing: AVR #96 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demonmail Hauberk
@@ -732,6 +746,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#demon-of-dark-schemes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/73/demon-of-dark-schemes) · oracle_id `2b2f2abd-6c0f-49a5-a44b-f366614c944d` · printing: KLD #73 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon of Death's Gate
@@ -766,6 +781,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-07-28* — If you cast a spell for another cost "rather than paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
   - *2023-07-28* — If you cast a spell with {X} in its mana cost this way, the only legal choice for X is 0.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#demon-of-fates-design)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/137/demon-of-fates-design) · oracle_id `53716e0b-4d4e-40b0-8370-38e11f73d195` · printing: DSC #137 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon of Loathing
@@ -842,6 +858,7 @@ schema: 2
   > *—Ob Nixilis*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27440 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#demons-grasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/43/demons-grasp) · oracle_id `13228a22-d63a-4952-a482-4f84da696e88` · printing: DDR #43 (2016-09-02) · [rulings](https://api.scryfall.com/cards/8ee78a0d-8a76-4d21-b65c-03f27f1a96c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon's Herald
@@ -872,6 +889,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If a player casts a black spell, Demon’s Horn’s ability triggers and is put on the stack on top of that spell. Demon’s Horn’s ability will resolve (causing you to gain 1 life) before the spell does.
   - *2009-10-01* — The ability triggers whenever any player, not just you, casts a black spell.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#demons-horn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/57/demons-horn) · oracle_id `ee38377f-8d3a-402e-a5d7-a01cfe3a5322` · printing: DVD #57 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Demon's Jester

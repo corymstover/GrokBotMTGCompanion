@@ -208,6 +208,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-04-17* — If a spell or ability causes you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
   - *2020-04-17* — Shabraz's middle ability has you gain 1 life even if you can't put a +1/+1 counter on Shabraz, most likely because Shabraz has left the battlefield.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shabraz-the-skyshark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/14/shabraz-the-skyshark) · oracle_id `7599fe9a-b6a5-491b-a308-aef3bf1e9daf` · printing: C20 #14 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shacklegeist
@@ -322,6 +323,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15865 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shades-form)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tor/81/shades-form) · oracle_id `682a6d77-e8cd-4bf2-b777-7793101e0fd3` · printing: TOR #81 (2002-02-04) · [rulings](https://api.scryfall.com/cards/449baad3-9a4a-4f5f-9e9f-02cc97ab71e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadewing Laureate
@@ -410,6 +412,7 @@ schema: 2
   > *Gnolls make offerings to sinister forces in the shadow-drenched chasms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #436 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/S.md#shadowblood-ridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/296/shadowblood-ridge) · oracle_id `15687ee3-3cdb-4a8f-a726-46b73bceb792` · printing: DSC #296 (2024-09-27) · [rulings](https://api.scryfall.com/cards/d7af1d6b-ff13-4886-a212-4a6e09153475/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowborn Apostle
@@ -425,6 +428,7 @@ schema: 2
   - *2013-07-01* — Shadowborn Apostle's first ability lets you ignore only the "four-of" rule. It doesn't let you ignore format legality.
   - *2013-07-01* — You don't have to sacrifice the Shadowborn Apostle whose ability you activated. It can be six other Shadowborn Apostles.
   - *2013-07-01* — You sacrifice the six creatures when you activate the ability. You can't respond to that ability by activating the ability of one of the other Shadowborn Apostles you just sacrificed.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadowborn-apostle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/89/shadowborn-apostle) · oracle_id `595a15f0-77f3-4544-8acc-10630e12cc14` · printing: 2X2 #89 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowborn Demon
@@ -549,6 +553,7 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadowgrange-archfiend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/22/shadowgrange-archfiend) · oracle_id `8f3705ff-e8e5-48e7-ab68-df6849d78867` · printing: VOC #22 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Guildmage
@@ -589,6 +594,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shadowheart-dark-justiciar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/146/shadowheart-dark-justiciar) · oracle_id `180919a5-67b2-473a-9b90-a828bdc2477c` · printing: CLB #146 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow in the Warp
@@ -644,6 +650,7 @@ schema: 2
 - **Keywords:** Fear
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5670 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadowmage-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/240/shadowmage-infiltrator) · oracle_id `3a6f886b-2043-47e9-9c0f-f7913a6fa67d` · printing: OTC #240 (2024-04-19) · [rulings](https://api.scryfall.com/cards/2ac920d7-013f-40ad-b79f-0bb59062d42a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadowmoor Draw Spell
@@ -688,6 +695,7 @@ schema: 2
   - *2005-10-01* — Effects that instruct you to reveal or look at cards from the top of you library will still work. Only effects that use the word "search" are affected.
   - *2005-10-01* — If an effect says "Search your library . . . then shuffle your library," you shuffle you libraries even though you can't search.
   - *2005-10-01* — If an effect says "You may search your library . . . If you do, shuffle your library" or "You may search your library . . . then shuffle your library," you can't choose to search, so you won't shuffle.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#shadow-of-doubt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/253/shadow-of-doubt) · oracle_id `b4b724bb-4c1c-4002-8eb8-bc8dd3f88e62` · printing: RAV #253 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of Mortality
@@ -703,6 +711,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4754 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — In a Two-Headed Giant game, your starting life total is the life total your team started at, and your current life total is your team's current life total.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shadow-of-mortality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/94/shadow-of-mortality) · oracle_id `45378874-aa51-4bb6-a161-be336c164778` · printing: SNC #94 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Enemy
@@ -718,6 +727,7 @@ schema: 2
   - *2023-06-16* — Shadow of the Enemy uses a new template indicating that you may spend mana as though it were mana of any type to cast the exiled cards. The six types of mana are white, blue, black, red, green, and colorless.
   - *2023-06-16* — Snow mana is not a type of mana. Shadow of the Enemy won't let you pay a snow cost using mana produced by a nonsnow source.
   - *2023-06-16* — You pay all costs and follow all normal timing rules for spells cast this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadow-of-the-enemy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/190/shadow-of-the-enemy) · oracle_id `4f0c72ff-cd93-46a6-8649-2cd9ce8b8625` · printing: HOC #190 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Goblin
@@ -747,6 +757,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — If you discard a card with madness but don’t cast it, Shadow of the Grave can find it in your graveyard. If you do cast that card, Shadow of the Grave can’t find it in your graveyard.
   - *2017-04-18* — Shadow of the Grave returns to your hand all cards that you discarded for any reason—a card you cycled, cards you discarded to an opponent’s Unburden, and a card you discarded to cast Tormenting Voice all count.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shadow-of-the-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/107/shadow-of-the-grave) · oracle_id `f33d1132-064d-42f1-8814-95d27fde8bf8` · printing: AKH #107 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow of the Second Sun
@@ -840,6 +851,7 @@ schema: 2
   > *Backstabbing is common within demonic cults. So are front- and side-stabbing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11340 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shadow-rite-priest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/106/shadow-rite-priest) · oracle_id `cf42a7e3-71ee-40b8-a6ca-0368c746e128` · printing: DMU #106 (2022-09-09) · [rulings](https://api.scryfall.com/cards/c9e43116-a489-4557-a47f-623d915a2b79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Slice
@@ -912,6 +924,7 @@ schema: 2
   - *2020-01-24* — Because damage remains marked on a creature until the damage is removed as the turn ends, damage previously dealt to a creature with indestructible may cause it to be destroyed if Shadowspear's second ability resolves during that turn.
   - *2020-01-24* — If a permanent enters the battlefield under an opponent's control with hexproof or indestructible after Shadowspear's second ability resolves, it won't lose that ability unless you activate Shadowspear's second ability again. The same is true if an opponent's permanent gains indestructible or hexproof after Shadowspear's second ability resolves.
   - *2020-01-24* — You can activate Shadowspear's second ability whether or not it's equipped to a creature.
+- **Referenced in:** 6 pages (3 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shadowspear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/236/shadowspear) · oracle_id `8b27326f-e7b8-4a4d-b589-df459246d19a` · printing: THB #236 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadow Stinger
@@ -1031,6 +1044,7 @@ schema: 2
 - **Keywords:** Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #576 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadowy-backstreet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/268/shadowy-backstreet) · oracle_id `216a2a92-9ca3-4ca3-8af7-686c13b04290` · printing: MKM #268 (2024-02-09) · [rulings](https://api.scryfall.com/cards/69c1b656-1d67-499c-bf0f-417682a86c7d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shadrix Silverquill
@@ -1049,6 +1063,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — You can target a player with the third mode even if they control no creatures.
   - *2021-04-16* — You may choose exactly zero modes or two modes. You can't choose only one mode. If you choose two modes, you choose which two and the target players as you put the triggered ability on the stack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shadrix-silverquill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/330/shadrix-silverquill) · oracle_id `2143f413-7baa-4fd6-a7ca-32f52bfa553f` · printing: SOC #330 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shady Informant
@@ -1169,6 +1184,7 @@ schema: 2
   - *2004-10-04* — Events in a Shahrazad sub-game do not normally trigger abilities in the main game. And continuous effects in the main game do not carry over into the sub-game.
   - *2004-10-04* — You randomly chose which player chooses to go first or draw first.
   - *2007-07-15* — At the end of a subgame, each player puts all cards they own that are in the subgame into their library in the main game, then shuffles them. This includes cards in the subgame’s Exile zone.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#shahrazad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/10/shahrazad) · oracle_id `fc04f621-338b-4d4c-bf57-5e5a00d990f0` · printing: ARN #10 (1993-12-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shahrazad and Sindbad
@@ -1243,6 +1259,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4136 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shalai-and-hallar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/10/shalai-and-hallar) · oracle_id `e7604cd9-d00d-4957-82c9-46a7cdb88209` · printing: MOC #10 (2023-04-21) · [rulings](https://api.scryfall.com/cards/80804f25-efc3-44a2-bbae-9a97fec98009/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shalai's Acolyte
@@ -1279,6 +1296,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1138 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#shalai-voice-of-plenty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/130/shalai-voice-of-plenty) · oracle_id `a0c47ab6-dfb4-46ee-a3f7-9e1521b4bb4b` · printing: TDC #130 (2025-04-11) · [rulings](https://api.scryfall.com/cards/53876046-cdb8-4157-96cd-7832d3ad2549/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaleskin Bruiser
@@ -1321,6 +1339,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10132 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Only exiles the creature if the creature is still on the battlefield at the beginning of the end step.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#shallow-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/141/shallow-grave) · oracle_id `9843d8a6-bcbf-40c2-8c41-316e97db9c62` · printing: MIR #141 (1996-10-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman en-Kor
@@ -1353,6 +1372,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #369 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — After you draw cards while Shamanic Revelation is resolving, nothing else can happen before you gain the appropriate amount of life. Notably, abilities that trigger when you draw cards won't be put onto the stack until after you've gained life.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/S.md#shamanic-revelation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/311/shamanic-revelation) · oracle_id `d1d171de-1c6d-4fb9-817a-9c689c709f3d` · printing: NCC #311 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman of Forgotten Ways
@@ -1415,6 +1435,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4557 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — Count the number of Elves you control as Shaman of the Pack’s ability resolves, including Shaman of the Pack if it’s still on the battlefield, to determine how much life is lost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shaman-of-the-pack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/92/shaman-of-the-pack) · oracle_id `39c7d2cc-4fd1-4f1a-be1a-a6ae56d2356d` · printing: KHC #92 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shaman's Trance
@@ -1507,6 +1528,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3209 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shambling-ghast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/119/shambling-ghast) · oracle_id `e5e6229a-3422-4afd-9a87-86daa2d31d3a` · printing: AFR #119 (2021-07-23) · [rulings](https://api.scryfall.com/cards/d96198a7-dd19-4940-bf8f-23135011fc84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shambling Ghoul
@@ -1596,6 +1618,7 @@ schema: 2
   - *2019-10-04* — A permanent that's both an artifact and an enchantment is only counted once.
   - *2019-10-04* — As long as Shambling Suit is on the battlefield, its ability will count itself, so it'll be at least 1/3.
   - *2019-10-04* — The ability that defines Shambling Suit's power works in all zones, not just the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shambling-suit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/230/shambling-suit) · oracle_id `862b777a-4816-4a3e-be8d-ddfcb72268e8` · printing: ELD #230 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shambling Swarm
@@ -1627,6 +1650,7 @@ schema: 2
   - *2015-08-25* — Multiple instances of lifelink on the same creature are redundant. Activating the last ability more than once won't cause you to gain additional life if Shambling Vent deals damage.
   - *2015-08-25* — This land is colorless until the last ability gives it colors.
   - *2015-08-25* — When a land becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shambling-vent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/914/shambling-vent) · oracle_id `4725abd4-06bc-464a-bc5b-c9e0f71ec079` · printing: CLB #914 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shameless Charlatan
@@ -1652,6 +1676,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — The copy effect doesn't have a duration. It lasts until the commander leaves the battlefield, though another copy effect with a later timestamp (perhaps from a new activation of the ability granted by Shameless Charlatan) would override the effect for as long as it's active.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shameless-charlatan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/96/shameless-charlatan) · oracle_id `a9b08567-398a-46ba-b0e8-ade65fec83c6` · printing: CLB #96 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shang-Chi and the Ten Rings
@@ -1695,6 +1720,7 @@ schema: 2
   > *"Many underestimate me because I carry no weapon. But I am the weapon."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4850 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shang-chi-master-of-kung-fu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/187/shang-chi-master-of-kung-fu) · oracle_id `700ef9c8-698b-45f7-a1fd-dec74e553224` · printing: MSH #187 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2edbb62f-ad45-4422-850b-68dcc18b4c73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shanid, Sleepers' Scourge
@@ -1711,6 +1737,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — A legendary land entering the battlefield without being played does not cause Shanid’s last ability to trigger.
   - *2022-09-09* — If casting a legendary spell causes Shanid’s last ability to trigger, that ability goes on the stack above the spell that caused it to trigger and resolves first. It resolves even if that spell is countered or otherwise left the stack.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shanid-sleepers-scourge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/4/shanid-sleepers-scourge) · oracle_id `70e03c58-194f-443d-ab64-646dd14d2f53` · printing: DMC #4 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shanna, Purifying Blade
@@ -2016,6 +2043,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — If combat damage is dealt to players by multiple artifact creatures you control (including, perhaps, Sharding Sphinx itself), Sharding Sphinx's ability will trigger that many times. You'll get that many Thopter tokens. You'll get just one token per creature, no matter how much combat damage that creature dealt.
   - *2008-10-01* — The only difference between a colored artifact and a colorless artifact is, obviously, its color. Unlike most artifacts, a colored artifact requires colored mana to cast. Also unlike most artifacts, a colored artifact has a color in all zones. It will interact with cards that care about color. Other than that, a colored artifact behaves just like any other artifact. It will interact as normal with any card that cares about artifacts, such as Shatter or Arcbound Ravager.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/S.md#sharding-sphinx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/235/sharding-sphinx) · oracle_id `9ebc0144-fc45-4de7-b3d8-ef8cf2e211ae` · printing: MOC #235 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shardless Agent
@@ -2037,6 +2065,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#shardless-agent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/292/shardless-agent) · oracle_id `2afbaa9a-c171-4a8b-90f3-5250d8498356` · printing: MH2 #292 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shardless Outlander
@@ -2068,6 +2097,7 @@ schema: 2
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5411 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#shardmages-rescue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/29/shardmages-rescue) · oracle_id `406247ee-2b86-4068-b5fa-65cdc83a82f4` · printing: DSK #29 (2024-09-27) · [rulings](https://api.scryfall.com/cards/aed0cafa-d701-4e1f-9773-abcf817c244c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shard of Broken Glass
@@ -2155,6 +2185,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — In a Two-Headed Giant game, only creatures you control trigger the ability and get the bonus, but your teammate's attacking creatures are included in the calculation of those bonuses.
   - *2008-04-01* — This ability counts creatures, not creature types. For example, if you attack with five creatures — an Elf Shaman, an Elf Warrior, a Goblin Shaman, an Elemental, and a creature with all creature types — the ability will trigger five times. Those creatures will get +3/+0, +2/+0, +2/+0, +1/+0, and +4/+0, respectively.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/S.md#shared-animosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/231/shared-animosity) · oracle_id `a27445db-33f2-4571-98b5-83206b797484` · printing: LCC #231 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Discovery
@@ -2197,6 +2228,7 @@ schema: 2
   > *—Huu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1006 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#shared-roots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/196/shared-roots) · oracle_id `9e0fd3bf-f47a-4f06-8ff1-73f6bf5d1e03` · printing: TLA #196 (2025-11-21) · [rulings](https://api.scryfall.com/cards/e7847ba5-e85e-417f-96c0-aef2e6f83994/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Summons
@@ -2210,6 +2242,7 @@ schema: 2
   > *—Vivien Reid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4019 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shared-summons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/193/shared-summons) · oracle_id `c2c9dbd0-2062-4ee1-b32e-8eeacd95589c` · printing: M20 #193 (2019-07-12) · [rulings](https://api.scryfall.com/cards/1e1e49b6-ed0f-42f5-af22-6f4aa23ce4ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shared Trauma
@@ -2323,6 +2356,7 @@ schema: 2
   - *2020-04-17* — Triggered abilities from cycling a card and the cycling ability itself aren't spells. Effects that interact with spells (such as that of Cancel) won't affect them.
   - *2020-04-17* — You can choose 0 as the value of X in Shark Typhoon's cycling cost. The last ability will trigger, and you'll create a 0/0 blue Shark creature token with flying. Unless something else is raising its toughness, the Shark will then immediately die.
   - *2020-04-17* — You can cycle a card even if it has a triggered ability from cycling that won't have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/S.md#shark-typhoon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/44/shark-typhoon) · oracle_id `8c0520fa-276b-4d21-b4a9-dce1fce59f6b` · printing: FRC #44 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sharlayan, Nation of Scholars
@@ -2430,6 +2464,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14104 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Regenerating artifacts can regenerate from this.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shatter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/114/shatter) · oracle_id `84d32e68-72b9-432d-a023-7bc6a26b8ad0` · printing: RIX #114 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatter Assumptions
@@ -2459,6 +2494,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13372 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#shattered-acolyte)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/31/shattered-acolyte) · oracle_id `57f58d52-0014-4cac-94fc-668063cc147a` · printing: SOS #31 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dc0517ca-b271-49a1-a286-c20f4e5b9309/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Angel
@@ -2474,6 +2510,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6720 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shattered-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/206/shattered-angel) · oracle_id `e339c6cb-c75d-4dd4-8c1a-78f844983242` · printing: MOC #206 (2023-04-21) · [rulings](https://api.scryfall.com/cards/58e4fb9b-76bc-4daf-b0a3-4bf62757902d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Crypt
@@ -2531,6 +2568,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1962 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#shattered-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/390/shattered-landscape) · oracle_id `7fbad3f2-66f6-4e3a-b9e0-1ddbcd94d42a` · printing: TDC #390 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f8373e5a-94bb-4aa0-bd09-13a01e0cb02a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Perception
@@ -2566,6 +2604,7 @@ schema: 2
   > *—Embrose, dean of shadow*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #261 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shattered-sanctum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/260/shattered-sanctum) · oracle_id `c854ecb0-cc60-4c48-a9aa-7f2348a7a8c6` · printing: SOS #260 (2026-04-24) · [rulings](https://api.scryfall.com/cards/5aa0c810-3b7d-4661-979e-e84fb327742d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Seraph
@@ -2582,6 +2621,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If Shattered Seraph is removed from exile without being cast, the land will continue to have this ability.
   - *2022-04-29* — You may use the mana ability Shattered Seraph grants to the land while casting Shattered Seraph from exile.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shattered-seraph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/221/shattered-seraph) · oracle_id `92eae6af-b915-4eb8-93c4-527f732bb712` · printing: SNC #221 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shattered Wings
@@ -2648,6 +2688,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — As the replicate triggered ability resolves, you'll copy Shattering Spree for each time you paid its replicate cost, even if the original spell is no longer on the stack at that time (perhaps because it was countered).
   - *2024-01-12* — The copies that replicate creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#shattering-spree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/75/shattering-spree) · oracle_id `fe725b27-49ef-41bc-91f9-9cd9871ad863` · printing: GPT #75 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatterskull Charger
@@ -2757,6 +2798,7 @@ schema: 2
   > *From a marvel of magical mechanization to a smoking stack of scrap in one easy step.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17136 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shatterstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/229/shatterstorm) · oracle_id `96ce2403-4607-440a-92ae-80aceb458c5d` · printing: 10E #229 (2007-07-13) · [rulings](https://api.scryfall.com/cards/f7a1aa93-26d1-40b0-82d8-414f56a36337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shatter the Oath
@@ -2841,6 +2883,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21155 · Game Changer: no · Can be commander: Yes (legendary creature) · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shauku-endbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/142/shauku-endbringer) · oracle_id `49478593-29ff-4e5a-b1e8-6462c2d6176d` · printing: MIR #142 (1996-10-08) · [rulings](https://api.scryfall.com/cards/06d94b21-7568-4e5c-a8ec-ff5bb48a4f36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shauku's Minion
@@ -2909,4 +2952,5 @@ schema: 2
   - *2024-07-05* — If a permanent enters the battlefield under an opponent’s control with hexproof, indestructible, protection, shroud, and/or ward after Shay Cormac’s first ability resolves, it won’t lose that ability until you activate Shay Cormac’s first ability again. The same is true if an opponent’s permanent gains one of those abilities after Shay Cormac’s first ability resolves.
   - *2024-07-05* — Shay Cormac’s last ability looks for any bounty counter on a creature, not just one from that Shay Cormac. For example, if players A and B each control a Shay Cormac and player A has put a bounty counter on player C’s creature, both players A and B will put two +1/+1 counters on their respective Shay Cormacs when that creature dies.
   - *2024-07-05* — Shay Cormac’s second ability resolves before the spell or ability that caused it to trigger. It resolves even if that spell or ability is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shay-cormac)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/65/shay-cormac) · oracle_id `95892392-2ed3-4c1a-bbaa-4083f526769c` · printing: ACR #65 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

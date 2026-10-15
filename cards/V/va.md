@@ -208,6 +208,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Vaan's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2025-06-06* — You cast the exiled card while Vaan's first ability is still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/V.md#vaan-street-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/168/vaan-street-thief) · oracle_id `24fd1f47-bb15-45c6-a7b1-ba8eb3bb8b1d` · printing: FIN #168 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vacuumelt
@@ -256,6 +257,7 @@ schema: 2
   - *2021-09-24* — If a triggered ability triggers whenever day becomes night or night becomes day, it only triggers if it was already either day/night and becomes the other. It does not trigger when the game becomes day or night for the first time.
   - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
   - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vadrik-astral-archmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/248/vadrik-astral-archmage) · oracle_id `a9ab17ce-ba07-4ce8-99f9-9c4c633957f7` · printing: MID #248 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vadrok, Apex of Thunder
@@ -273,6 +275,7 @@ schema: 2
   - *2020-04-17* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2020-04-17* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, such as that of Swallow Whole, those must be paid to cast the card.
   - *2020-04-17* — If you wish to cast the target card, you do so as part of the resolution of Vadrok’s ability. You can’t wait to cast it later. Timing permissions based on a card’s type are ignored.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vadrok-apex-of-thunder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/214/vadrok-apex-of-thunder) · oracle_id `775c41fa-2316-43c9-af34-ac9c9b0db7e2` · printing: IKO #214 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vaevictis Asmadi
@@ -306,6 +309,7 @@ schema: 2
   - *2018-07-13* — If any player controls no permanents, Vaevictis's ability won't have sufficient legal targets, so it's removed from the stack without any effect.
   - *2018-07-13* — Vaevictis's triggered ability resolves during the declare attackers step, before blockers are chosen. A creature targeted by its ability won't be around to block, and creatures put onto the battlefield with its ability may be able to do so.
   - *2018-07-13* — You must target one of your permanents to sacrifice as well.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vaevictis-asmadi-the-dire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/225/vaevictis-asmadi-the-dire) · oracle_id `c42ce2e9-4dfe-468a-8f41-49e187cb91d4` · printing: M19 #225 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vagrant Plowbeasts
@@ -350,6 +354,7 @@ schema: 2
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2020-09-25* — You choose how many cards to put on the bottom of your library as Valakut Awakening resolves.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/V.md#valakut-awakening--valakut-stoneforge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/174/valakut-awakening-valakut-stoneforge) · oracle_id `ff0ab867-b710-4b1a-baed-95fc3cf68f79` · printing: ZNR #174 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valakut Exploration
@@ -371,6 +376,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/V.md#valakut-exploration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/175/valakut-exploration) · oracle_id `d6861319-ae16-4e6c-af87-a264f667d694` · printing: ZNR #175 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valakut Fireboar
@@ -388,6 +394,7 @@ schema: 2
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature may become lethal if you switch its power and toughness during that turn.
   - *2021-03-19* — Effects that switch a creature's power and toughness apply after all other effects, regardless of when those effects began to apply. For instance, if you target a 1/2 creature then give it +2/+0 later in the turn, it's a 2/3 creature, not a 4/1 creature.
   - *2021-03-19* — Switching a creature's power and toughness twice (or any even number of times) effectively returns the creature to the power and toughness it had before any switches.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#valakut-fireboar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/170/valakut-fireboar) · oracle_id `126bf98a-64d0-4de2-9bf4-f59d36ef6e25` · printing: ROE #170 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valakut Invoker
@@ -420,6 +427,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#valakut-predator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/160/valakut-predator) · oracle_id `b86a5d90-0820-46cb-b43c-c03a423a3a9f` · printing: BFZ #160 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valakut, the Molten Pinnacle
@@ -436,6 +444,7 @@ schema: 2
   - *2009-10-01* — If multiple Mountains enter under your control at the same time, Valakut's second ability could trigger that many times. Each ability takes into consideration the other Mountains that entered at the same time as the one that caused it to trigger.
   - *2009-10-01* — Valakut, the Molten Pinnacle's triggered ability has an "intervening 'if' clause." That means (1) the ability won't trigger at all unless, at the time a Mountain enters under your control, you control five or more Mountains other than that new one, and (2) the ability will do nothing if you control fewer than five Mountains other than that new one by the time it resolves.
   - *2009-10-01* — You target a permanent or player when the ability triggers. You decide whether to have Valakut deal damage to that permanent or player as the ability resolves.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/V.md#valakut-the-molten-pinnacle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/228/valakut-the-molten-pinnacle) · oracle_id `1bc44216-4e06-4f66-89b7-5c327004604e` · printing: ZEN #228 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valduk, Keeper of the Flame
@@ -452,6 +461,7 @@ schema: 2
   - *2022-12-08* — If Valduk leaves the battlefield after its ability has resolved, the tokens are still exiled at the beginning of the next end step.
   - *2022-12-08* — If Valduk leaves the battlefield after its ability has triggered but before it resolves, use the number of Auras and Equipment that were last attached to it before it left the battlefield to determine how many tokens to create.
   - *2022-12-08* — Valduk counts all Auras and Equipment attached to it, not only Auras and Equipment you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#valduk-keeper-of-the-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/266/valduk-keeper-of-the-flame) · oracle_id `102b0a65-f2e0-4ef3-a9dc-4a85557b852e` · printing: CMM #266 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valentina Allegra de Fontaine
@@ -625,6 +635,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — The spells you cast using the permission granted by Valgavoth's last ability have an alternative cost that's paying life equal to their mana value. You can't choose to pay their mana cost and may not pay any other alternative costs. You may still pay for additional costs, such as kicker costs, and you may pay mana for those as normal. If the spell has mandatory additional costs, you must pay those.
   - *2024-09-20* — You follow all timing rules for spells cast and lands played using the permission granted by Valgavoth's last ability.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/V.md#valgavoth-terror-eater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/120/valgavoth-terror-eater) · oracle_id `cae3ec72-436d-4086-9dcb-17b3d92ad5c4` · printing: DSK #120 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valiant Changeling
@@ -762,6 +773,7 @@ schema: 2
   - *2021-02-05* — While resolving Tibalt's last ability, you'll add {R}{R}{R} even if you don't exile any cards.
   - *2021-02-05* — You can activate Valki's ability multiple times in response to one another. This may briefly allow Valki to copy different creature cards. You'll get priority to cast spells or activate abilities in between each of Valki's activated abilities.
   - *2021-02-05* — You don't choose which creature card exiled with Valki that Valki will become a copy of until that ability is resolving. (In many cases, the value you chose for X will give away your intentions.)
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#valki-god-of-lies--tibalt-cosmic-impostor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/114/valki-god-of-lies-tibalt-cosmic-impostor) · oracle_id `907ae517-22d5-4ac7-bc3a-3f4d5eaeeb57` · printing: KHM #114 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valko Indorian
@@ -805,6 +817,7 @@ schema: 2
 - **Keywords:** Flying, Surveil, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12869 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#valkyrie-aerial-unit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/84/valkyrie-aerial-unit) · oracle_id `1333d690-a6dc-4ef8-8c57-2ba16727c0a5` · printing: FIN #84 (2025-06-13) · [rulings](https://api.scryfall.com/cards/b40a055f-ea66-44d4-b058-a328a3d10994/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valkyrie Harbinger
@@ -824,6 +837,7 @@ schema: 2
   - *2021-02-05* — If you haven't gained 4 life by the time an end step begins, Valkyrie Harbinger's ability won't trigger at all.
   - *2021-02-05* — Valkyrie Harbinger's ability looks at how much life you've gained in the turn, even if it wasn't on the battlefield when you gained life. It doesn't care if you also lost life, even if you lost more life than you gained.
   - *2021-02-05* — You create just one Angel token, no matter how much life you've gained past 4 life.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/V.md#valkyrie-harbinger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/374/valkyrie-harbinger) · oracle_id `18a5e71e-eb75-4ac7-bedd-2220aaa24f78` · printing: KHM #374 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valkyrie's Call
@@ -918,6 +932,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Valley Floodcaller’s second ability applies to noncreature cards in any zone, provided something is allowing you to cast them. For example, you could cast a sorcery with flashback as though it had flash.
   - *2024-07-26* — Valley Floodcaller’s second ability has no effect on abilities that you can activate “any time you could cast a sorcery.”
+- **Referenced in:** 10 pages (5 decks · 4 edh guides · 1 card data) → [reverse index](../../references/V.md#valley-floodcaller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/79/valley-floodcaller) · oracle_id `4879c8f0-8832-4290-bc71-9838940f75cd` · printing: BLB #79 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valleymaker
@@ -989,6 +1004,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#valley-rally)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/159/valley-rally) · oracle_id `5b919920-b1b6-499b-a7fe-c630778a7831` · printing: BLB #159 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valley Rannet
@@ -1106,6 +1122,7 @@ schema: 2
   > *—T'Challa, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2586 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/V.md#valorous-stance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/145/valorous-stance) · oracle_id `1f938353-9081-4dc1-b8e7-d18ece038bd4` · printing: MSC #145 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f726d332-6961-403d-83f8-25c997f4dffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valorous Steed
@@ -1136,6 +1153,7 @@ schema: 2
 - **Keywords:** Flying, Lifelink, First strike, Crew, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7133 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#valors-flagship)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/35/valors-flagship) · oracle_id `a3023de2-61e7-4f46-aa4a-09d08ee7d939` · printing: DFT #35 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8af1dddf-6c95-448b-acc8-df5a99202e9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Valor Singer
@@ -1165,6 +1183,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Value Town follows all of the normal rules of adventurer cards, except instead of casting it from exile while it’s “on an adventure,” you play it as you would normally play a land, following all normal restrictions. You can only play Value Town from exile if it’s “on an adventure,” it’s currently a time at which you could otherwise play a land, and you have a land play available.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/V.md#value-town--take-a-trip-to)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/621/value-town-take-a-trip-to) · oracle_id `f4b47eff-88b0-49c0-b92a-286d083652f8` · printing: MB2 #621 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vamping Vampire
@@ -1235,6 +1254,7 @@ schema: 2
   > {TK}{TK}{TK} — 6/3
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vampire-champion-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/43/vampire-champion-fury) · oracle_id `be19d5ef-15ed-422d-8799-63eabfdbaae3` · printing: SUNF #43 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a4475054-b272-4f05-b626-b7b5090690d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Charmseeker
@@ -1253,6 +1273,7 @@ schema: 2
   - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
   - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
   - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/V.md#vampire-charmseeker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/78/vampire-charmseeker) · oracle_id `993bc179-4e24-4161-866f-5e146cbdd2f5` · printing: BBD #78 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Cutthroat
@@ -1384,6 +1405,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1755 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/V.md#vampire-nighthawk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/757/vampire-nighthawk) · oracle_id `feb244f8-bcb1-44cf-9940-2719221a7309` · printing: FDN #757 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7aff07f9-9528-4149-9af0-f4e3c66c9dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Noble
@@ -1432,6 +1454,7 @@ schema: 2
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3307 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/V.md#vampire-of-the-dire-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/120/vampire-of-the-dire-moon) · oracle_id `5a938371-8428-48e3-85ed-6a84a39b29c6` · printing: M20 #120 (2019-07-12) · [rulings](https://api.scryfall.com/cards/b3c185b9-5d97-4a5a-af0b-8b9c44dcd235/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Opportunist
@@ -1560,6 +1583,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5353 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — Vampire Socialite's last two abilities care whether an opponent lost life this turn, not how their life total changed. For example, an opponent who gained 2 life and lost 1 life in the same turn still lost life.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/V.md#vampire-socialite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/249/vampire-socialite) · oracle_id `91a45e96-2a93-4c48-b472-11904d2b856d` · printing: MID #249 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampire Soulcaller
@@ -1690,6 +1714,7 @@ schema: 2
   > *It's not always gold the thief is after.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31422 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vampiric-feast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/114/vampiric-feast) · oracle_id `1980ca2e-a415-4de1-ac30-7055507e82a2` · printing: POR #114 (1997-05-01) · [rulings](https://api.scryfall.com/cards/19500ffb-bfad-46d6-8a6e-d134405959c0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampiric Fury
@@ -1786,6 +1811,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #115 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Referenced in:** 48 pages (40 decks · 6 edh guides · 2 card data) → [reverse index](../../references/V.md#vampiric-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/108/vampiric-tutor) · oracle_id `ededbdae-d9dc-4206-9335-d7158f2d7700` · printing: DMR #108 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vampirism
@@ -1843,6 +1869,7 @@ schema: 2
   - *2024-01-12* — If you are instructed to cast a spell with overload "without paying its mana cost," you can't choose to pay its overload cost instead.
   - *2024-01-12* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-01-12* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 16 pages (12 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/V.md#vandalblast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/168/vandalblast) · oracle_id `3567c3c8-b3c7-45b7-935b-b1fdbc973720` · printing: MSC #168 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vandalize
@@ -1876,6 +1903,7 @@ schema: 2
   - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won’t trigger when a copy of a spell is created on the stack or when a spell’s targets are changed to include a creature with a heroic ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vanguard-of-brimaz)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/29/vanguard-of-brimaz) · oracle_id `4a4f6e85-df16-49a4-8fc6-149a28c2cb42` · printing: BNG #29 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanguard of the Restless
@@ -1922,6 +1950,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If you gain life during a turn before Vanguard Seraph is on the battlefield, its last ability won't trigger that turn even if you gain life again later in the turn.
   - *2024-11-08* — Vanguard Seraph's last ability triggers just once for your first life-gaining event on each turn, no matter how much life you gain.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/V.md#vanguard-seraph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/28/vanguard-seraph) · oracle_id `3250466f-82a4-45e1-9722-ff247ddf8c15` · printing: FDN #28 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanguard's Shield
@@ -1955,6 +1984,7 @@ schema: 2
   - *2022-10-07* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
   - *2022-10-07* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
   - *2022-10-07* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vanguard-suppressor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/27/vanguard-suppressor) · oracle_id `b7c48f87-bdef-4cef-a1c4-5b4d0b7a26cd` · printing: 40K #27 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanille, Cheerful l'Cie
@@ -1987,6 +2017,7 @@ schema: 2
   - *2025-06-06* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new untapped object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
   - *2025-06-06* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2025-06-06* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/V.md#vanille-cheerful-lcie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/211/vanille-cheerful-lcie) · oracle_id `577725ae-290f-4081-8352-3317521a096f` · printing: FIN #211 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanish from Sight
@@ -2001,6 +2032,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21077 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target nonland permanent is an illegal target when Vanish from Sight tries to resolve, it won't resolve and none of its effects will happen. You won't surveil.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vanish-from-sight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/82/vanish-from-sight) · oracle_id `1056b27c-125c-4daa-a0c8-533efc9ccc32` · printing: DSK #82 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanishing
@@ -2042,6 +2074,7 @@ schema: 2
   > *Faced with a blast that would level not only New Phyrexia, but also a dozen innocent worlds, Elspeth consigned it—and herself—to the nothingness in between.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15200 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/V.md#vanish-into-eternity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/36/vanish-into-eternity) · oracle_id `c14e422b-6412-45ce-8e82-d47ba61557a0` · printing: ONE #36 (2023-02-10) · [rulings](https://api.scryfall.com/cards/8f0b3308-9c0b-4461-9094-38deec20e1bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanish into Memory
@@ -2057,6 +2090,7 @@ schema: 2
   - *2017-03-14* — If the creature exiled with Vanish into Memory isn't a creature card (for example, a crewed Vehicle), that card will still be returned to the battlefield, but not as a creature. Since the card returned to the battlefield has no toughness, you discard no cards.
   - *2017-03-14* — If the creature exiled with Vanish into Memory never returns to the battlefield (because it was a token creature, for example), you don't discard any cards.
   - *2017-03-14* — Vanish into Memory cares about the creature's power just before it left the battlefield and its toughness just after it returns to the battlefield. For example, if you target a 2/2 creature with two +1/+1 counters on it, you'll draw four cards, then when it returns to the battlefield without any counters on it, you'll discard two cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vanish-into-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/196/vanish-into-memory) · oracle_id `d3beb624-f589-4ed5-97a0-11ad61481250` · printing: AFC #196 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanishment
@@ -2097,6 +2131,7 @@ schema: 2
   - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-02-02* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it's a creature card.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/V.md#vannifar-evolved-enigma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/241/vannifar-evolved-enigma) · oracle_id `e8aa0d7d-e5f6-4d66-bdc1-315483e1b256` · printing: MKM #241 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanquish
@@ -2142,6 +2177,7 @@ schema: 2
   - *2021-03-19* — The choice of creature type is made as Vanquisher's Banner enters the battlefield. Players can't respond to this choice. The bonus starts applying immediately.
   - *2021-03-19* — The last ability of Vanquisher's Banner resolves before the spell that caused it to trigger. The ability will resolve even if the creature spell is countered.
   - *2021-03-19* — To choose a creature type, you must choose an existing creature type, such as Fungus or Sliver. You can't choose multiple creature types, such as Fungus Sliver. Card types such as artifact can't be chosen, nor can subtypes that aren't creature types, such as Jace, Vehicle, or Treasure.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/V.md#vanquishers-banner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/316/vanquishers-banner) · oracle_id `8cf38025-5821-45a0-9483-266353b7e82d` · printing: LCC #316 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanquish the Foul
@@ -2171,6 +2207,7 @@ schema: 2
   > *—Shuri, the Black Panther*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #788 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/V.md#vanquish-the-horde)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/146/vanquish-the-horde) · oracle_id `a332e80a-dc51-4dc6-bc85-e114a1c6fdb8` · printing: MSC #146 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f392782b-7464-4617-b421-6b5d0e2880fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vanquish the Weak
@@ -2256,6 +2293,7 @@ schema: 2
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You may target a creature that is already tapped with Croaking Curse. If the target creature is already tapped as it resolves, you will still create a Cursed Role token attached to it.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vantress-transmuter--croaking-curse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/75/vantress-transmuter-croaking-curse) · oracle_id `89ae3475-9063-4700-a7bd-47d5dcd43a3b` · printing: WOE #75 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vaporkin
@@ -2330,6 +2368,7 @@ schema: 2
   - *2018-07-13* — Survivor is a creature type. Varchild's second ability affects any creatures your opponents control that happen to be Survivors, not just the Survivor tokens it creates. Similarly, its third ability affects all creatures that happen to be Survivors. A creature that's all creature types is a Survivor.
   - *2018-07-13* — The player who creates the Survivor tokens owns them, not Varchild's controller.
   - *2018-07-13* — Varchild's second ability isn't locked in as Survivor tokens are created. For example, if a player gains control of Varchild, that player's Survivor tokens may attack Varchild's former controller.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#varchild-betrayer-of-kjeldor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/28/varchild-betrayer-of-kjeldor) · oracle_id `26ae37ab-91f8-4113-beb0-1154f9b62d28` · printing: C18 #28 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Varchild's Crusader
@@ -2363,6 +2402,7 @@ schema: 2
   - *2004-10-04* — In a multiplayer game, you can put the Survivor tokens onto the battlefield under the control of different players.
   - *2007-09-16* — The rampage bonus is calculated only once per combat, when the triggered ability resolves. Adding or removing blockers later in combat won't change the bonus.
   - *2008-10-01* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if a permanent with "cumulative upkeep {1}" has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice the permanent.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/V.md#varchilds-war-riders)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/110/varchilds-war-riders) · oracle_id `258921f2-df26-4d8a-ad34-8f44d0158ae7` · printing: ME1 #110 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Variable Chaser // Arc of Fortune
@@ -2479,6 +2519,7 @@ schema: 2
   - *2021-02-05* — If a creature with a boast ability is put onto the battlefield attacking, it was never declared as an attacker. Its boast ability can't be activated that turn.
   - *2021-02-05* — If an effect adds additional combat phases to a turn and a creature with a boast ability attacks more than once during that turn, its boast ability can still be activated only once.
   - *2021-02-05* — If it's not your turn and you gain control of a creature with a boast ability after that creature attacked, you can activate that creature's boast ability if it hasn't been activated yet that turn.
+- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/V.md#varragoth-bloodsky-sire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/115/varragoth-bloodsky-sire) · oracle_id `68b41a04-8cb0-4edf-b488-a219494453ae` · printing: KHM #115 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vashta Nerada
@@ -2691,6 +2732,7 @@ schema: 2
   > {2}{B}, {T}, Remove four oil counters from this artifact: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2690 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/V.md#vat-of-rebirth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/113/vat-of-rebirth) · oracle_id `10c31317-71e8-42e0-85e0-3e64bd0c3dd3` · printing: ONE #113 (2023-02-10) · [rulings](https://api.scryfall.com/cards/20a961ea-0639-4f5d-8cf4-f909c59a4ae1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### V.A.T.S.
@@ -2790,6 +2832,7 @@ schema: 2
   - *2024-03-08* — The cards are milled all at once, which means abilities that trigger “whenever one or more nonland cards are milled” will trigger exactly once as long as at least one nonland card was milled.
   - *2024-03-08* — There is an inherent triggered ability associated with having rad counters. This triggered ability has no source and is controlled by the active player. The full text of this ability is “At the beginning of the precombat main phase of a player with rad counters, that player mills cards equal to the number of rad counters they have. For each nonland card milled this way, that player loses 1 life and removes one rad counter from themselves.”
   - *2024-03-08* — Use the number of rad counters among all players still in the game when Vault 12’s second chapter ability resolves to determine the value of X.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vault-12-the-necropolis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/51/vault-12:-the-necropolis) · oracle_id `bc9d75e7-1f64-4376-8e19-f6622ffbeb28` · printing: PIP #51 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault 13: Dweller's Journey
@@ -2867,6 +2910,7 @@ schema: 2
   - *2024-04-12* — If one or more static abilities that apply to a creature entering the battlefield change its power, those abilities are considered when determining whether or not Vaultborn Tyrant’s second ability triggers. The same is true for replacement effects that apply to it, such as entering the battlefield with one or more +1/+1 counters or entering the battlefield as a copy of another creature.
   - *2024-04-12* — Once Vaultborn Tyrant’s second ability has triggered, lowering the power of the creature or removing it from the battlefield won’t stop you from gaining life and drawing a card.
   - *2024-04-12* — When the token copy of Vaultborn Tyrant enters the battlefield, its second ability will trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/V.md#vaultborn-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/20/vaultborn-tyrant) · oracle_id `e8d0accc-b320-4c07-8a71-a09db860351e` · printing: BIG #20 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vaultbreaker
@@ -2897,6 +2941,7 @@ schema: 2
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29806 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vault-guardsman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/612/vault-guardsman) · oracle_id `0068f8c1-d1a2-4f7b-b39f-963acb2c023b` · printing: MSC #612 (2026-06-26) · [rulings](https://api.scryfall.com/cards/069eb83e-da10-4314-aa0a-35c4344e4e34/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vaultguard Trooper
@@ -2927,6 +2972,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/V.md#vault-of-champions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/436/vault-of-champions) · oracle_id `ebc5ac83-08d4-4d6b-b840-0c4ba71a38ab` · printing: CMM #436 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault of the Archangel
@@ -2943,6 +2989,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — Multiple instances of deathtouch or lifelink on the same creature are redundant.
   - *2011-01-22* — Vault of the Archangel's last ability affects only creatures you control when that ability resolves. It won't affect creatures that come under your control later in the turn.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/V.md#vault-of-the-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/410/vault-of-the-archangel) · oracle_id `eeaac65a-3480-475a-bb28-e6375d53f487` · printing: TDC #410 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault of Whispers
@@ -2955,6 +3002,7 @@ schema: 2
   > *Ish Sah, den of the warlord Geth, commander of countless nim.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #620 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/V.md#vault-of-whispers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/322/vault-of-whispers) · oracle_id `09496421-74e4-466a-9546-56f2a0c8eef4` · printing: DSC #322 (2024-09-27) · [rulings](https://api.scryfall.com/cards/e85e4098-f872-4aa4-a71a-208b6090be28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vault Plunderer
@@ -3057,6 +3105,7 @@ schema: 2
   - *2019-11-12* — If Vazal has a crew or equip ability, activating it won’t cause anything to happen.
   - *2019-11-12* — If an activated ability references the card it’s printed on by name, treat Vazal’s instance of that ability as though it referenced Vazal by name instead.
   - *2019-11-12* — If you’re fortunate enough to have two copies of Vazal in a Limited event, you can still put only one into your deck. The other remains in your sideboard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/V.md#vazal-the-compleat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/85/vazal-the-compleat) · oracle_id `6d69c0be-0fe0-4503-80b9-0365cb6aed41` · printing: CMB2 #85 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Vazi, Keen Negotiator

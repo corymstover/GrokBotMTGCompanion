@@ -135,6 +135,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — The second ability of Cid, Timeless Artificer also lets you ignore the "singleton" rule in formats like Commander.
   - *2025-06-06* — The second ability of Cid, Timeless Artificer lets you ignore the "four-of" rule in constructed play. It doesn't let you ignore format legality. For example, during a Magic: The Gathering—FINAL FANTASY Limited event, you can't add copies of Cid, Timeless Artificer to your deck from your personal collection.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cid-timeless-artificer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/216/cid-timeless-artificer) · oracle_id `87050537-99c9-4993-a770-4329b2e749e4` · printing: FIN #216 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Barrens
@@ -235,6 +236,7 @@ schema: 2
   > *—Azeworai, "The Lonely Giant"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14102 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cinder-giant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/93/cinder-giant) · oracle_id `3a8306ae-3162-4105-95f4-dacd10c7c051` · printing: WTH #93 (1997-06-09) · [rulings](https://api.scryfall.com/cards/de97c939-2c44-4c43-9d66-1087bcee692b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinder Glade
@@ -251,6 +253,7 @@ schema: 2
   - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
   - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
   - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#cinder-glade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/230/cinder-glade) · oracle_id `dfac0258-e148-4d7d-8ded-fc2466d9caa6` · printing: MSC #230 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cinderhaze Wretch
@@ -506,6 +509,7 @@ schema: 2
   > *The realms protected by druids of the Circle of Dreams are gleaming, fruitful places, where dream and reality blur together and the weary can find rest.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1112 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#circle-of-dreams-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/176/circle-of-dreams-druid) · oracle_id `1c857fa4-e823-494d-9ea4-7eb9e719c9b6` · printing: AFR #176 (2021-07-23) · [rulings](https://api.scryfall.com/cards/be6fdec0-a2c4-4da2-ae14-961185eaee66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Elders
@@ -551,6 +555,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2331 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#circle-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/92/circle-of-power) · oracle_id `2d41fd1f-4a98-45dd-a3c5-f7c5e0152109` · printing: FIN #92 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Art
@@ -563,6 +568,7 @@ schema: 2
   > {1}{W}: Return this enchantment to its owner's hand.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#circle-of-protection-art)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/6/circle-of-protection:-art) · oracle_id `d2b40c9a-e68a-415a-8112-b316b5be057b` · printing: UNH #6 (2004-11-19) · [rulings](https://api.scryfall.com/cards/edbdb5ed-2d8a-4c95-b0fd-f19ff82e1302/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Protection: Artifacts
@@ -646,6 +652,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — A source of damage is a permanent, a spell on the stack (including one that creates a permanent), or any object referred to by an object on the stack. A source doesn’t need to be capable of dealing damage to be a legal choice.
   - *2004-10-04* — Can be used even when there is no damage to prevent. It prevents the next damage (if any) from the source this turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#circle-of-protection-white)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/14/circle-of-protection:-white) · oracle_id `5f46f86a-9779-4ed3-99cb-76a03d380598` · printing: 8ED #14 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circle of Solace
@@ -735,6 +742,7 @@ schema: 2
   > *Inspired by industrious silkworms, its maker crafted it to restore the broken pieces of the world.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2264 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#circuit-mender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/242/circuit-mender) · oracle_id `1665ca9f-176d-40f1-a4e9-42da4f1236e9` · printing: NEO #242 (2022-02-18) · [rulings](https://api.scryfall.com/cards/defaeb68-3f8a-4740-b13f-8c71c7e9c8b4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circuitous Route
@@ -767,6 +775,7 @@ schema: 2
   - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#circuits-act)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/103/circuits-act) · oracle_id `14421f6a-2cd6-4438-9ac9-dc06d2c7befb` · printing: UNF #103 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Circular Logic
@@ -927,6 +936,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — X can be zero if you want.
   - *2004-10-04* — You look in your library but you do not have to choose a creature even if you have one that meets the criteria.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#citanul-flute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/315/citanul-flute) · oracle_id `6b8183bb-20c4-4d45-b944-508a6a874bb3` · printing: 10E #315 (2007-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Hierophants
@@ -940,6 +950,7 @@ schema: 2
   > *"All who inhabit these woods are part of our ritual, whether they realize it or not."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7358 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#citanul-hierophants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/81/citanul-hierophants) · oracle_id `f67df84f-667e-41cf-80f9-911abafe70ac` · printing: DSC #81 (2024-09-27) · [rulings](https://api.scryfall.com/cards/f378ee17-bf8b-4a83-b42e-86da10817dba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citanul Stalwart
@@ -1061,6 +1072,7 @@ schema: 2
   - *2004-10-04* — If you tap City of Brass while you are casting a spell or activating an ability, its ability will trigger and wait. When you finish casting that spell or activating that ability, City of Brass's triggered ability is put on the stack on top of it. City of Brass's ability will resolve first.
   - *2004-10-04* — On the other hand, you can tap City of Brass, put its triggered ability on the stack, and then respond to that ability by casting an instant or activating an ability using that mana. In that case, the instant spell or activated ability will resolve first.
   - *2004-10-04* — The first ability triggers no matter how the land becomes tapped.
+- **Referenced in:** 34 pages (30 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-brass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/62/city-of-brass) · oracle_id `f25351e3-539b-4bbc-b92d-6480acf4d722` · printing: TMC #62 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Death
@@ -1107,6 +1119,7 @@ schema: 2
   - *2004-10-04* — City of Solitude can affect abilities of cards that are not on the battlefield because it prevents players from activating those abilities.
   - *2004-10-04* — City of Solitude does not stop triggered abilities from being put on the stack. They are never “activated”.
   - *2009-10-01* — This stops players from activating mana abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#city-of-solitude)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/102/city-of-solitude) · oracle_id `671458ac-7441-4332-9e59-a42ec8b62f31` · printing: VIS #102 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City of Traitors
@@ -1123,6 +1136,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — City of Traitors does not trigger on itself being played.
   - *2004-10-04* — City of Traitors does not trigger on lands that are put onto the battlefield without playing them.
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#city-of-traitors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/237/city-of-traitors) · oracle_id `f161111d-9747-47b3-bb10-3c8bded32e21` · printing: TPR #237 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City on Fire
@@ -1144,6 +1158,7 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#city-on-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/135/city-on-fire) · oracle_id `41eec4e8-92d3-4f98-9346-3a3e3cc602ce` · printing: MOM #135 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### City Pigeon
@@ -1183,6 +1198,7 @@ schema: 2
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — Unearth grants haste to the permanent that's returned to the battlefield (even if it's not a creature card). However, neither of the "exile" abilities is granted to that permanent. If that permanent loses all its abilities, it will still be exiled at the beginning of the next end step, and if it would leave the battlefield, it is still exiled instead.
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#cityscape-leveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/233/cityscape-leveler) · oracle_id `d4d65797-2b92-4265-9169-133120c86c7f` · printing: BRO #233 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Citywatch Sphinx

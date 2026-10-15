@@ -68,6 +68,7 @@ schema: 2
   - *2025-07-25* — If Szarel leaves the battlefield before its last ability resolves, use its power as it last existed on the battlefield to determine how many +1/+1 counters to put on the target creature.
   - *2025-07-25* — Szarel’s second ability doesn’t allow you to activate abilities (such as cycling) of land cards in your graveyard.
   - *2025-07-25* — Szarel’s second ability doesn’t change the times when you can play those land cards. You can still play lands only during your main phase when you have priority and the stack is empty.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#szarel-genesis-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/4/szarel-genesis-shepherd) · oracle_id `1f3c3365-7dc8-47e1-b304-2a09aa229292` · printing: EOC #4 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Szat's Will
@@ -90,4 +91,5 @@ schema: 2
   - *2020-11-10* — Once you've chosen both modes for the spell, it doesn't matter whether you continue to control a commander. This is true even if you somehow no longer control a commander as you finish casting the spell.
   - *2020-11-10* — The commander you control doesn't have to be your commander.
   - *2020-11-10* — There's no extra bonus if you control more than one commander.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#szats-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/152/szats-will) · oracle_id `f0d8bde1-76db-4bd2-ae90-3e3a3418de0b` · printing: CMR #152 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

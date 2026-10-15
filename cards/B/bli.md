@@ -159,6 +159,7 @@ schema: 2
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blightbelly-rat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/85/blightbelly-rat) · oracle_id `b0102259-7a2c-470e-b04b-4a1f615d057c` · printing: ONE #85 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight-Breath Catoblepas
@@ -211,6 +212,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blighted-agent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/29/blighted-agent) · oracle_id `e48ea9ea-64bc-4f1c-a424-592d48569244` · printing: NPH #29 (2011-05-13) · [rulings](https://api.scryfall.com/cards/cddaebde-a060-4510-8c97-68432d931987/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Bat
@@ -259,6 +261,7 @@ schema: 2
 - **Keywords:** Incubate, Transform, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13035 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blighted-burgeoning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/177/blighted-burgeoning) · oracle_id `5e10fd35-9768-48e4-8cdb-95224ad33b9b` · printing: MOM #177 (2023-04-21) · [rulings](https://api.scryfall.com/cards/007324b3-b8a9-4a32-a5a1-ad78f3a07bc3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blighted Cataract
@@ -337,6 +340,7 @@ schema: 2
   > {3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #945 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/B.md#blighted-woodland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/881/blighted-woodland) · oracle_id `02679a2e-303d-412f-87d8-0a37a8ca259c` · printing: CLB #881 (2022-06-10) · [rulings](https://api.scryfall.com/cards/94e0ad38-31b3-46ba-9999-9b6ff57906ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Grenade
@@ -419,6 +423,7 @@ schema: 2
   > *Pests feed on carrion, mud, and one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3821 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blight-mound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/208/blight-mound) · oracle_id `c4fe854e-8783-492e-bb2e-9f242ada8a5b` · printing: SOC #208 (2026-04-24) · [rulings](https://api.scryfall.com/cards/dc060028-e01c-4bc7-8b52-7d0e2a350061/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightning
@@ -449,6 +454,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9520 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — In a Two-Headed Giant game, Blight Pile causes the opposing team to lose X life twice.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blight-pile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/174/blight-pile) · oracle_id `1c0fc9b4-177e-4529-827f-a1e17ff7a752` · printing: TDC #174 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightreaper Thallid // Blightsower Thallid
@@ -467,6 +473,7 @@ schema: 2
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21780 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blightreaper-thallid--blightsower-thallid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/92/blightreaper-thallid-blightsower-thallid) · oracle_id `ea405cb4-a21b-4a26-98f3-251e65ea2aef` · printing: MOM #92 (2023-04-21) · [rulings](https://api.scryfall.com/cards/f1150ea9-02b5-4767-a529-6149d758830e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Rot
@@ -479,6 +486,7 @@ schema: 2
   > *The scratch became a sore, the sore became a wound, the wound became an infection, and the infection became a funeral.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8955 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blight-rot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/89/blight-rot) · oracle_id `cf5b1cf9-dcd3-44d1-b8b2-338651ebb2a1` · printing: ECL #89 (2026-01-23) · [rulings](https://api.scryfall.com/cards/5201bdeb-ba47-459b-ac0d-603367914578/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Sickle
@@ -537,6 +545,7 @@ schema: 2
   - *2020-08-07* — Damage from a source with infect is damage in all respects. If the source with infect also has lifelink, damage dealt by that source also causes its controller to gain that much life. Damage from a source with infect can be prevented or redirected. Abilities that trigger on damage being dealt will trigger if a source with infect deals damage, if appropriate.
   - *2020-08-07* — Damage that a creature with infect deals doesn't result in damage being marked on a creature or a player losing life. Instead, it results in that many -1/-1 counters being put on that creature or that many poison counters being given to that player. Damage dealt to planeswalkers still results in that planeswalker losing that many loyalty counters.
   - *2020-08-07* — The -1/-1 counters remain on the creature indefinitely. They're not removed if the creature regenerates or the turn ends.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/B.md#blightsteel-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/235/blightsteel-colossus) · oracle_id `e80772e2-8623-4094-81a2-70828b2b151c` · printing: 2XM #235 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blightstep Pathway // Searstep Pathway
@@ -563,6 +572,7 @@ schema: 2
   - *2021-02-05* — The mana value of a modal double-faced card is based on the characteristics of the face that’s being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2021-02-05* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2021-02-05* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you’re playing and ignore the other face’s characteristics.
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/B.md#blightstep-pathway--searstep-pathway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/252/blightstep-pathway-searstep-pathway) · oracle_id `e580a229-e800-4746-9d37-c32fcef8de28` · printing: KHM #252 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blight Titan
@@ -849,6 +859,7 @@ schema: 2
   - *2024-01-12* — The extort ability doesn't target any player.
   - *2024-01-12* — The extort ability resolves before the spell that caused it to trigger. The ability resolves even if that spell is countered.
   - *2024-01-12* — You may pay {W/B} a maximum of one time for each extort triggered ability. You decide whether to pay when the ability resolves.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/B.md#blind-obedience)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/9/blind-obedience) · oracle_id `5d998c09-7d89-4265-ada4-6d80cbf56dae` · printing: RVR #9 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blind Phantasm
@@ -932,6 +943,7 @@ schema: 2
   - *2023-10-13* — As the triggered ability of the Alien Angel token resolves, it continues to be an artifact but will stop being both an Alien and an Angel until it becomes a creature again.
   - *2023-10-13* — If an opponent casts a creature spell with flash while the token is attacking or blocking, the token is removed from combat because it stops being a creature. However, any creatures that it was blocking are still considered blocked.
   - *2023-10-13* — People often assume that Sagas are a strict progression from top to bottom, but actually, from a non-linear, non-subjective viewpoint, it's more like a big ball of wibbly wobbly, timey-wimey . . . stuff. That is, the rules support chapter abilities that appear to be out of order, like those on Blink. The first ability triggers when the first and third lore counters are added. The last ability triggers when the second and fourth lore counters are placed on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blink)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/116/blink) · oracle_id `f5fba11b-7669-40a0-97c7-6cb7c13acedd` · printing: WHO #116 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blink Dog
@@ -999,6 +1011,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn't matter how long the permanent has been a creature.
   - *2020-08-07* — Blinkmoth Nexus can be the target of its last ability after activating its middle ability. Activating it after it has blocked a creature won't remove it from combat or stop it from dealing and being dealt combat damage.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#blinkmoth-nexus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/311/blinkmoth-nexus) · oracle_id `40d45c02-6416-4e19-8fe3-0ddadf5ba627` · printing: 2XM #311 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blinkmoth Urn
@@ -1106,6 +1119,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28500 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blistering-barrier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/159/blistering-barrier) · oracle_id `8783533d-dd98-4b80-b348-29051e1b5c28` · printing: MIR #159 (1996-10-08) · [rulings](https://api.scryfall.com/cards/56d000d8-24e1-4cf3-bed9-e68a89c8f569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blistering Dieflyn
@@ -1225,6 +1239,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3471 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Blitzball's last ability doesn't care who controls the legendary creature that dealt combat damage to an opponent this turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blitzball)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/254/blitzball) · oracle_id `75719f87-ce1a-40d6-ac5a-5ebf0c936c84` · printing: FIN #254 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzball Shot
@@ -1238,6 +1253,7 @@ schema: 2
   > *—Blitzball announcer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12262 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#blitzball-shot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/176/blitzball-shot) · oracle_id `c99779b7-a271-416e-bdc2-0f9ba6ceb144` · printing: FIN #176 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ec8ab637-3d7d-4712-9f83-8920f808f715/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blitzball Stadium
@@ -1330,6 +1346,7 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blitzwing-cruel-tormentor--blitzwing-adaptive-assailant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/4/blitzwing-cruel-tormentor-blitzwing-adaptive-assailant) · oracle_id `9a10668a-df42-40c2-88d1-ad3b2aba5b03` · printing: BOT #4 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard
@@ -1395,6 +1412,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If Blizzard Specter’s first mode is chosen, the player who was dealt damage chooses the permanent to return to hand when the ability resolves. A permanent with hexproof or protection from black may be chosen this way.
   - *2017-11-17* — You choose the mode when you put Blizzard Specter’s triggered ability on the stack. Blizzard Specter’s second mode may be chosen even if the player’s hand is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#blizzard-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/194/blizzard-specter) · oracle_id `b6f4148d-8511-46b3-93ec-2f5eb1e4ffad` · printing: IMA #194 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Blizzard Strix

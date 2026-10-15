@@ -68,4 +68,5 @@ schema: 2
   - *2020-11-10* — The amount of life you gain is determined as Ikra Shidiqi's triggered ability resolves. If that creature is no longer on the battlefield, use its toughness as it last existed on the battlefield to determine how much life to gain.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#ikra-shidiqi-the-usurper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/100/ikra-shidiqi-the-usurper) · oracle_id `a1a1761c-88e5-40b4-ba4c-60735c054b09` · printing: TDC #100 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

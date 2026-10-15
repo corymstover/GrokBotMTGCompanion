@@ -55,6 +55,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2177 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Despite that fact that it can produce mana as it resolves, Klauth's triggered ability is not a mana ability because its trigger condition wasn't the activation or resolution of an activated mana ability. This means that it uses the stack and can be responded to. Notably, players can respond by destroying attacking creatures to reduce the amount of mana produced.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/K.md#klauth-unrivaled-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/50/klauth-unrivaled-ancient) · oracle_id `8cefa5d6-5151-4e75-8b72-f210a4c751ea` · printing: AFC #50 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Klaw, Master of Sound
@@ -148,4 +149,5 @@ schema: 2
   - *2020-01-24* — Klothys’s Design affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +X/+X.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color.
   - *2020-01-24* — The value of X is determined only as Klothys’s Design resolves. Once that happens, the value of X won’t change later in the turn even if your devotion to green changes.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/K.md#klothyss-design)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/176/klothyss-design) · oracle_id `85c20c39-7b9c-4661-9372-e659b321773f` · printing: THB #176 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

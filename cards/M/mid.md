@@ -74,6 +74,7 @@ schema: 2
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midgar-city-of-mako--reactor-raid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/286/midgar-city-of-mako-reactor-raid) · oracle_id `4e34a49d-f031-48ac-a458-97b79124b76c` · printing: FIN #286 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midlife Upgrade
@@ -131,6 +132,7 @@ schema: 2
 - **Keywords:** Deathtouch, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13627 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midnight-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/87/midnight-assassin) · oracle_id `f394d2bf-89aa-44c1-b473-8c7a8874a9a3` · printing: SNC #87 (2022-04-29) · [rulings](https://api.scryfall.com/cards/02a4a5b3-0477-4709-8bce-3e01f54001b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Banshee
@@ -176,6 +178,7 @@ schema: 2
   - *2019-10-04* — Midnight Clock's first triggered ability triggers at the beginning of each upkeep, not just your upkeep. In a Two-Headed Giant game, an ability that triggers at the beginning of each upkeep rather than each player's upkeep triggers only once during each team's upkeep.
   - *2019-10-04* — Midnight Clock's last ability triggers after one or more counters are put onto it if it had fewer than twelve counters on it before those counters were put on it and it has twelve or more counters on it after.
   - *2019-10-04* — You can activate Midnight Clock's mana ability to pay the cost of its second ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midnight-clock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/100/midnight-clock) · oracle_id `c68faebc-b2cd-461b-b93e-e1fcd4816810` · printing: OTC #100 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Covenant
@@ -279,6 +282,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16592 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midnight-mangler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/50/midnight-mangler) · oracle_id `c9f8651a-4118-4d80-902e-60473e81d3a9` · printing: DFT #50 (2025-02-14) · [rulings](https://api.scryfall.com/cards/237568e3-7331-4bbb-a091-a766723134fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Mayhem
@@ -293,6 +297,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14815 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — Midnight Mayhem affects only Gremlins you control at the time it resolves, including the Gremlin tokens it creates. Gremlins you begin to control later in the turn won't gain menace, lifelink, or haste.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midnight-mayhem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/222/midnight-mayhem) · oracle_id `5236a6b5-0a96-4470-ba03-37b6d7a889bb` · printing: DSK #222 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Oil
@@ -335,6 +340,7 @@ schema: 2
   - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
   - *2021-07-23* — Unblocked creatures with double strike deal damage twice, which will cause Midnight Pathlighter's last ability to trigger twice.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midnight-pathlighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/52/midnight-pathlighter) · oracle_id `e49228d6-6488-4cbc-aa53-303afd3a549b` · printing: AFC #52 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Reaper
@@ -350,6 +356,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If Midnight Reaper dies at the same time as one or more other nontoken creatures you control, Midnight Reaper's ability triggers for each of them.
   - *2018-10-05* — Midnight Reaper's ability triggers when it dies if it's not a token.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#midnight-reaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/609/midnight-reaper) · oracle_id `e8c7566d-7cc0-48af-a986-83223ec7e06c` · printing: FDN #609 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midnight Recovery
@@ -440,6 +447,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27136 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#midsummer-revel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/268/midsummer-revel) · oracle_id `d3579282-5045-4b37-9998-9a282e9932b9` · printing: USG #268 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Midvast Protector

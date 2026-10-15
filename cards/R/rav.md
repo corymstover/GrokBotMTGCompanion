@@ -135,6 +135,7 @@ schema: 2
   > *—Lao Tzu, Tao Te Ching, trans. Feng and English*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11748 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#ravages-of-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/27/ravages-of-war) · oracle_id `265236d1-d96c-4424-835e-a0fe91c41170` · printing: ME2 #27 (2008-09-22) · [rulings](https://api.scryfall.com/cards/bdf7d5d9-d980-445e-b1e4-5af0681c6e60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Blaze
@@ -165,6 +166,7 @@ schema: 2
   > *Upon his return to the capitol after taking soldiers to loot a nearby peaceful town, the prime minister, Dong Zhou, boasted of it as a victory over bandits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30667 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ravaging-horde)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/118/ravaging-horde) · oracle_id `b775b83c-0c3d-437d-9d3c-1d5c9cd418a8` · printing: PTK #118 (1999-05-01) · [rulings](https://api.scryfall.com/cards/6278d679-fc54-4527-ab16-90735574ab9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravaging Riftwurm
@@ -217,6 +219,7 @@ schema: 2
   - *2025-10-02* — If a card or ability instructs you to put cards into your hand without specifically using the word "draw," it's not a card drawn.
   - *2025-10-02* — If an effect instructs you to draw multiple cards, the ability triggers after you draw whichever is the second one for the turn. It goes on the stack after you've drawn and looked at all the cards and finished resolving the spell or ability that caused you to draw them.
   - *2025-10-02* — The second triggered ability can trigger only once each turn. It doesn't matter whether Raven Eagle was on the battlefield when the first card was drawn. If it's not on the battlefield when the second card is drawn, the ability can't trigger at all that turn. It won't trigger when the third or fourth card is drawn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raven-eagle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/116/raven-eagle) · oracle_id `f75ac0a3-8795-48b4-91fd-4717900ef5b7` · printing: TLA #116 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravener
@@ -266,6 +269,7 @@ schema: 2
   - *2021-02-05* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
   - *2021-02-05* — If the target artifact or creature is an illegal target as Ravenform tries to resolve, it won't resolve and none of its effects will happen. No player will create a Bird creature token.
   - *2021-02-05* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/R.md#ravenform)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/167/ravenform) · oracle_id `d3d61a6a-7870-44df-92e5-513dac2c2c3e` · printing: LCC #167 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven Guild Initiate
@@ -348,6 +352,7 @@ schema: 2
   - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
   - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
   - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ravenloft-adventurer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/142/ravenloft-adventurer) · oracle_id `1822f924-51ba-4f81-92cc-6c5d741a33f9` · printing: CLB #142 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raven of Fell Omens
@@ -368,6 +373,7 @@ schema: 2
   - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raven-of-fell-omens)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/101/raven-of-fell-omens) · oracle_id `eec7d4f4-4141-49ed-8978-aefacc0a6609` · printing: OTJ #101 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Amulet
@@ -438,6 +444,7 @@ schema: 2
   > *Opening Orazca unleashed more horrors than just the Immortal Sun.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1144 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/R.md#ravenous-chupacabra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/136/ravenous-chupacabra) · oracle_id `7b459306-149b-4f43-abc1-2dd70c748c0e` · printing: MKC #136 (2024-02-09) · [rulings](https://api.scryfall.com/cards/a4dfbac0-1849-41c5-853a-1fee108d0b01/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Daggertooth
@@ -455,6 +462,7 @@ schema: 2
   - *2017-09-29* — If your life total is brought to 0 or less at the same time that Ravenous Daggertooth is dealt damage, you lose the game before its enrage ability resolves.
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ravenous-daggertooth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/202/ravenous-daggertooth) · oracle_id `f5ef25fb-545e-41b7-8fed-d3cfff3d8668` · printing: XLN #202 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Demon // Archdemon of Greed
@@ -625,6 +633,7 @@ schema: 2
   > *—Baxter Stockman*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7203 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ravenous-robots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/106/ravenous-robots) · oracle_id `45873747-f2a4-4d83-9492-bfc97df7b605` · printing: TMT #106 (2026-03-06) · [rulings](https://api.scryfall.com/cards/3b303ea3-9f4d-4c28-9446-285a23f841a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravenous Rotbelly
@@ -840,6 +849,7 @@ schema: 2
   > When this creature enters or leaves the battlefield, you lose 3 life if you don't control a Demon.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30656 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raving-oni-slave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/86/raving-oni-slave) · oracle_id `024ea14f-48b7-485d-8426-317d59f8262d` · printing: SOK #86 (2005-06-03) · [rulings](https://api.scryfall.com/cards/a4d16271-9302-463b-938d-01dad0c3ce29/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raving Visionary
@@ -868,6 +878,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4789 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — A land normally has no color, even if it can produce multiple colors of mana.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#ravnica-at-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/28/ravnica-at-war) · oracle_id `0012bc78-e69d-4a67-a302-e5fe0dfd4407` · printing: WAR #28 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ravos, Soultender

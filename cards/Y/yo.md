@@ -104,6 +104,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26404 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/Y.md#yoked-plowbeast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/31/yoked-plowbeast) · oracle_id `07237694-b5d5-4c92-a429-55e343b8dd1c` · printing: ALA #31 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoke of the Damned
@@ -182,6 +183,7 @@ schema: 2
   - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
   - *2020-06-01* — Paying {3} to put your companion into your hand is a special action. It doesn't use the stack and players can't respond to it. Once you take this action, you may cast that card if it's legal to do so before any other player can take actions.
   - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/Y.md#yorion-sky-nomad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/232/yorion-sky-nomad) · oracle_id `e15504a7-2b67-4185-b916-172145f10b19` · printing: IKO #232 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yorvo, Lord of Garenbrig
@@ -216,6 +218,7 @@ schema: 2
   - *2017-11-17* — If any of the targets of Yosei's ability are illegal, they won't be tapped.
   - *2017-11-17* — If more than one effect instructs a player to skip their next untap step, such as if Yosei dies more than once in a turn, that player skips that many untap steps. This is different from effects that state that something doesn't untap during an untap step.
   - *2017-11-17* — If the player becomes an illegal target, the target permanents are tapped, but the player doesn't skip their untap step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yosei-the-morning-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/39/yosei-the-morning-star) · oracle_id `5c2d0ead-8bfc-4ca7-9b38-2fc07af1c1d5` · printing: IMA #39 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Beloved Companion
@@ -245,6 +248,7 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4309 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yoshimaru-ever-faithful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/32/yoshimaru-ever-faithful) · oracle_id `963834c8-42df-4ee6-9b45-b9de88ce2eac` · printing: NEC #32 (2022-02-18) · [rulings](https://api.scryfall.com/cards/aa409269-3698-42a2-8c51-75557b27a6f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yoshimaru, Scrappy Stray
@@ -278,6 +282,7 @@ schema: 2
   - *2022-09-09* — If you choose to tap zero artifacts as the second chapter ability resolves, the reflexive triggered ability still triggers, but deals no damage to the target creature or planeswalker.
   - *2022-09-09* — Yotia Declares War was mistakenly printed with the word "artifact" omitted from its final chapter ability, and it has received an update to its Oracle text. 
   - *2022-09-09* — You don't choose the target creature or planeswalker as you put the second chapter ability of Yotia Declares War on the stack. First, you tap any number of artifacts. Then, a second "reflexive" ability triggers (denoted by the phrase "when you do") that requires a target. Players may respond to the reflexive triggered ability as normal, and they will know how many artifacts were tapped when they do.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/Y.md#yotia-declares-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/153/yotia-declares-war) · oracle_id `4ce785b9-aee0-4ac6-ab20-ee20d0551be4` · printing: DMU #153 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yotian Dissident
@@ -374,6 +379,7 @@ schema: 2
   > *So swift and sharp was his blade that the ogre never even felt the cut.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7320 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Y.md#you-are-already-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/129/you-are-already-dead) · oracle_id `c1157d79-38ea-4a88-b346-7b12614ff78a` · printing: NEO #129 (2022-02-18) · [rulings](https://api.scryfall.com/cards/768727ce-4f84-4527-8d69-3c9b7877b748/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Cannot Pass!
@@ -432,6 +438,7 @@ schema: 2
   - *2024-11-08* — Maximum life total means just that. After resolving You Compleat Me, you can’t have more than 10 life. Ever. No matter what.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#you-compleat-me)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/556/you-compleat-me) · oracle_id `01ac8323-28c5-4ab6-984c-5067aacb89c5` · printing: MB2 #556 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Find a Cursed Idol
@@ -469,6 +476,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4521 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-07-23* — For the Interrogate Them mode, the cards you didn't choose remain in exile. If you don't play the chosen card, it also remains in exile.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/Y.md#you-find-some-prisoners)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/169/you-find-some-prisoners) · oracle_id `467c526a-02a7-405d-98de-c632ea83519b` · printing: AFR #169 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Find the Villains' Lair
@@ -495,6 +503,7 @@ schema: 2
   > • Make Camp — Return target permanent card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9553 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#you-happen-on-a-glade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/214/you-happen-on-a-glade) · oracle_id `88e5300d-8339-41cb-85bf-325909116b61` · printing: AFR #214 (2021-07-23) · [rulings](https://api.scryfall.com/cards/f9ae7693-a6b5-42f8-9f05-c0643b95a710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You Hear Something on Watch
@@ -586,6 +595,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#young-blue-dragon--sand-augury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/106/young-blue-dragon-sand-augury) · oracle_id `fff28b30-9903-4a0a-a723-31216abd457d` · printing: CLB #106 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Deathclaws
@@ -632,6 +642,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #845 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+- **Referenced in:** 9 pages (3 decks · 4 edh guides · 2 card data) → [reverse index](../../references/Y.md#young-pyromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/95/young-pyromancer) · oracle_id `5fac139a-07d3-4e6c-98e3-d98b199f7a6f` · printing: TDC #95 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Red Dragon // Bathe in Gold
@@ -661,6 +672,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/Y.md#young-red-dragon--bathe-in-gold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/210/young-red-dragon-bathe-in-gold) · oracle_id `2f865ae9-9328-4f6f-924f-d5e0a65aaa96` · printing: CLB #210 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Wei Recruits
@@ -675,6 +687,7 @@ schema: 2
   > *—Confucius, The Analects (trans. Lau)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32060 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#young-wei-recruits)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/84/young-wei-recruits) · oracle_id `cdada8f0-d001-485c-a245-5e1c1ab748ab` · printing: ME3 #84 (2009-09-07) · [rulings](https://api.scryfall.com/cards/9cae2231-183a-4627-be49-f59fb1d951cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Young Wolf
@@ -734,6 +747,7 @@ schema: 2
   - *2019-11-12* — If you have a commander in the command zone as You’re in Command resolves, that card is no longer your commander. It remains in the command zone and can’t be cast.
   - *2019-11-12* — To become your commander, the following things are true: If your commander would be put into a zone other than the stack or battlefield, you may put it into the command zone instead. You may cast that commander from the command zone. You pay an additional {2} for each time you’ve cast it from the command zone this game. If a commander has dealt 21 combat damage to a player while it’s a commander, that player loses the game. Damage dealt before it was your commander isn’t counted.
   - *2019-11-12* — You’re in Command gives you a commander even if you’re not playing a Commander game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#youre-in-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/15/youre-in-command) · oracle_id `2234989f-270e-4d4c-9800-4fbf3176939d` · printing: CMB2 #15 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You're Not Alone
@@ -825,6 +839,7 @@ schema: 2
 - **Keywords:** Pray for Protection, Strike a Deal
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2390 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#your-temple-is-under-attack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/52/your-temple-is-under-attack) · oracle_id `f48f69c0-cca8-4f44-84cc-71e7cbbb9208` · printing: CLB #52 (2022-06-10) · [rulings](https://api.scryfall.com/cards/7ad8aa76-b643-4bd2-aaeb-036c1d50db54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Your Wish Is My Command
@@ -841,6 +856,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The additional mode you choose can’t be the same as one you’re already choosing with that spell unless that spell allows you to choose the same mode more than once.
   - *2024-11-08* — You pay all costs for the instant or sorcery spell you cast this way.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#your-wish-is-my-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/540/your-wish-is-my-command) · oracle_id `47a6a5e9-61a2-45a8-b2b9-90d12d16658d` · printing: MB2 #540 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You See a Guard Approach
@@ -914,6 +930,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2914 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/Y.md#youthful-valkyrie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/149/youthful-valkyrie) · oracle_id `6d37ba4b-ff56-4eec-9dc2-2d7f357dc9c9` · printing: FDN #149 (2024-11-15) · [rulings](https://api.scryfall.com/cards/9d795f79-c3a5-4ea1-a5cf-1ce73d6837b6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### You've Been Caught Stealing

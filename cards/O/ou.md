@@ -71,6 +71,7 @@ schema: 2
   - *2020-08-07* — If Oubliette leaves the battlefield before its triggered ability resolves, the target creature won't be phased out or tapped.
   - *2020-08-07* — Phasing out doesn't cause any “leaves the battlefield” abilities to trigger. Similarly, phasing in won't cause any “enters the battlefield” abilities to trigger.
   - *2020-08-07* — While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oubliette)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/100/oubliette) · oracle_id `c753e9e3-9374-4e3c-8622-94576a8c1da3` · printing: 2XM #100 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ouphe Vandals
@@ -182,6 +183,7 @@ schema: 2
   - *2024-04-12* — Outcaster Trailblazer’s first ability isn’t a mana ability. It uses the stack and can be responded to.
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/O.md#outcaster-trailblazer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/173/outcaster-trailblazer) · oracle_id `3b5ff623-c44e-4f2d-8ab7-ee6b11f1deee` · printing: OTJ #173 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out Cold
@@ -322,6 +324,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7782 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — As you put the triggered ability of Outlaws' Merriment on the stack, you choose a mode at random. Players can respond to the ability knowing which token will be created.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/O.md#outlaws-merriment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/198/outlaws-merriment) · oracle_id `78826624-8784-4003-8813-230f299a588f` · printing: ELD #198 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outlaw Stitcher
@@ -341,6 +344,7 @@ schema: 2
   - *2024-04-12* — Outlaw Stitcher’s ability will count all spells you’ve cast this turn except the first, including itself (if it wasn’t the first spell), spells that were countered or didn’t resolve, and spells that are still on the stack.
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#outlaw-stitcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/59/outlaw-stitcher) · oracle_id `9fda1239-97ca-41f0-8bfa-040484769396` · printing: OTJ #59 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outmaneuver
@@ -389,6 +393,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9033 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-08-25* — Count the number of creatures you control as Outnumber resolves to determine how much damage Outnumber deals.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#outnumber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/354/outnumber) · oracle_id `b72efd67-a234-44af-8296-3e182292c7e6` · printing: JMP #354 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of Air
@@ -421,6 +426,7 @@ schema: 2
   - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
   - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
   - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#out-of-bounds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/38/out-of-bounds) · oracle_id `431b2e52-1290-47b1-920d-2c1817553d96` · printing: BBD #38 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of the Tombs
@@ -470,6 +476,7 @@ schema: 2
   - *2021-06-18* — If there are no creatures on the battlefield when Out of Time's triggered ability resolves, nothing phases out and Out of Time won't get any time counters. It will remain on the battlefield and won't be sacrificed, since the last time counter will never be removed.
   - *2021-06-18* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
   - *2021-06-18* — While a permanent is phased out, it's treated as though it doesn't exist. It can't be the target of spells or abilities, its static abilities have no effect on the game, its triggered abilities can't trigger, it can't attack or block, and so on.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/O.md#out-of-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/23/out-of-time) · oracle_id `8491de1e-dc37-4a89-b4f7-56a2c668f0fc` · printing: MH2 #23 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Out of Town
@@ -518,6 +525,7 @@ schema: 2
   - *2014-11-24* — If you exile a land card using the "Khans" ability, you may play that land only if you have any available land plays. Normally, this means you can play the land only if you haven't played a land yet that turn.
   - *2014-11-24* — The card exiled by the "Khans" ability is exiled face up. Playing a card exiled with the "Khans" ability follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if it's a creature card, you can cast it only during your main phase while the stack is empty.
   - *2014-11-24* — The words "Khans" and "Dragons" are anchor words, connecting your choice to the appropriate ability. Anchor words are a new rules concept. "[Anchor word] — [Ability]" means "As long as you chose [anchor word] as this permanent entered the battlefield, this permanent has [ability]." Notably, the anchor word "Dragons" has no connection to the creature type Dragon.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#outpost-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/804/outpost-siege) · oracle_id `ebb24fc7-dc71-4712-8c2a-b5920f78e55d` · printing: CLB #804 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrageous Robbery
@@ -533,6 +541,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — If you leave the game, the exiled cards remain exiled face down indefinitely. No player may look at them.
   - *2024-02-02* — You pay all costs and follow all normal timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#outrageous-robbery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/97/outrageous-robbery) · oracle_id `5b194438-6946-45dd-8d77-c9de8c115d09` · printing: MKM #97 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrage Shaman
@@ -566,6 +575,7 @@ schema: 2
   - *2021-03-19* — After Outrider en-Kor's activated ability has resolved, if multiple sources would deal damage to Outrider en-Kor simultaneously that turn (which can happen if Outrider en-Kor is blocked by multiple creatures, for example), you choose which source has its 1 damage redirected. If Outrider en-Kor's ability has resolved more than once that turn, you may choose a different source for each redirection effect.
   - *2021-03-19* — If the targeted creature leaves the battlefield after the activated ability resolves but before Outrider en-Kor would be dealt damage, the damage isn't redirected away from Outrider en-Kor. The same is true if the target is no longer a creature (or a planeswalker) at that time.
   - *2021-03-19* — The damage dealt to the target is dealt by the original source of damage, not by Outrider en-Kor.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#outrider-en-kor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/30/outrider-en-kor) · oracle_id `644b7aba-a7b8-4861-9e83-73329cf85be2` · printing: TSR #30 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Outrider of Jhess

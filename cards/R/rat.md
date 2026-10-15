@@ -64,6 +64,7 @@ schema: 2
   - *2022-09-09* — If the copied creature is a token, the new token that’s created copies the original characteristics of that token as stated by the effect that created that token, with the exceptions noted above.
   - *2022-09-09* — If the copied creature is copying something else, then the token enters the battlefield as whatever that creature copied, with the exceptions noted above.
   - *2022-09-09* — The token copies the creature as it last existed on the battlefield before it died, not as it exists in the graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ratadrabik-of-urborg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/213/ratadrabik-of-urborg) · oracle_id `b3ab43f2-4f2b-4439-9254-0110ce443fdb` · printing: DMU #213 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratatwotwo
@@ -120,6 +121,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ratcatcher-trainee--pest-problem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/144/ratcatcher-trainee-pest-problem) · oracle_id `ecc91e38-90fa-4d89-b262-d5f36dce5be4` · printing: WOE #144 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ratchet Bomb
@@ -167,6 +169,7 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#ratchet-field-medic--ratchet-rescue-racer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/2/ratchet-field-medic-ratchet-rescue-racer) · oracle_id `4f95664f-6113-41e6-a99e-12bfc9d1710a` · printing: BOT #2 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat Colony
@@ -182,6 +185,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4675 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — Rat Colony's last ability lets you ignore only the "four-of" rule. It doesn't let you ignore format legality. For example, during a Bloomburrow Limited event, you can't add Rat Colonies from your personal collection.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#rat-colony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/101/rat-colony) · oracle_id `ec77d23b-0165-450d-9aae-73b755163753` · printing: DOM #101 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rathi Assassin
@@ -338,6 +342,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-05* — You don't choose a target for Ratonhnhaké:ton's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you create an Assassin token this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
   - *2024-07-05* — You may target an Equipment card with the reflexive triggered ability that can't legally be attached to the Assassin token. If you do, it will enter the battlefield unattached.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ratonhnhakéton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/62/ratonhnhak%C3%A9%EA%9E%89ton) · oracle_id `a37f8381-83a4-4b6b-8176-c90f6a61da74` · printing: ACR #62 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rat Out
@@ -352,6 +357,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10330 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — You can cast Rat Out without a target just to create a Rat token. However, if you do choose a target, and that target is illegal at the time Rat Out tries to resolve, the spell won't resolve and none of its effects will happen. You won't create a Rat token.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rat-out)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/103/rat-out) · oracle_id `37043e1e-4556-45f7-9484-15dd8ed5272b` · printing: WOE #103 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rats' Feast
@@ -458,4 +464,5 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/R.md#rattleclaw-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/144/rattleclaw-mystic) · oracle_id `84c9d8b8-8dd9-41fc-a2b6-af1ffb9090f9` · printing: KTK #144 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

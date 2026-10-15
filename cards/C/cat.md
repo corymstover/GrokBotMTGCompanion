@@ -194,6 +194,7 @@ schema: 2
   > *—Tamiyo's journal*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16989 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#catalog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/51/catalog) · oracle_id `965139fb-2e58-4ef2-b639-3ceaa2995c00` · printing: SOI #51 (2016-04-08) · [rulings](https://api.scryfall.com/cards/1b069516-1465-4acf-b4b9-ca7f1238b4fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catalyst Elemental
@@ -280,6 +281,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12597 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You choose land or creatures when the spell resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#catastrophe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/6/catastrophe) · oracle_id `ed68160e-5e3d-44f2-ac7a-3749fda10119` · printing: USG #6 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cat Burglar
@@ -315,6 +317,7 @@ schema: 2
   - *2024-11-08* — If you cast Catch of the Day, you don’t make any choices until it resolves. Opponents won’t know what it is until you serve it up! Once it leaves the battlefield, it forgets the choices you made.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#catch-of-the-day)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/528/catch-of-the-day) · oracle_id `9681be84-240c-4ea9-9aa0-5563c7933ceb` · printing: MB2 #528 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catch // Release
@@ -374,6 +377,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Cat Collector's last ability triggers just once and creates just one Cat token for the first life-gaining event on each of your turns, no matter how much life you gain.
   - *2024-11-08* — If you gain life during your turn before Cat Collector is on the battlefield, its last ability won't trigger that turn even if you gain life again later in the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cat-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/4/cat-collector) · oracle_id `52f1b5a4-62ff-44de-80da-503d4e52d312` · printing: FDN #4 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cateran Brute
@@ -514,6 +518,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1436 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cathar-commando)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/15/cathar-commando) · oracle_id `774dce79-67e0-4820-8013-c7a7347993ce` · printing: INR #15 (2025-01-24) · [rulings](https://api.scryfall.com/cards/7cd21530-ca72-4986-a0f2-142b9f23c413/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathar's Call
@@ -557,6 +562,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #559 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — The creature that entered and caused the ability to trigger will also get a +1/+1 counter, provided it's still on the battlefield when the ability resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cathars-crusade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/17/cathars-crusade) · oracle_id `cc65ac73-5bef-4ecb-ad8e-39199084c027` · printing: INR #17 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Catharsis
@@ -618,6 +624,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14633 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — You may target zero cards in your graveyard and still choose to shuffle your library.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#cathartic-parting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/171/cathartic-parting) · oracle_id `0ea80bd9-ab7e-4a8f-85b0-167fe7fae43a` · printing: DSK #171 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathartic Pyre
@@ -646,6 +653,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1115 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — Because discarding two cards is an additional cost, you can't cast Cathartic Reunion if you don't have at least two other cards in hand.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#cathartic-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/91/cathartic-reunion) · oracle_id `0f3c3e5f-6af3-4af2-8703-4ccc8ed8f675` · printing: ECC #91 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral Acolyte
@@ -682,6 +690,7 @@ schema: 2
   - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cathedral-membrane)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/5/cathedral-membrane) · oracle_id `0297eeb2-47ec-4f9a-b1ad-4e7286994f00` · printing: NPH #5 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cathedral of Serra

@@ -70,6 +70,7 @@ schema: 2
   - *2014-04-26* — A constellation ability triggers whenever an enchantment enters the battlefield under your control for any reason. Enchantments with other card types, such as enchantment creatures, will also cause constellation abilities to trigger.
   - *2014-04-26* — An Aura spell without bestow that has an illegal target when it tries to resolve won't resolve and will be put into its owner's graveyard. It won't enter the battlefield and constellation abilities won't trigger. An Aura spell with bestow won't be countered this way. It will revert to being an enchantment creature and resolve, entering the battlefield and triggering constellation abilities.
   - *2014-04-26* — When an enchantment enters the battlefield under your control, each constellation ability of permanents you control will trigger. You can put these abilities on the stack in any order. The last ability you put on the stack will be the first one that resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#eidolon-of-blossoms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/892/eidolon-of-blossoms) · oracle_id `77ccbea1-70af-4194-adad-39a904221c75` · printing: CMM #892 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Countless Battles
@@ -90,6 +91,7 @@ schema: 2
   - *2013-09-15* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
   - *2014-02-01* — A permanent with bestow is either a creature or an Aura, not both (although it's an enchantment either way). It will contribute just +1/+1 toward the bonus given by Eidolon of Countless Battles.
   - *2014-02-01* — Eidolon of Countless Battles's last ability functions only on the battlefield. In other zones, it is a 0/0 enchantment creature card.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#eidolon-of-countless-battles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/144/eidolon-of-countless-battles) · oracle_id `441b51b0-ecd0-466d-9ca8-e754eb563aec` · printing: SOC #144 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of Inspiration
@@ -148,6 +150,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3562 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-04-26* — Eidolon of Rhetoric will look at the entire turn to see if a player has cast a spell yet that turn, even if Eidolon of Rhetoric wasn't on the battlefield when that spell was cast. Specifically, you can't cast Eidolon of Rhetoric and then cast another spell that turn.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/E.md#eidolon-of-rhetoric)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/10/eidolon-of-rhetoric) · oracle_id `33017203-233e-498e-806e-94b1dccf5c35` · printing: JOU #10 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eidolon of the Great Revel
@@ -222,6 +225,7 @@ schema: 2
   > *Imperial samurai undergo strict training, honing their skills and purifying their spirits in the hope that they will prove worthy of a kami's blessing.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13159 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#eiganjo-exemplar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/10/eiganjo-exemplar) · oracle_id `8e0f4e22-0677-4246-a4c5-6fcc74cb54a3` · printing: NEO #10 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3b0a9cc0-bb6d-47f7-b0d5-3956c46a1b3a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Free-Riders
@@ -252,6 +256,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#eiganjo-seat-of-the-empire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire) · oracle_id `7edb3d15-4f70-4ebe-8c5e-caf6a225076d` · printing: NEO #268 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eiganjo Uprising
@@ -265,6 +270,7 @@ schema: 2
   > *Two different visions of freedom clashed at the gates of the Imperial Palace.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13857 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#eiganjo-uprising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/217/eiganjo-uprising) · oracle_id `fe2fe9f2-908b-49a9-9648-b01e0417a364` · printing: NEO #217 (2022-02-18) · [rulings](https://api.scryfall.com/cards/35203138-5237-49aa-a335-7a32829548a1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eight-and-a-Half-Tails
@@ -293,6 +299,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — If all the attacking creatures attack your planeswalkers, you can’t cast Eightfold Maze. To cast it, a creature needs to have attacked _you_.
   - *2009-10-01* — If you’re able to cast Eightfold Maze, it can target any attacking creature (including one attacking a planeswalker).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eightfold-maze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/9/eightfold-maze) · oracle_id `9097457c-ceb3-4944-8f01-c28ddefbb270` · printing: ME3 #9 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight

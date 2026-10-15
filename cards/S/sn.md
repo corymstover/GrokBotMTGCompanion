@@ -184,6 +184,7 @@ schema: 2
   > *"Now I wonder . . . will anyone come to protect \*you\*?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #426 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#snakeskin-veil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/159/snakeskin-veil) · oracle_id `1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8` · printing: TDM #159 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a3d2c692-7566-468e-9c86-47a9f768fde2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snake Umbra
@@ -209,6 +210,7 @@ schema: 2
   - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
   - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
   - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#snake-umbra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/130/snake-umbra) · oracle_id `70ed2052-f03c-461d-b32a-8835c97c559f` · printing: NEC #130 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snap
@@ -222,6 +224,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #277 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You choose which lands to untap as the spell resolves. They aren't targeted, and they don't have to be lands that you control.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#snap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/66/snap) · oracle_id `ac914d98-221e-426c-8a50-342896b15f9e` · printing: DMR #66 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapback
@@ -261,6 +264,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#snapcaster-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/478/snapcaster-mage) · oracle_id `2bb2eda7-3b38-4c56-870f-c3218a1056f5` · printing: INR #478 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapdax, Apex of the Hunt
@@ -276,6 +280,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14143 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-04-17* — If there is no legal target for Snapdax’s triggered ability when it triggers, it won’t be put onto the stack at all and you won’t gain 4 life. Similarly, if the target creature or planeswalker is an illegal target by the time the ability tries to resolve, the ability won’t resolve and you won’t gain 4 life.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#snapdax-apex-of-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/209/snapdax-apex-of-the-hunt) · oracle_id `b2b78623-5a10-4ef7-b983-3d82478269c3` · printing: IKO #209 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snap Judgment
@@ -359,6 +364,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#snapping-sailback)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/208/snapping-sailback) · oracle_id `6f7b9ff4-fe79-4d21-9262-47bcd2411259` · printing: XLN #208 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snapping Thragg
@@ -589,6 +595,7 @@ schema: 2
   > {TK}{TK}{TK}{TK}{TK} — 8/7
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#snazzy-aether-homunculus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/26/snazzy-aether-homunculus) · oracle_id `3e5ac76b-08bd-4232-9290-49742b0ff603` · printing: SUNF #26 (2022-10-07) · [rulings](https://api.scryfall.com/cards/8e3a1933-9efb-45dc-997f-c3e4cbb40817/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sneak Attack
@@ -602,6 +609,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1506 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — You sacrifice the creature only if you still control it. If that creature has left the battlefield, even if it came back, you don't sacrifice it.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/S.md#sneak-attack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/139/sneak-attack) · oracle_id `e7aee670-e6ac-4b3a-b3d1-7b7013db8f3d` · printing: DMR #139 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.N.E.A.K. Dispatcher
@@ -744,6 +752,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#snort)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/58/snort) · oracle_id `ab94985c-5a3e-42c7-be10-29c5b638346b` · printing: FIC #58 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snorting Gahr
@@ -797,6 +806,7 @@ schema: 2
   - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#snow-covered-forest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/284/snow-covered-forest) · oracle_id `5f0d3be8-e63e-4ade-ae58-6b0c14f2ce6d` · printing: KHM #284 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Island
@@ -813,6 +823,7 @@ schema: 2
   - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#snow-covered-island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/278/snow-covered-island) · oracle_id `5b2460a5-6ae5-4cad-ba94-1a9e98e6e4c0` · printing: KHM #278 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Snow-Covered Mountain
@@ -1086,4 +1097,5 @@ schema: 2
   > *"The bigger they are, the faster they rot."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #691 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#snuff-out)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/53/snuff-out) · oracle_id `324824cb-f938-401c-b9b5-d8908b431ef0` · printing: GVL #53 (2014-12-05) · [rulings](https://api.scryfall.com/cards/75bbe89f-09af-494e-b58e-271f64bde4b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

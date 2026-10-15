@@ -124,6 +124,7 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — The creature card you choose doesn't need to be a card you milled. You may choose a creature card that was already in your graveyard before you milled.
   - *2023-06-16* — To amass Orcs N, if you don't control an Army creature, create a 0/0 black Orc Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already an Orc, it becomes an Orc in addition to its other types.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#sauron-lord-of-the-rings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/4/sauron-lord-of-the-rings) · oracle_id `69c674c7-48a5-49c8-b0be-3f2b5c6a548c` · printing: LTC #4 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron's Ransom
@@ -146,6 +147,7 @@ schema: 2
   - *2023-06-16* — The opponent may split the cards into one pile of four and one pile of zero. The pile of four cards could be the face-up pile or the face-down pile.
   - *2023-06-16* — You choose just one opponent to look at the top four cards of your library and put them into piles. Other players can't look, but they may attempt to offer advice without knowing what cards are there. The player who looks may choose what information to share with others if that player wants advice on how to split the cards, but that player doesn't have to share any information at all.
   - *2023-06-16* — You don't have to reveal the cards in the face-down pile if you put it into your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#saurons-ransom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/225/saurons-ransom) · oracle_id `fe04a81b-413c-4bc8-bb83-29978da9a43d` · printing: LTR #225 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Dark Lord
@@ -181,6 +183,7 @@ schema: 2
   - *2026-06-29* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2026-06-29* — Some spells and abilities that amass Goblins may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't amass Goblins.
   - *2026-06-29* — To amass Goblins N, if you don't control an Army creature, create a 0/0 black Goblin Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Goblin, it becomes a Goblin in addition to its other types.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#sauron-the-dark-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/224/sauron-the-dark-lord) · oracle_id `9f8f29ba-7e64-455d-be05-ec7973f2bd0a` · printing: LTR #224 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Lidless Eye
@@ -195,6 +198,7 @@ schema: 2
   > *There is an Eye in the Dark Tower that does not sleep.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10887 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sauron-the-lidless-eye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/288/sauron-the-lidless-eye) · oracle_id `00b9d3a3-fd64-4757-9159-b3af06b5f5b1` · printing: LTR #288 (2023-06-23) · [rulings](https://api.scryfall.com/cards/d82a4c78-d2fc-425a-8d0e-2e64509a08f1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sauron, the Necromancer

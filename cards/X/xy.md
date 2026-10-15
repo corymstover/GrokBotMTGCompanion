@@ -38,6 +38,7 @@ schema: 2
   - *2020-04-17* — If a spell or ability causes an opponent to put cards into their hand without specifically using the word "draw," it's not a card drawn.
   - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library and the number of cards in that player's library, you both lose the game at the same time. It doesn't matter if one of you had more cards in library than the other. If there are no other players left in the game, the game is a draw.
   - *2020-04-17* — If the amount of damage Xyris deals is greater than the number of cards in your library but causes the defending player's life total to become 0 or less, that player loses the game before Xyris's ability causes you to draw cards. If there are no other players left in the game, you win the game.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/X.md#xyris-the-writhing-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/175/xyris-the-writhing-storm) · oracle_id `8687948c-456b-495b-9b31-f818c65624b6` · printing: DMC #175 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xyru Specter
@@ -53,4 +54,5 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If you’re challenged, you may reveal any number of cards from your hand. The effect that allowed a player to challenge you will specify what you must reveal to win the challenge.
   - *2019-11-12* — “Summon” isn’t a card type. Xyru Specter is a creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/X.md#xyru-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/51/xyru-specter) · oracle_id `3b544e2b-a79b-4725-9f85-ccaa3702f371` · printing: CMB2 #51 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

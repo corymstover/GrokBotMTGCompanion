@@ -82,4 +82,5 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If Arwen, Weaver of Hope and another creature you control enter the battlefield at the same time, Arwen's ability won't cause that creature to enter with additional +1/+1 counters on it.
   - *2023-06-16* — To determine how many additional +1/+1 counters a creature enters the battlefield with, use Arwen, Weaver of Hope's toughness as that creature is entering the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#arwen-weaver-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/35/arwen-weaver-of-hope) · oracle_id `c0891157-f3dd-4866-866f-fd13e9be9633` · printing: LTC #35 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

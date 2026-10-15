@@ -50,4 +50,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #884 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-07-23* — If you control multiple copies of Xorn, you'll create that many additional Treasure tokens.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/X.md#xorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/167/xorn) · oracle_id `11d8fab8-93af-4291-80bd-cf9436e99f4b` · printing: AFR #167 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

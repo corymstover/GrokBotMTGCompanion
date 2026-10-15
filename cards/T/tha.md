@@ -231,6 +231,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — As the last ability resolves, sacrificing a creature or land isn’t optional. If you control a creature or land (and if you control Thalia and The Gitrog Monster, you probably do), you must sacrifice one.
   - *2023-04-14* — The effect of Thalia and The Gitrog Monster’s ability that allows you to play an additional land is cumulative with similar effects. For example, if you control Thalia and The Gitrog Monster and another permanent with that ability, you’ll be able to play three lands during each of your turns.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/T.md#thalia-and-the-gitrog-monster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/255/thalia-and-the-gitrog-monster) · oracle_id `422a76e1-97a2-4a90-b07d-f487a2d8c236` · printing: MOM #255 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thalia, Guardian of Thraben
@@ -250,6 +251,7 @@ schema: 2
   - *2018-03-16* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2021-11-19* — Thalia's ability affects each spell that's not a creature spell, including your own.
   - *2021-11-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/T.md#thalia-guardian-of-thraben)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/38/thalia-guardian-of-thraben) · oracle_id `9b7f1d05-707c-4ed3-9f0e-8ced1232c2ee` · printing: VOW #38 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thalia, Heretic Cathar
@@ -267,6 +269,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — If Thalia enters the battlefield at the same time as an opponent’s creatures or nonbasic lands, those creatures and lands aren’t affected by Thalia’s last ability.
   - *2016-07-13* — If an effect states that a creature or land enters the battlefield tapped unless a condition is met, Thalia’s last ability has it enter tapped even if that condition is true. For example, your opponent may reveal a Plains while playing Port Town (from the Shadows over Innistrad set), but Port Town will still enter tapped.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/T.md#thalia-heretic-cathar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/44/thalia-heretic-cathar) · oracle_id `13be47e4-9da2-4f9e-baf0-db96f7777ccb` · printing: INR #44 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thalia's Geistcaller
@@ -342,6 +345,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — If an effect creates a copy of a permanent spell, that spell becomes a token on the battlefield under your control, but that token has not been "created." It won't count for Thalisse's ability.
   - *2020-11-10* — Thalisse's ability counts all tokens you created that turn prior to the ability resolving, including both noncreature tokens and creature tokens. It doesn't matter if those tokens are still on the battlefield or still under your control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thalisse-reverent-medium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/306/thalisse-reverent-medium) · oracle_id `77cf4fb1-593f-4240-96d9-6ae9084baeac` · printing: TDC #306 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thallid
@@ -421,6 +425,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13945 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-04-27* — You can sacrifice Thallid Soothsayer to pay the cost for its own ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thallid-soothsayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/35/thallid-soothsayer) · oracle_id `eee801ea-e2dc-4b03-a9f9-e87566cb2ae8` · printing: GNT #35 (2018-11-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thancred Waters
@@ -465,6 +470,7 @@ schema: 2
 - **Keywords:** Deathtouch, Power-up, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16413 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thanos-the-mad-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/233/thanos-the-mad-titan) · oracle_id `090d815b-b2c8-48cd-a0b3-dc662d5352ac` · printing: MSH #233 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e669c0b2-0011-4feb-9263-f1ecc0a98f18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thantis, the Warweaver
@@ -516,6 +522,7 @@ schema: 2
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — When an effect returns the exiled card “under your control,” you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Thassa’s effect but don’t own are exiled.
   - *2020-01-24* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners’ graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thassa-deep-dwelling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/71/thassa-deep-dwelling) · oracle_id `2396299a-c031-4020-b13e-1f9bf9d64511` · printing: THB #71 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thassa, God of the Sea
@@ -548,6 +555,7 @@ schema: 2
   - *2020-01-24* — The abilities of Gods function as long as they're on the battlefield, regardless of whether they're creatures.
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#thassa-god-of-the-sea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/176/thassa-god-of-the-sea) · oracle_id `69e5df2f-be1f-4608-a90f-3e2f51e2fea4` · printing: LCC #176 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thassa's Bounty
@@ -643,6 +651,7 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — If your devotion to blue is zero at the time the triggered ability of Thassa's Oracle resolves, you don't look at or move any cards in your library. If you have no cards in your library, you win the game.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
+- **Referenced in:** 15 pages (9 decks · 4 edh guides · 2 card data) → [reverse index](../../references/T.md#thassas-oracle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/73/thassas-oracle) · oracle_id `1de1b591-a73f-4974-b507-8c63e07a0868` · printing: THB #73 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thassa's Rebuff
@@ -696,6 +705,7 @@ schema: 2
   > *—Sokka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15497 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thats-rough-buddy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/87/thats-rough-buddy) · oracle_id `fc3ee37a-f676-44af-80d0-774ff271ce11` · printing: TLE #87 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d08fbd18-faee-4f87-b4d4-1f43b2d73e56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### That Which Was Compleated
@@ -750,6 +760,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — Removing a creature from combat doesn't change the fact that it attacked, even though it's no longer an attacking creature. Notably, raid abilities will still be satisfied if every attacking creature is removed from combat.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thaumatic-compass--spires-of-orazca)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/249/thaumatic-compass-spires-of-orazca) · oracle_id `f9085e55-2833-41b7-9100-a35dc04dee93` · printing: XLN #249 (2017-09-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thaumatog

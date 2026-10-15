@@ -84,6 +84,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — The first ability applies to Dragon spells and artifact spells that are cast from any zone, provided something is allowing you do cast them. For example, if another effect allows you to cast Dragon spells from your graveyard, Renari will allow you to do so as though they had flash.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#renari-merchant-of-marvels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/90/renari-merchant-of-marvels) · oracle_id `99204279-2a50-4dd6-84ec-f84ba31554cf` · printing: CLB #90 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renata, Called to the Hunt
@@ -104,6 +105,7 @@ schema: 2
   - *2020-01-24* — If you put an Aura on an opponent's permanent, you still control the Aura, and mana symbols in its mana cost count towards your devotion.
   - *2020-01-24* — Mana symbols in the text boxes of permanents you control don't count toward your devotion to any color.
   - *2020-01-24* — The ability that defines Renata's power works in all zones, not just the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#renata-called-to-the-hunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/196/renata-called-to-the-hunt) · oracle_id `6761b077-7a89-42c9-93ab-675fe4231564` · printing: THB #196 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rendclaw Trow
@@ -139,6 +141,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-04-14* — You can choose a permanent with no counters on it as the target. You’ll still draw a card.
   - *2023-04-14* — You choose which counters to remove from the permanent, no matter who controls it. You may choose counters of different kinds.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#render-inert)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/123/render-inert) · oracle_id `e9ece3c6-81c2-441a-acce-c109aaa9026b` · printing: MOM #123 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Render Silent
@@ -238,6 +241,7 @@ schema: 2
   - *2024-09-20* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2024-09-20* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
   - *2024-09-20* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Horror and Room are subtypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rendmaw-creaking-nest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/5/rendmaw-creaking-nest) · oracle_id `2207fb3f-45a1-401b-99e9-f75723495c3f` · printing: DSC #5 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rend Spirit
@@ -484,6 +488,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32122 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#renegade-troops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/120/renegade-troops) · oracle_id `83a81308-4a15-49cd-b2f6-51431cca79e9` · printing: PTK #120 (1999-05-01) · [rulings](https://api.scryfall.com/cards/a75095f4-a77f-4237-ae25-2e6f2f8788c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renegade Warlord
@@ -561,6 +566,7 @@ schema: 2
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called "story spotlights"—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
   - *2022-12-08* — The cycling ability and the triggered ability are separate. If the triggered ability doesn't resolve (because, for example, it has been countered, or all of its targets have become illegal), the cycling ability will still resolve, and you'll draw a card.
   - *2022-12-08* — When you cycle this card, first the cycling ability goes on the stack, then the triggered ability goes on the stack on top of it. The triggered ability will resolve before you draw a card from the cycling ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#renewed-faith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/23/renewed-faith) · oracle_id `aa4ecefa-808e-4706-af16-4ea5af9743fc` · printing: DMR #23 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Renewed Solidarity
@@ -670,6 +676,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25928 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-04-26* — If Renowned Weaver is attacking or blocking, and you activate its ability before combat damage is assigned and dealt, it won't deal combat damage. If it was blocking a creature, that creature will remain blocked. If you don't activate the ability before the combat damage step, it must survive combat for its ability to be activated later.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#renowned-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/137/renowned-weaver) · oracle_id `562684ca-6e3c-47df-9e94-8ff772c25a96` · printing: JOU #137 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rent Is Due

@@ -60,4 +60,5 @@ schema: 2
   > ☐ Ritual — You cast an instant or sorcery spell.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#map-to-lorthoss-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/531/map-to-lorthoss-temple) · oracle_id `8ef14bd8-f40a-46cb-adc3-137951ad4e25` · printing: MB2 #531 (2024-08-02) · [rulings](https://api.scryfall.com/cards/ec6d971b-b981-4a7e-8308-f1c6cc679d89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

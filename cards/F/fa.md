@@ -345,6 +345,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — If you control four or more lands, the basic land doesn't enter untapped; it enters tapped and then you untap it.
   - *2020-06-23* — The land that you put onto the battlefield will be counted when determining whether you control four or more lands, but Fabled Passage will not.
+- **Referenced in:** 8 pages (5 decks · 2 edh guides · 1 card data) → [reverse index](../../references/F.md#fabled-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/71/fabled-passage) · oracle_id `0c85b8f7-0bd0-4680-9ec5-d4b110460a54` · printing: FRC #71 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabled Path of Searo Point
@@ -390,6 +391,7 @@ schema: 2
   - *2022-02-18* — The back face of a transforming double-faced card usually has a color indicator that defines its color.
   - *2022-02-18* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2022-02-18* — The token created by Reflection of Kiki-Jiki copies exactly what was printed on the original creature (except that the copy also has haste) and nothing else (unless it's copying a creature that's a token or that's copying something else; see below). It doesn't copy whether the creature is tapped or untapped, whether it has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Most notably, if the target creature isn't normally a creature, the copy won't be a creature.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/F.md#fable-of-the-mirror-breaker--reflection-of-kiki-jiki)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki) · oracle_id `c0957e5e-c71b-439c-931c-9f55d2f76ace` · printing: NEO #141 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fable of Wolf and Owl
@@ -415,6 +417,7 @@ schema: 2
   > *"The secret to invention is to see something in your mind, then find where it hides in the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #470 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (4 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#fabricate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/9/fabricate) · oracle_id `422e1869-134f-463d-9fa1-86b66a998b3e` · printing: HOP #9 (2009-09-04) · [rulings](https://api.scryfall.com/cards/44e49332-b1e1-4b88-b508-516b55c67a1d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fabrication Foundry
@@ -505,6 +508,7 @@ schema: 2
   - *2021-02-05* — Some cards have additional effects for each {S} spent to cast them. You can cast these spells even if you don't spend any snow mana to cast them; their additional effects simply won't do anything.
   - *2021-02-05* — The Kaldheim set doesn't have any cards with mana costs that include {S}, but some previous sets do. If an effect says such a spell costs {1} less to cast, that reduction doesn't apply to any {S} costs. This is also true for activated abilities that include {S} in their activation costs and effects that reduce those costs.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#faceless-haven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/255/faceless-haven) · oracle_id `f74107d5-fb4a-464b-9251-42b84d91775d` · printing: KHM #255 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faceless One
@@ -519,6 +523,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26048 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-06-10* — Faceless One both has choose a Background and is itself a Background. This means that you may have two commanders if one of them is Faceless One and the other is either a Legendary Creature with the choose a background ability OR is a legendary Background enchantment. It does not allow you to have three commanders.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#faceless-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/1/faceless-one) · oracle_id `ef220170-c01a-4ca5-b887-f248c50227ee` · printing: CLB #1 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Face of Divinity
@@ -620,6 +625,7 @@ schema: 2
   - *2026-08-21* — If the copied creature is copying something else (for example, if the copied creature is a Clone), then the token enters the battlefield as whatever that creature copied.
   - *2026-08-21* — The tokens copy exactly what was printed on the original creature, with the listed exceptions, and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2026-08-21* — The tokens see each other enter the battlefield. If any of them have a triggered ability that triggers whenever a creature enters, they'll trigger for one another.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#face-yourself)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/83/face-yourself) · oracle_id `3c0fe71c-bee1-41d3-aeb5-1723028eedde` · printing: FRA #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fact or Fiction
@@ -633,6 +639,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #703 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Piles may be empty.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#fact-or-fiction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/41/fact-or-fiction) · oracle_id `437b2dab-15e0-4b9a-a204-58622d37a3b3` · printing: FRC #41 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fade Away
@@ -661,6 +668,7 @@ schema: 2
   > *After a long hibernation, Argoth began slowly recovering from the ravages of war.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4837 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fade-from-history)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/177/fade-from-history) · oracle_id `533767ca-7208-4c88-b160-375479b68285` · printing: BRO #177 (2022-11-18) · [rulings](https://api.scryfall.com/cards/71f13f67-e852-4a6a-8f32-b16195e53ec3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fade from Memory
@@ -716,6 +724,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7558 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — You don't choose a target creature at the time you cast this spell. Rather, a second "reflexive" ability triggers when you create two 1/1 blue Faerie creature tokens this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#faebloom-trick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/38/faebloom-trick) · oracle_id `903d114b-1899-4e67-bee3-af0673850388` · printing: FDN #38 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faeburrow Elder
@@ -734,6 +743,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Faeburrow Elder's middle ability can give it at most +5/+5, that is, +1/+1 each for white, blue, black, red, and green. "Gold," "multicolor," and "colorless" aren't colors. Similarly, Faeburrow Elder's last ability can produce at most five mana.
   - *2019-10-04* — Since Faeburrow Elder is a green and white permanent, its middle ability usually gives it at least +2/+2 and its last ability usually produces at least {G}{W}.
+- **Referenced in:** 4 pages (3 decks · 1 edh guides) → [reverse index](../../references/F.md#faeburrow-elder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/53/faeburrow-elder) · oracle_id `70a6f08e-854d-4e2f-9d8c-c45ec3231157` · printing: ECC #53 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fae Flight
@@ -748,6 +758,7 @@ schema: 2
 - **Keywords:** Enchant, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9799 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/F.md#fae-flight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/56/fae-flight) · oracle_id `d3912c82-37f8-456e-ba49-65c7f5b39d13` · printing: MKM #56 (2024-02-09) · [rulings](https://api.scryfall.com/cards/d9caa4eb-ed8c-4d05-8029-2a42163938a7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fae Offering
@@ -794,6 +805,7 @@ schema: 2
   - *2019-10-04* — The activated ability of Fae of Wishes can be activated only while Fae of Wishes is on the battlefield.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fae-of-wishes--granted)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/44/fae-of-wishes-granted) · oracle_id `c0abbed2-d213-47ef-8d6c-4a21efb9a55f` · printing: ELD #44 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Aerie
@@ -817,6 +829,7 @@ schema: 2
   - *2018-01-19* — In Limited formats, a Contraption deck may include any number of Contraption cards in your card pool. You don't have to include every Contraption card you draft or open in sealed deck. In those formats, your Contraption deck may include duplicates.
   - *2018-01-19* — In silver-bordered games using Contraptions, you have three sprockets, illustrated on the back of Contraption cards. At the start of the game, put a CRANK! counter on sprocket 3.
   - *2018-01-19* — While Contraptions you control are on the battlefield, the Contraption deck is not, even if you are using it to signify the three sprockets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#faerie-aerie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/181/faerie-aerie) · oracle_id `22b92238-4d6a-483d-b916-fbb07c831870` · printing: UST #181 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Artisans
@@ -837,6 +850,7 @@ schema: 2
   - *2016-11-08* — If you control multiple Faerie Artisans, each one’s ability only exiles tokens created with the ability of that specific Faerie Artisans.
   - *2016-11-08* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2016-11-08* — The token is an artifact in addition to its other types. This is a copiable value of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#faerie-artisans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/92/faerie-artisans) · oracle_id `7dda40f2-7b5f-479c-86b6-8bc11fff9f4a` · printing: CMM #92 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Bladecrafter
@@ -881,6 +895,7 @@ schema: 2
 - **Keywords:** Flying, Surveil
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6611 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#faerie-dreamthief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/89/faerie-dreamthief) · oracle_id `d6e68414-80cb-4e08-ae84-b084a3f4b6de` · printing: WOE #89 (2023-09-08) · [rulings](https://api.scryfall.com/cards/57ca2ec5-442d-4909-be28-93c50fbc5f7a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Duelist
@@ -910,6 +925,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8126 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If you controlled a Faerie as you finished casting Faerie Fencing, it doesn't matter whether you still control one as the spell resolves. The target creature will still get an additional -3/-3.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#faerie-fencing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/90/faerie-fencing) · oracle_id `450a9b73-9024-4103-b9f9-216a2f395cff` · printing: WOE #90 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Formation
@@ -952,6 +968,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#faerie-guidemother--gift-of-the-fae)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/11/faerie-guidemother-gift-of-the-fae) · oracle_id `04fbb7aa-0dd4-4ac6-837d-822227fb6356` · printing: ELD #11 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Harbinger
@@ -1032,6 +1049,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #288 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — Faerie Mastermind doesn't need to have been under your control when the first card is drawn for its ability to trigger. As long as you control it when an opponent draws their second card in a turn, that ability will trigger.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#faerie-mastermind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/114/faerie-mastermind) · oracle_id `a984db23-40ea-428d-829f-e944267280f8` · printing: SOC #114 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Mechanist
@@ -1093,6 +1111,7 @@ schema: 2
 - **Keywords:** Scry, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2424 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#faerie-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/51/faerie-seer) · oracle_id `b2e65e8b-5f08-4cc2-ab1d-00f8903dbea2` · printing: MH1 #51 (2019-06-14) · [rulings](https://api.scryfall.com/cards/d1fcfeb4-1818-4e08-be4c-27b8a9dc12e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Slumber Party
@@ -1103,6 +1122,7 @@ schema: 2
   > Return all creatures to their owners' hands. For each opponent who controlled a creature returned this way, you create two 1/1 blue Faerie creature tokens with flying and "This token can block only creatures with flying."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8448 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#faerie-slumber-party)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/311/faerie-slumber-party) · oracle_id `48ee9007-2d1c-446f-aee3-795d23028e06` · printing: WOE #311 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f8e5de58-cc4c-40b2-94c8-4e4d7cebfaf8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faerie Snoop
@@ -1297,6 +1317,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3388 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fain-the-broker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/133/fain-the-broker) · oracle_id `31b990e3-9bad-4b0a-a9d5-f5b9ed2ad0b0` · printing: OTC #133 (2024-04-19) · [rulings](https://api.scryfall.com/cards/7f1ff9e5-3d69-43a9-965c-2d87951cfd2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fairgrounds Patrol
@@ -1479,6 +1500,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 14 pages (9 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#faithless-looting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/244/faithless-looting) · oracle_id `3d6fa57a-aa53-4b5c-b8af-a7612c823117` · printing: SOC #244 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faithless Salvaging
@@ -1594,6 +1616,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-04-29* — If the target creature is a token, the ability still triggers when it dies. Its controller won't return the token to the battlefield, but they will creature a Treasure token.
   - *2022-04-29* — The Treasure token is created by the creature's controller, who may be different from Fake Your Own Death's controller and may be different from the creature's owner.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fake-your-own-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/174/fake-your-own-death) · oracle_id `ad01df89-29fe-44c7-a133-91425f8ff09c` · printing: FDN #174 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falcon Abomination
@@ -1685,6 +1708,7 @@ schema: 2
 - **Keywords:** Flying, Surveil, Avian Telepathy
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24298 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#falcon-winged-wonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/52/falcon-winged-wonder) · oracle_id `92e222c2-28e6-4d43-8b48-480ebcd88495` · printing: MSH #52 (2026-06-26) · [rulings](https://api.scryfall.com/cards/8dc209ed-0d4c-4d0c-90e8-04cadc3d4c3d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falco Spara, Pactweaver
@@ -1708,6 +1732,7 @@ schema: 2
   - *2022-04-29* — Removing a counter from a creature is an additional cost of casting the spell and may be combined with other additional costs or alternative costs that spell may have, such as casualty.
   - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
   - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#falco-spara-pactweaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/186/falco-spara-pactweaver) · oracle_id `b9c1ca24-5696-4777-8465-13a8f78e4fb5` · printing: SNC #186 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faldorn, Dread Wolf Herald
@@ -1723,6 +1748,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4240 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-06-10* — You must pay all costs and follow all normal timing rules for cards played this way. For example, you may only play a land from exile this way during your main phase while the stack is empty, and only if you haven't played a land yet this turn.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#faldorn-dread-wolf-herald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/647/faldorn-dread-wolf-herald) · oracle_id `d8e6294d-51cc-44ff-8bc6-b0a168e4f423` · printing: CLB #647 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falkenrath Aristocrat
@@ -1757,6 +1783,7 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#falkenrath-celebrants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/156/falkenrath-celebrants) · oracle_id `3c0be888-0d66-4bad-84f4-90c3934915d7` · printing: VOW #156 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falkenrath Exterminator
@@ -1842,6 +1869,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2046 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — If Falkenrath Noble and another creature die at the same time, Falkenrath Noble's triggered ability will trigger for each of them.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/F.md#falkenrath-noble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/140/falkenrath-noble) · oracle_id `3739b179-bc81-4737-8376-66a57e16b942` · printing: DSC #140 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falkenrath Perforator
@@ -1869,6 +1897,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9889 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — Falkenrath Pit Fighter's ability can be activated if any opponent lost any amount of life this turn, even if they also gained life at some point.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#falkenrath-pit-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/137/falkenrath-pit-fighter) · oracle_id `46d6bc30-9a21-4476-947b-87951cd9c882` · printing: MID #137 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falkenrath Reaver
@@ -1956,6 +1985,7 @@ schema: 2
   - *2022-10-14* — The prototype ability functions in any zone that the spell could be cast from. For example, if an effect allows you to cast artifact spells from your graveyard, you could cast a prototyped Blitz Automaton from your graveyard.
   - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
   - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fallaji-dragon-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/159/fallaji-dragon-engine) · oracle_id `dc8cca38-df2a-4cef-973c-a482505be66f` · printing: BRO #159 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fallaji Excavation
@@ -2105,6 +2135,7 @@ schema: 2
   - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won't normally deal combat damage.
   - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 rules) → [reverse index](../../references/F.md#fallen-shinobi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/226/fallen-shinobi) · oracle_id `4fc5f871-a809-4a4a-adfb-eb4cd52837c8` · printing: OTC #226 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faller's Faithful
@@ -2138,6 +2169,7 @@ schema: 2
   - *2020-11-10* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2020-11-10* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2020-11-10* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fall-from-favor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/93/fall-from-favor) · oracle_id `e89e1fae-bac3-4cc0-a233-24b9e08a5290` · printing: CMM #93 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falling Star
@@ -2150,6 +2182,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It must flip like a coin and not like a Frisbee.
   - *2004-10-04* — Only cards touched when it stops moving are affected. Not ones touched while it is moving.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#falling-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/leg/145/falling-star) · oracle_id `f5ca7b13-8003-4361-b827-7095c89f2750` · printing: LEG #145 (1994-06-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Falling Timber
@@ -2245,6 +2278,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-02-01* — As Fall of the Hammer tries to resolve, if only one of the targets is legal, Fall of the Hammer will still resolve but will have no effect: If the first target creature is illegal, it can’t deal damage to anything. If the second target creature is illegal, it can’t be dealt damage.
   - *2014-02-01* — The amount of damage dealt is based on the first target creature’s power as Fall of the Hammer resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fall-of-the-hammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/97/fall-of-the-hammer) · oracle_id `7e3fe8e4-e56a-4109-a314-96c44bbe7d22` · printing: CM2 #97 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fall of the Impostor
@@ -2306,6 +2340,7 @@ schema: 2
   - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/F.md#fall-of-the-titans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/109/fall-of-the-titans) · oracle_id `55e564b4-7c08-4109-bd67-da5f31fe002e` · printing: OGW #109 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fallow Earth
@@ -2350,6 +2385,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — If the creature is no longer on the battlefield when the ability resolves, you may still perform the action if you want.
   - *2008-04-01* — When the ability resolves, you choose whether to sacrifice the creature or perform the other action. If you can’t perform the other action, then you must sacrifice the creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fallow-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/126/fallow-wurm) · oracle_id `7b414f70-a9b1-42c3-9655-6aa520d3b19b` · printing: WTH #126 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fall to Earth
@@ -2404,6 +2440,7 @@ schema: 2
   > *—Sun Tzu, Art of War (trans. Giles)*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21782 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#false-defeat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/11/false-defeat) · oracle_id `8b119579-38e1-4509-9dcb-019d5a160ac2` · printing: ME3 #11 (2009-09-07) · [rulings](https://api.scryfall.com/cards/e95d2fb2-66ca-4954-b9c5-074ae813e9ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### False Demise
@@ -2459,6 +2496,7 @@ schema: 2
   > *Zhou Yu, Sun Ce, and other famous generals feigned their deaths in order to later surprise their opponents.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27693 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#false-mourning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/134/false-mourning) · oracle_id `31a331a0-3065-4ecb-9e6a-ab11e241833b` · printing: PTK #134 (1999-05-01) · [rulings](https://api.scryfall.com/cards/61bdfefb-f2e2-409c-b5e1-66d24ab3ee5d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### False Orders
@@ -2471,6 +2509,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24316 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If a creature is removed from being a blocker of a given attacker, any triggered abilities that would have happened because it was declared as a blocker still happen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#false-orders)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2ed/148/false-orders) · oracle_id `38c5c952-8153-4d98-89b5-a75260383345` · printing: 2ED #148 (1993-12-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### False Peace
@@ -2554,6 +2593,7 @@ schema: 2
   > {TK}{TK}{TK} — 5/3
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#familiar-beeble-mascot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/24/familiar-beeble-mascot) · oracle_id `41c0e1f1-8ebe-4cd2-96fe-e4bb625fe6ee` · printing: SUNF #24 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ba3ff3dc-08d6-4ee1-9dcd-38bc95c8b227/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Familiar Ground
@@ -2595,6 +2635,7 @@ schema: 2
   > *Huatli smiled up at Akal. "Our peoples have too long been parted, and yet we are cousins still."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12576 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#family-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/13/family-reunion) · oracle_id `8972de18-2c49-4162-a285-264a44c0e675` · printing: LCI #13 (2023-11-17) · [rulings](https://api.scryfall.com/cards/5c2cfbdc-8d40-4abb-afca-6c6d8e36185b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Family's Favor
@@ -2626,6 +2667,7 @@ schema: 2
   > *—Liliana Vess*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25462 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#famine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/120/famine) · oracle_id `1f82fe6b-1ec7-400b-a80d-40921b359723` · printing: VMA #120 (2014-06-16) · [rulings](https://api.scryfall.com/cards/9c489f6f-d661-4c3d-a733-0f1ce9ef0d0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Famished Foragers
@@ -2685,6 +2727,7 @@ schema: 2
   - *2025-07-25* — Devour land is a variant of the devour ability. It allows you to sacrifice lands rather than creatures, but otherwise functions identically to devour.
   - *2025-07-25* — The value of X is calculated only once, as Famished Worldsire’s last ability resolves.
   - *2025-07-25* — You may choose not to sacrifice any lands for the devour land ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/F.md#famished-worldsire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/182/famished-worldsire) · oracle_id `e7f53928-a4cc-41ed-877d-b72d786e77d9` · printing: EOE #182 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Famous Museum
@@ -2709,6 +2752,7 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5944 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fanatical-devotion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/8/fanatical-devotion) · oracle_id `34e56412-4649-481d-be51-357b331d0b75` · printing: NEM #8 (2000-02-14) · [rulings](https://api.scryfall.com/cards/be0ed1fb-d380-4e3e-a43f-c39660a996e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatical Fever
@@ -2759,6 +2803,7 @@ schema: 2
   - *2023-11-10* — Map tokens are a kind of predefined token. Each one is a colorless artifact with the artifact subtype Map and the ability "{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery."
   - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fanatical-offering)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/105/fanatical-offering) · oracle_id `3e5402bf-ce7b-4c23-9333-0acdcf349caf` · printing: LCI #105 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatical Strength
@@ -2771,6 +2816,7 @@ schema: 2
   > *"What is this? An ambush or a staring contest?" Kaya taunted. As if in answer, the robed figure lunged forward.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13411 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fanatical-strength)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/159/fanatical-strength) · oracle_id `b92e97f5-a307-471f-be06-afa4fcdab757` · printing: MKM #159 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4941fa74-c7b9-4468-8080-de8057d3d27b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatic of Mogis
@@ -2804,6 +2850,7 @@ schema: 2
   - *2024-06-07* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card.
   - *2024-06-07* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2024-06-07* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 10 pages (4 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/F.md#fanatic-of-rhonas)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/152/fanatic-of-rhonas) · oracle_id `7973820b-fdaf-46ec-9e3e-d4c0e77b5067` · printing: MH3 #152 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanatic of the Harrowing
@@ -2878,6 +2925,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Fandaniel's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2025-06-06* — While resolving Fandaniel's second ability, the next opponent in turn order chooses up to one nontoken creature to be sacrificed, then each other opponent in turn order does the same. Then each of the chosen creatures are sacrificed simultaneously. Finally, each opponent who didn't sacrifice a creature this way loses 2 life for each instant and sorcery card in your graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fandaniel-telophoroi-ascian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/46/fandaniel-telophoroi-ascian) · oracle_id `3909ff79-2103-407c-a812-a5a5a996fce2` · printing: FIC #46 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fan Favorite
@@ -2955,6 +3003,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fang-dragon--forktail-sweep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/173/fang-dragon-forktail-sweep) · oracle_id `c075637a-e94c-4b8d-8a9e-20ee3dfa8fe7` · printing: CLB #173 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fang-Druid Summoner
@@ -3069,6 +3118,7 @@ schema: 2
 - **Keywords:** Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5396 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fang-of-shigeki)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/183/fang-of-shigeki) · oracle_id `9e187d43-ae75-4589-81fc-476ae95ba5b9` · printing: NEO #183 (2022-02-18) · [rulings](https://api.scryfall.com/cards/2dd0fef1-209f-4de5-a736-8f9bca2faa0a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fang of the Pack
@@ -3188,6 +3238,7 @@ schema: 2
   > *—Mowagh the Gwyllion*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17040 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fang-skulkin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/168/fang-skulkin) · oracle_id `54bed864-fe2e-4359-b0ac-c27a2c225487` · printing: EVE #168 (2008-07-25) · [rulings](https://api.scryfall.com/cards/ff5ed574-4ff2-4f67-8989-d3e47ba1d750/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fangs of Kalonia
@@ -3205,6 +3256,7 @@ schema: 2
   - *2024-06-07* — If you don't pay the overload cost of a spell with overload, that spell will have a single target. If you pay the overload cost, the spell won't have any targets.
   - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an overload cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
   - *2024-06-07* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/F.md#fangs-of-kalonia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/153/fangs-of-kalonia) · oracle_id `8d9bd4cc-564b-4fdf-9462-b4bb30583642` · printing: MH3 #153 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fanning the Flames
@@ -3382,6 +3434,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #177 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — If you choose more than one mode for Farewell, you perform the actions in the order written.
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/F.md#farewell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/64/farewell) · oracle_id `4eb813fd-2d5a-4b02-8193-662681ef4e7d` · printing: MKC #64 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farewell to Arms
@@ -3393,6 +3446,7 @@ schema: 2
   > When the chosen hand isn't behind its owner's back, sacrifice this enchantment. If you do, that player discards their hand . . . of cards. (The lawyers wouldn't let us do it the other way.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#farewell-to-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/56/farewell-to-arms) · oracle_id `519289a3-31da-473c-a1b2-448857db7195` · printing: UNH #56 (2004-11-19) · [rulings](https://api.scryfall.com/cards/71bc23dc-ae0e-499b-824a-7eb0e20a3282/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farfinder
@@ -3444,6 +3498,7 @@ schema: 2
   > *"Verdant bloom does exist. It merely hides for its own safety."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1522 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#farhaven-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/62/farhaven-elf) · oracle_id `4ce2357f-93e6-40ca-beca-8f4e15adc464` · printing: KHC #62 (2021-02-05) · [rulings](https://api.scryfall.com/cards/320d0a4c-c556-4468-b934-bfdf17961a53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farideh, Devil's Chosen
@@ -3491,6 +3546,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#farid-enterprising-salvager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/13/farid-enterprising-salvager) · oracle_id `83cb9ab7-6a8f-40b5-b076-6fa669ff15f2` · printing: BRC #13 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farmer Cotton
@@ -3508,6 +3564,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#farmer-cotton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/55/farmer-cotton) · oracle_id `11f1d2b7-0c2b-40df-bf90-3c55b23449af` · printing: LTC #55 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farm // Market
@@ -3651,6 +3708,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Farseek can find any land with any of the listed land types, including nonbasic ones, even if that land is a Forest in addition to one or more of those types.
+- **Referenced in:** 17 pages (15 decks · 1 edh guides · 1 card data) → [reverse index](../../references/F.md#farseek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/173/farseek) · oracle_id `495e52e6-4c2b-4574-9474-eadbdcc8b4ac` · printing: MSC #173 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Farsight Adept
@@ -3723,6 +3781,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/F.md#far-traveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/17/far-traveler) · oracle_id `b9432430-df01-497d-b025-7576dce830e4` · printing: CLB #17 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Far Wanderings
@@ -3761,6 +3820,7 @@ schema: 2
   > *Dear Mr. and Mrs. Cranford, After careful analysis of Jeremy's vocational testing, I feel that he is best suited for a career in either torture or art direction.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fascist-art-director)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/11/fascist-art-director) · oracle_id `c82e07e9-8e91-4f4c-a749-ebe97d9acf73` · printing: UNH #11 (2004-11-19) · [rulings](https://api.scryfall.com/cards/a4d2f904-3d68-4192-aa8d-9521b9747fbd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fastbond
@@ -3774,6 +3834,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — You do not take damage when you "put a land onto the battlefield" through the effect of a spell or ability.
   - *2004-10-04* — You take damage when you play a land using the "play a land" action. Such an action can be your regular "play a land", one enabled by Fastbond, or ones enabled through other effects.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fastbond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/209/fastbond) · oracle_id `e27193b7-1a47-4555-865d-b1fd4c6d597f` · printing: VMA #209 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fast Forward
@@ -3887,6 +3948,7 @@ schema: 2
   - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fatal-fissure)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/97/fatal-fissure) · oracle_id `202e45d6-8c7a-46db-85fb-634aa77b4097` · printing: TLA #97 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatal Frenzy
@@ -3958,6 +4020,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31972 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fatal-mutation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/66/fatal-mutation) · oracle_id `26d3077f-ad1f-47fb-a96d-8aac4bdef8a3` · printing: SCG #66 (2003-05-26) · [rulings](https://api.scryfall.com/cards/57cf9f50-8858-44a6-8bd5-0ce1e281a584/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatal Push
@@ -3974,6 +4037,7 @@ schema: 2
   - *2020-08-07* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2020-08-07* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Cast Down, or an enchantment you returned to your hand with Cyclonic Rift.
   - *2020-08-07* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fatal-push)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/93/fatal-push) · oracle_id `16437a83-be52-44cd-a768-a767c9347eb2` · printing: 2XM #93 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fat Ass
@@ -4032,6 +4096,7 @@ schema: 2
   - *2025-10-02* — If another effect modifies how much damage your source would deal, including preventing some of it, the player being dealt damage or the controller of the permanent being dealt damage chooses an order in which to apply those effects. If all of the damage is prevented, Fated Firepower's effect no longer applies.
   - *2025-10-02* — If damage dealt by a source you control is being divided or assigned among multiple permanents an opponent controls or among an opponent and one or more permanents they control, divide the original amount before adding the number of fire counters on Fated Firepower. For example, if you control Fated Firepower with two fire counters on it, attack with a 5/5 creature with trample, and your opponent blocks with a 2/2 creature, you can assign 2 damage to the blocker and 3 damage to the defending player. These amounts are then both modified to 4 and 5 respectively.
   - *2025-10-02* — The additional damage is dealt by the same source as the original source of damage.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/F.md#fated-firepower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/132/fated-firepower) · oracle_id `13daa21c-278d-45bd-9a6e-a77d6a558453` · printing: TLA #132 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fated Infatuation
@@ -4067,6 +4132,7 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you’ll scry last. For others, that means you’ll scry and then perform other actions.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fated-intervention)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/121/fated-intervention) · oracle_id `6f85342b-b55b-461b-a3dc-17815e02d04d` · printing: BNG #121 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fated Retribution
@@ -4152,6 +4218,7 @@ schema: 2
   > *Bilbo could hear nothing, see nothing, and feel nothing except the stone floor . . . until his hand met what would be the real turning point in his career.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8009 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#fateful-discovery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/40/fateful-discovery) · oracle_id `72c6174c-fa2c-4ff2-b76e-eb6e890e97c9` · printing: HOB #40 (2026-08-14) · [rulings](https://api.scryfall.com/cards/a1142fa1-b861-4876-aa48-402af35aaa63/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fateful End
@@ -4182,6 +4249,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If an artifact or creature on the battlefield has {X} in its mana cost, X is 0.
   - *2022-10-14* — The mana value of an artifact creature that was cast as a prototype is based on the prototype mana cost rather than the card's usual mana cost.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fateful-handoff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/94/fateful-handoff) · oracle_id `1ecde43f-e418-437b-8b8f-efe120f96cb3` · printing: BRO #94 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fateful Showdown
@@ -4197,6 +4265,7 @@ schema: 2
   - *2016-09-20* — If Fateful Showdown's target becomes an illegal target, you won't discard your hand or draw any cards.
   - *2016-09-20* — The number of cards in your hand is counted only as Fateful Showdown resolves. Fateful Showdown is on the stack at this time, so it's not counted.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/F.md#fateful-showdown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/114/fateful-showdown) · oracle_id `729b7ce8-7e7f-4db9-b3ce-67aba46a7b0d` · printing: KLD #114 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fateful Tempest
@@ -4246,6 +4315,7 @@ schema: 2
   - *2026-08-21* — If you control a Jace planeswalker token, you can't choose to create a new one when you empower Jace. You have to put the loyalty counters on your existing Jace planeswalker token. In the rare case that you control multiple Jace planeswalker tokens, you'll choose one of those tokens to put the loyalty counters on.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/F.md#fatehold-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/132/fatehold-charm) · oracle_id `313aee0e-4090-4589-b323-a4edbda21c68` · printing: FRA #132 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatehold Chronologist // Peer Review
@@ -4302,6 +4372,7 @@ schema: 2
   > • Put a +1/+1 counter on target creature. It gains vigilance and indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28629 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fateshaper-aspirant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/6/fateshaper-aspirant) · oracle_id `bb3996b6-b68d-4ea1-b3dd-1600f8da2f1c` · printing: FRA #6 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f0c8400d-824f-4d79-84bc-7615a0deb831/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatespinner
@@ -4389,6 +4460,7 @@ schema: 2
   > *—Perisophia the philosopher*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1778 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/F.md#fate-unraveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/141/fate-unraveler) · oracle_id `7d66f67d-3148-4636-ac5a-2cf8a51d5e50` · printing: DSC #141 (2024-09-27) · [rulings](https://api.scryfall.com/cards/30250c4d-2c16-4d03-874e-aec39d8e72a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fathom Feeder
@@ -4411,6 +4483,7 @@ schema: 2
   - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/F.md#fathom-feeder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/203/fathom-feeder) · oracle_id `0767fb65-a621-494b-97a4-f23a4c8b4bec` · printing: BFZ #203 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fathom Fleet Boarder
@@ -4442,6 +4515,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — If you don't control another nontoken Pirate at the moment Fathom Fleet Captain attacks, its triggered ability won't trigger. If you don't control another nontoken Pirate as that ability resolves, you can't pay {2}.
   - *2017-09-29* — While resolving Fathom Fleet Captain's triggered ability, you can't pay {2} multiple times to create more than one Pirate token.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/F.md#fathom-fleet-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/197/fathom-fleet-captain) · oracle_id `7bcf3090-95c6-4384-a857-9fe571e6da85` · printing: LCC #197 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fathom Fleet Cutthroat
@@ -4511,6 +4585,7 @@ schema: 2
   - *2013-04-15* — When comparing the stats as the evolve ability resolves, it's possible that the stat that's greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you'll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You'll put a +1/+1 counter on the creature with evolve.
   - *2013-04-15* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2013-04-15* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won't trigger at all.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/F.md#fathom-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/339/fathom-mage) · oracle_id `93d0e129-e3b5-4aff-9e50-f34771ed00ff` · printing: NCC #339 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fathom Seer
@@ -4535,6 +4610,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26892 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-10-01* — If there are fewer than three nonland cards in your library, you will reveal your entire library, put all nonland cards into your hand, and put the rest back in any order.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/F.md#fathom-trawl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/65/fathom-trawl) · oracle_id `7b002cae-ee7d-400d-af9c-445eb10f1f0c` · printing: LRW #65 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Fatigue
@@ -4601,6 +4677,7 @@ schema: 2
   > *"I call on both predators and protectors, for now is a season of war."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1490 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/F.md#fauna-shaman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/179/fauna-shaman) · oracle_id `35b8fa77-4e85-418b-b335-cd1af127075c` · printing: BRO #179 (2022-11-18) · [rulings](https://api.scryfall.com/cards/b8b906eb-3223-474c-9b74-eda2c280f9c5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Faunsbane Troll
@@ -4650,6 +4727,7 @@ schema: 2
   > *—Huatli*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3217 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/F.md#favorable-winds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gnt/21/favorable-winds) · oracle_id `2361ca87-6352-4ba3-8d91-b3d71242914d` · printing: GNT #21 (2018-11-16) · [rulings](https://api.scryfall.com/cards/1de89026-13a6-4ae3-9059-460bdd657285/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Favored Hoplite

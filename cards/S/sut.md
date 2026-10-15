@@ -65,6 +65,7 @@ schema: 2
   > Whenever a creature an opponent controls enters, you may have that player lose 1 life.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1151 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#suture-priest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/210/suture-priest) · oracle_id `c4d36522-3ace-4bfb-bf2d-1a366f458698` · printing: MOC #210 (2023-04-21) · [rulings](https://api.scryfall.com/cards/430b96aa-7bb0-4d2b-b265-9c4987db28a2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Suture Spirit

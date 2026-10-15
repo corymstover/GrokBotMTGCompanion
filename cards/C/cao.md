@@ -33,6 +33,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22660 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cao-cao-lord-of-wei)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/68/cao-cao-lord-of-wei) · oracle_id `81a98b14-e827-4241-a401-64890def51af` · printing: PTK #68 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cao Ren, Wei Commander
@@ -49,4 +50,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26984 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cao-ren-wei-commander)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/69/cao-ren-wei-commander) · oracle_id `99cbc054-2757-4c07-ad04-9ac67dad4abc` · printing: PTK #69 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

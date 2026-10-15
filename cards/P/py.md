@@ -120,6 +120,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
   - *2013-04-15* — An ability that triggers when something "attacks and isn't blocked" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pygmy-hippo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/133/pygmy-hippo) · oracle_id `0d39513a-1f05-4d9a-a772-745f4f1a3471` · printing: VIS #133 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pygmy Kavu
@@ -457,6 +458,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-08-15* — In the same vein, you can cast Pyretic Ritual only at a time when you could cast any other instant, not at a time when you could activate a mana ability. For example, you can’t cast Pyretic Ritual in the midst of casting another spell; you’d need to cast Pyretic Ritual first.
   - *2010-08-15* — Pyretic Ritual is not a mana ability and doesn’t behave like one. You cast it as a spell. It uses the stack. It can be responded to, and it can be countered.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#pyretic-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m11/153/pyretic-ritual) · oracle_id `86ef6474-613f-41fb-931c-d4279b03ed99` · printing: M11 #153 (2010-07-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrewild Shaman
@@ -527,6 +529,7 @@ schema: 2
   > *—Spellbomb inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8378 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pyrite-spellbomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/283/pyrite-spellbomb) · oracle_id `2c10cae2-951a-4f4f-94e4-8713b58d07dd` · printing: 2XM #283 (2020-08-07) · [rulings](https://api.scryfall.com/cards/088c801d-381f-403b-aeb7-fbbfafee99bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroblast
@@ -543,6 +546,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The decision to counter a spell or destroy a permanent is a decision made on announcement before the target is selected. If the spell is redirected, this mode can't be changed, so only targets of the selected type are valid.
   - *2016-06-08* — Pyroblast can target any spell or permanent, not just a blue one. It checks the color of the target only on resolution.
+- **Referenced in:** 14 pages (9 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#pyroblast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/142/pyroblast) · oracle_id `ecc435e2-deb1-420a-a79f-01dd08747314` · printing: EMA #142 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroceratops
@@ -572,6 +576,7 @@ schema: 2
   > *—Rip, spawn hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7741 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pyroclasm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/149/pyroclasm) · oracle_id `e4bcd4ea-e7cd-4471-8f3b-18bb51d3d70c` · printing: DSK #149 (2024-09-27) · [rulings](https://api.scryfall.com/cards/4391b0af-2f26-4a45-9e2a-5bd8e9838107/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyroclast Consul
@@ -665,6 +670,7 @@ schema: 2
   - *2004-10-04* — Each activation is considered a new damage effect. An activation can only be 1 point of damage.
   - *2011-06-01* — It will stay on the battlefield if there is a creature that is put into the graveyard during the end step. This is because this ability will not trigger at all if there is at least one creature on the battlefield as the end step begins.
   - *2011-06-01* — Note that "until end of turn" effects wear off after "at the beginning of the end step" triggered abilities, so an artifact that animates until end of turn can keep this on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pyrohemia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/86/pyrohemia) · oracle_id `9ac57a10-3402-4656-9079-f713884cde35` · printing: CMA #86 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrokinesis
@@ -679,6 +685,7 @@ schema: 2
   - *2016-06-08* — Each target must be assigned at least 1 damage.
   - *2016-06-08* — If another effect causes Pyrokinesis to cost more, you must pay that additional cost even if you pay its alternative cost.
   - *2016-06-08* — You divide the damage as you cast Pyrokinesis, not as it resolves. If any of the targets become illegal, damage is dealt to the other targets as originally assigned. If all targets are illegal, Pyrokinesis doesn’t resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pyrokinesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/143/pyrokinesis) · oracle_id `d001febc-d511-4e65-a631-91dc9415056b` · printing: EMA #143 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyromancer Ascension
@@ -892,6 +899,7 @@ schema: 2
   - *2024-02-02* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-02-02* — Turning a permanent face up or face down doesn't change whether that permanent is tapped or untapped.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pyrotechnic-performer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/140/pyrotechnic-performer) · oracle_id `78f9ec0f-6015-4024-aca6-9a14cba373fa` · printing: MKM #140 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrotechnics
@@ -924,6 +932,7 @@ schema: 2
   - *2022-10-14* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to interfere with the creature you sacrificed to prevent you from casting this spell.
   - *2022-10-14* — The sacrificed creature's last known existence on the battlefield is checked to determine its power.
   - *2022-10-14* — You must sacrifice exactly one creature to cast this spell; you can't cast it without sacrificing a creature, and you can't sacrifice additional creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pyrrhic-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/148/pyrrhic-blast) · oracle_id `98ec58aa-8776-4a19-bff8-e288a9bd6bac` · printing: BRO #148 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pyrrhic Revival

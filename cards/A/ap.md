@@ -115,6 +115,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-08-23* — If Apex Altisaur fights a creature while either of its abilities is resolving, being dealt damage this way causes its second ability to trigger. It may fight several times in a row this way.
   - *2019-08-23* — If the target creature is an illegal target when Apex Altisaur's last ability tries to resolve, the ability doesn't resolve. If it's a legal target but Apex Altisaur is no longer on the battlefield when the ability resolves (perhaps because it has already died from picking too many fights) the target creature won't deal or be dealt damage.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#apex-altisaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/232/apex-altisaur) · oracle_id `fc467fe5-85ab-4c95-8d21-49096778b107` · printing: LCC #232 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Devastator
@@ -138,6 +139,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 rules) → [reverse index](../../references/A.md#apex-devastator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/217/apex-devastator) · oracle_id `b4d6747c-3516-4e71-be30-af007c6b1dc4` · printing: CMR #217 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Hawks
@@ -176,6 +178,7 @@ schema: 2
   - *2018-07-13* — Apex of Power doesn't change when you can cast the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
   - *2018-07-13* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
   - *2018-07-13* — If an effect copies Apex of Power, the copy wasn't cast at all, so you won't add ten mana.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#apex-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/114/apex-of-power) · oracle_id `d06eedb4-bd5a-4864-9505-a570a745d165` · printing: AFC #114 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apex Witchstalker
@@ -205,6 +208,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9460 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — The triggered ability created by Aphelia's last ability triggers and resolves after combat damage is dealt. For example, if Gorgons and/or Snakes you control deal a total of 3 combat damage to a player with 12 life, combat damage will reduce that player's life total to 9. Then the triggered ability will cause the player to lose 5 life, leaving the player at 4.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aphelia-viper-whisperer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/40/aphelia-viper-whisperer) · oracle_id `191e003f-1a78-4d85-9c70-2ae132a5f9cc` · printing: J25 #40 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphemia, the Cacophony
@@ -238,6 +242,7 @@ schema: 2
 - **Keywords:** Morph
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4913 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/A.md#aphetto-alchemist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/64/aphetto-alchemist) · oracle_id `867aa0b7-b814-4d33-a677-f6368c8e93c0` · printing: ONS #64 (2002-10-07) · [rulings](https://api.scryfall.com/cards/dfd2628f-63c4-4e19-83ea-26041650faab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Dredging
@@ -251,6 +256,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17503 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You need to choose the creature type before choosing the targets.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aphetto-dredging)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/125/aphetto-dredging) · oracle_id `6cb8c627-6b2f-48a7-b2d9-8772defea560` · printing: ONS #125 (2002-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Exterminator
@@ -293,6 +299,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16450 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-05-01* — Triggers when any permanent is turned face up, not just a creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#aphetto-runecaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/28/aphetto-runecaster) · oracle_id `949eb86a-94b2-4c9f-8040-f4ad8e1a7e33` · printing: SCG #28 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aphetto Vulture
@@ -349,6 +356,7 @@ schema: 2
   > *—Grandmother Sengir*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29559 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#apocalypse-chime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/101/apocalypse-chime) · oracle_id `995e2412-3f69-4aaf-a5d6-ae0ecbb95061` · printing: HML #101 (1995-10-01) · [rulings](https://api.scryfall.com/cards/cef20d8f-6e80-4fca-b6a7-541981f6a112/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apocalypse Demon
@@ -364,6 +372,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15741 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-07-14* — The ability that defines Apocalypse Demon's power and toughness works in all zones, not just the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#apocalypse-demon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/58/apocalypse-demon) · oracle_id `5b8084b2-0c3c-4a54-86dc-41f4fe513e99` · printing: HOU #58 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apocalypse Hydra
@@ -412,6 +421,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18698 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — In a multiplayer game, Apostle of Invasion can lose double strike after dealing damage in the first combat damage step if all the opponents that had three or more poison counters left the game. (This is most likely due to that combat damage, so good job!). In that case, it will not deal any combat damage in the regular combat damage step.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#apostle-of-invasion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/3/apostle-of-invasion) · oracle_id `d56f1543-2b2d-4ce3-bcfe-41224a0cece4` · printing: ONE #3 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apostle of Purifying Light
@@ -543,6 +553,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#appa-loyal-sky-bison)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/9/appa-loyal-sky-bison) · oracle_id `c6e28cf0-81c7-4f52-a29b-988cc6fd31ee` · printing: TLA #9 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, Steadfast Guardian
@@ -563,6 +574,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#appa-steadfast-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/10/appa-steadfast-guardian) · oracle_id `03c141ca-11e4-4927-a6bd-980ee1203c73` · printing: TLA #10 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Appa, the Vigilant
@@ -752,6 +764,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4692 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — Apprentice Necromancer can’t be the target of its own ability. This is because targets are chosen for activated abilities before costs (such as “Sacrifice Apprentice Necromancer”) are paid.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#apprentice-necromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/84/apprentice-necromancer) · oracle_id `d1a6aa5f-2ad6-4bc7-82f0-4262f66af730` · printing: UMA #84 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Apprentice Sharpshooter
@@ -810,6 +823,7 @@ schema: 2
   - *2017-04-18* — If you have fewer than six cards in your library, you'll put Approach of the Second Sun on the bottom of your library. Otherwise, you'll lift up the top six cards without looking at them and place Approach of the Second Sun just under them.
   - *2017-04-18* — The second Approach of the Second Sun that you cast must be cast from your hand, but first may have been cast from anywhere.
   - *2017-07-14* — Approach of the Second Sun has no effect until it's resolving. If the second one you cast is countered, you won't win the game.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#approach-of-the-second-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/4/approach-of-the-second-sun) · oracle_id `e4125377-34c0-4b54-bdf8-4e88f5d24565` · printing: AKH #4 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April O'Neil, Hacktivist
@@ -824,6 +838,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17373 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Human and Scientist are subtypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#april-oneil-hacktivist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/29/april-oneil-hacktivist) · oracle_id `d379a919-02cd-46fd-a6ce-b66a77745ae7` · printing: TMT #29 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April O'Neil, Human Element
@@ -876,6 +891,7 @@ schema: 2
   - *2026-01-27* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#april-oneil-live-on-the-scene)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/9/april-oneil-live-on-the-scene) · oracle_id `4900c157-8d9f-4f92-aaca-5246b6e2832e` · printing: TMC #9 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### April, Reporter of the Weird

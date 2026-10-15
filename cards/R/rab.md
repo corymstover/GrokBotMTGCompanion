@@ -86,6 +86,7 @@ schema: 2
   - *2022-02-18* — If an Equipment with reconfigure somehow loses its abilities while it is attached, the effect causing it to not be a creature continues to apply until it becomes unattached.
   - *2022-02-18* — Reconfigure represents two activated abilities. Reconfigure [cost] means “[Cost]: Attach this permanent to another target creature you control. Activate only as a sorcery,” and “[Cost]: Unattach this permanent. Activate only if this permanent is attached to a creature and only as a sorcery.”
   - *2022-02-18* — Similarly, if an Equipment is tapped, its reconfigure abilities may still be activated and it may still become attached to creatures. Becoming attached doesn't untap it. In most cases, an attached Equipment being tapped won't affect gameplay, but it will be relevant if it becomes unattached again before it untaps.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rabbit-battery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/157/rabbit-battery) · oracle_id `c739e180-2f14-41ed-8e7e-50b7df985f35` · printing: NEO #157 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabbit Response
@@ -112,6 +113,7 @@ schema: 2
 - **Keywords:** Bloodthirst
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27228 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rabble-rouser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/73/rabble-rouser) · oracle_id `1d591c00-7086-4337-bdb8-a5f35568f04e` · printing: GPT #73 (2006-02-03) · [rulings](https://api.scryfall.com/cards/c6877862-f7c5-493d-baaf-41a91d4c7982/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rabble Rousing

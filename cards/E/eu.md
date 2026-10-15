@@ -42,6 +42,7 @@ schema: 2
   > *Eumidians do their work knowing that only future generations will see it finished.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4037 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eumidian-hatchery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/20/eumidian-hatchery) · oracle_id `5b6d933e-2830-4f5a-b244-a421aa9615dc` · printing: EOC #20 (2025-08-01) · [rulings](https://api.scryfall.com/cards/25b57aaf-04fa-463d-8516-40fccd24d6ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eumidian Terrabotanist
@@ -95,6 +96,7 @@ schema: 2
   > *Taking control of powerful court positions one by one, eunuchs eventually brought on the fall of the Han dynasty, leading to the chaos of the Three Kingdoms.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30864 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eunuchs-intrigues)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/110/eunuchs-intrigues) · oracle_id `e34f8aae-bf55-4bba-9524-c841591bb14b` · printing: PTK #110 (1999-05-01) · [rulings](https://api.scryfall.com/cards/5e7ca92f-770d-4147-8eaf-f1fa69340dc9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eureka
@@ -136,6 +138,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-12-07* *(Scryfall note)* — The Commander RC has ruled that if your name is printed on the bottom of a Heroes of the Realm card, that card is legal for you in Commander.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#euroakus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ph20/1/euroakus) · oracle_id `e11a022c-140d-4b7f-84b0-17885f76faa6` · printing: PH20 #1 (2021-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Euru, Acorn Scrounger

@@ -46,6 +46,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sedgemoor-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/86/sedgemoor-witch) · oracle_id `25dce517-ac0a-4577-89ed-04296c7c4069` · printing: STX #86 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Scorpion
@@ -80,6 +81,7 @@ schema: 2
   - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn't provide any additional benefit.
   - *2013-07-01* — If the creature type of a Sliver changes so it's no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures.
   - *2021-03-19* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Sliver may become lethal if Sedge Sliver leaves the battlefield during that turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sedge-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/187/sedge-sliver) · oracle_id `027b0223-173f-4f8b-a38c-59bab391f472` · printing: TSR #187 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedge Troll
@@ -129,6 +131,7 @@ schema: 2
   - *2008-10-01* — If a creature returned to the battlefield with unearth would leave the battlefield for any reason, it's exiled instead — unless the spell or ability that's causing the creature to leave the battlefield is actually trying to exile it! In that case, it succeeds at exiling it. If it later returns the creature card to the battlefield (as Oblivion Ring or Flickerwisp might, for example), the creature card will return to the battlefield as a new object with no relation to its previous existence. The unearth effect will no longer apply to it.
   - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sedraxis-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/273/sedraxis-specter) · oracle_id `eccc1230-df5a-44a0-859b-9e1e0d176dff` · printing: 2X2 #273 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sedris, the Traitor King
@@ -149,4 +152,5 @@ schema: 2
   - *2008-10-01* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2008-10-01* — Sedris may cause a creature card in your graveyard to have multiple unearth abilities. (For example, a Fatestitcher in your graveyard would have unearth {U} and unearth {2}{B}.) You may activate either of those abilities.
   - *2008-10-01* — Unearth grants haste to the creature that's returned to the battlefield. However, neither of the "exile" abilities is granted to that creature. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sedris-the-traitor-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/274/sedris-the-traitor-king) · oracle_id `48054407-b5e1-431c-ad03-c12a31d0d9a8` · printing: 2X2 #274 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

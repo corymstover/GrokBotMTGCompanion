@@ -65,6 +65,7 @@ schema: 2
   - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
   - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
   - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stubborn-burrowfiend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/184/stubborn-burrowfiend) · oracle_id `24bc7bd5-f262-45a2-8e94-377fef2ba5d5` · printing: OTJ #184 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stubborn Denial
@@ -81,6 +82,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-09-20* — Ferocious abilities of instants and sorceries that don’t use the word “instead” will provide an additional effect if you control a creature with power 4 or greater as they resolve.
   - *2014-09-20* — Some ferocious abilities that appear on instants and sorceries use the word “instead.” These spells have an upgraded effect if you control a creature with power 4 or greater as they resolve. For these, you only get the upgraded effect, not both effects.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stubborn-denial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ktk/56/stubborn-denial) · oracle_id `3adc3af3-5086-4d61-b38c-c1dddeaeebe6` · printing: KTK #56 (2014-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stuck in Summoner's Sanctum
@@ -209,6 +211,7 @@ schema: 2
   - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#study-break)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/34/study-break) · oracle_id `7aae7c7b-0b31-4b48-a8d3-81c913f604cf` · printing: STX #34 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Study Hall
@@ -306,6 +309,7 @@ schema: 2
   - *2024-06-07* — If either target is an illegal target as Stump Stomp tries to resolve, the creature you control won't deal damage.
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stump-stomp--burnwillow-clearing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/259/stump-stomp-burnwillow-clearing) · oracle_id `eb7b1284-0b2c-4b6a-a389-b2b932838083` · printing: MH3 #259 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stun

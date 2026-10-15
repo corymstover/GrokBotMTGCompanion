@@ -58,6 +58,7 @@ schema: 2
   - *2025-11-17* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2025-11-17* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2025-11-17* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. (As a result, you can have those abilities resolve in the order of your choosing.)
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/S.md#sapling-nursery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/192/sapling-nursery) · oracle_id `8bcbae66-1854-480e-a449-33e5389610ab` · printing: ECL #192 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapling of Colfenor
@@ -129,6 +130,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sapphire-dragon--psionic-pulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/94/sapphire-dragon-psionic-pulse) · oracle_id `53015c41-af2d-43e2-a690-d8877537b8dd` · printing: CLB #94 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sapphire Drake
@@ -177,6 +179,7 @@ schema: 2
   - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/S.md#sapphire-medallion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/296/sapphire-medallion) · oracle_id `f1ef5698-14bd-42bf-aae5-2870699e4186` · printing: MH3 #296 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saprazzan Bailiff
@@ -292,6 +295,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19264 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Each token knows which Saproling Burst it came from.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#saproling-burst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/230/saproling-burst) · oracle_id `7b31ecf8-5266-4376-ace0-8b873706c4ea` · printing: VMA #230 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saproling Cluster

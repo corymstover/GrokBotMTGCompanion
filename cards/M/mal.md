@@ -130,6 +130,7 @@ schema: 2
 - **Keywords:** Flying, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3574 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#malakir-bloodwitch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/131/malakir-bloodwitch) · oracle_id `870e199e-1d54-44ec-8e24-f24af93ae9c5` · printing: VOC #131 (2021-11-19) · [rulings](https://api.scryfall.com/cards/b91ceead-5071-43e8-bf90-f379d683acdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Cullblade
@@ -191,6 +192,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/M.md#malakir-rebirth--malakir-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/111/malakir-rebirth-malakir-mire) · oracle_id `a731e87b-8d99-4b64-8ee3-8e540d652366` · printing: ZNR #111 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malakir Soothsayer
@@ -291,6 +293,7 @@ schema: 2
 - **Keywords:** Flying, Scavenge the Dead
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12106 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#malanthrope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/132/malanthrope) · oracle_id `0f99e921-61e7-4fc8-8115-4162712b4737` · printing: 40K #132 (2022-10-07) · [rulings](https://api.scryfall.com/cards/28d4eb51-a6ec-488a-a79a-ec4676d7af52/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malboro
@@ -305,6 +308,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8940 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — As Malboro's first ability resolves, the next opponent in turn order (or, if it's an opponent's turn, that opponent) chooses a card in hand without revealing it, then each other opponent in turn order does the same. Then the chosen cards are discarded at the same time. Next, each opponent loses 2 life at the same time. Finally, each opponent exiles the top three cards of their library simultaneously.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#malboro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/106/malboro) · oracle_id `6804e329-800b-4aa4-9a00-b9a1f4b9537b` · printing: FIN #106 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcator, Purity Overseer
@@ -352,6 +356,7 @@ schema: 2
   - *2023-11-10* — If you cast a card "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
   - *2023-11-10* — If you cast a spell using Malcolm, Alluring Scoundrel's last ability, you do so as part of the resolution of the ability. You can't wait to cast the spell later in the turn. Timing permissions based on the card's type are ignored.
   - *2023-11-10* — You may not play land cards discarded with Malcolm, Alluring Scoundrel's last ability.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#malcolm-alluring-scoundrel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/63/malcolm-alluring-scoundrel) · oracle_id `3bba3b36-f8d7-4fd6-892a-797226210b6e` · printing: LCI #63 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcolm, Keen-Eyed Navigator
@@ -375,6 +380,7 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 6 pages (4 decks · 2 edh guides) → [reverse index](../../references/M.md#malcolm-keen-eyed-navigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/161/malcolm-keen-eyed-navigator) · oracle_id `a66f8b44-0163-4456-b152-4acefab896a4` · printing: LCC #161 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malcolm, the Eyes
@@ -459,6 +465,7 @@ schema: 2
   - *2021-09-24* — The back face of each card with disturb has an ability that instructs its controller to exile if it would be put into a graveyard from anywhere. This includes going to the graveyard from the stack, so if the spell is countered after you cast it using the disturb ability, it will be put into exile.
   - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
   - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#malevolent-hermit--benevolent-geist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/61/malevolent-hermit-benevolent-geist) · oracle_id `51233ade-70cd-4539-9f41-5ffab761da54` · printing: MID #61 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malevolent Noble
@@ -616,6 +623,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Creatures opponents control will be exiled if they would die for any reason that turn, not just if they die by being reduced to 0 or less toughness by Malicious Eclipse.
   - *2023-11-10* — While the -2/-2 applies only to creatures that are on the battlefield as Malicious Eclipse resolves, the replacement effect applies to all creatures opponents control that turn, including ones that enter the battlefield after Malicious Eclipse resolves, noncreatures that become creatures after Malicious Eclipse resolves, and creatures that become controlled by opponents after Malicious Eclipse resolves.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#malicious-eclipse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/111/malicious-eclipse) · oracle_id `5beb8d6e-d3c1-46a5-8516-d6bf66413cff` · printing: LCI #111 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malicious Intent
@@ -676,6 +684,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7422 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-05-01* — If Malignus becomes blocked by a creature with protection from red, the damage Malignus deals to that creature won't be prevented.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#malignus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/148/malignus) · oracle_id `f90174b3-effc-4c81-8cb0-856a0646516d` · printing: AVR #148 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Malik, Grim Manipulator

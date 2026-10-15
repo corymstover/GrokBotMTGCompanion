@@ -48,6 +48,7 @@ schema: 2
   > {2}: Mimeoplasm becomes a copy of target creature card exiled with it, except it's 0/0 and has this ability.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mimeoplasm-revered-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/214/mimeoplasm-revered-one) · oracle_id `2b8c2882-dbca-466a-a0af-dd1d65edfe7c` · printing: DFT #214 (2025-02-14) · [rulings](https://api.scryfall.com/cards/34e4c342-dc22-4e9c-81fc-a691ae9e21c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mimic

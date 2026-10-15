@@ -270,6 +270,7 @@ schema: 2
   - *2020-11-10* — If you have two commanders, the last ability adds one mana of any color in their combined color identities.
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Opal Palace's last ability produces no mana. It doesn't produce {C}.
   - *2020-11-10* — The "number of times it's been cast from the command zone" includes the most recent time. For example, the first time you cast your commander from the command zone in a game, if you spent mana from Opal Palace's last ability to do so, it will enter the battlefield with a +1/+1 counter.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#opal-palace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/390/opal-palace) · oracle_id `aa6723a2-75da-49f5-a1ba-cbfa82c55301` · printing: SOC #390 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opal Titan
@@ -342,6 +343,7 @@ schema: 2
   > *The one thing the Gatewatch didn't expect to find on a plane ruled by Nicol Bolas was perfection.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7731 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#open-into-wonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/34/open-into-wonder) · oracle_id `d9688f6e-7163-408b-b32b-b9645aed1f8c` · printing: ZNC #34 (2020-09-25) · [rulings](https://api.scryfall.com/cards/a921ff16-2cd1-4080-80a9-dd73c4eda5c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Armory
@@ -408,6 +410,7 @@ schema: 2
   - *2020-08-07* — If an Aura can be returned to the battlefield with Open the Vaults, it must be, even if its owner doesn't like what it would enchant.
   - *2020-08-07* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
   - *2020-08-07* — If multiple players have Auras in their graveyards, the player whose turn it is announces what their Auras will enchant, then each other player in turn order does the same, then all artifacts and enchantments (including both Auras and non-Auras) enter the battlefield at the same time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#open-the-vaults)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/24/open-the-vaults) · oracle_id `1e9c473e-bd65-4e1f-b2ab-cac58dc581c9` · printing: 2XM #24 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Open the Way
@@ -435,6 +438,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5226 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — You pay all costs and follow all timing rules for cards played this way. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#opera-love-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/147/opera-love-song) · oracle_id `22f259b3-9de1-44a1-a89d-f2f1b1249d4d` · printing: FIN #147 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Operations Officer
@@ -475,6 +479,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1612 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-09-25* — The third ability triggers when the enchanted creature deals damage to an opponent of the player who controls Ophidian Eye.
+- **Referenced in:** 5 pages (1 decks · 4 edh guides) → [reverse index](../../references/O.md#ophidian-eye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/70/ophidian-eye) · oracle_id `e83b8830-fa97-4e60-b042-005e552a3ceb` · printing: TSP #70 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ophiomancer
@@ -491,6 +496,7 @@ schema: 2
   - *2013-10-17* — If the ability does trigger, but you control a Snake when it tries to resolve, the ability will do nothing. No Snake token will be created.
   - *2013-10-17* — Ophiomancer's ability checks if you control a Snake at the beginning of each upkeep. If you do, the ability won't trigger.
   - *2013-10-17* — Ophiomancer's ability considers any creature you control with the creature type Snake, not just the tokens Ophiomancer creates.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/O.md#ophiomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/118/ophiomancer) · oracle_id `55eca80c-dcd8-4c2f-aa0f-fb0aec7b80f7` · printing: SOC #118 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opportunist
@@ -533,6 +539,7 @@ schema: 2
   > *"Opportunity isn't something you wait for. It's something you create."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15080 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#opportunity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/126/opportunity) · oracle_id `1f544a9f-c238-4858-be19-d6cd7d023dcc` · printing: BBD #126 (2018-06-08) · [rulings](https://api.scryfall.com/cards/49233196-82e4-44c4-86f0-6eb2db7293a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Opposition
@@ -571,6 +578,7 @@ schema: 2
   - *2020-11-10* — You can't have the player find cards in their library that aren't asked for by the search instruction. For example, if the opponent is searching their library for a basic land card, you can't have them find a different card, such as a creature card.
   - *2020-11-10* — You must follow the normal timing permissions and restrictions for each exiled card. If one is a land, you can't play it unless you have land plays available.
   - *2020-11-10* — You'll still pay all costs for a spell cast this way, including additional costs. You may also pay alternative costs if any are available.
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/O.md#opposition-agent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/141/opposition-agent) · oracle_id `1f438b8f-fe23-4f3b-ab2e-f6c33676c462` · printing: CMR #141 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppression
@@ -584,6 +592,7 @@ schema: 2
   > *—The Western Paladin*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3198 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#oppression)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/152/oppression) · oracle_id `f488f679-f5d5-4e61-b0c8-0b0eb622df0d` · printing: 7ED #152 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ac327f80-983e-4e28-96e8-91ff5377f5a3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oppressive Rays
@@ -625,6 +634,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #216 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (3 decks · 1 lore & story · 1 card data) → [reverse index](../../references/O.md#opt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/158/opt) · oracle_id `713332c1-5bd8-400f-bfff-c1ca0697a043` · printing: TDC #158 (2025-04-11) · [rulings](https://api.scryfall.com/cards/bbc99a51-1501-4525-a3cc-f48249b64bed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optical Optimizer
@@ -697,6 +707,7 @@ schema: 2
   - *2022-10-14* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a More Than Meets the Eye cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using More Than Meets the Eye is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was.
   - *2022-10-14* — When you cast a spell using its More Than Meets the Eye ability, the card is put onto the stack with its back face up. The resulting spell has all characteristics of that face.
   - *2022-10-14* — While it's a creature, the Vehicle has its printed power and toughness.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#optimus-prime-hero--optimus-prime-autobot-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bot/13/optimus-prime-hero-optimus-prime-autobot-leader) · oracle_id `199c4a1a-2082-417c-a174-f479d7334d15` · printing: BOT #13 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Optimus Prime, Inspiring Leader
@@ -726,4 +737,5 @@ schema: 2
   > *—Kotis, the Fangkeeper*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #385 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (2 decks · 3 edh guides) → [reverse index](../../references/O.md#opulent-palace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/157/opulent-palace) · oracle_id `f9e7e855-1e3b-42d3-91b0-64ba8b5b8982` · printing: ECC #157 (2026-01-23) · [rulings](https://api.scryfall.com/cards/f0001153-dbcb-44e5-99be-2c186c9b10b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

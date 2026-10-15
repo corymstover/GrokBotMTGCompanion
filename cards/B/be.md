@@ -415,6 +415,7 @@ schema: 2
 - **Keywords:** Treasure, Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2589 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#beamtown-beatstick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/131/beamtown-beatstick) · oracle_id `035e33ab-adfe-4831-bdbc-52f4ddc7ffe8` · printing: MOM #131 (2023-04-21) · [rulings](https://api.scryfall.com/cards/2443cb94-b27e-4a96-93cb-ac7880149bcc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beanstalk Giant // Fertile Footsteps
@@ -438,6 +439,7 @@ schema: 2
   - *2019-10-04* — The ability that defines Beanstalk Giant's power and toughness works in all zones, not just the battlefield.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#beanstalk-giant--fertile-footsteps)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/172/beanstalk-giant-fertile-footsteps) · oracle_id `22c75ad5-237c-4dbd-bbc4-3058a3db408f` · printing: DSC #172 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beanstalk Wurm // Plant Beans
@@ -468,6 +470,7 @@ schema: 2
   - *2023-09-01* — The effect that allows you to play an additional land that turn is cumulative with other effects that do so.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beanstalk-wurm--plant-beans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/161/beanstalk-wurm-plant-beans) · oracle_id `a2192c80-c48f-44e2-807c-2f9ee1aa1152` · printing: WOE #161 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bear Cub
@@ -570,6 +573,7 @@ schema: 2
   > *—Seton, centaur druid*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10343 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bearscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/229/bearscape) · oracle_id `7e481e22-4122-4259-8978-4727eb307195` · printing: ODY #229 (2001-10-01) · [rulings](https://api.scryfall.com/cards/3284b61a-bd95-4846-ad3f-903cd1158867/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bear's Companion
@@ -583,6 +587,7 @@ schema: 2
   > *"The Sultai came hunting for a bear hide. Now I have a belt of naga skin, and my friend has a full belly."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28384 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bears-companion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/182/bears-companion) · oracle_id `930248b3-44e6-4c0b-bd7d-4b48323a7272` · printing: 2X2 #182 (2022-07-08) · [rulings](https://api.scryfall.com/cards/28194ca7-3b2a-49b8-8f03-56a2c97859d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bear Trap
@@ -621,6 +626,7 @@ schema: 2
   - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
   - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
   - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#bear-umbra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/113/bear-umbra) · oracle_id `44661108-d72f-4d02-9303-7e4b0ecf7e9c` · printing: NEC #113 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bear with Set's Mechanic
@@ -637,6 +643,7 @@ schema: 2
   - *2019-11-12* — As your first combat phase ends during your turn, if one or more creatures you control have aggressive, you have another combat phase before your second main phase. This is called the aggressive combat phase.
   - *2019-11-12* — Creatures without aggressive can’t attack during an aggressive combat phase.
   - *2019-11-12* — If you control no creatures with aggressive as your first combat phase ends, but control one later during your turn, you won’t have an aggressive combat phase.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bear-with-sets-mechanic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/71/bear-with-sets-mechanic) · oracle_id `d89dfaa3-13ff-4336-97eb-592aaeb682d2` · printing: CMB2 #71 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beast Attack
@@ -798,6 +805,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #568 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If you attack with multiple creatures, Beastmaster Ascension's first ability triggers multiple times.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#beastmaster-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/283/beastmaster-ascension) · oracle_id `11b5308d-5bc0-4782-875f-a28be36e665d` · printing: NCC #283 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beastmaster's Magemark
@@ -896,6 +904,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #213 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/B.md#beast-whisperer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/158/beast-whisperer) · oracle_id `5da7eea8-bb9e-47ce-a554-8a1ee058bd7a` · printing: CLU #158 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beast Within
@@ -909,6 +918,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If the target permanent is an illegal target by the time Beast Within tries to resolve, the spell won't resolve. No player creates a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.
+- **Referenced in:** 17 pages (12 decks · 2 edh guides · 3 card data) → [reverse index](../../references/B.md#beast-within)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/169/beast-within) · oracle_id `7735eeba-693b-47e2-bd51-414379cf1016` · printing: MSC #169 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beatrix, Loyal General
@@ -962,6 +972,7 @@ schema: 2
   - *2026-01-27* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
   - *2026-01-27* — The value of X is calculated only once, as Bebop's last ability resolves.
   - *2026-01-27* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bebop-skull--crossbones)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/15/bebop-skull-&-crossbones) · oracle_id `59a405d7-2f28-41b8-a5bb-011f45a5fdf2` · printing: TMC #15 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bebop, Warthog Warrior
@@ -1015,6 +1026,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beckett-mariner-impetuous-ensign)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/138/beckett-mariner-impetuous-ensign) · oracle_id `1033a0cb-1a00-46c4-83d5-68a6eac85feb` · printing: TRK #138 (2026-11-13) · [rulings](https://api.scryfall.com/cards/f2001bbd-63ee-4a6e-8e01-3a91aaf1e3b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beckon Apparition
@@ -1072,6 +1084,7 @@ schema: 2
   - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
   - *2024-07-05* — Unlike a face-down creature that was cast using a disguise or morph ability, a cloaked creature may still be turned face up after it loses its abilities if it’s a creature card.
   - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#become-anonymous)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/14/become-anonymous) · oracle_id `bac0fcee-9c1a-46b7-86c8-ffbfcc1e96de` · printing: ACR #14 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Become Brutes
@@ -1083,6 +1096,7 @@ schema: 2
 - **Keywords:** Role token
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19737 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#become-brutes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/317/become-brutes) · oracle_id `789e034c-7f4a-4fd5-9dd8-48313742126e` · printing: WOE #317 (2023-09-08) · [rulings](https://api.scryfall.com/cards/a154dadc-be5b-4ad6-9946-bdc54c251bff/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Become Immense
@@ -1111,6 +1125,7 @@ schema: 2
   > *—Eshki Dragonclaw*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6103 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/B.md#become-the-avalanche)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/43/become-the-avalanche) · oracle_id `e5fcbbaf-9431-4fa8-ac11-12ace1f2054c` · printing: TDC #43 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f49b7b11-ce78-44c4-98c2-dc8e2332c667/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Become the Pilot
@@ -1157,6 +1172,7 @@ schema: 2
   > *—Grim Reaper, Eric Williams*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #487 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/B.md#bedevil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/182/bedevil) · oracle_id `bceecc64-96f1-4e7b-8904-0aef90377764` · printing: MSC #182 (2026-06-26) · [rulings](https://api.scryfall.com/cards/985b9779-b8f6-4d7e-9490-5d2b91ee8db2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bedhead Beastie
@@ -1184,6 +1200,7 @@ schema: 2
   > *The generals were dead. The battle plans were forgotten. It was everyone for themselves.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6977 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bedlam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/174/bedlam) · oracle_id `c28d4caf-9b7c-40b1-9cbe-275ca9dae06a` · printing: 7ED #174 (2001-04-11) · [rulings](https://api.scryfall.com/cards/2788ec1a-930e-4a19-ad69-ea456c1390fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bedlam Reveler
@@ -1202,6 +1219,7 @@ schema: 2
   - *2025-01-24* — Bedlam Reveler’s first ability can’t reduce the {R}{R} in its cost.
   - *2025-01-24* — If you have no cards in hand when Bedlam Reveler’s enters ability resolves, you just draw three cards.
   - *2025-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you’re paying, add any cost increases, then apply any cost reductions (such as that of Bedlam Reveler’s first ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bedlam-reveler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/142/bedlam-reveler) · oracle_id `01a7e0ce-c98f-4cf2-aba3-360aa0a9b9a7` · printing: INR #142 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bedrock Tortoise
@@ -1217,6 +1235,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3553 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Bedrock Tortoise's ability doesn't actually change any creature's power. It changes only the amount of combat damage the creature assigns. All other rules and effects that check power or toughness use the real values, even if they cause damage "equal to a creature's power" to be dealt.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bedrock-tortoise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/176/bedrock-tortoise) · oracle_id `d9c2e674-11a9-47f0-8790-a53b62c43fe6` · printing: LCI #176 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bee-Bee Gun
@@ -1253,6 +1272,7 @@ schema: 2
   > *—Alaborn saying*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29620 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bee-sting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/144/bee-sting) · oracle_id `f637d525-2f29-488a-9269-8e5aa377fbb7` · printing: ME4 #144 (2011-01-10) · [rulings](https://api.scryfall.com/cards/ee668507-a903-47ed-834f-fe6247db0542/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beetleback Chief
@@ -1266,6 +1286,7 @@ schema: 2
   > *Whether trained, ridden, or eaten, few goblin military innovations have rivaled the bug.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3625 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#beetleback-chief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/205/beetleback-chief) · oracle_id `f5c5f64c-6911-430c-a825-b32b96d39c7d` · printing: TDC #205 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2d19a474-b008-4088-8a31-333c0b2d9d65/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beetleform Mage
@@ -1594,6 +1615,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7641 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — The number of Demons you control is counted only as Be'lakor, the Dark Master's ability resolves. If Be'lakor is still on the battlefield, it will count itself.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#belakor-the-dark-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/6/belakor-the-dark-master) · oracle_id `3690ca72-c925-42ab-acc2-7cc1fda05789` · printing: 40K #6 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Belbe, Corrupted Observer
@@ -1665,6 +1687,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1446 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beledros-witherbloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/296/beledros-witherbloom) · oracle_id `90194ff1-db61-463f-b5a3-15cd85311d0e` · printing: SOC #296 (2026-04-24) · [rulings](https://api.scryfall.com/cards/144c2886-3d37-4a8a-8e37-99ccff66599e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Belfry Spirit
@@ -1868,6 +1891,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — Belligerent Yearling's ability overwrites any previous effects that set its power, including previous instances of that ability. Other effects that set its power to specific values that start to apply after the ability resolves, including future instances of the ability, will overwrite that effect.
   - *2023-11-10* — Effects that modify the power of Belligerent Yearling without setting it to a specific value will apply to the new base power no matter when they started to take effect. The same is true for counters that change its power.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#belligerent-yearling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/133/belligerent-yearling) · oracle_id `2d785e3e-8e19-4eea-b09f-9a30c792dba1` · printing: LCI #133 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bello, Bard of the Brambles
@@ -1882,6 +1906,7 @@ schema: 2
   - *2024-07-26* — Any counters that are put on an artifact or enchantment while it's a creature because of Bello's ability remain on that artifact or enchantment while it's not a creature, even if they have no effect on a noncreature permanent.
   - *2024-07-26* — If an Equipment becomes attached to an artifact or enchantment that's currently a creature because of Bello's ability, it'll become unattached during the next upkeep that isn't yours. Similarly, any Auras that become attached to those artifacts or enchantments that can't enchant the appropriate permanent type will be put into their owners' graveyards.
   - *2024-07-26* — If an effect causes Bello to lose all abilities during your turn, its effect will still apply to non-Equipment artifacts and non-Aura enchantments you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bello-bard-of-the-brambles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/1/bello-bard-of-the-brambles) · oracle_id `fb773114-6161-46a3-ab30-1853958fbcb0` · printing: BLC #1 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bellowing Aegisaur
@@ -1899,6 +1924,7 @@ schema: 2
   - *2017-09-29* — If another creature you control is dealt lethal damage at the same time that Bellowing Aegisaur is dealt damage, the other creature won't be saved by the +1/+1 counter that would have been put on it.
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won't be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bellowing-aegisaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/127/bellowing-aegisaur) · oracle_id `7063abe1-87dd-4526-9867-f7ce255b2cf0` · printing: LCC #127 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bellowing Bruiser // Beat a Path
@@ -1929,6 +1955,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bellowing-bruiser--beat-a-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/121/bellowing-bruiser-beat-a-path) · oracle_id `cdb84830-faf2-4beb-8d57-ad696d75876b` · printing: WOE #121 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bellowing Crier
@@ -2170,6 +2197,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beluna-grandsquall--seek-thrills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/220/beluna-grandsquall-seek-thrills) · oracle_id `06374e6d-62fa-4833-81cd-b4d0a35e7365` · printing: WOE #220 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beluna's Gatekeeper // Entry Denied
@@ -2198,6 +2226,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#belunas-gatekeeper--entry-denied)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/43/belunas-gatekeeper-entry-denied) · oracle_id `52fd9309-b849-419a-8d19-5882c00a72b4` · printing: WOE #43 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benalish Cavalry
@@ -2314,6 +2343,7 @@ schema: 2
   - *2008-10-01* — Creatures in the same band must all attack the same player or planeswalker.
   - *2008-10-01* — If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a "band." The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned.
   - *2009-10-01* — If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#benalish-hero)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/5/benalish-hero) · oracle_id `4c81cfb7-8765-4e28-ae33-4287fa9a86cc` · printing: ME1 #5 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benalish Honor Guard
@@ -2489,6 +2519,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Bender's Waterskin untaps at the same time as the active player's permanents. You can't choose to not untap it at that time.
   - *2025-10-02* — Some effects state that an artifact doesn't untap during its controller's untap step. These effects won't apply and stop Bender's Waterskin from untapping during another player's untap step.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/B.md#benders-waterskin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/255/benders-waterskin) · oracle_id `3bc46467-323f-4cbf-9d0a-f3d2ae3c3a34` · printing: TLA #255 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bend or Break
@@ -2527,6 +2558,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24759 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-02-01* — "For each player" means for each player currently in the game, which is normally two. A Two-Headed Giant game has four players. In a Free-for-All multiplayer game, players who have been eliminated or who are outside your range of influence don't count toward the total.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#benediction-of-moons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/3/benediction-of-moons) · oracle_id `3ff2fc3c-0871-4ba7-9b7c-8634ec770d6b` · printing: GPT #3 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benefaction of Rhonas
@@ -2597,6 +2629,7 @@ schema: 2
   > *"My destiny is to save others so their destinies may be achieved."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6028 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#benevolent-bodyguard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/4/benevolent-bodyguard) · oracle_id `c8c38570-0b42-4bfc-896f-f57f9a11ba9d` · printing: EMA #4 (2016-06-10) · [rulings](https://api.scryfall.com/cards/241e5c4e-0f0b-4a3f-91e0-87387a11e81e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benevolent Hydra
@@ -2612,6 +2645,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-02* — "Put on another creature you control" includes creatures other than Benevolent Hydra that enter the battlefield with +1/+1 counters on them. If another creature would enter the battlefield with a number of +1/+1 counters on it while you control Benevolent Hydra, it enters with that many counters plus one.
   - *2022-12-02* — Each additional Benevolent Hydra you control will increase the number of +1/+1 counters placed on anther creature by one.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#benevolent-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/124/benevolent-hydra) · oracle_id `01dbf1bc-ca62-4fb6-959c-ef7c0dc03bb0` · printing: SOC #124 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benevolent Offering
@@ -2815,6 +2849,7 @@ schema: 2
 - **Keywords:** Hexproof
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27086 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#benthic-giant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/113/benthic-giant) · oracle_id `43c449d1-51a9-45e0-8102-823a6811ff54` · printing: BBD #113 (2018-06-08) · [rulings](https://api.scryfall.com/cards/1ff8671d-4da4-4dc2-a8c4-d695ff1aca0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benthic Infiltrator
@@ -2836,6 +2871,7 @@ schema: 2
   - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won't lose the game (until they have to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it's just the new color, not that color and colorless.
   - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#benthic-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/55/benthic-infiltrator) · oracle_id `b2977807-5f46-424a-a6e9-14262f8a723a` · printing: BFZ #55 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Benthicore
@@ -2848,6 +2884,7 @@ schema: 2
   > Tap two untapped Merfolk you control: Untap this creature. It gains shroud until end of turn. (It can't be the target of spells or abilities.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27761 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#benthicore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/53/benthicore) · oracle_id `68eb3566-c74d-42a6-89a6-b468677fc485` · printing: LRW #53 (2007-10-12) · [rulings](https://api.scryfall.com/cards/f240d225-9fbf-438a-93c3-5fef325035e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beorn, Reluctant Host // Till and Tend
@@ -2878,6 +2915,7 @@ schema: 2
   - *2026-06-29* — The effect that allows you to play an additional land that turn is cumulative with other effects that do so.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beorn-reluctant-host--till-and-tend)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/118/beorn-reluctant-host-till-and-tend) · oracle_id `288da486-393c-4995-ad02-c5093a71970d` · printing: HOB #118 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beorn's Hospitality
@@ -2894,6 +2932,7 @@ schema: 2
   - *2026-06-29* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2026-06-29* — The type-changing and ability-granting effects last indefinitely. They don't wear off during the cleanup step.
   - *2026-06-29* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve (as a result, you can have those abilities resolve in the order of your choosing).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beorns-hospitality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/120/beorns-hospitality) · oracle_id `d9ed7252-11d1-432b-9101-ac08cd28826d` · printing: HOB #120 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beorn the Fierce
@@ -2909,6 +2948,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8052 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-06-29* — The type-changing effect of the triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when Beorn the Fierce leaves the battlefield. The creature couldn't bear not being a Bear!
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beorn-the-fierce)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/119/beorn-the-fierce) · oracle_id `30ca8e92-5955-46a1-86c1-094a873f518f` · printing: HOB #119 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bequeathal
@@ -3056,6 +3096,7 @@ schema: 2
   > *—Arel, Unseen Whisperer*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2415 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#berserkers-onslaught)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/130/berserkers-onslaught) · oracle_id `85d2948c-1a79-418d-80c4-bc1012a4d313` · printing: DTK #130 (2015-03-27) · [rulings](https://api.scryfall.com/cards/ee571a78-16b2-40ba-92b2-87c1bf4b39bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Berserk Murlodont
@@ -3090,6 +3131,7 @@ schema: 2
   - *2026-03-20* — The increment ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-03-20* — When comparing the mana spent to the creature's stats as the increment ability resolves, it's possible that the stat that is less than the mana spent changes from power to toughness or vice versa. For example, say you control a 1/3 creature with increment and you pay two mana to cast a spell. Since the amount of mana you spent is greater than the creature's power, increment will trigger. While the increment ability is on the stack, an effect gives the creature with increment +2/-2, making it a 3/1. When the increment ability resolves, the creature will still get a +1/+1 counter since the amount of mana you spent is greater than that creature's toughness.
   - *2026-03-20* — Whenever you cast a spell, check the amount of mana you spent to cast it against the power and toughness of the creature with increment. If the amount of mana you spent isn't greater than either of that creature's stats, increment won't trigger at all.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#berta-wise-extrapolator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/175/berta-wise-extrapolator) · oracle_id `715f0832-696c-4111-b418-d9b6da403159` · printing: SOS #175 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beseech the Mirror
@@ -3107,6 +3149,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 rules) → [reverse index](../../references/B.md#beseech-the-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/82/beseech-the-mirror) · oracle_id `cbbe535b-12d6-4e6c-8b26-9220f06a1604` · printing: WOE #82 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beseech the Queen
@@ -3124,6 +3167,7 @@ schema: 2
   - *2008-05-01* — A card with monocolored hybrid mana symbols in its mana cost has a mana value equal to the highest possible cost it could be cast for. Its mana value never changes. Thus, Beseech the Queen has a mana value of 6, even if you spend {B}{B}{B} to cast it.
   - *2008-05-01* — If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Beseech the Queen by spending {B}{B}{B}, {2}{B}{B}, {4}{B}, or {6}.
   - *2008-05-01* — If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#beseech-the-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/19/beseech-the-queen) · oracle_id `cf94cafc-527e-4b27-8a28-7807435aaccf` · printing: HOP #19 (2009-09-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Beskir Shieldmate
@@ -3137,6 +3181,7 @@ schema: 2
   > *"If we fall today, let us fall with honor, defending our realm from the horrors that would defile it. Forward, shieldmates! To Starnheim!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19424 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beskir-shieldmate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/4/beskir-shieldmate) · oracle_id `a1090a50-2347-48d0-bb67-379accb8e02d` · printing: KHM #4 (2021-02-05) · [rulings](https://api.scryfall.com/cards/dfc1df84-9c47-444b-9d58-d9c7bed51c66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Besmirch
@@ -3195,6 +3240,7 @@ schema: 2
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#besotted-knight--betroth-the-beast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/4/besotted-knight-betroth-the-beast) · oracle_id `c7b6d2cd-9105-404b-88f0-a67037fb2120` · printing: WOE #4 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bespoke Battlegarb
@@ -3347,6 +3393,7 @@ schema: 2
   > *—Alacrian proverb*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14593 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bestow-greatness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/155/bestow-greatness) · oracle_id `58a17110-b2a7-4dbc-bba5-5ed3728ad261` · printing: DFT #155 (2025-02-14) · [rulings](https://api.scryfall.com/cards/b6a5adee-3482-4c5b-9260-58efa8fec5ba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Betor, Ancestor's Voice
@@ -3360,6 +3407,7 @@ schema: 2
 - **Keywords:** Flying, Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5188 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#betor-ancestors-voice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/1/betor-ancestors-voice) · oracle_id `990b5e12-6e04-4832-9d64-87278f12cbda` · printing: TDC #1 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2e261489-8dde-4594-8868-69f432f03d03/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Betor, Kin to All
@@ -3374,6 +3422,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3157 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-04-04* — Betor’s last ability will check as the end step starts to see if creatures you control have total toughness 10 or greater. If they don’t, the ability won’t trigger at all. If it does trigger, the ability will check again as it tries to resolve. If creatures you control don’t have total toughness 10 or more at that time, the ability won’t resolve and none of its effects will happen. The ability won’t check to see if their total toughness is 20 or greater (or 40 or greater) until the ability resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#betor-kin-to-all)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/172/betor-kin-to-all) · oracle_id `826a0db6-195a-4697-9bd6-f544b279e3cf` · printing: TDM #172 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Betrayal
@@ -3404,6 +3453,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — If one of the two other target creatures leaves the battlefield before Betrayal at the Vault resolves, the creature you control will still deal damage to the remaining other target creature.
   - *2024-04-12* — If the creature you control leaves the battlefield before Betrayal at the Vault resolves, Betrayal at the Vault has no effect and no damage is dealt.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#betrayal-at-the-vault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/155/betrayal-at-the-vault) · oracle_id `f1dce3f0-30c8-488f-bbeb-b0533886c655` · printing: OTJ #155 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Betrayal of Flesh
@@ -3433,6 +3483,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18019 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If Betrayer's Bargain resolves, its effect causes the creature to be exiled any time it would die that turn, not just if it would die as a result of damage dealt by Betrayer's Bargain.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#betrayers-bargain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/126/betrayers-bargain) · oracle_id `bfb3d862-d92d-4a4f-9a22-671b55d954fd` · printing: DSK #126 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Betrothed of Fire
@@ -3447,6 +3498,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20442 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — If you control Betrothed of Fire, but it’s attached to a creature you don’t control, no one can activate the last ability. The creature’s controller can’t activate it because that player doesn’t control the Aura. You can’t activate it because you can’t pay the cost — you can’t sacrifice a creature you don’t control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#betrothed-of-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/89/betrothed-of-fire) · oracle_id `77849657-c872-4d54-9149-a08bbe90f787` · printing: WTH #89 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Better Than One
@@ -3560,4 +3612,5 @@ schema: 2
   - *2024-07-26* — In a multiplayer game, you consider each opponent. If you have fewer lands than one opponent and less life than another, for example, you'll get both of those bonuses.
   - *2024-07-26* — No player may take any actions while Beza's ability is resolving. For example, you can't use the Treasure token to try and change the outcome of any of the other comparisons. However, in some unusual cases, that Treasure token might enter as a creature, in which case it might impact whether you get Fish or not.
   - *2024-07-26* — You compare the number of lands you control with the number of lands each opponent controls as Beza's ability resolves. At that time, if at least one opponent controls more lands than you, you'll create a Treasure token. Similarly, you compare life totals, creatures controlled, and cards in hand with each opponent as Beza's ability resolves. If at least one opponent has more life, creatures, or cards in hand than you, you'll get the appropriate bonus. It doesn't matter if you qualified for any of the previous bonuses or not.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#beza-the-bounding-spring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/2/beza-the-bounding-spring) · oracle_id `020de6d7-f5a2-4036-ad25-451e5977b4d4` · printing: BLB #2 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

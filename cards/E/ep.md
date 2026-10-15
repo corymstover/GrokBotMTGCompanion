@@ -178,6 +178,7 @@ schema: 2
   - *2019-06-14* — If a spell with rebound that you cast from your hand is countered or doesn't resolve (most likely because its targets have become illegal), none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
   - *2019-06-14* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2019-06-14* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#ephemerate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/7/ephemerate) · oracle_id `0fd57894-b917-41c8-a394-360d1d31b236` · printing: MH1 #7 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ephemeron
@@ -211,6 +212,7 @@ schema: 2
   - *2018-03-16* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
   - *2022-10-14* — If the creature you control is an illegal target as Epic Confrontation tries to resolve, the creature you control won't get +1/+2. If that creature is a legal target but the creature you don't control isn't, your creature will still get +1/+2. In both cases, neither creature will deal or be dealt damage.
   - *2022-10-14* — You can't cast Epic Confrontation unless you choose both a creature you control and a creature you don't control as targets.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#epic-confrontation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/176/epic-confrontation) · oracle_id `31123cb5-2dd5-4f2b-a2fd-8f87095972c6` · printing: BRO #176 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epic Downfall
@@ -225,6 +227,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2025-10-02* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#epic-downfall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/96/epic-downfall) · oracle_id `ed5d6aba-0b8d-48b3-a84c-618f45fb67b1` · printing: TLA #96 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Epicenter

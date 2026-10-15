@@ -247,6 +247,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — Protection from a player means that you have protection from each object controlled by that player. If an object has no controller (such as a card in a graveyard), its owner is considered its controller for this purpose.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#noble-heritage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/35/noble-heritage) · oracle_id `2e342aa3-2590-4b59-852a-9adb31bafe5c` · printing: CLB #35 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noble Hierarch
@@ -266,6 +267,7 @@ schema: 2
   - *2020-08-07* — In a Two-Headed Giant game, a creature “attacks alone” if it's the only creature declared as an attacker by your entire team. If you control that attacking creature, your exalted abilities will trigger but your teammate's exalted abilities won't.
   - *2020-08-07* — Some effects put creatures onto the battlefield attacking. Since those creatures were never declared as attackers, they're ignored by exalted abilities. They won't cause exalted abilities to trigger. If any exalted abilities have already triggered (because exactly one creature was declared as an attacker), those abilities will resolve as normal even though there may now be multiple attackers.
   - *2020-08-07* — You must attack with exactly one creature for exalted abilities to trigger. Exalted abilities won't trigger if you attack a player with one creature and a planeswalker with another, for example, or if you attack with two creatures but one is removed from combat.
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 rules) → [reverse index](../../references/N.md#noble-hierarch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/177/noble-hierarch) · oracle_id `98aa9424-5912-4bd6-9300-b3972a31d8af` · printing: 2XM #177 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noble Ox
@@ -286,6 +288,7 @@ schema: 2
   - *2024-11-08* — Noble Ox’s enters-the-battlefield ability causes all unblocked creatures attacking you to become blocked by Noble Ox, regardless of whether Noble Ox can normally block that creature.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#noble-ox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/521/noble-ox) · oracle_id `b152753f-0516-4e21-b823-608e9d0c9c82` · printing: MB2 #521 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noble Panther
@@ -445,6 +448,7 @@ schema: 2
   - *2025-06-06* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
   - *2025-06-06* — Multiple finality counters on a single permanent are redundant.
   - *2025-06-06* — You pay all costs and follow all timing rules for artifact spells cast with the permission granted by Noctis's last ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#noctis-prince-of-lucis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/235/noctis-prince-of-lucis) · oracle_id `2d44bdd2-aa31-415a-be71-d9e98ef12334` · printing: FIN #235 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nocturnal Feeder
@@ -542,6 +546,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — A creature or planeswalker spell that can’t be countered is a legal target for No Escape. The spell won’t be countered when No Escape resolves, but you’ll still scry 1.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#no-escape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/63/no-escape) · oracle_id `7c6e0198-edd8-42b8-ba1b-549e1713d188` · printing: WAR #63 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noetic Scales
@@ -691,6 +696,7 @@ schema: 2
   - *2022-10-07* — Two new cards in this set give the next spell you cast cascade. This means that the next spell you cast gains cascade as you begin to cast it by putting it on the stack, and the cascade ability will trigger when you finish casting that spell.
   - *2022-10-07* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2022-10-07* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#noise-marine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/82/noise-marine) · oracle_id `1f7e85cf-afee-4041-9436-1fb69b4ec292` · printing: 40K #82 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nomad Decoy
@@ -719,6 +725,7 @@ schema: 2
   > *"I've journeyed across Dominaria. Phyrexians are everywhere. Plague is everywhere. There's no place left to hide."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27935 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nomadic-elf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/38/nomadic-elf) · oracle_id `025bbfc8-bccd-4062-b758-7f9e1f8ad420` · printing: DDE #38 (2010-03-19) · [rulings](https://api.scryfall.com/cards/fc4a26f7-36df-4018-8dab-a1294c36b0f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nomad Mythmaker
@@ -748,6 +755,7 @@ schema: 2
   > *—Tersa Lightshatter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #381 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/N.md#nomad-outpost)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/263/nomad-outpost) · oracle_id `4619de7e-3d6e-4c6b-8e6e-e24db324839d` · printing: TDM #263 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a68fbeaa-941f-4d53-becd-f93ed22b9a54/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nomads' Assembly
@@ -768,6 +776,7 @@ schema: 2
   - *2010-06-15* — If you cast a spell with rebound from anywhere other than your hand (such as from your graveyard due to Sins of the Past, from your library due to cascade, or from your opponent’s hand due to Sen Triplets), rebound won’t have any effect. If you do cast it from your hand, rebound will work regardless of whether you paid its mana cost (for example, if you cast it from your hand due to Maelstrom Archangel).
   - *2010-06-15* — If you cast a spell with rebound from your hand and it resolves, it isn’t put into your graveyard. Rather, it’s exiled directly from the stack. Effects that care about cards being put into your graveyard won’t do anything.
   - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nomads-assembly)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/82/nomads-assembly) · oracle_id `a9a0088a-3c86-4baf-9754-79006f733ce1` · printing: C14 #82 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nomads en-Kor
@@ -875,6 +884,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11485 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#noose-constrictor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/210/noose-constrictor) · oracle_id `fb1d521f-cb64-4b87-b3f4-a74e91a60349` · printing: INR #210 (2025-01-24) · [rulings](https://api.scryfall.com/cards/b432cccb-4291-46f3-a171-919adf8b95eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noosegraf Mob
@@ -919,6 +929,7 @@ schema: 2
   - *2024-11-08* — For many playtest cards, you’ll need to make a generous assumption that basic game rules would be updated to allow them to work. The Mystery Booster 2 Playtest Card Notes section (reproduced here in individual Gatherer rulings) provides guidance for fitting these cards into the existing rules structure.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#no-regrets-egret)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/533/no-regrets-egret) · oracle_id `9ee38cb1-6a7f-42b7-814b-3c633f6762ac` · printing: MB2 #533 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### No Rest for the Wicked
@@ -951,6 +962,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Norika Yamazaki's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — You must still follow all normal timing rules and pay all costs for the enchantment card you cast this way.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#norika-yamazaki-the-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/31/norika-yamazaki-the-poet) · oracle_id `6f143c8f-cb5c-4abc-a01b-b6813f5a524c` · printing: NEO #31 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norin and Feldon
@@ -1040,6 +1052,7 @@ schema: 2
   - *2025-09-19* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of other double-faced cards is determined.
   - *2025-09-19* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
   - *2025-09-19* — While a double-faced card isn't on the stack or battlefield, consider only the characteristics of its front face.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/N.md#norman-osborn--green-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/39/norman-osborn-green-goblin) · oracle_id `aa5b06a4-90c3-45e7-ab83-cb5c96ded21d` · printing: SPM #39 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norn's Annex
@@ -1060,6 +1073,7 @@ schema: 2
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — The controller of each creature attacking you or a planeswalker you control pays either {W} or 2 life as attackers are being declared.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#norns-annex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/829/norns-annex) · oracle_id `9a1fbe72-4a17-42be-8e23-d7d30a5e59c1` · printing: CMM #829 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norn's Choirmaster
@@ -1091,6 +1105,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4200 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — A player is poisoned if that player has one or more poison counters.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#norns-decree)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/9/norns-decree) · oracle_id `92c43ee1-0f7d-4993-8d3a-689cc87d7480` · printing: ONC #9 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norn's Inquisitor
@@ -1121,6 +1136,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7236 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#norns-wellspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/24/norns-wellspring) · oracle_id `56a55f45-2cc6-407d-b212-5619c98456d9` · printing: ONE #24 (2023-02-10) · [rulings](https://api.scryfall.com/cards/eeebc0ab-89fb-47d5-a20f-8f1fe5e3c149/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Norritt
@@ -1211,6 +1227,7 @@ schema: 2
   - *2025-10-02* — If a waterbend cost is part of the total cost to cast a spell or activate an ability, you may tap an untapped artifact or creature you control rather than pay one generic mana in that total cost any number of times up to a maximum of the amount of generic mana in the waterbend component of that total cost.
   - *2025-10-02* — If an artifact or creature you control has a mana ability with {T} in the cost, activating that ability while casting a spell or activating an ability with waterbend will result in the artifact or creature being tapped before you pay the spell's costs. You won't be able to tap it again for waterbend. Similarly, if you sacrifice an artifact or creature to activate a mana ability to pay a cost with waterbend, that artifact or creature won't be on the battlefield when you pay the spell's costs, so you won't be able to tap it for waterbend.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#north-pole-patrol)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/65/north-pole-patrol) · oracle_id `a1230e78-0bfa-489e-a1b9-3c227bceb6fb` · printing: TLA #65 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### North Star
@@ -1351,6 +1368,7 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#not-dead-after-all)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/101/not-dead-after-all) · oracle_id `380c367f-73ea-485f-a37b-5af0ba160893` · printing: WOE #101 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Not Forgotten
@@ -1411,6 +1429,7 @@ schema: 2
   - *2018-03-16* — If an opponent is instructed to draw a card then discard a card, and Notion Thief causes you to draw a card instead, that opponent still discards a card. The same is true of any other actions that opponent is instructed to do.
   - *2018-03-16* — If two or more players each control a Notion Thief and a player would draw a card other than the first one in their draw step, that player chooses one of the applicable Notion Thief effects to apply. Then the player whose Notion Thief's effect was chosen repeats this process among the remaining Notion Thief effects, and so on, until there are no more possible such effects to apply. Each effect can be applied to the card draw only once this way.
   - *2018-03-16* — The above procedure means that if each player in a two-player game controls a Notion Thief and one would draw a card, it really will be that player who draws a card.
+- **Referenced in:** 10 pages (7 decks · 2 edh guides · 1 card data) → [reverse index](../../references/N.md#notion-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/96/notion-thief) · oracle_id `f8dab16e-1d50-443e-9431-8b6f1cf61c9c` · printing: ZNC #96 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Not of This World
@@ -1430,6 +1449,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/N.md#not-of-this-world)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/807/not-of-this-world) · oracle_id `5da5d8a3-009e-4d8a-977e-6ebc73ba2682` · printing: CMM #807 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Not on My Watch
@@ -1442,6 +1462,7 @@ schema: 2
   > *"You know, Proft, I've done a lot of questionable things in my life, but helping a pompous detective save lives is a new low, even for me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14014 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/N.md#not-on-my-watch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/28/not-on-my-watch) · oracle_id `2d400c01-d2d0-442a-bc3d-cf106a754dab` · printing: MKM #28 (2024-02-09) · [rulings](https://api.scryfall.com/cards/700294fc-7c16-4f7d-bce0-7452d8e9c401/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Notorious Assassin
@@ -1469,6 +1490,7 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#notorious-sliver-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/41/notorious-sliver-war) · oracle_id `06f8efdd-4e8e-4524-859b-71f2f1732ad5` · printing: SUNF #41 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5feced69-a138-4a56-85f2-7c2cbdde5fa6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Notorious Throng
@@ -1485,6 +1507,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/N.md#notorious-throng)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/33/notorious-throng) · oracle_id `b1461f2a-2f12-49ae-8821-d934dddcb567` · printing: ZNC #33 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nourish
@@ -1565,6 +1588,7 @@ schema: 2
   > *The Human Torch channels every iota of his power into a single burst—a burst that rivals the energies of an exploding star!*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15543 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#nova-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/57/nova-flame) · oracle_id `f4310dfd-52eb-4c1f-b1ad-bfbc9b50fe7b` · printing: MSC #57 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1b5f713f-6ad9-445e-ae4c-56250bb3aecb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nova Hellkite
@@ -1713,6 +1737,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21874 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-05-01* — To activate the activated ability, either remove two +1/+1 counters from a single creature you control or remove one +1/+1 counter from each of two different creatures you control.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/N.md#novijen-sages)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/53/novijen-sages) · oracle_id `6d7f3139-9776-43bb-ae12-12ed4f5c3a51` · printing: MM2 #53 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### No Way Out
@@ -1764,6 +1789,7 @@ schema: 2
   - *2024-09-20* — If a spell or ability targeting a creature an opponent controls with a ward ability is on the stack, causing Nowhere to Run to leave the battlefield won't cause that ward ability to trigger.
   - *2024-09-20* — If a spell or ability you control targets a creature an opponent controls with hexproof and Nowhere to Run leaves the battlefield while that spell or ability is on the stack, that creature becomes an illegal target for that spell or ability. This includes Nowhere to Run's own triggered ability.
   - *2024-09-20* — Ward abilities of creatures your opponents control won't trigger as long as Nowhere to Run is on the battlefield. It doesn't matter whether or not they have hexproof.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nowhere-to-run)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/111/nowhere-to-run) · oracle_id `da82ca96-a613-4d00-9e6b-1fece4fc23d0` · printing: DSK #111 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Now I Know My ABC's
@@ -1842,6 +1868,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — A player with ten or more poison counters loses the game as a state-based action.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#noxious-bayou)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/118/noxious-bayou) · oracle_id `93dbcf2c-4126-48d1-8eab-f368efcf8e62` · printing: CMB2 #118 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noxious Dragon
@@ -1889,6 +1916,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If the target creature has indestructible, it isn't destroyed this way and you won't gain life. If it is destroyed but put into a zone other than a graveyard, you'll gain life.
   - *2016-09-20* — Use the toughness of the creature as it last existed on the battlefield to determine how much life to gain.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/N.md#noxious-gearhulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/191/noxious-gearhulk) · oracle_id `a77b5be2-f361-4135-ba25-670a74d268ac` · printing: TDC #191 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noxious Ghoul
@@ -1992,6 +2020,7 @@ schema: 2
   - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/N.md#noxious-revival)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/118/noxious-revival) · oracle_id `97cabeda-9fe3-490d-99b4-4c8d87c17157` · printing: NPH #118 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Noxious Toad

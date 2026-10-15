@@ -284,6 +284,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #591 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-04-16* — You can choose to add either {B} or {G} for each permanent destroyed. You aren't limited to one color.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#culling-ritual)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/302/culling-ritual) · oracle_id `15e5136e-ed15-49a8-b027-e09436673fb4` · printing: SOC #302 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Culling Scales
@@ -327,6 +328,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 10 pages (6 decks · 3 edh guides · 1 card data) → [reverse index](../../references/C.md#culling-the-weak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/exo/55/culling-the-weak) · oracle_id `6385fd0d-256d-4400-9319-afa8170024db` · printing: EXO #55 (1998-06-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Culmination of Studies
@@ -374,6 +376,7 @@ schema: 2
   - *2022-09-09* — Creature tokens that die are put into your graveyard as normal (and cease to exist soon after). If a non-Skeleton creature token died this turn, it satisfies the activation restriction.
   - *2022-09-09* — Similarly, Cult Conscript didn't need to be any specific zone at the time that creature died.
   - *2022-09-09* — The creature that died doesn't have to still be in its owner's graveyard to satisfy the activation restriction.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cult-conscript)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/88/cult-conscript) · oracle_id `e5762815-5fc3-4ae7-abee-69f27c5e4e90` · printing: DMU #88 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cult Guildmage
@@ -425,6 +428,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cultist-of-the-absolute)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/123/cultist-of-the-absolute) · oracle_id `bdc2a72a-f1c0-4e67-8e86-1121a4000537` · printing: CLB #123 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultist's Staff
@@ -453,6 +457,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-08-15* — If you choose to find only one basic land card, you put it onto the battlefield tapped.
+- **Referenced in:** 22 pages (16 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#cultivate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/172/cultivate) · oracle_id `8b755881-a72d-4e21-a369-d2924eb4585a` · printing: MSC #172 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultivator Colossus
@@ -469,6 +474,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-11-19* — The process is repeated until you decline to put a land card onto the battlefield.
   - *2021-11-19* — You repeat the process as part of Cultivator Colossus's triggered ability's resolution. If the land you put onto the battlefield caused any abilities to trigger, those abilities won't go on the stack until after the ability has finished resolving.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#cultivator-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/190/cultivator-colossus) · oracle_id `4d8505d3-c8a1-4850-95d4-5ddb8ad49770` · printing: INR #190 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cultivator Drone
@@ -545,6 +551,7 @@ schema: 2
 - **Keywords:** Sec, Caan, Jast, Thay
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11556 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/C.md#cult-of-skaro)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/117/cult-of-skaro) · oracle_id `1cf40a30-5b42-4dce-ae4f-699bc879e180` · printing: WHO #117 (2023-10-13) · [rulings](https://api.scryfall.com/cards/3913111c-6a77-4536-bbb4-0ac5bf18fe53/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cult of the Waxing Moon
@@ -749,6 +756,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8005 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — First you choose a card to discard, then each other player in turn order chooses a card to discard, then all those cards are discarded simultaneously. No one sees what the other players are discarding before deciding which cards to discard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cunning-lethemancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/69/cunning-lethemancer) · oracle_id `d696aba9-ef3e-4f81-821a-c1df51431b8a` · printing: ALA #69 (2008-10-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cunning Maneuver
@@ -787,6 +795,7 @@ schema: 2
   - *2020-04-17* — Players can't attempt to remove Cunning Nightbonder to raise the cost of a spell you wish to cast, but they can remove it to allow their spells and abilities to counter your spells.
   - *2020-04-17* — Spells with flash that you control but didn't cast (perhaps because they're copies of a spell or because you took control of them from another player) can be countered.
   - *2020-04-17* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Cunning Nightbonder). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#cunning-nightbonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/219/cunning-nightbonder) · oracle_id `7351317d-62a1-4894-9811-aa950c49eece` · printing: IKO #219 (2020-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cunning Rhetoric
@@ -1003,6 +1012,7 @@ schema: 2
   - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn’t make an object more historic than another or provide an additional bonus—an object either is historic or it isn’t.
   - *2018-04-27* — If Curator’s Ward is attached to a historic permanent you don’t control, you draw two cards when that permanent leaves the battlefield, not that permanent’s controller.
   - *2018-04-27* — If you give hexproof to an opponent’s permanent, such as by enchanting it with Curator’s Ward, that player can still target that permanent, but you can’t.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#curators-ward)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/49/curators-ward) · oracle_id `a89ad91e-2bc2-45f4-b32c-fb2b67a2019e` · printing: DOM #49 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curfew
@@ -1033,6 +1043,7 @@ schema: 2
   - *2024-03-08* — If a creature has a characteristic-defining ability that sets its power, indicated with a * or similar in the power and toughness box, that ability is taken into account when determining its base power.
   - *2024-03-08* — If the copied creature has {X} in its mana cost, X is 0.
   - *2024-03-08* — Normally, a creature's base power is the power printed on the card, or, for a token, the power set by the effect that created it. If another effect sets a creature's power to a specific number or value, that becomes its base power. If an effect modifies a creature's power without setting it, that is not included when determining its base power.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curie-emergent-intelligence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/30/curie-emergent-intelligence) · oracle_id `48cf6b88-6bca-49d4-9951-36d98befa588` · printing: PIP #30 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curiosity
@@ -1052,6 +1063,7 @@ schema: 2
   - *2023-09-01* — Curiosity doesn't trigger if the enchanted creature deals damage to a planeswalker or to a battle.
   - *2023-09-01* — If you control Curiosity and it's enchanting an opponent's creature, you won't draw a card when that creature deals damage to you. The creature has to deal damage to one of your opponents for the ability to trigger.
   - *2023-09-01* — You draw one card each time the enchanted creature deals damage to an opponent, no matter how much damage it deals.
+- **Referenced in:** 10 pages (3 decks · 5 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#curiosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/147/curiosity) · oracle_id `223fa044-d387-4884-bf4e-75f1b61c6a46` · printing: JMP #147 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curiosity Crafter
@@ -1066,6 +1078,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1691 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curiosity-crafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/191/curiosity-crafter) · oracle_id `0be907b2-54f9-4c8c-b6af-7c0093892e42` · printing: SOC #191 (2026-04-24) · [rulings](https://api.scryfall.com/cards/930d830b-5e6a-422a-806e-fd7275517deb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curious Altisaur
@@ -1081,6 +1094,7 @@ schema: 2
 - **Keywords:** Reach, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2933 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#curious-altisaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/90/curious-altisaur) · oracle_id `80686908-abb5-4728-a5f6-71baca27f467` · printing: LCC #90 (2023-11-17) · [rulings](https://api.scryfall.com/cards/83fb87d8-d6f6-4cb0-aca1-49e6fcb181b1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curious Cadaver
@@ -1120,6 +1134,7 @@ schema: 2
   - *2025-11-17* — If one of the affected creatures gains an ability after Curious Colossus's ability resolves, it will keep that ability.
   - *2025-11-17* — The effects of Curious Colossus's ability apply only to creatures the target opponent controls as the ability resolves. Creatures they begin to control later won't be affected.
   - *2025-11-17* — The effects of Curious Colossus's ability last indefinitely. They don't expire during the cleanup step or when Curious Colossus leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#curious-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/12/curious-colossus) · oracle_id `c8de2e1b-f2fa-4b6a-a3c5-9811c7f5f051` · printing: ECL #12 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curious Farm Animals
@@ -1190,6 +1205,7 @@ schema: 2
   - *2016-07-13* — If you activate Curious Homunculus's mana ability in response to its triggered ability, you can spend that mana to cast an instant spell during your upkeep after it has transformed into Voracious Reader. If you don't spend the mana, it will be lost before your draw step begins; you can't use it to cast the card you draw or to cast a sorcery.
   - *2016-07-13* — If you don't have enough instant and/or sorcery cards in your graveyard as your upkeep begins, Curious Homunculus's last ability doesn't trigger. If you don't have enough as the ability resolves, the ability has no effect.
   - *2016-07-13* — Mana from Curious Homunculus's first ability can be spent to cast a spell that has generic mana in its additional cost, such as Borrowed Malevolence with both modes chosen. It can't be spent to pay costs during a spell's resolution, such as the cost Convolute prompts a player to pay.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#curious-homunculus--voracious-reader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/54/curious-homunculus-voracious-reader) · oracle_id `c38db10f-c0b7-4391-b49a-77079a4d087c` · printing: EMN #54 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curious Inquiry
@@ -1266,6 +1282,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#curious-pair--treats-to-share)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/150/curious-pair-treats-to-share) · oracle_id `e67bd8eb-66db-48af-82f8-74f5595f1928` · printing: ELD #150 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curio Vendor
@@ -1292,6 +1309,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2439 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/C.md#currency-converter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/55/currency-converter) · oracle_id `981298e6-ddee-49c0-9377-f47f019b4138` · printing: FRC #55 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f91b18ef-ac8a-4d4c-9586-b101681d33e2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse Artifact
@@ -1347,6 +1365,7 @@ schema: 2
   - *2025-02-07* — If the card copied by the token had any “when [this permanent] enters” abilities, then the token also has those abilities and they’ll trigger when it enters. Similarly, any “as [this permanent] enters” or “[this permanent] enters with” abilities that the token has copied will also work.
   - *2025-02-07* — Once you’ve activated an embalm ability, the card is immediately exiled. Opponents can’t try to stop the ability by exiling the card.
   - *2025-02-07* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cursecloth-wrappings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/81/cursecloth-wrappings) · oracle_id `d9c4996a-35eb-4d38-9680-57d9d039ed82` · printing: DFT #81 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Courtier
@@ -1384,6 +1403,7 @@ schema: 2
 - **Keywords:** Prowess
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cursed-firebreathing-yogurt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/22/cursed-firebreathing-yogurt) · oracle_id `535fd365-19f4-4861-8f86-d814650355e9` · printing: SUNF #22 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6534ab2b-ed2e-4c51-914d-920dc2307f43/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Flesh
@@ -1444,6 +1464,7 @@ schema: 2
   - *2021-04-16* — If the copied creature is a token, Cursed Mirror copies the original characteristics of that token as stated by the effect that created the token. Copying a token doesn't make Cursed Mirror a token. Similarly, if Cursed Mirror itself is a token, copying a nontoken permanent doesn't make it stop being a token.
   - *2021-04-16* — If the copied creature is copying something else, then Cursed Mirror enters the battlefield as a copy of whatever that creature is copying.
   - *2021-04-16* — While it is copying a creature, Cursed Mirror does not have "{T}: Add {R}" (unless the creature it's copying also has that ability).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#cursed-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/49/cursed-mirror) · oracle_id `4d67e2a7-4aa7-44cc-853b-500d7aac046d` · printing: FRC #49 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Monstrosity
@@ -1460,6 +1481,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32145 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cursed-monstrosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/126/cursed-monstrosity) · oracle_id `16e03598-30bf-4b6c-9b88-36c3c5c010dd` · printing: ODY #126 (2001-10-01) · [rulings](https://api.scryfall.com/cards/8de97585-3d24-4e8d-8bf9-edd75ee88443/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Rack
@@ -1536,6 +1558,7 @@ schema: 2
   - *2021-06-18* — Cursed Totem doesn't stop players from activating abilities of creature cards that aren't on the battlefield, such as cycling or unearth.
   - *2021-06-18* — Cursed Totem stops players from activating mana abilities of creatures.
   - *2021-06-18* — Other abilities of creatures, including static abilities and triggered abilities, are unaffected.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cursed-totem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/295/cursed-totem) · oracle_id `6225a704-430a-4f56-ad87-0e8d87f285f5` · printing: MH2 #295 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cursed Windbreaker
@@ -1620,6 +1643,7 @@ schema: 2
   - *2011-01-22* — If more than one Curse of Bloodletting enchants the same player, damage dealt to that player will double for each one (two of them will end up multiplying the damage by four, three of them by eight, and four of them by sixteen).
   - *2011-01-22* — If multiple effects modify how damage will be dealt to the enchanted player, that player chooses the order to apply the effects. For example, Mending Hands says, “Prevent the next 4 damage that would be dealt to any target this turn.” Suppose a spell would deal 5 damage to enchanted player and that player has cast Mending Hands targeting themselves. The enchanted player can either (a) prevent 4 damage first and then let Curse of Bloodletting’s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage.
   - *2011-01-22* — The source of the damage doesn’t change. A spell that deals damage will specify the source of the damage, often the spell itself. An ability that deals damage will also specify the source of the damage, although the ability itself will never be that source. Often the source of the ability is also the source of the damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-bloodletting)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/85/curse-of-bloodletting) · oracle_id `3383a72f-fb83-4b9a-aca6-b736ed929c2e` · printing: DKA #85 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Bounty
@@ -1720,6 +1744,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9241 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-deaths-hold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/94/curse-of-deaths-hold) · oracle_id `7194cf15-69fc-46f0-987a-2cea8b498f50` · printing: ISD #94 (2011-09-30) · [rulings](https://api.scryfall.com/cards/1774d0a8-1cd3-4582-ace0-1caff92af0e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Disturbance
@@ -1738,6 +1763,7 @@ schema: 2
   - *2017-08-25* — Each Curse’s ability triggers only once, no matter how many creatures are attacking the enchanted player.
   - *2017-08-25* — If you enchant yourself with one of these Curses, you’ll get its effects whenever another player attacks you.
   - *2017-08-25* — The triggered ability of these Curses won’t trigger if only a planeswalker controlled by the enchanted player is attacked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-disturbance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/138/curse-of-disturbance) · oracle_id `6cbd36d9-de47-41b0-9ef4-a72ca01adccd` · printing: C21 #138 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Echoes
@@ -1756,6 +1782,7 @@ schema: 2
   - *2011-01-22* — If the original spell is modal (that is, it says “Choose one —” or the like), each copy will have the same mode(s). You can’t choose different ones.
   - *2011-01-22* — When the triggered ability resolves, it creates a copy of that spell for each other player. The active player creates their copy and may choose new targets first (if that player isn’t the enchanted player), then each other player (except the enchanted player) creates their copy and may choose new targets in turn order. The last player who creates their copy controls the copy that will resolve first.
   - *2011-01-22* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too. For example, if the enchanted player sacrifices a 3/3 creature to cast Fling, each copy of Fling will also deal 3 damage.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-echoes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/34/curse-of-echoes) · oracle_id `c99bac4b-7eec-4fdf-b344-0cf9639ff073` · printing: DKA #34 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Exhaustion
@@ -1772,6 +1799,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9057 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — Curse of Exhaustion will look at the entire turn to see if the enchanted player has cast a spell yet that turn, even if Curse of Exhaustion wasn’t on the battlefield when that spell was cast.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/C.md#curse-of-exhaustion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/5/curse-of-exhaustion) · oracle_id `6659fae5-09d9-4095-8de3-643afd6ad3be` · printing: DKA #5 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Fool's Wisdom
@@ -1796,6 +1824,7 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-fools-wisdom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/16/curse-of-fools-wisdom) · oracle_id `93b2a685-8267-4cbd-ac55-db6ff95fe98d` · printing: C19 #16 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Hospitality
@@ -1810,6 +1839,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7990 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — Curse of Hospitality's triggered ability triggers once for each creature that dealt combat damage to the enchanted player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-hospitality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/152/curse-of-hospitality) · oracle_id `0fb70b94-0847-4155-8953-cb53fef82ef1` · printing: VOW #152 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Inertia
@@ -1890,6 +1920,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9291 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — The Curse card you put onto the battlefield must have a different name than each other Curse enchanting the enchanted player when the triggered ability resolves. If multiple of these abilities trigger, the Curse card you put onto the battlefield when the first resolves may impact your choices for each subsequent one.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-misfortunes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/56/curse-of-misfortunes) · oracle_id `b03c7c8d-8206-45cd-8ead-8f7b35c03a7a` · printing: DKA #56 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Oblivion
@@ -1920,6 +1951,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10326 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-obsession)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/35/curse-of-obsession) · oracle_id `ca4b4bf2-ed34-444c-9088-dd1ea488ec4e` · printing: MIC #35 (2021-09-24) · [rulings](https://api.scryfall.com/cards/69ba6262-a3b1-4009-b2ed-ae684dfae022/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Opulence
@@ -1939,6 +1971,7 @@ schema: 2
   - *2017-08-25* — Each Curse's ability triggers only once, no matter how many creatures are attacking the enchanted player.
   - *2017-08-25* — If you enchant yourself with one of these Curses, you'll get its effects whenever another player attacks you.
   - *2017-08-25* — The triggered ability of these Curses won't trigger if only a planeswalker controlled by the enchanted player is attacked.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#curse-of-opulence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/209/curse-of-opulence) · oracle_id `ba0d3df2-3acf-46d7-8d64-8d67d1579adc` · printing: TDC #209 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Predation
@@ -1974,6 +2007,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9025 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If a player who has already cast a spell this turn becomes enchanted by Curse of Shaken Faith, casting more spells the same turn will cause the ability to trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-shaken-faith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/134/curse-of-shaken-faith) · oracle_id `297494f0-1f79-4f77-b68b-6ed858e21f4e` · printing: MID #134 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Shallow Graves
@@ -2036,6 +2070,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10412 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — The controller of Curse of Surveillance chooses the targets for its triggered ability, no matter which player it is attached to. If you control Curse of Surveillance and it's attached to another player, you can (and probably should) choose yourself as a target.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-surveillance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/46/curse-of-surveillance) · oracle_id `4fd061f2-7269-4eea-bc7c-95a123893efa` · printing: MID #46 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of the Bloody Tome
@@ -2112,6 +2147,7 @@ schema: 2
   - *2013-10-17* — Each of the Curses can be attached to any player, including the player who cast the Curse.
   - *2013-10-17* — The Curse subtype has no inherent rules meaning, but two cards in the Innistrad set (Bitterheart Witch and Witchbane Orb) refer to Curses.
   - *2013-10-17* — The ability won’t trigger when a creature attacks a planeswalker controlled by the enchanted player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#curse-of-the-forsaken)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/8/curse-of-the-forsaken) · oracle_id `e00f8d6b-5bb1-4625-9fa4-114cdc381bd4` · printing: CMA #8 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of the Nightly Hunt
@@ -2160,6 +2196,7 @@ schema: 2
   - *2021-09-24* — Decayed represents a static ability and a triggered ability. “Decayed” means “This creature can't block” and “When this creature attacks, sacrifice it at end of combat.”
   - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
   - *2021-09-24* — The controller of Curse of the Restless Dead gets the Zombie token. This may not be the same player as the enchanted player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-the-restless-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/18/curse-of-the-restless-dead) · oracle_id `0b5f7a1b-fbb9-4659-8fcb-7822dc0263bc` · printing: MIC #18 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of the Swine
@@ -2172,6 +2209,7 @@ schema: 2
   > *Another imminent battle subsided in busy snuffling and carefree rooting.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #856 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/C.md#curse-of-the-swine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/192/curse-of-the-swine) · oracle_id `5669ea7c-c4fc-494c-896b-4bce9b494817` · printing: SOC #192 (2026-04-24) · [rulings](https://api.scryfall.com/cards/91eb9067-0bc7-4497-ba9c-c1ea41e5a379/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of the Werefox
@@ -2210,6 +2248,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10733 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-01-22* — The number of Curses attached to the player is counted when the ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-thirst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dka/57/curse-of-thirst) · oracle_id `ffe3ad06-50d8-4ca3-a1f7-aa31dc2c486e` · printing: DKA #57 (2012-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Unbinding
@@ -2223,6 +2262,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7276 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — The controller of Curse of Unbinding puts the creature card onto the battlefield under their control. This may not be the same player as the enchanted player.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#curse-of-unbinding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/12/curse-of-unbinding) · oracle_id `7e79cb6c-df9a-46d1-b3c6-240297e7d47d` · printing: MIC #12 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Vengeance
@@ -2238,6 +2278,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — Curse of Vengeance's first triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
   - *2016-11-08* — If you and the enchanted player both reach 0 or less life at the same time, you'll lose the game before Curse of Vengeance's second triggered ability gives you more life.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/12/curse-of-vengeance) · oracle_id `b9b1c644-041a-4b61-9d6d-bc73a3a95bb8` · printing: C16 #12 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Verbosity
@@ -2256,6 +2297,7 @@ schema: 2
   - *2017-08-25* — Each Curse's ability triggers only once, no matter how many creatures are attacking the enchanted player.
   - *2017-08-25* — If you enchant yourself with one of these Curses, you'll get its effects whenever another player attacks you.
   - *2017-08-25* — The triggered ability of these Curses won't trigger if only a planeswalker controlled by the enchanted player is attacked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#curse-of-verbosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/717/curse-of-verbosity) · oracle_id `c6f76fa7-095e-4bfe-a38c-5c4531880880` · printing: CLB #717 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Curse of Vitality
@@ -2327,6 +2369,7 @@ schema: 2
   - *2016-11-08* — Causing an opponent to lose the game after you've announced that you're casting a spell with undaunted and determined its total cost won't cause you to have to pay more mana.
   - *2016-11-08* — Effects that reduce what you pay to cast a spell don't affect its mana value.
   - *2016-11-08* — You can't cast Curtains' Call without two creatures to target. If one becomes an illegal target after you've cast Curtains' Call, the other will still be destroyed.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#curtains-call)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/130/curtains-call) · oracle_id `cfb1b64b-bf78-4015-ac29-cdcdf2adaa02` · printing: OTC #130 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Custodian of the Trove
@@ -2465,6 +2508,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — Although the draws are not optional, if an opponent doesn't draw a card, perhaps because a replacement effect replaced the draw with another effect, that player is not counted when determining how many cards you draw.
   - *2022-06-10* — If an opponent drew more than one card this way due to a replacement effect, you still draw only one card for that player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cut-a-deal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/127/cut-a-deal) · oracle_id `8b5cffd5-5db3-4151-9275-d91387554412` · printing: MSC #127 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cut Down
@@ -2479,6 +2523,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4967 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — The total power and toughness of a creature is determined by adding its power and toughness. For example, the total power and toughness of a 3/2 creature is 5.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cut-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/89/cut-down) · oracle_id `1b30210d-10e9-4703-8967-032063bb4f26` · printing: DMU #89 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cut In
@@ -2555,6 +2600,7 @@ schema: 2
   - *2017-04-18* — Split cards with aftermath have a new frame treatment—the half you can cast from your hand is oriented the same as other cards you'd cast from your hand, while the half you can cast from your graveyard is a traditional split card half. This frame treatment is for your convenience and has no rules significance.
   - *2017-04-18* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Destined // Lead is a green and black card, it is both an instant card and a sorcery card, and its mana value is 6. This means that if an effect allows you to cast a card with mana value 2 from your hand, you can't cast Destined. This is a change from the previous rules for split cards.
   - *2017-07-14* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#cut--ribbons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/223/cut-ribbons) · oracle_id `98a5bf1a-1088-4339-9a9b-6ee5e4956cf1` · printing: AKH #223 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cut Short
@@ -2617,6 +2663,7 @@ schema: 2
   > *"We both serve the Demon Thane. Your parts would better serve with me."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23232 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#cutthroat-centurion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/89/cutthroat-centurion) · oracle_id `5707c278-dab9-43bc-b3a3-a6b7923511f4` · printing: ONE #89 (2023-02-10) · [rulings](https://api.scryfall.com/cards/b3890961-d636-4ccc-9c42-2088a8531c9b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cutthroat Contender
@@ -2691,4 +2738,5 @@ schema: 2
   - *2022-04-29* — If you pay the casualty cost of a spell, the copy will resolve before the original spell.
   - *2022-04-29* — The copy of the spell is created on the stack, so it's not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2022-04-29* — You may sacrifice only one creature to pay a spell's casualty cost, and you copy the spell only once.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#cut-your-losses)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/38/cut-your-losses) · oracle_id `54530a84-8278-4c93-a2cb-f5c86619a053` · printing: SNC #38 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

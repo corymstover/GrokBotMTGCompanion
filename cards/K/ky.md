@@ -87,6 +87,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2945 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-07-12* — Kykar's triggered ability will resolve before the spell that caused it to trigger but after targets have been chosen for that spell, so the Spirit that will be created can't be a target of that spell. Kykar's ability resolves even if that spell is countered.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/K.md#kykar-winds-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/343/kykar-winds-fury) · oracle_id `71a80491-eea2-4661-9446-26a87efbf4a8` · printing: CMM #343 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kykar, Zephyr Awakener
@@ -102,6 +103,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4189 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#kykar-zephyr-awakener)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/122/kykar-zephyr-awakener) · oracle_id `0156c94b-e64c-49de-a46c-a203c5e05e98` · printing: FDN #122 (2024-11-15) · [rulings](https://api.scryfall.com/cards/6c980998-7124-4ec6-a0b6-e8d9a2364925/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kylem All-Star
@@ -179,6 +181,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — If the card you draw is a land card, you may choose it to put onto the battlefield.
   - *2016-11-08* — Starting with you and proceeding in turn order, each player chooses a land card from their hand or chooses not to choose one, but doesn’t reveal any chosen lands yet. Once all players have made this choice, all chosen lands are revealed and enter the battlefield simultaneously.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/K.md#kynaios-and-tiro-of-meletis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/36/kynaios-and-tiro-of-meletis) · oracle_id `53ee4254-fef7-49ec-aafc-0320987764e6` · printing: C16 #36 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyodai, Soul of Kamigawa
@@ -226,6 +229,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12464 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-10-02* — The Ally creature token enters as a 1/1 creature. Any abilities that trigger when a creature with a certain power or toughness enters will see the token enter as a 1/1 creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kyoshi-battle-fan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/257/kyoshi-battle-fan) · oracle_id `849e54f9-7662-4186-859c-e4f52afbccac` · printing: TLA #257 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Island Plaza
@@ -238,6 +242,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7721 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-10-02* — For Kyoshi Island Plaza's first ability, the number of Shrines you control is checked when the ability resolves. You will still search and shuffle your library if you control no Shrines when the ability resolves, but you won't get any lands.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kyoshi-island-plaza)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/184/kyoshi-island-plaza) · oracle_id `c0cdc333-6c5a-401c-9810-220d2027f2fe` · printing: TLA #184 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Village
@@ -279,6 +284,7 @@ schema: 2
   > *Kyoshi Warrior drills are designed to encourage individual discipline as well as uncompromising trust in their fellow warriors.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22798 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kyoshi-warrior-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/216/kyoshi-warrior-guard) · oracle_id `18fe834f-4417-4df8-a49c-98e9bf2f87d2` · printing: TLE #216 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7a2acb28-c0e2-492b-a227-ef49e905e0fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kyoshi Warriors

@@ -153,6 +153,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#old-flitterfang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/316/old-flitterfang) · oracle_id `f95bdf0d-5bd1-4215-b143-0930973807ce` · printing: WOE #316 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Fogey
@@ -197,6 +198,7 @@ schema: 2
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #932 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (3 decks · 4 edh guides · 1 card data) → [reverse index](../../references/O.md#old-gnawbone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/197/old-gnawbone) · oracle_id `dff3f4c7-f792-4ca3-9b0a-0738e70664d9` · printing: AFR #197 (2021-07-23) · [rulings](https://api.scryfall.com/cards/77ceba8b-de19-4db8-b5a7-f5df49bf241f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old-Growth Dryads
@@ -244,6 +246,7 @@ schema: 2
   - *2021-02-05* — If a token is a copy of Old-Growth Troll, it won’t return from its owner’s graveyard.
   - *2021-02-05* — If there’s nothing for Old-Growth Troll to legally enchant, it remains in its owner’s graveyard.
   - *2021-02-05* — If you control but don’t own Old-Growth Troll, you (not its owner) will return it to the battlefield when it dies. You’ll choose which Forest you control it will enchant as it returns to the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#old-growth-troll)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/185/old-growth-troll) · oracle_id `11e3f1d3-9d78-4c00-b965-e14407fd5210` · printing: KHM #185 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Guard
@@ -318,6 +321,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Old One-Eye's Fast Healing ability only triggers if it is in your graveyard at the beginning of your precombat main phase.
   - *2022-10-07* — Opponents may respond to the Fast Healing ability after it goes on the stack, but they don't get the chance to cast spells or activate abilities between the time you have chosen to discard two cards and the time Old One-Eye is returned to your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#old-one-eye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/96/old-one-eye) · oracle_id `86ef2ceb-b7e6-4451-92ec-8528ea191d3a` · printing: 40K #96 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Rutstein
@@ -348,6 +352,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — The ability that defines the power and toughness of Old Stickfingers functions in all zones, not only while Old Stickfingers is on the battlefield. While Old Stickfingers is in a graveyard, the ability will count Old Stickfingers itself, presumably using a single, withered stickfinger.
   - *2021-09-24* — The triggered ability will resolve before Old Stickfingers does. If Old Stickfingers is countered in response to its own triggered ability, you will still follow all the instructions of the triggered ability, using the chosen value of X.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/O.md#old-stickfingers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/227/old-stickfingers) · oracle_id `1d85eec2-80db-466c-bd48-d2a12866e8bd` · printing: DSC #227 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Old Thrush
@@ -419,6 +424,7 @@ schema: 2
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5070 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#olivia-crimson-bride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/245/olivia-crimson-bride) · oracle_id `8922a91e-3d15-4351-8d77-e0d6bc4de82e` · printing: VOW #245 (2021-11-19) · [rulings](https://api.scryfall.com/cards/301dacc9-ef92-4515-b907-a70d6c3fd73e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia, Mobilized for War
@@ -435,6 +441,7 @@ schema: 2
   - *2016-04-08* — If the entering creature leaves the battlefield before the triggered ability of Olivia, Mobilized for War resolves, you may still discard a card. The rest of the ability has no effect.
   - *2016-04-08* — If you discard a card, the creature only gains haste until end of turn, but the +1/+1 counter and Vampire subtype remain indefinitely.
   - *2016-04-08* — You decide whether to discard a card as the triggered ability of Olivia, Mobilized for War resolves. If you do, the rest of the ability’s effects happen before any player may take actions.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#olivia-mobilized-for-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/248/olivia-mobilized-for-war) · oracle_id `1f8d387e-e4bb-4e76-a173-f46f7b107b95` · printing: SOI #248 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia, Opulent Outlaw
@@ -499,6 +506,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15641 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — You can activate the ability of Olivia’s Dragoon more than once in a turn, even if it already has flying.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#olivias-dragoon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/127/olivias-dragoon) · oracle_id `a5019399-91a8-4233-b16f-399718c4be9c` · printing: INR #127 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia's Midnight Ambush
@@ -525,6 +533,7 @@ schema: 2
   > *—Olivia Voldaren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2870 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/O.md#olivias-wrath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/205/olivias-wrath) · oracle_id `9aebd891-c8c5-4309-a07b-6cab1b204172` · printing: LCC #205 (2023-11-17) · [rulings](https://api.scryfall.com/cards/3eb5cc8d-a198-43cd-a2bd-9c9414d815b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Olivia Voldaren
@@ -541,6 +550,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-03-14* — If Olivia Voldaren deals lethal damage to a creature with its first activated ability, that creature will become a Vampire before dying.
   - *2017-03-14* — If you activate Olivia Voldaren’s last ability, and before that ability resolves you lose control of Olivia Voldaren, the ability will resolve with no effect. You won’t gain control of the targeted Vampire.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#olivia-voldaren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/246/olivia-voldaren) · oracle_id `dd27d0f2-fe1e-4b63-9ba0-6264ca3c70f8` · printing: INR #246 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ollenbock Escort
@@ -611,6 +621,7 @@ schema: 2
   - *2013-10-17* — Oloro's second ability triggers just once for each life-gaining event, no matter how much life is gained.
   - *2013-10-17* — You decide whether to pay {1} as the second ability resolves. If you do, you'll draw a card and each opponent will lose 1 life.
   - *2015-01-19* *(Scryfall note)* — Oloro, Ageless Ascetic is banned as a commander in Duel Commander format, but it may be part of your deck.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oloro-ageless-ascetic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/203/oloro-ageless-ascetic) · oracle_id `620ff5f2-7d3f-467f-943d-3b62c2135023` · printing: C13 #203 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oltec Archaeologists
@@ -658,4 +669,5 @@ schema: 2
   - *2024-04-12* — If the copied token is copying something else, then the new token enters the battlefield as whatever that token copied.
   - *2024-04-12* — Oltec Matterweaver’s ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2024-04-12* — The new token copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that creature is copying something else; see below). It doesn’t copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oltec-matterweaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/3/oltec-matterweaver) · oracle_id `3cb91696-242f-4e91-806b-61b1bb45a20c` · printing: BIG #3 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -72,6 +72,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#delay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/61/delay) · oracle_id `983caa3f-7089-4e66-825d-4086a5adb9bb` · printing: TSR #61 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delayed Blast Fireball
@@ -88,6 +89,7 @@ schema: 2
   - *2022-06-10* — Casting a foretold card from exile follows the timing rules for that card. If you foretell an instant card, you can cast it as soon as the next player's turn. In most cases, if you foretell a card that isn't an instant (or doesn't have flash), you'll have to wait until your next turn to cast it.
   - *2022-06-10* — Delayed Blast Fireball deals 5 damage if it was cast from exile for any reason; it doesn't have to be from its foretell ability.
   - *2022-06-10* — If you're casting a foretold card from exile for its foretell cost, you can't choose to cast it for any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, those must be paid to cast the spell.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/D.md#delayed-blast-fireball)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/676/delayed-blast-fireball) · oracle_id `99915b5a-5092-4900-8824-6de2aab1b2c1` · printing: CLB #676 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delaying Shield
@@ -112,6 +114,7 @@ schema: 2
   > *"You will be deleted."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5354 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/D.md#delete)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/81/delete) · oracle_id `01d0156f-c26a-4668-a3a4-15ee0790d1b6` · printing: WHO #81 (2023-10-13) · [rulings](https://api.scryfall.com/cards/875c7337-78af-4e13-89e5-3255ba2d4053/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deliberate
@@ -172,6 +175,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If the legendary spell you cast this way is copied, the copy can be countered.
   - *2023-06-16* — The legendary spell can't be countered if the mana produced by Delighted Halfling is spent to pay any portion of the spell's cost, even an additional cost or an alternative cost. This is true even if you pay an additional cost while casting a spell "without paying its mana cost."
+- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#delighted-halfling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/158/delighted-halfling) · oracle_id `f9d3b046-0b95-4103-a630-4b3fb88bb60b` · printing: LTR #158 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delighted Killbot
@@ -217,6 +221,7 @@ schema: 2
   - *2021-07-23* — Although the token is attacking, it was never declared as an attacking creature (for purposes of abilities that trigger whenever a creature attacks, for example).
   - *2021-07-23* — Delina, Wild Mage has received an update to its Oracle text. Specifically, rolling again on a result of 15–20 is optional.
   - *2021-07-23* — You declare which player or planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Delina, Wild Mage is attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#delina-wild-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/138/delina-wild-mage) · oracle_id `8d57dadb-c689-4691-b331-aba15daf46ff` · printing: AFR #138 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delirium
@@ -258,6 +263,7 @@ schema: 2
   - *2019-05-03* — You choose one opponent to make the final choice of which cards remains in your graveyard, but all players may discuss and advise this choice.
   - *2019-05-03* — You may cast Deliver Unto Evil with fewer than four targets. However, if you don’t control a Bolas planeswalker as Deliver Unto Evil resolves, your opponent will choose two of however many cards you did target (or one or zero, if you chose fewer than two) and the remainder (if any) will be put into your hand.
   - *2019-05-03* — You may cast Deliver Unto Evil with no targets if you wish. It will be exiled, and nothing else happens.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#deliver-unto-evil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/85/deliver-unto-evil) · oracle_id `9e73f938-0aa4-4639-a97a-f7e68f645623` · printing: WAR #85 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delivery Moogle
@@ -297,6 +303,7 @@ schema: 2
   - *2024-02-02* — Once an ability of a creature you control has triggered, reducing its power to 2 or less won't cause that ability to trigger an additional time. Similarly, once an ability of a creature you control with power 2 or less has triggered an additional time due to Delney, Streetwise Lookout's last ability, increasing its power to 3 or greater won't remove that additional triggered ability from the stack.
   - *2024-02-02* — Replacement effects are unaffected by Delney, Streetwise Lookout's last ability. For example, a 1/1 creature that enters the battlefield under your control with one +1/+1 counter on it won't receive an additional +1/+1 counter.
   - *2024-02-02* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at the beginning of" in their reminder text.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#delney-streetwise-lookout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/12/delney-streetwise-lookout) · oracle_id `245d0ccf-87b6-460a-8b99-9e2079f2d375` · printing: MKM #12 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delphia, Undecided
@@ -412,6 +419,7 @@ schema: 2
   - *2023-04-14* — If an exiled card has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-04-14* — If you cast a card "without paying its mana cost," you can't pay any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, those must be paid to cast the card.
   - *2023-04-14* — If you cast the instant or sorcery card, you do so as part of the resolution of the triggered ability. You can't wait to cast them later in the turn. Timing restrictions based on a card's type are ignored.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#deluxe-dragster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/21/deluxe-dragster) · oracle_id `56ba8fe5-8693-4783-8406-9ced99de0b2a` · printing: MOC #21 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Delver of Secrets // Insectile Aberration

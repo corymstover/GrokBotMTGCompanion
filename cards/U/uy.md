@@ -34,4 +34,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14205 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2004-12-01* — If you copy an Arcane spell that has cards spliced onto it, you’ll copy the spliced text as well as the original spell text.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#uyo-silent-prophet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/64/uyo-silent-prophet) · oracle_id `93da1e63-54d6-4b05-af91-f13e7e111176` · printing: C13 #64 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

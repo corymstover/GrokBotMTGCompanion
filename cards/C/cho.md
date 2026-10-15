@@ -151,6 +151,7 @@ schema: 2
   - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chocobo-racetrack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/179/chocobo-racetrack) · oracle_id `7522f7fd-6fda-4ed3-9131-21bf91616a73` · printing: FIN #179 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choco-Comet
@@ -181,6 +182,7 @@ schema: 2
   - *2025-07-25* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2025-07-25* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2025-07-25* — Whenever a land you control enters, each landfall ability of permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one to resolve. As a result, you can have those abilities resolve in the order of your choosing.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#choco-seeker-of-paradise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/215/choco-seeker-of-paradise) · oracle_id `7979bf83-5091-4e62-8885-ca1833a97306` · printing: FIN #215 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choice of Damnations
@@ -227,6 +229,7 @@ schema: 2
   - *2016-04-08* — If an effect instructs you to put Choked Estuary onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Choked Estuary itself is neither an Island nor a Swamp, even though it produces blue and black mana, so you can't reveal one to satisfy the ability of another.
   - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Prairie Stream from the Battle for Zendikar set to satisfy the ability of Choked Estuary.
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/C.md#choked-estuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/229/choked-estuary) · oracle_id `d473b507-8c33-4118-bc10-b0a268776074` · printing: MSC #229 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choking Fumes
@@ -367,6 +370,7 @@ schema: 2
   - *2025-11-17* — If an effect causes a creature with changeling to become a new creature type, it will be only that new creature type (unless the effect says "in addition" or similar). It will still have changeling; the effect making it all creature types will simply be overwritten.
   - *2025-11-17* — If an effect causes a creature with changeling to lose all abilities, it will remain all creature types, even though it will no longer have changeling. This is because changeling applies before the effect that removes it.
   - *2025-11-17* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much a Kithkin, a Goblin, a Merfolk, and a Brushwagg as it is a Shapeshifter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chomping-changeling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/172/chomping-changeling) · oracle_id `d740dbd9-8e90-4121-8d53-c6ddf5178d58` · printing: ECL #172 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chomping Kavu
@@ -453,6 +457,7 @@ schema: 2
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — When using convoke to cast a spell with {X} in its mana cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Chord of Calling (a spell with convoke and mana cost {X}{G}{G}{G}) and choose X to be 3, the total cost is {3}{G}{G}{G}. If you tap two green creatures and two red creatures, you'll have to pay {1}{G}.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/C.md#chord-of-calling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/134/chord-of-calling) · oracle_id `6789a170-f2c5-4fc0-8a45-2b2361e67410` · printing: RVR #134 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Choreographed Sparks

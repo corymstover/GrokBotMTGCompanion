@@ -60,6 +60,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Referenced in:** 37 pages (33 decks · 3 edh guides · 1 card data) → [reverse index](../../references/O.md#otawara-soaring-city)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/271/otawara-soaring-city) · oracle_id `e9b6a394-691c-425a-9307-76d8edc7375e` · printing: NEO #271 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oteclan Landmark // Oteclan Levitator
@@ -97,6 +98,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-09-29* — To determine the total cost of a Dinosaur spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
   - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#otepec-huntmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/229/otepec-huntmaster) · oracle_id `41623eab-38b5-4058-8de2-e6b8706de7a2` · printing: LCC #229 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otharri, Suns' Glory
@@ -112,6 +114,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2970 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — Tapping a Rebel you control is part of the cost to activate the last ability of Otharri, Suns' Glory while it is in the graveyard. Once a player has begun to activate the ability, other players may not respond by removing that Rebel from the battlefield to prevent it from being tapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#otharri-suns-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/ONC-3/otharri-suns-glory) · oracle_id `b081352b-d17b-4031-bbcc-c5c02cbfa6b6` · printing: PLST #ONC-3 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Othelm, Sigardian Outcast
@@ -125,6 +128,7 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16806 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/O.md#othelm-sigardian-outcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/6/othelm-sigardian-outcast) · oracle_id `4ee401bf-dc86-41a9-84f9-57aa0a314d08` · printing: SLX #6 (2022-03-03) · [rulings](https://api.scryfall.com/cards/b867fb22-4f2a-47aa-9432-1bcc5e731947/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otherworld Atlas
@@ -202,6 +206,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — If the targeted creature dies before Otherworldly Outburst resolves, the spell doesn’t resolve. You won’t get an Eldrazi Horror token.
   - *2016-07-13* — If the targeted creature doesn’t die this turn, the delayed triggered ability simply won’t trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#otherworldly-outburst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/138/otherworldly-outburst) · oracle_id `43feb61f-5de0-41b6-b678-9785c476dc08` · printing: EMN #138 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otrimi, the Ever-Playful
@@ -217,6 +222,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10149 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-04-17* — If Otrimi deals combat damage to a player at the same time that it’s dealt lethal damage, Otrimi (or any other creature card with mutate that was merged with it) can be the target of its triggered ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#otrimi-the-ever-playful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/12/otrimi-the-ever-playful) · oracle_id `c5054364-2a19-4b70-869b-94d48b7b12c0` · printing: C20 #12 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otterball Antics
@@ -229,6 +235,7 @@ schema: 2
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9416 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#otterball-antics)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/63/otterball-antics) · oracle_id `43a6de3e-152e-4af1-acec-53405742425c` · printing: BLB #63 (2024-08-02) · [rulings](https://api.scryfall.com/cards/3ff83ff7-e428-4ccc-8341-f223dab76bd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Otter-Penguin

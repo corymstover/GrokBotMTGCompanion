@@ -67,6 +67,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/Y.md#yidris-maelstrom-wielder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/50/yidris-maelstrom-wielder) · oracle_id `9efe8aff-9a7d-4397-b5fd-c1a0fad7c15f` · printing: C16 #50 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yip Yip!
@@ -80,6 +81,7 @@ schema: 2
   > *—Sokka*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11285 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/Y.md#yip-yip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/43/yip-yip!) · oracle_id `5453550f-9136-4568-baf8-c3d20e33fbb6` · printing: TLA #43 (2025-11-21) · [rulings](https://api.scryfall.com/cards/43f4b10e-165b-4100-82f3-728e1b0c78ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Yisan, the Wanderer Bard

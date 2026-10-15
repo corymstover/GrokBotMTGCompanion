@@ -38,6 +38,7 @@ schema: 2
 - **Keywords:** Lifelink, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10026 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#oildeep-gearhulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/215/oildeep-gearhulk) · oracle_id `aff0740f-51d5-41c7-ac13-97c298cfd743` · printing: DFT #215 (2025-02-14) · [rulings](https://api.scryfall.com/cards/a5e2d09e-b9f5-4a0d-96d3-984b5c2c387d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oil-Gorger Troll
@@ -85,4 +86,5 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/O.md#óin-the-brave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/106/%C3%B3in-the-brave) · oracle_id `a25ba5cc-6ff8-4215-b70d-7e86e15e3c1a` · printing: HOB #106 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

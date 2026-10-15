@@ -103,6 +103,7 @@ schema: 2
   > *—Admiral Beckett Brass*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1898 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#evacuation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/156/evacuation) · oracle_id `fdd94383-b573-439a-8e1c-925af887c5a6` · printing: LCC #156 (2023-11-17) · [rulings](https://api.scryfall.com/cards/b11037bc-e719-461e-a89e-9c026dfd9fd4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evanescent Intellect
@@ -217,6 +218,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14854 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#evelyn-the-covetous)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/184/evelyn-the-covetous) · oracle_id `4ab6f615-1f04-4ed2-88b2-49faa8356dd0` · printing: SNC #184 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c0dad61f-36cd-46af-82b7-a02e04efd676/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evendo Brushrazer
@@ -233,6 +235,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4069 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — You pay all costs and follow all timing rules for cards played with the permission granted by Evendo Brushrazer’s second ability. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#evendo-brushrazer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/10/evendo-brushrazer) · oracle_id `795bc0b0-4b0a-49d6-ac8e-a52a10a93be8` · printing: EOC #10 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evendo, Waking Haven
@@ -247,6 +250,7 @@ schema: 2
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #905 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#evendo-waking-haven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/253/evendo-waking-haven) · oracle_id `83161d59-2520-4741-9328-e2a4a8b5d5bc` · printing: EOE #253 (2025-08-01) · [rulings](https://api.scryfall.com/cards/2fa09104-acbe-4410-b101-2fe6ac28efde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Even the Odds
@@ -288,6 +292,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7618 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — Eventide's Shadow allows you to remove counters from permanents controlled by any player, not just permanents you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eventides-shadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/8/eventides-shadow) · oracle_id `92ac8aa4-e23c-4ed9-8317-c249a17ce3d2` · printing: ECC #8 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ever After
@@ -332,6 +337,7 @@ schema: 2
   - *2024-07-26* — If one of the exiled cards is a land card, you may play it only if you have an available land play remaining this turn.
   - *2024-07-26* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-07-26* — You choose and play the card while Evercoat Ursine's last ability is resolving and still on the stack. You can't wait to play it later in the turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#evercoat-ursine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/30/evercoat-ursine) · oracle_id `65c32889-3d70-449f-af76-05385c78c5a9` · printing: BLC #30 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everdawn Champion
@@ -380,6 +386,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7553 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-11-08* — Use Evereth's power as it last existed on the battlefield to determine how much damage it deals with its last ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#evereth-viceroy-of-plunder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/41/evereth-viceroy-of-plunder) · oracle_id `55b8c81b-f26b-4ae1-94ba-30b19e6a944e` · printing: J25 #41 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everett K. Ross, Hapless Attaché
@@ -434,6 +441,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#everflowing-chalice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/137/everflowing-chalice) · oracle_id `0a79237e-0811-4a8a-bd4d-db3ca91bff22` · printing: EOC #137 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everglades
@@ -472,6 +480,7 @@ schema: 2
   > Everlasting Lich can't die. (This creature has indestructible, can't be sacrificed, and doesn't go to the graveyard for having 0 toughness.)
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#everlasting-lich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/41/everlasting-lich) · oracle_id `749062ae-5a8d-4b99-8b86-4007bd3273aa` · printing: CMB2 #41 (2021-08-20) · [rulings](https://api.scryfall.com/cards/148379af-f2d2-4435-a6cb-9ea6dfa2d8ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everlasting Torment
@@ -546,6 +555,7 @@ schema: 2
 - **Keywords:** Flying, Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11535 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#everquill-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/275/everquill-phoenix) · oracle_id `56ba78c1-d1eb-4cc1-b70d-98c35d2972ba` · printing: MOC #275 (2023-04-21) · [rulings](https://api.scryfall.com/cards/333db3bc-98e9-4635-b1b0-a7e57ee59165/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evershrike
@@ -613,6 +623,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2078 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-10-13* — Players can always concede from the game, even if they can't otherwise lose the game.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#everybody-lives)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/18/everybody-lives!) · oracle_id `39213de3-6a4a-4879-a7f9-70f45013765e` · printing: WHO #18 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Everyone's an Impostor
@@ -760,6 +771,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#evidence-examiner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/201/evidence-examiner) · oracle_id `a3468804-26ad-4919-b030-a1906a7029e8` · printing: MKM #201 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evie Frye
@@ -783,6 +795,7 @@ schema: 2
   - *2024-07-05* — To have two commanders, both must have the partner ability or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2024-07-05* — You don’t choose a target for Evie Frye’s last ability at the time you activate it. Rather, a second “reflexive” ability triggers when you discard a creature card this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
   - *2024-07-05* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#evie-frye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/19/evie-frye) · oracle_id `248cafe8-cc37-4cf3-8239-ac10e55ced13` · printing: ACR #19 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil Boros Charm
@@ -796,6 +809,7 @@ schema: 2
   > • Create a 1/1 colorless Spirit creature token with lifelink and haste.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#evil-boros-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/90/evil-boros-charm) · oracle_id `b5c2b47a-3686-4d51-b9fc-c4a3be55f449` · printing: CMB2 #90 (2021-08-20) · [rulings](https://api.scryfall.com/cards/8e49bd49-dd0b-4a68-a794-8103f5444f09/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil Eye of Orms-by-Gore
@@ -810,6 +824,7 @@ schema: 2
   > *The highway of fear is the shortest route to defeat.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11618 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#evil-eye-of-orms-by-gore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/83/evil-eye-of-orms-by-gore) · oracle_id `3f79780a-accd-4782-94a8-a6e71fb3ada7` · printing: DMR #83 (2023-01-13) · [rulings](https://api.scryfall.com/cards/e3b3dbd4-7c3d-49df-98b0-068db5399083/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil Eye of Urborg
@@ -825,6 +840,7 @@ schema: 2
   > *—Aznaph, greenseeker*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12215 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#evil-eye-of-urborg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/107/evil-eye-of-urborg) · oracle_id `752b5a97-e2f7-43c0-b8c8-2c1efbbfbd2a` · printing: TSP #107 (2006-10-06) · [rulings](https://api.scryfall.com/cards/fc17fe31-11f1-48e0-9b0d-7c7dcda417a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evil Presence
@@ -927,6 +943,7 @@ schema: 2
 - **Keywords:** Treasure, Menace, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12232 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#evin-waterdeep-opportunist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/26/evin-waterdeep-opportunist) · oracle_id `f688f839-c7c2-45a9-8c60-9fdb030803e6` · printing: SLX #26 (2025-04-25) · [rulings](https://api.scryfall.com/cards/c35accd3-92ee-4b0b-a30a-4dcd3252d1b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eviscerate
@@ -1040,6 +1057,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 7 pages (2 decks · 4 edh guides · 1 rules) → [reverse index](../../references/E.md#evolution-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/105/evolution-sage) · oracle_id `b45fdeab-00cc-4422-af9f-66f30a880a7c` · printing: ECC #105 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolution Vat
@@ -1070,6 +1088,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — If a creature somehow loses all of its +1/+1 counters, it can adapt again and get more +1/+1 counters.
   - *2024-06-07* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Referenced in:** 3 pages (2 edh guides · 1 rules) → [reverse index](../../references/E.md#evolution-witness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/151/evolution-witness) · oracle_id `0e07f1af-5ff6-4da5-8683-aea4cc390975` · printing: MH3 #151 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evolved Sleeper
@@ -1151,6 +1170,7 @@ schema: 2
   > *—High Evolutionary, Herbert Wyndham*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 14 pages (7 decks · 4 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/E.md#evolving-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/240/evolving-wilds) · oracle_id `a75445d3-1303-4bb5-89ad-26ea93fecd48` · printing: MSC #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0318a48-30e4-4ef7-be3d-5e561c5ce428/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Evra, Halcyon Witness

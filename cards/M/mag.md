@@ -143,6 +143,7 @@ schema: 2
   - *2022-10-07* — There are no cards in this set that would turn a face-down instant or sorcery card on the battlefield face up, but some older cards can try to do this. If something tries to turn a face-down instant or sorcery card on the battlefield face up, reveal that card to show all players it’s an instant or sorcery card. The permanent remains on the battlefield face down. Abilities that trigger when a permanent turns face up won’t trigger, because even though you revealed the card, it never turned face up.
   - *2022-10-07* — You may look at face-down permanents you control at any time.
   - *2022-10-07* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order they entered the battlefield should remain clear. Common methods for indicating this include using markers or dice, or simply placing them in order on the battlefield. You must also track how each became face down (Magar’s ability, cast face down using the morph ability, and so on).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magar-of-the-magic-strings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/171/magar-of-the-magic-strings) · oracle_id `f6fee76b-5c34-4e95-962d-d2b38fcef540` · printing: UNF #171 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maga, Traitor to Mortals
@@ -171,6 +172,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — For the triggered ability to trigger, a Dwarf you control has to actually change from untapped to tapped. If an effect attempts to tap a Dwarf you control while it is already tapped, the ability won’t trigger.
   - *2021-02-05* — Magda’s triggered ability doesn’t allow you to tap any Dwarves. You have to find some other way to tap them. Attacking is still a great way to go.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magda-brazen-outlaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/142/magda-brazen-outlaw) · oracle_id `3d268e48-3004-4384-bf52-e63243fb5e02` · printing: KHM #142 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magda, the Hoardmaster
@@ -189,6 +191,7 @@ schema: 2
   - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#magda-the-hoardmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/133/magda-the-hoardmaster) · oracle_id `7fd2beb8-f823-4723-beec-e59b62127490` · printing: OTJ #133 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magebane Armor
@@ -324,6 +327,7 @@ schema: 2
   > {T}, Remove any number of storage counters from this land: Add {C} for each storage counter removed this way.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4468 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mage-ring-network)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1009/mage-ring-network) · oracle_id `136596a0-b179-40be-b42d-c0b992621c95` · printing: CMM #1009 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f060ea2b-717a-47ae-a4d6-b0594e838459/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mage-Ring Responder
@@ -351,6 +355,7 @@ schema: 2
   > *Crime sometimes makes unlikely allies into lifelong friends.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10725 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mages-attendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/698/mages-attendant) · oracle_id `94b1e7ed-87f3-44e6-bf34-186dd9a1a0d1` · printing: CLB #698 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e7039d47-276b-4c7c-acc3-94a9baae97e5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mages' Contest
@@ -450,6 +455,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-05-01* — If an activated ability with {T} in its cost is granted to a creature by an effect (such as Hypervolt Grasp’s effect, for instance), Magewright’s Stone can untap that creature.
   - *2006-05-01* — This looks for the {T} symbol. The phrase “tap an untapped creature you control” isn’t the same and doesn’t count.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#magewrights-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/162/magewrights-stone) · oracle_id `9e500094-c430-4c10-89cc-97f4f18b08bc` · printing: DIS #162 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maggot Carrier
@@ -541,6 +547,7 @@ schema: 2
   > *"You're gonna wish you hadn't."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2982 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magic-damper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/61/magic-damper) · oracle_id `ada82f93-dc93-4a95-a13f-42b5942b3413` · printing: FIN #61 (2025-06-13) · [rulings](https://api.scryfall.com/cards/44921b2e-5938-4f63-92b9-0b719a2f8c68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magic Designer
@@ -764,6 +771,7 @@ schema: 2
   > *Its open mouth is a furnace blast that blisters the skin. Its smoking fists are meteors that split the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22122 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magma-giant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/111/magma-giant) · oracle_id `f71d8073-d265-4387-8d08-0b9815fd2242` · printing: CM2 #111 (2018-06-08) · [rulings](https://api.scryfall.com/cards/55ebd81a-4711-459d-9d97-d9ea12892184/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Hellion
@@ -847,6 +855,7 @@ schema: 2
   - *2021-04-16* — You also choose how the 4 damage will be divided among the first group of targets as you cast Magma Opus. You must have at least 1 damage dealt to each of those targets.
   - *2021-04-16* — You choose all targets for Magma Opus as you cast the spell. This includes up to four targets for the first effect and two target permanents for the second effect.
   - *2021-04-16* — You must choose two different target permanents for the second effect. You may choose permanents that are already tapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magma-opus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/318/magma-opus) · oracle_id `985f9dd7-e693-48ff-9dd6-a1a3cbaa236b` · printing: SOC #318 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magma Phoenix
@@ -902,6 +911,7 @@ schema: 2
   > *—Chandra Nalaar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29868 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#magma-rift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/136/magma-rift) · oracle_id `0996d48a-f92a-4aaf-b8a3-f7ec8ff986ca` · printing: ZEN #136 (2009-10-02) · [rulings](https://api.scryfall.com/cards/ee526306-6959-421c-9969-3c19b666d6da/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmaroth
@@ -958,6 +968,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17978 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — Magma Spray's replacement effect will exile the target creature if it would die this turn for any reason, not just due to lethal damage. It applies to the target creature even if Magma Spray deals no damage to it (due to a prevention effect) or Magma Spray deals damage to a different creature (due to a redirection effect).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magma-spray)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/141/magma-spray) · oracle_id `fe16f1ab-58b4-4452-abe4-cbd9addd348f` · printing: AKH #141 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Channeler
@@ -1048,6 +1059,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-04-04* — As long as Magmatic Hellkite’s last ability resolves, the target land’s controller gets to search for a basic land card even if the target land wasn’t destroyed by the ability. This may happen because the land has indestructible.
   - *2025-04-04* — If the target land is an illegal target as Magmatic Hellkite’s last ability tries to resolve, it won’t resolve and none of its effects will happen. No player will search their library for a basic land card.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#magmatic-hellkite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/111/magmatic-hellkite) · oracle_id `2a3b29c3-f69d-4671-8907-600d21528153` · printing: TDM #111 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magmatic Insight
@@ -1121,6 +1133,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25671 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — You can sacrifice Magmaw to pay the cost for its own ability. It still deals 1 damage to the target.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#magmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/138/magmaw) · oracle_id `bc891258-2f22-4248-9972-4f41905744c6` · printing: UMA #138 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnanimous Magistrate
@@ -1250,6 +1263,7 @@ schema: 2
   - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magnifying-glass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/255/magnifying-glass) · oracle_id `f2ce9e55-07c0-4f36-a59e-127693fc0f62` · printing: MKM #255 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magnigoth Sentry
@@ -1311,6 +1325,7 @@ schema: 2
   - *2022-10-07* — If you activate a card's unearth ability but that card is removed from your graveyard before the ability resolves, that unearth ability will resolve and do nothing.
   - *2022-10-07* — The total cost to cast a spell is locked in before you pay that cost. For example, if you control three creature tokens, including one you can sacrifice to add {C}, the total cost to cast an instant with mana cost {4}{R} is {1}{R}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2022-10-07* — Unearth grants haste to the permanent that's returned to the battlefield. However, neither of the "exile" abilities is granted to that permanent. If that creature loses all its abilities, it will still be exiled at the beginning of the end step, and if it would leave the battlefield, it is still exiled instead.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#magnus-the-red)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/131/magnus-the-red) · oracle_id `86c9b01e-18a2-4616-8e04-5343f97d2efe` · printing: 40K #131 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magosi, the Waterveil
@@ -1608,6 +1623,7 @@ schema: 2
   - *2021-03-19* — If a nonbasic land has an ability that triggers "when" it enters the battlefield, it will lose that ability before it can trigger.
   - *2021-03-19* — Magus of the Moon doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named "Mountain."
   - *2021-03-19* — Nonbasic lands lose any other land types and abilities they had. They gain the land type Mountain and gain the ability "{T}: Add {R}."
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#magus-of-the-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/175/magus-of-the-moon) · oracle_id `6800d01c-345d-4932-a2a4-8df0fb1902f2` · printing: TSR #175 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Order
@@ -1691,6 +1707,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1178 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — If each player has fewer than seven cards in their library as Magus of the Wheel's ability resolves, the game ends in a draw.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/M.md#magus-of-the-wheel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/241/magus-of-the-wheel) · oracle_id `df13dafb-f82e-42ac-b6dc-efe82af5db58` · printing: CMM #241 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Magus of the Will

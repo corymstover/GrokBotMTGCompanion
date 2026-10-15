@@ -51,6 +51,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If another card copies Rekindling Phoenix (such as Protean Raider may), the Elemental token's triggered ability will look for a card named Rekindling Phoenix, not one with the other card's name. This is true even if the card copying Rekindling Phoenix keeps its name while it's copying Rekindling Phoenix (such as Lazav, Dimir Mastermind does).
   - *2018-01-19* — If you don't have a card named Rekindling Phoenix in your graveyard, the Elemental token's ability is immediately removed from the stack after it triggers and you won't sacrifice the token. If that target becomes illegal after the ability has triggered but before it resolves, you also won't sacrifice the Elemental token. In either case, it will trigger again during your next upkeep.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rekindling-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/273/rekindling-phoenix) · oracle_id `f34be4b8-126d-4b5c-8ebb-23b5e5370012` · printing: NCC #273 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reki, the History of Kamigawa

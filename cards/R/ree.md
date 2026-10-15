@@ -92,6 +92,7 @@ schema: 2
   > When this creature dies, create a 3/3 blue Fish creature token with "When this token dies, create a 6/6 blue Whale creature token with 'When this token dies, create a 9/9 blue Kraken creature token.'"
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#reef-worm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/271/reef-worm) · oracle_id `e3ad5cbc-4245-4e1e-8204-509381fa0c1c` · printing: MH3 #271 (2024-06-14) · [rulings](https://api.scryfall.com/cards/25576181-a5a4-4baf-a2b4-fbfe13fb9df6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reenact the Crime
@@ -109,4 +110,5 @@ schema: 2
   - *2024-02-02* — If you cast a spell "without paying its mana cost", you can't choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, such as that of Demand Answers, those must be paid to cast the card.
   - *2024-02-02* — If you don't want to cast the copy, you can choose not to; the copy ceases to exist the next time state-based actions are checked.
   - *2024-02-02* — You cast the copy while Reenact the Crime is resolving and still on the stack. You can't wait to cast it later in the turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#reenact-the-crime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/70/reenact-the-crime) · oracle_id `ebb88893-427f-496c-82a8-94d2bafb5e4c` · printing: MKM #70 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

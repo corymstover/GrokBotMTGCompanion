@@ -46,6 +46,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4782 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — The second part of Camaraderie's effect affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+1.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#camaraderie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/334/camaraderie) · oracle_id `9aab386c-d48c-4611-b757-aa69b26cc1b1` · printing: NCC #334 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camel
@@ -84,6 +85,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#camellia-the-seedmiser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/207/camellia-the-seedmiser) · oracle_id `312c7a7b-2084-42b0-9b13-0a6d3e43a73d` · printing: BLB #207 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Camera Launcher
@@ -112,6 +114,7 @@ schema: 2
   > This turn, instead of declaring blockers, each defending player chooses any number of creatures they control and divides them into a number of piles equal to the number of attacking creatures for whom that player is the defending player. Creatures those players control that can block additional creatures may likewise be put into additional piles. Assign each pile to a different one of those attacking creatures at random. Each creature in a pile that can block the creature that pile is assigned to does so. (Piles can be empty.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26270 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#camouflage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2ed/188/camouflage) · oracle_id `9cf44db4-627a-4197-9588-6da72e41f03d` · printing: 2ED #188 (1993-12-01) · [rulings](https://api.scryfall.com/cards/09243dc6-c56c-42a8-969b-2ecffe89e1ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### C.A.M.P.
@@ -129,6 +132,7 @@ schema: 2
   - *2024-03-08* — Some spells and abilities that create Junk tokens may require targets. If each target chosen is illegal as that spell or ability tries to resolve, it won't resolve and none of its effects happen. You won't create any Junk tokens.
   - *2024-03-08* — You can't sacrifice a Junk token to pay multiple costs. For example, you can't sacrifice a Junk token to activate its own ability and also to activate the second ability of Junk Jet.
   - *2024-03-08* — You pay all costs and follow all normal timing rules for the card played from exile with a Junk token's ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#camp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/129/camp) · oracle_id `9bf498ce-6d6d-462f-9ec3-b36a2184aff7` · printing: PIP #129 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Campaign of Vengeance

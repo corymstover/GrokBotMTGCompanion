@@ -79,6 +79,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #480 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 lore & story) → [reverse index](../../references/I.md#indatha-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/248/indatha-triome) · oracle_id `ec2b3779-55f7-4169-aa66-6312fb52721f` · printing: IKO #248 (2020-04-24) · [rulings](https://api.scryfall.com/cards/2b74bb81-fb9a-40e5-a941-e517430b52f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indebted Samurai
@@ -116,6 +117,7 @@ schema: 2
   - *2024-06-07* — On the stack, a spell with bestow is either a creature spell or an Aura spell. It's never both, although it's an enchantment spell in either case.
   - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#indebted-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/31/indebted-spirit) · oracle_id `c4c0a622-7325-4024-8b2e-6335f9a729e9` · printing: MH3 #31 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indentured Djinn
@@ -157,6 +159,7 @@ schema: 2
   > *"The empire, long united, must divide, and long divided, must unite."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31824 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#independent-troops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/114/independent-troops) · oracle_id `b9a8adf0-60f1-491c-8bbf-0b341fd23fab` · printing: PTK #114 (1999-05-01) · [rulings](https://api.scryfall.com/cards/ff7a4769-7a64-4016-8db0-b56c6b98aff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indestructibility
@@ -254,6 +257,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#indoctrination-attendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/16/indoctrination-attendant) · oracle_id `9587bdb3-fb6a-47c0-898d-404bf60fcb6b` · printing: ONE #16 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indominus Rex, Alpha
@@ -363,6 +367,7 @@ schema: 2
   - *2023-11-10* — If lethal damage is dealt to Indoraptor, its enrage ability triggers. Use Indoraptor's power from when it was last on the battlefield to determine how much damage it deals to the chosen player if they don't sacrifice a nontoken creature.
   - *2023-11-10* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
   - *2023-11-10* — Indoraptor, the Perfect Hybrid's bloodthirst ability counts all damage dealt to your opponents this turn, not just damage dealt by sources you control.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#indoraptor-the-perfect-hybrid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/15/indoraptor-the-perfect-hybrid) · oracle_id `0dd4bc7b-2ddf-4ca4-912c-59685c41c3b5` · printing: REX #15 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indrik Stomphowler
@@ -464,6 +469,7 @@ schema: 2
   - *2022-04-29* — If you cast the first half of a split card with aftermath during your turn, you'll have priority immediately after it resolves. You can cast the half with aftermath from your graveyard before any player can take any other action if it's legal for you to do so.
   - *2022-04-29* — Once you've started to cast a spell with aftermath from your graveyard, the card is immediately moved to the stack. Opponents can't try to stop the ability by exiling the card with another effect.
   - *2022-04-29* — While not on the stack, the characteristics of a split card are the combination of its two halves. For example, Indulge /// Excess has a mana value of 5.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/I.md#indulge--excess)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/46/indulge-excess) · oracle_id `abcb5b99-bf5e-402f-97a2-abb1ab39dd72` · printing: NCC #46 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulgent Aristocrat
@@ -480,6 +486,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2575 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can sacrifice Indulgent Aristocrat to pay the cost of its own activated ability.
+- **Referenced in:** 3 pages (2 decks · 1 lore & story) → [reverse index](../../references/I.md#indulgent-aristocrat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/118/indulgent-aristocrat) · oracle_id `c7054a2d-2e7b-4487-8fc3-f6a47a716fd3` · printing: INR #118 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Indulgent Tormentor
@@ -527,4 +534,5 @@ schema: 2
   > At the beginning of your end step, you may sacrifice a creature. If you do, look at the top X cards of your library, where X is that creature's mana value. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6634 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#industrial-advancement)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/47/industrial-advancement) · oracle_id `7a0aa9ea-610e-4910-b66d-fdac69e88adf` · printing: NCC #47 (2022-04-29) · [rulings](https://api.scryfall.com/cards/81f1416c-48bd-4168-aacd-a9b0a3afb8bc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

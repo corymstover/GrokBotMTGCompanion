@@ -230,6 +230,7 @@ schema: 2
   - *2024-06-07* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
   - *2024-06-07* — Nulldrifter's first triggered ability will resolve before Nulldrifter does. If Nulldrifter is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
   - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/N.md#nulldrifter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/13/nulldrifter) · oracle_id `ef8d9c3a-5860-45bf-8205-14e2df9a6fc8` · printing: MH3 #13 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Elemental Blast
@@ -245,6 +246,7 @@ schema: 2
   > *—Ugin, to Nicol Bolas*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1553 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/N.md#null-elemental-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/12/null-elemental-blast) · oracle_id `ec7699e3-ce56-46e4-9e4d-5ed2bd5fca83` · printing: MH3 #12 (2024-06-14) · [rulings](https://api.scryfall.com/cards/8e259868-d29a-4c03-8ec3-49e914f849fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Group Biological Assets
@@ -375,6 +377,7 @@ schema: 2
   - *2013-07-01* — This effect applies to all activated abilities of artifacts, including mana abilities.
   - *2013-07-01* — This effect does not prevent triggered abilities from triggering and it doesn’t stop the effects of static abilities.
   - *2016-06-08* — Activated abilities contain a colon. They’re generally written “[Cost]: [Effect].” Some keywords are activated abilities and will have colons in their reminder text.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/N.md#null-rod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/278/null-rod) · oracle_id `2f83ca86-e23d-40f7-8085-6928d8cfef9b` · printing: VMA #278 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nullstone Gargoyle
@@ -392,6 +395,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-10-01* — If another spell is cast in response to the first spell, Nullstone Gargoyle doesn’t affect that second spell.
   - *2005-10-01* — Nullstone Gargoyle cares about the first noncreature spell cast during a turn, not the first one it “sees.” If a noncreature spell was cast before Nullstone Gargoyle entered the battlefield, it won’t counter the next one.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#nullstone-gargoyle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/266/nullstone-gargoyle) · oracle_id `7b175a33-a05c-49fa-802a-36f7013c892a` · printing: RAV #266 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Null Summoner
@@ -541,6 +545,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8189 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/N.md#nurgles-rot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/45/nurgles-rot) · oracle_id `1b01dcff-0639-4ed0-bd9e-f28429cb803d` · printing: 40K #45 (2022-10-07) · [rulings](https://api.scryfall.com/cards/9116138a-679d-4169-a4a9-c76460bbb3fd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nurturer Initiate
@@ -567,6 +572,7 @@ schema: 2
 - **Keywords:** Landcycling, Forestcycling, Typecycling, Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12790 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/N.md#nurturing-bristleback)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/203/nurturing-bristleback) · oracle_id `d33509d6-9d0c-4248-bb6d-0a9b7712f3a0` · printing: LCI #203 (2023-11-17) · [rulings](https://api.scryfall.com/cards/081d5c9e-71da-4454-ae4e-c76cb7790d20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Nurturing Licid

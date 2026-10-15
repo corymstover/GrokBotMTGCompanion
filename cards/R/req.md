@@ -78,6 +78,7 @@ schema: 2
   - *2024-04-12* — You can't choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can't be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#requisition-raid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/26/requisition-raid) · oracle_id `09669283-eb14-46a2-b37a-51d7a52da891` · printing: OTJ #26 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Requiting Hex

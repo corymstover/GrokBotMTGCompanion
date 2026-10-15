@@ -229,6 +229,7 @@ schema: 2
   - *2020-01-24* — If you cast a spell with its escape permission, you can't choose to apply any other alternative costs or to cast it without paying its mana cost. If it has any additional costs, you must pay those.
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/W.md#woe-strider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/231/woe-strider) · oracle_id `3adbd963-e85d-4569-963a-4472594f06f9` · printing: SOC #231 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wojek Apothecary
@@ -317,6 +318,7 @@ schema: 2
   - *2024-02-02* — Some abilities trigger "whenever you sacrifice a Clue". Those abilities trigger whenever you sacrifice a Clue for any reason, not just to activate a Clue's activated ability.
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#wojek-investigator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/36/wojek-investigator) · oracle_id `ab41243d-b178-4ebe-a7ac-bea37427be99` · printing: MKM #36 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wojek Siren
@@ -385,6 +387,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wolfbriar-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/168/wolfbriar-elemental) · oracle_id `2f8872fe-84dc-4cda-a253-e7503a5c96a3` · printing: CMA #168 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolfcaller's Howl
@@ -445,6 +448,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Putting a name sticker on this creature later won’t cause the reflexive triggered ability to trigger.
   - *2022-10-07* — This creature’s enters-the-battlefield ability goes on the stack without any targets. As it resolves, you may put a name sticker on this creature. Doing so causes the reflexive triggered ability to trigger. You choose the targets for that ability as it goes on the stack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolf-in-_____-clothing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/95/wolf-in-_____-clothing) · oracle_id `58c9454b-7027-48f4-9e17-310e27b916d1` · printing: UNF #95 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolfir Avenger
@@ -540,6 +544,7 @@ schema: 2
   - *2018-04-27* — If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”.
   - *2018-04-27* — When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them.
   - *2018-04-27* — You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolf-pack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/187/wolf-pack) · oracle_id `ec58a82f-8c78-4f88-90d5-e32d83be7a48` · printing: ME2 #187 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolfrider's Saddle
@@ -608,6 +613,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolfs-quarry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/184/wolfs-quarry) · oracle_id `c6fead73-0473-4b57-899a-9f8c5b4f896d` · printing: ELD #184 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolf Strike
@@ -634,6 +640,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4978 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#wolfwillow-haven)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/205/wolfwillow-haven) · oracle_id `7579f57d-c76e-4703-a030-34fb7160cb23` · printing: THB #205 (2020-01-24) · [rulings](https://api.scryfall.com/cards/72b886c3-234c-49ce-9a11-456c1e8f092f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine, Best There Is
@@ -648,6 +655,7 @@ schema: 2
 - **Keywords:** Heal, Regenerate, Unrivaled Lethality, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6737 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolverine-best-there-is)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/97/wolverine-best-there-is) · oracle_id `6e53a43e-5a23-4057-9bb5-281508da57af` · printing: MAR #97 (2026-06-26) · [rulings](https://api.scryfall.com/cards/9976c1a8-ef3d-4911-854d-f53394fd709d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine, Claws Out
@@ -679,6 +687,7 @@ schema: 2
 - **Keywords:** Heal, Haste, Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15122 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wolverine-fierce-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/240/wolverine-fierce-fighter) · oracle_id `8429ba6a-6c06-4a83-a6ee-023b64b825f8` · printing: MSH #240 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c1c7aa22-51b0-45ee-9a8e-5493a1820d8c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wolverine Pack
@@ -709,6 +718,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2946 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-02-05* — Use the toughness of the creature as the last ability resolves to determine how much life you gain. If the Elf is no longer on the battlefield at that time, use its toughness from when it was last on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wolverine-riders)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/14/wolverine-riders) · oracle_id `09070db6-01f6-4a8a-b167-a7825e6959f4` · printing: KHC #14 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonder
@@ -725,6 +735,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #831 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/W.md#wonder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/170/wonder) · oracle_id `232284f7-c623-4895-9ab9-8b1a39926830` · printing: TDC #170 (2025-04-11) · [rulings](https://api.scryfall.com/cards/567abd78-d4a3-4a33-9b5b-b5ca361059cc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wonder Man, Hollywood Hero
@@ -819,6 +830,7 @@ schema: 2
   - *2022-10-14* — Use Woodcaller Automaton's power and toughness at the time its triggered ability resolves to determine the base power and toughness of the Treefolk creature land. If Woodcaller Automaton is no longer on the battlefield, use the power and toughness it had the last time it was on the battlefield.
   - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
   - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#woodcaller-automaton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/292/woodcaller-automaton) · oracle_id `124c3af4-8545-479a-b44c-446da1c8b535` · printing: BRO #292 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodcloaker
@@ -869,6 +881,7 @@ schema: 2
   > *Home and hunting ground for Kaldheim's fearsome trolls.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #47 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 23 pages (18 decks · 3 edh guides · 2 card data) → [reverse index](../../references/W.md#wooded-foothills)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/236/wooded-foothills) · oracle_id `6587a463-a108-4854-b6d1-944e89b8c8a4` · printing: MH3 #236 (2024-06-14) · [rulings](https://api.scryfall.com/cards/4e11ea8a-f895-438d-a3b7-f070238e4161/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooded Ridgeline
@@ -882,6 +895,7 @@ schema: 2
   > *The power of long-forgotten empires still pulses in the earth of Dominaria, giving rise to strange, mana-rich pockets of growth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1871 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wooded-ridgeline)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/260/wooded-ridgeline) · oracle_id `c2ca3e20-23ca-4d2a-88a1-5e98ff884abb` · printing: DMU #260 (2022-09-09) · [rulings](https://api.scryfall.com/cards/e8e31184-dca4-48b1-be9d-581247c41d99/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wood Elemental
@@ -909,6 +923,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #678 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/W.md#wood-elves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/142/wood-elves) · oracle_id `8973bd99-20f8-4867-90ef-50392147ee1b` · printing: HOB #142 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wooden Cane
@@ -971,6 +986,7 @@ schema: 2
   - *2013-06-07* — If multiple creatures with persist are put into the graveyard at the same time (due to combat damage or a spell that destroys all creatures, for example), the active player (the player whose turn it is) puts all of their persist triggers on the stack in any order, then each other player in turn order does the same. The last trigger put on the stack is the first one that resolves. That means that in a two-player game, the nonactive player's persist creatures will return to the battlefield first, then the active player's persist creatures do the same. The creatures return to the battlefield one at a time.
   - *2013-06-07* — The persist ability triggers when the permanent is put into a graveyard. Its last known information (that is, how the creature last existed on the battlefield) is used to determine whether it had a -1/-1 counter on it.
   - *2013-06-07* — When a permanent with persist returns to the battlefield, it's a new object with no memory of or connection to its previous existence.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#woodfall-primus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/322/woodfall-primus) · oracle_id `2f70f1bb-29fa-4abb-afc2-653acd0a08b9` · printing: NCC #322 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Acolyte // Mend the Wilds
@@ -999,6 +1015,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#woodland-acolyte--mend-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/241/woodland-acolyte-mend-the-wilds) · oracle_id `ba610f08-61a7-47fe-9a80-32b5ce51b118` · printing: WOE #241 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Bellower
@@ -1011,6 +1028,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6356 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-06-22* — If a card has {X} in its mana cost, X is 0.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#woodland-bellower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ori/207/woodland-bellower) · oracle_id `5859fd59-8732-414a-8932-007980af495d` · printing: ORI #207 (2015-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Cemetery
@@ -1025,6 +1043,7 @@ schema: 2
   > *—"The Fall of the House of Vess"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #111 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (6 decks · 2 edh guides · 1 card data) → [reverse index](../../references/W.md#woodland-cemetery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/424/woodland-cemetery) · oracle_id `c9fe1383-1331-4a58-a45a-3320250221a9` · printing: SOC #424 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4d6f6c96-f813-4864-b4e1-b2a0aa8be1e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Champion
@@ -1085,6 +1104,7 @@ schema: 2
   > *What is a tree? Slow hard thought. What is a flower? Swift soft flesh. What is a druid? Both.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23506 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#woodland-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/284/woodland-druid) · oracle_id `96b3c4ff-b5f7-4315-9b39-2e2146ef10d1` · printing: ODY #284 (2001-10-01) · [rulings](https://api.scryfall.com/cards/34e501e6-38da-44ad-abe2-53ea7f0eb4ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Guidance
@@ -1189,6 +1209,7 @@ schema: 2
   - *2015-08-25* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
   - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
   - *2015-08-25* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/W.md#woodland-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/198/woodland-wanderer) · oracle_id `d5f3c711-edfa-4105-9844-e3f444942a03` · printing: BFZ #198 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodland Weavemaster
@@ -1324,6 +1345,7 @@ schema: 2
   - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
   - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#woodwork-prodigy--soul-tether)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/165/woodwork-prodigy-soul-tether) · oracle_id `f3ed157f-a09b-405f-aec4-0e7a81d80fc8` · printing: FRA #165 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woodwraith Corrupter
@@ -1378,6 +1400,7 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#woolly-loxodon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/195/woolly-loxodon) · oracle_id `b588df7a-64d8-449e-b573-13badc8cdf56` · printing: A25 #195 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Woolly Mammoths
@@ -1496,6 +1519,7 @@ schema: 2
   - *2011-01-01* — Your opponent can't counter the Word of Command after letting you look at their hand, but they can attempt to counter the spell you force them to cast.
   - *2016-07-13* — Controlling a player doesn't allow you to look at that player's sideboard. If an effect instructs that player to choose a card from outside the game, you can't have that player choose any card.
   - *2016-07-13* — While controlling another player, you can see all cards in the game that player can see. This includes cards in that player's hand, face-down cards that player controls, and any cards in that player's library the player may look at.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#word-of-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/103/word-of-command) · oracle_id `e8ad3a77-b293-4d69-b080-27ca9f95d443` · printing: ME4 #103 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Word of Seizing
@@ -1625,6 +1649,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32298 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#worf-chief-tactical-officer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/141/worf-chief-tactical-officer) · oracle_id `26e86be4-52e1-47cb-b548-c434482bd3ad` · printing: TRC #141 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ced54aa6-c8ee-451f-91cd-967fe766ec13/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Work a Double
@@ -1740,6 +1765,7 @@ schema: 2
   - *2010-06-15* — Rebound will have no effect on copies of spells because you don’t cast them from your hand.
   - *2010-06-15* — Unlike other similar cards (such as Relentless Assault), World at War doesn’t untap the creatures that have attacked this turn when it resolves. Rather, those creatures untap when the new combat phase created by the spell begins. All creatures that attacked this turn untap, regardless of which combat phase they attacked in (if there have been more than one) or who controls them (if you’re playing a Two-Headed Giant game, for example).
   - *2010-06-15* — You don’t have to attack with any creatures during the new combat phase.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#world-at-war)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/172/world-at-war) · oracle_id `02a8a5cc-62ce-4ae5-aa7d-760124af7d7b` · printing: ROE #172 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World-Bottling Kit
@@ -1799,6 +1825,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — If Worldgorger Dragon leaves the battlefield before its enters-the-battlefield ability resolves, the "leaves-the-battlefield" ability will trigger and resolve first. It won't return anything. Then the enters-the-battlefield ability will exile all other permanents you control indefinitely.
   - *2022-12-08* — If an Aura is exiled with Worldgorger Dragon and then returns to the battlefield, the player who controls the Aura as it enters the battlefield chooses what it will enchant. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it stays exiled. It can't enter the battlefield enchanting a permanent that enters the battlefield at the same time.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/W.md#worldgorger-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/148/worldgorger-dragon) · oracle_id `a628186d-b7d9-40a5-9ae2-fbc9d2a14c7c` · printing: DMR #148 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldheart Phoenix
@@ -1834,6 +1861,7 @@ schema: 2
   - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/W.md#worldknit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/13/worldknit) · oracle_id `652f6d90-b158-4f9b-a15e-3e677905331d` · printing: CNS #13 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldly Counsel
@@ -1863,6 +1891,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #171 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Because the "search" requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Referenced in:** 9 pages (4 decks · 4 edh guides · 1 card data) → [reverse index](../../references/W.md#worldly-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/185/worldly-tutor) · oracle_id `e8863518-0bfa-49c3-8c6e-6c9116a81051` · printing: DMR #185 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World Map
@@ -1876,6 +1905,7 @@ schema: 2
   > *And so their quest began.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2925 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#world-map)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/270/world-map) · oracle_id `51d4f95e-aad2-4e5f-9f15-a68bbdf9ab3e` · printing: FIN #270 (2025-06-13) · [rulings](https://api.scryfall.com/cards/70d9ab99-ec8a-402e-ba1d-ffa6c4c84a3f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldpurge
@@ -1920,6 +1950,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1524 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/W.md#world-shaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/214/world-shaper) · oracle_id `3c075bb6-1831-4521-bd8d-4ed2825ae796` · printing: OTC #214 (2024-04-19) · [rulings](https://api.scryfall.com/cards/cc765da4-4bca-4250-80e4-05575d6fa98c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldslayer
@@ -1968,6 +1999,7 @@ schema: 2
   > *"Hoarding supplies, profiting from death and destruction, colluding with the invaders—every one of them betrayed Ravnica in its time of greatest need. They all deserved to die. And I'm not done yet!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2684 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#worldsouls-rage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/130/worldsouls-rage) · oracle_id `3b6ef144-bb98-4686-9718-204f1c3cf020` · printing: EOC #130 (2025-08-01) · [rulings](https://api.scryfall.com/cards/1a54246e-1e22-4660-b2c8-fdfa2110b4fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worldspine Wurm
@@ -1983,6 +2015,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2403 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-10-01* — Worldspine Wurm's last ability is a triggered ability, not a replacement ability. Players can respond to this ability, for example, by trying to exile Worldspine Wurm from the graveyard before it's shuffled into a library.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#worldspine-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/206/worldspine-wurm) · oracle_id `254f87cc-e0c2-484d-b5e8-1ea8c366990c` · printing: DSC #206 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worlds Within Worlds
@@ -2015,6 +2048,7 @@ schema: 2
   - *2024-04-12* — The new token created by Worldwaker Helm's last ability copies the original characteristics of the target token as stated by the effect that created the target token and nothing else (unless that token is copying something else; see below). It doesn't copy whether the target token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2024-04-12* — Worldwaker Helm's first ability applies to all kinds of artifact tokens that its controller creates, not just Map tokens.
   - *2024-04-12* — You don't need to control the spell or ability that creates the tokens, but you do have to be the one creating the tokens for Worldwaker Helm's first ability to apply.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#worldwalker-helm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/7/worldwalker-helm) · oracle_id `9573c85a-e574-4b4e-aae0-2165c45fd27e` · printing: BIG #7 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### World War Hulk
@@ -2176,6 +2210,7 @@ schema: 2
   - *2024-11-08* — In Limited play, each card in a player’s card pool that isn’t included in their deck is in that player’s sideboard.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wormhole-warp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/570/wormhole-warp) · oracle_id `0b1d9312-3fef-415b-8615-2ceaf54eb858` · printing: MB2 #570 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worms of the Earth
@@ -2232,6 +2267,7 @@ schema: 2
   > *Even a fragment of a powerstone contains within it not just energy, but space—vast dimensions trapped in fragile crystal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #571 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/W.md#worn-powerstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/298/worn-powerstone) · oracle_id `b166b670-febc-4821-855e-f8d465644c03` · printing: MH3 #298 (2024-06-14) · [rulings](https://api.scryfall.com/cards/ace686ad-9e3f-41b3-b8eb-d1b6d45eb4e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worry Beads
@@ -2361,6 +2397,7 @@ schema: 2
   - *2017-03-14* — If the spell that's copied is modal (that is, it says "Choose one —" or the like), the copy will have the same mode. A different mode can't be chosen.
   - *2017-03-14* — If you're casting a spell for its flashback cost, you can't pay another alternative cost (such as an overload cost or a Trap's alternative cost) instead. You may pay additional costs, such as conspire.
   - *2017-03-14* — Some spells instruct you to sacrifice a creature as an additional cost to cast that spell. If you sacrifice Wort to pay that cost, that spell won't have conspire at the moment it becomes cast, so conspire won't trigger, even if you tapped two creatures.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wort-the-raidmother)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/234/wort-the-raidmother) · oracle_id `d6b67c7e-3b24-4f60-8e3a-c6ca45229d7f` · printing: C20 #234 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Worzel, the Protector
@@ -2389,6 +2426,7 @@ schema: 2
   > *"Road is forgotten, but not by Wild Folk. Over hill and behind hill it lies still under grass and tree. Wild Folk will show you that road."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8747 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wose-pathfinder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/190/wose-pathfinder) · oracle_id `eb2ff7f2-b7fd-4984-a4e8-cf57b619c1a5` · printing: LTR #190 (2023-06-23) · [rulings](https://api.scryfall.com/cards/6589b339-9067-4e9b-bfdb-c49f8b3ef2d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Would You Have Done the Same?
@@ -2416,6 +2454,7 @@ schema: 2
   - *2020-08-07* — Multiple Wound Reflections each trigger separately. For example, if an opponent lost 1 life, the first one's triggered ability to resolve causes them to lose another 1 life. Since they've now lost 2 life, the next triggered ability causes them to lose 2 life, and the next 4, and so on.
   - *2020-08-07* — When Wound Reflection's ability resolves, it checks how much life each opponent lost over the course of the turn, then it causes that opponent to lose that much life. It doesn't matter how the opponent lost life or who caused it. It also doesn't matter if Wound Reflection wasn't on the battlefield at the time some or all of the life was lost.
   - *2020-08-07* — Wound Reflection's ability checks only whether life was lost. It doesn't care whether life was also gained. For example, if an opponent lost 4 life and gained 6 life during the turn, that player will have a higher life total than they started the turn with but Wound Reflection's ability will still cause that player to lose 4 life.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#wound-reflection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/113/wound-reflection) · oracle_id `b09206a4-8b73-4125-8b79-53f6fd511b16` · printing: 2XM #113 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wowzer, the Aspirational
@@ -2431,4 +2470,5 @@ schema: 2
   - *2024-11-08* — If you don’t meet one of the listed conditions when Wowzer attacks, its ability won’t trigger at all. If you don’t meet one of those conditions when the ability tries to resolve, the ability is removed from the stack and does nothing.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wowzer-the-aspirational)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/604/wowzer-the-aspirational) · oracle_id `affbbc80-3224-4c4e-bc57-a31f966f929f` · printing: MB2 #604 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

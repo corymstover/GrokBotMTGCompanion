@@ -35,6 +35,7 @@ schema: 2
   > *"Rogers can talk all he wants about unity and dreams. Enemies understand strength."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25912 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#usagent-john-walker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/236/usagent-john-walker) · oracle_id `2b6fa8b6-4865-4eb6-974b-00f6b16b6f0f` · printing: MSH #236 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35e11911-799c-4d82-9109-3ca27964bef0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Usher of the Fallen

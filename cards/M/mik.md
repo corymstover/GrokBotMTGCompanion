@@ -56,6 +56,7 @@ schema: 2
   - *2018-12-07* — If a Human deals damage to you at the same time that Mikaeus is dealt lethal damage, Mikaeus’s triggered ability triggers. That Human will be destroyed even though Mikaeus has left the battlefield.
   - *2018-12-07* — If a non-Human creature you control without a +1/+1 counter dies at the same time as Mikaeus, that creature’s undying ability granted by Mikaeus triggers and will return it to the battlefield.
   - *2018-12-07* — The +1/+1 bonus that Mikaeus gives to other non-Human creatures you control isn’t a counter. It won’t prevent undying from triggering.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#mikaeus-the-unhallowed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/173/mikaeus-the-unhallowed) · oracle_id `5d27c63e-d1ef-48af-b51d-01ebc6daeac9` · printing: CMM #173 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Don, Party Planners
@@ -73,6 +74,7 @@ schema: 2
   - *2026-01-27* — If the top card of your library changes while you're casting a spell, playing a land, activating an ability, or taking a special action, you can't look at the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell.
   - *2026-01-27* — Mikey & Don's last ability allows you to cast the top card of your library if the resulting spell is a Mutant, Ninja, or Turtle spell. You pay all required costs, and timing restrictions apply. If that spell is an instant (most likely a kindred instant) or has flash, you'll be able to cast it any time you could cast an instant, even on an opponent's turn.
   - *2026-01-27* — Mikey & Don's second ability lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mikey--don-party-planners)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/157/mikey-&-don-party-planners) · oracle_id `529178e8-425e-4d59-948c-ca7d0663f6ff` · printing: TMT #157 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Leo, Chaos & Order
@@ -86,6 +88,7 @@ schema: 2
   > *Their strength hailed not from what they shared, but from how their differences complemented one another.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7117 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mikey--leo-chaos--order)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/158/mikey-&-leo-chaos-&-order) · oracle_id `a86117c1-b83d-4350-9a10-a23b7e67e1bd` · printing: TMT #158 (2026-03-06) · [rulings](https://api.scryfall.com/cards/9cfeb2b4-937c-4bcc-bb03-467cc0effba2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mikey & Mona, Mutant Sitters
@@ -113,4 +116,5 @@ schema: 2
   > *—Scroll fragment from the ruins of Minamo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1185 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mikokoro-center-of-the-sea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/217/mikokoro-center-of-the-sea) · oracle_id `a4580a1d-141e-449b-9018-e0258130634b` · printing: DMC #217 (2022-09-09) · [rulings](https://api.scryfall.com/cards/d80eb098-5433-4b1e-aad5-0fd31bf598dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

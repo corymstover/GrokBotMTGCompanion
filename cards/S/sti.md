@@ -129,6 +129,7 @@ schema: 2
 - **Keywords:** Treasure, Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1865 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sticky-fingers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/124/sticky-fingers) · oracle_id `fa8ddc13-5108-4fe9-b3aa-dc28df476f7b` · printing: SNC #124 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3678fa3d-d41f-4b7a-b25e-6fc5f78876c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sticky Kavu Daredevil
@@ -142,6 +143,7 @@ schema: 2
   > {TK}{TK}{TK} — 2/6
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sticky-kavu-daredevil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/16/sticky-kavu-daredevil) · oracle_id `3def54bf-2640-47de-84e8-7a9406df007e` · printing: SUNF #16 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ca27624e-bddf-4719-9d7e-579de18e1084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stickytongue Sentinel
@@ -173,6 +175,7 @@ schema: 2
   - *2004-10-04* — An activated ability has a "Cost: Effect" format. Look for the colon. A triggered ability starts with "when", "whenever", or "at".
   - *2004-10-04* — It can target delayed triggered abilities. For example, a card that says "Whenever a player cycles a card, you may exile target creature. If you do, return that creature to the battlefield at the beginning of the end step." triggers when a player cycles a card and creates a delayed trigger that happens at the beginning of the end step. You can choose to target the "at the beginning of the end step" trigger when it is placed on the stack at end of turn.
   - *2004-10-04* — Turn-based actions and special actions like the normal card draw, combat damage, or turning a face-down creature face up can't be targeted.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#stifle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/108/stifle) · oracle_id `b3b00911-ece7-4484-bc36-f211ce72b6cc` · printing: CNS #108 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stigma Lasher
@@ -242,6 +245,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10816 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stillness-in-motion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/59/stillness-in-motion) · oracle_id `d73913ea-44d0-408f-9f8b-8e91843f2826` · printing: TDM #59 (2025-04-11) · [rulings](https://api.scryfall.com/cards/a6289251-17e4-4987-96b9-2fb1a8f90e2a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stilt-Man, Towering Terror
@@ -255,6 +259,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16899 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stilt-man-towering-terror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/61/stilt-man-towering-terror) · oracle_id `8ae1bda5-8f70-48ec-9df0-89e58a4ab21c` · printing: MSC #61 (2026-06-26) · [rulings](https://api.scryfall.com/cards/7ffa820c-ac05-4b3d-a0ec-5cbd3c42ac9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stiltstrider
@@ -270,6 +275,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23997 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stiltstrider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/157/stiltstrider) · oracle_id `9c0d7d7d-5513-4e2b-b834-1ff999ab24f5` · printing: UNF #157 (2022-10-07) · [rulings](https://api.scryfall.com/cards/fd16fe9d-9f31-4fe8-941e-f5728cd394a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stiltzkin, Moogle Merchant
@@ -285,6 +291,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6878 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stiltzkin-moogle-merchant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/34/stiltzkin-moogle-merchant) · oracle_id `958c2a27-9fb1-42b4-a0ef-296584763a98` · printing: FIN #34 (2025-06-13) · [rulings](https://api.scryfall.com/cards/06a972a4-0c1b-4f12-a5a5-fdea47c4cd35/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stimulus Package
@@ -346,6 +353,7 @@ schema: 2
   - *2026-08-21* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2026-08-21* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2026-08-21* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stingcaster-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/93/stingcaster-mage) · oracle_id `056b651e-e0e2-4333-9235-d1ffe8fcca29` · printing: FRA #93 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stingerback Terror
@@ -561,6 +569,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — If you own multiple commanders on the battlefield and/or in the command zone, you choose one of them as Stinging Study resolves to determine the value of X.
   - *2021-04-16* — If your commander is under the control of another player as Stinging Study resolves, it is still on the battlefield and will still be used to determine the value of X.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stinging-study)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/44/stinging-study) · oracle_id `115bc79e-a109-42d7-ac58-2ee8dc0a959f` · printing: C21 #44 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinging Vitriol
@@ -635,6 +644,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1639 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sting-the-glinting-dagger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/250/sting-the-glinting-dagger) · oracle_id `973c49a1-8425-40b9-8bdc-2c2434222314` · printing: LTR #250 (2023-06-23) · [rulings](https://api.scryfall.com/cards/afbec7e7-f5b9-407e-bf96-2e088710e791/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Bandit
@@ -650,6 +660,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-04-01* — This ability triggers after blockers are declared during the declare blockers step. Each attacking Rogue you control gets +2/+1 if no creatures were assigned to block it. That creature will get the bonus even if an effect causes it to become blocked.
   - *2013-04-15* — An ability that triggers when something “attacks and isn’t blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stinkdrinker-bandit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/55/stinkdrinker-bandit) · oracle_id `dadae60e-b91e-435f-85e0-518dfa419530` · printing: ZNC #55 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stinkdrinker Daredevil
@@ -684,6 +695,7 @@ schema: 2
   - *2024-01-12* — Once you've announced that you're applying a card's dredge ability to replace a draw, players can't take any actions until you've put that card into your hand and milled cards.
   - *2024-01-12* — One card draw can't be replaced by multiple dredge abilities.
   - *2024-01-12* — You can't attempt to use a dredge ability if you don't have enough cards in your library.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#stinkweed-imp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dvd/36/stinkweed-imp) · oracle_id `e005bc76-4985-4ec6-b9f6-cf6d0d9f5df4` · printing: DVD #36 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirge
@@ -701,6 +713,7 @@ schema: 2
 - **Keywords:** Blood Drain, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11852 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stirge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/150/stirge) · oracle_id `aed2d938-125d-49b4-93ac-202b7a37fcc2` · printing: CLB #150 (2022-06-10) · [rulings](https://api.scryfall.com/cards/4b1d59fb-c3ff-4995-a695-51f2a4dae404/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Address
@@ -745,6 +758,7 @@ schema: 2
   - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to “have the initiative.” The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
   - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
   - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren’t in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can’t start Undercity.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stirring-bard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/195/stirring-bard) · oracle_id `2583836d-7fd3-47b3-9b69-6814efe54a90` · printing: CLB #195 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Honormancer
@@ -776,6 +790,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — A repartee ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
   - *2026-03-20* — It doesn't matter if the creature or creatures targeted by the spell that caused the repartee ability to trigger leave the battlefield or stop being creatures before that spell resolves. As long as that spell targeted one or more creatures when it was cast, the repartee ability will trigger and later resolve.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stirring-hopesinger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/35/stirring-hopesinger) · oracle_id `7244d04a-bb9c-4fbe-a346-4a3f45709da7` · printing: SOS #35 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stirring Wildwood
@@ -790,6 +805,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-03-01* — A land that becomes a creature may be affected by "summoning sickness." You can't attack with it or use any of its {T} abilities (including its mana abilities) unless it began your most recent turn on the battlefield under your control. Note that summoning sickness cares about when that permanent came under your control, not when it became a creature.
   - *2010-03-01* — When a land becomes a creature, that doesn't count as having a creature enter. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters won't trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stirring-wildwood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/251/stirring-wildwood) · oracle_id `e900f211-dc8b-40f7-a217-1b1462b15c26` · printing: UMA #251 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stir the Grave
@@ -904,6 +920,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13680 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-11-07* — “Exiled this way” refers to the exile instruction that's part of the ability's effect. If the cards each player would put into their graveyard are exiled because of a replacement effect, those cards won't be in the graveyards to be exiled by the next part of the ability. In this case, the value of X will be 0. You'll put a 0/0 token onto the battlefield, then that token will die and subsequently cease to exist (unless something else raises its toughness above 0).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stitcher-geralf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/121/stitcher-geralf) · oracle_id `da394a25-79c9-4b75-9ce6-741f64ae6913` · printing: CMM #121 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher's Apprentice
@@ -920,6 +937,7 @@ schema: 2
   - *2018-12-07* — Any abilities that trigger on the Homunculus token entering the battlefield will resolve after you’ve sacrificed a creature.
   - *2018-12-07* — The creature you sacrifice for the ability of Stitcher’s Apprentice could be the Homunculus you’ve just created. It could also be Stitcher’s Apprentice itself.
   - *2018-12-07* — You create a token and sacrifice a creature all while the activated ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stitchers-apprentice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/73/stitchers-apprentice) · oracle_id `14bf3049-faa3-4c1f-a613-603e977a50a4` · printing: UMA #73 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitcher's Graft
@@ -951,6 +969,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #618 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stitchers-supplier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/196/stitchers-supplier) · oracle_id `7fd61a18-6e4f-40c5-aa00-3d101ec1ec82` · printing: TDC #196 (2025-04-11) · [rulings](https://api.scryfall.com/cards/2edcde06-b326-476e-884d-770187c785fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitch in Time
@@ -976,6 +995,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1611 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Checks the number of cards in your graveyard when it starts resolving. You may drop below seven cards during resolution, but that won't stop it from resolving.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#stitch-together)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/119/stitch-together) · oracle_id `bc3d5911-3580-4132-9daf-2826495b5739` · printing: C18 #119 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stitchwing Skaab

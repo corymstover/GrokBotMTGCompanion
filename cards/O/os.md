@@ -66,6 +66,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25078 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#_____-o-saurus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/148/_____-o-saurus) · oracle_id `32921952-8846-418d-8689-c42dbc24a7b8` · printing: UNF #148 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a4db23c3-7ff6-4b86-a6a6-7c1d9c810e6e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Industries
@@ -83,6 +84,7 @@ schema: 2
   - *2025-09-19* — Mayhem represents an alternative cost that can be paid to cast a spell from your graveyard if you discarded the card with mayhem that turn. You must pay any additional costs the spell has.
   - *2025-09-19* — You can play Oscorp Industries using its mayhem ability only if you have available land plays remaining. There's no cost to playing a land; you're simply playing it from your graveyard.
   - *2025-09-19* — You must follow all normal timing rules when casting a spell with mayhem. For example, you can't cast a creature card with mayhem you couldn't normally cast during an opponent's turn, even if you discard that card during an opponent's turn.
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/O.md#oscorp-industries)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/182/oscorp-industries) · oracle_id `f432eb6a-f1bf-4ce7-b915-1488dccb4bb9` · printing: SPM #182 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oscorp Research Team
@@ -128,6 +130,7 @@ schema: 2
   - *2023-10-13* — An instant or sorcery that counts how many spells you've cast from anywhere other than your hand, such as Surge of Brilliance, counts itself if it was cast from a zone other than your hand.
   - *2023-10-13* — If a spell or ability allows you to copy a spell on the stack but doesn't specify that the spell is cast, that spell wasn't cast and won't be counted by paradox abilities. However, if a spell or ability allows you to cast a copy of a spell, that spell will be counted for paradox abilities.
   - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#osgood-operation-double)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/191/osgood-operation-double) · oracle_id `292aafef-8945-4827-90b2-1dd9764e517b` · printing: WHO #191 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oskar, Rubbish Reclaimer
@@ -195,6 +198,7 @@ schema: 2
   - *2023-02-04* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
   - *2023-02-04* — If Ossification leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled.
   - *2023-02-04* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/O.md#ossification)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/26/ossification) · oracle_id `e29bfd62-286f-4982-813f-7086573c333b` · printing: ONE #26 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ossuary Rats
@@ -232,6 +236,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#osteomancer-adept)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/103/osteomancer-adept) · oracle_id `791cbb7c-7935-4902-b050-9ea9d030e9fa` · printing: BLB #103 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ostiary Thrull

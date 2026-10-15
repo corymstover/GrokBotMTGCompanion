@@ -96,4 +96,5 @@ schema: 2
   > *The trees have ears, eyes, and teeth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21746 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#waiting-in-the-weeds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/266/waiting-in-the-weeds) · oracle_id `5a61d51e-1a3f-49f6-9a94-a708dd6f69df` · printing: 6ED #266 (1999-04-21) · [rulings](https://api.scryfall.com/cards/7e2d5a77-6ee8-463d-9e6a-fdb1cc6d70e6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

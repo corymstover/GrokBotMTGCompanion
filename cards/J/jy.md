@@ -35,4 +35,5 @@ schema: 2
   - *2024-06-07* — If you have multiple commanders, Jyoti's first ability will create a 1/1 green Forest Dryad land creature token for each time you've cast either of them. For example, if you've cast one commander once and one twice, you'll create three Forest Dryads.
   - *2024-06-07* — If your commander was countered, that time you cast it still counts.
   - *2024-06-07* — The value of X in Jyoti's last ability is calculated only once, as Jyoti's ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jyoti-moag-ancient)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/8/jyoti-moag-ancient) · oracle_id `67f0cef6-8ef4-4c39-b306-2b580036894e` · printing: M3C #8 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -98,6 +98,7 @@ schema: 2
   > *With every retelling of Agatha's demise, Kellan got taller and Ruby got stronger. But the core story stayed the same, and people remembered what happens to those who prey on the weak.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#a-tale-for-the-ages)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/34/a-tale-for-the-ages) · oracle_id `682a0770-8fe0-4142-aa0c-b60af3628a33` · printing: WOE #34 (2023-09-08) · [rulings](https://api.scryfall.com/cards/ca0c8d3b-ce30-4da5-a6a8-9bdcb3c757f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atalya, Samite Master
@@ -165,6 +166,7 @@ schema: 2
   - *2015-02-25* — Activating the last ability of a Monument while it's already a creature will override any effects that set its power or toughness to a specific value. Effects that modify power or toughness without directly setting them to a specific value will continue to apply.
   - *2015-02-25* — Each Monument is colorless, although the last ability will make each of them two colors until end of turn.
   - *2015-02-25* — If a Monument has any +1/+1 counters on it, those counters will remain on the permanent after it stops being a creature. Those counters will have no effect as long as the Monument isn't a creature, but they will apply again if the Monument later becomes a creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#atarka-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/235/atarka-monument) · oracle_id `eb287c04-97f5-4e47-beb1-66cc7d15e748` · printing: DTK #235 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atarka Pummeler
@@ -218,6 +220,7 @@ schema: 2
 - **Keywords:** Flying, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1373 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/A.md#atarka-world-render)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/281/atarka-world-render) · oracle_id `c0b3bbce-977c-42a9-afcb-dabdfc717c97` · printing: TDC #281 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c569fab1-6901-40ab-b958-001698819585/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atemsis, All-Seeing
@@ -277,6 +280,7 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#athreos-god-of-passage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/146/athreos-god-of-passage) · oracle_id `af206aed-1f58-4f5a-ba42-0e0d1f282940` · printing: JOU #146 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Athreos, Shroud-Veiled
@@ -330,6 +334,7 @@ schema: 2
   > *Isthay iecepay ofay avorflay exttay oesn'tday eallyray aysay anythingay.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atinlay-igpay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/1/atinlay-igpay) · oracle_id `17520d37-111a-4708-9934-feb20f3d7199` · printing: UNH #1 (2004-11-19) · [rulings](https://api.scryfall.com/cards/3d0076e3-e538-4f4f-87fb-467851a8d8dd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### At Knifepoint
@@ -350,6 +355,7 @@ schema: 2
   - *2024-04-12* — If an ability refers to an outlaw or whether a player controls an outlaw, it’s referring only to permanents with one or more of the creature types specified above. Notably, it’s not referring to any spell or card not on the battlefield. However, other abilities may refer to an “outlaw spell” or “outlaw card” in a zone other than the battlefield. Those abilities refer to spells and cards with one or more of the specified creature types.
   - *2024-04-12* — Outlaw is not a creature type. If an effect asks you to choose a creature type, you can’t choose outlaw.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#at-knifepoint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/193/at-knifepoint) · oracle_id `bddb2064-afdb-4184-ae4a-633745e64a3c` · printing: OTJ #193 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlantean Cavalry
@@ -394,6 +400,7 @@ schema: 2
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23016 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atlantis-attacks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/46/atlantis-attacks) · oracle_id `b5c8e24a-f4d7-42dc-8117-905ad0bad888` · printing: MSH #46 (2026-06-26) · [rulings](https://api.scryfall.com/cards/40bc4380-055d-4913-93cb-280c9c1d1a87/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atla Palani, Nest Tender
@@ -408,6 +415,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-08-23* — If Atla Palani dies at the same time as one or more Eggs you control, its last ability triggers for each of those Eggs.
   - *2019-08-23* — If there are no creature cards in your library as Atla Palani's last ability resolves, you reveal your library then put it back in a random order.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atla-palani-nest-tender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/142/atla-palani-nest-tender) · oracle_id `b56cebe0-3752-4ce5-afbd-911543784015` · printing: DMC #142 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atlas, Sizable Stooge
@@ -474,6 +482,7 @@ schema: 2
   - *2025-07-25* — Spacecraft is an artifact type with no special meaning. It doesn’t grant the artifact any intrinsic abilities. Other cards may care about which artifacts are Spacecraft.
   - *2025-07-25* — The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether or not that permanent is a creature.
   - *2025-07-25* — Use the tapped creature’s power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn’t on the battlefield at that time, use its power as it last existed on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#atmospheric-greenhouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/171/atmospheric-greenhouse) · oracle_id `52c6afc6-aff1-46a8-b1ea-b183facec1ae` · printing: EOE #171 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atog
@@ -485,6 +494,7 @@ schema: 2
   > Sacrifice an artifact: This creature gets +2/+2 until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15002 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/109/atog) · oracle_id `3095f2cf-05c3-4381-929f-c526b6fc30a7` · printing: ME4 #109 (2011-01-10) · [rulings](https://api.scryfall.com/cards/adf3bd18-d9c1-4f18-86c0-579db8ea37c7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atogatog
@@ -598,6 +608,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#atraxa-praetors-voice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/190/atraxa-praetors-voice) · oracle_id `7e6b9b59-cd68-4e3c-827b-38833c92d6eb` · printing: 2XM #190 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxa's Fall
@@ -625,6 +636,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-02-04* — You choose which ability the target creature gets as the reflexive ability resolves. Players may not wait to see what ability you choose before deciding whether to respond to it.
   - *2023-02-04* — You don't choose a target for Atraxa's Skitterfang's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you remove an oil counter this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#atraxas-skitterfang)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/223/atraxas-skitterfang) · oracle_id `8255b408-cc8c-453f-982c-f361b5559cec` · printing: ONE #223 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atraxi Warden
@@ -666,6 +678,7 @@ schema: 2
 - **Keywords:** Reach, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8227 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#atreus-impulsive-son)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2212/atreus-impulsive-son) · oracle_id `f6a4298c-3d9d-43e1-b32c-b168c02ad503` · printing: SLD #2212 (2025-10-27) · [rulings](https://api.scryfall.com/cards/2e53b0b2-dba1-4a95-80c4-622ab1a547a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atris, Oracle of Half-Truths
@@ -695,6 +708,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10037 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#atrocious-experiment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/115/atrocious-experiment) · oracle_id `9f1c5040-ac46-4e8f-a5ff-8205e13a8893` · printing: CLB #115 (2022-06-10) · [rulings](https://api.scryfall.com/cards/e6098b4a-a92f-4477-8122-5913ac9247f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Atsushi, the Blazing Sky
@@ -710,6 +724,7 @@ schema: 2
 - **Keywords:** Flying, Treasure, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1364 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#atsushi-the-blazing-sky)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/236/atsushi-the-blazing-sky) · oracle_id `535f405d-94df-4f45-aedc-b331103720b7` · printing: SOC #236 (2026-04-24) · [rulings](https://api.scryfall.com/cards/06658540-0104-428f-91b1-40552826e781/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attack-in-the-Box
@@ -743,6 +758,7 @@ schema: 2
   - *2022-10-07* — Results can be numbers not ordinarily possible on a six-sided die. Spells like Scooch can change the result to 0 or 7, for example.
   - *2022-10-07* — Some effects may modify the result of a die roll. This may be part of the instruction to roll a die, or it may come from other cards. Anything that references the "result" of a die roll is looking for the result after these modifications.
   - *2022-10-07* — Something in the game must tell you to roll a die. If you roll a die for any other reason (to simulate a coin flip, to choose pizza toppings, to create alternate timelines), that roll doesn't count.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#attempted-murder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/66/attempted-murder) · oracle_id `89e90361-822f-42b6-9ed9-d94e6d24fb95` · printing: UNF #66 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attendant of Vraska
@@ -837,6 +853,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17645 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#attentive-sunscribe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/4/attentive-sunscribe) · oracle_id `0f85714b-e731-45a3-aa65-8cd59cd48280` · printing: LCI #4 (2023-11-17) · [rulings](https://api.scryfall.com/cards/ad1a0159-7f00-429c-9318-b028b1e03ba8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attercop
@@ -868,6 +885,7 @@ schema: 2
   > *—Davvol, Evincar of Rath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4892 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#attrition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/72/attrition) · oracle_id `a85ee0cf-39ce-49f2-874a-f6f54ca1775f` · printing: CMD #72 (2011-06-17) · [rulings](https://api.scryfall.com/cards/f8f29b57-172e-407b-b55e-32fe96198f92/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Attuma, Atlantean Warlord
@@ -967,4 +985,5 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — Atzocan Seer's second ability doesn't include the {T} symbol. You can activate that ability even if it's already been tapped, perhaps because you activated its first ability.
   - *2018-01-19* — If an effect refers to a "[subtype] spell" or "[subtype] card," it refers only to a spell or card that has that subtype. For example, March of the Drowned is a card that benefits Pirates and features Pirates in its illustration, but it isn't a Pirate card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#atzocan-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/265/atzocan-seer) · oracle_id `affced7f-797d-4e50-8a24-2da14de44e43` · printing: LCC #265 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

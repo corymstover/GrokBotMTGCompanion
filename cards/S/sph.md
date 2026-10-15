@@ -73,6 +73,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1248 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Once a creature that has reach because of Sphere Grid's last ability has blocked a creature, removing all +1/+1 counters from that creature or causing Sphere Grid to leave the battlefield won't cause that creature to stop blocking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sphere-grid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/70/sphere-grid) · oracle_id `f4770345-f15e-4e31-b6ef-4c2608df9644` · printing: FIC #70 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Annihilation
@@ -158,6 +159,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8484 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — It affects all players, including you.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sphere-of-resistance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/284/sphere-of-resistance) · oracle_id `09c96077-3804-4f12-a613-5bebc5e0413f` · printing: VMA #284 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of Safety
@@ -171,6 +173,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #690 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-10-01* — If you control Sphere of Safety, your opponents can choose not to attack with a creature with an ability that says it attacks if able.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/S.md#sphere-of-safety)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/104/sphere-of-safety) · oracle_id `92f6c063-a740-4c3c-a60a-569fd298854d` · printing: DSC #104 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphere of the Suns
@@ -487,6 +490,7 @@ schema: 2
   - *2020-11-10* — If you somehow have more than two main phases in a turn, each main phase other than the first one is a postcombat main phase, and Sphinx of the Second Sun's ability triggers at the beginning of each of them.
   - *2020-11-10* — The additional beginning phase all happens during the current turn. Any effects that last "until your next turn" or similar won't expire just because you'll go through an additional beginning phase.
   - *2020-11-10* — The additional beginning phase will be a lot like your normal beginning phase. During the untap step, permanents will phase in or out as appropriate and you'll untap your tapped permanents. Anything that triggers "at the beginning of your upkeep" or similar will trigger during the upkeep step, and you'll eventually draw a card for your draw step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sphinx-of-the-second-sun)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/118/sphinx-of-the-second-sun) · oracle_id `516101be-be39-4d84-8fee-d8a79930dd0a` · printing: MKC #118 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sphinx of the Steel Wind

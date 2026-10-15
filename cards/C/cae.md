@@ -50,4 +50,5 @@ schema: 2
 - **Rulings** (2):
   - *2024-03-08* — The Soldier tokens created by Caesar's ability enter the battlefield tapped and attacking, but since they weren't declared as attacking creatures, no abilities that trigger whenever a creature attacks or whenever you attack (such as Caesar's own ability) will trigger.
   - *2024-03-08* — You don't choose modes or a target for Caesar, Legion's Emperor's ability at the time it triggers. Rather, a second "reflexive" ability triggers when you sacrifice another creature this way. You choose modes and, if you chose the third mode, a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#caesar-legions-emperor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/1/caesar-legions-emperor) · oracle_id `8e62d05a-6efd-4764-bca8-97895e0cb613` · printing: PIP #1 (2024-03-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

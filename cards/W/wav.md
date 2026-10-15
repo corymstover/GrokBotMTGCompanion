@@ -49,6 +49,7 @@ schema: 2
   - *2020-01-24* — If you have more than one opponent, this ability can trigger once during each of those opponents' turns.
   - *2020-01-24* — In a Two-Headed Giant game, this ability triggers no more than once during each opposing team's turn.
   - *2020-01-24* — This ability triggers only on your very first spell during an opponent's turn, not the first spell after the card is on the battlefield. If you cast a spell before it's on the battlefield (including if you cast this card somehow during an opponent's turn), the ability won't trigger.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/W.md#wavebreak-hippocamp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/80/wavebreak-hippocamp) · oracle_id `3405c8a9-a8d6-4b45-9b64-94141076603b` · printing: THB #80 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wavecrash Triton
@@ -93,6 +94,7 @@ schema: 2
   > *—Donatello*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1463 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wave-goodbye)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/46/wave-goodbye) · oracle_id `06ef46c6-00ba-40e6-b866-d0095ab83749` · printing: TMC #46 (2026-03-06) · [rulings](https://api.scryfall.com/cards/8fb141d9-addd-47ad-bfc1-b5b376d4c950/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Indifference
@@ -128,6 +130,7 @@ schema: 2
   - *2022-04-29* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2022-04-29* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
   - *2022-04-29* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wave-of-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/41/wave-of-rats) · oracle_id `ccb0f59b-7947-4563-9e16-5d23246f4232` · printing: NCC #41 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Reckoning
@@ -140,6 +143,7 @@ schema: 2
   > *The Dragonsguard ensures peace across Arcavios. Where peace is not possible, they ensure justice.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5330 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wave-of-reckoning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/112/wave-of-reckoning) · oracle_id `24f7143c-d43a-4120-baa0-0235b15d8186` · printing: SOC #112 (2026-04-24) · [rulings](https://api.scryfall.com/cards/7be0c25a-5e65-48e1-9560-9391111bb912/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wave of Terror

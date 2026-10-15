@@ -168,6 +168,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-09-24* — In a multiplayer game, if a player enchanted by one of your Curses leaves the game, perhaps because they have been tormented too much by Lynde, that Curse will be put into your graveyard and cause Lynde's first triggered ability to trigger.
   - *2021-09-24* — Lynde's last ability doesn't target, so you can use it to attach a Curse to a player who has hexproof.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lynde-cheerful-tormentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/38/lynde-cheerful-tormentor) · oracle_id `dc386f6c-bd4a-462a-8d42-0e7a552a4f17` · printing: MIC #38 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lynx
@@ -199,6 +200,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — If an Angel you control is dealt lethal damage at the same time that you gain life, it won't receive a counter from Lyra's ability in time to save it.
   - *2026-08-21* — If more than one creature you control with lifelink deals combat damage at the same time, Lyra's last ability will trigger once for each of those creatures.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lyra-archangel-of-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/201/lyra-archangel-of-dawn) · oracle_id `0fca3328-484f-4050-925e-91840710b5d6` · printing: FRA #201 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra Dawnbringer
@@ -216,6 +218,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — Because damage remains marked on a creature until it's removed as the turn ends, nonlethal damage dealt to an Angel you control may become lethal if Lyra leaves the battlefield during that turn.
   - *2022-12-08* — Multiple instances of lifelink on the same creature are redundant.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/L.md#lyra-dawnbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/738/lyra-dawnbringer) · oracle_id `592c91fc-6430-4c76-9460-65f047350f67` · printing: FDN #738 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyra, Tolarian Archangel
@@ -232,6 +235,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17973 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lyra-tolarian-archangel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/217/lyra-tolarian-archangel) · oracle_id `d9060fff-0b65-4b3d-930d-6e36315b802c` · printing: FRA #217 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a5183681-447b-4023-91f7-00e9338f4417/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Bowmaster
@@ -276,6 +280,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2319 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — Lys Alana Huntmaster’s ability will resolve before the Elf spell that caused it to trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lys-alana-huntmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/67/lys-alana-huntmaster) · oracle_id `3f3439e1-75ce-482d-881f-836492dca6e9` · printing: KHC #67 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lys Alana Informant
@@ -321,6 +326,7 @@ schema: 2
   - *2025-06-06* — Noncreature spells that were cast before Lyse Hext entered count. For example, if Lyse Hext enters on a turn where you've already cast two noncreature spells, she'll have double strike immediately.
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of noncreature spells you cast.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Lyse Hext's second ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lyse-hext)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/88/lyse-hext) · oracle_id `47bce63e-8edb-43c1-b273-4b86da5c616b` · printing: FIC #88 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lyzolda, the Blood Witch

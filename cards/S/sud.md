@@ -50,6 +50,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4904 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sudden-breakthrough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/116/sudden-breakthrough) · oracle_id `f5576cd4-6b21-4b29-902c-9c1fbdd7b2be` · printing: STX #116 (2021-04-23) · [rulings](https://api.scryfall.com/cards/b011707a-471b-41c2-bc73-376a55d26bee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Death
@@ -116,6 +117,7 @@ schema: 2
   - *2021-06-18* — Players may turn face-down creatures face up while a spell with split second is on the stack.
   - *2021-06-18* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2021-06-18* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sudden-edict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/100/sudden-edict) · oracle_id `b95f704d-96b9-437e-8c49-aba874139e12` · printing: MH2 #100 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Impact
@@ -129,6 +131,7 @@ schema: 2
   > *—Dravus, lava mage*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19149 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sudden-impact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/241/sudden-impact) · oracle_id `2bf65e7d-6d31-4ad6-93cd-623612d3175d` · printing: 10E #241 (2007-07-13) · [rulings](https://api.scryfall.com/cards/a6560bb7-28d4-4b5c-bdfa-986a5c114349/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sudden Insight

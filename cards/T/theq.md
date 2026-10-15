@@ -36,4 +36,5 @@ schema: 2
 - **Rulings** (2):
   - *2026-06-29* — If a noncreature spell was already cast by an opponent the turn The Queen of Dale enters, that opponent already cast their first noncreature spell this turn, and The Queen of Dale's ability won't trigger for that opponent that turn.
   - *2026-06-29* — Once a spell or ability that causes you to recruit begins to resolve, no player may take any other actions until it's done. Any responses made to the spell or ability must be made before you draw, discard, and potentially create a token.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#the-queen-of-dale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/24/the-queen-of-dale) · oracle_id `a2ec1dd0-86c7-423d-b562-ed95b79bf8f7` · printing: HOB #24 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

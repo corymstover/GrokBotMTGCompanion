@@ -80,6 +80,7 @@ schema: 2
   > {3}{R}: Exile target creature or planeswalker you control. Reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Activate only as a sorcery.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16147 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#identity-echo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/87/identity-echo) · oracle_id `4dbf8c43-d7c5-4037-875e-6accd87aaf6f` · printing: FRA #87 (2026-10-02) · [rulings](https://api.scryfall.com/cards/e600b33b-8916-43dd-95d3-d7cbf874933d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Identity Thief
@@ -178,6 +179,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #191 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-08-23* — You can activate Idol of Oblivion's first ability even if the token you've created was created before Idol of Oblivion entered the battlefield or if the token has left the battlefield.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/I.md#idol-of-oblivion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/319/idol-of-oblivion) · oracle_id `c232d974-9c65-4bce-b045-e5a7cc0c62e0` · printing: TDC #319 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Idol of the Deep King // Sovereign's Macuahuitl
@@ -256,4 +258,5 @@ schema: 2
   > *"You are loved, child."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #754 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#idyllic-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/24/idyllic-tutor) · oracle_id `57c9ff89-dd30-467b-bb3e-499eeea8cb94` · printing: THB #24 (2020-01-24) · [rulings](https://api.scryfall.com/cards/f06edd53-f3ac-44b0-a087-5670ba8f0fa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

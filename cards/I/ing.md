@@ -45,6 +45,7 @@ schema: 2
   > Whenever you cast a creature spell, if three or more mana from creatures was spent to cast it, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2508 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#inga-and-esika)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/229/inga-and-esika) · oracle_id `3431ee42-c34a-4972-9488-41b83ba5f943` · printing: MOM #229 (2023-04-21) · [rulings](https://api.scryfall.com/cards/0aa97506-b943-4443-96b1-1b49f57d80aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In Garruk's Wake
@@ -57,6 +58,7 @@ schema: 2
   > *Beyond pain, beyond obsession and wild despair, there lies a place of twisted power only the most tormented souls can reach.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1492 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#in-garruks-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/759/in-garruks-wake) · oracle_id `a6899b94-427d-4851-a474-4087e0a0918a` · printing: CLB #759 (2022-06-10) · [rulings](https://api.scryfall.com/cards/57a6f727-8239-45e6-9dbb-67d2d3c9239d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Inga Rune-Eyes
@@ -74,6 +76,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — The last ability will count any creature that died, no matter who controlled it.
   - *2021-02-05* — The number of creatures that have died that turn is checked as the last ability resolves. Inga Rune-Eyes will count, as will creatures that die at the same time as Inga Rune-Eyes and creatures that die while that ability is on the stack but has not yet resolved.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#inga-rune-eyes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/100/inga-rune-eyes) · oracle_id `78afa295-c9f4-4a81-9f7b-5746a3cf6b31` · printing: CMM #100 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Artillerist
@@ -87,6 +90,7 @@ schema: 2
   > *"Sure, you can help me calibrate the aiming mechanism. Stand over there."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1745 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ingenious-artillerist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/182/ingenious-artillerist) · oracle_id `752c7723-90f8-4e3a-8266-f251ee0dadd8` · printing: CLB #182 (2022-06-10) · [rulings](https://api.scryfall.com/cards/1d8dd6c3-3699-4dd1-a019-fdb569eaf722/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Infiltrator
@@ -107,6 +111,7 @@ schema: 2
   - *2019-06-14* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature’s controller chooses which player or planeswalker it’s attacking.
   - *2019-06-14* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. If you wait until after the declare blockers step, because all combat damage is dealt at once, the Ninja won’t normally deal combat damage.
   - *2019-06-14* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/I.md#ingenious-infiltrator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/204/ingenious-infiltrator) · oracle_id `354defd2-f63f-4a48-9fd4-2526b3878a84` · printing: MH1 #204 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Leonin
@@ -178,6 +183,7 @@ schema: 2
   > Whenever one or more artifacts you control enter, put a +1/+1 counter on this creature. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13130 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ingenious-smith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/135/ingenious-smith) · oracle_id `f3988b96-9e00-445c-b3e1-6b2df9b13dac` · printing: MSC #135 (2026-06-26) · [rulings](https://api.scryfall.com/cards/2962e4d3-3f01-47d4-abe3-75658700c132/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ingenious Thief
@@ -243,4 +249,5 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12876 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#ingris-stingerquill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/137/ingris-stingerquill) · oracle_id `bda098cb-31ec-41a1-a9d7-122877cc69d2` · printing: FRA #137 (2026-10-02) · [rulings](https://api.scryfall.com/cards/6471b135-33a8-4005-9a07-ebb74e0bf145/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

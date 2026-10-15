@@ -100,6 +100,7 @@ schema: 2
   - *2023-04-14* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won’t resolve until you’re done casting spells, so the permanents they become can’t be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can’t cast that Aura targeting that creature.
   - *2023-04-14* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali’s ability are exiled.
   - *2023-04-14* — Losing the game because a player (preferably an opponent) has ten or more poison counters is a rule of the game. Etali, Primal Sickness doesn’t have to still be on the battlefield when someone (preferably an opponent) gets their tenth poison counter.
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#etali-primal-conqueror--etali-primal-sickness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/137/etali-primal-conqueror-etali-primal-sickness) · oracle_id `7514e401-7aa1-405d-9f7a-312b4e630cc2` · printing: MOM #137 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali, Primal Storm
@@ -120,6 +121,7 @@ schema: 2
   - *2021-03-19* — If you cast any of the exiled cards, you do so as part of the resolution of the triggered ability. You can't wait to cast them later in the turn. Timing permissions based on a card's type are ignored, and the spells resolve before blockers are declared.
   - *2021-03-19* — If you cast more than one of the exiled cards, you choose the order in which to cast them. A spell you cast this way can be the target of a later spell you cast this way. However, permanent spells cast this way won't resolve until you're done casting spells, so the permanents they become can't be the target of spells cast this way. For example, if you exile Twincast and Lightning Strike, you can cast Lightning Strike and then cast Twincast targeting it; but if you exile a creature card and an Aura card, you can't cast that Aura targeting that creature.
   - *2021-03-19* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Etali's ability are exiled.
+- **Referenced in:** 9 pages (6 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/E.md#etali-primal-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/194/etali-primal-storm) · oracle_id `078def07-ae5d-4591-8db6-d156834aab97` · printing: FDN #194 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etali's Favor
@@ -270,6 +272,7 @@ schema: 2
   > {TK}{TK}{TK}{TK}{TK} — 7/8
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eternal-acrobat-toast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/19/eternal-acrobat-toast) · oracle_id `60a69ddc-3289-4786-944d-27a82c5f0dc8` · printing: SUNF #19 (2022-10-07) · [rulings](https://api.scryfall.com/cards/780b4d5d-d3a0-4aad-abe7-3073339a8fcd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Dominion
@@ -282,6 +285,7 @@ schema: 2
 - **Keywords:** Epic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14769 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#eternal-dominion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/36/eternal-dominion) · oracle_id `ede2a435-bf9a-4f87-b579-259cfdebc13f` · printing: SOK #36 (2005-06-03) · [rulings](https://api.scryfall.com/cards/3067a9bd-991a-462d-862a-2518ae31c382/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Dragon
@@ -361,6 +365,7 @@ schema: 2
   - *2016-07-13* — Eternal Scourge's triggered ability only triggers while it's on the battlefield. For example, Convolute cast targeting Eternal Scourge won't cause its ability to trigger.
   - *2016-07-13* — You must follow the normal timing permissions and restrictions and pay its cost to cast Eternal Scourge from exile.
   - *2016-07-13* — You'll exile Eternal Scourge even if the spell or ability that targets it is countered.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#eternal-scourge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/7/eternal-scourge) · oracle_id `c8b0436e-16d2-4d48-a894-454d69a3743b` · printing: EMN #7 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternal Skylord
@@ -452,6 +457,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #121 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — If a resolving spell puts Eternal Witness onto the battlefield, Eternal Witness's ability can target that card if it's put into your graveyard as it resolves.
+- **Referenced in:** 15 pages (9 decks · 5 edh guides · 1 card data) → [reverse index](../../references/E.md#eternal-witness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/286/eternal-witness) · oracle_id `30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c` · printing: CMM #286 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eternity Snare
@@ -575,6 +581,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1109 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-03-19* — Ethereal Armor counts each enchantment you control, including itself and any Auras you control that are attached to an opponent or to permanents controlled by an opponent.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#ethereal-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/7/ethereal-armor) · oracle_id `dbba75f5-2404-4bd5-982b-f6c4effa5316` · printing: DSK #7 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Champion
@@ -648,6 +655,7 @@ schema: 2
   > *—Teachings of Eight-and-a-Half-Tails*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8543 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#ethereal-haze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/9/ethereal-haze) · oracle_id `0cdbd9e7-4941-46ac-99d8-ea227181bdf8` · printing: CHK #9 (2004-10-01) · [rulings](https://api.scryfall.com/cards/7f1996af-5f15-447f-9b1d-98a7e97df53a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ethereal Investigator
@@ -764,6 +772,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#etherium-horn-sorcerer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/171/etherium-horn-sorcerer) · oracle_id `01afb7a1-6427-4bb6-935a-613e9bda9de3` · printing: C17 #171 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Pteramander
@@ -795,6 +804,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This effect can reduce only the generic portion of the artifact spell's total cost.
   - *2008-10-01* — This effect doesn't change the mana cost or mana value of an artifact spell. Rather, it reduces the total cost of the spell, which is the amount you actually pay while casting it. The total cost takes into account additional or alternative costs.
+- **Referenced in:** 9 pages (7 decks · 2 edh guides) → [reverse index](../../references/E.md#etherium-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/72/etherium-sculptor) · oracle_id `96b87445-6362-4a17-91b2-cbf203fd03fd` · printing: EOC #72 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etherium Spinner
@@ -880,6 +890,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#ethersworn-sphinx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/195/ethersworn-sphinx) · oracle_id `71366469-04ea-4526-bf24-7abc02fdc5ab` · printing: MH2 #195 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ether Well
@@ -944,6 +955,7 @@ schema: 2
   - *2024-02-02* — You might be unable to turn a face-down creature face up because it's an instant or sorcery. Alternatively, abilities such as that of Karlov Watchdog might prevent you from turning face-down creatures face up altogether. In those cases, you'll exile that creature, and then you'll choose whether or not to cast that card without paying its mana cost.
   - *2024-02-02* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
   - *2024-02-02* — Your opponents can't look at cards they own that you cloaked.
+- **Referenced in:** 4 pages (1 decks · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#etrata-deadly-fugitive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/200/etrata-deadly-fugitive) · oracle_id `87957d09-7e22-40fe-8770-ff66d1934a38` · printing: MKM #200 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Etrata, the Silencer
@@ -961,6 +973,7 @@ schema: 2
   - *2018-10-05* — If Etrata's ability exiles a token creature, it won't count to determine whether three cards are exiled with hit counters.
   - *2018-10-05* — If the player controls no creatures, Etrata's ability doesn't resolve. Etrata remains on the battlefield and its owner doesn't shuffle their library. The same is true if the target creature is an illegal target when Etrata's ability tries to resolve.
   - *2018-10-05* — In a Commander game, if Etrata is your commander, you may put it into the command zone as its ability resolves. You'll still shuffle your library.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/E.md#etrata-the-silencer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/170/etrata-the-silencer) · oracle_id `2ee87667-ec9d-4ced-b7e6-df3fd18b0ed6` · printing: GRN #170 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ettercap // Web Shot
@@ -991,4 +1004,5 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#ettercap--web-shot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/231/ettercap-web-shot) · oracle_id `e0b5b3af-af89-4b91-8b55-947ec095d6f2` · printing: CLB #231 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

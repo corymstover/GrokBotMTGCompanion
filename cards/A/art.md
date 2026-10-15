@@ -145,6 +145,7 @@ schema: 2
   > *PRICELESS PIC PILFERED Painting Found Abandoned in Graveyard Merfolk Decry Wizards' Treatment*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#artful-looter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/25/artful-looter) · oracle_id `68097fd5-b2c4-4542-a07e-4e51bcfccdc6` · printing: UNH #25 (2004-11-19) · [rulings](https://api.scryfall.com/cards/0f3ba2a4-3784-4bb5-8a60-7bae80e97eba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artful Maneuver
@@ -221,6 +222,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2579 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — This spell is countered and you get no Saprolings if the artifact is an illegal target on resolution.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#artifact-mutation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/326/artifact-mutation) · oracle_id `e77e8768-3ea8-44f9-aba6-1e023e006946` · printing: NCC #326 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artifact Possession
@@ -281,6 +283,7 @@ schema: 2
   - *2022-06-10* — Gaining a level won't remove abilities that a Class had at a previous level.
   - *2022-06-10* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
   - *2022-06-10* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#artificer-class)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/663/artificer-class) · oracle_id `6dccf583-1045-4058-86cc-ebbcc8de080e` · printing: CLB #663 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artificer's Assistant
@@ -459,6 +462,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 rules) → [reverse index](../../references/A.md#artisan-of-kozilek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/801/artisan-of-kozilek) · oracle_id `19409704-09c4-4a4b-a5a7-f95120b425db` · printing: CMM #801 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artisan's Sorrow
@@ -501,6 +505,7 @@ schema: 2
   > • Create a 3/3 blue and red Elemental creature token with flying. It gains haste until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17460 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#artistic-process)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/108/artistic-process) · oracle_id `0c061a1b-206a-4fcc-92e5-30c8ed9d65c1` · printing: SOS #108 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bce9d933-be58-4301-beb4-07b04d0b69f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Artistic Refusal

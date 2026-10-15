@@ -108,6 +108,7 @@ schema: 2
   > {T}: Add {G}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3202 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#khalni-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/262/khalni-garden) · oracle_id `b2d5ba45-8674-4428-89db-c2bbbf0bf5c5` · printing: C18 #262 (2018-08-10) · [rulings](https://api.scryfall.com/cards/3e0f6ae6-b303-405a-8efa-91de9692768e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Gem
@@ -137,6 +138,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/K.md#khalni-heart-expedition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/899/khalni-heart-expedition) · oracle_id `be6155de-c5b2-415c-ad83-142f9926462a` · printing: CMM #899 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khalni Hydra
@@ -278,6 +280,7 @@ schema: 2
   > *—Jaya Ballard*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1617 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#kher-keep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/75/kher-keep) · oracle_id `79638767-fbc7-451a-b29f-d93f2ac6f102` · printing: FRC #75 (2026-10-02) · [rulings](https://api.scryfall.com/cards/15ca0b68-33a1-4d25-b622-d3f5ba05b0a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Bloodsucker
@@ -325,6 +328,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-04-04* — If a card with a renew ability is put into your graveyard during your turn, you can activate that ability if it’s legal to do so before any other player can take any actions.
   - *2025-04-04* — If multiple cards leave your graveyard at the same time, Kheru Goldkeeper’s triggered ability will trigger only once.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/K.md#kheru-goldkeeper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/199/kheru-goldkeeper) · oracle_id `aef4ab0e-c81f-428c-ab23-64504a9fb989` · printing: TDM #199 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kheru Lich Lord
@@ -399,6 +403,7 @@ schema: 2
   > Other Homarids, Camarids, Cephalids, Nautilids, and Merfolk you control get +1/+1.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#khod-etlan-shiis-envoy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/24/khod-etlan-shiis-envoy) · oracle_id `577e85a9-a24c-44f9-99dc-0a0533f5b032` · printing: CMB2 #24 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f17671ec-7ace-4a16-a135-4dfe21995c14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khorvath Brightflame
@@ -422,6 +427,7 @@ schema: 2
   - *2018-06-08* — The triggered ability of the “partner with” keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#khorvath-brightflame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/9/khorvath-brightflame) · oracle_id `b96b1341-0c15-4816-be2d-5cc98b2afb63` · printing: BBD #9 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Khorvath's Fury

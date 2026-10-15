@@ -55,6 +55,7 @@ schema: 2
   > *It is the forest beyond the horizon, the mountain waiting to be climbed, the new land across the endless sea.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #126 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/W.md#wayfarers-bauble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/M3C-315/wayfarers-bauble) · oracle_id `31f15274-301b-47c5-ba19-0ced04520878` · printing: PLST #M3C-315 (2026-09-28) · [rulings](https://api.scryfall.com/cards/a0eac775-5652-406e-9a06-8d20d693098c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayfaring Giant
@@ -92,6 +93,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#wayfaring-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/208/wayfaring-temple) · oracle_id `c0525645-9b5a-488d-b4d1-e80f16a1e4e1` · printing: C19 #208 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Waylay
@@ -159,6 +161,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#way-of-the-deathbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/238/way-of-the-deathbringer) · oracle_id `54775625-bf44-4035-969e-7e70578c8b98` · printing: FRA #238 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Healer
@@ -176,6 +179,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#way-of-the-healer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/207/way-of-the-healer) · oracle_id `cb27dc83-85ee-4f54-b032-41cd1806d3ac` · printing: FRA #207 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Mentor
@@ -260,6 +264,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/W.md#way-of-the-pyromancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/254/way-of-the-pyromancer) · oracle_id `68d3f547-674a-4d8a-b02f-01bc2f161916` · printing: FRA #254 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Way of the Thief
@@ -309,6 +314,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#way-of-the-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/268/way-of-the-wildspeaker) · oracle_id `501580b9-692c-4804-be34-012a25ba8adf` · printing: FRA #268 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayspeaker Bodyguard
@@ -416,6 +422,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31918 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wayward-soul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/78/wayward-soul) · oracle_id `319b4715-c3eb-49bf-b8d2-4d41e601ebe4` · printing: TPR #78 (2015-05-06) · [rulings](https://api.scryfall.com/cards/4a761397-3613-4d91-adbf-978a12e7ef32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wayward Swordtooth
@@ -437,4 +444,5 @@ schema: 2
   - *2018-01-19* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "Legend Rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
   - *2018-01-19* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
   - *2018-01-19* — Wayward Swordtooth's middle ability is cumulative if you control more than one. It's also cumulative with other effects that let you play additional lands, such as the one from Enter the Unknown.
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/W.md#wayward-swordtooth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/263/wayward-swordtooth) · oracle_id `3875aef0-3102-4fbf-be90-e4139f7a2348` · printing: LCC #263 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -54,6 +54,7 @@ schema: 2
   - *2025-10-02* — The experience counter goes on you, the player, not on Aang. You will keep that counter even if Aang, Airbending Master dies.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aang-airbending-master)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/74/aang-airbending-master) · oracle_id `f3176779-74f7-4136-a701-438feeead7a0` · printing: TLE #74 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, Air Nomad
@@ -197,6 +198,7 @@ schema: 2
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
   - *2025-10-02* — You can tap any untapped creature or artifact you control to pay a waterbend cost, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#aang-swift-savior--aang-and-la-oceans-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/204/aang-swift-savior-aang-and-la-oceans-fury) · oracle_id `cbf09050-39d0-463b-96db-9e22011ae0d8` · printing: TLA #204 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aang, the Last Airbender
@@ -216,6 +218,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aang-the-last-airbender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/4/aang-the-last-airbender) · oracle_id `70564c3a-858f-498e-8b92-acb3ca54ae7e` · printing: TLA #4 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aarakocra Sneak
@@ -241,6 +244,7 @@ schema: 2
   - *2022-06-10* — The initiative is a designation a player can have. A player with the initiative designation is said to "have the initiative." The initiative carries two inherent rules. First, whenever a player takes the initiative, and at the beginning of the upkeep of the player with the initiative, that player ventures into Undercity. Second, whenever one or more creatures a player controls deal combat damage to the player who has the initiative, the first player takes the initiative. Also, some abilities will refer to having the initiative and provide other benefits.
   - *2022-06-10* — There is no initiative in a game until an effect instructs a player to take the initiative. Once a player is instructed to do this, they have the initiative until another player takes the initiative.
   - *2022-06-10* — You cannot venture into Undercity unless instructed to do so, either because you have the initiative at the beginning of your upkeep or because you take the initiative. Notably, if you aren't in a dungeon and an effect instructs you to venture into the dungeon (not venture into Undercity), you can't start Undercity.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aarakocra-sneak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/54/aarakocra-sneak) · oracle_id `c1882cb4-f69e-441e-8871-743ed636cad0` · printing: CLB #54 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aardvark Sloth
@@ -282,4 +286,5 @@ schema: 2
 - **Rulings** (2):
   - *2025-02-07* — If Aatchik is dealt lethal damage at the same time as another Insect you control, Aatchik’s last ability will still trigger, causing each opponent to lose 1 life, but Aatchik won’t get a +1/+1 counter in time to save it.
   - *2025-02-07* — If a card in your graveyard is an artifact creature card, count it only once when determining how many Insect tokens to create for Aatchik’s first ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aatchik-emerald-radian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/187/aatchik-emerald-radian) · oracle_id `405c4a7b-dbb3-48a1-9205-7dbe6e2ad363` · printing: DFT #187 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -212,6 +212,7 @@ schema: 2
   - *2018-10-05* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any spells or permanents you control from Thief of Sanity's effect are exiled, and any of the face-down exiled cards remain face down indefinitely. No player may look at them.
   - *2018-10-05* — Thief of Sanity's effect doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
   - *2018-10-05* — You can still cast the exiled card if Thief of Sanity leaves the battlefield or leaves your control. If another player gains control of Thief of Sanity, that player can't cast the exiled card.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thief-of-sanity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/243/thief-of-sanity) · oracle_id `68b51d58-7566-4a26-8c31-8da32799bea7` · printing: OTC #243 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thief's Knife
@@ -244,6 +245,7 @@ schema: 2
   - *2004-10-04* — Triggers from the permanents leaving the battlefield and then being put back onto the battlefield are not put on the stack until the entire effect is done.
   - *2004-10-04* — You can’t pick a card that can’t legally be returned to the battlefield. If there are no cards that can be legally returned, then you can’t pick one.
   - *2005-08-01* — If you choose an Aura, you can put it on any permanent it can legally enchant. If there is nothing it can legally enchant, it remains exiled, and it can still be chosen by you or another player later in the auction. If there comes a point where only Auras and no legal permanents left, they stay exiled permanently.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thieves-auction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/227/thieves-auction) · oracle_id `230ee0b4-eb75-457f-b171-72d585cfb5aa` · printing: 8ED #227 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieves' Fortune
@@ -307,6 +309,7 @@ schema: 2
   - *2019-08-23* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the creatures you manifested with Thieving Amalgam's triggered ability are exiled.
   - *2019-08-23* — In the Commander variant, you can produce mana that isn't of your commander's color identity if an effect lets you produce mana of that color or mana of any color, even though those symbols can't appear on cards in your deck. You may be able to turn a manifested creature card face up this way if it's not the same colors as your commander.
   - *2019-08-23* — Your opponents can't look at the card they own that you manifested.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thieving-amalgam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/150/thieving-amalgam) · oracle_id `f60cd1d8-eeb6-41a3-af32-3e2a54937ca2` · printing: OTC #150 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thieving Magpie
@@ -389,6 +392,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4429 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — You may spend the two mana added by the last ability on the same spell you don’t own or on two different spells you don’t own.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thieving-varmint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/23/thieving-varmint) · oracle_id `b9f3cf9f-24c7-43ed-9ba1-f4570df3d09e` · printing: OTC #23 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thijarian Witness
@@ -502,6 +506,7 @@ schema: 2
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2024-11-08* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2024-11-08* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#think-twice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/787/think-twice) · oracle_id `fa85c5a2-8e83-4624-a35a-a0bbf17ecbb4` · printing: MSC #787 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Third Path Iconoclast
@@ -515,6 +520,7 @@ schema: 2
   > *"When all you have is a hammer, everything looks like a nail. I merely propose expanding our toolbox."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1359 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#third-path-iconoclast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/307/third-path-iconoclast) · oracle_id `f7156897-2b02-4ecd-868d-d4d59244e9ed` · printing: TDC #307 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ca29f373-7051-4cbe-bda8-e711fda4f9bb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Third Path Savant
@@ -592,6 +598,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1990 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — You can discard either one artifact card or two cards which may or may not be artifacts. If you really want to, you can discard two artifact cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thirst-for-knowledge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/79/thirst-for-knowledge) · oracle_id `939e6f71-185e-41f2-9d54-72cce06f1dce` · printing: MSH #79 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirst for Meaning
@@ -655,6 +662,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thirsting-roots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/185/thirsting-roots) · oracle_id `c0ef21d5-f4bf-4417-b701-d98c2dbbaa43` · printing: ONE #185 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thirsting Shade
@@ -686,6 +694,7 @@ schema: 2
   - *2023-10-13* — A player facing a villainous choice can always choose either option, even if one or both of the options are impossible. For example, if one of the options is to sacrifice a creature, a player who controls no creatures can still choose that option.
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#this-is-how-it-ends)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/70/this-is-how-it-ends) · oracle_id `53467cf4-5db2-4b9c-af2b-03b044c558cd` · printing: WHO #70 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thistledown Duo
@@ -743,4 +752,5 @@ schema: 2
   > *"All that fancy footwork, and you can't even dodge one silly little rope? Cryin' shame, that is."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8999 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#this-town-aint-big-enough)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/74/this-town-aint-big-enough) · oracle_id `2550c2ae-834d-46e7-9ab4-d7bf7bfa6a78` · printing: OTJ #74 (2024-04-19) · [rulings](https://api.scryfall.com/cards/bb206e27-da4d-4abe-9d8c-6d18c5f2f52a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

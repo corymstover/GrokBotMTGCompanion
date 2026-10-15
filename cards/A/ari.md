@@ -54,6 +54,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — Arid Archway will return itself to its owner’s hand if you control no other lands when its enters-the-battlefield ability resolves (or if you choose to return it to its owner’s hand despite controlling other lands). It’s almost never a good idea to play it on your first turn.
   - *2024-04-12* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#arid-archway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/252/arid-archway) · oracle_id `3be3d7e6-7860-438a-b8c8-ef154c18c163` · printing: OTJ #252 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arid Mesa
@@ -64,6 +65,7 @@ schema: 2
   > {T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #55 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 18 pages (13 decks · 3 edh guides · 2 card data) → [reverse index](../../references/A.md#arid-mesa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/244/arid-mesa) · oracle_id `c5acf2a5-40f4-433d-a74d-1cb56c521464` · printing: MH2 #244 (2021-06-18) · [rulings](https://api.scryfall.com/cards/25ac5405-df7b-4097-914a-022cb18e20d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arisen Gorgon

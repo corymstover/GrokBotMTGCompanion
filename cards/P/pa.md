@@ -311,6 +311,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5256 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/P.md#pacifism)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/575/pacifism) · oracle_id `5f5e0b10-c8cf-450c-bfd3-bcb0528ec330` · printing: MSC #575 (2026-06-26) · [rulings](https://api.scryfall.com/cards/433eed50-81af-4a59-b624-57b6f5f1bb0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pack Attack
@@ -365,6 +366,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Dog you control may become lethal if Pack Leader leaves the battlefield during that turn.
   - *2020-06-23* — Once Pack Leader attacks, its effect prevents damage that would be dealt to Dogs you control even if Pack Leader leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pack-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/29/pack-leader) · oracle_id `3701ed34-a97c-4d7b-a15a-4faec02ef24b` · printing: M21 #29 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pack Mastiff
@@ -394,6 +396,7 @@ schema: 2
   - *2024-01-12* — Pack Rat's first ability counts any creature you control with the creature type Rat, not just Pack Rats. That ability works in all zones, not only the battlefield.
   - *2024-01-12* — The token will copy Pack Rat's two abilities. Its power and toughness will be equal to the number of Rats you control (not the number of Rats you controlled when the token entered the battlefield). It will also be able to create copies of itself.
   - *2024-01-12* — The token won't copy counters on Pack Rat, nor will it copy other effects that have changed Pack Rat's power, toughness, types, color, or so on. Normally, this means the token will simply be a Pack Rat. But if any copy effects have affected that Pack Rat, they're taken into account.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pack-rat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rtr/73/pack-rat) · oracle_id `5632c2df-71e6-41b7-b8f5-c683812cc0e2` · printing: RTR #73 (2012-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pack's Betrayal
@@ -486,6 +489,7 @@ schema: 2
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
   - *2021-03-19* — If Pact of Negation is countered or otherwise doesn't resolve (perhaps because its target became illegal), the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
   - *2021-03-19* — If Pact of Negation resolves with a legal target but fails to counter that spell (most likely because that spell can't be countered), the delayed triggered ability will still trigger at the beginning of your next upkeep and you will have to pay. Or else.
+- **Referenced in:** 15 pages (11 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#pact-of-negation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/77/pact-of-negation) · oracle_id `f3e213a4-ba5a-468a-93b3-c0a34e1bd725` · printing: TSR #77 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact of the Serpent
@@ -501,6 +505,7 @@ schema: 2
   - *2021-02-05* — The value of X is based on the number of creatures the player controls of the chosen type as Pact of the Serpent resolves.
   - *2021-02-05* — You choose the target player as you cast Pact of the Serpent, but you don't choose the creature type until the spell resolves.
   - *2021-02-05* — You must choose an existing creature type, such as Squirrel or Knight. You can't choose card types (e.g., artifact) or supertypes (e.g., snow).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pact-of-the-serpent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/206/pact-of-the-serpent) · oracle_id `f275039e-3dba-49b0-92aa-92721b1c7f95` · printing: LCC #206 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact of the Titan
@@ -517,6 +522,7 @@ schema: 2
   - *2013-06-07* — Although originally printed with a characteristic-defining ability that defined its color, this card now has a color indicator. This color indicator can't be affected by text-changing effects (such as the one created by Crystal Spray), although color-changing effects can still overwrite it.
   - *2021-03-19* — If Pact of the Titan is countered, the delayed triggered ability that threatens you with a game loss won't trigger at the beginning of your next upkeep.
   - *2021-03-19* — You have to pay Pact of the Titan's cost during your next upkeep even if the Giant token doesn't survive that long. Okay, you don't have to, but it's a fairly good idea.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pact-of-the-titan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/179/pact-of-the-titan) · oracle_id `cf4959bf-92ae-4c9b-b631-724ce100cbb8` · printing: TSR #179 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pact Weapon
@@ -551,6 +557,7 @@ schema: 2
   - *2016-09-20* — If you don't control an artifact with the highest mana value as your upkeep begins, Padeem's second ability won't trigger. You can't cast an instant to destroy an opponent's artifact during your turn before your upkeep begins.
   - *2016-09-20* — If you no longer control an artifact with the highest mana value as Padeem's triggered ability resolves, you don't draw a card.
   - *2016-09-20* — The artifact you control has to have the highest mana value only among artifacts on the battlefield, not among all permanents on the battlefield.
+- **Referenced in:** 8 pages (6 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#padeem-consul-of-innovation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/109/padeem-consul-of-innovation) · oracle_id `0c7ba712-6a99-4d2f-9242-a2163a11f69c` · printing: CMM #109 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Page, Loose Leaf
@@ -623,6 +630,7 @@ schema: 2
   - *2025-07-25* — If lethal damage is dealt to the enchanted creature, Pain for All’s last ability still triggers.
   - *2025-07-25* — If the enchanted creature is dealt damage by multiple sources at once, such as by two creatures blocking it, Pain for All’s last ability triggers only once. When that triggered ability resolves, the enchanted creature deals damage equal to the total amount of damage dealt to it to each opponent.
   - *2025-07-25* — If the enchanted creature leaves the battlefield before Pain for All’s second ability resolves, use its power as it last existed on the battlefield to determine how much damage is dealt.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/P.md#pain-for-all)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/151/pain-for-all) · oracle_id `4eedf21c-0ad1-48da-a9fe-2ffdbf8371e9` · printing: EOE #151 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painful Lesson
@@ -636,6 +644,7 @@ schema: 2
   > *—Senifet, vizier of Bontu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12066 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#painful-lesson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/154/painful-lesson) · oracle_id `6be78177-aef0-408c-9769-a1be0775f06d` · printing: BBD #154 (2018-06-08) · [rulings](https://api.scryfall.com/cards/e16fa034-f89e-497a-8fd0-533b1932bff5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painful Memories
@@ -663,6 +672,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — Whenever an opponent casts a spell, Painful Quandary's ability triggers and goes on the stack on top of it. It will resolve before the spell does.
   - *2022-10-14* — Whenever an opponent casts a spell, Painful Quandary's ability triggers and goes on the stack on top of it. It will resolve before the spell does.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#painful-quandary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/179/painful-quandary) · oracle_id `c37051cc-6683-4dbb-b5ff-5c3a5bdab1df` · printing: FDN #179 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painful Truths
@@ -681,6 +691,7 @@ schema: 2
   - *2015-08-25* — If you cast a spell with converge without spending any mana to cast it (perhaps because an effect allowed you to cast it without paying its mana cost), then the number of colors spent to cast it will be zero.
   - *2015-08-25* — The maximum number of colors of mana you can spend to cast a spell is five. Colorless is not a color. Note that the cost of a spell with converge may limit how many colors of mana you can spend.
   - *2015-08-25* — Unless a spell or ability allows you to, you can't choose to pay more mana for a spell with a converge ability just to spend more colors of mana. Likewise, if a spell or ability reduces the amount of mana it costs you to cast a spell with converge, you can't ignore that cost reduction in order to spend more colors of mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#painful-truths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/82/painful-truths) · oracle_id `58a2d15f-1b4b-4303-b524-8cc0d1b3e7d2` · printing: ECC #82 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painiac
@@ -820,6 +831,7 @@ schema: 2
   - *2026-09-01* — This ability affects every card in every game zone, all tokens on the battlefield, and all spell copies on the stack, regardless of who controls or owns them.
   - *2026-09-01* — This ability doesn't overwrite any previous colors. Rather, it adds another color.
   - *2026-09-01* — While Painter's Servant is on the battlefield, an effect that changes an object's colors will overwrite Painter's Servant's effect. For example, casting Cerulean Wisps on a creature will turn it blue, regardless of the color chosen for Painter's Servant.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#painters-servant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/257/painters-servant) · oracle_id `baf93873-35e6-4bf2-bdcc-78a5206422fb` · printing: SHM #257 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Painter's Studio // Defaced Gallery
@@ -917,6 +929,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19200 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner, Partner with
 - **Rulings** (1):
   - *2020-04-17* — You exile cards and put +1/+1 counters on Pako all while Pako's last ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#pako-arcane-retriever)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/13/pako-arcane-retriever) · oracle_id `680a3e17-5144-4e97-bc59-9f5fc3ad6514` · printing: C20 #13 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palace Familiar
@@ -968,6 +981,7 @@ schema: 2
   - *2021-03-19* — Palace Jailer leaving the battlefield won't cause the exiled creature to return. The game will continue to watch for the next time an opponent becomes the monarch.
   - *2021-03-19* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward.
   - *2021-03-19* — The opponent that controlled the exiled card doesn't have to be the same opponent that becomes the monarch in order to cause that card to return to the battlefield. Any opponent becoming the monarch will cause the card to return.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#palace-jailer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/140/palace-jailer) · oracle_id `180eda7c-fca2-403b-85cd-8ffebaf9f408` · printing: MSC #140 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palace Sentinels
@@ -1030,6 +1044,7 @@ schema: 2
   - *2021-07-23* — Some Class cards have an effect that increases when more are under your control. For example, if you have multiple Barbarian Class cards, you roll that many additional dice and ignore that many of the lowest rolls.
   - *2021-07-23* — You can multiclass or even control multiple Class enchantments of the same class. Each Class permanent tracks its own level separately.
   - *2021-07-23* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/P.md#paladin-class)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/29/paladin-class) · oracle_id `ac9d52b2-78a5-4b17-8aaf-1c1cb936a508` · printing: AFR #29 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paladin Danse, Steel Maverick
@@ -1079,6 +1094,7 @@ schema: 2
 - **Keywords:** First strike, Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22850 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#paladin-en-vec)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/23/paladin-en-vec) · oracle_id `fd8722e1-9c41-4037-ab7e-47e2aa9858a0` · printing: TPR #23 (2015-05-06) · [rulings](https://api.scryfall.com/cards/6ebea0dd-7d31-4688-a6c4-0e57d08de100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paladin of Atonement
@@ -1189,6 +1205,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3858 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-11-10* — Palani's Hatcher's last ability counts any creature you control with the creature type Egg, not just the tokens Palani's Hatcher creates.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#palanis-hatcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/237/palanis-hatcher) · oracle_id `ce6b6869-e4d7-4156-b66d-57fc224e4b20` · printing: LCI #237 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palantír of Orthanc
@@ -1201,6 +1218,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1339 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — You choose a target for Palantír of Orthanc's ability when it goes on the stack. If that target is illegal as the ability tries to resolve, the ability is removed from the stack. You won't put an influence counter on Palantír of Orthanc, and you won't scry, draw, or mill.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#palantír-of-orthanc)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/247/palant%C3%ADr-of-orthanc) · oracle_id `7798a4d9-1c1d-48e6-b9a2-ecd6aec1efa7` · printing: LTR #247 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palazzo Archers
@@ -1437,6 +1455,7 @@ schema: 2
   > *The myr are like the Glimmervoid: blank canvases on which to build grand creations.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #732 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#palladium-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/967/palladium-myr) · oracle_id `7b0767b8-b504-456e-93bd-218502f73b3d` · printing: CMM #967 (2023-08-04) · [rulings](https://api.scryfall.com/cards/f7c6aba3-38c3-45d1-83e1-40829eb07862/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Palliation Accord
@@ -1531,6 +1550,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — The library ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combat damage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won’t deal combat damage.
   - *2024-11-08* — While searching your library, you must keep your library in the same order until you shuffle it. This order could matter if you tap Millikin for mana, for example, to pay for a library ninjutsu ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#panglacial-shinobi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/534/panglacial-shinobi) · oracle_id `0b60ea9f-a9d5-45cd-ac10-dfc443944ffe` · printing: MB2 #534 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panglacial Wurm
@@ -1581,6 +1601,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30060 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pang-tong-young-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/14/pang-tong-young-phoenix) · oracle_id `6d9dc632-414e-480c-85ef-c2b98a6460ad` · printing: PTK #14 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panharmonicon
@@ -1602,6 +1623,7 @@ schema: 2
   - *2021-03-19* — Panharmonicon's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2021-03-19* — Replacement effects are unaffected by Panharmonicon's ability. For example, a creature that enters the battlefield with one +1/+1 counter on it won't receive an additional +1/+1 counter.
   - *2021-03-19* — You don't need to control the permanent entering the battlefield, only the permanent that has the triggered ability.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#panharmonicon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/310/panharmonicon) · oracle_id `76678885-3674-443d-b9a2-2a460cf6aac0` · printing: 2X2 #310 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panic
@@ -1618,6 +1640,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16706 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, this spell can be cast during any of them as long as it’s before the beginning of that phase’s Declare Blockers Step.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#panic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/145/panic) · oracle_id `e98429a7-a83f-4b69-afad-9eb68b09e38e` · printing: ME2 #145 (2008-09-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panic Attack
@@ -1697,6 +1720,7 @@ schema: 2
   - *2004-12-01* — You may imprint a card on Panoptic Mirror in response to the upkeep-triggered ability. If you do, that card is available to copy when the triggered ability resolves.
   - *2005-03-01* — The creation of the copy and then the casting of the copy are both optional.
   - *2017-04-18* — To imprint a split card, you pay X equal to card's mana value, determined by the combined mana cost of its two halves. If the copied card is a split card, you choose which one side of it to cast, but you can't cast both sides.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#panoptic-mirror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dst/136/panoptic-mirror) · oracle_id `505cb78d-b292-4d16-b3f2-110164b4cc93` · printing: DST #136 (2004-02-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panoptic Projektor
@@ -1714,6 +1738,7 @@ schema: 2
   - *2024-02-02* — Panoptic Projektor’s last ability affects a permanent’s own abilities that trigger when it turns face up as well as other triggered abilities that trigger when that permanent turns face up. Such triggered abilities start with “when” or “whenever”.
   - *2024-02-02* — Panoptic Projektor’s last ability doesn’t copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2024-02-02* — Replacement effects are unaffected by Panoptic Projektor’s last ability. For example, abilities that apply “as [this permanent] is turned face up,” such as that of Crowd-Control Warden, are unaffected.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#panoptic-projektor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/44/panoptic-projektor) · oracle_id `1e1a787a-2294-472d-908d-d4d72821a7cc` · printing: MKC #44 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Panther Habit
@@ -1770,6 +1795,7 @@ schema: 2
   > *The dogs of war are nothing compared to the cats.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19908 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#panther-warriors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/243/panther-warriors) · oracle_id `ef7788af-8edc-46df-a5b6-895c734ea423` · printing: 6ED #243 (1999-04-21) · [rulings](https://api.scryfall.com/cards/ba165e25-5328-40f4-b87c-9d02590f9d38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pantlaza, Sun-Favored
@@ -1793,6 +1819,7 @@ schema: 2
   - *2023-11-10* — The value of X is calculated only once, as the ability resolves. If the creature has left the battlefield, use its toughness as it last existed on the battlefield.
   - *2023-11-10* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2023-11-10* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/P.md#pantlaza-sun-favored)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/4/pantlaza-sun-favored) · oracle_id `b828ba28-e98d-498b-9ab4-d4aa7143e407` · printing: LCC #4 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Papalymo Totolymo
@@ -1860,6 +1887,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15673 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2013-07-01* — This card won’t be put into your graveyard until after it’s finished resolving, which means it won’t be shuffled into your library as part of its own effect.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#paradigm-shift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wth/46/paradigm-shift) · oracle_id `7179c2c5-c59c-4793-a3b5-28d26d755157` · printing: WTH #46 (1997-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradise Druid
@@ -1874,6 +1902,7 @@ schema: 2
   > *"There are many kinds of duty, and mine is to see our world grow and endure."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2079 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#paradise-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/165/paradise-druid) · oracle_id `e119869d-1f66-402b-8251-d351965cf0d3` · printing: AFC #165 (2021-07-23) · [rulings](https://api.scryfall.com/cards/187d5819-6a63-4e4f-98c4-18191c03f164/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradise Mantle
@@ -1889,6 +1918,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1789 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#paradise-mantle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/211/paradise-mantle) · oracle_id `c1121b83-1ba2-473d-89c9-e3bbd4529072` · printing: MMA #211 (2013-06-07) · [rulings](https://api.scryfall.com/cards/19cd6bcc-ca47-47cc-9fe4-c29e9c176485/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradise Plume
@@ -1919,6 +1949,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — Paradox Engine’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#paradox-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/169/paradox-engine) · oracle_id `d38937a6-ab1c-4de8-a278-d81a6ce0d921` · printing: AER #169 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradox Gardens
@@ -1954,6 +1985,7 @@ schema: 2
   - *2006-09-25* — If echo triggers during the first upkeep, it won't trigger again during the second upkeep since the creature won't have entered since that player's last upkeep.
   - *2006-09-25* — If two Paradox Hazes enchant the same player, they'll both trigger when that player's first upkeep of the turn begins. The player will get two additional upkeep steps.
   - *2006-09-25* — Paradox Haze targets a player when it's cast, and it enters attached to that player.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#paradox-haze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsp/71/paradox-haze) · oracle_id `daff0e7b-08f2-435f-97b9-9b000e94ffa8` · printing: TSP #71 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradoxical Outcome
@@ -1968,6 +2000,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If a melded or merged permanent is returned to your hand this way, you'll draw a card for each of its components that are cards.
   - *2021-03-19* — If you control but don't own some of the target permanents, they won't count when determining how many cards you draw.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#paradoxical-outcome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/60/paradoxical-outcome) · oracle_id `2cce7250-f8f9-4c0a-87b1-ba3c5b8ed6b3` · printing: KLD #60 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Paradox Shaper // Omit Variables
@@ -2158,6 +2191,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29102 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The target opponent chooses which card to exile.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#parallax-nexus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/63/parallax-nexus) · oracle_id `40fbcf4b-d79e-4e6b-bcec-1d1544b3c4a2` · printing: NEM #63 (2000-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parallax Tide
@@ -2171,6 +2205,7 @@ schema: 2
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21242 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/P.md#parallax-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/37/parallax-tide) · oracle_id `e36a92be-537d-4a63-858a-afaab064fbf7` · printing: NEM #37 (2000-02-14) · [rulings](https://api.scryfall.com/cards/7fe593eb-df3c-43e5-97a6-418f91e87cb3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parallax Wave
@@ -2229,6 +2264,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Parallel Lives's replacement effect. For example, if an effect tells you to create a token "tapped and attacking," the additional tokens will also be tapped and attacking.
   - *2023-09-01* — If you control two Parallel Lives, then the number of tokens created is four times the original number. If you control three, then the number of tokens created is eight times the original number, and so on.
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/P.md#parallel-lives)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/199/parallel-lives) · oracle_id `84dc94b2-95fb-4d53-aaa2-191cb645639f` · printing: ISD #199 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parallel Thoughts
@@ -2424,6 +2460,7 @@ schema: 2
   > *—Zilla of Lambholt*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20558 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/P.md#paraselene)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/26/paraselene) · oracle_id `e14ac0f3-00d5-4a95-990c-b7ea157bb87e` · printing: ISD #26 (2011-09-30) · [rulings](https://api.scryfall.com/cards/406380ab-2695-4084-99a5-f5560304f8cb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parasitic Bond
@@ -2477,6 +2514,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#parasitic-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/222/parasitic-impetus) · oracle_id `ff3de07d-86c3-49e1-9de0-97c85301ff93` · printing: SOC #222 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parasitic Implant
@@ -2490,6 +2528,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21805 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — The controller of Parasitic Implant will control the Myr token no matter who controlled and sacrificed the enchanted creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#parasitic-implant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/262/parasitic-implant) · oracle_id `4fc0f58c-5f7f-4a32-8f14-cae696672beb` · printing: JMP #262 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parasitic Strix
@@ -2702,6 +2741,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Although the tokens are attacking, they were never declared as attacking creatures (for the purposes of abilities that trigger whenever a creature attacks, for example).
   - *2019-05-03* — You choose which players or planeswalkers the two tokens are attacking. They don't have to be attacking the same player or planeswalker that Parhelion II is attacking, and they can each be attacking different players and/or planeswalkers.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#parhelion-ii)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/87/parhelion-ii) · oracle_id `24d22bcb-8a77-4c47-a508-6f4bc093c1d0` · printing: NEC #87 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parhelion Patrol
@@ -2737,6 +2777,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-04-12* — If you control multiple Pariahs enchanting different creatures, you choose which redirection effect to apply. You can't divide damage dealt by one source or combat damage dealt by multiple creatures simultaneously. For example, if a spell would deal 6 damage to you and you control multiple Pariahs, you may have that 6 damage dealt to either of the enchanted creatures instead, but you can't choose to have 3 damage dealt to each one.
   - *2024-04-12* — If you would be dealt combat damage, the damage dealt to the enchanted creature instead is still combat damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pariah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/95/pariah) · oracle_id `2c5c8250-1860-42a1-a335-071f54830d37` · printing: CN2 #95 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pariah's Shield
@@ -2752,6 +2793,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3904 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2005-10-01* — If Pariah’s Shield isn’t attached to a creature, all damage that would be dealt to you is dealt to you normally.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pariahs-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/264/pariahs-shield) · oracle_id `f2103ab8-a183-4db8-98dd-4146217b5125` · printing: RVR #264 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parish-Blade Trainee
@@ -2787,6 +2829,7 @@ schema: 2
   > *Once he stopped eating tickets, Bixby was a model employee.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24904 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#park-bleater)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/21/park-bleater) · oracle_id `02f31e00-646d-4971-8704-1583bbfcddd6` · printing: UNF #21 (2022-10-07) · [rulings](https://api.scryfall.com/cards/711784fe-e36b-44ac-bbcc-c29921e231f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parker Luck
@@ -2926,6 +2969,7 @@ schema: 2
   - *2024-07-26* — Once the exiled permanent returns, it’s considered a new object with no relation to the object that it was. Auras attached to the exiled permanent will be put into their owners’ graveyards. Equipment attached to the exiled permanent will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/P.md#parting-gust)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/24/parting-gust) · oracle_id `367bb252-41e1-4f98-9d22-442dd332cccf` · printing: BLB #24 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Parting Thoughts
@@ -2973,6 +3017,7 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#part-the-waterveil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/80/part-the-waterveil) · oracle_id `54dd35ee-6f89-460d-9370-72bc3fa6840a` · printing: BFZ #80 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Part Water
@@ -3030,6 +3075,7 @@ schema: 2
   - *2026-01-27* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2026-01-27* — Whatever you do, don't eat the cards. (Also, don't make the pizzas pictured on the cards. You don't have the digestive system of a Ninja Turtle.)
   - *2026-01-27* — You can't activate an ability that advances a Class to a particular level if that Class is already that level or higher. For example, if a Class is already level 2, you can't activate the ability that advances it to level 2 again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#party-dude)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/128/party-dude) · oracle_id `8df7a58c-053f-4ead-a778-2747718e5f10` · printing: TMT #128 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Party Thrasher
@@ -3049,6 +3095,7 @@ schema: 2
   - *2024-06-07* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-06-07* — When using convoke to cast a spell with {X} in its cost, first choose the value for X. That choice, plus any cost increases or decreases, will determine the spell's total cost. Then you can tap creatures you control to help pay that cost. For example, if you cast Wrath of the Skies (a spell with mana cost {X}{W}{W}) from exile, choosing 3 as the value of X, the total cost is {3}{W}{W}. If you tap a white creature and a red creature, you'll have to pay {2}{W}.
   - *2024-06-07* — You pay all costs and follow all normal timing rules for cards played using Party Thrasher's second ability. For example, if the chosen exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/P.md#party-thrasher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/129/party-thrasher) · oracle_id `03cd7583-d054-4359-8c94-7776c54198ed` · printing: MH3 #129 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pashalik Mons
@@ -3065,6 +3112,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — If Pashalik Mons and one or more other Goblins you control die at the same time, its ability will trigger for each of those creatures.
   - *2022-12-08* — You can sacrifice Pashalik Mons to pay the cost of its last ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pashalik-mons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/133/pashalik-mons) · oracle_id `bdb94ccd-1bb5-4bb7-9539-e1b1c97c19c5` · printing: DMR #133 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Passageway Seer
@@ -3129,6 +3177,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/P.md#passionate-archaeologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/656/passionate-archaeologist) · oracle_id `6299d18e-a6a7-414c-85c0-d57a8e7d2627` · printing: CLB #656 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Passwall Adept
@@ -3167,6 +3216,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#past-in-flames)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/105/past-in-flames) · oracle_id `37a18736-5fe2-4897-809b-013497bdd890` · printing: MM3 #105 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patagia Golem
@@ -3210,6 +3260,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23874 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-05-01* — If this enters in a way other than announcing it as a spell, then the appropriate mana can't have been paid, and you'll have to sacrifice it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patagia-viper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c15/197/patagia-viper) · oracle_id `b9985370-d908-431c-ad33-ec532fe07d1f` · printing: C15 #197 (2015-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patched Plaything
@@ -3253,6 +3304,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7170 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#patchwork-automaton)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/254/patchwork-automaton) · oracle_id `0ba86a50-13df-4b26-8b3a-9e3917ff850f` · printing: NEO #254 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patchwork Banner
@@ -3268,6 +3320,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #201 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — You must choose an existing creature type, such as Bird or Wizard. Card types such as artifact can't be chosen.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#patchwork-banner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/207/patchwork-banner) · oracle_id `4fb00dbe-1f82-4ba6-b18c-97e816d10d3a` · printing: MSC #207 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patchwork Beastie
@@ -3334,6 +3387,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If this creature's power is negative as its ability resolves, X is considered to be 0.
   - *2025-02-07* — If the greatest power among creatures you control is negative as this creature’s ability resolves, X is considered to be 0.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pathbreaker-ibex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/132/pathbreaker-ibex) · oracle_id `7e52e91b-70e6-4f26-a5d4-b8e33d1debbf` · printing: CMA #132 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pathbreaker Wurm
@@ -3367,6 +3421,7 @@ schema: 2
   - *2023-11-10* — In some unusual cases, noncreature permanents may explore. For example, if the creature card returned by Defossilize is somehow not a creature once it's on the battlefield, it can still explore. You'll take all the same actions, and you may end up putting a +1/+1 counter on the permanent. (Note that some effects target a creature, and those effects would still require a legal target to have it explore.)
   - *2023-11-10* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2023-11-10* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#pathfinding-axejaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/206/pathfinding-axejaw) · oracle_id `54452df0-560c-4561-9dd2-3903ae49c91b` · printing: LCI #206 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pathmaker Initiate
@@ -3400,6 +3455,7 @@ schema: 2
   - *2020-11-10* — If your commander is a card that has no colors in its color identity, Path of Ancestry's ability produces no mana. It doesn't produce {C}.
   - *2023-07-28* — If you have two commanders, the last ability adds one mana of any color in their combined color identities. When you spend that mana on a creature spell that shares a creature type with either of your commanders, you'll scry 1.
   - *2023-07-28* — Your commander's creature types are checked immediately after you cast a creature spell spending mana from Path of Ancestry's last ability. They aren't set before the game begins, and they may not be the same types your commander had when you activated that ability.
+- **Referenced in:** 21 pages (14 decks · 3 edh guides · 2 rules · 2 card data) → [reverse index](../../references/P.md#path-of-ancestry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/80/path-of-ancestry) · oracle_id `b473e293-59e3-4e04-acf2-622604aeb25f` · printing: MBC #80 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of Anger's Flame
@@ -3470,6 +3526,7 @@ schema: 2
   - *2018-01-19* — Once an ability that causes a creature to explore begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the exploring creature after you reveal a nonland card but before it receives a counter.
   - *2018-01-19* — Path of Discovery's triggered ability triggers along with any other abilities that say that the creature explores when it enters the battlefield, including abilities that come from the creature itself or from multiples of Path of Discovery. You may take actions between each resolving ability's exploration.
   - *2018-01-19* — Some spells or abilities might cause a creature to explore multiple times in a row. If you reveal a nonland card when a creature explores and leave it on top of your library, then the creature explores again immediately afterwards, you'll reveal the same card again.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/P.md#path-of-discovery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/179/path-of-discovery) · oracle_id `52714c3c-6821-44dd-88ba-813554df9914` · printing: MSC #179 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path of Mettle // Metzali, Tower of Triumph
@@ -3609,6 +3666,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — Annihilator abilities trigger and resolve during the declare attackers step. The defending player chooses and sacrifices the required number of permanents before they declare blockers. Any creatures sacrificed this way won't be able to block.
   - *2010-06-15* — If a creature with annihilator is attacking a planeswalker, and the defending player chooses to sacrifice that planeswalker, the attacking creature continues to attack. It may be blocked. If it isn't blocked, it simply won't deal combat damage to anything.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pathrazer-of-ulamog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/4/pathrazer-of-ulamog) · oracle_id `4bf95747-4572-49b8-b892-87fe7f910252` · printing: CMM #4 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path to Exile
@@ -3621,6 +3679,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If the target creature is an illegal target by the time Path to Exile tries to resolve, it won't resolve and none of its effects will happen. The creature's controller won't search for a basic land card.
   - *2026-01-27* — The controller of the exiled creature isn't required to search their library for a basic land. If that player doesn't, the player won't shuffle their library.
+- **Referenced in:** 22 pages (18 decks · 2 edh guides · 2 card data) → [reverse index](../../references/P.md#path-to-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/30/path-to-exile) · oracle_id `d683d985-9888-4d21-8b5f-69e69ce4a03b` · printing: FRC #30 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path to Redemption
@@ -3636,6 +3695,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9968 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#path-to-redemption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/31/path-to-redemption) · oracle_id `ac94860b-70b8-4624-9758-4bb024a56f60` · printing: TLA #31 (2025-11-21) · [rulings](https://api.scryfall.com/cards/f936d64a-0db4-49c1-8a57-6d99e012a555/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Path to the Festival
@@ -3736,6 +3796,7 @@ schema: 2
   > Patient Turtle enters with two +1/+1 counters on it if you didn't go first this game.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patient-turtle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/82/patient-turtle) · oracle_id `01851796-44f3-47ee-b00b-f65e0ab97493` · printing: CMB2 #82 (2021-08-20) · [rulings](https://api.scryfall.com/cards/411545ae-952c-458e-a11d-c548617dad38/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patriarch's Bidding
@@ -3753,6 +3814,7 @@ schema: 2
   - *2021-06-18* — Each player may choose any creature type, even if they don't have any creature cards of that type in their graveyard.
   - *2021-06-18* — The player whose turn it is chooses a creature type first, followed by each other player in turn order. Then, all creature cards that have one or more of the chosen types are returned to the battlefield at the same time.
   - *2021-06-18* — You must choose a creature type, such as Elf or Shaman. You can't choose other card types such as artifact or supertypes such as legendary.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#patriarchs-bidding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/275/patriarchs-bidding) · oracle_id `25fc3bc2-d852-4f52-9adb-c7e35c06f3af` · printing: MH2 #275 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patriarch's Desire
@@ -3779,6 +3841,7 @@ schema: 2
   > *Only a fool ignores a letter bearing the official mark of a patriar family.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1235 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#patriars-seal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/332/patriars-seal) · oracle_id `ad95eac2-5b48-4102-9988-a6d7b1ec30e0` · printing: CLB #332 (2022-06-10) · [rulings](https://api.scryfall.com/cards/37f920f0-4dfc-477b-af7e-a17dfc9ba455/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patrician Geist
@@ -3821,6 +3884,7 @@ schema: 2
   > *"They say true heroes always put their teammates before themselves. I often find it's the other way around."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17779 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patriot-shield-wielder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/30/patriot-shield-wielder) · oracle_id `1df7a09f-fbc8-4c2a-a903-bab9e680eda7` · printing: MSH #30 (2026-06-26) · [rulings](https://api.scryfall.com/cards/1467d7c9-00d8-43f1-b4e7-a279d2b10503/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patriot, Young Avenger
@@ -3871,6 +3935,7 @@ schema: 2
   - *2025-07-25* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
   - *2025-07-25* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2025-07-25* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patrolling-peacemaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/5/patrolling-peacemaker) · oracle_id `aa44171d-1c76-40a7-82fc-5ef2abbca647` · printing: EOC #5 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patrol Signaler
@@ -3887,6 +3952,7 @@ schema: 2
   - *2008-08-01* — If the permanent is already untapped, you can’t activate its {Q} ability. That’s because you can’t pay the “Untap this permanent” cost.
   - *2008-08-01* — The “summoning sickness” rule applies to {Q}. If a creature with an {Q} ability hasn’t been under your control since your most recent turn began, you can’t activate that ability. Ignore this rule if the creature also has haste.
   - *2008-08-01* — When you activate an {Q} ability, you untap the creature with that ability as a cost. The untap can’t be responded to. (The actual ability can be responded to, of course.)
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#patrol-signaler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/12/patrol-signaler) · oracle_id `1a8d7714-a566-4195-8605-550929584c61` · printing: EVE #12 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Akki
@@ -3944,6 +4010,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10821 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2005-02-01* — You may put zero, one, or two lands onto the battlefield with Patron of the Moon’s ability. The number is determined as the ability resolves. You don’t need lands in hand to activate the ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#patron-of-the-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/45/patron-of-the-moon) · oracle_id `e514546a-ca03-48ba-90e1-7a0e145137f2` · printing: BOK #45 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Nezumi
@@ -3973,6 +4040,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Patron of the Orochi’s ability untaps nonbasic lands that are also Forests (such as some of the Revised dual lands) and multicolored creatures that are also green.
   - *2005-02-01* — The Patron’s ability can be activated only once per turn, even if control of Patron of the Orochi changes.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/P.md#patron-of-the-orochi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/138/patron-of-the-orochi) · oracle_id `e245f2f6-2b5b-41bc-88b3-5b41ca813c5e` · printing: BOK #138 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Valiant
@@ -4005,6 +4073,7 @@ schema: 2
   - *2017-08-25* — Destroying a creature with Patron of the Vein's first ability causes its last ability to trigger if Patron of the Vein is still on the battlefield.
   - *2017-08-25* — If Patron of the Vein and a creature an opponent controls die simultaneously (perhaps because they fought or were in combat together), Patron of the Vein's last ability triggers, but Patron of the Vein won't be on the battlefield as that ability resolves. It can't be saved by the +1/+1 counter that would have been put on it. The same is true of any other Vampires you control that die at the same time. Your remaining Vampires will each get a +1/+1 counter.
   - *2017-08-25* — Patron of the Vein's last ability puts a +1/+1 counter on each Vampire you control, including itself, even if the creature that died can't be exiled (most likely because it was a token).
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#patron-of-the-vein)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/207/patron-of-the-vein) · oracle_id `8dbc8fdb-36ce-4f30-b679-9c2029fcd9c6` · printing: LCC #207 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Patron of the Wild
@@ -4119,6 +4188,7 @@ schema: 2
 - **Rulings** (2):
   - *2010-06-15* — If multiple nontoken creatures you control (possibly including Pawn of Ulamog itself) are put into their owners' graveyards at the same time, Pawn of Ulamog's triggered ability will trigger that many times.
   - *2010-06-15* — If you control more than one Pawn of Ulamog and a nontoken creature you control is put into a graveyard, each of those Pawns' abilities will trigger. You may put up to that many Eldrazi Spawn tokens onto the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#pawn-of-ulamog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/223/pawn-of-ulamog) · oracle_id `9bcaf141-1f1f-491f-aced-13dc093b9e2c` · printing: SOC #223 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pawpatch Formation
@@ -4136,6 +4206,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pawpatch-formation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/186/pawpatch-formation) · oracle_id `fa99cf82-ebf1-4526-ab9c-b24eb2970f2a` · printing: BLB #186 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pawpatch Recruit
@@ -4161,6 +4232,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pawpatch-recruit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/187/pawpatch-recruit) · oracle_id `50ab0194-c7dc-4f11-abc0-1a82393cc42e` · printing: BLB #187 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pay No Heed

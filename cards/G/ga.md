@@ -353,6 +353,7 @@ schema: 2
   - *2019-10-04* — Gadwick's second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2019-10-04* — Gadwick's triggered ability won't trigger when you cast it because it's not on the battlefield yet.
   - *2019-10-04* — If Gadwick enters the battlefield without being cast, or if it was cast for a cost other than its mana cost, the value of X for its first ability is 0.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#gadwick-the-wizened)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/48/gadwick-the-wizened) · oracle_id `c7530ecd-e22f-41e7-a76b-de32809901c8` · printing: ELD #48 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gaea's Anthem
@@ -444,6 +445,7 @@ schema: 2
   > *—Gamelen, Citanul elder*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #448 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (3 edh guides · 3 card data) → [reverse index](../../references/G.md#gaeas-cradle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/321/gaeas-cradle) · oracle_id `7c427c3d-ecd8-45ef-bebd-8f10f4a311db` · printing: USG #321 (1998-10-12) · [rulings](https://api.scryfall.com/cards/25b0b816-0583-44aa-9dc5-f3ff48993a51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gaea's Embrace
@@ -638,6 +640,7 @@ schema: 2
   > *He can stir the gentlest spirit to wild ferocity.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11850 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gahiji-honored-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/340/gahiji-honored-one) · oracle_id `110d5d45-7174-4d1b-9e9c-e1ccd950ee3b` · printing: NCC #340 (2022-04-29) · [rulings](https://api.scryfall.com/cards/c658f583-c115-43c7-9986-2c6010549313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gainsay
@@ -707,6 +710,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2161 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — Galadhrim Ambush counts all attacking creatures no matter which player, planeswalker, or battle they're attacking, including attacking creatures you control if Galadhrim Ambush is cast during your combat phase.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#galadhrim-ambush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/38/galadhrim-ambush) · oracle_id `3b22d21f-e19a-40df-840b-a2b7f11f79c2` · printing: LTC #38 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galadhrim Bow
@@ -744,6 +748,7 @@ schema: 2
   - *2023-11-03* — If, for some reason, the creature doesn't have the squad ability when it's on the battlefield, the ability won't trigger, even if you've paid the squad cost one or more times.
   - *2023-11-03* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
   - *2023-11-03* — You may pay the squad cost any number of times. You will get a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/G.md#galadhrim-brigade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/502/galadhrim-brigade) · oracle_id `da4bf807-93f3-41b7-8bfd-aa63a551754e` · printing: LTC #502 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galadhrim Guide
@@ -820,6 +825,7 @@ schema: 2
   - *2023-11-03* — If multiple creatures enter the battlefield simultaneously, you must still choose different modes for each instance of the triggered ability that's put onto the stack. If more than three creatures enter the battlefield simultaneously, that choice is made only for the first three.
   - *2023-11-03* — It doesn't matter who has chosen any particular mode. For example, say you control Galadriel, Light of Valinor and have chosen the first two modes this turn. If an opponent gains control of Galadriel, that player can choose only the third mode this turn.
   - *2023-11-03* — The phrase "that hasn't been chosen this turn" refers only to that specific Galadriel, Light of Valinor. If Galadriel leaves the battlefield and then returns to the battlefield later in the turn, it will be a new object with no memory of the modes chosen when it was previously on the battlefield.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#galadriel-light-of-valinor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/498/galadriel-light-of-valinor) · oracle_id `faf44683-339d-4fc0-8029-1e867c69de0e` · printing: LTC #498 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galadriel of Lothlórien
@@ -862,6 +868,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#galadriels-dismissal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/500/galadriels-dismissal) · oracle_id `e46d0b57-5eec-4ab6-b9a7-a5c5cc01cc34` · printing: LTC #500 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gala Greeters
@@ -878,6 +885,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1724 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — If multiple creatures enter the battlefield simultaneously, you must still choose different modes for each instance of the triggered ability that's put onto the stack. If more than three creatures enter the battlefield simultaneously, that choice is made only for the first three.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gala-greeters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/148/gala-greeters) · oracle_id `cce081eb-8820-415a-a7b2-3c5b9d4a2601` · printing: SNC #148 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galazeth Prismari
@@ -997,6 +1005,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
   - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#galerider-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/849/galerider-sliver) · oracle_id `1ad78038-44f9-4599-84db-fc1a87d9ed45` · printing: CMM #849 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gale's Redirection
@@ -1065,6 +1074,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#gale-waterdeep-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/72/gale-waterdeep-prodigy) · oracle_id `cca15007-2faf-4696-a4c5-2d7b6c1ec5b5` · printing: CLB #72 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galewind Moose
@@ -1302,6 +1312,7 @@ schema: 2
   - *2023-10-13* — To cast a fused split spell, pay both of its mana costs. While the spell is on the stack, its mana value is the total amount of mana in both costs.
   - *2023-10-13* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
   - *2023-10-13* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#gallifrey-falls--no-more)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/131/gallifrey-falls-no-more) · oracle_id `d4424585-9564-4ec2-8267-3f5438e1f29e` · printing: WHO #131 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gallifrey Stands
@@ -1332,6 +1343,7 @@ schema: 2
   - *2019-01-25* — If Galloping Lizrog leaves the battlefield after its ability has triggered, you may remove any number of +1/+1 counters from among your creatures, even though you won’t put any on Galloping Lizrog.
   - *2019-01-25* — If an effect causes Galloping Lizrog to enter the battlefield with +1/+1 counters on it, you may remove those counters with its triggered ability and put twice as many back on it.
   - *2019-01-25* — You remove counters and put new ones on Galloping Lizrog all while its ability is resolving. Nothing can happen between the two, and no player may choose to take actions.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#galloping-lizrog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rna/175/galloping-lizrog) · oracle_id `3561cd52-961f-4098-9287-58ee43970f0f` · printing: RNA #175 (2019-01-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gallowbraid
@@ -1465,6 +1477,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — You may pay zero {E}. You will get {E}{E}{E}, but Galvanic Discharge won't deal any damage.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#galvanic-discharge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/122/galvanic-discharge) · oracle_id `ef0f06f1-3991-4897-bf62-d4cab7ec79a0` · printing: MH3 #122 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galvanic Giant // Storm Reading
@@ -1490,6 +1503,7 @@ schema: 2
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You may choose a creature that's already tapped as the target of Galvanic Giant's ability. If the target creature is already tapped as it resolves, you will still put a stun counter on it.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#galvanic-giant--storm-reading)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/52/galvanic-giant-storm-reading) · oracle_id `48ab8ba0-0e85-4656-a798-ceb961fb02ce` · printing: WOE #52 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galvanic Iteration
@@ -1518,6 +1532,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#galvanic-iteration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/184/galvanic-iteration) · oracle_id `c51ed6e3-813b-49c4-b1de-7f92a77f8f6e` · printing: MSC #184 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galvanic Juggernaut
@@ -1561,6 +1576,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Playing the card has the same timing restrictions and requires the same payments as normal, but it can only be played next turn.
   - *2021-06-18* — You can play the exiled card only on your next turn after Galvanic Relay resolves. Notably, this means you cannot play it the same turn you cast Galvanic Relay.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#galvanic-relay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/127/galvanic-relay) · oracle_id `973c684c-a396-4e40-8aaa-365bc64a6f9a` · printing: MH2 #127 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Galvanize
@@ -1616,6 +1632,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #241 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — You might end up discarding the card you searched for. It's a gamble!
+- **Referenced in:** 21 pages (15 decks · 5 edh guides · 1 card data) → [reverse index](../../references/G.md#gamble)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/121/gamble) · oracle_id `a54f0869-94c8-42af-9080-166efb9486a4` · printing: DMR #121 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gamekeeper
@@ -1640,6 +1657,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7403 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — To “double the life stakes” means to double the amount of life lost or gained.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#game-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5ed/232/game-of-chaos) · oracle_id `b6756608-a618-4e26-a090-ea8fc992def1` · printing: 5ED #232 (1997-03-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Game Over
@@ -1672,6 +1690,7 @@ schema: 2
   - *2018-06-08* — If an effect allows a player to cast a spell spending mana “as though it were mana of any color” or “of any type,” that player must still pay for the colored mana in that spell’s total cost. That cost doesn’t become generic.
   - *2018-06-08* — Only the generic mana portion of a spell’s cost can be paid with assist. Any colored mana costs must be paid by the spell’s controller, even if the assisting player paid mana of that color.
   - *2018-06-08* — You may reveal a card with assist and discuss how to pay for it before you begin to cast the spell. Targets are chosen for that spell before you choose another player to help you pay for it and before that player has committed any mana to doing so.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#game-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/35/game-plan) · oracle_id `02746b0e-3ef9-46c0-9517-6c52c2905d0b` · printing: BBD #35 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Game Preserve
@@ -1697,6 +1716,7 @@ schema: 2
   - *2016-04-08* — If an effect instructs you to put Game Trail onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2016-04-08* — Lands don't have a subtype just because they can produce mana of the corresponding color. Game Trail itself is neither a Mountain nor a Forest, even though it produces red and green mana, so you can't reveal one to satisfy the ability of another.
   - *2016-04-08* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land. For example, you could reveal Canopy Vista from the Battle for Zendikar set to satisfy the ability of Game Trail.
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/G.md#game-trail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/264/game-trail) · oracle_id `00de57d2-7cb6-4337-9bc6-f6711e4dfabf` · printing: MKC #264 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Game-Trail Changeling
@@ -1750,6 +1770,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#ganax-astral-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/176/ganax-astral-hunter) · oracle_id `a3112971-3af4-46e8-b2d6-a8759b39d0d1` · printing: CLB #176 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf, Friend of the Shire
@@ -1768,6 +1789,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — If the creature you choose as your Ring-bearer was already your Ring-bearer, that still counts as choosing that creature as your Ring-bearer for the purpose of abilities that trigger "whenever you choose a creature as your Ring-bearer" or abilities that care about which creature was chosen as your Ring-bearer.
   - *2023-06-16* — The second ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gandalf-friend-of-the-shire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/50/gandalf-friend-of-the-shire) · oracle_id `7f7c917b-f940-4f43-bafa-31f50a6d9d6f` · printing: LTR #50 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf, Goblins' Bane // Flameshape
@@ -1794,6 +1816,7 @@ schema: 2
   - *2026-06-29* — You must control a Wizard to cast spells exiled by Flameshape, but losing control of your last Wizard while a spell is on the stack will not prevent the spells from resolving.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
   - *2026-06-29* — You pay all costs and follow all timing rules for cards exiled with Flameshape. For example, if an exiled card is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gandalf-goblins-bane--flameshape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/96/gandalf-goblins-bane-flameshape) · oracle_id `f48f2a9b-4ba5-4984-8180-3950889bba65` · printing: HOB #96 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf of the Secret Fire
@@ -1902,6 +1925,7 @@ schema: 2
   - *2023-06-16* — It doesn't matter who has chosen any particular mode. For example, say you control Gandalf the Grey and have chosen the first two modes. If an opponent gains control of Gandalf the Grey, that player can choose only the third or fourth mode.
   - *2023-06-16* — The phrase "that hasn't been chosen" refers only to that specific Gandalf the Grey. If Gandalf the Grey leaves the battlefield (possibly because of the fourth mode of its ability) and then returns to the battlefield later, it will be a new object with no memory of the modes chosen when it was last on the battlefield.
   - *2023-06-16* — You choose the mode as the triggered ability goes on the stack. You can choose a mode that requires targets only if there are legal targets available.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#gandalf-the-grey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/207/gandalf-the-grey) · oracle_id `dfd12e3c-2b2a-4461-a08d-09d4e6c4626e` · printing: LTR #207 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf the White
@@ -1926,6 +1950,7 @@ schema: 2
   - *2023-06-16* — The second ability applies only to casting spells. It does not, for example, change when you may activate abilities that can be activated "only as a sorcery."
   - *2023-06-16* — The trigger event doesn't have to specifically refer to legendary permanents or to artifacts, nor does it have to specifically refer to when something "leaves the battlefield." For example, an ability that triggers "whenever a creature dies" would trigger twice if a legendary creature or an artifact creature dies while Gandalf the White is on the battlefield, as would an ability that triggers "whenever a permanent is put into a graveyard from the battlefield."
   - *2023-06-16* — You don't need to control the permanent entering or leaving the battlefield, only the permanent that has the triggered ability.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/G.md#gandalf-the-white)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/19/gandalf-the-white) · oracle_id `5b3b5f6a-375e-4479-9384-a942eda83f9b` · printing: LTR #19 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gandalf, Wandering Wizard
@@ -2212,6 +2237,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#garenbrig-carver--shields-might)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/156/garenbrig-carver-shields-might) · oracle_id `496c9633-ff17-48df-9b24-1d8cbfd06126` · printing: ELD #156 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garenbrig Paladin
@@ -2353,6 +2379,7 @@ schema: 2
   > *Most knew of the tower's wizard and gargoyle. Few realized which was guardian and which was master.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14722 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gargoyle-castle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/245/gargoyle-castle) · oracle_id `963f2848-15bd-441b-a55c-635f53b7b63f` · printing: C19 #245 (2019-08-23) · [rulings](https://api.scryfall.com/cards/9834b4e1-7e9f-4f93-a2aa-13a52e8a11fc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gargoyle Flock
@@ -2368,6 +2395,7 @@ schema: 2
 - **Keywords:** Skyswarm, Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16382 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gargoyle-flock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/123/gargoyle-flock) · oracle_id `6d24fc3e-eaa9-4ac8-b271-7dc83b812acf` · printing: 40K #123 (2022-10-07) · [rulings](https://api.scryfall.com/cards/0b8c7302-a5ae-484e-8ba5-397ffeb3b19c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gargoyle Sentinel
@@ -2507,6 +2535,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If multiple cards leave your graveyard at the same time, Garrison Excavator's last ability will trigger only once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#garrison-excavator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/116/garrison-excavator) · oracle_id `5d808e64-a648-4f1b-a3a9-fd09568db281` · printing: SOS #116 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garrison Griffin
@@ -2553,6 +2582,7 @@ schema: 2
   - *2014-07-18* — The emblem is owned and controlled by the target of the ability that created it. In a multiplayer game, if Garruk’s owner leaves the game, the emblem does not.
   - *2014-07-18* — The emblem’s ability won’t trigger if a creature attacks a planeswalker.
   - *2014-07-18* — The first ability can target and destroy a Garruk planeswalker controlled by another player.
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/G.md#garruk-apex-predator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m15/210/garruk-apex-predator) · oracle_id `ef9a8bdc-3361-440d-89f6-0bf5ff7a09e8` · printing: M15 #210 (2014-07-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Caller of Beasts
@@ -2568,6 +2598,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — If you have Garruk's emblem, the creature card you search for will be put onto the battlefield before the creature spell you cast resolves. The creature card you put onto the battlefield isn't cast, so the ability of the emblem won't retrigger.
   - *2013-07-01* — You choose what green creature card to put onto the battlefield, if any, when the second ability resolves.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-caller-of-beasts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/172/garruk-caller-of-beasts) · oracle_id `8e2fbc26-5373-4fd7-8e9e-41af5bb9ff18` · printing: M14 #172 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Curse Breaker
@@ -2582,6 +2613,7 @@ schema: 2
   > −4: Until your next turn, whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-curse-breaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/259/garruk-curse-breaker) · oracle_id `184d4672-05a9-4182-8b3f-3561fb33ed62` · printing: FRA #259 (2026-10-02) · [rulings](https://api.scryfall.com/cards/90ca5812-ceb5-46bd-b049-aed7ff10e6af/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Cursed Huntsman
@@ -2597,6 +2629,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If lethal damage is dealt to one of Garruk's Wolf tokens at the same time that Garruk's loyalty is brought to 0 or less, Garruk is put into your graveyard before the Wolf's triggered ability can save him.
   - *2019-10-04* — If the target creature is an illegal target by the time Garruk's second ability tries to resolve, the ability won't resolve. You won't draw a card. If the target is legal but not destroyed (most likely because it has indestructible), you will still draw.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-cursed-huntsman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/191/garruk-cursed-huntsman) · oracle_id `e0cef79c-ad47-4cbc-9d73-a913e487ccb7` · printing: ELD #191 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Primal Hunter
@@ -2613,6 +2646,7 @@ schema: 2
   - *2011-09-22* — For Garruk’s second ability, the greatest power among creatures you control is determined when that ability begins resolving.
   - *2011-09-22* — For Garruk’s third ability, the number of Wurm tokens you put onto the battlefield is determined when that ability begins resolving.
   - *2011-09-22* — If the greatest power among creatures you control is 0 or less, you’ll draw no cards. You won’t discard any cards this way.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-primal-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/190/garruk-primal-hunter) · oracle_id `298a7e1a-b254-442e-bc1d-2a3e5296d849` · printing: C21 #190 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk Relentless // Garruk, the Veil-Cursed
@@ -2636,6 +2670,7 @@ schema: 2
   - *2011-09-22* — The second ability of Garruk, the Veil-Cursed doesn't target a creature. However, when that ability resolves, you must sacrifice a creature if you control one.
   - *2011-09-22* — You can't activate a loyalty ability of Garruk Relentless and later that turn after he transforms activate a loyalty ability of Garruk, the Veil-Cursed.
   - *2011-09-22* — You don't add or remove loyalty counters from Garruk Relentless when he transforms into Garruk, the Veil-Cursed. In most cases, he'll have one or two loyalty counters on him.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-relentless--garruk-the-veil-cursed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/197/garruk-relentless-garruk-the-veil-cursed) · oracle_id `7cec9021-6f25-4fd8-b40e-adf4ffd3a7b8` · printing: INR #197 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Savage Herald
@@ -2652,6 +2687,7 @@ schema: 2
   - *2020-06-23* — Garruk's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't gain the ability.
   - *2020-06-23* — If either creature is an illegal target as Garruk's second ability tries to resolve, the creature you control won't deal damage to any creature.
   - *2020-06-23* — When assigning combat damage, you choose for each creature whether you want to assign its damage to the creature blocking it, or if you want to assign it to the player or planeswalker the creature is attacking. You can't split the damage assignment between them.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#garruk-savage-herald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/336/garruk-savage-herald) · oracle_id `fc762e40-84c1-4762-82f7-a0fc4f6fd522` · printing: M21 #336 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Companion
@@ -2726,6 +2762,7 @@ schema: 2
 - **Keywords:** Role token, Mill
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#garruks-lost-wolf--hey-has-anyone-seen-garruk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unk/CG03a/garruks-lost-wolf-hey-has-anyone-seen-garruk%3F) · oracle_id `dec4cf13-8ac9-4eda-adae-f851b01180fe` · printing: UNK #CG03a (2023-09-23) · [rulings](https://api.scryfall.com/cards/17879408-2e40-4658-8dd3-dab6e98528aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Packleader
@@ -2759,6 +2796,7 @@ schema: 2
   - *2024-11-08* — If you don't control a creature with power 4 or greater immediately after Garruk's Uprising enters, its first ability won't trigger. If you don't control one as the ability resolves, you don't draw a card. They don't have to be the same creature both times, however.
   - *2024-11-08* — Once the last ability of Garruk's Uprising has triggered, lowering the power of the creature or removing it from the battlefield won't stop you from drawing a card.
   - *2024-11-08* — The first ability of Garruk's Uprising has you draw just one card, no matter how many creatures you control with power 4 or greater.
+- **Referenced in:** 12 pages (6 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#garruks-uprising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/109/garruks-uprising) · oracle_id `3127ae9b-a7a7-43ec-89d7-688f8445b33d` · printing: ECC #109 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk's Warsteed
@@ -2786,6 +2824,7 @@ schema: 2
   > −25: Destroy all creatures Garruk the Slayer doesn't control.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#garruk-the-slayer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ppc1/1/garruk-the-slayer) · oracle_id `640c1743-3ad6-46ae-87d1-4d7fbe6a8ff4` · printing: PPC1 #1 (2014-07-12) · [rulings](https://api.scryfall.com/cards/c18e2175-ec42-47f2-a40f-426ccaa1e89e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Unleashed
@@ -2802,6 +2841,7 @@ schema: 2
   - *2020-06-23* — Garruk's second ability gives him only one loyalty counter, no matter how many opponents control how many more creatures than you do.
   - *2020-06-23* — If Garruk has only two loyalty counters, activating his second loyalty ability results in him dying before it resolves. He won't be there to get a loyalty counter.
   - *2020-06-23* — If the creature you put onto the battlefield with Garruk's emblem's ability during your end step has an ability that triggers at the beginning of your end step, it won't trigger during that end step.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-unleashed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/183/garruk-unleashed) · oracle_id `32ea6b1c-d48e-4663-ad5c-d7f4a85450af` · printing: M21 #183 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk, Veiled Butcher
@@ -2816,6 +2856,7 @@ schema: 2
   > −3: Each opponent discards two cards. For each opponent who didn't discard two nonland cards this way, you draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17747 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-veiled-butcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/229/garruk-veiled-butcher) · oracle_id `4a6972fe-348a-4a19-a1d0-bdf8f1f9c792` · printing: FRA #229 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d48bfb8a-d135-45f3-be99-4694b4b9ab93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garruk Wildspeaker
@@ -2831,6 +2872,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — The first ability can target any two lands. They don’t have to be tapped.
   - *2009-10-01* — The third ability affects only creatures you control at the time it resolves. It won’t affect creatures that come under your control later in the turn.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/G.md#garruk-wildspeaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/157/garruk-wildspeaker) · oracle_id `186b4def-4fff-4a2b-bcbf-5318b0ac5fa9` · printing: CMD #157 (2011-06-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garrulous Sycophant
@@ -2902,6 +2944,7 @@ schema: 2
 - **Keywords:** Recover
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19224 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#garzas-assassin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/57/garzas-assassin) · oracle_id `9660b7c4-7b04-4ec3-b867-299c141f77e6` · printing: CSP #57 (2006-07-21) · [rulings](https://api.scryfall.com/cards/3407ccbd-788d-4fe3-a039-0497724a94b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Garza Zol, Plague Queen
@@ -2916,6 +2959,7 @@ schema: 2
 - **Keywords:** Flying, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28397 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#garza-zol-plague-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/129/garza-zol-plague-queen) · oracle_id `5b48e926-fc0e-403c-a47b-1f1d96e2eaf7` · printing: CSP #129 (2006-07-21) · [rulings](https://api.scryfall.com/cards/3570143b-183b-4ae2-8806-3d0c4cd7406e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gaseous Form
@@ -2954,6 +2998,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gas-guzzler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/85/gas-guzzler) · oracle_id `7c98626b-ba97-4d1e-9be7-291480ae8d22` · printing: DFT #85 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gastal Blockbuster
@@ -3055,6 +3100,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Once a creature with power 3 or greater has blocked Gate Colossus, changing the power of the blocking creature won't cause Gate Colossus to become unblocked.
   - *2024-11-08* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gate-colossus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/675/gate-colossus) · oracle_id `386c5895-9713-4c28-9ba8-8ca0caa06c13` · printing: FDN #675 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gatecreeper Vine
@@ -3221,6 +3267,7 @@ schema: 2
   > *Guild leaders focused their magic on the portal scar. Where the Chamber perished, a parun could be reborn.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2642 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gateway-plaza)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/246/gateway-plaza) · oracle_id `a6543f71-0326-4e1f-b58f-9ce325d5d036` · printing: WAR #246 (2019-05-03) · [rulings](https://api.scryfall.com/cards/81d69cf2-8643-4926-857e-febbd54d870f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gateway Shade
@@ -3475,6 +3522,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22172 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gatstaf-shepherd--gatstaf-howler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/182/gatstaf-shepherd-gatstaf-howler) · oracle_id `c05c5375-d0d7-4cf2-92e6-76f86cd0febf` · printing: ISD #182 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gatta and Luzzu
@@ -3518,6 +3566,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12414 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Dual lands which have Mountain as one of their types produce an extra red mana when tapped for either color.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gauntlet-of-might)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/202/gauntlet-of-might) · oracle_id `d38ad188-515e-4865-a0ed-5d0fd4c7b453` · printing: ME4 #202 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gauntlet of Power
@@ -3532,6 +3581,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-12-08* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature of the chosen color may become lethal if Gauntlet of Power leaves the battlefield during that turn.
   - *2022-12-08* — If Gauntlet of Power is somehow on the battlefield with no color chosen for its first ability, no creatures get +1/+1 and its last ability never triggers. It still won't affect colorless creatures or basic lands tapped for colorless mana.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gauntlet-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/223/gauntlet-of-power) · oracle_id `1182591d-8660-4a2e-8d77-2fc544b02b66` · printing: DMR #223 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gauntlets of Chaos
@@ -3590,6 +3640,7 @@ schema: 2
   - *2020-04-17* — If a cycling cost includes {X} and you pay an alternative activation cost of {0} instead, X is 0.
   - *2020-04-17* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.
   - *2020-04-17* — The triggered ability can trigger only once each turn. It doesn’t matter Gavi was on the battlefield when the first card was drawn. If it’s not on the battlefield when the second card is drawn, the ability can’t trigger at all that turn. It won’t trigger when the third or fourth card is drawn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gavi-nest-warden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/7/gavi-nest-warden) · oracle_id `716a3bb8-04bd-41f5-a568-131f175e00a6` · printing: C20 #7 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gavony Dawnguard
@@ -3650,6 +3701,7 @@ schema: 2
   > *—Gregel, militia leader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1002 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#gavony-township)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/406/gavony-township) · oracle_id `8a44e4e7-dfa2-427b-bbff-11c398fa60bb` · printing: MOC #406 (2023-04-21) · [rulings](https://api.scryfall.com/cards/ce46c4e2-a515-41d7-8d70-d20cf4925996/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gavony Trapper

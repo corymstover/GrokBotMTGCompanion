@@ -69,6 +69,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5677 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#segovian-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/25/segovian-angel) · oracle_id `50372c54-359c-4ee6-9e21-1e40ba53652d` · printing: MH1 #25 (2019-06-14) · [rulings](https://api.scryfall.com/cards/b5dbaec5-502d-48c2-9e71-c12cd0bccc6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Segovian Leviathan

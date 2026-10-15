@@ -69,6 +69,7 @@ schema: 2
   - *2018-12-07* — If you attack with multiple creatures with power 2 or less, Raid Bombardment's ability triggers for each of them separately.
   - *2018-12-07* — The power of the attacking creature is checked only when the ability triggers. Once it triggers, Raid Bombardment will deal 1 damage to the appropriate player or planeswalker even if the creature's power changes before the ability resolves.
   - *2023-09-01* — Raid Bombardment's ability won't do anything when a creature you control with power 2 or less attacks a battle.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#raid-bombardment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/142/raid-bombardment) · oracle_id `1734e777-d34a-4526-ae24-ef034f147cc5` · printing: UMA #142 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raiders' Karve
@@ -184,6 +185,7 @@ schema: 2
   - *2024-04-12* — Plot abilities are written “Plot [cost],” which means “Any time you have priority during your main phase while the stack is empty, you may pay [cost] and exile this card from your hand. It becomes plotted.”
   - *2024-04-12* — The value of X is determined as Railway Brawler’s triggered ability resolves.
   - *2024-04-12* — You can’t cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#railway-brawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/175/railway-brawler) · oracle_id `b653db44-ddae-44e8-8fa6-6af3232cd586` · printing: OTJ #175 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Crow
@@ -229,6 +231,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29020 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rainbow-efreet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/41/rainbow-efreet) · oracle_id `7c158405-d3ef-4c10-a504-7b061ef71a74` · printing: VIS #41 (1997-02-03) · [rulings](https://api.scryfall.com/cards/1d6f03a6-3665-40e4-ae68-640913972770/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rainbow Vale
@@ -298,6 +301,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Only grants the ability to lands you control when this ability resolves.
   - *2004-10-04* — The granted ability can be used while the land is tapped.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/R.md#rain-of-filth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/151/rain-of-filth) · oracle_id `aa77980d-0434-40f0-990f-1c8c50610174` · printing: USG #151 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Gore
@@ -312,6 +316,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19428 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — This does not apply to life gain caused by combat damage from a creature with lifelink.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rain-of-gore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/126/rain-of-gore) · oracle_id `d12b4b66-9453-4494-9547-c737f48277ed` · printing: DIS #126 (2006-05-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Revelation
@@ -336,6 +341,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1489 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rain-of-riches)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/177/rain-of-riches) · oracle_id `ef1e2d3d-e977-4729-9430-eba6242e5dfe` · printing: OTC #177 (2024-04-19) · [rulings](https://api.scryfall.com/cards/d633a188-f533-4d28-b3f0-a19f4d78cc40/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rain of Rust
@@ -447,6 +453,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raised-by-giants)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/250/raised-by-giants) · oracle_id `1682cf24-17a3-49ad-8b6f-9b7f13ebf53c` · printing: CLB #250 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raised by Wolves
@@ -474,6 +481,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — The creature being brought back is chosen on announcement and not on resolution of the spell because it is targeted.
   - *2004-10-04* — You must show the card you bring out of the graveyard to your opponent.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raise-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/w17/18/raise-dead) · oracle_id `cbc9c731-181a-4f00-a7b0-eb7e56eac2ea` · printing: W17 #18 (2017-04-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raise the Alarm
@@ -515,6 +523,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #876 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — To choose a creature type, you must choose an existing creature type, such as Halfling or Scout. You can't choose multiple creature types, such as "Halfling Scout." Card types such as artifacts can't be chosen, nor can subtypes that aren't creature types, such as Forest, Equipment, or Food.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#raise-the-palisade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/23/raise-the-palisade) · oracle_id `f55a3781-fe33-4301-9bb5-6a54b9c13c4f` · printing: LTC #23 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raise the Past
@@ -545,4 +554,5 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — A creature attacks alone if it's the only creature declared as an attacker during the declare attackers step. For example, Raiyuu's triggered ability won't trigger if you attack with multiple creatures and all but one of them are removed from combat.
   - *2022-02-18* — Notably, the triggered ability doesn't give you any additional main phases. This means that you will move directly from the end of combat step of one combat phase to the beginning of combat step of the next one.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#raiyuu-storms-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/232/raiyuu-storms-edge) · oracle_id `9028f726-50c7-49f3-8386-e584415dcba2` · printing: NEO #232 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

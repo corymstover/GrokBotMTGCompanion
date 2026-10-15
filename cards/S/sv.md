@@ -64,6 +64,7 @@ schema: 2
   - *2021-02-05* — The spell you cast with Svella’s last ability is cast from your library.
   - *2021-02-05* — The {S} symbol is a generic mana symbol. It represents a cost that can be paid by one mana that was produced by a snow source. That mana can be any color or colorless.
   - *2021-02-05* — You’ll put the cards you didn’t cast on the bottom of your library before the spell you cast resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#svella-ice-shaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/230/svella-ice-shaper) · oracle_id `7fd8a508-335c-4d5a-9916-23bf26dfff38` · printing: KHM #230 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Svogthos, the Restless Tomb

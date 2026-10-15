@@ -161,6 +161,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9587 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2006-09-25* — When Coalition Victory resolves, it checks for the five basic land types (Plains, Island, Swamp, Mountain, Forest) and the five colors (white, blue, black, red, green). If a single land has multiple types and/or a single creature is multiple colors, it will count all those types and/or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#coalition-victory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/91/coalition-victory) · oracle_id `e9e25800-9ee7-40c9-b22d-611c7281c125` · printing: TSB #91 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coalition Warbrute
@@ -197,6 +198,7 @@ schema: 2
   - *2025-02-07* — Finality counters don’t stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner’s hand from the battlefield, it does so normally.
   - *2025-02-07* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
   - *2025-02-07* — Multiple finality counters on a single permanent are redundant.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#coalstoke-gearhulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/198/coalstoke-gearhulk) · oracle_id `2cdbaa4e-8907-49dc-9fa9-0df70db3bf23` · printing: DFT #198 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coal Stoker
@@ -230,6 +232,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-11-08* — Causing an opponent to lose the game after you’ve announced that you’re casting a spell with undaunted and determined its total cost won’t cause you to have to pay more mana.
   - *2016-11-08* — Effects that reduce what you pay to cast a spell don’t affect its mana value.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#coastal-breach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/6/coastal-breach) · oracle_id `e42b6bd7-8fdf-4452-85cc-9aed790ff682` · printing: C16 #6 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Bulwark
@@ -277,6 +280,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31160 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coastal-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/apc/22/coastal-drake) · oracle_id `d4220231-e9ac-4390-8c7b-979549b26d33` · printing: APC #22 (2001-06-04) · [rulings](https://api.scryfall.com/cards/f87aaa74-26c6-4057-84b9-a007383684a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Hornclaw
@@ -321,6 +325,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1518 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You draw one card per creature, not one per point of damage.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#coastal-piracy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/156/coastal-piracy) · oracle_id `8a05ec32-7b0c-4f23-a4f7-413301c2a70a` · printing: TLE #156 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coastal Tower
@@ -430,6 +435,7 @@ schema: 2
   - *2004-10-04* — If a creature has more than one creature type, and one of those types matches the creature you are calculating for, then count that creature. Only one type needs to match in order to get counted.
   - *2004-10-04* — If you have a creature with more than one creature type, count all creatures which have either creature type.
   - *2009-10-01* — Sharing multiple creature types doesn't give an additional bonus. Coat of Arms counts creatures, not creature types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coat-of-arms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dds/58/coat-of-arms) · oracle_id `5f7f133e-58ea-41ab-b1be-be4b400fac4c` · printing: DDS #58 (2017-03-31) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coat with Venom

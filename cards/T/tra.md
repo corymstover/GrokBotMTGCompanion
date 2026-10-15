@@ -258,6 +258,7 @@ schema: 2
   > *The wise, the righteous, the mighty—the merchant feeds them all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8309 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#trade-routes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/108/trade-routes) · oracle_id `120fa67e-e5e0-4c23-9a78-d6171d357aee` · printing: 9ED #108 (2005-07-29) · [rulings](https://api.scryfall.com/cards/57e5d7c9-36f7-4312-ada0-b6c2757487c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trade Secrets
@@ -268,6 +269,7 @@ schema: 2
   > Target opponent draws two cards, then you draw up to four cards. That opponent may repeat this process as many times as they choose.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#trade-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/64/trade-secrets) · oracle_id `50885640-cdf1-4c62-b3bc-f37db6ab38b5` · printing: CMD #64 (2011-06-17) · [rulings](https://api.scryfall.com/cards/58dadc78-fe87-40ac-94cb-128716d89d74/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trade the Helm
@@ -299,6 +301,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21401 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tradewind-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/75/tradewind-rider) · oracle_id `d0314da0-da24-4f6e-b1f6-0d50617bcaaa` · printing: TPR #75 (2015-05-06) · [rulings](https://api.scryfall.com/cards/df626c4c-75f4-4250-9057-c8c383a5a93d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trading Post
@@ -312,6 +315,7 @@ schema: 2
   > {1}, {T}, Sacrifice an artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2163 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/T.md#trading-post)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/224/trading-post) · oracle_id `63788566-e25a-44bb-bb55-197e1b93b3e8` · printing: MSC #224 (2026-06-26) · [rulings](https://api.scryfall.com/cards/03499a72-e865-46ff-bcb2-75e53e4b600e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragda, the Burner
@@ -360,6 +364,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — If a permanent has more than one of the affected types, it can count for any of them. For example, you could choose an artifact creature as the artifact you're sparing, another creature as the creature, and an enchantment creature as the enchantment. Similarly, you could choose an enchantment creature as both the creature and the enchantment that you're sparing, even if the player controls another creature and/or another enchantment.
   - *2015-06-22* — None of the chosen permanents are targets of Tragic Arrogance.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tragic-arrogance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/144/tragic-arrogance) · oracle_id `8a29bd35-33ef-4317-9fe5-8aaff5d7d64d` · printing: MSC #144 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragic Banshee
@@ -428,6 +433,7 @@ schema: 2
 - **Keywords:** Morbid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #885 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#tragic-slip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/134/tragic-slip) · oracle_id `fa6e2a47-a8cb-4224-ae3e-f61c90477285` · printing: INR #134 (2025-01-24) · [rulings](https://api.scryfall.com/cards/132ccc20-cb42-4474-b747-7e41a661060e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tragic Trajectory
@@ -470,6 +476,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #656 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#trailblazers-boots)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/269/trailblazers-boots) · oracle_id `634d5009-cbf3-44cb-8c15-7057f501a210` · printing: OTC #269 (2024-04-19) · [rulings](https://api.scryfall.com/cards/aa05985b-e2cb-412f-a2ad-b8d723d9f451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trailblazer's Torch
@@ -616,6 +623,7 @@ schema: 2
   > {TK}{TK}{TK}{TK}{TK} — 6/9
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trained-blessed-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/44/trained-blessed-mind) · oracle_id `7a1ff7f3-0b3e-47fe-9e89-522c04f53869` · printing: SUNF #44 (2022-10-07) · [rulings](https://api.scryfall.com/cards/633f98c3-ffec-48c0-ac01-d599312fe288/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trained Caracal
@@ -643,6 +651,7 @@ schema: 2
   > *"[King Mulu's cheetahs] came riding on the winds, charging, with fangs bared and claws flexed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32080 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trained-cheetah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/154/trained-cheetah) · oracle_id `dad3b459-725e-4bf5-bf7a-bd89866ea8c4` · printing: PTK #154 (1999-05-01) · [rulings](https://api.scryfall.com/cards/ab242eab-5cab-41a0-bcf8-93a6919e4558/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trained Condor
@@ -672,6 +681,7 @@ schema: 2
   > *To taunt a man into action, call him a coward. To insult him beyond forgiveness, call him a jackal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28208 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trained-jackal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/155/trained-jackal) · oracle_id `99545320-b6ad-4caf-b29a-47f637395ef7` · printing: PTK #155 (1999-05-01) · [rulings](https://api.scryfall.com/cards/01deb3cc-91e8-4ef3-964f-f36c6a21207c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trained Orgg
@@ -715,6 +725,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Referenced in:** 40 pages (35 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#training-center)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/434/training-center) · oracle_id `e3570ac7-c593-40e3-bbd6-ec3da6d8158d` · printing: CMM #434 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Compound
@@ -764,6 +775,7 @@ schema: 2
   - *2025-10-02* — Training Grounds reduces the generic mana in waterbend costs for activated abilities. It will not reduce waterbend costs that are additional costs for casting spells.
   - *2025-10-02* — Training Grounds takes the total cost to activate a creature's activated ability into account, not just the cost printed on it. For example, Urabrask has an activated ability that costs {R}, and Suppression Field says "Activated abilities cost {2} more to activate unless they're mana abilities." Since activating Urabrask's activated ability would now cost {2}{R}, Training Grounds reduces that cost back to {R}.
   - *2025-10-02* — Training Grounds won't affect the part of an activation cost represented by colored mana symbols or snow mana symbols. It also won't affect nonmana parts of an activation cost, if there are any.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#training-grounds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/9/training-grounds) · oracle_id `8de3eabe-9a8f-4865-beef-a4888c081d39` · printing: MAT #9 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Training Regimen
@@ -778,6 +790,7 @@ schema: 2
   > *—Avengers training room note*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10533 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#training-regimen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/192/training-regimen) · oracle_id `f44bde8b-43e9-4719-ac60-b8f0cee8df9b` · printing: MSH #192 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a27aee6d-1fc3-4307-bb16-b964d723fe2f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Train of Thought
@@ -896,6 +909,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27740 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-05-01* — If you use conspire to copy Traitor’s Roar, but you don’t change its target, the copy will resolve just fine but the original doesn’t resolve. That’s because the copy will resolve first, and as part of its resolution, it will tap the targeted creature. Then, when the original Traitor’s Roar tries to resolve, it will have an illegal target (since it must target an untapped creature).
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#traitors-roar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/200/traitors-roar) · oracle_id `04e9ac31-3377-4a4c-9337-53ee0ada882a` · printing: SHM #200 (2008-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trampled Lotus
@@ -935,6 +949,7 @@ schema: 2
   > *—Iramaz, Abzan trader*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1102 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tranquil-cove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/270/tranquil-cove) · oracle_id `5d641bf6-0f93-4189-8dc1-ec7ea446dade` · printing: TDM #270 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1c4efa6c-4f29-41cd-a728-bf0e479ace05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Domain
@@ -961,6 +976,7 @@ schema: 2
   > *Despite the chaos of the Roil and the devastation of the Eldrazi, Zendikar is a world of breathtaking beauty.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8172 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tranquil-expanse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/289/tranquil-expanse) · oracle_id `a5478263-47c9-447f-9c7a-c77ce0752947` · printing: C18 #289 (2018-08-10) · [rulings](https://api.scryfall.com/cards/123cd67f-7226-4e69-8637-382380fb213e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Frillback
@@ -997,6 +1013,7 @@ schema: 2
   > {1}{G}{G}: Destroy all other enchantments.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tranquil-grove)
 - **Source flags:** [Scryfall](https://scryfall.com/card/6ed/258/tranquil-grove) · oracle_id `2f2a3588-b9a6-4c1a-89f8-b11339851b8f` · printing: 6ED #258 (1999-04-21) · [rulings](https://api.scryfall.com/cards/1177118a-6455-4177-8a6d-a43a03160ab3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquility
@@ -1036,6 +1053,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2152 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/T.md#tranquil-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/231/tranquil-landscape) · oracle_id `d4eb65d5-99fd-4daf-b7d3-8ebf99ee9c61` · printing: MH3 #231 (2024-06-14) · [rulings](https://api.scryfall.com/cards/113f48b9-a972-4e2c-af95-05ab078e01f2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tranquil Path
@@ -1062,6 +1080,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1078 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tranquil-thicket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/318/tranquil-thicket) · oracle_id `9f8fe514-77ed-41b4-a6f3-c6f095bb97be` · printing: DSC #318 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7aed7d9d-d796-493e-98fd-c5b1a26621ed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transcantation
@@ -1076,6 +1095,7 @@ schema: 2
   - *2019-11-12* — As the spell becomes Lightning Bolt, it stops having any targets. If the spell’s controller doesn’t change the spell’s target so it has one, the spell won’t resolve.
   - *2019-11-12* — Lightning Bolt is an instant with mana cost {R} and the ability “Lightning Bolt deals 3 damage to any target.”
   - *2019-11-12* — The target spell loses all characteristics printed on the card and has only Lightning Bolt’s characteristics. These become the spell’s copiable values. Once it resolves, it’s put into its owner’s graveyard and has its normal characteristics again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#transcantation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/67/transcantation) · oracle_id `0855d618-4bfb-4536-8ffa-b61dc56c270f` · printing: CMB2 #67 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transcendence
@@ -1186,6 +1206,7 @@ schema: 2
   - *2024-01-12* — Tapping an untapped creature that's attacking or blocking to convoke a spell won't cause that creature to stop attacking or blocking.
   - *2024-01-12* — When calculating a spell's total cost, include any alternative costs, additional costs, or anything else that increases or reduces the cost to cast the spell. Convoke applies after the total cost is calculated. Convoke doesn't change a spell's mana cost or mana value.
   - *2024-01-12* — You can tap any untapped creature you control to convoke a spell, even one you haven't controlled continuously since the beginning of your most recent turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#transcendent-message)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/83/transcendent-message) · oracle_id `1f7f7765-aeb9-4e47-a6b9-ce823bb29e33` · printing: MOM #83 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transdimensional Bovine
@@ -1235,6 +1256,7 @@ schema: 2
   - *2025-04-04* — If you cast the spell and choose not to copy it, no opponent will get to copy it either.
   - *2025-04-04* — If you copy a spell with demonstrate, you then immediately choose an opponent. If they copy the spell, it goes on top of the stack.
   - *2025-04-04* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#transforming-flourish)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/39/transforming-flourish) · oracle_id `9fb7e7ca-ad2f-4677-859c-7a9adf8fb5fd` · printing: TDC #39 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transgress the Mind
@@ -1323,6 +1345,7 @@ schema: 2
   > *—Ashnod*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10890 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#transmogrant-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/124/transmogrant-altar) · oracle_id `239fea8d-c49d-40bc-96e1-b84d328a0e1e` · printing: BRO #124 (2022-11-18) · [rulings](https://api.scryfall.com/cards/ca28d210-a35d-491e-beda-76b95d09dc2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transmogrant's Crown
@@ -1382,6 +1405,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If the target creature is a legal target but can’t be destroyed, most likely because it has indestructible, its controller gets an Ox token and gets to keep that creature.
   - *2018-07-13* — If the target creature is an illegal target by the time Transmogrifying Wand’s ability tries to resolve, the ability doesn’t resolve. No player creates an Ox token.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#transmogrifying-wand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/981/transmogrifying-wand) · oracle_id `921345ce-2eaf-4b95-b65d-1c27204665ed` · printing: CMM #981 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transmutation
@@ -1417,6 +1441,7 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#transmutation-font)
 - **Source flags:** [Scryfall](https://scryfall.com/card/big/28/transmutation-font) · oracle_id `a68e57f3-f138-4c26-b8d5-55d1adec44a8` · printing: BIG #28 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transmute Artifact
@@ -1433,6 +1458,7 @@ schema: 2
   - *2004-10-04* — The one from the library enters when the spell is resolved, and this does not count as the casting of an artifact.
   - *2004-10-04* — You can't sacrifice more than one artifact to this spell.
   - *2011-01-01* — The sacrifice of an artifact is an effect of the spell, not a cost, which means it happens as the spell resolves. If Transmute Artifact is countered, you do not have to sacrifice an artifact.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#transmute-artifact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/69/transmute-artifact) · oracle_id `dbe792f9-22be-4972-b418-99a6190c4421` · printing: ME4 #69 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Transplant Theorist
@@ -1460,6 +1486,7 @@ schema: 2
   - *2025-06-06* — Casting the card again due to rebound's delayed triggered ability is optional. If you choose not to cast the card, or if you can't because an effect prohibits it, the card will stay exiled. You won't get another chance to cast it on a future turn. If you do cast the card, it's put into its owner's graveyard as normal once it resolves.
   - *2025-06-06* — If a spell with rebound that you cast from your hand doesn't resolve for any reason, including being countered, that spell won't resolve and none of its effects will happen, including rebound. The spell will be put into its owner's graveyard and you won't get to cast it again on your next turn.
   - *2025-06-06* — The Wizard token's ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#transpose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/52/transpose) · oracle_id `77d5f298-06b4-49d1-9b33-f1f176665ba2` · printing: FIC #52 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trap Digger
@@ -1665,6 +1692,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32332 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trash-bin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/232a/trash-bin) · oracle_id `f104a6a2-1d98-48c7-90f8-eed94eab0ca0` · printing: UNF #232a (2022-10-07) · [rulings](https://api.scryfall.com/cards/f07c39f7-5c3e-40f6-b584-458b65282a7e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trash for Treasure
@@ -1748,6 +1776,7 @@ schema: 2
 - **Keywords:** Incubate, Transform
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19615 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#traumatic-revelation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/127/traumatic-revelation) · oracle_id `e47253d1-9b12-4989-80c0-604906c88b5e` · printing: MOM #127 (2023-04-21) · [rulings](https://api.scryfall.com/cards/59d40511-c9ff-466c-8eb9-cc7afc5c2eab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traumatic Visions
@@ -1778,6 +1807,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2756 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The player can put the cards in their graveyard in any order they choose.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#traumatize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m14/77/traumatize) · oracle_id `e2ea7d01-6564-4a7f-b935-49a5e3978dac` · printing: M14 #77 (2013-07-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveler's Amulet
@@ -1790,6 +1820,7 @@ schema: 2
   > *The rider set off into the eerie mist, swaddled in armor and laden with amulets.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4798 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#travelers-amulet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/273/travelers-amulet) · oracle_id `48b561dd-f23d-409a-87c8-e49902b2477b` · printing: INR #273 (2025-01-24) · [rulings](https://api.scryfall.com/cards/26a7e5f0-0d60-4118-ad10-b27c7382511a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveler's Cloak
@@ -1844,6 +1875,7 @@ schema: 2
   - *2025-06-06* — Traveling Chocobo's ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2025-06-06* — Traveling Chocobo's last ability affects a permanent's own "enters" triggered abilities (as long as it's a land or Bird you control) as well as other triggered abilities that trigger when a land or Bird you control enters the battlefield. Such triggered abilities start with "when" or "whenever." Some keyword abilities also include a triggered ability that happens when a permanent enters the battlefield.
   - *2025-06-06* — You must follow all normal timing rules for Bird spells cast and lands played using the middle ability and must pay all costs for spells cast this way. To cast a spell this way, you may choose to pay any alternative costs or optional additional costs the spell may have (such as a kicker cost). You must pay any mandatory additional costs.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#traveling-chocobo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/210/traveling-chocobo) · oracle_id `2e5675d3-3fb0-43b5-a65c-95aacbe48bf9` · printing: FIN #210 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Traveling Minister
@@ -1990,6 +2022,7 @@ schema: 2
   - *2025-01-24* — The card types that could appear in your graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
   - *2025-01-24* — The delirium ability of Traverse the Ulvenwald allows you to find a nonbasic land card.
   - *2025-01-24* — The number of card types matters, not the number of cards. For example, Epitaph Golem (an artifact creature) along with Memory Deluge (an instant) and Travel Preparations (a sorcery) will enable delirium.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#traverse-the-ulvenwald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/221/traverse-the-ulvenwald) · oracle_id `c9dd2bf5-32e0-47f7-9a49-501c262d745b` · printing: INR #221 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trawler Drake
@@ -2056,6 +2089,7 @@ schema: 2
   - *2018-04-27* — An ability that triggers "whenever you cast a historic spell" doesn't trigger if a historic card is put onto the battlefield without being cast.
   - *2018-04-27* — Lands are never cast, so abilities that trigger "whenever you cast a historic spell" won't trigger if you play a legendary land. They also won't trigger if a card on the battlefield transforms into a legendary land, as the Ixalan and Rivals of Ixalan double-faced cards do.
   - *2018-04-27* — Some abilities trigger "whenever you cast a historic spell." Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#traxos-scourge-of-kroog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/195/traxos-scourge-of-kroog) · oracle_id `c1c78144-b335-4d22-a668-9173ab6a0d04` · printing: DMC #195 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trazyn the Infinite

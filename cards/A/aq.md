@@ -98,6 +98,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aquatic-alchemist--bubble-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/40/aquatic-alchemist-bubble-up) · oracle_id `a78b063a-7f74-465a-9670-34f927f4bfe9` · printing: WOE #40 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aquatic Incursion
@@ -110,6 +111,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18166 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — Activating the last ability of Aquatic Incursion after a Merfolk has become blocked won’t cause it to become unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aquatic-incursion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/32/aquatic-incursion) · oracle_id `e4212b05-d397-49fb-af8b-9e52a60e6d1e` · printing: RIX #32 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aqueous Form
@@ -127,6 +129,7 @@ schema: 2
   - *2013-09-15* — When you scry, you may put all the cards you look at back on top of your library, you may put all of those cards on the bottom of your library, or you may put some of those cards on top and the rest of them on the bottom.
   - *2013-09-15* — You choose how to order cards returned to your library after scrying no matter where you put them.
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
+- **Referenced in:** 5 pages (3 decks · 2 edh guides) → [reverse index](../../references/A.md#aqueous-form)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/56/aqueous-form) · oracle_id `3378fef3-4d8c-4d9e-a338-4abb6f70d410` · printing: CMR #56 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aquitect's Defenses

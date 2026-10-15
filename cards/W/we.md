@@ -194,6 +194,7 @@ schema: 2
   - *2016-09-20* — Fabricate doesn't cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve.
   - *2016-09-20* — If you can't put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it's no longer on the battlefield), you just create Servo tokens.
   - *2016-09-20* — You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#weaponcraft-enthusiast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/105/weaponcraft-enthusiast) · oracle_id `7c27136a-bf9d-4f42-9c37-abe347fad1bb` · printing: KLD #105 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weaponized Scrap
@@ -211,6 +212,7 @@ schema: 2
   - *2019-11-12* — If the upgraded object moves to the top or bottom of its owner’s library, that player chooses the relative order for its component cards without revealing that order.
   - *2019-11-12* — If you can’t choose an artifact you control while applying a permanent’s upgrade replacement effect, it doesn’t move to or enter the battlefield at all and instead moves to exile.
   - *2019-11-12* — The card with upgrade moves to the battlefield, but it doesn’t enter the battlefield. Instead it overlays an artifact you control. That artifact becomes represented by the new card – if it was tapped, it’s still tapped; if it had counters on it, it still has those counters; if it was attacking, it’s still attacking; and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weaponized-scrap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/111/weaponized-scrap) · oracle_id `0f79d896-6e17-41d7-8078-0627f7e1b71b` · printing: CMB2 #111 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weaponize the Monsters
@@ -252,6 +254,7 @@ schema: 2
   > *—General Tekvu, Kavaron Memorial Navy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3239 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/W.md#weapons-manufacturing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/168/weapons-manufacturing) · oracle_id `e48a8160-cffe-4e00-a3e9-a59d7fc7b3a2` · printing: EOE #168 (2025-08-01) · [rulings](https://api.scryfall.com/cards/a058f1a6-318c-4bba-981e-ace079ada806/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weapons Trainer
@@ -298,6 +301,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7734 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — You don't choose targets for Weapons Vendor's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {1} this way. You choose targets for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weapons-vendor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/40/weapons-vendor) · oracle_id `bd0a7a86-a567-4145-b1d8-e0b72091db84` · printing: FIN #40 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wear Away
@@ -314,6 +318,7 @@ schema: 2
   - *2013-06-07* — If all of the spell’s targets are illegal when the spell tries to resolve, it won’t resolve and none of its effects will happen.
   - *2013-06-07* — You choose all targets for the spell after revealing cards you want to splice, including any targets required by the text of any of those cards. You may choose a different target for each instance of the word “target” on the resulting spell.
   - *2013-06-07* — You reveal all cards you intend to splice at the same time. Each individual card can be spliced only once onto any one spell.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#wear-away)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/250/wear-away) · oracle_id `be7cd599-12b6-43b6-a22a-8a8f7dd1ecd2` · printing: CHK #250 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wear Down
@@ -360,6 +365,7 @@ schema: 2
   - *2013-04-15* — When a fused split spell resolves, follow the instructions of the left half first, then the instructions on the right half.
   - *2013-04-15* — When resolving a fused split spell with multiple targets, treat it as you would any spell with multiple targets. If all targets are illegal when the spell tries to resolve, the spell doesn't resolve and none of its effects happen. If at least one target is still legal at that time, the spell resolves, but an illegal target can't perform any actions or have any actions performed on it.
   - *2013-04-15* — You can choose the same object as the target of each half of a fused split spell, if appropriate.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/W.md#wear--tear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/343/wear-tear) · oracle_id `9842734c-1eac-4509-a731-4c22017ae586` · printing: MOC #343 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weary Prisoner // Wrathful Jailbreaker
@@ -422,6 +428,7 @@ schema: 2
   - *2021-02-05* — If an effect exiles a card from a graveyard or library and allows a player to cast it, the player may do so. The spell is cast from exile.
   - *2021-02-05* — Look at the card as it exists in your graveyard or library to determine whether it can enter the battlefield. If it’s a double-faced card, use its front-face characteristics only.
   - *2021-02-05* — Players can still play lands from graveyards if an effect allows them to. Similarly, effects can put land cards onto the battlefield from any zone.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/W.md#weathered-runestone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/247/weathered-runestone) · oracle_id `4386ae4e-560a-4251-942c-0f84ba7448fa` · printing: KHM #247 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weathered Sentinels
@@ -462,6 +469,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2496 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Rulings** (1):
   - *2018-04-27* — A card, spell, or permanent is historic if it has the legendary supertype, the artifact card type, or the Saga subtype. Having two of those qualities doesn't make an object more historic than another or provide an additional bonus—an object either is historic or it isn't.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weatherlight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/165/weatherlight) · oracle_id `73b3682f-396a-4ebe-aaac-6ce3ee36283a` · printing: NEC #165 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weatherlight Compleated
@@ -480,6 +488,7 @@ schema: 2
   - *2022-09-09* — If Weatherlight Compleated is a creature and dies, its last ability will trigger.
   - *2022-09-09* — If Weatherlight Compleated loses its abilities, the type-changing effect of its second ability will continue to apply to it. This is because effects that change an object’s types are always applied before effects that remove abilities. In that case, if it has four or more phyresis counters on it, it will be a legendary Phyrexian Vehicle artifact creature with no abilities. This is true even if it somehow gained its fourth phyresis counter after losing its abilities.
   - *2022-09-09* — If more than one creature dies at the same time, Weatherlight Compleated’s triggered ability will trigger once for each of those creatures. As each of those resolve, its controller will take the instructed actions. For example, if it has no phyresis counters on it and seven creatures die, its controller will put a counter on it and scry 1 as each of the first six instances of the ability resolve, then put a counter on it and draw a card as the last instance resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weatherlight-compleated)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/242/weatherlight-compleated) · oracle_id `060a7d77-61a8-4964-8fb6-35bd9a999517` · printing: DMU #242 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weather Maker
@@ -494,6 +503,7 @@ schema: 2
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9093 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weather-maker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/182/weather-maker) · oracle_id `4097fea2-ae34-4b99-ab7e-a276d608b489` · printing: TMT #182 (2026-03-06) · [rulings](https://api.scryfall.com/cards/aaba62c1-760b-491b-8047-869bb1d3f67e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weatherseed Elf
@@ -565,6 +575,7 @@ schema: 2
   - *2019-06-14* — Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren't counted.
   - *2019-06-14* — The copies storm creates are created on the stack, so they're not cast. Abilities that trigger when a player casts a spell (such as storm) won't trigger.
   - *2019-06-14* — The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weather-the-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/191/weather-the-storm) · oracle_id `3a091f7b-efc9-4aaa-9da8-157ef8099a36` · printing: MH1 #191 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weave Fate
@@ -623,6 +634,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2135 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — Activated and triggered abilities from enchantment sources include abilities of enchantment cards that can be activated or triggered from other zones, such as channel abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weaver-of-harmony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/213/weaver-of-harmony) · oracle_id `494b31b2-27ef-4ca1-ac72-c2fcfc8a23a1` · printing: NEO #213 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weaver of Lies
@@ -690,6 +702,7 @@ schema: 2
 - **Keywords:** Convoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7034 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#web-of-life-and-destiny)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/122/web-of-life-and-destiny) · oracle_id `33d556c5-1bb4-49bb-88c2-627311eb8c9b` · printing: SPM #122 (2025-09-26) · [rulings](https://api.scryfall.com/cards/3b3c609e-f7c9-4fe5-84d9-4f4c76020a4b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Web-Shooters
@@ -746,6 +759,7 @@ schema: 2
   - *2025-02-07* — Some cards with cycling have an ability that triggers when you cycle them, and some cards have an ability that triggers whenever you cycle any card or discard any card. These triggered abilities resolve before you draw from the cycling ability.
   - *2025-02-07* — Triggered abilities from cycling a card and the cycling ability itself aren’t spells. Effects that interact with spells (such as that of Cancel) won’t affect them.
   - *2025-02-07* — You can cycle a card even if it has a triggered ability from cycling that won’t have a legal target. This is because the cycling ability and the triggered ability are separate. This also means that if either ability is countered (with Disallow, for example), the other ability will still resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#webstrike-elite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/186/webstrike-elite) · oracle_id `48a1d55e-0b71-4724-ab2a-6d2c87e86b5b` · printing: DFT #186 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Web Up
@@ -833,6 +847,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1855 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-11-19* — The trigger conditions of Wedding Ring's second and third abilities care about opponents who control any artifact named Wedding Ring, not just the token copy created by its first ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#wedding-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/32/wedding-ring) · oracle_id `0c34e962-99d9-4163-b852-4f61886546aa` · printing: VOC #32 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wedding Security
@@ -849,6 +864,7 @@ schema: 2
   - *2025-01-24* — If an effect refers to a Blood token, it means any artifact token with the subtype Blood, even if it has gained other subtypes.
   - *2025-01-24* — Some triggered abilities trigger "whenever you sacrifice a Blood token." These abilities trigger regardless of why you sacrificed that Blood token.
   - *2025-01-24* — You can't sacrifice a Blood token to pay multiple costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wedding-security)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/138/wedding-security) · oracle_id `86360908-6b8b-4c1c-9e10-4f3d389aaa3e` · printing: VOW #138 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wedgelight Rammer
@@ -937,6 +953,7 @@ schema: 2
   - *2023-10-13* — As the first triggered ability of Weeping Angel resolves, it continues to be an artifact but will stop being both an Alien and an Angel until it becomes a creature again. It's just a statue, how dangerous could it be?
   - *2023-10-13* — Damage that is prevented never occurs, so any triggered abilities that trigger due to combat damage that would have been dealt by Weeping Angel won't trigger.
   - *2023-10-13* — If an opponent casts a creature spell with flash while Weeping Angel is attacking or blocking, it is removed from combat because it stops being a creature. However, any creatures that it was blocking are still considered blocked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weeping-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/168/weeping-angel) · oracle_id `1a89c623-c9c3-443c-bbd3-834767b6bdb8` · printing: WHO #168 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weftblade Enhancer
@@ -965,6 +982,7 @@ schema: 2
 - **Keywords:** Warp
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1336 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/W.md#weftstalker-ardent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/169/weftstalker-ardent) · oracle_id `926d52a5-4db1-46ce-9567-17c28bf56ae7` · printing: EOE #169 (2025-08-01) · [rulings](https://api.scryfall.com/cards/cddb48cc-8eb1-47ce-90f0-7aad1e93e2c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weftwalking
@@ -990,6 +1008,7 @@ schema: 2
   > *The battle of Puyang marked the beginning of the end for Lu Bu. He lost the city—and later his life—to Cao Cao.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31654 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-ambush-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/85/wei-ambush-force) · oracle_id `2d1446f4-cf71-4798-b921-8f6824350319` · printing: PTK #85 (1999-05-01) · [rulings](https://api.scryfall.com/cards/9b241ba4-cff5-48ce-83bd-d70fb5e20ff4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Assassins
@@ -1001,6 +1020,7 @@ schema: 2
   > When this creature enters, target opponent chooses a creature they control. Destroy that creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27402 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-assassins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/86/wei-assassins) · oracle_id `e87dd341-416c-4e93-8eb4-1519ecd2674c` · printing: PTK #86 (1999-05-01) · [rulings](https://api.scryfall.com/cards/9b448c08-140f-41d6-aed5-ce9b68efafa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Elite Companions
@@ -1016,6 +1036,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28831 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-elite-companions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/79/wei-elite-companions) · oracle_id `2db5e0cd-c991-4fda-9001-9e4f10e8a805` · printing: ME3 #79 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weigh Down
@@ -1052,6 +1073,7 @@ schema: 2
   - *2016-08-23* — Weight Advantage's ability doesn't change any creature's power. It changes only the value of the combat damage it assigns. All other rules and effects that check power or toughness use the real values.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/W.md#weight-advantage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/12/weight-advantage) · oracle_id `42bede0a-de6d-4de3-90ea-9d92b0fe8c64` · printing: CN2 #12 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weight of Conscience
@@ -1082,6 +1104,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20498 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/W.md#weight-of-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/74/weight-of-memory) · oracle_id `826c5feb-9e82-49e0-bc6f-6c29004f8151` · printing: DOM #74 (2018-04-27) · [rulings](https://api.scryfall.com/cards/2f2359aa-9230-4519-b12e-ec395a8dd2a0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weight of Spires
@@ -1122,6 +1145,7 @@ schema: 2
   > *Wei won the battle of Hefei when Zhang Liao defeated Sun Quan and then foiled a Wu scheme to incite rebellion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31456 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-infantry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/80/wei-infantry) · oracle_id `41283a82-ce3f-41a6-995e-bc30d8ab5cf9` · printing: ME3 #80 (2009-09-07) · [rulings](https://api.scryfall.com/cards/30a227a1-625d-443a-bc6b-d0e51ddece60/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Night Raiders
@@ -1137,6 +1161,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
   - *2009-10-01* — Wei Night Raiders’s second ability triggers whenever it deals damage to an opponent for any reason. It’s not limited to combat damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-night-raiders)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/81/wei-night-raiders) · oracle_id `d24ee48a-86a9-4a72-9311-79b6ea3f41f2` · printing: ME3 #81 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weird Angel Flame
@@ -1151,6 +1176,7 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#weird-angel-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/42/weird-angel-flame) · oracle_id `2c925531-63f8-4a6b-bfe0-bb8cd5d0d63d` · printing: SUNF #42 (2022-10-07) · [rulings](https://api.scryfall.com/cards/61a9e71b-cb8e-4cff-b561-3d2462848582/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weirded Vampire
@@ -1175,6 +1201,7 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/W.md#weirded-vampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/113/weirded-vampire) · oracle_id `3af07cd3-36c3-4792-bc93-3ec82e1606bb` · printing: EMN #113 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weird Harvest
@@ -1232,6 +1259,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25053 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/90/wei-scout) · oracle_id `f7fa054f-39cb-47d3-a55d-3f70ae164063` · printing: PTK #90 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Wei Strike Force
@@ -1247,6 +1275,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27701 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn’t interact with flying or reach.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#wei-strike-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/82/wei-strike-force) · oracle_id `002ad5fa-a20c-4d30-beef-401d89868d67` · printing: ME3 #82 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welcome the Dead
@@ -1259,6 +1288,7 @@ schema: 2
 - **Keywords:** Flashback
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7349 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#welcome-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/30/welcome-the-dead) · oracle_id `affa0b6c-a9fd-49fc-b9ce-9a3486af8320` · printing: TDC #30 (2025-04-11) · [rulings](https://api.scryfall.com/cards/f472ea5c-191e-4b19-8ea7-f8649af91530/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welcome to Australia
@@ -1302,6 +1332,7 @@ schema: 2
   - *2023-11-10* — If you're casting an adventurer card or split card with escape, you choose how you wish to cast it, then pay the appropriate cost (for the Adventure, the creature, or the half of the split card you chose) plus exiling three cards.
   - *2023-11-10* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2023-11-10* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/W.md#welcome-to-----jurassic-park)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/7/welcome-to-jurassic-park) · oracle_id `a4b37d16-95b3-4143-a0b2-ad9f2aba91f8` · printing: REX #7 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welcome to Mini-apolis
@@ -1369,6 +1400,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-11-19* — If creatures enter the battlefield with +1/+1 counters or a continuous effect such as that of Wedding Festivity will apply to the creatures on the battlefield, those effects apply when checking to see if Welcoming Vampire's ability will trigger.
   - *2021-11-19* — Welcoming Vampire's ability checks the power of the other creatures only as they enter the battlefield. If one of those creatures has power 2 or less, the ability will trigger. Once the ability triggers, raising that creature's power above 2 won't affect that ability. Similarly, reducing a creature's power to 2 or less after it enters the battlefield won't cause the ability to trigger.
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/W.md#welcoming-vampire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/140/welcoming-vampire) · oracle_id `605c1ee0-5e8a-4e0a-a99b-42a38873f822` · printing: TDC #140 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welder Automaton
@@ -1437,6 +1469,7 @@ schema: 2
 - **Keywords:** Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3140 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#welding-jar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/307/welding-jar) · oracle_id `e4a6c421-bef1-4360-a2dc-ae9c61d86b2f` · printing: 2XM #307 (2020-08-07) · [rulings](https://api.scryfall.com/cards/275ec0c4-1c59-4818-9999-b2389d17c2e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Welding Sparks
@@ -1497,6 +1530,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27254 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#welkin-tern)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/5/welkin-tern) · oracle_id `010c660a-a67b-48f0-a63a-15470eb89f69` · printing: GS1 #5 (2018-06-22) · [rulings](https://api.scryfall.com/cards/aa9b56b7-73f1-47fd-834b-37408482cebc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Well Done
@@ -1600,6 +1634,7 @@ schema: 2
   > *Some say the knowledge lost during the Ritual of Rebuking is returned through the well's waters.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1122 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#well-of-lost-dreams)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/275/well-of-lost-dreams) · oracle_id `b0394cf2-12a0-4d4f-87e0-fe8937e6faff` · printing: C21 #275 (2021-04-23) · [rulings](https://api.scryfall.com/cards/a8c10535-c77e-4a40-b19f-23f7cb691230/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Well Rested
@@ -1718,6 +1753,7 @@ schema: 2
   - *2024-11-08* — If you exile a creature card to Werewhat’s enters ability, Werewhat will be a transforming double-faced card for as long as it remains on the battlefield. Then if it leaves the battlefield to another zone, the two cards would separate and both be put into the new zone.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/W.md#werewhat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/587/werewhat) · oracle_id `660ac55e-023e-4153-bfc1-42995cb9cd77` · printing: MB2 #587 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Werewolf Lightning Mage
@@ -1731,6 +1767,7 @@ schema: 2
   > {TK}{TK}{TK} — 3/5
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/W.md#werewolf-lightning-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/48/werewolf-lightning-mage) · oracle_id `a72927dc-b633-4830-be39-40674ed74ef3` · printing: SUNF #48 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1cd65813-8103-413b-add4-d000101e479d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Werewolf Pack Leader
@@ -1774,6 +1811,7 @@ schema: 2
 - **Keywords:** Investigate, Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11641 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/W.md#wernog-riders-chaplain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/8/wernog-riders-chaplain) · oracle_id `6cd03270-54cc-43e1-9b86-70c76960c841` · printing: SLX #8 (2022-03-03) · [rulings](https://api.scryfall.com/cards/39491011-bdf6-4e61-8534-fe26c1571f8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### We Say Thee Nay!
@@ -1786,6 +1824,7 @@ schema: 2
 - **Keywords:** Teamwork
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12113 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/W.md#we-say-thee-nay)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/82/we-say-thee-nay!) · oracle_id `1abe8246-d2f9-407b-8c16-83da0a6b7de3` · printing: MSH #82 (2026-06-26) · [rulings](https://api.scryfall.com/cards/13b70321-75bd-4d44-b9f6-5f062a5dda0f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### West Coast Expansion
@@ -1860,6 +1899,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1504 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — For more information on double-faced cards, see the Shadows over Innistrad mechanics article (http://magic.wizards.com/en/articles/archive/feature/shadows-over-innistrad-mechanics).
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/W.md#westvale-abbey--ormendahl-profane-prince)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/287/westvale-abbey-ormendahl-profane-prince) · oracle_id `04eeb9ad-5c59-411b-8809-db8349838588` · printing: INR #287 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### West Wind Avatar

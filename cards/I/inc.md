@@ -69,6 +69,7 @@ schema: 2
   > *As the assassins converged on Kitt Kanto, she struck a high note and held it, unbroken, for nearly a minute. When the room fell silent, she was surrounded only by rose petals falling gently to the floor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19774 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#incandescent-aria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/192/incandescent-aria) · oracle_id `d031b482-b33d-4eb4-a5bc-ea96e66a1d99` · printing: SNC #192 (2022-04-29) · [rulings](https://api.scryfall.com/cards/77e2ed9e-ee1d-440a-94b4-d4b17d30b800/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incandescent Soulstoke
@@ -102,6 +103,7 @@ schema: 2
   - *2021-04-16* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
   - *2021-04-16* — You choose which creature to bring back after you mill five cards.
   - *2021-04-16* — You may choose any creature card in your graveyard, not just one that you milled this way.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/I.md#incarnation-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/41/incarnation-technique) · oracle_id `0ab9539d-3461-4936-95cd-4c229308c4a4` · printing: C21 #41 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary
@@ -157,6 +159,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#incendiary-dissent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/8/incendiary-dissent) · oracle_id `70caaa64-9623-4d05-9843-18460fea963b` · printing: CN2 #8 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incendiary Flow
@@ -213,6 +216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14436 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-07-15* — Regeneration abilities that would affect that creature can still be activated; they just won’t do anything. The creature can’t be regenerated for any reason, even if an effect other than Incinerate would deal lethal damage to it or otherwise destroy it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#incinerate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/51/incinerate) · oracle_id `d8fd7a34-8418-4e98-b79b-119c4348c667` · printing: JVC #51 (2014-12-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incinerating Blast
@@ -437,6 +441,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#increasing-devotion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/91/increasing-devotion) · oracle_id `7a5ff4d4-27b7-47d4-ba88-970c63c4e3fb` · printing: C20 #91 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Increasing Savagery
@@ -479,6 +484,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2021-03-19* — “Flashback [cost]” means “You may cast this card from your graveyard by paying [cost] rather than paying its mana cost” and “If the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.”
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#increasing-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/147/increasing-vengeance) · oracle_id `a5ca7bd9-0964-405f-adb9-7c27153595e6` · printing: C19 #147 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incremental Blight
@@ -557,6 +563,7 @@ schema: 2
   - *2019-01-25* — Incubation Druid doesn't care about any restrictions or riders your lands put on the mana they produce, such as those of Unclaimed Territory and Guildmages' Forum. It just produces one mana of the appropriate type, with no restrictions or riders.
   - *2019-01-25* — The types of mana are white, blue, black, red, green, and colorless.
   - *2019-01-25* — You can always activate an ability that will cause a creature to adapt. As that ability resolves, if the creature has a +1/+1 counter on it for any reason, you simply won't put any +1/+1 counters on it.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/I.md#incubation-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/302/incubation-druid) · oracle_id `34428f42-03ac-4795-8286-6cbea796df2b` · printing: MOC #302 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation // Incongruity
@@ -576,6 +583,7 @@ schema: 2
   - *2022-12-08* — If you copy a spell that's half of a split card, the copy copies that same half. For example, if you copy Assault, the copy is also Assault, not Battery.
   - *2022-12-08* — Split cards have two card faces on a single card. The characteristics of the half you didn't cast are ignored while the spell is on the stack.
   - *2022-12-08* — To cast a split card, choose one of its halves to cast. There's no way to cast both halves of this split card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#incubation--incongruity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/197/incubation-incongruity) · oracle_id `363edb16-009f-4cc2-99e3-2b15db84e7af` · printing: CLU #197 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Incubation Sac

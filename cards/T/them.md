@@ -170,6 +170,7 @@ schema: 2
   - *2024-11-08* — If the exiled Saga doesn’t have the listed chapter ability, you won’t copy any of its abilities.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-many-deeds-of-belzenlok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/550/the-many-deeds-of-belzenlok) · oracle_id `db99d574-b082-4383-b7f4-70ae7b2c8a37` · printing: MB2 #550 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Marvelous Scientist
@@ -221,6 +222,7 @@ schema: 2
   - *2025-06-06* — The granted ability affects the equipped creature's own "when this creature dies" triggered abilities as well as other triggered abilities of that creature or emblems you own that trigger when a creature dies. Such triggered abilities start with "when" or "whenever."
   - *2025-06-06* — The granted ability's effect doesn't copy the triggered ability; it just causes the ability to trigger twice. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to pay a cost for that triggered ability, are also made separately.
   - *2025-06-06* — The trigger event doesn't have to specifically refer to "creatures." In these cases, the trigger event may also refer to something being "put into a graveyard from the battlefield." For example, if the equipped creature or an emblem you own has an ability that triggers "whenever an artifact is put into a graveyard from the battlefield," that ability would trigger twice if an artifact creature died.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-masamune)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/264/the-masamune) · oracle_id `89eb4c39-35ae-405b-8af4-779880cb11c9` · printing: FIN #264 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Massive Zatcatl
@@ -269,6 +271,7 @@ schema: 2
   - *2023-10-13* — Neither "Time" nor "Lord" are creature types. Some older cards were printed with the subtype "Lord," but all of those cards have updated Oracle card text that removed that type.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-master-gallifreys-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/144/the-master-gallifreys-end) · oracle_id `e5e2e4ef-1d78-41eb-b634-1a90d4cb7125` · printing: WHO #144 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master, Mesmerist
@@ -314,6 +317,7 @@ schema: 2
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
   - *2024-04-12* — If, while you control The Master, Multiplied, you also control a token legendary permanent and a single nontoken legendary permanent with the same name, the legend rule will not cause you to put either one into your graveyard.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#the-master-multiplied)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/146/the-master-multiplied) · oracle_id `0741e5b5-35c8-4f4d-b49f-c53e960240b9` · printing: WHO #146 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Master of Cuisine
@@ -371,6 +375,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-06-29* — If The Master of Lake-town dies at the same time that a player loses life (for example, if it dies in combat and another creature dealt combat damage to a player), you choose the order for The Master of Lake-town's two triggered abilities. If the mill effect resolves first, those cards—and also The Master of Lake-town—will be in graveyards before you determine how many cards to draw with its last ability.
   - *2026-06-29* — The Master of Lake-town will usually be in a graveyard as its last ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-master-of-lake-town)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/77/the-master-of-lake-town) · oracle_id `89c3c81b-8960-4f79-b2ec-f13560058071` · printing: HOB #77 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Masters of Evil
@@ -423,6 +428,7 @@ schema: 2
 - **Keywords:** Trample, Exert
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12701 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#themberchaud)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/28/themberchaud) · oracle_id `a422a5b0-1aff-4d07-bcc5-edfbda09dc44` · printing: SLX #28 (2025-04-25) · [rulings](https://api.scryfall.com/cards/1dc40449-0660-4350-900c-ec9b2aaefe1c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Meathook Massacre
@@ -436,6 +442,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #516 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If The Meathook Massacre enters the battlefield and it wasn't cast (or it was cast without paying its mana cost), X will be 0. The first ability will trigger, but it won't be much of a massacre.
+- **Referenced in:** 8 pages (2 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#the-meathook-massacre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/122/the-meathook-massacre) · oracle_id `127de52b-df75-4342-95a0-20d84c5bf916` · printing: INR #122 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mechanist, Aerial Artisan
@@ -456,6 +463,7 @@ schema: 2
   - *2025-10-02* — If the artifact token was already a creature, its base power and toughness will become 3/1. This overwrites any previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after The Mechanist, Aerial Artisan's ability resolves will overwrite this effect.
   - *2025-10-02* — The Mechanist, Aerial Artisan's activated ability doesn't remove any abilities the target artifact token has. The artifact token also retains any types, subtypes, and supertypes other than creature types.
   - *2025-10-02* — The resulting artifact creature will be able to attack on your turn if it's been under your control continuously since the turn began. That is, it doesn't matter how long it's been a creature, just how long it's been on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-mechanist-aerial-artisan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/64/the-mechanist-aerial-artisan) · oracle_id `bad27b43-7716-4ce1-82ba-2a6d437363e7` · printing: TLA #64 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Meep
@@ -502,6 +510,7 @@ schema: 2
   - *2018-04-27* — If multiple chapter abilities trigger at the same time, their controller puts them on the stack in any order. If any of them require targets, those targets are chosen as you put the abilities on the stack, before any of those abilities resolve.
   - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-mending-of-dominaria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/197/the-mending-of-dominaria) · oracle_id `9b0b8f00-6367-4dc9-b33e-680470b3a36c` · printing: OTC #197 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mightstone and Weakstone
@@ -527,6 +536,7 @@ schema: 2
   - *2022-10-14* — When two cards are exiled and melded, they each leave the battlefield, then return together as one new object with no relation to either of the objects that left the battlefield. Counters, Auras, Equipment, and other effects that affected those two cards don't affect the melded permanent.
   - *2022-10-14* — While a meld card is in any zone other than the battlefield, it has only the characteristics of its front face. The same is true while it's on the battlefield with its front face up.
   - *2022-10-14* — While a melded permanent is on the battlefield, it has only the characteristics of its combined back face. Any effects that modify how the new object enters the battlefield will consider only the combined back face.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-mightstone-and-weakstone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/238/the-mightstone-and-weakstone) · oracle_id `c396db03-bf11-4e20-b630-4f9aa8fd78da` · printing: BRO #238 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mighty Thor, Jane Foster
@@ -556,6 +566,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-11-10* — If The Millenium Calendar's last ability is countered or otherwise removed from the stack, it will just trigger again immediately if The Millenium Calendar still has 1,000 or more time counters on it.
   - *2023-11-10* — The Millenium Calendar's first ability triggers during the untap step. However, since no player gets priority during the untap step, the ability waits to be put on the stack until the upkeep starts. At that time, any "beginning of upkeep" triggers will also trigger. Those abilities and The Millenium Calendar's ability are put onto the stack at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-millennium-calendar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/257/the-millennium-calendar) · oracle_id `1f250443-8d5e-46c9-920e-8e9373780e32` · printing: LCI #257 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Milling Runner
@@ -602,6 +613,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2167 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-09-20* — If you somehow control more than one of The Mindskinner, the multiple replacement effects will have no effect. Damage dealt to an opponent by a source you control will be replaced only once with that opponent milling that many cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-mindskinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/66/the-mindskinner) · oracle_id `2e3ec514-fc9e-4964-a493-2a6cc9e63630` · printing: DSK #66 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mind Stone
@@ -616,6 +628,7 @@ schema: 2
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3473 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-mind-stone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/21/the-mind-stone) · oracle_id `b175e826-09e8-4fae-9f2e-b902f95b282d` · printing: MSH #21 (2026-06-26) · [rulings](https://api.scryfall.com/cards/87f1e69a-6d74-4982-afda-82613637799a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Miniaturizer
@@ -655,6 +668,7 @@ schema: 2
   - *2018-04-27* — The controller of a copy can’t choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2018-04-27* — The copy is created on the stack, so it’s not “cast.” Abilities that trigger when a player casts a spell won’t trigger.
   - *2018-04-27* — The copy will have the same targets as the spell it’s copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can’t choose a new legal target, then it remains unchanged (even if the current target is illegal).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-mirari-conjecture)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dom/57/the-mirari-conjecture) · oracle_id `56528234-46c0-4fba-972a-0c8011996f8d` · printing: DOM #57 (2018-04-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Misty Mountains Cold
@@ -667,6 +681,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7643 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-misty-mountains-cold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/104/the-misty-mountains-cold) · oracle_id `c50282bd-4b57-4c7b-9598-ea67ba49248b` · printing: HOB #104 (2026-08-14) · [rulings](https://api.scryfall.com/cards/3d5f35ff-4146-4844-9da5-031461cc8c05/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Misty Stepper
@@ -755,6 +770,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Only certain Attractions allow you to claim a prize. These will have the text “Prize —” on them.
   - *2022-10-07* — Though this card is eternal, there is currently only one eternal Attraction which allows you to claim the prize: Pick-a-Beeble. If you want to take advantage of the last ability, it’s best if you’re playing an Un- game, unless you want an appropriate level of challenge for someone calling themselves The Most Dangerous Gamer.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-most-dangerous-gamer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/174/the-most-dangerous-gamer) · oracle_id `dcb9337b-d5fd-4cd2-a41f-900d170a5ded` · printing: UNF #174 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Motherlode, Excavator
@@ -904,6 +920,7 @@ schema: 2
   - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
   - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
   - *2023-11-10* — The ability that defines The Mycotyrant's power and toughness works in all zones. As long as The Mycotyrant is on the battlefield (and still a Fungus, or somehow a Saproling), that ability will count The Mycotyrant itself.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-mycotyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/235/the-mycotyrant) · oracle_id `b69bbb8d-7f8c-45d6-983a-759b5fce6ebd` · printing: LCI #235 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Mysterious Sphere

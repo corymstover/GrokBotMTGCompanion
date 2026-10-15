@@ -101,6 +101,7 @@ schema: 2
   - *2024-02-02* — If you control ten permanents but don’t control a permanent or resolving spell with ascend, you don’t get the city’s blessing. For example, if you control ten permanents, lose control of two, then cast Detective of the Month, you won’t have the city’s blessing.
   - *2024-02-02* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the “legend rule” or due to being a creature with 0 toughness), you get the city’s blessing before it leaves the battlefield.
   - *2024-02-02* — Once you have the city’s blessing, you have it for the rest of the game, even if you lose control of some or all your permanents. The city’s blessing isn’t a permanent itself and can’t be removed by any effect.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/D.md#detective-of-the-month)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/21/detective-of-the-month) · oracle_id `10d1d6ca-95f8-48da-8798-37c8aadb1f1f` · printing: MKC #21 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Phoenix
@@ -123,6 +124,7 @@ schema: 2
   - *2024-06-07* — Once you've announced that you're casting a spell, players can't take actions until you've finished doing so. Notably, opponents can't try to remove cards from your graveyard to stop you from collecting evidence.
   - *2024-06-07* — Unlike other Aura spells, an Aura spell with bestow isn't countered if its target is illegal as it begins to resolve. Rather, the effect making it an Aura spell ends, it loses enchant creature, it returns to being an enchantment creature spell, and it resolves and enters the battlefield as an enchantment creature.
   - *2024-06-07* — Unlike other Auras, an Aura with bestow isn't put into its owner's graveyard if it becomes unattached. Rather, the effect making it an Aura ends, it loses enchant creature, and it remains on the battlefield as an enchantment creature. It can attack (and its {T} abilities can be activated, if it has any) on the turn it becomes unattached if it's been under your control continuously, even as an Aura, since your most recent turn began.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#detectives-phoenix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/116/detectives-phoenix) · oracle_id `52c3fe55-74ee-44cb-b62b-dc6c5dfdc33e` · printing: MH3 #116 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detective's Satchel
@@ -205,6 +207,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#determined-iteration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/122/determined-iteration) · oracle_id `e4ed7935-0263-4cde-8118-ac18fffce3ef` · printing: SOC #122 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Detonate

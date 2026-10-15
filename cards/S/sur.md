@@ -156,6 +156,7 @@ schema: 2
   - *2025-07-25* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it’s too late for anyone to respond.
   - *2025-07-25* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can’t choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2025-07-25* — You don’t have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since “any number” includes zero, you don’t have to choose any permanents at all, and you don’t have to choose any players at all.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#surge-conductor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/19/surge-conductor) · oracle_id `dc11d9dc-7d18-45dc-955b-d0ba71fc0db8` · printing: EOC #19 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Engine
@@ -188,6 +189,7 @@ schema: 2
 - **Keywords:** Crew, Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4733 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#surgehacker-mech)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/260/surgehacker-mech) · oracle_id `bf9421d2-54e2-44d8-8b39-2e41192a6517` · printing: NEO #260 (2022-02-18) · [rulings](https://api.scryfall.com/cards/3c4bf679-01cc-4786-a3bd-89c8ae70fdfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge Mare
@@ -266,6 +268,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3075 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — The set of permanents that gain hexproof is determined as Surge of Salvation resolves. Permanents you begin to control later in the turn won't gain hexproof. However, the damage prevention effect will apply to all creatures you control throughout the turn, even if you didn't control them (or they weren't creatures) as Surge of Salvation resolved.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#surge-of-salvation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/41/surge-of-salvation) · oracle_id `b9a62c6b-5848-44b1-932b-8d5de2560976` · printing: MOM #41 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surge of Strength
@@ -439,6 +442,7 @@ schema: 2
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32033 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#surging-aether)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/47/surging-aether) · oracle_id `060b1a76-22a4-48a5-a353-4d0501367956` · printing: CSP #47 (2006-07-21) · [rulings](https://api.scryfall.com/cards/bfba9fc2-8746-4693-bb75-01b5d78f7fee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Dementia
@@ -451,6 +455,7 @@ schema: 2
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31835 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#surging-dementia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/72/surging-dementia) · oracle_id `dd7f46c2-98f7-46e6-92ce-51fa95d2f0c8` · printing: CSP #72 (2006-07-21) · [rulings](https://api.scryfall.com/cards/1eb7cb72-24f7-433b-9858-26009189daaa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Flame
@@ -463,6 +468,7 @@ schema: 2
 - **Keywords:** Ripple
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32077 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#surging-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/99/surging-flame) · oracle_id `3c51b991-f6fa-44d2-81a3-0894939f3c22` · printing: CSP #99 (2006-07-21) · [rulings](https://api.scryfall.com/cards/9974a543-7429-458b-a24f-c84cbffbb54d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surging Might
@@ -506,6 +512,7 @@ schema: 2
   - *2020-04-17* — If the target creature is an illegal target when Surly Badgersaur's last ability tries to resolve, the ability doesn't resolve. If it's a legal target but Surly Badgersaur is no longer on the battlefield when the ability resolves, the target creature won't deal or be dealt damage.
   - *2020-04-17* — If you discard a card as a cost to cast a spell or activate an ability, Surly Badgersaur's triggered ability resolves before that spell or ability but after you've chosen targets for it. If you discard a card while a spell or ability is resolving, that spell or ability finishes resolving before Surly Badgersaur's triggered ability does.
   - *2020-04-17* — Surly Badgersaur's abilities are triggered abilities, not activated abilities. They don't allow you to discard a card whenever you want; rather, you need some other way of discarding a card, such as a cycling ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#surly-badgersaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/57/surly-badgersaur) · oracle_id `0209dc74-ac49-4deb-907a-e9fa49d27a0f` · printing: C20 #57 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surly Farrier
@@ -641,6 +648,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3322 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2014-09-20* — A spell or ability that counters spells can still target a creature spell you control. When that spell or ability resolves, the creature spell won't be countered, but any additional effects of that spell or ability will still happen.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#surrak-dragonclaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/169/surrak-dragonclaw) · oracle_id `7c766365-82c2-46d6-8521-42e73129f4ef` · printing: DMC #169 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak, Elusive Hunter
@@ -657,6 +665,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7208 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#surrak-elusive-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/161/surrak-elusive-hunter) · oracle_id `7a0fe73f-6e08-4c9a-80e1-c2ead6cebe06` · printing: TDM #161 (2025-04-11) · [rulings](https://api.scryfall.com/cards/e4775a26-0b66-40e9-8f64-41d9308ca032/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Surrak, the Hunt Caller
@@ -918,6 +927,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2367 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don’t have to find the card if you don’t want to.
+- **Referenced in:** 4 pages (1 edh guides · 3 card data) → [reverse index](../../references/S.md#survival-of-the-fittest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/199/survival-of-the-fittest) · oracle_id `119d719d-e965-45b4-9bc9-ac03211b10c2` · printing: TPR #199 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survive the Night
@@ -936,6 +946,7 @@ schema: 2
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't cast a spell without choosing legal targets. If all of those targets become illegal, the spell doesn't resolve and you won't investigate.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#survive-the-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/41/survive-the-night) · oracle_id `e8fcc7ff-6274-4130-a3a5-99f545eeee30` · printing: SOI #41 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Survivor of Korlis

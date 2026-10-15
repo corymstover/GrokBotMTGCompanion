@@ -111,6 +111,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #85 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — Lands you control won't lose any other abilities they had. They also won't gain or lose any land types.
+- **Referenced in:** 9 pages (8 decks · 1 card data) → [reverse index](../../references/C.md#chromatic-lantern)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/73/chromatic-lantern) · oracle_id `539f5396-d99a-417d-a84c-dff7930b5900` · printing: MBC #73 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromatic Orrery
@@ -183,6 +184,7 @@ schema: 2
   > *Liberation Station's morale greatly improved after Rover took up residence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9925 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chrome-companion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/236/chrome-companion) · oracle_id `1ac6fabb-71db-442f-8c14-ba9e659f906c` · printing: EOE #236 (2025-08-01) · [rulings](https://api.scryfall.com/cards/8ef269a0-1cb9-4901-81e6-43db3ae3756c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Courier
@@ -229,6 +231,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3526 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If the noncreature spell has {X} in its mana cost, use the value chosen for X when calculating that spell's mana value.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#chrome-host-seedshark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/68/chrome-host-seedshark) · oracle_id `837c5d0e-0a33-4f9d-ae25-68a687bdf640` · printing: EOC #68 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Mox
@@ -244,6 +247,7 @@ schema: 2
   - *2025-02-07* — If no card is exiled with this artifact, it can’t add mana. The same is true if the exiled card is colorless.
   - *2025-02-07* — If the exiled card is multicolored, you choose one of that card’s colors each time you tap this artifact for mana.
   - *2025-02-07* — This artifact's activated ability can never add {C}, even if the exiled card is colorless or has a colorless mana symbol in its mana cost.
+- **Referenced in:** 25 pages (19 decks · 4 edh guides · 2 card data) → [reverse index](../../references/C.md#chrome-mox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/240/chrome-mox) · oracle_id `ec3d4466-547c-4e02-b1b5-a156ec4637e9` · printing: 2XM #240 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chrome Prowler
@@ -274,6 +278,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — Chrome Replicator's ability creates just one Construct, no matter how many namesake pairs of permanents you control.
   - *2020-06-23* — If you don't control two nonland, nontoken permanents with the same name immediately after Chrome Replicator enters the battlefield, its ability doesn't trigger. If you don't control two as the ability resolves, you don't create a token. They don't have to be the same pair, however.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chrome-replicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/229/chrome-replicator) · oracle_id `f379fa0b-e9fc-4307-a574-a0c95e5e7f72` · printing: M21 #229 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chromescale Drake
@@ -415,6 +420,7 @@ schema: 2
   - *2025-11-17* — Chronicle of Victory's last ability resolves before the spell that causes it to trigger. The ability will resolve even if that spell is countered or otherwise leaves the stack.
   - *2025-11-17* — The choice of creature type is made as Chronicle of Victory enters. Players can't take any actions between the time the choice is made and the time the appropriate creatures begin to get +2/+2.
   - *2025-11-17* — You must choose an existing creature type, such as Goblin or Elemental. Card types such as artifact and supertypes such as legendary can't be chosen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chronicle-of-victory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/253/chronicle-of-victory) · oracle_id `e949b362-4988-4482-ac51-c1049af9040c` · printing: ECL #253 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronicler of Heroes
@@ -443,6 +449,7 @@ schema: 2
   - *2019-11-12* — If Chronobot enters the battlefield during an upkeep step, its effect doesn’t affect that upkeep step. Similarly, if Chronobot leaves the battlefield during an upkeep step, its effect doesn’t expire until the upkeep step is over.
   - *2019-11-12* — Untapping your permanents occurs in the untap step, and drawing a card occurs in the draw step. Neither of these are affected by Chronobot’s theft of time.
   - *2019-11-12* — While it’s your upkeep during your opponent’s turn, you’re the active player. However, any rules or effects that check whose turn it is will still know that it’s your opponent’s turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#chronobot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/105/chronobot) · oracle_id `61ba11bf-9bc2-4408-bef2-42f59088c815` · printing: CMB2 #105 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Chronomancer
@@ -545,4 +552,5 @@ schema: 2
   - *2007-02-01* — Chronozoa's last ability creates two Chronozoa tokens that each enter with three time counters and have all of Chronozoa's abilities.
   - *2007-02-01* — If Chronozoa becomes a copy of another creature and is put into the graveyard from the battlefield, no copies will be created. If another creature becomes a copy of Chronozoa and is put into a graveyard from the battlefield (with no time counters on it), two copies of Chronozoa will be created.
   - *2007-02-01* — The ability checks to see if Chronozoa had no time counters on it at the time it was put into a graveyard from the battlefield. This doesn't necessarily mean it must have been sacrificed due to vanishing; it could have been put into the graveyard some other way (say, while the sacrifice ability of vanishing is on the stack).
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#chronozoa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plc/37/chronozoa) · oracle_id `29ccf76e-dfa3-4144-8ec2-6d56ae0bfa9e` · printing: PLC #37 (2007-02-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -52,6 +52,7 @@ schema: 2
   > All creatures have "At the beginning of your upkeep, destroy this creature unless you pay {1}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8848 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/T.md#the-tabernacle-at-pendrell-vale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/212/the-tabernacle-at-pendrell-vale) · oracle_id `69b409b3-fa16-4c79-8b46-215a7036ed46` · printing: ME3 #212 (2009-09-07) · [rulings](https://api.scryfall.com/cards/cd3f7f4e-cb25-4121-96a0-a4dc530420b9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tale of Tamiyo
@@ -103,6 +104,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8934 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — You must follow all normal timing rules for a card you play using The Temporal Anchor's last ability and, if it's a spell, you must pay its costs to cast it.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-temporal-anchor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/82/the-temporal-anchor) · oracle_id `168f2fbb-8cf7-43e0-8bb6-5e4cc3c1e363` · printing: BRO #82 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Ten Rings
@@ -149,6 +151,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/T.md#the-tenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/3/the-tenth-doctor) · oracle_id `23af0a0a-1d12-47c7-b191-2bd3f84eea93` · printing: WHO #3 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Terror of Serpent's Pass
@@ -194,6 +197,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6460 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-08-21* — Your opponent will draw the card they normally draw in their draw step before you draw a card from Jace's first ability.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#the-theorist-jace-beleren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/43/the-theorist-jace-beleren) · oracle_id `89a6e876-0b00-4671-9652-766fd7ef9bf2` · printing: FRA #43 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thing
@@ -245,6 +249,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-third-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/162/the-third-doctor) · oracle_id `2a73db99-5e31-49a8-91e7-b28b3434585d` · printing: WHO #162 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Thirteenth Doctor
@@ -266,6 +271,7 @@ schema: 2
   - *2023-10-13* — Paradox abilities count any spells cast from zones other than your hand. These are usually spells cast from exile, the graveyard, or the command zone. They also count spells cast from outside the game, such as spells cast with Wish or Garth One-Eye's ability.
   - *2023-10-13* — The Thirteenth Doctor's last ability untaps creatures you control with any kind of counter on them, not just creatures you control with +1/+1 counters on them.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#the-thirteenth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/4/the-thirteenth-doctor) · oracle_id `3778e06c-62c7-4b8f-90ff-b2fc2d2e213c` · printing: WHO #4 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Three Seasons
@@ -426,6 +432,7 @@ schema: 2
   - *2023-10-13* — This means that if you cast a spell with demonstrate and both you and an opponent copy it, the opponent's copy will resolve first, then your copy will resolve, and finally the original spell will resolve.
   - *2023-10-13* — Unlike other creature types in Magic that are each only one word, the two words "Time Lord" represent a single creature subtype. Time Lord is the only two-word creature type.
   - *2023-10-13* — You choose whether to make a copy as the demonstrate ability resolves. This happens before the original spell resolves. Your copy goes on the stack above the original spell.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#the-twelfth-doctor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/164/the-twelfth-doctor) · oracle_id `9ecf19ba-754e-4bb3-b526-fe9df87a0f08` · printing: WHO #164 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Tyrant

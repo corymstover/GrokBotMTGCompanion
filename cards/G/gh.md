@@ -148,6 +148,7 @@ schema: 2
   - *2023-04-14* — If you choose the first mode and there are no other attacking creatures, you’ll create a 0/0 Dinosaur token. Unless something else is immediately raising its toughness, the token will die. You won’t have time to respond with a spell or ability to try and save it. A similar situation occurs if the greatest power among other attacking creatures is 0 or less.
   - *2023-04-14* — If you choose the second mode and there are no other attacking creatures, you won’t create any Vampire tokens.
   - *2023-04-14* — You choose which player, planeswalker, or battle the Dinosaur token is attacking. It doesn’t have to be the same player, planeswalker, or battle that Ghalta and Mavren is attacking.
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/G.md#ghalta-and-mavren)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/225/ghalta-and-mavren) · oracle_id `756042c5-e444-45d7-8dc6-ae7c83c98438` · printing: MOM #225 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta, Primal Hunger
@@ -167,6 +168,7 @@ schema: 2
   - *2018-01-19* — If a creature's power is somehow less than 0, it subtracts from the total power of your other creatures. If the total power of your creatures is 0 or less, Ghalta's cost remains {10}{G}{G}.
   - *2018-01-19* — The total cost to cast Ghalta is locked in before you pay that cost. For example, if you control three 2/2 creatures, including one you can sacrifice to add {C}, the total cost of Ghalta is {4}{G}{G}. Then you can sacrifice the creature when you activate mana abilities just before paying the cost.
   - *2018-01-19* — To determine Ghalta's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases, then apply any cost reductions. Ghalta's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 8 pages (4 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/G.md#ghalta-primal-hunger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/222/ghalta-primal-hunger) · oracle_id `b0b6be0c-41cf-4757-9f0e-87227b6ba6b3` · printing: FDN #222 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta, Stampede Tyrant
@@ -182,6 +184,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1082 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/G.md#ghalta-stampede-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/185/ghalta-stampede-tyrant) · oracle_id `b8f16311-be5a-4648-b024-849a61dff0bc` · printing: LCI #185 (2023-11-17) · [rulings](https://api.scryfall.com/cards/72e805e9-69be-45c1-aa04-f460641a0c1e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghalta the Immovable
@@ -369,6 +372,7 @@ schema: 2
   > {1}, Sacrifice a creature: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9823 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ghave-guru-of-spores)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/216/ghave-guru-of-spores) · oracle_id `e579a72f-4933-40fe-9e57-96f8d65370bc` · printing: 2X2 #216 (2022-07-08) · [rulings](https://api.scryfall.com/cards/c2be0e99-cf43-423f-974f-02e3313b3aa9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghazbán Ogre
@@ -466,6 +470,7 @@ schema: 2
   - *2016-09-20* — In a Two-Headed Giant game, Ghirapur Orrery's second ability triggers for each player on a team separately. If one player has cards in hand, it can still trigger for the other player.
   - *2016-09-20* — No player may take actions in a turn before Ghirapur Orrery's second ability checks to see if it should trigger. If the player whose turn it is has any cards in hand, it won't trigger.
   - *2016-09-20* — The draw step is after the upkeep step, so drawing a card as a turn-based action won't affect whether Ghirapur Orrery's second ability triggers.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#ghirapur-orrery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/216/ghirapur-orrery) · oracle_id `c6bb3a58-131a-4d7b-8c07-173a7de23b06` · printing: KLD #216 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghirapur Osprey
@@ -503,6 +508,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ghired-conclave-exile)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/42/ghired-conclave-exile) · oracle_id `ce08fbfb-5d51-4dfc-80ae-87d5d9c7726f` · printing: C19 #42 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghired, Mirror of the Wilds
@@ -943,6 +949,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ghost-lantern--bind-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/128/ghost-lantern-bind-spirit) · oracle_id `4af03564-1d1c-4582-9248-cfe9551bad30` · printing: CLB #128 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost-Lit Drifter
@@ -1053,6 +1060,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
   - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/G.md#ghostly-dancers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/13/ghostly-dancers) · oracle_id `c53d958a-f660-4d2e-87cd-87702f973b3a` · printing: DSK #13 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Flame
@@ -1083,6 +1091,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #592 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — The two targets can have different card types. For example, you can target one artifact and one creature with Ghostly Flicker.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/G.md#ghostly-flicker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/98/ghostly-flicker) · oracle_id `ad0070db-6454-41cb-861f-8f5b8fc2a3b8` · printing: CMM #98 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Keybearer
@@ -1144,6 +1153,7 @@ schema: 2
 - **Rulings** (2):
   - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
   - *2014-02-01* — Unless some effect explicitly says otherwise, a creature that can't attack you can still attack a planeswalker you control.
+- **Referenced in:** 5 pages (3 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#ghostly-prison)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/146/ghostly-prison) · oracle_id `e828b189-0e8f-43b8-b909-4c23e742e028` · printing: SOC #146 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghostly Sentinel
@@ -1240,6 +1250,7 @@ schema: 2
   - *2006-05-01* — If you target Ghost Quarter with its own ability, the ability won't resolve because its target is no longer on the battlefield. You won't get to search for a land card.
   - *2011-09-22* — If the targeted land is an illegal target by the time Ghost Quarter's ability resolves, it won't resolve and none of its effects will happen. The land's controller won't get to search for a basic land card.
   - *2013-07-01* — The target land's controller gets to search for a basic land card even if that land wasn't destroyed by Ghost Quarter's ability. This may happen because the land has indestructible or because it was regenerated.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/G.md#ghost-quarter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/253/ghost-quarter) · oracle_id `2ec4288e-34c6-4831-a2c0-ba1ca1d9d1dc` · printing: CM2 #253 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghost Ship
@@ -1399,6 +1410,7 @@ schema: 2
   > *"Geralf, must you always whine? I agreed to nothing. I'll raise ghouls anytime I wish."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2425 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#ghoulcaller-gisa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/161/ghoulcaller-gisa) · oracle_id `0dd894cb-1968-471c-af08-ea7ec5ce8428` · printing: CMM #161 (2023-08-04) · [rulings](https://api.scryfall.com/cards/44d7906e-8a89-4644-acb5-46fbe97ab39f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulcaller's Accomplice
@@ -1494,6 +1506,7 @@ schema: 2
   - *2023-07-28* — Being goaded isn't an ability the creature has. Once it's been goaded, it must attack as detailed above even if it loses all abilities.
   - *2023-07-28* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or a player who goaded it.
   - *2023-07-28* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#ghoulish-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/214/ghoulish-impetus) · oracle_id `276eccd6-4a76-46e8-b604-94472e618115` · printing: SOC #214 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulish Procession
@@ -1510,6 +1523,7 @@ schema: 2
   - *2021-09-24* — Decayed does not grant haste. Creatures with decayed that enter the battlefield during your turn may not attack until your next turn.
   - *2021-09-24* — Decayed represents a static ability and a triggered ability. "Decayed" means "This creature can't block" and "When this creature attacks, sacrifice it at end of combat."
   - *2021-09-24* — Once a creature with decayed attacks, it will be sacrificed at end of combat, even if it no longer has decayed at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#ghoulish-procession)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/110/ghoulish-procession) · oracle_id `39e20898-cf01-48dc-8972-7ac500c3fa79` · printing: INR #110 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ghoulraiser
@@ -1595,4 +1609,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3682 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — If another source deals exactly 1 damage to a permanent or player multiple times or deals exactly 1 damage to multiple permanents and/or players simultaneously, Ghryson Starn, Kellermorph's last ability triggers that many times.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/G.md#ghyrson-starn-kelermorph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph) · oracle_id `b110b8e6-859b-4370-aceb-b21c6cf61532` · printing: 40K #124 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -104,6 +104,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Tokens aren’t cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#intangible-vibes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/516/intangible-vibes) · oracle_id `f08383c6-1701-4817-9cd6-cd66e9d4119a` · printing: MB2 #516 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intangible Virtue
@@ -251,6 +252,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-09-19* — Mana from Interdimensional Web Watch's last ability may be spent on any spells cast from exile, not just spells cast from exile via its first ability.
   - *2025-09-19* — You must follow all normal timing rules when playing a land or casting a spell this way.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#interdimensional-web-watch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/165/interdimensional-web-watch) · oracle_id `456dbec4-1b0e-48c4-abae-5c8205651872` · printing: SPM #165 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interdisciplinary Mascot
@@ -332,6 +334,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — Both mana produced by Interplanar Beacon’s last ability may be spent on the same planeswalker spell, or each may be spent on different planeswalker spells.
   - *2019-05-03* — Interplanar Beacon’s first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#interplanar-beacon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/1004/interplanar-beacon) · oracle_id `073169f2-da3a-4a93-8c01-b3fd8558d225` · printing: CMM #1004 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interplanar Brushwagg
@@ -357,6 +360,7 @@ schema: 2
   - *2019-11-12* — If multiple triggered abilities of interplanar permanents need to be put on the stack, the active player puts them on the stack in any order they choose after all players have put any triggered abilities they control onto the stack. (In other words, the triggered abilities of interplanar permanents will resolve first.) These abilities have no controller.
   - *2019-11-12* — Interplanar Brushwagg may end up attacking its owner this way.
   - *2019-11-12* — Objects on the interplanar battlefield are on the battlefield and are known as interplanar permanents.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#interplanar-brushwagg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/79/interplanar-brushwagg) · oracle_id `9be5ca70-6fc2-4a7a-853e-cf5c810846aa` · printing: CMB2 #79 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Interpret the Signs
@@ -458,6 +462,7 @@ schema: 2
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
   - *2023-06-16* — When In the Darkness Bind Them's final chapter ability triggers, you can choose to target no creatures just so that the Ring tempts you. However, if you do choose at least one target, and all of those targets are illegal at the time the ability tries to resolve, the ability won't resolve and none of its effects will happen. The Ring won't tempt you.
   - *2023-06-16* — While resolving In the Darkness Bind Them's first three chapter abilities, you can choose the Wraith token you just created to be your Ring-bearer as the Ring tempts you.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/I.md#in-the-darkness-bind-them)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/58/in-the-darkness-bind-them) · oracle_id `c8689a83-cefa-4ef3-8ec1-58b4c64e332b` · printing: LTC #58 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Eye of Chaos
@@ -484,6 +489,7 @@ schema: 2
 - **Keywords:** Investigate
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32225 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#in-the-pale-moonlight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/117/in-the-pale-moonlight) · oracle_id `90c78f79-982f-4acd-a8ba-0c6ce115a248` · printing: TRK #117 (2026-11-13) · [rulings](https://api.scryfall.com/cards/47c8262c-e0c6-4c1a-b1c1-3b5fe5252a9c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### In the Presence of Ages
@@ -578,6 +584,7 @@ schema: 2
   - *2009-05-01* — For the second part of Intimidation Bolt's effect to do anything, it must be cast before attackers are declared.
   - *2009-05-01* — If the targeted creature has become an illegal target by the time Intimidation Bolt resolves, Intimidation Bolt doesn't resolve. Creatures will still be able to attack that turn.
   - *2009-05-01* — If the targeted creature survives the damage, it can attack this turn, but no other creatures can. If the targeted creature is destroyed, no creatures can attack this turn, including creatures that enter later on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#intimidation-bolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/99/intimidation-bolt) · oracle_id `3018c0ef-876a-4254-9513-42f351e1da3e` · printing: ARB #99 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intimidation Campaign
@@ -682,6 +689,7 @@ schema: 2
   > *Kellan stepped from his village into a strange world where trees bore jeweled fruit. A regal, inhuman voice rang in his ears: "Tell me, brave hero, are you true of heart?"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#into-the-fae-court)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/57/into-the-fae-court) · oracle_id `8db0a379-4cf2-43a7-932b-c5646a604578` · printing: WOE #57 (2023-09-08) · [rulings](https://api.scryfall.com/cards/969b13bb-6411-41f9-b6b4-af4ffca62e17/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Fire
@@ -697,6 +705,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7812 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If you choose the second mode, you choose how many cards to put on the bottom of your library as Into the Fire resolves. You may choose to put no cards on the bottom of your library and just draw a card.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#into-the-fire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/144/into-the-fire) · oracle_id `e7f735ce-e53b-40c0-b449-1f28fdfb2484` · printing: MOM #144 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Flood Maw
@@ -717,6 +726,7 @@ schema: 2
   - *2024-07-26* — In the main set, there are four different kinds of gifts. “Gift a Food” causes the chosen opponent to create a Food token, while “Gift a Treasure” causes the chosen opponent to create a Treasure token. “Gift a card” causes them to draw a card, and “Gift a tapped Fish” causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: “Gift an Octopus,” which causes the chosen opponent to create an 8/8 blue Octopus creature token, and “Gift an extra turn,” which causes them to take an extra turn after the current turn ends.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren’t promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won’t be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can’t pay a gift cost more than once.
+- **Referenced in:** 9 pages (5 decks · 1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/I.md#into-the-flood-maw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/52/into-the-flood-maw) · oracle_id `8cb36a67-9206-4665-a03f-64f52ba559c4` · printing: BLB #52 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Fray
@@ -813,6 +823,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/I.md#into-the-roil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/509/into-the-roil) · oracle_id `c2898bbd-82a4-4d26-b6ee-169b0ebe71b4` · printing: FDN #509 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Into the Story
@@ -906,6 +917,7 @@ schema: 2
   > *—Colonel Carol Danvers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29609 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#intrepid-ace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/691/intrepid-ace) · oracle_id `cb8889c8-8ee3-4e27-9f47-ad1021ff61bb` · printing: MSC #691 (2026-06-26) · [rulings](https://api.scryfall.com/cards/dead141b-ed26-4d20-9c2b-788fb6ecc74d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrepid Adversary
@@ -977,6 +989,7 @@ schema: 2
   - *2023-11-10* — Intrepid Paleontologist must be under your control in order to start casting a Dinosaur creature spell using its last ability, but it doesn't need to stay under your control throughout that process or be under your control as the spell resolves. If, for example, you sacrifice Intrepid Paleontologist to pay an additional cost of the spell or it's destroyed in response, the spell will still resolve normally.
   - *2023-11-10* — Multiple finality counters on a single permanent are redundant.
   - *2023-11-10* — You must still pay all costs and follow any timing restrictions and permissions for Dinosaur creature spells you cast from exile this way. Normally, you'll be able to cast them only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#intrepid-paleontologist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/193/intrepid-paleontologist) · oracle_id `d6026309-aae9-43e7-938b-69db7af7139c` · printing: LCI #193 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrepid Provisioner
@@ -1016,6 +1029,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#intrepid-rabbit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/17/intrepid-rabbit) · oracle_id `7ed4afc9-959a-4868-8f4a-2221bea1ba32` · printing: BLB #17 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intrepid Stablemaster
@@ -1075,6 +1089,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#intrepid-trufflesnout--go-hog-wild)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/320/intrepid-trufflesnout-go-hog-wild) · oracle_id `147d1e5c-fcfd-4115-a2f9-bea9b7ad7bb6` · printing: WOE #320 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Introduction to Annihilation
@@ -1117,6 +1132,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — You decide which opponent chooses the pile while resolving Intrude on the Mind.
   - *2024-02-02* — You may choose to put all of the cards into one pile and leave the other pile empty. If you do, the opponent will choose whether to put the revealed cards into your hand or your graveyard.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/I.md#intrude-on-the-mind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/61/intrude-on-the-mind) · oracle_id `eedb1527-548a-435a-a3e1-8ad7d9d6d8a9` · printing: MKM #61 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intruder Alarm
@@ -1131,6 +1147,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1729 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If multiple creatures enter the battlefield at one time, this ability triggers once for each of those creatures.
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 2 card data) → [reverse index](../../references/I.md#intruder-alarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/86/intruder-alarm) · oracle_id `1e943e04-e213-4781-b1a7-935aad8790e1` · printing: 8ED #86 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Intruding Soulrager
@@ -1172,4 +1189,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2028 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2006-07-15* — Targets an opponent. You choose an opponent during announcement. If you can’t target an opponent, you can’t cast this card.
+- **Referenced in:** 8 pages (4 decks · 2 edh guides · 2 card data) → [reverse index](../../references/I.md#intuition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/54/intuition) · oracle_id `3c9faba7-f2d3-4978-be94-020dc8003dc0` · printing: TPR #54 (2015-05-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

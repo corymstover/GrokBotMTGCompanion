@@ -149,6 +149,7 @@ schema: 2
   - *2009-05-01* — If Mycoid Shepherd and another creature you control with power 5 or greater are put into a graveyard from the battlefield at the same time, Mycoid Shepherd’s ability will trigger twice.
   - *2009-05-01* — If another creature you control is put into a graveyard from the battlefield, Mycoid Shepherd’s ability checks that creature’s power as it last existed on the battlefield. If it was 5 or greater, the ability will trigger.
   - *2009-05-01* — Mycoid Shepherd’s ability will trigger when it’s put into a graveyard from the battlefield no matter what its power is at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mycoid-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arb/73/mycoid-shepherd) · oracle_id `c4a4e607-7f37-4dc6-8fc0-f77bdafeb919` · printing: ARB #73 (2009-04-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycologist
@@ -179,6 +180,7 @@ schema: 2
   - *2008-10-01* — The number of Saproling tokens created by the triggered ability is based on the number of +1/+1 counters on Mycoloth, not on the number of creatures Mycoloth devoured. It doesn't matter where the +1/+1 counters came from.
   - *2008-10-01* — You may choose not to sacrifice any creatures for the Devour ability.
   - *2008-10-01* — You may sacrifice only creatures that are already on the battlefield. If a creature with devour and another creature are entering under your control at the same time, the creature with devour can't devour that other creature. The creature with devour also can't devour itself.
+- **Referenced in:** 4 pages (1 edh guides · 1 rules · 2 card data) → [reverse index](../../references/M.md#mycoloth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/276/mycoloth) · oracle_id `d7fd16ce-282d-49cd-b2b4-0d25935e7a72` · printing: SOC #276 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myconid Spore Tender
@@ -223,6 +225,7 @@ schema: 2
   - *2004-12-01* — If Mycosynth Golem is sacrificed as part of the cost to cast a spell, the cost reduction will already be locked in, and the cost won’t be increased.
   - *2004-12-01* — The spells gain affinity for artifacts as they’re put onto the stack. They don’t have the ability while they’re cards in your hand.
   - *2004-12-01* — Two or more instances of the affinity ability are cumulative, even if they’re both affinity for the same thing.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#mycosynth-golem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/137/mycosynth-golem) · oracle_id `ebcd864a-b7dd-4330-89e1-80576a9437ec` · printing: 5DN #137 (2004-06-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Lattice
@@ -239,6 +242,7 @@ schema: 2
   - *2004-12-01* — Mycosynth Lattice’s second ability makes everything, in every zone of the game, colorless.
   - *2004-12-01* — The Lattice’s third ability lets players spend even colorless mana as though it had a color. However, it doesn’t remove restrictions on the mana. For example, Mycosynth Lattice doesn’t allow mana from Vedalken Engineer to be used to cast a nonartifact spell.
   - *2009-10-01* — The Lattice’s first ability causes Auras to become artifacts. Combined with March of the Machines from the Mirrodin set, this can then make those Auras become creatures. An Aura that’s also a creature can’t enchant anything. It’s unattached the next time state-based actions are checked, and then immediately put into its owner’s graveyard as a second state-based action.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/M.md#mycosynth-lattice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/241/mycosynth-lattice) · oracle_id `ae1f2ab5-c6a5-4d49-a746-3cb4668bf805` · printing: BBD #241 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mycosynth Wellspring
@@ -252,6 +256,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2461 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — The ability will trigger when Mycosynth Wellspring is put into a graveyard from the battlefield, even if the ability that triggered when it entered hasn't resolved yet.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mycosynth-wellspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/252/mycosynth-wellspring) · oracle_id `9ec43ec6-b625-4be8-8f79-3679e6657dbc` · printing: C21 #252 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### My Deck is About a Seven
@@ -461,6 +466,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#my-precious--allure-of-power)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/176/my-precious-allure-of-power) · oracle_id `2e728381-6db0-4c66-883d-82d718fef833` · printing: HOB #176 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Adapter
@@ -490,6 +496,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Myra’s activated ability creates a delayed triggered ability that will trigger whenever you visit the chosen Attraction. This ability will continue to trigger as long as the Attraction is on the battlefield and the exiled card remains exiled, even if Myra leaves the battlefield, loses her abilities, or changes controllers. It will also continue to trigger if the Attraction somehow loses the midway counter.
   - *2022-10-07* — Myra’s activated ability targets only the instant or sorcery card in your graveyard. It doesn’t target the Attraction. You choose the Attraction as the ability is resolving.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/M.md#myra-the-magnificent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/175/myra-the-magnificent) · oracle_id `4f0c3154-1917-4bb5-9ba2-446943a88808` · printing: UNF #175 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Battlesphere
@@ -505,6 +512,7 @@ schema: 2
   - *2020-08-07* — As the last ability resolves, you can tap untapped Myr you control even if Myr Battlesphere is no longer on the battlefield by then. If that has happened, Myr Battlesphere won't be able to get the +X/+0 bonus, but it will still deal X damage to the appropriate player or planeswalker.
   - *2020-08-07* — You can tap any untapped Myr you control as the last ability resolves, not just the Myr tokens you created with the first ability. This includes Myr that haven't been under your control since your most recent turn began.
   - *2020-08-07* — You choose the value for X as the last ability resolves. You can't choose a value for X that's greater than the number of untapped Myr you control.
+- **Referenced in:** 6 pages (2 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#myr-battlesphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/322/myr-battlesphere) · oracle_id `c53ba31a-ba27-4e17-9a92-311acb1cab29` · printing: TDC #322 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Convert
@@ -527,6 +535,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#myr-convert)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/234/myr-convert) · oracle_id `6abf433e-27da-4abb-b262-3af792a1db23` · printing: ONE #234 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Custodian
@@ -557,6 +566,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip and unearth) are activated abilities and will have colons in their reminder text.
   - *2022-10-14* — Myrel, Shield of Argive's first ability prevents opponents from activating abilities of permanents on the battlefield that are artifacts, creatures, and/or enchantments. It doesn't prevent activated abilities from cards in any zone other than the battlefield. Notably, this means that your opponents may still activate abilities of cards in their graveyard (such as unearth).
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/M.md#myrel-shield-of-argive)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/18/myrel-shield-of-argive) · oracle_id `503094aa-6f8f-42c1-ad5a-9305934e5f0c` · printing: BRO #18 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Enforcer
@@ -622,6 +632,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-03-16* — You can choose to find one basic land card with Myriad Landscape's last ability.
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#myriad-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/169/myriad-landscape) · oracle_id `2549bc57-9ffb-4053-9f10-f2a5f792b845` · printing: EOC #169 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Incubator
@@ -673,6 +684,7 @@ schema: 2
   > 20 | Each opponent sacrifices a creature with the greatest power among creatures that player controls.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6135 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#myrkuls-edict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/135/myrkuls-edict) · oracle_id `933afaa3-3b23-454c-9465-8f2ba9652b4f` · printing: CLB #135 (2022-06-10) · [rulings](https://api.scryfall.com/cards/adc7c427-aa31-4077-8397-74a9a3802ee7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrkul's Invoker
@@ -818,6 +830,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #889 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — If Myr Retriever dies at the same time as another artifact you own, its ability can target that other artifact card.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/M.md#myr-retriever)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/277/myr-retriever) · oracle_id `d07d3be3-f69d-4484-8467-cffd43871788` · printing: 2XM #277 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Scrapling
@@ -859,6 +872,7 @@ schema: 2
   > *For the Phyrexians, death is not an end, nor a one-time occurrence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6997 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#myr-sire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/400/myr-sire) · oracle_id `25794033-bd17-4056-b116-68d3acf52569` · printing: CMM #400 (2023-08-04) · [rulings](https://api.scryfall.com/cards/11ba43d1-e879-40e0-b49c-e009deb7e3aa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myrsmith
@@ -901,6 +915,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6939 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — You can tap a Myr that hasn’t been under your control since your most recent turn began to pay for the cost of the second activated ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#myr-turbine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/117/myr-turbine) · oracle_id `b9043dcd-234f-4144-80db-1cb903c009ea` · printing: MBS #117 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Myr Welder
@@ -967,6 +982,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11015 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-09-19* — If Mysterio leaves the battlefield before the tokens are created, the ability that removes them will never trigger.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#mysterio-master-of-illusion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/spm/37/mysterio-master-of-illusion) · oracle_id `40f664d8-4c73-44aa-8fb1-d38771a42520` · printing: SPM #37 (2025-09-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterio's Mirage
@@ -979,6 +995,7 @@ schema: 2
   > *"I do not need to control reality when I can manipulate your perception of it. You see what I want you to see."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19059 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mysterios-mirage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/630/mysterios-mirage) · oracle_id `60733a3a-dfc9-429a-af2d-f0ce9a58d533` · printing: MSC #630 (2026-06-26) · [rulings](https://api.scryfall.com/cards/d5628e8b-7df6-4c9e-9ddc-57f124b38470/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterio's Phantasm
@@ -1018,6 +1035,7 @@ schema: 2
   > *—Dennae, Savai hunter*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11602 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mysterious-egg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/3/mysterious-egg) · oracle_id `d3b62851-6013-49e5-8808-fa61b1bdfe98` · printing: IKO #3 (2020-04-24) · [rulings](https://api.scryfall.com/cards/cdfac3c3-7f38-49d6-bd88-dc0f5001116f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mysterious Hero
@@ -1153,6 +1171,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20240 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — If Mystical Tether leaves the battlefield before its triggered ability resolves, the target artifact or creature won't be exiled at all.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#mystical-tether)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/19/mystical-tether) · oracle_id `fb1a6986-39f7-4592-9039-7e30f5ccd009` · printing: OTJ #19 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystical Tutor
@@ -1166,6 +1185,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #162 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Referenced in:** 30 pages (22 decks · 6 edh guides · 2 card data) → [reverse index](../../references/M.md#mystical-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/60/mystical-tutor) · oracle_id `fb81f95c-70f8-4eb7-8d15-15d0ae23ec03` · printing: DMR #60 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Archaeologist
@@ -1222,6 +1242,7 @@ schema: 2
   - *2021-03-19* — If you choose the first and/or second modes but all of the targets become illegal before Mystic Confluence resolves, the spell won't resolve. If you also chose the last mode once or twice, you won't draw any cards. If at least one target is still legal, the spell will resolve but will have no effect on any illegal targets.
   - *2021-03-19* — No matter which combination of modes you choose, you always follow the instructions in the order they are written.
   - *2021-03-19* — No player can cast spells or activate abilities in between the modes of a resolving spell. Any abilities that trigger won't be put onto the stack until Mystic Confluence is done resolving.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mystic-confluence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/108/mystic-confluence) · oracle_id `cd11c27b-9368-4622-bc5a-2e0b993cc42b` · printing: CMM #108 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Crusader
@@ -1259,6 +1280,7 @@ schema: 2
   > Counter target creature or sorcery spell.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28797 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mystic-denial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/49/mystic-denial) · oracle_id `d2bd23a6-4f77-4d6e-bf8f-339cb7a4184d` · printing: PTK #49 (1999-05-01) · [rulings](https://api.scryfall.com/cards/1296ddc4-300d-44f6-95d8-1b392613d379/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Doom Sandwich
@@ -1273,6 +1295,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mystic-doom-sandwich)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/11/mystic-doom-sandwich) · oracle_id `c490157a-cff5-417b-8f83-15f84398e34f` · printing: SUNF #11 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6995d646-cadc-48bb-911c-9f2e461a9fdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Enforcer
@@ -1320,6 +1343,7 @@ schema: 2
   - *2019-07-12* — Mystic Forge lets you look at the top card of your library whenever you want (with one restriction—see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2019-07-12* — You must follow the normal timing permissions and restrictions of the spells you cast from your library.
   - *2019-07-12* — You still pay all costs for a spell you cast from your library, including additional costs. You may also pay alternative costs.
+- **Referenced in:** 10 pages (6 decks · 2 edh guides · 2 card data) → [reverse index](../../references/M.md#mystic-forge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/964/mystic-forge) · oracle_id `994bc16d-fdc6-475c-96df-beeb4d5aa03e` · printing: CMM #964 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Gate
@@ -1402,6 +1426,7 @@ schema: 2
   > *—Shang-Chi*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #373 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 3 edh guides) → [reverse index](../../references/M.md#mystic-monastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/253/mystic-monastery) · oracle_id `834b8f71-9a45-42ae-9e99-e749fa6fb45e` · printing: MSC #253 (2026-06-26) · [rulings](https://api.scryfall.com/cards/bc23343a-3a01-4975-8430-17bf15fa639d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic of the Hidden Way
@@ -1479,6 +1504,7 @@ schema: 2
   - *2021-02-05* — Other enters-the-battlefield replacement abilities printed on the creatures entering the battlefield won’t be applied because those permanents will already be copies of the target creature at that point (and therefore they won’t have those abilities). External abilities may still affect how those permanents enter the battlefield. For example, if another effect says, “Creatures enter the battlefield tapped,” the permanents will enter as tapped copies of the target creature.
   - *2021-02-05* — Replacement effects that modify how a creature enters the battlefield are applied in the following order: first, control-changing effects (such as Gather Specimens), then copy effects (such as the abilities of Mystic Reflection and Clone), then all other effects.
   - *2021-02-05* — The entering permanents don’t copy whether the target creature is tapped or untapped, whether it has any counters on it, whether it has any Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#mystic-reflection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/69/mystic-reflection) · oracle_id `491dc110-b459-412e-8a0b-45e5744ee8d1` · printing: KHM #69 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Remora
@@ -1493,6 +1519,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Cumulative upkeep is a triggered ability that imposes an increasing cost on a permanent. "Cumulative upkeep [cost]" means "At the beginning of your upkeep, if this permanent is on the battlefield, put an age counter on this permanent. Then you may pay [cost] for each age counter on it. If you don't, sacrifice it."
   - *2025-10-02* — Paying cumulative upkeep is always optional. If it's not paid, the permanent with cumulative upkeep is sacrificed. Partial payments of the total cumulative upkeep cost can't be made. For example, if Mystic Remora has three age counters on it when its cumulative upkeep ability triggers, it gets another age counter and then its controller chooses to either pay {4} or sacrifice it.
+- **Referenced in:** 34 pages (26 decks · 5 edh guides · 1 rules · 2 card data) → [reverse index](../../references/M.md#mystic-remora)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/59/mystic-remora) · oracle_id `8a52f3c0-2552-4425-b2e3-5496eb2232a7` · printing: DMR #59 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Repeal
@@ -1553,6 +1580,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — As these lands are entering the battlefield, they check for lands that are already on the battlefield. They won't see lands that are entering the battlefield at the same time (due to Scapeshift, for example).
   - *2019-10-04* — If another effect puts these lands onto the battlefield tapped, they enter tapped, even if you control enough lands with the appropriate basic land type.
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 2 card data) → [reverse index](../../references/M.md#mystic-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/388/mystic-sanctuary) · oracle_id `17b60106-a4c7-410a-8ac3-ec8e74e29a7c` · printing: SOC #388 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Skull // Mystic Monstrosity
@@ -1601,6 +1629,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5876 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mystic-snake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/208/mystic-snake) · oracle_id `161b6d06-e6a7-488e-9f9c-d266c1402a3a` · printing: A25 #208 (2018-03-16) · [rulings](https://api.scryfall.com/cards/2d4bacd1-b602-4bcc-9aea-1229949a7d20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mystic Speculation
@@ -1690,6 +1719,7 @@ schema: 2
   - *2010-08-15* — An “attacking creature” is one that has been declared as an attacker this combat, or one that was put onto the battlefield attacking this combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game, or the planeswalker it was attacking has left combat.
   - *2010-08-15* — At the beginning of the next end step, the affected creature is returned to the battlefield even if Mystifying Maze is no longer on the battlefield by then.
   - *2010-08-15* — The targeted creature doesn’t have to be attacking you. It can be attacking a planeswalker, or (in a multiplayer game) it can be attacking another player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mystifying-maze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/264/mystifying-maze) · oracle_id `58bd67a8-1833-4827-aa33-1c141568f481` · printing: C17 #264 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mythic Proportions

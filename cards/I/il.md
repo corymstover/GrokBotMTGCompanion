@@ -92,6 +92,7 @@ schema: 2
   - *2019-05-03* — If you control another player's God when it dies, you decide whether to put that card into its owner's library.
   - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
   - *2024-01-12* — You choose which player, planeswalker, or battle the new creature is attacking. It doesn't have to be attacking the same player, planeswalker, or battle that Ilharg is attacking.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/I.md#ilharg-the-raze-boar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/113/ilharg-the-raze-boar) · oracle_id `8d571129-9030-47e0-9624-a49fb63e5a1b` · printing: RVR #113 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illegitimate Business
@@ -210,6 +211,7 @@ schema: 2
   - *2022-06-10* — The Commander Legends: Battle for Baldur's Gate set includes no way to turn these cards face up. If an effect from cards outside of this set does turn one face up, the effect causing it to be a 2/2 Horror creature ends.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#illithid-harvester--plant-tadpoles)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/76/illithid-harvester-plant-tadpoles) · oracle_id `299ffd3a-29cf-4667-b191-dd30d09f799c` · printing: CLB #76 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illness in the Ranks
@@ -395,6 +397,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5357 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-10-07* — Use the mana value of the sacrificed creature as it last existed on the battlefield to determine the amount of {B} to add.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#illuminor-szeras)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/37/illuminor-szeras) · oracle_id `10f274f9-9044-447b-81c9-d4906ad9e6be` · printing: 40K #37 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illuna, Apex of Wishes
@@ -414,6 +417,7 @@ schema: 2
   - *2020-04-17* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it enters the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
   - *2020-04-17* — Illuna's last ability exiles the cards face up. All players will see what the card is if you put it into your hand.
   - *2020-04-17* — You choose whether to put the card into your hand or onto the battlefield after seeing what the card is.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#illuna-apex-of-wishes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/154/illuna-apex-of-wishes) · oracle_id `08daa30f-7ce0-4a72-b539-fbb0c585fd73` · printing: DMC #154 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Armor
@@ -482,6 +486,7 @@ schema: 2
   - *2009-10-01* — You can turn a face-down permanent face up if it would have morph while face up. This applies to creatures you cast face down as a result of Illusionary Mask's effect. The rest of Illusionary Mask's effect applies to it as well.
   - *2009-10-01* — You may look at a face-down spell or permanent you control at any time.
   - *2009-10-01* — You may not turn a face-down spell face up. You may not turn a face-down permanent face up unless it would have morph while face up or an effect specifically allows you to turn it face up. Illusionary Mask's ability has you turn a face-down creature face up if it would assign damage, deal damage, be dealt damage, or become tapped, but not for any other reason. For example, if you use Illusionary Mask's ability to cast a black creature face down, you can't turn it face up just because it's being targeted by Terror.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#illusionary-mask)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/197/illusionary-mask) · oracle_id `05ac866d-0405-4d25-986a-c10fcfc097e6` · printing: ME3 #197 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionary Presence
@@ -572,6 +577,7 @@ schema: 2
   - *2013-01-24* — If the cost of an activated ability requires Illusionist's Bracers or the equipped creature to be sacrificed, the ability won't be copied. At the time the ability is considered activated (after all costs are paid), Illusionist's Bracers is no longer equipped to that creature.
   - *2013-01-24* — The copy will have the same targets as the ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2013-04-15* — A mana ability is an ability that (1) isn't a loyalty ability, (2) doesn't target, and (3) could add mana when it resolves.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/I.md#illusionists-bracers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/260/illusionists-bracers) · oracle_id `1d1d78af-7982-419d-b9be-2bf4c149d97d` · printing: RVR #260 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusionist's Gambit
@@ -605,6 +611,7 @@ schema: 2
   - *2017-02-09* — If each target creature is an illegal target as Illusionist’s Stratagem resolves, the spell doesn’t resolve. You won’t draw a card.
   - *2017-02-09* — If you choose two target creatures and one is an illegal target as Illusionist’s Stratagem resolves, you’ll exile the other, return it, and draw a card.
   - *2017-02-09* — You may cast Illusionist’s Stratagem without any targets if you wish to just draw a card.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/I.md#illusionists-stratagem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/36/illusionists-stratagem) · oracle_id `1225bee2-c829-4a93-9f75-3495277c23bc` · printing: AER #36 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illusion of Choice
@@ -788,6 +795,7 @@ schema: 2
   - *2023-11-10* — If you control ten permanents but don't control a permanent or resolving spell with ascend, you don't get the city's blessing. For example, if you control ten permanents, lose control of two, then cast Illustrious Wanderglyph, you won't have the city's blessing.
   - *2023-11-10* — If your tenth permanent enters the battlefield and then a permanent leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get the city's blessing before it leaves the battlefield.
   - *2023-11-10* — Once you have the city's blessing, you have it for the rest of the game, even if you lose control of some or all of your permanents. The city's blessing isn't a permanent itself and can't be removed by any effect.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#illustrious-wanderglyph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/9/illustrious-wanderglyph) · oracle_id `72adf091-4491-4afe-b893-b8d20ad38a86` · printing: LCC #9 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Illvoi Galeblade
@@ -877,4 +885,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1771 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — Ilysian Caryatid’s activated ability is a mana ability. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/I.md#ilysian-caryatid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/297/ilysian-caryatid) · oracle_id `5f2be3c2-060a-43e1-b63b-9cd3c78ffcb0` · printing: CMM #297 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

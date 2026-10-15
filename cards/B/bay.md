@@ -58,6 +58,7 @@ schema: 2
   - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
   - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bayek-of-siwa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/50/bayek-of-siwa) · oracle_id `b0322e2e-e9f9-4fe2-a7a5-3e49665ad177` · printing: ACR #50 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bay Falcon
@@ -89,6 +90,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Baylen's first ability is a mana ability. It doesn't use the stack and can't be responded to.
   - *2024-07-26* — You may tap any untapped tokens you control to activate Baylen's abilities, including creature tokens that entered this turn, even if they don't have haste.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#baylen-the-haymaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/205/baylen-the-haymaker) · oracle_id `73dc28a7-37ac-4b16-aa00-967c9c44d979` · printing: BLB #205 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bayou
@@ -101,6 +103,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/B.md#bayou)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/293/bayou) · oracle_id `b76d1ae6-ad1d-4bac-b4c3-2e03e0e84d9b` · printing: VMA #293 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bayou Dragonfly

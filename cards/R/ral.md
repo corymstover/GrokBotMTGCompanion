@@ -62,6 +62,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — Ral and the Implicit Maze's last ability creates a token that's a copy of the card Spellgorger Weird in the Oracle card reference. Official text for Spellgorger Weird can be found using the Gatherer card database at Gatherer.Wizards.com.
   - *2024-06-07* — You pay all costs and follow all normal timing rules for cards played with Ral and the Implicit Maze's second chapter ability. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ral-and-the-implicit-maze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/132/ral-and-the-implicit-maze) · oracle_id `3affd37a-d4f6-488a-b30f-8e824b640687` · printing: MH3 #132 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral, Caller of Storms
@@ -76,6 +77,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20615 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-10-05* — If some of the targets become illegal for Ral's second ability, the original division of damage still applies, and the damage that would have been dealt to illegal targets isn't dealt at all.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-caller-of-storms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/265/ral-caller-of-storms) · oracle_id `d7b10518-b6dc-4a39-881a-edd346034f28` · printing: GRN #265 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral, Crackling Wit
@@ -95,6 +97,7 @@ schema: 2
   - *2024-07-26* — Ral's first ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
   - *2024-07-26* — Spells cast from zones other than a player's hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
   - *2024-07-26* — The copies of instant and sorcery spells you cast created by the storm ability are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
+- **Referenced in:** 5 pages (3 lore & story · 2 card data) → [reverse index](../../references/R.md#ral-crackling-wit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/230/ral-crackling-wit) · oracle_id `3c970f43-17da-4187-a084-efd53b579067` · printing: BLB #230 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral, Izzet Viceroy
@@ -113,6 +116,7 @@ schema: 2
   - *2018-10-05* — If you have only one card in your library, Ral's first ability puts it into your hand. Nothing is put into your graveyard.
   - *2018-10-05* — The emblem created by Ral's last ability is colorless. The damage it deals is from a colorless source.
   - *2018-10-05* — The triggered ability of Ral's emblem resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-izzet-viceroy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/195/ral-izzet-viceroy) · oracle_id `f29f4c73-5e5c-4341-8582-2873fbe5c5a3` · printing: GRN #195 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally
@@ -200,6 +204,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7297 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-05-03* — Rally of Wings affects only creatures you control at the time it resolves. Creatures that gain flying later in the turn or that you begin to control later in the turn won't get +2/+2.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rally-of-wings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/27/rally-of-wings) · oracle_id `984336a7-85bd-4549-9771-03a0c2367db0` · printing: WAR #27 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Ancestors
@@ -251,6 +256,7 @@ schema: 2
   - *2023-11-03* — The copy that conspire creates is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2023-11-03* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2023-11-03* — The triggered ability that creates the copy can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#rally-the-galadhrim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/499/rally-the-galadhrim) · oracle_id `84b2d0f6-ad98-4a71-a3d5-645b0f2db6c6` · printing: LTC #499 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Horde
@@ -275,6 +281,7 @@ schema: 2
   > • Destroy target creature with power 4 or greater.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12402 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#rally-the-monastery)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/19/rally-the-monastery) · oracle_id `3f6101a5-3038-45b0-8302-b2e4127b9510` · printing: TDM #19 (2025-04-11) · [rulings](https://api.scryfall.com/cards/b56e0037-8143-4c13-83e1-0c3f44e685ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally the Peasants
@@ -336,6 +343,7 @@ schema: 2
   > Untap all creatures you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26812 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rally-the-troops)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/16/rally-the-troops) · oracle_id `555927b3-bbc8-48b7-9a04-e8ebaabccf3e` · printing: PTK #16 (1999-05-01) · [rulings](https://api.scryfall.com/cards/04ee74d6-bd06-48e5-89de-f926e0c9413f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rally to Battle
@@ -384,6 +392,7 @@ schema: 2
   - *2024-06-07* — You choose how many targets Ral, Leyline Prodigy's second loyalty ability has and how the damage is divided as you activate the ability. Each target must receive at least 1 damage.
   - *2024-06-07* — You flip a coin as Ral, Monsoon Mage's triggered ability resolves. No player may take actions between seeing the result of the flip and the effects that occur based on the result of the flip.
   - *2024-06-07* — You follow all normal timing rules for spells cast with the permission granted by Ral, Leyline Prodigy's last ability. For example, if one of the exiled cards is a sorcery, you can cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-monsoon-mage--ral-leyline-prodigy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/247/ral-monsoon-mage-ral-leyline-prodigy) · oracle_id `16d40f56-691b-42a7-a5ab-157568921e03` · printing: MH3 #247 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral's Dispersal
@@ -422,6 +431,7 @@ schema: 2
   > *"Good thing maintenance never got around to decatalyzing the bithermic plasma displacement conduits!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9468 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rals-reinforcements)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/158/rals-reinforcements) · oracle_id `e7fa2fc2-8542-4069-b75f-5520dd30f74d` · printing: MOM #158 (2023-04-21) · [rulings](https://api.scryfall.com/cards/74d0bb76-075c-49d7-9afb-e5bcf5b654f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral's Staticaster
@@ -458,6 +468,7 @@ schema: 2
   - *2019-05-03* — The copies that Ral's last ability creates are created on the stack, so they're not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2019-05-03* — You can't choose to pay any additional costs for the copy created by Ral's last ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
   - *2019-06-14* — If an effect copies a card rather than a spell (such as that of God-Eternal Kefnet), this doesn't cause Ral's first ability to trigger. That ability will trigger if you cast the copy, however.
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-storm-conduit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/211/ral-storm-conduit) · oracle_id `b7da26c9-78a6-41c5-a5ef-6555e8274d7a` · printing: WAR #211 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral Zarek
@@ -473,6 +484,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-01-12* — Ral Zarek's first ability can target any two permanents. It doesn't matter whether they're tapped or untapped. If the first target is tapped as the ability resolves, it will just stay tapped. Similarly, if the second target is untapped as the ability resolves, it will stay untapped.
   - *2024-01-12* — The five coins you flip for Ral Zarek's last ability aren't called, and no one wins or loses these flips. Abilities that care about a player winning or losing a coin flip won't consider these flips.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/R.md#ral-zarek)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/216/ral-zarek) · oracle_id `75ed6946-e7b1-4bf8-a05c-62a2ba5a6c79` · printing: RVR #216 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ral Zarek, Guest Lecturer
@@ -490,4 +502,5 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-03-20* — When Ral Zarek's second ability resolves, the next target player in turn order (or, if it's a target player's turn, that player) chooses a card in hand without revealing it, then each other target player in turn order (if any) does the same. All chosen cards are then discarded at the same time.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/R.md#ral-zarek-guest-lecturer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/97/ral-zarek-guest-lecturer) · oracle_id `0dc76b7f-6405-44a1-8c55-31fa480ff70b` · printing: SOS #97 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

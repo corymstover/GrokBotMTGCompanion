@@ -74,6 +74,7 @@ schema: 2
   > *The hardest lessons to grasp are the ones you've already learned.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17233 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relearn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/s99/48/relearn) · oracle_id `13cb7d87-ff12-4742-8f54-f3175536db40` · printing: S99 #48 (1999-07-01) · [rulings](https://api.scryfall.com/cards/c5f0f0cb-5f77-4887-a5be-463d5e5c47c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release the Ants
@@ -99,6 +100,7 @@ schema: 2
   > *They charge into battle and out for their morning walk with the same exuberance.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6348 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#release-the-dogs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/127/release-the-dogs) · oracle_id `b97d21b4-d730-479f-872f-3e1645b66751` · printing: TDC #127 (2025-04-11) · [rulings](https://api.scryfall.com/cards/7e1df99a-c139-44c9-8881-077dbfd7332f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release the Gremlins
@@ -115,6 +117,7 @@ schema: 2
   - *2017-02-09* — If an artifact becomes an illegal target for Release the Gremlins, it won’t change the number of tokens created. However, if every target artifact becomes an illegal target, Release the Gremlins doesn’t resolve and no tokens are created.
   - *2017-02-09* — The value of X is limited by the number of artifacts that you can target. You can’t target the same artifact more than once.
   - *2017-02-09* — You can target an artifact with indestructible. It won’t be destroyed, and you’ll still create X Gremlin tokens.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#release-the-gremlins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/96/release-the-gremlins) · oracle_id `3b583358-d0d5-4f53-b06c-c6439156e684` · printing: AER #96 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Release to Memory
@@ -163,6 +166,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relentless-advance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/64/relentless-advance) · oracle_id `f54573d1-9950-46c3-b8f1-cd6f081d62ad` · printing: WAR #64 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Assault
@@ -177,6 +181,7 @@ schema: 2
   - *2025-09-19* — Abilities that trigger when a creature attacks, blocks, or is blocked will trigger during each combat that turn.
   - *2025-09-19* — If you manage to cast this during a main phase of your opponent's turn, that opponent's creatures will untap and that opponent will be able to attack again. It will not allow you to attack during their turn.
   - *2025-09-19* — Relentless Assault creates an additional combat and main phase only if it resolves during a main phase.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/R.md#relentless-assault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/416/relentless-assault) · oracle_id `dc1c0e8c-d0c1-445c-968f-7dec91e5d5fc` · printing: CMR #416 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Dead
@@ -208,6 +213,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32117 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relentless-drednok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/124/relentless-drednok) · oracle_id `98cbac1d-7896-4c63-a265-03bc5d670fa6` · printing: TRK #124 (2026-11-13) · [rulings](https://api.scryfall.com/cards/ce538db8-373d-4554-821e-cd96e795e37a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Hunter
@@ -234,6 +240,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19868 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — While resolving Relentless Pursuit, you could put no cards, a creature card, a land card, or a creature card and a land card into your hand.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relentless-pursuit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/195/relentless-pursuit) · oracle_id `d39c378b-f0a2-400f-af40-a632e24b6d72` · printing: THB #195 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Raptor
@@ -264,6 +271,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to one Relentless Rats may become lethal if another Relentless Rats leaves the battlefield during that turn.
   - *2024-07-26* — The last ability of Relentless Rats lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Bloomburrow Limited event, you can't add Relentless Rats from your personal collection.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relentless-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/105/relentless-rats) · oracle_id `104ea189-14cd-420f-afdc-57b0f827ab8e` · printing: A25 #105 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relentless Rohirrim
@@ -436,6 +444,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #532 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — You can tap any untapped legendary creature you control, including one you haven't controlled continuously since the beginning of your most recent turn, to pay the cost of Relic of Legends's activated ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#relic-of-legends)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/209/relic-of-legends) · oracle_id `4d9554de-c005-41ab-a941-39328ebff9de` · printing: MSC #209 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic of Progenitus
@@ -451,6 +460,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-06-08* — If you activate Relic of Progenitus's first ability, the targeted player chooses which card to exile. The choice is made as the ability resolves.
   - *2016-06-08* — You can activate Relic of Progenitus's second ability even if no players have any cards in their graveyards. You'll still draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relic-of-progenitus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/231/relic-of-progenitus) · oracle_id `6a9c3401-570c-41cb-a605-75dfa57d6ab7` · printing: EMA #231 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic of Sauron
@@ -464,6 +474,7 @@ schema: 2
   > *While the power of Sauron grew, light and living things forsook his borders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1746 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#relic-of-sauron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/79/relic-of-sauron) · oracle_id `b3a81bb1-cbd5-41a0-8dd4-faea06593f84` · printing: LTC #79 (2023-06-23) · [rulings](https://api.scryfall.com/cards/175b3d28-5c74-4972-9b5c-5e39762c78f4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Putrescence
@@ -514,6 +525,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14862 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relic-robber)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/153/relic-robber) · oracle_id `85eafa00-51df-4070-9b2d-247457ba3364` · printing: ZNR #153 (2020-09-25) · [rulings](https://api.scryfall.com/cards/4540205c-eee8-4db3-8757-710de874b313/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Runner
@@ -544,6 +556,7 @@ schema: 2
   - *2015-06-22* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2015-06-22* — If a renown ability triggers, but the creature leaves the battlefield before that ability resolves, the creature doesn't become renowned. Any ability that triggers "whenever a creature becomes renowned" won't trigger.
   - *2015-06-22* — Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#relic-seeker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/382/relic-seeker) · oracle_id `1f101363-c7d1-405a-b3a9-e93b46928dbf` · printing: CMR #382 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Sloth
@@ -589,6 +602,7 @@ schema: 2
   - *2020-09-25* — If you sacrifice the only Cleric you control to activate Relic Vial’s first ability, the triggered ability it gives itself triggers.
   - *2020-09-25* — In a Two-Headed Giant game, Relic Vial’s ability causes the opposing team to lose 2 life and you to gain 1 life.
   - *2020-09-25* — Once Relic Vial’s ability has triggered, that ability resolves even if you no longer control a Cleric.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#relic-vial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/250/relic-vial) · oracle_id `7e86d4a6-e4cd-418a-8bbc-72cdad753e3a` · printing: ZNR #250 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relic Ward
@@ -623,6 +637,7 @@ schema: 2
   - *2016-01-22* — If a spell with support has other abilities that target creatures, those abilities and the support ability can target the same creature.
   - *2016-01-22* — Support can target a creature you don't control.
   - *2016-01-22* — You can't put more than one +1/+1 counter on any one target using the support action.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/R.md#relief-captain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/24/relief-captain) · oracle_id `97e088a3-65eb-42f5-85b8-6aeb770a3f56` · printing: 2X2 #24 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reliquary Monk
@@ -650,6 +665,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-02-01* — If multiple effects modify your hand size, apply them in timestamp order. For example, if you put Null Profusion (an enchantment that says your maximum hand size is two) onto the battlefield and then put Reliquary Tower onto the battlefield, you'll have no maximum hand size. However, if those permanents enter in the opposite order, your maximum hand size would be two.
+- **Referenced in:** 22 pages (17 decks · 3 edh guides · 2 card data) → [reverse index](../../references/R.md#reliquary-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/398/reliquary-tower) · oracle_id `c23e5b80-08d2-4e24-9908-fe2aa4f30f6f` · printing: SOC #398 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Relive the Past
@@ -683,6 +699,7 @@ schema: 2
   - *2025-06-06* — If the copied permanent is copying something else, then the token enters as whatever that permanent copied.
   - *2025-06-06* — If the permanent copied by the token had any "when [this permanent] enters" abilities, the token also has those abilities, and they'll trigger when it's created. Similarly, any "as [this permanent] enters" or "[this permanent] enters with" abilities that the token has copied will also work.
   - *2025-06-06* — The token copies exactly what was printed on the original permanent (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or any Auras or Equipment attached to it, or any non-copy effects that have changed its types, color, power and toughness, and so on.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#relms-sketching)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/67/relms-sketching) · oracle_id `dd6601c6-810d-4883-89d2-5d31419fb1cc` · printing: FIN #67 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Reluctant Dounguard

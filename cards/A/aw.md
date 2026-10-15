@@ -118,6 +118,7 @@ schema: 2
   - *2019-05-03* — Awakening of Vitu-Ghazi doesn’t untap the land that becomes a creature.
   - *2019-05-03* — Awakening of Vitu-Ghazi’s effect lasts indefinitely. It doesn’t wear off during the cleanup step.
   - *2019-05-03* — The target land loses the name it had, and its name is just Vitu-Ghazi. It keeps any types and abilities it had.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#awakening-of-vitu-ghazi)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/152/awakening-of-vitu-ghazi) · oracle_id `5c326102-005d-463c-b9f7-14b034b66baa` · printing: WAR #152 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awakening Zone
@@ -130,6 +131,7 @@ schema: 2
   > *The ground erupted in time with the hedron's thrum, a dirge of the last days.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1594 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#awakening-zone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/262/awakening-zone) · oracle_id `f955bc96-d602-4142-a9a2-87009cc7028c` · printing: SOC #262 (2026-04-24) · [rulings](https://api.scryfall.com/cards/13724768-83d3-4da2-82d7-35787c4f9877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Ancient
@@ -189,6 +191,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5125 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-04-04* — You don’t choose a target for Awaken the Honored Dead’s final chapter ability at the time it triggers. Rather, a second “reflexive” ability triggers when you discard a card this way. You choose a target for that ability as it goes on the stack. You may choose the card you just discarded as the target or a card that was already in your graveyard. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#awaken-the-honored-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/170/awaken-the-honored-dead) · oracle_id `5f694917-f434-4459-bc86-caf9ac1c80e7` · printing: TDM #170 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awaken the Inferno
@@ -241,6 +244,7 @@ schema: 2
   > *—Myrel, Shield of Argive*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1334 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/A.md#awaken-the-woods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/170/awaken-the-woods) · oracle_id `3cc79d36-1a24-4395-8ad1-915a65db8a60` · printing: BRO #170 (2022-11-18) · [rulings](https://api.scryfall.com/cards/1c95f8b8-faba-4412-8d8f-093e2ec903f0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe for the Guilds
@@ -270,6 +274,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19000 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-02-01* — In the Two-Headed Giant format, you still only have to pay once per creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#awesome-presence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/all/23a/awesome-presence) · oracle_id `d6efff61-2087-4f48-a8a8-6c465190dad9` · printing: ALL #23a (1996-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Awe Strike

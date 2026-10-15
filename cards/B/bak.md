@@ -40,6 +40,7 @@ schema: 2
   - *2024-11-08* — Some spells and abilities that create Food tokens may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Food tokens.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bake-into-a-pie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/169/bake-into-a-pie) · oracle_id `1b9ec782-0ba1-41f1-bc39-d3302494ecb3` · printing: FDN #169 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bakersbane Duo

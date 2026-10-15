@@ -52,6 +52,7 @@ schema: 2
   > *"This will be our night of glory! Hail HYDRA!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11459 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#madame-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/221/madame-hydra) · oracle_id `d812c8e3-a475-4ad2-a93f-7208ad873676` · printing: MSH #221 (2026-06-26) · [rulings](https://api.scryfall.com/cards/e94ccedb-1d27-4098-8823-d8d99b30387c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Hydra, Reanimated
@@ -66,6 +67,7 @@ schema: 2
 - **Keywords:** Menace, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22678 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#madame-hydra-reanimated)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/538/madame-hydra-reanimated) · oracle_id `7274f6ed-310d-4b65-8083-eedb8e885a33` · printing: MSC #538 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c831bdda-06a9-465a-bec5-2b380d28d82a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Masque
@@ -79,6 +81,7 @@ schema: 2
 - **Keywords:** Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15128 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#madame-masque)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/104/madame-masque) · oracle_id `b5b0e85f-6651-4667-829c-2253ff8b130d` · printing: MSH #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/f54197b8-6279-43ee-9340-69bd22cf3775/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Null, Power Broker
@@ -116,6 +119,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#madame-vastra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/142/madame-vastra) · oracle_id `4789357c-3ab7-4327-b5ee-b1110ddb876f` · printing: WHO #142 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Madame Web, Clairvoyant
@@ -209,6 +213,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/M.md#maddening-cacophony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/67/maddening-cacophony) · oracle_id `e0f0f290-c83f-4d97-9f5d-786c7136b0d1` · printing: ZNR #67 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Hex
@@ -234,6 +239,7 @@ schema: 2
   - *2021-07-23* — The instruction to roll a die and the effect that occurs because of the result are all part of the same ability. Players do not get the chance to respond to the ability after knowing the result of the roll.
   - *2021-07-23* — Tournament events have more specific rules regarding dice and die-rolling. For more information, please see the most recent version of the Magic Tournament Rules at https://wpn.wizards.com/en/document/magic-gathering-tournament-rules.
   - *2021-07-23* — While playing Planechase, rolling the planar die will cause any ability that triggers whenever a player rolls one or more dice to trigger. However, any effect that refers to a numerical result will ignore the rolling of the planar die.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/M.md#maddening-hex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/32/maddening-hex) · oracle_id `5d96170f-14dd-496e-a485-bd3b9eedfe02` · printing: AFC #32 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maddening Imp
@@ -301,6 +307,7 @@ schema: 2
   - *2024-11-08* — Normally, playing a land can only be done as a sorcery, but the madness trigger circumvents that timing restriction, allowing you to play the land even if it’s not your main phase and even if the stack is not empty. However, you can still only play a land during your turn and only if you have an available land play remaining.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/M.md#madlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/614/madlands) · oracle_id `f6521057-432a-4ff7-a400-3bb8d3275c27` · printing: MB2 #614 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mad Prophet

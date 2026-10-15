@@ -39,6 +39,7 @@ schema: 2
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
   - *2009-10-01* — You can't activate Xiahou Dun's ability to return Xiahou Dun itself to your hand. You must choose a target before you sacrifice Xiahou Dun, so it's not a black card in your graveyard yet.
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/X.md#xiahou-dun-the-one-eyed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/83/xiahou-dun-the-one-eyed) · oracle_id `9602f262-62cb-4c1e-91b6-d94780e571cf` · printing: ME3 #83 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xindi Surveyors
@@ -53,6 +54,7 @@ schema: 2
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #32233 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/X.md#xindi-surveyors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/225/xindi-surveyors) · oracle_id `5fdff691-686d-4ce0-bd12-eea676a648b4` · printing: TRK #225 (2026-11-13) · [rulings](https://api.scryfall.com/cards/803608aa-ae69-45d2-ae48-f1688d2a6a0d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Xira Arien

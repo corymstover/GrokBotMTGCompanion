@@ -330,6 +330,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11233 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can tap any untapped creature you control, including one you haven’t controlled continuously since the beginning of your most recent turn, to pay the cost of Loam Dryad’s activated ability. You must have controlled Loam Dryad continuously since the beginning of your most recent turn, however.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#loam-dryad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/216/loam-dryad) · oracle_id `1420b7db-859b-4ad5-9844-10413cc70478` · printing: SOI #216 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loam Dweller
@@ -653,6 +654,7 @@ schema: 2
   > {2}{U}, Remove two counters from this creature: Tap target creature. Put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14695 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#loch-mare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/57/loch-mare) · oracle_id `631eb3e9-a3e0-4341-ad2d-e79142ce537d` · printing: ECL #57 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ad6c4baf-a803-45e4-81ac-708a41631a28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lochmere Serpent
@@ -758,6 +760,7 @@ schema: 2
   - *2025-06-06* — Once Locke has been blocked, changing its power or the power of the blocking creature won't cause Locke to become unblocked.
   - *2025-06-06* — You must follow the normal timing permissions and restrictions of the spell you cast from among those cards.
   - *2025-06-06* — You must pay the costs to cast that spell. If it has an alternative cost, you may cast it for that cost instead.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/L.md#locke-treasure-hunter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/87/locke-treasure-hunter) · oracle_id `a800bec4-bacc-43f9-a773-dd795959935b` · printing: FIC #87 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lockjaw, Slobbering Teleporter
@@ -893,6 +896,7 @@ schema: 2
 - **Keywords:** Flying, Regenerate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29357 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#locust-swarm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/226/locust-swarm) · oracle_id `9963b6a9-d715-430e-9b5e-576fb688d944` · printing: MIR #226 (1996-10-08) · [rulings](https://api.scryfall.com/cards/bd269842-4c31-4398-9451-be0d941397ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lodestone Bauble
@@ -921,6 +925,7 @@ schema: 2
   - *2010-03-01* — The ability affects each spell that's not an artifact spell, including your own.
   - *2010-03-01* — The ability affects the total cost of each nonartifact spell, but it doesn't change that spell's mana cost or mana value. The extra mana also doesn't change how many times you kicked the spell or what the value of X is (if applicable).
   - *2010-03-01* — When determining a spell's total cost, effects that increase the cost are applied before effects that reduce the cost.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/L.md#lodestone-golem)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/219/lodestone-golem) · oracle_id `a698c9f5-325a-49f6-8902-eef09f4260c5` · printing: MM2 #219 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lodestone Myr
@@ -1073,6 +1078,7 @@ schema: 2
   > *"Foolish heroes. Loki can match you trick for trick, and \*then\* some."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8343 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#loki-god-of-mischief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/65/loki-god-of-mischief) · oracle_id `c112852f-61d5-4b94-b864-c7d0b5333b29` · printing: MSH #65 (2026-06-26) · [rulings](https://api.scryfall.com/cards/236c437f-ee9d-4145-a4db-b665908089cf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki Laufeyson
@@ -1099,6 +1105,7 @@ schema: 2
   > *"What a grim place Asgard would be without me. Absent chaos, there is but tedium."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11071 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#loki-lord-of-misrule)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/628/loki-lord-of-misrule) · oracle_id `20ec130f-05b4-4fbf-a54f-5874ae7ef90f` · printing: MSC #628 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3636ecb1-8bb9-49aa-a40b-c0d0b3b71158/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki's Scepter
@@ -1112,6 +1119,7 @@ schema: 2
   > *"Nothing is safe from me. Not even your mind."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7449 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lokis-scepter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/56/lokis-scepter) · oracle_id `5f8941d8-f8f7-4ec3-86c3-88af8829080b` · printing: MSC #56 (2026-06-26) · [rulings](https://api.scryfall.com/cards/57e90938-9225-4c15-b4fb-aad2cced2e6a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loki, the Deceiver
@@ -1124,6 +1132,7 @@ schema: 2
   > Whenever one or more Villains you control deal combat damage to a player, draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10495 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/L.md#loki-the-deceiver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/86/loki-the-deceiver) · oracle_id `17e45fd8-c924-4b42-87ad-189469a8dd18` · printing: MSC #86 (2026-06-26) · [rulings](https://api.scryfall.com/cards/c0cd3d41-909b-4f20-a44b-db82807d10ae/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lolth, Spider Queen
@@ -1138,6 +1147,7 @@ schema: 2
   > −8: You get an emblem with "Whenever an opponent is dealt combat damage by one or more creatures you control, if that player lost less than 8 life this turn, they lose life equal to the difference."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4280 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lolth-spider-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/112/lolth-spider-queen) · oracle_id `7a8edf45-206e-4d0e-bd69-06f1ca70d17c` · printing: AFR #112 (2021-07-23) · [rulings](https://api.scryfall.com/cards/420a5689-d73e-4dda-82fd-8b8897ff5b55/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lona, Tracker of the Known
@@ -1181,6 +1191,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1146 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/L.md#lonely-sandbar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/166/lonely-sandbar) · oracle_id `765863c8-1be0-4bb1-9e9c-db7701cffde3` · printing: EOC #166 (2025-08-01) · [rulings](https://api.scryfall.com/cards/42f8591e-df30-49ec-962c-a75d32e6d9f5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lone Missionary
@@ -1259,6 +1270,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lonesome-unicorn--rider-in-need)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/21/lonesome-unicorn-rider-in-need) · oracle_id `c8f6cc1f-b7e4-470d-8d48-ef848d7c1116` · printing: ELD #21 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lone Wolf
@@ -1275,6 +1287,7 @@ schema: 2
   - *2018-04-27* — If blocked by a creature with banding, the defending player decides whether or not the damage is assigned “as though it weren’t blocked”.
   - *2018-04-27* — When assigning combat damage, you choose whether you want to assign all damage to blocking creatures, or if you want to assign all of it to the player or planeswalker this creature is attacking. You can’t split the damage assignment between them.
   - *2018-04-27* — You can decide to assign damage to the defending player or planeswalker even if the blocking creature has protection from green or damage preventing effects on it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lone-wolf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/262/lone-wolf) · oracle_id `f77dfcb6-72b0-4d50-8177-6f6c57a034b9` · printing: 8ED #262 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long-Bodied Grey Dog
@@ -1455,6 +1468,7 @@ schema: 2
   - *2025-07-25* — The mana value of a split card is determined by the combined mana cost of its two halves. If discover allows you to cast a split card, you may cast either half (as long as its mana value is less than or equal to the effect’s discover value) but not both halves.
   - *2025-07-25* — When you discover, you must exile cards. The only optional part of the ability is whether you cast the exiled card or put it into your hand.
   - *2025-07-25* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#long-range-sensor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/11/long-range-sensor) · oracle_id `358297cd-4a9f-48e2-aaa5-131b0849f8dc` · printing: EOC #11 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long Rest
@@ -1505,6 +1519,7 @@ schema: 2
   - *2024-07-26* — In the main set, there are four different kinds of gifts. "Gift a Food" causes the chosen opponent to create a Food token, while "Gift a Treasure" causes the chosen opponent to create a Treasure token. "Gift a card" causes them to draw a card, and "Gift a tapped Fish" causes them to create a tapped 1/1 blue Fish creature token. The Commander decks contain two more kinds of gifts: "Gift an Octopus," which causes the chosen opponent to create an 8/8 blue Octopus creature token, and "Gift an extra turn," which causes them to take an extra turn after the current turn ends.
   - *2024-07-26* — Some instant or sorcery spells require alternative or additional targets if the gift was promised. You ignore these targeting requirements if the gifts aren't promised for those spells. On the other hand, you can promise a gift for a permanent spell even if you won't be able to choose targets for an enters ability of that permanent once the spell resolves.
   - *2024-07-26* — You can't pay a gift cost more than once.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/L.md#long-rivers-pull)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/58/long-rivers-pull) · oracle_id `f1993767-1d07-49c8-b8dc-04ec9840a999` · printing: BLB #58 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Long Road Home
@@ -1539,6 +1554,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2828 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#longshot-rebel-bowman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/120/longshot-rebel-bowman) · oracle_id `f93c3468-5b1d-4fa7-a281-1009ea0f2062` · printing: TLE #120 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Longshot Squad
@@ -1599,6 +1615,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4999 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If there are fewer than 3 cards in your library, put the card on the bottom of your library.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#long-term-plans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/scg/38/long-term-plans) · oracle_id `d1dfb359-d8f9-491e-88f7-95193b220200` · printing: SCG #38 (2003-05-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Longtusk Cub
@@ -1749,6 +1766,7 @@ schema: 2
   > *Its form never rests, propelled by some undetectable gale from beyond the gloom.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28851 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#looming-shade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m10/103/looming-shade) · oracle_id `3ce8560d-dc68-4551-81c9-3a7b8d8da9a1` · printing: M10 #103 (2009-07-17) · [rulings](https://api.scryfall.com/cards/84a6703c-38d4-4c86-b5b0-ebfde81bb1bf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Looming Spires
@@ -1761,6 +1779,7 @@ schema: 2
   > {T}: Add {R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12198 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#looming-spires)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/238/looming-spires) · oracle_id `7d09b136-525f-49dd-a3a2-dfaca4e8e9a8` · printing: BFZ #238 (2015-10-02) · [rulings](https://api.scryfall.com/cards/b88177a2-de41-417d-a8f1-07edf005b453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loopy Lobster
@@ -1788,6 +1807,7 @@ schema: 2
   - *2019-11-12* — When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, its toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve.
   - *2019-11-12* — When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness.
   - *2019-11-12* — Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#loopy-lobster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/26/loopy-lobster) · oracle_id `a9745ef6-b961-4fb4-9dde-4097c09bd92d` · printing: CMB2 #26 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loose Lips
@@ -1846,6 +1866,7 @@ schema: 2
   - *2021-03-19* — Multiple instances of shadow on the same creature are redundant.
   - *2021-03-19* — Once a creature has been blocked, that creature remains blocked and will deal and be dealt combat damage even if it gains or loses shadow or if the blocking creature gains or loses shadow.
   - *2021-03-19* — You draw a card and discard a card all while Looter il-Kor's ability is resolving. Nothing can happen in between, and no player can take actions.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#looter-il-kor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/102/looter-il-kor) · oracle_id `c87e3b1d-2d24-4f1c-84e8-1c21a347cdc2` · printing: CMM #102 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, Exuberant Explorer
@@ -1860,6 +1881,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If a creature card in your library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2024-11-08* — The effect of Loot's first ability is cumulative with similar effects. For example, if you control both Loot and Exploration (an enchantment with "You may play an additional land on each of your turns"), you'll be able to play three lands during each of your turns.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/L.md#loot-exuberant-explorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/106/loot-exuberant-explorer) · oracle_id `f6476884-f73f-465f-8e7f-ea312a5b306d` · printing: FDN #106 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loot, the Anomaly
@@ -1971,6 +1993,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #340 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/L.md#loran-of-the-third-path)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/71/loran-of-the-third-path) · oracle_id `b3d81980-76f2-44e2-b1c9-01e30c726312` · printing: MKC #71 (2024-02-09) · [rulings](https://api.scryfall.com/cards/9e83a0ef-4fea-45ba-86c0-130d6687f7fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loran's Escape
@@ -1984,6 +2007,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1884 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/L.md#lorans-escape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/14/lorans-escape) · oracle_id `1a9048d6-f3fa-4f3b-9baa-35318177bc6e` · printing: BRO #14 (2022-11-18) · [rulings](https://api.scryfall.com/cards/3765610d-a0c1-4de9-a81b-ffa3eb06454b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorcan, Warlock Collector
@@ -2015,6 +2039,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19688 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-01-27* — Some disappear abilities, such as those of the above cards, are triggered abilities with intervening if clauses. If a permanent hasn't left the battlefield under your control that turn by the time the disappear ability would trigger, it won't trigger at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lord-dregg-insect-invader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/65/lord-dregg-insect-invader) · oracle_id `2db77e35-a54a-4e9c-8081-c97822515879` · printing: TMT #65 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Jyscal Guado
@@ -2070,6 +2095,7 @@ schema: 2
   > *A master of tactics, the Lord of Atlantis makes his people bold in battle merely by arriving to lead them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4998 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lord-of-atlantis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/24/lord-of-atlantis) · oracle_id `cc7f290f-ca00-4285-9bdb-4b4402444f30` · printing: TSB #24 (2006-10-06) · [rulings](https://api.scryfall.com/cards/a9407b60-8921-4531-bdbe-9a82aaa38d28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Change
@@ -2085,6 +2111,7 @@ schema: 2
 - **Keywords:** Flying, Ward, Architect of Deception
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6122 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lord-of-change)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/24/lord-of-change) · oracle_id `b575fb16-c3c3-4cad-857f-122257a4b32f` · printing: 40K #24 (2022-10-07) · [rulings](https://api.scryfall.com/cards/f9099d82-c13a-480d-b4bc-ecf8b810427c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of Extinction
@@ -2166,6 +2193,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3567 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lord-of-the-nazgûl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/60/lord-of-the-nazg%C3%BBl) · oracle_id `2e94bfb2-9f7d-43af-8995-6cd5ffb15b21` · printing: LTC #60 (2023-06-23) · [rulings](https://api.scryfall.com/cards/41e3d118-8f97-4c68-acff-2f90a055af5b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord of the Pit
@@ -2241,6 +2269,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Since this is a loss of life and not a payment, your life total can be reduced below zero by this.
   - *2004-10-04* — When Lord of Tresserhorn enters, if you have zero or one other creature on the battlefield, Lord of Tresserhorn itself will be sacrificed as part of its ability's effect. Regeneration won't save it. The rest of the effect still happens.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lord-of-tresserhorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/149/lord-of-tresserhorn) · oracle_id `283e7a23-ae25-48d1-abb5-cd021f66cc29` · printing: ME1 #149 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter's Blessing
@@ -2261,6 +2290,7 @@ schema: 2
   - *2023-09-01* — In rare cases, a spell or ability might attempt to create a Role token enchanting a permanent that it can't legally enchant (because of an ability like protection from enchantments). In such cases, the Role token isn't created.
   - *2023-09-01* — Roles are colorless enchantment tokens. Each one has the Aura and Role subtypes and the enchant creature ability.
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Role token won't be created.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lord-skitters-blessing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/98/lord-skitters-blessing) · oracle_id `d5bd40fc-6138-4752-b3ff-b1e5fa269214` · printing: WOE #98 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter's Butcher
@@ -2276,6 +2306,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5480 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitters-butcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/99/lord-skitters-butcher) · oracle_id `467f756f-75db-4748-99d3-62651776adfe` · printing: WOE #99 (2023-09-08) · [rulings](https://api.scryfall.com/cards/21b31d2b-ef66-4e16-a75e-4e27eb5ebfe9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Skitter, Sewer King
@@ -2288,6 +2319,7 @@ schema: 2
   > At the beginning of combat on your turn, create a 1/1 black Rat creature token with "This token can't block."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2389 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/L.md#lord-skitter-sewer-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/97/lord-skitter-sewer-king) · oracle_id `f5bed085-bb7a-4250-9599-b2a8a95e6b6f` · printing: WOE #97 (2023-09-08) · [rulings](https://api.scryfall.com/cards/729877be-4894-4ef5-9e60-de8a8fb2bdc0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Windgrace
@@ -2304,6 +2336,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-07-13* — If you have no cards in hand as Lord Windgrace's first ability resolves, you'll discard nothing then you'll draw one card.
   - *2018-07-13* — While resolving Lord Windgrace's last ability, you create six Cat Warrior tokens even if fewer than six nonland permanents are destroyed. However, if you choose any targets for the ability and each of them becomes an illegal target, the ability doesn't resolve and you don't create any tokens.
+- **Referenced in:** 4 pages (1 edh guides · 1 lore & story · 2 card data) → [reverse index](../../references/L.md#lord-windgrace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/43/lord-windgrace) · oracle_id `38a55562-1e2d-4240-9454-219a4a25d38d` · printing: C18 #43 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lord Xander, the Collector
@@ -2318,6 +2351,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7657 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/L.md#lord-xander-the-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/197/lord-xander-the-collector) · oracle_id `d17bfa94-5046-46ae-80af-be5d1d35af13` · printing: SNC #197 (2022-04-29) · [rulings](https://api.scryfall.com/cards/ee0a078d-045f-401b-a561-dcb1ad02bf62/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lore Broker
@@ -2344,6 +2378,7 @@ schema: 2
 - **Keywords:** Mutate
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11857 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lore-drakkis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/194/lore-drakkis) · oracle_id `3ec271d8-8264-4574-8c4c-e57b35872b1e` · printing: IKO #194 (2020-04-24) · [rulings](https://api.scryfall.com/cards/83e035ca-eccd-4b63-817c-f2c676b9c98d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorehold Apprentice
@@ -2397,6 +2432,7 @@ schema: 2
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — The token created by Restore Relic copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lorehold-archivist--restore-relic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/49/lorehold-archivist-restore-relic) · oracle_id `a371d035-488e-4b3d-81de-ee7859452c0e` · printing: SOC #49 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorehold Campus
@@ -2426,6 +2462,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6336 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/L.md#lorehold-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/200/lorehold-charm) · oracle_id `a5729f11-6cde-4830-b882-ab4c5251c1a9` · printing: SOS #200 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lorehold Command
@@ -2607,6 +2644,7 @@ schema: 2
   - *2009-10-01* — If a targeted permanent is untapped at the time its controller's next untap step begins, this ability has no effect on it. It won't apply at some later time when the targeted permanent is tapped.
   - *2009-10-01* — If an affected permanent changes controllers before its old controller's next untap step, this ability will prevent it from being untapped during its new controller's next untap step.
   - *2009-10-01* — You may target any eight (or fewer) permanents. It's okay if any of them are already tapped, and it's okay if any of them are controlled by someone other than the defending player.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lorthos-the-tidemaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/103/lorthos-the-tidemaker) · oracle_id `d9fd4ff3-5ada-40f4-b949-6fe65624a0c4` · printing: CMM #103 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Los Diablos Missile Base
@@ -2675,6 +2713,7 @@ schema: 2
   > Whenever one or more artifact creatures you control enter, draw a card. This ability triggers only once each turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1601 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#losheel-clockwork-scholar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/38/losheel-clockwork-scholar) · oracle_id `f8c2a972-e38f-47e5-a355-6f30ad09b1ae` · printing: CMM #38 (2023-08-04) · [rulings](https://api.scryfall.com/cards/ee6b54de-8e79-4f60-b642-3d259bf74ea0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lossarnach Captain
@@ -2783,6 +2822,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22132 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — If the target permanent is an illegal target as Lost in Space tries to resolve, it won’t resolve and none of its effects will happen. You won’t surveil.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lost-in-space)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/62/lost-in-space) · oracle_id `cec95b9f-9d1e-4988-befe-d0c9e20e428d` · printing: EOE #62 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost in the Maze
@@ -2892,6 +2932,7 @@ schema: 2
   > *—Baral, Chief of Compliance*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24278 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/L.md#lost-legacy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/88/lost-legacy) · oracle_id `532f3f03-37af-46b6-bafb-031e9a3df056` · printing: KLD #88 (2016-09-30) · [rulings](https://api.scryfall.com/cards/d5d0e447-d98e-43d5-9b53-166221c34be2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Legion
@@ -2920,6 +2961,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12551 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/L.md#lost-leonin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/13/lost-leonin) · oracle_id `c21b5c5b-9191-4748-b111-a51631e0bc5a` · printing: NPH #13 (2011-05-13) · [rulings](https://api.scryfall.com/cards/8209fa5d-2c0e-4827-813b-fff123533f16/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lost Mine of Phandelver
@@ -3044,6 +3086,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #410 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-06-16* — Spells that were cast before Lotho, Corrupt Shirriff count. If Lotho, Corrupt Shirriff was the first spell you cast this turn, the next spell you cast this turn is your second spell.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/L.md#lotho-corrupt-shirriff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/213/lotho-corrupt-shirriff) · oracle_id `135cc078-1c45-465e-b0b9-7168c89f56f4` · printing: LTR #213 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotleth Giant
@@ -3138,6 +3181,7 @@ schema: 2
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 8 pages (4 decks · 3 edh guides · 1 card data) → [reverse index](../../references/L.md#lotus-cobra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/193/lotus-cobra) · oracle_id `8ad91f64-ccab-4edc-bd54-b2ee9267d614` · printing: ZNR #193 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus-Eye Mystics
@@ -3172,6 +3216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #864 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — If Lotus Field enters the battlefield while you control fewer than two other lands, you must sacrifice each land you control, including Lotus Field.
+- **Referenced in:** 3 pages (1 rules · 2 card data) → [reverse index](../../references/L.md#lotus-field)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/385/lotus-field) · oracle_id `134d5b82-7940-4b33-a922-7f9d1f403e50` · printing: SOC #385 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotusguard Disciple
@@ -3251,6 +3296,7 @@ schema: 2
   > *"Hard to imagine," mused Hanna, stroking the petal, "such a lovely flower inspiring such greed."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #120 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 28 pages (23 decks · 3 edh guides · 2 card data) → [reverse index](../../references/L.md#lotus-petal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/225/lotus-petal) · oracle_id `32e5339e-9e4f-46f8-b305-f9d6d3ba8bb5` · printing: TPR #225 (2015-05-06) · [rulings](https://api.scryfall.com/cards/f85ab5f9-508e-45de-8fa1-ce1f16552ffc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lotus Ring
@@ -3294,6 +3340,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-06-06* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities (such as equip) are activated abilities and will have a colon in their reminder text.
   - *2025-06-06* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#louisoixs-sacrifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/59/louisoixs-sacrifice) · oracle_id `42d8ab49-703a-4fd3-84d0-0a3ac1eafca8` · printing: FIN #59 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lounge
@@ -3344,6 +3391,7 @@ schema: 2
   > *"They want to tear us apart, Vizh. We won't let them. We can't."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20351 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#love-on-the-battlefield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/87/love-on-the-battlefield) · oracle_id `645dbd86-fe30-4897-a3ca-633f07ec5b54` · printing: MSC #87 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3f2e65ff-27ae-4dfc-bf17-66f0c4949699/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Love Song of Night and Day
@@ -3360,6 +3408,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — As a Saga with read ahead enters the battlefield, its controller chooses a number from one to that Saga’s greatest chapter number. The Saga enters the battlefield with the chosen number of lore counters. Neither choosing the number nor putting the counters on the Saga use the stack, and neither can be responded to.
   - *2022-09-09* — If Love Song of Night and Day’s first chapter ability can’t legally target an opponent, or if the ability’s target becomes illegal while the ability is on the stack, you don’t draw any cards.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/L.md#love-song-of-night-and-day)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/827/love-song-of-night-and-day) · oracle_id `9b87b4cd-4fb9-4bb3-b4c0-de1fcc6f44a2` · printing: CMM #827 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lovestruck Beast // Heart's Desire
@@ -3389,6 +3438,7 @@ schema: 2
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You don't have to attack with a 1/1 creature for Lovestruck Beast to be able to attack. You just need to control a 1/1 creature.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#lovestruck-beast--hearts-desire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/827/lovestruck-beast-hearts-desire) · oracle_id `7e84aff5-2cb6-4214-befd-3d2de31229e5` · printing: CLB #827 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Lovisa Coldeyes
@@ -3742,6 +3792,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #987 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/L.md#loxodon-warhammer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/249/loxodon-warhammer) · oracle_id `dba35ac5-7ad3-488a-a006-6b9a1d54eea5` · printing: C21 #249 (2021-04-23) · [rulings](https://api.scryfall.com/cards/13eeff85-9e4a-46c9-841f-f3b1c556ef18/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loxodon Wayfarer
@@ -3773,6 +3824,7 @@ schema: 2
   - *2018-07-13* — If you don't control your commander as the lieutenant ability resolves, you won't get its effect.
   - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
   - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/L.md#loyal-apprentice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/222/loyal-apprentice) · oracle_id `7f268b15-ac92-4e98-821b-78d15d9285d9` · printing: TDC #222 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Cathar // Unhallowed Cathar
@@ -3936,6 +3988,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9996 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#loyal-retainers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/136/loyal-retainers) · oracle_id `55b88d43-ec45-4435-a316-1c8aee249ff0` · printing: MSC #136 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Sentry
@@ -3968,6 +4021,7 @@ schema: 2
   - *2018-07-13* — If you don’t control your commander as the lieutenant ability resolves, you won’t get its effect.
   - *2018-07-13* — If you have multiple commanders, you need to control only one for the lieutenant effect to happen.
   - *2018-07-13* — The lieutenant effect happens only once each combat, even if you somehow control multiple commanders (perhaps because you have two commanders with a partner ability from the Battlebond™ set).
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/L.md#loyal-subordinate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/172/loyal-subordinate) · oracle_id `76f405a1-242a-47e6-9aa6-261e49a85b45` · printing: CMM #172 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Tutor
@@ -3980,6 +4034,7 @@ schema: 2
   > *"We swore to keep watch," Ajani growled through gritted teeth, "and that includes against our own."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11024 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/L.md#loyal-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/14/loyal-tutor) · oracle_id `7e52f151-d1f6-4fcb-9b21-1baecae27da6` · printing: FRA #14 (2026-10-02) · [rulings](https://api.scryfall.com/cards/490dae91-94ce-42a9-a11f-6c5e77c4e486/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Loyal Unicorn

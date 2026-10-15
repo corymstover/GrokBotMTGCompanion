@@ -50,6 +50,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10570 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — You can’t cast spells or activate mana abilities before discarding the extra cards.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#bazaar-of-baghdad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/294/bazaar-of-baghdad) · oracle_id `54022a10-c9f0-458d-a0ed-228843cd9a40` · printing: VMA #294 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bazaar of Wonders

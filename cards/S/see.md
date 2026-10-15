@@ -93,6 +93,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Other effects can prevent a permanent from untapping during an untap step. You do need to look carefully, however, as many effects say that the permanent does not untap during its controller's untap step, and this card's ability occurs during other players' untap steps. If a card does say this, then Seedborn Muse can untap it. But some other abilities are not written this way and can still prevent a card from untapping.
   - *2007-07-15* — All your permanents untap during each other player's untap step. You have no choice about what untaps.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#seedborn-muse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/268/seedborn-muse) · oracle_id `463865bc-087e-477b-9e86-84e77f1ad931` · printing: TDC #268 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedcradle Witch
@@ -141,6 +142,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-01-22* — Once the Elemental is created, the number of creature cards in your graveyard changing won’t cause the Elemental’s power or toughness to change.
   - *2016-01-22* — Use the number of creature cards in your graveyard as the ability resolves to determine the value of X. Seed Guardian will count toward this number as long as it’s still in your graveyard at that time.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#seed-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/143/seed-guardian) · oracle_id `728045bf-0959-44ff-8de9-16ec35fd248f` · printing: OGW #143 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedguide Ash
@@ -181,6 +183,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16768 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#seed-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/204/seed-of-hope) · oracle_id `863d6607-912b-4186-9874-87d5473ec481` · printing: MOM #204 (2023-04-21) · [rulings](https://api.scryfall.com/cards/084a8b94-0c5d-41e0-88e4-fe91ab92c09d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### See Double
@@ -208,6 +211,7 @@ schema: 2
   - *2023-04-14* — The token copies exactly what was printed on the original creature and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2023-04-14* — You can’t choose to pay any alternative or additional costs for the copy of the spell. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
   - *2023-04-14* — You may choose both modes if any opponent has eight or more cards in their graveyard, not necessarily all of them.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#see-double)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/77/see-double) · oracle_id `144d0817-348c-4171-aa7e-3468b23cf97d` · printing: MOM #77 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seedpod Caretaker
@@ -296,6 +300,7 @@ schema: 2
   > *—Jolrael*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19654 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seeds-of-innocence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/241/seeds-of-innocence) · oracle_id `f5ebad5c-9675-4a37-b76c-760416083939` · printing: MIR #241 (1996-10-08) · [rulings](https://api.scryfall.com/cards/f9c868f5-0f90-4f7e-bafb-c45d2372fe06/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeds of Renewal
@@ -396,6 +401,7 @@ schema: 2
   - *2019-11-12* — You can’t choose to roll a planar die (which would allow you to leave the Pools of Becoming or trigger its last ability) unless you’re playing a Planechase game.
   - *2019-11-12* — You must cast any of the exiled cards you wish to cast while Seek Bolas’s Counsel is resolving. You can’t cast them later in the turn.
   - *2019-11-12* — You planeswalk to Pools of Becoming even if you’re not playing a Planechase game. This planeswalk isn’t represented by a plane card. If you are playing a Planechase game, you planeswalk away from the current plane but you don’t reveal the top card of any planar deck.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seek-bolass-counsel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/98/seek-bolass-counsel) · oracle_id `022667d0-60f2-4e37-bc50-53198fc933ab` · printing: CMB2 #98 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker
@@ -436,6 +442,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3902 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — It can use its tap ability to untap itself.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seeker-of-skybreak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/268/seeker-of-skybreak) · oracle_id `704723f3-0490-4d96-930a-aacc6d19ba8d` · printing: 7ED #268 (2001-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seeker of Slaanesh
@@ -539,6 +546,7 @@ schema: 2
   > *—Nissa Revane*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11373 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seek-the-horizon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddr/20/seek-the-horizon) · oracle_id `7537b482-7626-4b65-8b67-53b99baf1872` · printing: DDR #20 (2016-09-02) · [rulings](https://api.scryfall.com/cards/6244cbd8-8cc4-44a7-b11d-2ab159e92c02/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seek the Wilds
@@ -636,6 +644,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#seers-sundial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/470/seers-sundial) · oracle_id `9929d7ba-cdc5-4099-a0ee-3a15073336f3` · printing: CMR #470 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seer's Vision
@@ -703,6 +712,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1984 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#seething-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/225/seething-landscape) · oracle_id `2d8635bd-ed96-4bb1-8718-6962a0eee3d5` · printing: MH3 #225 (2024-06-14) · [rulings](https://api.scryfall.com/cards/661fc907-7003-45c6-820c-9616e9a71c30/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seething Pathblazer
@@ -729,4 +739,5 @@ schema: 2
   > *Vulshok mana rituals echo the day when the red sun burst through Mirrodin's surface to take its place in the heavens.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #300 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/S.md#seething-song)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/179/seething-song) · oracle_id `64bf8929-f5f2-4d50-8667-13b1d007bcfc` · printing: C21 #179 (2021-04-23) · [rulings](https://api.scryfall.com/cards/f493ce26-005c-4ddc-80f0-47bea4fd013a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

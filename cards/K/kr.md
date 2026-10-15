@@ -252,6 +252,7 @@ schema: 2
   - *2026-01-27* — If a triggered ability is linked to a second ability, additional instances of that triggered ability are also linked to that second ability. If the second ability refers to "the exiled card," it refers to all cards exiled by instances of the triggered ability.
   - *2026-01-27* — Krang's first ability doesn't copy the triggered ability; it just causes the ability to trigger an additional time. Any choices made as you put the ability onto the stack, such as modes and targets, are made separately for each instance of the ability. Any choices made on resolution, such as whether to put counters on a permanent, are also made individually.
   - *2026-01-27* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#krang-the-all-powerful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/13/krang-the-all-powerful) · oracle_id `466d5226-f4c7-4d69-9f56-4f893010127f` · printing: TMC #13 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krang, Utrom Warlord
@@ -267,6 +268,7 @@ schema: 2
 - **Keywords:** Flying, Indestructible, Haste, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3297 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/K.md#krang-utrom-warlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/175/krang-utrom-warlord) · oracle_id `2d56a491-b3eb-4f3e-82ab-981d3036c45d` · printing: TMT #175 (2026-03-06) · [rulings](https://api.scryfall.com/cards/88d36c32-d6f9-46e4-9cc8-08e6c0ff05d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kranioceros
@@ -319,6 +321,7 @@ schema: 2
   > *All the junk, refuse, and offal of the Krark Clan is diligently collected, melted down, and made into more junk, refuse, and offal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1322 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (5 decks · 2 edh guides · 2 card data) → [reverse index](../../references/K.md#krark-clan-ironworks)
 - **Source flags:** [Scryfall](https://scryfall.com/card/5dn/134/krark-clan-ironworks) · oracle_id `68e1f7e0-a9b3-437f-8086-0c0cb85f2880` · printing: 5DN #134 (2004-06-04) · [rulings](https://api.scryfall.com/cards/c60174d6-1f9d-4870-b3db-34d6fcb3f6ab/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krark-Clan Ogre
@@ -345,6 +348,7 @@ schema: 2
   > *"What do you mean, we're out of stuff to melt down? Give me your leg."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17909 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#krark-clan-shaman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/98/krark-clan-shaman) · oracle_id `198d1792-d638-4760-a476-7ec3af495610` · printing: MRD #98 (2003-10-02) · [rulings](https://api.scryfall.com/cards/975f9ea8-af2c-456f-acd0-ffa9ea0d98c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krark-Clan Stoker
@@ -425,6 +429,7 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You can't choose to pay any alternative or additional costs for the copy. However, effects based on any alternative or additional costs that were paid for the original spell are copied as though those same costs were paid for the copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#krark-the-thumbless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/189/krark-the-thumbless) · oracle_id `18e421c0-2879-4ad8-b027-397f168dfbc2` · printing: CMR #189 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krasis Incubation
@@ -468,6 +473,7 @@ schema: 2
 - **Keywords:** Partner
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16031 · Game Changer: no · Can be commander: Yes (legendary creature) · Pairing: Partner
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kratos-stoic-father)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2213/kratos-stoic-father) · oracle_id `c000d5c3-5b0c-4c5c-9919-76640da0a1e4` · printing: SLD #2213 (2025-10-27) · [rulings](https://api.scryfall.com/cards/77dcd29e-d0d5-474f-a05b-768ccf6b6293/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kraul Foragers
@@ -504,6 +510,7 @@ schema: 2
   - *2018-10-05* — If you don't choose a target creature, Kraul Harpooner simply gets +X/+0 until end of turn.
   - *2018-10-05* — The value of X is determined only as the undergrowth ability resolves. If the number of creature cards in your graveyard changes later in the turn, Kraul Harpooner is unaffected.
   - *2018-10-05* — You choose the target of the triggered ability (or that it has no target) as it goes on the stack, but you choose whether the creatures fight as that ability resolves.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kraul-harpooner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/167/kraul-harpooner) · oracle_id `332b6ed7-90de-46c0-85ad-1ad708b2c1e1` · printing: CLU #167 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kraul Raider
@@ -605,6 +612,7 @@ schema: 2
   - *2020-11-10* — One opponent must cast two spells for Kraum's triggered ability to trigger. Two spells from different opponents won't cause it to trigger.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kraum-ludevics-opus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/34/kraum-ludevics-opus) · oracle_id `5f694f2d-9349-4988-b2b4-788136d4293e` · printing: C16 #34 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kraum, Violent Cacophony
@@ -703,6 +711,7 @@ schema: 2
   - *2018-06-08* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander. For more information on the Commander variant, please visit Wizards.com/Commander.
   - *2018-06-08* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player who might have that card in their library.
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#krav-the-unredeemed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/4/krav-the-unredeemed) · oracle_id `316d49a0-620b-4942-a5e8-04cff15e6c01` · printing: BBD #4 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krazy Kow
@@ -775,6 +784,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1088 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2012-07-01* — The ability counts each Goblin you control, including Krenko itself, not just the tokens it creates.
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 2 card data) → [reverse index](../../references/K.md#krenko-mob-boss)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/204/krenko-mob-boss) · oracle_id `68418069-f615-40ef-ae0d-764192acae00` · printing: FDN #204 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krenko's Buzzcrusher
@@ -801,6 +811,7 @@ schema: 2
   > *Krenko's hirelings are unflinchingly loyal.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2031 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/K.md#krenkos-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/139/krenkos-command) · oracle_id `9cfe86ae-eebe-44aa-a956-4b3e9e621105` · printing: CLU #139 (2024-02-23) · [rulings](https://api.scryfall.com/cards/b07d96a1-87a0-45ff-ae6e-230deaf44dca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krenko's Enforcer
@@ -830,6 +841,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If Krenko leaves the battlefield after its ability has triggered but before it resolves, you don't put a +1/+1 counter on it, but you do use its power as it last existed before it left the battlefield to determine how many Goblin tokens to create.
   - *2019-05-03* — The tokens created by Krenko's triggered ability aren't attacking. Because all attackers are chosen at once, a token created this way can't attack, even if it gains haste.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/K.md#krenko-tin-street-kingpin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/287/krenko-tin-street-kingpin) · oracle_id `e8065e1d-e937-4b56-8011-78f0d07328a0` · printing: MOC #287 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kresh the Bloodbraided
@@ -924,6 +936,7 @@ schema: 2
   - *2019-11-12* — Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren’t counted.
   - *2019-11-12* — The copies storm creates are created on the stack, so they’re not cast. Abilities that trigger when a player casts a spell (such as storm) won’t trigger.
   - *2019-11-12* — The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#krosan-adaptation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/80/krosan-adaptation) · oracle_id `6121d856-2dc9-4a43-b2b3-16af889eaa1f` · printing: CMB2 #80 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Archer
@@ -1064,6 +1077,7 @@ schema: 2
   - *2021-03-19* — Players may turn face-down creatures face up while a spell with split second is on the stack.
   - *2021-03-19* — Players still get priority while a card with split second is on the stack; their options are just limited to mana abilities and certain special actions.
   - *2021-03-19* — Split second doesn't stop triggered abilities from triggering, such as that of Chalice of the Void. If one does, its controller puts it on the stack and chooses targets for it, if any. Those abilities will resolve as normal.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/K.md#krosan-grip)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/198/krosan-grip) · oracle_id `3e39224c-72ce-4ecc-aa17-12c071ea1f3e` · printing: C21 #198 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Groundshaker
@@ -1109,6 +1123,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10946 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-12-08* — Krosan Restorer’s activated abilities aren’t mana abilities. They each use the stack and can be responded to. Notably, they can’t be activated while you’re casting a spell or activating another ability. If you want to use Krosan Restorer to add enough mana to pay for a spell or ability, you may tap land(s) you control, untap them with Krosan Restorer, and tap the lands again all before you start casting a spell or activating an ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#krosan-restorer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/168/krosan-restorer) · oracle_id `ea845951-0158-4646-acd9-3b0b28da40b1` · printing: DMR #168 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Tusker
@@ -1136,6 +1151,7 @@ schema: 2
   > {2}, {T}, Sacrifice this land: Search your library for a Forest card and a Plains card, put them onto the battlefield tapped, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1008 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/K.md#krosan-verge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/304/krosan-verge) · oracle_id `d9a10971-f32b-4978-952d-fed0a5bc9e36` · printing: OTC #304 (2024-04-19) · [rulings](https://api.scryfall.com/cards/19fc5bec-f877-430c-8e83-e6c5fe97f3c4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Vorine
@@ -1149,6 +1165,7 @@ schema: 2
 - **Keywords:** Provoke
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25956 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#krosan-vorine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/219/krosan-vorine) · oracle_id `ddb95c3a-b383-4987-ba24-72e95f8e33bf` · printing: VMA #219 (2014-06-16) · [rulings](https://api.scryfall.com/cards/31bd1b2f-6bea-4bd1-8a6e-50ab2d34bf82/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krosan Warchief
@@ -1198,6 +1215,7 @@ schema: 2
   - *2022-04-29* — Removing a shield counter in this way isn't the same as regenerating a creature.
   - *2022-04-29* — Shield counters don't prevent players from sacrificing creatures.
   - *2022-04-29* — “Shield” is not an ability that creatures have and shield counters are not keyword counters. If a creature with a shield counter loses its abilities, the shield counter will still protect it as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kros-defense-contractor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/7/kros-defense-contractor) · oracle_id `debeb004-3157-43cf-95fd-220777417ff7` · printing: NCC #7 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Krotiq Nestguard
@@ -1419,6 +1437,7 @@ schema: 2
   - *2020-01-24* — Once you begin casting a spell with escape, it immediately moves to the stack. Players can't take any other actions until you're done casting the spell.
   - *2020-01-24* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
   - *2023-04-14* — To resolve Kroxa's second triggered ability in a multiplayer game, the next opponent in turn order (or, if it's an opponent's turn, the opponent whose turn it is) chooses a card in hand and sets it aside without revealing it. Then each other opponent in turn order does the same. Next, all chosen cards are revealed and discarded at the same time. Finally, each opponent who didn't discard a nonland card loses 3 life.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/K.md#kroxa-titan-of-deaths-hunger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/221/kroxa-titan-of-deaths-hunger) · oracle_id `2cb1c213-b3f2-4433-8f89-6a3b4c3d2795` · printing: THB #221 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### K'rrik, Son of Yawgmoth
@@ -1440,6 +1459,7 @@ schema: 2
   - *2019-08-23* — You can't pay 2 life to pay for generic mana in costs you pay, even if an effect says that you must spend black mana to pay that generic mana.
   - *2024-06-07* — A Phyrexian mana symbol contributes 1 toward the mana value of a card, even if life is paid for it. Specifically, K'rrik's mana value is always 7.
   - *2024-06-07* — K'rrik's ability lets you pay 2 life for {B} in any cost you pay, including the mana costs of spells, activation costs, and even costs for special actions (such as morph). Any time you pay mana, that's a cost.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/K.md#krrik-son-of-yawgmoth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/274/krrik-son-of-yawgmoth) · oracle_id `cbe3a4e7-5dbe-4f58-8ee6-a1762b65acfd` · printing: MH3 #274 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kruge, Genesis Seeker
@@ -1526,6 +1546,7 @@ schema: 2
   - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
   - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
   - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#krumar-initiate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/84/krumar-initiate) · oracle_id `65a7fb13-77b9-44ea-9e0e-34daef82eb69` · printing: TDM #84 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kruphix, God of Horizons
@@ -1552,6 +1573,7 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kruphix-god-of-horizons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/152/kruphix-god-of-horizons) · oracle_id `b2cefcd6-4b81-479c-86ff-1695b836972c` · printing: JOU #152 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kruphix's Insight

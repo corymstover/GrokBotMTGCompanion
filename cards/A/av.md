@@ -173,6 +173,7 @@ schema: 2
   - *2020-08-07* — A planeswalker with indestructible still loses loyalty as it's dealt damage. It is put into its owner's graveyard if its loyalty becomes 0.
   - *2020-08-07* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if Avacyn leaves the battlefield during that turn.
   - *2023-07-28* — A battle with indestructible still loses defense counters as it's dealt damage. If it's a Siege, it will still be exiled when the last defense counter is removed from it, and its controller may still cast it transformed without paying its mana cost.
+- **Referenced in:** 6 pages (1 decks · 2 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/A.md#avacyn-angel-of-hope)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/477/avacyn-angel-of-hope) · oracle_id `216cb26e-8da9-478b-bfbc-8030f7adee72` · printing: INR #477 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn, Angel of Horror
@@ -272,6 +273,7 @@ schema: 2
 - **Keywords:** Transform
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#avacyns-collar-the-symbol-of-her-church)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/509/avacyns-collar-the-symbol-of-her-church) · oracle_id `2aa38529-9ae6-4479-99f6-ffb8065bd6e6` · printing: MB2 #509 (2024-08-02) · [rulings](https://api.scryfall.com/cards/7e4c67bd-a87f-4938-8a57-46946263cd44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn's Judgment
@@ -295,6 +297,7 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/A.md#avacyns-judgment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/142/avacyns-judgment) · oracle_id `f3ae58ed-8ef7-4e0a-945f-1f622157236b` · printing: VOC #142 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avacyn's Memorial
@@ -322,6 +325,7 @@ schema: 2
   > *"Avacyn's protection is everywhere. From the holy church to the sacred glade, all that we see is under her blessed watch."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #501 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#avacyns-pilgrim)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/132/avacyns-pilgrim) · oracle_id `069f6530-e65c-4d52-85f3-e0a2acd148c5` · printing: MIC #132 (2021-09-24) · [rulings](https://api.scryfall.com/cards/a390a7df-b8da-41aa-93e5-2c0db938a27e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avalanche
@@ -488,6 +492,7 @@ schema: 2
   - *2025-10-02* — Mana from firebending abilities isn't lost until you leave combat and go to your second main phase. It can be used at any time during combat, even after combat damage has been dealt.
   - *2025-10-02* — Multiple instances of firebending on the same creature trigger separately, each granting you the appropriate amount of mana.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#avatar-aang--aang-master-of-elements)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/207/avatar-aang-aang-master-of-elements) · oracle_id `b4872bac-5822-4c35-9b73-38c4e3ffa477` · printing: TLA #207 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Destiny
@@ -501,6 +506,7 @@ schema: 2
 - **Keywords:** Enchant, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11406 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#avatar-destiny)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/165/avatar-destiny) · oracle_id `ecb81888-589b-4486-a444-e0c26384854e` · printing: TLA #165 (2025-11-21) · [rulings](https://api.scryfall.com/cards/4d74da72-8443-4fce-9d64-d2041f6a3292/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Enthusiasts
@@ -703,6 +709,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5687 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The mana value of this card is still 8, even if you only pay {B}{B} to cast it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#avatar-of-woe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cm2/57/avatar-of-woe) · oracle_id `2da5aa33-3794-4f83-936c-9d8640833d86` · printing: CM2 #57 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar Roku, Firebender
@@ -717,6 +724,7 @@ schema: 2
   > *"Make sense of our past, Aang, and you will bring peace, and restore balance to the world."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4784 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#avatar-roku-firebender)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/112/avatar-roku-firebender) · oracle_id `9eb9e4c1-fabf-45ff-a584-fbe4b94fb41c` · printing: TLE #112 (2025-11-21) · [rulings](https://api.scryfall.com/cards/b1fced2b-eba2-4e70-8f1c-6d3c973b6a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avatar's Wrath
@@ -735,6 +743,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#avatars-wrath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/12/avatars-wrath) · oracle_id `e3431dae-969c-4896-9f9e-a80e7bec4bdf` · printing: TLA #12 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aveline de Grandpré
@@ -763,6 +772,7 @@ schema: 2
   - *2024-07-05* — The face-down spell has no mana cost and a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3} to cast it. This is an alternative cost.
   - *2024-07-05* — Turning a permanent face up or face down doesn’t change whether that permanent is tapped or untapped.
   - *2024-07-05* — You must ensure that your face-down spells and permanents can be easily differentiated from each other. You’re not allowed to mix up the cards that represent them on the battlefield to confuse other players. The order in which they entered the battlefield should remain clear, as well as what ability caused them to be face down. (This includes disguise, cloak, and in games involving older cards, morph and manifest, as well as a few other effects that turn cards face down.) Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aveline-de-grandpré)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/40/aveline-de-grandpr%C3%A9) · oracle_id `5c8c4d53-f364-40da-989b-cfe1e3f79b7d` · printing: ACR #40 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Archer
@@ -1036,6 +1046,7 @@ schema: 2
   - *2025-04-04* — Although the Warrior tokens enter as attacking creatures, they were never declared as attacking creatures. Abilities that trigger whenever a creature attacks won’t trigger when the tokens enter attacking.
   - *2025-04-04* — The value of X is calculated only once, as Avenger of the Fallen’s mobilize ability resolves.
   - *2025-04-04* — You choose the player, planeswalker, or battle each Warrior token is attacking. They don’t all have to attack the same one, and they don’t have to attack the same player, planeswalker, or battle as the creature with mobilize.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#avenger-of-the-fallen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/73/avenger-of-the-fallen) · oracle_id `158d0272-a850-4399-8afa-d0caa143c3cb` · printing: TDM #73 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avenger of Zendikar
@@ -1052,6 +1063,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/A.md#avenger-of-zendikar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/98/avenger-of-zendikar) · oracle_id `4ba5b3f6-503b-43e6-b66e-4f8c55cffed7` · printing: ECC #98 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avengers Assemble!
@@ -1134,6 +1146,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15852 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#avengers-under-siege)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/205/avengers:-under-siege) · oracle_id `d911cf65-7273-4162-a766-7d4107699dc2` · printing: MSH #205 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3c379a3f-bde1-4dc1-9843-afcb5f40792f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avenging Angel
@@ -1254,6 +1267,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aven-initiate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/39/aven-initiate) · oracle_id `c872012d-b598-4076-8385-2e3771c0306f` · printing: 2X2 #39 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Interrupter
@@ -1277,6 +1291,7 @@ schema: 2
   - *2024-04-12* — Spells that can't be countered can still be exiled by Aven Interrupter's triggered ability. They won't resolve.
   - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#aven-interrupter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/4/aven-interrupter) · oracle_id `d31fd12f-b4dd-4bc3-ace4-703dabd0f607` · printing: OTJ #4 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Liberator
@@ -1329,6 +1344,7 @@ schema: 2
   - *2021-03-19* — Each search works exactly the same as normal except that the opponent doing the searching sees only the top four cards of that library. They can't look at the other cards in that library at all. Cards not in the top four cards of the library can't be found in the search, even if they're identifiable in some manner.
   - *2021-03-19* — For effects that check whether a player searched a library or may search a library, searching the top four cards of that library counts as searching that library.
   - *2021-03-19* — If an effect uses the word "search" once but allows an opponent to search for multiple cards, the top four cards remain the same throughout the entire search. Finding one card won't cause the fifth card to become included in the search.
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/A.md#aven-mindcensor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/688/aven-mindcensor) · oracle_id `d9517c5d-66d0-4178-96fb-a8c04f311ad8` · printing: CLB #688 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven of Enduring Hope
@@ -1599,6 +1615,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aven-wind-guide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/195/aven-wind-guide) · oracle_id `bb813ffa-2615-4177-a7fb-6e0dfb819fc2` · printing: AKH #195 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aven Wind Mage
@@ -1654,6 +1671,7 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#averna-the-chaos-bloom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/269/averna-the-chaos-bloom) · oracle_id `23695bc2-86d3-4d78-b374-9e83c4cc9cc4` · printing: CMR #269 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avian Changeling
@@ -1748,6 +1766,7 @@ schema: 2
   - *2025-02-07* — Start your engines! isn’t a triggered ability. Increasing your speed to 1 is something that happens as a state-based action as soon as you control a permanent with the ability. Notably, this includes gaining control of a permanent with the ability that another player controls.
   - *2025-02-07* — Your speed doesn’t change until a spell or ability says so, such as the inherent triggered ability that cares about opponents losing life during your turn. Notably, losing control of permanents with start your engines! doesn’t affect your speed.
   - *2025-02-07* — “Max speed — [ability]” means “As long as you have max speed, this object has [ability].” If the granted ability functions in a zone other than the battlefield, the max speed ability does too.
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/A.md#avishkar-raceway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/249/avishkar-raceway) · oracle_id `e2c35551-1ba5-4424-baf9-821b49bbcc8c` · printing: DFT #249 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Avizoa

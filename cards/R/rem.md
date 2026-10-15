@@ -49,6 +49,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If you target a card that was cast with flashback with Remand, the card will still be exiled.
   - *2021-03-19* — Remand can target a spell that can't be countered. That spell won't be countered or returned to its owner's hand, but you'll draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#remand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/59/remand) · oracle_id `d71cd08e-3e84-41ff-b9db-9e343c0af6b4` · printing: RVR #59 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remedy
@@ -155,6 +156,7 @@ schema: 2
   > *A rusted masticore makes a beautiful addition to any garden.*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#remodel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unh/108/remodel) · oracle_id `458288d2-c3b5-48de-9845-dfc1894ee82e` · printing: UNH #108 (2004-11-19) · [rulings](https://api.scryfall.com/cards/98fa7c0b-8104-47c9-9fb2-6cb50259fae2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remorseful Cleric
@@ -211,6 +213,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4254 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#remote-isle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/254/remote-isle) · oracle_id `24aebda0-315f-4d2f-8bd9-00bbaf5bd76a` · printing: DMR #254 (2023-01-13) · [rulings](https://api.scryfall.com/cards/a340af37-c0a7-4f26-974b-95397b5c32f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Remove

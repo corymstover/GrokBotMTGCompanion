@@ -103,6 +103,7 @@ schema: 2
   > *—Jhoira*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #76 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 19 pages (14 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sulfur-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/84/sulfur-falls) · oracle_id `6a6c5e17-6465-4a1f-9d63-8a3ce2edc522` · printing: FRC #84 (2026-10-02) · [rulings](https://api.scryfall.com/cards/2b20fa73-c6de-49c1-b3d0-6ebd543a00d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfuric Vapors
@@ -172,6 +173,7 @@ schema: 2
   > *Everything is flammable in the Burning Isles, even the mana itself.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #144 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 18 pages (13 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sulfurous-springs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/85/sulfurous-springs) · oracle_id `f5c38c01-4a40-469f-91a0-7479daf4e8e7` · printing: FRC #85 (2026-10-02) · [rulings](https://api.scryfall.com/cards/be340a1c-f1e7-446e-ae91-86ecb884479c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sulfur Vent
@@ -184,6 +186,7 @@ schema: 2
   > {T}, Sacrifice this land: Add {U}{R}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21932 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sulfur-vent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/328/sulfur-vent) · oracle_id `bc2906cd-9e0c-4aa8-b656-fb1045d810ac` · printing: INV #328 (2000-10-02) · [rulings](https://api.scryfall.com/cards/22c66ed6-55fb-4c65-aac4-26d9cc3053b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Ascendancy
@@ -225,6 +228,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5204 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2014-09-20* — A monocolored creature is exactly one color. Colorless creatures aren't monocolored.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#sultai-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/168/sultai-charm) · oracle_id `46ed38d1-e642-4cea-99ed-a9c17fd982b1` · printing: DMC #168 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sultai Devotee

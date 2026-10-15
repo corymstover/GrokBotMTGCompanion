@@ -49,4 +49,5 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If more than one card is milled by Ark of Hunger's last ability (because of the effect of Bruvac the Grandiloquent's ability, for example), you may play any of the milled cards that turn.
   - *2026-03-20* — If multiple cards leave your graveyard at the same time, Ark of Hunger's first ability will trigger only once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#ark-of-hunger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/173/ark-of-hunger) · oracle_id `2c654772-c786-4966-a46e-9556bbf31d7c` · printing: SOS #173 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

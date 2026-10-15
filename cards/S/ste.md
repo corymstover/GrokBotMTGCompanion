@@ -207,6 +207,7 @@ schema: 2
   - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
   - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steadfast-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/24/steadfast-sentinel) · oracle_id `38bfc0bc-66a6-4d9e-9186-5ccaef773014` · printing: HOU #24 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steadfast Sentry
@@ -314,6 +315,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6466 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — When a player takes control of an enchantment, they do not get to change anything about the enchantment (such as what creature it is on, what choices it has or anything) at that time. They just become its controller.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#steal-enchantment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/90/steal-enchantment) · oracle_id `567a3fa7-5ca9-4812-b81d-4953c401c83d` · printing: TMP #90 (1997-10-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stealer of Secrets
@@ -447,6 +449,7 @@ schema: 2
   > *Like many Izzet creations, weirds are based on wild contradictions yet somehow manage to work.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30378 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steamcore-weird)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddj/7/steamcore-weird) · oracle_id `e8f6caf4-4c6c-468a-9388-88c323ffe30b` · printing: DDJ #7 (2012-09-07) · [rulings](https://api.scryfall.com/cards/a60e081e-854f-4bf9-8eac-62bd55403383/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steamflogger Boss
@@ -463,6 +466,7 @@ schema: 2
 - **Keywords:** Assemble
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31661 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#steamflogger-boss)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/121/steamflogger-boss) · oracle_id `4d614c79-7934-4662-9ce1-22b57d5137f7` · printing: FUT #121 (2007-05-04) · [rulings](https://api.scryfall.com/cards/007ce039-def1-4039-a0a0-ba72e8872dc5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steamflogger of the Month
@@ -556,6 +560,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steampath-charger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/153/steampath-charger) · oracle_id `75237b2c-232b-479a-ab3a-e1566c8a9fe7` · printing: BLB #153 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steam-Powered
@@ -607,6 +612,7 @@ schema: 2
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
   - *2025-11-17* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2025-11-17* — This land has two basic land types. It's not basic, so cards such as Tend the Sprigs can't find it, but it does have the appropriate land types for effects such as that of Kishla Village (from the Tarkir: Dragonstorm release).
+- **Referenced in:** 53 pages (48 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#steam-vents)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/298/steam-vents) · oracle_id `17039058-822d-409f-938c-b727a366ba63` · printing: TRK #298 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steam Vines
@@ -662,6 +668,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it's a 1/1 (unless that creature is copying something else; see below). It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn't "cast", so abilities that trigger when a creature spell is cast won't trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can't try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steelburr-champion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/12/steelburr-champion) · oracle_id `d1f3d5ca-cb17-400f-8ed9-3b9a4f151b62` · printing: BLC #12 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steelclad Serpent
@@ -828,6 +835,7 @@ schema: 2
   - *2024-11-08* — Steel Hellkite's last ability destroys only nonland permanents whose mana value is exactly equal to X, and only those controlled by players who have been dealt combat damage by Steel Hellkite this turn.
   - *2024-11-08* — The mana value of a permanent is determined solely by the mana symbols printed in its upper right corner, unless it's copying something else (see below). The mana value is the total amount of mana in that cost, regardless of color. For example, a card with mana cost {3}{U}{U} has mana value 5.
   - *2024-11-08* — You may activate the last ability even if Steel Hellkite hasn't dealt combat damage to any players that turn. If you do, the ability won't do anything.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#steel-hellkite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/327/steel-hellkite) · oracle_id `6e64f1e0-ddd6-4ee7-8797-086e234b02e8` · printing: TDC #327 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steeling Stance
@@ -882,6 +890,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3531 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-05-01* — If the enchanted creature is both of the listed colors, it will get both bonuses.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#steel-of-the-godhead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/30/steel-of-the-godhead) · oracle_id `90d2e092-6eb8-4d13-bdad-19e7325a8b36` · printing: DDI #30 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel Overseer
@@ -897,6 +906,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #793 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — Steel Overseer's ability puts a +1/+1 counter on each artifact creature you control, including Steel Overseer.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#steel-overseer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/144/steel-overseer) · oracle_id `986ae327-f433-4c58-93dc-afc544b9bfcb` · printing: EOC #144 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel-Plume Marshal
@@ -950,6 +960,7 @@ schema: 2
   - *2022-10-14* — When cast as a prototyped spell, that spell has the mana cost, power, and toughness characteristics shown in its colored, secondary text box rather than the normal values of those characteristics. Its color and mana value are determined by that mana cost. The permanent that spell becomes as it resolves has the same characteristics. If the spell leaves the stack in any other way, or the permanent it becomes leaves the battlefield, it immediately resumes using its normal characteristics.
   - *2022-10-14* — When casting a prototyped spell, use only its prototype characteristics to determine whether it's legal to cast it. For example, if Blitz Automaton is exiled with the last ability of Chandra, Dressed to Kill, you would be able to cast it for {2}{R} (because it's a red spell), even though you wouldn't be able to cast it as a colorless spell for its normal cost.
   - *2022-10-14* — You choose the target creature as you put Steel Seraph's triggered ability on the stack. You choose which ability that creature gains as the ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#steel-seraph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/38/steel-seraph) · oracle_id `7ff8940f-d798-41eb-b82e-a1eba2163fe7` · printing: BRO #38 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steelshaper Apprentice
@@ -975,6 +986,7 @@ schema: 2
   > *Some blades seek their own wielders.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1023 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steelshapers-gift)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/59/steelshapers-gift) · oracle_id `d9abda7e-6ca2-42ea-ab24-c542e57014f1` · printing: CMM #59 (2023-08-04) · [rulings](https://api.scryfall.com/cards/55d61383-b739-4422-a76c-d8cbca13c5b2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel Squirrel
@@ -1024,6 +1036,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10344 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steel-wall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/3/steel-wall) · oracle_id `5ccb57e1-ca94-4b5a-8e5f-b8b5e692cfb9` · printing: TD2 #3 (2011-05-14) · [rulings](https://api.scryfall.com/cards/43dc4ff6-c26c-4dba-ac7f-6dee7c9e5345/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steel Wrecking Ball
@@ -1050,6 +1063,7 @@ schema: 2
   > *No one in Wirewood understands what is happening. They just know it's unnatural—and coming from Krosa.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7594 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#steely-resolve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/286/steely-resolve) · oracle_id `48c127f0-2857-4c36-97bc-1291b6fe4a82` · printing: ONS #286 (2002-10-07) · [rulings](https://api.scryfall.com/cards/b88c530a-abc3-4cc4-8a48-5b76e1504a3c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Steeple Creeper
@@ -1250,6 +1264,7 @@ schema: 2
   - *2022-12-08* — If you discard a card with madness while a spell or ability is resolving, it moves immediately to exile. Continue resolving that spell or ability, noting that the card you discarded is not in your graveyard at this time. Its madness triggered ability will be placed onto the stack once that spell or ability has completely resolved.
   - *2022-12-08* — Madness works independently of why you're discarding the card. You could discard it to pay a cost, because a spell or ability tells you to, or because you have too many cards in your hand during your cleanup step. You can't discard a card with madness just because you want to, though.
   - *2022-12-08* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a madness cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#stensia-masquerade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/172/stensia-masquerade) · oracle_id `88f5d146-420b-417c-bcf1-fe0e78312a74` · printing: INR #172 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stensian Sanguinist // Exsanguinate
@@ -1291,6 +1306,7 @@ schema: 2
   > *"Vampires have done nothing but take from us. Tonight, we reclaim what's ours!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18300 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stensia-uprising)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/178/stensia-uprising) · oracle_id `a881bf6e-6247-4adb-9f9c-e4b928692573` · printing: VOW #178 (2021-11-19) · [rulings](https://api.scryfall.com/cards/df71a8c1-25af-4e6a-9197-11b96b959b46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Step Between Worlds
@@ -1354,6 +1370,7 @@ schema: 2
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13585 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#step-right-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/94/step-right-up) · oracle_id `aaf6b3ed-2396-46d7-a32d-7d24cc2eb449` · printing: UNF #94 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7ea143b9-140a-4e73-9c23-79327df1ccfa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Step Through
@@ -1370,6 +1387,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
   - *2021-06-18* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#step-through)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/66/step-through) · oracle_id `c4fa89c7-f00d-42ef-bd67-407a288cd054` · printing: MH2 #66 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sterling Grove
@@ -1479,6 +1497,7 @@ schema: 2
   - *2022-10-14* — Although all the cards in The Brothers' War that create Powerstone tokens create a tapped Powerstone token, entering the battlefield tapped isn't part of the token's definition. Notably, if you create a token that is a copy of a Powerstone token, the token copy won't enter the battlefield tapped.
   - *2022-10-14* — Powerstone tokens are a kind of predefined token. Each one has the artifact subtype "Powerstone" and the ability "{T}: Add {C}. This mana can't be spent to cast a nonartifact spell."
   - *2022-10-14* — You can use the {C} added by a Powerstone token on anything that isn't a nonartifact spell. This includes paying costs to activate abilities of both artifact and nonartifact permanents, paying ward costs, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stern-lesson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/64/stern-lesson) · oracle_id `8315aa34-08b8-403e-a2e6-796a2d6978ad` · printing: BRO #64 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stern Marshal

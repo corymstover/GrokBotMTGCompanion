@@ -85,6 +85,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1705 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-07-25* — The triggered ability granted by Uthros Research Craft’s second ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 rules) → [reverse index](../../references/U.md#uthros-research-craft)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/7/uthros-research-craft) · oracle_id `e1c9783a-1d1b-40d7-872e-0ca11b229ce6` · printing: EOC #7 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uthros Scanship
@@ -156,6 +157,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #349 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/U.md#utopia-sprawl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/159/utopia-sprawl) · oracle_id `00d8efa6-a2d9-4249-8da7-b45173675329` · printing: RVR #159 (2024-01-12) · [rulings](https://api.scryfall.com/cards/5ea568df-04a1-4012-98ec-ba75e189e0ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utopia Tree
@@ -200,6 +202,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26129 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-01-27* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as affinity for artifacts). The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/U.md#utrom-monitor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/113/utrom-monitor) · oracle_id `976e1fe6-ac32-4ea9-9828-acd3c4791e01` · printing: TMC #113 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utrom Scientists
@@ -260,6 +263,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1527 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (2 decks · 2 card data) → [reverse index](../../references/U.md#utvara-hellkite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/129/utvara-hellkite) · oracle_id `05a6a571-643e-429e-8e5c-1c3f8b0dc746` · printing: RVR #129 (2024-01-12) · [rulings](https://api.scryfall.com/cards/df459109-d6ab-4b1d-9570-c7677ff4a014/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Utvara Scalper

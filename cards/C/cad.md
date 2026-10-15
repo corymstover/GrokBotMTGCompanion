@@ -119,4 +119,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1439 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-05* — If the equipped creature is dealt damage at the same time that you gain life (most likely because it dealt combat damage to a creature blocking or blocked by it) and your life total becomes 30 or greater as a result, the damage won’t be prevented. However, the equipped creature will have indestructible before state-based actions are checked, so it won’t be destroyed even if that damage would ordinarily be lethal.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#caduceus-staff-of-hermes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/2/caduceus-staff-of-hermes) · oracle_id `7cea5b12-9483-4142-9efa-735305581e73` · printing: ACR #2 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

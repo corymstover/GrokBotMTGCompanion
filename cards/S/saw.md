@@ -139,6 +139,7 @@ schema: 2
   - *2025-09-19* — If the creature isn't destroyed (perhaps because it has indestructible), its controller doesn't create any tokens. The same is true if the creature is destroyed but instead of going to its owner's graveyard, a replacement effect moves it elsewhere, such as exile.
   - *2025-09-19* — If the original creature had a characteristic-defining ability that determined its power and/or toughness, that ability is not copied.
   - *2025-09-19* — Use the power and toughness of the creature from when it was last on the battlefield to determine the power and toughness of the tokens.
+- **Referenced in:** 9 pages (7 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#saw-in-half)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/88/saw-in-half) · oracle_id `eea18c55-8695-4ba1-9b38-3e7638692f5f` · printing: UNF #88 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saw It Coming
@@ -225,4 +226,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6501 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-04-17* — If the target noncreature permanent is an illegal target by the time Sawtusk Demolisher’s last ability tries to resolve, the ability won’t resolve. No player will create a Beast token. If the target is legal but not destroyed (most likely because it has indestructible), its controller does create a Beast token.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sawtusk-demolisher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/64/sawtusk-demolisher) · oracle_id `7f93a368-9568-456c-9bd6-20d5fe5ad2f1` · printing: C20 #64 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

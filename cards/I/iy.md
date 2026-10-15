@@ -36,4 +36,5 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
   - *2021-07-23* — If a spell or ability an opponent controls targets Iymrith, Desert Doom while it is tapped, finding a way to untap it in response will not cause its ward ability to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/I.md#iymrith-desert-doom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/62/iymrith-desert-doom) · oracle_id `d5efba91-8400-41a3-91c6-cb5e81f07976` · printing: AFR #62 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

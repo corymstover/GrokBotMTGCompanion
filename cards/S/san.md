@@ -130,6 +130,7 @@ schema: 2
   - *2025-11-17* — The colors are white, blue, black, red, and green. Colorless is not a color.
   - *2025-11-17* — The value of X is calculated only once, as Sanar's ability resolves.
   - *2025-11-17* — You pay all costs and follow all timing rules for cards cast this way. For example, if an exiled card is a sorcery card, you may cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sanar-innovative-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/241/sanar-innovative-first-year) · oracle_id `2676ba6d-e7a7-48cf-9c86-6e2a11f03096` · printing: ECL #241 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanar, Unfinished Genius // Wild Idea
@@ -159,6 +160,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sanar-unfinished-genius--wild-idea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/223/sanar-unfinished-genius-wild-idea) · oracle_id `a8c44bd9-6470-47d7-934f-77c76a44a984` · printing: SOS #223 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctified Charge
@@ -228,6 +230,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26435 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Gaining life is optional. If you forget, you can’t go back later even if it is something you usually do.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sanctimony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/8ed/42/sanctimony) · oracle_id `2fc7740a-dfa4-4279-8822-3f7c93e6b685` · printing: 8ED #42 (2003-07-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctuary Blade
@@ -396,6 +399,7 @@ schema: 2
   - *2026-08-21* — Only one loyalty ability of each planeswalker may be activated per turn, no matter how many it has gained.
   - *2026-08-21* — Some spells and abilities that empower Jace may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't empower Jace.
   - *2026-08-21* — To empower Jace N, if you don't control a Jace planeswalker token, create a blue Jace planeswalker token with 0 loyalty, "[−1]: Surveil 1," and "[−3]: Draw a card." Choose a Jace planeswalker token you control. Put N loyalty counters on it.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#sanctum-lurker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/64/sanctum-lurker) · oracle_id `3ebd64d2-c178-45a2-a51f-9869754baa0f` · printing: FRA #64 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum of All
@@ -520,6 +524,7 @@ schema: 2
   > Whenever you cast a colorless spell with mana value 7 or greater, you may sacrifice this land. If you do, search your library for a colorless creature card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2890 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#sanctum-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/242/sanctum-of-ugin) · oracle_id `72cb5dcd-9b24-435c-921a-3766108374c4` · printing: BFZ #242 (2015-10-02) · [rulings](https://api.scryfall.com/cards/86798d03-9f2d-46bd-a660-13c8dd5535ce/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Plowbeast
@@ -568,6 +573,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2348 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — In a Two-Headed Giant game, Sanctum Seeker's ability causes the opposing team to lose 2 life and you to gain 1 life.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#sanctum-seeker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/209/sanctum-seeker) · oracle_id `afb71560-0fc9-4ea5-9d52-d93c17d72519` · printing: LCC #209 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanctum Spirit
@@ -599,6 +605,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #669 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-06-18* — Sanctum Weaver's ability is a mana ability and does not use the stack. This means that no player can respond to the ability by taking an action that would reduce the number of enchantments you have.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sanctum-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/910/sanctum-weaver) · oracle_id `acfe7ec0-0606-4d5e-b1fa-25f0c7aeec47` · printing: CMM #910 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandals of Abdallah
@@ -767,6 +774,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5116 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-04-12* — Sand Scout must be on the battlefield for its last ability to trigger. If it is put into your graveyard at the same time as one or more land cards you own, its ability won’t trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sand-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/11/sand-scout) · oracle_id `ca9f9017-c952-4e89-b284-02396e6be0af` · printing: OTC #11 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sand Silos
@@ -816,6 +824,7 @@ schema: 2
   - *2025-04-04* — If a noncreature permanent is instructed to endure, the effect is the same. You can put +1/+1 counters on that permanent or create a Spirit token.
   - *2025-04-04* — If you can’t put +1/+1 counters on the creature for any reason as an endure ability resolves (for example, if the creature is no longer on the battlefield), you’ll just create a Spirit token.
   - *2025-04-04* — You choose whether to put +1/+1 counters on the creature or create a Spirit token as the ability that includes the endure instruction is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sandskitter-outrider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/89/sandskitter-outrider) · oracle_id `eae480fe-d9fe-4dbe-8b78-b65f398b0af3` · printing: TDM #89 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sands of Delirium
@@ -847,6 +856,7 @@ schema: 2
   - *2004-10-04* — This card still affects players when it is tapped.
   - *2008-08-01* — Skipping the untap step means that phased out cards won't phase in, and permanents with phasing won't phase out.
   - *2009-10-01* — You can tap lands for mana before Sands of Time toggles your permanents. The mana you gain is available during your upkeep step, but it will disappear before your draw step if you don't spend it. You cannot save it to be spent on the card you will draw this turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sands-of-time)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/153/sands-of-time) · oracle_id `c8f69b48-a3b2-4324-852d-11fad19d6432` · printing: VIS #153 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsower
@@ -903,6 +913,7 @@ schema: 2
   > *—Gvar Barzeel, krumar captain*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #510 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sandsteppe-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/164/sandsteppe-citadel) · oracle_id `544dbabd-cbfc-40da-a5ba-2fea9cddb453` · printing: ECC #164 (2026-01-23) · [rulings](https://api.scryfall.com/cards/e7482def-e87e-4a7f-9c18-7859483b2a66/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandsteppe Mastodon
@@ -1095,6 +1106,7 @@ schema: 2
   > Whenever you cast a multicolored spell, you may return this card from your graveyard to your hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28969 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sandstorm-eidolon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/70/sandstorm-eidolon) · oracle_id `84fe1c59-3f7b-4c1c-9bc4-78a185cfcc0c` · printing: DIS #70 (2006-05-05) · [rulings](https://api.scryfall.com/cards/49e61ce3-e2cc-401c-b998-8baf8836e83a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sandstorm Salvager
@@ -1169,6 +1181,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2408 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-04-18* — Once a creature has attacked you or a planeswalker you control, it will remain in combat even if it gains flying. Similarly, if a creature with flying enters the battlefield attacking, Sandwurm Convergence's first ability can't undo that attack.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sandwurm-convergence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/195/sandwurm-convergence) · oracle_id `429eff2b-635b-43f6-b20f-82e25992c0b9` · printing: DSC #195 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sangrite Backlash
@@ -1286,6 +1299,7 @@ schema: 2
   - *2021-03-19* — If you gain an amount of life "for each" of something, that life is gained as one event and Sanguine Bond's ability triggers only once.
   - *2023-09-01* — Each creature with lifelink dealing combat damage causes a separate life-gaining event. For example, if two creatures you control with lifelink deal combat damage at the same time, Sanguine Bond's ability will trigger twice and you may choose a different opponent for each trigger. However, if a single creature you control with lifelink deals combat damage to multiple creatures, players, planeswalkers, and/or battles at the same time (perhaps because it has trample or was blocked by more than one creature), the ability will trigger only once.
   - *2024-04-12* — In a Two-Headed Giant game, life gained by your teammate won't cause Sanguine Bond's ability to trigger, even though it caused your team's life total to increase.
+- **Referenced in:** 8 pages (3 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#sanguine-bond)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/153/sanguine-bond) · oracle_id `73089a39-a2f6-4aa2-a058-e6551475153d` · printing: C21 #153 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sanguine Brushstroke

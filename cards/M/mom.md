@@ -59,6 +59,7 @@ schema: 2
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2022-12-08* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2022-12-08* — When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled. Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#momentary-blink)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/15/momentary-blink) · oracle_id `a3ec6b5d-08ec-4ae0-b1db-c4b87a1849c7` · printing: DMR #15 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Craving
@@ -178,6 +179,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12989 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-04-14* — If there are fewer than three cards in your library, look at all of the cards in your library and follow the instructions in order. For example, if you had only two cards in your library, you would look at both, put one into your hand, and then put the other one in the graveyard.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#moment-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/67/moment-of-truth) · oracle_id `ef61fb5c-2ea6-4f82-92c5-c4713dee45fa` · printing: MOM #67 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment of Valor
@@ -193,6 +195,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16845 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — Moment of Valor's first mode can target an untapped creature. It still gets +1/+0 and gains indestructible until end of turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#moment-of-valor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/20/moment-of-valor) · oracle_id `bfac8072-2bbc-43ca-b141-9cd0799840f7` · printing: WOE #20 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Momentous Fall
@@ -209,6 +212,7 @@ schema: 2
   - *2010-06-15* — The sacrificed creature’s last known existence on the battlefield is checked to determine its power and its toughness.
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#momentous-fall)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/411/momentous-fall) · oracle_id `6a5ce1b0-ac78-4a74-9eb7-4064e1687bf1` · printing: JMP #411 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moment's Peace

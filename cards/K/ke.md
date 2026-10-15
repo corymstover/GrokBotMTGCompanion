@@ -185,6 +185,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2074 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-02-01* — The "intervening 'if' clause" means that (1) the ability won't trigger at all unless you control a permanent of the specified color, and (2) the ability will do nothing unless you control a permanent of the specified color at the time it resolves.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/K.md#kederekt-parasite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/144/kederekt-parasite) · oracle_id `fc7b46af-6c07-455a-99c7-f1bccaa2a5f4` · printing: DSC #144 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kediss, Emberclaw Familiar
@@ -210,6 +211,7 @@ schema: 2
   - *2020-11-10* — The damage the commander deals as a result of Kediss's triggered ability isn't combat damage. It isn't tracked with combat damage dealt by commanders and won't cause Kediss's ability to trigger again.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 6 pages (2 decks · 1 edh guides · 2 rules · 1 card data) → [reverse index](../../references/K.md#kediss-emberclaw-familiar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/188/kediss-emberclaw-familiar) · oracle_id `d9c87cc2-943e-49b6-becc-748857549617` · printing: CMR #188 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keen Buccaneer
@@ -478,6 +480,7 @@ schema: 2
 - **Keywords:** First strike, Haste, Symphony of Pain
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3291 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/K.md#keeper-of-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/78/keeper-of-secrets) · oracle_id `23f86ee2-b1e3-45c2-bfd5-044919033922` · printing: 40K #78 (2022-10-07) · [rulings](https://api.scryfall.com/cards/4fe408aa-14d9-4afd-abfe-b5156c5341b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keeper of the Accord
@@ -492,6 +495,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Both triggered abilities trigger at the same time. You may put them on the stack in either order.
   - *2020-11-10* — If the opponent doesn't control more creatures than you as their end step begins, the first ability won't trigger. The same is true for lands and the second ability. Each of those abilities will check again when it tries to resolve. If the opponent no longer controls more creatures (or lands) than you, the ability won't resolve and will have no effect.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#keeper-of-the-accord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/70/keeper-of-the-accord) · oracle_id `49b9a3ac-d245-431a-bf40-64d1b8dc2b91` · printing: MKC #70 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keeper of the Beasts
@@ -552,6 +556,7 @@ schema: 2
   - *2024-11-08* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2024-11-08* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
   - *2024-11-08* — {L} is a mana symbol. It can be paid with one mana of any type as long as that mana was produced by a legendary source. Keeper of the Crown’s mana value is 3.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#keeper-of-the-crown--coronation-of-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/577/keeper-of-the-crown-coronation-of-the-wilds) · oracle_id `8ba8b599-f724-4845-9169-81adf2aa6142` · printing: MB2 #577 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keeper of the Dead
@@ -768,6 +773,7 @@ schema: 2
   > *"I see their moral dilemmas. I see their raw courage. I see their self-sacrifice. I see our victory."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4646 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#keep-watch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/10/keep-watch) · oracle_id `847b5be5-cb0c-4857-bcd9-c5cfe55fdaeb` · printing: HOP #10 (2009-09-04) · [rulings](https://api.scryfall.com/cards/e98489bc-b5fd-43f2-9afb-198e34e70723/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kefka, Court Mage // Kefka, Ruler of Ruin
@@ -796,6 +802,7 @@ schema: 2
   - *2025-06-06* — The card types in Magic include artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types; Hero and Saga are subtypes, not card types.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — While resolving Kefka, Court Mage's last ability, the next opponent in turn order chooses a permanent they control, then each other opponent in turn order does the same. Then each of the chosen permanents are sacrificed simultaneously.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/K.md#kefka-court-mage--kefka-ruler-of-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/231/kefka-court-mage-kefka-ruler-of-ruin) · oracle_id `6d3ca5cb-781d-4608-b7f1-38c020536376` · printing: FIN #231 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kefka, Dancing Mad
@@ -1171,6 +1178,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24693 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-08-01* — This is a Characteristic-Defining Ability. It checks the number of non-Wall creatures you control continuously, and applies in all zones. It is never “locked in”.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#keldon-warlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/101/keldon-warlord) · oracle_id `acc869f8-dcbe-4d57-baa0-3eef4aceb251` · printing: ME1 #101 (2007-09-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keleth, Sunmane Familiar
@@ -1234,6 +1242,7 @@ schema: 2
   - *2023-11-10* — Some cards in other sets refer to a card, spell, or permanent that "has an Adventure." This refers to a card, spell, or permanent that has an adventurer card's set of alternative characteristics, even if they're not being used and even if that card was never cast as an Adventure.
   - *2023-11-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-11-10* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#kellan-daring-traveler--journey-on)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/231/kellan-daring-traveler-journey-on) · oracle_id `7af69a44-e958-42e5-9d65-75e53a601e96` · printing: LCI #231 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan, Inquisitive Prodigy // Tail the Suspect
@@ -1255,6 +1264,7 @@ schema: 2
   - *2024-02-02* — Some spells and abilities that investigate may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. You won't create any Clue tokens.
   - *2024-02-02* — The effect of Tail the Suspect that allows you to play an additional land is cumulative with similar effects. For example, on a turn where you cast two Tail the Suspects, you'll be able to play three lands.
   - *2024-02-02* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/K.md#kellan-inquisitive-prodigy--tail-the-suspect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/212/kellan-inquisitive-prodigy-tail-the-suspect) · oracle_id `2f2d75a0-d751-4c74-b357-8f92a992447f` · printing: MKM #212 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan Joins Up
@@ -1277,6 +1287,7 @@ schema: 2
   - *2024-04-12* — The mana value of a split card in your hand is based on the combined mana cost of its two halves.
   - *2024-04-12* — You can't cast a plotted card on the same turn it became plotted. On any future turn, you may cast that card from exile without paying its mana cost during your main phase while the stack is empty.
   - *2024-06-07* — If an instant or a card with flash is plotted this way, you can still cast it only when you have priority during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kellan-joins-up)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/212/kellan-joins-up) · oracle_id `9b3ddd31-c058-4846-8784-25c7a9bbcb31` · printing: OTJ #212 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan, Planar Trailblazer
@@ -1293,6 +1304,7 @@ schema: 2
   - *2024-11-08* — Neither of these abilities have durations. If one of them resolves, it will remain in effect until the game ends, Kellan leaves the battlefield, or some subsequent effect changes its characteristics, whichever comes first.
   - *2024-11-08* — The effects from Kellan's abilities overwrite other effects that set power and/or toughness if and only if those effects existed before the ability resolved. They will not overwrite effects that modify power or toughness without setting it (whether from a static ability, counters, or a resolved spell or ability), nor will they overwrite effects that set power and toughness which come into existence after they resolve. Effects that switch the creature's power and toughness are always applied after any other power or toughness changing effects, including these two, regardless of the order in which they are created.
   - *2024-11-08* — You can activate Kellan's abilities regardless of what creature types he currently has. Each ability checks Kellan's creature types when it resolves. If Kellan doesn't have the appropriate creature type at that time, the ability will do nothing.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kellan-planar-trailblazer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/91/kellan-planar-trailblazer) · oracle_id `e8fd428f-7521-4e6a-86b7-835f20ee3c5c` · printing: FDN #91 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan's Lightblades
@@ -1312,6 +1324,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that's already on the battlefield, the new permanent isn't bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they're bargained. You ignore those targeting requirements if those spells aren't bargained, and you can't bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won't be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell's bargain cost.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kellans-lightblades)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/18/kellans-lightblades) · oracle_id `4b803bf2-025a-4bf6-9d3c-a28d714b4781` · printing: WOE #18 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan, the Fae-Blooded // Birthright Boon
@@ -1338,6 +1351,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer ("Once each turn, you may cast an instant or sorcery spell from the top of your library.") and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/K.md#kellan-the-fae-blooded--birthright-boon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/230/kellan-the-fae-blooded-birthright-boon) · oracle_id `10c48d19-d91f-4674-b186-477acaf08e5a` · printing: WOE #230 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellan, the Kid
@@ -1359,6 +1373,7 @@ schema: 2
   - *2024-04-12* — If the spell you cast that caused Kellan, the Kid’s last ability to trigger is represented by a split card, the characteristics of the half you didn’t cast are ignored while that spell is on the stack. For example, if you cast the Cease half of Cease // Desist from the Murders at Karlov Manor release, that spell’s mana value is 2 because Cease’s mana cost is {1}{B}{G}.
   - *2024-04-12* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs, such as kicker costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2024-04-12* — Putting a land card onto the battlefield with Kellan’s last ability doesn’t count as playing a land. It can put a land card onto the battlefield even if you’ve already played your land for the turn.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/K.md#kellan-the-kid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/213/kellan-the-kid) · oracle_id `afacc200-16ff-40f3-9d43-268438131d24` · printing: OTJ #213 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kellogg, Dangerous Mind
@@ -1429,6 +1444,7 @@ schema: 2
   - *2020-04-17* — Each time Kelsien's last ability resolves, it creates a separate delayed triggered ability. If you untap Kelsien and activate its last ability multiple times in one turn, they'll each trigger when the appropriate creature or creatures die. 
   - *2020-04-17* — If Kelsien leaves the battlefield, you keep any experience counters you've received.
   - *2020-04-17* — If the target of Kelsien's last ability dies before the ability resolves, you won't get an experience counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kelsien-the-plague)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/11/kelsien-the-plague) · oracle_id `5b3326a5-18c5-4d45-90e1-f6d00ca2bced` · printing: C20 #11 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kelsinko Ranger
@@ -1456,6 +1472,7 @@ schema: 2
   > {3}{W}{W}: Create a 2/2 white Cat creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11678 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kemba-kha-enduring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/19/kemba-kha-enduring) · oracle_id `93c97e1a-bd7e-4307-8ada-58f53a887cf8` · printing: ONE #19 (2023-02-10) · [rulings](https://api.scryfall.com/cards/945d283d-4592-485f-808a-6e5a721f3cf7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kemba, Kha Regent
@@ -1582,6 +1599,7 @@ schema: 2
   - *2019-10-04* — Kenrith's Transformation may enchant a permanent that is only temporarily a creature, such as Enchanted Carriage. If this happens, the Aura's effect causes the enchanted permanent to remain a green Elk creature even after the temporary effect expires.
   - *2019-10-04* — Kenrith's Transformation overwrites all colors and creature types the enchanted creature has. It's just a green Elk. The creature keeps any supertypes (such as legendary) it has, but loses any other card types it has (such as artifact).
   - *2019-10-04* — Kenrith's Transformation overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after Kenrith's Transformation becomes attached to a creature will overwrite this effect.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/K.md#kenriths-transformation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/162/kenriths-transformation) · oracle_id `a492a323-df8a-40fd-bff0-50091baa7700` · printing: AFC #162 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kenrith, the Returned King
@@ -1599,6 +1617,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — Kenrith's first ability affects only creatures on the battlefield at the time it resolves. Creatures that enter the battlefield later in the turn won't gain trample or haste.
   - *2023-04-14* — Kenrith's last ability can target a creature card in any player's graveyard. Its owner will control the creature, and it will remain on the battlefield even if you leave the game (if you don't own it).
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/K.md#kenrith-the-returned-king)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/ELD-303/kenrith-the-returned-king) · oracle_id `d209b948-9afb-4fd1-a961-72c87282878c` · printing: PLST #ELD-303 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kentaro, the Smiling Cat
@@ -1616,6 +1635,7 @@ schema: 2
 - **Rulings** (2):
   - *2005-02-01* — Kentaro doesn’t change when you can cast Samurai. It just makes Samurai castable for generic mana.
   - *2005-02-01* — Kentaro’s ability only applies while Kentaro is on the battlefield. You have to pay for Kentaro normally. It still costs {1}{W}.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/K.md#kentaro-the-smiling-cat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bok/13/kentaro-the-smiling-cat) · oracle_id `bfaf20a7-a11c-4f57-8eb6-b03b5223704d` · printing: BOK #13 (2005-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Keral Keep Disciples
@@ -1727,6 +1747,7 @@ schema: 2
   - *2019-06-14* — Once you begin to cast the card, losing control of Kess won't affect the spell. You can finish casting it as normal and it will be exiled if it would be put into your graveyard.
   - *2019-06-14* — You must follow the normal timing permissions and restrictions of the card you cast from your graveyard.
   - *2019-06-14* — You must pay the costs to cast that card. If it has an alternative cost, you may cast it for that cost instead.
+- **Referenced in:** 5 pages (4 decks · 1 edh guides) → [reverse index](../../references/K.md#kess-dissident-mage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/344/kess-dissident-mage) · oracle_id `f5092c14-eec4-472c-999c-ba96c36b2fbb` · printing: NCC #344 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Cagebreakers
@@ -1762,6 +1783,7 @@ schema: 2
   - *2016-04-08* — The card types in Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes (such as legendary and basic) and subtypes (such as Human and Equipment) are not counted.
   - *2016-04-08* — The number of card types matters, not the number of cards. For example, Wicker Witch (an artifact creature) along with Catalog (an instant) and Chaplain's Blessing (a sorcery) will enable delirium.
   - *2016-04-08* — Trample matters only as combat damage is being assigned, before it's dealt. If Kessig Dire Swine doesn't have trample while assigning its combat damage, it won't matter if a creature dying due to combat damage causes Kessig Dire Swine to gain trample.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kessig-dire-swine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/214/kessig-dire-swine) · oracle_id `61c10a4c-b1d5-4777-a813-d231980be2a7` · printing: SOI #214 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Flamebreather
@@ -1775,6 +1797,7 @@ schema: 2
   > *"Hunter's fire" was meant for slaying monsters in the Ulvenwald, but that never stopped Ralen from showing it off.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1500 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kessig-flamebreather)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/164/kessig-flamebreather) · oracle_id `eadd9559-6dcb-4b96-8c95-58abddd0e120` · printing: VOW #164 (2021-11-19) · [rulings](https://api.scryfall.com/cards/303ad78a-b02a-44dc-afe6-7f95781a5062/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Forgemaster // Flameheart Werewolf
@@ -1837,6 +1860,7 @@ schema: 2
   - *2021-09-24* — If it's neither day nor night, and a creature with daybound and a creature with nightbound somehow appear on the battlefield at the same time, it becomes day. The creature with nightbound will transform.
   - *2021-09-24* — If you cast a spell with daybound during night, that spell will be front face up (that is, daybound face up) on the stack. However, it will enter the battlefield with its back face up (that is, with its nightbound face up). It won't enter with its daybound face up and then transform.
   - *2021-09-24* — Permanents with daybound and nightbound can't transform via any means other than their daybound and nightbound abilities. Notably, older cards such as Moonmist that instruct a player to transform permanents don't affect permanents with daybound or nightbound.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kessig-naturalist--lord-of-the-ulvenwald)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/231/kessig-naturalist-lord-of-the-ulvenwald) · oracle_id `54f8acb1-58f3-49d1-bff8-c1b578245936` · printing: MID #231 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Prowler // Sinuous Predator
@@ -1856,6 +1880,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22525 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-07-13* — If Sinuous Predator gains menace, it can't be blocked by only one creature and it can't be blocked by more than one creature, so it simply can't be blocked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kessig-prowler--sinuous-predator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/163/kessig-prowler-sinuous-predator) · oracle_id `d2aff0ea-5474-4329-ae6a-80ee4908ee8d` · printing: EMN #163 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Recluse
@@ -1900,6 +1925,7 @@ schema: 2
 - **Keywords:** Menace
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20943 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kessig-wolfrider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/165/kessig-wolfrider) · oracle_id `d9c42e56-1818-4b73-9cd6-1c5aaf6a5b56` · printing: VOW #165 (2021-11-19) · [rulings](https://api.scryfall.com/cards/180b1a4f-c071-4742-9c57-9d775be0ed4f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kessig Wolf Run
@@ -1913,6 +1939,7 @@ schema: 2
   > *When a werewolf changes for the first time, that first howl is said to echo through the wilds till moonset.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #406 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/K.md#kessig-wolf-run)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/375/kessig-wolf-run) · oracle_id `c6911265-54ef-4c16-bcf2-1ffb24b7d426` · printing: TDC #375 (2025-04-11) · [rulings](https://api.scryfall.com/cards/32da0d6c-64dd-4aec-b63e-953e96164603/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kestia, the Cultivator
@@ -1949,6 +1976,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9722 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-02-04* — If a creature on the battlefield has an {X} in its mana cost, X is 0.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/K.md#kethek-crucible-goliath)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/206/kethek-crucible-goliath) · oracle_id `26747bdc-6bd4-4218-ae83-bd46c7668880` · printing: ONE #206 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kethis, the Hidden Hand
@@ -1966,6 +1994,7 @@ schema: 2
   - *2019-07-12* — Kethis’s last ability affects only legendary cards that are in your graveyard at the time it resolves. Legendary cards put into your graveyard later in the turn won’t gain the ability. If you play a legendary card and it returns to your graveyard, it won’t have the ability anymore.
   - *2019-07-12* — Kethis’s last ability doesn’t change when you can play the legendary cards. For example, if you have a legendary creature card in your graveyard, you can cast it only during your main phase when the stack is empty. If you have a legendary land card in your graveyard, you can play it only during your main phase and only if you have an available land play remaining.
   - *2019-07-12* — You’ll still pay all costs for a legendary spell you cast this way, including additional costs. You may also pay alternative costs.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kethis-the-hidden-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/211/kethis-the-hidden-hand) · oracle_id `1bf08ba0-4235-4dea-9722-ed991a3b6044` · printing: M20 #211 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ketramose, the New Dawn
@@ -1984,6 +2013,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-02-07* — Once Ketramose has been declared as an attacker or blocker, it will continue to attack or block that combat even if the number of cards in exile falls below seven.
   - *2025-02-07* — The ability that prevents Ketramose from attacking or blocking counts the total number of cards in exile, regardless of who owns them or how they were exiled.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/K.md#ketramose-the-new-dawn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/209/ketramose-the-new-dawn) · oracle_id `de41ad94-b9d7-4c2b-bfa6-394d18737228` · printing: DFT #209 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ketria Crystal
@@ -2013,6 +2043,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #359 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/K.md#ketria-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/250/ketria-triome) · oracle_id `6bae00e8-06cf-4ac4-a1cc-757e454109fe` · printing: IKO #250 (2020-04-24) · [rulings](https://api.scryfall.com/cards/a249b1f4-2b22-4b67-a207-e0c4ae95d2e1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Kevin, Questing Dragon
@@ -2074,6 +2105,7 @@ schema: 2
   - *2016-09-20* — Key to the City's last ability triggers during your untap step, but it's put onto the stack at the same time as abilities that trigger at the beginning of your upkeep step. Even though Key to the City's ability triggered first, you may order it before or after other abilities you control that are put onto the stack at this time.
   - *2016-09-20* — You can activate Key to the City's first ability without targeting any creature.
   - *2016-09-20* — You can pay {2} only once each time Key to the City's triggered ability resolves. You can't pay more to draw additional cards.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/K.md#key-to-the-city)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/248/key-to-the-city) · oracle_id `a242c9bf-dab6-4996-bb3a-b4356f9ed0c9` · printing: C21 #248 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Key to the Side-Door
@@ -2102,4 +2134,5 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26420 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/K.md#kezzerdrix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/107/kezzerdrix) · oracle_id `1523671c-0cf4-442c-a5f8-c74ae31016e6` · printing: TPR #107 (2015-05-06) · [rulings](https://api.scryfall.com/cards/2744639b-f7fa-435b-9275-026eae1dd0b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

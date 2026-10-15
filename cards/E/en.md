@@ -254,6 +254,7 @@ schema: 2
 - **Keywords:** Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18953 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enchanted-carriage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/218/enchanted-carriage) · oracle_id `4f4a3c9e-80c4-4fa1-940d-2c57065901a3` · printing: ELD #218 (2019-10-04) · [rulings](https://api.scryfall.com/cards/0057c2ae-ea4f-404a-ab95-f3979efd1b3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enchanted Evening
@@ -333,6 +334,7 @@ schema: 2
   - *2019-11-12* — Enchantmentize may enchant a permanent that is only temporarily a creature, such as a Vehicle. If this happens, Enchantmentize’s effect causes the enchanted permanent to remain an enchantment even after the temporary effect expires.
   - *2019-11-12* — The enchanted permanent keeps any abilities it has.
   - *2019-11-12* — The enchanted permanent loses any subtypes associated with the card types it lost. It keeps any supertypes, such as legendary.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enchantmentize)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/21/enchantmentize) · oracle_id `c1ad6624-ec54-48ce-b874-528a62e593a9` · printing: CMB2 #21 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enchantress's Presence
@@ -347,6 +349,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — The ability is independent from the spell that caused it to trigger. Notably, if the enchantment spell is countered or doesn't resolve for any other reason, you'll still draw a card (unless something specifically counters the triggered ability).
   - *2021-06-18* — The triggered ability will resolve before the spell that caused it to trigger.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#enchantresss-presence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/893/enchantresss-presence) · oracle_id `795b096a-2bce-4588-a2c9-abc5ea40dc0c` · printing: CMM #893 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Encircling Fissure
@@ -464,6 +467,7 @@ schema: 2
   > When a Dragon you control enters, return this enchantment to its owner's hand.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2413 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#encroaching-dragonstorm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/142/encroaching-dragonstorm) · oracle_id `1e95c273-7fec-4f8d-8be9-e21ad4b93717` · printing: TDM #142 (2025-04-11) · [rulings](https://api.scryfall.com/cards/4ddd4477-f8c9-4d05-9177-f8344ba8f40b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Encroaching Mycosynth
@@ -479,6 +483,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-02-04* — Encroaching Mycosynth turns all permanents you control into artifacts. Permanent spells you control become artifact spells in addition to their other types, and nonland permanent cards you own in other zones become artifact cards in addition to their other types.
   - *2023-02-04* — Encroaching Mycosynth's ability causes Auras to become artifacts. This makes it more likely that another effect (such as that of March of the Machines) will make those artifact Auras into creatures. An Aura that's also a creature can't enchant anything. It's unattached the next time state-based actions are checked, and then immediately put into its owner's graveyard as a second state-based action.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#encroaching-mycosynth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/47/encroaching-mycosynth) · oracle_id `1f0bb053-4967-4289-b2b1-f6309f2eca7d` · printing: ONE #47 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Encroaching Wastes
@@ -565,6 +570,7 @@ schema: 2
   - *2016-01-22* — Activating the second activated ability after a creature has legally been declared as an attacker or blocker won't change or undo that attack or block.
   - *2016-01-22* — Endbringer untaps at the same time as the active player's permanents. You can't choose to not untap it at that time.
   - *2016-01-22* — If an effect states that Endbringer doesn't untap during your untap step, that effect won't apply during another player's untap step.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#endbringer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/803/endbringer) · oracle_id `db1ea6e0-4076-49dd-92f7-7e6d7eb65a27` · printing: CMM #803 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endbringer's Revel
@@ -644,6 +650,7 @@ schema: 2
   - *2024-04-12* — If Endless Detour targets a token, that token is put into the library, then ceases to exist.
   - *2024-04-12* — If multiple cards are put into the library this way (such as when the spell targets a melded permanent), that permanent's owner puts all the cards on top or all the cards on the bottom. They put them in whatever order they wish, and do not need to reveal the order.
   - *2024-04-12* — The card's owner chooses whether to put it on the top or bottom of their library.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#endless-detour)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/183/endless-detour) · oracle_id `d65728cf-e9ce-46d8-a890-e1295b18cfbe` · printing: SNC #183 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Evil
@@ -681,6 +688,7 @@ schema: 2
   - *2026-01-27* — The tokens created by the squad ability aren't "cast," so any abilities that trigger when a spell is cast won't trigger for the copies.
   - *2026-01-27* — Tokens will be created for each of your opponents, not just opponents that you attacked.
   - *2026-01-27* — You may pay the squad cost any number of times. You will create a token that is a copy of that permanent for each time you paid the squad cost. If you paid the squad cost multiple times, the tokens will all enter the battlefield simultaneously.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#endless-foot-assault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/8/endless-foot-assault) · oracle_id `77ccafd9-6d76-4658-81ab-bde0454fcc15` · printing: TMC #8 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Horizons
@@ -694,6 +702,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-08-01* — If Endless Horizons leaves the battlefield, the remaining Plains cards stay exiled. If Endless Horizons returns to the battlefield, it’s a new object with no relation to its previous existence. The previously exiled Plains cards will still stay exiled.
   - *2008-08-01* — If a different player gains control of Endless Horizons, its ability will trigger at the beginning of that player’s upkeep, but it won’t do anything when it resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#endless-horizons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/4/endless-horizons) · oracle_id `ca945c1e-efa3-4bb2-bf5a-379b93409855` · printing: EVE #4 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Obedience
@@ -753,6 +762,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-09-22* — If you control fewer than two Zombies, you won't get any tokens.
   - *2011-09-22* — The number of Zombies you control is counted when the ability resolves. If you control multiple Endless Ranks of the Dead, the tokens you get when the first ability resolves will count for the subsequent abilities (if the tokens are still under your control at that time).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#endless-ranks-of-the-dead)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/116/endless-ranks-of-the-dead) · oracle_id `69d4ecac-4735-4667-bfc1-c8800b436d08` · printing: MIC #116 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Sands
@@ -768,6 +778,7 @@ schema: 2
   - *2017-04-18* — Desert is a land subtype with no special meaning. It doesn’t grant the land an intrinsic mana ability. Other cards may care about which lands are Deserts.
   - *2017-07-14* — If you exile a creature that isn’t a creature card with the second ability of Endless Sands (such as a token creature or a land that has become a creature), the third ability won’t return that token or card from exile.
   - *2017-07-14* — The last ability of Endless Sands returns only creature cards exiled by that card. If Endless Sands leaves the battlefield before you activate that ability, the exiled creatures are lost in the dunes forever.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#endless-sands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/272/endless-sands) · oracle_id `c4033d97-769f-4811-8b11-f85b8817b7a2` · printing: C20 #272 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Scream
@@ -784,6 +795,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20725 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#endless-scream)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmp/132/endless-scream) · oracle_id `cde3e29c-31fd-4dce-a008-283bbe90bfc6` · printing: TMP #132 (1997-10-14) · [rulings](https://api.scryfall.com/cards/e9474231-34c5-4563-8a61-fd1bc2693f86/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endless Swarm
@@ -848,6 +860,7 @@ schema: 2
   - *2019-06-14* — If you activate Endling's last ability, you don't choose whether Endling gets +1/-1 or -1/+1 until that ability resolves.
   - *2019-06-14* — Multiple instances of menace or deathtouch on the same creature are redundant.
   - *2019-06-14* — Once undying returns the creature, it's considered a new object with no relation to the object that it was. Auras that were attached to it won't return to the battlefield. Equipment that was attached to it will remain unattached. Any counters that were on it won't be put on the new creature.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#endling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/89/endling) · oracle_id `4da3e510-e495-4077-997f-8efc04f01892` · printing: MH1 #89 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### End of the Hunt
@@ -906,6 +919,7 @@ schema: 2
   - *2006-09-25* — Face-down spells are creature spells, but they have mana value 0.
   - *2006-09-25* — The second ability is a state trigger. Once it triggers, it won't trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again.
   - *2006-09-25* — When the second ability resolves, Endrek Sahr will be sacrificed regardless of how many Thrulls you control at that time, even if it's less than seven.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#endrek-sahr-master-breeder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/155/endrek-sahr-master-breeder) · oracle_id `47a0079f-3544-45bc-a32a-bd93844c8c43` · printing: CMM #155 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endrider Catalyzer
@@ -977,6 +991,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — If you pay the evoke cost, you can have the creature's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice the creature.
   - *2021-06-18* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#endurance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/51/endurance) · oracle_id `c85d824b-c190-4d04-ab99-918ad0e6516c` · printing: ECC #51 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Endurance Bobblehead
@@ -1062,6 +1077,7 @@ schema: 2
   - *2024-09-20* — A token that's a copy of Enduring Courage won't return to the battlefield when its last ability resolves.
   - *2024-09-20* — Dog and Glimmer are both creature types. Enduring Courage won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
   - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Courage dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enduring-courage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/133/enduring-courage) · oracle_id `b3de29cb-7d7d-4566-b5bf-37e571bd5d78` · printing: DSK #133 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Curiosity
@@ -1079,6 +1095,7 @@ schema: 2
   - *2024-09-20* — A token that's a copy of Enduring Curiosity won't return to the battlefield when its last ability resolves.
   - *2024-09-20* — Cat and Glimmer are both creature types. Enduring Curiosity won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
   - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Curiosity dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/E.md#enduring-curiosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/51/enduring-curiosity) · oracle_id `9d2460c3-8eeb-4f35-b6f6-748c478664c7` · printing: DSK #51 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Ideal
@@ -1091,6 +1108,7 @@ schema: 2
 - **Keywords:** Epic
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16173 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#enduring-ideal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sok/9/enduring-ideal) · oracle_id `d2045055-197c-436a-9874-199db5fe1c96` · printing: SOK #9 (2005-06-03) · [rulings](https://api.scryfall.com/cards/7dc7091e-0c98-434d-9190-dcab813d3e14/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Innocence
@@ -1109,6 +1127,7 @@ schema: 2
   - *2024-09-20* — Enduring Innocence's second ability checks the power of the other creatures only at the moment they enter. If a creature enters with counters, those counters are included. If a creature's power is 2 or less when it enters but becomes greater than 2 while Enduring Innocence's second ability is still on the stack, you'll still draw a card when the ability resolves.
   - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Innocence dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
   - *2024-09-20* — Sheep and Glimmer are both creature types. Enduring Innocence won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#enduring-innocence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/6/enduring-innocence) · oracle_id `98a389f4-2905-47f3-b60e-3d4afb3e5cb0` · printing: DSK #6 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Renewal
@@ -1179,6 +1198,7 @@ schema: 2
   - *2024-09-20* — If you gain an amount of life "for each" of something, that life is gained as one event and Enduring Tenacity's first ability triggers only once.
   - *2024-09-20* — In a Two-Headed Giant game, life gained by your teammate won't cause Enduring Tenacity's first ability to trigger, even though it caused your team's life total to increase.
   - *2024-09-20* — Snake and Glimmer are both creature types. Enduring Tenacity won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enduring-tenacity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/95/enduring-tenacity) · oracle_id `98e698ae-1a69-469c-9cfb-0e3fedeb71d4` · printing: DSK #95 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enduring Victory
@@ -1212,6 +1232,7 @@ schema: 2
   - *2024-09-20* — A token that's a copy of Enduring Vitality won't return to the battlefield when its last ability resolves.
   - *2024-09-20* — Elk and Glimmer are both creature types. Enduring Vitality won't have those creature types when its last ability returns it to the battlefield because it won't be a creature.
   - *2024-09-20* — If a nontoken permanent that's a copy of Enduring Vitality dies while it's a creature, it will return to the battlefield as an enchantment when its last ability resolves. It won't have any card types other than enchantment.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#enduring-vitality)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/176/enduring-vitality) · oracle_id `3577c47e-76d3-4659-b922-31c4b74be3a0` · printing: DSK #176 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enemy of Enlightenment
@@ -1247,6 +1268,7 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30247 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enemy-of-the-guildpact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/44/enemy-of-the-guildpact) · oracle_id `e5cf7b75-b59b-4cac-bfd2-13e452457d74` · printing: DIS #44 (2006-05-05) · [rulings](https://api.scryfall.com/cards/3dcc7d53-2510-4322-969c-1e138287562c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Energizer
@@ -1339,6 +1361,7 @@ schema: 2
   > All artifacts have "At the beginning of your upkeep, sacrifice this artifact unless you pay {2}."
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15099 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#energy-flux)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/48/energy-flux) · oracle_id `7a756cd1-29a8-4edf-bb74-fbb5b4020022` · printing: ME4 #48 (2011-01-10) · [rulings](https://api.scryfall.com/cards/78ae772e-cd54-4860-b8a8-94c934853772/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Energy Refractor
@@ -1353,6 +1376,7 @@ schema: 2
   > *—Urza*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9944 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#energy-refractor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/234/energy-refractor) · oracle_id `fd9dde4c-bacd-48d8-b4c9-a6a04f0b3338` · printing: BRO #234 (2022-11-18) · [rulings](https://api.scryfall.com/cards/cc2a81fb-5045-4b7b-8cfb-b90c4f4a1f51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Energy Storm
@@ -1450,6 +1474,7 @@ schema: 2
   - *2020-08-07* — If a permanent has {X} in its mana cost, X is considered to be 0.
   - *2020-08-07* — Tokens that aren't a copy of something else don't have a mana cost. Anything without a mana cost normally has a mana value of 0.
   - *2020-08-07* — You can choose any value for X as you cast Engineered Explosives. The value chosen for X doesn't directly affect the number of charge counters Engineered Explosives enters the battlefield with, but it does let you pay more mana and thus spend more colors of mana to cast it.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#engineered-explosives)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/252/engineered-explosives) · oracle_id `95fd897e-9086-42c4-8e0d-61bb02333c5f` · printing: 2XM #252 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Engineered Might
@@ -1656,6 +1681,7 @@ schema: 2
   - *2020-09-25* — Prowl compares the creature types of the spell with the creature types of the creatures that dealt combat damage to players this turn. Normally this means that you can cast Enigma Thief for its prowl cost only if a Sphinx or Rogue dealt combat damage to a player, but if an effect causes the spell to have other creature types, the prowl ability is also satisfied by a creature with those additional types having dealt combat damage to a player.
   - *2020-09-25* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a prowl cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2020-09-25* — You can cast a spell for its prowl cost any time in a turn after a creature you control of a matching type has dealt combat damage to a player. It doesn't matter if that player left the game, if that creature left the battlefield or left your control, or if that creature no longer has a matching type.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#enigma-thief)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znc/4/enigma-thief) · oracle_id `d39a1e12-bb6b-4e7a-96a4-5dab98084716` · printing: ZNC #4 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enigmatic Incarnation
@@ -1681,6 +1707,7 @@ schema: 2
   > Whenever Enkira and at least two Zombies attack, Enkira gains indestructible until end of turn.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21869 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/E.md#enkira-hostile-scavenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/slx/20/enkira-hostile-scavenger) · oracle_id `558fd7a9-9b39-4c82-b909-5febf55dc010` · printing: SLX #20 (2023-09-08) · [rulings](https://api.scryfall.com/cards/f7cad73d-312c-4ea5-93c7-8a422b16f207/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enlarge
@@ -1725,6 +1752,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-08-21* — Enlightened Confidant's ability checks at the moment it would trigger to see if you gained life this turn. If you didn't, the ability won't trigger at all. Once your end step begins, it's too late to gain life in order to cause this ability to trigger. However, the last part of the ability will check how much life you've gained as the ability resolves, so you could still gain more life while the ability is on the stack to make putting a card into your hand easier.
   - *2026-08-21* — If a card in your graveyard has an X in its mana cost, X is 0 for the purpose of determining its mana value.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enlightened-confidant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/5/enlightened-confidant) · oracle_id `a139eb7f-3853-490c-a839-35d0e5aed7b5` · printing: FRA #5 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enlightened Maniac
@@ -1752,6 +1780,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #123 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — The "shuffle and put the card on top" is a single action. If an effect causes the top card of the library to be face up, the second card down is not revealed.
+- **Referenced in:** 8 pages (3 decks · 4 edh guides · 1 card data) → [reverse index](../../references/E.md#enlightened-tutor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/6/enlightened-tutor) · oracle_id `c5229c17-b7be-4b05-b683-f2277edc4849` · printing: DMR #6 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enlisted Wurm
@@ -1993,6 +2022,7 @@ schema: 2
   - *2019-11-12* — Flagbearer is a creature type, but while you control Enroll in the Coalition, you’re not a creature. You can’t be the target of spell or abilities that target creatures but not players, even if those spells or abilities affect Flagbearers specifically.
   - *2019-11-12* — If a player chooses targets for another player’s spell or ability, or if targets are chosen randomly, they don’t have to target a Flagbearer.
   - *2019-11-12* — If a spell or ability’s targets are changed, or if a copy of a spell or ability is put onto the stack and has new targets chosen, it doesn’t have to target a Flagbearer.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#enroll-in-the-coalition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/4/enroll-in-the-coalition) · oracle_id `83534e50-0147-4ecc-a703-25ef1dfe4be6` · printing: CMB2 #4 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enshrined Memories
@@ -2099,6 +2129,7 @@ schema: 2
   - *2023-10-13* — If a spell or ability requires multiple players to face a villainous choice, the result is a little different from other effects in Magic. In that case, the first player in turn order makes their choice and the action for that choice is performed before the next player makes their choice. Then each of the remaining players repeat this process in turn order.
   - *2023-10-13* — The opponent chooses whether to exile cards from the top of their library until they exile a nonland card or to exile the top four cards of their library. They don't choose whether you cast the cards exiled by the first option.
   - *2023-10-13* — When a player faces a villainous choice, they first choose one of the two options, then all actions in the chosen option are performed.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#ensnared-by-the-mara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/84/ensnared-by-the-mara) · oracle_id `16090270-0ac5-404c-b0c8-a6c8a4b508a4` · printing: WHO #84 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ensnaring Bridge
@@ -2230,6 +2261,7 @@ schema: 2
   - *2023-11-10* — Multiple cards have abilities that begin with "At the beginning of your end step, if you descended this turn." These cards don't need to have been under your control at the time you descended. For example, if a permanent card is put into your graveyard during your first main phase and you cast Stalactite Stalker your second main phase, its ability will trigger at the beginning of your end step.
   - *2023-11-10* — Some cards refer to a player who has "descended this turn." This means that a permanent card has been put into that player's graveyard from anywhere this turn.
   - *2023-11-10* — Some cards refer to the number of times a player descended this turn. Those cards care about the number of permanent cards put into that player's graveyard from anywhere this turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#enterprising-scallywag)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/148/enterprising-scallywag) · oracle_id `97607bf5-ca7b-4b1b-963e-390faf6e413e` · printing: LCI #148 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enter the Avatar State
@@ -2268,6 +2300,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1282 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If the target creature is an illegal target when Enter the Enigma tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/E.md#enter-the-enigma)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/52/enter-the-enigma) · oracle_id `67554654-e751-4679-9e92-f3588525ae4f` · printing: DSK #52 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enter the God-Eternals
@@ -2292,6 +2325,7 @@ schema: 2
   - *2023-06-16* — In the rare case that you control multiple Army creatures (perhaps because you played a creature with changeling) while you amass Zombies, you choose which of your Army creatures to put the +1/+1 counters on. If that creature isn't a Zombie, it becomes a Zombie in addition to its other types.
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#enter-the-god-eternals)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/196/enter-the-god-eternals) · oracle_id `67ee7c8b-afcc-4f09-a184-3db01f2ab175` · printing: WAR #196 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enter the Infinite
@@ -2377,6 +2411,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1367 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 10 pages (8 decks · 2 edh guides) → [reverse index](../../references/E.md#enthusiastic-mechanaut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/114/enthusiastic-mechanaut) · oracle_id `c9722086-23e8-43dc-8a8c-541ff6962318` · printing: EOC #114 (2025-08-01) · [rulings](https://api.scryfall.com/cards/fbfcbfed-74c7-4b1e-897c-44f25e45a4a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Enthusiastic Study
@@ -2423,6 +2458,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #455 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — You sacrifice the lands as part of the resolution of Entish Restoration. It isn't an additional cost. If Entish Restoration is countered, you won't sacrifice any lands.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#entish-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/163/entish-restoration) · oracle_id `736017e2-bc33-49e8-812d-1639443fdb51` · printing: LTR #163 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entity Tracker
@@ -2440,6 +2476,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — An ability that triggers "whenever you fully unlock a Room" triggers when a door becomes unlocked and the other door of that Room is already unlocked, or when both doors of that Room become unlocked simultaneously.
   - *2024-09-20* — If a permanent with an eerie ability enters at the same time as one or more enchantments, its ability will trigger for each of those enchantments.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#entity-tracker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/53/entity-tracker) · oracle_id `c9db5293-4866-46ec-9ae8-059d27bd50fc` · printing: DSK #53 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entomb
@@ -2452,6 +2489,7 @@ schema: 2
   > *A grave is the safest place to store ill-gotten treasures.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #325 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 17 pages (11 decks · 4 edh guides · 2 card data) → [reverse index](../../references/E.md#entomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/82/entomb) · oracle_id `299fc083-0834-4064-8344-f895aff68867` · printing: DMR #82 (2023-01-13) · [rulings](https://api.scryfall.com/cards/3caa9c55-5e3b-436b-84a9-b7ccebf63799/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entomber Exarch
@@ -2549,6 +2587,7 @@ schema: 2
   - *2016-11-08* — Entrapment Maneuver doesn't target the creature to be sacrificed. The target player chooses one as it resolves. No player may take any other actions between the target player choosing the creature and you creating Soldier tokens.
   - *2016-11-08* — If you cast Entrapment Maneuver after combat damage has been dealt, only creatures that survived combat can be sacrificed.
   - *2016-11-08* — To determine how many Soldier tokens are created, use the toughness of the sacrificed creature as it last existed on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#entrapment-maneuver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/2/entrapment-maneuver) · oracle_id `2244bef9-1e4e-44ed-9b27-810f04f9e611` · printing: C16 #2 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entreat the Angels
@@ -2612,6 +2651,7 @@ schema: 2
 - **Keywords:** Station
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5586 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/E.md#entropic-battlecruiser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/99/entropic-battlecruiser) · oracle_id `90c5ea2b-d004-4219-b60c-d51bc1a5ee6b` · printing: EOE #99 (2025-08-01) · [rulings](https://api.scryfall.com/cards/cc59796b-9025-44b6-a188-cf6684ebffb9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Entropic Eidolon
@@ -2653,6 +2693,7 @@ schema: 2
   > *"A spark is power and freedom. Use it better than I did," Jace's voice echoed to Tam.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18614 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/E.md#entrust-the-spark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/131/entrust-the-spark) · oracle_id `b796ecc8-a2e8-4ab9-8736-6825b650434d` · printing: FRA #131 (2026-10-02) · [rulings](https://api.scryfall.com/cards/ca894d25-b9fc-4cd6-8746-70d8c2868721/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ent's Fury
@@ -2739,4 +2780,5 @@ schema: 2
   - *2024-06-07* — A creature with a counter on it is considered modified no matter what kind of counter it is or which player put it on that creature.
   - *2024-06-07* — An Aura controlled by another player does not cause a creature you control to be modified.
   - *2024-06-07* — The cost to activate a creature's outlast ability includes the tap symbol ({T}). Envoy of the Ancestors's outlast ability can't be activated unless it has been under your control continuously since the beginning of your turn.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#envoy-of-the-ancestors)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/23/envoy-of-the-ancestors) · oracle_id `678ef5e4-800d-4d3a-8761-2abaad70e0c9` · printing: MH3 #23 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

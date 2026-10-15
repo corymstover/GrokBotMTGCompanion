@@ -113,6 +113,7 @@ schema: 2
   - *2014-04-26* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2014-04-26* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
   - *2014-04-26* — The value of each X in Hydra Broodmaster's last ability is equal to the value chosen for X when its monstrosity ability was activated.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/H.md#hydra-broodmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/194/hydra-broodmaster) · oracle_id `9e4fb4b1-9b28-4a49-b4ac-d5549c08594d` · printing: C21 #194 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### HYDRA Disintegrator
@@ -170,6 +171,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4094 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — The damage dealt by Hydra Omnivore as a result of its triggered ability is not combat damage (and doesn't cause the ability to trigger again).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hydra-omnivore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/185/hydra-omnivore) · oracle_id `8f504855-f3df-4284-a189-e799bcddf620` · printing: DSC #185 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra's Growth
@@ -185,6 +187,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-01-24* — If Hydra's Growth leaves the battlefield before its enters-the-battlefield triggered ability resolves, the creature it last enchanted before it left gets the +1/+1 counter.
   - *2020-01-24* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#hydras-growth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/172/hydras-growth) · oracle_id `559903cd-5cba-47a5-8b5b-7067e393e76a` · printing: THB #172 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydra's Impenetrable Hide
@@ -302,6 +305,7 @@ schema: 2
   - *2024-06-07* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack or the battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2024-06-07* — The spell's target is changed to Hydroelectric Specimen only if Hydroelectric Specimen is a legal target for that spell.
   - *2024-06-07* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics. For example, if an effect stops you from casting creature spells, you can't cast Disciple of Freyalise, but you can still play Garden of Freyalise.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hydroelectric-specimen--hydroelectric-laboratory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/240/hydroelectric-specimen-hydroelectric-laboratory) · oracle_id `573151f0-00d4-4a8a-8a09-745c5f376532` · printing: MH3 #240 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydroform
@@ -335,6 +339,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1554 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-01-25* — Hydroid Krasis's first ability triggers as you cast it, and that ability resolves before the spell itself. It resolves even if Hydroid Krasis is countered.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/H.md#hydroid-krasis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/315/hydroid-krasis) · oracle_id `6bd872b2-5c40-4e11-9a7f-0136a51b0642` · printing: SOC #315 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hydrolash
@@ -445,6 +450,7 @@ schema: 2
   - *2024-06-07* — Umbra armor's effect is applied no matter why the enchanted creature would be destroyed: because it's been dealt lethal damage, or because it's being affected by an effect that says to "destroy" it (such as Breathe Your Last). In either case, all damage is removed from the creature and the Aura is destroyed instead.
   - *2024-06-07* — Umbra armor's effect is mandatory. If the enchanted creature would be destroyed, you must remove all damage from it (if it has any) and destroy the Aura that has umbra armor instead.
   - *2024-06-07* — Umbra armor's effect is not regeneration. Specifically, if umbra armor's effect is applied, the enchanted creature does not become tapped and is not removed from combat as a result. Effects that say the enchanted creature can't be regenerated won't prevent umbra armor's effect from being applied.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/H.md#hyena-umbra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/13/hyena-umbra) · oracle_id `354affb3-1be7-4a9e-91da-2989eb54f62d` · printing: 2X2 #13 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylda of the Icy Crown
@@ -461,6 +467,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6748 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — Hylda of the Icy Crown's ability will trigger only when an effect instructs you to tap an opponent's creature. It won't trigger if a spell or ability you control instructs an opponent to tap a creature they control. For example, if you control Tangle Wire and an opponent taps an untapped creature they control as part of the resolution of Tangle Wire's triggered ability, Hylda's ability won't trigger.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/H.md#hylda-of-the-icy-crown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/206/hylda-of-the-icy-crown) · oracle_id `1733c71b-fd28-48dd-8a3d-41afd4b22f0e` · printing: WOE #206 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylda's Crown of Winter
@@ -474,6 +481,7 @@ schema: 2
   > *With each day she wore the crown, her icy kingdom spread, and her heart grew ever colder.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5564 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hyldas-crown-of-winter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/247/hyldas-crown-of-winter) · oracle_id `a8291d04-240e-456b-8c86-1fb4eb460476` · printing: WOE #247 (2023-09-08) · [rulings](https://api.scryfall.com/cards/b0d4a6c0-f00e-45a7-9c88-899460007020/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hylderblade
@@ -542,6 +550,7 @@ schema: 2
   - *2016-08-23* — The first creature spell you cast each turn doesn't necessarily have to be the first spell you cast. For example, you could cast an artifact spell and then cast a creature spell that would get the discount.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/H.md#hymn-of-the-wilds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/7/hymn-of-the-wilds) · oracle_id `dfa62414-48c6-4e5c-8609-1ce507b41505` · printing: CN2 #7 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hymn to Tourach
@@ -554,6 +563,7 @@ schema: 2
   > *The priests plead for your anguish and pray for your despair.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9606 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/H.md#hymn-to-tourach)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/92/hymn-to-tourach) · oracle_id `992d9a72-d34d-47d7-96fb-37f0efb515ef` · printing: EMA #92 (2016-06-10) · [rulings](https://api.scryfall.com/cards/3faa8c5e-9e1b-4cee-b322-a033bf33dcbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypergenesis
@@ -586,6 +596,7 @@ schema: 2
   - *2024-02-02* — The mana value of a spell cast without paying its mana cost is determined by its mana cost, even though that cost wasn't paid.
   - *2024-02-02* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn't matter why the last time counter was removed or what effect removed it.
   - *2024-02-02* — You can exile a card in your hand using suspend any time you could cast that card. Consider its card type, any effects that modify when you could cast it (such as flash) and any other effects that stop you from casting it (such as from Meddling Mage's ability) to determine if and when you can do this. Whether you could actually complete all steps in casting the card is irrelevant. For example, you can exile a card with suspend that has no mana cost or that requires a target even if no legal targets are available at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/H.md#hypergenesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/210/hypergenesis) · oracle_id `cf288b0a-a343-4ef7-ba02-4f83a6dabeaf` · printing: TSR #210 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hyperion Blacksmith
@@ -760,6 +771,7 @@ schema: 2
   - *2025-06-06* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Traveling Chocobo ("You may play lands and cast Bird spells from the top of your library.") and Jidoor, Aristocratic Capital is on top of your library, you can play Jidoor, Aristocratic Capital, but you can't cast Overture.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/H.md#hypnotic-sprite--mesmeric-glare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/49/hypnotic-sprite-mesmeric-glare) · oracle_id `1f9efad1-9f51-47aa-a5a7-9c8103435a01` · printing: ELD #49 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hypnotic Swirly Disc
@@ -837,6 +849,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9568 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-01-24* — Hyrax Tower Scout’s ability can target an untapped creature, including Hyrax Tower Scout itself, if there are no tapped creatures you wish to untap.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/H.md#hyrax-tower-scout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/173/hyrax-tower-scout) · oracle_id `c1261a72-ccbd-4be9-bc3b-c1bcb807eb85` · printing: THB #173 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Hysterical Blindness

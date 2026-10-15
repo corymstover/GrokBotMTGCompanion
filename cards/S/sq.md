@@ -99,6 +99,7 @@ schema: 2
   - *2020-09-25* — Some cards refer to you having a “full party.” This is true if the number of creatures in your party is four.
   - *2020-09-25* — Squad Commander's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't get +1/+0 or gain indestructible.
   - *2020-09-25* — To determine “the number of creatures in your party,” check whether you control a Cleric, whether you control a Rogue, whether you control a Warrior, and whether you control a Wizard. The number is the total number of those checks to which you answered yes. Each creature you control can be counted for only one of those checks.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squad-commander)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/709/squad-commander) · oracle_id `11f21b50-b4b6-449e-a66a-eedd2920ed93` · printing: CLB #709 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squad Rallier
@@ -213,6 +214,7 @@ schema: 2
   - *2025-06-06* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2025-06-06* — If an effect restarts the game, Starting Town will enter tapped in the new game unless it's your first, second, or third turn of that game.
   - *2025-06-06* — Starting Town's first ability cares about how many turns you have taken, not necessarily how many turns the game has had, in case you take an extra turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squall-seed-mercenary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/243/squall-seed-mercenary) · oracle_id `e2348e0e-eeca-47b5-9417-bf4470ec29bb` · printing: FIN #243 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squandered Resources
@@ -227,6 +229,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5409 · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — Can sacrifice a land which can’t produce mana, but you don’t get any mana from this ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squandered-resources)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/137/squandered-resources) · oracle_id `620d0572-6d22-43e2-83a9-000e605c8a2b` · printing: VIS #137 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Square Up
@@ -358,6 +361,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3896 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2018-12-07* — If Squee isn't in your graveyard as your upkeep begins, its ability won't trigger. You can't take any actions during your turn before your upkeep begins.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squee-goblin-nabob)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/254/squee-goblin-nabob) · oracle_id `0ef760f4-bbec-4735-8d60-fc24d973452a` · printing: SOC #254 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squee's Embrace
@@ -408,6 +412,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-04-27* — Squee's ability doesn't prevent you from casting Squee from any other zone.
   - *2018-04-27* — You must follow the normal timing permissions and restrictions and pay its cost to cast Squee from your graveyard or from exile.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#squee-the-immortal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/275/squee-the-immortal) · oracle_id `481fb71a-11b9-462e-a4da-ca35ffd1bd22` · printing: NCC #275 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squeeze
@@ -464,6 +469,7 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squid-fire-knight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/27/squid-fire-knight) · oracle_id `5bd19c93-4b1b-45d7-9764-1327fffe94ca` · printing: SUNF #27 (2022-10-07) · [rulings](https://api.scryfall.com/cards/c65b391d-a5fb-4f0d-8082-cc636ab95b28/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squidnapper
@@ -628,6 +634,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3424 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#squirrel-nest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/177/squirrel-nest) · oracle_id `2d584333-b25e-4291-a2c9-80c6d9f8732a` · printing: DMR #177 (2023-01-13) · [rulings](https://api.scryfall.com/cards/6f2aa025-e041-4ed5-a046-9debc474fda0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel-Powered Scheme
@@ -680,6 +687,7 @@ schema: 2
 - **Keywords:** Open an Attraction
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16397 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squirrel-squatters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/156/squirrel-squatters) · oracle_id `7af6b952-9e53-4f5d-ba6f-d31b42e91bbe` · printing: UNF #156 (2022-10-07) · [rulings](https://api.scryfall.com/cards/a1ba935d-43b9-4661-8d2c-9e6b457c5b68/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squirrel Stack
@@ -711,6 +719,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16913 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Only affects Squirrels on the battlefield when the ability resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squirrel-wrangler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pcy/127/squirrel-wrangler) · oracle_id `4021b6b4-9b87-4dd5-a5df-79540bedbe87` · printing: PCY #127 (2000-06-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Squishy Sphinx Ninja
@@ -725,4 +734,5 @@ schema: 2
 - **Keywords:** Provoke, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#squishy-sphinx-ninja)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/37/squishy-sphinx-ninja) · oracle_id `d198b39d-2c5f-4150-8c54-a00d33d74a28` · printing: SUNF #37 (2022-10-07) · [rulings](https://api.scryfall.com/cards/14222486-bcd3-42be-9598-4976ec9c08ea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

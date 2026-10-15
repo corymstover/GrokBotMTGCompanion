@@ -85,6 +85,7 @@ schema: 2
   - *2018-06-08* — To have two commanders, both must have the partner ability (featured in the Magic: The Gathering—Commander™ (2016 Edition) set) or corresponding “partner with” abilities as the game begins. A creature with a “partner with” ability can’t partner with any creature other than its designated partner. Losing a partner ability during the game doesn’t cause either to cease to be your commander.
   - *2018-06-08* — “Partner with [name]” represents two abilities. The first is a triggered ability: “When this permanent enters the battlefield, target player may search their library for a card named [name], reveal it, put it into their hand, then shuffle their library.”
   - *2018-07-13* — If an effect has a player flip a coin and refers to winning or losing a flip, only the player who flipped the coin wins or loses the flip. If that player loses the flip, nobody wins the flip.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/O.md#okaun-eye-of-chaos)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bbd/6/okaun-eye-of-chaos) · oracle_id `7dec219b-96d1-4d4c-b3ac-15eda9d2ccc6` · printing: BBD #6 (2018-06-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra's Attendant
@@ -104,6 +105,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oketras-attendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/22/oketras-attendant) · oracle_id `c45d1df1-92a7-4b36-8e27-1f88c3737bf9` · printing: AKH #22 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra's Avenger
@@ -122,6 +124,7 @@ schema: 2
   - *2017-04-18* — If an exerted creature is already untapped during your next untap step (most likely because it had vigilance or an effect untapped it), exert’s effect preventing it from untapping expires without having done anything.
   - *2017-04-18* — If you gain control of another player’s creature until end of turn and exert it, it will untap during that player’s untap step.
   - *2017-04-18* — You can’t exert a creature unless an effect allows you to do so. Similar effects that “tap and freeze” a creature (such as that of Decision Paralysis) don’t exert that creature.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/O.md#oketras-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/17/oketras-avenger) · oracle_id `8f064160-3afe-408a-85b4-b335eae8571c` · printing: HOU #17 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra's Last Mercy
@@ -156,6 +159,7 @@ schema: 2
   - *2017-04-18* — Each Monument has one ability that reduces the cost of creature spells of a certain color, and a triggered ability that triggers whenever you cast any creature spell—not just a creature spell of that color.
   - *2017-04-18* — Each Monument's triggered ability triggers as the creature spell is cast and resolves before that creature spell resolves. The ability will resolve even if that creature spell is countered.
   - *2017-04-18* — To determine the total cost of a creature spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions. The mana value of the creature remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/O.md#oketras-monument)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/188/oketras-monument) · oracle_id `0370afa0-07d3-4787-8a5b-10272cb3a486` · printing: DMC #188 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oketra the True
@@ -172,6 +176,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-04-18* — Once Oketra has attacked or blocked, it will remain in combat even if the number of other creatures you control becomes two or fewer.
   - *2017-04-18* — You don't have to attack with three other creatures for Oketra to be able to attack. The same is true of blocking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#oketra-the-true)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/21/oketra-the-true) · oracle_id `646e68c8-cc42-4d6c-8363-a18b10a10eae` · printing: AKH #21 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okiba-Gang Shinobi
@@ -289,6 +294,7 @@ schema: 2
   - *2025-11-17* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-11-17* — The effect of Oko, Lorwyn Liege's first loyalty ability lasts indefinitely. It doesn't expire during the cleanup step or when Oko leaves the battlefield or transforms.
   - *2025-11-17* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-lorwyn-liege--oko-shadowmoor-scion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/61/oko-lorwyn-liege-oko-shadowmoor-scion) · oracle_id `a0c956dc-d7de-4f11-b76f-7537fbee1731` · printing: ECL #61 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oko's Accomplices
@@ -349,6 +355,7 @@ schema: 2
   - *2024-04-12* — The spell or ability that constituted a crime doesn't have to have resolved yet or at all. As soon as you're finished casting the spell, activating the ability, or putting the triggered ability on the stack, you've committed a crime.
   - *2024-04-12* — When Oko becomes a copy of the target creature, he's neither entering nor leaving the battlefield. Any enters-the-battlefield or leaves-the-battlefield abilities won't trigger.
   - *2024-04-12* — While Oko is a copy of a creature, he isn't a planeswalker. He won't have his loyalty abilities, and damage dealt to him won't cause him to lose loyalty counters.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-the-ringleader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/223/oko-the-ringleader) · oracle_id `4372b729-dc3d-4469-8fc5-811cc787d653` · printing: OTJ #223 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oko, the Trickster
@@ -369,6 +376,7 @@ schema: 2
   - *2019-10-04* — Oko copies the printed values of the target creature. It won't copy counters on that creature or effects that have changed its power, toughness, types, color, or so on. Notably, it won't copy effects that made the target creature become a creature if it isn't normally a creature.
   - *2019-10-04* — Oko's last ability affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won't be 10/10.
   - *2019-10-04* — While Oko is a creature, he isn't a planeswalker. Damage dealt to him won't cause him to lose loyalty.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/O.md#oko-the-trickster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/309/oko-the-trickster) · oracle_id `f4bf8bd1-71b0-4eb1-976c-54677238b2a6` · printing: ELD #309 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oko, Thief of Crowns
@@ -396,6 +404,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/O.md#oko-thief-of-crowns)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/197/oko-thief-of-crowns) · oracle_id `60c60923-ff1b-43f7-8768-731499fcffc9` · printing: ELD #197 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Okoye, Dora Milaje Leader

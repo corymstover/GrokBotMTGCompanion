@@ -310,6 +310,7 @@ schema: 2
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
   - *2025-10-02* — When the creature is exiled, Auras attached to the exiled creature will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#airbender-ascension)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/6/airbender-ascension) · oracle_id `c4d2fdf9-637d-4e97-ae33-45f2d27bf8cd` · printing: TLA #6 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airbender's Reversal
@@ -350,6 +351,7 @@ schema: 2
   - *2025-10-02* — Since you are using an alternative cost to cast a spell from exile this way, you can't pay any other alternative costs. You can, however, pay additional costs, such as kicker costs. If the card has any mandatory additional costs, you must pay those.
   - *2025-10-02* — To airbend one or more permanents and/or spells means to exile each of those objects. For each card exiled this way, for as long as it's exiled, its owner may cast it from exile by paying {2} rather than paying its mana cost.
   - *2025-10-02* — Tokens exiled this way will cease to exist and cannot be cast.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#airbending-lesson)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/8/airbending-lesson) · oracle_id `e101b744-9175-4aa5-bf80-d6944359e538` · printing: TLA #8 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Bladder
@@ -378,6 +380,7 @@ schema: 2
   > *—Commander Eesha*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7402 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#airborne-aid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ons/62/airborne-aid) · oracle_id `7f715f72-5444-4ab3-a6ca-3d5bfd0d4851` · printing: ONS #62 (2002-10-07) · [rulings](https://api.scryfall.com/cards/0aaa43b0-601f-4b99-a328-541b04d5696d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air-Cult Elemental
@@ -442,6 +445,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24465 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#air-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/44/air-elemental) · oracle_id `7744bae4-a8b7-44a5-9b4c-0048ad4cc448` · printing: M20 #44 (2019-07-12) · [rulings](https://api.scryfall.com/cards/a27efec0-40c4-48bc-a21a-3af28a6529b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Airlift Chaplain
@@ -498,6 +502,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24765 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#air-nomad-student)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/75/air-nomad-student) · oracle_id `a468f6ab-c0a8-4295-8b01-7147d3f889b4` · printing: TLE #75 (2025-11-21) · [rulings](https://api.scryfall.com/cards/18e539c8-f0c5-4715-97a5-b060d996eef2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Air Response Unit

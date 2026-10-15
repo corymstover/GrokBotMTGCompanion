@@ -92,6 +92,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12294 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-11-10* — Eyeblight Massacre affects only creatures that aren't Elves at the time it resolves. Creatures that enter the battlefield later in the turn won't get -2/-2, and creatures that become Elves or stop being Elves won't get or lose -2/-2.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/E.md#eyeblight-massacre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/49/eyeblight-massacre) · oracle_id `3b90dd70-798e-4dc4-99e7-b36d6823af2b` · printing: KHC #49 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eyeblight's Ending
@@ -123,6 +124,7 @@ schema: 2
 - **Keywords:** Flying, Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10438 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/E.md#eye-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/86/eye-collector) · oracle_id `553c2006-e123-406e-ab4a-1d1f67c7468c` · printing: ELD #86 (2019-10-04) · [rulings](https://api.scryfall.com/cards/2b9bb2f3-a7c7-4e8f-ba39-44e6acd9240b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye for an Eye
@@ -270,6 +272,7 @@ schema: 2
   - *2025-06-06* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2025-06-06* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent protects, or the player that goaded it.
   - *2025-06-06* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eye-of-nidhogg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/44/eye-of-nidhogg) · oracle_id `c288f184-0beb-4cc9-9b0a-5f3c4b9e70d7` · printing: FIC #44 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Nowhere
@@ -363,6 +366,7 @@ schema: 2
   - *2010-03-01* — Eye of Ugin doesn’t have a mana ability.
   - *2010-03-01* — Eye of Ugin’s second ability lets you find any colorless creature card in your deck, such as an artifact creature card that has no colored mana symbols in its mana cost, or a creature card that’s become colorless due to Mycosynth Lattice.
   - *2013-04-15* — Mistform Ultimus and creatures with changeling are Eldrazi. If they become colorless, possibly due to Mycosynth Lattice, Eye of Ugin would reduce the cost to cast them by {2}.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/E.md#eye-of-ugin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm2/242/eye-of-ugin) · oracle_id `10d13ff6-c4d0-4753-8939-a8a90f0e92bb` · printing: MM2 #242 (2015-05-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Vecna
@@ -376,6 +380,7 @@ schema: 2
   > *"I see all things as they truly are! I see . . . decay in all flesh, and betrayal in every heart."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7123 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eye-of-vecna)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/243/eye-of-vecna) · oracle_id `371a7bbf-5890-46d8-ae57-f020c103b465` · printing: AFR #243 (2021-07-23) · [rulings](https://api.scryfall.com/cards/b91e2431-500e-441a-881d-094ebef62283/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye of Yawgmoth
@@ -477,6 +482,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/E.md#eyes-of-the-wisent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/210/eyes-of-the-wisent) · oracle_id `3c59ab03-8744-4148-be06-eb1b0147f2cc` · printing: LRW #210 (2007-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Eye Spy
@@ -518,4 +524,5 @@ schema: 2
   - *2021-04-16* — If instructed to learn, you may do nothing. Discarding a card and putting a Lesson card into your hand are both optional.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Constructed tournament (or a Constructed game played under tournament conditions), you may select only a card from your sideboard. In casual Constructed games, the card comes from your collection.
   - *2021-04-16* — If you bring a card into the game from outside the game in a Sealed Deck or Booster Draft event, you may select only a card that is in the card pool that you built your deck from.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/E.md#eyetwitch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/stx/70/eyetwitch) · oracle_id `6a7a5e93-fea8-4aa0-a2b1-73d466220cfb` · printing: STX #70 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

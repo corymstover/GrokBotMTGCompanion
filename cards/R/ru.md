@@ -445,6 +445,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2165 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-09-01* — If you controlled a creature with power 4 or greater when you declared Ruby as an attacker, it doesn't matter whether you still control one as her triggered ability resolves. Ruby will still get +2/+2 until end of turn.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#ruby-daring-tracker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/245/ruby-daring-tracker) · oracle_id `5d1b0eee-3a7a-4f22-a40d-7658a368962a` · printing: FDN #245 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruby Leech
@@ -461,6 +462,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28902 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ruby-leech)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/161/ruby-leech) · oracle_id `ec6195a0-2701-40a4-882f-eb563668791a` · printing: INV #161 (2000-10-02) · [rulings](https://api.scryfall.com/cards/be621b12-4f4e-43a6-b65e-da4223e742b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruby Medallion
@@ -478,6 +480,7 @@ schema: 2
   - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#ruby-medallion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/295/ruby-medallion) · oracle_id `0c367958-729e-416d-988b-098e90e7a1fd` · printing: MH3 #295 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rude Awakening
@@ -510,6 +513,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-11-12* — If a game in a match is a draw, no player lost that game, even if the game was a draw because both players lost the game at the same time.
   - *2019-11-12* — Once Ruff is revealed in any zone, for the rest of the match, any spell or ability that references the Hound creature type instead references the Dog creature type and all Hounds are Dogs instead. This isn’t a type-changing or text-changing effect. It’s simply time-traveling errata that has been, will have been, or may will be issued.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ruff-underdog-champ)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/10/ruff-underdog-champ) · oracle_id `fe4c1292-d68f-46b4-9e96-80f195753656` · printing: CMB2 #10 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rufus Shinra
@@ -523,6 +527,7 @@ schema: 2
   > *"I'll control the world with fear. It takes too much to do it like my old man."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12938 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rufus-shinra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/238/rufus-shinra) · oracle_id `0caeb396-e574-4e80-a1f6-79988fe9ba19` · printing: FIN #238 (2025-06-13) · [rulings](https://api.scryfall.com/cards/f5fff00b-c9a0-4e90-abc0-349f8716c885/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rugged Highlands
@@ -538,6 +543,7 @@ schema: 2
   > *—Taklai, Mardu convoy*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1443 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/R.md#rugged-highlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/265/rugged-highlands) · oracle_id `6c922206-6e68-4dcd-9559-88da1074f2c4` · printing: TDM #265 (2025-04-11) · [rulings](https://api.scryfall.com/cards/31261eca-28ad-407c-84ef-0c124d0d7451/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rugged Prairie
@@ -551,6 +557,7 @@ schema: 2
   > *Hobs bury their kin far from home. They believe the dry, open ground keeps hags from stealing the bones and gwyllions from stealing the spirits.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #281 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#rugged-prairie)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/401/rugged-prairie) · oracle_id `8e7641e1-e814-4d5a-9cb3-71ad2f4ceee8` · printing: SOC #401 (2026-04-24) · [rulings](https://api.scryfall.com/cards/6bd21c9e-de16-4ee9-ae16-6e82b490109d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rug of Smothering
@@ -610,6 +617,7 @@ schema: 2
   > *—Oracle \*en\*-Vec*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8423 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#ruination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmd/134/ruination) · oracle_id `59dbc873-72d9-4e7b-9442-2c7b8e8523e1` · printing: CMD #134 (2011-06-17) · [rulings](https://api.scryfall.com/cards/6330d925-96a8-47e1-855d-035ddc2af709/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruination Guide
@@ -631,6 +639,7 @@ schema: 2
   - *2015-08-25* — If the player has no cards in their library when the ingest ability resolves, nothing happens. That player won’t lose the game (until they have to draw a card from an empty library).
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
   - *2015-08-25* — The card exiled by the ingest ability is exiled face up.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#ruination-guide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/64/ruination-guide) · oracle_id `3394ce74-c352-4ae1-a7bb-f6ef8ac1c810` · printing: BFZ #64 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruination Rioter
@@ -674,6 +683,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#ruin-crab)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/75/ruin-crab) · oracle_id `8afc00d4-a1c6-4329-af2c-a7f58a0c33e7` · printing: ZNR #75 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruin Ghost
@@ -717,6 +727,7 @@ schema: 2
 - **Keywords:** Devoid
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23839 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#ruin-in-their-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/122/ruin-in-their-wake) · oracle_id `68adbc52-34dd-47c4-bb1c-0c51033fe7cc` · printing: OGW #122 (2016-01-22) · [rulings](https://api.scryfall.com/cards/5a0ff591-e4d9-4b62-ac9c-7962fd815226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruin-Lurker Bat
@@ -826,6 +837,7 @@ schema: 2
   > *—General Kudro*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #651 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#ruinous-ultimatum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/204/ruinous-ultimatum) · oracle_id `a6f38908-aa4f-4f99-a28e-85d11dab52e4` · printing: IKO #204 (2020-04-24) · [rulings](https://api.scryfall.com/cards/50c1d6ca-7789-46b5-bc89-85cc3915cb85/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruinous Waterbending
@@ -966,6 +978,7 @@ schema: 2
   - *2005-10-01* — If the Egg is destroyed while under the control of another player, the controller of the Egg gets the Bird.
   - *2005-10-01* — If the Egg is exiled instead of being put into the graveyard, no Bird is put onto the battlefield.
   - *2005-10-01* — Text-changing effects can be used to change the color of the Bird that will be put onto the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rukh-egg)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/214/rukh-egg) · oracle_id `98116aec-2ab1-4bee-b727-9feff6274825` · printing: 9ED #214 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rule of Law
@@ -980,6 +993,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — If you cast a spell that was countered, you can’t cast another spell during the same turn.
   - *2019-07-12* — Rule of Law looks at the entire turn to see if a player has cast a spell, even if Rule of Law wasn’t on the battlefield when that spell was cast. Notably, you can’t cast Rule of Law and then cast another spell during the same turn.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#rule-of-law)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/35/rule-of-law) · oracle_id `53e88e64-6f82-4154-a66e-6aeb0154b368` · printing: M20 #35 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rules Lawyer
@@ -1044,6 +1058,7 @@ schema: 2
   - *2024-11-08* — You can look at any player’s face-up conspiracies at any time. You’ll also know how many face-down conspiracies a player has in the command zone, although you won’t know what they are.
   - *2024-11-08* — You don’t have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can’t put conspiracies into the command zone after this point.
   - *2024-11-08* — Zero is even, so you can attack with zero creatures. One, however, is odd.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rule-with-an-even-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/505/rule-with-an-even-hand) · oracle_id `23a31434-6923-47bb-9d6e-ae774573116e` · printing: MB2 #505 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rulik Mons, Warren Chief
@@ -1201,6 +1216,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10212 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2012-07-01* — Discarding a card is part of the cost to activate Rummaging Goblin's ability. If you don't have a card in your hand, you can't pay this part of the cost and you can't activate the ability.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#rummaging-goblin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/198/rummaging-goblin) · oracle_id `2055eb91-ee36-4752-a6dc-581eaef335c8` · printing: CMR #198 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rummaging Wizard
@@ -1293,6 +1309,7 @@ schema: 2
   > *—Korax, officer of the \*I.K.S. Gr'oth\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6975 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/R.md#run-amok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/582/run-amok) · oracle_id `d463de75-8d3c-4077-a2cc-c304a63acc69` · printing: TRC #582 (2026-11-13) · [rulings](https://api.scryfall.com/cards/b18e1c55-29bc-434f-85b7-765d7ba71ff3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Run Ashore
@@ -1356,6 +1373,7 @@ schema: 2
   - *2018-10-05* — If Runaway Steam-Kin has three or more +1/+1 counters on it after you’re done paying for a red spell, its ability doesn’t trigger at all. If it has three or more +1/+1 counters on it as its triggered ability resolves, it doesn’t get a +1/+1 counter.
   - *2018-10-05* — Runaway Steam-Kin has to be on the battlefield for its ability to trigger. Casting it won’t trigger its own ability.
   - *2018-10-05* — Runaway Steam-Kin’s triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#runaway-steam-kin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/115/runaway-steam-kin) · oracle_id `eb414a8f-566f-4635-80a1-77b2e18ac8dc` · printing: GRN #115 (2018-10-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Run Away Together
@@ -1374,6 +1392,7 @@ schema: 2
   - *2024-07-26* — If one of the two target creatures becomes an illegal target, Run Away Together can still determine its controller only to check whether the other creature is a legal target. If the illegal target has left the battlefield, use its last known information. If the other creature is still a legal target, it's returned to its owner's hand.
   - *2025-11-17* — If both creatures are controlled by the same player as Run Away Together tries to resolve, both targets are illegal. The spell doesn't resolve.
   - *2025-11-17* — If one of the two target creatures becomes an illegal target, Run Away Together can still determine its controller only to check whether the other creature is a legal target. If the illegal target has left the battlefield, use its last known information. If the other creature is still a legal target, it's returned to its owner's hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#run-away-together)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/67/run-away-together) · oracle_id `290faa28-450e-4797-9a8f-642d8af3f82a` · printing: ECL #67 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runaway Trash-Bot
@@ -1417,6 +1436,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4535 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — If Rundvelt Hordemaster and one or more other Goblins you control die at the same time, its ability will trigger once for each of them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rundvelt-hordemaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/142/rundvelt-hordemaster) · oracle_id `1e080c7d-102c-4d28-bcb9-62b36d400d13` · printing: DMU #142 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runeboggle
@@ -1548,6 +1568,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-06-23* — Runed Halo can't protect you from tokens unless those tokens have the same name as the card name you choose.
   - *2020-06-23* — Some cards can have alternative names, such as split cards, adventurer cards, double-faced cards, and so on. You may choose one of the two names the card can have; Runed Halo won't protect you from the other name.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#runed-halo)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/32/runed-halo) · oracle_id `14cefb15-d833-4c70-80c9-f2d34b6c846b` · printing: M21 #32 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runed Servitor
@@ -1595,6 +1616,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Steps in each phase play out as normal. For example, when you take your beginning phase, you’ll have an untap step, an upkeep step, and a draw step, and then the next player in turn order will take their beginning phase.
   - *2024-11-08* — When the phase during which Runed Terror entered the battlefield ends, the next player in turn order will begin that same phase.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#runed-terror)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/610/runed-terror) · oracle_id `bf1a8680-7e90-4492-ac70-0ff11f9213dd` · printing: MB2 #610 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runeflare Trap
@@ -1844,6 +1866,7 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#runescale-stormbrood--chilling-screech)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/221/runescale-stormbrood-chilling-screech) · oracle_id `af7db15c-93af-4c7e-a028-42181d91a923` · printing: TDM #221 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rune-Scarred Demon
@@ -1859,6 +1882,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1310 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#rune-scarred-demon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/184/rune-scarred-demon) · oracle_id `14aefe99-fb60-4f1c-a71f-7ffbe94c8b13` · printing: FDN #184 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1eae3165-554d-4759-8f18-794e2a7d8464/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rune-Sealed Wall
@@ -1973,6 +1997,7 @@ schema: 2
   - *2018-07-13* — Runic Armasaur's ability doesn't trigger when an opponent activates an ability of a card in hand (such as a cycling ability from the Amonkhet block) or a card in a graveyard (such as that of Bone Dragon), even if that causes a card to be put onto the battlefield.
   - *2018-07-13* — Runic Armasaur's ability doesn't trigger when an opponent activates an ability of a noncreature, nonland permanent that causes it to become a creature (such as a crew ability of a Vehicle).
   - *2018-07-13* — Runic Armasaur's ability resolves before the ability that caused it to trigger. Players can cast spells and activate abilities after the triggered ability resolves but before the activated ability that caused it to trigger does.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#runic-armasaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/256/runic-armasaur) · oracle_id `48e8ae59-a234-498e-9dae-bac8d1424ea5` · printing: LCC #256 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Runic Repetition
@@ -2047,6 +2072,7 @@ schema: 2
   - *2021-11-19* — If the copied creature was copying something else, the token enters the battlefield as whatever that creature was copying.
   - *2021-11-19* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, it doesn't copy any effects that may have turned a noncreature permanent into a creature. If the token isn't a creature as it enters the battlefield, it won't be attacking.
   - *2021-11-19* — You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Krothuss, Lord of the Deep is attacking.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#runo-stromkirk--krothuss-lord-of-the-deep)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/246/runo-stromkirk-krothuss-lord-of-the-deep) · oracle_id `70d7d1a7-9d39-44ec-a4ea-a70ffa453d23` · printing: VOW #246 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Run Out of Town
@@ -2096,6 +2122,7 @@ schema: 2
   > *All creatures have an inner fire. Releasing it can be dangerous.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18666 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rupture)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/97/rupture) · oracle_id `d2179a54-4b45-4b67-a31c-aa1a7bcfda2c` · printing: NEM #97 (2000-02-14) · [rulings](https://api.scryfall.com/cards/db53c1fb-3641-44a3-b0b4-b7b2ba993646/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rupture Spire
@@ -2125,6 +2152,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-11-19* — A creature's training ability triggers only when both that creature and a creature with greater power are declared as attackers. Increasing a creature's power after attackers are declared won't cause a training ability to trigger.
   - *2021-11-19* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rural-recruit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vow/216/rural-recruit) · oracle_id `fda06d9e-d17f-4bb6-916b-06116e47c8e8` · printing: VOW #216 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruric Thar, Biomagus
@@ -2463,6 +2491,7 @@ schema: 2
   - *2024-11-08* — To conjure a card in a game of tabletop Magic, use the Gatherer card database at Gatherer.Wizards.com to find the official text for the card you’re conjuring. Then put the appropriate conjured card into the appropriate zone.
   - *2024-11-08* — You can represent conjured cards using objects from outside the game so long as the game state remains clear and understandable to all players. You might need to get creative. For example, while a conjured card is in a public zone, you can represent it by writing on a piece of paper or using some kind of token. But if a conjured card is put into a hidden zone, you must add an object to that zone which, while face down, is indistinguishable from other cards in your deck.
   - *2024-11-08* — You do not need to own an actual copy of a card in order to conjure it, and a conjured card does not need to obey format legality or deckbuilding restrictions. For example, in a game of Mystery Booster 2 Limited, Toralf’s Disciple can conjure Lightning Bolts into your deck, even though the card Lightning Bolt isn’t found in Mystery Booster 2 and isn’t normally legal in the Limited format.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rusko-clockmaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/263/rusko-clockmaker) · oracle_id `ccb456a0-3abd-4bde-a453-20d2da210e05` · printing: MB2 #263 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Russet Wolves
@@ -2591,6 +2620,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-07-25* — If Rust Harvester leaves the battlefield before its last ability resolves, it won’t have a +1/+1 counter put on it when the ability resolves. Use its power as it last existed on the battlefield to determine how much damage is dealt.
   - *2025-07-25* — If the target is illegal as Rust Harvester’s last ability tries to resolve, it won’t resolve and none of its effects will happen. You won’t put a +1/+1 counter on Rust Harvester.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rust-harvester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/159/rust-harvester) · oracle_id `9ad956c8-71d3-436f-961e-e2dfc1d2ca70` · printing: EOE #159 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rustic Clachan
@@ -2727,6 +2757,7 @@ schema: 2
   - *2024-07-26* — The token copies exactly what was printed on the original creature and nothing else, except it’s a 1/1 (unless that creature is copying something else; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its types, color, or so on.
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rust-shield-rampager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/190/rust-shield-rampager) · oracle_id `23878990-dcbd-4a2a-b4f7-ee7edb396c71` · printing: BLB #190 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rustspore Ram
@@ -2772,6 +2803,7 @@ schema: 2
 - **Keywords:** Indestructible
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1243 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#rustvale-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/175/rustvale-bridge) · oracle_id `a3faf70d-c034-4692-9e92-1922029e3852` · printing: EOC #175 (2025-08-01) · [rulings](https://api.scryfall.com/cards/da54e458-1d4f-45f0-a225-99eb9c4049fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rustvine Cultivator
@@ -2988,6 +3020,7 @@ schema: 2
   - *2014-09-20* — The face-down spell has no mana cost and has a mana value of 0. When you cast a face-down spell, put it on the stack face down so no other player knows what it is, and pay {3}. This is an alternative cost.
   - *2014-09-20* — When the spell resolves, it enters the battlefield as a 2/2 creature with no name, mana cost, creature types, or abilities. It's colorless and has a mana value of 0. Other effects that apply to the creature can still grant it any of these characteristics.
   - *2014-09-20* — You must ensure that your face-down spells and permanents can easily be differentiated from each other. You're not allowed to mix up the cards that represent them on the battlefield in order to confuse other players. The order they entered the battlefield should remain clear. Common methods for doing this include using markers or dice, or simply placing them in order on the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ruthless-ripper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/107/ruthless-ripper) · oracle_id `cfbcd70b-d3a9-47e9-a8b3-b8134d00dff8` · printing: A25 #107 (2018-03-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruthless Sniper
@@ -3019,6 +3052,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2092 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/R.md#ruthless-technomancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/35/ruthless-technomancer) · oracle_id `4e58ad76-37c7-4531-b207-6890b39a2679` · printing: NEC #35 (2022-02-18) · [rulings](https://api.scryfall.com/cards/dddeb5cc-b535-4484-8a0e-ce32c4c09000/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruthless Waterbender
@@ -3051,6 +3085,7 @@ schema: 2
   > *"I count the usurpers with my dagger, one death blow at a time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7254 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/R.md#ruthless-winnower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/10/ruthless-winnower) · oracle_id `61f68cf6-e083-4264-89b4-cc17749b2a8b` · printing: KHC #10 (2021-02-05) · [rulings](https://api.scryfall.com/cards/886ef13a-4f9d-425b-a071-6366cdb637c8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ruxa, Patient Professor

@@ -60,6 +60,7 @@ schema: 2
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3546 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rapacious-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/229/rapacious-dragon) · oracle_id `0944ec2e-1dd9-459f-8f1d-667242cf52fe` · printing: TDC #229 (2025-04-11) · [rulings](https://api.scryfall.com/cards/1098504a-977a-4733-a1ee-086461113a84/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapacious Guest
@@ -81,6 +82,7 @@ schema: 2
   - *2024-11-08* — If an effect refers to a Food, it means any Food artifact, not just a Food artifact token. For example, you can sacrifice Tough Cookie (an Artifact Creature — Food Golem) to activate Maraleaf Rider's ability (an ability with "Sacrifice a Food" in its cost).
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rapacious-guest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/28/rapacious-guest) · oracle_id `54accd4a-b471-4ae5-b3b2-a5cec44023b7` · printing: LTC #28 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapacious One
@@ -108,6 +110,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5764 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#raphael-fiendish-savior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/292/raphael-fiendish-savior) · oracle_id `23bd166b-d766-4d03-8016-6708481d2195` · printing: CLB #292 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cc6902a4-2db0-47fe-ace8-0c890675bf19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, Most Attitude
@@ -200,6 +203,7 @@ schema: 2
   - *2026-01-27* — The damage is dealt by the same source as the original source of damage. The doubled damage isn't dealt by Raphael unless he was the original source of damage.
   - *2026-01-27* — To have two commanders, both must have appropriate partner abilities as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2026-01-27* — You can have two commanders if each one has "Partner—Character select." You can't mix and match them with cards that have other partner abilities.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#raphael-the-muscle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/4/raphael-the-muscle) · oracle_id `22008c3b-6e15-41cc-a15c-7871495191aa` · printing: TMC #4 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, the Nightwatcher
@@ -218,6 +222,7 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/R.md#raphael-the-nightwatcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/103/raphael-the-nightwatcher) · oracle_id `8c1e5b25-ee5a-4ea9-a715-08dd1a4f51c4` · printing: TMT #103 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raphael, Tough Turtle
@@ -332,6 +337,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-01-24* — If the creature is an illegal target when Rapid Hybridization tries to resolve, it won't resolve and none of its effects will happen. No Frog Lizard token will be created.
   - *2013-07-01* — If Rapid Hybridization resolves and the creature isn't destroyed (perhaps because it has indestructible), its controller will still get the Frog Lizard token.
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 2 card data) → [reverse index](../../references/R.md#rapid-hybridization)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/198/rapid-hybridization) · oracle_id `06692cd9-ac2f-4a32-8fd1-043ba3c0fe71` · printing: SOC #198 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rapid Prototyper

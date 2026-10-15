@@ -102,6 +102,7 @@ schema: 2
   - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#badgermole-cub)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/167/badgermole-cub) · oracle_id `2b0afb89-0944-4861-b9c3-e909e2ac215e` · printing: TLA #167 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badgey, Malicious Glitch
@@ -115,6 +116,7 @@ schema: 2
   > *"Can I teach you a lesson?"*
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: #31416 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#badgey-malicious-glitch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trc/152/badgey-malicious-glitch) · oracle_id `227fb13b-0a07-4937-9048-7cf02efbc8e3` · printing: TRC #152 (2026-11-13) · [rulings](https://api.scryfall.com/cards/294e0651-99b4-4792-8ee8-107e7484117d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad Knight
@@ -143,6 +145,7 @@ schema: 2
   - *2004-10-04* — This card is a Mountain and a Swamp even while in the graveyard, library, or any other zone.
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 44 pages (38 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#badlands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/291/badlands) · oracle_id `13ff3222-91cb-4796-a34e-899ed817694c` · printing: VMA #291 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Badlands Revival
@@ -165,6 +168,7 @@ schema: 2
   > Black creatures get +1/+1.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7303 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bad-moon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gvl/48/bad-moon) · oracle_id `fc5d3341-cbce-49e5-93cc-8add92479dca` · printing: GVL #48 (2014-12-05) · [rulings](https://api.scryfall.com/cards/8f8a75da-ea3c-43e7-9d32-1c92f8ec0fd2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bad River
@@ -177,4 +181,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6876 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Because the “search” requires you to find a card with certain characteristics, you don't have to find the card if you don't want to.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bad-river)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/197/bad-river) · oracle_id `259fc423-d078-4668-9e95-8c1a0d2e49ba` · printing: DMC #197 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

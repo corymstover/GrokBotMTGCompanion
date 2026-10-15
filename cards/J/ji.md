@@ -55,6 +55,7 @@ schema: 2
   > −5: Until end of turn, target creature gains trample and gets +X/+X, where X is the number of lands you control.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #20618 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 lore & story · 2 card data) → [reverse index](../../references/J.md#jiang-yanggu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/22/jiang-yanggu) · oracle_id `b15c8f43-685d-4901-9cad-47bc6dc6346f` · printing: GS1 #22 (2018-06-22) · [rulings](https://api.scryfall.com/cards/eb8dae9a-dac2-4b80-b546-852b989bd8c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Alone
@@ -71,6 +72,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24093 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2026-08-21* — A creature attacks a player alone if no other creatures are declared as attackers attacking that player. It doesn't matter if other creatures are declared as attackers attacking planeswalkers that player controls, battles they protect, or other players.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jiang-yanggu-alone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/246/jiang-yanggu-alone) · oracle_id `fa8b3557-b35a-4a68-ab85-cf09683f3bc5` · printing: FRA #246 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Never Alone
@@ -85,6 +87,7 @@ schema: 2
   > *"I traveled with Mowu as a Planeswalker. Now I do so through Omenpaths. Neither of us are complaining about the longer walk."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18816 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jiang-yanggu-never-alone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/261/jiang-yanggu-never-alone) · oracle_id `4ba661d7-1cb8-4fec-bfaa-5f2797235fcf` · printing: FRA #261 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f5a0bb3e-8119-4739-8684-e61d1d607dcb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiang Yanggu, Wildcrafter
@@ -97,6 +100,7 @@ schema: 2
   > −1: Put a +1/+1 counter on target creature.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6431 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/J.md#jiang-yanggu-wildcrafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/164/jiang-yanggu-wildcrafter) · oracle_id `04f2c320-dfcc-440a-9e24-3c2083d74e7c` · printing: WAR #164 (2019-05-03) · [rulings](https://api.scryfall.com/cards/10e0d47d-b13c-4d48-881f-8aaa347ef209/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jibbirik Omnivore
@@ -142,6 +146,7 @@ schema: 2
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
   - *2025-06-06* — When playing a card as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The resulting spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2025-06-06* — You must still follow any timing restrictions and permissions for the card you play from exile. In the case of any of the five lands in this release, you'll be able to play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jidoor-aristocratic-capital--overture)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/284/jidoor-aristocratic-capital-overture) · oracle_id `bd513d9d-5aa2-4860-bd86-8b5d9430f133` · printing: FIN #284 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jiffy, Vehicle Repairer
@@ -167,6 +172,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings** (1):
   - *2004-10-04* — In a multi-player game, it tracks only the chosen player. This is not changed even if this card changes controllers.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jihad)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/5/jihad) · oracle_id `b18b9869-8490-4875-a5bb-484c3299f2c5` · printing: ARN #5 (1993-12-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jill, Shiva's Dominant // Shiva, Warden of Ice
@@ -196,6 +202,7 @@ schema: 2
   - *2025-06-06* — In the Commander variant, a double-faced card's color identity is determined by the mana costs and mana symbols in the rules text of both faces combined. If either face has a color indicator or basic land type, those are also considered. For example, Cecil, Dark Knight's color identity is black and white, since its front face is black and its back face has a white color indicator.
   - *2025-06-06* — The back face of a nonmodal double-faced card usually has a color indicator that defines its color.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jill-shivas-dominant--shiva-warden-of-ice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/58/jill-shivas-dominant-shiva-warden-of-ice) · oracle_id `c6655e05-9e31-4a74-a97d-1eeb473fe900` · printing: FIN #58 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jilt
@@ -236,6 +243,7 @@ schema: 2
   - *2017-11-17* — If a player has more cards in their hand than their maximum hand size during the cleanup step of that player's turn, that player discards until they have that many cards. A player's maximum hand size isn't checked at any time other than their own cleanup step.
   - *2017-11-17* — Jin-Gitaxias doesn't affect the maximum hand size of its controller. Because the cleanup step is after the end step, its controller may have to discard some of the cards that were just drawn.
   - *2017-11-17* — Unless another spell or ability is affecting your opponent's maximum hand size, Jin-Gitaxias's ability will result in your opponent having a maximum hand size of zero. They will discard each card from their hand during their cleanup step.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jin-gitaxias-core-augur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/62/jin-gitaxias-core-augur) · oracle_id `eb23aed0-c450-4e57-96f2-2866dceca004` · printing: IMA #62 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin-Gitaxias, Progress Tyrant
@@ -254,6 +262,7 @@ schema: 2
   - *2022-02-18* — Jin-Gitaxias's last ability triggers once each turn, not once each turn per opponent.
   - *2022-02-18* — The copies that Jin-Gitaxias's first ability creates are created on the stack, so they're not “cast.” Abilities that trigger when a player casts a spell won't trigger.
   - *2022-02-18* — You can't choose to pay any additional costs for the copy created by Jin-Gitaxias's first ability. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 3 pages (2 lore & story · 1 card data) → [reverse index](../../references/J.md#jin-gitaxias-progress-tyrant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/59/jin-gitaxias-progress-tyrant) · oracle_id `f5daadc1-98ff-480a-82bb-fe7bfaa7b60e` · printing: NEO #59 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin-Gitaxias // The Great Synthesis
@@ -278,6 +287,7 @@ schema: 2
   - *2023-04-14* — If a spell has {X} in its mana cost, you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2023-04-14* — If you cast a spell “without paying its mana cost,” you can’t pay any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast it.
   - *2023-04-14* — Once you’ve activated Jin-Gitaxias’s last ability, it doesn’t matter what happens to the number of cards in your hand. The ability will resolve even if you have six or fewer cards in your hand by that time.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/J.md#jin-gitaxias--the-great-synthesis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/65/jin-gitaxias-the-great-synthesis) · oracle_id `b70c3adb-64ba-49ea-bcf6-6406a58cb453` · printing: MOM #65 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jinnie Fay, Jetmir's Second
@@ -292,6 +302,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4379 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — The tokens' characteristics are entirely replaced by either 2/2 green Cat creature token with haste or 3/1 green Dog creature token with vigilance. They don't have any other abilities the tokens would have been created with. Anything else specified in the effect creating the tokens (such as tapped, attacking, “That token gains haste,” or “Exile that token at end of combat”) still applies.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jinnie-fay-jetmirs-second)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/195/jinnie-fay-jetmirs-second) · oracle_id `61fbaaf2-4286-4e9a-b9cb-aa31262b596a` · printing: SNC #195 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jin Sakai, Ghost of Tsushima
@@ -362,6 +373,7 @@ schema: 2
   > Sacrifice a creature: Target opponent gains control of this artifact. (This effect lasts indefinitely.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13760 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jinxed-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sth/137/jinxed-ring) · oracle_id `29cb8f47-7bb5-4881-98ef-59fc858cf9d7` · printing: STH #137 (1998-03-02) · [rulings](https://api.scryfall.com/cards/1c675814-094c-45d4-93ee-0f50b4755e79/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jirina, Dauntless General
@@ -377,6 +389,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6332 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-05-12* — The set of creatures affected by Jirina's last ability is determined as the ability resolves. Humans you begin to control later in the turn, non-Human creatures you control that become Human, and noncreature permanents that become Human creatures later in the turn won't gain hexproof and indestructible.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jirina-dauntless-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/32/jirina-dauntless-general) · oracle_id `fda76032-7e6f-416f-8874-2a0642837522` · printing: MAT #32 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jirina Kudro

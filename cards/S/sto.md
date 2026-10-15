@@ -207,6 +207,7 @@ schema: 2
   > *"dwelling on unnecessary details"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3728 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stocking-the-pantry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/194/stocking-the-pantry) · oracle_id `068b370f-a358-4244-8050-6c81680c55c7` · printing: BLB #194 (2024-08-02) · [rulings](https://api.scryfall.com/cards/50e95c7b-f0b2-4276-8c5e-4191b7ba35d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stocking Tiger
@@ -415,6 +416,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2019-10-04* — If the target creature is an illegal target by the time Stolen by the Fae tries to resolve, the spell won't resolve. You won't create any Faerie tokens.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stolen-by-the-fae)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/66/stolen-by-the-fae) · oracle_id `5bafd0e0-8bf8-4e06-a54a-81cc6cc4bdb7` · printing: ELD #66 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stolen Goods
@@ -444,6 +446,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31710 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2009-10-01* — If the targeted opponent is an illegal target by the time Stolen Grain resolves, the ability doesn’t resolve. You won’t gain life.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stolen-grain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/75/stolen-grain) · oracle_id `dc17836d-8edf-44bd-a9ee-346d6af25dbf` · printing: ME3 #75 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stolen Identity
@@ -473,6 +476,7 @@ schema: 2
   - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell's resolution, just after the spell's other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
   - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card's type.
   - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn't target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#stolen-identity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/233/stolen-identity) · oracle_id `30b533a3-afc3-4500-a8f0-54e84301988f` · printing: NCC #233 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stolen Stark Tech
@@ -500,6 +504,7 @@ schema: 2
   - *2018-06-08* — Casting an exiled card causes it to leave exile. You can't cast it multiple times.
   - *2018-06-08* — If you don't cast the exiled cards, they remain exiled. They can't be cast on later turns.
   - *2018-06-08* — Stolen Strategy doesn't change when you can cast the exiled card. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#stolen-strategy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/807/stolen-strategy) · oracle_id `6807167a-e290-4259-940e-3cbbfa75d0a1` · printing: CLB #807 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stolen Uniform
@@ -590,6 +595,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stomping-ground)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/299/stomping-ground) · oracle_id `16052b52-ade1-406f-a06b-ce7ea607fb63` · printing: TRK #299 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stomping Slabs
@@ -686,6 +692,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30563 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-09-20* — If a turn has multiple combat phases, the ability can only be activated before the beginning of the declare attackers step of the first combat phase in that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-catapult)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/84/stone-catapult) · oracle_id `c3ead850-3f22-4edb-ac96-40abbdf27905` · printing: PTK #84 (1999-05-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stonecloaker
@@ -703,6 +710,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — Stonecloaker's first triggered ability doesn't target any creature. Because of this, no player may take actions between the time you choose the creature to return and the time you return it.
   - *2021-03-19* — You may return Stonecloaker itself to its owner's hand as its first triggered ability resolves. If you don't control any other creature, you must return it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stonecloaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/45/stonecloaker) · oracle_id `b2d597f4-162f-4adc-9dc9-6d44815b7a68` · printing: TSR #45 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stonecoil Serpent
@@ -718,6 +726,7 @@ schema: 2
 - **Keywords:** Reach, Protection, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stonecoil-serpent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/356/stonecoil-serpent) · oracle_id `78124cd1-2658-43f3-a339-0755d84154d2` · printing: SOC #356 (2026-04-24) · [rulings](https://api.scryfall.com/cards/4909ee20-f84e-480e-8215-78946cedf877/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone-Cold Basilisk
@@ -822,6 +831,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1093 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-03-01* — When Stoneforge Mystic's second ability resolves, you may put any Equipment card from your hand onto the battlefield, not just the one you searched for with its first ability. The Equipment is put onto the battlefield unattached.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stoneforge-mystic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/31/stoneforge-mystic) · oracle_id `358789f9-7d87-411d-919e-d597da665cbd` · printing: 2XM #31 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stonefury
@@ -852,6 +862,7 @@ schema: 2
   - *2009-10-01* — If Stone Giant’s ability is activated during a turn’s end step, the delayed triggered ability won’t trigger until the beginning of the next turn’s end step. The targeted creature will be destroyed at that time.
   - *2009-10-01* — To work as an evasion ability, an attacking creature must already have flying when the declare blockers step begins. Once a creature has become blocked, giving it flying won’t change that.
   - *2009-10-01* — When the delayed triggered ability resolves, the targeted creature is destroyed, even if it’s no longer a creature, no longer under your control, or no longer has toughness less than Stone Giant’s power at that time.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-giant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddi/55/stone-giant) · oracle_id `0b8e3f9b-a4da-49a3-8545-ce7a265e5856` · printing: DDI #55 (2012-03-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone-Giant of High Pass
@@ -866,6 +877,7 @@ schema: 2
   > *The stone-giants were out and were hurling rocks at one another for a game.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21513 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-giant-of-high-pass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/113/stone-giant-of-high-pass) · oracle_id `cfaa8b7b-7bfc-4660-bbc7-a717e05df6ef` · printing: HOB #113 (2026-08-14) · [rulings](https://api.scryfall.com/cards/5f4f4683-ffd2-447a-932b-276f7fa17cca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Golem
@@ -1001,6 +1013,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If more than one Stonehorn Dignitary enters the battlefield and their abilities target the same opponent, that opponent will skip that many combat phases (over multiple turns if necessary). Skipping one combat phase won't satisfy all of the effects.
   - *2021-03-19* — Once a combat phase starts, it can't be skipped. A Stonehorn Dignitary entering the battlefield during combat won't affect that combat, even if it's the turn of the opponent chosen as the target of the triggered ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stonehorn-dignitary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m12/37/stonehorn-dignitary) · oracle_id `65368569-68bf-4498-9979-d2935942ca49` · printing: M12 #37 (2011-07-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Idol Generator
@@ -1024,6 +1037,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-idol-generator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/77/stone-idol-generator) · oracle_id `411c3636-a5b3-42fa-8020-ceacf581a4f3` · printing: M3C #77 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Idol Trap
@@ -1040,6 +1054,7 @@ schema: 2
   - *2010-03-01* — The Construct token isn’t exiled until the beginning of *your* end step. If you cast Stone Idol Trap during another player’s turn, the token remains on the battlefield after that player’s turn ends. During your next turn, it will no longer have “summoning sickness” and you’ll be able to attack with it. Then, at the beginning of that turn’s end step, it’ll be exiled.
   - *2010-03-01* — The cost-reduction ability doesn’t care who controls the attacking creatures. If you like, you may cast Stone Idol Trap during your own combat phase, in which case it will count your attacking creatures. If you do, however, the token you put onto the battlefield will be unable to attack that combat and will be exiled later that turn.
   - *2010-03-01* — This Trap doesn’t work the same way as other Traps. Rather than having an optional alternative cost, Stone Idol Trap has a mandatory cost-reduction ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-idol-trap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/wwk/93/stone-idol-trap) · oracle_id `47cd98e2-0eaf-4292-a840-c5e8d035c83c` · printing: WWK #93 (2010-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Kavu
@@ -1083,6 +1098,7 @@ schema: 2
   > *The Sun Empire's cities are built from the bones of the earth.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5873 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stone-quarry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/495/stone-quarry) · oracle_id `90bccf66-58ec-445d-ac96-c6013054a1b4` · printing: CMR #495 (2020-11-20) · [rulings](https://api.scryfall.com/cards/aa3575e1-7d2c-4777-b469-16f7483bb8e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Rain
@@ -1093,6 +1109,7 @@ schema: 2
   > Destroy target land.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13220 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-rain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/221/stone-rain) · oracle_id `6e880df6-fc00-43d2-a9c8-f575f40b78c6` · printing: 9ED #221 (2005-07-29) · [rulings](https://api.scryfall.com/cards/d2334c10-fa96-4f8e-8187-c7ecc00cbac8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Retrieval Unit
@@ -1142,6 +1159,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stone-seeder-hierophant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/184/stone-seeder-hierophant) · oracle_id `ccaea194-4b21-4485-ba08-d8d030c9418d` · printing: RAV #184 (2005-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stoneshaker Shaman
@@ -1204,6 +1222,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-06-10* — You choose any number of target players as you put Stonespeaker Crystal's ability on the stack and exile their graveyards as it resolves. You may not target a player and then choose not to exile their graveyard.
   - *2022-06-10* — You may choose to target no players while activating the last ability if you just want to draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stonespeaker-crystal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/338/stonespeaker-crystal) · oracle_id `a494fcee-6885-434c-aad5-6f83640c4472` · printing: CLB #338 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone Spirit
@@ -1236,6 +1255,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stonesplitter-bolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/151/stonesplitter-bolt) · oracle_id `1322734c-3c3e-4885-a6d2-d6460a16fca2` · printing: WOE #151 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone-Throwing Devils
@@ -1250,6 +1270,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#stone-throwing-devils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/arn/33/stone-throwing-devils) · oracle_id `124c8663-21f3-4cd8-a060-9d04be35c43f` · printing: ARN #33 (1993-12-17) · [rulings](https://api.scryfall.com/cards/d1c387dd-1347-4443-91ce-b71f7ccdceba/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stone-Tongue Basilisk
@@ -1394,6 +1415,7 @@ schema: 2
   > *Merrow schools rarely form by design. They come together naturally as eager learners surround the wisest teachers.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11643 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stonybrook-schoolmaster)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/25/stonybrook-schoolmaster) · oracle_id `7ef67bae-4af3-47b9-95d2-08f3c5a0b39d` · printing: MOR #25 (2008-02-01) · [rulings](https://api.scryfall.com/cards/69fa2293-f398-4ad8-895e-c739ddea56d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stony Silence
@@ -1409,6 +1431,7 @@ schema: 2
   - *2017-03-14* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keyword abilities, such as equip, are activated abilities and will have colons in their reminder text.
   - *2017-03-14* — No abilities of artifacts can be activated, including mana abilities.
   - *2017-03-14* — Stony Silence's ability affects only artifacts on the battlefield. Activated abilities that work in other zones (such as cycling) can still be activated. Triggered abilities (starting with "when," "whenever," or "at") are unaffected.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#stony-silence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/25/stony-silence) · oracle_id `12c63a45-7eb2-4262-b571-3358182f5610` · printing: MM3 #25 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stony Strength
@@ -1435,6 +1458,7 @@ schema: 2
   > *With the Goblins pinching and laughing at them unmercifully, Bilbo wished again and again for his nice bright Hobbit hole. Not for the last time.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #16315 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stony-voiced-goblins)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/85/stony-voiced-goblins) · oracle_id `d1dceaa7-d33e-4067-9e1b-8a8978a12933` · printing: HOB #85 (2026-08-14) · [rulings](https://api.scryfall.com/cards/6fcc3699-b475-4612-884d-81bd4f21e9c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stop Cold
@@ -1476,6 +1500,7 @@ schema: 2
   - *2004-10-04* — This card’s ability does not override effects which prevent a permanent from untapping.
   - *2005-08-01* — If another effect limits the number of permanents that untap, that number combines with Storage Matrix’s effect. For example, Imi Statue says “players can’t untap more than one artifact during their untap steps.” If both Imi Statue and an untapped Storage Matrix are on the battlefield, and you choose “artifact,” only one artifact untaps.
   - *2005-08-01* — Permanents with multiple types untap if any of their types is chosen. For example, an artifact creature untaps if either artifact or creature is chosen.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storage-matrix)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/310/storage-matrix) · oracle_id `03136fe1-17e2-4b1c-860a-dc6373c8fdb5` · printing: 9ED #310 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormbeacon Blade
@@ -1506,6 +1531,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31579 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Since the discard is a cost, it can't be used with Library of Leng.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stormbind)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsb/102/stormbind) · oracle_id `78f50668-36fc-4911-84f7-93667436b0c7` · printing: TSB #102 (2006-10-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormblood Berserker
@@ -1621,6 +1647,7 @@ schema: 2
   > *—Veyran, dean of perfection*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #184 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#stormcarved-coast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/263/stormcarved-coast) · oracle_id `4722105b-0085-4bb8-bca1-9de0d3eb5600` · printing: SOS #263 (2026-04-24) · [rulings](https://api.scryfall.com/cards/bd3ae4fa-4c97-410a-8c0a-bd203342595d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormcatch Mentor
@@ -1639,6 +1666,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-26* — The cost reduction applies only to generic mana in the total cost of instant and sorcery spells you cast.
   - *2024-07-26* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of this ability). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 rules) → [reverse index](../../references/S.md#stormcatch-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/331/stormcatch-mentor) · oracle_id `b2252471-01ca-4d58-aa99-4ab0aa5eae12` · printing: SOC #331 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Cauldron
@@ -1719,6 +1747,7 @@ schema: 2
   - *2024-07-26* — The level 3 class ability of Stormchaser's Talent resolves before the spell or ability that caused it to trigger. It resolves even if that spell is countered.
   - *2024-07-26* — There's no restriction on how many Class permanents you can control, whether they're the same or different classes. Each Class permanent tracks its own level separately.
   - *2024-07-26* — You can't activate the first level ability of a Class unless that Class is level 1. Similarly, you can't activate the second level ability of a Class unless that Class is level 2.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#stormchasers-talent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/75/stormchasers-talent) · oracle_id `00c1788d-c52f-4839-9cd8-11fb86c418b6` · printing: BLB #75 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormclaw Rager
@@ -1762,6 +1791,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31635 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stormcloud-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/11/stormcloud-spirit) · oracle_id `0dc8bdbb-996b-47d7-a5e5-7bdb6d9280fe` · printing: GS1 #11 (2018-06-22) · [rulings](https://api.scryfall.com/cards/b371bba8-08b1-468b-924b-c1f3d64bb096/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Counter
@@ -1853,6 +1883,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2011 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-10-04* — In a Two-Headed Giant game, Stormfist Crusader's triggered ability causes each team to lose 1 life twice after each player on that team has drawn a card.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#stormfist-crusader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/234/stormfist-crusader) · oracle_id `0d3bebc6-662a-4cd4-ad1e-aeed0c5e04f6` · printing: DSC #234 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Fleet Aerialist
@@ -1940,6 +1971,7 @@ schema: 2
 - **Keywords:** Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11116 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#storm-fleet-sprinter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/172/storm-fleet-sprinter) · oracle_id `8d244f4a-1d62-4697-81c7-fbc4de874add` · printing: RIX #172 (2018-01-19) · [rulings](https://api.scryfall.com/cards/41ad8525-7618-4c2b-8037-46f53dd42ee0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Fleet Spy
@@ -1992,6 +2024,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance, Ceaseless Tempest
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7183 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storm-force-of-nature)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mar/94/storm-force-of-nature) · oracle_id `7c47876d-143f-4e4c-b151-90c099e452a1` · printing: MAR #94 (2026-06-26) · [rulings](https://api.scryfall.com/cards/08cd4665-9fc3-48f1-a136-41d4585b1bb4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Front
@@ -2082,6 +2115,7 @@ schema: 2
   > *—Skotov, Tin Street basket vendor*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2873 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storm-herd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khc/33/storm-herd) · oracle_id `30aa362b-7ab1-486e-9802-1171e0dc2416` · printing: KHC #33 (2021-02-05) · [rulings](https://api.scryfall.com/cards/2345331c-a14f-4b4b-a9a4-88c5beb48242/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormkeld Prowler
@@ -2125,6 +2159,7 @@ schema: 2
   - *2023-09-01* — Once Stormkeld Vanguard has become blocked, reducing the power of a creature blocking it to 2 or less won't cause it to become unblocked.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#stormkeld-vanguard--bear-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/187/stormkeld-vanguard-bear-down) · oracle_id `8a31c49f-5b3f-4f84-a08e-58b30a6bff7c` · printing: WOE #187 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm-Kiln Artist
@@ -2144,6 +2179,7 @@ schema: 2
   - *2021-04-16* — If an effect creates a copy of an instant or sorcery spell, this will also cause the magecraft ability to trigger.
   - *2021-04-16* — If an effect creates multiple copies of an instant or sorcery spell, magecraft abilities trigger once for each copy created by the effect.
   - *2021-04-16* — Some effects instruct you to copy an instant or sorcery card in a zone other than the stack. These copies do not cause magecraft abilities to trigger. However, most effects that do this also allow you to cast the copy, and casting the copy will cause magecraft abilities to trigger.
+- **Referenced in:** 13 pages (8 decks · 4 edh guides · 1 card data) → [reverse index](../../references/S.md#storm-kiln-artist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/255/storm-kiln-artist) · oracle_id `a145ff8c-5812-4bcb-bd16-9839dc25121d` · printing: SOC #255 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm King's Thunder
@@ -2193,6 +2229,7 @@ schema: 2
   - *2025-10-02* — The copies are put directly onto the stack. They aren't cast and won't be counted by other spells with storm cast later in the turn.
   - *2025-10-02* — The instants or sorceries cast using copies of Storm of Memories go on the stack as each copy of Storm of Memories resolves, and those spells will each resolve before more copies of Storm of Memories resolve.
   - *2025-10-02* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#storm-of-memories)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/126/storm-of-memories) · oracle_id `6f8ca795-d6fd-4e3e-911c-c621a942acbb` · printing: TLE #126 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm of Saruman
@@ -2257,6 +2294,7 @@ schema: 2
   - *2025-04-04* — If a token is exiled this way, it will cease to exist and won’t return to the battlefield.
   - *2025-04-04* — If an Aura is exiled this way, its owner chooses what it will enchant as it returns to the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to a permanent with shroud, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in exile for the rest of the game.
   - *2025-04-04* — If this enchantment leaves the battlefield before its ability resolves, the target nonland permanent won’t be exiled.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#stormplain-detainment)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/28/stormplain-detainment) · oracle_id `4ad9c550-5605-4ffe-8e27-e9f2d9ada000` · printing: TDM #28 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm, Queen of Wakanda
@@ -2332,6 +2370,7 @@ schema: 2
   - *2025-04-04* — Spells cast from zones other than a player’s hand and spells that were countered or otherwise failed to resolve are counted by the storm ability.
   - *2025-04-04* — The copies are put directly onto the stack. They aren’t cast and won’t be counted by other spells with storm cast later in the turn.
   - *2025-04-04* — The triggered ability that creates the copies can itself be countered by anything that can counter a triggered ability. If it is countered, no copies will be put onto the stack.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stormscale-scion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/123/stormscale-scion) · oracle_id `cf37426d-b0ad-42c3-81be-79701aa4e0cf` · printing: TDM #123 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormscale Wurm
@@ -2469,6 +2508,7 @@ schema: 2
   > *She speaks with the voice of the winds, and the earth trembles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31594 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storm-shaman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/7ed/222/storm-shaman) · oracle_id `65e07c0f-4eff-4b38-9785-63684d67c0d8` · printing: 7ED #222 (2001-04-11) · [rulings](https://api.scryfall.com/cards/ae941462-9086-47e5-8c04-01e53195584f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormshriek Feral // Flush Out
@@ -2493,6 +2533,7 @@ schema: 2
   - *2025-04-04* — If an effect instructs you to choose a card name, you may choose the alternative Omen name. Consider only the alternative characteristics to determine whether that is an appropriate name to choose.
   - *2025-04-04* — If you cast an omen card as an Omen, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Thundermane Dragon (“You may cast creature spells with power 4 or greater from the top of your library.”) and Twinmaw Stormbrood is on top of your library, you can cast Twinmaw Stormbrood, but not Charring Bite.
   - *2025-04-04* — When casting a spell as an Omen, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#stormshriek-feral--flush-out)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/124/stormshriek-feral-flush-out) · oracle_id `e24916ff-7566-4f27-8e31-732311a4a88c` · printing: TDM #124 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm Skreelix
@@ -2603,6 +2644,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If a creature is attacking a planeswalker, the controller of the planeswalker is the defending player.
   - *2019-05-03* — Storm the Citadel affects only creatures you control at the time it resolves. Creatures you begin to control later in the turn won’t get +2/+2 or gain the triggered ability.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#storm-the-citadel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/178/storm-the-citadel) · oracle_id `bd4810a4-8f86-4d1c-82f1-cbcd7e9479d6` · printing: WAR #178 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm the Festival
@@ -2636,6 +2678,7 @@ schema: 2
   - *2023-04-14* — If all of Storm the Seedcore’s targets are illegal at the time the spell tries to resolve, it won’t resolve and none of its effects will happen. Creatures you control won’t gain vigilance and trample.
   - *2023-04-14* — If some of the creatures are illegal targets as Storm the Seedcore tries to resolve, the original distribution of counters still applies and the counters that would have been put on the illegal targets are lost. They won’t be put instead on a legal target.
   - *2023-04-14* — You choose how many targets Storm the Seedcore has and how the counters will be distributed as you cast the spell. Each target must receive at least one counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#storm-the-seedcore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/206/storm-the-seedcore) · oracle_id `ae7643ea-ef1c-43a3-9605-4e8585239ea3` · printing: MOM #206 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Storm the Vault // Vault of Catlacan
@@ -2656,6 +2699,7 @@ schema: 2
   - *2018-01-19* — In a Two-Headed Giant game, if you control more than one creature that can attack, you attack different opponents so that Storm the Vault's first ability triggers twice.
   - *2018-01-19* — Storm the Vault's first ability can trigger more than once in a turn if creatures you control deal combat damage at different times in a turn (most likely because one or more has first strike) or if creatures you control deal combat damage to more than one player at once.
   - *2018-01-19* — The last ability of Storm the Vault doesn't trigger if you don't control five or more artifacts as your end step begins. If it does trigger but you don't control five or more artifacts as it resolves, it does nothing.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#storm-the-vault--vault-of-catlacan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/173/storm-the-vault-vault-of-catlacan) · oracle_id `72205fac-a94a-45cc-94c6-40ece2fdce0e` · printing: RIX #173 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormtide Leviathan
@@ -2674,6 +2718,7 @@ schema: 2
   - *2014-07-18* — Islandwalk cares about lands with the land type Island, not necessarily lands named Island.
   - *2014-07-18* — Stormtide Leviathan's second ability causes each land on the battlefield to have the land type Island. Each land thus has the ability "{T}: Add {U}." Nothing else changes about those lands, including their names, other subtypes, other abilities, and whether they're legendary or basic.
   - *2014-07-18* — Stormtide Leviathan's third ability affects all creatures with neither flying nor islandwalk, regardless of who controls them. They can't attack any player or planeswalker.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#stormtide-leviathan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/407/stormtide-leviathan) · oracle_id `131a7475-0b9e-46eb-9ade-fef1b9820184` · printing: CMR #407 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormwatch Eagle
@@ -2740,6 +2785,7 @@ schema: 2
   - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
   - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
   - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#stormwing-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/159/stormwing-dragon) · oracle_id `10796fe6-edf8-427b-986c-e7666a72ec8d` · printing: DTK #159 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Stormwing Entity
@@ -2820,6 +2866,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32337 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — Storybook Ride doesn’t change when you can play the exiled cards. For example, if you exile a sorcery card, you can cast it only during your main phase when the stack is empty. If you exile a land card, you can play it only during your main phase and only if you have an available land play remaining.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#storybook-ride)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/229a/storybook-ride) · oracle_id `53032819-917e-4777-b37f-7cc1ac196940` · printing: UNF #229a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Story Circle

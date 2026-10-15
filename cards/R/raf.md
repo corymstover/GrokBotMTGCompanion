@@ -61,6 +61,7 @@ schema: 2
   - *2022-04-29* — Connive X is a variant of connive. If a creature connives X, its controller will draw X cards, discard X cards, then then put a number of +1/+1 counters on the conniving permanent equal to the number of nonland cards discarded this way.
   - *2024-04-12* — If no card is discarded, most likely because that player's hand is empty and an effect says they can't draw cards, the conniving creature does not receive a +1/+1 counter.
   - *2024-04-12* — Once an ability that causes a creature to connive begins to resolve, no player may take any other actions until it's done. Notably, opponents can't try to remove the conniving creature after you discard a nonland card but before it receives a counter.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#raffine-scheming-seer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/213/raffine-scheming-seer) · oracle_id `9307f7e9-bcd9-41f9-88f8-0fb9700a6b12` · printing: SNC #213 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raffine's Guidance
@@ -123,6 +124,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #419 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (1 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/R.md#raffines-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/254/raffines-tower) · oracle_id `6e9ef5ef-6aed-4d3e-a59b-9e3dc8740b1b` · printing: SNC #254 (2022-04-29) · [rulings](https://api.scryfall.com/cards/a2c56479-4bee-4edb-80d7-4af010b7c793/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Raff, Weatherlight Stalwart

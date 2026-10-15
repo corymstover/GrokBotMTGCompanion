@@ -38,6 +38,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2611 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-02-09* — Efficient Construction’s triggered ability resolves before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Referenced in:** 3 pages (1 decks · 2 edh guides) → [reverse index](../../references/E.md#efficient-construction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/88/efficient-construction) · oracle_id `5af48f87-7b94-44de-90e3-91f10ced00d3` · printing: CMM #88 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Efflorescence

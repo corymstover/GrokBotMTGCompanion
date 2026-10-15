@@ -129,6 +129,7 @@ schema: 2
   > *Mightiest of the cat warriors, Jedit Ojanen forsook the forests of his tribe and took service with the Robaran Mercenaries, rising through their ranks to lead them in the battle for Efrava.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #25900 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jedit-ojanen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/153/jedit-ojanen) · oracle_id `523cca7d-7d21-45de-b82d-58e777bf7f72` · printing: ME3 #153 (2009-09-07) · [rulings](https://api.scryfall.com/cards/701d1f89-1a4b-41a8-bdb0-972af01f78d4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen, Mercenary
@@ -140,6 +141,7 @@ schema: 2
   > Whenever Jedit Ojanen or another legendary creature you control enters, you may pay {G}. If you do, create a 2/2 green Cat Warrior creature token with forestwalk. (It can't be blocked as long as defending player controls a Forest.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21207 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jedit-ojanen-mercenary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/34/jedit-ojanen-mercenary) · oracle_id `3d80fa33-9032-4c16-8355-2f18a71af67c` · printing: DMC #34 (2022-09-09) · [rulings](https://api.scryfall.com/cards/914a4923-18a6-4aa5-8510-b02e9dc7bb41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit Ojanen of Efrava
@@ -156,6 +158,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9790 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2007-02-01* — If Jedit Ojanen of Efrava attacks or blocks and a token is created, it will be too late for that token to be declared as an attacker (if it somehow gets haste) or a blocker during that combat phase.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jedit-ojanen-of-efrava)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c17/153/jedit-ojanen-of-efrava) · oracle_id `c065a7c0-272b-4b7e-a41c-7164352cd189` · printing: C17 #153 (2017-08-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jedit's Dragoons
@@ -232,6 +235,7 @@ schema: 2
   - *2020-06-01* *(Scryfall note)* — Once you put your companion into your hand, it behaves like any other card you’ve brought into the game. For example, if it’s countered or destroyed, it’s put into your graveyard, remaining in the game.
   - *2020-06-01* *(Scryfall note)* — Wizards of the Coast has issued functional errata for the Companion mechanic. Instead of casting companions from outside the game: Once per game, any time you could cast a sorcery (during your main phase when the stack is empty), you can pay {3} to put your companion from your sideboard into your hand. This is a special action, not an activated ability. It happens immediately and can’t be responded to. It can’t be countered or stopped by cards like Phyrexian Revoker. For more information please see https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement
   - *2023-04-14* — You can spend mana from Jegantha's mana ability to pay for a hybrid symbol such as {2/W}, but only if you choose to pay the colored mana component, not the generic mana component.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/J.md#jegantha-the-wellspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/125/jegantha-the-wellspring) · oracle_id `f0587c55-06c1-4930-a62e-668f37464ce9` · printing: ECC #125 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jelenn Sphinx
@@ -270,6 +274,7 @@ schema: 2
   - *2014-02-01* — If Jeleva enters the battlefield without being cast, then no mana was spent to cast it. This means X will be 0, so no cards will be exiled.
   - *2014-02-01* — The amount of mana you spent to cast this creature is usually equal to its mana value. However, you also include any additional costs you pay, including the cost imposed for casting your commander from the command zone.
   - *2014-02-01* — You can't choose to pay extra mana to cast a creature spell unless something instructs you to.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/J.md#jeleva-nephalias-scourge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c13/194/jeleva-nephalias-scourge) · oracle_id `a014f283-c531-415c-ac00-e6773ea5d64d` · printing: C13 #194 (2013-11-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jem Lightfoote, Sky Explorer
@@ -320,6 +325,7 @@ schema: 2
 - **Keywords:** Reach, Transform, Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7291 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jennifer-walters--the-sensational-she-hulk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/18/jennifer-walters-the-sensational-she-hulk) · oracle_id `c867a778-97ef-4872-b890-b088b96a1281` · printing: MSH #18 (2026-06-26) · [rulings](https://api.scryfall.com/cards/61237530-ad49-469c-a952-67c92315708e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jennika, Bad Apple Big Sister
@@ -352,6 +358,7 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jennikas-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/93/jennikas-technique) · oracle_id `90b1226f-4c90-47fd-98f3-ad4edd3b3518` · printing: TMT #93 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenny Flint
@@ -372,6 +379,7 @@ schema: 2
   - *2023-10-13* — Note that the target player searches their library (which may be affected by effects such as that of Stranglehold) and that the card they find is revealed, even though these words aren't included in the ability's reminder text.
   - *2023-10-13* — Once a creature's training ability has triggered, destroying the other attacking creature or reducing its power won't stop the creature with training from getting a +1/+1 counter.
   - *2023-10-13* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/J.md#jenny-flint)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/136/jenny-flint) · oracle_id `d57adf99-972a-43fe-9ba2-2b01e673252f` · printing: WHO #136 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenny, Generated Anomaly
@@ -408,6 +416,7 @@ schema: 2
   - *2025-06-06* — If Jenova dies at the same time as one or more Mutants you control, its last ability will trigger for each of those Mutants (including itself if it somehow became a mutant).
   - *2025-06-06* — If Jenova isn't on the battlefield at the time its first ability resolves, use Jenova's power as it last existed on the battlefield to determine how many counters to put on the target creature.
   - *2025-06-06* — Use the power of the Mutant that died as it last existed on the battlefield to determine how many cards to draw with Jenova's last ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jenova-ancient-calamity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/228/jenova-ancient-calamity) · oracle_id `9370f6bf-d6a0-4c5b-828f-7229f563cc07` · printing: FIN #228 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jenson Carthalion, Druid Exile
@@ -463,6 +472,7 @@ schema: 2
   - *2025-10-02* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2025-10-02* — The trigger from Jeong Jeong's exhaust ability and the copy it creates both resolve before the spell that caused the ability to trigger. They resolve even if the spell is countered before the copy is created.
   - *2025-10-02* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jeong-jeong-the-deserter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/142/jeong-jeong-the-deserter) · oracle_id `2158c73d-421b-4c94-af06-dd89cb8d3126` · printing: TLA #142 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jermane, Pride of the Circus
@@ -542,6 +552,7 @@ schema: 2
   > Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2727 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/J.md#jeskai-ascendancy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/231/jeskai-ascendancy) · oracle_id `c3c802ba-dfbb-4f63-ae9a-e29c2e30013d` · printing: 2X2 #231 (2022-07-08) · [rulings](https://api.scryfall.com/cards/9a8399fc-4cba-44c5-888e-2cfc0f6739f6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Baller
@@ -563,6 +574,7 @@ schema: 2
   - *2024-11-08* — Jeskai Baller’s first ability will resolve before Jeskai Baller does. If Jeskai Baller is countered or otherwise leaves the stack in response to that triggered ability, the triggered ability will still resolve as normal.
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jeskai-baller)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/517/jeskai-baller) · oracle_id `e789e7bf-d2f9-41e8-976f-24321e8da928` · printing: MB2 #517 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeskai Banner
@@ -826,6 +838,7 @@ schema: 2
   - *2026-03-20* — There's no extra bonus if you control more than one commander.
   - *2026-03-20* — Use the number of cards in the target opponent's hand as Jeska's Will resolves to determine how much {R} to add.
   - *2026-03-20* — You pay all costs and follow all timing rules for cards played with the permission from the last mode of Jeska's Will. For example, if one of the exiled cards is a land card, you may play it only during your main phase while the stack is empty and only if you have an available land play remaining.
+- **Referenced in:** 29 pages (23 decks · 5 edh guides · 1 card data) → [reverse index](../../references/J.md#jeskas-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/156/jeskas-will) · oracle_id `0fd114c4-092b-4e28-b0dc-ef529f3bc73e` · printing: MKC #156 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Thrice Reborn
@@ -852,6 +865,7 @@ schema: 2
   - *2020-11-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 damage from any one of them, not from both of them combined.
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/J.md#jeska-thrice-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmr/186/jeska-thrice-reborn) · oracle_id `b1fbfcf3-6921-4417-a58e-0f5e5d34a105` · printing: CMR #186 (2020-11-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeska, Warrior Adept
@@ -1010,6 +1024,7 @@ schema: 2
   - *2023-07-28* — The ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-07-28* — The ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
   - *2023-07-28* — The cost reduction can apply to alternative costs such as flashback costs.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/J.md#jet-medallion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/292/jet-medallion) · oracle_id `bccb06f1-8839-4104-9ffa-c79a817f8378` · printing: MH3 #292 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir, Nexus of Revels
@@ -1024,6 +1039,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2257 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-04-29* — If a creature with double strike loses double strike after dealing damage during the first combat damage step but before dealing damage in the second combat damage step, it will not deal damage during that second combat damage step. Notably, this means that if your ninth creature dies in the first combat damage step, the rest of your creatures won't deal combat damage again unless something else is granting them double strike.
+- **Referenced in:** 3 pages (1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jetmir-nexus-of-revels)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/193/jetmir-nexus-of-revels) · oracle_id `da72a4bc-ce6f-4b72-bc66-2ee33cfa87df` · printing: SNC #193 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetmir's Fixer
@@ -1052,6 +1068,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #367 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/J.md#jetmirs-garden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/250/jetmirs-garden) · oracle_id `f5896356-5744-4f7e-a4e5-1cc36dde5958` · printing: SNC #250 (2022-04-29) · [rulings](https://api.scryfall.com/cards/26d40e03-6de4-4373-9fbf-04c1dd79e995/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetpack Death Seltzer
@@ -1066,6 +1083,7 @@ schema: 2
 - **Keywords:** Trample, Monstrosity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jetpack-death-seltzer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/20/jetpack-death-seltzer) · oracle_id `fe37c718-b3fb-4e95-a547-dd741b70421c` · printing: SUNF #20 (2022-10-07) · [rulings](https://api.scryfall.com/cards/1b09757f-22bb-4ae0-874f-67959b537da0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jetpack Janitor
@@ -1092,6 +1110,7 @@ schema: 2
   > *"Gotta be quicker next time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12763 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jet-rebel-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/78/jet-rebel-leader) · oracle_id `b9ca8ead-c267-4170-a6c8-04498330c82b` · printing: TLE #78 (2025-11-21) · [rulings](https://api.scryfall.com/cards/79d4b68c-36b9-4597-83f8-a869c5cf4b93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jet's Brainwashing
@@ -1139,6 +1158,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — Charge counters are indistinguishable from one another. If some other spell or ability (such as Power Conduit’s ability) puts a charge counter on Jeweled Amulet, activating Jeweled Amulet’s second ability will still check the type of mana last noted by its first ability. If there is no type of mana noted by its first ability (because it hasn’t been activated by that point), the second ability will produce no mana.
   - *2008-10-01* — The types of mana are white, blue, black, red, green, and colorless.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/J.md#jeweled-amulet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/75/jeweled-amulet) · oracle_id `e2ad4b4d-d5fe-4a64-9b40-296c8fc8bcce` · printing: MBC #75 (2026-10-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Bird
@@ -1151,6 +1171,7 @@ schema: 2
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The card is exchanged for your entire contribution to the ante. This means that it replaces all the cards if you have more than one already contributed.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jeweled-bird)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chr/102/jeweled-bird) · oracle_id `89f5b21c-18da-4071-bc42-9cdc433734bf` · printing: CHR #102 (1995-07-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Lotus
@@ -1164,6 +1185,7 @@ schema: 2
   > *—Emperor Ayrelion*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/J.md#jeweled-lotus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/396/jeweled-lotus) · oracle_id `23216e59-f147-4bb7-a698-12777c2f8584` · printing: CMM #396 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d7183700-6941-4a3d-a581-4f33bea795e9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jeweled Spirit

@@ -46,6 +46,7 @@ schema: 2
   - *2023-10-13* — The Doctor's companion ability allows you to have two commanders if one has the ability and the other is a legendary creature that is a Time Lord Doctor and has no other creature types. Creatures with the changeling ability, for example, can't be a second commander this way.
   - *2023-10-13* — You cast the spell as part of the resolution of Ryan's triggered ability. You can't wait and cast the spell at a later time.
   - *2023-10-13* — You may pay optional additional costs to cast that spell, such as kicker costs. If it has any mandatory additional costs, you must pay those.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/R.md#ryan-sinclair)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/94/ryan-sinclair) · oracle_id `6c06e2d5-1473-4ce6-bcf6-10dfbbe5f801` · printing: WHO #94 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rydia's Return
@@ -61,6 +62,7 @@ schema: 2
   > *—Rydia, Summoner of Mist*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14123 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#rydias-return)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/198/rydias-return) · oracle_id `0d007479-c5e8-4aa1-b53e-fa962783deee` · printing: FIN #198 (2025-06-13) · [rulings](https://api.scryfall.com/cards/40a06165-2835-4610-86a1-7f684992fcf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rydia, Summoner of Mist
@@ -108,4 +110,5 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6065 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#ryusei-the-falling-star)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/806/ryusei-the-falling-star) · oracle_id `5e99ba3b-dc2b-4c3c-84ce-228d4772cfee` · printing: CLB #806 (2022-06-10) · [rulings](https://api.scryfall.com/cards/68d57ab8-fbe0-4f01-b7f7-2a5cccd2d13a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

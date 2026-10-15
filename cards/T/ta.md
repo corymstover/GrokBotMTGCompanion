@@ -441,6 +441,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If Taeko leaves the battlefield or dies at the same time as one or more other creatures you control leave the battlefield without dying, its second ability triggers once for each of those other creatures. You will scry for each of those other creatures, but Taeko will not be on the battlefield to receive +1/+1 counters.
   - *2024-11-08* — You don't choose a target for Taeko's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {U}{B} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taeko-the-patient-avalanche)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/39/taeko-the-patient-avalanche) · oracle_id `3d3eb043-8ce6-461a-b8bc-67f0ba6cd580` · printing: J25 #39 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tah-Crop Elite
@@ -477,6 +478,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tah-crop-skirmisher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/72/tah-crop-skirmisher) · oracle_id `6fab0fa0-d082-414e-9bcf-edc0fc1f6211` · printing: AKH #72 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tahngarth, First Mate
@@ -498,6 +500,7 @@ schema: 2
   - *2019-08-23* — If an opponent is attacking a planeswalker but not that planeswalker's controller, Tahngarth can't attack that player.
   - *2019-08-23* — Players can't take any actions between the time you choose to give control of Tahngarth to the attacking player and the time it becomes an attacking creature.
   - *2019-08-23* — Tahngarth may end up attacking its owner this way.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#tahngarth-first-mate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/50/tahngarth-first-mate) · oracle_id `1a8a41a1-6fc5-4dc8-bd28-9bf404c777d7` · printing: C19 #50 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tahngarth's Glare
@@ -549,6 +552,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 4 pages (3 edh guides · 1 card data) → [reverse index](../../references/T.md#taiga)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/317/taiga) · oracle_id `22e3cf1d-3559-4ce1-954c-8dc815342979` · printing: VMA #317 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taigam, Master Opportunist
@@ -575,6 +579,7 @@ schema: 2
   - *2025-04-04* — The copy will have the same targets and modes as the original spell. If the spell divides damage or distributes counters among a number of targets, those choices apply to the copy.
   - *2025-04-04* — When the last time counter is removed, the second triggered ability of suspend (the one that lets you cast the card) triggers. It doesn’t matter why the last time counter was removed or what effect removed it.
   - *2025-04-04* — You can’t choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taigam-master-opportunist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/60/taigam-master-opportunist) · oracle_id `49f2cbc3-bd03-48e6-b1c4-d7f315b8579d` · printing: TDM #60 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taigam, Ojutai Master
@@ -653,6 +658,7 @@ schema: 2
   > {T}: Add {R} or {G}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taiga-stadium)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/120/taiga-stadium) · oracle_id `905925ed-2faa-4423-a273-e59edcd98b92` · printing: CMB2 #120 (2021-08-20) · [rulings](https://api.scryfall.com/cards/f3ec00cc-69b7-4fa9-84e4-a5969fb3745e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taii Wakeen, Perfect Shot
@@ -695,6 +701,7 @@ schema: 2
 - **Keywords:** Fight
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4227 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tail-swipe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/182/tail-swipe) · oracle_id `525d98d6-b117-44f4-b19c-3dd26e7c9fd4` · printing: DMU #182 (2022-09-09) · [rulings](https://api.scryfall.com/cards/95a39b26-8c83-40ea-b492-036251366d73/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Adversary
@@ -740,6 +747,7 @@ schema: 2
   > {T}: Add {W} or {B}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #451 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#tainted-field)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/302/tainted-field) · oracle_id `439de49b-1091-4688-9ffb-80a025df31c2` · printing: DSC #302 (2024-09-27) · [rulings](https://api.scryfall.com/cards/c6eeab6f-a738-4005-91c2-a5f81df5c569/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Indulgence
@@ -809,6 +817,7 @@ schema: 2
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tainted-observer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/217/tainted-observer) · oracle_id `420aaa77-f429-4f3d-a73e-91dc25cb38db` · printing: ONE #217 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Pact
@@ -819,6 +828,7 @@ schema: 2
   > Exile the top card of your library. You may put that card into your hand unless it has the same name as another card exiled this way. Repeat this process until you put a card into your hand or you exile two cards with the same name, whichever comes first.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #887 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 13 pages (9 decks · 2 edh guides · 2 card data) → [reverse index](../../references/T.md#tainted-pact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/164/tainted-pact) · oracle_id `1a85ba2b-ae10-4917-954a-7709b75a9740` · printing: ODY #164 (2001-10-01) · [rulings](https://api.scryfall.com/cards/c513f51b-a0db-4c08-8acc-1e91060b93b7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Peak
@@ -830,6 +840,7 @@ schema: 2
   > {T}: Add {B} or {R}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #497 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#tainted-peak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/304/tainted-peak) · oracle_id `b2bae7fc-0668-4b34-9cd6-0d80aea52275` · printing: DSC #304 (2024-09-27) · [rulings](https://api.scryfall.com/cards/7e6f1a55-0fec-4b94-9640-9110ca8d0212/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Remedy
@@ -894,6 +905,7 @@ schema: 2
   - *2011-01-01* — If damage from a source with infect that would be dealt to a player is prevented, that player doesn’t get poison counters. If damage from a source with infect that would be dealt to a creature is prevented, that creature doesn’t get -1/-1 counters.
   - *2011-01-01* — Infect’s effect applies to any damage, not just combat damage.
   - *2011-01-01* — The -1/-1 counters remain on the creature indefinitely. They’re not removed if the creature regenerates or the turn ends.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tainted-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/80/tainted-strike) · oracle_id `95a53dd7-76dc-46f1-8833-fafd02ba49c4` · printing: SOM #80 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tainted Treats
@@ -940,6 +952,7 @@ schema: 2
   > {T}: Add {B} or {G}. Activate only if you control a Swamp.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #445 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/T.md#tainted-wood)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/305/tainted-wood) · oracle_id `fa6d05a1-3df4-4751-b1a0-8d9693faec73` · printing: DSC #305 (2024-09-27) · [rulings](https://api.scryfall.com/cards/3da7ab6b-b10a-4786-b1eb-92de7e66690e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tajic, Blade of the Legion
@@ -958,6 +971,7 @@ schema: 2
   - *2013-04-15* — Once a battalion ability has triggered, it doesn't matter how many creatures are still attacking when that ability resolves.
   - *2013-04-15* — The effects of battalion abilities vary from card to card. Read each card carefully.
   - *2024-01-12* — The three attacking creatures don't have to be attacking the same player, planeswalker, or battle.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tajic-blade-of-the-legion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/171/tajic-blade-of-the-legion) · oracle_id `8951d797-6356-4f27-a6de-e013216274d6` · printing: DMC #171 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tajic, Legion's Edge
@@ -977,6 +991,7 @@ schema: 2
   - *2018-10-05* — If the creature with mentor leaves the battlefield with mentor on the stack, use its power as that creature last existed on the battlefield to determine whether the target creature has less power.
   - *2018-10-05* — If the target creature's power is no longer less than the attacking creature's power as the ability resolves, mentor doesn't add a +1/+1 counter. For example, if two 3/3 creatures with mentor attack and both mentor triggers target the same 2/2 creature, the first to resolve puts a +1/+1 counter on it and the second does nothing.
   - *2018-10-05* — Mentor compares the power of the creature with mentor with that of the target creature at two different times: once as the triggered ability is put onto the stack, and once as the triggered ability resolves. If you wish to raise a creature's power so its mentor ability can target a bigger creature, the last chance you have to do so is during the beginning of combat step.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tajic-legions-edge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/231/tajic-legions-edge) · oracle_id `ae6f21a2-e6b6-4793-8343-e27310c0bea1` · printing: RVR #231 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taj-Nar Swordsmith
@@ -1164,6 +1179,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18442 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#take-flight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/65/take-flight) · oracle_id `b4cf61e5-b2b7-4fb9-addf-db84dec49681` · printing: BRO #65 (2022-11-18) · [rulings](https://api.scryfall.com/cards/46a2108e-e45e-4b21-a03b-5f644b6043be/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Take for a Ride
@@ -1280,6 +1296,7 @@ schema: 2
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
   - *2022-02-18* — The creature or planeswalker card you return to your hand is not chosen until after you mill three cards. You may choose a creature or planeswalker card from among all the cards in your graveyard, including the milled cards.
+- **Referenced in:** 16 pages (12 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#takenuma-abandoned-mire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/278/takenuma-abandoned-mire) · oracle_id `ac2dd694-d2f1-4025-8400-12332bdc882a` · printing: NEO #278 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Takenuma Bleeder
@@ -1418,6 +1435,7 @@ schema: 2
   > *—Falcon, Sam Wilson*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3467 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#take-up-the-shield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/39/take-up-the-shield) · oracle_id `e8d0eafe-540a-4b2e-a989-e98ff3c31105` · printing: MSH #39 (2026-06-26) · [rulings](https://api.scryfall.com/cards/5199d708-8b11-461d-9e91-3e8cd70906f7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Take Vengeance
@@ -1623,6 +1641,7 @@ schema: 2
   > *"It's about time we did something fun together."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5879 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tale-of-katara-and-toph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/143/tale-of-katara-and-toph) · oracle_id `7c376ea9-d50a-4cc3-ae40-7bac3a926f20` · printing: TLE #143 (2025-11-21) · [rulings](https://api.scryfall.com/cards/8fe2bd89-a7cc-4e8e-98b4-69f196bd1024/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tale of Momo
@@ -1668,6 +1687,7 @@ schema: 2
   - *2019-07-12* — If you counter a delayed triggered ability that triggered at the beginning of the "next" occurrence of a specified step or phase, that ability won't trigger again the following time that step or phase occurs.
   - *2019-07-12* — Tale's End can't target an activated or triggered mana ability. An activated mana ability is one that could add mana as it resolves, doesn't have a target, and isn't a loyalty ability. A triggered mana ability is one that could add mana as it resolves and triggers on an activated mana ability.
   - *2019-07-12* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keyword abilities are triggered abilities and will have "when," "whenever," or "at" in their reminder text.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/T.md#tales-end)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/77/tales-end) · oracle_id `8ebb6fe0-3ed1-4cc9-bcb1-5317de199efc` · printing: M20 #77 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tales of Master Seshiro // Seshiro's Living Legacy
@@ -1740,6 +1760,7 @@ schema: 2
   - *2023-09-01* — Effects that increase or reduce the cost to cast a spell don't affect that spell's mana value.
   - *2023-09-01* — For spells with {X} in their mana costs, use the value chosen for X to determine if the spell's mana value is the chosen number. For example, if the chosen number is 4, a spell with mana cost {X}{R}{R} cast with X equal to 2 would cause Talion's last ability to trigger.
   - *2023-09-01* — The numbers you may choose include 1 and 10.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#talion-the-kindly-lord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/215/talion-the-kindly-lord) · oracle_id `a019e34d-00c4-4687-9d41-fe550bf1dbdc` · printing: WOE #215 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Conviction
@@ -1754,6 +1775,7 @@ schema: 2
   > *—Captain Marvel, Carol Danvers*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #150 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 5 pages (2 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-conviction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/217/talisman-of-conviction) · oracle_id `6c326439-5620-4ec6-a56a-fe9c3d5d2a46` · printing: MSC #217 (2026-06-26) · [rulings](https://api.scryfall.com/cards/a365885c-f7d9-4ea1-9125-5265055e5570/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Creativity
@@ -1768,6 +1790,7 @@ schema: 2
   > *—Ral Zarek*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #125 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 46 pages (41 decks · 4 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-creativity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/61/talisman-of-creativity) · oracle_id `14d2979d-5728-42d7-a027-0eb1f754655d` · printing: FRC #61 (2026-10-02) · [rulings](https://api.scryfall.com/cards/d4ba86c8-8052-4c9e-a0d0-ac6ad0b2679c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Curiosity
@@ -1782,6 +1805,7 @@ schema: 2
   > *—Tamiyo*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #484 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-curiosity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/241/talisman-of-curiosity) · oracle_id `8c34b089-aad1-476e-958a-3077bf1bbb51` · printing: MKC #241 (2024-02-09) · [rulings](https://api.scryfall.com/cards/8388c4e8-bda1-47e5-8df2-ddec5babcaf9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Dominance
@@ -1793,6 +1817,7 @@ schema: 2
   > {T}: Add {U} or {B}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #92 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 48 pages (44 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-dominance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/62/talisman-of-dominance) · oracle_id `4c0a0448-b9d6-43a0-8549-64066dac63f0` · printing: FRC #62 (2026-10-02) · [rulings](https://api.scryfall.com/cards/78d5366f-eb6d-4ec1-880b-111872863766/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Hierarchy
@@ -1807,6 +1832,7 @@ schema: 2
   > *—Kaya*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #135 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-hierarchy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/358/talisman-of-hierarchy) · oracle_id `b693c3de-2eaf-4850-b405-e79d00adefda` · printing: SOC #358 (2026-04-24) · [rulings](https://api.scryfall.com/cards/0c959368-2f58-48de-b7a5-2bab408652b5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Impulse
@@ -1818,6 +1844,7 @@ schema: 2
   > {T}: Add {R} or {G}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #589 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#talisman-of-impulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/332/talisman-of-impulse) · oracle_id `f2ccc9e8-8e92-4f8c-8728-8c748630e0dd` · printing: TDC #332 (2025-04-11) · [rulings](https://api.scryfall.com/cards/5135919f-7b10-4a2e-a98a-83ed1347ad36/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Indulgence
@@ -1829,6 +1856,7 @@ schema: 2
   > {T}: Add {B} or {R}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #127 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 42 pages (38 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-indulgence)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/63/talisman-of-indulgence) · oracle_id `1d9aeaaa-66f6-41cb-9bac-162d6fd8662c` · printing: FRC #63 (2026-10-02) · [rulings](https://api.scryfall.com/cards/36bd614f-ab3b-4ad1-ab5c-a7ca0a641f32/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Progress
@@ -1840,6 +1868,7 @@ schema: 2
   > {T}: Add {W} or {U}. This artifact deals 1 damage to you.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #136 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (4 decks · 2 edh guides · 1 card data) → [reverse index](../../references/T.md#talisman-of-progress)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/64/talisman-of-progress) · oracle_id `00e35322-1a9a-41e3-9ce1-359c8eaa3bc7` · printing: FRC #64 (2026-10-02) · [rulings](https://api.scryfall.com/cards/454ed9c8-3ec1-4b65-bf3f-29a186742aed/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Resilience
@@ -1854,6 +1883,7 @@ schema: 2
   > *—Vraska*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #502 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#talisman-of-resilience)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/255/talisman-of-resilience) · oracle_id `42b8aa14-10bc-4bd6-88d9-4bb287eadd19` · printing: DSC #255 (2024-09-27) · [rulings](https://api.scryfall.com/cards/eff598b0-0b32-41d0-b980-584576e58626/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talisman of Unity
@@ -1926,6 +1956,7 @@ schema: 2
   - *2024-06-07* — Phased-out permanents are treated as though they don't exist. They can't be the targets of spells or abilities, their static abilities have no effect on the game, their triggered abilities can't trigger, they can't attack or block, and so on.
   - *2024-06-07* — Phasing out doesn't cause any "leaves the battlefield" abilities to trigger. Similarly, phasing in won't cause any "enters the battlefield" abilities to trigger.
   - *2024-06-07* — When you activate Talon Gates of Madara's last ability, you must reveal Talon Gates of Madara from your hand until that ability resolves or otherwise leaves the stack. If Talon Gates of Madara isn't still in your hand as that ability resolves, nothing happens.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 rules) → [reverse index](../../references/T.md#talon-gates-of-madara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/82/talon-gates-of-madara) · oracle_id `8c45bf9d-a017-43bf-9e32-67810a8a217b` · printing: M3C #82 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talon of Pain
@@ -2033,6 +2064,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #804 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-03-19* — An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered.
+- **Referenced in:** 10 pages (4 decks · 5 edh guides · 1 card data) → [reverse index](../../references/T.md#talrand-sky-summoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/116/talrand-sky-summoner) · oracle_id `ea1eb902-a23c-44ff-9169-19baf71de238` · printing: OTC #116 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Talruum Champion
@@ -2118,6 +2150,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10287 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-02-18* — Tameshi's first ability triggers only whenever one or more noncreature permanents are returned to hand from the battlefield. Noncreature permanent cards returned to hand from other zones do not cause this ability to trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tameshi-reality-architect)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/82/tameshi-reality-architect) · oracle_id `b47b3cfe-7005-4b33-9d41-83b60808e12b` · printing: NEO #82 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, Collector of Tales
@@ -2136,6 +2169,7 @@ schema: 2
   - *2019-05-03* — If a spell or ability an opponent controls states that something happens unless you sacrifice a permanent (as Mogis, God of Slaughter does) or discard a card (as Painful Quandary does), you can’t choose to sacrifice or discard. On the other hand, if a spell or ability an opponent controls instructs you to sacrifice a permanent unless you perform an action (as Killing Wave does) or discard a card unless you perform an action, you can choose whether or not to perform the action. If you don’t perform the action, nothing happens, since the spell or ability can’t cause you to sacrifice any permanents or discard cards.
   - *2019-05-03* — If a spell or ability your opponent controls reduces your maximum hand size, Tamiyo’s first ability won’t stop you from discarding cards when the game rules cause you to discard during your cleanup step.
   - *2019-05-03* — Tamiyo’s ability affects sacrifices, but not any other ways permanents can leave the battlefield. It won’t stop a creature from dying due to lethal damage or having 0 toughness, and it won’t stop a permanent from being put into its owner’s graveyard due to the “legend rule.” None of these are sacrifices; they’re the result of game rules.
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#tamiyo-collector-of-tales)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/220/tamiyo-collector-of-tales) · oracle_id `75d56a0a-2f64-4e80-b83e-85942d3e6dd7` · printing: WAR #220 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, Compleated Sage
@@ -2155,6 +2189,7 @@ schema: 2
   - *2022-02-18* — Compleated is a replacement effect, and it applies only to a permanent that is entering the battlefield with loyalty counters. Any other replacement effect that would apply to the number of loyalty counters it enters the battlefield with will apply as normal.
   - *2022-02-18* — Phyrexian is not a color nor a type of mana, and players cannot add Phyrexian mana. It’s just a symbol that gives you another way to pay for a spell or ability.
   - *2022-02-18* — The compleated ability looks only at whether a player chose to pay 2 life for a Phyrexian mana symbol as they were casting the spell. If a player paid life for some other reason while casting the spell, that will not reduce the number of loyalty counters the planeswalker enters the battlefield with.
+- **Referenced in:** 4 pages (2 lore & story · 2 card data) → [reverse index](../../references/T.md#tamiyo-compleated-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/238/tamiyo-compleated-sage) · oracle_id `021b4745-4a15-462c-a6b0-2dee1dc9d196` · printing: NEO #238 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, Field Researcher
@@ -2173,6 +2208,7 @@ schema: 2
   - *2025-01-24* — If you cast a spell “without paying its mana cost,” you can’t choose to cast it for any alternative costs. You can, however, pay additional costs. If the spell has any mandatory additional costs, those must be paid to cast the spell.
   - *2025-01-24* — Tamiyo’s first ability can target creatures you don’t control. You’ll draw a card, not their controller, if they deal combat damage.
   - *2025-01-24* — Tamiyo’s first ability sets up a delayed triggered ability that triggers even if Tamiyo has left the battlefield before those creatures deal combat damage.
+- **Referenced in:** 8 pages (2 decks · 1 edh guides · 3 lore & story · 2 card data) → [reverse index](../../references/T.md#tamiyo-field-researcher)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/249/tamiyo-field-researcher) · oracle_id `9cf99129-f51a-4418-a8cc-8ca2992b17fa` · printing: INR #249 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar
@@ -2201,6 +2237,7 @@ schema: 2
   - *2024-06-07* — The back face of a transforming double-faced card usually has a color indicator that defines its color. Colorless back faces, such as lands, do not.
   - *2024-06-07* — The mana value of a transforming double-faced card is the mana value of its front face, no matter which face is up.
   - *2024-06-07* — You can activate one of Tamiyo, Seasoned Scholar's loyalty abilities the turn she enters the battlefield. However, you may do so only during one of your main phases when the stack is empty. For example, if Tamiyo, Seasoned Scholar enters the battlefield during combat, there will be an opportunity for your opponent to remove her before you can activate one of her abilities.
+- **Referenced in:** 5 pages (2 lore & story · 3 card data) → [reverse index](../../references/T.md#tamiyo-inquisitive-student--tamiyo-seasoned-scholar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/242/tamiyo-inquisitive-student-tamiyo-seasoned-scholar) · oracle_id `1ed9e351-0000-4b75-8ecb-d15bd88df68a` · printing: MH3 #242 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo Meets the Story Circle
@@ -2276,6 +2313,7 @@ schema: 2
   - *2016-04-08* — Clue is an artifact type. Even though it appears on some cards with other permanent types, it's never a creature type, a land type, or anything but an artifact type.
   - *2016-04-08* — If an effect refers to a Clue, it means any Clue artifact, not just a Clue artifact token. For example, you can sacrifice Wrench to pay for Alquist Proft, Master Sleuth's activated ability.
   - *2016-04-08* — You can't sacrifice a Clue to pay multiple costs. For example, you can't sacrifice a Clue token to activate its own ability and also to activate Alquist Proft, Master Sleuth's ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tamiyos-journal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/272/tamiyos-journal) · oracle_id `20591a83-7138-4876-b088-035bd3788be3` · printing: INR #272 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo's Logbook
@@ -2302,6 +2340,7 @@ schema: 2
   > *To keep the Reality Chip out of Jin-Gitaxias's hands, the Wanderer entrusted it to Tamiyo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #465 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#tamiyos-safekeeping)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/211/tamiyos-safekeeping) · oracle_id `bb2b324c-970a-4920-884e-c92ba49669f0` · printing: NEO #211 (2022-02-18) · [rulings](https://api.scryfall.com/cards/fd4b7ee2-de65-4288-872d-486065a4f226/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, the Moon Sage
@@ -2321,6 +2360,7 @@ schema: 2
   - *2012-05-01* — Tamiyo’s third ability creates one emblem with two abilities.
   - *2012-05-01* — The number of tapped creatures the player controls is determined when Tamiyo’s second ability resolves.
   - *2013-07-01* — The ability can target a tapped permanent. If the targeted permanent is already tapped when it resolves, that permanent just remains tapped and doesn’t untap during its controller’s next untap step.
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/T.md#tamiyo-the-moon-sage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/79/tamiyo-the-moon-sage) · oracle_id `f88be051-36ae-407e-bd5a-2b029c26414e` · printing: AVR #79 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tamiyo, Upriser Crowned
@@ -2342,6 +2382,7 @@ schema: 2
   - *2026-08-21* — If the triggered ability that causes the monarch to draw a card goes on the stack and a different player becomes the monarch before that ability resolves, the first player will still draw the card.
   - *2026-08-21* — The game starts with no monarch. Once an effect makes one player the monarch, the game will have exactly one monarch from that point forward. As a player becomes the monarch, the current monarch (if any) ceases being the monarch.
   - *2026-08-21* — There are two inherent triggered abilities associated with being the monarch. These triggered abilities have no source and are controlled by the player who was the monarch at the time the abilities triggered. The full texts of these abilities are "At the beginning of the monarch's end step, that player draws a card" and "Whenever a creature deals combat damage to the monarch, its controller becomes the monarch."
+- **Referenced in:** 2 pages (2 lore & story) → [reverse index](../../references/T.md#tamiyo-upriser-crowned)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/11/tamiyo-upriser-crowned) · oracle_id `8e0f2e26-1e14-422a-aafe-e1da38ab10a3` · printing: FRC #11 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tam, Mindful First-Year
@@ -2357,6 +2398,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6004 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-11-17* — "Hexproof from each color" is shorthand for hexproof from white, from blue, from black, from red, and from green. Colorless is not a color.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tam-mindful-first-year)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/245/tam-mindful-first-year) · oracle_id `096a878e-cff0-430a-90b5-031ecb9bfe1b` · printing: ECL #245 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tam, Observant Sequencer // Deep Sight
@@ -2385,6 +2427,7 @@ schema: 2
   - *2026-03-20* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-03-20* — Preparation cards can only be cast with their base characteristics.
   - *2026-03-20* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tam-observant-sequencer--deep-sight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/237/tam-observant-sequencer-deep-sight) · oracle_id `702e871d-90d8-4468-8f69-5ae42af2c9d3` · printing: SOS #237 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tam's Resistance
@@ -2426,6 +2469,7 @@ schema: 2
   - *2026-08-21* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2026-08-21* — While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
   - *2026-08-21* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 rules · 1 lore & story) → [reverse index](../../references/T.md#tam-the-possibility)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/276/tam-the-possibility) · oracle_id `c92c7744-0c92-4a36-9ada-4ffca812009e` · printing: FRA #276 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tana, the Bloodsower
@@ -2479,6 +2523,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2227 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-03-14* — If Tandem Lookout or the creature it’s paired with is dealt lethal damage at the same time that either deals damage to an opponent, its ability triggers. You’ll draw a card even though that creature no longer has the ability.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 rules) → [reverse index](../../references/T.md#tandem-lookout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/53/tandem-lookout) · oracle_id `1576f031-57ca-4894-b461-8ea57b6cefdc` · printing: MM3 #53 (2017-03-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tandem Tactics
@@ -2522,6 +2567,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It identifies the creatures that are not going to untap at the time this spell resolves.
   - *2025-09-19* — The creatures that are not going to untap are determined at the time this spell resolves.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tangle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/237/tangle) · oracle_id `f627e125-15af-4e53-b34e-82b60e4ec87b` · printing: VMA #237 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangle Angler
@@ -2600,6 +2646,7 @@ schema: 2
   - *2016-07-13* — If each creature that could block Fibrous Entangler is tapped or is affected by a spell or ability that says it can't block, then none of them block. If there's a cost associated with having each of those creatures block, its controller isn't forced to pay the cost, so they don't have to block in that case either.
   - *2016-07-13* — Only one creature is required to block Fibrous Entangler. Other creatures may also block it, and are free to block other creatures or not block at all.
   - *2016-07-13* — The defending player, not you, chooses which creature blocks Fibrous Entangler.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tangleclaw-werewolf--fibrous-entangler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/174/tangleclaw-werewolf-fibrous-entangler) · oracle_id `280d5601-802c-4607-9655-75cc83248210` · printing: EMN #174 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangled Colony
@@ -2614,6 +2661,7 @@ schema: 2
   > *Clawing for scraps and driven mad by hunger, the individual rats became a writhing mass.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5912 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tangled-colony)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/113/tangled-colony) · oracle_id `3f01c327-ba50-4fc3-a930-fa1fb02e34b9` · printing: WOE #113 (2023-09-08) · [rulings](https://api.scryfall.com/cards/77111ce8-6469-4bf7-882a-4ded1e5d7cad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangled Florahedron // Tangled Vale
@@ -2642,6 +2690,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tangled-florahedron--tangled-vale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/211/tangled-florahedron-tangled-vale) · oracle_id `53542c79-a62a-4d6a-97db-5296e9c68302` · printing: ZNR #211 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangled Islet
@@ -2878,6 +2927,7 @@ schema: 2
   - *2023-02-04* — It doesn't matter where your commander is (or commanders are, if you have more than one because of the partner ability or similar). The bonus will be calculated using your commander's current characteristics. (Mana value typically doesn't change, but your commander may become a copy of something else.)
   - *2023-02-04* — Like other Equipment, each Equipment with living weapon has an equip cost. You can pay this cost to attach an Equipment to another creature you control. Once the Germ token is no longer equipped, it will be put into your graveyard and subsequently cease to exist, unless another effect raises its toughness above 0.
   - *2023-02-04* — The Germ token enters the battlefield as a 0/0 creature and the Equipment becomes attached to it before state-based actions would cause the token to die. Abilities that trigger as the token enters the battlefield see that a 0/0 creature entered the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tangleweave-armor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdc/234/tangleweave-armor) · oracle_id `b9cec31a-9891-414f-b528-954612168832` · printing: FDC #234 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tangle Wire
@@ -2890,6 +2940,7 @@ schema: 2
 - **Keywords:** Fading
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8501 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/T.md#tangle-wire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nem/139/tangle-wire) · oracle_id `c4ea0931-43e0-4214-9e0b-213eee3a7e69` · printing: NEM #139 (2000-02-14) · [rulings](https://api.scryfall.com/cards/ad62f313-8a8a-4ffa-ada2-b12b76288729/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taniwha
@@ -2921,6 +2972,7 @@ schema: 2
 - **Keywords:** Landfall
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1770 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tannuk-memorial-ensign)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/233/tannuk-memorial-ensign) · oracle_id `76cb1912-3791-44b8-b594-b92dab21bafc` · printing: EOE #233 (2025-08-01) · [rulings](https://api.scryfall.com/cards/52498b7b-0389-4e7b-b29f-7ac86aab9229/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tannuk, Steadfast Second
@@ -2935,6 +2987,7 @@ schema: 2
   > *"We're a few bones short of a skeleton crew, Sami, but we've got plenty of spine."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4573 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tannuk-steadfast-second)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/162/tannuk-steadfast-second) · oracle_id `b5ae8016-92ed-4ae8-83a8-65068defc616` · printing: EOE #162 (2025-08-01) · [rulings](https://api.scryfall.com/cards/44607ed3-9523-40ac-9f61-0edd011cf762/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tanufel Rimespeaker
@@ -3116,6 +3169,7 @@ schema: 2
   - *2023-10-13* — You exile the cards face up. All players will be able to see them.
   - *2023-10-13* — You may planeswalk at the time TARDIS's triggered ability resolves, not at the time you cast the next spell.
   - *2023-10-13* — You may planeswalk only in games using the Planechase variant. If you are instructed to planeswalk in any other game, nothing happens.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tardis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/187/tardis) · oracle_id `9167a585-b742-427d-b840-e024f6878a5c` · printing: WHO #187 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tarelily, Lovestruck Archer
@@ -3322,6 +3376,7 @@ schema: 2
   - *2026-08-21* — Tarmogoyf counts card types, not cards. If the only card in all graveyards is a single artifact creature, Tarmogoyf will be 2/3. If the only cards in all graveyards are ten artifact creatures, Tarmogoyf will still be 2/3.
   - *2026-08-21* — The ability that defines Tarmogoyf's power and toughness works in all zones, not just the battlefield. If Tarmogoyf is in your graveyard, it will count itself.
   - *2026-08-21* — The card types that can appear on cards in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tarmogoyf)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/116/tarmogoyf) · oracle_id `45900b2f-f6a9-4c42-9642-008f3c1cf6dd` · printing: FRA #116 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tarmogoyf Nest
@@ -3337,6 +3392,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — Tarmogoyf Nest's activated ability creates a token that's a copy of the card Tarmogoyf in the Oracle card reference. Official text for Tarmogoyf can be found using the Gatherer card database at Gatherer.Wizards.com.  
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tarmogoyf-nest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m3c/120/tarmogoyf-nest) · oracle_id `29fede1b-e379-46d4-93e9-a589c896add6` · printing: M3C #120 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tarnation Vista
@@ -3461,6 +3517,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1192 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#tarrians-soulcleaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/264/tarrians-soulcleaver) · oracle_id `2ffb38ec-5852-4e91-85a5-cfccd1f23556` · printing: LCI #264 (2023-11-17) · [rulings](https://api.scryfall.com/cards/99413817-1218-4947-b12f-9a952b095a89/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tar Snare
@@ -3485,6 +3542,7 @@ schema: 2
   > *The raging behir reared back, opened its terrible maw . . . and collapsed in a fit of horrifying giggles.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2975 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tashas-hideous-laughter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/78/tashas-hideous-laughter) · oracle_id `e352f5b9-6406-4914-bc79-f24608be6bc9` · printing: AFR #78 (2021-07-23) · [rulings](https://api.scryfall.com/cards/c4932113-904f-427a-9566-509cc008f3ef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tasha, the Witch Queen
@@ -3500,6 +3558,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4514 · Game Changer: no · Can be commander: Yes (Oracle text: "can be your commander")
 - **Rulings** (1):
   - *2022-06-10* — You may cast a spell from among the exiled cards only as Tasha's last loyalty ability resolves. You may not wait and cast a spell from among them at a later time.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/T.md#tasha-the-witch-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/294/tasha-the-witch-queen) · oracle_id `863a148c-596a-492b-b68e-3e1cbfcb140f` · printing: CLB #294 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tasigur's Cruelty
@@ -3574,6 +3633,7 @@ schema: 2
 - **Keywords:** Photographic Reflexes
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8559 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#taskmaster-mercenary-mimic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/232/taskmaster-mercenary-mimic) · oracle_id `dcd97730-b793-4c0c-b158-625ac3656b4a` · printing: MSH #232 (2026-06-26) · [rulings](https://api.scryfall.com/cards/0d4265fd-cbfa-4e57-89fd-a1d757acfe81/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tasseled Dromedary
@@ -3636,6 +3696,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#taste-of-death)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/156/taste-of-death) · oracle_id `f92673fe-cd73-48ae-bfbd-aa750582b80b` · printing: C21 #156 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taste of Paradise
@@ -3677,6 +3738,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1039 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2025-06-06* — If the target opponent is an illegal target as Tataru Taru's first ability tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tataru-taru)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/30/tataru-taru) · oracle_id `70dd5013-f18f-4501-882f-70590c424e20` · printing: FIC #30 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tato Farmer
@@ -3729,6 +3791,7 @@ schema: 2
   > {1}{G/U}: Tatsunari and target Frog you control can't be blocked this turn except by creatures with flying or reach.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12783 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/T.md#tatsunari-toad-rider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/123/tatsunari-toad-rider) · oracle_id `e87be082-eafd-480e-b150-d27fd937e1b1` · printing: NEO #123 (2022-02-18) · [rulings](https://api.scryfall.com/cards/abf42833-43d0-4b05-b499-d13b2c577ee8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tattered Apparition
@@ -3894,6 +3957,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 12 pages (6 decks · 5 edh guides · 1 card data) → [reverse index](../../references/T.md#tatyova-benthic-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/247/tatyova-benthic-druid) · oracle_id `0715e860-3b3b-4331-9718-207973e94fee` · printing: FDN #247 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tatyova, Steward of Tides
@@ -3978,6 +4042,7 @@ schema: 2
   > During target player's next turn, creatures that player controls attack you if able.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #29237 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taunt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/por/71/taunt) · oracle_id `24cf7fad-233b-49fd-b2a1-a29e3e30041c` · printing: POR #71 (1997-05-01) · [rulings](https://api.scryfall.com/cards/f4d87322-aba4-4187-9655-1da1f18615f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taunt from the Rampart
@@ -3997,6 +4062,7 @@ schema: 2
   - *2023-06-16* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, you choose which opponent it attacks.
   - *2023-06-16* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack an opposing planeswalker (controlled by any opponent) or the player that goaded it.
   - *2023-06-16* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#taunt-from-the-rampart)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/188/taunt-from-the-rampart) · oracle_id `9138a768-d01d-4603-9bae-d3bff6cd2f61` · printing: MSC #188 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Taunting Arbormage
@@ -4095,6 +4161,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #956 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-11-08* — Taurean Mauler's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#taurean-mauler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/238/taurean-mauler) · oracle_id `fd5ee26c-cc54-4dc0-b611-5cda14354a5e` · printing: TDC #238 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tavern Brawler
@@ -4117,6 +4184,7 @@ schema: 2
   - *2022-06-10* — If your commander loses the choose a Background ability or stops being a Background during the game, as appropriate, it is still your commander.
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tavern-brawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/200/tavern-brawler) · oracle_id `7c5cd912-eddb-47c8-a31b-8ad2af46abd3` · printing: CLB #200 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tavern Ruffian // Tavern Smasher
@@ -4315,6 +4383,7 @@ schema: 2
   - *2024-07-05* — If a permanent’s activated ability is on the stack when that permanent is detained, the ability will be unaffected.
   - *2024-07-05* — The static abilities of a detained permanent still apply. The triggered abilities of a detained permanent can still trigger.
   - *2024-07-05* — When a player leaves a multiplayer game, any continuous effects with durations that last until that player’s next turn or until a specific point in that turn (such as the effect of being detained) will last until that turn would have begun. They neither expire immediately nor last indefinitely.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/T.md#tax-collector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/9/tax-collector) · oracle_id `66837faa-fbde-456d-b00f-eb17fbdd04aa` · printing: ACR #9 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tax Draw
@@ -4386,6 +4455,7 @@ schema: 2
   - *2024-11-08* — Playtest cards aren’t legal for play in any tournament format other than Mystery Booster Limited formats. On the other hand, we expect they will spice up a wide variety of non-tournament games (as long as everyone’s on the same page about using them!).
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Tax-like effects that require payments other than mana, like the effect of the first ability of Sivitri, Dragon Master, aren’t taxes for the purposes of Tax Taker’s ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tax-taker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/524/tax-taker) · oracle_id `b58e7316-57e1-4cd7-a1d2-885a5338f951` · printing: MB2 #524 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tayam, Luminous Enigma

@@ -72,6 +72,7 @@ schema: 2
   - *2024-07-26* — Mockingbird copies exactly what was printed on the original creature, except it’s a Bird in addition to its other types and it has flying, and nothing else (unless that creature is copying something else or is a token; see below). It doesn’t copy whether that creature is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
   - *2024-07-26* — Mockingbird’s second ability counts all mana spent to cast Mockingbird, not just mana spent on {X}. If there are any additional costs to cast it, the mana spent to pay those costs counts as well.
   - *2024-07-26* — You can choose not to have Mockingbird enter as a copy of another creature. If you do, it will just be a 1/1 Bird Bard creature with flying, an ability that didn’t do anything, and the opportunity for a good self-deprecating joke or two.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/M.md#mockingbird)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/61/mockingbird) · oracle_id `b9df2cdf-397c-458d-89cf-911568737ffa` · printing: BLB #61 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mockingbird, Ace Agent
@@ -119,6 +120,7 @@ schema: 2
   - *2022-06-10* — If the chosen creature has {X} in its mana cost, X is considered to be 0.
   - *2022-06-10* — If the chosen creature is a token, Mocking Doppelganger copies the original characteristics of that token, except for the added ability. Mocking Doppelganger doesn't become a token in this case.
   - *2022-06-10* — If the chosen creature is copying something else, Mocking Doppelganger will use the copiable values of the chosen creature. In most cases, it will be a copy of whatever the chosen creature is copying.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mocking-doppelganger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/667/mocking-doppelganger) · oracle_id `3b8eb602-01e8-432e-8dfc-8fdb62c3aa43` · printing: CLB #667 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mocking Sprite
@@ -136,4 +138,5 @@ schema: 2
 - **Rulings** (2):
   - *2023-09-01* — Mocking Sprite's last ability can't reduce the amount of colored mana you pay for a spell. It reduces only the generic mana component of that cost.
   - *2023-09-01* — Mocking Sprite's last ability doesn't change the mana cost or mana value of any spell. It changes only the total cost you pay.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/M.md#mocking-sprite)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/744/mocking-sprite) · oracle_id `013ca531-1ff7-4efc-a280-4bc3ab574072` · printing: FDN #744 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

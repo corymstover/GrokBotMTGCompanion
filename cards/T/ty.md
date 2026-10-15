@@ -84,6 +84,7 @@ schema: 2
   - *2025-10-02* — If Ty Lee, Chi Blocker ceases to be under your control before its ability resolves, you will still tap the targeted creature, but it will untap normally during its controller's next untap step.
   - *2025-10-02* — If Ty Lee, Chi Blocker leaves the battlefield, you no longer control her, and her effect ends.
   - *2025-10-02* — If another player gains control of Ty Lee, Chi Blocker, her effect ends. Regaining control of Ty Lee, Chi Blocker won't cause the effect to resume.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#ty-lee-chi-blocker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/76/ty-lee-chi-blocker) · oracle_id `081ad4e3-cda3-41cc-890f-412611dc9ea0` · printing: TLA #76 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymaret Calls the Dead
@@ -165,6 +166,7 @@ schema: 2
   - *2020-11-10* — To have two commanders, both must have the partner ability as the game begins. Losing the ability during the game doesn't cause either to cease to be your commander.
   - *2020-11-10* — You can choose two commanders with partner that are the same color or colors. In Commander Draft, you can even choose two of the same commander with partner if you drafted them. If you do this, make sure you keep the number of times you've cast each from the command zone clear for "commander tax" purposes.
   - *2020-11-10* — You must pay exactly X life or none. You can't pay less life to draw fewer cards.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tymna-the-weaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/48/tymna-the-weaver) · oracle_id `d15642e4-e61c-4d29-af48-de837991245e` · printing: C16 #48 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tymora's Invoker
@@ -234,6 +236,7 @@ schema: 2
 - **Keywords:** Flying, Shrieking Gargoyles, Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15284 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tyranid-harridan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/144/tyranid-harridan) · oracle_id `01432542-2ea7-45bc-bc90-151516faee0e` · printing: 40K #144 (2022-10-07) · [rulings](https://api.scryfall.com/cards/dff00a51-977e-43ba-a4bf-b251e62f1100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyranid Invasion
@@ -246,6 +249,7 @@ schema: 2
   > *By the time the Blood Angels descended from the heavens, Phodia was a city transformed. Miles of flesh-filled rivers fed into the central digestion pools and up into the hive fleet above.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17661 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tyranid-invasion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/102/tyranid-invasion) · oracle_id `33a45c4a-1481-4c7e-b823-435cb84231e8` · printing: 40K #102 (2022-10-07) · [rulings](https://api.scryfall.com/cards/7082df45-6c2f-4a92-8c73-a582e9ea1948/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyranid Prime
@@ -316,6 +320,7 @@ schema: 2
   - *2022-10-07* — If a permanent spell with ravenous is copied, the copy will have the same value for X, and the token permanent that the spell becomes as it enters the battlefield will enter with X counters.
   - *2022-10-07* — If another permanent enters the battlefield as a copy of a creature with Ravenous, it will not enter with any counters from the ravenous ability.
   - *2022-10-07* — The triggered ability that checks to see if X is 5 or greater refers to the value of X that was chosen as the spell was cast, which may be different from the number of counters it entered with if there are replacement effects involved. This is also true for any other ability that it has which refers to X and triggers when it enters the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tyrant-guard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/103/tyrant-guard) · oracle_id `560e6fd6-c061-44ba-b5c5-814d6a14e469` · printing: 40K #103 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant of Discord
@@ -365,6 +370,7 @@ schema: 2
   - *2016-01-22* — For some cards, surge represents only an alternative cost, a discount that applies if you or a teammate has cast another spell this turn. Other cards, like Reckless Bushwhacker, have additional abilities or effects if you paid the surge cost to cast the spell.
   - *2016-01-22* — If an instant or sorcery spell cast for its surge cost is copied, the copy is also considered to have had its surge cost paid.
   - *2016-01-22* — The other spell that you or a teammate cast can be one that's resolved, one that was countered, or (for instants with surge) one that's still on the stack.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#tyrant-of-valakut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/119/tyrant-of-valakut) · oracle_id `a4ddd9e2-ea59-4bba-bb2f-a655cabbb65c` · printing: OGW #119 (2016-01-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrant's Choice
@@ -432,6 +438,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
   - *2024-04-12* — The mana value of a token that isn't a copy of another object is 0. A token that is a copy of another object has the same mana cost as that object.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyrants-scorn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/225/tyrants-scorn) · oracle_id `afb278f1-0e21-4f6d-96bb-c34aa3ef96b0` · printing: WAR #225 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyrite Sanctum
@@ -515,6 +522,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/T.md#tyrranax-rex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/189/tyrranax-rex) · oracle_id `6e42da0c-151e-468d-91cb-5a5b117a9298` · printing: ONE #189 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar, Jubilant Brawler
@@ -532,6 +540,7 @@ schema: 2
   - *2023-02-04* — Activated abilities contain a colon. They're generally written "[Cost]: [Effect]." Some keywords are activated abilities; they have colons in their reminder text.
   - *2023-02-04* — For Tyvar's last ability, you may return any creature card with mana value 2 or less from your graveyard to the battlefield, even if it wasn't one of the three cards milled as the ability resolved.
   - *2023-02-04* — Tyvar's first ability doesn't grant haste to any creatures, nor does it allow you to attack with creatures as though they had haste. However, you will be able to activate abilities with {T} in their activation costs as soon as creatures with such abilities come under your control.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#tyvar-jubilant-brawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/218/tyvar-jubilant-brawler) · oracle_id `848c2b8f-8086-4047-8ad0-24b701dc4d0d` · printing: ONE #218 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar Kell
@@ -549,6 +558,7 @@ schema: 2
   - *2021-02-05* — The emblem will cause the Elf spell to gain haste. That change carries through to the permanent that the spell becomes.
   - *2021-02-05* — The first loyalty ability can target an Elf that's already untapped.
   - *2021-02-05* — Tyvar may look like an Elf, but he's not a creature with the creature type Elf, so he doesn't give himself the mana ability he gives Elves you control and he can't be the target of the first loyalty ability.
+- **Referenced in:** 4 pages (1 decks · 2 lore & story · 1 card data) → [reverse index](../../references/T.md#tyvar-kell)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/198/tyvar-kell) · oracle_id `14c8a590-88ec-4982-ad7b-36a219ff6de7` · printing: KHM #198 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar's Stand
@@ -561,6 +571,7 @@ schema: 2
   > *"When they write songs about this battle, I will make sure your name is forgotten, devil."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #718 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyvars-stand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/291/tyvars-stand) · oracle_id `4247b667-a0a8-4995-97c7-622d20132f7d` · printing: SOC #291 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b6ab0855-782a-498c-a885-b3ab3d1bb362/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar the Bellicose
@@ -578,6 +589,7 @@ schema: 2
   - *2023-05-12* — If Tyvar leaves the battlefield and returns to the battlefield in the same turn, or if Tyvar leaves and another Tyvar appears, the triggered ability granted by the new one is different than the triggered ability granted by the old one. The one granted by the new Tyvar may trigger for each creature you control, even if the ability granted by the old Tyvar triggered for those creatures that turn. (Note that creatures you control won't have the ability granted by the old one anymore, and if you control multiple Tyvars, you won't have the opportunity to activate mana abilities before the "legend rule" gets you down to one Tyvar.)
   - *2023-05-12* — If the mana ability that caused the granted triggered ability to trigger was activated while casting a spell or activating an ability, the triggered ability will resolve (and +1/+1 counters will be added) before that spell or ability.
   - *2023-05-12* — The ability that Tyvar grants to each creature you control functions independently for each creature. Specifically, the ability can trigger once each turn for each creature you control, not just once total.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/T.md#tyvar-the-bellicose)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/48/tyvar-the-bellicose) · oracle_id `a21d321b-2172-4577-a05b-399a019e3448` · printing: MAT #48 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tyvar, the Pummeler
@@ -594,4 +606,5 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — The value of X is calculated only once, as Tyvar's last ability resolves.
   - *2024-09-20* — You can activate Tyvar's first ability even if Tyvar is already tapped.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#tyvar-the-pummeler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/202/tyvar-the-pummeler) · oracle_id `5a242eab-204c-4411-860f-c0f3582a8f38` · printing: DSK #202 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

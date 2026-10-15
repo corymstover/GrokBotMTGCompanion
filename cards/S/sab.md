@@ -179,6 +179,7 @@ schema: 2
   - *2025-06-06* — If you pay the blitz cost to cast a creature spell, that permanent will be sacrificed only if it's still on the battlefield when that triggered ability resolves. If it dies or goes to another zone before then, it will stay where it is.
   - *2025-06-06* — The triggered ability that lets its controller draw a card triggers when it dies for any reason, not just when you sacrifice it during the end step.
   - *2025-06-06* — You don't have to attack with the creature with blitz unless another ability says you do.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sabin-master-monk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/57/sabin-master-monk) · oracle_id `7234bbf8-b962-4515-bedf-68d111c6137e` · printing: FIC #57 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sabotage Strategist

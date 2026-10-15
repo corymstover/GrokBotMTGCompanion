@@ -211,6 +211,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-09-20* — If one of these lands enters the battlefield at the same time as one or more other lands (due to Oblivion Sower or Warp World, perhaps), it doesn't take those lands into consideration when determining how many other lands you control.
   - *2016-09-20* — If one of these lands is your first, second, or third land, it enters the battlefield untapped. If you control three or more other lands, however, it enters the battlefield tapped.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#concealed-courtyard)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/268/concealed-courtyard) · oracle_id `2d899466-b1eb-4901-b626-1f2fb09b786d` · printing: OTJ #268 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Concealed Weapon
@@ -295,6 +296,7 @@ schema: 2
   - *2023-09-01* — Some spells and abilities that create Role tokens require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won’t resolve. The Role token won’t be created.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#conceited-witch--price-of-beauty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/84/conceited-witch-price-of-beauty) · oracle_id `1c751201-24ba-4e5c-bf44-71c3e4693a92` · printing: WOE #84 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Concentrate
@@ -360,6 +362,7 @@ schema: 2
 - **Keywords:** Food
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #32327 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#concession-stand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/205a/concession-stand) · oracle_id `2559fe2d-92b9-43c8-b538-d424df25eae8` · printing: UNF #205a (2022-10-07) · [rulings](https://api.scryfall.com/cards/49ab8948-1080-487b-b0a0-c5d11935141f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conch Horn
@@ -449,6 +452,7 @@ schema: 2
   - *2024-02-02* — The term "defending player" in the myriad rules (or any other ability of an attacking creature) refers to the player the creature with myriad was attacking at the time it became an attacking creature this combat, the controller of the planeswalker the creature was attacking at the time it became an attacking creature this combat, or the protector of the battle this creature was attacking at the time it became an attacking creature this combat.
   - *2024-02-02* — The token creatures all enter the battlefield at the same time.
   - *2024-02-02* — You choose whether each token is attacking the player or a planeswalker they control as the token is created.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#conclave-evangelist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/27/conclave-evangelist) · oracle_id `13c81fc5-dd35-481d-8e32-4d404fb0e4ac` · printing: CLU #27 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conclave Guildmage
@@ -461,6 +465,7 @@ schema: 2
   > {5}{W}, {T}: Create a 2/2 green and white Elf Knight creature token with vigilance.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17624 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#conclave-guildmage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/grn/162/conclave-guildmage) · oracle_id `9d0eb1f4-08ef-4ac9-902b-47335ab46984` · printing: GRN #162 (2018-10-05) · [rulings](https://api.scryfall.com/cards/279e551d-3ac3-48d5-9822-1d05159c8905/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conclave Mentor
@@ -480,6 +485,7 @@ schema: 2
   - *2020-06-23* — If two or more effects attempt to modify how many counters would be put onto a creature you control, you choose the order to apply those effects, no matter who controls the sources of those effects.
   - *2020-06-23* — If you control two Conclave Mentors, the number of +1/+1 counters put on a creature is two plus the original number. Three Conclave Mentors add three, and so on.
   - *2020-06-23* — Use Conclave Mentor's power as it last existed on the battlefield to determine how much life you gain.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#conclave-mentor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/320/conclave-mentor) · oracle_id `a2fe5937-212c-4e71-8d6e-f408b38100aa` · printing: MOC #320 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conclave Naturalists
@@ -586,6 +592,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has the supertype world. When a world permanent enters, any world permanents that were already on the battlefield are put into their owners' graveyards. This is a state-based action called the "world rule." The new world permanent stays on the battlefield. If two world permanents enter at the same time, they're both put into their owners' graveyards.
   - *2009-10-01* — This ability affects all creatures, not just the ones you control.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/C.md#concordant-crossroads)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/141/concordant-crossroads) · oracle_id `ff01b408-6d17-40a3-9efd-a1b341ec1307` · printing: 2X2 #141 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Concordia Pegasus
@@ -674,6 +681,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15711 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — The two targets can be the same creature as long as that creature is a token.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#conduct-electricity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/130/conduct-electricity) · oracle_id `0369627e-3b83-4e5b-a8af-a99f944443b3` · printing: BLB #130 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conductive Machete
@@ -763,6 +771,7 @@ schema: 2
   - *2015-08-25* — If you control more than one Conduit of Ruin, the last ability of each of them applies only to the first creature spell you cast each turn, not to different spells; the first creature spell you cast each turn will cost {4} less.
   - *2015-08-25* — The cost reduction can apply to alternative costs (such as dash costs).
   - *2015-08-25* — The first creature spell you cast each turn doesn't necessarily have to be the first spell you cast. You could cast a sorcery spell and then cast a creature spell that would get the discount.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#conduit-of-ruin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/4/conduit-of-ruin) · oracle_id `cd3d79e9-c72e-4321-bca1-54505d51331a` · printing: BFZ #4 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conduit of Storms // Conduit of Emrakul
@@ -801,6 +810,7 @@ schema: 2
   - *2023-02-04* — The first ability of Conduit of Worlds doesn't change the times when you can play those land cards. You can still play only one land per turn, and only during your main phase when you have priority and the stack is empty.
   - *2023-02-04* — The second ability of Conduit of Worlds allows you to cast the target card as the ability resolves. You can't wait and cast that card later in the turn. If you cast it, you can't cast any other spells this turn, even if another effect would allow you to.
   - *2023-02-04* — The second ability of Conduit of Worlds will count spells you cast earlier in the turn even if Conduit of Worlds wasn't on the battlefield or under your control at that time. It will also count a spell you cast that subsequently was countered or failed to resolve. Notably, it will also include Conduit of Worlds itself on the turn you cast it.
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/C.md#conduit-of-worlds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/171/conduit-of-worlds) · oracle_id `ed14be15-8f8d-4fe3-a147-f5da8ed873bf` · printing: MSC #171 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conduit Pylons
@@ -888,6 +898,7 @@ schema: 2
   > *—Jiang Yanggu*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27489 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#confidence-from-strength)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/35/confidence-from-strength) · oracle_id `341f75a5-df02-48e9-8997-1938148ad89a` · printing: GS1 #35 (2018-06-22) · [rulings](https://api.scryfall.com/cards/98945e26-61e5-457d-ba8c-def924a7b1d1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Confirm Suspicions
@@ -951,6 +962,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#confiscation-coup)
 - **Source flags:** [Scryfall](https://scryfall.com/card/kld/41/confiscation-coup) · oracle_id `c246cdb4-2fd8-487e-944e-3e52fbd1bbaa` · printing: KLD #41 (2016-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conflagrate
@@ -1244,6 +1256,7 @@ schema: 2
   - *2020-08-07* — If you gain control of a creature “until end of turn,” you control it during that turn's end step.
   - *2020-08-07* — Once the exiled creature returns, it's considered a new object with no relation to the object that it was. Auras attached to the exiled creature will be put into their owners' graveyards. Equipment attached to the exiled creature will become unattached and remain on the battlefield. Any counters on the exiled creature will cease to exist.
   - *2020-08-07* — When an effect returns the exiled card “under your control,” you control it indefinitely after that. In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any creatures you control from Conjurer's Closet effect are exiled.
+- **Referenced in:** 2 pages (1 decks · 1 rules) → [reverse index](../../references/C.md#conjurers-closet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/259/conjurers-closet) · oracle_id `cd1eda60-53e4-44d0-9b2c-7a57395e291f` · printing: INR #259 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conjurer's Mantle
@@ -1347,6 +1360,7 @@ schema: 2
   - *2016-11-08* — If Conquerer's Flail is attached to a creature you control and you activate its equip ability targeting another creature you control, there's no time in between activating that ability and the resolution of that ability during which it's not attached to a creature. Assuming it's your turn, your opponents won't be able to cast spells.
   - *2016-11-08* — The first ability of Conqueror's Flail constantly updates as the number of colors among permanents you control changes. If the number of colors decreases and the damage that was marked on the equipped creature earlier in the turn is now lethal damage, that creature is destroyed. Similarly, if its toughness becomes 0, that creature is put into its owner's graveyard.
   - *2016-11-08* — The five colors are white, blue, black, red, and green. Conqueror's Flail can't give a creature more than +5/+5. (Gold, artifact, and colorless aren't colors.)
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#conquerors-flail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/302/conquerors-flail) · oracle_id `9aace0d3-89e6-4254-b96f-ee3a878f2f91` · printing: 2X2 #302 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conqueror's Galleon // Conqueror's Foothold
@@ -1397,6 +1411,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#conquerors-pledge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/zen/8/conquerors-pledge) · oracle_id `dcc59bd6-2c5f-48eb-8008-83ce6eb5a442` · printing: ZEN #8 (2009-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conscripted Infantry
@@ -1410,6 +1425,7 @@ schema: 2
   > *"Funny," remarked Laga to his squad. "Mishra's lackeys wear luxurious silks in their gilded palaces, while we toil in the trenches eating stale bread."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26505 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#conscripted-infantry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/129/conscripted-infantry) · oracle_id `cf0f3aee-78b6-4a98-8e09-8861b73c2e74` · printing: BRO #129 (2022-11-18) · [rulings](https://api.scryfall.com/cards/f50b0449-8ff7-4549-893b-aeca93720c64/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consecrate // Consume
@@ -1463,6 +1479,7 @@ schema: 2
   - *2017-11-17* — If each player controls a Consecrated Sphinx, their abilities will cause each other to trigger until one player chooses not to draw cards.
   - *2017-11-17* — The ability triggers once for each card an opponent draws. You choose whether to draw two cards as each of those abilities resolves.
   - *2017-11-17* — You may either draw two cards or not draw at all. You can't choose to draw only one card.
+- **Referenced in:** 4 pages (2 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#consecrated-sphinx)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/43/consecrated-sphinx) · oracle_id `311a449d-dc74-46e6-9a47-6a597931f736` · printing: 2X2 #43 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consecrate Land
@@ -1522,6 +1539,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #362 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — You perform the actions stated on a card in sequence. For some spells and abilities, you'll surveil last. For others, you'll surveil and then perform other actions.
+- **Referenced in:** 5 pages (3 decks · 1 rules · 1 card data) → [reverse index](../../references/C.md#consider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/157/consider) · oracle_id `4c9bcba6-87b5-4fb3-97ee-6fe5b739337d` · printing: TLE #157 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consider the Prime Directive
@@ -1603,6 +1621,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — A copy of a spell can be countered like any other spell, but it must be countered individually. Countering a spell with replicate won't affect the copies.
   - *2024-06-07* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/C.md#consign-to-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/54/consign-to-memory) · oracle_id `16c39265-72d9-4c86-a961-8dd38ff9adcd` · printing: MH3 #54 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consign to the Pit
@@ -1635,6 +1654,7 @@ schema: 2
   - *2020-06-23* — If the top card of your library changes while you're casting a spell, playing a land, or activating an ability, you don't reveal the new top card until you finish doing so. This means that if you cast the top card of your library, you can't look at the next one until you're done paying for that spell. While the top card isn't revealed, Conspicuous Snoop doesn't have any abilities of that card.
   - *2020-06-23* — You must follow the normal timing permissions and restrictions of the Goblin spells you cast from your library.
   - *2020-06-23* — You still pay all costs for a Goblin spell you cast from your library, including additional costs. You may also pay alternative costs.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/C.md#conspicuous-snoop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m21/139/conspicuous-snoop) · oracle_id `f5d1bd3c-0e65-4999-a810-881b2389b40e` · printing: M21 #139 (2020-07-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Conspiracy
@@ -1708,6 +1728,7 @@ schema: 2
   - *2021-06-18* — If a creature with renown deals combat damage to its controller because that damage was redirected, renown will trigger.
   - *2021-06-18* — If a token creature is exiled this way, it will cease to exist and won't return to the battlefield.
   - *2021-06-18* — Renown won't trigger when a creature deals combat damage to a planeswalker or another creature. It also won't trigger when a creature deals noncombat damage to a player.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/C.md#constable-of-the-realm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/179/constable-of-the-realm) · oracle_id `2a263e61-303f-449d-a431-c26cabdc68e0` · printing: MOC #179 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Constant Mists
@@ -1787,6 +1808,7 @@ schema: 2
   > When the seventh plan counter is put on this enchantment, sacrifice it. When you do, you control target opponent during their next turn. (You see all cards that player could see and make all decisions for them.)
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11613 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#construct-a-cosmic-cube)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/90/construct-a-cosmic-cube) · oracle_id `369aa9a6-af8a-432c-adff-ced2bb203dc7` · printing: MSH #90 (2026-06-26) · [rulings](https://api.scryfall.com/cards/448de757-ac16-4529-b851-1a1331b821a5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consulate Crackdown
@@ -1806,6 +1828,7 @@ schema: 2
   - *2017-02-09* — In a multiplayer game, if Consulate Crackdown’s owner leaves the game, the exiled cards will return to the battlefield. Because the one-shot effect that returns the cards isn’t an ability that goes on the stack, it won’t cease to exist along with the leaving player’s spells and abilities on the stack.
   - *2017-02-09* — The exiled cards return to the battlefield immediately after Consulate Crackdown leaves the battlefield. Nothing happens between the two events, including state-based actions. If Consulate Crackdown exiles multiple artifacts, those cards all return to the battlefield at the same time.
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#consulate-crackdown)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/11/consulate-crackdown) · oracle_id `128f7e5a-17e0-4069-a185-c9f874c7d234` · printing: AER #11 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consulate Dreadnought
@@ -1894,6 +1917,7 @@ schema: 2
   - *2024-06-07* — Some triggered abilities state that you "may pay" a certain amount of {E}. You can't pay that amount multiple times to multiply the effect. You simply choose whether or not to pay that amount of {E} as the ability resolves.
   - *2024-06-07* — Some triggered abilities that state that you "may pay" a certain amount of {E} describe an effect that happens "If you do." In that case, no player may take actions to try to stop the ability's effect after you make your choice. If the payment is followed by the phrase "When you do," then you'll choose any targets for that reflexive triggered ability and put it on the stack before players can take actions.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#consulate-turret)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/147/consulate-turret) · oracle_id `14d71432-c2e6-4c81-92ef-cf98e1fcf5f8` · printing: AER #147 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consul's Lieutenant
@@ -2094,6 +2118,7 @@ schema: 2
   - *2021-09-24* — The ability that defines Consuming Blob's power and toughness works in all zones, not just the battlefield. If Consuming Blob is in your graveyard, it will count itself.
   - *2021-09-24* — The above rulings are also true for Consuming Blob's children (except the first one, as Junior tends to not hang out in graveyards).
   - *2021-09-24* — The card types that can be in a graveyard are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Legendary, basic, and snow are supertypes, not card types.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#consuming-blob)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/177/consuming-blob) · oracle_id `818292cc-6261-47e4-b573-d92f03da6ded` · printing: MID #177 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consuming Bonfire
@@ -2126,6 +2151,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — If the target creature or planeswalker is an illegal target as Consuming Corruption tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
   - *2024-06-07* — The value of X is calculated only once, as Consuming Corruption resolves.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#consuming-corruption)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/84/consuming-corruption) · oracle_id `3bc0bd36-70be-4180-9fb3-b10ce054107b` · printing: MH3 #84 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Consuming Ferocity
@@ -2302,6 +2328,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/C.md#contagion-clasp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/140/contagion-clasp) · oracle_id `43f2d81e-aa01-4fa9-9046-6a27a05dbd2d` · printing: ECC #140 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contagion Engine
@@ -2322,6 +2349,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/C.md#contagion-engine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/som/145/contagion-engine) · oracle_id `482bd55a-ba73-4722-8643-94fa12818515` · printing: SOM #145 (2010-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contagious Nim
@@ -2390,6 +2418,7 @@ schema: 2
   > *Automated units are deployed to stabilize merge sites deemed too dangerous even for trained intercessors.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1848 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/C.md#containment-construct)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/344/containment-construct) · oracle_id `54d48e54-be4a-4a78-a778-b28e74ef7134` · printing: SOC #344 (2026-04-24) · [rulings](https://api.scryfall.com/cards/feb09084-0fdb-4226-b536-56d856354b5a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Containment Membrane
@@ -2464,6 +2493,7 @@ schema: 2
   - *2023-02-04* — If a creature with toxic deals combat damage to a creature or planeswalker, or if it deals noncombat damage, toxic has no effect and no player gets poison counters.
   - *2023-02-04* — Multiple instances of toxic are cumulative. For example, if a creature has toxic 2 and gains toxic 1 due to another effect, combat damage that creature deals to a player will cause that player to get 3 poison counters.
   - *2023-02-04* — Toxic doesn't change the amount of combat damage a creature deals. For example, if a 2/2 creature with toxic 1 deals combat damage to a player, that creature will deal 2 damage. The results of that damage are the player loses 2 life and gets a poison counter.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#contaminant-grafter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/17/contaminant-grafter) · oracle_id `ba922414-878f-4261-9bce-500c5c9e9506` · printing: ONC #17 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contaminated Aquifer
@@ -2542,6 +2572,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2176 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/C.md#contaminated-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/68/contaminated-landscape) · oracle_id `28196fd9-00c9-4cd0-b603-0eec8511ec79` · printing: FRC #68 (2026-10-02) · [rulings](https://api.scryfall.com/cards/f9274fad-3f30-454a-8d61-d487165090d7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contamination
@@ -2556,6 +2587,7 @@ schema: 2
   - *2004-10-04* — External effects that generate more mana still generate their additional mana as directed without being affected by this card. Effects which generate more mana based on what type of mana the land produces will be affected in color but not in amount.
   - *2004-10-04* — The second ability of this card is a replacement effect, not a triggered ability.
   - *2004-10-04* — You choose whether to sacrifice a creature or not on resolution. If not, then you sacrifice Contamination. You can choose to not sacrifice even if you no longer control Contamination on resolution.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#contamination)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/123/contamination) · oracle_id `4013b4c2-c9ed-4d14-90f0-97214ec1fded` · printing: USG #123 (1998-10-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contemplation
@@ -2604,6 +2636,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#contentious-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/46/contentious-plan) · oracle_id `2fc6de19-9d04-422b-90bc-eee2f9f8c84c` · printing: WAR #46 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contested Cliffs
@@ -2684,6 +2717,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12242 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-01-12* — When you surveil, you may put all the cards you look at back on top of your library, you may put all of those cards into your graveyard, or you may put some of those cards on top and the rest of them into your graveyard.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#contingency-plan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/emn/52/contingency-plan) · oracle_id `67bc4116-539e-4748-95e1-033df78173ec` · printing: EMN #52 (2016-07-22) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Continue?
@@ -2710,6 +2744,7 @@ schema: 2
 - **Keywords:** Lifelink, Deathtouch
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/C.md#contortionist-otter-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/15/contortionist-otter-storm) · oracle_id `67624a72-aa18-4b0c-a2cb-77e56499944a` · printing: SUNF #15 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ca442395-159a-40aa-a1e4-ed6bf0ffbedd/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contortionist Troupe
@@ -2757,6 +2792,7 @@ schema: 2
   > 20 | Its controller creates a 0/1 white Goat creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5194 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#contraband-livestock)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/12/contraband-livestock) · oracle_id `fbafe993-8118-40cc-9cb7-ee3f62a2c888` · printing: CLB #12 (2022-06-10) · [rulings](https://api.scryfall.com/cards/d59299b0-91d9-4131-b8d9-614088e1ccaf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contract from Below
@@ -2768,6 +2804,7 @@ schema: 2
   > Discard your hand, ante the top card of your library, then draw seven cards.
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/C.md#contract-from-below)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/97/contract-from-below) · oracle_id `9e0ed4b0-28b5-44be-ab83-f1e8eb07138d` · printing: SUM #97 (1994-06-21) · [rulings](https://api.scryfall.com/cards/e1e33690-b851-404a-9cde-d00235be5aa5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Contract Hero
@@ -2875,6 +2912,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7001 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-06-08* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#control-magic)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/34/control-magic) · oracle_id `cd0d7141-46d2-4aa3-bc77-6b3b4513803e` · printing: CMA #34 (2017-06-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Control of the Court
@@ -2887,6 +2925,7 @@ schema: 2
   > *"Power-hungry eunuchs, the curse of the dynasty, have thrown the masses of the people into the depths of misery."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18990 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#control-of-the-court)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ptk/105/control-of-the-court) · oracle_id `755034b1-1859-4f18-9394-c0e1914a5b83` · printing: PTK #105 (1999-05-01) · [rulings](https://api.scryfall.com/cards/3e4f0005-4f19-4352-9cd2-3993ae6db879/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Control Win Condition
@@ -2905,6 +2944,7 @@ schema: 2
   - *2019-11-12* — Shroud is a keyword that means “This permanent can’t be the target of spells or abilities.” It includes spells and abilities you control.
   - *2019-11-12* — The ability that defines Control Win Condition’s power and toughness works in all zones, not just the battlefield.
   - *2019-11-12* — We can neither confirm nor deny which Mark wouldn’t keep track of his turns every single time he drafted this card. Every. Single. Time. There are like twenty Marks in the studio so it’s no use guessing. But he knows who he is.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#control-win-condition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/19/control-win-condition) · oracle_id `c95f8a95-9c4d-454c-9f4e-0ca7daa22440` · printing: CMB2 #19 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Controvert
@@ -2977,6 +3017,7 @@ schema: 2
   - *2024-02-02* — If a suspected creature loses all abilities, it will lose menace and "This creature can't block", but it won't stop being suspected.
   - *2024-02-02* — There's no limit to the number of creatures that can be suspected simultaneously. Suspecting a new creature doesn't cause other creatures to stop being suspected.
   - *2024-02-02* — When an effect suspects a creature, it becomes suspected. It gains menace and "This creature can't block" for as long as it's suspected. It stays suspected until it leaves the battlefield or another effect causes it to no longer be suspected.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#convenient-target)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/119/convenient-target) · oracle_id `2f214dcf-9601-4ccb-bdac-2f9b9f6dff99` · printing: MKM #119 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Convention Maro
@@ -3072,6 +3113,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — If you destroy some of your own permanents with Convert to Slime, they'll go to your graveyard in time for their types to be counted for the delirium ability.
   - *2024-09-20* — Use the mana value of the destroyed permanents as they last existed on the battlefield to determine the value of X.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#convert-to-slime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/37/convert-to-slime) · oracle_id `b4429e71-434e-480c-a8d1-2ad11de8b2d9` · printing: DSC #37 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Convicted Killer // Branded Howler

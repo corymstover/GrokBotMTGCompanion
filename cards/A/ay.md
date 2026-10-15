@@ -52,6 +52,7 @@ schema: 2
   - *2024-07-05* — An ability that triggers “whenever you cast a historic spell” doesn’t trigger if a historic card is put onto the battlefield without being cast.
   - *2024-07-05* — Lands are never cast, so abilities that trigger “whenever you cast a historic spell” won’t trigger if you play a legendary land. They also won’t trigger if a card on the battlefield transforms into a card with the legendary supertype, the artifact card type, or the Saga subtype.
   - *2024-07-05* — Some abilities trigger “whenever you cast a historic spell.” Such an ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#aya-of-alexandria)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/48/aya-of-alexandria) · oracle_id `27b690f2-d7ce-43b6-8e8b-98a8ffe487bb` · printing: ACR #48 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara, First of Locthwain
@@ -67,6 +68,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #836 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2019-10-04* — In a Two-Headed Giant game, Ayara's first ability causes the opposing team to lose 1 life twice, and you gain 1 life once.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/A.md#ayara-first-of-locthwain)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/75/ayara-first-of-locthwain) · oracle_id `388168b3-ec68-4af2-b88c-6a5ec88c15f6` · printing: ELD #75 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayara's Oathsworn
@@ -101,6 +103,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7253 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2023-04-14* — The first activated ability of Ayara, Widow of the Realm uses the mana value of the permanent you sacrificed as it last existed on the battlefield, not its mana value in the graveyard.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#ayara-widow-of-the-realm--ayara-furnace-queen)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/90/ayara-widow-of-the-realm-ayara-furnace-queen) · oracle_id `f9ef90b9-a2b4-4a5b-92fb-2268ea7d709f` · printing: MOM #90 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ayesha Tanaka
@@ -163,6 +166,7 @@ schema: 2
   > *Serra's gift to her people: a symbol of faith and hope.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #27648 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#aysen-abbey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hml/112/aysen-abbey) · oracle_id `6ff85e73-bf7a-4a9c-80ef-6ce76656fab7` · printing: HML #112 (1995-10-01) · [rulings](https://api.scryfall.com/cards/2a2e669b-61b2-4729-b636-094796fb1d93/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Aysen Bureaucrats

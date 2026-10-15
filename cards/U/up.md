@@ -56,6 +56,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31409 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/U.md#updraft-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/82/updraft-elemental) · oracle_id `a33982e4-d7d2-4319-bf04-534b8f253dfb` · printing: DTK #82 (2015-03-27) · [rulings](https://api.scryfall.com/cards/9621c700-569d-4d07-847e-68b97113415f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upheaval
@@ -68,6 +69,7 @@ schema: 2
   > *The calm comes after the storm.*
 - **Commander notes:** Commander format: **banned** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/U.md#upheaval)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/270/upheaval) · oracle_id `7cafc972-a6f5-4cac-a3d3-8a3ae36ffb1e` · printing: MH2 #270 (2021-06-18) · [rulings](https://api.scryfall.com/cards/befe74b1-c487-42bb-a1a1-4d13f3a86ff7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Uphill Battle
@@ -123,6 +125,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1123 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If a spell has {X} in its mana cost, use the value chosen for that X to determine the mana value of that spell.
+- **Referenced in:** 3 pages (1 decks · 1 lore & story · 1 card data) → [reverse index](../../references/U.md#up-the-beanstalk)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/195/up-the-beanstalk) · oracle_id `050f5733-7c0b-4991-9a6c-7ea12ccf0ca9` · printing: WOE #195 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Upwelling

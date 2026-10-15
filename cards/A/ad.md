@@ -110,6 +110,7 @@ schema: 2
   - *2025-07-25* — The abilities of a permanent with station are based on the number of charge counters it has. This means that if a permanent with station gets charge counters due to some other effect (such as proliferate) or loses charge counters somehow, its abilities change accordingly. The same is true for determining whether or not that permanent is a creature.
   - *2025-07-25* — The token created by Adagia’s last ability copies exactly what was printed on the original permanent and nothing else, with the listed exception (unless that permanent is copying something else or is a token; see below). It doesn’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on. If it is a Vehicle, it is not crewed. If it is an Equipment, it is not attached to any creature.
   - *2025-07-25* — Use the tapped creature’s power as the station ability resolves to determine how many charge counters to put on the permanent with station. If that creature isn’t on the battlefield at that time, use its power as it last existed on the battlefield.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/A.md#adagia-windswept-bastion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/250/adagia-windswept-bastion) · oracle_id `70d35dbd-1d91-4a2a-a643-6870d168f4f5` · printing: EOE #250 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adamant Will
@@ -122,6 +123,7 @@ schema: 2
   > *"I refuse to die before I see the sun rise again."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9133 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#adamant-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/488/adamant-will) · oracle_id `467e22c3-6107-40ff-afc7-5960710c970b` · printing: FDN #488 (2024-11-15) · [rulings](https://api.scryfall.com/cards/1fd2c9ab-b3dd-4f68-b91f-0f075a045757/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adamaro, First to Desire
@@ -194,6 +196,7 @@ schema: 2
 - **Keywords:** Equip
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1869 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#adaptive-omnitool)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdc/243/adaptive-omnitool) · oracle_id `e91240bc-4a13-4131-9379-5ddac6555f4a` · printing: FDC #243 (2026-10-02) · [rulings](https://api.scryfall.com/cards/9e84f840-d7c6-4a82-8891-3d12281020ee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adaptive Shimmerer
@@ -328,6 +331,7 @@ schema: 2
   > *Left barren by the Brothers' War, it stands as a stark reminder of Dominaria's likely fate should the Coalition fail.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 card data) → [reverse index](../../references/A.md#adarkar-wastes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/147/adarkar-wastes) · oracle_id `d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b` · printing: EOC #147 (2025-08-01) · [rulings](https://api.scryfall.com/cards/42e0aa15-639a-4e88-9bd8-ce5e7c7d7649/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adarkar Windform
@@ -416,6 +420,7 @@ schema: 2
   - *2021-09-24* — The ability that defines Adeline's power works in all zones, not just the battlefield. As long as Adeline is on the battlefield (and still a creature), that ability will count Adeline itself.
   - *2021-09-24* — Tokens will be created for each of your opponents, not just opponents that you attacked.
   - *2021-09-24* — You choose whether each token is attacking that opponent or a planeswalker they control as those tokens enter the battlefield.
+- **Referenced in:** 4 pages (1 decks · 1 rules · 2 card data) → [reverse index](../../references/A.md#adeline-resplendent-cathar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/108/adeline-resplendent-cathar) · oracle_id `38515f89-348b-4cf3-b7bd-1f6fe4ce2fba` · printing: TDC #108 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adeliz, the Cinder Wind
@@ -447,6 +452,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6450 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-11-17* — Because damage remains marked on creatures until the damage is removed as the turn ends, nonlethal damage dealt to a creature you control may become lethal if that creature becomes untapped or if Adept Watershaper leaves the battlefield during that turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#adept-watershaper)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/3/adept-watershaper) · oracle_id `602cce3e-7033-47d6-aec1-d755f234f270` · printing: ECL #3 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adéwalé, Breaker of Chains
@@ -461,6 +467,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-05* — Adéwalé's last ability triggers only if it's already in your graveyard as a Vehicle you control deals combat damage to a player.
   - *2024-07-05* — If Adéwalé leaves your graveyard before its last ability resolves, the ability will have no effect, even if the card returns to your graveyard before that ability resolves.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#adéwalé-breaker-of-chains)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/44/ad%C3%A9wal%C3%A9-breaker-of-chains) · oracle_id `e30d9e08-cf88-4e2d-95e1-7144d8fea5c7` · printing: ACR #44 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adherent of Hope
@@ -488,6 +495,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17809 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-10-13* — For Adipose Offspring's last ability, use the toughness of the sacrificed creature as it existed when it was last on the battlefield, which may be different from its toughness in the graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#adipose-offspring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/10/adipose-offspring) · oracle_id `1e21e57e-3bc9-41a8-9746-57b583a5ad63` · printing: WHO #10 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral Beckett Brass
@@ -508,6 +516,7 @@ schema: 2
   - *2017-09-29* — In a Two-Headed Giant game, combat damage dealt by Pirates your teammate controls will count when checking for Admiral Beckett Brass's ability.
   - *2017-09-29* — In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end.
   - *2017-09-29* — The control-change effect of Admiral Beckett Brass's triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when you lose control of Admiral Beckett Brass.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/A.md#admiral-beckett-brass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/264/admiral-beckett-brass) · oracle_id `43b5e462-d860-473d-828f-6c513fc7768a` · printing: LCC #264 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral Brass, Unsinkable
@@ -526,6 +535,7 @@ schema: 2
   - *2023-11-10* — Finality counters don't stop permanents from going to zones other than the graveyard from the battlefield. For example, if a permanent with a finality counter on it would be put into its owner's hand from the battlefield, it does so normally.
   - *2023-11-10* — Finality counters work on any permanent, not only creatures. If a permanent with a finality counter on it would be put into a graveyard from the battlefield, exile it instead.
   - *2023-11-10* — Multiple finality counters on a single permanent are redundant.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/A.md#admiral-brass-unsinkable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/1/admiral-brass-unsinkable) · oracle_id `4df179b4-7c6b-4e63-9d7d-62f4df377989` · printing: LCC #1 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admiral's Order
@@ -542,6 +552,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Raid abilities care only that you attacked with a creature. It doesn't matter how many creatures you attacked with or which player, planeswalker, or battle those creatures attacked.
   - *2024-11-08* — Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn't have to still be on the battlefield. Similarly, the player, planeswalker, or battle it attacked doesn't have to still be in the game or on the battlefield.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/A.md#admirals-order)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/31/admirals-order) · oracle_id `ae4fe5e0-408d-4398-84d7-a901b836df2a` · printing: RIX #31 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Admonition Angel
@@ -576,6 +587,7 @@ schema: 2
   - *2026-03-20* — Each time you put the revealed card into your hand and lose the appropriate amount of life, you decide whether to continue by revealing another card. You don't decide in advance how many cards to put into your hand this way.
   - *2026-03-20* — If a card in a player's library has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-03-20* — You may continue to reveal cards with Ad Nauseam even if your life total has been reduced to 0 or less. If you continue, you will continue to lose life, dropping your life total into negative numbers. As soon as you stop, you'll lose the game as a state-based action.
+- **Referenced in:** 13 pages (8 decks · 3 edh guides · 2 card data) → [reverse index](../../references/A.md#ad-nauseam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/76/ad-nauseam) · oracle_id `981b0e21-e5e6-4a1e-bfde-679d56623f7f` · printing: 2XM #76 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adorable Kitten
@@ -623,6 +635,7 @@ schema: 2
   - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
   - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/A.md#adorned-pouncer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/2/adorned-pouncer) · oracle_id `80b8ee3d-4174-4f47-a533-a3db1e703382` · printing: HOU #2 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrenaline Jockey
@@ -640,6 +653,7 @@ schema: 2
   - *2025-02-07* — Exhaust abilities can be activated any time you could normally activate an ability.
   - *2025-02-07* — If an ability triggers whenever you activate an exhaust ability, that ability resolves before the exhaust ability resolves.
   - *2025-02-07* — If an exhaust ability of a permanent is activated, and then that permanent leaves the battlefield and returns to the battlefield, it becomes a new object so its exhaust ability can be activated again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#adrenaline-jockey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/112/adrenaline-jockey) · oracle_id `c3dc6b0e-8790-4bd3-b166-63b2dc77488f` · printing: DFT #112 (2025-02-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrestia
@@ -657,6 +671,7 @@ schema: 2
   - *2024-07-05* — Adrestia’s second ability will trigger as long as it was crewed by an Assassin this turn, even if that creature has left the battlefield or stopped being an Assassin since.
   - *2024-07-05* — Adrestia’s second ability will trigger only if it was crewed this turn by a creature that was an Assassin when it was tapped to pay the cost of Adrestia’s crew ability.
   - *2024-07-05* — When Adrestia attacks, if it hasn’t already been crewed by an Assassin this turn, its second ability won’t trigger at all. It’s not possible to crew it with an Assassin after it attacks in time to have the ability trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#adrestia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/68/adrestia) · oracle_id `94779ca4-c202-4163-9c77-1036921a34bc` · printing: ACR #68 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adriana, Captain of the Guard
@@ -702,6 +717,7 @@ schema: 2
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
   - *2016-08-23* — You must name a Magic card. Notably, you can't name a token.
   - *2016-08-23* — You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#adrianas-valor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/1/adrianas-valor) · oracle_id `512a9ab9-ddd4-4872-b4f4-dee56f9f5575` · printing: CN2 #1 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adric, Mathematical Genius
@@ -737,6 +753,7 @@ schema: 2
   - *2023-10-13* — The source of the copy from Adric, Mathematical Genius's first ability is the same as the source of the original ability.
   - *2023-10-13* — Triggered abilities use the word "when," "whenever," or "at." They're often written as "[Trigger condition], [effect]." Some keywords (such as prowess) are triggered abilities and will use "when," "whenever," or "at" in their reminder text.
   - *2023-10-13* — You can't choose to pay any activation costs for the copy. However, effects based on those costs that were paid for the original ability are copied as though those same costs were paid for the copy.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/A.md#adric-mathematical-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/33/adric-mathematical-genius) · oracle_id `af566158-23b2-4f91-8d59-a58342a9f576` · printing: WHO #33 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adrix and Nev, Twincasters
@@ -752,6 +769,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — If a player casts a spell that targets multiple permanents their opponent controls with ward, each of those ward abilities will trigger. If that player doesn't pay for all of them, the spell will be countered.
   - *2021-06-18* — Everything that is specified by the effect creating the original token or tokens will also be true about the additional token or tokens created by Adrix and Nev's replacement effect. For example, if an effect tells you to create a token "tapped and attacking" the additional tokens will also be tapped and attacking. Similarly, if an effect creates a token and puts counters on it (such as a Fractal token) the additional token will also get those counters.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#adrix-and-nev-twincasters)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/198/adrix-and-nev-twincasters) · oracle_id `12a6cad9-eb42-43bd-9e68-aaf862cd83db` · printing: MKC #198 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adult Gold Dragon
@@ -895,6 +913,7 @@ schema: 2
   - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#advantageous-proclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/1/advantageous-proclamation) · oracle_id `86373537-7424-416a-8d89-cc38f6538458` · printing: CNS #1 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Advent of the Wurm
@@ -907,6 +926,7 @@ schema: 2
   > *The consciousness of Mat'Selesnya does not always spread in peaceful ways.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15545 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/A.md#advent-of-the-wurm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mm3/147/advent-of-the-wurm) · oracle_id `eb62aa4b-c11b-4195-ae85-cff8f78ce17b` · printing: MM3 #147 (2017-03-17) · [rulings](https://api.scryfall.com/cards/ba3b5e35-5448-4115-a9c5-6ac14013c904/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventure Awaits
@@ -970,6 +990,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1457 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#adventurers-inn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/271/adventurers-inn) · oracle_id `232bd88c-ecdb-43dd-b34a-d381cb3bedf2` · printing: FIN #271 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adventuring Gear
@@ -1029,6 +1050,7 @@ schema: 2
   > *An adventure without a companion is hardly an adventure at all.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8503 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/A.md#adventurous-impulse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/142/adventurous-impulse) · oracle_id `5bf49f39-b3d5-4148-8dc2-b5b5011769d2` · printing: IKO #142 (2020-04-24) · [rulings](https://api.scryfall.com/cards/30811fb2-5767-4106-9a8d-6091f61969c6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adverse Conditions

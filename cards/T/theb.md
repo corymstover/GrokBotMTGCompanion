@@ -235,6 +235,7 @@ schema: 2
   - *2021-02-05* — The chapter II ability overwrites any previous effects that set any of the Shapeshifters’ base power and toughness to specific values. Any effects that set a Shapeshifter’s base power and toughness that start to apply after the chapter II ability will override the effect of that ability.
   - *2021-02-05* — The effect of the chapter II ability lasts indefinitely. It doesn’t expire at end of turn.
   - *2021-02-05* — The subtype Shapeshifter that appears on the type line is mostly there to reinforce the flavor. A creature card with changeling is just as much an Elf, a Dwarf, a Sliver, a Goat, a Coward, and a Zombie as it is a Shapeshifter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-bears-of-littjara)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/205/the-bears-of-littjara) · oracle_id `697f3fd9-1577-4f69-bdf8-db1f673d3505` · printing: KHM #205 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Beast, Deathless Prince
@@ -279,6 +280,7 @@ schema: 2
   - *2023-11-10* — If the top card of your library has an Adventure, you can cast the Adventure spell this way.
   - *2023-11-10* — Once The Belligerent's triggered ability resolves, you can look at the top card of your library whenever you want until end of turn (with one restriction; see below), even if you don't have priority. This action doesn't use the stack. Knowing what that card is becomes part of the information you have access to, just like you can look at the cards in your hand.
   - *2023-11-10* — You must pay all costs and follow all timing rules for spells cast and lands played from the top of your library this way.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-belligerent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/225/the-belligerent) · oracle_id `9a0c9023-9431-4f98-b167-ab4c7215319c` · printing: LCI #225 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Belligerent and Useless Island
@@ -322,6 +324,7 @@ schema: 2
   - *2018-01-19* — If another spell or ability instructs you to roll two dice and use the difference, you can use The Big Idea’s second ability to replace one of those die rolls. First, roll two dice and use their sum. That’s the first result. Then roll one die. That’s the second result. Then figure out the difference between those two results.
   - *2018-01-19* — If you use the second ability to roll two dice instead of one, any ability that triggers “whenever you roll a die” will trigger twice.
   - *2018-01-19* — Some cards, like Chittering Doom, care about the results of individual die rolls and not the total if two dice are rolled together. For example, if you use The Big Idea’s second ability to replace one die roll with two and roll two 3s, Chittering Doom’s ability (which triggers whenever you roll 4 or higher on a die) won’t trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-big-idea)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ust/76/the-big-idea) · oracle_id `976fb4c7-f330-4b8b-8f87-e6839d9a2880` · printing: UST #76 (2017-12-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Big Top
@@ -392,6 +395,7 @@ schema: 2
   - *2020-01-24* — Once a chapter ability has triggered, the ability on the stack won’t be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2020-01-24* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
   - *2020-01-24* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives lore counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-birth-of-meletis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/5/the-birth-of-meletis) · oracle_id `1ae54fe7-b1d3-4c13-a8ef-f502cf3eb1a0` · printing: THB #5 (2020-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Black Arrow
@@ -440,6 +444,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — The chosen player needs only to have the most life or tied for most life as The Black Gate's last ability resolves. After the ability resolves, any changes in life total won't affect which creatures can block or be blocked that turn.
   - *2023-06-16* — The creature that was targeted by The Black Gate's last ability can't be blocked by any creature the chosen player controls, including creatures that weren't on the battlefield when The Black Gate's ability resolved.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-black-gate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/80/the-black-gate) · oracle_id `40eb9904-dea3-47cf-963a-04821f98ba64` · printing: LTC #80 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Blackstaff of Waterdeep
@@ -472,6 +477,7 @@ schema: 2
   - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga’s controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn’t use the stack.
   - *2021-02-05* — Removing lore counters won’t cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
   - *2021-02-05* — The chapter III ability isn’t a mana ability. It uses the stack and can be responded to. Use the number of Berserkers you control as the ability resolves to determine how much {R} to add.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-bloodsky-massacre)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/207/the-bloodsky-massacre) · oracle_id `fd9cd2b0-3f43-41a6-b963-c781d0f285e8` · printing: KHM #207 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Blue Spirit
@@ -486,6 +492,7 @@ schema: 2
   > *To the Avatar, was the Blue Spirit a friend? A foe? Or something else entirely?*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7331 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#the-blue-spirit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/90/the-blue-spirit) · oracle_id `497e9c7c-a16d-43e5-a7ec-04153aa2566a` · printing: TLE #90 (2025-11-21) · [rulings](https://api.scryfall.com/cards/d0d1f5b0-f842-40d5-ae51-015eefe68fa1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Book of Exalted Deeds
@@ -499,6 +506,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-07-23* — The Angel won't lose the ability it gains if it stops being an Angel after the ability resolves.
   - *2021-07-23* — The enlightenment counter placed by the last ability serves as a memory aid. It isn't connected to the granted ability. The Angel keeps that ability even if it loses the counter. Similarly, if the counter is somehow moved to another permanent, that permanent doesn't gain the ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#the-book-of-exalted-deeds)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/4/the-book-of-exalted-deeds) · oracle_id `046add85-952f-46ac-974a-463d2a7d3fd4` · printing: AFR #4 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Book of Vile Darkness
@@ -513,6 +521,7 @@ schema: 2
   - *2021-07-23* — In some strange cases, you might make something into a copy of the Eye and/or Hand of Vecna and then exile that copy to activate The Book of Vile Darkness's ability. The ability that creates Vecna will look at the cards in exile, not the permanents on the battlefield, so it's possible to have Vecna gain different triggered abilities.
   - *2021-07-23* — In the vast majority of cases, Vecna will gain the triggered ability printed on Hand of Vecna and the two triggered abilities printed on Eye of Vecna.
   - *2021-07-23* — The Book of Vile Darkness has received an update to its Oracle text. Specifically, the triggered abilities that Vecna gains are part of its copiable values. This means any enters-the-battlefield triggered abilities it gains (such as the one from Eye of Vecna) will trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#the-book-of-vile-darkness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/91/the-book-of-vile-darkness) · oracle_id `fcc666bc-6fea-44e0-94bc-462c742db528` · printing: AFR #91 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Boulder, Ready to Rumble

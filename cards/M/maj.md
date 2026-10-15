@@ -45,6 +45,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/M.md#maja-bretagard-protector)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/222/maja-bretagard-protector) · oracle_id `0a2075b5-9609-433d-bcd2-e0a637456cf8` · printing: KHM #222 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Auricorn
@@ -86,6 +87,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9775 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/M.md#majestic-heliopterus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/131/majestic-heliopterus) · oracle_id `d3b49970-46b7-441b-bff8-8403d982b8a7` · printing: LCC #131 (2023-11-17) · [rulings](https://api.scryfall.com/cards/637741c4-5420-4a54-839e-4fd454d93172/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Majestic Metamorphosis

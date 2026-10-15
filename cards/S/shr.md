@@ -169,6 +169,7 @@ schema: 2
   - *2026-01-27* — Although a creature put onto the battlefield this way is attacking, it was never declared as an attacking creature. Abilities that trigger whenever a creature attacks won't trigger when that creature enters attacking.
   - *2026-01-27* — If a creature spell's sneak cost was paid, the creature it becomes enters tapped and attacking the same player, planeswalker, or battle as the creature that was returned to its owner's hand to pay its sneak cost. This is a rule specific to sneak; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player, planeswalker, or battle it's attacking.
   - *2026-01-27* — Spells can only be cast for their sneak costs any time you could play an instant during the declare blockers step on your turn (after your opponent has decided whether to block).
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#shredders-technique)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/77/shredders-technique) · oracle_id `d92714c0-4e22-47f9-a4d4-405894e734d0` · printing: TMT #77 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shredder, Unrelenting
@@ -211,6 +212,7 @@ schema: 2
 - **Keywords:** Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8363 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shred-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rav/105/shred-memory) · oracle_id `16cae855-d93a-445d-9cac-dbc5a7c18cb1` · printing: RAV #105 (2005-10-07) · [rulings](https://api.scryfall.com/cards/e38192e5-814f-4269-bae8-13867a73e7fa/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shreds of Sanity
@@ -345,6 +347,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-06-07* — Shrieking Drake's ability doesn't target any creature. Therefore, no player may take actions between the time you choose the creature to return and the time you return it.
   - *2024-06-07* — You may return Shrieking Drake itself to its owner's hand as its triggered ability resolves. If you don't control any other creature, you must return it.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#shrieking-drake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/272/shrieking-drake) · oracle_id `2a8e14be-6f93-428d-a204-e2399dc93797` · printing: MH3 #272 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrieking Grotesque
@@ -404,6 +407,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — If you pay the evoke cost, you can have Shriekmaw's own triggered ability resolve before the evoke triggered ability. You can cast spells after that ability resolves but before you have to sacrifice Shriekmaw.
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an evoke cost), add any cost increases, then apply any cost reductions. The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/S.md#shriekmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/85/shriekmaw) · oracle_id `717bbb9d-0a5b-4979-a24b-9d54aac7657a` · printing: ECC #85 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shriek of Dread
@@ -521,6 +525,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-07-13* — The power of the blocking creature and that of Howling Chorus are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause Howling Chorus to become unblocked.
   - *2016-07-13* — The power of the blocking creature and that of Shrill Howler are compared only at the moment that blockers are chosen. Changing either creature's power later won't cause Shrill Howler to become unblocked.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shrill-howler--howling-chorus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/214/shrill-howler-howling-chorus) · oracle_id `30c3f88f-11d3-4b5f-8936-bab1c65bd693` · printing: INR #214 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrine of Boundless Growth
@@ -567,6 +572,7 @@ schema: 2
   > {3}, {T}, Sacrifice this artifact: Create a 1/1 colorless Phyrexian Myr artifact creature token for each charge counter on this artifact.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17643 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shrine-of-loyal-legions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/155/shrine-of-loyal-legions) · oracle_id `9696ad3d-2e17-4ab7-88ee-3c56a632b7a8` · printing: NPH #155 (2011-05-13) · [rulings](https://api.scryfall.com/cards/d13563c7-abe0-4760-9b4c-841de47dbc46/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrine of Piercing Vision
@@ -591,6 +597,7 @@ schema: 2
   > *The gods known to the merfolk as Ula, Emeria, and Cosi were nothing more than false memories of a monstrous trinity: the Eldrazi titans Ulamog, Emrakul, and Kozilek.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1218 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/S.md#shrine-of-the-forsaken-gods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/292/shrine-of-the-forsaken-gods) · oracle_id `8ea46945-d5ab-4209-b473-4769e7b8b962` · printing: MKC #292 (2024-02-09) · [rulings](https://api.scryfall.com/cards/4472d5fb-ca8f-43d0-a95d-5bd8bdb6a02d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrine Steward
@@ -604,6 +611,7 @@ schema: 2
   > *From broken swords, the first Imperials forged a peaceful servant to tend the shrines of Eiganjo.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11046 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shrine-steward)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/259/shrine-steward) · oracle_id `993a91fa-84ed-4688-9884-e03cbad6c791` · printing: NEO #259 (2022-02-18) · [rulings](https://api.scryfall.com/cards/75e8d71c-3a0b-4042-a0f7-e99e92a79dc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrink
@@ -660,6 +668,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5680 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shroofus-sproutsire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/plst/J25-54/shroofus-sproutsire) · oracle_id `e0cebb09-d10d-4b70-96be-82df0e5d52d3` · printing: PLST #J25-54 (2026-10-19) · [rulings](https://api.scryfall.com/cards/9ed9f270-4da6-439e-b13a-70da6e7f424a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shrouded Lore
@@ -709,6 +718,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shrouded-shepherd--cleave-shadows)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/236/shrouded-shepherd-cleave-shadows) · oracle_id `de52b262-418e-418c-b2aa-8d5a776e3a75` · printing: WOE #236 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shroudstomper

@@ -43,6 +43,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6996 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-01-19* — There are many important moments in the story, but the most crucial—called “story spotlights”—are shown on cards. These cards have the Planeswalker symbol in their text box; this symbol has no effect on gameplay. You can read more about these events in the official Magic fiction at http://www.mtgstory.com.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/B.md#by-force)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/123/by-force) · oracle_id `7ce950fb-e065-45d3-aeff-f8c475460754` · printing: AKH #123 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### By Gnome Means

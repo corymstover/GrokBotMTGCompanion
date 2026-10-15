@@ -204,6 +204,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-01-19* — If lethal damage is dealt to a creature with an enrage ability, that ability triggers. The creature with that enrage ability leaves the battlefield before that ability resolves, so it won’t be affected by the resolving ability.
   - *2018-01-19* — If multiple sources deal damage to a creature with an enrage ability at the same time, most likely because multiple creatures blocked that creature, the enrage ability triggers only once.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#cacophodon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rix/123/cacophodon) · oracle_id `8bd6dea2-2fdd-482f-9fe8-6f3eeed13872` · printing: RIX #123 (2018-01-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Cacophony Scamp

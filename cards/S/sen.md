@@ -165,6 +165,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-06-08* — If Sengir Autocrat leaves the battlefield while its first ability is on the stack, its second ability triggers and exiles any Serf tokens that happen to be on the battlefield, and then its first ability resolves and gives you three Serf tokens.
   - *2016-06-08* — Sengir Autocrat’s last ability exiles all Serf tokens, not just the Serf tokens its first ability created.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#sengir-autocrat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ema/105/sengir-autocrat) · oracle_id `0561043a-3896-4bb1-8ff5-ee674ddfea2a` · printing: EMA #105 (2016-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir Bats
@@ -211,6 +212,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-09-25* — The Sengir Nosferatu that the Bat token's ability returns to the battlefield doesn't have to be the same one that created it, and it doesn't even have to be owned by the same player.
   - *2007-05-01* — If the Nosferatu is copied (by Clone, for example) and then the copy is exiled by the first activated ability, it won't be able to come back using the second activated ability, since it's no longer named Sengir Nosferatu in the Exile zone.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sengir-nosferatu)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/136/sengir-nosferatu) · oracle_id `2efdfcae-c3ad-4c6b-8a60-45a203bd14c6` · printing: TSR #136 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sengir, the Dark Baron
@@ -303,6 +305,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-12-01* — Note that multiple instances of the bushido ability each trigger separately.
   - *2004-12-01* — The training counter just marks which creatures have been changed; an effect that removes the counter doesn’t change the creature’s types or abilities.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sensei-golden-tail)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/44/sensei-golden-tail) · oracle_id `63305fd4-068f-498b-a01e-0b375c592797` · printing: CHK #44 (2004-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensei's Divining Top
@@ -316,6 +319,7 @@ schema: 2
 - **Rulings** (2):
   - *2016-06-08* — If Sensei's Divining Top leaves the battlefield while its second ability is on the stack, you'll draw a card and leave Sensei's Divining Top in the zone it's moved to.
   - *2016-06-08* — Sensei's Divining Top's second ability may be activated in response to its first ability. If so, you'll draw a card, put Sensei's Divining Top on top of your library, and then look at the top three cards and rearrange them.
+- **Referenced in:** 15 pages (8 decks · 4 edh guides · 1 rules · 2 card data) → [reverse index](../../references/S.md#senseis-divining-top)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/314/senseis-divining-top) · oracle_id `13575cf9-65c1-4861-b21e-eb2155e07766` · printing: 2X2 #314 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Senseless Rage
@@ -352,6 +356,7 @@ schema: 2
   > *With clarity of vision comes clarity of function.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10235 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sensor-splicer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/29/sensor-splicer) · oracle_id `9676da93-1e17-4f6c-b610-a242b78c71ab` · printing: 2X2 #29 (2022-07-08) · [rulings](https://api.scryfall.com/cards/2d308c11-cc8d-4fa6-bbe1-357b164733ad/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sensory Deprivation
@@ -399,6 +404,7 @@ schema: 2
   - *2016-08-23* — Conspiracies aren't legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft.
   - *2016-08-23* — You can look at any player's face-up conspiracies at any time. You'll also know how many face-down conspiracies a player has in the command zone, although you won't know what they are.
   - *2016-08-23* — You don't have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can't put conspiracies into the command zone after this point.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/S.md#sentinel-dispatch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/11/sentinel-dispatch) · oracle_id `7df49476-7b6c-4b5d-bede-463a7d2e0a58` · printing: CNS #11 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel of Lost Lore
@@ -525,6 +531,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-07-01* — Abilities that Slivers grant, as well as power/toughness boosts, are cumulative. However, for some abilities, like flying, having more than one instance of the ability doesn’t provide any additional benefit.
   - *2013-07-01* — If you change the creature type of a Sliver you control so it’s no longer a Sliver, it will no longer be affected by its own ability. Its ability will continue to affect other Sliver creatures you control.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sentinel-sliver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/835/sentinel-sliver) · oracle_id `1d0f1186-be6c-45c3-9703-f0c1e13892fb` · printing: CMM #835 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentinel's Mark
@@ -620,6 +627,7 @@ schema: 2
   - *2020-08-07* — The target opponent can't activate any abilities, including mana abilities.
   - *2020-08-07* — Triggered abilities use the word “when,” “whenever,” or “at.” They're often written as “[Trigger condition], [effect].” Triggered abilities are unaffected by Sen Triplets.
   - *2020-08-07* — You can't activate abilities of cards in the target opponent's hand.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sen-triplets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/218/sen-triplets) · oracle_id `f0c5864f-83c3-4d99-8f97-0ab92608fff3` · printing: 2XM #218 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sentry Bot

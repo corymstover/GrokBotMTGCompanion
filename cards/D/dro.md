@@ -109,6 +109,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14089 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — The Spirit tokens created by Drogskol Cavalry will cause its second ability to trigger, as well as any other Spirits you cast or Spirit tokens you put onto the battlefield another way.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#drogskol-cavalry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/15/drogskol-cavalry) · oracle_id `a8bac5a8-5a60-4f7a-a4d6-cb922da92472` · printing: SOI #15 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drogskol Infantry // Drogskol Armaments
@@ -217,6 +218,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If you don't want to unsummon a land, you can play this card then tap it for mana before the enters ability resolves. You may then choose to sacrifice it instead of unsummoning a land.
   - *2005-08-01* — This land is of type "Lair" only; other subtypes have been removed. It is not a basic land.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dromars-cavern)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/246/dromars-cavern) · oracle_id `d8b57707-796d-4488-8f91-65bb75bc6281` · printing: DMR #246 (2023-01-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromar's Charm
@@ -316,6 +318,7 @@ schema: 2
   - *2015-02-25* — You can choose a mode only if you can choose legal targets for that mode. Ignore the targeting requirements for modes that aren't chosen. For example, you can cast Ojutai's Command without targeting a creature spell provided you don't choose the third mode.
   - *2015-02-25* — You can target any player with the second ability, including one that doesn't control an enchantment.
   - *2015-02-25* — You choose the two modes as you cast the spell. You must choose two different modes. Once modes are chosen, they can't be changed.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/D.md#dromokas-command)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/323/dromokas-command) · oracle_id `3bd8ea71-cbcc-4659-b9a8-88cf27ee12d8` · printing: MOC #323 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dromoka's Gift
@@ -482,6 +485,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — As soon as a player rolls a 1, the creature will no longer be granted flying from Drop Tower. No player may take any actions between the result of die roll coming up 1 and the flying effect ending.
   - *2022-10-07* — You can choose Drop Tower’s effect for Grand Marshal Macie’s last ability. If you do, the effect won’t end even if a player rolls a 1, though if that happens, the effect will end as soon as Grand Marshal Macie untaps.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drop-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/209a/drop-tower) · oracle_id `54c4fd18-adf5-408b-a529-019ebc24ca8d` · printing: UNF #209a (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drossclaw
@@ -614,6 +618,7 @@ schema: 2
   > *They skitter out of the mists to consume fresh kill before Mephidross has a chance to corrode it away.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10620 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dross-scorpion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mrd/164/dross-scorpion) · oracle_id `132786bb-157c-4e2c-8f82-13df6a667448` · printing: MRD #164 (2003-10-02) · [rulings](https://api.scryfall.com/cards/27c5381c-2e79-41fa-b1d7-2cf0c6dc1808/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dross Skullbomb
@@ -628,6 +633,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12568 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — If the target of Dross Skullbomb's last ability isn't a legal target as the ability tries to resolve (probably because it has left the graveyard), you won't draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dross-skullbomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/225/dross-skullbomb) · oracle_id `0c43e9b4-013a-47ee-9805-f41afb0a3bde` · printing: ONE #225 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drought
@@ -692,6 +698,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6083 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-09-29* — Because damage remains marked on a creature until it's removed as the turn ends, the damage Drover of the Mighty takes during combat may become lethal if you no longer control a Dinosaur later in the turn.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/D.md#drover-of-the-mighty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/239/drover-of-the-mighty) · oracle_id `6deba6e8-077b-4602-86af-64db766fbbd9` · printing: LCC #239 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned
@@ -721,6 +728,7 @@ schema: 2
 - **Rulings** (2):
   - *2009-10-01* — As this is entering, it checks for lands that are already on the battlefield. It won't see lands that are entering at the same time (due to Warp World, for example).
   - *2009-10-01* — This checks for lands you control with the land type Island or Swamp, not for lands named Island or Swamp. The lands it checks for don't have to be basic lands. For example, if you control Blood Crypt (a nonbasic land with the land types Swamp and Mountain), Drowned Catacomb will enter untapped.
+- **Referenced in:** 17 pages (13 decks · 3 edh guides · 1 card data) → [reverse index](../../references/D.md#drowned-catacomb)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/69/drowned-catacomb) · oracle_id `819fc966-434e-470f-91e9-a38df974ad17` · printing: FRC #69 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowned Rusalka
@@ -888,6 +896,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#drown-in-ichor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/91/drown-in-ichor) · oracle_id `e4912bc3-bee9-4a2f-a13e-3a99018f8a65` · printing: ONE #91 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Shapelessness
@@ -900,6 +909,7 @@ schema: 2
   > *"From the swallows, I learned how to ride the winds to anywhere, and from my tears, I mastered how to harness the water."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #26941 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drown-in-shapelessness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gs1/15/drown-in-shapelessness) · oracle_id `a3874282-9887-4b53-b80e-564ac99cca23` · printing: GS1 #15 (2018-06-22) · [rulings](https://api.scryfall.com/cards/31420a65-5f13-4ae9-8d45-2531ee2771e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drown in Sorrow
@@ -929,6 +939,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-10-04* — For spells with {X} in their mana costs, use the value chosen for X to determine the spell's mana value.
   - *2019-10-04* — If a creature on the battlefield has {X} in its mana cost, X is considered to be 0.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/D.md#drown-in-the-loch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/842/drown-in-the-loch) · oracle_id `0f264e5b-264e-4e97-9a8d-8ae1d6a286ce` · printing: CLB #842 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drownyard Amalgam
@@ -1018,6 +1029,7 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1989 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#drownyard-temple)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/359/drownyard-temple) · oracle_id `c30f9be4-c274-4ad0-b5d7-7d3421aa4277` · printing: TDC #359 (2025-04-11) · [rulings](https://api.scryfall.com/cards/dbc8512a-9f6c-40d4-8049-14505e260746/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drowsing Tyrannodon

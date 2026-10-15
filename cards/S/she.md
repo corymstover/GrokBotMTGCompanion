@@ -112,6 +112,7 @@ schema: 2
   - *2015-08-25* — If the non-awaken part of the spell requires a target, you must choose a legal target. You can’t cast the spell if you can’t choose a legal target for each instance of the word “target” (though you only need a legal target for the awaken ability if you’re casting the spell for its awaken cost).
   - *2015-08-25* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that’s turned into a creature this way can still be tapped for {G}.
   - *2015-08-25* — You can cast a spell with awaken for its mana cost and get only its first effect. If you cast a spell for its awaken cost, you’ll get both effects.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#sheer-drop)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/48/sheer-drop) · oracle_id `7c42123d-c8e2-4571-b07d-f782e9ad1f8b` · printing: BFZ #48 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shefet Archfiend
@@ -336,6 +337,7 @@ schema: 2
   > *Skulkins confer strange benefits on unsuspecting patrons.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19246 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shell-skulkin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/173/shell-skulkin) · oracle_id `82df38bc-f29b-49f8-b734-e4df6d0f645a` · printing: EVE #173 (2008-07-25) · [rulings](https://api.scryfall.com/cards/c0953373-66e1-4af1-a4ec-cc990e20a1de/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shelob, Child of Ungoliant
@@ -409,6 +411,7 @@ schema: 2
   - *2019-06-14* — Protection from a color means that the target creature can’t be blocked by creatures of that color, can’t be the target of spells of that color or abilities from sources of that color, can’t be enchanted or equipped by Auras or Equipment of that color, and all damage that sources of that color would deal to it is prevented. Nothing other than these events is prevented or illegal.
   - *2019-06-14* — The legality of a spell’s targets is checked only as that spell begins to resolve. If Shelter gives the targeted creature protection from white, you’ll still draw a card.
   - *2019-06-14* — You can’t choose “artifact” or “colorless” as Shelter asks you to choose a color, since those are not colors.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/S.md#shelter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/56/shelter) · oracle_id `c1909d70-d8f4-4c54-8587-0a910f123238` · printing: CMM #56 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Aerie
@@ -439,6 +442,7 @@ schema: 2
   - *2024-09-20* — Auras attached to the exiled permanent will be put into their owners' graveyards. Any Equipment will become unattached and remain on the battlefield. Any counters on the exiled permanent will cease to exist. When the card returns to the battlefield, it will be a new object with no connection to the card that was exiled.
   - *2024-09-20* — If Sheltered by Ghosts leaves the battlefield before its triggered ability resolves, the target permanent won't be exiled at all.
   - *2024-09-20* — If a token is exiled this way, it will cease to exist and won't return to the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sheltered-by-ghosts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/171/sheltered-by-ghosts) · oracle_id `d13fc657-c6fc-4394-bc70-691050550226` · printing: SOC #171 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Thicket
@@ -452,6 +456,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #652 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sheltered-thicket)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/167/sheltered-thicket) · oracle_id `db8d8643-3d0b-4f20-bf53-f4cd26a0e8df` · printing: ECC #167 (2026-01-23) · [rulings](https://api.scryfall.com/cards/ad7f87dd-1c43-4b6f-9d68-cc09ef76dbc2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltered Valley
@@ -511,6 +516,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2342 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/S.md#sheltering-landscape)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/227/sheltering-landscape) · oracle_id `5b932be0-4dac-41b9-9c59-f79e4cecc31a` · printing: MH3 #227 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0fe070f4-8877-4280-b8fd-869f3ac34ab6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Light
@@ -524,6 +530,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10639 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#sheltering-light)
 - **Source flags:** [Scryfall](https://scryfall.com/card/xln/35/sheltering-light) · oracle_id `551ac58e-3a27-4ee3-ac91-16873562c0bc` · printing: XLN #35 (2017-09-29) · [rulings](https://api.scryfall.com/cards/b0c945c7-6c31-4c4f-9203-3dc2aef50820/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheltering Prayers
@@ -596,6 +603,7 @@ schema: 2
   > *"Congratulations. I am entertained."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1148 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/S.md#sheoldreds-edict)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/108/sheoldreds-edict) · oracle_id `217062f5-96f1-454c-9507-17f34ef37070` · printing: ONE #108 (2023-02-10) · [rulings](https://api.scryfall.com/cards/a9225cc3-90f0-448f-a8d9-7c6c2796d077/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Headcleaver
@@ -638,6 +646,7 @@ schema: 2
   - *2024-11-08* — If you put a permanent with a kicker ability onto the battlefield without casting it, you can't kick it.
   - *2024-11-08* — The kicker ability doesn't let you pay a kicker cost more than once.
   - *2024-11-08* — To determine a spell's total cost, start with the mana cost (or an alternative cost if another card's effect allows you to pay one instead), add any cost increases (such as kicker), then apply any cost reductions. The spell's mana value remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sheoldreds-restoration)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/108/sheoldreds-restoration) · oracle_id `df587772-516f-4ae8-aefe-e6fc63f8b365` · printing: DMU #108 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred's Terror
@@ -665,6 +674,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #460 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2022-09-09* — If you and an opponent draw a card at the same time, you choose the order that the triggered abilities will resolve in.
+- **Referenced in:** 13 pages (6 decks · 3 edh guides · 1 rules · 2 lore & story · 1 card data) → [reverse index](../../references/S.md#sheoldred-the-apocalypse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse) · oracle_id `34f34409-326d-4994-a0ea-1a69aa278f03` · printing: DMU #107 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred // The True Scriptures
@@ -687,6 +697,7 @@ schema: 2
   - *2023-04-14* — To resolve Sheoldred’s enters-the-battlefield ability in a multiplayer game, the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses a creature they control to sacrifice. Then each other opponent in turn order does the same. Then those creatures are sacrificed at the same time.
   - *2023-04-14* — To resolve chapter II of The True Scriptures in a multiplayer game, the next opponent in turn order (or, if it’s an opponent’s turn, the opponent whose turn it is) chooses three cards in hand. Any opponent who has fewer than three cards in hand chooses all cards they have in hand. They set the chosen cards aside without revealing them. Then each other opponent in turn order does the same. Next, all chosen cards are revealed and discarded at the same time. Then, each opponent mills three cards.
   - *2023-04-14* — You can activate Sheoldred’s last ability if any opponent has eight or more cards in their graveyard, not necessarily all of them.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#sheoldred--the-true-scriptures)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/125/sheoldred-the-true-scriptures) · oracle_id `97652492-7906-4d79-983c-fa1dc1239eba` · printing: MOM #125 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sheoldred, Whispering One
@@ -705,6 +716,7 @@ schema: 2
   - *2017-11-17* — In a Two-Headed Giant game, the last ability will trigger twice at the beginning of the opposing team's upkeep, once for each player on that team. Each player sacrifices only a creature they control.
   - *2017-11-17* — Swampwalk is a keyword ability that means “This creature can't be blocked if defending player controls a Swamp.” Most nonbasic lands don't have basic land types, even if they produce colored mana. For example, Graven Cairns is neither a Swamp nor a Mountain, while Blood Crypt is both.
   - *2017-11-17* — The opponent whose upkeep it is chooses a creature to sacrifice when Sheoldred's second triggered ability resolves.
+- **Referenced in:** 6 pages (1 decks · 2 edh guides · 1 rules · 1 lore & story · 1 card data) → [reverse index](../../references/S.md#sheoldred-whispering-one)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jmp/278/sheoldred-whispering-one) · oracle_id `9218b56d-aaec-482f-99e9-d95d227bfe25` · printing: JMP #278 (2020-07-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherding Spirits
@@ -817,6 +829,7 @@ schema: 2
   - *2019-10-04* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if Giant Killer is exiled with the last ability of Vivien, Champion of the Wilds, you can't cast it as Chop Down.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shepherd-of-the-flock--usher-to-safety)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/28/shepherd-of-the-flock-usher-to-safety) · oracle_id `6d611800-5b0e-40ca-82a2-5b294a1ebf6d` · printing: ELD #28 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shepherd of the Lost

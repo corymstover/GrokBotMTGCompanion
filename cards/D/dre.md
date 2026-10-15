@@ -151,6 +151,7 @@ schema: 2
   > *In Rakdos-controlled neighborhoods, everyone is part of the show.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4612 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dreadbore)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/180/dreadbore) · oracle_id `d685799f-cc1a-40d6-9df6-d05b8b1f5b13` · printing: RVR #180 (2024-01-12) · [rulings](https://api.scryfall.com/cards/a5134828-5876-4d17-b0bb-f7e80e54c100/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadbringer Lampads
@@ -325,6 +326,7 @@ schema: 2
   - *2021-03-19* — If you cast a card "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the card.
   - *2021-03-19* — If you cast the card, you do so as part of the resolution of Dreadhorde Arcanist's triggered ability. You can't wait to cast it later in the turn. Timing permissions based on a card's type are ignored, and the spell will resolve before blockers are declared.
   - *2021-03-19* — The instant or sorcery card you target must have mana value less than or equal to Dreadhorde Arcanist's power immediately after Dreadhorde Arcanist has attacked. Any other abilities that trigger when creatures you control attack won't have resolved yet.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dreadhorde-arcanist)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/125/dreadhorde-arcanist) · oracle_id `4c05b382-58ab-4a2d-a81c-408ea273b6b6` · printing: WAR #125 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadhorde Butcher
@@ -361,6 +363,7 @@ schema: 2
   - *2023-06-16* — Some cards refer to the "amassed Army." That means the Army creature you chose to receive counters, even if no counters were placed on it for some reason.
   - *2023-06-16* — Some cards that cause you to amass Zombies also provide bonuses to "Zombie tokens." These affect any token that happens to be a Zombie, not just a Zombie Army you've amassed.
   - *2023-06-16* — To amass Zombies N, if you don't control an Army creature, create a 0/0 black Zombie Army creature token. Then you choose an Army creature you control and put N +1/+1 counters on it. If that Army isn't already a Zombie, it becomes a Zombie in addition to its other types.
+- **Referenced in:** 4 pages (1 rules · 1 lore & story · 2 card data) → [reverse index](../../references/D.md#dreadhorde-invasion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/48/dreadhorde-invasion) · oracle_id `01deabbb-af6a-4998-99a7-35b7cfa9ef77` · printing: FRC #48 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadhorde Twins
@@ -396,6 +399,7 @@ schema: 2
 - **Keywords:** Mill
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5821 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/D.md#dreadhound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/97/dreadhound) · oracle_id `5ed533a7-82b0-4a71-a9e9-4dffe9d18851` · printing: MID #97 (2021-09-24) · [rulings](https://api.scryfall.com/cards/27fd571b-8316-4c60-a042-8bcf4816b126/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadlight Monstrosity
@@ -438,6 +442,7 @@ schema: 2
   - *2022-06-10* — Scale Deflection can target an untapped creature. If the target creature is untapped as Scale Deflection resolves, you will still put two +1/+1 counters on it and it will still gain hexproof.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dread-linnorm--scale-deflection)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/225/dread-linnorm-scale-deflection) · oracle_id `1bf04a2a-7f96-412c-9d91-034bef26e1b6` · printing: CLB #225 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadmalkin
@@ -466,6 +471,7 @@ schema: 2
   > *—Malcolm Lee*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5751 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dreadmaws-ire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/147/dreadmaws-ire) · oracle_id `781d6981-d389-4677-9eaf-9c46c9192ed6` · printing: LCI #147 (2023-11-17) · [rulings](https://api.scryfall.com/cards/062e00a1-f1dc-4089-b640-800ab781c590/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreadmobile
@@ -546,6 +552,7 @@ schema: 2
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
   - *2022-12-08* — You choose the target for Dread Return before paying any of its costs, so it's not possible to cast it using flashback and bring back one of the creatures you sacrifice.
+- **Referenced in:** 7 pages (1 decks · 3 edh guides · 1 rules · 2 card data) → [reverse index](../../references/D.md#dread-return)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/153/dread-return) · oracle_id `352b64d2-2ae5-44ee-a64f-94932ef545d3` · printing: CMM #153 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Rider
@@ -619,6 +626,7 @@ schema: 2
   - *2012-05-01* — Each time a creature dies, check whether Dread Slaver had dealt any damage to it at any time during that turn. If so, Dread Slaver's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.
   - *2012-05-01* — If Dread Slaver and a creature it was blocking or blocked by both die in combat, Dread Slaver's ability will trigger.
   - *2012-05-01* — The card will return to the battlefield under your control only if it's still in the graveyard when the ability resolves. If it's not (perhaps because an ability like undying has already returned it to the battlefield), nothing happens.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dread-slaver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/avr/98/dread-slaver) · oracle_id `8110f092-41b0-4e53-a7d7-f7e3cbc4a52a` · printing: AVR #98 (2012-05-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Specter
@@ -633,6 +641,7 @@ schema: 2
   > *—Zhalfirin aphorism*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30958 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dread-specter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/119/dread-specter) · oracle_id `da21c21c-88d8-4a93-b2b4-6d7bb28959c9` · printing: MIR #119 (1996-10-08) · [rulings](https://api.scryfall.com/cards/00c48e08-9a77-4ba2-8041-90998f7e3812/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dread Statuary
@@ -897,6 +906,7 @@ schema: 2
   - *2021-02-05* — It doesn’t matter if Dream Devourer is still on the battlefield or still under your control as you cast the spell from exile.
   - *2021-02-05* — The last ability triggers when you exile a card from your hand using foretell, not when you cast a foretold card from exile.
   - *2021-02-05* — The reduction of the foretell cost applies only to generic mana in the foretell cost. It can’t reduce requirements of specific colors of mana. For example, if you foretell a card in your hand with mana cost {1}{G}{G}, its foretell cost will be {G}{G}.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#dream-devourer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/90/dream-devourer) · oracle_id `0ff7440b-b831-40a9-81c4-99d77bf93b8d` · printing: KHM #90 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamdew Entrancer
@@ -1088,6 +1098,7 @@ schema: 2
   > *—Adrix, dean of theory*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #174 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 decks · 2 edh guides · 1 card data) → [reverse index](../../references/D.md#dreamroot-cascade)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/254/dreamroot-cascade) · oracle_id `dd8538e6-cd5f-4a88-aff5-eb5e76ce8ddb` · printing: SOS #254 (2026-04-24) · [rulings](https://api.scryfall.com/cards/ef662b92-5a7f-48c9-bcc1-14b55e091aef/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Salvage
@@ -1100,6 +1111,7 @@ schema: 2
   > *Awylla tried hard to forget the horrors she had seen, but someone else had developed a keen interest in them.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19461 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/D.md#dream-salvage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/shm/160/dream-salvage) · oracle_id `a05d478c-a703-4fc4-9496-2894a6acdaef` · printing: SHM #160 (2008-05-02) · [rulings](https://api.scryfall.com/cards/cac999cc-c5c0-4309-a255-3eb7399af340/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamscape Artist
@@ -1200,6 +1212,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dreams-of-laguna)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/50/dreams-of-laguna) · oracle_id `e060bf7a-f266-40b4-9772-e243dcbf965b` · printing: FIN #50 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreams of Steel and Oil
@@ -1214,6 +1227,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-14* — If the opponent has no artifact or creature cards in their hand, you must still choose an artifact or creature card from their graveyard to exile.
   - *2022-10-14* — You must choose an artifact or creature card from their hand if they reveal one. Similarly, you must choose an artifact or creature card from their graveyard if one exists there.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/D.md#dreams-of-steel-and-oil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/92/dreams-of-steel-and-oil) · oracle_id `8c308ebf-df5e-4f47-9b97-5c31944fe91c` · printing: BRO #92 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreams of the Dead
@@ -1309,6 +1323,7 @@ schema: 2
   - *2017-07-14* — Once you've activated an eternalize ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
   - *2017-07-14* — The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2017-07-14* — The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dreamstealer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/63/dreamstealer) · oracle_id `bf7201e6-1b3f-40f1-9b79-44921b00b0de` · printing: HOU #63 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreamstone Hedron
@@ -1322,6 +1337,7 @@ schema: 2
   > *Only the Eldrazi mind thinks in the warped paths required to open the hedrons and tap the power within.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1943 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dreamstone-hedron)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/945/dreamstone-hedron) · oracle_id `0e2575be-c596-4c8c-bf07-7941ca065721` · printing: CMM #945 (2023-08-04) · [rulings](https://api.scryfall.com/cards/d0a27816-7ee9-4fa1-aa01-78796ad62337/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Strix
@@ -1388,6 +1404,7 @@ schema: 2
   - *2024-04-12* — Playing an exiled card causes it to leave exile. You can't play it multiple times.
   - *2024-04-12* — You may look at and play cards exiled face down with Dream-Thief's Bandana's first ability (and spend mana of any type to do so) even if Dream-Thief's Bandana and/or the equipped creature leaves the battlefield. If another player gains control of Dream-Thief's Bandana and/or the equipped creature, that player can't look at or play cards already exiled with Dream-Thief's Bandana, and you still can.
   - *2024-04-12* — You pay all costs and follow all normal timing rules for cards played from exile with Dream-Thief's Bandana's first ability. For example, if the exiled card is a land card, you may play it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dream-thiefs-bandana)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/38/dream-thiefs-bandana) · oracle_id `3c958b5f-680b-45fc-8c3d-27b23677436e` · printing: OTC #38 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Thrush
@@ -1403,6 +1420,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24888 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dream-thrush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inv/53/dream-thrush) · oracle_id `111f3f1c-4387-4e61-8bff-6ebe3b7b9d9f` · printing: INV #53 (2000-10-02) · [rulings](https://api.scryfall.com/cards/258217df-ae88-4d93-895a-3fd242baacd1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Tides
@@ -1434,6 +1452,7 @@ schema: 2
   - *2024-06-07* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2024-06-07* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2024-06-07* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 6 pages (2 decks · 3 edh guides · 1 rules) → [reverse index](../../references/D.md#dreamtide-whale)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/59/dreamtide-whale) · oracle_id `ee8c0b4c-03c5-4da5-b4f1-028c845384af` · printing: MH3 #59 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dream Trawler
@@ -1547,6 +1566,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8574 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#dr-eggman)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sld/2084/dr-eggman) · oracle_id `fb68c1ae-a129-4c17-81fa-be5da2c32ec5` · printing: SLD #2084 (2025-07-14) · [rulings](https://api.scryfall.com/cards/18602e92-69be-4626-a28a-463913108f42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dreg Mangler
@@ -1678,6 +1698,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — If an effect causes Dress Down to become a creature, it will lose its own abilities along with all other creatures. This includes the triggered ability that causes it to be sacrificed at the beginning of the end step.
   - *2021-06-18* — If an effect grants a creature an ability after Dress Down has entered the battlefield, it won't lose that ability. For example, if a land becomes a creature while Dress Down is on the battlefield, it will still gain any abilities given to it by the effect that animated it. It will, however, lose any abilities it already had.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#dress-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/39/dress-down) · oracle_id `c1cbbda0-e02b-4b9c-8669-ea87ca629520` · printing: MH2 #39 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drey Keeper

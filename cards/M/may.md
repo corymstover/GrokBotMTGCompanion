@@ -69,6 +69,7 @@ schema: 2
   - *2019-05-03* — If you sacrifice Mayhem Devil, its ability triggers.
   - *2019-05-03* — Mayhem Devil itself doesn't allow any player to sacrifice any permanents. Its ability triggers whenever a player sacrifices a permanent because some other spell, ability, or cost instructed the player to do so.
   - *2019-05-03* — You control Mayhem Devil's triggered ability and choose the target, no matter who sacrificed the permanent.
+- **Referenced in:** 11 pages (7 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mayhem-devil)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/121/mayhem-devil) · oracle_id `4709f11c-aef8-45ac-b2bf-e640c568dfac` · printing: EOC #121 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mayhem Patrol

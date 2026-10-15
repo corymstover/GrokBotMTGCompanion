@@ -54,6 +54,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — Safana's second ability triggers only if you have the initiative as your end step begins. If the ability does trigger, it will check if you have the initiative again as it tries to resolve. If you don't still have the initiative at that time, the ability won't resolve and none of its effects will happen. Notably, if you don't have the initiative as your end step begins but you have completed a dungeon, the ability won't trigger and you won't create any Treasures.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#safana-calimport-cutthroat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/143/safana-calimport-cutthroat) · oracle_id `afc1c443-93e3-4ef4-a404-1d9fc13e0b02` · printing: CLB #143 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Safeguard
@@ -194,4 +195,5 @@ schema: 2
 - **Rulings** (2):
   - *2021-03-19* — Saffi can be the target of its own ability. In this case, the ability won't resolve because its target is illegal, so Saffi won't be returned to the battlefield, but any abilities that check when or if a creature dies will see that it died.
   - *2021-03-19* — Saffi's effect works only once. If the target creature dies and is then returned to the battlefield, it's considered to be a new creature. If that new creature dies, it won't come back.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#saffi-eriksdotter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/260/saffi-eriksdotter) · oracle_id `84ba3e2c-ea96-470b-92c6-b937dc87549b` · printing: TSR #260 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

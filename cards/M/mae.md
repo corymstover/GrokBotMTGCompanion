@@ -175,6 +175,7 @@ schema: 2
   > {4}, {T}, Sacrifice this land: Search your library for a Dragon card, reveal it, put it into your hand, then shuffle.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2000 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/M.md#maelstrom-of-the-spirit-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/260/maelstrom-of-the-spirit-dragon) · oracle_id `49e9fba7-8465-4bbb-95db-73a7e149f494` · printing: TDM #260 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c4e90bfb-d9a5-48a9-9ff9-b0f50a813eee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maelstrom Pulse
@@ -207,6 +208,7 @@ schema: 2
   - *2020-11-10* — Each instance of cascade triggers and resolves separately. The spell you cast due to the first cascade ability will go on the stack on top of the second cascade ability. That spell will resolve before you exile cards for the second cascade ability.
   - *2020-11-10* — Maelstrom Wanderer gives itself haste.
   - *2020-11-10* — No matter what spell you cast with the first cascade trigger (or with any cascade triggers that result from casting that spell), the second cascade trigger will look for a spell with mana value less than Maelstrom Wanderer's mana value of 8.
+- **Referenced in:** 8 pages (2 decks · 4 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#maelstrom-wanderer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/127/maelstrom-wanderer) · oracle_id `ad9b7fbc-61c8-43ee-a65c-99206fd1e4df` · printing: ECC #127 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maester Seymour
@@ -224,6 +226,7 @@ schema: 2
   - *2025-06-06* — Monstrous isn't an ability that a creature has. It's just something true about that creature. If the creature stops being a creature or loses its abilities, it will continue to be monstrous.
   - *2025-06-06* — Once a creature becomes monstrous, it can't become monstrous again. If the creature is already monstrous when the monstrosity ability resolves, nothing happens.
   - *2025-06-06* — The value of X is determined only once, as Maester Seymour's last ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/M.md#maester-seymour)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/68/maester-seymour) · oracle_id `e7e41303-69a8-4617-b418-142cf41edb9b` · printing: FIC #68 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Ascendancy
@@ -235,6 +238,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17245 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — If you cast an Adventure spell from your graveyard this way, it's exiled as it resolves with the replacement effect created by the Adventure rules and you may cast the creature card from exile later.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#maestros-ascendancy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/198/maestros-ascendancy) · oracle_id `d1438681-241b-4d53-9470-4d04a7797ea8` · printing: SNC #198 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Charm
@@ -248,6 +252,7 @@ schema: 2
   > • Maestros Charm deals 5 damage to target creature or planeswalker.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8443 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#maestros-charm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/snc/199/maestros-charm) · oracle_id `3b207754-9172-426a-8efc-a9c3912d94bb` · printing: SNC #199 (2022-04-29) · [rulings](https://api.scryfall.com/cards/3dcdedb6-3c24-4a29-b9b9-27cc47d8ee56/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maestros Confluence
@@ -317,6 +322,7 @@ schema: 2
   > {T}: Add {U}, {B}, or {R}.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#maestros-totally-safe-hideout)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/615/maestros-totally-safe-hideout) · oracle_id `98b264d6-897b-49d9-82c4-ce82610fa62e` · printing: MB2 #615 (2024-08-02) · [rulings](https://api.scryfall.com/cards/8a1d595b-23d7-4236-8737-49ea78ff8907/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Maeve, Insidious Singer

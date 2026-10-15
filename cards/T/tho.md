@@ -203,6 +203,7 @@ schema: 2
 - **Keywords:** Flying, Crew
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4050 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/T.md#thopter-fabricator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/68/thopter-fabricator) · oracle_id `8aab9181-c306-471a-8061-9a7a7654dab5` · printing: DFT #68 (2025-02-14) · [rulings](https://api.scryfall.com/cards/8924b785-b140-4212-a1eb-a10340e09fea/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Foundry
@@ -217,6 +218,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8031 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2020-08-07* — You may sacrifice Thopter Foundry to pay the cost of its own ability.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/T.md#thopter-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2xm/222/thopter-foundry) · oracle_id `88bef744-550e-4f33-b1ff-a8ee990ec754` · printing: 2XM #222 (2020-08-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Mechanic
@@ -270,6 +272,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — The last ability will trigger, at most, once per combat damage step per player. However, if at least one artifact creature you control has first strike and others don't, or if an artifact creature you control has double strike, the ability could trigger twice per combat: once in each combat damage step.
   - *2015-06-22* — Thopter Spy Network's first ability has an “intervening ‘if' clause.” That means (1) the ability won't trigger at all unless you control an artifact as your upkeep begins, and (2) the ability will do nothing if you don't control an artifact as it resolves.
+- **Referenced in:** 7 pages (3 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#thopter-spy-network)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/241/thopter-spy-network) · oracle_id `49be65fd-3755-410d-b0dc-2e5861ea2552` · printing: MOC #241 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thopter Squadron
@@ -389,6 +392,7 @@ schema: 2
   - *2026-06-29* — If your third legendary, Saga, or artifact permanent enters the battlefield and then one of those permanents leaves the battlefield immediately afterwards (most likely due to the "legend rule" or due to being a creature with 0 toughness), you get an enduring story before it leaves the battlefield.
   - *2026-06-29* — Once you have an enduring story, you have it for the rest of the game, even if you lose control of some or all of your storied permanents. The enduring story designation is on the player and can't be removed by any effect.
   - *2026-06-29* — Storied isn't a triggered ability and doesn't use the stack. Players can respond to a spell that will give you your third legendary, Saga, and/or artifact permanent, but they can't respond to you getting an enduring story once you control that third permanent.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/T.md#thorin-oakenshield)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/165/thorin-oakenshield) · oracle_id `bdd41af0-bbd1-4ecd-a699-99f006f5e5ce` · printing: HOB #165 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorin's Last Stand
@@ -436,6 +440,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thornbite-staff)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mor/145/thornbite-staff) · oracle_id `dae4815e-9025-4993-ab46-52a3f1a7219e` · printing: MOR #145 (2008-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornbow Archer
@@ -611,6 +616,7 @@ schema: 2
   > *Mined from a cave in the Dark Meanders, it shines brightest when no one is looking.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6675 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (2 edh guides · 1 card data) → [reverse index](../../references/T.md#thorn-of-amethyst)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lrw/262/thorn-of-amethyst) · oracle_id `0c6c5336-9233-4ab1-9d55-79f20be7ea57` · printing: LRW #262 (2007-10-12) · [rulings](https://api.scryfall.com/cards/e472d4f5-add4-4de3-8718-31a47a35277c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thorn of the Black Rose
@@ -658,6 +664,7 @@ schema: 2
   - *2024-07-26* — The token created by the offspring ability isn’t “cast”, so abilities that trigger when a creature spell is cast won’t trigger for the copy.
   - *2024-07-26* — While resolving Thornplate Intimidator’s last ability, the target opponent chooses a card to be discarded without revealing it, chooses a nonland permanent to be sacrificed, or chooses to do neither. Then that player discards that card, sacrifices that permanent, or loses 3 life. That player can always choose to lose 3 life, even if they have cards to discard or nonland permanents to sacrifice.
   - *2024-07-26* — You can pay an offspring cost only once as you cast a spell with offspring. You can’t try to pay it multiple times to get more token copies.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thornplate-intimidator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/117/thornplate-intimidator) · oracle_id `33b6555e-035d-4241-a341-a9b9139ca6f0` · printing: BLB #117 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornscape Apprentice
@@ -803,6 +810,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#thornvault-forager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/197/thornvault-forager) · oracle_id `7b18cfad-a1cf-46c2-bcdd-7762c13d50e5` · printing: BLB #197 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thornwatch Scarecrow
@@ -859,6 +867,7 @@ schema: 2
   > *By morning the only evidence of conflict between Temur hunters and Sultai scouts were abandoned banners in the freshly fallen snow.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1103 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#thornwood-falls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/269/thornwood-falls) · oracle_id `ec96cde2-f1e6-495c-94e2-3e8ae79e556c` · printing: TDM #269 (2025-04-11) · [rulings](https://api.scryfall.com/cards/ebb502c2-5fd0-46a9-b77d-010f4a942056/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thor Odinson
@@ -896,6 +905,7 @@ schema: 2
   - *2021-07-23* — Thorough Investigation's first ability can trigger only once per combat, no matter how many creatures you attack with.
   - *2021-07-23* — To venture into the dungeon, a player moves their venture marker into the next room of the dungeon they are currently in. If they aren't currently in a dungeon, that player instead chooses a dungeon card from outside the game, puts it into the command zone, and moves their venture marker onto the first room.
   - *2021-07-23* — You can only move forward (well, downward) in a dungeon, never backwards or sideways.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thorough-investigation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/12/thorough-investigation) · oracle_id `e7504407-bb72-4baf-be4a-8152e4198e2b` · printing: AFC #12 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Those Who Serve
@@ -910,6 +920,7 @@ schema: 2
   > *—Temmet, vizier of Naktamun*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28598 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#those-who-serve)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/32/those-who-serve) · oracle_id `0ee088dc-c7c7-4f7f-9d1f-be3d79550d95` · printing: AKH #32 (2017-04-28) · [rulings](https://api.scryfall.com/cards/b4f27dd9-7ee4-4cdc-8f65-a4349b6aa47f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtbind
@@ -969,6 +980,7 @@ schema: 2
 - **Keywords:** Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #929 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/T.md#thoughtcast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/242/thoughtcast) · oracle_id `cce9bbff-82dc-4b2f-addd-d6715588de20` · printing: MOC #242 (2023-04-21) · [rulings](https://api.scryfall.com/cards/466a0be8-31b9-4ea0-9a96-b09a76f4ec69/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Collapse
@@ -1217,6 +1229,7 @@ schema: 2
 - **Keywords:** Flying, Affinity
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #736 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (6 decks · 1 edh guides) → [reverse index](../../references/T.md#thought-monitor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/79/thought-monitor) · oracle_id `9deded8b-cec4-4ede-a50b-131404d456d4` · printing: EOC #79 (2025-08-01) · [rulings](https://api.scryfall.com/cards/18a6ea89-417c-4ee0-a410-8a0067b92967/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thought Nibbler
@@ -1307,6 +1320,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-22* — Follow the instructions in the order listed on the card: if you target yourself, you'll put the top two cards of your library into your graveyard and then draw a card.
   - *2011-01-22* — If the target player is an illegal target when Thought Scour tries to resolve, it won't resolve and none of its effects will happen. You won't draw a card.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#thought-scour)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/65/thought-scour) · oracle_id `83101ba8-a569-4827-8c53-9ca0dfcd59a7` · printing: 2X2 #65 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtseize
@@ -1392,6 +1406,7 @@ schema: 2
   > *Infinite possibilities contained in a finite space.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/T.md#thought-vessel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbc/78/thought-vessel) · oracle_id `9965d9c5-2ebf-4a6c-930e-55c5890979be` · printing: MBC #78 (2026-10-19) · [rulings](https://api.scryfall.com/cards/ad077996-6b5e-4eb8-bb6e-93d43c5efa8f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtweft Charge
@@ -1444,6 +1459,7 @@ schema: 2
   > *He draws the threads of the thoughtweft tighter, turning it from cloth to armor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17698 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thoughtweft-lieutenant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/246/thoughtweft-lieutenant) · oracle_id `50dd9e17-6dae-4ff6-8a38-50088c71283f` · printing: ECL #246 (2026-01-23) · [rulings](https://api.scryfall.com/cards/2c54ec67-9317-455e-a045-fa4ed9cb676f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thoughtweft Trio
@@ -1486,6 +1502,7 @@ schema: 2
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
   - *2022-02-18* — The token copies exactly what was printed on the original creature and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that creature has any counters on it or Auras and/or Equipment attached to it, or any non-copy effects that changed its power, toughness, types, color, and so on. Notably, it doesn't copy any effects that may have turned a noncreature permanent into a creature. If the token isn't a creature as it enters the battlefield, it won't be attacking.
   - *2022-02-18* — You choose which opponent or opposing planeswalker the token is attacking as you put it onto the battlefield. It doesn't have to be the same player or planeswalker Thousand-Faced Shadow is attacking. (Remember that the rules for ninjutsu specify that a creature that enters the battlefield attacking because of a ninjutsu ability attacks the same player or planeswalker the returned unblocked creature was.)
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/T.md#thousand-faced-shadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/86/thousand-faced-shadow) · oracle_id `98636623-bbc6-4935-a2bb-2234691eb6d8` · printing: NEO #86 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand-legged Kami
@@ -1547,6 +1564,7 @@ schema: 2
   - *2023-11-10* — Barracks of the Thousand's triggered ability will resolve before the spell that caused it to trigger.
   - *2023-11-10* — The Gnome Soldier's ability will count the Gnome Soldier itself, so it will be at least 1/1.
   - *2023-11-10* — The power and toughness of the Gnome Soldier token will change as the number of artifacts and/or creatures you control changes.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#thousand-moons-smithy--barracks-of-the-thousand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/39/thousand-moons-smithy-barracks-of-the-thousand) · oracle_id `32af5f7b-a970-484a-9aff-226749551d32` · printing: LCI #39 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand Winds
@@ -1585,6 +1603,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #888 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2007-10-01* — Thousand-Year Elixir doesn’t actually grant haste to creatures you control, nor does it let you attack with them as though they had haste.
+- **Referenced in:** 5 pages (4 decks · 1 card data) → [reverse index](../../references/T.md#thousand-year-elixir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c21/271/thousand-year-elixir) · oracle_id `4dc5726e-2f7e-4c2b-9616-c3301d212f78` · printing: C21 #271 (2021-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Thousand-Year Storm
@@ -1607,4 +1626,5 @@ schema: 2
   - *2018-10-05* — The copies will have the same targets as the spell they're copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2018-10-05* — Thousand-Year Storm's ability will copy any instant or sorcery spell, not just one with targets.
   - *2018-10-05* — You can't choose to pay any additional costs for the copies. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#thousand-year-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/248/thousand-year-storm) · oracle_id `dd4cf149-2fae-40e5-b50b-639f6bcec65e` · printing: FDN #248 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

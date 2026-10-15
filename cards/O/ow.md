@@ -64,6 +64,7 @@ schema: 2
   - *2023-11-10* — The second ability represented by the "partner with [name]" keyword modifies the rules for deck construction in the Commander variant and has no function outside of that variant. If a legendary creature card with "partner with [name]" is designated as your commander, the named legendary creature card can also be designated as your commander.
   - *2023-11-10* — The triggered ability of the "partner with" keyword still triggers in a Commander game. If your other commander has somehow ended up in your library, you can find it. You can also target another player, whether or not they have that card in their library.
   - *2023-11-10* — To have two commanders, both must have the partner ability or corresponding "partner with" abilities as the game begins. A creature with a "partner with" ability can't partner with any creature other than its designated partner. Losing a partner ability during the game doesn't cause either to cease to be your commander.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/O.md#owen-grady-raptor-trainer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rex/16/owen-grady-raptor-trainer) · oracle_id `4eda40a2-39e5-4b0e-ba6d-8a6f89d6f55f` · printing: REX #16 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Owlbear
@@ -174,4 +175,5 @@ schema: 2
   - *2026-03-20* — The copy is created on the stack, so it's not "cast." Abilities that trigger when a player casts a spell won't trigger.
   - *2026-03-20* — The copy will have the same targets as the spell it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. If, for one of the targets, you can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2026-03-20* — You can't choose to pay any additional costs for a copied spell. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#owlin-spiralmancer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/22/owlin-spiralmancer) · oracle_id `36d6d6c0-721c-40c3-b81f-4f027fcf847e` · printing: SOC #22 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

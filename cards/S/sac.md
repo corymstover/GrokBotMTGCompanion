@@ -126,6 +126,7 @@ schema: 2
   - *2017-04-18* — The token is a Zombie in addition to its other types and is white instead of its other colors. It has no mana cost, and thus its mana value is 0. These are copiable values of the token that other effects may copy.
   - *2017-07-14* — If a spell or ability puts a creature card with embalm into your graveyard during your main phase, you'll have priority immediately after that spell or ability resolves. You can activate the creature card's embalm ability before any player can exile it with an effect, such as that of Crook of Condemnation, if it's legal for you to do so.
   - *2017-07-14* — Once you've activated an embalm ability, the card is immediately exiled. Opponents can't try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#sacred-cat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/akh/27/sacred-cat) · oracle_id `d85ea576-a794-44bf-b405-1f1c49477409` · printing: AKH #27 (2017-04-28) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Excavation
@@ -175,6 +176,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Referenced in:** 14 pages (10 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#sacred-foundry)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/295/sacred-foundry) · oracle_id `45181cb8-2090-4471-ba90-e5a8f04d525f` · printing: TRK #295 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Ground
@@ -223,6 +225,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #19681 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — It can be used during upkeep to create a Pegasus token in time for it to be sacrificed.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sacred-mesa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c14/86/sacred-mesa) · oracle_id `8776d14f-a5a2-4ef3-98d0-e1148e579e4d` · printing: C14 #86 (2014-11-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacred Nectar
@@ -318,6 +321,7 @@ schema: 2
   - *2004-10-04* — Sacrificing an animated land gives no mana since the converted mana cost was zero.
   - *2013-04-15* — Players can only respond once this spell has been cast and all its costs have been paid. No one can try to destroy the creature you sacrificed to prevent you from casting this spell.
   - *2013-04-15* — You must sacrifice exactly one creature to cast this spell; you cannot cast it without sacrificing a creature, and you cannot sacrifice additional creatures.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/S.md#sacrifice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sum/126/sacrifice) · oracle_id `068b3692-411b-44d4-a7e9-005262760cfc` · printing: SUM #126 (1994-06-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sacrifice Play

@@ -264,6 +264,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3281 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#shielded-by-faith)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/172/shielded-by-faith) · oracle_id `79085dea-8daa-41c0-a975-61e3e6da2e26` · printing: SOC #172 (2026-04-24) · [rulings](https://api.scryfall.com/cards/681149f2-0802-4ab7-9521-3b3c7281f55d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shielded Passage
@@ -338,6 +339,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-04-15* — This is not the same as hexproof. If, for example, you target one of your opponent's creatures, your opponents won't be able to target their own creature with spells or abilities.
   - *2018-12-07* — If the target creature is an illegal target by the time Shielding Plax tries to resolve, the Aura spell doesn't resolve. It won't enter the battlefield, so its enters-the-battlefield ability won't trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shielding-plax)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/192/shielding-plax) · oracle_id `e9bdb194-745d-4abb-9312-a65a68c40a18` · printing: AFC #192 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shieldmage Advocate
@@ -546,6 +548,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4066 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shield-sphere)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me1/166/shield-sphere) · oracle_id `df9ec9b0-be22-4136-923b-11a71ca4b6c2` · printing: ME1 #166 (2007-09-10) · [rulings](https://api.scryfall.com/cards/7a76a97e-a857-4593-ae7c-e393d8a868ac/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### S.H.I.E.L.D. Spy Kit
@@ -599,6 +602,7 @@ schema: 2
 - **Keywords:** Defender
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6074 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shield-wall-sentinel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/238/shield-wall-sentinel) · oracle_id `4976f08c-6f8e-42e4-9584-f04793518ddb` · printing: DMU #238 (2022-09-09) · [rulings](https://api.scryfall.com/cards/7e57e1d7-da1d-4a2b-867f-85b8331b7bbc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifting Borders
@@ -761,6 +765,7 @@ schema: 2
   - *2024-06-07* — If a card in your graveyard has {X} in its mana cost, X is considered to be 0.
   - *2024-06-07* — Shifting Woodland copies exactly what was printed on the original card and nothing else. It doesn't copy any information about the object the card was before it was put into your graveyard.
   - *2024-06-07* — You must already control a Forest as Shifting Woodland enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Forest when you control no other Forests, it will enter tapped.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#shifting-woodland)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/228/shifting-woodland) · oracle_id `7c2a4fe5-43e8-4e20-bef2-0278d18afc4b` · printing: MH3 #228 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shifty Doppelganger
@@ -790,6 +795,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-02-18* — Discarding the card is part of the cost to activate a channel ability.
   - *2022-02-18* — If a channel ability requires a target, you may not activate it without a target just to discard the card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shigeki-jukai-visionary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/270/shigeki-jukai-visionary) · oracle_id `cbad3570-5417-42e6-b3ef-f42194098314` · printing: TDC #270 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shiko and Narset, Unified
@@ -1003,6 +1009,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If it phases in and no other creatures are on the battlefield, it will phase itself back out.
   - *2004-10-04* — If two of these phase in, they can both target the same creature and have just that one creature phase out.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#shimmering-efreet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/42/shimmering-efreet) · oracle_id `34f52d00-301d-4065-a86b-8393b4c6e99d` · printing: VIS #42 (1997-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmering Glasskite
@@ -1031,6 +1038,7 @@ schema: 2
   > *Untold riches await those who forsake the bustling world to search the secret, silent places.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11692 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shimmering-grotto)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/248/shimmering-grotto) · oracle_id `bae49475-fe01-400b-8959-f0dde959577c` · printing: IMA #248 (2017-11-17) · [rulings](https://api.scryfall.com/cards/e03f2594-c6e8-4758-86b4-885d1dba3a91/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmering Mirage
@@ -1058,6 +1066,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13589 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shimmering-wings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/10e/107/shimmering-wings) · oracle_id `7d892d61-5a69-4500-9fb2-7cf50728aedd` · printing: 10E #107 (2007-07-13) · [rulings](https://api.scryfall.com/cards/66c9aa9f-acd5-4908-9e11-1a152363ef42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmer Myr
@@ -1075,6 +1084,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Once you announce that you're casting a spell, players can't attempt to remove Shimmer Myr from the battlefield to make that casting illegal. Removing Shimmer My after you've cast a spell won't affect that spell.
   - *2020-11-10* — Shimmer Myr has no effect on artifact lands because they aren't cast as spells.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#shimmer-myr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/409/shimmer-myr) · oracle_id `e110ee80-37af-4989-a5fb-95d51dc7f102` · printing: CMM #409 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shimmer of Possibility
@@ -1231,6 +1241,7 @@ schema: 2
   - *2021-04-16* — If an effect instructs you to put one of these lands onto the battlefield tapped, it will still enter the battlefield tapped even if you reveal a land card from your hand.
   - *2021-04-16* — The "Snarl" itself doesn't have any land subtypes. You can't reveal one to satisfy the ability of another.
   - *2021-04-16* — You may reveal any land card with either or both of the appropriate subtypes. It doesn't have to be a basic land card.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#shineshadow-snarl)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/403/shineshadow-snarl) · oracle_id `c9fc13d6-bd10-47bc-b2b6-7f67a1f3371e` · printing: SOC #403 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shinestriker
@@ -1366,6 +1377,7 @@ schema: 2
   - *2023-06-30* — If a creature you control has been goaded by multiple opponents, it must attack one of your opponents that hasn't goaded it, as that fulfills the maximum number of goad requirements. If a creature you control has been goaded by each of your opponents, the creature must attack an opponent (rather than a planeswalker or battle), but you choose which opponent it attacks.
   - *2023-06-30* — If the creature doesn't meet any of the above exceptions and can attack, it must attack a player other than the controller of the spell or ability that goaded it if able. If the creature can't attack any of those players but could otherwise attack, it must attack a planeswalker an opponent controls, a battle an opponent controls, or a player who goaded it.
   - *2023-06-30* — If, during a player's declare attackers step, a creature that player controls that's been goaded is tapped, is affected by a spell or ability that says it can't attack, or hasn't been under that player's control continuously since the turn began (and doesn't have haste), then it doesn't attack. If there's a cost associated with having a creature attack a player, its controller isn't forced to pay that cost, so it doesn't have to attack that player.
+- **Referenced in:** 3 pages (1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/S.md#shiny-impetus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/231/shiny-impetus) · oracle_id `aae76e5c-f5e0-4d18-b465-e6a829be908a` · printing: TDC #231 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipbreaker Kraken
@@ -1431,6 +1443,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #227 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2021-09-24* — If this land enters the battlefield at the same time as any number of other lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Referenced in:** 16 pages (12 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shipwreck-marsh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/189/shipwreck-marsh) · oracle_id `5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8` · printing: FRA #189 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shipwreck Moray
@@ -1575,6 +1588,7 @@ schema: 2
   > *Everything looked fresh, and the new green of Spring was shimmering in the fields.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2300 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#shire-terrace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/261/shire-terrace) · oracle_id `619173f4-0403-49cd-9659-2fedd5028a90` · printing: LTR #261 (2023-06-23) · [rulings](https://api.scryfall.com/cards/25932483-58cd-4ae5-82bf-ab455177d117/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shisato, Whispering Hunter
@@ -1638,6 +1652,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11176 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/S.md#shivan-dragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/763/shivan-dragon) · oracle_id `711eea87-0fa3-46e0-a42b-fa5a86455f04` · printing: FDN #763 (2026-04-24) · [rulings](https://api.scryfall.com/cards/702c4781-670b-49ae-b511-90ed119841b0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Emissary
@@ -1800,6 +1815,7 @@ schema: 2
 - **Rulings** (2):
   - *2015-06-22* — Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.
   - *2015-06-22* — The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.
+- **Referenced in:** 18 pages (14 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#shivan-reef)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/83/shivan-reef) · oracle_id `0fe16212-66c3-4e45-a641-7391e9b2e304` · printing: FRC #83 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shivan Sand-Mage
@@ -1904,6 +1920,7 @@ schema: 2
   > *Centuries ago, Shizo was a verdant field of wildflowers. After 891 samurai died in a single battle on its grasses, it became a haunted moor.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #623 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 7 pages (5 decks · 1 edh guides · 1 card data) → [reverse index](../../references/S.md#shizo-deaths-storehouse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmc/233/shizo-deaths-storehouse) · oracle_id `008f2698-1721-45a3-8353-10f2f400dc8f` · printing: DMC #233 (2022-09-09) · [rulings](https://api.scryfall.com/cards/099352e2-38c8-4fb4-a25f-6d928aa20f9e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Shizuko, Caller of Autumn

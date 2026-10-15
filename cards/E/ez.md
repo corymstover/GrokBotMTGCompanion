@@ -62,6 +62,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-07-05* — Once an Assassin creature or commander you control deals combat damage to a player in a turn, you can cast spells for their freerunning costs for the rest of that turn. It doesn’t matter what happens to that Assassin or commander after that.
   - *2024-07-05* — When Ezio’s triggered ability resolves, it checks to see if that player has 10 or less life at that time. If they do, you may pay {W}{U}{B}{R}{G}. A second “reflexive” ability triggers when you pay this cost. Each player may respond to that triggered ability as normal, but it doesn’t matter what happens to the damaged player’s life total at that point; when that reflexive triggered ability resolves, that player will lose the game no matter what their life total is.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/E.md#ezio-auditore-da-firenze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/25/ezio-auditore-da-firenze) · oracle_id `3017ac79-37f1-4cc1-8efd-4add027618a2` · printing: ACR #25 (2024-07-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezio, Blade of Vengeance
@@ -143,6 +144,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-01-01* — Ezuri's first ability can't affect itself, but its second ability does.
   - *2011-01-01* — Only Elf creatures you control when the last ability resolves will get +3/+3 and gain trample until end of turn. Non-Elf creatures that become Elves or Elf creatures that enter under your control later in the turn won't get the bonuses.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/E.md#ezuri-renegade-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddu/1/ezuri-renegade-leader) · oracle_id `6734497c-16f0-4c4b-ba24-337333511fc6` · printing: DDU #1 (2018-04-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri's Archers
@@ -190,6 +192,7 @@ schema: 2
   - *2015-11-04* — If Ezuri's Predation creates more than one token for any given creature (due to an effect such as the one Doubling Season creates), the extra tokens won't fight any creature.
   - *2015-11-04* — Players can't cast spells or activate any abilities in between the Beasts entering the battlefield and fighting the other creatures. If the Beasts entering the battlefield cause any abilities to trigger, those abilities will be put onto the stack after Ezuri's Predation is finished resolving.
   - *2015-11-04* — You choose which Beast is fighting which creature an opponent controls.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/E.md#ezuris-predation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/178/ezuris-predation) · oracle_id `d0dd425b-fdba-41b4-b9e6-f5161610bd7e` · printing: DSC #178 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezuri, Stalker of Spheres
@@ -213,6 +216,7 @@ schema: 2
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — While proliferating twice, players can't respond between proliferating the first time and proliferating the second time.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/E.md#ezuri-stalker-of-spheres)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/201/ezuri-stalker-of-spheres) · oracle_id `cffec16f-373b-43e7-a04c-4452987d7e02` · printing: ONE #201 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ezzaroot Channeler

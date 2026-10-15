@@ -55,6 +55,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-03-20* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-03-20* — Moseo's last ability will check as your end step starts to see if you gained life this turn. If you didn't, the ability won't trigger at all. It's not possible to gain life during your end step in time to have the ability trigger.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#moseo-veins-new-dean)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/91/moseo-veins-new-dean) · oracle_id `c2e2f21a-0338-44d7-96a5-5a277f0ec419` · printing: SOS #91 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosquito Guard
@@ -104,6 +105,7 @@ schema: 2
   - *2024-11-08* — If Mossborn Hydra somehow enters at the same time as one or more other lands you control, its last ability triggers for each of those lands.
   - *2024-11-08* — To double the number of +1/+1 counters on Mossborn Hydra, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 4 pages (2 decks · 1 rules · 1 card data) → [reverse index](../../references/M.md#mossborn-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/107/mossborn-hydra) · oracle_id `84122d81-9634-4d3f-85a5-f6cf4303691a` · printing: FDN #107 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mossbridge Troll
@@ -186,6 +188,7 @@ schema: 2
   > *Lush growth spreads like a ferocious blaze across the Otarian hillsides.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #552 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/M.md#mossfire-valley)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/378/mossfire-valley) · oracle_id `23bbd091-f6ff-4514-97aa-42c08164b4eb` · printing: TDC #378 (2025-04-11) · [rulings](https://api.scryfall.com/cards/29208018-8079-44bc-b33b-21cda4709bf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moss Kami
@@ -290,6 +293,7 @@ schema: 2
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must follow the normal timing permissions and restrictions for Dread Whispers when casting it with the permission of Mosswood Dreadknight's triggered ability. You must pay its mana cost (or, if another effect allows, an alternative cost).
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mosswood-dreadknight--dread-whispers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/231/mosswood-dreadknight-dread-whispers) · oracle_id `5783facf-d26e-4aae-a753-b9dc553361c1` · printing: WOE #231 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mosswort Bridge
@@ -308,6 +312,7 @@ schema: 2
   - *2022-04-29* — Any player who has controlled a permanent with a hideaway ability since a card was exiled with it may look at that card.
   - *2022-04-29* — Hideaway now causes you to put the rest of the cards on the bottom of your library in a random order instead of any order.
   - *2022-04-29* — Previously, permanents with hideaway entered the battlefield tapped. This ability has been removed from the definition of hideaway. Older cards have received errata to have an additional paragraph that reads "[This permanent] enters the battlefield tapped," and they now have hideaway 4.
+- **Referenced in:** 5 pages (2 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/M.md#mosswort-bridge)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/379/mosswort-bridge) · oracle_id `7cb9e29f-835f-4155-a2a5-4b778866c773` · printing: TDC #379 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Decrepit Old Bird // Speak Secrets
@@ -334,6 +339,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#most-decrepit-old-bird--speak-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/49/most-decrepit-old-bird-speak-secrets) · oracle_id `34d34f2c-06ff-4acf-8f2f-ff867774b777` · printing: HOB #49 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Most Valuable Slayer

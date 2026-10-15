@@ -153,6 +153,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-06-16* — Typecycling is a form of cycling. Any ability that triggers on a card being cycled also triggers on a card being typecycled. Any ability that stops a cycling ability from being activated also stops a typecycling ability from being activated.
   - *2023-06-16* — Unlike the normal cycling ability, typecycling doesn't allow you to draw a card. Rather, it lets you search your library for a card with the type or types indicated by the ability name. For example, a card with basic landcycling lets you search for a basic land card, and a card with Wizardcycling lets you search for a Wizard card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#troll-of-khazad-dûm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/191/troll-of-khazad-d%C3%BBm) · oracle_id `222fd9fc-7af4-4269-bbb9-cd7b8ac029bd` · printing: HOC #191 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trolls of Tel-Jilad
@@ -187,6 +188,7 @@ schema: 2
   - *2025-06-06* — When you proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2025-06-06* — While proliferating multiple times, players can't respond between proliferating the first time and proliferating the second time, and so on.
   - *2025-06-06* — You don't have to choose every permanent or player that has a counter—only the ones you want to add counters to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tromell-seymours-butler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/73/tromell-seymours-butler) · oracle_id `f088817a-570d-4480-bc59-f2ad6675a71b` · printing: FIC #73 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tromokratis
@@ -201,6 +203,7 @@ schema: 2
 - **Rulings** (2):
   - *2014-02-01* — The defending player may block Tromokratis with each creature they control. If that player can't, perhaps because one of those creatures is tapped, or chooses not to, Tromokratis can't be blocked.
   - *2014-02-01* — Tromokratis (like all attacking and blocking creatures) remains an attacking or blocking creature until the end of combat step is over. Notably, it will still be an attacking or blocking creature during the combat damage step, so any abilities an opponent controls that trigger when a creature dies as a result of combat damage could target Tromokratis.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/T.md#tromokratis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/129/tromokratis) · oracle_id `9aa2f27b-4c00-44c1-8bc4-014350f05b6d` · printing: CMM #129 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tromp the Domains
@@ -232,6 +235,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5682 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2026-06-29* — If you choose to find only one basic land card, you put it onto the battlefield tapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#troop-of-ponies)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/3/troop-of-ponies) · oracle_id `bb52b3c3-09f0-4506-b7c0-250ab0b91866` · printing: HOB #3 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trophy Hunter
@@ -271,6 +275,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/T.md#tropical-island)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/321/tropical-island) · oracle_id `74b7fe23-5d3a-4092-8d78-7c0eba8f6f73` · printing: VMA #321 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tropical Storm
@@ -322,6 +327,7 @@ schema: 2
   - *2024-01-12* — Populate doesn't target the creature token you're copying. You choose that creature token as you're taking the populate action. You can choose any creature token you control. If a spell or ability causes you to create a creature token and then instructs you to populate, you may choose to copy the token you just created, or you may choose to copy another creature token you control.
   - *2024-01-12* — The new creature token copies the characteristics of the original token as stated by the effect that created the original token.
   - *2024-01-12* — The new token doesn't copy whether the original token is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any noncopy effects that have changed its power, toughness, color, and so on.
+- **Referenced in:** 4 pages (1 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/T.md#trostani-selesnyas-voice)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c19/204/trostani-selesnyas-voice) · oracle_id `e94ef397-f5c5-4b8d-ae27-528352fa1d1e` · printing: C19 #204 (2019-08-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani's Judgment
@@ -355,6 +361,7 @@ schema: 2
   > When this creature enters, create a 2/2 white Knight creature token with vigilance, a 3/3 green Centaur creature token, and a 4/4 green Rhino creature token with trample.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17617 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/T.md#trostanis-summoner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mic/156/trostanis-summoner) · oracle_id `874e0b54-bc24-4887-abe1-1ecfd3a3abae` · printing: MIC #156 (2021-09-24) · [rulings](https://api.scryfall.com/cards/eda757a0-067b-4eb9-badc-d86da5b40305/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Trostani, Three Whispers
@@ -370,6 +377,7 @@ schema: 2
   > *Tangled in the heart of Vitu-Ghazi, they guard their secrets from eager ears.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10123 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/T.md#trostani-three-whispers)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/238/trostani-three-whispers) · oracle_id `5c90b951-826e-4595-aacc-958904f3f794` · printing: MKM #238 (2024-02-09) · [rulings](https://api.scryfall.com/cards/329f3aca-6db7-41d3-95b2-c479d14b7fa3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troubled Healer
@@ -402,6 +410,7 @@ schema: 2
   - *2024-02-02* — Trouble in Pairs counts spells that were cast even if they didn't resolve. This means it still counts spells that were countered.
   - *2024-02-02* — Trouble in Pairs doesn't have to be on the battlefield to see the first card an opponent draws in a turn or the first spell they cast in a turn. As long as it's already on the battlefield when they draw their second card or cast their second spell in a turn, its last ability will trigger.
   - *2024-02-02* — Trouble in Pairs's last ability can trigger multiple times per opponent per turn. For example, if an opponent draws a second card, casts a second spell, and attacks you with two or more creatures in a single turn, Trouble in Pairs's last ability will trigger once when each of those events occurs, for a total of three times.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#trouble-in-pairs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/15/trouble-in-pairs) · oracle_id `f349f58b-8cc8-45e4-9565-2b46fdf976c9` · printing: MKC #15 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troublemaker Ouphe
@@ -422,6 +431,7 @@ schema: 2
   - *2023-09-01* — If you copy a bargained spell, the copy is also bargained. If a card or token enters the battlefield as a copy of a permanent that’s already on the battlefield, the new permanent isn’t bargained, even if the original was.
   - *2023-09-01* — Some instant and sorcery spells require additional targets if they’re bargained. You ignore those targeting requirements if those spells aren’t bargained, and you can’t bargain those spells unless you can choose the appropriate targets. On the other hand, you can bargain a permanent spell even if you won’t be able to choose targets for an enters-the-battlefield ability of that permanent once the spell resolves.
   - *2023-09-01* — You may sacrifice only one artifact, enchantment, or token to pay a spell’s bargain cost.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/T.md#troublemaker-ouphe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/194/troublemaker-ouphe) · oracle_id `16cdba97-73cf-44ba-9d64-f27009b829f8` · printing: WOE #194 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Troublesome Spirit

@@ -42,6 +42,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8816 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-06-16* — If multiple players are instructed to scry at once, those players each look at the top cards of their library at the same time, then they choose in turn order whether to put those cards on the top or bottom of their library and in what order.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#model-of-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/78/model-of-unity) · oracle_id `d7b69fd7-e575-4009-8549-f576249ba641` · printing: LTC #78 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Moderation
@@ -59,6 +60,7 @@ schema: 2
   - *2021-06-18* — If an effect says you can't cast spells, and another effect instructs you to cast a spell, such as that of the ability that triggers when you remove the last time counter from a card with suspend, you won't be able to cast that spell.
   - *2021-06-18* — If you cast Moderation, you've already cast at least one spell that turn (Moderation itself) so you won't be able to cast any more spells until the next turn. If Moderation comes under your control on a turn you haven't cast any spells, you'll be able to cast one spell that turn.
   - *2021-06-18* — Moderation's triggered ability works only while it's on the battlefield, so it doesn't let you draw a card when you cast it.
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/M.md#moderation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh2/206/moderation) · oracle_id `57f94fcb-a224-410b-a38e-3ed8cca7d0c7` · printing: MH2 #206 (2021-06-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Modify Memory
@@ -71,6 +73,7 @@ schema: 2
   > *Percival's clothes itched and his dinner was unpleasantly wriggly, but the kobold looked like he was having the time of his life.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8022 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#modify-memory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/83/modify-memory) · oracle_id `2c37d4e1-6b76-4feb-933b-1752ecc6d3e8` · printing: CLB #83 (2022-06-10) · [rulings](https://api.scryfall.com/cards/f915b034-ab16-48a6-a151-71eaa0b542f9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M.O.D.O.K.
@@ -85,6 +88,7 @@ schema: 2
 - **Keywords:** Mental Organism, Flying, Lifelink, Designed Only for Killing, Connive
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7850 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#modok)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msh/106/modok) · oracle_id `fe7cc414-42d0-4dad-8516-7a0be0860a67` · printing: MSH #106 (2026-06-26) · [rulings](https://api.scryfall.com/cards/38e87542-50f7-4812-9338-84e4b9b7bb44/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### M.O.D.O.K., Evil Intellect

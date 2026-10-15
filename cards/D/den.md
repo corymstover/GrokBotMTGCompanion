@@ -123,6 +123,7 @@ schema: 2
   - *2021-09-24* — The second ability of Dennick, Pious Apprentice affects only spells and abilities that actually target cards in graveyards. Spells and abilities that affect cards in graveyards without targeting them may still affect them, move them to other zones, and so on.
   - *2021-09-24* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a disturb cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of a spell cast using disturb is determined by the mana cost on the front face of the card, no matter what the total cost to cast the spell was. (This is a special rule that applies only to nonmodal double faced-cards, including ones with disturb.)
   - *2021-09-24* — When you cast a spell using a card's disturb ability, the card is put onto the stack with its back face up. The resulting spell has all the characteristics of that face.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#dennick-pious-apprentice--dennick-pious-apparition)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/217/dennick-pious-apprentice-dennick-pious-apparition) · oracle_id `45802eb2-6848-416c-95e0-c1c1ea0620d0` · printing: MID #217 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Den of the Bugbear
@@ -138,6 +139,7 @@ schema: 2
   - *2021-07-23* — If Den of the Bugbear enters the battlefield at the same time as one or more other lands, it doesn't take those lands into consideration when determining how many other lands you control.
   - *2021-07-23* — If Den of the Bugbear's last ability is activated multiple times in one turn, it will have multiple instances of the triggered ability that it grants. For example, if you activate it twice and attack, you will create two 1/1 red Goblin creature tokens that are tapped and attacking.
   - *2021-07-23* — If you turn Den of the Bugbear into a creature but haven't controlled it continuously since your most recent turn began, you won't be able to activate its mana ability or attack with it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/D.md#den-of-the-bugbear)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/254/den-of-the-bugbear) · oracle_id `f451b8f0-1ff5-4e8d-9f30-9352d83ed687` · printing: AFR #254 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Den Protector
@@ -292,4 +294,5 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13088 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#denzilore-fatehold)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/128/denzilore-fatehold) · oracle_id `0f8de7f0-c61d-415d-b4db-4959374343da` · printing: FRA #128 (2026-10-02) · [rulings](https://api.scryfall.com/cards/986f9e98-9d8d-428b-9187-860745cf3269/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

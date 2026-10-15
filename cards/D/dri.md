@@ -55,6 +55,7 @@ schema: 2
 - **Keywords:** Reach
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9226 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drider)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/98/drider) · oracle_id `1db76752-31ed-4a16-986a-d0852ba7d812` · printing: AFR #98 (2021-07-23) · [rulings](https://api.scryfall.com/cards/bbc06a88-1eb6-4edb-8f03-d8274560cc41/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifter il-Dal
@@ -118,6 +119,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4959 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drifting-meadow)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmr/245/drifting-meadow) · oracle_id `c6eb2814-0021-4308-ad44-6c8cc59b0d1c` · printing: DMR #245 (2023-01-13) · [rulings](https://api.scryfall.com/cards/8cb024fa-2df1-4414-b0d7-6f700d152c51/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drifting Shade
@@ -147,6 +149,7 @@ schema: 2
 - **Keywords:** Flying, Defender, Transmute
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2867 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drift-of-phantasms)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/42/drift-of-phantasms) · oracle_id `6ee51134-c4ad-4101-8ce2-23dde9359cd4` · printing: RVR #42 (2024-01-12) · [rulings](https://api.scryfall.com/cards/d722c22d-3cab-48b5-96cd-0874060ac9a4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drift of the Dead
@@ -341,6 +344,7 @@ schema: 2
   - *2023-02-04* — If you somehow control two Drivnods, a creature dying causes abilities to trigger three times, not four. A third Drivnod causes abilities to trigger four times, a fourth causes abilities to trigger five times, and so on. This also means that if you control Drivnod and cast a second one, an ability that triggers when it dies due to the "legend rule" triggers three times.
   - *2023-02-04* — Look at each creature as it exists on the battlefield, taking into account continuous effects, to determine whether any triggered abilities will trigger multiple times. For example, if a land that has become a creature dies, an ability that triggers when it dies triggers twice.
   - *2023-02-04* — The trigger event doesn't have to specifically refer to "creatures." In these cases, the trigger event may also refer to something being "put into a graveyard from the battlefield." For example, an ability that triggers "whenever an artifact is put into a graveyard from the battlefield" would trigger twice if an artifact creature dies while Drivnod, Carnage Dominus is on the battlefield.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/D.md#drivnod-carnage-dominus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/90/drivnod-carnage-dominus) · oracle_id `51780f71-bf60-4208-94ea-76fa84790fb6` · printing: ONE #90 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Drix Fatemaker
@@ -370,4 +374,5 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14696 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2021-07-23* — Drizzt's last ability checks his power both at the time the creature dies and at the time the ability resolves. Notably, this means that if several creatures with power greater than Drizzt's die at the same time, Drizzt's ability will trigger that many times, but some of those abilities may not put counters on him as they resolve.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#drizzt-dourden)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afr/220/drizzt-dourden) · oracle_id `1e939df0-d421-42b7-b642-88b3555fd8df` · printing: AFR #220 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -48,6 +48,7 @@ schema: 2
   - *2019-10-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to one Seven Dwarves may become lethal if another Seven Dwarves you control leaves the battlefield during that turn.
   - *2019-10-04* — If you're fortunate enough to open or draft eight or more Seven Dwarves during a Limited event, you can include only seven of them in your deck. The rest remain in your sideboard.
   - *2019-10-04* — The last ability of Seven Dwarves lets you ignore the "four-of" rule. It doesn't let you ignore format legality. For example, during a Throne of Eldraine Limited event, you can't add Seven Dwarves from your personal collection, no matter how happy they would be.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seven-dwarves)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eld/141/seven-dwarves) · oracle_id `526ca4a9-3f50-4f7a-8169-2bda95792401` · printing: ELD #141 (2019-10-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seven of Nine
@@ -193,6 +194,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 4 pages (2 edh guides · 2 rules) → [reverse index](../../references/S.md#sevinnes-reclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/170/sevinnes-reclamation) · oracle_id `1b9f9f5b-8712-4f00-90cb-1b7b9970eccc` · printing: SOC #170 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sevinne, the Chronoclasm

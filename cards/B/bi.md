@@ -194,6 +194,7 @@ schema: 2
   > Whenever you cycle a card, put a +1/+1 counter on this creature.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bicycle-elemental)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pf26/11/bicycle-elemental) · oracle_id `0c4c37e4-3764-4b12-88ac-bb95a626b08f` · printing: PF26 #11 (2026-07-13) · [rulings](https://api.scryfall.com/cards/a3339ab7-ca25-48cf-89b8-20373237dda4/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bident of Thassa
@@ -209,6 +210,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-03-16* — If a creature can't attack for any reason (such as being tapped or having come under that player's control that turn), then it doesn't attack. If there's a cost associated with having a creature attack, the player isn't forced to pay that cost, so it doesn't have to attack in that case either.
   - *2018-03-16* — The controller of each attacking creature still chooses which player or planeswalker that creature attacks.
+- **Referenced in:** 7 pages (4 decks · 1 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/B.md#bident-of-thassa)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/146/bident-of-thassa) · oracle_id `e1afaef7-9fa3-4662-a95f-adfb0da9fd11` · printing: LCC #146 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bifurcate
@@ -346,6 +348,7 @@ schema: 2
   - *2023-10-13* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2023-10-13* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2023-10-13* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bigger-on-the-inside)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/115/bigger-on-the-inside) · oracle_id `8f351961-69e3-4637-b010-d13f19daca39` · printing: WHO #115 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bighorner Rancher
@@ -378,6 +381,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-01-27* — If enough -1/-1 counters are put on Big Mother Mouser at the same time to make its toughness 0 or less (or the damage marked on it to be lethal), the number of +1/+1 counters on it before it got any -1/-1 counters will be used to determine how many Robot tokens you get. For example, if there are three +1/+1 counters on Big Mother Mouser and it gets four -1/-1 counters, you'll get three Robot tokens. That's because Big Mother Mouser's last ability checks Big Mother Mouser's existence just before it leaves the battlefield, and it still has all those counters on it at that point.
   - *2026-01-27* — To double the number of +1/+1 counters on a creature, put a number of +1/+1 counters on it equal to the number it already has. Other cards that interact with putting counters on it will interact with this effect accordingly.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#big-mother-mouser)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/37/big-mother-mouser) · oracle_id `94751968-e006-45d0-970b-0ed45d28e6cc` · printing: TMC #37 (2026-03-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Big Play
@@ -405,6 +409,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #138 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (4 decks · 4 edh guides · 1 card data) → [reverse index](../../references/B.md#big-score)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/802/big-score) · oracle_id `a5cbd257-c836-493e-bb1a-76242619dea2` · printing: MSC #802 (2026-06-26) · [rulings](https://api.scryfall.com/cards/3383a939-4ab3-4546-9995-6c65cd3f4441/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Big Wheel
@@ -464,6 +469,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bilbo-baggins-burglar--take-a-glance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/34/bilbo-baggins-burglar-take-a-glance) · oracle_id `fa85f9e6-69ff-4669-b70a-440aa7b16c97` · printing: HOB #34 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bilbo, Birthday Celebrant
@@ -519,6 +525,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bilbo-luckwearer--burglars-plot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/32/bilbo-luckwearer-burglars-plot) · oracle_id `a73d9109-36e0-40ea-ab06-5c5f7eb4ac54` · printing: HOB #32 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bilbo, Retired Burglar
@@ -581,6 +588,7 @@ schema: 2
   - *2026-06-29* — If a spell for which the gift was promised is countered, doesn't resolve (perhaps because all of its targets are illegal), or is otherwise removed from the stack, the gift won't be given. None of its other effects will happen either.
   - *2026-06-29* — If you copy a spell for which the gift was promised, the gift was also promised to the same player for the copy. If a card or token enters as a copy of a permanent that's already on the battlefield, the gift isn't promised for that new permanent, even if it was promised for the original.
   - *2026-06-29* — You can't pay a gift cost more than once.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bilbos-gambit)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/5/bilbos-gambit) · oracle_id `ef71ef07-8a35-41ec-a851-d95e9e3a221b` · printing: HOB #5 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bilbo's Ring
@@ -613,6 +621,7 @@ schema: 2
   - *2026-06-29* — The cost reduction applies only to generic mana in the costs of spells you cast from anywhere other than your hand. It can't reduce requirements of a specific color of mana.
   - *2026-06-29* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Bilbo, Thief in the Night). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2026-06-29* — You can choose to cast an Adventure instant or sorcery spell from your graveyard as Bilbo's ability resolves. If that Adventure spell resolves, you can exile it using the replacement effect associated with the Adventure, and you can cast the permanent spell later from exile. If that Adventure spell fails to resolve (because it's countered or its targets become illegal), that card is exiled by the replacement effect created by Bilbo's ability; you can't cast the permanent spell later from exile.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bilbo-thief-in-the-night)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/33/bilbo-thief-in-the-night) · oracle_id `72a9a85d-7cfc-4b3c-82db-9d35be6c0982` · printing: HOB #33 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bilbo, Unexpected Adventurer
@@ -627,6 +636,7 @@ schema: 2
 - **Rulings** (2):
   - *2026-06-29* — If a card in a graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value.
   - *2026-06-29* — Once Bilbo has been blocked, increasing the power of a creature blocking him to 3 or greater won't cause him to become unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bilbo-unexpected-adventurer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/98/bilbo-unexpected-adventurer) · oracle_id `1f4e4750-93e9-4aa2-b105-9482f7b287ec` · printing: HOC #98 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bile Blight
@@ -767,6 +777,7 @@ schema: 2
   - *2023-10-13* — The copy will have the same targets as the spell or ability it's copying unless you choose new ones. You may change any number of the targets, including all of them or none of them. The new targets must be legal.
   - *2023-10-13* — The first ability of Bill Potts will trigger as long as it is the only target of that spell or ability, even if that spell or ability could target multiple permanents.
   - *2023-10-13* — You can't choose to pay any additional costs for the copy. However, effects based on any additional costs that were paid for the original spell are copied as though those same costs were paid for the copy too.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/B.md#bill-potts)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/76/bill-potts) · oracle_id `0ebe67ed-8a71-4bbc-8e58-cebbd7b2d83f` · printing: WHO #76 (2023-10-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bill the Pony
@@ -911,6 +922,7 @@ schema: 2
   - *2021-02-05* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2021-02-05* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities, the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2021-02-05* — Removing lore counters won't cause a previous chapter ability to trigger. If lore counters are removed from a Saga, the appropriate chapter abilities will trigger again when the Saga receives more lore counters.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#binding-the-old-gods)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/120/binding-the-old-gods) · oracle_id `4050e5b3-07c2-461c-9852-a2c081c0198d` · printing: ECC #120 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bind // Liberate
@@ -923,6 +935,7 @@ schema: 2
   > Exile target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bind--liberate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/88/bind-liberate) · oracle_id `ff7c12dd-1a1a-417a-b08a-d1346430858e` · printing: CMB2 #88 (2021-08-20) · [rulings](https://api.scryfall.com/cards/0087fdee-acb4-4449-b4cc-370f0f3c88a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bind the Monster
@@ -1015,6 +1028,7 @@ schema: 2
   > {1}{G}{G}{G}: Create a 2/2 green Ooze creature token.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7353 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#biogenic-ooze)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmc/49/biogenic-ooze) · oracle_id `d2d84ba5-0d20-4ce3-8f1f-93cd9ef94f5f` · printing: TMC #49 (2026-03-06) · [rulings](https://api.scryfall.com/cards/0e850205-d010-49af-b68b-262360751b70/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Biogenic Upgrade
@@ -1068,6 +1082,7 @@ schema: 2
   > *The Gargantikari astroserpent hated the taste of merfolk, but the audience didn't need to know that.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #24395 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bioluminary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/38/bioluminary) · oracle_id `fb8b8c58-7bdc-4daa-b48b-728a26e174dd` · printing: UNF #38 (2022-10-07) · [rulings](https://api.scryfall.com/cards/ccd3293a-35f4-4ae3-8d88-ae4dbfb38012/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Biomancer's Familiar
@@ -1168,6 +1183,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3022 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — If Biophagus's ability produces more than one mana, perhaps due to an effect such as that of Mana Reflection, each creature cast with that mana will enter the battlefield with an additional +1/+1 counter. If all of that mana is spent on the same creature, it will enter the battlefield with that many additional +1/+1 counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#biophagus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/87/biophagus) · oracle_id `7c06a368-3306-48e0-825e-a8fdc81fa343` · printing: 40K #87 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bioplasm
@@ -1212,6 +1228,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — If a player controls no creatures when this resolves, their life total will become zero and they will lose the game.
   - *2004-10-04* — This spell causes the player to lose or gain enough life to change to the new life total.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/B.md#biorhythm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/9ed/231/biorhythm) · oracle_id `447de961-106c-4189-83ce-ca63d487e1cd` · printing: 9ED #231 (2005-07-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bioshift
@@ -1267,6 +1284,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4348 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-07* — Replacement effects that modify artifacts as they enter the battlefield will apply after you apply Biotransference's effect. For example, if you control a Biotransference and there is an effect that says artifacts enter the battlefield tapped, creatures you control will enter the battlefield tapped.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/B.md#biotransference)
 - **Source flags:** [Scryfall](https://scryfall.com/card/40k/30/biotransference) · oracle_id `5443557e-440f-4fdd-a29b-7740d7cec085` · printing: 40K #30 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Biovisionary
@@ -1361,6 +1379,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #30737 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#_____-bird-gets-the-worm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/5/_____-bird-gets-the-worm) · oracle_id `2ce375c8-7c37-40b3-95cf-e0aa958bb317` · printing: UNF #5 (2022-10-07) · [rulings](https://api.scryfall.com/cards/6e86e72f-4c12-443a-adf7-f733945a6317/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bird Maiden
@@ -1394,6 +1413,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #35 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 22 pages (16 decks · 4 edh guides · 2 card data) → [reverse index](../../references/B.md#birds-of-paradise)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/170/birds-of-paradise) · oracle_id `d3a0b660-358c-41bd-9cd2-41fbf3491b1a` · printing: MSC #170 (2026-06-26) · [rulings](https://api.scryfall.com/cards/492c2f9a-51e7-4e0f-9899-23bf43ea988b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birgi, God of Storytelling // Harnfel, Horn of Bounty
@@ -1428,6 +1448,7 @@ schema: 2
   - *2021-02-05* — Unless an effect allows you to play additional lands that turn, you can play land cards exiled with Harnfel only if you haven’t played a land yet that turn. In most cases, if you exile two land cards with Harnfel, you won’t be able to play both.
   - *2021-02-05* — You may play those cards that turn even if Harnfel leaves the battlefield or another player gains control of it.
   - *2021-02-05* — You must still attack with a creature you control to activate its boast ability.
+- **Referenced in:** 10 pages (5 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/B.md#birgi-god-of-storytelling--harnfel-horn-of-bounty)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/123/birgi-god-of-storytelling-harnfel-horn-of-bounty) · oracle_id `fb81e4d3-1d8c-4779-be62-87cf49277e51` · printing: KHM #123 (2021-02-05) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birnin Zana Plaza
@@ -1473,6 +1494,7 @@ schema: 2
   > *Changelings can't remember where they came from. They just know it wasn't a cradle.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10973 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#birthing-boughs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/221/birthing-boughs) · oracle_id `c6836d78-ca71-4413-aced-d4de19976221` · printing: MH1 #221 (2019-06-14) · [rulings](https://api.scryfall.com/cards/1345ee24-ffa3-44d1-a983-f25f54cda3f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birthing Hulk
@@ -1506,6 +1528,7 @@ schema: 2
   - *2011-06-01* — If you're at 1 life or less, you can't pay 2 life.
   - *2011-06-01* — Phyrexian mana is not a new color. Players can't produce Phyrexian mana.
   - *2011-06-01* — To calculate the mana value of a card with Phyrexian mana symbols in its cost, count each Phyrexian mana symbol as 1.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#birthing-pod)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/104/birthing-pod) · oracle_id `f8b9dd54-0837-47f4-ad14-7a0322d46d5f` · printing: NPH #104 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Birthing Ritual
@@ -1599,6 +1622,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-07-12* — If Bishop of Wings dies at the same time as one or more Angels you control, its last ability triggers for each of those Angels.
   - *2019-07-12* — If an effect (such as that of Arcane Adaptation) causes Bishop of Wings to be an Angel, its first ability triggers as it enters the battlefield and its last ability triggers as it dies.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bishop-of-wings)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/8/bishop-of-wings) · oracle_id `af4684cf-f109-44be-adfb-7c551a36635e` · printing: M20 #8 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bishop's Soldier
@@ -1663,6 +1687,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2697 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-09-09* — If either target is an illegal target as Bite Down tries to resolve, the creature you control won't deal damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bite-down)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/212/bite-down) · oracle_id `623903de-3c04-4745-9af3-d7ec9fb2574d` · printing: FDN #212 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bite Down on Crime
@@ -1717,6 +1742,7 @@ schema: 2
   - *2022-02-18* — The creature with ninjutsu enters the battlefield attacking the same player or planeswalker that the returned creature was attacking. This is a rule specific to ninjutsu; in other cases, when a creature is put onto the battlefield attacking, that creature's controller chooses which player or planeswalker it's attacking.
   - *2022-02-18* — The ninjutsu ability can be activated during the declare blockers step, combat damage step, or end of combat step. In most cases (see below), if you wait until the combatdamage step or end of combat step, it will be after combat damage has been dealt, so the Ninja won't deal combat damage.
   - *2022-02-18* — The ninjutsu ability can be activated only after blockers have been declared. Before then, attacking creatures are neither blocked nor unblocked.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#biting-palm-ninja)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/88/biting-palm-ninja) · oracle_id `5c22447b-7a7f-4a27-8d3b-1bb664ea94c3` · printing: NEO #88 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Biting Rain
@@ -1755,6 +1781,7 @@ schema: 2
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-11-12* — If you cast a spell with scrycast, you don’t look at any additional cards in your library. If you were instructed to scry 1, you won’t do anything else to finish scrying, although you’re still scrying while you cast the spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#biting-remark)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/17/biting-remark) · oracle_id `10e8700e-a530-4a3f-a2e9-246e9e46ac2b` · printing: CMB2 #17 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Biting Tether
@@ -1804,6 +1831,7 @@ schema: 2
 - **Keywords:** Flying, Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1843 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/B.md#bitterbloom-bearer)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecl/88/bitterbloom-bearer) · oracle_id `5effb651-f9e0-4c14-8192-bd0e132b8d5d` · printing: ECL #88 (2026-01-23) · [rulings](https://api.scryfall.com/cards/7127164d-f2a3-4d79-b6db-93507ff5ab47/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterblossom
@@ -1821,6 +1849,7 @@ schema: 2
   - *2024-06-07* — Kindred is a card type that allows noncreature cards to have creature types. For example, Echoes of Eternity is an Eldrazi (although not a creature) while on the battlefield and an Eldrazi card (although not a creature card) in zones other than the battlefield.
   - *2024-06-07* — This cards was originally printed with the "tribal" card type. That card type has been replaced with "kindred". This change does not affect the gameplay function of this card.
   - *2024-06-07* — While it appears only on cards that already have other card types, kindred is a card type and will be counted by effects that refer to the number of card types among cards in a zone.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/B.md#bitterblossom)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/69/bitterblossom) · oracle_id `fb868840-09fa-49b1-85cb-b08ad065e972` · printing: 2X2 #69 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitterbow Sharpshooters
@@ -1895,6 +1924,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12356 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-09-22* — The Curse must be legally able to enchant the player. For example, if the player has protection from red, you couldn’t put a red Curse onto the battlefield this way.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/B.md#bitterheart-witch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/88/bitterheart-witch) · oracle_id `67466d56-9f28-4bbe-ae54-6fd834581e77` · printing: ISD #88 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Ordeal
@@ -1907,6 +1937,7 @@ schema: 2
 - **Keywords:** Gravestorm
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13568 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/B.md#bitter-ordeal)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fut/80/bitter-ordeal) · oracle_id `c02fdb2e-10bb-49fc-bce0-b31b6fad8e38` · printing: FUT #80 (2007-05-04) · [rulings](https://api.scryfall.com/cards/2879e7a1-0256-4116-be22-7c9972e4ce0b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Reunion
@@ -1920,6 +1951,7 @@ schema: 2
   > *The peace summit proved the grudge between Urza and Mishra could end only in blood.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2928 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 edh guides · 1 lore & story) → [reverse index](../../references/B.md#bitter-reunion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/156/bitter-reunion) · oracle_id `173e86f4-17f3-44f5-8073-78e7e2e12c4a` · printing: OTC #156 (2024-04-19) · [rulings](https://api.scryfall.com/cards/4ef0b4dc-5a15-4de6-9c27-0e21148c0797/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Revelation
@@ -1947,6 +1979,7 @@ schema: 2
 - **Keywords:** Equip, Living weapon
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1933 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/B.md#bitterthorn-nissas-animus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/343/bitterthorn-nissas-animus) · oracle_id `5a57fba3-01e3-4852-8c45-7c910502bd03` · printing: SOC #343 (2026-04-24) · [rulings](https://api.scryfall.com/cards/926cbd68-3b66-4ccc-a7c9-fb20e38a3126/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Triumph
@@ -1960,6 +1993,7 @@ schema: 2
   > *Though he wept at Inti's death, Caparocti's eyes were keen, and his spear pierced cleanly through Clavileño's tainted heart.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #828 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/B.md#bitter-triumph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/173/bitter-triumph) · oracle_id `776341cb-d2ec-423f-9250-92dc8bd8d503` · printing: TDC #173 (2025-04-11) · [rulings](https://api.scryfall.com/cards/c5333556-eea2-41ae-833e-007b9d540700/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bitter Work
@@ -1982,6 +2016,7 @@ schema: 2
   - *2025-10-02* — If the targeted land becomes an illegal target before the spell or ability that includes earthbend resolves, earthbend does nothing. If the spell or ability didn't have other targets, it won't resolve.
   - *2025-10-02* — The land will retain any other types, subtypes, or supertypes it previously had. It will also retain any mana abilities it had as a result of those subtypes. For example, a Forest that's turned into a creature this way can still be tapped for {G}.
   - *2025-10-02* — You may target a land that is already a creature, perhaps because of a previous earthbend ability. The land will get the +1/+1 counters, gain haste, and have its base power and toughness set to 0/0.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/B.md#bitter-work)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/210/bitter-work) · oracle_id `e9a24ed8-e844-4c50-b386-bc28da9989b1` · printing: TLA #210 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bituminous Blast
@@ -2003,4 +2038,5 @@ schema: 2
   - *2021-06-18* — The mana value of a split card is determined by the combined mana cost of its two halves. If cascade allows you to cast a split card, you may cast either half but not both halves.
   - *2021-06-18* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2021-06-18* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 3 pages (2 decks · 1 edh guides) → [reverse index](../../references/B.md#bituminous-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/181/bituminous-blast) · oracle_id `d291d8f7-bb67-470c-8794-cd553c91e5cc` · printing: AFC #181 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

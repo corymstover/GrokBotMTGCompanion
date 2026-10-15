@@ -67,6 +67,7 @@ schema: 2
   - *2022-10-07* — If you don’t have a mobile device capable of taking a picture, you are allowed to draw a photocopy. The drawing then enters the battlefield as a token that’s a photocopy of the pictured creature.
   - *2022-10-07* — Nothing in the photocopy can leave the photocopy. Auras and Equipment can’t be destroyed, attached to other creatures, and so on. Counters can’t be moved. Stickers are stuck. These are memories frozen in time, people. Except these memories can attack and block.
   - *2022-10-07* — The photocopy will not only be unable to copy any non-copy effects that affected the target creature, it will also be unable to copy any copy effects that it can’t see. If you take a picture of a Clone that’s copying another creature, the photocopy will just be a Clone. Fortunately for you, the Clone entering the battlefieldstill has the ability to enter as a copy of another creature, but it won’t automatically be a copy of what the original Clone was copying like a normal copy would.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mobile-clone)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/51/mobile-clone) · oracle_id `149d5ff0-fd0d-45b5-988e-476a06fa7bae` · printing: UNF #51 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mobile Fort
@@ -244,6 +245,7 @@ schema: 2
   - *2014-11-24* — Mob Rule can affect creatures you already control or ones that are already untapped. It will untap them if applicable and give them haste.
   - *2014-11-24* — Once you gain control of a creature, it doesn't matter what happens to its power.
   - *2014-11-24* — You choose which mode you're using as you cast Mob Rule. Once it's cast, you can't change its mode, even if creatures' powers change in response.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/M.md#mob-rule)
 - **Source flags:** [Scryfall](https://scryfall.com/card/voc/147/mob-rule) · oracle_id `acca2128-6ebb-48a5-a6a2-1bc5e4aa86ce` · printing: VOC #147 (2021-11-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mob Verdict

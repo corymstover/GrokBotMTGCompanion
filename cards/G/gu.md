@@ -183,6 +183,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5052 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2025-06-06* — Town is a land type with no special meaning. It doesn't grant the land any intrinsic abilities. Other cards may care about which lands are Towns.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guadosalam-farplane-gateway)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/281/guadosalam-farplane-gateway) · oracle_id `849c97e4-df15-4ecb-bdf8-283bb497d90c` · printing: FIN #281 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guan Yu's 1,000-Li March
@@ -195,6 +196,7 @@ schema: 2
   > *"He Guan Yu covered the ground on a thousand-li horse;/ With dragon blade he took each pass by force."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28688 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guan-yus-1000-li-march)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/13/guan-yus-1000-li-march) · oracle_id `a1b87d5d-9493-4001-8c7e-553f40de61ea` · printing: ME3 #13 (2009-09-07) · [rulings](https://api.scryfall.com/cards/cdb63900-b600-47ab-9f53-cd1441df31d2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guan Yu, Sainted Warrior
@@ -211,6 +213,7 @@ schema: 2
   - *2009-10-01* — Despite the similarities between horsemanship and flying, horsemanship doesn't interact with flying or reach.
   - *2009-10-01* — If Guan Yu, Sainted Warrior is removed from the graveyard after the ability triggers but before it resolves, it won't get shuffled into your library.
   - *2009-10-01* — If a replacement effect has Guan Yu move to a different zone instead of being put into the graveyard, the ability won't trigger at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guan-yu-sainted-warrior)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me3/12/guan-yu-sainted-warrior) · oracle_id `f7ee3935-4510-485a-a863-ac38dffa1908` · printing: ME3 #12 (2009-09-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guard Dogs
@@ -256,6 +259,7 @@ schema: 2
 - **Keywords:** Lifelink
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17904 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guarded-heir)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/14/guarded-heir) · oracle_id `63e79a6f-ed98-480a-a740-d44e111046f7` · printing: FDN #14 (2024-11-15) · [rulings](https://api.scryfall.com/cards/525ba5c7-3ce5-4e52-b8b5-96c9040a6738/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guard Gomazoa
@@ -319,6 +323,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-04-16* — Being a commander is not a copiable characteristic; these effects do not apply to copies of a player's commander.
   - *2021-04-16* — These effects apply to any commanders you control, not just your own commander.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guardian-augmenter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/271/guardian-augmenter) · oracle_id `d925e560-faa1-40a9-b25a-47065ee891e6` · printing: SOC #271 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Automaton
@@ -436,6 +441,7 @@ schema: 2
   - *2022-06-10* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell.
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guardian-naga--banishing-coils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/23/guardian-naga-banishing-coils) · oracle_id `67dec976-bcf5-4995-8da1-cd570862d3cf` · printing: CLB #23 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian of Cloverdell
@@ -507,6 +513,7 @@ schema: 2
   - *2022-09-09* — When a player taps a creature for an attacking creature's enlist ability, that attacking creature gets +X/+0 until end of turn, where X is the tapped creature's power. This is a triggered ability that goes on the stack immediately after attackers have been declared in the declare attackers step.
   - *2022-09-09* — You may activate Guardian of New Benalia's last ability even if it's already tapped. You may also activate that ability multiple times in the same turn, even if Guardian of New Benalia already has indestructible.
   - *2022-09-09* — You may tap only one creature for an enlist ability of an attacking creature, and a single creature can't be tapped for more than one enlist ability.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#guardian-of-new-benalia)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/19/guardian-of-new-benalia) · oracle_id `33747a34-79cc-446f-8718-b499bd497687` · printing: DMU #19 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian of Pilgrims
@@ -613,6 +620,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13161 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-01-24* — Guardian of the Gateless's last ability triggers only once when it's declared as a blocker no matter how many creatures it's blocking.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#guardian-of-the-gateless)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cn2/89/guardian-of-the-gateless) · oracle_id `e133605f-9227-42c4-afe9-6613ab095433` · printing: CN2 #89 (2016-08-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian of the Great Conduit
@@ -657,6 +665,7 @@ schema: 2
 - **Keywords:** Protection
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #28369 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guardian-of-the-guildpact)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/10/guardian-of-the-guildpact) · oracle_id `20822aa7-5f84-442d-add3-b56167e6eb38` · printing: DIS #10 (2006-05-05) · [rulings](https://api.scryfall.com/cards/c8dd004b-01e4-4fe1-a164-9f2ea8d7d88e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian of the Halls
@@ -709,6 +718,7 @@ schema: 2
   - *2019-01-25* — If the entering creature is put into your graveyard while Guardian Project's ability is on the stack, that same card will be a creature card in your graveyard that shares a name with the creature that was on the battlefield, so you won't draw a card.
   - *2019-01-25* — If the entering creature leaves the battlefield and returns while Guardian Project's ability is on the stack, that same card will be a new creature you control that shares a name with the creature that was on the battlefield, so you won't draw a card. However, Guardian Project's ability may trigger for the new creature and you may draw a card as that ability resolves.
   - *2019-01-25* — Whether the entering creature shares a name with a creature you control or a creature card in your graveyard is checked both as that creature enters and as Guardian Project's ability resolves. If the entering creature isn't the first of its name as it enters, the ability doesn't trigger at all; if its name is shared as the ability resolves, you don't draw a card.
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/G.md#guardian-project)
 - **Source flags:** [Scryfall](https://scryfall.com/card/rvr/146/guardian-project) · oracle_id `4f9e07ae-6341-4b46-9f77-f17ab659d266` · printing: RVR #146 (2024-01-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Scalelord
@@ -728,6 +738,7 @@ schema: 2
   - *2023-04-14* — If a backup ability targets the creature with backup, that creature will get +1/+1 counters, but it won't gain additional abilities.
   - *2023-04-14* — If a permanent enters the battlefield as a copy of a card with a backup ability or a token is created that is a copy of that card, the order of the printed abilities is maintained.
   - *2023-04-14* — The abilities that backup grants to the target creature are determined only once, at the time the ability triggers. They won't change if the permanent with backup loses any abilities before the backup ability resolves.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#guardian-scalelord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/149/guardian-scalelord) · oracle_id `d6c7d7a6-2d38-4c06-ab83-bee9cc18de52` · printing: SOC #149 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guardian Seraph
@@ -917,6 +928,7 @@ schema: 2
   - *2015-02-25* — If a face-down creature with megamorph is turned face up some other way (for example, if you manifest a card with megamorph and then pay its mana cost to turn it face up), you won’t put a +1/+1 counter on it.
   - *2015-02-25* — Megamorph is a variant of the morph ability. You can find more information on morph on cards with morph from the Khans of Tarkir set.
   - *2015-02-25* — Turning a face-down creature with megamorph face up and putting a +1/+1 counter on it is a special action. It doesn’t use the stack and can’t be responded to.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gudul-lurker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dtk/56/gudul-lurker) · oracle_id `bde976c6-afed-44bb-8e3d-4103289dff5e` · printing: DTK #56 (2015-03-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guerrilla Gorilla
@@ -1046,6 +1058,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12230 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2017-11-17* — If the creature is an illegal target when Guided Strike tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw a card.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/G.md#guided-strike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/23/guided-strike) · oracle_id `a215e813-df7e-4f21-9718-eb264eb62813` · printing: IMA #23 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guidelight Matrix
@@ -1125,6 +1138,7 @@ schema: 2
   - *2024-06-07* — The type-changing effect of the reflexive triggered ability lasts indefinitely. It doesn't wear off during the cleanup step or when Guide of Souls leaves the battlefield.
   - *2024-06-07* — You don't choose a target for Guide of Souls's last ability at the time it triggers. Rather, a second "reflexive" ability triggers when you pay {E}{E}{E} this way. You choose a target for that ability as it goes on the stack. Each player may respond to this triggered ability as normal.
   - *2024-06-07* — {E} is the energy symbol. It represents one energy counter.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guide-of-souls)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/29/guide-of-souls) · oracle_id `b304ac72-7f40-40de-b8d6-6392909b6029` · printing: MH3 #29 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guiding Bolt
@@ -1137,6 +1151,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18103 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guiding-bolt)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/24/guiding-bolt) · oracle_id `b433cf1f-a7f3-4b68-8bfb-e4196f6e3a12` · printing: CLB #24 (2022-06-10) · [rulings](https://api.scryfall.com/cards/cd552f81-1947-47e0-beee-f04e73551055/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guiding Hydra
@@ -1151,6 +1166,7 @@ schema: 2
   > *It hands direction to straying minds.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17421 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#guiding-hydra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/11/guiding-hydra) · oracle_id `24f1445c-16c9-45c0-be56-0266e6c78cdb` · printing: FRA #11 (2026-10-02) · [rulings](https://api.scryfall.com/cards/a53eb840-039d-4c45-b701-d58cb26b1a6c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guiding Spirit
@@ -1209,6 +1225,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won't have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won't usually be a creature anyway).
   - *2022-06-10* — The ability granted by Guild Artisan is looking to see if any of the attacking player's opponents have a higher life total than that defending player. The attacking player's life total is not included in this comparison.
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/G.md#guild-artisan)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/179/guild-artisan) · oracle_id `aceac269-5100-428a-a4a3-bac57031e30b` · printing: CLB #179 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guilded Lotus
@@ -1404,6 +1421,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6907 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2013-04-15* — An ability that triggers when something “attacks and isn't blocked” triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/G.md#guiltfeeder)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/756/guiltfeeder) · oracle_id `0285bd20-f49e-48f7-8c8c-960f9fbe4d34` · printing: CLB #756 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guilty Conscience
@@ -1470,6 +1488,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gulping-scraptrap)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/96/gulping-scraptrap) · oracle_id `d9e48750-d930-4095-abf0-dec2ac53be81` · printing: ONE #96 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guma
@@ -1529,6 +1548,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gumdrop-poisoner--tempt-with-treats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/93/gumdrop-poisoner-tempt-with-treats) · oracle_id `4f5ebbb8-f49b-488f-bb85-888aaa918bdd` · printing: WOE #93 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gundabad Opportunist
@@ -1558,6 +1578,7 @@ schema: 2
   - *2019-11-12* — For effects that look for or modify the creation of tokens, creating token cards isn’t the same as creating tokens.
   - *2019-11-12* — If a token card is put into a hidden zone, you must use a supplementary token card with a Magic card back to represent it. Since these don’t exist yet, you may need to be creative.
   - *2019-11-12* — Unlike a normal token, a token card doesn’t cease to exist in a zone other than the battlefield. It’s both a token and a card. It can move between zones any number of times and continues to exist for the rest of the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gunk-slug)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/43/gunk-slug) · oracle_id `638cb447-6648-4697-86b3-65a3f51ca95d` · printing: CMB2 #43 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gunner Conscript
@@ -1723,6 +1744,7 @@ schema: 2
   > *Don't trust your secrets to the sea.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6151 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gush)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jvc/27/gush) · oracle_id `16d8ee99-8ec8-429f-9ba7-818a74b6f910` · printing: JVC #27 (2014-12-05) · [rulings](https://api.scryfall.com/cards/d4a3a921-3b7f-474c-b8c3-67a1a6ba5cc1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gustcloak Cavalier
@@ -1916,6 +1938,7 @@ schema: 2
   > *—Garza Zol, plague queen*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22561 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gutless-ghoul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/60/gutless-ghoul) · oracle_id `5ebc166d-98c5-4ab7-9610-bc5bcd231d80` · printing: CSP #60 (2006-07-21) · [rulings](https://api.scryfall.com/cards/b8bb97ce-d9cf-47db-93cb-02745ebeb05e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gutless Plunderer
@@ -2001,6 +2024,7 @@ schema: 2
   - *2011-09-22* — If Gutter Grime leaves the battlefield, the power and toughness of each Ooze token it created will become 0. Unless another effect is raising its toughness above 0, each of these Ooze tokens will be put into its owner's graveyard the next time state-based actions are checked.
   - *2011-09-22* — If you control more than one Gutter Grime, each Ooze token remembers which one created it. The power and toughness of that Ooze will be equal to the number of slime counters on that Gutter Grime only.
   - *2011-09-22* — The power and toughness of the Ooze tokens will constantly update as Gutter Grime accumulates slime counters.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#gutter-grime)
 - **Source flags:** [Scryfall](https://scryfall.com/card/isd/186/gutter-grime) · oracle_id `0b8adb9e-97a5-43d9-87d6-993f22edaf3b` · printing: ISD #186 (2011-09-30) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gutter Skulk
@@ -2051,6 +2075,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — Guttersnipe's triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered or otherwise leaves the stack without resolving.
   - *2024-11-08* — In a Two-Headed Giant game, Guttersnipe's ability causes the opposing team to lose 4 life.
+- **Referenced in:** 9 pages (4 decks · 4 edh guides · 1 card data) → [reverse index](../../references/G.md#guttersnipe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hoc/196/guttersnipe) · oracle_id `c6bdaf76-6a03-4695-9c4b-f040e73435af` · printing: HOC #196 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gut, True Soul Zealot
@@ -2081,6 +2106,7 @@ schema: 2
   - *2022-06-10* — Once the game begins, your two commanders are tracked separately. If you cast one, you won’t have to pay an additional {2} the first time you cast the other. A player loses the game after having been dealt 21 combat damage from any one of them, not from both of them combined (although your Background won’t usually be a creature anyway).
   - *2022-06-10* — You can choose two commanders that are the same color or colors.
   - *2022-06-10* — You choose the player or planeswalker the Skeleton is attacking.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/G.md#gut-true-soul-zealot)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/180/gut-true-soul-zealot) · oracle_id `60e7130a-d321-4e50-93a4-999013c76054` · printing: CLB #180 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Guttural Response

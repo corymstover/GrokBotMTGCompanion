@@ -314,6 +314,7 @@ schema: 2
   > *—Keni-Keni, akki smith*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12521 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#akki-ronin)
 - **Source flags:** [Scryfall](https://scryfall.com/card/neo/131/akki-ronin) · oracle_id `4b4c76e1-c480-4d10-93d4-483ef2debc4b` · printing: NEO #131 (2022-02-18) · [rulings](https://api.scryfall.com/cards/96f15754-1ca6-45b0-a7de-2fe507df2a1a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akki Scrapchomper
@@ -449,6 +450,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#akoum-hellhound)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/133/akoum-hellhound) · oracle_id `05074b68-6b31-4f9f-b3ec-bffe3e7eab47` · printing: ZNR #133 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Hellkite
@@ -492,6 +494,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#akoum-stonewaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/140/akoum-stonewaker) · oracle_id `36d1a46e-44ac-4a65-a93c-8d6ab5c31cbf` · printing: BFZ #140 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akoum Warrior // Akoum Teeth
@@ -578,6 +581,7 @@ schema: 2
   - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/A.md#akroan-crusader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/121/akroan-crusader) · oracle_id `d981d85c-e97b-4fe7-b415-6e73a3e7e35c` · printing: UMA #121 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Hoplite
@@ -609,6 +613,7 @@ schema: 2
 - **Rulings** (2):
   - *2013-09-15* — Akroan Horse's enters-the-battlefield ability doesn't target any opponent. In a multiplayer game, you choose the opponent as the ability resolves.
   - *2013-09-15* — In the last ability, “each opponent” refers to opponents of Akroan Horse's controller. In most situations in two-player games, your opponent will control Akroan Horse and you'll put Soldier tokens onto the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/A.md#akroan-horse)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c16/241/akroan-horse) · oracle_id `8d0213d7-9e25-49d2-93fa-1d346cb2e869` · printing: C16 #241 (2016-11-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroan Jailer
@@ -774,6 +779,7 @@ schema: 2
   > *—Memorial inscription*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1211 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#akromas-memorial)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/262/akromas-memorial) · oracle_id `967e8b3f-8266-4d9a-a38b-d0e10184e1e4` · printing: TSR #262 (2021-03-19) · [rulings](https://api.scryfall.com/cards/950ee61d-0bc1-4d7b-ba68-157061aa98eb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Vengeance
@@ -789,6 +795,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6523 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-10-01* — Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/A.md#akromas-vengeance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c20/74/akromas-vengeance) · oracle_id `ae19dce5-c9fc-4fbe-99b5-dc6a12124a68` · printing: C20 #74 (2020-04-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma's Will
@@ -807,6 +814,7 @@ schema: 2
   - *2020-11-10* — The commander you control doesn't have to be your commander.
   - *2020-11-10* — There's no extra bonus if you control more than one commander.
   - *2025-11-17* — "Protection from each color" is shorthand for protection from white, from blue, from black, from red, and from green. Colorless is not a color.
+- **Referenced in:** 8 pages (3 decks · 3 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#akromas-will)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/125/akromas-will) · oracle_id `fd949f82-fc10-4e37-8aa9-6c7569fe3c55` · printing: LCC #125 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Akroma, Vision of Ixidor

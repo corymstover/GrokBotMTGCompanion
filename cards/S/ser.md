@@ -133,6 +133,7 @@ schema: 2
   - *2025-06-06* — The cost reduction applies only to generic mana in the total cost of legendary creature spells you cast.
   - *2025-06-06* — The mana value of a nonmodal double-faced card is the mana value of its front face, no matter which face is up.
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as a flashback cost), add any cost increases (such as kicker costs), then apply any cost reductions (such as that of Serah Farron or Crystallized Serah's first abilities). The mana value of the spell is determined by only its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#serah-farron--crystallized-serah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/240/serah-farron-crystallized-serah) · oracle_id `a8a7a3b7-015c-4fbd-8b90-e0ddf71663e4` · printing: FIN #240 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seraph
@@ -189,6 +190,7 @@ schema: 2
   - *2024-04-12* — You may activate a permanent’s saddle ability even if that permanent is already saddled.
   - *2024-04-12* — “Saddle N” means “Tap any number of other untapped creatures you control with total power N or greater: This permanent becomes saddled until end of turn. Activate only as a sorcery.”
   - *2024-04-12* — “Saddled” isn’t an ability that a creature has. It’s just something true about that creature. It won’t stop being saddled until the turn ends or it leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seraphic-steed)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/232/seraphic-steed) · oracle_id `51622e89-aa5e-4dd6-a078-eb45e8ebb434` · printing: OTJ #232 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seraph of Dawn
@@ -307,6 +309,7 @@ schema: 2
   > {T}: Add {C}.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2143 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#seraph-sanctuary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ddq/33/seraph-sanctuary) · oracle_id `0b504dc6-61cc-4a72-907c-145fa4c72466` · printing: DDQ #33 (2016-02-26) · [rulings](https://api.scryfall.com/cards/e1c1fa29-362f-40b4-b67f-513f6592fb3b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serendib Djinn
@@ -642,6 +645,7 @@ schema: 2
   - *2015-08-25* — If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid.
   - *2015-08-25* — If one or two of those targets become illegal by the time Serpentine Spike resolves, you can’t change how much damage will be dealt to the remaining legal targets.
   - *2015-08-25* — Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#serpentine-spike)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bfz/133/serpentine-spike) · oracle_id `c983644d-6741-4aa1-aa68-a6e680c26bb6` · printing: BFZ #133 (2015-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serpent of the Endless Sea
@@ -670,6 +674,7 @@ schema: 2
 - **Rulings** (2):
   - *2025-10-02* — Serpent of the Pass's second ability cannot reduce the {U}{U} in its cost.
   - *2025-10-02* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases, then apply any cost reductions (such as that of Serpent of the Pass's second ability). The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast that spell was.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#serpent-of-the-pass)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/70/serpent-of-the-pass) · oracle_id `98e36c6e-a868-4679-a5b5-6f02097f560b` · printing: TLA #70 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serpent of Yawning Depths
@@ -684,6 +689,7 @@ schema: 2
   > *—Siona, captain of the \*Pyleas\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4638 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#serpent-of-yawning-depths)
 - **Source flags:** [Scryfall](https://scryfall.com/card/thb/291/serpent-of-yawning-depths) · oracle_id `d31c6043-e005-4efe-9aa7-d82cb122eebe` · printing: THB #291 (2020-01-24) · [rulings](https://api.scryfall.com/cards/a4ac18ae-0d1e-43f5-9cc9-722fa6e36fe5/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serpent's Gift
@@ -800,6 +806,7 @@ schema: 2
 - **Keywords:** Flying, Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9464 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#serra-angel)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/740/serra-angel) · oracle_id `4b7ac066-e5c7-43e6-9e7e-2739b24a905d` · printing: FDN #740 (2026-04-24) · [rulings](https://api.scryfall.com/cards/b8c5e74c-96e7-4a1f-93b7-14d776fe4b2d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra Ascendant
@@ -817,6 +824,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-11-17* — If Serra Ascendant is dealt damage at the same time that you gain life (most likely because it dealt combat damage to a creature blocking or blocked by it), and your life total becomes 30 or greater, apply its last effect before considering whether or not the damage dealt to it is lethal.
   - *2017-11-17* — In a Two-Headed Giant game, anything that cares about your life total checks your team’s life total. Serra Ascendant gets +5/+5 and has flying as long as your team has 30 or more life.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#serra-ascendant)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ima/31/serra-ascendant) · oracle_id `27ad3e00-6ffb-48f7-8469-8868d066d1e2` · printing: IMA #31 (2017-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra Avatar
@@ -852,6 +860,7 @@ schema: 2
   - *2006-09-25* — You can cast Serra Avenger during another player's first, second, or third turns of the game if some other effect (such as Vedalken Orrery) enables that.
   - *2012-07-01* — If the game is restarted (by Karn Liberated), you can't cast Serra Avenger in your first, second, or third turn in the new game.
   - *2012-07-01* — Serra Avenger cares about how many turns you have taken, not necessarily how many turns the game has had, in case you take an extra turn.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#serra-avenger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/41/serra-avenger) · oracle_id `b91b65b3-b35c-460e-a49b-333000a9a519` · printing: TSR #41 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra Aviary
@@ -939,6 +948,7 @@ schema: 2
 - **Keywords:** Flying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3394 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/S.md#serra-paragon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soc/169/serra-paragon) · oracle_id `ecd8d7f4-7b11-4097-afc0-ef3c81edd90c` · printing: SOC #169 (2026-04-24) · [rulings](https://api.scryfall.com/cards/8e77a410-a053-4349-950c-d59e76b17923/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra Redeemer
@@ -1014,6 +1024,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-06-18* — The card type choice is a replacement effect, not a triggered ability. It doesn't use the stack and can't be responded to. Notably, if you choose instant, your opponent can't try to cast an instant on the Emissary before it has protection.
   - *2021-06-18* — You may choose any card type. The ones that may appear in a normal game of Magic are artifact, battle, creature, enchantment, instant, kindred, land, planeswalker, and sorcery. Supertypes such as snow and basic may not be chosen. Subtypes such as Angel, Aura, and Forest also may not be chosen.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#serras-emissary)
 - **Source flags:** [Scryfall](https://scryfall.com/card/frc/32/serras-emissary) · oracle_id `7a56c6e1-0509-4783-9b29-cf3163977166` · printing: FRC #32 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra's Guardian
@@ -1031,6 +1042,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9225 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2019-07-12* — A creature losing vigilance after it has attacked (most likely because Serra’s Guardian leaves the battlefield) won’t cause it to become tapped.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#serras-guardian)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m20/310/serras-guardian) · oracle_id `c50cd7e7-8d53-44af-ac96-3e104587bdb3` · printing: M20 #310 (2019-07-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra's Hymn
@@ -1083,6 +1095,7 @@ schema: 2
   > *A fragile cocoon of dreaming will.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3099 · Game Changer: **yes** · Can be commander: No · Reserved List
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (1 edh guides · 3 card data) → [reverse index](../../references/S.md#serras-sanctum)
 - **Source flags:** [Scryfall](https://scryfall.com/card/usg/325/serras-sanctum) · oracle_id `34187c71-6033-4058-aadc-2bc266f762be` · printing: USG #325 (1998-10-12) · [rulings](https://api.scryfall.com/cards/f7a18130-dbaa-4657-a885-3a96a985935a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serrated Arrows
@@ -1144,6 +1157,7 @@ schema: 2
   - *2019-06-14* — Serra's emblem doesn't prevent damage. It only changes the result of damage dealt to you. For example, a creature with lifelink that deals damage to you will still cause its controller to gain life, even if that damage would reduce your life total to less than 1.
   - *2019-06-14* — Serra's emblem doesn't stop loss of life from effects that say that you lose life.
   - *2019-06-14* — Serra's first ability affects only creatures you control with flying at the time it resolves. Creatures you begin to control later in the turn or that gain flying later in the turn won't get +1/+1.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/S.md#serra-the-benevolent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/26/serra-the-benevolent) · oracle_id `8b0e2382-dd91-42e6-aba3-5e8a15418a49` · printing: MH1 #26 (2019-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serra Zealot
@@ -1221,6 +1235,7 @@ schema: 2
   - *2023-02-04* — Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.
   - *2023-02-04* — To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.
   - *2023-02-04* — You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since "any number" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#serum-snare)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/68/serum-snare) · oracle_id `fbc7350c-d392-44bf-92f7-8dd4743a73b4` · printing: ONE #68 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serum Sovereign
@@ -1249,6 +1264,7 @@ schema: 2
   > {3}, {T}, Remove a charge counter from this artifact: Draw a card.
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #23346 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#serum-tank)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hop/125/serum-tank) · oracle_id `62a3f892-11cf-4064-8186-381ae0f9aa23` · printing: HOP #125 (2009-09-04) · [rulings](https://api.scryfall.com/cards/0a2ad5c8-0dca-4082-97b9-3d788f553cdf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Serum Visionary
@@ -1274,6 +1290,7 @@ schema: 2
 - **Keywords:** Scry
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #890 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 4 pages (3 decks · 1 card data) → [reverse index](../../references/S.md#serum-visions)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/112/serum-visions) · oracle_id `56956afd-db53-4542-816b-490c8b0bbcf7` · printing: OTC #112 (2024-04-19) · [rulings](https://api.scryfall.com/cards/5b75eb6b-d76c-4b92-b042-13493f9ef164/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Servant of Nefarox
@@ -1341,6 +1358,7 @@ schema: 2
   - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#servant-of-the-stinger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/105/servant-of-the-stinger) · oracle_id `0c9ec9a1-738a-4f69-b367-5dbf3d046bf1` · printing: OTJ #105 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Servant of Tymaret

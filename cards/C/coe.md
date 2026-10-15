@@ -58,6 +58,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — Coerced to Kill overwrites all previous effects that set the creature's base power and toughness to specific values. Any power- or toughness-setting effects that start to apply after the ability resolves will overwrite this effect.
   - *2024-02-02* — Effects that modify a creature's power and/or toughness, such as the effect of Auspicious Arrival, will apply to the creature no matter when they started to take effect. The same is true for any counters that change its power and/or toughness and effects that switch its power and toughness.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#coerced-to-kill)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/192/coerced-to-kill) · oracle_id `3a007dbd-18fd-44d1-a305-7cc8dd6231eb` · printing: MKM #192 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercion
@@ -71,6 +72,7 @@ schema: 2
   > *—Volrath*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22772 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#coercion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tpr/86/coercion) · oracle_id `68413337-ddb9-46f8-8c8e-f3d2d672c652` · printing: TPR #86 (2015-05-06) · [rulings](https://api.scryfall.com/cards/8c0459ca-1646-46a0-9fc2-709b321bb41f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coercive Impetus
@@ -120,6 +122,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Coercive Recruiter's ability can target any creature, even one that's untapped or one you already control. It can even target itself or the creature that caused the ability to trigger.
   - *2020-11-10* — Gaining control of a creature doesn't cause you to gain control of any Auras or Equipment attached to it.
+- **Referenced in:** 3 pages (3 decks) → [reverse index](../../references/C.md#coercive-recruiter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/222/coercive-recruiter) · oracle_id `ad33530c-a8df-4c1c-a863-501e583290b6` · printing: LCC #222 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Coeurl

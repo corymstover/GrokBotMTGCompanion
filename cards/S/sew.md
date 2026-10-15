@@ -91,6 +91,7 @@ schema: 2
   > *—Suq'Ata insult*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #22452 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sewer-rats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mir/139/sewer-rats) · oracle_id `bf526a0d-65cc-445f-b2b8-19a2cfdd836b` · printing: MIR #139 (1996-10-08) · [rulings](https://api.scryfall.com/cards/42fe08c3-5024-486c-ba03-19d371ceccb0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewer Shambler
@@ -132,6 +133,7 @@ schema: 2
 - **Keywords:** Flash
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #9008 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#sewer-veillance-cam)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tmt/53/sewer-veillance-cam) · oracle_id `25c83d45-581f-48ba-b6bb-feb66e8a65c7` · printing: TMT #53 (2026-03-06) · [rulings](https://api.scryfall.com/cards/ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sewn-Eye Drake

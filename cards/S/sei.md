@@ -62,6 +62,7 @@ schema: 2
   - *2025-06-06* — If a card in your graveyard has {X} in its mana cost, X is 0 for the purpose of determining its mana value and you must choose 0 as the value of X when casting it without paying its mana cost.
   - *2025-06-06* — If you cast a spell "without paying its mana cost," you can't choose to cast it for any alternative costs. You can, however, pay additional costs. If the card has any mandatory additional costs, you must pay those to cast the spell.
   - *2025-06-06* — You cast the instant or sorcery while Seifer Almasy's last ability is resolving and still on the stack. You can't wait to cast it later in the turn. Timing restrictions based on the card's type are ignored.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seifer-almasy)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/156/seifer-almasy) · oracle_id `7088a901-0489-41c3-9f2f-633939514de8` · printing: FIN #156 (2025-06-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seifer, Balamb Rival
@@ -97,6 +98,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13658 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-12-07* — If an effect instructs you to draw cards and then discard cards, you can't take actions in between. For example, if you have no cards in hand and cast Faithless Looting, you can't activate Seismic Assault's ability between the time you draw two cards and discard those two cards.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#seismic-assault)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/146/seismic-assault) · oracle_id `8ad4f2fe-6d98-4279-a331-3817d40ae46d` · printing: UMA #146 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Elemental
@@ -163,6 +165,7 @@ schema: 2
   > *"Even though I was born blind, I've never had a problem seeing ... I feel the vibrations in the earth, and I can 'see' where everything is."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4450 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seismic-sense)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/195/seismic-sense) · oracle_id `9d586c74-b1dd-4fcb-a24a-c703d250fa63` · printing: TLA #195 (2025-11-21) · [rulings](https://api.scryfall.com/cards/a7b93c2a-c478-4734-8aca-03f3e9c11b20/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Shift
@@ -243,6 +246,7 @@ schema: 2
 - **Keywords:** Enchant, Double
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11141 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seismic-tutelage)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/254/seismic-tutelage) · oracle_id `7ece47b1-0b4b-40ac-a90f-4573a8e3b8bd` · printing: TLE #254 (2025-11-21) · [rulings](https://api.scryfall.com/cards/7e6939a5-0890-4c2f-b517-7d16f6490e76/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seismic Wave
@@ -269,6 +273,7 @@ schema: 2
   > *—Kiku, Night's Flower*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3716 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#seizan-perverter-of-truth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/chk/143/seizan-perverter-of-truth) · oracle_id `04d0d20f-720e-4cb6-a3ad-ea2b57bb7efa` · printing: CHK #143 (2004-10-01) · [rulings](https://api.scryfall.com/cards/e1e61750-f7d7-4e6d-9d68-e1e357868a8d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seized from Slumber
@@ -318,6 +323,7 @@ schema: 2
   - *2021-03-19* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2021-03-19* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2021-03-19* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/S.md#seize-the-day)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/166/seize-the-day) · oracle_id `2a6abd59-e448-46f1-9af8-bb9040645971` · printing: MSC #166 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Initiative
@@ -349,6 +355,7 @@ schema: 2
   - *2024-04-12* — Changing the target or targets of a spell or ability won’t affect whether or not the controller of that spell or ability has committed a crime. Only the initial targets chosen for that spell or ability are used to determine whether or not its controller committed a crime.
   - *2024-04-12* — For example, an ability that triggers when you cast a spell that targets an opponent will trigger at the same time as an ability that triggers whenever you commit a crime. Those abilities can be put on the stack in either order (if you control them both), and they’ll both resolve before the spell that caused them to trigger.
   - *2024-04-12* — The spell or ability that constituted a crime doesn’t have to have resolved yet or at all. As soon as you’re finished casting the spell, activating the ability, or putting the triggered ability on the stack, you’ve committed a crime.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/S.md#seize-the-secrets)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/64/seize-the-secrets) · oracle_id `db070312-9a27-435f-8b23-e538441103ec` · printing: OTJ #64 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Soul
@@ -364,6 +371,7 @@ schema: 2
 - **Rulings** (2):
   - *2006-02-01* — A "nonwhite nonblack" creature is a creature that's neither white nor black. It can be any other color or combination of colors, or it can be colorless.
   - *2006-02-01* — If you can't choose a nonwhite nonblack creature to target when the haunted creature is put into a graveyard, or if the target becomes illegal, you don't get a token.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#seize-the-soul)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gpt/61/seize-the-soul) · oracle_id `91557f08-15b1-4e3e-90fd-cec35ed0868a` · printing: GPT #61 (2006-02-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Spoils
@@ -380,6 +388,7 @@ schema: 2
 - **Rulings** (2):
   - *2021-02-05* — You must discard exactly one card to cast Seize the Spoils; you can't cast it without discarding a card, and you can't discard additional cards.
   - *2026-03-20* — You must discard exactly one card to cast Seize the Spoils; you can't cast it without discarding a card, and you can't discard additional cards.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seize-the-spoils)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sos/129/seize-the-spoils) · oracle_id `58f83528-9110-4895-b5ea-51b90af30a8d` · printing: SOS #129 (2026-04-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Spotlight
@@ -391,6 +400,7 @@ schema: 2
 - **Keywords:** Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1767 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/S.md#seize-the-spotlight)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otc/179/seize-the-spotlight) · oracle_id `3d1b09a3-f151-4218-974b-02bb6159247a` · printing: OTC #179 (2024-04-19) · [rulings](https://api.scryfall.com/cards/01fe0af9-55b4-4390-8de4-2cd58aa7efde/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seize the Storm
@@ -412,6 +422,7 @@ schema: 2
   - *2025-06-06* — To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you're paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was.
   - *2025-06-06* — You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast.
   - *2025-06-06* — You must still follow any timing restrictions and permissions, including those based on the card's type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#seize-the-storm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/170/seize-the-storm) · oracle_id `d3455e93-3a05-42db-945d-c4c85f4ac827` · printing: INR #170 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Seizures

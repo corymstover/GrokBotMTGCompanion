@@ -73,6 +73,7 @@ schema: 2
   - *2020-09-25* — The mana value of a modal double-faced card is based on the characteristics of the face that's being considered. On the stack and battlefield, consider whichever face is up. In all other zones, consider only the front face. This is different than how the mana value of a transforming double-faced card is determined.
   - *2020-09-25* — There is a single triangle icon in the top left corner of the front face. There is a double triangle icon in the top left corner of the back face.
   - *2020-09-25* — To determine whether it is legal to play a modal double-faced card, consider only the characteristics of the face you're playing and ignore the other face's characteristics.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/S.md#sejiri-shelter--sejiri-glacier)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/37/sejiri-shelter-sejiri-glacier) · oracle_id `d54e4e37-042b-44a5-918d-757308545d4d` · printing: ZNR #37 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sejiri Steppe

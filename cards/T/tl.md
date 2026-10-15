@@ -36,6 +36,7 @@ schema: 2
   - *2024-11-08* — Playtest cards use a modified version of game symbols, such as {T} and {W}. These modified symbols should be treated as the standard symbols during play.
   - *2024-11-08* — Yes, a keyword action is technically also a keyword, but it’s not possible for a creature to have a keyword action without having some other ability.
   - *2024-11-08* — You can target a creature with no abilities other than keywords with TL;DR, but when TL;DR resolves, it won’t exile that creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tldr)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/553/tl;dr) · oracle_id `071de5f6-4b88-421c-847c-14efa774268d` · printing: MB2 #553 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Tlincalli Hunter // Retrieve Prey
@@ -63,4 +64,5 @@ schema: 2
   - *2022-06-10* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2022-06-10* — You must pay all costs and follow all normal timing rules when casting a creature card from exile with Retrieve Prey. Normally, this means you may only cast that card during a main phase of your turn while the stack is empty.
   - *2022-06-10* — You must still follow any relevant timing rules for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/T.md#tlincalli-hunter--retrieve-prey)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/682/tlincalli-hunter-retrieve-prey) · oracle_id `79b69b38-c01d-499a-a865-8c1cecf9fae0` · printing: CLB #682 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

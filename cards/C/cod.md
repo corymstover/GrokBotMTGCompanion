@@ -117,6 +117,7 @@ schema: 2
   - *2026-08-21* — Only the current controller of a prepared creature can cast the copy of its prepare spell in exile. It doesn't matter who owns that creature or who controlled it when it became prepared.
   - *2026-08-21* — Preparation cards can be cast only with their base characteristics.
   - *2026-08-21* — While copies of spells in zones other than the stack cease to exist when state-based actions are checked, this does not apply to copies of prepare spells in exile that were created as a creature became prepared.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#codie-ravenous-codex)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fra/168/codie-ravenous-codex) · oracle_id `a17e414c-8de0-47fd-bcbc-540c7fec7642` · printing: FRA #168 (2026-10-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Codie, Vociferous Codex

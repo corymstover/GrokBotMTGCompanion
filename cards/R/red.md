@@ -171,6 +171,7 @@ schema: 2
   > *By the battle of Red Cliffs in the year 208, the Wu kingdom controlled more than seven thousand warships on the Yangtze.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #31199 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#red-cliffs-armada)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me2/62/red-cliffs-armada) · oracle_id `063884e0-1f5e-4be9-930b-e73895b2fa41` · printing: ME2 #62 (2008-09-22) · [rulings](https://api.scryfall.com/cards/d0391b4f-e819-409a-9e81-1bff932808e7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Death, Shipwrecker
@@ -247,6 +248,7 @@ schema: 2
   > *Nothing restrains a burning passion.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #450 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 12 pages (9 decks · 2 edh guides · 1 card data) → [reverse index](../../references/R.md#red-elemental-blast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/a25/147/red-elemental-blast) · oracle_id `bb329a5c-b9f9-4973-a53f-090024146325` · printing: A25 #147 (2018-03-16) · [rulings](https://api.scryfall.com/cards/70a45e9b-699e-425a-9f3d-267274830d3e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redemption Arc
@@ -307,6 +309,7 @@ schema: 2
 - **Keywords:** Ward
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12461 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/R.md#red-ghost-intangible-genius)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/92/red-ghost-intangible-genius) · oracle_id `9984d950-29dc-4d6b-8750-8d1bf86ea98f` · printing: MSC #92 (2026-06-26) · [rulings](https://api.scryfall.com/cards/35bae013-51e9-4047-91e3-3b366ad0764e/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Guardian, Super-Soldier
@@ -338,6 +341,7 @@ schema: 2
   - *2019-11-12* — If Red Herring leaves your hand before its ability resolves, you can’t exchange it or change the target of a spell.
   - *2019-11-12* — If the returned object was attacking or blocking, so is Red Herring. If it was tapped, face down, or flipped, so is Red Herring.
   - *2019-11-12* — You reveal Red Herring in your hand as you activate its ability, but you choose which spell or permanent to exchange as the ability resolves. No player may take actions between the time you choose a spell or permanent and the time you make the exchange.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/R.md#red-herring-cmb2-62)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/62/red-herring) · oracle_id `0e99efaf-6402-44c5-ae8b-1f5bb1b68333` · printing: CMB2 #62 (2021-08-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Red Herring (MKM #142)
@@ -418,6 +422,7 @@ schema: 2
   - *2025-10-02* — If a spell or ability targets multiple things, you can't target it with Redirect Lightning, even if all but one of those targets have become illegal.
   - *2025-10-02* — If a spell or ability targets the same player or object multiple times, you can't target it with Redirect Lightning.
   - *2025-10-02* — You don't choose the new target for the spell or ability until Redirect Lightning resolves. You must change the target if possible. However, you can't change the target to an illegal target. If there are no legal targets to choose from, the target isn't changed. It doesn't matter if the original target has somehow become illegal itself.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/R.md#redirect-lightning)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/151/redirect-lightning) · oracle_id `c62b5c22-e058-436f-9575-a01cb2112829` · printing: TLA #151 (2025-11-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rediscover the Way
@@ -518,6 +523,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-09-20* — If an Aura is being put onto the battlefield at the same time as a creature, that Aura can't enchant that creature.
   - *2024-09-20* — If an Aura is put onto the battlefield without being cast, the Aura's controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn't target anything (so it could be attached to an opponent's permanent with hexproof, for example), but the Aura's enchant ability restricts what it can be attached to. If the Aura can't legally be attached to anything, it remains in its current zone.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/R.md#redress-fate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/9/redress-fate) · oracle_id `e8ff6780-5f22-42fa-a7c1-7406e8203063` · printing: DSC #9 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Redrock Sentinel

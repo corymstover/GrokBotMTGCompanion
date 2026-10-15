@@ -131,6 +131,7 @@ schema: 2
   - *2025-07-25* — If the copied permanent is a token, the tokens that are created copy the original characteristics of that token as stated by the effect that created the token.
   - *2025-07-25* — If the copied permanent is copying something else, then the tokens enter as whatever that permanent copied.
   - *2025-07-25* — The tokens copy exactly what was printed on the original permanent and nothing else (unless that permanent is itself copying something else; see below). They don’t copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on. If the permanent is a Vehicle, the copies are not crewed. If it is an Equipment, the copies are not attached to any creature.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devastating-onslaught)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/132/devastating-onslaught) · oracle_id `2e17cd4c-ebf0-40d0-b52d-b4d84bbcf7b3` · printing: EOE #132 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastating Summons
@@ -145,6 +146,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #21505 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2010-06-15* — You may sacrifice zero lands as you cast Devastating Summons. If you do, you'll put two 0/0 creature tokens onto the battlefield as the spell resolves. Unless some effect (such as the one from Glorious Anthem) is boosting their toughness, they'll be put into the graveyard as a state-based action. Abilities that trigger when a creature enters will trigger, as will those that trigger when a creature leaves the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devastating-summons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/roe/140/devastating-summons) · oracle_id `5eb6626a-1e0a-438e-9e95-a1e86be6489d` · printing: ROE #140 (2010-04-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devastation
@@ -182,6 +184,7 @@ schema: 2
   - *2018-07-13* — You cast the card with miracle during the resolution of the triggered ability. Ignore any timing rules based on the card's type.
   - *2018-07-13* — You don't have to reveal a drawn card with miracle if you don't wish to cast it at that time.
   - *2018-07-13* — You still draw the card, whether you use the miracle ability or not. Any ability that triggers whenever you draw a card, for example, will trigger. If you don't cast the card using its miracle ability, it will remain in your hand.
+- **Referenced in:** 2 pages (1 edh guides · 1 rules) → [reverse index](../../references/D.md#devastation-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/c18/85/devastation-tide) · oracle_id `4245ee98-2d4c-49d1-8d07-80760cae2bf9` · printing: C18 #85 (2018-08-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Deviant Glee
@@ -213,6 +216,7 @@ schema: 2
 - **Keywords:** Trample
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11781 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devil-dinosaur)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/719/devil-dinosaur) · oracle_id `08de884f-1930-43d6-8c23-04353a136b4e` · printing: MSC #719 (2026-06-26) · [rulings](https://api.scryfall.com/cards/fcb4c268-441f-41cf-8c25-538eefc6a710/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devilish Valet
@@ -350,6 +354,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #18359 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — The permanent affected by this ability can’t be targeted by instant and sorcery spells and (if it’s a creature) all damage from instant and sorcery spells will be prevented.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devoted-caretaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ody/18/devoted-caretaker) · oracle_id `654bcf7f-9325-4a4b-8a50-41fdd2b7e514` · printing: ODY #18 (2001-10-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Crop-Mate
@@ -387,6 +392,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-12-07* — If you can't put -1/-1 counters on Devoted Druid (due to an effect such as that of Solemnity), you can't activate its second ability. If you can put counters on it, but that is modified by an effect (such as that of Vizier of Remedies), you can activate the ability even if paying the cost causes no counters to be put on Devoted Druid.
   - *2018-12-07* — You put the -1/-1 counter on Devoted Druid as a cost to activate its ability, not when it resolves. If paying the cost causes Devoted Druid to have 0 toughness, it's put into your graveyard before you can untap it and before you can even pay the cost again.
+- **Referenced in:** 3 pages (1 edh guides · 2 card data) → [reverse index](../../references/D.md#devoted-druid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ecc/104/devoted-druid) · oracle_id `cb814e16-acf7-41d5-a357-1323dcc369f3` · printing: ECC #104 (2026-01-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devoted Duelist
@@ -707,6 +713,7 @@ schema: 2
   - *2024-11-08* — Food is an artifact type. Even though it appears on some creatures, it's never a creature type.
   - *2024-11-08* — Whatever you do, don't eat the delicious cards.
   - *2024-11-08* — You can't sacrifice a Food to pay multiple costs. For example, you can't sacrifice a Food token to activate its own ability and also to activate Maraleaf Rider's ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/D.md#devouring-sugarmaw--have-for-dinner)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/224/devouring-sugarmaw-have-for-dinner) · oracle_id `c8bc28ea-5630-49d5-963a-5789fa83f3c7` · printing: WOE #224 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Devouring Swarm

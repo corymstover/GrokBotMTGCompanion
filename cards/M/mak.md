@@ -54,6 +54,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5546 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-04-29* — “Their chosen pile” means the pile of their permanents that you chose; it doesn't mean that they get to choose a pile.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#make-an-example)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/37/make-an-example) · oracle_id `591edddc-3736-44cf-9719-117c24ff3980` · printing: NCC #37 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make a _____ Splash
@@ -71,6 +72,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-10-07* — Once the last ability triggers and targets are chosen, changing the number of u’s in name stickers on this enchantment won’t change the number of targets.
   - *2022-10-07* — The last ability will trigger whenever you put any kind of sticker on this enchantment, not just name stickers, although only u’s in name stickers will count toward the number of targets. Notably, u’s in ability and art stickers won’t count.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#make-a-_____-splash)
 - **Source flags:** [Scryfall](https://scryfall.com/card/unf/50/make-a-_____-splash) · oracle_id `fe2601a4-cbd5-4866-92a2-5586f737c9af` · printing: UNF #50 (2022-10-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Make a Stand
@@ -170,6 +172,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-02-02* — If Makeshift Binding leaves the battlefield before its triggered ability resolves, the target creature won't be exiled, but you'll still gain 2 life.
   - *2024-02-02* — If the target creature is an illegal target as Makeshift Binding's ability tries to resolve, it won't resolve and none of its effects will happen. You won't gain life.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/M.md#makeshift-binding)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/23/makeshift-binding) · oracle_id `942f3f06-1df0-40b4-8537-71cbec111852` · printing: MKM #23 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Makeshift Mannequin

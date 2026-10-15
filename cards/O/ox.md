@@ -43,6 +43,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #12063 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If the target opponent is an illegal target by the time Ox Drover's last ability tries to resolve, it won't resolve. They won't create an Ox token, and you won't draw a card.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/O.md#ox-drover)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woc/6/ox-drover) · oracle_id `70f26726-0373-4e50-a1de-37392ca94890` · printing: WOC #6 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Oxidda Daredevil

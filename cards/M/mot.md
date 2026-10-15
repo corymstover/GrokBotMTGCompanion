@@ -47,6 +47,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4380 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2008-04-01* — Since the activated ability doesn't have a tap symbol in its cost, you can tap a creature (including Mothdust Changeling itself) that hasn't been under your control since your most recent turn began to pay the cost.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/M.md#mothdust-changeling)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mma/53/mothdust-changeling) · oracle_id `52237e6b-19f6-405c-a668-545c4ccb1b6d` · printing: MMA #53 (2013-06-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mother Bear
@@ -98,6 +99,7 @@ schema: 2
   > *"My family protects all families."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #506 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/M.md#mother-of-runes)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/702/mother-of-runes) · oracle_id `60433b48-d27f-413c-905c-43839b1943f1` · printing: CLB #702 (2022-06-10) · [rulings](https://api.scryfall.com/cards/a5e19147-e459-43a6-8ef0-e37968a462e3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Mothers Yamazaki

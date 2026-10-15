@@ -36,6 +36,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3189 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2024-07-26* — Ms. Bumbleflower's last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 3 pages (1 decks · 1 edh guides · 1 card data) → [reverse index](../../references/M.md#ms-bumbleflower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blc/3/ms-bumbleflower) · oracle_id `25636214-c6ea-4655-a5e8-98e735da5b05` · printing: BLC #3 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Ms. Marvel, Elastic Ally

@@ -78,6 +78,7 @@ schema: 2
 - **Rulings** (2):
   - *2024-11-08* — If you cast an enchantment spell during a turn before Psemilla is on the battlefield, its first ability won't trigger that turn even if you cast another enchantment spell later in the turn.
   - *2024-11-08* — Psemilla's last ability checks at the moment it would trigger to see if you control five or more enchantments. If you don't, the ability won't trigger at all. If it does trigger, the ability will check again as it tries to resolve. If you don't control five or more enchantments at that time, the ability won't resolve and none of its effects will happen. If you do, it doesn't matter what happens to those enchantments later in the turn.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#psemilla-meletian-poet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/j25/31/psemilla-meletian-poet) · oracle_id `12712419-a2a9-483d-a65a-2b727ae404ae` · printing: J25 #31 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pseudodragon Familiar
@@ -243,6 +244,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1796 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2018-07-13* — If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” Psychic Corrosion’s ability won’t trigger.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#psychic-corrosion)
 - **Source flags:** [Scryfall](https://scryfall.com/card/m19/68/psychic-corrosion) · oracle_id `328b42f1-d679-4f9c-80e3-38fe3b965d10` · printing: M19 #68 (2018-07-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Drain
@@ -272,6 +274,7 @@ schema: 2
   > *Some frogs poison the body. Some frogs poison the mind.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2089 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#psychic-frog)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/199/psychic-frog) · oracle_id `e157ad1e-be35-47f3-92db-01799f8fb6a5` · printing: MH3 #199 (2024-06-14) · [rulings](https://api.scryfall.com/cards/68924203-c3d9-41ce-8ca8-c6dd491eb3ca/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychic Impetus
@@ -651,6 +654,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #432 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — If an effect causes you to draw multiple cards, Psychosis Crawler will trigger that many times.
+- **Referenced in:** 10 pages (5 decks · 4 edh guides · 1 card data) → [reverse index](../../references/P.md#psychosis-crawler)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkc/234/psychosis-crawler) · oracle_id `2876e74f-a242-4995-9702-0b737a1ab67a` · printing: MKC #234 (2024-02-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Episode
@@ -687,6 +691,7 @@ schema: 2
   > *—Rakdos*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4684 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#psychotic-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dis/68/psychotic-fury) · oracle_id `1bf982e9-5868-46bf-81e3-f29ada33d169` · printing: DIS #68 (2006-05-05) · [rulings](https://api.scryfall.com/cards/4f626c70-1ede-4b00-bd95-d6ee26371131/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Psychotic Haze

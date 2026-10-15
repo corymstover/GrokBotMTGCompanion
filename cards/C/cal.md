@@ -119,6 +119,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15971 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-07-26* — If all of the targets are illegal as Calamitous Tide tries to resolve, it won’t resolve and none of its effects will happen. You won’t draw or discard any cards.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calamitous-tide)
 - **Source flags:** [Scryfall](https://scryfall.com/card/blb/43/calamitous-tide) · oracle_id `d605d9d1-c01a-4ef6-89f9-06fae8cd57e6` · printing: BLB #43 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity Bearer
@@ -164,6 +165,7 @@ schema: 2
   - *2024-04-12* — You choose which player, planeswalker, or battle each of the tokens is attacking as it enters the battlefield. They don't have to attack the same player, planeswalker, or battle that Calamity is attacking, nor do they have to attack the same player, planeswalker, or battle as each other.
   - *2024-04-12* — You don't have to choose the same creature both times for Calamity's triggered ability.
   - *2024-04-12* — You may activate a permanent's saddle ability even if that permanent is already saddled.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/C.md#calamity-galloping-inferno)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/116/calamity-galloping-inferno) · oracle_id `eb37496e-374f-41b9-bd52-f52f37bdac31` · printing: OTJ #116 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity of Cinders
@@ -197,6 +199,7 @@ schema: 2
 - **Rulings** (2):
   - *2023-07-28* — The colorless creature card stays revealed until Calamity of the Titans leaves the stack.
   - *2023-07-28* — The colorless creature card you reveal doesn't have to still be in your hand as Calamity of the Titans resolves. If it's not, use its mana value as it last existed in your hand.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/C.md#calamity-of-the-titans)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/713/calamity-of-the-titans) · oracle_id `4bb3edc5-2616-4d0d-b9dc-32ed79f38f67` · printing: CMM #713 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calamity's Wake
@@ -209,6 +212,7 @@ schema: 2
   > *The sylex's blast had razed the land, leaving behind only snow and sorrow. Urza stood alone in the sudden silence.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10234 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calamitys-wake)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bro/4/calamitys-wake) · oracle_id `a6436330-f35a-4d31-9230-03e0c62f9e7e` · printing: BRO #4 (2022-11-18) · [rulings](https://api.scryfall.com/cards/013bed2b-25db-4dfc-9283-e80c9ac6c841/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calciderm
@@ -438,6 +442,7 @@ schema: 2
   - *2020-01-24* — If an Aura is being put onto the battlefield at the same time as an enchantment creature, that Aura can’t enchant that creature.
   - *2020-01-24* — If an Aura is put onto the battlefield without being cast, the Aura’s controller-to-be chooses what it will enchant as it comes back onto the battlefield. An Aura put onto the battlefield this way doesn’t target anything (so it could be attached to an opponent’s permanent with hexproof, for example), but the Aura’s enchant ability restricts what it can be attached to. If the Aura can’t legally be attached to anything, it remains in its current zone.
   - *2020-01-24* — If the target enchantment you control leaves the battlefield or otherwise becomes an illegal target before Calix’s second ability resolves, the target permanent you don’t control won’t be exiled.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calix-destinys-hand)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/918/calix-destinys-hand) · oracle_id `d9f01177-2237-475e-ad91-114bfae077ce` · printing: CMM #918 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Calix, Guided by Fate
@@ -459,6 +464,7 @@ schema: 2
   - *2023-05-12* — If the copied permanent is copying something else, then the token enters the battlefield as whatever that permanent copied.
   - *2023-05-12* — Once you choose to create a token using the last ability, that ability won't trigger again that turn. Additional instances of the ability that are already on the stack will resolve but will have no effect.
   - *2023-05-12* — The token copies exactly what was printed on the original permanent and nothing else (unless that permanent is copying something else or is a token; see below). It doesn't copy whether that permanent is tapped or untapped, whether it has any counters on it or Auras and Equipment attached to it, or any non-copy effects that have changed its power, toughness, types, color, and so on.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#calix-guided-by-fate)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mat/26/calix-guided-by-fate) · oracle_id `1bcc8ca6-5fd0-4fc9-8f0c-f81d8abf9249` · printing: MAT #26 (2023-05-12) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callaphe, Beloved of the Sea
@@ -492,6 +498,7 @@ schema: 2
   > *"Why would a little thing like death stop me from running the Syndicate? I'm going to be here for a long, long time."*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11334 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/C.md#call-a-surprise-witness)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mkm/6/call-a-surprise-witness) · oracle_id `9038a457-ce01-4f6d-9e2b-5220f08b4290` · printing: MKM #6 (2024-02-09) · [rulings](https://api.scryfall.com/cards/f5148def-cf1a-460e-8dfd-856103940892/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call Damage Control
@@ -634,6 +641,7 @@ schema: 2
   - *2023-11-03* — No matter what spell you cast with the first cascade ability (or with any cascade abilities that result from casting that spell), the second cascade ability will look for a card with mana value less than Call Forth the Tempest's mana value of 8.
   - *2023-11-03* — When the cascade ability resolves, you must exile cards. The only optional part of the ability is whether or not you cast the last card exiled.
   - *2023-11-03* — You exile the cards face up. All players will be able to see them.
+- **Referenced in:** 3 pages (2 decks · 1 rules) → [reverse index](../../references/C.md#call-forth-the-tempest)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltc/509/call-forth-the-tempest) · oracle_id `0623c51a-e829-413f-a3a0-817c0902821e` · printing: LTC #509 (2023-11-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call for Unity
@@ -653,6 +661,7 @@ schema: 2
   - *2017-02-09* — Revolt abilities check only whether a permanent you controlled left the battlefield this turn or not. They don't apply multiple times if more than one permanent you controlled left the battlefield. They don't check whether the permanent that left the battlefield is still in the zone it moved to.
   - *2017-02-09* — Revolt abilities don't care why the permanent left the battlefield, who caused it to move, or where it moved to. They're equally satisfied by an artifact you sacrificed to pay a cost, a creature you controlled that was destroyed by Murder, or an enchantment you returned to your hand with Leave in the Dust.
   - *2017-02-09* — Tokens that leave the battlefield will satisfy a revolt ability.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-for-unity)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/9/call-for-unity) · oracle_id `288d5415-ef44-400f-ab88-7c8a4deaaf4b` · printing: AER #9 (2017-01-20) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call from the Grave
@@ -669,6 +678,7 @@ schema: 2
   - *2024-11-08* — The amount of damage Call from the Grave deals is determined by the casting cost . . . er, mana value of the permanent that was put onto the battlefield by Call from the Grave (even if it’s not a creature at that time). In the case where no permanent was put onto the battlefield, Call from the Grave won’t deal any damage.
   - *2024-11-08* — The choices of random creature and random graveyard are made as Call from the Grave resolves.
   - *2024-11-08* — To choose a random creature from a random graveyard, first choose a random graveyard with at least one creature card in it. Then choose a random creature card from that graveyard.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-from-the-grave)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mb2/541/call-from-the-grave) · oracle_id `252ff28e-3ea7-4e2c-a30c-3cb80aa278d0` · printing: MB2 #541 (2024-08-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callidus Assassin
@@ -787,6 +797,7 @@ schema: 2
   - *2013-04-15* — The spell with cipher is encoded on the creature as part of that spell’s resolution, just after the spell’s other effects. That card goes directly from the stack to exile. It never goes to the graveyard.
   - *2013-04-15* — You cast the copy of the card with cipher during the resolution of the triggered ability. Ignore timing restrictions based on the card’s type.
   - *2013-04-15* — You choose the creature as the spell resolves. The cipher ability doesn’t target that creature, although the spell with cipher may target that creature (or a different creature) because of its other abilities.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-of-the-nightwing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/gtc/149/call-of-the-nightwing) · oracle_id `919d21ad-3d1e-4f80-8005-64e3f8bf64d1` · printing: GTC #149 (2013-02-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Ring
@@ -809,6 +820,7 @@ schema: 2
   - *2023-06-16* — Some spells and abilities that cause the Ring to tempt you may require targets. If each target chosen is an illegal target as that spell or ability tries to resolve, it won't resolve. The Ring won't tempt you.
   - *2023-06-16* — The Ring can tempt you even if you don't control a creature. In this case, abilities that trigger "whenever the Ring tempts you" will still trigger.
   - *2023-06-16* — The Ring gains its abilities in order from top to bottom. Once it gains an ability, it has that ability for the rest of the game.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-of-the-ring)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/79/call-of-the-ring) · oracle_id `9fcb920c-b8d7-4a79-a335-f63050182cca` · printing: LTR #79 (2023-06-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call of the Wild
@@ -938,6 +950,7 @@ schema: 2
   - *2023-09-01* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it’s legal to cast that spell. For example, if you control Johann, Apprentice Sorcerer (“Once each turn, you may cast an instant or sorcery spell from the top of your library.”) and Questing Druid is on top of your library, you can cast Seek the Beast, but not Questing Druid.
   - *2023-09-01* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card’s normal characteristics. The spell’s color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2023-09-01* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you’ll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#callous-sell-sword--burn-together)
 - **Source flags:** [Scryfall](https://scryfall.com/card/woe/221/callous-sell-sword-burn-together) · oracle_id `0e7405e3-e9e6-4213-a73f-e0c01a7d6721` · printing: WOE #221 (2023-09-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Callow Jushi // Jaraku the Interloper
@@ -965,6 +978,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13172 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2016-04-08* — You can activate Call the Bloodline’s ability once on each player’s turn, not just your own.
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-the-bloodline)
 - **Source flags:** [Scryfall](https://scryfall.com/card/soi/103/call-the-bloodline) · oracle_id `8e90300b-c0da-4484-b065-e2fafa4e1b15` · printing: SOI #103 (2016-04-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Cavalry
@@ -996,6 +1010,7 @@ schema: 2
   - *2020-04-17* — If this spell is copied and the effect that copies the spell allows a player to choose new targets for the copy, the number of targets can't be changed. The player may change any number of the targets, including all of them or none of them. If, for one of the targets, the player can't choose a new legal target, then it remains unchanged (even if the current target is illegal).
   - *2020-04-17* — The mana value of a strive spell doesn't change no matter how many targets it has.
   - *2020-04-17* — You choose how many targets each spell with a strive ability has and what those targets are as you cast it. It's legal to cast such a spell with no targets, although this is rarely a good idea. You can't choose the same target more than once for a single strive spell.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-the-coppercoats)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/195/call-the-coppercoats) · oracle_id `73d8c33d-916a-4220-96ae-9622aad36210` · printing: NCC #195 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Gatewatch
@@ -1009,6 +1024,7 @@ schema: 2
   > *—Jace Beleren*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #11099 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 lore & story · 1 card data) → [reverse index](../../references/C.md#call-the-gatewatch)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ogw/16/call-the-gatewatch) · oracle_id `652bfa31-b2eb-4cba-850f-1db02a83bb35` · printing: OGW #16 (2016-01-22) · [rulings](https://api.scryfall.com/cards/4719ac60-2cff-4abb-b9cc-b677d3ac945c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Mountain Chocobo
@@ -1068,6 +1084,7 @@ schema: 2
   - *2008-08-01* — Casting a card by using its retrace ability works just like casting any other spell, with two exceptions: You're casting it from your graveyard rather than your hand, and you must discard a land card in addition to any other costs.
   - *2008-08-01* — If the active player casts a spell that has retrace, that player may cast that card again after it resolves, before another player can remove the card from the graveyard. The active player has priority after the spell resolves, so they can immediately cast a new spell. Since casting a card with retrace from the graveyard moves that card onto the stack, no one else would have the chance to affect it while it's still in the graveyard.
   - *2008-08-01* — When a retrace card you cast from your graveyard resolves, fails to resolve, or is countered, it's put back into your graveyard. You may use the retrace ability to cast it again.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/C.md#call-the-skybreaker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ncc/333/call-the-skybreaker) · oracle_id `a7213bef-0e9c-44e1-97cb-d1da0ef370bf` · printing: NCC #333 (2022-04-29) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call the Spirit Dragons
@@ -1084,6 +1101,7 @@ schema: 2
   - *2025-04-04* — Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to a Dragon you control may become lethal if Call the Spirit Dragons leaves the battlefield during that turn.
   - *2025-04-04* — If you control a Dragon that is more than one color, you may put more than one +1/+1 counter on it with the last ability of Call the Spirit Dragons.
   - *2025-04-04* — The last ability will only cause you to win the game if you put a +1/+1 counter on each of five different Dragons with it.
+- **Referenced in:** 2 pages (1 decks · 1 lore & story) → [reverse index](../../references/C.md#call-the-spirit-dragons)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdm/174/call-the-spirit-dragons) · oracle_id `3ceb23f5-abb1-4569-a1e4-1eed9a9babcf` · printing: TDM #174 (2025-04-11) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Call to Arms

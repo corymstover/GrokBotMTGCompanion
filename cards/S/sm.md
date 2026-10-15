@@ -93,6 +93,7 @@ schema: 2
   - *2021-03-19* — Any abilities of the lands sacrificed may modify or trigger on the creatures being sacrificed and on the cards being discarded. Abilities of the creatures won't modify or trigger on the lands being sacrificed, but may modify or trigger on the cards being discarded.
   - *2021-03-19* — Any abilities that trigger while Smallpox is resolving will wait to be put onto the stack until Smallpox is done resolving.
   - *2021-03-19* — As Smallpox resolves, first each player loses 1 life at the same time. Next, each player chooses a card in hand without revealing it, then all of the cards are discarded at the same time. Then starting with the player whose turn it is and proceeding in turn order, each player chooses a creature, knowing the choices made before them. All of the creatures are sacrificed at the same time, then finally repeat this process for lands.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smallpox)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tsr/139/smallpox) · oracle_id `7bd22c98-0782-447f-a5fa-4281585a3eab` · printing: TSR #139 (2021-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smart Ass
@@ -212,6 +213,7 @@ schema: 2
   - *2026-06-29* — If you cast an adventurer card as an Adventure, use only its alternative characteristics to determine whether it's legal to cast that spell. For example, if you control Gandalf, Party Guest ("At the beginning of combat on your turn, you may cast an instant or sorcery spell with mana value X or less from your hand without paying its mana cost, where X is twice the number of legendary Wizards you control."), you could cast Burglar's Plot from your hand without paying its mana cost (provided you control enough legendary Wizards), but not Bilbo, Luckwearer.
   - *2026-06-29* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2026-06-29* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smaug-the-great-calamity--spew-flame)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/109/smaug-the-great-calamity-spew-flame) · oracle_id `fc75cfec-e1f6-4cb5-8a3c-2f7b2c39c03f` · printing: HOB #109 (2026-08-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug the Impenetrable
@@ -241,6 +243,7 @@ schema: 2
 - **Keywords:** Flying, Treasure, Haste
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3508 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smaug-the-magnificent)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/110/smaug-the-magnificent) · oracle_id `c53b7602-5e36-4900-896c-844bf6eac22e` · printing: HOB #110 (2026-08-14) · [rulings](https://api.scryfall.com/cards/6a5d8fad-2ffd-4645-8c49-907999b6cecf/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smaug, Wicked Worm
@@ -255,6 +258,7 @@ schema: 2
 - **Keywords:** Flying, Treasure
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5896 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#smaug-wicked-worm)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hob/164/smaug-wicked-worm) · oracle_id `20535126-f811-4386-bdce-d73f30691724` · printing: HOB #164 (2026-08-14) · [rulings](https://api.scryfall.com/cards/19cc91f0-e724-41ac-b6d8-9a293bd63b42/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Sméagol, Helpful Guide
@@ -292,6 +296,7 @@ schema: 2
 - **Keywords:** First strike
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8042 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smellerbee-rebel-fighter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tle/125/smellerbee-rebel-fighter) · oracle_id `127bc05b-2945-434c-bc6a-283a267cc72a` · printing: TLE #125 (2025-11-21) · [rulings](https://api.scryfall.com/cards/5aef6ece-929b-4636-b32e-58f91741b869/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smell Fear
@@ -362,6 +367,7 @@ schema: 2
   > Destroy target creature. Its controller creates two 1/2 red Half creature tokens.
 - **Commander notes:** Commander format: **not legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smelt--herd--saw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmb2/100/smelt-herd-saw) · oracle_id `5db492f2-21c0-4eee-843a-509fa0d3a327` · printing: CMB2 #100 (2021-08-20) · [rulings](https://api.scryfall.com/cards/097165ee-f959-49e3-a5c1-f78043e538d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelting Vat
@@ -373,6 +379,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14288 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-10-14* — If an artifact revealed this way has an {X} is its mana cost, X is 0.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#smelting-vat)
 - **Source flags:** [Scryfall](https://scryfall.com/card/brc/18/smelting-vat) · oracle_id `71d2a0fe-5426-4fa3-85a4-564c37184996` · printing: BRC #18 (2022-11-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smelt-Ward Gatekeepers
@@ -540,6 +547,7 @@ schema: 2
   - *2019-10-04* — In a Two-Headed Giant game, Curry Favor causes the opposing team to lose X life twice, after you gain X life once.
   - *2019-10-04* — When casting a spell as an Adventure, use the alternative characteristics and ignore all of the card's normal characteristics. The spell's color, mana cost, mana value, and so on are determined by only those alternative characteristics. If the spell leaves the stack, it immediately resumes using its normal characteristics.
   - *2019-10-04* — You must still follow any timing restrictions and permissions for the permanent spell you cast from exile. Normally, you'll be able to cast it only during your main phase while the stack is empty.
+- **Referenced in:** 3 pages (1 decks · 2 card data) → [reverse index](../../references/S.md#smitten-swordmaster--curry-favor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/268/smitten-swordmaster-curry-favor) · oracle_id `11ad6e75-9bbd-40ea-b04a-e6a61db3bcda` · printing: MOC #268 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smog Elemental
@@ -583,6 +591,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #6583 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — Animated lands are affected by this spell. If on the battlefield with an effect that limits the number of land you untap, untapping an animated land will count as the one creature and the one land you can untap... thereby limiting you to one thing to be untapped.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smoke)
 - **Source flags:** [Scryfall](https://scryfall.com/card/me4/137/smoke) · oracle_id `8aa97d25-cd51-4ceb-b7eb-af64f0914a8c` · printing: ME4 #137 (2011-01-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoke Bomb
@@ -628,6 +637,7 @@ schema: 2
 - **Keywords:** Enchant
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7185 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/S.md#smoke-shroud)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh1/69/smoke-shroud) · oracle_id `a621c5f6-c1c6-4bc9-88b1-f459efa07a39` · printing: MH1 #69 (2019-06-14) · [rulings](https://api.scryfall.com/cards/e07c876e-ae1c-4b54-8d8a-9f3fd76ca64c/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smokespew Invoker
@@ -653,6 +663,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #10115 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2022-02-18* — If a Smoke Blessing that would be created by Smoke Spirits' Aid can't be attached to that creature for any reason, the token isn't created.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smoke-spirits-aid)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/22/smoke-spirits-aid) · oracle_id `8fef58ff-4743-4065-9df0-c5edf9aa2502` · printing: NEC #22 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smokestack
@@ -666,6 +677,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — Adding a counter is optional. If you forget to add one during your upkeep, you cannot back up and add one later.
   - *2004-10-04* — If a player does not have enough permanents, they sacrifice all the ones they have.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smokestack)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/282/smokestack) · oracle_id `fda61506-ed79-47fd-badd-639185297913` · printing: VMA #282 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoke Teller
@@ -711,6 +723,7 @@ schema: 2
   - *2024-09-20* — To cast a Room spell, choose a half (or "door") to cast. There's no way to cast both halves of a Room card. When the Room spell resolves, the corresponding door becomes unlocked as the Room enters.
   - *2024-09-20* — While in any zone other than the stack or the battlefield, a Room card's characteristics are a combination of its two doors. For example, Bottomless Pool // Locker Room has a mana value of 6 while it's in your library. If an effect allows you to search your library for a card with mana value 4 or less, you can't find Bottomless Pool // Locker Room.
   - *2024-09-20* — While on the battlefield, a Room's characteristics are a combination of the characteristics of its unlocked doors. For example, if Bottomless Pool // Locker Room is on the battlefield with both doors unlocked, its names are Bottomless Pool and Locker Room, its mana value is 6, it's a Room Enchantment, and it has the abilities in each door's text box.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#smoky-lounge--misty-salon)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsk/235/smoky-lounge-misty-salon) · oracle_id `4f70b0ee-c24c-45fa-b878-9ba69266344f` · printing: DSK #235 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Butcher
@@ -785,6 +798,7 @@ schema: 2
   - *2015-08-25* — Even though these lands have basic land types, they are not basic lands because "basic" doesn't appear on their type line. Notably, controlling two or more of them won't allow others to enter the battlefield untapped.
   - *2015-08-25* — However, because these cards have basic land types, effects that specify a basic land type without also specifying that the land be basic can affect them. For example, a spell or ability that reads "Destroy target Forest" can target Canopy Vista, while one that reads "Destroy target basic Forest" cannot.
   - *2015-08-25* — If one of these lands enters the battlefield at the same time as any number of basic lands, those other lands are not counted when determining if this land enters the battlefield tapped or untapped.
+- **Referenced in:** 9 pages (5 decks · 3 edh guides · 1 card data) → [reverse index](../../references/S.md#smoldering-marsh)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/266/smoldering-marsh) · oracle_id `390f1b56-264e-4336-83be-dc1fe79bfdcf` · printing: MSC #266 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smoldering Spires
@@ -924,6 +938,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #67 · Game Changer: **yes** · Can be commander: No
 - **Rulings** (1):
   - *2023-09-01* — If an opponent is instructed to draw multiple cards, that player draws all of them before deciding how many times to pay as the multiple triggered abilities from Smothering Tithe resolve.
+- **Referenced in:** 17 pages (11 decks · 4 edh guides · 2 card data) → [reverse index](../../references/S.md#smothering-tithe)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/57/smothering-tithe) · oracle_id `153376c9-dffd-458c-8ce3-a4c8269bc4e9` · printing: CMM #57 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smuggler Captain
@@ -982,6 +997,7 @@ schema: 2
   - *2017-09-29* — When a Vehicle becomes a creature, that doesn't count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won't trigger.
   - *2017-09-29* — You may activate a crew ability of a Vehicle even if it's already an artifact creature. Doing so has no effect on the Vehicle. It doesn't change its power and toughness.
   - *2017-09-29* — You may tap more creatures than necessary to activate a crew ability.
+- **Referenced in:** 3 pages (1 decks · 1 rules · 1 card data) → [reverse index](../../references/S.md#smugglers-copter)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/160/smugglers-copter) · oracle_id `49136bdc-bc50-49a2-999a-1ef9c16ea130` · printing: NEC #160 (2022-02-18) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Smuggler's Share

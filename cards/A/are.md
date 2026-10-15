@@ -60,6 +60,7 @@ schema: 2
   > *"The Seventh Astral Era is come!"*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #7459 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/A.md#a-realm-reborn)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/196/a-realm-reborn) · oracle_id `fd230ab5-874e-4827-9b5c-6d39d079cee6` · printing: FIN #196 (2025-06-13) · [rulings](https://api.scryfall.com/cards/d1af74e4-38d5-44b5-85e1-4d13f6970453/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena
@@ -114,6 +115,7 @@ schema: 2
   - *2024-06-07* — If you gain control of another player's permanent until end of turn and exert it, and then that player regains control of it, it will untap during that player's untap step.
   - *2024-06-07* — The mana generated with Arena of Glory's last ability can be spent on anything, not just creature spells.
   - *2024-06-07* — You must already control a Mountain as Arena of Glory enters the battlefield for it to enter untapped. If it enters the battlefield at the same time as a Mountain when you control no other Mountains, it will enter tapped.
+- **Referenced in:** 10 pages (7 decks · 1 edh guides · 1 rules · 1 card data) → [reverse index](../../references/A.md#arena-of-glory)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/215/arena-of-glory) · oracle_id `63dfe794-5f56-41ec-9883-5523b41cc3e0` · printing: MH3 #215 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Arena of the Ancients

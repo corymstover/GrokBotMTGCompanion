@@ -99,6 +99,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-11-10* — Count the number of opponents you currently have, not how many you started with. If your four-player game is down to you and a single opponent, the land enters the battlefield tapped.
   - *2020-11-10* — If an effect puts the land onto the battlefield tapped, having two or more opponents won't untap it.
+- **Referenced in:** 5 pages (1 decks · 3 edh guides · 1 card data) → [reverse index](../../references/R.md#rejuvenating-springs)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/260/rejuvenating-springs) · oracle_id `d1620449-930a-4895-a143-fd2a0a3c8b17` · printing: MSC #260 (2026-06-26) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Rejuvenation Chamber

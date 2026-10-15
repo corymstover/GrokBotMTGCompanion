@@ -215,6 +215,7 @@ schema: 2
 - **Rulings** (2):
   - *2004-10-04* — It is only considered "cast from your hand" if you cast it as a spell from your hand. Putting it onto the battlefield from your hand using a spell or ability will cause you to lose the game.
   - *2013-07-01* — In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.
+- **Referenced in:** 2 pages (1 edh guides · 1 card data) → [reverse index](../../references/P.md#phage-the-untouchable)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cns/120/phage-the-untouchable) · oracle_id `09d01406-b529-4c3b-900e-d8c889a4c400` · printing: CNS #120 (2014-06-06) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phalanx Formation
@@ -249,6 +250,7 @@ schema: 2
   - *2013-09-15* — Heroic abilities will resolve before the spell that caused them to trigger.
   - *2013-09-15* — Heroic abilities will trigger only once per spell, even if that spell targets the creature with the heroic ability multiple times.
   - *2013-09-15* — Heroic abilities won't trigger when a copy of a spell is created on the stack or when a spell's targets are changed to include a creature with a heroic ability.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phalanx-leader)
 - **Source flags:** [Scryfall](https://scryfall.com/card/uma/27/phalanx-leader) · oracle_id `857db7e0-254a-4920-a71d-9bab6555342f` · printing: UMA #27 (2018-12-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phalanx Tactics
@@ -422,6 +424,7 @@ schema: 2
   - *2017-03-14* — If the chosen creature is copying something else (for example, if the chosen creature is another Phantasmal Image), then Phantasmal Image enters the battlefield as whatever the chosen creature copied.
   - *2017-03-14* — Phantasmal Image copies exactly what was printed on the original creature (unless that creature is copying something else or is a token; see below) and it gains the Illusion creature type and the triggered ability. It doesn't copy whether that creature is tapped or untapped, whether it has any counters on it or Auras attached to it, or any non-copy effects that have changed its power, toughness, types, color, or so on.
   - *2017-03-14* — The Illusion creature type and the triggered ability that Phantasmal Image gains as part of its copy effect are both copiable values that other effects may copy.
+- **Referenced in:** 3 pages (2 decks · 1 card data) → [reverse index](../../references/P.md#phantasmal-image)
 - **Source flags:** [Scryfall](https://scryfall.com/card/afc/89/phantasmal-image) · oracle_id `bde94af8-faea-41ff-8eed-ba642eac9968` · printing: AFC #89 (2021-07-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phantasmal Mount
@@ -610,6 +613,7 @@ schema: 2
   - *2024-04-12* — You can’t choose the same mode more than once.
   - *2024-04-12* — You choose the modes as you cast the spell with spree. Once modes are chosen, they can’t be changed.
   - *2024-04-12* — You must choose at least one of the listed modes and pay its associated additional cost in order to cast a spell with spree.
+- **Referenced in:** 2 pages (2 card data) → [reverse index](../../references/P.md#phantom-interference)
 - **Source flags:** [Scryfall](https://scryfall.com/card/otj/61/phantom-interference) · oracle_id `0db20037-35b3-4b1f-8dd6-3ee797c421ca` · printing: OTJ #61 (2024-04-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phantom Monster
@@ -854,6 +858,7 @@ schema: 2
   - *2020-01-24* — The type-changing ability that can make a God not be a creature functions only on the battlefield. It's always a creature card in other zones, regardless of your devotion to its color. It's always a creature spell while it's on the stack.
   - *2020-01-24* — When a God enters the battlefield, your devotion to its color (including the mana symbols in the mana cost of the God itself) will determine if a creature entered the battlefield or not for abilities that trigger whenever a creature enters the battlefield.
   - *2020-01-24* — Your devotion to two colors is the number of mana symbols among mana costs of permanents you control that are the first color, the second, or both. If an effect counts your devotion to two colors, a hybrid symbol that is both of those colors is counted just once.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pharika-god-of-affliction)
 - **Source flags:** [Scryfall](https://scryfall.com/card/jou/154/pharika-god-of-affliction) · oracle_id `b7d05d00-1e69-4d11-bff0-c1ca2026aad6` · printing: JOU #154 (2014-05-02) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pharika's Chosen
@@ -994,6 +999,7 @@ schema: 2
   - *2024-06-07* — If the permanent that returns to the battlefield has any abilities that trigger at the beginning of the end step, those abilities won't trigger that turn.
   - *2024-06-07* — Phelia is a good dog.
   - *2024-06-07* — The exiled card will return to the battlefield at the beginning of the end step even if Phelia is no longer on the battlefield.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phelia-exuberant-shepherd)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/40/phelia-exuberant-shepherd) · oracle_id `5d86a59a-ba1f-45f7-b829-dca6f9f3e624` · printing: MH3 #40 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phenax, God of Deception
@@ -1038,6 +1044,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #17125 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2024-09-20* — If you somehow control Phenomenon Investigators and no choice was made for it (perhaps because another permanent on the battlefield became a copy of it, or it was manifested and later turned face up), it has neither of the two triggered abilities, no matter how much you want to believe (or doubt).
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phenomenon-investigators)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dsc/38/phenomenon-investigators) · oracle_id `cc9088c4-6f6b-4a1a-90f1-794eb1e938c6` · printing: DSC #38 (2024-09-27) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pheres-Band Brawler
@@ -1083,6 +1090,7 @@ schema: 2
   - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
   - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
   - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#pheres-band-raiders)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/133/pheres-band-raiders) · oracle_id `2fb54c18-f69b-4712-af36-14d8a6d4df2b` · printing: BNG #133 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pheres-Band Thunderhoof
@@ -1188,6 +1196,7 @@ schema: 2
   - *2024-06-07* — Phlage's first ability causes you to sacrifice it if you didn't cast it, or if it was cast using any permission other than an escape ability.
   - *2024-06-07* — Phlage's second ability triggers when it enters the battlefield, even if it didn't escape.
   - *2024-06-07* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying (such as an escape cost), add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was and no matter whether an alternative cost was paid.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/P.md#phlage-titan-of-fires-fury)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/197/phlage-titan-of-fires-fury) · oracle_id `3407eb6e-b74d-4159-a801-d7163937953c` · printing: MH3 #197 (2024-06-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phobian Phantasm
@@ -1239,6 +1248,7 @@ schema: 2
 - **Rulings** (2):
   - *2022-09-09* — As Phoenix Chick returns to the battlefield because of its triggered ability, you choose which opponent or opposing planeswalker it's attacking. It doesn't have to attack the same opponent or opposing planeswalker as your other attacking creatures.
   - *2022-09-09* — If Phoenix Chick enters the battlefield attacking, it wasn't declared as an attacking creature that turn. Abilities that trigger when a creature attacks won't trigger.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phoenix-chick)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/140/phoenix-chick) · oracle_id `40bb7b6b-a75d-4b59-ba45-a5801dcd59a1` · printing: DMU #140 (2022-09-09) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phoenix Down
@@ -1347,6 +1357,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-08-01* — Chroma abilities check only mana costs, which are found in a card’s upper right corner. They don’t count mana symbols that appear in a card’s text box.
   - *2008-08-01* — Chroma abilities count hybrid mana symbols of the appropriate color. For example, a card with mana cost {3}{U/R}{U/R} has two red mana symbols in its mana cost.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phosphorescent-feast)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eve/72/phosphorescent-feast) · oracle_id `e728a67f-764c-4d4a-81a2-7580ef9d6244` · printing: EVE #72 (2008-07-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Photon Blast Barrage
@@ -1469,6 +1480,7 @@ schema: 2
   - *2024-11-08* — A landfall ability doesn't trigger if a permanent already on the battlefield becomes a land.
   - *2024-11-08* — A landfall ability triggers whenever a land you control enters for any reason. It triggers whenever you play a land, as well as whenever a spell or ability puts a land onto the battlefield under your control.
   - *2024-11-08* — Whenever a land you control enters, each landfall ability of the permanents you control will trigger. You can put them   on the stack in any order. The last ability you put on the stack will be the first one to resolve (As a result, you can have those abilities resolve in the order of your choosing.).
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#phylath-world-sculptor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/znr/234/phylath-world-sculptor) · oracle_id `3d79cbe2-cf1b-4313-ab47-0118fcdbfc6c` · printing: ZNR #234 (2020-09-25) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyresis
@@ -1485,6 +1497,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2891 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2011-06-01* — Multiple instances of infect on the same creature are redundant.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyresis)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/49/phyresis) · oracle_id `958628af-243c-4eb0-8620-5d483b6da768` · printing: MBS #49 (2011-02-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyresis Outbreak
@@ -1499,6 +1512,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3746 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — The amount a creature's power and toughness are reduced is determined only once, at the time Phyresis Outbreak resolves. It won't change if that creature's controller later gets more poison counters or if another player takes control of it later in the same turn.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyresis-outbreak)
 - **Source flags:** [Scryfall](https://scryfall.com/card/onc/12/phyresis-outbreak) · oracle_id `47148b5d-3850-4614-822e-6ef2755996f8` · printing: ONC #12 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Adapter
@@ -1525,6 +1539,7 @@ schema: 2
   > *—\*Phyrexian Scriptures\**
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #307 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 13 pages (7 decks · 5 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-altar)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/311/phyrexian-altar) · oracle_id `8d02b297-97c4-4379-9862-0a462400f66f` · printing: 2X2 #311 (2022-07-08) · [rulings](https://api.scryfall.com/cards/95d9f93c-50a8-41a9-be98-d1900bf1c12f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Archivist
@@ -1552,6 +1567,7 @@ schema: 2
   > *A spark of resistance against a tide of corruption.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #104 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 9 pages (4 decks · 3 edh guides · 1 lore & story · 1 card data) → [reverse index](../../references/P.md#phyrexian-arena)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/180/phyrexian-arena) · oracle_id `ee579a32-a048-4335-b966-231ba731cdea` · printing: FDN #180 (2024-11-15) · [rulings](https://api.scryfall.com/cards/0784b6f0-9ebf-43d2-ba0f-a6bc93ba0c48/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Atlas
@@ -1666,6 +1682,7 @@ schema: 2
   - *2023-04-14* — A “non-Phyrexian spell” is any spell that doesn’t have the Phyrexian creature type, even if “Phyrexian” appears in its name. Artifact spells, battle spells, and Goblin creature spells are examples of non-Phyrexian spells.
   - *2023-04-14* — If a player casts a non-Phyrexian spell that was countered, they can’t cast another non-Phyrexian spell during the same turn.
   - *2023-04-14* — Phyrexian Censor looks at the entire turn to see if a player has cast a non-Phyrexian spell, even if Phyrexian Censor wasn’t on the battlefield when that spell was cast. Phyrexian Censor is a Phyrexian spell, so you could cast it and then a non-Phyrexian spell in the same turn.
+- **Referenced in:** 1 page (1 edh guides) → [reverse index](../../references/P.md#phyrexian-censor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mom/31/phyrexian-censor) · oracle_id `4c77de57-29fd-45ba-b2c7-eef231c6b7c7` · printing: MOM #31 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Chimney Imp
@@ -1763,6 +1780,7 @@ schema: 2
   > *Because the dead have no will to resist.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #4042 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-delver)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/263/phyrexian-delver) · oracle_id `a13cbac0-4c76-4970-b61e-5f4e020ee95c` · printing: MOC #263 (2023-04-21) · [rulings](https://api.scryfall.com/cards/86f6f3e9-b594-49da-b0af-75a672590da1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Denouncer
@@ -1805,6 +1823,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14557 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-digester)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mbs/120/phyrexian-digester) · oracle_id `9e7b03ae-dcf5-4892-9000-aee7e2cd2fed` · printing: MBS #120 (2011-02-04) · [rulings](https://api.scryfall.com/cards/f9112062-1a1b-462b-85d3-821ea91778b8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Dragon Engine
@@ -2131,6 +2150,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #14626 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-juggernaut)
 - **Source flags:** [Scryfall](https://scryfall.com/card/td2/63/phyrexian-juggernaut) · oracle_id `009fcd1e-5c5f-435b-afc1-099f1622e45c` · printing: TD2 #63 (2011-05-14) · [rulings](https://api.scryfall.com/cards/8f59b36f-d549-4a1e-940c-d0f20fc95576/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Lens
@@ -2191,6 +2211,7 @@ schema: 2
   - *2011-06-01* — If the chosen permanent has {X} in its mana cost (such as Protean Hydra), X is considered to be zero.
   - *2011-06-01* — If the chosen permanent is a token, Phyrexian Metamorph copies the original characteristics of that token as stated by the effect that put the token onto the battlefield, except it's also an artifact. Phyrexian Metamorph is not a token.
   - *2011-06-01* — You can choose not to copy anything. In that case, Phyrexian Metamorph simply enters as a 0/0 artifact creature and is put into its owner's graveyard as a state-based action (unless something else is raising its toughness).
+- **Referenced in:** 11 pages (7 decks · 2 edh guides · 1 rules · 1 card data) → [reverse index](../../references/P.md#phyrexian-metamorph)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/75/phyrexian-metamorph) · oracle_id `340bbe8b-e987-4c3e-ab4e-9dee63e57d4f` · printing: EOC #75 (2025-08-01) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Midway Bamboozle
@@ -2205,6 +2226,7 @@ schema: 2
 - **Keywords:** Undying
 - **Commander notes:** Commander format: **legal** · EDHREC rank: unranked · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-midway-bamboozle)
 - **Source flags:** [Scryfall](https://scryfall.com/card/sunf/18/phyrexian-midway-bamboozle) · oracle_id `dde09abb-e3d3-4c76-b7e8-812949dd67f3` · printing: SUNF #18 (2022-10-07) · [rulings](https://api.scryfall.com/cards/5daeb14a-dcc5-4761-84a4-a60d22a6c944/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Missionary
@@ -2272,6 +2294,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1888 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — If creatures an opponent controls are dealt lethal damage at the same time that Phyrexian Obliterator is dealt damage, those creatures will be destroyed before that player chooses permanents to sacrifice.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-obliterator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/105/phyrexian-obliterator) · oracle_id `41820f91-27cf-41c0-bb5e-9adf6845a6a4` · printing: ONE #105 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Ornithopter
@@ -2317,6 +2340,7 @@ schema: 2
   > *—Phyrexian progress notes*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #13960 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-plaguelord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cma/61/phyrexian-plaguelord) · oracle_id `aff9e844-9e03-490b-b44f-10d385738cc6` · printing: CMA #61 (2017-06-09) · [rulings](https://api.scryfall.com/cards/d0894a99-13e0-406c-8ca3-5552c64e3154/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Portal
@@ -2340,6 +2364,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8407 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — You can pay 0 life if you want, but it's not useful most of the time.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#phyrexian-processor)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dde/29/phyrexian-processor) · oracle_id `36c800cb-b1ca-4432-ad3c-4d8b90337f4c` · printing: DDE #29 (2010-03-19) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Prowler
@@ -2381,6 +2406,7 @@ schema: 2
   > *—Sheoldred*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8552 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-rager)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/265/phyrexian-rager) · oracle_id `e409c9be-0c9a-43c3-adb4-8c47afc1d551` · printing: MOC #265 (2023-04-21) · [rulings](https://api.scryfall.com/cards/a9861fb3-6722-43b8-bf0a-af6dd166e59d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Reaper
@@ -2408,6 +2434,7 @@ schema: 2
 - **Rulings** (2):
   - *2011-06-01* — Any triggered abilities that trigger because a creature was destroyed won't be put onto the stack until after Phyrexian Rebirth finishes resolving. This means the Horror creature token can be targeted by those abilities, if applicable.
   - *2013-07-01* — If a creature regenerates or has indestructible, it won't be counted when determining the value of X.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#phyrexian-rebirth)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/199/phyrexian-rebirth) · oracle_id `6ef3c75d-6af2-4ea0-b98d-96c5d7d3af58` · printing: MOC #199 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Reclamation
@@ -2420,6 +2447,7 @@ schema: 2
   > *Death is no excuse to stop working.*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #960 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 2 pages (2 edh guides) → [reverse index](../../references/P.md#phyrexian-reclamation)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tdc/194/phyrexian-reclamation) · oracle_id `647ca69e-cc01-4b2b-b376-bee2a98331e8` · printing: TDC #194 (2025-04-11) · [rulings](https://api.scryfall.com/cards/10c09b68-1d92-42da-8d4d-0d60453a6aa7/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Revoker
@@ -2437,6 +2465,7 @@ schema: 2
 - **Rulings** (2):
   - *2020-08-07* — Activated abilities are written in the form "Cost: Effect." Some keywords are activated abilities (such as equip) and will have colons in their reminder texts. Static and triggered abilities of sources with the chosen name are unaffected.
   - *2020-08-07* — Phyrexian Revoker's ability affects sources with the chosen name no matter what zone they are in. For example, a cycling ability of a card with the chosen name can't be activated from hand.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#phyrexian-revoker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clb/868/phyrexian-revoker) · oracle_id `786b3657-b595-4b38-83f2-d40915e51e2b` · printing: CLB #868 (2022-06-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Scriptures
@@ -2458,6 +2487,7 @@ schema: 2
   - *2018-04-27* — Once a chapter ability has triggered, the ability on the stack won't be affected if the Saga gains or loses counters, or if it leaves the battlefield.
   - *2018-04-27* — Once the number of lore counters on a Saga is greater than or equal to the greatest number among its chapter abilities—in the Dominaria set, this is always three—the Saga's controller sacrifices it as soon as its chapter ability has left the stack, most likely by resolving or being countered. This state-based action doesn't use the stack.
   - *2018-04-27* — The effect of Phyrexian Scriptures's first chapter ability lasts indefinitely. It doesn't expire when Phyrexian Scriptures leaves the battlefield.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-scriptures)
 - **Source flags:** [Scryfall](https://scryfall.com/card/moc/266/phyrexian-scriptures) · oracle_id `11173ad3-c007-478f-bce0-d756eac07ccb` · printing: MOC #266 (2023-04-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Scuta
@@ -2543,6 +2573,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5984 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2006-07-15* — When Phyrexian Soulgorger’s cumulative upkeep ability resolves, you must either sacrifice a different creature for each age counter on Phyrexian Soulgorger or sacrifice it. You may also sacrifice it as part of its own upkeep payment.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-soulgorger)
 - **Source flags:** [Scryfall](https://scryfall.com/card/csp/141/phyrexian-soulgorger) · oracle_id `b6e36e77-0cea-4b7a-b968-774b1e74a992` · printing: CSP #141 (2006-07-21) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Splicer
@@ -2567,6 +2598,7 @@ schema: 2
 - **Keywords:** Infect
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #5041 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-swarmlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/119/phyrexian-swarmlord) · oracle_id `4fc2755c-ae7b-4147-a573-b33679a461e8` · printing: NPH #119 (2011-05-13) · [rulings](https://api.scryfall.com/cards/8a91dea7-9792-4714-82b0-ba2c06cef304/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Totem
@@ -2595,6 +2627,7 @@ schema: 2
   > *—Koth*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #194 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 12 pages (8 decks · 3 edh guides · 1 card data) → [reverse index](../../references/P.md#phyrexian-tower)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mh3/303/phyrexian-tower) · oracle_id `1861e642-21d5-4232-89f3-b5557f2946c1` · printing: MH3 #303 (2024-06-14) · [rulings](https://api.scryfall.com/cards/0b47f6d2-9f65-47a4-bfc4-15619befe53d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Tribute
@@ -2629,6 +2662,7 @@ schema: 2
   - *2020-11-10* — Opponents who have left the game aren't counted when determining how many tokens to create.
   - *2020-11-10* — The tokens copy only what's on the original card. Effects that modified that creature when it was previously on the battlefield won't be copied.
   - *2023-07-28* — If an effect stops a token from attacking a specific player, that token can attack any player, planeswalker, or battle, or not attack at all. If the effect stops the token from attacking a specific player unless a cost is paid, you don't have to pay that cost unless you want to attack that player.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/P.md#phyrexian-triniform)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/969/phyrexian-triniform) · oracle_id `f8526a36-eb8f-457d-b532-e12b47622cfa` · printing: CMM #969 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Tyranny
@@ -2643,6 +2677,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #8253 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-10-04* — If more than one card is drawn at a time, this triggers for each card drawn.
+- **Referenced in:** 2 pages (2 decks) → [reverse index](../../references/P.md#phyrexian-tyranny)
 - **Source flags:** [Scryfall](https://scryfall.com/card/2x2/262/phyrexian-tyranny) · oracle_id `55082cd0-a33c-4f1d-9f46-9578f63e6bb6` · printing: 2X2 #262 (2022-07-08) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Unlife
@@ -2658,6 +2693,7 @@ schema: 2
   - *2011-06-01* — If you’re at 0 or less life, you can’t pay any amount of life except 0.
   - *2011-06-01* — Phyrexian Unlife won’t affect damage that reduces your life total from a positive number to 0 or less. For example, if you’re at 3 life and are dealt 5 damage, you’ll end up at -2 life. The next time you’re dealt damage, it will be dealt as though its source had infect.
   - *2011-06-01* — You can still lose the game for other reasons, including having ten or more poison counters or drawing a card from a library with no cards in it.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/P.md#phyrexian-unlife)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nph/18/phyrexian-unlife) · oracle_id `6598d988-d60e-4441-88b6-8d0995c4675a` · printing: NPH #18 (2011-05-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Vatmother
@@ -2701,6 +2737,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3167 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2023-02-04* — If multiple replacement or prevention effects try to modify damage that would be dealt to a creature, the controller of the creature chooses the order in which they apply.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/P.md#phyrexian-vindicator)
 - **Source flags:** [Scryfall](https://scryfall.com/card/one/27/phyrexian-vindicator) · oracle_id `9b5cfbb7-21ed-491d-b77d-547e4d30a7da` · printing: ONE #27 (2023-02-10) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian Vivisector
@@ -2729,6 +2766,7 @@ schema: 2
   > *—Kasib Ibn Naji, Letters*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3008 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/P.md#phyrexian-walker)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vis/152/phyrexian-walker) · oracle_id `7af75024-6c9b-4844-aeb6-81de25464822` · printing: VIS #152 (1997-02-03) · [rulings](https://api.scryfall.com/cards/9f8a3979-2947-4692-8b2f-d4c07c534777/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Phyrexian War Beast

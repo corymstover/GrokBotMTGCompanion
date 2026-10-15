@@ -109,6 +109,7 @@ schema: 2
   - *2019-05-03* — You can cast the copy only as Kefnet's triggered ability resolves. If you don't want to cast it at that time (or you can't cast it, perhaps because there are no legal targets available), the copy ceases to exist. You can't cast it later.
   - *2019-05-03* — You can reveal and copy an instant or sorcery card this way on any turn, not just your own, if it's the first card you've drawn that turn.
   - *2019-05-03* — You don't have to reveal a drawn card if you don't wish to copy it at that time.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#god-eternal-kefnet)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/53/god-eternal-kefnet) · oracle_id `41d11144-32fc-4e45-a8db-3edb9dc0ce80` · printing: WAR #53 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Oketra
@@ -131,6 +132,7 @@ schema: 2
   - *2019-05-03* — In a multiplayer game, if you put another player's God onto the battlefield under your control, it will be exiled as you leave the game. If you were still the controller of that God, you would control its triggered ability but you have left the game; that ability won't resolve and the card remains in exile. Similarly, if you lose the game at the same time that another player's God that you put onto the battlefield is destroyed, it remains in its owner's graveyard.
   - *2019-05-03* — In the Commander format, a commander's color identity isn't affected by color words (such as black) appearing in its text. If God-Eternal Oketra is your commander, your deck can't contain black mana symbols.
   - *2019-05-03* — Oketra's first triggered ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/G.md#god-eternal-oketra)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/16/god-eternal-oketra) · oracle_id `3b03358d-f87e-4939-afc9-5ee3f044146a` · printing: WAR #16 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Eternal Rhonas
@@ -171,6 +173,7 @@ schema: 2
   - *2014-02-01* — If the inspired ability includes an optional cost, you decide whether to pay that cost as the ability resolves. You can do this even if the creature leaves the battlefield in response to the ability.
   - *2014-02-01* — Inspired abilities don’t trigger when the creature enters the battlefield.
   - *2014-02-01* — Inspired abilities trigger no matter how the creature becomes untapped: by the turn-based action at the beginning of the untap step or by a spell or ability.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#god-favored-general)
 - **Source flags:** [Scryfall](https://scryfall.com/card/bng/14/god-favored-general) · oracle_id `e861ddd5-64f7-4c59-ab96-0c69ef74febe` · printing: BNG #14 (2014-02-07) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godhead of Awe
@@ -220,6 +223,7 @@ schema: 2
 - **Rulings** (2):
   - *2018-10-05* — If an effect puts this land onto the battlefield tapped, you may pay 2 life, but it still enters tapped.
   - *2018-10-05* — Unlike most dual lands, this land has two basic land types. It's not basic, so cards such as District Guide can't find it, but it does have the appropriate land types for effects such as that of Drowned Catacomb (from the Ixalan set).
+- **Referenced in:** 13 pages (9 decks · 3 edh guides · 1 card data) → [reverse index](../../references/G.md#godless-shrine)
 - **Source flags:** [Scryfall](https://scryfall.com/card/trk/285/godless-shrine) · oracle_id `73864fcc-1bde-4bc0-831e-2b93e546e417` · printing: TRK #285 (2026-11-13) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godo, Bandit Warlord
@@ -233,6 +237,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #3318 · Game Changer: no · Can be commander: Yes (legendary creature)
 - **Rulings** (1):
   - *2020-08-07* — Unlike many effects that grant additional combat phases, you don't get an additional main phase with Godo, Bandit Warlord's ability. The additional combat phase happens immediately after the first combat phase.
+- **Referenced in:** 2 pages (1 decks · 1 edh guides) → [reverse index](../../references/G.md#godo-bandit-warlord)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/227/godo-bandit-warlord) · oracle_id `f890d51a-dc90-4179-8423-4738a72a527c` · printing: CMM #227 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godo's Irregulars
@@ -261,6 +266,7 @@ schema: 2
 - **Rulings** (2):
   - *2017-07-14* — If you cast a spell that’s two or more of these colors, you gain only 1 life.
   - *2017-07-14* — The triggered ability of God-Pharaoh’s Faithful will resolve before the spell that caused it to trigger. The ability will resolve even if that spell is countered.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/G.md#god-pharaohs-faithful)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/14/god-pharaohs-faithful) · oracle_id `3f86e6c6-fca5-43e9-88cc-4546cdd5f0ec` · printing: HOU #14 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### God-Pharaoh's Gift
@@ -291,6 +297,7 @@ schema: 2
 - **Rulings** (2):
   - *2019-05-03* — In a Two-Headed Giant game, the last ability of God-Pharaoh's Statue causes the opposing team to lose 2 life.
   - *2019-05-03* — To determine the total cost of a spell, start with the mana cost or alternative cost you're paying, add any cost increases (such as that of God-Pharaoh's Statue's first ability), then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was.
+- **Referenced in:** 3 pages (2 edh guides · 1 lore & story) → [reverse index](../../references/G.md#god-pharaohs-statue)
 - **Source flags:** [Scryfall](https://scryfall.com/card/war/238/god-pharaohs-statue) · oracle_id `183954d2-7b40-4c7e-adfa-d80191ab5ad6` · printing: WAR #238 (2019-05-03) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godsend
@@ -356,6 +363,7 @@ schema: 2
 - **Keywords:** Vigilance
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #15695 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/G.md#godsire)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ala/170/godsire) · oracle_id `4252d7f4-c582-4a21-b3af-829c84cb0b09` · printing: ALA #170 (2008-10-03) · [rulings](https://api.scryfall.com/cards/e2539ff7-2b7d-47e3-bd77-3138a6c42d2b/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Gods Willing
@@ -377,6 +385,7 @@ schema: 2
   - *2013-09-15* — You perform the actions stated on a card in sequence. For some spells and abilities, that means you'll scry last. For others, that means you'll scry and then perform other actions.
   - *2019-07-12* — If the target creature is an illegal target by the time Gods Willing tries to resolve, the spell doesn't resolve. You won't scry 1. If the target creature becomes an illegal target while Gods Willing is resolving (most likely because you gave it protection from white), you do scry 1.
   - *2019-07-12* — You can't choose "artifact" or "colorless" as Gods Willing asks you to choose a color because those are not colors.
+- **Referenced in:** 2 pages (1 decks · 1 card data) → [reverse index](../../references/G.md#gods-willing)
 - **Source flags:** [Scryfall](https://scryfall.com/card/clu/63/gods-willing) · oracle_id `48e603a2-b965-4fbc-ad57-4388bce5ac8b` · printing: CLU #63 (2024-02-23) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Godtoucher

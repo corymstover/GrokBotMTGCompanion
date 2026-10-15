@@ -102,6 +102,7 @@ schema: 2
   - *2016-07-13* — When determining how much damage a creature with trample may assign to the player or planeswalker it's attacking, take into account damage that has already been dealt to the blocking creatures. For example, a 4/4 creature with trample blocked by a 4/4 creature with 2 damage marked on it may assign 2 damage to that creature and 2 damage to the defending player.
   - *2016-07-13* — You can't choose any one mode multiple times.
   - *2016-07-13* — You choose all of your modes at once. You can't wait to perform one mode's actions and then decide to choose more modes.
+- **Referenced in:** 1 page (1 rules) → [reverse index](../../references/S.md#savage-alliance)
 - **Source flags:** [Scryfall](https://scryfall.com/card/inr/169/savage-alliance) · oracle_id `57da1d3f-7469-4efa-9b82-b2d915177d89` · printing: INR #169 (2025-01-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Beating
@@ -118,6 +119,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #2949 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2004-12-01* — The additional combat phase is directly after the combat phase in which Savage Beating is cast. There isn't a main phase between the two combat phases.
+- **Referenced in:** 2 pages (1 rules · 1 card data) → [reverse index](../../references/S.md#savage-beating)
 - **Source flags:** [Scryfall](https://scryfall.com/card/cmm/252/savage-beating) · oracle_id `89d1cd45-8148-4396-a9b8-e0f495e94b5b` · printing: CMM #252 (2023-08-04) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savageborn Hydra
@@ -253,6 +255,7 @@ schema: 2
   > *—Ka-Zar*
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #647 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 3 pages (3 edh guides) → [reverse index](../../references/S.md#savage-lands)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/827/savage-lands) · oracle_id `a3292406-3f49-42d6-a547-e43dd5797f84` · printing: MSC #827 (2026-06-26) · [rulings](https://api.scryfall.com/cards/428df1ff-e13e-48a3-bcc9-301bdc9470fb/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Mansion
@@ -364,6 +367,7 @@ schema: 2
   - *2017-09-29* — If either target is an illegal target as Savage Stomp resolves, neither creature will deal or be dealt damage.
   - *2017-09-29* — If the creature you control is an illegal target as Savage Stomp tries to resolve, you won't put a +1/+1 counter on it. If that creature is a legal target but the other creature isn't, you'll still put the counter on the creature you control.
   - *2017-09-29* — You can't cast Savage Stomp unless you choose both a creature you control and a creature you don't control as targets.
+- **Referenced in:** 1 page (1 decks) → [reverse index](../../references/S.md#savage-stomp)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/257/savage-stomp) · oracle_id `2ecda58d-9aa9-4857-bdc5-b6b7b70a79c0` · printing: LCC #257 (2023-11-17) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savage Summoning
@@ -450,6 +454,7 @@ schema: 2
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #1684 · Game Changer: no · Can be commander: No
 - **Rulings** (1):
   - *2015-02-25* — This mana won't be lost as steps and phases end for the remainder of the turn even if Savage Ventmaw leaves the battlefield during the turn.
+- **Referenced in:** 5 pages (3 decks · 2 edh guides) → [reverse index](../../references/S.md#savage-ventmaw)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fdn/665/savage-ventmaw) · oracle_id `f743d85f-754e-4e70-9907-af54acb9e8d4` · printing: FDN #665 (2024-11-15) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savai Crystal
@@ -512,6 +517,7 @@ schema: 2
 - **Keywords:** Cycling
 - **Commander notes:** Commander format: **legal** · EDHREC rank: #495 · Game Changer: no · Can be commander: No
 - **Rulings:** none published on Scryfall
+- **Referenced in:** 6 pages (3 decks · 2 edh guides · 1 lore & story) → [reverse index](../../references/S.md#savai-triome)
 - **Source flags:** [Scryfall](https://scryfall.com/card/iko/253/savai-triome) · oracle_id `00625242-9348-4ef4-b975-f2ac82fee21d` · printing: IKO #253 (2020-04-24) · [rulings](https://api.scryfall.com/cards/748e6a61-9c1f-4225-9f04-e54002f63ac3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savannah
@@ -524,6 +530,7 @@ schema: 2
 - **Rulings** (2):
   - *2008-10-01* — This has basic land types, but it isn't a basic land. Things that affect basic lands don't affect it. Things that affect basic land types do.
   - *2008-10-01* — This has the mana abilities associated with both of its basic land types.
+- **Referenced in:** 5 pages (3 edh guides · 2 card data) → [reverse index](../../references/S.md#savannah)
 - **Source flags:** [Scryfall](https://scryfall.com/card/vma/311/savannah) · oracle_id `703243f0-8cb3-420f-958f-5fd4bde30293` · printing: VMA #311 (2014-06-16) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Savannah Lions
@@ -627,6 +634,7 @@ schema: 2
   - *2017-07-14* — More damage can be redirected to the enchanted creature than it has toughness, as long as that damage is all dealt at once (like combat damage is).
   - *2017-07-14* — Saving Grace's ability has no effect on damage already dealt earlier in the turn.
   - *2017-07-14* — Saving Grace's redirection effect doesn't change the source of the damage or whether the damage is combat damage.
+- **Referenced in:** 1 page (1 card data) → [reverse index](../../references/S.md#saving-grace)
 - **Source flags:** [Scryfall](https://scryfall.com/card/hou/21/saving-grace) · oracle_id `50ddbea3-7ef4-4f6a-83c9-0c3ea1dfa3c9` · printing: HOU #21 (2017-07-14) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Saving Grasp
