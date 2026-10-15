@@ -20,6 +20,8 @@ from pathlib import Path
 from urllib.parse import quote as urlq, unquote
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+import lore_lib  # noqa: E402  (Bot cycle 31: entry kinds/counts for lore pages)
 I = "https://github.com/corymstover/GrokBotMTGCompanion/issues/"
 SCHEMA_VERSION = 2
 CATEGORIES = {"lore", "edh", "rules", "cards", "meta"}
@@ -35,15 +37,15 @@ IDENTITY_NAMES = {"C": "colorless", "W": "mono-white", "U": "mono-blue", "B": "m
                   "UBRG": "glint", "WBRG": "dune", "WURG": "ink", "WUBG": "witch", "WUBR": "yore", "WUBRG": "five-color"}
 TAG_RX = re.compile(r"^[a-z0-9+]+(-[a-z0-9+]+)*$")
 PAGES = {
-    "Art & Flavor Story Links.md": ("lore", ["art", "flavor", "story-spotlight"], [37], "scripts/build_art_flavor.py", ["scryfall", "wizards-story"]),
+    "Art & Flavor Story Links.md": ("lore", ["lore", "art", "flavor", "story-spotlight"], [37], "scripts/build_art_flavor.py", ["scryfall", "wizards-story"]),
     "Artist Index.md": ("cards", ["artists", "art-credits"], [43], "scripts/build_artists.py", ["scryfall"]),
     "Card Data Conventions.md": ("meta", ["conventions", "card-entries"], [], None, ["scryfall"]),
     "Card Index.md": ("cards", ["index", "coverage"], [1, 2, 5], "scripts/ingest_scryfall.py", ["scryfall"]),
-    "Characters Index.md": ("lore", ["characters", "status", "planeswalkers"], [7, 11, 20], None, ["wizards-story"]),
-    "Conflicts & Arcs.md": ("lore", ["arcs", "conflicts"], [7, 13, 34, 72, 73], None, ["wizards-story"]),
-    "Contradictions & Retcons Log.md": ("lore", ["retcons", "contradictions", "canon"], [73, 76], None, ["wizards-story"]),
-    "Items & Artifacts Index.md": ("lore", ["items", "artifacts", "relics"], [75], None, ["wizards-story"]),
-    "Lore Primary Sources.md": ("lore", ["sources", "primary", "planeswalkers-guide", "story-episodes"], [73], "scripts/build_primary_sources.py", ["wizards-story"]),
+    "Characters Index.md": ("lore", ["lore", "characters", "status", "planeswalkers"], [7, 11, 20, 74, 92, 94], None, ["wizards-story"]),
+    "Conflicts & Arcs.md": ("lore", ["lore", "arcs", "conflicts"], [7, 13, 34, 72, 73, 92, 94], None, ["wizards-story"]),
+    "Contradictions & Retcons Log.md": ("lore", ["lore", "retcons", "contradictions", "canon"], [73, 76, 92, 94], None, ["wizards-story"]),
+    "Items & Artifacts Index.md": ("lore", ["lore", "items", "artifacts", "relics"], [75, 92, 94], None, ["wizards-story"]),
+    "Lore Primary Sources.md": ("lore", ["lore", "sources", "primary", "planeswalkers-guide", "story-episodes"], [73, 94], "scripts/build_primary_sources.py", ["wizards-story"]),
     "EDH Archetypes.md": ("edh", ["archetypes", "strategy"], [16, 19], "scripts/build_archetypes.py", ["scryfall", "edhrec", "spellbook"]),
     "EDH Interaction.md": ("edh", ["removal", "interaction", "stax"], [28], "scripts/build_interaction.py", ["scryfall", "edhrec"]),
     "EDH Mana Bases.md": ("edh", ["lands", "mana-base", "color-identity"], [25], "scripts/build_mana_bases.py", ["scryfall", "edhrec"]),
@@ -62,17 +64,17 @@ PAGES = {
     "Knowledge Index.md": ("meta", ["index", "maintenance"], [], None, []),
     "Knowledge Snapshots.md": ("meta", ["tags", "releases", "snapshots"], [47], None, []),
     "Lookup Guide.md": ("meta", ["lookup", "retrieval"], [46], None, []),
-    "Master Timeline.md": ("lore", ["timeline", "eras"], [7, 72], None, ["wizards-story"]),
-    "Omenpath & Multiverse Connections.md": ("lore", ["omenpaths", "multiverse", "planes"], [36], None, ["wizards-story"]),
-    "Planes Index.md": ("lore", ["planes"], [7, 12], None, ["wizards-story"]),
-    "Planeswalker Dossiers.md": ("lore", ["planeswalkers", "dossiers", "sparks"], [35], None, ["wizards-story"]),
+    "Master Timeline.md": ("lore", ["lore", "timeline", "eras"], [7, 72, 92, 94], None, ["wizards-story"]),
+    "Omenpath & Multiverse Connections.md": ("lore", ["lore", "omenpaths", "multiverse", "planes"], [36], None, ["wizards-story"]),
+    "Planes Index.md": ("lore", ["lore", "planes"], [7, 12, 74, 92, 94], None, ["wizards-story"]),
+    "Planeswalker Dossiers.md": ("lore", ["lore", "planeswalkers", "dossiers", "sparks"], [35, 74, 92, 94], None, ["wizards-story"]),
     "Printing History.md": ("cards", ["printings", "reprints", "reserved-list"], [40], "scripts/build_printings.py", ["scryfall", "wotc-articles"]),
     "Progress Tracker.md": ("meta", ["progress", "milestones"], [], None, []),
     "ROADMAP.md": ("meta", ["roadmap", "sprint"], [], None, []),
     "Rules Interactions.md": ("rules", ["rules", "interactions", "rulings"], [9], "scripts/build_rules_interactions.py", ["cr", "scryfall"]),
-    "Side-Media Index.md": ("lore", ["novels", "comics", "side-media"], [38], None, ["wizards-story", "wotc-articles"]),
-    "Story Arc Summaries.md": ("lore", ["arcs", "story-beats"], [34], None, ["wizards-story"]),
-    "Story Archive Index.md": ("lore", ["story-archive", "sources"], [14], "scripts/crawl_story_index.py", ["wizards-story"]),
+    "Side-Media Index.md": ("lore", ["lore", "novels", "comics", "side-media"], [38], None, ["wizards-story", "wotc-articles"]),
+    "Story Arc Summaries.md": ("lore", ["lore", "arcs", "story-beats"], [34], None, ["wizards-story"]),
+    "Story Archive Index.md": ("lore", ["lore", "story-archive", "sources"], [14], "scripts/crawl_story_index.py", ["wizards-story"]),
     "Tokens, Emblems & Dungeons.md": ("cards", ["tokens", "emblems", "dungeons", "not-cards"], [42], "scripts/build_tokens.py", ["scryfall", "cr"]),
     "Update Log.md": ("meta", ["changelog"], [], None, []),
     "cEDH Primer.md": ("edh", ["cedh", "competitive", "bracket-5"], [29], "scripts/build_cedh.py", ["scryfall", "spellbook"]),
@@ -86,8 +88,11 @@ PAGES = {
     # Bot cycle 17 — Phase 5 optimization pass (#65–#68)
     "EDH Bracket Calibration.md": ("edh", ["brackets", "calibration", "game-changers", "combos", "pilot-notes"], [68], "scripts/deck_calibration.py", ["scryfall", "spellbook", "edhrec", "wotc-articles"]),
     "Front-Matter Schema.md": ("meta", ["schema", "front-matter", "tags", "retrieval"], [65], "scripts/front_matter.py", []),
+    # Bot cycle 31 — Phase 7 lore optimization pass (#92–#96)
+    "Lore Entry Index.md": ("lore", ["lore", "index", "entries", "retrieval"], [92, 94], "scripts/build_lore_index.py", ["wizards-story"]),
     "grixis/Grixis Integration Summary.md": ("meta", ["grixis", "summary", "follow-ups"], [59, 60, 61, 62, 63], None, ["grixis-repo"]),
 }
+INDEX_ONLY = {"Lore Entry Index.md"}  # generated hub that links every lore page; never counted as another page's "related"
 SUBDIRS = ["grixis"]  # sub-folders whose .md pages must be registered (decks/ folders are handled as decks)
 DECK_DIRS = ["decks", "grixis/decks"]
 SHARD_DIR = "cards"
@@ -103,6 +108,8 @@ SCHEMA = {
         "generated_by": ("script path or `hand-written`", True, "Generator to re-run instead of hand-editing."),
         "sources": ("list of source keys", True, "Where the facts come from (source keys below)."),
         "related": ("list of page paths", True, "Up to 6 most strongly linked registered pages (links in + out; meta pages excluded for non-meta pages). Computed."),
+        "entry_kind": ("enum: arc/era/dossier/character/plane/item/retcon", False, "Lore entry pages only (Bot cycle 31, #92): what each entry on the page is (see scripts/lore_lib.py ENTRY_PAGES)."),
+        "entries": ("int", False, "Lore entry pages only: number of entries on the page (indexed in data/lore_entries.json and Lore Entry Index.md)."),
         "schema": ("int", True, f"Front-matter schema version (currently {SCHEMA_VERSION})."),
     },
     "deck": {
@@ -200,7 +207,7 @@ def related_map():
     _REL = {}
     for name in PAGES:
         meta = PAGES[name][0] == "meta"
-        cands = [(n, k) for k, n in w[name].items() if meta or PAGES[k][0] != "meta"]
+        cands = [(n, k) for k, n in w[name].items() if (meta or PAGES[k][0] != "meta") and k not in INDEX_ONLY]
         cands.sort(key=lambda x: (-x[0], x[1]))
         _REL[name] = [k for _, k in cands[:6]]
     return _REL
@@ -211,9 +218,12 @@ def page_fm(path, body):
     rel = str(path.relative_to(ROOT))
     cat, tags, issues, gen, src = PAGES[rel]
     related = ", ".join(q(r) for r in related_map()[rel])
-    return "\n".join(["---", f"title: {q(h1(body, path.stem))}", f"category: {cat}", f"tags: {ylist(tags)}",
-                      f"issues: {ylist(issues)}", f"generated_by: {gen or 'hand-written'}", f"sources: {ylist(src)}",
-                      f"related: [{related}]", f"schema: {SCHEMA_VERSION}", "---", ""])
+    lines = ["---", f"title: {q(h1(body, path.stem))}", f"category: {cat}", f"tags: {ylist(tags)}",
+             f"issues: {ylist(issues)}", f"generated_by: {gen or 'hand-written'}", f"sources: {ylist(src)}",
+             f"related: [{related}]"]
+    if rel in lore_lib.ENTRY_PAGES:  # Bot cycle 31 (#92): lore entry pages carry their entry kind and count
+        lines += [f"entry_kind: {lore_lib.ENTRY_PAGES[rel][0]}", f"entries: {len(lore_lib.entries(rel))}"]
+    return "\n".join(lines + [f"schema: {SCHEMA_VERSION}", "---", ""])
 
 
 def slug(s):
@@ -423,6 +433,9 @@ def schema_page():
           "- a top-level or `grixis/` page is not in the registry, or this schema page is stale.", "",
           "## Filtering examples", "", "| I want… | Command |", "|---|---|",
           "| All lore pages | `rg -l '^category: lore' *.md` |",
+          "| Lore pages made of entries, with counts | `rg -n '^entries: ' *.md` |",
+          "| Every lore entry flagged ❓ unknown | `python3 scripts/kb_find.py --tag has-unknowns --category lore` |",
+          "| Dossiers/characters whose spark is lost | `python3 scripts/kb_find.py --tag spark-lost` |",
           "| Pages about brackets | `rg -l '^tags: .*\\bbrackets\\b' *.md grixis/*.md` |",
           "| Pages related to Rules Interactions | `rg -l '^related: .*Rules Interactions' *.md` |",
           "| Decks with a two-card infinite | `rg -l '^tags: .*two-card-infinite' decks grixis/decks` |",

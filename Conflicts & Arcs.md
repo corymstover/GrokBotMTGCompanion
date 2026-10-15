@@ -1,11 +1,13 @@
 ---
 title: "Conflicts & Arcs"
 category: lore
-tags: [arcs, conflicts]
-issues: [7, 13, 34, 72, 73]
+tags: [lore, arcs, conflicts]
+issues: [7, 13, 34, 72, 73, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Characters Index.md", "Master Timeline.md", "Planes Index.md", "Contradictions & Retcons Log.md", "Items & Artifacts Index.md", "Lore Primary Sources.md"]
+entry_kind: arc
+entries: 40
 schema: 2
 ---
 
@@ -257,7 +259,7 @@ schema: 2
 
 **Key beats:**
 - Present (Khans): five warrior clans under khans; dragons nearly extinct. Sarkhan and (separately) Sorin seek Ugin; Sorin came because he, Ugin and Nahiri once imprisoned the Eldrazi ([Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29)).
-- Sarkhan passes through the Nexus more than a thousand years into Tarkir's past — the Temur "unwritten now" — and witnesses Ugin vs Bolas. He saves Ugin so "dragon tempests kept birthing dragons" ([Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane); [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07)).
+- Sarkhan passes through the Nexus more than a thousand years into Tarkir's past — the Temur "unwritten now" — and witnesses Ugin vs Bolas. By saving Ugin "he ensured the continuing presence of the dragon tempests, the storms that feed on Ugin's magic and birth dragons" ([Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane); [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07)).
 - Altered present (Dragons): "the defeated clans are ruled by five legendary dragonlords" who reshape clan identity ([Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane)).
 
 **Outcome:** A dragon-ruled present; Ugin alive.

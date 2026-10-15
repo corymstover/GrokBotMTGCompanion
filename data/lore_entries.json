@@ -1,0 +1,6342 @@
+{
+ "generated_by": "scripts/build_lore_index.py",
+ "entries": 260,
+ "by_kind": {
+  "dossier": 38,
+  "plane": 42,
+  "item": 26,
+  "retcon": 29,
+  "character": 78,
+  "era": 7,
+  "arc": 40
+ },
+ "items": [
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Jace Beleren",
+   "anchor": "jace-beleren",
+   "tags": [
+    "dossier",
+    "dead"
+   ],
+   "citations": 20,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#jace-beleren"
+    ],
+    "planes": [
+     "Planes Index.md#vryn"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Chandra Nalaar",
+   "anchor": "chandra-nalaar",
+   "tags": [
+    "dossier",
+    "planeswalker"
+   ],
+   "citations": 13,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#chandra-nalaar"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Nissa Revane",
+   "anchor": "nissa-revane",
+   "tags": [
+    "dossier",
+    "spark-lost"
+   ],
+   "citations": 14,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#nissa-revane"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Liliana Vess",
+   "anchor": "liliana-vess",
+   "tags": [
+    "dossier",
+    "spark-lost"
+   ],
+   "citations": 10,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#liliana-vess"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Elspeth Tirel",
+   "anchor": "elspeth-tirel",
+   "tags": [
+    "dossier",
+    "has-secondary",
+    "alive-or-active"
+   ],
+   "citations": 11,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#elspeth-tirel"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Karn",
+   "anchor": "karn",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "has-non-canonical",
+    "spark-given-up"
+   ],
+   "citations": 10,
+   "flags": {
+    "unknown": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#karn"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Teferi",
+   "anchor": "teferi",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-faded"
+   ],
+   "citations": 9,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#teferi"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Ajani Goldmane",
+   "anchor": "ajani-goldmane",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 12,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ajani-goldmane"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Kaya",
+   "anchor": "kaya",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 9,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#kaya"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Kaito Shizuki",
+   "anchor": "kaito-shizuki",
+   "tags": [
+    "dossier",
+    "planeswalker"
+   ],
+   "citations": 8,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#kaito-shizuki"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Vraska",
+   "anchor": "vraska",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-lost"
+   ],
+   "citations": 12,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#vraska"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Tamiyo",
+   "anchor": "tamiyo",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "dead"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#tamiyo"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Sarkhan Vol",
+   "anchor": "sarkhan-vol",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#sarkhan-vol"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Gideon Jura",
+   "anchor": "gideon-jura",
+   "tags": [
+    "dossier",
+    "dead"
+   ],
+   "citations": 11,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#gideon-jura"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Nahiri",
+   "anchor": "nahiri",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-lost"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#nahiri"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Sorin Markov",
+   "anchor": "sorin-markov",
+   "tags": [
+    "dossier",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 6,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#sorin-markov"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Ugin",
+   "anchor": "ugin",
+   "tags": [
+    "dossier",
+    "alive-or-active"
+   ],
+   "citations": 8,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#ugin"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Nicol Bolas",
+   "anchor": "nicol-bolas",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 9,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#nicol-bolas"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Ral Zarek",
+   "anchor": "ral-zarek",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ral-zarek"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Oko",
+   "anchor": "oko",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 6,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#oko"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#okos-origin-revealed"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Tezzeret",
+   "anchor": "tezzeret",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#tezzeret"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Tam",
+   "anchor": "tam",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 5,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#tam"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tam-revealed-as-jaces-creation"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Garruk Wildspeaker",
+   "anchor": "garruk-wildspeaker",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 5,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#garruk-wildspeaker"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Wrenn",
+   "anchor": "wrenn",
+   "tags": [
+    "dossier",
+    "dead"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#wrenn"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Niv-Mizzet",
+   "anchor": "niv-mizzet",
+   "tags": [
+    "dossier"
+   ],
+   "citations": 7,
+   "flags": {},
+   "links": {
+    "characters": [
+     "Characters Index.md#proft-etrata-aminatou-niv-mizzet"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Kiora",
+   "anchor": "kiora",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 7,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#kiora"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Koth",
+   "anchor": "koth",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-faded"
+   ],
+   "citations": 6,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#koth"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Narset",
+   "anchor": "narset",
+   "tags": [
+    "dossier",
+    "alive-or-active"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#narset"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Saheeli Rai",
+   "anchor": "saheeli-rai",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-lost"
+   ],
+   "citations": 5,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#saheeli-rai"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Huatli",
+   "anchor": "huatli",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "spark-lost"
+   ],
+   "citations": 5,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#huatli"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Samut",
+   "anchor": "samut",
+   "tags": [
+    "dossier",
+    "alive-or-active"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#samut"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Dovin Baan",
+   "anchor": "dovin-baan",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 5,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#dovin-baan"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Angrath",
+   "anchor": "angrath",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#angrath"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Venser",
+   "anchor": "venser",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "has-non-canonical",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#venser"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Xenagos",
+   "anchor": "xenagos",
+   "tags": [
+    "dossier",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#xenagos"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#godsend--khrusor"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Ashiok",
+   "anchor": "ashiok",
+   "tags": [
+    "dossier",
+    "has-secondary",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 5,
+   "flags": {
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ashiok"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Rowan & Will Kenrith",
+   "anchor": "rowan--will-kenrith",
+   "tags": [
+    "dossier",
+    "has-unknowns"
+   ],
+   "citations": 6,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#rowan-kenrith",
+     "Characters Index.md#will-kenrith"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#queue-for-later-cycles"
+    ]
+   }
+  },
+  {
+   "page": "Planeswalker Dossiers.md",
+   "kind": "dossier",
+   "name": "Teyo Verada",
+   "anchor": "teyo-verada",
+   "tags": [
+    "dossier",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#teyo-verada"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Kaldheim",
+   "anchor": "kaldheim",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 8
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "cards": [
+     "cards/A/al.md#alrund-god-of-the-cosmos--hakka-whispering-raven",
+     "cards/B/bi.md#birgi-god-of-storytelling--harnfel-horn-of-bounty",
+     "cards/C/cos.md#cosima-god-of-the-voyage--the-omenkeel",
+     "cards/D/do.md#doomskar",
+     "cards/E/eg.md#egon-god-of-death--throne-of-death",
+     "cards/E/es.md#esika-god-of-the-tree--the-prismatic-bridge",
+     "cards/H/ha.md#halvar-god-of-battle--sword-of-the-realms",
+     "cards/I/ing.md#inga-rune-eyes",
+     "cards/J/jo.md#jorn-god-of-winter--kaldring-the-rimestaff",
+     "cards/K/ko.md#kolvori-god-of-kinship--the-ringhart-crest",
+     "cards/K/ko.md#koma-cosmos-serpent",
+     "cards/R/rei.md#reidane-god-of-the-worthy--valkmira-protectors-shield",
+     "cards/T/te.md#tergrid-god-of-fright--tergrids-lantern",
+     "cards/T/to.md#toralf-god-of-fury--toralfs-hammer",
+     "cards/T/to.md#toski-bearer-of-secrets",
+     "cards/T/ty.md#tyvar-kell",
+     "cards/V/va.md#valki-god-of-lies--tibalt-cosmic-impostor",
+     "cards/V/va.md#varragoth-bloodsky-sire"
+    ],
+    "characters": [
+     "Characters Index.md"
+    ],
+    "planes": [
+     "Planes Index.md#special-realms--cosmology"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Eldraine",
+   "anchor": "eldraine",
+   "tags": [
+    "plane",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 4,
+    "secondary": 1
+   },
+   "links": {
+    "cards": [
+     "cards/A/ag.md#agatha-of-the-vile-cauldron",
+     "cards/C/cau.md#cauldron-of-souls",
+     "cards/E/er.md#eriette-of-the-charmed-apple",
+     "cards/G/ga.md#gadwick-the-wizened",
+     "cards/H/hy.md#hylda-of-the-icy-crown",
+     "cards/K/ke.md#kellan-the-fae-blooded--birthright-boon",
+     "cards/L/li.md#linden-the-steadfast-queen",
+     "cards/Q/qu.md#questing-beast",
+     "cards/R/ran.md#rankle-master-of-pranks",
+     "cards/R/ru.md#ruby-daring-tracker",
+     "cards/T/ta.md#talion-the-kindly-lord"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ikoria",
+   "anchor": "ikoria",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "cards": [
+     "cards/B/br.md#brokkos-apex-of-forever",
+     "cards/D/dra.md#drannith-magistrate",
+     "cards/I/il.md#illuna-apex-of-wishes",
+     "cards/I/ind.md#indatha-triome",
+     "cards/K/ke.md#ketria-triome",
+     "cards/K/ki.md#kinnan-bonder-prodigy",
+     "cards/N/ne.md#nethroi-apex-of-death",
+     "cards/R/rau.md#raugrin-triome",
+     "cards/S/sav.md#savai-triome",
+     "cards/S/sn.md#snapdax-apex-of-the-hunt",
+     "cards/V/va.md#vadrok-apex-of-thunder",
+     "cards/W/wi.md#winota-joiner-of-forces",
+     "cards/Z/za.md#zagoth-triome"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "New Capenna",
+   "anchor": "new-capenna",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 5
+   },
+   "links": {
+    "cards": [
+     "cards/F/fa.md#falco-spara-pactweaver",
+     "cards/J/je.md#jetmir-nexus-of-revels",
+     "cards/J/je.md#jetmirs-garden",
+     "cards/L/lo.md#lord-xander-the-collector",
+     "cards/R/raf.md#raffine-scheming-seer",
+     "cards/R/raf.md#raffines-tower",
+     "cards/S/spa.md#sparas-headquarters",
+     "cards/X/xa.md#xanders-lounge",
+     "cards/Z/zi.md#ziatora-the-incinerator",
+     "cards/Z/zi.md#ziatoras-proving-ground"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Phyrexia (Old Phyrexia) & New Phyrexia's spheres",
+   "anchor": "phyrexia-old-phyrexia--new-phyrexias-spheres",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 5
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "cards": [
+     "cards/E/el.md#elesh-norn-mother-of-machines",
+     "cards/G/gl.md#glissa-sunslayer",
+     "cards/J/ji.md#jin-gitaxias-progress-tyrant",
+     "cards/M/me.md#memnarch",
+     "cards/S/she.md#sheoldred-the-apocalypse",
+     "cards/T/te.md#tezzeret-betrayer-of-flesh",
+     "cards/U/ur.md#urabrask--the-great-work",
+     "cards/V/vo.md#vorinclex-monstrous-raider",
+     "cards/Y/ya.md#yawgmoth-thran-physician"
+    ],
+    "characters": [
+     "Characters Index.md#brothers-war--weatherlight"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#kaldheim",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ravnica after the invasion (Murders at Karlov Manor)",
+   "anchor": "ravnica-after-the-invasion-murders-at-karlov-manor",
+   "tags": [
+    "plane",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "cards": [
+     "cards/A/au.md#aurelia-exemplar-of-justice",
+     "cards/B/bo.md#borborygmos",
+     "cards/L/la.md#lavinia-azorius-renegade",
+     "cards/L/la.md#lazav-familiar-stranger",
+     "cards/N/ni.md#niv-mizzet-reborn",
+     "cards/R/rak.md#rakdos-lord-of-riots",
+     "cards/R/ral.md#ral-crackling-wit",
+     "cards/T/tro.md#trostani-three-whispers",
+     "cards/V/vr.md#vraska-golgari-queen"
+    ],
+    "characters": [
+     "Characters Index.md#post-mending-planeswalkers"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Skalla",
+   "anchor": "skalla",
+   "tags": [
+    "plane",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "cards": [
+     "cards/V/vi.md#vivien-reid"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Vryn",
+   "anchor": "vryn",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "cards": [
+     "cards/J/ja.md#jace-vryns-prodigy--jace-telepath-unbound",
+     "cards/M/mag.md#mage-ring-network"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Regatha",
+   "anchor": "regatha",
+   "tags": [
+    "plane"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#jaya-ballard"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Rath",
+   "anchor": "rath",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Mercadia",
+   "anchor": "mercadia",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ],
+    "planes": [
+     "Planes Index.md#rath"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ulgrotha",
+   "anchor": "ulgrotha",
+   "tags": [
+    "plane",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "cards": [
+     "cards/A/ap.md#apocalypse-chime",
+     "cards/B/bar.md#baron-sengir",
+     "cards/F/fe.md#ferozs-ban",
+     "cards/G/gra.md#grandmother-sengir"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ergamon",
+   "anchor": "ergamon",
+   "tags": [
+    "plane",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "cards": [
+     "cards/I/inv.md#invasion-of-ergamon--truga-cliffcharger"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Theros: the Underworld (Theros Beyond Death)",
+   "anchor": "theros-the-underworld-theros-beyond-death",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#theros-beyond-death-2020"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Muraganda",
+   "anchor": "muraganda",
+   "tags": [
+    "plane"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#garruk-wildspeaker"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Kylem",
+   "anchor": "kylem",
+   "tags": [
+    "plane"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#rowan-kenrith",
+     "Characters Index.md#will-kenrith"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Gobakhan",
+   "anchor": "gobakhan",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Shenmeng",
+   "anchor": "shenmeng",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#mu-yanling"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Segovia",
+   "anchor": "segovia",
+   "tags": [
+    "plane"
+   ],
+   "citations": 1,
+   "flags": {},
+   "links": {}
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Zendikar (Zendikar Rising era)",
+   "anchor": "zendikar-zendikar-rising-era",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 5
+   },
+   "links": {
+    "cards": [
+     "cards/D/dra.md#drana-liberator-of-malakir",
+     "cards/L/li.md#linvala-the-preserver",
+     "cards/N/na.md#nahiri-heir-of-the-ancients"
+    ],
+    "characters": [
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nissa-revane"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Kamigawa (Neon Dynasty era)",
+   "anchor": "kamigawa-neon-dynasty-era",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "cards": [
+     "cards/E/ei.md#eiganjo-seat-of-the-empire",
+     "cards/H/hi.md#hidetsugu-devouring-chaos",
+     "cards/K/ka.md#kaito-shizuki",
+     "cards/R/ri.md#risona-asari-commander"
+    ],
+    "characters": [
+     "Characters Index.md#kaito-shizuki"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Dominaria (Dominaria United era)",
+   "anchor": "dominaria-dominaria-united-era",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "cards": [
+     "cards/J/jh.md#jhoira-ageless-innovator",
+     "cards/R/rad.md#radha-coalition-warlord",
+     "cards/S/she.md#sheoldred-the-apocalypse"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Arcavios — the Strixhaven colleges",
+   "anchor": "arcavios--the-strixhaven-colleges",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "cards": [
+     "cards/S/si.md#silverquill-campus"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Kaladesh → Avishkar",
+   "anchor": "kaladesh--avishkar",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#aetherdrift-2025",
+     "Conflicts & Arcs.md#kaladesh-revolt"
+    ],
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#saheeli-rai"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#kaladesh--avishkar-rename"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Amonkhet",
+   "anchor": "amonkhet",
+   "tags": [
+    "plane"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#amonkhet--the-god-pharaoh"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#did-bolas-create-amonkhet"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ixalan",
+   "anchor": "ixalan",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#rivals-of-ixalan-alternate-endings-vs-lci-canon"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Innistrad",
+   "anchor": "innistrad",
+   "tags": [
+    "plane"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 4
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Conflicts & Arcs.md#innistrad-midnight-hunt--crimson-vow-2021"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Zendikar (Eldrazi era)",
+   "anchor": "zendikar-eldrazi-era",
+   "tags": [
+    "plane"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch"
+    ],
+    "planes": [
+     "Planes Index.md#zendikar-zendikar-rising-era"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Theros",
+   "anchor": "theros",
+   "tags": [
+    "plane"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#theros-beyond-death-2020",
+     "Conflicts & Arcs.md#theros-xenagoss-ascension--elspeths-fall"
+    ],
+    "planes": [
+     "Planes Index.md#theros-the-underworld-theros-beyond-death"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Tarkir",
+   "anchor": "tarkir",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tarkir-timeline-rewrite"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Ravnica (before the invasion)",
+   "anchor": "ravnica-before-the-invasion",
+   "tags": [
+    "plane"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#elderspell",
+     "Items & Artifacts Index.md#immortal-sun"
+    ],
+    "planes": [
+     "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Alara",
+   "anchor": "alara",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#conflux-of-alara"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Mirrodin (before Phyrexia)",
+   "anchor": "mirrodin-before-phyrexia",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Lorwyn-Shadowmoor",
+   "anchor": "lorwyn-shadowmoor",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#lorwyn-eclipsed-202526"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Dominaria (before Dominaria United)",
+   "anchor": "dominaria-before-dominaria-united",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "planes": [
+     "Planes Index.md#dominaria-dominaria-united-era"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Kamigawa (Kami War era)",
+   "anchor": "kamigawa-kami-war-era",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kamigawa-neon-dynasty-2022"
+    ],
+    "planes": [
+     "Planes Index.md#kamigawa-neon-dynasty-era"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Fiora",
+   "anchor": "fiora",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Shandalar",
+   "anchor": "shandalar",
+   "tags": [
+    "plane"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "items": [
+     "Items & Artifacts Index.md#chain-veil"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Thunder Junction",
+   "anchor": "thunder-junction",
+   "tags": [
+    "plane",
+    "has-secondary"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 2,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Bloomburrow",
+   "anchor": "bloomburrow",
+   "tags": [
+    "plane"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#bloomburrow-2024"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Duskmourn",
+   "anchor": "duskmourn",
+   "tags": [
+    "plane"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024"
+    ]
+   }
+  },
+  {
+   "page": "Planes Index.md",
+   "kind": "plane",
+   "name": "Sothera system (the Edge)",
+   "anchor": "sothera-system-the-edge",
+   "tags": [
+    "plane",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#edge-of-eternities-2025"
+    ],
+    "cards": [
+     "cards/S/so.md#sothera-the-supervoid"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Golgothian Sylex",
+   "anchor": "golgothian-sylex",
+   "tags": [
+    "item",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 8,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#the-brothers-war",
+     "Conflicts & Arcs.md#the-brothers-war-frame-story-2022"
+    ],
+    "cards": [
+     "cards/G/gol.md#golgothian-sylex",
+     "cards/K/ka.md#karns-sylex"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#the-sylex-plan-karn-2018-vs-the-invasion-copy",
+     "Contradictions & Retcons Log.md#who-made-the-sylex"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Blackblade",
+   "anchor": "blackblade",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "cards": [
+     "cards/B/bla.md#blackblade-reforged"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Immortal Sun",
+   "anchor": "immortal-sun",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "cards": [
+     "cards/T/thei.md#the-immortal-sun"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Chain Veil",
+   "anchor": "chain-veil",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "cards": [
+     "cards/T/thec.md#the-chain-veil"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Godsend & Khrusor",
+   "anchor": "godsend--khrusor",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#theros-beyond-death-2020",
+     "Conflicts & Arcs.md#theros-xenagoss-ascension--elspeths-fall"
+    ],
+    "cards": [
+     "cards/G/god.md#godsend"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Helvault",
+   "anchor": "helvault",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad--emrakul"
+    ],
+    "cards": [
+     "cards/H/he.md#helvault"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Hedrons",
+   "anchor": "hedrons",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch"
+    ],
+    "cards": [
+     "cards/H/he.md#hedron-archive"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Planar Bridge",
+   "anchor": "planar-bridge",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kaladesh-revolt",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "cards": [
+     "cards/P/pl.md#planar-bridge"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Spear of Hazoret",
+   "anchor": "spear-of-hazoret",
+   "tags": [
+    "item",
+    "has-unknowns"
+   ],
+   "citations": 1,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Temporal Anchor",
+   "anchor": "temporal-anchor",
+   "tags": [
+    "item",
+    "has-unknowns"
+   ],
+   "citations": 1,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-brothers-war-frame-story-2022"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Ozolith",
+   "anchor": "ozolith",
+   "tags": [
+    "item",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ikoria-lair-of-behemoths-2020"
+    ],
+    "cards": [
+     "cards/T/theo.md#the-ozolith"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Endstone",
+   "anchor": "endstone",
+   "tags": [
+    "item",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#edge-of-eternities-2025"
+    ],
+    "cards": [
+     "cards/T/thee.md#the-endstone"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Halo",
+   "anchor": "halo",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023",
+     "Conflicts & Arcs.md#streets-of-new-capenna-2022"
+    ],
+    "cards": [
+     "cards/H/ha.md#halo-forager",
+     "cards/H/ha.md#halo-fountain"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Lithoform Core",
+   "anchor": "lithoform-core",
+   "tags": [
+    "item",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#zendikar-rising-2020"
+    ],
+    "cards": [
+     "cards/L/li.md#lithoform-engine"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Mightstone & Weakstone",
+   "anchor": "mightstone--weakstone",
+   "tags": [
+    "item",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "cards": [
+     "cards/T/them.md#the-mightstone-and-weakstone"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Celestus, Sungold Lock & Moonsilver Key",
+   "anchor": "celestus-sungold-lock--moonsilver-key",
+   "tags": [
+    "item",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad-midnight-hunt--crimson-vow-2021"
+    ],
+    "cards": [
+     "cards/M/moo.md#moonsilver-key",
+     "cards/T/thec.md#the-celestus"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#the-moonsilver-key-innistrad-relic-then-teferis-artifact"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Biblioplex & the Blood Avatar (Strixhaven)",
+   "anchor": "biblioplex--the-blood-avatar-strixhaven",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#secrets-of-strixhaven-2026",
+     "Conflicts & Arcs.md#strixhaven-2021"
+    ],
+    "cards": [
+     "cards/H/ha.md#hall-of-oracles"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Reality Chip",
+   "anchor": "reality-chip",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 4,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kamigawa-neon-dynasty-2022"
+    ],
+    "cards": [
+     "cards/T/ther.md#the-reality-chip"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "World Tree & the Sword of the Realms (Kaldheim)",
+   "anchor": "world-tree--the-sword-of-the-realms-kaldheim",
+   "tags": [
+    "item",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kaldheim-2021"
+    ],
+    "cards": [
+     "cards/D/do.md#doomskar",
+     "cards/K/ko.md#koma-cosmos-serpent",
+     "cards/T/thew.md#the-world-tree"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Theros god weapons",
+   "anchor": "theros-god-weapons",
+   "tags": [
+    "item",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#theros-xenagoss-ascension--elspeths-fall"
+    ],
+    "cards": [
+     "cards/B/bi.md#bident-of-thassa",
+     "cards/B/bo.md#bow-of-nylea",
+     "cards/H/ha.md#hammer-of-purphoros",
+     "cards/W/wh.md#whip-of-erebos"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#godsend--khrusor"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Mana Rig, powerstones & Thran steel (DMU)",
+   "anchor": "mana-rig-powerstones--thran-steel-dmu",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#dominaria-united-2022"
+    ],
+    "cards": [
+     "cards/T/them.md#the-mana-rig"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Singularity beads (EOE)",
+   "anchor": "singularity-beads-eoe",
+   "tags": [
+    "item"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#edge-of-eternities-2025"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "A piece of the House (Duskmourn)",
+   "anchor": "a-piece-of-the-house-duskmourn",
+   "tags": [
+    "item"
+   ],
+   "citations": 2,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024"
+    ],
+    "planes": [
+     "Planes Index.md#duskmourn"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Elderspell",
+   "anchor": "elderspell",
+   "tags": [
+    "item"
+   ],
+   "citations": 1,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Realmbreaker, the Invasion Tree",
+   "anchor": "realmbreaker-the-invasion-tree",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#dominaria-united-2022",
+     "Conflicts & Arcs.md#march-of-the-machine-2023"
+    ],
+    "cards": [
+     "cards/R/rea.md#realmbreaker-the-invasion-tree"
+    ]
+   }
+  },
+  {
+   "page": "Items & Artifacts Index.md",
+   "kind": "item",
+   "name": "Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)",
+   "anchor": "stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir",
+   "tags": [
+    "item",
+    "has-cards"
+   ],
+   "citations": 1,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ],
+    "cards": [
+     "cards/C/cr.md#crucible-of-the-spirit-dragon"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Tarkir timeline rewrite",
+   "anchor": "tarkir-timeline-rewrite",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 4,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "eras": [
+     "Master Timeline.md#pre-mending--ancient"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Kaladesh → Avishkar rename",
+   "anchor": "kaladesh--avishkar-rename",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#aetherdrift-2025",
+     "Conflicts & Arcs.md#kaladesh-revolt"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "AR (After Reckoning) expansion",
+   "anchor": "ar-after-reckoning-expansion",
+   "tags": [
+    "retcon",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 2,
+   "flags": {
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "eras": [
+     "Master Timeline.md#dated-events-ar"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Emrakul's path off Zendikar",
+   "anchor": "emrakuls-path-off-zendikar",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 4,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#innistrad--emrakul"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Bolas after War of the Spark",
+   "anchor": "bolas-after-war-of-the-spark",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#cross-arc-threads",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Omenpath term (Kaldheim → Multiverse)",
+   "anchor": "omenpath-term-kaldheim--multiverse",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kaldheim-2021",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Tibalt disguised as Valki",
+   "anchor": "tibalt-disguised-as-valki",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 2,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kaldheim-2021"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "The Wanderer is the Emperor of Kamigawa",
+   "anchor": "the-wanderer-is-the-emperor-of-kamigawa",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 2,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#kamigawa-neon-dynasty-2022"
+    ],
+    "characters": [
+     "Characters Index.md#the-wanderer"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Tamiyo after compleation",
+   "anchor": "tamiyo-after-compleation",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 4,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024",
+     "Conflicts & Arcs.md#march-of-the-machine-2023"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Jace compleated, then healed",
+   "anchor": "jace-compleated-then-healed",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 3,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024",
+     "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "\"Ashiok\" on Eldraine was Jace",
+   "anchor": "ashiok-on-eldraine-was-jace",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 2,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#bloomburrow-2024",
+     "Conflicts & Arcs.md#wilds-of-eldraine-2023"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Jace: dead, then fragments, then dead",
+   "anchor": "jace-dead-then-fragments-then-dead",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 5,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#jace-compleated-then-healed"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Oko's origin revealed",
+   "anchor": "okos-origin-revealed",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#lorwyn-eclipsed-202526"
+    ],
+    "characters": [
+     "Characters Index.md#oko"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Tam revealed as Jace's creation",
+   "anchor": "tam-revealed-as-jaces-creation",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 3,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#secrets-of-strixhaven-2026"
+    ],
+    "characters": [
+     "Characters Index.md#tam"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Did Bolas create Amonkhet?",
+   "anchor": "did-bolas-create-amonkhet",
+   "tags": [
+    "retcon",
+    "has-secondary"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#amonkhet--the-god-pharaoh",
+     "Conflicts & Arcs.md#kaladesh-revolt"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Rivals of Ixalan alternate endings vs LCI canon",
+   "anchor": "rivals-of-ixalan-alternate-endings-vs-lci-canon",
+   "tags": [
+    "retcon",
+    "has-non-canonical"
+   ],
+   "citations": 2,
+   "flags": {
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023"
+    ],
+    "planes": [
+     "Planes Index.md#ixalan"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Spark loss after the invasion (MAT → LCI)",
+   "anchor": "spark-loss-after-the-invasion-mat--lci",
+   "tags": [
+    "retcon",
+    "has-unknowns",
+    "has-retcon"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1,
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-the-aftermath-2023",
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023"
+    ],
+    "characters": [
+     "Characters Index.md"
+    ],
+    "dossiers": [
+     "Planeswalker Dossiers.md"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Teferi's spark: given up, then a Planeswalker again",
+   "anchor": "teferis-spark-given-up-then-a-planeswalker-again",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "dossiers": [
+     "Planeswalker Dossiers.md#teferi"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "The sylex plan: Karn (2018) vs the invasion copy",
+   "anchor": "the-sylex-plan-karn-2018-vs-the-invasion-copy",
+   "tags": [
+    "retcon",
+    "has-unknowns",
+    "has-retcon"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 1,
+    "retcon": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#the-brothers-war-frame-story-2022"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#golgothian-sylex"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "The Immortal Sun: built for Torrezon, found in Orazca",
+   "anchor": "the-immortal-sun-built-for-torrezon-found-in-orazca",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#immortal-sun"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Nahiri's spark: sensed by Ajani, but gone",
+   "anchor": "nahiris-spark-sensed-by-ajani-but-gone",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#nahiri",
+     "Characters Index.md#sparks-after-the-phyrexian-invasion"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#hedrons"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "The Moonsilver Key: Innistrad relic, then Teferi's artifact",
+   "anchor": "the-moonsilver-key-innistrad-relic-then-teferis-artifact",
+   "tags": [
+    "retcon",
+    "has-secondary"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 2
+   },
+   "links": {
+    "items": [
+     "Items & Artifacts Index.md#celestus-sungold-lock--moonsilver-key",
+     "Items & Artifacts Index.md#temporal-anchor"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Did the sylex blast cause the spark loss?",
+   "anchor": "did-the-sylex-blast-cause-the-spark-loss",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#sparks-after-the-phyrexian-invasion"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#golgothian-sylex"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#spark-loss-after-the-invasion-mat--lci"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Elspeth: struck down on Theros, then back",
+   "anchor": "elspeth-struck-down-on-theros-then-back",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "dossiers": [
+     "Planeswalker Dossiers.md#elspeth-tirel"
+    ],
+    "items": [
+     "Items & Artifacts Index.md#godsend--khrusor"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "The Living Guildpact: Jace, then Niv-Mizzet",
+   "anchor": "the-living-guildpact-jace-then-niv-mizzet",
+   "tags": [
+    "retcon",
+    "has-retcon"
+   ],
+   "citations": 3,
+   "flags": {
+    "retcon": 1
+   },
+   "links": {
+    "dossiers": [
+     "Planeswalker Dossiers.md#jace-beleren",
+     "Planeswalker Dossiers.md#niv-mizzet"
+    ],
+    "planes": [
+     "Planes Index.md#ravnica-before-the-invasion"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Who made the sylex?",
+   "anchor": "who-made-the-sylex",
+   "tags": [
+    "retcon",
+    "has-unknowns"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "items": [
+     "Items & Artifacts Index.md#golgothian-sylex"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#did-the-sylex-blast-cause-the-spark-loss",
+     "Contradictions & Retcons Log.md#the-sylex-plan-karn-2018-vs-the-invasion-copy"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Vraska's spark after compleation",
+   "anchor": "vraskas-spark-after-compleation",
+   "tags": [
+    "retcon"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#sparks-after-the-phyrexian-invasion"
+    ],
+    "dossiers": [
+     "Planeswalker Dossiers.md#vraska"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Which \"Ashiok\" is Ashiok? (2023–24)",
+   "anchor": "which-ashiok-is-ashiok-202324",
+   "tags": [
+    "retcon",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ashiok"
+    ],
+    "dossiers": [
+     "Planeswalker Dossiers.md#ashiok",
+     "Planeswalker Dossiers.md#jace-beleren"
+    ]
+   }
+  },
+  {
+   "page": "Contradictions & Retcons Log.md",
+   "kind": "retcon",
+   "name": "Venser: dead in canon, alive in the Echoverse",
+   "anchor": "venser-dead-in-canon-alive-in-the-echoverse",
+   "tags": [
+    "retcon",
+    "has-non-canonical"
+   ],
+   "citations": 2,
+   "flags": {
+    "non-canonical": 2
+   },
+   "links": {
+    "dossiers": [
+     "Planeswalker Dossiers.md#karn",
+     "Planeswalker Dossiers.md#venser"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Nicol Bolas",
+   "anchor": "nicol-bolas",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "alive-or-active"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ugin",
+   "anchor": "ugin",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Sorin Markov",
+   "anchor": "sorin-markov",
+   "tags": [
+    "character",
+    "has-secondary",
+    "has-non-canonical",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+     "Conflicts & Arcs.md#innistrad--emrakul"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era",
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Nahiri",
+   "anchor": "nahiri",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion",
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Serra",
+   "anchor": "serra",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ],
+    "eras": [
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Geyadrone Dihada",
+   "anchor": "geyadrone-dihada",
+   "tags": [
+    "character",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#time-rifts--the-mending"
+    ],
+    "eras": [
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Dakkon Blackblade",
+   "anchor": "dakkon-blackblade",
+   "tags": [
+    "character",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#time-rifts--the-mending"
+    ],
+    "eras": [
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Jaya Ballard",
+   "anchor": "jaya-ballard",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Freyalise",
+   "anchor": "freyalise",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#time-rifts--the-mending"
+    ],
+    "eras": [
+     "Master Timeline.md#time-rifts--the-mending"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Urza",
+   "anchor": "urza",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Mishra",
+   "anchor": "mishra",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "dead"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Karn",
+   "anchor": "karn",
+   "tags": [
+    "character",
+    "spark-given-up"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Teferi",
+   "anchor": "teferi",
+   "tags": [
+    "character",
+    "spark-faded"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse",
+     "Conflicts & Arcs.md#time-rifts--the-mending"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion",
+     "Master Timeline.md#time-rifts--the-mending"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tevesh Szat",
+   "anchor": "tevesh-szat",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Lord Windgrace",
+   "anchor": "lord-windgrace",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Yawgmoth",
+   "anchor": "yawgmoth",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Venser",
+   "anchor": "venser",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion",
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Jace Beleren",
+   "anchor": "jace-beleren",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles",
+     "Planes Index.md#vryn"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Chandra Nalaar",
+   "anchor": "chandra-nalaar",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Gideon Jura",
+   "anchor": "gideon-jura",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Nissa Revane",
+   "anchor": "nissa-revane",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Liliana Vess",
+   "anchor": "liliana-vess",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ajani Goldmane",
+   "anchor": "ajani-goldmane",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Vraska",
+   "anchor": "vraska",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Garruk Wildspeaker",
+   "anchor": "garruk-wildspeaker",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "planeswalker"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Elspeth Tirel",
+   "anchor": "elspeth-tirel",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Sarkhan Vol",
+   "anchor": "sarkhan-vol",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Narset",
+   "anchor": "narset",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tamiyo",
+   "anchor": "tamiyo",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "dead"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tamiyo-after-compleation"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kaya",
+   "anchor": "kaya",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles",
+     "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ral Zarek",
+   "anchor": "ral-zarek",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tezzeret",
+   "anchor": "tezzeret",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Oko",
+   "anchor": "oko",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#okos-origin-revealed"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kaito Shizuki",
+   "anchor": "kaito-shizuki",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Niko Aris",
+   "anchor": "niko-aris",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "The Wanderer",
+   "anchor": "the-wanderer",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#the-wanderer-is-the-emperor-of-kamigawa"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Koth",
+   "anchor": "koth",
+   "tags": [
+    "character",
+    "spark-faded"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Saheeli Rai",
+   "anchor": "saheeli-rai",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Huatli",
+   "anchor": "huatli",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion",
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Rowan Kenrith",
+   "anchor": "rowan-kenrith",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "spark-lost"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#eldraine"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Jiang Yanggu",
+   "anchor": "jiang-yanggu",
+   "tags": [
+    "character",
+    "spark-lost"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Lukka",
+   "anchor": "lukka",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#ikoria"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Wrenn",
+   "anchor": "wrenn",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kiora",
+   "anchor": "kiora",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "alive-or-active"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Samut",
+   "anchor": "samut",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Teyo Verada",
+   "anchor": "teyo-verada",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Elesh Norn",
+   "anchor": "elesh-norn",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Sheoldred",
+   "anchor": "sheoldred",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Jin-Gitaxias",
+   "anchor": "jin-gitaxias",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Vorinclex",
+   "anchor": "vorinclex",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Urabrask",
+   "anchor": "urabrask",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tam",
+   "anchor": "tam",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ranna Beleren",
+   "anchor": "ranna-beleren",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#vryn"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kellan",
+   "anchor": "kellan",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Helga",
+   "anchor": "helga",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kirol, Abigale, Lluwen, Sanar",
+   "anchor": "kirol-abigale-lluwen-sanar",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Proft, Etrata, Aminatou, Niv-Mizzet",
+   "anchor": "proft-etrata-aminatou-niv-mizzet",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Uldaros Theorix",
+   "anchor": "uldaros-theorix",
+   "tags": [
+    "character",
+    "has-non-canonical",
+    "alive-or-active"
+   ],
+   "citations": 1,
+   "flags": {
+    "non-canonical": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)",
+   "anchor": "pinnacle--sothera-cast-haliya-sami-mirri-alpharael",
+   "tags": [
+    "character",
+    "planeswalker"
+   ],
+   "citations": 1,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#omenpath-era-arcs-20242026"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Angrath",
+   "anchor": "angrath",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Arlinn Kord",
+   "anchor": "arlinn-kord",
+   "tags": [
+    "character",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "secondary": 2
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ashiok",
+   "anchor": "ashiok",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 4,
+   "flags": {
+    "unknown": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#jace-beleren"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Basri Ket",
+   "anchor": "basri-ket",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Calix",
+   "anchor": "calix",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Dack Fayden",
+   "anchor": "dack-fayden",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "has-non-canonical",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1,
+    "non-canonical": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Daretti",
+   "anchor": "daretti",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Davriel Cane",
+   "anchor": "davriel-cane",
+   "tags": [
+    "character",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Domri Rade",
+   "anchor": "domri-rade",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Dovin Baan",
+   "anchor": "dovin-baan",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Grist",
+   "anchor": "grist",
+   "tags": [
+    "character",
+    "has-secondary",
+    "status-unknown"
+   ],
+   "citations": 1,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Kasmina",
+   "anchor": "kasmina",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Mu Yanling",
+   "anchor": "mu-yanling",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "status-unknown"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Ob Nixilis",
+   "anchor": "ob-nixilis",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "has-non-canonical",
+    "status-unknown"
+   ],
+   "citations": 3,
+   "flags": {
+    "unknown": 1,
+    "non-canonical": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tibalt",
+   "anchor": "tibalt",
+   "tags": [
+    "character",
+    "has-unknowns",
+    "dead"
+   ],
+   "citations": 2,
+   "flags": {
+    "unknown": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Tyvar Kell",
+   "anchor": "tyvar-kell",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Vivien Reid",
+   "anchor": "vivien-reid",
+   "tags": [
+    "character",
+    "alive-or-active"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "planes": [
+     "Planes Index.md#skalla"
+    ]
+   }
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Will Kenrith",
+   "anchor": "will-kenrith",
+   "tags": [
+    "character",
+    "has-secondary",
+    "has-unknowns",
+    "alive-or-active"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1,
+    "unknown": 2
+   },
+   "links": {}
+  },
+  {
+   "page": "Characters Index.md",
+   "kind": "character",
+   "name": "Xenagos",
+   "anchor": "xenagos",
+   "tags": [
+    "character",
+    "dead"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Pre-Mending / Ancient",
+   "anchor": "pre-mending--ancient",
+   "tags": [
+    "era"
+   ],
+   "citations": 9,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+     "Conflicts & Arcs.md#tarkir-fate-reforged"
+    ],
+    "characters": [
+     "Characters Index.md#dakkon-blackblade",
+     "Characters Index.md#freyalise",
+     "Characters Index.md#geyadrone-dihada",
+     "Characters Index.md#jaya-ballard",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#sarkhan-vol",
+     "Characters Index.md#serra",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#ugin"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tarkir-timeline-rewrite"
+    ]
+   }
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Brothers' War & Phyrexian wars",
+   "anchor": "brothers-war--phyrexian-wars",
+   "tags": [
+    "era"
+   ],
+   "citations": 4,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "characters": [
+     "Characters Index.md#karn",
+     "Characters Index.md#lord-windgrace",
+     "Characters Index.md#mishra",
+     "Characters Index.md#tevesh-szat",
+     "Characters Index.md#urza",
+     "Characters Index.md#yawgmoth"
+    ]
+   }
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Dated events (AR)",
+   "anchor": "dated-events-ar",
+   "tags": [
+    "era",
+    "has-secondary"
+   ],
+   "citations": 5,
+   "flags": {
+    "secondary": 1
+   },
+   "links": {}
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Time Rifts & the Mending",
+   "anchor": "time-rifts--the-mending",
+   "tags": [
+    "era"
+   ],
+   "citations": 4,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#time-rifts--the-mending"
+    ],
+    "characters": [
+     "Characters Index.md#freyalise",
+     "Characters Index.md#karn",
+     "Characters Index.md#teferi",
+     "Characters Index.md#venser"
+    ]
+   }
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Post-Mending (Gatewatch era)",
+   "anchor": "post-mending-gatewatch-era",
+   "tags": [
+    "era",
+    "has-secondary"
+   ],
+   "citations": 7,
+   "flags": {
+    "secondary": 3
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#amonkhet--the-god-pharaoh",
+     "Conflicts & Arcs.md#conflux-of-alara",
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#ikoria-lair-of-behemoths-2020",
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Conflicts & Arcs.md#innistrad-midnight-hunt--crimson-vow-2021",
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+     "Conflicts & Arcs.md#kaladesh-revolt",
+     "Conflicts & Arcs.md#kaldheim-2021",
+     "Conflicts & Arcs.md#kamigawa-neon-dynasty-2022",
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+     "Conflicts & Arcs.md#streets-of-new-capenna-2022",
+     "Conflicts & Arcs.md#strixhaven-2021",
+     "Conflicts & Arcs.md#tarkir-fate-reforged",
+     "Conflicts & Arcs.md#theros-beyond-death-2020",
+     "Conflicts & Arcs.md#theros-xenagoss-ascension--elspeths-fall",
+     "Conflicts & Arcs.md#throne-of-eldraine-2019",
+     "Conflicts & Arcs.md#zendikar-rising-2020"
+    ],
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#ashiok",
+     "Characters Index.md#calix",
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#garruk-wildspeaker",
+     "Characters Index.md#gideon-jura",
+     "Characters Index.md#huatli",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#jin-gitaxias",
+     "Characters Index.md#kaito-shizuki",
+     "Characters Index.md#karn",
+     "Characters Index.md#kaya",
+     "Characters Index.md#koth",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#lukka",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#narset",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#oko",
+     "Characters Index.md#rowan-kenrith",
+     "Characters Index.md#saheeli-rai",
+     "Characters Index.md#samut",
+     "Characters Index.md#sarkhan-vol",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#tamiyo",
+     "Characters Index.md#teferi",
+     "Characters Index.md#tezzeret",
+     "Characters Index.md#the-wanderer",
+     "Characters Index.md#ugin",
+     "Characters Index.md#venser",
+     "Characters Index.md#vivien-reid",
+     "Characters Index.md#vorinclex",
+     "Characters Index.md#vraska",
+     "Characters Index.md#will-kenrith",
+     "Characters Index.md#xenagos"
+    ]
+   }
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Phyrexian Invasion",
+   "anchor": "phyrexian-invasion",
+   "tags": [
+    "era"
+   ],
+   "citations": 7,
+   "flags": {},
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#dominaria-united-2022",
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#march-of-the-machine-the-aftermath-2023",
+     "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023",
+     "Conflicts & Arcs.md#the-brothers-war-frame-story-2022"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#spark-loss-after-the-invasion-mat--lci"
+    ]
+   }
+  },
+  {
+   "page": "Master Timeline.md",
+   "kind": "era",
+   "name": "Omenpath era (post-invasion)",
+   "anchor": "omenpath-era-post-invasion",
+   "tags": [
+    "era",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 13,
+   "flags": {
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#aetherdrift-2025",
+     "Conflicts & Arcs.md#bloomburrow-2024",
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024",
+     "Conflicts & Arcs.md#edge-of-eternities-2025",
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#lorwyn-eclipsed-202526",
+     "Conflicts & Arcs.md#murders-at-karlov-manor-2024",
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024",
+     "Conflicts & Arcs.md#secrets-of-strixhaven-2026",
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025",
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023",
+     "Conflicts & Arcs.md#wilds-of-eldraine-2023"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Ancient: imprisoning the Eldrazi",
+   "anchor": "ancient-imprisoning-the-eldrazi",
+   "tags": [
+    "arc"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+     "Conflicts & Arcs.md#innistrad--emrakul"
+    ],
+    "characters": [
+     "Characters Index.md#nahiri",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#ugin"
+    ],
+    "eras": [
+     "Master Timeline.md#pre-mending--ancient"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "The Brothers' War",
+   "anchor": "the-brothers-war",
+   "tags": [
+    "arc"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#kaya",
+     "Characters Index.md#mishra",
+     "Characters Index.md#saheeli-rai",
+     "Characters Index.md#teferi",
+     "Characters Index.md#urza"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars",
+     "Master Timeline.md#dated-events-ar"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#ar-after-reckoning-expansion"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Phyrexia vs. Dominaria & the Weatherlight",
+   "anchor": "phyrexia-vs-dominaria--the-weatherlight",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 2
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark"
+    ],
+    "characters": [
+     "Characters Index.md#karn",
+     "Characters Index.md#lord-windgrace",
+     "Characters Index.md#tevesh-szat",
+     "Characters Index.md#urza",
+     "Characters Index.md#yawgmoth"
+    ],
+    "eras": [
+     "Master Timeline.md#brothers-war--phyrexian-wars"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Time Rifts & the Mending",
+   "anchor": "time-rifts--the-mending",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#freyalise",
+     "Characters Index.md#jaya-ballard",
+     "Characters Index.md#karn",
+     "Characters Index.md#teferi",
+     "Characters Index.md#venser"
+    ],
+    "eras": [
+     "Master Timeline.md#time-rifts--the-mending"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Conflux of Alara",
+   "anchor": "conflux-of-alara",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 2
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#nicol-bolas"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Phyrexian conquest of Mirrodin",
+   "anchor": "phyrexian-conquest-of-mirrodin",
+   "tags": [
+    "arc"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#phyrexian-invasion-of-the-multiverse"
+    ],
+    "characters": [
+     "Characters Index.md#elesh-norn",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#karn",
+     "Characters Index.md#koth",
+     "Characters Index.md#venser"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Eldrazi Awaken / Battle for Zendikar / Gatewatch",
+   "anchor": "eldrazi-awaken--battle-for-zendikar--gatewatch",
+   "tags": [
+    "arc"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#innistrad--emrakul",
+     "Story Arc Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516"
+    ],
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#gideon-jura",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#kiora",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#ob-nixilis",
+     "Characters Index.md#ugin"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Innistrad & Emrakul",
+   "anchor": "innistrad--emrakul",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Story Arc Summaries.md#shadows-over-innistrad--eldritch-moon-2016"
+    ],
+    "characters": [
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#tamiyo"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Theros: Xenagos's ascension & Elspeth's fall",
+   "anchor": "theros-xenagoss-ascension--elspeths-fall",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 5,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#theros-beyond-death-2020"
+    ],
+    "characters": [
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#xenagos"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Kaladesh revolt",
+   "anchor": "kaladesh-revolt",
+   "tags": [
+    "arc"
+   ],
+   "citations": 11,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#dovin-baan",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#saheeli-rai",
+     "Characters Index.md#tezzeret"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#did-bolas-create-amonkhet",
+     "Contradictions & Retcons Log.md#kaladesh--avishkar-rename"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Amonkhet & the God-Pharaoh",
+   "anchor": "amonkhet--the-god-pharaoh",
+   "tags": [
+    "arc"
+   ],
+   "citations": 12,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+     "Story Arc Summaries.md#amonkhet--hour-of-devastation-2017"
+    ],
+    "characters": [
+     "Characters Index.md#gideon-jura",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#samut"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Ixalan & the Immortal Sun",
+   "anchor": "ixalan--the-immortal-sun",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 16,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023"
+    ],
+    "characters": [
+     "Characters Index.md#huatli",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#vraska"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Tarkir: Fate Reforged",
+   "anchor": "tarkir-fate-reforged",
+   "tags": [
+    "arc"
+   ],
+   "citations": 4,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ],
+    "characters": [
+     "Characters Index.md#narset",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#sarkhan-vol",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#ugin"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tarkir-timeline-rewrite"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Return to Dominaria & War of the Spark",
+   "anchor": "return-to-dominaria--war-of-the-spark",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#cross-arc-threads",
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025",
+     "Story Arc Summaries.md#return-to-dominaria-2018",
+     "Story Arc Summaries.md#war-of-the-spark-2019"
+    ],
+    "characters": [
+     "Characters Index.md#gideon-jura",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#ugin"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Throne of Eldraine (2019)",
+   "anchor": "throne-of-eldraine-2019",
+   "tags": [
+    "arc",
+    "has-secondary",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 2,
+    "unknown": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#wilds-of-eldraine-2023"
+    ],
+    "cards": [
+     "cards/H/ha.md#happily-ever-after",
+     "cards/K/ke.md#kenriths-transformation",
+     "cards/R/ret.md#return-of-the-wildspeaker",
+     "cards/U/un.md#unexplained-vision"
+    ],
+    "characters": [
+     "Characters Index.md#garruk-wildspeaker",
+     "Characters Index.md#oko",
+     "Characters Index.md#rowan-kenrith",
+     "Characters Index.md#will-kenrith"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#eldraine"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Theros Beyond Death (2020)",
+   "anchor": "theros-beyond-death-2020",
+   "tags": [
+    "arc",
+    "has-secondary",
+    "has-cards"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#streets-of-new-capenna-2022"
+    ],
+    "cards": [
+     "cards/A/ag.md#agonizing-remorse",
+     "cards/H/he.md#heliods-punishment",
+     "cards/R/rel.md#relentless-pursuit",
+     "cards/T/tri.md#triumphant-surge"
+    ],
+    "characters": [
+     "Characters Index.md#ashiok",
+     "Characters Index.md#calix",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#xenagos"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Ikoria: Lair of Behemoths (2020)",
+   "anchor": "ikoria-lair-of-behemoths-2020",
+   "tags": [
+    "arc",
+    "has-secondary",
+    "has-unknowns",
+    "has-cards"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 2,
+    "unknown": 1
+   },
+   "links": {
+    "cards": [
+     "cards/G/ge.md#general-kudro-of-drannith",
+     "cards/L/lu.md#lukka-coppercoat-outcast",
+     "cards/T/theo.md#the-ozolith",
+     "cards/U/un.md#unpredictable-cyclone",
+     "cards/V/vi.md#vivien-monsters-advocate"
+    ],
+    "characters": [
+     "Characters Index.md#lukka",
+     "Characters Index.md#vivien-reid"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#ikoria"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Zendikar Rising (2020)",
+   "anchor": "zendikar-rising-2020",
+   "tags": [
+    "arc"
+   ],
+   "citations": 2,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nissa-revane"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Kaldheim (2021)",
+   "anchor": "kaldheim-2021",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023"
+    ],
+    "characters": [
+     "Characters Index.md#kaya",
+     "Characters Index.md#vorinclex"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#kaldheim"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#omenpath-term-kaldheim--multiverse"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Strixhaven (2021)",
+   "anchor": "strixhaven-2021",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#secrets-of-strixhaven-2026"
+    ],
+    "characters": [
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#lukka",
+     "Characters Index.md#rowan-kenrith"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Innistrad: Midnight Hunt & Crimson Vow (2021)",
+   "anchor": "innistrad-midnight-hunt--crimson-vow-2021",
+   "tags": [
+    "arc"
+   ],
+   "citations": 10,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#dominaria-united-2022"
+    ],
+    "characters": [
+     "Characters Index.md#kaya",
+     "Characters Index.md#sorin-markov",
+     "Characters Index.md#teferi"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Kamigawa: Neon Dynasty (2022)",
+   "anchor": "kamigawa-neon-dynasty-2022",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023"
+    ],
+    "characters": [
+     "Characters Index.md#jin-gitaxias",
+     "Characters Index.md#kaito-shizuki",
+     "Characters Index.md#tamiyo",
+     "Characters Index.md#tezzeret",
+     "Characters Index.md#the-wanderer"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#the-wanderer-is-the-emperor-of-kamigawa"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Streets of New Capenna (2022)",
+   "anchor": "streets-of-new-capenna-2022",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023"
+    ],
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#elspeth-tirel"
+    ],
+    "eras": [
+     "Master Timeline.md#post-mending-gatewatch-era"
+    ],
+    "planes": [
+     "Planes Index.md#new-capenna"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Dominaria United (2022)",
+   "anchor": "dominaria-united-2022",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023"
+    ],
+    "characters": [
+     "Characters Index.md#jaya-ballard",
+     "Characters Index.md#karn",
+     "Characters Index.md#sheoldred",
+     "Characters Index.md#teferi"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "The Brothers' War frame story (2022)",
+   "anchor": "the-brothers-war-frame-story-2022",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#march-of-the-machine-2023",
+     "Conflicts & Arcs.md#the-brothers-war"
+    ],
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#jaya-ballard",
+     "Characters Index.md#karn",
+     "Characters Index.md#kaya",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#saheeli-rai",
+     "Characters Index.md#teferi"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Phyrexia: All Will Be One (2023)",
+   "anchor": "phyrexia-all-will-be-one-2023",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#kaito-shizuki",
+     "Characters Index.md#kaya",
+     "Characters Index.md#koth",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#vraska"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#jace-compleated-then-healed"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "March of the Machine (2023)",
+   "anchor": "march-of-the-machine-2023",
+   "tags": [
+    "arc"
+   ],
+   "citations": 11,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024",
+     "Conflicts & Arcs.md#march-of-the-machine-the-aftermath-2023"
+    ],
+    "characters": [
+     "Characters Index.md#elesh-norn",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#jin-gitaxias",
+     "Characters Index.md#karn",
+     "Characters Index.md#sheoldred",
+     "Characters Index.md#teferi",
+     "Characters Index.md#vorinclex",
+     "Characters Index.md#wrenn"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "March of the Machine: The Aftermath (2023)",
+   "anchor": "march-of-the-machine-the-aftermath-2023",
+   "tags": [
+    "arc",
+    "has-secondary",
+    "has-unknowns"
+   ],
+   "citations": 3,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#koth",
+     "Characters Index.md#nahiri",
+     "Characters Index.md#nissa-revane",
+     "Characters Index.md#teferi"
+    ],
+    "eras": [
+     "Master Timeline.md#phyrexian-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#queue-for-later-cycles"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Wilds of Eldraine (2023)",
+   "anchor": "wilds-of-eldraine-2023",
+   "tags": [
+    "arc"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024"
+    ],
+    "characters": [
+     "Characters Index.md#kellan",
+     "Characters Index.md#rowan-kenrith"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#eldraine"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#ashiok-on-eldraine-was-jace"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "The Lost Caverns of Ixalan (2023)",
+   "anchor": "the-lost-caverns-of-ixalan-2023",
+   "tags": [
+    "arc"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+     "Conflicts & Arcs.md#murders-at-karlov-manor-2024",
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024"
+    ],
+    "characters": [
+     "Characters Index.md#huatli",
+     "Characters Index.md#kellan",
+     "Characters Index.md#saheeli-rai"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#rivals-of-ixalan-alternate-endings-vs-lci-canon"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Murders at Karlov Manor (2024)",
+   "anchor": "murders-at-karlov-manor-2024",
+   "tags": [
+    "arc"
+   ],
+   "citations": 11,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#duskmourn-house-of-horror-2024",
+     "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024"
+    ],
+    "characters": [
+     "Characters Index.md#kaya",
+     "Characters Index.md#kellan",
+     "Characters Index.md#proft-etrata-aminatou-niv-mizzet"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Outlaws of Thunder Junction (2024)",
+   "anchor": "outlaws-of-thunder-junction-2024",
+   "tags": [
+    "arc"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#aetherdrift-2025",
+     "Conflicts & Arcs.md#bloomburrow-2024"
+    ],
+    "characters": [
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#kellan",
+     "Characters Index.md#oko",
+     "Characters Index.md#ral-zarek",
+     "Characters Index.md#vraska"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Bloomburrow (2024)",
+   "anchor": "bloomburrow-2024",
+   "tags": [
+    "arc",
+    "has-secondary"
+   ],
+   "citations": 6,
+   "flags": {
+    "confirmed": 1,
+    "secondary": 1
+   },
+   "links": {
+    "arcs": [
+     "Story Arc Summaries.md#bloomburrow-2024"
+    ],
+    "characters": [
+     "Characters Index.md#helga",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#ral-zarek"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Duskmourn: House of Horror (2024)",
+   "anchor": "duskmourn-house-of-horror-2024",
+   "tags": [
+    "arc",
+    "has-unknowns"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#kaito-shizuki",
+     "Characters Index.md#niko-aris",
+     "Characters Index.md#proft-etrata-aminatou-niv-mizzet",
+     "Characters Index.md#the-wanderer"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tamiyo-after-compleation"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Aetherdrift (2025)",
+   "anchor": "aetherdrift-2025",
+   "tags": [
+    "arc"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#tarkir-dragonstorm-2025"
+    ],
+    "characters": [
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#samut"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#kaladesh--avishkar-rename"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Tarkir: Dragonstorm (2025)",
+   "anchor": "tarkir-dragonstorm-2025",
+   "tags": [
+    "arc"
+   ],
+   "citations": 9,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+     "Conflicts & Arcs.md#lorwyn-eclipsed-202526"
+    ],
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#elspeth-tirel",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#narset",
+     "Characters Index.md#nicol-bolas",
+     "Characters Index.md#sarkhan-vol",
+     "Characters Index.md#ugin"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead",
+     "Contradictions & Retcons Log.md#tarkir-timeline-rewrite"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Edge of Eternities (2025)",
+   "anchor": "edge-of-eternities-2025",
+   "tags": [
+    "arc",
+    "has-unknowns"
+   ],
+   "citations": 8,
+   "flags": {
+    "confirmed": 1,
+    "unknown": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael",
+     "Characters Index.md#tezzeret"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Lorwyn Eclipsed (2025–26)",
+   "anchor": "lorwyn-eclipsed-202526",
+   "tags": [
+    "arc"
+   ],
+   "citations": 9,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#kirol-abigale-lluwen-sanar",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#oko",
+     "Characters Index.md#tam"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#planes-with-official-profiles"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#okos-origin-revealed"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Secrets of Strixhaven (2026)",
+   "anchor": "secrets-of-strixhaven-2026",
+   "tags": [
+    "arc"
+   ],
+   "citations": 7,
+   "flags": {
+    "confirmed": 1
+   },
+   "links": {
+    "arcs": [
+     "Conflicts & Arcs.md#jaces-echoverse-reality-fracture"
+    ],
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#kirol-abigale-lluwen-sanar",
+     "Characters Index.md#tam"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#tam-revealed-as-jaces-creation"
+    ]
+   }
+  },
+  {
+   "page": "Conflicts & Arcs.md",
+   "kind": "arc",
+   "name": "Jace's Echoverse (Reality Fracture)",
+   "anchor": "jaces-echoverse-reality-fracture",
+   "tags": [
+    "arc",
+    "has-non-canonical"
+   ],
+   "citations": 12,
+   "flags": {
+    "confirmed": 1,
+    "non-canonical": 1
+   },
+   "links": {
+    "characters": [
+     "Characters Index.md#ajani-goldmane",
+     "Characters Index.md#chandra-nalaar",
+     "Characters Index.md#garruk-wildspeaker",
+     "Characters Index.md#jace-beleren",
+     "Characters Index.md#liliana-vess",
+     "Characters Index.md#ranna-beleren",
+     "Characters Index.md#tam",
+     "Characters Index.md#uldaros-theorix",
+     "Characters Index.md#vraska"
+    ],
+    "eras": [
+     "Master Timeline.md#omenpath-era-post-invasion"
+    ],
+    "planes": [
+     "Planes Index.md#other-planes-in-recent-stories-omenpath-era",
+     "Planes Index.md#vryn"
+    ],
+    "retcons": [
+     "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead"
+    ]
+   }
+  }
+ ]
+}

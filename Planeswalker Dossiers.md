@@ -1,11 +1,13 @@
 ---
 title: "Planeswalker Dossiers"
 category: lore
-tags: [planeswalkers, dossiers, sparks]
-issues: [35]
+tags: [lore, planeswalkers, dossiers, sparks]
+issues: [35, 74, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Characters Index.md", "Contradictions & Retcons Log.md", "EDH Lore-Themed Deckbuilding.md", "Planes Index.md", "Art & Flavor Story Links.md", "Items & Artifacts Index.md"]
+entry_kind: dossier
+entries: 38
 schema: 2
 ---
 
@@ -136,7 +138,7 @@ schema: 2
 **Status:** [Characters Index → Karn](Characters%20Index.md#karn).
 
 ## Teferi
-**Identity:** "A centuries-old hero … who once saved his homeland from war by phasing it out of time." He lost his spark, "raise[d] a family", then reclaimed his spark ([profile](https://magic.wizards.com/en/story/teferi-planeswalker)).
+**Identity:** "A centuries-old hero from a bygone era … he once saved his homeland from war by phasing it out of time." He lost his spark, "raise[d] a family", then reclaimed his spark ([profile](https://magic.wizards.com/en/story/teferi-planeswalker)).
 **Spark moment:** ❓ The original ignition isn't in the fetched sources. Spark lost, later reclaimed ([profile](https://magic.wizards.com/en/story/teferi-planeswalker); reclaimed during the 2018 Dominaria story: "One of the reasons I took my spark back was to come with you", [RtD Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23)), and it faded after the invasion ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)).
 
 | When (story) | Event | Source |

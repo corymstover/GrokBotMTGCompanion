@@ -5,14 +5,14 @@ tags: [schema, front-matter, tags, retrieval]
 issues: [65]
 generated_by: scripts/front_matter.py
 sources: []
-related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Card Data Conventions.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "EDH Lore-Themed Deckbuilding.md"]
+related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Lore Primary Sources.md", "Art & Flavor Story Links.md", "Card Data Conventions.md", "Characters Index.md"]
 schema: 2
 ---
 
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **50** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **51** registered pages (README.md and GOAL.md are exempt), **88** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -40,6 +40,8 @@ Every entry starts with a YAML block between `---` lines. Values are flat: strin
 | `generated_by` | script path or `hand-written` | yes | Generator to re-run instead of hand-editing. |
 | `sources` | list of source keys | yes | Where the facts come from (source keys below). |
 | `related` | list of page paths | yes | Up to 6 most strongly linked registered pages (links in + out; meta pages excluded for non-meta pages). Computed. |
+| `entry_kind` | enum: arc/era/dossier/character/plane/item/retcon | when applicable | Lore entry pages only (Bot cycle 31, #92): what each entry on the page is (see scripts/lore_lib.py ENTRY_PAGES). |
+| `entries` | int | when applicable | Lore entry pages only: number of entries on the page (indexed in data/lore_entries.json and Lore Entry Index.md). |
 | `schema` | int | yes | Front-matter schema version (currently 2). |
 
 ## Deck keys
@@ -165,6 +167,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `dossiers` | [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |
 | `dungeons` | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
 | `emblems` | [Tokens, Emblems & Dungeons](Tokens%2C%20Emblems%20%26%20Dungeons.md) |
+| `entries` | [Lore Entry Index](Lore%20Entry%20Index.md) |
 | `eras` | [Master Timeline](Master%20Timeline.md) |
 | `evaluation` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) |
 | `evergreen` | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
@@ -175,7 +178,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `front-matter` | [Front-Matter Schema](Front-Matter%20Schema.md) |
 | `game-changers` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `grixis` | [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [README](grixis/README.md) |
-| `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [README](grixis/README.md) |
+| `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [README](grixis/README.md) |
 | `interaction` | [EDH Interaction](EDH%20Interaction.md) |
 | `interactions` | [Rules Interactions](Rules%20Interactions.md) |
 | `items` | [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) |
@@ -183,7 +186,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `lands` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
 | `legality` | [Format Legality Matrix](Format%20Legality%20Matrix.md) · [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) |
 | `lookup` | [Lookup Guide](Lookup%20Guide.md) |
-| `lore` | [FAQ](FAQ.md) |
+| `lore` | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) · [Characters Index](Characters%20Index.md) · [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) · [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) · [FAQ](FAQ.md) · [Items & Artifacts Index](Items%20%26%20Artifacts%20Index.md) · [Lore Entry Index](Lore%20Entry%20Index.md) · [Lore Primary Sources](Lore%20Primary%20Sources.md) · [Master Timeline](Master%20Timeline.md) · [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) · [Side-Media Index](Side-Media%20Index.md) · [Story Arc Summaries](Story%20Arc%20Summaries.md) · [Story Archive Index](Story%20Archive%20Index.md) |
 | `lore-decks` | [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) |
 | `maintenance` | [Knowledge Index](Knowledge%20Index.md) |
 | `mana-base` | [EDH Mana Bases](EDH%20Mana%20Bases.md) |
@@ -214,7 +217,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `reprints` | [Printing History](Printing%20History.md) |
 | `reserved-list` | [Printing History](Printing%20History.md) |
 | `retcons` | [Contradictions & Retcons Log](Contradictions%20%26%20Retcons%20Log.md) |
-| `retrieval` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Lookup Guide](Lookup%20Guide.md) |
+| `retrieval` | [Front-Matter Schema](Front-Matter%20Schema.md) · [Lookup Guide](Lookup%20Guide.md) · [Lore Entry Index](Lore%20Entry%20Index.md) |
 | `roadmap` | [ROADMAP](ROADMAP.md) |
 | `rules` | [FAQ](FAQ.md) · [Rules Interactions](Rules%20Interactions.md) |
 | `rules-insights` | [Grixis Packages](grixis/Grixis%20Packages.md) |
@@ -321,6 +324,9 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | I want… | Command |
 |---|---|
 | All lore pages | `rg -l '^category: lore' *.md` |
+| Lore pages made of entries, with counts | `rg -n '^entries: ' *.md` |
+| Every lore entry flagged ❓ unknown | `python3 scripts/kb_find.py --tag has-unknowns --category lore` |
+| Dossiers/characters whose spark is lost | `python3 scripts/kb_find.py --tag spark-lost` |
 | Pages about brackets | `rg -l '^tags: .*\bbrackets\b' *.md grixis/*.md` |
 | Pages related to Rules Interactions | `rg -l '^related: .*Rules Interactions' *.md` |
 | Decks with a two-card infinite | `rg -l '^tags: .*two-card-infinite' decks grixis/decks` |

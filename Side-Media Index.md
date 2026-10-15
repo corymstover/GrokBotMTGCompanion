@@ -1,7 +1,7 @@
 ---
 title: "Side-Media Index"
 category: lore
-tags: [novels, comics, side-media]
+tags: [lore, novels, comics, side-media]
 issues: [38]
 generated_by: hand-written
 sources: [wizards-story, wotc-articles]
@@ -55,7 +55,7 @@ schema: 2
 ## Games & other media
 | Item | Year | Relevance | Source | Flag |
 |---|---|---|---|---|
-| D&D one-shot adventure (Forgotten Realms crossover) | 2021 | A "short Dungeons & Dragons adventure … for four to six characters of 9th level", with Planeswalker character sheets (Chandra, Kaya …). | [Deepest Night (Magic Story)](https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21) | ✅ game content |
+| D&D one-shot adventure (Forgotten Realms crossover) | 2021 | A "short Dungeons & Dragons adventure is written to suit four to six characters of 9th level", with Planeswalker character sheets (Chandra, Kaya …). | [Deepest Night (Magic Story)](https://magic.wizards.com/en/news/magic-story/deepest-night-2021-07-21) | ✅ game content |
 | *1994 Pocket Players' Guide* short story by Richard Garfield | 1994 | Garfield's short story "about two mages, Worzel and Thomil, dueling … on the plane of Ergamon". Wizards calls the source both a "rulebook" and the *Pocket Players' Guide*. | [Choosing Your Battles, Pt. 3](https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-3) · [The Known Multiverse](https://magic.wizards.com/en/news/feature/known-mutliverse-2008-03-19) | ✅ |
 | *Magic: The Gathering* animated series (Netflix) | announced 2019; "in production" 2024 | Hasbro, Wizards and Netflix project. | [Netflix Tudum](https://www.netflix.com/tudum/articles/magic-the-gathering-animated-series-news-release-date-photo) · [Hasbro newsroom](https://newsroom.hasbro.com/news-releases/news-release-details/netflix-and-russo-brothers-join-forces-wizards-coast-first-its) | ⚠️ partner/parent sources; ❓ release status as of late 2026 |
 

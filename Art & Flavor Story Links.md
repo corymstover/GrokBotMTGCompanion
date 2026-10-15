@@ -1,7 +1,7 @@
 ---
 title: "Art & Flavor Story Links"
 category: lore
-tags: [art, flavor, story-spotlight]
+tags: [lore, art, flavor, story-spotlight]
 issues: [37]
 generated_by: scripts/build_art_flavor.py
 sources: [scryfall, wizards-story]

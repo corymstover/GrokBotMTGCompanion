@@ -97,6 +97,19 @@ The user asked for an optimization pass over the whole knowledge base: consisten
 
 Phase 5 complete in Bot cycle 19; snapshot tag `v2.0-phase5-optimization`.
 
+## Phase 7 — Lore optimization pass (Bot cycles 31+; Cory, 2026-10-15)
+Apply the 4 Phase 5 priorities to the material Phase 6 added (cycles 20–30: Conflicts & Arcs rewrite, Master Timeline, 38 dossiers, 42 plane entries, Items & Artifacts Index, Contradictions & Retcons Log, Lore Primary Sources, lore decks + guide), and fix gaps Phase 5 left. Milestone: [Phase 7 — Lore optimization pass](https://github.com/corymstover/GrokBotMTGCompanion/milestone/16).
+
+| Issue | Item | Status | Output |
+|---|---|---|---|
+| [#92](https://github.com/corymstover/GrokBotMTGCompanion/issues/92) | P7.1 Lore front-matter, per-entry tags/anchors, retrieval index | 🟢 Bot cycle 31 | `lore` tag + Phase 6 issue numbers on every lore page; `entry_kind`/`entries` keys; [Lore Entry Index](Lore%20Entry%20Index.md) · `data/lore_entries.json` (260 entries) · `scripts/build_lore_index.py`; kb_find indexes entries (`--kind`, entry tags) |
+| [#93](https://github.com/corymstover/GrokBotMTGCompanion/issues/93) | P7.2 Bidirectional lore cross-refs (cards ↔ items ↔ characters ↔ planes ↔ arcs) | ⏳ Bot cycle 32 | — |
+| [#94](https://github.com/corymstover/GrokBotMTGCompanion/issues/94) | P7.3 Lore validation in validate_all | 🟢 Bot cycle 31 | `scripts/check_lore.py` (step `lore-entries`) · `scripts/lore_quotes.py` (step `lore-quotes`) · `data/lore_quotes.json` · `data/lore_quote_exceptions.json` |
+| [#95](https://github.com/corymstover/GrokBotMTGCompanion/issues/95) | P7.4 Lore-deck calibration + pilot notes; refresh EDH Bracket Calibration | ⏳ Bot cycle 32–33 | — |
+| [#96](https://github.com/corymstover/GrokBotMTGCompanion/issues/96) | P7.5 Audit for gaps left by Phase 5 | 🟡 Bot cycle 31 started | stale lore counts in Knowledge Index/Progress Tracker fixed; 4 paraphrases shown as quotes fixed; 30 cited pages that were never cached now fetched and verified |
+
+- ✅ **Bot cycle 31:** priorities 1 + 3 for lore. 260 lore entries indexed with computed tags. Every entry cites ≥ 1 official page (1,078 entry citations). 1,675 quotations on 13 lore pages: 1,653 verified verbatim (1,561 against the cited or another cached official page, 92 against Scryfall card text) and 22 documented exceptions (image-only, non-Wizards, labels). Spark state agrees across 39 dossier/Characters-Index pairs and the retcon log. Two new `validate_all` steps.
+
 ## Phase 6
 - ✅ **Bot cycle 21:** [EDH Lore-Themed Deckbuilding](EDH%20Lore-Themed%20Deckbuilding.md) + 2 worked lore decks (Urza Brothers' War; Nahiri Lithomancer).
 - 🟡 **Bot cycle 22:** [Lore Primary Sources](Lore%20Primary%20Sources.md) (538 pages, 60 PW Guides); 14 arcs deepened; +6 retcon entries; 7 misquotes fixed. Next: cycle 24 (TDM/EOE/ECL/SOS/RF + pre-2019 arcs, dossiers #74).

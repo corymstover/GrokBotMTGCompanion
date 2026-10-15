@@ -1,7 +1,7 @@
 ---
 title: "Story Arc Summaries"
 category: lore
-tags: [arcs, story-beats]
+tags: [lore, arcs, story-beats]
 issues: [34]
 generated_by: hand-written
 sources: [wizards-story]

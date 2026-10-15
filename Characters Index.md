@@ -1,11 +1,13 @@
 ---
 title: "Characters Index"
 category: lore
-tags: [characters, status, planeswalkers]
-issues: [7, 11, 20]
+tags: [lore, characters, status, planeswalkers]
+issues: [7, 11, 20, 74, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Conflicts & Arcs.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Contradictions & Retcons Log.md", "Story Arc Summaries.md"]
+entry_kind: character
+entries: 78
 schema: 2
 ---
 
@@ -276,7 +278,7 @@ schema: 2
 ### Gideon Jura
 - **Who:** Invulnerable warrior-mage (born Kytheon Iora), Gatewatch founder.
 - **Status (late 2026):** ✅ Dead — sacrificed himself to save Liliana in the War of the Spark.
-- **Detail:** "Gideon's Memorial — Deceased… he sacrificed himself to save Liliana Vess… from certain death" (2026 Legends). Also "Gideon… he's dead, too" (MOM Ep. 5). "Gideon the Oathless" is a 🚫 Echoverse counterpart.
+- **Detail:** the 2026 Legends list "Gideon's Memorial" as Deceased: "he sacrificed himself to save Liliana Vess… from certain death". Also "Gideon… he's dead, too" (MOM Ep. 5). "Gideon the Oathless" is a 🚫 Echoverse counterpart.
 - **See also:** Planes: [Theros](Planes%20Index.md#planes-with-official-profiles), [Ravnica](Planes%20Index.md#planes-with-official-profiles), [Zendikar](Planes%20Index.md#planes-with-official-profiles) · Arcs: [Battle for Zendikar / Gatewatch](Conflicts%20%26%20Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch), [Return to Dominaria & War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark) · Timeline: [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era)
 - **Sources:** [profile](https://magic.wizards.com/en/story/gideon-jura-planeswalker) · [STX Ep. 2](https://magic.wizards.com/en/news/magic-story/episode-2-lessons-2021-03-31) · [MOM Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-cathartic-reunion) · [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
 
@@ -404,7 +406,7 @@ schema: 2
 ### Saheeli Rai
 - **Who:** Kaladeshi inventor.
 - **Status (late 2026):** ✅ Alive — former Planeswalker; back on Avishkar.
-- **Detail:** "the stripping of her spark" (LCI); "Losing her Planeswalker spark hasn't slowed her down… Saheeli has returned to Avishkar after a stay in Ixalan with her beloved, Huatli" (Legends).
+- **Detail:** "stripping of her spark" (LCI); "Losing her Planeswalker spark hasn't slowed her down… Saheeli has returned to Avishkar after a stay in Ixalan with her beloved, Huatli" (Legends).
 - **See also:** Planes: [Kaladesh → Avishkar](Planes%20Index.md#planes-with-official-profiles), [Ixalan](Planes%20Index.md#planes-with-official-profiles) · Arcs: [Phyrexian Invasion](Conflicts%20%26%20Arcs.md#phyrexian-invasion-of-the-multiverse), [Omenpath-era arcs](Conflicts%20%26%20Arcs.md#omenpath-era-arcs-20242026) · Timeline: [Phyrexian Invasion](Master%20Timeline.md#phyrexian-invasion), [Omenpath era](Master%20Timeline.md#omenpath-era-post-invasion)
 - **Sources:** [profile](https://magic.wizards.com/en/story/saheeli-rai-planeswalker) · [LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns) · [SOS: Field Studies](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-field-studies-in-a-future-tense) · [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
 

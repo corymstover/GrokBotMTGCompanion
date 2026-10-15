@@ -1,11 +1,13 @@
 ---
 title: "Planes Index"
 category: lore
-tags: [planes]
-issues: [7, 12]
+tags: [lore, planes]
+issues: [7, 12, 74, 92, 94]
 generated_by: hand-written
 sources: [wizards-story]
 related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Items & Artifacts Index.md", "Master Timeline.md", "Planeswalker Dossiers.md"]
+entry_kind: plane
+entries: 42
 schema: 2
 ---
 
@@ -51,7 +53,7 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 | **Thunder Junction** | Frontier plane reached via Omenpaths; Omenport; Oko's heist crew; Kellan learns Oko is his father. | Outlaws of Thunder Junction (2024-04) | [Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge) · [Episode 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers) |
 | **Bloomburrow** | Plane of animalfolk (e.g., the frogfolk Helga); Ral Zarek follows Jace's trail there and finds himself transformed. | Bloomburrow (2024-08) | [Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-calamity-comes-to-valley) |
 | **Duskmourn** | Sentient horror house; Kaito, Niko, the Wanderer and allies enter it. | Duskmourn: House of Horror (2024-09) | [Episode One](https://magic.wizards.com/en/news/magic-story/episode-one-dont-go-past-the-old-dark-house) |
-| **Sothera system (the Edge)** | A star system in a spacefaring universe whose known space is called "the Edge (of Eternity)"; Pinnacle socients travel via eternity columns; a supervoid lies at its heart; Tezzeret is involved. | Edge of Eternities (2025-08) | [PW Guide: EOE](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities) |
+| **Sothera system (the Edge)** | A star system in a spacefaring universe whose known space is called "the Edge" or "the Edge of Eternity"; Pinnacle socients travel via eternity columns; a supervoid lies at its heart; Tezzeret is involved. | Edge of Eternities (2025-08) | [PW Guide: EOE](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-edge-of-eternities) |
 | **Eldraine, Kaldheim, Ikoria, New Capenna, Skalla, Vryn, Phyrexia** | ✅ Now written up below in [Detailed plane entries](#detailed-plane-entries) (Bot cycle 2). | — | — |
 
 ## Detailed plane entries

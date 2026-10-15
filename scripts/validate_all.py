@@ -7,6 +7,12 @@ Steps (run in this order; each prints its own summary):
   3 index        scripts/kb_find.py --check              retrieval index data/kb_index.json is current
   4 crossrefs    scripts/build_crossrefs.py --check      reverse card index + "Referenced in" lines are current (when present)
   4b calibration scripts/deck_calibration.py --check   bracket-calibration blocks + EDH Bracket Calibration.md are current
+  4c lore        scripts/build_lore_decks.py --check     kind: lore decks are >= 85% story-linked (Bot cycle 23)
+  4d lore-entries scripts/check_lore.py                 every lore entry cites an official page; statement/timeline rows cited;
+                                                         entry anchors resolve; spark state agrees across Characters Index,
+                                                         dossiers and retcon log; Lore Entry Index current (Bot cycle 31, #94)
+  4e lore-quotes  scripts/lore_quotes.py --check        every quotation on 13 lore pages is verbatim in the cached official
+                                                         page it cites (or Scryfall card text), or a documented exception
   5 citations    scripts/check_citations.py              Wizards URLs in sitemap/resolving (data/citations.json) + CR rule numbers exist
   6 oracle       scripts/verify_cards.py                 every card entry matches the Scryfall Oracle/rulings bulk verbatim
   7 decks        (built in)                              every deck list still resolves, is legal, fits identity, 100 cards, singleton,
@@ -101,6 +107,8 @@ def main(argv):
              ("index", ["scripts/kb_find.py", "--check"]), ("crossrefs", ["scripts/build_crossrefs.py", "--check"]),
              ("calibration", ["scripts/deck_calibration.py", "--check"]),
              ("lore", ["scripts/build_lore_decks.py", "--check"]),  # Bot cycle 23: kind: lore decks must be >= 85% story-linked
+             ("lore-entries", ["scripts/check_lore.py"]),  # Bot cycle 31 (#94): lore entry citations, anchors, spark consistency
+             ("lore-quotes", ["scripts/lore_quotes.py", "--check"]),  # Bot cycle 31 (#94): verbatim quote verification
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
              ("oracle", ["scripts/verify_cards.py"]), ("decks", None), ("freshness", None)]
     results = []

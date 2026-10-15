@@ -1,8 +1,8 @@
 {
-"schema": 1,
+"schema": 2,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 166,
-"note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
+"entries": 427,
+"note": "Pages, decks and lore entries (Bot cycle 31); card entries are indexed by data/card_index.csv.",
 "items": [
 {
 "path": "Art & Flavor Story Links.md",
@@ -10,6 +10,7 @@
 "title": "Art & Flavor Story Links",
 "category": "lore",
 "tags": [
+"lore",
 "art",
 "flavor",
 "story-spotlight"
@@ -463,6 +464,7 @@
 "title": "Characters Index",
 "category": "lore",
 "tags": [
+"lore",
 "characters",
 "status",
 "planeswalkers"
@@ -917,7 +919,10 @@
 "issues": [
 "7",
 "11",
-"20"
+"20",
+"74",
+"92",
+"94"
 ],
 "related": [
 "Conflicts & Arcs.md",
@@ -934,6 +939,7 @@
 "title": "Conflicts & Arcs",
 "category": "lore",
 "tags": [
+"lore",
 "arcs",
 "conflicts"
 ],
@@ -1169,7 +1175,9 @@
 "13",
 "34",
 "72",
-"73"
+"73",
+"92",
+"94"
 ],
 "related": [
 "Characters Index.md",
@@ -1186,6 +1194,7 @@
 "title": "Contradictions & Retcons Log",
 "category": "lore",
 "tags": [
+"lore",
 "retcons",
 "contradictions",
 "canon"
@@ -1399,7 +1408,9 @@
 ],
 "issues": [
 "73",
-"76"
+"76",
+"92",
+"94"
 ],
 "related": [
 "Conflicts & Arcs.md",
@@ -3718,10 +3729,10 @@
 "related": [
 "EDH Bracket Calibration.md",
 "Knowledge Index.md",
+"Lore Primary Sources.md",
+"Art & Flavor Story Links.md",
 "Card Data Conventions.md",
-"EDH Deck Evaluation Checklist.md",
-"EDH Deck Template.md",
-"EDH Lore-Themed Deckbuilding.md"
+"Characters Index.md"
 ]
 },
 {
@@ -3730,6 +3741,7 @@
 "title": "Items & Artifacts Index",
 "category": "lore",
 "tags": [
+"lore",
 "items",
 "artifacts",
 "relics"
@@ -3882,7 +3894,9 @@
 ]
 ],
 "issues": [
-"75"
+"75",
+"92",
+"94"
 ],
 "related": [
 "Conflicts & Arcs.md",
@@ -4278,11 +4292,73 @@
 ]
 },
 {
+"path": "Lore Entry Index.md",
+"kind": "page",
+"title": "Lore Entry Index",
+"category": "lore",
+"tags": [
+"lore",
+"index",
+"entries",
+"retrieval"
+],
+"headings": [
+[
+2,
+"Arcs (Conflicts & Arcs)",
+"arcs-conflicts--arcs"
+],
+[
+2,
+"Eras (Master Timeline)",
+"eras-master-timeline"
+],
+[
+2,
+"Planeswalker Dossiers",
+"planeswalker-dossiers"
+],
+[
+2,
+"Characters",
+"characters"
+],
+[
+2,
+"Planes (detailed entries)",
+"planes-detailed-entries"
+],
+[
+2,
+"Items & artifacts",
+"items--artifacts"
+],
+[
+2,
+"Retcons & contradictions",
+"retcons--contradictions"
+]
+],
+"issues": [
+"92",
+"94"
+],
+"related": [
+"Characters Index.md",
+"Planes Index.md",
+"Conflicts & Arcs.md",
+"Planeswalker Dossiers.md",
+"Contradictions & Retcons Log.md",
+"Items & Artifacts Index.md"
+]
+},
+{
 "path": "Lore Primary Sources.md",
 "kind": "page",
 "title": "Lore Primary Sources",
 "category": "lore",
 "tags": [
+"lore",
 "sources",
 "primary",
 "planeswalkers-guide",
@@ -4311,7 +4387,8 @@
 ]
 ],
 "issues": [
-"73"
+"73",
+"94"
 ],
 "related": [
 "Conflicts & Arcs.md",
@@ -4327,6 +4404,7 @@
 "title": "Master Timeline",
 "category": "lore",
 "tags": [
+"lore",
 "timeline",
 "eras"
 ],
@@ -4384,7 +4462,9 @@
 ],
 "issues": [
 "7",
-"72"
+"72",
+"92",
+"94"
 ],
 "related": [
 "Characters Index.md",
@@ -4401,6 +4481,7 @@
 "title": "Omenpath & Multiverse Connections",
 "category": "lore",
 "tags": [
+"lore",
 "omenpaths",
 "multiverse",
 "planes"
@@ -4448,6 +4529,7 @@
 "title": "Planes Index",
 "category": "lore",
 "tags": [
+"lore",
 "planes"
 ],
 "headings": [
@@ -4689,7 +4771,10 @@
 ],
 "issues": [
 "7",
-"12"
+"12",
+"74",
+"92",
+"94"
 ],
 "related": [
 "Characters Index.md",
@@ -4706,6 +4791,7 @@
 "title": "Planeswalker Dossiers",
 "category": "lore",
 "tags": [
+"lore",
 "planeswalkers",
 "dossiers",
 "sparks"
@@ -4913,7 +4999,10 @@
 ]
 ],
 "issues": [
-"35"
+"35",
+"74",
+"92",
+"94"
 ],
 "related": [
 "Characters Index.md",
@@ -5046,6 +5135,11 @@
 2,
 "Phase 5 — Optimization pass (Bot cycles 17–19; user task, 2026-10-15)",
 "phase-5--optimization-pass-bot-cycles-1719-user-task-2026-10-15"
+],
+[
+2,
+"Phase 7 — Lore optimization pass (Bot cycles 31+; Cory, 2026-10-15)",
+"phase-7--lore-optimization-pass-bot-cycles-31-cory-2026-10-15"
 ],
 [
 2,
@@ -5238,6 +5332,7 @@
 "title": "Side-Media Index",
 "category": "lore",
 "tags": [
+"lore",
 "novels",
 "comics",
 "side-media"
@@ -5287,6 +5382,7 @@
 "title": "Story Arc Summaries",
 "category": "lore",
 "tags": [
+"lore",
 "arcs",
 "story-beats"
 ],
@@ -5415,6 +5511,7 @@
 "title": "Story Archive Index",
 "category": "lore",
 "tags": [
+"lore",
 "story-archive",
 "sources"
 ],
@@ -5569,6 +5666,11 @@
 "changelog"
 ],
 "headings": [
+[
+2,
+"2026-10-15 — Bot cycle 31 (Phase 7: lore retrieval + validation)",
+"2026-10-15--bot-cycle-31-phase-7-lore-retrieval--validation"
+],
 [
 2,
 "2026-10-15 — Bot cycle 30 (Phase 6: final dossiers, status, snapshot)",
@@ -5727,7 +5829,7 @@
 "Items & Artifacts Index.md",
 "Lore Primary Sources.md",
 "Planes Index.md",
-"Knowledge Index.md"
+"Front-Matter Schema.md"
 ]
 },
 {
@@ -57840,6 +57942,3154 @@
 "zyym-mesmeric-lord"
 ]
 ]
+},
+{
+"path": "Planeswalker Dossiers.md#jace-beleren",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Jace Beleren",
+"category": "lore",
+"tags": [
+"dossier",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#chandra-nalaar",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Chandra Nalaar",
+"category": "lore",
+"tags": [
+"dossier",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#nissa-revane",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Nissa Revane",
+"category": "lore",
+"tags": [
+"dossier",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#liliana-vess",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Liliana Vess",
+"category": "lore",
+"tags": [
+"dossier",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#elspeth-tirel",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Elspeth Tirel",
+"category": "lore",
+"tags": [
+"dossier",
+"has-secondary",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#karn",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Karn",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"has-non-canonical",
+"spark-given-up"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#teferi",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Teferi",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-faded"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#ajani-goldmane",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Ajani Goldmane",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#kaya",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Kaya",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#kaito-shizuki",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Kaito Shizuki",
+"category": "lore",
+"tags": [
+"dossier",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#vraska",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Vraska",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#tamiyo",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Tamiyo",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#sarkhan-vol",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Sarkhan Vol",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#gideon-jura",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Gideon Jura",
+"category": "lore",
+"tags": [
+"dossier",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#nahiri",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Nahiri",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#sorin-markov",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Sorin Markov",
+"category": "lore",
+"tags": [
+"dossier",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#ugin",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Ugin",
+"category": "lore",
+"tags": [
+"dossier",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#nicol-bolas",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Nicol Bolas",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#ral-zarek",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Ral Zarek",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#oko",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Oko",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#tezzeret",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Tezzeret",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#tam",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Tam",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#garruk-wildspeaker",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Garruk Wildspeaker",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#wrenn",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Wrenn",
+"category": "lore",
+"tags": [
+"dossier",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#niv-mizzet",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Niv-Mizzet",
+"category": "lore",
+"tags": [
+"dossier"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#kiora",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Kiora",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#koth",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Koth",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-faded"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#narset",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Narset",
+"category": "lore",
+"tags": [
+"dossier",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#saheeli-rai",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Saheeli Rai",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#huatli",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Huatli",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#samut",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Samut",
+"category": "lore",
+"tags": [
+"dossier",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#dovin-baan",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Dovin Baan",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#angrath",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Angrath",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#venser",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Venser",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"has-non-canonical",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#xenagos",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Xenagos",
+"category": "lore",
+"tags": [
+"dossier",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#ashiok",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Ashiok",
+"category": "lore",
+"tags": [
+"dossier",
+"has-secondary",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#rowan--will-kenrith",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Rowan & Will Kenrith",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Planeswalker Dossiers.md#teyo-verada",
+"kind": "entry",
+"entry_kind": "dossier",
+"title": "Teyo Verada",
+"category": "lore",
+"tags": [
+"dossier",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#kaldheim",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Kaldheim",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#eldraine",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Eldraine",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ikoria",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ikoria",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#new-capenna",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "New Capenna",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#phyrexia-old-phyrexia--new-phyrexias-spheres",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Phyrexia (Old Phyrexia) & New Phyrexia's spheres",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ravnica-after-the-invasion-murders-at-karlov-manor",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ravnica after the invasion (Murders at Karlov Manor)",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#skalla",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Skalla",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#vryn",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Vryn",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#regatha",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Regatha",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#rath",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Rath",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#mercadia",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Mercadia",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ulgrotha",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ulgrotha",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ergamon",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ergamon",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#theros-the-underworld-theros-beyond-death",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Theros: the Underworld (Theros Beyond Death)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#muraganda",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Muraganda",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#kylem",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Kylem",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#gobakhan",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Gobakhan",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#shenmeng",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Shenmeng",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#segovia",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Segovia",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#zendikar-zendikar-rising-era",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Zendikar (Zendikar Rising era)",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#kamigawa-neon-dynasty-era",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Kamigawa (Neon Dynasty era)",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#dominaria-dominaria-united-era",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Dominaria (Dominaria United era)",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#arcavios--the-strixhaven-colleges",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Arcavios — the Strixhaven colleges",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#kaladesh--avishkar",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Kaladesh → Avishkar",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#amonkhet",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Amonkhet",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ixalan",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ixalan",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#innistrad",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Innistrad",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#zendikar-eldrazi-era",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Zendikar (Eldrazi era)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#theros",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Theros",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#tarkir",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Tarkir",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#ravnica-before-the-invasion",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Ravnica (before the invasion)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#alara",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Alara",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#mirrodin-before-phyrexia",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Mirrodin (before Phyrexia)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#lorwyn-shadowmoor",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Lorwyn-Shadowmoor",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#dominaria-before-dominaria-united",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Dominaria (before Dominaria United)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#kamigawa-kami-war-era",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Kamigawa (Kami War era)",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#fiora",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Fiora",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#shandalar",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Shandalar",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#thunder-junction",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Thunder Junction",
+"category": "lore",
+"tags": [
+"plane",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#bloomburrow",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Bloomburrow",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#duskmourn",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Duskmourn",
+"category": "lore",
+"tags": [
+"plane"
+],
+"headings": []
+},
+{
+"path": "Planes Index.md#sothera-system-the-edge",
+"kind": "entry",
+"entry_kind": "plane",
+"title": "Sothera system (the Edge)",
+"category": "lore",
+"tags": [
+"plane",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#golgothian-sylex",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Golgothian Sylex",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#blackblade",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Blackblade",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#immortal-sun",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Immortal Sun",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#chain-veil",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Chain Veil",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#godsend--khrusor",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Godsend & Khrusor",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#helvault",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Helvault",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#hedrons",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Hedrons",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#planar-bridge",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Planar Bridge",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#spear-of-hazoret",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Spear of Hazoret",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#temporal-anchor",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Temporal Anchor",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#ozolith",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Ozolith",
+"category": "lore",
+"tags": [
+"item",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#endstone",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Endstone",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#halo",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Halo",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#lithoform-core",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Lithoform Core",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#mightstone--weakstone",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Mightstone & Weakstone",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#celestus-sungold-lock--moonsilver-key",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Celestus, Sungold Lock & Moonsilver Key",
+"category": "lore",
+"tags": [
+"item",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#biblioplex--the-blood-avatar-strixhaven",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Biblioplex & the Blood Avatar (Strixhaven)",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#reality-chip",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Reality Chip",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#world-tree--the-sword-of-the-realms-kaldheim",
+"kind": "entry",
+"entry_kind": "item",
+"title": "World Tree & the Sword of the Realms (Kaldheim)",
+"category": "lore",
+"tags": [
+"item",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#theros-god-weapons",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Theros god weapons",
+"category": "lore",
+"tags": [
+"item",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#mana-rig-powerstones--thran-steel-dmu",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Mana Rig, powerstones & Thran steel (DMU)",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#singularity-beads-eoe",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Singularity beads (EOE)",
+"category": "lore",
+"tags": [
+"item"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#a-piece-of-the-house-duskmourn",
+"kind": "entry",
+"entry_kind": "item",
+"title": "A piece of the House (Duskmourn)",
+"category": "lore",
+"tags": [
+"item"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#elderspell",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Elderspell",
+"category": "lore",
+"tags": [
+"item"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#realmbreaker-the-invasion-tree",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Realmbreaker, the Invasion Tree",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Items & Artifacts Index.md#stormnexus-ritual--the-crucible-of-the-spirit-dragon-tarkir",
+"kind": "entry",
+"entry_kind": "item",
+"title": "Stormnexus Ritual & the Crucible of the Spirit Dragon (Tarkir)",
+"category": "lore",
+"tags": [
+"item",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#tarkir-timeline-rewrite",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Tarkir timeline rewrite",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#kaladesh--avishkar-rename",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Kaladesh → Avishkar rename",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#ar-after-reckoning-expansion",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "AR (After Reckoning) expansion",
+"category": "lore",
+"tags": [
+"retcon",
+"has-secondary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#emrakuls-path-off-zendikar",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Emrakul's path off Zendikar",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#bolas-after-war-of-the-spark",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Bolas after War of the Spark",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#omenpath-term-kaldheim--multiverse",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Omenpath term (Kaldheim → Multiverse)",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#tibalt-disguised-as-valki",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Tibalt disguised as Valki",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#the-wanderer-is-the-emperor-of-kamigawa",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "The Wanderer is the Emperor of Kamigawa",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#tamiyo-after-compleation",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Tamiyo after compleation",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#jace-compleated-then-healed",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Jace compleated, then healed",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#ashiok-on-eldraine-was-jace",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "\"Ashiok\" on Eldraine was Jace",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#jace-dead-then-fragments-then-dead",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Jace: dead, then fragments, then dead",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#okos-origin-revealed",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Oko's origin revealed",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#tam-revealed-as-jaces-creation",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Tam revealed as Jace's creation",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#did-bolas-create-amonkhet",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Did Bolas create Amonkhet?",
+"category": "lore",
+"tags": [
+"retcon",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#rivals-of-ixalan-alternate-endings-vs-lci-canon",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Rivals of Ixalan alternate endings vs LCI canon",
+"category": "lore",
+"tags": [
+"retcon",
+"has-non-canonical"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#spark-loss-after-the-invasion-mat--lci",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Spark loss after the invasion (MAT → LCI)",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#teferis-spark-given-up-then-a-planeswalker-again",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Teferi's spark: given up, then a Planeswalker again",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#the-sylex-plan-karn-2018-vs-the-invasion-copy",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "The sylex plan: Karn (2018) vs the invasion copy",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#the-immortal-sun-built-for-torrezon-found-in-orazca",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "The Immortal Sun: built for Torrezon, found in Orazca",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#nahiris-spark-sensed-by-ajani-but-gone",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Nahiri's spark: sensed by Ajani, but gone",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#the-moonsilver-key-innistrad-relic-then-teferis-artifact",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "The Moonsilver Key: Innistrad relic, then Teferi's artifact",
+"category": "lore",
+"tags": [
+"retcon",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#did-the-sylex-blast-cause-the-spark-loss",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Did the sylex blast cause the spark loss?",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#elspeth-struck-down-on-theros-then-back",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Elspeth: struck down on Theros, then back",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#the-living-guildpact-jace-then-niv-mizzet",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "The Living Guildpact: Jace, then Niv-Mizzet",
+"category": "lore",
+"tags": [
+"retcon",
+"has-retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#who-made-the-sylex",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Who made the sylex?",
+"category": "lore",
+"tags": [
+"retcon",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#vraskas-spark-after-compleation",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Vraska's spark after compleation",
+"category": "lore",
+"tags": [
+"retcon"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#which-ashiok-is-ashiok-202324",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Which \"Ashiok\" is Ashiok? (2023–24)",
+"category": "lore",
+"tags": [
+"retcon",
+"has-secondary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Contradictions & Retcons Log.md#venser-dead-in-canon-alive-in-the-echoverse",
+"kind": "entry",
+"entry_kind": "retcon",
+"title": "Venser: dead in canon, alive in the Echoverse",
+"category": "lore",
+"tags": [
+"retcon",
+"has-non-canonical"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#nicol-bolas",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Nicol Bolas",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ugin",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ugin",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#sorin-markov",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Sorin Markov",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"has-non-canonical",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#nahiri",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Nahiri",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#serra",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Serra",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#geyadrone-dihada",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Geyadrone Dihada",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#dakkon-blackblade",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Dakkon Blackblade",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#jaya-ballard",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Jaya Ballard",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#freyalise",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Freyalise",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#urza",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Urza",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#mishra",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Mishra",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#karn",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Karn",
+"category": "lore",
+"tags": [
+"character",
+"spark-given-up"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#teferi",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Teferi",
+"category": "lore",
+"tags": [
+"character",
+"spark-faded"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tevesh-szat",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tevesh Szat",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#lord-windgrace",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Lord Windgrace",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#yawgmoth",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Yawgmoth",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#venser",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Venser",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#jace-beleren",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Jace Beleren",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#chandra-nalaar",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Chandra Nalaar",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#gideon-jura",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Gideon Jura",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#nissa-revane",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Nissa Revane",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#liliana-vess",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Liliana Vess",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ajani-goldmane",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ajani Goldmane",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#vraska",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Vraska",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#garruk-wildspeaker",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Garruk Wildspeaker",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#elspeth-tirel",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Elspeth Tirel",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#sarkhan-vol",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Sarkhan Vol",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#narset",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Narset",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tamiyo",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tamiyo",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kaya",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kaya",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ral-zarek",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ral Zarek",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tezzeret",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tezzeret",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#oko",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Oko",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kaito-shizuki",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kaito Shizuki",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#niko-aris",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Niko Aris",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#the-wanderer",
+"kind": "entry",
+"entry_kind": "character",
+"title": "The Wanderer",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#koth",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Koth",
+"category": "lore",
+"tags": [
+"character",
+"spark-faded"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#saheeli-rai",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Saheeli Rai",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#huatli",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Huatli",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#rowan-kenrith",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Rowan Kenrith",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#jiang-yanggu",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Jiang Yanggu",
+"category": "lore",
+"tags": [
+"character",
+"spark-lost"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#lukka",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Lukka",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#wrenn",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Wrenn",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kiora",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kiora",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#samut",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Samut",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#teyo-verada",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Teyo Verada",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#elesh-norn",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Elesh Norn",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#sheoldred",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Sheoldred",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#jin-gitaxias",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Jin-Gitaxias",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#vorinclex",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Vorinclex",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#urabrask",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Urabrask",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tam",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tam",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ranna-beleren",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ranna Beleren",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kellan",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kellan",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#helga",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Helga",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kirol-abigale-lluwen-sanar",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kirol, Abigale, Lluwen, Sanar",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#proft-etrata-aminatou-niv-mizzet",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Proft, Etrata, Aminatou, Niv-Mizzet",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#uldaros-theorix",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Uldaros Theorix",
+"category": "lore",
+"tags": [
+"character",
+"has-non-canonical",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#pinnacle--sothera-cast-haliya-sami-mirri-alpharael",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Pinnacle / Sothera cast (Haliya, Sami, Mirri, Alpharael)",
+"category": "lore",
+"tags": [
+"character",
+"planeswalker"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#angrath",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Angrath",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#arlinn-kord",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Arlinn Kord",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ashiok",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ashiok",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#basri-ket",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Basri Ket",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#calix",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Calix",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#dack-fayden",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Dack Fayden",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"has-non-canonical",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#daretti",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Daretti",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#davriel-cane",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Davriel Cane",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#domri-rade",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Domri Rade",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#dovin-baan",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Dovin Baan",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#grist",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Grist",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#kasmina",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Kasmina",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#mu-yanling",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Mu Yanling",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#ob-nixilis",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Ob Nixilis",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"has-non-canonical",
+"status-unknown"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tibalt",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tibalt",
+"category": "lore",
+"tags": [
+"character",
+"has-unknowns",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#tyvar-kell",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Tyvar Kell",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#vivien-reid",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Vivien Reid",
+"category": "lore",
+"tags": [
+"character",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#will-kenrith",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Will Kenrith",
+"category": "lore",
+"tags": [
+"character",
+"has-secondary",
+"has-unknowns",
+"alive-or-active"
+],
+"headings": []
+},
+{
+"path": "Characters Index.md#xenagos",
+"kind": "entry",
+"entry_kind": "character",
+"title": "Xenagos",
+"category": "lore",
+"tags": [
+"character",
+"dead"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#pre-mending--ancient",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Pre-Mending / Ancient",
+"category": "lore",
+"tags": [
+"era"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#brothers-war--phyrexian-wars",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Brothers' War & Phyrexian wars",
+"category": "lore",
+"tags": [
+"era"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#dated-events-ar",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Dated events (AR)",
+"category": "lore",
+"tags": [
+"era",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#time-rifts--the-mending",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Time Rifts & the Mending",
+"category": "lore",
+"tags": [
+"era"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#post-mending-gatewatch-era",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Post-Mending (Gatewatch era)",
+"category": "lore",
+"tags": [
+"era",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#phyrexian-invasion",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Phyrexian Invasion",
+"category": "lore",
+"tags": [
+"era"
+],
+"headings": []
+},
+{
+"path": "Master Timeline.md#omenpath-era-post-invasion",
+"kind": "entry",
+"entry_kind": "era",
+"title": "Omenpath era (post-invasion)",
+"category": "lore",
+"tags": [
+"era",
+"has-secondary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#ancient-imprisoning-the-eldrazi",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Ancient: imprisoning the Eldrazi",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#the-brothers-war",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "The Brothers' War",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#phyrexia-vs-dominaria--the-weatherlight",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Phyrexia vs. Dominaria & the Weatherlight",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#time-rifts--the-mending",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Time Rifts & the Mending",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#conflux-of-alara",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Conflux of Alara",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#phyrexian-conquest-of-mirrodin",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Phyrexian conquest of Mirrodin",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#eldrazi-awaken--battle-for-zendikar--gatewatch",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Eldrazi Awaken / Battle for Zendikar / Gatewatch",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#innistrad--emrakul",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Innistrad & Emrakul",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#theros-xenagoss-ascension--elspeths-fall",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Theros: Xenagos's ascension & Elspeth's fall",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#kaladesh-revolt",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Kaladesh revolt",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#amonkhet--the-god-pharaoh",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Amonkhet & the God-Pharaoh",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#ixalan--the-immortal-sun",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Ixalan & the Immortal Sun",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#tarkir-fate-reforged",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Tarkir: Fate Reforged",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#return-to-dominaria--war-of-the-spark",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Return to Dominaria & War of the Spark",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#throne-of-eldraine-2019",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Throne of Eldraine (2019)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#theros-beyond-death-2020",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Theros Beyond Death (2020)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#ikoria-lair-of-behemoths-2020",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Ikoria: Lair of Behemoths (2020)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary",
+"has-unknowns",
+"has-cards"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#zendikar-rising-2020",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Zendikar Rising (2020)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#kaldheim-2021",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Kaldheim (2021)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#strixhaven-2021",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Strixhaven (2021)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#innistrad-midnight-hunt--crimson-vow-2021",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Innistrad: Midnight Hunt & Crimson Vow (2021)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#kamigawa-neon-dynasty-2022",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Kamigawa: Neon Dynasty (2022)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#streets-of-new-capenna-2022",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Streets of New Capenna (2022)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#dominaria-united-2022",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Dominaria United (2022)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#the-brothers-war-frame-story-2022",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "The Brothers' War frame story (2022)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#phyrexia-all-will-be-one-2023",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Phyrexia: All Will Be One (2023)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#march-of-the-machine-2023",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "March of the Machine (2023)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#march-of-the-machine-the-aftermath-2023",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "March of the Machine: The Aftermath (2023)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#wilds-of-eldraine-2023",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Wilds of Eldraine (2023)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#the-lost-caverns-of-ixalan-2023",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "The Lost Caverns of Ixalan (2023)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#murders-at-karlov-manor-2024",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Murders at Karlov Manor (2024)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#outlaws-of-thunder-junction-2024",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Outlaws of Thunder Junction (2024)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#bloomburrow-2024",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Bloomburrow (2024)",
+"category": "lore",
+"tags": [
+"arc",
+"has-secondary"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#duskmourn-house-of-horror-2024",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Duskmourn: House of Horror (2024)",
+"category": "lore",
+"tags": [
+"arc",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#aetherdrift-2025",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Aetherdrift (2025)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#tarkir-dragonstorm-2025",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Tarkir: Dragonstorm (2025)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#edge-of-eternities-2025",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Edge of Eternities (2025)",
+"category": "lore",
+"tags": [
+"arc",
+"has-unknowns"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#lorwyn-eclipsed-202526",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Lorwyn Eclipsed (2025–26)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#secrets-of-strixhaven-2026",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Secrets of Strixhaven (2026)",
+"category": "lore",
+"tags": [
+"arc"
+],
+"headings": []
+},
+{
+"path": "Conflicts & Arcs.md#jaces-echoverse-reality-fracture",
+"kind": "entry",
+"entry_kind": "arc",
+"title": "Jace's Echoverse (Reality Fracture)",
+"category": "lore",
+"tags": [
+"arc",
+"has-non-canonical"
+],
+"headings": []
 }
 ]
 }
