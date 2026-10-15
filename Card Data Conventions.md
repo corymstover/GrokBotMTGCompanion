@@ -70,7 +70,13 @@ Multi-face cards (split, adventure, transform, MDFC, flip, meld, etc.) show `Lay
 | `status: ❓ open question` | Data disputed/unclear (e.g. card previewed but not yet on Scryfall). |
 
 ## What counts as a "card" (universe)
-Scryfall Oracle cards that exist in paper — a paper printing, or legal/banned/restricted in Vintage, Legacy, or Commander (Scryfall's chosen printing is sometimes an MTGO-only reprint, e.g. Strip Mine → VMA). Excluded: Arena/Alchemy-only digital cards and token, emblem, art-series, Planechase plane/phenomenon, Archenemy scheme, Vanguard and reversible-card layouts. On 2026-10-15 this universe was **34,185** Oracle cards (32,116 Commander-legal) — consistent with the project's working total of ~33,000 unique cards.
+Scryfall Oracle cards that exist in paper — a paper printing, or legal/banned/restricted in Vintage, Legacy, or Commander (Scryfall's chosen printing is sometimes an MTGO-only reprint, e.g. Strip Mine → VMA). Excluded: Arena/Alchemy-only digital cards and token, emblem, art-series, Jumpstart front/theme cards (`front_card`), Planechase plane/phenomenon, Archenemy scheme, Vanguard and reversible-card layouts. On 2026-10-15 this universe was **33,894** Oracle cards — consistent with the project's working total of ~33,000 unique cards. **As of 2026-10-15 every one of them has an entry.**
+
+### Duplicate names
+A few distinct Oracle cards share a name (Unstable/Unfinity variants such as *Everythingamajig*, Un-set vs. Universes Beyond namesakes such as *Bounty Hunter*). Their headings are disambiguated as `Name (SET #collector)`; the CSV `name` column uses the same heading. Names that collapse to the same anchor (*Clear the Mind* / *Clear, the Mind*) get GitHub's `-1` suffix.
+
+### Verification
+`python3 scripts/verify_cards.py` re-checks **every** entry against the bulk file: index ↔ shard agreement (no missing/duplicate entries) and verbatim Oracle text, type line, mana cost, color identity, and flavor text. It must report `0 problems` before a card commit is pushed.
 
 ## Ingestion order
 1. `data/priority_cards.txt` (the original Grok project's categories: utility lands, land destruction, counterspells, plus ramp/removal/tutors/draw/protection).
