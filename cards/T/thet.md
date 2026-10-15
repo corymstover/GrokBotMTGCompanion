@@ -109,7 +109,7 @@
   > Whenever a Vehicle you control deals combat damage to a player, draw a card.
   > Crew 2
 - **Keywords:** Flying, Haste, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #14410 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #14410 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/753/the-thanos-copter) · oracle_id `e58e94dc-9602-48db-9dd9-9d3051c33a76` · printing: MSC #753 (2026-06-26) · [rulings](https://api.scryfall.com/cards/6fd703f5-32ee-47d6-a501-b45fb921e42f/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Theorist, Jace Beleren

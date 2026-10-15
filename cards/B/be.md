@@ -1565,7 +1565,7 @@
   > Whenever Bessie attacks, another target legendary creature can't be blocked this turn.
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Haste, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #11196 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #11196 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/who/171/bessie-the-doctors-roadster) · oracle_id `776aa036-08aa-4fa0-82bd-c09e6e3e2c5e` · printing: WHO #171 (2023-10-13) · [rulings](https://api.scryfall.com/cards/e5bb585d-2b49-44a0-93d0-98dc8e0727c2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Bess, Soul Nourisher

@@ -71,7 +71,7 @@
   > {4}{B}: Return this card from your graveyard to the battlefield tapped.
   > Crew 2
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #8756 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #8756 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fic/45/the-falcon-airship-restored) · oracle_id `9f4093a6-83f1-4c1d-8b03-8fe15647fb11` · printing: FIC #45 (2025-06-13) · [rulings](https://api.scryfall.com/cards/080fc2be-d463-4e8e-ba42-8f3cb0c95ed3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fall of Lord Konda // Fragment of Konda
@@ -102,7 +102,7 @@
   > Whenever you cast a noncreature spell, you may have The Fantasticar become an artifact creature until end of turn.
   > Whenever you cast your fourth noncreature spell each turn, you may sacrifice The Fantasticar. If you do, create four 4/4 colorless Construct artifact creature tokens with flying and haste.
 - **Keywords:** Flying
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #17571 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #17571 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/104/the-fantasticar) · oracle_id `9b0abb58-4e2c-45dc-99b1-61a4cb79354b` · printing: MSC #104 (2026-06-26) · [rulings](https://api.scryfall.com/cards/ed0beb69-8441-4104-9990-81bd82f81f9a/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Fantastic Four
@@ -190,7 +190,7 @@
   > {1}: Permanents your opponents control lose hexproof and indestructible until end of turn.
   > Crew 2
 - **Keywords:** Crew, Trample
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #7942 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #7942 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/tla/98/the-fire-nation-drill) · oracle_id `3d4b9d71-4275-4c18-a4dc-9aad234eb92c` · printing: TLA #98 (2025-11-21) · [rulings](https://api.scryfall.com/cards/54d762f6-e131-480f-b294-10f5a63d9c98/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The First Doctor

@@ -157,7 +157,7 @@
   > {1}, {T}: Draw two cards, then discard a card. Create a 1/1 colorless Pilot creature token with "This token crews Vehicles as though its power were 2 greater."
   > Crew 8 (Tap any number of creatures you control with total power 8 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2308 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2308 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/4/shorikai-genesis-engine) · oracle_id `e2962883-6daf-4a84-af73-917afc73092c` · printing: NEC #4 (2022-02-18) · [rulings](https://api.scryfall.com/cards/969ac7dd-f3aa-4888-9ff0-d16a31b5e7a9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Short Bow

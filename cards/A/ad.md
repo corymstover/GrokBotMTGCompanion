@@ -342,7 +342,7 @@
   > Whenever Adrestia attacks, if an Assassin crewed it this turn, draw a card. Adrestia becomes an Assassin in addition to its other types until end of turn.
   > Crew 1
 - **Keywords:** Landwalk, Crew, Islandwalk
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #8616 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #8616 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/68/adrestia) · oracle_id `94779ca4-c202-4163-9c77-1036921a34bc` · printing: ACR #68 (2024-07-05) · [rulings](https://api.scryfall.com/cards/b3d878fc-cc21-407f-b3cc-95bf2d717a80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Adriana, Captain of the Guard

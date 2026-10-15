@@ -540,7 +540,7 @@
   > 8+ | Flying
   > Other artifacts you control have hexproof and indestructible.
 - **Keywords:** Station
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #3556 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #3556 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/2/inspirit-flagship-vessel) · oracle_id `554df866-3dbb-4811-8573-6033481591aa` · printing: EOC #2 (2025-08-01) · [rulings](https://api.scryfall.com/cards/46900ec7-eb18-45c4-8e90-a48b665cfdee/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Instant Ramen

@@ -57,7 +57,7 @@
   > As long as it's your turn and you control an Army, Grond is an artifact creature.
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew, Trample
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #15855 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #15855 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/ltr/89/grond-the-gatebreaker) · oracle_id `ea52d9e8-5c25-429a-8de4-feb4558bdb99` · printing: LTR #89 (2023-06-23) · [rulings](https://api.scryfall.com/cards/4bc61b28-afdd-4de9-829b-ffe5ca7c7f19/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Grotesque Mutation

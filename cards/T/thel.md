@@ -52,7 +52,7 @@
 - **Flavor text** (DFT printing):
   > *The rearview mirror showed Winter what awaited him should he fail.*
 - **Keywords:** Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #15628 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #15628 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dft/94/the-last-ride) · oracle_id `3ef03540-b538-466d-aa3c-da6750117ba4` · printing: DFT #94 (2025-02-14) · [rulings](https://api.scryfall.com/cards/9cbb7b4e-bd32-44a0-9396-16738c5e4381/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Last Ronin
@@ -282,5 +282,5 @@
   > As long as The Lunar Whale attacked this turn, you may play the top card of your library.
   > Crew 1
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #10922 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #10922 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/60/the-lunar-whale) · oracle_id `13b4aeac-4530-4e09-a547-548b4884bb2f` · printing: FIN #60 (2025-06-13) · [rulings](https://api.scryfall.com/cards/ae875471-346c-4a76-b26f-b7205dad5b80/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

@@ -453,7 +453,7 @@
   > 8+ | Flying, vigilance, haste
   > Whenever you sacrifice a land, each opponent loses 2 life.
 - **Keywords:** Station
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #3366 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #3366 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoc/1/hearthhull-the-worldseed) · oracle_id `8d6f82d9-5c5b-4c41-8857-c0936f2d894c` · printing: EOC #1 (2025-08-01) · [rulings](https://api.scryfall.com/cards/6b913e79-a9f6-44d4-bb37-c4f6f66b8151/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heartless Act
@@ -528,7 +528,7 @@
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
   > You may remove a loyalty counter from a planeswalker you control rather than pay Heart of Kiran's crew cost.
 - **Keywords:** Flying, Vigilance, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #14661 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #14661 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/aer/153/heart-of-kiran) · oracle_id `e2ee410f-2467-4f1f-84a0-8a79faedc0b3` · printing: AER #153 (2017-01-20) · [rulings](https://api.scryfall.com/cards/5e847c44-1849-4251-9075-88ed5c7792a6/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Heart of Ramos

@@ -633,7 +633,7 @@
   > Whenever Damocles Base deals combat damage to a player, that player faces a villainous choice — They sacrifice a nontoken creature of their choice, or they lose 2 life and you draw two cards.
   > Crew 3
 - **Keywords:** Deathtouch, Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #14807 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #14807 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/msc/42/damocles-base-sword-of-kang) · oracle_id `544c9ad2-86f9-483e-a53c-f64c8602c393` · printing: MSC #42 (2026-06-26) · [rulings](https://api.scryfall.com/cards/89936964-7131-4ebf-b956-9692659866c1/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Damping Matrix
@@ -2110,7 +2110,7 @@
   > 10+ | Whenever you attack, Dawnsire deals 100 damage to up to one target creature or planeswalker.
   > 20+ | Flying
 - **Keywords:** Station
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2561 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2561 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/238/dawnsire-sunstar-dreadnought) · oracle_id `afc9436b-8cad-4916-929d-ff33a37b42d5` · printing: EOE #238 (2025-08-01) · [rulings](https://api.scryfall.com/cards/6133355c-3dcf-466a-b771-fe6c44d4fa4d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Dawn's Light Archer

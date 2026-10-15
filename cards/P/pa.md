@@ -1228,7 +1228,7 @@
   > Whenever Parhelion II attacks, create two 4/4 white Angel creature tokens with flying and vigilance that are attacking.
   > Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Vigilance, First strike, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #3250 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #3250 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/87/parhelion-ii) · oracle_id `24d22bcb-8a77-4c47-a508-6f4bc093c1d0` · printing: NEC #87 (2022-02-18) · [rulings](https://api.scryfall.com/cards/871279e6-9a59-470e-8acc-fd5fe4fda5b3/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Pariah

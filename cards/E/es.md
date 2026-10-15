@@ -202,7 +202,7 @@
   > Whenever Esika's Chariot attacks, create a token that's a copy of target token you control.
   > Crew 4
 - **Keywords:** Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #3051 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #3051 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/khm/169/esikas-chariot) · oracle_id `8e7b079d-9ede-421c-bd2b-f9a5126a8e6f` · printing: KHM #169 (2021-02-05) · [rulings](https://api.scryfall.com/cards/a87606cc-fbf0-4e2c-9798-f1c935d0573d/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Esior, Wardwing Familiar

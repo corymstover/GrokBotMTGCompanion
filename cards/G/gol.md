@@ -117,7 +117,7 @@
   > Whenever Golden Argosy attacks, exile each creature that crewed it this turn. Return them to the battlefield tapped under their owner's control at the beginning of the next end step.
   > Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #6088 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #6088 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/230/golden-argosy) · oracle_id `b636a16d-f5ca-443d-8e6f-a2c240700c36` · printing: DMU #230 (2022-09-09) · [rulings](https://api.scryfall.com/cards/f8611a53-e54e-4625-8e28-03511f1550e8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Golden Bear

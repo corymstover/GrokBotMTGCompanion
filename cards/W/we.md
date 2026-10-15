@@ -201,7 +201,7 @@
   > Whenever Weatherlight deals combat damage to a player, look at the top five cards of your library. You may reveal a historic card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. (Artifacts, legendaries, and Sagas are historic.)
   > Crew 3
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2496 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2496 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/165/weatherlight) · oracle_id `73b3682f-396a-4ebe-aaac-6ce3ee36283a` · printing: NEC #165 (2022-02-18) · [rulings](https://api.scryfall.com/cards/c86cf087-c50a-487a-bc1a-eee5410f14d9/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weatherlight Compleated
@@ -214,7 +214,7 @@
   > As long as Weatherlight Compleated has four or more phyresis counters on it, it's a Phyrexian creature in addition to its other types.
   > Whenever a creature you control dies, put a phyresis counter on Weatherlight Compleated. Then draw a card if it has seven or more phyresis counters on it. If it doesn't, scry 1.
 - **Keywords:** Scry, Flying
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #9827 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #9827 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/dmu/242/weatherlight-compleated) · oracle_id `060a7d77-61a8-4964-8fb6-35bd9a999517` · printing: DMU #242 (2022-09-09) · [rulings](https://api.scryfall.com/cards/976fd9d9-a9b5-40b6-ad38-4b3b263e1ebc/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Weather Maker

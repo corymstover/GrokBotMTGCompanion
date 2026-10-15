@@ -60,7 +60,7 @@ Multi-face cards (split, adventure, transform, MDFC, flip, meld, etc.) show `Lay
 | Oracle text | Current Oracle wording, verbatim. `<` escaped for Markdown. |
 | Flavor text | Verbatim flavor text **of the printing Scryfall selects for that Oracle ID** (flavor text is printing-specific and can differ between printings; the printing is named). Absent if that printing has none. |
 | Commander notes | Factual, data-derived only: Commander legality, EDHREC rank (popularity rank from Scryfall's `edhrec_rank`; lower = more played), Game Changer flag (Commander Brackets list, via Scryfall `game_changer`), commander eligibility, pairing mechanics (Partner, Partner with, Friends forever, Choose a Background, Doctor's companion, Companion), Reserved List. **No opinions.** |
-| Can be commander | *Derived heuristic*: "Yes" if the front face is a Legendary Creature or the Oracle text says "can be your commander"; Backgrounds flagged separately. Always confirm against the current Commander rules for edge cases. |
+| Can be commander | *Derived* from [Comprehensive Rules 903.3](https://magic.wizards.com/en/rules) (2026-09-25 edition): "Yes" if the front face is a legendary creature, legendary Vehicle, or legendary Spacecraft with a P/T box, or the Oracle text says "can be your commander" (903.3a); Backgrounds flagged separately. Check Commander banned-as-commander status (see [EDH Standards](EDH%20Standards.md#banned-list--legality)) for edge cases. |
 
 ## Source flags & verification status
 | Flag | Meaning |

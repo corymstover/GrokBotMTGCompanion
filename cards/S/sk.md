@@ -1557,7 +1557,7 @@
   > Whenever Skysovereign enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls.
   > Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2708 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2708 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/nec/159/skysovereign-consul-flagship) · oracle_id `50b14338-9318-4327-a1dd-c0ef38903cc4` · printing: NEC #159 (2022-02-18) · [rulings](https://api.scryfall.com/cards/4f8075be-8932-49b3-990b-4b365fa27e94/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Skystinger

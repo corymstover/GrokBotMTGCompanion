@@ -124,7 +124,7 @@
   > Whenever The Belligerent attacks, create a Treasure token. Until end of turn, you may look at the top card of your library any time, and you may play lands and cast spells from the top of your library.
   > Crew 3
 - **Keywords:** Treasure, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #6922 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #6922 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lci/225/the-belligerent) · oracle_id `9a0c9023-9431-4f98-b167-ab4c7215319c` · printing: LCI #225 (2023-11-17) · [rulings](https://api.scryfall.com/cards/1454af8c-bce9-47d3-890f-283e2fea2cf2/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Biblioplex

@@ -435,7 +435,7 @@
   > *Weigh, hey, roll and go!"*
   > *—"Randy Dandy Oh"*
 - **Keywords:** Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #6901 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #6901 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/acr/58/jackdaw) · oracle_id `ac161100-46b7-4f0f-a72b-84aaa45980ad` · printing: ACR #58 (2024-07-05) · [rulings](https://api.scryfall.com/cards/63056bb9-e825-418a-a8ff-692980aa65fe/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Jackdaw Savior

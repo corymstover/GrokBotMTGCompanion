@@ -147,7 +147,7 @@
   > Whenever The Regalia attacks, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
   > Crew 1
 - **Keywords:** Haste, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2438 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2438 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/267/the-regalia) · oracle_id `27a7610e-acbe-4a2b-9f61-81b383eb20a5` · printing: FIN #267 (2025-06-13) · [rulings](https://api.scryfall.com/cards/dc420e79-c483-474f-97cd-e9c6a636c306/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Restoration of Eiganjo // Architect of Restoration

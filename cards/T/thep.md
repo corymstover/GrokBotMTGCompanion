@@ -89,7 +89,7 @@
   > Whenever you cast a noncreature spell, if at least four mana was spent to cast it, The Prima Vista becomes an artifact creature until end of turn.
   > Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #19703 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #19703 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/fin/64/the-prima-vista) · oracle_id `a09d9754-a321-4018-a237-e613e915b642` · printing: FIN #64 (2025-06-13) · [rulings](https://api.scryfall.com/cards/e3998132-5746-4dde-9529-97d3ad7d7361/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Princess Takes Flight
@@ -114,5 +114,5 @@
   > Whenever another nontoken artifact you control enters, create a 2/2 white Human Knight creature token with "This token gets +2/+2 as long as an artifact entered the battlefield under your control this turn."
   > Crew 2
 - **Keywords:** Flying, Crew
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #6890 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #6890 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/pip/22/the-prydwen-steel-flagship) · oracle_id `f6ea8085-5ba9-43b6-994d-04be35c5793b` · printing: PIP #22 (2024-03-08) · [rulings](https://api.scryfall.com/cards/9c0a8eda-bfeb-4fd9-9e41-12fce02883d8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)

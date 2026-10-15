@@ -38,7 +38,7 @@
   > Crew 3
   > You may cast this card from your graveyard as long as you control three or more tapped Pirates and/or Vehicles.
 - **Keywords:** Crew, Trample
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2388 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2388 · Game Changer: no · Can be commander: Yes (legendary Vehicle, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/lcc/75/the-indomitable) · oracle_id `276dc5c8-c8cf-4b9c-ad75-31876e6e040a` · printing: LCC #75 (2023-11-17) · [rulings](https://api.scryfall.com/cards/e6456329-b521-474b-bfb5-bfcd7e52b5f8/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Infamous Cruelclaw

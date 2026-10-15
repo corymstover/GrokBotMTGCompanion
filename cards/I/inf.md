@@ -394,7 +394,7 @@
   > 12+ | Flying
   > Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control.
 - **Keywords:** Station
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #7517 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #7517 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/219/infinite-guideline-station) · oracle_id `cda39514-86c9-483e-8d95-fd08138ce33a` · printing: EOE #219 (2025-08-01) · [rulings](https://api.scryfall.com/cards/5688894a-bbec-476b-ae2e-94000be258d0/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### Infinite Reflection

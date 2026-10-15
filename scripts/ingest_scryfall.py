@@ -171,8 +171,13 @@ def commander_eligibility(c: dict) -> str:
     text = c.get("oracle_text") or " ".join(f.get("oracle_text", "") for f in faces)
     if "can be your commander" in text.lower():
         return "Yes (Oracle text: \"can be your commander\")"
+    # Comprehensive Rules 903.3 (2026-09-25): legendary creature, Vehicle, or Spacecraft with a P/T box.
     if "Legendary" in front_type and "Creature" in front_type:
         return "Yes (legendary creature)"
+    if "Legendary" in front_type and "Vehicle" in front_type:
+        return "Yes (legendary Vehicle, CR 903.3)"
+    if "Legendary" in front_type and "Spacecraft" in front_type and "power" in faces[0]:
+        return "Yes (legendary Spacecraft with P/T, CR 903.3)"
     if "Background" in front_type and "Legendary" in front_type:
         return "Only alongside a commander with *Choose a Background*"
     return "No"

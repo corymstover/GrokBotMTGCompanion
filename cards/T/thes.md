@@ -153,7 +153,7 @@
   > 7+ | Flying
   > Other tapped legendary creatures you control have indestructible.
 - **Keywords:** Station
-- **Commander notes:** Commander format: **legal** · EDHREC rank: #2751 · Game Changer: no · Can be commander: No
+- **Commander notes:** Commander format: **legal** · EDHREC rank: #2751 · Game Changer: no · Can be commander: Yes (legendary Spacecraft with P/T, CR 903.3)
 - **Source flags:** [Scryfall](https://scryfall.com/card/eoe/35/the-seriema) · oracle_id `a6bcec1f-f515-4e63-9e84-8eb04cc582ff` · printing: EOE #35 (2025-08-01) · [rulings](https://api.scryfall.com/cards/dec91ec3-42d3-4922-96f0-dbb50a576084/rulings) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Serpent Society
