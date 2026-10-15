@@ -80,6 +80,7 @@ PAGES = {
     "grixis/Grixis Corrections.md": ("edh", ["grixis", "corrections", "legality", "oracle"], [60], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "spellbook"]),
     "grixis/Grixis Packages.md": ("edh", ["grixis", "packages", "rules-insights"], [61], "scripts/build_grixis.py", ["grixis-repo", "scryfall", "cr"]),
     # Bot cycle 17 — Phase 5 optimization pass (#65–#68)
+    "EDH Bracket Calibration.md": ("edh", ["brackets", "calibration", "game-changers", "combos", "pilot-notes"], [68], "scripts/deck_calibration.py", ["scryfall", "spellbook", "edhrec", "wotc-articles"]),
     "Front-Matter Schema.md": ("meta", ["schema", "front-matter", "tags", "retrieval"], [65], "scripts/front_matter.py", []),
     "grixis/Grixis Integration Summary.md": ("meta", ["grixis", "summary", "follow-ups"], [59, 60, 61, 62, 63], None, ["grixis-repo"]),
 }

@@ -1,7 +1,7 @@
 {
 "schema": 1,
 "generated_by": "scripts/kb_find.py --build",
-"entries": 159,
+"entries": 160,
 "note": "Pages and decks only; card entries are indexed by data/card_index.csv.",
 "items": [
 {
@@ -1253,6 +1253,49 @@
 "EDH Staples.md",
 "EDH Packages.md",
 "EDH Win Conditions.md"
+]
+},
+{
+"path": "EDH Bracket Calibration.md",
+"kind": "page",
+"title": "EDH Bracket Calibration",
+"category": "edh",
+"tags": [
+"brackets",
+"calibration",
+"game-changers",
+"combos",
+"pilot-notes"
+],
+"headings": [
+[
+2,
+"Summary",
+"summary"
+],
+[
+2,
+"All decks",
+"all-decks"
+],
+[
+2,
+"Targets below the floor",
+"targets-below-the-floor"
+],
+[
+2,
+"Method",
+"method"
+]
+],
+"issues": [
+"68"
+],
+"related": [
+"EDH Standards.md",
+"cEDH Primer.md",
+"grixis/README.md"
 ]
 },
 {
@@ -3333,12 +3376,12 @@
 "65"
 ],
 "related": [
+"EDH Bracket Calibration.md",
 "Knowledge Index.md",
 "Card Data Conventions.md",
 "EDH Deck Evaluation Checklist.md",
 "EDH Deck Template.md",
-"Lookup Guide.md",
-"Tokens, Emblems & Dungeons.md"
+"Lookup Guide.md"
 ]
 },
 {
@@ -4236,7 +4279,7 @@
 "ROADMAP.md",
 "Artist Index.md",
 "EDH Archetypes.md",
-"EDH Deck Evaluation Checklist.md"
+"EDH Bracket Calibration.md"
 ]
 },
 {
@@ -4272,7 +4315,7 @@
 "Progress Tracker.md",
 "Art & Flavor Story Links.md",
 "Artist Index.md",
-"EDH Deck Evaluation Checklist.md"
+"EDH Bracket Calibration.md"
 ]
 },
 {
@@ -4776,6 +4819,11 @@
 "headings": [
 [
 2,
+"2026-10-15 — Bot cycle 19 (Phase 5 complete: bracket calibration & pilot notes)",
+"2026-10-15--bot-cycle-19-phase-5-complete-bracket-calibration--pilot-notes"
+],
+[
+2,
 "2026-10-15 — Bot cycle 18 (Phase 5: cross-references)",
 "2026-10-15--bot-cycle-18-phase-5-cross-references"
 ],
@@ -4869,6 +4917,7 @@
 "related": [
 "Knowledge Index.md",
 "Front-Matter Schema.md",
+"EDH Bracket Calibration.md",
 "EDH Deck Evaluation Checklist.md",
 "EDH Deck Template.md",
 "Progress Tracker.md"
@@ -4979,8 +5028,8 @@
 "EDH Interaction.md",
 "EDH Win Conditions.md",
 "Rules Interactions.md",
-"EDH Mulligans.md",
-"EDH Packages.md"
+"EDH Bracket Calibration.md",
+"EDH Mulligans.md"
 ]
 },
 {
@@ -5357,7 +5406,7 @@
 "EDH Standards.md",
 "grixis/Grixis Corrections.md",
 "grixis/Grixis Packages.md",
-"EDH Deck Evaluation Checklist.md"
+"EDH Bracket Calibration.md"
 ]
 },
 {
@@ -5387,6 +5436,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -5456,6 +5530,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -5519,6 +5618,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -5588,6 +5712,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -5651,6 +5800,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -5720,6 +5894,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -5785,6 +5984,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -5847,6 +6071,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -5916,6 +6165,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -5979,6 +6253,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6048,6 +6347,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6111,6 +6435,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6180,6 +6529,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6243,6 +6617,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6311,6 +6710,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6376,6 +6800,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6438,6 +6887,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6507,6 +6981,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6573,6 +7072,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6636,6 +7160,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6706,6 +7255,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6769,6 +7343,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6838,6 +7437,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -6901,6 +7525,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -6970,6 +7619,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7033,6 +7707,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7102,6 +7801,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7165,6 +7889,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7234,6 +7983,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7297,6 +8071,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7366,6 +8165,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7428,6 +8252,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7497,6 +8346,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7560,6 +8434,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7629,6 +8528,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7695,6 +8619,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7758,6 +8707,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7828,6 +8802,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -7892,6 +8891,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -7962,6 +8986,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -8029,6 +9078,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -8091,6 +9165,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -8160,6 +9259,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -8225,6 +9349,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -8287,6 +9436,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -8356,6 +9530,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Decklist (Archidekt import)",
 "decklist-archidekt-import"
 ],
@@ -8419,6 +9618,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -8507,6 +9731,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -8584,6 +9833,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -8668,6 +9942,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -8749,6 +10048,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -8827,6 +10151,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -8931,6 +10280,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9032,6 +10406,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9110,6 +10509,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -9199,6 +10623,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9280,6 +10729,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9357,6 +10831,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -9446,6 +10945,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9523,6 +11047,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -9606,6 +11155,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9686,6 +11260,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9759,6 +11358,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -9838,6 +11462,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9914,6 +11563,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -9987,6 +11661,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10071,6 +11770,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10144,6 +11868,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10223,6 +11972,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10296,6 +12070,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10375,6 +12174,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10451,6 +12275,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10524,6 +12373,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10607,6 +12481,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10680,6 +12579,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10759,6 +12683,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10831,6 +12780,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -10910,6 +12884,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -10983,6 +12982,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -11067,6 +13091,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -11145,6 +13194,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -11229,6 +13303,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -11310,6 +13409,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -11388,6 +13512,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,
@@ -11476,6 +13625,31 @@
 ],
 [
 2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
+],
+[
+2,
 "Corrections applied",
 "corrections-applied"
 ],
@@ -11559,6 +13733,31 @@
 2,
 "Bracket assessment",
 "bracket-assessment"
+],
+[
+2,
+"Bracket calibration & pilot notes",
+"bracket-calibration--pilot-notes"
+],
+[
+3,
+"Floor rationale",
+"floor-rationale"
+],
+[
+3,
+"Calibration context",
+"calibration-context"
+],
+[
+3,
+"Playing at a lower bracket (guidance)",
+"playing-at-a-lower-bracket-guidance"
+],
+[
+3,
+"Pilot notes (guidance)",
+"pilot-notes-guidance"
 ],
 [
 2,

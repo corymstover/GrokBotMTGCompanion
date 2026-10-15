@@ -6,6 +6,7 @@ Steps (run in this order; each prints its own summary):
   2 schema       scripts/front_matter.py --check         typed YAML front-matter on pages, decks and card shards
   3 index        scripts/kb_find.py --check              retrieval index data/kb_index.json is current
   4 crossrefs    scripts/build_crossrefs.py --check      reverse card index + "Referenced in" lines are current (when present)
+  4b calibration scripts/deck_calibration.py --check   bracket-calibration blocks + EDH Bracket Calibration.md are current
   5 citations    scripts/check_citations.py              Wizards URLs in sitemap/resolving (data/citations.json) + CR rule numbers exist
   6 oracle       scripts/verify_cards.py                 every card entry matches the Scryfall Oracle/rulings bulk verbatim
   7 decks        (built in)                              every deck list still resolves, is legal, fits identity, 100 cards, singleton,
@@ -98,6 +99,7 @@ def main(argv):
         os.environ["SCRYFALL_OFFLINE"] = "1"
     steps = [("links", ["scripts/check_links.py", "--all"]), ("schema", ["scripts/front_matter.py", "--check"]),
              ("index", ["scripts/kb_find.py", "--check"]), ("crossrefs", ["scripts/build_crossrefs.py", "--check"]),
+             ("calibration", ["scripts/deck_calibration.py", "--check"]),
              ("citations", ["scripts/check_citations.py"] + (["--online"] if online else [])),
              ("oracle", ["scripts/verify_cards.py"]), ("decks", None), ("freshness", None)]
     results = []
