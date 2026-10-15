@@ -103,14 +103,14 @@
 - Bolas lured Jace and Chandra to Zendikar; at the Eye of Ugin, "the prison trapping the Eldrazi" was damaged ([Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff)).
 - Ob Nixilis knocked the hedrons out of alignment to reignite his spark ([BFZ story summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23)).
 - Gideon, Nissa, Jace and Chandra swore oaths — "I will keep watch" — founding the Gatewatch ([Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03)); after the battle near the ruins of Sea Gate, "it was over" ([Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17)).
-- **Outcome:** Zendikar saved; Emrakul next appears on Innistrad (→ [Innistrad & Emrakul](#innistrad--emrakul)). ⚠️ The fate of Ulamog and Kozilek is not quoted from a fetched source this cycle.
+- **Outcome:** Zendikar saved; Emrakul next appears on Innistrad (→ [Innistrad & Emrakul](#innistrad--emrakul)). Ulamog and Kozilek are destroyed: "The leylines themselves caught fire … enveloping the titans" ([Zendikar's Last Stand](https://magic.wizards.com/en/news/magic-story/zendikars-last-stand-2016-02-17); sourced in Bot cycle 8, see [Story Arc Summaries](Story%20Arc%20Summaries.md#battle-for-zendikar--oath-of-the-gatewatch-201516)).
 - **Sources:** [Battle of Fort Keff](https://magic.wizards.com/en/news/magic-story/the-battle-of-fort-keff) · [BFZ summary](https://magic.wizards.com/en/news/magic-story/battle-zendikar-story-summary-2015-12-23) · [Oath of the Gatewatch](https://magic.wizards.com/en/news/magic-story/oath-gatewatch-2016-02-03)
 
 ## Innistrad & Emrakul
 **Sets:** Innistrad block (2011–12); Shadows over Innistrad, Eldritch Moon (2016) · **Timeline:** [Post-Mending (Gatewatch era)](Master%20Timeline.md#post-mending-gatewatch-era) · **Planes:** [Innistrad](Planes%20Index.md#planes-with-official-profiles) · **Characters:** [Sorin Markov](Characters%20Index.md#sorin-markov), [Nahiri](Characters%20Index.md#nahiri), [Jace Beleren](Characters%20Index.md#jace-beleren), [Liliana Vess](Characters%20Index.md#liliana-vess) · **Status:** ✅ / ⚠️
 
 - Nahiri took revenge on Sorin (Stone and Blood); Emrakul rose on Innistrad ([Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises), [Innistrad](https://magic.wizards.com/en/story/innistrad-plane)).
-- **Outcome:** ⚠️ How Emrakul was contained is not detailed in the fetched sources this cycle.
+- **Outcome:** Emrakul is bound in Innistrad's silver moon, with "the glyph still brightly inscribed on its surface" ([The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27); sourced in Bot cycle 8, see [Story Arc Summaries](Story%20Arc%20Summaries.md#shadows-over-innistrad--eldritch-moon-2016)).
 - **Sources:** [Emrakul Rises](https://magic.wizards.com/en/news/magic-story/emrakul-rises) · [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) · [Innistrad profile](https://magic.wizards.com/en/story/innistrad-plane)
 
 ## Kaladesh revolt

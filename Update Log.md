@@ -3,6 +3,7 @@
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)](#2026-10-15--bot-cycle-8-phase-2-complete-phase-3-keyword-encyclopedia-started)
 - [2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)](#2026-10-15--bot-cycle-7-phase-1-complete-phase-2-lore-depth-started)
 - [2026-10-15 — Bot cycle 6 (ROADMAP Phase 1: EDH & deckbuilding depth)](#2026-10-15--bot-cycle-6-roadmap-phase-1-edh--deckbuilding-depth)
 - [2026-10-15 — Bot cycle 5 (sprint: rules topics, remaining planes, story archive, maintenance)](#2026-10-15--bot-cycle-5-sprint-rules-topics-remaining-planes-story-archive-maintenance)
@@ -10,6 +11,20 @@
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-15 — Bot cycle 8 (Phase 2 complete; Phase 3 keyword encyclopedia started)
+
+> All entries in this section are **Bot cycle 8** (Grok Bot) changes, on branch `bot-cycle8`.
+
+| # | Summary | Files affected | Reason |
+|---|---|---|---|
+| 8.1 | Bot cycle 8: **Story Arc Summaries**, 19 arcs and 135 beats (was 7 / 52). Added BFZ/OGW, SOI/EMN, KLD/AER, AKH/HOU, DOM, WAR, WOE, LCI, DFT, EOE, ECL, SOS and Reality Fracture, each beat with an episode citation and verbatim quotes. ⚠️ flags: SOS (the white-robed man is Jace only by implication) and EOE (interactive structure). ❓ RF: Jadzi's fate. | `Story Arc Summaries.md` | #34 |
+| 8.2 | Bot cycle 8: **corrections in Conflicts & Arcs**. The BFZ and Innistrad outcome ⚠️ flags are replaced with sourced statements (the leyline fire destroys Ulamog and Kozilek; Emrakul is bound in the silver moon, per *The Promised End*). | `Conflicts & Arcs.md` | #34 |
+| 8.3 | Bot cycle 8: **Planeswalker Dossiers**, 21 (was 13). Added Gideon, Nahiri, Sorin, Ugin, Nicol Bolas, Ral Zarek, Oko and Tezzeret. Newly sourced spark moments: Gideon (Kytheon origin), Sorin (VOW Ep. 4), Ugin and Bolas (*Chronicle of Bolas*), plus Karn's partial (Venser's spark, DMU Ep. 1; the Echoverse Mishra version is 🚫). Remaining ❓ are listed. | `Planeswalker Dossiers.md` | #35 |
+| 8.4 | Bot cycle 8: **Art & Flavor Story Links** (generator). 269 Story Spotlight cards in 17 arcs with verbatim Scryfall flavor and artist. 32 link to the official story page that captions their art (the artist must match). Also 263 captioned cards on 53 cited story pages. 1,716 captions harvested from the lore corpus. | `Art & Flavor Story Links.md`, `scripts/build_art_flavor.py`, `data/story_art_captions.csv` | #37 |
+| 8.5 | Bot cycle 8: **Side-Media Index**. 22 items (novels, e-book collections, comics, D&D adventure, 1994 short story, Netflix series), with relevance notes and quotes from official Wizards pages. Partner sources are ⚠️ and gaps ❓ (e.g. IDW comics, the *Wildered Quest* author). | `Side-Media Index.md` | #38 |
+| 8.6 | Bot cycle 8: **Keyword Encyclopedia** (Phase 3 start, generator). 194 CR 702 abilities and 70 CR 701 actions, with verbatim definitions, card counts, earliest printing and 3 Commander-legal examples each (their entries carry the rulings). ✅ marks come from Wizards' Common Keywords glossary; no evergreen label was invented. | `Keyword Encyclopedia.md`, `scripts/build_keywords.py` | #39 |
+| 8.7 | Bot cycle 8: README dashboard, Progress Tracker (Phase 2 closed, Phase 3 open), Knowledge Index, ROADMAP tracking table, Update Log. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `ROADMAP.md`, `Update Log.md` | docs |
 
 ## 2026-10-15 — Bot cycle 7 (Phase 1 complete; Phase 2 lore depth started)
 
