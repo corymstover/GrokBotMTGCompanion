@@ -6,7 +6,7 @@
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
 
-## 2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples)
+## 2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)
 
 > All entries in this section are **Bot cycle** (Grok Bot) changes.
 
@@ -20,6 +20,8 @@
 | 2.6 | Bot cycle 2: **EDH Staples** (auto-generated, `scripts/build_staples.py`): top 15 Commander-legal cards per color identity (colorless, 5 mono, 10 two-color, 10 three-color) and per role/archetype (ramp, draw, removal, wipes, counterspells, tutors, protection, recursion, tokens, aristocrats, +1/+1 counters, spellslinger, landfall, utility lands) from 32,048 ranked cards, EDHREC-rank ordered, Game Changer flags, patterns documented. | `EDH Staples.md`, `scripts/build_staples.py` | Brief priority 3 (staples by color/archetype). |
 | 2.7 | Bot cycle 2: 3 new validated deck skeletons — Talrand, Sky Summoner (U, 3 GC, bracket floor 3), Teysa Karlov (WB, 2 GC, floor 3), Tatyova, Benthic Druid (GU, 2 GC, floor 3) — all 100 cards, singleton, strict identity, Commander-legal; **Synergy notes** section in EDH Standards quoting Oracle text + official WotC rulings (e.g. Teysa does not double “whenever you sacrifice” triggers). | `decks/talrand-sky-summoner.md`, `decks/teysa-karlov.md`, `decks/tatyova-benthic-druid.md`, `EDH Standards.md` | Issue #16 (closed) → follow-up #19. |
 | 2.8 | Bot cycle 2: dashboard/tracker/index refresh (Planes, EDH, rulings status), issue updates (#16 closed, #19 opened, progress on #12 and #14). | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep GitHub dashboard current. |
+| 2.9 | Bot cycle 2: **Characters Index deepened** — 47 table rows → **59 per-character entries** (who / late-2026 status / detail / See also: Planes, Arcs, Timeline / Sources with notes). Statuses resolved from fetched official stories: 29 ✅ / 20 ⚠️ → **54 ✅ / 1 ❓ (Sarkhan) / 3 ⚠️ (Sorin, Dihada, Dakkon) / 1 🚫**. New sections: Status at a glance, Sparks after the Phyrexian Invasion, Echoverse counterparts, Not yet reviewed (19 names). All 90 cited Wizards URLs are in the magic.wizards.com sitemap; check_links 0 broken. | `Characters Index.md` | Issue #11 (closed); follow-up #20. |
+| 2.10 | Bot cycle 2: dashboard/tracker/index rows for Characters; README priorities now point to #20. | `README.md`, `Progress Tracker.md`, `Knowledge Index.md`, `Update Log.md` | Keep the dashboard current. |
 
 ## 2026-10-15 — Bot cycle 1 (repository bootstrap)
 

@@ -18,7 +18,7 @@
 | [README.md](README.md) | Living dashboard: counts, progress, priorities, links. |
 | [Progress Tracker.md](Progress%20Tracker.md) | Quantitative status per area; mirrored in README. |
 | [Update Log.md](Update%20Log.md) | Every change: date, summary, files affected, reason. |
-| [Characters Index.md](Characters%20Index.md) | Characters by era with status. |
+| [Characters Index.md](Characters%20Index.md) | One entry per character: late-2026 status (✅/❓/⚠️/🚫), key events, source notes, links to Planes/Arcs/Timeline; status-at-a-glance table; post-invasion sparks table. |
 | [Planes Index.md](Planes%20Index.md) | Planes with summaries, key sets, and sources. |
 | [Conflicts & Arcs.md](Conflicts%20%26%20Arcs.md) | Major wars and story arcs. |
 | [Master Timeline.md](Master%20Timeline.md) | In-universe eras + real-world story release chronology. |

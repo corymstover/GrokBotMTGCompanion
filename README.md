@@ -23,14 +23,14 @@
 | Cards | ✅ **Full coverage** — 33,894 entries (Oracle text, flavor text, cost, type, identity, Commander notes), verified verbatim against Scryfall (0 problems) | [Card Index](Card%20Index.md) · [cards/](cards/) |
 | Master Timeline | 🟡 Initial — in-universe eras (source-anchored relative dates) + release chronology 2007–2027 | [Master Timeline](Master%20Timeline.md) |
 | Planes | 🟡 Deepening — 15 profiled planes + 6 Omenpath-era settings + **8 detailed entries** (Kaldheim, Eldraine, Ikoria, New Capenna, Phyrexia & New Phyrexia's spheres, post-invasion Ravnica, Skalla, Vryn) with source notes and 72 card links | [Planes Index](Planes%20Index.md) |
-| Characters | 🟡 Initial — 5 eras, 47 character rows (+30 more profiled names listed); 29 with a ✅ sourced status, rest ⚠️ Unverified | [Characters Index](Characters%20Index.md) |
+| Characters | 🟢 Deepened (Bot cycle 2) — 59 per-character entries with source notes and Planes/Arcs/Timeline links; **54 ✅ sourced statuses**, 1 ❓, 3 ⚠️ (Sorin, Dihada, Dakkon), 1 🚫 Echoverse; 19 names queued for review | [Characters Index](Characters%20Index.md) |
 | Conflicts & Arcs | 🟡 Initial — 15 arcs through Reality Fracture (2026-10) | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
 | EDH | 🟡 Standards (CR 903, Brackets, Game Changers, banned list) + **8 validated skeletons** + [EDH Staples](EDH%20Staples.md) (top cards for 26 color identities and 14 roles/archetypes, GC-flagged) + rulings-backed synergy notes | [EDH Standards](EDH%20Standards.md) · [EDH Staples](EDH%20Staples.md) · [decks/](decks/) |
 | Rules interactions | 🟡 Rulings: all 78,943 Scryfall rulings are inside card entries ([#10](https://github.com/corymstover/GrokBotMTGCompanion/issues/10) ✅); CR-cited interactions section not started — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9) | [Card Data Conventions](Card%20Data%20Conventions.md) |
 
 ### Next priorities
 1. **Rules interactions** section citing the 2026-09-25 Comprehensive Rules — [#9](https://github.com/corymstover/GrokBotMTGCompanion/issues/9); rulings ingestion — [#10](https://github.com/corymstover/GrokBotMTGCompanion/issues/10)
-2. **Lore:** verify post-2023 Planeswalker statuses — [#11](https://github.com/corymstover/GrokBotMTGCompanion/issues/11); missing planes — [#12](https://github.com/corymstover/GrokBotMTGCompanion/issues/12); Omenpath-era arcs — [#13](https://github.com/corymstover/GrokBotMTGCompanion/issues/13); story archive index — [#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)
+2. **Lore:** review the 19 remaining profiled Planeswalkers — [#20](https://github.com/corymstover/GrokBotMTGCompanion/issues/20) (#11 ✅ done); missing planes — [#12](https://github.com/corymstover/GrokBotMTGCompanion/issues/12); Omenpath-era arcs — [#13](https://github.com/corymstover/GrokBotMTGCompanion/issues/13); story archive index — [#14](https://github.com/corymstover/GrokBotMTGCompanion/issues/14)
 3. **EDH:** combo detection for brackets — [#15](https://github.com/corymstover/GrokBotMTGCompanion/issues/15); more skeletons & archetype guides — [#16](https://github.com/corymstover/GrokBotMTGCompanion/issues/16)
 4. **Maintenance:** refresh cards / ingest new sets each cycle — [#17](https://github.com/corymstover/GrokBotMTGCompanion/issues/17)
 

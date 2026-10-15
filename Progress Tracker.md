@@ -35,7 +35,7 @@
 |---|---|---|
 | Master Timeline | 🟡 initial | 6 in-universe eras, 23 release-chronology rows |
 | Planes Index | 🟡 deepening | 15 profiled planes + 6 recent settings + 4 special realms + **8 detailed entries** (6 new planes: Kaldheim, Eldraine, Ikoria, New Capenna, Skalla, Vryn; 2 deepened: Phyrexia/New Phyrexia, Ravnica post-invasion); 72 card links; 8 new official sources (Planeswalker's Guides) |
-| Characters Index | 🟡 initial | 47 rows in 5 eras (+30 listed names); 29 ✅ sourced statuses |
+| Characters Index | 🟢 deepened | 59 entries (was 47 rows); 54 ✅ / 1 ❓ / 3 ⚠️ / 1 🚫 (was 29 ✅ / 20 ⚠️); 19 names queued (#20) |
 | Conflicts & Arcs | 🟡 initial | 15 arcs (Omenpath-era table: 9 sets) |
 | Sources crawled | — | 563 magic.wizards.com story pages (79 profiles + 484 Magic Story articles); text kept off-repo |
 
