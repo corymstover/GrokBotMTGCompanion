@@ -31,7 +31,7 @@
 | [scripts/ingest_scryfall.py](scripts/ingest_scryfall.py) | Resumable Scryfall ingestion; regenerates cards, Card Index, dashboard stats. |
 | [scripts/verify_cards.py](scripts/verify_cards.py) | Verifies every card entry verbatim against Scryfall bulk (must be 0 problems). |
 | [scripts/build_deck_skeleton.py](scripts/build_deck_skeleton.py) | Builds + validates EDHREC-derived deck skeletons (identity, singleton, legality, bracket floor). |
-| [scripts/check_links.py](scripts/check_links.py) | Validates relative links/anchors in the hand-written docs (also run in CI). |
+| [scripts/check_links.py](scripts/check_links.py) | Validates relative links/anchors (`--all` includes card shards). CI workflow pending: the bot token lacks `workflow` scope. |
 
 ## Maintenance rules
 1. **Accuracy over volume.** Never invent facts. Card data comes only from Scryfall; lore only from official Wizards of the Coast material (cited by URL).
@@ -63,7 +63,8 @@
 4. Close finished issues with "Closed by <commit>"; open issues for new gaps; tag milestones when thresholds are crossed (`v0.N-<count>-cards`).
 
 ## GitHub workflow conventions
-- Conventional commits: `feat(cards)`, `feat(lore)`, `feat(edh)`, `docs`, `chore`, `ci`, `fix`.
+- Conventional commits: `feat(cards)`, `feat(lore)`, `feat(edh)`, `docs`, `chore`, `ci`, `fix`. **Grok Bot commits include "Bot cycle"** in the message; Update Log entries are labeled Bot cycle (a separate Grok Project Automation may also commit).
+- Always `git pull --rebase` immediately before pushing; never force-push.
 - Very large batches → feature branch + PR with summary; otherwise commit to `main`.
 - Labels: `cards`, `lore`, `edh`, `rules`, `high-priority`, `in-progress`.
 - Milestones: `v0.1 – 1,000 cards`, `v0.2 – 5,000 cards`, `v0.3 – 10,000 cards`, `v0.4 – 20,000 cards`, `v1.0 – Full card coverage`, `Lore foundation`.
