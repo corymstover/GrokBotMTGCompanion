@@ -35,7 +35,7 @@ Phase 4 — Structure & usability
 
 Rules: well-structured, cross-referenced, source-noted, no redundancy; official sources first (Scryfall, magic.wizards.com, Comprehensive Rules); flag non-canonical/uncertain; maintain README, Progress Tracker, issues/milestones; chain cycles continuously, stop only for genuine blockers.
 
-## Tracking (Bot cycle 6; updated Bot cycle 9)
+## Tracking (Bot cycle 6; updated Bot cycle 10)
 
 | Phase | Issue | Item | Status | Output |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ Rules: well-structured, cross-referenced, source-noted, no redundancy; official 
 | Phase 2 | [#37](https://github.com/corymstover/GrokBotMTGCompanion/issues/37) | Art & flavor integration tying significant cards back to story moments | ✅ Bot cycle 8 | [Art & Flavor Story Links](Art%20%26%20Flavor%20Story%20Links.md) |
 | Phase 2 | [#38](https://github.com/corymstover/GrokBotMTGCompanion/issues/38) | Side-media index (novels, webcomics, etc.) with relevance notes | ✅ Bot cycle 8 | [Side-Media Index](Side-Media%20Index.md) |
 | Phase 3 | [#39](https://github.com/corymstover/GrokBotMTGCompanion/issues/39) | Keyword & ability encyclopedia (evergreen and set-specific) with examples and ruling links | ✅ Bot cycle 9: 264 entries + 44 status labels + 217 ruling excerpts | [Keyword Encyclopedia](Keyword%20Encyclopedia.md) |
-| Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ⏳ open | — |
+| Phase 3 | [#40](https://github.com/corymstover/GrokBotMTGCompanion/issues/40) | Reprint & set-history notes per card where useful | ✅ Bot cycle 10: CSV + Printing History.md | [Printing History](Printing%20History.md) |
 | Phase 3 | [#41](https://github.com/corymstover/GrokBotMTGCompanion/issues/41) | Format legality matrix beyond Commander | ⏳ open | — |
 | Phase 3 | [#42](https://github.com/corymstover/GrokBotMTGCompanion/issues/42) | Structured token, emblem, and dungeon/adventure data | ⏳ open | — |
 | Phase 3 | [#43](https://github.com/corymstover/GrokBotMTGCompanion/issues/43) | Artist / art-credit index | ⏳ open | — |
