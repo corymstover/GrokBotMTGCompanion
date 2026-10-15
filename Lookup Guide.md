@@ -56,6 +56,7 @@ schema: 2
 | A full list to start from | [decks/](decks/) (46 validated) · [EDH Themed Decks](EDH%20Themed%20Decks.md) · [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
 | Competitive (Bracket 5) | ⚠️ [cEDH Primer](cEDH%20Primer.md) only |
 | A refined Grixis (U/B/R) list with the reasoning behind it | [grixis/](grixis/README.md) (40 decks) · `rg -l '^kind: grixis' grixis/decks/` |
+| Why a deck has its bracket floor, how to play it a bracket lower, pilot tips | the deck's *Bracket calibration & pilot notes* · all decks: [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · `rg -l '^bracket_floor: 2' decks/ grixis/decks/` |
 | Is my list legal, and what's its bracket floor? | `python3 scripts/evaluate_decklist.py my.txt --combos` · method: [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) |
 | How to build or refine a deck step by step | [EDH Deck Template](EDH%20Deck%20Template.md) |
 

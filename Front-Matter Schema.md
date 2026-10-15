@@ -5,14 +5,14 @@ tags: [schema, front-matter, tags, retrieval]
 issues: [65]
 generated_by: scripts/front_matter.py
 sources: []
-related: ["Knowledge Index.md", "Card Data Conventions.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Lookup Guide.md", "Tokens, Emblems & Dungeons.md"]
+related: ["EDH Bracket Calibration.md", "Knowledge Index.md", "Card Data Conventions.md", "EDH Deck Evaluation Checklist.md", "EDH Deck Template.md", "Lookup Guide.md"]
 schema: 2
 ---
 
 # Front-Matter Schema
 
 > **Auto-generated** by `scripts/front_matter.py` (Bot cycle 17, issue [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65)) from the `SCHEMA` and `PAGES` tables in the script, so this page cannot drift from what `--check` enforces. Schema version **2**. Do not hand-edit.
-> Coverage: **45** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
+> Coverage: **46** registered pages (README.md and GOAL.md are exempt), **86** decks, **684** card shards, **28** reverse-index pages. Related: [Lookup Guide](Lookup%20Guide.md) · [Knowledge Index](Knowledge%20Index.md) · [Card Data Conventions](Card%20Data%20Conventions.md).
 
 ## Contents
 - [Format](#format)
@@ -138,8 +138,9 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `banned-restricted` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `blueprint` | [EDH Deck Template](EDH%20Deck%20Template.md) |
 | `bracket-5` | [cEDH Primer](cEDH%20Primer.md) |
-| `brackets` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Standards](EDH%20Standards.md) |
+| `brackets` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) · [EDH Standards](EDH%20Standards.md) |
 | `budget` | [EDH Upgrade Paths](EDH%20Upgrade%20Paths.md) |
+| `calibration` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `card-advantage` | [EDH Packages](EDH%20Packages.md) |
 | `card-entries` | [Card Data Conventions](Card%20Data%20Conventions.md) |
 | `cedh` | [cEDH Primer](cEDH%20Primer.md) |
@@ -147,7 +148,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `characters` | [Characters Index](Characters%20Index.md) |
 | `checklist` | [EDH Deck Evaluation Checklist](EDH%20Deck%20Evaluation%20Checklist.md) |
 | `color-identity` | [EDH Mana Bases](EDH%20Mana%20Bases.md) · [EDH Standards](EDH%20Standards.md) · [EDH Staples](EDH%20Staples.md) |
-| `combos` | [EDH Win Conditions](EDH%20Win%20Conditions.md) |
+| `combos` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · [EDH Win Conditions](EDH%20Win%20Conditions.md) |
 | `comics` | [Side-Media Index](Side-Media%20Index.md) |
 | `competitive` | [cEDH Primer](cEDH%20Primer.md) |
 | `conflicts` | [Conflicts & Arcs](Conflicts%20%26%20Arcs.md) |
@@ -167,6 +168,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `follow-ups` | [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) |
 | `formats` | [Format Legality Matrix](Format%20Legality%20Matrix.md) |
 | `front-matter` | [Front-Matter Schema](Front-Matter%20Schema.md) |
+| `game-changers` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `grixis` | [Grixis Corrections](grixis/Grixis%20Corrections.md) · [Grixis Evaluation](grixis/Grixis%20Evaluation.md) · [Grixis Integration Summary](grixis/Grixis%20Integration%20Summary.md) · [Grixis Packages](grixis/Grixis%20Packages.md) · [README](grixis/README.md) |
 | `index` | [Card Index](Card%20Index.md) · [Knowledge Index](Knowledge%20Index.md) · [README](grixis/README.md) |
 | `interaction` | [EDH Interaction](EDH%20Interaction.md) |
@@ -190,6 +192,7 @@ Tags are lower-case kebab-case (`^[a-z0-9+]+(-[a-z0-9+]+)*$`). Page tags are ass
 | `packages` | [EDH Packages](EDH%20Packages.md) · [Grixis Packages](grixis/Grixis%20Packages.md) |
 | `pairings` | [EDH Pairings](EDH%20Pairings.md) |
 | `partner` | [EDH Pairings](EDH%20Pairings.md) |
+| `pilot-notes` | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) |
 | `plane-restricted` | [EDH Themed Decks](EDH%20Themed%20Decks.md) |
 | `planes` | [Omenpath & Multiverse Connections](Omenpath%20%26%20Multiverse%20Connections.md) · [Planes Index](Planes%20Index.md) |
 | `planeswalkers` | [Characters Index](Characters%20Index.md) · [Planeswalker Dossiers](Planeswalker%20Dossiers.md) |

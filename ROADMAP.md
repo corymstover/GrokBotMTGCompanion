@@ -5,7 +5,7 @@ tags: [roadmap, sprint]
 issues: []
 generated_by: hand-written
 sources: []
-related: ["Front-Matter Schema.md", "Lookup Guide.md", "Progress Tracker.md", "Art & Flavor Story Links.md", "Artist Index.md", "EDH Deck Evaluation Checklist.md"]
+related: ["Front-Matter Schema.md", "Lookup Guide.md", "Progress Tracker.md", "Art & Flavor Story Links.md", "Artist Index.md", "EDH Bracket Calibration.md"]
 schema: 2
 ---
 
@@ -93,5 +93,6 @@ The user asked for an optimization pass over the whole knowledge base: consisten
 | [#65](https://github.com/corymstover/GrokBotMTGCompanion/issues/65) | Typed front-matter on every major entry, documented schema, retrieval index | ✅ Bot cycle 17 | [Front-Matter Schema](Front-Matter%20Schema.md) · `scripts/front_matter.py` · `scripts/kb_find.py` · `data/kb_index.json` |
 | [#67](https://github.com/corymstover/GrokBotMTGCompanion/issues/67) | `scripts/validate_all.py`: links, citations, schema, Oracle drift | ✅ Bot cycle 17 | `scripts/validate_all.py` · `scripts/check_citations.py` · `data/citations.json` |
 | [#66](https://github.com/corymstover/GrokBotMTGCompanion/issues/66) | Bidirectional cross-references (cards ↔ decks, packages, rules, lore) | ✅ Bot cycle 18 | [Reverse card index](references/README.md) · *Referenced in* lines · deck *Cross-references* blocks · character-card tables · `scripts/build_crossrefs.py` |
-| [#68](https://github.com/corymstover/GrokBotMTGCompanion/issues/68) | Bracket calibration & pilot notes for every deck | ⏳ Bot cycle 19 | — |
+| [#68](https://github.com/corymstover/GrokBotMTGCompanion/issues/68) | Bracket calibration & pilot notes for every deck | ✅ Bot cycle 19 | [EDH Bracket Calibration](EDH%20Bracket%20Calibration.md) · per-deck *Bracket calibration & pilot notes* · `scripts/deck_calibration.py` |
 
+Phase 5 complete in Bot cycle 19; snapshot tag `v2.0-phase5-optimization`.
