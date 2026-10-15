@@ -36,7 +36,7 @@ schema: 2
 | [Nicol Bolas](#nicol-bolas) | Pre-Mending / Ancient | ✅ At large — escaped the Meditation Realm (spark status unknown) |
 | [Ugin](#ugin) | Pre-Mending / Ancient | ✅ Alive (weakened) — returned to Tarkir at the end of Tarkir: Dragonstorm |
 | [Sorin Markov](#sorin-markov) | Pre-Mending / Ancient | ⚠️ Unverified — no post-2021 Multiverse story states his status |
-| [Nahiri](#nahiri) | Pre-Mending / Ancient | ✅ Alive — survived compleation; diminished power; vows to close Zendikar to Planeswalkers |
+| [Nahiri](#nahiri) | Pre-Mending / Ancient | ✅ Alive — survived compleation; spark lost (Beyond Repair); vows to close Zendikar to Planeswalkers |
 | [Serra](#serra) | Pre-Mending / Ancient | ✅ Deceased ("long gone") |
 | [Geyadrone Dihada](#geyadrone-dihada) | Pre-Mending / Ancient | ⚠️ Unverified |
 | [Dakkon Blackblade](#dakkon-blackblade) | Pre-Mending / Ancient | ⚠️ Unverified |
@@ -147,7 +147,7 @@ schema: 2
 - **Lore-themed EDH decks:** [Nahiri, the Lithomancer](decks/lore-nahiri-the-lithomancer.md).
 - **Who:** Kor lithomancer; co-creator of the hedrons with Ugin and Sorin.
 - **Status (late 2026):** ✅ Alive — survived compleation; diminished power; vows to close Zendikar to Planeswalkers.
-- **Detail:** Sacrificed herself in the assault on New Phyrexia and returned compleated, leading the invasion of Zendikar. In the Aftermath story she is found alive by Ajani; "She might not wield the power she previously had" and swears "No Planeswalker will set foot on Zendikar ever again." ❓ Whether she still holds a spark is not stated.
+- **Detail:** Sacrificed herself in the assault on New Phyrexia and returned compleated, leading the invasion of Zendikar. In the Aftermath story she is found alive by Ajani; "She might not wield the power she previously had" and swears "No Planeswalker will set foot on Zendikar ever again." *(Bot cycle 27)* ✅ Spark lost: "Then again, she was no longer a Planeswalker." She finds the spark itself bound in the Skyclave—"It was her Planeswalker spark"—and later, after a fall, "She couldn't feel her spark at all" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)).
   - Hedron construction; feud with Sorin.
   - Compleated (ONE); restrains prisoners for Elesh Norn (MOM Ep. 1).
   - Survives the invasion (Beyond Repair).
@@ -219,7 +219,7 @@ schema: 2
 - **Sources:** [profile](https://magic.wizards.com/en/story/karn-planeswalker) · [MOM Ep. 7](https://magic.wizards.com/en/news/magic-story/episode-7-divine-intervention) · [MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life) · [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)
 
 ### Teferi
-- **Who:** Time mage who phased Zhalfir out of time; once gave up his spark and restored it.
+- **Who:** Time mage who phased Zhalfir out of time; once gave up his spark and restored it. *(Bot cycle 27)* Reclaim stated in DOM: "One of the reasons I took my spark back was to come with you" ([DOM Ep. 11](https://magic.wizards.com/en/news/magic-story/return-dominaria-episode-11-2018-05-23)).
 - **Status (late 2026):** ✅ Alive on Zhalfir — spark faded after the invasion.
 - **Detail:** Leads Zhalfir's armies against the praetors (MOM Ep. 9). Afterwards: "Teferi's spark had faded sometime after the invasion" (She Who Breaks the World).
   - Returns Zhalfir to the Multiverse (Wrenn swaps it with New Phyrexia).
@@ -557,9 +557,9 @@ schema: 2
 ## Sparks after the Phyrexian Invasion
 | Lost or gave up spark (✅ stated) | Still a Planeswalker (✅ stated) |
 |---|---|
-| Nissa, Teferi, Koth ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)); Karn — gave his up ([MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life)); Saheeli, Huatli ([LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns)); Rowan ([WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets)); Jiang Yanggu, Liliana ("former Planeswalker") ([Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) | Chandra, Ajani ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world), [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)); Kaya ([MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)); Garruk, Chandra, Ajani planeswalk in [RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday); Tam (inherits Jace's spark) |
+| Nissa, Teferi, Koth ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world)); Karn — gave his up ([MOM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-the-rhythms-of-life)); Saheeli, Huatli ([LCI: Pawns](https://magic.wizards.com/en/news/magic-story/the-lost-caverns-of-ixalan-pawns)); Rowan ([WOE Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-two-great-banquets)); Nahiri ("she was no longer a Planeswalker", [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)) *(Bot cycle 27)*; Jiang Yanggu, Liliana ("former Planeswalker") ([Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)) | Chandra, Ajani ([She Who Breaks the World](https://magic.wizards.com/en/news/magic-story/she-who-breaks-the-world), [Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)); Kaya ([MKM Ep. 10](https://magic.wizards.com/en/news/magic-story/episode-10-roots-of-decay)); Garruk, Chandra, Ajani planeswalk in [RF Ep. 10](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-10-happy-birthday); Tam (inherits Jace's spark) |
 
-The stated cause is uncertain even in-story: "Maybe this is some sort of natural response from the Multiverse; a great pruning" (She Who Breaks the World). ❓ Nahiri, Teyo, Will Kenrith, Bolas: spark status not stated.
+The stated cause is uncertain even in-story: "Maybe this is some sort of natural response from the Multiverse; a great pruning" (She Who Breaks the World). ❓ Teyo, Will Kenrith, Bolas: spark status not stated. *(Bot cycle 27: Nahiri moved to "lost".)*
 
 ## Echoverse counterparts
 Reality Fracture cards include 🚫 Echoverse versions with different histories ("These warped counterparts are denizens of the Echoverse" — [Legends of Reality Fracture (2026-10-12)](https://magic.wizards.com/en/news/magic-story/the-legends-of-reality-fracture)). Do **not** merge them into the Multiverse entries above. Examples: Gideon the Oathless, Karn, Gilded Guardian (spark gifted by a "great Planeswalker Mishra"), Kiora of Fire and Ashes, Tamiyo, Upriser Crowned, Koth of the Homestead, Liliana the Faultless, Chandra, Chill of Compliance, Garruk, Veiled Butcher, Ajani Unrelenting.
@@ -755,7 +755,7 @@ Reality Fracture cards include 🚫 Echoverse versions with different histories 
 - ❓ **Sarkhan Vol**: survived Ugin's ghostfire? ([TDM Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) ends with him diving into the storm.)
 - ❓ **Nicol Bolas**: whereabouts and spark after escaping by Omenpath ([LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber)).
 - ❓ **Sorin Markov**: no post-2021 Multiverse appearance found.
-- ❓ **Nahiri**: does she still have a spark?
+- ✅ **Nahiri**: spark lost — resolved Bot cycle 27 ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)).
 - ❓ **Ajani's "darkness"** in Secrets of Strixhaven and the "beings created to betray" ([SOS Ep. 6](https://magic.wizards.com/en/news/magic-story/secrets-of-strixhaven-episode-6-two-three-five-seven)).
 - ❓ **Urabrask**: the death scene is not in the fetched corpus (only Chandra's memory of it).
 - ❓ **Kasmina**: what was "the business with Professor Kasmina" (SOS Ep. 2)?

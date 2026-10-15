@@ -206,6 +206,7 @@ schema: 2
   - *2021-09-24* — If it is day, and the active player of the previous turn cast no spells during their turn, it becomes night.
   - *2021-09-24* — If it is night, and the active player of the previous turn cast two or more spells during their turn, it becomes day.
   - *2021-09-24* — If you choose to draw a card with The Celestus but some effect replaces that card draw with something else, you will still have to discard a card.
+- **Referenced in:** 1 page (1 lore & story) → [reverse index](../../references/T.md#the-celestus)
 - **Source flags:** [Scryfall](https://scryfall.com/card/mid/252/the-celestus) · oracle_id `c0ad2b5f-066b-424b-bddf-d3014731e599` · printing: MID #252 (2021-09-24) · source: Scryfall oracle_cards bulk 2026-10-15 · status: ✅ verified (Scryfall Oracle)
 
 ### The Chain Veil

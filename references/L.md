@@ -969,11 +969,12 @@ schema: 2
 
 ### Lithoform Engine
 
-[Card entry](../cards/L/li.md#lithoform-engine) · **3 pages** (decks 1 · edh guides 1 · rules 1)
+[Card entry](../cards/L/li.md#lithoform-engine) · **4 pages** (decks 1 · edh guides 1 · rules 1 · lore & story 1)
 
 - **Decks (1):** [Mishra, Eminent One (Grixis)](../grixis/decks/mishra-eminent-one.md)
 - **EDH guides (1):** [EDH Packages → Spellslinger: Spell copiers](../EDH%20Packages.md#spellslinger-spell-copiers)
 - **Rules (1):** [Rules Interactions → Mutate & merged permanents](../Rules%20Interactions.md#mutate--merged-permanents)
+- **Lore & story (1):** [Items & Artifacts Index → Lithoform Core](../Items%20%26%20Artifacts%20Index.md#lithoform-core)
 
 ### Lithomancer's Focus
 

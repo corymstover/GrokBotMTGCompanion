@@ -5,7 +5,7 @@ tags: [retcons, contradictions, canon]
 issues: [73, 76]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Conflicts & Arcs.md", "Characters Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md"]
+related: ["Conflicts & Arcs.md", "Characters Index.md", "Items & Artifacts Index.md", "Master Timeline.md", "Planes Index.md", "Planeswalker Dossiers.md"]
 schema: 2
 ---
 
@@ -42,6 +42,9 @@ schema: 2
 - [Added Bot cycle 26](#added-bot-cycle-26)
   - [The sylex plan: Karn (2018) vs the invasion copy](#the-sylex-plan-karn-2018-vs-the-invasion-copy)
   - [The Immortal Sun: built for Torrezon, found in Orazca](#the-immortal-sun-built-for-torrezon-found-in-orazca)
+- [Added Bot cycle 27](#added-bot-cycle-27)
+  - [Nahiri's spark: sensed by Ajani, but gone](#nahiris-spark-sensed-by-ajani-but-gone)
+  - [The Moonsilver Key: Innistrad relic, then Teferi's artifact](#the-moonsilver-key-innistrad-relic-then-teferis-artifact)
 - [Queue for later cycles](#queue-for-later-cycles)
 - [Open / do-not-resolve](#open--do-not-resolve)
 
@@ -251,11 +254,32 @@ Dossier, plane and items pass ([#74](https://github.com/corymstover/GrokBotMTGCo
 | **KB treatment** | Canon location for the XLN/RIX story = Orazca, Ixalan. ❓ The fetched text records Azor's stated plan but does not explain the change; do not invent one. |
 | **Related** | [Items → Immortal Sun](Items%20%26%20Artifacts%20Index.md#immortal-sun) · [Conflicts → Ixalan](Conflicts%20%26%20Arcs.md#ixalan--the-immortal-sun) |
 
+## Added Bot cycle 27
+Dossier, items and spark-status pass ([#74](https://github.com/corymstover/GrokBotMTGCompanion/issues/74), [#75](https://github.com/corymstover/GrokBotMTGCompanion/issues/75), [#76](https://github.com/corymstover/GrokBotMTGCompanion/issues/76)). Every quote below was checked verbatim against the fetched text.
+
+### Nahiri's spark: sensed by Ajani, but gone
+| Field | Detail |
+|---|---|
+| **Type** | ✅ resolved (in-story perception vs stated fact) |
+| **Earlier statement** | Ajani "was clearly still sensing her spark, even though it was no longer in her. If he wanted to think she was still a Planeswalker, she saw no reason to inform him otherwise" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)). The KB had listed her spark as ❓. |
+| **Later / overriding statement** | Same story: "Then again, she was no longer a Planeswalker." She finds the spark in the Skyclave ("It was her Planeswalker spark"), and after the fall "She couldn't feel her spark at all" ([Beyond Repair](https://magic.wizards.com/en/news/magic-story/beyond-repair)). |
+| **KB treatment** | Nahiri = spark lost (✅). What Ajani senses is the spark held apart from her, not one she still carries. Characters Index updated. |
+| **Related** | [Characters → Nahiri](Characters%20Index.md#nahiri) · [Characters → Sparks after the invasion](Characters%20Index.md#sparks-after-the-phyrexian-invasion) · [Items → Hedrons](Items%20%26%20Artifacts%20Index.md#hedrons) |
+
+### The Moonsilver Key: Innistrad relic, then Teferi's artifact
+| Field | Detail |
+|---|---|
+| **Type** | ⚠️ continuity inference (no contradiction) |
+| **Earlier statement** | The Key must be joined with "the Sungold Lock in the center of the Celestus" ([PW Guide to Midnight Hunt](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-innistrad-midnight-hunt)); at the end of VOW, "In Teferi's hand is the Moonsilver Key" ([VOW Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-till-death-do-us-part-2021-11-24)). |
+| **Later / overriding statement** | In BRO, the anchor's antenna focuses on "another of Teferi's artifacts, one he called the Moonsilver Key" ([BRO Ch. 2](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-2-antiquities)). |
+| **KB treatment** | Treat as the same key carried from Innistrad (⚠️ inferred; no fetched text says so outright). Do not add details about how he obtained or modified it. |
+| **Related** | [Items → Celestus, Sungold Lock & Moonsilver Key](Items%20%26%20Artifacts%20Index.md#celestus-sungold-lock--moonsilver-key) · [Items → Temporal Anchor](Items%20%26%20Artifacts%20Index.md#temporal-anchor) |
+
 ## Queue for later cycles
 | Candidate | Why queued | Needed sources |
 |---|---|---|
 | Weatherlight / Invasion-block novel continuity vs modern plane profiles | Profiles summarize; novels not fetched ⚠️ | Official novels / e-books once accessible; flag secondary until read |
-| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
+| Spark restorations after MOM Aftermath (losses logged Bot cycle 25; cycle 26 search of 588 fetched pages found no post-MAT restoration; cycle 27 moved Nahiri to 'lost'; Teyo, Will Kenrith and Bolas still unstated) | Later stories may restore sparks unevenly | Characters Index spark table + each dossier's sources |
 | Pre-Mending godlike Planeswalker power vs post-Mending portrayals in side media | Scope of Mending discussed unevenly | Time Spiral–era official text + modern clarifications |
 
 ## Open / do-not-resolve

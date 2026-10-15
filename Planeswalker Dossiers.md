@@ -18,7 +18,7 @@ schema: 2
 ## Contents
 - [Jace Beleren](#jace-beleren) · [Chandra Nalaar](#chandra-nalaar) · [Nissa Revane](#nissa-revane) · [Liliana Vess](#liliana-vess) · [Elspeth Tirel](#elspeth-tirel) · [Karn](#karn) · [Teferi](#teferi)
 - [Ajani Goldmane](#ajani-goldmane) · [Kaya](#kaya) · [Kaito Shizuki](#kaito-shizuki) · [Vraska](#vraska) · [Tamiyo](#tamiyo) · [Sarkhan Vol](#sarkhan-vol)
-- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)*
+- [Gideon Jura](#gideon-jura) · [Nahiri](#nahiri) · [Sorin Markov](#sorin-markov) · [Ugin](#ugin) · [Nicol Bolas](#nicol-bolas) · [Ral Zarek](#ral-zarek) · [Oko](#oko) · [Tezzeret](#tezzeret) *(Bot cycle 8)* · [Tam](#tam) *(Bot cycle 24)* · Chandra, Nissa, Liliana and Gideon extended *(Bot cycle 25)* · Kaya, Teferi, Karn, Sorin, Nahiri, Ral and Tezzeret extended *(Bot cycle 26)* · Vraska, Tamiyo, Sarkhan, Ugin, Bolas, Kaito and Oko extended *(Bot cycle 27)*
 - [Spark & allegiance summary](#spark--allegiance-summary)
 - [Character cards (name-matched)](#character-cards-name-matched)
 
@@ -183,6 +183,7 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | NEO prequel (2021) | Spark given by Himoto, the Kami of the Spark. | [Origin story](https://magic.wizards.com/en/news/magic-story/kaito-origin-stories-test-loyalty-path-forward-2021-12-16) |
+| NEO (2022) *(Bot cycle 27)* | Finds that "the emperor was gone, too" and pursues "The man with the metal arm". At the end he bows "to the new Regent of Kamigawa" and resolves: "He would search the Multiverse for Tamiyo. He would find a way to finish what he started and bring the emperor home." | [NEO Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-stranger-eiganjo-2022-01-24) · [Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27) |
 | ONE / MOM (2023) | Strike team; captive of Norn; returns to a burning Kamigawa: "Tamiyo fell—but Nashi lived." | [ONE Ep. 1](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-1-uncontrolled-descent) · [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
 | DSK (2024) | Planeswalks out of the House when Jace abandons him; returns through an artificial Omenpath built with his spark and stabs Valgavoth. | [DSK Ep. 4](https://magic.wizards.com/en/news/magic-story/episode-four-dont-give-up) · [Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-six-dont-die) |
 
@@ -196,6 +197,8 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | XLN/RIX (2017–18) | Hired by Bolas ("I would like to hire you for the use of your talents") to retrieve the Immortal Sun. She learns he wants "an artifact that imprisons Planeswalkers", and he later inspects "her memories of Ixalan". | [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) · [The Arbiter of Law](https://magic.wizards.com/en/news/magic-story/arbiter-law-left-chaos-his-wake-2018-01-24) · [Wool over the Eyes](https://magic.wizards.com/en/news/magic-story/wool-over-eyes-2018-02-14) |
+| XLN (2017) *(Bot cycle 27)* | Bolas's offer: "I can make you Guildmaster of the Golgari, Vraska." | [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) |
+| WAR (2019) *(Bot cycle 27)* | As Golgari queen, "Queen Vraska fought like a demon, using her cutlass like a surgical blade and her gorgon gaze"; she fights hand in hand with Jace. | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | RF (2026) | Learns that "the spell is held together by our body" and holds Jace as he dies. | [RF Ep. 6](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-6-the-man-who-kills-his-own-ambition) · [Ep. 9](https://magic.wizards.com/en/news/magic-story/reality-fracture-episode-9-unafraid) |
 | ONE (2023) | Lost on New Phyrexia ("the loss of Vraska"); compleated. | [ONE Ep. 3](https://magic.wizards.com/en/news/magic-story/assault-on-new-phyrexia-or-episode-3-inconceivable-losses) |
 | OTJ epilogue (set "One Year Prior") | "a bloodied and mangled Phyrexian gorgon" in Ranna's home: "Save him first." | [Epilogue 1](https://magic.wizards.com/en/news/magic-story/epilogue-1-the-invasion-tree) |
@@ -210,6 +213,9 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| SOI (2016) *(Bot cycle 27)* | With Jace at Thraben Cathedral; "Tamiyo, for her part, is unwilling to break personal promises in order to help save his life." | [I Am Avacyn](https://magic.wizards.com/en/news/magic-story/i-am-avacyn-2016-05-18) |
+| EMN (2016) *(Bot cycle 27)* | Binds Emrakul into the moon: "Tamiyo pulled out another scroll, a long scroll, a scroll with iron bands, and began reading a second spell." | [The Promised End](https://magic.wizards.com/en/news/magic-story/promised-end-2016-07-27) |
+| NEO (2022) *(Bot cycle 27)* | Holds Tezzeret "in a temporary state of paralysis"; in the epilogue Jin-Gitaxias has "succeeded in creating the first Phyrexianized planeswalker". "Her family would always come first." | [NEO Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-threads-war-2022-01-27) |
 | BRO (2022) | Compleated (see Characters Index). | [BRO Ch. 3](https://magic.wizards.com/en/news/magic-story/the-brothers-war-chapter-3-nemesis) |
 | MOM (2023) | Turns on Nashi on Kamigawa; her missed blow was "Tamiyo was making a request, in the only way she could." | [MOM Ep. 3](https://magic.wizards.com/en/news/magic-story/episode-3-mother-son-and-story) |
 | OTJ / DSK (2024) | Her story-self guides Nashi ("You did it … Just like I knew you could"); Nashi frees her shade from the scroll in Duskmourn. | [A Long Way from Home](https://magic.wizards.com/en/news/magic-story/a-long-way-from-home) · [DSK Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-six-dont-die) |
@@ -225,6 +231,8 @@ schema: 2
 |---|---|---|
 | Khans era (2014) | Spark ignites in dragonfire on a Mardu battlefield. | [Victory](https://magic.wizards.com/en/news/magic-story/victory-2014-11-26) |
 | Fate Reforged (2015) | Travels into Tarkir's past and saves Ugin. | [Tarkir story summary](https://magic.wizards.com/en/news/magic-story/story-tarkir-block-2015-04-29) |
+| Fate Reforged (2015) *(Bot cycle 27)* | Witnesses the duel: "When Sarkhan arrived on the scene, he watched in awe as these ancient dragon masterminds unleashed torrents of magic upon each other." Result: "The mighty dragons of Tarkir owe their existence to Planeswalker Sarkhan Vol." | [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07) · [Tarkir profile](https://magic.wizards.com/en/story/tarkir-plane) |
+| WAR (2019) *(Bot cycle 27)* | Returns from Amonkhet with Jace, Karn and Samut bearing the Spear of Hazoret. | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | TDM (2025) | Approached by Taigam ("I think I have something you want"); engulfed by Ugin's ghostfire. | [TDM Ep. 3](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-3-what-the-past-devours) · [Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) |
 
 **Allegiances:** Mardu (origin); devotee of dragons and of Ugin ([profile](https://magic.wizards.com/en/story/sarkhan-vol-planeswalker)).
@@ -290,6 +298,8 @@ schema: 2
 |---|---|---|
 | Ancient | His spark ignites on the birth plane; he binds the Eldrazi with Sorin and Nahiri. | [Whispers of Treachery](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-whispers-treachery-2018-07-11) · [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) |
 | Tarkir (original timeline) | Killed by Bolas; saved in the past by Sarkhan. | [The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) · [Tarkir](https://magic.wizards.com/en/story/tarkir-plane) |
+| ~1,000 years ago *(Bot cycle 27)* | "Ugin, called the Spirit Dragon, and the vampire Sorin Markov agreed to return if their aid was needed. But the Eldrazi nearly escaped over a thousand years ago, and neither Sorin nor Ugin came." | [Stone and Blood](https://magic.wizards.com/en/news/magic-story/stone-and-blood-2016-06-15) |
+| Fate Reforged (2015) *(Bot cycle 27)* | "Ugin's magic deals with the transmutation of matter into energy"; "the spirit dragon Ugin's magic coalesced into powerful storms on his native plane of Tarkir." | [PW Guide: Fate Reforged](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-fate-reforged-2015-01-07) |
 | After WAR (2019) | Imprisons Bolas in the Meditation Realm. | [LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber) |
 | TDM (2025) | Returns "bloodied and exhausted": "I have been remiss in the keeping of my brother." | [TDM Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) |
 
@@ -303,6 +313,8 @@ schema: 2
 | When (story) | Event | Source |
 |---|---|---|
 | Ancient | His spark ignites. In Tarkir's original timeline he kills Ugin. | [Perspectives](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-perspectives-2018-08-08) · [The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) |
+| Tarkir (original timeline) *(Bot cycle 27)* | "He killed Ugin by turning the minds of all the dragons against their own progenitor." | [Chronicle of Bolas: The Unwritten Now](https://magic.wizards.com/en/news/magic-story/chronicle-bolas-unwritten-now-2018-08-15) |
+| AER / XLN (2017) *(Bot cycle 27)* | Tezzeret flees to him ("run home to his master"); he hires Vraska: "I am Nicol Bolas, and I would like to hire you for the use of your talents." | [Puppets](https://magic.wizards.com/en/news/magic-story/puppets-2017-01-25) · [The Talented Captain Vraska](https://magic.wizards.com/en/news/magic-story/talented-captain-vraska-2017-09-20) |
 | HOU (2017) | Returns as Amonkhet's God-Pharaoh and routs the Gatewatch: "Let all tremble now." | [Hour of Devastation](https://magic.wizards.com/en/news/magic-story/hour-devastation-2017-07-26) |
 | WAR (2019) | His Elderspell steals sparks on Ravnica; defeated as the stolen Sparks evaporate. | [WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12) |
 | TDM / ECL (2025) | Breaks free ("Nicol Bolas, I am afraid, is free") and escapes through an Omenpath. | [TDM Ep. 7](https://magic.wizards.com/en/news/magic-story/tarkir-dragonstorm-episode-7-return) · [LE Ep. 2](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-2-shake-off-slumber) |
@@ -332,8 +344,10 @@ schema: 2
 
 | When (story) | Event | Source |
 |---|---|---|
+| Before WOE *(Bot cycle 27)* | Kellan's mother recalls meeting him: "He told me his name was Oko, and he told me that he was newly arrived in Eldraine." | [WOE Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths) |
 | WOE (2023) | Revealed as Kellan's father: "Oko. His father." | [WOE Ep. 5](https://magic.wizards.com/en/news/magic-story/episode-5-broken-oaths) |
 | OTJ (2024) | Leads the heist on Thunder Junction. | [OTJ Ep. 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge) |
+| OTJ (2024) *(Bot cycle 27)* | Leaves Kellan behind for the job; "Oko didn't know how to play the role of a doting father, but he was perfectly capable of feigning gratitude." | [OTJ Ep. 6](https://magic.wizards.com/en/news/magic-story/episode-6-the-ballad-of-thieves-and-thunderslingers) |
 | ECL (2025–26) | Maralen's brother; saves her ("This isn't how my little sister's story ends") and refuses to rule. | [LE Ep. 7](https://magic.wizards.com/en/news/magic-story/lorwyn-eclipsed-episode-7-the-charm-dissolves-apace) |
 
 **Allegiances:** His own freedom ("I love my freedom too much to be confined"). Family ties to Kellan and Maralen.

@@ -5,7 +5,7 @@ tags: [planes]
 issues: [7, 12]
 generated_by: hand-written
 sources: [wizards-story]
-related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Story Arc Summaries.md"]
+related: ["Characters Index.md", "Conflicts & Arcs.md", "Contradictions & Retcons Log.md", "Master Timeline.md", "Planeswalker Dossiers.md", "Items & Artifacts Index.md"]
 schema: 2
 ---
 
@@ -17,7 +17,7 @@ schema: 2
 ## Contents
 - [Planes with official profiles](#planes-with-official-profiles)
 - [Other planes in recent stories (Omenpath era)](#other-planes-in-recent-stories-omenpath-era)
-- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)*
+- [Detailed plane entries](#detailed-plane-entries): [Kaldheim](#kaldheim) · [Eldraine](#eldraine) · [Ikoria](#ikoria) · [New Capenna](#new-capenna) · [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres) · [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor) · [Skalla](#skalla) · [Vryn](#vryn) · [Regatha](#regatha) · [Rath](#rath) · [Mercadia](#mercadia) · [Ulgrotha](#ulgrotha) · [Ergamon](#ergamon) · [Theros Underworld](#theros-the-underworld-theros-beyond-death) · [Muraganda](#muraganda) · [Kylem](#kylem) · [Gobakhan](#gobakhan) · [Shenmeng](#shenmeng) · [Segovia](#segovia) · [Zendikar (ZNR)](#zendikar-zendikar-rising-era) · [Kamigawa (NEO)](#kamigawa-neon-dynasty-era) · [Dominaria (DMU)](#dominaria-dominaria-united-era) · [Arcavios colleges](#arcavios--the-strixhaven-colleges) · [Kaladesh → Avishkar](#kaladesh--avishkar) · [Amonkhet](#amonkhet) · [Ixalan](#ixalan) *(Bot cycle 25)* · [Innistrad](#innistrad) · [Zendikar (Eldrazi era)](#zendikar-eldrazi-era) · [Theros](#theros) · [Tarkir](#tarkir) *(Bot cycle 26)* · *(Bot cycle 27)* [Ravnica (before the invasion)](#ravnica-before-the-invasion) · [Alara](#alara) · [Mirrodin (before Phyrexia)](#mirrodin-before-phyrexia) · [Lorwyn-Shadowmoor](#lorwyn-shadowmoor)
 - [Special realms & cosmology](#special-realms--cosmology)
 - [Gaps / next to add](#gaps--next-to-add)
 
@@ -269,6 +269,30 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - ✅ Khanfall and after: "Led by the powerful dragonlords, the dragons' forces were ultimately able to hunt down and kill the clan leaders." Then "The later invasion by New Phyrexia resulted in substantial casualties for the dragons," weakening the dragonlords, and "Narset and the other rebellion leaders gathered at the remains of the Crucible of the Spirit Dragon" ([PW Guide to Tarkir: Dragonstorm Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-tarkir-dragonstorm-part-1)).
 - ✅ "Tarkir is a plane teeming with natural draconic energy, where dragons are born from fearsome storms" (same source). Arcs: [Tarkir: Fate Reforged](Conflicts%20%26%20Arcs.md#tarkir-fate-reforged), [Tarkir: Dragonstorm](Conflicts%20%26%20Arcs.md#tarkir-dragonstorm-2025).
 
+### Ravnica (before the invasion)
+*Added Bot cycle 27.* For the post-invasion city see [Ravnica after the invasion](#ravnica-after-the-invasion-murders-at-karlov-manor).
+- ✅ "Ravnica's vast, worldwide cityscape is a patchwork of grand halls, decrepit slums, and ancient ruins"; "Each of the ten guilds has mastered two of the five colors of mana, resulting in dramatically different cultural identities and functions" ([Ravnica profile](https://magic.wizards.com/en/story/ravnica-plane)).
+- ✅ The Guildpact: "For millennia, the Guildpact, a magical accord, helped maintain a relative peace on the plane." Then "The Guildpact has been dispelled, and for a time the guilds fell into chaos." "The planeswalker Jace Beleren has made Ravnica his adoptive home" ([PW Guide to Return to Ravnica Pt 1](https://magic.wizards.com/en/news/feature/planeswalkers-guide-to-return-to-ravnica-part-1)).
+- ✅ War of the Spark: Bolas's invasion of Ravnica, with Vraska as Golgari queen and the Immortal Sun / Elderspell ([WAR: Ashes](https://magic.wizards.com/en/news/magic-story/war-spark-ravnica-ashes-2019-06-12)). Arc: [War of the Spark](Conflicts%20%26%20Arcs.md#return-to-dominaria--war-of-the-spark). See [Items: Immortal Sun](Items%20%26%20Artifacts%20Index.md#immortal-sun), [Elderspell](Items%20%26%20Artifacts%20Index.md#elderspell).
+
+### Alara
+*Added Bot cycle 27.*
+- ✅ "The five shards of Alara were separate worlds for centuries, each one flowing with only three colors of mana." The shards: "Bant, an orderly, sunlit kingdom; Esper, a hegemony of wizards and sphinxes; Grixis, an undead-infested hellscape; Jund, a primordial hunting-ground ruled by dragons; and Naya, a lush jungle paradise" ([Alara profile](https://magic.wizards.com/en/story/alara-plane)).
+- ✅ The Conflux: "But now they have converged into one, and the rejoined plane flows with all five colors of mana once more." "Nicol Bolas, the ancient dragon Planeswalker, planned this all along. He came to Alara to feed on its rich mana" (same source). "The forces of Esper invade the other shards looking for carmot, an element necessary to create more of their dwindling etherium" (same source).
+- Arc: [Conflux of Alara](Conflicts%20%26%20Arcs.md#conflux-of-alara). ⚠️ Shards-era novels are not in the fetched set.
+
+### Mirrodin (before Phyrexia)
+*Added Bot cycle 27.* For the compleated plane see [Phyrexia & New Phyrexia's spheres](#phyrexia-old-phyrexia--new-phyrexias-spheres).
+- ✅ "On Mirrodin, everything is made of metal—from forests to mountains to grass." "Five suns cast their light on the plane, one for each color of mana." "Long ago, this metal plane was created by Karn, the silver golem built by the Planeswalker Urza" ([Mirrodin profile](https://magic.wizards.com/en/story/mirrodin-plane)).
+- ✅ The flaw: "He unwittingly introduced a dark contagion: Phyrexian oil." "Even the Warden that Karn created to protect the plane grew unstable, gaining sentience and calling himself Memnarch" (same source).
+- ✅ Fall: "The slow spread soon became an active campaign to alter, or compleat, the world of Mirrodin" ([New Phyrexia profile](https://magic.wizards.com/en/story/new-phyrexia-plane)). Arc: [Phyrexian conquest of Mirrodin](Conflicts%20%26%20Arcs.md#phyrexian-conquest-of-mirrodin).
+
+### Lorwyn-Shadowmoor
+*Added Bot cycle 27.*
+- ✅ "Lorwyn is an idyllic world where races of fable thrive in perpetual midsummer"; "every three centuries, that cycle transforms the plane into Shadowmoor." "The fae are the fulcrum of this transforming plane—for it was their queen, Oona, who caused it" ([Lorwyn-Shadowmoor profile](https://magic.wizards.com/en/story/lorwyn-and-shadowmoor-plane)).
+- ✅ After Oona: "the queen and mother of all faeries, Oona, had been defeated and destroyed, and her control over the cycle of day and night had ended." "Lorwyn, the day aspect, and Shadowmoor, the night aspect, are divided and kept separate, either by the Great Aurora, as they were during the Age of Oona, or by auroras in the current age" ([PW Guide to Lorwyn Eclipsed](https://magic.wizards.com/en/news/magic-story/planeswalkers-guide-to-lorwyn-eclipsed)). "Lorwyn-Shadowmoor is about duality" (same source).
+- Arc: [Lorwyn Eclipsed](Conflicts%20%26%20Arcs.md#lorwyn-eclipsed-202526).
+
 ## Special realms & cosmology
 - **Blind Eternities** — the chaotic void between planes, home of the Eldrazi titans ([Zendikar profile](https://magic.wizards.com/en/story/zendikar-plane)).
 - **Omenpaths** — portals between planes that appeared after the Phyrexian Invasion, letting non-Planeswalkers travel (used throughout OTJ, Lorwyn Eclipsed and SOS stories; ✅ e.g. [OTJ Episode 1](https://magic.wizards.com/en/news/magic-story/episode-1-an-offer-of-revenge)). ⚠️ The exact in-story origin of the Omenpaths is not yet cited here — open question for next cycle.
@@ -280,4 +304,5 @@ No standalone official profile was found in the 2026-10-15 sitemap for these; fa
 - **Done in Bot cycle 5:** Mercadia and Ulgrotha (sourced from the official *Known Multiverse* overview), Ergamon, Vryn (mage-rings and factions), Zendikar Rising-era Zendikar, Neon Dynasty Kamigawa, Dominaria United-era Dominaria, and the Strixhaven colleges.
 - **Done in Bot cycle 25:** Kaladesh → Avishkar, Amonkhet, Ixalan (detailed entries from PW Guides, profiles and episodes).
 - **Done in Bot cycle 26:** Innistrad, Zendikar (Eldrazi era), Theros, Tarkir.
+- **Done in Bot cycle 27:** Ravnica (before the invasion), Alara, Mirrodin (before Phyrexia), Lorwyn-Shadowmoor.
 - **Still to add:** Nauctis (announced set "Nauctis: The Sunken Realm", Scryfall release 2027-02 — ❓ no story yet). Tracked in GitHub issue #12.
